@@ -76,20 +76,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 96,
-  "Name": "Barrows-Rempel",
-  "ContentType": "quia",
-  "AttSize": 785,
+  "AttachmentId": 618,
+  "Name": "Jast, Leuschke and O'Kon",
+  "ContentType": "corporis",
+  "AttSize": 364,
   "InlineImage": false,
-  "ContentId": "ipsum",
-  "AuthKey": "ratione",
+  "ContentId": "quo",
+  "AuthKey": "necessitatibus",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldLength": 974
     }
   }
 }

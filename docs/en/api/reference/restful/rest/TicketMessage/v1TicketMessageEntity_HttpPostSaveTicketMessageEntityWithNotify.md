@@ -25,7 +25,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-POST /api/v1/TicketMessage?notify=True
+POST /api/v1/TicketMessage?notify=False
 ```
 
 
@@ -123,67 +123,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 543,
+  "EjMessageId": 276,
   "Ticket": null,
-  "CreatedAt": "2023-11-02T14:13:49.3836927+01:00",
+  "CreatedAt": "1999-02-02T02:38:26.4953951+01:00",
   "CreatedBy": null,
-  "Author": "cumque",
+  "Author": "provident",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "aut",
-  "TimeSpent": 871,
-  "Body": "qui",
-  "HtmlBody": "quidem",
-  "EmailHeader": "ned_koelpin@cummingsbruen.uk",
-  "DebugInfo": "nam",
-  "MailSorter": "non",
+  "MessageId": "repellendus",
+  "TimeSpent": 301,
+  "Body": "iusto",
+  "HtmlBody": "sit",
+  "EmailHeader": "muriel@witting.uk",
+  "DebugInfo": "ea",
+  "MailSorter": "eligendi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "maxime",
+  "SearchTitle": "dolores",
   "MessageHeaders": [
     {
-      "Id": 552,
-      "Name": "Shanahan, Smitham and Lemke",
-      "Value": "sit",
+      "Id": 203,
+      "Name": "Turcotte Group",
+      "Value": "esse",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 552,
-      "Name": "Shanahan, Smitham and Lemke",
-      "Value": "sit",
+      "Id": 203,
+      "Name": "Turcotte Group",
+      "Value": "esse",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "error",
-  "Sentiment": 80,
-  "SentimentConfidence": 193,
+  "Important": false,
+  "Language": "libero",
+  "Sentiment": 959,
+  "SentimentConfidence": 128,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 635,
-      "Name": "Bartoletti-Schoen",
-      "ContentType": "ut",
-      "AttSize": 147,
+      "AttachmentId": 823,
+      "Name": "Rath, Howell and Terry",
+      "ContentType": "quas",
+      "AttSize": 994,
       "InlineImage": true,
-      "ContentId": "est",
-      "AuthKey": "qui",
-      "IsSafeFileExtension": false
+      "ContentId": "quo",
+      "AuthKey": "excepturi",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eum",
-    "ExtraFields2": "laudantium"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "quia"
+    "CustomFields1": "quae",
+    "CustomFields2": "et"
   }
 }
 ```
@@ -195,28 +195,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 640,
+  "EjMessageId": 351,
   "Ticket": null,
-  "CreatedAt": "2020-12-08T14:13:49.3836927+01:00",
+  "CreatedAt": "2000-04-17T02:38:26.4953951+02:00",
   "CreatedBy": null,
-  "Author": "porro",
+  "Author": "in",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolores",
-  "TimeSpent": 239,
-  "Body": "qui",
-  "HtmlBody": "dolor",
-  "EmailHeader": "mariana.stamm@roob.co.uk",
-  "DebugInfo": "molestiae",
-  "MailSorter": "eum",
+  "MessageId": "et",
+  "TimeSpent": 709,
+  "Body": "adipisci",
+  "HtmlBody": "maiores",
+  "EmailHeader": "patrick.powlowski@flatley.co.uk",
+  "DebugInfo": "sapiente",
+  "MailSorter": "dolor",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "cumque",
+  "SearchTitle": "esse",
   "MessageHeaders": [
     {
-      "Id": 831,
-      "Name": "Cronin, Rosenbaum and Von",
-      "Value": "libero",
+      "Id": 354,
+      "Name": "Schultz Group",
+      "Value": "molestiae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -224,50 +224,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 120
+          "FieldLength": 308
         }
       }
     }
   ],
   "Important": true,
-  "Language": "laboriosam",
-  "Sentiment": 351,
-  "SentimentConfidence": 477,
+  "Language": "dolor",
+  "Sentiment": 438,
+  "SentimentConfidence": 163,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 916,
-      "Name": "Friesen, Marvin and Stracke",
-      "ContentType": "rem",
-      "AttSize": 686,
+      "AttachmentId": 125,
+      "Name": "Hessel LLC",
+      "ContentType": "pariatur",
+      "AttSize": 787,
       "InlineImage": false,
-      "ContentId": "omnis",
-      "AuthKey": "odio",
+      "ContentId": "culpa",
+      "AuthKey": "exercitationem",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 172
+          "FieldType": "System.String",
+          "FieldLength": 340
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "laborum",
-    "ExtraFields2": "perferendis"
+    "ExtraFields1": "facilis",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "debitis",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "adipisci"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 895
+      "FieldType": "System.Int32",
+      "FieldLength": 623
     }
   }
 }

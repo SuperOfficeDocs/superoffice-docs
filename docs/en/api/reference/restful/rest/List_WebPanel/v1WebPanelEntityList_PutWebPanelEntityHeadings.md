@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 262,
-    "Name": "Lowe LLC",
-    "Tooltip": "ratione",
-    "Deleted": false,
-    "Rank": 470,
-    "UdListDefinitionId": 198
+    "HeadingId": 747,
+    "Name": "Lesch, Rippin and Conroy",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 619,
+    "UdListDefinitionId": 626
   },
   {
-    "HeadingId": 262,
-    "Name": "Lowe LLC",
-    "Tooltip": "ratione",
-    "Deleted": false,
-    "Rank": 470,
-    "UdListDefinitionId": 198
+    "HeadingId": 747,
+    "Name": "Lesch, Rippin and Conroy",
+    "Tooltip": "qui",
+    "Deleted": true,
+    "Rank": 619,
+    "UdListDefinitionId": 626
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 670,
-    "Name": "Ortiz, Parker and Zboncak",
-    "Tooltip": "et",
+    "HeadingId": 907,
+    "Name": "Wyman LLC",
+    "Tooltip": "aperiam",
     "Deleted": false,
-    "Rank": 123,
-    "UdListDefinitionId": 661,
+    "Rank": 194,
+    "UdListDefinitionId": 484,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 574
+        "FieldType": "System.Int32",
+        "FieldLength": 36
       }
     }
   }

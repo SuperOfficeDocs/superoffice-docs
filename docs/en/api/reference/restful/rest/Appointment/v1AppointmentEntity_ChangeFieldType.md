@@ -104,7 +104,7 @@ AppointmentEntity found.
 POST /api/v1/Appointment/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 886,
-  "ColumnId": 124,
-  "FieldDefault": "aut",
-  "FieldHeight": 341,
-  "FieldLabel": "vero",
-  "FieldLeft": 690,
-  "FieldTop": 728,
+  "UDefFieldId": 869,
+  "ColumnId": 275,
+  "FieldDefault": "est",
+  "FieldHeight": 85,
+  "FieldLabel": "pariatur",
+  "FieldLeft": 742,
+  "FieldTop": 692,
   "FieldType": "Checkbox",
-  "FieldWidth": 801,
-  "FormatMask": "repellendus",
-  "HideLabel": true,
+  "FieldWidth": 156,
+  "FormatMask": "dicta",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 151,
-  "LabelLeft": 539,
-  "LabelTop": 692,
-  "LabelWidth": 806,
-  "LastVersionId": 376,
-  "ListTableId": 537,
+  "LabelHeight": 870,
+  "LabelLeft": 970,
+  "LabelTop": 567,
+  "LabelWidth": 456,
+  "LastVersionId": 944,
+  "ListTableId": 520,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 903,
-  "ProgId": "est",
+  "Page1LineNo": 265,
+  "ProgId": "minima",
   "IsReadOnly": false,
-  "ShortLabel": "quod",
-  "TabOrder": 737,
-  "TextLength": 6,
-  "Tooltip": "est",
-  "UdefIdentity": 823,
-  "UDListDefinitionId": 798,
+  "ShortLabel": "et",
+  "TabOrder": 529,
+  "TextLength": 715,
+  "Tooltip": "similique",
+  "UdefIdentity": 710,
+  "UDListDefinitionId": 17,
   "Justification": "Center",
-  "Version": 71,
-  "TemplateVariableName": "Von LLC",
+  "Version": 146,
+  "TemplateVariableName": "O'Kon-Larkin",
   "HasBeenPublished": false,
-  "MdoListName": "Gleason, Larson and O'Reilly",
+  "MdoListName": "Gutmann LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 862
+      "FieldType": "System.Int32",
+      "FieldLength": 178
     }
   }
 }

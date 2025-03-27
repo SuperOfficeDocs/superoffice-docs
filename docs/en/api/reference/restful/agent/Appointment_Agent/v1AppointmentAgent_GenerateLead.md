@@ -92,18 +92,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 677,
-  "LeadDescription": "Adaptive attitude-oriented monitoring",
-  "Relation": "sint",
-  "RelationId": 798,
-  "LeadContact": "maxime",
-  "LeadPersonFirstname": "Rosalia",
-  "LeadPersonLastname": "Corkery",
-  "LeadPersonEmail": "loraine@wintheiser.uk",
-  "LeadPhoneNumber": "642975",
-  "CreatorsContact": "dolor",
-  "CreatorsFirstname": "Ida",
-  "CreatorsLastname": "Cronin"
+  "AssociateIdForNewContact": 569,
+  "LeadDescription": "De-engineered tertiary frame",
+  "Relation": "necessitatibus",
+  "RelationId": 732,
+  "LeadContact": "quae",
+  "LeadPersonFirstname": "Aurore",
+  "LeadPersonLastname": "Feil",
+  "LeadPersonEmail": "harmony@dickens.info",
+  "LeadPhoneNumber": "487895",
+  "CreatorsContact": "atque",
+  "CreatorsFirstname": "Cassandre",
+  "CreatorsLastname": "Quigley"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 504,
-      "Name": "Ebert Group",
-      "OrgNr": "679803",
+      "ContactId": 843,
+      "Name": "Jerde, Boyer and Lynch",
+      "OrgNr": "617199",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "dolor",
-      "DirectPhone": "(264)483-1939 x658",
-      "AssociateId": 156,
-      "CountryId": 804,
-      "EmailAddress": "oren@bogan.name",
-      "Kananame": "eum",
-      "EmailAddressName": "lloyd@jones.co.uk",
+      "City": "eius",
+      "DirectPhone": "277-240-8849 x505",
+      "AssociateId": 248,
+      "CountryId": 7,
+      "EmailAddress": "ethelyn.moore@frami.info",
+      "Kananame": "ullam",
+      "EmailAddressName": "janie@buckridge.us",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Haylee Mills",
+      "AssociateFullName": "Talia Welch",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "voluptatibus",
-      "FullName": "Glen Kreiger",
-      "IsOwnerContact": true,
-      "ActiveErpLinks": 491,
-      "Number1": "828004",
-      "Number2": "1178071",
+      "FormattedAddress": "sit",
+      "FullName": "Brad Mayer",
+      "IsOwnerContact": false,
+      "ActiveErpLinks": 583,
+      "Number1": "1440117",
+      "Number2": "451190",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 410
+          "FieldLength": 15
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldType": "System.String",
+      "FieldLength": 250
     }
   }
 }

@@ -89,15 +89,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 793,
-  "PrefDescId": 322,
-  "PrefValue": "voluptatem",
-  "PrefShowValue": "at",
-  "Description": "Open-architected mission-critical model",
+  "PrefDescLineId": 104,
+  "PrefDescId": 614,
+  "PrefValue": "est",
+  "PrefShowValue": "nostrum",
+  "Description": "Fundamental tangible intranet",
   "IsBuiltin": false
 }
 ```
@@ -109,23 +109,23 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 59,
-  "PrefDescId": 359,
-  "PrefValue": "qui",
-  "PrefShowValue": "nihil",
-  "Description": "Assimilated multi-state info-mediaries",
-  "IsBuiltin": true,
+  "PrefDescLineId": 963,
+  "PrefDescId": 645,
+  "PrefValue": "distinctio",
+  "PrefShowValue": "labore",
+  "Description": "Organic needs-based algorithm",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 690
+      "FieldLength": 129
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

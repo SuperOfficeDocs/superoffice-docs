@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-contextualized static process improvement",
-  "Filename": "voluptas",
-  "Size": 195,
-  "Type": "corporis",
-  "Encoding": "voluptas",
-  "Id": "illum",
-  "Disposition": "velit",
-  "IsSafeFileExtension": false,
+  "Description": "Extended well-modulated conglomeration",
+  "Filename": "consequuntur",
+  "Size": 643,
+  "Type": "odio",
+  "Encoding": "voluptatem",
+  "Id": "aut",
+  "Disposition": "dolore",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 373
+      "FieldLength": 642
     }
   }
 }

@@ -82,9 +82,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "harum",
-  "SoProtocol": "perferendis",
-  "CurrentId": 645
+  "IsoLangCode": "dolores",
+  "SoProtocol": "numquam",
+  "CurrentId": 164
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2009-09-11T14:13:38.9068394+02:00",
-  "UserPrompt": "accusantium",
-  "UserDisplayText": "ullam",
-  "BotResponse": "necessitatibus",
+  "Timestamp": "2007-06-14T02:38:20.5263598+02:00",
+  "UserPrompt": "facilis",
+  "UserDisplayText": "sint",
+  "BotResponse": "alias",
   "BotActions": {
-    "BotActions1": "vel",
-    "BotActions2": "quia"
+    "BotActions1": "quod",
+    "BotActions2": "sapiente"
   },
   "Attachments": [
-    "hic",
-    "quaerat"
+    "sunt",
+    "id"
   ]
 }
 ```

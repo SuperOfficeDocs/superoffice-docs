@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 1002,
-  "SourcePersonId": 486,
-  "DestinationContactId": 375,
-  "DestinationPersonId": 704,
-  "RelationId": 163,
-  "Comment": "ex",
-  "RelationDefinitionId": 158,
-  "Reversed": 612,
-  "UpdatedDate": "2011-05-20T14:13:41.1408128+02:00",
-  "CreatedDate": "2008-03-30T14:13:41.1408128+02:00",
+  "SourceContactId": 930,
+  "SourcePersonId": 475,
+  "DestinationContactId": 361,
+  "DestinationPersonId": 296,
+  "RelationId": 983,
+  "Comment": "eum",
+  "RelationDefinitionId": 944,
+  "Reversed": 623,
+  "UpdatedDate": "2005-07-11T02:38:21.7919947+02:00",
+  "CreatedDate": "2025-01-13T02:38:21.7919947+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Jewess LLC",
-  "SourcePersonName": "Schulist Group",
-  "DestinationContactName": "Quitzon Inc and Sons",
-  "DestinationPersonName": "Langosh Inc and Sons",
-  "ActiveText": "illum",
-  "PassiveText": "accusamus",
+  "SourceContactName": "Lindgren-Reinger",
+  "SourcePersonName": "Collier Inc and Sons",
+  "DestinationContactName": "Gusikowski-Runolfsdottir",
+  "DestinationPersonName": "Muller Inc and Sons",
+  "ActiveText": "labore",
+  "PassiveText": "recusandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 345
+      "FieldType": "System.String",
+      "FieldLength": 35
     }
   }
 }

@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 562
+  "MailItemId": 666
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 672,
-  "StartDate": "2023-07-25T14:13:40.2191476+02:00",
-  "EndDate": "2006-12-23T14:13:40.2191476+01:00",
-  "RecurrenceCounter": 136,
+  "RecurrenceId": 901,
+  "StartDate": "2010-12-27T02:38:21.3545452+01:00",
+  "EndDate": "2003-10-12T02:38:21.3545452+02:00",
+  "RecurrenceCounter": 180,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2000-12-14T14:13:40.2191476+01:00",
+      "Date": "2023-04-04T02:38:21.3545452+02:00",
       "IsConflict": false,
-      "Description": "Distributed attitude-oriented monitoring",
-      "DescriptionStyleHint": "Upgradable human-resource open system",
-      "Tooltip": "molestiae"
+      "Description": "Centralized assymetric moratorium",
+      "DescriptionStyleHint": "Compatible responsive benchmark",
+      "Tooltip": "nisi"
     },
     {
-      "Date": "2000-12-14T14:13:40.2191476+01:00",
+      "Date": "2023-04-04T02:38:21.3545452+02:00",
       "IsConflict": false,
-      "Description": "Distributed attitude-oriented monitoring",
-      "DescriptionStyleHint": "Upgradable human-resource open system",
-      "Tooltip": "molestiae"
+      "Description": "Centralized assymetric moratorium",
+      "DescriptionStyleHint": "Compatible responsive benchmark",
+      "Tooltip": "nisi"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

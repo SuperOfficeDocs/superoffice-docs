@@ -144,12 +144,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "consectetur",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "consectetur",
+    "path": "et",
     "value": {}
   }
 ]
@@ -162,48 +162,48 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 346,
-  "Name": "Quitzon Group",
-  "Description": "Innovative 24/7 matrices",
-  "WelcomeMessage": "sapiente",
+  "ChatTopicId": 171,
+  "Name": "Beahan Inc and Sons",
+  "Description": "Managed needs-based workforce",
+  "WelcomeMessage": "ipsa",
   "Language": null,
-  "LastAccept": "2015-03-26T14:13:48.4601787+01:00",
-  "SecondsPrAccept": 759,
-  "AlertRecipient": "et",
+  "LastAccept": "2023-08-21T02:38:25.9329544+02:00",
+  "SecondsPrAccept": 600,
+  "AlertRecipient": "nulla",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "debitis",
+  "BadgeHeader": "ab",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "quae",
-  "WarnNewChatMinutes": 68,
-  "WarnManagerNewChatMinutes": 39,
-  "TicketEnabled": false,
+  "CustomQueueText": "cum",
+  "WarnNewChatMinutes": 140,
+  "WarnManagerNewChatMinutes": 717,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 948,
-  "WarnManagerChatMessageMinutes": 277,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 61,
+  "WarnManagerChatMessageMinutes": 892,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 479,
-  "OfflineFormQueueLength": 829,
+  "OfflineFormTimeLimit": 664,
+  "OfflineFormQueueLength": 365,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "iusto",
+  "WidgetRatingText": "id",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldType": "System.String",
+      "FieldLength": 765
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

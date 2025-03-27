@@ -26,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=547
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=773
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 278,
-  "Name": "Trantow-Schulist",
-  "Description": "Reduced multi-state array",
-  "WelcomeMessage": "quasi",
+  "ChatTopicId": 79,
+  "Name": "Jakubowski-Dicki",
+  "Description": "Profit-focused next generation groupware",
+  "WelcomeMessage": "ratione",
   "Language": null,
-  "LastAccept": "2005-11-17T14:13:39.7035324+01:00",
-  "SecondsPrAccept": 325,
-  "AlertRecipient": "ut",
+  "LastAccept": "2009-05-30T02:38:20.9795792+02:00",
+  "SecondsPrAccept": 644,
+  "AlertRecipient": "in",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "id",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "qui",
-  "WarnNewChatMinutes": 565,
-  "WarnManagerNewChatMinutes": 325,
+  "CollectConsent": false,
+  "BadgeHeader": "eum",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "quaerat",
+  "WarnNewChatMinutes": 372,
+  "WarnManagerNewChatMinutes": 975,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 275,
-  "WarnManagerChatMessageMinutes": 616,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 790,
+  "WarnManagerChatMessageMinutes": 535,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 579,
-  "OfflineFormQueueLength": 896,
+  "OfflineFormTimeLimit": 654,
+  "OfflineFormQueueLength": 583,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "consequatur",
+  "WidgetRatingText": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 216
+      "FieldType": "System.String",
+      "FieldLength": 625
     }
   }
 }

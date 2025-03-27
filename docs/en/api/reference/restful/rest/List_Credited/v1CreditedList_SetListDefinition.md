@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 274,
-  "Name": "Fisher, Harris and Bednar",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 273,
+  "Id": 471,
+  "Name": "Bogan Group",
+  "Tooltip": "tempore",
+  "Deleted": false,
+  "Rank": 20,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "omnis",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 328,
-  "Name": "Hilll-Kilback",
-  "Tooltip": "vero",
+  "Id": 349,
+  "Name": "Oberbrunner, Block and West",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 24,
+  "Rank": 542,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ullam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "fugit",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldLength": 353
     }
   }
 }

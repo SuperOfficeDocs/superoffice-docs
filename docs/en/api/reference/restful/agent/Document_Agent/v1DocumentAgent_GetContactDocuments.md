@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 178,
-  "StartTime": "1998-11-28T14:13:40.0004493+01:00",
-  "EndTime": "2012-10-24T14:13:40.0004493+02:00",
-  "Count": 586
+  "ContactId": 228,
+  "StartTime": "2014-09-09T02:38:21.2295568+02:00",
+  "EndTime": "2025-01-19T02:38:21.2295568+01:00",
+  "Count": 746
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 227,
-    "Attention": "aut",
-    "Header": "maiores",
-    "Name": "Bogan, Purdy and Daniel",
-    "OurRef": "libero",
-    "YourRef": "necessitatibus",
-    "Description": "Advanced dynamic algorithm",
-    "DocumentTemplate": "corporis",
+    "DocumentId": 460,
+    "Attention": "suscipit",
+    "Header": "totam",
+    "Name": "Feil, Wuckert and Little",
+    "OurRef": "esse",
+    "YourRef": "nisi",
+    "Description": "Stand-alone composite challenge",
+    "DocumentTemplate": "earum",
     "IsPublished": false,
-    "PersonId": 825,
-    "PersonFullName": "Werner Larson",
-    "AssociateFullName": "Dr. Aric Edythe Pfeffer MD",
-    "ContactId": 42,
-    "ContactName": "Rutherford, Welch and Bashirian",
-    "ProjectId": 114,
-    "ProjectName": "Yost, Nolan and Jast",
-    "AssociateId": 114,
-    "Snum": 499,
-    "SaleId": 408,
-    "SaleName": "Franecki-Trantow",
+    "PersonId": 972,
+    "PersonFullName": "Harley Fisher",
+    "AssociateFullName": "Miss Dovie Mara Grant",
+    "ContactId": 847,
+    "ContactName": "Rowe Group",
+    "ProjectId": 402,
+    "ProjectName": "Waelchi-Ziemann",
+    "AssociateId": 312,
+    "Snum": 644,
+    "SaleId": 993,
+    "SaleName": "Wunsch LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 60
+        "FieldType": "System.Int32",
+        "FieldLength": 614
       }
     }
   }

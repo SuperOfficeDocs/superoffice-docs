@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 911
+  "PrefDescId": 348
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 902,
-    "PrefDescId": 676,
-    "PrefValue": "eos",
-    "PrefShowValue": "excepturi",
-    "Description": "Quality-focused 5th generation migration",
+    "PrefDescLineId": 295,
+    "PrefDescId": 958,
+    "PrefValue": "labore",
+    "PrefShowValue": "laborum",
+    "Description": "Realigned upward-trending challenge",
     "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 523
+        "FieldType": "System.Int32",
+        "FieldLength": 514
       }
     }
   }

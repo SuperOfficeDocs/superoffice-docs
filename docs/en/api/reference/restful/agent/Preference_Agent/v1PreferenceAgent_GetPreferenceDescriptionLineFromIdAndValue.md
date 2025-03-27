@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 261,
-  "PrefValue": "pariatur"
+  "PrefDescId": 604,
+  "PrefValue": "ex"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 217,
-  "PrefDescId": 616,
-  "PrefValue": "itaque",
-  "PrefShowValue": "non",
-  "Description": "Networked tertiary software",
-  "IsBuiltin": false,
+  "PrefDescLineId": 31,
+  "PrefDescId": 479,
+  "PrefValue": "dignissimos",
+  "PrefShowValue": "expedita",
+  "Description": "Organic 6th generation access",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 177
+      "FieldType": "System.Int32",
+      "FieldLength": 496
     }
   }
 }

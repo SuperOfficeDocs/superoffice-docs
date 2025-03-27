@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 171,
-  "Name": "Hegmann-Homenick",
-  "Tooltip": "deleniti",
+  "RoleId": 231,
+  "Name": "Runolfsdottir LLC",
+  "Tooltip": "saepe",
   "RoleType": "Anonymous",
-  "Deleted": 718,
-  "Rank": 690,
-  "Created": "2016-02-18T14:13:49.0868575+01:00",
-  "UseCategories": 78,
+  "Deleted": 661,
+  "Rank": 443,
+  "Created": "2019-07-17T02:38:26.3235369+02:00",
+  "UseCategories": 532,
   "CreatedBy": null,
-  "Updated": "2005-07-13T14:13:49.0868575+02:00",
+  "Updated": "2004-05-16T02:38:26.3235369+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,24 +127,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 795,
-  "Name": "Schulist Inc and Sons",
-  "Tooltip": "adipisci",
+  "RoleId": 661,
+  "Name": "Watsica-Schultz",
+  "Tooltip": "libero",
   "RoleType": "Anonymous",
-  "Deleted": 860,
-  "Rank": 250,
-  "Created": "2010-01-03T14:13:49.1025081+01:00",
-  "UseCategories": 935,
+  "Deleted": 62,
+  "Rank": 940,
+  "Created": "2009-11-30T02:38:26.3391624+01:00",
+  "UseCategories": 279,
   "CreatedBy": null,
-  "Updated": "2008-02-08T14:13:49.1025081+01:00",
+  "Updated": "2013-11-29T02:38:26.3391624+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 12
+      "FieldType": "System.Int32",
+      "FieldLength": 30
     }
   },
   "_Links": {

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 698,
-    "Name": "Witting Group",
-    "ToolTip": "Porro eos voluptas aut.",
-    "Deleted": false,
-    "Rank": 259,
-    "Type": "architecto",
-    "ColorBlock": 467,
-    "IconHint": "aut",
+    "Id": 295,
+    "Name": "McClure Group",
+    "ToolTip": "Ea nemo.",
+    "Deleted": true,
+    "Rank": 571,
+    "Type": "possimus",
+    "ColorBlock": 921,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2019-05-13T14:13:49.7273664+02:00",
+    "LastChanged": "2014-12-05T02:38:26.7142749+01:00",
     "ChildItems": [
       {
-        "Id": 335,
-        "Name": "Daugherty, Quigley and Mann",
-        "ToolTip": "Ut voluptatem a dignissimos et nulla.",
+        "Id": 880,
+        "Name": "Toy LLC",
+        "ToolTip": "Temporibus debitis voluptatem labore.",
         "Deleted": false,
-        "Rank": 221,
-        "Type": "voluptatum",
-        "ColorBlock": 133,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2003-01-05T14:13:49.7273664+01:00",
+        "Rank": 591,
+        "Type": "earum",
+        "ColorBlock": 765,
+        "IconHint": "quis",
+        "Selected": false,
+        "LastChanged": "2023-08-26T02:38:26.7142749+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "vel",
+        "ExtraInfo": "quia",
+        "StyleHint": "quas",
         "Hidden": false,
-        "FullName": "Mafalda Price",
+        "FullName": "Dr. Brennon Mayer Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 578
+            "FieldType": "System.Int32",
+            "FieldLength": 407
           }
         }
       }
     ],
-    "ExtraInfo": "eligendi",
-    "StyleHint": "debitis",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Frederic Hessel",
+    "FullName": "Mr. Elenora Damian Hoeger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldType": "System.String",
+        "FieldLength": 474
       }
     }
   }

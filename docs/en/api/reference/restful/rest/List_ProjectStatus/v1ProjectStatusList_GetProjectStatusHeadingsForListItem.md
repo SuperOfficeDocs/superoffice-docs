@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Toy Inc and Sons",
-    "ToolTip": "Amet in excepturi ut.",
-    "Deleted": false,
-    "Rank": 162,
-    "Type": "et",
-    "ColorBlock": 19,
-    "IconHint": "harum",
+    "Id": 353,
+    "Name": "O'Conner, Kunze and Collins",
+    "ToolTip": "Est distinctio et.",
+    "Deleted": true,
+    "Rank": 941,
+    "Type": "inventore",
+    "ColorBlock": 114,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "2024-08-10T14:13:50.1187745+02:00",
+    "LastChanged": "1999-10-28T02:38:26.8705112+02:00",
     "ChildItems": [
       {
-        "Id": 77,
-        "Name": "Corwin, Gleichner and Johnson",
-        "ToolTip": "Beatae velit.",
+        "Id": 617,
+        "Name": "Reichert Inc and Sons",
+        "ToolTip": "Velit distinctio laborum repellendus.",
         "Deleted": false,
-        "Rank": 345,
-        "Type": "saepe",
-        "ColorBlock": 703,
-        "IconHint": "vero",
+        "Rank": 674,
+        "Type": "iure",
+        "ColorBlock": 522,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "2021-08-19T14:13:50.1187745+02:00",
+        "LastChanged": "2015-10-13T02:38:26.8705112+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "quas",
+        "ExtraInfo": "blanditiis",
+        "StyleHint": "eaque",
         "Hidden": false,
-        "FullName": "Woodrow Kathlyn Langosh DVM",
+        "FullName": "Lura Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 922
+            "FieldType": "System.Int32",
+            "FieldLength": 120
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "numquam",
+    "ExtraInfo": "et",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Dr. Renee River Rutherford Sr.",
+    "FullName": "Mr. Giuseppe Donnelly II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 328
+        "FieldType": "System.String",
+        "FieldLength": 449
       }
     }
   }

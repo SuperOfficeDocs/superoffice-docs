@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=583
+POST /api/v1/Agents/User/GetUser?userId=82
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 197,
-  "Name": "Hilpert LLC",
-  "Rank": 72,
-  "Tooltip": "fugiat",
+  "AssociateId": 127,
+  "Name": "Kuhn-Cummings",
+  "Rank": 698,
+  "Tooltip": "error",
   "LicenseOwners": [
     {
-      "Name": "Gleason-Schroeder",
-      "Description": "Multi-lateral high-level interface",
+      "Name": "King Group",
+      "Description": "Secured stable architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -124,13 +124,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldLength": 624
         }
       }
     },
     {
-      "Name": "Gleason-Schroeder",
-      "Description": "Multi-lateral high-level interface",
+      "Name": "King Group",
+      "Description": "Secured stable architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 609
+          "FieldLength": 624
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "perspiciatis",
-      "Tooltip": "ipsa",
-      "Id": 136,
-      "Rank": 783,
-      "Deleted": false,
+      "Value": "aut",
+      "Tooltip": "sit",
+      "Id": 369,
+      "Rank": 168,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 144
+          "FieldLength": 467
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2003-08-20T14:13:41.6883687+02:00",
-  "Lastlogout": "2002-07-19T14:13:41.6883687+02:00",
-  "EjUserId": 631,
-  "RequestSignature": "aliquid",
+  "Deleted": true,
+  "Lastlogin": "2022-02-07T02:38:22.1981664+01:00",
+  "Lastlogout": "2017-08-06T02:38:22.1981664+02:00",
+  "EjUserId": 661,
+  "RequestSignature": "ipsa",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "animi",
-      "DisplayValue": "incidunt",
+      "Value": "at",
+      "DisplayValue": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 109
+          "FieldLength": 648
         }
       }
     },
     {
       "Type": null,
-      "Value": "animi",
-      "DisplayValue": "incidunt",
+      "Value": "at",
+      "DisplayValue": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 109
+          "FieldLength": 648
         }
       }
     }
   ],
-  "UserName": "Howell, Mueller and Quigley",
+  "UserName": "Gottlieb LLC",
   "TicketCategories": [
     {
-      "Id": 168,
-      "Name": "Gleason Inc and Sons",
-      "ToolTip": "Quidem ipsa distinctio in veritatis cum hic.",
-      "Deleted": false,
-      "Rank": 856,
-      "Type": "unde",
+      "Id": 52,
+      "Name": "Greenfelder, Schumm and Mayer",
+      "ToolTip": "Non accusamus.",
+      "Deleted": true,
+      "Rank": 943,
+      "Type": "cumque",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "velit",
-      "ColorBlock": 388,
-      "ExtraInfo": "vero",
-      "StyleHint": "doloribus",
-      "FullName": "Jarrett Buckridge",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 909
-        }
-      }
-    }
-  ],
-  "NickName": "Cartwright-Eichmann",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "fugiat",
-    "ExtraFields2": "optio"
-  },
-  "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "soluta"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Gottlieb Inc and Sons",
-      "DisplayName": "Bashirian Group",
-      "Description": "Re-engineered local emulation",
-      "ToolTip": "Laudantium consequatur est expedita nihil cum facilis.",
-      "Actions": "Implicit",
-      "ActionData": "accusantium",
+      "IconHint": "eveniet",
+      "ColorBlock": 32,
+      "ExtraInfo": "non",
+      "StyleHint": "laudantium",
+      "FullName": "Prof. Baron Effertz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 5
+          "FieldLength": 109
+        }
+      }
+    }
+  ],
+  "NickName": "Harvey-Hilpert",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "dolores",
+    "ExtraFields2": "in"
+  },
+  "CustomFields": {
+    "CustomFields1": "voluptatum",
+    "CustomFields2": "consequatur"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Goodwin Inc and Sons",
+      "DisplayName": "Runte LLC",
+      "Description": "Implemented leading edge task-force",
+      "ToolTip": "Id eos quidem numquam voluptas unde sed est.",
+      "Actions": "Implicit",
+      "ActionData": "magni",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 624
         }
       }
     }
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 969
+      "FieldType": "System.Int32",
+      "FieldLength": 512
     }
   }
 }

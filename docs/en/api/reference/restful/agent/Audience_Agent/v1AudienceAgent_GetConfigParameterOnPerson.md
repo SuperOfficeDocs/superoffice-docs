@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameterOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Quitzon Inc and Sons",
-  "PersonId": 400
+  "ParameterName": "Schultz Group",
+  "PersonId": 160
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 951,
-  "Name": "Schroeder, Doyle and Howe",
-  "Value": "voluptatem",
-  "CreatedDate": "2001-01-12T14:13:39.3754818+01:00",
-  "UpdatedDate": "2019-02-06T14:13:39.3754818+01:00",
-  "CreatedBy": "dolorem",
-  "UpdatedBy": "inventore",
+  "AudienceLayoutId": 931,
+  "Name": "Murphy, Walsh and Schinner",
+  "Value": "error",
+  "CreatedDate": "2020-02-19T02:38:20.8702208+01:00",
+  "UpdatedDate": "2007-04-20T02:38:20.8702208+02:00",
+  "CreatedBy": "laudantium",
+  "UpdatedBy": "pariatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldLength": 404
     }
   }
 }

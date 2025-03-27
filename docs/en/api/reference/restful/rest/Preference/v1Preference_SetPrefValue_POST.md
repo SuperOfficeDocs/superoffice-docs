@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "nihil",
+  "RawValue": "sed",
   "Specification": null,
-  "DisplayValue": "fugit",
-  "DisplayTooltip": "molestiae",
+  "DisplayValue": "repellat",
+  "DisplayTooltip": "inventore",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 981,
-  "PrefDescId": 382,
-  "TableName": "Kilback-Shanahan",
-  "UserPreferenceId": 235
+  "TargetId": 634,
+  "PrefDescId": 941,
+  "TableName": "Keeling LLC",
+  "UserPreferenceId": 653
 }
 ```
 

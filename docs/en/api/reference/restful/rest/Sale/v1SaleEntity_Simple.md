@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Dooley Group",
-  "SaleDate": "2023-02-04T14:13:49.2118561+01:00",
-  "SaleId": 820,
-  "Probability": 598,
-  "Title": "voluptatibus",
-  "Amount": 29964.174,
-  "Currency": "voluptatem",
-  "ProjectName": "Ryan, Terry and Rowe",
-  "AssociateFullName": "Triston Jast",
-  "Description": "Optional 24/7 collaboration",
+  "ContactName": "Witting, Skiles and Walsh",
+  "SaleDate": "2024-04-07T02:38:26.4016552+02:00",
+  "SaleId": 346,
+  "Probability": 389,
+  "Title": "ab",
+  "Amount": 14867.696,
+  "Currency": "sed",
+  "ProjectName": "Bartoletti, Schimmel and Baumbach",
+  "AssociateFullName": "Anna Stanton",
+  "Description": "Object-based multi-state infrastructure",
   "Status": "Lost",
-  "WeightedAmount": 13125.192,
-  "ProjectId": 568,
-  "EarningPercent": 29600.629999999997,
-  "Earning": 30857.363999999998,
-  "ContactId": 334,
-  "AssociateId": 921,
-  "PersonId": 157,
-  "SaleTypeId": 670,
-  "SaleTypeName": "Wiza-Moore",
-  "PersonFullName": "Carroll Harvey",
+  "WeightedAmount": 28716.842,
+  "ProjectId": 370,
+  "EarningPercent": 27560.396,
+  "Earning": 17735.306,
+  "ContactId": 287,
+  "AssociateId": 274,
+  "PersonId": 997,
+  "SaleTypeId": 204,
+  "SaleTypeName": "Thompson, Green and Pfeffer",
+  "PersonFullName": "Irwin Nienow",
   "Completed": "Completed",
-  "ActiveErpLinks": 587,
-  "NextDueDate": "2002-04-08T14:13:49.2118561+02:00",
-  "Number": "1095666",
+  "ActiveErpLinks": 24,
+  "NextDueDate": "2011-12-14T02:38:26.4016552+01:00",
+  "Number": "1306816",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 587
+      "FieldType": "System.Int32",
+      "FieldLength": 659
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 555,
-  "Name": "Sauer, Senger and Harvey",
-  "Tooltip": "velit",
+  "Id": 991,
+  "Name": "Champlin, Frami and Prohaska",
+  "Tooltip": "consequatur",
   "Deleted": true,
-  "UdListDefinitionId": 775,
-  "Rank": 656
+  "UdListDefinitionId": 172,
+  "Rank": 208
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 513,
-  "Name": "Haag-Ryan",
-  "Tooltip": "iusto",
+  "Id": 19,
+  "Name": "Stokes LLC",
+  "Tooltip": "repellat",
   "Deleted": false,
-  "UdListDefinitionId": 682,
-  "Rank": 803,
+  "UdListDefinitionId": 466,
+  "Rank": 397,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 770
     }
   }
 }

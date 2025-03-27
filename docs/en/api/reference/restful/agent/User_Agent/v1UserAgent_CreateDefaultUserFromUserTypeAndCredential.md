@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 47,
-  "CredentialType": "at",
-  "CredentialValue": "incidunt",
-  "CredentialDisplayValue": "sunt"
+  "ContactId": 949,
+  "CredentialType": "et",
+  "CredentialValue": "nobis",
+  "CredentialDisplayValue": "illo"
 }
 ```
 
@@ -122,14 +122,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 710,
-  "Name": "Mitchell Inc and Sons",
-  "Rank": 360,
-  "Tooltip": "et",
+  "AssociateId": 77,
+  "Name": "Steuber-Schiller",
+  "Rank": 274,
+  "Tooltip": "consequuntur",
   "LicenseOwners": [
     {
-      "Name": "Schowalter, Marks and Pouros",
-      "Description": "Sharable holistic array",
+      "Name": "D'Amore Inc and Sons",
+      "Description": "Versatile optimizing intranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 694
+          "FieldLength": 439
         }
       }
     },
     {
-      "Name": "Schowalter, Marks and Pouros",
-      "Description": "Sharable holistic array",
+      "Name": "D'Amore Inc and Sons",
+      "Description": "Versatile optimizing intranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 694
+          "FieldLength": 439
         }
       }
     }
@@ -172,110 +172,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aut",
-      "Tooltip": "omnis",
-      "Id": 776,
-      "Rank": 484,
+      "Value": "rem",
+      "Tooltip": "tenetur",
+      "Id": 746,
+      "Rank": 369,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 620
+          "FieldLength": 808
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "1999-05-19T14:13:41.6258828+02:00",
-  "Lastlogout": "2007-08-20T14:13:41.6258828+02:00",
-  "EjUserId": 565,
-  "RequestSignature": "eum",
+  "Deleted": true,
+  "Lastlogin": "2004-07-24T02:38:22.1669527+02:00",
+  "Lastlogout": "2000-03-31T02:38:22.1669527+02:00",
+  "EjUserId": 720,
+  "RequestSignature": "voluptatem",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": true,
+  "IsPersonRetired": true,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "culpa",
-      "DisplayValue": "accusantium",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 682
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "culpa",
-      "DisplayValue": "accusantium",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 682
-        }
-      }
-    }
-  ],
-  "UserName": "Oberbrunner-Maggio",
-  "TicketCategories": [
-    {
-      "Id": 626,
-      "Name": "Cormier LLC",
-      "ToolTip": "Dolores non totam.",
-      "Deleted": false,
-      "Rank": 337,
-      "Type": "quis",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "ut",
-      "ColorBlock": 482,
-      "ExtraInfo": "qui",
-      "StyleHint": "perferendis",
-      "FullName": "Spencer Okuneva",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 67
-        }
-      }
-    }
-  ],
-  "NickName": "Gusikowski, Schuppe and Runolfsdottir",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "quidem"
-  },
-  "CustomFields": {
-    "CustomFields1": "nemo",
-    "CustomFields2": "quidem"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Schneider Group",
-      "DisplayName": "Emmerich-Cole",
-      "Description": "Future-proofed demand-driven core",
-      "ToolTip": "Veritatis ipsam.",
-      "Actions": "Implicit",
-      "ActionData": "tenetur",
+      "Value": "id",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 22
+          "FieldLength": 537
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "id",
+      "DisplayValue": "similique",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 537
+        }
+      }
+    }
+  ],
+  "UserName": "Schulist Group",
+  "TicketCategories": [
+    {
+      "Id": 748,
+      "Name": "Haag Group",
+      "ToolTip": "Accusamus blanditiis.",
+      "Deleted": false,
+      "Rank": 996,
+      "Type": "voluptatem",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "esse",
+      "ColorBlock": 156,
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "dolorem",
+      "FullName": "Mrs. Elta Schumm DVM",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 237
+        }
+      }
+    }
+  ],
+  "NickName": "Bartell-Cremin",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "perferendis",
+    "ExtraFields2": "veniam"
+  },
+  "CustomFields": {
+    "CustomFields1": "dolorem",
+    "CustomFields2": "voluptatem"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Hackett Group",
+      "DisplayName": "Crooks, Braun and Harvey",
+      "Description": "Object-based 5th generation approach",
+      "ToolTip": "Voluptas libero sit consequatur architecto quam quia veniam.",
+      "Actions": "Implicit",
+      "ActionData": "modi",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 532
         }
       }
     }
@@ -285,7 +285,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldLength": 137
     }
   }
 }

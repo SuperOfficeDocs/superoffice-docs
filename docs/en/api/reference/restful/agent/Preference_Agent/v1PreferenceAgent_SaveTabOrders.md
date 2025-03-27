@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Preference/SaveTabOrders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "TabOrders": [
     {
-      "TabOrderId": 498,
-      "TabName": "Green Group",
-      "Order": "quasi",
-      "AssociateId": 853
+      "TabOrderId": 232,
+      "TabName": "Heller, Connelly and Champlin",
+      "Order": "aut",
+      "AssociateId": 610
     },
     {
-      "TabOrderId": 498,
-      "TabName": "Green Group",
-      "Order": "quasi",
-      "AssociateId": 853
+      "TabOrderId": 232,
+      "TabName": "Heller, Connelly and Champlin",
+      "Order": "aut",
+      "AssociateId": 610
     }
   ]
 }

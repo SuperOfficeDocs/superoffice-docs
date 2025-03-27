@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=495
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=61
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -125,7 +125,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -139,120 +139,120 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2024-05-20T14:13:39.0786746+02:00",
-  "AppointmentId": 343,
-  "Description": "Digitized explicit data-warehouse",
-  "Title": "nobis",
-  "Agenda": "consectetur",
-  "InternalNotes": "qui",
-  "StartDate": "2017-04-13T14:13:39.0786746+02:00",
-  "EndDate": "2024-12-29T14:13:39.0786746+01:00",
+  "CreatedDate": "2003-07-13T02:38:20.698363+02:00",
+  "AppointmentId": 458,
+  "Description": "Cross-group directional core",
+  "Title": "officia",
+  "Agenda": "officiis",
+  "InternalNotes": "rerum",
+  "StartDate": "2015-03-31T02:38:20.698363+02:00",
+  "EndDate": "2023-03-13T02:38:20.698363+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 867,
+  "MotherId": 140,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2008-01-03T14:13:39.0942961+01:00",
+  "UpdatedDate": "2020-06-15T02:38:20.7139856+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 642,
+  "ActiveLinks": 292,
   "Links": [
     {
-      "EntityName": "Legros, Monahan and Krajcik",
-      "Id": 658,
-      "Description": "Object-based bottom-line service-desk",
-      "ExtraInfo": "aut",
-      "LinkId": 905,
+      "EntityName": "Kautzer, Bogan and Ledner",
+      "Id": 478,
+      "Description": "Business-focused optimal alliance",
+      "ExtraInfo": "sunt",
+      "LinkId": 219,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 829
+          "FieldLength": 104
         }
       }
     }
   ],
-  "AlarmLeadTime": "molestiae",
-  "HasAlarm": true,
-  "ColorIndex": 332,
+  "AlarmLeadTime": "beatae",
+  "HasAlarm": false,
+  "ColorIndex": 838,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "adipisci",
-  "LeadTime": "ullam",
-  "Location": "ab",
-  "RejectCounter": 257,
+  "LagTime": "sed",
+  "LeadTime": "non",
+  "Location": "ut",
+  "RejectCounter": 87,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 502,
-      "PersonId": 265,
-      "ContactId": 575,
-      "EmailId": 519,
+      "AssociateId": 666,
+      "PersonId": 842,
+      "ContactId": 796,
+      "EmailId": 272,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "alessia@zemlakshields.biz",
-      "Description": "Cross-group neutral knowledge user"
+      "EmailAddress": "zack@schummraynor.name",
+      "Description": "Realigned 24/7 system engine"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-07-20T14:13:39.0942961+02:00",
+  "ActiveDate": "2010-09-27T02:38:20.7139856+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 616,
+  "PreferredTZLocation": 269,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 443,
+  "SuggestedAppointmentId": 476,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "vitae",
+  "CentralserviceVideomeetId": "distinctio",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Lisandro Hettinger",
-    "SuperOffice:2": "Friedrich Hettinger"
+    "SuperOffice:1": "Adolfo Leuschke",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "provident",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "aliquam",
+    "ExtraFields2": "deleniti"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "neque"
+    "CustomFields1": "occaecati",
+    "CustomFields2": "sunt"
   },
-  "PublishEventDate": "2023-04-10T14:13:39.0942961+02:00",
-  "PublishTo": "2022-08-01T14:13:39.0942961+02:00",
-  "PublishFrom": "2007-05-07T14:13:39.0942961+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2002-01-23T02:38:20.7139856+01:00",
+  "PublishTo": "2004-04-18T02:38:20.7139856+02:00",
+  "PublishFrom": "2009-11-01T02:38:20.7139856+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 221,
+      "VisibleId": 675,
       "Visibility": "All",
-      "DisplayValue": "tempore",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 244
         }
       }
     },
     {
-      "VisibleId": 221,
+      "VisibleId": 675,
       "Visibility": "All",
-      "DisplayValue": "tempore",
+      "DisplayValue": "officia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 244
         }
       }
     }
@@ -262,7 +262,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 121
     }
   }
 }

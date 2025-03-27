@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=343
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=179
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 608,
-  "Name": "Hodkiewicz LLC",
-  "CreatedDate": "2000-02-05T14:13:40.3909833+01:00",
-  "UpdatedDate": "2020-01-18T14:13:40.3909833+01:00",
-  "AssociateFullName": "Lempi Anderson",
-  "CreatedBy": "aut",
-  "UpdatedBy": "ab",
-  "DeviceIdentifier": "sit",
-  "ForeignAppId": 207,
+  "ForeignDeviceId": 943,
+  "Name": "Hettinger LLC",
+  "CreatedDate": "2007-03-26T02:38:21.4639053+02:00",
+  "UpdatedDate": "2010-11-13T02:38:21.4639053+01:00",
+  "AssociateFullName": "Michele Ortiz",
+  "CreatedBy": "maxime",
+  "UpdatedBy": "voluptatum",
+  "DeviceIdentifier": "voluptatem",
+  "ForeignAppId": 695,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldType": "System.String",
+      "FieldLength": 540
     }
   }
 }

@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 602,
-  "Name": "Weissnat Inc and Sons",
+  "ScreenChooserId": 314,
+  "Name": "Leannon-Yost",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "id",
-  "Source": "iusto",
-  "Registered": "1998-02-18T14:13:49.414935+01:00",
-  "RegisteredAssociateId": 649,
-  "Updated": "2018-01-15T14:13:49.414935+01:00",
-  "UpdatedAssociateId": 818
+  "Enabled": true,
+  "UniqueIdentifier": "sequi",
+  "Source": "ad",
+  "Registered": "2006-07-23T02:38:26.5266399+02:00",
+  "RegisteredAssociateId": 891,
+  "Updated": "1999-04-14T02:38:26.5266399+02:00",
+  "UpdatedAssociateId": 69
 }
 ```
 
@@ -122,21 +122,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ScreenChooserId": 944,
-  "Name": "Stracke-Rosenbaum",
+  "Name": "Tremblay LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "accusamus",
-  "Source": "velit",
-  "Registered": "2020-07-11T14:13:49.414935+02:00",
-  "RegisteredAssociateId": 236,
-  "Updated": "2007-06-08T14:13:49.414935+02:00",
-  "UpdatedAssociateId": 301,
+  "Enabled": false,
+  "UniqueIdentifier": "delectus",
+  "Source": "dolor",
+  "Registered": "2018-10-07T02:38:26.5266399+02:00",
+  "RegisteredAssociateId": 976,
+  "Updated": "2018-01-10T02:38:26.5266399+01:00",
+  "UpdatedAssociateId": 401,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 195
     }
   },
   "_Links": {

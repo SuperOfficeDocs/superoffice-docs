@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=molestiae
+GET /api/v1/List/Rating/MDOItems?flat=True
+GET /api/v1/List/Rating/MDOItems?query=quos
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 165,
-    "Name": "Cole, Bechtelar and Shanahan",
-    "ToolTip": "Ipsa praesentium repellendus nesciunt delectus.",
+    "Id": 840,
+    "Name": "Grady, Howell and Hackett",
+    "ToolTip": "Debitis sunt et voluptas praesentium natus aut.",
     "Deleted": false,
-    "Rank": 689,
-    "Type": "dolor",
+    "Rank": 538,
+    "Type": "veniam",
     "ChildItems": [
       {
-        "Id": 50,
-        "Name": "Hodkiewicz-Friesen",
-        "ToolTip": "Ut id.",
-        "Deleted": true,
-        "Rank": 442,
-        "Type": "et",
+        "Id": 942,
+        "Name": "Dickinson, Kutch and Ankunding",
+        "ToolTip": "Delectus est aliquam expedita ut illo non incidunt.",
+        "Deleted": false,
+        "Rank": 894,
+        "Type": "inventore",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 876,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "numquam",
-        "FullName": "Lily O'Hara",
+        "IconHint": "labore",
+        "ColorBlock": 952,
+        "ExtraInfo": "neque",
+        "StyleHint": "perferendis",
+        "FullName": "Cathrine Nathan Rodriguez DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 121
+            "FieldLength": 207
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 79,
-    "ExtraInfo": "cum",
-    "StyleHint": "voluptatibus",
-    "FullName": "Dewitt Boehm",
+    "IconHint": "deserunt",
+    "ColorBlock": 323,
+    "ExtraInfo": "et",
+    "StyleHint": "aliquid",
+    "FullName": "Kip Shields",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 148
+        "FieldLength": 613
       }
     }
   }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 831,
-  "Name": "Bergstrom Group",
-  "Description": "Optional tangible concept",
-  "WelcomeMessage": "vero",
+  "ChatTopicId": 904,
+  "Name": "Wyman-Daniel",
+  "Description": "Advanced bi-directional budgetary management",
+  "WelcomeMessage": "doloribus",
   "Language": null,
-  "LastAccept": "2012-12-04T14:13:39.4535892+01:00",
-  "SecondsPrAccept": 783,
-  "AlertRecipient": "maxime",
+  "LastAccept": "2023-03-04T02:38:20.9170935+01:00",
+  "SecondsPrAccept": 309,
+  "AlertRecipient": "asperiores",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "veniam",
+  "BadgeHeader": "voluptatem",
   "CustomQueueTextEnabled": true,
-  "CustomQueueText": "magnam",
-  "WarnNewChatMinutes": 626,
-  "WarnManagerNewChatMinutes": 960,
-  "TicketEnabled": true,
+  "CustomQueueText": "unde",
+  "WarnNewChatMinutes": 963,
+  "WarnManagerNewChatMinutes": 464,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -121,19 +121,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 76,
-  "WarnManagerChatMessageMinutes": 688,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 33,
-  "OfflineFormQueueLength": 164,
+  "WarnChatMessageMinutes": 170,
+  "WarnManagerChatMessageMinutes": 712,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 787,
+  "OfflineFormQueueLength": 644,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "repudiandae",
+  "WidgetRatingText": "officia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldType": "System.String",
+      "FieldLength": 79
     }
   }
 }

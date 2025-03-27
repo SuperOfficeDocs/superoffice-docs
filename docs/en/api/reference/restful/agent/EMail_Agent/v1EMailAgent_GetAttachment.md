@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 651,
-  "AttachmentId": "ullam"
+  "MessageServerId": 745,
+  "AttachmentId": "minus"
 }
 ```
 
@@ -102,13 +102,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Sharable directional application",
-  "Filename": "quas",
-  "Size": 348,
-  "Type": "dolores",
-  "Encoding": "autem",
-  "Id": "ea",
-  "Disposition": "laborum",
+  "Description": "Implemented executive framework",
+  "Filename": "pariatur",
+  "Size": 715,
+  "Type": "aliquid",
+  "Encoding": "tempora",
+  "Id": "esse",
+  "Disposition": "voluptates",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldLength": 649
     }
   }
 }

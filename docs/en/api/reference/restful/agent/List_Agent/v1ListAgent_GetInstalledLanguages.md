@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 400,
-    "LCID": 732,
-    "EnglishName": "Kemmer-Carroll",
-    "NativeName": "Paucek, Lubowitz and Douglas",
-    "ThreeLetterISOLanguageName": "Smitham Group",
-    "TwoLetterISOLanguageName": "Bahringer Group",
-    "IsBuiltIn": true,
+    "LanguageInfoId": 92,
+    "LCID": 851,
+    "EnglishName": "Nolan, Bayer and Grimes",
+    "NativeName": "Mann-Kreiger",
+    "ThreeLetterISOLanguageName": "Douglas-Donnelly",
+    "TwoLetterISOLanguageName": "Ledner-Stehr",
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 729
+        "FieldLength": 833
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 454,
-    "Name": "Gutkowski, Kunze and Beer",
-    "ToolTip": "Id quas distinctio nemo dolorum neque unde optio.",
-    "Deleted": true,
-    "Rank": 691,
-    "Type": "ipsam",
-    "ColorBlock": 128,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2014-10-12T14:13:49.696121+02:00",
+    "Id": 570,
+    "Name": "Harris, Gutmann and Moore",
+    "ToolTip": "Sequi odit animi officiis repellat et.",
+    "Deleted": false,
+    "Rank": 234,
+    "Type": "doloremque",
+    "ColorBlock": 812,
+    "IconHint": "laborum",
+    "Selected": false,
+    "LastChanged": "2010-04-29T02:38:26.6986493+02:00",
     "ChildItems": [
       {
-        "Id": 112,
-        "Name": "Zemlak-Feil",
-        "ToolTip": "Rerum hic sint eveniet.",
-        "Deleted": false,
-        "Rank": 810,
-        "Type": "tempore",
-        "ColorBlock": 43,
-        "IconHint": "reprehenderit",
+        "Id": 293,
+        "Name": "Tillman Group",
+        "ToolTip": "Et veniam modi porro aut.",
+        "Deleted": true,
+        "Rank": 760,
+        "Type": "quia",
+        "ColorBlock": 310,
+        "IconHint": "eius",
         "Selected": false,
-        "LastChanged": "2002-06-18T14:13:49.696121+02:00",
+        "LastChanged": "2015-11-07T02:38:26.6986493+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "debitis",
-        "Hidden": false,
-        "FullName": "Dalton Deckow"
+        "ExtraInfo": "qui",
+        "StyleHint": "quae",
+        "Hidden": true,
+        "FullName": "Albin Mertz"
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "facilis",
-    "Hidden": true,
-    "FullName": "Taryn Bins"
+    "ExtraInfo": "non",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Richmond Kuhn"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 578,
-    "Name": "Fisher Group",
-    "ToolTip": "Enim numquam non.",
-    "Deleted": true,
-    "Rank": 830,
-    "Type": "dolorem",
-    "ColorBlock": 384,
-    "IconHint": "eius",
+    "Id": 534,
+    "Name": "Doyle, Leannon and Ondricka",
+    "ToolTip": "Sequi deserunt.",
+    "Deleted": false,
+    "Rank": 428,
+    "Type": "doloremque",
+    "ColorBlock": 596,
+    "IconHint": "nam",
     "Selected": false,
-    "LastChanged": "1999-10-01T14:13:49.696121+02:00",
+    "LastChanged": "2024-10-27T02:38:26.6986493+01:00",
     "ChildItems": [
       {
-        "Id": 371,
-        "Name": "Schuster-Wolff",
-        "ToolTip": "Minima hic rem.",
-        "Deleted": true,
-        "Rank": 791,
-        "Type": "enim",
-        "ColorBlock": 404,
-        "IconHint": "sed",
+        "Id": 922,
+        "Name": "Veum Inc and Sons",
+        "ToolTip": "Maiores officiis.",
+        "Deleted": false,
+        "Rank": 805,
+        "Type": "sunt",
+        "ColorBlock": 708,
+        "IconHint": "voluptates",
         "Selected": false,
-        "LastChanged": "2025-02-06T14:13:49.696121+01:00",
+        "LastChanged": "2021-12-11T02:38:26.6986493+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "perspiciatis",
-        "Hidden": false,
-        "FullName": "Cleveland Smitham",
+        "ExtraInfo": "aut",
+        "StyleHint": "aliquam",
+        "Hidden": true,
+        "FullName": "Hulda Nicolas DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 19
+            "FieldType": "System.Int32",
+            "FieldLength": 810
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "optio",
-    "Hidden": false,
-    "FullName": "Marisa Rosenbaum",
+    "ExtraInfo": "sed",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Prof. Priscilla Lottie Koss",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldLength": 542
       }
     }
   }

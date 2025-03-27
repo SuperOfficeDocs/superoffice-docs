@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 685,
-  "EmailAddress": "chadd@hermiston.us",
+  "PersonId": 136,
+  "EmailAddress": "aubree@maggio.ca",
   "SetAsPrimaryEmail": false
 }
 ```

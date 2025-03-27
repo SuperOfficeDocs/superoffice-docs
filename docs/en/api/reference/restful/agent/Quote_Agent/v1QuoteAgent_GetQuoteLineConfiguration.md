@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 673
+  "QuoteLineConfigurationId": 789
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 956,
-  "FieldName": "Skiles-Mante",
-  "Label": "modi",
-  "Tooltip": "quam",
-  "Editable": false,
-  "InUse": false,
+  "QuoteLineConfigurationId": 605,
+  "FieldName": "Christiansen, Hodkiewicz and Mosciski",
+  "Label": "officia",
+  "Tooltip": "et",
+  "Editable": true,
+  "InUse": true,
   "Mandatory": false,
-  "Rank": 862,
-  "RestrictEdit": true,
+  "Rank": 86,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldType": "System.String",
+      "FieldLength": 977
     }
   }
 }

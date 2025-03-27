@@ -58,7 +58,7 @@ OK
 GET /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pfannerstill, Bode and Lang",
-    "DisplayName": "Schuster, Wunsch and Gottlieb",
-    "DisplayTooltip": "nisi",
+    "Name": "Dooley Inc and Sons",
+    "DisplayName": "Stanton Group",
+    "DisplayTooltip": "excepturi",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 1002
+        "FieldLength": 173
       }
     }
   },
   {
-    "Name": "Pfannerstill, Bode and Lang",
-    "DisplayName": "Schuster, Wunsch and Gottlieb",
-    "DisplayTooltip": "nisi",
+    "Name": "Dooley Inc and Sons",
+    "DisplayName": "Stanton Group",
+    "DisplayTooltip": "excepturi",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 1002
+        "FieldLength": 173
       }
     }
   }

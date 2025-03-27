@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "soluta",
-  "IsoLangCode": "natus",
-  "UserPrompt": "hic",
-  "DisplayValue": "reiciendis",
+  "ChatId": "aut",
+  "IsoLangCode": "dolor",
+  "UserPrompt": "molestias",
+  "DisplayValue": "voluptatum",
   "PreviousTurns": [
     {
-      "Timestamp": "2024-08-03T14:13:38.9068394+02:00",
-      "UserPrompt": "molestiae",
-      "UserDisplayText": "asperiores",
-      "BotResponse": "non",
+      "Timestamp": "2003-06-14T02:38:20.5263598+02:00",
+      "UserPrompt": "ut",
+      "UserDisplayText": "possimus",
+      "BotResponse": "eaque",
       "BotActions": {
-        "BotActions1": "amet",
-        "BotActions2": "unde"
+        "BotActions1": "maiores",
+        "BotActions2": "nemo"
       },
       "Attachments": [
-        "culpa",
-        "quis"
+        "eaque",
+        "et"
       ]
     },
     {
-      "Timestamp": "2024-08-03T14:13:38.9068394+02:00",
-      "UserPrompt": "molestiae",
-      "UserDisplayText": "asperiores",
-      "BotResponse": "non",
+      "Timestamp": "2003-06-14T02:38:20.5263598+02:00",
+      "UserPrompt": "ut",
+      "UserDisplayText": "possimus",
+      "BotResponse": "eaque",
       "BotActions": {
-        "BotActions1": "amet",
-        "BotActions2": "unde"
+        "BotActions1": "maiores",
+        "BotActions2": "nemo"
       },
       "Attachments": [
-        "culpa",
-        "quis"
+        "eaque",
+        "et"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2017-08-12T14:13:38.9068394+02:00",
-  "UserPrompt": "cupiditate",
-  "UserDisplayText": "aliquam",
-  "BotResponse": "distinctio",
+  "Timestamp": "2015-12-25T02:38:20.5263598+01:00",
+  "UserPrompt": "maxime",
+  "UserDisplayText": "magnam",
+  "BotResponse": "impedit",
   "BotActions": {
-    "BotActions1": "perspiciatis",
-    "BotActions2": "magnam"
+    "BotActions1": "tempora",
+    "BotActions2": "perferendis"
   },
   "Attachments": [
-    "velit",
-    "consectetur"
+    "voluptates",
+    "asperiores"
   ]
 }
 ```

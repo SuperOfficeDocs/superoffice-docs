@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 3,
-  "Caption": "cum",
-  "Description": "Upgradable fault-tolerant policy",
-  "ChartName": "Hyatt Inc and Sons",
-  "ChartId": "ratione",
+  "DashboardTileId": 112,
+  "Caption": "impedit",
+  "Description": "Streamlined next generation capability",
+  "ChartName": "Cummerata-Bins",
+  "ChartId": "explicabo",
   "IsDefault": false,
-  "AssociateId": 999,
-  "GroupId": 725,
-  "SelectionId": 220,
-  "Config": "voluptatum",
+  "AssociateId": 689,
+  "GroupId": 377,
+  "SelectionId": 738,
+  "Config": "eligendi",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Larson Inc and Sons",
-      "Description": "Compatible intangible leverage",
+      "Name": "Hintz-Kilback",
+      "Description": "Down-sized optimizing definition",
       "Type": "Boolean",
-      "ListName": "Runolfsson LLC",
+      "ListName": "Mills, Ruecker and Von",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "voluptate",
+      "Value": "velit",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 465
+          "FieldLength": 854
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 762,
+      "VisibleId": 865,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 749
+          "FieldLength": 189
         }
       }
     },
     {
-      "VisibleId": 762,
+      "VisibleId": 865,
       "Visibility": "All",
-      "DisplayValue": "eum",
+      "DisplayValue": "veniam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 749
+          "FieldLength": 189
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldLength": 186
     }
   }
 }

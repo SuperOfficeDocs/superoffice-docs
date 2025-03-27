@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    300,
-    164
+    891,
+    693
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 25,
-    "ColumnId": 236,
-    "FieldDefault": "recusandae",
-    "FieldHeight": 886,
-    "FieldLabel": "omnis",
-    "FieldLeft": 61,
-    "FieldTop": 648,
+    "UDefFieldId": 518,
+    "ColumnId": 132,
+    "FieldDefault": "iure",
+    "FieldHeight": 413,
+    "FieldLabel": "qui",
+    "FieldLeft": 571,
+    "FieldTop": 203,
     "FieldType": "Checkbox",
-    "FieldWidth": 395,
-    "FormatMask": "commodi",
+    "FieldWidth": 322,
+    "FormatMask": "magnam",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 859,
-    "LabelLeft": 507,
-    "LabelTop": 908,
-    "LabelWidth": 938,
-    "LastVersionId": 588,
-    "ListTableId": 397,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 846,
+    "LabelLeft": 860,
+    "LabelTop": 62,
+    "LabelWidth": 150,
+    "LastVersionId": 603,
+    "ListTableId": 165,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 490,
-    "ProgId": "autem",
+    "Page1LineNo": 28,
+    "ProgId": "nihil",
     "IsReadOnly": false,
-    "ShortLabel": "rem",
-    "TabOrder": 394,
-    "TextLength": 636,
-    "Tooltip": "laboriosam",
-    "UdefIdentity": 965,
-    "UDListDefinitionId": 25,
+    "ShortLabel": "quis",
+    "TabOrder": 87,
+    "TextLength": 160,
+    "Tooltip": "nam",
+    "UdefIdentity": 457,
+    "UDListDefinitionId": 816,
     "Justification": "Center",
-    "Version": 313,
-    "TemplateVariableName": "Hartmann, Gerlach and Fahey",
+    "Version": 898,
+    "TemplateVariableName": "Parisian, Schoen and Hahn",
     "HasBeenPublished": false,
-    "MdoListName": "Dietrich-O'Conner",
+    "MdoListName": "Sawayn, Miller and Mosciski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 297
+        "FieldType": "System.Int32",
+        "FieldLength": 395
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 565
+  "DashboardId": 713
 }
 ```
 
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 650,
-  "Name": "Mosciski, Dickinson and Stamm",
-  "Description": "Front-line impactful productivity",
-  "OwnedByFullName": "Nikolas Langworth DDS",
-  "Registered": "2005-09-16T14:13:39.9692043+02:00",
+  "DashboardId": 69,
+  "Name": "Beatty Group",
+  "Description": "Inverse upward-trending parallelism",
+  "OwnedByFullName": "Rudy Skiles",
+  "Registered": "2005-04-03T02:38:21.1983079+02:00",
   "Tiles": [
     {
-      "Name": "Langworth Group",
+      "Name": "Kuvalis, Hirthe and Morar",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 724
+          "FieldLength": 436
         }
       }
     },
     {
-      "Name": "Langworth Group",
+      "Name": "Kuvalis, Hirthe and Morar",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 724
+          "FieldLength": 436
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 802
+      "FieldType": "System.Int32",
+      "FieldLength": 213
     }
   }
 }

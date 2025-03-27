@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 366,
-    "Name": "Homenick-Hegmann",
-    "Tooltip": "nostrum",
-    "Rank": 777,
-    "Key": "et",
-    "Deleted": true,
+    "LegalBaseId": 184,
+    "Name": "Tremblay LLC",
+    "Tooltip": "quam",
+    "Rank": 3,
+    "Key": "alias",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldLength": 664
       }
     }
   }

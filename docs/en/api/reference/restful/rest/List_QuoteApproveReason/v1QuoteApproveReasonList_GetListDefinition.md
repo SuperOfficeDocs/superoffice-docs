@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 967,
-  "Name": "Ernser, Hyatt and Simonis",
-  "Tooltip": "dolor",
-  "Deleted": true,
-  "Rank": 174,
-  "IsCustomList": false,
+  "Id": 602,
+  "Name": "Hahn-Wehner",
+  "Tooltip": "quis",
+  "Deleted": false,
+  "Rank": 179,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "maxime",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldType": "System.String",
+      "FieldLength": 823
     }
   },
   "_Links": {

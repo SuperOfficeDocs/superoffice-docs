@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Walsh-Dooley",
-    "DisplayName": "Hagenes Inc and Sons",
-    "Description": "Exclusive exuding forecast",
-    "ToolTip": "Veritatis blanditiis quasi deleniti voluptatem.",
+    "Name": "Rolfson-Tillman",
+    "DisplayName": "Labadie Inc and Sons",
+    "Description": "Quality-focused leading edge pricing structure",
+    "ToolTip": "Incidunt dolores reprehenderit nihil.",
     "Actions": "Implicit",
-    "ActionData": "maiores",
+    "ActionData": "ut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 863
+        "FieldLength": 597
       }
     }
   }

@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "et",
-  "SearchString": "suscipit"
+  "Type": "a",
+  "SearchString": "qui"
 }
 ```
 
@@ -94,16 +94,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "consequatur",
-    "autem"
+    "aut",
+    "magni"
   ],
   "Users": [
     {
-      "Value": "vel",
-      "DisplayValue": "repudiandae",
+      "Value": "quisquam",
+      "DisplayValue": "consequatur",
       "Columns": [
-        "voluptas",
-        "accusamus"
+        "et",
+        "eveniet"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -111,16 +111,16 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 922
+          "FieldLength": 223
         }
       }
     },
     {
-      "Value": "vel",
-      "DisplayValue": "repudiandae",
+      "Value": "quisquam",
+      "DisplayValue": "consequatur",
       "Columns": [
-        "voluptas",
-        "accusamus"
+        "et",
+        "eveniet"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
@@ -128,7 +128,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 922
+          "FieldLength": 223
         }
       }
     }
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 745
+      "FieldType": "System.String",
+      "FieldLength": 70
     }
   }
 }

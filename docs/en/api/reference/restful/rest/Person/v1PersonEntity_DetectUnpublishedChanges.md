@@ -27,7 +27,7 @@ True if the PersonEntity user-defined field layout has been changed.
 | columnChangesOnly | bool |  True: Check if we need to move data.  Default/False: Check if layout has changed. |
 
 ```http
-GET /api/v1/Person/UdefLayout/Changed?columnChangesOnly=True
+GET /api/v1/Person/UdefLayout/Changed?columnChangesOnly=False
 ```
 
 
@@ -62,7 +62,7 @@ OK
 GET /api/v1/Person/UdefLayout/Changed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response

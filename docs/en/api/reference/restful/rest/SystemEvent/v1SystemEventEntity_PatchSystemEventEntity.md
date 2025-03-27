@@ -117,18 +117,18 @@ SystemEventEntity  updated.
 PATCH /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "soluta",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "soluta",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 SystemEventEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 586,
+  "SystemEventId": 498,
   "Scope": "Database",
-  "Eta": "2007-08-07T14:13:49.2743418+02:00",
+  "Eta": "2007-04-23T02:38:26.4329026+02:00",
   "Eventkey": "et",
-  "Eventmess": "aut",
-  "ExtraInfo": 501,
-  "Owner": 464,
-  "UpdatedCount": 74,
-  "Registered": "2004-07-15T14:13:49.2743418+02:00",
+  "Eventmess": "repellendus",
+  "ExtraInfo": 33,
+  "Owner": 460,
+  "UpdatedCount": 504,
+  "Registered": "2013-11-11T02:38:26.4329026+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldType": "System.Int32",
+      "FieldLength": 414
     }
   },
   "_Links": {

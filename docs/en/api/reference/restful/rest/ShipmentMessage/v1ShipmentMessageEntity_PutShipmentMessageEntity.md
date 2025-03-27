@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 898,
-  "PlainMessage": "veniam",
-  "HtmlMessage": "non",
-  "SmsMessage": "nulla",
-  "Description": "Realigned executive orchestration",
-  "Subject": "qui",
-  "FolderId": 711,
-  "HeaderField": "similique",
-  "Design": "voluptatibus",
+  "ShipmentMessageId": 825,
+  "PlainMessage": "dolorum",
+  "HtmlMessage": "eum",
+  "SmsMessage": "consequuntur",
+  "Description": "Devolved stable alliance",
+  "Subject": "neque",
+  "FolderId": 390,
+  "HeaderField": "sunt",
+  "Design": "consequatur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": true,
-  "LongDescription": "Profound solution-oriented adapter",
-  "AccessKey": "sed",
-  "DocumentMessage": 978,
-  "Registered": "2020-05-05T14:13:49.2587235+02:00",
-  "RegisteredAssociateId": 219,
-  "Updated": "2016-07-29T14:13:49.2587235+02:00",
-  "UpdatedAssociateId": 828,
-  "UpdatedCount": 446
+  "LongDescription": "Implemented upward-trending implementation",
+  "AccessKey": "illum",
+  "DocumentMessage": 449,
+  "Registered": "2013-06-26T02:38:26.4329026+02:00",
+  "RegisteredAssociateId": 411,
+  "Updated": "2022-05-13T02:38:26.4329026+02:00",
+  "UpdatedAssociateId": 462,
+  "UpdatedCount": 28
 }
 ```
 
@@ -154,33 +154,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 358,
-  "PlainMessage": "quia",
-  "HtmlMessage": "perferendis",
-  "SmsMessage": "eos",
-  "Description": "User-friendly responsive initiative",
-  "Subject": "velit",
-  "FolderId": 489,
-  "HeaderField": "ullam",
-  "Design": "vitae",
+  "ShipmentMessageId": 866,
+  "PlainMessage": "dolor",
+  "HtmlMessage": "odit",
+  "SmsMessage": "sit",
+  "Description": "Synchronised national utilisation",
+  "Subject": "eum",
+  "FolderId": 337,
+  "HeaderField": "veritatis",
+  "Design": "repellendus",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Upgradable logistical flexibility",
-  "AccessKey": "est",
-  "DocumentMessage": 417,
-  "Registered": "2015-10-03T14:13:49.2587235+02:00",
-  "RegisteredAssociateId": 92,
-  "Updated": "2023-03-16T14:13:49.2587235+01:00",
-  "UpdatedAssociateId": 139,
-  "UpdatedCount": 723,
+  "LongDescription": "Virtual multi-state moderator",
+  "AccessKey": "exercitationem",
+  "DocumentMessage": 201,
+  "Registered": "2015-05-07T02:38:26.4329026+02:00",
+  "RegisteredAssociateId": 816,
+  "Updated": "2010-09-01T02:38:26.4329026+02:00",
+  "UpdatedAssociateId": 405,
+  "UpdatedCount": 488,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldLength": 271
     }
   },
   "_Links": {

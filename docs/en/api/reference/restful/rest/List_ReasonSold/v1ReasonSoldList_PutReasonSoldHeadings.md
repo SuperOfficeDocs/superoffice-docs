@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 499,
-    "Name": "Von Inc and Sons",
-    "Tooltip": "autem",
+    "HeadingId": 752,
+    "Name": "Koss, Kautzer and Funk",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "Rank": 830,
-    "UdListDefinitionId": 98
+    "Rank": 193,
+    "UdListDefinitionId": 732
   },
   {
-    "HeadingId": 499,
-    "Name": "Von Inc and Sons",
-    "Tooltip": "autem",
+    "HeadingId": 752,
+    "Name": "Koss, Kautzer and Funk",
+    "Tooltip": "tempore",
     "Deleted": false,
-    "Rank": 830,
-    "UdListDefinitionId": 98
+    "Rank": 193,
+    "UdListDefinitionId": 732
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 148,
-    "Name": "Mayer-O'Keefe",
-    "Tooltip": "sit",
+    "HeadingId": 753,
+    "Name": "Luettgen Group",
+    "Tooltip": "maiores",
     "Deleted": false,
-    "Rank": 943,
-    "UdListDefinitionId": 722,
+    "Rank": 263,
+    "UdListDefinitionId": 410,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 757
+        "FieldType": "System.Int32",
+        "FieldLength": 93
       }
     }
   }

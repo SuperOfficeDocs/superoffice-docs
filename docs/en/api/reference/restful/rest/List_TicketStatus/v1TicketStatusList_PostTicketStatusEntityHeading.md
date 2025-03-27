@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 352,
-  "Name": "Swift, Cummerata and Steuber",
-  "Tooltip": "consectetur",
-  "Deleted": false,
-  "Rank": 781,
-  "UdListDefinitionId": 908
+  "HeadingId": 419,
+  "Name": "Spencer Group",
+  "Tooltip": "exercitationem",
+  "Deleted": true,
+  "Rank": 318,
+  "UdListDefinitionId": 134
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 290,
-  "Name": "McClure, Dietrich and Wehner",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "Rank": 747,
-  "UdListDefinitionId": 619,
+  "HeadingId": 169,
+  "Name": "Kunde, Goyette and Barrows",
+  "Tooltip": "minima",
+  "Deleted": true,
+  "Rank": 356,
+  "UdListDefinitionId": 27,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 954
+      "FieldLength": 967
     }
   }
 }

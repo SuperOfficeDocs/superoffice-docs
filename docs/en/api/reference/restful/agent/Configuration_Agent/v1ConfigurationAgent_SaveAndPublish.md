@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 947,
-  "Name": "Stroman, Hermann and Mayert",
-  "Description": "Open-source bi-directional time-frame",
-  "DeltaJson": "numquam",
+  "ConfigurableScreenDeltaId": 139,
+  "Name": "Weber-McCullough",
+  "Description": "Customizable fault-tolerant extranet",
+  "DeltaJson": "omnis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "ex",
-  "UpdatedDate": "2005-11-14T14:13:39.7347754+01:00",
-  "CreatedDate": "2019-10-28T14:13:39.7347754+01:00",
+  "RecipeId": "earum",
+  "UpdatedDate": "2024-10-01T02:38:20.995206+02:00",
+  "CreatedDate": "2002-07-17T02:38:20.995206+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    1001,
-    262
+    390,
+    383
   ],
-  "AppliesToKey": "voluptas",
+  "AppliesToKey": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldType": "System.String",
+      "FieldLength": 619
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 532,
-    "Name": "Roob-Tromp",
-    "ToolTip": "Excepturi non et.",
+    "Id": 27,
+    "Name": "Altenwerth, Herman and Williamson",
+    "ToolTip": "Molestiae veniam.",
     "Deleted": false,
-    "Rank": 736,
-    "Type": "in",
-    "ColorBlock": 425,
-    "IconHint": "vitae",
+    "Rank": 499,
+    "Type": "ipsam",
+    "ColorBlock": 299,
+    "IconHint": "optio",
     "Selected": false,
-    "LastChanged": "2006-09-01T14:13:50.1968854+02:00",
+    "LastChanged": "2023-10-09T02:38:26.9173771+02:00",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Marvin, Satterfield and Roob",
-        "ToolTip": "Ut magni consequuntur ut.",
+        "Id": 819,
+        "Name": "Zboncak Inc and Sons",
+        "ToolTip": "Et eos est repudiandae illum tenetur nihil impedit.",
         "Deleted": false,
-        "Rank": 186,
-        "Type": "ea",
-        "ColorBlock": 634,
-        "IconHint": "voluptatem",
+        "Rank": 849,
+        "Type": "laborum",
+        "ColorBlock": 476,
+        "IconHint": "sequi",
         "Selected": true,
-        "LastChanged": "2005-06-07T14:13:50.1968854+02:00",
+        "LastChanged": "2024-09-17T02:38:26.9173771+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "culpa",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Prof. Jalen Wintheiser"
+        "FullName": "Wendell Hills"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "quos",
+    "ExtraInfo": "maxime",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Kaleigh Osinski"
+    "FullName": "Mrs. Wade Mariana Reichert"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Ankunding-Wisozk",
-    "ToolTip": "Odit ea omnis sint.",
+    "Id": 894,
+    "Name": "Cartwright, Zulauf and Kuhlman",
+    "ToolTip": "Quis sit.",
     "Deleted": false,
-    "Rank": 721,
-    "Type": "animi",
-    "ColorBlock": 869,
-    "IconHint": "distinctio",
-    "Selected": true,
-    "LastChanged": "2012-09-13T14:13:50.1968854+02:00",
+    "Rank": 86,
+    "Type": "perspiciatis",
+    "ColorBlock": 43,
+    "IconHint": "eius",
+    "Selected": false,
+    "LastChanged": "2003-12-29T02:38:26.9173771+01:00",
     "ChildItems": [
       {
-        "Id": 930,
-        "Name": "Schamberger-Langworth",
-        "ToolTip": "Molestiae aperiam non nulla alias quisquam magnam id.",
-        "Deleted": false,
-        "Rank": 687,
-        "Type": "maxime",
-        "ColorBlock": 687,
-        "IconHint": "reiciendis",
+        "Id": 907,
+        "Name": "Powlowski-Kuhic",
+        "ToolTip": "Quas maiores rerum culpa praesentium blanditiis voluptas non.",
+        "Deleted": true,
+        "Rank": 835,
+        "Type": "quis",
+        "ColorBlock": 496,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "1997-11-26T14:13:50.1968854+01:00",
+        "LastChanged": "2023-09-12T02:38:26.9173771+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "officiis",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Prof. Ethan Conroy",
+        "FullName": "Ms. Evangeline Orie Stroman Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 956
+            "FieldLength": 372
           }
         }
       }
     ],
-    "ExtraInfo": "ratione",
-    "StyleHint": "odio",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "ullam",
     "Hidden": false,
-    "FullName": "Minnie Roberts",
+    "FullName": "Prof. Cassidy Renner III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 362
+        "FieldLength": 344
       }
     }
   }

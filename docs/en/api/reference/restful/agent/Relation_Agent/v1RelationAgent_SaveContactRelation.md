@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Relation/SaveContactRelation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 833,
-  "SourcePersonId": 147,
-  "DestinationContactId": 967,
-  "DestinationPersonId": 968,
-  "RelationId": 388,
-  "Comment": "et",
-  "RelationDefinitionId": 655,
-  "Reversed": 350,
-  "UpdatedDate": "2003-01-05T14:13:41.1408128+01:00",
-  "CreatedDate": "2023-05-12T14:13:41.1408128+02:00",
+  "SourceContactId": 205,
+  "SourcePersonId": 164,
+  "DestinationContactId": 954,
+  "DestinationPersonId": 921,
+  "RelationId": 616,
+  "Comment": "suscipit",
+  "RelationDefinitionId": 399,
+  "Reversed": 430,
+  "UpdatedDate": "2003-12-05T02:38:21.7919947+01:00",
+  "CreatedDate": "2002-11-08T02:38:21.7919947+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Murazik, Witting and Bayer",
-  "SourcePersonName": "Schaden Group",
-  "DestinationContactName": "Halvorson LLC",
-  "DestinationPersonName": "Koch, Price and Connelly",
-  "ActiveText": "excepturi",
-  "PassiveText": "harum",
+  "SourceContactName": "Carroll Group",
+  "SourcePersonName": "Hane Group",
+  "DestinationContactName": "Schuppe Group",
+  "DestinationPersonName": "Osinski-Kuhic",
+  "ActiveText": "quos",
+  "PassiveText": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldType": "System.String",
+      "FieldLength": 57
     }
   }
 }

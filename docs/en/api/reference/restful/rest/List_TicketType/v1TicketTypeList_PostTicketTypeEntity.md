@@ -101,37 +101,37 @@ OK
 POST /api/v1/List/TicketType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 417,
-  "Name": "Altenwerth Group",
-  "Rank": 985,
-  "Tooltip": "ut",
-  "Icon": "qui",
-  "DefaultTicketStatus": 130,
+  "TicketTypeId": 761,
+  "Name": "Cremin, Runolfsdottir and Schaden",
+  "Rank": 137,
+  "Tooltip": "optio",
+  "Icon": "dolorem",
+  "DefaultTicketStatus": 668,
   "TicketStatuses": [
-    153,
-    368
+    940,
+    479
   ],
-  "DefaultTicketPriority": 747,
+  "DefaultTicketPriority": 86,
   "TicketPriorities": [
-    247,
-    186
+    562,
+    847
   ],
-  "ReplyTemplate": 59,
+  "ReplyTemplate": 140,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    682,
-    875
+    665,
+    42
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true
 }
 ```
@@ -143,40 +143,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 457,
-  "Name": "Reichert-Hagenes",
-  "Rank": 220,
-  "Tooltip": "facilis",
-  "Icon": "earum",
-  "DefaultTicketStatus": 574,
+  "TicketTypeId": 483,
+  "Name": "Keebler-Murphy",
+  "Rank": 698,
+  "Tooltip": "qui",
+  "Icon": "quo",
+  "DefaultTicketStatus": 508,
   "TicketStatuses": [
-    815,
-    67
+    699,
+    780
   ],
-  "DefaultTicketPriority": 52,
+  "DefaultTicketPriority": 46,
   "TicketPriorities": [
-    751,
-    649
+    289,
+    187
   ],
-  "ReplyTemplate": 796,
+  "ReplyTemplate": 199,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    295,
-    822
+    761,
+    186
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 933
+      "FieldType": "System.String",
+      "FieldLength": 799
     }
   }
 }

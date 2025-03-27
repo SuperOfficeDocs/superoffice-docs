@@ -75,8 +75,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filename": "perspiciatis",
-  "AttachmentId": 113
+  "Filename": "necessitatibus",
+  "AttachmentId": 940
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"cumque"
+"rem"
 ```

@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ratke Inc and Sons",
-  "DeviceName": "Bayer, Stanton and Welch",
-  "DeviceIdentifier": "ut"
+  "ApplicationName": "Kutch Inc and Sons",
+  "DeviceName": "Farrell-Morar",
+  "DeviceIdentifier": "beatae"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 631,
-  "Name": "Boehm-Anderson",
-  "CreatedDate": "1998-09-07T14:13:40.3909833+02:00",
-  "UpdatedDate": "2001-05-13T14:13:40.3909833+02:00",
-  "AssociateFullName": "Randall Runolfsson",
-  "CreatedBy": "quia",
-  "UpdatedBy": "ea",
-  "DeviceIdentifier": "cum",
-  "ForeignAppId": 784,
+  "ForeignDeviceId": 514,
+  "Name": "Auer, Ferry and Block",
+  "CreatedDate": "2006-11-04T02:38:21.4482803+01:00",
+  "UpdatedDate": "2009-11-18T02:38:21.4482803+01:00",
+  "AssociateFullName": "Edmund Kuvalis",
+  "CreatedBy": "tempore",
+  "UpdatedBy": "deleniti",
+  "DeviceIdentifier": "minus",
+  "ForeignAppId": 346,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldType": "System.String",
+      "FieldLength": 262
     }
   }
 }

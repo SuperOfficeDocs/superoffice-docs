@@ -32,8 +32,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=id
-GET /api/v1/MDOList/{listname}?query=aut
+GET /api/v1/MDOList/{listname}?additional=sit
+GET /api/v1/MDOList/{listname}?query=distinctio
 ```
 
 
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 236,
-    "Name": "Adams, Hartmann and Morar",
-    "ToolTip": "Architecto eius itaque perspiciatis.",
-    "Deleted": true,
-    "Rank": 147,
-    "Type": "ex",
+    "Id": 932,
+    "Name": "Blanda, Kuhlman and Gutkowski",
+    "ToolTip": "Eligendi et praesentium pariatur alias.",
+    "Deleted": false,
+    "Rank": 806,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 712,
-        "Name": "Padberg, Bartell and Swift",
-        "ToolTip": "Sequi exercitationem.",
+        "Id": 660,
+        "Name": "Crist-Stokes",
+        "ToolTip": "Magnam quibusdam perferendis et perferendis aut hic quas.",
         "Deleted": false,
-        "Rank": 581,
-        "Type": "dolores",
+        "Rank": 226,
+        "Type": "assumenda",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 679,
-        "ExtraInfo": "vel",
-        "StyleHint": "ut",
-        "FullName": "Kathryn Adams",
+        "IconHint": "omnis",
+        "ColorBlock": 558,
+        "ExtraInfo": "laborum",
+        "StyleHint": "dicta",
+        "FullName": "Tatum Wiza",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 459
+            "FieldLength": 141
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 298,
-    "ExtraInfo": "placeat",
-    "StyleHint": "expedita",
-    "FullName": "Prof. Clemens Kiehn II",
+    "IconHint": "libero",
+    "ColorBlock": 537,
+    "ExtraInfo": "esse",
+    "StyleHint": "nam",
+    "FullName": "Daphne Wyman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 498
+        "FieldType": "System.Int32",
+        "FieldLength": 688
       }
     }
   }

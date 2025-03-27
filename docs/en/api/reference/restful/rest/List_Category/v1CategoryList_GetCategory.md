@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 618,
-  "Name": "Beier LLC",
-  "Tooltip": "ea",
+  "Id": 232,
+  "Name": "Labadie, Gleason and Rosenbaum",
+  "Tooltip": "quod",
   "Deleted": true,
-  "UdListDefinitionId": 488,
-  "Rank": 375,
+  "UdListDefinitionId": 680,
+  "Rank": 714,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 585
+      "FieldType": "System.Int32",
+      "FieldLength": 626
     }
   }
 }

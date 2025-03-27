@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hansen Group",
-  "ProviderName": "Stroman LLC",
-  "Context": "vitae",
-  "OwnerKeys": "aspernatur"
+  "GuiName": "Wolff, Simonis and Gleichner",
+  "ProviderName": "Trantow-Macejkovic",
+  "Context": "temporibus",
+  "OwnerKeys": "autem"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Grant-Beier",
-      "DisplayTooltip": "at",
-      "DisplayType": "voluptatem",
-      "CanOrderBy": true,
-      "Name": "Olson, Krajcik and Flatley",
-      "CanRestrictBy": false,
-      "RestrictionType": "eveniet",
-      "RestrictionListName": "Blanda, Jenkins and O'Conner",
+      "DisplayName": "Feeney LLC",
+      "DisplayTooltip": "libero",
+      "DisplayType": "sit",
+      "CanOrderBy": false,
+      "Name": "O'Connell Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "aut",
+      "RestrictionListName": "Herman-Smitham",
       "IsVisible": false,
-      "ExtraInfo": "reprehenderit",
-      "Width": "aut",
-      "IconHint": "rerum",
-      "HeadingIconHint": "in"
+      "ExtraInfo": "sequi",
+      "Width": "esse",
+      "IconHint": "fugiat",
+      "HeadingIconHint": "totam"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 867,
-      "Name": "Simonis Inc and Sons",
-      "ToolTip": "Ut maiores soluta porro accusamus velit.",
+      "Id": 878,
+      "Name": "Jakubowski Inc and Sons",
+      "ToolTip": "Earum voluptatum sint.",
       "Deleted": true,
-      "Rank": 678,
-      "Type": "deserunt",
-      "ColorBlock": 557,
-      "IconHint": "assumenda",
+      "Rank": 937,
+      "Type": "molestiae",
+      "ColorBlock": 523,
+      "IconHint": "beatae",
       "Selected": true,
-      "LastChanged": "2004-06-18T14:13:39.3442417+02:00",
+      "LastChanged": "2013-09-26T02:38:20.8545926+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iste",
-      "StyleHint": "doloribus",
-      "Hidden": false,
-      "FullName": "Bernardo Lueilwitz",
+      "ExtraInfo": "sit",
+      "StyleHint": "facere",
+      "Hidden": true,
+      "FullName": "Miss Audrey Stoltenberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 831
+          "FieldLength": 378
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Spencer-Turcotte",
+      "Name": "Leannon LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Spencer-Turcotte",
+      "Name": "Leannon LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "corrupti",
+  "OwnerKeys": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 165
+      "FieldType": "System.Int32",
+      "FieldLength": 910
     }
   }
 }

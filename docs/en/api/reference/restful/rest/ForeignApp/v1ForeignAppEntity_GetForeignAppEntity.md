@@ -88,32 +88,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 25 Jun 1999 14:13:48 G6T
+Last-Modified: Fri, 15 May 1998 02:38:26 G5T
 
 {
-  "ForeignAppId": 435,
-  "Name": "Gleichner, Hagenes and Bosco",
-  "CreatedDate": "2000-10-22T14:13:48.8836985+02:00",
-  "UpdatedDate": "1999-06-25T14:13:48.8836985+02:00",
+  "ForeignAppId": 161,
+  "Name": "Nicolas-Jacobi",
+  "CreatedDate": "2008-03-29T02:38:26.1048073+01:00",
+  "UpdatedDate": "1998-05-15T02:38:26.1048073+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 837,
-      "Name": "Bergnaum-Hyatt",
-      "CreatedDate": "2019-11-02T14:13:48.8836985+01:00",
-      "UpdatedDate": "1998-09-16T14:13:48.8836985+02:00",
-      "AssociateFullName": "Bernadine Hessel",
-      "CreatedBy": "corporis",
-      "UpdatedBy": "architecto",
-      "DeviceIdentifier": "voluptatem",
-      "ForeignAppId": 55,
+      "ForeignDeviceId": 331,
+      "Name": "O'Conner Inc and Sons",
+      "CreatedDate": "2023-02-23T02:38:26.1048073+01:00",
+      "UpdatedDate": "2008-02-08T02:38:26.1048073+01:00",
+      "AssociateFullName": "Alison Kozey",
+      "CreatedBy": "adipisci",
+      "UpdatedBy": "ut",
+      "DeviceIdentifier": "dolore",
+      "ForeignAppId": 174,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldLength": 789
         }
       }
     }
@@ -122,13 +122,13 @@ Last-Modified: Fri, 25 Jun 1999 14:13:48 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldType": "System.Int32",
+      "FieldLength": 268
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

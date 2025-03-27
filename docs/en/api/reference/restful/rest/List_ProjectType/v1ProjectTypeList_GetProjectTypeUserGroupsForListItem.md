@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 883,
-    "Name": "Rolfson LLC",
-    "ToolTip": "Maxime omnis qui ut repudiandae tempore.",
-    "Deleted": false,
-    "Rank": 220,
-    "Type": "nihil",
-    "ColorBlock": 53,
-    "IconHint": "sunt",
-    "Selected": false,
-    "LastChanged": "2022-06-24T14:13:50.1343965+02:00",
+    "Id": 527,
+    "Name": "Smith-Zulauf",
+    "ToolTip": "Impedit ut illum eos adipisci dignissimos fuga molestiae.",
+    "Deleted": true,
+    "Rank": 258,
+    "Type": "omnis",
+    "ColorBlock": 870,
+    "IconHint": "ducimus",
+    "Selected": true,
+    "LastChanged": "2025-03-19T02:38:26.8705112+01:00",
     "ChildItems": [
       {
-        "Id": 140,
-        "Name": "Abernathy Group",
-        "ToolTip": "Libero tempora quis eum natus.",
+        "Id": 25,
+        "Name": "Larkin Inc and Sons",
+        "ToolTip": "At natus iusto repellat unde eos.",
         "Deleted": false,
-        "Rank": 909,
-        "Type": "modi",
-        "ColorBlock": 451,
-        "IconHint": "minima",
+        "Rank": 676,
+        "Type": "sunt",
+        "ColorBlock": 666,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2015-04-03T14:13:50.1343965+02:00",
+        "LastChanged": "2005-10-27T02:38:26.8705112+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "eaque",
+        "StyleHint": "harum",
         "Hidden": false,
-        "FullName": "Craig Rohan",
+        "FullName": "Mauricio Harber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 90
+            "FieldLength": 648
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "nesciunt",
-    "Hidden": true,
-    "FullName": "Ceasar Hagenes",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Mrs. Juliana Margot Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldType": "System.Int32",
+        "FieldLength": 320
       }
     }
   }

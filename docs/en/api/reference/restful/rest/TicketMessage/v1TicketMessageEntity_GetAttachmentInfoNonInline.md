@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 920,
-    "Name": "Kohler, Wyman and Bogisich",
-    "ContentType": "veritatis",
-    "AttSize": 942,
-    "InlineImage": true,
-    "ContentId": "voluptatem",
-    "AuthKey": "a",
-    "IsSafeFileExtension": false,
+    "AttachmentId": 187,
+    "Name": "Kohler Group",
+    "ContentType": "quos",
+    "AttSize": 94,
+    "InlineImage": false,
+    "ContentId": "ipsa",
+    "AuthKey": "natus",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldType": "System.String",
+        "FieldLength": 620
       }
     }
   }

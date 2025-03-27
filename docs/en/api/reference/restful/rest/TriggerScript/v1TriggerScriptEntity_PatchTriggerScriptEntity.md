@@ -120,18 +120,18 @@ TriggerScriptEntity  updated.
 PATCH /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "nobis",
+    "path": "illo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "nobis",
+    "path": "illo",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 253,
-  "Name": "Ferry Inc and Sons",
+  "ScreenChooserId": 955,
+  "Name": "Bogan, O'Connell and Kulas",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "non",
-  "Source": "eligendi",
-  "Registered": "2024-05-09T14:13:49.414935+02:00",
-  "RegisteredAssociateId": 738,
-  "Updated": "2010-05-21T14:13:49.414935+02:00",
-  "UpdatedAssociateId": 697,
+  "Enabled": false,
+  "UniqueIdentifier": "voluptatem",
+  "Source": "ut",
+  "Registered": "2023-01-31T02:38:26.5266399+01:00",
+  "RegisteredAssociateId": 397,
+  "Updated": "2009-07-27T02:38:26.5266399+02:00",
+  "UpdatedAssociateId": 505,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 691
     }
   },
   "_Links": {

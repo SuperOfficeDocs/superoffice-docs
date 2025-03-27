@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Harvey, Feil and Langosh",
-    "Tooltip": "autem",
+    "Id": 163,
+    "Name": "Hayes Group",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 353,
-    "Rank": 22,
+    "UdListDefinitionId": 814,
+    "Rank": 629,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 641
+        "FieldLength": 181
       }
     }
   }

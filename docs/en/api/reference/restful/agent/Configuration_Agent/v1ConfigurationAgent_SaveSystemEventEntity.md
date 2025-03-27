@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 502,
+  "SystemEventId": 409,
   "Scope": "Database",
-  "Eta": "2018-03-12T14:13:39.7347754+01:00",
-  "Eventkey": "sed",
-  "Eventmess": "et",
-  "ExtraInfo": 893,
-  "Owner": 563,
-  "UpdatedCount": 74,
-  "Registered": "2007-03-06T14:13:39.7347754+01:00",
+  "Eta": "1999-08-25T02:38:20.995206+02:00",
+  "Eventkey": "voluptate",
+  "Eventmess": "dolorem",
+  "ExtraInfo": 268,
+  "Owner": 421,
+  "UpdatedCount": 818,
+  "Registered": "2018-11-03T02:38:20.995206+01:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 906,
+  "SystemEventId": 897,
   "Scope": "Database",
-  "Eta": "2000-04-30T14:13:39.7347754+02:00",
-  "Eventkey": "iusto",
-  "Eventmess": "maxime",
-  "ExtraInfo": 258,
-  "Owner": 824,
-  "UpdatedCount": 674,
-  "Registered": "2001-02-13T14:13:39.7347754+01:00",
+  "Eta": "1999-04-18T02:38:20.995206+02:00",
+  "Eventkey": "error",
+  "Eventmess": "error",
+  "ExtraInfo": 167,
+  "Owner": 877,
+  "UpdatedCount": 756,
+  "Registered": "2019-11-15T02:38:20.995206+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldLength": 517
     }
   }
 }

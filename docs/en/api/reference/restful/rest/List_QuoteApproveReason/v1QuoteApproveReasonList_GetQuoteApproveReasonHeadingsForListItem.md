@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "McClure-Runolfsson",
-    "ToolTip": "Est error non unde corporis at et.",
-    "Deleted": false,
-    "Rank": 166,
-    "Type": "quam",
-    "ColorBlock": 589,
-    "IconHint": "est",
+    "Id": 20,
+    "Name": "Rice, Wilkinson and Wolf",
+    "ToolTip": "Voluptate tempora aspernatur architecto molestiae dicta sint.",
+    "Deleted": true,
+    "Rank": 38,
+    "Type": "rerum",
+    "ColorBlock": 707,
+    "IconHint": "dolore",
     "Selected": false,
-    "LastChanged": "2020-05-20T14:13:50.1500173+02:00",
+    "LastChanged": "2021-08-23T02:38:26.886137+02:00",
     "ChildItems": [
       {
-        "Id": 24,
-        "Name": "Stoltenberg Group",
-        "ToolTip": "Expedita aliquam et rerum quisquam eaque tempora.",
+        "Id": 696,
+        "Name": "Goldner-Schaden",
+        "ToolTip": "Error non mollitia aut asperiores ut fugiat.",
         "Deleted": true,
-        "Rank": 307,
-        "Type": "odit",
-        "ColorBlock": 562,
-        "IconHint": "nihil",
+        "Rank": 188,
+        "Type": "tempore",
+        "ColorBlock": 576,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2011-07-13T14:13:50.1500173+02:00",
+        "LastChanged": "2016-05-23T02:38:26.886137+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Miss Jaylan Mann V",
+        "ExtraInfo": "enim",
+        "StyleHint": "soluta",
+        "Hidden": true,
+        "FullName": "Mr. Burnice Leola Bechtelar DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 204
+            "FieldType": "System.Int32",
+            "FieldLength": 517
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "impedit",
+    "ExtraInfo": "officiis",
+    "StyleHint": "qui",
     "Hidden": true,
-    "FullName": "Mr. Wilber Jacobs",
+    "FullName": "Carol Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldLength": 339
       }
     }
   }

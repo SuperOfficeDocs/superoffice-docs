@@ -71,17 +71,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gutmann, Swift and Kuphal",
+  "Name": "Abbott-Fisher",
   "Values": [
-    "eos",
-    "ducimus"
+    "dolorem",
+    "est"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldType": "System.String",
+      "FieldLength": 241
     }
   }
 }

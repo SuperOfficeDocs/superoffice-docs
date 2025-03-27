@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/CRMScript/CreateDefaultCRMScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 111,
-  "UniqueIdentifier": "repellat",
-  "Name": "Gleichner-Block",
-  "Description": "Vision-oriented multi-state functionalities",
-  "IncludeId": "voluptas",
-  "AccessKey": "aut",
-  "HierarchyId": 531,
-  "Source": "et",
-  "SourceCode": "qui",
+  "EjscriptId": 87,
+  "UniqueIdentifier": "accusamus",
+  "Name": "Barton, Renner and Rohan",
+  "Description": "Persevering context-sensitive function",
+  "IncludeId": "quia",
+  "AccessKey": "eius",
+  "HierarchyId": 517,
+  "Source": "non",
+  "SourceCode": "provident",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 214,
+  "HtmlOutput": 291,
   "Includes": [
-    448,
-    322
+    51,
+    507
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 496,
-      "LineNumberTo": 82,
-      "Delta": 583,
-      "IncludeId": "commodi",
+      "LineNumberFrom": 399,
+      "LineNumberTo": 733,
+      "Delta": 571,
+      "IncludeId": "et",
       "IncludedFrom": [
-        "ipsum",
-        "rerum"
+        "consequuntur",
+        "voluptatibus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldType": "System.String",
+          "FieldLength": 463
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2003-04-25T14:13:39.9067187+02:00",
-  "RegisteredAssociateId": 778,
-  "Updated": "2007-08-04T14:13:39.9067187+02:00",
-  "UpdatedAssociateId": 60,
+  "Registered": "1998-08-07T02:38:21.1670651+02:00",
+  "RegisteredAssociateId": 338,
+  "Updated": "2002-04-16T02:38:21.1670651+02:00",
+  "UpdatedAssociateId": 272,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 282
+      "FieldLength": 298
     }
   }
 }

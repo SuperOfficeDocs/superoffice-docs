@@ -74,12 +74,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Project/{id}/Guide?$select=name,department,category/id
 GET /api/v1/Project/{id}/Guide?$filter=name begins 'S'
 GET /api/v1/Project/{id}/Guide?$orderBy=name asc
-GET /api/v1/Project/{id}/Guide?$entities=aut
-GET /api/v1/Project/{id}/Guide?$top=807
-GET /api/v1/Project/{id}/Guide?$skip=886
+GET /api/v1/Project/{id}/Guide?$entities=consequatur
+GET /api/v1/Project/{id}/Guide?$top=909
+GET /api/v1/Project/{id}/Guide?$skip=455
 GET /api/v1/Project/{id}/Guide?$mode=Full
 GET /api/v1/Project/{id}/Guide?$options=GrandTotal=true
-GET /api/v1/Project/{id}/Guide?$context=nisi
+GET /api/v1/Project/{id}/Guide?$context=necessitatibus
 GET /api/v1/Project/{id}/Guide?$format=JSON
 GET /api/v1/Project/{id}/Guide?$jsonSafe=False
 GET /api/v1/Project/{id}/Guide?$output=Display
@@ -123,7 +123,7 @@ OK
 GET /api/v1/Project/{id}/Guide
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -134,21 +134,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "fugiat",
+  "odata.nextLink": "cupiditate",
   "value": [
     {
-      "PrimaryKey": 4682,
-      "EntityName": "sale",
-      "saleId": 4682,
-      "contactId": 1885,
-      "name": "Bailey, Runte and Steuber"
+      "PrimaryKey": 402,
+      "EntityName": "person",
+      "personId": 402,
+      "fullName": "Jeremie Kunde"
     },
     {
-      "PrimaryKey": 3417,
-      "EntityName": "sale",
-      "saleId": 3417,
-      "contactId": 248,
-      "name": "Langosh LLC"
+      "PrimaryKey": 5369,
+      "EntityName": "person",
+      "personId": 5369,
+      "fullName": "Mr. Jayde Kyla Auer III"
     }
   ]
 }

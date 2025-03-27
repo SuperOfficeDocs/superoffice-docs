@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reactive systemic archive",
-  "Postit": "ut",
+  "Description": "Progressive interactive alliance",
+  "Postit": "animi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 897,
-  "IncludePerson": 839,
+  "GroupIdx": 808,
+  "IncludePerson": 731,
   "MemberCount": 99.99,
-  "Name": "Walker, Hudson and Gleason",
-  "PostitTextId": 190,
-  "CreatedDate": "2005-04-02T14:13:41.2664827+02:00",
-  "SelectionId": 800,
-  "SoundEx": "autem",
-  "Source": 792,
-  "TextId": 169,
-  "UpdatedDate": "2005-08-22T14:13:41.2664827+02:00",
-  "UpdatedCount": 690,
-  "Visibility": 23,
+  "Name": "Luettgen Inc and Sons",
+  "PostitTextId": 289,
+  "CreatedDate": "1999-02-18T02:38:21.8701125+01:00",
+  "SelectionId": 804,
+  "SoundEx": "expedita",
+  "Source": 589,
+  "TextId": 679,
+  "UpdatedDate": "2012-05-31T02:38:21.8701125+02:00",
+  "UpdatedCount": 73,
+  "Visibility": 96,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 247,
-  "TargetTableName": "Dibbert, Jenkins and Olson",
-  "Completed": false,
-  "LeftSelectionId": 846,
-  "RightSelectionId": 495,
+  "CompanyUnique": true,
+  "TargetTableNumber": 309,
+  "TargetTableName": "Veum, Ebert and Bartell",
+  "Completed": true,
+  "LeftSelectionId": 79,
+  "RightSelectionId": 222,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Cassin LLC",
-  "ShadowProviderName": "Marquardt-O'Reilly",
-  "ChartKey": "sunt",
-  "LastLoaded": "2012-10-28T14:13:41.2664827+01:00",
-  "LastLoadedBy": 187,
+  "MainProviderName": "Ziemann-Ferry",
+  "ShadowProviderName": "Larkin, Goldner and Orn",
+  "ChartKey": "laudantium",
+  "LastLoaded": "1998-08-15T02:38:21.8701125+02:00",
+  "LastLoadedBy": 126,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-11-05T14:13:41.2664827+01:00",
-  "LastMembershipChangeBy": 134,
+  "LastMembershipChange": "1998-11-27T02:38:21.8701125+01:00",
+  "LastMembershipChangeBy": 213,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "amet",
-  "MemberTabHeading": "nesciunt",
-  "MailingsProviderName": "Howell Inc and Sons",
-  "DashboardTileDefinitionId": 93,
+  "MainHeading": "incidunt",
+  "MemberTabHeading": "necessitatibus",
+  "MailingsProviderName": "Glover, Casper and Schuppe",
+  "DashboardTileDefinitionId": 836,
   "VisibleFor": [
     {
-      "VisibleId": 27,
+      "VisibleId": 254,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldType": "System.String",
+          "FieldLength": 933
         }
       }
     },
     {
-      "VisibleId": 27,
+      "VisibleId": 254,
       "Visibility": "All",
-      "DisplayValue": "nihil",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 142
+          "FieldType": "System.String",
+          "FieldLength": 933
         }
       }
     }
@@ -179,8 +179,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 345
+      "FieldType": "System.Int32",
+      "FieldLength": 499
     }
   }
 }

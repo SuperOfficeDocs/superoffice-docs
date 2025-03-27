@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 485,
-  "AttachmentId": "incidunt",
-  "AttachmentType": "inventore",
-  "AttachmentFilename": "quidem"
+  "MailItemId": 563,
+  "AttachmentId": "hic",
+  "AttachmentType": "sit",
+  "AttachmentFilename": "quos"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Managed static parallelism",
-  "Filename": "omnis",
-  "Size": 570,
-  "Type": "aliquid",
-  "Encoding": "debitis",
-  "Id": "et",
-  "Disposition": "dicta",
+  "Description": "Face to face analyzing projection",
+  "Filename": "aut",
+  "Size": 276,
+  "Type": "ut",
+  "Encoding": "commodi",
+  "Id": "pariatur",
+  "Disposition": "sequi",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 843
+      "FieldType": "System.Int32",
+      "FieldLength": 834
     }
   }
 }

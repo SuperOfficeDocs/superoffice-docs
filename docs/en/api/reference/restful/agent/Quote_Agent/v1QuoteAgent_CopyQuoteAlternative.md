@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 602,
-  "QuoteAlternativeId": 207,
-  "QuoteAlternativeName": "Nitzsche Inc and Sons"
+  "QuoteVersionId": 343,
+  "QuoteAlternativeId": 477,
+  "QuoteAlternativeName": "Schiller-Rohan"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 717,
-  "ERPQuoteAlternativeKey": "quo",
-  "QuoteVersionId": 647,
-  "Name": "Schumm-Littel",
-  "Description": "Up-sized tertiary moratorium",
+  "QuoteAlternativeId": 732,
+  "ERPQuoteAlternativeKey": "enim",
+  "QuoteVersionId": 829,
+  "Name": "Wilderman-Hane",
+  "Description": "Versatile high-level synergy",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 19296.038,
-  "ERPDiscountAmount": 18794.597999999998,
-  "DiscountPercent": 6631.544,
-  "DiscountAmount": 9502.288,
+  "ERPDiscountPercent": 21188.974,
+  "ERPDiscountAmount": 6860.326,
+  "DiscountPercent": 18600.29,
+  "DiscountAmount": 23965.698,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "at",
-  "VAT": 7092.242,
-  "EarningPercent": 9025.92,
-  "EarningAmount": 26121.89,
-  "SubTotal": 8417.9239999999991,
-  "TotalPrice": 24789.94,
-  "ExtraField1": "minus",
-  "ExtraField2": "dolore",
-  "ExtraField3": "tempora",
-  "ExtraField4": "eaque",
-  "ExtraField5": "est",
+  "VATInfo": "consectetur",
+  "VAT": 12075.302,
+  "EarningPercent": 24658.311999999998,
+  "EarningAmount": 23724.38,
+  "SubTotal": 30553.365999999998,
+  "TotalPrice": 27757.838,
+  "ExtraField1": "nihil",
+  "ExtraField2": "et",
+  "ExtraField3": "porro",
+  "ExtraField4": "voluptate",
+  "ExtraField5": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 248
+      "FieldType": "System.Int32",
+      "FieldLength": 309
     }
   }
 }

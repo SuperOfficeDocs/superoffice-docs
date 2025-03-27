@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/SummarizeText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "beatae",
-  "PercentSmaller": 178,
-  "IsoLangCode": "occaecati"
+  "Text": "accusantium",
+  "PercentSmaller": 676,
+  "IsoLangCode": "dolorum"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ullam"
+"eos"
 ```

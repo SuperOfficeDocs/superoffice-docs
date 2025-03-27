@@ -26,7 +26,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=245
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=12
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 684,
-  "SourcePersonId": 530,
-  "DestinationContactId": 219,
-  "DestinationPersonId": 175,
-  "RelationId": 196,
-  "Comment": "tempora",
-  "RelationDefinitionId": 683,
-  "Reversed": 230,
-  "UpdatedDate": "2001-09-18T14:13:41.1408128+02:00",
-  "CreatedDate": "2025-01-14T14:13:41.1408128+01:00",
+  "SourceContactId": 224,
+  "SourcePersonId": 172,
+  "DestinationContactId": 149,
+  "DestinationPersonId": 912,
+  "RelationId": 853,
+  "Comment": "unde",
+  "RelationDefinitionId": 454,
+  "Reversed": 806,
+  "UpdatedDate": "2006-02-22T02:38:21.7919947+01:00",
+  "CreatedDate": "2017-01-30T02:38:21.7919947+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Altenwerth, Towne and Kunde",
-  "SourcePersonName": "Huel-Halvorson",
-  "DestinationContactName": "Koepp Inc and Sons",
-  "DestinationPersonName": "Ebert Inc and Sons",
-  "ActiveText": "praesentium",
-  "PassiveText": "sed",
+  "SourceContactName": "Wuckert, Heaney and McKenzie",
+  "SourcePersonName": "Farrell, Rogahn and Ward",
+  "DestinationContactName": "Jakubowski, Walker and Nitzsche",
+  "DestinationPersonName": "Larkin LLC",
+  "ActiveText": "aspernatur",
+  "PassiveText": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 936
+      "FieldType": "System.Int32",
+      "FieldLength": 602
     }
   }
 }

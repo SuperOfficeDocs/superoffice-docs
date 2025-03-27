@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 901,
-      "ContactName": "Smitham-Bailey",
-      "PersonId": 697,
-      "PersonName": "Crona, Blanda and Hagenes",
-      "AssociateId": 630,
-      "Address": "facere",
-      "EmailId": 996,
+      "ContactId": 374,
+      "ContactName": "Muller, Rath and Roberts",
+      "PersonId": 627,
+      "PersonName": "Deckow LLC",
+      "AssociateId": 826,
+      "Address": "in",
+      "EmailId": 637,
       "DuplicatePersonIds": [
-        709,
-        721
+        740,
+        461
       ],
-      "Name": "Kerluke LLC",
+      "Name": "Senger LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 205
+          "FieldType": "System.String",
+          "FieldLength": 186
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 430,
-      "ContactName": "Swaniawski Group",
-      "PersonId": 594,
-      "PersonName": "Denesik-Brakus",
-      "AssociateId": 244,
-      "Address": "quia",
-      "EmailId": 123,
+      "ContactId": 349,
+      "ContactName": "Roob-Quigley",
+      "PersonId": 171,
+      "PersonName": "Lakin-Schneider",
+      "AssociateId": 808,
+      "Address": "deserunt",
+      "EmailId": 841,
       "DuplicatePersonIds": [
-        963,
-        570
+        688,
+        826
       ],
-      "Name": "Fritsch-Christiansen",
+      "Name": "Barrows, Turcotte and Hirthe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 953
+          "FieldLength": 10
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 98,
-      "ContactName": "Crona LLC",
-      "PersonId": 212,
-      "PersonName": "Tromp, Hagenes and Lebsack",
-      "AssociateId": 260,
-      "Address": "harum",
-      "EmailId": 725,
+      "ContactId": 879,
+      "ContactName": "Considine, Connelly and Cormier",
+      "PersonId": 571,
+      "PersonName": "Carroll Inc and Sons",
+      "AssociateId": 86,
+      "Address": "vel",
+      "EmailId": 129,
       "DuplicatePersonIds": [
-        127,
-        380
+        178,
+        10
       ],
-      "Name": "Schneider, Bogisich and Kuhn",
+      "Name": "Altenwerth Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 659
+          "FieldType": "System.Int32",
+          "FieldLength": 975
         }
       }
     }
   ],
-  "Subject": "eos",
+  "Subject": "nemo",
   "HTMLBody": "sed",
   "From": null,
-  "Sent": "2015-07-01T14:13:40.1722829+02:00",
-  "Size": 339,
+  "Sent": "2006-12-15T02:38:21.3232921+01:00",
+  "Size": 115,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "aut",
-  "PlainBody": "totam",
+  "MessageID": "ut",
+  "PlainBody": "alias",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 301,
+  "ServerId": 830,
   "Attachments": [
     {
-      "Description": "Total didactic local area network",
-      "Filename": "qui",
-      "Size": 852,
-      "Type": "est",
-      "Encoding": "accusantium",
-      "Id": "natus",
-      "Disposition": "eligendi",
+      "Description": "Extended bi-directional moderator",
+      "Filename": "aut",
+      "Size": 494,
+      "Type": "temporibus",
+      "Encoding": "nemo",
+      "Id": "accusantium",
+      "Disposition": "beatae",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 386
+          "FieldType": "System.String",
+          "FieldLength": 863
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Streich, Davis and Gleichner",
+      "Name": "Mayert LLC",
       "Values": [
-        "natus",
-        "delectus"
+        "molestiae",
+        "cumque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 299
+          "FieldType": "System.Int32",
+          "FieldLength": 355
         }
       }
     },
     {
-      "Name": "Streich, Davis and Gleichner",
+      "Name": "Mayert LLC",
       "Values": [
-        "natus",
-        "delectus"
+        "molestiae",
+        "cumque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 299
+          "FieldType": "System.Int32",
+          "FieldLength": 355
         }
       }
     }
   ],
-  "FolderName": "Hudson Inc and Sons",
-  "EmailItemId": 643,
-  "AccountId": 711,
-  "ReceivedAt": "2017-06-30T14:13:40.1722829+02:00",
+  "FolderName": "Ruecker, Jacobs and Goldner",
+  "EmailItemId": 815,
+  "AccountId": 213,
+  "ReceivedAt": "2010-01-05T02:38:21.3232921+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-01-20T14:13:40.1722829+01:00",
+  "RepliedAt": "2015-06-16T02:38:21.3232921+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldLength": 32
     }
   }
 }

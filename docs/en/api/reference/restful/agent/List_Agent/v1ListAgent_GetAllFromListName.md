@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Parisian, Okuneva and Lang",
+  "UdListDefinitionName": "Crist-Dibbert",
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 252,
-    "Name": "Crona-Kohler",
-    "Tooltip": "reprehenderit",
+    "Id": 184,
+    "Name": "Thiel, Schaefer and Stiedemann",
+    "Tooltip": "asperiores",
     "Deleted": false,
-    "UdListDefinitionId": 216,
-    "Rank": 789,
+    "UdListDefinitionId": 149,
+    "Rank": 309,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 670
+        "FieldLength": 183
       }
     }
   }

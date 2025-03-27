@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=291
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=295
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 947,
-  "ColumnId": 631,
-  "FieldDefault": "ut",
-  "FieldHeight": 76,
-  "FieldLabel": "est",
-  "FieldLeft": 108,
-  "FieldTop": 217,
+  "UDefFieldId": 960,
+  "ColumnId": 496,
+  "FieldDefault": "tempore",
+  "FieldHeight": 983,
+  "FieldLabel": "exercitationem",
+  "FieldLeft": 124,
+  "FieldTop": 812,
   "FieldType": "Checkbox",
-  "FieldWidth": 202,
-  "FormatMask": "minus",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 968,
-  "LabelLeft": 511,
-  "LabelTop": 289,
-  "LabelWidth": 51,
-  "LastVersionId": 901,
-  "ListTableId": 455,
-  "IsMandatory": false,
+  "FieldWidth": 514,
+  "FormatMask": "tenetur",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 160,
+  "LabelLeft": 318,
+  "LabelTop": 872,
+  "LabelWidth": 100,
+  "LastVersionId": 161,
+  "ListTableId": 925,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 502,
-  "ProgId": "a",
-  "IsReadOnly": true,
-  "ShortLabel": "ab",
-  "TabOrder": 308,
-  "TextLength": 159,
-  "Tooltip": "est",
-  "UdefIdentity": 410,
-  "UDListDefinitionId": 42,
+  "Page1LineNo": 760,
+  "ProgId": "rerum",
+  "IsReadOnly": false,
+  "ShortLabel": "consequatur",
+  "TabOrder": 882,
+  "TextLength": 928,
+  "Tooltip": "totam",
+  "UdefIdentity": 578,
+  "UDListDefinitionId": 553,
   "Justification": "Center",
-  "Version": 299,
-  "TemplateVariableName": "Rosenbaum-Mertz",
-  "HasBeenPublished": false,
-  "MdoListName": "Eichmann-White",
+  "Version": 41,
+  "TemplateVariableName": "Feest, Brekke and Purdy",
+  "HasBeenPublished": true,
+  "MdoListName": "Kuphal-Monahan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldLength": 5
     }
   }
 }

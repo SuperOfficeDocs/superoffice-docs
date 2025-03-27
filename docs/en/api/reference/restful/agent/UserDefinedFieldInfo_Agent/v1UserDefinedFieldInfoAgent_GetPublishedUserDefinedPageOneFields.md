@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 612
+  "UserGroupId": 849
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 679,
-    "ColumnId": 617,
-    "FieldDefault": "sed",
-    "FieldHeight": 115,
-    "FieldLabel": "ut",
-    "FieldLeft": 467,
-    "FieldTop": 772,
+    "UDefFieldId": 993,
+    "ColumnId": 818,
+    "FieldDefault": "ab",
+    "FieldHeight": 268,
+    "FieldLabel": "rem",
+    "FieldLeft": 276,
+    "FieldTop": 223,
     "FieldType": "Checkbox",
-    "FieldWidth": 71,
-    "FormatMask": "in",
-    "HideLabel": true,
+    "FieldWidth": 477,
+    "FormatMask": "quia",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 528,
-    "LabelLeft": 461,
-    "LabelTop": 168,
-    "LabelWidth": 901,
-    "LastVersionId": 933,
-    "ListTableId": 502,
+    "LabelHeight": 335,
+    "LabelLeft": 942,
+    "LabelTop": 197,
+    "LabelWidth": 485,
+    "LastVersionId": 598,
+    "ListTableId": 251,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 946,
-    "ProgId": "facilis",
+    "Page1LineNo": 963,
+    "ProgId": "ipsam",
     "IsReadOnly": false,
-    "ShortLabel": "neque",
-    "TabOrder": 850,
-    "TextLength": 503,
-    "Tooltip": "omnis",
-    "UdefIdentity": 709,
-    "UDListDefinitionId": 917,
+    "ShortLabel": "dolorem",
+    "TabOrder": 474,
+    "TextLength": 240,
+    "Tooltip": "dolorem",
+    "UdefIdentity": 852,
+    "UDListDefinitionId": 307,
     "Justification": "Center",
-    "Version": 523,
-    "TemplateVariableName": "Waelchi Inc and Sons",
+    "Version": 901,
+    "TemplateVariableName": "Thiel Group",
     "HasBeenPublished": false,
-    "MdoListName": "Murphy, Streich and Jerde",
+    "MdoListName": "Yundt Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldType": "System.String",
+        "FieldLength": 391
       }
     }
   }

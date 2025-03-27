@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Stamm Group",
-  "HeadingId": 190,
+  "UdListDefinitionName": "McKenzie Group",
+  "HeadingId": 590,
   "ListItemIds": [
-    185,
-    618
+    807,
+    182
   ],
-  "Enable": false
+  "Enable": true
 }
 ```
 

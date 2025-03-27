@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "rem",
+    "path": "illum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "rem",
+    "path": "illum",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "officiis",
+  "SaleText": "id",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2009-07-27T14:13:49.1962377+02:00",
-  "Amount": 11144.503999999999,
-  "SaleId": 329,
-  "Earning": 17177.453999999998,
-  "EarningPercent": 12012.622,
-  "Heading": "quasi",
-  "Number": "688590",
-  "Probability": 801,
-  "CreatedDate": "2003-09-28T14:13:49.1962377+02:00",
-  "UpdatedDate": "2021-02-27T14:13:49.1962377+01:00",
+  "Saledate": "2006-10-20T02:38:26.3860344+02:00",
+  "Amount": 24062.852,
+  "SaleId": 528,
+  "Earning": 14595.037999999999,
+  "EarningPercent": 9599.442,
+  "Heading": "ex",
+  "Number": "633160",
+  "Probability": 854,
+  "CreatedDate": "2007-08-20T02:38:26.3860344+02:00",
+  "UpdatedDate": "2004-01-31T02:38:26.3860344+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 197,
+  "ActiveLinks": 480,
   "Links": [
     {
-      "EntityName": "Stamm, Beier and Cassin",
-      "Id": 476,
-      "Description": "Networked 6th generation system engine",
-      "ExtraInfo": "doloremque",
-      "LinkId": 118,
+      "EntityName": "Bogan, Rau and Bergnaum",
+      "Id": 867,
+      "Description": "Digitized grid-enabled productivity",
+      "ExtraInfo": "atque",
+      "LinkId": 386,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 439
+          "FieldType": "System.String",
+          "FieldLength": 522
         }
       }
     }
   ],
-  "NextDueDate": "2017-07-11T14:13:49.1962377+02:00",
-  "Postit": "repellat",
+  "NextDueDate": "2016-05-17T02:38:26.3860344+02:00",
+  "Postit": "in",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-10-14T14:13:49.1962377+02:00",
+  "ReopenDate": "2018-06-19T02:38:26.3860344+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Pacocha Inc and Sons",
-      "Comment": "excepturi",
-      "StakeholderRoleId": 517,
-      "CountryId": 316,
-      "PersonId": 544,
-      "EmailDescription": "immanuel.daugherty@hegmann.info",
-      "EmailId": 401,
-      "EmailAddress": "rae@quigley.uk",
-      "PhoneId": 263,
-      "ContactName": "Roberts LLC",
-      "ContactId": 976,
-      "SaleId": 690,
-      "Mrmrs": "omnis",
-      "Firstname": "Dannie",
-      "MiddleName": "Gorczany, Deckow and Osinski",
-      "Lastname": "Lang",
-      "SaleStakeholderId": 94,
-      "Rank": 954,
-      "Phone": "1-408-154-7714 x45085",
+      "StakeholderRoleName": "Rohan LLC",
+      "Comment": "eveniet",
+      "StakeholderRoleId": 456,
+      "CountryId": 510,
+      "PersonId": 620,
+      "EmailDescription": "connor.cronin@spencer.com",
+      "EmailId": 654,
+      "EmailAddress": "nick.brown@ritchieabernathy.co.uk",
+      "PhoneId": 535,
+      "ContactName": "Gerlach, Hoeger and Fahey",
+      "ContactId": 169,
+      "SaleId": 456,
+      "Mrmrs": "necessitatibus",
+      "Firstname": "Marisol",
+      "MiddleName": "Zemlak-Kuvalis",
+      "Lastname": "Schaefer",
+      "SaleStakeholderId": 651,
+      "Rank": 280,
+      "Phone": "1-265-890-2376 x1999",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldLength": 919
         }
       }
     }
   ],
-  "ActiveErpLinks": 343,
+  "ActiveErpLinks": 410,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Renee Domenico Hilll",
-    "SuperOffice:2": "Mrs. Lauryn Waelchi"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Lemuel Jakubowski V"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "ratione"
+    "ExtraFields1": "earum",
+    "ExtraFields2": "nisi"
   },
   "CustomFields": {
-    "CustomFields1": "repudiandae",
-    "CustomFields2": "aliquid"
+    "CustomFields1": "sit",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "2016-06-30T14:13:49.1962377+02:00",
-  "PublishTo": "2013-09-25T14:13:49.1962377+02:00",
-  "PublishFrom": "2013-07-14T14:13:49.1962377+02:00",
+  "PublishEventDate": "2000-01-07T02:38:26.3860344+01:00",
+  "PublishTo": "2003-08-14T02:38:26.3860344+02:00",
+  "PublishFrom": "2008-04-16T02:38:26.3860344+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 440,
+      "VisibleId": 592,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 353
         }
       }
     },
     {
-      "VisibleId": 440,
+      "VisibleId": 592,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "dicta",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 29
+          "FieldLength": 353
         }
       }
     }
@@ -305,8 +305,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldType": "System.String",
+      "FieldLength": 17
     }
   },
   "_Links": {

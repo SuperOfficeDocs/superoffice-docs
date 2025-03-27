@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 920,
-  "ColumnId": 420,
-  "FieldDefault": "maxime",
-  "FieldHeight": 133,
-  "FieldLabel": "corrupti",
-  "FieldLeft": 82,
-  "FieldTop": 84,
+  "UDefFieldId": 304,
+  "ColumnId": 918,
+  "FieldDefault": "labore",
+  "FieldHeight": 422,
+  "FieldLabel": "saepe",
+  "FieldLeft": 980,
+  "FieldTop": 865,
   "FieldType": "Checkbox",
-  "FieldWidth": 558,
-  "FormatMask": "fugit",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 644,
-  "LabelLeft": 150,
-  "LabelTop": 919,
-  "LabelWidth": 928,
-  "LastVersionId": 844,
-  "ListTableId": 264,
-  "IsMandatory": false,
+  "FieldWidth": 113,
+  "FormatMask": "debitis",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 845,
+  "LabelLeft": 753,
+  "LabelTop": 583,
+  "LabelWidth": 110,
+  "LastVersionId": 802,
+  "ListTableId": 61,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 164,
-  "ProgId": "assumenda",
-  "IsReadOnly": false,
-  "ShortLabel": "quia",
-  "TabOrder": 115,
-  "TextLength": 960,
-  "Tooltip": "earum",
-  "UdefIdentity": 874,
-  "UDListDefinitionId": 846,
+  "Page1LineNo": 835,
+  "ProgId": "ut",
+  "IsReadOnly": true,
+  "ShortLabel": "aut",
+  "TabOrder": 870,
+  "TextLength": 686,
+  "Tooltip": "molestias",
+  "UdefIdentity": 263,
+  "UDListDefinitionId": 760,
   "Justification": "Center",
-  "Version": 594,
-  "TemplateVariableName": "Wunsch-Hodkiewicz",
-  "HasBeenPublished": true,
-  "MdoListName": "Leffler-Leannon",
+  "Version": 795,
+  "TemplateVariableName": "Stehr Group",
+  "HasBeenPublished": false,
+  "MdoListName": "Cassin, Schinner and Paucek",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 233
+      "FieldLength": 242
     }
   }
 }

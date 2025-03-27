@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 878,
-    "Tooltip": "voluptas",
-    "CanAssign": true,
-    "Free": 873,
-    "InUse": 34,
-    "IsHidden": false,
+    "Unrestricted": true,
+    "Total": 981,
+    "Tooltip": "velit",
+    "CanAssign": false,
+    "Free": 762,
+    "InUse": 432,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 160,
-    "Name": "Kiehn-Nicolas",
-    "Description": "Diverse multi-tasking service-desk",
-    "PrerequisiteModuleName": "Carter, Terry and Gleichner",
-    "SortOrder": 112,
-    "ExtraFlags": 837,
+    "ModuleLicenseId": 762,
+    "Name": "Mosciski, Pfeffer and Greenholt",
+    "Description": "Down-sized intangible throughput",
+    "PrerequisiteModuleName": "Raynor, Smitham and Osinski",
+    "SortOrder": 13,
+    "ExtraFlags": 322,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 836
       }
     }
   }

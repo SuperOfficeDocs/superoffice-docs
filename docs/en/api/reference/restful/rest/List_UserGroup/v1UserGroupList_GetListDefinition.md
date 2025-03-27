@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 928,
-  "Name": "Stoltenberg, Yost and Will",
-  "Tooltip": "cupiditate",
-  "Deleted": true,
-  "Rank": 527,
+  "Id": 692,
+  "Name": "Wehner Group",
+  "Tooltip": "facere",
+  "Deleted": false,
+  "Rank": 844,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quidem",
-  "InUseByUserDefinedFields": true,
+  "ListType": "veniam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 335
     }
   },
   "_Links": {

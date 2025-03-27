@@ -112,30 +112,30 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 963,
-  "Name": "Schultz Inc and Sons",
-  "Tooltip": "beatae",
+  "WebPanelId": 568,
+  "Name": "Parisian-Boehm",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "Rank": 46,
+  "Rank": 529,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Altenwerth, Gerlach and Walker",
+  "WindowName": "Buckridge Inc and Sons",
   "Url": "http://www.example.com/",
-  "ProgId": "quia",
-  "Icon": 610,
+  "ProgId": "rerum",
+  "Icon": 92,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false
 }
@@ -148,34 +148,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 311,
-  "Name": "Greenholt-Leannon",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 260,
+  "WebPanelId": 73,
+  "Name": "Bauch Group",
+  "Tooltip": "consequuntur",
+  "Deleted": true,
+  "Rank": 45,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Bartell Inc and Sons",
+  "ShowInStatusBar": false,
+  "WindowName": "Deckow, Davis and Macejkovic",
   "Url": "http://www.example.com/",
-  "ProgId": "quo",
-  "Icon": 744,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "impedit",
+  "Icon": 53,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 305
+      "FieldType": "System.Int32",
+      "FieldLength": 555
     }
   }
 }

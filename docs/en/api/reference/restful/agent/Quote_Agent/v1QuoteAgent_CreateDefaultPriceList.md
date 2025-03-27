@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 591,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 334,
-  "Name": "Hauck-White",
-  "Description": "Optimized tertiary moderator",
-  "Currency": "totam",
-  "CurrencyName": "Zulauf Group",
-  "ValidFrom": "2011-07-03T14:13:41.0783269+02:00",
-  "ValidTo": "2015-10-09T14:13:41.0783269+02:00",
-  "IsActive": false,
+  "PriceListId": 78,
+  "ERPPriceListKey": "quasi",
+  "QuoteConnectionId": 252,
+  "Name": "Shanahan-Kessler",
+  "Description": "Ergonomic optimal Graphical User Interface",
+  "Currency": "consequatur",
+  "CurrencyName": "Monahan Inc and Sons",
+  "ValidFrom": "1997-11-04T02:38:21.7607486+01:00",
+  "ValidTo": "2006-07-24T02:38:21.7607486+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 247
+      "FieldType": "System.Int32",
+      "FieldLength": 198
     }
   }
 }

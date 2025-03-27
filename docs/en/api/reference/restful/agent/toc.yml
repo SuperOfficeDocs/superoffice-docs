@@ -1067,6 +1067,8 @@ items:
     href: Diagnostics_Agent/v1DiagnosticsAgent_FlushCaches.md
   - name: FlushCachesByName
     href: Diagnostics_Agent/v1DiagnosticsAgent_FlushCachesByName.md
+  - name: GetCacheInvalidationGenerations
+    href: Diagnostics_Agent/v1DiagnosticsAgent_GetCacheInvalidationGenerations.md
   - name: GetCacheNames
     href: Diagnostics_Agent/v1DiagnosticsAgent_GetCacheNames.md
   - name: GetCacheState
@@ -1831,6 +1833,8 @@ items:
     href: License_Agent/v1LicenseAgent_GetShopUrl.md
   - name: GetThirdPartyLicenseAssignments
     href: License_Agent/v1LicenseAgent_GetThirdPartyLicenseAssignments.md
+  - name: GetUserAndInstallationLicenceStatus
+    href: License_Agent/v1LicenseAgent_GetUserAndInstallationLicenceStatus.md
   - name: GetUserLicenses
     href: License_Agent/v1LicenseAgent_GetUserLicenses.md
   - name: GetUserLicensesMDOList

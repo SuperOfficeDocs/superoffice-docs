@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    758,
-    587
+    63,
+    477
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Wiegand, White and Schmidt",
-    "Comment": "sequi",
-    "StakeholderRoleId": 317,
-    "CountryId": 285,
-    "PersonId": 551,
-    "EmailDescription": "monserrate_frami@lakin.biz",
-    "EmailId": 862,
-    "EmailAddress": "itzel.kunze@sanford.com",
-    "PhoneId": 453,
-    "ContactName": "Gerlach-McClure",
-    "ContactId": 207,
-    "SaleId": 653,
-    "Mrmrs": "quas",
-    "Firstname": "Richard",
-    "MiddleName": "Jewess Group",
-    "Lastname": "Wilkinson",
-    "SaleStakeholderId": 444,
-    "Rank": 706,
-    "Phone": "1-023-712-2724 x0877",
+    "StakeholderRoleName": "Klein, Sanford and Jacobi",
+    "Comment": "et",
+    "StakeholderRoleId": 654,
+    "CountryId": 971,
+    "PersonId": 348,
+    "EmailDescription": "collin.lehner@jaskolski.uk",
+    "EmailId": 166,
+    "EmailAddress": "destin.hettinger@willms.com",
+    "PhoneId": 374,
+    "ContactName": "Lindgren, Kertzmann and Nitzsche",
+    "ContactId": 222,
+    "SaleId": 776,
+    "Mrmrs": "maxime",
+    "Firstname": "Yazmin",
+    "MiddleName": "Powlowski-Doyle",
+    "Lastname": "Kunde",
+    "SaleStakeholderId": 915,
+    "Rank": 11,
+    "Phone": "895.398.4123 x80227",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldLength": 955
       }
     }
   }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 361,
-    "Name": "Halvorson-Gottlieb",
-    "Tooltip": "ea",
-    "Deleted": false,
-    "Rank": 329,
-    "UdListDefinitionId": 124,
+    "HeadingId": 992,
+    "Name": "Schinner-Maggio",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 945,
+    "UdListDefinitionId": 14,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 263
       }
     }
   }

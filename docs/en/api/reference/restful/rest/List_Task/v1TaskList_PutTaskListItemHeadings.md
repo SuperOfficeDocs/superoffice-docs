@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 782,
-    "Name": "Goodwin, Flatley and Gusikowski",
-    "Tooltip": "ipsa",
+    "HeadingId": 894,
+    "Name": "Stoltenberg, Muller and Grady",
+    "Tooltip": "ducimus",
     "Deleted": false,
-    "Rank": 308,
-    "UdListDefinitionId": 260
+    "Rank": 691,
+    "UdListDefinitionId": 259
   },
   {
-    "HeadingId": 782,
-    "Name": "Goodwin, Flatley and Gusikowski",
-    "Tooltip": "ipsa",
+    "HeadingId": 894,
+    "Name": "Stoltenberg, Muller and Grady",
+    "Tooltip": "ducimus",
     "Deleted": false,
-    "Rank": 308,
-    "UdListDefinitionId": 260
+    "Rank": 691,
+    "UdListDefinitionId": 259
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 728,
-    "Name": "Steuber, Turner and Schumm",
-    "Tooltip": "commodi",
+    "HeadingId": 590,
+    "Name": "Kertzmann Inc and Sons",
+    "Tooltip": "sunt",
     "Deleted": false,
-    "Rank": 40,
-    "UdListDefinitionId": 439,
+    "Rank": 14,
+    "UdListDefinitionId": 267,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldType": "System.String",
+        "FieldLength": 15
       }
     }
   }

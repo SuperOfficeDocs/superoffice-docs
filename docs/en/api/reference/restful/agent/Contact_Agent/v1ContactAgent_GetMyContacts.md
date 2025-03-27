@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -99,36 +99,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 566,
-    "Name": "Orn-Kuhlman",
-    "OrgNr": "1058808",
+    "ContactId": 407,
+    "Name": "McLaughlin, Graham and Goodwin",
+    "OrgNr": "1121327",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "enim",
-    "DirectPhone": "451.387.2254 x8280",
-    "AssociateId": 656,
-    "CountryId": 732,
-    "EmailAddress": "marlin@brown.us",
-    "Kananame": "dolor",
-    "EmailAddressName": "karen@leffler.biz",
+    "City": "doloribus",
+    "DirectPhone": "(587)042-3009 x902",
+    "AssociateId": 91,
+    "CountryId": 794,
+    "EmailAddress": "maybell@gibsonrenner.com",
+    "Kananame": "nam",
+    "EmailAddressName": "jalen.konopelski@keebler.info",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Lola Hilpert",
+    "AssociateFullName": "Jamie Cummings I",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "voluptatem",
-    "FullName": "Bell Lynch",
+    "FormattedAddress": "ipsam",
+    "FullName": "Tomasa Kautzer",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 978,
-    "Number1": "1435079",
-    "Number2": "471849",
+    "ActiveErpLinks": 383,
+    "Number1": "1803714",
+    "Number2": "506552",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 613
+        "FieldLength": 764
       }
     }
   }

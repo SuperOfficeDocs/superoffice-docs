@@ -64,29 +64,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 805,
-      "DisplayName": "Cassin LLC",
-      "OngoingChats": 315,
+      "UserId": 681,
+      "DisplayName": "Gislason LLC",
+      "OngoingChats": 859,
       "Present": true,
       "ChatTopics": [
-        139,
-        430
+        286,
+        66
       ]
     },
     {
-      "UserId": 805,
-      "DisplayName": "Cassin LLC",
-      "OngoingChats": 315,
+      "UserId": 681,
+      "DisplayName": "Gislason LLC",
+      "OngoingChats": 859,
       "Present": true,
       "ChatTopics": [
-        139,
-        430
+        286,
+        66
       ]
     }
   ]

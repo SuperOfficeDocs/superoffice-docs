@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 322,
-  "Name": "Barrows-Stamm",
-  "Tooltip": "optio",
-  "Rank": 252,
+  "SaleTypeId": 7,
+  "Name": "Armstrong-Lemke",
+  "Tooltip": "quia",
+  "Rank": 321,
   "DurationUnit": "Century",
-  "SaleDuration": 993,
-  "SaleTypeCatId": 429,
-  "Deleted": false,
-  "HasGuide": false,
+  "SaleDuration": 64,
+  "SaleTypeCatId": 165,
+  "Deleted": true,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 277,
-  "QuoteLinesTemplate": 36,
-  "ConfirmationLinesTemplate": 657,
+  "IsAutoAdvance": false,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 548,
+  "QuoteLinesTemplate": 925,
+  "ConfirmationLinesTemplate": 912,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 860,
-  "MinEarningPercent": 991,
-  "GroupQuoteLinesBy": 123,
-  "SortGroupLinesBy": 391,
+  "MaxDiscountPercent": 132,
+  "MinEarningPercent": 557,
+  "GroupQuoteLinesBy": 491,
+  "SortGroupLinesBy": 111,
   "Stages": [
     {
-      "Id": 407,
-      "Name": "Lind, Smith and Pfeffer",
-      "ToolTip": "Et quia adipisci provident sint omnis fugit tempore.",
+      "Id": 629,
+      "Name": "Dickinson-Dach",
+      "ToolTip": "Ex minus nesciunt fuga.",
       "Deleted": true,
-      "Rank": 150,
-      "Type": "magni",
-      "ColorBlock": 656,
-      "IconHint": "ad",
+      "Rank": 966,
+      "Type": "officiis",
+      "ColorBlock": 115,
+      "IconHint": "asperiores",
       "Selected": false,
-      "LastChanged": "2011-07-28T14:13:40.5471977+02:00",
+      "LastChanged": "2017-03-16T02:38:21.5420262+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "tenetur",
-      "StyleHint": "tempore",
-      "Hidden": true,
-      "FullName": "Mrs. Emmy Metz"
+      "ExtraInfo": "et",
+      "StyleHint": "consequatur",
+      "Hidden": false,
+      "FullName": "Rylan Loren Krajcik MD"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 110,
-  "Name": "Dibbert, Abshire and Ratke",
-  "Tooltip": "reprehenderit",
-  "Rank": 689,
+  "SaleTypeId": 731,
+  "Name": "Hane-Orn",
+  "Tooltip": "ullam",
+  "Rank": 331,
   "DurationUnit": "Century",
-  "SaleDuration": 533,
-  "SaleTypeCatId": 544,
+  "SaleDuration": 489,
+  "SaleTypeCatId": 216,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": false,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 204,
-  "QuoteLinesTemplate": 860,
-  "ConfirmationLinesTemplate": 76,
-  "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 602,
-  "MinEarningPercent": 259,
-  "GroupQuoteLinesBy": 436,
-  "SortGroupLinesBy": 504,
+  "DefaultQuoteValidity": 996,
+  "QuoteLinesTemplate": 766,
+  "ConfirmationLinesTemplate": 605,
+  "MaxDiscountPercentSet": false,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 447,
+  "MinEarningPercent": 467,
+  "GroupQuoteLinesBy": 153,
+  "SortGroupLinesBy": 935,
   "Stages": [
     {
-      "Id": 664,
-      "Name": "Lind Group",
-      "ToolTip": "Nesciunt aperiam molestiae modi explicabo.",
+      "Id": 459,
+      "Name": "Mraz-Ullrich",
+      "ToolTip": "Omnis voluptas molestiae officia.",
       "Deleted": false,
-      "Rank": 801,
-      "Type": "autem",
-      "ColorBlock": 571,
-      "IconHint": "officia",
+      "Rank": 269,
+      "Type": "eum",
+      "ColorBlock": 756,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2025-01-30T14:13:40.5471977+01:00",
+      "LastChanged": "2012-12-11T02:38:21.5420262+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quas",
-      "StyleHint": "dolorem",
-      "Hidden": true,
-      "FullName": "Burley Williamson",
+      "ExtraInfo": "vel",
+      "StyleHint": "tempore",
+      "Hidden": false,
+      "FullName": "Mark Reynolds",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 797
+          "FieldLength": 796
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldLength": 419
     }
   }
 }

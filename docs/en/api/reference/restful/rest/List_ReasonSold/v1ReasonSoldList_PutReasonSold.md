@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 94,
-  "Name": "Dach, Wolff and Dare",
-  "Tooltip": "itaque",
+  "Id": 413,
+  "Name": "Howe, Greenholt and Rodriguez",
+  "Tooltip": "eligendi",
   "Deleted": true,
-  "UdListDefinitionId": 627,
-  "Rank": 516
+  "UdListDefinitionId": 94,
+  "Rank": 775
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 454,
-  "Name": "Schaefer-Boehm",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "UdListDefinitionId": 567,
-  "Rank": 940,
+  "Id": 65,
+  "Name": "Spinka, Strosin and Hansen",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "UdListDefinitionId": 754,
+  "Rank": 734,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldLength": 496
     }
   }
 }

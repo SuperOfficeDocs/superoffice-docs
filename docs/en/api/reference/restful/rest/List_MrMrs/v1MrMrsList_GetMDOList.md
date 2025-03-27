@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=similique
+GET /api/v1/List/MrMrs/MDOItems?query=quo
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 473,
-    "Name": "Senger LLC",
-    "ToolTip": "Et exercitationem.",
+    "Id": 101,
+    "Name": "Brown-Reilly",
+    "ToolTip": "Possimus libero enim eaque ut hic.",
     "Deleted": true,
-    "Rank": 895,
-    "Type": "possimus",
+    "Rank": 829,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 620,
-        "Name": "Fahey-Barton",
-        "ToolTip": "Qui maxime fugiat.",
-        "Deleted": true,
-        "Rank": 925,
-        "Type": "earum",
+        "Id": 621,
+        "Name": "Schmeler Group",
+        "ToolTip": "Accusantium debitis perferendis sit eos neque.",
+        "Deleted": false,
+        "Rank": 767,
+        "Type": "aliquid",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nisi",
-        "ColorBlock": 885,
-        "ExtraInfo": "magni",
-        "StyleHint": "modi",
-        "FullName": "Daren Farrell",
+        "IconHint": "veritatis",
+        "ColorBlock": 34,
+        "ExtraInfo": "id",
+        "StyleHint": "sunt",
+        "FullName": "Dr. Maxime Zula Auer Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 243
+            "FieldType": "System.String",
+            "FieldLength": 4
           }
         }
       }
     ],
-    "IconHint": "similique",
-    "ColorBlock": 706,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "quam",
-    "FullName": "Daphnee Volkman",
+    "IconHint": "temporibus",
+    "ColorBlock": 794,
+    "ExtraInfo": "distinctio",
+    "StyleHint": "iste",
+    "FullName": "Shanelle Parisian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 578
+        "FieldType": "System.String",
+        "FieldLength": 615
       }
     }
   }

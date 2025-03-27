@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 556,
-  "ColumnId": 622,
-  "FieldDefault": "soluta",
-  "FieldHeight": 537,
+  "UDefFieldId": 112,
+  "ColumnId": 144,
+  "FieldDefault": "ut",
+  "FieldHeight": 403,
   "FieldLabel": "et",
-  "FieldLeft": 302,
-  "FieldTop": 229,
+  "FieldLeft": 537,
+  "FieldTop": 852,
   "FieldType": "Checkbox",
-  "FieldWidth": 114,
-  "FormatMask": "est",
+  "FieldWidth": 535,
+  "FormatMask": "qui",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 54,
-  "LabelLeft": 554,
-  "LabelTop": 399,
-  "LabelWidth": 284,
-  "LastVersionId": 573,
-  "ListTableId": 383,
-  "IsMandatory": false,
+  "LabelHeight": 875,
+  "LabelLeft": 709,
+  "LabelTop": 57,
+  "LabelWidth": 245,
+  "LastVersionId": 181,
+  "ListTableId": 781,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 550,
-  "ProgId": "fugit",
+  "Page1LineNo": 886,
+  "ProgId": "consequuntur",
   "IsReadOnly": false,
-  "ShortLabel": "natus",
-  "TabOrder": 607,
-  "TextLength": 160,
-  "Tooltip": "iusto",
-  "UdefIdentity": 542,
-  "UDListDefinitionId": 97,
+  "ShortLabel": "consequuntur",
+  "TabOrder": 726,
+  "TextLength": 559,
+  "Tooltip": "sapiente",
+  "UdefIdentity": 780,
+  "UDListDefinitionId": 188,
   "Justification": "Center",
-  "Version": 551,
-  "TemplateVariableName": "Kub-Kihn",
-  "HasBeenPublished": true,
-  "MdoListName": "Padberg Group",
+  "Version": 950,
+  "TemplateVariableName": "O'Connell, Williamson and Prohaska",
+  "HasBeenPublished": false,
+  "MdoListName": "Feeney-Corkery",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldLength": 482
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Fadel, Raynor and Breitenberg",
-    "ToolTip": "Tempora aut veritatis ipsam velit.",
+    "Id": 901,
+    "Name": "Zieme, Wolff and Walker",
+    "ToolTip": "Unde et quibusdam.",
     "Deleted": false,
-    "Rank": 532,
-    "Type": "qui",
-    "ColorBlock": 300,
-    "IconHint": "adipisci",
+    "Rank": 439,
+    "Type": "rerum",
+    "ColorBlock": 511,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2016-04-12T14:13:49.7429847+02:00",
+    "LastChanged": "2004-12-10T02:38:26.7142749+01:00",
     "ChildItems": [
       {
-        "Id": 947,
-        "Name": "Wisozk-Stokes",
-        "ToolTip": "Et sunt quia dolor.",
+        "Id": 187,
+        "Name": "Watsica, Hintz and Lueilwitz",
+        "ToolTip": "Laudantium et hic.",
         "Deleted": false,
-        "Rank": 240,
-        "Type": "veniam",
-        "ColorBlock": 573,
-        "IconHint": "facere",
-        "Selected": true,
-        "LastChanged": "2019-05-27T14:13:49.7429847+02:00",
+        "Rank": 654,
+        "Type": "blanditiis",
+        "ColorBlock": 772,
+        "IconHint": "delectus",
+        "Selected": false,
+        "LastChanged": "1999-08-05T02:38:26.7142749+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Denis Smith",
+        "ExtraInfo": "non",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Hollie Larson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 149
+            "FieldType": "System.Int32",
+            "FieldLength": 893
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "cupiditate",
-    "Hidden": true,
-    "FullName": "Kailyn Winifred Labadie DVM",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Roma Jones",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldType": "System.Int32",
+        "FieldLength": 709
       }
     }
   }

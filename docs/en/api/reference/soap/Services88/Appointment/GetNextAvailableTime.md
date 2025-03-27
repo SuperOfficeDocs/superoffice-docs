@@ -42,8 +42,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Appointment:Associates xsi:type="NetServerServices882:ArrayOfint">
      <NetServerServices882:int xsi:type="xsd:int">0</NetServerServices882:int>
     </Appointment:Associates>
-    <Appointment:StartTime xsi:type="xsd:dateTime">2025-02-24T13:11:01Z</Appointment:StartTime>
-    <Appointment:EndTime xsi:type="xsd:dateTime">2025-02-24T13:11:01Z</Appointment:EndTime>
+    <Appointment:StartTime xsi:type="xsd:dateTime">2025-03-19T01:35:47Z</Appointment:StartTime>
+    <Appointment:EndTime xsi:type="xsd:dateTime">2025-03-19T01:35:47Z</Appointment:EndTime>
     <Appointment:Count xsi:type="xsd:int">0</Appointment:Count>
     <Appointment:IsAllDay xsi:type="xsd:boolean">false</Appointment:IsAllDay>
    </Appointment:GetNextAvailableTime>
@@ -70,10 +70,10 @@ Application tokens must be specified if calling an Online installation. Applicat
   <Appointment:GetNextAvailableTimeResponse>
    <Appointment:Response xsi:type="Appointment:ArrayOfNextAvailableTime">
     <Appointment:NextAvailableTime xsi:type="Appointment:NextAvailableTime">
-     <Appointment:AvailableTimeStart xsi:type="xsd:dateTime">2025-02-24T13:11:01Z</Appointment:AvailableTimeStart>
-     <Appointment:AvailableTimeEnd xsi:type="xsd:dateTime">2025-02-24T13:11:01Z</Appointment:AvailableTimeEnd>
-     <Appointment:RecommendedTimeStart xsi:type="xsd:dateTime">2025-02-24T13:11:01Z</Appointment:RecommendedTimeStart>
-     <Appointment:RecommendedTimeEnd xsi:type="xsd:dateTime">2025-02-24T13:11:01Z</Appointment:RecommendedTimeEnd>
+     <Appointment:AvailableTimeStart xsi:type="xsd:dateTime">2025-03-19T01:35:47Z</Appointment:AvailableTimeStart>
+     <Appointment:AvailableTimeEnd xsi:type="xsd:dateTime">2025-03-19T01:35:47Z</Appointment:AvailableTimeEnd>
+     <Appointment:RecommendedTimeStart xsi:type="xsd:dateTime">2025-03-19T01:35:47Z</Appointment:RecommendedTimeStart>
+     <Appointment:RecommendedTimeEnd xsi:type="xsd:dateTime">2025-03-19T01:35:47Z</Appointment:RecommendedTimeEnd>
     </Appointment:NextAvailableTime>
    </Appointment:Response>
   </Appointment:GetNextAvailableTimeResponse>

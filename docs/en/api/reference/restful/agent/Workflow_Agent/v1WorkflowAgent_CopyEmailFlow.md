@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Workflow/CopyEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 950,
-  "NewName": "Lang, Runte and Graham"
+  "EmailFlowId": 34,
+  "NewName": "Wiza LLC"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-126
+987
 ```

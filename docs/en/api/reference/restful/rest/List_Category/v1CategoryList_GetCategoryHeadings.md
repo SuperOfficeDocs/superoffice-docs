@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 891,
-    "Name": "Pagac, Klein and Blanda",
-    "Tooltip": "ea",
+    "HeadingId": 405,
+    "Name": "Sporer-Leuschke",
+    "Tooltip": "quos",
     "Deleted": false,
-    "Rank": 322,
-    "UdListDefinitionId": 75,
+    "Rank": 294,
+    "UdListDefinitionId": 422,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldLength": 476
       }
     }
   }

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 66,
-  "Name": "Kutch, Goyette and Berge",
-  "Tooltip": "laudantium",
-  "Deleted": true,
-  "Rank": 121,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nihil",
+  "Id": 372,
+  "Name": "Oberbrunner Inc and Sons",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "Rank": 939,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "velit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 257,
-  "Name": "Howe, Smitham and Bednar",
-  "Tooltip": "debitis",
-  "Deleted": false,
-  "Rank": 910,
+  "Id": 492,
+  "Name": "Ritchie-Lynch",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 751,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aspernatur",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "quidem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 88
+      "FieldLength": 4
     }
   }
 }

@@ -127,16 +127,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    772,
-    294
+    985,
+    10
   ],
-  "StartTime": "2013-03-08T14:13:39.0005676+01:00",
-  "EndTime": "2008-06-23T14:13:39.0005676+02:00"
+  "StartTime": "2013-01-19T02:38:20.6514919+01:00",
+  "EndTime": "2009-03-28T02:38:20.6514919+01:00"
 }
 ```
 
@@ -148,65 +148,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 923,
-    "StartDate": "2009-04-04T14:13:39.0005676+02:00",
-    "EndDate": "2025-01-05T14:13:39.0005676+01:00",
+    "AppointmentId": 973,
+    "StartDate": "2002-08-08T02:38:20.6514919+02:00",
+    "EndDate": "2002-05-20T02:38:20.6514919+02:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Lucius Lockman",
-    "ContactName": "Johns-Friesen",
-    "Description": "Function-based analyzing focus group",
-    "PersonFullName": "Cedrick Kunze",
-    "PersonId": 627,
-    "ContactId": 378,
-    "ProjectId": 549,
-    "ProjectName": "Rodriguez LLC",
+    "Task": "sit",
+    "AssociateFullName": "Verdie Haag",
+    "ContactName": "Strosin-Mante",
+    "Description": "Persevering zero tolerance secured line",
+    "PersonFullName": "Ricky D'Amore",
+    "PersonId": 553,
+    "ContactId": 552,
+    "ProjectId": 122,
+    "ProjectName": "Haag-Schowalter",
     "IsPublished": false,
-    "AssociateId": 991,
-    "ColorIndex": 309,
-    "IsFree": false,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "AssociateId": 588,
+    "ColorIndex": 883,
+    "IsFree": true,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 643,
-    "PriorityName": "Leuschke Inc and Sons",
+    "PriorityId": 481,
+    "PriorityName": "Bergnaum, Aufderhar and Ortiz",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2019-05-08T14:13:39.0005676+02:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2017-02-03T02:38:20.6514919+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "1998-05-24T14:13:39.0005676+02:00",
-    "RecurringEndDate": "2018-12-09T14:13:39.0005676+01:00",
-    "MotherId": 966,
-    "AssignedBy": 644,
-    "AssignedByFullName": "Brandyn Cleta Schneider DVM",
+    "RecurringStartDate": "2020-06-26T02:38:20.6514919+02:00",
+    "RecurringEndDate": "2009-05-08T02:38:20.6514919+02:00",
+    "MotherId": 630,
+    "AssignedBy": 854,
+    "AssignedByFullName": "Theresa Willis Stoltenberg V",
     "RejectReason": "",
-    "Location": "quo",
-    "AlarmLeadTime": "voluptates",
-    "SaleId": 745,
-    "SaleName": "Douglas, Gerhold and Satterfield",
-    "AssociateName": "Little Inc and Sons",
-    "CreatedDate": "2017-12-26T14:13:39.0005676+01:00",
-    "CreatedBy": "nam",
-    "CreatedByFullName": "Carmela Bruen II",
-    "CreatedByAssociateId": 167,
+    "Location": "laboriosam",
+    "AlarmLeadTime": "ipsum",
+    "SaleId": 390,
+    "SaleName": "Kuhic LLC",
+    "AssociateName": "Powlowski, Thompson and Corwin",
+    "CreatedDate": "2006-08-06T02:38:20.6514919+02:00",
+    "CreatedBy": "quo",
+    "CreatedByFullName": "Alfred Spencer",
+    "CreatedByAssociateId": 574,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 682,
-    "Title": "beatae",
-    "Agenda": "voluptatum",
-    "InternalNotes": "ipsa",
+    "PreferredTZLocation": 47,
+    "Title": "rerum",
+    "Agenda": "est",
+    "InternalNotes": "eligendi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 745
       }
     }
   }

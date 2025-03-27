@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 628
+  "ErpConnectionId": 603
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Ernser LLC",
+      "ErpListName": "Mosciski-Dickens",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Balistreri, Ondricka and Lind",
-      "ErpFieldId": 554,
+      "ErpActorTypeName": "Ratke-Abshire",
+      "ErpFieldId": 764,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 313
+          "FieldLength": 648
         }
       }
     }
   ],
-  "ErpConnectionId": 942,
-  "ErpConnectionName": "Block-Lemke",
+  "ErpConnectionId": 313,
+  "ErpConnectionName": "Kerluke-Glover",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldLength": 549
     }
   }
 }

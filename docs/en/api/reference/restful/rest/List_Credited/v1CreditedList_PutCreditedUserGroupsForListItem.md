@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 319,
-    "Name": "Boyle, Maggio and Hickle",
-    "ToolTip": "Aut est natus qui perspiciatis.",
+    "Id": 224,
+    "Name": "Champlin-Hayes",
+    "ToolTip": "Distinctio voluptas mollitia fuga.",
     "Deleted": false,
-    "Rank": 548,
-    "Type": "nihil",
-    "ColorBlock": 283,
-    "IconHint": "animi",
+    "Rank": 818,
+    "Type": "harum",
+    "ColorBlock": 280,
+    "IconHint": "quasi",
     "Selected": false,
-    "LastChanged": "2024-09-02T14:13:49.7429847+02:00",
+    "LastChanged": "2007-09-25T02:38:26.7299042+02:00",
     "ChildItems": [
       {
-        "Id": 713,
-        "Name": "Mertz, Crona and Collier",
-        "ToolTip": "Minus quisquam excepturi explicabo ad.",
+        "Id": 184,
+        "Name": "West, Kreiger and Koepp",
+        "ToolTip": "Amet qui eum facilis officia.",
         "Deleted": true,
-        "Rank": 935,
-        "Type": "quis",
-        "ColorBlock": 138,
-        "IconHint": "est",
+        "Rank": 406,
+        "Type": "totam",
+        "ColorBlock": 838,
+        "IconHint": "laudantium",
         "Selected": false,
-        "LastChanged": "2017-01-31T14:13:49.7429847+01:00",
+        "LastChanged": "2001-05-11T02:38:26.7299042+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "expedita",
-        "StyleHint": "ad",
-        "Hidden": false,
-        "FullName": "Carlos Gibson"
+        "ExtraInfo": "quia",
+        "StyleHint": "eos",
+        "Hidden": true,
+        "FullName": "Rudolph Brakus"
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "quibusdam",
+    "ExtraInfo": "alias",
+    "StyleHint": "quidem",
     "Hidden": false,
-    "FullName": "Cleora Earlene Vandervort IV"
+    "FullName": "Mr. Juana Willis Hoppe DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 820,
-    "Name": "Ritchie, Hahn and Waelchi",
-    "ToolTip": "Nesciunt non ut vel unde quod ut.",
-    "Deleted": false,
-    "Rank": 548,
-    "Type": "quos",
-    "ColorBlock": 977,
-    "IconHint": "mollitia",
+    "Id": 571,
+    "Name": "Goldner, Ryan and Herzog",
+    "ToolTip": "Omnis nemo itaque quam pariatur eos.",
+    "Deleted": true,
+    "Rank": 498,
+    "Type": "quibusdam",
+    "ColorBlock": 43,
+    "IconHint": "esse",
     "Selected": true,
-    "LastChanged": "1999-04-09T14:13:49.7586101+02:00",
+    "LastChanged": "2003-11-30T02:38:26.7299042+01:00",
     "ChildItems": [
       {
-        "Id": 565,
-        "Name": "Tillman-Gorczany",
-        "ToolTip": "Qui corporis voluptatem ut consequuntur non.",
+        "Id": 714,
+        "Name": "Bahringer Group",
+        "ToolTip": "Nihil impedit vitae.",
         "Deleted": false,
-        "Rank": 92,
-        "Type": "sint",
-        "ColorBlock": 910,
-        "IconHint": "quam",
+        "Rank": 96,
+        "Type": "reprehenderit",
+        "ColorBlock": 397,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2017-11-29T14:13:49.7586101+01:00",
+        "LastChanged": "2023-03-30T02:38:26.7299042+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "laudantium",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Ms. Alejandrin Dane Kreiger",
+        "FullName": "Cayla Conroy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 66
+            "FieldType": "System.Int32",
+            "FieldLength": 63
           }
         }
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "nam",
-    "Hidden": true,
-    "FullName": "Alverta Schuster",
+    "ExtraInfo": "qui",
+    "StyleHint": "at",
+    "Hidden": false,
+    "FullName": "Dorcas Weber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 251
+        "FieldType": "System.String",
+        "FieldLength": 851
       }
     }
   }

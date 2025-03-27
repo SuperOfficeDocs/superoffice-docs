@@ -107,28 +107,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 959,
+  "EjMessageId": 998,
   "Ticket": null,
-  "CreatedAt": "2022-12-19T14:13:49.3836927+01:00",
+  "CreatedAt": "2006-10-11T02:38:26.5110233+02:00",
   "CreatedBy": null,
-  "Author": "rerum",
+  "Author": "ad",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "laborum",
-  "TimeSpent": 715,
-  "Body": "minus",
-  "HtmlBody": "quis",
-  "EmailHeader": "kamryn@cartwrightprohaska.us",
-  "DebugInfo": "fugit",
-  "MailSorter": "labore",
+  "MessageId": "reprehenderit",
+  "TimeSpent": 842,
+  "Body": "rem",
+  "HtmlBody": "ut",
+  "EmailHeader": "ezekiel@kautzeradams.co.uk",
+  "DebugInfo": "aspernatur",
+  "MailSorter": "fugit",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "adipisci",
+  "SearchTitle": "autem",
   "MessageHeaders": [
     {
-      "Id": 789,
-      "Name": "Cummerata-Kuhn",
-      "Value": "ut",
+      "Id": 986,
+      "Name": "Kutch-Stokes",
+      "Value": "qui",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -136,50 +136,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldLength": 549
         }
       }
     }
   ],
   "Important": false,
-  "Language": "id",
-  "Sentiment": 342,
-  "SentimentConfidence": 745,
+  "Language": "provident",
+  "Sentiment": 381,
+  "SentimentConfidence": 678,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 409,
-      "Name": "Rice-Kessler",
-      "ContentType": "expedita",
-      "AttSize": 375,
-      "InlineImage": true,
-      "ContentId": "consequatur",
-      "AuthKey": "ut",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 221,
+      "Name": "Howe, Sawayn and Bosco",
+      "ContentType": "sint",
+      "AttSize": 428,
+      "InlineImage": false,
+      "ContentId": "nobis",
+      "AuthKey": "numquam",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldLength": 334
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "est",
+    "ExtraFields2": "ipsa"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "totam"
+    "CustomFields1": "est",
+    "CustomFields2": "architecto"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 407
+      "FieldType": "System.String",
+      "FieldLength": 306
     }
   }
 }

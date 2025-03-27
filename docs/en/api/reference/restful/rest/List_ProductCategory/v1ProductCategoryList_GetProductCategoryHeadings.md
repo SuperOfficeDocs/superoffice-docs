@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 491,
-    "Name": "Senger LLC",
-    "Tooltip": "enim",
+    "HeadingId": 921,
+    "Name": "Hand, Strosin and Schuppe",
+    "Tooltip": "voluptatum",
     "Deleted": false,
-    "Rank": 98,
-    "UdListDefinitionId": 155,
+    "Rank": 499,
+    "UdListDefinitionId": 20,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 921
+        "FieldType": "System.Int32",
+        "FieldLength": 216
       }
     }
   }

@@ -69,14 +69,14 @@ No Content
 POST /api/v1/Agents/Contact/Merge
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 583,
-  "DestinationContactId": 921,
-  "MergeIdenticalPersons": false,
-  "ReplaceEmptyFieldsOnDestination": false
+  "SourceContactId": 840,
+  "DestinationContactId": 12,
+  "MergeIdenticalPersons": true,
+  "ReplaceEmptyFieldsOnDestination": true
 }
 ```
 

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Willms-Balistreri",
-    "ToolTip": "Animi quam ullam at et labore qui architecto.",
+    "Id": 69,
+    "Name": "Schinner-Schultz",
+    "ToolTip": "Quo optio iure corporis voluptas quia fugiat fugiat.",
     "Deleted": false,
-    "Rank": 155,
-    "Type": "reiciendis",
-    "ColorBlock": 180,
-    "IconHint": "maxime",
-    "Selected": true,
-    "LastChanged": "2020-10-22T14:13:49.9625606+02:00",
+    "Rank": 468,
+    "Type": "exercitationem",
+    "ColorBlock": 691,
+    "IconHint": "distinctio",
+    "Selected": false,
+    "LastChanged": "2006-03-14T02:38:26.7611442+01:00",
     "ChildItems": [
       {
-        "Id": 667,
-        "Name": "Graham Inc and Sons",
-        "ToolTip": "Illo omnis dignissimos placeat dignissimos mollitia.",
-        "Deleted": true,
-        "Rank": 249,
-        "Type": "maxime",
-        "ColorBlock": 361,
-        "IconHint": "minus",
+        "Id": 725,
+        "Name": "Streich-Klein",
+        "ToolTip": "Consectetur qui alias saepe itaque sit.",
+        "Deleted": false,
+        "Rank": 474,
+        "Type": "alias",
+        "ColorBlock": 990,
+        "IconHint": "sequi",
         "Selected": false,
-        "LastChanged": "2004-03-21T14:13:49.9625606+01:00",
+        "LastChanged": "2004-12-22T02:38:26.7611442+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "nemo",
-        "Hidden": false,
-        "FullName": "Albina Lehner"
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Prof. Estel Monty Blick DDS"
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "laborum",
+    "ExtraInfo": "illum",
+    "StyleHint": "cumque",
     "Hidden": false,
-    "FullName": "Dr. Jayde Stanton Jr."
+    "FullName": "Yessenia Fisher"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 959,
-    "Name": "Mayer, Breitenberg and Wuckert",
-    "ToolTip": "Sit impedit.",
+    "Id": 966,
+    "Name": "Feeney, Schinner and Stark",
+    "ToolTip": "Molestiae sunt blanditiis.",
     "Deleted": true,
-    "Rank": 252,
-    "Type": "unde",
-    "ColorBlock": 272,
-    "IconHint": "dolorem",
+    "Rank": 649,
+    "Type": "velit",
+    "ColorBlock": 499,
+    "IconHint": "aliquam",
     "Selected": true,
-    "LastChanged": "2001-05-15T14:13:49.9781847+02:00",
+    "LastChanged": "2002-06-27T02:38:26.7611442+02:00",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Kerluke-West",
-        "ToolTip": "Modi sapiente nobis sed voluptate veritatis qui.",
-        "Deleted": false,
-        "Rank": 290,
-        "Type": "dignissimos",
-        "ColorBlock": 262,
-        "IconHint": "maxime",
+        "Id": 104,
+        "Name": "Greenholt Group",
+        "ToolTip": "Corrupti nostrum aut.",
+        "Deleted": true,
+        "Rank": 837,
+        "Type": "nobis",
+        "ColorBlock": 422,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "2010-09-30T14:13:49.9781847+02:00",
+        "LastChanged": "2008-02-23T02:38:26.7611442+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Jordyn Bauch",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "architecto",
+        "Hidden": true,
+        "FullName": "Jade Kovacek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 708
+            "FieldLength": 331
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "mollitia",
-    "Hidden": false,
-    "FullName": "Jan Heathcote",
+    "ExtraInfo": "sed",
+    "StyleHint": "maxime",
+    "Hidden": true,
+    "FullName": "Eriberto Jacobi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 731
+        "FieldType": "System.String",
+        "FieldLength": 710
       }
     }
   }

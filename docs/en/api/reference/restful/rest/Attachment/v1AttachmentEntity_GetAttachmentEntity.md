@@ -90,20 +90,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 27,
-  "Name": "Witting-Feil",
-  "ContentType": "molestiae",
-  "AttSize": 375,
+  "AttachmentId": 495,
+  "Name": "O'Kon, Kautzer and Brakus",
+  "ContentType": "ut",
+  "AttSize": 386,
   "InlineImage": false,
-  "ContentId": "ut",
-  "AuthKey": "pariatur",
+  "ContentId": "nulla",
+  "AuthKey": "ut",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldType": "System.String",
+      "FieldLength": 532
     }
   },
   "_Links": {

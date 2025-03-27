@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 340,
-    "Value": "qui",
-    "Tooltip": "inventore",
+    "Id": 779,
+    "Value": "ut",
+    "Tooltip": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 17
+        "FieldLength": 884
       }
     }
   },
   {
-    "Id": 340,
-    "Value": "qui",
-    "Tooltip": "inventore",
+    "Id": 779,
+    "Value": "ut",
+    "Tooltip": "nihil",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 17
+        "FieldLength": 884
       }
     }
   }

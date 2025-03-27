@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=415
+PUT /api/v1/Project/{id}/ImageInfo?projectId=225
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 499,
-  "BlobSize": 39,
-  "Description": "Phased leading edge forecast",
-  "ExtraInfo": "magnam",
+  "BlobId": 558,
+  "BlobSize": 216,
+  "Description": "Distributed attitude-oriented definition",
+  "ExtraInfo": "est",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "dolor",
-  "OriginalSize": 540,
-  "CreatedDate": "2015-09-15T14:13:49.0868575+02:00",
-  "UpdatedDate": "2003-10-03T14:13:49.0868575+02:00",
+  "IsZipped": true,
+  "MimeType": "molestias",
+  "OriginalSize": 598,
+  "CreatedDate": "2013-07-14T02:38:26.3235369+02:00",
+  "UpdatedDate": "2018-04-09T02:38:26.3235369+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "rerum"
+  "ConceptualType": "cumque"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 349,
-  "BlobSize": 721,
-  "Description": "Cross-group static utilisation",
-  "ExtraInfo": "animi",
+  "BlobId": 546,
+  "BlobSize": 905,
+  "Description": "Reactive assymetric monitoring",
+  "ExtraInfo": "dolore",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "sunt",
-  "OriginalSize": 943,
-  "CreatedDate": "2024-03-09T14:13:49.0868575+01:00",
-  "UpdatedDate": "2024-02-10T14:13:49.0868575+01:00",
+  "MimeType": "fugit",
+  "OriginalSize": 614,
+  "CreatedDate": "2007-12-26T02:38:26.3235369+01:00",
+  "UpdatedDate": "2008-08-16T02:38:26.3235369+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "similique",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 162
     }
   }
 }

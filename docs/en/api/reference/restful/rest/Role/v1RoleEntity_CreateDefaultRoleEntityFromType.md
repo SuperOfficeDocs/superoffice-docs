@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,24 +85,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 778,
-  "Name": "Wuckert LLC",
-  "Tooltip": "accusantium",
+  "RoleId": 433,
+  "Name": "Glover, Sanford and Bashirian",
+  "Tooltip": "inventore",
   "RoleType": "Anonymous",
-  "Deleted": 201,
-  "Rank": 76,
-  "Created": "1999-01-07T14:13:49.1181275+01:00",
-  "UseCategories": 15,
+  "Deleted": 427,
+  "Rank": 657,
+  "Created": "2006-07-24T02:38:26.3391624+02:00",
+  "UseCategories": 480,
   "CreatedBy": null,
-  "Updated": "2015-04-08T14:13:49.1181275+02:00",
+  "Updated": "2021-04-24T02:38:26.3391624+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1000
+      "FieldType": "System.Int32",
+      "FieldLength": 976
     }
   }
 }

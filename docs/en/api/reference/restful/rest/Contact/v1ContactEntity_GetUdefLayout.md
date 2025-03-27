@@ -90,7 +90,7 @@ OK
 GET /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 435,
-    "ColumnId": 116,
-    "FieldDefault": "natus",
-    "FieldHeight": 76,
-    "FieldLabel": "sed",
-    "FieldLeft": 486,
-    "FieldTop": 128,
+    "UDefFieldId": 417,
+    "ColumnId": 126,
+    "FieldDefault": "eos",
+    "FieldHeight": 700,
+    "FieldLabel": "consequatur",
+    "FieldLeft": 506,
+    "FieldTop": 806,
     "FieldType": "Checkbox",
-    "FieldWidth": 583,
-    "FormatMask": "mollitia",
+    "FieldWidth": 373,
+    "FormatMask": "provident",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 519,
-    "LabelLeft": 696,
-    "LabelTop": 157,
-    "LabelWidth": 253,
-    "LastVersionId": 117,
-    "ListTableId": 146,
+    "LabelHeight": 5,
+    "LabelLeft": 129,
+    "LabelTop": 95,
+    "LabelWidth": 7,
+    "LastVersionId": 651,
+    "ListTableId": 479,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 943,
-    "ProgId": "consectetur",
-    "IsReadOnly": false,
-    "ShortLabel": "quod",
-    "TabOrder": 797,
-    "TextLength": 898,
-    "Tooltip": "quasi",
-    "UdefIdentity": 275,
-    "UDListDefinitionId": 35,
+    "Page1LineNo": 774,
+    "ProgId": "rerum",
+    "IsReadOnly": true,
+    "ShortLabel": "in",
+    "TabOrder": 11,
+    "TextLength": 562,
+    "Tooltip": "molestiae",
+    "UdefIdentity": 258,
+    "UDListDefinitionId": 205,
     "Justification": "Center",
-    "Version": 294,
-    "TemplateVariableName": "Sawayn, Ruecker and Schiller",
-    "HasBeenPublished": false,
-    "MdoListName": "Ziemann, Koepp and Bins",
+    "Version": 232,
+    "TemplateVariableName": "Kreiger Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Runolfsson Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 384
+        "FieldLength": 354
       }
     }
   }

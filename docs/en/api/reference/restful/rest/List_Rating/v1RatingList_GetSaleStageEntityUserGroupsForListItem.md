@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 878,
-    "Name": "Rosenbaum, Hansen and Stanton",
-    "ToolTip": "Qui ut illum omnis sit.",
+    "Id": 668,
+    "Name": "Gleichner-Pouros",
+    "ToolTip": "Asperiores ab.",
     "Deleted": false,
-    "Rank": 936,
-    "Type": "mollitia",
-    "ColorBlock": 879,
-    "IconHint": "harum",
+    "Rank": 569,
+    "Type": "reiciendis",
+    "ColorBlock": 214,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "1999-12-20T14:13:50.1656413+01:00",
+    "LastChanged": "2000-08-24T02:38:26.886137+02:00",
     "ChildItems": [
       {
-        "Id": 200,
-        "Name": "Hand, Kuhic and Roberts",
-        "ToolTip": "Aliquam exercitationem magni commodi quis eum.",
+        "Id": 102,
+        "Name": "Paucek Inc and Sons",
+        "ToolTip": "Aut autem molestiae accusamus aspernatur doloribus dolore.",
         "Deleted": false,
-        "Rank": 218,
-        "Type": "id",
-        "ColorBlock": 215,
-        "IconHint": "impedit",
-        "Selected": true,
-        "LastChanged": "1999-07-26T14:13:50.1812638+02:00",
+        "Rank": 141,
+        "Type": "dolores",
+        "ColorBlock": 422,
+        "IconHint": "a",
+        "Selected": false,
+        "LastChanged": "2020-06-25T02:38:26.886137+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "incidunt",
-        "Hidden": false,
-        "FullName": "Mrs. Pink Lesch",
+        "ExtraInfo": "et",
+        "StyleHint": "dolor",
+        "Hidden": true,
+        "FullName": "Adalberto Thompson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 616
+            "FieldType": "System.String",
+            "FieldLength": 523
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "praesentium",
-    "Hidden": false,
-    "FullName": "Salma O'Conner",
+    "ExtraInfo": "autem",
+    "StyleHint": "nulla",
+    "Hidden": true,
+    "FullName": "Hayley Beatty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 111
+        "FieldType": "System.Int32",
+        "FieldLength": 96
       }
     }
   }

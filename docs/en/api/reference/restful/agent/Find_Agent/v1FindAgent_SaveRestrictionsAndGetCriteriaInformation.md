@@ -82,39 +82,39 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "StorageType": "qui",
-  "ProviderName": "Thiel, Kuvalis and Pfeffer",
-  "StorageKey": "provident",
+  "ProviderName": "Willms, Barrows and Goyette",
+  "StorageKey": "delectus",
   "Restrictions": [
     {
-      "Name": "Metz, Huel and Gerlach",
-      "Operator": "atque",
+      "Name": "Smitham-Howe",
+      "Operator": "et",
       "Values": [
         "qui",
-        "illum"
+        "excepturi"
       ],
       "DisplayValues": [
         "voluptatem",
-        "et"
+        "non"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 225,
+      "InterParenthesis": 516,
       "InterOperator": "And",
-      "UniqueHash": 627
+      "UniqueHash": 358
     }
   ],
   "StaticColumns": [
-    "qui",
-    "ut"
+    "eaque",
+    "sapiente"
   ]
 }
 ```
@@ -128,81 +128,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Gislason LLC",
-      "Operator": "hic",
+      "Name": "Marquardt LLC",
+      "Operator": "ullam",
       "Values": [
-        "dolor",
-        "modi"
+        "voluptatem",
+        "vitae"
       ],
       "DisplayValues": [
-        "optio",
+        "aut",
         "ea"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 246,
+      "InterParenthesis": 766,
       "InterOperator": "And",
-      "UniqueHash": 607
+      "UniqueHash": 813
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Walker LLC",
-      "DisplayTooltip": "cumque",
-      "DisplayType": "officiis",
+      "DisplayName": "Flatley, Swaniawski and Schroeder",
+      "DisplayTooltip": "aut",
+      "DisplayType": "id",
       "CanOrderBy": false,
-      "Name": "O'Keefe LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "dolore",
-      "RestrictionListName": "Bosco Group",
-      "IsVisible": true,
-      "ExtraInfo": "qui",
-      "Width": "doloremque",
-      "IconHint": "ea",
-      "HeadingIconHint": "laudantium"
+      "Name": "Hills, Tremblay and Becker",
+      "CanRestrictBy": false,
+      "RestrictionType": "in",
+      "RestrictionListName": "Grant-Yundt",
+      "IsVisible": false,
+      "ExtraInfo": "omnis",
+      "Width": "eum",
+      "IconHint": "reiciendis",
+      "HeadingIconHint": "similique"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Upton Inc and Sons",
-      "PrimaryKey": 4,
+      "EntityName": "Koch, Haag and Wiza",
+      "PrimaryKey": 403,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "eum",
-          "TooltipHint": "molestias",
-          "LinkHint": "deleniti"
+          "DisplayValue": "vitae",
+          "TooltipHint": "quod",
+          "LinkHint": "provident"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "nam",
+      "LinkHint": "quas",
+      "StyleHint": "repellendus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 335
+          "FieldType": "System.Int32",
+          "FieldLength": 719
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Crona, Kreiger and Lubowitz",
-      "Description": "Horizontal motivating hardware",
-      "Rank": 274,
+      "Name": "Lueilwitz, Jacobson and Williamson",
+      "Description": "Synchronised client-server monitoring",
+      "Rank": 170,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Crona, Kreiger and Lubowitz",
-      "Description": "Horizontal motivating hardware",
-      "Rank": 274,
+      "Name": "Lueilwitz, Jacobson and Williamson",
+      "Description": "Synchronised client-server monitoring",
+      "Rank": 170,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 500
+      "FieldLength": 118
     }
   }
 }

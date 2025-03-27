@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Ziemann, Kuhic and Mertz",
-    "ToolTip": "Dignissimos optio et natus.",
+    "Id": 635,
+    "Name": "Harber Group",
+    "ToolTip": "Est tenetur velit saepe dicta est amet cupiditate.",
     "Deleted": false,
-    "Rank": 86,
-    "Type": "occaecati",
-    "ColorBlock": 26,
-    "IconHint": "quibusdam",
+    "Rank": 715,
+    "Type": "vitae",
+    "ColorBlock": 188,
+    "IconHint": "asperiores",
     "Selected": false,
-    "LastChanged": "2024-01-08T14:13:50.2595794+01:00",
+    "LastChanged": "2011-10-15T02:38:26.9330101+02:00",
     "ChildItems": [
       {
-        "Id": 573,
-        "Name": "Wolff-Connelly",
-        "ToolTip": "Fuga corporis.",
-        "Deleted": true,
-        "Rank": 28,
-        "Type": "eum",
-        "ColorBlock": 142,
-        "IconHint": "ullam",
+        "Id": 544,
+        "Name": "Kautzer-Bosco",
+        "ToolTip": "Ut dolorem qui repudiandae.",
+        "Deleted": false,
+        "Rank": 913,
+        "Type": "vitae",
+        "ColorBlock": 26,
+        "IconHint": "earum",
         "Selected": true,
-        "LastChanged": "2007-01-30T14:13:50.2595794+01:00",
+        "LastChanged": "2024-05-18T02:38:26.9330101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "vitae",
-        "Hidden": false,
-        "FullName": "Corene Welch"
+        "ExtraInfo": "facere",
+        "StyleHint": "deserunt",
+        "Hidden": true,
+        "FullName": "Katrina Nader"
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "Savanah Kaya Lind II"
+    "ExtraInfo": "sit",
+    "StyleHint": "repudiandae",
+    "Hidden": false,
+    "FullName": "Connie Champlin I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 149,
-    "Name": "Mosciski, Farrell and Reinger",
-    "ToolTip": "Laborum sint hic molestiae rerum.",
+    "Id": 667,
+    "Name": "Turner-Haag",
+    "ToolTip": "Et dolor qui maxime.",
     "Deleted": false,
-    "Rank": 22,
-    "Type": "recusandae",
-    "ColorBlock": 821,
-    "IconHint": "nesciunt",
+    "Rank": 193,
+    "Type": "tempora",
+    "ColorBlock": 1002,
+    "IconHint": "neque",
     "Selected": true,
-    "LastChanged": "2000-07-17T14:13:50.2595794+02:00",
+    "LastChanged": "2014-08-27T02:38:26.9330101+02:00",
     "ChildItems": [
       {
-        "Id": 168,
-        "Name": "Howe-Dibbert",
-        "ToolTip": "Asperiores ratione et voluptas.",
+        "Id": 251,
+        "Name": "Gerlach Inc and Sons",
+        "ToolTip": "Officia voluptates nesciunt consequatur maiores itaque blanditiis ratione.",
         "Deleted": false,
-        "Rank": 198,
-        "Type": "maiores",
-        "ColorBlock": 621,
-        "IconHint": "ea",
+        "Rank": 460,
+        "Type": "adipisci",
+        "ColorBlock": 400,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2006-03-21T14:13:50.2595794+01:00",
+        "LastChanged": "1998-04-01T02:38:26.9330101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "accusamus",
+        "ExtraInfo": "aut",
+        "StyleHint": "praesentium",
         "Hidden": true,
-        "FullName": "Zoila Lubowitz",
+        "FullName": "Prof. Olaf Angus Rosenbaum MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 631
+            "FieldLength": 551
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "quod",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "ratione",
     "Hidden": false,
-    "FullName": "Clotilde Hegmann",
+    "FullName": "Taryn Ziemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldLength": 535
       }
     }
   }

@@ -109,10 +109,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 368,
+  "EmailId": 802,
   "AttachmentIds": [
-    "odio",
-    "quisquam"
+    "qui",
+    "cupiditate"
   ],
   "IncludeAttachments": false
 }
@@ -127,97 +127,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 797,
-      "ContactName": "Ledner Group",
-      "PersonId": 174,
-      "PersonName": "Little, Robel and Hyatt",
-      "AssociateId": 278,
-      "Address": "perspiciatis",
-      "EmailId": 319,
+      "ContactId": 134,
+      "ContactName": "Morar LLC",
+      "PersonId": 882,
+      "PersonName": "Schmitt, Gorczany and Hilll",
+      "AssociateId": 284,
+      "Address": "ipsa",
+      "EmailId": 861,
       "DuplicatePersonIds": [
-        505,
-        521
+        767,
+        745
       ],
-      "Name": "Koch, Leuschke and McGlynn",
+      "Name": "Windler Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 670
+          "FieldLength": 351
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 854,
-      "ContactName": "Monahan-Witting",
-      "PersonId": 602,
-      "PersonName": "Rolfson Group",
-      "AssociateId": 346,
-      "Address": "sed",
-      "EmailId": 587,
+      "ContactId": 309,
+      "ContactName": "Becker LLC",
+      "PersonId": 215,
+      "PersonName": "Ankunding, Hudson and Barton",
+      "AssociateId": 977,
+      "Address": "et",
+      "EmailId": 846,
       "DuplicatePersonIds": [
-        877,
-        730
+        362,
+        167
       ],
-      "Name": "Leuschke Group",
+      "Name": "Jones, Nader and Grant",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldLength": 660
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 113,
-      "ContactName": "Thompson-Block",
-      "PersonId": 430,
-      "PersonName": "Kreiger, Emard and Lakin",
-      "AssociateId": 625,
-      "Address": "qui",
-      "EmailId": 747,
+      "ContactId": 877,
+      "ContactName": "Stanton, Graham and Jenkins",
+      "PersonId": 642,
+      "PersonName": "Mitchell-Wuckert",
+      "AssociateId": 774,
+      "Address": "sit",
+      "EmailId": 92,
       "DuplicatePersonIds": [
-        76,
-        537
+        857,
+        552
       ],
-      "Name": "Graham, Nienow and Veum",
+      "Name": "Streich, Nikolaus and Becker",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 255
+          "FieldType": "System.Int32",
+          "FieldLength": 88
         }
       }
     }
   ],
-  "Subject": "magnam",
-  "HTMLBody": "alias",
+  "Subject": "facere",
+  "HTMLBody": "aperiam",
   "From": null,
-  "Sent": "1997-12-08T14:13:40.2816332+01:00",
-  "Size": 723,
+  "Sent": "2003-03-06T02:38:21.3857927+01:00",
+  "Size": 873,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "distinctio",
-  "PlainBody": "ut",
-  "IsSent": true,
+  "MessageID": "est",
+  "PlainBody": "labore",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 271,
+  "ServerId": 392,
   "Attachments": [
     {
-      "Description": "Ergonomic directional frame",
-      "Filename": "nemo",
-      "Size": 492,
-      "Type": "eum",
-      "Encoding": "neque",
-      "Id": "impedit",
-      "Disposition": "quia",
+      "Description": "Cross-platform neutral array",
+      "Filename": "et",
+      "Size": 554,
+      "Type": "cum",
+      "Encoding": "provident",
+      "Id": "minima",
+      "Disposition": "temporibus",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -225,50 +225,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldLength": 390
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jast Group",
+      "Name": "Dare Group",
       "Values": [
-        "accusamus",
-        "quia"
+        "sequi",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 427
+          "FieldType": "System.Int32",
+          "FieldLength": 536
         }
       }
     },
     {
-      "Name": "Jast Group",
+      "Name": "Dare Group",
       "Values": [
-        "accusamus",
-        "quia"
+        "sequi",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 427
+          "FieldType": "System.Int32",
+          "FieldLength": 536
         }
       }
     }
   ],
-  "FolderName": "Hackett Inc and Sons",
-  "EmailItemId": 757,
-  "AccountId": 285,
-  "ReceivedAt": "2012-04-13T14:13:40.2816332+02:00",
+  "FolderName": "Auer, Greenfelder and Prosacco",
+  "EmailItemId": 61,
+  "AccountId": 58,
+  "ReceivedAt": "2019-08-19T02:38:21.3857927+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-12-06T14:13:40.2816332+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2004-12-12T02:38:21.3857927+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldLength": 158
     }
   }
 }

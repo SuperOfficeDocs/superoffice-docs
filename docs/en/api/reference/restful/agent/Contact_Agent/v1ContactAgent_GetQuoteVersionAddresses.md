@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 111
+  "QuoteVersionId": 637
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 5769.6939999999995,
-    "Wgs84Longitude": 20781.554,
+    "Wgs84Latitude": 19531.088,
+    "Wgs84Longitude": 19086.059999999998,
     "LocalizedAddress": [
       [
         {
-          "Name": "Daugherty LLC",
-          "Value": "mollitia",
-          "Tooltip": "est",
-          "Label": "non",
-          "ValueLength": 588,
-          "AddressType": "deleniti",
+          "Name": "Oberbrunner Group",
+          "Value": "alias",
+          "Tooltip": "dignissimos",
+          "Label": "dolorem",
+          "ValueLength": 466,
+          "AddressType": "occaecati",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 129
+              "FieldType": "System.String",
+              "FieldLength": 427
             }
           }
         }
       ],
       [
         {
-          "Name": "Marquardt, Cremin and Kirlin",
-          "Value": "et",
-          "Tooltip": "dolor",
-          "Label": "magnam",
-          "ValueLength": 60,
-          "AddressType": "nihil",
+          "Name": "Crist LLC",
+          "Value": "ducimus",
+          "Tooltip": "rerum",
+          "Label": "ipsum",
+          "ValueLength": 516,
+          "AddressType": "nulla",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 906
+              "FieldType": "System.String",
+              "FieldLength": 702
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "vel",
+    "Formatted": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 230
+        "FieldLength": 301
       }
     }
   }

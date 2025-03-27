@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=492
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=17
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 232,
-  "ERPQuoteAlternativeKey": "esse",
-  "QuoteVersionId": 282,
-  "Name": "Collins, Cartwright and Koch",
-  "Description": "Open-architected reciprocal function",
+  "QuoteAlternativeId": 552,
+  "ERPQuoteAlternativeKey": "excepturi",
+  "QuoteVersionId": 677,
+  "Name": "Reichel, Tillman and Hansen",
+  "Description": "Managed impactful middleware",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 12523.464,
-  "ERPDiscountAmount": 27645.014,
-  "DiscountPercent": 7136.1179999999995,
-  "DiscountAmount": 2594.9519999999998,
+  "ERPDiscountPercent": 16741.827999999998,
+  "ERPDiscountAmount": 18405.982,
+  "DiscountPercent": 19678.386,
+  "DiscountAmount": 17678.894,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "et",
-  "VAT": 9151.2799999999988,
-  "EarningPercent": 22301.543999999998,
-  "EarningAmount": 4748.01,
-  "SubTotal": 9658.988,
-  "TotalPrice": 13629.766,
-  "ExtraField1": "possimus",
-  "ExtraField2": "eius",
-  "ExtraField3": "et",
-  "ExtraField4": "cum",
-  "ExtraField5": "aut",
+  "VATInfo": "id",
+  "VAT": 21367.612,
+  "EarningPercent": 14692.192,
+  "EarningAmount": 14225.225999999999,
+  "SubTotal": 19380.656,
+  "TotalPrice": 14297.307999999999,
+  "ExtraField1": "officiis",
+  "ExtraField2": "velit",
+  "ExtraField3": "optio",
+  "ExtraField4": "deserunt",
+  "ExtraField5": "earum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 919
+      "FieldLength": 492
     }
   }
 }

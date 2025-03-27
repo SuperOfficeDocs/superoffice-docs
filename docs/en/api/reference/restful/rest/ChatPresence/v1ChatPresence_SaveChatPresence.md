@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 309,
-    "DisplayName": "Schroeder, Daugherty and Gaylord",
-    "OngoingChats": 187,
-    "Present": true,
+    "UserId": 991,
+    "DisplayName": "Haley LLC",
+    "OngoingChats": 62,
+    "Present": false,
     "ChatTopics": [
-      465,
-      334
+      79,
+      560
     ]
   },
   {
-    "UserId": 309,
-    "DisplayName": "Schroeder, Daugherty and Gaylord",
-    "OngoingChats": 187,
-    "Present": true,
+    "UserId": 991,
+    "DisplayName": "Haley LLC",
+    "OngoingChats": 62,
+    "Present": false,
     "ChatTopics": [
-      465,
-      334
+      79,
+      560
     ]
   }
 ]

@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "necessitatibus",
-    "InputValues2": "sed"
+    "InputValues1": "officiis",
+    "InputValues2": "ullam"
   },
   "BlockExecution": true,
-  "NavigateTo": "ipsum",
-  "Message": "voluptatibus",
-  "ShowDialog": "vel",
+  "NavigateTo": "dolorum",
+  "Message": "aliquam",
+  "ShowDialog": "voluptatem",
   "OutputValues": {
-    "OutputValues1": "ut",
-    "OutputValues2": "ab"
+    "OutputValues1": "est",
+    "OutputValues2": "reprehenderit"
   },
   "StateValues": {
-    "StateValues1": "dolorum",
-    "StateValues2": "quos"
+    "StateValues1": "sapiente",
+    "StateValues2": "sapiente"
   },
-  "Exception": "dolor",
+  "Exception": "quis",
   "ParserValues": {
-    "ParserValues1": "sed",
-    "ParserValues2": "qui"
+    "ParserValues1": "quis",
+    "ParserValues2": "sit"
   },
   "CgiVariables": {
-    "CgiVariables1": "occaecati",
-    "CgiVariables2": "cum"
+    "CgiVariables1": "reiciendis",
+    "CgiVariables2": "ullam"
   },
-  "CgiContent": "eum",
+  "CgiContent": "et",
   "Headers": {
-    "Headers1": "fuga",
-    "Headers2": "inventore"
+    "Headers1": "sit",
+    "Headers2": "ipsam"
   },
-  "TraceExecution": true
+  "TraceExecution": false
 }
 ```
 
@@ -146,42 +146,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quasi",
-    "InputValues2": "sunt"
+    "InputValues1": "qui",
+    "InputValues2": "consequatur"
   },
-  "BlockExecution": true,
-  "NavigateTo": "earum",
-  "Message": "adipisci",
-  "ShowDialog": "aperiam",
+  "BlockExecution": false,
+  "NavigateTo": "dicta",
+  "Message": "optio",
+  "ShowDialog": "quo",
   "OutputValues": {
-    "OutputValues1": "ratione",
-    "OutputValues2": "explicabo"
+    "OutputValues1": "exercitationem",
+    "OutputValues2": "reiciendis"
   },
   "StateValues": {
-    "StateValues1": "itaque",
-    "StateValues2": "dignissimos"
+    "StateValues1": "minima",
+    "StateValues2": "in"
   },
-  "Exception": "aut",
+  "Exception": "soluta",
   "ParserValues": {
-    "ParserValues1": "ratione",
-    "ParserValues2": "aliquid"
+    "ParserValues1": "nobis",
+    "ParserValues2": "quasi"
   },
   "CgiVariables": {
-    "CgiVariables1": "optio",
-    "CgiVariables2": "et"
+    "CgiVariables1": "non",
+    "CgiVariables2": "hic"
   },
-  "CgiContent": "quia",
+  "CgiContent": "dolores",
   "Headers": {
-    "Headers1": "vitae",
-    "Headers2": "veritatis"
+    "Headers1": "voluptatum",
+    "Headers2": "molestiae"
   },
-  "TraceExecution": false,
+  "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldType": "System.Int32",
+      "FieldLength": 201
     }
   }
 }

@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 879,
-  "CurrencyId": 314
+  "QuoteConnectionId": 555,
+  "CurrencyId": 206
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 541,
-    "ERPPriceListKey": "nisi",
-    "QuoteConnectionId": 678,
-    "Name": "Effertz, VonRueden and Fahey",
-    "Description": "User-friendly 6th generation approach",
-    "Currency": "voluptas",
-    "CurrencyName": "Mayer Group",
-    "ValidFrom": "2010-05-03T14:13:41.1095702+02:00",
-    "ValidTo": "2015-11-17T14:13:41.1095702+01:00",
+    "PriceListId": 284,
+    "ERPPriceListKey": "qui",
+    "QuoteConnectionId": 408,
+    "Name": "Erdman Inc and Sons",
+    "Description": "Adaptive regional framework",
+    "Currency": "ex",
+    "CurrencyName": "Mitchell-Breitenberg",
+    "ValidFrom": "2019-07-26T02:38:21.7763357+02:00",
+    "ValidTo": "2002-07-18T02:38:21.7763357+02:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 506
+        "FieldLength": 518
       }
     }
   }

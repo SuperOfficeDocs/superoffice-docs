@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 946,
-    "Name": "VonRueden-Blick",
-    "Tooltip": "reprehenderit",
-    "Deleted": true,
-    "Rank": 443,
-    "UdListDefinitionId": 488,
+    "HeadingId": 580,
+    "Name": "Bergstrom-Rempel",
+    "Tooltip": "voluptas",
+    "Deleted": false,
+    "Rank": 578,
+    "UdListDefinitionId": 218,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldLength": 464
       }
     }
   }

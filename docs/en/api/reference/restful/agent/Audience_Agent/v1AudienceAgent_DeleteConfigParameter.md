@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Audience/DeleteConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Hessel-Mante",
-  "ParameterName": "Hessel-Barrows"
+  "LayoutName": "Christiansen-Rowe",
+  "ParameterName": "D'Amore, Berge and Weissnat"
 }
 ```
 

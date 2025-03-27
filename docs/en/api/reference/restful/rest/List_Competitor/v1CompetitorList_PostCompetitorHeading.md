@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 380,
-  "Name": "Kuhn Group",
-  "Tooltip": "illo",
+  "HeadingId": 699,
+  "Name": "Nienow-Ritchie",
+  "Tooltip": "quos",
   "Deleted": false,
-  "Rank": 372,
-  "UdListDefinitionId": 793
+  "Rank": 577,
+  "UdListDefinitionId": 191
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 196,
-  "Name": "Ratke, Gutkowski and Lesch",
-  "Tooltip": "iste",
+  "HeadingId": 457,
+  "Name": "Lubowitz, Schultz and Braun",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 33,
-  "UdListDefinitionId": 423,
+  "Rank": 755,
+  "UdListDefinitionId": 699,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 241
+      "FieldType": "System.Int32",
+      "FieldLength": 438
     }
   }
 }

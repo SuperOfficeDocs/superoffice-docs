@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 423
+  "Count": 161
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Mitchell Inc and Sons",
-    "SaleDate": "2007-10-14T14:13:41.240351+02:00",
-    "SaleId": 713,
-    "Probability": 333,
-    "Title": "voluptas",
-    "Amount": 30070.73,
-    "Currency": "eius",
-    "ProjectName": "Carroll, Wilderman and Kertzmann",
-    "AssociateFullName": "Anya Terry",
-    "Description": "Assimilated bottom-line open architecture",
+    "ContactName": "Herzog-Hegmann",
+    "SaleDate": "2023-01-28T02:38:21.8544876+01:00",
+    "SaleId": 258,
+    "Probability": 819,
+    "Title": "alias",
+    "Amount": 28262.412,
+    "Currency": "dolores",
+    "ProjectName": "Macejkovic-Waters",
+    "AssociateFullName": "Tia Kessler",
+    "Description": "Integrated cohesive encryption",
     "Status": "Lost",
-    "WeightedAmount": 1438.5059999999999,
-    "ProjectId": 935,
-    "EarningPercent": 18393.446,
-    "Earning": 21054.212,
-    "ContactId": 235,
-    "AssociateId": 690,
-    "PersonId": 713,
-    "SaleTypeId": 9,
-    "SaleTypeName": "Bashirian-Leffler",
-    "PersonFullName": "Soledad Rogahn V",
+    "WeightedAmount": 6443.504,
+    "ProjectId": 202,
+    "EarningPercent": 4140.014,
+    "Earning": 3369.0499999999997,
+    "ContactId": 216,
+    "AssociateId": 626,
+    "PersonId": 621,
+    "SaleTypeId": 36,
+    "SaleTypeName": "Welch-Hilll",
+    "PersonFullName": "Ms. Cleta Armando Osinski DVM",
     "Completed": "Completed",
-    "ActiveErpLinks": 673,
-    "NextDueDate": "2021-06-22T14:13:41.240351+02:00",
-    "Number": "1004206",
+    "ActiveErpLinks": 234,
+    "NextDueDate": "2022-08-05T02:38:21.8544876+02:00",
+    "Number": "1846612",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldType": "System.String",
+        "FieldLength": 508
       }
     }
   }

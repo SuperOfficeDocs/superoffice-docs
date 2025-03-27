@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kuvalis LLC"
+  "ApplicationName": "Weimann-Watsica"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 910,
-    "Name": "Kerluke-Bahringer",
-    "CreatedDate": "2011-08-21T14:13:40.3909833+02:00",
-    "UpdatedDate": "2007-05-30T14:13:40.3909833+02:00",
-    "AssociateFullName": "Mr. Leopold Reynolds II",
-    "CreatedBy": "molestiae",
-    "UpdatedBy": "voluptatibus",
-    "DeviceIdentifier": "et",
-    "ForeignAppId": 595,
+    "ForeignDeviceId": 434,
+    "Name": "Kunde, Gerlach and Romaguera",
+    "CreatedDate": "2021-04-16T02:38:21.4482803+02:00",
+    "UpdatedDate": "2001-10-30T02:38:21.4482803+01:00",
+    "AssociateFullName": "Dr. Cecilia Gutkowski III",
+    "CreatedBy": "nostrum",
+    "UpdatedBy": "velit",
+    "DeviceIdentifier": "consequatur",
+    "ForeignAppId": 587,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldType": "System.String",
+        "FieldLength": 399
       }
     }
   }

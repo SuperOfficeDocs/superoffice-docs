@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateEMailFromDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 862,
-      "ContactName": "Yundt-Nikolaus",
-      "PersonId": 568,
-      "PersonName": "Cruickshank-Emard",
-      "AssociateId": 711,
-      "Address": "deleniti",
-      "EmailId": 156,
+      "ContactId": 231,
+      "ContactName": "Hodkiewicz Inc and Sons",
+      "PersonId": 237,
+      "PersonName": "Kreiger, Rath and Kunze",
+      "AssociateId": 841,
+      "Address": "quidem",
+      "EmailId": 700,
       "DuplicatePersonIds": [
-        857,
-        956
+        685,
+        624
       ],
-      "Name": "Sauer Inc and Sons",
+      "Name": "Stoltenberg, Little and Nader",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 484
+          "FieldLength": 869
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 773,
-      "ContactName": "Connelly Group",
-      "PersonId": 85,
-      "PersonName": "Sanford-Aufderhar",
-      "AssociateId": 725,
-      "Address": "perferendis",
-      "EmailId": 936,
+      "ContactId": 227,
+      "ContactName": "Braun, Lindgren and Zemlak",
+      "PersonId": 399,
+      "PersonName": "Pollich-Greenholt",
+      "AssociateId": 115,
+      "Address": "iste",
+      "EmailId": 294,
       "DuplicatePersonIds": [
-        645,
-        49
+        522,
+        820
       ],
-      "Name": "Okuneva, Jewess and Willms",
+      "Name": "Weber LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 963
+          "FieldLength": 142
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 446,
-      "ContactName": "Powlowski, Gerlach and Durgan",
-      "PersonId": 296,
-      "PersonName": "Glover, Padberg and Hauck",
-      "AssociateId": 193,
-      "Address": "officia",
-      "EmailId": 161,
+      "ContactId": 13,
+      "ContactName": "Zemlak, Weber and Witting",
+      "PersonId": 300,
+      "PersonName": "McLaughlin Inc and Sons",
+      "AssociateId": 404,
+      "Address": "repudiandae",
+      "EmailId": 156,
       "DuplicatePersonIds": [
-        565,
-        198
+        75,
+        6
       ],
-      "Name": "Frami, Crist and Bashirian",
+      "Name": "Hayes, Pollich and Rice",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldType": "System.String",
+          "FieldLength": 431
         }
       }
     }
   ],
-  "Subject": "aut",
-  "HTMLBody": "culpa",
+  "Subject": "tenetur",
+  "HTMLBody": "maiores",
   "From": null,
-  "Sent": "2010-01-16T14:13:40.2972545+01:00",
-  "Size": 777,
+  "Sent": "2005-02-17T02:38:21.401411+01:00",
+  "Size": 422,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quia",
-  "PlainBody": "ipsum",
-  "IsSent": false,
+  "MessageID": "perferendis",
+  "PlainBody": "aut",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 921,
+  "ServerId": 471,
   "Attachments": [
     {
-      "Description": "Versatile web-enabled concept",
-      "Filename": "nam",
-      "Size": 421,
-      "Type": "vel",
-      "Encoding": "non",
-      "Id": "atque",
-      "Disposition": "eos",
+      "Description": "Ergonomic 5th generation system engine",
+      "Filename": "illo",
+      "Size": 931,
+      "Type": "cum",
+      "Encoding": "voluptatum",
+      "Id": "rerum",
+      "Disposition": "ut",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,49 +215,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 226
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jerde, Jakubowski and Morar",
+      "Name": "Collins, Flatley and O'Keefe",
       "Values": [
-        "saepe",
-        "officia"
+        "recusandae",
+        "ad"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 730
+          "FieldLength": 542
         }
       }
     },
     {
-      "Name": "Jerde, Jakubowski and Morar",
+      "Name": "Collins, Flatley and O'Keefe",
       "Values": [
-        "saepe",
-        "officia"
+        "recusandae",
+        "ad"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 730
+          "FieldLength": 542
         }
       }
     }
   ],
-  "FolderName": "McLaughlin, Buckridge and Parker",
-  "EmailItemId": 477,
-  "AccountId": 679,
-  "ReceivedAt": "2017-11-07T14:13:40.2972545+01:00",
+  "FolderName": "Herzog-Murphy",
+  "EmailItemId": 113,
+  "AccountId": 418,
+  "ReceivedAt": "2017-12-01T02:38:21.401411+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2005-03-11T14:13:40.2972545+01:00",
+  "RepliedAt": "2019-06-16T02:38:21.401411+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 140
+      "FieldLength": 629
     }
   }
 }

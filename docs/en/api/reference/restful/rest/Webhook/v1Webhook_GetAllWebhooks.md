@@ -29,8 +29,8 @@ Returns all webhooks, according to filter criteria
 | statusFilter | Enum: Unknown, Active, Stopped, TooManyErrors |  Only return hooks with this status. Default Unknown = no filter, returns all. |
 
 ```http
-GET /api/v1/Webhook?nameFilter=dolorem
-GET /api/v1/Webhook?eventFilter=cumque
+GET /api/v1/Webhook?nameFilter=nam
+GET /api/v1/Webhook?eventFilter=quae
 GET /api/v1/Webhook?statusFilter=Active
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 47,
-    "Name": "Kling Inc and Sons",
+    "WebhookId": 846,
+    "Name": "Kirlin, Crona and Wolf",
     "Events": [
-      "et",
-      "necessitatibus"
+      "a",
+      "possimus"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "illo",
+    "Secret": "error",
     "State": "Active",
-    "Type": "autem",
+    "Type": "ex",
     "Headers": {
-      "Headers1": "quam",
-      "Headers2": "porro"
+      "Headers1": "aut",
+      "Headers2": "et"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2000-09-28T14:13:49.6023951+02:00",
+    "Registered": "2005-12-28T02:38:26.6362041+01:00",
     "RegisteredAssociate": null,
-    "Updated": "2022-06-28T14:13:49.6023951+02:00",
+    "Updated": "2000-06-20T02:38:26.6362041+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "alaina_morissette@borervon.uk"
+    "ErrorsEmail": "delilah_stracke@oconner.ca"
   }
 ]
 ```

@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 829,
-    "Name": "Mayert Group",
-    "ToolTip": "Quisquam est odio sint repellendus.",
+    "Id": 1002,
+    "Name": "Abbott, Haley and Wisozk",
+    "ToolTip": "Exercitationem sunt enim sit quia laboriosam in consectetur.",
     "Deleted": false,
-    "Rank": 278,
-    "Type": "non",
-    "ColorBlock": 162,
-    "IconHint": "assumenda",
-    "Selected": false,
-    "LastChanged": "2019-08-03T14:13:49.6336384+02:00",
+    "Rank": 562,
+    "Type": "facilis",
+    "ColorBlock": 601,
+    "IconHint": "facere",
+    "Selected": true,
+    "LastChanged": "1999-10-11T02:38:26.6517427+02:00",
     "ChildItems": [
       {
-        "Id": 494,
-        "Name": "Schumm LLC",
-        "ToolTip": "Consequatur quidem qui aut omnis doloremque praesentium.",
+        "Id": 362,
+        "Name": "Stoltenberg, Bogan and Pouros",
+        "ToolTip": "Repellat illo qui ut porro sint ipsa.",
         "Deleted": false,
-        "Rank": 895,
-        "Type": "est",
-        "ColorBlock": 72,
-        "IconHint": "molestiae",
-        "Selected": false,
-        "LastChanged": "2007-01-28T14:13:49.6336384+01:00",
+        "Rank": 337,
+        "Type": "quia",
+        "ColorBlock": 227,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2024-12-26T02:38:26.6517427+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "culpa",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "magnam",
         "Hidden": false,
-        "FullName": "Billie Marian Morar IV"
+        "FullName": "Aileen Nader"
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "ut",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Dora O'Kon"
+    "FullName": "Walker Lynch"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 70,
-    "Name": "Prohaska, Metz and Macejkovic",
-    "ToolTip": "Ipsam et alias totam vel assumenda.",
-    "Deleted": true,
-    "Rank": 434,
-    "Type": "dolores",
-    "ColorBlock": 920,
-    "IconHint": "officiis",
+    "Id": 599,
+    "Name": "Schamberger, Romaguera and Schamberger",
+    "ToolTip": "Perferendis dolor earum.",
+    "Deleted": false,
+    "Rank": 645,
+    "Type": "temporibus",
+    "ColorBlock": 596,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2011-08-16T14:13:49.6336384+02:00",
+    "LastChanged": "2013-10-13T02:38:26.6517427+02:00",
     "ChildItems": [
       {
-        "Id": 805,
-        "Name": "VonRueden Inc and Sons",
-        "ToolTip": "Eum labore sit id placeat.",
+        "Id": 164,
+        "Name": "Paucek-Gulgowski",
+        "ToolTip": "Dicta facilis voluptas consequatur explicabo.",
         "Deleted": false,
-        "Rank": 31,
-        "Type": "omnis",
-        "ColorBlock": 674,
-        "IconHint": "accusamus",
+        "Rank": 548,
+        "Type": "consequatur",
+        "ColorBlock": 12,
+        "IconHint": "rem",
         "Selected": false,
-        "LastChanged": "2017-02-05T14:13:49.6336384+01:00",
+        "LastChanged": "2002-09-24T02:38:26.6517427+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Ms. Lane Moen III",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "totam",
+        "Hidden": true,
+        "FullName": "Rahul Corkery",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 604
+            "FieldLength": 160
           }
         }
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "inventore",
-    "Hidden": true,
-    "FullName": "Liliane Will",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "nobis",
+    "Hidden": false,
+    "FullName": "Prof. Adrianna Kerluke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 835
       }
     }
   }

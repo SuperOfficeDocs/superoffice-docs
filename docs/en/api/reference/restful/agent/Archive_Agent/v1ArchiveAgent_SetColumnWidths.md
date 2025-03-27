@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidths
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "McLaughlin LLC",
+  "GuiName": "Baumbach Group",
   "ColumnWidths": [
-    "vel",
-    "eos"
+    "asperiores",
+    "aut"
   ]
 }
 ```

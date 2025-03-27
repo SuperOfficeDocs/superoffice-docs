@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 62,
-    "Attention": "nam",
-    "Header": "maxime",
-    "Name": "Lindgren, Jones and West",
-    "OurRef": "adipisci",
-    "YourRef": "maxime",
-    "Description": "Monitored tangible open architecture",
-    "DocumentTemplate": "atque",
-    "IsPublished": true,
-    "PersonId": 850,
-    "PersonFullName": "Frederique Luettgen",
-    "AssociateFullName": "Dr. Lauren Bartell",
-    "ContactId": 363,
-    "ContactName": "Zieme, Emard and Bogisich",
-    "ProjectId": 682,
-    "ProjectName": "Krajcik-Morar",
-    "AssociateId": 493,
-    "Snum": 376,
-    "SaleId": 551,
-    "SaleName": "Feil, Waters and Blick",
+    "DocumentId": 27,
+    "Attention": "voluptatem",
+    "Header": "est",
+    "Name": "Effertz Inc and Sons",
+    "OurRef": "non",
+    "YourRef": "nisi",
+    "Description": "Function-based encompassing data-warehouse",
+    "DocumentTemplate": "sequi",
+    "IsPublished": false,
+    "PersonId": 848,
+    "PersonFullName": "Ms. Clinton Berry Hayes DVM",
+    "AssociateFullName": "Daija Barton",
+    "ContactId": 460,
+    "ContactName": "Pacocha-Ziemann",
+    "ProjectId": 139,
+    "ProjectName": "Kutch, Ziemann and Swaniawski",
+    "AssociateId": 104,
+    "Snum": 860,
+    "SaleId": 552,
+    "SaleName": "Haley, Donnelly and Gusikowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 493
+        "FieldType": "System.Int32",
+        "FieldLength": 60
       }
     }
   }

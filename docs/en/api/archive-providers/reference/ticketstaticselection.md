@@ -32,6 +32,7 @@ Static archive Provider for a Selection of tickets archive.
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
+|ownedBy|ejUser|Owner: The owner of the request| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
 |createdAt|datetime|Created: Displays when the request was created| x |
@@ -65,7 +66,6 @@ Static archive Provider for a Selection of tickets archive.
 |deadline|datetime|Deadline: Deadline| x |
 |has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |tags|intArray|Tags: Tags connected to a request| x |
-|ownedBy|ejUser|Owner: The owner of the request| x |
 |createdBy|ejUser|Created by: Created by| x |
 |content|string|Content: Search for content in messages related to requests| x |
 |messageLanguage|listAny|Language: Recognized language in messages|  |
@@ -765,7 +765,7 @@ Static archive Provider for a Selection of tickets archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketStaticSelection?$select=createdBy/middleName,person/isStakeholder,person/personExtra/x_person_float,person/correspondingAssociate/firstName,contact/postAddress/wgs84longitude
+GET /api/v1/archive/TicketStaticSelection?$select=getNoRows,person/personInfo/infoText,person/email/emailDescription,person/personAssociate/associateDbId,person/correspondingAssociate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

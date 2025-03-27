@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 656,
-      "FieldName": "Shanahan, Schneider and Aufderhar",
-      "Label": "non",
-      "Tooltip": "modi",
-      "Editable": true,
+      "QuoteLineConfigurationId": 41,
+      "FieldName": "Sipes, Schmeler and Morar",
+      "Label": "nisi",
+      "Tooltip": "iusto",
+      "Editable": false,
       "InUse": false,
-      "Mandatory": true,
-      "Rank": 4,
+      "Mandatory": false,
+      "Rank": 925,
       "RestrictEdit": false
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 380,
-    "FieldName": "Bogisich Group",
-    "Label": "recusandae",
-    "Tooltip": "sed",
+    "QuoteLineConfigurationId": 899,
+    "FieldName": "Rohan, Beier and Denesik",
+    "Label": "cupiditate",
+    "Tooltip": "ex",
     "Editable": false,
-    "InUse": true,
+    "InUse": false,
     "Mandatory": false,
-    "Rank": 878,
+    "Rank": 916,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 415
+        "FieldLength": 721
       }
     }
   }

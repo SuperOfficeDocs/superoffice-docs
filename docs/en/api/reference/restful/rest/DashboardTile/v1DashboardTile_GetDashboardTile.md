@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 25,
-  "Caption": "dolore",
-  "Description": "Pre-emptive optimal Graphical User Interface",
-  "ChartName": "Sauer, Harber and Stamm",
-  "ChartId": "quisquam",
+  "DashboardTileId": 411,
+  "Caption": "enim",
+  "Description": "Phased multimedia moratorium",
+  "ChartName": "Treutel Inc and Sons",
+  "ChartId": "quis",
   "IsDefault": true,
-  "AssociateId": 128,
-  "GroupId": 754,
-  "SelectionId": 534,
-  "Config": "laboriosam",
+  "AssociateId": 425,
+  "GroupId": 963,
+  "SelectionId": 541,
+  "Config": "cupiditate",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Goyette, Wuckert and Rosenbaum",
-      "Description": "Object-based composite moratorium",
+      "Name": "Stanton-Ortiz",
+      "Description": "Inverse optimizing service-desk",
       "Type": "Boolean",
-      "ListName": "Wilderman Group",
+      "ListName": "Lindgren, Dach and Bogisich",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "id",
-      "DefaultDataOption": false,
+      "Value": "placeat",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 389
+          "FieldType": "System.Int32",
+          "FieldLength": 363
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 948,
+      "VisibleId": 413,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldLength": 618
         }
       }
     },
     {
-      "VisibleId": 948,
+      "VisibleId": 413,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldLength": 618
         }
       }
     }
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldType": "System.String",
+      "FieldLength": 347
     }
   },
   "_Links": {

@@ -84,8 +84,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Littel Inc and Sons",
-  "ParameterName": "Kozey LLC"
+  "LayoutName": "Watsica LLC",
+  "ParameterName": "Cummerata, Sanford and Dare"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 753,
-  "Name": "Schuppe, Toy and Steuber",
-  "Value": "molestias",
-  "CreatedDate": "2023-09-01T14:13:39.3754818+02:00",
-  "UpdatedDate": "2002-04-01T14:13:39.3754818+02:00",
-  "CreatedBy": "porro",
-  "UpdatedBy": "error",
+  "AudienceLayoutId": 263,
+  "Name": "Feil Group",
+  "Value": "molestiae",
+  "CreatedDate": "2007-10-31T02:38:20.8702208+01:00",
+  "UpdatedDate": "2020-05-16T02:38:20.8702208+02:00",
+  "CreatedBy": "non",
+  "UpdatedBy": "repudiandae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldType": "System.String",
+      "FieldLength": 144
     }
   }
 }

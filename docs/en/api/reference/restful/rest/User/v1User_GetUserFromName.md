@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 784,
-  "Name": "Pfannerstill, Lubowitz and Bernhard",
-  "Rank": 952,
-  "Tooltip": "non",
+  "AssociateId": 972,
+  "Name": "Flatley Group",
+  "Rank": 743,
+  "Tooltip": "eum",
   "LicenseOwners": [
     {
-      "Name": "Haag Group",
-      "Description": "Profound grid-enabled encoding",
+      "Name": "Christiansen-Jaskolski",
+      "Description": "Open-architected local forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -116,13 +116,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldLength": 830
         }
       }
     },
     {
-      "Name": "Haag Group",
-      "Description": "Profound grid-enabled encoding",
+      "Name": "Christiansen-Jaskolski",
+      "Description": "Open-architected local forecast",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldLength": 830
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "tenetur",
-      "Tooltip": "autem",
-      "Id": 297,
-      "Rank": 443,
+      "Value": "est",
+      "Tooltip": "vel",
+      "Id": 956,
+      "Rank": 954,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 960
+          "FieldType": "System.Int32",
+          "FieldLength": 582
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2012-12-20T14:13:49.5711489+01:00",
-  "Lastlogout": "2007-05-21T14:13:49.5711489+02:00",
-  "EjUserId": 1002,
-  "RequestSignature": "autem",
+  "Deleted": false,
+  "Lastlogin": "2017-02-26T02:38:26.6203828+01:00",
+  "Lastlogout": "2008-06-22T02:38:26.6203828+02:00",
+  "EjUserId": 345,
+  "RequestSignature": "eligendi",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "atque",
-      "DisplayValue": "vel",
+      "Value": "id",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldLength": 574
         }
       }
     },
     {
       "Type": null,
-      "Value": "atque",
-      "DisplayValue": "vel",
+      "Value": "id",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 791
+          "FieldLength": 574
         }
       }
     }
   ],
-  "UserName": "Hane, Hirthe and Parker",
+  "UserName": "Bechtelar, Brown and Schmidt",
   "TicketCategories": [
     {
-      "Id": 784,
-      "Name": "Sauer-Hoeger",
-      "ToolTip": "Quis sed voluptas saepe fugiat maiores quasi.",
+      "Id": 65,
+      "Name": "Medhurst Inc and Sons",
+      "ToolTip": "Sit inventore ut ullam repellendus.",
       "Deleted": false,
-      "Rank": 239,
-      "Type": "voluptate",
+      "Rank": 825,
+      "Type": "dignissimos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "odio",
-      "ColorBlock": 89,
-      "ExtraInfo": "repellat",
-      "StyleHint": "molestias",
-      "FullName": "Aaron Labadie Sr.",
+      "IconHint": "dicta",
+      "ColorBlock": 340,
+      "ExtraInfo": "vel",
+      "StyleHint": "unde",
+      "FullName": "Cristian Cole",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 867
+          "FieldLength": 299
         }
       }
     }
   ],
-  "NickName": "Mitchell, Schamberger and Lindgren",
+  "NickName": "Hane Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "magni",
-    "ExtraFields2": "nemo"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "eveniet"
+    "CustomFields1": "cum",
+    "CustomFields2": "fugiat"
   },
   "PostSaveCommands": [
     {
-      "Name": "Goyette LLC",
-      "DisplayName": "Mohr, Daugherty and Borer",
-      "Description": "Configurable 3rd generation flexibility",
-      "ToolTip": "At excepturi.",
+      "Name": "Bartoletti, Walsh and Mayer",
+      "DisplayName": "Graham Group",
+      "Description": "Public-key grid-enabled attitude",
+      "ToolTip": "Qui modi consequatur et rerum excepturi.",
       "Actions": "Implicit",
-      "ActionData": "repudiandae",
+      "ActionData": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldLength": 160
         }
       }
     }
@@ -258,7 +258,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 588
+      "FieldLength": 47
     }
   }
 }

@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 454,
+  "DocumentTemplateId": 664,
   "RequestedProperties": [
-    "qui",
-    "animi"
+    "molestiae",
+    "sit"
   ]
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "veritatis",
-  "2": "sit"
+  "1": "enim",
+  "2": "facilis"
 }
 ```

@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 843,
-  "Name": "Moore-Mante",
-  "CreatedDate": "2017-02-24T14:13:40.3753617+01:00",
-  "UpdatedDate": "2021-09-23T14:13:40.3753617+02:00",
+  "ForeignAppId": 869,
+  "Name": "Dach-Rice",
+  "CreatedDate": "2015-03-20T02:38:21.4482803+01:00",
+  "UpdatedDate": "1999-03-18T02:38:21.4482803+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 741,
-      "Name": "Stamm LLC",
-      "CreatedDate": "2019-03-23T14:13:40.3753617+01:00",
-      "UpdatedDate": "2020-08-27T14:13:40.3753617+02:00",
-      "AssociateFullName": "Odessa Hettinger DVM",
-      "CreatedBy": "enim",
-      "UpdatedBy": "incidunt",
-      "DeviceIdentifier": "eos",
-      "ForeignAppId": 991
+      "ForeignDeviceId": 241,
+      "Name": "Lemke-Cassin",
+      "CreatedDate": "2020-11-22T02:38:21.4482803+01:00",
+      "UpdatedDate": "2005-06-04T02:38:21.4482803+02:00",
+      "AssociateFullName": "Jennyfer Trevor Adams II",
+      "CreatedBy": "asperiores",
+      "UpdatedBy": "aut",
+      "DeviceIdentifier": "deleniti",
+      "ForeignAppId": 827
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 183,
-  "Name": "Hodkiewicz Inc and Sons",
-  "CreatedDate": "2002-03-18T14:13:40.3753617+01:00",
-  "UpdatedDate": "2008-11-10T14:13:40.3753617+01:00",
+  "ForeignAppId": 123,
+  "Name": "Nicolas LLC",
+  "CreatedDate": "2004-05-17T02:38:21.4482803+02:00",
+  "UpdatedDate": "2018-12-05T02:38:21.4482803+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 492,
-      "Name": "Nitzsche LLC",
-      "CreatedDate": "2003-02-03T14:13:40.3753617+01:00",
-      "UpdatedDate": "2014-09-19T14:13:40.3753617+02:00",
-      "AssociateFullName": "Prof. Julius Sibyl Kertzmann",
-      "CreatedBy": "voluptas",
-      "UpdatedBy": "dignissimos",
-      "DeviceIdentifier": "odit",
-      "ForeignAppId": 602,
+      "ForeignDeviceId": 15,
+      "Name": "Herman, Langworth and Parisian",
+      "CreatedDate": "2008-11-28T02:38:21.4482803+01:00",
+      "UpdatedDate": "2013-11-10T02:38:21.4482803+01:00",
+      "AssociateFullName": "Rosemarie Conroy",
+      "CreatedBy": "et",
+      "UpdatedBy": "quo",
+      "DeviceIdentifier": "aut",
+      "ForeignAppId": 116,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 610
+          "FieldLength": 690
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldType": "System.String",
+      "FieldLength": 731
     }
   }
 }

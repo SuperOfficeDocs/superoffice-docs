@@ -79,14 +79,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 852,
-  "Value": "eaque",
+  "TaskListItemId": 950,
+  "Value": "illo",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "voluptatibus",
+  "Tooltip": "quaerat",
   "Deleted": false,
-  "IntentId": 878,
-  "Rank": 382,
+  "IntentId": 374,
+  "Rank": 240,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 311
+      "FieldType": "System.Int32",
+      "FieldLength": 366
     }
   }
 }

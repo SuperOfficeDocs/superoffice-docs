@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptId": 317
+  "TriggerScriptId": 175
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": false,
-  "ErrorMessage": "aut",
-  "LineNumber": 32,
+  "Valid": true,
+  "ErrorMessage": "sed",
+  "LineNumber": 186,
   "ErrorInformation": null,
-  "Transpiled": "debitis",
+  "Transpiled": "dolor",
   "Includes": [
-    190,
-    552
+    956,
+    900
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 460,
-      "LineNumberTo": 751,
-      "Delta": 850,
-      "IncludeId": "voluptates",
+      "LineNumberFrom": 462,
+      "LineNumberTo": 131,
+      "Delta": 818,
+      "IncludeId": "quidem",
       "IncludedFrom": [
-        "perferendis",
-        "voluptatum"
+        "dolores",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 262
+          "FieldType": "System.String",
+          "FieldLength": 451
         }
       }
     }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 910
+      "FieldType": "System.Int32",
+      "FieldLength": 49
     }
   }
 }

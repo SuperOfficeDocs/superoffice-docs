@@ -86,21 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "aut",
+  "odata.nextLink": "eveniet",
   "value": [
     {
-      "PrimaryKey": 685,
-      "EntityName": "sale",
-      "saleId": 685,
-      "contactId": 8360,
-      "name": "Spinka, Connelly and Wiza"
+      "PrimaryKey": 7848,
+      "EntityName": "person",
+      "personId": 7848,
+      "fullName": "Liliane Becker"
     },
     {
-      "PrimaryKey": 7628,
-      "EntityName": "sale",
-      "saleId": 7628,
-      "contactId": 6020,
-      "name": "Pagac, Raynor and Feil"
+      "PrimaryKey": 1360,
+      "EntityName": "person",
+      "personId": 1360,
+      "fullName": "Keenan Klein"
     }
   ]
 }

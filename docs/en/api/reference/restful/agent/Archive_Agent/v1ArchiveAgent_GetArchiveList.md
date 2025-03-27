@@ -104,33 +104,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Johns Group",
-  "ProviderName": "Weissnat Group",
+  "GuiName": "Satterfield Inc and Sons",
+  "ProviderName": "Pfannerstill-Kovacek",
   "SortOrder": [
     {
-      "Name": "Mayer, Graham and Miller",
+      "Name": "Predovic, O'Keefe and Kub",
       "Direction": "ASC"
     },
     {
-      "Name": "Mayer, Graham and Miller",
+      "Name": "Predovic, O'Keefe and Kub",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Waelchi, Barrows and Anderson",
-      "Operator": "cupiditate",
+      "Name": "Grant-Flatley",
+      "Operator": "consequuntur",
       "Values": [
-        "qui",
-        "sint"
+        "quo",
+        "voluptas"
       ],
       "DisplayValues": [
-        "modi",
-        "deleniti"
+        "omnis",
+        "facere"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -138,17 +138,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 966,
+      "InterParenthesis": 212,
       "InterOperator": "And",
-      "UniqueHash": 735
+      "UniqueHash": 779
     }
   ],
   "Entities": [
-    "repudiandae",
-    "eius"
+    "suscipit",
+    "nisi"
   ],
-  "Page": 360,
-  "PageSize": 534
+  "Page": 228,
+  "PageSize": 59
 }
 ```
 
@@ -160,23 +160,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kutch, Klein and Collier",
-    "PrimaryKey": 880,
+    "EntityName": "Kreiger-Jast",
+    "PrimaryKey": 6,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ratione",
-        "TooltipHint": "maiores",
-        "LinkHint": "aspernatur"
+        "DisplayValue": "voluptatibus",
+        "TooltipHint": "voluptatem",
+        "LinkHint": "et"
       }
     },
-    "LinkHint": "odit",
-    "StyleHint": "vero",
+    "LinkHint": "est",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 601
+        "FieldType": "System.Int32",
+        "FieldLength": 667
       }
     }
   }

@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 921,
-  "Name": "Johns LLC",
-  "ConsentText": "officia",
-  "FormText": "rerum",
-  "Key": "molestiae",
-  "Tooltip": "recusandae",
-  "Active": 982,
-  "UpdatedDate": "2018-01-02T14:13:49.696121+01:00",
+  "ConsentPurposeId": 295,
+  "Name": "Mohr-Lebsack",
+  "ConsentText": "sunt",
+  "FormText": "quidem",
+  "Key": "et",
+  "Tooltip": "sit",
+  "Active": 630,
+  "UpdatedDate": "2022-07-26T02:38:26.6986493+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 696,
-  "PrivacyStatementDesc": "aut",
+  "Rank": 15,
+  "PrivacyStatementDesc": "ab",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 2,
-  "Name": "Grimes-Legros",
-  "ConsentText": "vero",
-  "FormText": "alias",
-  "Key": "reprehenderit",
-  "Tooltip": "aperiam",
-  "Active": 58,
-  "UpdatedDate": "2004-08-09T14:13:49.696121+02:00",
+  "ConsentPurposeId": 302,
+  "Name": "Goldner, Botsford and Abbott",
+  "ConsentText": "quos",
+  "FormText": "dolores",
+  "Key": "praesentium",
+  "Tooltip": "voluptates",
+  "Active": 623,
+  "UpdatedDate": "2000-04-24T02:38:26.6986493+02:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 114,
-  "PrivacyStatementDesc": "maiores",
+  "Rank": 863,
+  "PrivacyStatementDesc": "soluta",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldType": "System.Int32",
+      "FieldLength": 201
     }
   }
 }

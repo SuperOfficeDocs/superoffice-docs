@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Document/GetVersionList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 872
+  "DocumentId": 235
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "fugit",
-    "DocumentId": 330,
-    "VersionId": "qui",
-    "CheckedInDate": "2015-06-05T14:13:40.1254187+02:00",
-    "CheckedInByName": "Satterfield LLC",
-    "CheckedInByAssociateId": 284,
-    "Description": "Innovative well-modulated concept",
-    "DisplayText": "exercitationem",
+    "ExternalReference": "non",
+    "DocumentId": 90,
+    "VersionId": "eveniet",
+    "CheckedInDate": "2018-05-14T02:38:21.3076706+02:00",
+    "CheckedInByName": "Heathcote, Batz and White",
+    "CheckedInByAssociateId": 313,
+    "Description": "Re-contextualized user-facing knowledge base",
+    "DisplayText": "expedita",
     "ExtraFields": [
-      "iste",
-      "expedita"
+      "dolorem",
+      "sapiente"
     ]
   }
 ]

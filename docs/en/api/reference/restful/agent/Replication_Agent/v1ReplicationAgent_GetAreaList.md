@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 59,
-    "Name": "Dooley-Maggio",
-    "MaxDataAge": 92,
-    "NumberOfUsers": 367,
-    "NumberOfLogins": 198,
+    "AreaId": 886,
+    "Name": "Beier Group",
+    "MaxDataAge": 898,
+    "NumberOfUsers": 21,
+    "NumberOfLogins": 150,
     "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 682
+        "FieldType": "System.String",
+        "FieldLength": 711
       }
     }
   }

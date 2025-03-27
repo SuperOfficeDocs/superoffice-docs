@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 513,
-  "Name": "Koch-Terry",
+  "TicketPriorityId": 176,
+  "Name": "Rosenbaum, Bechtelar and Zieme",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 111,
+  "SortOrder": 202,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 361,
-  "MonStart": "2008-05-13T14:13:40.5471977+02:00",
-  "MonStop": "2000-05-13T14:13:40.5471977+02:00",
-  "TueStart": "2001-01-11T14:13:40.5471977+01:00",
-  "TueStop": "1998-10-13T14:13:40.5471977+02:00",
-  "WedStart": "2002-10-12T14:13:40.5471977+02:00",
-  "WedStop": "2017-07-08T14:13:40.5471977+02:00",
-  "ThuStart": "2018-04-17T14:13:40.5471977+02:00",
-  "ThuStop": "2017-07-30T14:13:40.5471977+02:00",
-  "FriStart": "2001-09-29T14:13:40.5471977+02:00",
-  "FriStop": "2006-11-25T14:13:40.5471977+01:00",
-  "SatStart": "2000-03-17T14:13:40.5471977+01:00",
-  "SatStop": "2008-06-10T14:13:40.5471977+02:00",
-  "SunStart": "2023-09-23T14:13:40.5471977+02:00",
-  "SunStop": "2021-03-08T14:13:40.5471977+01:00",
+  "Deadline": 720,
+  "MonStart": "2005-05-11T02:38:21.5420262+02:00",
+  "MonStop": "2014-09-07T02:38:21.5420262+02:00",
+  "TueStart": "2019-02-14T02:38:21.5420262+01:00",
+  "TueStop": "2004-01-02T02:38:21.5420262+01:00",
+  "WedStart": "2000-01-18T02:38:21.5420262+01:00",
+  "WedStop": "2023-12-21T02:38:21.5420262+01:00",
+  "ThuStart": "2003-06-20T02:38:21.5420262+02:00",
+  "ThuStop": "2005-09-29T02:38:21.5420262+02:00",
+  "FriStart": "2024-07-31T02:38:21.5420262+02:00",
+  "FriStop": "2021-04-08T02:38:21.5420262+02:00",
+  "SatStart": "2006-09-21T02:38:21.5420262+02:00",
+  "SatStop": "2003-12-22T02:38:21.5420262+01:00",
+  "SunStart": "2024-06-23T02:38:21.5420262+02:00",
+  "SunStop": "2000-09-27T02:38:21.5420262+02:00",
   "NonDates": [
-    "dolor",
-    "corrupti"
+    "accusantium",
+    "labore"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 973,
-      "AlertLevel": 71,
-      "AlertTimeout": 234,
-      "Action": 879,
-      "DelegateTo": 112,
-      "ScriptId": 547,
-      "EmailTo": "jerod@murray.ca",
-      "SmsTo": "mollitia",
-      "ReplyTemplateIdCustomer": 914,
-      "ReplyTemplateIdUser": 130,
-      "ReplyTemplateIdCatmast": 92,
-      "ReplyTemplateIdEmail": 39,
-      "RtiCustomerSms": 358,
-      "ReplyTemplateIdUserSms": 702,
-      "ReplyTemplateIdCatmastSms": 426,
-      "ReplyTemplateIdSms": 364,
+      "TicketAlertId": 702,
+      "AlertLevel": 894,
+      "AlertTimeout": 25,
+      "Action": 905,
+      "DelegateTo": 353,
+      "ScriptId": 434,
+      "EmailTo": "ismael@fritschreilly.name",
+      "SmsTo": "dicta",
+      "ReplyTemplateIdCustomer": 278,
+      "ReplyTemplateIdUser": 363,
+      "ReplyTemplateIdCatmast": 416,
+      "ReplyTemplateIdEmail": 587,
+      "RtiCustomerSms": 631,
+      "ReplyTemplateIdUserSms": 593,
+      "ReplyTemplateIdCatmastSms": 211,
+      "ReplyTemplateIdSms": 186,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 17
+          "FieldType": "System.Int32",
+          "FieldLength": 882
         }
       }
     }
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 636
     }
   }
 }

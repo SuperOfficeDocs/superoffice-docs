@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 895,
-  "Name": "Kassulke, Wunsch and Stamm",
-  "Tooltip": "at",
-  "Deleted": true,
-  "UdListDefinitionId": 307,
-  "Rank": 119,
+  "Id": 578,
+  "Name": "Braun Inc and Sons",
+  "Tooltip": "doloremque",
+  "Deleted": false,
+  "UdListDefinitionId": 573,
+  "Rank": 27,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldType": "System.String",
+      "FieldLength": 918
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Hayes, Schiller and Ruecker",
-    "ToolTip": "Quod sint.",
-    "Deleted": false,
-    "Rank": 840,
-    "Type": "error",
-    "ColorBlock": 40,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "2002-06-03T14:13:50.0250456+02:00",
+    "Id": 209,
+    "Name": "Kuphal-Altenwerth",
+    "ToolTip": "Exercitationem velit odit non incidunt officia consectetur quo.",
+    "Deleted": true,
+    "Rank": 301,
+    "Type": "sint",
+    "ColorBlock": 867,
+    "IconHint": "illum",
+    "Selected": true,
+    "LastChanged": "2002-03-10T02:38:26.7923976+01:00",
     "ChildItems": [
       {
-        "Id": 233,
-        "Name": "Collier, Schulist and Okuneva",
-        "ToolTip": "Sit et eaque officia nisi laborum iure.",
+        "Id": 337,
+        "Name": "Feil, Armstrong and Turner",
+        "ToolTip": "Laboriosam accusantium ad.",
         "Deleted": true,
-        "Rank": 825,
-        "Type": "rerum",
-        "ColorBlock": 620,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2018-03-24T14:13:50.0250456+01:00",
+        "Rank": 445,
+        "Type": "et",
+        "ColorBlock": 611,
+        "IconHint": "repellendus",
+        "Selected": true,
+        "LastChanged": "2021-03-19T02:38:26.7923976+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "quam",
+        "ExtraInfo": "eius",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Dr. Garth Keyon Mohr"
+        "FullName": "Providenci Bartell"
       }
     ],
-    "ExtraInfo": "aspernatur",
-    "StyleHint": "eum",
-    "Hidden": true,
-    "FullName": "Prof. Emil Orie Aufderhar"
+    "ExtraInfo": "ducimus",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Colt Torp"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 506,
-    "Name": "Hammes Inc and Sons",
-    "ToolTip": "Eligendi enim molestiae dolorum iste.",
+    "Id": 792,
+    "Name": "Haley-Schaden",
+    "ToolTip": "Ipsa voluptatibus sunt.",
     "Deleted": false,
-    "Rank": 682,
-    "Type": "occaecati",
-    "ColorBlock": 727,
-    "IconHint": "qui",
+    "Rank": 189,
+    "Type": "et",
+    "ColorBlock": 976,
+    "IconHint": "veritatis",
     "Selected": false,
-    "LastChanged": "2009-01-08T14:13:50.0250456+01:00",
+    "LastChanged": "2007-05-02T02:38:26.8080217+02:00",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Shanahan, Murray and Green",
-        "ToolTip": "Dolores est.",
+        "Id": 525,
+        "Name": "Lynch-Wolff",
+        "ToolTip": "Rem officiis aut et id non in.",
         "Deleted": true,
-        "Rank": 105,
-        "Type": "labore",
-        "ColorBlock": 858,
-        "IconHint": "quas",
-        "Selected": true,
-        "LastChanged": "2015-02-24T14:13:50.0250456+01:00",
+        "Rank": 399,
+        "Type": "quis",
+        "ColorBlock": 916,
+        "IconHint": "ipsum",
+        "Selected": false,
+        "LastChanged": "2014-04-09T02:38:26.8080217+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "deleniti",
-        "Hidden": true,
-        "FullName": "Carli Bode",
+        "ExtraInfo": "eaque",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Madisyn Kovacek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldType": "System.String",
+            "FieldLength": 818
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Prof. Franz Hayes MD",
+    "ExtraInfo": "hic",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Ilene Wolf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 943
+        "FieldLength": 1002
       }
     }
   }

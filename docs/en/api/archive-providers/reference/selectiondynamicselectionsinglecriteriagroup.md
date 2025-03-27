@@ -82,7 +82,7 @@ Selection selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionDynamicSelectionSingleCriteriaGroup?$select=associateId,selectionAssociate/lastName,selectionAssociate/portraitThumbnail
+GET /api/v1/archive/SelectionDynamicSelectionSingleCriteriaGroup?$select=lastLoadedByFullName,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

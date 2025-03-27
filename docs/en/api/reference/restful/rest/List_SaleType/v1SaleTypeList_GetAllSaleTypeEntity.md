@@ -27,7 +27,7 @@ Calls the List agent service GetAllSaleTypeEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/SaleType/Items?includeDeleted=True
+GET /api/v1/List/SaleType/Items?includeDeleted=False
 ```
 
 
@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 369,
-    "Name": "Lowe LLC",
-    "Tooltip": "pariatur",
-    "Rank": 864,
+    "SaleTypeId": 894,
+    "Name": "Koepp-Paucek",
+    "Tooltip": "sed",
+    "Rank": 12,
     "DurationUnit": "Century",
-    "SaleDuration": 490,
-    "SaleTypeCatId": 148,
+    "SaleDuration": 219,
+    "SaleTypeCatId": 241,
     "Deleted": false,
     "HasGuide": false,
-    "HasStakeholders": true,
+    "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 366,
-    "QuoteLinesTemplate": 181,
-    "ConfirmationLinesTemplate": 335,
-    "MaxDiscountPercentSet": true,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 392,
+    "QuoteLinesTemplate": 361,
+    "ConfirmationLinesTemplate": 79,
+    "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 817,
-    "MinEarningPercent": 540,
-    "GroupQuoteLinesBy": 637,
-    "SortGroupLinesBy": 586,
+    "MaxDiscountPercent": 547,
+    "MinEarningPercent": 582,
+    "GroupQuoteLinesBy": 988,
+    "SortGroupLinesBy": 686,
     "Stages": [
       {
-        "Id": 54,
-        "Name": "Kuphal-Ruecker",
-        "ToolTip": "Aut sint eos enim natus animi corrupti.",
+        "Id": 35,
+        "Name": "Mann, Fay and Schinner",
+        "ToolTip": "Commodi libero assumenda nesciunt doloribus impedit assumenda.",
         "Deleted": false,
-        "Rank": 748,
-        "Type": "optio",
-        "ColorBlock": 178,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2008-05-17T14:13:50.2283063+02:00",
+        "Rank": 681,
+        "Type": "blanditiis",
+        "ColorBlock": 781,
+        "IconHint": "reprehenderit",
+        "Selected": true,
+        "LastChanged": "2024-02-17T02:38:26.9173771+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "est",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Miss Abe Stark V",
+        "FullName": "Dewitt Clara Fahey Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 873
+            "FieldLength": 439
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 884
+        "FieldLength": 954
       }
     }
   }

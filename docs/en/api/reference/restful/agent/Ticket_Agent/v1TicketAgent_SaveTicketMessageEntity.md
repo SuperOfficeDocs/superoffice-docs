@@ -113,67 +113,67 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 228,
+  "EjMessageId": 767,
   "Ticket": null,
-  "CreatedAt": "2016-04-06T14:13:41.422697+02:00",
+  "CreatedAt": "1998-05-24T02:38:22.0419723+02:00",
   "CreatedBy": null,
-  "Author": "voluptate",
+  "Author": "est",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "repellat",
-  "TimeSpent": 7,
-  "Body": "sed",
-  "HtmlBody": "est",
-  "EmailHeader": "catalina.adams@mante.us",
-  "DebugInfo": "veritatis",
-  "MailSorter": "rerum",
+  "MessageId": "nobis",
+  "TimeSpent": 124,
+  "Body": "aut",
+  "HtmlBody": "repudiandae",
+  "EmailHeader": "macey@leuschke.com",
+  "DebugInfo": "aut",
+  "MailSorter": "nulla",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "rerum",
+  "SearchTitle": "consequatur",
   "MessageHeaders": [
     {
-      "Id": 356,
-      "Name": "McGlynn, Beier and Kris",
-      "Value": "qui",
+      "Id": 423,
+      "Name": "Dooley-Nader",
+      "Value": "reiciendis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 356,
-      "Name": "McGlynn, Beier and Kris",
-      "Value": "qui",
+      "Id": 423,
+      "Name": "Dooley-Nader",
+      "Value": "reiciendis",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "adipisci",
-  "Sentiment": 241,
-  "SentimentConfidence": 491,
+  "Important": true,
+  "Language": "debitis",
+  "Sentiment": 750,
+  "SentimentConfidence": 784,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 834,
-      "Name": "Ratke, Quigley and Fritsch",
-      "ContentType": "non",
-      "AttSize": 252,
+      "AttachmentId": 862,
+      "Name": "Eichmann Group",
+      "ContentType": "suscipit",
+      "AttSize": 554,
       "InlineImage": false,
-      "ContentId": "veniam",
-      "AuthKey": "fuga",
-      "IsSafeFileExtension": true
+      "ContentId": "qui",
+      "AuthKey": "laborum",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "asperiores",
-    "ExtraFields2": "in"
+    "ExtraFields1": "minima",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "quia"
+    "CustomFields1": "facilis",
+    "CustomFields2": "ut"
   }
 }
 ```
@@ -185,28 +185,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 489,
+  "EjMessageId": 586,
   "Ticket": null,
-  "CreatedAt": "1998-05-18T14:13:41.4383183+02:00",
+  "CreatedAt": "2012-03-20T02:38:22.0575561+01:00",
   "CreatedBy": null,
-  "Author": "blanditiis",
+  "Author": "molestiae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "dolorem",
-  "TimeSpent": 660,
-  "Body": "provident",
-  "HtmlBody": "sunt",
-  "EmailHeader": "guy.rosenbaum@hettinger.name",
-  "DebugInfo": "sapiente",
-  "MailSorter": "aut",
+  "MessageId": "consectetur",
+  "TimeSpent": 262,
+  "Body": "rerum",
+  "HtmlBody": "quo",
+  "EmailHeader": "titus@schneider.biz",
+  "DebugInfo": "repellendus",
+  "MailSorter": "mollitia",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "mollitia",
+  "SearchTitle": "alias",
   "MessageHeaders": [
     {
-      "Id": 109,
-      "Name": "Bednar-Becker",
-      "Value": "facilis",
+      "Id": 54,
+      "Name": "Boyle, Medhurst and Jones",
+      "Value": "consequatur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -219,45 +219,45 @@ Content-Type: application/json; charset=utf-8
       }
     }
   ],
-  "Important": true,
-  "Language": "officiis",
-  "Sentiment": 550,
-  "SentimentConfidence": 312,
+  "Important": false,
+  "Language": "quam",
+  "Sentiment": 26,
+  "SentimentConfidence": 136,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 821,
-      "Name": "Dare Inc and Sons",
-      "ContentType": "illo",
-      "AttSize": 181,
+      "AttachmentId": 777,
+      "Name": "Pouros-Kunde",
+      "ContentType": "consequatur",
+      "AttSize": 658,
       "InlineImage": false,
-      "ContentId": "in",
-      "AuthKey": "ipsam",
+      "ContentId": "a",
+      "AuthKey": "sapiente",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 881
+          "FieldType": "System.Int32",
+          "FieldLength": 903
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "illum"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "possimus"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "cumque"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldType": "System.String",
+      "FieldLength": 531
     }
   }
 }

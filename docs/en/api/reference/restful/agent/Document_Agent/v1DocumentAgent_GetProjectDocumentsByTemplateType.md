@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 405,
-  "StartTime": "2010-06-20T14:13:40.0160685+02:00",
-  "EndTime": "2023-03-04T14:13:40.0160685+01:00",
-  "Count": 608,
-  "DocumentTemplateId": 256
+  "ProjectId": 501,
+  "StartTime": "2019-01-17T02:38:21.2295568+01:00",
+  "EndTime": "2003-04-16T02:38:21.2295568+02:00",
+  "Count": 550,
+  "DocumentTemplateId": 311
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 426,
-    "Attention": "temporibus",
-    "Header": "incidunt",
-    "Name": "Cormier-Schmidt",
-    "OurRef": "sit",
-    "YourRef": "non",
-    "Description": "Diverse grid-enabled algorithm",
-    "DocumentTemplate": "assumenda",
+    "DocumentId": 27,
+    "Attention": "nulla",
+    "Header": "occaecati",
+    "Name": "Pfeffer-Borer",
+    "OurRef": "harum",
+    "YourRef": "nihil",
+    "Description": "Versatile disintermediate focus group",
+    "DocumentTemplate": "eveniet",
     "IsPublished": false,
-    "PersonId": 279,
-    "PersonFullName": "Berniece Haag",
-    "AssociateFullName": "Miracle Kerluke",
-    "ContactId": 839,
-    "ContactName": "Buckridge-Murazik",
-    "ProjectId": 714,
-    "ProjectName": "Carter LLC",
-    "AssociateId": 149,
-    "Snum": 979,
-    "SaleId": 516,
-    "SaleName": "Deckow Inc and Sons",
+    "PersonId": 410,
+    "PersonFullName": "Rickey Barrows",
+    "AssociateFullName": "Mrs. Alvena Consuelo Graham",
+    "ContactId": 884,
+    "ContactName": "O'Kon-Ondricka",
+    "ProjectId": 45,
+    "ProjectName": "Pollich-Herzog",
+    "AssociateId": 182,
+    "Snum": 222,
+    "SaleId": 434,
+    "SaleName": "Kiehn LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 67
+        "FieldType": "System.Int32",
+        "FieldLength": 594
       }
     }
   }

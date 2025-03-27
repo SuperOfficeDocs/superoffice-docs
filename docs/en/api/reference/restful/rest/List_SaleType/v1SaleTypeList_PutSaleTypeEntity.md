@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 382,
-  "Name": "Cormier-Okuneva",
-  "Tooltip": "quod",
-  "Rank": 131,
+  "SaleTypeId": 927,
+  "Name": "Thompson, Will and Schinner",
+  "Tooltip": "dolorem",
+  "Rank": 948,
   "DurationUnit": "Century",
-  "SaleDuration": 943,
-  "SaleTypeCatId": 378,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 623,
+  "SaleTypeCatId": 711,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 911,
-  "QuoteLinesTemplate": 429,
-  "ConfirmationLinesTemplate": 482,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 627,
+  "QuoteLinesTemplate": 366,
+  "ConfirmationLinesTemplate": 200,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 279,
-  "MinEarningPercent": 845,
-  "GroupQuoteLinesBy": 804,
-  "SortGroupLinesBy": 133,
+  "MaxDiscountPercent": 664,
+  "MinEarningPercent": 462,
+  "GroupQuoteLinesBy": 676,
+  "SortGroupLinesBy": 905,
   "Stages": [
     {
-      "Id": 514,
-      "Name": "Cartwright-Ortiz",
-      "ToolTip": "Quibusdam voluptatem praesentium et.",
-      "Deleted": true,
-      "Rank": 96,
-      "Type": "voluptatum",
-      "ColorBlock": 762,
-      "IconHint": "nesciunt",
-      "Selected": true,
-      "LastChanged": "2001-02-24T14:13:50.2283063+01:00",
+      "Id": 995,
+      "Name": "McLaughlin-Dooley",
+      "ToolTip": "Modi expedita nobis est id minima.",
+      "Deleted": false,
+      "Rank": 864,
+      "Type": "temporibus",
+      "ColorBlock": 243,
+      "IconHint": "provident",
+      "Selected": false,
+      "LastChanged": "2003-07-30T02:38:26.9330101+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eos",
-      "StyleHint": "nihil",
-      "Hidden": false,
-      "FullName": "Kadin Romaguera"
+      "ExtraInfo": "quas",
+      "StyleHint": "quia",
+      "Hidden": true,
+      "FullName": "Bryon Kiehn"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 615,
-  "Name": "Weber LLC",
-  "Tooltip": "recusandae",
-  "Rank": 681,
+  "SaleTypeId": 180,
+  "Name": "Keeling Group",
+  "Tooltip": "odio",
+  "Rank": 831,
   "DurationUnit": "Century",
-  "SaleDuration": 615,
-  "SaleTypeCatId": 821,
-  "Deleted": true,
+  "SaleDuration": 165,
+  "SaleTypeCatId": 324,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 891,
-  "QuoteLinesTemplate": 447,
-  "ConfirmationLinesTemplate": 83,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 913,
+  "QuoteLinesTemplate": 329,
+  "ConfirmationLinesTemplate": 128,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 175,
-  "MinEarningPercent": 468,
-  "GroupQuoteLinesBy": 329,
-  "SortGroupLinesBy": 517,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 220,
+  "MinEarningPercent": 505,
+  "GroupQuoteLinesBy": 846,
+  "SortGroupLinesBy": 85,
   "Stages": [
     {
-      "Id": 910,
-      "Name": "Mraz, Quigley and Schumm",
-      "ToolTip": "Saepe tempora maiores.",
+      "Id": 400,
+      "Name": "Prohaska LLC",
+      "ToolTip": "Mollitia id voluptates sed eius doloremque itaque ab.",
       "Deleted": false,
-      "Rank": 394,
-      "Type": "accusantium",
-      "ColorBlock": 116,
-      "IconHint": "corporis",
+      "Rank": 132,
+      "Type": "libero",
+      "ColorBlock": 269,
+      "IconHint": "aut",
       "Selected": false,
-      "LastChanged": "2002-05-05T14:13:50.2283063+02:00",
+      "LastChanged": "2017-07-16T02:38:26.9330101+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "culpa",
-      "Hidden": false,
-      "FullName": "Antwon Reynolds",
+      "ExtraInfo": "enim",
+      "StyleHint": "itaque",
+      "Hidden": true,
+      "FullName": "Leatha Carroll Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 654
+          "FieldType": "System.Int32",
+          "FieldLength": 49
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldType": "System.String",
+      "FieldLength": 926
     }
   }
 }

@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Koelpin Inc and Sons",
-  "ModuleName": "Mayer-Rutherford",
-  "ModuleDescription": "Stand-alone tangible monitoring",
-  "ModuleTooltip": "voluptatibus",
-  "ModuleVersion": "saepe",
+  "OwnerName": "McClure, Brown and Sanford",
+  "ModuleName": "McClure-Collins",
+  "ModuleDescription": "Synchronised attitude-oriented local area network",
+  "ModuleTooltip": "debitis",
+  "ModuleVersion": "quisquam",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 559,
-  "ExtraFlags": 669,
-  "ExtraInfo": "enim",
-  "SortOrder": 104,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Durgan-Bartoletti",
-  "Signature": "hic"
+  "NumberOfLicenses": 24,
+  "ExtraFlags": 913,
+  "ExtraInfo": "ut",
+  "SortOrder": 928,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Ebert-Bergstrom",
+  "Signature": "blanditiis"
 }
 ```

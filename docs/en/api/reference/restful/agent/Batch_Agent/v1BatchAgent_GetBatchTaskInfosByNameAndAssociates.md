@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Keeling, Hodkiewicz and Gorczany",
+  "Name": "Beer LLC",
   "AssociateIds": [
-    968,
-    894
+    264,
+    827
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 622,
-    "Name": "Blick LLC",
-    "AssociateId": 608,
-    "DetailsTable": 409,
-    "DetailsRecord": 806,
+    "Id": 815,
+    "Name": "Kuhlman Group",
+    "AssociateId": 920,
+    "DetailsTable": 172,
+    "DetailsRecord": 192,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "numquam",
-      "ParameterObject2": "molestiae"
+      "ParameterObject1": "ex",
+      "ParameterObject2": "consequatur"
     },
-    "LastStarted": "2001-05-05T14:13:39.3911033+02:00",
-    "Created": "2013-06-13T14:13:39.3911033+02:00",
-    "StartCount": 965,
-    "DatabaseSerialNumber": "1342851",
-    "Context": "voluptas",
-    "Result": "qui",
+    "LastStarted": "2006-07-01T02:38:20.885843+02:00",
+    "Created": "2008-03-15T02:38:20.885843+01:00",
+    "StartCount": 831,
+    "DatabaseSerialNumber": "1039078",
+    "Context": "quaerat",
+    "Result": "aspernatur",
     "State": "All",
-    "Description": "Secured modular methodology",
-    "Response": "impedit",
-    "Request": "libero",
-    "ProgressDescription": "Switchable holistic matrices",
-    "ProgressPercent": 531,
-    "FileName": "Jacobi Inc and Sons",
+    "Description": "Proactive zero administration intranet",
+    "Response": "ab",
+    "Request": "natus",
+    "ProgressDescription": "Distributed actuating monitoring",
+    "ProgressPercent": 679,
+    "FileName": "Hoppe LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 65
+        "FieldType": "System.Int32",
+        "FieldLength": 718
       }
     }
   }

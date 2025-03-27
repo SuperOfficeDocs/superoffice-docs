@@ -111,47 +111,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 22,
-  "Name": "Bernhard Group",
-  "Tooltip": "distinctio",
-  "Rank": 885,
+  "SaleTypeId": 539,
+  "Name": "Will-Hagenes",
+  "Tooltip": "eos",
+  "Rank": 779,
   "DurationUnit": "Century",
-  "SaleDuration": 515,
-  "SaleTypeCatId": 941,
+  "SaleDuration": 139,
+  "SaleTypeCatId": 563,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 32,
-  "QuoteLinesTemplate": 990,
-  "ConfirmationLinesTemplate": 734,
-  "MaxDiscountPercentSet": false,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 279,
+  "QuoteLinesTemplate": 465,
+  "ConfirmationLinesTemplate": 765,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 416,
-  "MinEarningPercent": 872,
-  "GroupQuoteLinesBy": 492,
-  "SortGroupLinesBy": 888,
+  "MaxDiscountPercent": 291,
+  "MinEarningPercent": 502,
+  "GroupQuoteLinesBy": 886,
+  "SortGroupLinesBy": 44,
   "Stages": [
     {
-      "Id": 961,
-      "Name": "Thiel LLC",
-      "ToolTip": "Qui velit voluptate.",
-      "Deleted": true,
-      "Rank": 252,
-      "Type": "ipsam",
-      "ColorBlock": 415,
-      "IconHint": "temporibus",
+      "Id": 267,
+      "Name": "Schowalter, Dach and Rempel",
+      "ToolTip": "Qui vitae quo sapiente aliquid ipsa inventore accusamus.",
+      "Deleted": false,
+      "Rank": 89,
+      "Type": "quae",
+      "ColorBlock": 200,
+      "IconHint": "expedita",
       "Selected": false,
-      "LastChanged": "1998-12-04T14:13:50.2283063+01:00",
+      "LastChanged": "2008-04-18T02:38:26.9173771+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "fuga",
-      "StyleHint": "et",
+      "ExtraInfo": "pariatur",
+      "StyleHint": "excepturi",
       "Hidden": true,
-      "FullName": "Nicholas Cummerata"
+      "FullName": "Ms. Daphnee Kamren Wilderman DVM"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 240,
-  "Name": "Jewess, Braun and Keebler",
-  "Tooltip": "nisi",
-  "Rank": 494,
+  "SaleTypeId": 253,
+  "Name": "Bechtelar Inc and Sons",
+  "Tooltip": "quam",
+  "Rank": 403,
   "DurationUnit": "Century",
-  "SaleDuration": 67,
-  "SaleTypeCatId": 256,
+  "SaleDuration": 630,
+  "SaleTypeCatId": 10,
   "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 363,
-  "QuoteLinesTemplate": 894,
-  "ConfirmationLinesTemplate": 919,
+  "DefaultQuoteValidity": 371,
+  "QuoteLinesTemplate": 782,
+  "ConfirmationLinesTemplate": 154,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 918,
-  "MinEarningPercent": 806,
-  "GroupQuoteLinesBy": 258,
-  "SortGroupLinesBy": 445,
+  "MaxDiscountPercent": 682,
+  "MinEarningPercent": 248,
+  "GroupQuoteLinesBy": 973,
+  "SortGroupLinesBy": 372,
   "Stages": [
     {
-      "Id": 755,
-      "Name": "Upton Inc and Sons",
-      "ToolTip": "Qui quo eligendi ea repellendus quae eos.",
+      "Id": 595,
+      "Name": "Bergnaum, Treutel and Bogisich",
+      "ToolTip": "Et et.",
       "Deleted": false,
-      "Rank": 639,
-      "Type": "eius",
-      "ColorBlock": 210,
-      "IconHint": "architecto",
+      "Rank": 246,
+      "Type": "eligendi",
+      "ColorBlock": 424,
+      "IconHint": "at",
       "Selected": false,
-      "LastChanged": "2013-12-02T14:13:50.2283063+01:00",
+      "LastChanged": "2020-07-19T02:38:26.9173771+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "facilis",
-      "StyleHint": "placeat",
+      "ExtraInfo": "libero",
+      "StyleHint": "et",
       "Hidden": false,
-      "FullName": "Fay Cummerata",
+      "FullName": "Grady Parisian",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 81
+          "FieldType": "System.String",
+          "FieldLength": 121
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldType": "System.String",
+      "FieldLength": 80
     }
   }
 }

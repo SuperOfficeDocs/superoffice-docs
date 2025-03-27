@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 799,
-  "Name": "Goldner, Abernathy and Goodwin",
-  "Tooltip": "voluptatem",
+  "Id": 202,
+  "Name": "Cormier Inc and Sons",
+  "Tooltip": "omnis",
   "Deleted": true,
-  "Rank": 475,
-  "IsCustomList": false,
+  "Rank": 689,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "provident",
+  "ListType": "aliquid",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 972,
-  "Name": "Turner LLC",
-  "Tooltip": "at",
+  "Id": 712,
+  "Name": "DuBuque, Jerde and Schiller",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 807,
-  "IsCustomList": false,
+  "Rank": 291,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nostrum",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quidem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldType": "System.String",
+      "FieldLength": 857
     }
   }
 }

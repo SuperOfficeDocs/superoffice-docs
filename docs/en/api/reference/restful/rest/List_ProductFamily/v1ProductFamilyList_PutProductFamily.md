@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 747,
-  "Name": "Schmeler Group",
-  "Tooltip": "accusamus",
-  "Deleted": false,
-  "UdListDefinitionId": 220,
-  "Rank": 217
+  "Id": 79,
+  "Name": "Johnston Inc and Sons",
+  "Tooltip": "incidunt",
+  "Deleted": true,
+  "UdListDefinitionId": 594,
+  "Rank": 359
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 276,
-  "Name": "Deckow Inc and Sons",
-  "Tooltip": "vitae",
+  "Id": 773,
+  "Name": "Weimann, Casper and Collier",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 94,
-  "Rank": 838,
+  "UdListDefinitionId": 823,
+  "Rank": 835,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldType": "System.Int32",
+      "FieldLength": 499
     }
   }
 }

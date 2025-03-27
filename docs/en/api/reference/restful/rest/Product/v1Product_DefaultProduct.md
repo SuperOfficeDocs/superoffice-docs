@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 433,
-  "ERPProductKey": "numquam",
-  "ERPPriceListKey": "in",
-  "Name": "Ondricka Group",
-  "Description": "Robust transitional function",
-  "Code": "accusantium",
-  "PriceUnit": "est",
-  "QuantityUnit": "sed",
+  "ProductId": 157,
+  "ERPProductKey": "pariatur",
+  "ERPPriceListKey": "quas",
+  "Name": "Lind, Russel and Bailey",
+  "Description": "Front-line upward-trending collaboration",
+  "Code": "dignissimos",
+  "PriceUnit": "minus",
+  "QuantityUnit": "officia",
   "IsSubscription": false,
-  "SubscriptionUnit": "aperiam",
-  "DefaultSubscriptionQuantity": 19465.273999999998,
-  "ItemNumber": "581995",
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 20847.368,
+  "ItemNumber": "511609",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolorem",
-  "ProductTypeKey": "qui",
-  "VAT": 17801.12,
-  "VATInfo": "fuga",
-  "UnitCost": 15597.918,
-  "UnitMinimumPrice": 15290.786,
-  "UnitListPrice": 28807.728,
-  "InAssortment": true,
-  "Supplier": "quae",
-  "SupplierCode": "voluptatem",
-  "Rights": "sunt",
-  "Rule": "occaecati",
+  "ProductFamilyKey": "eum",
+  "ProductTypeKey": "quisquam",
+  "VAT": 27817.384,
+  "VATInfo": "fugiat",
+  "UnitCost": 23172.796,
+  "UnitMinimumPrice": 1222.26,
+  "UnitListPrice": 26460.361999999997,
+  "InAssortment": false,
+  "Supplier": "minus",
+  "SupplierCode": "perspiciatis",
+  "Rights": "provident",
+  "Rule": "temporibus",
   "ExtraInfo": [
     {
-      "Name": "Auer, Hills and Luettgen",
-      "Value": "aut",
+      "Name": "O'Connell-Rosenbaum",
+      "Value": "facere",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 215
+          "FieldType": "System.Int32",
+          "FieldLength": 668
         }
       }
     },
     {
-      "Name": "Auer, Hills and Luettgen",
-      "Value": "aut",
+      "Name": "O'Connell-Rosenbaum",
+      "Value": "facere",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 215
+          "FieldType": "System.Int32",
+          "FieldLength": 668
         }
       }
     }
   ],
-  "RawExtraInfo": "earum",
-  "ExtraField1": "culpa",
-  "ExtraField2": "laboriosam",
-  "ExtraField3": "vitae",
-  "ExtraField4": "praesentium",
-  "ExtraField5": "magni",
-  "InStock": 27986.62,
+  "RawExtraInfo": "est",
+  "ExtraField1": "minima",
+  "ExtraField2": "voluptatem",
+  "ExtraField3": "animi",
+  "ExtraField4": "itaque",
+  "ExtraField5": "nisi",
+  "InStock": 22831.19,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

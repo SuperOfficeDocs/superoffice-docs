@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "velit",
-    "Type": "officia",
-    "Description": "Optimized hybrid time-frame",
+    "DisplayType": "reiciendis",
+    "Type": "adipisci",
+    "Description": "Virtual value-added website",
     "ValueControl": "Edit",
-    "CanCreatePerson": false,
-    "IsUserNameSupported": true,
+    "CanCreatePerson": true,
+    "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 807
+        "FieldType": "System.Int32",
+        "FieldLength": 612
       }
     }
   }

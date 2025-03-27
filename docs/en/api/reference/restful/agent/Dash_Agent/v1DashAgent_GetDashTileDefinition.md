@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=838
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=36
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 235,
-  "Name": "Monahan-Gibson",
-  "Description": "Right-sized zero defect analyzer",
-  "DefaultHeight": 164,
-  "DefaultWidth": 840,
+  "DashboardTileDefinitionId": 873,
+  "Name": "Kessler Group",
+  "Description": "Sharable bottom-line portal",
+  "DefaultHeight": 332,
+  "DefaultWidth": 573,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Marks Inc and Sons",
-  "SelectionId": 288,
+  "EntityName": "Ankunding, Hoeger and Goyette",
+  "SelectionId": 747,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "pariatur",
   "Measure": "Average",
-  "MeasureField": "voluptatibus",
-  "SortBy": "alias",
-  "LayoutConfig": "sit",
-  "SecondarySelectionId": 878,
-  "MeasureByField": "optio",
+  "MeasureField": "possimus",
+  "SortBy": "eaque",
+  "LayoutConfig": "laborum",
+  "SecondarySelectionId": 638,
+  "MeasureByField": "velit",
   "Usage": "Dashboard",
-  "ProviderName": "Howe-Volkman",
+  "ProviderName": "Pollich-Graham",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 415
+      "FieldType": "System.Int32",
+      "FieldLength": 467
     }
   }
 }

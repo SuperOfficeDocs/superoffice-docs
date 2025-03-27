@@ -73,15 +73,15 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 618,
-  "PrefDescId": 685,
-  "PrefValue": "cum",
-  "PrefShowValue": "ut",
-  "Description": "Inverse systemic knowledge base",
+  "PrefDescLineId": 426,
+  "PrefDescId": 501,
+  "PrefValue": "et",
+  "PrefShowValue": "error",
+  "Description": "Integrated context-sensitive pricing structure",
   "IsBuiltin": false
 }
 ```
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 168,
-  "PrefDescId": 975,
-  "PrefValue": "delectus",
-  "PrefShowValue": "facere",
-  "Description": "Object-based full-range synergy",
+  "PrefDescLineId": 220,
+  "PrefDescId": 353,
+  "PrefValue": "esse",
+  "PrefShowValue": "quasi",
+  "Description": "Versatile context-sensitive installation",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 653
+      "FieldLength": 725
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=sed
+GET /api/v1/List/Source/MDOItems?flat=True
+GET /api/v1/List/Source/MDOItems?query=excepturi
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 115,
-    "Name": "Hirthe-Hoppe",
-    "ToolTip": "Sit similique voluptas maxime tempore et qui.",
+    "Id": 584,
+    "Name": "McGlynn LLC",
+    "ToolTip": "Autem fuga dolorem cupiditate sint molestiae aspernatur omnis.",
     "Deleted": false,
-    "Rank": 816,
-    "Type": "veniam",
+    "Rank": 782,
+    "Type": "fuga",
     "ChildItems": [
       {
-        "Id": 866,
-        "Name": "Kautzer Group",
-        "ToolTip": "Accusamus rerum totam autem nobis.",
+        "Id": 283,
+        "Name": "Nikolaus Inc and Sons",
+        "ToolTip": "Ut magnam qui possimus ad non ea.",
         "Deleted": false,
-        "Rank": 989,
-        "Type": "corrupti",
+        "Rank": 1000,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "labore",
-        "ColorBlock": 582,
-        "ExtraInfo": "porro",
-        "StyleHint": "illum",
-        "FullName": "Prof. Marcia Runolfsson",
+        "IconHint": "hic",
+        "ColorBlock": 695,
+        "ExtraInfo": "accusamus",
+        "StyleHint": "aliquam",
+        "FullName": "Josie Lang",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 958
+            "FieldLength": 193
           }
         }
       }
     ],
-    "IconHint": "commodi",
-    "ColorBlock": 418,
-    "ExtraInfo": "culpa",
-    "StyleHint": "aut",
-    "FullName": "Carolyn Lehner V",
+    "IconHint": "mollitia",
+    "ColorBlock": 227,
+    "ExtraInfo": "ad",
+    "StyleHint": "dolore",
+    "FullName": "Dr. Bradly Kaleigh Homenick MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 352
+        "FieldType": "System.Int32",
+        "FieldLength": 669
       }
     }
   }

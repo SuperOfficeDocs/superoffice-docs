@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Mertz, Schoen and Moore"
+  "OwnerName": "Balistreri Inc and Sons"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 926,
-      "NumberOfLicensesFree": 28,
-      "NumberOfLicensesAdded": 767,
-      "NumberOfLicensesNewTotal": 262,
-      "NumberOfLicensesNewFree": 906,
-      "NumberOfLicensesTotal": 503
+      "NumberOfLicensesInUse": 647,
+      "NumberOfLicensesFree": 976,
+      "NumberOfLicensesAdded": 258,
+      "NumberOfLicensesNewTotal": 656,
+      "NumberOfLicensesNewFree": 640,
+      "NumberOfLicensesTotal": 92
     }
   ],
-  "AccumulatedNextCheckDate": "2020-08-28T14:13:40.4066046+02:00"
+  "AccumulatedNextCheckDate": "2008-01-25T02:38:21.4639053+01:00"
 }
 ```

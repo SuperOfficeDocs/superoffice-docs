@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 581,
-    "Name": "Ebert-Rowe",
+    "TicketPriorityId": 342,
+    "Name": "Hackett Group",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 397,
+    "SortOrder": 442,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 117,
-    "MonStart": "2002-02-22T14:13:40.422226+01:00",
-    "MonStop": "2013-11-04T14:13:40.422226+01:00",
-    "TueStart": "2024-04-19T14:13:40.422226+02:00",
-    "TueStop": "2005-05-23T14:13:40.422226+02:00",
-    "WedStart": "2019-04-09T14:13:40.422226+02:00",
-    "WedStop": "2012-08-28T14:13:40.422226+02:00",
-    "ThuStart": "2019-11-24T14:13:40.422226+01:00",
-    "ThuStop": "2003-11-13T14:13:40.422226+01:00",
-    "FriStart": "2016-10-26T14:13:40.422226+02:00",
-    "FriStop": "2024-05-17T14:13:40.422226+02:00",
-    "SatStart": "2008-08-26T14:13:40.422226+02:00",
-    "SatStop": "2015-12-30T14:13:40.422226+01:00",
-    "SunStart": "2022-11-08T14:13:40.422226+01:00",
-    "SunStop": "2009-07-02T14:13:40.422226+02:00",
+    "Deadline": 427,
+    "MonStart": "2022-08-01T02:38:21.4795326+02:00",
+    "MonStop": "2009-08-17T02:38:21.4795326+02:00",
+    "TueStart": "2012-04-30T02:38:21.4795326+02:00",
+    "TueStop": "1998-12-05T02:38:21.4795326+01:00",
+    "WedStart": "2006-09-22T02:38:21.4795326+02:00",
+    "WedStop": "2009-12-30T02:38:21.4795326+01:00",
+    "ThuStart": "2006-12-10T02:38:21.4795326+01:00",
+    "ThuStop": "2000-08-03T02:38:21.4795326+02:00",
+    "FriStart": "2000-04-20T02:38:21.4795326+02:00",
+    "FriStop": "2013-05-31T02:38:21.4795326+02:00",
+    "SatStart": "2016-01-13T02:38:21.4795326+01:00",
+    "SatStop": "2010-12-04T02:38:21.4795326+01:00",
+    "SunStart": "2003-07-25T02:38:21.4795326+02:00",
+    "SunStop": "2009-02-15T02:38:21.4795326+01:00",
     "NonDates": [
-      "omnis",
-      "aperiam"
+      "ipsum",
+      "doloribus"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 179,
-        "AlertLevel": 986,
-        "AlertTimeout": 744,
-        "Action": 39,
-        "DelegateTo": 771,
-        "ScriptId": 184,
-        "EmailTo": "garret_champlin@metzleuschke.co.uk",
-        "SmsTo": "quisquam",
-        "ReplyTemplateIdCustomer": 844,
-        "ReplyTemplateIdUser": 987,
-        "ReplyTemplateIdCatmast": 516,
-        "ReplyTemplateIdEmail": 103,
-        "RtiCustomerSms": 143,
-        "ReplyTemplateIdUserSms": 747,
-        "ReplyTemplateIdCatmastSms": 296,
-        "ReplyTemplateIdSms": 862,
+        "TicketAlertId": 314,
+        "AlertLevel": 99,
+        "AlertTimeout": 228,
+        "Action": 874,
+        "DelegateTo": 788,
+        "ScriptId": 370,
+        "EmailTo": "lora@harber.co.uk",
+        "SmsTo": "eligendi",
+        "ReplyTemplateIdCustomer": 574,
+        "ReplyTemplateIdUser": 431,
+        "ReplyTemplateIdCatmast": 953,
+        "ReplyTemplateIdEmail": 615,
+        "RtiCustomerSms": 75,
+        "ReplyTemplateIdUserSms": 33,
+        "ReplyTemplateIdCatmastSms": 138,
+        "ReplyTemplateIdSms": 127,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldLength": 204
           }
         }
       }
@@ -179,7 +179,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 343
+        "FieldLength": 674
       }
     }
   }

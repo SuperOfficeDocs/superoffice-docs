@@ -92,22 +92,22 @@ HTTP/1.1 200 ListEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 569,
-  "Name": "Wolf, Moen and Johnston",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 939,
+  "Id": 944,
+  "Name": "Hamill, Hills and Herzog",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 40,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "architecto",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 493
+      "FieldLength": 431
     }
   },
   "_Links": {

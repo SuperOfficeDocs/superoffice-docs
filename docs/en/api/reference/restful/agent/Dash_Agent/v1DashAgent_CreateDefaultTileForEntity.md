@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Stehr Inc and Sons"
+  "EntityName": "Haley-Hegmann"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 254,
-  "DashboardId": 874,
-  "Height": 495,
-  "Width": 643,
-  "Rank": 128,
+  "DashboardTileId": 3,
+  "DashboardId": 22,
+  "Height": 734,
+  "Width": 186,
+  "Rank": 630,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldLength": 365
     }
   }
 }

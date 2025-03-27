@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 751,
-    "Name": "Medhurst Group",
-    "Tooltip": "reprehenderit",
-    "Deleted": true,
-    "Rank": 369,
-    "UdListDefinitionId": 245
+    "HeadingId": 805,
+    "Name": "Donnelly-Schowalter",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 105,
+    "UdListDefinitionId": 300
   },
   {
-    "HeadingId": 751,
-    "Name": "Medhurst Group",
-    "Tooltip": "reprehenderit",
-    "Deleted": true,
-    "Rank": 369,
-    "UdListDefinitionId": 245
+    "HeadingId": 805,
+    "Name": "Donnelly-Schowalter",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "Rank": 105,
+    "UdListDefinitionId": 300
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 739,
-    "Name": "Beer Inc and Sons",
-    "Tooltip": "libero",
+    "HeadingId": 673,
+    "Name": "Abshire LLC",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 790,
-    "UdListDefinitionId": 93,
+    "Rank": 570,
+    "UdListDefinitionId": 374,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 862
+        "FieldLength": 112
       }
     }
   }

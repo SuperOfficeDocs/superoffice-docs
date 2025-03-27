@@ -128,6 +128,33 @@ title: Services88.DiagnosticsAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="GetCacheInvalidationGenerations">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Names" nillable="true" type="q4:ArrayOfstring" xmlns:q4="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCacheInvalidationGenerationsResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:ArrayOfCacheInvalidation" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:complexType name="ArrayOfCacheInvalidation">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="CacheInvalidation" nillable="true" type="tns:CacheInvalidation" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfCacheInvalidation" nillable="true" type="tns:ArrayOfCacheInvalidation" />
+      <xs:complexType name="CacheInvalidation">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Generation" type="xs:int" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="CacheInvalidation" nillable="true" type="tns:CacheInvalidation" />
       <xs:element name="GetEntityCountsForCurrentUser">
         <xs:complexType>
           <xs:sequence />
@@ -656,6 +683,23 @@ title: Services88.DiagnosticsAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetCacheInvalidationGenerationsRequest">
+    <wsdl:part name="parameters" element="tns:GetCacheInvalidationGenerations" />
+  </wsdl:message>
+  <wsdl:message name="GetCacheInvalidationGenerationsRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCacheInvalidationGenerationsResponse">
+    <wsdl:part name="parameters" element="tns:GetCacheInvalidationGenerationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCacheInvalidationGenerationsResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetEntityCountsForCurrentUserRequest">
     <wsdl:part name="parameters" element="tns:GetEntityCountsForCurrentUser" />
   </wsdl:message>
@@ -979,6 +1023,10 @@ title: Services88.DiagnosticsAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheState" name="GetCacheStateRequest" message="tns:GetCacheStateRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheStateResponse" name="GetCacheStateResponse" message="tns:GetCacheStateResponse" />
     </wsdl:operation>
+    <wsdl:operation name="GetCacheInvalidationGenerations">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheInvalidationGenerations" name="GetCacheInvalidationGenerationsRequest" message="tns:GetCacheInvalidationGenerationsRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheInvalidationGenerationsResponse" name="GetCacheInvalidationGenerationsResponse" message="tns:GetCacheInvalidationGenerationsResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetEntityCountsForCurrentUser">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetEntityCountsForCurrentUser" name="GetEntityCountsForCurrentUserRequest" message="tns:GetEntityCountsForCurrentUserRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetEntityCountsForCurrentUserResponse" name="GetEntityCountsForCurrentUserResponse" message="tns:GetEntityCountsForCurrentUserResponse" />
@@ -1115,6 +1163,22 @@ title: Services88.DiagnosticsAgent WSDL
         <soap:header message="tns:GetCacheStateResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetCacheStateResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetCacheStateResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCacheInvalidationGenerations">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Diagnostics/GetCacheInvalidationGenerations" style="document" />
+      <wsdl:input name="GetCacheInvalidationGenerationsRequest">
+        <soap:header message="tns:GetCacheInvalidationGenerationsRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCacheInvalidationGenerationsRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCacheInvalidationGenerationsRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCacheInvalidationGenerationsResponse">
+        <soap:header message="tns:GetCacheInvalidationGenerationsResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCacheInvalidationGenerationsResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCacheInvalidationGenerationsResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCacheInvalidationGenerationsResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

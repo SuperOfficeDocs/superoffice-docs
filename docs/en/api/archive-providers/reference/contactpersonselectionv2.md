@@ -880,6 +880,7 @@ This is the archive Provider for the Selection contact/person archive.
 |request/ticketStatusName| *None* |Status: Request status| x |
 |request/categoryFullName| *None* |Category: Request category| x |
 |request/priorityName| *None* |Priority: Service priority| x |
+|request/ownedBy| *None* |Owner: The owner of the request| x |
 |request/ticketId| *None* |ID: Displays request ID| x |
 |request/title| *None* |Title: Displays the request title| x |
 |request/createdAt| *None* |Created: Displays when the request was created| x |
@@ -913,7 +914,6 @@ This is the archive Provider for the Selection contact/person archive.
 |request/deadline| *None* |Deadline: Deadline| x |
 |request/has\_attachment| *None* |Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags| *None* |Tags: Tags connected to a request| x |
-|request/ownedBy| *None* |Owner: The owner of the request| x |
 |request/createdBy| *None* |Created by: Created by| x |
 |request/content| *None* |Content: Search for content in messages related to requests| x |
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
@@ -1398,7 +1398,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=contactDeleted,contactExtra/x_contact_integer,targetRelation/contactSource,sale/associate/role,kanaFirstName
+GET /api/v1/archive/ContactPersonSelectionV2?$select=postAddress/wgs84longitude,contactExtra/x_contact_datetime,personSourceRelation/updatedByWorkflow,personTargetRelation/personUpdatedByFullName,projectMembers/projectAssociate/fullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

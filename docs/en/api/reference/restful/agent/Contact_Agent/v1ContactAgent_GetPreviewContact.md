@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Contact/GetPreviewContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 300
+  "ContactId": 601
 }
 ```
 
@@ -97,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 28,
-  "Name": "Ondricka Inc and Sons",
+  "ContactId": 723,
+  "Name": "Schultz Group",
   "Department": "",
-  "CountryId": 952,
-  "Number2": "872914",
-  "DirectPhone": "566-493-5547",
+  "CountryId": 682,
+  "Number2": "758933",
+  "DirectPhone": "880.443.1463",
   "URL": "http://www.example.com/",
-  "EmailAddress": "darius.leuschke@kessler.ca",
+  "EmailAddress": "nikita.denesik@ullrich.com",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Katlyn Miller",
+  "AssociateFullName": "Rocio Langosh",
   "Address": null
 }
 ```

@@ -77,24 +77,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 964,
-  "Year": 46,
+  "TargetGroupId": 424,
+  "Year": 390,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 937,
+      "TargetAssignmentInfoId": 433,
       "Values": [
-        991,
-        586
+        827,
+        469
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 3,
-      "DimensionListItemDisplayName": "Swift-Schulist"
+      "DimensionListItem": 666,
+      "DimensionListItemDisplayName": "Murray-Nicolas"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 845,
-  "Year": 365,
+  "TargetGroupId": 550,
+  "Year": 911,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 923,
+      "TargetAssignmentInfoId": 226,
       "Values": [
-        962,
-        134
+        858,
+        405
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 278,
-      "DimensionListItemDisplayName": "Stiedemann, Haley and Turner",
+      "DimensionListItem": 209,
+      "DimensionListItemDisplayName": "Adams, Homenick and Romaguera",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 434
+          "FieldType": "System.Int32",
+          "FieldLength": 183
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldType": "System.Int32",
+      "FieldLength": 648
     }
   }
 }

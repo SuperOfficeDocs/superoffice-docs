@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 326,
+  "AssociateId": 824,
   "Type": "AnonymousAssociate",
-  "PersonId": 981,
-  "UserName": "Wintheiser, Murphy and Waelchi"
+  "PersonId": 686,
+  "UserName": "Durgan-Mueller"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Casper Inc and Sons"
+"Effertz Group"
 ```

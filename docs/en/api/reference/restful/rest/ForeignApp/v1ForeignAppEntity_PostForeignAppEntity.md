@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 177,
-  "Name": "McLaughlin, Romaguera and Block",
-  "CreatedDate": "2021-06-04T14:13:48.8836985+02:00",
-  "UpdatedDate": "2014-10-16T14:13:48.8836985+02:00",
+  "ForeignAppId": 438,
+  "Name": "Wolf, Hauck and Hickle",
+  "CreatedDate": "2003-05-10T02:38:26.1048073+02:00",
+  "UpdatedDate": "2024-06-06T02:38:26.1048073+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 759,
-      "Name": "Gleichner, Greenholt and Wisoky",
-      "CreatedDate": "2019-04-18T14:13:48.8836985+02:00",
-      "UpdatedDate": "2016-02-10T14:13:48.8836985+01:00",
-      "AssociateFullName": "Miss Carli Yasmin Reilly III",
-      "CreatedBy": "soluta",
-      "UpdatedBy": "quia",
-      "DeviceIdentifier": "cum",
-      "ForeignAppId": 999
+      "ForeignDeviceId": 394,
+      "Name": "Legros, Dickens and Kunze",
+      "CreatedDate": "2001-02-21T02:38:26.1048073+01:00",
+      "UpdatedDate": "2016-04-25T02:38:26.1048073+02:00",
+      "AssociateFullName": "Name Mohr",
+      "CreatedBy": "omnis",
+      "UpdatedBy": "doloremque",
+      "DeviceIdentifier": "totam",
+      "ForeignAppId": 982
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 261,
-  "Name": "Cormier-Carroll",
-  "CreatedDate": "2015-08-10T14:13:48.8836985+02:00",
-  "UpdatedDate": "2014-02-21T14:13:48.8836985+01:00",
+  "ForeignAppId": 540,
+  "Name": "Kessler-Schulist",
+  "CreatedDate": "2003-10-24T02:38:26.1048073+02:00",
+  "UpdatedDate": "2008-09-09T02:38:26.1048073+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 7,
-      "Name": "Nikolaus Inc and Sons",
-      "CreatedDate": "2021-06-13T14:13:48.8836985+02:00",
-      "UpdatedDate": "2005-01-18T14:13:48.8836985+01:00",
-      "AssociateFullName": "Citlalli Parisian",
-      "CreatedBy": "voluptatem",
-      "UpdatedBy": "autem",
-      "DeviceIdentifier": "sint",
-      "ForeignAppId": 404,
+      "ForeignDeviceId": 412,
+      "Name": "Baumbach, Fay and Turcotte",
+      "CreatedDate": "2001-01-24T02:38:26.1048073+01:00",
+      "UpdatedDate": "2016-10-24T02:38:26.1048073+02:00",
+      "AssociateFullName": "Freeda Witting",
+      "CreatedBy": "magnam",
+      "UpdatedBy": "quia",
+      "DeviceIdentifier": "quos",
+      "ForeignAppId": 1002,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldLength": 302
         }
       }
     }
@@ -153,12 +153,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 236
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

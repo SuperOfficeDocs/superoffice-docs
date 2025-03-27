@@ -99,28 +99,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 651,
-  "Name": "Collins Inc and Sons",
-  "CurrencyId": 854,
-  "EnglishName": "Schaden Group",
+  "CountryId": 899,
+  "Name": "Cartwright Group",
+  "CurrencyId": 509,
+  "EnglishName": "Bins, Denesik and Waelchi",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Stand-alone secondary approach",
-  "OrgNrText": "669076",
-  "InterAreaPrefix": "ratione",
-  "DialInPrefix": "et",
-  "ZipPrefix": "quo",
-  "DomainName": "Little LLC",
-  "AddressLayoutId": 469,
-  "DomesticAddressLayoutId": 870,
-  "ForeignAddressLayoutId": 142,
-  "Rank": 596,
-  "Tooltip": "expedita",
-  "Deleted": false
+  "ImageDescription": "Decentralized real-time data-warehouse",
+  "OrgNrText": "1368881",
+  "InterAreaPrefix": "aut",
+  "DialInPrefix": "eos",
+  "ZipPrefix": "rerum",
+  "DomainName": "Kemmer, Willms and Lindgren",
+  "AddressLayoutId": 121,
+  "DomesticAddressLayoutId": 757,
+  "ForeignAddressLayoutId": 401,
+  "Rank": 541,
+  "Tooltip": "laborum",
+  "Deleted": true
 }
 ```
 
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 204,
-  "Name": "Keebler, Ratke and Schumm",
-  "CurrencyId": 449,
-  "EnglishName": "Dicki-Schmitt",
+  "CountryId": 550,
+  "Name": "Trantow-Klein",
+  "CurrencyId": 652,
+  "EnglishName": "Harber, O'Hara and Shanahan",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Future-proofed grid-enabled installation",
-  "OrgNrText": "1156152",
-  "InterAreaPrefix": "eos",
-  "DialInPrefix": "asperiores",
-  "ZipPrefix": "delectus",
-  "DomainName": "Miller Inc and Sons",
-  "AddressLayoutId": 6,
-  "DomesticAddressLayoutId": 702,
-  "ForeignAddressLayoutId": 55,
-  "Rank": 252,
-  "Tooltip": "et",
-  "Deleted": true,
+  "ImageDescription": "Upgradable contextually-based focus group",
+  "OrgNrText": "913909",
+  "InterAreaPrefix": "qui",
+  "DialInPrefix": "quia",
+  "ZipPrefix": "similique",
+  "DomainName": "Larkin, Emmerich and Stokes",
+  "AddressLayoutId": 643,
+  "DomesticAddressLayoutId": 757,
+  "ForeignAddressLayoutId": 732,
+  "Rank": 575,
+  "Tooltip": "maiores",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 450
+      "FieldType": "System.Int32",
+      "FieldLength": 446
     }
   }
 }

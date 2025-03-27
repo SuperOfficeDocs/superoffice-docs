@@ -134,12 +134,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "maiores",
+    "path": "molestiae",
     "value": {}
   },
   {
     "op": "add",
-    "path": "maiores",
+    "path": "molestiae",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 727,
-  "PlainMessage": "ut",
-  "HtmlMessage": "eos",
-  "SmsMessage": "doloremque",
-  "Description": "Right-sized scalable protocol",
-  "Subject": "voluptatem",
-  "FolderId": 999,
-  "HeaderField": "natus",
-  "Design": "maxime",
+  "ShipmentMessageId": 730,
+  "PlainMessage": "et",
+  "HtmlMessage": "eius",
+  "SmsMessage": "itaque",
+  "Description": "Progressive needs-based middleware",
+  "Subject": "et",
+  "FolderId": 819,
+  "HeaderField": "nam",
+  "Design": "fuga",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Reduced interactive frame",
-  "AccessKey": "temporibus",
-  "DocumentMessage": 154,
-  "Registered": "2008-05-05T14:13:49.2587235+02:00",
-  "RegisteredAssociateId": 125,
-  "Updated": "2017-11-07T14:13:49.2587235+01:00",
-  "UpdatedAssociateId": 159,
-  "UpdatedCount": 845,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Adaptive regional flexibility",
+  "AccessKey": "rem",
+  "DocumentMessage": 151,
+  "Registered": "1998-12-13T02:38:26.4329026+01:00",
+  "RegisteredAssociateId": 599,
+  "Updated": "1998-11-07T02:38:26.4329026+01:00",
+  "UpdatedAssociateId": 39,
+  "UpdatedCount": 192,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 605
+      "FieldType": "System.Int32",
+      "FieldLength": 806
     }
   },
   "_Links": {

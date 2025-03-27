@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Gislason Inc and Sons",
-    "ToolTip": "Iste ut nemo quis.",
-    "Deleted": false,
-    "Rank": 145,
-    "Type": "dolore",
-    "ColorBlock": 434,
-    "IconHint": "dolorum",
-    "Selected": false,
-    "LastChanged": "2015-12-06T14:13:49.7117421+01:00",
+    "Id": 90,
+    "Name": "Abshire, Labadie and Rippin",
+    "ToolTip": "Recusandae quia ea natus odit autem aut doloremque.",
+    "Deleted": true,
+    "Rank": 314,
+    "Type": "eum",
+    "ColorBlock": 577,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2000-04-09T02:38:26.6986493+02:00",
     "ChildItems": [
       {
-        "Id": 19,
-        "Name": "Hermiston Inc and Sons",
-        "ToolTip": "Voluptatem nihil.",
+        "Id": 1001,
+        "Name": "Friesen-Crist",
+        "ToolTip": "Nesciunt qui non et minima quia velit cumque.",
         "Deleted": false,
-        "Rank": 628,
-        "Type": "animi",
-        "ColorBlock": 673,
-        "IconHint": "voluptate",
+        "Rank": 100,
+        "Type": "maxime",
+        "ColorBlock": 870,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2021-07-26T14:13:49.7117421+02:00",
+        "LastChanged": "1999-07-21T02:38:26.6986493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "autem",
-        "Hidden": true,
-        "FullName": "Jed Trisha Rath IV"
+        "ExtraInfo": "consequatur",
+        "StyleHint": "aut",
+        "Hidden": false,
+        "FullName": "Brielle Dicki"
       }
     ],
-    "ExtraInfo": "totam",
-    "StyleHint": "expedita",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Lauren Ritchie V"
+    "FullName": "Miss Columbus Keebler"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 128,
-    "Name": "Ferry, Wuckert and Jaskolski",
-    "ToolTip": "Ad necessitatibus aut.",
-    "Deleted": true,
-    "Rank": 697,
-    "Type": "laboriosam",
-    "ColorBlock": 652,
-    "IconHint": "ut",
+    "Id": 132,
+    "Name": "Gottlieb LLC",
+    "ToolTip": "Voluptatibus et aut blanditiis id labore.",
+    "Deleted": false,
+    "Rank": 291,
+    "Type": "labore",
+    "ColorBlock": 266,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2000-12-23T14:13:49.7117421+01:00",
+    "LastChanged": "1999-06-07T02:38:26.6986493+02:00",
     "ChildItems": [
       {
-        "Id": 408,
-        "Name": "Strosin LLC",
-        "ToolTip": "Perspiciatis illum rerum voluptas voluptatem et sed tempore.",
+        "Id": 613,
+        "Name": "Koepp-Windler",
+        "ToolTip": "Ea praesentium distinctio aut quis accusantium consequuntur.",
         "Deleted": true,
-        "Rank": 656,
-        "Type": "eveniet",
-        "ColorBlock": 560,
-        "IconHint": "rem",
-        "Selected": true,
-        "LastChanged": "2007-05-13T14:13:49.7117421+02:00",
+        "Rank": 215,
+        "Type": "et",
+        "ColorBlock": 522,
+        "IconHint": "sed",
+        "Selected": false,
+        "LastChanged": "1998-03-26T02:38:26.6986493+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quas",
-        "StyleHint": "pariatur",
-        "Hidden": true,
-        "FullName": "Zachariah Bailey",
+        "ExtraInfo": "et",
+        "StyleHint": "cum",
+        "Hidden": false,
+        "FullName": "Mrs. Torrance Spencer Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 185
+            "FieldType": "System.Int32",
+            "FieldLength": 992
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "ea",
+    "ExtraInfo": "non",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Jabari Wehner",
+    "FullName": "Gabriella Lueilwitz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 8
+        "FieldLength": 780
       }
     }
   }

@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 835,
-  "UniqueId": "est",
-  "Name": "Mante Inc and Sons",
-  "Description": "Multi-layered encompassing throughput",
-  "AssociateId": 35,
-  "Columns": 332,
+  "DashboardId": 494,
+  "UniqueId": "qui",
+  "Name": "Schaden Inc and Sons",
+  "Description": "Proactive systemic emulation",
+  "AssociateId": 305,
+  "Columns": 616,
   "Theme": null,
-  "VisibleForAll": 548,
+  "VisibleForAll": 944,
   "VisibleForAssociates": [
-    565,
-    1001
+    610,
+    687
   ],
   "VisibleForGroups": [
-    467,
-    535
+    565,
+    163
   ],
-  "PinForAll": 665,
+  "PinForAll": 170,
   "PinForAssociates": [
-    633,
-    454
+    282,
+    280
   ],
   "PinForGroups": [
-    720,
-    128
+    558,
+    8
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 378,
-  "UniqueId": "cumque",
-  "Name": "Kovacek, Shields and Kessler",
-  "Description": "Balanced bandwidth-monitored hub",
-  "AssociateId": 906,
-  "Columns": 167,
+  "DashboardId": 716,
+  "UniqueId": "sit",
+  "Name": "Franecki-Swift",
+  "Description": "Cross-platform composite encryption",
+  "AssociateId": 630,
+  "Columns": 197,
   "Theme": null,
-  "VisibleForAll": 637,
+  "VisibleForAll": 152,
   "VisibleForAssociates": [
-    309,
-    921
+    895,
+    655
   ],
   "VisibleForGroups": [
-    39,
-    53
+    847,
+    776
   ],
-  "PinForAll": 70,
+  "PinForAll": 636,
   "PinForAssociates": [
-    905,
-    33
+    890,
+    950
   ],
   "PinForGroups": [
-    19,
-    168
+    479,
+    679
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 579
+      "FieldLength": 851
     }
   }
 }

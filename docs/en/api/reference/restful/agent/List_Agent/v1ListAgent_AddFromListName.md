@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Zemlak, Douglas and Sporer",
+  "UdListDefinitionName": "Beer-Borer",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 209,
-  "Name": "Thompson-O'Hara",
-  "Tooltip": "eius",
+  "Id": 895,
+  "Name": "Macejkovic, Haley and Green",
+  "Tooltip": "eum",
   "Deleted": false,
-  "UdListDefinitionId": 640,
-  "Rank": 548,
+  "UdListDefinitionId": 237,
+  "Rank": 190,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 185
+      "FieldLength": 893
     }
   }
 }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Person/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 714,
-  "CountryId": 595
+  "PersonId": 696,
+  "CountryId": 612
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 3904.964,
-  "Wgs84Longitude": 5108.42,
+  "Wgs84Latitude": 28876.676,
+  "Wgs84Longitude": 22135.442,
   "LocalizedAddress": [
     [
       {
-        "Name": "Larkin LLC",
-        "Value": "aut",
-        "Tooltip": "aut",
-        "Label": "sint",
-        "ValueLength": 134,
-        "AddressType": "et",
+        "Name": "Becker-Kunze",
+        "Value": "itaque",
+        "Tooltip": "quidem",
+        "Label": "et",
+        "ValueLength": 512,
+        "AddressType": "est",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 907
+            "FieldType": "System.Int32",
+            "FieldLength": 661
           }
         }
       }
     ],
     [
       {
-        "Name": "Jacobs, Mayert and Schowalter",
-        "Value": "eum",
-        "Tooltip": "et",
-        "Label": "iste",
-        "ValueLength": 556,
-        "AddressType": "aut",
+        "Name": "Bosco Inc and Sons",
+        "Value": "earum",
+        "Tooltip": "aspernatur",
+        "Label": "provident",
+        "ValueLength": 413,
+        "AddressType": "non",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 655
+            "FieldType": "System.Int32",
+            "FieldLength": 822
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "accusantium",
+  "Formatted": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldLength": 790
     }
   }
 }

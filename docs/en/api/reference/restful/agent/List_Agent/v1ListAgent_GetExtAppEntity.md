@@ -26,7 +26,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=385
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=514
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 707,
-  "Name": "Wisozk Group",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "Rank": 641,
-  "Filename": "quam",
-  "Parameters": "vitae",
-  "Workdir": "deserunt",
+  "ExtAppId": 249,
+  "Name": "Bogan-Lebsack",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 162,
+  "Filename": "molestiae",
+  "Parameters": "eveniet",
+  "Workdir": "laboriosam",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "Icon": 870,
-  "WaitToFinish": false,
+  "Icon": 401,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "qui",
+  "Path": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 913
     }
   }
 }

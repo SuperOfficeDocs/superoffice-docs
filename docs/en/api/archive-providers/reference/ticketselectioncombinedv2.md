@@ -32,6 +32,7 @@ Implementation of the provider for the combined selection
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
+|ownedBy|ejUser|Owner: The owner of the request| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
 |createdAt|datetime|Created: Displays when the request was created| x |
@@ -65,7 +66,6 @@ Implementation of the provider for the combined selection
 |deadline|datetime|Deadline: Deadline| x |
 |has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |tags|intArray|Tags: Tags connected to a request| x |
-|ownedBy|ejUser|Owner: The owner of the request| x |
 |createdBy|ejUser|Created by: Created by| x |
 |content|string|Content: Search for content in messages related to requests| x |
 |messageLanguage|listAny|Language: Recognized language in messages|  |
@@ -765,7 +765,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketSelectionCombinedV2?$select=deadline,createdBy/locationAddress,person/personRegisteredBy,person/personAddress/line2,person/personExtra/x_person_user_relation
+GET /api/v1/archive/TicketSelectionCombinedV2?$select=readByOwner,person/restrictionAddress/formattedMultiLineAddress,person/personAssociate/userName,sale/associateId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Ondricka LLC",
-  "Id": 229
+  "HistoryName": "Feil, Brakus and Russel",
+  "Id": 260
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 352,
-  "Id": 600,
-  "HistoryName": "Kris-Kiehn",
-  "HistoryId": 337,
-  "AssociateId": 516,
-  "Name": "Cummings Inc and Sons",
-  "ItemInfo": "quaerat",
+  "Rank": 628,
+  "Id": 781,
+  "HistoryName": "D'Amore, Braun and Murazik",
+  "HistoryId": 931,
+  "AssociateId": 898,
+  "Name": "Stracke, Volkman and West",
+  "ItemInfo": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 452
+      "FieldType": "System.Int32",
+      "FieldLength": 325
     }
   }
 }

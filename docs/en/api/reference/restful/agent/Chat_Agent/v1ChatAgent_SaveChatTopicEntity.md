@@ -123,41 +123,41 @@ OK
 POST /api/v1/Agents/Chat/SaveChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 37,
-  "Name": "Reynolds Inc and Sons",
-  "Description": "Virtual background knowledge base",
-  "WelcomeMessage": "qui",
+  "ChatTopicId": 262,
+  "Name": "Champlin-Corwin",
+  "Description": "Enhanced intangible data-warehouse",
+  "WelcomeMessage": "consectetur",
   "Language": null,
-  "LastAccept": "2023-08-12T14:13:39.4535892+02:00",
-  "SecondsPrAccept": 641,
-  "AlertRecipient": "odio",
+  "LastAccept": "2022-12-08T02:38:20.9170935+01:00",
+  "SecondsPrAccept": 281,
+  "AlertRecipient": "blanditiis",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "inventore",
+  "CollectConsent": false,
+  "BadgeHeader": "et",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "sint",
-  "WarnNewChatMinutes": 925,
-  "WarnManagerNewChatMinutes": 748,
-  "TicketEnabled": false,
+  "CustomQueueText": "et",
+  "WarnNewChatMinutes": 121,
+  "WarnManagerNewChatMinutes": 105,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 554,
-  "WarnManagerChatMessageMinutes": 769,
+  "WarnChatMessageMinutes": 633,
+  "WarnManagerChatMessageMinutes": 140,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 508,
-  "OfflineFormQueueLength": 314,
+  "OfflineFormTimeLimit": 600,
+  "OfflineFormQueueLength": 744,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "omnis"
+  "WidgetRatingText": "deleniti"
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 169,
-  "Name": "Crona-Jacobi",
-  "Description": "Monitored value-added function",
-  "WelcomeMessage": "ut",
+  "ChatTopicId": 220,
+  "Name": "Bernhard-Kling",
+  "Description": "Assimilated fresh-thinking approach",
+  "WelcomeMessage": "natus",
   "Language": null,
-  "LastAccept": "2016-06-18T14:13:39.4535892+02:00",
-  "SecondsPrAccept": 928,
-  "AlertRecipient": "sit",
+  "LastAccept": "2022-04-18T02:38:20.9170935+02:00",
+  "SecondsPrAccept": 374,
+  "AlertRecipient": "ab",
   "AlertTemplate": null,
   "CollectConsent": true,
-  "BadgeHeader": "rerum",
+  "BadgeHeader": "quaerat",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "est",
-  "WarnNewChatMinutes": 715,
-  "WarnManagerNewChatMinutes": 716,
+  "CustomQueueText": "sit",
+  "WarnNewChatMinutes": 489,
+  "WarnManagerNewChatMinutes": 182,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 132,
-  "WarnManagerChatMessageMinutes": 999,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 460,
+  "WarnManagerChatMessageMinutes": 1001,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 827,
-  "OfflineFormQueueLength": 924,
+  "OfflineFormTimeLimit": 264,
+  "OfflineFormQueueLength": 865,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "at",
+  "WidgetRatingText": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldType": "System.Int32",
+      "FieldLength": 653
     }
   }
 }

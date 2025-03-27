@@ -119,33 +119,33 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 892,
-  "Name": "Blanda LLC",
-  "Rank": 894,
-  "Tooltip": "sequi",
-  "Icon": "omnis",
-  "DefaultTicketStatus": 869,
+  "TicketTypeId": 488,
+  "Name": "Wiegand Group",
+  "Rank": 630,
+  "Tooltip": "nisi",
+  "Icon": "consequatur",
+  "DefaultTicketStatus": 225,
   "TicketStatuses": [
-    391,
-    415
+    937,
+    389
   ],
-  "DefaultTicketPriority": 528,
+  "DefaultTicketPriority": 789,
   "TicketPriorities": [
-    912,
-    890
+    847,
+    950
   ],
-  "ReplyTemplate": 164,
+  "ReplyTemplate": 962,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ShowInNew": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    843,
-    392
+    747,
+    248
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
 }
 ```
@@ -157,40 +157,40 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 111,
-  "Name": "Bashirian, Braun and Walter",
-  "Rank": 209,
+  "TicketTypeId": 755,
+  "Name": "Willms-Heaney",
+  "Rank": 791,
   "Tooltip": "et",
-  "Icon": "quo",
-  "DefaultTicketStatus": 5,
+  "Icon": "minus",
+  "DefaultTicketStatus": 63,
   "TicketStatuses": [
-    795,
-    484
+    548,
+    418
   ],
-  "DefaultTicketPriority": 603,
+  "DefaultTicketPriority": 109,
   "TicketPriorities": [
-    688,
-    382
+    776,
+    53
   ],
-  "ReplyTemplate": 75,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 241,
+  "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    943,
-    295
+    698,
+    867
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 916
     }
   },
   "_Links": {

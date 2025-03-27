@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 542,
-  "Name": "Connelly, Rippin and Rohan",
-  "Tooltip": "voluptate",
-  "Rank": 505,
+  "ProjTypeId": 325,
+  "Name": "Bahringer LLC",
+  "Tooltip": "iste",
+  "Rank": 921,
   "DurationUnit": "Century",
-  "ProjectDuration": 661,
-  "Deleted": true,
-  "HasGuide": true,
+  "ProjectDuration": 303,
+  "Deleted": false,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 593,
-      "Name": "Bergnaum, Weissnat and Metz",
-      "ToolTip": "Impedit eos omnis suscipit omnis.",
+      "Id": 410,
+      "Name": "Frami Inc and Sons",
+      "ToolTip": "Eos quo sint iste.",
       "Deleted": false,
-      "Rank": 411,
-      "Type": "perspiciatis",
-      "ColorBlock": 393,
-      "IconHint": "accusamus",
+      "Rank": 218,
+      "Type": "hic",
+      "ColorBlock": 377,
+      "IconHint": "possimus",
       "Selected": false,
-      "LastChanged": "2004-10-03T14:13:40.5315763+02:00",
+      "LastChanged": "2004-09-24T02:38:21.5420262+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "autem",
+      "ExtraInfo": "similique",
+      "StyleHint": "enim",
       "Hidden": false,
-      "FullName": "Miss Christophe Torp",
+      "FullName": "Raymond Herzog",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 417
+          "FieldType": "System.String",
+          "FieldLength": 141
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldLength": 759
     }
   }
 }

@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/DocumentMigration/CreateDefaultDocumentMigrationItemList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 642,
-  "NumDocumentsAlreadyMigrated": 413,
+  "NumDocumentsOmitted": 491,
+  "NumDocumentsAlreadyMigrated": 380,
   "Documents": [
     {
-      "DocumentId": 278,
-      "ContactId": 186,
-      "PersonId": 944,
-      "SaleId": 383,
-      "ProjectId": 513,
-      "DocTmplId": 436,
-      "AssociateId": 18,
-      "UserGroupId": 769,
-      "VisibleForId": 367
+      "DocumentId": 773,
+      "ContactId": 603,
+      "PersonId": 412,
+      "SaleId": 924,
+      "ProjectId": 253,
+      "DocTmplId": 931,
+      "AssociateId": 636,
+      "UserGroupId": 866,
+      "VisibleForId": 48
     }
   ],
   "Associates": [
     {
-      "AssociateId": 851,
-      "EmailAddress": "valentin@mosciski.biz"
+      "AssociateId": 905,
+      "EmailAddress": "melany_howe@maggiotoy.co.uk"
     },
     {
-      "AssociateId": 851,
-      "EmailAddress": "valentin@mosciski.biz"
+      "AssociateId": 905,
+      "EmailAddress": "melany_howe@maggiotoy.co.uk"
     }
   ]
 }

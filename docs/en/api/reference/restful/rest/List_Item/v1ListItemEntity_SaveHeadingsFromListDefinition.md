@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 996,
-    "Name": "Dare-Bins",
-    "Tooltip": "non",
-    "Deleted": false,
-    "Rank": 400,
-    "UdListDefinitionId": 843
+    "HeadingId": 824,
+    "Name": "Zulauf Group",
+    "Tooltip": "expedita",
+    "Deleted": true,
+    "Rank": 629,
+    "UdListDefinitionId": 75
   },
   {
-    "HeadingId": 996,
-    "Name": "Dare-Bins",
-    "Tooltip": "non",
-    "Deleted": false,
-    "Rank": 400,
-    "UdListDefinitionId": 843
+    "HeadingId": 824,
+    "Name": "Zulauf Group",
+    "Tooltip": "expedita",
+    "Deleted": true,
+    "Rank": 629,
+    "UdListDefinitionId": 75
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 30,
-    "Name": "Halvorson-Stokes",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "Rank": 86,
-    "UdListDefinitionId": 816,
+    "HeadingId": 218,
+    "Name": "Denesik-Lesch",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 697,
+    "UdListDefinitionId": 745,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldType": "System.String",
+        "FieldLength": 133
       }
     }
   }

@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Sauer, Gislason and Oberbrunner",
-  "ModuleName": "Gibson-Hansen"
+  "OwnerName": "Mraz-Bahringer",
+  "ModuleName": "Baumbach, Herzog and Hamill"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Pfannerstill, Robel and Walker",
-  "ModuleName": "Gibson LLC",
-  "ModuleDescription": "Innovative hybrid migration",
-  "ModuleTooltip": "ipsum",
+  "OwnerName": "Kunze-Mitchell",
+  "ModuleName": "Wiegand LLC",
+  "ModuleDescription": "User-friendly contextually-based circuit",
+  "ModuleTooltip": "est",
   "ModuleVersion": "qui",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 732,
-  "ExtraFlags": 792,
-  "ExtraInfo": "illo",
-  "SortOrder": 288,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Oberbrunner Group",
-  "Signature": "et"
+  "NumberOfLicenses": 946,
+  "ExtraFlags": 297,
+  "ExtraInfo": "sequi",
+  "SortOrder": 708,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Nikolaus Group",
+  "Signature": "aut"
 }
 ```

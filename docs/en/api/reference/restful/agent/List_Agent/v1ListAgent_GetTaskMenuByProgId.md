@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ab"
+  "ProgId": "inventore"
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 457,
-  "Name": "Auer Inc and Sons",
-  "Tooltip": "error",
-  "TableName": "Gerhold-Kunde",
-  "Area": "asperiores",
+  "TaskMenuId": 513,
+  "Name": "Waters LLC",
+  "Tooltip": "commodi",
+  "TableName": "Barton-Swaniawski",
+  "Area": "voluptate",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 268,
+  "CrmScriptId": 665,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 534,
+  "Rank": 598,
   "Encoding": "ANSI",
-  "ProgId": "corrupti",
+  "ProgId": "modi",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 775
+      "FieldType": "System.String",
+      "FieldLength": 175
     }
   }
 }

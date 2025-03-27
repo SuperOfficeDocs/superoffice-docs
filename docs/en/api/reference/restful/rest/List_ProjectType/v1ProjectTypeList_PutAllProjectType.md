@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 226,
-    "Name": "Legros, Gutmann and Schaden",
-    "Tooltip": "provident",
+    "Id": 258,
+    "Name": "Hahn-Schowalter",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "UdListDefinitionId": 25,
-    "Rank": 987
+    "UdListDefinitionId": 619,
+    "Rank": 554
   },
   {
-    "Id": 226,
-    "Name": "Legros, Gutmann and Schaden",
-    "Tooltip": "provident",
+    "Id": 258,
+    "Name": "Hahn-Schowalter",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "UdListDefinitionId": 25,
-    "Rank": 987
+    "UdListDefinitionId": 619,
+    "Rank": 554
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 953,
-    "Name": "Weber, Klein and Lakin",
-    "Tooltip": "doloremque",
+    "Id": 546,
+    "Name": "Gaylord, Larson and Koss",
+    "Tooltip": "nobis",
     "Deleted": false,
-    "UdListDefinitionId": 209,
-    "Rank": 834,
+    "UdListDefinitionId": 123,
+    "Rank": 255,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldType": "System.Int32",
+        "FieldLength": 304
       }
     }
   }

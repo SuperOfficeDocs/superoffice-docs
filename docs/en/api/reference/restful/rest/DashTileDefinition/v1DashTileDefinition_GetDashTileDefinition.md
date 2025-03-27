@@ -101,31 +101,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 323,
-  "Name": "Ernser-Heaney",
-  "Description": "Versatile 24 hour matrix",
-  "DefaultHeight": 704,
-  "DefaultWidth": 244,
+  "DashboardTileDefinitionId": 63,
+  "Name": "Bashirian, Boehm and Pfeffer",
+  "Description": "User-centric tangible intranet",
+  "DefaultHeight": 390,
+  "DefaultWidth": 542,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Beer-DuBuque",
-  "SelectionId": 918,
+  "EntityName": "O'Connell, Ebert and Marvin",
+  "SelectionId": 460,
   "CurrencyMode": "Base",
-  "CurrencyCode": "laborum",
+  "CurrencyCode": "provident",
   "Measure": "Average",
-  "MeasureField": "vel",
-  "SortBy": "id",
-  "LayoutConfig": "esse",
-  "SecondarySelectionId": 117,
-  "MeasureByField": "dolor",
+  "MeasureField": "incidunt",
+  "SortBy": "et",
+  "LayoutConfig": "fuga",
+  "SecondarySelectionId": 749,
+  "MeasureByField": "inventore",
   "Usage": "Dashboard",
-  "ProviderName": "Batz-Cruickshank",
+  "ProviderName": "Bartoletti LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 364
+      "FieldType": "System.Int32",
+      "FieldLength": 961
     }
   },
   "_Links": {

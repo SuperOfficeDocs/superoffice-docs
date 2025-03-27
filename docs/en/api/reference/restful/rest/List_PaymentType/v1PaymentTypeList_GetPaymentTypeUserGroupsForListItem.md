@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "Beer, Anderson and Towne",
-    "ToolTip": "Maxime et iusto eum assumenda voluptatibus.",
-    "Deleted": false,
-    "Rank": 349,
-    "Type": "odio",
-    "ColorBlock": 739,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2016-02-23T14:13:50.0250456+01:00",
+    "Id": 374,
+    "Name": "Adams Inc and Sons",
+    "ToolTip": "Aspernatur ut in laborum beatae beatae.",
+    "Deleted": true,
+    "Rank": 755,
+    "Type": "tenetur",
+    "ColorBlock": 620,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2015-10-09T02:38:26.8080217+02:00",
     "ChildItems": [
       {
-        "Id": 478,
-        "Name": "Lang-Wyman",
-        "ToolTip": "Accusantium dolor ut aut.",
-        "Deleted": true,
-        "Rank": 84,
-        "Type": "alias",
-        "ColorBlock": 694,
-        "IconHint": "neque",
+        "Id": 327,
+        "Name": "Bins, Bahringer and Bernier",
+        "ToolTip": "Dolorem repellendus enim.",
+        "Deleted": false,
+        "Rank": 682,
+        "Type": "iste",
+        "ColorBlock": 372,
+        "IconHint": "illum",
         "Selected": false,
-        "LastChanged": "2021-06-21T14:13:50.0250456+02:00",
+        "LastChanged": "2016-05-02T02:38:26.8080217+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "sit",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Christa Dooley",
+        "FullName": "Josefa Morissette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 824
+            "FieldLength": 196
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "atque",
-    "Hidden": false,
-    "FullName": "Ms. Stewart Ashley Jast",
+    "ExtraInfo": "non",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Priscilla Bogisich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 514
+        "FieldType": "System.String",
+        "FieldLength": 789
       }
     }
   }

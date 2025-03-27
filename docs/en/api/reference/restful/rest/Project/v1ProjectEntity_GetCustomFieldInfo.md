@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Keebler, Watsica and Jakubowski",
-  "DisplayName": "Luettgen, Schiller and Effertz",
-  "Description": "Pre-emptive bottom-line groupware",
-  "ShortLabel": "enim",
+  "FieldName": "Hammes-Berge",
+  "DisplayName": "Halvorson Inc and Sons",
+  "Description": "Exclusive real-time parallelism",
+  "ShortLabel": "velit",
   "HideLabel": true,
-  "HideField": false,
+  "HideField": true,
   "IsIndexed": true,
-  "IsMandatory": false,
-  "IsReadOnly": false,
+  "IsMandatory": true,
+  "IsReadOnly": true,
   "IsExternal": false,
-  "IsDisplayField": true,
-  "Rank": 347,
-  "TemplateVariableName": "Pacocha-Nikolaus"
+  "IsDisplayField": false,
+  "Rank": 317,
+  "TemplateVariableName": "Roob-Gerlach"
 }
 ```

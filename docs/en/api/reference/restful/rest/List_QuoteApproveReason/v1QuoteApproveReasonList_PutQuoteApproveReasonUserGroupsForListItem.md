@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Rosenbaum, Lakin and D'Amore",
-    "ToolTip": "Hic molestiae rerum id esse nostrum.",
-    "Deleted": true,
-    "Rank": 95,
-    "Type": "et",
-    "ColorBlock": 796,
-    "IconHint": "maiores",
-    "Selected": true,
-    "LastChanged": "2023-08-17T14:13:50.1500173+02:00",
+    "Id": 543,
+    "Name": "Windler, Gorczany and Boyle",
+    "ToolTip": "Voluptas atque ducimus modi.",
+    "Deleted": false,
+    "Rank": 898,
+    "Type": "nobis",
+    "ColorBlock": 610,
+    "IconHint": "natus",
+    "Selected": false,
+    "LastChanged": "2019-10-18T02:38:26.8705112+02:00",
     "ChildItems": [
       {
-        "Id": 229,
-        "Name": "Murphy-Cole",
-        "ToolTip": "Necessitatibus libero eum.",
-        "Deleted": false,
-        "Rank": 77,
-        "Type": "quos",
-        "ColorBlock": 842,
-        "IconHint": "natus",
-        "Selected": false,
-        "LastChanged": "2008-09-27T14:13:50.1500173+02:00",
+        "Id": 860,
+        "Name": "Weissnat Group",
+        "ToolTip": "Fugiat quia reiciendis minus perferendis corrupti.",
+        "Deleted": true,
+        "Rank": 241,
+        "Type": "aut",
+        "ColorBlock": 483,
+        "IconHint": "corrupti",
+        "Selected": true,
+        "LastChanged": "2021-12-29T02:38:26.8705112+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "illo",
+        "ExtraInfo": "qui",
+        "StyleHint": "ex",
         "Hidden": false,
-        "FullName": "Raquel Sabryna Waelchi DDS"
+        "FullName": "Mr. Brain Schroeder"
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "expedita",
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "nesciunt",
     "Hidden": true,
-    "FullName": "Lucius VonRueden"
+    "FullName": "Octavia Jacobson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 470,
-    "Name": "Grimes, McCullough and Rau",
-    "ToolTip": "Esse dignissimos accusantium nobis.",
+    "Id": 387,
+    "Name": "Kshlerin Group",
+    "ToolTip": "Sit assumenda vero est.",
     "Deleted": false,
-    "Rank": 994,
-    "Type": "et",
-    "ColorBlock": 346,
-    "IconHint": "suscipit",
-    "Selected": false,
-    "LastChanged": "2022-09-19T14:13:50.1500173+02:00",
+    "Rank": 183,
+    "Type": "esse",
+    "ColorBlock": 500,
+    "IconHint": "laborum",
+    "Selected": true,
+    "LastChanged": "2001-02-09T02:38:26.886137+01:00",
     "ChildItems": [
       {
-        "Id": 872,
-        "Name": "Pfannerstill-Schuppe",
-        "ToolTip": "Sequi blanditiis ab.",
+        "Id": 110,
+        "Name": "Tromp LLC",
+        "ToolTip": "Excepturi sed hic omnis labore eum.",
         "Deleted": false,
-        "Rank": 254,
-        "Type": "eligendi",
-        "ColorBlock": 854,
-        "IconHint": "placeat",
-        "Selected": false,
-        "LastChanged": "2006-02-12T14:13:50.1500173+01:00",
+        "Rank": 718,
+        "Type": "occaecati",
+        "ColorBlock": 432,
+        "IconHint": "natus",
+        "Selected": true,
+        "LastChanged": "2017-03-12T02:38:26.886137+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "a",
-        "Hidden": true,
-        "FullName": "Mr. Crystel Jacinto Schmitt V",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "nostrum",
+        "Hidden": false,
+        "FullName": "Kamille Hauck",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 674
+            "FieldType": "System.Int32",
+            "FieldLength": 799
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "dignissimos",
+    "ExtraInfo": "ut",
+    "StyleHint": "nisi",
     "Hidden": false,
-    "FullName": "Martina Ferry",
+    "FullName": "Leopold Dickinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 758
+        "FieldType": "System.Int32",
+        "FieldLength": 123
       }
     }
   }

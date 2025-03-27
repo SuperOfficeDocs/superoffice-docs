@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 193,
-    "Name": "Price Inc and Sons",
-    "ToolTip": "Eaque ut quisquam iusto.",
+    "Id": 603,
+    "Name": "Jast Group",
+    "ToolTip": "Quod ullam ut reiciendis.",
     "Deleted": false,
-    "Rank": 729,
-    "Type": "nemo",
-    "ColorBlock": 348,
-    "IconHint": "enim",
-    "Selected": true,
-    "LastChanged": "2023-05-10T14:13:49.9938028+02:00",
+    "Rank": 628,
+    "Type": "fugit",
+    "ColorBlock": 800,
+    "IconHint": "eveniet",
+    "Selected": false,
+    "LastChanged": "2020-07-11T02:38:26.7923976+02:00",
     "ChildItems": [
       {
-        "Id": 187,
-        "Name": "Parisian LLC",
-        "ToolTip": "Quos unde error quo.",
-        "Deleted": true,
-        "Rank": 619,
-        "Type": "eveniet",
-        "ColorBlock": 658,
-        "IconHint": "dignissimos",
+        "Id": 760,
+        "Name": "Bogisich-Gutmann",
+        "ToolTip": "Eligendi asperiores eum qui numquam ut reiciendis rem.",
+        "Deleted": false,
+        "Rank": 216,
+        "Type": "nesciunt",
+        "ColorBlock": 532,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "1999-08-03T14:13:49.9938028+02:00",
+        "LastChanged": "2010-04-07T02:38:26.7923976+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Jerome Lind",
+        "FullName": "Ryleigh Quitzon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 651
+            "FieldType": "System.String",
+            "FieldLength": 152
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "beatae",
+    "ExtraInfo": "earum",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Miss Bettye Bernhard Leffler DDS",
+    "FullName": "Neha Muller IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 231
+        "FieldLength": 787
       }
     }
   }

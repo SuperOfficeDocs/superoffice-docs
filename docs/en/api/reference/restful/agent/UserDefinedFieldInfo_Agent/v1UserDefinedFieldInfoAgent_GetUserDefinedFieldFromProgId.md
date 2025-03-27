@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ipsam",
+  "ProgId": "voluptatem",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 18,
-  "ColumnId": 36,
-  "FieldDefault": "omnis",
-  "FieldHeight": 628,
-  "FieldLabel": "incidunt",
-  "FieldLeft": 703,
-  "FieldTop": 29,
+  "UDefFieldId": 55,
+  "ColumnId": 376,
+  "FieldDefault": "reprehenderit",
+  "FieldHeight": 678,
+  "FieldLabel": "sint",
+  "FieldLeft": 492,
+  "FieldTop": 893,
   "FieldType": "Checkbox",
-  "FieldWidth": 180,
-  "FormatMask": "veniam",
-  "HideLabel": true,
+  "FieldWidth": 29,
+  "FormatMask": "porro",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 407,
-  "LabelLeft": 432,
-  "LabelTop": 799,
-  "LabelWidth": 887,
-  "LastVersionId": 420,
-  "ListTableId": 98,
+  "LabelHeight": 388,
+  "LabelLeft": 240,
+  "LabelTop": 429,
+  "LabelWidth": 148,
+  "LastVersionId": 557,
+  "ListTableId": 592,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 255,
-  "ProgId": "quis",
-  "IsReadOnly": false,
-  "ShortLabel": "consequuntur",
-  "TabOrder": 31,
-  "TextLength": 413,
-  "Tooltip": "modi",
-  "UdefIdentity": 882,
-  "UDListDefinitionId": 849,
+  "Page1LineNo": 345,
+  "ProgId": "animi",
+  "IsReadOnly": true,
+  "ShortLabel": "itaque",
+  "TabOrder": 61,
+  "TextLength": 201,
+  "Tooltip": "est",
+  "UdefIdentity": 717,
+  "UDListDefinitionId": 296,
   "Justification": "Center",
-  "Version": 399,
-  "TemplateVariableName": "Hettinger, Walsh and Conn",
-  "HasBeenPublished": false,
-  "MdoListName": "Morissette-Bode",
+  "Version": 976,
+  "TemplateVariableName": "Willms Group",
+  "HasBeenPublished": true,
+  "MdoListName": "Ernser Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 233
+      "FieldType": "System.Int32",
+      "FieldLength": 301
     }
   }
 }

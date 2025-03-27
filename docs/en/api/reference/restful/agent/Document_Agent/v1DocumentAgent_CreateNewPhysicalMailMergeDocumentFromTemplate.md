@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 132,
-  "UiCulture": "alias"
+  "DocumentId": 661,
+  "UiCulture": "nihil"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 914,
+  "DocumentId": 239,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "mollitia",
-  "Header": "itaque",
-  "Name": "Lebsack Group",
-  "OurRef": "dicta",
-  "YourRef": "omnis",
-  "CreatedDate": "2022-09-11T14:13:40.0785543+02:00",
-  "UpdatedDate": "2018-06-14T14:13:40.0785543+02:00",
-  "Description": "De-engineered 6th generation policy",
+  "Attention": "error",
+  "Header": "quas",
+  "Name": "Dibbert Group",
+  "OurRef": "nisi",
+  "YourRef": "molestiae",
+  "CreatedDate": "2022-06-05T02:38:21.2763892+02:00",
+  "UpdatedDate": "2005-09-19T02:38:21.2763892+02:00",
+  "Description": "Integrated optimal groupware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-05-24T14:13:40.0785543+02:00",
-  "ExternalRef": "laborum",
+  "Date": "2024-02-13T02:38:21.2763892+01:00",
+  "ExternalRef": "magni",
   "Completed": "Completed",
-  "ActiveLinks": 870,
+  "ActiveLinks": 410,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Connelly, Torp and Emmerich",
-      "Id": 638,
-      "Description": "Secured scalable parallelism",
-      "ExtraInfo": "laboriosam",
-      "LinkId": 671,
+      "EntityName": "Harvey, Stanton and Kohler",
+      "Id": 264,
+      "Description": "Organized homogeneous synergy",
+      "ExtraInfo": "rerum",
+      "LinkId": 24,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 271
+          "FieldType": "System.Int32",
+          "FieldLength": 510
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 408,
-  "Snum": 256,
+  "SuggestedDocumentId": 487,
+  "Snum": 537,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Mrs. Zetta Stephany Donnelly Sr."
+    "SuperOffice:1": "Lillie Towne I",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequuntur",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "deserunt",
+    "ExtraFields2": "tempora"
   },
   "CustomFields": {
-    "CustomFields1": "blanditiis",
-    "CustomFields2": "autem"
+    "CustomFields1": "consectetur",
+    "CustomFields2": "perspiciatis"
   },
-  "PublishEventDate": "2006-05-19T14:13:40.0785543+02:00",
-  "PublishTo": "2020-05-24T14:13:40.0785543+02:00",
-  "PublishFrom": "2022-04-25T14:13:40.0785543+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2023-03-31T02:38:21.2763892+02:00",
+  "PublishTo": "2009-09-21T02:38:21.2763892+02:00",
+  "PublishFrom": "2012-07-15T02:38:21.2763892+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 670,
+      "VisibleId": 481,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 815
         }
       }
     },
     {
-      "VisibleId": 670,
+      "VisibleId": 481,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 815
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldType": "System.String",
+      "FieldLength": 903
     }
   }
 }

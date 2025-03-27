@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 968,
-  "Select": "sed"
+  "SelectionId": 340,
+  "Select": "cum"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hand Group",
-    "PrimaryKey": 956,
+    "EntityName": "Ryan-Grimes",
+    "PrimaryKey": 277,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "id",
-        "TooltipHint": "praesentium",
-        "LinkHint": "dignissimos"
+        "DisplayValue": "quaerat",
+        "TooltipHint": "veniam",
+        "LinkHint": "quas"
       }
     },
-    "LinkHint": "dignissimos",
-    "StyleHint": "molestias",
+    "LinkHint": "aliquam",
+    "StyleHint": "nemo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 393
+        "FieldType": "System.String",
+        "FieldLength": 846
       }
     }
   }

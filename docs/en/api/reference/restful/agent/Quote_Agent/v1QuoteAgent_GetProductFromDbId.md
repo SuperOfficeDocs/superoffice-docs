@@ -110,7 +110,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 481
+  "ProductId": 330
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 405,
-  "ERPProductKey": "sint",
-  "ERPPriceListKey": "nemo",
-  "Name": "Halvorson-Carroll",
-  "Description": "Enterprise-wide full-range attitude",
-  "Code": "quae",
-  "PriceUnit": "quos",
-  "QuantityUnit": "consequatur",
+  "ProductId": 497,
+  "ERPProductKey": "autem",
+  "ERPPriceListKey": "enim",
+  "Name": "Sauer Inc and Sons",
+  "Description": "Organic multi-state implementation",
+  "Code": "laborum",
+  "PriceUnit": "quasi",
+  "QuantityUnit": "doloremque",
   "IsSubscription": false,
-  "SubscriptionUnit": "eos",
-  "DefaultSubscriptionQuantity": 9370.66,
-  "ItemNumber": "964273",
+  "SubscriptionUnit": "eum",
+  "DefaultSubscriptionQuantity": 2127.986,
+  "ItemNumber": "761986",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "rerum",
-  "ProductTypeKey": "facere",
-  "VAT": 13426.055999999999,
-  "VATInfo": "nemo",
-  "UnitCost": 15905.05,
-  "UnitMinimumPrice": 20696.935999999998,
-  "UnitListPrice": 7806.794,
-  "InAssortment": false,
-  "Supplier": "rerum",
-  "SupplierCode": "molestiae",
+  "ProductFamilyKey": "vel",
+  "ProductTypeKey": "in",
+  "VAT": 10210.572,
+  "VATInfo": "repellat",
+  "UnitCost": 10370.405999999999,
+  "UnitMinimumPrice": 20264.444,
+  "UnitListPrice": 13291.294,
+  "InAssortment": true,
+  "Supplier": "eligendi",
+  "SupplierCode": "saepe",
   "Rights": "vel",
-  "Rule": "mollitia",
+  "Rule": "veniam",
   "ExtraInfo": [
     {
-      "Name": "Larson LLC",
-      "Value": "facilis",
+      "Name": "Glover-Corkery",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldType": "System.String",
+          "FieldLength": 85
         }
       }
     },
     {
-      "Name": "Larson LLC",
-      "Value": "facilis",
+      "Name": "Glover-Corkery",
+      "Value": "quia",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 204
+          "FieldType": "System.String",
+          "FieldLength": 85
         }
       }
     }
   ],
-  "RawExtraInfo": "cumque",
-  "ExtraField1": "blanditiis",
-  "ExtraField2": "dignissimos",
-  "ExtraField3": "eligendi",
-  "ExtraField4": "facere",
-  "ExtraField5": "dolorum",
-  "InStock": 1755.04,
+  "RawExtraInfo": "maiores",
+  "ExtraField1": "amet",
+  "ExtraField2": "voluptate",
+  "ExtraField3": "labore",
+  "ExtraField4": "quos",
+  "ExtraField5": "facilis",
+  "InStock": 5418.686,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 808
     }
   }
 }

@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 662
+  "QuoteVersionId": 492
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 484,
-  "ERPQuoteVersionKey": "id",
-  "QuoteId": 146,
-  "Description": "Customer-focused zero administration extranet",
-  "Number": "732698",
+  "QuoteVersionId": 946,
+  "ERPQuoteVersionKey": "rerum",
+  "QuoteId": 894,
+  "Description": "Optimized maximized application",
+  "Number": "804456",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 319,
-  "SentDate": "2018-01-05T14:13:41.0627059+01:00",
-  "FollowupId": 945,
-  "ExpirationDate": "2025-01-29T14:13:41.0627059+01:00",
-  "DeliveryCountryId": 992,
+  "LikelyQuoteAlternativeId": 113,
+  "SentDate": "2003-06-15T02:38:21.7607486+02:00",
+  "FollowupId": 304,
+  "ExpirationDate": "2012-10-01T02:38:21.7607486+02:00",
+  "DeliveryCountryId": 696,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 875,
+  "InvoiceCountryId": 299,
   "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "maxime",
-  "ERPPaymentTypeKey": "et",
-  "ERPDeliveryTermsKey": "et",
-  "ERPDeliveryTypeKey": "consequatur",
-  "Rank": 127,
-  "ApprovedBy": 133,
-  "ApprovedText": "et",
-  "ApprovedRegisteredBy": 848,
-  "ApprovedRegisteredDate": "2018-08-07T14:13:41.0627059+02:00",
-  "ExtraField1": "corporis",
-  "ExtraField2": "omnis",
-  "ExtraField3": "reprehenderit",
-  "ExtraField4": "animi",
-  "ExtraField5": "corrupti",
-  "LastRecalculated": "2015-12-12T14:13:41.0627059+01:00",
-  "Updated": "2005-10-01T14:13:41.0627059+02:00",
-  "UpdatedAssociateId": 198,
-  "Registered": "2021-07-22T14:13:41.0627059+02:00",
-  "RegisteredAssociateId": 135,
-  "RequestAssociateId": 928,
-  "RequestComment": "similique",
+  "ERPPaymentTermsKey": "eaque",
+  "ERPPaymentTypeKey": "porro",
+  "ERPDeliveryTermsKey": "praesentium",
+  "ERPDeliveryTypeKey": "rerum",
+  "Rank": 188,
+  "ApprovedBy": 245,
+  "ApprovedText": "numquam",
+  "ApprovedRegisteredBy": 99,
+  "ApprovedRegisteredDate": "2003-02-15T02:38:21.7607486+01:00",
+  "ExtraField1": "consectetur",
+  "ExtraField2": "ratione",
+  "ExtraField3": "assumenda",
+  "ExtraField4": "accusantium",
+  "ExtraField5": "commodi",
+  "LastRecalculated": "2023-04-02T02:38:21.7607486+02:00",
+  "Updated": "2014-10-29T02:38:21.7607486+01:00",
+  "UpdatedAssociateId": 195,
+  "Registered": "2013-08-16T02:38:21.7607486+02:00",
+  "RegisteredAssociateId": 582,
+  "RequestAssociateId": 397,
+  "RequestComment": "sed",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 477,
-      "ERPQuoteAlternativeKey": "temporibus",
-      "QuoteVersionId": 293,
-      "Name": "Walsh Inc and Sons",
-      "Description": "Function-based web-enabled forecast",
+      "QuoteAlternativeId": 574,
+      "ERPQuoteAlternativeKey": "consequuntur",
+      "QuoteVersionId": 682,
+      "Name": "Schroeder Group",
+      "Description": "Exclusive system-worthy frame",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 29086.654,
-      "ERPDiscountAmount": 6725.5639999999994,
-      "DiscountPercent": 29757.329999999998,
-      "DiscountAmount": 2673.302,
+      "ERPDiscountPercent": 5139.76,
+      "ERPDiscountAmount": 16738.694,
+      "DiscountPercent": 19653.314,
+      "DiscountAmount": 18158.396,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "consectetur",
-      "VAT": 15005.591999999999,
-      "EarningPercent": 4002.118,
-      "EarningAmount": 11385.822,
-      "SubTotal": 14579.368,
-      "TotalPrice": 20518.298,
-      "ExtraField1": "consequuntur",
-      "ExtraField2": "ab",
-      "ExtraField3": "perspiciatis",
-      "ExtraField4": "minus",
-      "ExtraField5": "dolores",
+      "VATInfo": "accusamus",
+      "VAT": 18709.98,
+      "EarningPercent": 27958.414,
+      "EarningAmount": 21887.856,
+      "SubTotal": 3168.4739999999997,
+      "TotalPrice": 25150.35,
+      "ExtraField1": "ex",
+      "ExtraField2": "magni",
+      "ExtraField3": "nemo",
+      "ExtraField4": "ullam",
+      "ExtraField5": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 482
+          "FieldType": "System.String",
+          "FieldLength": 619
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 753
+      "FieldLength": 147
     }
   }
 }

@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 250,
-    "Name": "Bayer, Pacocha and Hodkiewicz",
-    "ContentType": "voluptatem",
-    "AttSize": 972,
-    "InlineImage": true,
-    "ContentId": "vel",
-    "AuthKey": "dolores",
-    "IsSafeFileExtension": true,
+    "AttachmentId": 589,
+    "Name": "Swaniawski Inc and Sons",
+    "ContentType": "error",
+    "AttSize": 36,
+    "InlineImage": false,
+    "ContentId": "autem",
+    "AuthKey": "officiis",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 577
+        "FieldLength": 78
       }
     }
   }

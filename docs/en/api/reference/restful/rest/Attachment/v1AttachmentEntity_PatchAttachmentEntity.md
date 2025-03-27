@@ -115,18 +115,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "reiciendis",
+    "path": "ratione",
     "value": {}
   },
   {
     "op": "add",
-    "path": "reiciendis",
+    "path": "ratione",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 760,
-  "Name": "Towne-Prohaska",
-  "ContentType": "maxime",
-  "AttSize": 299,
+  "AttachmentId": 256,
+  "Name": "Hilll-Wolf",
+  "ContentType": "voluptas",
+  "AttSize": 533,
   "InlineImage": false,
-  "ContentId": "laudantium",
-  "AuthKey": "nihil",
+  "ContentId": "est",
+  "AuthKey": "voluptatem",
   "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 320
+      "FieldLength": 388
     }
   },
   "_Links": {

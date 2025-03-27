@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 120,
-  "Name": "Baumbach, Hyatt and Jast",
-  "Tooltip": "quasi",
-  "Deleted": false,
-  "UdListDefinitionId": 878,
-  "Rank": 259
+  "Id": 877,
+  "Name": "Schmeler-Schamberger",
+  "Tooltip": "omnis",
+  "Deleted": true,
+  "UdListDefinitionId": 40,
+  "Rank": 911
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 409,
-  "Name": "Quitzon LLC",
-  "Tooltip": "optio",
-  "Deleted": false,
-  "UdListDefinitionId": 568,
-  "Rank": 655,
+  "Id": 477,
+  "Name": "Collins, Conn and Lind",
+  "Tooltip": "magni",
+  "Deleted": true,
+  "UdListDefinitionId": 202,
+  "Rank": 354,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldLength": 265
     }
   }
 }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 156,
-  "AppointmentId": 786,
-  "ProjectId": 832,
-  "SaleId": 877,
+  "DocumentId": 655,
+  "AppointmentId": 663,
+  "ProjectId": 795,
+  "SaleId": 851,
   "Archived": false,
-  "ArchivedAt": "1998-04-15T14:13:40.2347688+02:00",
-  "ArchivedBy": 734,
-  "ArchivedDisplayName": "VonRueden-Kuhn",
+  "ArchivedAt": "2004-07-01T02:38:21.3701735+02:00",
+  "ArchivedBy": 173,
+  "ArchivedDisplayName": "Runolfsson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 580
+      "FieldType": "System.Int32",
+      "FieldLength": 791
     }
   }
 }

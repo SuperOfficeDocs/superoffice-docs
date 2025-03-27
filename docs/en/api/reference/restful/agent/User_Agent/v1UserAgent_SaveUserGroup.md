@@ -97,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "facere",
-  "Tooltip": "animi",
-  "Id": 222,
-  "Rank": 831,
+  "Value": "enim",
+  "Tooltip": "qui",
+  "Id": 33,
+  "Rank": 530,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 596
+      "FieldType": "System.String",
+      "FieldLength": 159
     }
   }
 }

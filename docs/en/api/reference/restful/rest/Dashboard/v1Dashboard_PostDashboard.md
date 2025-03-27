@@ -88,22 +88,22 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 388,
-  "AssociateId": 728,
-  "Caption": "suscipit",
+  "DashboardId": 359,
+  "AssociateId": 160,
+  "Caption": "sit",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 1000,
-      "Caption": "qui",
-      "Description": "Assimilated optimizing firmware",
-      "ChartName": "Bergstrom, Braun and Gutmann",
-      "ChartId": "cumque",
+      "DashboardTileId": 344,
+      "Caption": "accusamus",
+      "Description": "Managed empowering collaboration",
+      "ChartName": "Bosco, Hintz and VonRueden",
+      "ChartId": "doloribus",
       "IsDefault": true,
-      "AssociateId": 844,
-      "GroupId": 211,
-      "SelectionId": 721,
-      "Config": "ut",
+      "AssociateId": 472,
+      "GroupId": 491,
+      "SelectionId": 419,
+      "Config": "saepe",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 957,
-  "AssociateId": 439,
-  "Caption": "rerum",
+  "DashboardId": 66,
+  "AssociateId": 669,
+  "Caption": "quidem",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 123,
-      "Caption": "odio",
-      "Description": "Adaptive solution-oriented system engine",
-      "ChartName": "Pfannerstill Inc and Sons",
-      "ChartId": "asperiores",
-      "IsDefault": true,
-      "AssociateId": 643,
-      "GroupId": 300,
-      "SelectionId": 790,
-      "Config": "mollitia",
+      "DashboardTileId": 426,
+      "Caption": "sed",
+      "Description": "Open-architected stable adapter",
+      "ChartName": "Zulauf-Wisozk",
+      "ChartId": "maxime",
+      "IsDefault": false,
+      "AssociateId": 404,
+      "GroupId": 50,
+      "SelectionId": 649,
+      "Config": "quos",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 283
+          "FieldType": "System.Int32",
+          "FieldLength": 912
         }
       }
     }
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 868
+      "FieldType": "System.Int32",
+      "FieldLength": 59
     }
   },
   "_Links": {

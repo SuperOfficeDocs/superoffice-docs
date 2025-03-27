@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "voluptates",
+    "path": "perferendis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptates",
+    "path": "perferendis",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 DashTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 489,
-  "DashboardId": 263,
-  "Height": 167,
-  "Width": 890,
-  "Rank": 773,
+  "DashboardTileId": 946,
+  "DashboardId": 604,
+  "Height": 88,
+  "Width": 300,
+  "Rank": 571,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 327
+      "FieldLength": 981
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

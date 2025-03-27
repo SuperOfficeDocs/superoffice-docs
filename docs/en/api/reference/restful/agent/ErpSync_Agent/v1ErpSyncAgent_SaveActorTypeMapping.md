@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 406,
+  "ErpConnectionId": 315,
   "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 823,
-      "CrmFieldKey": "nisi",
-      "CrmDisplayName": "Braun Group",
-      "CrmDisplayTooltip": "voluptas",
-      "ErpFieldKey": "quo",
+      "ErpFieldId": 736,
+      "CrmFieldKey": "veritatis",
+      "CrmDisplayName": "Dietrich-Hartmann",
+      "CrmDisplayTooltip": "nihil",
+      "ErpFieldKey": "animi",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Hagenes, Kub and Koepp",
-      "ErpDisplayTooltip": "labore",
+      "ErpDisplayName": "Boyle Inc and Sons",
+      "ErpDisplayTooltip": "est",
       "SyncToCrm": false,
       "SyncToErp": false,
-      "ShowInGui": false,
-      "ShowInSearch": false,
-      "AlreadyMapped": true,
-      "MissingInERP": false,
+      "ShowInGui": true,
+      "ShowInSearch": true,
+      "AlreadyMapped": false,
+      "MissingInERP": true,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "delectus",
+      "ListReference": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 909
+          "FieldType": "System.Int32",
+          "FieldLength": 732
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldLength": 454
     }
   }
 }

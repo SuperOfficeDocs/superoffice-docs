@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "darrell.vonrueden@croninrunolfsdottir.biz",
-  "Counts": 186,
-  "Code": 41,
+  "EmailAddress": "eldridge_von@hintz.us",
+  "Counts": 403,
+  "Code": 888,
   "Reason": ""
 }
 ```

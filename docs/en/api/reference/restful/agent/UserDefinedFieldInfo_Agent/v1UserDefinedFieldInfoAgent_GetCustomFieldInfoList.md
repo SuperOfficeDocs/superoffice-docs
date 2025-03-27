@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Treutel LLC",
-  "IncludeStandard": true
+  "TableName": "Gutkowski-Schroeder",
+  "IncludeStandard": false
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Trantow LLC",
-    "DisplayName": "Kilback, Dare and Borer",
-    "Description": "Phased intermediate firmware",
-    "ShortLabel": "quia",
-    "HideLabel": true,
-    "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": true,
+    "FieldName": "Runolfsdottir-Schultz",
+    "DisplayName": "Fahey LLC",
+    "Description": "Multi-lateral systemic product",
+    "ShortLabel": "dolores",
+    "HideLabel": false,
+    "HideField": true,
+    "IsIndexed": false,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
+    "IsExternal": false,
     "IsDisplayField": true,
-    "Rank": 23,
-    "TemplateVariableName": "Bernier, Fisher and Schroeder"
+    "Rank": 838,
+    "TemplateVariableName": "Klocko, Larkin and McCullough"
   }
 ]
 ```

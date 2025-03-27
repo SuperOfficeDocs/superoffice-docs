@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 72,
-    "Name": "Wyman-Beahan",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "UdListDefinitionId": 421,
-    "Rank": 589
+    "Id": 754,
+    "Name": "Purdy-Lowe",
+    "Tooltip": "in",
+    "Deleted": true,
+    "UdListDefinitionId": 338,
+    "Rank": 574
   },
   {
-    "Id": 72,
-    "Name": "Wyman-Beahan",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "UdListDefinitionId": 421,
-    "Rank": 589
+    "Id": 754,
+    "Name": "Purdy-Lowe",
+    "Tooltip": "in",
+    "Deleted": true,
+    "UdListDefinitionId": 338,
+    "Rank": 574
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Tremblay, Kunde and Wunsch",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "UdListDefinitionId": 514,
-    "Rank": 616,
+    "Id": 992,
+    "Name": "Schoen Group",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "UdListDefinitionId": 846,
+    "Rank": 678,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 663
+        "FieldLength": 3
       }
     }
   }

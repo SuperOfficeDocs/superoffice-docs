@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    17,
-    301
+    316,
+    836
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 851,
-    "ContactName": "Mante-Zieme",
-    "PersonId": 859,
-    "PersonName": "Pagac-Mohr",
-    "AssociateId": 490,
-    "Address": "ut",
-    "EmailId": 204,
+    "ContactId": 378,
+    "ContactName": "Klocko LLC",
+    "PersonId": 718,
+    "PersonName": "Abbott, Hirthe and Mohr",
+    "AssociateId": 144,
+    "Address": "quo",
+    "EmailId": 453,
     "DuplicatePersonIds": [
-      723,
-      830
+      231,
+      704
     ],
-    "Name": "Grady, Mills and Dickens",
+    "Name": "Daniel Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 938
+        "FieldType": "System.String",
+        "FieldLength": 946
       }
     }
   }

@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 610,
-  "Name": "Osinski Group",
-  "Tooltip": "quasi",
+  "ExtAppId": 360,
+  "Name": "Blanda-Prohaska",
+  "Tooltip": "eligendi",
   "Deleted": false,
-  "Rank": 464,
-  "Filename": "ut",
-  "Parameters": "minus",
-  "Workdir": "magnam",
+  "Rank": 960,
+  "Filename": "voluptatibus",
+  "Parameters": "laboriosam",
+  "Workdir": "culpa",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
   "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "Icon": 125,
+  "Icon": 518,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "hic"
+  "Path": "aut"
 }
 ```
 
@@ -141,14 +141,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 653,
-  "Name": "Rath-Bins",
-  "Tooltip": "iste",
+  "ExtAppId": 150,
+  "Name": "Johns, Schultz and O'Keefe",
+  "Tooltip": "mollitia",
   "Deleted": true,
-  "Rank": 417,
-  "Filename": "temporibus",
-  "Parameters": "in",
-  "Workdir": "quae",
+  "Rank": 704,
+  "Filename": "optio",
+  "Parameters": "nobis",
+  "Workdir": "voluptas",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
@@ -156,19 +156,19 @@ Content-Type: application/json; charset=utf-8
   "OnTravel": true,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "Icon": 916,
+  "ShowInStatusBar": true,
+  "Icon": 661,
   "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "tempora",
+  "Path": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 900
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Zboncak-Wisozk",
-  "HeadingId": 413
+  "UdListDefinitionName": "Rogahn, Braun and Wilderman",
+  "HeadingId": 420
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 37,
-    "Name": "Reichel LLC",
-    "ToolTip": "Exercitationem impedit odit est maxime quis maiores necessitatibus.",
+    "Id": 491,
+    "Name": "Daugherty, Breitenberg and Larson",
+    "ToolTip": "Cumque laudantium est et nulla dolores dolor est.",
     "Deleted": false,
-    "Rank": 239,
-    "Type": "repellat",
-    "ColorBlock": 731,
-    "IconHint": "enim",
+    "Rank": 410,
+    "Type": "provident",
+    "ColorBlock": 718,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "2004-05-18T14:13:40.4847118+02:00",
+    "LastChanged": "2015-09-07T02:38:21.5107392+02:00",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Mosciski LLC",
-        "ToolTip": "Quis quae alias consectetur eveniet.",
+        "Id": 347,
+        "Name": "Goodwin, Mertz and Johnson",
+        "ToolTip": "Repudiandae ea quibusdam enim quos ipsa reprehenderit.",
         "Deleted": false,
-        "Rank": 188,
-        "Type": "voluptatem",
-        "ColorBlock": 841,
-        "IconHint": "distinctio",
+        "Rank": 972,
+        "Type": "ut",
+        "ColorBlock": 854,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2024-05-31T14:13:40.4847118+02:00",
+        "LastChanged": "2001-05-24T02:38:21.5107392+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "voluptas",
-        "Hidden": false,
-        "FullName": "Dr. Jodie Gerhold",
+        "ExtraInfo": "veritatis",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Edison Von",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 819
+            "FieldLength": 912
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "quos",
+    "ExtraInfo": "quo",
+    "StyleHint": "consectetur",
     "Hidden": true,
-    "FullName": "Mrs. Maximillian Reva Romaguera MD",
+    "FullName": "Devin Rodriguez",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 543
+        "FieldType": "System.Int32",
+        "FieldLength": 810
       }
     }
   }

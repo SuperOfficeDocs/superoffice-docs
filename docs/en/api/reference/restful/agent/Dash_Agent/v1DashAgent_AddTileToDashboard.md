@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 715,
-  "DashTileDefinitionId": 200
+  "DashboardId": 261,
+  "DashTileDefinitionId": 830
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 306,
-  "DashboardId": 963,
-  "Height": 579,
-  "Width": 580,
-  "Rank": 677,
+  "DashboardTileId": 860,
+  "DashboardId": 363,
+  "Height": 782,
+  "Width": 210,
+  "Rank": 126,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 501
     }
   }
 }

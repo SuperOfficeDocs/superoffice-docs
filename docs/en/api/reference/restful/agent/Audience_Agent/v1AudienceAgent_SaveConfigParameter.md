@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Heathcote Group",
+  "LayoutName": "Koelpin-Deckow",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 542,
-  "Name": "Torp Group",
-  "Value": "praesentium",
-  "CreatedDate": "2004-07-17T14:13:39.3754818+02:00",
-  "UpdatedDate": "2013-06-16T14:13:39.3754818+02:00",
-  "CreatedBy": "hic",
-  "UpdatedBy": "atque",
+  "AudienceLayoutId": 953,
+  "Name": "Lakin-Stroman",
+  "Value": "expedita",
+  "CreatedDate": "2000-02-18T02:38:20.8702208+01:00",
+  "UpdatedDate": "2019-03-09T02:38:20.8702208+01:00",
+  "CreatedBy": "quis",
+  "UpdatedBy": "quos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 626
+      "FieldType": "System.Int32",
+      "FieldLength": 697
     }
   }
 }

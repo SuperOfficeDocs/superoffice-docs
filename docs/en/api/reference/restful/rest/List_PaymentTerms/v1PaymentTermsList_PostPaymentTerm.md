@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 918,
-  "Name": "Douglas-Kris",
-  "Tooltip": "consequuntur",
+  "Id": 192,
+  "Name": "Glover-Murazik",
+  "Tooltip": "sint",
   "Deleted": false,
-  "UdListDefinitionId": 324,
-  "Rank": 329
+  "UdListDefinitionId": 940,
+  "Rank": 139
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Goodwin-Kemmer",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "UdListDefinitionId": 479,
-  "Rank": 392,
+  "Id": 517,
+  "Name": "Von, Considine and O'Connell",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "UdListDefinitionId": 357,
+  "Rank": 649,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 801
     }
   }
 }

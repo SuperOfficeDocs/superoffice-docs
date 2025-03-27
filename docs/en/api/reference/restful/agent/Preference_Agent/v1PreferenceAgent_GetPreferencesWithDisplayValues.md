@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "aut",
-      "Key": "nulla"
+      "Section": "autem",
+      "Key": "laudantium"
     },
     {
-      "Section": "aut",
-      "Key": "nulla"
+      "Section": "autem",
+      "Key": "laudantium"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "adipisci",
+    "RawValue": "minus",
     "Specification": null,
-    "DisplayValue": "accusamus",
-    "DisplayTooltip": "incidunt",
+    "DisplayValue": "vel",
+    "DisplayTooltip": "sunt",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 656,
-    "PrefDescId": 332,
-    "TableName": "Kassulke, Nikolaus and Hermann",
-    "UserPreferenceId": 412,
+    "TargetId": 600,
+    "PrefDescId": 41,
+    "TableName": "Lindgren Inc and Sons",
+    "UserPreferenceId": 667,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1001
+        "FieldType": "System.String",
+        "FieldLength": 471
       }
     }
   }

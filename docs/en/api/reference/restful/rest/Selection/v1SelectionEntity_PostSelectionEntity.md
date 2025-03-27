@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Polarised national workforce",
-  "Postit": "qui",
+  "Description": "Monitored next generation circuit",
+  "Postit": "cupiditate",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 530,
-  "IncludePerson": 835,
+  "GroupIdx": 887,
+  "IncludePerson": 595,
   "MemberCount": 99.99,
-  "Name": "Glover, Shanahan and Hettinger",
-  "PostitTextId": 592,
-  "CreatedDate": "1999-06-02T14:13:49.2274801+02:00",
-  "SelectionId": 70,
-  "SoundEx": "facilis",
-  "Source": 276,
-  "TextId": 433,
-  "UpdatedDate": "2000-11-21T14:13:49.2274801+01:00",
-  "UpdatedCount": 426,
-  "Visibility": 439,
+  "Name": "Corkery, Prohaska and Welch",
+  "PostitTextId": 594,
+  "CreatedDate": "2009-03-23T02:38:26.4016552+01:00",
+  "SelectionId": 505,
+  "SoundEx": "officia",
+  "Source": 645,
+  "TextId": 282,
+  "UpdatedDate": "2018-09-07T02:38:26.4016552+02:00",
+  "UpdatedCount": 1000,
+  "Visibility": 521,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 151,
-  "TargetTableName": "Reichel Group",
+  "CompanyUnique": false,
+  "TargetTableNumber": 154,
+  "TargetTableName": "Ankunding, McKenzie and Kreiger",
   "Completed": false,
-  "LeftSelectionId": 648,
-  "RightSelectionId": 189,
+  "LeftSelectionId": 536,
+  "RightSelectionId": 915,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Flatley Group",
-  "ShadowProviderName": "Mueller, Kutch and Crist",
-  "ChartKey": "laudantium",
-  "LastLoaded": "2013-01-11T14:13:49.2274801+01:00",
-  "LastLoadedBy": 894,
+  "MainProviderName": "Erdman, Schumm and Gutmann",
+  "ShadowProviderName": "Rau, Hane and Bins",
+  "ChartKey": "sit",
+  "LastLoaded": "2002-11-06T02:38:26.4016552+01:00",
+  "LastLoadedBy": 691,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-07-28T14:13:49.2274801+02:00",
-  "LastMembershipChangeBy": 713,
+  "LastMembershipChange": "2001-06-14T02:38:26.4016552+02:00",
+  "LastMembershipChangeBy": 799,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ea",
-  "MemberTabHeading": "ipsum",
-  "MailingsProviderName": "Heathcote-Bailey",
-  "DashboardTileDefinitionId": 212,
+  "MainHeading": "magni",
+  "MemberTabHeading": "odio",
+  "MailingsProviderName": "Huels LLC",
+  "DashboardTileDefinitionId": 132,
   "VisibleFor": [
     {
-      "VisibleId": 361,
+      "VisibleId": 856,
       "Visibility": "All",
-      "DisplayValue": "omnis"
+      "DisplayValue": "praesentium"
     },
     {
-      "VisibleId": 361,
+      "VisibleId": 856,
       "Visibility": "All",
-      "DisplayValue": "omnis"
+      "DisplayValue": "praesentium"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured interactive process improvement",
-  "Postit": "cum",
+  "Description": "Vision-oriented web-enabled ability",
+  "Postit": "sequi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 905,
-  "IncludePerson": 873,
+  "GroupIdx": 977,
+  "IncludePerson": 974,
   "MemberCount": 99.99,
-  "Name": "Koss, Ledner and Bahringer",
-  "PostitTextId": 813,
-  "CreatedDate": "2005-11-23T14:13:49.2430999+01:00",
-  "SelectionId": 20,
-  "SoundEx": "ducimus",
-  "Source": 285,
-  "TextId": 252,
-  "UpdatedDate": "2014-04-19T14:13:49.2430999+02:00",
-  "UpdatedCount": 627,
-  "Visibility": 647,
+  "Name": "Treutel-Schoen",
+  "PostitTextId": 959,
+  "CreatedDate": "2003-09-08T02:38:26.4016552+02:00",
+  "SelectionId": 775,
+  "SoundEx": "nisi",
+  "Source": 6,
+  "TextId": 45,
+  "UpdatedDate": "1997-11-11T02:38:26.4016552+01:00",
+  "UpdatedCount": 634,
+  "Visibility": 192,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 57,
-  "TargetTableName": "Pfeffer, Parker and Marquardt",
-  "Completed": false,
-  "LeftSelectionId": 468,
-  "RightSelectionId": 113,
+  "CompanyUnique": false,
+  "TargetTableNumber": 939,
+  "TargetTableName": "Zemlak, Lang and Murphy",
+  "Completed": true,
+  "LeftSelectionId": 706,
+  "RightSelectionId": 193,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ruecker, Collier and Tillman",
-  "ShadowProviderName": "Cassin-Konopelski",
-  "ChartKey": "voluptatem",
-  "LastLoaded": "1998-09-26T14:13:49.2430999+02:00",
-  "LastLoadedBy": 64,
+  "MainProviderName": "Torphy Group",
+  "ShadowProviderName": "Price-Stoltenberg",
+  "ChartKey": "reprehenderit",
+  "LastLoaded": "2023-10-19T02:38:26.4016552+02:00",
+  "LastLoadedBy": 709,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2005-03-01T14:13:49.2430999+01:00",
-  "LastMembershipChangeBy": 102,
+  "LastMembershipChange": "2016-10-20T02:38:26.4016552+02:00",
+  "LastMembershipChangeBy": 897,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "eum",
-  "MemberTabHeading": "ab",
-  "MailingsProviderName": "Mosciski LLC",
-  "DashboardTileDefinitionId": 844,
+  "MainHeading": "ut",
+  "MemberTabHeading": "temporibus",
+  "MailingsProviderName": "McCullough, Mills and Dietrich",
+  "DashboardTileDefinitionId": 622,
   "VisibleFor": [
     {
-      "VisibleId": 535,
+      "VisibleId": 723,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 996
+          "FieldType": "System.Int32",
+          "FieldLength": 675
         }
       }
     },
     {
-      "VisibleId": 535,
+      "VisibleId": 723,
       "Visibility": "All",
-      "DisplayValue": "qui",
+      "DisplayValue": "nobis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 996
+          "FieldType": "System.Int32",
+          "FieldLength": 675
         }
       }
     }
@@ -295,7 +295,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldLength": 794
     }
   },
   "_Links": {

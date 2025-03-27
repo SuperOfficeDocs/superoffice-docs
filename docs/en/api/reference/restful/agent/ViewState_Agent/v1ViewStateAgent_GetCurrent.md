@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Stoltenberg-Jacobson"
+  "HistoryName": "Schneider LLC"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 769,
-  "Id": 274,
-  "HistoryName": "Brekke, Herman and Schaden",
-  "HistoryId": 395,
-  "AssociateId": 313,
-  "Name": "Braun LLC",
-  "ItemInfo": "repudiandae",
+  "Rank": 794,
+  "Id": 296,
+  "HistoryName": "Zboncak-Conn",
+  "HistoryId": 407,
+  "AssociateId": 891,
+  "Name": "Jast-Crooks",
+  "ItemInfo": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldType": "System.String",
+      "FieldLength": 560
     }
   }
 }

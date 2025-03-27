@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 484,
+  "TargetYear": 999,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 792
+  "Id": 402
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 862,
+  "TargetAssignmentInfoId": 301,
   "Values": [
-    381,
-    452
+    800,
+    719
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 191,
-  "DimensionListItemDisplayName": "Mante Inc and Sons",
+  "DimensionListItem": 780,
+  "DimensionListItemDisplayName": "Jacobson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 898
+      "FieldLength": 126
     }
   }
 }

@@ -94,36 +94,36 @@ OK
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 975,
+  "HierarchyId": 558,
   "Domain": "Dashboards",
-  "Name": "Renner-Hammes",
-  "Fullname": "dolor",
-  "ParentId": 920,
+  "Name": "Lakin-Stiedemann",
+  "Fullname": "aut",
+  "ParentId": 631,
   "Children": [
     {
-      "HierarchyId": 698,
+      "HierarchyId": 491,
       "Domain": "Dashboards",
-      "Name": "Reichel, Simonis and Koch",
-      "Fullname": "magnam",
-      "ParentId": 831,
+      "Name": "Halvorson Group",
+      "Fullname": "quis",
+      "ParentId": 668,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-02-23T14:13:48.8993207+01:00",
-      "RegisteredAssociateId": 728,
-      "Updated": "2010-01-24T14:13:48.8993207+01:00",
-      "UpdatedAssociateId": 78
+      "Registered": "2021-12-08T02:38:26.1204323+01:00",
+      "RegisteredAssociateId": 76,
+      "Updated": "2001-06-02T02:38:26.1204323+02:00",
+      "UpdatedAssociateId": 951
     }
   ],
-  "Registered": "2022-03-04T14:13:48.8993207+01:00",
-  "RegisteredAssociateId": 888,
-  "Updated": "2016-09-21T14:13:48.8993207+02:00",
-  "UpdatedAssociateId": 881
+  "Registered": "2003-09-29T02:38:26.1204323+02:00",
+  "RegisteredAssociateId": 148,
+  "Updated": "2010-05-07T02:38:26.1204323+02:00",
+  "UpdatedAssociateId": 430
 }
 ```
 
@@ -134,46 +134,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 902,
+  "HierarchyId": 935,
   "Domain": "Dashboards",
-  "Name": "Harris LLC",
+  "Name": "Dickens-Murazik",
   "Fullname": "reiciendis",
-  "ParentId": 240,
+  "ParentId": 408,
   "Children": [
     {
-      "HierarchyId": 510,
+      "HierarchyId": 197,
       "Domain": "Dashboards",
-      "Name": "Mante Inc and Sons",
-      "Fullname": "voluptas",
-      "ParentId": 819,
+      "Name": "Skiles Inc and Sons",
+      "Fullname": "saepe",
+      "ParentId": 28,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-06-08T14:13:48.8993207+02:00",
-      "RegisteredAssociateId": 637,
-      "Updated": "2004-09-08T14:13:48.8993207+02:00",
-      "UpdatedAssociateId": 274,
+      "Registered": "2020-12-15T02:38:26.1204323+01:00",
+      "RegisteredAssociateId": 817,
+      "Updated": "2013-12-05T02:38:26.1204323+01:00",
+      "UpdatedAssociateId": 774,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 450
+          "FieldType": "System.String",
+          "FieldLength": 469
         }
       }
     }
   ],
-  "Registered": "2008-04-30T14:13:48.8993207+02:00",
-  "RegisteredAssociateId": 780,
-  "Updated": "2011-05-21T14:13:48.8993207+02:00",
-  "UpdatedAssociateId": 697,
+  "Registered": "2003-05-26T02:38:26.1204323+02:00",
+  "RegisteredAssociateId": 72,
+  "Updated": "2008-12-24T02:38:26.1204323+01:00",
+  "UpdatedAssociateId": 918,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 99
+      "FieldType": "System.Int32",
+      "FieldLength": 31
     }
   },
   "_Links": {

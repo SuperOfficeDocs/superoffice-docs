@@ -68,7 +68,7 @@ OK
 GET /api/v1/Appointment/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Murphy, Torp and Boehm",
-    "DisplayName": "Wisozk, Considine and Johnson",
-    "Description": "Optimized didactic extranet",
-    "ShortLabel": "consequuntur",
+    "FieldName": "Barton, Considine and Abshire",
+    "DisplayName": "Armstrong Group",
+    "Description": "Quality-focused analyzing ability",
+    "ShortLabel": "quia",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 199,
-    "TemplateVariableName": "Hills-Schoen"
+    "IsReadOnly": false,
+    "IsExternal": true,
+    "IsDisplayField": false,
+    "Rank": 492,
+    "TemplateVariableName": "Flatley Inc and Sons"
   }
 ]
 ```

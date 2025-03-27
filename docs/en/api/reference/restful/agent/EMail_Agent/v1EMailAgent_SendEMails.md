@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "voluptas",
-      "HTMLBody": "neque",
+      "Subject": "voluptatibus",
+      "HTMLBody": "porro",
       "From": null,
-      "Sent": "2023-06-02T14:13:40.2660122+02:00",
-      "Size": 934,
+      "Sent": "2009-01-12T02:38:21.3857927+01:00",
+      "Size": 590,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "est",
-      "PlainBody": "ut",
-      "IsSent": true,
+      "MessageID": "magni",
+      "PlainBody": "dicta",
+      "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 420,
+      "ServerId": 223,
       "Attachments": [
         {},
         {}
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Becker, McDermott and McKenzie",
-      "EmailItemId": 453,
-      "AccountId": 346,
-      "ReceivedAt": "2008-07-21T14:13:40.2660122+02:00",
+      "FolderName": "Erdman-Medhurst",
+      "EmailItemId": 777,
+      "AccountId": 573,
+      "ReceivedAt": "2009-09-08T02:38:21.3857927+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2001-10-06T14:13:40.2660122+02:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2016-09-02T02:38:21.3857927+02:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -166,147 +166,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 524,
-        "ContactName": "Heathcote LLC",
-        "PersonId": 780,
-        "PersonName": "Smith Group",
-        "AssociateId": 505,
-        "Address": "porro",
-        "EmailId": 393,
+        "ContactId": 241,
+        "ContactName": "Ratke, Hayes and Mertz",
+        "PersonId": 694,
+        "PersonName": "Jacobi Inc and Sons",
+        "AssociateId": 818,
+        "Address": "repellat",
+        "EmailId": 218,
         "DuplicatePersonIds": [
-          808,
-          908
+          521,
+          478
         ],
-        "Name": "Pouros Inc and Sons",
+        "Name": "Hoppe, Lynch and McClure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 593
+            "FieldLength": 504
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 670,
-        "ContactName": "Fay-Haley",
-        "PersonId": 787,
-        "PersonName": "Bashirian, Metz and Dooley",
-        "AssociateId": 915,
-        "Address": "natus",
-        "EmailId": 931,
+        "ContactId": 230,
+        "ContactName": "Ritchie-Hodkiewicz",
+        "PersonId": 446,
+        "PersonName": "Leuschke, Thiel and Keebler",
+        "AssociateId": 575,
+        "Address": "magnam",
+        "EmailId": 22,
         "DuplicatePersonIds": [
-          468,
-          939
+          900,
+          808
         ],
-        "Name": "Corkery-Kutch",
+        "Name": "Heathcote, Rowe and Kohler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 148
+            "FieldLength": 431
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 31,
-        "ContactName": "Baumbach Group",
-        "PersonId": 495,
-        "PersonName": "Marquardt, Renner and Romaguera",
-        "AssociateId": 29,
-        "Address": "qui",
-        "EmailId": 418,
+        "ContactId": 706,
+        "ContactName": "Torphy-Aufderhar",
+        "PersonId": 257,
+        "PersonName": "Witting Group",
+        "AssociateId": 801,
+        "Address": "repellat",
+        "EmailId": 149,
         "DuplicatePersonIds": [
-          459,
-          971
+          975,
+          815
         ],
-        "Name": "Berge Inc and Sons",
+        "Name": "Tillman LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 834
+            "FieldType": "System.Int32",
+            "FieldLength": 529
           }
         }
       }
     ],
-    "Subject": "expedita",
-    "HTMLBody": "nisi",
+    "Subject": "voluptatem",
+    "HTMLBody": "in",
     "From": null,
-    "Sent": "2016-04-03T14:13:40.2660122+02:00",
-    "Size": 48,
+    "Sent": "2005-11-25T02:38:21.3857927+01:00",
+    "Size": 137,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "rem",
-    "PlainBody": "aut",
-    "IsSent": false,
+    "MessageID": "porro",
+    "PlainBody": "esse",
+    "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 497,
+    "ServerId": 674,
     "Attachments": [
       {
-        "Description": "Assimilated heuristic system engine",
-        "Filename": "eius",
-        "Size": 728,
-        "Type": "quae",
-        "Encoding": "eum",
-        "Id": "sunt",
-        "Disposition": "ut",
-        "IsSafeFileExtension": true,
+        "Description": "Digitized multimedia initiative",
+        "Filename": "mollitia",
+        "Size": 326,
+        "Type": "atque",
+        "Encoding": "ea",
+        "Id": "numquam",
+        "Disposition": "quo",
+        "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 23
+            "FieldLength": 648
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Koch-Ritchie",
+        "Name": "O'Connell Inc and Sons",
         "Values": [
-          "totam",
-          "vel"
+          "est",
+          "laudantium"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 586
+            "FieldLength": 574
           }
         }
       },
       {
-        "Name": "Koch-Ritchie",
+        "Name": "O'Connell Inc and Sons",
         "Values": [
-          "totam",
-          "vel"
+          "est",
+          "laudantium"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 586
+            "FieldLength": 574
           }
         }
       }
     ],
-    "FolderName": "Kautzer Group",
-    "EmailItemId": 301,
-    "AccountId": 360,
-    "ReceivedAt": "1997-10-15T14:13:40.2660122+02:00",
+    "FolderName": "Koss Group",
+    "EmailItemId": 626,
+    "AccountId": 767,
+    "ReceivedAt": "2004-09-18T02:38:21.3857927+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2005-11-03T14:13:40.2660122+01:00",
+    "RepliedAt": "2017-08-17T02:38:21.3857927+02:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -314,8 +314,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1002
+        "FieldType": "System.Int32",
+        "FieldLength": 680
       }
     }
   }

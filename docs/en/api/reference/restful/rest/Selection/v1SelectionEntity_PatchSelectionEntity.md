@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "necessitatibus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "necessitatibus",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synergistic mission-critical protocol",
-  "Postit": "similique",
+  "Description": "Balanced mobile support",
+  "Postit": "non",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 802,
-  "IncludePerson": 143,
+  "GroupIdx": 867,
+  "IncludePerson": 957,
   "MemberCount": 99.99,
-  "Name": "Rogahn, Runolfsdottir and Simonis",
-  "PostitTextId": 973,
-  "CreatedDate": "2022-08-14T14:13:49.2587235+02:00",
-  "SelectionId": 23,
-  "SoundEx": "at",
-  "Source": 102,
-  "TextId": 263,
-  "UpdatedDate": "2013-10-24T14:13:49.2587235+02:00",
-  "UpdatedCount": 440,
-  "Visibility": 971,
+  "Name": "Robel LLC",
+  "PostitTextId": 480,
+  "CreatedDate": "2019-11-07T02:38:26.4172802+01:00",
+  "SelectionId": 811,
+  "SoundEx": "odit",
+  "Source": 382,
+  "TextId": 147,
+  "UpdatedDate": "2002-01-28T02:38:26.4172802+01:00",
+  "UpdatedCount": 409,
+  "Visibility": 922,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 776,
-  "TargetTableName": "Durgan Group",
-  "Completed": false,
-  "LeftSelectionId": 542,
-  "RightSelectionId": 872,
+  "TargetTableNumber": 894,
+  "TargetTableName": "Zemlak, McKenzie and Stiedemann",
+  "Completed": true,
+  "LeftSelectionId": 851,
+  "RightSelectionId": 290,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Roberts Inc and Sons",
-  "ShadowProviderName": "Bergstrom-Botsford",
-  "ChartKey": "itaque",
-  "LastLoaded": "2023-03-06T14:13:49.2587235+01:00",
-  "LastLoadedBy": 329,
+  "MainProviderName": "Moen Group",
+  "ShadowProviderName": "Romaguera, Corkery and Hamill",
+  "ChartKey": "labore",
+  "LastLoaded": "2008-12-27T02:38:26.4172802+01:00",
+  "LastLoadedBy": 528,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-01-17T14:13:49.2587235+01:00",
-  "LastMembershipChangeBy": 857,
+  "LastMembershipChange": "2023-09-09T02:38:26.4172802+02:00",
+  "LastMembershipChangeBy": 347,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ut",
-  "MemberTabHeading": "adipisci",
-  "MailingsProviderName": "Deckow Inc and Sons",
-  "DashboardTileDefinitionId": 335,
+  "MainHeading": "consectetur",
+  "MemberTabHeading": "exercitationem",
+  "MailingsProviderName": "Wilderman-Jacobson",
+  "DashboardTileDefinitionId": 152,
   "VisibleFor": [
     {
-      "VisibleId": 936,
+      "VisibleId": 502,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 522
+          "FieldLength": 1000
         }
       }
     },
     {
-      "VisibleId": 936,
+      "VisibleId": 502,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "aliquid",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 522
+          "FieldLength": 1000
         }
       }
     }
@@ -245,7 +245,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldLength": 997
     }
   },
   "_Links": {

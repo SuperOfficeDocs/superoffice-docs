@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 695,
-  "Name": "Davis-West",
-  "Tooltip": "pariatur",
+  "Id": 405,
+  "Name": "Prosacco LLC",
+  "Tooltip": "cumque",
   "Deleted": true,
-  "Rank": 106,
-  "IsCustomList": false,
+  "Rank": 720,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "rem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 639,
-  "Name": "Prohaska-Walsh",
-  "Tooltip": "amet",
-  "Deleted": true,
-  "Rank": 730,
-  "IsCustomList": true,
+  "Id": 642,
+  "Name": "Spencer-Wiegand",
+  "Tooltip": "perspiciatis",
+  "Deleted": false,
+  "Rank": 209,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "dolores",
+  "ListType": "saepe",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldLength": 218
     }
   }
 }

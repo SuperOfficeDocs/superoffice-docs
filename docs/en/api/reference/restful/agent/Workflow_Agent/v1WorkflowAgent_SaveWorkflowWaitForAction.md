@@ -73,29 +73,29 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 552,
-  "WorkflowStepId": 601,
-  "WorkflowId": 634,
-  "Rank": 912,
+  "WorkflowWaitForActionId": 983,
+  "WorkflowStepId": 237,
+  "WorkflowId": 263,
+  "Rank": 474,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Kreiger Group",
-      "Description": "User-friendly web-enabled orchestration",
-      "Rank": 411,
+      "Name": "Cummings-Miller",
+      "Description": "Upgradable web-enabled moratorium",
+      "Rank": 967,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kreiger Group",
-      "Description": "User-friendly web-enabled orchestration",
-      "Rank": 411,
+      "Name": "Cummings-Miller",
+      "Description": "Upgradable web-enabled moratorium",
+      "Rank": 967,
       "Restrictions": [
         {},
         {}
@@ -112,25 +112,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 703,
-  "WorkflowStepId": 335,
-  "WorkflowId": 276,
-  "Rank": 77,
+  "WorkflowWaitForActionId": 670,
+  "WorkflowStepId": 720,
+  "WorkflowId": 352,
+  "Rank": 827,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Willms-Runte",
-      "Description": "Persistent 24 hour infrastructure",
-      "Rank": 920,
+      "Name": "Powlowski Group",
+      "Description": "Realigned multimedia monitoring",
+      "Rank": 936,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Willms-Runte",
-      "Description": "Persistent 24 hour infrastructure",
-      "Rank": 920,
+      "Name": "Powlowski Group",
+      "Description": "Realigned multimedia monitoring",
+      "Rank": 936,
       "Restrictions": [
         {},
         {}
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 556
+      "FieldLength": 692
     }
   }
 }

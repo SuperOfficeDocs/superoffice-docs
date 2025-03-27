@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "eum",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "eum",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 585,
+  "HierarchyId": 293,
   "Domain": "Dashboards",
-  "Name": "Muller LLC",
-  "Fullname": "magni",
-  "ParentId": 371,
+  "Name": "Kulas Group",
+  "Fullname": "sed",
+  "ParentId": 212,
   "Children": [
     {
-      "HierarchyId": 709,
+      "HierarchyId": 457,
       "Domain": "Dashboards",
-      "Name": "Treutel, Altenwerth and Bogisich",
-      "Fullname": "sequi",
-      "ParentId": 602,
+      "Name": "Denesik, Friesen and Mueller",
+      "Fullname": "rerum",
+      "ParentId": 709,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2002-06-03T14:13:48.8993207+02:00",
-      "RegisteredAssociateId": 396,
-      "Updated": "2007-05-08T14:13:48.8993207+02:00",
-      "UpdatedAssociateId": 169,
+      "Registered": "2022-10-18T02:38:26.1204323+02:00",
+      "RegisteredAssociateId": 42,
+      "Updated": "2015-09-03T02:38:26.1204323+02:00",
+      "UpdatedAssociateId": 946,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 27
+          "FieldType": "System.String",
+          "FieldLength": 199
         }
       }
     }
   ],
-  "Registered": "2021-04-11T14:13:48.8993207+02:00",
-  "RegisteredAssociateId": 643,
-  "Updated": "2000-04-04T14:13:48.8993207+02:00",
-  "UpdatedAssociateId": 746,
+  "Registered": "2012-12-02T02:38:26.1204323+01:00",
+  "RegisteredAssociateId": 149,
+  "Updated": "2012-02-21T02:38:26.1204323+01:00",
+  "UpdatedAssociateId": 977,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 76
+      "FieldLength": 300
     }
   },
   "_Links": {

@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 636,
-  "PrefDescId": 812,
-  "PrefValue": "accusamus",
-  "PrefShowValue": "aliquam",
-  "Description": "Configurable reciprocal portal",
+  "PrefDescLineId": 687,
+  "PrefDescId": 252,
+  "PrefValue": "laudantium",
+  "PrefShowValue": "laudantium",
+  "Description": "Digitized tangible neural-net",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 848
+      "FieldLength": 449
     }
   }
 }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 170,
-  "Name": "Walker Group",
-  "Tooltip": "voluptatum",
-  "Rank": 838,
-  "Rate": 22718.365999999998,
-  "Units": 18753.856,
+  "CurrencyId": 273,
+  "Name": "Ernser-Okuneva",
+  "Tooltip": "perspiciatis",
+  "Rank": 479,
+  "Rate": 22545.996,
+  "Units": 25977.726,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldLength": 792
     }
   }
 }

@@ -85,19 +85,19 @@ OK
 PUT /api/v1/List/{name}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 358,
-  "Name": "Kulas-Glover",
-  "Tooltip": "deserunt",
-  "Deleted": false,
-  "Rank": 209,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "necessitatibus",
+  "Id": 1001,
+  "Name": "Cremin Group",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 967,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "molestiae",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 665,
-  "Name": "Doyle-Cormier",
-  "Tooltip": "omnis",
+  "Id": 203,
+  "Name": "Mohr LLC",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 932,
+  "Rank": 869,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "dicta",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 115
+      "FieldType": "System.Int32",
+      "FieldLength": 474
     }
   }
 }

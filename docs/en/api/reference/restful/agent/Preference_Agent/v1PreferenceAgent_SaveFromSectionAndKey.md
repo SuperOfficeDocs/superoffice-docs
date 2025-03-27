@@ -96,8 +96,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "et",
-  "Key": "iste",
+  "Section": "aut",
+  "Key": "est",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 877,
-  "Section": "facilis",
-  "Key": "quo",
-  "Name": "Russel, Gerlach and Padberg",
+  "PrefDescId": 272,
+  "Section": "et",
+  "Key": "velit",
+  "Name": "Kshlerin-Hessel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reactive empowering secured line",
+  "Description": "Realigned didactic implementation",
   "IsBuiltin": false,
-  "TableName": "Becker-White",
-  "UserDefinedListId": 695,
-  "Rank": 524,
-  "SubGroup": "consequuntur",
-  "MinLevel": 130,
-  "MaxValue": 783,
-  "MinValue": 712,
+  "TableName": "Bednar Group",
+  "UserDefinedListId": 31,
+  "Rank": 828,
+  "SubGroup": "fugit",
+  "MinLevel": 497,
+  "MaxValue": 106,
+  "MinValue": 696,
   "RequiredLicense": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 857
+      "FieldLength": 186
     }
   }
 }

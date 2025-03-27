@@ -26,8 +26,8 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DocumentTemplate/MDOItems?flat=True
-GET /api/v1/List/DocumentTemplate/MDOItems?query=vel
+GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
+GET /api/v1/List/DocumentTemplate/MDOItems?query=quidem
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 703,
-    "Name": "Beatty-Quigley",
-    "ToolTip": "Fugiat et aut consequatur eaque.",
+    "Id": 34,
+    "Name": "Kub, Bins and Mayert",
+    "ToolTip": "Dolor totam provident rerum minima nam dolor.",
     "Deleted": false,
-    "Rank": 304,
-    "Type": "ea",
+    "Rank": 98,
+    "Type": "vitae",
     "ChildItems": [
       {
-        "Id": 162,
-        "Name": "Miller, Heathcote and Koelpin",
-        "ToolTip": "Qui est repudiandae ratione.",
+        "Id": 925,
+        "Name": "Weber LLC",
+        "ToolTip": "Labore facere qui consequatur ut rerum aut sed.",
         "Deleted": true,
-        "Rank": 499,
-        "Type": "dignissimos",
+        "Rank": 313,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "asperiores",
-        "ColorBlock": 905,
-        "ExtraInfo": "debitis",
-        "StyleHint": "suscipit",
-        "FullName": "Thomas Nader",
+        "IconHint": "voluptas",
+        "ColorBlock": 355,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "enim",
+        "FullName": "Sophie Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 321
+            "FieldType": "System.Int32",
+            "FieldLength": 351
           }
         }
       }
     ],
-    "IconHint": "quasi",
-    "ColorBlock": 486,
-    "ExtraInfo": "beatae",
-    "StyleHint": "in",
-    "FullName": "Lelia Douglas",
+    "IconHint": "perferendis",
+    "ColorBlock": 997,
+    "ExtraInfo": "adipisci",
+    "StyleHint": "eveniet",
+    "FullName": "Miles Herman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 436
+        "FieldType": "System.Int32",
+        "FieldLength": 808
       }
     }
   }

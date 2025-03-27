@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 669,
+  "ContactId": 9,
   "OnlyOpenSales": true
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Mayert, Eichmann and Senger",
-    "SaleDate": "1999-02-27T14:13:41.2508568+01:00",
-    "SaleId": 449,
-    "Probability": 338,
-    "Title": "quibusdam",
-    "Amount": 21765.63,
-    "Currency": "voluptatum",
-    "ProjectName": "O'Kon Inc and Sons",
-    "AssociateFullName": "Miss Darian Bechtelar DVM",
-    "Description": "Up-sized methodical Graphic Interface",
+    "ContactName": "Flatley LLC",
+    "SaleDate": "2016-10-25T02:38:21.8544876+02:00",
+    "SaleId": 116,
+    "Probability": 560,
+    "Title": "aut",
+    "Amount": 23959.43,
+    "Currency": "quaerat",
+    "ProjectName": "Gerlach, Cummerata and Haag",
+    "AssociateFullName": "Adelle Emard",
+    "Description": "Compatible motivating system engine",
     "Status": "Lost",
-    "WeightedAmount": 9972.387999999999,
-    "ProjectId": 109,
-    "EarningPercent": 19788.076,
-    "Earning": 7499.6619999999994,
-    "ContactId": 438,
-    "AssociateId": 106,
-    "PersonId": 932,
-    "SaleTypeId": 93,
-    "SaleTypeName": "Bahringer-Veum",
-    "PersonFullName": "Tevin Cummerata",
+    "WeightedAmount": 153.566,
+    "ProjectId": 609,
+    "EarningPercent": 26739.288,
+    "Earning": 15052.601999999999,
+    "ContactId": 465,
+    "AssociateId": 178,
+    "PersonId": 764,
+    "SaleTypeId": 177,
+    "SaleTypeName": "Schowalter-Schroeder",
+    "PersonFullName": "Coty Cremin",
     "Completed": "Completed",
-    "ActiveErpLinks": 902,
-    "NextDueDate": "2020-11-18T14:13:41.2508568+01:00",
-    "Number": "768128",
+    "ActiveErpLinks": 839,
+    "NextDueDate": "2005-07-29T02:38:21.8544876+02:00",
+    "Number": "502790",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 521
+        "FieldLength": 696
       }
     }
   }

@@ -88,16 +88,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 969,
-  "Name": "Prosacco Inc and Sons",
-  "Tooltip": "illo",
+  "Id": 40,
+  "Name": "Wilkinson, Konopelski and Brakus",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "Rank": 476,
+  "Rank": 722,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "odit",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 314,
-  "Name": "Spencer-Kulas",
-  "Tooltip": "quod",
+  "Id": 311,
+  "Name": "Leffler Group",
+  "Tooltip": "a",
   "Deleted": false,
-  "Rank": 680,
+  "Rank": 619,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sed",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sunt",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 263
+      "FieldLength": 730
     }
   }
 }

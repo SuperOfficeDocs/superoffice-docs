@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Future-proofed dynamic conglomeration",
-  "Postit": "corporis",
+  "Description": "Focused 3rd generation focus group",
+  "Postit": "dolor",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 330,
-  "IncludePerson": 462,
+  "GroupIdx": 581,
+  "IncludePerson": 702,
   "MemberCount": 99.99,
-  "Name": "Mitchell, Herzog and Reichel",
-  "PostitTextId": 930,
-  "CreatedDate": "2023-04-03T14:13:49.2430999+02:00",
-  "SelectionId": 558,
-  "SoundEx": "omnis",
-  "Source": 667,
-  "TextId": 783,
-  "UpdatedDate": "2011-05-24T14:13:49.2430999+02:00",
-  "UpdatedCount": 531,
-  "Visibility": 57,
+  "Name": "O'Kon, Weissnat and Lang",
+  "PostitTextId": 386,
+  "CreatedDate": "2021-04-18T02:38:26.4172802+02:00",
+  "SelectionId": 428,
+  "SoundEx": "nisi",
+  "Source": 880,
+  "TextId": 174,
+  "UpdatedDate": "2000-06-14T02:38:26.4172802+02:00",
+  "UpdatedCount": 956,
+  "Visibility": 833,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 151,
-  "TargetTableName": "Jaskolski Inc and Sons",
+  "CompanyUnique": false,
+  "TargetTableNumber": 336,
+  "TargetTableName": "Toy, Lubowitz and Labadie",
   "Completed": false,
-  "LeftSelectionId": 417,
-  "RightSelectionId": 755,
+  "LeftSelectionId": 237,
+  "RightSelectionId": 222,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Corwin Group",
-  "ShadowProviderName": "Harris, Durgan and Dare",
-  "ChartKey": "commodi",
-  "LastLoaded": "2005-02-25T14:13:49.2430999+01:00",
-  "LastLoadedBy": 793,
+  "MainProviderName": "Green, Koelpin and Herzog",
+  "ShadowProviderName": "Heidenreich-Stroman",
+  "ChartKey": "cupiditate",
+  "LastLoaded": "2017-03-08T02:38:26.4172802+01:00",
+  "LastLoadedBy": 146,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2000-03-06T14:13:49.2430999+01:00",
-  "LastMembershipChangeBy": 241,
+  "LastMembershipChange": "2008-09-15T02:38:26.4172802+02:00",
+  "LastMembershipChangeBy": 649,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "mollitia",
-  "MemberTabHeading": "eum",
-  "MailingsProviderName": "Mosciski Group",
-  "DashboardTileDefinitionId": 548,
+  "MainHeading": "nihil",
+  "MemberTabHeading": "cupiditate",
+  "MailingsProviderName": "Torp, Bergnaum and Hane",
+  "DashboardTileDefinitionId": 368,
   "VisibleFor": [
     {
-      "VisibleId": 520,
+      "VisibleId": 975,
       "Visibility": "All",
-      "DisplayValue": "officia"
+      "DisplayValue": "fuga"
     },
     {
-      "VisibleId": 520,
+      "VisibleId": 975,
       "Visibility": "All",
-      "DisplayValue": "officia"
+      "DisplayValue": "fuga"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Networked web-enabled portal",
-  "Postit": "ut",
+  "Description": "Reduced executive functionalities",
+  "Postit": "vel",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 611,
-  "IncludePerson": 283,
+  "GroupIdx": 689,
+  "IncludePerson": 156,
   "MemberCount": 99.99,
-  "Name": "VonRueden-Littel",
-  "PostitTextId": 967,
-  "CreatedDate": "2021-02-26T14:13:49.2430999+01:00",
-  "SelectionId": 82,
-  "SoundEx": "delectus",
-  "Source": 222,
-  "TextId": 485,
-  "UpdatedDate": "2008-12-14T14:13:49.2430999+01:00",
-  "UpdatedCount": 889,
-  "Visibility": 235,
+  "Name": "Rippin, Parisian and Bechtelar",
+  "PostitTextId": 703,
+  "CreatedDate": "2000-12-28T02:38:26.4172802+01:00",
+  "SelectionId": 662,
+  "SoundEx": "qui",
+  "Source": 956,
+  "TextId": 715,
+  "UpdatedDate": "2020-01-13T02:38:26.4172802+01:00",
+  "UpdatedCount": 837,
+  "Visibility": 61,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 4,
-  "TargetTableName": "Bradtke LLC",
+  "CompanyUnique": false,
+  "TargetTableNumber": 91,
+  "TargetTableName": "Stehr, Goyette and Anderson",
   "Completed": false,
-  "LeftSelectionId": 211,
-  "RightSelectionId": 500,
+  "LeftSelectionId": 976,
+  "RightSelectionId": 295,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Mosciski Group",
-  "ShadowProviderName": "McLaughlin-Koch",
-  "ChartKey": "nesciunt",
-  "LastLoaded": "2013-03-04T14:13:49.2430999+01:00",
-  "LastLoadedBy": 404,
+  "MainProviderName": "Leffler Group",
+  "ShadowProviderName": "Vandervort LLC",
+  "ChartKey": "magni",
+  "LastLoaded": "2015-11-19T02:38:26.4172802+01:00",
+  "LastLoadedBy": 906,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-09-08T14:13:49.2430999+02:00",
-  "LastMembershipChangeBy": 798,
+  "LastMembershipChange": "2009-11-22T02:38:26.4172802+01:00",
+  "LastMembershipChangeBy": 135,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "reprehenderit",
-  "MemberTabHeading": "neque",
-  "MailingsProviderName": "Treutel-Marquardt",
-  "DashboardTileDefinitionId": 504,
+  "MainHeading": "nostrum",
+  "MemberTabHeading": "voluptatem",
+  "MailingsProviderName": "Leuschke, Mitchell and Mitchell",
+  "DashboardTileDefinitionId": 446,
   "VisibleFor": [
     {
-      "VisibleId": 650,
+      "VisibleId": 379,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 532
         }
       }
     },
     {
-      "VisibleId": 650,
+      "VisibleId": 379,
       "Visibility": "All",
-      "DisplayValue": "perspiciatis",
+      "DisplayValue": "ab",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 532
         }
       }
     }
@@ -298,8 +298,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 756
+      "FieldType": "System.Int32",
+      "FieldLength": 685
     }
   },
   "_Links": {

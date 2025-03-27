@@ -29,7 +29,7 @@ Get the chat transcript, formatted as plain text or html
 | html | bool |  Get transcript as HTML |
 
 ```http
-POST /api/v1/ChatSession/{chatSessionId}/Transcript?html=True
+POST /api/v1/ChatSession/{chatSessionId}/Transcript?html=False
 ```
 
 
@@ -73,5 +73,5 @@ Accept-Language: sv
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"aut"
+"fugit"
 ```

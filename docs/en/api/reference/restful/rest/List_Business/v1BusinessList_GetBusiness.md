@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 870,
-  "Name": "Grimes-Ferry",
-  "Tooltip": "odit",
-  "Deleted": true,
-  "UdListDefinitionId": 461,
-  "Rank": 869,
+  "Id": 139,
+  "Name": "Botsford-Gusikowski",
+  "Tooltip": "eligendi",
+  "Deleted": false,
+  "UdListDefinitionId": 481,
+  "Rank": 675,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 36
+      "FieldType": "System.String",
+      "FieldLength": 68
     }
   }
 }

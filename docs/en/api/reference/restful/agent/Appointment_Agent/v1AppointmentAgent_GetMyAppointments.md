@@ -129,13 +129,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2010-02-27T14:13:39.3286178+01:00",
-  "EndTime": "2000-05-22T14:13:39.3286178+02:00",
-  "Count": 400
+  "StartTime": "2003-05-15T02:38:20.8389734+02:00",
+  "EndTime": "2018-08-30T02:38:20.8389734+02:00",
+  "Count": 100
 }
 ```
 
@@ -147,65 +147,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 505,
-    "StartDate": "2005-09-06T14:13:39.3286178+02:00",
-    "EndDate": "2011-01-16T14:13:39.3286178+01:00",
+    "AppointmentId": 849,
+    "StartDate": "2021-06-16T02:38:20.8545926+02:00",
+    "EndDate": "2018-11-23T02:38:20.8545926+01:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Estell Ferry",
-    "ContactName": "Little, Wunsch and Runolfsson",
-    "Description": "Cross-platform tangible data-warehouse",
-    "PersonFullName": "Wilhelmine Larkin",
-    "PersonId": 503,
-    "ContactId": 175,
-    "ProjectId": 299,
-    "ProjectName": "Schmeler, Romaguera and Herman",
-    "IsPublished": false,
-    "AssociateId": 614,
-    "ColorIndex": 148,
-    "IsFree": true,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "Task": "et",
+    "AssociateFullName": "Hank Berge",
+    "ContactName": "Maggio, Kohler and Auer",
+    "Description": "Automated full-range core",
+    "PersonFullName": "Ms. Margarette Alisa Becker",
+    "PersonId": 724,
+    "ContactId": 533,
+    "ProjectId": 930,
+    "ProjectName": "Koelpin-Corkery",
+    "IsPublished": true,
+    "AssociateId": 780,
+    "ColorIndex": 141,
+    "IsFree": false,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 39,
-    "PriorityName": "Mraz, Homenick and Considine",
+    "PriorityId": 573,
+    "PriorityName": "Bergnaum LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2004-01-26T14:13:39.3286178+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2004-10-18T02:38:20.8545926+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-04-01T14:13:39.3286178+02:00",
-    "RecurringEndDate": "2022-12-04T14:13:39.3286178+01:00",
-    "MotherId": 878,
-    "AssignedBy": 809,
-    "AssignedByFullName": "Gage Jennyfer Runte Jr.",
+    "RecurringStartDate": "2021-11-23T02:38:20.8545926+01:00",
+    "RecurringEndDate": "1998-05-08T02:38:20.8545926+02:00",
+    "MotherId": 845,
+    "AssignedBy": 464,
+    "AssignedByFullName": "Bethany Langosh DDS",
     "RejectReason": "",
-    "Location": "quia",
-    "AlarmLeadTime": "qui",
-    "SaleId": 645,
-    "SaleName": "Reinger LLC",
-    "AssociateName": "Lockman-Hayes",
-    "CreatedDate": "2010-12-17T14:13:39.3286178+01:00",
-    "CreatedBy": "dolores",
-    "CreatedByFullName": "Erick Reginald Schulist IV",
-    "CreatedByAssociateId": 78,
+    "Location": "qui",
+    "AlarmLeadTime": "nemo",
+    "SaleId": 3,
+    "SaleName": "Cartwright-Parker",
+    "AssociateName": "Murazik-Schinner",
+    "CreatedDate": "1999-10-16T02:38:20.8545926+02:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Dr. Salma Keanu Bergstrom",
+    "CreatedByAssociateId": 460,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 410,
-    "Title": "vel",
-    "Agenda": "praesentium",
-    "InternalNotes": "labore",
+    "PreferredTZLocation": 124,
+    "Title": "beatae",
+    "Agenda": "quam",
+    "InternalNotes": "beatae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 258
+        "FieldType": "System.Int32",
+        "FieldLength": 632
       }
     }
   }

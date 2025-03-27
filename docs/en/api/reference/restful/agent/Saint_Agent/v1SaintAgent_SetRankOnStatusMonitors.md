@@ -69,10 +69,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "nesciunt",
+  "Type": "labore",
   "ItemsIds": [
-    1002,
-    902
+    922,
+    835
   ]
 }
 ```

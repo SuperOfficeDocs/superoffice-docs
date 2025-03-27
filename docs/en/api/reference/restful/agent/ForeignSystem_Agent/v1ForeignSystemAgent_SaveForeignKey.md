@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Sauer, Beahan and Kunze",
-  "DeviceName": "Wolf, Lynch and Jewess",
-  "DeviceIdentifier": "magni"
+  "ApplicationName": "Herzog Inc and Sons",
+  "DeviceName": "Nader Group",
+  "DeviceIdentifier": "quis"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dignissimos",
-  "Value": "placeat",
-  "RecordId": 752,
-  "CreatedDate": "2008-06-20T14:13:40.3909833+02:00",
-  "UpdatedDate": "2010-09-26T14:13:40.3909833+02:00",
-  "UpdatedBy": "iste",
-  "CreatedBy": "fugiat",
-  "TableName": "Weber LLC",
+  "Key": "laudantium",
+  "Value": "accusantium",
+  "RecordId": 821,
+  "CreatedDate": "2000-11-04T02:38:21.4639053+01:00",
+  "UpdatedDate": "1998-12-02T02:38:21.4639053+01:00",
+  "UpdatedBy": "enim",
+  "CreatedBy": "ut",
+  "TableName": "Bosco, Ziemann and Dicki",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 303
+      "FieldLength": 444
     }
   }
 }

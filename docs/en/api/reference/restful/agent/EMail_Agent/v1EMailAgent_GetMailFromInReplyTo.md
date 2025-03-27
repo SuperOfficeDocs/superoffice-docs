@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/EMail/GetMailFromInReplyTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MessageId": "earum"
+  "MessageId": "accusamus"
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 233,
-      "ContactName": "Kling, Kessler and Hirthe",
-      "PersonId": 990,
-      "PersonName": "Rogahn, Wyman and Satterfield",
-      "AssociateId": 507,
-      "Address": "adipisci",
-      "EmailId": 400,
+      "ContactId": 202,
+      "ContactName": "Walsh, Kozey and O'Hara",
+      "PersonId": 338,
+      "PersonName": "Kuhlman, Feil and McCullough",
+      "AssociateId": 653,
+      "Address": "earum",
+      "EmailId": 687,
       "DuplicatePersonIds": [
-        595,
-        332
+        673,
+        308
       ],
-      "Name": "Koepp-O'Connell",
+      "Name": "Huels-Reilly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 744
+          "FieldType": "System.Int32",
+          "FieldLength": 702
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 948,
-      "ContactName": "Reichert Group",
-      "PersonId": 976,
-      "PersonName": "Koepp Group",
-      "AssociateId": 278,
-      "Address": "provident",
-      "EmailId": 161,
+      "ContactId": 909,
+      "ContactName": "Lind, Wuckert and Corkery",
+      "PersonId": 629,
+      "PersonName": "Sporer-Wilderman",
+      "AssociateId": 239,
+      "Address": "vel",
+      "EmailId": 323,
       "DuplicatePersonIds": [
-        387,
-        310
+        281,
+        455
       ],
-      "Name": "Reichel LLC",
+      "Name": "Yost Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 412
+          "FieldType": "System.Int32",
+          "FieldLength": 604
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 382,
-      "ContactName": "Kovacek Inc and Sons",
-      "PersonId": 921,
-      "PersonName": "Rolfson-Bayer",
-      "AssociateId": 748,
-      "Address": "eum",
-      "EmailId": 931,
+      "ContactId": 646,
+      "ContactName": "Langworth Inc and Sons",
+      "PersonId": 284,
+      "PersonName": "Collier, Maggio and Crona",
+      "AssociateId": 975,
+      "Address": "consequuntur",
+      "EmailId": 22,
       "DuplicatePersonIds": [
-        961,
-        979
+        924,
+        12
       ],
-      "Name": "Harris LLC",
+      "Name": "Halvorson-Wuckert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 427
+          "FieldLength": 811
         }
       }
     }
   ],
-  "Subject": "velit",
-  "HTMLBody": "consequatur",
+  "Subject": "maiores",
+  "HTMLBody": "qui",
   "From": null,
-  "Sent": "2023-11-30T14:13:40.1722829+01:00",
-  "Size": 348,
+  "Sent": "2019-05-18T02:38:21.3389145+02:00",
+  "Size": 380,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "est",
-  "PlainBody": "amet",
-  "IsSent": false,
+  "MessageID": "et",
+  "PlainBody": "est",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 789,
+  "ServerId": 783,
   "Attachments": [
     {
-      "Description": "Adaptive empowering circuit",
-      "Filename": "totam",
-      "Size": 483,
-      "Type": "ut",
-      "Encoding": "dicta",
-      "Id": "et",
-      "Disposition": "ad",
-      "IsSafeFileExtension": true,
+      "Description": "Streamlined object-oriented adapter",
+      "Filename": "pariatur",
+      "Size": 266,
+      "Type": "laboriosam",
+      "Encoding": "doloribus",
+      "Id": "nam",
+      "Disposition": "minima",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 594
+          "FieldType": "System.Int32",
+          "FieldLength": 859
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Friesen LLC",
+      "Name": "Keebler Inc and Sons",
       "Values": [
-        "nulla",
-        "debitis"
+        "distinctio",
+        "modi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldType": "System.Int32",
+          "FieldLength": 607
         }
       }
     },
     {
-      "Name": "Friesen LLC",
+      "Name": "Keebler Inc and Sons",
       "Values": [
-        "nulla",
-        "debitis"
+        "distinctio",
+        "modi"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 461
+          "FieldType": "System.Int32",
+          "FieldLength": 607
         }
       }
     }
   ],
-  "FolderName": "Crooks, D'Amore and Anderson",
-  "EmailItemId": 695,
-  "AccountId": 711,
-  "ReceivedAt": "2024-09-29T14:13:40.1722829+02:00",
+  "FolderName": "Weissnat-Ruecker",
+  "EmailItemId": 365,
+  "AccountId": 465,
+  "ReceivedAt": "1999-11-22T02:38:21.3389145+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2009-08-03T14:13:40.1722829+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2016-01-01T02:38:21.3389145+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 18
+      "FieldLength": 334
     }
   }
 }

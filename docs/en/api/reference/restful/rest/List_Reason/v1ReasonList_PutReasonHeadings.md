@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 722,
-    "Name": "Hirthe LLC",
-    "Tooltip": "laborum",
-    "Deleted": true,
-    "Rank": 739,
-    "UdListDefinitionId": 191
+    "HeadingId": 465,
+    "Name": "Swift, Powlowski and Jakubowski",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "Rank": 656,
+    "UdListDefinitionId": 37
   },
   {
-    "HeadingId": 722,
-    "Name": "Hirthe LLC",
-    "Tooltip": "laborum",
-    "Deleted": true,
-    "Rank": 739,
-    "UdListDefinitionId": 191
+    "HeadingId": 465,
+    "Name": "Swift, Powlowski and Jakubowski",
+    "Tooltip": "rerum",
+    "Deleted": false,
+    "Rank": 656,
+    "UdListDefinitionId": 37
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 615,
-    "Name": "Johnson-Blanda",
-    "Tooltip": "quia",
+    "HeadingId": 928,
+    "Name": "Will Group",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 504,
-    "UdListDefinitionId": 604,
+    "Rank": 279,
+    "UdListDefinitionId": 416,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 867
+        "FieldType": "System.Int32",
+        "FieldLength": 418
       }
     }
   }

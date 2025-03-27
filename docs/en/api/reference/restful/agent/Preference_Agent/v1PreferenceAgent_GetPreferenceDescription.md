@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=747
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=208
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 324,
-  "Section": "ullam",
-  "Key": "nisi",
-  "Name": "White, Funk and Kassulke",
+  "PrefDescId": 638,
+  "Section": "officiis",
+  "Key": "aut",
+  "Name": "Koss, Rau and Roberts",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Pre-emptive multimedia database",
+  "Description": "Diverse reciprocal analyzer",
   "IsBuiltin": false,
-  "TableName": "Heaney LLC",
-  "UserDefinedListId": 685,
-  "Rank": 363,
-  "SubGroup": "laudantium",
-  "MinLevel": 362,
-  "MaxValue": 158,
-  "MinValue": 257,
-  "RequiredLicense": "in",
+  "TableName": "Konopelski-Willms",
+  "UserDefinedListId": 484,
+  "Rank": 494,
+  "SubGroup": "ad",
+  "MinLevel": 63,
+  "MaxValue": 898,
+  "MinValue": 631,
+  "RequiredLicense": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 570
+      "FieldType": "System.Int32",
+      "FieldLength": 896
     }
   }
 }

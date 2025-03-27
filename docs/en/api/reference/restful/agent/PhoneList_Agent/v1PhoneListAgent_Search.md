@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "soluta"
+  "SearchString": "architecto"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(471)933-6989",
-    "PersonCellPhone": "(394)083-6724",
-    "PersonPrivatePhone": "(791)162-4406",
-    "PersonFaxNumber": "443237",
-    "PersonPagerNumber": "732201",
-    "PersonEmail": "austin.bartell@schulist.biz",
-    "Id": 255,
-    "Name": "Olson LLC",
-    "Tooltip": "itaque",
-    "UniqueId": "repudiandae",
+    "PersonDirectPhone": "915-545-1491 x3764",
+    "PersonCellPhone": "615.994.6190 x7500",
+    "PersonPrivatePhone": "187.266.8449 x59552",
+    "PersonFaxNumber": "1178084",
+    "PersonPagerNumber": "660523",
+    "PersonEmail": "deion_kemmer@schulist.com",
+    "Id": 679,
+    "Name": "Wyman, Mohr and Bogan",
+    "Tooltip": "et",
+    "UniqueId": "debitis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldLength": 727
       }
     }
   }

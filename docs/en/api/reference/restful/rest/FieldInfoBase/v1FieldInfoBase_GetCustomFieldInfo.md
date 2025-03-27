@@ -71,7 +71,7 @@ OK
 GET /api/v1/Schema/{tableName}/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Parker-King",
-  "DisplayName": "Toy-Treutel",
-  "Description": "Profit-focused actuating flexibility",
-  "ShortLabel": "cumque",
-  "HideLabel": false,
-  "HideField": true,
+  "FieldName": "Kris, Wolff and Kihn",
+  "DisplayName": "Langworth Inc and Sons",
+  "Description": "Reduced well-modulated process improvement",
+  "ShortLabel": "qui",
+  "HideLabel": true,
+  "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": false,
-  "IsReadOnly": true,
+  "IsMandatory": true,
+  "IsReadOnly": false,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 379,
-  "TemplateVariableName": "Smitham Inc and Sons"
+  "Rank": 127,
+  "TemplateVariableName": "Johns-Feest"
 }
 ```

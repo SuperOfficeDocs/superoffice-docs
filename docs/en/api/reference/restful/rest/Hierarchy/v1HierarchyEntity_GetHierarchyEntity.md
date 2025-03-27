@@ -82,7 +82,7 @@ HierarchyEntity found.
 GET /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 584,
+  "HierarchyId": 284,
   "Domain": "Dashboards",
-  "Name": "Goyette-Daniel",
-  "Fullname": "ut",
-  "ParentId": 76,
+  "Name": "Ebert, Bruen and Quigley",
+  "Fullname": "est",
+  "ParentId": 10,
   "Children": [
     {
-      "HierarchyId": 624,
+      "HierarchyId": 913,
       "Domain": "Dashboards",
-      "Name": "Schoen, Renner and Balistreri",
-      "Fullname": "nobis",
-      "ParentId": 179,
+      "Name": "Hilpert, Padberg and Ullrich",
+      "Fullname": "voluptatem",
+      "ParentId": 956,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2024-04-13T14:13:48.8993207+02:00",
-      "RegisteredAssociateId": 767,
-      "Updated": "2018-07-22T14:13:48.8993207+02:00",
-      "UpdatedAssociateId": 3,
+      "Registered": "2005-09-18T02:38:26.1204323+02:00",
+      "RegisteredAssociateId": 218,
+      "Updated": "2009-11-26T02:38:26.1204323+01:00",
+      "UpdatedAssociateId": 107,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 463
         }
       }
     }
   ],
-  "Registered": "2017-04-11T14:13:48.8993207+02:00",
-  "RegisteredAssociateId": 361,
-  "Updated": "2012-01-19T14:13:48.8993207+01:00",
-  "UpdatedAssociateId": 60,
+  "Registered": "2024-10-30T02:38:26.1204323+01:00",
+  "RegisteredAssociateId": 289,
+  "Updated": "2002-09-14T02:38:26.1204323+02:00",
+  "UpdatedAssociateId": 310,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 743
+      "FieldLength": 264
     }
   },
   "_Links": {

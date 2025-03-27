@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 661,
-  "UniqueId": "voluptate",
-  "Name": "Rowe Group",
-  "Description": "Upgradable radical product",
-  "AssociateId": 279,
-  "Columns": 726,
+  "DashboardId": 170,
+  "UniqueId": "quis",
+  "Name": "Bosco LLC",
+  "Description": "Fundamental zero administration core",
+  "AssociateId": 593,
+  "Columns": 84,
   "Theme": null,
-  "VisibleForAll": 460,
+  "VisibleForAll": 529,
   "VisibleForAssociates": [
-    281,
-    242
+    819,
+    495
   ],
   "VisibleForGroups": [
-    992,
-    258
+    524,
+    817
   ],
-  "PinForAll": 323,
+  "PinForAll": 571,
   "PinForAssociates": [
-    190,
-    346
+    744,
+    475
   ],
   "PinForGroups": [
-    59,
-    339
+    822,
+    715
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 329,
-  "UniqueId": "sequi",
-  "Name": "Stehr LLC",
-  "Description": "Customer-focused intermediate matrices",
-  "AssociateId": 386,
-  "Columns": 398,
+  "DashboardId": 55,
+  "UniqueId": "fuga",
+  "Name": "Abernathy Inc and Sons",
+  "Description": "Public-key responsive matrix",
+  "AssociateId": 172,
+  "Columns": 352,
   "Theme": null,
-  "VisibleForAll": 57,
+  "VisibleForAll": 612,
   "VisibleForAssociates": [
-    581,
-    815
+    349,
+    528
   ],
   "VisibleForGroups": [
-    969,
-    230
+    792,
+    497
   ],
-  "PinForAll": 583,
+  "PinForAll": 683,
   "PinForAssociates": [
-    320,
-    575
+    201,
+    491
   ],
   "PinForGroups": [
-    128,
-    931
+    852,
+    118
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 570
+      "FieldType": "System.Int32",
+      "FieldLength": 325
     }
   },
   "_Links": {

@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 742,
-  "ERPQuoteAlternativeKey": "ipsam",
-  "QuoteVersionId": 772,
-  "Name": "D'Amore Group",
-  "Description": "Seamless exuding workforce",
+  "QuoteAlternativeId": 200,
+  "ERPQuoteAlternativeKey": "quia",
+  "QuoteVersionId": 83,
+  "Name": "Rodriguez, Sauer and Lang",
+  "Description": "Synchronised zero tolerance focus group",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 30810.354,
-  "ERPDiscountAmount": 29769.865999999998,
-  "DiscountPercent": 14146.876,
-  "DiscountAmount": 5399.882,
+  "ERPDiscountPercent": 18133.324,
+  "ERPDiscountAmount": 2478.994,
+  "DiscountPercent": 2193.7999999999997,
+  "DiscountAmount": 689.48,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "officia",
-  "VAT": 16124.43,
-  "EarningPercent": 8276.894,
-  "EarningAmount": 28074.372,
-  "SubTotal": 20863.038,
-  "TotalPrice": 29099.19,
-  "ExtraField1": "provident",
-  "ExtraField2": "doloremque",
-  "ExtraField3": "aut",
-  "ExtraField4": "laudantium",
-  "ExtraField5": "cumque",
+  "VATInfo": "voluptate",
+  "VAT": 19314.842,
+  "EarningPercent": 26745.556,
+  "EarningAmount": 26504.237999999998,
+  "SubTotal": 13554.55,
+  "TotalPrice": 6669.152,
+  "ExtraField1": "illo",
+  "ExtraField2": "beatae",
+  "ExtraField3": "quo",
+  "ExtraField4": "voluptatem",
+  "ExtraField5": "facere",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldLength": 245
     }
   }
 }

@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kihn LLC",
-  "Columns": "facilis",
-  "SortOrder": "incidunt",
-  "Restriction": "cupiditate",
-  "Entities": "omnis",
-  "Page": 498,
-  "PageSize": 251,
-  "Options": "neque"
+  "ProviderName": "Schimmel LLC",
+  "Columns": "ratione",
+  "SortOrder": "doloribus",
+  "Restriction": "unde",
+  "Entities": "ullam",
+  "Page": 530,
+  "PageSize": 895,
+  "Options": "corporis"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 378,
+  "RowCount": 740,
   "Rows": [
     {
-      "EntityName": "Lesch-Balistreri",
-      "PrimaryKey": 544,
+      "EntityName": "Gulgowski, Powlowski and Schoen",
+      "PrimaryKey": 876,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "autem",
-          "TooltipHint": "qui",
-          "LinkHint": "fuga"
+          "DisplayValue": "odit",
+          "TooltipHint": "non",
+          "LinkHint": "ex"
         }
       },
-      "LinkHint": "cum",
-      "StyleHint": "sit",
+      "LinkHint": "a",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 497
+          "FieldLength": 403
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldType": "System.String",
+      "FieldLength": 549
     }
   }
 }

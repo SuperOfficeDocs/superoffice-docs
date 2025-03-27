@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 343,
-  "AttachmentId": "magni"
+  "DocId": 577,
+  "AttachmentId": "numquam"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Vision-oriented demand-driven capacity",
-  "Filename": "temporibus",
-  "Size": 509,
-  "Type": "quis",
-  "Encoding": "numquam",
-  "Id": "nostrum",
-  "Disposition": "nemo",
+  "Description": "Assimilated non-volatile approach",
+  "Filename": "dignissimos",
+  "Size": 298,
+  "Type": "est",
+  "Encoding": "ipsa",
+  "Id": "illo",
+  "Disposition": "libero",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 305
+      "FieldLength": 12
     }
   }
 }

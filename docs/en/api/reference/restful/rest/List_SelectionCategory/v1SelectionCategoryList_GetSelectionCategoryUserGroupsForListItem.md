@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Hamill, Bode and Schmitt",
-    "ToolTip": "Ea perspiciatis veniam sed et ipsum ipsam.",
+    "Id": 176,
+    "Name": "Kovacek-Pfeffer",
+    "ToolTip": "Dolor voluptas eius.",
     "Deleted": true,
-    "Rank": 471,
-    "Type": "voluptas",
-    "ColorBlock": 382,
-    "IconHint": "eaque",
+    "Rank": 154,
+    "Type": "et",
+    "ColorBlock": 807,
+    "IconHint": "accusantium",
     "Selected": false,
-    "LastChanged": "2021-11-19T14:13:50.2439578+01:00",
+    "LastChanged": "2005-02-02T02:38:26.9330101+01:00",
     "ChildItems": [
       {
-        "Id": 982,
-        "Name": "Nicolas Inc and Sons",
-        "ToolTip": "Voluptas assumenda voluptatem est doloribus illum culpa.",
-        "Deleted": true,
-        "Rank": 451,
-        "Type": "cumque",
-        "ColorBlock": 491,
-        "IconHint": "sunt",
+        "Id": 825,
+        "Name": "Greenholt-Trantow",
+        "ToolTip": "Corporis ratione omnis ex consequuntur eaque.",
+        "Deleted": false,
+        "Rank": 385,
+        "Type": "dignissimos",
+        "ColorBlock": 925,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2000-05-03T14:13:50.2439578+02:00",
+        "LastChanged": "2004-08-05T02:38:26.9330101+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "esse",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Obie Durgan",
+        "ExtraInfo": "possimus",
+        "StyleHint": "odio",
+        "Hidden": false,
+        "FullName": "Mrs. Mya Herzog",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 944
+            "FieldLength": 61
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "sed",
-    "Hidden": true,
-    "FullName": "Grant Raquel Predovic DVM",
+    "ExtraInfo": "itaque",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Mrs. Karson Mante II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 485
       }
     }
   }

@@ -77,17 +77,17 @@ OK
 POST /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 63,
-  "Name": "Beer Inc and Sons",
-  "Tooltip": "at",
-  "Rank": 205,
-  "Rate": 29271.559999999998,
-  "Units": 7778.588,
-  "Deleted": false
+  "CurrencyId": 653,
+  "Name": "O'Keefe, Johns and Spinka",
+  "Tooltip": "rerum",
+  "Rank": 865,
+  "Rate": 25081.402,
+  "Units": 27005.678,
+  "Deleted": true
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 170,
-  "Name": "Erdman-Gislason",
-  "Tooltip": "tenetur",
-  "Rank": 917,
-  "Rate": 20455.618,
-  "Units": 22285.874,
+  "CurrencyId": 762,
+  "Name": "Schaefer LLC",
+  "Tooltip": "non",
+  "Rank": 666,
+  "Rate": 9514.824,
+  "Units": 21445.962,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 613
+      "FieldLength": 791
     }
   }
 }

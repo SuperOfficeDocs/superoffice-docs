@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 868,
-    "Name": "Hickle-Eichmann",
-    "Tooltip": "a",
-    "Deleted": false,
-    "Rank": 142,
-    "UdListDefinitionId": 67,
+    "HeadingId": 138,
+    "Name": "Block Group",
+    "Tooltip": "itaque",
+    "Deleted": true,
+    "Rank": 535,
+    "UdListDefinitionId": 921,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 950
+        "FieldType": "System.Int32",
+        "FieldLength": 212
       }
     }
   }

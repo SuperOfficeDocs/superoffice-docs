@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 825,
-  "Name": "Hansen Group",
-  "Tooltip": "quam",
+  "Id": 763,
+  "Name": "Zulauf, Prosacco and Grady",
+  "Tooltip": "vel",
   "Deleted": true,
-  "UdListDefinitionId": 355,
-  "Rank": 605,
+  "UdListDefinitionId": 509,
+  "Rank": 341,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   }
 }

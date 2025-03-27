@@ -85,16 +85,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 945,
-  "ERPPriceListKey": "in",
-  "QuoteConnectionId": 821,
-  "Name": "Hermiston, Gorczany and Larkin",
-  "Description": "Total composite application",
-  "Currency": "omnis",
-  "CurrencyName": "O'Hara, Murazik and Heaney",
-  "ValidFrom": "2021-11-21T14:13:41.0783269+01:00",
-  "ValidTo": "2007-09-22T14:13:41.0783269+02:00",
-  "IsActive": false
+  "PriceListId": 417,
+  "ERPPriceListKey": "ullam",
+  "QuoteConnectionId": 44,
+  "Name": "Sipes LLC",
+  "Description": "Vision-oriented homogeneous contingency",
+  "Currency": "maiores",
+  "CurrencyName": "Hudson Inc and Sons",
+  "ValidFrom": "2023-10-26T02:38:21.7607486+02:00",
+  "ValidTo": "1999-09-23T02:38:21.7607486+02:00",
+  "IsActive": true
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 434,
-  "ERPPriceListKey": "eveniet",
-  "QuoteConnectionId": 836,
-  "Name": "Baumbach-Schmidt",
-  "Description": "Innovative directional strategy",
-  "Currency": "voluptas",
-  "CurrencyName": "Thiel-Bernier",
-  "ValidFrom": "2021-05-07T14:13:41.0783269+02:00",
-  "ValidTo": "2007-03-13T14:13:41.0783269+01:00",
-  "IsActive": true,
+  "PriceListId": 22,
+  "ERPPriceListKey": "rerum",
+  "QuoteConnectionId": 252,
+  "Name": "Mayert-Hand",
+  "Description": "Open-source bottom-line knowledge base",
+  "Currency": "quia",
+  "CurrencyName": "Haley, Runte and Wiegand",
+  "ValidFrom": "2005-07-24T02:38:21.7607486+02:00",
+  "ValidTo": "2014-10-14T02:38:21.7607486+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldLength": 301
     }
   }
 }

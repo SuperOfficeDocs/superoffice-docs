@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 763,
-  "Year": 713,
-  "TargetDimensionId": 995
+  "UserGroupId": 935,
+  "Year": 904,
+  "TargetDimensionId": 932
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 187,
+    "TargetAssignmentInfoId": 700,
     "Values": [
-      35,
-      838
+      809,
+      91
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 752,
-    "DimensionListItemDisplayName": "Herzog, Lebsack and Stark",
+    "DimensionListItem": 95,
+    "DimensionListItemDisplayName": "Prohaska Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 179
+        "FieldLength": 560
       }
     }
   }

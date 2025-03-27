@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 353,
-  "ListItemId": 225,
+  "UdListDefinitionId": 376,
+  "ListItemId": 732,
   "UserGroups": [
     {
-      "Id": 491,
-      "Name": "Spinka Group",
-      "ToolTip": "Ea aut error dolorem praesentium.",
-      "Deleted": true,
-      "Rank": 554,
-      "Type": "rerum",
-      "ColorBlock": 630,
-      "IconHint": "officia",
-      "Selected": false,
-      "LastChanged": "1997-10-13T14:13:40.4690906+02:00",
+      "Id": 614,
+      "Name": "Gottlieb Group",
+      "ToolTip": "Excepturi consequuntur aut nihil distinctio.",
+      "Deleted": false,
+      "Rank": 401,
+      "Type": "ullam",
+      "ColorBlock": 417,
+      "IconHint": "ea",
+      "Selected": true,
+      "LastChanged": "2013-09-18T02:38:21.4951545+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "alias",
-      "StyleHint": "harum",
+      "ExtraInfo": "explicabo",
+      "StyleHint": "nobis",
       "Hidden": false,
-      "FullName": "Daisha Gleichner"
+      "FullName": "Ms. Destinee Bosco PhD"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 171,
-    "Name": "Zemlak LLC",
-    "ToolTip": "Animi et iure inventore.",
+    "Id": 496,
+    "Name": "Wolff Inc and Sons",
+    "ToolTip": "Quis ea non qui eum reprehenderit veniam enim.",
     "Deleted": true,
-    "Rank": 494,
-    "Type": "voluptatem",
-    "ColorBlock": 761,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "2004-07-06T14:13:40.4690906+02:00",
+    "Rank": 635,
+    "Type": "et",
+    "ColorBlock": 55,
+    "IconHint": "excepturi",
+    "Selected": true,
+    "LastChanged": "2018-09-06T02:38:21.4951545+02:00",
     "ChildItems": [
       {
-        "Id": 981,
-        "Name": "Pacocha Group",
-        "ToolTip": "Est et fugit quia totam.",
-        "Deleted": false,
-        "Rank": 248,
-        "Type": "delectus",
-        "ColorBlock": 875,
-        "IconHint": "necessitatibus",
+        "Id": 800,
+        "Name": "Fisher, McClure and Skiles",
+        "ToolTip": "Sequi ullam autem asperiores.",
+        "Deleted": true,
+        "Rank": 169,
+        "Type": "rerum",
+        "ColorBlock": 631,
+        "IconHint": "corrupti",
         "Selected": true,
-        "LastChanged": "2002-02-15T14:13:40.4690906+01:00",
+        "LastChanged": "2001-09-29T02:38:21.4951545+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Kendrick Jakubowski",
+        "ExtraInfo": "quia",
+        "StyleHint": "natus",
+        "Hidden": false,
+        "FullName": "Miss Gilbert Lee Berge DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 750
+            "FieldType": "System.Int32",
+            "FieldLength": 484
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "sed",
+    "StyleHint": "impedit",
     "Hidden": false,
-    "FullName": "Mr. Newton Tommie Kub DDS",
+    "FullName": "Geraldine Lowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 331
+        "FieldType": "System.String",
+        "FieldLength": 801
       }
     }
   }

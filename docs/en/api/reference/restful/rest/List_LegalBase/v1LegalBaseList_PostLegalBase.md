@@ -79,11 +79,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 868,
-  "Name": "Smitham-Parker",
-  "Tooltip": "mollitia",
-  "Rank": 421,
-  "Key": "velit",
+  "LegalBaseId": 993,
+  "Name": "Wolff, Kassulke and Huels",
+  "Tooltip": "veniam",
+  "Rank": 2,
+  "Key": "neque",
   "Deleted": false
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 155,
-  "Name": "Lindgren, Hauck and Johns",
-  "Tooltip": "voluptatum",
-  "Rank": 66,
-  "Key": "molestiae",
+  "LegalBaseId": 485,
+  "Name": "Stracke LLC",
+  "Tooltip": "inventore",
+  "Rank": 963,
+  "Key": "distinctio",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldLength": 864
     }
   }
 }

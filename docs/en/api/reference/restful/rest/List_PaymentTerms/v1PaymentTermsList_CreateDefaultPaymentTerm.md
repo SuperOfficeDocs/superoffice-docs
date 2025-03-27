@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 266,
-  "Name": "Cummings-Gaylord",
-  "Tooltip": "necessitatibus",
+  "Id": 2,
+  "Name": "Witting-Stamm",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "UdListDefinitionId": 31,
-  "Rank": 233,
+  "UdListDefinitionId": 515,
+  "Rank": 868,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 812
+      "FieldLength": 841
     }
   }
 }

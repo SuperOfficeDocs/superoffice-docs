@@ -731,7 +731,7 @@ This is the archive Provider for the Selection appouintment archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentSelectionV2?$select=contact/contactUdef/SuperOffice:9,person/personAddress/state,person/personAssociate/userName,appointmentUdef/SuperOffice:3,project/projectAssociate/ejDisplayName
+GET /api/v1/archive/AppointmentSelectionV2?$select=appointmentId,contact/mainContact,sale/competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

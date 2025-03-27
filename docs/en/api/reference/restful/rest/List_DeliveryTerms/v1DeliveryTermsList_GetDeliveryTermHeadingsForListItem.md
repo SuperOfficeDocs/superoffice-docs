@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 253,
-    "Name": "Dare-Huels",
-    "ToolTip": "Et expedita aut explicabo quis laboriosam fuga tempora.",
-    "Deleted": false,
-    "Rank": 576,
-    "Type": "inventore",
-    "ColorBlock": 186,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2019-11-03T14:13:49.9312861+01:00",
+    "Id": 679,
+    "Name": "Harris, Gusikowski and Kutch",
+    "ToolTip": "A a eos perferendis commodi eos.",
+    "Deleted": true,
+    "Rank": 72,
+    "Type": "fugit",
+    "ColorBlock": 711,
+    "IconHint": "labore",
+    "Selected": false,
+    "LastChanged": "2008-10-17T02:38:26.7455241+02:00",
     "ChildItems": [
       {
-        "Id": 503,
-        "Name": "Bahringer-Boyer",
-        "ToolTip": "Quisquam pariatur voluptas.",
+        "Id": 816,
+        "Name": "Graham, Prohaska and Emmerich",
+        "ToolTip": "Facilis neque rem eos adipisci quo.",
         "Deleted": false,
-        "Rank": 648,
-        "Type": "voluptate",
-        "ColorBlock": 202,
-        "IconHint": "ut",
+        "Rank": 778,
+        "Type": "dolorem",
+        "ColorBlock": 271,
+        "IconHint": "perspiciatis",
         "Selected": false,
-        "LastChanged": "2013-01-04T14:13:49.9312861+01:00",
+        "LastChanged": "2012-04-20T02:38:26.7455241+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laudantium",
-        "StyleHint": "vel",
+        "ExtraInfo": "et",
+        "StyleHint": "pariatur",
         "Hidden": true,
-        "FullName": "Miss Lula Weber",
+        "FullName": "Marcelo Huels",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 157
+            "FieldType": "System.String",
+            "FieldLength": 166
           }
         }
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "quo",
+    "ExtraInfo": "omnis",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Wilhelm Preston Glover I",
+    "FullName": "Mr. Sydnee Keira Buckridge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 704
+        "FieldLength": 253
       }
     }
   }

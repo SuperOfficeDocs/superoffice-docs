@@ -41,6 +41,7 @@ Criteria storage for Selection and other Find mechanisms
 | Fields | Types | Description |
 |--------|-------|-------------|
 |SearchCriterionValue\_id |PK |Clustered, Unique |
+|SearchCriterion\_id |FK |Index |
 
 ## Relationships
 

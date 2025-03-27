@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 66,
-  "Section": "possimus",
+  "PrefDescId": 609,
+  "Section": "veniam",
   "Key": "ut",
-  "Name": "Mayer, Sporer and Jakubowski",
+  "Name": "Heidenreich-Schiller",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Face to face 4th generation definition",
-  "IsBuiltin": true,
-  "TableName": "Goldner Inc and Sons",
-  "UserDefinedListId": 377,
-  "Rank": 949,
-  "SubGroup": "doloremque",
-  "MinLevel": 13,
-  "MaxValue": 842,
-  "MinValue": 986,
-  "RequiredLicense": "tempore",
+  "Description": "Ergonomic motivating budgetary management",
+  "IsBuiltin": false,
+  "TableName": "Kuphal LLC",
+  "UserDefinedListId": 813,
+  "Rank": 169,
+  "SubGroup": "veniam",
+  "MinLevel": 500,
+  "MaxValue": 639,
+  "MinValue": 700,
+  "RequiredLicense": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 361
     }
   }
 }

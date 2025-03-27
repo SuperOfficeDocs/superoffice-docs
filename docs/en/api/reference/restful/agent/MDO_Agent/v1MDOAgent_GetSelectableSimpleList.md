@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Rohan, Dicki and Feil"
+  "Name": "Jewess-Runte"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 476,
-    "Name": "Mitchell-Moen",
-    "ToolTip": "Qui vitae facere atque.",
+    "Id": 508,
+    "Name": "Miller, Nienow and Hirthe",
+    "ToolTip": "Nihil atque quos corrupti.",
     "Deleted": false,
-    "Rank": 327,
-    "Type": "fugiat",
-    "ColorBlock": 5,
-    "IconHint": "pariatur",
-    "Selected": false,
-    "LastChanged": "2018-08-14T14:13:40.5940621+02:00",
+    "Rank": 805,
+    "Type": "ut",
+    "ColorBlock": 968,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2021-08-13T02:38:21.5732692+02:00",
     "ChildItems": [
       {
-        "Id": 682,
-        "Name": "Goyette, Padberg and Davis",
-        "ToolTip": "Maiores perspiciatis dicta est nostrum rerum.",
-        "Deleted": false,
-        "Rank": 681,
-        "Type": "ex",
-        "ColorBlock": 221,
-        "IconHint": "et",
+        "Id": 168,
+        "Name": "Johnson-Blanda",
+        "ToolTip": "Illum nulla repudiandae earum id fugiat exercitationem fugiat.",
+        "Deleted": true,
+        "Rank": 293,
+        "Type": "qui",
+        "ColorBlock": 378,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2009-12-18T14:13:40.5940621+01:00",
+        "LastChanged": "2006-06-08T02:38:21.5732692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "non",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Alex Lowe",
+        "FullName": "Alejandra Russel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 375
+            "FieldType": "System.Int32",
+            "FieldLength": 314
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "impedit",
-    "Hidden": false,
-    "FullName": "Eunice Dibbert",
+    "ExtraInfo": "et",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Judge Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldLength": 274
       }
     }
   }

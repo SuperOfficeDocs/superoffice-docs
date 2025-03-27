@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 855,
-  "StartTime": "2005-04-07T14:13:40.0004493+02:00",
-  "EndTime": "2009-04-27T14:13:40.0004493+02:00",
-  "Count": 192,
+  "PersonId": 778,
+  "StartTime": "2020-12-10T02:38:21.2295568+01:00",
+  "EndTime": "2002-07-21T02:38:21.2295568+02:00",
+  "Count": 642,
   "DocumentTemplateIds": [
-    456,
-    278
+    309,
+    160
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 480,
-    "Attention": "sunt",
-    "Header": "accusantium",
-    "Name": "Schultz Inc and Sons",
-    "OurRef": "molestiae",
-    "YourRef": "qui",
-    "Description": "Sharable attitude-oriented array",
-    "DocumentTemplate": "voluptatem",
-    "IsPublished": true,
-    "PersonId": 204,
-    "PersonFullName": "Casimer Lowe",
-    "AssociateFullName": "Maynard Lueilwitz",
-    "ContactId": 816,
-    "ContactName": "Quitzon-Stokes",
-    "ProjectId": 57,
-    "ProjectName": "Boyle-Bins",
-    "AssociateId": 237,
-    "Snum": 155,
-    "SaleId": 31,
-    "SaleName": "Barrows-Heidenreich",
+    "DocumentId": 629,
+    "Attention": "reprehenderit",
+    "Header": "debitis",
+    "Name": "Morar LLC",
+    "OurRef": "rem",
+    "YourRef": "perferendis",
+    "Description": "Stand-alone value-added array",
+    "DocumentTemplate": "repudiandae",
+    "IsPublished": false,
+    "PersonId": 366,
+    "PersonFullName": "Freida Connelly",
+    "AssociateFullName": "Mrs. Dejon Isaac Bergstrom II",
+    "ContactId": 890,
+    "ContactName": "Mohr Group",
+    "ProjectId": 166,
+    "ProjectName": "Dicki-D'Amore",
+    "AssociateId": 244,
+    "Snum": 106,
+    "SaleId": 57,
+    "SaleName": "Reichel, Terry and Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 943
       }
     }
   }

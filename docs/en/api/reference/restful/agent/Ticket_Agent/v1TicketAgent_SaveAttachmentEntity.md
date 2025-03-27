@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Ticket/SaveAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 787,
-  "Name": "Schultz, Rowe and Murphy",
-  "ContentType": "non",
-  "AttSize": 931,
-  "InlineImage": true,
-  "ContentId": "suscipit",
-  "AuthKey": "praesentium",
+  "AttachmentId": 308,
+  "Name": "Thiel, Bauch and Kuphal",
+  "ContentType": "quam",
+  "AttSize": 670,
+  "InlineImage": false,
+  "ContentId": "vero",
+  "AuthKey": "eum",
   "IsSafeFileExtension": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 583,
-  "Name": "Borer-Bahringer",
-  "ContentType": "at",
-  "AttSize": 697,
-  "InlineImage": true,
-  "ContentId": "dolorum",
-  "AuthKey": "et",
+  "AttachmentId": 860,
+  "Name": "Renner, Torp and Stoltenberg",
+  "ContentType": "inventore",
+  "AttSize": 629,
+  "InlineImage": false,
+  "ContentId": "consequatur",
+  "AuthKey": "architecto",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldType": "System.String",
+      "FieldLength": 317
     }
   }
 }

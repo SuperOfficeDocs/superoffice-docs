@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/CreateDefaultForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 390,
-  "Name": "Senger-Olson",
-  "CreatedDate": "2013-06-08T14:13:40.3753617+02:00",
-  "UpdatedDate": "2016-09-10T14:13:40.3753617+02:00",
+  "ForeignAppId": 553,
+  "Name": "Fahey LLC",
+  "CreatedDate": "2001-09-07T02:38:21.4482803+02:00",
+  "UpdatedDate": "2024-08-14T02:38:21.4482803+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 239,
-      "Name": "Gorczany-Parisian",
-      "CreatedDate": "2019-09-17T14:13:40.3753617+02:00",
-      "UpdatedDate": "2011-06-07T14:13:40.3753617+02:00",
-      "AssociateFullName": "Prof. Tyson Colton Shields",
-      "CreatedBy": "at",
-      "UpdatedBy": "quas",
-      "DeviceIdentifier": "explicabo",
-      "ForeignAppId": 58,
+      "ForeignDeviceId": 284,
+      "Name": "Boyer-Marquardt",
+      "CreatedDate": "1999-12-24T02:38:21.4482803+01:00",
+      "UpdatedDate": "2017-10-21T02:38:21.4482803+02:00",
+      "AssociateFullName": "Nikolas O'Keefe",
+      "CreatedBy": "dolor",
+      "UpdatedBy": "ea",
+      "DeviceIdentifier": "culpa",
+      "ForeignAppId": 36,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 57
+          "FieldType": "System.Int32",
+          "FieldLength": 710
         }
       }
     }
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 29
+      "FieldType": "System.Int32",
+      "FieldLength": 375
     }
   }
 }

@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 416,
-  "Name": "Fadel-Legros",
-  "CreatedDate": "2023-12-31T14:13:48.8680781+01:00",
-  "UpdatedDate": "2008-10-21T14:13:48.8680781+02:00",
+  "ForeignAppId": 449,
+  "Name": "Mayert-Spencer",
+  "CreatedDate": "2000-08-26T02:38:26.1048073+02:00",
+  "UpdatedDate": "2017-01-24T02:38:26.1048073+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 247,
-      "Name": "Dickens-Gulgowski",
-      "CreatedDate": "2019-03-22T14:13:48.8680781+01:00",
-      "UpdatedDate": "2021-05-26T14:13:48.8680781+02:00",
-      "AssociateFullName": "Dr. Stanley Monahan",
-      "CreatedBy": "corporis",
-      "UpdatedBy": "eligendi",
-      "DeviceIdentifier": "odio",
-      "ForeignAppId": 723,
+      "ForeignDeviceId": 334,
+      "Name": "Lebsack LLC",
+      "CreatedDate": "2003-04-24T02:38:26.1048073+02:00",
+      "UpdatedDate": "2013-01-31T02:38:26.1048073+01:00",
+      "AssociateFullName": "Ms. Lorna Maggio",
+      "CreatedBy": "alias",
+      "UpdatedBy": "fugit",
+      "DeviceIdentifier": "quos",
+      "ForeignAppId": 466,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 232
+          "FieldType": "System.String",
+          "FieldLength": 248
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 548
     }
   }
 }

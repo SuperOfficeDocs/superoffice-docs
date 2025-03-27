@@ -88,6 +88,8 @@ OK
 | AnySendEmail | bool | True if any of the appointment records has the email flag set |
 | IsPrivate | bool | True if only visible for the owner |
 | RecurrenceInfo | RecurrenceInfo | The recurrence info if the appointment is recurring |
+| PersonName | string | The name of the appointment person. |
+| IsBooking | bool | True if the appointment is part of a booking |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -97,16 +99,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    312,
-    116
+    368,
+    283
   ],
-  "StartTime": "2016-10-16T14:13:39.0005676+02:00",
-  "EndTime": "2004-11-19T14:13:39.0005676+01:00"
+  "StartTime": "2024-11-09T02:38:20.6514919+01:00",
+  "EndTime": "2015-07-11T02:38:20.6514919+02:00"
 }
 ```
 
@@ -118,35 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 729,
-    "AssociateId": 828,
-    "MotherId": 459,
-    "StartDate": "2001-10-12T14:13:39.0005676+02:00",
-    "EndDate": "2003-04-28T14:13:39.0005676+02:00",
+    "AppointmentId": 477,
+    "AssociateId": 119,
+    "MotherId": 338,
+    "StartDate": "2008-01-16T02:38:20.6514919+01:00",
+    "EndDate": "2021-10-31T02:38:20.6514919+01:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Funk LLC",
-    "ContactName": "Thompson LLC",
-    "ProjectName": "Jaskolski Inc and Sons",
-    "Title": "dolores",
-    "Agenda": "vel",
+    "TaskName": "Kertzmann-Jaskolski",
+    "ContactName": "Thompson Group",
+    "ProjectName": "Moore LLC",
+    "Title": "illo",
+    "Agenda": "suscipit",
     "IsAllDay": false,
-    "IsBusy": true,
-    "IsRecurring": true,
+    "IsBusy": false,
+    "IsRecurring": false,
     "IsVideoMeeting": false,
     "HasAlarm": false,
-    "IsCompleted": false,
+    "IsCompleted": true,
     "IsTentative": false,
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "SendEmail": false,
     "AnySendEmail": true,
     "IsPrivate": false,
     "RecurrenceInfo": null,
+    "PersonName": "Johns, Runolfsson and Haag",
+    "IsBooking": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldLength": 46
       }
     }
   }

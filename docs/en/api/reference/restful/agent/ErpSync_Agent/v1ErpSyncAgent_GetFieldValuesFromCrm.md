@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 444,
+  "RecordId": 729,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Goldner-Monahan",
-    "CrmFieldKey": "rerum",
-    "Value": "dolorem",
-    "DisplayValue": "aut",
+    "DisplayName": "Batz Inc and Sons",
+    "CrmFieldKey": "dolor",
+    "Value": "dolores",
+    "DisplayValue": "assumenda",
     "SyncToCrm": false,
     "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 652
+        "FieldType": "System.String",
+        "FieldLength": 377
       }
     }
   }

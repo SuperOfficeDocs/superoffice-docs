@@ -13171,6 +13171,8 @@
       href: Services88/Diagnostics/FlushCaches.md
     - name: FlushCachesByName
       href: Services88/Diagnostics/FlushCachesByName.md
+    - name: GetCacheInvalidationGenerations
+      href: Services88/Diagnostics/GetCacheInvalidationGenerations.md
     - name: GetCacheNames
       href: Services88/Diagnostics/GetCacheNames.md
     - name: GetCacheState
@@ -13956,6 +13958,8 @@
       href: Services88/License/GetShopUrl.md
     - name: GetThirdPartyLicenseAssignments
       href: Services88/License/GetThirdPartyLicenseAssignments.md
+    - name: GetUserAndInstallationLicenceStatus
+      href: Services88/License/GetUserAndInstallationLicenceStatus.md
     - name: GetUserLicenses
       href: Services88/License/GetUserLicenses.md
     - name: GetUserLicensesMDOList

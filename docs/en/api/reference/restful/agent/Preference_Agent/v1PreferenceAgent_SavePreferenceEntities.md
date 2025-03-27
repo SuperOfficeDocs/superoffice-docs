@@ -65,26 +65,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "incidunt",
+      "RawValue": "omnis",
       "Specification": null,
-      "DisplayValue": "expedita",
-      "DisplayTooltip": "est",
+      "DisplayValue": "error",
+      "DisplayTooltip": "exercitationem",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 836,
-      "PrefDescId": 851,
-      "TableName": "Hermiston, Kutch and Swift",
-      "UserPreferenceId": 503
+      "TargetId": 732,
+      "PrefDescId": 336,
+      "TableName": "Durgan Inc and Sons",
+      "UserPreferenceId": 195
     }
   ],
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 

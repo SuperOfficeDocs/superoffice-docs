@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 997,
-    "ParentId": 52,
-    "Name": "Stoltenberg LLC",
-    "Fullname": "ut",
-    "CategoryMaster": 142,
+    "TicketCategoryId": 28,
+    "ParentId": 980,
+    "Name": "Gottlieb Group",
+    "Fullname": "id",
+    "CategoryMaster": 368,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Rau Inc and Sons",
+    "ExternalName": "Will Group",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 840,
-    "ReplyTemplate": 201,
-    "NotificationEmail": "darlene_jacobs@brownweissnat.ca",
+    "AssignmentLag": 415,
+    "ReplyTemplate": 232,
+    "NotificationEmail": "felicia_kohler@spencercormier.us",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 420,
+    "EffectiveReplyTemplateId": 360,
     "ExtraFields": {
-      "ExtraFields1": "sequi",
-      "ExtraFields2": "praesentium"
+      "ExtraFields1": "illo",
+      "ExtraFields2": "earum"
     },
     "CustomFields": {
       "CustomFields1": "et",
-      "CustomFields2": "quia"
+      "CustomFields2": "qui"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldLength": 190
       }
     }
   }

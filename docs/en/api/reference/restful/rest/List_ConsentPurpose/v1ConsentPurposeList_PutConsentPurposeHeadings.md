@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 841,
-    "Name": "Hansen-Veum",
-    "Tooltip": "vero",
+    "HeadingId": 385,
+    "Name": "Ledner Group",
+    "Tooltip": "fugit",
     "Deleted": true,
-    "Rank": 398,
-    "UdListDefinitionId": 548
+    "Rank": 693,
+    "UdListDefinitionId": 309
   },
   {
-    "HeadingId": 841,
-    "Name": "Hansen-Veum",
-    "Tooltip": "vero",
+    "HeadingId": 385,
+    "Name": "Ledner Group",
+    "Tooltip": "fugit",
     "Deleted": true,
-    "Rank": 398,
-    "UdListDefinitionId": 548
+    "Rank": 693,
+    "UdListDefinitionId": 309
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 977,
-    "Name": "Weissnat, Ullrich and Toy",
-    "Tooltip": "vel",
+    "HeadingId": 819,
+    "Name": "Ferry LLC",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 548,
-    "UdListDefinitionId": 140,
+    "Rank": 201,
+    "UdListDefinitionId": 445,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldType": "System.Int32",
+        "FieldLength": 149
       }
     }
   }

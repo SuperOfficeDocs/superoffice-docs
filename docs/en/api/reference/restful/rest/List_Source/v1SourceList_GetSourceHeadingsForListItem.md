@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Source/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Ankunding-Rath",
-    "ToolTip": "Repudiandae porro ipsum.",
+    "Id": 269,
+    "Name": "Vandervort, Bashirian and Beer",
+    "ToolTip": "Dolorum deleniti voluptate aut aut.",
     "Deleted": false,
-    "Rank": 283,
-    "Type": "animi",
-    "ColorBlock": 162,
-    "IconHint": "iure",
-    "Selected": false,
-    "LastChanged": "2016-06-02T14:13:50.2752013+02:00",
+    "Rank": 640,
+    "Type": "odio",
+    "ColorBlock": 874,
+    "IconHint": "reiciendis",
+    "Selected": true,
+    "LastChanged": "1999-03-15T02:38:26.948622+01:00",
     "ChildItems": [
       {
-        "Id": 964,
-        "Name": "Stamm Group",
-        "ToolTip": "Ipsa amet fugit explicabo et consectetur blanditiis.",
+        "Id": 7,
+        "Name": "Ankunding, Effertz and Stehr",
+        "ToolTip": "Ut voluptatem dolorum exercitationem error quod.",
         "Deleted": false,
-        "Rank": 817,
-        "Type": "voluptatem",
-        "ColorBlock": 733,
-        "IconHint": "at",
+        "Rank": 641,
+        "Type": "hic",
+        "ColorBlock": 314,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2015-05-12T14:13:50.2752013+02:00",
+        "LastChanged": "2012-02-22T02:38:26.948622+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "minus",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "ipsa",
         "Hidden": false,
-        "FullName": "Carolyne Freda Sporer V",
+        "FullName": "Miss Nash Karlie Purdy DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 147
+            "FieldType": "System.String",
+            "FieldLength": 753
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "praesentium",
-    "Hidden": true,
-    "FullName": "Dr. Ramon Angeline Weber MD",
+    "ExtraInfo": "omnis",
+    "StyleHint": "quos",
+    "Hidden": false,
+    "FullName": "Rozella Conroy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 625
+        "FieldLength": 82
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "Strosin Group",
-    "ToolTip": "Unde quos unde aspernatur voluptatem.",
-    "Deleted": true,
-    "Rank": 1001,
-    "Type": "ipsum",
-    "ColorBlock": 795,
-    "IconHint": "cum",
+    "Id": 848,
+    "Name": "Blanda Inc and Sons",
+    "ToolTip": "Quas ratione voluptatem nulla dolorum aut itaque quaerat.",
+    "Deleted": false,
+    "Rank": 271,
+    "Type": "facere",
+    "ColorBlock": 556,
+    "IconHint": "odit",
     "Selected": true,
-    "LastChanged": "2015-10-19T14:13:49.6804997+02:00",
+    "LastChanged": "2004-10-30T02:38:26.6986493+02:00",
     "ChildItems": [
       {
-        "Id": 19,
-        "Name": "Funk LLC",
-        "ToolTip": "Eum et sit voluptatibus ut eveniet consequatur numquam.",
-        "Deleted": true,
-        "Rank": 328,
-        "Type": "quos",
-        "ColorBlock": 269,
-        "IconHint": "itaque",
+        "Id": 139,
+        "Name": "West Group",
+        "ToolTip": "Expedita est.",
+        "Deleted": false,
+        "Rank": 365,
+        "Type": "accusantium",
+        "ColorBlock": 321,
+        "IconHint": "consequatur",
         "Selected": true,
-        "LastChanged": "2015-06-09T14:13:49.6804997+02:00",
+        "LastChanged": "2007-09-18T02:38:26.6986493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "id",
-        "Hidden": true,
-        "FullName": "Elisha Nicolas"
+        "ExtraInfo": "vel",
+        "StyleHint": "temporibus",
+        "Hidden": false,
+        "FullName": "Rosemarie Gleason"
       }
     ],
     "ExtraInfo": "quia",
-    "StyleHint": "saepe",
+    "StyleHint": "tempora",
     "Hidden": false,
-    "FullName": "Tomas Kovacek"
+    "FullName": "Mrs. Amely Marks III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 561,
-    "Name": "Kling Inc and Sons",
-    "ToolTip": "Commodi molestias.",
+    "Id": 843,
+    "Name": "Wilderman, Aufderhar and Kuhlman",
+    "ToolTip": "Ipsum aut quas ut aut voluptatibus assumenda.",
     "Deleted": false,
-    "Rank": 807,
-    "Type": "sunt",
-    "ColorBlock": 154,
-    "IconHint": "assumenda",
+    "Rank": 111,
+    "Type": "provident",
+    "ColorBlock": 107,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "1998-04-03T14:13:49.696121+02:00",
+    "LastChanged": "2022-05-17T02:38:26.6986493+02:00",
     "ChildItems": [
       {
-        "Id": 620,
-        "Name": "Williamson, Miller and Waters",
-        "ToolTip": "Magnam culpa totam iure necessitatibus repellendus eos.",
-        "Deleted": false,
-        "Rank": 354,
-        "Type": "enim",
-        "ColorBlock": 766,
-        "IconHint": "aut",
+        "Id": 791,
+        "Name": "Abshire, Stiedemann and Hane",
+        "ToolTip": "Sit autem dolorem quae quidem non.",
+        "Deleted": true,
+        "Rank": 593,
+        "Type": "blanditiis",
+        "ColorBlock": 440,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2008-04-25T14:13:49.696121+02:00",
+        "LastChanged": "1999-06-22T02:38:26.6986493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Dr. Parker Sauer Sr.",
+        "ExtraInfo": "impedit",
+        "StyleHint": "corrupti",
+        "Hidden": true,
+        "FullName": "Prof. Jasmin Moen IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 25
+            "FieldType": "System.String",
+            "FieldLength": 355
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "quis",
+    "ExtraInfo": "odit",
+    "StyleHint": "odio",
     "Hidden": false,
-    "FullName": "Edwin Skiles",
+    "FullName": "Penelope Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 265
+        "FieldType": "System.String",
+        "FieldLength": 986
       }
     }
   }

@@ -59,17 +59,17 @@ No Content
 POST /api/v1/Selection/{selectionId}/Members/AddPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 230,
-    "ContactId": 942
+    "PersonId": 534,
+    "ContactId": 251
   },
   {
-    "PersonId": 230,
-    "ContactId": 942
+    "PersonId": 534,
+    "ContactId": 251
   }
 ]
 ```

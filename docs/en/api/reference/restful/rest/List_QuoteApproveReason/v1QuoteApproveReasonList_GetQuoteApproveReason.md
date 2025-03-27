@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 963,
-  "Name": "Wolf-Considine",
-  "Tooltip": "est",
+  "Id": 107,
+  "Name": "Waters, Mante and Hartmann",
+  "Tooltip": "dolor",
   "Deleted": false,
-  "UdListDefinitionId": 152,
-  "Rank": 350,
+  "UdListDefinitionId": 773,
+  "Rank": 861,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldType": "System.Int32",
+      "FieldLength": 566
     }
   }
 }

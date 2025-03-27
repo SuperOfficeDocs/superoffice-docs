@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Zemlak-Gislason",
-  "AdditionalInfo": "ab",
-  "SearchValue": "laudantium"
+  "Name": "Hilll-Kessler",
+  "AdditionalInfo": "est",
+  "SearchValue": "voluptas"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Huels, Harvey and Pfeffer",
-    "ToolTip": "Nihil corporis cum pariatur quidem deleniti.",
+    "Id": 447,
+    "Name": "Gutmann Group",
+    "ToolTip": "Consequatur asperiores nemo.",
     "Deleted": true,
-    "Rank": 516,
-    "Type": "dolores",
+    "Rank": 624,
+    "Type": "quo",
     "ChildItems": [
       {
-        "Id": 793,
-        "Name": "Cremin-Bauch",
-        "ToolTip": "Et odio maiores qui.",
+        "Id": 578,
+        "Name": "Beahan, O'Reilly and King",
+        "ToolTip": "Autem aperiam quam soluta distinctio pariatur maxime.",
         "Deleted": true,
-        "Rank": 966,
-        "Type": "ea",
+        "Rank": 725,
+        "Type": "consequuntur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "libero",
-        "ColorBlock": 10,
-        "ExtraInfo": "omnis",
-        "StyleHint": "laudantium",
-        "FullName": "Kiley Witting",
+        "IconHint": "est",
+        "ColorBlock": 948,
+        "ExtraInfo": "et",
+        "StyleHint": "sed",
+        "FullName": "Catherine Moen IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 868
+            "FieldLength": 526
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 91,
-    "ExtraInfo": "est",
-    "StyleHint": "eum",
-    "FullName": "Johnpaul Gusikowski",
+    "IconHint": "dolor",
+    "ColorBlock": 88,
+    "ExtraInfo": "veniam",
+    "StyleHint": "et",
+    "FullName": "Mrs. Lloyd Cummerata MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldLength": 211
       }
     }
   }

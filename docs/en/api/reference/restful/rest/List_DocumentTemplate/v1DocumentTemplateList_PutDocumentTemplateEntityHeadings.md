@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 779,
-    "Name": "Jones, Rogahn and Moore",
-    "Tooltip": "explicabo",
-    "Deleted": false,
-    "Rank": 107,
-    "UdListDefinitionId": 250
+    "HeadingId": 529,
+    "Name": "Pagac LLC",
+    "Tooltip": "temporibus",
+    "Deleted": true,
+    "Rank": 975,
+    "UdListDefinitionId": 512
   },
   {
-    "HeadingId": 779,
-    "Name": "Jones, Rogahn and Moore",
-    "Tooltip": "explicabo",
-    "Deleted": false,
-    "Rank": 107,
-    "UdListDefinitionId": 250
+    "HeadingId": 529,
+    "Name": "Pagac LLC",
+    "Tooltip": "temporibus",
+    "Deleted": true,
+    "Rank": 975,
+    "UdListDefinitionId": 512
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 14,
-    "Name": "Heller, Kshlerin and Bashirian",
-    "Tooltip": "placeat",
-    "Deleted": false,
-    "Rank": 867,
-    "UdListDefinitionId": 87,
+    "HeadingId": 352,
+    "Name": "Kiehn, Cartwright and Walker",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "Rank": 714,
+    "UdListDefinitionId": 864,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldType": "System.String",
+        "FieldLength": 603
       }
     }
   }

@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 894,
-  "Section": "aspernatur",
-  "Key": "eum",
-  "Name": "Kassulke, West and Fay",
+  "PrefDescId": 223,
+  "Section": "quia",
+  "Key": "aut",
+  "Name": "Baumbach, Hoeger and Runte",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Public-key secondary system engine",
-  "IsBuiltin": false,
-  "TableName": "Ernser, Jewess and Wiza",
-  "UserDefinedListId": 668,
-  "Rank": 429,
-  "SubGroup": "deserunt",
-  "MinLevel": 241,
-  "MaxValue": 826,
-  "MinValue": 97,
-  "RequiredLicense": "labore",
+  "Description": "Stand-alone upward-trending policy",
+  "IsBuiltin": true,
+  "TableName": "Welch-Bradtke",
+  "UserDefinedListId": 153,
+  "Rank": 310,
+  "SubGroup": "illo",
+  "MinLevel": 797,
+  "MaxValue": 263,
+  "MinValue": 312,
+  "RequiredLicense": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 831
+      "FieldType": "System.Int32",
+      "FieldLength": 391
     }
   },
   "_Links": {

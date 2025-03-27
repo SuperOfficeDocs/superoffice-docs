@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 886,
-  "Name": "Hansen Inc and Sons",
-  "Tooltip": "praesentium",
+  "Id": 497,
+  "Name": "Cummerata, Little and Carroll",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "UdListDefinitionId": 5,
-  "Rank": 423,
+  "UdListDefinitionId": 888,
+  "Rank": 142,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldType": "System.String",
+      "FieldLength": 93
     }
   }
 }

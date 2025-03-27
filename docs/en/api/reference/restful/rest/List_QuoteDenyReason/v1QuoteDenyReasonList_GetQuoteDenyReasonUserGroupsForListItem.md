@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Hegmann-Franecki",
-    "ToolTip": "Blanditiis iste.",
+    "Id": 838,
+    "Name": "Schimmel, Jacobi and Tromp",
+    "ToolTip": "Eum sed quas.",
     "Deleted": false,
-    "Rank": 421,
-    "Type": "delectus",
-    "ColorBlock": 575,
-    "IconHint": "voluptas",
+    "Rank": 615,
+    "Type": "aperiam",
+    "ColorBlock": 668,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2024-07-24T14:13:50.1656413+02:00",
+    "LastChanged": "2012-11-14T02:38:26.886137+01:00",
     "ChildItems": [
       {
-        "Id": 263,
-        "Name": "Pouros-Hayes",
-        "ToolTip": "Voluptas saepe rerum animi.",
-        "Deleted": false,
-        "Rank": 701,
-        "Type": "quia",
-        "ColorBlock": 858,
-        "IconHint": "dolore",
+        "Id": 747,
+        "Name": "Gutmann-Bins",
+        "ToolTip": "Facere vel consectetur quia.",
+        "Deleted": true,
+        "Rank": 986,
+        "Type": "modi",
+        "ColorBlock": 993,
+        "IconHint": "recusandae",
         "Selected": false,
-        "LastChanged": "2017-08-05T14:13:50.1656413+02:00",
+        "LastChanged": "2010-02-18T02:38:26.886137+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "id",
-        "Hidden": true,
-        "FullName": "Priscilla Rigoberto Quitzon II",
+        "ExtraInfo": "quia",
+        "StyleHint": "unde",
+        "Hidden": false,
+        "FullName": "Mireya Rippin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 448
+            "FieldLength": 431
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "debitis",
-    "Hidden": true,
-    "FullName": "Ms. Ariane Adriel Hansen PhD",
+    "ExtraInfo": "maxime",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Maeve Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 845
+        "FieldType": "System.Int32",
+        "FieldLength": 962
       }
     }
   }

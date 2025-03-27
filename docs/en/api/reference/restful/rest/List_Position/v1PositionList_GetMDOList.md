@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=possimus
+GET /api/v1/List/Position/MDOItems?flat=False
+GET /api/v1/List/Position/MDOItems?query=officiis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 641,
-    "Name": "Schmeler, Waters and DuBuque",
-    "ToolTip": "Neque deserunt.",
-    "Deleted": true,
-    "Rank": 951,
-    "Type": "minus",
+    "Id": 598,
+    "Name": "Hauck LLC",
+    "ToolTip": "Voluptatum alias nam.",
+    "Deleted": false,
+    "Rank": 533,
+    "Type": "necessitatibus",
     "ChildItems": [
       {
-        "Id": 216,
-        "Name": "O'Connell-Stehr",
-        "ToolTip": "Alias quo tenetur ut esse.",
+        "Id": 250,
+        "Name": "Kassulke LLC",
+        "ToolTip": "Delectus veniam neque consequatur.",
         "Deleted": false,
-        "Rank": 201,
-        "Type": "facere",
+        "Rank": 924,
+        "Type": "minus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laudantium",
-        "ColorBlock": 729,
-        "ExtraInfo": "soluta",
-        "StyleHint": "veritatis",
-        "FullName": "Demond Schaden Sr.",
+        "IconHint": "vitae",
+        "ColorBlock": 882,
+        "ExtraInfo": "dolor",
+        "StyleHint": "et",
+        "FullName": "Lemuel Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 707
+            "FieldLength": 365
           }
         }
       }
     ],
-    "IconHint": "incidunt",
-    "ColorBlock": 368,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "nesciunt",
-    "FullName": "Kavon Harber",
+    "IconHint": "quo",
+    "ColorBlock": 564,
+    "ExtraInfo": "officiis",
+    "StyleHint": "asperiores",
+    "FullName": "Ulices Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 587
+        "FieldLength": 735
       }
     }
   }

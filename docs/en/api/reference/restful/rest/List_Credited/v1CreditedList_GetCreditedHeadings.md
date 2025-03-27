@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 619,
-    "Name": "Hodkiewicz Group",
-    "Tooltip": "blanditiis",
-    "Deleted": false,
-    "Rank": 569,
-    "UdListDefinitionId": 234,
+    "HeadingId": 363,
+    "Name": "Grady Group",
+    "Tooltip": "corrupti",
+    "Deleted": true,
+    "Rank": 257,
+    "UdListDefinitionId": 495,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 876
+        "FieldLength": 432
       }
     }
   }

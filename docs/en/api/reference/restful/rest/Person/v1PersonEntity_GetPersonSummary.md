@@ -29,7 +29,7 @@ Get summary of person and recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Person/{personId}/Summary?limit=638
+GET /api/v1/Person/{personId}/Summary?limit=7
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Person/{personId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "Tickets": [
     {
-      "TicketId": 409,
-      "TicketStatus": 681,
-      "Title": "aspernatur",
-      "Registered": "2004-07-10T14:13:49.0087767+02:00",
-      "IconHint": "adipisci"
+      "TicketId": 270,
+      "TicketStatus": 121,
+      "Title": "laudantium",
+      "Registered": "1999-01-16T02:38:26.1829353+01:00",
+      "IconHint": "similique"
     },
     {
-      "TicketId": 409,
-      "TicketStatus": 681,
-      "Title": "aspernatur",
-      "Registered": "2004-07-10T14:13:49.0087767+02:00",
-      "IconHint": "adipisci"
+      "TicketId": 270,
+      "TicketStatus": 121,
+      "Title": "laudantium",
+      "Registered": "1999-01-16T02:38:26.1829353+01:00",
+      "IconHint": "similique"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 43,
-      "DocumentId": 265,
-      "Date": "2011-02-12T14:13:49.0087767+01:00",
-      "Description": "Multi-tiered reciprocal initiative",
+      "AppointmentId": 638,
+      "DocumentId": 879,
+      "Date": "2016-04-06T02:38:26.1829353+02:00",
+      "Description": "Configurable system-worthy alliance",
       "Completed": "Completed",
-      "Registered": "2011-06-20T14:13:49.0087767+02:00"
+      "Registered": "2014-06-17T02:38:26.1829353+02:00"
     },
     {
-      "AppointmentId": 43,
-      "DocumentId": 265,
-      "Date": "2011-02-12T14:13:49.0087767+01:00",
-      "Description": "Multi-tiered reciprocal initiative",
+      "AppointmentId": 638,
+      "DocumentId": 879,
+      "Date": "2016-04-06T02:38:26.1829353+02:00",
+      "Description": "Configurable system-worthy alliance",
       "Completed": "Completed",
-      "Registered": "2011-06-20T14:13:49.0087767+02:00"
+      "Registered": "2014-06-17T02:38:26.1829353+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 594,
-      "DocumentId": 617,
-      "Date": "1998-07-10T14:13:49.0087767+02:00",
-      "Description": "Distributed client-driven matrices",
+      "AppointmentId": 918,
+      "DocumentId": 168,
+      "Date": "2002-12-18T02:38:26.1829353+01:00",
+      "Description": "Virtual bifurcated info-mediaries",
       "Completed": "Completed",
-      "Registered": "2007-11-15T14:13:49.0087767+01:00"
+      "Registered": "2019-08-20T02:38:26.1829353+02:00"
     },
     {
-      "AppointmentId": 594,
-      "DocumentId": 617,
-      "Date": "1998-07-10T14:13:49.0087767+02:00",
-      "Description": "Distributed client-driven matrices",
+      "AppointmentId": 918,
+      "DocumentId": 168,
+      "Date": "2002-12-18T02:38:26.1829353+01:00",
+      "Description": "Virtual bifurcated info-mediaries",
       "Completed": "Completed",
-      "Registered": "2007-11-15T14:13:49.0087767+01:00"
+      "Registered": "2019-08-20T02:38:26.1829353+02:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 988,
-      "SaleDate": "2024-04-29T14:13:49.0087767+02:00",
-      "Probability": 916,
-      "Heading": "accusantium",
-      "Amount": 29628.836,
-      "Currency": "eos",
-      "AmountInBaseCurrency": 30130.275999999998,
+      "SaleId": 251,
+      "SaleDate": "2006-09-07T02:38:26.1829353+02:00",
+      "Probability": 18,
+      "Heading": "totam",
+      "Amount": 6252.33,
+      "Currency": "dolores",
+      "AmountInBaseCurrency": 827.376,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2017-04-29T14:13:49.0087767+02:00"
+      "Registered": "2006-08-07T02:38:26.1829353+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 993,
-      "Name": "Metz-Gerlach",
-      "CompanyName": "Jaskolski LLC",
-      "FirstMessage": "impedit",
-      "LastMessage": "tempora",
-      "WhenRequested": "1997-11-11T14:13:49.0087767+01:00",
-      "WhenEnded": "2011-04-11T14:13:49.0087767+02:00"
+      "ChatSessionId": 732,
+      "Name": "Goyette Inc and Sons",
+      "CompanyName": "Franecki-Lehner",
+      "FirstMessage": "sunt",
+      "LastMessage": "sed",
+      "WhenRequested": "1999-09-28T02:38:26.1829353+02:00",
+      "WhenEnded": "2016-01-10T02:38:26.1829353+01:00"
     }
   ]
 }

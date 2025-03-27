@@ -966,6 +966,8 @@ items:
     href: diagnosticsagent/flushcaches.md
   - name: FlushCachesByName
     href: diagnosticsagent/flushcachesbyname.md
+  - name: GetCacheInvalidationGenerations
+    href: diagnosticsagent/getcacheinvalidationgenerations.md
   - name: GetCacheNames
     href: diagnosticsagent/getcachenames.md
   - name: GetCacheState
@@ -1730,6 +1732,8 @@ items:
     href: licenseagent/getshopurl.md
   - name: GetThirdPartyLicenseAssignments
     href: licenseagent/getthirdpartylicenseassignments.md
+  - name: GetUserAndInstallationLicenceStatus
+    href: licenseagent/getuserandinstallationlicencestatus.md
   - name: GetUserLicenses
     href: licenseagent/getuserlicenses.md
   - name: GetUserLicensesMDOList

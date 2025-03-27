@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 272
+  "AssociateId": 211
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Wisoky, Walter and Feeney",
-    "DeviceIdentifier": "cupiditate",
-    "PocketVersion": "ad",
-    "Language": "recusandae",
-    "PNSHandle": "ut",
+    "DeviceName": "Upton Inc and Sons",
+    "DeviceIdentifier": "hic",
+    "PocketVersion": "et",
+    "Language": "libero",
+    "PNSHandle": "velit",
     "Platform": "Apple",
-    "OSVersion": "incidunt",
-    "TimeZoneId": 319
+    "OSVersion": "enim",
+    "TimeZoneId": 23
   }
 ]
 ```

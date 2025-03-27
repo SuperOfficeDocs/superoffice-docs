@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 937
+  "RoleId": 142
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 336,
-    "Name": "Baumbach-O'Reilly",
-    "ToolTip": "Et tempora et libero.",
+    "Id": 632,
+    "Name": "Spinka-Torphy",
+    "ToolTip": "Officiis sequi cum ipsam repellendus natus voluptatem.",
     "Deleted": false,
-    "Rank": 224,
-    "Type": "deserunt",
-    "ColorBlock": 408,
-    "IconHint": "esse",
+    "Rank": 153,
+    "Type": "quibusdam",
+    "ColorBlock": 356,
+    "IconHint": "molestias",
     "Selected": false,
-    "LastChanged": "2001-01-09T14:13:41.6727478+01:00",
+    "LastChanged": "2014-04-12T02:38:22.1981664+02:00",
     "ChildItems": [
       {
-        "Id": 171,
-        "Name": "Klocko Inc and Sons",
-        "ToolTip": "Unde ad velit est est nemo repudiandae.",
-        "Deleted": true,
-        "Rank": 595,
-        "Type": "quas",
-        "ColorBlock": 424,
-        "IconHint": "dolore",
-        "Selected": false,
-        "LastChanged": "2022-06-15T14:13:41.6727478+02:00",
+        "Id": 715,
+        "Name": "Dickens-Runte",
+        "ToolTip": "Quisquam et quo a id.",
+        "Deleted": false,
+        "Rank": 891,
+        "Type": "eos",
+        "ColorBlock": 628,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2009-04-09T02:38:22.1981664+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "dignissimos",
+        "ExtraInfo": "omnis",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Mr. Noemy Devin Predovic Jr.",
+        "FullName": "Aliya Hyatt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 183
+            "FieldType": "System.Int32",
+            "FieldLength": 296
           }
         }
       }
     ],
-    "ExtraInfo": "consectetur",
-    "StyleHint": "expedita",
-    "Hidden": false,
-    "FullName": "Miss Emile John Dooley",
+    "ExtraInfo": "ea",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Sid Johnston IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 290
+        "FieldLength": 806
       }
     }
   }

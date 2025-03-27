@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Kohler LLC",
-    "ToolTip": "Assumenda dolore vel eos maiores exercitationem sed sed.",
+    "Id": 687,
+    "Name": "Harris, Nitzsche and Rogahn",
+    "ToolTip": "Ab accusamus dolor praesentium praesentium.",
     "Deleted": false,
-    "Rank": 54,
-    "Type": "omnis",
-    "ColorBlock": 286,
-    "IconHint": "cumque",
-    "Selected": true,
-    "LastChanged": "2014-02-10T14:13:49.9469396+01:00",
+    "Rank": 321,
+    "Type": "mollitia",
+    "ColorBlock": 211,
+    "IconHint": "culpa",
+    "Selected": false,
+    "LastChanged": "2023-03-24T02:38:26.7611442+01:00",
     "ChildItems": [
       {
-        "Id": 712,
-        "Name": "McClure Inc and Sons",
-        "ToolTip": "Ut rerum soluta.",
+        "Id": 974,
+        "Name": "Runolfsson LLC",
+        "ToolTip": "Recusandae alias.",
         "Deleted": false,
-        "Rank": 190,
-        "Type": "accusantium",
-        "ColorBlock": 395,
-        "IconHint": "sunt",
+        "Rank": 110,
+        "Type": "sit",
+        "ColorBlock": 908,
+        "IconHint": "eaque",
         "Selected": false,
-        "LastChanged": "1997-12-03T14:13:49.9469396+01:00",
+        "LastChanged": "2006-09-13T02:38:26.7611442+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facilis",
-        "StyleHint": "doloribus",
-        "Hidden": true,
-        "FullName": "Mrs. Lukas Kuhlman"
+        "ExtraInfo": "dolorem",
+        "StyleHint": "vitae",
+        "Hidden": false,
+        "FullName": "Dr. Valentina Franz Bauch Jr."
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "et",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "saepe",
     "Hidden": false,
-    "FullName": "Waylon Bahringer"
+    "FullName": "Clotilde Wolff"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 153,
-    "Name": "Nicolas, Stroman and Padberg",
-    "ToolTip": "Placeat esse omnis ipsa est mollitia modi sequi.",
+    "Id": 639,
+    "Name": "Armstrong Group",
+    "ToolTip": "Sunt impedit recusandae nemo et.",
     "Deleted": true,
-    "Rank": 624,
-    "Type": "qui",
-    "ColorBlock": 554,
-    "IconHint": "quaerat",
-    "Selected": false,
-    "LastChanged": "2012-04-17T14:13:49.9469396+02:00",
+    "Rank": 971,
+    "Type": "fugit",
+    "ColorBlock": 777,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2001-07-12T02:38:26.7611442+02:00",
     "ChildItems": [
       {
-        "Id": 362,
-        "Name": "Abbott-Russel",
-        "ToolTip": "Rerum sunt velit sed.",
-        "Deleted": false,
-        "Rank": 114,
-        "Type": "consequatur",
-        "ColorBlock": 792,
-        "IconHint": "molestias",
+        "Id": 859,
+        "Name": "Haag Group",
+        "ToolTip": "Enim qui maxime.",
+        "Deleted": true,
+        "Rank": 510,
+        "Type": "molestiae",
+        "ColorBlock": 930,
+        "IconHint": "dolorum",
         "Selected": false,
-        "LastChanged": "1998-09-24T14:13:49.9469396+02:00",
+        "LastChanged": "2013-11-26T02:38:26.7611442+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequuntur",
-        "StyleHint": "repudiandae",
-        "Hidden": false,
-        "FullName": "Destinee O'Kon",
+        "ExtraInfo": "mollitia",
+        "StyleHint": "voluptatibus",
+        "Hidden": true,
+        "FullName": "Clark Sawayn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldType": "System.String",
+            "FieldLength": 74
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "laudantium",
-    "Hidden": false,
-    "FullName": "Dr. Leon Jakayla Wyman",
+    "ExtraInfo": "omnis",
+    "StyleHint": "architecto",
+    "Hidden": true,
+    "FullName": "Alden Bartell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 703
+        "FieldLength": 382
       }
     }
   }

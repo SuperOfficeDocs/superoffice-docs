@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 67,
-  "UdListDefinitionId": 615
+  "Id": 972,
+  "UdListDefinitionId": 132
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 538,
-  "Name": "Hane-White",
-  "Tooltip": "itaque",
+  "Id": 354,
+  "Name": "Reichel-Berge",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 870,
-  "Rank": 180,
+  "UdListDefinitionId": 64,
+  "Rank": 818,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 137
     }
   }
 }

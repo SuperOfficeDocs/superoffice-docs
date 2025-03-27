@@ -21,7 +21,7 @@ The name of the MDO list is 'tickettype'.
 | Description | Name | Example Value |
 |-----|-----|------|
 |onlyForMenu| |false|
-|Describes if call is coming from admin system| admin|false|
+|Flag to indicate a call is coming from admin system| |IgnoreGroupingAndHeadingsForAdmin|
 
 
 

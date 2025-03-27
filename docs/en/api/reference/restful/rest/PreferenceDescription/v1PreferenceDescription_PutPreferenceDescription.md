@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 4,
-  "Section": "et",
-  "Key": "molestiae",
-  "Name": "Kozey Inc and Sons",
+  "PrefDescId": 309,
+  "Section": "eos",
+  "Key": "quos",
+  "Name": "Metz-Raynor",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reactive optimizing analyzer",
+  "Description": "Seamless dynamic encoding",
   "IsBuiltin": false,
-  "TableName": "Wolff-Murray",
-  "UserDefinedListId": 903,
-  "Rank": 333,
-  "SubGroup": "modi",
-  "MinLevel": 348,
-  "MaxValue": 370,
-  "MinValue": 745,
-  "RequiredLicense": "beatae"
+  "TableName": "Wilderman-Keeling",
+  "UserDefinedListId": 795,
+  "Rank": 828,
+  "SubGroup": "quos",
+  "MinLevel": 844,
+  "MaxValue": 319,
+  "MinValue": 919,
+  "RequiredLicense": "praesentium"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 989,
-  "Section": "ut",
-  "Key": "earum",
-  "Name": "Gutkowski-McCullough",
+  "PrefDescId": 187,
+  "Section": "et",
+  "Key": "dolores",
+  "Name": "Schuster-Rice",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Versatile background encryption",
-  "IsBuiltin": false,
-  "TableName": "Quitzon, Raynor and Brakus",
-  "UserDefinedListId": 822,
+  "Description": "Digitized real-time website",
+  "IsBuiltin": true,
+  "TableName": "Wiegand, Gibson and Willms",
+  "UserDefinedListId": 891,
   "Rank": 730,
-  "SubGroup": "omnis",
-  "MinLevel": 86,
-  "MaxValue": 821,
-  "MinValue": 686,
-  "RequiredLicense": "quia",
+  "SubGroup": "est",
+  "MinLevel": 369,
+  "MaxValue": 113,
+  "MinValue": 163,
+  "RequiredLicense": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 142
+      "FieldType": "System.Int32",
+      "FieldLength": 813
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 857,
-    "DisplayName": "Spinka LLC",
-    "OngoingChats": 391,
+    "UserId": 370,
+    "DisplayName": "Klocko, Rowe and Christiansen",
+    "OngoingChats": 845,
     "Present": false,
     "ChatTopics": [
-      284,
-      713
+      380,
+      297
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldType": "System.String",
+        "FieldLength": 32
       }
     }
   }

@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 404
+  "SelectionId": 852
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wyman LLC",
-    "Description": "Customer-focused 6th generation middleware",
-    "Rank": 538,
+    "Name": "Price Group",
+    "Description": "Implemented fresh-thinking support",
+    "Rank": 659,
     "Restrictions": [
       {
-        "Name": "Mueller-Davis",
-        "Operator": "dicta",
+        "Name": "Kemmer Inc and Sons",
+        "Operator": "est",
         "Values": [
-          "veritatis",
-          "non"
+          "at",
+          "commodi"
         ],
         "DisplayValues": [
-          "ullam",
-          "deleniti"
+          "consectetur",
+          "fuga"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 201,
+        "InterParenthesis": 565,
         "InterOperator": "And",
-        "UniqueHash": 18
+        "UniqueHash": 625
       }
     ]
   },
   {
-    "Name": "Wyman LLC",
-    "Description": "Customer-focused 6th generation middleware",
-    "Rank": 538,
+    "Name": "Price Group",
+    "Description": "Implemented fresh-thinking support",
+    "Rank": 659,
     "Restrictions": [
       {
-        "Name": "Mueller-Davis",
-        "Operator": "dicta",
+        "Name": "Kemmer Inc and Sons",
+        "Operator": "est",
         "Values": [
-          "veritatis",
-          "non"
+          "at",
+          "commodi"
         ],
         "DisplayValues": [
-          "ullam",
-          "deleniti"
+          "consectetur",
+          "fuga"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 201,
+        "InterParenthesis": 565,
         "InterOperator": "And",
-        "UniqueHash": 18
+        "UniqueHash": 625
       }
     ]
   }

@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 864,
-  "Name": "Weber Inc and Sons",
-  "TZLocationCode": "dicta",
-  "TZLocationCities": "voluptatibus",
-  "IsoNumber": 227,
+  "TZLocationID": 767,
+  "Name": "Goodwin-Von",
+  "TZLocationCode": "voluptates",
+  "TZLocationCities": "voluptatem",
+  "IsoNumber": 836,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 353,
-      "StartMonth": 370,
-      "EndDay": 654,
-      "EndMonth": 96,
-      "TZOffset": 556,
-      "StartRulePattern": "sunt",
-      "EndRulePattern": "aut"
+      "StartDay": 697,
+      "StartMonth": 800,
+      "EndDay": 310,
+      "EndMonth": 844,
+      "TZOffset": 754,
+      "StartRulePattern": "dolor",
+      "EndRulePattern": "iste"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 660,
-      "StartMonth": 261,
-      "EndDay": 35,
-      "EndMonth": 886,
-      "TZOffset": 547,
-      "StartRulePattern": "repudiandae",
-      "EndRulePattern": "praesentium"
+      "StartDay": 43,
+      "StartMonth": 20,
+      "EndDay": 631,
+      "EndMonth": 883,
+      "TZOffset": 189,
+      "StartRulePattern": "reiciendis",
+      "EndRulePattern": "ad"
     }
   }
 }

@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 852,
+  "TargetYear": 776,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 196,
-  "DimensionId": 487
+  "Id": 906,
+  "DimensionId": 160
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 260,
+  "TargetAssignmentInfoId": 583,
   "Values": [
-    905,
-    32
+    685,
+    814
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 903,
-  "DimensionListItemDisplayName": "Price LLC",
+  "DimensionListItem": 358,
+  "DimensionListItemDisplayName": "Larson Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 292
     }
   }
 }

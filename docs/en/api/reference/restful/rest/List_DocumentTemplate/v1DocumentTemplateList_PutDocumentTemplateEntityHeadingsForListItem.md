@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 324,
-    "Name": "Walter LLC",
-    "ToolTip": "Vel omnis autem.",
+    "Id": 944,
+    "Name": "Stamm-Monahan",
+    "ToolTip": "Molestias repellat veritatis aut illum inventore.",
     "Deleted": false,
-    "Rank": 996,
-    "Type": "tempora",
-    "ColorBlock": 550,
-    "IconHint": "repellendus",
+    "Rank": 533,
+    "Type": "alias",
+    "ColorBlock": 888,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2024-06-25T14:13:49.9781847+02:00",
+    "LastChanged": "2007-11-25T02:38:26.7767326+01:00",
     "ChildItems": [
       {
-        "Id": 781,
-        "Name": "Kuphal Group",
-        "ToolTip": "Assumenda numquam ducimus.",
+        "Id": 570,
+        "Name": "Sawayn, Yost and Kling",
+        "ToolTip": "Est nisi eos molestias laudantium vero ab maiores.",
         "Deleted": false,
-        "Rank": 397,
-        "Type": "ducimus",
-        "ColorBlock": 718,
-        "IconHint": "est",
+        "Rank": 61,
+        "Type": "ad",
+        "ColorBlock": 160,
+        "IconHint": "excepturi",
         "Selected": false,
-        "LastChanged": "2012-03-06T14:13:49.9781847+01:00",
+        "LastChanged": "2001-12-12T02:38:26.7767326+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "eligendi",
-        "Hidden": false,
-        "FullName": "Demetris Lowe"
+        "ExtraInfo": "quo",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Adah Bogan"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "voluptatem",
-    "Hidden": true,
-    "FullName": "Dalton Kassulke"
+    "ExtraInfo": "qui",
+    "StyleHint": "dolorem",
+    "Hidden": false,
+    "FullName": "Edyth Mueller"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 563,
-    "Name": "Crist-Lockman",
-    "ToolTip": "Et et tempora quia tenetur earum vel modi.",
+    "Id": 540,
+    "Name": "Feil Group",
+    "ToolTip": "Et alias.",
     "Deleted": true,
-    "Rank": 244,
-    "Type": "reiciendis",
-    "ColorBlock": 962,
-    "IconHint": "et",
+    "Rank": 869,
+    "Type": "dolore",
+    "ColorBlock": 428,
+    "IconHint": "sunt",
     "Selected": false,
-    "LastChanged": "2009-10-27T14:13:49.9781847+01:00",
+    "LastChanged": "2000-02-29T02:38:26.7767326+01:00",
     "ChildItems": [
       {
-        "Id": 656,
-        "Name": "Murphy-Brown",
-        "ToolTip": "Quo aperiam dolor temporibus perferendis sed.",
-        "Deleted": true,
-        "Rank": 513,
-        "Type": "modi",
-        "ColorBlock": 364,
-        "IconHint": "hic",
-        "Selected": true,
-        "LastChanged": "2022-12-09T14:13:49.9781847+01:00",
+        "Id": 708,
+        "Name": "Lemke, Roob and Wiza",
+        "ToolTip": "Delectus aut sequi ut nihil.",
+        "Deleted": false,
+        "Rank": 800,
+        "Type": "eligendi",
+        "ColorBlock": 983,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "1998-08-01T02:38:26.7767326+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "quo",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "voluptas",
         "Hidden": true,
-        "FullName": "Miss Lee Kristian Weimann",
+        "FullName": "Mrs. Arvid Pacocha DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldLength": 882
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "velit",
+    "ExtraInfo": "dolores",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Mr. Madonna Estrella Franecki IV",
+    "FullName": "Ms. Einar Grady",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 387
+        "FieldLength": 281
       }
     }
   }

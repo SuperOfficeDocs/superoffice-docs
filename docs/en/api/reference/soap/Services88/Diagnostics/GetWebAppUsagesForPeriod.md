@@ -39,8 +39,8 @@ Application tokens must be specified if calling an Online installation. Applicat
   </Diagnostics:Credentials>
  <SOAP-ENV:Body>
    <Diagnostics:GetWebAppUsagesForPeriod>
-    <Diagnostics:FromDate xsi:type="xsd:dateTime">2025-02-24T13:11:52Z</Diagnostics:FromDate>
-    <Diagnostics:ToDate xsi:type="xsd:dateTime">2025-02-24T13:11:52Z</Diagnostics:ToDate>
+    <Diagnostics:FromDate xsi:type="xsd:dateTime">2025-03-19T01:36:38Z</Diagnostics:FromDate>
+    <Diagnostics:ToDate xsi:type="xsd:dateTime">2025-03-19T01:36:38Z</Diagnostics:ToDate>
     <Diagnostics:SearchTerm xsi:type="xsd:string"></Diagnostics:SearchTerm>
    </Diagnostics:GetWebAppUsagesForPeriod>
 
@@ -68,7 +68,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <Diagnostics:WebAppUsage xsi:type="Diagnostics:WebAppUsage">
      <Diagnostics:WebAppUsageId xsi:type="xsd:int">0</Diagnostics:WebAppUsageId>
      <Diagnostics:AssocId xsi:type="xsd:int">0</Diagnostics:AssocId>
-     <Diagnostics:Timestamp xsi:type="xsd:dateTime">2025-02-24T13:11:52Z</Diagnostics:Timestamp>
+     <Diagnostics:Timestamp xsi:type="xsd:dateTime">2025-03-19T01:36:38Z</Diagnostics:Timestamp>
      <Diagnostics:ViewState xsi:type="xsd:string"></Diagnostics:ViewState>
      <Diagnostics:AggregateCount xsi:type="xsd:unsignedInt">0</Diagnostics:AggregateCount>
      <Diagnostics:AggregateBin xsi:type="xsd:unsignedInt">0</Diagnostics:AggregateBin>

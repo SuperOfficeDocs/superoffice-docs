@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 365,
-    "Value": "eos",
-    "Tooltip": "omnis",
+    "Id": 774,
+    "Value": "aperiam",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 856
+        "FieldType": "System.Int32",
+        "FieldLength": 177
       }
     }
   },
   {
-    "Id": 365,
-    "Value": "eos",
-    "Tooltip": "omnis",
+    "Id": 774,
+    "Value": "aperiam",
+    "Tooltip": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 856
+        "FieldType": "System.Int32",
+        "FieldLength": 177
       }
     }
   }

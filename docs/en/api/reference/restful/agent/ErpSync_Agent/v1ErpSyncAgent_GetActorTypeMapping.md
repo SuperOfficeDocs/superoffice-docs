@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 83,
+  "ErpConnectionId": 484,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 740,
+  "ErpConnectionId": 543,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 496,
-      "CrmFieldKey": "quod",
-      "CrmDisplayName": "Reilly LLC",
-      "CrmDisplayTooltip": "fuga",
-      "ErpFieldKey": "necessitatibus",
+      "ErpFieldId": 288,
+      "CrmFieldKey": "eaque",
+      "CrmDisplayName": "Pollich, Bashirian and Harris",
+      "CrmDisplayTooltip": "deserunt",
+      "ErpFieldKey": "dolores",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Champlin-Streich",
-      "ErpDisplayTooltip": "similique",
-      "SyncToCrm": false,
-      "SyncToErp": true,
-      "ShowInGui": true,
+      "ErpDisplayName": "Stokes Group",
+      "ErpDisplayTooltip": "voluptas",
+      "SyncToCrm": true,
+      "SyncToErp": false,
+      "ShowInGui": false,
       "ShowInSearch": false,
       "AlreadyMapped": false,
-      "MissingInERP": false,
+      "MissingInERP": true,
       "MissingInCRM": true,
       "Access": "Mandatory",
-      "ListReference": "suscipit",
+      "ListReference": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 852
+          "FieldLength": 405
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 699
+      "FieldLength": 454
     }
   }
 }

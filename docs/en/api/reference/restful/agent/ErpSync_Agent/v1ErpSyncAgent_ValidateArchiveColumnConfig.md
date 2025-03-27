@@ -71,8 +71,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListOwner": "voluptatum",
-  "ErpConnectionId": 882
+  "ListOwner": "omnis",
+  "ErpConnectionId": 146
 }
 ```
 

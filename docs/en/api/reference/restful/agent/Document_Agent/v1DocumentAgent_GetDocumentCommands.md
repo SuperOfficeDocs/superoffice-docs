@@ -82,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 263,
+  "DocumentId": 684,
   "AllowedReturnTypes": [
-    "perspiciatis",
-    "cum"
+    "nihil",
+    "quia"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Johns, Wuckert and Towne",
-    "DisplayName": "Bergnaum, Dietrich and Jakubowski",
-    "DisplayTooltip": "tempora",
-    "IconHint": "asperiores",
+    "Name": "Hessel-Kovacek",
+    "DisplayName": "Strosin-Beer",
+    "DisplayTooltip": "unde",
+    "IconHint": "nihil",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Johns, Wuckert and Towne",
-    "DisplayName": "Bergnaum, Dietrich and Jakubowski",
-    "DisplayTooltip": "tempora",
-    "IconHint": "asperiores",
+    "Name": "Hessel-Kovacek",
+    "DisplayName": "Strosin-Beer",
+    "DisplayTooltip": "unde",
+    "IconHint": "nihil",
     "ReturnType": "CustomGui"
   }
 ]

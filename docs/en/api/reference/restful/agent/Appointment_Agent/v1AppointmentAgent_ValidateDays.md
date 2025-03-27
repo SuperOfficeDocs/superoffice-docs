@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "ratione",
-    "ab"
+    "quae",
+    "voluptatem"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2005-06-06T14:13:39.1411603+02:00",
+    "Date": "2024-11-19T02:38:20.7452374+01:00",
     "IsConflict": false,
-    "Description": "Networked foreground orchestration",
-    "DescriptionStyleHint": "Secured global knowledge base",
-    "Tooltip": "aut"
+    "Description": "Switchable context-sensitive projection",
+    "DescriptionStyleHint": "Configurable clear-thinking Graphical User Interface",
+    "Tooltip": "repudiandae"
   },
   {
-    "Date": "2005-06-06T14:13:39.1411603+02:00",
+    "Date": "2024-11-19T02:38:20.7452374+01:00",
     "IsConflict": false,
-    "Description": "Networked foreground orchestration",
-    "DescriptionStyleHint": "Secured global knowledge base",
-    "Tooltip": "aut"
+    "Description": "Switchable context-sensitive projection",
+    "DescriptionStyleHint": "Configurable clear-thinking Graphical User Interface",
+    "Tooltip": "repudiandae"
   }
 ]
 ```

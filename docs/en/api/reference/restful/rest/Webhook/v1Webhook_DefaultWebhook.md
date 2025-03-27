@@ -71,7 +71,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 646,
-  "Name": "Stamm, Eichmann and Schultz",
+  "WebhookId": 432,
+  "Name": "Marquardt Inc and Sons",
   "Events": [
-    "commodi",
-    "reiciendis"
+    "iusto",
+    "iure"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "amet",
+  "Secret": "et",
   "State": "Active",
-  "Type": "dolor",
+  "Type": "neque",
   "Headers": {
-    "Headers1": "voluptate",
-    "Headers2": "dolore"
+    "Headers1": "qui",
+    "Headers2": "expedita"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-01-23T14:13:49.6023951+01:00",
+  "Registered": "2001-11-21T02:38:26.6362041+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2009-12-01T14:13:49.6023951+01:00",
+  "Updated": "1997-11-30T02:38:26.6362041+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "desiree@kohler.uk"
+  "ErrorsEmail": "daniela@raynor.us"
 }
 ```

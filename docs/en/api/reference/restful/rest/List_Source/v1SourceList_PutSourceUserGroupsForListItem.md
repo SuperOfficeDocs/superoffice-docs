@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 668,
-    "Name": "Watsica Inc and Sons",
-    "ToolTip": "Aliquid alias.",
-    "Deleted": false,
-    "Rank": 675,
-    "Type": "beatae",
-    "ColorBlock": 595,
-    "IconHint": "nostrum",
-    "Selected": false,
-    "LastChanged": "2023-07-25T14:13:50.2595794+02:00",
+    "Id": 349,
+    "Name": "Bailey Group",
+    "ToolTip": "Doloribus omnis soluta porro.",
+    "Deleted": true,
+    "Rank": 720,
+    "Type": "id",
+    "ColorBlock": 208,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2023-06-11T02:38:26.948622+02:00",
     "ChildItems": [
       {
-        "Id": 948,
-        "Name": "Padberg LLC",
-        "ToolTip": "Quia amet consequatur enim expedita.",
+        "Id": 681,
+        "Name": "Schultz, Carter and Lakin",
+        "ToolTip": "Est odit esse voluptatem amet laborum maxime veniam.",
         "Deleted": false,
-        "Rank": 238,
-        "Type": "modi",
-        "ColorBlock": 23,
-        "IconHint": "distinctio",
-        "Selected": true,
-        "LastChanged": "2000-05-07T14:13:50.2595794+02:00",
+        "Rank": 82,
+        "Type": "nihil",
+        "ColorBlock": 139,
+        "IconHint": "error",
+        "Selected": false,
+        "LastChanged": "2011-04-15T02:38:26.948622+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "et",
+        "ExtraInfo": "repellat",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Serena Lehner"
+        "FullName": "Elva Wuckert"
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "aperiam",
+    "ExtraInfo": "animi",
+    "StyleHint": "accusamus",
     "Hidden": false,
-    "FullName": "Filomena Parisian PhD"
+    "FullName": "Watson Schmeler"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 541,
-    "Name": "Hahn, Johnson and Swaniawski",
-    "ToolTip": "Eos minus porro qui.",
+    "Id": 755,
+    "Name": "Bashirian, Kulas and Runte",
+    "ToolTip": "Illum eum veniam quam.",
     "Deleted": false,
-    "Rank": 85,
-    "Type": "laboriosam",
-    "ColorBlock": 108,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2013-08-09T14:13:50.2752013+02:00",
+    "Rank": 120,
+    "Type": "fugit",
+    "ColorBlock": 598,
+    "IconHint": "quasi",
+    "Selected": false,
+    "LastChanged": "2022-09-22T02:38:26.948622+02:00",
     "ChildItems": [
       {
-        "Id": 196,
-        "Name": "Murazik-Carroll",
-        "ToolTip": "Vitae quia.",
+        "Id": 25,
+        "Name": "Wunsch-Schultz",
+        "ToolTip": "Blanditiis delectus distinctio.",
         "Deleted": false,
-        "Rank": 16,
-        "Type": "sint",
-        "ColorBlock": 9,
-        "IconHint": "culpa",
+        "Rank": 232,
+        "Type": "praesentium",
+        "ColorBlock": 107,
+        "IconHint": "molestias",
         "Selected": false,
-        "LastChanged": "2010-08-08T14:13:50.2752013+02:00",
+        "LastChanged": "2016-04-11T02:38:26.948622+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "odio",
-        "Hidden": true,
-        "FullName": "Amiya Russel",
+        "ExtraInfo": "aut",
+        "StyleHint": "voluptates",
+        "Hidden": false,
+        "FullName": "Mr. Hollie Pagac",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 757
+            "FieldType": "System.Int32",
+            "FieldLength": 539
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "ipsa",
-    "Hidden": false,
-    "FullName": "Wyman Jedediah Rohan DVM",
+    "ExtraInfo": "alias",
+    "StyleHint": "cupiditate",
+    "Hidden": true,
+    "FullName": "Harmon Friesen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldLength": 671
       }
     }
   }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 473,
-  "Name": "Donnelly, Conroy and Rippin",
-  "Tooltip": "ea",
+  "Id": 658,
+  "Name": "Sipes LLC",
+  "Tooltip": "nulla",
   "Deleted": true,
-  "Rank": 433,
+  "Rank": 213,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "doloribus",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "assumenda",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 924,
-  "Name": "Rath-Kozey",
-  "Tooltip": "ut",
+  "Id": 457,
+  "Name": "Kuhlman Inc and Sons",
+  "Tooltip": "architecto",
   "Deleted": false,
-  "Rank": 974,
+  "Rank": 104,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quis",
+  "ListType": "maiores",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 448
     }
   }
 }

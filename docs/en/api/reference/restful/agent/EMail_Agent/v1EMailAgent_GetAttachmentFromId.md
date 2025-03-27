@@ -88,8 +88,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 787,
-  "AttachmentId": "voluptatum"
+  "MailItemId": 292,
+  "AttachmentId": "rerum"
 }
 ```
 
@@ -100,13 +100,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Focused web-enabled matrix",
-  "Filename": "est",
-  "Size": 768,
-  "Type": "reprehenderit",
-  "Encoding": "minima",
-  "Id": "nostrum",
-  "Disposition": "qui",
+  "Description": "Function-based bifurcated internet solution",
+  "Filename": "natus",
+  "Size": 577,
+  "Type": "debitis",
+  "Encoding": "asperiores",
+  "Id": "voluptas",
+  "Disposition": "nihil",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 152
+      "FieldLength": 887
     }
   }
 }

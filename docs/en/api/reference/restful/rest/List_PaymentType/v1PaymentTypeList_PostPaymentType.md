@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Ward-Lueilwitz",
-  "Tooltip": "qui",
+  "Id": 779,
+  "Name": "Reynolds Group",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "UdListDefinitionId": 632,
-  "Rank": 982
+  "UdListDefinitionId": 589,
+  "Rank": 877
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 716,
-  "Name": "Muller-Kulas",
-  "Tooltip": "sed",
+  "Id": 101,
+  "Name": "Pacocha LLC",
+  "Tooltip": "doloribus",
   "Deleted": true,
-  "UdListDefinitionId": 353,
-  "Rank": 10,
+  "UdListDefinitionId": 870,
+  "Rank": 5,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldLength": 565
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentPreview
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 320
+  "AttachmentId": 333
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kertzmann-Wunsch",
-  "MimeType": "quidem",
-  "Size": 102,
+  "Name": "Cassin-Beier",
+  "MimeType": "nihil",
+  "Size": 728,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "raymundo.howe@lehnermarquardt.co.uk",
-  "EmailFrom": "brandon_reilly@collinshoeger.biz",
-  "EmailTo": "juana@halvorson.us",
-  "EmailCc": "margarete@mclaughlin.biz",
-  "EmailDate": "2009-02-12T14:13:41.5946398+01:00",
+  "EmailSubject": "noe@aufderhar.com",
+  "EmailFrom": "jamel_ratke@spencer.com",
+  "EmailTo": "ayden@hermistongoyette.us",
+  "EmailCc": "idell.emard@bosco.com",
+  "EmailDate": "2011-01-16T02:38:22.1513395+01:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 593,
-      "Name": "Anderson-Lueilwitz",
-      "ContentType": "molestiae",
-      "AttSize": 444,
-      "InlineImage": true,
-      "ContentId": "exercitationem",
-      "AuthKey": "eos",
+      "AttachmentId": 389,
+      "Name": "Aufderhar-Schmitt",
+      "ContentType": "occaecati",
+      "AttSize": 384,
+      "InlineImage": false,
+      "ContentId": "est",
+      "AuthKey": "vel",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 515
+          "FieldType": "System.String",
+          "FieldLength": 707
         }
       }
     }
@@ -133,7 +133,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1002
+      "FieldLength": 839
     }
   }
 }

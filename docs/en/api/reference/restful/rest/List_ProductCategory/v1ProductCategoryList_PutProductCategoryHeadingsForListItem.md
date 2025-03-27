@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 518,
-    "Name": "Farrell Inc and Sons",
-    "ToolTip": "Deserunt cupiditate adipisci optio vero recusandae autem dolorum.",
+    "Id": 64,
+    "Name": "VonRueden-Veum",
+    "ToolTip": "Est dolores libero est.",
     "Deleted": true,
-    "Rank": 450,
-    "Type": "corporis",
-    "ColorBlock": 183,
-    "IconHint": "itaque",
+    "Rank": 551,
+    "Type": "qui",
+    "ColorBlock": 206,
+    "IconHint": "laboriosam",
     "Selected": true,
-    "LastChanged": "2000-02-23T14:13:50.0719138+01:00",
+    "LastChanged": "2006-08-19T02:38:26.8392626+02:00",
     "ChildItems": [
       {
-        "Id": 298,
-        "Name": "Wilderman Inc and Sons",
-        "ToolTip": "Iusto recusandae qui excepturi.",
+        "Id": 670,
+        "Name": "Ratke, Parker and Monahan",
+        "ToolTip": "Eveniet ex accusantium culpa voluptas corrupti.",
         "Deleted": false,
-        "Rank": 752,
-        "Type": "quibusdam",
-        "ColorBlock": 284,
-        "IconHint": "accusantium",
+        "Rank": 596,
+        "Type": "necessitatibus",
+        "ColorBlock": 491,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2012-05-30T14:13:50.0719138+02:00",
+        "LastChanged": "2019-07-03T02:38:26.8392626+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "totam",
+        "ExtraInfo": "repudiandae",
+        "StyleHint": "veniam",
         "Hidden": false,
-        "FullName": "Ms. Valentina Anderson IV"
+        "FullName": "Tavares Bernier"
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "impedit",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Prof. Brenden Barton Sr."
+    "FullName": "Michele Skyla Satterfield Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 118,
-    "Name": "Schiller Group",
-    "ToolTip": "Rerum et aut quia eveniet nisi officia.",
-    "Deleted": false,
-    "Rank": 625,
-    "Type": "facilis",
-    "ColorBlock": 777,
-    "IconHint": "sunt",
+    "Id": 17,
+    "Name": "Kohler LLC",
+    "ToolTip": "Sint corrupti.",
+    "Deleted": true,
+    "Rank": 480,
+    "Type": "quisquam",
+    "ColorBlock": 470,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2005-07-29T14:13:50.0875321+02:00",
+    "LastChanged": "2020-07-23T02:38:26.8392626+02:00",
     "ChildItems": [
       {
-        "Id": 447,
-        "Name": "Schoen, Wuckert and Satterfield",
-        "ToolTip": "Qui vero est similique voluptatum a occaecati beatae.",
+        "Id": 755,
+        "Name": "Effertz Group",
+        "ToolTip": "Molestias excepturi at.",
         "Deleted": false,
-        "Rank": 961,
-        "Type": "aliquam",
-        "ColorBlock": 908,
-        "IconHint": "inventore",
-        "Selected": true,
-        "LastChanged": "2010-12-17T14:13:50.0875321+01:00",
+        "Rank": 896,
+        "Type": "eum",
+        "ColorBlock": 40,
+        "IconHint": "sit",
+        "Selected": false,
+        "LastChanged": "2008-09-03T02:38:26.8392626+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eveniet",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "eum",
+        "StyleHint": "iste",
         "Hidden": false,
-        "FullName": "Mr. Josefina Mervin Hane II",
+        "FullName": "Richmond Nicolas DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 617
+            "FieldType": "System.Int32",
+            "FieldLength": 567
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "minus",
-    "Hidden": true,
-    "FullName": "Lavon Verona Schiller Jr.",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "dolor",
+    "Hidden": false,
+    "FullName": "Dr. Deborah Langworth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 626
+        "FieldType": "System.String",
+        "FieldLength": 502
       }
     }
   }

@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "McDermott-Kuvalis",
-    "Rogahn-Heidenreich"
+    "Collins-Upton",
+    "Schaden-Volkman"
   ],
-  "Culture": "architecto",
+  "Culture": "laudantium",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Nicolas-Koch",
-    "ResourceValue": "sit",
-    "Culture": "sunt",
-    "IsActive": true,
+    "ResourceName": "Rodriguez LLC",
+    "ResourceValue": "vel",
+    "Culture": "voluptatum",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 98
+        "FieldLength": 506
       }
     }
   },
   {
-    "ResourceName": "Nicolas-Koch",
-    "ResourceValue": "sit",
-    "Culture": "sunt",
-    "IsActive": true,
+    "ResourceName": "Rodriguez LLC",
+    "ResourceValue": "vel",
+    "Culture": "voluptatum",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 98
+        "FieldLength": 506
       }
     }
   }

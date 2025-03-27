@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 604,
-    "Name": "Stoltenberg, Maggio and Gottlieb",
-    "ToolTip": "Qui eos est id.",
-    "Deleted": true,
-    "Rank": 487,
-    "Type": "adipisci",
-    "ColorBlock": 937,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2022-07-16T14:13:49.9781847+02:00",
+    "Id": 66,
+    "Name": "Mohr-Dicki",
+    "ToolTip": "Deserunt quas qui sed quidem officiis.",
+    "Deleted": false,
+    "Rank": 769,
+    "Type": "culpa",
+    "ColorBlock": 672,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2005-05-03T02:38:26.7767326+02:00",
     "ChildItems": [
       {
-        "Id": 98,
-        "Name": "Stroman, Toy and Powlowski",
-        "ToolTip": "Voluptatem similique impedit.",
+        "Id": 23,
+        "Name": "Stiedemann, Cummings and Balistreri",
+        "ToolTip": "Quia saepe quas qui voluptatem iusto rerum alias.",
         "Deleted": false,
-        "Rank": 511,
-        "Type": "enim",
-        "ColorBlock": 319,
-        "IconHint": "blanditiis",
+        "Rank": 928,
+        "Type": "debitis",
+        "ColorBlock": 239,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2019-12-23T14:13:49.9781847+01:00",
+        "LastChanged": "1999-06-24T02:38:26.7767326+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "illum",
+        "ExtraInfo": "non",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Isadore Parker"
+        "FullName": "Miss Montana Kayleigh Lockman I"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "hic",
-    "Hidden": false,
-    "FullName": "Mrs. Adalberto Stehr"
+    "ExtraInfo": "quasi",
+    "StyleHint": "accusamus",
+    "Hidden": true,
+    "FullName": "Adalberto Gerlach"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 183,
-    "Name": "Cummings LLC",
-    "ToolTip": "Cumque ea voluptas voluptatem.",
-    "Deleted": true,
-    "Rank": 705,
-    "Type": "sit",
-    "ColorBlock": 937,
-    "IconHint": "sequi",
+    "Id": 645,
+    "Name": "Kshlerin-Robel",
+    "ToolTip": "Autem est veniam.",
+    "Deleted": false,
+    "Rank": 726,
+    "Type": "doloribus",
+    "ColorBlock": 689,
+    "IconHint": "facere",
     "Selected": false,
-    "LastChanged": "2013-10-26T14:13:49.9781847+02:00",
+    "LastChanged": "2019-02-09T02:38:26.7767326+01:00",
     "ChildItems": [
       {
-        "Id": 983,
-        "Name": "Powlowski, Orn and Cremin",
-        "ToolTip": "Harum totam.",
+        "Id": 413,
+        "Name": "Durgan Group",
+        "ToolTip": "Est dolores illum cum ut voluptas.",
         "Deleted": false,
-        "Rank": 164,
-        "Type": "necessitatibus",
-        "ColorBlock": 751,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "2023-03-21T14:13:49.9781847+01:00",
+        "Rank": 663,
+        "Type": "dicta",
+        "ColorBlock": 898,
+        "IconHint": "asperiores",
+        "Selected": false,
+        "LastChanged": "2003-10-05T02:38:26.7767326+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "a",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "error",
         "Hidden": false,
-        "FullName": "Juanita West",
+        "FullName": "Ms. Josie Lucie Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 980
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "quos",
-    "StyleHint": "omnis",
+    "ExtraInfo": "est",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Wilfredo Wyman",
+    "FullName": "Myles Tremblay DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldType": "System.String",
+        "FieldLength": 376
       }
     }
   }

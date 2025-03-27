@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 318,
-  "ParentId": 195,
-  "Name": "Wiegand-Bergstrom",
-  "Fullname": "aspernatur",
-  "CategoryMaster": 94,
+  "TicketCategoryId": 785,
+  "ParentId": 658,
+  "Name": "Walter Group",
+  "Fullname": "aliquam",
+  "CategoryMaster": 867,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Schiller Inc and Sons",
+  "ExternalName": "Prosacco, Conn and Beatty",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 129,
-  "ReplyTemplate": 471,
-  "NotificationEmail": "micaela.stamm@beer.biz",
+  "AssignmentLag": 297,
+  "ReplyTemplate": 676,
+  "NotificationEmail": "evangeline.osinski@tromp.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 60,
+  "EffectiveReplyTemplateId": 576,
   "ExtraFields": {
-    "ExtraFields1": "animi",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "itaque"
+    "CustomFields1": "dolore",
+    "CustomFields2": "aliquam"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 871,
-  "ParentId": 792,
-  "Name": "Dietrich, Spinka and Kertzmann",
-  "Fullname": "animi",
-  "CategoryMaster": 874,
+  "TicketCategoryId": 196,
+  "ParentId": 520,
+  "Name": "Raynor, Zulauf and Wiegand",
+  "Fullname": "quo",
+  "CategoryMaster": 372,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Aufderhar Inc and Sons",
+  "ExternalName": "Pfannerstill LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 795,
-  "ReplyTemplate": 459,
-  "NotificationEmail": "cody@ferry.co.uk",
+  "AssignmentLag": 415,
+  "ReplyTemplate": 346,
+  "NotificationEmail": "favian_armstrong@dickens.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 120,
+  "EffectiveReplyTemplateId": 575,
   "ExtraFields": {
-    "ExtraFields1": "corrupti",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "doloremque",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "libero",
-    "CustomFields2": "itaque"
+    "CustomFields1": "quibusdam",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 161
+      "FieldLength": 472
     }
   }
 }

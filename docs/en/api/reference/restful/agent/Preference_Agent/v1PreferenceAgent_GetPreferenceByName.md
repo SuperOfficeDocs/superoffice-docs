@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "nulla",
-  "PrefKey": "est",
+  "PrefSection": "corrupti",
+  "PrefKey": "dolorum",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "dolore",
+  "RawValue": "aperiam",
   "Specification": null,
-  "DisplayValue": "veritatis",
-  "DisplayTooltip": "alias",
+  "DisplayValue": "voluptatem",
+  "DisplayTooltip": "maxime",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 559,
-  "PrefDescId": 982,
-  "TableName": "Berge-Hammes",
-  "UserPreferenceId": 594,
+  "TargetId": 691,
+  "PrefDescId": 339,
+  "TableName": "Hills Inc and Sons",
+  "UserPreferenceId": 988,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 332
+      "FieldType": "System.String",
+      "FieldLength": 457
     }
   }
 }

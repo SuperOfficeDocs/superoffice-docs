@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 236,
-  "Count": 624
+  "WeightedAmountLimit": 975,
+  "Count": 586
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lueilwitz-Dickens",
-    "SaleDate": "2019-08-11T14:13:41.240351+02:00",
-    "SaleId": 212,
-    "Probability": 284,
-    "Title": "occaecati",
-    "Amount": 9395.732,
-    "Currency": "quam",
-    "ProjectName": "Langworth-Johns",
-    "AssociateFullName": "Dr. Giovanna Ima Breitenberg MD",
-    "Description": "Grass-roots encompassing instruction set",
+    "ContactName": "Satterfield Group",
+    "SaleDate": "1999-11-11T02:38:21.8544876+01:00",
+    "SaleId": 990,
+    "Probability": 569,
+    "Title": "aut",
+    "Amount": 2281.552,
+    "Currency": "quia",
+    "ProjectName": "Lemke, Rempel and Schmidt",
+    "AssociateFullName": "Prof. Aaron Gerard Hammes DVM",
+    "Description": "Operative radical help-desk",
     "Status": "Lost",
-    "WeightedAmount": 25767.748,
-    "ProjectId": 723,
-    "EarningPercent": 18756.989999999998,
-    "Earning": 22937.746,
-    "ContactId": 820,
-    "AssociateId": 560,
-    "PersonId": 956,
-    "SaleTypeId": 358,
-    "SaleTypeName": "Jacobi Group",
-    "PersonFullName": "Jamarcus Eichmann",
+    "WeightedAmount": 10868.712,
+    "ProjectId": 868,
+    "EarningPercent": 27090.296,
+    "Earning": 24652.043999999998,
+    "ContactId": 887,
+    "AssociateId": 303,
+    "PersonId": 829,
+    "SaleTypeId": 50,
+    "SaleTypeName": "Thiel LLC",
+    "PersonFullName": "Reyes Wyman",
     "Completed": "Completed",
-    "ActiveErpLinks": 218,
-    "NextDueDate": "2019-01-05T14:13:41.240351+01:00",
-    "Number": "771245",
+    "ActiveErpLinks": 402,
+    "NextDueDate": "2000-10-25T02:38:21.8544876+02:00",
+    "Number": "841523",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldLength": 705
       }
     }
   }

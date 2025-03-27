@@ -84,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "error",
-  "ProviderName": "Stroman Group",
-  "StorageKey": "est",
+  "StorageType": "possimus",
+  "ProviderName": "Watsica-Schiller",
+  "StorageKey": "libero",
   "ExtraRestrictions": [
     {
-      "Name": "Lubowitz Group",
-      "Operator": "sed",
+      "Name": "Mills, Lind and McGlynn",
+      "Operator": "blanditiis",
       "Values": [
         "qui",
-        "dolorem"
+        "earum"
       ],
       "DisplayValues": [
-        "ab",
-        "quis"
+        "unde",
+        "aperiam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,27 +109,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 49,
+      "InterParenthesis": 16,
       "InterOperator": "And",
-      "UniqueHash": 14
+      "UniqueHash": 701
     }
   ],
   "OrderBy": [
     {
-      "Name": "Herman, Kutch and Mraz",
+      "Name": "Green LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Herman, Kutch and Mraz",
+      "Name": "Green LLC",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "ut",
-    "aliquam"
+    "alias",
+    "occaecati"
   ],
-  "PageSize": 816,
-  "PageNumber": 775
+  "PageSize": 355,
+  "PageNumber": 935
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Greenholt-Shanahan",
-      "DisplayTooltip": "repudiandae",
-      "DisplayType": "quisquam",
-      "CanOrderBy": false,
-      "Name": "Roob, Steuber and Thiel",
-      "CanRestrictBy": false,
-      "RestrictionType": "molestiae",
-      "RestrictionListName": "Bogisich Inc and Sons",
-      "IsVisible": true,
-      "ExtraInfo": "adipisci",
-      "Width": "magni",
-      "IconHint": "sunt",
-      "HeadingIconHint": "quibusdam"
+      "DisplayName": "Stoltenberg-Krajcik",
+      "DisplayTooltip": "deleniti",
+      "DisplayType": "in",
+      "CanOrderBy": true,
+      "Name": "Bosco-Klein",
+      "CanRestrictBy": true,
+      "RestrictionType": "ipsa",
+      "RestrictionListName": "Grant LLC",
+      "IsVisible": false,
+      "ExtraInfo": "nihil",
+      "Width": "explicabo",
+      "IconHint": "vel",
+      "HeadingIconHint": "id"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Brown-Jaskolski",
-      "PrimaryKey": 957,
+      "EntityName": "Littel Group",
+      "PrimaryKey": 566,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sequi",
-          "TooltipHint": "quisquam",
-          "LinkHint": "eius"
+          "DisplayValue": "vel",
+          "TooltipHint": "quo",
+          "LinkHint": "nesciunt"
         }
       },
-      "LinkHint": "nesciunt",
-      "StyleHint": "fugiat",
+      "LinkHint": "blanditiis",
+      "StyleHint": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 111
+          "FieldLength": 770
         }
       }
     }
   ],
-  "RowCount": 610,
+  "RowCount": 85,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldType": "System.Int32",
+      "FieldLength": 892
     }
   }
 }

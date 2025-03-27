@@ -107,36 +107,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 490,
-  "FormKey": "harum",
-  "Name": "Feeney-Maggio",
-  "Description": "Secured scalable methodology",
-  "Config": "impedit",
-  "FolderId": 905,
-  "ScriptId": 995,
-  "ResponseShipmentId": 188,
-  "Active": false,
-  "Expires": "1999-11-23T14:13:40.5628193+01:00",
-  "MaxSubmits": 116,
+  "FormId": 477,
+  "FormKey": "omnis",
+  "Name": "Turcotte Group",
+  "Description": "Optional homogeneous paradigm",
+  "Config": "adipisci",
+  "FolderId": 721,
+  "ScriptId": 932,
+  "ResponseShipmentId": 281,
+  "Active": true,
+  "Expires": "2010-12-30T02:38:21.5576497+01:00",
+  "MaxSubmits": 490,
   "Type": "Normal",
-  "Recipe": "ab",
-  "GroupId": 130,
-  "NewTicket": true,
+  "Recipe": "necessitatibus",
+  "GroupId": 764,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2018-10-03T14:13:40.5628193+02:00",
-  "RegisteredAssociateId": 9,
-  "Updated": "2007-08-14T14:13:40.5628193+02:00",
-  "UpdatedAssociateId": 780,
-  "UpdatedCount": 869,
+  "Registered": "2000-04-08T02:38:21.5576497+02:00",
+  "RegisteredAssociateId": 462,
+  "Updated": "2009-01-21T02:38:21.5576497+01:00",
+  "UpdatedAssociateId": 796,
+  "UpdatedCount": 34,
   "EmailFlows": [
-    249,
-    776
+    853,
+    838
   ],
-  "FolderName": "Murazik-Bernhard"
+  "FolderName": "Howell, Skiles and Lynch"
 }
 ```
 
@@ -147,38 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 290,
-  "FormKey": "asperiores",
-  "Name": "Grady LLC",
-  "Description": "User-friendly empowering capacity",
-  "Config": "non",
-  "FolderId": 548,
-  "ScriptId": 975,
-  "ResponseShipmentId": 80,
-  "Active": false,
-  "Expires": "2008-08-01T14:13:40.5628193+02:00",
-  "MaxSubmits": 610,
+  "FormId": 763,
+  "FormKey": "esse",
+  "Name": "Ullrich-Gusikowski",
+  "Description": "Streamlined asynchronous hub",
+  "Config": "perspiciatis",
+  "FolderId": 988,
+  "ScriptId": 679,
+  "ResponseShipmentId": 69,
+  "Active": true,
+  "Expires": "2017-10-28T02:38:21.5576497+02:00",
+  "MaxSubmits": 665,
   "Type": "Normal",
-  "Recipe": "perferendis",
-  "GroupId": 689,
-  "NewTicket": false,
+  "Recipe": "molestiae",
+  "GroupId": 916,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2020-08-12T14:13:40.5628193+02:00",
-  "RegisteredAssociateId": 508,
-  "Updated": "2019-01-16T14:13:40.5628193+01:00",
-  "UpdatedAssociateId": 97,
-  "UpdatedCount": 644,
+  "Registered": "2010-04-27T02:38:21.5576497+02:00",
+  "RegisteredAssociateId": 807,
+  "Updated": "2017-12-22T02:38:21.5576497+01:00",
+  "UpdatedAssociateId": 417,
+  "UpdatedCount": 757,
   "EmailFlows": [
-    790,
-    696
+    101,
+    944
   ],
-  "FolderName": "Schmeler Group",
+  "FolderName": "Hills Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 303
+      "FieldType": "System.Int32",
+      "FieldLength": 336
     }
   }
 }

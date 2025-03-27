@@ -101,45 +101,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 147,
+  "HierarchyId": 277,
   "Domain": "Dashboards",
-  "Name": "Reichert-Stanton",
-  "Fullname": "nihil",
-  "ParentId": 30,
+  "Name": "Johnston, Huel and Pfeffer",
+  "Fullname": "laborum",
+  "ParentId": 786,
   "Children": [
     {
-      "HierarchyId": 721,
+      "HierarchyId": 337,
       "Domain": "Dashboards",
-      "Name": "Rempel, Marquardt and Effertz",
-      "Fullname": "veniam",
-      "ParentId": 848,
+      "Name": "Howe LLC",
+      "Fullname": "qui",
+      "ParentId": 226,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-04-30T14:13:40.5315763+02:00",
-      "RegisteredAssociateId": 891,
-      "Updated": "2012-09-16T14:13:40.5315763+02:00",
-      "UpdatedAssociateId": 236,
+      "Registered": "2014-05-14T02:38:21.5264044+02:00",
+      "RegisteredAssociateId": 390,
+      "Updated": "2011-08-03T02:38:21.5264044+02:00",
+      "UpdatedAssociateId": 775,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 225
+          "FieldLength": 925
         }
       }
     }
   ],
-  "Registered": "2007-02-11T14:13:40.5315763+01:00",
-  "RegisteredAssociateId": 78,
-  "Updated": "2004-05-01T14:13:40.5315763+02:00",
-  "UpdatedAssociateId": 972,
+  "Registered": "2022-10-08T02:38:21.5264044+02:00",
+  "RegisteredAssociateId": 477,
+  "Updated": "2017-11-02T02:38:21.5264044+01:00",
+  "UpdatedAssociateId": 348,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
+      "FieldType": "System.Int32",
       "FieldLength": 281
     }
   }

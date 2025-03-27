@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=279
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=842
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Phased well-modulated capacity",
-  "Postit": "iusto",
+  "Description": "Open-architected 6th generation collaboration",
+  "Postit": "perspiciatis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 997,
-  "IncludePerson": 409,
+  "GroupIdx": 719,
+  "IncludePerson": 705,
   "MemberCount": 99.99,
-  "Name": "Bayer, Parker and Moen",
-  "PostitTextId": 345,
-  "CreatedDate": "2016-10-08T14:13:41.2821041+02:00",
-  "SelectionId": 376,
-  "SoundEx": "et",
-  "Source": 869,
-  "TextId": 938,
-  "UpdatedDate": "2016-09-20T14:13:41.2821041+02:00",
-  "UpdatedCount": 614,
-  "Visibility": 264,
+  "Name": "Leannon, Wehner and Douglas",
+  "PostitTextId": 696,
+  "CreatedDate": "2020-07-24T02:38:21.8701125+02:00",
+  "SelectionId": 909,
+  "SoundEx": "nobis",
+  "Source": 165,
+  "TextId": 398,
+  "UpdatedDate": "2011-11-10T02:38:21.8701125+01:00",
+  "UpdatedCount": 237,
+  "Visibility": 923,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 641,
-  "TargetTableName": "Purdy, Kuhic and Stanton",
-  "Completed": true,
-  "LeftSelectionId": 569,
-  "RightSelectionId": 902,
+  "CompanyUnique": true,
+  "TargetTableNumber": 303,
+  "TargetTableName": "Toy Group",
+  "Completed": false,
+  "LeftSelectionId": 1002,
+  "RightSelectionId": 759,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Durgan, Altenwerth and Littel",
-  "ShadowProviderName": "Heller Inc and Sons",
-  "ChartKey": "pariatur",
-  "LastLoaded": "2021-10-25T14:13:41.2821041+02:00",
-  "LastLoadedBy": 671,
+  "MainProviderName": "Conn, Ankunding and Gutmann",
+  "ShadowProviderName": "Kiehn Group",
+  "ChartKey": "maxime",
+  "LastLoaded": "2014-05-16T02:38:21.8701125+02:00",
+  "LastLoadedBy": 71,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-08-30T14:13:41.2821041+02:00",
-  "LastMembershipChangeBy": 490,
+  "LastMembershipChange": "2008-05-20T02:38:21.8701125+02:00",
+  "LastMembershipChangeBy": 8,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "labore",
-  "MemberTabHeading": "culpa",
-  "MailingsProviderName": "Kulas Group",
-  "DashboardTileDefinitionId": 341,
+  "MainHeading": "iure",
+  "MemberTabHeading": "odit",
+  "MailingsProviderName": "Will-Breitenberg",
+  "DashboardTileDefinitionId": 102,
   "VisibleFor": [
     {
-      "VisibleId": 87,
+      "VisibleId": 937,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldType": "System.String",
+          "FieldLength": 370
         }
       }
     },
     {
-      "VisibleId": 87,
+      "VisibleId": 937,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "minus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldType": "System.String",
+          "FieldLength": 370
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldLength": 349
     }
   }
 }

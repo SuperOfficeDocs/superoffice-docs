@@ -73,36 +73,36 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 24,
-  "LabelLayoutId": 805,
+  "ReportId": 198,
+  "LabelLayoutId": 148,
   "Filename": "aut",
-  "Language": "repellendus",
-  "FileType": "deserunt",
+  "Language": "id",
+  "FileType": "optio",
   "Restrictions": [
     {
-      "Name": "Stokes-Johnson",
-      "Operator": "delectus",
+      "Name": "Runolfsson, Jones and Walsh",
+      "Operator": "consequatur",
       "Values": [
-        "nostrum",
-        "id"
+        "pariatur",
+        "sit"
       ],
       "DisplayValues": [
-        "animi",
-        "voluptate"
+        "id",
+        "ea"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 382,
+      "InterParenthesis": 184,
       "InterOperator": "And",
-      "UniqueHash": 232
+      "UniqueHash": 421
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"dolores"
+"vero"
 ```

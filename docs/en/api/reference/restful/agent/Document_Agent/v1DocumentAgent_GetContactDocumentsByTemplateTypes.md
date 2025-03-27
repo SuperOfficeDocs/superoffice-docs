@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 643,
-  "StartTime": "2019-07-14T14:13:39.9848261+02:00",
-  "EndTime": "2016-09-04T14:13:39.9848261+02:00",
-  "Count": 740,
+  "ContactId": 772,
+  "StartTime": "2011-03-30T02:38:21.2139317+02:00",
+  "EndTime": "2021-11-13T02:38:21.2139317+01:00",
+  "Count": 564,
   "DocumentTemplateIds": [
-    760,
-    967
+    985,
+    913
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 562,
-    "Attention": "consequatur",
-    "Header": "rerum",
-    "Name": "Hartmann-Mayer",
-    "OurRef": "odio",
-    "YourRef": "aut",
-    "Description": "Streamlined zero defect model",
-    "DocumentTemplate": "aut",
+    "DocumentId": 677,
+    "Attention": "temporibus",
+    "Header": "omnis",
+    "Name": "Grimes-Kuphal",
+    "OurRef": "nihil",
+    "YourRef": "dicta",
+    "Description": "Enhanced actuating internet solution",
+    "DocumentTemplate": "voluptatem",
     "IsPublished": false,
-    "PersonId": 743,
-    "PersonFullName": "Beulah Farrell",
-    "AssociateFullName": "Bernardo Ankunding",
-    "ContactId": 393,
-    "ContactName": "Sawayn, Lebsack and Altenwerth",
-    "ProjectId": 334,
-    "ProjectName": "Kirlin Group",
-    "AssociateId": 805,
-    "Snum": 324,
-    "SaleId": 646,
-    "SaleName": "Reilly, Dooley and Volkman",
+    "PersonId": 203,
+    "PersonFullName": "Retta Grady",
+    "AssociateFullName": "Prof. Jaden Arlie Olson",
+    "ContactId": 234,
+    "ContactName": "Wuckert, Block and Corkery",
+    "ProjectId": 691,
+    "ProjectName": "McLaughlin-Deckow",
+    "AssociateId": 945,
+    "Snum": 853,
+    "SaleId": 471,
+    "SaleName": "Greenholt, Nitzsche and Wilderman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 127
       }
     }
   }

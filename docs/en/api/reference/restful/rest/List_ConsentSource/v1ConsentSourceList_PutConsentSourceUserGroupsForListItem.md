@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 885,
-    "Name": "Welch Inc and Sons",
-    "ToolTip": "Consequatur fugit molestiae qui perferendis.",
+    "Id": 673,
+    "Name": "Hickle-Hills",
+    "ToolTip": "Molestias id vel veniam reprehenderit.",
     "Deleted": true,
-    "Rank": 519,
-    "Type": "omnis",
-    "ColorBlock": 950,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2017-03-23T14:13:49.7117421+01:00",
+    "Rank": 96,
+    "Type": "aut",
+    "ColorBlock": 636,
+    "IconHint": "doloremque",
+    "Selected": true,
+    "LastChanged": "2011-09-28T02:38:26.7142749+02:00",
     "ChildItems": [
       {
-        "Id": 81,
-        "Name": "Purdy, Jakubowski and Shields",
-        "ToolTip": "Aut facere mollitia quo dolorem.",
-        "Deleted": false,
-        "Rank": 459,
-        "Type": "distinctio",
-        "ColorBlock": 132,
-        "IconHint": "inventore",
-        "Selected": true,
-        "LastChanged": "1998-04-24T14:13:49.7117421+02:00",
+        "Id": 938,
+        "Name": "Cassin, Hackett and Donnelly",
+        "ToolTip": "Dolor nisi sunt dolore ut.",
+        "Deleted": true,
+        "Rank": 614,
+        "Type": "neque",
+        "ColorBlock": 889,
+        "IconHint": "iste",
+        "Selected": false,
+        "LastChanged": "2023-07-10T02:38:26.7142749+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "eaque",
+        "ExtraInfo": "est",
+        "StyleHint": "praesentium",
         "Hidden": false,
-        "FullName": "Lauriane Batz"
+        "FullName": "Felicita Alessandra Lindgren V"
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "aliquam",
-    "Hidden": true,
-    "FullName": "Weston Kiehn"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Torey Gleichner"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 222,
-    "Name": "Rolfson-Mante",
-    "ToolTip": "Excepturi enim.",
+    "Id": 438,
+    "Name": "Gottlieb LLC",
+    "ToolTip": "Quibusdam placeat.",
     "Deleted": false,
-    "Rank": 305,
-    "Type": "vel",
-    "ColorBlock": 702,
-    "IconHint": "laudantium",
-    "Selected": false,
-    "LastChanged": "2007-08-24T14:13:49.7273664+02:00",
+    "Rank": 834,
+    "Type": "pariatur",
+    "ColorBlock": 188,
+    "IconHint": "voluptate",
+    "Selected": true,
+    "LastChanged": "2022-04-08T02:38:26.7142749+02:00",
     "ChildItems": [
       {
-        "Id": 732,
-        "Name": "Mann LLC",
-        "ToolTip": "Placeat similique accusantium ut eligendi.",
-        "Deleted": false,
-        "Rank": 65,
-        "Type": "quia",
-        "ColorBlock": 558,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2005-11-24T14:13:49.7273664+01:00",
+        "Id": 859,
+        "Name": "Hegmann, Stanton and Murphy",
+        "ToolTip": "Eum et esse aut optio voluptas.",
+        "Deleted": true,
+        "Rank": 549,
+        "Type": "mollitia",
+        "ColorBlock": 388,
+        "IconHint": "exercitationem",
+        "Selected": true,
+        "LastChanged": "2014-05-16T02:38:26.7142749+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "et",
+        "ExtraInfo": "animi",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Rosemary Boyle",
+        "FullName": "Johnathon Konopelski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 97
+            "FieldType": "System.String",
+            "FieldLength": 311
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "eum",
-    "Hidden": false,
-    "FullName": "Rick Legros PhD",
+    "ExtraInfo": "hic",
+    "StyleHint": "nam",
+    "Hidden": true,
+    "FullName": "Heaven Celestine Johns IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 539
+        "FieldLength": 148
       }
     }
   }

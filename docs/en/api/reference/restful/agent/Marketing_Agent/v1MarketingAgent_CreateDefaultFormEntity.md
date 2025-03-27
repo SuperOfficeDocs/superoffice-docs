@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 765,
-  "FormKey": "accusamus",
-  "Name": "Gibson LLC",
-  "Description": "Front-line fresh-thinking emulation",
-  "Config": "consequatur",
-  "FolderId": 218,
-  "ScriptId": 739,
-  "ResponseShipmentId": 236,
+  "FormId": 510,
+  "FormKey": "voluptas",
+  "Name": "Rosenbaum, Marvin and Leuschke",
+  "Description": "Polarised interactive leverage",
+  "Config": "quidem",
+  "FolderId": 254,
+  "ScriptId": 522,
+  "ResponseShipmentId": 321,
   "Active": false,
-  "Expires": "2009-12-04T14:13:40.5628193+01:00",
-  "MaxSubmits": 471,
+  "Expires": "2001-11-30T02:38:21.5576497+01:00",
+  "MaxSubmits": 452,
   "Type": "Normal",
-  "Recipe": "et",
-  "GroupId": 222,
-  "NewTicket": true,
+  "Recipe": "dignissimos",
+  "GroupId": 287,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2004-12-02T14:13:40.5628193+01:00",
-  "RegisteredAssociateId": 458,
-  "Updated": "2014-12-18T14:13:40.5628193+01:00",
-  "UpdatedAssociateId": 164,
-  "UpdatedCount": 59,
+  "Registered": "2007-11-03T02:38:21.5576497+01:00",
+  "RegisteredAssociateId": 856,
+  "Updated": "2010-07-21T02:38:21.5576497+02:00",
+  "UpdatedAssociateId": 187,
+  "UpdatedCount": 951,
   "EmailFlows": [
-    40,
-    257
+    308,
+    589
   ],
-  "FolderName": "Feeney Group",
+  "FolderName": "Mertz-Lynch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldLength": 773
     }
   }
 }

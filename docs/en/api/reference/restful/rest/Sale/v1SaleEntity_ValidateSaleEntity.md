@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "eos",
+  "SaleText": "doloribus",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2024-08-18T14:13:49.2118561+02:00",
-  "Amount": 21414.622,
-  "SaleId": 699,
-  "Earning": 12745.978,
-  "EarningPercent": 13573.354,
-  "Heading": "commodi",
-  "Number": "1136956",
-  "Probability": 391,
-  "CreatedDate": "2019-05-02T14:13:49.2118561+02:00",
-  "UpdatedDate": "2007-08-03T14:13:49.2118561+02:00",
+  "Saledate": "2003-03-10T02:38:26.4016552+01:00",
+  "Amount": 14842.624,
+  "SaleId": 821,
+  "Earning": 12529.732,
+  "EarningPercent": 5710.148,
+  "Heading": "doloremque",
+  "Number": "329993",
+  "Probability": 985,
+  "CreatedDate": "2005-11-09T02:38:26.4016552+01:00",
+  "UpdatedDate": "2016-07-12T02:38:26.4016552+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 596,
+  "ActiveLinks": 111,
   "Links": [
     {
-      "EntityName": "Konopelski-Kovacek",
-      "Id": 723,
-      "Description": "Front-line clear-thinking forecast",
-      "ExtraInfo": "enim",
-      "LinkId": 361
+      "EntityName": "Fisher, Deckow and Lockman",
+      "Id": 359,
+      "Description": "Devolved homogeneous throughput",
+      "ExtraInfo": "voluptas",
+      "LinkId": 45
     },
     {
-      "EntityName": "Konopelski-Kovacek",
-      "Id": 723,
-      "Description": "Front-line clear-thinking forecast",
-      "ExtraInfo": "enim",
-      "LinkId": 361
+      "EntityName": "Fisher, Deckow and Lockman",
+      "Id": 359,
+      "Description": "Devolved homogeneous throughput",
+      "ExtraInfo": "voluptas",
+      "LinkId": 45
     }
   ],
-  "NextDueDate": "2010-05-14T14:13:49.2118561+02:00",
-  "Postit": "laboriosam",
+  "NextDueDate": "2017-12-21T02:38:26.4016552+01:00",
+  "Postit": "aut",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2011-02-21T14:13:49.2118561+01:00",
+  "ReopenDate": "2012-10-12T02:38:26.4016552+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Cremin-Rolfson",
-      "Comment": "cupiditate",
-      "StakeholderRoleId": 701,
-      "CountryId": 643,
-      "PersonId": 86,
-      "EmailDescription": "anais_marquardt@franeckierdman.co.uk",
-      "EmailId": 493,
-      "EmailAddress": "easton_collins@mitchellrunte.com",
-      "PhoneId": 243,
-      "ContactName": "Block-Morissette",
-      "ContactId": 895,
-      "SaleId": 705,
-      "Mrmrs": "aut",
-      "Firstname": "Elroy",
-      "MiddleName": "Wolf, Schinner and Sawayn",
-      "Lastname": "Gottlieb",
-      "SaleStakeholderId": 921,
-      "Rank": 866,
-      "Phone": "(698)156-6818"
+      "StakeholderRoleName": "Murray-Barton",
+      "Comment": "mollitia",
+      "StakeholderRoleId": 813,
+      "CountryId": 648,
+      "PersonId": 389,
+      "EmailDescription": "eriberto@fay.us",
+      "EmailId": 802,
+      "EmailAddress": "misael@smith.uk",
+      "PhoneId": 315,
+      "ContactName": "Bahringer-Lueilwitz",
+      "ContactId": 809,
+      "SaleId": 390,
+      "Mrmrs": "iure",
+      "Firstname": "Faustino",
+      "MiddleName": "Bailey-Jones",
+      "Lastname": "Corwin",
+      "SaleStakeholderId": 636,
+      "Rank": 245,
+      "Phone": "1-617-913-9167 x2960"
     }
   ],
-  "ActiveErpLinks": 420,
+  "ActiveErpLinks": 370,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Shayne Botsford"
+    "SuperOffice:2": "Kristina Schuppe"
   },
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "adipisci",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "deserunt",
-    "CustomFields2": "saepe"
+    "CustomFields1": "nisi",
+    "CustomFields2": "fugit"
   },
-  "PublishEventDate": "2008-06-22T14:13:49.2118561+02:00",
-  "PublishTo": "2018-04-28T14:13:49.2118561+02:00",
-  "PublishFrom": "2021-12-29T14:13:49.2118561+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2011-01-30T02:38:26.4016552+01:00",
+  "PublishTo": "2005-05-20T02:38:26.4016552+02:00",
+  "PublishFrom": "2014-04-28T02:38:26.4016552+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 846,
+      "VisibleId": 495,
       "Visibility": "All",
-      "DisplayValue": "molestiae"
+      "DisplayValue": "laborum"
     },
     {
-      "VisibleId": 846,
+      "VisibleId": 495,
       "Visibility": "All",
-      "DisplayValue": "molestiae"
+      "DisplayValue": "laborum"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptas",
-  "2": "iste"
+  "1": "dolore",
+  "2": "quam"
 }
 ```

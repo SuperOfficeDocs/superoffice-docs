@@ -26,6 +26,7 @@ Service methods defined on <see cref='T:ILicenseAgent'>LicenseAgent</see> that c
 * [GetSatelliteLicenses](getsatellitelicenses.md)
 * [GetShopUrl](getshopurl.md)
 * [GetThirdPartyLicenseAssignments](getthirdpartylicenseassignments.md)
+* [GetUserAndInstallationLicenceStatus](getuserandinstallationlicencestatus.md)
 * [GetUserLicenses](getuserlicenses.md)
 * [GetUserLicensesMDOList](getuserlicensesmdolist.md)
 * [RemoveLicenseFromDB](removelicensefromdb.md)

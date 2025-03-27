@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Schaefer, Wunsch and Abernathy",
-  "EventFilter": "quasi",
+  "NameFilter": "Rice Inc and Sons",
+  "EventFilter": "delectus",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 691,
-    "Name": "Hoeger-Heidenreich",
+    "WebhookId": 79,
+    "Name": "Macejkovic-Klocko",
     "Events": [
-      "vel",
-      "expedita"
+      "sunt",
+      "saepe"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "dolore",
+    "Secret": "quidem",
     "State": "Active",
-    "Type": "cumque",
+    "Type": "rerum",
     "Headers": {
-      "Headers1": "quam",
-      "Headers2": "labore"
+      "Headers1": "ipsum",
+      "Headers2": "est"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "1999-02-04T14:13:41.7664757+01:00",
+    "Registered": "2021-09-10T02:38:22.245036+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2006-02-26T14:13:41.7664757+01:00",
+    "Updated": "2018-04-14T02:38:22.245036+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "claudia@blickmosciski.uk"
+    "ErrorsEmail": "cecelia@doyle.com"
   }
 ]
 ```

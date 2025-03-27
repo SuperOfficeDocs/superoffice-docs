@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Angela Brayan Cronin II",
-    "Description": "User-friendly context-sensitive throughput",
-    "ProjectId": 288,
-    "EventName": "Gottlieb, Bailey and Deckow",
-    "AssociateId": 947,
+    "AssociateFullName": "Ashton Dare I",
+    "Description": "Phased holistic orchestration",
+    "ProjectId": 234,
+    "EventName": "Willms, Weissnat and Prosacco",
+    "AssociateId": 147,
     "IsSignedOn": false,
-    "SignOffConfirmationText": "ipsum",
-    "SignOffText": "in",
-    "SignOnConfirmationText": "quia",
-    "SignOnText": "quae",
-    "EventDate": "2004-10-02T14:13:41.0314634+02:00",
-    "Enabled": true,
-    "SignOff": true,
-    "SignOffTaskEnable": true,
-    "SignOnTaskEnable": false,
+    "SignOffConfirmationText": "rem",
+    "SignOffText": "eaque",
+    "SignOnConfirmationText": "consectetur",
+    "SignOnText": "pariatur",
+    "EventDate": "2020-11-25T02:38:21.7295028+01:00",
+    "Enabled": false,
+    "SignOff": false,
+    "SignOffTaskEnable": false,
+    "SignOnTaskEnable": true,
     "SignOn": false,
-    "SignOffTaskId": 232,
-    "SignOnTaskId": 887,
-    "SignOffTriggersAssign": false,
+    "SignOffTaskId": 469,
+    "SignOnTaskId": 483,
+    "SignOffTriggersAssign": true,
     "SignOnTriggersAssign": false,
-    "SignOnPersonId": 245,
-    "SignOffPersonId": 948,
+    "SignOnPersonId": 983,
+    "SignOffPersonId": 583,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 491
+        "FieldLength": 389
       }
     }
   }

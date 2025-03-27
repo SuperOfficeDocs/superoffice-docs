@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=sed
+GET /api/v1/List/Priority/MDOItems?flat=False
+GET /api/v1/List/Priority/MDOItems?query=quis
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Name": "Wilderman Group",
-    "ToolTip": "Dolores rerum non ipsam recusandae perspiciatis.",
-    "Deleted": false,
-    "Rank": 299,
-    "Type": "voluptatem",
+    "Id": 687,
+    "Name": "Ward Group",
+    "ToolTip": "Ut aliquam.",
+    "Deleted": true,
+    "Rank": 848,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 80,
-        "Name": "Cartwright Group",
-        "ToolTip": "Quo animi.",
-        "Deleted": false,
-        "Rank": 643,
-        "Type": "omnis",
+        "Id": 276,
+        "Name": "Kirlin LLC",
+        "ToolTip": "Qui non error consequatur harum necessitatibus.",
+        "Deleted": true,
+        "Rank": 951,
+        "Type": "magni",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "placeat",
-        "ColorBlock": 73,
-        "ExtraInfo": "tempora",
-        "StyleHint": "accusamus",
-        "FullName": "Gilbert Armstrong II",
+        "IconHint": "sunt",
+        "ColorBlock": 863,
+        "ExtraInfo": "fugiat",
+        "StyleHint": "incidunt",
+        "FullName": "Graciela Mante",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 571
+            "FieldLength": 604
           }
         }
       }
     ],
-    "IconHint": "nisi",
-    "ColorBlock": 602,
-    "ExtraInfo": "velit",
-    "StyleHint": "et",
-    "FullName": "Prof. Rosa Armando VonRueden DDS",
+    "IconHint": "sed",
+    "ColorBlock": 658,
+    "ExtraInfo": "qui",
+    "StyleHint": "praesentium",
+    "FullName": "Zachary Wolff",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldLength": 244
       }
     }
   }

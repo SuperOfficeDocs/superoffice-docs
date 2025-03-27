@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 407,
-    "Name": "Friesen Inc and Sons",
-    "Tooltip": "error",
-    "Deleted": true,
-    "UdListDefinitionId": 97,
-    "Rank": 744
+    "Id": 475,
+    "Name": "Kessler Inc and Sons",
+    "Tooltip": "iure",
+    "Deleted": false,
+    "UdListDefinitionId": 246,
+    "Rank": 330
   },
   {
-    "Id": 407,
-    "Name": "Friesen Inc and Sons",
-    "Tooltip": "error",
-    "Deleted": true,
-    "UdListDefinitionId": 97,
-    "Rank": 744
+    "Id": 475,
+    "Name": "Kessler Inc and Sons",
+    "Tooltip": "iure",
+    "Deleted": false,
+    "UdListDefinitionId": 246,
+    "Rank": 330
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 329,
-    "Name": "Mertz, Dare and Crooks",
-    "Tooltip": "corrupti",
+    "Id": 541,
+    "Name": "Schuppe, Jast and Corkery",
+    "Tooltip": "laboriosam",
     "Deleted": false,
-    "UdListDefinitionId": 376,
-    "Rank": 269,
+    "UdListDefinitionId": 787,
+    "Rank": 725,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 418
+        "FieldType": "System.String",
+        "FieldLength": 735
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 828,
-  "Name": "Abshire Inc and Sons",
-  "Tooltip": "expedita",
+  "HeadingId": 209,
+  "Name": "Will, Green and Macejkovic",
+  "Tooltip": "dolor",
   "Deleted": true,
-  "Rank": 588,
-  "UdListDefinitionId": 364
+  "Rank": 664,
+  "UdListDefinitionId": 138
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 102,
-  "Name": "Schimmel LLC",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "Rank": 719,
-  "UdListDefinitionId": 585,
+  "HeadingId": 491,
+  "Name": "Borer Inc and Sons",
+  "Tooltip": "ipsam",
+  "Deleted": false,
+  "Rank": 97,
+  "UdListDefinitionId": 942,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 85
+      "FieldType": "System.Int32",
+      "FieldLength": 928
     }
   }
 }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 170
+  "SelectionId": 935
 }
 ```
 
@@ -96,44 +96,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bednar, Glover and Harris",
-    "Operator": "maiores",
+    "Name": "Grady, Wolf and Miller",
+    "Operator": "vel",
     "Values": [
-      "magnam",
-      "mollitia"
+      "eaque",
+      "distinctio"
     ],
     "DisplayValues": [
-      "aliquid",
-      "earum"
+      "alias",
+      "id"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Prohaska LLC",
-        "Operator": "numquam",
+        "Name": "Gerhold, Kulas and Zboncak",
+        "Operator": "maxime",
         "Values": [
-          "in",
-          "cum"
+          "eum",
+          "ratione"
         ],
         "DisplayValues": [
-          "odio",
-          "corrupti"
+          "ipsa",
+          "qui"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 646,
+        "InterParenthesis": 21,
         "InterOperator": "And",
-        "UniqueHash": 371
+        "UniqueHash": 788
       }
     ],
-    "InterParenthesis": 620,
+    "InterParenthesis": 519,
     "InterOperator": "And",
-    "UniqueHash": 681
+    "UniqueHash": 336
   }
 ]
 ```

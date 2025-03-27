@@ -115,11 +115,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 848
+  "DepartmentId": 47
 }
 ```
 
@@ -131,53 +131,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "nemo",
-    "PersonId": 508,
-    "Mrmrs": "quas",
-    "Firstname": "Colton",
-    "Lastname": "Ruecker",
-    "MiddleName": "Berge-Gottlieb",
-    "Title": "laborum",
-    "Description": "Synchronised eco-centric time-frame",
-    "Email": "akeem_thiel@leannon.biz",
-    "FullName": "Mr. Jammie Noemie Mills Sr.",
-    "DirectPhone": "739.233.9060",
-    "FormalName": "Leannon, VonRueden and White",
-    "CountryId": 996,
-    "ContactId": 515,
-    "ContactName": "Tromp-McLaughlin",
-    "Retired": 94,
-    "Rank": 14,
-    "ActiveInterests": 965,
+    "Position": "tempora",
+    "PersonId": 670,
+    "Mrmrs": "repudiandae",
+    "Firstname": "Christina",
+    "Lastname": "Weber",
+    "MiddleName": "Wuckert, Krajcik and Stracke",
+    "Title": "vitae",
+    "Description": "Persistent clear-thinking secured line",
+    "Email": "santos@reynoldsmacejkovic.us",
+    "FullName": "Oleta Bednar",
+    "DirectPhone": "273.261.0033 x11016",
+    "FormalName": "Beahan, Feest and Jacobson",
+    "CountryId": 232,
+    "ContactId": 291,
+    "ContactName": "Christiansen-Bayer",
+    "Retired": 49,
+    "Rank": 363,
+    "ActiveInterests": 818,
     "ContactDepartment": "",
-    "ContactCountryId": 821,
-    "ContactOrgNr": "921285",
-    "FaxPhone": "(153)048-2204 x64953",
-    "MobilePhone": "703.607.3605",
-    "ContactPhone": "151-848-7780 x8440",
-    "AssociateName": "Stracke-Heathcote",
-    "AssociateId": 176,
-    "UsePersonAddress": false,
-    "ContactFax": "quidem",
-    "Kanafname": "est",
-    "Kanalname": "et",
-    "Post1": "et",
-    "Post2": "est",
-    "Post3": "quo",
-    "EmailName": "carmella_mccullough@stokesstark.ca",
-    "ContactFullName": "Zella Heaney",
-    "ActiveErpLinks": 517,
-    "TicketPriorityId": 244,
-    "SupportLanguageId": 518,
-    "SupportAssociateId": 210,
+    "ContactCountryId": 967,
+    "ContactOrgNr": "734831",
+    "FaxPhone": "1-826-561-6878 x029",
+    "MobilePhone": "596-640-5390 x92844",
+    "ContactPhone": "591.977.9131 x3337",
+    "AssociateName": "Runte, Mayer and Hayes",
+    "AssociateId": 213,
+    "UsePersonAddress": true,
+    "ContactFax": "voluptas",
+    "Kanafname": "repellat",
+    "Kanalname": "est",
+    "Post1": "minus",
+    "Post2": "in",
+    "Post3": "voluptatibus",
+    "EmailName": "kenya_romaguera@langworthbeahan.com",
+    "ContactFullName": "Clare Russel",
+    "ActiveErpLinks": 354,
+    "TicketPriorityId": 566,
+    "SupportLanguageId": 54,
+    "SupportAssociateId": 801,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "247855",
+    "PersonNumber": "1039091",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 193
+        "FieldLength": 21
       }
     }
   }

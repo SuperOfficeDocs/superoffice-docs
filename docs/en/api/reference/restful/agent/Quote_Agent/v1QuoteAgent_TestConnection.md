@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Quote/TestConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Ullrich Group",
+  "ConnectorName": "Huel Inc and Sons",
   "ConnectionData": {
-    "ConnectionData1": "tenetur",
-    "ConnectionData2": "consectetur"
+    "ConnectionData1": "hic",
+    "ConnectionData2": "incidunt"
   }
 }
 ```
@@ -100,10 +100,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
+  "IsOk": false,
   "UserExplanation": "qui",
-  "TechExplanation": "hic",
-  "ErrorCode": "ducimus",
+  "TechExplanation": "iure",
+  "ErrorCode": "cum",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 850
+      "FieldLength": 653
     }
   }
 }

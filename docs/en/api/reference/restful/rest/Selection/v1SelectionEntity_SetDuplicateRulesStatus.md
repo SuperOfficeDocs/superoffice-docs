@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bergnaum-Schulist",
-    "DisplayName": "Bednar-Deckow",
-    "DisplayTooltip": "et",
-    "IsActive": false
+    "Name": "Ankunding-Gulgowski",
+    "DisplayName": "Gleichner-Schuppe",
+    "DisplayTooltip": "sit",
+    "IsActive": true
   },
   {
-    "Name": "Bergnaum-Schulist",
-    "DisplayName": "Bednar-Deckow",
-    "DisplayTooltip": "et",
-    "IsActive": false
+    "Name": "Ankunding-Gulgowski",
+    "DisplayName": "Gleichner-Schuppe",
+    "DisplayTooltip": "sit",
+    "IsActive": true
   }
 ]
 ```

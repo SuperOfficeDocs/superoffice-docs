@@ -75,10 +75,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 557,
+  "ErpConnectionId": 221,
   "ConfigFields": {
-    "ConfigFields1": "id",
-    "ConfigFields2": "eum"
+    "ConfigFields1": "aut",
+    "ConfigFields2": "voluptatem"
   }
 }
 ```

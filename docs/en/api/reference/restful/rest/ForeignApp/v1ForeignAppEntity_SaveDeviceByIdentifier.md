@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 226,
-  "Name": "Windler Group",
-  "CreatedDate": "2010-02-18T14:13:48.8836985+01:00",
-  "UpdatedDate": "1998-12-15T14:13:48.8836985+01:00",
-  "AssociateFullName": "Chelsey Harvey",
-  "CreatedBy": "at",
-  "UpdatedBy": "corrupti",
-  "DeviceIdentifier": "molestias",
-  "ForeignAppId": 851
+  "ForeignDeviceId": 969,
+  "Name": "Greenfelder-Dare",
+  "CreatedDate": "2014-04-15T02:38:26.1204323+02:00",
+  "UpdatedDate": "2007-04-22T02:38:26.1204323+02:00",
+  "AssociateFullName": "Jeff Lowe",
+  "CreatedBy": "perferendis",
+  "UpdatedBy": "aliquam",
+  "DeviceIdentifier": "quia",
+  "ForeignAppId": 279
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 470,
-  "Name": "Ferry, Kreiger and Boehm",
-  "CreatedDate": "2021-05-20T14:13:48.8993207+02:00",
-  "UpdatedDate": "2017-08-18T14:13:48.8993207+02:00",
-  "AssociateFullName": "Miss Miguel Crystal Predovic",
-  "CreatedBy": "laudantium",
-  "UpdatedBy": "odit",
-  "DeviceIdentifier": "mollitia",
-  "ForeignAppId": 453,
+  "ForeignDeviceId": 341,
+  "Name": "O'Conner-Satterfield",
+  "CreatedDate": "2001-06-17T02:38:26.1204323+02:00",
+  "UpdatedDate": "1999-11-04T02:38:26.1204323+01:00",
+  "AssociateFullName": "Berry Runte IV",
+  "CreatedBy": "ut",
+  "UpdatedBy": "veniam",
+  "DeviceIdentifier": "recusandae",
+  "ForeignAppId": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 55
+      "FieldLength": 512
     }
   }
 }

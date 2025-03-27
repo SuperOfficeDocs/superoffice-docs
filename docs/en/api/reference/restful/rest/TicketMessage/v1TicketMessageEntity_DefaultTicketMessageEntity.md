@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 385,
+  "EjMessageId": 968,
   "Ticket": null,
-  "CreatedAt": "2006-04-02T14:13:49.3680741+02:00",
+  "CreatedAt": "2011-08-09T02:38:26.4953951+02:00",
   "CreatedBy": null,
-  "Author": "assumenda",
+  "Author": "quae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "alias",
-  "TimeSpent": 688,
-  "Body": "accusamus",
-  "HtmlBody": "atque",
-  "EmailHeader": "kiel.mcdermott@schaefer.us",
-  "DebugInfo": "nisi",
-  "MailSorter": "aliquam",
+  "MessageId": "corrupti",
+  "TimeSpent": 437,
+  "Body": "nesciunt",
+  "HtmlBody": "eum",
+  "EmailHeader": "finn@pollichbogan.biz",
+  "DebugInfo": "dolorem",
+  "MailSorter": "nam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quis",
+  "SearchTitle": "sit",
   "MessageHeaders": [
     {
-      "Id": 740,
-      "Name": "Abernathy, Abbott and Dibbert",
-      "Value": "illum",
+      "Id": 452,
+      "Name": "Green, Reilly and Goyette",
+      "Value": "voluptates",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 390
+          "FieldType": "System.String",
+          "FieldLength": 167
         }
       }
     }
   ],
-  "Important": false,
+  "Important": true,
   "Language": "sed",
-  "Sentiment": 57,
-  "SentimentConfidence": 69,
+  "Sentiment": 29,
+  "SentimentConfidence": 804,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 876,
-      "Name": "Sipes, Braun and Stokes",
-      "ContentType": "esse",
-      "AttSize": 872,
-      "InlineImage": true,
-      "ContentId": "hic",
-      "AuthKey": "dolore",
+      "AttachmentId": 81,
+      "Name": "Koelpin-Romaguera",
+      "ContentType": "tempore",
+      "AttSize": 979,
+      "InlineImage": false,
+      "ContentId": "vitae",
+      "AuthKey": "distinctio",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 124
+          "FieldType": "System.String",
+          "FieldLength": 43
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sit",
+    "ExtraFields1": "veritatis",
     "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "esse",
-    "CustomFields2": "dolores"
+    "CustomFields1": "ipsam",
+    "CustomFields2": "delectus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 506
+      "FieldType": "System.Int32",
+      "FieldLength": 769
     }
   }
 }

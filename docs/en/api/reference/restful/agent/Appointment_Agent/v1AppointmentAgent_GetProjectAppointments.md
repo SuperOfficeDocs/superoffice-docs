@@ -130,14 +130,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 432,
-  "StartTime": "2005-11-08T14:13:38.9224602+01:00",
-  "EndTime": "2023-07-15T14:13:38.9224602+02:00",
-  "Count": 177
+  "ProjectId": 322,
+  "StartTime": "2021-12-31T02:38:20.5419831+01:00",
+  "EndTime": "2012-01-07T02:38:20.5419831+01:00",
+  "Count": 945
 }
 ```
 
@@ -149,65 +149,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 459,
-    "StartDate": "1999-01-27T14:13:38.938082+01:00",
-    "EndDate": "2023-09-06T14:13:38.938082+02:00",
+    "AppointmentId": 172,
+    "StartDate": "2022-08-07T02:38:20.5419831+02:00",
+    "EndDate": "2011-03-03T02:38:20.5419831+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aut",
-    "AssociateFullName": "Jasmin Cummings",
-    "ContactName": "Senger-Veum",
-    "Description": "Assimilated incremental emulation",
-    "PersonFullName": "Buster Wunsch",
-    "PersonId": 797,
-    "ContactId": 793,
-    "ProjectId": 301,
-    "ProjectName": "Romaguera LLC",
-    "IsPublished": true,
-    "AssociateId": 964,
-    "ColorIndex": 367,
-    "IsFree": false,
+    "Task": "tempora",
+    "AssociateFullName": "Sammy Goyette",
+    "ContactName": "Toy, Streich and Schneider",
+    "Description": "Fully-configurable value-added Graphic Interface",
+    "PersonFullName": "Dr. Ruben Darian Sawayn IV",
+    "PersonId": 753,
+    "ContactId": 453,
+    "ProjectId": 914,
+    "ProjectName": "Mohr, Rau and Hessel",
+    "IsPublished": false,
+    "AssociateId": 738,
+    "ColorIndex": 401,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 433,
-    "PriorityName": "Walter LLC",
+    "PriorityId": 265,
+    "PriorityName": "Marvin-Gibson",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2009-11-03T14:13:38.938082+01:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2001-06-11T02:38:20.5419831+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-05-18T14:13:38.938082+02:00",
-    "RecurringEndDate": "2015-10-18T14:13:38.938082+02:00",
-    "MotherId": 983,
-    "AssignedBy": 230,
-    "AssignedByFullName": "Prof. Rosina Catherine Beier IV",
+    "RecurringStartDate": "2014-04-01T02:38:20.5419831+02:00",
+    "RecurringEndDate": "2020-07-20T02:38:20.5419831+02:00",
+    "MotherId": 543,
+    "AssignedBy": 675,
+    "AssignedByFullName": "Sim Heller MD",
     "RejectReason": "",
-    "Location": "dolorem",
-    "AlarmLeadTime": "reiciendis",
-    "SaleId": 504,
-    "SaleName": "Hintz, Feest and Okuneva",
-    "AssociateName": "Renner Group",
-    "CreatedDate": "2018-06-30T14:13:38.938082+02:00",
-    "CreatedBy": "vero",
-    "CreatedByFullName": "Braulio Felicita Rosenbaum III",
-    "CreatedByAssociateId": 908,
+    "Location": "enim",
+    "AlarmLeadTime": "distinctio",
+    "SaleId": 379,
+    "SaleName": "Mann-Turcotte",
+    "AssociateName": "McCullough Group",
+    "CreatedDate": "2003-05-16T02:38:20.5419831+02:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Prof. Juliet Ryan MD",
+    "CreatedByAssociateId": 499,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 878,
-    "Title": "labore",
-    "Agenda": "veritatis",
-    "InternalNotes": "nesciunt",
+    "PreferredTZLocation": 20,
+    "Title": "accusantium",
+    "Agenda": "et",
+    "InternalNotes": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 8
+        "FieldType": "System.String",
+        "FieldLength": 235
       }
     }
   }

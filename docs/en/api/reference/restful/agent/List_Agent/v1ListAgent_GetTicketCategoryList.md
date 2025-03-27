@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 466,
-    "ParentId": 874,
-    "Name": "Stiedemann, Hegmann and Grimes",
-    "Fullname": "eius",
-    "CategoryMaster": 911,
+    "TicketCategoryId": 393,
+    "ParentId": 508,
+    "Name": "Bogisich Group",
+    "Fullname": "error",
+    "CategoryMaster": 376,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Mayer LLC",
+    "ExternalName": "Purdy, Goyette and Pfannerstill",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 458,
-    "ReplyTemplate": 231,
-    "NotificationEmail": "wilton.homenick@wiza.biz",
+    "AssignmentLag": 821,
+    "ReplyTemplate": 712,
+    "NotificationEmail": "ola@keebler.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 338,
+    "EffectiveReplyTemplateId": 693,
     "ExtraFields": {
-      "ExtraFields1": "molestiae",
-      "ExtraFields2": "consequuntur"
+      "ExtraFields1": "ut",
+      "ExtraFields2": "hic"
     },
     "CustomFields": {
-      "CustomFields1": "eaque",
-      "CustomFields2": "quia"
+      "CustomFields1": "quo",
+      "CustomFields2": "hic"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 615
+        "FieldType": "System.String",
+        "FieldLength": 358
       }
     }
   }

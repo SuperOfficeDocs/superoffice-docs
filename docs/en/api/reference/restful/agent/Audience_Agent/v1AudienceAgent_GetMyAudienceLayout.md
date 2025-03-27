@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyAudienceLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 589,
-  "InstanceLayout": "aut",
-  "InstanceName": "Osinski Group",
-  "CreatedDate": "2015-11-29T14:13:39.3754818+01:00",
-  "UpdatedDate": "2025-01-05T14:13:39.3754818+01:00",
+  "AudienceLayoutId": 227,
+  "InstanceLayout": "officia",
+  "InstanceName": "Lehner-Deckow",
+  "CreatedDate": "2017-06-10T02:38:20.885843+02:00",
+  "UpdatedDate": "1999-12-06T02:38:20.885843+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 459
+      "FieldLength": 431
     }
   }
 }

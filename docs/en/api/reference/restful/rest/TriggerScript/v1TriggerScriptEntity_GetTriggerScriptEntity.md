@@ -95,22 +95,22 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 66,
-  "Name": "Walter, Hauck and Herman",
+  "ScreenChooserId": 605,
+  "Name": "Hessel LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "quis",
-  "Source": "doloribus",
-  "Registered": "2008-05-06T14:13:49.414935+02:00",
-  "RegisteredAssociateId": 919,
-  "Updated": "2011-03-03T14:13:49.414935+01:00",
-  "UpdatedAssociateId": 822,
+  "UniqueIdentifier": "illum",
+  "Source": "veritatis",
+  "Registered": "2010-01-04T02:38:26.5266399+01:00",
+  "RegisteredAssociateId": 504,
+  "Updated": "2009-02-19T02:38:26.5266399+01:00",
+  "UpdatedAssociateId": 925,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 717
     }
   },
   "_Links": {

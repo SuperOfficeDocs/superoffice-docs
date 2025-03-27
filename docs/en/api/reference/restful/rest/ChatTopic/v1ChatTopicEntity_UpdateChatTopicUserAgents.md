@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 289,
+    "TopicId": 758,
     "User": null,
     "CanListen": true,
     "CanRespond": false,
-    "CanManage": true,
+    "CanManage": false,
     "CanNotify": false
   },
   {
-    "TopicId": 289,
+    "TopicId": 758,
     "User": null,
     "CanListen": true,
     "CanRespond": false,
-    "CanManage": true,
+    "CanManage": false,
     "CanNotify": false
   }
 ]
@@ -106,17 +106,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 129,
+    "TopicId": 754,
     "User": null,
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false
   },
   {
-    "TopicId": 129,
+    "TopicId": 754,
     "User": null,
-    "CanListen": false,
+    "CanListen": true,
     "CanRespond": false,
     "CanManage": false,
     "CanNotify": false

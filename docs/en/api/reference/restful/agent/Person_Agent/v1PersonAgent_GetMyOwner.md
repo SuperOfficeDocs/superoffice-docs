@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Person/GetMyOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -115,53 +115,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "enim",
-  "PersonId": 445,
-  "Mrmrs": "odio",
-  "Firstname": "Constance",
-  "Lastname": "White",
-  "MiddleName": "Becker, Koss and Glover",
-  "Title": "eveniet",
-  "Description": "Front-line grid-enabled utilisation",
-  "Email": "geoffrey_abernathy@bartolettibauch.name",
-  "FullName": "Tristin Rebecca Yundt MD",
-  "DirectPhone": "672-861-4151 x4331",
-  "FormalName": "Swift LLC",
-  "CountryId": 527,
-  "ContactId": 872,
-  "ContactName": "Murray Inc and Sons",
-  "Retired": 888,
-  "Rank": 330,
-  "ActiveInterests": 951,
+  "Position": "accusantium",
+  "PersonId": 545,
+  "Mrmrs": "incidunt",
+  "Firstname": "Berta",
+  "Lastname": "Schulist",
+  "MiddleName": "Rau-King",
+  "Title": "facere",
+  "Description": "Sharable encompassing Graphic Interface",
+  "Email": "izaiah_crooks@wuckertturner.biz",
+  "FullName": "Dr. Malika Stroman",
+  "DirectPhone": "1-121-852-6458 x297",
+  "FormalName": "Hettinger, Conroy and Stanton",
+  "CountryId": 799,
+  "ContactId": 271,
+  "ContactName": "Pollich-Greenholt",
+  "Retired": 730,
+  "Rank": 670,
+  "ActiveInterests": 621,
   "ContactDepartment": "",
-  "ContactCountryId": 908,
-  "ContactOrgNr": "1487017",
-  "FaxPhone": "979-224-6680",
-  "MobilePhone": "1-119-647-2194 x63672",
-  "ContactPhone": "(041)555-2730",
-  "AssociateName": "Shanahan LLC",
-  "AssociateId": 492,
-  "UsePersonAddress": false,
-  "ContactFax": "eligendi",
-  "Kanafname": "doloremque",
-  "Kanalname": "dolor",
-  "Post1": "maxime",
-  "Post2": "natus",
-  "Post3": "tempore",
-  "EmailName": "jeanne@trantoworn.biz",
-  "ContactFullName": "Arne Stiedemann",
-  "ActiveErpLinks": 338,
-  "TicketPriorityId": 928,
-  "SupportLanguageId": 52,
-  "SupportAssociateId": 242,
+  "ContactCountryId": 281,
+  "ContactOrgNr": "878878",
+  "FaxPhone": "973-761-5010",
+  "MobilePhone": "007.437.0626",
+  "ContactPhone": "889.655.3050",
+  "AssociateName": "Collins Inc and Sons",
+  "AssociateId": 509,
+  "UsePersonAddress": true,
+  "ContactFax": "quia",
+  "Kanafname": "cupiditate",
+  "Kanalname": "quo",
+  "Post1": "non",
+  "Post2": "recusandae",
+  "Post3": "nobis",
+  "EmailName": "roberto.grimes@kundedavis.ca",
+  "ContactFullName": "Alyson Spencer Goodwin PhD",
+  "ActiveErpLinks": 811,
+  "TicketPriorityId": 731,
+  "SupportLanguageId": 24,
+  "SupportAssociateId": 873,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "765342",
+  "PersonNumber": "892792",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldType": "System.String",
+      "FieldLength": 284
     }
   }
 }

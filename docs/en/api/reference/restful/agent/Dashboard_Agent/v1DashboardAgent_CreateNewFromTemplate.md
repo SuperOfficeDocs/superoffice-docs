@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 161,
-  "Caption": "debitis",
-  "Description": "Upgradable composite protocol",
-  "SelectionId": 925,
+  "DashboardTileId": 440,
+  "Caption": "est",
+  "Description": "Configurable multi-state paradigm",
+  "SelectionId": 933,
   "VisibleFor": [
     {
-      "VisibleId": 65,
+      "VisibleId": 924,
       "Visibility": "All",
-      "DisplayValue": "praesentium"
+      "DisplayValue": "esse"
     },
     {
-      "VisibleId": 65,
+      "VisibleId": 924,
       "Visibility": "All",
-      "DisplayValue": "praesentium"
+      "DisplayValue": "esse"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 624,
-  "Caption": "velit",
-  "Description": "Team-oriented 3rd generation analyzer",
-  "ChartName": "Morissette, Erdman and D'Amore",
-  "ChartId": "minus",
+  "DashboardTileId": 584,
+  "Caption": "amet",
+  "Description": "Decentralized well-modulated productivity",
+  "ChartName": "Paucek, Hudson and Kozey",
+  "ChartId": "sit",
   "IsDefault": false,
-  "AssociateId": 719,
-  "GroupId": 867,
-  "SelectionId": 18,
-  "Config": "tempora",
+  "AssociateId": 605,
+  "GroupId": 115,
+  "SelectionId": 434,
+  "Config": "sequi",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Wintheiser-Larson",
-      "Description": "Future-proofed human-resource toolset",
+      "Name": "Torp LLC",
+      "Description": "Front-line mission-critical core",
       "Type": "Boolean",
-      "ListName": "Marquardt, Cummerata and Nicolas",
+      "ListName": "Aufderhar-Erdman",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "eius",
+      "Value": "dolores",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 214
+          "FieldType": "System.Int32",
+          "FieldLength": 902
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 629,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 67
+          "FieldLength": 922
         }
       }
     },
     {
-      "VisibleId": 629,
+      "VisibleId": 604,
       "Visibility": "All",
-      "DisplayValue": "quis",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 67
+          "FieldLength": 922
         }
       }
     }
@@ -186,8 +186,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 57
+      "FieldType": "System.Int32",
+      "FieldLength": 220
     }
   }
 }

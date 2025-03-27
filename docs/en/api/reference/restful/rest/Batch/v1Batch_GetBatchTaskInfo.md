@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 830,
-  "Name": "Ullrich, Ryan and Douglas",
-  "AssociateId": 478,
-  "DetailsTable": 149,
-  "DetailsRecord": 384,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 263,
+  "Name": "Davis, Krajcik and Cummings",
+  "AssociateId": 287,
+  "DetailsTable": 131,
+  "DetailsRecord": 263,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "sint",
-    "ParameterObject2": "nihil"
+    "ParameterObject1": "ipsa",
+    "ParameterObject2": "ea"
   },
-  "LastStarted": "2006-04-15T14:13:49.4305556+02:00",
-  "Created": "2005-12-20T14:13:49.4305556+01:00",
-  "StartCount": 357,
-  "DatabaseSerialNumber": "610264",
-  "Context": "ut",
-  "Result": "minus",
+  "LastStarted": "2016-03-30T02:38:26.5266399+02:00",
+  "Created": "2011-09-29T02:38:26.5266399+02:00",
+  "StartCount": 859,
+  "DatabaseSerialNumber": "410426",
+  "Context": "assumenda",
+  "Result": "tempora",
   "State": "All",
-  "Description": "Exclusive real-time monitoring",
-  "Response": "aut",
-  "Request": "alias",
-  "ProgressDescription": "Multi-lateral zero administration interface",
-  "ProgressPercent": 290,
-  "FileName": "Pouros Group",
+  "Description": "Fundamental user-facing throughput",
+  "Response": "delectus",
+  "Request": "non",
+  "ProgressDescription": "Sharable neutral database",
+  "ProgressPercent": 890,
+  "FileName": "Kub LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldLength": 987
     }
   }
 }

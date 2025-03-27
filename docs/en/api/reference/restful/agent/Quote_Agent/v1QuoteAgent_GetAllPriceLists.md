@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 222,
-  "Currency": "est"
+  "QuoteConnectionId": 938,
+  "Currency": "occaecati"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 592,
-    "ERPPriceListKey": "voluptatibus",
-    "QuoteConnectionId": 619,
-    "Name": "Reilly-Quigley",
-    "Description": "Advanced even-keeled system engine",
-    "Currency": "autem",
-    "CurrencyName": "Barrows-Yost",
-    "ValidFrom": "2019-10-16T14:13:41.1095702+02:00",
-    "ValidTo": "2007-10-07T14:13:41.1095702+02:00",
-    "IsActive": false,
+    "PriceListId": 639,
+    "ERPPriceListKey": "modi",
+    "QuoteConnectionId": 694,
+    "Name": "Corkery, Marquardt and Murray",
+    "Description": "Persistent attitude-oriented migration",
+    "Currency": "esse",
+    "CurrencyName": "Wisozk, Beahan and Gottlieb",
+    "ValidFrom": "2020-12-09T02:38:21.7763357+01:00",
+    "ValidTo": "2023-09-08T02:38:21.7763357+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 17
+        "FieldLength": 276
       }
     }
   }

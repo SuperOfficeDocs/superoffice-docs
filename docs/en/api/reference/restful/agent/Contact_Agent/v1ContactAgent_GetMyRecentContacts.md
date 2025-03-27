@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 949,
-    "Name": "Leffler, Gerhold and Terry",
-    "OrgNr": "872931",
+    "ContactId": 397,
+    "Name": "Marks-Powlowski",
+    "OrgNr": "918902",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "sint",
-    "DirectPhone": "1-174-175-9544",
-    "AssociateId": 222,
-    "CountryId": 275,
-    "EmailAddress": "bill.jacobi@nitzsche.us",
-    "Kananame": "labore",
-    "EmailAddressName": "lyda@ondrickaaufderhar.uk",
+    "City": "vel",
+    "DirectPhone": "569.187.2924",
+    "AssociateId": 296,
+    "CountryId": 605,
+    "EmailAddress": "kylee@wiegand.co.uk",
+    "Kananame": "tenetur",
+    "EmailAddressName": "kirstin@koss.name",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Marlen Barney Kemmer I",
+    "AssociateFullName": "Ms. Baby Elmira Wyman",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "dolores",
-    "FullName": "Miss Amaya Darby Rosenbaum Jr.",
+    "FormattedAddress": "molestiae",
+    "FullName": "Ms. Amely Zulauf III",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 421,
-    "Number1": "924058",
-    "Number2": "1255862",
+    "ActiveErpLinks": 686,
+    "Number1": "623487",
+    "Number2": "1086472",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 949
+        "FieldLength": 880
       }
     }
   }

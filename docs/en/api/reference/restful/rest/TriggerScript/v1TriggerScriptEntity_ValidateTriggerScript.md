@@ -81,30 +81,30 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Valid": false,
-  "ErrorMessage": "sunt",
-  "LineNumber": 334,
+  "ErrorMessage": "sit",
+  "LineNumber": 2,
   "ErrorInformation": null,
-  "Transpiled": "voluptates",
+  "Transpiled": "id",
   "Includes": [
-    955,
-    445
+    45,
+    461
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 54,
-      "LineNumberTo": 135,
-      "Delta": 813,
-      "IncludeId": "voluptate",
+      "LineNumberFrom": 663,
+      "LineNumberTo": 360,
+      "Delta": 710,
+      "IncludeId": "non",
       "IncludedFrom": [
-        "ab",
-        "eum"
+        "nemo",
+        "sint"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldLength": 417
         }
       }
     }
@@ -113,8 +113,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldType": "System.String",
+      "FieldLength": 529
     }
   }
 }

@@ -876,6 +876,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ticketStatusName| *None* |Status: Request status|  |
 |request/categoryFullName| *None* |Category: Request category|  |
 |request/priorityName| *None* |Priority: Service priority|  |
+|request/ownedBy| *None* |Owner: The owner of the request|  |
 |request/ticketId| *None* |ID: Displays request ID|  |
 |request/title| *None* |Title: Displays the request title|  |
 |request/createdAt| *None* |Created: Displays when the request was created|  |
@@ -909,7 +910,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/deadline| *None* |Deadline: Deadline|  |
 |request/has\_attachment| *None* |Has attachment: Indicates whether the e-mail has one or more attachments|  |
 |request/tags| *None* |Tags: Tags connected to a request|  |
-|request/ownedBy| *None* |Owner: The owner of the request|  |
 |request/createdBy| *None* |Created by: Created by|  |
 |request/content| *None* |Content: Search for content in messages related to requests|  |
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
@@ -1207,7 +1207,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactStaticSelection?$select=restrictionAddress/state,contactExtra/x_contact_time,NumberOfSalesInPeriod,sale/associate/assocName,sale/associate/simultaneousEjUser
+GET /api/v1/archive/ContactStaticSelection?$select=email/emailLastBounce,streetAddress/line2,restrictionAddress/formattedMultiLineAddress,contactAssociate/contactCategory,contactAssociate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

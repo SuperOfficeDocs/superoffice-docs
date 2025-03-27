@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 307,
-    "Name": "Bednar Group",
-    "Tooltip": "est",
+    "HeadingId": 426,
+    "Name": "Huel-Langworth",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 35,
-    "UdListDefinitionId": 390,
+    "Rank": 250,
+    "UdListDefinitionId": 123,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 928
+        "FieldType": "System.Int32",
+        "FieldLength": 574
       }
     }
   }

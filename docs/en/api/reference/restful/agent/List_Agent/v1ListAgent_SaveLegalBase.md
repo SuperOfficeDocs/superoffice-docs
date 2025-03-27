@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 500,
-  "Name": "Reynolds, Lang and Bahringer",
-  "Tooltip": "ratione",
-  "Rank": 513,
-  "Key": "voluptatem",
-  "Deleted": false,
+  "LegalBaseId": 421,
+  "Name": "Mante LLC",
+  "Tooltip": "eos",
+  "Rank": 77,
+  "Key": "illum",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldLength": 35
     }
   }
 }

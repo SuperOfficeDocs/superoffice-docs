@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 925,
+  "ReportId": 992,
   "ReportCategory": "All",
-  "Description": "Open-source neutral encoding",
+  "Description": "Organized user-facing instruction set",
   "ReportLayout": "CalendarMonth",
-  "Name": "Goyette LLC",
-  "AssociateId": 90,
-  "TemplateId": 240,
+  "Name": "Mayer Inc and Sons",
+  "AssociateId": 859,
+  "TemplateId": 114,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 851
+      "FieldType": "System.Int32",
+      "FieldLength": 881
     }
   }
 }

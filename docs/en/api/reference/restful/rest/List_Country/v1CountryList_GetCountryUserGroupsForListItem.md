@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Cole-Stracke",
-    "ToolTip": "Molestias veniam.",
-    "Deleted": true,
-    "Rank": 307,
-    "Type": "aut",
-    "ColorBlock": 772,
-    "IconHint": "in",
+    "Id": 261,
+    "Name": "Towne-Predovic",
+    "ToolTip": "Ullam hic fugit minima reprehenderit.",
+    "Deleted": false,
+    "Rank": 113,
+    "Type": "veritatis",
+    "ColorBlock": 45,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2000-03-01T14:13:49.7273664+01:00",
+    "LastChanged": "2019-07-12T02:38:26.7142749+02:00",
     "ChildItems": [
       {
-        "Id": 150,
-        "Name": "Daniel-Ward",
-        "ToolTip": "Reprehenderit quod alias et voluptatum.",
-        "Deleted": false,
-        "Rank": 915,
-        "Type": "quam",
-        "ColorBlock": 464,
-        "IconHint": "aspernatur",
-        "Selected": false,
-        "LastChanged": "2007-03-02T14:13:49.7273664+01:00",
+        "Id": 241,
+        "Name": "Jacobi Inc and Sons",
+        "ToolTip": "Sed sunt dolorum qui dolor optio ullam eos.",
+        "Deleted": true,
+        "Rank": 585,
+        "Type": "ut",
+        "ColorBlock": 992,
+        "IconHint": "consectetur",
+        "Selected": true,
+        "LastChanged": "2006-10-06T02:38:26.7142749+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Consuelo Rowe Sr.",
+        "ExtraInfo": "occaecati",
+        "StyleHint": "dolor",
+        "Hidden": false,
+        "FullName": "Jazlyn Ebert MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 739
+            "FieldLength": 647
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "omnis",
+    "ExtraInfo": "et",
+    "StyleHint": "minus",
     "Hidden": true,
-    "FullName": "Kelly Muller",
+    "FullName": "Cesar Runolfsson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 189
+        "FieldLength": 702
       }
     }
   }

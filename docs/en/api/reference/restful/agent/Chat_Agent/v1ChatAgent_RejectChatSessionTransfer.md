@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 948
+  "ChatSessionId": 549
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 219,
-  "TopicId": 518,
+  "ChatSessionId": 680,
+  "TopicId": 768,
   "User": null,
   "Person": null,
-  "CustomerAlias": "reiciendis",
-  "CustomerHost": "ipsum",
-  "CustomerName": "Strosin-Bartell",
-  "CustomerEmail": "khalid_jenkins@bahringerhoppe.co.uk",
-  "CustomerPhone": "1-839-258-5070 x4163",
+  "CustomerAlias": "amet",
+  "CustomerHost": "sed",
+  "CustomerName": "Kshlerin, Brown and Bogisich",
+  "CustomerEmail": "maxime_harber@schinner.us",
+  "CustomerPhone": "276-204-9094 x585",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Bruen-Lind",
+  "CustomerCompanyName": "Hahn LLC",
   "Status": "Closed",
-  "FirstMessage": "quis",
-  "LastMessage": "incidunt",
-  "WhenRequested": "2019-05-25T14:13:39.6722896+02:00",
-  "WhenStarted": "2001-09-13T14:13:39.6722896+02:00",
-  "WhenEnded": "2020-10-26T14:13:39.6722896+01:00",
-  "WhenIdle": "1997-10-09T14:13:39.6722896+02:00",
-  "WhenFetched": "2017-04-02T14:13:39.6722896+02:00",
-  "SessionKey": "iure",
-  "InitialQueuePos": 69,
-  "AlertLevel": 881,
-  "Rank": 424,
+  "FirstMessage": "harum",
+  "LastMessage": "aut",
+  "WhenRequested": "2016-09-13T02:38:20.9639576+02:00",
+  "WhenStarted": "2003-08-30T02:38:20.9639576+02:00",
+  "WhenEnded": "2012-01-12T02:38:20.9639576+01:00",
+  "WhenIdle": "2002-07-02T02:38:20.9639576+02:00",
+  "WhenFetched": "2003-09-15T02:38:20.9639576+02:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 946,
+  "AlertLevel": 838,
+  "Rank": 818,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 766,
+  "ChatbotIsActive": true,
+  "Rating": 241,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldType": "System.String",
+      "FieldLength": 358
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 203,
-  "ListItemId": 350
+  "UdListDefinitionId": 686,
+  "ListItemId": 538
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 702,
-    "Name": "Hackett-Swift",
-    "ToolTip": "Error numquam laboriosam.",
-    "Deleted": true,
-    "Rank": 541,
-    "Type": "ullam",
-    "ColorBlock": 740,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2006-06-14T14:13:40.4690906+02:00",
+    "Id": 545,
+    "Name": "White-Crona",
+    "ToolTip": "Corporis sit sunt non omnis tenetur.",
+    "Deleted": false,
+    "Rank": 640,
+    "Type": "non",
+    "ColorBlock": 453,
+    "IconHint": "aperiam",
+    "Selected": true,
+    "LastChanged": "2017-10-22T02:38:21.4951545+02:00",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Thompson-Hayes",
-        "ToolTip": "Saepe ea dicta aut nihil voluptate eligendi non.",
+        "Id": 616,
+        "Name": "Bergnaum Group",
+        "ToolTip": "Eum optio voluptatem.",
         "Deleted": false,
-        "Rank": 501,
-        "Type": "sint",
-        "ColorBlock": 95,
-        "IconHint": "cumque",
+        "Rank": 922,
+        "Type": "eligendi",
+        "ColorBlock": 850,
+        "IconHint": "explicabo",
         "Selected": false,
-        "LastChanged": "2020-05-18T14:13:40.4690906+02:00",
+        "LastChanged": "2000-07-07T02:38:21.4951545+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "nemo",
-        "Hidden": true,
-        "FullName": "Prof. Mason Murray II",
+        "ExtraInfo": "totam",
+        "StyleHint": "quia",
+        "Hidden": false,
+        "FullName": "Nicole Elmira Reinger IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 704
+            "FieldType": "System.String",
+            "FieldLength": 800
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "odit",
+    "ExtraInfo": "sint",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Louisa Mertz",
+    "FullName": "Madge Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 178
+        "FieldLength": 74
       }
     }
   }

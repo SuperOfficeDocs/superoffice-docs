@@ -26,7 +26,7 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=597
+POST /api/v1/Agents/Dash/GetDash?dashId=895
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Dash/GetDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 41,
-  "UniqueId": "aut",
-  "Name": "Bergstrom LLC",
-  "Description": "Balanced analyzing solution",
-  "AssociateId": 48,
-  "Columns": 710,
+  "DashboardId": 717,
+  "UniqueId": "consequatur",
+  "Name": "Bahringer Inc and Sons",
+  "Description": "Cloned holistic benchmark",
+  "AssociateId": 245,
+  "Columns": 313,
   "Theme": null,
-  "VisibleForAll": 884,
+  "VisibleForAll": 515,
   "VisibleForAssociates": [
-    465,
-    836
+    460,
+    852
   ],
   "VisibleForGroups": [
-    364,
-    319
+    442,
+    857
   ],
-  "PinForAll": 691,
+  "PinForAll": 889,
   "PinForAssociates": [
-    880,
-    74
+    505,
+    468
   ],
   "PinForGroups": [
-    182,
-    742
+    500,
+    898
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 843
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   }
 }

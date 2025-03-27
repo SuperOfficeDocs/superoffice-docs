@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "in"
+  "QuoteListType": "aperiam"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "illo",
-    "DisplayValue": "quas",
-    "DisplayDescription": "User-centric human-resource installation",
+    "ERPQuoteListItemKey": "neque",
+    "DisplayValue": "aut",
+    "DisplayDescription": "Versatile real-time application",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldType": "System.String",
+        "FieldLength": 374
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "illo",
-    "DisplayValue": "quas",
-    "DisplayDescription": "User-centric human-resource installation",
+    "ERPQuoteListItemKey": "neque",
+    "DisplayValue": "aut",
+    "DisplayDescription": "Versatile real-time application",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldType": "System.String",
+        "FieldLength": 374
       }
     }
   }

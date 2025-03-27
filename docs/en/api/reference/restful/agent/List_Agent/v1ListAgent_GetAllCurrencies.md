@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 957,
-    "Name": "Hahn LLC",
-    "Tooltip": "qui",
-    "Rank": 448,
-    "Rate": 29453.332,
-    "Units": 27171.78,
+    "CurrencyId": 563,
+    "Name": "Ernser, Nitzsche and Feeney",
+    "Tooltip": "dolorum",
+    "Rank": 864,
+    "Rate": 15485.094,
+    "Units": 6405.896,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 175
+        "FieldLength": 965
       }
     }
   }

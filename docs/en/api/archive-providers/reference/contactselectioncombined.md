@@ -878,6 +878,7 @@ Implementation of the provider for the combined selection
 |request/ticketStatusName| *None* |Status: Request status|  |
 |request/categoryFullName| *None* |Category: Request category|  |
 |request/priorityName| *None* |Priority: Service priority|  |
+|request/ownedBy| *None* |Owner: The owner of the request|  |
 |request/ticketId| *None* |ID: Displays request ID|  |
 |request/title| *None* |Title: Displays the request title|  |
 |request/createdAt| *None* |Created: Displays when the request was created|  |
@@ -911,7 +912,6 @@ Implementation of the provider for the combined selection
 |request/deadline| *None* |Deadline: Deadline|  |
 |request/has\_attachment| *None* |Has attachment: Indicates whether the e-mail has one or more attachments|  |
 |request/tags| *None* |Tags: Tags connected to a request|  |
-|request/ownedBy| *None* |Owner: The owner of the request|  |
 |request/createdBy| *None* |Created by: Created by|  |
 |request/content| *None* |Content: Search for content in messages related to requests|  |
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
@@ -1209,7 +1209,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactSelectionCombined?$select=targetRelation/restrictionContactId,appointment/associate/personEmail,document/associate/usergroup,supportAssociateFullName,personExtra/x_person_user_relation
+GET /api/v1/archive/ContactSelectionCombined?$select=updatedDate,url/URLAddress,contactAssociate/otherGroups,sourceRelation/number,appointment/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

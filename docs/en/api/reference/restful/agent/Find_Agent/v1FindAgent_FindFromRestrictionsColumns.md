@@ -100,40 +100,40 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Shields, Bauch and Leuschke",
-      "Operator": "eos",
+      "Name": "D'Amore LLC",
+      "Operator": "rerum",
       "Values": [
-        "asperiores",
-        "aperiam"
+        "occaecati",
+        "beatae"
       ],
       "DisplayValues": [
-        "quasi",
-        "aspernatur"
+        "quis",
+        "quia"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 72,
+      "InterParenthesis": 919,
       "InterOperator": "And",
-      "UniqueHash": 631
+      "UniqueHash": 816
     }
   ],
-  "ProviderName": "Daugherty, Tillman and Hayes",
+  "ProviderName": "Buckridge Inc and Sons",
   "DesiredColumns": [
-    "adipisci",
-    "perspiciatis"
+    "et",
+    "tempora"
   ],
-  "PageSize": 728,
-  "PageNumber": 385
+  "PageSize": 971,
+  "PageNumber": 840
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bergstrom, Robel and Abbott",
-      "DisplayTooltip": "optio",
-      "DisplayType": "veniam",
-      "CanOrderBy": true,
-      "Name": "White, Zboncak and Witting",
+      "DisplayName": "Bashirian, Waelchi and Mraz",
+      "DisplayTooltip": "tenetur",
+      "DisplayType": "nihil",
+      "CanOrderBy": false,
+      "Name": "Kilback-Mills",
       "CanRestrictBy": false,
-      "RestrictionType": "quod",
-      "RestrictionListName": "Langosh, Hilll and Dare",
-      "IsVisible": true,
-      "ExtraInfo": "dicta",
-      "Width": "quia",
-      "IconHint": "ipsam",
-      "HeadingIconHint": "quia"
+      "RestrictionType": "dolorem",
+      "RestrictionListName": "Rodriguez-McDermott",
+      "IsVisible": false,
+      "ExtraInfo": "at",
+      "Width": "velit",
+      "IconHint": "voluptatem",
+      "HeadingIconHint": "eaque"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Nicolas-Hyatt",
-      "PrimaryKey": 393,
+      "EntityName": "Graham-Jakubowski",
+      "PrimaryKey": 799,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "vel",
-          "TooltipHint": "vitae",
-          "LinkHint": "earum"
+          "DisplayValue": "sint",
+          "TooltipHint": "velit",
+          "LinkHint": "facere"
         }
       },
-      "LinkHint": "aut",
-      "StyleHint": "quia",
+      "LinkHint": "animi",
+      "StyleHint": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 521
+          "FieldType": "System.Int32",
+          "FieldLength": 611
         }
       }
     }
   ],
-  "RowCount": 233,
+  "RowCount": 555,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 401
+      "FieldLength": 173
     }
   }
 }

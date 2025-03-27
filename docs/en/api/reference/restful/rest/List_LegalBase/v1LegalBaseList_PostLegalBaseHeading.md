@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 993,
-  "Name": "Abshire LLC",
-  "Tooltip": "porro",
+  "HeadingId": 470,
+  "Name": "Hermann, Schumm and Daugherty",
+  "Tooltip": "quia",
   "Deleted": true,
-  "Rank": 565,
-  "UdListDefinitionId": 630
+  "Rank": 430,
+  "UdListDefinitionId": 514
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 713,
-  "Name": "Weimann, Lubowitz and Turcotte",
-  "Tooltip": "quia",
+  "HeadingId": 740,
+  "Name": "Beier, Collins and Rowe",
+  "Tooltip": "aperiam",
   "Deleted": false,
-  "Rank": 131,
-  "UdListDefinitionId": 184,
+  "Rank": 66,
+  "UdListDefinitionId": 250,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 57
+      "FieldLength": 930
     }
   }
 }

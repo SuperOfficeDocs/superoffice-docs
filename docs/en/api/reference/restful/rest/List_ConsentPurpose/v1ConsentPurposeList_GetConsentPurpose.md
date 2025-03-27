@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,25 +84,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 708,
-  "Name": "Parisian Inc and Sons",
-  "ConsentText": "nam",
-  "FormText": "excepturi",
-  "Key": "magni",
-  "Tooltip": "dignissimos",
-  "Active": 1002,
-  "UpdatedDate": "2023-11-14T14:13:49.696121+01:00",
+  "ConsentPurposeId": 721,
+  "Name": "Bayer-Purdy",
+  "ConsentText": "eligendi",
+  "FormText": "veniam",
+  "Key": "in",
+  "Tooltip": "eaque",
+  "Active": 366,
+  "UpdatedDate": "2014-04-19T02:38:26.6986493+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 445,
-  "PrivacyStatementDesc": "laudantium",
+  "Rank": 954,
+  "PrivacyStatementDesc": "aspernatur",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldLength": 899
     }
   }
 }

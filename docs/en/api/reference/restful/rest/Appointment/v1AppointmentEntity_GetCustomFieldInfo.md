@@ -72,7 +72,7 @@ OK
 GET /api/v1/Appointment/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Anderson Group",
-  "DisplayName": "Schneider-Kihn",
-  "Description": "Enhanced intangible application",
-  "ShortLabel": "excepturi",
-  "HideLabel": false,
-  "HideField": false,
+  "FieldName": "Bergnaum, Raynor and Rowe",
+  "DisplayName": "Hermiston Inc and Sons",
+  "Description": "Exclusive analyzing secured line",
+  "ShortLabel": "sit",
+  "HideLabel": true,
+  "HideField": true,
   "IsIndexed": false,
   "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
-  "IsDisplayField": true,
-  "Rank": 789,
-  "TemplateVariableName": "Schimmel-Franecki"
+  "IsDisplayField": false,
+  "Rank": 27,
+  "TemplateVariableName": "Mayert LLC"
 }
 ```

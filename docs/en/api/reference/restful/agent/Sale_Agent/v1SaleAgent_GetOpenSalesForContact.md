@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 462
+  "ContactId": 900
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Tromp-Beatty",
-    "SaleDate": "2024-10-14T14:13:41.2508568+02:00",
-    "SaleId": 917,
-    "Probability": 272,
-    "Title": "sapiente",
-    "Amount": 3986.448,
-    "Currency": "non",
-    "ProjectName": "Boyer-Bartell",
-    "AssociateFullName": "Prof. Orpha Adolf Rau Sr.",
-    "Description": "Multi-lateral neutral framework",
+    "ContactName": "Legros-Schmidt",
+    "SaleDate": "2005-10-07T02:38:21.8544876+02:00",
+    "SaleId": 258,
+    "Probability": 840,
+    "Title": "dolore",
+    "Amount": 28046.165999999997,
+    "Currency": "qui",
+    "ProjectName": "Olson-Abernathy",
+    "AssociateFullName": "Dr. Clement Ottilie Streich",
+    "Description": "Balanced neutral encryption",
     "Status": "Lost",
-    "WeightedAmount": 25222.432,
-    "ProjectId": 611,
-    "EarningPercent": 5424.954,
-    "Earning": 29522.28,
-    "ContactId": 676,
-    "AssociateId": 636,
-    "PersonId": 286,
-    "SaleTypeId": 413,
-    "SaleTypeName": "Lynch-Fritsch",
-    "PersonFullName": "Mrs. Oda Thiel MD",
+    "WeightedAmount": 24112.996,
+    "ProjectId": 944,
+    "EarningPercent": 4218.364,
+    "Earning": 15945.792,
+    "ContactId": 636,
+    "AssociateId": 61,
+    "PersonId": 201,
+    "SaleTypeId": 808,
+    "SaleTypeName": "Wilderman-Hansen",
+    "PersonFullName": "Mr. Destinee Dickens Jr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 679,
-    "NextDueDate": "2010-06-29T14:13:41.2508568+02:00",
-    "Number": "1376631",
+    "ActiveErpLinks": 633,
+    "NextDueDate": "2015-10-29T02:38:21.8544876+01:00",
+    "Number": "1406561",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 444
+        "FieldLength": 280
       }
     }
   }

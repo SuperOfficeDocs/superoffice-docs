@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 75,
-  "Name": "Bartoletti, Mohr and Hegmann",
-  "Description": "Grass-roots executive encryption",
+  "ReportLabelLayoutId": 245,
+  "Name": "Koelpin-Koepp",
+  "Description": "Re-contextualized clear-thinking monitoring",
   "Orientation": "Landscape",
-  "PaperWidth": 938,
-  "PaperHeight": 846,
-  "LeftMargin": 758,
-  "RightMargin": 518,
-  "TopMargin": 941,
-  "BottomMargin": 450,
-  "CountColumns": 178,
-  "CountRows": 613
+  "PaperWidth": 343,
+  "PaperHeight": 592,
+  "LeftMargin": 502,
+  "RightMargin": 257,
+  "TopMargin": 540,
+  "BottomMargin": 146,
+  "CountColumns": 249,
+  "CountRows": 793
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 204,
-  "Name": "Kozey-Quitzon",
-  "Description": "Cross-group client-server time-frame",
+  "ReportLabelLayoutId": 531,
+  "Name": "McLaughlin-Barton",
+  "Description": "Persistent attitude-oriented array",
   "Orientation": "Landscape",
-  "PaperWidth": 468,
-  "PaperHeight": 674,
-  "LeftMargin": 921,
-  "RightMargin": 546,
-  "TopMargin": 753,
-  "BottomMargin": 745,
-  "CountColumns": 299,
-  "CountRows": 804,
+  "PaperWidth": 256,
+  "PaperHeight": 222,
+  "LeftMargin": 143,
+  "RightMargin": 191,
+  "TopMargin": 173,
+  "BottomMargin": 792,
+  "CountColumns": 353,
+  "CountRows": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 304
+      "FieldType": "System.Int32",
+      "FieldLength": 123
     }
   }
 }

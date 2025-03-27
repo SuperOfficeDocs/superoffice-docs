@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hodkiewicz LLC",
-  "Comment": "non",
-  "StakeholderRoleId": 851,
-  "CountryId": 947,
-  "PersonId": 393,
-  "EmailDescription": "dena@mcculloughkuphal.us",
-  "EmailId": 594,
-  "EmailAddress": "octavia_ryan@gaylord.us",
-  "PhoneId": 363,
-  "ContactName": "Jakubowski, Schultz and Champlin",
-  "ContactId": 348,
-  "SaleId": 185,
-  "Mrmrs": "explicabo",
-  "Firstname": "Eleanora",
-  "MiddleName": "O'Hara Inc and Sons",
-  "Lastname": "Weimann",
-  "SaleStakeholderId": 95,
-  "Rank": 618,
-  "Phone": "(035)385-5909 x57262",
+  "StakeholderRoleName": "Hane-Turner",
+  "Comment": "repudiandae",
+  "StakeholderRoleId": 229,
+  "CountryId": 386,
+  "PersonId": 908,
+  "EmailDescription": "electa@price.ca",
+  "EmailId": 477,
+  "EmailAddress": "emmett_upton@smithwehner.us",
+  "PhoneId": 479,
+  "ContactName": "Waelchi, Tillman and O'Connell",
+  "ContactId": 351,
+  "SaleId": 435,
+  "Mrmrs": "recusandae",
+  "Firstname": "Camden",
+  "MiddleName": "Okuneva, Donnelly and Bosco",
+  "Lastname": "Greenfelder",
+  "SaleStakeholderId": 162,
+  "Rank": 902,
+  "Phone": "642-573-2241 x3442",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 770
+      "FieldLength": 235
     }
   },
   "_Links": {

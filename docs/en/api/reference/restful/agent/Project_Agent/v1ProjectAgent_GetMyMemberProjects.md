@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 771,
-    "Name": "Hoppe-Schimmel",
-    "Description": "Right-sized 5th generation forecast",
+    "ProjectId": 778,
+    "Name": "Gerlach Group",
+    "Description": "Proactive next generation superstructure",
     "URL": "http://www.example.com/",
-    "Type": "ipsa",
-    "AssociateId": 492,
-    "AssociateFullName": "Miss Diego Garry Feil IV",
-    "TypeId": 391,
-    "Updated": "2005-11-05T14:13:41.0314634+01:00",
-    "StatusId": 944,
-    "Status": "et",
-    "TextId": 267,
-    "PublishTo": "2014-08-04T14:13:41.0314634+02:00",
-    "PublishFrom": "2016-03-15T14:13:41.0314634+01:00",
-    "IsPublished": true,
+    "Type": "labore",
+    "AssociateId": 191,
+    "AssociateFullName": "Delbert Cartwright",
+    "TypeId": 578,
+    "Updated": "2011-01-20T02:38:21.7295028+01:00",
+    "StatusId": 298,
+    "Status": "eveniet",
+    "TextId": 861,
+    "PublishTo": "2014-11-04T02:38:21.7295028+01:00",
+    "PublishFrom": "2018-11-23T02:38:21.7295028+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1339003",
-    "ActiveErpLinks": 235,
+    "ProjectNumber": "1436414",
+    "ActiveErpLinks": 648,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 522
+        "FieldType": "System.Int32",
+        "FieldLength": 864
       }
     }
   }

@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Durgan, Hackett and Bins",
-  "TypicalSearchId": 358
+  "EntityName": "Roberts, Bahringer and Miller",
+  "TypicalSearchId": 354
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Cole, Bins and Lind",
-  "SelectionId": 309,
-  "CanSaveAsSelection": true,
-  "MainHeading": "rerum",
-  "FilterScreenHeading": "mollitia",
-  "SelectionEntityHeading": "eum",
+  "ProviderName": "D'Amore Group",
+  "SelectionId": 525,
+  "CanSaveAsSelection": false,
+  "MainHeading": "ut",
+  "FilterScreenHeading": "aperiam",
+  "SelectionEntityHeading": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 843
     }
   }
 }

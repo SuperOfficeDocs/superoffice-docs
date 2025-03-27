@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 146,
-    "Name": "Halvorson, Kris and Davis",
-    "ConsentText": "ab",
-    "FormText": "eos",
-    "Key": "recusandae",
-    "Tooltip": "quae",
-    "Active": 563,
-    "UpdatedDate": "2004-12-03T14:13:40.5003334+01:00",
+    "ConsentPurposeId": 633,
+    "Name": "Hudson-Littel",
+    "ConsentText": "eos",
+    "FormText": "consectetur",
+    "Key": "et",
+    "Tooltip": "suscipit",
+    "Active": 833,
+    "UpdatedDate": "2023-08-06T02:38:21.5107392+02:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 372,
-    "PrivacyStatementDesc": "non",
+    "Deleted": true,
+    "Rank": 176,
+    "PrivacyStatementDesc": "perferendis",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 267
+        "FieldLength": 801
       }
     }
   }

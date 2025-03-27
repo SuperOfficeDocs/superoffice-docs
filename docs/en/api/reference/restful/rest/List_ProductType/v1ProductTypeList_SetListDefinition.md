@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 63,
-  "Name": "Terry, Thompson and Eichmann",
-  "Tooltip": "deserunt",
-  "Deleted": true,
-  "Rank": 312,
+  "Id": 303,
+  "Name": "Kessler LLC",
+  "Tooltip": "eveniet",
+  "Deleted": false,
+  "Rank": 980,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 81,
-  "Name": "Lubowitz, Zboncak and Labadie",
-  "Tooltip": "praesentium",
+  "Id": 874,
+  "Name": "Grady LLC",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 120,
+  "Rank": 969,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "libero",
+  "ListType": "veritatis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldLength": 699
     }
   }
 }

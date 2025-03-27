@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 788,
-  "Name": "Bashirian-Heidenreich",
-  "Tooltip": "dolores",
-  "Deleted": false,
-  "Rank": 757,
-  "IsCustomList": true,
+  "Id": 945,
+  "Name": "Pfannerstill Group",
+  "Tooltip": "temporibus",
+  "Deleted": true,
+  "Rank": 341,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
   "ListType": "optio",
-  "InUseByUserDefinedFields": false,
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 75
+      "FieldType": "System.String",
+      "FieldLength": 952
     }
   },
   "_Links": {

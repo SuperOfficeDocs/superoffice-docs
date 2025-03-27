@@ -75,25 +75,25 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 21 Feb 1999 14:13:48 G2T
+Last-Modified: Thu, 26 Jul 2007 02:38:26 G7T
 
 [
   {
-    "ForeignDeviceId": 851,
-    "Name": "Franecki-Botsford",
-    "CreatedDate": "2022-09-05T14:13:48.8836985+02:00",
-    "UpdatedDate": "1999-02-21T14:13:48.8836985+01:00",
-    "AssociateFullName": "Alexander Keeling",
-    "CreatedBy": "repellat",
-    "UpdatedBy": "sunt",
-    "DeviceIdentifier": "fugiat",
-    "ForeignAppId": 516,
+    "ForeignDeviceId": 676,
+    "Name": "Boyle Group",
+    "CreatedDate": "2003-01-14T02:38:26.1204323+01:00",
+    "UpdatedDate": "2007-07-26T02:38:26.1204323+02:00",
+    "AssociateFullName": "Ms. Marielle Devan Casper Jr.",
+    "CreatedBy": "officiis",
+    "UpdatedBy": "omnis",
+    "DeviceIdentifier": "quia",
+    "ForeignAppId": 141,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldLength": 398
       }
     }
   }

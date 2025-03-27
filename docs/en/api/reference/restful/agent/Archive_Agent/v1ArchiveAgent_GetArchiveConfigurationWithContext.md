@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hegmann-Kiehn",
-  "ProviderName": "Wolff, Tremblay and Labadie",
-  "Context": "qui"
+  "GuiName": "Tillman, Gleichner and Goodwin",
+  "ProviderName": "Gerhold LLC",
+  "Context": "aut"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Collins Group",
-      "DisplayTooltip": "aliquam",
-      "DisplayType": "et",
-      "CanOrderBy": true,
-      "Name": "Marvin, Gibson and Parker",
+      "DisplayName": "Barrows Inc and Sons",
+      "DisplayTooltip": "et",
+      "DisplayType": "consectetur",
+      "CanOrderBy": false,
+      "Name": "Mayert Group",
       "CanRestrictBy": false,
-      "RestrictionType": "maiores",
-      "RestrictionListName": "Dicki Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "et",
-      "Width": "at",
-      "IconHint": "labore",
-      "HeadingIconHint": "omnis"
+      "RestrictionType": "ea",
+      "RestrictionListName": "Thompson-Mills",
+      "IsVisible": true,
+      "ExtraInfo": "exercitationem",
+      "Width": "nemo",
+      "IconHint": "libero",
+      "HeadingIconHint": "quae"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 889,
-      "Name": "Prosacco-Hickle",
-      "ToolTip": "Laborum exercitationem blanditiis cupiditate voluptates.",
+      "Id": 641,
+      "Name": "Hansen-Lindgren",
+      "ToolTip": "Eveniet voluptatum rerum autem ex est vero.",
       "Deleted": false,
-      "Rank": 328,
-      "Type": "quas",
-      "ColorBlock": 523,
-      "IconHint": "nihil",
-      "Selected": true,
-      "LastChanged": "2016-12-01T14:13:39.3442417+01:00",
+      "Rank": 615,
+      "Type": "est",
+      "ColorBlock": 297,
+      "IconHint": "mollitia",
+      "Selected": false,
+      "LastChanged": "2023-11-03T02:38:20.8545926+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "delectus",
-      "StyleHint": "aliquam",
-      "Hidden": true,
-      "FullName": "Chris Walker DDS",
+      "ExtraInfo": "distinctio",
+      "StyleHint": "saepe",
+      "Hidden": false,
+      "FullName": "Tyshawn Blick",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 714
+          "FieldType": "System.Int32",
+          "FieldLength": 375
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Barton Inc and Sons",
+      "Name": "Mraz-Emmerich",
       "Direction": "ASC"
     },
     {
-      "Name": "Barton Inc and Sons",
+      "Name": "Mraz-Emmerich",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "consectetur",
+  "OwnerKeys": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 172
+      "FieldLength": 449
     }
   }
 }

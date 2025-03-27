@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 503,
+  "ErpConnectionId": 748,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "voluptatem",
-    "Rank": 698,
-    "DisplayName": "Haley, Mante and Heidenreich",
-    "DisplayDescription": "Streamlined executive firmware",
+    "FieldKey": "excepturi",
+    "Rank": 183,
+    "DisplayName": "Kuhn-Kunze",
+    "DisplayDescription": "Decentralized user-facing capability",
     "FieldType": "Checkbox",
-    "ListName": "Ankunding-Berge",
-    "DefaultValue": "nesciunt",
-    "MaxLength": 770,
+    "ListName": "Ernser-Rice",
+    "DefaultValue": "quia",
+    "MaxLength": 456,
     "Access": "Mandatory",
     "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 198
+        "FieldType": "System.Int32",
+        "FieldLength": 715
       }
     }
   }

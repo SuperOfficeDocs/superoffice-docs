@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 712,
-  "Name": "Kemmer-Skiles",
-  "Tooltip": "et",
+  "Id": 195,
+  "Name": "Christiansen-Hodkiewicz",
+  "Tooltip": "quod",
   "Deleted": false,
-  "UdListDefinitionId": 361,
-  "Rank": 614
+  "UdListDefinitionId": 890,
+  "Rank": 656
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 279,
-  "Name": "Turcotte Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 193,
+  "Name": "Halvorson, Pfannerstill and Bergstrom",
+  "Tooltip": "reiciendis",
   "Deleted": false,
-  "UdListDefinitionId": 695,
-  "Rank": 227,
+  "UdListDefinitionId": 534,
+  "Rank": 869,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 322
+      "FieldLength": 704
     }
   }
 }

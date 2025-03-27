@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 935,
-    "Name": "Rath LLC",
-    "Tooltip": "omnis",
+    "HeadingId": 411,
+    "Name": "Frami Group",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "Rank": 475,
-    "UdListDefinitionId": 962
+    "Rank": 467,
+    "UdListDefinitionId": 948
   },
   {
-    "HeadingId": 935,
-    "Name": "Rath LLC",
-    "Tooltip": "omnis",
+    "HeadingId": 411,
+    "Name": "Frami Group",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "Rank": 475,
-    "UdListDefinitionId": 962
+    "Rank": 467,
+    "UdListDefinitionId": 948
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 150,
-    "Name": "Bosco, Homenick and Morar",
-    "Tooltip": "voluptatem",
+    "HeadingId": 561,
+    "Name": "Schamberger, Heller and Dare",
+    "Tooltip": "earum",
     "Deleted": false,
-    "Rank": 873,
-    "UdListDefinitionId": 172,
+    "Rank": 408,
+    "UdListDefinitionId": 995,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 653
+        "FieldType": "System.Int32",
+        "FieldLength": 138
       }
     }
   }

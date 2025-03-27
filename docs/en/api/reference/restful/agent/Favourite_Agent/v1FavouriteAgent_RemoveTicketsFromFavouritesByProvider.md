@@ -66,35 +66,35 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Metz-Gulgowski",
+  "ProviderName": "Murray, Cassin and Champlin",
   "Restrictions": [
     {
-      "Name": "Hessel, Koelpin and Mraz",
-      "Operator": "et",
+      "Name": "Hyatt, Hoeger and Kuhlman",
+      "Operator": "iste",
       "Values": [
-        "quod",
-        "asperiores"
+        "in",
+        "rerum"
       ],
       "DisplayValues": [
-        "corporis",
-        "voluptatum"
+        "expedita",
+        "esse"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 36,
+      "InterParenthesis": 608,
       "InterOperator": "And",
-      "UniqueHash": 555
+      "UniqueHash": 954
     }
   ],
-  "AssociateId": 749
+  "AssociateId": 949
 }
 ```
 

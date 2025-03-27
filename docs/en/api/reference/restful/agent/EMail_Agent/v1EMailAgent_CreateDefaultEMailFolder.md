@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "McGlynn Inc and Sons",
-  "Delimiter": "est",
-  "Flags": "ut",
-  "TotalItems": 705,
-  "UnreadItems": 775,
+  "Name": "Reinger, Dicki and Rau",
+  "Delimiter": "quo",
+  "Flags": "minima",
+  "TotalItems": 644,
+  "UnreadItems": 95,
   "Subscribed": false,
-  "EmailFolderId": 683,
+  "EmailFolderId": 152,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 136
+      "FieldType": "System.String",
+      "FieldLength": 410
     }
   }
 }

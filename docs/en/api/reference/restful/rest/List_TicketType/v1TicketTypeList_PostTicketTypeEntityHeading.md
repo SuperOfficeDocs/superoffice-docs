@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 505,
-  "Name": "Beatty Inc and Sons",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "Rank": 204,
-  "UdListDefinitionId": 136
+  "HeadingId": 692,
+  "Name": "Powlowski Inc and Sons",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 701,
+  "UdListDefinitionId": 841
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 787,
-  "Name": "Medhurst-Predovic",
-  "Tooltip": "ipsa",
-  "Deleted": false,
-  "Rank": 673,
-  "UdListDefinitionId": 179,
+  "HeadingId": 619,
+  "Name": "Terry-Wuckert",
+  "Tooltip": "soluta",
+  "Deleted": true,
+  "Rank": 786,
+  "UdListDefinitionId": 318,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 811
     }
   }
 }

@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Greenholt Group"
+  "ApplicationName": "Bernier, Jerde and Schowalter"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 844,
-  "Name": "Ankunding-Homenick",
-  "CreatedDate": "2022-09-07T14:13:40.3909833+02:00",
-  "UpdatedDate": "2015-08-14T14:13:40.3909833+02:00",
-  "AssociateFullName": "Miss Tanner Considine",
-  "CreatedBy": "et",
-  "UpdatedBy": "voluptatem",
-  "DeviceIdentifier": "itaque",
-  "ForeignAppId": 806,
+  "ForeignDeviceId": 750,
+  "Name": "Nitzsche-Cassin",
+  "CreatedDate": "2006-09-08T02:38:21.4639053+02:00",
+  "UpdatedDate": "2022-11-04T02:38:21.4639053+01:00",
+  "AssociateFullName": "Robbie Crooks",
+  "CreatedBy": "rerum",
+  "UpdatedBy": "ut",
+  "DeviceIdentifier": "quibusdam",
+  "ForeignAppId": 480,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 522
+      "FieldLength": 349
     }
   }
 }

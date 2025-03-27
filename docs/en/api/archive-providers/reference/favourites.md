@@ -2088,6 +2088,7 @@ Archive provider for the list of favourites
 |request/ticketStatusName| *None* |Status: Request status|  |
 |request/categoryFullName| *None* |Category: Request category|  |
 |request/priorityName| *None* |Priority: Service priority|  |
+|request/ownedBy| *None* |Owner: The owner of the request|  |
 |request/ticketId| *None* |ID: Displays request ID|  |
 |request/title| *None* |Title: Displays the request title|  |
 |request/createdAt| *None* |Created: Displays when the request was created|  |
@@ -2104,11 +2105,11 @@ Archive provider for the list of favourites
 |request/numberOfReplies| *None* |Number of replies: Number of replies|  |
 |request/connectId| *None* |Merged with request: Merged with request|  |
 |request/readStatus| *None* |Read: Read|  |
-|request/realTimeSpentQueue| *None* |Real time in queue: Real time in queue|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/realTimeSpentQueue| *None* |Real time in queue: Real time in queue|  |
 |request/realTimeSpentExternally| *None* |Real time externally: Real time externally|  |
 |request/realTimeSpentInternally| *None* |Real time internally: Real time internally|  |
 |request/timeSpentQueue| *None* |Time spent in queue: Time spent in queue|  |
@@ -2125,7 +2126,6 @@ Archive provider for the list of favourites
 |request/deadline| *None* |Deadline: Deadline|  |
 |request/has\_attachment| *None* |Has attachment: Indicates whether the e-mail has one or more attachments|  |
 |request/tags| *None* |Tags: Tags connected to a request|  |
-|request/ownedBy| *None* |Owner: The owner of the request|  |
 |request/createdBy| *None* |Created by: Created by|  |
 |request/content| *None* |Content: Search for content in messages related to requests|  |
 |request/messageLanguage| *None* |Language: Recognized language in messages|  |
@@ -3176,6 +3176,7 @@ Archive provider for the list of favourites
 |ticketStatusName| *None* |Status: Request status|  |
 |categoryFullName| *None* |Category: Request category|  |
 |priorityName| *None* |Priority: Service priority|  |
+|ownedBy| *None* |Owner: The owner of the request|  |
 |ticketId| *None* |ID: Displays request ID|  |
 |createdAt| *None* |Created: Displays when the request was created|  |
 |lastChanged| *None* |Last changed: Displays when the request was last changed|  |
@@ -3207,7 +3208,6 @@ Archive provider for the list of favourites
 |deadline| *None* |Deadline: Deadline|  |
 |has\_attachment| *None* |Has attachment: Indicates whether the e-mail has one or more attachments|  |
 |tags| *None* |Tags: Tags connected to a request|  |
-|ownedBy| *None* |Owner: The owner of the request|  |
 |createdBy| *None* |Created by: Created by|  |
 |content| *None* |Content: Search for content in messages related to requests|  |
 |messageLanguage| *None* |Language: Recognized language in messages|  |
@@ -3300,7 +3300,7 @@ Archive provider for the list of favourites
 ## Sample
 
 ```http!
-GET /api/v1/archive/Favourites?$select=person/personExtra/x_person_user_relation,person/correspondingAssociate/usergroup,contact/contactAssociate/fullName,contact/contactAssociate/associateDbId,contact/contactAssociate/personEmail
+GET /api/v1/archive/Favourites?$select=who,description,person/personInfo/textId,person/restrictionAddress/line1,contact/code
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

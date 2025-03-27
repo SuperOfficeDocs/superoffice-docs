@@ -120,10 +120,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 296,
-  "Name": "Cremin, Heaney and McGlynn",
+  "SelectionId": 103,
+  "Name": "Johns-Jaskolski",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Sharable fresh-thinking info-mediaries",
-  "Postit": "suscipit",
+  "Description": "Cross-group 5th generation emulation",
+  "Postit": "totam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 557,
-  "IncludePerson": 765,
+  "GroupIdx": 695,
+  "IncludePerson": 657,
   "MemberCount": 99.99,
-  "Name": "Price, Kuhic and Braun",
-  "PostitTextId": 899,
-  "CreatedDate": "2022-01-16T14:13:41.3133469+01:00",
-  "SelectionId": 975,
-  "SoundEx": "et",
-  "Source": 873,
-  "TextId": 566,
-  "UpdatedDate": "2001-12-19T14:13:41.3133469+01:00",
-  "UpdatedCount": 525,
-  "Visibility": 557,
+  "Name": "Volkman Group",
+  "PostitTextId": 880,
+  "CreatedDate": "2000-07-30T02:38:21.9794397+02:00",
+  "SelectionId": 852,
+  "SoundEx": "minus",
+  "Source": 668,
+  "TextId": 317,
+  "UpdatedDate": "2024-04-19T02:38:21.9794397+02:00",
+  "UpdatedCount": 648,
+  "Visibility": 42,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 139,
-  "TargetTableName": "Kozey, Mosciski and Weimann",
+  "TargetTableNumber": 494,
+  "TargetTableName": "Rice-Conn",
   "Completed": false,
-  "LeftSelectionId": 912,
-  "RightSelectionId": 389,
+  "LeftSelectionId": 13,
+  "RightSelectionId": 930,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kris, Ritchie and Lemke",
-  "ShadowProviderName": "Oberbrunner-Bartell",
-  "ChartKey": "perferendis",
-  "LastLoaded": "2012-09-14T14:13:41.3133469+02:00",
-  "LastLoadedBy": 500,
+  "MainProviderName": "Raynor-Becker",
+  "ShadowProviderName": "Dietrich, Towne and Durgan",
+  "ChartKey": "vel",
+  "LastLoaded": "2008-02-13T02:38:21.9794397+01:00",
+  "LastLoadedBy": 695,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2025-02-14T14:13:41.3289686+01:00",
-  "LastMembershipChangeBy": 956,
+  "LastMembershipChange": "2024-12-05T02:38:21.9794397+01:00",
+  "LastMembershipChangeBy": 105,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "aperiam",
-  "MailingsProviderName": "Mills-Romaguera",
-  "DashboardTileDefinitionId": 549,
+  "MainHeading": "cumque",
+  "MemberTabHeading": "error",
+  "MailingsProviderName": "Schuppe Inc and Sons",
+  "DashboardTileDefinitionId": 338,
   "VisibleFor": [
     {
-      "VisibleId": 344,
+      "VisibleId": 957,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 639
+          "FieldLength": 38
         }
       }
     },
     {
-      "VisibleId": 344,
+      "VisibleId": 957,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 639
+          "FieldLength": 38
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 237
+      "FieldType": "System.Int32",
+      "FieldLength": 870
     }
   }
 }

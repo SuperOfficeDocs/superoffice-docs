@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Oberbrunner, Hand and Zemlak",
-    "DisplayName": "Marks-Cole",
-    "DisplayTooltip": "id",
-    "IsActive": false
+    "Name": "Klein LLC",
+    "DisplayName": "Larson-Ziemann",
+    "DisplayTooltip": "sapiente",
+    "IsActive": true
   },
   {
-    "Name": "Oberbrunner, Hand and Zemlak",
-    "DisplayName": "Marks-Cole",
-    "DisplayTooltip": "id",
-    "IsActive": false
+    "Name": "Klein LLC",
+    "DisplayName": "Larson-Ziemann",
+    "DisplayTooltip": "sapiente",
+    "IsActive": true
   }
 ]
 ```

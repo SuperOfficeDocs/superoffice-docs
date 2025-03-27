@@ -97,36 +97,36 @@ HierarchyEntity updated.
 PUT /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 506,
+  "HierarchyId": 599,
   "Domain": "Dashboards",
-  "Name": "Langworth-Okuneva",
-  "Fullname": "laudantium",
-  "ParentId": 305,
+  "Name": "Wuckert-Reilly",
+  "Fullname": "dolor",
+  "ParentId": 135,
   "Children": [
     {
-      "HierarchyId": 901,
+      "HierarchyId": 354,
       "Domain": "Dashboards",
-      "Name": "Considine, Casper and Dibbert",
-      "Fullname": "eos",
-      "ParentId": 327,
+      "Name": "Dare-Considine",
+      "Fullname": "nesciunt",
+      "ParentId": 99,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2012-01-28T14:13:48.8993207+01:00",
-      "RegisteredAssociateId": 404,
-      "Updated": "2007-01-27T14:13:48.8993207+01:00",
-      "UpdatedAssociateId": 124
+      "Registered": "1998-01-19T02:38:26.1204323+01:00",
+      "RegisteredAssociateId": 870,
+      "Updated": "2020-03-13T02:38:26.1204323+01:00",
+      "UpdatedAssociateId": 830
     }
   ],
-  "Registered": "2020-02-25T14:13:48.8993207+01:00",
-  "RegisteredAssociateId": 44,
-  "Updated": "2000-09-03T14:13:48.8993207+02:00",
-  "UpdatedAssociateId": 66
+  "Registered": "2009-04-20T02:38:26.1204323+02:00",
+  "RegisteredAssociateId": 510,
+  "Updated": "2006-09-30T02:38:26.1204323+02:00",
+  "UpdatedAssociateId": 536
 }
 ```
 
@@ -137,46 +137,46 @@ HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 273,
+  "HierarchyId": 698,
   "Domain": "Dashboards",
-  "Name": "Schaden Group",
-  "Fullname": "ut",
-  "ParentId": 472,
+  "Name": "Keebler-Shields",
+  "Fullname": "numquam",
+  "ParentId": 331,
   "Children": [
     {
-      "HierarchyId": 514,
+      "HierarchyId": 910,
       "Domain": "Dashboards",
-      "Name": "Kuvalis, Willms and Glover",
-      "Fullname": "possimus",
-      "ParentId": 595,
+      "Name": "Little-Mayer",
+      "Fullname": "doloribus",
+      "ParentId": 233,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-12-06T14:13:48.8993207+01:00",
-      "RegisteredAssociateId": 507,
-      "Updated": "2025-01-26T14:13:48.8993207+01:00",
-      "UpdatedAssociateId": 634,
+      "Registered": "2013-12-10T02:38:26.1204323+01:00",
+      "RegisteredAssociateId": 74,
+      "Updated": "2010-04-12T02:38:26.1204323+02:00",
+      "UpdatedAssociateId": 697,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 168
+          "FieldType": "System.String",
+          "FieldLength": 543
         }
       }
     }
   ],
-  "Registered": "2010-07-04T14:13:48.8993207+02:00",
-  "RegisteredAssociateId": 445,
-  "Updated": "2014-06-15T14:13:48.8993207+02:00",
-  "UpdatedAssociateId": 554,
+  "Registered": "2016-08-01T02:38:26.1204323+02:00",
+  "RegisteredAssociateId": 392,
+  "Updated": "1999-06-15T02:38:26.1204323+02:00",
+  "UpdatedAssociateId": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 894
+      "FieldType": "System.Int32",
+      "FieldLength": 222
     }
   },
   "_Links": {

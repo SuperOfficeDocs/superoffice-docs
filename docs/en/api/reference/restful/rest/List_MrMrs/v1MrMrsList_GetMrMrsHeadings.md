@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 270,
-    "Name": "Connelly-Goldner",
-    "Tooltip": "aliquid",
-    "Deleted": true,
-    "Rank": 886,
-    "UdListDefinitionId": 355,
+    "HeadingId": 422,
+    "Name": "Sporer-Goyette",
+    "Tooltip": "excepturi",
+    "Deleted": false,
+    "Rank": 731,
+    "UdListDefinitionId": 984,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 638
+        "FieldLength": 542
       }
     }
   }

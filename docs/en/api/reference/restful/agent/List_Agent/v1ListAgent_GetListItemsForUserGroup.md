@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 45,
-  "GroupId": 904
+  "UdListDefinitionId": 246,
+  "GroupId": 722
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Kilback Inc and Sons",
-    "ToolTip": "Omnis est consequatur inventore earum aut et.",
-    "Deleted": false,
-    "Rank": 111,
-    "Type": "architecto",
-    "ColorBlock": 976,
-    "IconHint": "illo",
+    "Id": 991,
+    "Name": "Turcotte-O'Conner",
+    "ToolTip": "Qui repellendus consequatur nihil.",
+    "Deleted": true,
+    "Rank": 191,
+    "Type": "optio",
+    "ColorBlock": 720,
+    "IconHint": "enim",
     "Selected": false,
-    "LastChanged": "2010-01-23T14:13:40.4690906+01:00",
+    "LastChanged": "2003-07-02T02:38:21.5107392+02:00",
     "ChildItems": [
       {
-        "Id": 473,
-        "Name": "Littel, Bode and Kulas",
-        "ToolTip": "Ut delectus.",
-        "Deleted": true,
-        "Rank": 86,
-        "Type": "consectetur",
-        "ColorBlock": 879,
-        "IconHint": "exercitationem",
-        "Selected": false,
-        "LastChanged": "1998-03-10T14:13:40.4690906+01:00",
+        "Id": 710,
+        "Name": "Osinski-Veum",
+        "ToolTip": "Qui ut est autem.",
+        "Deleted": false,
+        "Rank": 509,
+        "Type": "rerum",
+        "ColorBlock": 98,
+        "IconHint": "provident",
+        "Selected": true,
+        "LastChanged": "2008-08-09T02:38:21.5107392+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "itaque",
+        "ExtraInfo": "ea",
+        "StyleHint": "libero",
         "Hidden": false,
-        "FullName": "Simeon Bauch",
+        "FullName": "Miss Estella Lemke III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 418
+            "FieldType": "System.Int32",
+            "FieldLength": 944
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "explicabo",
+    "ExtraInfo": "odio",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Shaina Rodriguez DVM",
+    "FullName": "Jaqueline Hayes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldLength": 125
       }
     }
   }

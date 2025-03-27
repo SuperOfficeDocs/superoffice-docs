@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 117,
-    "Name": "Bosco Group",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "Rank": 337,
-    "UdListDefinitionId": 552,
+    "HeadingId": 502,
+    "Name": "Bogan LLC",
+    "Tooltip": "cum",
+    "Deleted": true,
+    "Rank": 369,
+    "UdListDefinitionId": 323,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 773
+        "FieldType": "System.Int32",
+        "FieldLength": 288
       }
     }
   }

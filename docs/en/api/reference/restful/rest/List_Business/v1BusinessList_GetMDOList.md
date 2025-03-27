@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=True
-GET /api/v1/List/Business/MDOItems?query=incidunt
+GET /api/v1/List/Business/MDOItems?flat=False
+GET /api/v1/List/Business/MDOItems?query=quia
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 94,
-    "Name": "Okuneva, Denesik and Kozey",
-    "ToolTip": "Aut aliquid omnis numquam rem unde laudantium.",
+    "Id": 391,
+    "Name": "Schimmel-Huels",
+    "ToolTip": "Et minima aut.",
     "Deleted": false,
-    "Rank": 356,
-    "Type": "accusamus",
+    "Rank": 845,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 919,
-        "Name": "Russel, Gibson and Beahan",
-        "ToolTip": "Distinctio laboriosam consequuntur.",
+        "Id": 197,
+        "Name": "Steuber, Koepp and Emmerich",
+        "ToolTip": "In et.",
         "Deleted": false,
-        "Rank": 48,
-        "Type": "fuga",
+        "Rank": 47,
+        "Type": "sit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 767,
-        "ExtraInfo": "est",
-        "StyleHint": "aut",
-        "FullName": "Marielle Ondricka",
+        "IconHint": "odio",
+        "ColorBlock": 16,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "ad",
+        "FullName": "Miss Karen Reynolds",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 219
+            "FieldLength": 324
           }
         }
       }
     ],
-    "IconHint": "repellendus",
-    "ColorBlock": 633,
-    "ExtraInfo": "sed",
-    "StyleHint": "dolor",
-    "FullName": "Evie Abernathy",
+    "IconHint": "dolores",
+    "ColorBlock": 889,
+    "ExtraInfo": "vero",
+    "StyleHint": "delectus",
+    "FullName": "Dr. Bernita Ebert II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 461
       }
     }
   }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 402,
-  "Name": "Cummings-Sipes",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "Rank": 686,
+  "Id": 663,
+  "Name": "Braun-Willms",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "Rank": 328,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "UseGroupsAndHeadings": true,
+  "ListType": "dicta",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 634,
-  "Name": "Feest, Hand and Romaguera",
-  "Tooltip": "inventore",
+  "Id": 641,
+  "Name": "Miller, Stanton and Lakin",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "Rank": 291,
+  "Rank": 723,
   "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ipsam",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "id",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 410
     }
   }
 }

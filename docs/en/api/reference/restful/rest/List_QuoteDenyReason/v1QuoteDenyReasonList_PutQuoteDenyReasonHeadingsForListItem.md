@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 555,
-    "Name": "Wintheiser-O'Keefe",
-    "ToolTip": "Est voluptatibus et dolorem provident odit dicta esse.",
+    "Id": 499,
+    "Name": "Nolan LLC",
+    "ToolTip": "Consectetur doloremque cupiditate.",
     "Deleted": false,
-    "Rank": 83,
-    "Type": "eum",
-    "ColorBlock": 712,
-    "IconHint": "sapiente",
-    "Selected": false,
-    "LastChanged": "2004-02-02T14:13:50.1656413+01:00",
+    "Rank": 252,
+    "Type": "atque",
+    "ColorBlock": 311,
+    "IconHint": "illum",
+    "Selected": true,
+    "LastChanged": "2011-12-05T02:38:26.886137+01:00",
     "ChildItems": [
       {
-        "Id": 235,
-        "Name": "Gutmann Inc and Sons",
-        "ToolTip": "Possimus tempora enim voluptatem ipsum.",
-        "Deleted": false,
-        "Rank": 951,
-        "Type": "quod",
-        "ColorBlock": 246,
-        "IconHint": "tenetur",
+        "Id": 670,
+        "Name": "Ullrich-Rau",
+        "ToolTip": "Nihil et quisquam nostrum.",
+        "Deleted": true,
+        "Rank": 34,
+        "Type": "quas",
+        "ColorBlock": 78,
+        "IconHint": "provident",
         "Selected": false,
-        "LastChanged": "2021-04-05T14:13:50.1656413+02:00",
+        "LastChanged": "2016-07-07T02:38:26.886137+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Georgianna Greenholt"
+        "ExtraInfo": "enim",
+        "StyleHint": "rem",
+        "Hidden": true,
+        "FullName": "Alycia Schaefer"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Mr. Eliseo Else Lindgren IV"
+    "ExtraInfo": "placeat",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Joel Bartell"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 385,
-    "Name": "Ankunding Inc and Sons",
-    "ToolTip": "Quia aut numquam eum nostrum.",
+    "Id": 361,
+    "Name": "Lemke-Maggio",
+    "ToolTip": "Officia dignissimos debitis ab.",
     "Deleted": false,
-    "Rank": 251,
-    "Type": "ut",
-    "ColorBlock": 745,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2003-04-06T14:13:50.1656413+02:00",
+    "Rank": 565,
+    "Type": "ipsam",
+    "ColorBlock": 904,
+    "IconHint": "saepe",
+    "Selected": true,
+    "LastChanged": "2012-03-19T02:38:26.886137+01:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Crooks, Smith and Beier",
-        "ToolTip": "Et tenetur ut aperiam recusandae.",
-        "Deleted": true,
-        "Rank": 366,
-        "Type": "deleniti",
-        "ColorBlock": 810,
-        "IconHint": "a",
-        "Selected": true,
-        "LastChanged": "1999-04-09T14:13:50.1656413+02:00",
+        "Id": 547,
+        "Name": "Gibson-Gerhold",
+        "ToolTip": "Sit omnis aut ut.",
+        "Deleted": false,
+        "Rank": 766,
+        "Type": "esse",
+        "ColorBlock": 447,
+        "IconHint": "deleniti",
+        "Selected": false,
+        "LastChanged": "2010-12-04T02:38:26.886137+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "fuga",
-        "Hidden": false,
-        "FullName": "Miss Brook Kylie Goldner Sr.",
+        "ExtraInfo": "quia",
+        "StyleHint": "fugit",
+        "Hidden": true,
+        "FullName": "Dolly Wyman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 675
+            "FieldType": "System.Int32",
+            "FieldLength": 653
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "minus",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "cum",
     "Hidden": false,
-    "FullName": "Dr. Rene Cormier",
+    "FullName": "Shemar Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 882
+        "FieldLength": 607
       }
     }
   }

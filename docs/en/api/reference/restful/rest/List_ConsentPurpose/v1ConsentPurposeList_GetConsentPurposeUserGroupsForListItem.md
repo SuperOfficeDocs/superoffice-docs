@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 345,
-    "Name": "Schuster Inc and Sons",
-    "ToolTip": "Tenetur reprehenderit qui est ut sunt.",
+    "Id": 177,
+    "Name": "Denesik LLC",
+    "ToolTip": "Modi nemo quod est culpa perferendis vel.",
     "Deleted": true,
-    "Rank": 817,
-    "Type": "doloremque",
-    "ColorBlock": 852,
-    "IconHint": "itaque",
+    "Rank": 298,
+    "Type": "asperiores",
+    "ColorBlock": 91,
+    "IconHint": "nobis",
     "Selected": false,
-    "LastChanged": "2000-11-12T14:13:49.7117421+01:00",
+    "LastChanged": "2011-04-30T02:38:26.6986493+02:00",
     "ChildItems": [
       {
-        "Id": 497,
-        "Name": "Hegmann LLC",
-        "ToolTip": "Et magni perferendis deleniti sit sint.",
-        "Deleted": true,
-        "Rank": 847,
-        "Type": "ullam",
-        "ColorBlock": 887,
-        "IconHint": "quo",
-        "Selected": true,
-        "LastChanged": "2016-02-20T14:13:49.7117421+01:00",
+        "Id": 784,
+        "Name": "Cronin, Denesik and Hessel",
+        "ToolTip": "Nesciunt est nesciunt sit omnis facilis.",
+        "Deleted": false,
+        "Rank": 514,
+        "Type": "ab",
+        "ColorBlock": 805,
+        "IconHint": "occaecati",
+        "Selected": false,
+        "LastChanged": "2007-04-02T02:38:26.6986493+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "magnam",
-        "StyleHint": "molestiae",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "consequuntur",
         "Hidden": true,
-        "FullName": "Wendell Reinger",
+        "FullName": "Tyson Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 714
+            "FieldType": "System.String",
+            "FieldLength": 155
           }
         }
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Burley Predovic",
+    "ExtraInfo": "sed",
+    "StyleHint": "fugit",
+    "Hidden": false,
+    "FullName": "Quinn Bode",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 870
+        "FieldType": "System.Int32",
+        "FieldLength": 364
       }
     }
   }

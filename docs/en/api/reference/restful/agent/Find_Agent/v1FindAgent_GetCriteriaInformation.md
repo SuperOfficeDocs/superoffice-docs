@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "neque",
-  "ProviderName": "Farrell-Durgan",
-  "StorageKey": "facere",
+  "StorageType": "perferendis",
+  "ProviderName": "Wiegand-Wintheiser",
+  "StorageKey": "eum",
   "StaticColumns": [
-    "molestias",
-    "quisquam"
+    "ipsa",
+    "hic"
   ]
 }
 ```
@@ -104,15 +104,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Runolfsdottir, Murray and Zemlak",
-      "Operator": "ea",
+      "Name": "Swift LLC",
+      "Operator": "est",
       "Values": [
-        "error",
-        "facilis"
+        "ex",
+        "aspernatur"
       ],
       "DisplayValues": [
-        "unde",
-        "beatae"
+        "sunt",
+        "quis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -120,65 +120,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 212,
+      "InterParenthesis": 10,
       "InterOperator": "And",
-      "UniqueHash": 567
+      "UniqueHash": 280
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Russel-Zboncak",
-      "DisplayTooltip": "fuga",
-      "DisplayType": "quo",
-      "CanOrderBy": true,
-      "Name": "Streich, Dooley and Spencer",
-      "CanRestrictBy": true,
-      "RestrictionType": "saepe",
-      "RestrictionListName": "Rau LLC",
+      "DisplayName": "Shanahan, Stanton and Gislason",
+      "DisplayTooltip": "voluptas",
+      "DisplayType": "quia",
+      "CanOrderBy": false,
+      "Name": "Cremin LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "incidunt",
+      "RestrictionListName": "Boyle-Trantow",
       "IsVisible": true,
-      "ExtraInfo": "distinctio",
-      "Width": "dignissimos",
-      "IconHint": "nihil",
-      "HeadingIconHint": "quia"
+      "ExtraInfo": "qui",
+      "Width": "quae",
+      "IconHint": "molestias",
+      "HeadingIconHint": "minus"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Murphy Group",
-      "PrimaryKey": 621,
+      "EntityName": "Heathcote, Kozey and Beatty",
+      "PrimaryKey": 524,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "accusamus",
-          "TooltipHint": "et",
-          "LinkHint": "tempore"
+          "DisplayValue": "autem",
+          "TooltipHint": "dolorem",
+          "LinkHint": "quaerat"
         }
       },
-      "LinkHint": "ad",
-      "StyleHint": "porro",
+      "LinkHint": "quia",
+      "StyleHint": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 67
+          "FieldLength": 292
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Greenholt Inc and Sons",
-      "Description": "Polarised zero administration Graphic Interface",
-      "Rank": 557,
+      "Name": "Borer Inc and Sons",
+      "Description": "Grass-roots even-keeled migration",
+      "Rank": 620,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Greenholt Inc and Sons",
-      "Description": "Polarised zero administration Graphic Interface",
-      "Rank": 557,
+      "Name": "Borer Inc and Sons",
+      "Description": "Grass-roots even-keeled migration",
+      "Rank": 620,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 101
+      "FieldType": "System.String",
+      "FieldLength": 353
     }
   }
 }

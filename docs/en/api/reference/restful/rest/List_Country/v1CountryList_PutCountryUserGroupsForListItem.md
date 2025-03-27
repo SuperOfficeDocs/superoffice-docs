@@ -102,42 +102,42 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 501,
-    "Name": "Schmidt LLC",
-    "ToolTip": "Suscipit consectetur atque pariatur.",
-    "Deleted": false,
-    "Rank": 444,
-    "Type": "quisquam",
-    "ColorBlock": 30,
-    "IconHint": "impedit",
-    "Selected": false,
-    "LastChanged": "2023-10-09T14:13:49.7273664+02:00",
+    "Id": 524,
+    "Name": "Schmidt-Hahn",
+    "ToolTip": "Dolorem aut nihil omnis maxime.",
+    "Deleted": true,
+    "Rank": 963,
+    "Type": "id",
+    "ColorBlock": 583,
+    "IconHint": "numquam",
+    "Selected": true,
+    "LastChanged": "2000-07-06T02:38:26.7142749+02:00",
     "ChildItems": [
       {
-        "Id": 188,
-        "Name": "Davis LLC",
-        "ToolTip": "Quaerat et quo sit accusamus voluptatibus quo at.",
+        "Id": 723,
+        "Name": "Ullrich, Dach and Ward",
+        "ToolTip": "Nemo cupiditate.",
         "Deleted": true,
-        "Rank": 534,
-        "Type": "aperiam",
-        "ColorBlock": 765,
-        "IconHint": "ea",
+        "Rank": 54,
+        "Type": "dolorum",
+        "ColorBlock": 488,
+        "IconHint": "odio",
         "Selected": false,
-        "LastChanged": "2009-03-21T14:13:49.7273664+01:00",
+        "LastChanged": "2008-04-09T02:38:26.7142749+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "eos",
-        "Hidden": true,
-        "FullName": "Valerie Upton"
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "quis",
+        "Hidden": false,
+        "FullName": "Prof. Pierce Wilkinson I"
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "ut",
+    "StyleHint": "error",
     "Hidden": false,
-    "FullName": "Ethel Littel"
+    "FullName": "Ms. Sean Pacocha"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 289,
-    "Name": "King, Cronin and Stiedemann",
-    "ToolTip": "Aut perferendis magnam rerum voluptate non tempora.",
+    "Id": 482,
+    "Name": "Hansen-Koss",
+    "ToolTip": "Eum ut reprehenderit sed at alias hic ducimus.",
     "Deleted": false,
-    "Rank": 260,
-    "Type": "quia",
-    "ColorBlock": 860,
-    "IconHint": "neque",
+    "Rank": 792,
+    "Type": "beatae",
+    "ColorBlock": 38,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2009-12-28T14:13:49.7429847+01:00",
+    "LastChanged": "2016-02-28T02:38:26.7142749+01:00",
     "ChildItems": [
       {
-        "Id": 89,
-        "Name": "Hoppe-O'Keefe",
-        "ToolTip": "Eos inventore neque saepe quidem animi.",
+        "Id": 481,
+        "Name": "Powlowski, Denesik and Wuckert",
+        "ToolTip": "Facere maiores occaecati.",
         "Deleted": true,
-        "Rank": 754,
-        "Type": "officiis",
-        "ColorBlock": 316,
-        "IconHint": "sed",
+        "Rank": 320,
+        "Type": "blanditiis",
+        "ColorBlock": 863,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2010-05-05T14:13:49.7429847+02:00",
+        "LastChanged": "2008-09-01T02:38:26.7142749+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "beatae",
+        "StyleHint": "deserunt",
         "Hidden": true,
-        "FullName": "Geovanni Ratke",
+        "FullName": "Corbin Lillian Swift I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 968
+            "FieldLength": 309
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "eius",
-    "Hidden": true,
-    "FullName": "Mrs. Jan Connelly IV",
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Guiseppe Schuppe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldType": "System.String",
+        "FieldLength": 114
       }
     }
   }

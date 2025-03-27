@@ -107,16 +107,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 999,
-  "Name": "Metz, Gutmann and Weimann",
-  "Tooltip": "fugit",
+  "RoleId": 84,
+  "Name": "Sanford LLC",
+  "Tooltip": "non",
   "RoleType": "Anonymous",
-  "Deleted": 827,
-  "Rank": 366,
-  "Created": "2020-10-23T14:13:49.1025081+02:00",
-  "UseCategories": 884,
+  "Deleted": 814,
+  "Rank": 778,
+  "Created": "2022-11-25T02:38:26.3391624+01:00",
+  "UseCategories": 619,
   "CreatedBy": null,
-  "Updated": "1999-04-15T14:13:49.1025081+02:00",
+  "Updated": "2003-11-13T02:38:26.3391624+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,29 +129,29 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 500,
-  "Name": "Dicki Group",
-  "Tooltip": "maiores",
+  "RoleId": 403,
+  "Name": "Goyette, Conn and Lebsack",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 543,
-  "Rank": 453,
-  "Created": "1998-05-28T14:13:49.1025081+02:00",
-  "UseCategories": 670,
+  "Deleted": 270,
+  "Rank": 434,
+  "Created": "2015-04-29T02:38:26.3391624+02:00",
+  "UseCategories": 121,
   "CreatedBy": null,
-  "Updated": "2001-03-06T14:13:49.1025081+01:00",
+  "Updated": "2019-08-26T02:38:26.3391624+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 828
+      "FieldType": "System.Int32",
+      "FieldLength": 799
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

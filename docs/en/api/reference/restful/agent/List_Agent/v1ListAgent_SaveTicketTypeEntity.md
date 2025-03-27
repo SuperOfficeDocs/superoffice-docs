@@ -99,37 +99,37 @@ OK
 POST /api/v1/Agents/List/SaveTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 157,
-  "Name": "Dickinson-Jast",
-  "Rank": 347,
-  "Tooltip": "corporis",
-  "Icon": "nam",
-  "DefaultTicketStatus": 107,
+  "TicketTypeId": 675,
+  "Name": "Harris-Hoeger",
+  "Rank": 264,
+  "Tooltip": "rerum",
+  "Icon": "sed",
+  "DefaultTicketStatus": 739,
   "TicketStatuses": [
-    543,
-    524
+    440,
+    547
   ],
-  "DefaultTicketPriority": 87,
+  "DefaultTicketPriority": 509,
   "TicketPriorities": [
-    339,
-    17
+    746,
+    36
   ],
-  "ReplyTemplate": 873,
+  "ReplyTemplate": 7,
   "IsExternalVisible": false,
   "IsDefault": true,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    64,
-    346
+    882,
+    837
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false
 }
 ```
@@ -141,22 +141,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 587,
-  "Name": "Wolff Group",
-  "Rank": 545,
-  "Tooltip": "consequatur",
-  "Icon": "doloremque",
-  "DefaultTicketStatus": 688,
+  "TicketTypeId": 553,
+  "Name": "Pfeffer, Farrell and Conn",
+  "Rank": 535,
+  "Tooltip": "sit",
+  "Icon": "voluptate",
+  "DefaultTicketStatus": 528,
   "TicketStatuses": [
-    767,
-    997
+    901,
+    64
   ],
-  "DefaultTicketPriority": 439,
+  "DefaultTicketPriority": 441,
   "TicketPriorities": [
-    88,
-    91
+    13,
+    798
   ],
-  "ReplyTemplate": 898,
+  "ReplyTemplate": 870,
   "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": false,
@@ -164,17 +164,17 @@ Content-Type: application/json; charset=utf-8
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    37,
-    43
+    538,
+    402
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldType": "System.String",
+      "FieldLength": 46
     }
   }
 }

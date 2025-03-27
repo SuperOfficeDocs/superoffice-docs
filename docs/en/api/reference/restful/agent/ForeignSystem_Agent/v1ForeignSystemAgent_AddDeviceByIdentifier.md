@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Streich, Lemke and Gibson",
-  "DeviceName": "Beer Inc and Sons",
-  "DeviceIdentifier": "sed"
+  "ApplicationName": "Kshlerin, Gislason and Blick",
+  "DeviceName": "Kassulke Inc and Sons",
+  "DeviceIdentifier": "reiciendis"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 724,
-  "Name": "Hahn, Bahringer and Corkery",
-  "CreatedDate": "2012-01-14T14:13:40.3909833+01:00",
-  "UpdatedDate": "1998-07-28T14:13:40.3909833+02:00",
-  "AssociateFullName": "Rae Ledner",
-  "CreatedBy": "non",
-  "UpdatedBy": "consequatur",
-  "DeviceIdentifier": "illum",
-  "ForeignAppId": 129,
+  "ForeignDeviceId": 639,
+  "Name": "Upton-Kuhic",
+  "CreatedDate": "2003-10-19T02:38:21.4482803+02:00",
+  "UpdatedDate": "2003-08-01T02:38:21.4482803+02:00",
+  "AssociateFullName": "Natalia Oberbrunner",
+  "CreatedBy": "sit",
+  "UpdatedBy": "vel",
+  "DeviceIdentifier": "et",
+  "ForeignAppId": 253,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 740
+      "FieldLength": 836
     }
   }
 }

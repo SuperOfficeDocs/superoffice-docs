@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Walter, Franecki and Harber",
+  "Name": "O'Keefe Inc and Sons",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 601,
-  "Name": "Crona-Ferry",
-  "Tooltip": "magni",
-  "Deleted": false,
-  "Rank": 254,
-  "IsCustomList": false,
+  "Id": 621,
+  "Name": "Veum Inc and Sons",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 221,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "modi",
+  "ListType": "perspiciatis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 528
+      "FieldType": "System.String",
+      "FieldLength": 588
     }
   }
 }

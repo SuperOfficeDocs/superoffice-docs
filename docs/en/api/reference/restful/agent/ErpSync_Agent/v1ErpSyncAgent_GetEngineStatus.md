@@ -80,14 +80,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsRunning": false,
-  "StatusMessage": "sint",
-  "Interval": "doloribus",
+  "StatusMessage": "dolores",
+  "Interval": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 855
+      "FieldLength": 609
     }
   }
 }

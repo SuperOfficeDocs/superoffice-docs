@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 952,
+  "PersonId": 294,
   "IncludeProjectDocuments": true,
-  "StartTime": "1999-01-06T14:13:39.9848261+01:00",
-  "EndTime": "2022-09-24T14:13:39.9848261+02:00",
-  "Count": 475
+  "StartTime": "2011-11-24T02:38:21.2139317+01:00",
+  "EndTime": "2005-10-30T02:38:21.2139317+01:00",
+  "Count": 277
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 552,
-    "Attention": "repudiandae",
-    "Header": "ex",
-    "Name": "Mueller, Hand and Hettinger",
-    "OurRef": "cumque",
-    "YourRef": "laborum",
-    "Description": "Compatible real-time workforce",
-    "DocumentTemplate": "est",
+    "DocumentId": 840,
+    "Attention": "et",
+    "Header": "dolores",
+    "Name": "Schultz, Durgan and Dibbert",
+    "OurRef": "iure",
+    "YourRef": "dignissimos",
+    "Description": "Multi-tiered transitional intranet",
+    "DocumentTemplate": "fugit",
     "IsPublished": false,
-    "PersonId": 971,
-    "PersonFullName": "Dr. Rahsaan Maia Gaylord V",
-    "AssociateFullName": "Prof. Brayan Jedediah Blanda DVM",
-    "ContactId": 676,
-    "ContactName": "Schmeler LLC",
-    "ProjectId": 283,
-    "ProjectName": "Mohr-Raynor",
-    "AssociateId": 908,
-    "Snum": 106,
-    "SaleId": 759,
-    "SaleName": "Huels Group",
+    "PersonId": 835,
+    "PersonFullName": "Rosalee Hills",
+    "AssociateFullName": "Michaela Buckridge",
+    "ContactId": 814,
+    "ContactName": "Bechtelar, Goldner and Quigley",
+    "ProjectId": 497,
+    "ProjectName": "Haag-Heller",
+    "AssociateId": 473,
+    "Snum": 856,
+    "SaleId": 846,
+    "SaleName": "Wiegand, Jenkins and Leannon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldLength": 718
       }
     }
   }

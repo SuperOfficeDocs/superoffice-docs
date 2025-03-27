@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 759,
-  "FieldName": "Fisher LLC",
-  "Label": "velit",
-  "Tooltip": "vel",
+  "QuoteLineConfigurationId": 755,
+  "FieldName": "Mueller Group",
+  "Label": "ipsam",
+  "Tooltip": "qui",
   "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 615,
+  "Rank": 415,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldType": "System.String",
+      "FieldLength": 295
     }
   }
 }

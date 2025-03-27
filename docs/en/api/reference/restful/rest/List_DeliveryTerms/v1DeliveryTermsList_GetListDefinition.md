@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 906,
-  "Name": "Reilly Inc and Sons",
-  "Tooltip": "amet",
-  "Deleted": false,
-  "Rank": 858,
+  "Id": 694,
+  "Name": "Rohan, Wyman and Jaskolski",
+  "Tooltip": "accusantium",
+  "Deleted": true,
+  "Rank": 163,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ipsa",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "expedita",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 556
+      "FieldType": "System.Int32",
+      "FieldLength": 770
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

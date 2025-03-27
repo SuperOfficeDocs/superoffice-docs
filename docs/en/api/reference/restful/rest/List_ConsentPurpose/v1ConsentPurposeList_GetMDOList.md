@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentPurpose/MDOItems?flat=True
-GET /api/v1/List/ConsentPurpose/MDOItems?query=odio
+GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
+GET /api/v1/List/ConsentPurpose/MDOItems?query=sed
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 396,
-    "Name": "Turcotte, Herman and Hansen",
-    "ToolTip": "Id ex.",
+    "Id": 728,
+    "Name": "McClure-Roob",
+    "ToolTip": "Veniam quibusdam.",
     "Deleted": false,
-    "Rank": 375,
-    "Type": "fuga",
+    "Rank": 893,
+    "Type": "provident",
     "ChildItems": [
       {
-        "Id": 274,
-        "Name": "Bashirian-Grant",
-        "ToolTip": "Assumenda eos qui.",
+        "Id": 909,
+        "Name": "Kshlerin Group",
+        "ToolTip": "Dolor quam in facilis.",
         "Deleted": false,
-        "Rank": 439,
-        "Type": "sit",
+        "Rank": 265,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nisi",
-        "ColorBlock": 759,
-        "ExtraInfo": "voluptate",
-        "StyleHint": "quia",
-        "FullName": "Akeem Huels Sr.",
+        "IconHint": "libero",
+        "ColorBlock": 812,
+        "ExtraInfo": "ex",
+        "StyleHint": "et",
+        "FullName": "Parker Deckow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 342
+            "FieldLength": 95
           }
         }
       }
     ],
-    "IconHint": "nobis",
-    "ColorBlock": 658,
-    "ExtraInfo": "rem",
-    "StyleHint": "non",
-    "FullName": "Mrs. Henriette Friesen",
+    "IconHint": "est",
+    "ColorBlock": 369,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "ut",
+    "FullName": "Gwen Kulas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 501
+        "FieldType": "System.Int32",
+        "FieldLength": 573
       }
     }
   }

@@ -27,7 +27,7 @@ Calls the List agent service GetAllCurrencyEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Currency/Items?includeDeleted=True
+GET /api/v1/List/Currency/Items?includeDeleted=False
 ```
 
 
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 345,
-    "Name": "Hane, Rempel and Deckow",
-    "Tooltip": "et",
-    "Rank": 854,
-    "Rate": 24012.708,
-    "Units": 9740.472,
+    "CurrencyId": 715,
+    "Name": "Murazik, Howell and Corwin",
+    "Tooltip": "dolorum",
+    "Rank": 223,
+    "Rate": 24128.665999999997,
+    "Units": 26084.282,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldLength": 541
       }
     }
   }

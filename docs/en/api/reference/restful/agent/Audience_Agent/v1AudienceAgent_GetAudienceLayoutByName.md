@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Kling, Powlowski and Gleichner"
+  "LayoutName": "Dietrich Inc and Sons"
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 514,
-  "InstanceLayout": "quia",
-  "InstanceName": "Fadel-O'Conner",
-  "CreatedDate": "2002-10-22T14:13:39.3754818+02:00",
-  "UpdatedDate": "2018-07-16T14:13:39.3754818+02:00",
+  "AudienceLayoutId": 642,
+  "InstanceLayout": "consequatur",
+  "InstanceName": "Koelpin-Lesch",
+  "CreatedDate": "2002-11-17T02:38:20.885843+01:00",
+  "UpdatedDate": "2021-06-16T02:38:20.885843+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 778
+      "FieldLength": 358
     }
   }
 }

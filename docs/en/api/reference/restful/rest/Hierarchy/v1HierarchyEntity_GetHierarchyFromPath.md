@@ -30,7 +30,7 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=True
+GET /api/v1/Hierarchy/{domain}/{path}?children=False
 ```
 
 
@@ -79,7 +79,7 @@ OK
 GET /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 422,
+  "HierarchyId": 997,
   "Domain": "Dashboards",
-  "Name": "Bechtelar-Abernathy",
-  "Fullname": "voluptatem",
-  "ParentId": 409,
+  "Name": "Bogan Group",
+  "Fullname": "provident",
+  "ParentId": 576,
   "Children": [
     {
-      "HierarchyId": 848,
+      "HierarchyId": 123,
       "Domain": "Dashboards",
-      "Name": "Boyer-Padberg",
-      "Fullname": "dolorem",
-      "ParentId": 798,
+      "Name": "Steuber-Homenick",
+      "Fullname": "numquam",
+      "ParentId": 399,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-05-22T14:13:48.8993207+02:00",
-      "RegisteredAssociateId": 792,
-      "Updated": "2024-02-04T14:13:48.8993207+01:00",
-      "UpdatedAssociateId": 510,
+      "Registered": "2018-02-28T02:38:26.1204323+01:00",
+      "RegisteredAssociateId": 693,
+      "Updated": "2013-10-18T02:38:26.1204323+02:00",
+      "UpdatedAssociateId": 282,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 966
+          "FieldType": "System.String",
+          "FieldLength": 201
         }
       }
     }
   ],
-  "Registered": "2004-02-10T14:13:48.8993207+01:00",
-  "RegisteredAssociateId": 818,
-  "Updated": "2014-09-12T14:13:48.8993207+02:00",
-  "UpdatedAssociateId": 875,
+  "Registered": "2005-09-16T02:38:26.1204323+02:00",
+  "RegisteredAssociateId": 830,
+  "Updated": "2005-01-13T02:38:26.1204323+01:00",
+  "UpdatedAssociateId": 916,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 615
+      "FieldLength": 540
     }
   }
 }

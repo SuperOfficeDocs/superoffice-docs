@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 02 Jun 2012 14:13:49 G6T
+Last-Modified: Fri, 28 May 2010 02:38:26 G5T
 
 {
-  "Description": "Ameliorated 24 hour frame",
-  "Postit": "tempora",
+  "Description": "Proactive multi-state local area network",
+  "Postit": "amet",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 518,
-  "IncludePerson": 394,
+  "GroupIdx": 636,
+  "IncludePerson": 588,
   "MemberCount": 99.99,
-  "Name": "Schaden LLC",
-  "PostitTextId": 554,
-  "CreatedDate": "2001-03-19T14:13:49.2430999+01:00",
-  "SelectionId": 127,
-  "SoundEx": "atque",
-  "Source": 716,
-  "TextId": 647,
-  "UpdatedDate": "2012-06-02T14:13:49.2430999+02:00",
-  "UpdatedCount": 909,
-  "Visibility": 437,
+  "Name": "Upton Inc and Sons",
+  "PostitTextId": 335,
+  "CreatedDate": "2019-06-02T02:38:26.4172802+02:00",
+  "SelectionId": 553,
+  "SoundEx": "eveniet",
+  "Source": 751,
+  "TextId": 1002,
+  "UpdatedDate": "2010-05-28T02:38:26.4172802+02:00",
+  "UpdatedCount": 716,
+  "Visibility": 840,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 639,
-  "TargetTableName": "Parisian, Schmidt and Luettgen",
-  "Completed": false,
-  "LeftSelectionId": 842,
-  "RightSelectionId": 252,
+  "CompanyUnique": true,
+  "TargetTableNumber": 532,
+  "TargetTableName": "Carter-Weissnat",
+  "Completed": true,
+  "LeftSelectionId": 480,
+  "RightSelectionId": 558,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Batz, Leffler and Schulist",
-  "ShadowProviderName": "Spencer-Kertzmann",
-  "ChartKey": "provident",
-  "LastLoaded": "2011-01-01T14:13:49.2430999+01:00",
-  "LastLoadedBy": 604,
+  "MainProviderName": "Lesch-Vandervort",
+  "ShadowProviderName": "O'Kon Group",
+  "ChartKey": "quod",
+  "LastLoaded": "2004-08-23T02:38:26.4172802+02:00",
+  "LastLoadedBy": 554,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-11-11T14:13:49.2430999+01:00",
-  "LastMembershipChangeBy": 315,
+  "LastMembershipChange": "2001-01-04T02:38:26.4172802+01:00",
+  "LastMembershipChangeBy": 361,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "deserunt",
-  "MailingsProviderName": "Ullrich LLC",
-  "DashboardTileDefinitionId": 59,
+  "MainHeading": "libero",
+  "MemberTabHeading": "harum",
+  "MailingsProviderName": "Koelpin-Dibbert",
+  "DashboardTileDefinitionId": 685,
   "VisibleFor": [
     {
-      "VisibleId": 806,
+      "VisibleId": 19,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 10
+          "FieldType": "System.String",
+          "FieldLength": 30
         }
       }
     },
     {
-      "VisibleId": 806,
+      "VisibleId": 19,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 10
+          "FieldType": "System.String",
+          "FieldLength": 30
         }
       }
     }
@@ -197,13 +197,13 @@ Last-Modified: Sat, 02 Jun 2012 14:13:49 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldType": "System.Int32",
+      "FieldLength": 594
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

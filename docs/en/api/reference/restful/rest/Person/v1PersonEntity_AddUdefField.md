@@ -98,7 +98,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 656,
-  "ColumnId": 193,
-  "FieldDefault": "nam",
-  "FieldHeight": 105,
-  "FieldLabel": "earum",
-  "FieldLeft": 488,
-  "FieldTop": 869,
+  "UDefFieldId": 765,
+  "ColumnId": 797,
+  "FieldDefault": "vero",
+  "FieldHeight": 764,
+  "FieldLabel": "consectetur",
+  "FieldLeft": 911,
+  "FieldTop": 1001,
   "FieldType": "Checkbox",
-  "FieldWidth": 871,
-  "FormatMask": "in",
+  "FieldWidth": 608,
+  "FormatMask": "ipsa",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 583,
-  "LabelLeft": 286,
-  "LabelTop": 880,
-  "LabelWidth": 138,
-  "LastVersionId": 695,
-  "ListTableId": 801,
-  "IsMandatory": true,
+  "LabelHeight": 640,
+  "LabelLeft": 704,
+  "LabelTop": 468,
+  "LabelWidth": 62,
+  "LastVersionId": 44,
+  "ListTableId": 496,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 188,
-  "ProgId": "vel",
-  "IsReadOnly": false,
-  "ShortLabel": "laborum",
-  "TabOrder": 175,
-  "TextLength": 286,
-  "Tooltip": "id",
-  "UdefIdentity": 245,
-  "UDListDefinitionId": 412,
+  "Page1LineNo": 837,
+  "ProgId": "cupiditate",
+  "IsReadOnly": true,
+  "ShortLabel": "delectus",
+  "TabOrder": 849,
+  "TextLength": 52,
+  "Tooltip": "sint",
+  "UdefIdentity": 133,
+  "UDListDefinitionId": 549,
   "Justification": "Center",
-  "Version": 360,
-  "TemplateVariableName": "Abbott-Grimes",
+  "Version": 783,
+  "TemplateVariableName": "Eichmann, Jenkins and Smitham",
   "HasBeenPublished": false,
-  "MdoListName": "Kuvalis Inc and Sons",
+  "MdoListName": "Cormier Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 680
     }
   }
 }

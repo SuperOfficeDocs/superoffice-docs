@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 774,
-  "Name": "Ernser-Zboncak",
-  "Tooltip": "eos",
+  "Id": 285,
+  "Name": "West LLC",
+  "Tooltip": "eum",
   "Deleted": false,
-  "UdListDefinitionId": 874,
-  "Rank": 773,
+  "UdListDefinitionId": 677,
+  "Rank": 451,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 463
+      "FieldLength": 470
     }
   }
 }

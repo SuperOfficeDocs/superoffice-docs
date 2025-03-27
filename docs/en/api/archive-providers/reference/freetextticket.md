@@ -33,6 +33,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
+|ownedBy|ejUser|Owner: The owner of the request| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
 |createdAt|datetime|Created: Displays when the request was created| x |
@@ -66,7 +67,6 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 |deadline|datetime|Deadline: Deadline| x |
 |has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |tags|intArray|Tags: Tags connected to a request| x |
-|ownedBy|ejUser|Owner: The owner of the request| x |
 |createdBy|ejUser|Created by: Created by| x |
 |content|string|Content: Search for content in messages related to requests| x |
 |messageLanguage|listAny|Language: Recognized language in messages|  |
@@ -761,7 +761,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextTicket?$select=person/personAssociate/assocType,person/correspondingAssociate/otherGroups,contact/contactExtra/x_contact_contact_relation,sale/associate/personId
+GET /api/v1/archive/FreetextTicket?$select=getAllRows,firstReadByUser,createdBy/contactFullName,ownedBy/associateDbId,ownedBy/usergroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

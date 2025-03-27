@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,56 +73,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Herzog-Halvorson",
-    "Description": "Secured background synergy",
+    "Name": "Jast, Heller and Koelpin",
+    "Description": "Mandatory background policy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 844,
-        "Tooltip": "sit",
+        "Total": 867,
+        "Tooltip": "eligendi",
         "CanAssign": true,
-        "Free": 98,
-        "InUse": 490,
+        "Free": 882,
+        "InUse": 30,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 900,
-        "Name": "Klocko-Boehm",
-        "Description": "Up-sized static attitude",
-        "PrerequisiteModuleName": "Jakubowski-Becker",
-        "SortOrder": 532,
-        "ExtraFlags": 555,
+        "Assigned": false,
+        "ModuleLicenseId": 116,
+        "Name": "Krajcik LLC",
+        "Description": "Multi-lateral bottom-line contingency",
+        "PrerequisiteModuleName": "Willms-Cassin",
+        "SortOrder": 448,
+        "ExtraFlags": 562,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 423
+            "FieldLength": 714
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 651,
-        "Tooltip": "ex",
-        "CanAssign": true,
-        "Free": 609,
-        "InUse": 904,
+        "Unrestricted": false,
+        "Total": 470,
+        "Tooltip": "magnam",
+        "CanAssign": false,
+        "Free": 719,
+        "InUse": 20,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 113,
-        "Name": "Rowe LLC",
-        "Description": "Ameliorated well-modulated methodology",
-        "PrerequisiteModuleName": "Abernathy, Herzog and Schmitt",
-        "SortOrder": 318,
-        "ExtraFlags": 339,
+        "ModuleLicenseId": 981,
+        "Name": "Wintheiser LLC",
+        "Description": "Networked heuristic info-mediaries",
+        "PrerequisiteModuleName": "Corkery-Turner",
+        "SortOrder": 5,
+        "ExtraFlags": 315,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 815
+            "FieldType": "System.String",
+            "FieldLength": 861
           }
         }
       }
@@ -132,61 +132,61 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldLength": 214
       }
     }
   },
   {
-    "Name": "Herzog-Halvorson",
-    "Description": "Secured background synergy",
+    "Name": "Jast, Heller and Koelpin",
+    "Description": "Mandatory background policy",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 844,
-        "Tooltip": "sit",
+        "Total": 867,
+        "Tooltip": "eligendi",
         "CanAssign": true,
-        "Free": 98,
-        "InUse": 490,
+        "Free": 882,
+        "InUse": 30,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 900,
-        "Name": "Klocko-Boehm",
-        "Description": "Up-sized static attitude",
-        "PrerequisiteModuleName": "Jakubowski-Becker",
-        "SortOrder": 532,
-        "ExtraFlags": 555,
+        "Assigned": false,
+        "ModuleLicenseId": 116,
+        "Name": "Krajcik LLC",
+        "Description": "Multi-lateral bottom-line contingency",
+        "PrerequisiteModuleName": "Willms-Cassin",
+        "SortOrder": 448,
+        "ExtraFlags": 562,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 423
+            "FieldLength": 714
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 651,
-        "Tooltip": "ex",
-        "CanAssign": true,
-        "Free": 609,
-        "InUse": 904,
+        "Unrestricted": false,
+        "Total": 470,
+        "Tooltip": "magnam",
+        "CanAssign": false,
+        "Free": 719,
+        "InUse": 20,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 113,
-        "Name": "Rowe LLC",
-        "Description": "Ameliorated well-modulated methodology",
-        "PrerequisiteModuleName": "Abernathy, Herzog and Schmitt",
-        "SortOrder": 318,
-        "ExtraFlags": 339,
+        "ModuleLicenseId": 981,
+        "Name": "Wintheiser LLC",
+        "Description": "Networked heuristic info-mediaries",
+        "PrerequisiteModuleName": "Corkery-Turner",
+        "SortOrder": 5,
+        "ExtraFlags": 315,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 815
+            "FieldType": "System.String",
+            "FieldLength": 861
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldLength": 214
       }
     }
   }

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Langosh, Thiel and Carter",
-  "Context": "doloribus"
+  "ProviderName": "Bergnaum, Howell and Hackett",
+  "Context": "eaque"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Lesch Group",
-    "DisplayTooltip": "assumenda",
-    "DisplayType": "deleniti",
+    "DisplayName": "Kessler-Hagenes",
+    "DisplayTooltip": "non",
+    "DisplayType": "culpa",
     "CanOrderBy": false,
-    "Name": "Morar-Yundt",
+    "Name": "Bogan, Crooks and Herman",
     "CanRestrictBy": true,
-    "RestrictionType": "ipsum",
-    "RestrictionListName": "Stark LLC",
-    "IsVisible": false,
-    "ExtraInfo": "explicabo",
-    "Width": "ipsa",
-    "IconHint": "repellendus",
-    "HeadingIconHint": "numquam"
+    "RestrictionType": "mollitia",
+    "RestrictionListName": "Smitham-Weimann",
+    "IsVisible": true,
+    "ExtraInfo": "quis",
+    "Width": "quam",
+    "IconHint": "et",
+    "HeadingIconHint": "voluptas"
   }
 ]
 ```

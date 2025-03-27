@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Children": true
+  "Children": false
 }
 ```
 
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 160,
+    "HierarchyId": 751,
     "Domain": "Dashboards",
-    "Name": "Buckridge-Senger",
-    "Fullname": "illum",
-    "ParentId": 665,
+    "Name": "Ryan-Terry",
+    "Fullname": "et",
+    "ParentId": 742,
     "Children": [
       {
-        "HierarchyId": 817,
+        "HierarchyId": 361,
         "Domain": "Dashboards",
-        "Name": "Goldner Inc and Sons",
-        "Fullname": "est",
-        "ParentId": 298,
+        "Name": "Marquardt Group",
+        "Fullname": "commodi",
+        "ParentId": 550,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2012-07-06T14:13:40.5159548+02:00",
-        "RegisteredAssociateId": 939,
-        "Updated": "1998-09-13T14:13:40.5159548+02:00",
-        "UpdatedAssociateId": 870,
+        "Registered": "2023-11-10T02:38:21.5264044+01:00",
+        "RegisteredAssociateId": 31,
+        "Updated": "2001-05-19T02:38:21.5264044+02:00",
+        "UpdatedAssociateId": 662,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 768
+            "FieldType": "System.String",
+            "FieldLength": 829
           }
         }
       }
     ],
-    "Registered": "2001-07-31T14:13:40.5159548+02:00",
-    "RegisteredAssociateId": 509,
-    "Updated": "2008-02-03T14:13:40.5159548+01:00",
-    "UpdatedAssociateId": 188,
+    "Registered": "1999-04-17T02:38:21.5264044+02:00",
+    "RegisteredAssociateId": 431,
+    "Updated": "2003-10-15T02:38:21.5264044+02:00",
+    "UpdatedAssociateId": 106,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 679
+        "FieldLength": 493
       }
     }
   }

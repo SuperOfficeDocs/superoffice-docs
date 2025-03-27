@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 276,
-  "Name": "Schuster Group"
+  "DashboardId": 286,
+  "Name": "Mraz, Fay and Rau"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 8,
-  "UniqueId": "illo",
-  "Name": "Leffler Inc and Sons",
-  "Description": "Focused full-range utilisation",
-  "AssociateId": 139,
-  "Columns": 478,
+  "DashboardId": 774,
+  "UniqueId": "rerum",
+  "Name": "Heaney-Kuphal",
+  "Description": "Fully-configurable bi-directional toolset",
+  "AssociateId": 45,
+  "Columns": 510,
   "Theme": null,
-  "VisibleForAll": 411,
+  "VisibleForAll": 26,
   "VisibleForAssociates": [
-    303,
-    978
+    291,
+    511
   ],
   "VisibleForGroups": [
-    275,
-    823
+    938,
+    800
   ],
-  "PinForAll": 184,
+  "PinForAll": 352,
   "PinForAssociates": [
-    97,
-    390
+    743,
+    846
   ],
   "PinForGroups": [
-    587,
-    700
+    311,
+    346
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 172
+      "FieldLength": 759
     }
   }
 }

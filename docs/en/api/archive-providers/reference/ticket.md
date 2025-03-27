@@ -35,6 +35,7 @@ table data; this will also pull in contact udef and related fields.
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
 |priorityName|listAny|Priority: Service priority| x |
+|ownedBy|ejUser|Owner: The owner of the request| x |
 |ticketId|int|ID: Displays request ID| x |
 |title|string|Title: Displays the request title| x |
 |createdAt|datetime|Created: Displays when the request was created| x |
@@ -68,7 +69,6 @@ table data; this will also pull in contact udef and related fields.
 |deadline|datetime|Deadline: Deadline| x |
 |has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |tags|intArray|Tags: Tags connected to a request| x |
-|ownedBy|ejUser|Owner: The owner of the request| x |
 |createdBy|ejUser|Created by: Created by| x |
 |content|string|Content: Search for content in messages related to requests| x |
 |messageLanguage|listAny|Language: Recognized language in messages|  |
@@ -763,7 +763,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Ticket?$select=person/personPager/formattedNumber,contact/LastSale,project/saintIntention
+GET /api/v1/archive/Ticket?$select=person/personUdef/SuperOffice:4,person/subscription,contact/streetAddress/zip,project/icon
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

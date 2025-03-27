@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Gibson-Hauck",
-    "ToolTip": "Rerum est praesentium sit minus quaerat dolorem officiis.",
+    "Id": 975,
+    "Name": "Rippin, Lebsack and Emmerich",
+    "ToolTip": "Unde aut qui.",
     "Deleted": true,
-    "Rank": 20,
-    "Type": "et",
-    "ColorBlock": 686,
-    "IconHint": "quam",
+    "Rank": 161,
+    "Type": "necessitatibus",
+    "ColorBlock": 980,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2014-06-21T14:13:49.7429847+02:00",
+    "LastChanged": "2008-06-12T02:38:26.7299042+02:00",
     "ChildItems": [
       {
-        "Id": 86,
-        "Name": "Lindgren-O'Conner",
-        "ToolTip": "Aspernatur totam voluptatum et iure cum.",
-        "Deleted": false,
-        "Rank": 698,
-        "Type": "id",
-        "ColorBlock": 383,
-        "IconHint": "eos",
+        "Id": 857,
+        "Name": "Lesch, Sawayn and Marvin",
+        "ToolTip": "Nihil atque porro voluptatem.",
+        "Deleted": true,
+        "Rank": 306,
+        "Type": "magni",
+        "ColorBlock": 423,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2024-06-07T14:13:49.7429847+02:00",
+        "LastChanged": "2021-07-19T02:38:26.7299042+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Leatha Stanton",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Mckenna Harvey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 380
+            "FieldType": "System.Int32",
+            "FieldLength": 974
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "error",
+    "ExtraInfo": "eos",
+    "StyleHint": "quas",
     "Hidden": true,
-    "FullName": "Tate Paxton Shields IV",
+    "FullName": "Brice Harber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldLength": 753
       }
     }
   }

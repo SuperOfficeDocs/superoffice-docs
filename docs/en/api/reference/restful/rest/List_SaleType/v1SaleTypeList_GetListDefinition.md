@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 221,
-  "Name": "Upton, Yundt and Lehner",
-  "Tooltip": "beatae",
+  "Id": 273,
+  "Name": "Volkman-Cormier",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 94,
+  "Rank": 353,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quasi",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldType": "System.String",
+      "FieldLength": 164
     }
   },
   "_Links": {

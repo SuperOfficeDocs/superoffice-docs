@@ -104,30 +104,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 847,
-  "UniqueId": "soluta",
-  "Name": "Bernier Inc and Sons",
-  "Description": "Organized incremental application",
-  "AssociateId": 72,
-  "Columns": 739,
+  "DashboardId": 396,
+  "UniqueId": "assumenda",
+  "Name": "Hansen-Mayer",
+  "Description": "Adaptive responsive monitoring",
+  "AssociateId": 680,
+  "Columns": 696,
   "Theme": null,
-  "VisibleForAll": 220,
+  "VisibleForAll": 924,
   "VisibleForAssociates": [
-    496,
-    528
+    865,
+    492
   ],
   "VisibleForGroups": [
-    714,
-    253
+    30,
+    97
   ],
-  "PinForAll": 815,
+  "PinForAll": 640,
   "PinForAssociates": [
-    496,
-    896
+    81,
+    850
   ],
   "PinForGroups": [
-    367,
-    396
+    248,
+    870
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 975,
-  "UniqueId": "voluptatem",
-  "Name": "Hilpert-Quitzon",
-  "Description": "Team-oriented directional implementation",
-  "AssociateId": 63,
-  "Columns": 768,
+  "DashboardId": 578,
+  "UniqueId": "aut",
+  "Name": "Pouros, Fahey and Morissette",
+  "Description": "Configurable cohesive array",
+  "AssociateId": 409,
+  "Columns": 24,
   "Theme": null,
-  "VisibleForAll": 342,
+  "VisibleForAll": 753,
   "VisibleForAssociates": [
-    611,
-    408
+    400,
+    631
   ],
   "VisibleForGroups": [
-    428,
-    695
+    119,
+    951
   ],
-  "PinForAll": 721,
+  "PinForAll": 112,
   "PinForAssociates": [
-    557,
-    531
+    820,
+    703
   ],
   "PinForGroups": [
-    468,
-    74
+    661,
+    395
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 963
     }
   },
   "_Links": {

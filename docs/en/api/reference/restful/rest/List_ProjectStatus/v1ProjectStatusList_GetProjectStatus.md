@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 902,
-  "Name": "Fisher-Keebler",
-  "Tooltip": "ipsam",
+  "Id": 738,
+  "Name": "Auer-Hilpert",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "UdListDefinitionId": 667,
-  "Rank": 110,
+  "UdListDefinitionId": 727,
+  "Rank": 869,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 962
+      "FieldLength": 304
     }
   }
 }

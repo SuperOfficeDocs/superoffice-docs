@@ -80,10 +80,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 566,
+  "TicketId": 962,
   "MessageActionType": "Forward",
-  "TicketMessageId": 463,
-  "TicketTypeId": 940,
+  "TicketMessageId": 998,
+  "TicketTypeId": 516,
   "ExcludeSignature": false
 }
 ```
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "explicabo",
+  "Body": "itaque",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 976,
-      "Name": "Jones LLC",
-      "ContentType": "vero",
-      "AttSize": 367,
-      "InlineImage": true,
-      "ContentId": "iste",
-      "AuthKey": "praesentium",
+      "AttachmentId": 727,
+      "Name": "Haag, Powlowski and Johns",
+      "ContentType": "mollitia",
+      "AttSize": 602,
+      "InlineImage": false,
+      "ContentId": "aut",
+      "AuthKey": "corrupti",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldLength": 894
         }
       }
     }

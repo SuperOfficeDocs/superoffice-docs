@@ -28,6 +28,7 @@ Download [WSDL file for Services88/License](../Services88-License.md) if you nee
 * [GetSatelliteLicenses](GetSatelliteLicenses.md)
 * [GetShopUrl](GetShopUrl.md)
 * [GetThirdPartyLicenseAssignments](GetThirdPartyLicenseAssignments.md)
+* [GetUserAndInstallationLicenceStatus](GetUserAndInstallationLicenceStatus.md)
 * [GetUserLicenses](GetUserLicenses.md)
 * [GetUserLicensesMDOList](GetUserLicensesMDOList.md)
 * [RemoveLicenseFromDB](RemoveLicenseFromDB.md)

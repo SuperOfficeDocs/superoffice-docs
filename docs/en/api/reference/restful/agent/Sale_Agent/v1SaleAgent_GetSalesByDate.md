@@ -106,9 +106,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2017-02-03T14:13:41.240351+01:00",
-  "ToDate": "2021-04-21T14:13:41.240351+02:00",
-  "AmountLimit": 758,
+  "FromDate": "2016-12-17T02:38:21.8544876+01:00",
+  "ToDate": "2022-08-08T02:38:21.8544876+02:00",
+  "AmountLimit": 765,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lockman-Hoeger",
-    "SaleDate": "2015-11-11T14:13:41.2508568+01:00",
-    "SaleId": 571,
-    "Probability": 488,
-    "Title": "rerum",
-    "Amount": 19565.561999999998,
-    "Currency": "expedita",
-    "ProjectName": "Fay-Roob",
-    "AssociateFullName": "Miss Shaylee Dario Wuckert PhD",
-    "Description": "Sharable uniform instruction set",
+    "ContactName": "Kohler, Eichmann and Bergnaum",
+    "SaleDate": "2015-01-09T02:38:21.8544876+01:00",
+    "SaleId": 493,
+    "Probability": 895,
+    "Title": "dolorem",
+    "Amount": 12865.07,
+    "Currency": "asperiores",
+    "ProjectName": "Hyatt LLC",
+    "AssociateFullName": "Mr. Freddy Diego Cruickshank I",
+    "Description": "De-engineered mobile knowledge user",
     "Status": "Lost",
-    "WeightedAmount": 23871.678,
-    "ProjectId": 827,
-    "EarningPercent": 21445.962,
-    "Earning": 6155.1759999999995,
-    "ContactId": 160,
-    "AssociateId": 738,
-    "PersonId": 437,
-    "SaleTypeId": 327,
-    "SaleTypeName": "Kautzer, Murray and Harvey",
-    "PersonFullName": "Annie Price",
+    "WeightedAmount": 26861.514,
+    "ProjectId": 501,
+    "EarningPercent": 18164.664,
+    "Earning": 23821.534,
+    "ContactId": 106,
+    "AssociateId": 712,
+    "PersonId": 716,
+    "SaleTypeId": 768,
+    "SaleTypeName": "Cassin, Macejkovic and Bahringer",
+    "PersonFullName": "Holden Schiller",
     "Completed": "Completed",
-    "ActiveErpLinks": 663,
-    "NextDueDate": "2021-10-09T14:13:41.2508568+02:00",
-    "Number": "993027",
+    "ActiveErpLinks": 207,
+    "NextDueDate": "2008-06-15T02:38:21.8544876+02:00",
+    "Number": "1536524",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldType": "System.Int32",
+        "FieldLength": 315
       }
     }
   }

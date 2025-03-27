@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "O'Keefe, Schamberger and Spencer",
-  "Language": "id"
+  "TemplateName": "Okuneva-Wilderman",
+  "Language": "animi"
 }
 ```
 
@@ -119,147 +119,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 356,
-      "ContactName": "Stehr, Rolfson and Wyman",
-      "PersonId": 904,
-      "PersonName": "Armstrong LLC",
-      "AssociateId": 755,
-      "Address": "qui",
-      "EmailId": 366,
+      "ContactId": 989,
+      "ContactName": "Pacocha Group",
+      "PersonId": 174,
+      "PersonName": "Brown, Cremin and Walter",
+      "AssociateId": 346,
+      "Address": "nesciunt",
+      "EmailId": 291,
       "DuplicatePersonIds": [
-        854,
-        238
+        741,
+        308
       ],
-      "Name": "Waelchi Inc and Sons",
+      "Name": "Mayert, Wisoky and Farrell",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldLength": 104
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 455,
-      "ContactName": "Huels Inc and Sons",
-      "PersonId": 177,
-      "PersonName": "Marvin, Funk and Gusikowski",
-      "AssociateId": 155,
-      "Address": "aut",
-      "EmailId": 820,
+      "ContactId": 541,
+      "ContactName": "Simonis, Cole and Haag",
+      "PersonId": 409,
+      "PersonName": "Stracke Group",
+      "AssociateId": 691,
+      "Address": "et",
+      "EmailId": 886,
       "DuplicatePersonIds": [
-        70,
-        509
+        743,
+        74
       ],
-      "Name": "Homenick, Bogan and Medhurst",
+      "Name": "Conn, Goyette and Borer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 541
+          "FieldType": "System.String",
+          "FieldLength": 497
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 412,
-      "ContactName": "Williamson Group",
-      "PersonId": 949,
-      "PersonName": "Ratke-Heidenreich",
-      "AssociateId": 701,
-      "Address": "error",
-      "EmailId": 666,
+      "ContactId": 653,
+      "ContactName": "Thompson-Stroman",
+      "PersonId": 809,
+      "PersonName": "Raynor, Mosciski and Heller",
+      "AssociateId": 428,
+      "Address": "molestiae",
+      "EmailId": 473,
       "DuplicatePersonIds": [
-        292,
-        530
+        225,
+        394
       ],
-      "Name": "Cartwright-Murazik",
+      "Name": "Eichmann Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldType": "System.Int32",
+          "FieldLength": 979
         }
       }
     }
   ],
-  "Subject": "ipsam",
-  "HTMLBody": "at",
+  "Subject": "praesentium",
+  "HTMLBody": "aut",
   "From": null,
-  "Sent": "2005-02-20T14:13:39.2973748+01:00",
-  "Size": 242,
+  "Sent": "2009-02-08T02:38:20.8389734+01:00",
+  "Size": 305,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "culpa",
-  "PlainBody": "aperiam",
-  "IsSent": true,
+  "MessageID": "reprehenderit",
+  "PlainBody": "doloribus",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 193,
+  "ServerId": 231,
   "Attachments": [
     {
-      "Description": "Operative full-range groupware",
-      "Filename": "voluptates",
-      "Size": 267,
-      "Type": "aut",
-      "Encoding": "autem",
-      "Id": "harum",
-      "Disposition": "quisquam",
+      "Description": "Cloned holistic strategy",
+      "Filename": "atque",
+      "Size": 185,
+      "Type": "autem",
+      "Encoding": "dolor",
+      "Id": "minus",
+      "Disposition": "qui",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 291
+          "FieldType": "System.String",
+          "FieldLength": 957
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Volkman, Kshlerin and Schaden",
+      "Name": "Boyle, Hills and Dibbert",
       "Values": [
-        "vel",
-        "optio"
+        "natus",
+        "ullam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldLength": 993
         }
       }
     },
     {
-      "Name": "Volkman, Kshlerin and Schaden",
+      "Name": "Boyle, Hills and Dibbert",
       "Values": [
-        "vel",
-        "optio"
+        "natus",
+        "ullam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 434
+          "FieldLength": 993
         }
       }
     }
   ],
-  "FolderName": "Conn-Hammes",
-  "EmailItemId": 133,
-  "AccountId": 893,
-  "ReceivedAt": "2012-03-30T14:13:39.2973748+02:00",
+  "FolderName": "Anderson, Stoltenberg and Anderson",
+  "EmailItemId": 832,
+  "AccountId": 724,
+  "ReceivedAt": "2023-03-14T02:38:20.8389734+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2003-12-13T14:13:39.2973748+01:00",
+  "RepliedAt": "2023-06-02T02:38:20.8389734+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,8 +267,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 206
+      "FieldType": "System.Int32",
+      "FieldLength": 153
     }
   }
 }

@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 265,
-    "Name": "Lakin-Feil",
-    "Tooltip": "corrupti",
+    "HeadingId": 368,
+    "Name": "Bernhard, Langosh and Trantow",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 116,
-    "UdListDefinitionId": 123
+    "Rank": 62,
+    "UdListDefinitionId": 422
   },
   {
-    "HeadingId": 265,
-    "Name": "Lakin-Feil",
-    "Tooltip": "corrupti",
+    "HeadingId": 368,
+    "Name": "Bernhard, Langosh and Trantow",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 116,
-    "UdListDefinitionId": 123
+    "Rank": 62,
+    "UdListDefinitionId": 422
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 460,
-    "Name": "Haley, Fritsch and Pouros",
-    "Tooltip": "ad",
-    "Deleted": false,
-    "Rank": 30,
-    "UdListDefinitionId": 662,
+    "HeadingId": 728,
+    "Name": "Windler-Funk",
+    "Tooltip": "voluptatum",
+    "Deleted": true,
+    "Rank": 662,
+    "UdListDefinitionId": 233,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 614
+        "FieldType": "System.String",
+        "FieldLength": 941
       }
     }
   }

@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "voluptates",
+  "CRMScriptUniqueId": "ut",
   "EventData": null
 }
 ```
@@ -110,42 +110,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "dicta",
-    "InputValues2": "explicabo"
+    "InputValues1": "dolorem",
+    "InputValues2": "nobis"
   },
   "BlockExecution": false,
-  "NavigateTo": "aut",
-  "Message": "quidem",
-  "ShowDialog": "officia",
+  "NavigateTo": "qui",
+  "Message": "aliquam",
+  "ShowDialog": "consequatur",
   "OutputValues": {
-    "OutputValues1": "esse",
-    "OutputValues2": "libero"
+    "OutputValues1": "cumque",
+    "OutputValues2": "illum"
   },
   "StateValues": {
-    "StateValues1": "vel",
-    "StateValues2": "qui"
+    "StateValues1": "necessitatibus",
+    "StateValues2": "id"
   },
-  "Exception": "id",
+  "Exception": "quia",
   "ParserValues": {
-    "ParserValues1": "voluptatem",
-    "ParserValues2": "voluptatem"
+    "ParserValues1": "cumque",
+    "ParserValues2": "quisquam"
   },
   "CgiVariables": {
-    "CgiVariables1": "libero",
-    "CgiVariables2": "sint"
+    "CgiVariables1": "quae",
+    "CgiVariables2": "et"
   },
-  "CgiContent": "expedita",
+  "CgiContent": "modi",
   "Headers": {
-    "Headers1": "numquam",
-    "Headers2": "rerum"
+    "Headers1": "veritatis",
+    "Headers2": "non"
   },
   "TraceExecution": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldType": "System.Int32",
+      "FieldLength": 654
     }
   }
 }

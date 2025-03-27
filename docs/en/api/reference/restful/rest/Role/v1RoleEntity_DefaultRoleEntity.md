@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 385,
-  "Name": "Parker-Zemlak",
-  "Tooltip": "cupiditate",
+  "RoleId": 795,
+  "Name": "Streich, McKenzie and Emard",
+  "Tooltip": "sint",
   "RoleType": "Anonymous",
-  "Deleted": 480,
-  "Rank": 743,
-  "Created": "2002-03-14T14:13:49.0868575+01:00",
-  "UseCategories": 842,
+  "Deleted": 225,
+  "Rank": 476,
+  "Created": "2005-09-20T02:38:26.3235369+02:00",
+  "UseCategories": 944,
   "CreatedBy": null,
-  "Updated": "2024-09-18T14:13:49.0868575+02:00",
+  "Updated": "2014-02-23T02:38:26.3235369+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldLength": 878
     }
   }
 }

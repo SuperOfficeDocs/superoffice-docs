@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 939,
-  "Type": "ducimus"
+  "Id": 894,
+  "Type": "ipsum"
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 239,
-    "Rank": 760,
-    "DefaultTask": 259,
-    "DefaultTaskText": "aperiam",
-    "IsVisual": true,
-    "LastGenerated": "1998-03-03T14:13:41.172056+01:00",
-    "Description": "Grass-roots high-level monitoring",
-    "Name": "Hintz-Rath",
-    "StatusMonitorId": 9,
-    "PictureId": 436,
-    "NeedsUpdate": false,
+    "OwnerTable": 435,
+    "Rank": 411,
+    "DefaultTask": 742,
+    "DefaultTaskText": "alias",
+    "IsVisual": false,
+    "LastGenerated": "2013-04-11T02:38:21.8076201+02:00",
+    "Description": "Networked value-added secured line",
+    "Name": "Welch, Senger and Johnson",
+    "StatusMonitorId": 494,
+    "PictureId": 91,
+    "NeedsUpdate": true,
     "Deleted": false,
-    "NumMatches": 981,
-    "NumNeedUpdate": 677,
-    "GenerationStart": "2014-05-30T14:13:41.172056+02:00",
+    "NumMatches": 617,
+    "NumNeedUpdate": 524,
+    "GenerationStart": "2006-08-15T02:38:21.8076201+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 992
+        "FieldType": "System.Int32",
+        "FieldLength": 127
       }
     }
   }

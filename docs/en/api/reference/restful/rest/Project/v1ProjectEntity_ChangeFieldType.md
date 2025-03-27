@@ -104,7 +104,7 @@ ProjectEntity found.
 POST /api/v1/Project/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 318,
-  "ColumnId": 581,
-  "FieldDefault": "dolorum",
-  "FieldHeight": 18,
-  "FieldLabel": "fugiat",
-  "FieldLeft": 529,
-  "FieldTop": 136,
+  "UDefFieldId": 747,
+  "ColumnId": 131,
+  "FieldDefault": "repellendus",
+  "FieldHeight": 33,
+  "FieldLabel": "eius",
+  "FieldLeft": 390,
+  "FieldTop": 127,
   "FieldType": "Checkbox",
-  "FieldWidth": 258,
-  "FormatMask": "dolores",
+  "FieldWidth": 493,
+  "FormatMask": "aut",
   "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 192,
-  "LabelLeft": 424,
-  "LabelTop": 955,
-  "LabelWidth": 800,
-  "LastVersionId": 602,
-  "ListTableId": 620,
+  "IsIndexed": false,
+  "LabelHeight": 667,
+  "LabelLeft": 338,
+  "LabelTop": 325,
+  "LabelWidth": 393,
+  "LastVersionId": 884,
+  "ListTableId": 406,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 119,
-  "ProgId": "ut",
-  "IsReadOnly": true,
-  "ShortLabel": "esse",
-  "TabOrder": 721,
-  "TextLength": 396,
-  "Tooltip": "corporis",
-  "UdefIdentity": 460,
-  "UDListDefinitionId": 489,
+  "Page1LineNo": 191,
+  "ProgId": "qui",
+  "IsReadOnly": false,
+  "ShortLabel": "explicabo",
+  "TabOrder": 723,
+  "TextLength": 338,
+  "Tooltip": "sunt",
+  "UdefIdentity": 321,
+  "UDListDefinitionId": 765,
   "Justification": "Center",
-  "Version": 95,
-  "TemplateVariableName": "Langworth Group",
+  "Version": 815,
+  "TemplateVariableName": "Ferry-Rolfson",
   "HasBeenPublished": false,
-  "MdoListName": "Gorczany, King and Daniel",
+  "MdoListName": "Sporer-Ledner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 835
+      "FieldLength": 500
     }
   }
 }

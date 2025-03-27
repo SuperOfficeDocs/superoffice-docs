@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "accusantium",
+    "path": "sint",
     "value": {}
   },
   {
     "op": "add",
-    "path": "accusantium",
+    "path": "sint",
     "value": {}
   }
 ]
@@ -139,25 +139,25 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 659,
-  "Name": "Becker, Wiza and Hamill",
-  "Tooltip": "illum",
-  "PassiveText": "nostrum",
+  "ReldefId": 875,
+  "Name": "Okuneva LLC",
+  "Tooltip": "voluptatem",
+  "PassiveText": "eius",
   "Deleted": false,
-  "Rank": 335,
+  "Rank": 740,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldType": "System.String",
+      "FieldLength": 216
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

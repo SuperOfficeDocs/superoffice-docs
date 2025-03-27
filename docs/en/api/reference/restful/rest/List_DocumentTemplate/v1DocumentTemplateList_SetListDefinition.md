@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 772,
-  "Name": "Harber, Bogan and Moen",
-  "Tooltip": "dolore",
-  "Deleted": false,
-  "Rank": 534,
+  "Id": 992,
+  "Name": "Hills LLC",
+  "Tooltip": "deserunt",
+  "Deleted": true,
+  "Rank": 431,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "assumenda",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 199,
-  "Name": "Braun LLC",
-  "Tooltip": "ut",
+  "Id": 368,
+  "Name": "Breitenberg Inc and Sons",
+  "Tooltip": "reprehenderit",
   "Deleted": false,
-  "Rank": 585,
-  "IsCustomList": false,
+  "Rank": 609,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "saepe",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldLength": 219
     }
   }
 }

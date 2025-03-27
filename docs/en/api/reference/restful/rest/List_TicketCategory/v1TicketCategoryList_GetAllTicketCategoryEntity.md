@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 928,
-    "ParentId": 617,
-    "Name": "Murazik Inc and Sons",
-    "Fullname": "eius",
-    "CategoryMaster": 552,
+    "TicketCategoryId": 760,
+    "ParentId": 874,
+    "Name": "Block, O'Keefe and Botsford",
+    "Fullname": "enim",
+    "CategoryMaster": 171,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Paucek, Blanda and Breitenberg",
+    "ExternalName": "Okuneva-Yost",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 445,
-    "ReplyTemplate": 75,
-    "NotificationEmail": "elaina.hammes@howe.name",
+    "AssignmentLag": 477,
+    "ReplyTemplate": 398,
+    "NotificationEmail": "jermain@collier.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 434,
+    "EffectiveReplyTemplateId": 213,
     "ExtraFields": {
-      "ExtraFields1": "totam",
-      "ExtraFields2": "sed"
+      "ExtraFields1": "nostrum",
+      "ExtraFields2": "itaque"
     },
     "CustomFields": {
-      "CustomFields1": "magnam",
-      "CustomFields2": "omnis"
+      "CustomFields1": "quis",
+      "CustomFields2": "ut"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 421
+        "FieldLength": 657
       }
     }
   }

@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 643,
-  "Field": "eum",
-  "RecordId": 877,
+  "RefCountsId": 578,
+  "Field": "dolore",
+  "RecordId": 819,
   "SuggestedRecords": [
     {
-      "Id": 627,
-      "Name": "Collier LLC",
-      "ToolTip": "Asperiores modi aut.",
+      "Id": 163,
+      "Name": "Turcotte-Lueilwitz",
+      "ToolTip": "Incidunt sunt.",
       "Deleted": false,
-      "Rank": 438,
-      "Type": "quas",
+      "Rank": 583,
+      "Type": "voluptatem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "inventore",
-      "ColorBlock": 18,
-      "ExtraInfo": "exercitationem",
-      "StyleHint": "neque",
-      "FullName": "Gabrielle Fanny Wisozk II",
+      "IconHint": "ipsum",
+      "ColorBlock": 239,
+      "ExtraInfo": "aliquam",
+      "StyleHint": "consectetur",
+      "FullName": "Roxanne Parisian",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 281
+          "FieldType": "System.String",
+          "FieldLength": 806
         }
       }
     }
   ],
-  "CurrentValue": 830,
-  "TravelPrefix": 974,
-  "SatPrefix": 757,
-  "Allocate": false,
+  "CurrentValue": 257,
+  "TravelPrefix": 706,
+  "SatPrefix": 140,
+  "Allocate": true,
   "Unique": true,
-  "ReadOnly": true,
-  "AllowBlank": true,
+  "ReadOnly": false,
+  "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 95
+      "FieldType": "System.Int32",
+      "FieldLength": 241
     }
   }
 }

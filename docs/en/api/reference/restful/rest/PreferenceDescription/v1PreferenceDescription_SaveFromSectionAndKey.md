@@ -106,24 +106,24 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 923,
-  "Section": "quod",
-  "Key": "quibusdam",
-  "Name": "Bashirian, Considine and Gerhold",
+  "PrefDescId": 900,
+  "Section": "molestias",
+  "Key": "et",
+  "Name": "Nader, Mohr and Fay",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Exclusive 4th generation definition",
+  "Description": "Versatile 24 hour project",
   "IsBuiltin": false,
-  "TableName": "Lind Inc and Sons",
-  "UserDefinedListId": 871,
-  "Rank": 401,
-  "SubGroup": "laboriosam",
-  "MinLevel": 619,
-  "MaxValue": 941,
-  "MinValue": 320,
-  "RequiredLicense": "iure"
+  "TableName": "Hane Inc and Sons",
+  "UserDefinedListId": 290,
+  "Rank": 343,
+  "SubGroup": "et",
+  "MinLevel": 938,
+  "MaxValue": 624,
+  "MinValue": 526,
+  "RequiredLicense": "nesciunt"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 876,
-  "Section": "minus",
-  "Key": "voluptas",
-  "Name": "Satterfield LLC",
+  "PrefDescId": 199,
+  "Section": "voluptates",
+  "Key": "sequi",
+  "Name": "Rath-Pollich",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Extended attitude-oriented functionalities",
+  "Description": "De-engineered client-server flexibility",
   "IsBuiltin": false,
-  "TableName": "Huels, Mills and Metz",
-  "UserDefinedListId": 398,
-  "Rank": 881,
-  "SubGroup": "veniam",
-  "MinLevel": 919,
-  "MaxValue": 471,
-  "MinValue": 207,
-  "RequiredLicense": "saepe",
+  "TableName": "Lindgren LLC",
+  "UserDefinedListId": 12,
+  "Rank": 349,
+  "SubGroup": "consectetur",
+  "MinLevel": 500,
+  "MaxValue": 680,
+  "MinValue": 259,
+  "RequiredLicense": "cumque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 180
+      "FieldLength": 863
     }
   }
 }

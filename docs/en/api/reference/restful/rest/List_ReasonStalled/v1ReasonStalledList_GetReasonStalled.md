@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 989,
-  "Name": "Zieme, Stroman and Paucek",
-  "Tooltip": "atque",
-  "Deleted": true,
-  "UdListDefinitionId": 512,
-  "Rank": 911,
+  "Id": 417,
+  "Name": "Larson-Waelchi",
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "UdListDefinitionId": 382,
+  "Rank": 319,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 342
+      "FieldType": "System.Int32",
+      "FieldLength": 192
     }
   }
 }

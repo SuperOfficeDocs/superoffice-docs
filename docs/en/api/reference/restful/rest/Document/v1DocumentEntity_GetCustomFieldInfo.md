@@ -72,7 +72,7 @@ OK
 GET /api/v1/Document/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Greenholt Group",
-  "DisplayName": "Gottlieb-Stroman",
-  "Description": "Multi-layered non-volatile product",
-  "ShortLabel": "veritatis",
+  "FieldName": "Ziemann-Dare",
+  "DisplayName": "Swaniawski, Jaskolski and Aufderhar",
+  "Description": "Configurable real-time interface",
+  "ShortLabel": "enim",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
-  "IsMandatory": true,
+  "IsMandatory": false,
   "IsReadOnly": false,
   "IsExternal": false,
   "IsDisplayField": false,
-  "Rank": 570,
-  "TemplateVariableName": "Boehm-Johns"
+  "Rank": 638,
+  "TemplateVariableName": "Bergnaum, Jaskolski and Hintz"
 }
 ```

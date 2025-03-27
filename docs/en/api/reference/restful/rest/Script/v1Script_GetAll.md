@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Script?$select=name,department,category/id
 GET /api/v1/Script?$filter=name begins 'S'
 GET /api/v1/Script?$orderBy=name asc
-GET /api/v1/Script?$entities=quis
-GET /api/v1/Script?$top=925
-GET /api/v1/Script?$skip=487
+GET /api/v1/Script?$entities=modi
+GET /api/v1/Script?$top=903
+GET /api/v1/Script?$skip=738
 GET /api/v1/Script?$mode=Full
 GET /api/v1/Script?$options=GrandTotal=true
-GET /api/v1/Script?$context=cupiditate
+GET /api/v1/Script?$context=aut
 GET /api/v1/Script?$format=JSON
-GET /api/v1/Script?$jsonSafe=True
+GET /api/v1/Script?$jsonSafe=False
 GET /api/v1/Script?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Script
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "laborum",
+  "odata.nextLink": "blanditiis",
   "value": [
     {
-      "PrimaryKey": 3710,
-      "EntityName": "sale",
-      "saleId": 3710,
-      "contactId": 6814,
-      "name": "Kohler, Fisher and Dicki"
+      "PrimaryKey": 7440,
+      "EntityName": "person",
+      "personId": 7440,
+      "fullName": "Betty Gutkowski"
     },
     {
-      "PrimaryKey": 5249,
-      "EntityName": "sale",
-      "saleId": 5249,
-      "contactId": 7956,
-      "name": "Lehner LLC"
+      "PrimaryKey": 4019,
+      "EntityName": "person",
+      "personId": 4019,
+      "fullName": "Candido Reichel"
     }
   ]
 }

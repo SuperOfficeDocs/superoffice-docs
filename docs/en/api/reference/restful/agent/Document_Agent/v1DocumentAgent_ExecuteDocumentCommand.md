@@ -84,16 +84,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 449,
-  "VersionId": "quo",
+  "DocumentId": 255,
+  "VersionId": "eius",
   "AllowedReturnTypes": [
-    "rerum",
-    "aut"
+    "dolorum",
+    "porro"
   ],
-  "Command": "voluptatem",
+  "Command": "explicabo",
   "AdditionalData": [
-    "veritatis",
-    "ullam"
+    "harum",
+    "repellendus"
   ]
 }
 ```
@@ -105,11 +105,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "sunt",
-  "VersionId": "provident",
-  "Success": false,
+  "ExternalReference": "cum",
+  "VersionId": "dolores",
+  "Success": true,
   "Type": "CustomGui",
-  "Value": "et",
-  "AdditionalInfo": "consequuntur"
+  "Value": "mollitia",
+  "AdditionalInfo": "a"
 }
 ```

@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=velit
+GET /api/v1/List/PaymentTerm/MDOItems?query=quibusdam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 600,
-    "Name": "Goodwin Inc and Sons",
-    "ToolTip": "Minima a dolor ad quia architecto ipsam ipsam.",
-    "Deleted": false,
-    "Rank": 412,
-    "Type": "labore",
+    "Id": 169,
+    "Name": "Bechtelar Group",
+    "ToolTip": "Quia ad ex rerum.",
+    "Deleted": true,
+    "Rank": 244,
+    "Type": "id",
     "ChildItems": [
       {
-        "Id": 394,
-        "Name": "Reichel Group",
-        "ToolTip": "Dicta iure explicabo.",
+        "Id": 88,
+        "Name": "Gleichner Group",
+        "ToolTip": "Laborum vel quo modi eligendi quidem non temporibus.",
         "Deleted": false,
-        "Rank": 702,
-        "Type": "dignissimos",
+        "Rank": 205,
+        "Type": "adipisci",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aperiam",
-        "ColorBlock": 953,
-        "ExtraInfo": "possimus",
-        "StyleHint": "voluptatum",
-        "FullName": "Isabella Liza O'Conner III",
+        "IconHint": "nihil",
+        "ColorBlock": 401,
+        "ExtraInfo": "neque",
+        "StyleHint": "architecto",
+        "FullName": "Mittie O'Conner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 579
+            "FieldType": "System.String",
+            "FieldLength": 450
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 953,
-    "ExtraInfo": "sit",
-    "StyleHint": "accusantium",
-    "FullName": "Brittany Christiansen",
+    "IconHint": "itaque",
+    "ColorBlock": 525,
+    "ExtraInfo": "eligendi",
+    "StyleHint": "quo",
+    "FullName": "Rosalind Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 87
+        "FieldType": "System.Int32",
+        "FieldLength": 225
       }
     }
   }

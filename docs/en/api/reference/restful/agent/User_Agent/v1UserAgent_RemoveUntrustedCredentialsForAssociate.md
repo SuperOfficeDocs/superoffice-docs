@@ -72,9 +72,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 944,
-  "Type": "a",
-  "PublicValue": "ipsa"
+  "AssociateId": 692,
+  "Type": "alias",
+  "PublicValue": "repudiandae"
 }
 ```
 

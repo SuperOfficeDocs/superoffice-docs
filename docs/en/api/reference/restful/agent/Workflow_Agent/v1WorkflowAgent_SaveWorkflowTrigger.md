@@ -73,23 +73,23 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 436,
-  "WorkflowId": 202,
+  "WorkflowTriggerId": 750,
+  "WorkflowId": 291,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Bogan, Schumm and Bailey",
-      "Description": "Optimized 5th generation leverage",
-      "Rank": 262,
+      "Name": "Walter-Johnson",
+      "Description": "Advanced multimedia array",
+      "Rank": 544,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Bogan, Schumm and Bailey",
-      "Description": "Optimized 5th generation leverage",
-      "Rank": 262,
+      "Name": "Walter-Johnson",
+      "Description": "Advanced multimedia array",
+      "Rank": 544,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 875,
-  "WorkflowId": 217,
+  "WorkflowTriggerId": 58,
+  "WorkflowId": 159,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Schaden-Jewess",
-      "Description": "Centralized disintermediate contingency",
-      "Rank": 613,
+      "Name": "Schinner Inc and Sons",
+      "Description": "Diverse global analyzer",
+      "Rank": 935,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schaden-Jewess",
-      "Description": "Centralized disintermediate contingency",
-      "Rank": 613,
+      "Name": "Schinner Inc and Sons",
+      "Description": "Diverse global analyzer",
+      "Rank": 935,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 679
+      "FieldLength": 986
     }
   }
 }

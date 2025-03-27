@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Ondricka, Nienow and Ziemann",
-      "DisplayName": "Volkman, Kuhlman and Donnelly",
-      "DisplayTooltip": "optio",
+      "Name": "Mraz, Johnson and Bahringer",
+      "DisplayName": "Johnson, Schmitt and Schultz",
+      "DisplayTooltip": "facere",
       "IsActive": false
     },
     {
-      "Name": "Ondricka, Nienow and Ziemann",
-      "DisplayName": "Volkman, Kuhlman and Donnelly",
-      "DisplayTooltip": "optio",
+      "Name": "Mraz, Johnson and Bahringer",
+      "DisplayName": "Johnson, Schmitt and Schultz",
+      "DisplayTooltip": "facere",
       "IsActive": false
     }
   ]

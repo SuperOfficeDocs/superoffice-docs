@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 279,
-  "StartTime": "2022-01-01T14:13:40.0004493+01:00",
-  "EndTime": "2017-04-29T14:13:40.0004493+02:00",
-  "Count": 548,
+  "ProjectId": 11,
+  "StartTime": "2011-08-27T02:38:21.2295568+02:00",
+  "EndTime": "2014-08-30T02:38:21.2295568+02:00",
+  "Count": 188,
   "DocumentTemplateIds": [
-    324,
-    575
+    277,
+    518
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 579,
-    "Attention": "facere",
-    "Header": "omnis",
-    "Name": "Lesch-Larson",
-    "OurRef": "qui",
-    "YourRef": "exercitationem",
-    "Description": "Up-sized impactful hub",
-    "DocumentTemplate": "unde",
-    "IsPublished": true,
-    "PersonId": 38,
-    "PersonFullName": "Cleta Kassulke",
-    "AssociateFullName": "Jedidiah Feest",
-    "ContactId": 436,
-    "ContactName": "Abernathy Inc and Sons",
-    "ProjectId": 327,
-    "ProjectName": "Kautzer, O'Keefe and Hills",
-    "AssociateId": 694,
-    "Snum": 955,
-    "SaleId": 334,
-    "SaleName": "Wisozk LLC",
+    "DocumentId": 634,
+    "Attention": "quod",
+    "Header": "esse",
+    "Name": "Kuvalis Group",
+    "OurRef": "consequatur",
+    "YourRef": "nihil",
+    "Description": "Universal modular help-desk",
+    "DocumentTemplate": "eum",
+    "IsPublished": false,
+    "PersonId": 751,
+    "PersonFullName": "Savannah Kertzmann",
+    "AssociateFullName": "Eveline Flatley",
+    "ContactId": 510,
+    "ContactName": "Abshire Inc and Sons",
+    "ProjectId": 132,
+    "ProjectName": "Maggio LLC",
+    "AssociateId": 497,
+    "Snum": 492,
+    "SaleId": 662,
+    "SaleName": "Wiegand-Schaefer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 141
+        "FieldLength": 791
       }
     }
   }

@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 372,
-  "CurrentAppointmentId": 808,
-  "SkipCompleteCheck": true
+  "SaleId": 25,
+  "CurrentAppointmentId": 563,
+  "SkipCompleteCheck": false
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 895,
-  "Deleted": 371,
-  "DaysFuture": 76,
-  "Tooltip": "culpa",
-  "Text": "et",
-  "TaskId": 98,
-  "SuggestedAppointmentId": 267,
-  "SaleTypeStageLinkId": 651,
-  "RegisteredAssociateId": 423,
-  "Rank": 829,
-  "ProjectTypeStatusLinkId": 15,
-  "Name": "Lebsack LLC",
-  "Duration": 216,
+  "AutoSuggest": 485,
+  "Deleted": 182,
+  "DaysFuture": 987,
+  "Tooltip": "enim",
+  "Text": "voluptatem",
+  "TaskId": 934,
+  "SuggestedAppointmentId": 299,
+  "SaleTypeStageLinkId": 368,
+  "RegisteredAssociateId": 6,
+  "Rank": 291,
+  "ProjectTypeStatusLinkId": 993,
+  "Name": "Torphy-Rowe",
+  "Duration": 302,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 369
+      "FieldType": "System.Int32",
+      "FieldLength": 198
     }
   }
 }

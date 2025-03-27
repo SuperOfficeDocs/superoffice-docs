@@ -26,8 +26,8 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductCategory/MDOItems?flat=False
-GET /api/v1/List/ProductCategory/MDOItems?query=voluptate
+GET /api/v1/List/ProductCategory/MDOItems?flat=True
+GET /api/v1/List/ProductCategory/MDOItems?query=perspiciatis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 624,
-    "Name": "Kihn, Kiehn and Rau",
-    "ToolTip": "Nesciunt facere animi.",
-    "Deleted": true,
-    "Rank": 795,
-    "Type": "placeat",
+    "Id": 429,
+    "Name": "Block-Marquardt",
+    "ToolTip": "Id eveniet.",
+    "Deleted": false,
+    "Rank": 492,
+    "Type": "dignissimos",
     "ChildItems": [
       {
-        "Id": 37,
-        "Name": "Reilly, Gusikowski and Harvey",
-        "ToolTip": "Nulla ea et nihil consequatur qui magnam.",
-        "Deleted": true,
-        "Rank": 977,
-        "Type": "sapiente",
+        "Id": 551,
+        "Name": "Cummerata LLC",
+        "ToolTip": "Officia aliquam placeat vel est magnam tempore corrupti.",
+        "Deleted": false,
+        "Rank": 606,
+        "Type": "rerum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 917,
-        "ExtraInfo": "corrupti",
-        "StyleHint": "iusto",
-        "FullName": "Dr. Timmothy Lueilwitz I",
+        "IconHint": "laboriosam",
+        "ColorBlock": 158,
+        "ExtraInfo": "aut",
+        "StyleHint": "nemo",
+        "FullName": "Keith Homenick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 33
+            "FieldType": "System.Int32",
+            "FieldLength": 437
           }
         }
       }
     ],
-    "IconHint": "molestias",
-    "ColorBlock": 420,
-    "ExtraInfo": "sit",
-    "StyleHint": "vero",
-    "FullName": "Nathanael Windler",
+    "IconHint": "aliquam",
+    "ColorBlock": 968,
+    "ExtraInfo": "asperiores",
+    "StyleHint": "quas",
+    "FullName": "Peggie Marvin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 963
+        "FieldLength": 16
       }
     }
   }

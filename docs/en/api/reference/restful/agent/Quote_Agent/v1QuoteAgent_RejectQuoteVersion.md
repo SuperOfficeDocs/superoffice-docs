@@ -81,10 +81,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 422,
-  "RejectedByText": "nemo",
-  "RejectedByAssociateId": 936,
-  "RejectionText": "dolor"
+  "QuoteVersionId": 128,
+  "RejectedByText": "nam",
+  "RejectedByAssociateId": 87,
+  "RejectionText": "rerum"
 }
 ```
 
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 955,
+  "CreatedAppointmentId": 358,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 174
+      "FieldLength": 833
     }
   }
 }

@@ -28,7 +28,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=217
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=527
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Deleted": false,
-  "UserInfoId": 152,
-  "UserName": "Murazik LLC",
-  "PersonId": 689,
-  "Rank": 504,
-  "Tooltip": "ratione",
-  "UserGroupId": 545,
-  "EjUserId": 560,
+  "Deleted": true,
+  "UserInfoId": 860,
+  "UserName": "Stracke Inc and Sons",
+  "PersonId": 454,
+  "Rank": 113,
+  "Tooltip": "quia",
+  "UserGroupId": 425,
+  "EjUserId": 832,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "quo",
-    "reiciendis"
+    "perferendis",
+    "ad"
   ],
   "CanLogon": true,
-  "RoleName": "Tromp-Schiller",
-  "RoleTooltip": "ipsa",
-  "UserGroupName": "Bailey-Kshlerin",
+  "RoleName": "Cole-Pfannerstill",
+  "RoleTooltip": "nostrum",
+  "UserGroupName": "Koch, Schneider and Jones",
   "UserGroupTooltip": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldType": "System.Int32",
+      "FieldLength": 367
     }
   }
 }

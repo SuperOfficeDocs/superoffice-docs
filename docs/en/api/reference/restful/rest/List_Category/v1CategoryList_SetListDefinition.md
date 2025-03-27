@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 823,
-  "Name": "Goldner-Reynolds",
-  "Tooltip": "dolorem",
+  "Id": 555,
+  "Name": "Corwin-Ferry",
+  "Tooltip": "totam",
   "Deleted": false,
-  "Rank": 753,
+  "Rank": 53,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "debitis",
+  "UseGroupsAndHeadings": false,
+  "ListType": "non",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 17,
-  "Name": "Schaden Group",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 962,
-  "IsCustomList": true,
+  "Id": 999,
+  "Name": "Schumm, Barrows and Balistreri",
+  "Tooltip": "id",
+  "Deleted": true,
+  "Rank": 463,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolor",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "alias",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 235
+      "FieldType": "System.Int32",
+      "FieldLength": 390
     }
   }
 }

@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 878,
-  "Name": "Davis Inc and Sons",
-  "Tooltip": "laudantium",
-  "Deleted": false,
-  "UdListDefinitionId": 11,
-  "Rank": 567,
+  "Id": 784,
+  "Name": "Tremblay Group",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 276,
+  "Rank": 18,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 96
+      "FieldType": "System.String",
+      "FieldLength": 980
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 134,
-    "Name": "Stroman Inc and Sons",
-    "ToolTip": "Aut numquam.",
+    "Id": 389,
+    "Name": "Turner, Kemmer and Schiller",
+    "ToolTip": "Aut qui illo eos.",
     "Deleted": false,
-    "Rank": 947,
-    "Type": "quia",
-    "ColorBlock": 337,
-    "IconHint": "harum",
-    "Selected": false,
-    "LastChanged": "1998-10-03T14:13:50.0094247+02:00",
+    "Rank": 841,
+    "Type": "voluptatibus",
+    "ColorBlock": 272,
+    "IconHint": "neque",
+    "Selected": true,
+    "LastChanged": "2017-07-28T02:38:26.7923976+02:00",
     "ChildItems": [
       {
-        "Id": 863,
-        "Name": "Stehr LLC",
-        "ToolTip": "At aperiam quidem quia.",
-        "Deleted": true,
-        "Rank": 293,
-        "Type": "ut",
-        "ColorBlock": 933,
-        "IconHint": "tenetur",
-        "Selected": true,
-        "LastChanged": "2003-10-16T14:13:50.0094247+02:00",
+        "Id": 267,
+        "Name": "Legros, Cummings and Schumm",
+        "ToolTip": "Nesciunt dolorum temporibus ut aspernatur qui necessitatibus qui.",
+        "Deleted": false,
+        "Rank": 69,
+        "Type": "facere",
+        "ColorBlock": 312,
+        "IconHint": "eaque",
+        "Selected": false,
+        "LastChanged": "2023-04-14T02:38:26.7923976+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "expedita",
+        "ExtraInfo": "explicabo",
+        "StyleHint": "ab",
         "Hidden": false,
-        "FullName": "Prof. Salvador Mueller"
+        "FullName": "Ms. Christiana Evangeline Dickinson Sr."
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "facere",
-    "Hidden": false,
-    "FullName": "Sigrid Danielle Borer DVM"
+    "ExtraInfo": "cum",
+    "StyleHint": "in",
+    "Hidden": true,
+    "FullName": "Bobby Weissnat"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 228,
-    "Name": "Nolan Inc and Sons",
-    "ToolTip": "Esse beatae dolores id nesciunt quia.",
-    "Deleted": false,
-    "Rank": 183,
-    "Type": "optio",
-    "ColorBlock": 43,
-    "IconHint": "nobis",
+    "Id": 597,
+    "Name": "Swaniawski, Leannon and Steuber",
+    "ToolTip": "Consequatur tenetur et molestiae voluptatem eum doloribus vel.",
+    "Deleted": true,
+    "Rank": 528,
+    "Type": "quisquam",
+    "ColorBlock": 262,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2016-05-08T14:13:50.0094247+02:00",
+    "LastChanged": "2019-03-05T02:38:26.7923976+01:00",
     "ChildItems": [
       {
-        "Id": 24,
-        "Name": "Abernathy Inc and Sons",
-        "ToolTip": "Recusandae voluptatum autem animi consequuntur.",
-        "Deleted": false,
-        "Rank": 836,
-        "Type": "placeat",
-        "ColorBlock": 993,
-        "IconHint": "pariatur",
+        "Id": 862,
+        "Name": "Lakin, Walter and Kris",
+        "ToolTip": "Voluptatem accusamus corporis occaecati.",
+        "Deleted": true,
+        "Rank": 492,
+        "Type": "ex",
+        "ColorBlock": 293,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2024-04-23T14:13:50.0094247+02:00",
+        "LastChanged": "1999-01-29T02:38:26.7923976+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "sit",
+        "ExtraInfo": "aliquam",
+        "StyleHint": "cupiditate",
         "Hidden": false,
-        "FullName": "Ms. Kaia Osinski MD",
+        "FullName": "Audrey Wolff DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 981
+            "FieldLength": 566
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "atque",
-    "Hidden": true,
-    "FullName": "Prof. Joanny Garret Langosh",
+    "ExtraInfo": "dicta",
+    "StyleHint": "temporibus",
+    "Hidden": false,
+    "FullName": "Darius Berge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 582
+        "FieldType": "System.Int32",
+        "FieldLength": 410
       }
     }
   }

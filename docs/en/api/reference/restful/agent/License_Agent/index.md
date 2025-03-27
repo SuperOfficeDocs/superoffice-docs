@@ -24,6 +24,8 @@ generated: true
 
 * [POST Agents/License/GetLicenseFromDB](v1LicenseAgent_GetLicenseFromDB.md)
 
+* [POST Agents/License/GetUserAndInstallationLicenceStatus](v1LicenseAgent_GetUserAndInstallationLicenceStatus.md)
+
 * [POST Agents/License/ChangeSerialNumber](v1LicenseAgent_ChangeSerialNumber.md)
 
 * [POST Agents/License/GetUserLicenses](v1LicenseAgent_GetUserLicenses.md)

@@ -91,9 +91,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 110,
-  "ConnectionId": 962,
-  "FirstAlternativeName": "Willms, Fisher and Effertz"
+  "SaleId": 366,
+  "ConnectionId": 682,
+  "FirstAlternativeName": "Lueilwitz Group"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 955,
-  "SaleId": 528,
-  "QuoteConnectionId": 926,
-  "ERPQuoteKey": "exercitationem",
-  "ERPOrderKey": "non",
-  "ActiveQuoteVersionId": 304,
-  "AcceptedQuoteAlternativeId": 25,
-  "UseValuesFromQuote": 652,
-  "DocumentId": 318,
-  "PoNumber": "1339091",
-  "OrderComment": "in",
-  "PreferredEmailCulture": "winifred.collins@spinka.us",
+  "QuoteId": 452,
+  "SaleId": 83,
+  "QuoteConnectionId": 772,
+  "ERPQuoteKey": "maiores",
+  "ERPOrderKey": "provident",
+  "ActiveQuoteVersionId": 751,
+  "AcceptedQuoteAlternativeId": 42,
+  "UseValuesFromQuote": 143,
+  "DocumentId": 595,
+  "PoNumber": "459485",
+  "OrderComment": "consequuntur",
+  "PreferredEmailCulture": "lon_bogisich@homenickmcclure.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 154,
-      "ERPQuoteVersionKey": "dolor",
-      "QuoteId": 843,
-      "Description": "Open-architected dynamic budgetary management",
-      "Number": "1177875",
+      "QuoteVersionId": 472,
+      "ERPQuoteVersionKey": "alias",
+      "QuoteId": 811,
+      "Description": "Self-enabling heuristic process improvement",
+      "Number": "626246",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 551,
-      "SentDate": "2018-01-04T14:13:41.1095702+01:00",
-      "FollowupId": 598,
-      "ExpirationDate": "2016-05-08T14:13:41.1095702+02:00",
-      "DeliveryCountryId": 726,
+      "LikelyQuoteAlternativeId": 444,
+      "SentDate": "2022-01-06T02:38:21.7763357+01:00",
+      "FollowupId": 191,
+      "ExpirationDate": "2012-03-04T02:38:21.7763357+01:00",
+      "DeliveryCountryId": 468,
       "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 486,
-      "HasOwnInvoiceAddress": false,
+      "InvoiceCountryId": 969,
+      "HasOwnInvoiceAddress": true,
       "ERPPaymentTermsKey": "aut",
-      "ERPPaymentTypeKey": "libero",
-      "ERPDeliveryTermsKey": "quia",
-      "ERPDeliveryTypeKey": "iusto",
-      "Rank": 890,
-      "ApprovedBy": 670,
-      "ApprovedText": "pariatur",
-      "ApprovedRegisteredBy": 637,
-      "ApprovedRegisteredDate": "2015-06-26T14:13:41.1095702+02:00",
-      "ExtraField1": "nihil",
-      "ExtraField2": "sunt",
-      "ExtraField3": "deleniti",
-      "ExtraField4": "ullam",
-      "ExtraField5": "nisi",
-      "LastRecalculated": "2020-10-01T14:13:41.1095702+02:00",
-      "Updated": "2000-07-22T14:13:41.1095702+02:00",
-      "UpdatedAssociateId": 436,
-      "Registered": "2004-08-16T14:13:41.1095702+02:00",
-      "RegisteredAssociateId": 836,
-      "RequestAssociateId": 384,
-      "RequestComment": "quia",
+      "ERPPaymentTypeKey": "nihil",
+      "ERPDeliveryTermsKey": "maxime",
+      "ERPDeliveryTypeKey": "sed",
+      "Rank": 71,
+      "ApprovedBy": 468,
+      "ApprovedText": "aliquam",
+      "ApprovedRegisteredBy": 46,
+      "ApprovedRegisteredDate": "2005-05-28T02:38:21.7763357+02:00",
+      "ExtraField1": "a",
+      "ExtraField2": "quidem",
+      "ExtraField3": "enim",
+      "ExtraField4": "quis",
+      "ExtraField5": "modi",
+      "LastRecalculated": "2010-12-14T02:38:21.7763357+01:00",
+      "Updated": "2023-02-22T02:38:21.7763357+01:00",
+      "UpdatedAssociateId": 489,
+      "Registered": "2019-01-03T02:38:21.7763357+01:00",
+      "RegisteredAssociateId": 242,
+      "RequestAssociateId": 148,
+      "RequestComment": "ad",
       "QuoteAlternatives": [
         {},
         {}
@@ -165,7 +165,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 328
+          "FieldLength": 293
         }
       }
     }
@@ -174,8 +174,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 364
+      "FieldType": "System.String",
+      "FieldLength": 654
     }
   }
 }

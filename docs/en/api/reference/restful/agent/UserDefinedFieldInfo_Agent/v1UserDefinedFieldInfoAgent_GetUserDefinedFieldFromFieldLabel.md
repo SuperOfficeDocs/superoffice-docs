@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromFieldLabel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldLabel": "aut",
+  "FieldLabel": "nulla",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 21,
-  "ColumnId": 581,
-  "FieldDefault": "ipsam",
-  "FieldHeight": 697,
-  "FieldLabel": "itaque",
-  "FieldLeft": 997,
-  "FieldTop": 436,
+  "UDefFieldId": 268,
+  "ColumnId": 251,
+  "FieldDefault": "assumenda",
+  "FieldHeight": 329,
+  "FieldLabel": "incidunt",
+  "FieldLeft": 237,
+  "FieldTop": 601,
   "FieldType": "Checkbox",
-  "FieldWidth": 899,
-  "FormatMask": "fuga",
-  "HideLabel": false,
+  "FieldWidth": 10,
+  "FormatMask": "ratione",
+  "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 452,
-  "LabelLeft": 812,
-  "LabelTop": 448,
-  "LabelWidth": 359,
-  "LastVersionId": 648,
-  "ListTableId": 242,
-  "IsMandatory": true,
+  "LabelHeight": 352,
+  "LabelLeft": 374,
+  "LabelTop": 156,
+  "LabelWidth": 172,
+  "LastVersionId": 125,
+  "ListTableId": 750,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 98,
-  "ProgId": "et",
+  "Page1LineNo": 799,
+  "ProgId": "autem",
   "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 422,
-  "TextLength": 424,
-  "Tooltip": "vel",
-  "UdefIdentity": 102,
-  "UDListDefinitionId": 740,
+  "ShortLabel": "veniam",
+  "TabOrder": 95,
+  "TextLength": 289,
+  "Tooltip": "in",
+  "UdefIdentity": 864,
+  "UDListDefinitionId": 219,
   "Justification": "Center",
-  "Version": 588,
-  "TemplateVariableName": "Boyer, Beatty and Dicki",
+  "Version": 544,
+  "TemplateVariableName": "Abbott-Franecki",
   "HasBeenPublished": true,
-  "MdoListName": "Towne-Wunsch",
+  "MdoListName": "Reynolds Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 769
+      "FieldLength": 803
     }
   }
 }

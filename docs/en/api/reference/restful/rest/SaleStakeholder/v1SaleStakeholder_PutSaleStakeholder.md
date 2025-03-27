@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Kertzmann-Aufderhar",
-  "Comment": "vel",
-  "StakeholderRoleId": 403,
-  "CountryId": 713,
-  "PersonId": 232,
-  "EmailDescription": "maryjane@brown.com",
-  "EmailId": 274,
-  "EmailAddress": "brennan.mohr@hoppe.uk",
-  "PhoneId": 931,
-  "ContactName": "Carroll-Bauch",
-  "ContactId": 442,
-  "SaleId": 256,
-  "Mrmrs": "mollitia",
-  "Firstname": "Antonia",
-  "MiddleName": "Douglas, Satterfield and Kertzmann",
-  "Lastname": "Connelly",
-  "SaleStakeholderId": 806,
-  "Rank": 852,
-  "Phone": "1-399-305-1930"
+  "StakeholderRoleName": "Keebler-Mayer",
+  "Comment": "enim",
+  "StakeholderRoleId": 3,
+  "CountryId": 263,
+  "PersonId": 118,
+  "EmailDescription": "eleanora@gaylordullrich.us",
+  "EmailId": 697,
+  "EmailAddress": "alphonso@lemke.us",
+  "PhoneId": 167,
+  "ContactName": "Jerde-Marks",
+  "ContactId": 416,
+  "SaleId": 57,
+  "Mrmrs": "consequatur",
+  "Firstname": "Demond",
+  "MiddleName": "Goodwin-Quitzon",
+  "Lastname": "Legros",
+  "SaleStakeholderId": 727,
+  "Rank": 600,
+  "Phone": "(217)609-5126 x7183"
 }
 ```
 
@@ -148,31 +148,31 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Blick Group",
-  "Comment": "fuga",
-  "StakeholderRoleId": 270,
-  "CountryId": 173,
-  "PersonId": 135,
-  "EmailDescription": "malvina@heidenreich.co.uk",
-  "EmailId": 645,
-  "EmailAddress": "leo@rowegislason.info",
-  "PhoneId": 158,
-  "ContactName": "Keeling Inc and Sons",
-  "ContactId": 526,
-  "SaleId": 205,
-  "Mrmrs": "magnam",
-  "Firstname": "Celine",
-  "MiddleName": "Davis, Leffler and Gulgowski",
-  "Lastname": "Nienow",
-  "SaleStakeholderId": 154,
-  "Rank": 651,
-  "Phone": "271.301.8089",
+  "StakeholderRoleName": "Daugherty, Berge and Ledner",
+  "Comment": "velit",
+  "StakeholderRoleId": 356,
+  "CountryId": 409,
+  "PersonId": 268,
+  "EmailDescription": "cory.will@gibson.co.uk",
+  "EmailId": 246,
+  "EmailAddress": "abby@herzog.info",
+  "PhoneId": 631,
+  "ContactName": "Quigley Inc and Sons",
+  "ContactId": 585,
+  "SaleId": 672,
+  "Mrmrs": "esse",
+  "Firstname": "Alexandrine",
+  "MiddleName": "Wilkinson, Batz and Christiansen",
+  "Lastname": "Lockman",
+  "SaleStakeholderId": 518,
+  "Rank": 309,
+  "Phone": "(077)085-4546 x63735",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 641
+      "FieldLength": 985
     }
   },
   "_Links": {

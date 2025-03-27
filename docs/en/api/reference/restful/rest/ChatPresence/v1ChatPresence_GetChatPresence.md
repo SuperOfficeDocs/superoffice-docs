@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 842,
-    "DisplayName": "Yundt-Crona",
-    "OngoingChats": 153,
-    "Present": false,
+    "UserId": 356,
+    "DisplayName": "Simonis Group",
+    "OngoingChats": 684,
+    "Present": true,
     "ChatTopics": [
-      936,
-      7
+      264,
+      290
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 961
+        "FieldType": "System.String",
+        "FieldLength": 321
       }
     }
   }

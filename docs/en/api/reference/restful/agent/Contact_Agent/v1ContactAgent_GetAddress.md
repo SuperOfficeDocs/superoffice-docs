@@ -82,7 +82,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 37
+  "ContactId": 549
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 18493.734,
-  "Wgs84Longitude": 12235.136,
+  "Wgs84Latitude": 28318.824,
+  "Wgs84Longitude": 13360.242,
   "LocalizedAddress": [
     [
       {
-        "Name": "Koch Group",
-        "Value": "debitis",
-        "Tooltip": "consequatur",
-        "Label": "praesentium",
-        "ValueLength": 992,
-        "AddressType": "velit",
+        "Name": "Steuber Group",
+        "Value": "dolorum",
+        "Tooltip": "unde",
+        "Label": "et",
+        "ValueLength": 430,
+        "AddressType": "officiis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 964
+            "FieldLength": 235
           }
         }
       }
     ],
     [
       {
-        "Name": "Christiansen-Torp",
-        "Value": "aut",
-        "Tooltip": "quis",
-        "Label": "dolores",
-        "ValueLength": 580,
-        "AddressType": "suscipit",
+        "Name": "Stehr, Heaney and Dooley",
+        "Value": "quia",
+        "Tooltip": "tenetur",
+        "Label": "nihil",
+        "ValueLength": 68,
+        "AddressType": "non",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 172
+            "FieldLength": 950
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "debitis",
+  "Formatted": "quisquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldType": "System.String",
+      "FieldLength": 831
     }
   }
 }

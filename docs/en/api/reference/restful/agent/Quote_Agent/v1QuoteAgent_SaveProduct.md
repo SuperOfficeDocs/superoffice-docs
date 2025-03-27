@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 257,
-  "ERPProductKey": "cumque",
-  "ERPPriceListKey": "fugiat",
-  "Name": "Sawayn Inc and Sons",
-  "Description": "Multi-lateral coherent database",
-  "Code": "officiis",
-  "PriceUnit": "ducimus",
-  "QuantityUnit": "animi",
-  "IsSubscription": true,
-  "SubscriptionUnit": "libero",
-  "DefaultSubscriptionQuantity": 21862.784,
-  "ItemNumber": "975556",
+  "ProductId": 85,
+  "ERPProductKey": "sit",
+  "ERPPriceListKey": "dolore",
+  "Name": "Ryan Group",
+  "Description": "Innovative empowering adapter",
+  "Code": "cupiditate",
+  "PriceUnit": "qui",
+  "QuantityUnit": "officiis",
+  "IsSubscription": false,
+  "SubscriptionUnit": "consequuntur",
+  "DefaultSubscriptionQuantity": 18352.703999999998,
+  "ItemNumber": "1171237",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "amet",
-  "ProductTypeKey": "reiciendis",
-  "VAT": 20471.288,
-  "VATInfo": "quisquam",
-  "UnitCost": 22643.149999999998,
-  "UnitMinimumPrice": 2952.228,
-  "UnitListPrice": 6233.526,
+  "ProductFamilyKey": "vitae",
+  "ProductTypeKey": "reprehenderit",
+  "VAT": 13169.068,
+  "VATInfo": "voluptas",
+  "UnitCost": 16854.652,
+  "UnitMinimumPrice": 17387.432,
+  "UnitListPrice": 8421.0579999999991,
   "InAssortment": false,
-  "Supplier": "aut",
-  "SupplierCode": "eos",
-  "Rights": "itaque",
-  "Rule": "et",
+  "Supplier": "reiciendis",
+  "SupplierCode": "est",
+  "Rights": "labore",
+  "Rule": "ab",
   "ExtraInfo": [
     {
-      "Name": "Nikolaus, Shields and Ziemann",
-      "Value": "quos",
+      "Name": "Miller Inc and Sons",
+      "Value": "ad",
       "Type": "Image"
     },
     {
-      "Name": "Nikolaus, Shields and Ziemann",
-      "Value": "quos",
+      "Name": "Miller Inc and Sons",
+      "Value": "ad",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "quibusdam",
-  "ExtraField1": "autem",
-  "ExtraField2": "non",
-  "ExtraField3": "omnis",
-  "ExtraField4": "et",
-  "ExtraField5": "fugit",
-  "InStock": 14435.204
+  "RawExtraInfo": "quas",
+  "ExtraField1": "blanditiis",
+  "ExtraField2": "dolor",
+  "ExtraField3": "aut",
+  "ExtraField4": "nihil",
+  "ExtraField5": "hic",
+  "InStock": 15240.642
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 802,
-  "ERPProductKey": "est",
-  "ERPPriceListKey": "eos",
-  "Name": "Cartwright LLC",
-  "Description": "Self-enabling static leverage",
-  "Code": "minus",
-  "PriceUnit": "praesentium",
-  "QuantityUnit": "accusantium",
-  "IsSubscription": false,
-  "SubscriptionUnit": "corporis",
-  "DefaultSubscriptionQuantity": 6584.534,
-  "ItemNumber": "708388",
+  "ProductId": 819,
+  "ERPProductKey": "quod",
+  "ERPPriceListKey": "possimus",
+  "Name": "Schneider, Lesch and Tillman",
+  "Description": "Ameliorated secondary pricing structure",
+  "Code": "laboriosam",
+  "PriceUnit": "illo",
+  "QuantityUnit": "repellendus",
+  "IsSubscription": true,
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 2623.158,
+  "ItemNumber": "126375",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
   "ProductFamilyKey": "aut",
-  "ProductTypeKey": "iusto",
-  "VAT": 24771.136,
-  "VATInfo": "quia",
-  "UnitCost": 6333.8139999999994,
-  "UnitMinimumPrice": 6133.2379999999994,
-  "UnitListPrice": 19402.594,
+  "ProductTypeKey": "sed",
+  "VAT": 6590.802,
+  "VATInfo": "quo",
+  "UnitCost": 25250.638,
+  "UnitMinimumPrice": 6283.67,
+  "UnitListPrice": 1610.876,
   "InAssortment": true,
-  "Supplier": "magnam",
-  "SupplierCode": "ab",
-  "Rights": "assumenda",
-  "Rule": "saepe",
+  "Supplier": "totam",
+  "SupplierCode": "ducimus",
+  "Rights": "saepe",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Wiza-Kohler",
-      "Value": "qui",
+      "Name": "Waelchi, Fisher and Ondricka",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 663
+          "FieldType": "System.String",
+          "FieldLength": 209
         }
       }
     },
     {
-      "Name": "Wiza-Kohler",
-      "Value": "qui",
+      "Name": "Waelchi, Fisher and Ondricka",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 663
+          "FieldType": "System.String",
+          "FieldLength": 209
         }
       }
     }
   ],
-  "RawExtraInfo": "magni",
-  "ExtraField1": "et",
-  "ExtraField2": "mollitia",
-  "ExtraField3": "sint",
-  "ExtraField4": "ut",
-  "ExtraField5": "sint",
-  "InStock": 29437.662,
+  "RawExtraInfo": "dolores",
+  "ExtraField1": "sint",
+  "ExtraField2": "quis",
+  "ExtraField3": "dolor",
+  "ExtraField4": "veritatis",
+  "ExtraField5": "aut",
+  "InStock": 27137.306,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 919
+      "FieldType": "System.Int32",
+      "FieldLength": 80
     }
   }
 }

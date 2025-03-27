@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=536
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=995
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 674,
-  "FormKey": "et",
-  "Name": "West, Kemmer and Jakubowski",
-  "Description": "Automated fault-tolerant workforce",
-  "Config": "rerum",
-  "FolderId": 851,
-  "ScriptId": 768,
-  "ResponseShipmentId": 696,
+  "FormId": 345,
+  "FormKey": "odio",
+  "Name": "Rohan LLC",
+  "Description": "Advanced object-oriented workforce",
+  "Config": "et",
+  "FolderId": 984,
+  "ScriptId": 956,
+  "ResponseShipmentId": 593,
   "Active": true,
-  "Expires": "2004-01-29T14:13:40.5628193+01:00",
-  "MaxSubmits": 973,
+  "Expires": "2016-06-19T02:38:21.5576497+02:00",
+  "MaxSubmits": 237,
   "Type": "Normal",
-  "Recipe": "quas",
-  "GroupId": 898,
-  "NewTicket": false,
+  "Recipe": "enim",
+  "GroupId": 688,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2022-02-27T14:13:40.5628193+01:00",
-  "RegisteredAssociateId": 637,
-  "Updated": "2001-07-17T14:13:40.5628193+02:00",
-  "UpdatedAssociateId": 357,
-  "UpdatedCount": 621,
+  "Registered": "2011-04-13T02:38:21.5576497+02:00",
+  "RegisteredAssociateId": 676,
+  "Updated": "2005-11-11T02:38:21.5576497+01:00",
+  "UpdatedAssociateId": 780,
+  "UpdatedCount": 869,
   "EmailFlows": [
-    773,
-    521
+    825,
+    588
   ],
-  "FolderName": "Nicolas, Pagac and Jones",
+  "FolderName": "Effertz-Huel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 392
     }
   }
 }

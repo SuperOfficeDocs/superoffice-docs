@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 634,
-    "Name": "Zboncak Inc and Sons",
-    "ToolTip": "Itaque temporibus quaerat et.",
-    "Deleted": true,
-    "Rank": 10,
-    "Type": "mollitia",
-    "ColorBlock": 902,
-    "IconHint": "dolores",
+    "Id": 649,
+    "Name": "Medhurst LLC",
+    "ToolTip": "Placeat aperiam similique totam aut sed.",
+    "Deleted": false,
+    "Rank": 802,
+    "Type": "ut",
+    "ColorBlock": 737,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "1998-02-25T14:13:49.6336384+01:00",
+    "LastChanged": "2011-06-14T02:38:26.6517427+02:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Bins, Welch and McKenzie",
-        "ToolTip": "Dolorum vitae dolor et.",
+        "Id": 741,
+        "Name": "Raynor, King and Stehr",
+        "ToolTip": "Ut nostrum sunt libero et consequatur itaque.",
         "Deleted": false,
-        "Rank": 825,
-        "Type": "dolores",
-        "ColorBlock": 722,
-        "IconHint": "perspiciatis",
-        "Selected": false,
-        "LastChanged": "2022-03-13T14:13:49.6336384+01:00",
+        "Rank": 468,
+        "Type": "rerum",
+        "ColorBlock": 787,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2010-09-29T02:38:26.6517427+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "iste",
-        "Hidden": false,
-        "FullName": "Billie Olson",
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "odit",
+        "Hidden": true,
+        "FullName": "Landen Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 930
+            "FieldLength": 215
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Miss Wilmer Wilderman",
+    "ExtraInfo": "et",
+    "StyleHint": "sapiente",
+    "Hidden": false,
+    "FullName": "Buck Weber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldType": "System.String",
+        "FieldLength": 399
       }
     }
   }

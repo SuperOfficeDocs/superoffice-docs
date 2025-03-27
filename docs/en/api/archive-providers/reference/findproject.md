@@ -796,7 +796,7 @@ Provider for searching in projects
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindProject?$select=projectPublish/publishedBy,projectUdef/SuperOffice:8,sale/associate/isActive,document/mailMergeDraft,projectMember/personRegisteredByFullName
+GET /api/v1/archive/FindProject?$select=projectEvent/hasSignOn,projectUdef/SuperOffice:4,sale/projectId,projectMember/email/emailAddress,projectMember/personUdef/SuperOffice:4
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -74,21 +74,21 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 750,
+  "TicketMessageEntityId": 712,
   "To": [
-    "explicabo",
-    "nostrum"
+    "corporis",
+    "consectetur"
   ],
   "Cc": [
-    "rerum",
-    "dicta"
+    "et",
+    "omnis"
   ],
   "Bcc": [
-    "laborum",
-    "ea"
+    "cupiditate",
+    "sed"
   ],
-  "Subject": "ad",
-  "ReplyTemplateId": 552,
+  "Subject": "ea",
+  "ReplyTemplateId": 63,
   "GdprSource": "unde"
 }
 ```

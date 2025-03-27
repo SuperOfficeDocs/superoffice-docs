@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 417,
-  "TargetDimensionId": 656
+  "UserGroupId": 733,
+  "TargetDimensionId": 949
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 242,
+    "TargetAssignmentInfoId": 275,
     "Values": [
-      189,
-      592
+      963,
+      231
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 395,
-    "DimensionListItemDisplayName": "Cremin Inc and Sons",
+    "DimensionListItem": 649,
+    "DimensionListItemDisplayName": "Feest, Ruecker and Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 358
+        "FieldType": "System.Int32",
+        "FieldLength": 966
       }
     }
   }

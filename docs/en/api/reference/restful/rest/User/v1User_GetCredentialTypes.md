@@ -62,7 +62,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,9 +73,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "dolorum",
-    "Type": "minima",
-    "Description": "Configurable modular concept",
+    "DisplayType": "consectetur",
+    "Type": "non",
+    "Description": "Right-sized reciprocal contingency",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -84,7 +84,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 694
+        "FieldLength": 686
       }
     }
   }

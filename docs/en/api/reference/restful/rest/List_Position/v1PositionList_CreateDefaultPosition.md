@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 929,
-  "Name": "Olson-Ward",
-  "Tooltip": "distinctio",
-  "Deleted": true,
-  "UdListDefinitionId": 375,
-  "Rank": 303,
+  "Id": 726,
+  "Name": "Huel-Hodkiewicz",
+  "Tooltip": "consequatur",
+  "Deleted": false,
+  "UdListDefinitionId": 561,
+  "Rank": 919,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldType": "System.String",
+      "FieldLength": 60
     }
   }
 }

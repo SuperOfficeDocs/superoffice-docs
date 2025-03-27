@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/License/GetShopUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Fahey, Herzog and Champlin"
+  "OwnerName": "Koepp-Reynolds"
 }
 ```
 

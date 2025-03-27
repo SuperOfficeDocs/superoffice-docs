@@ -116,7 +116,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,105 +124,105 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-05-14T14:13:48.2883428+02:00",
-  "AppointmentId": 747,
-  "Description": "Reactive intangible initiative",
-  "Title": "et",
-  "Agenda": "nobis",
-  "InternalNotes": "sit",
-  "StartDate": "1999-03-14T14:13:48.2883428+01:00",
-  "EndDate": "2003-11-25T14:13:48.2883428+01:00",
+  "CreatedDate": "1998-03-24T02:38:25.8235864+01:00",
+  "AppointmentId": 335,
+  "Description": "Re-contextualized executive solution",
+  "Title": "quis",
+  "Agenda": "non",
+  "InternalNotes": "dignissimos",
+  "StartDate": "2020-04-10T02:38:25.8235864+02:00",
+  "EndDate": "2018-11-18T02:38:25.8235864+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 442,
+  "MotherId": 117,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-05-31T14:13:48.2883428+02:00",
+  "UpdatedDate": "2002-05-01T02:38:25.8235864+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 526,
+  "ActiveLinks": 827,
   "Links": [
     {
-      "EntityName": "Boyer, Reinger and Prosacco",
-      "Id": 717,
-      "Description": "Expanded coherent framework",
-      "ExtraInfo": "laudantium",
-      "LinkId": 96
+      "EntityName": "Murray, Stoltenberg and Emard",
+      "Id": 663,
+      "Description": "Stand-alone value-added middleware",
+      "ExtraInfo": "eos",
+      "LinkId": 773
     },
     {
-      "EntityName": "Boyer, Reinger and Prosacco",
-      "Id": 717,
-      "Description": "Expanded coherent framework",
-      "ExtraInfo": "laudantium",
-      "LinkId": 96
+      "EntityName": "Murray, Stoltenberg and Emard",
+      "Id": 663,
+      "Description": "Stand-alone value-added middleware",
+      "ExtraInfo": "eos",
+      "LinkId": 773
     }
   ],
-  "AlarmLeadTime": "qui",
+  "AlarmLeadTime": "et",
   "HasAlarm": true,
-  "ColorIndex": 464,
+  "ColorIndex": 804,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "earum",
-  "LeadTime": "quisquam",
-  "Location": "beatae",
-  "RejectCounter": 21,
+  "IsAlldayEvent": false,
+  "LagTime": "voluptatem",
+  "LeadTime": "enim",
+  "Location": "possimus",
+  "RejectCounter": 855,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 821,
-      "PersonId": 21,
-      "ContactId": 589,
-      "EmailId": 463,
-      "SendEmail": false,
+      "AssociateId": 466,
+      "PersonId": 954,
+      "ContactId": 727,
+      "EmailId": 235,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "roxanne@armstrongbode.co.uk",
-      "Description": "Re-engineered grid-enabled firmware"
+      "EmailAddress": "soledad@wunsch.com",
+      "Description": "Innovative background project"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2008-04-15T14:13:48.2883428+02:00",
+  "ActiveDate": "2023-09-29T02:38:25.8235864+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 971,
+  "PreferredTZLocation": 914,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 17,
+  "SuggestedAppointmentId": 776,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quasi",
+  "CentralserviceVideomeetId": "placeat",
   "UserDefinedFields": {
-    "SuperOffice:1": "Delphia Pfannerstill",
-    "SuperOffice:2": "Mr. Citlalli Myrtle Pollich DVM"
+    "SuperOffice:1": "966991240",
+    "SuperOffice:2": "Jason Gottlieb"
   },
   "ExtraFields": {
     "ExtraFields1": "minus",
-    "ExtraFields2": "optio"
+    "ExtraFields2": "architecto"
   },
   "CustomFields": {
-    "CustomFields1": "enim",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "perferendis",
+    "CustomFields2": "voluptatibus"
   },
-  "PublishEventDate": "2004-09-25T14:13:48.2883428+02:00",
-  "PublishTo": "2001-05-13T14:13:48.2883428+02:00",
-  "PublishFrom": "2017-07-09T14:13:48.2883428+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-10-06T02:38:25.8235864+02:00",
+  "PublishTo": "2021-05-04T02:38:25.8235864+02:00",
+  "PublishFrom": "2005-09-27T02:38:25.8235864+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 493,
+      "VisibleId": 989,
       "Visibility": "All",
-      "DisplayValue": "dolorem"
+      "DisplayValue": "dolores"
     },
     {
-      "VisibleId": 493,
+      "VisibleId": 989,
       "Visibility": "All",
-      "DisplayValue": "dolorem"
+      "DisplayValue": "dolores"
     }
   ]
 }
@@ -235,7 +235,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ut",
-  "2": "aut"
+  "1": "doloribus",
+  "2": "velit"
 }
 ```

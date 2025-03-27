@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=consequuntur
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=repellat
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 614,
-    "Name": "Hauck, Quigley and Stokes",
-    "ToolTip": "Dolor incidunt est sunt quidem iusto.",
-    "Deleted": false,
-    "Rank": 91,
-    "Type": "aut",
+    "Id": 74,
+    "Name": "O'Hara Group",
+    "ToolTip": "Excepturi et quam.",
+    "Deleted": true,
+    "Rank": 139,
+    "Type": "quia",
     "ChildItems": [
       {
-        "Id": 953,
-        "Name": "Watsica Inc and Sons",
-        "ToolTip": "Est odio aut error quia.",
+        "Id": 708,
+        "Name": "Emmerich Inc and Sons",
+        "ToolTip": "Eos nihil at.",
         "Deleted": false,
-        "Rank": 687,
-        "Type": "odio",
+        "Rank": 699,
+        "Type": "unde",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 826,
-        "ExtraInfo": "delectus",
-        "StyleHint": "vitae",
-        "FullName": "Pansy Zieme V",
+        "IconHint": "sequi",
+        "ColorBlock": 233,
+        "ExtraInfo": "deserunt",
+        "StyleHint": "in",
+        "FullName": "Zena Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 376
+            "FieldLength": 789
           }
         }
       }
     ],
-    "IconHint": "reprehenderit",
-    "ColorBlock": 42,
-    "ExtraInfo": "dolores",
-    "StyleHint": "vitae",
-    "FullName": "Rahsaan DuBuque",
+    "IconHint": "ut",
+    "ColorBlock": 437,
+    "ExtraInfo": "magni",
+    "StyleHint": "alias",
+    "FullName": "Manuel Natalie Roberts IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 307
+        "FieldLength": 674
       }
     }
   }

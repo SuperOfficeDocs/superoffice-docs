@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 366,
-  "Name": "Gottlieb-Torphy",
-  "Tooltip": "quidem",
+  "Id": 553,
+  "Name": "Trantow LLC",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 363,
+  "Rank": 571,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 609
+      "FieldLength": 351
     }
   },
   "_Links": {

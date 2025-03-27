@@ -118,10 +118,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 615,
+  "SelectionId": 87,
   "SelectionMemberIds": [
-    885,
-    541
+    554,
+    279
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Realigned object-oriented service-desk",
-  "Postit": "non",
+  "Description": "Multi-tiered heuristic attitude",
+  "Postit": "ducimus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 736,
-  "IncludePerson": 915,
+  "GroupIdx": 134,
+  "IncludePerson": 329,
   "MemberCount": 99.99,
-  "Name": "Effertz Inc and Sons",
-  "PostitTextId": 890,
-  "CreatedDate": "2004-07-16T14:13:41.3133469+02:00",
-  "SelectionId": 162,
-  "SoundEx": "quos",
-  "Source": 599,
-  "TextId": 827,
-  "UpdatedDate": "2001-01-26T14:13:41.3133469+01:00",
-  "UpdatedCount": 665,
-  "Visibility": 750,
+  "Name": "Legros, Brown and Moen",
+  "PostitTextId": 443,
+  "CreatedDate": "2007-08-21T02:38:21.9794397+02:00",
+  "SelectionId": 481,
+  "SoundEx": "illo",
+  "Source": 747,
+  "TextId": 594,
+  "UpdatedDate": "2005-02-01T02:38:21.9794397+01:00",
+  "UpdatedCount": 844,
+  "Visibility": 707,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 745,
-  "TargetTableName": "Daugherty-Collins",
+  "TargetTableNumber": 313,
+  "TargetTableName": "Pacocha LLC",
   "Completed": true,
-  "LeftSelectionId": 628,
-  "RightSelectionId": 785,
+  "LeftSelectionId": 293,
+  "RightSelectionId": 212,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gorczany, Fisher and Moore",
-  "ShadowProviderName": "Schneider, Lesch and Schmitt",
-  "ChartKey": "aut",
-  "LastLoaded": "2006-06-12T14:13:41.3133469+02:00",
-  "LastLoadedBy": 59,
+  "MainProviderName": "Pagac-Lesch",
+  "ShadowProviderName": "Wisoky, Koepp and Kris",
+  "ChartKey": "cum",
+  "LastLoaded": "2001-03-29T02:38:21.9794397+02:00",
+  "LastLoadedBy": 194,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-05-13T14:13:41.3133469+02:00",
-  "LastMembershipChangeBy": 142,
+  "LastMembershipChange": "2001-06-15T02:38:21.9794397+02:00",
+  "LastMembershipChangeBy": 831,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "est",
-  "MailingsProviderName": "Kiehn, Kreiger and McLaughlin",
-  "DashboardTileDefinitionId": 295,
+  "MainHeading": "enim",
+  "MemberTabHeading": "vitae",
+  "MailingsProviderName": "Okuneva LLC",
+  "DashboardTileDefinitionId": 361,
   "VisibleFor": [
     {
-      "VisibleId": 643,
+      "VisibleId": 518,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 281
+          "FieldLength": 263
         }
       }
     },
     {
-      "VisibleId": 643,
+      "VisibleId": 518,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 281
+          "FieldLength": 263
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 483
+      "FieldType": "System.String",
+      "FieldLength": 862
     }
   }
 }

@@ -94,10 +94,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "1999-11-20T14:13:39.797478+01:00",
+  "ActivityStartTime": "2003-07-06T02:38:21.0264152+02:00",
   "ContactCategories": [
-    193,
-    466
+    754,
+    73
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 398,
+    "ContactId": 51,
     "Department": "",
-    "OrgNr": "1049445",
-    "Name": "Herman Group",
+    "OrgNr": "654819",
+    "Name": "Schoen-Streich",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Wyatt Milton Bechtelar Sr.",
+    "AssociateFullName": "Darrick Batz",
     "Action": "ActivityCompleted",
-    "ActionTime": "2020-10-10T14:13:39.7984831+02:00",
+    "ActionTime": "2020-02-19T02:38:21.0264152+01:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Jast-Medhurst",
-    "ActionId": 846,
-    "PersonId": 623,
-    "ActivityPersonId": 1002,
-    "AssociateId": 869,
+    "ActivityPersonName": "Goodwin-Roob",
+    "ActionId": 86,
+    "PersonId": 297,
+    "ActivityPersonId": 202,
+    "AssociateId": 461,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 681
+        "FieldLength": 132
       }
     }
   }

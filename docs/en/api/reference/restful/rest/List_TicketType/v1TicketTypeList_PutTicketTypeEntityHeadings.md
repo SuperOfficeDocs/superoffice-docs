@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 872,
-    "Name": "Effertz Group",
-    "Tooltip": "consectetur",
-    "Deleted": false,
-    "Rank": 901,
-    "UdListDefinitionId": 669
+    "HeadingId": 49,
+    "Name": "Jerde, Ebert and Hettinger",
+    "Tooltip": "saepe",
+    "Deleted": true,
+    "Rank": 680,
+    "UdListDefinitionId": 144
   },
   {
-    "HeadingId": 872,
-    "Name": "Effertz Group",
-    "Tooltip": "consectetur",
-    "Deleted": false,
-    "Rank": 901,
-    "UdListDefinitionId": 669
+    "HeadingId": 49,
+    "Name": "Jerde, Ebert and Hettinger",
+    "Tooltip": "saepe",
+    "Deleted": true,
+    "Rank": 680,
+    "UdListDefinitionId": 144
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 287,
-    "Name": "Brown, Conn and Effertz",
-    "Tooltip": "ipsum",
+    "HeadingId": 815,
+    "Name": "Morar LLC",
+    "Tooltip": "dolor",
     "Deleted": false,
-    "Rank": 201,
-    "UdListDefinitionId": 450,
+    "Rank": 950,
+    "UdListDefinitionId": 542,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 304
+        "FieldLength": 998
       }
     }
   }

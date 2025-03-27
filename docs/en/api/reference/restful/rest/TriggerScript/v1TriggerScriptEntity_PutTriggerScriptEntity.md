@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 156,
-  "Name": "Schaden Inc and Sons",
+  "ScreenChooserId": 425,
+  "Name": "Cartwright-Heidenreich",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "ut",
-  "Source": "ipsum",
-  "Registered": "2023-11-19T14:13:49.414935+01:00",
-  "RegisteredAssociateId": 61,
-  "Updated": "1997-11-22T14:13:49.414935+01:00",
-  "UpdatedAssociateId": 822
+  "Enabled": true,
+  "UniqueIdentifier": "laudantium",
+  "Source": "expedita",
+  "Registered": "2004-05-30T02:38:26.5266399+02:00",
+  "RegisteredAssociateId": 741,
+  "Updated": "2005-05-21T02:38:26.5266399+02:00",
+  "UpdatedAssociateId": 657
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 895,
-  "Name": "Mertz, Will and Friesen",
+  "ScreenChooserId": 842,
+  "Name": "Russel Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "velit",
-  "Source": "aperiam",
-  "Registered": "1998-06-04T14:13:49.414935+02:00",
-  "RegisteredAssociateId": 314,
-  "Updated": "2003-06-08T14:13:49.414935+02:00",
-  "UpdatedAssociateId": 85,
+  "Enabled": true,
+  "UniqueIdentifier": "voluptatem",
+  "Source": "maxime",
+  "Registered": "2019-01-25T02:38:26.5266399+01:00",
+  "RegisteredAssociateId": 333,
+  "Updated": "2016-08-10T02:38:26.5266399+02:00",
+  "UpdatedAssociateId": 419,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 987
+      "FieldType": "System.Int32",
+      "FieldLength": 662
     }
   },
   "_Links": {

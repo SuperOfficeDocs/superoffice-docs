@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
+      "CanSupportMultiUse": true,
       "DefaultShowInGui": false,
       "DefaultShowInSelector": true,
-      "IsActive": true,
-      "Key": "impedit",
-      "ValueType": "qui",
+      "IsActive": false,
+      "Key": "velit",
+      "ValueType": "mollitia",
       "Mandatory": false,
-      "EncodedDisplayName": "Nienow Inc and Sons",
-      "EncodedDisplayDescription": "Team-oriented disintermediate archive",
-      "IconHint": "optio",
+      "EncodedDisplayName": "Lindgren Inc and Sons",
+      "EncodedDisplayDescription": "Total system-worthy middleware",
+      "IconHint": "temporibus",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "minus",
-      "EncodedDataCaptionDescription": "Automated composite knowledge base",
-      "CurrentOperationType": "rerum",
+      "EncodedDataCaption": "labore",
+      "EncodedDataCaptionDescription": "Future-proofed dynamic framework",
+      "CurrentOperationType": "quas",
       "Values": [
-        "possimus",
-        "debitis"
+        "doloribus",
+        "inventore"
       ],
       "DisplayValues": [
-        "autem",
-        "dolore"
+        "nesciunt",
+        "blanditiis"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Stanton, Lindgren and Hessel",
-  "Context": "assumenda",
-  "Ids": "voluptas"
+  "TableName": "Bahringer, Hoppe and Okuneva",
+  "Context": "ad",
+  "Ids": "quo"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-627
+188
 ```

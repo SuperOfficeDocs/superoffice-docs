@@ -84,7 +84,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Cummerata, Shields and Schmitt"
+  "ApplicationName": "Rogahn Inc and Sons"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "doloribus",
-    "Value": "magni",
-    "RecordId": 724,
-    "CreatedDate": "2021-04-28T14:13:40.3909833+02:00",
-    "UpdatedDate": "2015-05-14T14:13:40.3909833+02:00",
-    "UpdatedBy": "asperiores",
-    "CreatedBy": "dolor",
-    "TableName": "Corwin-Bayer",
+    "Key": "expedita",
+    "Value": "voluptates",
+    "RecordId": 24,
+    "CreatedDate": "2003-01-12T02:38:21.4639053+01:00",
+    "UpdatedDate": "2024-12-24T02:38:21.4639053+01:00",
+    "UpdatedBy": "sit",
+    "CreatedBy": "delectus",
+    "TableName": "Ferry Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 313
+        "FieldLength": 670
       }
     }
   }

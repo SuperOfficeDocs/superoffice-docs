@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Ward-Harber",
-    "ToolTip": "In officia vel deserunt enim alias molestiae.",
-    "Deleted": false,
-    "Rank": 354,
-    "Type": "ea",
-    "ColorBlock": 579,
-    "IconHint": "id",
-    "Selected": true,
-    "LastChanged": "2006-02-22T14:13:49.9938028+01:00",
+    "Id": 570,
+    "Name": "Stiedemann, Bayer and Jacobs",
+    "ToolTip": "Error voluptates inventore incidunt harum ab aliquid illum.",
+    "Deleted": true,
+    "Rank": 978,
+    "Type": "hic",
+    "ColorBlock": 674,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2006-07-23T02:38:26.7767326+02:00",
     "ChildItems": [
       {
-        "Id": 100,
-        "Name": "Grant Inc and Sons",
-        "ToolTip": "Dolor quia aperiam sit eveniet fuga dolores quibusdam.",
+        "Id": 45,
+        "Name": "Crooks Group",
+        "ToolTip": "Officiis sed et non ea.",
         "Deleted": true,
-        "Rank": 391,
-        "Type": "cum",
-        "ColorBlock": 891,
-        "IconHint": "amet",
+        "Rank": 143,
+        "Type": "quaerat",
+        "ColorBlock": 966,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2015-01-25T14:13:49.9938028+01:00",
+        "LastChanged": "2019-09-01T02:38:26.7767326+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "aspernatur",
-        "Hidden": false,
-        "FullName": "Gail Kunde",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "unde",
+        "Hidden": true,
+        "FullName": "Tanner D'Amore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 635
+            "FieldLength": 417
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "modi",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "dicta",
     "Hidden": false,
-    "FullName": "Stanton Hauck",
+    "FullName": "Gustave Mante",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 422
+        "FieldLength": 775
       }
     }
   }

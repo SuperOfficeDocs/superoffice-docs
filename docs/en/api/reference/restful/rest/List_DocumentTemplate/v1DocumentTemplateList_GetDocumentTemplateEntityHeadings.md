@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 452,
-    "Name": "Boyer, Cummerata and Mohr",
-    "Tooltip": "distinctio",
+    "HeadingId": 413,
+    "Name": "Rice, Gleichner and Ernser",
+    "Tooltip": "quisquam",
     "Deleted": true,
-    "Rank": 87,
-    "UdListDefinitionId": 628,
+    "Rank": 398,
+    "UdListDefinitionId": 958,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldType": "System.String",
+        "FieldLength": 538
       }
     }
   }

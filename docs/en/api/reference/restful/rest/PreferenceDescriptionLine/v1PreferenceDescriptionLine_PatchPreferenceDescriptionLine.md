@@ -113,18 +113,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "est",
+    "path": "deserunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "est",
+    "path": "deserunt",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 58,
-  "PrefDescId": 698,
-  "PrefValue": "natus",
-  "PrefShowValue": "voluptatem",
-  "Description": "Visionary explicit open architecture",
+  "PrefDescLineId": 891,
+  "PrefDescId": 927,
+  "PrefValue": "aliquid",
+  "PrefShowValue": "atque",
+  "Description": "Object-based impactful benchmark",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 53
+      "FieldType": "System.Int32",
+      "FieldLength": 154
     }
   },
   "_Links": {

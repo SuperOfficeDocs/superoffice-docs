@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 329,
+  "SourceDocumentTemplateId": 907,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 227,
-  "Name": "Robel, Senger and Franecki",
-  "Tooltip": "quis",
-  "SaveInDb": 486,
-  "Filename": "provident",
-  "DefaultOref": "neque",
+  "DocumentTemplateId": 572,
+  "Name": "Brekke Group",
+  "Tooltip": "non",
+  "SaveInDb": 657,
+  "Filename": "placeat",
+  "DefaultOref": "nihil",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 327,
-  "IntentId": 358,
-  "IsDefaultPublished": false,
-  "Rank": 837,
-  "LoadTemplateFromPlugin": 180,
-  "MimeType": "iure",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 418,
+  "AutoeventId": 523,
+  "IntentId": 134,
+  "IsDefaultPublished": true,
+  "Rank": 769,
+  "LoadTemplateFromPlugin": 675,
+  "MimeType": "esse",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 224,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "andreane_muller@dibbert.name",
+  "EmailSubject": "narciso@mraz.com",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "sandrine@jones.info",
+  "SenderEmailAddress": "anya@klinghilpert.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldType": "System.String",
+      "FieldLength": 539
     }
   }
 }

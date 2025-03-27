@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 413
+  "PersonId": 967
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 822,
-    "Name": "Willms Group",
-    "Description": "Grass-roots 24 hour complexity",
+    "ProjectId": 573,
+    "Name": "Hickle LLC",
+    "Description": "Future-proofed discrete instruction set",
     "URL": "http://www.example.com/",
-    "Type": "ad",
-    "AssociateId": 384,
-    "AssociateFullName": "Prof. Christop Jacobson",
-    "TypeId": 371,
-    "Updated": "2009-08-24T14:13:41.047084+02:00",
-    "StatusId": 972,
-    "Status": "aut",
-    "TextId": 527,
-    "PublishTo": "2016-10-19T14:13:41.047084+02:00",
-    "PublishFrom": "2023-09-23T14:13:41.047084+02:00",
+    "Type": "sit",
+    "AssociateId": 839,
+    "AssociateFullName": "Silas Swift",
+    "TypeId": 258,
+    "Updated": "2021-09-11T02:38:21.7451279+02:00",
+    "StatusId": 793,
+    "Status": "iste",
+    "TextId": 361,
+    "PublishTo": "2016-05-21T02:38:21.7451279+02:00",
+    "PublishFrom": "2008-01-15T02:38:21.7451279+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1398135",
-    "ActiveErpLinks": 181,
+    "ProjectNumber": "532768",
+    "ActiveErpLinks": 855,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 553
+        "FieldType": "System.Int32",
+        "FieldLength": 586
       }
     }
   }

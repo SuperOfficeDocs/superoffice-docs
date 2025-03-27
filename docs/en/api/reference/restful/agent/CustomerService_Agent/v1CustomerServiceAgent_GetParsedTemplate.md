@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 240,
-  "LanguageId": 720,
-  "PersonId": 488,
-  "TicketId": 732
+  "ReplyTemplateId": 69,
+  "LanguageId": 837,
+  "PersonId": 300,
+  "TicketId": 308
 }
 ```
 
@@ -98,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 635,
-  "PlainParsed": "dolor",
-  "HtmlParsed": "necessitatibus",
+  "ReplyTemplateId": 263,
+  "PlainParsed": "quasi",
+  "HtmlParsed": "voluptatem",
   "Attachments": [
     {
-      "AttachmentId": 304,
-      "Name": "Windler Group",
-      "ContentType": "sit",
-      "AttSize": 653,
+      "AttachmentId": 47,
+      "Name": "Turcotte Group",
+      "ContentType": "possimus",
+      "AttSize": 324,
       "InlineImage": false,
-      "ContentId": "voluptatum",
-      "AuthKey": "aut",
+      "ContentId": "eum",
+      "AuthKey": "illo",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 623
+          "FieldLength": 155
         }
       }
     }
   ],
-  "Subject": "officiis",
+  "Subject": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldLength": 818
     }
   }
 }

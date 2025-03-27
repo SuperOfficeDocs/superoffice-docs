@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 757,
-    "Name": "Glover-Cummerata",
-    "ToolTip": "Suscipit ipsa nostrum.",
-    "Deleted": false,
-    "Rank": 827,
-    "Type": "praesentium",
-    "ColorBlock": 10,
-    "IconHint": "voluptatem",
-    "Selected": false,
-    "LastChanged": "2009-08-11T14:13:49.7117421+02:00",
+    "Id": 975,
+    "Name": "Jast LLC",
+    "ToolTip": "Molestias quaerat reprehenderit enim omnis qui fuga occaecati.",
+    "Deleted": true,
+    "Rank": 733,
+    "Type": "veritatis",
+    "ColorBlock": 961,
+    "IconHint": "iste",
+    "Selected": true,
+    "LastChanged": "2009-03-12T02:38:26.7142749+01:00",
     "ChildItems": [
       {
-        "Id": 255,
-        "Name": "Swift Group",
-        "ToolTip": "Qui explicabo voluptate quia.",
-        "Deleted": true,
-        "Rank": 189,
-        "Type": "eius",
-        "ColorBlock": 32,
-        "IconHint": "in",
-        "Selected": true,
-        "LastChanged": "2015-05-19T14:13:49.7117421+02:00",
+        "Id": 224,
+        "Name": "Roob-Koch",
+        "ToolTip": "Quis deserunt nam.",
+        "Deleted": false,
+        "Rank": 64,
+        "Type": "ut",
+        "ColorBlock": 438,
+        "IconHint": "dignissimos",
+        "Selected": false,
+        "LastChanged": "1999-06-30T02:38:26.7142749+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "assumenda",
-        "Hidden": true,
-        "FullName": "Britney Wilderman",
+        "ExtraInfo": "et",
+        "StyleHint": "ad",
+        "Hidden": false,
+        "FullName": "Austin Mueller Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 936
+            "FieldLength": 894
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Hailey Gerlach",
+    "ExtraInfo": "sit",
+    "StyleHint": "earum",
+    "Hidden": true,
+    "FullName": "Mrs. Dashawn Mayra Hayes II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldLength": 726
       }
     }
   }

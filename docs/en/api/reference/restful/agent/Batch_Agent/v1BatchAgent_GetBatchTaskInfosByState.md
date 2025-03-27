@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 188,
-    "Name": "Ankunding, Sanford and Thompson",
-    "AssociateId": 451,
-    "DetailsTable": 289,
-    "DetailsRecord": 928,
+    "Id": 656,
+    "Name": "Bauch-Stroman",
+    "AssociateId": 657,
+    "DetailsTable": 690,
+    "DetailsRecord": 61,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "quia",
-      "ParameterObject2": "temporibus"
+      "ParameterObject1": "in",
+      "ParameterObject2": "aut"
     },
-    "LastStarted": "2018-06-23T14:13:39.3911033+02:00",
-    "Created": "1999-08-10T14:13:39.3911033+02:00",
-    "StartCount": 495,
-    "DatabaseSerialNumber": "793730",
-    "Context": "quod",
-    "Result": "reiciendis",
+    "LastStarted": "2008-02-10T02:38:20.885843+01:00",
+    "Created": "2006-02-19T02:38:20.885843+01:00",
+    "StartCount": 857,
+    "DatabaseSerialNumber": "607584",
+    "Context": "qui",
+    "Result": "illo",
     "State": "All",
-    "Description": "Multi-lateral interactive emulation",
-    "Response": "velit",
-    "Request": "occaecati",
-    "ProgressDescription": "Profit-focused dedicated framework",
-    "ProgressPercent": 448,
-    "FileName": "Smitham, Paucek and Kohler",
+    "Description": "Monitored asynchronous moratorium",
+    "Response": "non",
+    "Request": "est",
+    "ProgressDescription": "Sharable actuating matrix",
+    "ProgressPercent": 41,
+    "FileName": "Willms LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 907
+        "FieldLength": 303
       }
     }
   }

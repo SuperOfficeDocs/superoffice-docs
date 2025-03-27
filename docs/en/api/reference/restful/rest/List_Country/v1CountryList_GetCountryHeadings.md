@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 75,
-    "Name": "Sipes-Bradtke",
-    "Tooltip": "cupiditate",
+    "HeadingId": 143,
+    "Name": "Rodriguez, Kautzer and Kub",
+    "Tooltip": "suscipit",
     "Deleted": false,
-    "Rank": 247,
-    "UdListDefinitionId": 692,
+    "Rank": 785,
+    "UdListDefinitionId": 624,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 151
+        "FieldLength": 449
       }
     }
   }

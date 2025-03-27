@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=exercitationem
-GET /api/v1/Sale?$top=468
-GET /api/v1/Sale?$skip=850
+GET /api/v1/Sale?$entities=ipsum
+GET /api/v1/Sale?$top=517
+GET /api/v1/Sale?$skip=174
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=blanditiis
+GET /api/v1/Sale?$context=non
 GET /api/v1/Sale?$format=JSON
 GET /api/v1/Sale?$jsonSafe=False
 GET /api/v1/Sale?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -129,21 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "excepturi",
+  "odata.nextLink": "non",
   "value": [
     {
-      "PrimaryKey": 7704,
-      "EntityName": "sale",
-      "saleId": 7704,
-      "contactId": 2828,
-      "name": "Collins Inc and Sons"
+      "PrimaryKey": 5847,
+      "EntityName": "person",
+      "personId": 5847,
+      "fullName": "Elisabeth Cremin Jr."
     },
     {
-      "PrimaryKey": 802,
-      "EntityName": "sale",
-      "saleId": 802,
-      "contactId": 3872,
-      "name": "Pfannerstill-Collier"
+      "PrimaryKey": 1644,
+      "EntityName": "person",
+      "personId": 1644,
+      "fullName": "Tristin Stiedemann"
     }
   ]
 }

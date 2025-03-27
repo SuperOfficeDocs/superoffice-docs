@@ -73,16 +73,16 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "ullam",
+      "RawValue": "doloremque",
       "Specification": null,
-      "DisplayValue": "quibusdam",
-      "DisplayTooltip": "voluptate",
+      "DisplayValue": "eveniet",
+      "DisplayTooltip": "eveniet",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 782,
-      "PrefDescId": 570,
-      "TableName": "Kunde LLC",
-      "UserPreferenceId": 677
+      "TargetId": 181,
+      "PrefDescId": 535,
+      "TableName": "Ritchie-Lehner",
+      "UserPreferenceId": 538
     }
   ]
 }

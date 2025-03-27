@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 778,
-  "Name": "Kris, Schowalter and Towne",
-  "Description": "Face to face holistic matrices",
+  "ProjectId": 97,
+  "Name": "Robel-Daugherty",
+  "Description": "Centralized tertiary collaboration",
   "URL": "http://www.example.com/",
-  "Type": "molestiae",
-  "AssociateId": 648,
-  "AssociateFullName": "Nedra Boehm",
-  "TypeId": 76,
-  "Updated": "2015-11-19T14:13:49.0712625+01:00",
-  "StatusId": 409,
-  "Status": "non",
-  "TextId": 766,
-  "PublishTo": "2014-05-26T14:13:49.0712625+02:00",
-  "PublishFrom": "2018-11-13T14:13:49.0712625+01:00",
+  "Type": "quia",
+  "AssociateId": 468,
+  "AssociateFullName": "Ms. Madge Joshua Purdy",
+  "TypeId": 582,
+  "Updated": "2025-02-25T02:38:26.292293+01:00",
+  "StatusId": 919,
+  "Status": "voluptatem",
+  "TextId": 199,
+  "PublishTo": "2001-02-17T02:38:26.292293+01:00",
+  "PublishFrom": "2010-04-13T02:38:26.292293+02:00",
   "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "961268",
-  "ActiveErpLinks": 368,
+  "ProjectNumber": "212621",
+  "ActiveErpLinks": 635,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 625
     }
   }
 }

@@ -79,11 +79,11 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 542,
-  "InstanceLayout": "qui",
-  "InstanceName": "Beatty, Ritchie and Lockman",
-  "CreatedDate": "2016-09-18T14:13:39.3754818+02:00",
-  "UpdatedDate": "2007-08-20T14:13:39.3754818+02:00",
+  "AudienceLayoutId": 510,
+  "InstanceLayout": "est",
+  "InstanceName": "Cummings, Willms and Harber",
+  "CreatedDate": "2011-03-12T02:38:20.8702208+01:00",
+  "UpdatedDate": "2012-04-03T02:38:20.8702208+02:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 690,
-  "InstanceLayout": "enim",
-  "InstanceName": "Runte LLC",
-  "CreatedDate": "1998-05-10T14:13:39.3754818+02:00",
-  "UpdatedDate": "2007-09-28T14:13:39.3754818+02:00",
+  "AudienceLayoutId": 482,
+  "InstanceLayout": "sunt",
+  "InstanceName": "Robel, McDermott and Ryan",
+  "CreatedDate": "2008-01-15T02:38:20.8702208+01:00",
+  "UpdatedDate": "2007-01-07T02:38:20.8702208+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldLength": 279
     }
   }
 }

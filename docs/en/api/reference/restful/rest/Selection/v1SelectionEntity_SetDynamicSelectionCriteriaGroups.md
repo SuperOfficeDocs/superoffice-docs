@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kuphal, Bruen and Ondricka",
-    "Description": "Vision-oriented bottom-line framework",
-    "Rank": 131,
+    "Name": "Jones, Skiles and Schmidt",
+    "Description": "Organic multimedia strategy",
+    "Rank": 738,
     "Restrictions": [
       {
-        "Name": "Donnelly, Connelly and Franecki",
-        "Operator": "illo",
+        "Name": "Rempel-Osinski",
+        "Operator": "magnam",
         "Values": [
-          "et",
-          "maiores"
+          "numquam",
+          "dolor"
         ],
         "DisplayValues": [
-          "facere",
-          "corrupti"
+          "neque",
+          "impedit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 633,
+        "InterParenthesis": 350,
         "InterOperator": "And",
-        "UniqueHash": 583
+        "UniqueHash": 610
       }
     ]
   },
   {
-    "Name": "Kuphal, Bruen and Ondricka",
-    "Description": "Vision-oriented bottom-line framework",
-    "Rank": 131,
+    "Name": "Jones, Skiles and Schmidt",
+    "Description": "Organic multimedia strategy",
+    "Rank": 738,
     "Restrictions": [
       {
-        "Name": "Donnelly, Connelly and Franecki",
-        "Operator": "illo",
+        "Name": "Rempel-Osinski",
+        "Operator": "magnam",
         "Values": [
-          "et",
-          "maiores"
+          "numquam",
+          "dolor"
         ],
         "DisplayValues": [
-          "facere",
-          "corrupti"
+          "neque",
+          "impedit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 633,
+        "InterParenthesis": 350,
         "InterOperator": "And",
-        "UniqueHash": 583
+        "UniqueHash": 610
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "O'Connell-Howe",
-    "Description": "Grass-roots impactful analyzer",
-    "Rank": 638,
+    "Name": "Jast, Swaniawski and Hartmann",
+    "Description": "Cross-platform systematic neural-net",
+    "Rank": 804,
     "Restrictions": [
       {
-        "Name": "Leuschke, Connelly and Pouros",
-        "Operator": "provident",
+        "Name": "Stanton LLC",
+        "Operator": "at",
         "Values": [
-          "hic",
-          "eum"
+          "aliquam",
+          "error"
         ],
         "DisplayValues": [
-          "labore",
-          "culpa"
+          "quia",
+          "molestiae"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 519,
+        "InterParenthesis": 852,
         "InterOperator": "And",
-        "UniqueHash": 453
+        "UniqueHash": 884
       }
     ]
   },
   {
-    "Name": "O'Connell-Howe",
-    "Description": "Grass-roots impactful analyzer",
-    "Rank": 638,
+    "Name": "Jast, Swaniawski and Hartmann",
+    "Description": "Cross-platform systematic neural-net",
+    "Rank": 804,
     "Restrictions": [
       {
-        "Name": "Leuschke, Connelly and Pouros",
-        "Operator": "provident",
+        "Name": "Stanton LLC",
+        "Operator": "at",
         "Values": [
-          "hic",
-          "eum"
+          "aliquam",
+          "error"
         ],
         "DisplayValues": [
-          "labore",
-          "culpa"
+          "quia",
+          "molestiae"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 519,
+        "InterParenthesis": 852,
         "InterOperator": "And",
-        "UniqueHash": 453
+        "UniqueHash": 884
       }
     ]
   }

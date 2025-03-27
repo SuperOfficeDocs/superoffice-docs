@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 266,
-  "StartTime": "2007-11-08T14:13:40.0004493+01:00",
-  "EndTime": "1998-02-08T14:13:40.0004493+01:00",
-  "Count": 973,
-  "TemplateHeadingId": 602
+  "ContactId": 496,
+  "StartTime": "1999-08-01T02:38:21.2139317+02:00",
+  "EndTime": "2007-04-14T02:38:21.2139317+02:00",
+  "Count": 103,
+  "TemplateHeadingId": 131
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 308,
-    "Attention": "tempore",
+    "DocumentId": 613,
+    "Attention": "laborum",
     "Header": "qui",
-    "Name": "Hartmann Inc and Sons",
-    "OurRef": "veniam",
-    "YourRef": "dolorum",
-    "Description": "Vision-oriented multi-state encryption",
-    "DocumentTemplate": "dolorem",
+    "Name": "Jakubowski LLC",
+    "OurRef": "dolor",
+    "YourRef": "facere",
+    "Description": "Fully-configurable coherent functionalities",
+    "DocumentTemplate": "ratione",
     "IsPublished": false,
-    "PersonId": 275,
-    "PersonFullName": "Lilly Thompson",
-    "AssociateFullName": "Vivienne Greenfelder",
-    "ContactId": 796,
-    "ContactName": "Toy, McKenzie and Wilderman",
-    "ProjectId": 876,
-    "ProjectName": "Hermiston-Lehner",
-    "AssociateId": 348,
-    "Snum": 111,
-    "SaleId": 172,
-    "SaleName": "Schroeder-Bode",
+    "PersonId": 992,
+    "PersonFullName": "Clemmie Brown DVM",
+    "AssociateFullName": "Dannie Fay",
+    "ContactId": 443,
+    "ContactName": "Torp, Boyer and Abshire",
+    "ProjectId": 14,
+    "ProjectName": "Wintheiser-Stehr",
+    "AssociateId": 40,
+    "Snum": 224,
+    "SaleId": 465,
+    "SaleName": "Runolfsdottir, Padberg and Stehr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 39
+        "FieldLength": 763
       }
     }
   }

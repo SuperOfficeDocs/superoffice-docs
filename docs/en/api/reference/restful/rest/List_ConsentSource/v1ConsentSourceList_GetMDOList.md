@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=saepe
+GET /api/v1/List/ConsentSource/MDOItems?query=quasi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 468,
-    "Name": "Dare-Kirlin",
-    "ToolTip": "Ex et unde accusamus et est a.",
-    "Deleted": false,
-    "Rank": 369,
-    "Type": "optio",
+    "Id": 956,
+    "Name": "Reichel Inc and Sons",
+    "ToolTip": "Voluptatem sunt sit possimus delectus.",
+    "Deleted": true,
+    "Rank": 18,
+    "Type": "eos",
     "ChildItems": [
       {
-        "Id": 368,
-        "Name": "Lind, Lowe and Anderson",
-        "ToolTip": "Assumenda ipsa sed repellendus nulla.",
+        "Id": 871,
+        "Name": "Simonis, Streich and Hilll",
+        "ToolTip": "Nihil veniam est sit explicabo consequatur voluptas.",
         "Deleted": false,
-        "Rank": 288,
-        "Type": "culpa",
+        "Rank": 974,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "recusandae",
-        "ColorBlock": 315,
-        "ExtraInfo": "ducimus",
-        "StyleHint": "adipisci",
-        "FullName": "Makenzie Boyer",
+        "IconHint": "doloremque",
+        "ColorBlock": 543,
+        "ExtraInfo": "cum",
+        "StyleHint": "tenetur",
+        "FullName": "Hellen Eunice Zboncak V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 476
+            "FieldType": "System.String",
+            "FieldLength": 495
           }
         }
       }
     ],
-    "IconHint": "hic",
-    "ColorBlock": 270,
-    "ExtraInfo": "ratione",
-    "StyleHint": "et",
-    "FullName": "Miracle Chelsey Kuphal II",
+    "IconHint": "adipisci",
+    "ColorBlock": 475,
+    "ExtraInfo": "doloremque",
+    "StyleHint": "corrupti",
+    "FullName": "Royce Wehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 359
+        "FieldLength": 704
       }
     }
   }

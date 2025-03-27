@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 417
+  "AssociateId": 666
 }
 ```
 
@@ -103,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 75,
-    "ERPName": "O'Reilly, Yost and Turner",
-    "DisplayName": "Bartell Group",
-    "DisplayDescription": "Distributed non-volatile product",
-    "Rank": 384,
-    "ConnectorName": "Bartell, Dicki and Koch",
-    "ErpConnectionId": 260,
-    "ExtraData": "eaque",
-    "IsAvailable": false,
+    "QuoteConnectionId": 27,
+    "ERPName": "Reichert LLC",
+    "DisplayName": "Raynor-Walsh",
+    "DisplayDescription": "Inverse demand-driven service-desk",
+    "Rank": 691,
+    "ConnectorName": "Koepp-Feeney",
+    "ErpConnectionId": 936,
+    "ExtraData": "officiis",
+    "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 440,
-        "ERPPriceListKey": "quod",
-        "QuoteConnectionId": 663,
-        "Name": "Zboncak-Batz",
-        "Description": "Customizable homogeneous analyzer",
-        "Currency": "consequuntur",
-        "CurrencyName": "Carter, Conn and Ratke",
-        "ValidFrom": "2018-07-03T14:13:41.1095702+02:00",
-        "ValidTo": "2009-05-16T14:13:41.1095702+02:00",
-        "IsActive": true,
+        "PriceListId": 282,
+        "ERPPriceListKey": "ducimus",
+        "QuoteConnectionId": 579,
+        "Name": "Cremin, Flatley and Schoen",
+        "Description": "Integrated homogeneous workforce",
+        "Currency": "qui",
+        "CurrencyName": "Littel LLC",
+        "ValidFrom": "2022-06-05T02:38:21.7763357+02:00",
+        "ValidTo": "2005-11-07T02:38:21.7763357+01:00",
+        "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 512
+            "FieldLength": 526
           }
         }
       }
@@ -138,19 +138,19 @@ Content-Type: application/json; charset=utf-8
     "AllAccess": true,
     "Deleted": false,
     "UserGroupAccessIds": [
-      710,
-      846
+      579,
+      454
     ],
     "AssociateAccessIds": [
-      341,
-      704
+      610,
+      527
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 858
       }
     }
   }

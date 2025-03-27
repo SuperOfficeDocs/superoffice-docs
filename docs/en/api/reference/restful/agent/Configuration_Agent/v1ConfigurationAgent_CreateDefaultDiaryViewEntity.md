@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 508,
-  "Name": "Schroeder, Champlin and Marks",
-  "Tooltip": "error",
-  "VisibleColumns": 429,
-  "Rank": 535,
-  "AssocId": 571,
+  "DiaryViewId": 702,
+  "Name": "Bashirian, Welch and Haag",
+  "Tooltip": "ut",
+  "VisibleColumns": 583,
+  "Rank": 96,
+  "AssocId": 471,
   "AssociateList": [
     {
-      "Id": 95,
-      "Name": "Mueller, Leannon and Rogahn",
-      "ToolTip": "Nihil voluptatum.",
+      "Id": 32,
+      "Name": "Gaylord LLC",
+      "ToolTip": "Ut rem id odio reiciendis.",
       "Deleted": false,
-      "Rank": 96,
-      "Type": "est",
-      "ColorBlock": 609,
-      "IconHint": "tempore",
+      "Rank": 47,
+      "Type": "quas",
+      "ColorBlock": 704,
+      "IconHint": "voluptatem",
       "Selected": true,
-      "LastChanged": "2015-09-15T14:13:39.7347754+02:00",
+      "LastChanged": "1999-05-19T02:38:20.995206+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "id",
-      "StyleHint": "assumenda",
-      "Hidden": false,
-      "FullName": "Dianna Ritchie",
+      "ExtraInfo": "modi",
+      "StyleHint": "odit",
+      "Hidden": true,
+      "FullName": "Mr. Keaton Cameron Sporer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 117
+          "FieldLength": 558
         }
       }
     }
   ],
-  "TzLocationId": 264,
+  "TzLocationId": 759,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 202
     }
   }
 }

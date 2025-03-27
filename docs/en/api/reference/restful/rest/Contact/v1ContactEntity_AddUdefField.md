@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 325,
-  "ColumnId": 319,
-  "FieldDefault": "sit",
-  "FieldHeight": 500,
-  "FieldLabel": "perspiciatis",
-  "FieldLeft": 622,
-  "FieldTop": 94,
+  "UDefFieldId": 405,
+  "ColumnId": 598,
+  "FieldDefault": "ea",
+  "FieldHeight": 700,
+  "FieldLabel": "ea",
+  "FieldLeft": 981,
+  "FieldTop": 651,
   "FieldType": "Checkbox",
-  "FieldWidth": 75,
-  "FormatMask": "fugit",
+  "FieldWidth": 802,
+  "FormatMask": "repudiandae",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 903,
-  "LabelLeft": 769,
-  "LabelTop": 563,
-  "LabelWidth": 621,
-  "LastVersionId": 963,
-  "ListTableId": 917,
+  "LabelHeight": 653,
+  "LabelLeft": 924,
+  "LabelTop": 814,
+  "LabelWidth": 185,
+  "LastVersionId": 605,
+  "ListTableId": 943,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 876,
-  "ProgId": "odit",
+  "Page1LineNo": 364,
+  "ProgId": "unde",
   "IsReadOnly": false,
-  "ShortLabel": "quia",
-  "TabOrder": 673,
-  "TextLength": 177,
-  "Tooltip": "omnis",
-  "UdefIdentity": 476,
-  "UDListDefinitionId": 526,
+  "ShortLabel": "voluptatum",
+  "TabOrder": 93,
+  "TextLength": 233,
+  "Tooltip": "perspiciatis",
+  "UdefIdentity": 522,
+  "UDListDefinitionId": 813,
   "Justification": "Center",
-  "Version": 570,
-  "TemplateVariableName": "Will Group",
+  "Version": 907,
+  "TemplateVariableName": "Watsica LLC",
   "HasBeenPublished": true,
-  "MdoListName": "Brekke LLC",
+  "MdoListName": "Fay-Bernhard",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 585
+      "FieldType": "System.String",
+      "FieldLength": 296
     }
   }
 }

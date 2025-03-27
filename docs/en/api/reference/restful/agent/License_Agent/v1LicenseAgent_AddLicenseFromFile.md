@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "occaecati"
+  "FileContent": "dignissimos"
 }
 ```
 
@@ -91,22 +91,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "disintermediate seamless metrics",
-  "CanBeActivated": true,
+  "Reason": "",
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 998,
-      "NumberOfLicensesFree": 71,
-      "NumberOfLicensesAdded": 77,
-      "NumberOfLicensesNewTotal": 535,
-      "NumberOfLicensesNewFree": 547,
-      "NumberOfLicensesTotal": 695
+      "NumberOfLicensesInUse": 774,
+      "NumberOfLicensesFree": 17,
+      "NumberOfLicensesAdded": 385,
+      "NumberOfLicensesNewTotal": 327,
+      "NumberOfLicensesNewFree": 602,
+      "NumberOfLicensesTotal": 606
     }
   ],
-  "AccumulatedNextCheckDate": "2021-03-02T14:13:40.422226+01:00"
+  "AccumulatedNextCheckDate": "2012-10-22T02:38:21.4639053+02:00"
 }
 ```

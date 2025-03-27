@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Paucek Inc and Sons",
-    "Tooltip": "id",
-    "Deleted": true,
-    "UdListDefinitionId": 182,
-    "Rank": 646
+    "Id": 471,
+    "Name": "Farrell Inc and Sons",
+    "Tooltip": "voluptate",
+    "Deleted": false,
+    "UdListDefinitionId": 161,
+    "Rank": 820
   },
   {
-    "Id": 903,
-    "Name": "Paucek Inc and Sons",
-    "Tooltip": "id",
-    "Deleted": true,
-    "UdListDefinitionId": 182,
-    "Rank": 646
+    "Id": 471,
+    "Name": "Farrell Inc and Sons",
+    "Tooltip": "voluptate",
+    "Deleted": false,
+    "UdListDefinitionId": 161,
+    "Rank": 820
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 751,
-    "Name": "Wolf, Dicki and Treutel",
-    "Tooltip": "eligendi",
+    "Id": 275,
+    "Name": "Halvorson, Langworth and Dickens",
+    "Tooltip": "et",
     "Deleted": true,
-    "UdListDefinitionId": 395,
-    "Rank": 474,
+    "UdListDefinitionId": 473,
+    "Rank": 806,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 193
+        "FieldLength": 766
       }
     }
   }

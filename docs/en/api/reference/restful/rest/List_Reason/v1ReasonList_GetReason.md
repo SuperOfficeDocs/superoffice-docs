@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 78,
-  "Name": "Tillman-Gutmann",
-  "Tooltip": "est",
-  "Deleted": false,
-  "UdListDefinitionId": 211,
-  "Rank": 671,
+  "Id": 259,
+  "Name": "Dicki Inc and Sons",
+  "Tooltip": "recusandae",
+  "Deleted": true,
+  "UdListDefinitionId": 249,
+  "Rank": 198,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldType": "System.String",
+      "FieldLength": 75
     }
   }
 }

@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 382,
-    "Name": "Bartell, Thiel and Zulauf",
-    "Description": "Managed analyzing toolset",
-    "WelcomeMessage": "accusantium",
+    "ChatTopicId": 655,
+    "Name": "Pagac-Murazik",
+    "Description": "Public-key bi-directional protocol",
+    "WelcomeMessage": "repellat",
     "Language": null,
-    "LastAccept": "2016-04-15T14:13:39.7035324+02:00",
-    "SecondsPrAccept": 453,
-    "AlertRecipient": "vero",
+    "LastAccept": "2020-04-17T02:38:20.9795792+02:00",
+    "SecondsPrAccept": 501,
+    "AlertRecipient": "aut",
     "AlertTemplate": null,
     "CollectConsent": false,
-    "BadgeHeader": "sed",
-    "CustomQueueTextEnabled": true,
-    "CustomQueueText": "ut",
-    "WarnNewChatMinutes": 616,
-    "WarnManagerNewChatMinutes": 86,
+    "BadgeHeader": "consequatur",
+    "CustomQueueTextEnabled": false,
+    "CustomQueueText": "quia",
+    "WarnNewChatMinutes": 115,
+    "WarnManagerNewChatMinutes": 694,
     "TicketEnabled": true,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": false,
+    "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 646,
-    "WarnManagerChatMessageMinutes": 280,
+    "WarnChatMessageMinutes": 914,
+    "WarnManagerChatMessageMinutes": 60,
     "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 576,
-    "OfflineFormQueueLength": 649,
-    "WidgetEnableRating": false,
-    "WidgetRatingText": "consectetur",
+    "OfflineFormTimeLimit": 713,
+    "OfflineFormQueueLength": 896,
+    "WidgetEnableRating": true,
+    "WidgetRatingText": "minima",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 935
+        "FieldLength": 551
       }
     }
   }

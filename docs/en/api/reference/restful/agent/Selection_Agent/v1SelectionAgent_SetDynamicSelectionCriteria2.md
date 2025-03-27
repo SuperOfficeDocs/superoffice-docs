@@ -87,8 +87,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 269,
-  "Filter": "nesciunt"
+  "SelectionId": 945,
+  "Filter": "quam"
 }
 ```
 
@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wuckert-Wisozk",
-    "Operator": "sit",
+    "Name": "Lemke, Mraz and Herman",
+    "Operator": "magni",
     "Values": [
-      "ipsa",
-      "culpa"
+      "rem",
+      "cumque"
     ],
     "DisplayValues": [
-      "atque",
-      "rem"
+      "rerum",
+      "architecto"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Von-Ankunding",
-        "Operator": "quo",
+        "Name": "Sipes Inc and Sons",
+        "Operator": "et",
         "Values": [
-          "eveniet",
-          "voluptatem"
+          "sequi",
+          "necessitatibus"
         ],
         "DisplayValues": [
-          "ullam",
-          "odio"
+          "voluptatem",
+          "quo"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 945,
+        "InterParenthesis": 140,
         "InterOperator": "And",
-        "UniqueHash": 985
+        "UniqueHash": 772
       }
     ],
-    "InterParenthesis": 826,
+    "InterParenthesis": 49,
     "InterOperator": "And",
-    "UniqueHash": 242
+    "UniqueHash": 978
   }
 ]
 ```

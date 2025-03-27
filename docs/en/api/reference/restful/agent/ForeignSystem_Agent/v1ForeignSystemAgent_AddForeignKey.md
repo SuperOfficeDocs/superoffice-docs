@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Kilback-Mann",
-  "DeviceName": "Krajcik Inc and Sons",
-  "DeviceIdentifier": "dicta"
+  "ApplicationName": "Schmidt, Roob and Bednar",
+  "DeviceName": "Stoltenberg-Wiegand",
+  "DeviceIdentifier": "commodi"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "libero",
-  "Value": "doloribus",
-  "RecordId": 391,
-  "CreatedDate": "2022-03-11T14:13:40.3909833+01:00",
-  "UpdatedDate": "2015-09-02T14:13:40.3909833+02:00",
-  "UpdatedBy": "odit",
-  "CreatedBy": "error",
-  "TableName": "Fahey Group",
+  "Key": "sed",
+  "Value": "sint",
+  "RecordId": 294,
+  "CreatedDate": "2009-01-01T02:38:21.4639053+01:00",
+  "UpdatedDate": "2004-02-08T02:38:21.4639053+01:00",
+  "UpdatedBy": "sequi",
+  "CreatedBy": "accusantium",
+  "TableName": "Walter-Borer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldLength": 706
     }
   }
 }

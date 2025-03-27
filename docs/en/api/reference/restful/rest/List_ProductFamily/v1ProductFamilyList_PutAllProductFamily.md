@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 138,
-    "Name": "Bartoletti Inc and Sons",
+    "Id": 71,
+    "Name": "Prosacco Group",
     "Tooltip": "enim",
-    "Deleted": true,
-    "UdListDefinitionId": 119,
-    "Rank": 432
+    "Deleted": false,
+    "UdListDefinitionId": 828,
+    "Rank": 507
   },
   {
-    "Id": 138,
-    "Name": "Bartoletti Inc and Sons",
+    "Id": 71,
+    "Name": "Prosacco Group",
     "Tooltip": "enim",
-    "Deleted": true,
-    "UdListDefinitionId": 119,
-    "Rank": 432
+    "Deleted": false,
+    "UdListDefinitionId": 828,
+    "Rank": 507
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 677,
-    "Name": "Pagac, Stehr and Johnson",
-    "Tooltip": "quibusdam",
-    "Deleted": false,
-    "UdListDefinitionId": 954,
-    "Rank": 740,
+    "Id": 680,
+    "Name": "Hilll, King and Frami",
+    "Tooltip": "nostrum",
+    "Deleted": true,
+    "UdListDefinitionId": 385,
+    "Rank": 30,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 204
+        "FieldType": "System.String",
+        "FieldLength": 974
       }
     }
   }

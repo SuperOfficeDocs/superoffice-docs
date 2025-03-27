@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/CustomerService/CreateDefaultSmsConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,18 +71,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "DefaultSmsCountry": "Sokovia",
-  "NetServerSmsProvider": "qui",
-  "NsPluginSender": "nemo",
+  "NetServerSmsProvider": "esse",
+  "NsPluginSender": "voluptas",
   "NsPluginConfig": {
-    "NsPluginConfig1": "aut",
-    "NsPluginConfig2": "eos"
+    "NsPluginConfig1": "enim",
+    "NsPluginConfig2": "optio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldLength": 497
     }
   }
 }

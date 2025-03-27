@@ -66,7 +66,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 242,
-  "Name": "Spencer, Rolfson and Koss",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "UdListDefinitionId": 191,
-  "Rank": 451,
+  "Id": 815,
+  "Name": "O'Kon-Maggio",
+  "Tooltip": "vel",
+  "Deleted": true,
+  "UdListDefinitionId": 902,
+  "Rank": 394,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 360
+      "FieldLength": 823
     }
   }
 }

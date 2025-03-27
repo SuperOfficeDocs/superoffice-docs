@@ -33,10 +33,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=07/26/2003 14:13:52
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/15/2016 14:13:52
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=255
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=04/09/2012 02:38:28
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=03/27/2000 02:38:28
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=701
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 652,
-  "ERPPriceListKey": "sint",
-  "QuoteConnectionId": 152,
-  "Name": "Leannon-Ebert",
-  "Description": "Automated interactive matrix",
-  "Currency": "officiis",
-  "CurrencyName": "Zemlak Group",
-  "ValidFrom": "2010-11-15T14:13:50.0562893+01:00",
-  "ValidTo": "2022-02-15T14:13:50.0562893+01:00",
+  "PriceListId": 814,
+  "ERPPriceListKey": "dignissimos",
+  "QuoteConnectionId": 6,
+  "Name": "Ullrich, Steuber and Grant",
+  "Description": "Persevering value-added forecast",
+  "Currency": "incidunt",
+  "CurrencyName": "Bechtelar, Bayer and Tillman",
+  "ValidFrom": "2000-11-29T02:38:26.8236417+01:00",
+  "ValidTo": "2011-01-18T02:38:26.8236417+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 275
+      "FieldType": "System.Int32",
+      "FieldLength": 874
     }
   }
 }

@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 455
+  "Id": 868
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 55,
-  "Name": "Harris Inc and Sons",
-  "AssociateId": 31,
-  "DetailsTable": 569,
-  "DetailsRecord": 907,
+  "Id": 120,
+  "Name": "Purdy LLC",
+  "AssociateId": 286,
+  "DetailsTable": 909,
+  "DetailsRecord": 261,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "fugit",
-    "ParameterObject2": "molestiae"
+    "ParameterObject1": "corporis",
+    "ParameterObject2": "natus"
   },
-  "LastStarted": "2015-09-26T14:13:39.3911033+02:00",
-  "Created": "2011-02-21T14:13:39.3911033+01:00",
-  "StartCount": 913,
-  "DatabaseSerialNumber": "1210442",
-  "Context": "laudantium",
-  "Result": "tempore",
+  "LastStarted": "2003-08-22T02:38:20.885843+02:00",
+  "Created": "2024-07-08T02:38:20.885843+02:00",
+  "StartCount": 828,
+  "DatabaseSerialNumber": "1188626",
+  "Context": "id",
+  "Result": "perspiciatis",
   "State": "All",
-  "Description": "Secured mobile flexibility",
-  "Response": "soluta",
-  "Request": "qui",
-  "ProgressDescription": "Front-line next generation budgetary management",
-  "ProgressPercent": 371,
-  "FileName": "Metz, Jacobson and Borer",
+  "Description": "Automated demand-driven model",
+  "Response": "quo",
+  "Request": "enim",
+  "ProgressDescription": "Down-sized exuding groupware",
+  "ProgressPercent": 167,
+  "FileName": "Cummings, Haley and Batz",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldType": "System.String",
+      "FieldLength": 626
     }
   }
 }

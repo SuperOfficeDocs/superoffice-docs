@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 984,
-    "Name": "Konopelski, Barton and Rolfson",
-    "AssociateId": 498,
-    "DetailsTable": 501,
-    "DetailsRecord": 738,
-    "IsSystemTask": true,
+    "Id": 448,
+    "Name": "Kuvalis-Conroy",
+    "AssociateId": 689,
+    "DetailsTable": 602,
+    "DetailsRecord": 939,
+    "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "voluptatem",
-      "ParameterObject2": "reiciendis"
+      "ParameterObject1": "consequatur",
+      "ParameterObject2": "fugiat"
     },
-    "LastStarted": "2008-01-17T14:13:49.4305556+01:00",
-    "Created": "2016-10-28T14:13:49.4305556+02:00",
-    "StartCount": 934,
-    "DatabaseSerialNumber": "831420",
-    "Context": "facilis",
-    "Result": "sint",
+    "LastStarted": "2015-06-16T02:38:26.5266399+02:00",
+    "Created": "2019-05-11T02:38:26.5266399+02:00",
+    "StartCount": 857,
+    "DatabaseSerialNumber": "1664745",
+    "Context": "corporis",
+    "Result": "consequuntur",
     "State": "All",
-    "Description": "Face to face demand-driven protocol",
-    "Response": "similique",
-    "Request": "ut",
-    "ProgressDescription": "Organized context-sensitive Graphic Interface",
-    "ProgressPercent": 500,
-    "FileName": "Emard LLC",
+    "Description": "Enterprise-wide eco-centric superstructure",
+    "Response": "odit",
+    "Request": "aspernatur",
+    "ProgressDescription": "Profound foreground data-warehouse",
+    "ProgressPercent": 787,
+    "FileName": "Toy-Lesch",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 462
+        "FieldType": "System.String",
+        "FieldLength": 68
       }
     }
   }

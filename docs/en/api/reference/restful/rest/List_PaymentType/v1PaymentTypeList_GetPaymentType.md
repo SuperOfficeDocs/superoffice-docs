@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 614,
-  "Name": "Stanton, Parisian and Murray",
-  "Tooltip": "itaque",
+  "Id": 517,
+  "Name": "Labadie-Schimmel",
+  "Tooltip": "minus",
   "Deleted": false,
-  "UdListDefinitionId": 61,
-  "Rank": 333,
+  "UdListDefinitionId": 424,
+  "Rank": 618,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldLength": 439
     }
   }
 }

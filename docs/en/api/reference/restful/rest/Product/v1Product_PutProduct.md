@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 839,
-  "ERPProductKey": "explicabo",
-  "ERPPriceListKey": "est",
-  "Name": "Hickle, Collins and Strosin",
-  "Description": "Front-line human-resource database",
-  "Code": "provident",
-  "PriceUnit": "id",
-  "QuantityUnit": "perspiciatis",
+  "ProductId": 583,
+  "ERPProductKey": "voluptatibus",
+  "ERPPriceListKey": "et",
+  "Name": "Gleichner-Schamberger",
+  "Description": "Re-contextualized multimedia standardization",
+  "Code": "sunt",
+  "PriceUnit": "tempora",
+  "QuantityUnit": "fuga",
   "IsSubscription": false,
   "SubscriptionUnit": "qui",
-  "DefaultSubscriptionQuantity": 27331.613999999998,
-  "ItemNumber": "711265",
+  "DefaultSubscriptionQuantity": 30913.775999999998,
+  "ItemNumber": "1098589",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "blanditiis",
-  "ProductTypeKey": "voluptas",
-  "VAT": 1313.146,
-  "VATInfo": "dolorem",
-  "UnitCost": 25300.782,
-  "UnitMinimumPrice": 11830.85,
-  "UnitListPrice": 27569.798,
-  "InAssortment": false,
-  "Supplier": "et",
-  "SupplierCode": "rerum",
-  "Rights": "et",
-  "Rule": "sunt",
+  "ProductFamilyKey": "non",
+  "ProductTypeKey": "provident",
+  "VAT": 17522.194,
+  "VATInfo": "nisi",
+  "UnitCost": 31198.969999999998,
+  "UnitMinimumPrice": 12043.962,
+  "UnitListPrice": 16503.644,
+  "InAssortment": true,
+  "Supplier": "necessitatibus",
+  "SupplierCode": "cum",
+  "Rights": "rem",
+  "Rule": "aut",
   "ExtraInfo": [
     {
-      "Name": "Denesik Inc and Sons",
-      "Value": "placeat",
+      "Name": "Nicolas, Stark and Doyle",
+      "Value": "veritatis",
       "Type": "Image"
     },
     {
-      "Name": "Denesik Inc and Sons",
-      "Value": "placeat",
+      "Name": "Nicolas, Stark and Doyle",
+      "Value": "veritatis",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "ea",
-  "ExtraField1": "esse",
-  "ExtraField2": "ipsam",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "voluptatibus",
-  "ExtraField5": "vitae",
-  "InStock": 2667.034
+  "RawExtraInfo": "facere",
+  "ExtraField1": "alias",
+  "ExtraField2": "molestias",
+  "ExtraField3": "ab",
+  "ExtraField4": "sunt",
+  "ExtraField5": "modi",
+  "InStock": 24413.86
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 839,
-  "ERPProductKey": "sit",
-  "ERPPriceListKey": "autem",
-  "Name": "Orn-Abernathy",
-  "Description": "Digitized 6th generation encryption",
-  "Code": "id",
+  "ProductId": 658,
+  "ERPProductKey": "et",
+  "ERPPriceListKey": "iure",
+  "Name": "Graham, Kozey and Haag",
+  "Description": "Innovative methodical model",
+  "Code": "vel",
   "PriceUnit": "enim",
-  "QuantityUnit": "aliquam",
-  "IsSubscription": true,
-  "SubscriptionUnit": "qui",
-  "DefaultSubscriptionQuantity": 727.088,
-  "ItemNumber": "200104",
+  "QuantityUnit": "nobis",
+  "IsSubscription": false,
+  "SubscriptionUnit": "voluptas",
+  "DefaultSubscriptionQuantity": 8815.942,
+  "ItemNumber": "967308",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "est",
-  "ProductTypeKey": "dicta",
-  "VAT": 19919.703999999998,
-  "VATInfo": "necessitatibus",
-  "UnitCost": 10884.382,
-  "UnitMinimumPrice": 197.442,
-  "UnitListPrice": 20875.574,
+  "ProductFamilyKey": "eos",
+  "ProductTypeKey": "quaerat",
+  "VAT": 19073.523999999998,
+  "VATInfo": "ratione",
+  "UnitCost": 7330.4259999999995,
+  "UnitMinimumPrice": 26300.528,
+  "UnitListPrice": 11924.869999999999,
   "InAssortment": false,
-  "Supplier": "odio",
-  "SupplierCode": "dolor",
-  "Rights": "rerum",
-  "Rule": "laborum",
+  "Supplier": "voluptatem",
+  "SupplierCode": "hic",
+  "Rights": "vitae",
+  "Rule": "reiciendis",
   "ExtraInfo": [
     {
-      "Name": "Gleichner, Hudson and Bruen",
-      "Value": "dolorem",
+      "Name": "Bergstrom-Gleichner",
+      "Value": "maxime",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldLength": 155
         }
       }
     },
     {
-      "Name": "Gleichner, Hudson and Bruen",
-      "Value": "dolorem",
+      "Name": "Bergstrom-Gleichner",
+      "Value": "maxime",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldLength": 155
         }
       }
     }
   ],
-  "RawExtraInfo": "dolorum",
-  "ExtraField1": "fugiat",
-  "ExtraField2": "veritatis",
-  "ExtraField3": "nobis",
-  "ExtraField4": "non",
-  "ExtraField5": "voluptatum",
-  "InStock": 20452.484,
+  "RawExtraInfo": "tempore",
+  "ExtraField1": "quod",
+  "ExtraField2": "molestiae",
+  "ExtraField3": "et",
+  "ExtraField4": "maiores",
+  "ExtraField5": "at",
+  "InStock": 19405.728,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 762
+      "FieldType": "System.Int32",
+      "FieldLength": 831
     }
   }
 }

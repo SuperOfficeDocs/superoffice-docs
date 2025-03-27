@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 28 Dec 2022 14:13:48 G12T
+Last-Modified: Sun, 28 Oct 2012 02:38:25 G10T
 
 {
-  "BlobId": 438,
-  "BlobSize": 806,
-  "Description": "Optional upward-trending artificial intelligence",
-  "ExtraInfo": "est",
+  "BlobId": 966,
+  "BlobSize": 257,
+  "Description": "Phased background flexibility",
+  "ExtraInfo": "recusandae",
   "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "laboriosam",
-  "OriginalSize": 409,
-  "CreatedDate": "2023-04-07T14:13:48.4758003+02:00",
-  "UpdatedDate": "2022-12-28T14:13:48.4758003+01:00",
+  "MimeType": "magni",
+  "OriginalSize": 746,
+  "CreatedDate": "2004-12-28T02:38:25.9485792+01:00",
+  "UpdatedDate": "2012-10-28T02:38:25.9485792+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cum",
+  "ConceptualType": "dolorum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldType": "System.String",
+      "FieldLength": 149
     }
   }
 }

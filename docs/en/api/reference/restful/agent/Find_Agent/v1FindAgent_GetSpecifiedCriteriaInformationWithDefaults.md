@@ -86,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptatum",
-  "ProviderName": "Prohaska, Connelly and Auer",
-  "StorageKey": "dolor",
+  "StorageType": "voluptatem",
+  "ProviderName": "Halvorson-Murray",
+  "StorageKey": "numquam",
   "DesiredColumnNames": [
-    "Lindgren, Jakubowski and Gusikowski",
-    "Rau, Rosenbaum and Rodriguez"
+    "Ullrich, Kunze and Jewess",
+    "Stehr Inc and Sons"
   ],
   "StaticColumns": [
-    "consectetur",
-    "ipsum"
+    "autem",
+    "vitae"
   ]
 }
 ```
@@ -109,81 +109,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Larkin-Effertz",
-      "Operator": "fuga",
+      "Name": "Hills-Hegmann",
+      "Operator": "voluptate",
       "Values": [
-        "dicta",
-        "consectetur"
+        "et",
+        "nostrum"
       ],
       "DisplayValues": [
-        "et",
-        "autem"
+        "similique",
+        "excepturi"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 412,
+      "InterParenthesis": 225,
       "InterOperator": "And",
-      "UniqueHash": 898
+      "UniqueHash": 147
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Farrell, Green and Kuhic",
-      "DisplayTooltip": "natus",
-      "DisplayType": "et",
+      "DisplayName": "Reinger-Ebert",
+      "DisplayTooltip": "fugiat",
+      "DisplayType": "aut",
       "CanOrderBy": true,
-      "Name": "Dickinson, Metz and Wyman",
+      "Name": "Mertz, Kuhlman and Balistreri",
       "CanRestrictBy": false,
-      "RestrictionType": "ut",
-      "RestrictionListName": "Emard LLC",
+      "RestrictionType": "perferendis",
+      "RestrictionListName": "Zieme LLC",
       "IsVisible": false,
-      "ExtraInfo": "ea",
-      "Width": "modi",
-      "IconHint": "aut",
-      "HeadingIconHint": "et"
+      "ExtraInfo": "dolor",
+      "Width": "quos",
+      "IconHint": "facere",
+      "HeadingIconHint": "sunt"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Jewess Group",
-      "PrimaryKey": 760,
+      "EntityName": "Gerlach Inc and Sons",
+      "PrimaryKey": 706,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "porro",
-          "TooltipHint": "beatae",
-          "LinkHint": "iusto"
+          "DisplayValue": "similique",
+          "TooltipHint": "eos",
+          "LinkHint": "nulla"
         }
       },
-      "LinkHint": "nostrum",
-      "StyleHint": "molestiae",
+      "LinkHint": "magnam",
+      "StyleHint": "quaerat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 751
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Koss Inc and Sons",
-      "Description": "Monitored systemic open architecture",
-      "Rank": 447,
+      "Name": "Luettgen-Mante",
+      "Description": "Reduced transitional support",
+      "Rank": 940,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Koss Inc and Sons",
-      "Description": "Monitored systemic open architecture",
-      "Rank": 447,
+      "Name": "Luettgen-Mante",
+      "Description": "Reduced transitional support",
+      "Rank": 940,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldLength": 959
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 934,
-    "Name": "Greenholt Inc and Sons",
-    "Tooltip": "doloribus",
+    "HeadingId": 86,
+    "Name": "McGlynn-Crooks",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 305,
-    "UdListDefinitionId": 139
+    "Rank": 162,
+    "UdListDefinitionId": 513
   },
   {
-    "HeadingId": 934,
-    "Name": "Greenholt Inc and Sons",
-    "Tooltip": "doloribus",
+    "HeadingId": 86,
+    "Name": "McGlynn-Crooks",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 305,
-    "UdListDefinitionId": 139
+    "Rank": 162,
+    "UdListDefinitionId": 513
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 11,
-    "Name": "Langosh-Kerluke",
-    "Tooltip": "iure",
-    "Deleted": false,
-    "Rank": 817,
-    "UdListDefinitionId": 509,
+    "HeadingId": 182,
+    "Name": "Huel Inc and Sons",
+    "Tooltip": "magni",
+    "Deleted": true,
+    "Rank": 667,
+    "UdListDefinitionId": 217,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 980
+        "FieldType": "System.String",
+        "FieldLength": 746
       }
     }
   }

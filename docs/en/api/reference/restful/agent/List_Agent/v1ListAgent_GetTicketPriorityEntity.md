@@ -26,7 +26,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=34
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=632
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -104,60 +104,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 279,
-  "Name": "Schuppe, Gutmann and McGlynn",
+  "TicketPriorityId": 63,
+  "Name": "Schuppe-Kertzmann",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 837,
+  "SortOrder": 19,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 823,
-  "MonStart": "2017-05-02T14:13:40.422226+02:00",
-  "MonStop": "2019-04-07T14:13:40.422226+02:00",
-  "TueStart": "2002-11-12T14:13:40.422226+01:00",
-  "TueStop": "1998-07-18T14:13:40.422226+02:00",
-  "WedStart": "2021-10-25T14:13:40.422226+02:00",
-  "WedStop": "2002-10-09T14:13:40.422226+02:00",
-  "ThuStart": "2018-06-17T14:13:40.422226+02:00",
-  "ThuStop": "2018-09-03T14:13:40.422226+02:00",
-  "FriStart": "2017-04-24T14:13:40.422226+02:00",
-  "FriStop": "2016-07-29T14:13:40.422226+02:00",
-  "SatStart": "2013-10-08T14:13:40.422226+02:00",
-  "SatStop": "2018-01-24T14:13:40.422226+01:00",
-  "SunStart": "2009-08-05T14:13:40.422226+02:00",
-  "SunStop": "2009-06-01T14:13:40.422226+02:00",
+  "Deadline": 95,
+  "MonStart": "2008-09-19T02:38:21.4795326+02:00",
+  "MonStop": "2023-07-04T02:38:21.4795326+02:00",
+  "TueStart": "2004-12-29T02:38:21.4795326+01:00",
+  "TueStop": "2009-10-26T02:38:21.4795326+01:00",
+  "WedStart": "2017-05-06T02:38:21.4795326+02:00",
+  "WedStop": "2006-12-18T02:38:21.4795326+01:00",
+  "ThuStart": "2011-07-18T02:38:21.4795326+02:00",
+  "ThuStop": "2008-08-29T02:38:21.4795326+02:00",
+  "FriStart": "2001-06-12T02:38:21.4795326+02:00",
+  "FriStop": "2007-03-23T02:38:21.4795326+01:00",
+  "SatStart": "2014-12-28T02:38:21.4795326+01:00",
+  "SatStop": "2003-04-24T02:38:21.4795326+02:00",
+  "SunStart": "2021-05-23T02:38:21.4795326+02:00",
+  "SunStop": "2009-05-29T02:38:21.4795326+02:00",
   "NonDates": [
-    "ipsum",
-    "sit"
+    "ipsa",
+    "asperiores"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 867,
-      "AlertLevel": 109,
-      "AlertTimeout": 631,
-      "Action": 222,
-      "DelegateTo": 54,
-      "ScriptId": 709,
-      "EmailTo": "danika_hagenes@kulas.co.uk",
-      "SmsTo": "consequatur",
-      "ReplyTemplateIdCustomer": 770,
-      "ReplyTemplateIdUser": 291,
-      "ReplyTemplateIdCatmast": 171,
-      "ReplyTemplateIdEmail": 557,
-      "RtiCustomerSms": 84,
-      "ReplyTemplateIdUserSms": 793,
-      "ReplyTemplateIdCatmastSms": 447,
-      "ReplyTemplateIdSms": 750,
+      "TicketAlertId": 995,
+      "AlertLevel": 732,
+      "AlertTimeout": 507,
+      "Action": 377,
+      "DelegateTo": 561,
+      "ScriptId": 858,
+      "EmailTo": "connor.lebsack@russel.name",
+      "SmsTo": "molestias",
+      "ReplyTemplateIdCustomer": 673,
+      "ReplyTemplateIdUser": 836,
+      "ReplyTemplateIdCatmast": 232,
+      "ReplyTemplateIdEmail": 770,
+      "RtiCustomerSms": 86,
+      "ReplyTemplateIdUserSms": 942,
+      "ReplyTemplateIdCatmastSms": 417,
+      "ReplyTemplateIdSms": 23,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 708
+          "FieldLength": 759
         }
       }
     }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 205
+      "FieldLength": 809
     }
   }
 }

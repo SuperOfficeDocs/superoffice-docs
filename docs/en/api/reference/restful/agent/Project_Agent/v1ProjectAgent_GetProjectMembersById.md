@@ -93,13 +93,13 @@ OK
 POST /api/v1/Agents/Project/GetProjectMembersById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectMemberIds": [
-    253,
-    15
+    585,
+    162
   ]
 }
 ```
@@ -112,33 +112,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectmemberId": 104,
-    "ContactId": 381,
-    "ProjectId": 622,
-    "ContactName": "Glover LLC",
+    "ProjectmemberId": 188,
+    "ContactId": 171,
+    "ProjectId": 837,
+    "ContactName": "Stamm Inc and Sons",
     "ContactDepartment": "",
-    "ProjectName": "Legros LLC",
-    "EmailId": 297,
-    "EmailAddress": "blaise_hodkiewicz@romaguerastamm.com",
-    "CountryId": 846,
-    "Firstname": "Gene",
-    "MiddleName": "Lubowitz Inc and Sons",
-    "Lastname": "Lindgren",
-    "PersonId": 614,
-    "Mrmrs": "rem",
-    "ProjectMemberTypeName": "Welch, Purdy and Bashirian",
-    "Phone": "1-656-596-8968 x0363",
-    "PhoneId": 65,
-    "ProjectMemberTypeId": 924,
-    "EmailAddressName": "rudolph@kassulke.uk",
-    "Comment": "est",
-    "FullName": "Archibald Alan Langosh MD",
+    "ProjectName": "Zulauf LLC",
+    "EmailId": 957,
+    "EmailAddress": "emmet@schmitt.co.uk",
+    "CountryId": 74,
+    "Firstname": "Jalen",
+    "MiddleName": "Lynch-Rau",
+    "Lastname": "Mante",
+    "PersonId": 691,
+    "Mrmrs": "odit",
+    "ProjectMemberTypeName": "Swift, Hahn and Wolf",
+    "Phone": "(662)939-3632",
+    "PhoneId": 377,
+    "ProjectMemberTypeId": 129,
+    "EmailAddressName": "hope@mitchell.co.uk",
+    "Comment": "nihil",
+    "FullName": "Elisa Hilll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 60
+        "FieldLength": 614
       }
     }
   }

@@ -80,11 +80,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PreferenceId": 240,
-  "TZLocationId": 250,
-  "LocationCode": "voluptatem",
-  "Description": "Progressive mobile focus group",
+  "PreferenceId": 676,
+  "TZLocationId": 495,
+  "LocationCode": "aut",
+  "Description": "Progressive cohesive parallelism",
   "Country": "Sokovia",
-  "Bias": 842
+  "Bias": 331
 }
 ```

@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Harvey LLC",
-      "Comment": "repellat",
-      "StakeholderRoleId": 837,
-      "CountryId": 699,
-      "PersonId": 42,
-      "EmailDescription": "duane@prohaska.info",
-      "EmailId": 999,
-      "EmailAddress": "vern@kuvalis.co.uk",
-      "PhoneId": 632,
-      "ContactName": "Beer Inc and Sons",
-      "ContactId": 678,
-      "SaleId": 822,
-      "Mrmrs": "sequi",
-      "Firstname": "Declan",
-      "MiddleName": "Jerde-Gleason",
-      "Lastname": "Baumbach",
-      "SaleStakeholderId": 542,
-      "Rank": 206,
-      "Phone": "767.794.9816"
+      "StakeholderRoleName": "Skiles-Hoeger",
+      "Comment": "dolore",
+      "StakeholderRoleId": 385,
+      "CountryId": 251,
+      "PersonId": 724,
+      "EmailDescription": "myrtle@stroman.info",
+      "EmailId": 758,
+      "EmailAddress": "jon@mcglynnlynch.name",
+      "PhoneId": 886,
+      "ContactName": "Hartmann-Schuppe",
+      "ContactId": 799,
+      "SaleId": 824,
+      "Mrmrs": "eum",
+      "Firstname": "Stone",
+      "MiddleName": "Brekke, Turner and Halvorson",
+      "Lastname": "Kuhlman",
+      "SaleStakeholderId": 277,
+      "Rank": 49,
+      "Phone": "603.010.7160 x981"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Wintheiser Inc and Sons",
-    "Comment": "consequuntur",
-    "StakeholderRoleId": 602,
-    "CountryId": 791,
-    "PersonId": 894,
-    "EmailDescription": "princess@rice.name",
-    "EmailId": 38,
-    "EmailAddress": "coleman_cole@quigleyhaley.co.uk",
-    "PhoneId": 370,
-    "ContactName": "Dietrich-Koelpin",
-    "ContactId": 900,
-    "SaleId": 999,
-    "Mrmrs": "vero",
-    "Firstname": "Everardo",
-    "MiddleName": "Cassin Group",
-    "Lastname": "Tremblay",
-    "SaleStakeholderId": 393,
-    "Rank": 917,
-    "Phone": "342-640-7267",
+    "StakeholderRoleName": "Langosh-Leannon",
+    "Comment": "iure",
+    "StakeholderRoleId": 54,
+    "CountryId": 909,
+    "PersonId": 599,
+    "EmailDescription": "roma_anderson@harris.uk",
+    "EmailId": 101,
+    "EmailAddress": "brandon_schiller@blandavolkman.ca",
+    "PhoneId": 525,
+    "ContactName": "Treutel-O'Reilly",
+    "ContactId": 468,
+    "SaleId": 647,
+    "Mrmrs": "occaecati",
+    "Firstname": "Bonita",
+    "MiddleName": "VonRueden Inc and Sons",
+    "Lastname": "Howe",
+    "SaleStakeholderId": 722,
+    "Rank": 341,
+    "Phone": "614-642-5875 x2037",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 629
+        "FieldType": "System.Int32",
+        "FieldLength": 500
       }
     }
   }

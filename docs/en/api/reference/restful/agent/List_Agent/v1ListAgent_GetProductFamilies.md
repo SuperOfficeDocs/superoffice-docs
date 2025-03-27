@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Value": "ut",
-    "Tooltip": "rerum",
+    "Id": 436,
+    "Value": "et",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 230
+        "FieldType": "System.Int32",
+        "FieldLength": 544
       }
     }
   },
   {
-    "Id": 571,
-    "Value": "ut",
-    "Tooltip": "rerum",
+    "Id": 436,
+    "Value": "et",
+    "Tooltip": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 230
+        "FieldType": "System.Int32",
+        "FieldLength": 544
       }
     }
   }

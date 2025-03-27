@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 73,
-  "Name": "Anderson-Friesen",
-  "Tooltip": "eum",
-  "Deleted": false,
-  "Rank": 134,
+  "Id": 941,
+  "Name": "Kemmer Inc and Sons",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 900,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "repellat",
-  "InUseByUserDefinedFields": false
+  "ListType": "non",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 587,
-  "Name": "Nicolas-McClure",
-  "Tooltip": "fuga",
+  "Id": 477,
+  "Name": "Fisher, Pfeffer and Will",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 270,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 534,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "dolorum",
+  "ListType": "aliquam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldType": "System.String",
+      "FieldLength": 767
     }
   }
 }

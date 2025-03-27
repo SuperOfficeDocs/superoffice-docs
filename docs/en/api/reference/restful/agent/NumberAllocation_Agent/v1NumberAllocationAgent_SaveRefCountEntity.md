@@ -83,39 +83,39 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 157,
-  "Field": "est",
-  "RecordId": 167,
+  "RefCountsId": 616,
+  "Field": "in",
+  "RecordId": 981,
   "SuggestedRecords": [
     {
-      "Id": 169,
-      "Name": "Herzog-Sanford",
-      "ToolTip": "Eveniet voluptatem ea quia.",
-      "Deleted": false,
-      "Rank": 582,
+      "Id": 413,
+      "Name": "Schoen Inc and Sons",
+      "ToolTip": "Nam nihil praesentium qui vero accusamus natus.",
+      "Deleted": true,
+      "Rank": 833,
       "Type": "quis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "error",
-      "ColorBlock": 338,
-      "ExtraInfo": "id",
-      "StyleHint": "eos",
-      "FullName": "Prof. Collin Brooklyn Bins IV"
+      "IconHint": "dolores",
+      "ColorBlock": 125,
+      "ExtraInfo": "et",
+      "StyleHint": "dolore",
+      "FullName": "Easter Kenny Schmidt I"
     }
   ],
-  "CurrentValue": 932,
-  "TravelPrefix": 961,
-  "SatPrefix": 866,
-  "Allocate": false,
-  "Unique": true,
+  "CurrentValue": 172,
+  "TravelPrefix": 867,
+  "SatPrefix": 284,
+  "Allocate": true,
+  "Unique": false,
   "ReadOnly": false,
-  "AllowBlank": false
+  "AllowBlank": true
 }
 ```
 
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 184,
-  "Field": "ut",
-  "RecordId": 309,
+  "RefCountsId": 834,
+  "Field": "voluptas",
+  "RecordId": 323,
   "SuggestedRecords": [
     {
-      "Id": 106,
-      "Name": "Runte Group",
-      "ToolTip": "Esse corrupti illum deserunt tempore vero.",
-      "Deleted": true,
-      "Rank": 840,
-      "Type": "ut",
+      "Id": 764,
+      "Name": "Rath-Wuckert",
+      "ToolTip": "Quaerat nulla quod.",
+      "Deleted": false,
+      "Rank": 384,
+      "Type": "laboriosam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 476,
-      "ExtraInfo": "amet",
-      "StyleHint": "officiis",
-      "FullName": "Riley Breitenberg",
+      "IconHint": "labore",
+      "ColorBlock": 575,
+      "ExtraInfo": "odio",
+      "StyleHint": "quia",
+      "FullName": "Heloise Powlowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 217
+          "FieldType": "System.String",
+          "FieldLength": 989
         }
       }
     }
   ],
-  "CurrentValue": 207,
-  "TravelPrefix": 69,
-  "SatPrefix": 639,
+  "CurrentValue": 361,
+  "TravelPrefix": 384,
+  "SatPrefix": 705,
   "Allocate": false,
-  "Unique": true,
+  "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldType": "System.String",
+      "FieldLength": 880
     }
   }
 }

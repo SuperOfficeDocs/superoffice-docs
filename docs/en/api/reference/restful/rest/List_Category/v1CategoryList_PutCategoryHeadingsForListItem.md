@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Bergnaum, Johnson and Cummings",
-    "ToolTip": "Illum optio.",
-    "Deleted": true,
-    "Rank": 979,
-    "Type": "sed",
-    "ColorBlock": 366,
-    "IconHint": "temporibus",
+    "Id": 40,
+    "Name": "Bergstrom LLC",
+    "ToolTip": "In aut quia inventore voluptas id velit possimus.",
+    "Deleted": false,
+    "Rank": 239,
+    "Type": "molestias",
+    "ColorBlock": 956,
+    "IconHint": "quaerat",
     "Selected": true,
-    "LastChanged": "2022-02-16T14:13:49.6804997+01:00",
+    "LastChanged": "2014-01-05T02:38:26.6830285+01:00",
     "ChildItems": [
       {
-        "Id": 383,
-        "Name": "Hagenes Group",
-        "ToolTip": "Est nam est magnam dolores quia.",
+        "Id": 204,
+        "Name": "Towne-Gulgowski",
+        "ToolTip": "Sequi ut qui aliquid soluta.",
         "Deleted": false,
-        "Rank": 515,
-        "Type": "provident",
-        "ColorBlock": 664,
-        "IconHint": "consectetur",
+        "Rank": 404,
+        "Type": "ut",
+        "ColorBlock": 508,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2003-01-29T14:13:49.6804997+01:00",
+        "LastChanged": "2014-07-23T02:38:26.6830285+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "libero",
-        "StyleHint": "dolor",
-        "Hidden": false,
-        "FullName": "Beryl Kerluke"
+        "ExtraInfo": "voluptas",
+        "StyleHint": "atque",
+        "Hidden": true,
+        "FullName": "Lyda Schmidt"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "nihil",
+    "ExtraInfo": "similique",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Carlie Hermiston"
+    "FullName": "Dr. Brown Dach DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Stoltenberg Inc and Sons",
-    "ToolTip": "Maxime quam molestias et perspiciatis cumque tenetur laudantium.",
+    "Id": 396,
+    "Name": "Davis LLC",
+    "ToolTip": "Officia sed in rem.",
     "Deleted": false,
-    "Rank": 361,
-    "Type": "harum",
-    "ColorBlock": 914,
-    "IconHint": "quo",
-    "Selected": false,
-    "LastChanged": "2024-09-09T14:13:49.6804997+02:00",
+    "Rank": 100,
+    "Type": "molestiae",
+    "ColorBlock": 221,
+    "IconHint": "omnis",
+    "Selected": true,
+    "LastChanged": "2001-08-24T02:38:26.6830285+02:00",
     "ChildItems": [
       {
-        "Id": 227,
-        "Name": "Schamberger, Schimmel and Berge",
-        "ToolTip": "Omnis et tempora sed dolores.",
+        "Id": 493,
+        "Name": "Bernhard LLC",
+        "ToolTip": "Ut nisi aut sed ut commodi.",
         "Deleted": false,
-        "Rank": 256,
-        "Type": "dignissimos",
-        "ColorBlock": 719,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2011-07-18T14:13:49.6804997+02:00",
+        "Rank": 595,
+        "Type": "enim",
+        "ColorBlock": 657,
+        "IconHint": "autem",
+        "Selected": false,
+        "LastChanged": "2008-08-24T02:38:26.6830285+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "labore",
-        "Hidden": true,
-        "FullName": "Mrs. Sophie Rath Sr.",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "assumenda",
+        "Hidden": false,
+        "FullName": "Dr. Jamil Hannah Brekke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 406
+            "FieldLength": 328
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "dolor",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "exercitationem",
     "Hidden": false,
-    "FullName": "Ms. Mustafa Johnson",
+    "FullName": "Adolph Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldType": "System.String",
+        "FieldLength": 571
       }
     }
   }

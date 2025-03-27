@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 293,
-    "Name": "Marvin, Cummerata and Fadel",
+    "TicketStatusId": 927,
+    "Name": "Auer Group",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
+    "NoEmailReopen": true,
     "IsDefault": false,
-    "UsedInQueue": true,
+    "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 728
+        "FieldType": "System.Int32",
+        "FieldLength": 831
       }
     }
   }

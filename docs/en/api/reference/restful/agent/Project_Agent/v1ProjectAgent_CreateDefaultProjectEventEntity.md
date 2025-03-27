@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "et",
-  "SignOffText": "facere",
-  "SignOnConfirmationText": "aut",
-  "SignOnText": "rerum",
-  "EventDate": "2007-02-07T14:13:41.0002198+01:00",
+  "SignOffConfirmationText": "dicta",
+  "SignOffText": "labore",
+  "SignOnConfirmationText": "enim",
+  "SignOnText": "et",
+  "EventDate": "2019-09-30T02:38:21.7138796+02:00",
   "Enabled": false,
-  "CreatedDate": "2001-06-08T14:13:41.0002198+02:00",
-  "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOffTaskId": 111,
-  "SignOffTriggersAssign": true,
-  "SignOn": true,
+  "CreatedDate": "2001-03-05T02:38:21.7138796+01:00",
+  "SignOff": true,
+  "SignOffTaskEnable": true,
+  "SignOffTaskId": 304,
+  "SignOffTriggersAssign": false,
+  "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 736,
+  "SignOnTaskId": 964,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2006-10-03T14:13:41.0002198+02:00",
+  "UpdatedDate": "2014-04-09T02:38:21.7138796+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 989,
-  "Id": 563,
-  "PublishFrom": "2005-05-03T14:13:41.0002198+02:00",
+  "ProjectId": 847,
+  "Id": 805,
+  "PublishFrom": "2004-02-20T02:38:21.7138796+01:00",
   "PublishType": "External",
-  "PublishTo": "2009-05-23T14:13:41.0002198+02:00",
+  "PublishTo": "2003-05-28T02:38:21.7138796+02:00",
   "VisibleForCategories": [
     {
-      "Id": 76,
-      "Name": "Harvey, Morissette and Ferry",
-      "ToolTip": "Tenetur assumenda sequi qui expedita dolores.",
-      "Deleted": true,
-      "Rank": 332,
-      "Type": "harum",
+      "Id": 320,
+      "Name": "Sporer-Dach",
+      "ToolTip": "Corrupti optio ipsam reiciendis omnis enim.",
+      "Deleted": false,
+      "Rank": 859,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "omnis",
-      "ColorBlock": 61,
-      "ExtraInfo": "quidem",
-      "StyleHint": "alias",
-      "FullName": "Mr. Lyla Auer",
+      "IconHint": "officiis",
+      "ColorBlock": 496,
+      "ExtraInfo": "qui",
+      "StyleHint": "ab",
+      "FullName": "Dr. Jackie Madge Muller III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 437
+          "FieldLength": 166
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 239,
-      "Name": "Prosacco, Cole and Lind",
-      "ToolTip": "Iusto exercitationem nemo nisi eos ut qui beatae.",
-      "Deleted": false,
-      "Rank": 135,
-      "Type": "aliquam",
+      "Id": 100,
+      "Name": "Abbott, Fisher and Bartoletti",
+      "ToolTip": "Architecto dolorem nulla voluptates dolore non consectetur.",
+      "Deleted": true,
+      "Rank": 159,
+      "Type": "dolorem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "in",
-      "ColorBlock": 908,
-      "ExtraInfo": "sit",
-      "StyleHint": "quia",
-      "FullName": "Miss Kassandra Chase Schaefer",
+      "IconHint": "aut",
+      "ColorBlock": 955,
+      "ExtraInfo": "reiciendis",
+      "StyleHint": "ex",
+      "FullName": "Drew McCullough",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 589
+          "FieldType": "System.String",
+          "FieldLength": 372
         }
       }
     }
   ],
   "IsPublished": true,
-  "IsVisibleForMembers": false,
-  "IsVisibleForCategories": true,
+  "IsVisibleForMembers": true,
+  "IsVisibleForCategories": false,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 842,
+  "ProjectEventId": 77,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 195
     }
   }
 }

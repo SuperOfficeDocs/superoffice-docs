@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 567,
+  "HierarchyId": 509,
   "Domain": "Dashboards",
-  "Name": "Champlin, Dare and Klein",
-  "Fullname": "quo",
-  "ParentId": 239,
+  "Name": "Sawayn Inc and Sons",
+  "Fullname": "recusandae",
+  "ParentId": 675,
   "Children": [
     {
-      "HierarchyId": 569,
+      "HierarchyId": 935,
       "Domain": "Dashboards",
-      "Name": "Flatley-Schowalter",
-      "Fullname": "necessitatibus",
-      "ParentId": 680,
+      "Name": "Leuschke Inc and Sons",
+      "Fullname": "dolores",
+      "ParentId": 272,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2010-06-22T14:13:48.8993207+02:00",
-      "RegisteredAssociateId": 391,
-      "Updated": "2014-08-17T14:13:48.8993207+02:00",
-      "UpdatedAssociateId": 99
+      "Registered": "2023-03-05T02:38:26.1204323+01:00",
+      "RegisteredAssociateId": 439,
+      "Updated": "2024-09-19T02:38:26.1204323+02:00",
+      "UpdatedAssociateId": 479
     }
   ],
-  "Registered": "2019-04-23T14:13:48.8993207+02:00",
-  "RegisteredAssociateId": 525,
-  "Updated": "2003-05-10T14:13:48.8993207+02:00",
-  "UpdatedAssociateId": 853
+  "Registered": "2014-05-12T02:38:26.1204323+02:00",
+  "RegisteredAssociateId": 788,
+  "Updated": "2010-10-05T02:38:26.1204323+02:00",
+  "UpdatedAssociateId": 399
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 98,
+  "HierarchyId": 723,
   "Domain": "Dashboards",
-  "Name": "Walsh Group",
-  "Fullname": "rem",
-  "ParentId": 898,
+  "Name": "Schneider-Lind",
+  "Fullname": "beatae",
+  "ParentId": 220,
   "Children": [
     {
-      "HierarchyId": 209,
+      "HierarchyId": 31,
       "Domain": "Dashboards",
-      "Name": "Mayer LLC",
-      "Fullname": "totam",
-      "ParentId": 996,
+      "Name": "Hammes, Hackett and Baumbach",
+      "Fullname": "fugit",
+      "ParentId": 248,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2013-04-11T14:13:48.8993207+02:00",
-      "RegisteredAssociateId": 180,
-      "Updated": "2017-03-31T14:13:48.8993207+02:00",
-      "UpdatedAssociateId": 516,
+      "Registered": "2009-12-09T02:38:26.1204323+01:00",
+      "RegisteredAssociateId": 18,
+      "Updated": "2013-10-11T02:38:26.1204323+02:00",
+      "UpdatedAssociateId": 996,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 822
+          "FieldType": "System.String",
+          "FieldLength": 575
         }
       }
     }
   ],
-  "Registered": "1999-03-27T14:13:48.8993207+01:00",
-  "RegisteredAssociateId": 983,
-  "Updated": "2003-05-14T14:13:48.8993207+02:00",
-  "UpdatedAssociateId": 135,
+  "Registered": "2021-04-21T02:38:26.1204323+02:00",
+  "RegisteredAssociateId": 242,
+  "Updated": "2016-02-26T02:38:26.1204323+01:00",
+  "UpdatedAssociateId": 363,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldLength": 849
     }
   }
 }

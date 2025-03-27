@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfoNonInline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 625
+  "TicketMessageEntityId": 327
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 432,
-    "Name": "Ondricka Group",
-    "ContentType": "sit",
-    "AttSize": 497,
+    "AttachmentId": 916,
+    "Name": "Hauck, Cormier and Gutkowski",
+    "ContentType": "et",
+    "AttSize": 294,
     "InlineImage": false,
-    "ContentId": "officiis",
-    "AuthKey": "eligendi",
-    "IsSafeFileExtension": false,
+    "ContentId": "est",
+    "AuthKey": "quos",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 610
+        "FieldLength": 764
       }
     }
   }

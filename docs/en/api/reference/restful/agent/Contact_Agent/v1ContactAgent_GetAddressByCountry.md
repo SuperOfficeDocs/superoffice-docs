@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 164,
-  "CountryId": 13
+  "ContactId": 37,
+  "CountryId": 324
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 28472.39,
-  "Wgs84Longitude": 24131.8,
+  "Wgs84Latitude": 17964.088,
+  "Wgs84Longitude": 16365.748,
   "LocalizedAddress": [
     [
       {
-        "Name": "O'Kon-Gleichner",
-        "Value": "sequi",
-        "Tooltip": "illo",
-        "Label": "error",
-        "ValueLength": 921,
-        "AddressType": "facere",
+        "Name": "Purdy-Kuhn",
+        "Value": "pariatur",
+        "Tooltip": "qui",
+        "Label": "sunt",
+        "ValueLength": 649,
+        "AddressType": "cumque",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 137
+            "FieldLength": 75
           }
         }
       }
     ],
     [
       {
-        "Name": "Weber, Kovacek and Treutel",
-        "Value": "expedita",
-        "Tooltip": "laborum",
-        "Label": "alias",
-        "ValueLength": 839,
-        "AddressType": "vero",
+        "Name": "Heidenreich-Welch",
+        "Value": "repudiandae",
+        "Tooltip": "animi",
+        "Label": "consequatur",
+        "ValueLength": 382,
+        "AddressType": "sequi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 987
+            "FieldLength": 965
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "hic",
+  "Formatted": "iusto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 26
+      "FieldLength": 401
     }
   }
 }

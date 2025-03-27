@@ -83,32 +83,32 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 896,
+  "SelectionId": 755,
   "Criteria": [
     {
-      "Name": "Jakubowski, Reichel and Hilpert",
-      "Operator": "non",
+      "Name": "Sporer Inc and Sons",
+      "Operator": "numquam",
       "Values": [
-        "temporibus",
-        "aspernatur"
+        "placeat",
+        "soluta"
       ],
       "DisplayValues": [
-        "magni",
-        "et"
+        "odit",
+        "corrupti"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 876,
+      "InterParenthesis": 272,
       "InterOperator": "And",
-      "UniqueHash": 818
+      "UniqueHash": 320
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ebert, Cormier and Treutel",
-    "Operator": "delectus",
+    "Name": "Dibbert-Hackett",
+    "Operator": "commodi",
     "Values": [
-      "earum",
-      "ipsum"
+      "id",
+      "quo"
     ],
     "DisplayValues": [
-      "eos",
-      "explicabo"
+      "sunt",
+      "omnis"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Rempel LLC",
-        "Operator": "sed",
+        "Name": "Schaefer, Reichel and Ledner",
+        "Operator": "architecto",
         "Values": [
-          "harum",
-          "aut"
+          "at",
+          "quos"
         ],
         "DisplayValues": [
-          "reiciendis",
-          "sit"
+          "sit",
+          "voluptas"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 6,
+        "InterParenthesis": 322,
         "InterOperator": "And",
-        "UniqueHash": 511
+        "UniqueHash": 302
       }
     ],
-    "InterParenthesis": 530,
+    "InterParenthesis": 447,
     "InterOperator": "And",
-    "UniqueHash": 526
+    "UniqueHash": 139
   }
 ]
 ```

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 425
+  "TicketEntityId": 327
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 979,
-    "Name": "Bailey, Pouros and Heidenreich",
-    "ContentType": "libero",
-    "AttSize": 923,
-    "InlineImage": false,
-    "ContentId": "nam",
-    "AuthKey": "optio",
+    "AttachmentId": 400,
+    "Name": "Green-Leffler",
+    "ContentType": "quis",
+    "AttSize": 70,
+    "InlineImage": true,
+    "ContentId": "iure",
+    "AuthKey": "eos",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 235
+        "FieldLength": 288
       }
     }
   }

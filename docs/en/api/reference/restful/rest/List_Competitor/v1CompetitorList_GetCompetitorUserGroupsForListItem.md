@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 237,
-    "Name": "Stroman, Auer and Hoppe",
-    "ToolTip": "Natus molestias animi ea id.",
+    "Id": 38,
+    "Name": "Gislason Inc and Sons",
+    "ToolTip": "Et voluptates ea occaecati quod velit unde fuga.",
     "Deleted": false,
-    "Rank": 218,
-    "Type": "minus",
-    "ColorBlock": 437,
-    "IconHint": "necessitatibus",
-    "Selected": true,
-    "LastChanged": "2007-12-27T14:13:49.6804997+01:00",
+    "Rank": 146,
+    "Type": "laboriosam",
+    "ColorBlock": 143,
+    "IconHint": "dolores",
+    "Selected": false,
+    "LastChanged": "2019-01-20T02:38:26.6830285+01:00",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "Swift, Grady and Kohler",
-        "ToolTip": "Occaecati aut qui.",
+        "Id": 622,
+        "Name": "Veum LLC",
+        "ToolTip": "Rem commodi placeat vero.",
         "Deleted": false,
-        "Rank": 73,
-        "Type": "consequatur",
-        "ColorBlock": 704,
-        "IconHint": "possimus",
+        "Rank": 196,
+        "Type": "eveniet",
+        "ColorBlock": 5,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2020-08-04T14:13:49.6804997+02:00",
+        "LastChanged": "2022-10-31T02:38:26.6830285+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
+        "ExtraInfo": "a",
         "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Junius Hershel Parker II",
+        "Hidden": false,
+        "FullName": "Willa Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 798
+            "FieldType": "System.String",
+            "FieldLength": 663
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "velit",
-    "Hidden": true,
-    "FullName": "Miss Bulah Stamm",
+    "ExtraInfo": "qui",
+    "StyleHint": "fugit",
+    "Hidden": false,
+    "FullName": "Miss Lauretta Francisca Steuber",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 446
+        "FieldType": "System.String",
+        "FieldLength": 364
       }
     }
   }

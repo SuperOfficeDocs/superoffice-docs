@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 558,
-  "Name": "Lehner LLC",
-  "Tooltip": "eius",
+  "Id": 1002,
+  "Name": "Turcotte, Reilly and Hudson",
+  "Tooltip": "dolores",
   "Deleted": true,
-  "UdListDefinitionId": 983,
-  "Rank": 715
+  "UdListDefinitionId": 113,
+  "Rank": 635
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 80,
-  "Name": "Padberg, Collins and McDermott",
-  "Tooltip": "distinctio",
-  "Deleted": false,
-  "UdListDefinitionId": 572,
-  "Rank": 854,
+  "Id": 103,
+  "Name": "Hartmann-Barrows",
+  "Tooltip": "dolorem",
+  "Deleted": true,
+  "UdListDefinitionId": 717,
+  "Rank": 675,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldType": "System.String",
+      "FieldLength": 213
     }
   }
 }

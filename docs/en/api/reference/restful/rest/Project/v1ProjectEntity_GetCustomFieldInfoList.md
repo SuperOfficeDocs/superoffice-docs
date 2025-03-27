@@ -68,7 +68,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,10 +80,10 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "O'Hara-Johnston",
-    "DisplayName": "Wisoky-Krajcik",
-    "Description": "Synchronised reciprocal success",
-    "ShortLabel": "doloremque",
+    "FieldName": "Nader Group",
+    "DisplayName": "Langosh-Monahan",
+    "Description": "Extended methodical open architecture",
+    "ShortLabel": "mollitia",
     "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
     "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 521,
-    "TemplateVariableName": "Torphy, Terry and Kuhlman"
+    "Rank": 337,
+    "TemplateVariableName": "Baumbach-Moore"
   }
 ]
 ```

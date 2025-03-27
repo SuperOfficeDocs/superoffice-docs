@@ -104,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 450,
-  "ColumnId": 543,
-  "FieldDefault": "aut",
-  "FieldHeight": 330,
+  "UDefFieldId": 751,
+  "ColumnId": 650,
+  "FieldDefault": "quia",
+  "FieldHeight": 344,
   "FieldLabel": "ut",
-  "FieldLeft": 143,
-  "FieldTop": 799,
+  "FieldLeft": 618,
+  "FieldTop": 940,
   "FieldType": "Checkbox",
-  "FieldWidth": 812,
-  "FormatMask": "et",
+  "FieldWidth": 627,
+  "FormatMask": "fugiat",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 68,
-  "LabelLeft": 511,
-  "LabelTop": 634,
-  "LabelWidth": 611,
-  "LastVersionId": 507,
-  "ListTableId": 240,
+  "LabelHeight": 879,
+  "LabelLeft": 22,
+  "LabelTop": 864,
+  "LabelWidth": 693,
+  "LastVersionId": 220,
+  "ListTableId": 928,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 433,
-  "ProgId": "magnam",
+  "Page1LineNo": 232,
+  "ProgId": "non",
   "IsReadOnly": true,
-  "ShortLabel": "modi",
-  "TabOrder": 719,
-  "TextLength": 668,
-  "Tooltip": "et",
-  "UdefIdentity": 773,
-  "UDListDefinitionId": 774,
+  "ShortLabel": "nobis",
+  "TabOrder": 782,
+  "TextLength": 928,
+  "Tooltip": "modi",
+  "UdefIdentity": 1000,
+  "UDListDefinitionId": 125,
   "Justification": "Center",
-  "Version": 533,
-  "TemplateVariableName": "Hintz-Frami",
+  "Version": 808,
+  "TemplateVariableName": "Morissette-Prosacco",
   "HasBeenPublished": true,
-  "MdoListName": "Larson, Oberbrunner and Wyman",
+  "MdoListName": "Stiedemann-Goldner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 238
+      "FieldLength": 130
     }
   }
 }

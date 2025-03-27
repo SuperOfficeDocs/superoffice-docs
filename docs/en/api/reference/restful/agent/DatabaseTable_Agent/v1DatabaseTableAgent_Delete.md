@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Delete
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Green-Ryan",
+  "TableName": "Hilll, Kessler and Howell",
   "IDs": [
-    203,
-    771
+    485,
+    455
   ]
 }
 ```
@@ -98,41 +98,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "explicabo",
-  "Inserts": 523,
-  "Updates": 606,
-  "Deletes": 835,
+  "Success": true,
+  "Message": "et",
+  "Inserts": 946,
+  "Updates": 671,
+  "Deletes": 960,
   "RowStatus": [
     {
-      "PrimaryKey": 31,
+      "PrimaryKey": 771,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "hic",
-        "eos"
+        "consequuntur",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 909
+          "FieldLength": 286
         }
       }
     },
     {
-      "PrimaryKey": 31,
+      "PrimaryKey": 771,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "hic",
-        "eos"
+        "consequuntur",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 909
+          "FieldLength": 286
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldLength": 802
     }
   }
 }

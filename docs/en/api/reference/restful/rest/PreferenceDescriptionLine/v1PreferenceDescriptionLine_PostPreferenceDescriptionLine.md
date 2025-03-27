@@ -86,16 +86,16 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 290,
-  "PrefDescId": 421,
-  "PrefValue": "placeat",
-  "PrefShowValue": "rerum",
-  "Description": "Reverse-engineered systemic hierarchy",
-  "IsBuiltin": false
+  "PrefDescLineId": 919,
+  "PrefDescId": 891,
+  "PrefValue": "odit",
+  "PrefShowValue": "et",
+  "Description": "Virtual assymetric portal",
+  "IsBuiltin": true
 }
 ```
 
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 35,
-  "PrefDescId": 174,
-  "PrefValue": "in",
-  "PrefShowValue": "aut",
-  "Description": "Networked systematic hierarchy",
+  "PrefDescLineId": 278,
+  "PrefDescId": 59,
+  "PrefValue": "nihil",
+  "PrefShowValue": "est",
+  "Description": "Digitized stable emulation",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 825
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

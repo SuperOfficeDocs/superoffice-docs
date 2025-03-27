@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 325,
-    "Name": "Schuppe, Bartoletti and Quigley",
-    "Tooltip": "totam",
+    "HeadingId": 72,
+    "Name": "Jakubowski-Lindgren",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 852,
-    "UdListDefinitionId": 216
+    "Rank": 669,
+    "UdListDefinitionId": 603
   },
   {
-    "HeadingId": 325,
-    "Name": "Schuppe, Bartoletti and Quigley",
-    "Tooltip": "totam",
+    "HeadingId": 72,
+    "Name": "Jakubowski-Lindgren",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 852,
-    "UdListDefinitionId": 216
+    "Rank": 669,
+    "UdListDefinitionId": 603
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 460,
-    "Name": "Pfannerstill Inc and Sons",
-    "Tooltip": "sunt",
+    "HeadingId": 152,
+    "Name": "Cummerata Group",
+    "Tooltip": "numquam",
     "Deleted": true,
-    "Rank": 804,
-    "UdListDefinitionId": 805,
+    "Rank": 740,
+    "UdListDefinitionId": 797,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 44
+        "FieldType": "System.Int32",
+        "FieldLength": 682
       }
     }
   }

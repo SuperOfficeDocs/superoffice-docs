@@ -68,7 +68,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Gottlieb-Rempel",
-    "DisplayName": "Gaylord, Marks and Metz",
-    "Description": "Reactive context-sensitive support",
-    "ShortLabel": "delectus",
-    "HideLabel": false,
+    "FieldName": "Tremblay Group",
+    "DisplayName": "Robel, Howell and Schneider",
+    "Description": "Re-contextualized non-volatile secured line",
+    "ShortLabel": "libero",
+    "HideLabel": true,
     "HideField": true,
     "IsIndexed": false,
     "IsMandatory": true,
-    "IsReadOnly": false,
-    "IsExternal": true,
+    "IsReadOnly": true,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 673,
-    "TemplateVariableName": "Mante, Mills and Connelly"
+    "Rank": 10,
+    "TemplateVariableName": "Becker Group"
   }
 ]
 ```

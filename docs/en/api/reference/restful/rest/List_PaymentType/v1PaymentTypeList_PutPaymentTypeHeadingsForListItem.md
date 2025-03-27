@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 63,
-    "Name": "Morissette-Armstrong",
-    "ToolTip": "Itaque nihil rerum repellat qui natus.",
-    "Deleted": false,
-    "Rank": 399,
-    "Type": "odit",
-    "ColorBlock": 179,
-    "IconHint": "repellat",
-    "Selected": false,
-    "LastChanged": "2007-01-15T14:13:50.0406714+01:00",
+    "Id": 777,
+    "Name": "Simonis Group",
+    "ToolTip": "Minima voluptatem laboriosam soluta facilis accusantium cupiditate.",
+    "Deleted": true,
+    "Rank": 885,
+    "Type": "dolor",
+    "ColorBlock": 999,
+    "IconHint": "architecto",
+    "Selected": true,
+    "LastChanged": "2012-01-29T02:38:26.8080217+01:00",
     "ChildItems": [
       {
-        "Id": 337,
-        "Name": "Walker LLC",
-        "ToolTip": "Reprehenderit velit in voluptatum ea optio ipsum ut.",
+        "Id": 494,
+        "Name": "Kertzmann-Beier",
+        "ToolTip": "Consequuntur odio itaque nemo veritatis.",
         "Deleted": false,
-        "Rank": 283,
-        "Type": "blanditiis",
-        "ColorBlock": 839,
-        "IconHint": "maxime",
-        "Selected": false,
-        "LastChanged": "2016-09-15T14:13:50.0406714+02:00",
+        "Rank": 826,
+        "Type": "qui",
+        "ColorBlock": 497,
+        "IconHint": "eaque",
+        "Selected": true,
+        "LastChanged": "2001-12-09T02:38:26.8080217+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "inventore",
-        "Hidden": false,
-        "FullName": "Elza Leuschke"
+        "ExtraInfo": "quia",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Dr. Keon Parker"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "enim",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Ms. Bianka Bergstrom"
+    "FullName": "Miss Urban Kuphal"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 613,
-    "Name": "Beer Group",
-    "ToolTip": "Sed accusamus quo.",
-    "Deleted": true,
-    "Rank": 513,
-    "Type": "modi",
-    "ColorBlock": 568,
-    "IconHint": "harum",
+    "Id": 834,
+    "Name": "Schmitt-Spencer",
+    "ToolTip": "Voluptates architecto quam id repellat.",
+    "Deleted": false,
+    "Rank": 862,
+    "Type": "id",
+    "ColorBlock": 824,
+    "IconHint": "distinctio",
     "Selected": false,
-    "LastChanged": "2020-04-24T14:13:50.0406714+02:00",
+    "LastChanged": "2010-01-09T02:38:26.8080217+01:00",
     "ChildItems": [
       {
-        "Id": 172,
-        "Name": "Stamm Group",
-        "ToolTip": "Deserunt ipsa similique.",
+        "Id": 531,
+        "Name": "Jones, Senger and Quitzon",
+        "ToolTip": "Officia sunt.",
         "Deleted": false,
-        "Rank": 277,
-        "Type": "est",
-        "ColorBlock": 23,
-        "IconHint": "porro",
+        "Rank": 433,
+        "Type": "delectus",
+        "ColorBlock": 24,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2002-08-31T14:13:50.0406714+02:00",
+        "LastChanged": "2003-10-14T02:38:26.8080217+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "maxime",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "expedita",
+        "StyleHint": "ullam",
         "Hidden": false,
-        "FullName": "Adell Towne",
+        "FullName": "Terrell Stark",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 402
+            "FieldType": "System.String",
+            "FieldLength": 725
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "earum",
-    "Hidden": false,
-    "FullName": "Levi Wilkinson",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "id",
+    "Hidden": true,
+    "FullName": "Trinity Lind",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldLength": 718
       }
     }
   }

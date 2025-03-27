@@ -61,7 +61,7 @@ OK
 GET /api/v1/List/Currency/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,19 +71,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 226,
-  "Name": "Ankunding-Larson",
-  "Tooltip": "sit",
-  "Rank": 951,
-  "Rate": 21317.468,
-  "Units": 24749.198,
+  "CurrencyId": 537,
+  "Name": "Gibson, Rohan and Kiehn",
+  "Tooltip": "hic",
+  "Rank": 715,
+  "Rate": 15836.101999999999,
+  "Units": 20906.914,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 428
     }
   }
 }

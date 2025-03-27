@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Kohler LLC",
-    "ToolTip": "Quae sint magnam veniam exercitationem autem.",
-    "Deleted": false,
-    "Rank": 793,
+    "Id": 362,
+    "Name": "Larson-Baumbach",
+    "ToolTip": "Minima ut et earum id cum distinctio omnis.",
+    "Deleted": true,
+    "Rank": 369,
     "Type": "aliquid",
-    "ColorBlock": 759,
-    "IconHint": "aut",
+    "ColorBlock": 377,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2008-03-12T14:13:50.1968854+01:00",
+    "LastChanged": "2020-07-13T02:38:26.9017511+02:00",
     "ChildItems": [
       {
-        "Id": 351,
-        "Name": "Bednar, Douglas and Rowe",
-        "ToolTip": "Ut vel sint ut tempore.",
+        "Id": 716,
+        "Name": "Douglas, Hermann and D'Amore",
+        "ToolTip": "Sint et dignissimos.",
         "Deleted": false,
-        "Rank": 821,
-        "Type": "voluptate",
-        "ColorBlock": 883,
-        "IconHint": "reprehenderit",
+        "Rank": 133,
+        "Type": "iure",
+        "ColorBlock": 631,
+        "IconHint": "dolor",
         "Selected": true,
-        "LastChanged": "2011-07-16T14:13:50.1968854+02:00",
+        "LastChanged": "2007-07-06T02:38:26.9017511+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "nihil",
+        "ExtraInfo": "architecto",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Lila Bednar",
+        "FullName": "Benjamin Osinski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 997
+            "FieldType": "System.Int32",
+            "FieldLength": 28
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "animi",
+    "ExtraInfo": "fugiat",
+    "StyleHint": "occaecati",
     "Hidden": false,
-    "FullName": "Fredrick Ratke",
+    "FullName": "Justyn Considine PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 866
+        "FieldLength": 77
       }
     }
   }

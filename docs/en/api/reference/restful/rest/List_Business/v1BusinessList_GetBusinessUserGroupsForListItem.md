@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 594,
-    "Name": "McLaughlin, Durgan and Koch",
-    "ToolTip": "Ea libero consequatur eos rerum possimus.",
+    "Id": 576,
+    "Name": "Harvey-Gleason",
+    "ToolTip": "Recusandae dolores et corrupti aut dolores autem.",
     "Deleted": false,
-    "Rank": 608,
+    "Rank": 495,
     "Type": "et",
-    "ColorBlock": 467,
-    "IconHint": "totam",
-    "Selected": false,
-    "LastChanged": "2015-06-16T14:13:49.6648827+02:00",
+    "ColorBlock": 624,
+    "IconHint": "optio",
+    "Selected": true,
+    "LastChanged": "2019-10-26T02:38:26.6674035+02:00",
     "ChildItems": [
       {
-        "Id": 431,
-        "Name": "Klein Inc and Sons",
-        "ToolTip": "Ea enim quis possimus.",
+        "Id": 487,
+        "Name": "Cruickshank, Schultz and Nader",
+        "ToolTip": "Culpa accusantium id.",
         "Deleted": false,
-        "Rank": 817,
-        "Type": "quia",
-        "ColorBlock": 857,
-        "IconHint": "maiores",
-        "Selected": true,
-        "LastChanged": "2001-10-31T14:13:49.6648827+01:00",
+        "Rank": 224,
+        "Type": "facere",
+        "ColorBlock": 291,
+        "IconHint": "nemo",
+        "Selected": false,
+        "LastChanged": "2005-02-13T02:38:26.6674035+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "in",
+        "ExtraInfo": "culpa",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Daija Gorczany I",
+        "FullName": "Cleora Gislason",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 29
+            "FieldLength": 577
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "architecto",
+    "ExtraInfo": "sequi",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Edd Steuber",
+    "FullName": "Mr. Dallin Abernathy DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 275
+        "FieldLength": 97
       }
     }
   }

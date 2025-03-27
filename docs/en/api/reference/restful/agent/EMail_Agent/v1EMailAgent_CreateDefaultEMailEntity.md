@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,97 +97,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 147,
-      "ContactName": "Schiller-Morar",
-      "PersonId": 811,
-      "PersonName": "Emard, Wehner and Dibbert",
-      "AssociateId": 578,
-      "Address": "non",
-      "EmailId": 701,
+      "ContactId": 981,
+      "ContactName": "Kris, Volkman and Will",
+      "PersonId": 493,
+      "PersonName": "Farrell-Bins",
+      "AssociateId": 528,
+      "Address": "eveniet",
+      "EmailId": 756,
       "DuplicatePersonIds": [
-        363,
-        55
+        514,
+        289
       ],
-      "Name": "Sipes Inc and Sons",
+      "Name": "Parker, Rodriguez and Brakus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 705
+          "FieldLength": 524
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 928,
-      "ContactName": "Douglas-Mayert",
-      "PersonId": 300,
-      "PersonName": "Vandervort-Jewess",
-      "AssociateId": 221,
-      "Address": "rerum",
-      "EmailId": 96,
+      "ContactId": 395,
+      "ContactName": "Kohler, Nienow and Kerluke",
+      "PersonId": 342,
+      "PersonName": "Corwin, Daniel and Witting",
+      "AssociateId": 349,
+      "Address": "sit",
+      "EmailId": 672,
       "DuplicatePersonIds": [
-        790,
-        348
+        730,
+        805
       ],
-      "Name": "Larson Inc and Sons",
+      "Name": "Kutch-Rippin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldLength": 985
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 777,
-      "ContactName": "Waters Inc and Sons",
-      "PersonId": 482,
-      "PersonName": "Waelchi-Schroeder",
-      "AssociateId": 5,
-      "Address": "placeat",
-      "EmailId": 387,
+      "ContactId": 876,
+      "ContactName": "Bosco Group",
+      "PersonId": 967,
+      "PersonName": "Green-Bashirian",
+      "AssociateId": 919,
+      "Address": "voluptatem",
+      "EmailId": 297,
       "DuplicatePersonIds": [
-        279,
-        457
+        939,
+        237
       ],
-      "Name": "DuBuque Group",
+      "Name": "Heaney-Steuber",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 846
+          "FieldType": "System.Int32",
+          "FieldLength": 311
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "magnam",
+  "Subject": "molestiae",
+  "HTMLBody": "ea",
   "From": null,
-  "Sent": "2024-04-28T14:13:40.2347688+02:00",
-  "Size": 502,
+  "Sent": "2022-05-16T02:38:21.3701735+02:00",
+  "Size": 379,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "pariatur",
-  "PlainBody": "exercitationem",
-  "IsSent": false,
+  "MessageID": "repudiandae",
+  "PlainBody": "repellendus",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 614,
+  "ServerId": 308,
   "Attachments": [
     {
-      "Description": "User-centric system-worthy info-mediaries",
-      "Filename": "nam",
-      "Size": 468,
-      "Type": "cumque",
-      "Encoding": "nisi",
-      "Id": "natus",
-      "Disposition": "et",
+      "Description": "Fundamental motivating project",
+      "Filename": "dolorum",
+      "Size": 647,
+      "Type": "animi",
+      "Encoding": "quis",
+      "Id": "a",
+      "Disposition": "dolorem",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -195,49 +195,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 40
+          "FieldLength": 825
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Franecki, Douglas and Larson",
+      "Name": "Brekke, Durgan and Brown",
       "Values": [
-        "commodi",
-        "adipisci"
+        "voluptatem",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 376
+          "FieldType": "System.String",
+          "FieldLength": 700
         }
       }
     },
     {
-      "Name": "Franecki, Douglas and Larson",
+      "Name": "Brekke, Durgan and Brown",
       "Values": [
-        "commodi",
-        "adipisci"
+        "voluptatem",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 376
+          "FieldType": "System.String",
+          "FieldLength": 700
         }
       }
     }
   ],
-  "FolderName": "Roob Group",
-  "EmailItemId": 777,
-  "AccountId": 370,
-  "ReceivedAt": "2018-01-24T14:13:40.2347688+01:00",
+  "FolderName": "Friesen-Ziemann",
+  "EmailItemId": 59,
+  "AccountId": 628,
+  "ReceivedAt": "2004-11-01T02:38:21.3701735+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-04-05T14:13:40.2347688+02:00",
+  "RepliedAt": "1998-12-31T02:38:21.3701735+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -246,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 642
+      "FieldLength": 515
     }
   }
 }

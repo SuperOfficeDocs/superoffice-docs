@@ -104,7 +104,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 645,
-  "ColumnId": 405,
-  "FieldDefault": "dolorum",
-  "FieldHeight": 900,
-  "FieldLabel": "laborum",
-  "FieldLeft": 418,
-  "FieldTop": 880,
+  "UDefFieldId": 756,
+  "ColumnId": 346,
+  "FieldDefault": "porro",
+  "FieldHeight": 301,
+  "FieldLabel": "quisquam",
+  "FieldLeft": 534,
+  "FieldTop": 431,
   "FieldType": "Checkbox",
-  "FieldWidth": 877,
-  "FormatMask": "sed",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 510,
-  "LabelLeft": 681,
-  "LabelTop": 395,
-  "LabelWidth": 486,
-  "LastVersionId": 532,
-  "ListTableId": 250,
+  "FieldWidth": 824,
+  "FormatMask": "reprehenderit",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 637,
+  "LabelLeft": 555,
+  "LabelTop": 219,
+  "LabelWidth": 788,
+  "LastVersionId": 674,
+  "ListTableId": 25,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 323,
-  "ProgId": "eos",
-  "IsReadOnly": true,
-  "ShortLabel": "non",
-  "TabOrder": 814,
-  "TextLength": 938,
-  "Tooltip": "consequuntur",
-  "UdefIdentity": 895,
-  "UDListDefinitionId": 422,
+  "Page1LineNo": 528,
+  "ProgId": "veniam",
+  "IsReadOnly": false,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 747,
+  "TextLength": 77,
+  "Tooltip": "deserunt",
+  "UdefIdentity": 536,
+  "UDListDefinitionId": 279,
   "Justification": "Center",
-  "Version": 811,
-  "TemplateVariableName": "Swaniawski LLC",
+  "Version": 764,
+  "TemplateVariableName": "Cremin, Bins and Smith",
   "HasBeenPublished": false,
-  "MdoListName": "Kertzmann-Pouros",
+  "MdoListName": "Collins-Upton",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 501
+      "FieldType": "System.Int32",
+      "FieldLength": 460
     }
   }
 }

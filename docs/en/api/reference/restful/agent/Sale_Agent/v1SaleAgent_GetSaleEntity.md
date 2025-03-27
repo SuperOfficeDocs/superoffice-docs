@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=54
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=260
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "ut",
+  "SaleText": "facere",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2001-12-27T14:13:41.2189201+01:00",
-  "Amount": 29979.843999999997,
-  "SaleId": 679,
-  "Earning": 22755.974,
-  "EarningPercent": 15378.537999999999,
-  "Heading": "perferendis",
-  "Number": "1099755",
-  "Probability": 625,
-  "CreatedDate": "1999-11-30T14:13:41.2189201+01:00",
-  "UpdatedDate": "2009-07-02T14:13:41.2189201+02:00",
+  "Saledate": "1999-05-31T02:38:21.8388638+02:00",
+  "Amount": 7405.642,
+  "SaleId": 578,
+  "Earning": 8822.21,
+  "EarningPercent": 14833.222,
+  "Heading": "voluptatem",
+  "Number": "771480",
+  "Probability": 738,
+  "CreatedDate": "2005-12-15T02:38:21.8388638+01:00",
+  "UpdatedDate": "2024-07-06T02:38:21.8388638+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 170,
+  "ActiveLinks": 983,
   "Links": [
     {
-      "EntityName": "Russel-Lindgren",
-      "Id": 23,
-      "Description": "Upgradable exuding productivity",
-      "ExtraInfo": "eligendi",
-      "LinkId": 961,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 287
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2014-12-22T14:13:41.2189201+01:00",
-  "Postit": "quis",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "1998-12-10T14:13:41.2189201+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Friesen, Dibbert and Kiehn",
-      "Comment": "vel",
-      "StakeholderRoleId": 376,
-      "CountryId": 612,
-      "PersonId": 485,
-      "EmailDescription": "claire_glover@kuhlman.name",
-      "EmailId": 8,
-      "EmailAddress": "lela@casperrutherford.name",
-      "PhoneId": 218,
-      "ContactName": "Bruen-Mann",
-      "ContactId": 464,
-      "SaleId": 261,
-      "Mrmrs": "minima",
-      "Firstname": "Henry",
-      "MiddleName": "Braun Inc and Sons",
-      "Lastname": "Pagac",
-      "SaleStakeholderId": 876,
-      "Rank": 149,
-      "Phone": "1-143-243-8977",
+      "EntityName": "Lebsack-Rau",
+      "Id": 835,
+      "Description": "Visionary tertiary implementation",
+      "ExtraInfo": "ut",
+      "LinkId": 635,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 12
+          "FieldLength": 751
         }
       }
     }
   ],
-  "ActiveErpLinks": 560,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Kade Ward",
-    "SuperOffice:2": "Meda Abbott"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "ipsa",
-    "ExtraFields2": "ut"
-  },
-  "CustomFields": {
-    "CustomFields1": "ipsum",
-    "CustomFields2": "laudantium"
-  },
-  "PublishEventDate": "2012-06-06T14:13:41.2189201+02:00",
-  "PublishTo": "2023-03-19T14:13:41.2189201+01:00",
-  "PublishFrom": "2002-08-06T14:13:41.2189201+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
+  "NextDueDate": "2022-11-21T02:38:21.8388638+01:00",
+  "Postit": "temporibus",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2017-06-11T02:38:21.8388638+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 476,
-      "Visibility": "All",
-      "DisplayValue": "ut",
+      "StakeholderRoleName": "Fritsch, McCullough and Connelly",
+      "Comment": "harum",
+      "StakeholderRoleId": 774,
+      "CountryId": 613,
+      "PersonId": 243,
+      "EmailDescription": "vinnie_jerde@cummeratafranecki.us",
+      "EmailId": 115,
+      "EmailAddress": "brenna_friesen@kuphal.info",
+      "PhoneId": 590,
+      "ContactName": "O'Reilly-Durgan",
+      "ContactId": 961,
+      "SaleId": 951,
+      "Mrmrs": "numquam",
+      "Firstname": "Abe",
+      "MiddleName": "Purdy Inc and Sons",
+      "Lastname": "Bosco",
+      "SaleStakeholderId": 758,
+      "Rank": 617,
+      "Phone": "1-451-944-2158 x020",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 683
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 993,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Ryleigh Lesch",
+    "SuperOffice:2": "Josh Tremblay"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "et",
+    "ExtraFields2": "consequatur"
+  },
+  "CustomFields": {
+    "CustomFields1": "ea",
+    "CustomFields2": "sapiente"
+  },
+  "PublishEventDate": "2020-09-01T02:38:21.8544876+02:00",
+  "PublishTo": "2018-04-05T02:38:21.8544876+02:00",
+  "PublishFrom": "2014-12-28T02:38:21.8544876+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 684,
+      "Visibility": "All",
+      "DisplayValue": "dolores",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 737
         }
       }
     },
     {
-      "VisibleId": 476,
+      "VisibleId": 684,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 737
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 509
     }
   }
 }

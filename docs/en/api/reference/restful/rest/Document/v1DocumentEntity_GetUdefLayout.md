@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 917,
-    "ColumnId": 193,
-    "FieldDefault": "sunt",
-    "FieldHeight": 760,
-    "FieldLabel": "voluptas",
-    "FieldLeft": 353,
-    "FieldTop": 705,
+    "UDefFieldId": 534,
+    "ColumnId": 537,
+    "FieldDefault": "qui",
+    "FieldHeight": 665,
+    "FieldLabel": "quas",
+    "FieldLeft": 770,
+    "FieldTop": 892,
     "FieldType": "Checkbox",
-    "FieldWidth": 318,
-    "FormatMask": "maxime",
+    "FieldWidth": 258,
+    "FormatMask": "voluptates",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 806,
-    "LabelLeft": 620,
-    "LabelTop": 62,
-    "LabelWidth": 528,
-    "LastVersionId": 337,
-    "ListTableId": 743,
+    "LabelHeight": 605,
+    "LabelLeft": 660,
+    "LabelTop": 13,
+    "LabelWidth": 800,
+    "LastVersionId": 982,
+    "ListTableId": 906,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 616,
-    "ProgId": "voluptas",
+    "Page1LineNo": 450,
+    "ProgId": "ipsum",
     "IsReadOnly": true,
-    "ShortLabel": "maiores",
-    "TabOrder": 338,
-    "TextLength": 72,
-    "Tooltip": "nemo",
-    "UdefIdentity": 50,
-    "UDListDefinitionId": 438,
+    "ShortLabel": "recusandae",
+    "TabOrder": 197,
+    "TextLength": 951,
+    "Tooltip": "voluptates",
+    "UdefIdentity": 233,
+    "UDListDefinitionId": 378,
     "Justification": "Center",
-    "Version": 366,
-    "TemplateVariableName": "Kozey LLC",
+    "Version": 60,
+    "TemplateVariableName": "Jaskolski, Russel and Boyle",
     "HasBeenPublished": false,
-    "MdoListName": "Kutch LLC",
+    "MdoListName": "Schneider, Hickle and Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 129
+        "FieldLength": 757
       }
     }
   }

@@ -499,7 +499,7 @@ Lists all email flow Instances
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowInstances?$select=workflowInstanceId,person/correspondingAssociate/assocTooltip,person/personAddress/line1
+GET /api/v1/archive/EmailFlowInstances?$select=emailFlow/workflowAssociate/title,person/restrictionAddress/line3,person/correspondingAssociate/assocType,contact/email/emailId,contact/postAddress/wgs84latitude
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

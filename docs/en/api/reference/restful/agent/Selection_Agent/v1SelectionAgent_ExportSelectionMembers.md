@@ -70,12 +70,12 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 14,
-  "TemplateName": "Wilderman Inc and Sons",
+  "SelectionId": 748,
+  "TemplateName": "Greenfelder LLC",
   "UseContacts": true
 }
 ```

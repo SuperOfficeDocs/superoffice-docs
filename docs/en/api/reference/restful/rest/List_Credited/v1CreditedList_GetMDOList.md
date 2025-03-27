@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=quo
+GET /api/v1/List/Credited/MDOItems?query=vel
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 890,
-    "Name": "Satterfield Group",
-    "ToolTip": "Ut voluptatem esse accusamus consectetur possimus.",
-    "Deleted": false,
-    "Rank": 17,
-    "Type": "voluptatem",
+    "Id": 764,
+    "Name": "O'Keefe LLC",
+    "ToolTip": "Voluptatibus et cumque vitae dolor incidunt.",
+    "Deleted": true,
+    "Rank": 343,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 978,
-        "Name": "Krajcik, Greenfelder and Windler",
-        "ToolTip": "Eum repellendus molestiae sed velit.",
-        "Deleted": false,
-        "Rank": 831,
-        "Type": "non",
+        "Id": 942,
+        "Name": "Rosenbaum, Kiehn and Considine",
+        "ToolTip": "Qui impedit.",
+        "Deleted": true,
+        "Rank": 282,
+        "Type": "necessitatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 101,
-        "ExtraInfo": "veritatis",
-        "StyleHint": "nesciunt",
-        "FullName": "Ms. Jaleel Larson MD",
+        "IconHint": "ea",
+        "ColorBlock": 986,
+        "ExtraInfo": "earum",
+        "StyleHint": "quo",
+        "FullName": "Mrs. Matt Corkery DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 720
+            "FieldLength": 748
           }
         }
       }
     ],
-    "IconHint": "at",
-    "ColorBlock": 304,
-    "ExtraInfo": "nisi",
-    "StyleHint": "animi",
-    "FullName": "Prof. Orrin Keshaun Gerhold DDS",
+    "IconHint": "temporibus",
+    "ColorBlock": 858,
+    "ExtraInfo": "cumque",
+    "StyleHint": "quis",
+    "FullName": "Giles Pollich III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 765
       }
     }
   }

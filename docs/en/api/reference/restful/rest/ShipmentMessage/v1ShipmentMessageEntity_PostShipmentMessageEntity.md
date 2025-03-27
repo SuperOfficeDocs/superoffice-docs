@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 34,
-  "PlainMessage": "doloribus",
-  "HtmlMessage": "sed",
-  "SmsMessage": "nemo",
-  "Description": "Open-architected static forecast",
-  "Subject": "ab",
-  "FolderId": 704,
-  "HeaderField": "sint",
-  "Design": "perferendis",
+  "ShipmentMessageId": 337,
+  "PlainMessage": "esse",
+  "HtmlMessage": "commodi",
+  "SmsMessage": "cupiditate",
+  "Description": "Realigned zero tolerance attitude",
+  "Subject": "voluptatum",
+  "FolderId": 544,
+  "HeaderField": "atque",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Profound system-worthy interface",
-  "AccessKey": "voluptas",
-  "DocumentMessage": 737,
-  "Registered": "2011-08-22T14:13:49.2587235+02:00",
-  "RegisteredAssociateId": 330,
-  "Updated": "2023-08-03T14:13:49.2587235+02:00",
-  "UpdatedAssociateId": 394,
-  "UpdatedCount": 108
+  "LongDescription": "Innovative transitional success",
+  "AccessKey": "aliquid",
+  "DocumentMessage": 524,
+  "Registered": "2019-01-06T02:38:26.4172802+01:00",
+  "RegisteredAssociateId": 777,
+  "Updated": "2008-11-10T02:38:26.4172802+01:00",
+  "UpdatedAssociateId": 148,
+  "UpdatedCount": 616
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 654,
-  "PlainMessage": "iste",
-  "HtmlMessage": "animi",
-  "SmsMessage": "qui",
-  "Description": "Fundamental hybrid adapter",
-  "Subject": "alias",
-  "FolderId": 685,
-  "HeaderField": "quidem",
-  "Design": "sit",
+  "ShipmentMessageId": 262,
+  "PlainMessage": "voluptatem",
+  "HtmlMessage": "quos",
+  "SmsMessage": "repellendus",
+  "Description": "Self-enabling 3rd generation support",
+  "Subject": "et",
+  "FolderId": 67,
+  "HeaderField": "perspiciatis",
+  "Design": "quam",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Sharable explicit project",
-  "AccessKey": "consequatur",
-  "DocumentMessage": 856,
-  "Registered": "2007-07-08T14:13:49.2587235+02:00",
-  "RegisteredAssociateId": 198,
-  "Updated": "2016-12-13T14:13:49.2587235+01:00",
-  "UpdatedAssociateId": 948,
-  "UpdatedCount": 219,
+  "InlineImages": false,
+  "LongDescription": "Fully-configurable grid-enabled monitoring",
+  "AccessKey": "maxime",
+  "DocumentMessage": 135,
+  "Registered": "2007-06-27T02:38:26.4172802+02:00",
+  "RegisteredAssociateId": 632,
+  "Updated": "2010-11-06T02:38:26.4172802+01:00",
+  "UpdatedAssociateId": 370,
+  "UpdatedCount": 406,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 606
+      "FieldLength": 682
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

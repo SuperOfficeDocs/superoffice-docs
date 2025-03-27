@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 103,
-  "Name": "Kautzer-Weimann",
-  "Tooltip": "voluptatibus",
+  "RoleId": 428,
+  "Name": "Murray LLC",
+  "Tooltip": "aliquid",
   "RoleType": "Anonymous",
-  "Deleted": 69,
-  "Rank": 575,
-  "Created": "2005-05-15T14:13:41.6415043+02:00",
-  "UseCategories": 43,
+  "Deleted": 306,
+  "Rank": 832,
+  "Created": "2013-04-27T02:38:22.1825743+02:00",
+  "UseCategories": 323,
   "CreatedBy": null,
-  "Updated": "2014-09-01T14:13:41.6415043+02:00",
+  "Updated": "2016-06-15T02:38:22.1825743+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 312
+      "FieldType": "System.String",
+      "FieldLength": 309
     }
   }
 }

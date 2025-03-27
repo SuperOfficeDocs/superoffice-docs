@@ -82,10 +82,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 84,
+  "DocumentTemplateId": 319,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "perspiciatis",
-  "PluginId": 671
+  "LanguageCode": "nemo",
+  "PluginId": 726
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hayes-Cruickshank",
-  "Description": "Cloned high-level orchestration",
-  "ExternalReference": "delectus",
-  "MimeType": "consequuntur",
-  "PluginId": 781
+  "Name": "Ziemann-Jewess",
+  "Description": "Synergized 6th generation Graphic Interface",
+  "ExternalReference": "maiores",
+  "MimeType": "dolore",
+  "PluginId": 687
 }
 ```

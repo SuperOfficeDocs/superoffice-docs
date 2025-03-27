@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 361,
+  "HierarchyId": 187,
   "Domain": "Dashboards",
-  "Name": "Stracke-Lakin",
-  "Fullname": "exercitationem",
-  "ParentId": 4,
+  "Name": "Rippin, Keebler and Casper",
+  "Fullname": "sunt",
+  "ParentId": 373,
   "Children": [
     {
-      "HierarchyId": 770,
+      "HierarchyId": 566,
       "Domain": "Dashboards",
-      "Name": "Barton-Champlin",
-      "Fullname": "voluptatem",
-      "ParentId": 875,
+      "Name": "Walsh Inc and Sons",
+      "Fullname": "consequatur",
+      "ParentId": 465,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-06-18T14:13:40.5315763+02:00",
-      "RegisteredAssociateId": 940,
-      "Updated": "2003-04-19T14:13:40.5315763+02:00",
-      "UpdatedAssociateId": 262,
+      "Registered": "2009-07-16T02:38:21.5420262+02:00",
+      "RegisteredAssociateId": 115,
+      "Updated": "2021-03-22T02:38:21.5420262+01:00",
+      "UpdatedAssociateId": 500,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 152
+          "FieldLength": 86
         }
       }
     }
   ],
-  "Registered": "2002-03-25T14:13:40.5315763+01:00",
-  "RegisteredAssociateId": 107,
-  "Updated": "2014-12-09T14:13:40.5315763+01:00",
-  "UpdatedAssociateId": 917,
+  "Registered": "2009-08-26T02:38:21.5420262+02:00",
+  "RegisteredAssociateId": 864,
+  "Updated": "1998-05-25T02:38:21.5420262+02:00",
+  "UpdatedAssociateId": 436,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 4
+      "FieldType": "System.Int32",
+      "FieldLength": 330
     }
   }
 }

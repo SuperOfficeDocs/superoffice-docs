@@ -86,8 +86,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Shanahan-Kertzmann",
-  "DeviceName": "Gleason, Lind and Schinner"
+  "ApplicationName": "Jast-Beatty",
+  "DeviceName": "Lesch, Kovacek and Orn"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 627,
-  "Name": "Kshlerin LLC",
-  "CreatedDate": "2010-06-30T14:13:40.3909833+02:00",
-  "UpdatedDate": "2017-08-12T14:13:40.3909833+02:00",
-  "AssociateFullName": "Ashly Stehr",
-  "CreatedBy": "numquam",
-  "UpdatedBy": "voluptatem",
-  "DeviceIdentifier": "voluptatibus",
-  "ForeignAppId": 854,
+  "ForeignDeviceId": 823,
+  "Name": "Mosciski-Terry",
+  "CreatedDate": "2001-01-30T02:38:21.4482803+01:00",
+  "UpdatedDate": "1999-08-03T02:38:21.4482803+02:00",
+  "AssociateFullName": "Obie Scarlett Raynor MD",
+  "CreatedBy": "reiciendis",
+  "UpdatedBy": "aliquid",
+  "DeviceIdentifier": "molestias",
+  "ForeignAppId": 46,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldType": "System.String",
+      "FieldLength": 823
     }
   }
 }

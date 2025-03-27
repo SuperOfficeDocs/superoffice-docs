@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kulas, Berge and Borer",
-    "Id": 632,
-    "Description": "Streamlined 24 hour implementation",
-    "ExtraInfo": "occaecati",
-    "LinkId": 924,
+    "EntityName": "Collins Inc and Sons",
+    "Id": 106,
+    "Description": "Enhanced national Graphical User Interface",
+    "ExtraInfo": "non",
+    "LinkId": 159,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 843
+        "FieldLength": 238
       }
     }
   }

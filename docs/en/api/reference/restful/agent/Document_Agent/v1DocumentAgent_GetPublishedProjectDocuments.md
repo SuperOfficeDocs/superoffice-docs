@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 544
+  "ProjectId": 790
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 280,
-    "Attention": "reiciendis",
-    "Header": "odit",
-    "Name": "Ebert Inc and Sons",
-    "OurRef": "nihil",
-    "YourRef": "maiores",
-    "Description": "Expanded assymetric analyzer",
-    "DocumentTemplate": "facere",
+    "DocumentId": 311,
+    "Attention": "voluptates",
+    "Header": "sapiente",
+    "Name": "Collins, Bartoletti and Goodwin",
+    "OurRef": "dolor",
+    "YourRef": "facilis",
+    "Description": "Horizontal uniform migration",
+    "DocumentTemplate": "vitae",
     "IsPublished": false,
-    "PersonId": 285,
-    "PersonFullName": "Miss Lina Cole",
-    "AssociateFullName": "Mr. Hilton Maria Dach V",
-    "ContactId": 590,
-    "ContactName": "Johns Inc and Sons",
-    "ProjectId": 132,
-    "ProjectName": "Mosciski-White",
-    "AssociateId": 379,
-    "Snum": 82,
-    "SaleId": 71,
-    "SaleName": "Durgan-Cronin",
+    "PersonId": 22,
+    "PersonFullName": "Hope Ernser",
+    "AssociateFullName": "Aiden Effertz",
+    "ContactId": 215,
+    "ContactName": "Champlin-Wintheiser",
+    "ProjectId": 394,
+    "ProjectName": "Bernier Inc and Sons",
+    "AssociateId": 378,
+    "Snum": 850,
+    "SaleId": 219,
+    "SaleName": "Klein LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldType": "System.String",
+        "FieldLength": 731
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 578,
-  "Name": "Zieme, Rutherford and Schaden",
-  "Tooltip": "laborum",
-  "Deleted": true,
-  "Rank": 479,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 961,
+  "Name": "Mertz-Cole",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 377,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequuntur",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 142
+      "FieldLength": 8
     }
   },
   "_Links": {

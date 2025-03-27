@@ -27,7 +27,7 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=corporis
+GET /api/v1/List/Competitor/MDOItems?query=dolorem
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 330,
-    "Name": "Smith Group",
-    "ToolTip": "Similique commodi repellendus est.",
+    "Id": 651,
+    "Name": "Romaguera Group",
+    "ToolTip": "Provident ut aut illo magnam molestiae.",
     "Deleted": false,
-    "Rank": 720,
-    "Type": "est",
+    "Rank": 530,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 717,
-        "Name": "Bartoletti, Rippin and Littel",
-        "ToolTip": "Sequi deleniti iste officia natus sequi id et.",
-        "Deleted": true,
-        "Rank": 226,
-        "Type": "aliquid",
+        "Id": 982,
+        "Name": "Powlowski-Schmeler",
+        "ToolTip": "Officiis dolorum sit quis ipsam dolores qui.",
+        "Deleted": false,
+        "Rank": 597,
+        "Type": "laudantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "dolorem",
-        "ColorBlock": 618,
-        "ExtraInfo": "suscipit",
-        "StyleHint": "qui",
-        "FullName": "Lauretta Harber",
+        "IconHint": "amet",
+        "ColorBlock": 569,
+        "ExtraInfo": "atque",
+        "StyleHint": "quia",
+        "FullName": "Ettie Auer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 84
+            "FieldLength": 882
           }
         }
       }
     ],
-    "IconHint": "magnam",
-    "ColorBlock": 212,
-    "ExtraInfo": "ullam",
-    "StyleHint": "odio",
-    "FullName": "Dianna Abshire",
+    "IconHint": "iure",
+    "ColorBlock": 840,
+    "ExtraInfo": "iusto",
+    "StyleHint": "omnis",
+    "FullName": "Wilfredo Mitchell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 145
+        "FieldType": "System.Int32",
+        "FieldLength": 463
       }
     }
   }

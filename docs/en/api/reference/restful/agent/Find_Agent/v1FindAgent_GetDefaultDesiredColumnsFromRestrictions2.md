@@ -173,8 +173,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Parisian-Balistreri",
-  "Restrictions": "vitae"
+  "ProviderName": "Kertzmann-Schoen",
+  "Restrictions": "ea"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Johnson-Rice",
-    "DisplayTooltip": "repellat",
-    "DisplayType": "quam",
-    "CanOrderBy": true,
-    "Name": "Kovacek Group",
+    "DisplayName": "Kulas LLC",
+    "DisplayTooltip": "velit",
+    "DisplayType": "iusto",
+    "CanOrderBy": false,
+    "Name": "Jewess, Fahey and Lebsack",
     "CanRestrictBy": false,
-    "RestrictionType": "adipisci",
-    "RestrictionListName": "Altenwerth-Moen",
+    "RestrictionType": "tempore",
+    "RestrictionListName": "West-Leuschke",
     "IsVisible": true,
-    "ExtraInfo": "et",
-    "Width": "corporis",
-    "IconHint": "similique",
-    "HeadingIconHint": "officiis"
+    "ExtraInfo": "doloribus",
+    "Width": "a",
+    "IconHint": "ex",
+    "HeadingIconHint": "tenetur"
   }
 ]
 ```

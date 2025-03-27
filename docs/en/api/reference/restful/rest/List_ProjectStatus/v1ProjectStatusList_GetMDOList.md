@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=ullam
+GET /api/v1/List/ProjectStatus/MDOItems?flat=False
+GET /api/v1/List/ProjectStatus/MDOItems?query=voluptas
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 728,
-    "Name": "Welch, Thiel and Langosh",
-    "ToolTip": "Quia eius qui aliquam labore repellat omnis.",
-    "Deleted": true,
-    "Rank": 784,
-    "Type": "facere",
+    "Id": 197,
+    "Name": "Dach-Hand",
+    "ToolTip": "Similique cum officiis sint vel.",
+    "Deleted": false,
+    "Rank": 899,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 542,
-        "Name": "Franecki-Nitzsche",
-        "ToolTip": "Tempore suscipit ipsum aliquam voluptatem recusandae.",
+        "Id": 853,
+        "Name": "Okuneva-Tillman",
+        "ToolTip": "Quaerat labore quibusdam est.",
         "Deleted": true,
-        "Rank": 333,
-        "Type": "vel",
+        "Rank": 475,
+        "Type": "ex",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vel",
-        "ColorBlock": 59,
-        "ExtraInfo": "non",
-        "StyleHint": "provident",
-        "FullName": "Dexter Barrows",
+        "IconHint": "quas",
+        "ColorBlock": 438,
+        "ExtraInfo": "error",
+        "StyleHint": "qui",
+        "FullName": "Chaz Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 467
+            "FieldType": "System.String",
+            "FieldLength": 657
           }
         }
       }
     ],
-    "IconHint": "quod",
-    "ColorBlock": 360,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "quia",
-    "FullName": "Ms. Anissa Hettinger",
+    "IconHint": "a",
+    "ColorBlock": 101,
+    "ExtraInfo": "iste",
+    "StyleHint": "dolorem",
+    "FullName": "Prof. Timothy Miles Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 428
+        "FieldType": "System.Int32",
+        "FieldLength": 313
       }
     }
   }

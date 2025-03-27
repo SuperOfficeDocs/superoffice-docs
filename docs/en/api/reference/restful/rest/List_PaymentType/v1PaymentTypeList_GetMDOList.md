@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=True
-GET /api/v1/List/PaymentType/MDOItems?query=perferendis
+GET /api/v1/List/PaymentType/MDOItems?flat=False
+GET /api/v1/List/PaymentType/MDOItems?query=sit
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 668,
-    "Name": "Gleason, Murazik and Abshire",
-    "ToolTip": "Non quo atque consequatur esse excepturi.",
+    "Id": 936,
+    "Name": "Hirthe-Carroll",
+    "ToolTip": "Qui magni et.",
     "Deleted": false,
-    "Rank": 825,
-    "Type": "tempore",
+    "Rank": 785,
+    "Type": "voluptas",
     "ChildItems": [
       {
-        "Id": 686,
-        "Name": "Lemke Group",
-        "ToolTip": "Eum quae facere qui minima aut vitae.",
+        "Id": 905,
+        "Name": "Flatley LLC",
+        "ToolTip": "Placeat explicabo pariatur.",
         "Deleted": false,
-        "Rank": 799,
-        "Type": "doloremque",
+        "Rank": 874,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ut",
-        "ColorBlock": 310,
-        "ExtraInfo": "vitae",
-        "StyleHint": "nostrum",
-        "FullName": "Scottie Douglas",
+        "IconHint": "et",
+        "ColorBlock": 346,
+        "ExtraInfo": "numquam",
+        "StyleHint": "fugiat",
+        "FullName": "Thad Bernhard",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 173
+            "FieldLength": 452
           }
         }
       }
     ],
-    "IconHint": "animi",
-    "ColorBlock": 389,
-    "ExtraInfo": "iste",
-    "StyleHint": "odit",
-    "FullName": "Aylin Kunze",
+    "IconHint": "quasi",
+    "ColorBlock": 998,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "alias",
+    "FullName": "Mr. Velda Kayden Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 39
+        "FieldType": "System.Int32",
+        "FieldLength": 247
       }
     }
   }

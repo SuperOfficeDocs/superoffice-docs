@@ -68,7 +68,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Nader-Kris",
-    "DisplayName": "Hirthe Group",
-    "Description": "Progressive full-range secured line",
-    "ShortLabel": "tempore",
+    "FieldName": "VonRueden-Nitzsche",
+    "DisplayName": "Lang-McGlynn",
+    "Description": "Synchronised holistic emulation",
+    "ShortLabel": "est",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": false,
-    "IsReadOnly": true,
+    "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": true,
-    "Rank": 850,
-    "TemplateVariableName": "Kertzmann Inc and Sons"
+    "Rank": 244,
+    "TemplateVariableName": "Gutmann, Ondricka and Graham"
   }
 ]
 ```

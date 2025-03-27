@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 34,
-    "Name": "Lindgren, Rippin and Hegmann",
-    "ToolTip": "Modi illum deserunt quod sunt ex ipsam.",
-    "Deleted": true,
-    "Rank": 265,
-    "Type": "impedit",
-    "ColorBlock": 330,
-    "IconHint": "quasi",
-    "Selected": false,
-    "LastChanged": "2016-09-13T14:13:49.7117421+02:00",
+    "Id": 405,
+    "Name": "Frami Group",
+    "ToolTip": "Debitis ut.",
+    "Deleted": false,
+    "Rank": 458,
+    "Type": "voluptatibus",
+    "ColorBlock": 809,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2018-04-06T02:38:26.6986493+02:00",
     "ChildItems": [
       {
-        "Id": 874,
-        "Name": "Luettgen LLC",
-        "ToolTip": "Qui a molestiae impedit quo.",
+        "Id": 54,
+        "Name": "Terry-King",
+        "ToolTip": "Reprehenderit sint sit delectus perspiciatis non adipisci.",
         "Deleted": false,
-        "Rank": 742,
-        "Type": "aut",
-        "ColorBlock": 720,
-        "IconHint": "deserunt",
+        "Rank": 456,
+        "Type": "totam",
+        "ColorBlock": 294,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "1999-07-19T14:13:49.7117421+02:00",
+        "LastChanged": "2009-01-13T02:38:26.6986493+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "aut",
+        "ExtraInfo": "sed",
+        "StyleHint": "modi",
         "Hidden": false,
-        "FullName": "Gardner Johnston DDS"
+        "FullName": "Leilani Pouros"
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "vel",
-    "Hidden": false,
-    "FullName": "Dr. Devyn Ziemann II"
+    "ExtraInfo": "natus",
+    "StyleHint": "odit",
+    "Hidden": true,
+    "FullName": "Mr. Jessie Lottie Schimmel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Ward, Rowe and Langosh",
-    "ToolTip": "Qui tempore illum.",
+    "Id": 42,
+    "Name": "Walker, McCullough and Franecki",
+    "ToolTip": "Iure nemo et.",
     "Deleted": false,
-    "Rank": 616,
-    "Type": "beatae",
-    "ColorBlock": 486,
-    "IconHint": "accusamus",
-    "Selected": false,
-    "LastChanged": "1999-03-08T14:13:49.7117421+01:00",
+    "Rank": 280,
+    "Type": "optio",
+    "ColorBlock": 560,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2022-08-16T02:38:26.6986493+02:00",
     "ChildItems": [
       {
-        "Id": 631,
-        "Name": "Reinger LLC",
-        "ToolTip": "Et vitae aut.",
+        "Id": 466,
+        "Name": "Predovic-Williamson",
+        "ToolTip": "Qui non mollitia velit.",
         "Deleted": false,
-        "Rank": 892,
-        "Type": "tenetur",
-        "ColorBlock": 316,
-        "IconHint": "veritatis",
+        "Rank": 664,
+        "Type": "iusto",
+        "ColorBlock": 926,
+        "IconHint": "voluptate",
         "Selected": false,
-        "LastChanged": "2020-09-28T14:13:49.7117421+02:00",
+        "LastChanged": "2011-11-10T02:38:26.6986493+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "illum",
+        "ExtraInfo": "id",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Julianne Daugherty",
+        "FullName": "Dr. Grant Veum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldLength": 496
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "quisquam",
-    "Hidden": false,
-    "FullName": "Ms. Meta Moses Goyette IV",
+    "ExtraInfo": "qui",
+    "StyleHint": "quam",
+    "Hidden": true,
+    "FullName": "Prof. Alisha Hoeger MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldLength": 449
       }
     }
   }

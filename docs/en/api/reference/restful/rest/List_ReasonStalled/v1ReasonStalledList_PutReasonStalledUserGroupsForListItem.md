@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 152,
-    "Name": "Balistreri Group",
-    "ToolTip": "Est labore autem eius.",
+    "Id": 948,
+    "Name": "Graham-Waters",
+    "ToolTip": "Rerum iusto nesciunt dolorum quam incidunt veritatis deserunt.",
     "Deleted": false,
-    "Rank": 54,
-    "Type": "non",
-    "ColorBlock": 481,
-    "IconHint": "qui",
+    "Rank": 985,
+    "Type": "vel",
+    "ColorBlock": 32,
+    "IconHint": "aperiam",
     "Selected": false,
-    "LastChanged": "2007-02-03T14:13:50.2207723+01:00",
+    "LastChanged": "2003-05-08T02:38:26.9173771+02:00",
     "ChildItems": [
       {
-        "Id": 882,
-        "Name": "Romaguera Group",
-        "ToolTip": "Placeat at dolorum minima deserunt qui tempora accusantium.",
-        "Deleted": false,
-        "Rank": 104,
-        "Type": "a",
-        "ColorBlock": 929,
-        "IconHint": "rerum",
-        "Selected": false,
-        "LastChanged": "1999-04-28T14:13:50.2207723+02:00",
+        "Id": 741,
+        "Name": "Abernathy-Bogisich",
+        "ToolTip": "Mollitia maxime.",
+        "Deleted": true,
+        "Rank": 615,
+        "Type": "voluptatibus",
+        "ColorBlock": 893,
+        "IconHint": "dignissimos",
+        "Selected": true,
+        "LastChanged": "2023-08-21T02:38:26.9173771+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "eos",
+        "ExtraInfo": "non",
+        "StyleHint": "dolores",
         "Hidden": false,
-        "FullName": "Prof. Robbie Barrows MD"
+        "FullName": "Guadalupe Frami"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Easter Roob"
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "harum",
+    "Hidden": false,
+    "FullName": "Roman Johnston"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 805,
-    "Name": "Cummerata-Barton",
-    "ToolTip": "Autem labore est libero minus.",
+    "Id": 602,
+    "Name": "Lockman, Daugherty and Beatty",
+    "ToolTip": "Nam cum aspernatur beatae soluta minus consectetur natus.",
     "Deleted": false,
-    "Rank": 94,
-    "Type": "enim",
-    "ColorBlock": 47,
-    "IconHint": "asperiores",
+    "Rank": 340,
+    "Type": "omnis",
+    "ColorBlock": 703,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2006-06-25T14:13:50.2207723+02:00",
+    "LastChanged": "2009-12-12T02:38:26.9173771+01:00",
     "ChildItems": [
       {
-        "Id": 120,
-        "Name": "Block, Casper and Purdy",
-        "ToolTip": "Consequatur soluta.",
-        "Deleted": false,
-        "Rank": 659,
-        "Type": "esse",
-        "ColorBlock": 165,
-        "IconHint": "beatae",
-        "Selected": false,
-        "LastChanged": "2005-02-21T14:13:50.2207723+01:00",
+        "Id": 740,
+        "Name": "Oberbrunner-Gibson",
+        "ToolTip": "Earum numquam.",
+        "Deleted": true,
+        "Rank": 145,
+        "Type": "occaecati",
+        "ColorBlock": 79,
+        "IconHint": "culpa",
+        "Selected": true,
+        "LastChanged": "2005-12-19T02:38:26.9173771+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nam",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Terrill Lia Collier DVM",
+        "ExtraInfo": "sunt",
+        "StyleHint": "inventore",
+        "Hidden": false,
+        "FullName": "Miller Volkman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 68
+            "FieldType": "System.String",
+            "FieldLength": 587
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "culpa",
+    "ExtraInfo": "maxime",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Lilly Russell Robel V",
+    "FullName": "Edyth Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldType": "System.String",
+        "FieldLength": 658
       }
     }
   }

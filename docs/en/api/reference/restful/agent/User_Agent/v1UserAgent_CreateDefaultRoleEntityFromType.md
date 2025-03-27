@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 377,
-  "Name": "Green, Frami and Christiansen",
-  "Tooltip": "qui",
+  "RoleId": 589,
+  "Name": "Denesik LLC",
+  "Tooltip": "id",
   "RoleType": "Anonymous",
-  "Deleted": 126,
-  "Rank": 901,
-  "Created": "2005-09-08T14:13:41.6727478+02:00",
-  "UseCategories": 245,
+  "Deleted": 190,
+  "Rank": 25,
+  "Created": "2019-03-07T02:38:22.1981664+01:00",
+  "UseCategories": 844,
   "CreatedBy": null,
-  "Updated": "2019-08-27T14:13:41.6727478+02:00",
+  "Updated": "2000-06-17T02:38:22.1981664+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldLength": 592
     }
   }
 }

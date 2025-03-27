@@ -68,37 +68,37 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsa",
-  "ProviderName": "Mills Inc and Sons",
-  "StorageKey": "magni",
+  "StorageType": "consectetur",
+  "ProviderName": "Stanton LLC",
+  "StorageKey": "et",
   "Restrictions": [
     {
-      "Name": "Morar LLC",
-      "Operator": "qui",
+      "Name": "Feil-Marks",
+      "Operator": "voluptate",
       "Values": [
-        "perspiciatis",
-        "earum"
+        "officiis",
+        "reprehenderit"
       ],
       "DisplayValues": [
-        "ad",
-        "quam"
+        "ea",
+        "dolorem"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 242,
+      "InterParenthesis": 259,
       "InterOperator": "And",
-      "UniqueHash": 641
+      "UniqueHash": 18
     }
   ],
-  "Context": "suscipit"
+  "Context": "totam"
 }
 ```
 

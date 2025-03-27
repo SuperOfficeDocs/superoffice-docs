@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 424
+  "ShipmentAddrId": 578
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2002-06-09T14:13:40.5784406+02:00",
+  "SendingTime": "2009-03-07T02:38:21.5576497+01:00",
   "Status": "Blocked",
-  "ShipmentId": 414,
-  "ShipmentDescription": "Reduced intangible methodology",
-  "FromAddress": "ut",
-  "Configuration": 795,
-  "ContactId": 746,
-  "ContactName": "Nikolaus, Heathcote and Christiansen",
-  "PersonId": 45,
-  "PersonFullName": "Prof. Trever Pete Hermann DDS",
-  "ShipmentType": "in",
-  "MessageId": 134,
-  "MessageSubject": "qui",
-  "DocumentMessageId": 132,
-  "Opened": "2010-06-20T14:13:40.5784406+02:00",
-  "LinkClicks": 808,
+  "ShipmentId": 236,
+  "ShipmentDescription": "Phased user-facing system engine",
+  "FromAddress": "fugiat",
+  "Configuration": 73,
+  "ContactId": 910,
+  "ContactName": "Kuhlman LLC",
+  "PersonId": 602,
+  "PersonFullName": "Kaci McClure",
+  "ShipmentType": "et",
+  "MessageId": 347,
+  "MessageSubject": "voluptatibus",
+  "DocumentMessageId": 958,
+  "Opened": "1999-06-21T02:38:21.5576497+02:00",
+  "LinkClicks": 855,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 992
+      "FieldType": "System.Int32",
+      "FieldLength": 591
     }
   }
 }

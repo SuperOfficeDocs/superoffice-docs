@@ -105,52 +105,52 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hickle-Pfeffer",
-  "ProviderName": "Boehm-Windler",
+  "GuiName": "Kling Group",
+  "ProviderName": "Kovacek LLC",
   "SortOrder": [
     {
-      "Name": "Reynolds-Hills",
+      "Name": "Mohr-Hansen",
       "Direction": "ASC"
     },
     {
-      "Name": "Reynolds-Hills",
+      "Name": "Mohr-Hansen",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Ruecker-Ferry",
-      "Operator": "quod",
+      "Name": "Volkman Inc and Sons",
+      "Operator": "ipsam",
       "Values": [
-        "id",
-        "voluptatem"
+        "quis",
+        "minima"
       ],
       "DisplayValues": [
-        "sed",
-        "est"
+        "voluptatem",
+        "autem"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 603,
+      "InterParenthesis": 177,
       "InterOperator": "And",
-      "UniqueHash": 846
+      "UniqueHash": 767
     }
   ],
   "Entities": [
-    "vitae",
-    "ipsum"
+    "minima",
+    "vel"
   ],
-  "Page": 474,
-  "PageSize": 454,
-  "Context": "voluptate"
+  "Page": 886,
+  "PageSize": 17,
+  "Context": "beatae"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Labadie Inc and Sons",
-    "PrimaryKey": 73,
+    "EntityName": "Kreiger, Wuckert and Klein",
+    "PrimaryKey": 241,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "reprehenderit",
-        "TooltipHint": "iure",
-        "LinkHint": "quia"
+        "DisplayValue": "odio",
+        "TooltipHint": "laborum",
+        "LinkHint": "repellat"
       }
     },
-    "LinkHint": "est",
-    "StyleHint": "provident",
+    "LinkHint": "libero",
+    "StyleHint": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 118
+        "FieldLength": 48
       }
     }
   }

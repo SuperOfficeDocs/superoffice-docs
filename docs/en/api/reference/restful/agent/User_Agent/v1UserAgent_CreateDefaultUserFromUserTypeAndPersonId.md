@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 304
+  "PersonId": 268
 }
 ```
 
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 933,
-  "Name": "Schiller LLC",
-  "Rank": 315,
-  "Tooltip": "autem",
+  "AssociateId": 179,
+  "Name": "Schultz-Jakubowski",
+  "Rank": 203,
+  "Tooltip": "unde",
   "LicenseOwners": [
     {
-      "Name": "Koss, Yost and Maggio",
-      "Description": "Exclusive dynamic utilisation",
+      "Name": "Schiller-Bergnaum",
+      "Description": "Organic full-range standardization",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -139,14 +139,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 576
+          "FieldType": "System.String",
+          "FieldLength": 407
         }
       }
     },
     {
-      "Name": "Koss, Yost and Maggio",
-      "Description": "Exclusive dynamic utilisation",
+      "Name": "Schiller-Bergnaum",
+      "Description": "Organic full-range standardization",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 576
+          "FieldType": "System.String",
+          "FieldLength": 407
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "animi",
-      "Tooltip": "fuga",
-      "Id": 413,
-      "Rank": 474,
+      "Value": "quod",
+      "Tooltip": "omnis",
+      "Id": 291,
+      "Rank": 289,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 984
+          "FieldType": "System.Int32",
+          "FieldLength": 708
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2007-05-06T14:13:41.7196115+02:00",
-  "Lastlogout": "2015-07-08T14:13:41.7196115+02:00",
-  "EjUserId": 347,
-  "RequestSignature": "perspiciatis",
+  "Lastlogin": "2004-12-08T02:38:22.2137894+01:00",
+  "Lastlogout": "2021-12-01T02:38:22.2137894+01:00",
+  "EjUserId": 29,
+  "RequestSignature": "quae",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quod",
-      "DisplayValue": "quo",
+      "Value": "qui",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 627
+          "FieldLength": 920
         }
       }
     },
     {
       "Type": null,
-      "Value": "quod",
-      "DisplayValue": "quo",
+      "Value": "qui",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 627
+          "FieldLength": 920
         }
       }
     }
   ],
-  "UserName": "Wyman, Haley and Funk",
+  "UserName": "Stiedemann, Schamberger and Gutmann",
   "TicketCategories": [
     {
-      "Id": 818,
-      "Name": "Rosenbaum Group",
-      "ToolTip": "Qui consequatur qui maiores corrupti.",
-      "Deleted": false,
-      "Rank": 231,
-      "Type": "dicta",
+      "Id": 773,
+      "Name": "Pfannerstill-Feil",
+      "ToolTip": "Fugiat nisi id quia sunt sit voluptas.",
+      "Deleted": true,
+      "Rank": 268,
+      "Type": "id",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "alias",
-      "ColorBlock": 421,
-      "ExtraInfo": "vero",
-      "StyleHint": "perferendis",
-      "FullName": "Mrs. Alvah Braulio Brown",
+      "IconHint": "non",
+      "ColorBlock": 371,
+      "ExtraInfo": "ut",
+      "StyleHint": "et",
+      "FullName": "Beatrice Jakubowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldLength": 473
         }
       }
     }
   ],
-  "NickName": "Schroeder, Nicolas and Kertzmann",
-  "WaitingForApproval": false,
+  "NickName": "Wiza-Legros",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "nisi"
+    "ExtraFields1": "incidunt",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "ratione"
+    "CustomFields1": "et",
+    "CustomFields2": "dolor"
   },
   "PostSaveCommands": [
     {
-      "Name": "Grady, Daniel and Reilly",
-      "DisplayName": "Crooks Inc and Sons",
-      "Description": "Enhanced heuristic product",
-      "ToolTip": "Et cupiditate eos fuga sit velit mollitia.",
+      "Name": "Schamberger Inc and Sons",
+      "DisplayName": "Reilly LLC",
+      "Description": "Synergistic explicit focus group",
+      "ToolTip": "Consectetur tempora odio suscipit dolor iste.",
       "Actions": "Implicit",
-      "ActionData": "quo",
+      "ActionData": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 807
+          "FieldType": "System.Int32",
+          "FieldLength": 731
         }
       }
     }
@@ -282,7 +282,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 536
+      "FieldLength": 136
     }
   }
 }

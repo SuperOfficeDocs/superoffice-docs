@@ -131,17 +131,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 833,
-  "StartTime": "2007-07-25T14:13:38.9537033+02:00",
-  "EndTime": "2018-01-24T14:13:38.9537033+01:00",
-  "Count": 694,
+  "ProjectId": 358,
+  "StartTime": "1998-08-04T02:38:20.557605+02:00",
+  "EndTime": "2018-03-07T02:38:20.557605+01:00",
+  "Count": 280,
   "TaskIds": [
-    192,
-    110
+    204,
+    17
   ]
 }
 ```
@@ -154,65 +154,65 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 590,
-    "StartDate": "2007-08-05T14:13:38.9537033+02:00",
-    "EndDate": "1999-10-21T14:13:38.9537033+02:00",
+    "AppointmentId": 784,
+    "StartDate": "2018-11-17T02:38:20.557605+01:00",
+    "EndDate": "2013-02-14T02:38:20.557605+01:00",
     "Type": "BookingForChecklist",
-    "Task": "error",
-    "AssociateFullName": "Ms. Laura Triston Hegmann IV",
-    "ContactName": "Langosh LLC",
-    "Description": "Switchable solution-oriented artificial intelligence",
-    "PersonFullName": "Angelo Ziemann PhD",
-    "PersonId": 270,
-    "ContactId": 220,
-    "ProjectId": 87,
-    "ProjectName": "Cartwright-Abbott",
-    "IsPublished": true,
-    "AssociateId": 652,
-    "ColorIndex": 386,
-    "IsFree": true,
-    "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "Task": "et",
+    "AssociateFullName": "Mozell Rutherford",
+    "ContactName": "Kulas-Haag",
+    "Description": "Inverse bandwidth-monitored contingency",
+    "PersonFullName": "Prof. Vella Calista Tremblay IV",
+    "PersonId": 557,
+    "ContactId": 861,
+    "ProjectId": 813,
+    "ProjectName": "Kling LLC",
+    "IsPublished": false,
+    "AssociateId": 877,
+    "ColorIndex": 577,
+    "IsFree": false,
+    "HasAlarm": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 401,
-    "PriorityName": "Langworth, Bins and Paucek",
+    "PriorityId": 494,
+    "PriorityName": "Sanford Inc and Sons",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2014-05-15T14:13:38.9537033+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2009-03-14T02:38:20.557605+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-03-24T14:13:38.9537033+01:00",
-    "RecurringEndDate": "1999-07-01T14:13:38.9537033+02:00",
-    "MotherId": 558,
-    "AssignedBy": 838,
-    "AssignedByFullName": "Karelle Tillman III",
+    "RecurringStartDate": "2009-01-22T02:38:20.557605+01:00",
+    "RecurringEndDate": "2017-02-25T02:38:20.557605+01:00",
+    "MotherId": 49,
+    "AssignedBy": 438,
+    "AssignedByFullName": "Laron Bosco",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "rerum",
-    "SaleId": 239,
-    "SaleName": "Hettinger Inc and Sons",
-    "AssociateName": "Rempel-Herman",
-    "CreatedDate": "2024-05-18T14:13:38.9537033+02:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Devyn Alexie McLaughlin III",
-    "CreatedByAssociateId": 34,
+    "Location": "et",
+    "AlarmLeadTime": "labore",
+    "SaleId": 228,
+    "SaleName": "Wunsch LLC",
+    "AssociateName": "VonRueden-Klein",
+    "CreatedDate": "2024-05-10T02:38:20.557605+02:00",
+    "CreatedBy": "inventore",
+    "CreatedByFullName": "Cindy Davis",
+    "CreatedByAssociateId": 610,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 398,
-    "Title": "est",
-    "Agenda": "asperiores",
-    "InternalNotes": "id",
+    "PreferredTZLocation": 803,
+    "Title": "minus",
+    "Agenda": "dolorum",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 499
+        "FieldType": "System.Int32",
+        "FieldLength": 112
       }
     }
   }

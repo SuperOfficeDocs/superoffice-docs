@@ -875,6 +875,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
 |request/priorityName|listAny|Priority: Service priority| x |
+|request/ownedBy|ejUser|Owner: The owner of the request| x |
 |request/ticketId|int|ID: Displays request ID| x |
 |request/title|string|Title: Displays the request title| x |
 |request/createdAt|datetime|Created: Displays when the request was created| x |
@@ -908,7 +909,6 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/deadline|datetime|Deadline: Deadline| x |
 |request/has\_attachment|bool|Has attachment: Indicates whether the e-mail has one or more attachments| x |
 |request/tags|intArray|Tags: Tags connected to a request| x |
-|request/ownedBy|ejUser|Owner: The owner of the request| x |
 |request/createdBy|ejUser|Created by: Created by| x |
 |request/content|string|Content: Search for content in messages related to requests| x |
 |request/messageLanguage|listAny|Language: Recognized language in messages|  |
@@ -1206,7 +1206,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactDynamicSelection?$select=contactAssociate/portraitThumbnail,LastTicket,sale/saleUdef/SuperOffice:7,appointment/time,appointment/contactId
+GET /api/v1/archive/ContactDynamicSelection?$select=postAddress/line2,NumberOfActivitiesInPeriod,saintAmountClass,sourceRelation/business,appointment/completed
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

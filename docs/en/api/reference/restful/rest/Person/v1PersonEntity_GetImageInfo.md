@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 12 Jan 2009 14:13:49 G1T
+Last-Modified: Mon, 03 Feb 2020 02:38:26 G2T
 
 {
-  "BlobId": 467,
-  "BlobSize": 191,
-  "Description": "Right-sized contextually-based focus group",
-  "ExtraInfo": "quos",
-  "IsEncrypted": true,
+  "BlobId": 902,
+  "BlobSize": 109,
+  "Description": "Cloned leading edge project",
+  "ExtraInfo": "quae",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "optio",
-  "OriginalSize": 662,
-  "CreatedDate": "2013-01-14T14:13:49.0243988+01:00",
-  "UpdatedDate": "2009-01-12T14:13:49.0243988+01:00",
+  "MimeType": "totam",
+  "OriginalSize": 76,
+  "CreatedDate": "2020-05-30T02:38:26.1985521+02:00",
+  "UpdatedDate": "2020-02-03T02:38:26.1985521+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sed",
+  "ConceptualType": "tenetur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldType": "System.String",
+      "FieldLength": 628
     }
   }
 }

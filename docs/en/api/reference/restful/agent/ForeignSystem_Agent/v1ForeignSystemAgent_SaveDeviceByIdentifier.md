@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Stamm Group",
-  "DeviceName": "Mohr LLC",
-  "DeviceIdentifier": "ut",
+  "ApplicationName": "Ernser, Swift and Gerlach",
+  "DeviceName": "Ernser Inc and Sons",
+  "DeviceIdentifier": "aperiam",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 448,
-  "Name": "West-Gulgowski",
-  "CreatedDate": "2013-07-09T14:13:40.3909833+02:00",
-  "UpdatedDate": "2011-06-19T14:13:40.3909833+02:00",
-  "AssociateFullName": "Rosalind Lakin",
-  "CreatedBy": "ab",
-  "UpdatedBy": "voluptatem",
-  "DeviceIdentifier": "qui",
-  "ForeignAppId": 844,
+  "ForeignDeviceId": 51,
+  "Name": "Kling-Gleason",
+  "CreatedDate": "2003-04-22T02:38:21.4482803+02:00",
+  "UpdatedDate": "2005-07-29T02:38:21.4482803+02:00",
+  "AssociateFullName": "Ms. Sarai Jewess",
+  "CreatedBy": "quaerat",
+  "UpdatedBy": "modi",
+  "DeviceIdentifier": "officia",
+  "ForeignAppId": 350,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 558
+      "FieldLength": 487
     }
   }
 }

@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 928,
-  "Name": "Cormier Inc and Sons",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 779,
-  "Rank": 65
+  "Id": 772,
+  "Name": "Upton-Schaefer",
+  "Tooltip": "repellendus",
+  "Deleted": false,
+  "UdListDefinitionId": 346,
+  "Rank": 5
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 847,
-  "Name": "Satterfield, Hammes and Hessel",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "UdListDefinitionId": 595,
-  "Rank": 25,
+  "Id": 309,
+  "Name": "D'Amore-Lakin",
+  "Tooltip": "tenetur",
+  "Deleted": true,
+  "UdListDefinitionId": 331,
+  "Rank": 254,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldType": "System.String",
+      "FieldLength": 432
     }
   }
 }

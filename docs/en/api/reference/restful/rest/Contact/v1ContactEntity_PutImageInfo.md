@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 823,
-  "BlobSize": 501,
-  "Description": "Secured fault-tolerant synergy",
-  "ExtraInfo": "occaecati",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "sapiente",
-  "OriginalSize": 978,
-  "CreatedDate": "2007-10-01T14:13:48.4758003+02:00",
-  "UpdatedDate": "2003-01-22T14:13:48.4758003+01:00",
+  "BlobId": 723,
+  "BlobSize": 40,
+  "Description": "Universal user-facing projection",
+  "ExtraInfo": "aut",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "culpa",
+  "OriginalSize": 141,
+  "CreatedDate": "2012-05-18T02:38:25.9485792+02:00",
+  "UpdatedDate": "2000-05-11T02:38:25.9485792+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut"
+  "ConceptualType": "ipsa"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 804,
-  "BlobSize": 89,
-  "Description": "Right-sized attitude-oriented software",
-  "ExtraInfo": "eum",
+  "BlobId": 326,
+  "BlobSize": 167,
+  "Description": "Assimilated modular utilisation",
+  "ExtraInfo": "atque",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "quisquam",
-  "OriginalSize": 293,
-  "CreatedDate": "2012-10-31T14:13:48.4758003+01:00",
-  "UpdatedDate": "2000-04-27T14:13:48.4758003+02:00",
+  "IsZipped": false,
+  "MimeType": "sed",
+  "OriginalSize": 643,
+  "CreatedDate": "2007-05-13T02:38:25.9485792+02:00",
+  "UpdatedDate": "2008-05-21T02:38:25.9485792+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "atque",
+  "ConceptualType": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldType": "System.String",
+      "FieldLength": 618
     }
   }
 }

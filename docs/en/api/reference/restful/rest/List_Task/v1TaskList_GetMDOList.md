@@ -26,8 +26,8 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Task/MDOItems?flat=True
-GET /api/v1/List/Task/MDOItems?query=magni
+GET /api/v1/List/Task/MDOItems?flat=False
+GET /api/v1/List/Task/MDOItems?query=dignissimos
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 525,
-    "Name": "Grimes Group",
-    "ToolTip": "Itaque veritatis aut odit.",
+    "Id": 399,
+    "Name": "Hammes, Runte and Orn",
+    "ToolTip": "Error ullam sequi quos maiores officia id saepe.",
     "Deleted": false,
-    "Rank": 367,
-    "Type": "repellat",
+    "Rank": 269,
+    "Type": "sint",
     "ChildItems": [
       {
-        "Id": 899,
-        "Name": "VonRueden, Feest and Romaguera",
-        "ToolTip": "Vel veniam quos eos alias explicabo exercitationem.",
+        "Id": 967,
+        "Name": "Watsica LLC",
+        "ToolTip": "Reprehenderit sed ipsa doloremque.",
         "Deleted": false,
-        "Rank": 212,
-        "Type": "quae",
+        "Rank": 964,
+        "Type": "quibusdam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sint",
-        "ColorBlock": 895,
-        "ExtraInfo": "dignissimos",
-        "StyleHint": "aut",
-        "FullName": "Lori Schinner",
+        "IconHint": "minima",
+        "ColorBlock": 74,
+        "ExtraInfo": "fugit",
+        "StyleHint": "voluptatem",
+        "FullName": "Domingo Rath",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 893
+            "FieldType": "System.Int32",
+            "FieldLength": 15
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 941,
-    "ExtraInfo": "illo",
-    "StyleHint": "eos",
-    "FullName": "Carrie Hoeger",
+    "IconHint": "fuga",
+    "ColorBlock": 375,
+    "ExtraInfo": "magnam",
+    "StyleHint": "quod",
+    "FullName": "Verner Bernier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldLength": 408
       }
     }
   }

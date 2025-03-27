@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bernhard Group",
-    "Records": 864,
+    "EntityName": "Franecki LLC",
+    "Records": 925,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldLength": 428
       }
     }
   },
   {
-    "EntityName": "Bernhard Group",
-    "Records": 864,
+    "EntityName": "Franecki LLC",
+    "Records": 925,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldLength": 428
       }
     }
   }

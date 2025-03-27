@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 607,
-    "Name": "West Inc and Sons",
-    "Tooltip": "quibusdam",
+    "HeadingId": 583,
+    "Name": "Herzog, Jacobson and Dickinson",
+    "Tooltip": "dolor",
     "Deleted": true,
-    "Rank": 971,
-    "UdListDefinitionId": 969
+    "Rank": 590,
+    "UdListDefinitionId": 240
   },
   {
-    "HeadingId": 607,
-    "Name": "West Inc and Sons",
-    "Tooltip": "quibusdam",
+    "HeadingId": 583,
+    "Name": "Herzog, Jacobson and Dickinson",
+    "Tooltip": "dolor",
     "Deleted": true,
-    "Rank": 971,
-    "UdListDefinitionId": 969
+    "Rank": 590,
+    "UdListDefinitionId": 240
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 919,
-    "Name": "Christiansen-Nolan",
-    "Tooltip": "qui",
-    "Deleted": false,
-    "Rank": 19,
-    "UdListDefinitionId": 221,
+    "HeadingId": 97,
+    "Name": "White Inc and Sons",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "Rank": 306,
+    "UdListDefinitionId": 645,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 136
+        "FieldType": "System.Int32",
+        "FieldLength": 308
       }
     }
   }

@@ -73,8 +73,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 989,
-  "CapabilityName": "Batz, Jacobson and Bednar"
+  "QuoteConnectionId": 938,
+  "CapabilityName": "Medhurst, Johnston and Bruen"
 }
 ```
 

@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Powlowski LLC",
-      "Description": "Adaptive web-enabled local area network",
+      "Name": "Crist-Braun",
+      "Description": "Inverse leading edge challenge",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Powlowski LLC",
-      "Description": "Adaptive web-enabled local area network",
+      "Name": "Crist-Braun",
+      "Description": "Inverse leading edge challenge",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,30 +119,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Miller, Reinger and Feeney",
-    "Description": "Cross-platform stable budgetary management",
+    "Name": "McCullough, Jast and Fahey",
+    "Description": "Triple-buffered human-resource conglomeration",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 751,
-        "Tooltip": "vel",
+        "Unrestricted": true,
+        "Total": 473,
+        "Tooltip": "quia",
         "CanAssign": false,
-        "Free": 129,
-        "InUse": 447,
+        "Free": 407,
+        "InUse": 157,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 966,
-        "Name": "Legros Group",
-        "Description": "Focused full-range installation",
-        "PrerequisiteModuleName": "Jones-D'Amore",
-        "SortOrder": 951,
-        "ExtraFlags": 118,
+        "ModuleLicenseId": 299,
+        "Name": "Klocko LLC",
+        "Description": "Automated composite secured line",
+        "PrerequisiteModuleName": "Hudson LLC",
+        "SortOrder": 927,
+        "ExtraFlags": 320,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 758
+            "FieldLength": 318
           }
         }
       }
@@ -150,25 +150,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 539,
-        "Tooltip": "rerum",
+        "Total": 967,
+        "Tooltip": "sint",
         "CanAssign": false,
-        "Free": 529,
-        "InUse": 653,
+        "Free": 221,
+        "InUse": 141,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 648,
-        "Name": "Upton-Rice",
-        "Description": "Business-focused didactic circuit",
-        "PrerequisiteModuleName": "Dietrich, Hermann and Ernser",
-        "SortOrder": 408,
-        "ExtraFlags": 886,
+        "ModuleLicenseId": 697,
+        "Name": "Hoeger LLC",
+        "Description": "Operative asynchronous alliance",
+        "PrerequisiteModuleName": "Russel-Trantow",
+        "SortOrder": 40,
+        "ExtraFlags": 507,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 583
+            "FieldLength": 325
           }
         }
       }
@@ -178,35 +178,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 488
+        "FieldLength": 557
       }
     }
   },
   {
-    "Name": "Miller, Reinger and Feeney",
-    "Description": "Cross-platform stable budgetary management",
+    "Name": "McCullough, Jast and Fahey",
+    "Description": "Triple-buffered human-resource conglomeration",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 751,
-        "Tooltip": "vel",
+        "Unrestricted": true,
+        "Total": 473,
+        "Tooltip": "quia",
         "CanAssign": false,
-        "Free": 129,
-        "InUse": 447,
+        "Free": 407,
+        "InUse": 157,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 966,
-        "Name": "Legros Group",
-        "Description": "Focused full-range installation",
-        "PrerequisiteModuleName": "Jones-D'Amore",
-        "SortOrder": 951,
-        "ExtraFlags": 118,
+        "ModuleLicenseId": 299,
+        "Name": "Klocko LLC",
+        "Description": "Automated composite secured line",
+        "PrerequisiteModuleName": "Hudson LLC",
+        "SortOrder": 927,
+        "ExtraFlags": 320,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 758
+            "FieldLength": 318
           }
         }
       }
@@ -214,25 +214,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 539,
-        "Tooltip": "rerum",
+        "Total": 967,
+        "Tooltip": "sint",
         "CanAssign": false,
-        "Free": 529,
-        "InUse": 653,
+        "Free": 221,
+        "InUse": 141,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 648,
-        "Name": "Upton-Rice",
-        "Description": "Business-focused didactic circuit",
-        "PrerequisiteModuleName": "Dietrich, Hermann and Ernser",
-        "SortOrder": 408,
-        "ExtraFlags": 886,
+        "ModuleLicenseId": 697,
+        "Name": "Hoeger LLC",
+        "Description": "Operative asynchronous alliance",
+        "PrerequisiteModuleName": "Russel-Trantow",
+        "SortOrder": 40,
+        "ExtraFlags": 507,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 583
+            "FieldLength": 325
           }
         }
       }
@@ -242,7 +242,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 488
+        "FieldLength": 557
       }
     }
   }

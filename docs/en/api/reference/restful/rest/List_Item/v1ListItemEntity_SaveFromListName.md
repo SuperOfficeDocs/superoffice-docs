@@ -83,12 +83,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 857,
-  "Name": "Kerluke-Orn",
-  "Tooltip": "harum",
+  "Id": 28,
+  "Name": "Douglas-Dare",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "UdListDefinitionId": 342,
-  "Rank": 510
+  "UdListDefinitionId": 655,
+  "Rank": 720
 }
 ```
 
@@ -99,18 +99,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 793,
-  "Name": "Strosin, Vandervort and Aufderhar",
-  "Tooltip": "maiores",
-  "Deleted": false,
-  "UdListDefinitionId": 798,
-  "Rank": 597,
+  "Id": 608,
+  "Name": "Renner-Sanford",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "UdListDefinitionId": 336,
+  "Rank": 253,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 923
+      "FieldType": "System.String",
+      "FieldLength": 405
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Auer Inc and Sons",
-    "ToolTip": "Tempora quam quis facilis ratione ullam assumenda aliquam.",
+    "Id": 502,
+    "Name": "Botsford Group",
+    "ToolTip": "Ullam quia eum similique illo dolores voluptatibus.",
     "Deleted": false,
-    "Rank": 961,
-    "Type": "non",
-    "ColorBlock": 184,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2000-12-17T14:13:50.0719138+01:00",
+    "Rank": 252,
+    "Type": "eligendi",
+    "ColorBlock": 11,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2012-12-12T02:38:26.8392626+01:00",
     "ChildItems": [
       {
-        "Id": 127,
-        "Name": "Baumbach, Thiel and Klocko",
-        "ToolTip": "Maiores qui.",
-        "Deleted": true,
-        "Rank": 986,
-        "Type": "id",
-        "ColorBlock": 751,
-        "IconHint": "quia",
+        "Id": 943,
+        "Name": "Robel-DuBuque",
+        "ToolTip": "Sint et beatae hic autem doloribus eos.",
+        "Deleted": false,
+        "Rank": 541,
+        "Type": "ducimus",
+        "ColorBlock": 832,
+        "IconHint": "nulla",
         "Selected": false,
-        "LastChanged": "2017-07-12T14:13:50.0719138+02:00",
+        "LastChanged": "2021-11-30T02:38:26.8392626+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "facere",
+        "StyleHint": "adipisci",
         "Hidden": false,
-        "FullName": "Lorine Jewess",
+        "FullName": "Miss Eudora Jefferey Runte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 841
+            "FieldLength": 818
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "minus",
-    "Hidden": false,
-    "FullName": "Uriel Cronin",
+    "ExtraInfo": "nemo",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Prof. Florencio Dejah Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 341
+        "FieldType": "System.String",
+        "FieldLength": 53
       }
     }
   }

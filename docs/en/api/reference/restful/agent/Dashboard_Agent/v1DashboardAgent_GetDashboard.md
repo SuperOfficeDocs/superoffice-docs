@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=533
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=362
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 273,
-  "AssociateId": 61,
-  "Caption": "esse",
+  "DashboardId": 422,
+  "AssociateId": 67,
+  "Caption": "dolor",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 475,
-      "Caption": "voluptatum",
-      "Description": "Profit-focused multimedia middleware",
-      "ChartName": "Konopelski Group",
-      "ChartId": "omnis",
-      "IsDefault": false,
-      "AssociateId": 448,
-      "GroupId": 158,
-      "SelectionId": 736,
-      "Config": "quis",
+      "DashboardTileId": 571,
+      "Caption": "dolorem",
+      "Description": "Enhanced upward-trending capability",
+      "ChartName": "Osinski LLC",
+      "ChartId": "molestias",
+      "IsDefault": true,
+      "AssociateId": 763,
+      "GroupId": 546,
+      "SelectionId": 866,
+      "Config": "quae",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 783
+          "FieldLength": 35
         }
       }
     }
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 786
+      "FieldLength": 101
     }
   }
 }

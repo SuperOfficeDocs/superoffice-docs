@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 169,
-    "Name": "Jacobs Group",
-    "ContentType": "et",
-    "AttSize": 881,
+    "AttachmentId": 107,
+    "Name": "Ernser LLC",
+    "ContentType": "est",
+    "AttSize": 310,
     "InlineImage": false,
-    "ContentId": "voluptate",
-    "AuthKey": "in",
-    "IsSafeFileExtension": true,
+    "ContentId": "ea",
+    "AuthKey": "non",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 784
       }
     }
   }

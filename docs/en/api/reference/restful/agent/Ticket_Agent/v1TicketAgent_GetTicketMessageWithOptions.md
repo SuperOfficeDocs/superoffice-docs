@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 476,
+  "TicketMessageEntityId": 931,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 35,
+  "EjMessageId": 68,
   "Ticket": null,
-  "CreatedAt": "2024-08-29T14:13:41.3914541+02:00",
+  "CreatedAt": "2005-02-13T02:38:22.02635+01:00",
   "CreatedBy": null,
-  "Author": "et",
+  "Author": "nemo",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "est",
-  "TimeSpent": 254,
-  "Body": "magni",
-  "HtmlBody": "voluptatem",
-  "EmailHeader": "walton_deckow@hudsonrice.us",
-  "DebugInfo": "et",
-  "MailSorter": "quo",
+  "MessageId": "sed",
+  "TimeSpent": 573,
+  "Body": "earum",
+  "HtmlBody": "nesciunt",
+  "EmailHeader": "jacey@strosincasper.co.uk",
+  "DebugInfo": "fugit",
+  "MailSorter": "rerum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "hic",
+  "SearchTitle": "enim",
   "MessageHeaders": [
     {
-      "Id": 375,
-      "Name": "Hammes-Renner",
-      "Value": "omnis",
+      "Id": 505,
+      "Name": "Vandervort Inc and Sons",
+      "Value": "ullam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 809
+          "FieldLength": 529
         }
       }
     }
   ],
   "Important": false,
-  "Language": "delectus",
-  "Sentiment": 199,
-  "SentimentConfidence": 222,
+  "Language": "dolore",
+  "Sentiment": 264,
+  "SentimentConfidence": 5,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 103,
-      "Name": "Abernathy Inc and Sons",
-      "ContentType": "minima",
-      "AttSize": 738,
-      "InlineImage": true,
-      "ContentId": "voluptatibus",
-      "AuthKey": "ipsa",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 798,
+      "Name": "D'Amore-Bins",
+      "ContentType": "molestiae",
+      "AttSize": 92,
+      "InlineImage": false,
+      "ContentId": "non",
+      "AuthKey": "dolores",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldLength": 107
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "et"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "tempora"
+    "CustomFields1": "id",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldLength": 560
     }
   }
 }

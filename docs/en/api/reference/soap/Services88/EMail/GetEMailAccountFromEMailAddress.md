@@ -88,7 +88,7 @@ Application tokens must be specified if calling an Online installation. Applicat
     <EMail:InboxFolder xsi:type="xsd:string"></EMail:InboxFolder>
     <EMail:SentFolder xsi:type="xsd:string"></EMail:SentFolder>
     <EMail:SimpleMode xsi:type="xsd:short">0</EMail:SimpleMode>
-    <EMail:LastFetch xsi:type="xsd:dateTime">2025-02-24T13:12:02Z</EMail:LastFetch>
+    <EMail:LastFetch xsi:type="xsd:dateTime">2025-03-19T01:36:48Z</EMail:LastFetch>
    </EMail:Response>
   </EMail:GetEMailAccountFromEMailAddressResponse>
  </SOAP-ENV:Body>

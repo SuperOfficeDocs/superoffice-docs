@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 197
+  "EjUserId": 235
 }
 ```
 
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 458,
-    "Name": "Dach, Larkin and Moen",
-    "Rank": 807,
-    "Tooltip": "sed",
+    "AssociateId": 567,
+    "Name": "Brekke-Borer",
+    "Rank": 30,
+    "Tooltip": "dolor",
     "LicenseOwners": [
       {
-        "Name": "Lehner Inc and Sons",
-        "Description": "Configurable 4th generation orchestration",
+        "Name": "Maggio LLC",
+        "Description": "Customer-focused cohesive neural-net",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 859
+            "FieldLength": 26
           }
         }
       },
       {
-        "Name": "Lehner Inc and Sons",
-        "Description": "Configurable 4th generation orchestration",
+        "Name": "Maggio LLC",
+        "Description": "Customer-focused cohesive neural-net",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -151,90 +151,6 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 859
-          }
-        }
-      }
-    ],
-    "Role": null,
-    "UserGroup": null,
-    "OtherGroups": [
-      {
-        "Value": "est",
-        "Tooltip": "autem",
-        "Id": 219,
-        "Rank": 290,
-        "Deleted": false,
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 7
-          }
-        }
-      }
-    ],
-    "Person": null,
-    "Deleted": true,
-    "Lastlogin": "2014-05-23T14:13:41.7196115+02:00",
-    "Lastlogout": "2021-10-10T14:13:41.7196115+02:00",
-    "EjUserId": 482,
-    "RequestSignature": "vel",
-    "Type": "AnonymousAssociate",
-    "IsPersonRetired": true,
-    "IsOnTravel": false,
-    "Credentials": [
-      {
-        "Type": null,
-        "Value": "tempora",
-        "DisplayValue": "ut",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 186
-          }
-        }
-      },
-      {
-        "Type": null,
-        "Value": "tempora",
-        "DisplayValue": "ut",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 186
-          }
-        }
-      }
-    ],
-    "UserName": "Smith, Smith and Windler",
-    "TicketCategories": [
-      {
-        "Id": 276,
-        "Name": "Nader-Buckridge",
-        "ToolTip": "Numquam asperiores.",
-        "Deleted": true,
-        "Rank": 601,
-        "Type": "deleniti",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "amet",
-        "ColorBlock": 750,
-        "ExtraInfo": "deleniti",
-        "StyleHint": "rerum",
-        "FullName": "Kianna Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -245,30 +161,114 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "NickName": "Ebert-Crooks",
-    "WaitingForApproval": true,
-    "ExtraFields": {
-      "ExtraFields1": "et",
-      "ExtraFields2": "iste"
-    },
-    "CustomFields": {
-      "CustomFields1": "officiis",
-      "CustomFields2": "magnam"
-    },
-    "PostSaveCommands": [
+    "Role": null,
+    "UserGroup": null,
+    "OtherGroups": [
       {
-        "Name": "Schimmel, Dach and Schaden",
-        "DisplayName": "Kling-Keebler",
-        "Description": "Pre-emptive scalable success",
-        "ToolTip": "Quia est est.",
-        "Actions": "Implicit",
-        "ActionData": "temporibus",
+        "Value": "temporibus",
+        "Tooltip": "commodi",
+        "Id": 819,
+        "Rank": 602,
+        "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 952
+            "FieldLength": 271
+          }
+        }
+      }
+    ],
+    "Person": null,
+    "Deleted": false,
+    "Lastlogin": "2000-07-06T02:38:22.2294127+02:00",
+    "Lastlogout": "1998-03-31T02:38:22.2294127+02:00",
+    "EjUserId": 374,
+    "RequestSignature": "ipsum",
+    "Type": "AnonymousAssociate",
+    "IsPersonRetired": false,
+    "IsOnTravel": false,
+    "Credentials": [
+      {
+        "Type": null,
+        "Value": "laborum",
+        "DisplayValue": "pariatur",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 875
+          }
+        }
+      },
+      {
+        "Type": null,
+        "Value": "laborum",
+        "DisplayValue": "pariatur",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 875
+          }
+        }
+      }
+    ],
+    "UserName": "Smith-Turcotte",
+    "TicketCategories": [
+      {
+        "Id": 135,
+        "Name": "Cronin, Kuphal and Mertz",
+        "ToolTip": "Aut dolores dolor nihil qui ducimus voluptatem.",
+        "Deleted": false,
+        "Rank": 244,
+        "Type": "est",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "ipsa",
+        "ColorBlock": 943,
+        "ExtraInfo": "eos",
+        "StyleHint": "quae",
+        "FullName": "Mervin Harris",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 332
+          }
+        }
+      }
+    ],
+    "NickName": "Gaylord, Rempel and Satterfield",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "eos",
+      "ExtraFields2": "quidem"
+    },
+    "CustomFields": {
+      "CustomFields1": "blanditiis",
+      "CustomFields2": "iure"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Morissette Group",
+        "DisplayName": "Maggio, Huels and Lubowitz",
+        "Description": "Switchable modular migration",
+        "ToolTip": "Quis laudantium aut assumenda.",
+        "Actions": "Implicit",
+        "ActionData": "voluptatibus",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 642
           }
         }
       }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 250
+        "FieldLength": 433
       }
     }
   }

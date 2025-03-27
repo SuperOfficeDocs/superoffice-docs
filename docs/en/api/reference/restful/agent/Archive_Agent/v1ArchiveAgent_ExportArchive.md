@@ -87,37 +87,37 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Thiel LLC",
-  "Context": "et",
+  "ProviderName": "Stokes, Renner and Torp",
+  "Context": "nihil",
   "DesiredEntities": [
-    "eum",
-    "et"
+    "dolorum",
+    "ut"
   ],
   "Columns": [
-    "rerum",
-    "inventore"
+    "corrupti",
+    "et"
   ],
   "SortOrder": [
     {
-      "Name": "O'Reilly-Bailey",
+      "Name": "Goodwin-Mayert",
       "Direction": "ASC"
     },
     {
-      "Name": "O'Reilly-Bailey",
+      "Name": "Goodwin-Mayert",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Dach Inc and Sons",
-      "Operator": "voluptatibus",
+      "Name": "Green-Kris",
+      "Operator": "sunt",
       "Values": [
-        "rerum",
-        "adipisci"
+        "iste",
+        "et"
       ],
       "DisplayValues": [
-        "hic",
-        "nemo"
+        "tempora",
+        "blanditiis"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -125,17 +125,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 535,
+      "InterParenthesis": 314,
       "InterOperator": "And",
-      "UniqueHash": 570
+      "UniqueHash": 1000
     }
   ],
-  "ExportType": "consequuntur",
+  "ExportType": "quo",
   "SelectedRowIds": [
-    "veniam",
-    "vel"
+    "harum",
+    "cupiditate"
   ],
-  "EstimatedRowCount": 104
+  "EstimatedRowCount": 230
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 991,
-  "FileName": "Purdy, Bartoletti and Gerhold",
-  "Message": "excepturi",
+  "BatchTaskId": 771,
+  "FileName": "Abbott Group",
+  "Message": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 384
+      "FieldLength": 351
     }
   }
 }

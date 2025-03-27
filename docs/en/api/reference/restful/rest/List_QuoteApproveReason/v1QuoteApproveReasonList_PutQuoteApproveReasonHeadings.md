@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 333,
-    "Name": "Hintz, Bogan and Auer",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 397
+    "HeadingId": 695,
+    "Name": "Kling Group",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 336,
+    "UdListDefinitionId": 399
   },
   {
-    "HeadingId": 333,
-    "Name": "Hintz, Bogan and Auer",
-    "Tooltip": "omnis",
-    "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 397
+    "HeadingId": 695,
+    "Name": "Kling Group",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 336,
+    "UdListDefinitionId": 399
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 261,
-    "Name": "Klein Group",
-    "Tooltip": "iure",
+    "HeadingId": 171,
+    "Name": "Heller, Bins and Farrell",
+    "Tooltip": "ipsa",
     "Deleted": false,
-    "Rank": 30,
-    "UdListDefinitionId": 48,
+    "Rank": 253,
+    "UdListDefinitionId": 809,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 544
+        "FieldType": "System.String",
+        "FieldLength": 464
       }
     }
   }

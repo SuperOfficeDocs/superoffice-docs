@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDashTileSelectionFromEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Howe, Collins and D'Amore"
+  "EntityName": "McDermott LLC"
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-726
+700
 ```

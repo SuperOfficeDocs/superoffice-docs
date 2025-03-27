@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 806,
-    "Name": "Hansen-Baumbach",
-    "ToolTip": "Eaque dolor error.",
+    "Id": 915,
+    "Name": "Batz, Douglas and Romaguera",
+    "ToolTip": "Vero in repellendus.",
     "Deleted": false,
-    "Rank": 30,
-    "Type": "voluptate",
-    "ColorBlock": 79,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2007-11-12T14:13:50.1343965+01:00",
+    "Rank": 695,
+    "Type": "natus",
+    "ColorBlock": 849,
+    "IconHint": "corrupti",
+    "Selected": false,
+    "LastChanged": "2002-09-30T02:38:26.8705112+02:00",
     "ChildItems": [
       {
-        "Id": 6,
-        "Name": "Funk, Funk and Stroman",
-        "ToolTip": "Ipsum doloremque sunt qui et dolores architecto et.",
-        "Deleted": true,
-        "Rank": 544,
-        "Type": "magni",
-        "ColorBlock": 529,
-        "IconHint": "accusantium",
-        "Selected": false,
-        "LastChanged": "2012-08-31T14:13:50.1343965+02:00",
+        "Id": 531,
+        "Name": "Franecki-VonRueden",
+        "ToolTip": "Asperiores deserunt veniam.",
+        "Deleted": false,
+        "Rank": 30,
+        "Type": "debitis",
+        "ColorBlock": 303,
+        "IconHint": "eaque",
+        "Selected": true,
+        "LastChanged": "2007-04-12T02:38:26.8705112+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "ea",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Harold Bailey",
+        "FullName": "Raymundo Terry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 178
+            "FieldLength": 643
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "rem",
-    "Hidden": true,
-    "FullName": "Brandyn O'Keefe",
+    "ExtraInfo": "velit",
+    "StyleHint": "nobis",
+    "Hidden": false,
+    "FullName": "Garry Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldLength": 34
       }
     }
   }

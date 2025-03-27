@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 239
+  "AssociateId": 178
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heaney LLC",
-    "Description": "Exclusive intangible productivity",
+    "Name": "Funk Group",
+    "Description": "Re-contextualized analyzing approach",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 767,
-        "Tooltip": "nihil",
+        "Total": 150,
+        "Tooltip": "numquam",
         "CanAssign": false,
-        "Free": 288,
-        "InUse": 773,
+        "Free": 371,
+        "InUse": 834,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 610,
-        "Name": "VonRueden, Romaguera and Turcotte",
-        "Description": "Diverse human-resource moratorium",
-        "PrerequisiteModuleName": "Kutch-Bayer",
-        "SortOrder": 574,
-        "ExtraFlags": 711,
+        "ModuleLicenseId": 812,
+        "Name": "Conroy-Jakubowski",
+        "Description": "Pre-emptive systemic hierarchy",
+        "PrerequisiteModuleName": "Stamm Inc and Sons",
+        "SortOrder": 232,
+        "ExtraFlags": 148,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 260
+            "FieldLength": 420
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 681,
-        "Tooltip": "fugit",
+        "Total": 525,
+        "Tooltip": "culpa",
         "CanAssign": false,
-        "Free": 861,
-        "InUse": 453,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 39,
-        "Name": "Schmidt-Adams",
-        "Description": "Virtual explicit policy",
-        "PrerequisiteModuleName": "Rowe Group",
-        "SortOrder": 892,
-        "ExtraFlags": 82,
+        "Free": 35,
+        "InUse": 35,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 542,
+        "Name": "Moore, Conn and Beahan",
+        "Description": "Balanced modular success",
+        "PrerequisiteModuleName": "Ondricka, Considine and Graham",
+        "SortOrder": 885,
+        "ExtraFlags": 777,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 208
+            "FieldType": "System.String",
+            "FieldLength": 167
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 83
+        "FieldType": "System.Int32",
+        "FieldLength": 638
       }
     }
   },
   {
-    "Name": "Heaney LLC",
-    "Description": "Exclusive intangible productivity",
+    "Name": "Funk Group",
+    "Description": "Re-contextualized analyzing approach",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 767,
-        "Tooltip": "nihil",
+        "Total": 150,
+        "Tooltip": "numquam",
         "CanAssign": false,
-        "Free": 288,
-        "InUse": 773,
+        "Free": 371,
+        "InUse": 834,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 610,
-        "Name": "VonRueden, Romaguera and Turcotte",
-        "Description": "Diverse human-resource moratorium",
-        "PrerequisiteModuleName": "Kutch-Bayer",
-        "SortOrder": 574,
-        "ExtraFlags": 711,
+        "ModuleLicenseId": 812,
+        "Name": "Conroy-Jakubowski",
+        "Description": "Pre-emptive systemic hierarchy",
+        "PrerequisiteModuleName": "Stamm Inc and Sons",
+        "SortOrder": 232,
+        "ExtraFlags": 148,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 260
+            "FieldLength": 420
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 681,
-        "Tooltip": "fugit",
+        "Total": 525,
+        "Tooltip": "culpa",
         "CanAssign": false,
-        "Free": 861,
-        "InUse": 453,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 39,
-        "Name": "Schmidt-Adams",
-        "Description": "Virtual explicit policy",
-        "PrerequisiteModuleName": "Rowe Group",
-        "SortOrder": 892,
-        "ExtraFlags": 82,
+        "Free": 35,
+        "InUse": 35,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 542,
+        "Name": "Moore, Conn and Beahan",
+        "Description": "Balanced modular success",
+        "PrerequisiteModuleName": "Ondricka, Considine and Graham",
+        "SortOrder": 885,
+        "ExtraFlags": 777,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 208
+            "FieldType": "System.String",
+            "FieldLength": 167
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 83
+        "FieldType": "System.Int32",
+        "FieldLength": 638
       }
     }
   }

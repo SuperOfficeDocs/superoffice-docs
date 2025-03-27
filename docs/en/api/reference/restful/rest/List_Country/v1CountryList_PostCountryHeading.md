@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 322,
-  "Name": "Feest-Rutherford",
-  "Tooltip": "autem",
+  "HeadingId": 146,
+  "Name": "Nitzsche, Pfannerstill and Hane",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "Rank": 171,
-  "UdListDefinitionId": 891
+  "Rank": 931,
+  "UdListDefinitionId": 837
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 335,
-  "Name": "Bashirian Inc and Sons",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "Rank": 467,
-  "UdListDefinitionId": 94,
+  "HeadingId": 173,
+  "Name": "Lemke, Jacobson and Kling",
+  "Tooltip": "ullam",
+  "Deleted": true,
+  "Rank": 956,
+  "UdListDefinitionId": 55,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 537
     }
   }
 }

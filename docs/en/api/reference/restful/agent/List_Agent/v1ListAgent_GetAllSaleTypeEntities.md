@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 459,
-    "Name": "Mayer, Volkman and Skiles",
-    "Tooltip": "aut",
-    "Rank": 131,
+    "SaleTypeId": 383,
+    "Name": "Fay LLC",
+    "Tooltip": "omnis",
+    "Rank": 374,
     "DurationUnit": "Century",
-    "SaleDuration": 313,
-    "SaleTypeCatId": 422,
+    "SaleDuration": 620,
+    "SaleTypeCatId": 953,
     "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": true,
     "IsAutoAdvance": false,
     "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 993,
-    "QuoteLinesTemplate": 177,
-    "ConfirmationLinesTemplate": 117,
+    "DefaultQuoteValidity": 570,
+    "QuoteLinesTemplate": 271,
+    "ConfirmationLinesTemplate": 890,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 962,
-    "MinEarningPercent": 371,
-    "GroupQuoteLinesBy": 512,
-    "SortGroupLinesBy": 452,
+    "MaxDiscountPercent": 998,
+    "MinEarningPercent": 915,
+    "GroupQuoteLinesBy": 889,
+    "SortGroupLinesBy": 428,
     "Stages": [
       {
-        "Id": 466,
-        "Name": "Jakubowski-Schamberger",
-        "ToolTip": "Numquam deserunt.",
-        "Deleted": false,
-        "Rank": 993,
-        "Type": "doloremque",
-        "ColorBlock": 699,
-        "IconHint": "maiores",
+        "Id": 810,
+        "Name": "Reinger Group",
+        "ToolTip": "Voluptatem velit eos rerum voluptate saepe unde.",
+        "Deleted": true,
+        "Rank": 430,
+        "Type": "aut",
+        "ColorBlock": 82,
+        "IconHint": "a",
         "Selected": true,
-        "LastChanged": "2007-10-25T14:13:40.4534691+02:00",
+        "LastChanged": "2021-08-27T02:38:21.4951545+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "dolorum",
-        "Hidden": false,
-        "FullName": "Prof. Myrtis Liliana Stehr PhD",
+        "ExtraInfo": "totam",
+        "StyleHint": "quae",
+        "Hidden": true,
+        "FullName": "Marcelo Hills",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 71
+            "FieldLength": 802
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 120
       }
     }
   }

@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Gleason Inc and Sons",
-      "DisplayName": "Prosacco, Hodkiewicz and Herzog",
-      "DisplayTooltip": "dolorum",
+      "Name": "Brown, Spinka and Waelchi",
+      "DisplayName": "Hills Inc and Sons",
+      "DisplayTooltip": "magni",
       "IsActive": false
     },
     {
-      "Name": "Gleason Inc and Sons",
-      "DisplayName": "Prosacco, Hodkiewicz and Herzog",
-      "DisplayTooltip": "dolorum",
+      "Name": "Brown, Spinka and Waelchi",
+      "DisplayName": "Hills Inc and Sons",
+      "DisplayTooltip": "magni",
       "IsActive": false
     }
   ]

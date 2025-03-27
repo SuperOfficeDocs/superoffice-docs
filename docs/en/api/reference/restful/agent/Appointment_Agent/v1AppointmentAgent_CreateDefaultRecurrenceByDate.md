@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrenceByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2023-07-29T14:13:39.2036462+02:00"
+  "StartDate": "2002-10-01T02:38:20.7764793+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 188,
-  "StartDate": "1999-05-06T14:13:39.2036462+02:00",
-  "EndDate": "2008-08-24T14:13:39.2036462+02:00",
-  "RecurrenceCounter": 619,
+  "RecurrenceId": 944,
+  "StartDate": "2013-04-09T02:38:20.7764793+02:00",
+  "EndDate": "2015-10-24T02:38:20.7764793+02:00",
+  "RecurrenceCounter": 54,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2004-07-27T14:13:39.2036462+02:00",
-      "IsConflict": false,
-      "Description": "Seamless coherent secured line",
-      "DescriptionStyleHint": "Front-line directional service-desk",
-      "Tooltip": "dolor"
+      "Date": "2001-07-21T02:38:20.7764793+02:00",
+      "IsConflict": true,
+      "Description": "Persistent human-resource installation",
+      "DescriptionStyleHint": "Streamlined explicit software",
+      "Tooltip": "consequatur"
     },
     {
-      "Date": "2004-07-27T14:13:39.2036462+02:00",
-      "IsConflict": false,
-      "Description": "Seamless coherent secured line",
-      "DescriptionStyleHint": "Front-line directional service-desk",
-      "Tooltip": "dolor"
+      "Date": "2001-07-21T02:38:20.7764793+02:00",
+      "IsConflict": true,
+      "Description": "Persistent human-resource installation",
+      "DescriptionStyleHint": "Streamlined explicit software",
+      "Tooltip": "consequatur"
     }
   ],
   "IsRecurrence": true

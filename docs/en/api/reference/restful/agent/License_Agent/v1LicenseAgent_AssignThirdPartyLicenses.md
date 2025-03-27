@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 791,
-  "ModuleOwner": "nulla",
+  "AssociateId": 880,
+  "ModuleOwner": "quod",
   "ModuleLicenseNames": [
-    "Huel Inc and Sons",
-    "Lang-Gislason"
+    "Donnelly-Buckridge",
+    "Morissette, Hamill and Towne"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 454,
-    "Tooltip": "sunt",
-    "CanAssign": true,
-    "Free": 702,
-    "InUse": 421,
+    "Unrestricted": false,
+    "Total": 669,
+    "Tooltip": "nobis",
+    "CanAssign": false,
+    "Free": 692,
+    "InUse": 679,
     "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 362,
-    "Name": "Zemlak, Schroeder and Lind",
-    "Description": "Persistent zero administration local area network",
-    "PrerequisiteModuleName": "Dooley LLC",
-    "SortOrder": 683,
-    "ExtraFlags": 666,
+    "ModuleLicenseId": 996,
+    "Name": "Beatty Group",
+    "Description": "Future-proofed well-modulated capability",
+    "PrerequisiteModuleName": "Stanton-Gibson",
+    "SortOrder": 124,
+    "ExtraFlags": 735,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldLength": 727
       }
     }
   }

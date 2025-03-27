@@ -26,8 +26,8 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Category/MDOItems?flat=True
-GET /api/v1/List/Category/MDOItems?query=eum
+GET /api/v1/List/Category/MDOItems?flat=False
+GET /api/v1/List/Category/MDOItems?query=aut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 377,
-    "Name": "Schinner-Weimann",
-    "ToolTip": "Et dolore qui.",
+    "Id": 368,
+    "Name": "Sipes Inc and Sons",
+    "ToolTip": "Dolores aperiam ipsa quis beatae.",
     "Deleted": false,
-    "Rank": 157,
-    "Type": "eos",
+    "Rank": 870,
+    "Type": "non",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "Wolff-Jacobs",
-        "ToolTip": "Quo et qui ut sit.",
+        "Id": 226,
+        "Name": "Swaniawski-Quigley",
+        "ToolTip": "Doloremque sit assumenda unde maxime.",
         "Deleted": true,
-        "Rank": 697,
-        "Type": "necessitatibus",
+        "Rank": 489,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laboriosam",
-        "ColorBlock": 381,
-        "ExtraInfo": "nam",
-        "StyleHint": "quo",
-        "FullName": "Dr. Corene Kelli Zieme",
+        "IconHint": "sed",
+        "ColorBlock": 353,
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "aut",
+        "FullName": "Dr. Amber Enid Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 899
+            "FieldLength": 577
           }
         }
       }
     ],
-    "IconHint": "rerum",
-    "ColorBlock": 914,
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "aut",
-    "FullName": "Prof. Citlalli Gabe Yost",
+    "IconHint": "perspiciatis",
+    "ColorBlock": 890,
+    "ExtraInfo": "ab",
+    "StyleHint": "voluptate",
+    "FullName": "Mr. Hank Alta Welch MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldType": "System.Int32",
+        "FieldLength": 554
       }
     }
   }

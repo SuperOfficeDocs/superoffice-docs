@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 320,
-    "Name": "Prosacco, Rowe and Bradtke",
-    "Tooltip": "nemo",
-    "Deleted": false,
-    "Rank": 172,
-    "UdListDefinitionId": 162
+    "HeadingId": 324,
+    "Name": "Wolff-Prohaska",
+    "Tooltip": "quos",
+    "Deleted": true,
+    "Rank": 753,
+    "UdListDefinitionId": 816
   },
   {
-    "HeadingId": 320,
-    "Name": "Prosacco, Rowe and Bradtke",
-    "Tooltip": "nemo",
-    "Deleted": false,
-    "Rank": 172,
-    "UdListDefinitionId": 162
+    "HeadingId": 324,
+    "Name": "Wolff-Prohaska",
+    "Tooltip": "quos",
+    "Deleted": true,
+    "Rank": 753,
+    "UdListDefinitionId": 816
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 612,
-    "Name": "Schaden LLC",
-    "Tooltip": "voluptatum",
+    "HeadingId": 716,
+    "Name": "Schowalter LLC",
+    "Tooltip": "labore",
     "Deleted": false,
-    "Rank": 123,
-    "UdListDefinitionId": 102,
+    "Rank": 386,
+    "UdListDefinitionId": 222,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 158
+        "FieldLength": 123
       }
     }
   }

@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 847,
-  "TargetDimensionId": 355
+  "Year": 219,
+  "TargetDimensionId": 169
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 749,
+    "TargetAssignmentInfoId": 157,
     "Values": [
-      394,
-      533
+      207,
+      19
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 123,
-    "DimensionListItemDisplayName": "Wintheiser LLC",
+    "DimensionListItem": 944,
+    "DimensionListItemDisplayName": "Lowe, Schimmel and Bailey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldLength": 716
       }
     }
   }

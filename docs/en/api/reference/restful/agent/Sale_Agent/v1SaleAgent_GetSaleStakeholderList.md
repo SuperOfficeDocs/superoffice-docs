@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "O'Reilly LLC",
-    "Comment": "vel",
-    "StakeholderRoleId": 420,
-    "CountryId": 628,
-    "PersonId": 600,
-    "EmailDescription": "richie@thiel.us",
-    "EmailId": 953,
-    "EmailAddress": "savannah@watsica.ca",
-    "PhoneId": 880,
-    "ContactName": "Treutel, Vandervort and Mosciski",
-    "ContactId": 111,
-    "SaleId": 42,
-    "Mrmrs": "a",
-    "Firstname": "Major",
-    "MiddleName": "Bailey-Cremin",
-    "Lastname": "Schulist",
-    "SaleStakeholderId": 412,
-    "Rank": 942,
-    "Phone": "934.103.6836 x341",
+    "StakeholderRoleName": "Ullrich, Runte and Macejkovic",
+    "Comment": "eos",
+    "StakeholderRoleId": 671,
+    "CountryId": 103,
+    "PersonId": 889,
+    "EmailDescription": "melvin@gerlach.uk",
+    "EmailId": 619,
+    "EmailAddress": "gianni.terry@wolffwill.ca",
+    "PhoneId": 933,
+    "ContactName": "Shields-Herman",
+    "ContactId": 506,
+    "SaleId": 816,
+    "Mrmrs": "corporis",
+    "Firstname": "Jany",
+    "MiddleName": "Pollich Group",
+    "Lastname": "Konopelski",
+    "SaleStakeholderId": 336,
+    "Rank": 703,
+    "Phone": "1-919-376-8067 x909",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 381
+        "FieldLength": 992
       }
     }
   }

@@ -67,22 +67,22 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Davis, Fisher and Brown",
+  "ProviderName": "Ritchie LLC",
   "Restrictions": [
     {
-      "Name": "Roberts-Kozey",
-      "Operator": "laborum",
+      "Name": "Huels-Leannon",
+      "Operator": "vero",
       "Values": [
-        "dolore",
-        "exercitationem"
+        "consequatur",
+        "quo"
       ],
       "DisplayValues": [
-        "et",
-        "dolorem"
+        "ex",
+        "nesciunt"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 613,
+      "InterParenthesis": 466,
       "InterOperator": "And",
-      "UniqueHash": 989
+      "UniqueHash": 236
     }
   ],
-  "AssociateId": 87,
-  "ExtraInfo": "nesciunt"
+  "AssociateId": 88,
+  "ExtraInfo": "molestiae"
 }
 ```
 

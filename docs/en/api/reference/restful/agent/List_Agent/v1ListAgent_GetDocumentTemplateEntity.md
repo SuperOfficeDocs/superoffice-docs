@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=70
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=310
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 980,
-  "Name": "Kohler-Hand",
-  "Tooltip": "totam",
-  "SaveInDb": 806,
-  "Filename": "ut",
-  "DefaultOref": "iste",
+  "DocumentTemplateId": 609,
+  "Name": "Spinka, Paucek and Douglas",
+  "Tooltip": "ducimus",
+  "SaveInDb": 563,
+  "Filename": "possimus",
+  "DefaultOref": "nesciunt",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 609,
-  "IntentId": 426,
+  "AutoeventId": 93,
+  "IntentId": 236,
   "IsDefaultPublished": false,
-  "Rank": 264,
-  "LoadTemplateFromPlugin": 124,
-  "MimeType": "omnis",
+  "Rank": 328,
+  "LoadTemplateFromPlugin": 390,
+  "MimeType": "minima",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 520,
+  "DocumentTypeKey": 380,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cordia_hand@ullrich.com",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "bert_willms@hansen.name",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "brooklyn_powlowski@creminwintheiser.uk",
+  "SenderEmailAddress": "marielle_skiles@padberg.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldLength": 883
     }
   }
 }

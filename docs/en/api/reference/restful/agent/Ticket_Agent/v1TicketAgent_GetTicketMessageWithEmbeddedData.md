@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 229,
+  "Id": 864,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,79 +117,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 390,
+  "EjMessageId": 530,
   "Ticket": null,
-  "CreatedAt": "2023-09-22T14:13:41.6102613+02:00",
+  "CreatedAt": "2019-12-15T02:38:22.1669527+01:00",
   "CreatedBy": null,
-  "Author": "nulla",
+  "Author": "veritatis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "animi",
-  "TimeSpent": 192,
-  "Body": "quam",
+  "MessageId": "est",
+  "TimeSpent": 254,
+  "Body": "sint",
   "HtmlBody": "quaerat",
-  "EmailHeader": "lemuel.homenick@osinskiullrich.us",
-  "DebugInfo": "hic",
-  "MailSorter": "asperiores",
+  "EmailHeader": "phyllis@kubschiller.us",
+  "DebugInfo": "voluptas",
+  "MailSorter": "vero",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "dolor",
   "MessageHeaders": [
     {
-      "Id": 484,
-      "Name": "Legros Group",
-      "Value": "aspernatur",
+      "Id": 321,
+      "Name": "Stiedemann, Halvorson and Rutherford",
+      "Value": "ad",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 532
+          "FieldType": "System.Int32",
+          "FieldLength": 577
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "eaque",
-  "Sentiment": 723,
-  "SentimentConfidence": 834,
+  "Important": true,
+  "Language": "molestiae",
+  "Sentiment": 327,
+  "SentimentConfidence": 841,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 527,
-      "Name": "Okuneva Inc and Sons",
-      "ContentType": "ea",
-      "AttSize": 527,
+      "AttachmentId": 547,
+      "Name": "Donnelly, VonRueden and Aufderhar",
+      "ContentType": "ut",
+      "AttSize": 799,
       "InlineImage": false,
-      "ContentId": "molestiae",
-      "AuthKey": "quasi",
+      "ContentId": "eum",
+      "AuthKey": "aliquam",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 724
+          "FieldLength": 243
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "asperiores",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "voluptate",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "ipsum",
-    "CustomFields2": "officia"
+    "CustomFields1": "quaerat",
+    "CustomFields2": "at"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 338
+      "FieldLength": 793
     }
   }
 }

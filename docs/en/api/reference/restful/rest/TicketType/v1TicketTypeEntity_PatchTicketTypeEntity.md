@@ -126,18 +126,18 @@ TicketTypeEntity  updated.
 PATCH /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "delectus",
+    "path": "esse",
     "value": {}
   },
   {
     "op": "add",
-    "path": "delectus",
+    "path": "esse",
     "value": {}
   }
 ]
@@ -150,40 +150,40 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 778,
-  "Name": "Daugherty Inc and Sons",
-  "Rank": 334,
-  "Tooltip": "eos",
-  "Icon": "consequatur",
-  "DefaultTicketStatus": 278,
+  "TicketTypeId": 314,
+  "Name": "Stamm LLC",
+  "Rank": 904,
+  "Tooltip": "et",
+  "Icon": "et",
+  "DefaultTicketStatus": 226,
   "TicketStatuses": [
-    57,
-    759
+    347,
+    653
   ],
-  "DefaultTicketPriority": 988,
+  "DefaultTicketPriority": 1001,
   "TicketPriorities": [
-    604,
-    211
+    301,
+    546
   ],
-  "ReplyTemplate": 951,
+  "ReplyTemplate": 115,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    86,
-    278
+    537,
+    529
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 651
+      "FieldType": "System.Int32",
+      "FieldLength": 160
     }
   },
   "_Links": {

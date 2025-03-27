@@ -78,9 +78,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 468,
-  "SelectionId": 156,
-  "Restrictions": "porro"
+  "DashboardTileId": 42,
+  "SelectionId": 487,
+  "Restrictions": "commodi"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "McLaughlin-Schuppe",
-        "DisplayTooltip": "ut",
-        "DisplayType": "maxime",
-        "CanOrderBy": false,
-        "Name": "Koepp LLC",
+        "DisplayName": "Christiansen, Johnston and Sauer",
+        "DisplayTooltip": "corrupti",
+        "DisplayType": "cum",
+        "CanOrderBy": true,
+        "Name": "Leffler-Johns",
         "CanRestrictBy": false,
-        "RestrictionType": "nostrum",
-        "RestrictionListName": "Kling Inc and Sons",
+        "RestrictionType": "consequatur",
+        "RestrictionListName": "Wehner, Little and Little",
         "IsVisible": false,
-        "ExtraInfo": "quasi",
-        "Width": "beatae",
-        "IconHint": "voluptate",
-        "HeadingIconHint": "corrupti"
+        "ExtraInfo": "sequi",
+        "Width": "accusamus",
+        "IconHint": "veniam",
+        "HeadingIconHint": "non"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "McLaughlin-Schuppe",
-        "DisplayTooltip": "ut",
-        "DisplayType": "maxime",
-        "CanOrderBy": false,
-        "Name": "Koepp LLC",
+        "DisplayName": "Christiansen, Johnston and Sauer",
+        "DisplayTooltip": "corrupti",
+        "DisplayType": "cum",
+        "CanOrderBy": true,
+        "Name": "Leffler-Johns",
         "CanRestrictBy": false,
-        "RestrictionType": "nostrum",
-        "RestrictionListName": "Kling Inc and Sons",
+        "RestrictionType": "consequatur",
+        "RestrictionListName": "Wehner, Little and Little",
         "IsVisible": false,
-        "ExtraInfo": "quasi",
-        "Width": "beatae",
-        "IconHint": "voluptate",
-        "HeadingIconHint": "corrupti"
+        "ExtraInfo": "sequi",
+        "Width": "accusamus",
+        "IconHint": "veniam",
+        "HeadingIconHint": "non"
       }
     ],
     "Result": null

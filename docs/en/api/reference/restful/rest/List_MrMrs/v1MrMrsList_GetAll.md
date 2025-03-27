@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 674,
-    "Name": "Trantow, Hammes and Gleichner",
-    "Tooltip": "quia",
+    "Id": 815,
+    "Name": "Buckridge, Wiza and Waters",
+    "Tooltip": "officiis",
     "Deleted": false,
-    "UdListDefinitionId": 561,
-    "Rank": 574,
+    "UdListDefinitionId": 10,
+    "Rank": 947,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 486
+        "FieldLength": 667
       }
     }
   }

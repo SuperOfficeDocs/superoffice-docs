@@ -65,7 +65,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 270,
+  "TargetDimensionId": 406,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "aut",
-  "DimensionListName": "Roob-Ernser",
-  "DimensionListId": 351,
-  "DimensionListLabel": "qui",
+  "DimensionListField": "dolorem",
+  "DimensionListName": "Ward LLC",
+  "DimensionListId": 575,
+  "DimensionListLabel": "consequuntur",
   "SelectedDimensions": [
-    529,
-    993
+    235,
+    534
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldType": "System.String",
+      "FieldLength": 316
     }
   }
 }

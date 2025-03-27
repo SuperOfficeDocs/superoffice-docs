@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Eichmann-Nolan"
+  "Name": "Baumbach-Emard"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Value": "necessitatibus",
-    "Tooltip": "aliquid",
+    "Id": 332,
+    "Value": "in",
+    "Tooltip": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 315
+        "FieldType": "System.Int32",
+        "FieldLength": 580
       }
     }
   },
   {
-    "Id": 304,
-    "Value": "necessitatibus",
-    "Tooltip": "aliquid",
+    "Id": 332,
+    "Value": "in",
+    "Tooltip": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 315
+        "FieldType": "System.Int32",
+        "FieldLength": 580
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 494,
-  "ParentId": 547,
-  "Name": "Wehner Group",
-  "Fullname": "sed",
-  "CategoryMaster": 613,
+  "TicketCategoryId": 975,
+  "ParentId": 822,
+  "Name": "Abbott-Blick",
+  "Fullname": "eligendi",
+  "CategoryMaster": 931,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Jerde LLC",
+  "ExternalName": "Streich Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 752,
-  "ReplyTemplate": 561,
-  "NotificationEmail": "ruby.wolff@nikolaus.uk",
+  "AssignmentLag": 193,
+  "ReplyTemplate": 539,
+  "NotificationEmail": "tom@sanford.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 260,
+  "EffectiveReplyTemplateId": 386,
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "laudantium"
+    "ExtraFields1": "nihil",
+    "ExtraFields2": "nulla"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "autem"
+    "CustomFields1": "odio",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 958
+      "FieldLength": 781
     }
   }
 }

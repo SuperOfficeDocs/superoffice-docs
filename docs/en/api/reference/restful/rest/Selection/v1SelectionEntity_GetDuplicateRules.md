@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Koepp Inc and Sons",
-    "DisplayName": "Maggio, Reinger and Hand",
-    "DisplayTooltip": "totam",
-    "IsActive": true,
+    "Name": "Conn, Rice and Ledner",
+    "DisplayName": "Keebler Inc and Sons",
+    "DisplayTooltip": "molestiae",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldType": "System.Int32",
+        "FieldLength": 905
       }
     }
   },
   {
-    "Name": "Koepp Inc and Sons",
-    "DisplayName": "Maggio, Reinger and Hand",
-    "DisplayTooltip": "totam",
-    "IsActive": true,
+    "Name": "Conn, Rice and Ledner",
+    "DisplayName": "Keebler Inc and Sons",
+    "DisplayTooltip": "molestiae",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldType": "System.Int32",
+        "FieldLength": 905
       }
     }
   }

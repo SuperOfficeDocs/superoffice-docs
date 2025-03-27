@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quia",
-  "ProviderName": "Jacobi, Carroll and Cartwright",
-  "StorageKey": "sed",
+  "StorageType": "iste",
+  "ProviderName": "Thiel-Graham",
+  "StorageKey": "dicta",
   "RestrictionGroup": null,
-  "Context": "saepe"
+  "Context": "excepturi"
 }
 ```
 

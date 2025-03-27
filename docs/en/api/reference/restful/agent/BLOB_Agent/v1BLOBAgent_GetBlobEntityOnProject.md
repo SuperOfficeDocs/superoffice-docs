@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 694
+  "ProjectId": 442
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 432,
-  "BlobSize": 30,
-  "Description": "User-centric zero tolerance time-frame",
-  "ExtraInfo": "ut",
+  "BlobId": 103,
+  "BlobSize": 674,
+  "Description": "Public-key responsive intranet",
+  "ExtraInfo": "excepturi",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quod",
-  "OriginalSize": 637,
-  "CreatedDate": "2010-04-06T14:13:39.4067248+02:00",
-  "UpdatedDate": "2006-08-16T14:13:39.4067248+02:00",
+  "IsZipped": true,
+  "MimeType": "possimus",
+  "OriginalSize": 236,
+  "CreatedDate": "2018-02-22T02:38:20.885843+01:00",
+  "UpdatedDate": "2000-12-24T02:38:20.885843+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "repudiandae",
+  "ConceptualType": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 89
+      "FieldType": "System.Int32",
+      "FieldLength": 775
     }
   }
 }

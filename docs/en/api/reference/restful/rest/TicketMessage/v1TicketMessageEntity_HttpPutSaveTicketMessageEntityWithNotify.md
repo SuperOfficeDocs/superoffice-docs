@@ -128,67 +128,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 607,
+  "EjMessageId": 596,
   "Ticket": null,
-  "CreatedAt": "1998-09-01T14:13:49.3993142+02:00",
+  "CreatedAt": "2003-02-22T02:38:26.5110233+01:00",
   "CreatedBy": null,
-  "Author": "ex",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quo",
-  "TimeSpent": 218,
-  "Body": "praesentium",
-  "HtmlBody": "optio",
-  "EmailHeader": "eusebio_lind@kemmer.name",
-  "DebugInfo": "quia",
-  "MailSorter": "architecto",
+  "MessageId": "veritatis",
+  "TimeSpent": 815,
+  "Body": "aut",
+  "HtmlBody": "enim",
+  "EmailHeader": "adrienne@wildermancollins.ca",
+  "DebugInfo": "veritatis",
+  "MailSorter": "quia",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "autem",
+  "SearchTitle": "non",
   "MessageHeaders": [
     {
-      "Id": 91,
-      "Name": "Marks LLC",
-      "Value": "quae",
+      "Id": 229,
+      "Name": "Nitzsche, Ritchie and Torphy",
+      "Value": "ullam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 91,
-      "Name": "Marks LLC",
-      "Value": "quae",
+      "Id": 229,
+      "Name": "Nitzsche, Ritchie and Torphy",
+      "Value": "ullam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": true,
-  "Language": "dicta",
-  "Sentiment": 829,
-  "SentimentConfidence": 458,
+  "Language": "commodi",
+  "Sentiment": 746,
+  "SentimentConfidence": 571,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 516,
-      "Name": "O'Reilly-Lemke",
-      "ContentType": "enim",
-      "AttSize": 907,
-      "InlineImage": true,
-      "ContentId": "aut",
-      "AuthKey": "ut",
+      "AttachmentId": 975,
+      "Name": "Frami, Padberg and Beatty",
+      "ContentType": "dolorem",
+      "AttSize": 25,
+      "InlineImage": false,
+      "ContentId": "accusamus",
+      "AuthKey": "et",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "minima",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "aut"
+    "CustomFields1": "iusto",
+    "CustomFields2": "corrupti"
   }
 }
 ```
@@ -200,28 +200,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 58,
+  "EjMessageId": 730,
   "Ticket": null,
-  "CreatedAt": "2014-07-13T14:13:49.3993142+02:00",
+  "CreatedAt": "2022-09-20T02:38:26.5110233+02:00",
   "CreatedBy": null,
-  "Author": "est",
+  "Author": "dolorem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quam",
-  "TimeSpent": 376,
-  "Body": "vero",
-  "HtmlBody": "expedita",
-  "EmailHeader": "stewart@cummerata.uk",
-  "DebugInfo": "distinctio",
-  "MailSorter": "in",
+  "MessageId": "rerum",
+  "TimeSpent": 371,
+  "Body": "tenetur",
+  "HtmlBody": "voluptate",
+  "EmailHeader": "waldo@jacobigutmann.name",
+  "DebugInfo": "numquam",
+  "MailSorter": "excepturi",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "est",
+  "SearchTitle": "consectetur",
   "MessageHeaders": [
     {
-      "Id": 997,
-      "Name": "Kiehn-Medhurst",
-      "Value": "sapiente",
+      "Id": 331,
+      "Name": "Kertzmann-Reichert",
+      "Value": "nisi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -229,50 +229,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 164
+          "FieldLength": 871
         }
       }
     }
   ],
   "Important": false,
-  "Language": "voluptate",
-  "Sentiment": 62,
-  "SentimentConfidence": 811,
+  "Language": "vero",
+  "Sentiment": 736,
+  "SentimentConfidence": 802,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 803,
-      "Name": "Runolfsdottir, Considine and Little",
-      "ContentType": "sit",
-      "AttSize": 565,
-      "InlineImage": true,
-      "ContentId": "et",
-      "AuthKey": "sunt",
+      "AttachmentId": 105,
+      "Name": "Zboncak, Mraz and Smitham",
+      "ContentType": "incidunt",
+      "AttSize": 441,
+      "InlineImage": false,
+      "ContentId": "quod",
+      "AuthKey": "eum",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldLength": 762
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "alias"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "dolorum"
   },
   "CustomFields": {
-    "CustomFields1": "illo",
-    "CustomFields2": "culpa"
+    "CustomFields1": "pariatur",
+    "CustomFields2": "aut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 337
+      "FieldLength": 773
     }
   }
 }

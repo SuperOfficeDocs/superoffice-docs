@@ -20,7 +20,7 @@ The name of the MDO list is 'projectstatus'.
 
 | Description | Name | Example Value |
 |-----|-----|------|
-|Return all pricelists, not just the active ones| ProjectTypeId|123|
+|The project type id.| ProjectTypeId|123|
 |Include deleted items| GetDeleted|True|
 |Include deleted projects| GetDeletedLinks|True|
 
