@@ -4,8 +4,8 @@ title: Set data rights for role
 description: Set data rights for role
 keywords: user management, role, access, rights
 author: Bergfrid Dias
-date: 12.10.2024
-version: 10
+date: 03.27.2025
+version: 10.5
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -44,19 +44,20 @@ You can set rights for [data objects][2] based on who owns the object. All users
 
 ## What do the different columns under Data owned by mean?
 
-| Data owned by | Explanation|
-|---|---|
-| My own | Created by you |
-| Primary group (A) | Created by your primary group (department) |
-| My Company (E) | Created by an external user's company |
-| Other groups (A) | Created by a user group you belong to |
-| Same project (E) | Created in a project an external user belongs to |
-| Other associates | Created by other associates in the company |
-| External user | Created by external users (Audience users) |
-| Anonymous | Created by anonymous users |
+| **Data owned by** | **Dashboards and Documents** | **Sales and Activities** | **Projects** | **Company and Contact** |
+|---|---|---|---|---|
+| My own | Created by you | Owner field applies | Responsible field applies | You are "Our contact" |
+| Primary group (A) | Created by your primary group (department) | Owner field applies | Responsible field applies | "Our contact" is an associate in your primary group |
+| My Company (E)<br />ONSITE only | Created by an external user's company | Owner field applies | Responsible field applies | "Our contact" applies |
+| Other groups (A) | Created by a user group you belong to | Owner field applies | Responsible field applies | "Our contact" is an associate from a user group you belong to |
+| Same project (E)<br />ONSITE only | Created in a project an external user belongs to | Owner field applies | Responsible field applies | "Our contact" applies |
+| Other associates | Created by other associates in the company | Owner field applies | Responsible field applies | "Our contact" is an associate that you do not share a user group with |
+| External user | Created by external users (Audience users) | Owner field applies | Responsible field applies | "Our contact" applies |
+| Anonymous | Created by anonymous users | Not applicable | Not applicable | Not applicable |
 
-* A = Associates
-* E = External
+**A** = Associates, **E** = External
+
+On the Contact card, the **Our contact** field always pulls the associate from the Company card that the contact belongs to.
 
 ## How do I display data objects for external users?
 

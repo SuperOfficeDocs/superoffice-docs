@@ -4,8 +4,8 @@ title: Gegevensrechten voor rol instellen
 description: Gegevensrechten voor rol instellen
 keywords: gebruikersbeheer, rol, toegang, rechten
 author: Bergfrid Dias
-date: 12.10.2024
-version: 10
+date: 03.27.2025
+version: 10.5
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -44,19 +44,20 @@ U kunt rechten voor [gegevensobjecten][2] instellen op basis van wie de eigenaar
 
 ## Wat betekenen de verschillende kolommen onder Eigenaar van gegevens?
 
-| Eigenaar van gegevens | Uitleg|
-|---|---|
-| Gebruiker zelf | Gemaakt door u zelf |
-| Primaire groep (A) | Gemaakt door uw primaire groep (afdeling) |
-| Mijn bedrijf (E) | Gemaakt door het bedrijf van een externe gebruiker |
-| Andere groepen (A) | Gemaakt door een gebruikersgroep waartoe u behoort |
-| Hetzelfde project (E) | Gemaakt binnen een project waartoe een externe gebruiker behoort |
-| Andere medewerkers | Gemaakt door andere medewerkers binnen het bedrijf |
-| Externe gebruiker | Gemaakt door externe gebruikers (Audience-gebruikers) |
-| Anoniem | Gemaakt door anonieme gebruikers |
+| **Eigenaar van gegevens** | **Dashboards en documenten** | **Verkoop en vervolgactiviteiten** | **Projecten** | **Bedrijf en persoon** |
+|---|---|---|---|---|
+| Gebruiker zelf | Gemaakt door uzelf | Veld *Eigenaar* is van toepassing | Veld *Verantwoordelijke* is van toepassing | U bent "Onze contactpersoon" |
+| Primaire groep (A) | Gemaakt door uw primaire groep (afdeling) | Veld *Eigenaar* is van toepassing | Veld *Verantwoordelijke* is van toepassing | "Onze contactpersoon" is een medewerker van uw primaire groep |
+| Mijn bedrijf (E)<br />alleen ONSITE | Gemaakt door het bedrijf van een externe gebruiker | Veld *Eigenaar* is van toepassing | Veld *Verantwoordelijke* is van toepassing | "Onze contactpersoon" is van toepassing |
+| Andere groepen (A) | Gemaakt door een gebruikersgroep waartoe u behoort | Veld *Eigenaar* is van toepassing | Veld *Verantwoordelijke* is van toepassing | "Onze contactpersoon" is een medewerker in een groep waartoe u behoort |
+| Hetzelfde project (E)<br />alleen ONSITE | Gemaakt binnen een project waar een externe gebruiker deel van uitmaakt | Veld *Eigenaar* is van toepassing | Veld *Verantwoordelijke* is van toepassing | "Onze contactpersoon" is van toepassing |
+| Andere medewerkers | Gemaakt door andere medewerkers in het bedrijf | Veld *Eigenaar* is van toepassing | Veld *Verantwoordelijke* is van toepassing | "Onze contactpersoon" is een medewerker waarmee u geen groep deelt |
+| Externe gebruiker | Gemaakt door externe gebruikers (Audience-gebruikers) | Veld *Eigenaar* is van toepassing | Veld *Verantwoordelijke* is van toepassing | "Onze contactpersoon" is van toepassing |
+| Anoniem | Gemaakt door anonieme gebruikers | Niet van toepassing | Niet van toepassing | Niet van toepassing |
 
-* A = Medewerkers
-* E = Extern
+**A** = medewerkers, **E** = extern
+
+Op de **contactkaart** wordt het veld **Onze contactpersoon** altijd opgehaald van de **bedrijfkaart** waartoe de contactpersoon behoort.
 
 ## Hoe kan ik gegevensobjecten voor externe gebruikers weergeven?
 

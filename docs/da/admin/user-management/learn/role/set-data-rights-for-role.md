@@ -4,8 +4,8 @@ title: Angiv datarettigheder for rolle
 description: Angiv datarettigheder for rolle
 keywords: brugerstyring, rolle, adgang, rettigheder
 author: Bergfrid Dias
-date: 12.10.2024
-version: 10
+date: 03.27.2025
+version: 10.5
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -44,19 +44,20 @@ Du kan angive rettigheder for [dataobjekter][2] baseret på, hvem der ejer objek
 
 ## Hvad betyder de forskellige kolonner under Data ejet af?
 
-| Data ejet af | Forklaring|
-|---|---|
-| Min egen | Oprettet af dig |
-| Primærgruppe (A) | Oprettet af din primære gruppe (afdeling) |
-| Kopiér kontakt (E) | Oprettet af en ekstern brugers firma |
-| Andre grupper (A) | Hér vises den brugergruppe, du tilhører |
-| Samme projekt (E) | Oprettet i et projekt, som en ekstern bruger tilhører |
-| Andre medarbejdere | Oprettet af andre medarbejdere i virksomheden |
-| Ekstern bruger | Oprettet af eksterne brugere (målgruppebrugere) |
-| Anonym | Oprettet af anonyme brugere |
+| **Data ejet af** | **Dashboards og dokumenter** | **Salg og opfølgninger** | **Projekter** | **Firma og person** |
+|---|---|---|---|---|
+| Min egen | Oprettet af dig | Ejer-felt anvendes | Ansvarlig-felt anvendes | Du er "Vores kontakt" |
+| Primærgruppe (A) | Oprettet af din primære gruppe (afdeling) | Ejer-felt anvendes | Ansvarlig-felt anvendes | "Vores kontakt" er en medarbejder i din primære gruppe |
+| Mit firma (E)<br />Kun ONSITE | Oprettet af en ekstern brugers firma | Ejer-felt anvendes | Ansvarlig-felt anvendes | "Vores kontakt" anvendes |
+| Andre grupper (A) | Oprettet af en brugergruppe, du tilhører | Ejer-felt anvendes | Ansvarlig-felt anvendes | "Vores kontakt" er en medarbejder i en gruppe, du tilhører |
+| Samme projekt (E)<br />Kun ONSITE | Oprettet i et projekt, som en ekstern bruger tilhører | Ejer-felt anvendes | Ansvarlig-felt anvendes | "Vores kontakt" anvendes |
+| Andre medarbejdere | Oprettet af andre medarbejdere i virksomheden | Ejer-felt anvendes | Ansvarlig-felt anvendes | "Vores kontakt" er en medarbejder, du ikke deler gruppe med |
+| Ekstern bruger | Oprettet af eksterne brugere (målgruppebrugere) | Ejer-felt anvendes | Ansvarlig-felt anvendes | "Vores kontakt" anvendes |
+| Anonym | Oprettet af anonyme brugere | Ikke relevant | Ikke relevant | Ikke relevant |
 
-* A = Medarbejdere
-* E = Ekstern
+**A** = medarbejdere, **E** = ekstern
+
+På personkortet hentes feltet **Vores kontakt** altid fra firmakortet, som personen tilhører.
 
 ## Hvordan viser jeg dataobjekter for eksterne brugere?
 
