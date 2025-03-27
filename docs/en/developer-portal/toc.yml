@@ -11,6 +11,8 @@ items:
     items:
     - name: Developer registration (account)
       href: getting-started/get-access-to-sod.md
+    - name: Quickstart
+      href: getting-started/quickstart.md
     - name: App environments
       href: getting-started/app-envir.md
     - name: User contexts
