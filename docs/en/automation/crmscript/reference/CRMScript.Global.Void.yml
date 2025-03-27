@@ -1101,7 +1101,7 @@ items:
   nameWithType: Void.encodeSHA256(String,String)
   fullName: CRMScript.Global.Void.encodeSHA256(String,String)
   type: Method
-  summary: "\nGenerates and returns a hash from a specified key-value pair using the SHA256 encoding algorithm.\n"
+  summary: "\nGenerates and returns a hash from a specified key-value pair using the HMAC SHA256 encoding algorithm.\n"
   remarks: "\nThis can be used to ensure data integrity. The hash cannot be decrypted back.\n"
   syntax: 
     content: String encodeSHA256(String key, String value)
