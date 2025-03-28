@@ -5,3 +5,6 @@ items:
   href: connect.md
 - name: Disconnect
   href: disconnect.md
+- name: For administrators
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

@@ -2,10 +2,13 @@
 uid: help-en-import-from-erp
 title: import from ERP
 description: import from ERP
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Settings and maintenance, import
-topic: help
+keywords: import, ERP
+author: Bergfrid Dias
+date: 03.31.2025
+version: 10.5
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: en
 ---
 
@@ -21,7 +24,7 @@ Follow the steps below to import actors (customers, suppliers and individuals) f
 > If the ![icon][img1] ERP sync icon is inactive, you must turn off synchronization in **Quote/Sync** > **Sync** tab.
 
 1. [!include[Open Import](includes/open-import.md)]
-2. [!include[Select source](includes/select-source.md)]
+2. Click the ![icon][img1] ERP sync icon under **Select an import source**. The **Select ERP connection** dialog opens.
 3. In the **ERP connection** list, [select the connection][2] you want to import from.
 4. In the **Actor type** list, select what you want to import. For example, customers, suppliers or individuals.
 5. Click **OK**. The **Search ERP** dialog appears.
@@ -56,7 +59,7 @@ Above each list is a link to the selection containing the new/updated actors.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md
-[2]: ../../../quote/learn/admin/sync/index.md
+[2]: ../../../learn/admin/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/import-erp-small.png

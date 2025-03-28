@@ -1,0 +1,11 @@
+items:
+- name: Overview
+  href: index.md
+- name: Add sync connector and ERP connection
+  href: add-connection.md
+- name: Configure ERP connection
+  href: configure.md
+- name: Edit ERP connection
+  href: update-connection.md
+- name: Resync from CRM
+  href: resync-from-crm.md

@@ -1,5 +1,5 @@
 ---
-uid: help-en-erp-disconnect
+uid: help-en-erp-disconnect-actor
 title: Disable ERP synchronization
 description: Disable ERP synchronization
 keywords: disconnect ERP, ERP tab, disconnect, ERP
@@ -7,6 +7,7 @@ author: SuperOffice RnD
 date: 03.31.2025
 version: 10.5
 topic: howto
+license: development-tools
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en

@@ -7,6 +7,7 @@ author: SuperOffice RnD
 date: 03.31.2025
 version: 10.5
 topic: concept
+license: development-tools
 audience: person
 audience_tooltip: SuperOffice CRM
 language: en
@@ -33,7 +34,7 @@ Once linked, data is synchronized automatically or on demand. You can click **Sy
 
 ## Related content
 
-* [Connect to ERP][1]
+* [Connect companies, contacts, and projects to ERP actors][1]
 * [Disable synchronization][3]
 
 <!-- Referenced links -->

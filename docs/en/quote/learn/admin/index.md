@@ -40,10 +40,6 @@ In the **Quote/Sync** screen you can administrate connections and settings for E
 * Sync Connectors are used to integrate SuperOffice and the ERP system, so that companies in SuperOffice can be linked to/synchronized with customers and suppliers in ERP system. The same applies to contacts and projects.
 * An ERP connection consists of a Quote Connector or Sync Connector and configuration data (such as client data (if the ERP system is used by several companies) and authentication data for the ERP system).
 
-## How do I set up an ERP connection for SuperOffice CRM for Web (Online)?
-
-[!include[How to set up ERP](includes/set-up-erp.md)]
-
 ## Related content
 
 * [Customize price lists][5]
@@ -55,7 +51,7 @@ In the **Quote/Sync** screen you can administrate connections and settings for E
 [1]: quotesync-tab-erp-connections.md
 [2]: product/index.md
 [3]: product/configure.md
-[4]: sync/index.md
+[4]: ../../../erp/admin/index.md
 [5]: product/add-price-list.md
 [6]: product/configure.md
 [7]: product/add-product-to-price-list.md
