@@ -102,4 +102,4 @@ U wilt alle "oude" projecten opschonen die niet zijn ingesteld als voltooid. Maa
 
 <!-- Referenced links -->
 [1]: ../../security/privacy/learn/mass-delete.md
-[3]: ../../security/privacy/learn/edit-legal-base.md#bulk
+[3]: ../../../en/security/privacy/learn/edit-legal-base.md#bulk
