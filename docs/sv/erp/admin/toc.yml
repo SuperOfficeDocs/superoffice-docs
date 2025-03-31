@@ -1,0 +1,11 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Lägga till Sync Connector och ERP-koppling
+  href: add-connection.md
+- name: Konfigurera ERP-koppling
+  href: configure.md
+- name: Redigera ERP-koppling
+  href: update-connection.md
+- name: Omsynkronisera från CRM
+  href: resync-from-crm.md
