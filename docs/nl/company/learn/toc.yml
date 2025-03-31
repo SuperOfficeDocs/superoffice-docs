@@ -13,6 +13,3 @@ items:
   href: delete.md
 - name: Adresnotaties voor landen
   href: address-formats.md
-- name: ERP-verbinding
-  href: ../../admin/erp/learn/toc.yml
-  topicHref: ../../admin/erp/learn/index.md

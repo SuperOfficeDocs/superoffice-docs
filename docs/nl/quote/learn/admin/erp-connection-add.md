@@ -15,7 +15,10 @@ Elke Quote Connector moet beschikken over een ERP-verbinding met configuratiegeg
 
 Hoe stel ik een ERP-verbinding in voor SuperOffice CRM for Web (online)?
 
-[!include[How to set up ERP](includes/set-up-erp.md)]
+1. Ga naar [https://online.Superoffice.com/appstore][4].
+2. Zoek de juiste "Sync"-app voor uw ERP-systeem. [Klik hier om te zoeken][2]
+3. Zoek de juiste "offerte"-app voor uw ERP-systeem. [Klik hier om te zoeken][3]
+4. Neem contact op met de app-provider om de installatie te voltooien.
 
 ## U voegt een ERP-verbinding als volgt toe
 
@@ -32,7 +35,7 @@ Hoe stel ik een ERP-verbinding in voor SuperOffice CRM for Web (online)?
     * **Alles**: Selecteer deze optie als alle gebruikers toegang moeten hebben tot deze ERP-verbinding en deze mogen gebruiken. Dit betekent dat ze de prijslijsten kunnen gebruiken die toegankelijk zijn via deze verbinding.
     * **Specifieke gebruikers + groepen**: Klik op **Gebruikers en groepen selecteren** om te kiezen welke gebruikersgroepen en/of gebruikers toegang moeten hebben tot deze ERP-verbinding.
 
-1. Selecteer de ERP-verbinding waarmee u de synchronisatie ([Synchronisatieverbinding][1]) wilt uitvoeren in het veld **ERP-verbinding**.
+1. Selecteer de ERP-verbinding waarmee u de synchronisatie wilt uitvoeren in het veld **ERP-verbinding**.
 
 1. Configureer de vereiste instellingen onder aan het dialoogvenster. De inhoud van deze lijst varieert, afhankelijk van het type Quote Connector dat u hebt gekozen.
 
@@ -53,6 +56,8 @@ Om een verwijderde ERP-verbinding te herstellen:
 1. Klik op **Herstellen**.
 
 <!-- Referenced links -->
-[1]:sync/index.md
+[4]: https://online.superoffice.com/appstore
+[2]: https://online.superoffice.com/appstore/app/search?phrase=sync
+[3]: https://online.superoffice.com/appstore/app/search?phrase=quote
 
 <!-- Referenced images -->
