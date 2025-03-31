@@ -1,3 +1,6 @@
 <!-- markdownlint-disable-file MD041 -->
 > [!NOTE]
-> Für diese Funktion ist eine SuperOffice Expander Services-Lizenz erforderlich.
+> Für diese Funktion ist eine [Development Tools][1]-Lizenz erforderlich.
+
+<!-- Referenced links -->
+[1]: ../../admin/license/expander-services/tool-box.md

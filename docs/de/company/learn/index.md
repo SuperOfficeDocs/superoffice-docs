@@ -4,7 +4,7 @@ title: Firma
 description: Alle Informationen bezüglich einer Firma – egal, ob Kunde, Partner oder Lieferant – werden auf der Firmenkarte/der Ansicht in SuperOffice CRM gespeichert.
 keywords: Firmenkarte, Firmenansicht, Firmenkunden, Kunde, Partner, Lieferant, Firma
 author: Bergfrid Dias
-date: 02.11.2025
+date: 03.31.2025
 version: 10.5.2
 topic: concept
 audience: person
@@ -36,7 +36,7 @@ Die Ansicht ermöglicht es Ihnen außerdem, Firmen zu suchen, neue Datensätze z
 | [Interessen][2] | Kontrollkästchen zur Angabe von Firmeninteressen für Selektionen oder Kampagnen. Ein Punkt erscheint, wenn Interessen ausgewählt sind. |
 | [Notiz][20] | Freitextbereich zum Hinzufügen von Notizen zur Firma. Notizen sind markiert, wenn sie ausgefüllt sind. |
 | [www][21] | Verknüpfung zu einer URL, um Webseiten oder externe Daten zur Firma anzuzeigen. |
-| [ERP][22] | Verbindet Firmen mit dem ERP-System für Datensynchronisation und Kontaktverknüpfung. |
+| [ERP][22] | Verbindet Firmen mit einem Kunden/Lieferanten im ERP-System für Datensynchronisation und Kontaktverknüpfung. |
 
 ## <a id="section-tabs"></a>Bereichsregisterkarten in der Firmenansicht
 
@@ -50,7 +50,6 @@ Am unteren Rand der Ansicht befinden sich die folgenden [Standard-Bereichsregist
 | [Projekte][14] | Zeigt alle Projekte der aktiven Firma an. |
 | [Verkäufe][15] | Enthält Informationen zu Verkäufen, die mit der Firma verbunden sind. |
 | [Anfragen][16] | Zeigt SuperOffice Service-Anfragen für die aktive Firma an. |
-| [ERP][17] | Verbindet eine SuperOffice-Firma mit einem Kunden/Lieferanten im ERP-System. |
 
 > [!NOTE]
 > [Personen][1], die nicht mit einer Firma verknüpft sind, finden Sie in der Personenansicht.
@@ -81,12 +80,11 @@ Am unteren Rand der Ansicht befinden sich die folgenden [Standard-Bereichsregist
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/sales-tab.md
 [16]: ../../learn/section-tabs/requests-tab.md
-[17]: ../../admin/erp/learn/index.md
 [18]: ../../learn/section-tabs/index.md
 [19]: ../../custom-objects/learn/more-tab.md
 [20]: ../../learn/basics/notes.md
 [21]: ../../admin/lists/learn/web-panel.md
-[22]: ../../admin/erp/learn/screen/erp-tab.md
+[22]: ../../erp/learn/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../media/loc/en/company/company-screen.png

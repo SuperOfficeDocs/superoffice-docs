@@ -40,10 +40,6 @@ In der Ansicht **Angebot/Sync** können Sie Verbindungen und Einstellungen für 
 * Sync Connectors werden verwendet, um SuperOffice und das ERP-System miteinander zu integrieren, sodass Firmen in SuperOffice mit Kunden und Lieferanten im ERP-System verknüpft/synchronisiert werden können. Dasselbe gilt für Personen und Projekte.
 * Eine ERP-Verbindung besteht aus einem Quote Connector oder einem Sync Connector und Konfigurationsdaten (wie beispielsweise Client-Daten (wenn das ERP-System von mehreren Firmen verwendet wird) und Authentifizierungsdaten für das ERP-System).
 
-## Wie man eine ERP-Verbindung für SuperOffice CRM for Web (Online) einrichtet?
-
-[!include[How to set up ERP](includes/set-up-erp.md)]
-
 ## Zugehörige Inhalte
 
 * [Preislisten anpassen][5]
@@ -55,7 +51,7 @@ In der Ansicht **Angebot/Sync** können Sie Verbindungen und Einstellungen für 
 [1]: quotesync-tab-erp-connections.md
 [2]: product/index.md
 [3]: product/configure.md
-[4]: sync/index.md
+[4]: ../../../erp/admin/index.md
 [5]: product/add-price-list.md
 [6]: product/configure.md
 [7]: product/add-product-to-price-list.md

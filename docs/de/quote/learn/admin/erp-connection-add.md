@@ -15,7 +15,10 @@ Jeder Quote Connector muss über eine ERP-Verbindung mit Konfigurationsdaten ver
 
 Wie man eine ERP-Verbindung für SuperOffice CRM for Web (Online) einrichtet?
 
-[!include[How to set up ERP](includes/set-up-erp.md)]
+1. Rufen Sie [https://online.superoffice.com/appstore][4] auf.
+2. Suchen Sie die richtige "Synchronisierungs"-App für Ihr ERP-System. [Klicken Sie zum Suchen hier][2]
+3. Suchen Sie die richtige "Angebots"-App für Ihr ERP-System. [Klicken Sie zum Suchen hier][3]
+4. Zum Abschließen der Konfiguration wenden Sie sich an den Anbieter der App.
 
 ## ERP-Verbindung hinzufügen
 
@@ -32,7 +35,7 @@ Wie man eine ERP-Verbindung für SuperOffice CRM for Web (Online) einrichtet?
     * **Alle**: Wählen Sie diese Option, wenn Sie wünschen, dass alle Benutzer Zugriff auf diese ERP-Verbindung haben und diese nutzen dürfen. Das bedeutet, dass sie die Preislisten verwenden können, die über diese Verbindung verfügbar sind.
     * **Spezifische Benutzer + Gruppen**: Klicken Sie auf **Benutzer und Gruppen auswählen**, um auszuwählen, welche Benutzergruppen und/oder Benutzer Zugriff auf diese ERP-Verbindung haben sollen.
 
-1. Wählen Sie die ERP-Verbindung aus, um die Synchronisation ([Sync Connector][1]) im Feld **ERP-Verbindung** zu bearbeiten.
+1. Wählen Sie die ERP-Verbindung aus, um die Synchronisation im Feld **ERP-Verbindung** zu bearbeiten.
 
 1. Konfigurieren Sie die erforderlichen Einstellungen unten im Dialogfeld. Der Inhalt dieser Liste ändert sich je nach ausgewähltem Quote Connector.
 
@@ -53,6 +56,8 @@ Wie man eine gelöschte ERP-Verbindung wiederherstellt:
 1. Klicken Sie auf **Wiederherstellen**.
 
 <!-- Referenced links -->
-[1]:sync/index.md
+[4]: https://online.superoffice.com/appstore
+[2]: https://online.superoffice.com/appstore/app/search?phrase=sync
+[3]: https://online.superoffice.com/appstore/app/search?phrase=quote
 
 <!-- Referenced images -->

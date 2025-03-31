@@ -89,8 +89,6 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Mit ERP verbinden
-          url: ../admin/erp/learn/erp-connect.md
-        - text: ERP-Akteur erstellen
-          url: ../admin/erp/learn/erp-create-new-actor.md
+          url: ../erp/learn/connect.md
         - text: Synchronisierung deaktivieren
-          url: ../admin/erp/learn/erp-sync-disconnect.md
+          url: ../erp/learn/disconnect.md
