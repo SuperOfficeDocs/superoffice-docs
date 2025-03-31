@@ -31,7 +31,7 @@ Voordat u een Sync Connector kunt toevoegen, hebt u een synchronisatie-app nodig
 
 ## <a id="connector"></a>2. Een Sync Connector toevoegen
 
-1. In **Instellingen en onderhoud** kies <i class="ph ph-barcode" aria-label="Barcode icon"></i> **Offerte/Synchroniseren** van het NAVIGATOR.
+1. In **Instellingen en onderhoud** kies <i class="ph ph-barcode" aria-label="Barcode icon"></i> **Offerte/Synchroniseren** van het navigator.
 
 1. Open het tabblad **Synchroniseren**.
 
@@ -62,7 +62,7 @@ De Sync Connector wordt toegevoegd aan de lijst.
     * **Iedereen**: Alle gebruikers hebben toegang tot deze ERP-verbinding.
     * **Specifieke gebruikers + groepen**: Alleen geselecteerde gebruikers en groepen hebben toegang. Klik op de link om de dialoog voor toegang te openen.
 
-    ![Dialoogvenster om bereik te configureren met gebruikersgroepselectie -screenshot][img3]
+        ![Dialoogvenster om bereik te configureren met gebruikersgroepselectie -screenshot][img3]
 
 1. Vul de **Configuratievelden** in. Deze zijn afhankelijk van de gekozen connector en kunnen instellingen bevatten zoals authenticatie, paden, getallen of andere technische waarden.
 

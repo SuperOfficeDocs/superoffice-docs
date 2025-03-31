@@ -22,7 +22,7 @@ Når du har tilføjet et ERP-link, skal du konfigurere, hvordan data synkroniser
 >
 > 1. Markér linket, og klik på **Konfigurer ERP-link**.
 > 2. Fjern markeringen i afkrydsningsfeltet **Aktiv** i dialogboksen.
-> 3. Klik på **Test ERP-link** for at aktivere knappen **OK**.
+> 3. Klik på **Test ERP-link** for at aktivere **OK**-knappen.
 > 4. Klik på **OK** for at gemme.
 >
 > Husk at genaktivere linket, når konfigurationen er færdig.
@@ -33,7 +33,7 @@ Når du har tilføjet et ERP-link, skal du konfigurere, hvordan data synkroniser
 
 Felttilknytninger definerer, hvordan ERP-felter svarer til SuperOffice-felter, og hvordan data flyder mellem systemerne. De tilgængelige ERP-aktører og -felter leveres af sync connectoren og kan variere afhængigt af ERP-systemet. Ud over at angive synkroniseringsretning kan du vælge, hvilke felter der skal vises i søgevinduet og på fanen **ERP** i SuperOffice CRM.
 
-1. Markér ERP-linket, og klik på **Tilknytninger** nederst.
+1. Markér ERP-linket, og klik på **Tilknytninger** nederst i venstre hjørne.
 
     Dialogboksen **Tilknytninger** åbnes og viser faner for de tilgængelige ERP-aktører (som Kunde, Leverandør, Person eller Projekt).
 
@@ -44,7 +44,7 @@ Felttilknytninger definerer, hvordan ERP-felter svarer til SuperOffice-felter, o
 1. For hvert ERP-felt på listen skal du angive:
 
     * **SuperOffice-felt:** Vælg det felt i SuperOffice, som ERP-feltet skal knyttes til.
-    * **Retning:** Angiv synkroniseringsretning. Brug **&lt;** for ERP til SuperOffice, **&gt;** for SuperOffice til ERP, eller **&lt; &gt;** for tovejssynkronisering.
+    * **Retning:** Angiv synkroniseringsretning. Brug **&gt;** for ERP til SuperOffice, **&lt;** for SuperOffice til ERP, eller **&lt; &gt;** for tovejssynkronisering.
 
         Retningsknapper har tre tilstande:
         * **Grå:** Deaktiveret. Du skal først vælge et SuperOffice-felt.
@@ -68,7 +68,7 @@ Du kan nu fortsætte med listetilknytning, standardværdier eller felt-rangering
 
 Hvis du har tilknyttet lister, såsom kategori eller status, skal du også knytte de enkelte elementer i listerne mellem ERP-systemet og SuperOffice.
 
-1. Markér ERP-linket, og klik på **Listetilknytning** nederst.
+1. Markér ERP-linket, og klik på **Listetilknytning** nederst i venstre hjørne.
 
 1. Vælg en liste i dialogboksen. De tilsvarende ERP- og CRM-elementer vises.
 
@@ -86,7 +86,7 @@ Hvis du har tilknyttet lister, såsom kategori eller status, skal du også knytt
 
 Standardværdier hjælper med at reducere manuel dataindtastning for felter, som typisk har en fast eller forudsigelig værdi. Dette er især nyttigt ved masseimport eller hvis brugerne ikke skal angive den samme værdi gentagne gange – eller markere et felt, der altid skal være valgt.
 
-1. Markér ERP-linket, og klik på **Standardværdier** nederst.
+1. Markér ERP-linket, og klik på **Standardværdier** nederst i venstre hjørne.
 
 1. I dialogboksen skal du vælge fanen for den aktør, du vil konfigurere.
 
@@ -114,7 +114,7 @@ Standardværdier hjælper med at reducere manuel dataindtastning for felter, som
 
 Angiv rækkefølgen for de felter, der vises på fanen **ERP** i skærmbillederne Firma, Person og Projekt. Alle tilgængelige felter vises her, men kun de markerede vil blive vist på fanen.
 
-1. Markér ERP-linket, og klik på **Ranger felter** nederst.
+1. Markér ERP-linket, og klik på **Ranger felter** nederst i venstre hjørne.
 
 1. I dialogboksen, vælg fanen for den aktør, du vil konfigurere.
 

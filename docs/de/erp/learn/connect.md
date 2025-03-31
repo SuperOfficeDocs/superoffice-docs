@@ -21,8 +21,7 @@ Sie können eine Firma aus SuperOffice mit einem Kunden oder Lieferanten im ERP-
 
 1. Gehen Sie zur Ansicht **Firma**, **Person** oder **Projekt** und wählen Sie die Registerkarte **ERP** aus.
 
-    > [!NOTE]
-    > Wenn die Registerkarte **ERP** bereits Informationen zu Firma, Person oder Projekt enthält, wurde bereits eine Verbindung zum ERP-System hergestellt.
+    Wenn die Registerkarte **ERP** bereits Informationen zu Firma, Person oder Projekt enthält, wurde bereits eine Verbindung zum ERP-System hergestellt.
 
 1. Klicken Sie auf **Bearbeiten**. Die verfügbaren Optionen hängen davon ab, ob Sie eine Firma, eine Person oder ein Projekt bearbeiten.
 1. Firma: Klicken Sie auf **Kunde** oder **Lieferant**, je nachdem, mit welchem ERP-Akteur Sie die Firma verbinden möchten. Es kann nur ein Akteur pro Firma ausgewählt werden.
@@ -30,8 +29,7 @@ Sie können eine Firma aus SuperOffice mit einem Kunden oder Lieferanten im ERP-
     *Oder* Person: Klicken Sie auf **Person**.
 1. Geben Sie im Dialogfeld **Mit ERP verbinden** den gewünschten Text ins Suchfeld ein und klicken Sie auf **Suchen**. Sie können auch auf das Suchsymbol (<i class="ph ph-magnifying-glass" aria-label="Suchen"></i>) klicken, um eine [erweiterte Suche][1] zu starten.
 
-    > [!TIP]
-    > Wenn Sie ohne Suchbegriff suchen, werden alle verfügbaren Einträge im ERP-System angezeigt.
+    Wenn Sie ohne Suchbegriff suchen, werden alle verfügbaren Einträge im ERP-System angezeigt.
 
 1. Wählen Sie einen Treffer aus der Liste. Wenn keine Treffer gefunden werden, können Sie basierend auf den SuperOffice-Daten einen [neuen Akteur im ERP-System erstellen](#create-actor).
 1. Klicken Sie auf **Verbinden**. Es öffnet sich ein Dialog, das die Daten anzeigt, die zwischen SuperOffice CRM und dem ERP-System synchronisiert werden. Welche Daten hier angezeigt werden, wird in SuperOffice **Einstellungen und Verwaltung** festgelegt.

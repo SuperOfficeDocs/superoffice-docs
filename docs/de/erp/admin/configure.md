@@ -33,7 +33,7 @@ Nachdem Sie eine ERP-Verbindung hinzugefügt haben, müssen Sie konfigurieren, w
 
 Die Feldzuordnung definiert, wie ERP-Felder SuperOffice-Feldern zugeordnet werden und wie der Datenfluss zwischen den Systemen erfolgt. Die verfügbaren ERP-Aktoren und ERP-Felder werden vom Sync Connector bereitgestellt und können je nach ERP-System variieren. Zusätzlich zur Festlegung der Synchronisationsrichtung können Sie auch auswählen, welche Felder im Suchfenster und in der Registerkarte **ERP** in SuperOffice CRM angezeigt werden sollen.
 
-1. Wählen Sie die ERP-Verbindung aus und klicken Sie unten auf **Zuordnungen**.
+1. Wählen Sie die ERP-Verbindung aus und klicken Sie unten links auf **Zuordnungen**.
 
     Das Dialogfeld **Zuordnungen** wird geöffnet und zeigt Registerkarten für die verfügbaren ERP-Aktoren (z. B. Kunde, Lieferant, Kontakt oder Projekt).
 
@@ -68,7 +68,7 @@ Sie können jetzt mit Listenzuordnung, Standardwerten oder Sortierung der Felder
 
 Wenn Sie Listenfelder wie Kategorie oder Status zugeordnet haben, müssen Sie auch die einzelnen Listenelemente zwischen dem ERP-System und SuperOffice abgleichen.
 
-1. Wählen Sie die ERP-Verbindung aus und klicken Sie unten auf **Listenzuordnung**.
+1. Wählen Sie die ERP-Verbindung aus und klicken Sie unten links auf **Listenzuordnung**.
 
 1. Wählen Sie im Dialog eine Liste aus. Die zugehörigen ERP- und CRM-Einträge werden angezeigt.
 
@@ -86,7 +86,7 @@ Wenn Sie Listenfelder wie Kategorie oder Status zugeordnet haben, müssen Sie au
 
 Standardwerte helfen dabei, die manuelle Dateneingabe für Felder zu reduzieren, die typischerweise einen festen oder vorhersehbaren Wert haben. Dies ist besonders hilfreich bei der Verarbeitung großer Datenmengen oder wenn Benutzer nicht wiederholt denselben Wert eingeben oder eine Option aktivieren sollen, die immer ausgewählt sein sollte.
 
-1. Wählen Sie die ERP-Verbindung aus und klicken Sie unten auf **Standards**.
+1. Wählen Sie die ERP-Verbindung aus und klicken Sie unten links auf **Standards**.
 
 1. Wählen Sie im Dialogfeld die Registerkarte für den Aktor, den Sie konfigurieren möchten.
 
@@ -114,7 +114,7 @@ Standardwerte helfen dabei, die manuelle Dateneingabe für Felder zu reduzieren,
 
 Legen Sie die Reihenfolge der Felder fest, die auf der Registerkarte **ERP** in den Ansichten Firma, Person und Projekt angezeigt werden. Alle verfügbaren Felder werden hier aufgelistet, aber nur die markierten Felder erscheinen tatsächlich auf der Registerkarte.
 
-1. Wählen Sie die ERP-Verbindung aus und klicken Sie unten auf **Felder sortieren**.
+1. Wählen Sie die ERP-Verbindung aus und klicken Sie unten links auf **Felder sortieren**.
 
 1. Wählen Sie im Dialogfeld die Registerkarte für den Aktor, den Sie konfigurieren möchten.
 
@@ -132,7 +132,7 @@ Legen Sie die Reihenfolge der Felder fest, die auf der Registerkarte **ERP** in 
 
 Wenn mehrere ERP-Verbindungen gleichzeitig aktiv sind, können Sie festlegen, welche Verbindung bei starkem Datenverkehr Priorität haben soll.
 
-1. Klicken Sie unten in der Liste **ERP-Verbindungen** auf **Sync-Priorität festlegen**.
+1. Klicken Sie unter der Liste **ERP-Verbindungen** auf **Sync-Priorität festlegen**.
 
 1. Wählen Sie im Dialogfeld eine Verbindung aus.
 

@@ -33,7 +33,7 @@ Når du har lagt til en ERP-kobling, må du konfigurere hvordan data skal synkro
 
 Felttilordning definerer hvordan ERP-felter tilsvarer SuperOffice-felter, og hvordan data flyter mellom systemene. De tilgjengelige ERP-aktørene og feltene leveres av sync connectoren og kan variere avhengig av ERP-systemet. I tillegg til å angi synkroniseringsretning, kan du velge hvilke felt som skal vises i søkevinduet og i **ERP**-fanen i SuperOffice CRM.
 
-1. Velg ERP-koblingen og klikk på **Tilordninger** nederst.
+1. Velg ERP-koblingen og klikk på **Tilordninger** nederst i venstre hjørne.
 
     Dialogboksen **Tilordninger** åpnes og viser faner for tilgjengelige ERP-aktører (som Kunde, Leverandør, Person eller Prosjekt).
 
@@ -68,7 +68,7 @@ Du kan nå fortsette med listetilordning, standardverdier eller rangering av fel
 
 Hvis du har tilordnet listefelt, som kategori eller status, må du også knytte de enkelte elementene i listene mellom ERP-systemet og SuperOffice.
 
-1. Velg ERP-koblingen og klikk på **Listetilordning** nederst.
+1. Velg ERP-koblingen og klikk på **Listetilordning** nederst i venstre hjørne.
 
 1. I dialogboksen velger du en liste. Tilsvarende ERP- og CRM-elementer vises.
 
@@ -86,7 +86,7 @@ Hvis du har tilordnet listefelt, som kategori eller status, må du også knytte 
 
 Standardverdier bidrar til å redusere manuell registrering av data for felt som vanligvis har en fast eller forutsigbar verdi. Dette er spesielt nyttig ved import av store datamengder eller hvis brukerne ikke skal måtte angi samme verdi gjentatte ganger eller merke av et felt som alltid skal være valgt.
 
-1. Velg ERP-koblingen og klikk på **Standardverdier** nederst.
+1. Velg ERP-koblingen og klikk på **Standardverdier** nederst i venstre hjørne.
 
 1. I dialogboksen velger du fanen for aktøren du vil konfigurere.
 
@@ -114,7 +114,7 @@ Standardverdier bidrar til å redusere manuell registrering av data for felt som
 
 Angi rekkefølgen på feltene som vises i **ERP**-fanen i bildene Firma, Person og Prosjekt. Alle tilgjengelige felt listes opp her, men kun de som er markert for visning vil vises i fanen.
 
-1. Velg ERP-koblingen og klikk på **Ranger felt** nederst.
+1. Velg ERP-koblingen og klikk på **Ranger felt** nederst i venstre hjørne.
 
 1. I dialogboksen velger du fanen for den aktøren du vil konfigurere.
 
@@ -163,7 +163,7 @@ Hold musepekeren over pilen for å vise en forklaring.
 
 Hvis **OK**-knappen er nedtonet når du legger til eller redigerer en kobling:
 
-* Sørg for at forbindelsestesten har vært vellykket.
+* Sørg for at forbindelsestesten var vellykket.
 * Kontroller at alle obligatoriske konfigurasjonsfelt er fylt ut.
 * Bekreft at nødvendige innstillinger (for eksempel synlighet) er angitt.
 

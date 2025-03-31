@@ -33,7 +33,7 @@ After adding an ERP connection, you must configure how data is synchronized betw
 
 Field mappings define how ERP fields correspond to SuperOffice fields and how data flows between the systems. The available ERP actors and ERP fields are provided by the sync connector and may vary depending on your ERP system. In addition to setting the synchronization direction, you can also choose which fields should appear in the search window and in the **ERP** tab in SuperOffice CRM.
 
-1. Select the ERP connection and click **Mappings** at the bottom.
+1. Select the ERP connection and click **Mappings** in the lower-left corner.
 
     The **Mappings** dialog opens, showing tabs for the available ERP actors (such as Customer, Supplier, Contact, or Project).
 
@@ -44,7 +44,7 @@ Field mappings define how ERP fields correspond to SuperOffice fields and how da
 1. For each ERP field in the list, specify:
 
     * **SuperOffice field:** Select which field in SuperOffice the ERP field should be mapped to.
-    * **Direction:** Set the sync direction. Use **&lt;** for ERP to SuperOffice, **&gt;** for SuperOffice to ERP, or **&lt; &gt;** for bidirectional sync.
+    * **Direction:** Set the sync direction. Use **&gt;** for ERP to SuperOffice, **&lt;** for SuperOffice to ERP, or **&lt; &gt;** for bidirectional sync.
 
         Direction buttons have three states:
         * **Gray:** Disabled. You must select a SuperOffice field first.
@@ -68,7 +68,7 @@ You can now continue with list mapping, default values, or ranking fields *or* r
 
 If you mapped any list fields, such as category or status, you must also map the individual list items between the ERP system and SuperOffice.
 
-1. Select the ERP connection and click **List mapping** at the bottom.
+1. Select the ERP connection and click **List mapping** in the lower-left corner.
 
 1. In the dialog, select a list. The corresponding ERP and CRM items are displayed.
 
@@ -86,7 +86,7 @@ If you mapped any list fields, such as category or status, you must also map the
 
 Default values help reduce manual data entry for fields that typically have a fixed or predictable value. This is especially useful when importing large volumes of data or when users should not have to fill in the same value repeatedly or check a box that should always be checked.
 
-1. Select the ERP connection and click **Defaults** at the bottom.
+1. Select the ERP connection and click **Defaults** in the lower-left corner.
 
 1. In the dialog, select the tab for the actor you want to configure.
 
@@ -114,7 +114,7 @@ Default values help reduce manual data entry for fields that typically have a fi
 
 Set the order of fields shown in the **ERP** tab of the Company, Contact, and Project screens. All available fields are listed here, but only those marked for display will appear in the tab.
 
-1. Select the ERP connection and click **Rank Fields** at the bottom.
+1. Select the ERP connection and click **Rank Fields** in the lower-left corner.
 
 1. In the dialog, select the tab for the actor you want to configure.
 
@@ -132,7 +132,7 @@ Set the order of fields shown in the **ERP** tab of the Company, Contact, and Pr
 
 If multiple ERP connections are active at the same time, you can define which connection should take priority in case of heavy data traffic.
 
-1. Click **Set Sync Priority** at the bottom of the **ERP connections** list.
+1. Click **Set Sync Priority** below the **ERP connections** list.
 
 1. In the dialog, select a connection.
 

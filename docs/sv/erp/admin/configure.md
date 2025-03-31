@@ -1,17 +1,18 @@
 ---
-uid: help-en-erp-configure
-title: Configure ERP connection
-description: Configure synchronization between SuperOffice CRM and your ERP system by mapping fields, setting defaults, and prioritizing ERP connections.
-keywords: ERP connection, configure sync, field mapping, list mapping, default values, rank ERP fields, set sync priority, activate ERP connection, edit ERP connection, SuperOffice ERP integration, ERP tab, sync connector
+uid: help-sv-erp-configure
+title: Konfigurera ERP-koppling
+description: Konfigurera synkronisering mellan SuperOffice CRM och ditt ERP-system genom att mappa fält, ställa in standardvärden och prioritera ERP-kopplingar.
+keywords: ERP-koppling, konfigurera synk, fältmappning, listmappning, standardvärden, ordna ERP-fält, ange synk-prioritet, aktivera ERP-koppling, redigera ERP-koppling, SuperOffice ERP-integration, ERP-flik, synk-connector
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
 topic: howto
 license: development-tools
 audience: settings
-audience_tooltip: Settings and maintenance
-language: en
+audience_tooltip: Inställningar och underhåll
+language: sv
 ---
+
 
 # Konfigurera ERP-koppling
 
@@ -33,7 +34,7 @@ När du har lagt till en ERP-koppling måste du konfigurera hur data ska synkron
 
 Fältkopplingar definierar hur ERP-fält motsvarar SuperOffice-fält och hur data flödar mellan systemen. Tillgängliga ERP-aktörer och ERP-fält tillhandahålls av Sync Connectorn och kan variera beroende på ERP-system. Förutom att ange synkriktning kan du också välja vilka fält som ska visas i sökfönstret och på fliken **ERP** i SuperOffice CRM.
 
-1. Markera ERP-kopplingen och klicka på **Kopplingar** längst ned.
+1. Markera ERP-kopplingen och klicka på **Kopplingar** nere i det vänstra hörnet.
 
     Dialogrutan **Kopplingar** öppnas och visar flikar för tillgängliga ERP-aktörer (till exempel Kund, Leverantör, Kontakt eller Projekt).
 
@@ -68,7 +69,7 @@ Du kan nu fortsätta med listmappning, standardvärden eller fältrangordning *e
 
 Om du kopplade några listfält, till exempel kategori eller status, måste du även koppla enskilda listelement mellan ERP-systemet och SuperOffice.
 
-1. Markera ERP-kopplingen och klicka på **Listmappning** längst ned.
+1. Markera ERP-kopplingen och klicka på **Listmappning** nere i det vänstra hörnet.
 
 1. I dialogrutan väljer du en lista. Motsvarande ERP- och CRM-element visas.
 
@@ -86,7 +87,7 @@ Om du kopplade några listfält, till exempel kategori eller status, måste du �
 
 Standardvärden minskar behovet av manuell inmatning i fält som vanligtvis har ett fast eller förutsägbart värde. Det är särskilt användbart vid import av stora datamängder eller när användare inte ska behöva ange samma värde upprepade gånger eller markera en ruta som alltid ska vara markerad.
 
-1. Markera ERP-kopplingen och klicka på **Standardvärden** längst ned.
+1. Markera ERP-kopplingen och klicka på **Standardvärden** nere i det vänstra hörnet.
 
 1. I dialogrutan väljer du fliken för den aktör du vill konfigurera.
 
@@ -114,7 +115,7 @@ Standardvärden minskar behovet av manuell inmatning i fält som vanligtvis har 
 
 Ställ in ordningen på fälten som visas på fliken **ERP** i fönstren Företag, Kontakt och Projekt. Alla tillgängliga fält visas här, men endast de markerade för visning visas på fliken.
 
-1. Markera ERP-kopplingen och klicka på **Ordna fält** längst ned.
+1. Markera ERP-kopplingen och klicka på **Ordna fält** nere i det vänstra hörnet.
 
 1. I dialogrutan väljer du fliken för den aktör du vill konfigurera.
 
@@ -132,7 +133,7 @@ Ställ in ordningen på fälten som visas på fliken **ERP** i fönstren Företa
 
 Om flera ERP-kopplingar är aktiva samtidigt kan du ange vilken koppling som ska prioriteras vid hög datatrafik.
 
-1. Klicka på **Ange synkroniseringsprioritet** längst ned i listan **ERP-kopplingar**.
+1. Klicka på **Ange synkroniseringsprioritet** under listan **ERP-kopplingar**.
 
 1. I dialogrutan väljer du en koppling.
 

@@ -62,7 +62,7 @@ Der Sync Connector wird der Liste hinzugefügt.
     * **Jeder**: Alle Benutzer haben Zugriff auf diese ERP-Verbindung.
     * **Spezifische Benutzer + Gruppen**: Nur ausgewählte Benutzer und Gruppen erhalten Zugriff. Klicken Sie auf den Link, um den Umfangsauswahldialog zu öffnen.
 
-    ![Dialog Unfang konfigurieren mit Benutzergruppenauswahl -screenshot][img3]
+        ![Dialog Unfang konfigurieren mit Benutzergruppenauswahl -screenshot][img3]
 
 1. Füllen Sie die **Konfigurationsfelder** aus. Diese hängen vom gewählten Connector ab und können Authentifizierung, Dateipfade, Zahlenformate oder andere technische Werte enthalten.
 

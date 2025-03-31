@@ -1,8 +1,8 @@
 ---
 uid: help-da-erp-update-connection
-title: Rediger ERP-forbindelse
-description: Lær, hvordan du ændrer navn, omfang eller konfiguration for en eksisterende ERP-forbindelse i SuperOffice CRM.
-keywords: rediger ERP-forbindelse, opdater ERP-indstillinger, ændre ERP-forbindelse, sync connector, ERP-konfiguration, SuperOffice sync
+title: Rediger ERP-link
+description: Lær, hvordan du ændrer navn, omfang eller konfiguration for et eksisterende ERP-link i SuperOffice CRM.
+keywords: rediger ERP-link, opdater ERP-indstillinger, ændre ERP-link, sync connector, ERP-konfiguration, SuperOffice sync
 author: SuperOffice RnD
 date: 03.31.2025
 version: 10.5
@@ -13,13 +13,13 @@ audience_tooltip: Indstillinger og vedligeholdelse
 language: da
 ---
 
-# Rediger ERP-forbindelse
+# Rediger ERP-link
 
-Du kan ændre navn, omfang og konfigurationsværdier for en eksisterende ERP-forbindelse.
+Du kan ændre navn, omfang og konfigurationsværdier for en eksisterende ERP-link.
 
 1. I **Indstillinger og vedligeholdelse**, vælg <i class="ph ph-barcode" aria-label="Barcode icon"></i> **Tilbud/Sync** i navigatoren, og gå til fanen **Sync**.
 
-1. Vælg ERP-forbindelsen, og klik på **Konfigurer ERP-forbindelse**.
+1. Vælg ERP-linket, og klik på **Konfigurer ERP-link**.
 
 1. Fjern markeringen i afkrydsningsfeltet **Aktiv** for at kunne redigere.
 
@@ -27,13 +27,13 @@ Du kan ændre navn, omfang og konfigurationsværdier for en eksisterende ERP-for
 
 1. Klik på **OK** for at gemme og lukke dialogboksen.
 
-1. Hvis du også skal ændre felttilknytninger, standardværdier eller lister, kan du gøre det nu ved hjælp af knapperne nederst til venstre. Du kan finde detaljerede instruktioner under [Konfigurer ERP-forbindelse][1].
+1. Hvis du også skal ændre felttilknytninger, standardværdier eller lister, kan du gøre det nu ved hjælp af knapperne nederst til venstre. Du kan finde detaljerede instruktioner under [Konfigurer ERP-links][1].
 
-1. Når konfigurationen er fuldført, klik på **Konfigurer ERP-forbindelse** igen, marker **Aktiv**, klik på **Test ERP-forbindelse**, og klik derefter på **OK** for at gemme.
+1. Når konfigurationen er fuldført, klik på **Konfigurer ERP-link** igen, marker **Aktiv**, klik på **Test ERP-link**, og klik derefter på **OK** for at gemme.
 
 ## Relateret indhold
 
-* [Tilføj en Sync Connector og ERP-forbindelse][2]
+* [Tilføj en Sync Connector og ERP-link][2]
 * [Knyt firmaer, personer og projekter til ERP-aktører][3]
 
 <!-- Referenced links -->

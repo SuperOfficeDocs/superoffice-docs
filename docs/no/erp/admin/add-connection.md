@@ -62,7 +62,7 @@ Sync Connectoren vises nå i listen.
     * **Alle**: Alle brukere kan få tilgang til og bruke denne ERP-koblingen.
     * **Angitte brukere + grupper**: Kun valgte brukere og grupper har tilgang. Klikk på lenken for å åpne dialogboksen for tilgang.
 
-    ![Dialogboks for konfigurasjon av synlighet med brukergrupper -screenshot][img3]
+        ![Dialogboks for konfigurasjon av synlighet med brukergrupper -screenshot][img3]
 
 1. Fyll inn **konfigurasjonsfeltene**. Feltene varierer basert på den valgte connectoren og kan inkludere autentisering, filbaner, tallinnstillinger eller andre tekniske parametere.
 

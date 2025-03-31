@@ -43,4 +43,19 @@ Fra denne fanen kan brukerne:
 Dette bidrar til å redusere dobbeltregistrering og gir bedre datakvalitet på tvers av systemer.
 
 > [!NOTE]
-> **ERP**-fanen vises kun for brukere med riktig lis
+> **ERP**-fanen vises bare for brukere som har riktig lisens og tilgang til en aktiv ERP-tilkobling.
+
+## Relatert innhold
+
+* [Legge til Sync Connector og definere en ERP-tilkobling][1]
+* [Redigere en ERP-tilkobling][7]
+* [Konfigurere felttilordning og standardverdier][4]
+* [Angi synkroniseringsprioritet][3]
+* [Importere fra ERP][9]
+
+<!-- Referenced links -->
+[1]: add-connection.md
+[3]: configure.md#priority
+[4]: configure.md
+[7]: update-connection.md
+[9]: ../../admin/import/learn/import-from-erp.md

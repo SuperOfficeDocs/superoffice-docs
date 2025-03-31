@@ -13,7 +13,7 @@ language: sv
 
 Varje Quote Connector måste ha en ERP-koppling med konfigurationsinformation för att koppla Quote Connector till SuperOffice.
 
-Hur konfigurerar jag en ERP-anslutning för SuperOffice CRM för webben (online)?
+Hur konfigurerar jag en ERP-koppling för SuperOffice CRM för webben (online)?
 
 1. Gå till [https://online.superoffice.com/appstore][4].
 2. Hitta rätt "sync"-app för ditt ERP-system. [Klicka här om du vill söka][2]
@@ -49,10 +49,10 @@ Hur konfigurerar jag en ERP-anslutning för SuperOffice CRM för webben (online)
 
 Nederst i listan **ERP-kopplingar** kan du ta bort ERP-kopplingar som inte längre används.
 
-Så här återställer du en borttagen ERP-anslutning:
+Så här återställer du en borttagen ERP-koppling:
 
 1. Markera **Borttagen**.
-1. Välj den borttagna anslutningen i listan.
+1. Välj den borttagna kopplingen i listan.
 1. Klicka på **Återskapa**.
 
 <!-- Referenced links -->

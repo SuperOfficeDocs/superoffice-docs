@@ -17,7 +17,7 @@ language: en
 
 [!include[Requirement](../../learn/includes/req-expander-services.md)]
 
-To synchronize data between SuperOffice CRM and an ERP system, you must first install a sync app. Then, in Settings and maintenance, you must configure a sync connector and one or more ERP connections.
+To synchronize data between SuperOffice CRM and an ERP system, you must first install a sync app. Then, in Settings and maintenance, you must add a sync connector and configure one or more ERP connections.
 
 ## 1. Install the sync app
 
@@ -32,9 +32,13 @@ Before you can add a sync connector, you need a sync app for your ERP system.
 ## <a id="connector"></a>2. Add a sync connector
 
 1. In Settings and maintenance, select <i class="ph ph-barcode" aria-label="Barcode icon"></i> **Quote/Sync** in the navigator.
+
 1. Open the **Sync** tab.
-1. Click **Add** at the bottom of the **Sync Connectors** list.
+
+1. Click **Add** below the **Sync Connectors** list.
+
 1. Enter a name and the connector URL.
+
 1. Click **OK**.
 
 The sync connector is added to the list.
@@ -43,7 +47,7 @@ The sync connector is added to the list.
 
 ## <a id="connection"></a>3. Add an ERP connection
 
-1. In the **Sync** tab, click **Add** at the bottom of the **ERP connections** list.
+1. In the **Sync** tab, click **Add** below the **ERP connections** list.
 
     The **Define new ERP connection** dialog opens.
 
@@ -54,10 +58,11 @@ The sync connector is added to the list.
 1. Select the sync connector to use from the list.
 
 1. Define the **scope**:
+
     * **Everyone:** All users can access and use this ERP connection.
     * **Specific users and groups:** Only selected users and groups can access it. Click the link to open the scope dialog and select access.
 
-    ![Configure scope dialog with user group selection][img3]
+        ![Configure scope dialog with user group selection][img3]
 
 1. Fill in the **configuration fields**. These are specific to the selected connector and may include authentication, file paths, numeric settings, or other technical values.
 

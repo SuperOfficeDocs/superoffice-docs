@@ -33,7 +33,7 @@ Nadat u een ERP-verbinding hebt toegevoegd, moet u configureren hoe gegevens wor
 
 Bij veldtoewijzing bepaalt u welke ERP-velden overeenkomen met welke SuperOffice-velden en hoe de gegevens tussen beide systemen vloeien. De beschikbare ERP-actors en ERP-velden worden geleverd door de sync connector en verschillen mogelijk per ERP-systeem. U kunt de synchronisatierichting instellen en bepalen welke velden worden weergegeven in het zoekvenster en op het **ERP**-tabblad in SuperOffice CRM.
 
-1. Selecteer de ERP-verbinding en klik op **Toewijzingen** onderaan.
+1. Selecteer de ERP-verbinding en klik op **Toewijzingen** linksonder in het scherm.
 
     Het dialoogvenster **Toewijzingen** wordt geopend en toont tabbladen voor de beschikbare ERP-actors (zoals Klant, Leverancier, Contactpersoon of Project).
 
@@ -68,7 +68,7 @@ U kunt nu doorgaan met lijsttoewijzing, standaardwaarden of het rangschikken van
 
 Als u lijstvelden hebt toegewezen, zoals categorie of status, moet u ook de afzonderlijke lijstitems toewijzen tussen het ERP-systeem en SuperOffice.
 
-1. Selecteer de ERP-verbinding en klik op **Lijsttoewijzing** onderaan.
+1. Selecteer de ERP-verbinding en klik op **Lijsttoewijzing** linksonder in het scherm.
 
 1. Selecteer een lijst in het dialoogvenster. De overeenkomstige ERP- en CRM-items worden weergegeven.
 
@@ -86,7 +86,7 @@ Als u lijstvelden hebt toegewezen, zoals categorie of status, moet u ook de afzo
 
 Standaardwaarden helpen om handmatige gegevensinvoer te verminderen voor velden die meestal een vaste of voorspelbare waarde hebben. Dit is vooral handig bij het importeren van grote hoeveelheden gegevens of wanneer gebruikers telkens dezelfde waarde moeten invoeren of een vakje moeten aanvinken dat altijd actief moet zijn.
 
-1. Selecteer de ERP-verbinding en klik op **Standaardwaarden** onderaan.
+1. Selecteer de ERP-verbinding en klik op **Standaardwaarden** linksonder in het scherm.
 
 1. Selecteer in het dialoogvenster het tabblad voor de actor waarvoor u standaardwaarden wilt configureren.
 
@@ -114,7 +114,7 @@ Standaardwaarden helpen om handmatige gegevensinvoer te verminderen voor velden 
 
 Stel de volgorde in van velden die worden weergegeven op het **ERP**-tabblad van de schermen Bedrijf, Persoon en Project. Alle beschikbare velden worden hier weergegeven, maar alleen velden die zijn gemarkeerd voor weergave verschijnen daadwerkelijk op het tabblad.
 
-1. Selecteer de ERP-verbinding en klik op **Velden rangschikken** onderaan.
+1. Selecteer de ERP-verbinding en klik op **Velden rangschikken** linksonder in het scherm.
 
 1. Selecteer in het dialoogvenster het tabblad voor de actor waarvoor u de volgorde wilt instellen.
 

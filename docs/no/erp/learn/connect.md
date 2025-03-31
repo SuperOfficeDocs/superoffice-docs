@@ -21,8 +21,7 @@ Du kan knytte et SuperOffice-firma til en kunde eller leverandør i ERP-systemet
 
 1. Gå til skjermbildet **Firma**, **Person** eller **Prosjekt**, og velg **ERP**-fanen.
 
-    > [!NOTE]
-    > Hvis **ERP**-fanen allerede inneholder firma-, person- eller prosjektinformasjon, er det allerede opprettet en kobling mellom SuperOffice og ERP-systemet.
+    Hvis **ERP**-fanen allerede inneholder firma-, person- eller prosjektinformasjon, er det allerede opprettet en kobling mellom SuperOffice og ERP-systemet.
 
 1. Klikk på **Rediger**. Valgene avhenger av om du redigerer et firma, en person eller et prosjekt.
 1. Firma: Klikk på **Kunde** eller **Leverandør**, avhengig av hvilken ERP-aktør du vil knytte firmaet til. Du kan bare velge én aktør per firma.
@@ -30,8 +29,7 @@ Du kan knytte et SuperOffice-firma til en kunde eller leverandør i ERP-systemet
     *Eller* Person: Klikk på **Person**.
 1. I dialogboksen **Knytte til ERP** skriver du inn teksten du vil søke etter i søkefeltet, og klikker på **Søk**. Du kan også klikke på søkeikonet (<i class="ph ph-magnifying-glass" aria-label="Søk"></i>) for å starte et [avansert søk][1].
 
-    > [!TIP]
-    > Hvis du søker med et tomt søkefelt, vises alle oppføringer i ERP-systemet.
+    Hvis du søker med et tomt søkefelt, vises alle oppføringer i ERP-systemet.
 
 1. Velg et element i listen. Hvis du ikke får noen treff, kan du [opprette en ny aktør i ERP-systemet](#create-actor) basert på data fra SuperOffice CRM.
 1. Klikk på **Tilknytt**. Det vises en dialogboks med dataene som blir synkronisert mellom SuperOffice CRM og ERP-systemet. Hvilke data som vises her, er definert i SuperOffice Innstillinger og vedlikehold.

@@ -17,7 +17,7 @@ language: nl
 
 U kunt de naam, reikwijdte of configuratiewaarden van een bestaande ERP-verbinding wijzigen.
 
-1. In **Instellingen en onderhoud** selecteer in het NAVIGATOR <i class="ph ph-barcode" aria-label="Barcode icon"></i> **Offerte/Synchroniseren**, en open het tabblad **Synchroniseren**.
+1. In **Instellingen en onderhoud** selecteer in het navigator <i class="ph ph-barcode" aria-label="Barcode icon"></i> **Offerte/Synchroniseren**, en open het tabblad **Synchroniseren**.
 
 1. Selecteer de ERP-verbinding en klik op **ERP-verbinding configureren**.
 

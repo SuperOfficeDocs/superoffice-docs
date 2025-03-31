@@ -2,7 +2,7 @@
 uid: help-sv-erp-add-connection
 title: Lägga till Sync Connector och ERP-koppling
 description: Lär dig hur du installerar en synk-app, lägger till en Sync Connector och skapar ERP-kopplingar för att aktivera synkronisering mellan SuperOffice CRM och ett ERP-system.
-keywords: konfigurera ERP-synk, lägga till sync connector, lägga till ERP-koppling, testa ERP-koppling, ERP-anslutning, synk, ERP
+keywords: konfigurera ERP-synk, lägga till sync connector, lägga till ERP-koppling, testa ERP-koppling, ERP-koppling, synk, ERP
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
@@ -62,7 +62,7 @@ Sync Connector läggs till i listan.
     * **Alla**: Alla användare har åtkomst till denna ERP-koppling.
     * **Angivna användare + grupper**: Endast valda användare och grupper har åtkomst. Klicka på länken för att öppna dialogrutan och välja åtkomst.
 
-    ![Dialogruta för att konfigurera synlighet med användargrupper -screenshot][img3]
+        ![Dialogruta för att konfigurera synlighet med användargrupper -screenshot][img3]
 
 1. Fyll i **konfigurationsfälten**. Dessa är specifika för den valda connectorn och kan inkludera autentisering, sökvägar, nummerformat eller andra tekniska värden.
 
@@ -100,5 +100,3 @@ Sync Connector läggs till i listan.
 [img1]: ../../../media/loc/en/erp/sync-connectors-list.png
 [img2]: ../../../media/loc/en/erp/define-erp-connection.png
 [img3]: ../../../media/loc/en/erp/configure-scope.png
-
-Varje Sync Connector måste ha en ERP-koppling med konfigurationsinformation för att koppla Sync Connector till SuperOffice.

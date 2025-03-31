@@ -62,7 +62,7 @@ Sync connectoren tilføjes til listen.
     * **Alle**: Alle brugere kan tilgå og bruge dette ERP-link.
     * **Angivne brugere + grupper**: Kun valgte brugere og grupper har adgang. Klik på linket for at åbne dialogen og vælge adgang.
 
-    ![Dialogboks til konfiguration af område med brugergruppevalg -screenshot][img3]
+        ![Dialogboks til konfiguration af område med brugergruppevalg -screenshot][img3]
 
 1. Udfyld **konfigurationsfelterne**. Disse afhænger af den valgte connector og kan inkludere autentificering, stier, talværdier eller andre tekniske oplysninger.
 

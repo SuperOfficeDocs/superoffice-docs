@@ -24,7 +24,7 @@ Så här importerar du aktörer (kunder, leverantörer och personer) från ett E
 > Om ![ikonen][img1] ERP Sync är inaktiv måste du stänga av synkronisering på fliken **Offert/Synk** > **Synk**.
 
 1. [!include[Open Import](includes/open-import.md)]
-2. Klicka på ![ikon][img1] ikonen ERP Sync under **Välj en importkälla**. Dialogrutan **Välj ERP-anslutning** öppnas.
+2. Klicka på ![ikon][img1] ikonen ERP Sync under **Välj en importkälla**. Dialogrutan **Välj ERP-koppling** öppnas.
 3. [Välj den koppling][2] du vill importera från i listan **ERP-koppling**.
 4. Välj vad du vill importera i listan **Aktörtyp**. Du kan välja till exempel kunder, leverantörer eller personer.
 5. Klicka på **OK**. Dialogrutan **Sök i ERP** öppnas.

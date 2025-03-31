@@ -21,8 +21,7 @@ U kunt een SuperOffice-bedrijf koppelen aan een klant of leverancier in het ERP-
 
 1. Ga naar het scherm **Bedrijf**, **Persoon** of **Project** en selecteer het tabblad **ERP**.
 
-    > [!NOTE]
-    > Als het tabblad **ERP** al bedrijfs-, persoon- of projectgegevens bevat, bestaat er al een verbinding tussen SuperOffice en het ERP-systeem.
+    Als het tabblad **ERP** al bedrijfs-, persoon- of projectgegevens bevat, bestaat er al een verbinding tussen SuperOffice en het ERP-systeem.
 
 1. Klik op **Bewerken**. De opties zijn afhankelijk van of u een bedrijf, een persoon of een project bewerkt.
 1. Bedrijf: Klik op **Klant** of **Leverancier**, afhankelijk van met welk type ERP-actor u het bedrijf wilt koppelen. U kunt slechts één actor per bedrijf kiezen.
@@ -30,8 +29,7 @@ U kunt een SuperOffice-bedrijf koppelen aan een klant of leverancier in het ERP-
     *Of* Persoon: Klik op **Persoon**.
 1. Voer in het dialoogvenster **Verbinden met ERP** tekst in het zoekveld in en klik op **Zoeken**. U kunt ook op het zoekpictogram klikken (<i class="ph ph-magnifying-glass" aria-label="Zoek"></i>) om een [geavanceerde zoekopdracht][1] te starten.
 
-    > [!TIP]
-    > Als u zoekt met een leeg zoekveld, worden alle records in het ERP-systeem weergegeven.
+    Als u zoekt met een leeg zoekveld, worden alle records in het ERP-systeem weergegeven.
 
 1. Selecteer een item in de lijst met zoekresultaten. Als u geen resultaten krijgt, kunt u [een nieuwe actor aanmaken in het ERP-systeem](#create-actor) op basis van gegevens uit SuperOffice CRM.
 1. Klik op **Verbinden**. Er verschijnt een dialoogvenster waarin de gegevens worden weergegeven die gesynchroniseerd zullen worden tussen SuperOffice CRM en het ERP-systeem. Welke gegevens hier zichtbaar zijn, is gedefinieerd in Instellingen en onderhoud.

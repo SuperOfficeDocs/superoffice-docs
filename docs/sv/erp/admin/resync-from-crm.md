@@ -2,7 +2,7 @@
 uid: help-sv-erp-resync-from-crm
 title: Synka om från CRM
 description: Synka om från CRM
-keywords: synka om från CRM, resync ERP, tryck ut CRM-data till ERP, synk, ERP-anslutning, connector, ERP
+keywords: synka om från CRM, resync ERP, tryck ut CRM-data till ERP, synk, ERP-koppling, connector, ERP
 author: SuperOffice RnD
 date: 03.31.2025
 version: 10.5

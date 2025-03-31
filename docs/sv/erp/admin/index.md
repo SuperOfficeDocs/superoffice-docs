@@ -2,7 +2,7 @@
 uid: help-sv-erp-admin
 title: Hantera ERP-synkronisering
 description: Introduktion till att konfigurera synkronisering mellan SuperOffice CRM och externa ERP-system.
-keywords: ERP-flik, ERP-system, ERP-aktör, Sync Connector, ERP-anslutning, synk, connector, anslutning, Offert/Synk-fönstret, ERP
+keywords: ERP-flik, ERP-system, ERP-aktör, Sync Connector, ERP-koppling, synk, connector, anslutning, Offert/Synk-fönstret, ERP
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
@@ -15,7 +15,7 @@ language: sv
 
 # Hantera ERP-synkronisering
 
-Fliken **Synk** i fönstret Offert/Synk under **Inställningar och underhåll** visar Sync Connectors och ERP-anslutningar som möjliggör integration mellan SuperOffice CRM och externa ERP-system.
+Fliken **Synk** i fönstret Offert/Synk under **Inställningar och underhåll** visar Sync Connectors och ERP-kopplingar som möjliggör integration mellan SuperOffice CRM och externa ERP-system.
 
 [!include[Requirement](../../learn/includes/req-expander-services.md)]
 
@@ -24,11 +24,11 @@ Fliken **Synk** i fönstret Offert/Synk under **Inställningar och underhåll** 
 | Term | Beskrivning |
 |---|---|
 | **Sync Connector** | Integrationskomponenten som kopplar SuperOffice CRM till ett externt ERP-system. Varje connector är kopplad till ett specifikt ERP-system. |
-| **ERP-anslutning** | En konfiguration som använder en Sync Connector för att definiera vad som ska synkroniseras, hur autentisering sker och vilken ERP-klient som ska användas. Du kan ha flera anslutningar per connector. |
+| **ERP-koppling** | En konfiguration som använder en Sync Connector för att definiera vad som ska synkroniseras, hur autentisering sker och vilken ERP-klient som ska användas. Du kan ha flera anslutningar per connector. |
 | **ERP-aktör** | En post i ERP-systemet som kan kopplas till ett objekt i SuperOffice CRM. |
 | **CRM-objekt** | En post i SuperOffice CRM – vanligtvis ett företag, en kontakt eller ett projekt – som kan kopplas till en ERP-aktör. |
 
-Du kan använda fliken **Synk** för att lägga till, konfigurera och prioritera anslutningar.
+Du kan använda fliken **Synk** för att lägga till, konfigurera och prioritera kopplingar.
 
 ## Vad ERP-synk möjliggör
 
@@ -43,12 +43,12 @@ På denna flik kan användare:
 Detta bidrar till att minska dubbelregistrering och förbättrar datakvaliteten mellan systemen.
 
 > [!NOTE]
-> Fliken **ERP** visas endast för användare med korrekt licens och åtkomst till en aktiv ERP-anslutning.
+> Fliken **ERP** visas endast för användare med korrekt licens och åtkomst till en aktiv ERP-koppling.
 
 ## Relaterat innehåll
 
-* [Lägg till en Sync Connector och definiera en ERP-anslutning][1]
-* [Redigera en ERP-anslutning][7]
+* [Lägg till en Sync Connector och definiera en ERP-koppling][1]
+* [Redigera en ERP-koppling][7]
 * [Konfigurera fältkoppling och standardvärden][4]
 * [Ange synkprioritet][3]
 * [Importera från ERP][9]

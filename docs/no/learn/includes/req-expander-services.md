@@ -3,4 +3,4 @@
 > Denne funksjonen krever [Development Tools][1]-lisensen.
 
 <!-- Referenced links -->
-[1]: ../../admin/license/expander-services/tool-box.md
+[1]: ../../../en/admin/license/expander-services/tool-box.md
