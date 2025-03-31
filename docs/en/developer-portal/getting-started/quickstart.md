@@ -14,8 +14,6 @@ client: online
 
 This guide walks you through creating a new application in SuperOffice Online and using it to authenticate, obtain tokens, and finally make an API call to retrieve data.
 
----
-
 ## Step 1. Create a New Application
 
 1. **Navigate to Your Organization Page:**
@@ -45,8 +43,6 @@ This guide walks you through creating a new application in SuperOffice Online an
 
 5. **Click Next to Proceed.**
 
----
-
 ## Step 2. Configure Your Application
 
 1. **Enter Application Name:**
@@ -69,8 +65,6 @@ This guide walks you through creating a new application in SuperOffice Online an
    * After reviewing the provided details, click **Create Application**.
    * You are now taken to the **Application Configuration Page**.
 
----
-
 ## Step 3. Application Configuration & Obtaining Credentials
 
 1. **Overview of the Configuration Page:**
@@ -82,10 +76,12 @@ This guide walks you through creating a new application in SuperOffice Online an
 
    * In the configuration area, locate your **Client ID** and *create* a **Client Secret**.
 
-   > [!NOTE] Different client IDs and secrets can be configured for different environments.
-   >  * **Development (SOD)**
-   >  * **Stage**
-   >  * **Production**
+      > [!NOTE]
+      > Different client IDs and secrets can be configured for different environments.
+      >
+      > * **Development (SOD)**
+      > * **Stage**
+      > * **Production**
 
    * By default, a client ID is assigned for each environment.
    * If desired, you can toggle the option to use one client ID for all environments; however, here we’ll keep three unique IDs.
@@ -121,8 +117,6 @@ Certificate:
 
 * The `Client ID` and `Client Secret` are used for OAUTH or OpenIDConnect.
 * The `Certificate` is used for secure back-channel communication.
-
----
 
 ## Step 4. Testing the Application with the Authentication Flow
 
@@ -171,8 +165,6 @@ Certificate:
    * The `webapi_url` is the base URL for making API calls to SuperOffice Web Services.
    * The `System User token` is used for back-channel communication.
 
----
-
 ## Step 5. Making an API Call to SuperOffice Web Services
 
 1. **Copy the Access Token:**
@@ -204,13 +196,11 @@ Certificate:
 
    Check out the [RESTful HTTP Queries][1] library for more API examples to SuperOffice Web Services.
 
----
-
 ## Summary
 
 In this tutorial, you learned how to:
 
-* **Create a custom server-to-server application** in SuperOffice Develper Portal.
+* **Create a custom server-to-server application** in SuperOffice Developer Portal.
 * **Configure the application** by setting its name, redirect URLs, technical contact, and obtaining OAUTH settings in the configuration.
 * **Add a certificate** for secure back-channel communications.
 * **Test the authentication flow** using the provided client ID and client secret.
