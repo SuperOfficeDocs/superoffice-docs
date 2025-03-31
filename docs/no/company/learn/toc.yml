@@ -13,6 +13,3 @@ items:
   href: delete.md
 - name: Adresseformater for land
   href: address-formats.md
-- name: ERP-kobling
-  href: ../../admin/erp/learn/toc.yml
-  topicHref: ../../admin/erp/learn/index.md

@@ -15,7 +15,10 @@ Hver Quote Connector må ha en ERP-kobling med konfigurasjonsinformasjon for å 
 
 Hvordan konfigurerer jeg en ERP-tilkobling for SuperOffice CRM for Web (online)?
 
-[!include[How to set up ERP](includes/set-up-erp.md)]
+1. Gå til [https://online.SuperOffice.com/AppStore][4].
+2. Finne den korrekte "Sync"-applikasjonen for deres ERP system. [Klikk her for å søke][2]
+3. Finn den korrekte "Sync"-applikasjonen for deres ERP system. [Klikk her for å søke][3]
+4. Kontakt programleverandøren for å fullføre installasjonen.
 
 ## Slik legger du til en ERP-tilkobling
 
@@ -32,7 +35,7 @@ Hvordan konfigurerer jeg en ERP-tilkobling for SuperOffice CRM for Web (online)?
     * **Alle**: Velg dette alternativet hvis alle brukere skal ha tilgang til og kunne bruke denne ERP-koblingen. Det vil si at de kan bruke prislistene som er tilgjengelig via denne koblingen.
     * **Angitte brukere + grupper**: Klikk på **Velg grupper og brukere** for å velge hvilke brukergrupper og/eller brukere som skal tilgang til denne ERP-koblingen.
 
-1. Velg ERP-koblingen som skal håndtere synkroniseringen ([Sync Connector][1]) i feltet **ERP-kobling**.
+1. Velg ERP-koblingen som skal håndtere synkroniseringen i feltet **ERP-kobling**.
 
 1. Nederst i dialogboksen angir du ønskede innstillinger. Innholdet i denne listen varierer avhengig av hvilken type Quote Connector du har valgt.
 
@@ -53,6 +56,8 @@ Slik gjenoppretter du en slettet ERP-tilkobling:
 1. Klikk på **Gjenopprett**.
 
 <!-- Referenced links -->
-[1]:sync/index.md
+[4]: https://online.superoffice.com/appstore
+[2]: https://online.superoffice.com/appstore/app/search?phrase=sync
+[3]: https://online.superoffice.com/appstore/app/search?phrase=quote
 
 <!-- Referenced images -->
