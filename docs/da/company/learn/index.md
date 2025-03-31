@@ -4,7 +4,7 @@ title: Firma
 description: Alle oplysninger relateret til et firma – det være sig din kunde, samarbejdspartner eller leverandør – gemmes på firmakortet/-skærmbilledet i SuperOffice CRM.
 keywords: firmakort, firmaskærmbillede, firma, kunde, samarbejdspartner, leverandør
 author: Bergfrid Dias
-date: 03.07.2025
+date: 03.31.2025
 version: 10.5.2
 topic: concept
 audience: person
@@ -36,7 +36,7 @@ Skærmbilledet giver dig også mulighed for at søge efter firmaer, oprette nye 
 | [Interesser][2] | Afkrydsningsfelter til angivelse af firmaets interesser til udvalg eller kampagner. En prik vises, når interesser er valgt. |
 | [Bemærkning][20] | Fritekstområde til at tilføje noter om firmaet. Noter er markeret med en prik, når de er udfyldt. |
 | [www][21] | Genvej til en URL for visning af websider eller eksterne data relateret til firmaet. |
-| [ERP][22] | Forbinder firmaer til ERP-systemet, hvilket muliggør datasynkronisering og sammenkobling af personer. |
+| [ERP][22] | Forbinder firmaer til en kunde/leverandør i ERP-systemet, hvilket muliggør datasynkronisering og sammenkobling af personer. |
 
 ## <a id="section-tabs"></a>Detaljekort på firma
 
@@ -50,7 +50,6 @@ Nederst i skærmbilledet findes følgende [standard detaljekort][18]:
 | [Projekter][14] | Viser alle projekter for det aktive firma. |
 | [Salg][15] | Indeholder oplysninger om salg tilknyttet firmaet. |
 | [Sager][16] | Viser SuperOffice Service-sager for det aktive firma. |
-| [ERP][17] | Her kan du knytte et SuperOffice-firma til en kunde/leverandør i ERP-systemet. |
 
 > [!NOTE]
 > [Personer][1], der ikke er knyttet til et firma, kan findes i skærmbilledet Person.
@@ -81,12 +80,11 @@ Nederst i skærmbilledet findes følgende [standard detaljekort][18]:
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/sales-tab.md
 [16]: ../../learn/section-tabs/requests-tab.md
-[17]: ../../admin/erp/learn/index.md
 [18]: ../../learn/section-tabs/index.md
 [19]: ../../custom-objects/learn/more-tab.md
 [20]: ../../learn/basics/notes.md
 [21]: ../../admin/lists/learn/web-panel.md
-[22]: ../../admin/erp/learn/screen/erp-tab.md
+[22]: ../../erp/learn/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../media/loc/en/company/company-screen.png

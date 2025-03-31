@@ -2,10 +2,13 @@
 uid: help-da-import-from-erp
 title: Import fra ERP
 description: Import fra ERP
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Indstillinger og vedligeholdelse, importer
+keywords: import, ERP
+author: Bergfrid Dias
+date: 03.31.2025
+version: 10.5
 topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: da
 ---
 
@@ -21,7 +24,7 @@ Følg nedenstående trin for at importere aktører (kunder, leverandører og enk
 > Hvis ERP-synkroniseringsikonet ![icon][img1] er inaktivt, skal du deaktivere synkronisering under fanen **Tilbud/Sync** > **Sync**.
 
 1. [!include[Open Import](includes/open-import.md)]
-2. [!include[Select source](includes/select-source.md)]
+2. Klik på ![icon][img1] ERP Sync-ikonet under **Vælg en importkilde**. Dialogboksen **Vælg ERP-link åbnes.**
 3. I listen **ERP-link** [vælger du den forbindelse][2], du vil importere fra.
 4. Vælg på listen **Aktørtype** det, som du vil importere. For eksempel kunder, leverandører eller enkeltpersoner.
 5. Klik på **OK**. Dialogboksen **Søg i ERP** vises.
@@ -56,7 +59,7 @@ Over hver liste er der et link til udvalget, der indeholder de nye/opdaterede ak
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md
-[2]: ../../../quote/learn/admin/sync/index.md
+[2]: ../../../learn/admin/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/import-erp-small.png

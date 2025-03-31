@@ -40,10 +40,6 @@ I skærmbilledet **Tilbud/Sync** kan du administrere links og indstillinger for 
 * Sync Connectors bruges til at integrere SuperOffice og ERP-systemet, så firmaer i SuperOffice kan tilknyttes/synkroniseres med kunder/leverandører i ERP-systemet. Det samme gælder for personer og projekter.
 * Et ERP-link består af en Quote Connector eller Sync Connector og konfigurationsinformation (for eksempel klientinformation (hvis ERP-systemet bruges af flere firmaer) og autentiseringsinformation for ERP-systemet).
 
-## Hvordan indstiller jeg en ERP-forbindelse til SuperOffice CRM til web (online)?
-
-[!include[How to set up ERP](includes/set-up-erp.md)]
-
 ## Relateret indhold
 
 * [Tilpas prislister][5]
@@ -55,7 +51,7 @@ I skærmbilledet **Tilbud/Sync** kan du administrere links og indstillinger for 
 [1]: quotesync-tab-erp-connections.md
 [2]: product/index.md
 [3]: product/configure.md
-[4]: sync/index.md
+[4]: ../../../erp/admin/index.md
 [5]: product/add-price-list.md
 [6]: product/configure.md
 [7]: product/add-product-to-price-list.md

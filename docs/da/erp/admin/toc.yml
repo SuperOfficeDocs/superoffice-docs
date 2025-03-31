@@ -1,0 +1,11 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Tilføj sync-connector og ERP-link
+  href: add-connection.md
+- name: Konfigurer ERP-link
+  href: configure.md
+- name: Rediger ERP-link
+  href: update-connection.md
+- name: Gensynkroniser fra CRM
+  href: resync-from-crm.md
