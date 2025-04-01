@@ -13,16 +13,8 @@ language: en
 
 # Quote/Sync
 
-SuperOffice Quote helps you to create, validate, and manage quotes and orders across the entire order lifecycle. It helps you get new or updated quotes to your customers faster and speed up the transition from a lead to a closed deal.
-
 > [!NOTE]
 > This feature requires a Sales Premium user plan and the Developer Tools license.
-
-Help your colleagues send their proposals quicker and avoid unnecessary errors by using an automated Quote system. Save time by converting your proposal to an order confirmation with just one click of a button.
-
-![The Quote screen in Sales showing a quotation for John Smith -screenshot][img1]
-
-It will be very easy for you and your colleagues to choose the products for a proposal from the price list. You can send different versions of your proposal to your customers and automatically register a follow-up activity. To set up a good quote document template is also essential so your customers also get information about products and prices added in your quote.
 
 ## The screen
 
@@ -58,4 +50,3 @@ In the **Quote/Sync** screen you can administrate connections and settings for E
 [8]: product/select-product-image.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/loc/en/quote/quote-management.png

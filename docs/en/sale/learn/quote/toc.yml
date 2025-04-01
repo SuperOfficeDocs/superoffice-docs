@@ -3,8 +3,6 @@ items:
   href: index.md
 - name: Edit quote dialog
   href: screen/edit-quote-dialog.md
-- name: Quote section tab
-  href: quote-tab.md
 - name: Create quote
   href: create.md
 - name: Copy quote

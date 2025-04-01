@@ -128,7 +128,7 @@ For more details on setting up your sales opportunities, see the [guide to sales
 [19]: ../../learn/basics/notes.md
 [20]: ../../learn/getting-started/main-screen/side-panel.md
 [12]: ../../custom-objects/learn/more-tab.md
-[17]: ../../quote/learn/quote-tab.md
+[17]: quote/index.md#quote-tab
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/sales-screen.png

@@ -81,7 +81,7 @@ landingContent:
         typeDesc: concept
         links:
         - text: Overview
-          url: ../quote/index.md
+          url: learn/quote/index.md
       - itemType: list
         typeDesc: how-to-guide
         links:

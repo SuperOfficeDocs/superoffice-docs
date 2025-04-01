@@ -80,7 +80,14 @@ In Settings and maintenance, different rules can be defined for what is allowed 
 > [!NOTE]
 > Products are added to and saved in a quote even if warnings and other messages are displayed, but you cannot send the quote while it contains errors and warnings. You must either correct the error or get the quote approved.
 
-[!include[Table showing quote icons](includes/table-quote-icons.md)]
+| Icon | Explanation | Solution |
+|:-:|---|---|
+| ![icon][img1] | OK | - |
+| ![icon][img2] | OK with information | A message is displayed for the quote, but the quote can be sent as it is. |
+| <i class="ph ph-warning" aria-label="Warning"></i> | Warning: Needs Approval | The [quote must be approved][1] before it can be sent. |
+| ![icon][img4] | Error | The error must be corrected before the quote can be sent. |
+
+A message is also displayed to explain the cause of the error.
 
 ### Where are these warnings and messages displayed?
 
@@ -103,3 +110,6 @@ Warnings and messages may be due to, for example:
 [1]: approve.md
 
 <!-- Referenced images -->
+[img1]: ../../../media/icons/quote-status-ok.png
+[img2]: ../../../media/icons/quote-status-ok-with-info.png
+[img4]: ../../../media/icons/quote-status-error.png
