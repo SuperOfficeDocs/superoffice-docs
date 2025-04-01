@@ -102,4 +102,4 @@ Du ønsker å rydde opp i alle de "gamle" prosjektene som ikke er satt til å fu
 
 <!-- Referenced links -->
 [1]: ../../security/privacy/learn/mass-delete.md
-[3]: ../../security/privacy/learn/edit-legal-base.md#bulk
+[3]: ../../../en/security/privacy/learn/edit-legal-base.md#bulk

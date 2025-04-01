@@ -102,4 +102,4 @@ You want to clean up all the "old" projects that have not been set to completed.
 
 <!-- Referenced links -->
 [1]: ../../security/privacy/learn/mass-delete.md
-[3]: ../../security/privacy/learn/edit-legal-base.md#bulk
+[3]: ../../../en/security/privacy/learn/edit-legal-base.md#bulk

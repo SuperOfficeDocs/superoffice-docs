@@ -2,7 +2,7 @@
 title: ERP Quote Connector Interface
 uid: quote_connectors
 description: ERP Quote Connector Interface
-author: {github-id}, Eivind Fasting
+author: Eivind Fasting
 date: 01.31.2025
 keywords: quote, connector, setup
 topic: concept

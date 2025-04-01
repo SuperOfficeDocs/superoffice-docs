@@ -83,7 +83,11 @@ This guide walks you through creating a new application in SuperOffice Online an
    * In the configuration area, locate your **Client ID** and *create* a **Client Secret**.
 
       > [!NOTE]
-      > Different client IDs and secrets can be configured for different environments, i.e. **Development (SOD)**, **Stage** and **Production**.
+      > Different client IDs and secrets can be configured for different environments.
+      >
+      > * **Development (SOD)**
+      > * **Stage**
+      > * **Production**
 
    * By default, a client ID is assigned for each environment.
    * If desired, you can toggle the option to use one client ID for all environments; however, here we’ll keep three unique IDs.
@@ -202,13 +206,11 @@ Certificate:
 
    Check out the [RESTful HTTP Queries][1] library for more API examples to SuperOffice Web Services.
 
----
-
 ## Summary
 
 In this tutorial, you learned how to:
 
-* **Create a custom server-to-server application** in SuperOffice Develper Portal.
+* **Create a custom server-to-server application** in SuperOffice Developer Portal.
 * **Configure the application** by setting its name, redirect URLs, technical contact, and obtaining OAUTH settings in the configuration.
 * **Add a certificate** for secure back-channel communications.
 * **Test the authentication flow** using the provided client ID and client secret.

@@ -1,10 +1,11 @@
 ---
+uid: register-idp
 title: Register identity provider (domain name)
-uid: register_idp
 description: Register identity provider (domain name)
-author: {github-id}
-date: 01.15.2024
 keywords: IdP, SuperID, Microsoft Entra, ME-ID, AAD
+author: Frode Berntsen
+date: 03.31.2025
+version: 10.5
 topic: howto
 envir: cloud
 client: online
@@ -14,8 +15,8 @@ client: online
 
 Before using a federated sign-in service, you must register the domain with us. This enables SuperID to recognize the domain of the user's email address and redirect to the correct identity provider for authentication.
 
->[!NOTE]
->Any user that can authenticate with the customer's domain can register **Google** as an identity provider.
+> [!NOTE]
+> Any user that can authenticate with the customer's domain can register **Google** as an identity provider.
 >
 > To register **Microsoft** as an IDP and grant the SuperOffice ID Microsoft Entra application access to read user profile information, the user should be Global Admin or App Admin.
 
@@ -137,15 +138,15 @@ You can find additional domains in your Microsoft Entra admin center under **Cu
 [6]: ../../user/send-welcome-emails.md
 
 <!-- Referenced images -->
-[img1]: media/choose-idp.png
-[img2]: media/o365signin.png
+[img1]: media/choose-idp-green.png
+[img2]: media/o365signin1-green.png
 [img3]: media/o365confirm.png
-[img4]: media/confirm-all-users-o365.png
+[img4]: media/confirm-all-users-o365-green.png
 [img5]: media/google-signin.png
-[img6]: media/confirm-all-users-google.png
-[img7]: media/confirmation.png
-[img8]: media/signin-domain.png
+[img6]: media/confirm-all-users-google-green.png
+[img7]: media/confirmation-green.png
+[img8]: media/signin-domain-green.png
 [img9]: media/register-subdomains.png
 [img10]: media/ms365customdomains1.png
 [img11]: media/ms365customdomains2.png
-[img12]: media/o365permissions.png
+[img12]: media/o365permissions1-green.png
