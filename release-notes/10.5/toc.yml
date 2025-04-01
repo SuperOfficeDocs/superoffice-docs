@@ -37,10 +37,13 @@ items:
   items:
   - name: 10.5.3 update
     href: api/10.5.3.md
+    items:
+    - name: Database changes 10.5.3
+      href: ../database/changes-10.5.3.md
   - name: 10.5.2 update
     href: api/10.5.2-update.md
     items:
-    - name: Database changes 10.5.1
+    - name: Database changes 10.5.2
       href: ../database/changes-10.5.2.md
   - name: 10.5.1 update
     href: api/10.5.1-update.md

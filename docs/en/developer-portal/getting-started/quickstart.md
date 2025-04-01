@@ -20,20 +20,20 @@ This guide walks you through creating a new application in SuperOffice Online an
 
 1. **Navigate to Your Organization Page:**
 
-   When logged in, the default landing page is the home page. This is where widgets can be [added to your home dashboard][0]. In order to create a new application, you must first navigate to your organization page. If you only belong to one organization, you will see the name of the organization at the top of the page in the navigation, between Apps and Docs. If you are a member of more than one organization, click the navigation item `Partners`, then select the organization that should own the new application.
+   When logged in, the default landing page is the home page. This is where widgets can be [added to your home dashboard][0]. In order to create a new application, you must first navigate to your organization page. If you only belong to one organization, you will see the name of the organization at the top of the page in the navigation, between Home and Docs. If you are a member of more than one organization, click the navigation item `Partners`, then select the organization that should own the new application.
 
    * When the organization overview page is displayed.
    * Notice the app store listing, settings, and your list of existing applications on the right.
 
-2. **Click "Create App":**
+2. **Click "Create Application":**
 
-   * In the `Applications` area, press the **Create App** button to start the create app wizard.
+   * In the `Applications` area, press the big green **Create Application** button to start the create app wizard.
 
 3. **Select the Application Template:**
 
    * Choose from the available templates. For maximum flexibility, select the **Server to Server** template.
 
-     *This option supports both interactive user authentication and back-channel communication via a “system user flow” (similar to the client credentials flow).*
+     *This option supports both interactive user authentication and back-channel communication via a [`system user flow`][2] (similar to the client credentials flow).*
 
 4. **Select the Application Type:**
 
@@ -61,7 +61,7 @@ This guide walks you through creating a new application in SuperOffice Online an
 
 3. **Technical Contact:**
 
-   * The system will suggest a default technical contact (from your organization’s members). You can keep the default or search for another contact.
+   * The system will suggest the logged in user as the default technical contact. You can keep the default or search for another contact.
    * Click **Next** once satisfied.
 
 4. **Create the Application:**
@@ -82,10 +82,8 @@ This guide walks you through creating a new application in SuperOffice Online an
 
    * In the configuration area, locate your **Client ID** and *create* a **Client Secret**.
 
-   > [!NOTE] Different client IDs and secrets can be configured for different environments.
-   >  * **Development (SOD)**
-   >  * **Stage**
-   >  * **Production**
+      > [!NOTE]
+      > Different client IDs and secrets can be configured for different environments, i.e. **Development (SOD)**, **Stage** and **Production**.
 
    * By default, a client ID is assigned for each environment.
    * If desired, you can toggle the option to use one client ID for all environments; however, here we’ll keep three unique IDs.
@@ -98,7 +96,7 @@ This guide walks you through creating a new application in SuperOffice Online an
 
 4. **Add a Certificate for Back-Channel Communication:**
 
-   * To enable back-channel communication (the “system user flow”), add a new certificate.
+   * To enable back-channel communication ([system user flow][2]), add a new certificate.
    * This certificate is essentially an RSA XML key.
    * Generate the certificate, then save the private key on your machine (only the public key is stored in SuperOffice).
 
@@ -120,7 +118,7 @@ Certificate:
 ```
 
 * The `Client ID` and `Client Secret` are used for OAUTH or OpenIDConnect.
-* The `Certificate` is used for secure back-channel communication.
+* The `Certificate` is used for secure [back-channel communication][2].
 
 ---
 
@@ -220,5 +218,6 @@ By following these steps, you now have a basic but complete understanding of how
 
 <!-- links and media reference -->
 
-[0]: ../../widgets/index.md
+[0]: ../widgets/index.md
 [1]: https://github.com/SuperOffice/RESTful-HTTP-Queries
+[2]: ../../api/authentication/online/auth-application/index.md
