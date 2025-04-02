@@ -44,6 +44,8 @@ SuperOffice Quote supports the entire quote-to-order lifecycle. It helps you del
 1. [Send the quote][4].
 1. [Place the order][5] once the customer accepts.
 
+![After clicking the button to create a quote, you can start adding your products and services to the quote (animated) -screenshot][img2]
+
 ### <a id="status"></a>Quote statuses
 
 | Icon | Status |
@@ -87,7 +89,6 @@ To ensure consistency, use a well-designed quote document template. Administrato
 
 ## Related content
 
-* [The Edit quote dialog][8]
 * [Add/edit a product in the quote][2]
 * [Create a quote document][3]
 * [Add alternatives to a quote][7]
@@ -95,13 +96,13 @@ To ensure consistency, use a well-designed quote document template. Administrato
 
 <!-- Referenced links -->
 [1]: create.md
+[2]: create.md#add-products
 [6]: create.md#copy
-[2]: add-product.md
 [3]: create-quote-document.md
 [4]: send.md
 [5]: create-order.md
 [7]: add-alternative.md
-[8]: screen/edit-quote-dialog.md
 [11]: ../../admin/quote.md
 
 [img1]: ../../../../media/loc/en/quote/quote-management.png
+[img2]: ../../../../media/loc/en/quote/quote-create-send.gif

@@ -17,7 +17,7 @@ After adding products to the quote and created a quote document, you can send th
 2. Click **Send**. The **Publish/send a quote** dialog appears.
 
     > [!NOTE]
-    > Is an error message displayed? You cannot send a quote if it [needs to be approved][1] or [contains errors or warnings][2].
+    > Is an error message displayed? You cannot send a quote if it [needs to be approved][1] or contains errors or warnings.
 
 3. If required, edit the validity of the quote in the **Valid to** field. The number of days until the quote expires is shown on the right of the field.
 
@@ -45,7 +45,6 @@ The quote is marked as **Sent** and is archived as a PDF document in the **Activ
 
 <!-- Referenced links -->
 [1]: approve.md
-[2]: add-product.md#warning
 [3]: versions.md
 
 <!-- Referenced images -->

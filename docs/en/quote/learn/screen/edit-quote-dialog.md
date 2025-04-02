@@ -13,8 +13,6 @@ language: en
 
 ## The top section of the dialog
 
-* [Click to create quote document][1].
-* [Message/warning (with icons)][9].
 * **Version**: The current version of the quote is shown here. You can select previous versions from the list.
 * **Number**: The quote number.
 * **State**/status icon: Shows the [status of the quote][8] (for example **Draft**, **Needs Approval**, **Sent**, or **Sold**)
@@ -55,7 +53,6 @@ The bottom section of the dialog
 **Update prices**: Used to update the prices in the quote from the price list(s).
 
 <!-- Referenced links -->
-[1]: ../create-quote-document.md
 [3]: ../send.md
 [4]: ../create-order.md
 [6]: ../add-product.md

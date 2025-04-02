@@ -50,5 +50,5 @@ You can delete an alternative by clicking <i class="ph ph-dots-three-circle-vert
 
 <!-- Referenced links -->
 [1]: create.md
-[2]: add-product.md
+[2]: create.md#add-products
 [3]: send.md

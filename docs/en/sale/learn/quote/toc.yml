@@ -1,14 +1,8 @@
 items:
 - name: Overview
   href: index.md
-- name: Edit quote dialog
-  href: screen/edit-quote-dialog.md
-- name: Create quote
+- name: Create a quote and add products
   href: create.md
-- name: Copy quote
-  href: copy.md
-- name: Add products
-  href: add-product.md
 - name: Add alternatives
   href: add-alternative.md
 - name: Create quote document

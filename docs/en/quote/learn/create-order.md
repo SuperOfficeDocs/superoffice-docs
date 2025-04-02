@@ -33,6 +33,6 @@ If SuperOffice CRM is connected to an ERP system (either using the built-in solu
 
 <!-- Referenced links -->
 [1]: approve.md
-[2]: add-product.md#warning
+[2]: create.md#warning
 
 <!-- Referenced images -->

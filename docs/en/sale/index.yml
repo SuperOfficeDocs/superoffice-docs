@@ -85,12 +85,10 @@ landingContent:
       - itemType: list
         typeDesc: how-to-guide
         links:
-        - text: Create quotes
-          url: ../quote/learn/create.md
+        - text: Create quote and add products
+          url: learn/quote/create.md
         - text: Add alternative
           url: ../quote/learn/add-alternative.md
-        - text: Add product
-          url: ../quote/learn/add-product.md
         - text: Place an order
           url: ../quote/learn/create-order.md
         - text: Add ERP connection (Quote Connector)
