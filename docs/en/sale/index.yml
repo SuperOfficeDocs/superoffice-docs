@@ -88,7 +88,7 @@ landingContent:
         - text: Create quote and add products
           url: learn/quote/create.md
         - text: Add alternative
-          url: ../quote/learn/add-alternative.md
+          url: learn/quote/add-alternative.md
         - text: Place an order
           url: ../quote/learn/create-order.md
         - text: Add ERP connection (Quote Connector)
