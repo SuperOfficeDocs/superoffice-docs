@@ -37,7 +37,6 @@ Du kan knytte et SuperOffice-firma til en kunde eller leverandør i ERP-systemet
     For eksempel: Hvis gateadressene er forskjellige, velg den som er riktig. De andre dataene vil bli overskrevet.
 1. Klikk på **Tilknytt**. Du kommer tilbake til **ERP**-fanen, hvor de synkroniserte dataene nå vises.
 1. Klikk på **Lagre**.
-1. Om ønskelig, klikk på **Synkroniser nå**.
 
 ## <a id="create-actor"></a>Opprette aktør i ERP-systemet
 

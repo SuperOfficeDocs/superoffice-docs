@@ -37,7 +37,6 @@ Du kan koppla ett SuperOffice-företag till en kund eller leverantör i ERP-syst
     Exempel: Om gatuadresserna är olika, välj den som är rätt. Övriga data skrivs över.
 1. Klicka på **Koppla**. Du kommer tillbaka till **ERP**-fliken där de synkroniserade uppgifterna nu visas.
 1. Klicka på **Spara**.
-1. Klicka eventuellt på **Synkronisera nu**.
 
 ## <a id="create-actor"></a>Skapa aktör i ERP-systemet
 

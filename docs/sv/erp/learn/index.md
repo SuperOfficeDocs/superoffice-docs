@@ -27,7 +27,7 @@ Använd **ERP-fliken** för att:
 * Koppla kontakter till motsvarande personer i ERP-systemet.
 * Koppla SuperOffice-projekt till projekt i ERP-systemet.
 
-När kopplingen har upprättats synkroniseras data automatiskt eller på begäran. Du kan klicka på **Synkronisera nu** för att utlösa en manuell synkronisering.
+När kopplingen har upprättats synkroniseras data automatiskt eller på begäran.
 
 > [!NOTE]
 > **ERP-fliken** visas endast för användare med korrekt licens och aktiverade inställningar i Inställningar och underhåll.

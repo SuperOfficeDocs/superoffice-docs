@@ -37,7 +37,6 @@ Als de ERP-integratie correct is geconfigureerd, krijgen gebruikers toegang tot 
 Vanuit dit tabblad kunnen gebruikers:
 
 * SuperOffice-records koppelen aan bijbehorende actoren in het ERP-systeem.
-* Handmatige synchronisatie starten (bijvoorbeeld via **Nu synchroniseren**).
 * Gesynchroniseerde velden en waarden uit het ERP-systeem bekijken.
 
 Dit helpt dubbele invoer te verminderen en de gegevensconsistentie tussen systemen te verbeteren.

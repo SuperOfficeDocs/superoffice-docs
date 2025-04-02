@@ -37,7 +37,6 @@ Når ERP-integrationen er korrekt konfigureret, får brugerne adgang til fanen *
 Fra denne fane kan brugerne:
 
 * Knytte SuperOffice-poster til matchende aktører i ERP-systemet.
-* Starte manuel synkronisering (for eksempel ved at klikke på **Synkroniser nu**).
 * Se synkroniserede felter og værdier fra ERP.
 
 Dette hjælper med at reducere dobbeltindtastning og forbedrer datakonsistensen på tværs af systemer.

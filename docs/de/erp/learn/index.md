@@ -27,7 +27,7 @@ Verwenden Sie die **ERP-Registerkarte**, um:
 * Personen mit entsprechenden Einträgen im ERP-System zu verknüpfen.
 * SuperOffice-Projekte mit Projekten im ERP-System zu verknüpfen.
 
-Sobald eine Verbindung besteht, werden die Daten automatisch oder bei Bedarf synchronisiert. Sie können auf **Jetzt Sync.** klicken, um eine manuelle Synchronisierung zu starten.
+Sobald eine Verbindung besteht, werden die Daten automatisch oder bei Bedarf synchronisiert.
 
 > [!NOTE]
 > Die **ERP-Registerkarte** ist nur für Benutzer verfügbar, die über die entsprechende Lizenz verfügen und bei denen die nötigen Einstellungen in **Einstellungen und Verwaltung** aktiviert sind.

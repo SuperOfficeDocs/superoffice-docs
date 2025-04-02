@@ -37,7 +37,6 @@ När ERP-integrationen är korrekt konfigurerad får användare tillgång till f
 På denna flik kan användare:
 
 * Knyta SuperOffice-poster till motsvarande aktörer i ERP-systemet.
-* Starta manuell synkronisering (till exempel genom att klicka på **Synkronisera nu**).
 * Visa synkroniserade fält och värden från ERP.
 
 Detta bidrar till att minska dubbelregistrering och förbättrar datakvaliteten mellan systemen.

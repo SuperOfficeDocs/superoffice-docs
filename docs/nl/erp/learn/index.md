@@ -27,7 +27,7 @@ Gebruik het **ERP-tabblad** om:
 * Contactpersonen te koppelen aan overeenkomende personen in het ERP-systeem.
 * SuperOffice-projecten te koppelen aan projecten in het ERP-systeem.
 
-Zodra de koppeling is ingesteld, worden gegevens automatisch of op aanvraag gesynchroniseerd. U kunt klikken op **Nu synchroniseren** om handmatig een synchronisatie uit te voeren.
+Zodra de koppeling is ingesteld, worden gegevens automatisch of op aanvraag gesynchroniseerd.
 
 > [!NOTE]
 > Het **ERP-tabblad** is alleen beschikbaar voor gebruikers met de juiste licentie en geactiveerde instellingen in Instellingen en onderhoud.

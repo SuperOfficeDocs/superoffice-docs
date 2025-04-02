@@ -37,7 +37,6 @@ You can connect a SuperOffice company to a customer/supplier in the ERP system. 
     For example: If the street addresses are different, select the correct one. The other data will be overwritten.
 1. Click **Connect**. This takes you back to the **ERP** tab where the synchronized data will now be displayed.
 1. Click **Save**.
-1. If you wish, click **Sync Now**.
 
 ## <a id="create-actor"></a>Create an actor in the ERP system
 

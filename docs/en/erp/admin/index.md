@@ -37,7 +37,6 @@ When ERP integration is configured correctly, users can access the **ERP** tab o
 From this tab, users can:
 
 * Link SuperOffice records to matching actors in the ERP system.
-* Trigger manual synchronization (for example, by clicking **Sync now**).
 * View synchronized fields and values from ERP.
 
 This helps reduce duplicate data entry and improves data consistency across systems.

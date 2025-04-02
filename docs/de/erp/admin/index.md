@@ -36,9 +36,8 @@ Wenn die ERP-Integration korrekt eingerichtet ist, können Benutzer in SuperOffi
 
 In dieser Registerkarte können Benutzer:
 
-* SuperOffice-Datensätze mit passenden Akteuren im ERP-System verknüpfen,
-* eine manuelle Synchronisierung auslösen (z. B. über **Jetzt Sync.**),
-* synchronisierte Felder und Werte aus dem ERP-System anzeigen.
+* SuperOffice-Datensätze mit passenden Akteuren im ERP-System verknüpfen.
+* Synchronisierte Felder und Werte aus dem ERP-System anzeigen.
 
 Dies reduziert doppelte Dateneingaben und verbessert die Datenkonsistenz zwischen den Systemen.
 

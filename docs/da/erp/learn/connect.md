@@ -37,7 +37,6 @@ Du kan knytte et SuperOffice-firma til en kunde eller leverandør i ERP-systemet
     For eksempel: Hvis gadeadresserne er forskellige, vælg den korrekte. De øvrige data overskrives.
 1. Klik på **Tilknyt**. Du kommer tilbage til fanen **ERP**, hvor de synkroniserede data nu vises.
 1. Klik på **Gem**.
-1. Klik eventuelt på **Synkroniser nu**.
 
 ## <a id="create-actor"></a>Opret en aktør i ERP-systemet
 

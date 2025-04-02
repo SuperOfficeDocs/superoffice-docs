@@ -27,7 +27,7 @@ Use the **ERP** tab to:
 * Link contacts to matching individuals in the ERP system.
 * Link SuperOffice projects to ERP projects.
 
-Once linked, data is synchronized automatically or on demand. You can click **Sync now** to manually trigger synchronization.
+Once linked, data is synchronized automatically or on demand.
 
 > [!NOTE]
 > The **ERP** tab is only available to users with the required license and the appropriate settings enabled in Settings and maintenance.

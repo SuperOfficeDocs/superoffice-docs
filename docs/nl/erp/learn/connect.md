@@ -37,7 +37,6 @@ U kunt een SuperOffice-bedrijf koppelen aan een klant of leverancier in het ERP-
     Bijvoorbeeld: als de straatadressen verschillen, selecteer dan het juiste adres. De andere gegevens worden overschreven.
 1. Klik op **Verbinden**. U keert terug naar het tabblad **ERP** waar de gesynchroniseerde gegevens nu worden weergegeven.
 1. Klik op **Opslaan**.
-1. Indien gewenst kunt u op **Nu synchroniseren** klikken.
 
 ## <a id="create-actor"></a>Een actor maken in het ERP-systeem
 

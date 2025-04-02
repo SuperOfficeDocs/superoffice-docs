@@ -37,7 +37,6 @@ Sie können eine Firma aus SuperOffice mit einem Kunden oder Lieferanten im ERP-
     Zum Beispiel: Wenn sich die Straßenadressen unterscheiden, wählen Sie die richtige aus. Die anderen Daten werden überschrieben.
 1. Klicken Sie auf **Verbinden**. Sie kehren zur Registerkarte **ERP** zurück, auf der nun die synchronisierten Daten angezeigt werden.
 1. Klicken Sie auf **Speichern**.
-1. Optional: Klicken Sie auf **Jetzt synchronisieren**.
 
 ## <a id="create-actor"></a>Akteur im ERP-System erstellen
 

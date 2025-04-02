@@ -27,7 +27,7 @@ Bruk **ERP-fanen** til å:
 * Koble personer til tilsvarende personer i ERP-systemet.
 * Koble SuperOffice-prosjekter til prosjekter i ERP-systemet.
 
-Når koblingen er opprettet, synkroniseres data automatisk eller ved behov. Du kan klikke på **Synkroniser nå** for å utløse en manuell synkronisering.
+Når koblingen er opprettet, synkroniseres data automatisk eller ved behov.
 
 > [!NOTE]
 > **ERP-fanen** er kun tilgjengelig for brukere med riktig lisens og med nødvendige innstillinger aktivert i Innstillinger og vedlikehold.
