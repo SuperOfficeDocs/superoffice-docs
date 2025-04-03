@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 340,
-  "Select": "cum"
+  "SelectionId": 761,
+  "Select": "et"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Ryan-Grimes",
-    "PrimaryKey": 277,
+    "EntityName": "Bernhard-Doyle",
+    "PrimaryKey": 274,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quaerat",
-        "TooltipHint": "veniam",
-        "LinkHint": "quas"
+        "DisplayValue": "expedita",
+        "TooltipHint": "vel",
+        "LinkHint": "consequatur"
       }
     },
-    "LinkHint": "aliquam",
-    "StyleHint": "nemo",
+    "LinkHint": "aut",
+    "StyleHint": "omnis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 846
+        "FieldType": "System.Int32",
+        "FieldLength": 727
       }
     }
   }

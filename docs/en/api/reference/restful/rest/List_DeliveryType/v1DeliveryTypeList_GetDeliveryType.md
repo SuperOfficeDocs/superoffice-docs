@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "Name": "Bruen-Tremblay",
-  "Tooltip": "aut",
+  "Id": 701,
+  "Name": "Zieme-Marvin",
+  "Tooltip": "dolore",
   "Deleted": false,
-  "UdListDefinitionId": 315,
-  "Rank": 509,
+  "UdListDefinitionId": 87,
+  "Rank": 890,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 159
+      "FieldLength": 753
     }
   }
 }

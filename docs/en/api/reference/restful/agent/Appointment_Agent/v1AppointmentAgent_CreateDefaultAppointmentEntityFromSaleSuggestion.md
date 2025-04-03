@@ -115,6 +115,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -138,10 +139,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 205,
-  "SaleId": 134,
+  "SuggestedAppointmentId": 385,
+  "SaleId": 724,
   "CreateNow": true,
-  "OwnerId": 40
+  "OwnerId": 179
 }
 ```
 
@@ -156,120 +157,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-01-17T02:38:20.7921001+01:00",
-  "AppointmentId": 396,
-  "Description": "Grass-roots holistic benchmark",
-  "Title": "libero",
+  "CreatedDate": "2020-10-08T14:28:21.3991694+02:00",
+  "AppointmentId": 31,
+  "Description": "Synergized upward-trending orchestration",
+  "Title": "maiores",
   "Agenda": "corrupti",
-  "InternalNotes": "quam",
-  "StartDate": "2001-05-27T02:38:20.7921001+02:00",
-  "EndDate": "2008-08-26T02:38:20.7921001+02:00",
+  "InternalNotes": "tempora",
+  "StartDate": "2013-11-06T14:28:21.3991694+01:00",
+  "EndDate": "2021-01-03T14:28:21.3991694+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 942,
+  "MotherId": 377,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-04-15T02:38:20.7921001+02:00",
+  "UpdatedDate": "1999-10-19T14:28:21.3991694+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 586,
+  "ActiveLinks": 11,
   "Links": [
     {
-      "EntityName": "Toy, Crona and Moen",
-      "Id": 626,
-      "Description": "Re-engineered tangible toolset",
-      "ExtraInfo": "minus",
-      "LinkId": 265,
+      "EntityName": "Jenkins Inc and Sons",
+      "Id": 802,
+      "Description": "De-engineered executive Graphic Interface",
+      "ExtraInfo": "consequatur",
+      "LinkId": 223,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldType": "System.String",
+          "FieldLength": 355
         }
       }
     }
   ],
-  "AlarmLeadTime": "quasi",
-  "HasAlarm": false,
-  "ColorIndex": 529,
+  "AlarmLeadTime": "ipsam",
+  "HasAlarm": true,
+  "ColorIndex": 187,
   "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "dolores",
-  "LeadTime": "facere",
-  "Location": "voluptates",
-  "RejectCounter": 666,
+  "IsAlldayEvent": false,
+  "LagTime": "consectetur",
+  "LeadTime": "eos",
+  "Location": "aut",
+  "RejectCounter": 885,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 242,
-      "PersonId": 708,
-      "ContactId": 735,
-      "EmailId": 588,
-      "SendEmail": false,
+      "AssociateId": 578,
+      "PersonId": 358,
+      "ContactId": 671,
+      "EmailId": 452,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "annabell.hamill@murazik.biz",
-      "Description": "Organized composite data-warehouse"
+      "EmailAddress": "reese@nader.uk",
+      "Description": "Configurable needs-based parallelism"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-02-16T02:38:20.7921001+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2009-07-07T14:28:21.3991694+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 684,
+  "PreferredTZLocation": 648,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 442,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 952,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "tenetur",
+  "CentralserviceVideomeetId": "at",
   "UserDefinedFields": {
-    "SuperOffice:1": "Abe Nolan",
-    "SuperOffice:2": "158665956"
+    "SuperOffice:1": "1127869382",
+    "SuperOffice:2": "Tierra Steuber"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "culpa",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "et"
+    "CustomFields1": "sint",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "2020-08-22T02:38:20.7921001+02:00",
-  "PublishTo": "2006-06-05T02:38:20.7921001+02:00",
-  "PublishFrom": "2011-02-20T02:38:20.7921001+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2011-11-14T14:28:21.3991694+01:00",
+  "PublishTo": "2012-08-26T14:28:21.3991694+02:00",
+  "PublishFrom": "2017-05-04T14:28:21.3991694+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 508,
+      "VisibleId": 73,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldLength": 337
         }
       }
     },
     {
-      "VisibleId": 508,
+      "VisibleId": 73,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 941
+          "FieldLength": 337
         }
       }
     }
@@ -279,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldLength": 579
     }
   }
 }

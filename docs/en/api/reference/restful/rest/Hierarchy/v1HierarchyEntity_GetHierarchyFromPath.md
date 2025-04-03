@@ -30,7 +30,7 @@ Get a hierarchy item from a path
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}/{path}?children=False
+GET /api/v1/Hierarchy/{domain}/{path}?children=True
 ```
 
 
@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 997,
+  "HierarchyId": 642,
   "Domain": "Dashboards",
-  "Name": "Bogan Group",
-  "Fullname": "provident",
-  "ParentId": 576,
+  "Name": "Hettinger Inc and Sons",
+  "Fullname": "consectetur",
+  "ParentId": 466,
   "Children": [
     {
-      "HierarchyId": 123,
+      "HierarchyId": 445,
       "Domain": "Dashboards",
-      "Name": "Steuber-Homenick",
-      "Fullname": "numquam",
-      "ParentId": 399,
+      "Name": "Lesch-Lakin",
+      "Fullname": "sit",
+      "ParentId": 952,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2018-02-28T02:38:26.1204323+01:00",
-      "RegisteredAssociateId": 693,
-      "Updated": "2013-10-18T02:38:26.1204323+02:00",
-      "UpdatedAssociateId": 282,
+      "Registered": "2019-03-25T14:28:26.961443+01:00",
+      "RegisteredAssociateId": 507,
+      "Updated": "2021-07-07T14:28:26.961443+02:00",
+      "UpdatedAssociateId": 93,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 201
+          "FieldType": "System.Int32",
+          "FieldLength": 976
         }
       }
     }
   ],
-  "Registered": "2005-09-16T02:38:26.1204323+02:00",
-  "RegisteredAssociateId": 830,
-  "Updated": "2005-01-13T02:38:26.1204323+01:00",
-  "UpdatedAssociateId": 916,
+  "Registered": "2005-06-21T14:28:26.961443+02:00",
+  "RegisteredAssociateId": 225,
+  "Updated": "2021-07-29T14:28:26.961443+02:00",
+  "UpdatedAssociateId": 248,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 540
+      "FieldType": "System.String",
+      "FieldLength": 902
     }
   }
 }

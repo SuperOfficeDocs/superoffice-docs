@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 240
+  "TargetDimensionId": 136
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 777,
+    "TargetAssignmentInfoId": 532,
     "Values": [
-      706,
-      386
+      334,
+      281
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 58,
-    "DimensionListItemDisplayName": "Boyer Group",
+    "DimensionListItem": 908,
+    "DimensionListItemDisplayName": "Pfeffer-Crist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 51
+        "FieldLength": 654
       }
     }
   }

@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hane-Turner",
-  "Comment": "repudiandae",
-  "StakeholderRoleId": 229,
-  "CountryId": 386,
-  "PersonId": 908,
-  "EmailDescription": "electa@price.ca",
-  "EmailId": 477,
-  "EmailAddress": "emmett_upton@smithwehner.us",
-  "PhoneId": 479,
-  "ContactName": "Waelchi, Tillman and O'Connell",
-  "ContactId": 351,
-  "SaleId": 435,
-  "Mrmrs": "recusandae",
-  "Firstname": "Camden",
-  "MiddleName": "Okuneva, Donnelly and Bosco",
-  "Lastname": "Greenfelder",
-  "SaleStakeholderId": 162,
-  "Rank": 902,
-  "Phone": "642-573-2241 x3442",
+  "StakeholderRoleName": "O'Hara-Rogahn",
+  "Comment": "voluptatem",
+  "StakeholderRoleId": 20,
+  "CountryId": 504,
+  "PersonId": 205,
+  "EmailDescription": "callie@rohan.com",
+  "EmailId": 644,
+  "EmailAddress": "abbigail@tremblay.name",
+  "PhoneId": 232,
+  "ContactName": "Sauer-O'Kon",
+  "ContactId": 348,
+  "SaleId": 69,
+  "Mrmrs": "minima",
+  "Firstname": "Braden",
+  "MiddleName": "Turcotte LLC",
+  "Lastname": "Rutherford",
+  "SaleStakeholderId": 82,
+  "Rank": 165,
+  "Phone": "(879)348-9332",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldType": "System.String",
+      "FieldLength": 371
     }
   },
   "_Links": {

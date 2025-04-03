@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 721,
-  "Name": "Hoppe-Kris",
-  "Tooltip": "eaque",
+  "Id": 935,
+  "Name": "Lindgren Inc and Sons",
+  "Tooltip": "officia",
   "Deleted": false,
-  "Rank": 311,
+  "Rank": 713,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "laudantium",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldLength": 421
     }
   },
   "_Links": {

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 871,
+  "TargetYear": 315,
   "EntityType": "None"
 }
 ```
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 789,
-  "Year": 165,
+  "TargetGroupId": 359,
+  "Year": 501,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 934,
+      "TargetAssignmentInfoId": 956,
       "Values": [
-        441,
-        471
+        40,
+        874
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 62,
-      "DimensionListItemDisplayName": "Hudson LLC",
+      "DimensionListItem": 339,
+      "DimensionListItemDisplayName": "Schmitt Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 106
+          "FieldLength": 964
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 747
+      "FieldLength": 353
     }
   }
 }

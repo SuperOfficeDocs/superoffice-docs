@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 945,
-  "Filter": "quam"
+  "SelectionId": 286,
+  "Filter": "quis"
 }
 ```
 
@@ -100,29 +100,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lemke, Mraz and Herman",
-    "Operator": "magni",
+    "Name": "Gulgowski LLC",
+    "Operator": "hic",
     "Values": [
-      "rem",
-      "cumque"
+      "animi",
+      "sequi"
     ],
     "DisplayValues": [
-      "rerum",
-      "architecto"
+      "dolorum",
+      "voluptatem"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Sipes Inc and Sons",
-        "Operator": "et",
+        "Name": "Koepp-Schmidt",
+        "Operator": "culpa",
         "Values": [
-          "sequi",
-          "necessitatibus"
+          "cupiditate",
+          "ut"
         ],
         "DisplayValues": [
-          "voluptatem",
-          "quo"
+          "consectetur",
+          "voluptatem"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 140,
+        "InterParenthesis": 223,
         "InterOperator": "And",
-        "UniqueHash": 772
+        "UniqueHash": 859
       }
     ],
-    "InterParenthesis": 49,
+    "InterParenthesis": 129,
     "InterOperator": "And",
-    "UniqueHash": 978
+    "UniqueHash": 303
   }
 ]
 ```

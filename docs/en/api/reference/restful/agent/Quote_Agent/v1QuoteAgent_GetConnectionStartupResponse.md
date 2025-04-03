@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 665
+  "QuoteConnectionId": 996
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "voluptas",
-  "TechExplanation": "quo",
-  "ErrorCode": "totam",
+  "IsOk": false,
+  "UserExplanation": "harum",
+  "TechExplanation": "quas",
+  "ErrorCode": "possimus",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 183
+      "FieldType": "System.Int32",
+      "FieldLength": 781
     }
   }
 }

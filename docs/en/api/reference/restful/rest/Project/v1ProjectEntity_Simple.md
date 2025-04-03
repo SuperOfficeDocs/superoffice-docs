@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 97,
-  "Name": "Robel-Daugherty",
-  "Description": "Centralized tertiary collaboration",
+  "ProjectId": 549,
+  "Name": "Daniel LLC",
+  "Description": "Optimized incremental frame",
   "URL": "http://www.example.com/",
-  "Type": "quia",
-  "AssociateId": 468,
-  "AssociateFullName": "Ms. Madge Joshua Purdy",
-  "TypeId": 582,
-  "Updated": "2025-02-25T02:38:26.292293+01:00",
-  "StatusId": 919,
-  "Status": "voluptatem",
-  "TextId": 199,
-  "PublishTo": "2001-02-17T02:38:26.292293+01:00",
-  "PublishFrom": "2010-04-13T02:38:26.292293+02:00",
-  "IsPublished": true,
+  "Type": "odio",
+  "AssociateId": 51,
+  "AssociateFullName": "Rebeka Waelchi",
+  "TypeId": 239,
+  "Updated": "1999-02-13T14:28:27.0551896+01:00",
+  "StatusId": 885,
+  "Status": "doloremque",
+  "TextId": 774,
+  "PublishTo": "2013-08-30T14:28:27.0551896+02:00",
+  "PublishFrom": "1998-09-13T14:28:27.0551896+02:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "212621",
-  "ActiveErpLinks": 635,
+  "ProjectNumber": "969563",
+  "ActiveErpLinks": 973,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldLength": 226
     }
   }
 }

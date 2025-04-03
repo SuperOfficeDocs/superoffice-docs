@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/User/IsNickNameUnique
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 692,
-  "NickName": "Conn, Jewess and Morissette"
+  "AssociateId": 247,
+  "NickName": "Cartwright LLC"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

@@ -136,41 +136,41 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 957,
-  "Name": "White-Welch",
-  "Description": "Reverse-engineered uniform approach",
-  "WelcomeMessage": "ipsa",
+  "ChatTopicId": 690,
+  "Name": "Kuhlman Inc and Sons",
+  "Description": "Ergonomic background attitude",
+  "WelcomeMessage": "illo",
   "Language": null,
-  "LastAccept": "2006-06-20T02:38:25.9329544+02:00",
-  "SecondsPrAccept": 30,
-  "AlertRecipient": "officia",
+  "LastAccept": "2023-04-01T14:28:26.7739511+02:00",
+  "SecondsPrAccept": 350,
+  "AlertRecipient": "tenetur",
   "AlertTemplate": null,
-  "CollectConsent": true,
+  "CollectConsent": false,
   "BadgeHeader": "et",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "facilis",
-  "WarnNewChatMinutes": 605,
-  "WarnManagerNewChatMinutes": 297,
-  "TicketEnabled": true,
+  "CustomQueueText": "voluptas",
+  "WarnNewChatMinutes": 283,
+  "WarnManagerNewChatMinutes": 97,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 600,
-  "WarnManagerChatMessageMinutes": 243,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 59,
+  "WarnManagerChatMessageMinutes": 404,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 848,
-  "OfflineFormQueueLength": 203,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "sequi"
+  "OfflineFormTimeLimit": 647,
+  "OfflineFormQueueLength": 1001,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "vero"
 }
 ```
 
@@ -181,48 +181,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 22,
-  "Name": "Homenick, Hirthe and Gusikowski",
-  "Description": "Exclusive fault-tolerant approach",
-  "WelcomeMessage": "molestiae",
+  "ChatTopicId": 355,
+  "Name": "Osinski, O'Reilly and Daugherty",
+  "Description": "Front-line modular leverage",
+  "WelcomeMessage": "eum",
   "Language": null,
-  "LastAccept": "2005-11-11T02:38:25.9329544+01:00",
-  "SecondsPrAccept": 275,
-  "AlertRecipient": "rerum",
+  "LastAccept": "1999-09-23T14:28:26.7895753+02:00",
+  "SecondsPrAccept": 273,
+  "AlertRecipient": "adipisci",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "est",
+  "BadgeHeader": "ipsa",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "et",
-  "WarnNewChatMinutes": 510,
-  "WarnManagerNewChatMinutes": 296,
+  "CustomQueueText": "eligendi",
+  "WarnNewChatMinutes": 490,
+  "WarnManagerNewChatMinutes": 449,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 594,
-  "WarnManagerChatMessageMinutes": 629,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 281,
+  "WarnManagerChatMessageMinutes": 16,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 196,
-  "OfflineFormQueueLength": 648,
+  "OfflineFormTimeLimit": 433,
+  "OfflineFormQueueLength": 644,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "neque",
+  "WidgetRatingText": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 588
+      "FieldType": "System.Int32",
+      "FieldLength": 459
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

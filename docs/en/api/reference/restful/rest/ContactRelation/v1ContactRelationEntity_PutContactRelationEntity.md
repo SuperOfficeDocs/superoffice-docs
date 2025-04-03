@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 764,
-  "SourcePersonId": 370,
-  "DestinationContactId": 984,
-  "DestinationPersonId": 739,
-  "RelationId": 220,
-  "Comment": "ut",
-  "RelationDefinitionId": 77,
-  "Reversed": 836,
-  "UpdatedDate": "2004-11-27T02:38:26.0423248+01:00",
-  "CreatedDate": "2018-04-17T02:38:26.0423248+02:00",
+  "SourceContactId": 878,
+  "SourcePersonId": 350,
+  "DestinationContactId": 335,
+  "DestinationPersonId": 879,
+  "RelationId": 150,
+  "Comment": "maiores",
+  "RelationDefinitionId": 524,
+  "Reversed": 922,
+  "UpdatedDate": "2005-04-01T14:28:26.8676969+02:00",
+  "CreatedDate": "2019-11-02T14:28:26.8676969+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Heidenreich Group",
-  "SourcePersonName": "Graham, Stark and Borer",
-  "DestinationContactName": "Parisian Inc and Sons",
-  "DestinationPersonName": "Rippin-Reichel",
-  "ActiveText": "pariatur",
-  "PassiveText": "error"
+  "SourceContactName": "Effertz LLC",
+  "SourcePersonName": "Zieme-Schaefer",
+  "DestinationContactName": "Reichert, O'Reilly and Tillman",
+  "DestinationPersonName": "Johnston-Nitzsche",
+  "ActiveText": "voluptate",
+  "PassiveText": "quis"
 }
 ```
 
@@ -146,35 +146,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 937,
-  "SourcePersonId": 641,
-  "DestinationContactId": 511,
-  "DestinationPersonId": 141,
-  "RelationId": 825,
-  "Comment": "quis",
-  "RelationDefinitionId": 42,
-  "Reversed": 472,
-  "UpdatedDate": "2004-01-11T02:38:26.0423248+01:00",
-  "CreatedDate": "2010-01-13T02:38:26.0423248+01:00",
+  "SourceContactId": 752,
+  "SourcePersonId": 995,
+  "DestinationContactId": 436,
+  "DestinationPersonId": 265,
+  "RelationId": 8,
+  "Comment": "nisi",
+  "RelationDefinitionId": 211,
+  "Reversed": 118,
+  "UpdatedDate": "2000-08-17T14:28:26.8676969+02:00",
+  "CreatedDate": "2012-03-24T14:28:26.8676969+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Witting, Wiza and Pacocha",
-  "SourcePersonName": "Zieme, Nitzsche and Gutmann",
-  "DestinationContactName": "Watsica Group",
-  "DestinationPersonName": "Luettgen LLC",
-  "ActiveText": "error",
-  "PassiveText": "et",
+  "SourceContactName": "Anderson, Zieme and Jones",
+  "SourcePersonName": "Koss Group",
+  "DestinationContactName": "Mann-Mann",
+  "DestinationPersonName": "Jewess LLC",
+  "ActiveText": "impedit",
+  "PassiveText": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 247
+      "FieldType": "System.String",
+      "FieldLength": 664
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

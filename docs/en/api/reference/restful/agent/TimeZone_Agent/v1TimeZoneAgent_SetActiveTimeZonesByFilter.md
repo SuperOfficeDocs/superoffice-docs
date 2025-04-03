@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/TimeZone/SetActiveTimeZonesByFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Filter": "et",
+  "Filter": "temporibus",
   "Active": true
 }
 ```

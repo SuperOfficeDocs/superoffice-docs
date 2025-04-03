@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 537,
-    "Name": "Torphy Group",
-    "Tooltip": "mollitia",
+    "HeadingId": 957,
+    "Name": "Toy-Kunze",
+    "Tooltip": "dolores",
     "Deleted": false,
-    "Rank": 456,
-    "UdListDefinitionId": 81,
+    "Rank": 986,
+    "UdListDefinitionId": 727,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldType": "System.String",
+        "FieldLength": 160
       }
     }
   }

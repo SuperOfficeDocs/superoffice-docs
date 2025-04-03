@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 211
+  "AssociateId": 922
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Upton Inc and Sons",
-    "DeviceIdentifier": "hic",
-    "PocketVersion": "et",
-    "Language": "libero",
-    "PNSHandle": "velit",
+    "DeviceName": "Kuhlman-Lind",
+    "DeviceIdentifier": "nostrum",
+    "PocketVersion": "nisi",
+    "Language": "aut",
+    "PNSHandle": "incidunt",
     "Platform": "Apple",
-    "OSVersion": "enim",
-    "TimeZoneId": 23
+    "OSVersion": "quia",
+    "TimeZoneId": 202
   }
 ]
 ```

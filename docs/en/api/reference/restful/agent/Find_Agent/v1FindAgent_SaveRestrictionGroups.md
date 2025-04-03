@@ -78,34 +78,34 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quo",
-  "ProviderName": "Bauch, Wiegand and Schaden",
-  "StorageKey": "eligendi",
+  "StorageType": "animi",
+  "ProviderName": "Morar Group",
+  "StorageKey": "facere",
   "RestrictionGroups": [
     {
-      "Name": "Hayes, Medhurst and Fay",
-      "Description": "Organized methodical approach",
-      "Rank": 108,
+      "Name": "Emmerich Group",
+      "Description": "Team-oriented client-driven policy",
+      "Rank": 279,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hayes, Medhurst and Fay",
-      "Description": "Organized methodical approach",
-      "Rank": 108,
+      "Name": "Emmerich Group",
+      "Description": "Team-oriented client-driven policy",
+      "Rank": 279,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "similique"
+  "Context": "dolores"
 }
 ```
 
@@ -117,58 +117,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Marks-Hayes",
-    "Description": "Public-key 4th generation parallelism",
-    "Rank": 661,
+    "Name": "Quigley Group",
+    "Description": "Total even-keeled synergy",
+    "Rank": 15,
     "Restrictions": [
       {
-        "Name": "Kassulke Inc and Sons",
-        "Operator": "earum",
+        "Name": "Kerluke-Wunsch",
+        "Operator": "qui",
         "Values": [
-          "libero",
-          "reiciendis"
+          "voluptas",
+          "ut"
         ],
         "DisplayValues": [
-          "cumque",
-          "sit"
+          "voluptas",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 47,
+        "InterParenthesis": 249,
         "InterOperator": "And",
-        "UniqueHash": 16
+        "UniqueHash": 836
       }
     ]
   },
   {
-    "Name": "Marks-Hayes",
-    "Description": "Public-key 4th generation parallelism",
-    "Rank": 661,
+    "Name": "Quigley Group",
+    "Description": "Total even-keeled synergy",
+    "Rank": 15,
     "Restrictions": [
       {
-        "Name": "Kassulke Inc and Sons",
-        "Operator": "earum",
+        "Name": "Kerluke-Wunsch",
+        "Operator": "qui",
         "Values": [
-          "libero",
-          "reiciendis"
+          "voluptas",
+          "ut"
         ],
         "DisplayValues": [
-          "cumque",
-          "sit"
+          "voluptas",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 47,
+        "InterParenthesis": 249,
         "InterOperator": "And",
-        "UniqueHash": 16
+        "UniqueHash": 836
       }
     ]
   }

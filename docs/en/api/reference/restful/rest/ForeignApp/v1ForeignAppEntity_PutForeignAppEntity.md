@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 952,
-  "Name": "Moen-King",
-  "CreatedDate": "2003-12-03T02:38:26.1048073+01:00",
-  "UpdatedDate": "2003-09-03T02:38:26.1048073+02:00",
+  "ForeignAppId": 26,
+  "Name": "Farrell, Reinger and Harris",
+  "CreatedDate": "2012-06-11T14:28:26.9458186+02:00",
+  "UpdatedDate": "2016-10-16T14:28:26.9458186+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 226,
-      "Name": "Bartoletti, Brakus and Herman",
-      "CreatedDate": "2018-07-12T02:38:26.1048073+02:00",
-      "UpdatedDate": "2003-01-26T02:38:26.1048073+01:00",
-      "AssociateFullName": "Tessie Crooks",
-      "CreatedBy": "perferendis",
-      "UpdatedBy": "sint",
-      "DeviceIdentifier": "ipsa",
-      "ForeignAppId": 455
+      "ForeignDeviceId": 658,
+      "Name": "Gottlieb LLC",
+      "CreatedDate": "2004-10-10T14:28:26.9458186+02:00",
+      "UpdatedDate": "1998-08-12T14:28:26.9458186+02:00",
+      "AssociateFullName": "Cletus Zieme",
+      "CreatedBy": "itaque",
+      "UpdatedBy": "placeat",
+      "DeviceIdentifier": "neque",
+      "ForeignAppId": 197
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 471,
-  "Name": "Huels, Zboncak and Dooley",
-  "CreatedDate": "2008-08-20T02:38:26.1048073+02:00",
-  "UpdatedDate": "2022-11-23T02:38:26.1048073+01:00",
+  "ForeignAppId": 975,
+  "Name": "Cronin, Crona and Weber",
+  "CreatedDate": "2023-09-26T14:28:26.9458186+02:00",
+  "UpdatedDate": "2004-07-03T14:28:26.9458186+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 334,
-      "Name": "Moore, Sawayn and Kertzmann",
-      "CreatedDate": "2001-10-01T02:38:26.1204323+02:00",
-      "UpdatedDate": "2024-04-22T02:38:26.1204323+02:00",
-      "AssociateFullName": "Litzy Greyson Williamson II",
-      "CreatedBy": "nobis",
-      "UpdatedBy": "voluptas",
-      "DeviceIdentifier": "sunt",
-      "ForeignAppId": 693,
+      "ForeignDeviceId": 935,
+      "Name": "Blanda, Wiza and Lakin",
+      "CreatedDate": "2016-10-28T14:28:26.9458186+02:00",
+      "UpdatedDate": "2007-06-07T14:28:26.9458186+02:00",
+      "AssociateFullName": "Ms. Imogene Schinner MD",
+      "CreatedBy": "est",
+      "UpdatedBy": "id",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 177,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 218
+          "FieldLength": 190
         }
       }
     }
@@ -157,12 +157,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldLength": 242
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

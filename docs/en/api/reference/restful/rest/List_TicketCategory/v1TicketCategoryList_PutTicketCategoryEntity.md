@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 974,
-  "ParentId": 375,
-  "Name": "Lueilwitz, Wunsch and Luettgen",
-  "Fullname": "dolorem",
-  "CategoryMaster": 204,
+  "TicketCategoryId": 438,
+  "ParentId": 783,
+  "Name": "Kuhic Group",
+  "Fullname": "animi",
+  "CategoryMaster": 184,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Balistreri, Tremblay and Gutkowski",
+  "ExternalName": "Cremin-Stracke",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 453,
-  "ReplyTemplate": 360,
-  "NotificationEmail": "jesse@kleingibson.co.uk",
+  "AssignmentLag": 494,
+  "ReplyTemplate": 245,
+  "NotificationEmail": "aditya@reichert.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 416,
+  "EffectiveReplyTemplateId": 545,
   "ExtraFields": {
-    "ExtraFields1": "molestiae",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "est",
+    "ExtraFields2": "aspernatur"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "occaecati"
+    "CustomFields1": "est",
+    "CustomFields2": "nihil"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 46,
-  "ParentId": 13,
-  "Name": "Towne, Rohan and Hackett",
-  "Fullname": "et",
-  "CategoryMaster": 814,
+  "TicketCategoryId": 709,
+  "ParentId": 429,
+  "Name": "Turner, Barrows and Turner",
+  "Fullname": "eum",
+  "CategoryMaster": 230,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Thompson-Hamill",
+  "ExternalName": "Schoen, Grant and Leuschke",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 752,
-  "ReplyTemplate": 667,
-  "NotificationEmail": "coralie@wehner.biz",
+  "AssignmentLag": 578,
+  "ReplyTemplate": 68,
+  "NotificationEmail": "else_walsh@rautremblay.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 196,
+  "EffectiveReplyTemplateId": 437,
   "ExtraFields": {
-    "ExtraFields1": "at",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "praesentium"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "dolor"
+    "CustomFields1": "dolor",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldLength": 298
     }
   }
 }

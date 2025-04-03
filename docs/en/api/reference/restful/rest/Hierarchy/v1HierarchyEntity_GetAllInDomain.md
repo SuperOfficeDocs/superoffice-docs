@@ -29,7 +29,7 @@ Get all items in a domain
 | children | bool |  Include sub-items? |
 
 ```http
-GET /api/v1/Hierarchy/{domain}?children=True
+GET /api/v1/Hierarchy/{domain}?children=False
 ```
 
 
@@ -89,46 +89,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 878,
+    "HierarchyId": 290,
     "Domain": "Dashboards",
-    "Name": "Bruen LLC",
-    "Fullname": "aut",
-    "ParentId": 665,
+    "Name": "Leuschke, Bahringer and Kuphal",
+    "Fullname": "odit",
+    "ParentId": 632,
     "Children": [
       {
-        "HierarchyId": 403,
+        "HierarchyId": 459,
         "Domain": "Dashboards",
-        "Name": "Hessel, Turner and Hayes",
-        "Fullname": "voluptatem",
-        "ParentId": 415,
+        "Name": "McClure Inc and Sons",
+        "Fullname": "molestiae",
+        "ParentId": 858,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2010-02-21T02:38:26.1204323+01:00",
-        "RegisteredAssociateId": 915,
-        "Updated": "2002-11-06T02:38:26.1204323+01:00",
-        "UpdatedAssociateId": 200,
+        "Registered": "2002-01-04T14:28:26.961443+01:00",
+        "RegisteredAssociateId": 969,
+        "Updated": "2003-12-26T14:28:26.961443+01:00",
+        "UpdatedAssociateId": 801,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 448
+            "FieldLength": 550
           }
         }
       }
     ],
-    "Registered": "2003-03-17T02:38:26.1204323+01:00",
-    "RegisteredAssociateId": 677,
-    "Updated": "2013-04-01T02:38:26.1204323+02:00",
-    "UpdatedAssociateId": 116,
+    "Registered": "2007-01-16T14:28:26.961443+01:00",
+    "RegisteredAssociateId": 852,
+    "Updated": "2022-05-01T14:28:26.961443+02:00",
+    "UpdatedAssociateId": 151,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 62
+        "FieldLength": 937
       }
     }
   }

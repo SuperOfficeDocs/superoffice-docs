@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 563,
-    "Name": "Ernser, Nitzsche and Feeney",
-    "Tooltip": "dolorum",
-    "Rank": 864,
-    "Rate": 15485.094,
-    "Units": 6405.896,
-    "Deleted": false,
+    "CurrencyId": 430,
+    "Name": "Schroeder-Dach",
+    "Tooltip": "ut",
+    "Rank": 782,
+    "Rate": 24727.26,
+    "Units": 1231.662,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 965
+        "FieldLength": 939
       }
     }
   }

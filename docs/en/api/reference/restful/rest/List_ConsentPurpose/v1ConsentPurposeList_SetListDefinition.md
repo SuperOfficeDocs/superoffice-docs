@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 40,
-  "Name": "Wilkinson, Konopelski and Brakus",
-  "Tooltip": "inventore",
-  "Deleted": false,
-  "Rank": 722,
+  "Id": 355,
+  "Name": "Gulgowski Group",
+  "Tooltip": "fugiat",
+  "Deleted": true,
+  "Rank": 560,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 311,
-  "Name": "Leffler Group",
-  "Tooltip": "a",
-  "Deleted": false,
-  "Rank": 619,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 56,
+  "Name": "Jacobs Inc and Sons",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "Rank": 546,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "sunt",
-  "InUseByUserDefinedFields": true,
+  "ListType": "ad",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 730
+      "FieldType": "System.String",
+      "FieldLength": 538
     }
   }
 }

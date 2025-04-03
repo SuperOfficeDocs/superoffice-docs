@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 273,
-  "Name": "Volkman-Cormier",
-  "Tooltip": "in",
+  "Id": 450,
+  "Name": "Fisher-Sauer",
+  "Tooltip": "esse",
   "Deleted": false,
-  "Rank": 353,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 791,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": false,
+  "ListType": "natus",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 164
+      "FieldLength": 180
     }
   },
   "_Links": {

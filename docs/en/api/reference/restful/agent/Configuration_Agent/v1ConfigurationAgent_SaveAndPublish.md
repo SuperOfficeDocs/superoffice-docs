@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 139,
-  "Name": "Weber-McCullough",
-  "Description": "Customizable fault-tolerant extranet",
-  "DeltaJson": "omnis",
+  "ConfigurableScreenDeltaId": 415,
+  "Name": "Hoppe-Donnelly",
+  "Description": "Intuitive static infrastructure",
+  "DeltaJson": "occaecati",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "earum",
-  "UpdatedDate": "2024-10-01T02:38:20.995206+02:00",
-  "CreatedDate": "2002-07-17T02:38:20.995206+02:00",
+  "RecipeId": "veniam",
+  "UpdatedDate": "1998-01-01T14:28:21.5866608+01:00",
+  "CreatedDate": "2012-05-20T14:28:21.5866608+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    390,
-    383
+    175,
+    798
   ],
-  "AppliesToKey": "ea",
+  "AppliesToKey": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 619
+      "FieldType": "System.Int32",
+      "FieldLength": 720
     }
   }
 }

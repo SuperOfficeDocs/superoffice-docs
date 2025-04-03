@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Klocko Inc and Sons",
+  "TableName": "Huels-Wintheiser",
   "Columns": [
-    "delectus",
-    "suscipit"
+    "ullam",
+    "enim"
   ],
   "Keys": [
-    "saepe",
-    "inventore"
+    "dolores",
+    "perspiciatis"
   ],
   "Data": [
     [
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "ut",
-  "Inserts": 64,
-  "Updates": 927,
-  "Deletes": 148,
+  "Message": "magnam",
+  "Inserts": 44,
+  "Updates": 983,
+  "Deletes": 997,
   "RowStatus": [
     {
-      "PrimaryKey": 850,
+      "PrimaryKey": 687,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "ex"
+        "sunt",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldLength": 940
         }
       }
     },
     {
-      "PrimaryKey": 850,
+      "PrimaryKey": 687,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "ex"
+        "sunt",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldLength": 940
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 773
+      "FieldType": "System.Int32",
+      "FieldLength": 468
     }
   }
 }

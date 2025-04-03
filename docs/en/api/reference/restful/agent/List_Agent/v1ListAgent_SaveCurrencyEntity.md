@@ -75,16 +75,16 @@ OK
 POST /api/v1/Agents/List/SaveCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 447,
-  "Name": "Rolfson Group",
-  "Tooltip": "at",
-  "Rank": 943,
-  "Rate": 23630.36,
-  "Units": 8339.574,
+  "CurrencyId": 883,
+  "Name": "Rosenbaum-Emmerich",
+  "Tooltip": "quia",
+  "Rank": 178,
+  "Rate": 13761.394,
+  "Units": 30189.822,
   "Deleted": false
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 182,
-  "Name": "Champlin, Friesen and Durgan",
-  "Tooltip": "dolor",
-  "Rank": 858,
-  "Rate": 17920.212,
-  "Units": 18490.6,
+  "CurrencyId": 330,
+  "Name": "Trantow-Glover",
+  "Tooltip": "officiis",
+  "Rank": 4,
+  "Rate": 23122.652,
+  "Units": 181.772,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 268
+      "FieldLength": 677
     }
   }
 }

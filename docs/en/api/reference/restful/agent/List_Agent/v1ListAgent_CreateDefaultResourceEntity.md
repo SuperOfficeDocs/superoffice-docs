@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 624,
-  "Name": "Durgan Group",
-  "Rank": 471,
-  "Tooltip": "et",
-  "Deleted": true,
-  "IsLocation": true,
-  "LocationAddress": "in",
+  "ResourceId": 2,
+  "Name": "Homenick Group",
+  "Rank": 907,
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "IsLocation": false,
+  "LocationAddress": "placeat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldLength": 840
     }
   }
 }

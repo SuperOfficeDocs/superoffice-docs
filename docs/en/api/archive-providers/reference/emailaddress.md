@@ -515,7 +515,7 @@ the email_id.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailAddress?$select=fullName,nameDepartment,restrictionAddress/city
+GET /api/v1/archive/EmailAddress?$select=contactSupportPerson/withdrawnEmarketingConsent,SaintStatus1,nameDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

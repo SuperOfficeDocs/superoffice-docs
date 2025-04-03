@@ -709,7 +709,7 @@ Archive provider for finding documents
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindDocument?$select=project/NumberOfSales,sale/associate/portraitThumbnail,person/correspondingAssociate/contactCategory
+GET /api/v1/archive/FindDocument?$select=person/ticketPriority,person/personMobilePhone/formattedNumber,person/correspondingAssociate/contactName,person/correspondingAssociate/usergroup,contact/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

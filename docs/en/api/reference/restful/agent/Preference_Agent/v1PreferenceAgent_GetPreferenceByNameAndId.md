@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "dolorem",
-  "PrefKey": "modi",
+  "PrefSection": "quasi",
+  "PrefKey": "excepturi",
   "PrefLevel": "Database",
-  "OwnerId": 794
+  "OwnerId": 800
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "consequatur",
+  "RawValue": "repudiandae",
   "Specification": null,
-  "DisplayValue": "ut",
-  "DisplayTooltip": "magnam",
+  "DisplayValue": "beatae",
+  "DisplayTooltip": "veritatis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 132,
-  "PrefDescId": 173,
-  "TableName": "Bahringer, Renner and Krajcik",
-  "UserPreferenceId": 810,
+  "TargetId": 193,
+  "PrefDescId": 447,
+  "TableName": "Beahan Group",
+  "UserPreferenceId": 347,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 485
+      "FieldType": "System.String",
+      "FieldLength": 137
     }
   }
 }

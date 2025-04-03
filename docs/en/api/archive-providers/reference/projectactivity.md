@@ -1232,7 +1232,7 @@ Activity archive provider for the Project card
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectActivity?$select=mailingFrom,mailingAddr/person/personId,mailingAddr/person/personHasInterests,mailingAddr/person/restrictionAddress/zip,mailingAddr/person/personAssociate/assocType
+GET /api/v1/archive/ProjectActivity?$select=mailingAddr/contact/restrictionAddress/state,mailingAddr/contact/contactAssociate/usergroup,mailingAddr/person/personExtra/x_person_date,mailingAddr/person/correspondingAssociate/contactCategory,emailFlow/workflowAssociate/lastName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

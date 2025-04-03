@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 637
+  "QuoteVersionId": 898
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 19531.088,
-    "Wgs84Longitude": 19086.059999999998,
+    "Wgs84Latitude": 97.154,
+    "Wgs84Longitude": 30233.698,
     "LocalizedAddress": [
       [
         {
-          "Name": "Oberbrunner Group",
-          "Value": "alias",
-          "Tooltip": "dignissimos",
-          "Label": "dolorem",
-          "ValueLength": 466,
-          "AddressType": "occaecati",
+          "Name": "Sporer-Crooks",
+          "Value": "corporis",
+          "Tooltip": "eveniet",
+          "Label": "vel",
+          "ValueLength": 207,
+          "AddressType": "adipisci",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 427
+              "FieldType": "System.Int32",
+              "FieldLength": 751
             }
           }
         }
       ],
       [
         {
-          "Name": "Crist LLC",
-          "Value": "ducimus",
-          "Tooltip": "rerum",
-          "Label": "ipsum",
-          "ValueLength": 516,
-          "AddressType": "nulla",
+          "Name": "West-Heaney",
+          "Value": "ut",
+          "Tooltip": "omnis",
+          "Label": "mollitia",
+          "ValueLength": 368,
+          "AddressType": "est",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.String",
-              "FieldLength": 702
+              "FieldType": "System.Int32",
+              "FieldLength": 873
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "in",
+    "Formatted": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 301
+        "FieldLength": 308
       }
     }
   }

@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 485,
-  "Name": "McCullough Inc and Sons",
-  "Tooltip": "eos",
-  "SaveInDb": 366,
-  "Filename": "sit",
-  "DefaultOref": "aliquid",
+  "DocumentTemplateId": 419,
+  "Name": "Wunsch Inc and Sons",
+  "Tooltip": "rerum",
+  "SaveInDb": 757,
+  "Filename": "ea",
+  "DefaultOref": "consequatur",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 55,
-  "IntentId": 244,
+  "AutoeventId": 998,
+  "IntentId": 62,
   "IsDefaultPublished": false,
-  "Rank": 719,
-  "LoadTemplateFromPlugin": 440,
-  "MimeType": "impedit",
+  "Rank": 10,
+  "LoadTemplateFromPlugin": 179,
+  "MimeType": "corrupti",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 373,
+  "DocumentTypeKey": 902,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "barrett.dietrich@boyer.uk",
+  "EmailSubject": "myrl@schamberger.biz",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "wayne_sauer@cronin.com",
+  "SenderEmailAddress": "brittany@shields.name",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 356,
-  "Name": "Jakubowski Group",
-  "Tooltip": "similique",
-  "SaveInDb": 555,
-  "Filename": "sit",
-  "DefaultOref": "rerum",
+  "DocumentTemplateId": 511,
+  "Name": "Gutkowski-Shanahan",
+  "Tooltip": "eaque",
+  "SaveInDb": 69,
+  "Filename": "velit",
+  "DefaultOref": "quo",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 126,
-  "IntentId": 985,
+  "AutoeventId": 348,
+  "IntentId": 383,
   "IsDefaultPublished": false,
-  "Rank": 724,
-  "LoadTemplateFromPlugin": 682,
-  "MimeType": "assumenda",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 372,
+  "Rank": 705,
+  "LoadTemplateFromPlugin": 597,
+  "MimeType": "similique",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 660,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "pierre_homenick@krajcik.com",
+  "EmailSubject": "isobel_stoltenberg@krisdoyle.us",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "creola@hanegleichner.name",
+  "SenderEmailAddress": "danika_ratke@glover.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 905
+      "FieldLength": 77
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 583,
-    "Name": "Herzog, Jacobson and Dickinson",
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "Rank": 590,
-    "UdListDefinitionId": 240
+    "HeadingId": 1002,
+    "Name": "Feil LLC",
+    "Tooltip": "ratione",
+    "Deleted": false,
+    "Rank": 105,
+    "UdListDefinitionId": 506
   },
   {
-    "HeadingId": 583,
-    "Name": "Herzog, Jacobson and Dickinson",
-    "Tooltip": "dolor",
-    "Deleted": true,
-    "Rank": 590,
-    "UdListDefinitionId": 240
+    "HeadingId": 1002,
+    "Name": "Feil LLC",
+    "Tooltip": "ratione",
+    "Deleted": false,
+    "Rank": 105,
+    "UdListDefinitionId": 506
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 97,
-    "Name": "White Inc and Sons",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "Rank": 306,
-    "UdListDefinitionId": 645,
+    "HeadingId": 596,
+    "Name": "Abbott, Koepp and Schneider",
+    "Tooltip": "totam",
+    "Deleted": false,
+    "Rank": 681,
+    "UdListDefinitionId": 253,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldLength": 895
       }
     }
   }

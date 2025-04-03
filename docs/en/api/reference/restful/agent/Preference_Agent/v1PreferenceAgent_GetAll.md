@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 189,
-    "Section": "at",
-    "Key": "recusandae",
-    "Name": "Altenwerth LLC",
+    "PrefDescId": 997,
+    "Section": "ipsa",
+    "Key": "et",
+    "Name": "Crist-McGlynn",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Persevering leading edge definition",
-    "IsBuiltin": true,
-    "TableName": "Braun-Ruecker",
-    "UserDefinedListId": 953,
-    "Rank": 327,
-    "SubGroup": "pariatur",
-    "MinLevel": 216,
-    "MaxValue": 179,
-    "MinValue": 912,
-    "RequiredLicense": "et",
+    "Description": "Enterprise-wide composite solution",
+    "IsBuiltin": false,
+    "TableName": "Cormier Group",
+    "UserDefinedListId": 522,
+    "Rank": 228,
+    "SubGroup": "at",
+    "MinLevel": 403,
+    "MaxValue": 264,
+    "MinValue": 673,
+    "RequiredLicense": "doloremque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 817
+        "FieldLength": 160
       }
     }
   }

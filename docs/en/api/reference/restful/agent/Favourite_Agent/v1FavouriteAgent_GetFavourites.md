@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Kiehn Inc and Sons",
-  "AssociateId": 352
+  "TableName": "Brown, Tillman and Purdy",
+  "AssociateId": 852
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Legros, Ritchie and Reilly",
-    "RecordId": 541,
-    "AssociateId": 931,
-    "ExtraInfo": "est",
-    "Rank": 164,
+    "TableName": "Ortiz Inc and Sons",
+    "RecordId": 365,
+    "AssociateId": 257,
+    "ExtraInfo": "sit",
+    "Rank": 106,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldLength": 515
       }
     }
   }

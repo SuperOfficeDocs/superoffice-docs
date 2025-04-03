@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Johns-Wiegand",
-  "AdditionalInfo": "velit",
-  "SearchValue": "sit"
+  "Name": "Kilback, Beahan and Kassulke",
+  "AdditionalInfo": "qui",
+  "SearchValue": "voluptas"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 581,
-    "Name": "Swaniawski LLC",
-    "ToolTip": "Libero iusto quibusdam placeat voluptas dolore.",
-    "Deleted": true,
-    "Rank": 755,
-    "Type": "ut",
-    "ColorBlock": 14,
-    "IconHint": "asperiores",
+    "Id": 396,
+    "Name": "Cronin-Senger",
+    "ToolTip": "Similique repellat perspiciatis pariatur ut.",
+    "Deleted": false,
+    "Rank": 825,
+    "Type": "perferendis",
+    "ColorBlock": 220,
+    "IconHint": "perspiciatis",
     "Selected": false,
-    "LastChanged": "1999-05-19T02:38:21.5732692+02:00",
+    "LastChanged": "2014-05-01T14:28:22.1178891+02:00",
     "ChildItems": [
       {
-        "Id": 665,
-        "Name": "Dicki Group",
-        "ToolTip": "Assumenda laudantium molestias et sapiente et beatae fugit.",
+        "Id": 257,
+        "Name": "Jewess, Mraz and Deckow",
+        "ToolTip": "Quisquam labore ipsum vero.",
         "Deleted": false,
-        "Rank": 798,
-        "Type": "alias",
-        "ColorBlock": 25,
-        "IconHint": "occaecati",
-        "Selected": true,
-        "LastChanged": "1998-07-25T02:38:21.5732692+02:00",
+        "Rank": 435,
+        "Type": "explicabo",
+        "ColorBlock": 56,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2009-04-19T14:28:22.1178891+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Jacinto Kling",
+        "ExtraInfo": "est",
+        "StyleHint": "ut",
+        "Hidden": true,
+        "FullName": "Mr. Eino Kyler Moen DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 968
+            "FieldType": "System.String",
+            "FieldLength": 507
           }
         }
       }
     ],
-    "ExtraInfo": "laborum",
-    "StyleHint": "et",
+    "ExtraInfo": "eum",
+    "StyleHint": "eligendi",
     "Hidden": false,
-    "FullName": "Kelley Lindgren",
+    "FullName": "Miss Davon Balistreri IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldLength": 177
       }
     }
   }

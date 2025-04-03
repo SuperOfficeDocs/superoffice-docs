@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=quidem
+GET /api/v1/List/DocumentTemplate/MDOItems?query=quia
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DocumentTemplate/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 34,
-    "Name": "Kub, Bins and Mayert",
-    "ToolTip": "Dolor totam provident rerum minima nam dolor.",
+    "Id": 239,
+    "Name": "Yost-Lemke",
+    "ToolTip": "Aperiam similique modi.",
     "Deleted": false,
-    "Rank": 98,
-    "Type": "vitae",
+    "Rank": 848,
+    "Type": "corrupti",
     "ChildItems": [
       {
-        "Id": 925,
-        "Name": "Weber LLC",
-        "ToolTip": "Labore facere qui consequatur ut rerum aut sed.",
-        "Deleted": true,
-        "Rank": 313,
-        "Type": "non",
+        "Id": 589,
+        "Name": "Rath, Labadie and Rau",
+        "ToolTip": "Similique dolores est est nemo cupiditate ex.",
+        "Deleted": false,
+        "Rank": 323,
+        "Type": "commodi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 355,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "enim",
-        "FullName": "Sophie Huels",
+        "IconHint": "sed",
+        "ColorBlock": 1002,
+        "ExtraInfo": "qui",
+        "StyleHint": "mollitia",
+        "FullName": "Dr. Samson Stoltenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 351
+            "FieldLength": 45
           }
         }
       }
     ],
-    "IconHint": "perferendis",
-    "ColorBlock": 997,
-    "ExtraInfo": "adipisci",
-    "StyleHint": "eveniet",
-    "FullName": "Miles Herman",
+    "IconHint": "modi",
+    "ColorBlock": 443,
+    "ExtraInfo": "eum",
+    "StyleHint": "recusandae",
+    "FullName": "Miss Toy Ritchie DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 808
+        "FieldLength": 276
       }
     }
   }

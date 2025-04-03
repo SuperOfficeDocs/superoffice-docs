@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 594,
-    "Name": "Wintheiser Inc and Sons",
-    "ToolTip": "Laboriosam tenetur.",
-    "Deleted": false,
-    "Rank": 560,
-    "Type": "culpa",
-    "ColorBlock": 963,
-    "IconHint": "sit",
-    "Selected": false,
-    "LastChanged": "2000-10-04T02:38:26.7923976+02:00",
+    "Id": 486,
+    "Name": "O'Keefe-O'Reilly",
+    "ToolTip": "Officiis quas eius aut similique.",
+    "Deleted": true,
+    "Rank": 186,
+    "Type": "nobis",
+    "ColorBlock": 162,
+    "IconHint": "fugit",
+    "Selected": true,
+    "LastChanged": "2021-05-08T14:28:27.5864176+02:00",
     "ChildItems": [
       {
-        "Id": 309,
-        "Name": "Sipes, Kutch and Christiansen",
-        "ToolTip": "Eos quisquam amet.",
+        "Id": 952,
+        "Name": "Schneider Inc and Sons",
+        "ToolTip": "Veniam et.",
         "Deleted": false,
-        "Rank": 555,
-        "Type": "sint",
-        "ColorBlock": 432,
-        "IconHint": "doloremque",
+        "Rank": 136,
+        "Type": "est",
+        "ColorBlock": 899,
+        "IconHint": "animi",
         "Selected": false,
-        "LastChanged": "2014-05-23T02:38:26.7923976+02:00",
+        "LastChanged": "1999-06-20T14:28:27.5864176+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "voluptate",
-        "Hidden": false,
-        "FullName": "Ms. Rene Steuber"
+        "ExtraInfo": "amet",
+        "StyleHint": "molestias",
+        "Hidden": true,
+        "FullName": "Marilyne Satterfield I"
       }
     ],
-    "ExtraInfo": "pariatur",
-    "StyleHint": "omnis",
-    "Hidden": true,
-    "FullName": "Mina Alanis Upton Jr."
+    "ExtraInfo": "beatae",
+    "StyleHint": "modi",
+    "Hidden": false,
+    "FullName": "Dolores Lynch"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 481,
-    "Name": "Auer Inc and Sons",
-    "ToolTip": "Earum atque veniam inventore velit alias exercitationem et.",
+    "Id": 848,
+    "Name": "Ryan, Bogan and Bechtelar",
+    "ToolTip": "Nulla provident.",
     "Deleted": false,
-    "Rank": 473,
+    "Rank": 394,
     "Type": "ut",
-    "ColorBlock": 380,
-    "IconHint": "saepe",
+    "ColorBlock": 633,
+    "IconHint": "delectus",
     "Selected": false,
-    "LastChanged": "2012-08-01T02:38:26.7923976+02:00",
+    "LastChanged": "2013-08-06T14:28:27.5864176+02:00",
     "ChildItems": [
       {
-        "Id": 181,
-        "Name": "Kirlin-Weissnat",
-        "ToolTip": "Porro accusantium sit esse id dolor quam repellendus.",
-        "Deleted": false,
-        "Rank": 8,
-        "Type": "natus",
-        "ColorBlock": 581,
-        "IconHint": "repudiandae",
-        "Selected": true,
-        "LastChanged": "2024-12-27T02:38:26.7923976+01:00",
+        "Id": 276,
+        "Name": "Anderson Group",
+        "ToolTip": "Ex voluptatibus.",
+        "Deleted": true,
+        "Rank": 479,
+        "Type": "ut",
+        "ColorBlock": 757,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2011-10-26T14:28:27.5864176+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "enim",
-        "Hidden": true,
-        "FullName": "Prof. Eddie Langosh PhD",
+        "ExtraInfo": "ea",
+        "StyleHint": "suscipit",
+        "Hidden": false,
+        "FullName": "Emilio Mike Gerlach PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 36
+            "FieldType": "System.Int32",
+            "FieldLength": 758
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "optio",
+    "ExtraInfo": "sed",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Ford Botsford",
+    "FullName": "Aurelia Cummerata",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 129
+        "FieldType": "System.Int32",
+        "FieldLength": 271
       }
     }
   }

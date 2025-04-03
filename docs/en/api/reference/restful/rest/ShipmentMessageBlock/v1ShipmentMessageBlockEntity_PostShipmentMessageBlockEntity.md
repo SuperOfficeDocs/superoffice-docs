@@ -94,14 +94,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 79,
-  "AssociateId": 263,
-  "Block": "et",
-  "Registered": "2001-12-24T02:38:26.4172802+01:00",
-  "RegisteredAssociateId": 521,
-  "Updated": "2011-12-18T02:38:26.4172802+01:00",
-  "UpdatedAssociateId": 187,
-  "UpdatedCount": 93
+  "ShipmentMessageBlockId": 187,
+  "AssociateId": 806,
+  "Block": "vitae",
+  "Registered": "2004-12-30T14:28:27.2583066+01:00",
+  "RegisteredAssociateId": 410,
+  "Updated": "2011-01-31T14:28:27.2583066+01:00",
+  "UpdatedAssociateId": 372,
+  "UpdatedCount": 928
 }
 ```
 
@@ -112,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 999,
-  "AssociateId": 874,
-  "Block": "et",
-  "Registered": "2004-12-05T02:38:26.4172802+01:00",
-  "RegisteredAssociateId": 58,
-  "Updated": "2003-11-23T02:38:26.4172802+01:00",
-  "UpdatedAssociateId": 850,
-  "UpdatedCount": 461,
+  "ShipmentMessageBlockId": 819,
+  "AssociateId": 212,
+  "Block": "veritatis",
+  "Registered": "2012-04-21T14:28:27.2583066+02:00",
+  "RegisteredAssociateId": 294,
+  "Updated": "2016-12-06T14:28:27.2583066+01:00",
+  "UpdatedAssociateId": 917,
+  "UpdatedCount": 93,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 278
     }
   },
   "_Links": {

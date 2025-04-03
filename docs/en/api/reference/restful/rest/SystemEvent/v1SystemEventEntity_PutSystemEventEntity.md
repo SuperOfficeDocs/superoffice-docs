@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 910,
+  "SystemEventId": 277,
   "Scope": "Database",
-  "Eta": "1997-12-05T02:38:26.4329026+01:00",
-  "Eventkey": "est",
-  "Eventmess": "enim",
-  "ExtraInfo": 168,
-  "Owner": 381,
-  "UpdatedCount": 364,
-  "Registered": "2005-11-27T02:38:26.4329026+01:00",
+  "Eta": "2004-07-23T14:28:27.2583066+02:00",
+  "Eventkey": "ut",
+  "Eventmess": "explicabo",
+  "ExtraInfo": 832,
+  "Owner": 629,
+  "UpdatedCount": 954,
+  "Registered": "2006-12-03T14:28:27.2583066+01:00",
   "ActivatedBy": null
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 637,
+  "SystemEventId": 734,
   "Scope": "Database",
-  "Eta": "2017-11-19T02:38:26.4329026+01:00",
-  "Eventkey": "fuga",
-  "Eventmess": "cupiditate",
-  "ExtraInfo": 338,
-  "Owner": 576,
-  "UpdatedCount": 735,
-  "Registered": "2011-07-19T02:38:26.4329026+02:00",
+  "Eta": "2009-11-10T14:28:27.2583066+01:00",
+  "Eventkey": "perspiciatis",
+  "Eventmess": "beatae",
+  "ExtraInfo": 390,
+  "Owner": 597,
+  "UpdatedCount": 138,
+  "Registered": "2015-07-13T14:28:27.2583066+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 413
+      "FieldType": "System.Int32",
+      "FieldLength": 749
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

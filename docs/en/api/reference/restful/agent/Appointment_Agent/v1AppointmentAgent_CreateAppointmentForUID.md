@@ -113,6 +113,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -137,7 +138,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "UID": "animi"
+  "UID": "et"
 }
 ```
 
@@ -152,120 +153,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-10-19T02:38:20.8233467+02:00",
-  "AppointmentId": 688,
-  "Description": "Sharable analyzing hierarchy",
-  "Title": "quae",
-  "Agenda": "qui",
-  "InternalNotes": "adipisci",
-  "StartDate": "2022-01-15T02:38:20.8233467+01:00",
-  "EndDate": "2003-12-17T02:38:20.8233467+01:00",
+  "CreatedDate": "2005-01-29T14:28:21.4304178+01:00",
+  "AppointmentId": 395,
+  "Description": "Phased 6th generation parallelism",
+  "Title": "ipsam",
+  "Agenda": "aut",
+  "InternalNotes": "ut",
+  "StartDate": "2003-12-23T14:28:21.4304178+01:00",
+  "EndDate": "2008-08-30T14:28:21.4304178+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 901,
+  "MotherId": 401,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2017-10-01T02:38:20.8233467+02:00",
+  "UpdatedDate": "2001-12-02T14:28:21.4304178+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 864,
+  "ActiveLinks": 838,
   "Links": [
     {
-      "EntityName": "Cassin, Labadie and Mraz",
-      "Id": 833,
-      "Description": "Compatible static customer loyalty",
-      "ExtraInfo": "tenetur",
-      "LinkId": 559,
+      "EntityName": "Williamson, Jacobson and Rempel",
+      "Id": 949,
+      "Description": "Business-focused non-volatile access",
+      "ExtraInfo": "autem",
+      "LinkId": 301,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 817
+          "FieldLength": 726
         }
       }
     }
   ],
-  "AlarmLeadTime": "magnam",
+  "AlarmLeadTime": "similique",
   "HasAlarm": false,
-  "ColorIndex": 887,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "similique",
-  "LeadTime": "voluptate",
-  "Location": "harum",
-  "RejectCounter": 81,
+  "ColorIndex": 116,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "praesentium",
+  "LeadTime": "consequatur",
+  "Location": "est",
+  "RejectCounter": 613,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 517,
-      "PersonId": 401,
-      "ContactId": 57,
-      "EmailId": 163,
+      "AssociateId": 86,
+      "PersonId": 80,
+      "ContactId": 661,
+      "EmailId": 840,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "beverly@weimann.biz",
-      "Description": "Robust neutral analyzer"
+      "EmailAddress": "verner.witting@hand.us",
+      "Description": "Function-based maximized conglomeration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2024-02-03T02:38:20.8233467+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2004-12-13T14:28:21.4304178+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 760,
+  "PreferredTZLocation": 675,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 32,
+  "SuggestedAppointmentId": 224,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "error",
+  "CentralserviceVideomeetId": "laboriosam",
   "UserDefinedFields": {
-    "SuperOffice:1": "Graham Yundt II",
-    "SuperOffice:2": "Prof. Kiara Erdman Sr."
+    "SuperOffice:1": "Marianna DuBuque",
+    "SuperOffice:2": "Curtis Lowell Von V"
   },
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "sunt"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "alias"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "vel"
+    "CustomFields1": "sint",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2007-10-04T02:38:20.8233467+02:00",
-  "PublishTo": "2002-11-30T02:38:20.8233467+01:00",
-  "PublishFrom": "2015-12-13T02:38:20.8233467+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2005-07-10T14:28:21.4304178+02:00",
+  "PublishTo": "2003-09-02T14:28:21.4304178+02:00",
+  "PublishFrom": "1998-04-22T14:28:21.4304178+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 877,
+      "VisibleId": 57,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 609
+          "FieldType": "System.Int32",
+          "FieldLength": 855
         }
       }
     },
     {
-      "VisibleId": 877,
+      "VisibleId": 57,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "occaecati",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 609
+          "FieldType": "System.Int32",
+          "FieldLength": 855
         }
       }
     }
@@ -274,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 606
+      "FieldType": "System.Int32",
+      "FieldLength": 724
     }
   }
 }

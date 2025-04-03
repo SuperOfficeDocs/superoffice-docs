@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 231,
-  "Name": "Runolfsdottir LLC",
-  "Tooltip": "saepe",
+  "RoleId": 127,
+  "Name": "Zemlak-Denesik",
+  "Tooltip": "quia",
   "RoleType": "Anonymous",
-  "Deleted": 661,
-  "Rank": 443,
-  "Created": "2019-07-17T02:38:26.3235369+02:00",
-  "UseCategories": 532,
+  "Deleted": 157,
+  "Rank": 451,
+  "Created": "2015-04-02T14:28:27.0551896+02:00",
+  "UseCategories": 995,
   "CreatedBy": null,
-  "Updated": "2004-05-16T02:38:26.3235369+02:00",
+  "Updated": "2017-12-31T14:28:27.0551896+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,16 +127,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 661,
-  "Name": "Watsica-Schultz",
-  "Tooltip": "libero",
+  "RoleId": 582,
+  "Name": "Leffler LLC",
+  "Tooltip": "harum",
   "RoleType": "Anonymous",
-  "Deleted": 62,
-  "Rank": 940,
-  "Created": "2009-11-30T02:38:26.3391624+01:00",
-  "UseCategories": 279,
+  "Deleted": 557,
+  "Rank": 719,
+  "Created": "2020-05-01T14:28:27.0551896+02:00",
+  "UseCategories": 531,
   "CreatedBy": null,
-  "Updated": "2013-11-29T02:38:26.3391624+01:00",
+  "Updated": "2008-12-20T14:28:27.0708141+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 30
+      "FieldLength": 861
     }
   },
   "_Links": {

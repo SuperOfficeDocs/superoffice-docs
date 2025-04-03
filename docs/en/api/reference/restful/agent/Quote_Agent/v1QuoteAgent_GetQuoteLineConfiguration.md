@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 789
+  "QuoteLineConfigurationId": 505
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 605,
-  "FieldName": "Christiansen, Hodkiewicz and Mosciski",
-  "Label": "officia",
-  "Tooltip": "et",
-  "Editable": true,
-  "InUse": true,
+  "QuoteLineConfigurationId": 61,
+  "FieldName": "Hudson-Harvey",
+  "Label": "perspiciatis",
+  "Tooltip": "possimus",
+  "Editable": false,
+  "InUse": false,
   "Mandatory": false,
-  "Rank": 86,
-  "RestrictEdit": false,
+  "Rank": 543,
+  "RestrictEdit": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 977
+      "FieldType": "System.Int32",
+      "FieldLength": 561
     }
   }
 }

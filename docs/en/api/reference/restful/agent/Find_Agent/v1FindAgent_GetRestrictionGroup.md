@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "explicabo",
-  "ProviderName": "Hansen-Buckridge",
-  "StorageKey": "rem",
-  "Rank": 120,
-  "Context": "architecto"
+  "StorageType": "exercitationem",
+  "ProviderName": "Halvorson-Dooley",
+  "StorageKey": "pariatur",
+  "Rank": 246,
+  "Context": "ut"
 }
 ```
 
@@ -97,20 +97,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Maggio, Wolff and Simonis",
-  "Description": "Optional multi-tasking model",
-  "Rank": 510,
+  "Name": "Schimmel-Leuschke",
+  "Description": "Automated eco-centric superstructure",
+  "Rank": 789,
   "Restrictions": [
     {
-      "Name": "Krajcik-McGlynn",
-      "Operator": "iste",
+      "Name": "Legros, Rodriguez and Breitenberg",
+      "Operator": "quaerat",
       "Values": [
-        "iste",
-        "recusandae"
+        "aspernatur",
+        "fugit"
       ],
       "DisplayValues": [
-        "commodi",
-        "atque"
+        "sint",
+        "ea"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -118,9 +118,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 470,
+      "InterParenthesis": 754,
       "InterOperator": "And",
-      "UniqueHash": 276
+      "UniqueHash": 787
     }
   ]
 }

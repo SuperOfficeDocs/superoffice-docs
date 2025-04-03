@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 16,
-  "EmailBodyTemplateId": 986,
+  "QuoteVersionId": 249,
+  "EmailBodyTemplateId": 21,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 793,
+  "QuotedProductsTemplateId": 431,
   "IncludeAttachments": false,
-  "RawMailSubject": "vel"
+  "RawMailSubject": "doloribus"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 71,
-  "QuotedProductsId": 112,
+  "QuoteDocumentId": 457,
+  "QuotedProductsId": 659,
   "QuoteAttachmentIds": [
-    325,
-    820
+    595,
+    529
   ],
-  "MailBody": "dignissimos",
-  "MailSubject": "est",
-  "ToEmail": "elliott_torp@erdman.info",
-  "ToFullName": "Marge Murazik",
-  "ErrorMessage": "cupiditate",
+  "MailBody": "aliquid",
+  "MailSubject": "consequatur",
+  "ToEmail": "frederick@lesch.co.uk",
+  "ToFullName": "Isobel Nitzsche",
+  "ErrorMessage": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 805
+      "FieldType": "System.Int32",
+      "FieldLength": 813
     }
   }
 }

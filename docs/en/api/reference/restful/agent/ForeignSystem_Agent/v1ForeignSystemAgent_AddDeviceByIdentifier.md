@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kshlerin, Gislason and Blick",
-  "DeviceName": "Kassulke Inc and Sons",
-  "DeviceIdentifier": "reiciendis"
+  "ApplicationName": "Wyman, Yost and Schuster",
+  "DeviceName": "Doyle-Berge",
+  "DeviceIdentifier": "sit"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 639,
-  "Name": "Upton-Kuhic",
-  "CreatedDate": "2003-10-19T02:38:21.4482803+02:00",
-  "UpdatedDate": "2003-08-01T02:38:21.4482803+02:00",
-  "AssociateFullName": "Natalia Oberbrunner",
-  "CreatedBy": "sit",
-  "UpdatedBy": "vel",
-  "DeviceIdentifier": "et",
-  "ForeignAppId": 253,
+  "ForeignDeviceId": 336,
+  "Name": "Botsford, Trantow and Swaniawski",
+  "CreatedDate": "2021-11-23T14:28:22.0085182+01:00",
+  "UpdatedDate": "2008-11-08T14:28:22.0085182+01:00",
+  "AssociateFullName": "Marlee Klocko",
+  "CreatedBy": "dolorum",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "consectetur",
+  "ForeignAppId": 228,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 836
+      "FieldLength": 163
     }
   }
 }

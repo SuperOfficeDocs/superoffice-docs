@@ -66,12 +66,12 @@ No Content
 POST /api/v1/Agents/Person/AddEmailAddressToPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 136,
-  "EmailAddress": "aubree@maggio.ca",
+  "PersonId": 918,
+  "EmailAddress": "hayley@mcclure.biz",
   "SetAsPrimaryEmail": false
 }
 ```

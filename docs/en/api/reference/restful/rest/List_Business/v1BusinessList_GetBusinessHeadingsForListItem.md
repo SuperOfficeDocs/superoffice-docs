@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Rippin Inc and Sons",
-    "ToolTip": "Et dignissimos minima adipisci ut.",
+    "Id": 404,
+    "Name": "Bogan Inc and Sons",
+    "ToolTip": "Minus est nihil quis aut quia et.",
     "Deleted": false,
-    "Rank": 383,
-    "Type": "minima",
-    "ColorBlock": 176,
-    "IconHint": "iure",
-    "Selected": false,
-    "LastChanged": "2013-06-23T02:38:26.6674035+02:00",
+    "Rank": 877,
+    "Type": "eligendi",
+    "ColorBlock": 954,
+    "IconHint": "iusto",
+    "Selected": true,
+    "LastChanged": "2015-09-10T14:28:27.4770477+02:00",
     "ChildItems": [
       {
-        "Id": 631,
-        "Name": "Gerhold, Gutkowski and Sipes",
-        "ToolTip": "Consequatur voluptatem reiciendis temporibus quisquam reprehenderit exercitationem.",
+        "Id": 538,
+        "Name": "Ferry-Jast",
+        "ToolTip": "Ea nisi voluptatem sit cumque veniam omnis sit.",
         "Deleted": false,
-        "Rank": 123,
-        "Type": "aliquid",
-        "ColorBlock": 482,
-        "IconHint": "velit",
+        "Rank": 51,
+        "Type": "doloribus",
+        "ColorBlock": 281,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2006-05-23T02:38:26.6674035+02:00",
+        "LastChanged": "1999-08-02T14:28:27.4770477+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "quidem",
-        "Hidden": false,
-        "FullName": "Vickie Connelly",
+        "ExtraInfo": "culpa",
+        "StyleHint": "beatae",
+        "Hidden": true,
+        "FullName": "Ms. Celestine Toby Crona",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 343
+            "FieldType": "System.Int32",
+            "FieldLength": 23
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "rerum",
+    "ExtraInfo": "beatae",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Prof. Omer Jena Cormier III",
+    "FullName": "Carmel Roberts",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 172
+        "FieldType": "System.String",
+        "FieldLength": 645
       }
     }
   }

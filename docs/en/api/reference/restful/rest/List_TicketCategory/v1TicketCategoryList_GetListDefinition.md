@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 760,
-  "Name": "Harvey LLC",
-  "Tooltip": "et",
+  "Id": 509,
+  "Name": "Hegmann, Hills and Oberbrunner",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 708,
+  "Rank": 886,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 462
+      "FieldType": "System.String",
+      "FieldLength": 456
     }
   },
   "_Links": {

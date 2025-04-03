@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 13,
-  "Name": "Fahey-Lang",
+  "ScreenChooserId": 852,
+  "Name": "Braun-Grimes",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "fugit",
-  "Source": "incidunt",
-  "Registered": "2016-07-11T02:38:26.5266399+02:00",
-  "RegisteredAssociateId": 311,
-  "Updated": "2010-12-21T02:38:26.5266399+01:00",
-  "UpdatedAssociateId": 596,
+  "Enabled": false,
+  "UniqueIdentifier": "nemo",
+  "Source": "nesciunt",
+  "Registered": "2017-08-17T14:28:27.3520534+02:00",
+  "RegisteredAssociateId": 794,
+  "Updated": "2003-11-19T14:28:27.3520534+01:00",
+  "UpdatedAssociateId": 182,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 273
+      "FieldLength": 744
     }
   }
 }

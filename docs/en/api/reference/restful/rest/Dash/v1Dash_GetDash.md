@@ -85,7 +85,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 31,
-  "UniqueId": "qui",
-  "Name": "Roberts-Mayer",
-  "Description": "Multi-layered bifurcated product",
-  "AssociateId": 675,
-  "Columns": 672,
+  "DashboardId": 142,
+  "UniqueId": "quod",
+  "Name": "Schiller, Johns and Gulgowski",
+  "Description": "Intuitive impactful interface",
+  "AssociateId": 623,
+  "Columns": 108,
   "Theme": null,
-  "VisibleForAll": 268,
+  "VisibleForAll": 773,
   "VisibleForAssociates": [
-    831,
-    159
+    472,
+    903
   ],
   "VisibleForGroups": [
-    848,
-    329
+    118,
+    27
   ],
-  "PinForAll": 863,
+  "PinForAll": 768,
   "PinForAssociates": [
-    707,
-    72
+    714,
+    258
   ],
   "PinForGroups": [
-    233,
-    250
+    669,
+    708
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 408
+      "FieldType": "System.String",
+      "FieldLength": 79
     }
   },
   "_Links": {

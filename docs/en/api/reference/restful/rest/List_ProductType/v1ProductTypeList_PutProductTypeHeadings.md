@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 411,
-    "Name": "Frami Group",
-    "Tooltip": "cupiditate",
+    "HeadingId": 781,
+    "Name": "Moen-Weber",
+    "Tooltip": "quos",
     "Deleted": false,
-    "Rank": 467,
-    "UdListDefinitionId": 948
+    "Rank": 790,
+    "UdListDefinitionId": 493
   },
   {
-    "HeadingId": 411,
-    "Name": "Frami Group",
-    "Tooltip": "cupiditate",
+    "HeadingId": 781,
+    "Name": "Moen-Weber",
+    "Tooltip": "quos",
     "Deleted": false,
-    "Rank": 467,
-    "UdListDefinitionId": 948
+    "Rank": 790,
+    "UdListDefinitionId": 493
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 561,
-    "Name": "Schamberger, Heller and Dare",
-    "Tooltip": "earum",
-    "Deleted": false,
-    "Rank": 408,
-    "UdListDefinitionId": 995,
+    "HeadingId": 398,
+    "Name": "White-Predovic",
+    "Tooltip": "aliquid",
+    "Deleted": true,
+    "Rank": 754,
+    "UdListDefinitionId": 955,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 138
+        "FieldLength": 384
       }
     }
   }

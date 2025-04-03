@@ -67,14 +67,14 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Metz-Donnelly",
-  "RecordId": 117,
-  "AssociateId": 961,
-  "ExtraInfo": "commodi"
+  "TableName": "Paucek-Bayer",
+  "RecordId": 590,
+  "AssociateId": 265,
+  "ExtraInfo": "sequi"
 }
 ```
 

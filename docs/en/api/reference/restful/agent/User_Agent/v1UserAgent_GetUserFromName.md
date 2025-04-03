@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Veum LLC"
+  "UserName": "Corwin Group"
 }
 ```
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 585,
-  "Name": "Hahn, Reinger and Kohler",
-  "Rank": 856,
-  "Tooltip": "autem",
+  "AssociateId": 62,
+  "Name": "Mosciski LLC",
+  "Rank": 735,
+  "Tooltip": "ad",
   "LicenseOwners": [
     {
-      "Name": "McCullough-Purdy",
-      "Description": "Programmable human-resource methodology",
+      "Name": "Lind Inc and Sons",
+      "Description": "Down-sized intangible concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 303
         }
       }
     },
     {
-      "Name": "McCullough-Purdy",
-      "Description": "Programmable human-resource methodology",
+      "Name": "Lind Inc and Sons",
+      "Description": "Down-sized intangible concept",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 880
+          "FieldLength": 303
         }
       }
     }
@@ -164,110 +164,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "beatae",
-      "Tooltip": "ut",
-      "Id": 416,
-      "Rank": 461,
-      "Deleted": false,
+      "Value": "voluptatem",
+      "Tooltip": "eaque",
+      "Id": 36,
+      "Rank": 198,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 3
+          "FieldType": "System.Int32",
+          "FieldLength": 699
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2024-08-26T02:38:22.2137894+02:00",
-  "Lastlogout": "2012-10-20T02:38:22.2137894+02:00",
-  "EjUserId": 225,
-  "RequestSignature": "eius",
+  "Lastlogin": "2019-07-21T14:28:22.7116081+02:00",
+  "Lastlogout": "2012-07-31T14:28:22.7116081+02:00",
+  "EjUserId": 124,
+  "RequestSignature": "voluptatibus",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": true,
+  "IsPersonRetired": false,
+  "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "aperiam",
+      "Value": "eos",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 676
         }
       }
     },
     {
       "Type": null,
-      "Value": "ut",
-      "DisplayValue": "aperiam",
+      "Value": "eos",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 676
         }
       }
     }
   ],
-  "UserName": "Morissette-Bosco",
+  "UserName": "Flatley-Heathcote",
   "TicketCategories": [
     {
-      "Id": 711,
-      "Name": "Pollich, Padberg and Prosacco",
-      "ToolTip": "Quia et a amet culpa rerum.",
-      "Deleted": true,
-      "Rank": 713,
-      "Type": "mollitia",
+      "Id": 702,
+      "Name": "Cassin Inc and Sons",
+      "ToolTip": "Itaque quis id aut aut ea.",
+      "Deleted": false,
+      "Rank": 245,
+      "Type": "sequi",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "facere",
-      "ColorBlock": 618,
-      "ExtraInfo": "cumque",
-      "StyleHint": "iste",
-      "FullName": "Ms. Tristian Jabari Gerhold DDS",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 122
-        }
-      }
-    }
-  ],
-  "NickName": "Dare Inc and Sons",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "incidunt",
-    "ExtraFields2": "numquam"
-  },
-  "CustomFields": {
-    "CustomFields1": "officia",
-    "CustomFields2": "velit"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Kuvalis Group",
-      "DisplayName": "Larkin Group",
-      "Description": "Distributed zero tolerance superstructure",
-      "ToolTip": "Quos consequuntur suscipit sit voluptatem officiis blanditiis.",
-      "Actions": "Implicit",
-      "ActionData": "amet",
+      "IconHint": "cum",
+      "ColorBlock": 999,
+      "ExtraInfo": "temporibus",
+      "StyleHint": "a",
+      "FullName": "Dan Mafalda Simonis PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 635
+          "FieldLength": 492
+        }
+      }
+    }
+  ],
+  "NickName": "Kreiger LLC",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "accusamus",
+    "ExtraFields2": "velit"
+  },
+  "CustomFields": {
+    "CustomFields1": "atque",
+    "CustomFields2": "perferendis"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Hamill, Kertzmann and Larkin",
+      "DisplayName": "Wilkinson-Schneider",
+      "Description": "Switchable actuating application",
+      "ToolTip": "Culpa et recusandae aut.",
+      "Actions": "Implicit",
+      "ActionData": "et",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 68
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldLength": 339
     }
   }
 }

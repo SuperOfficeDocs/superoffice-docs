@@ -65,26 +65,26 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferenceEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "omnis",
+      "RawValue": "deleniti",
       "Specification": null,
-      "DisplayValue": "error",
-      "DisplayTooltip": "exercitationem",
+      "DisplayValue": "cumque",
+      "DisplayTooltip": "aliquid",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 732,
-      "PrefDescId": 336,
-      "TableName": "Durgan Inc and Sons",
-      "UserPreferenceId": 195
+      "TargetId": 330,
+      "PrefDescId": 218,
+      "TableName": "Paucek-Watsica",
+      "UserPreferenceId": 743
     }
   ],
-  "RemoveLowerLevels": true
+  "RemoveLowerLevels": false
 }
 ```
 

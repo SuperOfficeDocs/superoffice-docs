@@ -103,7 +103,7 @@ ChatSessionEntity found.
 GET /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -113,29 +113,29 @@ HTTP/1.1 200 ChatSessionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 26,
-  "TopicId": 528,
+  "ChatSessionId": 160,
+  "TopicId": 651,
   "User": null,
   "Person": null,
-  "CustomerAlias": "reprehenderit",
-  "CustomerHost": "consequuntur",
-  "CustomerName": "Keeling-Emmerich",
-  "CustomerEmail": "ferne@hermann.biz",
-  "CustomerPhone": "1-759-859-5514 x596",
+  "CustomerAlias": "quasi",
+  "CustomerHost": "similique",
+  "CustomerName": "Nader, Block and Will",
+  "CustomerEmail": "kathleen_casper@hoeger.us",
+  "CustomerPhone": "(843)175-2442",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schmidt LLC",
+  "CustomerCompanyName": "Paucek-Lemke",
   "Status": "Closed",
-  "FirstMessage": "voluptas",
-  "LastMessage": "consectetur",
-  "WhenRequested": "2006-11-14T02:38:25.8548338+01:00",
-  "WhenStarted": "2014-12-19T02:38:25.8548338+01:00",
-  "WhenEnded": "2015-09-22T02:38:25.8548338+02:00",
-  "WhenIdle": "2010-01-02T02:38:25.8548338+01:00",
-  "WhenFetched": "2003-08-08T02:38:25.8548338+02:00",
-  "SessionKey": "qui",
-  "InitialQueuePos": 243,
-  "AlertLevel": 732,
-  "Rank": 648,
+  "FirstMessage": "quaerat",
+  "LastMessage": "recusandae",
+  "WhenRequested": "2018-09-19T14:28:26.7270778+02:00",
+  "WhenStarted": "2001-09-17T14:28:26.7270778+02:00",
+  "WhenEnded": "2020-10-25T14:28:26.7270778+01:00",
+  "WhenIdle": "2003-09-14T14:28:26.7270778+02:00",
+  "WhenFetched": "2003-12-21T14:28:26.7270778+01:00",
+  "SessionKey": "natus",
+  "InitialQueuePos": 172,
+  "AlertLevel": 18,
+  "Rank": 432,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 958,
+  "Rating": 373,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 251
+      "FieldType": "System.Int32",
+      "FieldLength": 929
     }
   },
   "_Links": {

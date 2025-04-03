@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 379,
-  "Name": "Hessel, Borer and Johns",
-  "Tooltip": "aliquam",
-  "SaveInDb": 327,
-  "Filename": "id",
-  "DefaultOref": "quasi",
+  "DocumentTemplateId": 475,
+  "Name": "Schinner LLC",
+  "Tooltip": "sit",
+  "SaveInDb": 601,
+  "Filename": "odio",
+  "DefaultOref": "voluptatem",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 57,
-  "IntentId": 840,
+  "AutoeventId": 442,
+  "IntentId": 522,
   "IsDefaultPublished": false,
-  "Rank": 461,
-  "LoadTemplateFromPlugin": 756,
-  "MimeType": "vitae",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 727,
+  "Rank": 587,
+  "LoadTemplateFromPlugin": 46,
+  "MimeType": "et",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 219,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "tania_cartwright@armstrong.biz",
-  "IncludeSignature": true,
+  "EmailSubject": "anastacio.padberg@cartwright.name",
+  "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "dora@corkery.info",
+  "SenderEmailAddress": "tobin@cronareichel.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 359
     }
   }
 }

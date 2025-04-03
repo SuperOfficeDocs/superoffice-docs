@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 861,
-    "Name": "Monahan, Hagenes and Graham",
-    "ToolTip": "Et explicabo optio nisi.",
+    "Id": 15,
+    "Name": "Wisoky-Mills",
+    "ToolTip": "Officia dolore repellat voluptates.",
     "Deleted": false,
-    "Rank": 607,
-    "Type": "et",
-    "ColorBlock": 234,
-    "IconHint": "suscipit",
+    "Rank": 996,
+    "Type": "qui",
+    "ColorBlock": 989,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2015-05-22T02:38:26.8236417+02:00",
+    "LastChanged": "1998-10-10T14:28:27.6020419+02:00",
     "ChildItems": [
       {
-        "Id": 182,
-        "Name": "Hane-Green",
-        "ToolTip": "Sint molestiae fugiat quia iusto quis.",
-        "Deleted": false,
-        "Rank": 168,
-        "Type": "est",
-        "ColorBlock": 580,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2008-09-14T02:38:26.8236417+02:00",
+        "Id": 313,
+        "Name": "Emmerich LLC",
+        "ToolTip": "Rerum tenetur laudantium et facere iste.",
+        "Deleted": true,
+        "Rank": 668,
+        "Type": "libero",
+        "ColorBlock": 67,
+        "IconHint": "aut",
+        "Selected": false,
+        "LastChanged": "2020-09-06T14:28:27.6020419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "non",
+        "ExtraInfo": "aut",
+        "StyleHint": "ad",
         "Hidden": false,
-        "FullName": "Waldo Jacobi",
+        "FullName": "Ms. Trystan Aylin Paucek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 785
+            "FieldLength": 55
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "sit",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Esteban Klocko",
+    "FullName": "Gay Velma Lindgren Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 21
+        "FieldLength": 601
       }
     }
   }

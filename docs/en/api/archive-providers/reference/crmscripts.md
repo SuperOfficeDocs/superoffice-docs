@@ -31,6 +31,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |registeredBy|associate|Registered by: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |path|string|Path: Full path that identifies the type of script| x |
+|type| *None* |Type: The type/language of this script|  |
 |ejscriptId| *None* |CRMScript ID: Primary key from the CRMScript table|  |
 |includeId| *None* |IncludeID: Name to be used when including this script in another script|  |
 |accessKey| *None* |Access key: Key to be used when calling this script externally|  |
@@ -48,7 +49,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/CRMScripts?$select=registeredBy,includeId
+GET /api/v1/archive/CRMScripts?$select=registeredDate,includeId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

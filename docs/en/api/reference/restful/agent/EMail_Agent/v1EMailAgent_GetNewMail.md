@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    503,
-    147
+    427,
+    593
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 95,
-    "MessageId": "sequi",
-    "Subject": "laborum",
+    "ServerId": 143,
+    "MessageId": "recusandae",
+    "Subject": "in",
     "From": null,
     "To": [
       {
-        "ContactId": 465,
-        "ContactName": "Hintz, McClure and Renner",
-        "PersonId": 65,
-        "PersonName": "Shields-Mante",
-        "AssociateId": 595,
-        "Address": "est",
-        "EmailId": 666,
+        "ContactId": 732,
+        "ContactName": "Schamberger, Yost and Crooks",
+        "PersonId": 149,
+        "PersonName": "Reichert Inc and Sons",
+        "AssociateId": 414,
+        "Address": "fugiat",
+        "EmailId": 762,
         "DuplicatePersonIds": [
-          366,
-          669
+          393,
+          120
         ],
-        "Name": "Wilderman Group",
+        "Name": "Schaefer, Greenfelder and Pacocha",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 461
+            "FieldLength": 819
           }
         }
       }
     ],
-    "Sent": "2004-03-26T02:38:21.3232921+01:00",
+    "Sent": "2022-01-13T14:28:21.8991479+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 622,
+    "Size": 671,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 133
+        "FieldLength": 595
       }
     }
   }

@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rolfson-Tillman",
-    "DisplayName": "Labadie Inc and Sons",
-    "Description": "Quality-focused leading edge pricing structure",
-    "ToolTip": "Incidunt dolores reprehenderit nihil.",
+    "Name": "Rohan-Rogahn",
+    "DisplayName": "Ebert Group",
+    "Description": "Cross-platform interactive support",
+    "ToolTip": "Omnis ullam autem voluptatem non praesentium.",
     "Actions": "Implicit",
-    "ActionData": "ut",
+    "ActionData": "quidem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 597
+        "FieldLength": 743
       }
     }
   }

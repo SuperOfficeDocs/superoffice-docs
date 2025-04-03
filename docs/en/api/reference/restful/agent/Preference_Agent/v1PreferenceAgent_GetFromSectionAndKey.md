@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "excepturi",
-  "Key": "in"
+  "Section": "natus",
+  "Key": "provident"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 497,
-  "Section": "sint",
-  "Key": "in",
-  "Name": "Dicki Group",
+  "PrefDescId": 750,
+  "Section": "et",
+  "Key": "reiciendis",
+  "Name": "Klein-Ryan",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Networked needs-based initiative",
+  "Description": "Optional 4th generation hierarchy",
   "IsBuiltin": false,
-  "TableName": "Frami-Hyatt",
-  "UserDefinedListId": 712,
-  "Rank": 245,
-  "SubGroup": "eum",
-  "MinLevel": 917,
-  "MaxValue": 700,
-  "MinValue": 748,
-  "RequiredLicense": "consequatur",
+  "TableName": "Feeney, Smith and Weimann",
+  "UserDefinedListId": 291,
+  "Rank": 875,
+  "SubGroup": "nulla",
+  "MinLevel": 845,
+  "MaxValue": 558,
+  "MinValue": 92,
+  "RequiredLicense": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 38
+      "FieldLength": 678
     }
   }
 }

@@ -1,0 +1,627 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.NotifyType
+  commentId: T:SuperOffice.Data.NotifyType
+  id: NotifyType
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.NotifyType.ActiveTickets
+  - SuperOffice.Data.NotifyType.ChatAlert
+  - SuperOffice.Data.NotifyType.ChatMessageAlert
+  - SuperOffice.Data.NotifyType.ChatSessionTransfered
+  - SuperOffice.Data.NotifyType.Custom
+  - SuperOffice.Data.NotifyType.Hotlist
+  - SuperOffice.Data.NotifyType.NewTicket
+  - SuperOffice.Data.NotifyType.NewTicketMessage
+  - SuperOffice.Data.NotifyType.NotifyAll
+  - SuperOffice.Data.NotifyType.TicketActivated
+  - SuperOffice.Data.NotifyType.TicketEscalated
+  - SuperOffice.Data.NotifyType.TicketTakeOver
+  - SuperOffice.Data.NotifyType.value__
+  langs:
+  - csharp
+  - vb
+  name: NotifyType
+  nameWithType: NotifyType
+  fullName: SuperOffice.Data.NotifyType
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nValue for field &apos;Type&apos; in table &apos;notify&apos;. Defines the notification type.\nThis Enum consists of flag values that can be combined.\n"
+  syntax:
+    content: 'public sealed class NotifyType : Enum'
+    content.vb: >-
+      Public NotInheritable Class NotifyType
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.NotifyType.EnumUtil.MapEnums``2
+  - SuperOffice.Data.NotifyType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.NotifyType.value__
+  commentId: F:SuperOffice.Data.NotifyType.value__
+  id: value__
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: NotifyType.value__
+  fullName: SuperOffice.Data.NotifyType.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.NotifyType.NewTicket
+  commentId: F:SuperOffice.Data.NotifyType.NewTicket
+  id: NewTicket
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: NewTicket
+  nameWithType: NotifyType.NewTicket
+  fullName: SuperOffice.Data.NotifyType.NewTicket
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: New ticket event\n"
+  syntax:
+    content: public const NotifyType NewTicket
+    return:
+      type: SuperOffice.Data.NotifyType
+    content.vb: Public Const NewTicket As NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.NotifyType.NewTicketMessage
+  commentId: F:SuperOffice.Data.NotifyType.NewTicketMessage
+  id: NewTicketMessage
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: NewTicketMessage
+  nameWithType: NotifyType.NewTicketMessage
+  fullName: SuperOffice.Data.NotifyType.NewTicketMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: New ticket message event\n"
+  syntax:
+    content: public const NotifyType NewTicketMessage
+    return:
+      type: SuperOffice.Data.NotifyType
+    content.vb: Public Const NewTicketMessage As NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.NotifyType.TicketEscalated
+  commentId: F:SuperOffice.Data.NotifyType.TicketEscalated
+  id: TicketEscalated
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: TicketEscalated
+  nameWithType: NotifyType.TicketEscalated
+  fullName: SuperOffice.Data.NotifyType.TicketEscalated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n4: Ticket escalated event\n"
+  syntax:
+    content: public const NotifyType TicketEscalated
+    return:
+      type: SuperOffice.Data.NotifyType
+    content.vb: Public Const TicketEscalated As NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.NotifyType.TicketActivated
+  commentId: F:SuperOffice.Data.NotifyType.TicketActivated
+  id: TicketActivated
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: TicketActivated
+  nameWithType: NotifyType.TicketActivated
+  fullName: SuperOffice.Data.NotifyType.TicketActivated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n8: Ticket activated event\n"
+  syntax:
+    content: public const NotifyType TicketActivated
+    return:
+      type: SuperOffice.Data.NotifyType
+    content.vb: Public Const TicketActivated As NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.NotifyType.ChatAlert
+  commentId: F:SuperOffice.Data.NotifyType.ChatAlert
+  id: ChatAlert
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: ChatAlert
+  nameWithType: NotifyType.ChatAlert
+  fullName: SuperOffice.Data.NotifyType.ChatAlert
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n16: Chat alert event\n"
+  syntax:
+    content: public const NotifyType ChatAlert
+    return:
+      type: SuperOffice.Data.NotifyType
+    content.vb: Public Const ChatAlert As NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.NotifyType.ActiveTickets
+  commentId: F:SuperOffice.Data.NotifyType.ActiveTickets
+  id: ActiveTickets
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: ActiveTickets
+  nameWithType: NotifyType.ActiveTickets
+  fullName: SuperOffice.Data.NotifyType.ActiveTickets
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n32: Active tickets (only used as a filter (ejuser))\n"
+  syntax:
+    content: public const NotifyType ActiveTickets
+    return:
+      type: SuperOffice.Data.NotifyType
+    content.vb: Public Const ActiveTickets As NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.NotifyType.TicketTakeOver
+  commentId: F:SuperOffice.Data.NotifyType.TicketTakeOver
+  id: TicketTakeOver
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: TicketTakeOver
+  nameWithType: NotifyType.TicketTakeOver
+  fullName: SuperOffice.Data.NotifyType.TicketTakeOver
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n64: Ticket take over event\n"
+  syntax:
+    content: public const NotifyType TicketTakeOver
+    return:
+      type: SuperOffice.Data.NotifyType
+    content.vb: Public Const TicketTakeOver As NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.NotifyType.ChatMessageAlert
+  commentId: F:SuperOffice.Data.NotifyType.ChatMessageAlert
+  id: ChatMessageAlert
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: ChatMessageAlert
+  nameWithType: NotifyType.ChatMessageAlert
+  fullName: SuperOffice.Data.NotifyType.ChatMessageAlert
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n128: Chat message alert event\n"
+  syntax:
+    content: public const NotifyType ChatMessageAlert
+    return:
+      type: SuperOffice.Data.NotifyType
+    content.vb: Public Const ChatMessageAlert As NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.NotifyType.ChatSessionTransfered
+  commentId: F:SuperOffice.Data.NotifyType.ChatSessionTransfered
+  id: ChatSessionTransfered
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: ChatSessionTransfered
+  nameWithType: NotifyType.ChatSessionTransfered
+  fullName: SuperOffice.Data.NotifyType.ChatSessionTransfered
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n256: Chat session transfered event\n"
+  syntax:
+    content: public const NotifyType ChatSessionTransfered
+    return:
+      type: SuperOffice.Data.NotifyType
+    content.vb: Public Const ChatSessionTransfered As NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.NotifyType.Hotlist
+  commentId: F:SuperOffice.Data.NotifyType.Hotlist
+  id: Hotlist
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: Hotlist
+  nameWithType: NotifyType.Hotlist
+  fullName: SuperOffice.Data.NotifyType.Hotlist
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n512: Hot list (only used as a filter (ejuser))\n"
+  syntax:
+    content: public const NotifyType Hotlist
+    return:
+      type: SuperOffice.Data.NotifyType
+    content.vb: Public Const Hotlist As NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.NotifyType.Custom
+  commentId: F:SuperOffice.Data.NotifyType.Custom
+  id: Custom
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: Custom
+  nameWithType: NotifyType.Custom
+  fullName: SuperOffice.Data.NotifyType.Custom
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1024: Custom event\n"
+  syntax:
+    content: public const NotifyType Custom
+    return:
+      type: SuperOffice.Data.NotifyType
+    content.vb: Public Const Custom As NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.NotifyType.NotifyAll
+  commentId: F:SuperOffice.Data.NotifyType.NotifyAll
+  id: NotifyAll
+  parent: SuperOffice.Data.NotifyType
+  langs:
+  - csharp
+  - vb
+  name: NotifyAll
+  nameWithType: NotifyType.NotifyAll
+  fullName: SuperOffice.Data.NotifyType.NotifyAll
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2047: Notify all\n"
+  syntax:
+    content: public const NotifyType NotifyAll
+    return:
+      type: SuperOffice.Data.NotifyType
+    content.vb: Public Const NotifyAll As NotifyType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.NotifyType.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<NotifyType, To>()
+  nameWithType: EnumUtil.MapEnums<NotifyType, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.NotifyType, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of NotifyType, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.NotifyType, To)()
+  name.vb: MapEnums(Of NotifyType, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<NotifyType, To>
+    nameWithType: EnumUtil.MapEnums<NotifyType, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.NotifyType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of NotifyType, To)
+    nameWithType: EnumUtil.MapEnums(Of NotifyType, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.NotifyType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NotifyType.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<NotifyType, To>()
+  nameWithType: Converters.MapEnums<NotifyType, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.NotifyType, To>()
+  nameWithType.vb: Converters.MapEnums(Of NotifyType, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.NotifyType, To)()
+  name.vb: MapEnums(Of NotifyType, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<NotifyType, To>
+    nameWithType: Converters.MapEnums<NotifyType, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.NotifyType, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of NotifyType, To)
+    nameWithType: Converters.MapEnums(Of NotifyType, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.NotifyType, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.Data.NotifyType
+  commentId: T:SuperOffice.Data.NotifyType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: NotifyType
+  nameWithType: NotifyType
+  fullName: SuperOffice.Data.NotifyType

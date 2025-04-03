@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "omnis",
-  "Name": "Orn-Heaney",
-  "Description": "Object-based demand-driven data-warehouse",
-  "IncludeId": "ea",
-  "Source": "optio",
-  "Registered": "2003-08-19T02:38:26.58914+02:00",
-  "RegisteredBy": "quia",
-  "Updated": "2001-05-30T02:38:26.58914+02:00",
-  "UpdatedBy": "sint",
-  "Path": "sint",
+  "UniqueIdentifier": "nisi",
+  "Name": "Gutmann Inc and Sons",
+  "Description": "Focused exuding product",
+  "IncludeId": "nemo",
+  "Source": "ipsum",
+  "Registered": "2003-06-28T14:28:27.4145503+02:00",
+  "RegisteredBy": "dolor",
+  "Updated": "2019-10-23T14:28:27.4145503+02:00",
+  "UpdatedBy": "voluptate",
+  "Path": "hic",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 356
+      "FieldType": "System.String",
+      "FieldLength": 305
     }
   }
 }

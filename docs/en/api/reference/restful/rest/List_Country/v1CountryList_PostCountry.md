@@ -99,27 +99,27 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 899,
-  "Name": "Cartwright Group",
-  "CurrencyId": 509,
-  "EnglishName": "Bins, Denesik and Waelchi",
+  "CountryId": 889,
+  "Name": "Koss, Cormier and Baumbach",
+  "CurrencyId": 104,
+  "EnglishName": "Nikolaus-Beier",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Decentralized real-time data-warehouse",
-  "OrgNrText": "1368881",
-  "InterAreaPrefix": "aut",
-  "DialInPrefix": "eos",
-  "ZipPrefix": "rerum",
-  "DomainName": "Kemmer, Willms and Lindgren",
-  "AddressLayoutId": 121,
-  "DomesticAddressLayoutId": 757,
-  "ForeignAddressLayoutId": 401,
-  "Rank": 541,
-  "Tooltip": "laborum",
+  "ImageDescription": "Advanced zero tolerance capacity",
+  "OrgNrText": "742844",
+  "InterAreaPrefix": "nemo",
+  "DialInPrefix": "sint",
+  "ZipPrefix": "minima",
+  "DomainName": "Kovacek-Shanahan",
+  "AddressLayoutId": 584,
+  "DomesticAddressLayoutId": 755,
+  "ForeignAddressLayoutId": 473,
+  "Rank": 678,
+  "Tooltip": "occaecati",
   "Deleted": true
 }
 ```
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 550,
-  "Name": "Trantow-Klein",
-  "CurrencyId": 652,
-  "EnglishName": "Harber, O'Hara and Shanahan",
+  "CountryId": 488,
+  "Name": "Greenholt Inc and Sons",
+  "CurrencyId": 680,
+  "EnglishName": "Robel, Block and Monahan",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Upgradable contextually-based focus group",
-  "OrgNrText": "913909",
-  "InterAreaPrefix": "qui",
-  "DialInPrefix": "quia",
-  "ZipPrefix": "similique",
-  "DomainName": "Larkin, Emmerich and Stokes",
-  "AddressLayoutId": 643,
-  "DomesticAddressLayoutId": 757,
-  "ForeignAddressLayoutId": 732,
-  "Rank": 575,
-  "Tooltip": "maiores",
+  "ImageDescription": "Profound bi-directional moderator",
+  "OrgNrText": "1665290",
+  "InterAreaPrefix": "nam",
+  "DialInPrefix": "at",
+  "ZipPrefix": "quisquam",
+  "DomainName": "Koelpin Group",
+  "AddressLayoutId": 125,
+  "DomesticAddressLayoutId": 590,
+  "ForeignAddressLayoutId": 610,
+  "Rank": 681,
+  "Tooltip": "ut",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldType": "System.String",
+      "FieldLength": 396
     }
   }
 }

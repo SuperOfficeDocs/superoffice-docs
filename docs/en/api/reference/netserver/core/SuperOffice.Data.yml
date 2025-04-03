@@ -11,6 +11,7 @@ items:
   - SuperOffice.Data.AppAvailState
   - SuperOffice.Data.ApplicationType
   - SuperOffice.Data.AppointmentCautionWarning
+  - SuperOffice.Data.AppointmentExternalOwner
   - SuperOffice.Data.AppointmentPrivate
   - SuperOffice.Data.AppointmentStatus
   - SuperOffice.Data.AppointmentType
@@ -109,6 +110,7 @@ items:
   - SuperOffice.Data.GeneratorEncoding
   - SuperOffice.Data.GuideStepConstants
   - SuperOffice.Data.HtmlSanitizerOptions
+  - SuperOffice.Data.IDebugUser
   - SuperOffice.Data.ImageEmbedType
   - SuperOffice.Data.ImportAction
   - SuperOffice.Data.ImportBlankAction
@@ -154,6 +156,8 @@ items:
   - SuperOffice.Data.NotificationEventType
   - SuperOffice.Data.NotificationMessageType
   - SuperOffice.Data.NotificationPlatform
+  - SuperOffice.Data.NotifyChannel
+  - SuperOffice.Data.NotifyType
   - SuperOffice.Data.OnIdUpdate
   - SuperOffice.Data.OnSaved
   - SuperOffice.Data.OrderBySortType
@@ -354,6 +358,13 @@ references:
   name: AppAvailState
   nameWithType: AppAvailState
   fullName: SuperOffice.Data.AppAvailState
+- uid: SuperOffice.Data.AppointmentExternalOwner
+  commentId: T:SuperOffice.Data.AppointmentExternalOwner
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AppointmentExternalOwner
+  nameWithType: AppointmentExternalOwner
+  fullName: SuperOffice.Data.AppointmentExternalOwner
 - uid: SuperOffice.Data.AppointmentPrivate
   commentId: T:SuperOffice.Data.AppointmentPrivate
   parent: SuperOffice.Data
@@ -1621,6 +1632,13 @@ references:
   name: DocumentHandler
   nameWithType: DocumentHandler
   fullName: SuperOffice.Data.DocumentHandler
+- uid: SuperOffice.Data.NotifyChannel
+  commentId: T:SuperOffice.Data.NotifyChannel
+  parent: SuperOffice.Data
+  isExternal: true
+  name: NotifyChannel
+  nameWithType: NotifyChannel
+  fullName: SuperOffice.Data.NotifyChannel
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
@@ -1782,6 +1800,13 @@ references:
   name: BadgeType
   nameWithType: BadgeType
   fullName: SuperOffice.Data.BadgeType
+- uid: SuperOffice.Data.NotifyType
+  commentId: T:SuperOffice.Data.NotifyType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: NotifyType
+  nameWithType: NotifyType
+  fullName: SuperOffice.Data.NotifyType
 - uid: SuperOffice.Data.ScriptType
   commentId: T:SuperOffice.Data.ScriptType
   parent: SuperOffice.Data
@@ -2210,6 +2235,12 @@ references:
   name: DbConvert
   nameWithType: DbConvert
   fullName: SuperOffice.Data.DbConvert
+- uid: SuperOffice.Data.IDebugUser
+  commentId: T:SuperOffice.Data.IDebugUser
+  isExternal: true
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
 - uid: SuperOffice.Data.OnSaved
   commentId: T:SuperOffice.Data.OnSaved
   parent: SuperOffice.Data

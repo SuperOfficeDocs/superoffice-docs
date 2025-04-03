@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 655,
-  "AppointmentId": 663,
-  "ProjectId": 795,
-  "SaleId": 851,
+  "DocumentId": 367,
+  "AppointmentId": 943,
+  "ProjectId": 446,
+  "SaleId": 517,
   "Archived": false,
-  "ArchivedAt": "2004-07-01T02:38:21.3701735+02:00",
-  "ArchivedBy": 173,
-  "ArchivedDisplayName": "Runolfsson Group",
+  "ArchivedAt": "1999-05-20T14:28:21.9303967+02:00",
+  "ArchivedBy": 931,
+  "ArchivedDisplayName": "McClure, Witting and Kohler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldType": "System.String",
+      "FieldLength": 611
     }
   }
 }

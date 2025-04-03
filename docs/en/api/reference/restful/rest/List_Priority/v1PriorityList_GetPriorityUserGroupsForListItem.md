@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 406,
-    "Name": "Rice-Rice",
-    "ToolTip": "Sapiente qui iste voluptatem.",
-    "Deleted": false,
-    "Rank": 873,
-    "Type": "voluptate",
-    "ColorBlock": 957,
-    "IconHint": "tempora",
-    "Selected": false,
-    "LastChanged": "2015-01-25T02:38:26.8236417+01:00",
+    "Id": 742,
+    "Name": "Mayert, Leuschke and Marks",
+    "ToolTip": "Molestiae nemo distinctio optio.",
+    "Deleted": true,
+    "Rank": 181,
+    "Type": "sed",
+    "ColorBlock": 856,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2006-01-22T14:28:27.6176673+01:00",
     "ChildItems": [
       {
-        "Id": 539,
-        "Name": "Parisian Inc and Sons",
-        "ToolTip": "Et et.",
+        "Id": 767,
+        "Name": "Larkin, Larson and Howell",
+        "ToolTip": "Repellendus odit cum suscipit sit est omnis cumque.",
         "Deleted": false,
-        "Rank": 413,
-        "Type": "et",
-        "ColorBlock": 25,
-        "IconHint": "aspernatur",
+        "Rank": 696,
+        "Type": "quia",
+        "ColorBlock": 117,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2002-01-18T02:38:26.8236417+01:00",
+        "LastChanged": "2017-09-07T14:28:27.6176673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Mr. Luther Susie Hane IV",
+        "ExtraInfo": "officia",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Raul Fritsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 611
+            "FieldLength": 627
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "similique",
-    "Hidden": false,
-    "FullName": "Prof. Jose Glover",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "illum",
+    "Hidden": true,
+    "FullName": "Zachary Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldLength": 881
       }
     }
   }

@@ -90,20 +90,20 @@ HTTP/1.1 200 RelationDefinitionEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 209,
-  "Name": "Adams, Lesch and Cronin",
-  "Tooltip": "consequatur",
-  "PassiveText": "ut",
+  "ReldefId": 404,
+  "Name": "Schmeler, Gislason and Yundt",
+  "Tooltip": "eius",
+  "PassiveText": "quae",
   "Deleted": false,
-  "Rank": 468,
+  "Rank": 14,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldType": "System.Int32",
+      "FieldLength": 374
     }
   },
   "_Links": {

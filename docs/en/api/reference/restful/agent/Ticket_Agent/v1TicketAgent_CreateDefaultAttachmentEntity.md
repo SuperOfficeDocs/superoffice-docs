@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 435,
-  "Name": "Vandervort Inc and Sons",
-  "ContentType": "nobis",
-  "AttSize": 904,
+  "AttachmentId": 610,
+  "Name": "Crist Group",
+  "ContentType": "omnis",
+  "AttSize": 274,
   "InlineImage": false,
-  "ContentId": "omnis",
-  "AuthKey": "voluptatibus",
+  "ContentId": "qui",
+  "AuthKey": "ut",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 537
+      "FieldType": "System.Int32",
+      "FieldLength": 376
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,58 +102,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 787,
-  "SaleId": 167,
-  "QuoteConnectionId": 199,
-  "ERPQuoteKey": "nihil",
-  "ERPOrderKey": "quia",
-  "ActiveQuoteVersionId": 459,
-  "AcceptedQuoteAlternativeId": 387,
-  "UseValuesFromQuote": 112,
-  "DocumentId": 62,
-  "PoNumber": "639407",
-  "OrderComment": "debitis",
-  "PreferredEmailCulture": "kody_rohan@will.us",
+  "QuoteId": 267,
+  "SaleId": 233,
+  "QuoteConnectionId": 266,
+  "ERPQuoteKey": "et",
+  "ERPOrderKey": "aut",
+  "ActiveQuoteVersionId": 336,
+  "AcceptedQuoteAlternativeId": 288,
+  "UseValuesFromQuote": 234,
+  "DocumentId": 678,
+  "PoNumber": "658329",
+  "OrderComment": "atque",
+  "PreferredEmailCulture": "deshaun_smitham@powlowski.info",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 270,
-      "ERPQuoteVersionKey": "sint",
-      "QuoteId": 858,
-      "Description": "Streamlined directional extranet",
-      "Number": "1119583",
+      "QuoteVersionId": 654,
+      "ERPQuoteVersionKey": "enim",
+      "QuoteId": 130,
+      "Description": "Streamlined modular neural-net",
+      "Number": "831966",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 197,
-      "SentDate": "2021-05-24T02:38:21.7919947+02:00",
-      "FollowupId": 250,
-      "ExpirationDate": "2016-05-26T02:38:21.7919947+02:00",
-      "DeliveryCountryId": 198,
+      "LikelyQuoteAlternativeId": 291,
+      "SentDate": "2012-09-14T14:28:22.3053817+02:00",
+      "FollowupId": 357,
+      "ExpirationDate": "2011-12-25T14:28:22.3053817+01:00",
+      "DeliveryCountryId": 330,
       "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 278,
+      "InvoiceCountryId": 547,
       "HasOwnInvoiceAddress": false,
-      "ERPPaymentTermsKey": "et",
+      "ERPPaymentTermsKey": "veritatis",
       "ERPPaymentTypeKey": "voluptatem",
-      "ERPDeliveryTermsKey": "voluptatem",
-      "ERPDeliveryTypeKey": "quaerat",
-      "Rank": 75,
-      "ApprovedBy": 121,
-      "ApprovedText": "quia",
-      "ApprovedRegisteredBy": 45,
-      "ApprovedRegisteredDate": "2003-05-11T02:38:21.7919947+02:00",
-      "ExtraField1": "voluptatibus",
-      "ExtraField2": "rerum",
-      "ExtraField3": "reprehenderit",
-      "ExtraField4": "magni",
-      "ExtraField5": "ullam",
-      "LastRecalculated": "2006-01-29T02:38:21.7919947+01:00",
-      "Updated": "2023-09-19T02:38:21.7919947+02:00",
-      "UpdatedAssociateId": 114,
-      "Registered": "2003-05-12T02:38:21.7919947+02:00",
-      "RegisteredAssociateId": 937,
-      "RequestAssociateId": 515,
-      "RequestComment": "eum",
+      "ERPDeliveryTermsKey": "consequatur",
+      "ERPDeliveryTypeKey": "accusantium",
+      "Rank": 424,
+      "ApprovedBy": 576,
+      "ApprovedText": "autem",
+      "ApprovedRegisteredBy": 911,
+      "ApprovedRegisteredDate": "2009-06-24T14:28:22.3053817+02:00",
+      "ExtraField1": "fugit",
+      "ExtraField2": "aspernatur",
+      "ExtraField3": "tenetur",
+      "ExtraField4": "ducimus",
+      "ExtraField5": "dolorum",
+      "LastRecalculated": "1998-11-01T14:28:22.3053817+01:00",
+      "Updated": "2024-11-30T14:28:22.3053817+01:00",
+      "UpdatedAssociateId": 453,
+      "Registered": "2013-07-06T14:28:22.3053817+02:00",
+      "RegisteredAssociateId": 927,
+      "RequestAssociateId": 179,
+      "RequestComment": "totam",
       "QuoteAlternatives": [
         {},
         {}
@@ -162,8 +162,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 930
+          "FieldType": "System.String",
+          "FieldLength": 63
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 936
+      "FieldLength": 493
     }
   }
 }

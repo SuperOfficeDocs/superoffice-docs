@@ -26,7 +26,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=424
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=550
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,29 +107,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 812,
-  "TopicId": 851,
+  "ChatSessionId": 255,
+  "TopicId": 796,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sapiente",
-  "CustomerHost": "qui",
-  "CustomerName": "Hahn-VonRueden",
-  "CustomerEmail": "erwin@bode.ca",
-  "CustomerPhone": "1-530-533-9531 x250",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Howe, Hagenes and Quigley",
+  "CustomerAlias": "molestias",
+  "CustomerHost": "quis",
+  "CustomerName": "Mitchell Group",
+  "CustomerEmail": "leta_bayer@koss.ca",
+  "CustomerPhone": "068.098.0060 x0875",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Durgan LLC",
   "Status": "Closed",
-  "FirstMessage": "labore",
-  "LastMessage": "ducimus",
-  "WhenRequested": "2006-04-09T02:38:20.9327151+02:00",
-  "WhenStarted": "2007-11-08T02:38:20.9327151+01:00",
-  "WhenEnded": "2007-06-28T02:38:20.9327151+02:00",
-  "WhenIdle": "2018-11-24T02:38:20.9327151+01:00",
-  "WhenFetched": "2020-02-19T02:38:20.9327151+01:00",
-  "SessionKey": "voluptatem",
-  "InitialQueuePos": 160,
-  "AlertLevel": 819,
-  "Rank": 198,
+  "FirstMessage": "eos",
+  "LastMessage": "nisi",
+  "WhenRequested": "2005-04-30T14:28:21.5241635+02:00",
+  "WhenStarted": "2006-12-03T14:28:21.5241635+01:00",
+  "WhenEnded": "2004-09-07T14:28:21.5241635+02:00",
+  "WhenIdle": "2011-10-02T14:28:21.5241635+02:00",
+  "WhenFetched": "2023-09-19T14:28:21.5241635+02:00",
+  "SessionKey": "non",
+  "InitialQueuePos": 48,
+  "AlertLevel": 889,
+  "Rank": 99,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 909,
+  "Rating": 588,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 705
+      "FieldType": "System.String",
+      "FieldLength": 38
     }
   }
 }

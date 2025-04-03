@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,79 +107,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 998,
+  "EjMessageId": 77,
   "Ticket": null,
-  "CreatedAt": "2006-10-11T02:38:26.5110233+02:00",
+  "CreatedAt": "1998-06-05T14:28:27.3364282+02:00",
   "CreatedBy": null,
-  "Author": "ad",
+  "Author": "fuga",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "reprehenderit",
-  "TimeSpent": 842,
-  "Body": "rem",
-  "HtmlBody": "ut",
-  "EmailHeader": "ezekiel@kautzeradams.co.uk",
-  "DebugInfo": "aspernatur",
-  "MailSorter": "fugit",
+  "MessageId": "consequatur",
+  "TimeSpent": 18,
+  "Body": "optio",
+  "HtmlBody": "consectetur",
+  "EmailHeader": "zachary@jacobi.info",
+  "DebugInfo": "beatae",
+  "MailSorter": "ut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "autem",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 986,
-      "Name": "Kutch-Stokes",
-      "Value": "qui",
+      "Id": 675,
+      "Name": "Konopelski, King and Connelly",
+      "Value": "sequi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 549
+          "FieldType": "System.String",
+          "FieldLength": 291
         }
       }
     }
   ],
   "Important": false,
-  "Language": "provident",
-  "Sentiment": 381,
-  "SentimentConfidence": 678,
+  "Language": "hic",
+  "Sentiment": 845,
+  "SentimentConfidence": 1000,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 221,
-      "Name": "Howe, Sawayn and Bosco",
-      "ContentType": "sint",
-      "AttSize": 428,
+      "AttachmentId": 872,
+      "Name": "Lind LLC",
+      "ContentType": "minima",
+      "AttSize": 555,
       "InlineImage": false,
-      "ContentId": "nobis",
-      "AuthKey": "numquam",
+      "ContentId": "soluta",
+      "AuthKey": "et",
       "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 334
+          "FieldType": "System.String",
+          "FieldLength": 353
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "ipsa"
+    "ExtraFields1": "doloribus",
+    "ExtraFields2": "quibusdam"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "architecto"
+    "CustomFields1": "consequuntur",
+    "CustomFields2": "at"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 306
+      "FieldType": "System.Int32",
+      "FieldLength": 714
     }
   }
 }

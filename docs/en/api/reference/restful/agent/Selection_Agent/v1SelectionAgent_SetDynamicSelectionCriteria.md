@@ -87,18 +87,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 755,
+  "SelectionId": 144,
   "Criteria": [
     {
-      "Name": "Sporer Inc and Sons",
-      "Operator": "numquam",
+      "Name": "Konopelski-Dicki",
+      "Operator": "dolor",
       "Values": [
-        "placeat",
-        "soluta"
+        "a",
+        "quod"
       ],
       "DisplayValues": [
-        "odit",
-        "corrupti"
+        "eos",
+        "quae"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 272,
+      "InterParenthesis": 44,
       "InterOperator": "And",
-      "UniqueHash": 320
+      "UniqueHash": 270
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dibbert-Hackett",
-    "Operator": "commodi",
+    "Name": "Sporer, Ratke and Rempel",
+    "Operator": "nobis",
     "Values": [
-      "id",
-      "quo"
+      "recusandae",
+      "quidem"
     ],
     "DisplayValues": [
-      "sunt",
-      "omnis"
+      "consequatur",
+      "vitae"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schaefer, Reichel and Ledner",
-        "Operator": "architecto",
+        "Name": "Lockman LLC",
+        "Operator": "voluptatem",
         "Values": [
-          "at",
-          "quos"
+          "dolorem",
+          "dolorem"
         ],
         "DisplayValues": [
-          "sit",
-          "voluptas"
+          "reprehenderit",
+          "rerum"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 322,
+        "InterParenthesis": 822,
         "InterOperator": "And",
-        "UniqueHash": 302
+        "UniqueHash": 453
       }
     ],
-    "InterParenthesis": 447,
+    "InterParenthesis": 414,
     "InterOperator": "And",
-    "UniqueHash": 139
+    "UniqueHash": 463
   }
 ]
 ```

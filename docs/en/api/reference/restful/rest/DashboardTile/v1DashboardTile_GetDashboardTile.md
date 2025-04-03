@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 411,
-  "Caption": "enim",
-  "Description": "Phased multimedia moratorium",
-  "ChartName": "Treutel Inc and Sons",
-  "ChartId": "quis",
+  "DashboardTileId": 207,
+  "Caption": "tenetur",
+  "Description": "Total hybrid monitoring",
+  "ChartName": "Kub-Hayes",
+  "ChartId": "ut",
   "IsDefault": true,
-  "AssociateId": 425,
-  "GroupId": 963,
-  "SelectionId": 541,
-  "Config": "cupiditate",
+  "AssociateId": 49,
+  "GroupId": 967,
+  "SelectionId": 817,
+  "Config": "non",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Stanton-Ortiz",
-      "Description": "Inverse optimizing service-desk",
+      "Name": "Larson Inc and Sons",
+      "Description": "Assimilated 24 hour access",
       "Type": "Boolean",
-      "ListName": "Lindgren, Dach and Bogisich",
+      "ListName": "Cremin, Funk and Mueller",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "placeat",
-      "DefaultDataOption": true,
+      "Value": "totam",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 704
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 413,
+      "VisibleId": 835,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldLength": 385
         }
       }
     },
     {
-      "VisibleId": 413,
+      "VisibleId": 835,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 618
+          "FieldLength": 385
         }
       }
     }
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 347
+      "FieldLength": 468
     }
   },
   "_Links": {

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 261,
-    "Name": "Towne-Predovic",
-    "ToolTip": "Ullam hic fugit minima reprehenderit.",
-    "Deleted": false,
-    "Rank": 113,
-    "Type": "veritatis",
-    "ColorBlock": 45,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2019-07-12T02:38:26.7142749+02:00",
+    "Id": 408,
+    "Name": "Legros, Hegmann and Nikolaus",
+    "ToolTip": "Hic accusamus ipsam.",
+    "Deleted": true,
+    "Rank": 979,
+    "Type": "iste",
+    "ColorBlock": 906,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "2022-07-14T14:28:27.5239205+02:00",
     "ChildItems": [
       {
-        "Id": 241,
-        "Name": "Jacobi Inc and Sons",
-        "ToolTip": "Sed sunt dolorum qui dolor optio ullam eos.",
+        "Id": 903,
+        "Name": "Brown-Volkman",
+        "ToolTip": "Id omnis placeat.",
         "Deleted": true,
-        "Rank": 585,
-        "Type": "ut",
-        "ColorBlock": 992,
-        "IconHint": "consectetur",
+        "Rank": 480,
+        "Type": "eligendi",
+        "ColorBlock": 721,
+        "IconHint": "quae",
         "Selected": true,
-        "LastChanged": "2006-10-06T02:38:26.7142749+02:00",
+        "LastChanged": "2015-06-04T14:28:27.5239205+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "dolor",
+        "ExtraInfo": "non",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Jazlyn Ebert MD",
+        "FullName": "Karina Kessler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 647
+            "FieldLength": 41
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "minus",
-    "Hidden": true,
-    "FullName": "Cesar Runolfsson",
+    "ExtraInfo": "magnam",
+    "StyleHint": "ullam",
+    "Hidden": false,
+    "FullName": "Kennith Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 702
+        "FieldLength": 206
       }
     }
   }

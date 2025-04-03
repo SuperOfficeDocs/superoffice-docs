@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Targets/ExportTargetGroupToExcel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 483
+  "TargetGroupId": 474
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 982,
-  "FileName": "Wyman-Kreiger",
-  "Message": "cupiditate",
+  "BatchTaskId": 767,
+  "FileName": "Sauer Inc and Sons",
+  "Message": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 358
+      "FieldLength": 368
     }
   }
 }

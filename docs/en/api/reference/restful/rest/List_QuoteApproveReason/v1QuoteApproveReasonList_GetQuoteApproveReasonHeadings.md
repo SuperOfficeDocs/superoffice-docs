@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 580,
-    "Name": "Bergstrom-Rempel",
-    "Tooltip": "voluptas",
-    "Deleted": false,
-    "Rank": 578,
-    "UdListDefinitionId": 218,
+    "HeadingId": 72,
+    "Name": "Welch, Kub and Hegmann",
+    "Tooltip": "quasi",
+    "Deleted": true,
+    "Rank": 76,
+    "UdListDefinitionId": 290,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 464
+        "FieldLength": 357
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 656,
-  "Name": "Jaskolski Group",
-  "Tooltip": "ea",
+  "HeadingId": 422,
+  "Name": "Murray LLC",
+  "Tooltip": "distinctio",
   "Deleted": true,
-  "Rank": 638,
-  "UdListDefinitionId": 121
+  "Rank": 55,
+  "UdListDefinitionId": 111
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 458,
-  "Name": "Carroll, Lowe and Eichmann",
-  "Tooltip": "provident",
+  "HeadingId": 282,
+  "Name": "Aufderhar, Erdman and Kertzmann",
+  "Tooltip": "et",
   "Deleted": true,
-  "Rank": 855,
-  "UdListDefinitionId": 605,
+  "Rank": 823,
+  "UdListDefinitionId": 176,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldType": "System.String",
+      "FieldLength": 890
     }
   }
 }

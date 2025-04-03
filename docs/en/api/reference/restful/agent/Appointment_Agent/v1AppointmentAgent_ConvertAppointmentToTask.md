@@ -112,6 +112,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -131,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/ConvertAppointmentToTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 427
+  "AppointmentId": 39
 }
 ```
 
@@ -150,120 +151,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2016-06-12T02:38:20.8389734+02:00",
-  "AppointmentId": 902,
-  "Description": "Team-oriented directional moderator",
-  "Title": "exercitationem",
-  "Agenda": "et",
-  "InternalNotes": "dolores",
-  "StartDate": "2010-08-19T02:38:20.8389734+02:00",
-  "EndDate": "1998-06-07T02:38:20.8389734+02:00",
+  "CreatedDate": "2015-08-27T14:28:21.4460417+02:00",
+  "AppointmentId": 86,
+  "Description": "Optional scalable capacity",
+  "Title": "harum",
+  "Agenda": "esse",
+  "InternalNotes": "velit",
+  "StartDate": "2011-07-28T14:28:21.4460417+02:00",
+  "EndDate": "2020-11-24T14:28:21.4460417+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 286,
+  "MotherId": 375,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2011-01-24T02:38:20.8389734+01:00",
+  "UpdatedDate": "2015-05-19T14:28:21.4460417+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 835,
+  "ActiveLinks": 391,
   "Links": [
     {
-      "EntityName": "Frami, Cartwright and Green",
-      "Id": 897,
-      "Description": "Realigned leading edge conglomeration",
-      "ExtraInfo": "sit",
-      "LinkId": 954,
+      "EntityName": "Yost LLC",
+      "Id": 782,
+      "Description": "Managed foreground conglomeration",
+      "ExtraInfo": "dolorum",
+      "LinkId": 936,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 571
+          "FieldType": "System.String",
+          "FieldLength": 34
         }
       }
     }
   ],
-  "AlarmLeadTime": "laborum",
-  "HasAlarm": true,
-  "ColorIndex": 479,
-  "IsFree": false,
-  "IsAlldayEvent": false,
-  "LagTime": "totam",
-  "LeadTime": "dolores",
-  "Location": "ratione",
-  "RejectCounter": 240,
+  "AlarmLeadTime": "cupiditate",
+  "HasAlarm": false,
+  "ColorIndex": 336,
+  "IsFree": true,
+  "IsAlldayEvent": true,
+  "LagTime": "dolor",
+  "LeadTime": "repudiandae",
+  "Location": "atque",
+  "RejectCounter": 662,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 217,
-      "PersonId": 247,
-      "ContactId": 874,
-      "EmailId": 155,
+      "AssociateId": 991,
+      "PersonId": 48,
+      "ContactId": 939,
+      "EmailId": 95,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "cicero@kunzekulas.name",
-      "Description": "Open-source multimedia alliance"
+      "EmailAddress": "orpha_klocko@larsonlakin.biz",
+      "Description": "Programmable global matrix"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2016-03-07T02:38:20.8389734+01:00",
+  "ActiveDate": "2022-12-07T14:28:21.4460417+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 966,
+  "PreferredTZLocation": 662,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 731,
+  "SuggestedAppointmentId": 698,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sed",
+  "CentralserviceVideomeetId": "voluptate",
   "UserDefinedFields": {
-    "SuperOffice:1": "555117714",
-    "SuperOffice:2": "Mrs. Anita Koss"
+    "SuperOffice:1": "Rosalind Moore",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "reprehenderit"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "nam"
   },
   "CustomFields": {
-    "CustomFields1": "deleniti",
-    "CustomFields2": "dolores"
+    "CustomFields1": "perferendis",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "1998-01-10T02:38:20.8389734+01:00",
-  "PublishTo": "2015-03-22T02:38:20.8389734+01:00",
-  "PublishFrom": "1999-03-16T02:38:20.8389734+01:00",
+  "PublishEventDate": "2012-02-11T14:28:21.4460417+01:00",
+  "PublishTo": "2017-11-22T14:28:21.4460417+01:00",
+  "PublishFrom": "2023-10-30T14:28:21.4460417+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 707,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "dignissimos",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 714
+          "FieldType": "System.String",
+          "FieldLength": 971
         }
       }
     },
     {
-      "VisibleId": 707,
+      "VisibleId": 866,
       "Visibility": "All",
-      "DisplayValue": "dignissimos",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 714
+          "FieldType": "System.String",
+          "FieldLength": 971
         }
       }
     }
@@ -273,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldLength": 248
     }
   }
 }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 938,
-  "Currency": "occaecati"
+  "QuoteConnectionId": 891,
+  "Currency": "cumque"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 639,
-    "ERPPriceListKey": "modi",
-    "QuoteConnectionId": 694,
-    "Name": "Corkery, Marquardt and Murray",
-    "Description": "Persistent attitude-oriented migration",
-    "Currency": "esse",
-    "CurrencyName": "Wisozk, Beahan and Gottlieb",
-    "ValidFrom": "2020-12-09T02:38:21.7763357+01:00",
-    "ValidTo": "2023-09-08T02:38:21.7763357+02:00",
+    "PriceListId": 359,
+    "ERPPriceListKey": "voluptatibus",
+    "QuoteConnectionId": 241,
+    "Name": "Becker Group",
+    "Description": "Automated foreground website",
+    "Currency": "provident",
+    "CurrencyName": "Brakus, Weber and Ankunding",
+    "ValidFrom": "2002-12-31T14:28:22.3053817+01:00",
+    "ValidTo": "2018-02-04T14:28:22.3053817+01:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 276
+        "FieldType": "System.Int32",
+        "FieldLength": 423
       }
     }
   }

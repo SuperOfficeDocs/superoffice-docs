@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 828,
-  "Name": "Gutmann-Mohr",
+  "WebhookId": 701,
+  "Name": "Emmerich Group",
   "Events": [
-    "unde",
-    "vero"
+    "esse",
+    "non"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptatum",
+  "Secret": "sunt",
   "State": "Active",
-  "Type": "aut",
+  "Type": "ex",
   "Headers": {
-    "Headers1": "veniam",
-    "Headers2": "quas"
+    "Headers1": "quaerat",
+    "Headers2": "mollitia"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-06-06T02:38:26.6517427+02:00",
+  "Registered": "2020-05-28T14:28:27.4614236+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2023-12-20T02:38:26.6517427+01:00",
+  "Updated": "2000-05-31T14:28:27.4614236+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "thad@schmeler.us"
+  "ErrorsEmail": "hillard@sporer.com"
 }
 ```
 
@@ -141,28 +141,28 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 823,
-  "Name": "Heathcote Group",
+  "WebhookId": 262,
+  "Name": "Sawayn, Hamill and Tremblay",
   "Events": [
-    "et",
-    "saepe"
+    "consectetur",
+    "ratione"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "unde",
+  "Secret": "illum",
   "State": "Active",
-  "Type": "a",
+  "Type": "et",
   "Headers": {
-    "Headers1": "aliquid",
-    "Headers2": "rerum"
+    "Headers1": "sit",
+    "Headers2": "nesciunt"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2006-11-20T02:38:26.6517427+01:00",
+  "Registered": "2020-12-31T14:28:27.4614236+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2019-12-27T02:38:26.6517427+01:00",
+  "Updated": "2016-02-23T14:28:27.4614236+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "gaston_blick@roberts.name",
+  "ErrorsEmail": "andrew_murazik@shields.com",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

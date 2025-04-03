@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/License/ChangeSerialNumber
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Mayer-Purdy",
-  "NewSerialNumber": "720349"
+  "NewCompanyName": "Price-Oberbrunner",
+  "NewSerialNumber": "796190"
 }
 ```
 
@@ -93,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": false,
-  "Reason": "reintermediate global technologies",
+  "Succeeded": true,
+  "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 386
+      "FieldLength": 839
     }
   }
 }

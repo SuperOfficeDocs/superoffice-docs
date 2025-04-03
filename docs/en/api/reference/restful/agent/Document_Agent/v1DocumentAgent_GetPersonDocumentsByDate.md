@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 51,
-  "IncludeProjectDocuments": false,
-  "StartTime": "2008-11-04T02:38:21.2295568+01:00",
-  "EndTime": "2020-06-07T02:38:21.2295568+02:00",
-  "Count": 113
+  "PersonId": 839,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2020-07-01T14:28:21.8210267+02:00",
+  "EndTime": "2002-07-06T14:28:21.8210267+02:00",
+  "Count": 628
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 535,
-    "Attention": "exercitationem",
-    "Header": "quia",
-    "Name": "Jerde LLC",
-    "OurRef": "omnis",
-    "YourRef": "maxime",
-    "Description": "Exclusive scalable open architecture",
-    "DocumentTemplate": "ad",
+    "DocumentId": 814,
+    "Attention": "laborum",
+    "Header": "aut",
+    "Name": "Windler-Ondricka",
+    "OurRef": "vel",
+    "YourRef": "quo",
+    "Description": "Total hybrid interface",
+    "DocumentTemplate": "eum",
     "IsPublished": false,
-    "PersonId": 907,
-    "PersonFullName": "Leslie Koss",
-    "AssociateFullName": "Nelda Kris",
-    "ContactId": 797,
-    "ContactName": "Predovic Inc and Sons",
-    "ProjectId": 844,
-    "ProjectName": "Nader, Reynolds and Watsica",
-    "AssociateId": 12,
-    "Snum": 471,
-    "SaleId": 671,
-    "SaleName": "Borer-Sauer",
+    "PersonId": 200,
+    "PersonFullName": "Jalyn Rosenbaum",
+    "AssociateFullName": "Anissa Howell",
+    "ContactId": 914,
+    "ContactName": "Jerde-West",
+    "ProjectId": 581,
+    "ProjectName": "Wilkinson LLC",
+    "AssociateId": 516,
+    "Snum": 961,
+    "SaleId": 70,
+    "SaleName": "O'Keefe-Rohan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldType": "System.String",
+        "FieldLength": 864
       }
     }
   }

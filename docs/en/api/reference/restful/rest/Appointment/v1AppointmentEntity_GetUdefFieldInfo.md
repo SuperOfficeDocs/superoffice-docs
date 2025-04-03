@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 646,
-  "ColumnId": 402,
-  "FieldDefault": "velit",
-  "FieldHeight": 509,
-  "FieldLabel": "quos",
-  "FieldLeft": 762,
-  "FieldTop": 88,
+  "UDefFieldId": 648,
+  "ColumnId": 442,
+  "FieldDefault": "voluptatem",
+  "FieldHeight": 44,
+  "FieldLabel": "repudiandae",
+  "FieldLeft": 713,
+  "FieldTop": 71,
   "FieldType": "Checkbox",
-  "FieldWidth": 404,
-  "FormatMask": "rem",
+  "FieldWidth": 868,
+  "FormatMask": "ad",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 965,
-  "LabelLeft": 117,
-  "LabelTop": 588,
-  "LabelWidth": 561,
-  "LastVersionId": 178,
-  "ListTableId": 505,
-  "IsMandatory": true,
+  "IsIndexed": true,
+  "LabelHeight": 274,
+  "LabelLeft": 954,
+  "LabelTop": 830,
+  "LabelWidth": 158,
+  "LastVersionId": 581,
+  "ListTableId": 784,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 765,
-  "ProgId": "tenetur",
-  "IsReadOnly": false,
-  "ShortLabel": "possimus",
-  "TabOrder": 418,
-  "TextLength": 475,
-  "Tooltip": "est",
-  "UdefIdentity": 367,
-  "UDListDefinitionId": 682,
+  "Page1LineNo": 414,
+  "ProgId": "corrupti",
+  "IsReadOnly": true,
+  "ShortLabel": "tempore",
+  "TabOrder": 108,
+  "TextLength": 787,
+  "Tooltip": "provident",
+  "UdefIdentity": 257,
+  "UDListDefinitionId": 996,
   "Justification": "Center",
-  "Version": 611,
-  "TemplateVariableName": "Veum Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Farrell-Davis",
+  "Version": 916,
+  "TemplateVariableName": "Larkin-Rau",
+  "HasBeenPublished": false,
+  "MdoListName": "Aufderhar, Herman and Lemke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldType": "System.String",
+      "FieldLength": 810
     }
   }
 }

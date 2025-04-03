@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 961,
-  "Name": "Mertz-Cole",
-  "Tooltip": "voluptatem",
+  "Id": 345,
+  "Name": "Romaguera LLC",
+  "Tooltip": "laudantium",
   "Deleted": false,
-  "Rank": 377,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 237,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true,
+  "ListType": "sunt",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 8
+      "FieldLength": 716
     }
   },
   "_Links": {

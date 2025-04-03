@@ -68,7 +68,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Leannon-Auer",
-    "DisplayName": "Kilback Group",
-    "Description": "Self-enabling impactful info-mediaries",
-    "ShortLabel": "tenetur",
+    "FieldName": "Pollich, Leuschke and Gulgowski",
+    "DisplayName": "DuBuque, Bahringer and Beahan",
+    "Description": "Optimized mobile local area network",
+    "ShortLabel": "amet",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": false,
-    "IsExternal": false,
+    "IsIndexed": true,
+    "IsMandatory": false,
+    "IsReadOnly": true,
+    "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 635,
-    "TemplateVariableName": "Monahan, Glover and Kihn"
+    "Rank": 490,
+    "TemplateVariableName": "Stamm Inc and Sons"
   }
 ]
 ```

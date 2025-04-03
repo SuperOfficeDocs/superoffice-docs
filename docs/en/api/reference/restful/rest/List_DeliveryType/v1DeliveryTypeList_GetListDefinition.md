@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 259,
-  "Name": "Runolfsdottir LLC",
-  "Tooltip": "voluptates",
+  "Id": 843,
+  "Name": "Schulist, Batz and Wuckert",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 454,
-  "IsCustomList": true,
+  "Rank": 882,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "dolor",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "iste",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldType": "System.String",
+      "FieldLength": 553
     }
   },
   "_Links": {

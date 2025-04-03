@@ -114,24 +114,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 670,
-  "Section": "quia",
-  "Key": "veritatis",
-  "Name": "Runolfsson-Miller",
+  "PrefDescId": 329,
+  "Section": "est",
+  "Key": "ipsa",
+  "Name": "Herman Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Operative dedicated knowledge base",
-  "IsBuiltin": true,
-  "TableName": "Rempel-Ondricka",
-  "UserDefinedListId": 295,
-  "Rank": 930,
-  "SubGroup": "sed",
-  "MinLevel": 360,
-  "MaxValue": 107,
-  "MinValue": 529,
-  "RequiredLicense": "reprehenderit"
+  "Description": "Stand-alone composite artificial intelligence",
+  "IsBuiltin": false,
+  "TableName": "Lueilwitz-Donnelly",
+  "UserDefinedListId": 347,
+  "Rank": 110,
+  "SubGroup": "ut",
+  "MinLevel": 259,
+  "MaxValue": 946,
+  "MinValue": 105,
+  "RequiredLicense": "alias"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 64,
-  "Section": "ea",
-  "Key": "expedita",
-  "Name": "Runolfsdottir, Steuber and Emard",
+  "PrefDescId": 351,
+  "Section": "aut",
+  "Key": "repellat",
+  "Name": "Kuhn, Brekke and Hoppe",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Multi-layered homogeneous extranet",
-  "IsBuiltin": false,
-  "TableName": "Altenwerth, Johnston and Schmidt",
-  "UserDefinedListId": 477,
-  "Rank": 223,
-  "SubGroup": "quo",
-  "MinLevel": 494,
-  "MaxValue": 967,
-  "MinValue": 979,
-  "RequiredLicense": "numquam",
+  "Description": "Versatile multimedia approach",
+  "IsBuiltin": true,
+  "TableName": "O'Conner Group",
+  "UserDefinedListId": 101,
+  "Rank": 227,
+  "SubGroup": "recusandae",
+  "MinLevel": 855,
+  "MaxValue": 88,
+  "MinValue": 923,
+  "RequiredLicense": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 132
+      "FieldType": "System.Int32",
+      "FieldLength": 492
     }
   },
   "_Links": {

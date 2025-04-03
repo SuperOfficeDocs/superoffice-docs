@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 172,
-  "Type": 7
+  "GroupId": 987,
+  "Type": 716
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 364,
-    "Name": "Wilkinson LLC",
-    "PersonId": 467,
-    "Rank": 111,
-    "Tooltip": "nihil",
+    "AssociateId": 566,
+    "Name": "Kemmer Group",
+    "PersonId": 260,
+    "Rank": 78,
+    "Tooltip": "aut",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 487,
-    "FullName": "Monty Conroy",
-    "FormalName": "Hodkiewicz, Welch and Miller",
+    "GroupIdx": 529,
+    "FullName": "Ms. Rachael Zion Renner MD",
+    "FormalName": "Gutmann-Walter",
     "Deleted": false,
-    "EjUserId": 546,
-    "UserName": "Cassin, Price and Fisher",
+    "EjUserId": 308,
+    "UserName": "Larson-Herman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 89
+        "FieldType": "System.Int32",
+        "FieldLength": 167
       }
     }
   }

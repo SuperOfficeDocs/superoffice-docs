@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 762
+  "ChatSessionId": 831
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 436,
-  "TopicId": 445,
+  "ChatSessionId": 439,
+  "TopicId": 843,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "ut",
-  "CustomerName": "Senger-Fritsch",
-  "CustomerEmail": "abe@ziemann.com",
-  "CustomerPhone": "386.904.4184 x4173",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Orn-Nolan",
+  "CustomerAlias": "rerum",
+  "CustomerHost": "explicabo",
+  "CustomerName": "D'Amore Group",
+  "CustomerEmail": "hallie.cremin@white.co.uk",
+  "CustomerPhone": "(004)679-3154 x50526",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Daugherty, Graham and Effertz",
   "Status": "Closed",
-  "FirstMessage": "tempora",
-  "LastMessage": "quaerat",
-  "WhenRequested": "2007-06-22T02:38:20.9795792+02:00",
-  "WhenStarted": "2003-12-18T02:38:20.9795792+01:00",
-  "WhenEnded": "2015-08-05T02:38:20.9795792+02:00",
-  "WhenIdle": "2016-05-18T02:38:20.9795792+02:00",
-  "WhenFetched": "2012-02-07T02:38:20.9795792+01:00",
-  "SessionKey": "velit",
-  "InitialQueuePos": 71,
-  "AlertLevel": 154,
-  "Rank": 987,
+  "FirstMessage": "alias",
+  "LastMessage": "est",
+  "WhenRequested": "2000-09-15T14:28:21.555412+02:00",
+  "WhenStarted": "2020-12-27T14:28:21.555412+01:00",
+  "WhenEnded": "2015-02-18T14:28:21.555412+01:00",
+  "WhenIdle": "2014-07-24T14:28:21.555412+02:00",
+  "WhenFetched": "2012-11-22T14:28:21.555412+01:00",
+  "SessionKey": "iste",
+  "InitialQueuePos": 283,
+  "AlertLevel": 28,
+  "Rank": 197,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 645,
+  "Rating": 11,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 67
+      "FieldLength": 711
     }
   }
 }

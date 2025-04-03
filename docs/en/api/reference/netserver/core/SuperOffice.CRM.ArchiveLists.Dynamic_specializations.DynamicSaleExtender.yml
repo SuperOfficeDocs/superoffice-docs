@@ -6,6 +6,9 @@ items:
   parent: SuperOffice.CRM.ArchiveLists.Dynamic_specializations
   children:
   - SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.#ctor
+  - SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerModifyQuery
+  - SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  - SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.SetDesiredColumns(System.String[])
   - SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.TableName
   langs:
   - csharp
@@ -50,8 +53,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.ToString
   - SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.SetJoin
   - SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.SetDynamicJoin(System.String,System.String,SuperOffice.Data.ArchiveJoinType)
-  - SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
-  - SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
   - SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.JoinTableName
   - SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.JoinFieldName
   - SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.JoinType
@@ -72,7 +73,6 @@ items:
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetParent(SuperOffice.CRM.ArchiveLists.IArchiveProviderExtensible)
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.AddAvailableColumn(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.GetAvailableColumns
-  - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetOrderByMapping(System.String,System.String[])
   - SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetOrderByMapping(SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo,SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo[])
@@ -243,6 +243,101 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerModifyQuery
+  commentId: M:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerModifyQuery
+  id: InnerModifyQuery
+  parent: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender
+  langs:
+  - csharp
+  - vb
+  name: InnerModifyQuery()
+  nameWithType: DynamicSaleExtender.InnerModifyQuery()
+  fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerModifyQuery()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Dynamic_specializations
+  syntax:
+    content: protected override void InnerModifyQuery()
+    content.vb: Protected Overrides Sub InnerModifyQuery
+  overridden: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
+  overload: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerModifyQuery*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.SetDesiredColumns(System.String[])
+  id: SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender
+  langs:
+  - csharp
+  - vb
+  name: SetDesiredColumns(String[])
+  nameWithType: DynamicSaleExtender.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.SetDesiredColumns(System.String[])
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Dynamic_specializations
+  syntax:
+    content: public override void SetDesiredColumns(params string[] columnIds)
+    parameters:
+    - id: columnIds
+      type: System.String[]
+    content.vb: Public Overrides Sub SetDesiredColumns(ParamArray columnIds As String())
+  overridden: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
+  overload: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.SetDesiredColumns*
+  nameWithType.vb: DynamicSaleExtender.SetDesiredColumns(String())
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+- uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  id: InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender
+  langs:
+  - csharp
+  - vb
+  name: InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  nameWithType: DynamicSaleExtender.InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists.Dynamic_specializations
+  syntax:
+    content: protected override void InnerPopulateRowFromReader(SoDataReader reader, ArchiveRow row)
+    parameters:
+    - id: reader
+      type: SuperOffice.Data.SoDataReader
+    - id: row
+      type: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    content.vb: Protected Overrides Sub InnerPopulateRowFromReader(reader As SoDataReader, row As ArchiveRow)
+  overridden: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  overload: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerPopulateRowFromReader*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
 references:
 - uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations
   commentId: N:SuperOffice.CRM.ArchiveLists.Dynamic_specializations
@@ -546,94 +641,6 @@ references:
     name: ArchiveJoinType
     nameWithType: ArchiveJoinType
     fullName: SuperOffice.Data.ArchiveJoinType
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
-  commentId: M:SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
-  parent: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase
-  isExternal: true
-  name: InnerModifyQuery()
-  nameWithType: DynamicExtenderBase.InnerModifyQuery()
-  fullName: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery()
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
-    name: InnerModifyQuery
-    nameWithType: DynamicExtenderBase.InnerModifyQuery
-    fullName: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
-    name: InnerModifyQuery
-    nameWithType: DynamicExtenderBase.InnerModifyQuery
-    fullName: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  commentId: M:SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  parent: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase
-  isExternal: true
-  name: InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
-  nameWithType: DynamicExtenderBase.InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
-  fullName: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-    name: InnerPopulateRowFromReader
-    nameWithType: DynamicExtenderBase.InnerPopulateRowFromReader
-    fullName: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SoDataReader
-    name: SoDataReader
-    nameWithType: SoDataReader
-    fullName: SuperOffice.Data.SoDataReader
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
-    name: InnerPopulateRowFromReader
-    nameWithType: DynamicExtenderBase.InnerPopulateRowFromReader
-    fullName: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.Data.SoDataReader
-    name: SoDataReader
-    nameWithType: SoDataReader
-    fullName: SuperOffice.Data.SoDataReader
-    isExternal: true
-  - name: ', '
-    nameWithType: ', '
-    fullName: ', '
-  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
-    name: ArchiveRow
-    nameWithType: ArchiveRow
-    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
     isExternal: true
   - name: )
     nameWithType: )
@@ -976,56 +983,6 @@ references:
   - name: (
     nameWithType: (
     fullName: (
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
-  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
-  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
-  isExternal: true
-  name: SetDesiredColumns(String[])
-  nameWithType: ExtensibleColumnsBase.SetDesiredColumns(String[])
-  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
-  nameWithType.vb: ExtensibleColumnsBase.SetDesiredColumns(String())
-  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String())
-  name.vb: SetDesiredColumns(String())
-  spec.csharp:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
-    name: SetDesiredColumns
-    nameWithType: ExtensibleColumnsBase.SetDesiredColumns
-    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: '[]'
-    nameWithType: '[]'
-    fullName: '[]'
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
-    name: SetDesiredColumns
-    nameWithType: ExtensibleColumnsBase.SetDesiredColumns
-    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: System.String
-    name: String
-    nameWithType: String
-    fullName: System.String
-    isExternal: true
-  - name: ()
-    nameWithType: ()
-    fullName: ()
   - name: )
     nameWithType: )
     fullName: )
@@ -6170,3 +6127,205 @@ references:
   name: DynamicSaleExtender
   nameWithType: DynamicSaleExtender.DynamicSaleExtender
   fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.DynamicSaleExtender
+- uid: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
+  commentId: M:SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
+  parent: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase
+  isExternal: true
+  name: InnerModifyQuery()
+  nameWithType: DynamicExtenderBase.InnerModifyQuery()
+  fullName: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery()
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
+    name: InnerModifyQuery
+    nameWithType: DynamicExtenderBase.InnerModifyQuery
+    fullName: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
+    name: InnerModifyQuery
+    nameWithType: DynamicExtenderBase.InnerModifyQuery
+    fullName: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerModifyQuery
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerModifyQuery*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerModifyQuery
+  isExternal: true
+  name: InnerModifyQuery
+  nameWithType: DynamicSaleExtender.InnerModifyQuery
+  fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerModifyQuery
+- uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
+  commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
+  parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
+  isExternal: true
+  name: SetDesiredColumns(String[])
+  nameWithType: ExtensibleColumnsBase.SetDesiredColumns(String[])
+  fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
+  nameWithType.vb: ExtensibleColumnsBase.SetDesiredColumns(String())
+  fullName.vb: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String())
+  name.vb: SetDesiredColumns(String())
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: ExtensibleColumnsBase.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns(System.String[])
+    name: SetDesiredColumns
+    nameWithType: ExtensibleColumnsBase.SetDesiredColumns
+    fullName: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetDesiredColumns
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.SetDesiredColumns*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.SetDesiredColumns
+  isExternal: true
+  name: SetDesiredColumns
+  nameWithType: DynamicSaleExtender.SetDesiredColumns
+  fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.SetDesiredColumns
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  commentId: M:SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  parent: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase
+  isExternal: true
+  name: InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  nameWithType: DynamicExtenderBase.InnerPopulateRowFromReader(SoDataReader, ArchiveRow)
+  fullName: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader, SuperOffice.CRM.ArchiveLists.ArchiveRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: InnerPopulateRowFromReader
+    nameWithType: DynamicExtenderBase.InnerPopulateRowFromReader
+    fullName: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
+    name: InnerPopulateRowFromReader
+    nameWithType: DynamicExtenderBase.InnerPopulateRowFromReader
+    fullName: SuperOffice.CRM.ArchiveLists.DynamicExtenderBase.InnerPopulateRowFromReader
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SoDataReader
+    name: SoDataReader
+    nameWithType: SoDataReader
+    fullName: SuperOffice.Data.SoDataReader
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    name: ArchiveRow
+    nameWithType: ArchiveRow
+    fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerPopulateRowFromReader*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerPopulateRowFromReader
+  isExternal: true
+  name: InnerPopulateRowFromReader
+  nameWithType: DynamicSaleExtender.InnerPopulateRowFromReader
+  fullName: SuperOffice.CRM.ArchiveLists.Dynamic_specializations.DynamicSaleExtender.InnerPopulateRowFromReader
+- uid: SuperOffice.Data.SoDataReader
+  commentId: T:SuperOffice.Data.SoDataReader
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SoDataReader
+  nameWithType: SoDataReader
+  fullName: SuperOffice.Data.SoDataReader
+- uid: SuperOffice.CRM.ArchiveLists.ArchiveRow
+  commentId: T:SuperOffice.CRM.ArchiveLists.ArchiveRow
+  parent: SuperOffice.CRM.ArchiveLists
+  isExternal: true
+  name: ArchiveRow
+  nameWithType: ArchiveRow
+  fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data

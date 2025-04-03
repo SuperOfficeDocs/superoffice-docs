@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 162,
-    "Name": "Hoppe-Carroll",
-    "Tooltip": "temporibus",
+    "WebPanelId": 801,
+    "Name": "Lind, Becker and Berge",
+    "Tooltip": "illo",
     "Deleted": false,
-    "Rank": 206,
+    "Rank": 188,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
     "OnSatellite": false,
-    "OnTravel": true,
+    "OnTravel": false,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
+    "OnSalesMarketingPocket": false,
     "ShowInMenuBar": true,
     "ShowInToolBar": false,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": false,
-    "WindowName": "Leuschke-Marquardt",
+    "ShowInAddressBar": false,
+    "ShowInStatusBar": true,
+    "WindowName": "Stoltenberg LLC",
     "Url": "http://www.example.com/",
-    "ProgId": "culpa",
-    "Icon": 287,
+    "ProgId": "consequatur",
+    "Icon": 698,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 458
+        "FieldLength": 970
       }
     }
   }

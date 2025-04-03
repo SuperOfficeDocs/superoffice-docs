@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    368,
-    283
+    353,
+    789
   ],
-  "StartTime": "2024-11-09T02:38:20.6514919+01:00",
-  "EndTime": "2015-07-11T02:38:20.6514919+02:00"
+  "StartTime": "2005-05-25T14:28:21.2744024+02:00",
+  "EndTime": "2020-05-11T14:28:21.2744024+02:00"
 }
 ```
 
@@ -120,37 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 477,
-    "AssociateId": 119,
-    "MotherId": 338,
-    "StartDate": "2008-01-16T02:38:20.6514919+01:00",
-    "EndDate": "2021-10-31T02:38:20.6514919+01:00",
+    "AppointmentId": 698,
+    "AssociateId": 690,
+    "MotherId": 299,
+    "StartDate": "2022-06-16T14:28:21.2744024+02:00",
+    "EndDate": "2018-04-25T14:28:21.2744024+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Kertzmann-Jaskolski",
-    "ContactName": "Thompson Group",
-    "ProjectName": "Moore LLC",
-    "Title": "illo",
-    "Agenda": "suscipit",
-    "IsAllDay": false,
+    "TaskName": "Bergstrom, Moore and Jewess",
+    "ContactName": "Hayes-Konopelski",
+    "ProjectName": "Lynch LLC",
+    "Title": "hic",
+    "Agenda": "occaecati",
+    "IsAllDay": true,
     "IsBusy": false,
     "IsRecurring": false,
     "IsVideoMeeting": false,
     "HasAlarm": false,
-    "IsCompleted": true,
+    "IsCompleted": false,
     "IsTentative": false,
-    "IsBookingMain": true,
-    "SendEmail": false,
+    "IsBookingMain": false,
+    "SendEmail": true,
     "AnySendEmail": true,
     "IsPrivate": false,
     "RecurrenceInfo": null,
-    "PersonName": "Johns, Runolfsson and Haag",
+    "PersonName": "Bechtelar-Gleason",
     "IsBooking": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldType": "System.String",
+        "FieldLength": 327
       }
     }
   }

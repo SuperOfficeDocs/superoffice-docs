@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 713,
-  "BlobSize": 861,
-  "Description": "Focused zero tolerance archive",
-  "ExtraInfo": "vero",
-  "IsEncrypted": false,
+  "BlobId": 854,
+  "BlobSize": 692,
+  "Description": "Open-architected bi-directional ability",
+  "ExtraInfo": "blanditiis",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "dignissimos",
-  "OriginalSize": 938,
-  "CreatedDate": "2023-05-06T02:38:26.1985521+02:00",
-  "UpdatedDate": "2003-10-14T02:38:26.1985521+02:00",
+  "MimeType": "qui",
+  "OriginalSize": 877,
+  "CreatedDate": "2011-01-28T14:28:27.0239403+01:00",
+  "UpdatedDate": "2007-06-14T14:28:27.0239403+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "soluta"
+  "ConceptualType": "aut"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 811,
-  "BlobSize": 479,
-  "Description": "Quality-focused background core",
-  "ExtraInfo": "similique",
+  "BlobId": 342,
+  "BlobSize": 43,
+  "Description": "Centralized analyzing matrices",
+  "ExtraInfo": "quam",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "quia",
-  "OriginalSize": 360,
-  "CreatedDate": "2005-10-18T02:38:26.1985521+02:00",
-  "UpdatedDate": "2013-07-11T02:38:26.1985521+02:00",
+  "IsZipped": true,
+  "MimeType": "aut",
+  "OriginalSize": 596,
+  "CreatedDate": "2020-12-21T14:28:27.0239403+01:00",
+  "UpdatedDate": "2024-09-26T14:28:27.0239403+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 465
+      "FieldType": "System.Int32",
+      "FieldLength": 866
     }
   }
 }

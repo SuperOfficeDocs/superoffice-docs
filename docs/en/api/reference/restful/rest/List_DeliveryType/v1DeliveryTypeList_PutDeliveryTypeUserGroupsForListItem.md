@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Harris, Nitzsche and Rogahn",
-    "ToolTip": "Ab accusamus dolor praesentium praesentium.",
+    "Id": 248,
+    "Name": "Beahan-Schamberger",
+    "ToolTip": "Perspiciatis rerum magni illum rerum.",
     "Deleted": false,
-    "Rank": 321,
-    "Type": "mollitia",
-    "ColorBlock": 211,
-    "IconHint": "culpa",
-    "Selected": false,
-    "LastChanged": "2023-03-24T02:38:26.7611442+01:00",
+    "Rank": 116,
+    "Type": "ut",
+    "ColorBlock": 888,
+    "IconHint": "dolor",
+    "Selected": true,
+    "LastChanged": "2003-07-15T14:28:27.5551692+02:00",
     "ChildItems": [
       {
-        "Id": 974,
-        "Name": "Runolfsson LLC",
-        "ToolTip": "Recusandae alias.",
+        "Id": 641,
+        "Name": "Smitham, Conn and Hermann",
+        "ToolTip": "Iste sit quia.",
         "Deleted": false,
-        "Rank": 110,
-        "Type": "sit",
-        "ColorBlock": 908,
-        "IconHint": "eaque",
+        "Rank": 311,
+        "Type": "incidunt",
+        "ColorBlock": 34,
+        "IconHint": "officia",
         "Selected": false,
-        "LastChanged": "2006-09-13T02:38:26.7611442+02:00",
+        "LastChanged": "2023-07-04T14:28:27.5551692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "vitae",
-        "Hidden": false,
-        "FullName": "Dr. Valentina Franz Bauch Jr."
+        "ExtraInfo": "aut",
+        "StyleHint": "eligendi",
+        "Hidden": true,
+        "FullName": "Mrs. Franz Kuphal"
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "saepe",
-    "Hidden": false,
-    "FullName": "Clotilde Wolff"
+    "ExtraInfo": "veniam",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Francis Goodwin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 639,
-    "Name": "Armstrong Group",
-    "ToolTip": "Sunt impedit recusandae nemo et.",
+    "Id": 969,
+    "Name": "Langosh Inc and Sons",
+    "ToolTip": "Similique sed laboriosam nihil voluptas.",
     "Deleted": true,
-    "Rank": 971,
-    "Type": "fugit",
-    "ColorBlock": 777,
-    "IconHint": "eum",
+    "Rank": 575,
+    "Type": "illo",
+    "ColorBlock": 416,
+    "IconHint": "temporibus",
     "Selected": true,
-    "LastChanged": "2001-07-12T02:38:26.7611442+02:00",
+    "LastChanged": "2010-03-28T14:28:27.5551692+02:00",
     "ChildItems": [
       {
-        "Id": 859,
-        "Name": "Haag Group",
-        "ToolTip": "Enim qui maxime.",
-        "Deleted": true,
-        "Rank": 510,
-        "Type": "molestiae",
-        "ColorBlock": 930,
-        "IconHint": "dolorum",
+        "Id": 472,
+        "Name": "Adams-Mills",
+        "ToolTip": "At eos molestias ipsam.",
+        "Deleted": false,
+        "Rank": 324,
+        "Type": "quas",
+        "ColorBlock": 226,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2013-11-26T02:38:26.7611442+01:00",
+        "LastChanged": "2001-05-25T14:28:27.5551692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "mollitia",
-        "StyleHint": "voluptatibus",
-        "Hidden": true,
-        "FullName": "Clark Sawayn",
+        "ExtraInfo": "ullam",
+        "StyleHint": "numquam",
+        "Hidden": false,
+        "FullName": "Dr. Taurean Maggie Hoppe MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 74
+            "FieldType": "System.Int32",
+            "FieldLength": 728
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "architecto",
+    "ExtraInfo": "culpa",
+    "StyleHint": "est",
     "Hidden": true,
-    "FullName": "Alden Bartell",
+    "FullName": "Juwan Price",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 382
+        "FieldType": "System.String",
+        "FieldLength": 437
       }
     }
   }

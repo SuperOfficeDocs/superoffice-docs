@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Bauch-Stroman",
-    "AssociateId": 657,
-    "DetailsTable": 690,
-    "DetailsRecord": 61,
-    "IsSystemTask": false,
+    "Id": 571,
+    "Name": "Pfeffer Inc and Sons",
+    "AssociateId": 98,
+    "DetailsTable": 399,
+    "DetailsRecord": 931,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "in",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "illo",
+      "ParameterObject2": "nihil"
     },
-    "LastStarted": "2008-02-10T02:38:20.885843+01:00",
-    "Created": "2006-02-19T02:38:20.885843+01:00",
-    "StartCount": 857,
-    "DatabaseSerialNumber": "607584",
-    "Context": "qui",
-    "Result": "illo",
+    "LastStarted": "2007-01-28T14:28:21.4929147+01:00",
+    "Created": "2010-03-04T14:28:21.4929147+01:00",
+    "StartCount": 746,
+    "DatabaseSerialNumber": "1773009",
+    "Context": "aliquam",
+    "Result": "mollitia",
     "State": "All",
-    "Description": "Monitored asynchronous moratorium",
-    "Response": "non",
-    "Request": "est",
-    "ProgressDescription": "Sharable actuating matrix",
-    "ProgressPercent": 41,
-    "FileName": "Willms LLC",
+    "Description": "Assimilated national knowledge user",
+    "Response": "quis",
+    "Request": "blanditiis",
+    "ProgressDescription": "Multi-lateral multi-tasking infrastructure",
+    "ProgressPercent": 421,
+    "FileName": "Hegmann, McKenzie and Mitchell",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 303
+        "FieldType": "System.String",
+        "FieldLength": 626
       }
     }
   }

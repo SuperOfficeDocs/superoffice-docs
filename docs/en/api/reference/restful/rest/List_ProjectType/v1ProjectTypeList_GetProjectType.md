@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 763,
-  "Name": "Zulauf, Prosacco and Grady",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "UdListDefinitionId": 509,
-  "Rank": 341,
+  "Id": 112,
+  "Name": "Considine-Waters",
+  "Tooltip": "culpa",
+  "Deleted": false,
+  "UdListDefinitionId": 929,
+  "Rank": 792,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 475
+      "FieldType": "System.Int32",
+      "FieldLength": 897
     }
   }
 }

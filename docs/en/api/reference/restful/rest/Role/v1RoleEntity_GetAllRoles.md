@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Osinski Group",
-    "ToolTip": "Et reprehenderit possimus et ut.",
-    "Deleted": true,
-    "Rank": 282,
-    "Type": "ut",
-    "ColorBlock": 575,
-    "IconHint": "in",
-    "Selected": false,
-    "LastChanged": "2008-08-20T02:38:26.3391624+02:00",
+    "Id": 906,
+    "Name": "Mosciski-Russel",
+    "ToolTip": "Cum qui ut esse illo.",
+    "Deleted": false,
+    "Rank": 606,
+    "Type": "perspiciatis",
+    "ColorBlock": 142,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2017-12-10T14:28:27.1804149+01:00",
     "ChildItems": [
       {
-        "Id": 180,
-        "Name": "McKenzie Inc and Sons",
-        "ToolTip": "Itaque et quis et vitae.",
+        "Id": 453,
+        "Name": "Huels Group",
+        "ToolTip": "Eum qui aliquam quia sint saepe.",
         "Deleted": false,
-        "Rank": 970,
-        "Type": "iure",
-        "ColorBlock": 538,
-        "IconHint": "molestiae",
+        "Rank": 790,
+        "Type": "sint",
+        "ColorBlock": 349,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2023-10-21T02:38:26.3391624+02:00",
+        "LastChanged": "2000-04-14T14:28:27.1804149+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "corporis",
-        "Hidden": true,
-        "FullName": "Ms. Dustin Douglas Jr.",
+        "ExtraInfo": "aut",
+        "StyleHint": "vel",
+        "Hidden": false,
+        "FullName": "Madisen Jensen Kautzer PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 654
+            "FieldType": "System.String",
+            "FieldLength": 259
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "eius",
+    "ExtraInfo": "nulla",
+    "StyleHint": "sapiente",
     "Hidden": true,
-    "FullName": "Pascale Schuster DDS",
+    "FullName": "Ms. Kaya Conn III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 285
+        "FieldType": "System.String",
+        "FieldLength": 548
       }
     }
   }

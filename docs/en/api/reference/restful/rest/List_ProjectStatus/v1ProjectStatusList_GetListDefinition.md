@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 93,
-  "Name": "Schultz, Fahey and Frami",
-  "Tooltip": "est",
+  "Id": 598,
+  "Name": "Morissette-Blanda",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 638,
+  "Rank": 141,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "impedit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldLength": 201
     }
   },
   "_Links": {

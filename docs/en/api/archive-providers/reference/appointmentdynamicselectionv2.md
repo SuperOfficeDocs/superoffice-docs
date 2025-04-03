@@ -728,7 +728,7 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelectionV2?$select=contact/restrictionAddress/addressId,contact/contactAssociate/ejStatus,contact/contactExtra/x_contact_datetime,person/personBusiness,person/personPager/description
+GET /api/v1/archive/AppointmentDynamicSelectionV2?$select=getNoRows,contact/contactAssociate/isLocation,contact/NumberOfActivitiesInPeriod,project/text,project/projectEvent/hasSignOff
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

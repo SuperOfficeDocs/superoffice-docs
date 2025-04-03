@@ -94,20 +94,20 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 995,
-  "Name": "Schroeder Inc and Sons",
-  "Tooltip": "eveniet",
-  "Deleted": false,
-  "Rank": 488,
+  "Id": 466,
+  "Name": "Stark LLC",
+  "Tooltip": "repellendus",
+  "Deleted": true,
+  "Rank": 592,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "iste",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "officiis",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 245,
-  "Name": "Cormier Group",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 296,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 175,
+  "Name": "Friesen LLC",
+  "Tooltip": "quia",
+  "Deleted": true,
+  "Rank": 981,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "quibusdam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "minima",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 232
+      "FieldType": "System.Int32",
+      "FieldLength": 198
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

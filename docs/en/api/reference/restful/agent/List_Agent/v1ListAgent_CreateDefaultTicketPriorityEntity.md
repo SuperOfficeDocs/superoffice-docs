@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 176,
-  "Name": "Rosenbaum, Bechtelar and Zieme",
+  "TicketPriorityId": 991,
+  "Name": "Legros LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 202,
+  "SortOrder": 124,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 720,
-  "MonStart": "2005-05-11T02:38:21.5420262+02:00",
-  "MonStop": "2014-09-07T02:38:21.5420262+02:00",
-  "TueStart": "2019-02-14T02:38:21.5420262+01:00",
-  "TueStop": "2004-01-02T02:38:21.5420262+01:00",
-  "WedStart": "2000-01-18T02:38:21.5420262+01:00",
-  "WedStop": "2023-12-21T02:38:21.5420262+01:00",
-  "ThuStart": "2003-06-20T02:38:21.5420262+02:00",
-  "ThuStop": "2005-09-29T02:38:21.5420262+02:00",
-  "FriStart": "2024-07-31T02:38:21.5420262+02:00",
-  "FriStop": "2021-04-08T02:38:21.5420262+02:00",
-  "SatStart": "2006-09-21T02:38:21.5420262+02:00",
-  "SatStop": "2003-12-22T02:38:21.5420262+01:00",
-  "SunStart": "2024-06-23T02:38:21.5420262+02:00",
-  "SunStop": "2000-09-27T02:38:21.5420262+02:00",
+  "Deadline": 178,
+  "MonStart": "1998-02-05T14:28:22.1022648+01:00",
+  "MonStop": "2006-10-25T14:28:22.1022648+02:00",
+  "TueStart": "2001-04-30T14:28:22.1022648+02:00",
+  "TueStop": "2023-07-31T14:28:22.1022648+02:00",
+  "WedStart": "1998-11-28T14:28:22.1022648+01:00",
+  "WedStop": "2008-11-26T14:28:22.1022648+01:00",
+  "ThuStart": "2022-06-02T14:28:22.1022648+02:00",
+  "ThuStop": "2000-11-07T14:28:22.1022648+01:00",
+  "FriStart": "2018-11-02T14:28:22.1022648+01:00",
+  "FriStop": "2002-07-18T14:28:22.1022648+02:00",
+  "SatStart": "2004-11-13T14:28:22.1022648+01:00",
+  "SatStop": "1999-10-31T14:28:22.1022648+01:00",
+  "SunStart": "2007-03-10T14:28:22.1022648+01:00",
+  "SunStop": "2022-07-01T14:28:22.1022648+02:00",
   "NonDates": [
-    "accusantium",
-    "labore"
+    "eveniet",
+    "nostrum"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 702,
-      "AlertLevel": 894,
-      "AlertTimeout": 25,
-      "Action": 905,
-      "DelegateTo": 353,
-      "ScriptId": 434,
-      "EmailTo": "ismael@fritschreilly.name",
-      "SmsTo": "dicta",
-      "ReplyTemplateIdCustomer": 278,
-      "ReplyTemplateIdUser": 363,
-      "ReplyTemplateIdCatmast": 416,
-      "ReplyTemplateIdEmail": 587,
-      "RtiCustomerSms": 631,
-      "ReplyTemplateIdUserSms": 593,
-      "ReplyTemplateIdCatmastSms": 211,
-      "ReplyTemplateIdSms": 186,
+      "TicketAlertId": 668,
+      "AlertLevel": 723,
+      "AlertTimeout": 372,
+      "Action": 750,
+      "DelegateTo": 206,
+      "ScriptId": 345,
+      "EmailTo": "freddy@zemlakritchie.biz",
+      "SmsTo": "provident",
+      "ReplyTemplateIdCustomer": 271,
+      "ReplyTemplateIdUser": 834,
+      "ReplyTemplateIdCatmast": 859,
+      "ReplyTemplateIdEmail": 905,
+      "RtiCustomerSms": 556,
+      "ReplyTemplateIdUserSms": 900,
+      "ReplyTemplateIdCatmastSms": 392,
+      "ReplyTemplateIdSms": 371,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 882
+          "FieldLength": 467
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldType": "System.String",
+      "FieldLength": 366
     }
   }
 }

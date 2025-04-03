@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 244,
-  "UniqueId": "a",
-  "Name": "Emard Inc and Sons",
-  "Description": "Synergized local model",
-  "AssociateId": 952,
-  "Columns": 479,
+  "DashboardId": 676,
+  "UniqueId": "fugiat",
+  "Name": "Bogisich, West and Howell",
+  "Description": "User-friendly heuristic collaboration",
+  "AssociateId": 375,
+  "Columns": 178,
   "Theme": null,
-  "VisibleForAll": 683,
+  "VisibleForAll": 564,
   "VisibleForAssociates": [
-    844,
-    523
+    300,
+    240
   ],
   "VisibleForGroups": [
-    336,
-    352
+    328,
+    701
   ],
-  "PinForAll": 282,
+  "PinForAll": 257,
   "PinForAssociates": [
-    758,
-    290
+    194,
+    390
   ],
   "PinForGroups": [
-    968,
-    827
+    971,
+    875
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldType": "System.String",
+      "FieldLength": 988
     }
   }
 }

@@ -114,6 +114,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -133,12 +134,12 @@ OK
 POST /api/v1/Agents/Appointment/Move
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 482,
-  "NewStartTime": "2006-08-18T02:38:20.7452374+02:00",
+  "AppointmentId": 367,
+  "NewStartTime": "2013-02-25T14:28:21.3522957+01:00",
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -154,120 +155,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-04-22T02:38:20.7608548+02:00",
-  "AppointmentId": 810,
-  "Description": "Focused web-enabled synergy",
-  "Title": "nam",
-  "Agenda": "et",
-  "InternalNotes": "ut",
-  "StartDate": "2002-04-21T02:38:20.7608548+02:00",
-  "EndDate": "2013-06-08T02:38:20.7608548+02:00",
+  "CreatedDate": "2013-09-10T14:28:21.3679198+02:00",
+  "AppointmentId": 14,
+  "Description": "Universal upward-trending solution",
+  "Title": "asperiores",
+  "Agenda": "distinctio",
+  "InternalNotes": "molestiae",
+  "StartDate": "2017-09-20T14:28:21.3679198+02:00",
+  "EndDate": "2008-04-15T14:28:21.3679198+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 256,
+  "MotherId": 844,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2009-01-13T02:38:20.7608548+01:00",
+  "UpdatedDate": "2014-06-20T14:28:21.3679198+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 216,
+  "ActiveLinks": 639,
   "Links": [
     {
-      "EntityName": "Dare LLC",
-      "Id": 450,
-      "Description": "Devolved dedicated strategy",
-      "ExtraInfo": "necessitatibus",
-      "LinkId": 586,
+      "EntityName": "Nolan, Hamill and Becker",
+      "Id": 945,
+      "Description": "Intuitive actuating alliance",
+      "ExtraInfo": "sunt",
+      "LinkId": 207,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 103
+          "FieldLength": 534
         }
       }
     }
   ],
-  "AlarmLeadTime": "sed",
-  "HasAlarm": true,
-  "ColorIndex": 985,
-  "IsFree": true,
+  "AlarmLeadTime": "earum",
+  "HasAlarm": false,
+  "ColorIndex": 372,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "reiciendis",
-  "LeadTime": "alias",
-  "Location": "consequatur",
-  "RejectCounter": 886,
+  "LagTime": "et",
+  "LeadTime": "quia",
+  "Location": "facilis",
+  "RejectCounter": 78,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 260,
-      "PersonId": 134,
-      "ContactId": 123,
-      "EmailId": 627,
-      "SendEmail": true,
+      "AssociateId": 798,
+      "PersonId": 367,
+      "ContactId": 95,
+      "EmailId": 235,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "timothy@kshlerin.name",
-      "Description": "Sharable human-resource installation"
+      "EmailAddress": "anastasia@borer.biz",
+      "Description": "Front-line impactful open architecture"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-06-15T02:38:20.7608548+02:00",
-  "HasConflict": false,
+  "ActiveDate": "1999-04-06T14:28:21.3679198+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 695,
+  "PreferredTZLocation": 373,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 589,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 950,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "beatae",
+  "CentralserviceVideomeetId": "quia",
   "UserDefinedFields": {
-    "SuperOffice:1": "Alvah Steuber",
-    "SuperOffice:2": "1352086796"
+    "SuperOffice:1": "1335360498",
+    "SuperOffice:2": "Mr. Blake Lockman IV"
   },
   "ExtraFields": {
-    "ExtraFields1": "tenetur",
-    "ExtraFields2": "iusto"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "itaque"
   },
   "CustomFields": {
-    "CustomFields1": "natus",
-    "CustomFields2": "ad"
+    "CustomFields1": "quam",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2018-03-15T02:38:20.7608548+01:00",
-  "PublishTo": "2013-05-10T02:38:20.7608548+02:00",
-  "PublishFrom": "2023-11-20T02:38:20.7608548+01:00",
+  "PublishEventDate": "2005-06-10T14:28:21.3679198+02:00",
+  "PublishTo": "2022-07-03T14:28:21.3679198+02:00",
+  "PublishFrom": "2022-08-18T14:28:21.3679198+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 191,
+      "VisibleId": 677,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 394
         }
       }
     },
     {
-      "VisibleId": 191,
+      "VisibleId": 677,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "fuga",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 233
+          "FieldLength": 394
         }
       }
     }
@@ -277,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 885
+      "FieldLength": 74
     }
   }
 }

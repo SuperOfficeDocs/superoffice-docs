@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "in",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "in",
     "value": {}
   }
 ]
@@ -144,37 +144,37 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 472,
-  "UniqueId": "itaque",
-  "Name": "Boyer, Mayer and Larkin",
-  "Description": "Synergistic didactic throughput",
-  "AssociateId": 337,
-  "Columns": 912,
+  "DashboardId": 684,
+  "UniqueId": "qui",
+  "Name": "Aufderhar LLC",
+  "Description": "Robust discrete throughput",
+  "AssociateId": 938,
+  "Columns": 961,
   "Theme": null,
-  "VisibleForAll": 164,
+  "VisibleForAll": 263,
   "VisibleForAssociates": [
-    135,
-    27
+    477,
+    590
   ],
   "VisibleForGroups": [
-    987,
-    302
+    634,
+    228
   ],
-  "PinForAll": 86,
+  "PinForAll": 203,
   "PinForAssociates": [
-    138,
-    163
+    145,
+    328
   ],
   "PinForGroups": [
-    108,
-    177
+    866,
+    403
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldType": "System.String",
+      "FieldLength": 380
     }
   },
   "_Links": {

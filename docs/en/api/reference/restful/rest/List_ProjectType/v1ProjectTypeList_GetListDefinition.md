@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 561,
-  "Name": "Shields, Okuneva and Leuschke",
-  "Tooltip": "dolor",
+  "Id": 624,
+  "Name": "Bechtelar, Lueilwitz and Fahey",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 8,
+  "Rank": 247,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "ex",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 331
+      "FieldLength": 791
     }
   },
   "_Links": {

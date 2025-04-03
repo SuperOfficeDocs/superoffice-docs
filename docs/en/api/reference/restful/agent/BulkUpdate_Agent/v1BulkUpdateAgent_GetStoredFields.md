@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Tablename": "project",
-  "Context": "vitae"
+  "Tablename": "contact",
+  "Context": "beatae"
 }
 ```
 
@@ -106,75 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
+    "DefaultShowInGui": true,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "aut",
-    "ValueType": "sunt",
+    "Key": "ut",
+    "ValueType": "et",
     "Mandatory": false,
-    "EncodedDisplayName": "Bernier-Quigley",
-    "EncodedDisplayDescription": "Pre-emptive stable product",
-    "IconHint": "laudantium",
+    "EncodedDisplayName": "Harber Inc and Sons",
+    "EncodedDisplayDescription": "Open-source context-sensitive capacity",
+    "IconHint": "sint",
     "ControlInfos": [
       {
-        "Type": "sed",
-        "Label": "officia",
-        "Dimension": 120,
-        "ListProviderName": "Wunsch, Schneider and Williamson",
-        "ListProviderExtraInfo": "tenetur",
-        "ListProviderPrimaryKeyName": "Wisoky, Weber and Mante",
-        "ListLeadText": "ea",
+        "Type": "doloribus",
+        "Label": "sunt",
+        "Dimension": 626,
+        "ListProviderName": "Shields Group",
+        "ListProviderExtraInfo": "quidem",
+        "ListProviderPrimaryKeyName": "Gerhold Inc and Sons",
+        "ListLeadText": "voluptatem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 537
+            "FieldLength": 197
           }
         }
       }
     ],
-    "EncodedDataCaption": "nesciunt",
-    "EncodedDataCaptionDescription": "Managed reciprocal analyzer",
-    "CurrentOperationType": "nostrum",
+    "EncodedDataCaption": "et",
+    "EncodedDataCaptionDescription": "Networked homogeneous concept",
+    "CurrentOperationType": "ab",
     "Values": [
-      "nisi",
-      "in"
+      "deserunt",
+      "quidem"
     ],
     "DisplayValues": [
-      "fugit",
-      "sed"
+      "qui",
+      "perferendis"
     ],
     "OperationInfos": [
       {
-        "Key": "rerum",
-        "EncodedDisplayName": "Dooley Group",
+        "Key": "ea",
+        "EncodedDisplayName": "Lesch LLC",
         "EncodedLeadTexts": [
-          "tempore",
-          "expedita"
+          "nobis",
+          "quos"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 344
+            "FieldLength": 906
           }
         }
       },
       {
-        "Key": "rerum",
-        "EncodedDisplayName": "Dooley Group",
+        "Key": "ea",
+        "EncodedDisplayName": "Lesch LLC",
         "EncodedLeadTexts": [
-          "tempore",
-          "expedita"
+          "nobis",
+          "quos"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 344
+            "FieldLength": 906
           }
         }
       }

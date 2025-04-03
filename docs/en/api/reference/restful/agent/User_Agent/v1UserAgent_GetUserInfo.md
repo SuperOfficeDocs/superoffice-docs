@@ -28,7 +28,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=527
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=111
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -93,30 +93,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Deleted": true,
-  "UserInfoId": 860,
-  "UserName": "Stracke Inc and Sons",
-  "PersonId": 454,
-  "Rank": 113,
-  "Tooltip": "quia",
-  "UserGroupId": 425,
-  "EjUserId": 832,
+  "Deleted": false,
+  "UserInfoId": 561,
+  "UserName": "Barton, Corkery and Hahn",
+  "PersonId": 452,
+  "Rank": 156,
+  "Tooltip": "asperiores",
+  "UserGroupId": 639,
+  "EjUserId": 487,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "perferendis",
-    "ad"
+    "in",
+    "sunt"
   ],
-  "CanLogon": true,
-  "RoleName": "Cole-Pfannerstill",
-  "RoleTooltip": "nostrum",
-  "UserGroupName": "Koch, Schneider and Jones",
-  "UserGroupTooltip": "ratione",
+  "CanLogon": false,
+  "RoleName": "Bechtelar, Block and Lakin",
+  "RoleTooltip": "vitae",
+  "UserGroupName": "Schmitt, McKenzie and Boyer",
+  "UserGroupTooltip": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldLength": 577
     }
   }
 }

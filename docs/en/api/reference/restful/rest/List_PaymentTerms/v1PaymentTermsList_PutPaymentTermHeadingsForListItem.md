@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 209,
-    "Name": "Kuphal-Altenwerth",
-    "ToolTip": "Exercitationem velit odit non incidunt officia consectetur quo.",
+    "Id": 776,
+    "Name": "Buckridge-McCullough",
+    "ToolTip": "Qui quas distinctio voluptas id itaque.",
     "Deleted": true,
-    "Rank": 301,
-    "Type": "sint",
-    "ColorBlock": 867,
-    "IconHint": "illum",
-    "Selected": true,
-    "LastChanged": "2002-03-10T02:38:26.7923976+01:00",
+    "Rank": 193,
+    "Type": "porro",
+    "ColorBlock": 461,
+    "IconHint": "placeat",
+    "Selected": false,
+    "LastChanged": "1998-06-14T14:28:27.5864176+02:00",
     "ChildItems": [
       {
-        "Id": 337,
-        "Name": "Feil, Armstrong and Turner",
-        "ToolTip": "Laboriosam accusantium ad.",
+        "Id": 271,
+        "Name": "Gaylord Inc and Sons",
+        "ToolTip": "Quasi dolores saepe sint.",
         "Deleted": true,
-        "Rank": 445,
-        "Type": "et",
-        "ColorBlock": 611,
-        "IconHint": "repellendus",
-        "Selected": true,
-        "LastChanged": "2021-03-19T02:38:26.7923976+01:00",
+        "Rank": 132,
+        "Type": "ut",
+        "ColorBlock": 586,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2002-01-24T14:28:27.5864176+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "omnis",
+        "ExtraInfo": "est",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Providenci Bartell"
+        "FullName": "Miss Ivah Lang"
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Colt Torp"
+    "ExtraInfo": "tenetur",
+    "StyleHint": "vero",
+    "Hidden": true,
+    "FullName": "Dawson Kassulke"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "Haley-Schaden",
-    "ToolTip": "Ipsa voluptatibus sunt.",
+    "Id": 366,
+    "Name": "McGlynn-Doyle",
+    "ToolTip": "Earum sint rerum possimus qui saepe iste.",
     "Deleted": false,
-    "Rank": 189,
-    "Type": "et",
-    "ColorBlock": 976,
-    "IconHint": "veritatis",
+    "Rank": 251,
+    "Type": "voluptatibus",
+    "ColorBlock": 468,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2007-05-02T02:38:26.8080217+02:00",
+    "LastChanged": "2015-05-14T14:28:27.5864176+02:00",
     "ChildItems": [
       {
-        "Id": 525,
-        "Name": "Lynch-Wolff",
-        "ToolTip": "Rem officiis aut et id non in.",
-        "Deleted": true,
-        "Rank": 399,
-        "Type": "quis",
-        "ColorBlock": 916,
-        "IconHint": "ipsum",
+        "Id": 174,
+        "Name": "Dooley Group",
+        "ToolTip": "Sed debitis delectus omnis quia.",
+        "Deleted": false,
+        "Rank": 290,
+        "Type": "ut",
+        "ColorBlock": 977,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2014-04-09T02:38:26.8080217+02:00",
+        "LastChanged": "2023-06-23T14:28:27.5864176+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "consequatur",
+        "ExtraInfo": "et",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Madisyn Kovacek",
+        "FullName": "Micheal Powlowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 818
+            "FieldLength": 361
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "voluptas",
-    "Hidden": true,
-    "FullName": "Ilene Wolf",
+    "ExtraInfo": "est",
+    "StyleHint": "provident",
+    "Hidden": false,
+    "FullName": "Eliseo Kreiger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldLength": 680
       }
     }
   }

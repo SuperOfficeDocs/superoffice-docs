@@ -146,6 +146,7 @@ AppointmentEntity  updated.
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -166,18 +167,18 @@ AppointmentEntity  updated.
 PATCH /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "incidunt",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "incidunt",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -194,120 +195,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2015-03-29T02:38:25.8235864+01:00",
-  "AppointmentId": 649,
-  "Description": "Public-key client-driven pricing structure",
-  "Title": "facere",
-  "Agenda": "illum",
+  "CreatedDate": "2020-11-14T14:28:26.6802047+01:00",
+  "AppointmentId": 363,
+  "Description": "Integrated impactful superstructure",
+  "Title": "sint",
+  "Agenda": "dolor",
   "InternalNotes": "ipsam",
-  "StartDate": "2001-11-04T02:38:25.8235864+01:00",
-  "EndDate": "2012-09-04T02:38:25.8235864+02:00",
+  "StartDate": "2016-01-29T14:28:26.6802047+01:00",
+  "EndDate": "2003-09-14T14:28:26.6802047+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 878,
+  "MotherId": 514,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-02-17T02:38:25.8235864+01:00",
+  "UpdatedDate": "2006-02-01T14:28:26.6802047+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 567,
+  "ActiveLinks": 789,
   "Links": [
     {
-      "EntityName": "Cole Group",
-      "Id": 55,
-      "Description": "Intuitive discrete info-mediaries",
-      "ExtraInfo": "aliquam",
-      "LinkId": 817,
+      "EntityName": "Rolfson Inc and Sons",
+      "Id": 424,
+      "Description": "Synchronised uniform contingency",
+      "ExtraInfo": "aut",
+      "LinkId": 299,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 152
         }
       }
     }
   ],
-  "AlarmLeadTime": "nobis",
+  "AlarmLeadTime": "blanditiis",
   "HasAlarm": false,
-  "ColorIndex": 295,
+  "ColorIndex": 146,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "quis",
-  "LeadTime": "natus",
-  "Location": "nobis",
-  "RejectCounter": 76,
+  "IsAlldayEvent": false,
+  "LagTime": "sequi",
+  "LeadTime": "quis",
+  "Location": "ea",
+  "RejectCounter": 383,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 229,
-      "PersonId": 156,
-      "ContactId": 264,
-      "EmailId": 396,
+      "AssociateId": 658,
+      "PersonId": 86,
+      "ContactId": 419,
+      "EmailId": 795,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "emie@kuvalis.us",
-      "Description": "Enhanced system-worthy synergy"
+      "EmailAddress": "ian_hahn@lehner.biz",
+      "Description": "Quality-focused empowering orchestration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-01-08T02:38:25.8235864+01:00",
+  "ActiveDate": "2012-02-20T14:28:26.6802047+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 405,
+  "PreferredTZLocation": 98,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 435,
+  "SuggestedAppointmentId": 516,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sit",
+  "CentralserviceVideomeetId": "non",
   "UserDefinedFields": {
-    "SuperOffice:1": "Kamryn Kuhlman",
-    "SuperOffice:2": "Maxine Bernadette Wisoky V"
+    "SuperOffice:1": "Johnpaul Laurine Cremin DVM",
+    "SuperOffice:2": "Lorenz Domenic Deckow MD"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "et"
+    "ExtraFields1": "iure",
+    "ExtraFields2": "fuga"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "quis",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "2003-04-25T02:38:25.8235864+02:00",
-  "PublishTo": "2024-08-31T02:38:25.8235864+02:00",
-  "PublishFrom": "2013-08-08T02:38:25.8235864+02:00",
+  "PublishEventDate": "2017-10-18T14:28:26.6802047+02:00",
+  "PublishTo": "2022-10-13T14:28:26.6802047+02:00",
+  "PublishFrom": "2021-04-01T14:28:26.6802047+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 97,
+      "VisibleId": 638,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldLength": 595
         }
       }
     },
     {
-      "VisibleId": 97,
+      "VisibleId": 638,
       "Visibility": "All",
-      "DisplayValue": "possimus",
+      "DisplayValue": "labore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldLength": 595
         }
       }
     }
@@ -317,12 +319,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 369
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

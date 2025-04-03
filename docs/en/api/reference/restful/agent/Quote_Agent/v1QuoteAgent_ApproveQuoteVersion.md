@@ -81,10 +81,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 106,
-  "ApprovedByText": "modi",
-  "ApprovedByAssociateId": 789,
-  "ApprovalText": "sed"
+  "QuoteVersionId": 210,
+  "ApprovedByText": "libero",
+  "ApprovedByAssociateId": 830,
+  "ApprovalText": "minus"
 }
 ```
 
@@ -96,13 +96,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "PluginResponse": null,
-  "CreatedAppointmentId": 161,
+  "CreatedAppointmentId": 304,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldLength": 204
     }
   }
 }

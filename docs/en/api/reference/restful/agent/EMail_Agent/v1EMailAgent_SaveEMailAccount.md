@@ -87,22 +87,22 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 987,
-  "EMailAddress": "deleniti",
-  "AssociateId": 905,
+  "EMailAccountId": 911,
+  "EMailAddress": "quidem",
+  "AssociateId": 986,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 395,
-  "ErrorCount": 231,
+  "AccountStatus": 865,
+  "ErrorCount": 429,
   "ErrorReason": "",
-  "InboxFolder": "velit",
-  "SentFolder": "asperiores",
-  "SimpleMode": 982,
-  "LastFetch": "2003-09-08T02:38:21.3545452+02:00"
+  "InboxFolder": "soluta",
+  "SentFolder": "aut",
+  "SimpleMode": 523,
+  "LastFetch": "1999-05-29T14:28:21.9303967+02:00"
 }
 ```
 
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 443,
-  "EMailAddress": "corrupti",
-  "AssociateId": 134,
+  "EMailAccountId": 230,
+  "EMailAddress": "est",
+  "AssociateId": 216,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 798,
-  "ErrorCount": 456,
+  "AccountStatus": 887,
+  "ErrorCount": 626,
   "ErrorReason": "",
-  "InboxFolder": "blanditiis",
-  "SentFolder": "quasi",
-  "SimpleMode": 113,
-  "LastFetch": "2018-10-16T02:38:21.3545452+02:00",
+  "InboxFolder": "deserunt",
+  "SentFolder": "ea",
+  "SimpleMode": 108,
+  "LastFetch": "2015-12-03T14:28:21.9303967+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldLength": 170
     }
   }
 }

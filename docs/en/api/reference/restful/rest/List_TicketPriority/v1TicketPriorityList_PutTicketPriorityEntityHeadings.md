@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 324,
-    "Name": "Wolff-Prohaska",
-    "Tooltip": "quos",
+    "HeadingId": 408,
+    "Name": "Hauck, Cole and Donnelly",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 753,
-    "UdListDefinitionId": 816
+    "Rank": 302,
+    "UdListDefinitionId": 871
   },
   {
-    "HeadingId": 324,
-    "Name": "Wolff-Prohaska",
-    "Tooltip": "quos",
+    "HeadingId": 408,
+    "Name": "Hauck, Cole and Donnelly",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 753,
-    "UdListDefinitionId": 816
+    "Rank": 302,
+    "UdListDefinitionId": 871
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 716,
-    "Name": "Schowalter LLC",
-    "Tooltip": "labore",
+    "HeadingId": 920,
+    "Name": "Swaniawski Inc and Sons",
+    "Tooltip": "esse",
     "Deleted": false,
-    "Rank": 386,
-    "UdListDefinitionId": 222,
+    "Rank": 19,
+    "UdListDefinitionId": 188,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 123
+        "FieldLength": 528
       }
     }
   }

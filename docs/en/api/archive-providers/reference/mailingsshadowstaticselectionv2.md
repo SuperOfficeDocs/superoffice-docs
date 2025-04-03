@@ -659,7 +659,7 @@ Shadow contact provider for the static Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowStaticSelectionV2?$select=mailingAddr/contact/postAddress/formattedMultiLineAddress,mailingAddr/contact/NumberOfTickets,mailingAddr/contact/saintTicketCategory,mailingAddr/person/supportAssociate,mailingAddr/person/personExtra/x_person_shorttext
+GET /api/v1/archive/MailingsShadowStaticSelectionV2?$select=mailingAddr/contact/NumberOfActivities,mailingAddr/person/updatedByWorkflow,emailFlow/emailFlowId,project/registeredDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

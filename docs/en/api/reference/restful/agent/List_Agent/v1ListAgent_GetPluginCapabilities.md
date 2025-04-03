@@ -74,7 +74,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PluginId": 416
+  "PluginId": 948
 }
 ```
 
@@ -85,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "eum",
-  "2": "ullam"
+  "1": "aut",
+  "2": "et"
 }
 ```

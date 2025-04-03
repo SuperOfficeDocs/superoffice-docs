@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 653,
-  "Name": "O'Keefe, Johns and Spinka",
-  "Tooltip": "rerum",
-  "Rank": 865,
-  "Rate": 25081.402,
-  "Units": 27005.678,
+  "CurrencyId": 613,
+  "Name": "Feil, Tillman and O'Hara",
+  "Tooltip": "at",
+  "Rank": 196,
+  "Rate": 14491.616,
+  "Units": 25288.246,
   "Deleted": true
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 762,
-  "Name": "Schaefer LLC",
-  "Tooltip": "non",
-  "Rank": 666,
-  "Rate": 9514.824,
-  "Units": 21445.962,
+  "CurrencyId": 820,
+  "Name": "Hane LLC",
+  "Tooltip": "quae",
+  "Rank": 781,
+  "Rate": 24235.221999999998,
+  "Units": 23752.586,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldLength": 515
     }
   }
 }

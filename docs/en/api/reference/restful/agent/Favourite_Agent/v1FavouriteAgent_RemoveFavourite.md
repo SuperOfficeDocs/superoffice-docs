@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Altenwerth LLC",
-  "RecordId": 424,
-  "AssociateId": 797
+  "TableName": "Waelchi LLC",
+  "RecordId": 667,
+  "AssociateId": 75
 }
 ```
 

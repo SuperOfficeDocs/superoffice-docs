@@ -73,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Altenwerth, Blanda and Kihn",
+  "CommandName": "Mitchell-Fritsch",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -87,14 +87,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "mollitia",
+  "Message": "quo",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldType": "System.Int32",
+      "FieldLength": 394
     }
   }
 }

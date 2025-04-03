@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,14 +132,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 930,
-  "StartTime": "2020-10-06T02:38:20.5419831+02:00",
-  "EndTime": "2001-01-14T02:38:20.5419831+01:00",
-  "Count": 412,
+  "ProjectId": 306,
+  "StartTime": "2017-10-24T14:28:21.1335548+02:00",
+  "EndTime": "2023-10-17T14:28:21.1335548+02:00",
+  "Count": 513,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -151,65 +152,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 441,
-    "StartDate": "2024-02-22T02:38:20.5419831+01:00",
-    "EndDate": "2014-03-04T02:38:20.5419831+01:00",
+    "AppointmentId": 15,
+    "StartDate": "1998-06-08T14:28:21.1335548+02:00",
+    "EndDate": "1999-07-09T14:28:21.1335548+02:00",
     "Type": "BookingForChecklist",
-    "Task": "eos",
-    "AssociateFullName": "Mr. Chelsea Ritchie V",
-    "ContactName": "Kautzer, Lowe and Hansen",
-    "Description": "Triple-buffered assymetric throughput",
-    "PersonFullName": "Mrs. Christa Veum",
-    "PersonId": 406,
-    "ContactId": 562,
-    "ProjectId": 785,
-    "ProjectName": "Hudson Group",
-    "IsPublished": true,
-    "AssociateId": 390,
-    "ColorIndex": 602,
+    "Task": "facilis",
+    "AssociateFullName": "Ceasar Bechtelar",
+    "ContactName": "Nienow-Kemmer",
+    "Description": "Organic impactful installation",
+    "PersonFullName": "Abe Douglas",
+    "PersonId": 701,
+    "ContactId": 833,
+    "ProjectId": 646,
+    "ProjectName": "Bruen-Wilkinson",
+    "IsPublished": false,
+    "AssociateId": 106,
+    "ColorIndex": 154,
     "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 354,
-    "PriorityName": "Connelly LLC",
+    "PriorityId": 540,
+    "PriorityName": "Prosacco-Jacobson",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2008-11-16T02:38:20.5419831+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2022-04-28T14:28:21.1335548+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-04-15T02:38:20.5419831+02:00",
-    "RecurringEndDate": "2004-05-17T02:38:20.5419831+02:00",
-    "MotherId": 302,
-    "AssignedBy": 350,
-    "AssignedByFullName": "Albina Block",
+    "RecurringStartDate": "2018-03-12T14:28:21.1335548+01:00",
+    "RecurringEndDate": "1998-07-04T14:28:21.1335548+02:00",
+    "MotherId": 194,
+    "AssignedBy": 450,
+    "AssignedByFullName": "Dr. Meredith Jones",
     "RejectReason": "",
-    "Location": "officiis",
-    "AlarmLeadTime": "labore",
-    "SaleId": 714,
-    "SaleName": "VonRueden LLC",
-    "AssociateName": "Predovic-Robel",
-    "CreatedDate": "2000-11-05T02:38:20.5419831+01:00",
-    "CreatedBy": "tempore",
-    "CreatedByFullName": "Kayli Brown",
-    "CreatedByAssociateId": 442,
+    "Location": "libero",
+    "AlarmLeadTime": "rerum",
+    "SaleId": 26,
+    "SaleName": "Jacobs Inc and Sons",
+    "AssociateName": "Boyer Group",
+    "CreatedDate": "2024-10-18T14:28:21.1335548+02:00",
+    "CreatedBy": "sequi",
+    "CreatedByFullName": "Prof. Brycen Bergstrom MD",
+    "CreatedByAssociateId": 811,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 719,
-    "Title": "nostrum",
-    "Agenda": "iusto",
-    "InternalNotes": "neque",
+    "PreferredTZLocation": 896,
+    "Title": "odit",
+    "Agenda": "consequatur",
+    "InternalNotes": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 734
+        "FieldLength": 712
       }
     }
   }

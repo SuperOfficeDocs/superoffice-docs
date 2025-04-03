@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/User/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jast, Heller and Koelpin",
-    "Description": "Mandatory background policy",
+    "Name": "Wunsch-Rosenbaum",
+    "Description": "Networked homogeneous Graphical User Interface",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 867,
-        "Tooltip": "eligendi",
+        "Total": 743,
+        "Tooltip": "commodi",
         "CanAssign": true,
-        "Free": 882,
-        "InUse": 30,
-        "IsHidden": false,
+        "Free": 187,
+        "InUse": 546,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 116,
-        "Name": "Krajcik LLC",
-        "Description": "Multi-lateral bottom-line contingency",
-        "PrerequisiteModuleName": "Willms-Cassin",
-        "SortOrder": 448,
-        "ExtraFlags": 562,
+        "ModuleLicenseId": 670,
+        "Name": "Johnston-Klocko",
+        "Description": "Secured didactic structure",
+        "PrerequisiteModuleName": "Kutch-Quitzon",
+        "SortOrder": 673,
+        "ExtraFlags": 567,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 714
+            "FieldLength": 222
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 470,
-        "Tooltip": "magnam",
-        "CanAssign": false,
-        "Free": 719,
-        "InUse": 20,
+        "Total": 249,
+        "Tooltip": "ut",
+        "CanAssign": true,
+        "Free": 479,
+        "InUse": 998,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 981,
-        "Name": "Wintheiser LLC",
-        "Description": "Networked heuristic info-mediaries",
-        "PrerequisiteModuleName": "Corkery-Turner",
-        "SortOrder": 5,
-        "ExtraFlags": 315,
+        "Assigned": true,
+        "ModuleLicenseId": 493,
+        "Name": "Sanford-Padberg",
+        "Description": "Future-proofed content-based internet solution",
+        "PrerequisiteModuleName": "Murazik, Sawayn and Robel",
+        "SortOrder": 156,
+        "ExtraFlags": 879,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 861
+            "FieldType": "System.Int32",
+            "FieldLength": 429
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 859
       }
     }
   },
   {
-    "Name": "Jast, Heller and Koelpin",
-    "Description": "Mandatory background policy",
+    "Name": "Wunsch-Rosenbaum",
+    "Description": "Networked homogeneous Graphical User Interface",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 867,
-        "Tooltip": "eligendi",
+        "Total": 743,
+        "Tooltip": "commodi",
         "CanAssign": true,
-        "Free": 882,
-        "InUse": 30,
-        "IsHidden": false,
+        "Free": 187,
+        "InUse": 546,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 116,
-        "Name": "Krajcik LLC",
-        "Description": "Multi-lateral bottom-line contingency",
-        "PrerequisiteModuleName": "Willms-Cassin",
-        "SortOrder": 448,
-        "ExtraFlags": 562,
+        "ModuleLicenseId": 670,
+        "Name": "Johnston-Klocko",
+        "Description": "Secured didactic structure",
+        "PrerequisiteModuleName": "Kutch-Quitzon",
+        "SortOrder": 673,
+        "ExtraFlags": 567,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 714
+            "FieldLength": 222
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 470,
-        "Tooltip": "magnam",
-        "CanAssign": false,
-        "Free": 719,
-        "InUse": 20,
+        "Total": 249,
+        "Tooltip": "ut",
+        "CanAssign": true,
+        "Free": 479,
+        "InUse": 998,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 981,
-        "Name": "Wintheiser LLC",
-        "Description": "Networked heuristic info-mediaries",
-        "PrerequisiteModuleName": "Corkery-Turner",
-        "SortOrder": 5,
-        "ExtraFlags": 315,
+        "Assigned": true,
+        "ModuleLicenseId": 493,
+        "Name": "Sanford-Padberg",
+        "Description": "Future-proofed content-based internet solution",
+        "PrerequisiteModuleName": "Murazik, Sawayn and Robel",
+        "SortOrder": 156,
+        "ExtraFlags": 879,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 861
+            "FieldType": "System.Int32",
+            "FieldLength": 429
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 214
+        "FieldLength": 859
       }
     }
   }

@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 655,
-    "Name": "Pagac-Murazik",
-    "Description": "Public-key bi-directional protocol",
-    "WelcomeMessage": "repellat",
+    "ChatTopicId": 18,
+    "Name": "O'Hara Inc and Sons",
+    "Description": "Networked mobile database",
+    "WelcomeMessage": "assumenda",
     "Language": null,
-    "LastAccept": "2020-04-17T02:38:20.9795792+02:00",
-    "SecondsPrAccept": 501,
-    "AlertRecipient": "aut",
+    "LastAccept": "2023-05-25T14:28:21.5710362+02:00",
+    "SecondsPrAccept": 453,
+    "AlertRecipient": "inventore",
     "AlertTemplate": null,
-    "CollectConsent": false,
-    "BadgeHeader": "consequatur",
+    "CollectConsent": true,
+    "BadgeHeader": "sapiente",
     "CustomQueueTextEnabled": false,
-    "CustomQueueText": "quia",
-    "WarnNewChatMinutes": 115,
-    "WarnManagerNewChatMinutes": 694,
-    "TicketEnabled": true,
+    "CustomQueueText": "praesentium",
+    "WarnNewChatMinutes": 982,
+    "WarnManagerNewChatMinutes": 545,
+    "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": true,
+    "OpeningHoursEnabled": false,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 914,
-    "WarnManagerChatMessageMinutes": 60,
-    "UseQueueOfflineForm": false,
-    "OfflineFormTimeLimit": 713,
-    "OfflineFormQueueLength": 896,
+    "WarnChatMessageMinutes": 597,
+    "WarnManagerChatMessageMinutes": 629,
+    "UseQueueOfflineForm": true,
+    "OfflineFormTimeLimit": 495,
+    "OfflineFormQueueLength": 695,
     "WidgetEnableRating": true,
-    "WidgetRatingText": "minima",
+    "WidgetRatingText": "voluptates",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 551
+        "FieldLength": 64
       }
     }
   }

@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 698,
-  "Name": "Hauck, Funk and Turcotte",
-  "OrgNr": "803212",
+  "ContactId": 289,
+  "Name": "Schneider, Morissette and Stark",
+  "OrgNr": "1619341",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "optio",
-  "DirectPhone": "827-832-4594 x843",
-  "AssociateId": 452,
-  "CountryId": 391,
-  "EmailAddress": "glen_farrell@bednar.com",
-  "Kananame": "rem",
-  "EmailAddressName": "vaughn@howe.com",
+  "City": "inventore",
+  "DirectPhone": "156-350-5075",
+  "AssociateId": 256,
+  "CountryId": 912,
+  "EmailAddress": "ralph@granteichmann.ca",
+  "Kananame": "nisi",
+  "EmailAddressName": "wilma_nolan@goyette.com",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Dr. Linwood Jillian Block",
+  "AssociateFullName": "Chaim Schuppe",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "quo",
-  "FullName": "Martina Smith",
+  "FormattedAddress": "ea",
+  "FullName": "Kenny Lowe",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 669,
-  "Number1": "1499485",
-  "Number2": "1052940",
+  "ActiveErpLinks": 469,
+  "Number1": "1396120",
+  "Number2": "1427448",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 640
+      "FieldType": "System.Int32",
+      "FieldLength": 562
     }
   }
 }

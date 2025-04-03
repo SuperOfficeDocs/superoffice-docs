@@ -50,6 +50,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnExtraMenuId
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnUniqueIdentifier
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnPath
+  - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnType
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colName
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colDescription
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colUniqueIdentifier
@@ -58,6 +59,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colRegisteredBy
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colRegisteredDate
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colPath
+  - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colType
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colEjscriptId
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colIncludeId
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colAccessKey
@@ -472,6 +474,13 @@ references:
   name: ColumnPath
   nameWithType: EjscriptExtenderBase.ColumnPath
   fullName: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnPath
+- uid: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnType
+  commentId: F:SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnType
+  parent: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase
+  isExternal: true
+  name: ColumnType
+  nameWithType: EjscriptExtenderBase.ColumnType
+  fullName: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnType
 - uid: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colName
   commentId: F:SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colName
   parent: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase
@@ -528,6 +537,13 @@ references:
   name: _colPath
   nameWithType: EjscriptExtenderBase._colPath
   fullName: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colPath
+- uid: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colType
+  commentId: F:SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colType
+  parent: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase
+  isExternal: true
+  name: _colType
+  nameWithType: EjscriptExtenderBase._colType
+  fullName: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colType
 - uid: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colEjscriptId
   commentId: F:SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colEjscriptId
   parent: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase

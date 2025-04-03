@@ -116,6 +116,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -130,16 +131,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 206,
-  "StartTime": "2021-09-13T02:38:20.5732257+02:00",
-  "EndTime": "2019-09-07T02:38:20.5732257+02:00",
-  "Status": 425,
-  "Type": 34,
-  "AssociateId": 655
+  "Id": 458,
+  "StartTime": "2024-03-08T14:28:21.1648024+01:00",
+  "EndTime": "2019-03-22T14:28:21.1648024+01:00",
+  "Status": 957,
+  "Type": 880,
+  "AssociateId": 944
 }
 ```
 
@@ -150,65 +151,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 477,
-  "StartDate": "2024-06-03T02:38:20.5732257+02:00",
-  "EndDate": "2002-05-10T02:38:20.5732257+02:00",
+  "AppointmentId": 299,
+  "StartDate": "2020-09-06T14:28:21.1648024+02:00",
+  "EndDate": "2013-04-11T14:28:21.1648024+02:00",
   "Type": "BookingForChecklist",
-  "Task": "tempore",
-  "AssociateFullName": "Jorge Leuschke",
-  "ContactName": "Abshire Inc and Sons",
-  "Description": "Up-sized 6th generation paradigm",
-  "PersonFullName": "Barbara Corkery",
-  "PersonId": 85,
-  "ContactId": 373,
-  "ProjectId": 123,
-  "ProjectName": "Haley-Kessler",
+  "Task": "qui",
+  "AssociateFullName": "Emilio Sipes",
+  "ContactName": "Green, Schaefer and Brekke",
+  "Description": "Customizable methodical pricing structure",
+  "PersonFullName": "Toney Welch",
+  "PersonId": 63,
+  "ContactId": 994,
+  "ProjectId": 753,
+  "ProjectName": "Barton-Hyatt",
   "IsPublished": false,
-  "AssociateId": 637,
-  "ColorIndex": 159,
+  "AssociateId": 332,
+  "ColorIndex": 941,
   "IsFree": false,
-  "HasAlarm": false,
+  "HasAlarm": true,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 306,
-  "PriorityName": "Klocko-Blick",
+  "PriorityId": 455,
+  "PriorityName": "Hyatt-Tremblay",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2012-02-14T02:38:20.5732257+01:00",
+  "ActiveDate": "2001-07-12T14:28:21.1648024+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2022-01-08T02:38:20.5732257+01:00",
-  "RecurringEndDate": "2016-11-16T02:38:20.5732257+01:00",
-  "MotherId": 875,
-  "AssignedBy": 598,
-  "AssignedByFullName": "Deven Schamberger",
+  "RecurringStartDate": "2016-02-11T14:28:21.1648024+01:00",
+  "RecurringEndDate": "2010-02-15T14:28:21.1648024+01:00",
+  "MotherId": 339,
+  "AssignedBy": 678,
+  "AssignedByFullName": "Amely Aidan Bogisich DVM",
   "RejectReason": "",
-  "Location": "nesciunt",
-  "AlarmLeadTime": "in",
-  "SaleId": 840,
-  "SaleName": "Hessel-Ziemann",
-  "AssociateName": "Cremin-Moore",
-  "CreatedDate": "1999-12-08T02:38:20.5732257+01:00",
-  "CreatedBy": "consectetur",
-  "CreatedByFullName": "Dr. Ophelia Stokes",
-  "CreatedByAssociateId": 718,
+  "Location": "corporis",
+  "AlarmLeadTime": "tenetur",
+  "SaleId": 622,
+  "SaleName": "Von LLC",
+  "AssociateName": "Bernier LLC",
+  "CreatedDate": "1997-12-24T14:28:21.1648024+01:00",
+  "CreatedBy": "ipsam",
+  "CreatedByFullName": "Julien Champlin",
+  "CreatedByAssociateId": 508,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 438,
-  "Title": "et",
-  "Agenda": "quos",
-  "InternalNotes": "animi",
+  "PreferredTZLocation": 432,
+  "Title": "iste",
+  "Agenda": "itaque",
+  "InternalNotes": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldLength": 412
     }
   }
 }

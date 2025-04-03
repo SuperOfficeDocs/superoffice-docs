@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "dolores",
     "value": {}
   },
   {
     "op": "add",
-    "path": "molestiae",
+    "path": "dolores",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 730,
-  "PlainMessage": "et",
-  "HtmlMessage": "eius",
-  "SmsMessage": "itaque",
-  "Description": "Progressive needs-based middleware",
-  "Subject": "et",
-  "FolderId": 819,
-  "HeaderField": "nam",
-  "Design": "fuga",
+  "ShipmentMessageId": 67,
+  "PlainMessage": "qui",
+  "HtmlMessage": "debitis",
+  "SmsMessage": "natus",
+  "Description": "Streamlined bottom-line customer loyalty",
+  "Subject": "ducimus",
+  "FolderId": 76,
+  "HeaderField": "est",
+  "Design": "recusandae",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Adaptive regional flexibility",
-  "AccessKey": "rem",
-  "DocumentMessage": 151,
-  "Registered": "1998-12-13T02:38:26.4329026+01:00",
-  "RegisteredAssociateId": 599,
-  "Updated": "1998-11-07T02:38:26.4329026+01:00",
-  "UpdatedAssociateId": 39,
-  "UpdatedCount": 192,
+  "InlineImages": false,
+  "LongDescription": "Focused homogeneous emulation",
+  "AccessKey": "iure",
+  "DocumentMessage": 764,
+  "Registered": "2012-12-21T14:28:27.2583066+01:00",
+  "RegisteredAssociateId": 562,
+  "Updated": "2002-08-06T14:28:27.2583066+02:00",
+  "UpdatedAssociateId": 750,
+  "UpdatedCount": 919,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 806
+      "FieldType": "System.String",
+      "FieldLength": 612
     }
   },
   "_Links": {

@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 741,
-  "ModuleOwner": "molestias",
+  "AssociateId": 381,
+  "ModuleOwner": "quam",
   "ModuleLicenseNames": [
-    "Pouros Group",
-    "Friesen-Swaniawski"
+    "Hintz Group",
+    "Wolf, Schulist and Wilderman"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 732,
-    "Tooltip": "et",
+    "Total": 154,
+    "Tooltip": "architecto",
     "CanAssign": false,
-    "Free": 543,
-    "InUse": 28,
-    "IsHidden": true,
+    "Free": 45,
+    "InUse": 594,
+    "IsHidden": false,
     "Assigned": true,
-    "ModuleLicenseId": 399,
-    "Name": "Price LLC",
-    "Description": "Reactive non-volatile project",
-    "PrerequisiteModuleName": "Goodwin, McClure and O'Hara",
-    "SortOrder": 233,
-    "ExtraFlags": 589,
+    "ModuleLicenseId": 463,
+    "Name": "Dare, Leffler and Stanton",
+    "Description": "Multi-lateral neutral model",
+    "PrerequisiteModuleName": "Bergnaum-Fisher",
+    "SortOrder": 746,
+    "ExtraFlags": 776,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 682
+        "FieldLength": 735
       }
     }
   }

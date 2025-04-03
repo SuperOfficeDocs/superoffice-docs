@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Kuhlman-Gusikowski",
-    "ToolTip": "Corporis magnam nam sit suscipit qui.",
+    "Id": 182,
+    "Name": "Dietrich LLC",
+    "ToolTip": "Perferendis excepturi.",
     "Deleted": false,
-    "Rank": 743,
-    "Type": "odio",
-    "ColorBlock": 371,
-    "IconHint": "doloribus",
+    "Rank": 311,
+    "Type": "quos",
+    "ColorBlock": 382,
+    "IconHint": "aliquam",
     "Selected": false,
-    "LastChanged": "2014-02-07T02:38:21.4639053+01:00",
+    "LastChanged": "2011-08-26T14:28:22.0241429+02:00",
     "ChildItems": [
       {
-        "Id": 859,
-        "Name": "Sipes-Berge",
-        "ToolTip": "Ut consequuntur quas eum est et.",
+        "Id": 692,
+        "Name": "Flatley-McKenzie",
+        "ToolTip": "Est quibusdam voluptate ipsum at eveniet qui cum.",
         "Deleted": false,
-        "Rank": 352,
-        "Type": "doloremque",
-        "ColorBlock": 816,
-        "IconHint": "doloremque",
-        "Selected": false,
-        "LastChanged": "2023-04-03T02:38:21.4639053+02:00",
+        "Rank": 267,
+        "Type": "voluptas",
+        "ColorBlock": 328,
+        "IconHint": "quaerat",
+        "Selected": true,
+        "LastChanged": "2004-01-14T14:28:22.0241429+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "exercitationem",
+        "ExtraInfo": "sunt",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Crystal Abbott",
+        "FullName": "Mrs. Eveline Richard Hammes PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 917
+            "FieldLength": 937
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "perspiciatis",
-    "Hidden": false,
-    "FullName": "Miss Leann Luther Lakin Sr.",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "occaecati",
+    "Hidden": true,
+    "FullName": "Jensen Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 484
       }
     }
   }

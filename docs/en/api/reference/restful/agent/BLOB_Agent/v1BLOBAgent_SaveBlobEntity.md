@@ -91,19 +91,19 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 533,
-  "BlobSize": 640,
-  "Description": "Cross-group client-server synergy",
-  "ExtraInfo": "nemo",
+  "BlobId": 554,
+  "BlobSize": 341,
+  "Description": "Extended system-worthy database",
+  "ExtraInfo": "fuga",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "id",
-  "OriginalSize": 541,
-  "CreatedDate": "2015-06-26T02:38:20.885843+02:00",
-  "UpdatedDate": "2007-07-17T02:38:20.885843+02:00",
+  "IsZipped": true,
+  "MimeType": "omnis",
+  "OriginalSize": 405,
+  "CreatedDate": "2004-03-17T14:28:21.4929147+01:00",
+  "UpdatedDate": "2023-05-08T14:28:21.4929147+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ipsum"
+  "ConceptualType": "occaecati"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 263,
-  "BlobSize": 753,
-  "Description": "Open-source foreground contingency",
+  "BlobId": 62,
+  "BlobSize": 192,
+  "Description": "Ergonomic national alliance",
   "ExtraInfo": "id",
-  "IsEncrypted": true,
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "suscipit",
-  "OriginalSize": 123,
-  "CreatedDate": "1999-07-23T02:38:20.885843+02:00",
-  "UpdatedDate": "2019-01-14T02:38:20.885843+01:00",
+  "MimeType": "iure",
+  "OriginalSize": 306,
+  "CreatedDate": "2000-04-24T14:28:21.4929147+02:00",
+  "UpdatedDate": "2021-03-18T14:28:21.4929147+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "at",
+  "ConceptualType": "veniam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldLength": 188
     }
   }
 }

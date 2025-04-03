@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 177,
-    "Name": "Denesik LLC",
-    "ToolTip": "Modi nemo quod est culpa perferendis vel.",
+    "Id": 587,
+    "Name": "Tillman Inc and Sons",
+    "ToolTip": "Sed eum.",
     "Deleted": true,
-    "Rank": 298,
-    "Type": "asperiores",
-    "ColorBlock": 91,
-    "IconHint": "nobis",
+    "Rank": 197,
+    "Type": "quibusdam",
+    "ColorBlock": 317,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2011-04-30T02:38:26.6986493+02:00",
+    "LastChanged": "2010-05-05T14:28:27.5082958+02:00",
     "ChildItems": [
       {
-        "Id": 784,
-        "Name": "Cronin, Denesik and Hessel",
-        "ToolTip": "Nesciunt est nesciunt sit omnis facilis.",
-        "Deleted": false,
-        "Rank": 514,
-        "Type": "ab",
-        "ColorBlock": 805,
-        "IconHint": "occaecati",
-        "Selected": false,
-        "LastChanged": "2007-04-02T02:38:26.6986493+02:00",
+        "Id": 986,
+        "Name": "Lemke, Luettgen and Jakubowski",
+        "ToolTip": "Aperiam et iusto.",
+        "Deleted": true,
+        "Rank": 855,
+        "Type": "sunt",
+        "ColorBlock": 721,
+        "IconHint": "illum",
+        "Selected": true,
+        "LastChanged": "2013-08-14T14:28:27.5082958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "assumenda",
-        "StyleHint": "consequuntur",
-        "Hidden": true,
-        "FullName": "Tyson Reichert",
+        "ExtraInfo": "odio",
+        "StyleHint": "nesciunt",
+        "Hidden": false,
+        "FullName": "Miss Electa Trantow Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 155
+            "FieldLength": 586
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "fugit",
+    "ExtraInfo": "ea",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Quinn Bode",
+    "FullName": "Dr. Tyler Brakus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 364
+        "FieldLength": 865
       }
     }
   }

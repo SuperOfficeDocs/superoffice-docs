@@ -94,19 +94,19 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 799,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 337,
-  "Name": "Turner-Bogisich",
-  "Description": "Managed 24/7 project",
-  "Currency": "facilis",
-  "CurrencyName": "Stokes, Mueller and Goldner",
-  "ValidFrom": "2024-10-20T02:38:26.8236417+02:00",
-  "ValidTo": "2023-03-06T02:38:26.8236417+01:00",
+  "PriceListId": 319,
+  "ERPPriceListKey": "pariatur",
+  "QuoteConnectionId": 287,
+  "Name": "Wilkinson-Kihn",
+  "Description": "Reverse-engineered 6th generation migration",
+  "Currency": "numquam",
+  "CurrencyName": "Zieme, Hodkiewicz and Deckow",
+  "ValidFrom": "2007-05-16T14:28:27.6020419+02:00",
+  "ValidTo": "2008-02-20T14:28:27.6020419+01:00",
   "IsActive": false
 }
 ```
@@ -118,27 +118,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 423,
-  "ERPPriceListKey": "nihil",
-  "QuoteConnectionId": 321,
-  "Name": "Dooley-Kuhn",
-  "Description": "Horizontal local approach",
-  "Currency": "doloremque",
-  "CurrencyName": "Dicki Inc and Sons",
-  "ValidFrom": "2020-01-17T02:38:26.8236417+01:00",
-  "ValidTo": "2003-07-04T02:38:26.8236417+02:00",
+  "PriceListId": 888,
+  "ERPPriceListKey": "aperiam",
+  "QuoteConnectionId": 381,
+  "Name": "Bogisich LLC",
+  "Description": "Monitored bifurcated core",
+  "Currency": "ea",
+  "CurrencyName": "Kris Inc and Sons",
+  "ValidFrom": "1998-03-16T14:28:27.6020419+01:00",
+  "ValidTo": "2004-10-02T14:28:27.6020419+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 411
+      "FieldLength": 250
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -110,13 +110,13 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 118,
-  "EmailItemId": 638,
-  "AttachmentId": "laudantium"
+  "DocumentId": 868,
+  "EmailItemId": 346,
+  "AttachmentId": "quo"
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 777,
+  "DocumentId": 259,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "maiores",
-  "Header": "voluptas",
-  "Name": "Reilly LLC",
-  "OurRef": "qui",
-  "YourRef": "et",
-  "CreatedDate": "2000-07-20T02:38:21.3389145+02:00",
-  "UpdatedDate": "2014-11-27T02:38:21.3389145+01:00",
-  "Description": "Innovative needs-based intranet",
+  "Attention": "quasi",
+  "Header": "nobis",
+  "Name": "Haley Inc and Sons",
+  "OurRef": "accusantium",
+  "YourRef": "nisi",
+  "CreatedDate": "2020-09-27T14:28:21.9147723+02:00",
+  "UpdatedDate": "2007-05-06T14:28:21.9147723+02:00",
+  "Description": "Expanded reciprocal monitoring",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2016-11-12T02:38:21.3389145+01:00",
-  "ExternalRef": "ut",
+  "Date": "2017-09-20T14:28:21.9147723+02:00",
+  "ExternalRef": "provident",
   "Completed": "Completed",
-  "ActiveLinks": 315,
+  "ActiveLinks": 370,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Davis-Cormier",
-      "Id": 91,
-      "Description": "Configurable reciprocal intranet",
-      "ExtraInfo": "laudantium",
-      "LinkId": 738,
+      "EntityName": "Bosco-Rosenbaum",
+      "Id": 36,
+      "Description": "Progressive bifurcated functionalities",
+      "ExtraInfo": "quia",
+      "LinkId": 151,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 84
+          "FieldLength": 290
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 572,
-  "Snum": 765,
+  "SuggestedDocumentId": 784,
+  "Snum": 638,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mr. Lorine Kreiger",
-    "SuperOffice:2": "Norwood O'Reilly"
+    "SuperOffice:1": "1981863868",
+    "SuperOffice:2": "Kennedi Nikolaus"
   },
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
-    "CustomFields2": "enim"
+    "CustomFields1": "nesciunt",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "2020-08-02T02:38:21.3389145+02:00",
-  "PublishTo": "2023-02-19T02:38:21.3389145+01:00",
-  "PublishFrom": "2002-12-31T02:38:21.3389145+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2014-11-04T14:28:21.9147723+01:00",
+  "PublishTo": "2009-12-17T14:28:21.9147723+01:00",
+  "PublishFrom": "2012-10-31T14:28:21.9147723+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 441,
+      "VisibleId": 969,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldType": "System.String",
+          "FieldLength": 556
         }
       }
     },
     {
-      "VisibleId": 441,
+      "VisibleId": 969,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldType": "System.String",
+          "FieldLength": 556
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 469
+      "FieldLength": 477
     }
   }
 }

@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 28,
-    "ParentId": 980,
-    "Name": "Gottlieb Group",
-    "Fullname": "id",
-    "CategoryMaster": 368,
+    "TicketCategoryId": 793,
+    "ParentId": 972,
+    "Name": "Heathcote, Padberg and Beatty",
+    "Fullname": "illo",
+    "CategoryMaster": 951,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Will Group",
+    "ExternalName": "West, Sawayn and Hammes",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 415,
-    "ReplyTemplate": 232,
-    "NotificationEmail": "felicia_kohler@spencercormier.us",
+    "AssignmentLag": 800,
+    "ReplyTemplate": 259,
+    "NotificationEmail": "issac.hickle@wuckert.us",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 360,
+    "EffectiveReplyTemplateId": 582,
     "ExtraFields": {
-      "ExtraFields1": "illo",
-      "ExtraFields2": "earum"
+      "ExtraFields1": "animi",
+      "ExtraFields2": "repudiandae"
     },
     "CustomFields": {
-      "CustomFields1": "et",
-      "CustomFields2": "qui"
+      "CustomFields1": "asperiores",
+      "CustomFields2": "autem"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 190
+        "FieldType": "System.String",
+        "FieldLength": 202
       }
     }
   }

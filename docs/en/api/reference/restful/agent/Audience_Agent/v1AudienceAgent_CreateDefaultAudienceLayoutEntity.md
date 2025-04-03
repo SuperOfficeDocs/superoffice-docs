@@ -73,11 +73,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 44,
-  "InstanceLayout": "similique",
-  "InstanceName": "Willms-Nader",
-  "CreatedDate": "2018-06-28T02:38:20.8702208+02:00",
-  "UpdatedDate": "2008-08-16T02:38:20.8702208+02:00",
+  "AudienceLayoutId": 498,
+  "InstanceLayout": "quasi",
+  "InstanceName": "Lang-Schuster",
+  "CreatedDate": "2023-08-19T14:28:21.47729+02:00",
+  "UpdatedDate": "2019-08-10T14:28:21.47729+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 93
     }
   }
 }

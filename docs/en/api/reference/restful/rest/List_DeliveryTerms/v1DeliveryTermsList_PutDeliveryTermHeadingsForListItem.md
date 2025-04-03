@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 564,
-    "Name": "Dare-Kunde",
-    "ToolTip": "Sit unde alias.",
-    "Deleted": true,
-    "Rank": 701,
-    "Type": "cupiditate",
-    "ColorBlock": 729,
-    "IconHint": "totam",
-    "Selected": false,
-    "LastChanged": "2024-12-26T02:38:26.7455241+01:00",
+    "Id": 560,
+    "Name": "Daugherty-Stanton",
+    "ToolTip": "Aperiam nam tempore adipisci laboriosam commodi.",
+    "Deleted": false,
+    "Rank": 841,
+    "Type": "quisquam",
+    "ColorBlock": 865,
+    "IconHint": "eveniet",
+    "Selected": true,
+    "LastChanged": "2001-10-28T14:28:27.5551692+01:00",
     "ChildItems": [
       {
-        "Id": 274,
-        "Name": "Huels, Wilkinson and Dietrich",
-        "ToolTip": "Provident ducimus autem.",
+        "Id": 368,
+        "Name": "Boyer-Schoen",
+        "ToolTip": "Laudantium cumque est repellat quia beatae rem.",
         "Deleted": false,
-        "Rank": 150,
-        "Type": "magni",
-        "ColorBlock": 801,
-        "IconHint": "ab",
-        "Selected": false,
-        "LastChanged": "2011-06-30T02:38:26.7455241+02:00",
+        "Rank": 348,
+        "Type": "sed",
+        "ColorBlock": 386,
+        "IconHint": "quae",
+        "Selected": true,
+        "LastChanged": "2015-03-13T14:28:27.5551692+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "quibusdam",
-        "Hidden": false,
-        "FullName": "Xavier Runolfsdottir"
+        "ExtraInfo": "eos",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Damion Makenzie Bergstrom MD"
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "cumque",
+    "StyleHint": "recusandae",
     "Hidden": false,
-    "FullName": "Marlen Graham"
+    "FullName": "Aron Bechtelar"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Name": "Brakus-Kilback",
-    "ToolTip": "Quia et.",
+    "Id": 155,
+    "Name": "Ebert Inc and Sons",
+    "ToolTip": "Quia ipsa et.",
     "Deleted": false,
-    "Rank": 762,
-    "Type": "voluptas",
-    "ColorBlock": 708,
-    "IconHint": "nostrum",
+    "Rank": 373,
+    "Type": "fugit",
+    "ColorBlock": 734,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2003-12-03T02:38:26.7455241+01:00",
+    "LastChanged": "1999-09-07T14:28:27.5551692+02:00",
     "ChildItems": [
       {
-        "Id": 259,
-        "Name": "Jacobi-Reynolds",
-        "ToolTip": "Libero qui.",
-        "Deleted": false,
-        "Rank": 450,
-        "Type": "assumenda",
-        "ColorBlock": 729,
-        "IconHint": "occaecati",
-        "Selected": true,
-        "LastChanged": "1999-04-21T02:38:26.7455241+02:00",
+        "Id": 410,
+        "Name": "Wunsch Inc and Sons",
+        "ToolTip": "Nihil et et eos impedit et.",
+        "Deleted": true,
+        "Rank": 594,
+        "Type": "delectus",
+        "ColorBlock": 463,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2008-09-18T14:28:27.5551692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "quam",
+        "ExtraInfo": "porro",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Loyal Jones Jr.",
+        "FullName": "Hardy Moen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 328
+            "FieldType": "System.Int32",
+            "FieldLength": 851
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "dolore",
+    "ExtraInfo": "non",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Miss Yesenia Koss",
+    "FullName": "Quentin Ferry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 686
+        "FieldLength": 10
       }
     }
   }

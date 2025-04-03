@@ -71,8 +71,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListOwner": "omnis",
-  "ErpConnectionId": 146
+  "ListOwner": "odio",
+  "ErpConnectionId": 691
 }
 ```
 

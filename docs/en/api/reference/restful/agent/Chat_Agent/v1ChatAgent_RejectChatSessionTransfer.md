@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 549
+  "ChatSessionId": 695
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 680,
-  "TopicId": 768,
+  "ChatSessionId": 856,
+  "TopicId": 110,
   "User": null,
   "Person": null,
-  "CustomerAlias": "amet",
-  "CustomerHost": "sed",
-  "CustomerName": "Kshlerin, Brown and Bogisich",
-  "CustomerEmail": "maxime_harber@schinner.us",
-  "CustomerPhone": "276-204-9094 x585",
+  "CustomerAlias": "sapiente",
+  "CustomerHost": "dolore",
+  "CustomerName": "Stroman-Wuckert",
+  "CustomerEmail": "brain@murphystrosin.ca",
+  "CustomerPhone": "1-149-235-1433 x3831",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Hahn LLC",
+  "CustomerCompanyName": "Krajcik Group",
   "Status": "Closed",
-  "FirstMessage": "harum",
+  "FirstMessage": "dolorum",
   "LastMessage": "aut",
-  "WhenRequested": "2016-09-13T02:38:20.9639576+02:00",
-  "WhenStarted": "2003-08-30T02:38:20.9639576+02:00",
-  "WhenEnded": "2012-01-12T02:38:20.9639576+01:00",
-  "WhenIdle": "2002-07-02T02:38:20.9639576+02:00",
-  "WhenFetched": "2003-09-15T02:38:20.9639576+02:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 946,
-  "AlertLevel": 838,
-  "Rank": 818,
+  "WhenRequested": "2018-04-20T14:28:21.5397876+02:00",
+  "WhenStarted": "2004-10-14T14:28:21.5397876+02:00",
+  "WhenEnded": "2020-07-29T14:28:21.5397876+02:00",
+  "WhenIdle": "2009-05-03T14:28:21.5397876+02:00",
+  "WhenFetched": "2006-06-17T14:28:21.5397876+02:00",
+  "SessionKey": "incidunt",
+  "InitialQueuePos": 213,
+  "AlertLevel": 301,
+  "Rank": 378,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 241,
+  "ChatbotIsActive": false,
+  "Rating": 323,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 358
+      "FieldType": "System.Int32",
+      "FieldLength": 296
     }
   }
 }

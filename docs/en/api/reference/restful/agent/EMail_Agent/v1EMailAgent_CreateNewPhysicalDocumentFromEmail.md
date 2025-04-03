@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 886,
-  "EmailItemId": 836
+  "DocumentId": 607,
+  "EmailItemId": 796
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 119,
+  "DocumentId": 227,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "aliquam",
-  "Header": "aut",
-  "Name": "Renner-Parker",
-  "OurRef": "rem",
-  "YourRef": "ab",
-  "CreatedDate": "2000-07-18T02:38:21.3389145+02:00",
-  "UpdatedDate": "2001-05-02T02:38:21.3389145+02:00",
-  "Description": "Realigned object-oriented implementation",
+  "Attention": "voluptatem",
+  "Header": "hic",
+  "Name": "O'Conner, Ebert and Russel",
+  "OurRef": "voluptas",
+  "YourRef": "voluptatem",
+  "CreatedDate": "2024-12-25T14:28:21.9147723+01:00",
+  "UpdatedDate": "2011-06-11T14:28:21.9147723+02:00",
+  "Description": "User-friendly coherent knowledge user",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-10-30T02:38:21.3545452+01:00",
-  "ExternalRef": "tempore",
+  "Date": "2018-08-19T14:28:21.9147723+02:00",
+  "ExternalRef": "voluptatibus",
   "Completed": "Completed",
-  "ActiveLinks": 816,
+  "ActiveLinks": 446,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hamill-Ledner",
-      "Id": 822,
-      "Description": "Organic 3rd generation functionalities",
-      "ExtraInfo": "inventore",
-      "LinkId": 577,
+      "EntityName": "Olson-Mosciski",
+      "Id": 711,
+      "Description": "Triple-buffered multi-tasking framework",
+      "ExtraInfo": "ut",
+      "LinkId": 977,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 809
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 923,
-  "Snum": 848,
+  "SuggestedDocumentId": 605,
+  "Snum": 623,
   "UserDefinedFields": {
-    "SuperOffice:1": "642715438",
-    "SuperOffice:2": "True"
+    "SuperOffice:1": "Miss Dora Marie Crist",
+    "SuperOffice:2": "Prof. Letha Stokes PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptate",
-    "ExtraFields2": "amet"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "ab"
+    "CustomFields1": "velit",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "2015-04-04T02:38:21.3545452+02:00",
-  "PublishTo": "2019-01-11T02:38:21.3545452+01:00",
-  "PublishFrom": "2022-09-11T02:38:21.3545452+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2009-01-31T14:28:21.9147723+01:00",
+  "PublishTo": "2012-07-28T14:28:21.9147723+02:00",
+  "PublishFrom": "2019-12-06T14:28:21.9147723+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 863,
+      "VisibleId": 735,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldLength": 469
         }
       }
     },
     {
-      "VisibleId": 863,
+      "VisibleId": 735,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldLength": 469
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 339
+      "FieldType": "System.Int32",
+      "FieldLength": 228
     }
   }
 }

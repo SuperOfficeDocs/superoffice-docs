@@ -87,35 +87,35 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 616,
-  "Field": "in",
-  "RecordId": 981,
+  "RefCountsId": 124,
+  "Field": "dicta",
+  "RecordId": 1000,
   "SuggestedRecords": [
     {
-      "Id": 413,
-      "Name": "Schoen Inc and Sons",
-      "ToolTip": "Nam nihil praesentium qui vero accusamus natus.",
-      "Deleted": true,
-      "Rank": 833,
-      "Type": "quis",
+      "Id": 197,
+      "Name": "Cronin Group",
+      "ToolTip": "Qui et voluptas aliquid.",
+      "Deleted": false,
+      "Rank": 968,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dolores",
-      "ColorBlock": 125,
-      "ExtraInfo": "et",
-      "StyleHint": "dolore",
-      "FullName": "Easter Kenny Schmidt I"
+      "IconHint": "voluptatem",
+      "ColorBlock": 512,
+      "ExtraInfo": "quia",
+      "StyleHint": "voluptas",
+      "FullName": "Mr. Josefina Martin Walsh V"
     }
   ],
-  "CurrentValue": 172,
-  "TravelPrefix": 867,
-  "SatPrefix": 284,
-  "Allocate": true,
-  "Unique": false,
+  "CurrentValue": 685,
+  "TravelPrefix": 776,
+  "SatPrefix": 340,
+  "Allocate": false,
+  "Unique": true,
   "ReadOnly": false,
-  "AllowBlank": true
+  "AllowBlank": false
 }
 ```
 
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 834,
-  "Field": "voluptas",
-  "RecordId": 323,
+  "RefCountsId": 339,
+  "Field": "accusantium",
+  "RecordId": 632,
   "SuggestedRecords": [
     {
-      "Id": 764,
-      "Name": "Rath-Wuckert",
-      "ToolTip": "Quaerat nulla quod.",
+      "Id": 163,
+      "Name": "Reichert, Adams and Becker",
+      "ToolTip": "Sit alias qui et minus impedit.",
       "Deleted": false,
-      "Rank": 384,
-      "Type": "laboriosam",
+      "Rank": 813,
+      "Type": "earum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "labore",
-      "ColorBlock": 575,
-      "ExtraInfo": "odio",
-      "StyleHint": "quia",
-      "FullName": "Heloise Powlowski",
+      "IconHint": "perferendis",
+      "ColorBlock": 34,
+      "ExtraInfo": "est",
+      "StyleHint": "est",
+      "FullName": "Andrew Ankunding",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 989
+          "FieldLength": 913
         }
       }
     }
   ],
-  "CurrentValue": 361,
-  "TravelPrefix": 384,
-  "SatPrefix": 705,
+  "CurrentValue": 82,
+  "TravelPrefix": 890,
+  "SatPrefix": 165,
   "Allocate": false,
-  "Unique": false,
+  "Unique": true,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldType": "System.Int32",
+      "FieldLength": 920
     }
   }
 }

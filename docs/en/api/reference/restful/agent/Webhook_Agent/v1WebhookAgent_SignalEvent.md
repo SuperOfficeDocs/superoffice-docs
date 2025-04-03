@@ -71,12 +71,12 @@ No Content
 POST /api/v1/Agents/Webhook/SignalEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EventName": "Schroeder Inc and Sons",
-  "PrimaryKey": 731,
+  "EventName": "Goyette, Kautzer and Kuhn",
+  "PrimaryKey": 612,
   "Data": {
     "fieldName": {}
   }

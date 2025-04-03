@@ -27,7 +27,7 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=vel
+GET /api/v1/List/Credited/MDOItems?query=aut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 764,
-    "Name": "O'Keefe LLC",
-    "ToolTip": "Voluptatibus et cumque vitae dolor incidunt.",
-    "Deleted": true,
-    "Rank": 343,
-    "Type": "aut",
+    "Id": 631,
+    "Name": "Lemke-Boyer",
+    "ToolTip": "In perspiciatis earum magni et eum labore occaecati.",
+    "Deleted": false,
+    "Rank": 79,
+    "Type": "repudiandae",
     "ChildItems": [
       {
-        "Id": 942,
-        "Name": "Rosenbaum, Kiehn and Considine",
-        "ToolTip": "Qui impedit.",
+        "Id": 495,
+        "Name": "Barton Inc and Sons",
+        "ToolTip": "Necessitatibus velit dicta ea nobis qui.",
         "Deleted": true,
-        "Rank": 282,
-        "Type": "necessitatibus",
+        "Rank": 519,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 986,
-        "ExtraInfo": "earum",
-        "StyleHint": "quo",
-        "FullName": "Mrs. Matt Corkery DDS",
+        "IconHint": "est",
+        "ColorBlock": 26,
+        "ExtraInfo": "esse",
+        "StyleHint": "voluptatem",
+        "FullName": "Miss Anne Gerhold DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 748
+            "FieldType": "System.String",
+            "FieldLength": 305
           }
         }
       }
     ],
-    "IconHint": "temporibus",
-    "ColorBlock": 858,
-    "ExtraInfo": "cumque",
-    "StyleHint": "quis",
-    "FullName": "Giles Pollich III",
+    "IconHint": "est",
+    "ColorBlock": 273,
+    "ExtraInfo": "aut",
+    "StyleHint": "inventore",
+    "FullName": "Mr. Steve Paolo Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldLength": 1000
       }
     }
   }

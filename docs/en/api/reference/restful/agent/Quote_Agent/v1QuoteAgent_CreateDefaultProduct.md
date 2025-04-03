@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 694,
-  "ERPProductKey": "velit",
-  "ERPPriceListKey": "neque",
-  "Name": "Schmidt-Funk",
-  "Description": "Upgradable grid-enabled function",
-  "Code": "dolorem",
-  "PriceUnit": "voluptate",
-  "QuantityUnit": "libero",
-  "IsSubscription": true,
-  "SubscriptionUnit": "sit",
-  "DefaultSubscriptionQuantity": 29296.631999999998,
-  "ItemNumber": "654113",
+  "ProductId": 39,
+  "ERPProductKey": "sequi",
+  "ERPPriceListKey": "aut",
+  "Name": "Quitzon, Hoeger and Gaylord",
+  "Description": "Fundamental dynamic installation",
+  "Code": "voluptas",
+  "PriceUnit": "quos",
+  "QuantityUnit": "eveniet",
+  "IsSubscription": false,
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 23780.791999999998,
+  "ItemNumber": "1244405",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "consequatur",
-  "ProductTypeKey": "asperiores",
-  "VAT": 12319.753999999999,
-  "VATInfo": "quos",
-  "UnitCost": 17450.112,
-  "UnitMinimumPrice": 23956.296,
-  "UnitListPrice": 17252.67,
-  "InAssortment": true,
-  "Supplier": "nisi",
-  "SupplierCode": "amet",
-  "Rights": "fugiat",
-  "Rule": "nisi",
+  "ProductFamilyKey": "a",
+  "ProductTypeKey": "vitae",
+  "VAT": 13363.376,
+  "VATInfo": "totam",
+  "UnitCost": 5678.808,
+  "UnitMinimumPrice": 30387.264,
+  "UnitListPrice": 22693.293999999998,
+  "InAssortment": false,
+  "Supplier": "molestiae",
+  "SupplierCode": "culpa",
+  "Rights": "laborum",
+  "Rule": "ut",
   "ExtraInfo": [
     {
-      "Name": "Parisian, Schneider and Rolfson",
-      "Value": "repudiandae",
+      "Name": "Reichel Group",
+      "Value": "quaerat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 660
+          "FieldType": "System.String",
+          "FieldLength": 176
         }
       }
     },
     {
-      "Name": "Parisian, Schneider and Rolfson",
-      "Value": "repudiandae",
+      "Name": "Reichel Group",
+      "Value": "quaerat",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 660
+          "FieldType": "System.String",
+          "FieldLength": 176
         }
       }
     }
   ],
-  "RawExtraInfo": "quas",
-  "ExtraField1": "modi",
-  "ExtraField2": "reprehenderit",
-  "ExtraField3": "ab",
-  "ExtraField4": "nesciunt",
-  "ExtraField5": "excepturi",
-  "InStock": 23592.752,
+  "RawExtraInfo": "eos",
+  "ExtraField1": "minus",
+  "ExtraField2": "blanditiis",
+  "ExtraField3": "dolores",
+  "ExtraField4": "cupiditate",
+  "ExtraField5": "aliquid",
+  "InStock": 24880.826,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 66
+      "FieldType": "System.String",
+      "FieldLength": 353
     }
   }
 }

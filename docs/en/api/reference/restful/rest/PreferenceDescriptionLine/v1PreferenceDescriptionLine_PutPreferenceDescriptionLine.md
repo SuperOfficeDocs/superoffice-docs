@@ -89,15 +89,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 104,
-  "PrefDescId": 614,
-  "PrefValue": "est",
-  "PrefShowValue": "nostrum",
-  "Description": "Fundamental tangible intranet",
+  "PrefDescLineId": 471,
+  "PrefDescId": 843,
+  "PrefValue": "ratione",
+  "PrefShowValue": "officia",
+  "Description": "Optimized didactic customer loyalty",
   "IsBuiltin": false
 }
 ```
@@ -109,18 +109,18 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 963,
-  "PrefDescId": 645,
-  "PrefValue": "distinctio",
-  "PrefShowValue": "labore",
-  "Description": "Organic needs-based algorithm",
+  "PrefDescLineId": 501,
+  "PrefDescId": 288,
+  "PrefValue": "aspernatur",
+  "PrefShowValue": "numquam",
+  "Description": "Ameliorated zero defect time-frame",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 746
     }
   },
   "_Links": {

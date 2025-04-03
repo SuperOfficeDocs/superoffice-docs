@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Document?$select=name,department,category/id
 GET /api/v1/Document?$filter=name begins 'S'
 GET /api/v1/Document?$orderBy=name asc
-GET /api/v1/Document?$entities=eum
-GET /api/v1/Document?$top=122
-GET /api/v1/Document?$skip=12
+GET /api/v1/Document?$entities=et
+GET /api/v1/Document?$top=665
+GET /api/v1/Document?$skip=935
 GET /api/v1/Document?$mode=Full
 GET /api/v1/Document?$options=GrandTotal=true
-GET /api/v1/Document?$context=temporibus
+GET /api/v1/Document?$context=et
 GET /api/v1/Document?$format=JSON
 GET /api/v1/Document?$jsonSafe=False
 GET /api/v1/Document?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Document
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "qui",
+  "odata.nextLink": "voluptatem",
   "value": [
     {
-      "PrimaryKey": 5531,
+      "PrimaryKey": 2590,
       "EntityName": "person",
-      "personId": 5531,
-      "fullName": "Frank Greenfelder"
+      "personId": 2590,
+      "fullName": "Larry Litzy Boyle DDS"
     },
     {
-      "PrimaryKey": 575,
+      "PrimaryKey": 7647,
       "EntityName": "person",
-      "personId": 575,
-      "fullName": "Lloyd Dickens"
+      "personId": 7647,
+      "fullName": "Korbin Conn"
     }
   ]
 }

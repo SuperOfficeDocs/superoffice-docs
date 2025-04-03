@@ -128,18 +128,18 @@ ProjectMember  updated.
 PATCH /api/v1/ProjectMember/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "maxime",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "maxime",
     "value": {}
   }
 ]
@@ -152,38 +152,38 @@ HTTP/1.1 200 ProjectMember  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 296,
-  "ContactId": 864,
-  "ProjectId": 999,
-  "ContactName": "Gislason-Hamill",
+  "ProjectmemberId": 962,
+  "ContactId": 488,
+  "ProjectId": 596,
+  "ContactName": "Crooks-Homenick",
   "ContactDepartment": "",
-  "ProjectName": "Abernathy-Turcotte",
-  "EmailId": 712,
-  "EmailAddress": "marguerite@wuckertemard.com",
-  "CountryId": 97,
-  "Firstname": "Kenneth",
-  "MiddleName": "Pfeffer, Torp and Kertzmann",
-  "Lastname": "Wehner",
-  "PersonId": 793,
-  "Mrmrs": "non",
-  "ProjectMemberTypeName": "Ortiz LLC",
-  "Phone": "318.548.0852 x5359",
-  "PhoneId": 752,
-  "ProjectMemberTypeId": 19,
-  "EmailAddressName": "craig@stokes.com",
-  "Comment": "impedit",
-  "FullName": "Prof. Torrey Upton I",
+  "ProjectName": "Moore-McKenzie",
+  "EmailId": 98,
+  "EmailAddress": "jamar@schmeler.info",
+  "CountryId": 719,
+  "Firstname": "Clovis",
+  "MiddleName": "Stracke, Trantow and McClure",
+  "Lastname": "Schmidt",
+  "PersonId": 932,
+  "Mrmrs": "ut",
+  "ProjectMemberTypeName": "Hansen, Zulauf and Larkin",
+  "Phone": "595-937-1282",
+  "PhoneId": 297,
+  "ProjectMemberTypeId": 643,
+  "EmailAddressName": "ward@williamson.name",
+  "Comment": "quia",
+  "FullName": "Dr. Bethel Keven Grady",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldType": "System.Int32",
+      "FieldLength": 992
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

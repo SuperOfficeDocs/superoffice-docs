@@ -166,17 +166,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Pouros-Graham",
-  "Columns": "autem",
-  "SortOrder": "provident",
-  "Restrictions": "sit",
-  "Entities": "illo",
-  "Page": 402,
-  "PageSize": 871
+  "ProviderName": "Marvin LLC",
+  "Columns": "laboriosam",
+  "SortOrder": "quo",
+  "Restrictions": "totam",
+  "Entities": "occaecati",
+  "Page": 274,
+  "PageSize": 874
 }
 ```
 
@@ -188,23 +188,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Sporer, Keebler and McKenzie",
-    "PrimaryKey": 717,
+    "EntityName": "Rempel, Legros and Gutmann",
+    "PrimaryKey": 615,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "modi",
-        "TooltipHint": "blanditiis",
-        "LinkHint": "nesciunt"
+        "DisplayValue": "ipsam",
+        "TooltipHint": "nemo",
+        "LinkHint": "quae"
       }
     },
-    "LinkHint": "pariatur",
-    "StyleHint": "impedit",
+    "LinkHint": "quae",
+    "StyleHint": "alias",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 403
+        "FieldType": "System.Int32",
+        "FieldLength": 647
       }
     }
   }

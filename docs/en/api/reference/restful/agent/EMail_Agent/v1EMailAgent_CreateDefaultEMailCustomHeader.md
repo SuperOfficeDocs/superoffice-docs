@@ -71,17 +71,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Abbott-Fisher",
+  "Name": "Beatty-Goyette",
   "Values": [
-    "dolorem",
-    "est"
+    "qui",
+    "nihil"
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 241
+      "FieldLength": 496
     }
   }
 }

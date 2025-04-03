@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 523,
-      "PrefDescId": 286,
-      "PrefValue": "molestiae",
-      "PrefShowValue": "hic",
-      "Description": "Exclusive transitional intranet",
-      "IsBuiltin": false
+      "PrefDescLineId": 877,
+      "PrefDescId": 205,
+      "PrefValue": "vitae",
+      "PrefShowValue": "accusamus",
+      "Description": "Customizable next generation interface",
+      "IsBuiltin": true
     },
     {
-      "PrefDescLineId": 523,
-      "PrefDescId": 286,
-      "PrefValue": "molestiae",
-      "PrefShowValue": "hic",
-      "Description": "Exclusive transitional intranet",
-      "IsBuiltin": false
+      "PrefDescLineId": 877,
+      "PrefDescId": 205,
+      "PrefValue": "vitae",
+      "PrefShowValue": "accusamus",
+      "Description": "Customizable next generation interface",
+      "IsBuiltin": true
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 879,
-    "PrefDescId": 995,
-    "PrefValue": "eveniet",
-    "PrefShowValue": "non",
-    "Description": "Compatible executive software",
-    "IsBuiltin": false,
+    "PrefDescLineId": 981,
+    "PrefDescId": 1001,
+    "PrefValue": "aliquid",
+    "PrefShowValue": "molestiae",
+    "Description": "Distributed executive knowledge base",
+    "IsBuiltin": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 602
+        "FieldLength": 377
       }
     }
   }

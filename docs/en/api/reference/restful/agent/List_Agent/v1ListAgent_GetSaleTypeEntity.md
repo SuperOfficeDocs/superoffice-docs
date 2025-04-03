@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=468
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=751
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 567,
-  "Name": "Rutherford, Bogisich and Hettinger",
-  "Tooltip": "quia",
-  "Rank": 309,
+  "SaleTypeId": 548,
+  "Name": "Dare-Rogahn",
+  "Tooltip": "ut",
+  "Rank": 376,
   "DurationUnit": "Century",
-  "SaleDuration": 497,
-  "SaleTypeCatId": 698,
-  "Deleted": true,
+  "SaleDuration": 269,
+  "SaleTypeCatId": 514,
+  "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 644,
-  "QuoteLinesTemplate": 379,
-  "ConfirmationLinesTemplate": 155,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 630,
+  "QuoteLinesTemplate": 672,
+  "ConfirmationLinesTemplate": 158,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 776,
-  "MinEarningPercent": 460,
-  "GroupQuoteLinesBy": 946,
-  "SortGroupLinesBy": 282,
+  "MaxDiscountPercent": 469,
+  "MinEarningPercent": 94,
+  "GroupQuoteLinesBy": 745,
+  "SortGroupLinesBy": 322,
   "Stages": [
     {
-      "Id": 1001,
-      "Name": "Mohr, Schneider and Friesen",
-      "ToolTip": "Maiores corrupti quae et distinctio reiciendis et.",
-      "Deleted": false,
-      "Rank": 689,
-      "Type": "error",
-      "ColorBlock": 390,
-      "IconHint": "adipisci",
-      "Selected": false,
-      "LastChanged": "2000-04-01T02:38:21.4951545+02:00",
+      "Id": 632,
+      "Name": "Emard, Ullrich and Hessel",
+      "ToolTip": "Commodi sunt.",
+      "Deleted": true,
+      "Rank": 178,
+      "Type": "provident",
+      "ColorBlock": 55,
+      "IconHint": "voluptas",
+      "Selected": true,
+      "LastChanged": "1999-01-28T14:28:22.039767+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "qui",
+      "ExtraInfo": "aperiam",
+      "StyleHint": "in",
       "Hidden": false,
-      "FullName": "Ms. Roger Sidney O'Reilly",
+      "FullName": "Dr. Daphne Zula Rath",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 945
+          "FieldLength": 114
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldLength": 594
     }
   }
 }

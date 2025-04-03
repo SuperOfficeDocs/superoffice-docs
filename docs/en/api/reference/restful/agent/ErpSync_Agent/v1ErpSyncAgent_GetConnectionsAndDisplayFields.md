@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 775
+  "EntityId": 753
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 461,
-    "ConnectionName": "Johnson LLC",
+    "ErpConnectionId": 559,
+    "ConnectionName": "Adams, Johnston and Lubowitz",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "officiis",
-        "Rank": 285,
-        "DisplayName": "Kiehn LLC",
-        "DisplayDescription": "Stand-alone context-sensitive functionalities",
+        "FieldKey": "neque",
+        "Rank": 254,
+        "DisplayName": "McClure, Ebert and Kub",
+        "DisplayDescription": "Multi-lateral regional structure",
         "FieldType": "Checkbox",
-        "ListName": "Murphy LLC",
-        "DefaultValue": "praesentium",
-        "MaxLength": 117,
+        "ListName": "Kertzmann, Gerlach and Reilly",
+        "DefaultValue": "voluptatum",
+        "MaxLength": 290,
         "Access": "Mandatory",
-        "ShowInSearch": false,
+        "ShowInSearch": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 747
+            "FieldLength": 785
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "quia",
-      "tempore"
+      "veritatis",
+      "et"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 923
+        "FieldLength": 988
       }
     }
   }

@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersOnPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 314
+  "PersonId": 942
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 752,
-    "Name": "Cole, Lubowitz and Johns",
-    "Value": "maiores",
-    "CreatedDate": "2019-04-18T02:38:20.8702208+02:00",
-    "UpdatedDate": "2014-04-05T02:38:20.8702208+02:00",
-    "CreatedBy": "voluptatem",
-    "UpdatedBy": "aspernatur",
+    "AudienceLayoutId": 408,
+    "Name": "Barrows-Goyette",
+    "Value": "et",
+    "CreatedDate": "2008-01-16T14:28:21.47729+01:00",
+    "UpdatedDate": "2012-04-20T14:28:21.47729+02:00",
+    "CreatedBy": "nostrum",
+    "UpdatedBy": "asperiores",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 819
+        "FieldLength": 827
       }
     }
   }

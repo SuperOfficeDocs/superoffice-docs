@@ -148,51 +148,51 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 583,
-  "ERPProductKey": "voluptatibus",
-  "ERPPriceListKey": "et",
-  "Name": "Gleichner-Schamberger",
-  "Description": "Re-contextualized multimedia standardization",
-  "Code": "sunt",
-  "PriceUnit": "tempora",
-  "QuantityUnit": "fuga",
+  "ProductId": 421,
+  "ERPProductKey": "molestias",
+  "ERPPriceListKey": "ipsam",
+  "Name": "Wintheiser Group",
+  "Description": "Optional dynamic task-force",
+  "Code": "enim",
+  "PriceUnit": "rem",
+  "QuantityUnit": "ut",
   "IsSubscription": false,
-  "SubscriptionUnit": "qui",
-  "DefaultSubscriptionQuantity": 30913.775999999998,
-  "ItemNumber": "1098589",
+  "SubscriptionUnit": "quasi",
+  "DefaultSubscriptionQuantity": 12269.609999999999,
+  "ItemNumber": "1222675",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
   "ProductFamilyKey": "non",
-  "ProductTypeKey": "provident",
-  "VAT": 17522.194,
-  "VATInfo": "nisi",
-  "UnitCost": 31198.969999999998,
-  "UnitMinimumPrice": 12043.962,
-  "UnitListPrice": 16503.644,
-  "InAssortment": true,
-  "Supplier": "necessitatibus",
-  "SupplierCode": "cum",
-  "Rights": "rem",
-  "Rule": "aut",
+  "ProductTypeKey": "rerum",
+  "VAT": 18587.754,
+  "VATInfo": "est",
+  "UnitCost": 23260.548,
+  "UnitMinimumPrice": 7769.186,
+  "UnitListPrice": 5920.126,
+  "InAssortment": false,
+  "Supplier": "et",
+  "SupplierCode": "consequatur",
+  "Rights": "est",
+  "Rule": "necessitatibus",
   "ExtraInfo": [
     {
-      "Name": "Nicolas, Stark and Doyle",
-      "Value": "veritatis",
+      "Name": "Koss, Weber and Jenkins",
+      "Value": "et",
       "Type": "Image"
     },
     {
-      "Name": "Nicolas, Stark and Doyle",
-      "Value": "veritatis",
+      "Name": "Koss, Weber and Jenkins",
+      "Value": "et",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "facere",
-  "ExtraField1": "alias",
-  "ExtraField2": "molestias",
-  "ExtraField3": "ab",
+  "RawExtraInfo": "quia",
+  "ExtraField1": "ducimus",
+  "ExtraField2": "aliquid",
+  "ExtraField3": "quibusdam",
   "ExtraField4": "sunt",
-  "ExtraField5": "modi",
-  "InStock": 24413.86
+  "ExtraField5": "possimus",
+  "InStock": 13103.253999999999
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 658,
-  "ERPProductKey": "et",
-  "ERPPriceListKey": "iure",
-  "Name": "Graham, Kozey and Haag",
-  "Description": "Innovative methodical model",
-  "Code": "vel",
-  "PriceUnit": "enim",
-  "QuantityUnit": "nobis",
+  "ProductId": 167,
+  "ERPProductKey": "dolorem",
+  "ERPPriceListKey": "enim",
+  "Name": "Legros-Lubowitz",
+  "Description": "Multi-layered client-server standardization",
+  "Code": "aut",
+  "PriceUnit": "fugiat",
+  "QuantityUnit": "maiores",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptas",
-  "DefaultSubscriptionQuantity": 8815.942,
-  "ItemNumber": "967308",
+  "SubscriptionUnit": "sit",
+  "DefaultSubscriptionQuantity": 15557.176,
+  "ItemNumber": "1234358",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eos",
-  "ProductTypeKey": "quaerat",
-  "VAT": 19073.523999999998,
-  "VATInfo": "ratione",
-  "UnitCost": 7330.4259999999995,
-  "UnitMinimumPrice": 26300.528,
-  "UnitListPrice": 11924.869999999999,
-  "InAssortment": false,
-  "Supplier": "voluptatem",
-  "SupplierCode": "hic",
-  "Rights": "vitae",
-  "Rule": "reiciendis",
+  "ProductFamilyKey": "sit",
+  "ProductTypeKey": "eum",
+  "VAT": 19994.92,
+  "VATInfo": "molestias",
+  "UnitCost": 19684.654,
+  "UnitMinimumPrice": 21264.19,
+  "UnitListPrice": 2218.872,
+  "InAssortment": true,
+  "Supplier": "ut",
+  "SupplierCode": "fugit",
+  "Rights": "voluptatem",
+  "Rule": "repellat",
   "ExtraInfo": [
     {
-      "Name": "Bergstrom-Gleichner",
-      "Value": "maxime",
+      "Name": "Nicolas, Koss and Lockman",
+      "Value": "minus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 155
+          "FieldType": "System.String",
+          "FieldLength": 270
         }
       }
     },
     {
-      "Name": "Bergstrom-Gleichner",
-      "Value": "maxime",
+      "Name": "Nicolas, Koss and Lockman",
+      "Value": "minus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 155
+          "FieldType": "System.String",
+          "FieldLength": 270
         }
       }
     }
   ],
-  "RawExtraInfo": "tempore",
-  "ExtraField1": "quod",
-  "ExtraField2": "molestiae",
+  "RawExtraInfo": "velit",
+  "ExtraField1": "accusantium",
+  "ExtraField2": "similique",
   "ExtraField3": "et",
-  "ExtraField4": "maiores",
-  "ExtraField5": "at",
-  "InStock": 19405.728,
+  "ExtraField4": "dicta",
+  "ExtraField5": "est",
+  "InStock": 6452.906,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 352
     }
   }
 }

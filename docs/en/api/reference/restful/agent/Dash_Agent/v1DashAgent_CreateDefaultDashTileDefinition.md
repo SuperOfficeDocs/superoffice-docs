@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 496,
-  "Name": "Leuschke-Rempel",
-  "Description": "Adaptive 3rd generation toolset",
-  "DefaultHeight": 400,
-  "DefaultWidth": 785,
+  "DashboardTileDefinitionId": 831,
+  "Name": "Bergstrom-Heaney",
+  "Description": "Fully-configurable actuating concept",
+  "DefaultHeight": 218,
+  "DefaultWidth": 512,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "McGlynn, Swaniawski and Breitenberg",
-  "SelectionId": 177,
+  "EntityName": "Feeney-Vandervort",
+  "SelectionId": 23,
   "CurrencyMode": "Base",
-  "CurrencyCode": "deleniti",
+  "CurrencyCode": "earum",
   "Measure": "Average",
-  "MeasureField": "sed",
-  "SortBy": "sunt",
-  "LayoutConfig": "nesciunt",
-  "SecondarySelectionId": 161,
-  "MeasureByField": "cum",
+  "MeasureField": "nostrum",
+  "SortBy": "voluptates",
+  "LayoutConfig": "ducimus",
+  "SecondarySelectionId": 344,
+  "MeasureByField": "sunt",
   "Usage": "Dashboard",
-  "ProviderName": "Schmidt Inc and Sons",
+  "ProviderName": "Douglas, Pollich and O'Keefe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldLength": 744
     }
   }
 }

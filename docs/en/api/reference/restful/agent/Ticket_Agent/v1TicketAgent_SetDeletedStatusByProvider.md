@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Satterfield, Herzog and Douglas",
+  "ProviderName": "Willms-Haley",
   "Restrictions": [
     {
-      "Name": "Sporer, Fadel and Leffler",
-      "Operator": "qui",
+      "Name": "Murray, McGlynn and Mohr",
+      "Operator": "tempore",
       "Values": [
-        "numquam",
-        "pariatur"
+        "labore",
+        "necessitatibus"
       ],
       "DisplayValues": [
-        "vel",
-        "a"
+        "velit",
+        "delectus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 717,
+      "InterParenthesis": 221,
       "InterOperator": "And",
-      "UniqueHash": 330
+      "UniqueHash": 586
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  787,
-  254
+  328,
+  49
 ]
 ```

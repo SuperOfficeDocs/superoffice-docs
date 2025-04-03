@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 467,
-    "Name": "Huels-Goyette",
-    "ToolTip": "Sed optio nemo explicabo suscipit quis dolor.",
-    "Deleted": true,
-    "Rank": 447,
-    "Type": "hic",
-    "ColorBlock": 20,
-    "IconHint": "aut",
+    "Id": 792,
+    "Name": "Waelchi LLC",
+    "ToolTip": "Sequi non possimus.",
+    "Deleted": false,
+    "Rank": 436,
+    "Type": "optio",
+    "ColorBlock": 345,
+    "IconHint": "neque",
     "Selected": true,
-    "LastChanged": "2007-05-03T02:38:26.6830285+02:00",
+    "LastChanged": "2007-03-05T14:28:27.4926717+01:00",
     "ChildItems": [
       {
-        "Id": 158,
-        "Name": "Predovic, Hermiston and Doyle",
-        "ToolTip": "Quisquam quia iure commodi ex.",
+        "Id": 959,
+        "Name": "Bernhard-Brakus",
+        "ToolTip": "Ad fuga nesciunt et dolorem.",
         "Deleted": true,
-        "Rank": 910,
-        "Type": "et",
-        "ColorBlock": 755,
-        "IconHint": "assumenda",
+        "Rank": 599,
+        "Type": "tempora",
+        "ColorBlock": 452,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2019-11-11T02:38:26.6830285+01:00",
+        "LastChanged": "2017-07-03T14:28:27.4926717+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "fugiat",
-        "Hidden": true,
-        "FullName": "Jenifer Colby Rowe MD",
+        "ExtraInfo": "eaque",
+        "StyleHint": "velit",
+        "Hidden": false,
+        "FullName": "Ms. Nelson Wintheiser I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 836
+            "FieldType": "System.Int32",
+            "FieldLength": 437
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "dolor",
-    "Hidden": false,
-    "FullName": "Gabe Anderson",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "enim",
+    "Hidden": true,
+    "FullName": "Delaney Murphy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 965
+        "FieldLength": 483
       }
     }
   }

@@ -27,7 +27,7 @@ Deletes the ErpSyncConnectorEntity
 | ErpSyncConnectorEntityId | int32 | **Required** The id of the ErpSyncConnectorEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity?ErpSyncConnectorEntityId=948
+POST /api/v1/Agents/ErpSync/DeleteErpSyncConnectorEntity?ErpSyncConnectorEntityId=277
 ```
 
 

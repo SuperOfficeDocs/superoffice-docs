@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=quasi
+GET /api/v1/List/LegalBase/MDOItems?query=aperiam
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 262,
-    "Name": "Padberg Group",
-    "ToolTip": "Non mollitia.",
+    "Id": 330,
+    "Name": "Gorczany-Brown",
+    "ToolTip": "Sed odio reprehenderit qui dignissimos.",
     "Deleted": true,
-    "Rank": 853,
-    "Type": "quaerat",
+    "Rank": 118,
+    "Type": "labore",
     "ChildItems": [
       {
-        "Id": 795,
-        "Name": "Doyle LLC",
-        "ToolTip": "Odio ut velit est.",
+        "Id": 668,
+        "Name": "Farrell-Moen",
+        "ToolTip": "Necessitatibus minus.",
         "Deleted": false,
-        "Rank": 442,
-        "Type": "iure",
+        "Rank": 875,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 904,
-        "ExtraInfo": "sunt",
-        "StyleHint": "rerum",
-        "FullName": "Miss Arianna Dandre Pouros",
+        "IconHint": "quo",
+        "ColorBlock": 747,
+        "ExtraInfo": "esse",
+        "StyleHint": "consequatur",
+        "FullName": "Frida Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 497
+            "FieldType": "System.String",
+            "FieldLength": 724
           }
         }
       }
     ],
-    "IconHint": "expedita",
-    "ColorBlock": 999,
-    "ExtraInfo": "consectetur",
-    "StyleHint": "occaecati",
-    "FullName": "Ross Ebert",
+    "IconHint": "quas",
+    "ColorBlock": 986,
+    "ExtraInfo": "dolorem",
+    "StyleHint": "commodi",
+    "FullName": "Lucinda Block",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 986
+        "FieldType": "System.Int32",
+        "FieldLength": 534
       }
     }
   }

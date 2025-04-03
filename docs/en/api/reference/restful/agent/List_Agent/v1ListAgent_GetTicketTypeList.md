@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 870,
-    "Name": "Hahn-Kovacek",
-    "Rank": 836,
-    "Tooltip": "perspiciatis",
-    "Icon": "quas",
-    "DefaultTicketStatus": 58,
+    "TicketTypeId": 732,
+    "Name": "Breitenberg-Lang",
+    "Rank": 753,
+    "Tooltip": "rem",
+    "Icon": "mollitia",
+    "DefaultTicketStatus": 518,
     "TicketStatuses": [
-      942,
-      920
+      137,
+      884
     ],
-    "DefaultTicketPriority": 534,
+    "DefaultTicketPriority": 180,
     "TicketPriorities": [
-      425,
-      825
+      452,
+      606
     ],
-    "ReplyTemplate": 202,
+    "ReplyTemplate": 965,
     "IsExternalVisible": true,
     "IsDefault": false,
-    "ShowInNew": true,
+    "ShowInNew": false,
     "ExcludeSignature": false,
-    "ExcludeEmailRecipients": false,
+    "ExcludeEmailRecipients": true,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      574,
-      746
+      24,
+      178
     ],
     "ReplyForwardNoSignature": false,
-    "ReplyExternalAsDefault": false,
+    "ReplyExternalAsDefault": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 533
+        "FieldLength": 385
       }
     }
   }

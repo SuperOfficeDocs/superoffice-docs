@@ -34,7 +34,7 @@ The destination contact will remain.
 
 ```http
 POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?mergeIdenticalPersons=True
-POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?replaceEmptyFieldsOnDestination=True
+POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}?replaceEmptyFieldsOnDestination=False
 ```
 
 
@@ -65,7 +65,7 @@ No Content
 POST /api/v1/Contact/{sourceContactId}/MergeTo/{destinationContactId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response

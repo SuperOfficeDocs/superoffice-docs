@@ -569,6 +569,8 @@
     name: AppointmentCautionWarning
   - uid: SuperOffice.WebApi.Data.AppointmentEntity
     name: AppointmentEntity
+  - uid: SuperOffice.WebApi.Data.AppointmentExternalOwner
+    name: AppointmentExternalOwner
   - uid: SuperOffice.WebApi.Data.AppointmentInfo
     name: AppointmentInfo
   - uid: SuperOffice.WebApi.Data.AppointmentPrivate
@@ -1259,6 +1261,8 @@
     name: CustomerService_FindTicketsByTitleOrIdRequest
   - uid: SuperOffice.WebApi.Data.CustomerService_GetAllCustomerCenterConfigsRequest
     name: CustomerService_GetAllCustomerCenterConfigsRequest
+  - uid: SuperOffice.WebApi.Data.CustomerService_GetCustomerServiceStartupByOwnerRequest
+    name: CustomerService_GetCustomerServiceStartupByOwnerRequest
   - uid: SuperOffice.WebApi.Data.CustomerService_GetCustomerServiceStartupRequest
     name: CustomerService_GetCustomerServiceStartupRequest
   - uid: SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest
@@ -2827,6 +2831,10 @@
     name: NotificationMessageType
   - uid: SuperOffice.WebApi.Data.NotificationPlatform
     name: NotificationPlatform
+  - uid: SuperOffice.WebApi.Data.NotifyChannel
+    name: NotifyChannel
+  - uid: SuperOffice.WebApi.Data.NotifyType
+    name: NotifyType
   - uid: SuperOffice.WebApi.Data.NumberAllocation_GetNumberEachTemplateRequest
     name: NumberAllocation_GetNumberEachTemplateRequest
   - uid: SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest
@@ -4005,6 +4013,8 @@
     name: Ticket_GetDefaultMessageContentWithOptionsRequest
   - uid: SuperOffice.WebApi.Data.Ticket_GetForRmUiRequest
     name: Ticket_GetForRmUiRequest
+  - uid: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest
+    name: Ticket_GetHotlistEjUsersRequest
   - uid: SuperOffice.WebApi.Data.Ticket_GetNextInQueueRequest
     name: Ticket_GetNextInQueueRequest
   - uid: SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest

@@ -26,8 +26,8 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Currency/MDOItems?flat=True
-GET /api/v1/List/Currency/MDOItems?query=quia
+GET /api/v1/List/Currency/MDOItems?flat=False
+GET /api/v1/List/Currency/MDOItems?query=fugiat
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 737,
-    "Name": "Senger-Labadie",
-    "ToolTip": "Dignissimos facilis debitis.",
+    "Id": 672,
+    "Name": "Zemlak, Rosenbaum and Haag",
+    "ToolTip": "Dolorum laborum et ab suscipit necessitatibus ea dolorem.",
     "Deleted": true,
-    "Rank": 7,
-    "Type": "sequi",
+    "Rank": 304,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 569,
-        "Name": "Farrell, Rempel and Haley",
-        "ToolTip": "Suscipit repudiandae vero corrupti sed culpa.",
-        "Deleted": true,
-        "Rank": 818,
-        "Type": "ipsum",
+        "Id": 960,
+        "Name": "Huels Group",
+        "ToolTip": "Ut aperiam placeat tempora tenetur eos sunt.",
+        "Deleted": false,
+        "Rank": 668,
+        "Type": "dolorem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tempore",
-        "ColorBlock": 855,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "voluptate",
-        "FullName": "Prof. Vaughn Borer",
+        "IconHint": "nam",
+        "ColorBlock": 193,
+        "ExtraInfo": "et",
+        "StyleHint": "corrupti",
+        "FullName": "Glenda Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 43
+            "FieldLength": 139
           }
         }
       }
     ],
-    "IconHint": "unde",
-    "ColorBlock": 293,
-    "ExtraInfo": "eveniet",
-    "StyleHint": "voluptatem",
-    "FullName": "Vern Fadel",
+    "IconHint": "voluptates",
+    "ColorBlock": 460,
+    "ExtraInfo": "occaecati",
+    "StyleHint": "dolorum",
+    "FullName": "Miss Crystal Mazie Kertzmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 861
+        "FieldLength": 445
       }
     }
   }

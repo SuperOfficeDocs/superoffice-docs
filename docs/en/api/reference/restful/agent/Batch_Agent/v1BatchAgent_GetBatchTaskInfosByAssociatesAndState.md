@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    459,
-    729
+    76,
+    550
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 489,
-    "Name": "Will Group",
-    "AssociateId": 280,
-    "DetailsTable": 491,
-    "DetailsRecord": 765,
+    "Id": 961,
+    "Name": "Wuckert, Hoppe and Mitchell",
+    "AssociateId": 679,
+    "DetailsTable": 357,
+    "DetailsRecord": 558,
     "IsSystemTask": false,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "explicabo",
-      "ParameterObject2": "cupiditate"
+      "ParameterObject1": "in",
+      "ParameterObject2": "voluptatibus"
     },
-    "LastStarted": "2004-02-05T02:38:20.885843+01:00",
-    "Created": "1997-11-19T02:38:20.885843+01:00",
-    "StartCount": 939,
-    "DatabaseSerialNumber": "1418761",
-    "Context": "nobis",
-    "Result": "debitis",
+    "LastStarted": "2002-06-29T14:28:21.4929147+02:00",
+    "Created": "1999-10-17T14:28:21.4929147+02:00",
+    "StartCount": 545,
+    "DatabaseSerialNumber": "1152876",
+    "Context": "velit",
+    "Result": "quia",
     "State": "All",
-    "Description": "Future-proofed content-based middleware",
-    "Response": "dolores",
-    "Request": "quam",
-    "ProgressDescription": "Public-key assymetric firmware",
-    "ProgressPercent": 370,
-    "FileName": "Schroeder Inc and Sons",
+    "Description": "Robust needs-based protocol",
+    "Response": "vel",
+    "Request": "nesciunt",
+    "ProgressDescription": "Organized zero tolerance moratorium",
+    "ProgressPercent": 612,
+    "FileName": "Rohan LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 166
+        "FieldType": "System.Int32",
+        "FieldLength": 437
       }
     }
   }

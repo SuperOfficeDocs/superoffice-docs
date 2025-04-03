@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2003-07-06T02:38:21.0264152+02:00",
+  "ActivityStartTime": "2000-11-03T14:28:21.6179108+01:00",
   "ContactCategories": [
-    754,
+    75,
     73
   ],
   "ActionType": "ActivityCompleted"
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 51,
+    "ContactId": 411,
     "Department": "",
-    "OrgNr": "654819",
-    "Name": "Schoen-Streich",
+    "OrgNr": "1181892",
+    "Name": "Marvin-Christiansen",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Darrick Batz",
+    "AssociateFullName": "Carson Schowalter",
     "Action": "ActivityCompleted",
-    "ActionTime": "2020-02-19T02:38:21.0264152+01:00",
+    "ActionTime": "2014-08-27T14:28:21.6179108+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Goodwin-Roob",
-    "ActionId": 86,
-    "PersonId": 297,
-    "ActivityPersonId": 202,
-    "AssociateId": 461,
+    "ActivityPersonName": "Wunsch-Gleichner",
+    "ActionId": 50,
+    "PersonId": 760,
+    "ActivityPersonId": 488,
+    "AssociateId": 593,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldType": "System.String",
+        "FieldLength": 929
       }
     }
   }

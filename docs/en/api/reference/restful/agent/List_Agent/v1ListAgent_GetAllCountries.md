@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 421,
-    "Name": "Cole, Flatley and Sanford",
-    "CurrencyId": 559,
-    "EnglishName": "Altenwerth Inc and Sons",
+    "CountryId": 919,
+    "Name": "Stanton LLC",
+    "CurrencyId": 571,
+    "EnglishName": "Jacobi-McLaughlin",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Business-focused optimizing concept",
-    "OrgNrText": "1102002",
-    "InterAreaPrefix": "omnis",
-    "DialInPrefix": "accusamus",
-    "ZipPrefix": "expedita",
-    "DomainName": "Buckridge, Jenkins and Swaniawski",
-    "AddressLayoutId": 813,
-    "DomesticAddressLayoutId": 693,
-    "ForeignAddressLayoutId": 687,
-    "Rank": 112,
-    "Tooltip": "praesentium",
-    "Deleted": true,
+    "ImageDescription": "Digitized user-facing success",
+    "OrgNrText": "1399878",
+    "InterAreaPrefix": "molestias",
+    "DialInPrefix": "eos",
+    "ZipPrefix": "consequuntur",
+    "DomainName": "Renner Inc and Sons",
+    "AddressLayoutId": 403,
+    "DomesticAddressLayoutId": 267,
+    "ForeignAddressLayoutId": 866,
+    "Rank": 431,
+    "Tooltip": "est",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 875
+        "FieldType": "System.Int32",
+        "FieldLength": 66
       }
     }
   }

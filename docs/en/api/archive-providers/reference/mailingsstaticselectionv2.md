@@ -659,7 +659,7 @@ Static archive Provider for a Selection of Mailingss archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsStaticSelectionV2?$select=registeredBy,mailingAddr/person/personPrivate/formattedNumber,mailingAddr/person/personExtra/x_person_time,associate/assocTooltip,associate/credentialType
+GET /api/v1/archive/MailingsStaticSelectionV2?$select=mailingAddr/contact/postAddress/addressId,mailingAddr/contact/contactAssociate/associateDbId,mailingAddr/contact/contactUdef/SuperOffice:11,mailingAddr/person/email/emailLastSent,associate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

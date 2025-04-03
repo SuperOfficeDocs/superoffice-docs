@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "fugiat",
-    "ipsa"
+    "dolorum",
+    "qui"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 384,
-  "ERPQuoteLineKey": "corporis",
-  "QuoteAlternativeId": 232,
-  "ERPProductKey": "tenetur",
+  "QuoteLineId": 676,
+  "ERPQuoteLineKey": "quia",
+  "QuoteAlternativeId": 916,
+  "ERPProductKey": "totam",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 13770.796,
-  "DeliveredQuantity": 15481.96,
-  "Rank": 81,
-  "Name": "Daugherty Group",
-  "Description": "Reverse-engineered client-driven product",
-  "Code": "consequatur",
-  "QuantityUnit": "non",
-  "PriceUnit": "hic",
-  "ItemNumber": "1883595",
+  "Quantity": 25144.082,
+  "DeliveredQuantity": 10784.094,
+  "Rank": 273,
+  "Name": "Lueilwitz, Stehr and Bosco",
+  "Description": "Automated human-resource installation",
+  "Code": "omnis",
+  "QuantityUnit": "impedit",
+  "PriceUnit": "voluptatem",
+  "ItemNumber": "540881",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolores",
-  "ProductTypeKey": "architecto",
-  "Supplier": "repellat",
-  "SupplierCode": "temporibus",
-  "Thumbnail": "sequi",
-  "VATInfo": "nulla",
-  "VAT": 1601.474,
-  "UnitCost": 24736.662,
-  "UnitMinimumPrice": 9699.73,
-  "UnitListPrice": 20803.492,
+  "ProductFamilyKey": "nam",
+  "ProductTypeKey": "quo",
+  "Supplier": "ea",
+  "SupplierCode": "iusto",
+  "Thumbnail": "praesentium",
+  "VATInfo": "placeat",
+  "VAT": 10091.48,
+  "UnitCost": 23990.77,
+  "UnitMinimumPrice": 13861.681999999999,
+  "UnitListPrice": 1535.6599999999999,
   "ExtraInfo": [
     {
-      "Name": "Gorczany, Friesen and Mohr",
-      "Value": "illum",
+      "Name": "Parisian LLC",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 631
+          "FieldLength": 36
         }
       }
     },
     {
-      "Name": "Gorczany, Friesen and Mohr",
-      "Value": "illum",
+      "Name": "Parisian LLC",
+      "Value": "consequatur",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 631
+          "FieldLength": 36
         }
       }
     }
   ],
-  "RawExtraInfo": "sapiente",
+  "RawExtraInfo": "minima",
   "IsSubscription": false,
-  "SubscriptionUnit": "non",
-  "SubscriptionQuantity": 20753.347999999998,
-  "SubscriptionStart": "2023-01-08T02:38:21.7451279+01:00",
-  "ERPDiscountPercent": 26407.084,
-  "ERPDiscountAmount": 23768.255999999998,
-  "DiscountPercent": 29334.239999999998,
-  "DiscountAmount": 5374.8099999999995,
+  "SubscriptionUnit": "voluptatibus",
+  "SubscriptionQuantity": 24940.372,
+  "SubscriptionStart": "2018-03-06T14:28:22.274133+01:00",
+  "ERPDiscountPercent": 17490.854,
+  "ERPDiscountAmount": 4418.94,
+  "DiscountPercent": 30434.273999999998,
+  "DiscountAmount": 17945.284,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 2757.92,
-  "EarningAmount": 5628.664,
-  "SubTotal": 21677.878,
-  "TotalPrice": 25983.994,
-  "Rights": "ad",
-  "Rule": "illo",
-  "ExtraField1": "officia",
+  "EarningPercent": 24119.264,
+  "EarningAmount": 9307.98,
+  "SubTotal": 921.396,
+  "TotalPrice": 8931.9,
+  "Rights": "autem",
+  "Rule": "sequi",
+  "ExtraField1": "natus",
   "ExtraField2": "qui",
-  "ExtraField3": "omnis",
-  "ExtraField4": "adipisci",
-  "ExtraField5": "est",
+  "ExtraField3": "et",
+  "ExtraField4": "est",
+  "ExtraField5": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 699
+      "FieldLength": 750
     }
   }
 }

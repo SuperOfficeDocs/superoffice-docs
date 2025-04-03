@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Configuration/GetCSAuthUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Language": "non",
-  "ProgramName": "Kirlin Inc and Sons",
-  "Action": "architecto",
-  "ExtraParameters": "est"
+  "Language": "minima",
+  "ProgramName": "Tromp-Kuphal",
+  "Action": "assumenda",
+  "ExtraParameters": "ea"
 }
 ```
 

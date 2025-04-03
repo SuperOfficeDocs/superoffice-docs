@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 138,
-    "Name": "Block Group",
-    "Tooltip": "itaque",
-    "Deleted": true,
-    "Rank": 535,
-    "UdListDefinitionId": 921,
+    "HeadingId": 641,
+    "Name": "Buckridge Group",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "Rank": 836,
+    "UdListDefinitionId": 37,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 212
+        "FieldLength": 745
       }
     }
   }

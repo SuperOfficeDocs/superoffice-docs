@@ -27,7 +27,7 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=repellat
+GET /api/v1/List/DeliveryTerm/MDOItems?query=quis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 74,
-    "Name": "O'Hara Group",
-    "ToolTip": "Excepturi et quam.",
+    "Id": 819,
+    "Name": "Prosacco, Crona and Renner",
+    "ToolTip": "Est eaque recusandae a et vero dolor.",
     "Deleted": true,
-    "Rank": 139,
-    "Type": "quia",
+    "Rank": 232,
+    "Type": "quaerat",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Emmerich Inc and Sons",
-        "ToolTip": "Eos nihil at.",
-        "Deleted": false,
-        "Rank": 699,
-        "Type": "unde",
+        "Id": 556,
+        "Name": "Ruecker-Gaylord",
+        "ToolTip": "Cum dignissimos laudantium accusamus numquam maxime vitae explicabo.",
+        "Deleted": true,
+        "Rank": 81,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sequi",
-        "ColorBlock": 233,
-        "ExtraInfo": "deserunt",
-        "StyleHint": "in",
-        "FullName": "Zena Reichert",
+        "IconHint": "explicabo",
+        "ColorBlock": 295,
+        "ExtraInfo": "illo",
+        "StyleHint": "sit",
+        "FullName": "Miss Wilfred Schneider",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 789
+            "FieldType": "System.Int32",
+            "FieldLength": 122
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 437,
-    "ExtraInfo": "magni",
-    "StyleHint": "alias",
-    "FullName": "Manuel Natalie Roberts IV",
+    "IconHint": "sint",
+    "ColorBlock": 783,
+    "ExtraInfo": "rerum",
+    "StyleHint": "beatae",
+    "FullName": "Electa Zboncak Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 674
+        "FieldType": "System.Int32",
+        "FieldLength": 254
       }
     }
   }

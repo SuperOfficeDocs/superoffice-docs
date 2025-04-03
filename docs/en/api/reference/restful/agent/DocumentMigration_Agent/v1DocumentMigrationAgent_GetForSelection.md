@@ -82,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 818,
-  "SelectionId": 729,
-  "IncludeEmails": false
+  "DocumentPluginId": 350,
+  "SelectionId": 72,
+  "IncludeEmails": true
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 438,
-  "NumDocumentsAlreadyMigrated": 364,
+  "NumDocumentsOmitted": 660,
+  "NumDocumentsAlreadyMigrated": 225,
   "Documents": [
     {
-      "DocumentId": 64,
-      "ContactId": 503,
-      "PersonId": 274,
-      "SaleId": 443,
-      "ProjectId": 672,
-      "DocTmplId": 365,
-      "AssociateId": 723,
-      "UserGroupId": 830,
-      "VisibleForId": 317
+      "DocumentId": 772,
+      "ContactId": 278,
+      "PersonId": 628,
+      "SaleId": 892,
+      "ProjectId": 844,
+      "DocTmplId": 684,
+      "AssociateId": 200,
+      "UserGroupId": 161,
+      "VisibleForId": 33
     }
   ],
   "Associates": [
     {
-      "AssociateId": 955,
-      "EmailAddress": "virgil.macejkovic@ratke.co.uk"
+      "AssociateId": 964,
+      "EmailAddress": "elda@kihnmcclure.uk"
     },
     {
-      "AssociateId": 955,
-      "EmailAddress": "virgil.macejkovic@ratke.co.uk"
+      "AssociateId": 964,
+      "EmailAddress": "elda@kihnmcclure.uk"
     }
   ]
 }

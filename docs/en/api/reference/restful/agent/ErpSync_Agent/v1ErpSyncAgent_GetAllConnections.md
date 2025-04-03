@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 1000,
-    "ErpConnectorId": 964,
-    "DisplayName": "Murphy-Miller",
-    "DisplayDescription": "Self-enabling holistic archive",
-    "Active": false,
-    "ConnectionId": "aspernatur",
-    "MostRecentTimestamp": "sunt",
+    "ErpConnectionId": 152,
+    "ErpConnectorId": 105,
+    "DisplayName": "Goldner, Kling and Lowe",
+    "DisplayDescription": "Reduced coherent internet solution",
+    "Active": true,
+    "ConnectionId": "hic",
+    "MostRecentTimestamp": "magni",
     "ConfigFields": {
-      "ConfigFields1": "dolores",
-      "ConfigFields2": "eum"
+      "ConfigFields1": "recusandae",
+      "ConfigFields2": "aut"
     },
-    "Deleted": true,
+    "Deleted": false,
     "AllAccess": true,
     "UserGroupAccessIds": [
-      565,
-      530
+      1001,
+      654
     ],
     "AssociateAccessIds": [
-      171,
-      113
+      480,
+      52
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 449
+        "FieldType": "System.Int32",
+        "FieldLength": 325
       }
     }
   }

@@ -104,7 +104,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 653
+  "DocumentId": 32
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 940,
-      "ContactName": "Raynor Inc and Sons",
-      "PersonId": 843,
-      "PersonName": "Kessler Inc and Sons",
-      "AssociateId": 179,
-      "Address": "esse",
-      "EmailId": 602,
+      "ContactId": 796,
+      "ContactName": "McDermott Group",
+      "PersonId": 228,
+      "PersonName": "Casper, Renner and Sawayn",
+      "AssociateId": 204,
+      "Address": "possimus",
+      "EmailId": 890,
       "DuplicatePersonIds": [
-        448,
-        955
+        231,
+        298
       ],
-      "Name": "Krajcik-Wolf",
+      "Name": "Daugherty, Schimmel and Windler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 685
+          "FieldType": "System.Int32",
+          "FieldLength": 539
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 906,
-      "ContactName": "Kunde-Cole",
-      "PersonId": 715,
-      "PersonName": "Stroman Inc and Sons",
-      "AssociateId": 978,
-      "Address": "praesentium",
-      "EmailId": 37,
+      "ContactId": 671,
+      "ContactName": "Funk Group",
+      "PersonId": 694,
+      "PersonName": "Murphy Group",
+      "AssociateId": 291,
+      "Address": "temporibus",
+      "EmailId": 824,
       "DuplicatePersonIds": [
-        573,
-        977
+        302,
+        423
       ],
-      "Name": "Wiegand-Gorczany",
+      "Name": "Zieme-Kulas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 391
+          "FieldLength": 661
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 411,
-      "ContactName": "Dickens Group",
-      "PersonId": 671,
-      "PersonName": "Gleason-Ledner",
-      "AssociateId": 666,
-      "Address": "aperiam",
-      "EmailId": 356,
+      "ContactId": 892,
+      "ContactName": "Jacobson-Yost",
+      "PersonId": 322,
+      "PersonName": "Quigley, Schulist and Pouros",
+      "AssociateId": 65,
+      "Address": "reiciendis",
+      "EmailId": 762,
       "DuplicatePersonIds": [
-        42,
-        772
+        8,
+        231
       ],
-      "Name": "Blick-Ernser",
+      "Name": "Jacobson-Gibson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 511
+          "FieldType": "System.Int32",
+          "FieldLength": 803
         }
       }
     }
   ],
-  "Subject": "ut",
-  "HTMLBody": "velit",
+  "Subject": "nulla",
+  "HTMLBody": "voluptatem",
   "From": null,
-  "Sent": "2008-01-07T02:38:21.3857927+01:00",
-  "Size": 192,
+  "Sent": "2001-08-10T14:28:21.9616455+02:00",
+  "Size": 788,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quis",
-  "PlainBody": "ipsa",
+  "MessageID": "nihil",
+  "PlainBody": "ea",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 618,
+  "ServerId": 720,
   "Attachments": [
     {
-      "Description": "Polarised intermediate throughput",
-      "Filename": "deserunt",
-      "Size": 96,
-      "Type": "natus",
-      "Encoding": "quia",
-      "Id": "voluptatem",
-      "Disposition": "mollitia",
-      "IsSafeFileExtension": true,
+      "Description": "Multi-channelled full-range frame",
+      "Filename": "magni",
+      "Size": 220,
+      "Type": "eos",
+      "Encoding": "quo",
+      "Id": "nisi",
+      "Disposition": "rem",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 283
+          "FieldLength": 878
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ferry-Cremin",
+      "Name": "Raynor, Kuhn and Leuschke",
       "Values": [
-        "tenetur",
-        "aspernatur"
+        "ratione",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldLength": 621
         }
       }
     },
     {
-      "Name": "Ferry-Cremin",
+      "Name": "Raynor, Kuhn and Leuschke",
       "Values": [
-        "tenetur",
-        "aspernatur"
+        "ratione",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldLength": 621
         }
       }
     }
   ],
-  "FolderName": "Roberts-Reichert",
-  "EmailItemId": 541,
-  "AccountId": 318,
-  "ReceivedAt": "2020-07-03T02:38:21.3857927+02:00",
+  "FolderName": "Schaden, Thompson and Hayes",
+  "EmailItemId": 942,
+  "AccountId": 752,
+  "ReceivedAt": "2008-12-26T14:28:21.9616455+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2006-12-04T02:38:21.3857927+01:00",
+  "RepliedAt": "2013-04-30T14:28:21.9616455+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldType": "System.String",
+      "FieldLength": 255
     }
   }
 }

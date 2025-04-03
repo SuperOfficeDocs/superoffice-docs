@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=36
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=203
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 873,
-  "Name": "Kessler Group",
-  "Description": "Sharable bottom-line portal",
-  "DefaultHeight": 332,
-  "DefaultWidth": 573,
+  "DashboardTileDefinitionId": 350,
+  "Name": "Hansen, Stokes and Becker",
+  "Description": "Implemented secondary strategy",
+  "DefaultHeight": 723,
+  "DefaultWidth": 346,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Ankunding, Hoeger and Goyette",
-  "SelectionId": 747,
+  "EntityName": "Beer-Kuhic",
+  "SelectionId": 477,
   "CurrencyMode": "Base",
-  "CurrencyCode": "pariatur",
+  "CurrencyCode": "blanditiis",
   "Measure": "Average",
-  "MeasureField": "possimus",
-  "SortBy": "eaque",
-  "LayoutConfig": "laborum",
-  "SecondarySelectionId": 638,
-  "MeasureByField": "velit",
+  "MeasureField": "consequuntur",
+  "SortBy": "ut",
+  "LayoutConfig": "quis",
+  "SecondarySelectionId": 209,
+  "MeasureByField": "beatae",
   "Usage": "Dashboard",
-  "ProviderName": "Pollich-Graham",
+  "ProviderName": "Will Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 878
     }
   }
 }

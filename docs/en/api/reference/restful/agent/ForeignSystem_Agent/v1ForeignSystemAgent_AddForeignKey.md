@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Schmidt, Roob and Bednar",
-  "DeviceName": "Stoltenberg-Wiegand",
-  "DeviceIdentifier": "commodi"
+  "ApplicationName": "Bosco Group",
+  "DeviceName": "Walsh, Mohr and Barton",
+  "DeviceIdentifier": "deserunt"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sed",
-  "Value": "sint",
-  "RecordId": 294,
-  "CreatedDate": "2009-01-01T02:38:21.4639053+01:00",
-  "UpdatedDate": "2004-02-08T02:38:21.4639053+01:00",
-  "UpdatedBy": "sequi",
-  "CreatedBy": "accusantium",
-  "TableName": "Walter-Borer",
+  "Key": "est",
+  "Value": "quis",
+  "RecordId": 604,
+  "CreatedDate": "2024-04-10T14:28:22.0085182+02:00",
+  "UpdatedDate": "2002-12-02T14:28:22.0085182+01:00",
+  "UpdatedBy": "nam",
+  "CreatedBy": "libero",
+  "TableName": "Yost-Emard",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 706
+      "FieldLength": 267
     }
   }
 }

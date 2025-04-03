@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 509,
+  "HierarchyId": 92,
   "Domain": "Dashboards",
-  "Name": "Sawayn Inc and Sons",
-  "Fullname": "recusandae",
-  "ParentId": 675,
+  "Name": "Stark LLC",
+  "Fullname": "ullam",
+  "ParentId": 446,
   "Children": [
     {
-      "HierarchyId": 935,
+      "HierarchyId": 500,
       "Domain": "Dashboards",
-      "Name": "Leuschke Inc and Sons",
-      "Fullname": "dolores",
-      "ParentId": 272,
+      "Name": "Beatty-Mayert",
+      "Fullname": "nisi",
+      "ParentId": 202,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2023-03-05T02:38:26.1204323+01:00",
-      "RegisteredAssociateId": 439,
-      "Updated": "2024-09-19T02:38:26.1204323+02:00",
-      "UpdatedAssociateId": 479
+      "Registered": "2007-06-09T14:28:26.961443+02:00",
+      "RegisteredAssociateId": 334,
+      "Updated": "2003-09-13T14:28:26.961443+02:00",
+      "UpdatedAssociateId": 775
     }
   ],
-  "Registered": "2014-05-12T02:38:26.1204323+02:00",
-  "RegisteredAssociateId": 788,
-  "Updated": "2010-10-05T02:38:26.1204323+02:00",
-  "UpdatedAssociateId": 399
+  "Registered": "2010-02-22T14:28:26.961443+01:00",
+  "RegisteredAssociateId": 160,
+  "Updated": "1998-08-15T14:28:26.961443+02:00",
+  "UpdatedAssociateId": 900
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 723,
+  "HierarchyId": 590,
   "Domain": "Dashboards",
-  "Name": "Schneider-Lind",
-  "Fullname": "beatae",
-  "ParentId": 220,
+  "Name": "Schumm Group",
+  "Fullname": "aut",
+  "ParentId": 281,
   "Children": [
     {
-      "HierarchyId": 31,
+      "HierarchyId": 78,
       "Domain": "Dashboards",
-      "Name": "Hammes, Hackett and Baumbach",
-      "Fullname": "fugit",
-      "ParentId": 248,
+      "Name": "Bahringer, Nikolaus and West",
+      "Fullname": "sit",
+      "ParentId": 919,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-12-09T02:38:26.1204323+01:00",
-      "RegisteredAssociateId": 18,
-      "Updated": "2013-10-11T02:38:26.1204323+02:00",
-      "UpdatedAssociateId": 996,
+      "Registered": "2006-10-01T14:28:26.961443+02:00",
+      "RegisteredAssociateId": 404,
+      "Updated": "2008-09-05T14:28:26.961443+02:00",
+      "UpdatedAssociateId": 773,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 575
+          "FieldType": "System.Int32",
+          "FieldLength": 589
         }
       }
     }
   ],
-  "Registered": "2021-04-21T02:38:26.1204323+02:00",
-  "RegisteredAssociateId": 242,
-  "Updated": "2016-02-26T02:38:26.1204323+01:00",
-  "UpdatedAssociateId": 363,
+  "Registered": "2013-08-17T14:28:26.961443+02:00",
+  "RegisteredAssociateId": 269,
+  "Updated": "2003-05-31T14:28:26.961443+02:00",
+  "UpdatedAssociateId": 661,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 229
     }
   }
 }

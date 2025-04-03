@@ -101,7 +101,7 @@ OK
 POST /api/v1/Sale/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "doloribus",
+  "SaleText": "et",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2003-03-10T02:38:26.4016552+01:00",
-  "Amount": 14842.624,
-  "SaleId": 821,
-  "Earning": 12529.732,
-  "EarningPercent": 5710.148,
-  "Heading": "doloremque",
-  "Number": "329993",
-  "Probability": 985,
-  "CreatedDate": "2005-11-09T02:38:26.4016552+01:00",
-  "UpdatedDate": "2016-07-12T02:38:26.4016552+02:00",
+  "Saledate": "2015-08-20T14:28:27.2270585+02:00",
+  "Amount": 6177.114,
+  "SaleId": 62,
+  "Earning": 441.894,
+  "EarningPercent": 2215.738,
+  "Heading": "sed",
+  "Number": "609879",
+  "Probability": 101,
+  "CreatedDate": "2015-09-23T14:28:27.2270585+02:00",
+  "UpdatedDate": "2011-04-19T14:28:27.2270585+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 111,
+  "ActiveLinks": 964,
   "Links": [
     {
-      "EntityName": "Fisher, Deckow and Lockman",
-      "Id": 359,
-      "Description": "Devolved homogeneous throughput",
-      "ExtraInfo": "voluptas",
-      "LinkId": 45
+      "EntityName": "Cartwright-Ortiz",
+      "Id": 177,
+      "Description": "Centralized composite paradigm",
+      "ExtraInfo": "enim",
+      "LinkId": 223
     },
     {
-      "EntityName": "Fisher, Deckow and Lockman",
-      "Id": 359,
-      "Description": "Devolved homogeneous throughput",
-      "ExtraInfo": "voluptas",
-      "LinkId": 45
+      "EntityName": "Cartwright-Ortiz",
+      "Id": 177,
+      "Description": "Centralized composite paradigm",
+      "ExtraInfo": "enim",
+      "LinkId": 223
     }
   ],
-  "NextDueDate": "2017-12-21T02:38:26.4016552+01:00",
-  "Postit": "aut",
+  "NextDueDate": "2001-11-08T14:28:27.2270585+01:00",
+  "Postit": "sed",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2012-10-12T02:38:26.4016552+02:00",
+  "ReopenDate": "2024-11-25T14:28:27.2270585+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Murray-Barton",
-      "Comment": "mollitia",
-      "StakeholderRoleId": 813,
-      "CountryId": 648,
-      "PersonId": 389,
-      "EmailDescription": "eriberto@fay.us",
-      "EmailId": 802,
-      "EmailAddress": "misael@smith.uk",
-      "PhoneId": 315,
-      "ContactName": "Bahringer-Lueilwitz",
-      "ContactId": 809,
-      "SaleId": 390,
-      "Mrmrs": "iure",
-      "Firstname": "Faustino",
-      "MiddleName": "Bailey-Jones",
-      "Lastname": "Corwin",
-      "SaleStakeholderId": 636,
-      "Rank": 245,
-      "Phone": "1-617-913-9167 x2960"
+      "StakeholderRoleName": "Kohler-Hermann",
+      "Comment": "delectus",
+      "StakeholderRoleId": 588,
+      "CountryId": 131,
+      "PersonId": 346,
+      "EmailDescription": "alexandro@gleichner.uk",
+      "EmailId": 897,
+      "EmailAddress": "dedrick@hegmann.uk",
+      "PhoneId": 783,
+      "ContactName": "Swift, Von and DuBuque",
+      "ContactId": 585,
+      "SaleId": 366,
+      "Mrmrs": "incidunt",
+      "Firstname": "Erna",
+      "MiddleName": "Connelly, Hauck and Purdy",
+      "Lastname": "Gorczany",
+      "SaleStakeholderId": 457,
+      "Rank": 689,
+      "Phone": "462.000.6116 x643"
     }
   ],
-  "ActiveErpLinks": 370,
+  "ActiveErpLinks": 411,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Kristina Schuppe"
+    "SuperOffice:1": "Dr. Marley Kovacek I",
+    "SuperOffice:2": "1526664919"
   },
   "ExtraFields": {
-    "ExtraFields1": "adipisci",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "illo",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "nisi",
-    "CustomFields2": "fugit"
+    "CustomFields1": "et",
+    "CustomFields2": "voluptatibus"
   },
-  "PublishEventDate": "2011-01-30T02:38:26.4016552+01:00",
-  "PublishTo": "2005-05-20T02:38:26.4016552+02:00",
-  "PublishFrom": "2014-04-28T02:38:26.4016552+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2017-10-11T14:28:27.2270585+02:00",
+  "PublishTo": "2012-11-13T14:28:27.2270585+01:00",
+  "PublishFrom": "2015-05-15T14:28:27.2270585+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 495,
+      "VisibleId": 474,
       "Visibility": "All",
-      "DisplayValue": "laborum"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 495,
+      "VisibleId": 474,
       "Visibility": "All",
-      "DisplayValue": "laborum"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "dolore",
-  "2": "quam"
+  "1": "vitae",
+  "2": "alias"
 }
 ```

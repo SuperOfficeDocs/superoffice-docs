@@ -58,6 +58,7 @@ OK
 | TimezoneEnabled | bool | Is timezone enabled |
 | TZOffset | int32 | The offset in minutes compared with UTC, calculated for DateTime.Now |
 | RecaptchaSiteKey | string | A global recaptcha site key, used with the google recaptcha component. This value is taken from the web.config file |
+| SelectedPreferences | array | An array of selected preferences needed by Service |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -67,7 +68,7 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,14 +79,37 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": false,
-  "TZOffset": 623,
-  "RecaptchaSiteKey": "et",
+  "TZOffset": 498,
+  "RecaptchaSiteKey": "molestiae",
+  "SelectedPreferences": [
+    {
+      "Level": "Database",
+      "RawValue": "impedit",
+      "Specification": null,
+      "DisplayValue": "corporis",
+      "DisplayTooltip": "reprehenderit",
+      "DisplayType": "Bool",
+      "TabOrder": null,
+      "TargetId": 723,
+      "PrefDescId": 252,
+      "TableName": "Goldner LLC",
+      "UserPreferenceId": 589,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 52
+        }
+      }
+    }
+  ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 873
+      "FieldLength": 661
     }
   }
 }

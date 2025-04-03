@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 500,
+  "DocumentId": 867,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "velit",
-  "Header": "similique",
-  "Name": "Moen-Bosco",
-  "OurRef": "molestias",
-  "YourRef": "iusto",
-  "CreatedDate": "2023-10-01T02:38:21.2451788+02:00",
-  "UpdatedDate": "2004-10-30T02:38:21.2451788+02:00",
-  "Description": "Enhanced background policy",
+  "Attention": "fugiat",
+  "Header": "pariatur",
+  "Name": "Murray-Hackett",
+  "OurRef": "cupiditate",
+  "YourRef": "est",
+  "CreatedDate": "2001-05-06T14:28:21.8210267+02:00",
+  "UpdatedDate": "2004-07-24T14:28:21.8210267+02:00",
+  "Description": "Switchable hybrid instruction set",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2023-12-10T02:38:21.2451788+01:00",
-  "ExternalRef": "tenetur",
+  "Date": "2014-10-11T14:28:21.8210267+02:00",
+  "ExternalRef": "architecto",
   "Completed": "Completed",
-  "ActiveLinks": 888,
+  "ActiveLinks": 977,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Metz, Cormier and Satterfield",
-      "Id": 47,
-      "Description": "Future-proofed homogeneous extranet",
-      "ExtraInfo": "mollitia",
-      "LinkId": 919,
+      "EntityName": "Schulist, Deckow and Dach",
+      "Id": 569,
+      "Description": "Reactive hybrid archive",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 57,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldLength": 58
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 568,
-  "Snum": 244,
+  "SuggestedDocumentId": 324,
+  "Snum": 55,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Lura Jerry Hintz",
-    "SuperOffice:2": "Ethelyn Kozey"
+    "SuperOffice:1": "Estella Schowalter",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "repellat",
-    "ExtraFields2": "maiores"
+    "ExtraFields1": "numquam",
+    "ExtraFields2": "blanditiis"
   },
   "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "amet"
+    "CustomFields1": "voluptas",
+    "CustomFields2": "nihil"
   },
-  "PublishEventDate": "2012-09-24T02:38:21.2451788+02:00",
-  "PublishTo": "2008-06-13T02:38:21.2451788+02:00",
-  "PublishFrom": "2010-04-21T02:38:21.2451788+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1998-01-10T14:28:21.8210267+01:00",
+  "PublishTo": "2009-05-13T14:28:21.8210267+02:00",
+  "PublishFrom": "2005-12-15T14:28:21.8210267+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 994,
+      "VisibleId": 948,
       "Visibility": "All",
-      "DisplayValue": "adipisci",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 535
+          "FieldType": "System.Int32",
+          "FieldLength": 296
         }
       }
     },
     {
-      "VisibleId": 994,
+      "VisibleId": 948,
       "Visibility": "All",
-      "DisplayValue": "adipisci",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 535
+          "FieldType": "System.Int32",
+          "FieldLength": 296
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1001
+      "FieldLength": 543
     }
   }
 }

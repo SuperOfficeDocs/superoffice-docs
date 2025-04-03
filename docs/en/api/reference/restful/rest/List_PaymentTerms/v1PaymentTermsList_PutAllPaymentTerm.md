@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentTerm/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 723,
-    "Name": "Ward-Gibson",
-    "Tooltip": "sint",
-    "Deleted": true,
-    "UdListDefinitionId": 586,
-    "Rank": 387
+    "Id": 346,
+    "Name": "Heaney, Orn and Murazik",
+    "Tooltip": "id",
+    "Deleted": false,
+    "UdListDefinitionId": 415,
+    "Rank": 941
   },
   {
-    "Id": 723,
-    "Name": "Ward-Gibson",
-    "Tooltip": "sint",
-    "Deleted": true,
-    "UdListDefinitionId": 586,
-    "Rank": 387
+    "Id": 346,
+    "Name": "Heaney, Orn and Murazik",
+    "Tooltip": "id",
+    "Deleted": false,
+    "UdListDefinitionId": 415,
+    "Rank": 941
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 520,
-    "Name": "Miller Inc and Sons",
-    "Tooltip": "est",
+    "Id": 786,
+    "Name": "Mayert-Paucek",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 800,
-    "Rank": 329,
+    "UdListDefinitionId": 29,
+    "Rank": 682,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 433
       }
     }
   }

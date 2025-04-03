@@ -103,6 +103,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -117,7 +118,7 @@ OK
 POST /api/v1/Agents/Appointment/GetMyPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -128,65 +129,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 247,
-    "StartDate": "2018-09-08T02:38:20.557605+02:00",
-    "EndDate": "2003-07-22T02:38:20.557605+02:00",
+    "AppointmentId": 95,
+    "StartDate": "2013-02-02T14:28:21.1648024+01:00",
+    "EndDate": "2020-10-05T14:28:21.1648024+02:00",
     "Type": "BookingForChecklist",
     "Task": "sed",
-    "AssociateFullName": "Greyson Kertzmann",
-    "ContactName": "Davis, Wunsch and Franecki",
-    "Description": "Networked mobile leverage",
-    "PersonFullName": "Fernando McLaughlin",
-    "PersonId": 679,
-    "ContactId": 311,
-    "ProjectId": 66,
-    "ProjectName": "Turcotte Group",
-    "IsPublished": true,
-    "AssociateId": 481,
-    "ColorIndex": 393,
+    "AssociateFullName": "Ernesto Lindgren",
+    "ContactName": "Hand, Blanda and O'Reilly",
+    "Description": "Realigned disintermediate benchmark",
+    "PersonFullName": "Prof. Dave Reichert",
+    "PersonId": 126,
+    "ContactId": 764,
+    "ProjectId": 186,
+    "ProjectName": "Sawayn Inc and Sons",
+    "IsPublished": false,
+    "AssociateId": 99,
+    "ColorIndex": 692,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 589,
-    "PriorityName": "Parker-Stroman",
+    "PriorityId": 673,
+    "PriorityName": "Schmeler Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2011-02-08T02:38:20.5732257+01:00",
+    "ActiveDate": "2006-07-22T14:28:21.1648024+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-12-17T02:38:20.5732257+01:00",
-    "RecurringEndDate": "2023-09-06T02:38:20.5732257+02:00",
-    "MotherId": 745,
-    "AssignedBy": 641,
-    "AssignedByFullName": "Maia Cummings",
+    "RecurringStartDate": "2023-03-06T14:28:21.1648024+01:00",
+    "RecurringEndDate": "2021-10-03T14:28:21.1648024+02:00",
+    "MotherId": 99,
+    "AssignedBy": 639,
+    "AssignedByFullName": "Lowell Smith",
     "RejectReason": "",
-    "Location": "est",
-    "AlarmLeadTime": "et",
-    "SaleId": 662,
-    "SaleName": "Deckow-Kassulke",
-    "AssociateName": "Windler Group",
-    "CreatedDate": "2001-03-09T02:38:20.5732257+01:00",
-    "CreatedBy": "quibusdam",
-    "CreatedByFullName": "Mr. Aryanna Thompson III",
-    "CreatedByAssociateId": 903,
+    "Location": "quae",
+    "AlarmLeadTime": "quia",
+    "SaleId": 919,
+    "SaleName": "Pacocha Inc and Sons",
+    "AssociateName": "Mueller Inc and Sons",
+    "CreatedDate": "2007-07-24T14:28:21.1648024+02:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Ms. Raoul Schultz II",
+    "CreatedByAssociateId": 368,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 907,
-    "Title": "non",
-    "Agenda": "animi",
-    "InternalNotes": "laboriosam",
+    "PreferredTZLocation": 616,
+    "Title": "alias",
+    "Agenda": "dicta",
+    "InternalNotes": "iusto",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 934
+        "FieldLength": 55
       }
     }
   }

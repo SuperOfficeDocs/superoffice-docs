@@ -76,16 +76,16 @@ OK
 POST /api/v1/Agents/Person/GetPersonImages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "PersonIds": [
-    400,
-    996
+    976,
+    919
   ],
-  "ScaledWidth": 231,
-  "ScaledHeight": 653
+  "ScaledWidth": 970,
+  "ScaledHeight": 878
 }
 ```
 
@@ -97,11 +97,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonId": 959,
+    "PersonId": 335,
     "ImageData": "GIF89....File contents as raw bytes..."
   },
   {
-    "PersonId": 959,
+    "PersonId": 335,
     "ImageData": "GIF89....File contents as raw bytes..."
   }
 ]

@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 603,
-  "ParentId": 6,
-  "Name": "Lind Group",
-  "Fullname": "fugiat",
-  "CategoryMaster": 353,
+  "TicketCategoryId": 283,
+  "ParentId": 396,
+  "Name": "Nienow, Legros and Bauch",
+  "Fullname": "et",
+  "CategoryMaster": 967,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Fahey, Gutmann and Macejkovic",
+  "ExternalName": "Keeling-Senger",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 93,
-  "ReplyTemplate": 520,
-  "NotificationEmail": "bette.vandervort@abernathy.com",
+  "AssignmentLag": 41,
+  "ReplyTemplate": 622,
+  "NotificationEmail": "karina.herzog@wintheiser.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 366,
+  "EffectiveReplyTemplateId": 630,
   "ExtraFields": {
-    "ExtraFields1": "assumenda",
-    "ExtraFields2": "corrupti"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "expedita",
-    "CustomFields2": "sint"
+    "CustomFields1": "earum",
+    "CustomFields2": "non"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 911
+      "FieldType": "System.String",
+      "FieldLength": 42
     }
   }
 }

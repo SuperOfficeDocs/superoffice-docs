@@ -38,6 +38,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow._currentMotherAssociateId
   - SuperOffice.CRM.Rows.AppointmentRow._currentMotherId
   - SuperOffice.CRM.Rows.AppointmentRow._currentOriginalStartDate
+  - SuperOffice.CRM.Rows.AppointmentRow._currentOwnedExternally
   - SuperOffice.CRM.Rows.AppointmentRow._currentPersonId
   - SuperOffice.CRM.Rows.AppointmentRow._currentPreferredTZLocation
   - SuperOffice.CRM.Rows.AppointmentRow._currentPriorityIdx
@@ -93,6 +94,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow._onMotherAssociateIdChange
   - SuperOffice.CRM.Rows.AppointmentRow._onMotherIdChange
   - SuperOffice.CRM.Rows.AppointmentRow._onOriginalStartDateChange
+  - SuperOffice.CRM.Rows.AppointmentRow._onOwnedExternallyChange
   - SuperOffice.CRM.Rows.AppointmentRow._onPersonIdChange
   - SuperOffice.CRM.Rows.AppointmentRow._onPreferredTZLocationChange
   - SuperOffice.CRM.Rows.AppointmentRow._onPriorityIdxChange
@@ -149,6 +151,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow._persistedMotherAssociateId
   - SuperOffice.CRM.Rows.AppointmentRow._persistedMotherId
   - SuperOffice.CRM.Rows.AppointmentRow._persistedOriginalStartDate
+  - SuperOffice.CRM.Rows.AppointmentRow._persistedOwnedExternally
   - SuperOffice.CRM.Rows.AppointmentRow._persistedPersonId
   - SuperOffice.CRM.Rows.AppointmentRow._persistedPreferredTZLocation
   - SuperOffice.CRM.Rows.AppointmentRow._persistedPriorityIdx
@@ -206,6 +209,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow.add__onMotherAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.add__onMotherIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.add__onOriginalStartDateChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  - SuperOffice.CRM.Rows.AppointmentRow.add__onOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
   - SuperOffice.CRM.Rows.AppointmentRow.add__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.add__onPreferredTZLocationChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.add__onPriorityIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
@@ -261,6 +265,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow.add_OnMotherAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.add_OnMotherIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.add_OnOriginalStartDateChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  - SuperOffice.CRM.Rows.AppointmentRow.add_OnOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
   - SuperOffice.CRM.Rows.AppointmentRow.add_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.add_OnPreferredTZLocationChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.add_OnPriorityIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
@@ -370,6 +375,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow.OnMotherAssociateIdChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnMotherIdChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnOriginalStartDateChange
+  - SuperOffice.CRM.Rows.AppointmentRow.OnOwnedExternallyChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnPersonIdChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnPreferredTZLocationChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnPriorityIdxChange
@@ -398,6 +404,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow.OnUserdefIdChange
   - SuperOffice.CRM.Rows.AppointmentRow.OnValueChanged
   - SuperOffice.CRM.Rows.AppointmentRow.OriginalStartDate
+  - SuperOffice.CRM.Rows.AppointmentRow.OwnedExternally
   - SuperOffice.CRM.Rows.AppointmentRow.PersonId
   - SuperOffice.CRM.Rows.AppointmentRow.PreferredTZLocation
   - SuperOffice.CRM.Rows.AppointmentRow.PriorityIdx
@@ -439,6 +446,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow.remove__onMotherAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.remove__onMotherIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.remove__onOriginalStartDateChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  - SuperOffice.CRM.Rows.AppointmentRow.remove__onOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
   - SuperOffice.CRM.Rows.AppointmentRow.remove__onPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.remove__onPreferredTZLocationChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.remove__onPriorityIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
@@ -494,6 +502,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRow.remove_OnMotherAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.remove_OnMotherIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.remove_OnOriginalStartDateChange(SuperOffice.CRM.Rows.OnFieldChange{System.DateTime})
+  - SuperOffice.CRM.Rows.AppointmentRow.remove_OnOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
   - SuperOffice.CRM.Rows.AppointmentRow.remove_OnPersonIdChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.remove_OnPreferredTZLocationChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
   - SuperOffice.CRM.Rows.AppointmentRow.remove_OnPriorityIdxChange(SuperOffice.CRM.Rows.OnFieldChange{System.Int32})
@@ -2177,6 +2186,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.AppointmentRow._persistedOwnedExternally
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRow._persistedOwnedExternally
+  id: _persistedOwnedExternally
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: _persistedOwnedExternally
+  nameWithType: AppointmentRow._persistedOwnedExternally
+  fullName: SuperOffice.CRM.Rows.AppointmentRow._persistedOwnedExternally
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nPersisted value, see property <xref href=\"SuperOffice.CRM.Rows.AppointmentRow.OwnedExternally\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected AppointmentExternalOwner _persistedOwnedExternally
+    return:
+      type: SuperOffice.Data.AppointmentExternalOwner
+    content.vb: Protected _persistedOwnedExternally As AppointmentExternalOwner
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.AppointmentRow._currentAppointmentId
   commentId: F:SuperOffice.CRM.Rows.AppointmentRow._currentAppointmentId
   id: _currentAppointmentId
@@ -3685,6 +3721,33 @@ items:
     return:
       type: System.Int32
     content.vb: Protected _currentMotherAssociateId As Integer
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.Rows.AppointmentRow._currentOwnedExternally
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRow._currentOwnedExternally
+  id: _currentOwnedExternally
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: _currentOwnedExternally
+  nameWithType: AppointmentRow._currentOwnedExternally
+  fullName: SuperOffice.CRM.Rows.AppointmentRow._currentOwnedExternally
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nCurrent value, see property <xref href=\"SuperOffice.CRM.Rows.AppointmentRow.OwnedExternally\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  syntax:
+    content: protected AppointmentExternalOwner _currentOwnedExternally
+    return:
+      type: SuperOffice.Data.AppointmentExternalOwner
+    content.vb: Protected _currentOwnedExternally As AppointmentExternalOwner
   modifiers.csharp:
   - protected
   modifiers.vb:
@@ -7099,6 +7162,68 @@ items:
   - Protected
   fullName.vb: SuperOffice.CRM.Rows.AppointmentRow.remove__onMotherAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
   name.vb: remove__onMotherAssociateIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.AppointmentRow.add__onOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRow.add__onOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
+  id: add__onOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: add__onOwnedExternallyChange(OnFieldChange<AppointmentExternalOwner>)
+  nameWithType: AppointmentRow.add__onOwnedExternallyChange(OnFieldChange<AppointmentExternalOwner>)
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.add__onOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.AppointmentExternalOwner>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void add__onOwnedExternallyChange(OnFieldChange<AppointmentExternalOwner> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner}
+    content.vb: Protected Sub add__onOwnedExternallyChange(value As OnFieldChange(Of AppointmentExternalOwner))
+  overload: SuperOffice.CRM.Rows.AppointmentRow.add__onOwnedExternallyChange*
+  nameWithType.vb: AppointmentRow.add__onOwnedExternallyChange(OnFieldChange(Of AppointmentExternalOwner))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.AppointmentRow.add__onOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.AppointmentExternalOwner))
+  name.vb: add__onOwnedExternallyChange(OnFieldChange(Of AppointmentExternalOwner))
+- uid: SuperOffice.CRM.Rows.AppointmentRow.remove__onOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRow.remove__onOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
+  id: remove__onOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: remove__onOwnedExternallyChange(OnFieldChange<AppointmentExternalOwner>)
+  nameWithType: AppointmentRow.remove__onOwnedExternallyChange(OnFieldChange<AppointmentExternalOwner>)
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.remove__onOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.AppointmentExternalOwner>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: protected void remove__onOwnedExternallyChange(OnFieldChange<AppointmentExternalOwner> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner}
+    content.vb: Protected Sub remove__onOwnedExternallyChange(value As OnFieldChange(Of AppointmentExternalOwner))
+  overload: SuperOffice.CRM.Rows.AppointmentRow.remove__onOwnedExternallyChange*
+  nameWithType.vb: AppointmentRow.remove__onOwnedExternallyChange(OnFieldChange(Of AppointmentExternalOwner))
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: SuperOffice.CRM.Rows.AppointmentRow.remove__onOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.AppointmentExternalOwner))
+  name.vb: remove__onOwnedExternallyChange(OnFieldChange(Of AppointmentExternalOwner))
 - uid: SuperOffice.CRM.Rows.AppointmentRow.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.AppointmentRow.InternalSetValue(System.String,System.Object)
   id: InternalSetValue(System.String,System.Object)
@@ -11029,6 +11154,68 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Rows.AppointmentRow.remove_OnMotherAssociateIdChange(SuperOffice.CRM.Rows.OnFieldChange(Of System.Int32))
   name.vb: remove_OnMotherAssociateIdChange(OnFieldChange(Of Int32))
+- uid: SuperOffice.CRM.Rows.AppointmentRow.add_OnOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRow.add_OnOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
+  id: add_OnOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: add_OnOwnedExternallyChange(OnFieldChange<AppointmentExternalOwner>)
+  nameWithType: AppointmentRow.add_OnOwnedExternallyChange(OnFieldChange<AppointmentExternalOwner>)
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.add_OnOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.AppointmentExternalOwner>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void add_OnOwnedExternallyChange(OnFieldChange<AppointmentExternalOwner> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner}
+    content.vb: Public Sub add_OnOwnedExternallyChange(value As OnFieldChange(Of AppointmentExternalOwner))
+  overload: SuperOffice.CRM.Rows.AppointmentRow.add_OnOwnedExternallyChange*
+  nameWithType.vb: AppointmentRow.add_OnOwnedExternallyChange(OnFieldChange(Of AppointmentExternalOwner))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.AppointmentRow.add_OnOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.AppointmentExternalOwner))
+  name.vb: add_OnOwnedExternallyChange(OnFieldChange(Of AppointmentExternalOwner))
+- uid: SuperOffice.CRM.Rows.AppointmentRow.remove_OnOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
+  commentId: M:SuperOffice.CRM.Rows.AppointmentRow.remove_OnOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
+  id: remove_OnOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner})
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: remove_OnOwnedExternallyChange(OnFieldChange<AppointmentExternalOwner>)
+  nameWithType: AppointmentRow.remove_OnOwnedExternallyChange(OnFieldChange<AppointmentExternalOwner>)
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.remove_OnOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.AppointmentExternalOwner>)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public void remove_OnOwnedExternallyChange(OnFieldChange<AppointmentExternalOwner> value)
+    parameters:
+    - id: value
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner}
+    content.vb: Public Sub remove_OnOwnedExternallyChange(value As OnFieldChange(Of AppointmentExternalOwner))
+  overload: SuperOffice.CRM.Rows.AppointmentRow.remove_OnOwnedExternallyChange*
+  nameWithType.vb: AppointmentRow.remove_OnOwnedExternallyChange(OnFieldChange(Of AppointmentExternalOwner))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.AppointmentRow.remove_OnOwnedExternallyChange(SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.AppointmentExternalOwner))
+  name.vb: remove_OnOwnedExternallyChange(OnFieldChange(Of AppointmentExternalOwner))
 - uid: SuperOffice.CRM.Rows.AppointmentRow.Reset
   commentId: M:SuperOffice.CRM.Rows.AppointmentRow.Reset
   id: Reset
@@ -13808,6 +13995,40 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Rows.AppointmentRow.OwnedExternally
+  commentId: P:SuperOffice.CRM.Rows.AppointmentRow.OwnedExternally
+  id: OwnedExternally
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: OwnedExternally
+  nameWithType: AppointmentRow.OwnedExternally
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.OwnedExternally
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\n.NET type: AppointmentExternalOwner. Set if an external system owns this appointment. \n"
+  remarks: "\nOriginal type in dictionary:  Enum.\n<p>Setting this field to a new value will not affect the Sentry calculations and your rights</p>\n<p>This field is not protected by the Sentry system, and can always be read</p>\n<p>This field is not protected by the Sentry system, and can be written to unless other restrictions prevent it</p>\n"
+  syntax:
+    content: public virtual AppointmentExternalOwner OwnedExternally { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.AppointmentExternalOwner
+    content.vb: Public Overridable Property OwnedExternally As AppointmentExternalOwner
+  overload: SuperOffice.CRM.Rows.AppointmentRow.OwnedExternally*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Rows.AppointmentRow._onContactIdChange
   commentId: E:SuperOffice.CRM.Rows.AppointmentRow._onContactIdChange
   id: _onContactIdChange
@@ -15293,6 +15514,33 @@ items:
   - protected
   modifiers.vb:
   - Protected
+- uid: SuperOffice.CRM.Rows.AppointmentRow._onOwnedExternallyChange
+  commentId: E:SuperOffice.CRM.Rows.AppointmentRow._onOwnedExternallyChange
+  id: _onOwnedExternallyChange
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: _onOwnedExternallyChange
+  nameWithType: AppointmentRow._onOwnedExternallyChange
+  fullName: SuperOffice.CRM.Rows.AppointmentRow._onOwnedExternallyChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nChange envent for property <xref href=\"SuperOffice.CRM.Rows.AppointmentRow.OwnedExternally\" data-throw-if-not-resolved=\"false\"></xref>; field is of .NET type short.\n"
+  syntax:
+    content: protected event OnFieldChange<AppointmentExternalOwner> _onOwnedExternallyChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner}
+    content.vb: Protected Event _onOwnedExternallyChange As OnFieldChange(Of AppointmentExternalOwner)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
 - uid: SuperOffice.CRM.Rows.AppointmentRow.OnContactIdChange
   commentId: E:SuperOffice.CRM.Rows.AppointmentRow.OnContactIdChange
   id: OnContactIdChange
@@ -16774,6 +17022,33 @@ items:
     return:
       type: SuperOffice.CRM.Rows.OnFieldChange{System.Int32}
     content.vb: Public Event OnMotherAssociateIdChange As OnFieldChange(Of Integer)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRow.OnOwnedExternallyChange
+  commentId: E:SuperOffice.CRM.Rows.AppointmentRow.OnOwnedExternallyChange
+  id: OnOwnedExternallyChange
+  parent: SuperOffice.CRM.Rows.AppointmentRow
+  langs:
+  - csharp
+  - vb
+  name: OnOwnedExternallyChange
+  nameWithType: AppointmentRow.OnOwnedExternallyChange
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.OnOwnedExternallyChange
+  type: Event
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nEvent raised when OwnedExternally is changing.\n"
+  syntax:
+    content: public event OnFieldChange<AppointmentExternalOwner> OnOwnedExternallyChange
+    return:
+      type: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner}
+    content.vb: Public Event OnOwnedExternallyChange As OnFieldChange(Of AppointmentExternalOwner)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -20878,6 +21153,13 @@ references:
   name: AppointmentCautionWarning
   nameWithType: AppointmentCautionWarning
   fullName: SuperOffice.Data.AppointmentCautionWarning
+- uid: SuperOffice.Data.AppointmentExternalOwner
+  commentId: T:SuperOffice.Data.AppointmentExternalOwner
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AppointmentExternalOwner
+  nameWithType: AppointmentExternalOwner
+  fullName: SuperOffice.Data.AppointmentExternalOwner
 - uid: SuperOffice.CRM.Rows.AppointmentRow.add__onContactIdChange*
   commentId: Overload:SuperOffice.CRM.Rows.AppointmentRow.add__onContactIdChange
   isExternal: true
@@ -22105,6 +22387,62 @@ references:
   name: remove__onMotherAssociateIdChange
   nameWithType: AppointmentRow.remove__onMotherAssociateIdChange
   fullName: SuperOffice.CRM.Rows.AppointmentRow.remove__onMotherAssociateIdChange
+- uid: SuperOffice.CRM.Rows.AppointmentRow.add__onOwnedExternallyChange*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRow.add__onOwnedExternallyChange
+  isExternal: true
+  name: add__onOwnedExternallyChange
+  nameWithType: AppointmentRow.add__onOwnedExternallyChange
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.add__onOwnedExternallyChange
+- uid: SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner}
+  commentId: T:SuperOffice.CRM.Rows.OnFieldChange{SuperOffice.Data.AppointmentExternalOwner}
+  parent: SuperOffice.CRM.Rows
+  definition: SuperOffice.CRM.Rows.OnFieldChange`1
+  name: OnFieldChange<AppointmentExternalOwner>
+  nameWithType: OnFieldChange<AppointmentExternalOwner>
+  fullName: SuperOffice.CRM.Rows.OnFieldChange<SuperOffice.Data.AppointmentExternalOwner>
+  nameWithType.vb: OnFieldChange(Of AppointmentExternalOwner)
+  fullName.vb: SuperOffice.CRM.Rows.OnFieldChange(Of SuperOffice.Data.AppointmentExternalOwner)
+  name.vb: OnFieldChange(Of AppointmentExternalOwner)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Data.AppointmentExternalOwner
+    name: AppointmentExternalOwner
+    nameWithType: AppointmentExternalOwner
+    fullName: SuperOffice.Data.AppointmentExternalOwner
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: SuperOffice.CRM.Rows.OnFieldChange`1
+    name: OnFieldChange
+    nameWithType: OnFieldChange
+    fullName: SuperOffice.CRM.Rows.OnFieldChange
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Data.AppointmentExternalOwner
+    name: AppointmentExternalOwner
+    nameWithType: AppointmentExternalOwner
+    fullName: SuperOffice.Data.AppointmentExternalOwner
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Rows.AppointmentRow.remove__onOwnedExternallyChange*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRow.remove__onOwnedExternallyChange
+  isExternal: true
+  name: remove__onOwnedExternallyChange
+  nameWithType: AppointmentRow.remove__onOwnedExternallyChange
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.remove__onOwnedExternallyChange
 - uid: SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.InternalSetValue(System.String,System.Object)
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -23125,6 +23463,18 @@ references:
   name: remove_OnMotherAssociateIdChange
   nameWithType: AppointmentRow.remove_OnMotherAssociateIdChange
   fullName: SuperOffice.CRM.Rows.AppointmentRow.remove_OnMotherAssociateIdChange
+- uid: SuperOffice.CRM.Rows.AppointmentRow.add_OnOwnedExternallyChange*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRow.add_OnOwnedExternallyChange
+  isExternal: true
+  name: add_OnOwnedExternallyChange
+  nameWithType: AppointmentRow.add_OnOwnedExternallyChange
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.add_OnOwnedExternallyChange
+- uid: SuperOffice.CRM.Rows.AppointmentRow.remove_OnOwnedExternallyChange*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRow.remove_OnOwnedExternallyChange
+  isExternal: true
+  name: remove_OnOwnedExternallyChange
+  nameWithType: AppointmentRow.remove_OnOwnedExternallyChange
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.remove_OnOwnedExternallyChange
 - uid: SuperOffice.CRM.Rows.TableRowBase.Reset
   commentId: M:SuperOffice.CRM.Rows.TableRowBase.Reset
   parent: SuperOffice.CRM.Rows.TableRowBase
@@ -24006,3 +24356,9 @@ references:
   name: MotherAssociateId
   nameWithType: AppointmentRow.MotherAssociateId
   fullName: SuperOffice.CRM.Rows.AppointmentRow.MotherAssociateId
+- uid: SuperOffice.CRM.Rows.AppointmentRow.OwnedExternally*
+  commentId: Overload:SuperOffice.CRM.Rows.AppointmentRow.OwnedExternally
+  isExternal: true
+  name: OwnedExternally
+  nameWithType: AppointmentRow.OwnedExternally
+  fullName: SuperOffice.CRM.Rows.AppointmentRow.OwnedExternally

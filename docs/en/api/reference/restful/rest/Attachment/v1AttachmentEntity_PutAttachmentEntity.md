@@ -93,18 +93,18 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 766,
-  "Name": "Labadie-Gorczany",
-  "ContentType": "modi",
-  "AttSize": 101,
-  "InlineImage": true,
-  "ContentId": "possimus",
-  "AuthKey": "eum",
-  "IsSafeFileExtension": true
+  "AttachmentId": 637,
+  "Name": "Armstrong-Blanda",
+  "ContentType": "consequatur",
+  "AttSize": 20,
+  "InlineImage": false,
+  "ContentId": "consequuntur",
+  "AuthKey": "perspiciatis",
+  "IsSafeFileExtension": false
 }
 ```
 
@@ -115,20 +115,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 740,
-  "Name": "Wisoky Group",
-  "ContentType": "officia",
-  "AttSize": 505,
-  "InlineImage": true,
-  "ContentId": "unde",
-  "AuthKey": "sed",
+  "AttachmentId": 426,
+  "Name": "Wehner Group",
+  "ContentType": "aliquam",
+  "AttSize": 299,
+  "InlineImage": false,
+  "ContentId": "corporis",
+  "AuthKey": "fugit",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldLength": 675
     }
   },
   "_Links": {

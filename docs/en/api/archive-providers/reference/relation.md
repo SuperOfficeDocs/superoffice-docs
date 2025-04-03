@@ -557,7 +557,7 @@ the up to eight basic sub-providers (CC, PC, PP and CP plus their reversed cousi
 ## Sample
 
 ```http!
-GET /api/v1/archive/Relation?$select=source/supportAssociate,source/whenUpdatedByWorkflow,target/email/emailId,target/email/emailBounceCount,target/contactAssociate/otherGroups
+GET /api/v1/archive/Relation?$select=getAllRows,target/NumberOfTickets,contactName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

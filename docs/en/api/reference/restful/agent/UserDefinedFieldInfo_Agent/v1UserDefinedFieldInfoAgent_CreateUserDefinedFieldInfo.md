@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 140,
-  "ColumnId": 82,
-  "FieldDefault": "et",
-  "FieldHeight": 633,
-  "FieldLabel": "omnis",
-  "FieldLeft": 129,
-  "FieldTop": 11,
+  "UDefFieldId": 587,
+  "ColumnId": 581,
+  "FieldDefault": "ratione",
+  "FieldHeight": 226,
+  "FieldLabel": "repudiandae",
+  "FieldLeft": 150,
+  "FieldTop": 352,
   "FieldType": "Checkbox",
-  "FieldWidth": 725,
-  "FormatMask": "rerum",
+  "FieldWidth": 811,
+  "FormatMask": "est",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 415,
-  "LabelLeft": 303,
-  "LabelTop": 614,
-  "LabelWidth": 835,
-  "LastVersionId": 607,
-  "ListTableId": 515,
-  "IsMandatory": false,
+  "LabelHeight": 783,
+  "LabelLeft": 75,
+  "LabelTop": 138,
+  "LabelWidth": 540,
+  "LastVersionId": 705,
+  "ListTableId": 983,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 479,
-  "ProgId": "dolores",
+  "Page1LineNo": 207,
+  "ProgId": "molestiae",
   "IsReadOnly": false,
-  "ShortLabel": "sapiente",
-  "TabOrder": 689,
-  "TextLength": 432,
-  "Tooltip": "consequatur",
-  "UdefIdentity": 291,
-  "UDListDefinitionId": 602,
+  "ShortLabel": "dolorem",
+  "TabOrder": 413,
+  "TextLength": 470,
+  "Tooltip": "atque",
+  "UdefIdentity": 326,
+  "UDListDefinitionId": 734,
   "Justification": "Center",
-  "Version": 795,
-  "TemplateVariableName": "Kuvalis Group",
-  "HasBeenPublished": true,
-  "MdoListName": "Graham-Emard",
+  "Version": 847,
+  "TemplateVariableName": "Cassin, Hackett and Schmeler",
+  "HasBeenPublished": false,
+  "MdoListName": "Green-McCullough",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldType": "System.String",
+      "FieldLength": 440
     }
   }
 }

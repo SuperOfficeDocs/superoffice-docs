@@ -75,18 +75,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 187,
-    "Name": "Walsh-Terry",
-    "Tooltip": "est",
+    "HeadingId": 368,
+    "Name": "Sipes-Kertzmann",
+    "Tooltip": "quo",
     "Deleted": true,
-    "Rank": 677,
-    "UdListDefinitionId": 438,
+    "Rank": 10,
+    "UdListDefinitionId": 658,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 368
+        "FieldType": "System.Int32",
+        "FieldLength": 421
       }
     }
   }

@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 56,
-  "UdListDefinitionName": "Ruecker-Daniel"
+  "Id": 166,
+  "UdListDefinitionName": "Kshlerin Group"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 531,
-  "Name": "Champlin-Lubowitz",
-  "Tooltip": "adipisci",
-  "Deleted": true,
-  "UdListDefinitionId": 622,
-  "Rank": 718,
+  "Id": 952,
+  "Name": "Swaniawski, Goyette and Ryan",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 811,
+  "Rank": 940,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 937
     }
   }
 }

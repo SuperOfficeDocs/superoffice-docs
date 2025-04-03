@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/AI/GetChatbotTurns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "atque"
+  "ChatId": "est"
 }
 ```
 
@@ -94,31 +94,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Timestamp": "2023-11-18T02:38:20.5263598+01:00",
-    "UserPrompt": "aut",
-    "UserDisplayText": "ut",
-    "BotResponse": "quis",
+    "Timestamp": "2012-06-15T14:28:21.1179296+02:00",
+    "UserPrompt": "optio",
+    "UserDisplayText": "quasi",
+    "BotResponse": "qui",
     "BotActions": {
-      "BotActions1": "magnam",
-      "BotActions2": "voluptate"
+      "BotActions1": "unde",
+      "BotActions2": "nihil"
     },
     "Attachments": [
-      "deserunt",
-      "qui"
+      "modi",
+      "eum"
     ]
   },
   {
-    "Timestamp": "2023-11-18T02:38:20.5263598+01:00",
-    "UserPrompt": "aut",
-    "UserDisplayText": "ut",
-    "BotResponse": "quis",
+    "Timestamp": "2012-06-15T14:28:21.1179296+02:00",
+    "UserPrompt": "optio",
+    "UserDisplayText": "quasi",
+    "BotResponse": "qui",
     "BotActions": {
-      "BotActions1": "magnam",
-      "BotActions2": "voluptate"
+      "BotActions1": "unde",
+      "BotActions2": "nihil"
     },
     "Attachments": [
-      "deserunt",
-      "qui"
+      "modi",
+      "eum"
     ]
   }
 ]

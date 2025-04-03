@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 871,
-    "Name": "Goldner, Gleason and Murray",
-    "Tooltip": "iste",
+    "HeadingId": 681,
+    "Name": "Ruecker-Thiel",
+    "Tooltip": "deserunt",
     "Deleted": false,
-    "Rank": 302,
-    "UdListDefinitionId": 583
+    "Rank": 109,
+    "UdListDefinitionId": 587
   },
   {
-    "HeadingId": 871,
-    "Name": "Goldner, Gleason and Murray",
-    "Tooltip": "iste",
+    "HeadingId": 681,
+    "Name": "Ruecker-Thiel",
+    "Tooltip": "deserunt",
     "Deleted": false,
-    "Rank": 302,
-    "UdListDefinitionId": 583
+    "Rank": 109,
+    "UdListDefinitionId": 587
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 844,
-    "Name": "Bode, Lebsack and Kessler",
-    "Tooltip": "placeat",
-    "Deleted": false,
-    "Rank": 844,
-    "UdListDefinitionId": 573,
+    "HeadingId": 813,
+    "Name": "Nikolaus Group",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "Rank": 940,
+    "UdListDefinitionId": 558,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldLength": 890
       }
     }
   }

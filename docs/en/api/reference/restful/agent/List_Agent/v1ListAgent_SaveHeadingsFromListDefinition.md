@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 986,
+  "Id": 939,
   "Entities": [
     {
-      "HeadingId": 605,
-      "Name": "O'Reilly-Rath",
-      "Tooltip": "deserunt",
-      "Deleted": true,
-      "Rank": 418,
-      "UdListDefinitionId": 926
+      "HeadingId": 561,
+      "Name": "Blanda-Wolff",
+      "Tooltip": "repellendus",
+      "Deleted": false,
+      "Rank": 240,
+      "UdListDefinitionId": 520
     },
     {
-      "HeadingId": 605,
-      "Name": "O'Reilly-Rath",
-      "Tooltip": "deserunt",
-      "Deleted": true,
-      "Rank": 418,
-      "UdListDefinitionId": 926
+      "HeadingId": 561,
+      "Name": "Blanda-Wolff",
+      "Tooltip": "repellendus",
+      "Deleted": false,
+      "Rank": 240,
+      "UdListDefinitionId": 520
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 721,
-    "Name": "Hackett Inc and Sons",
-    "Tooltip": "sit",
-    "Deleted": false,
-    "Rank": 301,
-    "UdListDefinitionId": 284,
+    "HeadingId": 368,
+    "Name": "Abshire-Sipes",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 893,
+    "UdListDefinitionId": 299,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 236
+        "FieldLength": 988
       }
     }
   }

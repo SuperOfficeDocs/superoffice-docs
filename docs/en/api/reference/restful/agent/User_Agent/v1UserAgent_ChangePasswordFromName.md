@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Ryan LLC",
-  "OldPassword": "similique",
-  "NewPassword": "facere"
+  "AssociateName": "Keeling, Barton and Bauch",
+  "OldPassword": "cupiditate",
+  "NewPassword": "explicabo"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

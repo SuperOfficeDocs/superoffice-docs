@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 58,
-  "ColumnId": 96,
-  "FieldDefault": "sed",
-  "FieldHeight": 955,
-  "FieldLabel": "qui",
-  "FieldLeft": 860,
-  "FieldTop": 535,
+  "UDefFieldId": 462,
+  "ColumnId": 659,
+  "FieldDefault": "omnis",
+  "FieldHeight": 144,
+  "FieldLabel": "ut",
+  "FieldLeft": 863,
+  "FieldTop": 210,
   "FieldType": "Checkbox",
-  "FieldWidth": 278,
-  "FormatMask": "qui",
+  "FieldWidth": 529,
+  "FormatMask": "quaerat",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 612,
-  "LabelLeft": 26,
-  "LabelTop": 345,
-  "LabelWidth": 156,
-  "LastVersionId": 648,
-  "ListTableId": 959,
+  "IsIndexed": false,
+  "LabelHeight": 635,
+  "LabelLeft": 97,
+  "LabelTop": 370,
+  "LabelWidth": 996,
+  "LastVersionId": 794,
+  "ListTableId": 296,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 99,
-  "ProgId": "tenetur",
-  "IsReadOnly": false,
-  "ShortLabel": "et",
-  "TabOrder": 864,
-  "TextLength": 865,
-  "Tooltip": "necessitatibus",
-  "UdefIdentity": 557,
-  "UDListDefinitionId": 796,
+  "Page1LineNo": 148,
+  "ProgId": "officia",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 762,
+  "TextLength": 176,
+  "Tooltip": "architecto",
+  "UdefIdentity": 437,
+  "UDListDefinitionId": 725,
   "Justification": "Center",
-  "Version": 908,
-  "TemplateVariableName": "Shields-Mraz",
-  "HasBeenPublished": true,
-  "MdoListName": "Rempel LLC",
+  "Version": 226,
+  "TemplateVariableName": "Weimann-Spencer",
+  "HasBeenPublished": false,
+  "MdoListName": "Rohan-Schiller",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 804
+      "FieldLength": 932
     }
   }
 }

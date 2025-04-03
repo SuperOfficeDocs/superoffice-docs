@@ -73,7 +73,7 @@ OK
 GET /api/v1/Project/{projectId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 03 Dec 2015 02:38:26 G12T
+Last-Modified: Mon, 15 Feb 2016 14:28:27 G2T
 
 {
-  "BlobId": 17,
-  "BlobSize": 702,
-  "Description": "Fully-configurable 3rd generation matrix",
-  "ExtraInfo": "eaque",
-  "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "voluptas",
-  "OriginalSize": 787,
-  "CreatedDate": "1999-04-03T02:38:26.3235369+02:00",
-  "UpdatedDate": "2015-12-03T02:38:26.3235369+01:00",
+  "BlobId": 278,
+  "BlobSize": 801,
+  "Description": "Pre-emptive discrete secured line",
+  "ExtraInfo": "distinctio",
+  "IsEncrypted": true,
+  "IsZipped": true,
+  "MimeType": "est",
+  "OriginalSize": 189,
+  "CreatedDate": "2005-02-07T14:28:27.0551896+01:00",
+  "UpdatedDate": "2016-02-15T14:28:27.0551896+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "nostrum",
+  "ConceptualType": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 955
+      "FieldType": "System.String",
+      "FieldLength": 721
     }
   }
 }

@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Wolff, Simonis and Gleichner",
-  "ProviderName": "Trantow-Macejkovic",
-  "Context": "temporibus",
-  "OwnerKeys": "autem"
+  "GuiName": "Schaefer-Nolan",
+  "ProviderName": "Goodwin LLC",
+  "Context": "nulla",
+  "OwnerKeys": "sit"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Feeney LLC",
-      "DisplayTooltip": "libero",
-      "DisplayType": "sit",
-      "CanOrderBy": false,
-      "Name": "O'Connell Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "aut",
-      "RestrictionListName": "Herman-Smitham",
+      "DisplayName": "Schuppe Group",
+      "DisplayTooltip": "rerum",
+      "DisplayType": "rerum",
+      "CanOrderBy": true,
+      "Name": "Streich, Maggio and Rau",
+      "CanRestrictBy": false,
+      "RestrictionType": "mollitia",
+      "RestrictionListName": "Ruecker Group",
       "IsVisible": false,
-      "ExtraInfo": "sequi",
-      "Width": "esse",
-      "IconHint": "fugiat",
-      "HeadingIconHint": "totam"
+      "ExtraInfo": "sed",
+      "Width": "illum",
+      "IconHint": "neque",
+      "HeadingIconHint": "placeat"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 878,
-      "Name": "Jakubowski Inc and Sons",
-      "ToolTip": "Earum voluptatum sint.",
-      "Deleted": true,
-      "Rank": 937,
-      "Type": "molestiae",
-      "ColorBlock": 523,
-      "IconHint": "beatae",
-      "Selected": true,
-      "LastChanged": "2013-09-26T02:38:20.8545926+02:00",
+      "Id": 957,
+      "Name": "Strosin, Walter and Braun",
+      "ToolTip": "Aut commodi.",
+      "Deleted": false,
+      "Rank": 57,
+      "Type": "similique",
+      "ColorBlock": 655,
+      "IconHint": "vel",
+      "Selected": false,
+      "LastChanged": "2013-10-31T14:28:21.4616659+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sit",
-      "StyleHint": "facere",
-      "Hidden": true,
-      "FullName": "Miss Audrey Stoltenberg",
+      "ExtraInfo": "et",
+      "StyleHint": "est",
+      "Hidden": false,
+      "FullName": "Jaden Jamar Aufderhar Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 378
+          "FieldLength": 398
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Leannon LLC",
+      "Name": "Johnson, Borer and Shields",
       "Direction": "ASC"
     },
     {
-      "Name": "Leannon LLC",
+      "Name": "Johnson, Borer and Shields",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "provident",
+  "OwnerKeys": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldType": "System.String",
+      "FieldLength": 974
     }
   }
 }

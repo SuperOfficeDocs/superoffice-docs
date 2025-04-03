@@ -88,6 +88,7 @@ Entity to be checked.
 | SuggestedAppointmentId | Integer | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | Boolean | Is this appointment a milestone? |
 | CautionWarning | String | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | String | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | String | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | String | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | Object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -116,7 +117,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,105 +125,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-03-24T02:38:25.8235864+01:00",
-  "AppointmentId": 335,
-  "Description": "Re-contextualized executive solution",
-  "Title": "quis",
-  "Agenda": "non",
-  "InternalNotes": "dignissimos",
-  "StartDate": "2020-04-10T02:38:25.8235864+02:00",
-  "EndDate": "2018-11-18T02:38:25.8235864+01:00",
+  "CreatedDate": "2009-03-27T14:28:26.6958294+01:00",
+  "AppointmentId": 622,
+  "Description": "Polarised contextually-based adapter",
+  "Title": "molestiae",
+  "Agenda": "corrupti",
+  "InternalNotes": "autem",
+  "StartDate": "2019-11-13T14:28:26.6958294+01:00",
+  "EndDate": "2014-10-08T14:28:26.6958294+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 117,
+  "MotherId": 596,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-05-01T02:38:25.8235864+02:00",
+  "UpdatedDate": "2001-06-30T14:28:26.6958294+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 827,
+  "ActiveLinks": 379,
   "Links": [
     {
-      "EntityName": "Murray, Stoltenberg and Emard",
-      "Id": 663,
-      "Description": "Stand-alone value-added middleware",
-      "ExtraInfo": "eos",
-      "LinkId": 773
+      "EntityName": "McCullough, Boyle and Greenfelder",
+      "Id": 941,
+      "Description": "Advanced demand-driven matrix",
+      "ExtraInfo": "dicta",
+      "LinkId": 9
     },
     {
-      "EntityName": "Murray, Stoltenberg and Emard",
-      "Id": 663,
-      "Description": "Stand-alone value-added middleware",
-      "ExtraInfo": "eos",
-      "LinkId": 773
+      "EntityName": "McCullough, Boyle and Greenfelder",
+      "Id": 941,
+      "Description": "Advanced demand-driven matrix",
+      "ExtraInfo": "dicta",
+      "LinkId": 9
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": true,
-  "ColorIndex": 804,
+  "AlarmLeadTime": "ut",
+  "HasAlarm": false,
+  "ColorIndex": 615,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "voluptatem",
-  "LeadTime": "enim",
-  "Location": "possimus",
-  "RejectCounter": 855,
+  "LagTime": "excepturi",
+  "LeadTime": "voluptate",
+  "Location": "magni",
+  "RejectCounter": 966,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 466,
-      "PersonId": 954,
-      "ContactId": 727,
-      "EmailId": 235,
-      "SendEmail": true,
+      "AssociateId": 160,
+      "PersonId": 240,
+      "ContactId": 773,
+      "EmailId": 366,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "soledad@wunsch.com",
-      "Description": "Innovative background project"
+      "EmailAddress": "larue_mccullough@mayerrussel.biz",
+      "Description": "Optimized bifurcated Graphical User Interface"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2023-09-29T02:38:25.8235864+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2017-08-05T14:28:26.6958294+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 914,
+  "PreferredTZLocation": 388,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 776,
+  "SuggestedAppointmentId": 273,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "placeat",
+  "CentralserviceVideomeetId": "est",
   "UserDefinedFields": {
-    "SuperOffice:1": "966991240",
-    "SuperOffice:2": "Jason Gottlieb"
+    "SuperOffice:1": "Lyla Schinner",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "minus",
-    "ExtraFields2": "architecto"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "quis"
   },
   "CustomFields": {
-    "CustomFields1": "perferendis",
-    "CustomFields2": "voluptatibus"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "2007-10-06T02:38:25.8235864+02:00",
-  "PublishTo": "2021-05-04T02:38:25.8235864+02:00",
-  "PublishFrom": "2005-09-27T02:38:25.8235864+02:00",
+  "PublishEventDate": "2022-06-24T14:28:26.6958294+02:00",
+  "PublishTo": "2012-07-28T14:28:26.6958294+02:00",
+  "PublishFrom": "2019-11-28T14:28:26.6958294+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 989,
+      "VisibleId": 641,
       "Visibility": "All",
-      "DisplayValue": "dolores"
+      "DisplayValue": "aliquam"
     },
     {
-      "VisibleId": 989,
+      "VisibleId": 641,
       "Visibility": "All",
-      "DisplayValue": "dolores"
+      "DisplayValue": "aliquam"
     }
   ]
 }
@@ -235,7 +237,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "doloribus",
-  "2": "velit"
+  "1": "quo",
+  "2": "quis"
 }
 ```

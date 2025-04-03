@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 992,
+  "ReportId": 780,
   "ReportCategory": "All",
-  "Description": "Organized user-facing instruction set",
+  "Description": "Open-source disintermediate installation",
   "ReportLayout": "CalendarMonth",
-  "Name": "Mayer Inc and Sons",
-  "AssociateId": 859,
-  "TemplateId": 114,
-  "Published": false,
+  "Name": "Stiedemann Inc and Sons",
+  "AssociateId": 72,
+  "TemplateId": 800,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldLength": 895
     }
   }
 }

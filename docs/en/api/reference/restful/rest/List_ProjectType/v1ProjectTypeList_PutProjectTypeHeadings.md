@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 435,
-    "Name": "Lang-Greenholt",
-    "Tooltip": "quibusdam",
-    "Deleted": true,
-    "Rank": 526,
-    "UdListDefinitionId": 107
+    "HeadingId": 440,
+    "Name": "Mitchell, Goyette and Breitenberg",
+    "Tooltip": "blanditiis",
+    "Deleted": false,
+    "Rank": 502,
+    "UdListDefinitionId": 839
   },
   {
-    "HeadingId": 435,
-    "Name": "Lang-Greenholt",
-    "Tooltip": "quibusdam",
-    "Deleted": true,
-    "Rank": 526,
-    "UdListDefinitionId": 107
+    "HeadingId": 440,
+    "Name": "Mitchell, Goyette and Breitenberg",
+    "Tooltip": "blanditiis",
+    "Deleted": false,
+    "Rank": 502,
+    "UdListDefinitionId": 839
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 976,
-    "Name": "Hagenes Inc and Sons",
-    "Tooltip": "cum",
+    "HeadingId": 724,
+    "Name": "Bosco, Lesch and Oberbrunner",
+    "Tooltip": "nam",
     "Deleted": false,
-    "Rank": 918,
-    "UdListDefinitionId": 637,
+    "Rank": 990,
+    "UdListDefinitionId": 446,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldLength": 335
       }
     }
   }

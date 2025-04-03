@@ -72,14 +72,14 @@ No Content
 POST /api/v1/Agents/User/SetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 161,
-  "TableName": "White Group",
+  "RoleId": 589,
+  "TableName": "Rath, Will and Hansen",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "quia"
+  "DataRightValue": "et"
 }
 ```
 

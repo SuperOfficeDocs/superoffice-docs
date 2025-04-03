@@ -62,7 +62,7 @@ OK
 GET /api/v1/License/Site/{satelliteId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Shields Inc and Sons",
-    "Description": "Synergistic 5th generation Graphic Interface",
+    "Name": "Sporer, Bahringer and Lowe",
+    "Description": "Function-based high-level circuit",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 833,
-        "Tooltip": "quisquam",
-        "CanAssign": true,
-        "Free": 948,
-        "InUse": 975,
-        "IsHidden": false,
+        "Total": 314,
+        "Tooltip": "consequuntur",
+        "CanAssign": false,
+        "Free": 819,
+        "InUse": 488,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 369,
-        "Name": "Boehm, Stroman and Sanford",
-        "Description": "Secured national monitoring",
-        "PrerequisiteModuleName": "Predovic Group",
-        "SortOrder": 843,
-        "ExtraFlags": 120,
+        "ModuleLicenseId": 164,
+        "Name": "Hudson-Conroy",
+        "Description": "Synchronised optimizing function",
+        "PrerequisiteModuleName": "Thompson LLC",
+        "SortOrder": 566,
+        "ExtraFlags": 142,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 661
+            "FieldType": "System.String",
+            "FieldLength": 245
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 511,
-        "Tooltip": "suscipit",
+        "Total": 475,
+        "Tooltip": "iste",
         "CanAssign": false,
-        "Free": 866,
-        "InUse": 653,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 595,
-        "Name": "Crooks-Cremin",
-        "Description": "Customer-focused neutral matrices",
-        "PrerequisiteModuleName": "Rogahn LLC",
-        "SortOrder": 269,
-        "ExtraFlags": 150,
+        "Free": 237,
+        "InUse": 884,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 89,
+        "Name": "Little LLC",
+        "Description": "Centralized transitional time-frame",
+        "PrerequisiteModuleName": "Reichert, Kuphal and Lindgren",
+        "SortOrder": 516,
+        "ExtraFlags": 164,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 270
+            "FieldLength": 101
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldLength": 713
       }
     }
   },
   {
-    "Name": "Shields Inc and Sons",
-    "Description": "Synergistic 5th generation Graphic Interface",
+    "Name": "Sporer, Bahringer and Lowe",
+    "Description": "Function-based high-level circuit",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 833,
-        "Tooltip": "quisquam",
-        "CanAssign": true,
-        "Free": 948,
-        "InUse": 975,
-        "IsHidden": false,
+        "Total": 314,
+        "Tooltip": "consequuntur",
+        "CanAssign": false,
+        "Free": 819,
+        "InUse": 488,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 369,
-        "Name": "Boehm, Stroman and Sanford",
-        "Description": "Secured national monitoring",
-        "PrerequisiteModuleName": "Predovic Group",
-        "SortOrder": 843,
-        "ExtraFlags": 120,
+        "ModuleLicenseId": 164,
+        "Name": "Hudson-Conroy",
+        "Description": "Synchronised optimizing function",
+        "PrerequisiteModuleName": "Thompson LLC",
+        "SortOrder": 566,
+        "ExtraFlags": 142,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 661
+            "FieldType": "System.String",
+            "FieldLength": 245
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 511,
-        "Tooltip": "suscipit",
+        "Total": 475,
+        "Tooltip": "iste",
         "CanAssign": false,
-        "Free": 866,
-        "InUse": 653,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 595,
-        "Name": "Crooks-Cremin",
-        "Description": "Customer-focused neutral matrices",
-        "PrerequisiteModuleName": "Rogahn LLC",
-        "SortOrder": 269,
-        "ExtraFlags": 150,
+        "Free": 237,
+        "InUse": 884,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 89,
+        "Name": "Little LLC",
+        "Description": "Centralized transitional time-frame",
+        "PrerequisiteModuleName": "Reichert, Kuphal and Lindgren",
+        "SortOrder": 516,
+        "ExtraFlags": 164,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 270
+            "FieldLength": 101
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldLength": 713
       }
     }
   }

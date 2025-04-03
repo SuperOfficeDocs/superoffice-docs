@@ -108,6 +108,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -122,7 +123,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -133,65 +134,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 234,
-    "StartDate": "2009-01-13T02:38:20.8389734+01:00",
-    "EndDate": "2023-08-07T02:38:20.8389734+02:00",
+    "AppointmentId": 178,
+    "StartDate": "2016-10-29T14:28:21.4460417+02:00",
+    "EndDate": "2017-11-28T14:28:21.4460417+01:00",
     "Type": "BookingForChecklist",
-    "Task": "nobis",
-    "AssociateFullName": "Scarlett Turner",
-    "ContactName": "Ziemann-Reichert",
-    "Description": "Customizable uniform system engine",
-    "PersonFullName": "Prof. Murray Corine Upton DVM",
-    "PersonId": 832,
-    "ContactId": 795,
-    "ProjectId": 841,
-    "ProjectName": "Nikolaus-Maggio",
-    "IsPublished": false,
-    "AssociateId": 654,
-    "ColorIndex": 985,
-    "IsFree": true,
-    "HasAlarm": true,
+    "Task": "modi",
+    "AssociateFullName": "Miss Emmie Murphy",
+    "ContactName": "Schulist-Raynor",
+    "Description": "Business-focused multi-tasking emulation",
+    "PersonFullName": "Janie Grant",
+    "PersonId": 587,
+    "ContactId": 948,
+    "ProjectId": 980,
+    "ProjectName": "Stark, Barton and Baumbach",
+    "IsPublished": true,
+    "AssociateId": 406,
+    "ColorIndex": 524,
+    "IsFree": false,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 791,
-    "PriorityName": "Kemmer-Walter",
+    "PriorityId": 783,
+    "PriorityName": "Strosin-Kuhic",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2021-12-22T02:38:20.8389734+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2011-07-08T14:28:21.4460417+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2001-05-21T02:38:20.8389734+02:00",
-    "RecurringEndDate": "2009-07-31T02:38:20.8389734+02:00",
-    "MotherId": 538,
-    "AssignedBy": 323,
-    "AssignedByFullName": "Cordell Labadie IV",
+    "RecurringStartDate": "2007-07-16T14:28:21.4460417+02:00",
+    "RecurringEndDate": "2005-01-02T14:28:21.4460417+01:00",
+    "MotherId": 985,
+    "AssignedBy": 511,
+    "AssignedByFullName": "Johanna Walker",
     "RejectReason": "",
-    "Location": "odit",
-    "AlarmLeadTime": "adipisci",
-    "SaleId": 813,
-    "SaleName": "Cole-Pfeffer",
-    "AssociateName": "Stracke-Kunze",
-    "CreatedDate": "2015-01-12T02:38:20.8389734+01:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Dr. Rachelle Zboncak PhD",
-    "CreatedByAssociateId": 974,
+    "Location": "officiis",
+    "AlarmLeadTime": "quas",
+    "SaleId": 368,
+    "SaleName": "Pollich Inc and Sons",
+    "AssociateName": "Erdman-McCullough",
+    "CreatedDate": "2002-01-24T14:28:21.4460417+01:00",
+    "CreatedBy": "officia",
+    "CreatedByFullName": "Ms. Marjory Nora Turcotte IV",
+    "CreatedByAssociateId": 301,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 52,
-    "Title": "libero",
-    "Agenda": "cum",
-    "InternalNotes": "molestias",
+    "PreferredTZLocation": 384,
+    "Title": "exercitationem",
+    "Agenda": "quaerat",
+    "InternalNotes": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 677
+        "FieldType": "System.Int32",
+        "FieldLength": 254
       }
     }
   }

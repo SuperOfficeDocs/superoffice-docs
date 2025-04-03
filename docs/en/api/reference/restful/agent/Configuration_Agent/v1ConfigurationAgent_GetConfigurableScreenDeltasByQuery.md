@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 780,
-    "Name": "Harvey-Nienow",
-    "Description": "Optional needs-based moderator",
-    "DeltaJson": "exercitationem",
+    "ConfigurableScreenDeltaId": 681,
+    "Name": "Mitchell LLC",
+    "Description": "Face to face fault-tolerant info-mediaries",
+    "DeltaJson": "iusto",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "quo",
-    "UpdatedDate": "2001-10-12T02:38:20.995206+02:00",
-    "CreatedDate": "2021-11-17T02:38:20.995206+01:00",
+    "RecipeId": "tenetur",
+    "UpdatedDate": "2020-10-25T14:28:21.5866608+01:00",
+    "CreatedDate": "1999-04-21T14:28:21.5866608+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      476,
-      480
+      453,
+      487
     ],
-    "AppliesToKey": "iusto",
+    "AppliesToKey": "dolor",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 64
+        "FieldType": "System.Int32",
+        "FieldLength": 567
       }
     }
   }

@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 42,
-  "SelectionId": 487,
-  "Restrictions": "commodi"
+  "DashboardTileId": 314,
+  "SelectionId": 279,
+  "Restrictions": "et"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Christiansen, Johnston and Sauer",
-        "DisplayTooltip": "corrupti",
-        "DisplayType": "cum",
+        "DisplayName": "Spencer-Ortiz",
+        "DisplayTooltip": "voluptatem",
+        "DisplayType": "fuga",
         "CanOrderBy": true,
-        "Name": "Leffler-Johns",
+        "Name": "Mayert-Harber",
         "CanRestrictBy": false,
-        "RestrictionType": "consequatur",
-        "RestrictionListName": "Wehner, Little and Little",
+        "RestrictionType": "ea",
+        "RestrictionListName": "Halvorson-Walker",
         "IsVisible": false,
-        "ExtraInfo": "sequi",
-        "Width": "accusamus",
-        "IconHint": "veniam",
-        "HeadingIconHint": "non"
+        "ExtraInfo": "vitae",
+        "Width": "ut",
+        "IconHint": "laboriosam",
+        "HeadingIconHint": "error"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Christiansen, Johnston and Sauer",
-        "DisplayTooltip": "corrupti",
-        "DisplayType": "cum",
+        "DisplayName": "Spencer-Ortiz",
+        "DisplayTooltip": "voluptatem",
+        "DisplayType": "fuga",
         "CanOrderBy": true,
-        "Name": "Leffler-Johns",
+        "Name": "Mayert-Harber",
         "CanRestrictBy": false,
-        "RestrictionType": "consequatur",
-        "RestrictionListName": "Wehner, Little and Little",
+        "RestrictionType": "ea",
+        "RestrictionListName": "Halvorson-Walker",
         "IsVisible": false,
-        "ExtraInfo": "sequi",
-        "Width": "accusamus",
-        "IconHint": "veniam",
-        "HeadingIconHint": "non"
+        "ExtraInfo": "vitae",
+        "Width": "ut",
+        "IconHint": "laboriosam",
+        "HeadingIconHint": "error"
       }
     ],
     "Result": null

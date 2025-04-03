@@ -40,8 +40,8 @@ Application tokens must be specified if calling an Online installation. Applicat
  <SOAP-ENV:Body>
    <DocumentMigration:GetForDateRange>
     <DocumentMigration:DocumentPluginId xsi:type="xsd:int">0</DocumentMigration:DocumentPluginId>
-    <DocumentMigration:MinDate xsi:type="xsd:dateTime">2025-03-19T01:36:43Z</DocumentMigration:MinDate>
-    <DocumentMigration:MaxDate xsi:type="xsd:dateTime">2025-03-19T01:36:43Z</DocumentMigration:MaxDate>
+    <DocumentMigration:MinDate xsi:type="xsd:dateTime">2025-04-01T12:26:43Z</DocumentMigration:MinDate>
+    <DocumentMigration:MaxDate xsi:type="xsd:dateTime">2025-04-01T12:26:43Z</DocumentMigration:MaxDate>
     <DocumentMigration:IncludeEmails xsi:type="xsd:boolean">false</DocumentMigration:IncludeEmails>
    </DocumentMigration:GetForDateRange>
 

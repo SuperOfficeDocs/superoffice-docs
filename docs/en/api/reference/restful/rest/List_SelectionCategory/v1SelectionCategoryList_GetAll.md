@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 706,
-    "Name": "Kautzer-McCullough",
-    "Tooltip": "ducimus",
+    "Id": 682,
+    "Name": "Reynolds Group",
+    "Tooltip": "iusto",
     "Deleted": false,
-    "UdListDefinitionId": 896,
-    "Rank": 501,
+    "UdListDefinitionId": 699,
+    "Rank": 432,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 899
+        "FieldLength": 676
       }
     }
   }

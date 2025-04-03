@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 643,
-  "Name": "Yundt LLC",
-  "Tooltip": "est",
-  "Deleted": false,
-  "UdListDefinitionId": 717,
-  "Rank": 380,
+  "Id": 798,
+  "Name": "Carter-Fadel",
+  "Tooltip": "officiis",
+  "Deleted": true,
+  "UdListDefinitionId": 921,
+  "Rank": 397,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 851
+      "FieldLength": 423
     }
   }
 }

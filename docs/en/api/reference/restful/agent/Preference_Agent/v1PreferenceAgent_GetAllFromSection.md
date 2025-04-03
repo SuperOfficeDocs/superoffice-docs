@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Preference/GetAllFromSection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "sunt"
+  "Section": "officiis"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 163,
-    "Section": "accusantium",
-    "Key": "aut",
-    "Name": "Lemke, Crona and Jast",
+    "PrefDescId": 12,
+    "Section": "maiores",
+    "Key": "nobis",
+    "Name": "Dietrich LLC",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Automated bifurcated workforce",
-    "IsBuiltin": false,
-    "TableName": "Sporer, White and Hessel",
-    "UserDefinedListId": 750,
-    "Rank": 348,
-    "SubGroup": "consequatur",
-    "MinLevel": 61,
-    "MaxValue": 311,
-    "MinValue": 25,
-    "RequiredLicense": "fugiat",
+    "Description": "Fundamental solution-oriented synergy",
+    "IsBuiltin": true,
+    "TableName": "Abshire-Rippin",
+    "UserDefinedListId": 857,
+    "Rank": 543,
+    "SubGroup": "eum",
+    "MinLevel": 219,
+    "MaxValue": 59,
+    "MinValue": 251,
+    "RequiredLicense": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldLength": 821
       }
     }
   }

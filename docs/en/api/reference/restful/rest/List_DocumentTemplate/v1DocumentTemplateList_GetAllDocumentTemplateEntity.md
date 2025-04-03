@@ -27,7 +27,7 @@ Calls the List agent service GetAllDocumentTemplateEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items?includeDeleted=True
+GET /api/v1/List/DocumentTemplate/Items?includeDeleted=False
 ```
 
 
@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 470,
-    "Name": "Dietrich-Emard",
-    "Tooltip": "consequatur",
-    "SaveInDb": 673,
-    "Filename": "facere",
-    "DefaultOref": "facilis",
+    "DocumentTemplateId": 94,
+    "Name": "Willms Inc and Sons",
+    "Tooltip": "sequi",
+    "SaveInDb": 282,
+    "Filename": "ipsa",
+    "DefaultOref": "ea",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 794,
-    "IntentId": 501,
+    "AutoeventId": 956,
+    "IntentId": 578,
     "IsDefaultPublished": false,
-    "Rank": 583,
-    "LoadTemplateFromPlugin": 193,
-    "MimeType": "impedit",
+    "Rank": 450,
+    "LoadTemplateFromPlugin": 806,
+    "MimeType": "enim",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 249,
+    "DocumentTypeKey": 849,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "germaine.jakubowski@collinsswaniawski.info",
+    "EmailSubject": "scot_kohler@heidenreich.co.uk",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "kenna@okonbauch.ca",
+    "SenderEmailAddress": "ted@oreilly.co.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldLength": 120
       }
     }
   }

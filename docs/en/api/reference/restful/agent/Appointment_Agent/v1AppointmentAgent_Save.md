@@ -116,6 +116,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -135,13 +136,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -158,120 +159,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-04-22T02:38:20.7296081+02:00",
-  "AppointmentId": 694,
-  "Description": "Phased bandwidth-monitored customer loyalty",
-  "Title": "natus",
-  "Agenda": "dolor",
-  "InternalNotes": "eos",
-  "StartDate": "2016-11-18T02:38:20.7296081+01:00",
-  "EndDate": "2022-07-09T02:38:20.7296081+02:00",
+  "CreatedDate": "2019-02-27T14:28:21.3522957+01:00",
+  "AppointmentId": 412,
+  "Description": "User-centric holistic local area network",
+  "Title": "eos",
+  "Agenda": "minus",
+  "InternalNotes": "a",
+  "StartDate": "1998-10-29T14:28:21.3522957+01:00",
+  "EndDate": "2003-06-04T14:28:21.3522957+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 84,
+  "MotherId": 909,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-05-22T02:38:20.7296081+02:00",
+  "UpdatedDate": "2004-06-12T14:28:21.3522957+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 923,
+  "ActiveLinks": 119,
   "Links": [
     {
-      "EntityName": "Dare, Schmeler and Hansen",
-      "Id": 259,
-      "Description": "Progressive cohesive superstructure",
-      "ExtraInfo": "vitae",
-      "LinkId": 603,
+      "EntityName": "Mann-Weber",
+      "Id": 452,
+      "Description": "Horizontal intermediate array",
+      "ExtraInfo": "hic",
+      "LinkId": 529,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 449
+          "FieldLength": 877
         }
       }
     }
   ],
-  "AlarmLeadTime": "asperiores",
+  "AlarmLeadTime": "laboriosam",
   "HasAlarm": false,
-  "ColorIndex": 625,
-  "IsFree": true,
+  "ColorIndex": 273,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "aliquam",
-  "LeadTime": "mollitia",
-  "Location": "quod",
-  "RejectCounter": 597,
-  "RejectReason": "",
+  "LagTime": "neque",
+  "LeadTime": "voluptas",
+  "Location": "ab",
+  "RejectCounter": 505,
+  "RejectReason": "implement intuitive networks",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 76,
-      "PersonId": 769,
-      "ContactId": 152,
-      "EmailId": 1002,
-      "SendEmail": true,
+      "AssociateId": 276,
+      "PersonId": 112,
+      "ContactId": 971,
+      "EmailId": 33,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "brayan@pollich.ca",
-      "Description": "Digitized heuristic open architecture"
+      "EmailAddress": "vita@kiehnschimmel.biz",
+      "Description": "Multi-tiered well-modulated function"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-07-10T02:38:20.7296081+02:00",
+  "ActiveDate": "1998-07-07T14:28:21.3522957+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 68,
+  "PreferredTZLocation": 653,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 812,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 597,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "assumenda",
+  "CentralserviceVideomeetId": "deserunt",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Garrison Dylan Hirthe III",
-    "SuperOffice:2": "179649306"
+    "SuperOffice:1": "1321848209",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "perspiciatis",
-    "ExtraFields2": "eius"
+    "ExtraFields1": "accusantium",
+    "ExtraFields2": "illum"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "ut"
+    "CustomFields1": "rerum",
+    "CustomFields2": "reiciendis"
   },
-  "PublishEventDate": "2009-04-25T02:38:20.7296081+02:00",
-  "PublishTo": "2002-03-04T02:38:20.7296081+01:00",
-  "PublishFrom": "2022-03-08T02:38:20.7296081+01:00",
+  "PublishEventDate": "2019-04-18T14:28:21.3522957+02:00",
+  "PublishTo": "2014-05-08T14:28:21.3522957+02:00",
+  "PublishFrom": "2005-03-21T14:28:21.3522957+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 924,
+      "VisibleId": 499,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldLength": 146
         }
       }
     },
     {
-      "VisibleId": 924,
+      "VisibleId": 499,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "nihil",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 425
+          "FieldLength": 146
         }
       }
     }
@@ -281,7 +283,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldLength": 864
     }
   }
 }

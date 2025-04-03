@@ -54,6 +54,8 @@ generated: true
 
 * [POST Agents/CustomerService/GetCustomerServiceStartup](v1CustomerServiceAgent_GetCustomerServiceStartup.md)
 
+* [POST Agents/CustomerService/GetCustomerServiceStartupByOwner](v1CustomerServiceAgent_GetCustomerServiceStartupByOwner.md)
+
 * [POST Agents/CustomerService/ExecuteEventHandlers](v1CustomerServiceAgent_ExecuteEventHandlers.md)
 
 * [POST Agents/CustomerService/GetMailboxes](v1CustomerServiceAgent_GetMailboxes.md)

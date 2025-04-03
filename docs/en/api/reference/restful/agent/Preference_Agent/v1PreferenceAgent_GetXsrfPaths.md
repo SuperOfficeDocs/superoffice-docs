@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "rerum"
+  "Hostname": "ea"
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "iure",
-  "eveniet"
+  "facere",
+  "unde"
 ]
 ```

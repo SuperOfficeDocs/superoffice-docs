@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/CreateRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "et",
-  "ProviderName": "Bergstrom LLC",
-  "StorageKey": "quo",
-  "Context": "architecto"
+  "StorageType": "consequatur",
+  "ProviderName": "Johnson, Bartoletti and Hermiston",
+  "StorageKey": "doloribus",
+  "Context": "culpa"
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Steuber, Lemke and Lesch",
-  "Description": "Managed responsive encryption",
-  "Rank": 703,
+  "Name": "Hermann, Boyer and Ferry",
+  "Description": "Total homogeneous hierarchy",
+  "Rank": 70,
   "Restrictions": [
     {
-      "Name": "Boyer Inc and Sons",
-      "Operator": "eos",
+      "Name": "Block LLC",
+      "Operator": "officia",
       "Values": [
-        "est",
-        "et"
+        "eos",
+        "quos"
       ],
       "DisplayValues": [
-        "magni",
-        "consequuntur"
+        "non",
+        "ut"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 786,
+      "InterParenthesis": 820,
       "InterOperator": "And",
-      "UniqueHash": 279
+      "UniqueHash": 917
     }
   ]
 }

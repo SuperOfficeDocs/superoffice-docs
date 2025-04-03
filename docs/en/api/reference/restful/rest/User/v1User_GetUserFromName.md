@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 972,
-  "Name": "Flatley Group",
-  "Rank": 743,
-  "Tooltip": "eum",
+  "AssociateId": 229,
+  "Name": "Leuschke-Ortiz",
+  "Rank": 631,
+  "Tooltip": "maiores",
   "LicenseOwners": [
     {
-      "Name": "Christiansen-Jaskolski",
-      "Description": "Open-architected local forecast",
+      "Name": "Zieme Group",
+      "Description": "Future-proofed asynchronous neural-net",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -116,13 +116,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 830
+          "FieldLength": 460
         }
       }
     },
     {
-      "Name": "Christiansen-Jaskolski",
-      "Description": "Open-architected local forecast",
+      "Name": "Zieme Group",
+      "Description": "Future-proofed asynchronous neural-net",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 830
+          "FieldLength": 460
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "est",
-      "Tooltip": "vel",
-      "Id": 956,
-      "Rank": 954,
+      "Value": "sequi",
+      "Tooltip": "sit",
+      "Id": 888,
+      "Rank": 4,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 582
+          "FieldType": "System.String",
+          "FieldLength": 667
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2017-02-26T02:38:26.6203828+01:00",
-  "Lastlogout": "2008-06-22T02:38:26.6203828+02:00",
-  "EjUserId": 345,
-  "RequestSignature": "eligendi",
+  "Lastlogin": "2015-11-30T14:28:27.4301751+01:00",
+  "Lastlogout": "2012-05-14T14:28:27.4301751+02:00",
+  "EjUserId": 744,
+  "RequestSignature": "consequatur",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": true,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "id",
-      "DisplayValue": "ut",
+      "Value": "libero",
+      "DisplayValue": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 188
         }
       }
     },
     {
       "Type": null,
-      "Value": "id",
-      "DisplayValue": "ut",
+      "Value": "libero",
+      "DisplayValue": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 188
         }
       }
     }
   ],
-  "UserName": "Bechtelar, Brown and Schmidt",
+  "UserName": "Berge, Price and Frami",
   "TicketCategories": [
     {
-      "Id": 65,
-      "Name": "Medhurst Inc and Sons",
-      "ToolTip": "Sit inventore ut ullam repellendus.",
+      "Id": 161,
+      "Name": "Fay Inc and Sons",
+      "ToolTip": "Est pariatur autem.",
       "Deleted": false,
-      "Rank": 825,
-      "Type": "dignissimos",
+      "Rank": 991,
+      "Type": "quo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "dicta",
-      "ColorBlock": 340,
-      "ExtraInfo": "vel",
-      "StyleHint": "unde",
-      "FullName": "Cristian Cole",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 299
-        }
-      }
-    }
-  ],
-  "NickName": "Hane Group",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "quibusdam"
-  },
-  "CustomFields": {
-    "CustomFields1": "cum",
-    "CustomFields2": "fugiat"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Bartoletti, Walsh and Mayer",
-      "DisplayName": "Graham Group",
-      "Description": "Public-key grid-enabled attitude",
-      "ToolTip": "Qui modi consequatur et rerum excepturi.",
-      "Actions": "Implicit",
-      "ActionData": "similique",
+      "IconHint": "sapiente",
+      "ColorBlock": 25,
+      "ExtraInfo": "officiis",
+      "StyleHint": "est",
+      "FullName": "Emmet Deckow",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 113
+        }
+      }
+    }
+  ],
+  "NickName": "Heaney, Koepp and Armstrong",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "similique",
+    "ExtraFields2": "nostrum"
+  },
+  "CustomFields": {
+    "CustomFields1": "quia",
+    "CustomFields2": "quaerat"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Kreiger-Satterfield",
+      "DisplayName": "Kuhic-Stark",
+      "Description": "Enhanced even-keeled knowledge base",
+      "ToolTip": "Est consequatur nemo qui tempore incidunt dolor.",
+      "Actions": "Implicit",
+      "ActionData": "perspiciatis",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 480
         }
       }
     }
@@ -257,8 +257,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 47
+      "FieldType": "System.Int32",
+      "FieldLength": 195
     }
   }
 }

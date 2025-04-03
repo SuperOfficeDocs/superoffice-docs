@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 607,
-  "Name": "Rau Group",
-  "Description": "Re-contextualized exuding solution",
-  "DeltaJson": "minus",
+  "ConfigurableScreenDeltaId": 547,
+  "Name": "Herman, Hand and Johns",
+  "Description": "Integrated client-driven success",
+  "DeltaJson": "est",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "tempore",
-  "UpdatedDate": "2004-01-05T02:38:20.995206+01:00",
-  "CreatedDate": "2005-01-24T02:38:20.995206+01:00",
+  "RecipeId": "enim",
+  "UpdatedDate": "2024-09-27T14:28:21.5710362+02:00",
+  "CreatedDate": "2023-08-02T14:28:21.5710362+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    724,
-    774
+    186,
+    97
   ],
-  "AppliesToKey": "aliquam",
+  "AppliesToKey": "molestiae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 922
+      "FieldLength": 577
     }
   }
 }

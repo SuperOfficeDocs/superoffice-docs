@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 77,
-  "Name": "Yost Inc and Sons",
-  "Tooltip": "debitis",
-  "Deleted": true,
-  "Rank": 112,
-  "IsCustomList": false,
+  "Id": 108,
+  "Name": "Oberbrunner-Bergnaum",
+  "Tooltip": "labore",
+  "Deleted": false,
+  "Rank": 714,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "deleniti",
-  "InUseByUserDefinedFields": false
+  "ListType": "dolorem",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 15,
-  "Name": "Schneider-Bergstrom",
-  "Tooltip": "iste",
-  "Deleted": true,
-  "Rank": 597,
+  "Id": 767,
+  "Name": "Tromp-Cruickshank",
+  "Tooltip": "consequuntur",
+  "Deleted": false,
+  "Rank": 171,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "asperiores",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldLength": 858
     }
   }
 }

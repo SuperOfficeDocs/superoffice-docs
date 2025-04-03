@@ -173,8 +173,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kertzmann-Schoen",
-  "Restrictions": "ea"
+  "ProviderName": "Hermann-Hayes",
+  "Restrictions": "quis"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Kulas LLC",
-    "DisplayTooltip": "velit",
-    "DisplayType": "iusto",
-    "CanOrderBy": false,
-    "Name": "Jewess, Fahey and Lebsack",
+    "DisplayName": "Macejkovic-Brown",
+    "DisplayTooltip": "tempora",
+    "DisplayType": "accusamus",
+    "CanOrderBy": true,
+    "Name": "Bednar Group",
     "CanRestrictBy": false,
-    "RestrictionType": "tempore",
-    "RestrictionListName": "West-Leuschke",
-    "IsVisible": true,
-    "ExtraInfo": "doloribus",
-    "Width": "a",
-    "IconHint": "ex",
-    "HeadingIconHint": "tenetur"
+    "RestrictionType": "consequatur",
+    "RestrictionListName": "Bailey-Hoeger",
+    "IsVisible": false,
+    "ExtraInfo": "quibusdam",
+    "Width": "aut",
+    "IconHint": "aut",
+    "HeadingIconHint": "possimus"
   }
 ]
 ```

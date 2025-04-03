@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Bailey Group",
-    "ToolTip": "Doloribus omnis soluta porro.",
-    "Deleted": true,
-    "Rank": 720,
-    "Type": "id",
-    "ColorBlock": 208,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2023-06-11T02:38:26.948622+02:00",
+    "Id": 134,
+    "Name": "Bernier, Will and Hamill",
+    "ToolTip": "Assumenda quasi hic laboriosam nesciunt non porro.",
+    "Deleted": false,
+    "Rank": 747,
+    "Type": "sit",
+    "ColorBlock": 405,
+    "IconHint": "ex",
+    "Selected": false,
+    "LastChanged": "1999-08-21T14:28:27.7270373+02:00",
     "ChildItems": [
       {
-        "Id": 681,
-        "Name": "Schultz, Carter and Lakin",
-        "ToolTip": "Est odit esse voluptatem amet laborum maxime veniam.",
+        "Id": 233,
+        "Name": "Kertzmann, Bednar and Koelpin",
+        "ToolTip": "Deleniti similique id.",
         "Deleted": false,
-        "Rank": 82,
-        "Type": "nihil",
-        "ColorBlock": 139,
-        "IconHint": "error",
+        "Rank": 227,
+        "Type": "eos",
+        "ColorBlock": 880,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2011-04-15T02:38:26.948622+02:00",
+        "LastChanged": "1999-10-29T14:28:27.7270373+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
-        "StyleHint": "placeat",
+        "ExtraInfo": "non",
+        "StyleHint": "delectus",
         "Hidden": false,
-        "FullName": "Elva Wuckert"
+        "FullName": "Prof. Era Stanton"
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "ea",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Watson Schmeler"
+    "FullName": "Anissa Koelpin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 755,
-    "Name": "Bashirian, Kulas and Runte",
-    "ToolTip": "Illum eum veniam quam.",
+    "Id": 635,
+    "Name": "Krajcik, Glover and Feil",
+    "ToolTip": "Ex occaecati modi rerum itaque maxime consequuntur et.",
     "Deleted": false,
-    "Rank": 120,
-    "Type": "fugit",
-    "ColorBlock": 598,
-    "IconHint": "quasi",
-    "Selected": false,
-    "LastChanged": "2022-09-22T02:38:26.948622+02:00",
+    "Rank": 694,
+    "Type": "sit",
+    "ColorBlock": 251,
+    "IconHint": "praesentium",
+    "Selected": true,
+    "LastChanged": "2007-04-19T14:28:27.7270373+02:00",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Wunsch-Schultz",
-        "ToolTip": "Blanditiis delectus distinctio.",
+        "Id": 607,
+        "Name": "Hansen-Cole",
+        "ToolTip": "Officia qui et dolorem.",
         "Deleted": false,
-        "Rank": 232,
-        "Type": "praesentium",
-        "ColorBlock": 107,
-        "IconHint": "molestias",
+        "Rank": 472,
+        "Type": "ut",
+        "ColorBlock": 851,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2016-04-11T02:38:26.948622+02:00",
+        "LastChanged": "2000-09-25T14:28:27.7270373+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "et",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Mr. Hollie Pagac",
+        "FullName": "Dr. Brando Ara Keeling DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 539
+            "FieldLength": 47
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "cupiditate",
-    "Hidden": true,
-    "FullName": "Harmon Friesen",
+    "ExtraInfo": "officia",
+    "StyleHint": "aspernatur",
+    "Hidden": false,
+    "FullName": "Ellsworth Sanford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 671
+        "FieldType": "System.String",
+        "FieldLength": 79
       }
     }
   }

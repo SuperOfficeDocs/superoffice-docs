@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 870,
-  "Name": "Upton LLC",
-  "Tooltip": "illo",
+  "Id": 237,
+  "Name": "Yundt-Kuvalis",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 181,
+  "Rank": 240,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "voluptatem",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "iste",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 915,
-  "Name": "Simonis Group",
-  "Tooltip": "velit",
+  "Id": 704,
+  "Name": "Stokes-Hamill",
+  "Tooltip": "natus",
   "Deleted": false,
-  "Rank": 492,
-  "IsCustomList": true,
+  "Rank": 507,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sunt",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 785
+      "FieldLength": 732
     }
   }
 }

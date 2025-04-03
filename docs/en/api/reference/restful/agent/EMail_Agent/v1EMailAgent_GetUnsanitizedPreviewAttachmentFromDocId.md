@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 827,
-  "AttachmentId": "illo"
+  "DocId": 846,
+  "AttachmentId": "numquam"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Right-sized user-facing middleware",
-  "Filename": "neque",
-  "Size": 683,
-  "Type": "corrupti",
-  "Encoding": "dolores",
-  "Id": "sint",
-  "Disposition": "impedit",
-  "IsSafeFileExtension": false,
+  "Description": "Up-sized incremental info-mediaries",
+  "Filename": "voluptatibus",
+  "Size": 413,
+  "Type": "placeat",
+  "Encoding": "dolorum",
+  "Id": "aliquid",
+  "Disposition": "non",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 317
     }
   }
 }

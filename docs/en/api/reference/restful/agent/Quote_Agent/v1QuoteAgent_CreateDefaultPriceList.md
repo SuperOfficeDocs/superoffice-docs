@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 78,
-  "ERPPriceListKey": "quasi",
-  "QuoteConnectionId": 252,
-  "Name": "Shanahan-Kessler",
-  "Description": "Ergonomic optimal Graphical User Interface",
-  "Currency": "consequatur",
-  "CurrencyName": "Monahan Inc and Sons",
-  "ValidFrom": "1997-11-04T02:38:21.7607486+01:00",
-  "ValidTo": "2006-07-24T02:38:21.7607486+02:00",
-  "IsActive": true,
+  "PriceListId": 443,
+  "ERPPriceListKey": "at",
+  "QuoteConnectionId": 789,
+  "Name": "Reinger Group",
+  "Description": "Open-architected regional array",
+  "Currency": "excepturi",
+  "CurrencyName": "Rutherford LLC",
+  "ValidFrom": "2015-08-04T14:28:22.2897573+02:00",
+  "ValidTo": "2019-02-12T14:28:22.2897573+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 976
     }
   }
 }

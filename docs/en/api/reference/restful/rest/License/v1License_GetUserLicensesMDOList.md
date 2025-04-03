@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 74,
-    "Name": "Terry, Hickle and Runolfsson",
-    "ToolTip": "Esse ad doloremque ut fugit voluptatum neque repudiandae.",
+    "Id": 18,
+    "Name": "Lebsack-Price",
+    "ToolTip": "Repellat enim.",
     "Deleted": false,
-    "Rank": 58,
-    "Type": "earum",
-    "ColorBlock": 76,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2015-08-09T02:38:26.5578869+02:00",
+    "Rank": 766,
+    "Type": "dolorem",
+    "ColorBlock": 209,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "1998-05-31T14:28:27.3676769+02:00",
     "ChildItems": [
       {
-        "Id": 671,
-        "Name": "Stehr-Gutmann",
-        "ToolTip": "Quidem natus quod adipisci veritatis voluptas a nobis.",
+        "Id": 935,
+        "Name": "Daniel Inc and Sons",
+        "ToolTip": "Repellat rem sint dolor quia.",
         "Deleted": false,
-        "Rank": 949,
-        "Type": "asperiores",
-        "ColorBlock": 893,
-        "IconHint": "soluta",
+        "Rank": 724,
+        "Type": "amet",
+        "ColorBlock": 899,
+        "IconHint": "veritatis",
         "Selected": true,
-        "LastChanged": "2014-11-06T02:38:26.5578869+01:00",
+        "LastChanged": "2020-03-07T14:28:27.3676769+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Clotilde Wilkinson",
+        "ExtraInfo": "odit",
+        "StyleHint": "dolore",
+        "Hidden": true,
+        "FullName": "Chasity Thiel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 263
+            "FieldType": "System.String",
+            "FieldLength": 654
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Alejandrin Emmerich",
+    "ExtraInfo": "accusamus",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Adah Nitzsche",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldLength": 810
       }
     }
   }

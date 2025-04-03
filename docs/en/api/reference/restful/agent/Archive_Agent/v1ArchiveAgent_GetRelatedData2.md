@@ -76,13 +76,13 @@ OK
 POST /api/v1/Agents/Archive/GetRelatedData2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "et",
-  "RecordId": 321,
-  "Fields": "error"
+  "Table": "magni",
+  "RecordId": 782,
+  "Fields": "sed"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "repellendus",
+    "Field": "consequatur",
     "FieldValue": null
   },
   {
-    "Field": "repellendus",
+    "Field": "consequatur",
     "FieldValue": null
   }
 ]

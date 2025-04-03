@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 160,
-    "Section": "omnis",
-    "Key": "impedit",
-    "Name": "Schmeler, Johnston and Gaylord",
+    "PrefDescId": 236,
+    "Section": "minima",
+    "Key": "animi",
+    "Name": "Collier Group",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Diverse logistical model",
-    "IsBuiltin": false,
-    "TableName": "Wisoky, Witting and Bailey",
-    "UserDefinedListId": 544,
-    "Rank": 401,
-    "SubGroup": "consequuntur",
-    "MinLevel": 284,
-    "MaxValue": 753,
-    "MinValue": 600,
-    "RequiredLicense": "adipisci",
+    "Description": "Intuitive zero defect info-mediaries",
+    "IsBuiltin": true,
+    "TableName": "Gleichner-Rutherford",
+    "UserDefinedListId": 924,
+    "Rank": 489,
+    "SubGroup": "totam",
+    "MinLevel": 280,
+    "MaxValue": 46,
+    "MinValue": 798,
+    "RequiredLicense": "maxime",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 243
+        "FieldType": "System.String",
+        "FieldLength": 479
       }
     }
   }

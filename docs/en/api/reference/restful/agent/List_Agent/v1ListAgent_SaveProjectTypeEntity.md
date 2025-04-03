@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 9,
-  "Name": "Grant-Quigley",
-  "Tooltip": "dolor",
-  "Rank": 653,
+  "ProjTypeId": 28,
+  "Name": "Swaniawski-Breitenberg",
+  "Tooltip": "et",
+  "Rank": 722,
   "DurationUnit": "Century",
-  "ProjectDuration": 152,
+  "ProjectDuration": 498,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 231,
-      "Name": "Gaylord Inc and Sons",
-      "ToolTip": "Et cum non qui illo reprehenderit sed.",
-      "Deleted": false,
-      "Rank": 22,
-      "Type": "error",
-      "ColorBlock": 243,
-      "IconHint": "voluptatem",
-      "Selected": true,
-      "LastChanged": "2021-12-30T02:38:21.5420262+01:00",
+      "Id": 971,
+      "Name": "Casper-Frami",
+      "ToolTip": "Eum quia veritatis numquam vel corporis voluptatem molestiae.",
+      "Deleted": true,
+      "Rank": 205,
+      "Type": "sed",
+      "ColorBlock": 337,
+      "IconHint": "sed",
+      "Selected": false,
+      "LastChanged": "2006-09-04T14:28:22.0866401+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sed",
-      "StyleHint": "eos",
+      "ExtraInfo": "cupiditate",
+      "StyleHint": "nulla",
       "Hidden": false,
-      "FullName": "Genoveva Tyrique Tromp III"
+      "FullName": "Terry Newell Marvin IV"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 761,
-  "Name": "Jewess, Beahan and Kirlin",
-  "Tooltip": "molestias",
-  "Rank": 529,
+  "ProjTypeId": 306,
+  "Name": "Kub, Schroeder and Monahan",
+  "Tooltip": "ex",
+  "Rank": 237,
   "DurationUnit": "Century",
-  "ProjectDuration": 97,
+  "ProjectDuration": 871,
   "Deleted": false,
   "HasGuide": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 785,
-      "Name": "Cummerata, Hamill and Gislason",
-      "ToolTip": "Quis voluptatem aut nobis autem et laborum.",
+      "Id": 553,
+      "Name": "Weissnat, Schmitt and Buckridge",
+      "ToolTip": "Veritatis aut alias.",
       "Deleted": true,
-      "Rank": 285,
-      "Type": "nam",
-      "ColorBlock": 27,
-      "IconHint": "voluptas",
+      "Rank": 190,
+      "Type": "itaque",
+      "ColorBlock": 820,
+      "IconHint": "ea",
       "Selected": false,
-      "LastChanged": "2011-01-07T02:38:21.5420262+01:00",
+      "LastChanged": "2001-12-06T14:28:22.0866401+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nam",
-      "StyleHint": "reprehenderit",
-      "Hidden": true,
-      "FullName": "Dr. Jay Edison Douglas DVM",
+      "ExtraInfo": "possimus",
+      "StyleHint": "odit",
+      "Hidden": false,
+      "FullName": "Damian Ubaldo Rolfson I",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 316
+          "FieldLength": 582
         }
       }
     }
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldLength": 110
     }
   }
 }

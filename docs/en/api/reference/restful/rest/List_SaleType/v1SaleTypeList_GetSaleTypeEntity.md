@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 602,
-  "Name": "Feil Group",
-  "Tooltip": "saepe",
-  "Rank": 940,
+  "SaleTypeId": 148,
+  "Name": "Koelpin, Murazik and Kling",
+  "Tooltip": "qui",
+  "Rank": 74,
   "DurationUnit": "Century",
-  "SaleDuration": 23,
-  "SaleTypeCatId": 193,
+  "SaleDuration": 9,
+  "SaleTypeCatId": 326,
   "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 372,
-  "QuoteLinesTemplate": 535,
-  "ConfirmationLinesTemplate": 734,
+  "DefaultQuoteValidity": 317,
+  "QuoteLinesTemplate": 291,
+  "ConfirmationLinesTemplate": 999,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 804,
-  "MinEarningPercent": 337,
-  "GroupQuoteLinesBy": 393,
-  "SortGroupLinesBy": 628,
+  "MaxDiscountPercent": 702,
+  "MinEarningPercent": 603,
+  "GroupQuoteLinesBy": 1001,
+  "SortGroupLinesBy": 793,
   "Stages": [
     {
-      "Id": 42,
-      "Name": "Moore Inc and Sons",
-      "ToolTip": "Repellendus sit.",
-      "Deleted": false,
-      "Rank": 455,
-      "Type": "non",
-      "ColorBlock": 746,
-      "IconHint": "aut",
-      "Selected": false,
-      "LastChanged": "2007-11-15T02:38:26.9330101+01:00",
+      "Id": 286,
+      "Name": "Daugherty-Hamill",
+      "ToolTip": "Molestias atque.",
+      "Deleted": true,
+      "Rank": 895,
+      "Type": "quaerat",
+      "ColorBlock": 506,
+      "IconHint": "non",
+      "Selected": true,
+      "LastChanged": "2011-06-06T14:28:27.6957886+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aperiam",
-      "StyleHint": "accusantium",
+      "ExtraInfo": "eligendi",
+      "StyleHint": "illum",
       "Hidden": false,
-      "FullName": "Mrs. Sunny Torp",
+      "FullName": "Ms. Otilia Ceasar Kling",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 339
+          "FieldLength": 980
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 387
+      "FieldLength": 692
     }
   }
 }

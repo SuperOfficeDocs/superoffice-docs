@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/List/SaveFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 338,
-  "UdListDefinitionName": "Hegmann Group",
+  "Id": 265,
+  "UdListDefinitionName": "Kling, Homenick and Goldner",
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 905,
-  "Name": "Metz Group",
-  "Tooltip": "aperiam",
+  "Id": 568,
+  "Name": "Huel-Fay",
+  "Tooltip": "sapiente",
   "Deleted": false,
-  "UdListDefinitionId": 79,
-  "Rank": 957,
+  "UdListDefinitionId": 531,
+  "Rank": 584,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 328
+      "FieldLength": 388
     }
   }
 }

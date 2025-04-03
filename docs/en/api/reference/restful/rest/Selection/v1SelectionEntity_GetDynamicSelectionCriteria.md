@@ -66,7 +66,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,44 +77,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Goyette Group",
-    "Operator": "enim",
+    "Name": "Koss Group",
+    "Operator": "non",
     "Values": [
-      "quis",
-      "praesentium"
+      "quasi",
+      "voluptatem"
     ],
     "DisplayValues": [
-      "molestiae",
-      "recusandae"
+      "voluptas",
+      "excepturi"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Hamill Inc and Sons",
-        "Operator": "rerum",
+        "Name": "Veum, Eichmann and Reilly",
+        "Operator": "vitae",
         "Values": [
-          "culpa",
-          "itaque"
+          "animi",
+          "qui"
         ],
         "DisplayValues": [
-          "labore",
-          "omnis"
+          "qui",
+          "quasi"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 466,
+        "InterParenthesis": 760,
         "InterOperator": "And",
-        "UniqueHash": 633
+        "UniqueHash": 971
       }
     ],
-    "InterParenthesis": 577,
+    "InterParenthesis": 521,
     "InterOperator": "And",
-    "UniqueHash": 988
+    "UniqueHash": 262
   }
 ]
 ```

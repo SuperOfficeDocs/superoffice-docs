@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,26 +85,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 899,
-    "Tooltip": "veniam",
+    "Unrestricted": false,
+    "Total": 454,
+    "Tooltip": "qui",
     "CanAssign": true,
-    "Free": 432,
-    "InUse": 649,
-    "IsHidden": false,
+    "Free": 605,
+    "InUse": 870,
+    "IsHidden": true,
     "Assigned": true,
-    "ModuleLicenseId": 468,
-    "Name": "Carroll-Quitzon",
-    "Description": "Diverse transitional data-warehouse",
-    "PrerequisiteModuleName": "Fahey, Flatley and Hand",
-    "SortOrder": 935,
-    "ExtraFlags": 854,
+    "ModuleLicenseId": 640,
+    "Name": "O'Reilly, Graham and Nitzsche",
+    "Description": "Grass-roots dedicated ability",
+    "PrerequisiteModuleName": "Adams LLC",
+    "SortOrder": 589,
+    "ExtraFlags": 472,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldType": "System.String",
+        "FieldLength": 69
       }
     }
   }

@@ -78,18 +78,18 @@ OK
 POST /api/v1/Agents/Selection/GetRecipientStatisticsFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 268,
-      "ContactId": 652
+      "PersonId": 995,
+      "ContactId": 534
     },
     {
-      "PersonId": 268,
-      "ContactId": 652
+      "PersonId": 995,
+      "ContactId": 534
     }
   ]
 }
@@ -102,18 +102,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Total": 703,
-  "ValidPostalAddresses": 161,
-  "ValidEmailAddresses": 324,
-  "ValidFaxNumbers": 880,
-  "NoAddresses": 780,
-  "NoFaxOrEmails": 539,
+  "Total": 198,
+  "ValidPostalAddresses": 822,
+  "ValidEmailAddresses": 242,
+  "ValidFaxNumbers": 944,
+  "NoAddresses": 18,
+  "NoFaxOrEmails": 866,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 51
+      "FieldLength": 789
     }
   }
 }

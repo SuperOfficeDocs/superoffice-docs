@@ -66,7 +66,7 @@ OK
 GET /api/v1/Hierarchy/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 854,
+  "HierarchyId": 447,
   "Domain": "Dashboards",
-  "Name": "Fritsch Group",
-  "Fullname": "laboriosam",
-  "ParentId": 217,
+  "Name": "Kertzmann-Renner",
+  "Fullname": "sed",
+  "ParentId": 231,
   "Children": [
     {
-      "HierarchyId": 99,
+      "HierarchyId": 214,
       "Domain": "Dashboards",
-      "Name": "Bernier Inc and Sons",
-      "Fullname": "vitae",
-      "ParentId": 270,
+      "Name": "Harber, Lesch and Funk",
+      "Fullname": "fugit",
+      "ParentId": 147,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-01-29T02:38:26.1204323+01:00",
-      "RegisteredAssociateId": 238,
-      "Updated": "1998-12-04T02:38:26.1204323+01:00",
-      "UpdatedAssociateId": 114,
+      "Registered": "2008-07-03T14:28:26.9458186+02:00",
+      "RegisteredAssociateId": 310,
+      "Updated": "2013-01-16T14:28:26.9458186+01:00",
+      "UpdatedAssociateId": 102,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 928
+          "FieldLength": 360
         }
       }
     }
   ],
-  "Registered": "2018-10-31T02:38:26.1204323+01:00",
-  "RegisteredAssociateId": 495,
-  "Updated": "2017-07-25T02:38:26.1204323+02:00",
-  "UpdatedAssociateId": 513,
+  "Registered": "1998-01-16T14:28:26.9458186+01:00",
+  "RegisteredAssociateId": 985,
+  "Updated": "2018-04-27T14:28:26.9458186+02:00",
+  "UpdatedAssociateId": 655,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 616
+      "FieldType": "System.Int32",
+      "FieldLength": 510
     }
   }
 }

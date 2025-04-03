@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "a",
-  "SearchString": "qui"
+  "Type": "sit",
+  "SearchString": "sed"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "aut",
-    "magni"
+    "doloremque",
+    "dolores"
   ],
   "Users": [
     {
-      "Value": "quisquam",
-      "DisplayValue": "consequatur",
+      "Value": "nihil",
+      "DisplayValue": "qui",
       "Columns": [
-        "et",
-        "eveniet"
+        "non",
+        "minima"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldLength": 15
         }
       }
     },
     {
-      "Value": "quisquam",
-      "DisplayValue": "consequatur",
+      "Value": "nihil",
+      "DisplayValue": "qui",
       "Columns": [
-        "et",
-        "eveniet"
+        "non",
+        "minima"
       ],
-      "CanCreatePerson": false,
+      "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 223
+          "FieldLength": 15
         }
       }
     }
@@ -137,8 +137,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 70
+      "FieldType": "System.Int32",
+      "FieldLength": 629
     }
   }
 }

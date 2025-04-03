@@ -5,7 +5,24 @@ items:
   id: UserPreferenceStrings.Request
   parent: SuperOffice.WebApi.Data
   children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.AutoQuoteLastmessage
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.CheckBoxOnLeft
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultMessageStatus
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultOwner
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultRequestStatus
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NewWindowWhenAdding
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NoWarnOnLoss
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NumExpandedMsg
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOpenInFavourites
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOwnCategories
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OwnRequestsOnly
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.PreviewImageAttachment
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.RequestDefaultCategory
   - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.Section
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.ShowLastOnTop
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SimplifiedEditor
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SingleLineBreaks
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.Request.UseLastCategory
   langs:
   - csharp
   - vb
@@ -55,6 +72,499 @@ items:
     return:
       type: System.String
     content.vb: Public Const Section As String = "request"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NumExpandedMsg
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NumExpandedMsg
+  id: NumExpandedMsg
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: NumExpandedMsg
+  nameWithType: UserPreferenceStrings.Request.NumExpandedMsg
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NumExpandedMsg
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(INTEGER) Indicates the number of message that should be expanded when viewing request\n"
+  syntax:
+    content: public const string NumExpandedMsg = "numExpandedMsg"
+    return:
+      type: System.String
+    content.vb: Public Const NumExpandedMsg As String = "numExpandedMsg"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.ShowLastOnTop
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.ShowLastOnTop
+  id: ShowLastOnTop
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: ShowLastOnTop
+  nameWithType: UserPreferenceStrings.Request.ShowLastOnTop
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.ShowLastOnTop
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Sort messages by showing most recent at top of request\n"
+  syntax:
+    content: public const string ShowLastOnTop = "showlastOnTop"
+    return:
+      type: System.String
+    content.vb: Public Const ShowLastOnTop As String = "showlastOnTop"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.PreviewImageAttachment
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.PreviewImageAttachment
+  id: PreviewImageAttachment
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: PreviewImageAttachment
+  nameWithType: UserPreferenceStrings.Request.PreviewImageAttachment
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.PreviewImageAttachment
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) When viewing a message, also automatically show all image attachments\n"
+  syntax:
+    content: public const string PreviewImageAttachment = "previewImageAttachment"
+    return:
+      type: System.String
+    content.vb: Public Const PreviewImageAttachment As String = "previewImageAttachment"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NewWindowWhenAdding
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NewWindowWhenAdding
+  id: NewWindowWhenAdding
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: NewWindowWhenAdding
+  nameWithType: UserPreferenceStrings.Request.NewWindowWhenAdding
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NewWindowWhenAdding
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Open new tab in browser when adding a message\n"
+  syntax:
+    content: public const string NewWindowWhenAdding = "newWindowWhenAdding"
+    return:
+      type: System.String
+    content.vb: Public Const NewWindowWhenAdding As String = "newWindowWhenAdding"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NoWarnOnLoss
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NoWarnOnLoss
+  id: NoWarnOnLoss
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: NoWarnOnLoss
+  nameWithType: UserPreferenceStrings.Request.NoWarnOnLoss
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.NoWarnOnLoss
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Do not show a warning when navigating away without having saved screen\n"
+  syntax:
+    content: public const string NoWarnOnLoss = "noWarnOnLoss"
+    return:
+      type: System.String
+    content.vb: Public Const NoWarnOnLoss As String = "noWarnOnLoss"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SimplifiedEditor
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SimplifiedEditor
+  id: SimplifiedEditor
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: SimplifiedEditor
+  nameWithType: UserPreferenceStrings.Request.SimplifiedEditor
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SimplifiedEditor
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Use a simplified editor when writing a message on a request\n"
+  syntax:
+    content: public const string SimplifiedEditor = "simplifiedEditor"
+    return:
+      type: System.String
+    content.vb: Public Const SimplifiedEditor As String = "simplifiedEditor"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SingleLineBreaks
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SingleLineBreaks
+  id: SingleLineBreaks
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: SingleLineBreaks
+  nameWithType: UserPreferenceStrings.Request.SingleLineBreaks
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.SingleLineBreaks
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Use a single line break when pressing enter in the editor instead of double line breaks\n"
+  syntax:
+    content: public const string SingleLineBreaks = "singleLineBreaks"
+    return:
+      type: System.String
+    content.vb: Public Const SingleLineBreaks As String = "singleLineBreaks"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.CheckBoxOnLeft
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.CheckBoxOnLeft
+  id: CheckBoxOnLeft
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: CheckBoxOnLeft
+  nameWithType: UserPreferenceStrings.Request.CheckBoxOnLeft
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.CheckBoxOnLeft
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Place check boxes on left side of lists instead of the right side\n"
+  syntax:
+    content: public const string CheckBoxOnLeft = "checkBoxOnLeft"
+    return:
+      type: System.String
+    content.vb: Public Const CheckBoxOnLeft As String = "checkBoxOnLeft"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultRequestStatus
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultRequestStatus
+  id: DefaultRequestStatus
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: DefaultRequestStatus
+  nameWithType: UserPreferenceStrings.Request.DefaultRequestStatus
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultRequestStatus
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(INTEGER) The default request status when creating a new request\n"
+  syntax:
+    content: public const string DefaultRequestStatus = "defaultRequestStatus"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultRequestStatus As String = "defaultRequestStatus"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultMessageStatus
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultMessageStatus
+  id: DefaultMessageStatus
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: DefaultMessageStatus
+  nameWithType: UserPreferenceStrings.Request.DefaultMessageStatus
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultMessageStatus
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(INTEGER) The default request status when adding a message to a request\n"
+  syntax:
+    content: public const string DefaultMessageStatus = "defaultMessageStatus"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultMessageStatus As String = "defaultMessageStatus"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OwnRequestsOnly
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OwnRequestsOnly
+  id: OwnRequestsOnly
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: OwnRequestsOnly
+  nameWithType: UserPreferenceStrings.Request.OwnRequestsOnly
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OwnRequestsOnly
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Only show requests from categories the user is a member of\n"
+  syntax:
+    content: public const string OwnRequestsOnly = "ownRequestsOnly"
+    return:
+      type: System.String
+    content.vb: Public Const OwnRequestsOnly As String = "ownRequestsOnly"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.AutoQuoteLastmessage
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.AutoQuoteLastmessage
+  id: AutoQuoteLastmessage
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: AutoQuoteLastmessage
+  nameWithType: UserPreferenceStrings.Request.AutoQuoteLastmessage
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.AutoQuoteLastmessage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Automatically include and quote last message when replying\n"
+  syntax:
+    content: public const string AutoQuoteLastmessage = "autoQuoteLastmessage"
+    return:
+      type: System.String
+    content.vb: Public Const AutoQuoteLastmessage As String = "autoQuoteLastmessage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOpenInFavourites
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOpenInFavourites
+  id: OnlyOpenInFavourites
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: OnlyOpenInFavourites
+  nameWithType: UserPreferenceStrings.Request.OnlyOpenInFavourites
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOpenInFavourites
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) When showing favourite request list, only show requests with status open\n"
+  syntax:
+    content: public const string OnlyOpenInFavourites = "onlyOpenInFavourites"
+    return:
+      type: System.String
+    content.vb: Public Const OnlyOpenInFavourites As String = "onlyOpenInFavourites"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOwnCategories
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOwnCategories
+  id: OnlyOwnCategories
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: OnlyOwnCategories
+  nameWithType: UserPreferenceStrings.Request.OnlyOwnCategories
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.OnlyOwnCategories
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) In category choosers, only show categories that the user is a member of\n"
+  syntax:
+    content: public const string OnlyOwnCategories = "onlyOwnCategories"
+    return:
+      type: System.String
+    content.vb: Public Const OnlyOwnCategories As String = "onlyOwnCategories"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.UseLastCategory
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.UseLastCategory
+  id: UseLastCategory
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: UseLastCategory
+  nameWithType: UserPreferenceStrings.Request.UseLastCategory
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.UseLastCategory
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) When creating a new request, set the selected category to the last used category\n"
+  syntax:
+    content: public const string UseLastCategory = "useLastCategory"
+    return:
+      type: System.String
+    content.vb: Public Const UseLastCategory As String = "useLastCategory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.RequestDefaultCategory
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.RequestDefaultCategory
+  id: RequestDefaultCategory
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: RequestDefaultCategory
+  nameWithType: UserPreferenceStrings.Request.RequestDefaultCategory
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.RequestDefaultCategory
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(INTEGER) The default category when creating a new request\n"
+  syntax:
+    content: public const string RequestDefaultCategory = "requestDefaultCategory"
+    return:
+      type: System.String
+    content.vb: Public Const RequestDefaultCategory As String = "requestDefaultCategory"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultOwner
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultOwner
+  id: DefaultOwner
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.Request
+  langs:
+  - csharp
+  - vb
+  name: DefaultOwner
+  nameWithType: UserPreferenceStrings.Request.DefaultOwner
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.Request.DefaultOwner
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(INTEGER) The default owner when creating a new request\n"
+  syntax:
+    content: public const string DefaultOwner = "defaultOwner"
+    return:
+      type: System.String
+    content.vb: Public Const DefaultOwner As String = "defaultOwner"
   modifiers.csharp:
   - public
   - const

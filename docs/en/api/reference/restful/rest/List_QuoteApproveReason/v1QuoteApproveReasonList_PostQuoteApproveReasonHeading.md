@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 766,
-  "Name": "Spencer-Renner",
-  "Tooltip": "natus",
+  "HeadingId": 575,
+  "Name": "Miller-Lebsack",
+  "Tooltip": "porro",
   "Deleted": false,
-  "Rank": 935,
-  "UdListDefinitionId": 305
+  "Rank": 342,
+  "UdListDefinitionId": 877
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 300,
-  "Name": "Krajcik Inc and Sons",
-  "Tooltip": "totam",
+  "HeadingId": 830,
+  "Name": "Yundt LLC",
+  "Tooltip": "optio",
   "Deleted": false,
-  "Rank": 477,
-  "UdListDefinitionId": 856,
+  "Rank": 108,
+  "UdListDefinitionId": 101,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 224
+      "FieldLength": 977
     }
   }
 }

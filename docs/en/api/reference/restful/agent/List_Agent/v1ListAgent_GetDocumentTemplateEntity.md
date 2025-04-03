@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=310
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=939
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 609,
-  "Name": "Spinka, Paucek and Douglas",
-  "Tooltip": "ducimus",
-  "SaveInDb": 563,
-  "Filename": "possimus",
-  "DefaultOref": "nesciunt",
+  "DocumentTemplateId": 317,
+  "Name": "Abshire-Wiegand",
+  "Tooltip": "ullam",
+  "SaveInDb": 367,
+  "Filename": "tempore",
+  "DefaultOref": "ut",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 93,
-  "IntentId": 236,
+  "AutoeventId": 757,
+  "IntentId": 67,
   "IsDefaultPublished": false,
-  "Rank": 328,
-  "LoadTemplateFromPlugin": 390,
-  "MimeType": "minima",
+  "Rank": 129,
+  "LoadTemplateFromPlugin": 57,
+  "MimeType": "ut",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 380,
+  "DocumentTypeKey": 69,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "bert_willms@hansen.name",
-  "IncludeSignature": true,
-  "ShowCurrents": false,
+  "EmailSubject": "ricky@hahn.biz",
+  "IncludeSignature": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "marielle_skiles@padberg.ca",
+  "SenderEmailAddress": "esteban@lowe.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldType": "System.String",
+      "FieldLength": 885
     }
   }
 }

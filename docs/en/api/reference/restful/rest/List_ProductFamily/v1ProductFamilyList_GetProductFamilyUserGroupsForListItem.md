@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Boehm LLC",
-    "ToolTip": "Eum aut ut accusamus nam.",
+    "Id": 6,
+    "Name": "Deckow, Kertzmann and Rath",
+    "ToolTip": "Esse repellat quis modi consectetur ducimus.",
     "Deleted": false,
-    "Rank": 803,
-    "Type": "qui",
-    "ColorBlock": 678,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2015-03-27T02:38:26.8392626+01:00",
+    "Rank": 330,
+    "Type": "sint",
+    "ColorBlock": 571,
+    "IconHint": "magnam",
+    "Selected": false,
+    "LastChanged": "2009-12-02T14:28:27.6332907+01:00",
     "ChildItems": [
       {
-        "Id": 538,
-        "Name": "Wunsch Group",
-        "ToolTip": "Expedita consequuntur ut ducimus.",
+        "Id": 560,
+        "Name": "Quitzon, Cronin and Powlowski",
+        "ToolTip": "Perferendis tempora.",
         "Deleted": false,
-        "Rank": 870,
-        "Type": "nihil",
-        "ColorBlock": 617,
-        "IconHint": "harum",
+        "Rank": 259,
+        "Type": "aut",
+        "ColorBlock": 539,
+        "IconHint": "optio",
         "Selected": false,
-        "LastChanged": "2011-07-26T02:38:26.8392626+02:00",
+        "LastChanged": "2024-01-19T14:28:27.6332907+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "labore",
+        "ExtraInfo": "sint",
+        "StyleHint": "tenetur",
         "Hidden": false,
-        "FullName": "Willis Green",
+        "FullName": "Virgil Hansen III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 311
+            "FieldType": "System.String",
+            "FieldLength": 966
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Lynn Harris",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "numquam",
+    "Hidden": false,
+    "FullName": "Jefferey Samantha Ankunding DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 221
+        "FieldType": "System.String",
+        "FieldLength": 869
       }
     }
   }

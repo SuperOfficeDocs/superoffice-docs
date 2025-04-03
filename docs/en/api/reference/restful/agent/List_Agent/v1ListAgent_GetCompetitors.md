@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Value": "omnis",
-    "Tooltip": "voluptatem",
+    "Id": 175,
+    "Value": "consectetur",
+    "Tooltip": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 57
+        "FieldType": "System.Int32",
+        "FieldLength": 200
       }
     }
   },
   {
-    "Id": 606,
-    "Value": "omnis",
-    "Tooltip": "voluptatem",
+    "Id": 175,
+    "Value": "consectetur",
+    "Tooltip": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 57
+        "FieldType": "System.Int32",
+        "FieldLength": 200
       }
     }
   }

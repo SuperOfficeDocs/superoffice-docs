@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 315,
-  "IsActive": true,
+  "ErpConnectionId": 76,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 736,
-      "CrmFieldKey": "veritatis",
-      "CrmDisplayName": "Dietrich-Hartmann",
-      "CrmDisplayTooltip": "nihil",
-      "ErpFieldKey": "animi",
+      "ErpFieldId": 756,
+      "CrmFieldKey": "ut",
+      "CrmDisplayName": "Farrell-Eichmann",
+      "CrmDisplayTooltip": "reprehenderit",
+      "ErpFieldKey": "suscipit",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Boyle Inc and Sons",
-      "ErpDisplayTooltip": "est",
-      "SyncToCrm": false,
-      "SyncToErp": false,
-      "ShowInGui": true,
+      "ErpDisplayName": "Hahn Inc and Sons",
+      "ErpDisplayTooltip": "ratione",
+      "SyncToCrm": true,
+      "SyncToErp": true,
+      "ShowInGui": false,
       "ShowInSearch": true,
-      "AlreadyMapped": false,
-      "MissingInERP": true,
+      "AlreadyMapped": true,
+      "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "qui",
+      "ListReference": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 732
+          "FieldType": "System.String",
+          "FieldLength": 542
         }
       }
     }
@@ -132,7 +132,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldLength": 473
     }
   }
 }

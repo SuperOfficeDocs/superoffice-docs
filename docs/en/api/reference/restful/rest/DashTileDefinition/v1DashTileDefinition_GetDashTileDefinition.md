@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 63,
-  "Name": "Bashirian, Boehm and Pfeffer",
-  "Description": "User-centric tangible intranet",
-  "DefaultHeight": 390,
-  "DefaultWidth": 542,
+  "DashboardTileDefinitionId": 104,
+  "Name": "Wintheiser Group",
+  "Description": "Reverse-engineered attitude-oriented synergy",
+  "DefaultHeight": 94,
+  "DefaultWidth": 332,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "O'Connell, Ebert and Marvin",
-  "SelectionId": 460,
+  "EntityName": "Gibson-Klocko",
+  "SelectionId": 609,
   "CurrencyMode": "Base",
-  "CurrencyCode": "provident",
+  "CurrencyCode": "ipsam",
   "Measure": "Average",
-  "MeasureField": "incidunt",
-  "SortBy": "et",
-  "LayoutConfig": "fuga",
-  "SecondarySelectionId": 749,
-  "MeasureByField": "inventore",
+  "MeasureField": "libero",
+  "SortBy": "nihil",
+  "LayoutConfig": "consequatur",
+  "SecondarySelectionId": 555,
+  "MeasureByField": "voluptatem",
   "Usage": "Dashboard",
-  "ProviderName": "Bartoletti LLC",
+  "ProviderName": "Emard, Hackett and Goyette",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 961
+      "FieldLength": 943
     }
   },
   "_Links": {

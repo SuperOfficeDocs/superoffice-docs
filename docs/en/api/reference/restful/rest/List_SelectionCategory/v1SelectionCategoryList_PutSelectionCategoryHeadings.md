@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 434,
-    "Name": "Kuhn, Lueilwitz and Murray",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "Rank": 672,
-    "UdListDefinitionId": 12
+    "HeadingId": 438,
+    "Name": "Swaniawski Group",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "Rank": 644,
+    "UdListDefinitionId": 127
   },
   {
-    "HeadingId": 434,
-    "Name": "Kuhn, Lueilwitz and Murray",
-    "Tooltip": "eius",
-    "Deleted": true,
-    "Rank": 672,
-    "UdListDefinitionId": 12
+    "HeadingId": 438,
+    "Name": "Swaniawski Group",
+    "Tooltip": "sed",
+    "Deleted": false,
+    "Rank": 644,
+    "UdListDefinitionId": 127
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 199,
-    "Name": "Will, O'Conner and Becker",
-    "Tooltip": "quibusdam",
+    "HeadingId": 625,
+    "Name": "Flatley LLC",
+    "Tooltip": "saepe",
     "Deleted": false,
-    "Rank": 486,
-    "UdListDefinitionId": 789,
+    "Rank": 258,
+    "UdListDefinitionId": 297,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldLength": 332
       }
     }
   }

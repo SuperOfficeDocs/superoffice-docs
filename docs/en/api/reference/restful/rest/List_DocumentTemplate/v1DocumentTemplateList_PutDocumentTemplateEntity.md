@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 541,
-  "Name": "Olson, Mayert and Beahan",
-  "Tooltip": "autem",
-  "SaveInDb": 329,
-  "Filename": "inventore",
-  "DefaultOref": "nostrum",
+  "DocumentTemplateId": 16,
+  "Name": "Thompson Inc and Sons",
+  "Tooltip": "provident",
+  "SaveInDb": 672,
+  "Filename": "qui",
+  "DefaultOref": "dignissimos",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 361,
-  "IntentId": 154,
-  "IsDefaultPublished": true,
-  "Rank": 64,
-  "LoadTemplateFromPlugin": 688,
-  "MimeType": "rerum",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 158,
+  "AutoeventId": 845,
+  "IntentId": 965,
+  "IsDefaultPublished": false,
+  "Rank": 780,
+  "LoadTemplateFromPlugin": 676,
+  "MimeType": "quia",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 539,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "myles@jaskolski.com",
-  "IncludeSignature": false,
+  "EmailSubject": "augustus_runolfsson@schmidt.biz",
+  "IncludeSignature": true,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "jovany@rath.us",
+  "SenderEmailAddress": "haylee_hackett@lebsackbeahan.co.uk",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 135,
-  "Name": "Jacobson, Kunze and VonRueden",
-  "Tooltip": "aut",
-  "SaveInDb": 242,
-  "Filename": "voluptates",
-  "DefaultOref": "recusandae",
+  "DocumentTemplateId": 653,
+  "Name": "Becker, Ortiz and Bashirian",
+  "Tooltip": "soluta",
+  "SaveInDb": 538,
+  "Filename": "earum",
+  "DefaultOref": "voluptate",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 628,
-  "IntentId": 332,
-  "IsDefaultPublished": false,
-  "Rank": 966,
-  "LoadTemplateFromPlugin": 159,
-  "MimeType": "animi",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 593,
+  "AutoeventId": 317,
+  "IntentId": 552,
+  "IsDefaultPublished": true,
+  "Rank": 78,
+  "LoadTemplateFromPlugin": 648,
+  "MimeType": "deleniti",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 266,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "caleigh_collier@volkman.biz",
+  "EmailSubject": "alice@hodkiewicz.us",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "marlen.schroeder@oconnell.biz",
+  "SenderEmailAddress": "reta.homenick@kuvalis.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 110
+      "FieldType": "System.Int32",
+      "FieldLength": 700
     }
   }
 }

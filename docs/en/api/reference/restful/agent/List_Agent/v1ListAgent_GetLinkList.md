@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/GetLinkList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,17 +85,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Collins Inc and Sons",
-    "Id": 106,
-    "Description": "Enhanced national Graphical User Interface",
-    "ExtraInfo": "non",
-    "LinkId": 159,
+    "EntityName": "Von-Thompson",
+    "Id": 247,
+    "Description": "Stand-alone methodical focus group",
+    "ExtraInfo": "fugit",
+    "LinkId": 63,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 238
+        "FieldLength": 996
       }
     }
   }

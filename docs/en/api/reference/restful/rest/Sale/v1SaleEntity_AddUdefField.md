@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 644,
-  "ColumnId": 204,
-  "FieldDefault": "aliquam",
-  "FieldHeight": 369,
-  "FieldLabel": "sed",
-  "FieldLeft": 31,
-  "FieldTop": 234,
+  "UDefFieldId": 674,
+  "ColumnId": 411,
+  "FieldDefault": "rem",
+  "FieldHeight": 94,
+  "FieldLabel": "odit",
+  "FieldLeft": 881,
+  "FieldTop": 124,
   "FieldType": "Checkbox",
-  "FieldWidth": 481,
-  "FormatMask": "neque",
+  "FieldWidth": 973,
+  "FormatMask": "praesentium",
   "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 876,
-  "LabelLeft": 382,
-  "LabelTop": 83,
-  "LabelWidth": 282,
-  "LastVersionId": 616,
-  "ListTableId": 187,
+  "LabelHeight": 613,
+  "LabelLeft": 422,
+  "LabelTop": 40,
+  "LabelWidth": 614,
+  "LastVersionId": 948,
+  "ListTableId": 808,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 808,
+  "Page1LineNo": 54,
   "ProgId": "unde",
-  "IsReadOnly": true,
-  "ShortLabel": "amet",
-  "TabOrder": 332,
-  "TextLength": 458,
-  "Tooltip": "voluptas",
-  "UdefIdentity": 747,
-  "UDListDefinitionId": 431,
+  "IsReadOnly": false,
+  "ShortLabel": "beatae",
+  "TabOrder": 917,
+  "TextLength": 616,
+  "Tooltip": "consequatur",
+  "UdefIdentity": 163,
+  "UDListDefinitionId": 162,
   "Justification": "Center",
-  "Version": 885,
-  "TemplateVariableName": "Frami, Baumbach and Rath",
+  "Version": 629,
+  "TemplateVariableName": "Homenick-Marvin",
   "HasBeenPublished": false,
-  "MdoListName": "Gerlach, Beatty and McGlynn",
+  "MdoListName": "Carroll, Hansen and Kihn",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldType": "System.String",
+      "FieldLength": 30
     }
   }
 }

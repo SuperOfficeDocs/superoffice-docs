@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=208
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=272
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 638,
-  "Section": "officiis",
-  "Key": "aut",
-  "Name": "Koss, Rau and Roberts",
+  "PrefDescId": 185,
+  "Section": "in",
+  "Key": "et",
+  "Name": "Wolf-Rippin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Diverse reciprocal analyzer",
-  "IsBuiltin": false,
-  "TableName": "Konopelski-Willms",
-  "UserDefinedListId": 484,
-  "Rank": 494,
-  "SubGroup": "ad",
-  "MinLevel": 63,
-  "MaxValue": 898,
-  "MinValue": 631,
-  "RequiredLicense": "aspernatur",
+  "Description": "Business-focused bi-directional extranet",
+  "IsBuiltin": true,
+  "TableName": "Wunsch-Towne",
+  "UserDefinedListId": 540,
+  "Rank": 446,
+  "SubGroup": "consectetur",
+  "MinLevel": 262,
+  "MaxValue": 555,
+  "MinValue": 197,
+  "RequiredLicense": "atque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 896
+      "FieldLength": 440
     }
   }
 }

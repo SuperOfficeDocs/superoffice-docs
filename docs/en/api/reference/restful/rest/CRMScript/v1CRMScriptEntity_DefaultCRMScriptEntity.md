@@ -77,7 +77,7 @@ OK
 GET /api/v1/CRMScript/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,52 +87,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 150,
-  "UniqueIdentifier": "omnis",
-  "Name": "White Group",
-  "Description": "Polarised even-keeled parallelism",
-  "IncludeId": "quo",
-  "AccessKey": "qui",
-  "HierarchyId": 960,
-  "Source": "laborum",
-  "SourceCode": "natus",
+  "EjscriptId": 607,
+  "UniqueIdentifier": "eius",
+  "Name": "Abbott-Huels",
+  "Description": "Focused interactive moratorium",
+  "IncludeId": "nesciunt",
+  "AccessKey": "dolores",
+  "HierarchyId": 922,
+  "Source": "illo",
+  "SourceCode": "modi",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 691,
+  "HtmlOutput": 566,
   "Includes": [
-    493,
-    893
+    186,
+    144
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 880,
-      "LineNumberTo": 454,
-      "Delta": 598,
-      "IncludeId": "velit",
+      "LineNumberFrom": 591,
+      "LineNumberTo": 958,
+      "Delta": 386,
+      "IncludeId": "placeat",
       "IncludedFrom": [
-        "incidunt",
-        "magni"
+        "ratione",
+        "at"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 557
+          "FieldLength": 862
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2020-09-18T02:38:26.0423248+02:00",
-  "RegisteredAssociateId": 10,
-  "Updated": "2003-01-15T02:38:26.0423248+01:00",
-  "UpdatedAssociateId": 239,
+  "Registered": "2025-03-28T14:28:26.8676969+01:00",
+  "RegisteredAssociateId": 950,
+  "Updated": "2007-12-21T14:28:26.8676969+01:00",
+  "UpdatedAssociateId": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 283
     }
   }
 }

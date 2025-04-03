@@ -33,7 +33,7 @@ Calls the Appointment agent service GetAppointmentEntity.
 
 ```http
 GET /api/v1/Appointment/{id}?$select=name,department,category/id
-GET /api/v1/Appointment/{id}?fk=True
+GET /api/v1/Appointment/{id}?fk=False
 ```
 
 
@@ -114,6 +114,7 @@ AppointmentEntity found.
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -142,127 +143,128 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 13 May 2007 02:38:25 G5T
+Last-Modified: Mon, 15 Nov 1999 14:28:26 G11T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-08-17T02:38:25.7923444+02:00",
-  "AppointmentId": 60,
-  "Description": "Function-based tangible productivity",
-  "Title": "quia",
-  "Agenda": "aut",
-  "InternalNotes": "voluptas",
-  "StartDate": "2000-12-22T02:38:25.7923444+01:00",
-  "EndDate": "2021-06-30T02:38:25.7923444+02:00",
+  "CreatedDate": "2022-11-19T14:28:26.6645825+01:00",
+  "AppointmentId": 510,
+  "Description": "Profound multi-tasking migration",
+  "Title": "officia",
+  "Agenda": "distinctio",
+  "InternalNotes": "dolor",
+  "StartDate": "1999-10-07T14:28:26.6645825+02:00",
+  "EndDate": "2018-05-11T14:28:26.6645825+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 70,
+  "MotherId": 56,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-05-13T02:38:25.7923444+02:00",
+  "UpdatedDate": "1999-11-15T14:28:26.6645825+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 175,
+  "ActiveLinks": 19,
   "Links": [
     {
-      "EntityName": "Jast Group",
-      "Id": 402,
-      "Description": "Reverse-engineered bi-directional throughput",
+      "EntityName": "Witting, Smith and Baumbach",
+      "Id": 980,
+      "Description": "Triple-buffered local encoding",
       "ExtraInfo": "atque",
-      "LinkId": 154,
+      "LinkId": 59,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 452
+          "FieldLength": 581
         }
       }
     }
   ],
-  "AlarmLeadTime": "explicabo",
+  "AlarmLeadTime": "et",
   "HasAlarm": false,
-  "ColorIndex": 296,
+  "ColorIndex": 379,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "aperiam",
-  "LeadTime": "et",
-  "Location": "error",
-  "RejectCounter": 102,
+  "IsAlldayEvent": false,
+  "LagTime": "est",
+  "LeadTime": "autem",
+  "Location": "unde",
+  "RejectCounter": 261,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 916,
-      "PersonId": 451,
-      "ContactId": 681,
-      "EmailId": 739,
+      "AssociateId": 719,
+      "PersonId": 191,
+      "ContactId": 777,
+      "EmailId": 174,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jevon.pfannerstill@runolfsdottir.co.uk",
-      "Description": "Multi-lateral human-resource customer loyalty"
+      "EmailAddress": "margarete.renner@shields.name",
+      "Description": "Assimilated value-added Graphic Interface"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-09-16T02:38:25.7923444+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2006-12-10T14:28:26.6645825+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 40,
+  "PreferredTZLocation": 695,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 89,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 689,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "suscipit",
+  "CentralserviceVideomeetId": "dolor",
   "UserDefinedFields": {
-    "SuperOffice:1": "1811868174",
-    "SuperOffice:2": "Miss Genevieve Stokes"
+    "SuperOffice:1": "Ana Champlin",
+    "SuperOffice:2": "1388963315"
   },
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "est"
+    "ExtraFields1": "alias",
+    "ExtraFields2": "labore"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "tenetur"
   },
-  "PublishEventDate": "2005-07-28T02:38:25.7923444+02:00",
-  "PublishTo": "2006-05-06T02:38:25.7923444+02:00",
-  "PublishFrom": "2007-05-25T02:38:25.7923444+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-09-04T14:28:26.6645825+02:00",
+  "PublishTo": "1998-04-18T14:28:26.6645825+02:00",
+  "PublishFrom": "2001-10-15T14:28:26.6645825+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 368,
+      "VisibleId": 791,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 239
+          "FieldType": "System.Int32",
+          "FieldLength": 200
         }
       }
     },
     {
-      "VisibleId": 368,
+      "VisibleId": 791,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 239
+          "FieldType": "System.Int32",
+          "FieldLength": 200
         }
       }
     }
@@ -271,8 +273,8 @@ Last-Modified: Sun, 13 May 2007 02:38:25 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 471
+      "FieldType": "System.String",
+      "FieldLength": 916
     }
   },
   "_Links": {

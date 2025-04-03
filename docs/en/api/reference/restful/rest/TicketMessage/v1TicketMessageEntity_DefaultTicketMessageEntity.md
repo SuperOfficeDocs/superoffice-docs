@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 968,
+  "EjMessageId": 6,
   "Ticket": null,
-  "CreatedAt": "2011-08-09T02:38:26.4953951+02:00",
+  "CreatedAt": "2024-01-25T14:28:27.3208039+01:00",
   "CreatedBy": null,
-  "Author": "quae",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "corrupti",
-  "TimeSpent": 437,
-  "Body": "nesciunt",
-  "HtmlBody": "eum",
-  "EmailHeader": "finn@pollichbogan.biz",
-  "DebugInfo": "dolorem",
-  "MailSorter": "nam",
+  "MessageId": "aut",
+  "TimeSpent": 173,
+  "Body": "repellat",
+  "HtmlBody": "perspiciatis",
+  "EmailHeader": "hollie@krajcik.com",
+  "DebugInfo": "enim",
+  "MailSorter": "laboriosam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sit",
+  "SearchTitle": "unde",
   "MessageHeaders": [
     {
-      "Id": 452,
-      "Name": "Green, Reilly and Goyette",
-      "Value": "voluptates",
+      "Id": 234,
+      "Name": "Will-Schulist",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 167
+          "FieldType": "System.Int32",
+          "FieldLength": 591
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "sed",
-  "Sentiment": 29,
-  "SentimentConfidence": 804,
+  "Important": false,
+  "Language": "nesciunt",
+  "Sentiment": 229,
+  "SentimentConfidence": 756,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 81,
-      "Name": "Koelpin-Romaguera",
-      "ContentType": "tempore",
-      "AttSize": 979,
-      "InlineImage": false,
-      "ContentId": "vitae",
-      "AuthKey": "distinctio",
-      "IsSafeFileExtension": true,
+      "AttachmentId": 915,
+      "Name": "Hintz, Parisian and Corwin",
+      "ContentType": "commodi",
+      "AttSize": 580,
+      "InlineImage": true,
+      "ContentId": "culpa",
+      "AuthKey": "explicabo",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 43
+          "FieldType": "System.Int32",
+          "FieldLength": 530
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "id",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "ipsam",
-    "CustomFields2": "delectus"
+    "CustomFields1": "nemo",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 769
+      "FieldType": "System.String",
+      "FieldLength": 389
     }
   }
 }

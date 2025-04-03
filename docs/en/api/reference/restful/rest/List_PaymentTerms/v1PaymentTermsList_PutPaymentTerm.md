@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 778,
-  "Name": "Jenkins-Dare",
-  "Tooltip": "minus",
-  "Deleted": false,
-  "UdListDefinitionId": 424,
-  "Rank": 299
+  "Id": 303,
+  "Name": "Cole Inc and Sons",
+  "Tooltip": "incidunt",
+  "Deleted": true,
+  "UdListDefinitionId": 927,
+  "Rank": 363
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 326,
-  "Name": "Bode, Renner and Bauch",
-  "Tooltip": "nam",
-  "Deleted": false,
-  "UdListDefinitionId": 682,
-  "Rank": 276,
+  "Id": 26,
+  "Name": "Larkin-Goyette",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "UdListDefinitionId": 307,
+  "Rank": 271,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldLength": 84
     }
   }
 }

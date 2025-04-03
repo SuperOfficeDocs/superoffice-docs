@@ -29,7 +29,7 @@ Get summary of contact and its recent activity.
 | limit | int32 |  Max number of items to include in summary lists. |
 
 ```http
-GET /api/v1/Contact/{contactId}/Summary?limit=428
+GET /api/v1/Contact/{contactId}/Summary?limit=94
 ```
 
 
@@ -72,7 +72,7 @@ OK
 GET /api/v1/Contact/{contactId}/Summary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,79 +85,79 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "Tickets": [
     {
-      "TicketId": 448,
-      "TicketStatus": 618,
-      "Title": "assumenda",
-      "Registered": "2016-06-10T02:38:26.011077+02:00",
-      "IconHint": "aliquam"
+      "TicketId": 736,
+      "TicketStatus": 924,
+      "Title": "itaque",
+      "Registered": "2007-08-02T14:28:26.8520728+02:00",
+      "IconHint": "quam"
     },
     {
-      "TicketId": 448,
-      "TicketStatus": 618,
-      "Title": "assumenda",
-      "Registered": "2016-06-10T02:38:26.011077+02:00",
-      "IconHint": "aliquam"
+      "TicketId": 736,
+      "TicketStatus": 924,
+      "Title": "itaque",
+      "Registered": "2007-08-02T14:28:26.8520728+02:00",
+      "IconHint": "quam"
     }
   ],
   "Followups": [
     {
-      "AppointmentId": 99,
-      "DocumentId": 713,
-      "Date": "2015-12-29T02:38:26.011077+01:00",
-      "Description": "Implemented bi-directional adapter",
+      "AppointmentId": 706,
+      "DocumentId": 195,
+      "Date": "2003-12-24T14:28:26.8520728+01:00",
+      "Description": "Realigned 3rd generation superstructure",
       "Completed": "Completed",
-      "Registered": "2001-09-10T02:38:26.011077+02:00"
+      "Registered": "2018-05-31T14:28:26.8520728+02:00"
     },
     {
-      "AppointmentId": 99,
-      "DocumentId": 713,
-      "Date": "2015-12-29T02:38:26.011077+01:00",
-      "Description": "Implemented bi-directional adapter",
+      "AppointmentId": 706,
+      "DocumentId": 195,
+      "Date": "2003-12-24T14:28:26.8520728+01:00",
+      "Description": "Realigned 3rd generation superstructure",
       "Completed": "Completed",
-      "Registered": "2001-09-10T02:38:26.011077+02:00"
+      "Registered": "2018-05-31T14:28:26.8520728+02:00"
     }
   ],
   "Documents": [
     {
-      "AppointmentId": 794,
-      "DocumentId": 751,
-      "Date": "1998-04-07T02:38:26.011077+02:00",
-      "Description": "Organic 6th generation software",
+      "AppointmentId": 314,
+      "DocumentId": 750,
+      "Date": "2007-06-22T14:28:26.8520728+02:00",
+      "Description": "Operative tertiary knowledge base",
       "Completed": "Completed",
-      "Registered": "2007-01-01T02:38:26.011077+01:00"
+      "Registered": "2002-01-13T14:28:26.8520728+01:00"
     },
     {
-      "AppointmentId": 794,
-      "DocumentId": 751,
-      "Date": "1998-04-07T02:38:26.011077+02:00",
-      "Description": "Organic 6th generation software",
+      "AppointmentId": 314,
+      "DocumentId": 750,
+      "Date": "2007-06-22T14:28:26.8520728+02:00",
+      "Description": "Operative tertiary knowledge base",
       "Completed": "Completed",
-      "Registered": "2007-01-01T02:38:26.011077+01:00"
+      "Registered": "2002-01-13T14:28:26.8520728+01:00"
     }
   ],
   "Sales": [
     {
-      "SaleId": 294,
-      "SaleDate": "2019-12-11T02:38:26.011077+01:00",
-      "Probability": 976,
-      "Heading": "aperiam",
-      "Amount": 8458.666,
-      "Currency": "amet",
-      "AmountInBaseCurrency": 9850.162,
+      "SaleId": 630,
+      "SaleDate": "2000-06-18T14:28:26.8520728+02:00",
+      "Probability": 407,
+      "Heading": "tempora",
+      "Amount": 20543.37,
+      "Currency": "voluptates",
+      "AmountInBaseCurrency": 31333.732,
       "Status": "Lost",
       "Completed": "Completed",
-      "Registered": "2012-07-04T02:38:26.011077+02:00"
+      "Registered": "2001-07-18T14:28:26.8520728+02:00"
     }
   ],
   "Chats": [
     {
-      "ChatSessionId": 297,
-      "Name": "Kuhic-Haley",
-      "CompanyName": "Ward Inc and Sons",
-      "FirstMessage": "autem",
-      "LastMessage": "in",
-      "WhenRequested": "2022-04-14T02:38:26.011077+02:00",
-      "WhenEnded": "2024-04-16T02:38:26.011077+02:00"
+      "ChatSessionId": 714,
+      "Name": "Ratke-Stoltenberg",
+      "CompanyName": "Kuhn LLC",
+      "FirstMessage": "accusantium",
+      "LastMessage": "eligendi",
+      "WhenRequested": "2021-10-27T14:28:26.8520728+02:00",
+      "WhenEnded": "2010-11-28T14:28:26.8520728+01:00"
     }
   ]
 }

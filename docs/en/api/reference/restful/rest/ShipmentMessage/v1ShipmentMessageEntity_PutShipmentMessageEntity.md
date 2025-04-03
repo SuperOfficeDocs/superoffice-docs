@@ -119,31 +119,31 @@ ShipmentMessageEntity updated.
 PUT /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 825,
-  "PlainMessage": "dolorum",
-  "HtmlMessage": "eum",
-  "SmsMessage": "consequuntur",
-  "Description": "Devolved stable alliance",
-  "Subject": "neque",
-  "FolderId": 390,
-  "HeaderField": "sunt",
-  "Design": "consequatur",
+  "ShipmentMessageId": 186,
+  "PlainMessage": "itaque",
+  "HtmlMessage": "laboriosam",
+  "SmsMessage": "autem",
+  "Description": "Right-sized content-based synergy",
+  "Subject": "laudantium",
+  "FolderId": 120,
+  "HeaderField": "maxime",
+  "Design": "magni",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": true,
-  "LongDescription": "Implemented upward-trending implementation",
-  "AccessKey": "illum",
-  "DocumentMessage": 449,
-  "Registered": "2013-06-26T02:38:26.4329026+02:00",
-  "RegisteredAssociateId": 411,
-  "Updated": "2022-05-13T02:38:26.4329026+02:00",
-  "UpdatedAssociateId": 462,
-  "UpdatedCount": 28
+  "RegisterViews": false,
+  "InlineImages": false,
+  "LongDescription": "Distributed context-sensitive capacity",
+  "AccessKey": "fuga",
+  "DocumentMessage": 337,
+  "Registered": "2001-10-26T14:28:27.2583066+02:00",
+  "RegisteredAssociateId": 735,
+  "Updated": "2022-02-21T14:28:27.2583066+01:00",
+  "UpdatedAssociateId": 191,
+  "UpdatedCount": 793
 }
 ```
 
@@ -154,33 +154,33 @@ HTTP/1.1 200 ShipmentMessageEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 866,
-  "PlainMessage": "dolor",
-  "HtmlMessage": "odit",
-  "SmsMessage": "sit",
-  "Description": "Synchronised national utilisation",
-  "Subject": "eum",
-  "FolderId": 337,
-  "HeaderField": "veritatis",
-  "Design": "repellendus",
+  "ShipmentMessageId": 852,
+  "PlainMessage": "omnis",
+  "HtmlMessage": "molestiae",
+  "SmsMessage": "adipisci",
+  "Description": "Sharable mobile toolset",
+  "Subject": "voluptatem",
+  "FolderId": 494,
+  "HeaderField": "inventore",
+  "Design": "maxime",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": true,
-  "LongDescription": "Virtual multi-state moderator",
-  "AccessKey": "exercitationem",
-  "DocumentMessage": 201,
-  "Registered": "2015-05-07T02:38:26.4329026+02:00",
-  "RegisteredAssociateId": 816,
-  "Updated": "2010-09-01T02:38:26.4329026+02:00",
-  "UpdatedAssociateId": 405,
-  "UpdatedCount": 488,
+  "LongDescription": "Extended bi-directional functionalities",
+  "AccessKey": "non",
+  "DocumentMessage": 215,
+  "Registered": "2023-02-27T14:28:27.2583066+01:00",
+  "RegisteredAssociateId": 3,
+  "Updated": "2005-02-22T14:28:27.2583066+01:00",
+  "UpdatedAssociateId": 211,
+  "UpdatedCount": 764,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 271
+      "FieldType": "System.Int32",
+      "FieldLength": 899
     }
   },
   "_Links": {

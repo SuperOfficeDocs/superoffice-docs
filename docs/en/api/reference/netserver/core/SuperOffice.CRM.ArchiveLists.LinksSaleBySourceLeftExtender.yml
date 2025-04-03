@@ -74,6 +74,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase._colWeightedAmountInBaseCurrency
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.InnerModifyQuery
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName(SuperOffice.Data.SaleStatus,System.Int32,System.String)
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ProcessOrderBy
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -717,6 +718,79 @@ references:
   - name: (
     nameWithType: (
     fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName(SuperOffice.Data.SaleStatus,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName(SuperOffice.Data.SaleStatus,System.Int32,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  isExternal: true
+  name: ResolveProbabilityName(SaleStatus, Int32, String)
+  nameWithType: SaleExtenderBase.ResolveProbabilityName(SaleStatus, Int32, String)
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName(SuperOffice.Data.SaleStatus, System.Int32, System.String)
+  spec.csharp:
+  - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName(SuperOffice.Data.SaleStatus,System.Int32,System.String)
+    name: ResolveProbabilityName
+    nameWithType: SaleExtenderBase.ResolveProbabilityName
+    fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SaleStatus
+    name: SaleStatus
+    nameWithType: SaleStatus
+    fullName: SuperOffice.Data.SaleStatus
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName(SuperOffice.Data.SaleStatus,System.Int32,System.String)
+    name: ResolveProbabilityName
+    nameWithType: SaleExtenderBase.ResolveProbabilityName
+    fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.Data.SaleStatus
+    name: SaleStatus
+    nameWithType: SaleStatus
+    fullName: SuperOffice.Data.SaleStatus
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
   - name: )
     nameWithType: )
     fullName: )

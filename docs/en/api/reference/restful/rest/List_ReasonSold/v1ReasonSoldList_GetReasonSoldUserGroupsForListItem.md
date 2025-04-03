@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 902,
-    "Name": "Harvey-D'Amore",
-    "ToolTip": "Expedita voluptatibus ducimus occaecati magnam a in ea.",
-    "Deleted": false,
-    "Rank": 111,
-    "Type": "labore",
-    "ColorBlock": 760,
-    "IconHint": "autem",
+    "Id": 376,
+    "Name": "Thiel, Bechtelar and Cummerata",
+    "ToolTip": "Non velit tenetur rerum ad libero aut amet.",
+    "Deleted": true,
+    "Rank": 689,
+    "Type": "beatae",
+    "ColorBlock": 875,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2011-10-26T02:38:26.9173771+02:00",
+    "LastChanged": "2023-03-27T14:28:27.6801638+02:00",
     "ChildItems": [
       {
-        "Id": 170,
-        "Name": "Swaniawski, Harvey and Considine",
-        "ToolTip": "Sequi similique laborum necessitatibus dolore.",
+        "Id": 982,
+        "Name": "Turcotte, Hudson and Lakin",
+        "ToolTip": "Est necessitatibus dolor.",
         "Deleted": false,
-        "Rank": 290,
-        "Type": "aut",
-        "ColorBlock": 406,
-        "IconHint": "assumenda",
-        "Selected": false,
-        "LastChanged": "2001-02-13T02:38:26.9173771+01:00",
+        "Rank": 948,
+        "Type": "esse",
+        "ColorBlock": 468,
+        "IconHint": "explicabo",
+        "Selected": true,
+        "LastChanged": "2010-12-02T14:28:27.6801638+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "placeat",
-        "Hidden": false,
-        "FullName": "Dr. Colby Ethan Lockman I",
+        "ExtraInfo": "inventore",
+        "StyleHint": "sint",
+        "Hidden": true,
+        "FullName": "Westley Mohr V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldLength": 855
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
+    "ExtraInfo": "ut",
     "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Peyton Schaefer",
+    "FullName": "Jaylen Leda Langworth MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldLength": 281
       }
     }
   }

@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/ViewState/SaveHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Wintheiser-Muller",
+  "HistoryName": "Carter Group",
   "History": [
     {
-      "Rank": 376,
-      "Id": 865,
-      "HistoryName": "Tremblay Group",
-      "HistoryId": 255,
-      "AssociateId": 281,
-      "Name": "Shields-Bradtke",
-      "ItemInfo": "sunt"
+      "Rank": 548,
+      "Id": 264,
+      "HistoryName": "Lueilwitz Group",
+      "HistoryId": 715,
+      "AssociateId": 632,
+      "Name": "Lemke LLC",
+      "ItemInfo": "unde"
     }
   ]
 }
@@ -109,19 +109,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 764,
-    "Id": 779,
-    "HistoryName": "Leuschke Inc and Sons",
-    "HistoryId": 236,
-    "AssociateId": 291,
-    "Name": "Berge-Corkery",
-    "ItemInfo": "nemo",
+    "Rank": 398,
+    "Id": 787,
+    "HistoryName": "Lesch-Thiel",
+    "HistoryId": 427,
+    "AssociateId": 222,
+    "Name": "Kris-Runolfsdottir",
+    "ItemInfo": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 743
+        "FieldLength": 675
       }
     }
   }

@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 778,
-  "StartTime": "2020-12-10T02:38:21.2295568+01:00",
-  "EndTime": "2002-07-21T02:38:21.2295568+02:00",
-  "Count": 642,
+  "PersonId": 249,
+  "StartTime": "2005-08-11T14:28:21.805403+02:00",
+  "EndTime": "2021-11-12T14:28:21.805403+01:00",
+  "Count": 361,
   "DocumentTemplateIds": [
-    309,
-    160
+    580,
+    501
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 629,
-    "Attention": "reprehenderit",
-    "Header": "debitis",
-    "Name": "Morar LLC",
-    "OurRef": "rem",
-    "YourRef": "perferendis",
-    "Description": "Stand-alone value-added array",
-    "DocumentTemplate": "repudiandae",
-    "IsPublished": false,
-    "PersonId": 366,
-    "PersonFullName": "Freida Connelly",
-    "AssociateFullName": "Mrs. Dejon Isaac Bergstrom II",
-    "ContactId": 890,
-    "ContactName": "Mohr Group",
-    "ProjectId": 166,
-    "ProjectName": "Dicki-D'Amore",
-    "AssociateId": 244,
-    "Snum": 106,
-    "SaleId": 57,
-    "SaleName": "Reichel, Terry and Bins",
+    "DocumentId": 444,
+    "Attention": "maiores",
+    "Header": "ut",
+    "Name": "Lynch, Smith and Morissette",
+    "OurRef": "assumenda",
+    "YourRef": "beatae",
+    "Description": "Cross-platform systematic support",
+    "DocumentTemplate": "suscipit",
+    "IsPublished": true,
+    "PersonId": 315,
+    "PersonFullName": "Caleb Eichmann",
+    "AssociateFullName": "Prof. Gudrun Considine",
+    "ContactId": 226,
+    "ContactName": "Schuster-Quigley",
+    "ProjectId": 293,
+    "ProjectName": "Rosenbaum-Bahringer",
+    "AssociateId": 805,
+    "Snum": 720,
+    "SaleId": 259,
+    "SaleName": "Bayer-Koepp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 943
+        "FieldType": "System.Int32",
+        "FieldLength": 785
       }
     }
   }

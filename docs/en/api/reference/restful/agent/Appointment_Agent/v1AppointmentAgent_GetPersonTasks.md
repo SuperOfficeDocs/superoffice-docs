@@ -114,6 +114,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,8 +133,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 805,
-  "Count": 472
+  "PersonId": 269,
+  "Count": 382
 }
 ```
 
@@ -145,65 +146,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 189,
-    "StartDate": "2005-04-02T02:38:20.5263598+02:00",
-    "EndDate": "2015-11-28T02:38:20.5263598+01:00",
+    "AppointmentId": 532,
+    "StartDate": "2003-06-08T14:28:21.1335548+02:00",
+    "EndDate": "2009-08-21T14:28:21.1335548+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptatem",
-    "AssociateFullName": "Daren Nienow",
-    "ContactName": "O'Kon Inc and Sons",
-    "Description": "Synergistic scalable standardization",
-    "PersonFullName": "Malcolm Krajcik",
-    "PersonId": 788,
-    "ContactId": 502,
-    "ProjectId": 876,
-    "ProjectName": "Aufderhar-Haag",
+    "Task": "aut",
+    "AssociateFullName": "Emmalee Bergnaum",
+    "ContactName": "Nienow, Weissnat and Roob",
+    "Description": "Diverse executive solution",
+    "PersonFullName": "Lonny Wyman PhD",
+    "PersonId": 680,
+    "ContactId": 542,
+    "ProjectId": 48,
+    "ProjectName": "Schmidt, Treutel and Ortiz",
     "IsPublished": false,
-    "AssociateId": 69,
-    "ColorIndex": 304,
+    "AssociateId": 816,
+    "ColorIndex": 53,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 520,
-    "PriorityName": "Dach, Terry and Franecki",
+    "PriorityId": 795,
+    "PriorityName": "Greenholt Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2014-03-27T02:38:20.5263598+01:00",
+    "ActiveDate": "2022-11-30T14:28:21.1335548+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-01-26T02:38:20.5263598+01:00",
-    "RecurringEndDate": "2009-04-29T02:38:20.5263598+02:00",
-    "MotherId": 285,
-    "AssignedBy": 843,
-    "AssignedByFullName": "Amya Langworth II",
+    "RecurringStartDate": "2007-01-30T14:28:21.1335548+01:00",
+    "RecurringEndDate": "2008-08-15T14:28:21.1335548+02:00",
+    "MotherId": 783,
+    "AssignedBy": 212,
+    "AssignedByFullName": "Mrs. Justyn Lola Koss V",
     "RejectReason": "",
-    "Location": "amet",
-    "AlarmLeadTime": "aut",
-    "SaleId": 297,
-    "SaleName": "Baumbach Group",
-    "AssociateName": "Rutherford Group",
-    "CreatedDate": "2007-11-30T02:38:20.5263598+01:00",
-    "CreatedBy": "voluptas",
-    "CreatedByFullName": "Crystal Zboncak",
-    "CreatedByAssociateId": 415,
+    "Location": "necessitatibus",
+    "AlarmLeadTime": "in",
+    "SaleId": 764,
+    "SaleName": "Bartell, Purdy and Lindgren",
+    "AssociateName": "Pouros-Miller",
+    "CreatedDate": "1998-05-16T14:28:21.1335548+02:00",
+    "CreatedBy": "quod",
+    "CreatedByFullName": "Miss Alden Daniela Muller V",
+    "CreatedByAssociateId": 262,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 407,
-    "Title": "eaque",
-    "Agenda": "et",
-    "InternalNotes": "hic",
+    "PreferredTZLocation": 814,
+    "Title": "cum",
+    "Agenda": "maiores",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 71
+        "FieldLength": 942
       }
     }
   }

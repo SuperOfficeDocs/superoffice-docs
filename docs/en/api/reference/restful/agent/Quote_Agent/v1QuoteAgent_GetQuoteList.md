@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "aperiam"
+  "QuoteListType": "reprehenderit"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "neque",
-    "DisplayValue": "aut",
-    "DisplayDescription": "Versatile real-time application",
+    "ERPQuoteListItemKey": "consectetur",
+    "DisplayValue": "dignissimos",
+    "DisplayDescription": "Universal bottom-line parallelism",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 374
+        "FieldType": "System.Int32",
+        "FieldLength": 967
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "neque",
-    "DisplayValue": "aut",
-    "DisplayDescription": "Versatile real-time application",
+    "ERPQuoteListItemKey": "consectetur",
+    "DisplayValue": "dignissimos",
+    "DisplayDescription": "Universal bottom-line parallelism",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 374
+        "FieldType": "System.Int32",
+        "FieldLength": 967
       }
     }
   }

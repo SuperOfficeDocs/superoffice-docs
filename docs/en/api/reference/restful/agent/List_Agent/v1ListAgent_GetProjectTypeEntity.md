@@ -26,7 +26,7 @@ Gets a ProjectTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=670
+POST /api/v1/Agents/List/GetProjectTypeEntity?projectTypeEntityId=492
 POST /api/v1/Agents/List/GetProjectTypeEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,41 +86,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 502,
-  "Name": "Borer LLC",
-  "Tooltip": "voluptatem",
-  "Rank": 479,
+  "ProjTypeId": 937,
+  "Name": "Ratke Inc and Sons",
+  "Tooltip": "expedita",
+  "Rank": 419,
   "DurationUnit": "Century",
-  "ProjectDuration": 801,
-  "Deleted": false,
+  "ProjectDuration": 824,
+  "Deleted": true,
   "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 63,
-      "Name": "Larkin-Rippin",
-      "ToolTip": "Consectetur amet aut voluptatem fuga.",
+      "Id": 588,
+      "Name": "Robel-Corwin",
+      "ToolTip": "Qui molestiae consequuntur voluptatem necessitatibus fuga.",
       "Deleted": true,
-      "Rank": 810,
-      "Type": "iste",
-      "ColorBlock": 581,
-      "IconHint": "laudantium",
-      "Selected": false,
-      "LastChanged": "2010-12-04T02:38:21.4951545+01:00",
+      "Rank": 685,
+      "Type": "soluta",
+      "ColorBlock": 266,
+      "IconHint": "commodi",
+      "Selected": true,
+      "LastChanged": "2023-10-17T14:28:22.039767+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "animi",
-      "StyleHint": "architecto",
-      "Hidden": false,
-      "FullName": "Dr. Theo Hilll II",
+      "ExtraInfo": "asperiores",
+      "StyleHint": "ex",
+      "Hidden": true,
+      "FullName": "Dameon Jerde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 87
+          "FieldType": "System.String",
+          "FieldLength": 358
         }
       }
     }
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 817
+      "FieldType": "System.Int32",
+      "FieldLength": 789
     }
   }
 }

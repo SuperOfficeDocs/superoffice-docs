@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 538,
-    "Name": "Blick-Aufderhar",
-    "Tooltip": "sed",
+    "HeadingId": 255,
+    "Name": "Quigley Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 944,
-    "UdListDefinitionId": 1000
+    "Rank": 338,
+    "UdListDefinitionId": 25
   },
   {
-    "HeadingId": 538,
-    "Name": "Blick-Aufderhar",
-    "Tooltip": "sed",
+    "HeadingId": 255,
+    "Name": "Quigley Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 944,
-    "UdListDefinitionId": 1000
+    "Rank": 338,
+    "UdListDefinitionId": 25
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 913,
-    "Name": "Grant Inc and Sons",
-    "Tooltip": "quo",
+    "HeadingId": 223,
+    "Name": "Kirlin-Gleichner",
+    "Tooltip": "error",
     "Deleted": false,
-    "Rank": 782,
-    "UdListDefinitionId": 348,
+    "Rank": 470,
+    "UdListDefinitionId": 664,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 742
+        "FieldType": "System.Int32",
+        "FieldLength": 278
       }
     }
   }

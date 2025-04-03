@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 647,
-    "Name": "Kilback, Veum and Ullrich",
-    "ToolTip": "Veritatis quam facere.",
+    "Id": 112,
+    "Name": "Medhurst-Bednar",
+    "ToolTip": "Ducimus at ab esse animi eos et voluptas.",
     "Deleted": false,
-    "Rank": 314,
-    "Type": "est",
-    "ColorBlock": 468,
-    "IconHint": "ratione",
-    "Selected": false,
-    "LastChanged": "2008-04-07T02:38:26.7455241+02:00",
+    "Rank": 5,
+    "Type": "magni",
+    "ColorBlock": 222,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "1998-06-25T14:28:27.5395453+02:00",
     "ChildItems": [
       {
-        "Id": 674,
-        "Name": "Langosh-Collier",
-        "ToolTip": "Tempora quia aliquid ut maxime sed et soluta.",
+        "Id": 119,
+        "Name": "Schmidt, Kunde and Heller",
+        "ToolTip": "Vero sit minus et non suscipit ipsam enim.",
         "Deleted": false,
-        "Rank": 503,
-        "Type": "numquam",
-        "ColorBlock": 665,
-        "IconHint": "aut",
+        "Rank": 355,
+        "Type": "voluptatem",
+        "ColorBlock": 322,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2013-06-14T02:38:26.7455241+02:00",
+        "LastChanged": "2008-05-05T14:28:27.5395453+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "facilis",
-        "Hidden": true,
-        "FullName": "Gregory Treutel"
+        "ExtraInfo": "porro",
+        "StyleHint": "voluptas",
+        "Hidden": false,
+        "FullName": "Charles Ledner"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "nesciunt",
+    "ExtraInfo": "nisi",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Judah Schmidt"
+    "FullName": "Alessandro Chanel Bogan I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 154,
-    "Name": "Considine LLC",
-    "ToolTip": "Nam et occaecati.",
+    "Id": 722,
+    "Name": "Littel-Stracke",
+    "ToolTip": "Voluptatem voluptas culpa illum autem.",
     "Deleted": false,
-    "Rank": 341,
-    "Type": "recusandae",
-    "ColorBlock": 370,
-    "IconHint": "rerum",
+    "Rank": 721,
+    "Type": "accusantium",
+    "ColorBlock": 1001,
+    "IconHint": "asperiores",
     "Selected": false,
-    "LastChanged": "2018-12-20T02:38:26.7455241+01:00",
+    "LastChanged": "2009-03-24T14:28:27.5551692+01:00",
     "ChildItems": [
       {
-        "Id": 469,
-        "Name": "Reynolds-Pacocha",
-        "ToolTip": "Ea ipsam deleniti temporibus nihil.",
-        "Deleted": true,
-        "Rank": 697,
-        "Type": "reprehenderit",
-        "ColorBlock": 132,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2019-08-24T02:38:26.7455241+02:00",
+        "Id": 687,
+        "Name": "Hand-Simonis",
+        "ToolTip": "Sint suscipit et qui quidem error et.",
+        "Deleted": false,
+        "Rank": 473,
+        "Type": "corrupti",
+        "ColorBlock": 811,
+        "IconHint": "libero",
+        "Selected": false,
+        "LastChanged": "2003-04-15T14:28:27.5551692+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "rerum",
+        "ExtraInfo": "dolores",
+        "StyleHint": "id",
         "Hidden": false,
-        "FullName": "Mrs. Vella Keshawn Bahringer",
+        "FullName": "Ms. Ron Federico Wisoky",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 966
+            "FieldLength": 804
           }
         }
       }
     ],
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "odio",
+    "ExtraInfo": "labore",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Ms. Oliver Reece Wuckert PhD",
+    "FullName": "Kaylie Kunze",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldLength": 829
       }
     }
   }

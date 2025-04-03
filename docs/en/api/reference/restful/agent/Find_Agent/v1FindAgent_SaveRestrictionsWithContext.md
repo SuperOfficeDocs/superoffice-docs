@@ -68,24 +68,24 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consectetur",
-  "ProviderName": "Stanton LLC",
-  "StorageKey": "et",
+  "StorageType": "consequatur",
+  "ProviderName": "Stroman, Bernhard and Hauck",
+  "StorageKey": "ea",
   "Restrictions": [
     {
-      "Name": "Feil-Marks",
-      "Operator": "voluptate",
+      "Name": "Johns-Gutkowski",
+      "Operator": "quas",
       "Values": [
-        "officiis",
-        "reprehenderit"
+        "iusto",
+        "fuga"
       ],
       "DisplayValues": [
-        "ea",
-        "dolorem"
+        "illo",
+        "asperiores"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 259,
+      "InterParenthesis": 606,
       "InterOperator": "And",
-      "UniqueHash": 18
+      "UniqueHash": 720
     }
   ],
-  "Context": "totam"
+  "Context": "a"
 }
 ```
 

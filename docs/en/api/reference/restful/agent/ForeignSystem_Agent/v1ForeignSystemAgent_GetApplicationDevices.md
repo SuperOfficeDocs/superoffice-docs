@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Weimann-Watsica"
+  "ApplicationName": "Padberg Inc and Sons"
 }
 ```
 
@@ -97,21 +97,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ForeignDeviceId": 434,
-    "Name": "Kunde, Gerlach and Romaguera",
-    "CreatedDate": "2021-04-16T02:38:21.4482803+02:00",
-    "UpdatedDate": "2001-10-30T02:38:21.4482803+01:00",
-    "AssociateFullName": "Dr. Cecilia Gutkowski III",
-    "CreatedBy": "nostrum",
-    "UpdatedBy": "velit",
-    "DeviceIdentifier": "consequatur",
-    "ForeignAppId": 587,
+    "ForeignDeviceId": 780,
+    "Name": "Marks Inc and Sons",
+    "CreatedDate": "2010-02-12T14:28:22.0085182+01:00",
+    "UpdatedDate": "2017-05-26T14:28:22.0085182+02:00",
+    "AssociateFullName": "Marcelino Schmitt",
+    "CreatedBy": "odio",
+    "UpdatedBy": "dolores",
+    "DeviceIdentifier": "sed",
+    "ForeignAppId": 125,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 399
+        "FieldType": "System.Int32",
+        "FieldLength": 525
       }
     }
   }

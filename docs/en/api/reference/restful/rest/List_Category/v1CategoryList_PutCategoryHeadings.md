@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 468,
-    "Name": "Renner, Lynch and Wilderman",
-    "Tooltip": "incidunt",
+    "HeadingId": 546,
+    "Name": "Raynor-Ullrich",
+    "Tooltip": "amet",
     "Deleted": false,
-    "Rank": 38,
-    "UdListDefinitionId": 993
+    "Rank": 671,
+    "UdListDefinitionId": 709
   },
   {
-    "HeadingId": 468,
-    "Name": "Renner, Lynch and Wilderman",
-    "Tooltip": "incidunt",
+    "HeadingId": 546,
+    "Name": "Raynor-Ullrich",
+    "Tooltip": "amet",
     "Deleted": false,
-    "Rank": 38,
-    "UdListDefinitionId": 993
+    "Rank": 671,
+    "UdListDefinitionId": 709
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 547,
-    "Name": "Swift-Purdy",
-    "Tooltip": "distinctio",
-    "Deleted": false,
-    "Rank": 637,
-    "UdListDefinitionId": 195,
+    "HeadingId": 472,
+    "Name": "Kirlin, Rowe and Schoen",
+    "Tooltip": "dolore",
+    "Deleted": true,
+    "Rank": 30,
+    "UdListDefinitionId": 24,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldLength": 198
       }
     }
   }

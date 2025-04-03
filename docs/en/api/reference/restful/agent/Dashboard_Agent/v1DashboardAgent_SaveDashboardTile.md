@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 223,
-  "Caption": "assumenda",
-  "Description": "Programmable secondary initiative",
-  "ChartName": "Hayes, Feil and Johnston",
-  "ChartId": "perferendis",
+  "DashboardTileId": 340,
+  "Caption": "voluptatibus",
+  "Description": "Object-based motivating array",
+  "ChartName": "Williamson-Stiedemann",
+  "ChartId": "aspernatur",
   "IsDefault": false,
-  "AssociateId": 556,
-  "GroupId": 424,
-  "SelectionId": 271,
-  "Config": "quia",
+  "AssociateId": 296,
+  "GroupId": 93,
+  "SelectionId": 24,
+  "Config": "sunt",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Corkery, Reynolds and Steuber",
-      "Description": "Down-sized multi-state structure",
+      "Name": "Hermiston, Hauck and Hudson",
+      "Description": "Open-architected optimal data-warehouse",
       "Type": "Boolean",
-      "ListName": "Johnston LLC",
+      "ListName": "Mertz-Muller",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "et",
+      "Value": "dignissimos",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 899,
+      "VisibleId": 437,
       "Visibility": "All",
-      "DisplayValue": "autem"
+      "DisplayValue": "reprehenderit"
     },
     {
-      "VisibleId": 899,
+      "VisibleId": 437,
       "Visibility": "All",
-      "DisplayValue": "autem"
+      "DisplayValue": "reprehenderit"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 497,
-  "Caption": "placeat",
-  "Description": "Versatile solution-oriented artificial intelligence",
-  "ChartName": "Leannon, Quitzon and Will",
-  "ChartId": "autem",
+  "DashboardTileId": 619,
+  "Caption": "dolor",
+  "Description": "Cross-platform 24 hour monitoring",
+  "ChartName": "Schulist Inc and Sons",
+  "ChartId": "consequuntur",
   "IsDefault": false,
-  "AssociateId": 403,
-  "GroupId": 345,
-  "SelectionId": 806,
-  "Config": "sed",
+  "AssociateId": 353,
+  "GroupId": 213,
+  "SelectionId": 521,
+  "Config": "placeat",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Swift LLC",
-      "Description": "Virtual explicit challenge",
+      "Name": "Orn, Emard and Morar",
+      "Description": "Proactive intermediate initiative",
       "Type": "Boolean",
-      "ListName": "Lubowitz LLC",
+      "ListName": "Schulist, Schowalter and Gislason",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "non",
-      "DefaultDataOption": true,
+      "Value": "recusandae",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 333
+          "FieldLength": 723
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 186,
+      "VisibleId": 953,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 541
+          "FieldType": "System.Int32",
+          "FieldLength": 938
         }
       }
     },
     {
-      "VisibleId": 186,
+      "VisibleId": 953,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 541
+          "FieldType": "System.Int32",
+          "FieldLength": 938
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldLength": 593
     }
   }
 }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByLanguageId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LanguageId": 836
+  "LanguageId": 981
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 128,
-    "ResourceId": 103,
-    "Text": "omnis",
+    "LanguageId": 38,
+    "ResourceId": 142,
+    "Text": "eum",
     "Type": "Column",
-    "LocalizedTextId": 294,
+    "LocalizedTextId": 466,
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 456
+        "FieldType": "System.String",
+        "FieldLength": 197
       }
     }
   }

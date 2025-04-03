@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 991,
-  "Section": "nihil",
-  "Key": "quo",
-  "Name": "Herzog-Schmitt",
+  "PrefDescId": 388,
+  "Section": "culpa",
+  "Key": "rerum",
+  "Name": "Wilderman-Larkin",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Down-sized encompassing migration",
-  "IsBuiltin": true,
-  "TableName": "Hartmann, Botsford and Durgan",
-  "UserDefinedListId": 699,
-  "Rank": 180,
-  "SubGroup": "vel",
-  "MinLevel": 855,
-  "MaxValue": 494,
-  "MinValue": 401,
-  "RequiredLicense": "eos",
+  "Description": "Organized systemic capacity",
+  "IsBuiltin": false,
+  "TableName": "O'Kon LLC",
+  "UserDefinedListId": 139,
+  "Rank": 769,
+  "SubGroup": "ut",
+  "MinLevel": 338,
+  "MaxValue": 876,
+  "MinValue": 448,
+  "RequiredLicense": "quidem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 290
+      "FieldType": "System.Int32",
+      "FieldLength": 733
     }
   }
 }

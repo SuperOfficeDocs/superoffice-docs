@@ -94,6 +94,7 @@ items:
   - SuperOffice.CRM.Data.AppointmentTableInfo.MotherId
   - SuperOffice.CRM.Data.AppointmentTableInfo.MotherId_InnerJoin_Appointment
   - SuperOffice.CRM.Data.AppointmentTableInfo.OriginalStartDate
+  - SuperOffice.CRM.Data.AppointmentTableInfo.OwnedExternally
   - SuperOffice.CRM.Data.AppointmentTableInfo.PersonId
   - SuperOffice.CRM.Data.AppointmentTableInfo.PersonId_InnerJoin_Person
   - SuperOffice.CRM.Data.AppointmentTableInfo.PreferredTZLocation
@@ -3204,6 +3205,37 @@ items:
   modifiers.vb:
   - Public
   - ReadOnly
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.OwnedExternally
+  commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.OwnedExternally
+  id: OwnedExternally
+  parent: SuperOffice.CRM.Data.AppointmentTableInfo
+  langs:
+  - csharp
+  - vb
+  name: OwnedExternally
+  nameWithType: AppointmentTableInfo.OwnedExternally
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.OwnedExternally
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nField &apos;owned_externally&apos; in table &apos;appointment&apos;: Dictionary type Enum, .NET type: <xref href=\"SuperOffice.Data.AppointmentExternalOwner\" data-throw-if-not-resolved=\"false\"></xref><p></p>\nSet if an external system owns this appointment.\n"
+  syntax:
+    content: public AppointmentExternalOwnerFieldInfo OwnedExternally { get; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.SQL.AppointmentExternalOwnerFieldInfo
+    content.vb: Public ReadOnly Property OwnedExternally As AppointmentExternalOwnerFieldInfo
+  overload: SuperOffice.CRM.Data.AppointmentTableInfo.OwnedExternally*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.ContactId_InnerJoin_Contact
   commentId: P:SuperOffice.CRM.Data.AppointmentTableInfo.ContactId_InnerJoin_Contact
   id: ContactId_InnerJoin_Contact
@@ -5572,6 +5604,19 @@ references:
   name: MotherAssociateId
   nameWithType: AppointmentTableInfo.MotherAssociateId
   fullName: SuperOffice.CRM.Data.AppointmentTableInfo.MotherAssociateId
+- uid: SuperOffice.CRM.Data.AppointmentTableInfo.OwnedExternally*
+  commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.OwnedExternally
+  isExternal: true
+  name: OwnedExternally
+  nameWithType: AppointmentTableInfo.OwnedExternally
+  fullName: SuperOffice.CRM.Data.AppointmentTableInfo.OwnedExternally
+- uid: SuperOffice.Data.SQL.AppointmentExternalOwnerFieldInfo
+  commentId: T:SuperOffice.Data.SQL.AppointmentExternalOwnerFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: AppointmentExternalOwnerFieldInfo
+  nameWithType: AppointmentExternalOwnerFieldInfo
+  fullName: SuperOffice.Data.SQL.AppointmentExternalOwnerFieldInfo
 - uid: SuperOffice.CRM.Data.AppointmentTableInfo.ContactId_InnerJoin_Contact*
   commentId: Overload:SuperOffice.CRM.Data.AppointmentTableInfo.ContactId_InnerJoin_Contact
   isExternal: true

@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 429,
-  "AssociateId": 277,
-  "Caption": "illum",
+  "DashboardId": 295,
+  "AssociateId": 576,
+  "Caption": "aut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 549,
-      "Caption": "placeat",
-      "Description": "Enhanced motivating function",
-      "ChartName": "Schmeler Group",
-      "ChartId": "et",
-      "IsDefault": true,
-      "AssociateId": 449,
-      "GroupId": 778,
-      "SelectionId": 52,
-      "Config": "omnis",
+      "DashboardTileId": 820,
+      "Caption": "velit",
+      "Description": "Inverse real-time help-desk",
+      "ChartName": "Pollich LLC",
+      "ChartId": "ipsa",
+      "IsDefault": false,
+      "AssociateId": 98,
+      "GroupId": 574,
+      "SelectionId": 691,
+      "Config": "minima",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 511
+          "FieldLength": 193
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldType": "System.String",
+      "FieldLength": 594
     }
   }
 }

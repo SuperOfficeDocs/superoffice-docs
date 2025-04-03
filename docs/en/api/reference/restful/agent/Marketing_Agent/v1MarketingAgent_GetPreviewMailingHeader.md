@@ -92,7 +92,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 430
+  "ShipmentId": 386
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2015-11-12T02:38:21.5576497+01:00",
+  "StartDate": "2020-01-19T14:28:22.1022648+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 104,
-  "ShipmentDescription": "Open-architected multi-tasking matrices",
-  "FromAddress": "eum",
-  "Configuration": 255,
-  "PersonId": 99,
-  "PersonFullName": "Jamar Kay Kemmer MD",
-  "ShipmentType": "porro",
-  "MessageId": 756,
-  "MessageSubject": "eos",
-  "DocumentMessageId": 821,
-  "NumSent": 627,
-  "NumOpened": 93,
-  "NumBounced": 184,
-  "NumClicks": 796,
+  "ShipmentId": 738,
+  "ShipmentDescription": "Mandatory client-server benchmark",
+  "FromAddress": "aut",
+  "Configuration": 85,
+  "PersonId": 796,
+  "PersonFullName": "Grant McCullough",
+  "ShipmentType": "et",
+  "MessageId": 312,
+  "MessageSubject": "sed",
+  "DocumentMessageId": 482,
+  "NumSent": 199,
+  "NumOpened": 118,
+  "NumBounced": 365,
+  "NumClicks": 608,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 610
+      "FieldLength": 487
     }
   }
 }

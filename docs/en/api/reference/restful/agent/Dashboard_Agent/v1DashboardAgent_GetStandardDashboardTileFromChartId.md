@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetStandardDashboardTileFromChartId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "quia"
+  "ChartId": "blanditiis"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 975,
-  "Caption": "aliquid",
-  "Description": "Decentralized needs-based model",
-  "ChartName": "Glover Inc and Sons",
-  "ChartId": "aliquam",
-  "IsDefault": false,
-  "AssociateId": 23,
-  "GroupId": 620,
-  "SelectionId": 527,
-  "Config": "est",
+  "DashboardTileId": 371,
+  "Caption": "est",
+  "Description": "Adaptive tangible benchmark",
+  "ChartName": "Schmidt, Dach and Muller",
+  "ChartId": "aut",
+  "IsDefault": true,
+  "AssociateId": 930,
+  "GroupId": 872,
+  "SelectionId": 320,
+  "Config": "sit",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Beahan, Maggio and Legros",
-      "Description": "User-friendly 4th generation process improvement",
+      "Name": "Renner, Prohaska and Jewess",
+      "Description": "Organized intangible success",
       "Type": "Boolean",
-      "ListName": "Schimmel Group",
+      "ListName": "Turner Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "fuga",
-      "DefaultDataOption": true,
+      "Value": "aut",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 525
+          "FieldLength": 264
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 102,
+      "VisibleId": 83,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 97
         }
       }
     },
     {
-      "VisibleId": 102,
+      "VisibleId": 83,
       "Visibility": "All",
-      "DisplayValue": "repellendus",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 79
+          "FieldLength": 97
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 277
+      "FieldLength": 446
     }
   }
 }

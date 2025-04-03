@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 529,
-  "Name": "Heathcote LLC",
-  "Rank": 124,
-  "Tooltip": "sint",
-  "Icon": "non",
-  "DefaultTicketStatus": 374,
+  "TicketTypeId": 579,
+  "Name": "Brown LLC",
+  "Rank": 657,
+  "Tooltip": "quo",
+  "Icon": "delectus",
+  "DefaultTicketStatus": 29,
   "TicketStatuses": [
-    705,
-    66
+    294,
+    882
   ],
-  "DefaultTicketPriority": 960,
+  "DefaultTicketPriority": 116,
   "TicketPriorities": [
-    604,
-    963
+    553,
+    483
   ],
-  "ReplyTemplate": 551,
+  "ReplyTemplate": 891,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": true,
@@ -108,17 +108,17 @@ Content-Type: application/json; charset=utf-8
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    985,
-    435
+    639,
+    752
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 429
     }
   }
 }

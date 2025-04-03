@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHierarchyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 187,
+  "HierarchyId": 172,
   "Domain": "Dashboards",
-  "Name": "Rippin, Keebler and Casper",
-  "Fullname": "sunt",
-  "ParentId": 373,
+  "Name": "Williamson Inc and Sons",
+  "Fullname": "est",
+  "ParentId": 705,
   "Children": [
     {
-      "HierarchyId": 566,
+      "HierarchyId": 500,
       "Domain": "Dashboards",
-      "Name": "Walsh Inc and Sons",
-      "Fullname": "consequatur",
-      "ParentId": 465,
+      "Name": "Welch LLC",
+      "Fullname": "corporis",
+      "ParentId": 986,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2009-07-16T02:38:21.5420262+02:00",
-      "RegisteredAssociateId": 115,
-      "Updated": "2021-03-22T02:38:21.5420262+01:00",
-      "UpdatedAssociateId": 500,
+      "Registered": "2009-02-01T14:28:22.0866401+01:00",
+      "RegisteredAssociateId": 917,
+      "Updated": "2012-07-04T14:28:22.0866401+02:00",
+      "UpdatedAssociateId": 361,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 86
+          "FieldLength": 198
         }
       }
     }
   ],
-  "Registered": "2009-08-26T02:38:21.5420262+02:00",
-  "RegisteredAssociateId": 864,
-  "Updated": "1998-05-25T02:38:21.5420262+02:00",
-  "UpdatedAssociateId": 436,
+  "Registered": "2014-05-20T14:28:22.0866401+02:00",
+  "RegisteredAssociateId": 480,
+  "Updated": "2001-02-12T14:28:22.0866401+01:00",
+  "UpdatedAssociateId": 654,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 330
+      "FieldLength": 712
     }
   }
 }

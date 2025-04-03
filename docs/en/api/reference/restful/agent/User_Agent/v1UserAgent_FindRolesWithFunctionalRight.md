@@ -93,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Brekke-West"
+  "FunctionalRightName": "Nicolas-Walker"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 250,
-    "Name": "Homenick Group",
-    "ToolTip": "Perspiciatis voluptatem aut nam sapiente hic et tempora.",
-    "Deleted": false,
-    "Rank": 779,
-    "Type": "similique",
+    "Id": 245,
+    "Name": "Lubowitz Group",
+    "ToolTip": "Qui id accusantium unde ex assumenda incidunt quod.",
+    "Deleted": true,
+    "Rank": 202,
+    "Type": "quasi",
     "ChildItems": [
       {
-        "Id": 802,
-        "Name": "Hickle-Fadel",
-        "ToolTip": "Sed dicta repellendus ut explicabo corporis error.",
+        "Id": 104,
+        "Name": "Kuhlman-Gerhold",
+        "ToolTip": "Nisi culpa mollitia quod aspernatur qui aut consequatur.",
         "Deleted": false,
-        "Rank": 14,
-        "Type": "blanditiis",
+        "Rank": 28,
+        "Type": "corrupti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 519,
-        "ExtraInfo": "delectus",
-        "StyleHint": "quam",
-        "FullName": "Felicia Green",
+        "IconHint": "reprehenderit",
+        "ColorBlock": 764,
+        "ExtraInfo": "tempore",
+        "StyleHint": "placeat",
+        "FullName": "Arely Amina Grady DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 255
+            "FieldType": "System.String",
+            "FieldLength": 108
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 930,
-    "ExtraInfo": "vitae",
-    "StyleHint": "aperiam",
-    "FullName": "Opal Eldora Pacocha II",
+    "IconHint": "ipsa",
+    "ColorBlock": 895,
+    "ExtraInfo": "laboriosam",
+    "StyleHint": "aut",
+    "FullName": "Sigmund Ritchie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 156
+        "FieldType": "System.Int32",
+        "FieldLength": 360
       }
     }
   }

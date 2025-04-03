@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 590
+  "ContactId": 236
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 1000,
-  "BlobSize": 934,
-  "Description": "Re-engineered 24 hour projection",
-  "ExtraInfo": "nobis",
+  "BlobId": 104,
+  "BlobSize": 34,
+  "Description": "Digitized hybrid analyzer",
+  "ExtraInfo": "cumque",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "error",
-  "OriginalSize": 460,
-  "CreatedDate": "2016-05-08T02:38:20.9014648+02:00",
-  "UpdatedDate": "2018-11-25T02:38:20.9014648+01:00",
+  "MimeType": "aliquid",
+  "OriginalSize": 609,
+  "CreatedDate": "2018-09-07T14:28:21.4929147+02:00",
+  "UpdatedDate": "2009-07-19T14:28:21.4929147+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "numquam",
+  "ConceptualType": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 286
+      "FieldLength": 928
     }
   }
 }

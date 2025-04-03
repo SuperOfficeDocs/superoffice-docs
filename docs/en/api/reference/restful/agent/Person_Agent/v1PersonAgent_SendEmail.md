@@ -69,18 +69,18 @@ No Content
 POST /api/v1/Agents/Person/SendEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "modi",
-  "To": "expedita",
-  "Subject": "numquam",
-  "PlainBody": "rerum",
-  "HtmlBody": "expedita",
+  "From": "et",
+  "To": "labore",
+  "Subject": "cumque",
+  "PlainBody": "beatae",
+  "HtmlBody": "facilis",
   "AttachmentIds": [
-    758,
-    542
+    460,
+    725
   ]
 }
 ```

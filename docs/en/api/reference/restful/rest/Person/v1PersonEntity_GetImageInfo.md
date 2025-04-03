@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 03 Feb 2020 02:38:26 G2T
+Last-Modified: Tue, 13 Mar 2018 14:28:27 G3T
 
 {
-  "BlobId": 902,
-  "BlobSize": 109,
-  "Description": "Cloned leading edge project",
-  "ExtraInfo": "quae",
+  "BlobId": 439,
+  "BlobSize": 486,
+  "Description": "Right-sized exuding monitoring",
+  "ExtraInfo": "qui",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "totam",
-  "OriginalSize": 76,
-  "CreatedDate": "2020-05-30T02:38:26.1985521+02:00",
-  "UpdatedDate": "2020-02-03T02:38:26.1985521+01:00",
+  "IsZipped": false,
+  "MimeType": "facere",
+  "OriginalSize": 191,
+  "CreatedDate": "2016-07-05T14:28:27.0239403+02:00",
+  "UpdatedDate": "2018-03-13T14:28:27.0239403+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "tenetur",
+  "ConceptualType": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 628
+      "FieldType": "System.Int32",
+      "FieldLength": 102
     }
   }
 }

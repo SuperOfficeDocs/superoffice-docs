@@ -86,35 +86,35 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "qui",
-  "ProviderName": "Willms, Barrows and Goyette",
-  "StorageKey": "delectus",
+  "StorageType": "aut",
+  "ProviderName": "Cruickshank, O'Keefe and Schneider",
+  "StorageKey": "voluptatibus",
   "Restrictions": [
     {
-      "Name": "Smitham-Howe",
+      "Name": "Runte-Hauck",
       "Operator": "et",
       "Values": [
-        "qui",
-        "excepturi"
+        "doloribus",
+        "voluptatem"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "non"
+        "a",
+        "numquam"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 516,
+      "InterParenthesis": 82,
       "InterOperator": "And",
-      "UniqueHash": 358
+      "UniqueHash": 976
     }
   ],
   "StaticColumns": [
-    "eaque",
-    "sapiente"
+    "voluptatibus",
+    "nostrum"
   ]
 }
 ```
@@ -128,15 +128,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Marquardt LLC",
-      "Operator": "ullam",
+      "Name": "Jenkins-Koch",
+      "Operator": "sit",
       "Values": [
-        "voluptatem",
-        "vitae"
+        "in",
+        "sed"
       ],
       "DisplayValues": [
-        "aut",
-        "ea"
+        "magni",
+        "velit"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -144,65 +144,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 766,
+      "InterParenthesis": 136,
       "InterOperator": "And",
-      "UniqueHash": 813
+      "UniqueHash": 829
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Flatley, Swaniawski and Schroeder",
-      "DisplayTooltip": "aut",
-      "DisplayType": "id",
+      "DisplayName": "Ortiz, Zieme and Rutherford",
+      "DisplayTooltip": "rem",
+      "DisplayType": "sunt",
       "CanOrderBy": false,
-      "Name": "Hills, Tremblay and Becker",
+      "Name": "Schroeder-Simonis",
       "CanRestrictBy": false,
-      "RestrictionType": "in",
-      "RestrictionListName": "Grant-Yundt",
-      "IsVisible": false,
-      "ExtraInfo": "omnis",
-      "Width": "eum",
-      "IconHint": "reiciendis",
-      "HeadingIconHint": "similique"
+      "RestrictionType": "voluptatem",
+      "RestrictionListName": "Mueller Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "ducimus",
+      "Width": "minus",
+      "IconHint": "sapiente",
+      "HeadingIconHint": "vel"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Koch, Haag and Wiza",
-      "PrimaryKey": 403,
+      "EntityName": "Bradtke Inc and Sons",
+      "PrimaryKey": 763,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "vitae",
-          "TooltipHint": "quod",
-          "LinkHint": "provident"
+          "DisplayValue": "deserunt",
+          "TooltipHint": "debitis",
+          "LinkHint": "dolorem"
         }
       },
-      "LinkHint": "quas",
-      "StyleHint": "repellendus",
+      "LinkHint": "consequatur",
+      "StyleHint": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 719
+          "FieldLength": 491
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Lueilwitz, Jacobson and Williamson",
-      "Description": "Synchronised client-server monitoring",
-      "Rank": 170,
+      "Name": "Hirthe Inc and Sons",
+      "Description": "Integrated composite infrastructure",
+      "Rank": 820,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Lueilwitz, Jacobson and Williamson",
-      "Description": "Synchronised client-server monitoring",
-      "Rank": 170,
+      "Name": "Hirthe Inc and Sons",
+      "Description": "Integrated composite infrastructure",
+      "Rank": 820,
       "Restrictions": [
         {},
         {}
@@ -214,7 +214,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 118
+      "FieldLength": 715
     }
   }
 }

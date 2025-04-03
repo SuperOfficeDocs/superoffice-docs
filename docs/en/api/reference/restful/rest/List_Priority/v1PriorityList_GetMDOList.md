@@ -27,7 +27,7 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=quis
+GET /api/v1/List/Priority/MDOItems?query=libero
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 687,
-    "Name": "Ward Group",
-    "ToolTip": "Ut aliquam.",
-    "Deleted": true,
-    "Rank": 848,
-    "Type": "maxime",
+    "Id": 26,
+    "Name": "Hamill, Dickinson and Funk",
+    "ToolTip": "Ipsam asperiores nostrum voluptate voluptatem aperiam neque consequatur.",
+    "Deleted": false,
+    "Rank": 926,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 276,
-        "Name": "Kirlin LLC",
-        "ToolTip": "Qui non error consequatur harum necessitatibus.",
+        "Id": 147,
+        "Name": "Stamm Inc and Sons",
+        "ToolTip": "Eos dolore omnis quis impedit voluptatem.",
         "Deleted": true,
-        "Rank": 951,
-        "Type": "magni",
+        "Rank": 364,
+        "Type": "expedita",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 863,
-        "ExtraInfo": "fugiat",
-        "StyleHint": "incidunt",
-        "FullName": "Graciela Mante",
+        "IconHint": "odit",
+        "ColorBlock": 652,
+        "ExtraInfo": "in",
+        "StyleHint": "enim",
+        "FullName": "Dr. Delpha Bartoletti",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 604
+            "FieldLength": 101
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 658,
-    "ExtraInfo": "qui",
-    "StyleHint": "praesentium",
-    "FullName": "Zachary Wolff",
+    "IconHint": "dolorem",
+    "ColorBlock": 32,
+    "ExtraInfo": "id",
+    "StyleHint": "est",
+    "FullName": "Lue Gleichner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 244
+        "FieldLength": 840
       }
     }
   }

@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 8,
+  "TargetDimensionId": 805,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "vitae",
-  "DimensionListName": "Dooley Group",
-  "DimensionListId": 207,
-  "DimensionListLabel": "hic",
+  "DimensionListField": "sit",
+  "DimensionListName": "Stokes-Kuphal",
+  "DimensionListId": 671,
+  "DimensionListLabel": "debitis",
   "SelectedDimensions": [
-    245,
-    40
+    883,
+    98
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 330,
+  "TargetDimensionId": 508,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "nobis",
-  "DimensionListName": "Reynolds-Collier",
-  "DimensionListId": 231,
-  "DimensionListLabel": "dolore",
+  "DimensionListField": "voluptatem",
+  "DimensionListName": "Jacobi-Jacobi",
+  "DimensionListId": 950,
+  "DimensionListLabel": "consectetur",
   "SelectedDimensions": [
-    769,
-    935
+    244,
+    499
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldType": "System.String",
+      "FieldLength": 52
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Little-Miller",
-    "ToolTip": "Quidem debitis est.",
+    "Id": 685,
+    "Name": "Windler Inc and Sons",
+    "ToolTip": "Tenetur maiores iure enim odio.",
     "Deleted": false,
-    "Rank": 282,
-    "Type": "est",
-    "ColorBlock": 129,
-    "IconHint": "labore",
+    "Rank": 450,
+    "Type": "accusamus",
+    "ColorBlock": 724,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2021-11-13T02:38:26.854892+01:00",
+    "LastChanged": "2012-11-10T14:28:27.6489147+01:00",
     "ChildItems": [
       {
-        "Id": 820,
-        "Name": "Kessler-Quitzon",
-        "ToolTip": "Ducimus aperiam earum corporis voluptatem reprehenderit.",
+        "Id": 56,
+        "Name": "Welch-Kassulke",
+        "ToolTip": "Sunt consequatur.",
         "Deleted": false,
-        "Rank": 742,
-        "Type": "est",
-        "ColorBlock": 159,
-        "IconHint": "ullam",
+        "Rank": 785,
+        "Type": "itaque",
+        "ColorBlock": 602,
+        "IconHint": "placeat",
         "Selected": false,
-        "LastChanged": "2023-02-26T02:38:26.8705112+01:00",
+        "LastChanged": "2000-06-06T14:28:27.6489147+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "eum",
-        "Hidden": true,
-        "FullName": "Mrs. Neha Balistreri Jr."
+        "ExtraInfo": "qui",
+        "StyleHint": "ab",
+        "Hidden": false,
+        "FullName": "Miss Isabelle Hardy Collins PhD"
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "autem",
-    "Hidden": false,
-    "FullName": "Margaretta Lourdes Donnelly IV"
+    "ExtraInfo": "perferendis",
+    "StyleHint": "delectus",
+    "Hidden": true,
+    "FullName": "Kellen Beahan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 503,
-    "Name": "Schumm Group",
-    "ToolTip": "Ipsam qui officia fugit ut repudiandae qui ipsam.",
+    "Id": 935,
+    "Name": "Runte, Emmerich and Gaylord",
+    "ToolTip": "Sint ut deleniti qui animi.",
     "Deleted": false,
-    "Rank": 925,
-    "Type": "est",
-    "ColorBlock": 228,
-    "IconHint": "cupiditate",
+    "Rank": 75,
+    "Type": "possimus",
+    "ColorBlock": 73,
+    "IconHint": "atque",
     "Selected": false,
-    "LastChanged": "2016-03-21T02:38:26.8705112+01:00",
+    "LastChanged": "2017-04-26T14:28:27.6489147+02:00",
     "ChildItems": [
       {
-        "Id": 525,
-        "Name": "Sanford-Welch",
-        "ToolTip": "Consectetur sequi id qui enim.",
+        "Id": 972,
+        "Name": "Smith, Carroll and Hartmann",
+        "ToolTip": "Qui iure.",
         "Deleted": false,
-        "Rank": 681,
-        "Type": "aut",
-        "ColorBlock": 315,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2011-11-07T02:38:26.8705112+01:00",
+        "Rank": 452,
+        "Type": "omnis",
+        "ColorBlock": 63,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2021-10-28T14:28:27.6489147+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "sit",
-        "StyleHint": "architecto",
+        "StyleHint": "enim",
         "Hidden": false,
-        "FullName": "Vernie Weissnat DVM",
+        "FullName": "Gaston Vincenzo Okuneva MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 482
+            "FieldType": "System.Int32",
+            "FieldLength": 372
           }
         }
       }
     ],
-    "ExtraInfo": "commodi",
-    "StyleHint": "eaque",
-    "Hidden": true,
-    "FullName": "Ms. Claire Cecil Ferry",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "odit",
+    "Hidden": false,
+    "FullName": "Mrs. Hilma Zachariah Frami",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 287
+        "FieldType": "System.String",
+        "FieldLength": 109
       }
     }
   }

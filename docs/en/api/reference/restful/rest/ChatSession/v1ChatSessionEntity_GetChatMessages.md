@@ -29,7 +29,7 @@ Get all or some of the messages in a chat session
 | after | int32 |  Return messages after this message id |
 
 ```http
-GET /api/v1/ChatSession/{chatSessionId}/Messages?after=397
+GET /api/v1/ChatSession/{chatSessionId}/Messages?after=522
 ```
 
 
@@ -75,7 +75,7 @@ OK
 GET /api/v1/ChatSession/{chatSessionId}/Messages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,15 +86,15 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatMessageId": 516,
-    "ChatSessionId": 120,
+    "ChatMessageId": 53,
+    "ChatSessionId": 220,
     "Type": "Invalid",
-    "Message": "sapiente",
-    "Author": "optio",
-    "ReadByCustomer": 31,
+    "Message": "ex",
+    "Author": "ut",
+    "ReadByCustomer": 946,
     "SpecialType": "Block",
-    "SpecialParam": "ut",
-    "WhenPosted": "2005-09-25T02:38:25.9329544+02:00"
+    "SpecialParam": "rerum",
+    "WhenPosted": "2024-07-28T14:28:26.7739511+02:00"
   }
 ]
 ```

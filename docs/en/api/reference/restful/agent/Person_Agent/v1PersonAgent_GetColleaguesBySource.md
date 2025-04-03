@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 548
+  "Count": 849
 }
 ```
 
@@ -133,53 +133,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "natus",
-    "PersonId": 417,
-    "Mrmrs": "recusandae",
-    "Firstname": "Breana",
-    "Lastname": "Mueller",
-    "MiddleName": "Bashirian, Upton and D'Amore",
-    "Title": "qui",
-    "Description": "Networked fresh-thinking structure",
-    "Email": "ismael@watsica.ca",
-    "FullName": "Yasmin Goodwin",
-    "DirectPhone": "653-475-3876 x23440",
-    "FormalName": "Tremblay-Schinner",
-    "CountryId": 370,
-    "ContactId": 118,
-    "ContactName": "Schneider, Carter and Ryan",
-    "Retired": 461,
-    "Rank": 523,
-    "ActiveInterests": 800,
+    "Position": "ut",
+    "PersonId": 474,
+    "Mrmrs": "ut",
+    "Firstname": "Norval",
+    "Lastname": "Von",
+    "MiddleName": "Bernier, McCullough and Conn",
+    "Title": "minima",
+    "Description": "Stand-alone fault-tolerant infrastructure",
+    "Email": "bianka@okon.name",
+    "FullName": "Ms. Kariane Mayer",
+    "DirectPhone": "(221)623-5774 x5199",
+    "FormalName": "Schaefer, Schneider and Runolfsson",
+    "CountryId": 927,
+    "ContactId": 365,
+    "ContactName": "Jenkins Group",
+    "Retired": 283,
+    "Rank": 224,
+    "ActiveInterests": 640,
     "ContactDepartment": "",
-    "ContactCountryId": 524,
-    "ContactOrgNr": "876786",
-    "FaxPhone": "1-311-034-4477 x5514",
-    "MobilePhone": "337.760.4197",
-    "ContactPhone": "1-485-477-9163 x3768",
-    "AssociateName": "Walsh LLC",
-    "AssociateId": 790,
-    "UsePersonAddress": false,
-    "ContactFax": "qui",
-    "Kanafname": "molestias",
-    "Kanalname": "quibusdam",
-    "Post1": "sunt",
-    "Post2": "omnis",
-    "Post3": "possimus",
-    "EmailName": "audrey.stehr@vonruedenborer.co.uk",
-    "ContactFullName": "Dr. Norval Schroeder",
-    "ActiveErpLinks": 82,
-    "TicketPriorityId": 589,
-    "SupportLanguageId": 626,
-    "SupportAssociateId": 187,
+    "ContactCountryId": 944,
+    "ContactOrgNr": "850053",
+    "FaxPhone": "621.221.7509",
+    "MobilePhone": "(268)763-7224 x3911",
+    "ContactPhone": "(345)008-9727",
+    "AssociateName": "Lowe-Spencer",
+    "AssociateId": 786,
+    "UsePersonAddress": true,
+    "ContactFax": "illum",
+    "Kanafname": "consequuntur",
+    "Kanalname": "ullam",
+    "Post1": "et",
+    "Post2": "dolore",
+    "Post3": "molestiae",
+    "EmailName": "kristina@blick.name",
+    "ContactFullName": "Rubie Wehner Sr.",
+    "ActiveErpLinks": 352,
+    "TicketPriorityId": 611,
+    "SupportLanguageId": 833,
+    "SupportAssociateId": 832,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1665659",
+    "PersonNumber": "234576",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 427
+        "FieldLength": 855
       }
     }
   }

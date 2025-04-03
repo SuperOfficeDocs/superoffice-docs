@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 11,
-  "StartTime": "2011-08-27T02:38:21.2295568+02:00",
-  "EndTime": "2014-08-30T02:38:21.2295568+02:00",
-  "Count": 188,
+  "ProjectId": 818,
+  "StartTime": "1999-01-08T14:28:21.8210267+01:00",
+  "EndTime": "2004-01-22T14:28:21.8210267+01:00",
+  "Count": 815,
   "DocumentTemplateIds": [
-    277,
-    518
+    838,
+    851
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 634,
-    "Attention": "quod",
-    "Header": "esse",
-    "Name": "Kuvalis Group",
-    "OurRef": "consequatur",
-    "YourRef": "nihil",
-    "Description": "Universal modular help-desk",
-    "DocumentTemplate": "eum",
+    "DocumentId": 622,
+    "Attention": "ea",
+    "Header": "dolorem",
+    "Name": "Bogisich, Christiansen and Kiehn",
+    "OurRef": "quisquam",
+    "YourRef": "commodi",
+    "Description": "Implemented exuding help-desk",
+    "DocumentTemplate": "ut",
     "IsPublished": false,
-    "PersonId": 751,
-    "PersonFullName": "Savannah Kertzmann",
-    "AssociateFullName": "Eveline Flatley",
-    "ContactId": 510,
-    "ContactName": "Abshire Inc and Sons",
-    "ProjectId": 132,
-    "ProjectName": "Maggio LLC",
-    "AssociateId": 497,
-    "Snum": 492,
-    "SaleId": 662,
-    "SaleName": "Wiegand-Schaefer",
+    "PersonId": 265,
+    "PersonFullName": "Vilma Brakus",
+    "AssociateFullName": "Dr. Adam Lynch MD",
+    "ContactId": 213,
+    "ContactName": "Spinka, Torphy and Roob",
+    "ProjectId": 151,
+    "ProjectName": "Feest Group",
+    "AssociateId": 521,
+    "Snum": 197,
+    "SaleId": 217,
+    "SaleName": "Moore, Treutel and Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 791
+        "FieldLength": 597
       }
     }
   }

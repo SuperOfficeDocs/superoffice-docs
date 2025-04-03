@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 103,
-  "Name": "Johns-Jaskolski",
+  "SelectionId": 155,
+  "Name": "Harvey, Jacobs and Block",
   "TargetSelectionType": "Combined",
   "CopyMembers": true
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-group 5th generation emulation",
-  "Postit": "totam",
+  "Description": "Balanced high-level array",
+  "Postit": "nulla",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 695,
-  "IncludePerson": 657,
+  "GroupIdx": 941,
+  "IncludePerson": 996,
   "MemberCount": 99.99,
-  "Name": "Volkman Group",
-  "PostitTextId": 880,
-  "CreatedDate": "2000-07-30T02:38:21.9794397+02:00",
-  "SelectionId": 852,
-  "SoundEx": "minus",
-  "Source": 668,
-  "TextId": 317,
-  "UpdatedDate": "2024-04-19T02:38:21.9794397+02:00",
-  "UpdatedCount": 648,
-  "Visibility": 42,
+  "Name": "Will LLC",
+  "PostitTextId": 127,
+  "CreatedDate": "2000-02-28T14:28:22.4147526+01:00",
+  "SelectionId": 529,
+  "SoundEx": "et",
+  "Source": 196,
+  "TextId": 484,
+  "UpdatedDate": "1997-11-26T14:28:22.4147526+01:00",
+  "UpdatedCount": 172,
+  "Visibility": 945,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 494,
-  "TargetTableName": "Rice-Conn",
+  "CompanyUnique": false,
+  "TargetTableNumber": 52,
+  "TargetTableName": "Cummings-Bradtke",
   "Completed": false,
-  "LeftSelectionId": 13,
-  "RightSelectionId": 930,
+  "LeftSelectionId": 185,
+  "RightSelectionId": 123,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Raynor-Becker",
-  "ShadowProviderName": "Dietrich, Towne and Durgan",
-  "ChartKey": "vel",
-  "LastLoaded": "2008-02-13T02:38:21.9794397+01:00",
-  "LastLoadedBy": 695,
+  "MainProviderName": "Greenholt Inc and Sons",
+  "ShadowProviderName": "Lakin-Paucek",
+  "ChartKey": "labore",
+  "LastLoaded": "2023-02-11T14:28:22.4147526+01:00",
+  "LastLoadedBy": 316,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2024-12-05T02:38:21.9794397+01:00",
-  "LastMembershipChangeBy": 105,
+  "LastMembershipChange": "2016-02-25T14:28:22.4147526+01:00",
+  "LastMembershipChangeBy": 305,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "cumque",
-  "MemberTabHeading": "error",
-  "MailingsProviderName": "Schuppe Inc and Sons",
-  "DashboardTileDefinitionId": 338,
+  "MainHeading": "sint",
+  "MemberTabHeading": "necessitatibus",
+  "MailingsProviderName": "Kirlin-Kulas",
+  "DashboardTileDefinitionId": 922,
   "VisibleFor": [
     {
-      "VisibleId": 957,
+      "VisibleId": 81,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 38
+          "FieldType": "System.Int32",
+          "FieldLength": 84
         }
       }
     },
     {
-      "VisibleId": 957,
+      "VisibleId": 81,
       "Visibility": "All",
-      "DisplayValue": "explicabo",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 38
+          "FieldType": "System.Int32",
+          "FieldLength": 84
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldLength": 729
     }
   }
 }

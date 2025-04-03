@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 203,
-    "Name": "Aufderhar-Spencer",
-    "Tooltip": "earum",
-    "Deleted": false,
-    "UdListDefinitionId": 73,
-    "Rank": 499
+    "Id": 383,
+    "Name": "Daugherty LLC",
+    "Tooltip": "repellendus",
+    "Deleted": true,
+    "UdListDefinitionId": 880,
+    "Rank": 45
   },
   {
-    "Id": 203,
-    "Name": "Aufderhar-Spencer",
-    "Tooltip": "earum",
-    "Deleted": false,
-    "UdListDefinitionId": 73,
-    "Rank": 499
+    "Id": 383,
+    "Name": "Daugherty LLC",
+    "Tooltip": "repellendus",
+    "Deleted": true,
+    "UdListDefinitionId": 880,
+    "Rank": 45
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 167,
-    "Name": "Zemlak, Fisher and Yundt",
-    "Tooltip": "quas",
-    "Deleted": true,
-    "UdListDefinitionId": 992,
-    "Rank": 763,
+    "Id": 953,
+    "Name": "Kreiger LLC",
+    "Tooltip": "veniam",
+    "Deleted": false,
+    "UdListDefinitionId": 632,
+    "Rank": 900,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 897
+        "FieldType": "System.Int32",
+        "FieldLength": 978
       }
     }
   }

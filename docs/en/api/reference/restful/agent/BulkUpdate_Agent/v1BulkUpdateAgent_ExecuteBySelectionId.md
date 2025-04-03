@@ -78,30 +78,30 @@ Content-Type: application/json; charset=utf-8
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": false,
-      "DefaultShowInGui": true,
+      "CanSupportMultiUse": true,
+      "DefaultShowInGui": false,
       "DefaultShowInSelector": true,
-      "IsActive": false,
-      "Key": "et",
-      "ValueType": "magnam",
+      "IsActive": true,
+      "Key": "dolorem",
+      "ValueType": "nostrum",
       "Mandatory": false,
-      "EncodedDisplayName": "Weber LLC",
-      "EncodedDisplayDescription": "Open-architected empowering throughput",
-      "IconHint": "similique",
+      "EncodedDisplayName": "Rosenbaum, Pacocha and Schroeder",
+      "EncodedDisplayDescription": "Diverse empowering frame",
+      "IconHint": "et",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "corrupti",
-      "EncodedDataCaptionDescription": "Implemented composite customer loyalty",
-      "CurrentOperationType": "repellendus",
+      "EncodedDataCaption": "rerum",
+      "EncodedDataCaptionDescription": "Open-architected didactic paradigm",
+      "CurrentOperationType": "nulla",
       "Values": [
-        "dolores",
-        "perspiciatis"
+        "cupiditate",
+        "ut"
       ],
       "DisplayValues": [
-        "eaque",
-        "veniam"
+        "a",
+        "aut"
       ],
       "OperationInfos": [
         {},
@@ -109,10 +109,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Dooley, Cremin and Berge",
-  "Context": "quis",
-  "SelectionId": 811,
-  "IsShadow": true
+  "TableName": "O'Conner Group",
+  "Context": "magni",
+  "SelectionId": 301,
+  "IsShadow": false
 }
 ```
 
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-911
+342
 ```

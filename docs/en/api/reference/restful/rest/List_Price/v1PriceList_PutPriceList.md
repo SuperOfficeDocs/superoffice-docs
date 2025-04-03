@@ -97,19 +97,19 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 704,
-  "ERPPriceListKey": "necessitatibus",
-  "QuoteConnectionId": 536,
-  "Name": "Swaniawski-Schowalter",
-  "Description": "Triple-buffered attitude-oriented capability",
-  "Currency": "asperiores",
-  "CurrencyName": "Pollich Inc and Sons",
-  "ValidFrom": "2010-03-31T02:38:26.8236417+02:00",
-  "ValidTo": "2016-07-04T02:38:26.8236417+02:00",
+  "PriceListId": 585,
+  "ERPPriceListKey": "autem",
+  "QuoteConnectionId": 33,
+  "Name": "Rempel, Homenick and Quitzon",
+  "Description": "Decentralized cohesive task-force",
+  "Currency": "laborum",
+  "CurrencyName": "Hermiston LLC",
+  "ValidFrom": "2002-08-03T14:28:27.6020419+02:00",
+  "ValidTo": "2000-01-26T14:28:27.6020419+01:00",
   "IsActive": true
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 594,
-  "ERPPriceListKey": "non",
-  "QuoteConnectionId": 560,
-  "Name": "Zieme, Zieme and Hegmann",
-  "Description": "Expanded foreground encryption",
-  "Currency": "facere",
-  "CurrencyName": "Herzog, Cruickshank and Kerluke",
-  "ValidFrom": "2008-09-07T02:38:26.8236417+02:00",
-  "ValidTo": "2021-03-01T02:38:26.8236417+01:00",
+  "PriceListId": 20,
+  "ERPPriceListKey": "sunt",
+  "QuoteConnectionId": 796,
+  "Name": "Cruickshank Inc and Sons",
+  "Description": "Diverse stable algorithm",
+  "Currency": "ipsam",
+  "CurrencyName": "Dickinson-Dare",
+  "ValidFrom": "1998-08-26T14:28:27.6020419+02:00",
+  "ValidTo": "2007-03-17T14:28:27.6020419+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 984
+      "FieldLength": 79
     }
   },
   "_Links": {

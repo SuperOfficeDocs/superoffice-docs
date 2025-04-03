@@ -170,12 +170,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Walter-Mueller",
-  "Context": "similique"
+  "ProviderName": "Gutmann, Borer and Stoltenberg",
+  "Context": "debitis"
 }
 ```
 
@@ -187,50 +187,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 264,
-    "Name": "Mayert, Swaniawski and Emmerich",
-    "ToolTip": "Alias molestiae harum magnam quia voluptas.",
+    "Id": 468,
+    "Name": "Lakin, Blick and Hansen",
+    "ToolTip": "In molestias eveniet.",
     "Deleted": false,
-    "Rank": 402,
-    "Type": "magni",
+    "Rank": 315,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 721,
-        "Name": "Runolfsdottir, Reilly and McKenzie",
-        "ToolTip": "Alias voluptatem.",
+        "Id": 11,
+        "Name": "Wolf-Gutmann",
+        "ToolTip": "Expedita rerum.",
         "Deleted": false,
-        "Rank": 562,
-        "Type": "incidunt",
+        "Rank": 679,
+        "Type": "sint",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "natus",
-        "ColorBlock": 544,
-        "ExtraInfo": "at",
-        "StyleHint": "dolor",
-        "FullName": "Melvin Zieme",
+        "IconHint": "veritatis",
+        "ColorBlock": 134,
+        "ExtraInfo": "laborum",
+        "StyleHint": "delectus",
+        "FullName": "Mrs. Modesto Berneice Lebsack DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 71
+            "FieldType": "System.String",
+            "FieldLength": 99
           }
         }
       }
     ],
-    "IconHint": "quod",
-    "ColorBlock": 402,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "similique",
-    "FullName": "Jerome Reilly",
+    "IconHint": "sunt",
+    "ColorBlock": 601,
+    "ExtraInfo": "rem",
+    "StyleHint": "non",
+    "FullName": "Mr. Spencer Hunter Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 156
+        "FieldType": "System.Int32",
+        "FieldLength": 366
       }
     }
   }

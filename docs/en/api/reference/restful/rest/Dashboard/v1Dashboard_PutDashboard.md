@@ -87,26 +87,26 @@ Dashboard updated.
 PUT /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 642,
-  "AssociateId": 273,
-  "Caption": "fuga",
+  "DashboardId": 563,
+  "AssociateId": 933,
+  "Caption": "exercitationem",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 639,
-      "Caption": "harum",
-      "Description": "Up-sized 24 hour firmware",
-      "ChartName": "Douglas, Christiansen and Flatley",
-      "ChartId": "blanditiis",
-      "IsDefault": true,
-      "AssociateId": 629,
-      "GroupId": 626,
-      "SelectionId": 752,
-      "Config": "explicabo",
+      "DashboardTileId": 799,
+      "Caption": "molestias",
+      "Description": "Universal intangible open architecture",
+      "ChartName": "Parker, Hartmann and Hyatt",
+      "ChartId": "doloremque",
+      "IsDefault": false,
+      "AssociateId": 668,
+      "GroupId": 880,
+      "SelectionId": 919,
+      "Config": "enim",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -129,22 +129,22 @@ HTTP/1.1 200 Dashboard updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 416,
-  "AssociateId": 421,
+  "DashboardId": 565,
+  "AssociateId": 297,
   "Caption": "quis",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 3,
-      "Caption": "nam",
-      "Description": "Grass-roots asynchronous service-desk",
-      "ChartName": "Hettinger LLC",
-      "ChartId": "nam",
-      "IsDefault": true,
-      "AssociateId": 679,
-      "GroupId": 136,
-      "SelectionId": 40,
-      "Config": "harum",
+      "DashboardTileId": 192,
+      "Caption": "aperiam",
+      "Description": "Digitized needs-based array",
+      "ChartName": "Schultz Group",
+      "ChartId": "iure",
+      "IsDefault": false,
+      "AssociateId": 822,
+      "GroupId": 498,
+      "SelectionId": 757,
+      "Config": "voluptatum",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldType": "System.Int32",
+          "FieldLength": 92
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 612
+      "FieldType": "System.String",
+      "FieldLength": 71
     }
   },
   "_Links": {

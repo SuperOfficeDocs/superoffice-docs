@@ -77,49 +77,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 578,
-  "Field": "dolore",
-  "RecordId": 819,
+  "RefCountsId": 330,
+  "Field": "qui",
+  "RecordId": 81,
   "SuggestedRecords": [
     {
-      "Id": 163,
-      "Name": "Turcotte-Lueilwitz",
-      "ToolTip": "Incidunt sunt.",
-      "Deleted": false,
-      "Rank": 583,
-      "Type": "voluptatem",
+      "Id": 531,
+      "Name": "Prosacco Group",
+      "ToolTip": "Expedita aut similique repellendus error ea cumque non.",
+      "Deleted": true,
+      "Rank": 651,
+      "Type": "aut",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ipsum",
-      "ColorBlock": 239,
-      "ExtraInfo": "aliquam",
-      "StyleHint": "consectetur",
-      "FullName": "Roxanne Parisian",
+      "IconHint": "nulla",
+      "ColorBlock": 113,
+      "ExtraInfo": "impedit",
+      "StyleHint": "impedit",
+      "FullName": "Mrs. Sidney Jarvis Beahan",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 806
+          "FieldType": "System.Int32",
+          "FieldLength": 364
         }
       }
     }
   ],
-  "CurrentValue": 257,
-  "TravelPrefix": 706,
-  "SatPrefix": 140,
-  "Allocate": true,
-  "Unique": true,
+  "CurrentValue": 867,
+  "TravelPrefix": 849,
+  "SatPrefix": 260,
+  "Allocate": false,
+  "Unique": false,
   "ReadOnly": false,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldType": "System.String",
+      "FieldLength": 400
     }
   }
 }

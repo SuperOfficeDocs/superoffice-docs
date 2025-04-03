@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Lang Group",
-    "ToolTip": "Nihil optio non.",
+    "Id": 299,
+    "Name": "Bartoletti-Goodwin",
+    "ToolTip": "Omnis quia.",
     "Deleted": false,
-    "Rank": 696,
-    "Type": "aut",
-    "ColorBlock": 714,
-    "IconHint": "porro",
+    "Rank": 504,
+    "Type": "ut",
+    "ColorBlock": 786,
+    "IconHint": "itaque",
     "Selected": false,
-    "LastChanged": "2020-10-06T02:38:26.8236417+02:00",
+    "LastChanged": "2002-09-30T14:28:27.6020419+02:00",
     "ChildItems": [
       {
-        "Id": 303,
-        "Name": "Beier-Connelly",
-        "ToolTip": "Porro rerum ab rerum non et.",
+        "Id": 584,
+        "Name": "Satterfield, Runolfsson and Kiehn",
+        "ToolTip": "Dignissimos nam accusamus.",
         "Deleted": false,
-        "Rank": 772,
-        "Type": "dolorem",
-        "ColorBlock": 522,
-        "IconHint": "voluptates",
+        "Rank": 903,
+        "Type": "vero",
+        "ColorBlock": 721,
+        "IconHint": "repellat",
         "Selected": false,
-        "LastChanged": "1998-02-09T02:38:26.8236417+01:00",
+        "LastChanged": "2012-12-03T14:28:27.6020419+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Florine Turner"
+        "ExtraInfo": "omnis",
+        "StyleHint": "eum",
+        "Hidden": false,
+        "FullName": "Henderson Bartell"
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "qui",
+    "ExtraInfo": "est",
+    "StyleHint": "sequi",
     "Hidden": false,
-    "FullName": "Ms. Keven Rempel Sr."
+    "FullName": "Lauriane Armani O'Hara III"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 498,
-    "Name": "Waters-Bednar",
-    "ToolTip": "Quisquam totam et.",
-    "Deleted": true,
-    "Rank": 397,
-    "Type": "sit",
-    "ColorBlock": 336,
-    "IconHint": "suscipit",
+    "Id": 546,
+    "Name": "King-Durgan",
+    "ToolTip": "Velit perspiciatis.",
+    "Deleted": false,
+    "Rank": 922,
+    "Type": "enim",
+    "ColorBlock": 659,
+    "IconHint": "praesentium",
     "Selected": false,
-    "LastChanged": "2007-09-28T02:38:26.8236417+02:00",
+    "LastChanged": "2011-07-30T14:28:27.6020419+02:00",
     "ChildItems": [
       {
-        "Id": 431,
-        "Name": "Orn Group",
-        "ToolTip": "Facilis omnis.",
-        "Deleted": true,
-        "Rank": 124,
-        "Type": "cum",
-        "ColorBlock": 344,
-        "IconHint": "commodi",
+        "Id": 384,
+        "Name": "Schaefer-Kovacek",
+        "ToolTip": "Odit et.",
+        "Deleted": false,
+        "Rank": 169,
+        "Type": "itaque",
+        "ColorBlock": 125,
+        "IconHint": "rem",
         "Selected": true,
-        "LastChanged": "1999-08-12T02:38:26.8236417+02:00",
+        "LastChanged": "2011-02-26T14:28:27.6020419+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tenetur",
-        "StyleHint": "consequuntur",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "autem",
         "Hidden": false,
-        "FullName": "Catherine Braun MD",
+        "FullName": "Camille Shanahan",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 683
+            "FieldLength": 6
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "ullam",
-    "Hidden": true,
-    "FullName": "Barbara Hane",
+    "ExtraInfo": "labore",
+    "StyleHint": "perferendis",
+    "Hidden": false,
+    "FullName": "Brook Larkin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 775
+        "FieldLength": 130
       }
     }
   }

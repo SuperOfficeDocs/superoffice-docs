@@ -73,63 +73,63 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jones, Skiles and Schmidt",
-    "Description": "Organic multimedia strategy",
-    "Rank": 738,
+    "Name": "Schimmel LLC",
+    "Description": "Inverse responsive forecast",
+    "Rank": 65,
     "Restrictions": [
       {
-        "Name": "Rempel-Osinski",
-        "Operator": "magnam",
+        "Name": "Mann, Abernathy and Aufderhar",
+        "Operator": "dolorem",
         "Values": [
-          "numquam",
-          "dolor"
+          "doloremque",
+          "rerum"
         ],
         "DisplayValues": [
-          "neque",
-          "impedit"
+          "nobis",
+          "ullam"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 350,
+        "InterParenthesis": 309,
         "InterOperator": "And",
-        "UniqueHash": 610
+        "UniqueHash": 431
       }
     ]
   },
   {
-    "Name": "Jones, Skiles and Schmidt",
-    "Description": "Organic multimedia strategy",
-    "Rank": 738,
+    "Name": "Schimmel LLC",
+    "Description": "Inverse responsive forecast",
+    "Rank": 65,
     "Restrictions": [
       {
-        "Name": "Rempel-Osinski",
-        "Operator": "magnam",
+        "Name": "Mann, Abernathy and Aufderhar",
+        "Operator": "dolorem",
         "Values": [
-          "numquam",
-          "dolor"
+          "doloremque",
+          "rerum"
         ],
         "DisplayValues": [
-          "neque",
-          "impedit"
+          "nobis",
+          "ullam"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 350,
+        "InterParenthesis": 309,
         "InterOperator": "And",
-        "UniqueHash": 610
+        "UniqueHash": 431
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Jast, Swaniawski and Hartmann",
-    "Description": "Cross-platform systematic neural-net",
-    "Rank": 804,
+    "Name": "Huels LLC",
+    "Description": "Customer-focused didactic instruction set",
+    "Rank": 593,
     "Restrictions": [
       {
-        "Name": "Stanton LLC",
-        "Operator": "at",
+        "Name": "Feeney-O'Reilly",
+        "Operator": "dolorem",
         "Values": [
-          "aliquam",
-          "error"
+          "debitis",
+          "quidem"
         ],
         "DisplayValues": [
-          "quia",
-          "molestiae"
+          "voluptas",
+          "rerum"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 852,
+        "InterParenthesis": 896,
         "InterOperator": "And",
-        "UniqueHash": 884
+        "UniqueHash": 815
       }
     ]
   },
   {
-    "Name": "Jast, Swaniawski and Hartmann",
-    "Description": "Cross-platform systematic neural-net",
-    "Rank": 804,
+    "Name": "Huels LLC",
+    "Description": "Customer-focused didactic instruction set",
+    "Rank": 593,
     "Restrictions": [
       {
-        "Name": "Stanton LLC",
-        "Operator": "at",
+        "Name": "Feeney-O'Reilly",
+        "Operator": "dolorem",
         "Values": [
-          "aliquam",
-          "error"
+          "debitis",
+          "quidem"
         ],
         "DisplayValues": [
-          "quia",
-          "molestiae"
+          "voluptas",
+          "rerum"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 852,
+        "InterParenthesis": 896,
         "InterOperator": "And",
-        "UniqueHash": 884
+        "UniqueHash": 815
       }
     ]
   }

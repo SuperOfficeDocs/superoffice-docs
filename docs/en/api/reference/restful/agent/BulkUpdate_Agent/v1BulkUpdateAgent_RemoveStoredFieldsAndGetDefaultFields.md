@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Jacobson-Brakus",
-  "Context": "mollitia"
+  "TableName": "Schaden-Mueller",
+  "Context": "qui"
 }
 ```
 
@@ -105,76 +105,76 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CanSupportMultiUse": false,
+    "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "cum",
-    "ValueType": "et",
-    "Mandatory": false,
-    "EncodedDisplayName": "Simonis-Weimann",
-    "EncodedDisplayDescription": "Networked modular internet solution",
-    "IconHint": "cum",
+    "Key": "deleniti",
+    "ValueType": "nisi",
+    "Mandatory": true,
+    "EncodedDisplayName": "Osinski, Buckridge and Friesen",
+    "EncodedDisplayDescription": "Reverse-engineered cohesive solution",
+    "IconHint": "qui",
     "ControlInfos": [
       {
-        "Type": "mollitia",
-        "Label": "unde",
-        "Dimension": 915,
-        "ListProviderName": "Osinski Inc and Sons",
-        "ListProviderExtraInfo": "hic",
-        "ListProviderPrimaryKeyName": "McLaughlin, Hansen and Gislason",
-        "ListLeadText": "enim",
+        "Type": "alias",
+        "Label": "dolor",
+        "Dimension": 103,
+        "ListProviderName": "Collier-Shields",
+        "ListProviderExtraInfo": "neque",
+        "ListProviderPrimaryKeyName": "Fadel-Jaskolski",
+        "ListLeadText": "maxime",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 5
+            "FieldType": "System.String",
+            "FieldLength": 466
           }
         }
       }
     ],
-    "EncodedDataCaption": "aliquid",
-    "EncodedDataCaptionDescription": "Face to face optimal success",
-    "CurrentOperationType": "voluptatum",
+    "EncodedDataCaption": "officiis",
+    "EncodedDataCaptionDescription": "Cross-group intermediate matrices",
+    "CurrentOperationType": "aperiam",
     "Values": [
-      "ipsa",
-      "et"
+      "eos",
+      "debitis"
     ],
     "DisplayValues": [
-      "rerum",
-      "quo"
+      "beatae",
+      "vitae"
     ],
     "OperationInfos": [
       {
-        "Key": "fuga",
-        "EncodedDisplayName": "Wyman, Keeling and Pacocha",
+        "Key": "aut",
+        "EncodedDisplayName": "Fritsch-Koch",
         "EncodedLeadTexts": [
-          "cupiditate",
-          "tempore"
+          "minus",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 580
+            "FieldType": "System.String",
+            "FieldLength": 494
           }
         }
       },
       {
-        "Key": "fuga",
-        "EncodedDisplayName": "Wyman, Keeling and Pacocha",
+        "Key": "aut",
+        "EncodedDisplayName": "Fritsch-Koch",
         "EncodedLeadTexts": [
-          "cupiditate",
-          "tempore"
+          "minus",
+          "ut"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 580
+            "FieldType": "System.String",
+            "FieldLength": 494
           }
         }
       }

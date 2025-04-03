@@ -115,6 +115,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -134,14 +135,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromProjectSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 41,
-  "ProjectId": 365,
+  "SuggestedAppointmentId": 921,
+  "ProjectId": 671,
   "CreateNow": false,
-  "OwnerId": 446
+  "OwnerId": 920
 }
 ```
 
@@ -156,120 +157,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-03-27T02:38:20.8077217+02:00",
-  "AppointmentId": 559,
-  "Description": "Triple-buffered systemic moratorium",
-  "Title": "eligendi",
-  "Agenda": "eius",
-  "InternalNotes": "amet",
-  "StartDate": "2000-08-03T02:38:20.8077217+02:00",
-  "EndDate": "2007-02-26T02:38:20.8077217+01:00",
+  "CreatedDate": "2014-01-16T14:28:21.4147931+01:00",
+  "AppointmentId": 352,
+  "Description": "Organized 24/7 hierarchy",
+  "Title": "provident",
+  "Agenda": "sit",
+  "InternalNotes": "et",
+  "StartDate": "2023-12-06T14:28:21.4147931+01:00",
+  "EndDate": "2015-05-07T14:28:21.4147931+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 651,
+  "MotherId": 476,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1998-10-22T02:38:20.8077217+02:00",
+  "UpdatedDate": "2004-07-01T14:28:21.4147931+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 193,
+  "ActiveLinks": 115,
   "Links": [
     {
-      "EntityName": "Keeling-Borer",
-      "Id": 226,
-      "Description": "Multi-lateral human-resource knowledge base",
-      "ExtraInfo": "doloremque",
-      "LinkId": 778,
+      "EntityName": "Kessler Inc and Sons",
+      "Id": 989,
+      "Description": "Down-sized disintermediate frame",
+      "ExtraInfo": "amet",
+      "LinkId": 679,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 440
+          "FieldType": "System.String",
+          "FieldLength": 714
         }
       }
     }
   ],
-  "AlarmLeadTime": "ut",
-  "HasAlarm": true,
-  "ColorIndex": 185,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "natus",
-  "LeadTime": "voluptatem",
-  "Location": "nesciunt",
-  "RejectCounter": 803,
+  "AlarmLeadTime": "animi",
+  "HasAlarm": false,
+  "ColorIndex": 409,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "cum",
+  "LeadTime": "voluptate",
+  "Location": "nostrum",
+  "RejectCounter": 432,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 47,
-      "PersonId": 604,
-      "ContactId": 887,
-      "EmailId": 20,
+      "AssociateId": 953,
+      "PersonId": 140,
+      "ContactId": 125,
+      "EmailId": 858,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "eulah_hyatt@stokes.uk",
-      "Description": "Upgradable 24/7 database"
+      "EmailAddress": "lee_harber@kunzekuphal.biz",
+      "Description": "Quality-focused secondary portal"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2007-09-28T02:38:20.8077217+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2007-06-30T14:28:21.4147931+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 257,
+  "PreferredTZLocation": 581,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 816,
+  "SuggestedAppointmentId": 999,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ipsum",
+  "CentralserviceVideomeetId": "et",
   "UserDefinedFields": {
-    "SuperOffice:1": "Edison Koelpin",
-    "SuperOffice:2": "1020627773"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Maud Sporer"
   },
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "facilis"
+    "ExtraFields1": "nam",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "rerum",
-    "CustomFields2": "molestias"
+    "CustomFields1": "dignissimos",
+    "CustomFields2": "adipisci"
   },
-  "PublishEventDate": "2018-12-08T02:38:20.8077217+01:00",
-  "PublishTo": "2006-06-19T02:38:20.8077217+02:00",
-  "PublishFrom": "2022-09-17T02:38:20.8077217+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-07-26T14:28:21.4147931+02:00",
+  "PublishTo": "2002-12-21T14:28:21.4147931+01:00",
+  "PublishFrom": "2021-09-02T14:28:21.4147931+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 894,
+      "VisibleId": 450,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 816
+          "FieldLength": 886
         }
       }
     },
     {
-      "VisibleId": 894,
+      "VisibleId": 450,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 816
+          "FieldLength": 886
         }
       }
     }
@@ -279,7 +281,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 803
+      "FieldLength": 574
     }
   }
 }

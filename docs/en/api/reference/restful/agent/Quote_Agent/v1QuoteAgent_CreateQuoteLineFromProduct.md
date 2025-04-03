@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 220,
+  "QuoteAlternativeId": 585,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 936,
-  "ERPQuoteLineKey": "unde",
-  "QuoteAlternativeId": 363,
-  "ERPProductKey": "quod",
+  "QuoteLineId": 964,
+  "ERPQuoteLineKey": "qui",
+  "QuoteAlternativeId": 48,
+  "ERPProductKey": "tenetur",
   "Status": "Error",
-  "Reason": "extend sticky bandwidth",
-  "Quantity": 16597.664,
-  "DeliveredQuantity": 14328.648,
-  "Rank": 158,
-  "Name": "Robel Inc and Sons",
-  "Description": "Mandatory secondary superstructure",
-  "Code": "deserunt",
-  "QuantityUnit": "facilis",
-  "PriceUnit": "explicabo",
-  "ItemNumber": "113305",
+  "Reason": "",
+  "Quantity": 15331.528,
+  "DeliveredQuantity": 1360.156,
+  "Rank": 870,
+  "Name": "Dickinson, Kling and Torp",
+  "Description": "Managed uniform focus group",
+  "Code": "accusamus",
+  "QuantityUnit": "aut",
+  "PriceUnit": "id",
+  "ItemNumber": "761433",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "in",
-  "ProductTypeKey": "quisquam",
-  "Supplier": "asperiores",
-  "SupplierCode": "voluptatibus",
-  "Thumbnail": "quibusdam",
-  "VATInfo": "dolor",
-  "VAT": 15083.942,
-  "UnitCost": 12670.761999999999,
-  "UnitMinimumPrice": 14435.204,
-  "UnitListPrice": 9655.854,
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "delectus",
+  "Supplier": "totam",
+  "SupplierCode": "voluptatem",
+  "Thumbnail": "aut",
+  "VATInfo": "rerum",
+  "VAT": 25545.234,
+  "UnitCost": 10442.488,
+  "UnitMinimumPrice": 15419.279999999999,
+  "UnitListPrice": 16083.688,
   "ExtraInfo": [
     {
-      "Name": "Klocko Group",
-      "Value": "voluptas",
+      "Name": "Kohler-Nader",
+      "Value": "porro",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 572
+          "FieldLength": 21
         }
       }
     },
     {
-      "Name": "Klocko Group",
-      "Value": "voluptas",
+      "Name": "Kohler-Nader",
+      "Value": "porro",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 572
+          "FieldLength": 21
         }
       }
     }
   ],
-  "RawExtraInfo": "odio",
+  "RawExtraInfo": "blanditiis",
   "IsSubscription": false,
-  "SubscriptionUnit": "cumque",
-  "SubscriptionQuantity": 26930.462,
-  "SubscriptionStart": "1998-07-08T02:38:21.7919947+02:00",
-  "ERPDiscountPercent": 28274.948,
-  "ERPDiscountAmount": 714.552,
-  "DiscountPercent": 21618.332,
-  "DiscountAmount": 20609.184,
+  "SubscriptionUnit": "eos",
+  "SubscriptionQuantity": 13664.24,
+  "SubscriptionStart": "2012-04-06T14:28:22.3053817+02:00",
+  "ERPDiscountPercent": 12260.207999999999,
+  "ERPDiscountAmount": 6769.44,
+  "DiscountPercent": 20471.288,
+  "DiscountAmount": 7675.166,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 8471.202,
-  "EarningAmount": 9643.318,
-  "SubTotal": 15096.478,
-  "TotalPrice": 2924.022,
-  "Rights": "sit",
-  "Rule": "magnam",
-  "ExtraField1": "odit",
-  "ExtraField2": "excepturi",
-  "ExtraField3": "dicta",
-  "ExtraField4": "consectetur",
-  "ExtraField5": "ut",
+  "EarningPercent": 30876.167999999998,
+  "EarningAmount": 19089.194,
+  "SubTotal": 4954.854,
+  "TotalPrice": 1400.898,
+  "Rights": "maxime",
+  "Rule": "iste",
+  "ExtraField1": "ab",
+  "ExtraField2": "quo",
+  "ExtraField3": "et",
+  "ExtraField4": "reprehenderit",
+  "ExtraField5": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 814
+      "FieldLength": 6
     }
   }
 }

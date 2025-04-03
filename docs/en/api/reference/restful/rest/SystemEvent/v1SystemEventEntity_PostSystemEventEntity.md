@@ -94,19 +94,19 @@ OK
 POST /api/v1/SystemEvent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 559,
+  "SystemEventId": 53,
   "Scope": "Database",
-  "Eta": "2003-07-01T02:38:26.4329026+02:00",
-  "Eventkey": "quibusdam",
-  "Eventmess": "dolorem",
-  "ExtraInfo": 576,
-  "Owner": 502,
-  "UpdatedCount": 572,
-  "Registered": "2016-08-06T02:38:26.4329026+02:00",
+  "Eta": "2013-03-28T14:28:27.2583066+01:00",
+  "Eventkey": "vel",
+  "Eventmess": "eum",
+  "ExtraInfo": 130,
+  "Owner": 124,
+  "UpdatedCount": 939,
+  "Registered": "2021-02-15T14:28:27.2583066+01:00",
   "ActivatedBy": null
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 566,
+  "SystemEventId": 114,
   "Scope": "Database",
-  "Eta": "2021-04-17T02:38:26.4329026+02:00",
-  "Eventkey": "consequuntur",
-  "Eventmess": "nostrum",
-  "ExtraInfo": 41,
-  "Owner": 607,
-  "UpdatedCount": 635,
-  "Registered": "2015-10-14T02:38:26.4329026+02:00",
+  "Eta": "2011-06-03T14:28:27.2583066+02:00",
+  "Eventkey": "dolor",
+  "Eventmess": "repellendus",
+  "ExtraInfo": 431,
+  "Owner": 47,
+  "UpdatedCount": 54,
+  "Registered": "2004-12-01T14:28:27.2583066+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 757
+      "FieldLength": 265
     }
   },
   "_Links": {

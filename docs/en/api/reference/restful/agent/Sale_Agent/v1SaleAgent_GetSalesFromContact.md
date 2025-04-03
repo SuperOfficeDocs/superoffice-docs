@@ -102,7 +102,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 9,
+  "ContactId": 118,
   "OnlyOpenSales": true
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Flatley LLC",
-    "SaleDate": "2016-10-25T02:38:21.8544876+02:00",
-    "SaleId": 116,
-    "Probability": 560,
-    "Title": "aut",
-    "Amount": 23959.43,
-    "Currency": "quaerat",
-    "ProjectName": "Gerlach, Cummerata and Haag",
-    "AssociateFullName": "Adelle Emard",
-    "Description": "Compatible motivating system engine",
+    "ContactName": "Herman-Heaney",
+    "SaleDate": "2011-03-16T14:28:22.3678792+01:00",
+    "SaleId": 535,
+    "Probability": 607,
+    "Title": "iste",
+    "Amount": 7856.938,
+    "Currency": "non",
+    "ProjectName": "Bode-Feest",
+    "AssociateFullName": "Mellie Lessie Botsford Jr.",
+    "Description": "Self-enabling systematic frame",
     "Status": "Lost",
-    "WeightedAmount": 153.566,
-    "ProjectId": 609,
-    "EarningPercent": 26739.288,
-    "Earning": 15052.601999999999,
-    "ContactId": 465,
-    "AssociateId": 178,
-    "PersonId": 764,
-    "SaleTypeId": 177,
-    "SaleTypeName": "Schowalter-Schroeder",
-    "PersonFullName": "Coty Cremin",
+    "WeightedAmount": 16152.635999999999,
+    "ProjectId": 742,
+    "EarningPercent": 27087.162,
+    "Earning": 22079.03,
+    "ContactId": 929,
+    "AssociateId": 485,
+    "PersonId": 822,
+    "SaleTypeId": 201,
+    "SaleTypeName": "Anderson-Reichel",
+    "PersonFullName": "Aylin Johns",
     "Completed": "Completed",
-    "ActiveErpLinks": 839,
-    "NextDueDate": "2005-07-29T02:38:21.8544876+02:00",
-    "Number": "502790",
+    "ActiveErpLinks": 926,
+    "NextDueDate": "2008-07-14T14:28:22.3678792+02:00",
+    "Number": "1011030",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 696
+        "FieldType": "System.Int32",
+        "FieldLength": 686
       }
     }
   }

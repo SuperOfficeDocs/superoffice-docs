@@ -484,7 +484,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=associate/userName,person/personId,person/correspondingAssociate/usergroup,rowKind
+GET /api/v1/archive/ChatConversationStaticSelectionV2?$select=person/restrictionAddress/wgs84longitude,person/personUdef/SuperOffice:11,person/personExtra/x_person_shorttext,person/personAssociate/ejStatus,contact/category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 49,
-    "Name": "Zulauf-Anderson",
-    "Tooltip": "similique",
+    "HeadingId": 43,
+    "Name": "Lynch Inc and Sons",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 984,
-    "UdListDefinitionId": 658
+    "Rank": 61,
+    "UdListDefinitionId": 207
   },
   {
-    "HeadingId": 49,
-    "Name": "Zulauf-Anderson",
-    "Tooltip": "similique",
+    "HeadingId": 43,
+    "Name": "Lynch Inc and Sons",
+    "Tooltip": "laborum",
     "Deleted": false,
-    "Rank": 984,
-    "UdListDefinitionId": 658
+    "Rank": 61,
+    "UdListDefinitionId": 207
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 577,
-    "Name": "Lockman Inc and Sons",
-    "Tooltip": "architecto",
+    "HeadingId": 911,
+    "Name": "Okuneva-Muller",
+    "Tooltip": "quos",
     "Deleted": false,
-    "Rank": 512,
-    "UdListDefinitionId": 204,
+    "Rank": 541,
+    "UdListDefinitionId": 322,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 467
+        "FieldLength": 365
       }
     }
   }

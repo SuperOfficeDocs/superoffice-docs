@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 235
+  "EjUserId": 490
 }
 ```
 
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 567,
-    "Name": "Brekke-Borer",
-    "Rank": 30,
-    "Tooltip": "dolor",
+    "AssociateId": 71,
+    "Name": "Hagenes LLC",
+    "Rank": 737,
+    "Tooltip": "earum",
     "LicenseOwners": [
       {
-        "Name": "Maggio LLC",
-        "Description": "Customer-focused cohesive neural-net",
+        "Name": "Rice, Doyle and Rogahn",
+        "Description": "Reactive background Graphical User Interface",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldLength": 522
           }
         }
       },
       {
-        "Name": "Maggio LLC",
-        "Description": "Customer-focused cohesive neural-net",
+        "Name": "Rice, Doyle and Rogahn",
+        "Description": "Reactive background Graphical User Interface",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldLength": 522
           }
         }
       }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "temporibus",
-        "Tooltip": "commodi",
-        "Id": 819,
-        "Rank": 602,
-        "Deleted": false,
+        "Value": "tempora",
+        "Tooltip": "sed",
+        "Id": 17,
+        "Rank": 526,
+        "Deleted": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 271
+            "FieldType": "System.String",
+            "FieldLength": 874
           }
         }
       }
     ],
     "Person": null,
-    "Deleted": false,
-    "Lastlogin": "2000-07-06T02:38:22.2294127+02:00",
-    "Lastlogout": "1998-03-31T02:38:22.2294127+02:00",
-    "EjUserId": 374,
-    "RequestSignature": "ipsum",
+    "Deleted": true,
+    "Lastlogin": "2017-10-04T14:28:22.7272398+02:00",
+    "Lastlogout": "2002-03-01T14:28:22.7272398+01:00",
+    "EjUserId": 678,
+    "RequestSignature": "illum",
     "Type": "AnonymousAssociate",
     "IsPersonRetired": false,
     "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "laborum",
-        "DisplayValue": "pariatur",
+        "Value": "quod",
+        "DisplayValue": "soluta",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 875
+            "FieldType": "System.Int32",
+            "FieldLength": 16
           }
         }
       },
       {
         "Type": null,
-        "Value": "laborum",
-        "DisplayValue": "pariatur",
+        "Value": "quod",
+        "DisplayValue": "soluta",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 16
+          }
+        }
+      }
+    ],
+    "UserName": "Homenick-Torphy",
+    "TicketCategories": [
+      {
+        "Id": 296,
+        "Name": "Willms-Pagac",
+        "ToolTip": "Repudiandae facere voluptas nobis.",
+        "Deleted": false,
+        "Rank": 939,
+        "Type": "et",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "deleniti",
+        "ColorBlock": 634,
+        "ExtraInfo": "sint",
+        "StyleHint": "quidem",
+        "FullName": "Prof. Tyrese Gleichner Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 875
+            "FieldLength": 854
           }
         }
       }
     ],
-    "UserName": "Smith-Turcotte",
-    "TicketCategories": [
-      {
-        "Id": 135,
-        "Name": "Cronin, Kuphal and Mertz",
-        "ToolTip": "Aut dolores dolor nihil qui ducimus voluptatem.",
-        "Deleted": false,
-        "Rank": 244,
-        "Type": "est",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "ipsa",
-        "ColorBlock": 943,
-        "ExtraInfo": "eos",
-        "StyleHint": "quae",
-        "FullName": "Mervin Harris",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 332
-          }
-        }
-      }
-    ],
-    "NickName": "Gaylord, Rempel and Satterfield",
+    "NickName": "Zieme, Price and Mraz",
     "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "eos",
-      "ExtraFields2": "quidem"
+      "ExtraFields1": "voluptatibus",
+      "ExtraFields2": "quia"
     },
     "CustomFields": {
-      "CustomFields1": "blanditiis",
-      "CustomFields2": "iure"
+      "CustomFields1": "excepturi",
+      "CustomFields2": "possimus"
     },
     "PostSaveCommands": [
       {
-        "Name": "Morissette Group",
-        "DisplayName": "Maggio, Huels and Lubowitz",
-        "Description": "Switchable modular migration",
-        "ToolTip": "Quis laudantium aut assumenda.",
+        "Name": "Streich Group",
+        "DisplayName": "Roob, Hilpert and Veum",
+        "Description": "Function-based mobile knowledge user",
+        "ToolTip": "Beatae culpa nam aspernatur neque quis aut dolorem.",
         "Actions": "Implicit",
-        "ActionData": "voluptatibus",
+        "ActionData": "sed",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 642
+            "FieldLength": 330
           }
         }
       }
@@ -277,8 +277,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 433
+        "FieldType": "System.String",
+        "FieldLength": 463
       }
     }
   }

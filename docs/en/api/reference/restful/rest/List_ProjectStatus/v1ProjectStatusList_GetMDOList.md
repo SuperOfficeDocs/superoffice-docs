@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=False
-GET /api/v1/List/ProjectStatus/MDOItems?query=voluptas
+GET /api/v1/List/ProjectStatus/MDOItems?flat=True
+GET /api/v1/List/ProjectStatus/MDOItems?query=quas
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 197,
-    "Name": "Dach-Hand",
-    "ToolTip": "Similique cum officiis sint vel.",
+    "Id": 614,
+    "Name": "Kiehn, Jacobs and Windler",
+    "ToolTip": "Eius tempora quibusdam qui porro.",
     "Deleted": false,
-    "Rank": 899,
-    "Type": "ut",
+    "Rank": 660,
+    "Type": "quo",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Okuneva-Tillman",
-        "ToolTip": "Quaerat labore quibusdam est.",
+        "Id": 273,
+        "Name": "Barrows-Hodkiewicz",
+        "ToolTip": "Nulla delectus pariatur eius.",
         "Deleted": true,
-        "Rank": 475,
-        "Type": "ex",
+        "Rank": 774,
+        "Type": "repellendus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quas",
-        "ColorBlock": 438,
-        "ExtraInfo": "error",
-        "StyleHint": "qui",
-        "FullName": "Chaz Kreiger",
+        "IconHint": "delectus",
+        "ColorBlock": 974,
+        "ExtraInfo": "id",
+        "StyleHint": "recusandae",
+        "FullName": "Karli Moore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 657
+            "FieldType": "System.Int32",
+            "FieldLength": 519
           }
         }
       }
     ],
-    "IconHint": "a",
-    "ColorBlock": 101,
-    "ExtraInfo": "iste",
-    "StyleHint": "dolorem",
-    "FullName": "Prof. Timothy Miles Terry",
+    "IconHint": "distinctio",
+    "ColorBlock": 834,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "distinctio",
+    "FullName": "Dr. Eunice Uriah Hartmann V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 313
+        "FieldLength": 207
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 247,
-    "Name": "Nicolas-Bednar",
-    "Tooltip": "quos",
-    "Deleted": false,
-    "Rank": 206,
+    "HeadingId": 397,
+    "Name": "Kessler, Bergstrom and Kunze",
+    "Tooltip": "in",
+    "Deleted": true,
+    "Rank": 589,
     "UdListDefinitionId": 252,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 46
+        "FieldLength": 1002
       }
     }
   }

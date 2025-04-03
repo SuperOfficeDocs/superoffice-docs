@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 27,
-    "Name": "Altenwerth, Herman and Williamson",
-    "ToolTip": "Molestiae veniam.",
-    "Deleted": false,
-    "Rank": 499,
-    "Type": "ipsam",
-    "ColorBlock": 299,
-    "IconHint": "optio",
+    "Id": 495,
+    "Name": "Moore-Wyman",
+    "ToolTip": "Qui blanditiis nostrum sunt.",
+    "Deleted": true,
+    "Rank": 432,
+    "Type": "ipsum",
+    "ColorBlock": 698,
+    "IconHint": "quos",
     "Selected": false,
-    "LastChanged": "2023-10-09T02:38:26.9173771+02:00",
+    "LastChanged": "2014-03-04T14:28:27.6801638+01:00",
     "ChildItems": [
       {
-        "Id": 819,
-        "Name": "Zboncak Inc and Sons",
-        "ToolTip": "Et eos est repudiandae illum tenetur nihil impedit.",
+        "Id": 992,
+        "Name": "Toy-Heidenreich",
+        "ToolTip": "Necessitatibus beatae voluptatem odit quis ipsa corporis et.",
         "Deleted": false,
-        "Rank": 849,
-        "Type": "laborum",
-        "ColorBlock": 476,
-        "IconHint": "sequi",
+        "Rank": 964,
+        "Type": "culpa",
+        "ColorBlock": 459,
+        "IconHint": "asperiores",
         "Selected": true,
-        "LastChanged": "2024-09-17T02:38:26.9173771+02:00",
+        "LastChanged": "2004-09-18T14:28:27.6801638+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reprehenderit",
-        "StyleHint": "velit",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "saepe",
         "Hidden": false,
-        "FullName": "Wendell Hills"
+        "FullName": "Mr. Icie Hessel"
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "minima",
+    "ExtraInfo": "harum",
+    "StyleHint": "temporibus",
     "Hidden": false,
-    "FullName": "Mrs. Wade Mariana Reichert"
+    "FullName": "Prof. Donnie Goldner"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 894,
-    "Name": "Cartwright, Zulauf and Kuhlman",
-    "ToolTip": "Quis sit.",
+    "Id": 871,
+    "Name": "Lindgren-Kuhic",
+    "ToolTip": "Quisquam est vitae corporis incidunt inventore.",
     "Deleted": false,
-    "Rank": 86,
-    "Type": "perspiciatis",
-    "ColorBlock": 43,
-    "IconHint": "eius",
+    "Rank": 583,
+    "Type": "ullam",
+    "ColorBlock": 752,
+    "IconHint": "expedita",
     "Selected": false,
-    "LastChanged": "2003-12-29T02:38:26.9173771+01:00",
+    "LastChanged": "2019-02-28T14:28:27.6801638+01:00",
     "ChildItems": [
       {
-        "Id": 907,
-        "Name": "Powlowski-Kuhic",
-        "ToolTip": "Quas maiores rerum culpa praesentium blanditiis voluptas non.",
+        "Id": 499,
+        "Name": "Zieme Inc and Sons",
+        "ToolTip": "Reprehenderit velit impedit qui ipsa natus dolorem.",
         "Deleted": true,
-        "Rank": 835,
-        "Type": "quis",
-        "ColorBlock": 496,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "2023-09-12T02:38:26.9173771+02:00",
+        "Rank": 343,
+        "Type": "ut",
+        "ColorBlock": 923,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2024-10-25T14:28:27.6801638+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "possimus",
+        "ExtraInfo": "inventore",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Ms. Evangeline Orie Stroman Jr.",
+        "FullName": "Quinten Friesen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldLength": 867
           }
         }
       }
     ],
-    "ExtraInfo": "deserunt",
-    "StyleHint": "ullam",
+    "ExtraInfo": "ut",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Prof. Cassidy Renner III",
+    "FullName": "Wilburn Emmerich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldType": "System.String",
+        "FieldLength": 310
       }
     }
   }

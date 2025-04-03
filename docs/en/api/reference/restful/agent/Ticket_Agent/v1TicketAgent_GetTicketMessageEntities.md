@@ -99,14 +99,14 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 387,
+  "TicketId": 522,
   "MessageIds": [
-    3,
-    290
+    679,
+    571
   ]
 }
 ```
@@ -119,28 +119,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 824,
+    "EjMessageId": 426,
     "Ticket": null,
-    "CreatedAt": "2002-05-28T02:38:22.1357045+02:00",
+    "CreatedAt": "2002-11-09T14:28:22.6334931+01:00",
     "CreatedBy": null,
-    "Author": "dicta",
+    "Author": "ullam",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "eaque",
-    "TimeSpent": 344,
-    "Body": "sit",
-    "HtmlBody": "commodi",
-    "EmailHeader": "jess@dooleyheaney.us",
-    "DebugInfo": "dolor",
-    "MailSorter": "rerum",
+    "MessageId": "non",
+    "TimeSpent": 474,
+    "Body": "earum",
+    "HtmlBody": "laborum",
+    "EmailHeader": "blaze_connelly@blanda.info",
+    "DebugInfo": "deserunt",
+    "MailSorter": "odio",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "in",
+    "SearchTitle": "atque",
     "MessageHeaders": [
       {
-        "Id": 445,
-        "Name": "Reinger LLC",
-        "Value": "sunt",
+        "Id": 575,
+        "Name": "Konopelski, Pollich and Hudson",
+        "Value": "sint",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
@@ -148,50 +148,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 827
+            "FieldLength": 723
           }
         }
       }
     ],
-    "Important": true,
-    "Language": "voluptas",
-    "Sentiment": 139,
-    "SentimentConfidence": 137,
+    "Important": false,
+    "Language": "omnis",
+    "Sentiment": 11,
+    "SentimentConfidence": 358,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 325,
-        "Name": "Prohaska Inc and Sons",
-        "ContentType": "sed",
-        "AttSize": 311,
-        "InlineImage": true,
-        "ContentId": "modi",
-        "AuthKey": "explicabo",
+        "AttachmentId": 917,
+        "Name": "Langworth, Block and Berge",
+        "ContentType": "corporis",
+        "AttSize": 806,
+        "InlineImage": false,
+        "ContentId": "amet",
+        "AuthKey": "amet",
         "IsSafeFileExtension": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 903
+            "FieldType": "System.String",
+            "FieldLength": 332
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "nam",
-      "ExtraFields2": "et"
+      "ExtraFields1": "cupiditate",
+      "ExtraFields2": "amet"
     },
     "CustomFields": {
-      "CustomFields1": "illo",
-      "CustomFields2": "laudantium"
+      "CustomFields1": "assumenda",
+      "CustomFields2": "consequatur"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 460
+        "FieldType": "System.String",
+        "FieldLength": 145
       }
     }
   }

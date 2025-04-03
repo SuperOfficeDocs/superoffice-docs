@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 779,
-    "Name": "Marvin LLC",
-    "Tooltip": "ducimus",
-    "Deleted": true,
-    "Rank": 744,
-    "UdListDefinitionId": 136
+    "HeadingId": 503,
+    "Name": "Welch-Bergnaum",
+    "Tooltip": "necessitatibus",
+    "Deleted": false,
+    "Rank": 836,
+    "UdListDefinitionId": 997
   },
   {
-    "HeadingId": 779,
-    "Name": "Marvin LLC",
-    "Tooltip": "ducimus",
-    "Deleted": true,
-    "Rank": 744,
-    "UdListDefinitionId": 136
+    "HeadingId": 503,
+    "Name": "Welch-Bergnaum",
+    "Tooltip": "necessitatibus",
+    "Deleted": false,
+    "Rank": 836,
+    "UdListDefinitionId": 997
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 275,
-    "Name": "O'Reilly Inc and Sons",
-    "Tooltip": "doloribus",
-    "Deleted": false,
-    "Rank": 642,
-    "UdListDefinitionId": 655,
+    "HeadingId": 493,
+    "Name": "Gerhold Group",
+    "Tooltip": "ipsa",
+    "Deleted": true,
+    "Rank": 692,
+    "UdListDefinitionId": 226,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldLength": 317
       }
     }
   }

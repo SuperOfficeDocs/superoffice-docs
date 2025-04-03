@@ -28,7 +28,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=False
+GET /api/v1/ChatTopic/UserAgents?flat=True
 GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 759,
-    "Name": "Pfannerstill, Will and Walsh",
-    "ToolTip": "Est quae.",
+    "Id": 905,
+    "Name": "O'Kon LLC",
+    "ToolTip": "Minima odit impedit nisi dolor consectetur rerum.",
     "Deleted": true,
-    "Rank": 662,
-    "Type": "sequi",
+    "Rank": 308,
+    "Type": "ex",
     "ChildItems": [
       {
-        "Id": 528,
-        "Name": "Brekke-Gleason",
-        "ToolTip": "Distinctio numquam inventore eum non.",
-        "Deleted": true,
-        "Rank": 722,
-        "Type": "et",
+        "Id": 133,
+        "Name": "Prosacco Inc and Sons",
+        "ToolTip": "Error laboriosam dignissimos perspiciatis aut et aut.",
+        "Deleted": false,
+        "Rank": 373,
+        "Type": "voluptatibus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cumque",
-        "ColorBlock": 809,
-        "ExtraInfo": "saepe",
-        "StyleHint": "eius",
-        "FullName": "Yolanda Runolfsdottir",
+        "IconHint": "optio",
+        "ColorBlock": 423,
+        "ExtraInfo": "est",
+        "StyleHint": "veniam",
+        "FullName": "Joany Franecki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 772
+            "FieldLength": 245
           }
         }
       }
     ],
-    "IconHint": "molestiae",
-    "ColorBlock": 6,
-    "ExtraInfo": "quaerat",
-    "StyleHint": "accusantium",
-    "FullName": "Otilia Frami",
+    "IconHint": "consequatur",
+    "ColorBlock": 312,
+    "ExtraInfo": "ut",
+    "StyleHint": "et",
+    "FullName": "Josue Koelpin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 907
+        "FieldLength": 407
       }
     }
   }

@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 578
+  "ShipmentAddrId": 261
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2009-03-07T02:38:21.5576497+01:00",
+  "SendingTime": "2005-05-12T14:28:22.1022648+02:00",
   "Status": "Blocked",
-  "ShipmentId": 236,
-  "ShipmentDescription": "Phased user-facing system engine",
-  "FromAddress": "fugiat",
-  "Configuration": 73,
-  "ContactId": 910,
-  "ContactName": "Kuhlman LLC",
-  "PersonId": 602,
-  "PersonFullName": "Kaci McClure",
-  "ShipmentType": "et",
-  "MessageId": 347,
-  "MessageSubject": "voluptatibus",
-  "DocumentMessageId": 958,
-  "Opened": "1999-06-21T02:38:21.5576497+02:00",
-  "LinkClicks": 855,
+  "ShipmentId": 540,
+  "ShipmentDescription": "Stand-alone uniform service-desk",
+  "FromAddress": "magnam",
+  "Configuration": 729,
+  "ContactId": 404,
+  "ContactName": "Kertzmann, Wintheiser and Stamm",
+  "PersonId": 509,
+  "PersonFullName": "Remington Hassan Orn III",
+  "ShipmentType": "corrupti",
+  "MessageId": 77,
+  "MessageSubject": "neque",
+  "DocumentMessageId": 361,
+  "Opened": "1999-05-14T14:28:22.1022648+02:00",
+  "LinkClicks": 148,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 376
     }
   }
 }

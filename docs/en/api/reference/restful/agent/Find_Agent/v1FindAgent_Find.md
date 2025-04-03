@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Thiel LLC",
-  "StorageKey": "aliquam",
-  "PageSize": 486,
-  "PageNumber": 960
+  "StorageType": "alias",
+  "ProviderName": "Schamberger-O'Kon",
+  "StorageKey": "sunt",
+  "PageSize": 369,
+  "PageNumber": 799
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Altenwerth, Kshlerin and Schamberger",
-      "DisplayTooltip": "aut",
-      "DisplayType": "quo",
+      "DisplayName": "Pfeffer Group",
+      "DisplayTooltip": "omnis",
+      "DisplayType": "quod",
       "CanOrderBy": false,
-      "Name": "Schuppe Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "saepe",
-      "RestrictionListName": "Johnson-Rath",
-      "IsVisible": true,
-      "ExtraInfo": "amet",
-      "Width": "corporis",
-      "IconHint": "qui",
-      "HeadingIconHint": "et"
+      "Name": "Tillman LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "deserunt",
+      "RestrictionListName": "Bauch-Bosco",
+      "IsVisible": false,
+      "ExtraInfo": "rerum",
+      "Width": "ab",
+      "IconHint": "maxime",
+      "HeadingIconHint": "maiores"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Sawayn-Medhurst",
-      "PrimaryKey": 236,
+      "EntityName": "Pfannerstill, Kautzer and Olson",
+      "PrimaryKey": 939,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "distinctio",
-          "TooltipHint": "ea",
-          "LinkHint": "illo"
+          "DisplayValue": "impedit",
+          "TooltipHint": "quas",
+          "LinkHint": "atque"
         }
       },
-      "LinkHint": "sunt",
-      "StyleHint": "et",
+      "LinkHint": "autem",
+      "StyleHint": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 766
+          "FieldType": "System.String",
+          "FieldLength": 714
         }
       }
     }
   ],
-  "RowCount": 634,
+  "RowCount": 199,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldLength": 737
     }
   }
 }

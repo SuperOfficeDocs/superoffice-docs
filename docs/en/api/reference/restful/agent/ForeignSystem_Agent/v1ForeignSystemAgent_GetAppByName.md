@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetAppByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rolfson, Farrell and Zulauf"
+  "ApplicationName": "Brekke Inc and Sons"
 }
 ```
 
@@ -94,29 +94,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 67,
-  "Name": "Roob Inc and Sons",
-  "CreatedDate": "2000-07-17T02:38:21.4482803+02:00",
-  "UpdatedDate": "2003-07-10T02:38:21.4482803+02:00",
+  "ForeignAppId": 565,
+  "Name": "Bashirian-Keeling",
+  "CreatedDate": "2015-08-22T14:28:22.0085182+02:00",
+  "UpdatedDate": "2021-06-02T14:28:22.0085182+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 496,
-      "Name": "Christiansen, Wunsch and Willms",
-      "CreatedDate": "2016-07-24T02:38:21.4482803+02:00",
-      "UpdatedDate": "2012-06-21T02:38:21.4482803+02:00",
-      "AssociateFullName": "Orville Bogisich",
-      "CreatedBy": "quod",
-      "UpdatedBy": "alias",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 44,
+      "ForeignDeviceId": 8,
+      "Name": "Blick, Keebler and Okuneva",
+      "CreatedDate": "2000-04-30T14:28:22.0085182+02:00",
+      "UpdatedDate": "1999-04-28T14:28:22.0085182+02:00",
+      "AssociateFullName": "Erika Windler",
+      "CreatedBy": "omnis",
+      "UpdatedBy": "omnis",
+      "DeviceIdentifier": "totam",
+      "ForeignAppId": 415,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 129
+          "FieldLength": 918
         }
       }
     }
@@ -125,8 +125,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 751
+      "FieldType": "System.String",
+      "FieldLength": 910
     }
   }
 }

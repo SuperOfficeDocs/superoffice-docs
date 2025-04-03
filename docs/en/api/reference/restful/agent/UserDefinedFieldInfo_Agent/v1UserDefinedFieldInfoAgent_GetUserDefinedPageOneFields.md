@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 172
+  "UserGroupId": 667
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 254,
-    "ColumnId": 90,
-    "FieldDefault": "sint",
-    "FieldHeight": 360,
-    "FieldLabel": "hic",
-    "FieldLeft": 717,
-    "FieldTop": 596,
+    "UDefFieldId": 238,
+    "ColumnId": 483,
+    "FieldDefault": "dolor",
+    "FieldHeight": 564,
+    "FieldLabel": "sed",
+    "FieldLeft": 496,
+    "FieldTop": 278,
     "FieldType": "Checkbox",
-    "FieldWidth": 962,
-    "FormatMask": "in",
-    "HideLabel": false,
+    "FieldWidth": 1001,
+    "FormatMask": "eos",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 919,
-    "LabelLeft": 786,
-    "LabelTop": 974,
-    "LabelWidth": 832,
-    "LastVersionId": 491,
-    "ListTableId": 148,
+    "LabelHeight": 495,
+    "LabelLeft": 494,
+    "LabelTop": 13,
+    "LabelWidth": 528,
+    "LastVersionId": 70,
+    "ListTableId": 562,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 395,
-    "ProgId": "saepe",
+    "Page1LineNo": 518,
+    "ProgId": "eum",
     "IsReadOnly": false,
-    "ShortLabel": "vitae",
-    "TabOrder": 210,
-    "TextLength": 752,
-    "Tooltip": "eos",
-    "UdefIdentity": 885,
-    "UDListDefinitionId": 597,
+    "ShortLabel": "quidem",
+    "TabOrder": 435,
+    "TextLength": 558,
+    "Tooltip": "saepe",
+    "UdefIdentity": 992,
+    "UDListDefinitionId": 456,
     "Justification": "Center",
-    "Version": 450,
-    "TemplateVariableName": "Stoltenberg LLC",
-    "HasBeenPublished": false,
-    "MdoListName": "Beatty-Hirthe",
+    "Version": 686,
+    "TemplateVariableName": "Ward-Turcotte",
+    "HasBeenPublished": true,
+    "MdoListName": "Schowalter-Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldLength": 219
       }
     }
   }

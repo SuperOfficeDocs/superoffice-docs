@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 200,
-  "ERPQuoteAlternativeKey": "quia",
-  "QuoteVersionId": 83,
-  "Name": "Rodriguez, Sauer and Lang",
-  "Description": "Synchronised zero tolerance focus group",
+  "QuoteAlternativeId": 365,
+  "ERPQuoteAlternativeKey": "cupiditate",
+  "QuoteVersionId": 764,
+  "Name": "Hermiston, Schamberger and Rowe",
+  "Description": "Stand-alone 4th generation infrastructure",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 18133.324,
-  "ERPDiscountAmount": 2478.994,
-  "DiscountPercent": 2193.7999999999997,
-  "DiscountAmount": 689.48,
+  "ERPDiscountPercent": 23326.362,
+  "ERPDiscountAmount": 19882.095999999998,
+  "DiscountPercent": 25463.75,
+  "DiscountAmount": 4368.796,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "voluptate",
-  "VAT": 19314.842,
-  "EarningPercent": 26745.556,
-  "EarningAmount": 26504.237999999998,
-  "SubTotal": 13554.55,
-  "TotalPrice": 6669.152,
-  "ExtraField1": "illo",
-  "ExtraField2": "beatae",
-  "ExtraField3": "quo",
-  "ExtraField4": "voluptatem",
-  "ExtraField5": "facere",
+  "VATInfo": "rerum",
+  "VAT": 19471.541999999998,
+  "EarningPercent": 4212.096,
+  "EarningAmount": 16513.046,
+  "SubTotal": 1729.9679999999998,
+  "TotalPrice": 16133.832,
+  "ExtraField1": "officiis",
+  "ExtraField2": "consectetur",
+  "ExtraField3": "et",
+  "ExtraField4": "quaerat",
+  "ExtraField5": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 245
+      "FieldLength": 987
     }
   }
 }

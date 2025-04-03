@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "vel",
-  "AssociateId": 247,
-  "IsPerson": true,
-  "PersonId": 651,
-  "CountryId": 353,
-  "HomeCountryId": 503,
-  "ContactId": 487,
-  "GroupId": 500,
-  "BusinessId": 935,
-  "CategoryId": 108,
-  "ContactOwner": 106,
-  "RoleId": 186,
-  "RoleName": "Friesen-Bradtke",
-  "RoleDescription": "Public-key discrete middleware",
+  "Associate": "beatae",
+  "AssociateId": 692,
+  "IsPerson": false,
+  "PersonId": 404,
+  "CountryId": 643,
+  "HomeCountryId": 669,
+  "ContactId": 965,
+  "GroupId": 631,
+  "BusinessId": 261,
+  "CategoryId": 446,
+  "ContactOwner": 341,
+  "RoleId": 263,
+  "RoleName": "Schowalter Inc and Sons",
+  "RoleDescription": "Persistent client-server utilisation",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 902,
-      "OwnerName": "Hartmann-Cronin",
-      "OwnerDescription": "Re-contextualized grid-enabled encoding",
-      "ModuleId": 182,
-      "Name": "Mann, Bechtelar and Torp",
-      "Description": "Grass-roots analyzing secured line",
-      "Version": "voluptate",
+      "OwnerId": 369,
+      "OwnerName": "Effertz LLC",
+      "OwnerDescription": "Reverse-engineered impactful database",
+      "ModuleId": 450,
+      "Name": "Kemmer-Collins",
+      "Description": "Programmable real-time structure",
+      "Version": "sed",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 35,
-      "ExtraInfo": "possimus",
-      "SortOrder": 666,
-      "LicenseNumber": 299,
+      "ExtraFlags": 385,
+      "ExtraInfo": "minus",
+      "SortOrder": 712,
+      "LicenseNumber": 574,
       "IsHidden": false,
-      "IsUnrestricted": true,
-      "ExpiryDate": "2015-09-29T02:38:26.6362041+02:00",
+      "IsUnrestricted": false,
+      "ExpiryDate": "1998-05-09T14:28:27.4457991+02:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldType": "System.String",
+          "FieldLength": 366
         }
       }
     }
   ],
-  "FullName": "Antonette Prosacco",
-  "EMailAddress": "velit",
+  "FullName": "Elouise Ankunding",
+  "EMailAddress": "qui",
   "FunctionRights": [
-    "ut",
-    "sint"
+    "dolorem",
+    "commodi"
   ],
-  "EjUserId": 481,
-  "EjAccessLevel": 656,
+  "EjUserId": 441,
+  "EjAccessLevel": 921,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "consectetur",
-      "SearchName": "Crist, Luettgen and Heidenreich",
-      "DisplayName": "Weissnat-McDermott",
-      "CredentialId": 71
+      "Type": "iste",
+      "SearchName": "Hammes, Koss and Koss",
+      "DisplayName": "Oberbrunner-Cole",
+      "CredentialId": 283
     },
     {
-      "Type": "consectetur",
-      "SearchName": "Crist, Luettgen and Heidenreich",
-      "DisplayName": "Weissnat-McDermott",
-      "CredentialId": 71
+      "Type": "iste",
+      "SearchName": "Hammes, Koss and Koss",
+      "DisplayName": "Oberbrunner-Cole",
+      "CredentialId": 283
     }
   ],
   "SecondaryGroups": [
-    342,
-    153
+    112,
+    272
   ],
-  "DatabaseContextIdentifier": "corrupti",
-  "UserName": "Skiles, Lehner and Ankunding"
+  "DatabaseContextIdentifier": "id",
+  "UserName": "Skiles, Tremblay and Fadel"
 }
 ```

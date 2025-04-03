@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "reiciendis",
-    "Type": "adipisci",
-    "Description": "Virtual value-added website",
+    "DisplayType": "sit",
+    "Type": "blanditiis",
+    "Description": "Upgradable maximized parallelism",
     "ValueControl": "Edit",
     "CanCreatePerson": true,
-    "IsUserNameSupported": false,
+    "IsUserNameSupported": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldLength": 665
       }
     }
   }

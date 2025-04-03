@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 520,
-  "Name": "Runolfsson, Windler and Hartmann",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 703,
-  "UdListDefinitionId": 148
+  "HeadingId": 901,
+  "Name": "Okuneva Group",
+  "Tooltip": "porro",
+  "Deleted": false,
+  "Rank": 126,
+  "UdListDefinitionId": 684
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 362,
-  "Name": "Cronin, Rutherford and Sawayn",
-  "Tooltip": "exercitationem",
+  "HeadingId": 496,
+  "Name": "Leannon, Halvorson and Sporer",
+  "Tooltip": "modi",
   "Deleted": false,
-  "Rank": 125,
-  "UdListDefinitionId": 63,
+  "Rank": 42,
+  "UdListDefinitionId": 894,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 281
+      "FieldLength": 673
     }
   }
 }

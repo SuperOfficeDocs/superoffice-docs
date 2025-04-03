@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 769,
-  "Name": "Donnelly Inc and Sons",
-  "Tooltip": "quis",
+  "HeadingId": 635,
+  "Name": "Kuhlman Inc and Sons",
+  "Tooltip": "expedita",
   "Deleted": true,
-  "Rank": 499,
-  "UdListDefinitionId": 702
+  "Rank": 999,
+  "UdListDefinitionId": 213
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 818,
-  "Name": "Berge, Kozey and Senger",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "Rank": 205,
-  "UdListDefinitionId": 879,
+  "HeadingId": 737,
+  "Name": "Sanford LLC",
+  "Tooltip": "mollitia",
+  "Deleted": true,
+  "Rank": 412,
+  "UdListDefinitionId": 334,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldType": "System.String",
+      "FieldLength": 441
     }
   }
 }

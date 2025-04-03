@@ -86,16 +86,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptatem",
-  "ProviderName": "Halvorson-Murray",
-  "StorageKey": "numquam",
+  "StorageType": "labore",
+  "ProviderName": "McGlynn-Toy",
+  "StorageKey": "repellat",
   "DesiredColumnNames": [
-    "Ullrich, Kunze and Jewess",
-    "Stehr Inc and Sons"
+    "Heller-Hane",
+    "Gerlach-Hegmann"
   ],
   "StaticColumns": [
-    "autem",
-    "vitae"
+    "ut",
+    "aut"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hills-Hegmann",
-      "Operator": "voluptate",
+      "Name": "Kulas, Stanton and Zieme",
+      "Operator": "magnam",
       "Values": [
-        "et",
-        "nostrum"
+        "consectetur",
+        "architecto"
       ],
       "DisplayValues": [
-        "similique",
-        "excepturi"
+        "nemo",
+        "quasi"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 225,
+      "InterParenthesis": 287,
       "InterOperator": "And",
-      "UniqueHash": 147
+      "UniqueHash": 403
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Reinger-Ebert",
-      "DisplayTooltip": "fugiat",
-      "DisplayType": "aut",
-      "CanOrderBy": true,
-      "Name": "Mertz, Kuhlman and Balistreri",
-      "CanRestrictBy": false,
-      "RestrictionType": "perferendis",
-      "RestrictionListName": "Zieme LLC",
+      "DisplayName": "Heller-Hand",
+      "DisplayTooltip": "qui",
+      "DisplayType": "fuga",
+      "CanOrderBy": false,
+      "Name": "Sipes-Howell",
+      "CanRestrictBy": true,
+      "RestrictionType": "cupiditate",
+      "RestrictionListName": "Corwin-Padberg",
       "IsVisible": false,
-      "ExtraInfo": "dolor",
-      "Width": "quos",
-      "IconHint": "facere",
-      "HeadingIconHint": "sunt"
+      "ExtraInfo": "omnis",
+      "Width": "reiciendis",
+      "IconHint": "magnam",
+      "HeadingIconHint": "sequi"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Gerlach Inc and Sons",
-      "PrimaryKey": 706,
+      "EntityName": "Bruen Inc and Sons",
+      "PrimaryKey": 188,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "similique",
+          "DisplayValue": "molestiae",
           "TooltipHint": "eos",
-          "LinkHint": "nulla"
+          "LinkHint": "quibusdam"
         }
       },
-      "LinkHint": "magnam",
-      "StyleHint": "quaerat",
+      "LinkHint": "magni",
+      "StyleHint": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 751
+          "FieldLength": 594
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Luettgen-Mante",
-      "Description": "Reduced transitional support",
-      "Rank": 940,
+      "Name": "VonRueden, Franecki and Bernier",
+      "Description": "Reverse-engineered bi-directional array",
+      "Rank": 343,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Luettgen-Mante",
-      "Description": "Reduced transitional support",
-      "Rank": 940,
+      "Name": "VonRueden, Franecki and Bernier",
+      "Description": "Reverse-engineered bi-directional array",
+      "Rank": 343,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldLength": 308
     }
   }
 }

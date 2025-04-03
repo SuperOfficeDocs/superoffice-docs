@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 534
+  "ErpSyncConnectionId": 140
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Lynch, Littel and Murazik",
-  "DisplayDescription": "Implemented non-volatile project",
-  "Active": false,
+  "DisplayName": "Kessler Inc and Sons",
+  "DisplayDescription": "Robust intangible workforce",
+  "Active": true,
   "Deleted": false,
-  "LastSync": "2003-12-30T02:38:21.4170353+01:00",
+  "LastSync": "2013-07-19T14:28:21.9772696+02:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "earum",
-      "Mappings": "dolorem",
+      "HasMappings": false,
+      "Defaults": "velit",
+      "Mappings": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 879
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": true,
-      "Defaults": "earum",
-      "Mappings": "dolorem",
+      "HasMappings": false,
+      "Defaults": "velit",
+      "Mappings": "earum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 879
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 765
+      "FieldLength": 574
     }
   }
 }

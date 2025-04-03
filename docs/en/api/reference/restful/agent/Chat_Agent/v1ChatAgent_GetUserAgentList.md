@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 615,
-    "Name": "Littel Group",
-    "ToolTip": "Perspiciatis commodi aut aut nostrum cumque.",
-    "Deleted": false,
-    "Rank": 745,
-    "Type": "deserunt",
+    "Id": 603,
+    "Name": "Shanahan, Mante and Wolff",
+    "ToolTip": "Consequuntur cumque quo dolor aliquam et laborum numquam.",
+    "Deleted": true,
+    "Rank": 878,
+    "Type": "voluptate",
     "ChildItems": [
       {
-        "Id": 976,
-        "Name": "Hermiston Inc and Sons",
-        "ToolTip": "Maxime ullam nesciunt saepe qui dolorem quas voluptas.",
-        "Deleted": true,
-        "Rank": 128,
-        "Type": "tempora",
+        "Id": 710,
+        "Name": "Okuneva, Walsh and Shanahan",
+        "ToolTip": "Explicabo non expedita id iure maiores.",
+        "Deleted": false,
+        "Rank": 753,
+        "Type": "ratione",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quos",
-        "ColorBlock": 824,
-        "ExtraInfo": "sint",
-        "StyleHint": "voluptatum",
-        "FullName": "Mr. Drake Schaefer",
+        "IconHint": "natus",
+        "ColorBlock": 236,
+        "ExtraInfo": "illum",
+        "StyleHint": "aperiam",
+        "FullName": "Miss Skylar Jarrett Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 888
+            "FieldLength": 699
           }
         }
       }
     ],
-    "IconHint": "ipsa",
-    "ColorBlock": 819,
-    "ExtraInfo": "quo",
-    "StyleHint": "rerum",
-    "FullName": "Prof. Deja Christy Schaden",
+    "IconHint": "at",
+    "ColorBlock": 652,
+    "ExtraInfo": "qui",
+    "StyleHint": "corporis",
+    "FullName": "Alyce Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldLength": 653
       }
     }
   }

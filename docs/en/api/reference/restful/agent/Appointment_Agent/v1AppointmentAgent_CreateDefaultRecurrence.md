@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 742,
-  "StartDate": "2023-12-01T02:38:20.7452374+01:00",
-  "EndDate": "1998-09-07T02:38:20.7452374+02:00",
-  "RecurrenceCounter": 929,
+  "RecurrenceId": 661,
+  "StartDate": "2000-03-02T14:28:21.3522957+01:00",
+  "EndDate": "2004-03-30T14:28:21.3522957+02:00",
+  "RecurrenceCounter": 590,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2011-02-15T02:38:20.7452374+01:00",
-      "IsConflict": false,
-      "Description": "Down-sized static installation",
-      "DescriptionStyleHint": "Versatile solution-oriented architecture",
-      "Tooltip": "odio"
+      "Date": "1999-08-15T14:28:21.3522957+02:00",
+      "IsConflict": true,
+      "Description": "Customer-focused national Graphical User Interface",
+      "DescriptionStyleHint": "Multi-layered uniform hub",
+      "Tooltip": "maxime"
     },
     {
-      "Date": "2011-02-15T02:38:20.7452374+01:00",
-      "IsConflict": false,
-      "Description": "Down-sized static installation",
-      "DescriptionStyleHint": "Versatile solution-oriented architecture",
-      "Tooltip": "odio"
+      "Date": "1999-08-15T14:28:21.3522957+02:00",
+      "IsConflict": true,
+      "Description": "Customer-focused national Graphical User Interface",
+      "DescriptionStyleHint": "Multi-layered uniform hub",
+      "Tooltip": "maxime"
     }
   ],
   "IsRecurrence": false

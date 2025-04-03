@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,148 +97,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 981,
-      "ContactName": "Kris, Volkman and Will",
-      "PersonId": 493,
-      "PersonName": "Farrell-Bins",
-      "AssociateId": 528,
-      "Address": "eveniet",
-      "EmailId": 756,
+      "ContactId": 147,
+      "ContactName": "Herzog, Jacobs and Hackett",
+      "PersonId": 355,
+      "PersonName": "Lindgren-Heller",
+      "AssociateId": 768,
+      "Address": "adipisci",
+      "EmailId": 889,
       "DuplicatePersonIds": [
-        514,
-        289
+        998,
+        390
       ],
-      "Name": "Parker, Rodriguez and Brakus",
+      "Name": "Kuhlman-Hoppe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 524
+          "FieldType": "System.Int32",
+          "FieldLength": 621
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 395,
-      "ContactName": "Kohler, Nienow and Kerluke",
-      "PersonId": 342,
-      "PersonName": "Corwin, Daniel and Witting",
-      "AssociateId": 349,
-      "Address": "sit",
-      "EmailId": 672,
+      "ContactId": 815,
+      "ContactName": "Beahan, Streich and Jacobs",
+      "PersonId": 749,
+      "PersonName": "Kunze-Torphy",
+      "AssociateId": 538,
+      "Address": "sunt",
+      "EmailId": 315,
       "DuplicatePersonIds": [
-        730,
-        805
+        900,
+        3
       ],
-      "Name": "Kutch-Rippin",
+      "Name": "Sauer Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldLength": 450
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 876,
-      "ContactName": "Bosco Group",
-      "PersonId": 967,
-      "PersonName": "Green-Bashirian",
-      "AssociateId": 919,
-      "Address": "voluptatem",
-      "EmailId": 297,
+      "ContactId": 984,
+      "ContactName": "Corkery Group",
+      "PersonId": 764,
+      "PersonName": "Ratke, Littel and Prosacco",
+      "AssociateId": 717,
+      "Address": "suscipit",
+      "EmailId": 844,
       "DuplicatePersonIds": [
-        939,
-        237
+        371,
+        356
       ],
-      "Name": "Heaney-Steuber",
+      "Name": "Bins LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldLength": 856
         }
       }
     }
   ],
-  "Subject": "molestiae",
+  "Subject": "sed",
   "HTMLBody": "ea",
   "From": null,
-  "Sent": "2022-05-16T02:38:21.3701735+02:00",
-  "Size": 379,
+  "Sent": "2022-07-22T14:28:21.9303967+02:00",
+  "Size": 182,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "repudiandae",
-  "PlainBody": "repellendus",
+  "MessageID": "pariatur",
+  "PlainBody": "quod",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 308,
+  "ServerId": 885,
   "Attachments": [
     {
-      "Description": "Fundamental motivating project",
-      "Filename": "dolorum",
-      "Size": 647,
-      "Type": "animi",
-      "Encoding": "quis",
-      "Id": "a",
-      "Disposition": "dolorem",
-      "IsSafeFileExtension": false,
+      "Description": "Re-contextualized 3rd generation time-frame",
+      "Filename": "minima",
+      "Size": 399,
+      "Type": "nostrum",
+      "Encoding": "impedit",
+      "Id": "nisi",
+      "Disposition": "earum",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldType": "System.String",
+          "FieldLength": 559
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Brekke, Durgan and Brown",
+      "Name": "Langosh-Ullrich",
       "Values": [
-        "voluptatem",
-        "aut"
+        "iure",
+        "fugit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 700
+          "FieldType": "System.Int32",
+          "FieldLength": 213
         }
       }
     },
     {
-      "Name": "Brekke, Durgan and Brown",
+      "Name": "Langosh-Ullrich",
       "Values": [
-        "voluptatem",
-        "aut"
+        "iure",
+        "fugit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 700
+          "FieldType": "System.Int32",
+          "FieldLength": 213
         }
       }
     }
   ],
-  "FolderName": "Friesen-Ziemann",
-  "EmailItemId": 59,
-  "AccountId": 628,
-  "ReceivedAt": "2004-11-01T02:38:21.3701735+01:00",
+  "FolderName": "Beahan, Cartwright and McLaughlin",
+  "EmailItemId": 673,
+  "AccountId": 41,
+  "ReceivedAt": "2010-10-01T14:28:21.9303967+02:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-12-31T02:38:21.3701735+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2014-02-21T14:28:21.9303967+01:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -246,7 +246,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 515
+      "FieldLength": 174
     }
   }
 }

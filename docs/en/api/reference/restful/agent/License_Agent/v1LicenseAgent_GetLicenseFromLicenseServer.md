@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Balistreri Inc and Sons"
+  "OwnerName": "Lemke-Kirlin"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": true,
+  "CanBeActivated": false,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 647,
-      "NumberOfLicensesFree": 976,
-      "NumberOfLicensesAdded": 258,
-      "NumberOfLicensesNewTotal": 656,
-      "NumberOfLicensesNewFree": 640,
-      "NumberOfLicensesTotal": 92
+      "NumberOfLicensesInUse": 174,
+      "NumberOfLicensesFree": 561,
+      "NumberOfLicensesAdded": 765,
+      "NumberOfLicensesNewTotal": 59,
+      "NumberOfLicensesNewFree": 164,
+      "NumberOfLicensesTotal": 49
     }
   ],
-  "AccumulatedNextCheckDate": "2008-01-25T02:38:21.4639053+01:00"
+  "AccumulatedNextCheckDate": "2021-07-25T14:28:22.0241429+02:00"
 }
 ```

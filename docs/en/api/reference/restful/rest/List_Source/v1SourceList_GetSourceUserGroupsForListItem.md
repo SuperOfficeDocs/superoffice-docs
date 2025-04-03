@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 878,
-    "Name": "Rau Group",
-    "ToolTip": "Non qui ipsa qui culpa quo aliquid aut.",
+    "Id": 433,
+    "Name": "Friesen-Toy",
+    "ToolTip": "Itaque eius aut ab ipsam quisquam ipsa iste.",
     "Deleted": true,
-    "Rank": 196,
-    "Type": "veniam",
-    "ColorBlock": 741,
-    "IconHint": "quaerat",
-    "Selected": true,
-    "LastChanged": "2000-08-07T02:38:26.948622+02:00",
+    "Rank": 472,
+    "Type": "vero",
+    "ColorBlock": 340,
+    "IconHint": "molestias",
+    "Selected": false,
+    "LastChanged": "2021-10-31T14:28:27.7114135+01:00",
     "ChildItems": [
       {
-        "Id": 918,
-        "Name": "Weber LLC",
-        "ToolTip": "Enim natus.",
+        "Id": 365,
+        "Name": "Crooks-Emard",
+        "ToolTip": "Cum ad.",
         "Deleted": true,
-        "Rank": 20,
-        "Type": "dicta",
-        "ColorBlock": 290,
-        "IconHint": "eum",
-        "Selected": true,
-        "LastChanged": "2019-03-06T02:38:26.948622+01:00",
+        "Rank": 418,
+        "Type": "qui",
+        "ColorBlock": 379,
+        "IconHint": "harum",
+        "Selected": false,
+        "LastChanged": "2012-11-20T14:28:27.7114135+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "dolor",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "nesciunt",
         "Hidden": false,
-        "FullName": "Brett Stracke",
+        "FullName": "Jaquan Hahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 699
+            "FieldType": "System.String",
+            "FieldLength": 695
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "fuga",
-    "Hidden": true,
-    "FullName": "Treva Franz Schumm II",
+    "ExtraInfo": "dolor",
+    "StyleHint": "quia",
+    "Hidden": false,
+    "FullName": "Juliet Kovacek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldLength": 843
       }
     }
   }

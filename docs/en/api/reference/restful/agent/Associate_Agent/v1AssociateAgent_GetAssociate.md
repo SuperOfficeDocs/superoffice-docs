@@ -26,7 +26,7 @@ Gets a Associate object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Associate/GetAssociate?associateId=298
+POST /api/v1/Agents/Associate/GetAssociate?associateId=670
 POST /api/v1/Agents/Associate/GetAssociate?$select=name,department,category/id
 ```
 
@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 284,
-  "Name": "Miller LLC",
-  "PersonId": 236,
-  "Rank": 50,
-  "Tooltip": "repellat",
+  "AssociateId": 673,
+  "Name": "Kuhic Inc and Sons",
+  "PersonId": 102,
+  "Rank": 795,
+  "Tooltip": "asperiores",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 337,
-  "FullName": "Willa Wilkinson I",
-  "FormalName": "Jakubowski Inc and Sons",
-  "Deleted": false,
-  "EjUserId": 137,
-  "UserName": "Wisoky Group",
+  "GroupIdx": 860,
+  "FullName": "Mr. Gracie Verla Prohaska",
+  "FormalName": "Rosenbaum, Roob and Senger",
+  "Deleted": true,
+  "EjUserId": 911,
+  "UserName": "Heathcote-White",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldType": "System.String",
+      "FieldLength": 308
     }
   }
 }

@@ -111,6 +111,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Initialize(SuperOffice.CRM.ArchiveLists.PersonExtenderBase.Features,System.String,System.String)
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.InnerModifyQuery
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropRetiredPersons
   - SuperOffice.CRM.ArchiveLists.TableExtenderBase{SuperOffice.CRM.Data.PersonTableInfo}._ourTable
@@ -1218,6 +1219,13 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
+  commentId: P:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+  isExternal: true
+  name: SupportLanguage
+  nameWithType: PersonExtenderBase.SupportLanguage
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts
   commentId: P:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts
   parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase

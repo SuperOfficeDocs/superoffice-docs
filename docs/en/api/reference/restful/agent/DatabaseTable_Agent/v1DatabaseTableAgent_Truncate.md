@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Larkin-Thiel"
+  "TableName": "Bergnaum-Murray"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "veniam",
-  "Inserts": 951,
-  "Updates": 379,
-  "Deletes": 807,
+  "Message": "molestiae",
+  "Inserts": 764,
+  "Updates": 516,
+  "Deletes": 453,
   "RowStatus": [
     {
-      "PrimaryKey": 955,
+      "PrimaryKey": 531,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nisi",
-        "exercitationem"
+        "incidunt",
+        "quod"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 837
+          "FieldType": "System.Int32",
+          "FieldLength": 693
         }
       }
     },
     {
-      "PrimaryKey": 955,
+      "PrimaryKey": 531,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "nisi",
-        "exercitationem"
+        "incidunt",
+        "quod"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 837
+          "FieldType": "System.Int32",
+          "FieldLength": 693
         }
       }
     }
@@ -139,7 +139,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 890
     }
   }
 }

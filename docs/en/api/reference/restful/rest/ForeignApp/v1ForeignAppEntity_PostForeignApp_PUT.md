@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 452,
-  "Name": "Kling, Nitzsche and Lesch",
-  "CreatedDate": "1998-04-17T02:38:26.1048073+02:00",
-  "UpdatedDate": "2022-09-29T02:38:26.1048073+02:00",
+  "ForeignAppId": 961,
+  "Name": "Tremblay Group",
+  "CreatedDate": "2014-04-09T14:28:26.9301945+02:00",
+  "UpdatedDate": "2012-02-03T14:28:26.9301945+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 106,
-      "Name": "Halvorson-Cole",
-      "CreatedDate": "2018-02-24T02:38:26.1048073+01:00",
-      "UpdatedDate": "2001-06-19T02:38:26.1048073+02:00",
-      "AssociateFullName": "Isaiah Bayer",
-      "CreatedBy": "sed",
-      "UpdatedBy": "explicabo",
-      "DeviceIdentifier": "modi",
-      "ForeignAppId": 557,
+      "ForeignDeviceId": 549,
+      "Name": "Botsford-Mayer",
+      "CreatedDate": "2001-03-01T14:28:26.9301945+01:00",
+      "UpdatedDate": "2019-03-12T14:28:26.9301945+01:00",
+      "AssociateFullName": "Fred Rau",
+      "CreatedBy": "quis",
+      "UpdatedBy": "cumque",
+      "DeviceIdentifier": "ea",
+      "ForeignAppId": 202,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldType": "System.String",
+          "FieldLength": 147
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 293
+      "FieldLength": 672
     }
   }
 }

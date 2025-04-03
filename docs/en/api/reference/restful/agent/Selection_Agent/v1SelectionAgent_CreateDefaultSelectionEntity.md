@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Progressive interactive alliance",
-  "Postit": "animi",
+  "Description": "Synchronised multi-tasking emulation",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 808,
-  "IncludePerson": 731,
+  "GroupIdx": 772,
+  "IncludePerson": 113,
   "MemberCount": 99.99,
-  "Name": "Luettgen Inc and Sons",
-  "PostitTextId": 289,
-  "CreatedDate": "1999-02-18T02:38:21.8701125+01:00",
-  "SelectionId": 804,
-  "SoundEx": "expedita",
-  "Source": 589,
-  "TextId": 679,
-  "UpdatedDate": "2012-05-31T02:38:21.8701125+02:00",
-  "UpdatedCount": 73,
-  "Visibility": 96,
+  "Name": "Greenholt Inc and Sons",
+  "PostitTextId": 462,
+  "CreatedDate": "2005-12-15T14:28:22.3835038+01:00",
+  "SelectionId": 327,
+  "SoundEx": "nulla",
+  "Source": 738,
+  "TextId": 952,
+  "UpdatedDate": "2022-05-22T14:28:22.3835038+02:00",
+  "UpdatedCount": 746,
+  "Visibility": 631,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 309,
-  "TargetTableName": "Veum, Ebert and Bartell",
+  "CompanyUnique": false,
+  "TargetTableNumber": 391,
+  "TargetTableName": "Kunze, Aufderhar and Ledner",
   "Completed": true,
-  "LeftSelectionId": 79,
-  "RightSelectionId": 222,
+  "LeftSelectionId": 873,
+  "RightSelectionId": 528,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Ziemann-Ferry",
-  "ShadowProviderName": "Larkin, Goldner and Orn",
-  "ChartKey": "laudantium",
-  "LastLoaded": "1998-08-15T02:38:21.8701125+02:00",
-  "LastLoadedBy": 126,
+  "MainProviderName": "Wunsch-Brakus",
+  "ShadowProviderName": "Bergnaum-Dicki",
+  "ChartKey": "sunt",
+  "LastLoaded": "2023-04-21T14:28:22.3835038+02:00",
+  "LastLoadedBy": 458,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-11-27T02:38:21.8701125+01:00",
-  "LastMembershipChangeBy": 213,
+  "LastMembershipChange": "2004-05-22T14:28:22.3835038+02:00",
+  "LastMembershipChangeBy": 308,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "incidunt",
-  "MemberTabHeading": "necessitatibus",
-  "MailingsProviderName": "Glover, Casper and Schuppe",
-  "DashboardTileDefinitionId": 836,
+  "MainHeading": "enim",
+  "MemberTabHeading": "atque",
+  "MailingsProviderName": "Johnson-Borer",
+  "DashboardTileDefinitionId": 280,
   "VisibleFor": [
     {
-      "VisibleId": 254,
+      "VisibleId": 62,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 933
+          "FieldType": "System.Int32",
+          "FieldLength": 735
         }
       }
     },
     {
-      "VisibleId": 254,
+      "VisibleId": 62,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 933
+          "FieldType": "System.Int32",
+          "FieldLength": 735
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 499
+      "FieldLength": 177
     }
   }
 }

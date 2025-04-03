@@ -120,8 +120,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 797,
-  "Name": "Rodriguez-Nader"
+  "SelectionId": 651,
+  "Name": "Rutherford Group"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profound asynchronous focus group",
-  "Postit": "dolorum",
+  "Description": "Public-key impactful extranet",
+  "Postit": "quis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 893,
-  "IncludePerson": 217,
+  "GroupIdx": 890,
+  "IncludePerson": 269,
   "MemberCount": 99.99,
-  "Name": "Gibson, Gutkowski and Corkery",
-  "PostitTextId": 753,
-  "CreatedDate": "2014-08-09T02:38:21.9951006+02:00",
-  "SelectionId": 103,
-  "SoundEx": "sed",
-  "Source": 181,
-  "TextId": 842,
-  "UpdatedDate": "2012-07-09T02:38:21.9951006+02:00",
-  "UpdatedCount": 180,
-  "Visibility": 940,
+  "Name": "Bernier-Denesik",
+  "PostitTextId": 438,
+  "CreatedDate": "2015-02-14T14:28:22.4147526+01:00",
+  "SelectionId": 718,
+  "SoundEx": "molestias",
+  "Source": 185,
+  "TextId": 220,
+  "UpdatedDate": "2015-07-18T14:28:22.4147526+02:00",
+  "UpdatedCount": 198,
+  "Visibility": 233,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 55,
-  "TargetTableName": "Torphy Group",
+  "CompanyUnique": false,
+  "TargetTableNumber": 121,
+  "TargetTableName": "Johnston LLC",
   "Completed": false,
-  "LeftSelectionId": 884,
-  "RightSelectionId": 151,
+  "LeftSelectionId": 724,
+  "RightSelectionId": 736,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schaden Inc and Sons",
-  "ShadowProviderName": "Hamill Inc and Sons",
-  "ChartKey": "ipsum",
-  "LastLoaded": "2002-01-09T02:38:21.9951006+01:00",
-  "LastLoadedBy": 759,
+  "MainProviderName": "Armstrong, Beahan and Wisoky",
+  "ShadowProviderName": "Cassin, Von and Shields",
+  "ChartKey": "ipsam",
+  "LastLoaded": "2012-12-21T14:28:22.4147526+01:00",
+  "LastLoadedBy": 702,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2022-12-26T02:38:21.9951006+01:00",
-  "LastMembershipChangeBy": 588,
+  "LastMembershipChange": "2014-02-07T14:28:22.4147526+01:00",
+  "LastMembershipChangeBy": 304,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "veniam",
-  "MemberTabHeading": "voluptates",
-  "MailingsProviderName": "Reinger, Murray and Huel",
-  "DashboardTileDefinitionId": 514,
+  "MainHeading": "deserunt",
+  "MemberTabHeading": "iste",
+  "MailingsProviderName": "Willms LLC",
+  "DashboardTileDefinitionId": 840,
   "VisibleFor": [
     {
-      "VisibleId": 635,
+      "VisibleId": 248,
       "Visibility": "All",
-      "DisplayValue": "atque",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 123
+          "FieldLength": 412
         }
       }
     },
     {
-      "VisibleId": 635,
+      "VisibleId": 248,
       "Visibility": "All",
-      "DisplayValue": "atque",
+      "DisplayValue": "optio",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 123
+          "FieldLength": 412
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 734
+      "FieldLength": 470
     }
   }
 }

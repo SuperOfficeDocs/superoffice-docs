@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Contact/{contactId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 723,
-  "BlobSize": 40,
-  "Description": "Universal user-facing projection",
-  "ExtraInfo": "aut",
+  "BlobId": 368,
+  "BlobSize": 104,
+  "Description": "Right-sized hybrid array",
+  "ExtraInfo": "iure",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "culpa",
-  "OriginalSize": 141,
-  "CreatedDate": "2012-05-18T02:38:25.9485792+02:00",
-  "UpdatedDate": "2000-05-11T02:38:25.9485792+02:00",
+  "MimeType": "accusantium",
+  "OriginalSize": 9,
+  "CreatedDate": "2018-07-20T14:28:26.8051995+02:00",
+  "UpdatedDate": "2005-09-01T14:28:26.8051995+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ipsa"
+  "ConceptualType": "voluptatibus"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 326,
-  "BlobSize": 167,
-  "Description": "Assimilated modular utilisation",
-  "ExtraInfo": "atque",
-  "IsEncrypted": false,
+  "BlobId": 204,
+  "BlobSize": 327,
+  "Description": "Multi-lateral multi-tasking monitoring",
+  "ExtraInfo": "esse",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "sed",
-  "OriginalSize": 643,
-  "CreatedDate": "2007-05-13T02:38:25.9485792+02:00",
-  "UpdatedDate": "2008-05-21T02:38:25.9485792+02:00",
+  "MimeType": "provident",
+  "OriginalSize": 685,
+  "CreatedDate": "2006-06-16T14:28:26.8051995+02:00",
+  "UpdatedDate": "1998-06-13T14:28:26.8051995+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "aut",
+  "ConceptualType": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 618
+      "FieldLength": 488
     }
   }
 }

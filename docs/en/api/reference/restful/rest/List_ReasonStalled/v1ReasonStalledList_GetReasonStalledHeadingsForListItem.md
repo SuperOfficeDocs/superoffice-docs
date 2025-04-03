@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Wolf Inc and Sons",
-    "ToolTip": "Rem et voluptatem sequi.",
-    "Deleted": false,
-    "Rank": 333,
-    "Type": "temporibus",
-    "ColorBlock": 554,
-    "IconHint": "harum",
-    "Selected": true,
-    "LastChanged": "2012-02-02T02:38:26.9173771+01:00",
+    "Id": 234,
+    "Name": "Stiedemann, Gleichner and Kuhn",
+    "ToolTip": "Corrupti placeat.",
+    "Deleted": true,
+    "Rank": 923,
+    "Type": "architecto",
+    "ColorBlock": 202,
+    "IconHint": "distinctio",
+    "Selected": false,
+    "LastChanged": "2012-09-24T14:28:27.6957886+02:00",
     "ChildItems": [
       {
-        "Id": 534,
-        "Name": "Schinner Group",
-        "ToolTip": "Nisi soluta ad facere quod earum.",
+        "Id": 995,
+        "Name": "Terry-Weissnat",
+        "ToolTip": "Dolore vitae mollitia a.",
         "Deleted": false,
-        "Rank": 847,
-        "Type": "autem",
-        "ColorBlock": 377,
-        "IconHint": "laborum",
-        "Selected": true,
-        "LastChanged": "2018-03-24T02:38:26.9173771+01:00",
+        "Rank": 623,
+        "Type": "odio",
+        "ColorBlock": 838,
+        "IconHint": "non",
+        "Selected": false,
+        "LastChanged": "2024-09-25T14:28:27.6957886+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "itaque",
-        "Hidden": true,
-        "FullName": "Jewel Shields",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "soluta",
+        "Hidden": false,
+        "FullName": "Joany Pagac",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 516
+            "FieldLength": 228
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "neque",
-    "Hidden": true,
-    "FullName": "Twila Catherine Stracke MD",
+    "ExtraInfo": "est",
+    "StyleHint": "atque",
+    "Hidden": false,
+    "FullName": "Terrell O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 267
+        "FieldLength": 169
       }
     }
   }

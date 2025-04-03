@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Dash/GetPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 713
+  "DashboardId": 302
 }
 ```
 
@@ -93,33 +93,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 69,
-  "Name": "Beatty Group",
-  "Description": "Inverse upward-trending parallelism",
-  "OwnedByFullName": "Rudy Skiles",
-  "Registered": "2005-04-03T02:38:21.1983079+02:00",
+  "DashboardId": 74,
+  "Name": "Grimes-Daniel",
+  "Description": "Distributed logistical adapter",
+  "OwnedByFullName": "Billy Rolfson",
+  "Registered": "2002-04-16T14:28:21.6960311+02:00",
   "Tiles": [
     {
-      "Name": "Kuvalis, Hirthe and Morar",
+      "Name": "Hand-Olson",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 436
+          "FieldLength": 21
         }
       }
     },
     {
-      "Name": "Kuvalis, Hirthe and Morar",
+      "Name": "Hand-Olson",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 436
+          "FieldLength": 21
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldType": "System.String",
+      "FieldLength": 717
     }
   }
 }

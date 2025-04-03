@@ -67,36 +67,36 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Ritchie LLC",
+  "ProviderName": "Jerde, Bernier and Shanahan",
   "Restrictions": [
     {
-      "Name": "Huels-Leannon",
-      "Operator": "vero",
+      "Name": "Terry-Stehr",
+      "Operator": "voluptas",
       "Values": [
-        "consequatur",
-        "quo"
+        "sit",
+        "et"
       ],
       "DisplayValues": [
-        "ex",
-        "nesciunt"
+        "voluptatem",
+        "hic"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 466,
+      "InterParenthesis": 508,
       "InterOperator": "And",
-      "UniqueHash": 236
+      "UniqueHash": 518
     }
   ],
-  "AssociateId": 88,
-  "ExtraInfo": "molestiae"
+  "AssociateId": 985,
+  "ExtraInfo": "ducimus"
 }
 ```
 

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 602,
-  "Name": "Bradtke Inc and Sons",
-  "Tooltip": "excepturi",
+  "HeadingId": 754,
+  "Name": "Lang-Romaguera",
+  "Tooltip": "beatae",
   "Deleted": false,
-  "Rank": 446,
-  "UdListDefinitionId": 336
+  "Rank": 503,
+  "UdListDefinitionId": 439
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 366,
-  "Name": "Kuphal Group",
-  "Tooltip": "eveniet",
-  "Deleted": true,
-  "Rank": 560,
-  "UdListDefinitionId": 84,
+  "HeadingId": 323,
+  "Name": "Balistreri, Moen and O'Kon",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "Rank": 75,
+  "UdListDefinitionId": 206,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 630
+      "FieldType": "System.Int32",
+      "FieldLength": 74
     }
   }
 }

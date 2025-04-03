@@ -114,6 +114,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,10 +133,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 959,
-  "StartTime": "2007-02-03T02:38:20.5732257+01:00",
-  "EndTime": "2015-10-05T02:38:20.5732257+02:00",
-  "Count": 387
+  "AssociateId": 522,
+  "StartTime": "2012-07-08T14:28:21.1648024+02:00",
+  "EndTime": "2017-04-20T14:28:21.1648024+02:00",
+  "Count": 325
 }
 ```
 
@@ -147,65 +148,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 677,
-    "StartDate": "2009-10-10T02:38:20.5732257+02:00",
-    "EndDate": "2004-01-16T02:38:20.5732257+01:00",
+    "AppointmentId": 601,
+    "StartDate": "2003-02-19T14:28:21.1648024+01:00",
+    "EndDate": "2017-06-10T14:28:21.1648024+02:00",
     "Type": "BookingForChecklist",
-    "Task": "reprehenderit",
-    "AssociateFullName": "Mohammed O'Conner MD",
-    "ContactName": "Reynolds, Ritchie and Barrows",
-    "Description": "Decentralized value-added open architecture",
-    "PersonFullName": "Ms. Letha Daija Wiza",
-    "PersonId": 959,
-    "ContactId": 951,
-    "ProjectId": 587,
-    "ProjectName": "Bayer-Kohler",
-    "IsPublished": false,
-    "AssociateId": 795,
-    "ColorIndex": 78,
-    "IsFree": false,
+    "Task": "mollitia",
+    "AssociateFullName": "Dolores Bernhard",
+    "ContactName": "Armstrong, Leffler and Sporer",
+    "Description": "Right-sized responsive core",
+    "PersonFullName": "Mrs. Russ Dana Kuvalis",
+    "PersonId": 891,
+    "ContactId": 663,
+    "ProjectId": 110,
+    "ProjectName": "Bailey, Hudson and Miller",
+    "IsPublished": true,
+    "AssociateId": 496,
+    "ColorIndex": 420,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 868,
-    "PriorityName": "Kassulke Group",
+    "PriorityId": 528,
+    "PriorityName": "Hintz-Hagenes",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2025-02-23T02:38:20.5732257+01:00",
+    "IsBookingMain": false,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2000-12-16T14:28:21.1648024+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-03-15T02:38:20.5732257+01:00",
-    "RecurringEndDate": "1999-01-16T02:38:20.5732257+01:00",
-    "MotherId": 835,
-    "AssignedBy": 531,
-    "AssignedByFullName": "Emma Lysanne Carter V",
+    "RecurringStartDate": "2004-09-01T14:28:21.1648024+02:00",
+    "RecurringEndDate": "2015-06-10T14:28:21.1648024+02:00",
+    "MotherId": 765,
+    "AssignedBy": 49,
+    "AssignedByFullName": "Mrs. Andreane Madisyn Tremblay DVM",
     "RejectReason": "",
-    "Location": "est",
-    "AlarmLeadTime": "ad",
-    "SaleId": 451,
-    "SaleName": "Johnston Group",
-    "AssociateName": "Konopelski Group",
-    "CreatedDate": "2005-09-07T02:38:20.5732257+02:00",
-    "CreatedBy": "eius",
-    "CreatedByFullName": "Zelda Pfeffer",
-    "CreatedByAssociateId": 267,
+    "Location": "repellat",
+    "AlarmLeadTime": "facilis",
+    "SaleId": 155,
+    "SaleName": "Pouros LLC",
+    "AssociateName": "Ondricka Group",
+    "CreatedDate": "2009-02-12T14:28:21.1648024+01:00",
+    "CreatedBy": "autem",
+    "CreatedByFullName": "Savannah Amelie Kessler DDS",
+    "CreatedByAssociateId": 281,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 314,
-    "Title": "rerum",
-    "Agenda": "cum",
-    "InternalNotes": "quia",
+    "PreferredTZLocation": 73,
+    "Title": "ea",
+    "Agenda": "quis",
+    "InternalNotes": "natus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 997
+        "FieldLength": 773
       }
     }
   }

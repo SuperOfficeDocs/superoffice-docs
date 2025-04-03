@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 379
+  "QuoteVersionId": 872
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 842,
-    "ERPQuoteAlternativeKey": "voluptas",
-    "QuoteVersionId": 555,
-    "Name": "Grimes Inc and Sons",
-    "Description": "Re-engineered methodical functionalities",
+    "QuoteAlternativeId": 321,
+    "ERPQuoteAlternativeKey": "illo",
+    "QuoteVersionId": 299,
+    "Name": "Metz, Gislason and Heathcote",
+    "Description": "Operative heuristic extranet",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 6029.816,
-    "ERPDiscountAmount": 4842.03,
-    "DiscountPercent": 26005.932,
-    "DiscountAmount": 8308.234,
+    "ERPDiscountPercent": 770.96399999999994,
+    "ERPDiscountAmount": 20298.917999999998,
+    "DiscountPercent": 21621.466,
+    "DiscountAmount": 5108.42,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "libero",
-    "VAT": 19650.18,
-    "EarningPercent": 15670.0,
-    "EarningAmount": 23614.69,
-    "SubTotal": 3488.142,
-    "TotalPrice": 1808.318,
-    "ExtraField1": "voluptate",
-    "ExtraField2": "aperiam",
-    "ExtraField3": "maiores",
-    "ExtraField4": "repellat",
-    "ExtraField5": "et",
+    "VATInfo": "maiores",
+    "VAT": 20706.338,
+    "EarningPercent": 15281.384,
+    "EarningAmount": 6894.8,
+    "SubTotal": 27535.324,
+    "TotalPrice": 980.942,
+    "ExtraField1": "cum",
+    "ExtraField2": "ducimus",
+    "ExtraField3": "rerum",
+    "ExtraField4": "architecto",
+    "ExtraField5": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 699
+        "FieldLength": 156
       }
     }
   }

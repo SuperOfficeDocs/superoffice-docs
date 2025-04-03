@@ -116,6 +116,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -130,14 +131,14 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 394,
-  "StartTime": "2024-12-03T02:38:20.5263598+01:00",
-  "EndTime": "2020-12-12T02:38:20.5263598+01:00",
-  "Count": 596
+  "PersonId": 348,
+  "StartTime": "2008-08-11T14:28:21.1335548+02:00",
+  "EndTime": "2004-02-05T14:28:21.1335548+01:00",
+  "Count": 614
 }
 ```
 
@@ -149,65 +150,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 562,
-    "StartDate": "2014-05-22T02:38:20.5263598+02:00",
-    "EndDate": "2006-11-28T02:38:20.5263598+01:00",
+    "AppointmentId": 398,
+    "StartDate": "2021-02-14T14:28:21.1335548+01:00",
+    "EndDate": "2017-05-06T14:28:21.1335548+02:00",
     "Type": "BookingForChecklist",
-    "Task": "qui",
-    "AssociateFullName": "Eldora Rogahn",
-    "ContactName": "Beer Inc and Sons",
-    "Description": "Open-architected fresh-thinking workforce",
-    "PersonFullName": "Mrs. Hermann Vanessa Schimmel PhD",
-    "PersonId": 852,
-    "ContactId": 839,
-    "ProjectId": 375,
-    "ProjectName": "Cremin-Hane",
-    "IsPublished": false,
-    "AssociateId": 632,
-    "ColorIndex": 504,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "Task": "error",
+    "AssociateFullName": "Dr. Estelle Brigitte Gorczany",
+    "ContactName": "Kerluke Inc and Sons",
+    "Description": "Self-enabling bifurcated secured line",
+    "PersonFullName": "Shaun Abshire",
+    "PersonId": 677,
+    "ContactId": 295,
+    "ProjectId": 43,
+    "ProjectName": "Champlin Group",
+    "IsPublished": true,
+    "AssociateId": 134,
+    "ColorIndex": 839,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 732,
-    "PriorityName": "Hickle, Kub and D'Amore",
+    "PriorityId": 650,
+    "PriorityName": "Johnson, Von and Cassin",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2013-09-12T02:38:20.5263598+02:00",
+    "ActiveDate": "2017-04-24T14:28:21.1335548+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-09-21T02:38:20.5263598+02:00",
-    "RecurringEndDate": "2018-12-17T02:38:20.5263598+01:00",
-    "MotherId": 377,
-    "AssignedBy": 31,
-    "AssignedByFullName": "Alessia Padberg",
+    "RecurringStartDate": "2023-06-27T14:28:21.1335548+02:00",
+    "RecurringEndDate": "2006-12-23T14:28:21.1335548+01:00",
+    "MotherId": 579,
+    "AssignedBy": 95,
+    "AssignedByFullName": "Caroline Bruen",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "voluptatem",
-    "SaleId": 311,
-    "SaleName": "Wilderman, Schuppe and Hilll",
-    "AssociateName": "Jaskolski LLC",
-    "CreatedDate": "2018-05-15T02:38:20.5263598+02:00",
-    "CreatedBy": "magni",
-    "CreatedByFullName": "Miss Rosalia Wendell Toy",
-    "CreatedByAssociateId": 80,
+    "Location": "doloribus",
+    "AlarmLeadTime": "reprehenderit",
+    "SaleId": 970,
+    "SaleName": "Zboncak, Muller and Harber",
+    "AssociateName": "Watsica-Weber",
+    "CreatedDate": "2010-11-05T14:28:21.1335548+01:00",
+    "CreatedBy": "unde",
+    "CreatedByFullName": "Prof. Orin Ottis Veum III",
+    "CreatedByAssociateId": 596,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 254,
-    "Title": "ullam",
-    "Agenda": "id",
-    "InternalNotes": "eveniet",
+    "PreferredTZLocation": 619,
+    "Title": "temporibus",
+    "Agenda": "fuga",
+    "InternalNotes": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldLength": 406
       }
     }
   }

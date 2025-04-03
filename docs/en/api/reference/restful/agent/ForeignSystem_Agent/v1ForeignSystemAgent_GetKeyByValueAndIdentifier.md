@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Sipes LLC",
-  "DeviceName": "Willms, Pfeffer and Pfannerstill",
-  "DeviceIdentifier": "praesentium",
-  "KeyName": "Stark-Borer",
-  "KeyValue": "aut",
-  "TableName": "Pagac, Runolfsdottir and Gorczany"
+  "ApplicationName": "Weimann, Braun and Doyle",
+  "DeviceName": "Hills, Johns and Farrell",
+  "DeviceIdentifier": "ad",
+  "KeyName": "Bayer LLC",
+  "KeyValue": "et",
+  "TableName": "Murray, Bode and Tremblay"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ea",
-  "Value": "est",
-  "RecordId": 505,
-  "CreatedDate": "2003-07-06T02:38:21.4639053+02:00",
-  "UpdatedDate": "2015-12-10T02:38:21.4639053+01:00",
-  "UpdatedBy": "impedit",
-  "CreatedBy": "vel",
-  "TableName": "Parker-Herzog",
+  "Key": "dolores",
+  "Value": "aliquid",
+  "RecordId": 674,
+  "CreatedDate": "2013-07-08T14:28:22.0241429+02:00",
+  "UpdatedDate": "1998-07-01T14:28:22.0241429+02:00",
+  "UpdatedBy": "praesentium",
+  "CreatedBy": "doloremque",
+  "TableName": "Cormier, Bode and Labadie",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldType": "System.String",
+      "FieldLength": 408
     }
   }
 }

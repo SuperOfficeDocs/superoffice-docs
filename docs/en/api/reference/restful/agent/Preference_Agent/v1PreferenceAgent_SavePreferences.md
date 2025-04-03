@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "doloremque",
+      "RawValue": "placeat",
       "Specification": null,
-      "DisplayValue": "eveniet",
-      "DisplayTooltip": "eveniet",
+      "DisplayValue": "molestiae",
+      "DisplayTooltip": "vitae",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 181,
-      "PrefDescId": 535,
-      "TableName": "Ritchie-Lehner",
-      "UserPreferenceId": 538
+      "TargetId": 839,
+      "PrefDescId": 776,
+      "TableName": "Heidenreich Group",
+      "UserPreferenceId": 636
     }
   ]
 }

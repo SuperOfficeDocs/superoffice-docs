@@ -1396,11 +1396,119 @@ title: Services88.CustomerServiceAgent WSDL
               <xs:element minOccurs="0" name="TimezoneEnabled" type="xs:boolean" />
               <xs:element minOccurs="0" name="TZOffset" type="xs:int" />
               <xs:element minOccurs="0" name="RecaptchaSiteKey" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="SelectedPreferences" nillable="true" type="tns:ArrayOfPreference" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
       <xs:element name="CustomerServiceStartup" nillable="true" type="tns:CustomerServiceStartup" />
+      <xs:complexType name="ArrayOfPreference">
+        <xs:sequence>
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="Preference" nillable="true" type="tns:Preference" />
+        </xs:sequence>
+      </xs:complexType>
+      <xs:element name="ArrayOfPreference" nillable="true" type="tns:ArrayOfPreference" />
+      <xs:complexType name="Preference">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Level" type="tns:PreferenceLevel" />
+              <xs:element minOccurs="0" name="RawValue" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Specification" nillable="true" type="tns:PreferenceSpec" />
+              <xs:element minOccurs="0" name="DisplayValue" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="DisplayTooltip" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="DisplayType" type="tns:PrefDescValueType" />
+              <xs:element minOccurs="0" name="TabOrder" nillable="true" type="tns:TabOrder" />
+              <xs:element minOccurs="0" name="TargetId" type="xs:int" />
+              <xs:element minOccurs="0" name="PrefDescId" type="xs:int" />
+              <xs:element minOccurs="0" name="TableName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="UserPreferenceId" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="Preference" nillable="true" type="tns:Preference" />
+      <xs:simpleType name="PreferenceLevel">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Undefined" />
+          <xs:enumeration value="HardDefault" />
+          <xs:enumeration value="SystemWide" />
+          <xs:enumeration value="Database" />
+          <xs:enumeration value="Group" />
+          <xs:enumeration value="Individual" />
+          <xs:enumeration value="PC" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="PreferenceLevel" nillable="true" type="tns:PreferenceLevel" />
+      <xs:complexType name="PreferenceSpec">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="Section" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Key" nillable="true" type="xs:string" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="PreferenceSpec" nillable="true" type="tns:PreferenceSpec" />
+      <xs:simpleType name="PrefDescValueType">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="Unknown" />
+          <xs:enumeration value="Number" />
+          <xs:enumeration value="Text" />
+          <xs:enumeration value="Bool" />
+          <xs:enumeration value="ListOfValues" />
+          <xs:enumeration value="ListTableRef" />
+          <xs:enumeration value="TimeList" />
+          <xs:enumeration value="ContactID" />
+          <xs:enumeration value="PersonID" />
+          <xs:enumeration value="ProjectID" />
+          <xs:enumeration value="SelectionID" />
+          <xs:enumeration value="PosSize" />
+          <xs:enumeration value="TimeZone" />
+          <xs:enumeration value="Time" />
+          <xs:enumeration value="Password" />
+          <xs:enumeration value="MultiLineText" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="PrefDescValueType" nillable="true" type="tns:PrefDescValueType" />
+      <xs:complexType name="TabOrder">
+        <xs:complexContent mixed="false">
+          <xs:extension base="tns:Carrier">
+            <xs:sequence>
+              <xs:element minOccurs="0" name="TabOrderId" type="xs:int" />
+              <xs:element minOccurs="0" name="TabName" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Order" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="AssociateId" type="xs:int" />
+            </xs:sequence>
+          </xs:extension>
+        </xs:complexContent>
+      </xs:complexType>
+      <xs:element name="TabOrder" nillable="true" type="tns:TabOrder" />
+      <xs:element name="GetCustomerServiceStartupByOwner">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="UserId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetCustomerServiceStartupByOwnerResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="Response" nillable="true" type="tns:CustomerServiceStartup" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
       <xs:element name="ExecuteEventHandlers">
         <xs:complexType>
           <xs:sequence>
@@ -2397,6 +2505,23 @@ title: Services88.CustomerServiceAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="GetCustomerServiceStartupByOwnerRequest">
+    <wsdl:part name="parameters" element="tns:GetCustomerServiceStartupByOwner" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerServiceStartupByOwnerRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerServiceStartupByOwnerResponse">
+    <wsdl:part name="parameters" element="tns:GetCustomerServiceStartupByOwnerResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCustomerServiceStartupByOwnerResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="ExecuteEventHandlersRequest">
     <wsdl:part name="parameters" element="tns:ExecuteEventHandlers" />
   </wsdl:message>
@@ -2765,6 +2890,10 @@ title: Services88.CustomerServiceAgent WSDL
     <wsdl:operation name="GetCustomerServiceStartup">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerServiceStartup" name="GetCustomerServiceStartupRequest" message="tns:GetCustomerServiceStartupRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerServiceStartupResponse" name="GetCustomerServiceStartupResponse" message="tns:GetCustomerServiceStartupResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerServiceStartupByOwner">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerServiceStartupByOwner" name="GetCustomerServiceStartupByOwnerRequest" message="tns:GetCustomerServiceStartupByOwnerRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerServiceStartupByOwnerResponse" name="GetCustomerServiceStartupByOwnerResponse" message="tns:GetCustomerServiceStartupByOwnerResponse" />
     </wsdl:operation>
     <wsdl:operation name="ExecuteEventHandlers">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/ExecuteEventHandlers" name="ExecuteEventHandlersRequest" message="tns:ExecuteEventHandlersRequest" />
@@ -3214,6 +3343,22 @@ title: Services88.CustomerServiceAgent WSDL
         <soap:header message="tns:GetCustomerServiceStartupResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:GetCustomerServiceStartupResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:GetCustomerServiceStartupResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCustomerServiceStartupByOwner">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/CustomerService/GetCustomerServiceStartupByOwner" style="document" />
+      <wsdl:input name="GetCustomerServiceStartupByOwnerRequest">
+        <soap:header message="tns:GetCustomerServiceStartupByOwnerRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:GetCustomerServiceStartupByOwnerRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:GetCustomerServiceStartupByOwnerRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="GetCustomerServiceStartupByOwnerResponse">
+        <soap:header message="tns:GetCustomerServiceStartupByOwnerResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:GetCustomerServiceStartupByOwnerResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:GetCustomerServiceStartupByOwnerResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:GetCustomerServiceStartupByOwnerResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

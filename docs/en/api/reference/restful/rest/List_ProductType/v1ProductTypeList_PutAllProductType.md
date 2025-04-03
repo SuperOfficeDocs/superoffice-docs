@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 475,
-    "Name": "Kessler Inc and Sons",
-    "Tooltip": "iure",
+    "Id": 450,
+    "Name": "Lowe, Schultz and Mosciski",
+    "Tooltip": "rem",
     "Deleted": false,
-    "UdListDefinitionId": 246,
-    "Rank": 330
+    "UdListDefinitionId": 885,
+    "Rank": 465
   },
   {
-    "Id": 475,
-    "Name": "Kessler Inc and Sons",
-    "Tooltip": "iure",
+    "Id": 450,
+    "Name": "Lowe, Schultz and Mosciski",
+    "Tooltip": "rem",
     "Deleted": false,
-    "UdListDefinitionId": 246,
-    "Rank": 330
+    "UdListDefinitionId": 885,
+    "Rank": 465
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 541,
-    "Name": "Schuppe, Jast and Corkery",
-    "Tooltip": "laboriosam",
+    "Id": 20,
+    "Name": "Kerluke, Wolff and Pacocha",
+    "Tooltip": "quas",
     "Deleted": false,
-    "UdListDefinitionId": 787,
-    "Rank": 725,
+    "UdListDefinitionId": 344,
+    "Rank": 700,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 735
+        "FieldType": "System.Int32",
+        "FieldLength": 987
       }
     }
   }

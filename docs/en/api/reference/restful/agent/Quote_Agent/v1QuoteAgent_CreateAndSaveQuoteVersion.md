@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 60
+  "QuoteVersionId": 690
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 909,
-  "ERPQuoteVersionKey": "maiores",
-  "QuoteId": 532,
-  "Description": "Universal zero defect algorithm",
-  "Number": "1191033",
+  "QuoteVersionId": 321,
+  "ERPQuoteVersionKey": "sed",
+  "QuoteId": 336,
+  "Description": "Assimilated next generation collaboration",
+  "Number": "386061",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 780,
-  "SentDate": "2017-01-25T02:38:21.7607486+01:00",
-  "FollowupId": 356,
-  "ExpirationDate": "2000-12-14T02:38:21.7607486+01:00",
-  "DeliveryCountryId": 244,
+  "LikelyQuoteAlternativeId": 260,
+  "SentDate": "1997-11-27T14:28:22.274133+01:00",
+  "FollowupId": 288,
+  "ExpirationDate": "2024-10-03T14:28:22.274133+02:00",
+  "DeliveryCountryId": 374,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 770,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "possimus",
-  "ERPPaymentTypeKey": "et",
+  "InvoiceCountryId": 800,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "odit",
+  "ERPPaymentTypeKey": "laborum",
   "ERPDeliveryTermsKey": "at",
-  "ERPDeliveryTypeKey": "maiores",
-  "Rank": 723,
-  "ApprovedBy": 615,
-  "ApprovedText": "deleniti",
-  "ApprovedRegisteredBy": 112,
-  "ApprovedRegisteredDate": "2025-03-02T02:38:21.7607486+01:00",
-  "ExtraField1": "corrupti",
-  "ExtraField2": "inventore",
-  "ExtraField3": "facere",
-  "ExtraField4": "explicabo",
-  "ExtraField5": "voluptates",
-  "LastRecalculated": "2015-11-15T02:38:21.7607486+01:00",
-  "Updated": "2008-10-29T02:38:21.7607486+01:00",
-  "UpdatedAssociateId": 82,
-  "Registered": "2003-05-22T02:38:21.7607486+02:00",
-  "RegisteredAssociateId": 355,
-  "RequestAssociateId": 861,
-  "RequestComment": "omnis",
+  "ERPDeliveryTypeKey": "porro",
+  "Rank": 868,
+  "ApprovedBy": 96,
+  "ApprovedText": "aut",
+  "ApprovedRegisteredBy": 992,
+  "ApprovedRegisteredDate": "2007-11-15T14:28:22.274133+01:00",
+  "ExtraField1": "repudiandae",
+  "ExtraField2": "quibusdam",
+  "ExtraField3": "a",
+  "ExtraField4": "a",
+  "ExtraField5": "ad",
+  "LastRecalculated": "2023-08-13T14:28:22.274133+02:00",
+  "Updated": "2000-05-05T14:28:22.274133+02:00",
+  "UpdatedAssociateId": 143,
+  "Registered": "2020-01-01T14:28:22.274133+01:00",
+  "RegisteredAssociateId": 818,
+  "RequestAssociateId": 890,
+  "RequestComment": "possimus",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 654,
-      "ERPQuoteAlternativeKey": "impedit",
-      "QuoteVersionId": 664,
-      "Name": "Barton Inc and Sons",
-      "Description": "Compatible didactic hub",
+      "QuoteAlternativeId": 834,
+      "ERPQuoteAlternativeKey": "eaque",
+      "QuoteVersionId": 758,
+      "Name": "Armstrong Inc and Sons",
+      "Description": "Realigned attitude-oriented collaboration",
       "Status": "Error",
-      "Reason": "incubate out-of-the-box niches",
-      "ERPDiscountPercent": 14356.854,
-      "ERPDiscountAmount": 24410.726,
-      "DiscountPercent": 24216.417999999998,
-      "DiscountAmount": 2870.7439999999997,
+      "Reason": "repurpose magnetic content",
+      "ERPDiscountPercent": 11793.242,
+      "ERPDiscountAmount": 10840.506,
+      "DiscountPercent": 9047.858,
+      "DiscountAmount": 28898.613999999998,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "omnis",
-      "VAT": 16328.14,
-      "EarningPercent": 10166.696,
-      "EarningAmount": 4989.3279999999995,
-      "SubTotal": 11699.222,
-      "TotalPrice": 26002.798,
-      "ExtraField1": "soluta",
-      "ExtraField2": "sed",
-      "ExtraField3": "aspernatur",
-      "ExtraField4": "iste",
-      "ExtraField5": "commodi",
+      "VATInfo": "aliquid",
+      "VAT": 15999.07,
+      "EarningPercent": 10956.464,
+      "EarningAmount": 28663.564,
+      "SubTotal": 5497.036,
+      "TotalPrice": 24554.89,
+      "ExtraField1": "quia",
+      "ExtraField2": "rerum",
+      "ExtraField3": "hic",
+      "ExtraField4": "facere",
+      "ExtraField5": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 584
+          "FieldLength": 99
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 686
+      "FieldType": "System.String",
+      "FieldLength": 235
     }
   }
 }

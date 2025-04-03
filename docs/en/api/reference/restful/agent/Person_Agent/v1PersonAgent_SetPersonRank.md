@@ -75,8 +75,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 889,
-  "DesiredRank": 168
+  "PersonId": 747,
+  "DesiredRank": 918
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-false
+true
 ```

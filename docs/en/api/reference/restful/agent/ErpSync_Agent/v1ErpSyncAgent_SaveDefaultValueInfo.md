@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 10,
-  "DefaultValue": "saepe",
+  "ErpFieldId": 686,
+  "DefaultValue": "aperiam",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "blanditiis",
-  "PromptUser": true,
-  "Mandatory": true,
-  "ErpFieldKey": "beatae",
+  "FirstSyncDefaultValue": "perspiciatis",
+  "PromptUser": false,
+  "Mandatory": false,
+  "ErpFieldKey": "facere",
   "FieldType": "Checkbox",
-  "ListName": "Thiel LLC",
+  "ListName": "Crist, McClure and Wilkinson",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 634
+      "FieldLength": 289
     }
   }
 }

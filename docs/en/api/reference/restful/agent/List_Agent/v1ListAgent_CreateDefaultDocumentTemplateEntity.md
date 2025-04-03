@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 444,
-  "Name": "Farrell LLC",
-  "Tooltip": "et",
-  "SaveInDb": 45,
-  "Filename": "consectetur",
-  "DefaultOref": "dolor",
+  "DocumentTemplateId": 711,
+  "Name": "Runte-Walker",
+  "Tooltip": "voluptatem",
+  "SaveInDb": 434,
+  "Filename": "id",
+  "DefaultOref": "sed",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 73,
-  "IntentId": 453,
+  "AutoeventId": 293,
+  "IntentId": 604,
   "IsDefaultPublished": false,
-  "Rank": 70,
-  "LoadTemplateFromPlugin": 147,
-  "MimeType": "ea",
+  "Rank": 922,
+  "LoadTemplateFromPlugin": 915,
+  "MimeType": "dolor",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 180,
+  "DocumentTypeKey": 635,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "eli.daniel@renner.us",
+  "EmailSubject": "hal@murraymcclure.co.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "norwood@dach.name",
+  "SenderEmailAddress": "darian_kohler@hackett.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldLength": 71
     }
   }
 }

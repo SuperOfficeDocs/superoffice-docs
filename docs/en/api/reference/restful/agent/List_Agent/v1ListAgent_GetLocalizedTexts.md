@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTexts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 422,
-    "ResourceId": 115,
-    "Text": "doloremque",
+    "LanguageId": 999,
+    "ResourceId": 954,
+    "Text": "nostrum",
     "Type": "Column",
-    "LocalizedTextId": 427,
+    "LocalizedTextId": 739,
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 194
+        "FieldLength": 723
       }
     }
   }

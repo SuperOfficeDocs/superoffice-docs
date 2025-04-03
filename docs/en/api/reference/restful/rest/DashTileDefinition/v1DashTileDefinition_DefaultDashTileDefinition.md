@@ -75,7 +75,7 @@ OK
 GET /api/v1/DashTileDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 817,
-  "Name": "Gleason-Braun",
-  "Description": "Configurable foreground policy",
-  "DefaultHeight": 488,
-  "DefaultWidth": 917,
+  "DashboardTileDefinitionId": 358,
+  "Name": "Little-Bosco",
+  "Description": "Ergonomic non-volatile Graphical User Interface",
+  "DefaultHeight": 831,
+  "DefaultWidth": 561,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Zemlak-Harvey",
-  "SelectionId": 980,
+  "EntityName": "Crist Inc and Sons",
+  "SelectionId": 226,
   "CurrencyMode": "Base",
-  "CurrencyCode": "repellendus",
+  "CurrencyCode": "aliquid",
   "Measure": "Average",
-  "MeasureField": "similique",
-  "SortBy": "temporibus",
-  "LayoutConfig": "dolorum",
-  "SecondarySelectionId": 639,
-  "MeasureByField": "consequatur",
+  "MeasureField": "omnis",
+  "SortBy": "et",
+  "LayoutConfig": "sunt",
+  "SecondarySelectionId": 414,
+  "MeasureByField": "et",
   "Usage": "Dashboard",
-  "ProviderName": "Sipes, Klein and Kerluke",
+  "ProviderName": "Kulas LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 979
+      "FieldLength": 73
     }
   }
 }

@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 354,
-  "StartTime": "2007-05-17T02:38:21.2139317+02:00",
-  "EndTime": "2000-02-04T02:38:21.2139317+01:00",
-  "Count": 247,
-  "DocumentTemplateId": 121
+  "ContactId": 369,
+  "StartTime": "1998-02-06T14:28:21.7116556+01:00",
+  "EndTime": "2025-03-17T14:28:21.7116556+01:00",
+  "Count": 797,
+  "DocumentTemplateId": 47
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 104,
-    "Attention": "consequatur",
-    "Header": "tempora",
-    "Name": "Waters Inc and Sons",
-    "OurRef": "cumque",
-    "YourRef": "consectetur",
-    "Description": "Intuitive multi-state capacity",
-    "DocumentTemplate": "earum",
-    "IsPublished": false,
-    "PersonId": 803,
-    "PersonFullName": "Kira West",
-    "AssociateFullName": "Dr. Janelle Elise Kemmer",
-    "ContactId": 392,
-    "ContactName": "Klocko, Schowalter and Schultz",
-    "ProjectId": 605,
-    "ProjectName": "Waters LLC",
-    "AssociateId": 397,
-    "Snum": 433,
-    "SaleId": 372,
-    "SaleName": "Grant-Rice",
+    "DocumentId": 15,
+    "Attention": "omnis",
+    "Header": "quaerat",
+    "Name": "Pagac, Howell and Friesen",
+    "OurRef": "eos",
+    "YourRef": "totam",
+    "Description": "Seamless analyzing monitoring",
+    "DocumentTemplate": "explicabo",
+    "IsPublished": true,
+    "PersonId": 329,
+    "PersonFullName": "Mrs. Peter Mills II",
+    "AssociateFullName": "Anissa Medhurst",
+    "ContactId": 323,
+    "ContactName": "Haley, Braun and O'Conner",
+    "ProjectId": 558,
+    "ProjectName": "Marks-Hills",
+    "AssociateId": 933,
+    "Snum": 215,
+    "SaleId": 304,
+    "SaleName": "Zemlak, Willms and Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 360
+        "FieldType": "System.Int32",
+        "FieldLength": 848
       }
     }
   }

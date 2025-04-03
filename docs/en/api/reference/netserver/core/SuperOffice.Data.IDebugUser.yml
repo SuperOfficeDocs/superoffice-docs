@@ -1,0 +1,247 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.IDebugUser
+  commentId: T:SuperOffice.Data.IDebugUser
+  id: IDebugUser
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.IDebugUser.IsOnForCurrentUser
+  langs:
+  - csharp
+  - vb
+  name: IDebugUser
+  nameWithType: IDebugUser
+  fullName: SuperOffice.Data.IDebugUser
+  type: Interface
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: public interface IDebugUser
+    content.vb: Public Interface IDebugUser
+  extensionMethods:
+  - SuperOffice.Data.IDebugUser.EnumUtil.MapEnums``2
+  - SuperOffice.Data.IDebugUser.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: SuperOffice.Data.IDebugUser.IsOnForCurrentUser
+  commentId: M:SuperOffice.Data.IDebugUser.IsOnForCurrentUser
+  id: IsOnForCurrentUser
+  parent: SuperOffice.Data.IDebugUser
+  langs:
+  - csharp
+  - vb
+  name: IsOnForCurrentUser()
+  nameWithType: IDebugUser.IsOnForCurrentUser()
+  fullName: SuperOffice.Data.IDebugUser.IsOnForCurrentUser()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Data
+  syntax:
+    content: bool IsOnForCurrentUser()
+    return:
+      type: System.Boolean
+    content.vb: Function IsOnForCurrentUser As Boolean
+  overload: SuperOffice.Data.IDebugUser.IsOnForCurrentUser*
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: SuperOffice.Data.IDebugUser.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<IDebugUser, To>()
+  nameWithType: EnumUtil.MapEnums<IDebugUser, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.IDebugUser, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of IDebugUser, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.IDebugUser, To)()
+  name.vb: MapEnums(Of IDebugUser, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<IDebugUser, To>
+    nameWithType: EnumUtil.MapEnums<IDebugUser, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.IDebugUser, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of IDebugUser, To)
+    nameWithType: EnumUtil.MapEnums(Of IDebugUser, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.IDebugUser, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.IDebugUser.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<IDebugUser, To>()
+  nameWithType: Converters.MapEnums<IDebugUser, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.IDebugUser, To>()
+  nameWithType.vb: Converters.MapEnums(Of IDebugUser, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.IDebugUser, To)()
+  name.vb: MapEnums(Of IDebugUser, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<IDebugUser, To>
+    nameWithType: Converters.MapEnums<IDebugUser, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.IDebugUser, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of IDebugUser, To)
+    nameWithType: Converters.MapEnums(Of IDebugUser, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.IDebugUser, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Data.IDebugUser.IsOnForCurrentUser*
+  commentId: Overload:SuperOffice.Data.IDebugUser.IsOnForCurrentUser
+  isExternal: true
+  name: IsOnForCurrentUser
+  nameWithType: IDebugUser.IsOnForCurrentUser
+  fullName: SuperOffice.Data.IDebugUser.IsOnForCurrentUser
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

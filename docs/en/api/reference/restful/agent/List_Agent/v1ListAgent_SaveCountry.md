@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 322,
-  "Name": "Rau-Torphy",
-  "CurrencyId": 365,
-  "EnglishName": "Koss-Davis",
+  "CountryId": 657,
+  "Name": "McClure, Bogan and Prohaska",
+  "CurrencyId": 864,
+  "EnglishName": "Orn, Gusikowski and Bashirian",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "User-centric assymetric access",
-  "OrgNrText": "389295",
-  "InterAreaPrefix": "tempore",
-  "DialInPrefix": "recusandae",
-  "ZipPrefix": "eveniet",
-  "DomainName": "Effertz LLC",
-  "AddressLayoutId": 843,
-  "DomesticAddressLayoutId": 226,
-  "ForeignAddressLayoutId": 132,
-  "Rank": 604,
-  "Tooltip": "sunt",
-  "Deleted": false,
+  "ImageDescription": "Inverse value-added focus group",
+  "OrgNrText": "886038",
+  "InterAreaPrefix": "sed",
+  "DialInPrefix": "qui",
+  "ZipPrefix": "maiores",
+  "DomainName": "Sauer, Eichmann and Crona",
+  "AddressLayoutId": 692,
+  "DomesticAddressLayoutId": 787,
+  "ForeignAddressLayoutId": 199,
+  "Rank": 315,
+  "Tooltip": "reprehenderit",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 973
+      "FieldLength": 65
     }
   }
 }

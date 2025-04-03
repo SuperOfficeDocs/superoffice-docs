@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 951,
-      "UniqueId": "mollitia",
-      "Name": "Mann Inc and Sons",
-      "Description": "Multi-tiered heuristic pricing structure",
-      "AssociateId": 450,
-      "Columns": 476,
+      "DashboardId": 344,
+      "UniqueId": "delectus",
+      "Name": "Borer Group",
+      "Description": "Diverse maximized circuit",
+      "AssociateId": 806,
+      "Columns": 974,
       "Theme": null,
-      "VisibleForAll": 976,
+      "VisibleForAll": 106,
       "VisibleForAssociates": [
-        876,
-        919
+        254,
+        547
       ],
       "VisibleForGroups": [
-        5,
-        832
+        902,
+        958
       ],
-      "PinForAll": 137,
+      "PinForAll": 362,
       "PinForAssociates": [
-        445,
-        886
+        39,
+        477
       ],
       "PinForGroups": [
-        91,
-        552
+        511,
+        591
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 910
+          "FieldLength": 576
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 94,
-      "UniqueId": "quia",
-      "Name": "Gaylord Group",
-      "Description": "Centralized local Graphical User Interface",
-      "AssociateId": 189,
-      "Columns": 698,
+      "DashboardId": 783,
+      "UniqueId": "numquam",
+      "Name": "Lubowitz-Kuhic",
+      "Description": "Down-sized regional Graphical User Interface",
+      "AssociateId": 608,
+      "Columns": 297,
       "Theme": null,
-      "VisibleForAll": 17,
+      "VisibleForAll": 813,
       "VisibleForAssociates": [
-        232,
-        260
+        631,
+        985
       ],
       "VisibleForGroups": [
-        783,
-        295
+        283,
+        686
       ],
-      "PinForAll": 462,
+      "PinForAll": 706,
       "PinForAssociates": [
-        888,
-        783
+        864,
+        407
       ],
       "PinForGroups": [
-        434,
-        262
+        619,
+        34
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 16
+          "FieldLength": 768
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 633,
-      "UniqueId": "et",
-      "Name": "Champlin, Schowalter and Cormier",
-      "Description": "Integrated interactive complexity",
-      "AssociateId": 185,
-      "Columns": 809,
+      "DashboardId": 318,
+      "UniqueId": "dicta",
+      "Name": "Waelchi, Reinger and Littel",
+      "Description": "Business-focused maximized archive",
+      "AssociateId": 546,
+      "Columns": 301,
       "Theme": null,
-      "VisibleForAll": 368,
+      "VisibleForAll": 898,
       "VisibleForAssociates": [
-        649,
-        755
+        955,
+        317
       ],
       "VisibleForGroups": [
-        324,
-        430
+        329,
+        909
       ],
-      "PinForAll": 44,
+      "PinForAll": 358,
       "PinForAssociates": [
-        907,
-        817
+        913,
+        906
       ],
       "PinForGroups": [
-        727,
-        973
+        325,
+        477
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldLength": 820
         }
       }
     }
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldLength": 229
     }
   }
 }

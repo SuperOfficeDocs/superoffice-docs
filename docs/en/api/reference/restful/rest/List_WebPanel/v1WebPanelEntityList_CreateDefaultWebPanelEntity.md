@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/WebPanel/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 140,
-  "Name": "Casper, Bauch and O'Conner",
-  "Tooltip": "hic",
-  "Deleted": false,
-  "Rank": 170,
+  "WebPanelId": 802,
+  "Name": "Frami-Ledner",
+  "Tooltip": "eligendi",
+  "Deleted": true,
+  "Rank": 50,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
+  "OnCentral": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Dickinson Inc and Sons",
+  "WindowName": "Kohler-Labadie",
   "Url": "http://www.example.com/",
-  "ProgId": "veniam",
-  "Icon": 554,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "facere",
+  "Icon": 643,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 134
+      "FieldLength": 912
     }
   }
 }

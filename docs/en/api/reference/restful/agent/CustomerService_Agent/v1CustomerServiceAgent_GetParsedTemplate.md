@@ -80,14 +80,14 @@ OK
 POST /api/v1/Agents/CustomerService/GetParsedTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 69,
-  "LanguageId": 837,
-  "PersonId": 300,
-  "TicketId": 308
+  "ReplyTemplateId": 390,
+  "LanguageId": 354,
+  "PersonId": 224,
+  "TicketId": 621
 }
 ```
 
@@ -98,36 +98,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 263,
-  "PlainParsed": "quasi",
-  "HtmlParsed": "voluptatem",
+  "ReplyTemplateId": 340,
+  "PlainParsed": "qui",
+  "HtmlParsed": "et",
   "Attachments": [
     {
-      "AttachmentId": 47,
-      "Name": "Turcotte Group",
-      "ContentType": "possimus",
-      "AttSize": 324,
+      "AttachmentId": 378,
+      "Name": "Hahn LLC",
+      "ContentType": "distinctio",
+      "AttSize": 12,
       "InlineImage": false,
-      "ContentId": "eum",
-      "AuthKey": "illo",
-      "IsSafeFileExtension": true,
+      "ContentId": "amet",
+      "AuthKey": "sint",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 155
+          "FieldType": "System.String",
+          "FieldLength": 742
         }
       }
     }
   ],
-  "Subject": "nihil",
+  "Subject": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldLength": 353
     }
   }
 }

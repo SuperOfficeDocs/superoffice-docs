@@ -33,7 +33,7 @@ Calls the Document agent service GetDocumentEntity.
 
 ```http
 GET /api/v1/Document/{id}?$select=name,department,category/id
-GET /api/v1/Document/{id}?fk=False
+GET /api/v1/Document/{id}?fk=True
 ```
 
 
@@ -109,7 +109,7 @@ DocumentEntity found.
 GET /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -117,91 +117,91 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 21 Apr 2017 02:38:26 G4T
+Last-Modified: Sun, 15 Jan 2023 14:28:26 G1T
 
 {
-  "DocumentId": 303,
+  "DocumentId": 50,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "mollitia",
-  "Header": "in",
-  "Name": "Bashirian-Skiles",
-  "OurRef": "culpa",
-  "YourRef": "illum",
-  "CreatedDate": "1997-11-23T02:38:26.0735654+01:00",
-  "UpdatedDate": "2017-04-21T02:38:26.0735654+02:00",
-  "Description": "Fundamental analyzing benchmark",
+  "Attention": "aliquam",
+  "Header": "aliquid",
+  "Name": "Zulauf, McKenzie and Bogan",
+  "OurRef": "explicabo",
+  "YourRef": "vero",
+  "CreatedDate": "2004-06-14T14:28:26.8989465+02:00",
+  "UpdatedDate": "2023-01-15T14:28:26.8989465+01:00",
+  "Description": "Ergonomic context-sensitive software",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-12-08T02:38:26.0735654+01:00",
-  "ExternalRef": "quam",
+  "Date": "2003-02-18T14:28:26.8989465+01:00",
+  "ExternalRef": "velit",
   "Completed": "Completed",
-  "ActiveLinks": 639,
+  "ActiveLinks": 592,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Feest-Braun",
-      "Id": 820,
-      "Description": "Compatible leading edge artificial intelligence",
-      "ExtraInfo": "maxime",
-      "LinkId": 652,
+      "EntityName": "Hammes Inc and Sons",
+      "Id": 287,
+      "Description": "Synchronised discrete encryption",
+      "ExtraInfo": "provident",
+      "LinkId": 493,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 542
+          "FieldType": "System.Int32",
+          "FieldLength": 321
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 36,
-  "Snum": 497,
+  "SuggestedDocumentId": 570,
+  "Snum": 489,
   "UserDefinedFields": {
-    "SuperOffice:1": "Isaiah Wolf",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Waylon Rowe Jr.",
+    "SuperOffice:2": "Prof. Domenick Josiane Gleichner"
   },
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "exercitationem"
+    "ExtraFields1": "eius",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "corrupti"
+    "CustomFields1": "ad",
+    "CustomFields2": "minus"
   },
-  "PublishEventDate": "2015-07-17T02:38:26.0735654+02:00",
-  "PublishTo": "2017-02-26T02:38:26.0735654+01:00",
-  "PublishFrom": "2025-02-23T02:38:26.0735654+01:00",
+  "PublishEventDate": "2018-08-09T14:28:26.8989465+02:00",
+  "PublishTo": "2022-06-04T14:28:26.8989465+02:00",
+  "PublishFrom": "2021-01-30T14:28:26.8989465+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 993,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "perferendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 822
+          "FieldType": "System.Int32",
+          "FieldLength": 727
         }
       }
     },
     {
-      "VisibleId": 993,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "minima",
+      "DisplayValue": "perferendis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 822
+          "FieldType": "System.Int32",
+          "FieldLength": 727
         }
       }
     }
@@ -211,12 +211,12 @@ Last-Modified: Fri, 21 Apr 2017 02:38:26 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 816
+      "FieldLength": 652
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

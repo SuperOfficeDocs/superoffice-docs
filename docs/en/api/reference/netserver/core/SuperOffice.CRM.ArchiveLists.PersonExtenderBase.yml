@@ -78,6 +78,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SetDesiredColumns(System.String[])
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SetRestriction(SuperOffice.CRM.ArchiveLists.ArchiveRestrictionInfo[])
   - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.StandardFullName
+  - SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
   langs:
   - csharp
   - vb
@@ -2144,6 +2145,38 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
+  commentId: P:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
+  id: SupportLanguage
+  parent: SuperOffice.CRM.ArchiveLists.PersonExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: SupportLanguage
+  nameWithType: PersonExtenderBase.SupportLanguage
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
+  type: Property
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ArchiveColumnInfo SupportLanguage { get; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Public Shared ReadOnly Property SupportLanguage As ArchiveColumnInfo
+  overload: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts
   commentId: P:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts
   id: DropStoppedContacts
@@ -8130,6 +8163,12 @@ references:
   name: SuperOffice.Data
   nameWithType: SuperOffice.Data
   fullName: SuperOffice.Data
+- uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
+  isExternal: true
+  name: SupportLanguage
+  nameWithType: PersonExtenderBase.SupportLanguage
+  fullName: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.SupportLanguage
 - uid: SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.PersonExtenderBase.DropStoppedContacts
   isExternal: true

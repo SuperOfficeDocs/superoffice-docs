@@ -62,7 +62,7 @@ OK
 GET /api/v1/User/CredentialTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,9 +73,9 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "consectetur",
-    "Type": "non",
-    "Description": "Right-sized reciprocal contingency",
+    "DisplayType": "placeat",
+    "Type": "possimus",
+    "Description": "Ameliorated zero defect groupware",
     "ValueControl": "Edit",
     "CanCreatePerson": false,
     "IsUserNameSupported": false,
@@ -83,8 +83,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 686
+        "FieldType": "System.Int32",
+        "FieldLength": 139
       }
     }
   }

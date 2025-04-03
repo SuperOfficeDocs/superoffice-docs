@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 962,
-  "Name": "Greenfelder-Gerhold",
-  "Tooltip": "exercitationem",
-  "Deleted": true,
-  "Rank": 648,
-  "IsCustomList": true,
+  "Id": 368,
+  "Name": "Ledner-Eichmann",
+  "Tooltip": "rerum",
+  "Deleted": false,
+  "Rank": 178,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "ListType": "fugit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldType": "System.String",
+      "FieldLength": 961
     }
   }
 }

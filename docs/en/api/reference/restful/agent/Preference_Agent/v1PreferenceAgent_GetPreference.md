@@ -87,7 +87,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 235
+  "Id": 440
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "vitae",
+  "RawValue": "voluptatibus",
   "Specification": null,
-  "DisplayValue": "aut",
-  "DisplayTooltip": "praesentium",
+  "DisplayValue": "nobis",
+  "DisplayTooltip": "aut",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 399,
-  "PrefDescId": 63,
-  "TableName": "O'Kon Group",
-  "UserPreferenceId": 413,
+  "TargetId": 312,
+  "PrefDescId": 791,
+  "TableName": "Nicolas Group",
+  "UserPreferenceId": 571,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 720
+      "FieldLength": 873
     }
   }
 }

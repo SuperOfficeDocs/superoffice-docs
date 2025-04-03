@@ -8,8 +8,11 @@ items:
   - SuperOffice.WebApi.Data.CRMScriptRunResult.#ctor
   - SuperOffice.WebApi.Data.CRMScriptRunResult.ErrorInformation
   - SuperOffice.WebApi.Data.CRMScriptRunResult.Eventdata
+  - SuperOffice.WebApi.Data.CRMScriptRunResult.Headers
   - SuperOffice.WebApi.Data.CRMScriptRunResult.Output
   - SuperOffice.WebApi.Data.CRMScriptRunResult.Parameters
+  - SuperOffice.WebApi.Data.CRMScriptRunResult.StatusCode
+  - SuperOffice.WebApi.Data.CRMScriptRunResult.StatusMessage
   - SuperOffice.WebApi.Data.CRMScriptRunResult.Success
   - SuperOffice.WebApi.Data.CRMScriptRunResult.TraceRun
   langs:
@@ -270,6 +273,105 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.StatusCode
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptRunResult.StatusCode
+  id: StatusCode
+  parent: SuperOffice.WebApi.Data.CRMScriptRunResult
+  langs:
+  - csharp
+  - vb
+  name: StatusCode
+  nameWithType: CRMScriptRunResult.StatusCode
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.StatusCode
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nThe status code which is available to be returned from Typescript scripts\n"
+  syntax:
+    content: public virtual int StatusCode { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable Property StatusCode As Integer
+  overload: SuperOffice.WebApi.Data.CRMScriptRunResult.StatusCode*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.StatusMessage
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptRunResult.StatusMessage
+  id: StatusMessage
+  parent: SuperOffice.WebApi.Data.CRMScriptRunResult
+  langs:
+  - csharp
+  - vb
+  name: StatusMessage
+  nameWithType: CRMScriptRunResult.StatusMessage
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.StatusMessage
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAn additional status message that can be sent along with the status code\n"
+  syntax:
+    content: public virtual string StatusMessage { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overridable Property StatusMessage As String
+  overload: SuperOffice.WebApi.Data.CRMScriptRunResult.StatusMessage*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.Headers
+  commentId: P:SuperOffice.WebApi.Data.CRMScriptRunResult.Headers
+  id: Headers
+  parent: SuperOffice.WebApi.Data.CRMScriptRunResult
+  langs:
+  - csharp
+  - vb
+  name: Headers
+  nameWithType: CRMScriptRunResult.Headers
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.Headers
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nOptional result headers for context that supports it\n"
+  syntax:
+    content: public virtual StringDictionary Headers { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.StringDictionary
+    content.vb: Public Overridable Property Headers As StringDictionary
+  overload: SuperOffice.WebApi.Data.CRMScriptRunResult.Headers*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -401,3 +503,28 @@ references:
   name: CRMScriptErrorInfo
   nameWithType: CRMScriptErrorInfo
   fullName: SuperOffice.WebApi.Data.CRMScriptErrorInfo
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.StatusCode*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptRunResult.StatusCode
+  isExternal: true
+  name: StatusCode
+  nameWithType: CRMScriptRunResult.StatusCode
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.StatusCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.StatusMessage*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptRunResult.StatusMessage
+  isExternal: true
+  name: StatusMessage
+  nameWithType: CRMScriptRunResult.StatusMessage
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.StatusMessage
+- uid: SuperOffice.WebApi.Data.CRMScriptRunResult.Headers*
+  commentId: Overload:SuperOffice.WebApi.Data.CRMScriptRunResult.Headers
+  isExternal: true
+  name: Headers
+  nameWithType: CRMScriptRunResult.Headers
+  fullName: SuperOffice.WebApi.Data.CRMScriptRunResult.Headers

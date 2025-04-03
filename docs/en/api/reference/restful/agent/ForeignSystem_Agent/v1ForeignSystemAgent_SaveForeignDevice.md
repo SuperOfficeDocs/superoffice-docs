@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "Bernier, Jerde and Schowalter"
+  "ApplicationName": "D'Amore, Wisozk and Sanford"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 750,
-  "Name": "Nitzsche-Cassin",
-  "CreatedDate": "2006-09-08T02:38:21.4639053+02:00",
-  "UpdatedDate": "2022-11-04T02:38:21.4639053+01:00",
-  "AssociateFullName": "Robbie Crooks",
-  "CreatedBy": "rerum",
-  "UpdatedBy": "ut",
-  "DeviceIdentifier": "quibusdam",
-  "ForeignAppId": 480,
+  "ForeignDeviceId": 989,
+  "Name": "Kub-Will",
+  "CreatedDate": "2005-02-10T14:28:22.0241429+01:00",
+  "UpdatedDate": "2001-01-25T14:28:22.0241429+01:00",
+  "AssociateFullName": "Leilani Pfannerstill DDS",
+  "CreatedBy": "tenetur",
+  "UpdatedBy": "at",
+  "DeviceIdentifier": "illo",
+  "ForeignAppId": 565,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 349
+      "FieldType": "System.Int32",
+      "FieldLength": 455
     }
   }
 }

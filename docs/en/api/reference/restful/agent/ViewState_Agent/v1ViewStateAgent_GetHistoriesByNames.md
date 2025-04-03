@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNames
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "HistoryNames": [
-    "Ankunding LLC",
-    "Kilback-Runolfsson"
+    "Littel, Champlin and Botsford",
+    "Swift-O'Connell"
   ]
 }
 ```
@@ -98,19 +98,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 333,
-    "Id": 458,
-    "HistoryName": "Lynch-Tremblay",
-    "HistoryId": 196,
-    "AssociateId": 994,
-    "Name": "Bins Inc and Sons",
-    "ItemInfo": "vel",
+    "Rank": 419,
+    "Id": 657,
+    "HistoryName": "Lowe Group",
+    "HistoryId": 639,
+    "AssociateId": 677,
+    "Name": "Denesik, Hahn and Rau",
+    "ItemInfo": "quaerat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 814
+        "FieldType": "System.String",
+        "FieldLength": 347
       }
     }
   }

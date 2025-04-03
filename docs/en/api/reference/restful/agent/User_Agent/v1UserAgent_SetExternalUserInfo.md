@@ -74,15 +74,15 @@ No Content
 POST /api/v1/Agents/User/SetExternalUserInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 51,
-  "UserName": "Bednar Inc and Sons",
-  "Password": "numquam",
-  "IsActive": false,
-  "RoleId": 106,
+  "AssociateId": 36,
+  "UserName": "Steuber-Blanda",
+  "Password": "harum",
+  "IsActive": true,
+  "RoleId": 378,
   "ExternalUserInfoModification": "Active"
 }
 ```

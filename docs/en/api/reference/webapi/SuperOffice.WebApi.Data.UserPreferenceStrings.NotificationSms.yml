@@ -5,6 +5,13 @@ items:
   id: UserPreferenceStrings.NotificationSms
   parent: SuperOffice.WebApi.Data
   children:
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
+  - SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
   - SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.Section
   langs:
   - csharp
@@ -55,6 +62,209 @@ items:
     return:
       type: System.String
     content.vb: Public Const Section As String = "notificationSms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
+  id: NotifySmsCustomMessage
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsCustomMessage
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Indicates if the user wants custom message notifications.\n"
+  syntax:
+    content: public const string NotifySmsCustomMessage = "notifySmsCustomMessage"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsCustomMessage As String = "notifySmsCustomMessage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
+  id: NotifySmsFavouriteRequest
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsFavouriteRequest
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her favourite requests are updated.\n"
+  syntax:
+    content: public const string NotifySmsFavouriteRequest = "notifySmsFavouriteRequest"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsFavouriteRequest As String = "notifySmsFavouriteRequest"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
+  id: NotifySmsRequestAssignedAway
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsRequestAssignedAway
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests were taken by someone else.\n"
+  syntax:
+    content: public const string NotifySmsRequestAssignedAway = "notifySmsRequestAssignedAway"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsRequestAssignedAway As String = "notifySmsRequestAssignedAway"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
+  id: NotifySmsRequestActivated
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsRequestActivated
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests were activated.\n"
+  syntax:
+    content: public const string NotifySmsRequestActivated = "notifySmsRequestActivated"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsRequestActivated As String = "notifySmsRequestActivated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
+  id: NotifySmsRequestEscalated
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsRequestEscalated
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests were escalated.\n"
+  syntax:
+    content: public const string NotifySmsRequestEscalated = "notifySmsRequestEscalated"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsRequestEscalated As String = "notifySmsRequestEscalated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
+  id: NotifySmsNewMessage
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsNewMessage
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests has a new message.\n"
+  syntax:
+    content: public const string NotifySmsNewMessage = "notifySmsNewMessage"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsNewMessage As String = "notifySmsNewMessage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
+  commentId: F:SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
+  id: NotifySmsNewRequest
+  parent: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsNewRequest
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
+  fullName: SuperOffice.WebApi.Data.UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n(BOOL) Indicates if the user wants notifications when he/she is assigned a new request.\n"
+  syntax:
+    content: public const string NotifySmsNewRequest = "notifySmsNewRequest"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsNewRequest As String = "notifySmsNewRequest"
   modifiers.csharp:
   - public
   - const

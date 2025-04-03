@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 487,
-  "Name": "Daniel-Quitzon",
-  "Tooltip": "quae",
-  "Rank": 688,
-  "Key": "amet",
-  "Deleted": false,
+  "LegalBaseId": 1002,
+  "Name": "Ernser Inc and Sons",
+  "Tooltip": "numquam",
+  "Rank": 928,
+  "Key": "sunt",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 334
+      "FieldType": "System.String",
+      "FieldLength": 399
     }
   }
 }

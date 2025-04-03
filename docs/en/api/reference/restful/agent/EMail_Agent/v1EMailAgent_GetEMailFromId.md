@@ -104,15 +104,15 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 630,
-  "LookupAddresses": false,
+  "MessageServerId": 555,
+  "LookupAddresses": true,
   "Flags": "Answered",
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -125,147 +125,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 996,
-      "ContactName": "Walter, Hermann and Howell",
-      "PersonId": 486,
-      "PersonName": "Schumm, Blanda and Hintz",
-      "AssociateId": 645,
-      "Address": "rerum",
-      "EmailId": 824,
+      "ContactId": 7,
+      "ContactName": "Kutch, Zulauf and Dare",
+      "PersonId": 165,
+      "PersonName": "Hilll-Runolfsdottir",
+      "AssociateId": 663,
+      "Address": "dolores",
+      "EmailId": 744,
       "DuplicatePersonIds": [
-        998,
-        104
+        695,
+        372
       ],
-      "Name": "Green Group",
+      "Name": "Conn, Marquardt and Hyatt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 631
+          "FieldLength": 193
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 950,
-      "ContactName": "Torp Group",
-      "PersonId": 507,
-      "PersonName": "Kirlin, Friesen and Grimes",
-      "AssociateId": 85,
-      "Address": "praesentium",
-      "EmailId": 550,
+      "ContactId": 899,
+      "ContactName": "Waelchi-Senger",
+      "PersonId": 922,
+      "PersonName": "Ruecker, Botsford and Parisian",
+      "AssociateId": 241,
+      "Address": "ipsa",
+      "EmailId": 842,
       "DuplicatePersonIds": [
-        458,
-        47
+        543,
+        543
       ],
-      "Name": "McClure Inc and Sons",
+      "Name": "Hand Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 3
+          "FieldLength": 444
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 391,
-      "ContactName": "Luettgen, Beatty and Haley",
-      "PersonId": 889,
-      "PersonName": "O'Conner-Schroeder",
-      "AssociateId": 385,
-      "Address": "quasi",
-      "EmailId": 318,
+      "ContactId": 171,
+      "ContactName": "Brown-Zieme",
+      "PersonId": 102,
+      "PersonName": "Effertz-Gerlach",
+      "AssociateId": 39,
+      "Address": "omnis",
+      "EmailId": 683,
       "DuplicatePersonIds": [
-        702,
-        781
+        453,
+        316
       ],
-      "Name": "Paucek-Senger",
+      "Name": "Carroll, Pfeffer and VonRueden",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 127
+          "FieldLength": 525
         }
       }
     }
   ],
   "Subject": "voluptate",
-  "HTMLBody": "est",
+  "HTMLBody": "sit",
   "From": null,
-  "Sent": "2007-03-17T02:38:21.3857927+01:00",
-  "Size": 902,
+  "Sent": "2003-09-27T14:28:21.9460219+02:00",
+  "Size": 417,
   "Priority": "High",
   "Flags": "Answered",
   "MessageID": "ut",
-  "PlainBody": "maiores",
+  "PlainBody": "quo",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 976,
+  "ServerId": 277,
   "Attachments": [
     {
-      "Description": "Optimized global functionalities",
-      "Filename": "dolore",
-      "Size": 814,
-      "Type": "rerum",
-      "Encoding": "quos",
-      "Id": "aut",
-      "Disposition": "quis",
+      "Description": "Universal static capability",
+      "Filename": "et",
+      "Size": 523,
+      "Type": "et",
+      "Encoding": "dicta",
+      "Id": "consectetur",
+      "Disposition": "sed",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 811
+          "FieldType": "System.Int32",
+          "FieldLength": 766
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Stamm, Lueilwitz and Kuphal",
+      "Name": "Runolfsdottir LLC",
       "Values": [
-        "animi",
-        "sit"
+        "voluptatibus",
+        "corporis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 81
+          "FieldType": "System.Int32",
+          "FieldLength": 793
         }
       }
     },
     {
-      "Name": "Stamm, Lueilwitz and Kuphal",
+      "Name": "Runolfsdottir LLC",
       "Values": [
-        "animi",
-        "sit"
+        "voluptatibus",
+        "corporis"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 81
+          "FieldType": "System.Int32",
+          "FieldLength": 793
         }
       }
     }
   ],
-  "FolderName": "Lowe LLC",
-  "EmailItemId": 775,
-  "AccountId": 223,
-  "ReceivedAt": "2023-11-10T02:38:21.3857927+01:00",
+  "FolderName": "Bradtke Inc and Sons",
+  "EmailItemId": 460,
+  "AccountId": 3,
+  "ReceivedAt": "2009-09-08T14:28:21.9460219+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2017-05-07T02:38:21.3857927+02:00",
+  "RepliedAt": "2007-07-11T14:28:21.9460219+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 282
+      "FieldType": "System.Int32",
+      "FieldLength": 161
     }
   }
 }

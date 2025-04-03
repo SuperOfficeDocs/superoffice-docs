@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 633,
-  "Name": "Dach Group",
-  "Tooltip": "dicta",
-  "Rank": 130,
-  "Key": "commodi",
-  "MailTemplateId": 253,
+  "ConsentSourceId": 539,
+  "Name": "Bartell-Ullrich",
+  "Tooltip": "impedit",
+  "Rank": 372,
+  "Key": "quibusdam",
+  "MailTemplateId": 299,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

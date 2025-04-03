@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 754,
-    "Name": "Purdy-Lowe",
-    "Tooltip": "in",
-    "Deleted": true,
-    "UdListDefinitionId": 338,
-    "Rank": 574
+    "Id": 50,
+    "Name": "VonRueden Inc and Sons",
+    "Tooltip": "possimus",
+    "Deleted": false,
+    "UdListDefinitionId": 713,
+    "Rank": 1002
   },
   {
-    "Id": 754,
-    "Name": "Purdy-Lowe",
-    "Tooltip": "in",
-    "Deleted": true,
-    "UdListDefinitionId": 338,
-    "Rank": 574
+    "Id": 50,
+    "Name": "VonRueden Inc and Sons",
+    "Tooltip": "possimus",
+    "Deleted": false,
+    "UdListDefinitionId": 713,
+    "Rank": 1002
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 992,
-    "Name": "Schoen Group",
-    "Tooltip": "nihil",
-    "Deleted": true,
-    "UdListDefinitionId": 846,
-    "Rank": 678,
+    "Id": 349,
+    "Name": "Cole, Batz and Lebsack",
+    "Tooltip": "fuga",
+    "Deleted": false,
+    "UdListDefinitionId": 713,
+    "Rank": 360,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 3
+        "FieldType": "System.Int32",
+        "FieldLength": 240
       }
     }
   }

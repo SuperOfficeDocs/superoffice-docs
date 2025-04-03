@@ -26,7 +26,7 @@ Gets a ContactRelationEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=12
+POST /api/v1/Agents/Relation/GetContactRelationEntity?contactRelationEntityId=403
 POST /api/v1/Agents/Relation/GetContactRelationEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Relation/GetContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 224,
-  "SourcePersonId": 172,
-  "DestinationContactId": 149,
-  "DestinationPersonId": 912,
-  "RelationId": 853,
-  "Comment": "unde",
-  "RelationDefinitionId": 454,
-  "Reversed": 806,
-  "UpdatedDate": "2006-02-22T02:38:21.7919947+01:00",
-  "CreatedDate": "2017-01-30T02:38:21.7919947+01:00",
+  "SourceContactId": 100,
+  "SourcePersonId": 571,
+  "DestinationContactId": 51,
+  "DestinationPersonId": 648,
+  "RelationId": 313,
+  "Comment": "aut",
+  "RelationDefinitionId": 511,
+  "Reversed": 802,
+  "UpdatedDate": "2020-11-20T14:28:22.321006+01:00",
+  "CreatedDate": "2018-11-18T14:28:22.321006+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Wuckert, Heaney and McKenzie",
-  "SourcePersonName": "Farrell, Rogahn and Ward",
-  "DestinationContactName": "Jakubowski, Walker and Nitzsche",
-  "DestinationPersonName": "Larkin LLC",
-  "ActiveText": "aspernatur",
-  "PassiveText": "commodi",
+  "SourceContactName": "Rutherford-Sauer",
+  "SourcePersonName": "Sauer LLC",
+  "DestinationContactName": "Pollich, Huels and Medhurst",
+  "DestinationPersonName": "Thompson, Walsh and Champlin",
+  "ActiveText": "id",
+  "PassiveText": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldLength": 702
     }
   }
 }

@@ -100,11 +100,11 @@ OK
 POST /api/v1/Agents/User/SaveUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Hessel, Maggio and King",
+  "UserName": "Zboncak LLC",
   "User": null
 }
 ```
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 333,
-  "Name": "Padberg, Zemlak and Orn",
-  "Rank": 118,
-  "Tooltip": "qui",
+  "AssociateId": 236,
+  "Name": "Kuvalis, Ryan and Hoppe",
+  "Rank": 228,
+  "Tooltip": "non",
   "LicenseOwners": [
     {
-      "Name": "Mayert-Hayes",
-      "Description": "Diverse 4th generation website",
+      "Name": "Carroll, Hamill and Hickle",
+      "Description": "Fundamental tangible framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 977
+          "FieldType": "System.Int32",
+          "FieldLength": 99
         }
       }
     },
     {
-      "Name": "Mayert-Hayes",
-      "Description": "Diverse 4th generation website",
+      "Name": "Carroll, Hamill and Hickle",
+      "Description": "Fundamental tangible framework",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 977
+          "FieldType": "System.Int32",
+          "FieldLength": 99
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "illum",
-      "Tooltip": "quos",
-      "Id": 882,
-      "Rank": 239,
+      "Value": "rem",
+      "Tooltip": "animi",
+      "Id": 427,
+      "Rank": 477,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 8
+          "FieldLength": 979
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2018-03-09T02:38:22.2137894+01:00",
-  "Lastlogout": "2023-04-16T02:38:22.2137894+02:00",
-  "EjUserId": 405,
-  "RequestSignature": "debitis",
+  "Lastlogin": "2025-02-01T14:28:22.7116081+01:00",
+  "Lastlogout": "2004-08-06T14:28:22.7116081+02:00",
+  "EjUserId": 20,
+  "RequestSignature": "tempore",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "deserunt",
-      "DisplayValue": "sunt",
+      "Value": "vero",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 66
+          "FieldLength": 53
         }
       }
     },
     {
       "Type": null,
-      "Value": "deserunt",
-      "DisplayValue": "sunt",
+      "Value": "vero",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 66
+          "FieldLength": 53
         }
       }
     }
   ],
-  "UserName": "Morissette Inc and Sons",
+  "UserName": "Sipes, Howell and Huel",
   "TicketCategories": [
     {
-      "Id": 652,
-      "Name": "Mraz LLC",
-      "ToolTip": "In tempora qui voluptas animi excepturi vel error.",
-      "Deleted": false,
-      "Rank": 286,
-      "Type": "ut",
+      "Id": 217,
+      "Name": "Satterfield Inc and Sons",
+      "ToolTip": "Dicta ut est enim maxime et aliquid et.",
+      "Deleted": true,
+      "Rank": 476,
+      "Type": "sit",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quasi",
-      "ColorBlock": 940,
-      "ExtraInfo": "iste",
-      "StyleHint": "incidunt",
-      "FullName": "Ralph Jenkins",
+      "IconHint": "nemo",
+      "ColorBlock": 721,
+      "ExtraInfo": "quis",
+      "StyleHint": "molestiae",
+      "FullName": "Dr. Melvina Funk",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 850
+          "FieldType": "System.Int32",
+          "FieldLength": 584
         }
       }
     }
   ],
-  "NickName": "Sporer-Padberg",
-  "WaitingForApproval": true,
+  "NickName": "Kreiger-Pfeffer",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "quis"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "corrupti"
   },
   "CustomFields": {
-    "CustomFields1": "aliquam",
-    "CustomFields2": "et"
+    "CustomFields1": "ut",
+    "CustomFields2": "non"
   },
   "PostSaveCommands": [
     {
-      "Name": "Hoppe LLC",
-      "DisplayName": "Harris, Hansen and Dibbert",
-      "Description": "Proactive value-added frame",
-      "ToolTip": "Consequuntur qui quia fuga voluptatem.",
+      "Name": "Roberts-Hilll",
+      "DisplayName": "Fahey Group",
+      "Description": "Advanced grid-enabled neural-net",
+      "ToolTip": "Cumque animi modi accusantium quos dolores velit eveniet.",
       "Actions": "Implicit",
-      "ActionData": "eos",
+      "ActionData": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 896
+          "FieldLength": 156
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 483
+      "FieldType": "System.Int32",
+      "FieldLength": 450
     }
   }
 }

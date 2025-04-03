@@ -26,8 +26,8 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Rating/MDOItems?flat=True
-GET /api/v1/List/Rating/MDOItems?query=quos
+GET /api/v1/List/Rating/MDOItems?flat=False
+GET /api/v1/List/Rating/MDOItems?query=error
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 840,
-    "Name": "Grady, Howell and Hackett",
-    "ToolTip": "Debitis sunt et voluptas praesentium natus aut.",
-    "Deleted": false,
-    "Rank": 538,
-    "Type": "veniam",
+    "Id": 65,
+    "Name": "Yundt, Mills and Bins",
+    "ToolTip": "Animi quaerat magnam voluptatibus.",
+    "Deleted": true,
+    "Rank": 388,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 942,
-        "Name": "Dickinson, Kutch and Ankunding",
-        "ToolTip": "Delectus est aliquam expedita ut illo non incidunt.",
+        "Id": 912,
+        "Name": "Baumbach-Schmeler",
+        "ToolTip": "Quis et consequatur consequatur.",
         "Deleted": false,
-        "Rank": 894,
-        "Type": "inventore",
+        "Rank": 914,
+        "Type": "illum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "labore",
-        "ColorBlock": 952,
-        "ExtraInfo": "neque",
-        "StyleHint": "perferendis",
-        "FullName": "Cathrine Nathan Rodriguez DDS",
+        "IconHint": "enim",
+        "ColorBlock": 700,
+        "ExtraInfo": "id",
+        "StyleHint": "vitae",
+        "FullName": "Else Macejkovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 207
+            "FieldType": "System.String",
+            "FieldLength": 269
           }
         }
       }
     ],
-    "IconHint": "deserunt",
-    "ColorBlock": 323,
-    "ExtraInfo": "et",
-    "StyleHint": "aliquid",
-    "FullName": "Kip Shields",
+    "IconHint": "id",
+    "ColorBlock": 565,
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "illum",
+    "FullName": "Eden Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 613
+        "FieldLength": 1002
       }
     }
   }

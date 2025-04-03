@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 622,
-  "Name": "Gulgowski Inc and Sons",
-  "Tooltip": "error",
-  "Deleted": true,
-  "UdListDefinitionId": 469,
-  "Rank": 2
+  "Id": 907,
+  "Name": "Feeney, Hammes and Wolff",
+  "Tooltip": "corporis",
+  "Deleted": false,
+  "UdListDefinitionId": 1002,
+  "Rank": 59
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 296,
-  "Name": "Stehr Inc and Sons",
-  "Tooltip": "et",
-  "Deleted": false,
-  "UdListDefinitionId": 860,
-  "Rank": 329,
+  "Id": 478,
+  "Name": "Pfannerstill Group",
+  "Tooltip": "consectetur",
+  "Deleted": true,
+  "UdListDefinitionId": 833,
+  "Rank": 574,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 996
+      "FieldType": "System.Int32",
+      "FieldLength": 976
     }
   }
 }

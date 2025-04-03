@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 968,
-  "Name": "Lang Inc and Sons",
-  "Tooltip": "assumenda",
-  "Deleted": false,
-  "Rank": 800,
-  "UdListDefinitionId": 102
+  "HeadingId": 186,
+  "Name": "Reichert, Bergstrom and Weimann",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 887,
+  "UdListDefinitionId": 333
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 286,
-  "Name": "Sanford, Mayert and Bauch",
-  "Tooltip": "ut",
+  "HeadingId": 558,
+  "Name": "Brakus Group",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "Rank": 384,
-  "UdListDefinitionId": 409,
+  "Rank": 820,
+  "UdListDefinitionId": 597,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 392
+      "FieldType": "System.String",
+      "FieldLength": 933
     }
   }
 }

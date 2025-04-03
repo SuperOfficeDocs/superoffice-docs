@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 959
+  "ErpConnectionId": 110
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 500,
-  "ErpConnectorId": 236,
-  "DisplayName": "Jones, McDermott and Bernhard",
-  "DisplayDescription": "Ameliorated 4th generation leverage",
+  "ErpConnectionId": 380,
+  "ErpConnectorId": 368,
+  "DisplayName": "Robel-Mohr",
+  "DisplayDescription": "Reverse-engineered zero administration standardization",
   "Active": false,
-  "ConnectionId": "culpa",
-  "MostRecentTimestamp": "aspernatur",
+  "ConnectionId": "occaecati",
+  "MostRecentTimestamp": "qui",
   "ConfigFields": {
-    "ConfigFields1": "molestiae",
-    "ConfigFields2": "id"
+    "ConfigFields1": "quas",
+    "ConfigFields2": "excepturi"
   },
   "Deleted": false,
-  "AllAccess": true,
+  "AllAccess": false,
   "UserGroupAccessIds": [
-    325,
-    949
+    924,
+    616
   ],
   "AssociateAccessIds": [
-    709,
-    957
+    338,
+    622
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 674
+      "FieldLength": 305
     }
   }
 }

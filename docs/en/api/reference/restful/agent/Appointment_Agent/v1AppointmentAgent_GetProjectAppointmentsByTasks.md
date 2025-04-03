@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,17 +132,17 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 358,
-  "StartTime": "1998-08-04T02:38:20.557605+02:00",
-  "EndTime": "2018-03-07T02:38:20.557605+01:00",
-  "Count": 280,
+  "ProjectId": 315,
+  "StartTime": "2008-02-08T14:28:21.1491785+01:00",
+  "EndTime": "1998-01-02T14:28:21.1491785+01:00",
+  "Count": 281,
   "TaskIds": [
-    204,
-    17
+    692,
+    373
   ]
 }
 ```
@@ -154,65 +155,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 784,
-    "StartDate": "2018-11-17T02:38:20.557605+01:00",
-    "EndDate": "2013-02-14T02:38:20.557605+01:00",
+    "AppointmentId": 984,
+    "StartDate": "2017-10-30T14:28:21.1491785+01:00",
+    "EndDate": "1999-12-13T14:28:21.1491785+01:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Mozell Rutherford",
-    "ContactName": "Kulas-Haag",
-    "Description": "Inverse bandwidth-monitored contingency",
-    "PersonFullName": "Prof. Vella Calista Tremblay IV",
-    "PersonId": 557,
-    "ContactId": 861,
-    "ProjectId": 813,
-    "ProjectName": "Kling LLC",
+    "Task": "qui",
+    "AssociateFullName": "Bryce Jenkins",
+    "ContactName": "Walter LLC",
+    "Description": "Mandatory holistic matrix",
+    "PersonFullName": "Mr. Freida Bradley Schmeler Sr.",
+    "PersonId": 739,
+    "ContactId": 458,
+    "ProjectId": 77,
+    "ProjectName": "Dickens, Sawayn and Hermiston",
     "IsPublished": false,
-    "AssociateId": 877,
-    "ColorIndex": 577,
+    "AssociateId": 459,
+    "ColorIndex": 230,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 494,
-    "PriorityName": "Sanford Inc and Sons",
+    "PriorityId": 426,
+    "PriorityName": "Jewess, Bahringer and Johnson",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2009-03-14T02:38:20.557605+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2020-12-03T14:28:21.1491785+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-01-22T02:38:20.557605+01:00",
-    "RecurringEndDate": "2017-02-25T02:38:20.557605+01:00",
-    "MotherId": 49,
-    "AssignedBy": 438,
-    "AssignedByFullName": "Laron Bosco",
+    "RecurringStartDate": "2004-01-19T14:28:21.1491785+01:00",
+    "RecurringEndDate": "2013-03-01T14:28:21.1491785+01:00",
+    "MotherId": 616,
+    "AssignedBy": 799,
+    "AssignedByFullName": "Elroy Orn II",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "labore",
-    "SaleId": 228,
-    "SaleName": "Wunsch LLC",
-    "AssociateName": "VonRueden-Klein",
-    "CreatedDate": "2024-05-10T02:38:20.557605+02:00",
-    "CreatedBy": "inventore",
-    "CreatedByFullName": "Cindy Davis",
-    "CreatedByAssociateId": 610,
+    "Location": "quaerat",
+    "AlarmLeadTime": "eum",
+    "SaleId": 538,
+    "SaleName": "Kuhn-Veum",
+    "AssociateName": "Witting, Gerlach and Toy",
+    "CreatedDate": "2018-03-05T14:28:21.1491785+01:00",
+    "CreatedBy": "porro",
+    "CreatedByFullName": "Ben Ernser",
+    "CreatedByAssociateId": 749,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 803,
-    "Title": "minus",
-    "Agenda": "dolorum",
-    "InternalNotes": "qui",
+    "PreferredTZLocation": 458,
+    "Title": "ut",
+    "Agenda": "et",
+    "InternalNotes": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 112
+        "FieldType": "System.String",
+        "FieldLength": 273
       }
     }
   }

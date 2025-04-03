@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBaseList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 184,
-    "Name": "Tremblay LLC",
-    "Tooltip": "quam",
-    "Rank": 3,
-    "Key": "alias",
-    "Deleted": false,
+    "LegalBaseId": 987,
+    "Name": "Flatley-Mohr",
+    "Tooltip": "tenetur",
+    "Rank": 2,
+    "Key": "cumque",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 664
+        "FieldLength": 452
       }
     }
   }

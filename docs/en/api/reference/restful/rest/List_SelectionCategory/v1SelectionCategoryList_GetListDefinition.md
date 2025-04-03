@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Schamberger, Marquardt and Ortiz",
-  "Tooltip": "error",
-  "Deleted": false,
-  "Rank": 927,
-  "IsCustomList": false,
+  "Id": 831,
+  "Name": "Rosenbaum, Kunze and Denesik",
+  "Tooltip": "molestiae",
+  "Deleted": true,
+  "Rank": 276,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "hic",
+  "ListType": "ut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 789
+      "FieldType": "System.String",
+      "FieldLength": 66
     }
   },
   "_Links": {

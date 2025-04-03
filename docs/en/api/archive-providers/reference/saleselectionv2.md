@@ -1312,7 +1312,7 @@ This is the archive Provider for the Selection sale archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleSelectionV2?$select=associate/assocTooltip,appointment/associate/contactDepartment,appointment/associate/contactFullName,document/associate/contactId,document/associate/isActiveText
+GET /api/v1/archive/SaleSelectionV2?$select=person/personExtra/x_person_boolean,contact/number,contact/contactAssociate/contactCategory,appointment/appointmentUdef/SuperOffice:1,document/documentUdef/SuperOffice:1
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

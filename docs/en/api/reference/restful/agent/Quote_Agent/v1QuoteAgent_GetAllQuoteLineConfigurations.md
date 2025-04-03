@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetAllQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 334,
-    "FieldName": "Jerde-Kozey",
-    "Label": "odio",
-    "Tooltip": "accusantium",
+    "QuoteLineConfigurationId": 981,
+    "FieldName": "Abbott Group",
+    "Label": "non",
+    "Tooltip": "officia",
     "Editable": false,
-    "InUse": true,
-    "Mandatory": true,
-    "Rank": 246,
+    "InUse": false,
+    "Mandatory": false,
+    "Rank": 332,
     "RestrictEdit": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 420
+        "FieldLength": 434
       }
     }
   }

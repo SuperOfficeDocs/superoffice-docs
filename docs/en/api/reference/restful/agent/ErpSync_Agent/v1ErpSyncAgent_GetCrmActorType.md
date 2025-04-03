@@ -75,7 +75,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 846,
+  "ErpConnectionId": 870,
   "ErpActorType": "Customer"
 }
 ```

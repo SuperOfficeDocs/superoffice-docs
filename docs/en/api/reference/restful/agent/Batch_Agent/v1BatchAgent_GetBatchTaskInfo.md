@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 868
+  "Id": 253
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 120,
-  "Name": "Purdy LLC",
-  "AssociateId": 286,
-  "DetailsTable": 909,
-  "DetailsRecord": 261,
+  "Id": 349,
+  "Name": "Gulgowski, Wolff and Barrows",
+  "AssociateId": 38,
+  "DetailsTable": 688,
+  "DetailsRecord": 640,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "corporis",
-    "ParameterObject2": "natus"
+    "ParameterObject1": "tempore",
+    "ParameterObject2": "voluptatibus"
   },
-  "LastStarted": "2003-08-22T02:38:20.885843+02:00",
-  "Created": "2024-07-08T02:38:20.885843+02:00",
-  "StartCount": 828,
-  "DatabaseSerialNumber": "1188626",
-  "Context": "id",
-  "Result": "perspiciatis",
+  "LastStarted": "2021-06-05T14:28:21.47729+02:00",
+  "Created": "2008-06-02T14:28:21.47729+02:00",
+  "StartCount": 154,
+  "DatabaseSerialNumber": "1139903",
+  "Context": "odio",
+  "Result": "consequatur",
   "State": "All",
-  "Description": "Automated demand-driven model",
-  "Response": "quo",
-  "Request": "enim",
-  "ProgressDescription": "Down-sized exuding groupware",
-  "ProgressPercent": 167,
-  "FileName": "Cummings, Haley and Batz",
+  "Description": "Phased methodical algorithm",
+  "Response": "et",
+  "Request": "beatae",
+  "ProgressDescription": "Exclusive regional website",
+  "ProgressPercent": 663,
+  "FileName": "Bergnaum, Wilderman and Kunze",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 626
+      "FieldType": "System.Int32",
+      "FieldLength": 810
     }
   }
 }

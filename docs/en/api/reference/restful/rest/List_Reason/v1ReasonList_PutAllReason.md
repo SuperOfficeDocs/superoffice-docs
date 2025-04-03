@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Rutherford-Johns",
-    "Tooltip": "recusandae",
+    "Id": 935,
+    "Name": "Zieme Inc and Sons",
+    "Tooltip": "ipsa",
     "Deleted": true,
-    "UdListDefinitionId": 487,
-    "Rank": 323
+    "UdListDefinitionId": 900,
+    "Rank": 254
   },
   {
-    "Id": 903,
-    "Name": "Rutherford-Johns",
-    "Tooltip": "recusandae",
+    "Id": 935,
+    "Name": "Zieme Inc and Sons",
+    "Tooltip": "ipsa",
     "Deleted": true,
-    "UdListDefinitionId": 487,
-    "Rank": 323
+    "UdListDefinitionId": 900,
+    "Rank": 254
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Anderson Inc and Sons",
-    "Tooltip": "maiores",
+    "Id": 589,
+    "Name": "Champlin, Fay and Runolfsson",
+    "Tooltip": "sequi",
     "Deleted": false,
-    "UdListDefinitionId": 269,
-    "Rank": 745,
+    "UdListDefinitionId": 513,
+    "Rank": 536,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 924
+        "FieldType": "System.String",
+        "FieldLength": 478
       }
     }
   }

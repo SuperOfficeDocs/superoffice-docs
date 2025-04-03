@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 409,
+  "SystemEventId": 100,
   "Scope": "Database",
-  "Eta": "1999-08-25T02:38:20.995206+02:00",
-  "Eventkey": "voluptate",
-  "Eventmess": "dolorem",
-  "ExtraInfo": 268,
-  "Owner": 421,
-  "UpdatedCount": 818,
-  "Registered": "2018-11-03T02:38:20.995206+01:00",
+  "Eta": "2015-01-12T14:28:21.5866608+01:00",
+  "Eventkey": "itaque",
+  "Eventmess": "molestiae",
+  "ExtraInfo": 521,
+  "Owner": 183,
+  "UpdatedCount": 363,
+  "Registered": "2013-07-21T14:28:21.5866608+02:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 897,
+  "SystemEventId": 773,
   "Scope": "Database",
-  "Eta": "1999-04-18T02:38:20.995206+02:00",
-  "Eventkey": "error",
-  "Eventmess": "error",
-  "ExtraInfo": 167,
-  "Owner": 877,
-  "UpdatedCount": 756,
-  "Registered": "2019-11-15T02:38:20.995206+01:00",
+  "Eta": "2022-04-21T14:28:21.5866608+02:00",
+  "Eventkey": "molestiae",
+  "Eventmess": "id",
+  "ExtraInfo": 519,
+  "Owner": 231,
+  "UpdatedCount": 559,
+  "Registered": "1998-07-21T14:28:21.5866608+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 517
+      "FieldLength": 514
     }
   }
 }

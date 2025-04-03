@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 374,
-      "ContactName": "Muller, Rath and Roberts",
-      "PersonId": 627,
-      "PersonName": "Deckow LLC",
-      "AssociateId": 826,
-      "Address": "in",
-      "EmailId": 637,
+      "ContactId": 799,
+      "ContactName": "Bartell Inc and Sons",
+      "PersonId": 677,
+      "PersonName": "Gulgowski LLC",
+      "AssociateId": 10,
+      "Address": "ad",
+      "EmailId": 973,
       "DuplicatePersonIds": [
-        740,
-        461
+        45,
+        681
       ],
-      "Name": "Senger LLC",
+      "Name": "Farrell LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 186
+          "FieldType": "System.Int32",
+          "FieldLength": 923
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 349,
-      "ContactName": "Roob-Quigley",
-      "PersonId": 171,
-      "PersonName": "Lakin-Schneider",
-      "AssociateId": 808,
-      "Address": "deserunt",
-      "EmailId": 841,
+      "ContactId": 511,
+      "ContactName": "Volkman, Beahan and Mayert",
+      "PersonId": 595,
+      "PersonName": "Herzog LLC",
+      "AssociateId": 708,
+      "Address": "quisquam",
+      "EmailId": 478,
       "DuplicatePersonIds": [
-        688,
-        826
+        639,
+        124
       ],
-      "Name": "Barrows, Turcotte and Hirthe",
+      "Name": "Mann-Pacocha",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 10
+          "FieldType": "System.String",
+          "FieldLength": 751
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 879,
-      "ContactName": "Considine, Connelly and Cormier",
-      "PersonId": 571,
-      "PersonName": "Carroll Inc and Sons",
-      "AssociateId": 86,
-      "Address": "vel",
-      "EmailId": 129,
+      "ContactId": 184,
+      "ContactName": "Hessel-Gaylord",
+      "PersonId": 371,
+      "PersonName": "Sanford-Hegmann",
+      "AssociateId": 61,
+      "Address": "cumque",
+      "EmailId": 808,
       "DuplicatePersonIds": [
-        178,
-        10
+        231,
+        958
       ],
-      "Name": "Altenwerth Inc and Sons",
+      "Name": "Morissette Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 848
         }
       }
     }
   ],
-  "Subject": "nemo",
-  "HTMLBody": "sed",
+  "Subject": "rerum",
+  "HTMLBody": "rerum",
   "From": null,
-  "Sent": "2006-12-15T02:38:21.3232921+01:00",
-  "Size": 115,
+  "Sent": "2024-09-18T14:28:21.8991479+02:00",
+  "Size": 712,
   "Priority": "High",
   "Flags": "Answered",
   "MessageID": "ut",
-  "PlainBody": "alias",
-  "IsSent": false,
+  "PlainBody": "et",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 830,
+  "ServerId": 78,
   "Attachments": [
     {
-      "Description": "Extended bi-directional moderator",
-      "Filename": "aut",
-      "Size": 494,
-      "Type": "temporibus",
-      "Encoding": "nemo",
-      "Id": "accusantium",
-      "Disposition": "beatae",
-      "IsSafeFileExtension": false,
+      "Description": "Polarised regional system engine",
+      "Filename": "voluptas",
+      "Size": 252,
+      "Type": "totam",
+      "Encoding": "eos",
+      "Id": "quod",
+      "Disposition": "quisquam",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 863
+          "FieldType": "System.Int32",
+          "FieldLength": 18
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Mayert LLC",
+      "Name": "Prohaska-Schuppe",
       "Values": [
-        "molestiae",
-        "cumque"
+        "enim",
+        "maxime"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 686
         }
       }
     },
     {
-      "Name": "Mayert LLC",
+      "Name": "Prohaska-Schuppe",
       "Values": [
-        "molestiae",
-        "cumque"
+        "enim",
+        "maxime"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 355
+          "FieldLength": 686
         }
       }
     }
   ],
-  "FolderName": "Ruecker, Jacobs and Goldner",
-  "EmailItemId": 815,
-  "AccountId": 213,
-  "ReceivedAt": "2010-01-05T02:38:21.3232921+01:00",
+  "FolderName": "Baumbach, Jast and Lind",
+  "EmailItemId": 936,
+  "AccountId": 343,
+  "ReceivedAt": "2006-02-20T14:28:21.8991479+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-06-16T02:38:21.3232921+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2007-07-22T14:28:21.8991479+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldLength": 139
     }
   }
 }

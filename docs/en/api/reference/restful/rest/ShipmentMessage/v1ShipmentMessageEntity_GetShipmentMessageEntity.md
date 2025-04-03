@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,33 +103,33 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 284,
-  "PlainMessage": "ab",
-  "HtmlMessage": "numquam",
-  "SmsMessage": "ullam",
-  "Description": "Multi-layered logistical synergy",
-  "Subject": "quis",
-  "FolderId": 612,
-  "HeaderField": "suscipit",
-  "Design": "molestiae",
+  "ShipmentMessageId": 305,
+  "PlainMessage": "enim",
+  "HtmlMessage": "unde",
+  "SmsMessage": "molestiae",
+  "Description": "Networked 4th generation strategy",
+  "Subject": "in",
+  "FolderId": 656,
+  "HeaderField": "soluta",
+  "Design": "nulla",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Mandatory secondary middleware",
-  "AccessKey": "voluptate",
-  "DocumentMessage": 387,
-  "Registered": "2015-08-26T02:38:26.4329026+02:00",
-  "RegisteredAssociateId": 92,
-  "Updated": "2019-05-10T02:38:26.4329026+02:00",
-  "UpdatedAssociateId": 418,
-  "UpdatedCount": 887,
+  "InlineImages": true,
+  "LongDescription": "Business-focused real-time concept",
+  "AccessKey": "dignissimos",
+  "DocumentMessage": 67,
+  "Registered": "2003-05-18T14:28:27.2583066+02:00",
+  "RegisteredAssociateId": 532,
+  "Updated": "2011-05-14T14:28:27.2583066+02:00",
+  "UpdatedAssociateId": 56,
+  "UpdatedCount": 927,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 124
+      "FieldLength": 883
     }
   },
   "_Links": {

@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Buckridge, Block and Welch",
-      "Operator": "dignissimos",
+      "Name": "Bergstrom-Goodwin",
+      "Operator": "et",
       "Values": [
-        "commodi",
-        "repudiandae"
+        "inventore",
+        "laboriosam"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "minima"
+        "qui",
+        "quia"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 21,
+      "InterParenthesis": 596,
       "InterOperator": "And",
-      "UniqueHash": 854
+      "UniqueHash": 929
     }
   ]
 }
@@ -120,44 +120,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gulgowski, Bruen and Hoeger",
-    "Operator": "non",
+    "Name": "Legros-Osinski",
+    "Operator": "saepe",
     "Values": [
-      "ipsum",
-      "omnis"
+      "repellat",
+      "porro"
     ],
     "DisplayValues": [
-      "consequatur",
-      "laboriosam"
+      "est",
+      "nemo"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Batz, Macejkovic and Bayer",
-        "Operator": "sit",
+        "Name": "Leannon, Cremin and Abbott",
+        "Operator": "aut",
         "Values": [
-          "veritatis",
-          "quas"
+          "soluta",
+          "recusandae"
         ],
         "DisplayValues": [
-          "aperiam",
-          "sunt"
+          "voluptas",
+          "est"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 581,
+        "InterParenthesis": 108,
         "InterOperator": "And",
-        "UniqueHash": 336
+        "UniqueHash": 398
       }
     ],
-    "InterParenthesis": 711,
+    "InterParenthesis": 560,
     "InterOperator": "And",
-    "UniqueHash": 966
+    "UniqueHash": 759
   }
 ]
 ```

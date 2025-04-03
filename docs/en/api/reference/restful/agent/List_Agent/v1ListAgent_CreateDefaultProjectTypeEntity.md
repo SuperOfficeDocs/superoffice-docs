@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 325,
-  "Name": "Bahringer LLC",
-  "Tooltip": "iste",
-  "Rank": 921,
+  "ProjTypeId": 962,
+  "Name": "Buckridge-Haley",
+  "Tooltip": "eveniet",
+  "Rank": 234,
   "DurationUnit": "Century",
-  "ProjectDuration": 303,
-  "Deleted": false,
-  "HasGuide": false,
+  "ProjectDuration": 154,
+  "Deleted": true,
+  "HasGuide": true,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 410,
-      "Name": "Frami Inc and Sons",
-      "ToolTip": "Eos quo sint iste.",
-      "Deleted": false,
-      "Rank": 218,
-      "Type": "hic",
-      "ColorBlock": 377,
-      "IconHint": "possimus",
+      "Id": 85,
+      "Name": "Homenick, Klocko and Abernathy",
+      "ToolTip": "Consequatur dolorem sequi impedit quaerat et praesentium.",
+      "Deleted": true,
+      "Rank": 100,
+      "Type": "quis",
+      "ColorBlock": 722,
+      "IconHint": "qui",
       "Selected": false,
-      "LastChanged": "2004-09-24T02:38:21.5420262+02:00",
+      "LastChanged": "2015-12-15T14:28:22.0866401+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "similique",
-      "StyleHint": "enim",
+      "ExtraInfo": "eaque",
+      "StyleHint": "libero",
       "Hidden": false,
-      "FullName": "Raymond Herzog",
+      "FullName": "Kamren Marks",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 141
+          "FieldType": "System.Int32",
+          "FieldLength": 567
         }
       }
     }
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldLength": 393
     }
   }
 }

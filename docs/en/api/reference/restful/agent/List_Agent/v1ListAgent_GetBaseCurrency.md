@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 630,
-  "Name": "Moore-Hagenes",
-  "Tooltip": "nulla",
-  "Rank": 300,
-  "Rate": 30293.244,
-  "Units": 1977.5539999999999,
+  "CurrencyId": 439,
+  "Name": "Howe-Haag",
+  "Tooltip": "ipsa",
+  "Rank": 942,
+  "Rate": 7487.126,
+  "Units": 8082.5859999999993,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 559
+      "FieldType": "System.Int32",
+      "FieldLength": 300
     }
   }
 }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Audience/SaveConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Koelpin-Deckow",
+  "LayoutName": "Anderson Inc and Sons",
   "ConfigParameter": null
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 953,
-  "Name": "Lakin-Stroman",
-  "Value": "expedita",
-  "CreatedDate": "2000-02-18T02:38:20.8702208+01:00",
-  "UpdatedDate": "2019-03-09T02:38:20.8702208+01:00",
-  "CreatedBy": "quis",
-  "UpdatedBy": "quos",
+  "AudienceLayoutId": 857,
+  "Name": "Ondricka Group",
+  "Value": "omnis",
+  "CreatedDate": "2004-01-06T14:28:21.47729+01:00",
+  "UpdatedDate": "2022-11-03T14:28:21.47729+01:00",
+  "CreatedBy": "optio",
+  "UpdatedBy": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldLength": 357
     }
   }
 }

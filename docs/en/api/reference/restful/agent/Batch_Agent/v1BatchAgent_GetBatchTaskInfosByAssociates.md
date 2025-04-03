@@ -94,13 +94,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    650,
-    303
+    869,
+    847
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 806,
-    "Name": "Gottlieb LLC",
-    "AssociateId": 231,
-    "DetailsTable": 726,
-    "DetailsRecord": 153,
+    "Id": 608,
+    "Name": "Daniel Group",
+    "AssociateId": 666,
+    "DetailsTable": 812,
+    "DetailsRecord": 701,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "officia",
-      "ParameterObject2": "similique"
+      "ParameterObject1": "vitae",
+      "ParameterObject2": "aliquid"
     },
-    "LastStarted": "2014-08-11T02:38:20.885843+02:00",
-    "Created": "1998-08-08T02:38:20.885843+02:00",
-    "StartCount": 234,
-    "DatabaseSerialNumber": "1530301",
-    "Context": "qui",
-    "Result": "dolores",
+    "LastStarted": "2009-09-19T14:28:21.4929147+02:00",
+    "Created": "2003-12-04T14:28:21.4929147+01:00",
+    "StartCount": 97,
+    "DatabaseSerialNumber": "754157",
+    "Context": "corporis",
+    "Result": "aut",
     "State": "All",
-    "Description": "Upgradable even-keeled strategy",
-    "Response": "temporibus",
-    "Request": "similique",
-    "ProgressDescription": "Devolved bifurcated contingency",
-    "ProgressPercent": 20,
-    "FileName": "Aufderhar, Kemmer and Becker",
+    "Description": "Front-line non-volatile hierarchy",
+    "Response": "maxime",
+    "Request": "repellendus",
+    "ProgressDescription": "Upgradable optimizing hierarchy",
+    "ProgressPercent": 571,
+    "FileName": "Kihn-Cormier",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 84
+        "FieldLength": 229
       }
     }
   }

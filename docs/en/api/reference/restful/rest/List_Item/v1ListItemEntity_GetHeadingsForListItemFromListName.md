@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 680,
-    "Name": "Kassulke Inc and Sons",
-    "ToolTip": "Ducimus quia illo incidunt eos vitae voluptates dolorum.",
-    "Deleted": false,
-    "Rank": 241,
-    "Type": "aliquam",
-    "ColorBlock": 94,
-    "IconHint": "libero",
+    "Id": 2,
+    "Name": "Robel Inc and Sons",
+    "ToolTip": "Aperiam id qui nam iste assumenda corrupti sed.",
+    "Deleted": true,
+    "Rank": 700,
+    "Type": "dolores",
+    "ColorBlock": 639,
+    "IconHint": "similique",
     "Selected": false,
-    "LastChanged": "1999-12-29T02:38:26.6674035+01:00",
+    "LastChanged": "2021-02-28T14:28:27.4614236+01:00",
     "ChildItems": [
       {
-        "Id": 466,
-        "Name": "Gutkowski LLC",
-        "ToolTip": "Qui ipsum asperiores.",
+        "Id": 371,
+        "Name": "Kuhlman-Runolfsdottir",
+        "ToolTip": "Reiciendis excepturi blanditiis earum aut et eligendi ipsa.",
         "Deleted": false,
-        "Rank": 267,
-        "Type": "vel",
-        "ColorBlock": 275,
-        "IconHint": "ullam",
-        "Selected": true,
-        "LastChanged": "2001-12-07T02:38:26.6674035+01:00",
+        "Rank": 771,
+        "Type": "sed",
+        "ColorBlock": 72,
+        "IconHint": "quia",
+        "Selected": false,
+        "LastChanged": "2022-04-29T14:28:27.4614236+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Prof. Arlene Von Jr.",
+        "ExtraInfo": "qui",
+        "StyleHint": "odio",
+        "Hidden": false,
+        "FullName": "Maryam Hodkiewicz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 633
+            "FieldLength": 699
           }
         }
       }
     ],
-    "ExtraInfo": "sunt",
-    "StyleHint": "dolorem",
-    "Hidden": false,
-    "FullName": "Sonya Green",
+    "ExtraInfo": "nihil",
+    "StyleHint": "error",
+    "Hidden": true,
+    "FullName": "Miss Eusebio Brown V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 54
+        "FieldType": "System.Int32",
+        "FieldLength": 2
       }
     }
   }

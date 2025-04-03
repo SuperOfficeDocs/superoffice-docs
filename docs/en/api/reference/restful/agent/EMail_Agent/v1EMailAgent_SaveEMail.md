@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,97 +119,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 409,
-      "ContactName": "Marks Group",
-      "PersonId": 89,
-      "PersonName": "Osinski-Satterfield",
-      "AssociateId": 806,
-      "Address": "vel",
-      "EmailId": 36,
+      "ContactId": 520,
+      "ContactName": "Erdman Group",
+      "PersonId": 828,
+      "PersonName": "Stamm Group",
+      "AssociateId": 458,
+      "Address": "nesciunt",
+      "EmailId": 718,
       "DuplicatePersonIds": [
-        93,
-        112
+        750,
+        590
       ],
-      "Name": "Carter-Kessler",
+      "Name": "Harris, Mertz and Mante",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 564
+          "FieldLength": 632
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 69,
-      "ContactName": "Ratke-Glover",
-      "PersonId": 9,
-      "PersonName": "Connelly Inc and Sons",
-      "AssociateId": 138,
-      "Address": "eius",
-      "EmailId": 262,
+      "ContactId": 325,
+      "ContactName": "Tromp-Dach",
+      "PersonId": 145,
+      "PersonName": "Hegmann, White and Hayes",
+      "AssociateId": 273,
+      "Address": "nulla",
+      "EmailId": 447,
       "DuplicatePersonIds": [
-        573,
-        132
+        64,
+        617
       ],
-      "Name": "Schuster Inc and Sons",
+      "Name": "Crooks, Dare and Collins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 292
+          "FieldType": "System.Int32",
+          "FieldLength": 916
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 712,
-      "ContactName": "Glover, Corwin and Price",
-      "PersonId": 504,
-      "PersonName": "Schinner-Weissnat",
-      "AssociateId": 944,
-      "Address": "sint",
-      "EmailId": 705,
+      "ContactId": 25,
+      "ContactName": "O'Connell, Daniel and Klocko",
+      "PersonId": 246,
+      "PersonName": "Turner-Murazik",
+      "AssociateId": 719,
+      "Address": "fuga",
+      "EmailId": 979,
       "DuplicatePersonIds": [
-        378,
-        932
+        438,
+        908
       ],
-      "Name": "Denesik-Brakus",
+      "Name": "Yost Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 154
+          "FieldLength": 987
         }
       }
     }
   ],
-  "Subject": "iste",
-  "HTMLBody": "repellat",
+  "Subject": "repellendus",
+  "HTMLBody": "est",
   "From": null,
-  "Sent": "2022-10-27T02:38:21.3857927+02:00",
-  "Size": 115,
+  "Sent": "1998-10-21T14:28:21.9460219+02:00",
+  "Size": 617,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "unde",
-  "PlainBody": "repellat",
-  "IsSent": false,
+  "MessageID": "id",
+  "PlainBody": "rem",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 805,
+  "ServerId": 474,
   "Attachments": [
     {
-      "Description": "Sharable neutral utilisation",
-      "Filename": "ea",
-      "Size": 122,
-      "Type": "consectetur",
-      "Encoding": "est",
-      "Id": "molestias",
-      "Disposition": "temporibus",
+      "Description": "Object-based 6th generation protocol",
+      "Filename": "nulla",
+      "Size": 806,
+      "Type": "ex",
+      "Encoding": "nihil",
+      "Id": "molestiae",
+      "Disposition": "quaerat",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,49 +217,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 83
+          "FieldLength": 566
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Nader, Mertz and McClure",
+      "Name": "Koss-Cole",
       "Values": [
-        "aspernatur",
-        "voluptate"
+        "cumque",
+        "itaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 477
+          "FieldType": "System.Int32",
+          "FieldLength": 568
         }
       }
     },
     {
-      "Name": "Nader, Mertz and McClure",
+      "Name": "Koss-Cole",
       "Values": [
-        "aspernatur",
-        "voluptate"
+        "cumque",
+        "itaque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 477
+          "FieldType": "System.Int32",
+          "FieldLength": 568
         }
       }
     }
   ],
-  "FolderName": "Berge LLC",
-  "EmailItemId": 748,
-  "AccountId": 707,
-  "ReceivedAt": "2000-06-18T02:38:21.3857927+02:00",
+  "FolderName": "Sauer-Goodwin",
+  "EmailItemId": 715,
+  "AccountId": 215,
+  "ReceivedAt": "2011-02-15T14:28:21.9460219+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2021-02-26T02:38:21.3857927+01:00",
+  "RepliedAt": "2013-02-01T14:28:21.9460219+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -267,8 +267,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 827
+      "FieldType": "System.String",
+      "FieldLength": 460
     }
   }
 }

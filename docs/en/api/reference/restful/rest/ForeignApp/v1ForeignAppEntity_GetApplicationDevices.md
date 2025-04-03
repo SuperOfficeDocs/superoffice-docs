@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 26 Jul 2007 02:38:26 G7T
+Last-Modified: Sun, 26 Mar 2023 14:28:26 G3T
 
 [
   {
-    "ForeignDeviceId": 676,
-    "Name": "Boyle Group",
-    "CreatedDate": "2003-01-14T02:38:26.1204323+01:00",
-    "UpdatedDate": "2007-07-26T02:38:26.1204323+02:00",
-    "AssociateFullName": "Ms. Marielle Devan Casper Jr.",
-    "CreatedBy": "officiis",
-    "UpdatedBy": "omnis",
-    "DeviceIdentifier": "quia",
-    "ForeignAppId": 141,
+    "ForeignDeviceId": 580,
+    "Name": "Graham-Torphy",
+    "CreatedDate": "2007-09-11T14:28:26.9458186+02:00",
+    "UpdatedDate": "2023-03-26T14:28:26.9458186+02:00",
+    "AssociateFullName": "Angus Windler",
+    "CreatedBy": "ex",
+    "UpdatedBy": "dignissimos",
+    "DeviceIdentifier": "eius",
+    "ForeignAppId": 243,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 398
+        "FieldLength": 974
       }
     }
   }

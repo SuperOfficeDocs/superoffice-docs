@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 527,
-    "Name": "Smith-Zulauf",
-    "ToolTip": "Impedit ut illum eos adipisci dignissimos fuga molestiae.",
+    "Id": 606,
+    "Name": "Balistreri Inc and Sons",
+    "ToolTip": "Incidunt dicta omnis.",
     "Deleted": true,
-    "Rank": 258,
-    "Type": "omnis",
-    "ColorBlock": 870,
-    "IconHint": "ducimus",
+    "Rank": 698,
+    "Type": "et",
+    "ColorBlock": 823,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2025-03-19T02:38:26.8705112+01:00",
+    "LastChanged": "2005-06-29T14:28:27.6489147+02:00",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Larkin Inc and Sons",
-        "ToolTip": "At natus iusto repellat unde eos.",
+        "Id": 418,
+        "Name": "Crist, Schinner and Monahan",
+        "ToolTip": "Est beatae quae suscipit incidunt eum et.",
         "Deleted": false,
-        "Rank": 676,
-        "Type": "sunt",
-        "ColorBlock": 666,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "2005-10-27T02:38:26.8705112+02:00",
+        "Rank": 460,
+        "Type": "voluptatum",
+        "ColorBlock": 2,
+        "IconHint": "debitis",
+        "Selected": true,
+        "LastChanged": "2020-02-25T14:28:27.6489147+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "harum",
+        "ExtraInfo": "amet",
+        "StyleHint": "dolore",
         "Hidden": false,
-        "FullName": "Mauricio Harber",
+        "FullName": "Rhiannon Littel",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 648
+            "FieldType": "System.Int32",
+            "FieldLength": 687
           }
         }
       }
     ],
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Mrs. Juliana Margot Keeling",
+    "ExtraInfo": "non",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Mr. Pete Lang IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 320
+        "FieldLength": 812
       }
     }
   }

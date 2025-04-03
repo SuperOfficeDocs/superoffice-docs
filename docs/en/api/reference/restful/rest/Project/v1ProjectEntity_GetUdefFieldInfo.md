@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 625,
-  "ColumnId": 892,
-  "FieldDefault": "non",
-  "FieldHeight": 786,
-  "FieldLabel": "placeat",
-  "FieldLeft": 296,
-  "FieldTop": 883,
+  "UDefFieldId": 519,
+  "ColumnId": 105,
+  "FieldDefault": "officiis",
+  "FieldHeight": 589,
+  "FieldLabel": "sit",
+  "FieldLeft": 677,
+  "FieldTop": 118,
   "FieldType": "Checkbox",
-  "FieldWidth": 535,
-  "FormatMask": "quibusdam",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 947,
-  "LabelLeft": 289,
-  "LabelTop": 192,
-  "LabelWidth": 633,
-  "LastVersionId": 198,
-  "ListTableId": 778,
+  "FieldWidth": 172,
+  "FormatMask": "itaque",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 591,
+  "LabelLeft": 830,
+  "LabelTop": 64,
+  "LabelWidth": 229,
+  "LastVersionId": 309,
+  "ListTableId": 93,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 618,
-  "ProgId": "nostrum",
+  "Page1LineNo": 91,
+  "ProgId": "velit",
   "IsReadOnly": true,
-  "ShortLabel": "ut",
-  "TabOrder": 21,
-  "TextLength": 1001,
-  "Tooltip": "laboriosam",
-  "UdefIdentity": 236,
-  "UDListDefinitionId": 818,
+  "ShortLabel": "iste",
+  "TabOrder": 343,
+  "TextLength": 926,
+  "Tooltip": "voluptatibus",
+  "UdefIdentity": 438,
+  "UDListDefinitionId": 401,
   "Justification": "Center",
-  "Version": 1000,
-  "TemplateVariableName": "Bogisich-Conn",
+  "Version": 339,
+  "TemplateVariableName": "Kshlerin Group",
   "HasBeenPublished": false,
-  "MdoListName": "Boyle-Rippin",
+  "MdoListName": "Schmeler, Rodriguez and Flatley",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 490
+      "FieldLength": 59
     }
   }
 }

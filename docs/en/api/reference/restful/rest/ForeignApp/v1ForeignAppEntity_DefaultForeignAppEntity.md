@@ -63,7 +63,7 @@ OK
 GET /api/v1/ForeignApp/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,32 +71,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 04 May 2015 02:38:26 G5T
+Last-Modified: Mon, 13 Jan 2020 14:28:26 G1T
 
 {
-  "ForeignAppId": 181,
-  "Name": "Lubowitz, Dare and Runte",
-  "CreatedDate": "2005-06-10T02:38:26.1048073+02:00",
-  "UpdatedDate": "2015-05-04T02:38:26.1048073+02:00",
+  "ForeignAppId": 908,
+  "Name": "Schroeder, Keeling and Robel",
+  "CreatedDate": "2018-06-14T14:28:26.9458186+02:00",
+  "UpdatedDate": "2020-01-13T14:28:26.9458186+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 898,
-      "Name": "Hackett, Fisher and Muller",
-      "CreatedDate": "2006-06-15T02:38:26.1048073+02:00",
-      "UpdatedDate": "1998-07-12T02:38:26.1048073+02:00",
-      "AssociateFullName": "Mrs. Ewald Norberto Labadie MD",
-      "CreatedBy": "doloremque",
-      "UpdatedBy": "id",
-      "DeviceIdentifier": "officiis",
-      "ForeignAppId": 719,
+      "ForeignDeviceId": 142,
+      "Name": "Gleichner, Romaguera and Hahn",
+      "CreatedDate": "2001-09-10T14:28:26.9458186+02:00",
+      "UpdatedDate": "2018-10-09T14:28:26.9458186+02:00",
+      "AssociateFullName": "Alanis Boehm",
+      "CreatedBy": "consequatur",
+      "UpdatedBy": "quo",
+      "DeviceIdentifier": "in",
+      "ForeignAppId": 615,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 285
+          "FieldLength": 121
         }
       }
     }
@@ -105,8 +105,8 @@ Last-Modified: Mon, 04 May 2015 02:38:26 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldType": "System.String",
+      "FieldLength": 708
     }
   }
 }

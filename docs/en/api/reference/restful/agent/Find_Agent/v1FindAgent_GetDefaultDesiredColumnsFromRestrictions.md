@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jones LLC",
+  "ProviderName": "Nolan-Gutmann",
   "Restrictions": [
     {
-      "Name": "Glover, McClure and Lebsack",
-      "Operator": "fugiat",
+      "Name": "Barrows Group",
+      "Operator": "placeat",
       "Values": [
-        "dolor",
-        "aliquid"
+        "perferendis",
+        "culpa"
       ],
       "DisplayValues": [
-        "autem",
-        "quis"
+        "aut",
+        "necessitatibus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 828,
+      "InterParenthesis": 378,
       "InterOperator": "And",
-      "UniqueHash": 194
+      "UniqueHash": 345
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Bahringer LLC",
-    "DisplayTooltip": "tenetur",
-    "DisplayType": "necessitatibus",
+    "DisplayName": "Schneider, Reinger and Jakubowski",
+    "DisplayTooltip": "vero",
+    "DisplayType": "magni",
     "CanOrderBy": false,
-    "Name": "Mosciski, Goldner and Shanahan",
-    "CanRestrictBy": true,
-    "RestrictionType": "consectetur",
-    "RestrictionListName": "Farrell, Bradtke and Towne",
+    "Name": "Zemlak, Lubowitz and Hackett",
+    "CanRestrictBy": false,
+    "RestrictionType": "tenetur",
+    "RestrictionListName": "Jacobson LLC",
     "IsVisible": false,
-    "ExtraInfo": "recusandae",
-    "Width": "molestiae",
-    "IconHint": "saepe",
-    "HeadingIconHint": "ut"
+    "ExtraInfo": "commodi",
+    "Width": "reprehenderit",
+    "IconHint": "facilis",
+    "HeadingIconHint": "alias"
   }
 ]
 ```

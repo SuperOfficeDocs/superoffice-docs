@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetApplicationKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Rogahn Inc and Sons"
+  "ApplicationName": "Littel, Lakin and Ritchie"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "expedita",
-    "Value": "voluptates",
-    "RecordId": 24,
-    "CreatedDate": "2003-01-12T02:38:21.4639053+01:00",
-    "UpdatedDate": "2024-12-24T02:38:21.4639053+01:00",
-    "UpdatedBy": "sit",
-    "CreatedBy": "delectus",
-    "TableName": "Ferry Group",
+    "Key": "consequatur",
+    "Value": "non",
+    "RecordId": 376,
+    "CreatedDate": "2020-01-03T14:28:22.0241429+01:00",
+    "UpdatedDate": "2007-08-07T14:28:22.0241429+02:00",
+    "UpdatedBy": "sequi",
+    "CreatedBy": "est",
+    "TableName": "Emard LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 670
+        "FieldType": "System.Int32",
+        "FieldLength": 874
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 687,
-  "PrefDescId": 252,
-  "PrefValue": "laudantium",
-  "PrefShowValue": "laudantium",
-  "Description": "Digitized tangible neural-net",
+  "PrefDescLineId": 782,
+  "PrefDescId": 642,
+  "PrefValue": "et",
+  "PrefShowValue": "nihil",
+  "Description": "Progressive coherent benchmark",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldType": "System.String",
+      "FieldLength": 156
     }
   }
 }

@@ -87,17 +87,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "sunt",
-    "Tooltip": "repellendus",
-    "Id": 864,
-    "Rank": 44,
+    "Value": "et",
+    "Tooltip": "ea",
+    "Id": 420,
+    "Rank": 691,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldType": "System.String",
+        "FieldLength": 549
       }
     }
   }

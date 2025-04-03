@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=260
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=141
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "facere",
+  "SaleText": "deleniti",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-05-31T02:38:21.8388638+02:00",
-  "Amount": 7405.642,
-  "SaleId": 578,
-  "Earning": 8822.21,
-  "EarningPercent": 14833.222,
-  "Heading": "voluptatem",
-  "Number": "771480",
-  "Probability": 738,
-  "CreatedDate": "2005-12-15T02:38:21.8388638+01:00",
-  "UpdatedDate": "2024-07-06T02:38:21.8388638+02:00",
+  "Saledate": "2020-07-29T14:28:22.3522543+02:00",
+  "Amount": 2334.83,
+  "SaleId": 154,
+  "Earning": 22072.762,
+  "EarningPercent": 4992.4619999999995,
+  "Heading": "rem",
+  "Number": "195743",
+  "Probability": 492,
+  "CreatedDate": "2025-03-22T14:28:22.3522543+01:00",
+  "UpdatedDate": "1998-10-28T14:28:22.3522543+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 983,
+  "ActiveLinks": 766,
   "Links": [
     {
-      "EntityName": "Lebsack-Rau",
-      "Id": 835,
-      "Description": "Visionary tertiary implementation",
-      "ExtraInfo": "ut",
-      "LinkId": 635,
+      "EntityName": "Gislason Inc and Sons",
+      "Id": 378,
+      "Description": "Ergonomic explicit moderator",
+      "ExtraInfo": "architecto",
+      "LinkId": 455,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 751
+          "FieldType": "System.Int32",
+          "FieldLength": 540
         }
       }
     }
   ],
-  "NextDueDate": "2022-11-21T02:38:21.8388638+01:00",
-  "Postit": "temporibus",
+  "NextDueDate": "2018-02-07T14:28:22.3522543+01:00",
+  "Postit": "labore",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2017-06-11T02:38:21.8388638+02:00",
+  "ReopenDate": "2019-05-15T14:28:22.3522543+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Fritsch, McCullough and Connelly",
-      "Comment": "harum",
-      "StakeholderRoleId": 774,
-      "CountryId": 613,
-      "PersonId": 243,
-      "EmailDescription": "vinnie_jerde@cummeratafranecki.us",
-      "EmailId": 115,
-      "EmailAddress": "brenna_friesen@kuphal.info",
-      "PhoneId": 590,
-      "ContactName": "O'Reilly-Durgan",
-      "ContactId": 961,
-      "SaleId": 951,
-      "Mrmrs": "numquam",
-      "Firstname": "Abe",
-      "MiddleName": "Purdy Inc and Sons",
-      "Lastname": "Bosco",
-      "SaleStakeholderId": 758,
-      "Rank": 617,
-      "Phone": "1-451-944-2158 x020",
+      "StakeholderRoleName": "Runolfsdottir Inc and Sons",
+      "Comment": "quo",
+      "StakeholderRoleId": 449,
+      "CountryId": 474,
+      "PersonId": 254,
+      "EmailDescription": "lilian@konopelskigerlach.co.uk",
+      "EmailId": 478,
+      "EmailAddress": "lonie@white.info",
+      "PhoneId": 88,
+      "ContactName": "Monahan Group",
+      "ContactId": 941,
+      "SaleId": 712,
+      "Mrmrs": "rerum",
+      "Firstname": "Alexzander",
+      "MiddleName": "Lakin, Raynor and Schamberger",
+      "Lastname": "McCullough",
+      "SaleStakeholderId": 613,
+      "Rank": 270,
+      "Phone": "(070)739-3682 x010",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 683
+          "FieldLength": 864
         }
       }
     }
   ],
-  "ActiveErpLinks": 993,
+  "ActiveErpLinks": 801,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ryleigh Lesch",
-    "SuperOffice:2": "Josh Tremblay"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Nicola Zboncak"
   },
   "ExtraFields": {
     "ExtraFields1": "et",
-    "ExtraFields2": "consequatur"
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "sapiente"
+    "CustomFields1": "expedita",
+    "CustomFields2": "mollitia"
   },
-  "PublishEventDate": "2020-09-01T02:38:21.8544876+02:00",
-  "PublishTo": "2018-04-05T02:38:21.8544876+02:00",
-  "PublishFrom": "2014-12-28T02:38:21.8544876+01:00",
+  "PublishEventDate": "2018-12-08T14:28:22.3522543+01:00",
+  "PublishTo": "2016-02-21T14:28:22.3522543+01:00",
+  "PublishFrom": "2015-03-14T14:28:22.3522543+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 684,
+      "VisibleId": 454,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldLength": 290
         }
       }
     },
     {
-      "VisibleId": 684,
+      "VisibleId": 454,
       "Visibility": "All",
-      "DisplayValue": "dolores",
+      "DisplayValue": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 737
+          "FieldLength": 290
         }
       }
     }
@@ -251,7 +251,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 509
+      "FieldLength": 713
     }
   }
 }

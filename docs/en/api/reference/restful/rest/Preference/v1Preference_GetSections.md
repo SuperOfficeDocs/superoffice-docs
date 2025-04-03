@@ -68,7 +68,7 @@ OK
 GET /api/v1/Preference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,50 +79,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 922,
-    "Name": "Eichmann, Price and Sanford",
-    "ToolTip": "Ex et qui non.",
+    "Id": 365,
+    "Name": "Abernathy, Gibson and Mraz",
+    "ToolTip": "Qui aut eius pariatur beatae provident.",
     "Deleted": false,
-    "Rank": 438,
-    "Type": "nulla",
+    "Rank": 406,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 453,
-        "Name": "Schneider, Maggio and Lowe",
-        "ToolTip": "Est quos debitis pariatur consequatur debitis.",
-        "Deleted": true,
-        "Rank": 44,
-        "Type": "enim",
+        "Id": 4,
+        "Name": "Fay, Reynolds and Sporer",
+        "ToolTip": "Vel ipsam sit ut.",
+        "Deleted": false,
+        "Rank": 705,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "occaecati",
-        "ColorBlock": 292,
-        "ExtraInfo": "in",
-        "StyleHint": "earum",
-        "FullName": "Otis Kennith Hilpert Jr.",
+        "IconHint": "ut",
+        "ColorBlock": 558,
+        "ExtraInfo": "sint",
+        "StyleHint": "aspernatur",
+        "FullName": "Tina Pagac",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 901
+            "FieldLength": 546
           }
         }
       }
     ],
-    "IconHint": "doloremque",
-    "ColorBlock": 888,
-    "ExtraInfo": "a",
-    "StyleHint": "sit",
-    "FullName": "Gay White",
+    "IconHint": "quia",
+    "ColorBlock": 963,
+    "ExtraInfo": "qui",
+    "StyleHint": "velit",
+    "FullName": "Odell Anderson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 758
+        "FieldLength": 661
       }
     }
   }

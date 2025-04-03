@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 589,
-    "Name": "Swaniawski Inc and Sons",
-    "ContentType": "error",
-    "AttSize": 36,
+    "AttachmentId": 724,
+    "Name": "Harber-Weimann",
+    "ContentType": "sit",
+    "AttSize": 637,
     "InlineImage": false,
-    "ContentId": "autem",
-    "AuthKey": "officiis",
+    "ContentId": "sed",
+    "AuthKey": "voluptas",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 78
+        "FieldType": "System.Int32",
+        "FieldLength": 584
       }
     }
   }

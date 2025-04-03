@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 35,
-  "Name": "Schiller Group",
-  "Tooltip": "excepturi",
-  "Deleted": false,
-  "UdListDefinitionId": 566,
-  "Rank": 991
+  "Id": 315,
+  "Name": "Altenwerth-Breitenberg",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 93,
+  "Rank": 877
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 63,
-  "Name": "Brekke-Parisian",
-  "Tooltip": "rerum",
+  "Id": 97,
+  "Name": "Bergstrom-Bruen",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 103,
-  "Rank": 119,
+  "UdListDefinitionId": 141,
+  "Rank": 260,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 81
+      "FieldType": "System.Int32",
+      "FieldLength": 643
     }
   }
 }

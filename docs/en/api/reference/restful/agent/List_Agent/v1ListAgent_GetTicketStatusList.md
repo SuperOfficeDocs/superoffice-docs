@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 927,
-    "Name": "Auer Group",
+    "TicketStatusId": 626,
+    "Name": "Cruickshank-Gulgowski",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": true,
-    "IsDefault": false,
+    "NoEmailReopen": false,
+    "IsDefault": true,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldLength": 956
       }
     }
   }

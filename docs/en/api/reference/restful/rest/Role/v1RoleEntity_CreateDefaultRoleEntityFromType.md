@@ -85,24 +85,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 433,
-  "Name": "Glover, Sanford and Bashirian",
-  "Tooltip": "inventore",
+  "RoleId": 683,
+  "Name": "Adams, Dietrich and Morissette",
+  "Tooltip": "iure",
   "RoleType": "Anonymous",
-  "Deleted": 427,
-  "Rank": 657,
-  "Created": "2006-07-24T02:38:26.3391624+02:00",
-  "UseCategories": 480,
+  "Deleted": 416,
+  "Rank": 631,
+  "Created": "2018-06-13T14:28:27.1804149+02:00",
+  "UseCategories": 2,
   "CreatedBy": null,
-  "Updated": "2021-04-24T02:38:26.3391624+02:00",
+  "Updated": "2024-05-28T14:28:27.1804149+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 660
     }
   }
 }

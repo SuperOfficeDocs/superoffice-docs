@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,26 +89,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 981,
-    "Tooltip": "velit",
+    "Unrestricted": false,
+    "Total": 537,
+    "Tooltip": "et",
     "CanAssign": false,
-    "Free": 762,
-    "InUse": 432,
+    "Free": 755,
+    "InUse": 570,
     "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 762,
-    "Name": "Mosciski, Pfeffer and Greenholt",
-    "Description": "Down-sized intangible throughput",
-    "PrerequisiteModuleName": "Raynor, Smitham and Osinski",
-    "SortOrder": 13,
-    "ExtraFlags": 322,
+    "ModuleLicenseId": 286,
+    "Name": "Hilll, Dach and Hyatt",
+    "Description": "Monitored local array",
+    "PrerequisiteModuleName": "Oberbrunner, Jast and Abshire",
+    "SortOrder": 809,
+    "ExtraFlags": 197,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 836
+        "FieldLength": 761
       }
     }
   }

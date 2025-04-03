@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Haley-Hegmann"
+  "EntityName": "Durgan, Heathcote and McKenzie"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 3,
-  "DashboardId": 22,
-  "Height": 734,
-  "Width": 186,
-  "Rank": 630,
+  "DashboardTileId": 975,
+  "DashboardId": 356,
+  "Height": 279,
+  "Width": 283,
+  "Rank": 427,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

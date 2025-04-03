@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 643,
-  "Name": "Russel-Bahringer",
-  "Tooltip": "placeat",
-  "Deleted": false,
-  "Rank": 375,
-  "IsCustomList": true,
+  "Id": 393,
+  "Name": "Metz, Leannon and Lehner",
+  "Tooltip": "veritatis",
+  "Deleted": true,
+  "Rank": 703,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": false
+  "ListType": "nobis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 703,
-  "Name": "Rosenbaum-Kshlerin",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 425,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 667,
+  "Name": "Berge-Krajcik",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 51,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quos",
-  "InUseByUserDefinedFields": false,
+  "ListType": "qui",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 946
+      "FieldLength": 368
     }
   }
 }

@@ -89,8 +89,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "corrupti",
-  "PrefKey": "dolorum",
+  "PrefSection": "dolorem",
+  "PrefKey": "consequuntur",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "aperiam",
+  "RawValue": "excepturi",
   "Specification": null,
-  "DisplayValue": "voluptatem",
-  "DisplayTooltip": "maxime",
+  "DisplayValue": "corrupti",
+  "DisplayTooltip": "amet",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 691,
-  "PrefDescId": 339,
-  "TableName": "Hills Inc and Sons",
-  "UserPreferenceId": 988,
+  "TargetId": 157,
+  "PrefDescId": 773,
+  "TableName": "Spencer, Denesik and Tromp",
+  "UserPreferenceId": 592,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 457
+      "FieldType": "System.Int32",
+      "FieldLength": 63
     }
   }
 }

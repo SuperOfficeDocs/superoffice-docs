@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "rem",
+  "SearchString": "neque",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(192)464-2318",
-    "PersonCellPhone": "(104)768-3848 x59234",
-    "PersonPrivatePhone": "1-938-122-1430 x152",
-    "PersonFaxNumber": "984206",
-    "PersonPagerNumber": "860445",
-    "PersonEmail": "hilma@cormier.us",
-    "Id": 995,
-    "Name": "Terry, Stoltenberg and Bartell",
-    "Tooltip": "porro",
-    "UniqueId": "rem",
+    "PersonDirectPhone": "1-538-413-2759 x393",
+    "PersonCellPhone": "(573)929-2362 x7591",
+    "PersonPrivatePhone": "(796)828-7604",
+    "PersonFaxNumber": "1113507",
+    "PersonPagerNumber": "553903",
+    "PersonEmail": "arvid_ward@bartellrenner.com",
+    "Id": 919,
+    "Name": "Gerlach, Ferry and Jenkins",
+    "Tooltip": "aspernatur",
+    "UniqueId": "iure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 757
+        "FieldType": "System.String",
+        "FieldLength": 938
       }
     }
   }

@@ -58,28 +58,28 @@ No Content
 POST /api/v1/Presence/SaveAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 991,
-    "DisplayName": "Haley LLC",
-    "OngoingChats": 62,
+    "UserId": 32,
+    "DisplayName": "Zemlak-Zboncak",
+    "OngoingChats": 414,
     "Present": false,
     "ChatTopics": [
-      79,
-      560
+      271,
+      270
     ]
   },
   {
-    "UserId": 991,
-    "DisplayName": "Haley LLC",
-    "OngoingChats": 62,
+    "UserId": 32,
+    "DisplayName": "Zemlak-Zboncak",
+    "OngoingChats": 414,
     "Present": false,
     "ChatTopics": [
-      79,
-      560
+      271,
+      270
     ]
   }
 ]

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/CheckTemporaryKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemporaryKey": "sint"
+  "TemporaryKey": "nemo"
 }
 ```
 
@@ -93,16 +93,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "TargetId": 569,
-  "PersonId": 253,
-  "IsExpired": false,
-  "Payload": "rerum",
+  "TargetId": 665,
+  "PersonId": 578,
+  "IsExpired": true,
+  "Payload": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 92
+      "FieldLength": 106
     }
   }
 }

@@ -74,9 +74,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Crooks-Reynolds",
-  "RecordId": 510,
-  "AssociateId": 312
+  "TableName": "Cassin-Ryan",
+  "RecordId": 586,
+  "AssociateId": 391
 }
 ```
 

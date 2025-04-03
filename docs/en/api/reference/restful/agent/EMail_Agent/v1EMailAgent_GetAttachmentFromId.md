@@ -88,8 +88,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 292,
-  "AttachmentId": "rerum"
+  "MailItemId": 364,
+  "AttachmentId": "autem"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Function-based bifurcated internet solution",
-  "Filename": "natus",
-  "Size": 577,
-  "Type": "debitis",
-  "Encoding": "asperiores",
-  "Id": "voluptas",
-  "Disposition": "nihil",
-  "IsSafeFileExtension": false,
+  "Description": "Enterprise-wide clear-thinking productivity",
+  "Filename": "est",
+  "Size": 775,
+  "Type": "commodi",
+  "Encoding": "nihil",
+  "Id": "alias",
+  "Disposition": "sint",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 887
+      "FieldType": "System.Int32",
+      "FieldLength": 476
     }
   }
 }

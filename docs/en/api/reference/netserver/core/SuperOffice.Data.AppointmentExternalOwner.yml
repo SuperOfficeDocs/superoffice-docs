@@ -1,0 +1,387 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Data.AppointmentExternalOwner
+  commentId: T:SuperOffice.Data.AppointmentExternalOwner
+  id: AppointmentExternalOwner
+  parent: SuperOffice.Data
+  children:
+  - SuperOffice.Data.AppointmentExternalOwner.Google
+  - SuperOffice.Data.AppointmentExternalOwner.None
+  - SuperOffice.Data.AppointmentExternalOwner.Other
+  - SuperOffice.Data.AppointmentExternalOwner.Outlook
+  - SuperOffice.Data.AppointmentExternalOwner.value__
+  langs:
+  - csharp
+  - vb
+  name: AppointmentExternalOwner
+  nameWithType: AppointmentExternalOwner
+  fullName: SuperOffice.Data.AppointmentExternalOwner
+  type: Class
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\nAn external owner system for appointments (Outlook, Google...)\nThis Enum is used by:  appointment.owned_externally\n"
+  syntax:
+    content: 'public sealed class AppointmentExternalOwner : Enum'
+    content.vb: >-
+      Public NotInheritable Class AppointmentExternalOwner
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  extensionMethods:
+  - SuperOffice.Data.AppointmentExternalOwner.EnumUtil.MapEnums``2
+  - SuperOffice.Data.AppointmentExternalOwner.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.Data.AppointmentExternalOwner.value__
+  commentId: F:SuperOffice.Data.AppointmentExternalOwner.value__
+  id: value__
+  parent: SuperOffice.Data.AppointmentExternalOwner
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AppointmentExternalOwner.value__
+  fullName: SuperOffice.Data.AppointmentExternalOwner.value__
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.Data.AppointmentExternalOwner.None
+  commentId: F:SuperOffice.Data.AppointmentExternalOwner.None
+  id: None
+  parent: SuperOffice.Data.AppointmentExternalOwner
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AppointmentExternalOwner.None
+  fullName: SuperOffice.Data.AppointmentExternalOwner.None
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n0: No external owner\n"
+  syntax:
+    content: public const AppointmentExternalOwner None
+    return:
+      type: SuperOffice.Data.AppointmentExternalOwner
+    content.vb: Public Const None As AppointmentExternalOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AppointmentExternalOwner.Other
+  commentId: F:SuperOffice.Data.AppointmentExternalOwner.Other
+  id: Other
+  parent: SuperOffice.Data.AppointmentExternalOwner
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: AppointmentExternalOwner.Other
+  fullName: SuperOffice.Data.AppointmentExternalOwner.Other
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n1: An external system owns the appointment\n"
+  syntax:
+    content: public const AppointmentExternalOwner Other
+    return:
+      type: SuperOffice.Data.AppointmentExternalOwner
+    content.vb: Public Const Other As AppointmentExternalOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AppointmentExternalOwner.Outlook
+  commentId: F:SuperOffice.Data.AppointmentExternalOwner.Outlook
+  id: Outlook
+  parent: SuperOffice.Data.AppointmentExternalOwner
+  langs:
+  - csharp
+  - vb
+  name: Outlook
+  nameWithType: AppointmentExternalOwner.Outlook
+  fullName: SuperOffice.Data.AppointmentExternalOwner.Outlook
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n2: Outlook owns the appointment\n"
+  syntax:
+    content: public const AppointmentExternalOwner Outlook
+    return:
+      type: SuperOffice.Data.AppointmentExternalOwner
+    content.vb: Public Const Outlook As AppointmentExternalOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.Data.AppointmentExternalOwner.Google
+  commentId: F:SuperOffice.Data.AppointmentExternalOwner.Google
+  id: Google
+  parent: SuperOffice.Data.AppointmentExternalOwner
+  langs:
+  - csharp
+  - vb
+  name: Google
+  nameWithType: AppointmentExternalOwner.Google
+  fullName: SuperOffice.Data.AppointmentExternalOwner.Google
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.Data
+  summary: "\n3: Google owns the appointment\n"
+  syntax:
+    content: public const AppointmentExternalOwner Google
+    return:
+      type: SuperOffice.Data.AppointmentExternalOwner
+    content.vb: Public Const Google As AppointmentExternalOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Data.AppointmentExternalOwner.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<AppointmentExternalOwner, To>()
+  nameWithType: EnumUtil.MapEnums<AppointmentExternalOwner, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Data.AppointmentExternalOwner, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of AppointmentExternalOwner, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Data.AppointmentExternalOwner, To)()
+  name.vb: MapEnums(Of AppointmentExternalOwner, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<AppointmentExternalOwner, To>
+    nameWithType: EnumUtil.MapEnums<AppointmentExternalOwner, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Data.AppointmentExternalOwner, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of AppointmentExternalOwner, To)
+    nameWithType: EnumUtil.MapEnums(Of AppointmentExternalOwner, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Data.AppointmentExternalOwner, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.AppointmentExternalOwner.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<AppointmentExternalOwner, To>()
+  nameWithType: Converters.MapEnums<AppointmentExternalOwner, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.AppointmentExternalOwner, To>()
+  nameWithType.vb: Converters.MapEnums(Of AppointmentExternalOwner, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.AppointmentExternalOwner, To)()
+  name.vb: MapEnums(Of AppointmentExternalOwner, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<AppointmentExternalOwner, To>
+    nameWithType: Converters.MapEnums<AppointmentExternalOwner, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Data.AppointmentExternalOwner, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of AppointmentExternalOwner, To)
+    nameWithType: Converters.MapEnums(Of AppointmentExternalOwner, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Data.AppointmentExternalOwner, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.Data.AppointmentExternalOwner
+  commentId: T:SuperOffice.Data.AppointmentExternalOwner
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AppointmentExternalOwner
+  nameWithType: AppointmentExternalOwner
+  fullName: SuperOffice.Data.AppointmentExternalOwner

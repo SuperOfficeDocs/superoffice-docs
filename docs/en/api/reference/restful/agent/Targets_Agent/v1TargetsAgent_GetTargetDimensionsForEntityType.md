@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Targets/GetTargetDimensionsForEntityType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 390,
+    "TargetDimensionId": 487,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "est",
-    "DimensionListName": "Cummerata-Kihn",
-    "DimensionListId": 910,
-    "DimensionListLabel": "numquam",
+    "DimensionListField": "iusto",
+    "DimensionListName": "Muller Group",
+    "DimensionListId": 940,
+    "DimensionListLabel": "natus",
     "SelectedDimensions": [
-      282,
-      67
+      156,
+      659
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 789
+        "FieldType": "System.Int32",
+        "FieldLength": 707
       }
     }
   }

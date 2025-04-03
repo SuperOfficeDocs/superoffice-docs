@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 792,
-  "Name": "Lang, Bahringer and Heaney",
-  "Description": "Cloned well-modulated migration",
+  "ReportLabelLayoutId": 212,
+  "Name": "Emard LLC",
+  "Description": "Multi-lateral real-time function",
   "Orientation": "Landscape",
-  "PaperWidth": 157,
-  "PaperHeight": 246,
-  "LeftMargin": 658,
-  "RightMargin": 107,
-  "TopMargin": 178,
-  "BottomMargin": 938,
-  "CountColumns": 625,
-  "CountRows": 444,
+  "PaperWidth": 432,
+  "PaperHeight": 499,
+  "LeftMargin": 62,
+  "RightMargin": 479,
+  "TopMargin": 880,
+  "BottomMargin": 203,
+  "CountColumns": 435,
+  "CountRows": 448,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 447
+      "FieldType": "System.Int32",
+      "FieldLength": 166
     }
   }
 }

@@ -866,6 +866,8 @@ items:
     href: CustomerService_Agent/v1CustomerServiceAgent_GetCustomerCenterConfig.md
   - name: GetCustomerServiceStartup
     href: CustomerService_Agent/v1CustomerServiceAgent_GetCustomerServiceStartup.md
+  - name: GetCustomerServiceStartupByOwner
+    href: CustomerService_Agent/v1CustomerServiceAgent_GetCustomerServiceStartupByOwner.md
   - name: GetFaqForCustomer
     href: CustomerService_Agent/v1CustomerServiceAgent_GetFaqForCustomer.md
   - name: GetMailboxEntity
@@ -3527,6 +3529,8 @@ items:
     href: Ticket_Agent/v1TicketAgent_GetDefaultMessageContentWithOptions.md
   - name: GetForRmUi
     href: Ticket_Agent/v1TicketAgent_GetForRmUi.md
+  - name: GetHotlistEjUsers
+    href: Ticket_Agent/v1TicketAgent_GetHotlistEjUsers.md
   - name: GetNextInQueue
     href: Ticket_Agent/v1TicketAgent_GetNextInQueue.md
   - name: GetPreviewAttachmentStream

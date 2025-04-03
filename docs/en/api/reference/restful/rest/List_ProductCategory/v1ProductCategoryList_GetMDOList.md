@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=perspiciatis
+GET /api/v1/List/ProductCategory/MDOItems?query=eius
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 429,
-    "Name": "Block-Marquardt",
-    "ToolTip": "Id eveniet.",
+    "Id": 625,
+    "Name": "Harber, Williamson and Thiel",
+    "ToolTip": "Iusto libero quo dolore nostrum et deleniti.",
     "Deleted": false,
-    "Rank": 492,
-    "Type": "dignissimos",
+    "Rank": 894,
+    "Type": "a",
     "ChildItems": [
       {
-        "Id": 551,
-        "Name": "Cummerata LLC",
-        "ToolTip": "Officia aliquam placeat vel est magnam tempore corrupti.",
+        "Id": 449,
+        "Name": "Dibbert Inc and Sons",
+        "ToolTip": "Veritatis iure aut.",
         "Deleted": false,
-        "Rank": 606,
-        "Type": "rerum",
+        "Rank": 626,
+        "Type": "ratione",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "laboriosam",
-        "ColorBlock": 158,
-        "ExtraInfo": "aut",
-        "StyleHint": "nemo",
-        "FullName": "Keith Homenick",
+        "IconHint": "nostrum",
+        "ColorBlock": 907,
+        "ExtraInfo": "quo",
+        "StyleHint": "similique",
+        "FullName": "Dayna Volkman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 437
+            "FieldLength": 627
           }
         }
       }
     ],
-    "IconHint": "aliquam",
-    "ColorBlock": 968,
-    "ExtraInfo": "asperiores",
-    "StyleHint": "quas",
-    "FullName": "Peggie Marvin",
+    "IconHint": "ex",
+    "ColorBlock": 831,
+    "ExtraInfo": "expedita",
+    "StyleHint": "quod",
+    "FullName": "Meredith Fahey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldType": "System.Int32",
+        "FieldLength": 911
       }
     }
   }

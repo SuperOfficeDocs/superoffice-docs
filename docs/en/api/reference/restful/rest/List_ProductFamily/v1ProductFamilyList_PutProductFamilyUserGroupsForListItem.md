@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 593,
-    "Name": "Harber-Ryan",
-    "ToolTip": "Qui ipsum quo illo.",
+    "Id": 639,
+    "Name": "Pacocha Group",
+    "ToolTip": "Nam qui pariatur perferendis.",
     "Deleted": false,
-    "Rank": 620,
-    "Type": "qui",
-    "ColorBlock": 574,
-    "IconHint": "saepe",
-    "Selected": true,
-    "LastChanged": "2006-07-25T02:38:26.8392626+02:00",
+    "Rank": 934,
+    "Type": "quia",
+    "ColorBlock": 337,
+    "IconHint": "quisquam",
+    "Selected": false,
+    "LastChanged": "1999-12-03T14:28:27.6332907+01:00",
     "ChildItems": [
       {
-        "Id": 373,
-        "Name": "Kulas Group",
-        "ToolTip": "Sed dolorum.",
+        "Id": 734,
+        "Name": "Upton, Effertz and Oberbrunner",
+        "ToolTip": "Architecto assumenda aliquam voluptates quia.",
         "Deleted": false,
-        "Rank": 639,
-        "Type": "eum",
-        "ColorBlock": 49,
-        "IconHint": "reprehenderit",
+        "Rank": 948,
+        "Type": "omnis",
+        "ColorBlock": 239,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2021-08-26T02:38:26.8392626+02:00",
+        "LastChanged": "2008-05-14T14:28:27.6332907+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "rem",
+        "ExtraInfo": "aut",
+        "StyleHint": "quos",
         "Hidden": true,
-        "FullName": "Thelma Ward IV"
+        "FullName": "Eloisa Reichel"
       }
     ],
-    "ExtraInfo": "praesentium",
-    "StyleHint": "necessitatibus",
+    "ExtraInfo": "facilis",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Daron Bahringer"
+    "FullName": "Carlotta Parisian"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "Cartwright, Monahan and Hills",
-    "ToolTip": "Saepe rerum molestiae necessitatibus.",
-    "Deleted": true,
-    "Rank": 484,
-    "Type": "veritatis",
-    "ColorBlock": 462,
-    "IconHint": "est",
+    "Id": 679,
+    "Name": "Harber-Wisoky",
+    "ToolTip": "Repellendus et.",
+    "Deleted": false,
+    "Rank": 415,
+    "Type": "numquam",
+    "ColorBlock": 336,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2024-07-21T02:38:26.854892+02:00",
+    "LastChanged": "2004-07-01T14:28:27.6332907+02:00",
     "ChildItems": [
       {
-        "Id": 40,
-        "Name": "Weber, Jakubowski and Raynor",
-        "ToolTip": "Consequatur natus consequatur id iste assumenda optio.",
-        "Deleted": true,
-        "Rank": 955,
-        "Type": "ut",
-        "ColorBlock": 10,
-        "IconHint": "totam",
+        "Id": 732,
+        "Name": "Mosciski-Grady",
+        "ToolTip": "Molestias qui enim.",
+        "Deleted": false,
+        "Rank": 497,
+        "Type": "velit",
+        "ColorBlock": 937,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2014-03-16T02:38:26.854892+01:00",
+        "LastChanged": "1999-03-16T14:28:27.6332907+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "quo",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Karianne Gleason",
+        "FullName": "Alayna White",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 2
+            "FieldLength": 146
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "hic",
+    "ExtraInfo": "sint",
+    "StyleHint": "alias",
     "Hidden": false,
-    "FullName": "Annette Hackett",
+    "FullName": "Dr. Wilfrid Rutherford II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 700
       }
     }
   }

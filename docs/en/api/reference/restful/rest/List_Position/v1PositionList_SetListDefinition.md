@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 16,
-  "Name": "Larkin LLC",
-  "Tooltip": "ab",
-  "Deleted": false,
-  "Rank": 412,
+  "Id": 51,
+  "Name": "Treutel-Carroll",
+  "Tooltip": "quis",
+  "Deleted": true,
+  "Rank": 309,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "temporibus",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 634,
-  "Name": "Orn-Wuckert",
-  "Tooltip": "id",
+  "Id": 63,
+  "Name": "Ritchie Inc and Sons",
+  "Tooltip": "sunt",
   "Deleted": true,
-  "Rank": 709,
+  "Rank": 181,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "esse",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sapiente",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 786
+      "FieldLength": 523
     }
   }
 }

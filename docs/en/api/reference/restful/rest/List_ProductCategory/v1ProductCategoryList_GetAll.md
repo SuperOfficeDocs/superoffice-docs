@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 432,
-    "Name": "Gleason-Grady",
-    "Tooltip": "soluta",
-    "Deleted": false,
-    "UdListDefinitionId": 299,
-    "Rank": 42,
+    "Id": 557,
+    "Name": "Klein-Purdy",
+    "Tooltip": "eos",
+    "Deleted": true,
+    "UdListDefinitionId": 653,
+    "Rank": 163,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 24
+        "FieldLength": 511
       }
     }
   }

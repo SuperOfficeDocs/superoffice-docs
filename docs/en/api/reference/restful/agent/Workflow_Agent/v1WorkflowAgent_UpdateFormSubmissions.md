@@ -72,7 +72,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MaxCount": 218
+  "MaxCount": 165
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-835
+73
 ```

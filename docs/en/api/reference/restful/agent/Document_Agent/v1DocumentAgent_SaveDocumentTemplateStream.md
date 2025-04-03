@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 933,
+  "DocumentTemplateId": 556,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "autem",
-  "PluginId": 940
+  "LanguageCode": "aut",
+  "PluginId": 814
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Muller Group",
-  "Description": "Front-line didactic methodology",
-  "ExternalReference": "et",
-  "MimeType": "quasi",
-  "PluginId": 249
+  "Name": "Jacobi-Jerde",
+  "Description": "Right-sized well-modulated database",
+  "ExternalReference": "pariatur",
+  "MimeType": "ipsam",
+  "PluginId": 855
 }
 ```

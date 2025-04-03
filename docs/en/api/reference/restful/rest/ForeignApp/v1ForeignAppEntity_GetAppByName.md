@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 09 Jun 2007 02:38:26 G6T
+Last-Modified: Sun, 16 Mar 2003 14:28:26 G3T
 
 {
-  "ForeignAppId": 327,
-  "Name": "Weimann, Nolan and Nicolas",
-  "CreatedDate": "2001-08-13T02:38:26.1204323+02:00",
-  "UpdatedDate": "2007-06-09T02:38:26.1204323+02:00",
+  "ForeignAppId": 987,
+  "Name": "Christiansen Group",
+  "CreatedDate": "2016-12-19T14:28:26.9458186+01:00",
+  "UpdatedDate": "2003-03-16T14:28:26.9458186+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 670,
-      "Name": "Graham-Nitzsche",
-      "CreatedDate": "2011-07-09T02:38:26.1204323+02:00",
-      "UpdatedDate": "2017-05-22T02:38:26.1204323+02:00",
-      "AssociateFullName": "Bonnie Allene Thiel PhD",
-      "CreatedBy": "non",
-      "UpdatedBy": "illo",
-      "DeviceIdentifier": "fuga",
-      "ForeignAppId": 153,
+      "ForeignDeviceId": 848,
+      "Name": "Auer-Bode",
+      "CreatedDate": "2014-12-28T14:28:26.9458186+01:00",
+      "UpdatedDate": "2005-07-17T14:28:26.9458186+02:00",
+      "AssociateFullName": "Bethany Renner",
+      "CreatedBy": "ad",
+      "UpdatedBy": "labore",
+      "DeviceIdentifier": "enim",
+      "ForeignAppId": 725,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 54
+          "FieldLength": 380
         }
       }
     }
@@ -107,8 +107,8 @@ Last-Modified: Sat, 09 Jun 2007 02:38:26 G6T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 614
+      "FieldType": "System.Int32",
+      "FieldLength": 565
     }
   }
 }

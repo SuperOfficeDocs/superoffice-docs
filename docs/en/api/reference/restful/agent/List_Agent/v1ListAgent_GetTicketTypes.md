@@ -94,40 +94,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 12,
-    "Name": "Mann-Waters",
-    "Rank": 651,
-    "Tooltip": "voluptatem",
-    "Icon": "libero",
-    "DefaultTicketStatus": 183,
+    "TicketTypeId": 313,
+    "Name": "Okuneva, Kilback and Collins",
+    "Rank": 60,
+    "Tooltip": "voluptatibus",
+    "Icon": "omnis",
+    "DefaultTicketStatus": 498,
     "TicketStatuses": [
-      890,
-      189
+      668,
+      10
     ],
-    "DefaultTicketPriority": 985,
+    "DefaultTicketPriority": 349,
     "TicketPriorities": [
-      536,
-      448
+      334,
+      102
     ],
-    "ReplyTemplate": 944,
+    "ReplyTemplate": 867,
     "IsExternalVisible": false,
-    "IsDefault": true,
+    "IsDefault": false,
     "ShowInNew": false,
-    "ExcludeSignature": false,
+    "ExcludeSignature": true,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": false,
+    "ExternalAsDefault": true,
     "VisibleForGroups": [
-      57,
-      581
+      628,
+      773
     ],
     "ReplyForwardNoSignature": false,
-    "ReplyExternalAsDefault": true,
+    "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 85
+        "FieldType": "System.Int32",
+        "FieldLength": 206
       }
     }
   }

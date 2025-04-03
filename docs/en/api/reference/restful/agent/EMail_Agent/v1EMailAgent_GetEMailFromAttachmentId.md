@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 284,
+  "EmailId": 734,
   "AttachmentIds": [
-    "est",
-    "in"
+    "nostrum",
+    "unde"
   ],
   "IncludeAttachments": false
 }
@@ -124,97 +124,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 365,
-      "ContactName": "Jacobs, Daugherty and McKenzie",
-      "PersonId": 461,
-      "PersonName": "Von Group",
-      "AssociateId": 822,
-      "Address": "fugiat",
-      "EmailId": 526,
+      "ContactId": 725,
+      "ContactName": "Jones-Rempel",
+      "PersonId": 26,
+      "PersonName": "Haag, Rau and D'Amore",
+      "AssociateId": 231,
+      "Address": "in",
+      "EmailId": 63,
       "DuplicatePersonIds": [
-        45,
-        275
+        278,
+        267
       ],
-      "Name": "Wyman Inc and Sons",
+      "Name": "Halvorson, Christiansen and Bernhard",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 885
+          "FieldLength": 78
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 141,
-      "ContactName": "Mosciski-Jaskolski",
-      "PersonId": 520,
-      "PersonName": "Reichert, Ritchie and Smith",
-      "AssociateId": 353,
-      "Address": "ab",
-      "EmailId": 714,
+      "ContactId": 218,
+      "ContactName": "Stark-Kutch",
+      "PersonId": 295,
+      "PersonName": "Weber-Goyette",
+      "AssociateId": 663,
+      "Address": "et",
+      "EmailId": 505,
       "DuplicatePersonIds": [
-        674,
-        739
+        561,
+        190
       ],
-      "Name": "Bogisich Group",
+      "Name": "Schneider Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldLength": 72
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 229,
-      "ContactName": "Boyer, Gusikowski and Luettgen",
-      "PersonId": 148,
-      "PersonName": "Toy-Rutherford",
-      "AssociateId": 27,
-      "Address": "vitae",
-      "EmailId": 577,
+      "ContactId": 313,
+      "ContactName": "Hegmann-Buckridge",
+      "PersonId": 212,
+      "PersonName": "Swift-Muller",
+      "AssociateId": 172,
+      "Address": "quia",
+      "EmailId": 545,
       "DuplicatePersonIds": [
-        954,
-        359
+        365,
+        943
       ],
-      "Name": "Kilback Inc and Sons",
+      "Name": "Wilderman, Kassulke and Williamson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 689
+          "FieldLength": 800
         }
       }
     }
   ],
-  "Subject": "accusamus",
-  "HTMLBody": "earum",
+  "Subject": "nihil",
+  "HTMLBody": "suscipit",
   "From": null,
-  "Sent": "2003-12-03T02:38:21.3857927+01:00",
-  "Size": 327,
+  "Sent": "2018-07-10T14:28:21.9616455+02:00",
+  "Size": 628,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "exercitationem",
-  "PlainBody": "qui",
+  "MessageID": "reiciendis",
+  "PlainBody": "debitis",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 739,
+  "ServerId": 733,
   "Attachments": [
     {
-      "Description": "Horizontal encompassing structure",
-      "Filename": "laudantium",
-      "Size": 337,
-      "Type": "non",
-      "Encoding": "officiis",
-      "Id": "officiis",
-      "Disposition": "corporis",
+      "Description": "User-friendly encompassing core",
+      "Filename": "ipsam",
+      "Size": 900,
+      "Type": "sed",
+      "Encoding": "cumque",
+      "Id": "voluptas",
+      "Disposition": "non",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -222,49 +222,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 883
+          "FieldLength": 255
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Jerde, Maggio and Mraz",
+      "Name": "Conroy, Runte and Abbott",
       "Values": [
-        "voluptas",
-        "dolorum"
+        "repudiandae",
+        "amet"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 452
+          "FieldLength": 196
         }
       }
     },
     {
-      "Name": "Jerde, Maggio and Mraz",
+      "Name": "Conroy, Runte and Abbott",
       "Values": [
-        "voluptas",
-        "dolorum"
+        "repudiandae",
+        "amet"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 452
+          "FieldLength": 196
         }
       }
     }
   ],
-  "FolderName": "Russel, Pouros and Reichel",
-  "EmailItemId": 33,
-  "AccountId": 663,
-  "ReceivedAt": "2004-11-14T02:38:21.3857927+01:00",
+  "FolderName": "Kemmer Group",
+  "EmailItemId": 704,
+  "AccountId": 230,
+  "ReceivedAt": "2014-01-09T14:28:21.9616455+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2022-10-10T02:38:21.3857927+02:00",
+  "RepliedAt": "1998-02-12T14:28:21.9616455+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldType": "System.Int32",
+      "FieldLength": 418
     }
   }
 }

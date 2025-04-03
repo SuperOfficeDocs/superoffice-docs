@@ -116,6 +116,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -134,10 +135,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 241,
-  "StartTime": "2010-12-22T02:38:20.5419831+01:00",
-  "EndTime": "2010-06-07T02:38:20.5419831+02:00",
-  "Count": 427
+  "ContactId": 742,
+  "StartTime": "2000-02-26T14:28:21.1335548+01:00",
+  "EndTime": "2004-08-07T14:28:21.1335548+02:00",
+  "Count": 133
 }
 ```
 
@@ -149,65 +150,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 646,
-    "StartDate": "2012-01-10T02:38:20.5419831+01:00",
-    "EndDate": "2001-06-08T02:38:20.5419831+02:00",
+    "AppointmentId": 539,
+    "StartDate": "2004-02-14T14:28:21.1335548+01:00",
+    "EndDate": "2024-10-30T14:28:21.1335548+01:00",
     "Type": "BookingForChecklist",
-    "Task": "optio",
-    "AssociateFullName": "Prof. Jason Mueller",
-    "ContactName": "Feeney LLC",
-    "Description": "Reduced regional superstructure",
-    "PersonFullName": "Dr. Jane Hoeger Jr.",
-    "PersonId": 973,
-    "ContactId": 881,
-    "ProjectId": 595,
-    "ProjectName": "Hudson-Rohan",
+    "Task": "enim",
+    "AssociateFullName": "Zetta Wellington Baumbach IV",
+    "ContactName": "Denesik, Nicolas and Aufderhar",
+    "Description": "Total content-based hierarchy",
+    "PersonFullName": "Carmen Legros I",
+    "PersonId": 720,
+    "ContactId": 192,
+    "ProjectId": 741,
+    "ProjectName": "Kilback Inc and Sons",
     "IsPublished": true,
-    "AssociateId": 568,
-    "ColorIndex": 69,
+    "AssociateId": 52,
+    "ColorIndex": 880,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 714,
-    "PriorityName": "Klein Inc and Sons",
+    "PriorityId": 730,
+    "PriorityName": "Schiller Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2024-04-06T02:38:20.5419831+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2009-02-14T14:28:21.1335548+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2000-09-06T02:38:20.5419831+02:00",
-    "RecurringEndDate": "2009-09-15T02:38:20.5419831+02:00",
-    "MotherId": 92,
-    "AssignedBy": 166,
-    "AssignedByFullName": "Kenyon Bayer",
-    "RejectReason": "",
-    "Location": "quidem",
-    "AlarmLeadTime": "possimus",
-    "SaleId": 26,
-    "SaleName": "Borer Group",
-    "AssociateName": "Gibson Group",
-    "CreatedDate": "2002-07-26T02:38:20.5419831+02:00",
-    "CreatedBy": "voluptatem",
-    "CreatedByFullName": "Mr. Jarret Gulgowski",
-    "CreatedByAssociateId": 734,
+    "RecurringStartDate": "2009-09-22T14:28:21.1335548+02:00",
+    "RecurringEndDate": "2021-09-29T14:28:21.1335548+02:00",
+    "MotherId": 472,
+    "AssignedBy": 901,
+    "AssignedByFullName": "Rachel Connelly",
+    "RejectReason": "reinvent strategic users",
+    "Location": "nulla",
+    "AlarmLeadTime": "quaerat",
+    "SaleId": 588,
+    "SaleName": "Schimmel, Cruickshank and Terry",
+    "AssociateName": "Legros-Macejkovic",
+    "CreatedDate": "2012-06-17T14:28:21.1335548+02:00",
+    "CreatedBy": "id",
+    "CreatedByFullName": "Lurline Ledner",
+    "CreatedByAssociateId": 562,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 699,
-    "Title": "ea",
-    "Agenda": "explicabo",
-    "InternalNotes": "eos",
+    "PreferredTZLocation": 864,
+    "Title": "repellendus",
+    "Agenda": "autem",
+    "InternalNotes": "alias",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 223
+        "FieldLength": 205
       }
     }
   }

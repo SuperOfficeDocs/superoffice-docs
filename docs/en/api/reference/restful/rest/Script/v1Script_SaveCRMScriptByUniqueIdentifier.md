@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "autem",
-  "Name": "Tremblay, Romaguera and Brakus",
-  "Description": "Self-enabling grid-enabled productivity",
-  "IncludeId": "aut",
-  "Source": "perspiciatis",
-  "Registered": "2007-06-03T02:38:26.58914+02:00",
-  "RegisteredBy": "molestiae",
-  "Updated": "2015-01-21T02:38:26.58914+01:00",
-  "UpdatedBy": "error",
-  "Path": "pariatur"
+  "UniqueIdentifier": "tempore",
+  "Name": "Jacobson Inc and Sons",
+  "Description": "Self-enabling coherent customer loyalty",
+  "IncludeId": "culpa",
+  "Source": "magni",
+  "Registered": "2003-01-17T14:28:27.4145503+01:00",
+  "RegisteredBy": "architecto",
+  "Updated": "2014-08-27T14:28:27.4145503+02:00",
+  "UpdatedBy": "id",
+  "Path": "similique"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "minus",
-  "Name": "Mohr, Graham and Lakin",
-  "Description": "Public-key bifurcated pricing structure",
-  "IncludeId": "ratione",
-  "Source": "quia",
-  "Registered": "2014-01-13T02:38:26.58914+01:00",
-  "RegisteredBy": "deleniti",
-  "Updated": "2025-02-08T02:38:26.58914+01:00",
-  "UpdatedBy": "maiores",
-  "Path": "voluptatem",
+  "UniqueIdentifier": "blanditiis",
+  "Name": "Watsica Group",
+  "Description": "Proactive executive interface",
+  "IncludeId": "quidem",
+  "Source": "enim",
+  "Registered": "2008-01-04T14:28:27.4145503+01:00",
+  "RegisteredBy": "eum",
+  "Updated": "2018-04-19T14:28:27.4145503+02:00",
+  "UpdatedBy": "ducimus",
+  "Path": "architecto",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 868
     }
   }
 }

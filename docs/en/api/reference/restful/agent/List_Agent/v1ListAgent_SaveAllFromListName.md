@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Watsica-Trantow",
+  "UdListDefinitionName": "Weissnat Group",
   "Items": [
     {
-      "Id": 450,
-      "Name": "Kuhn, Johnston and Lehner",
-      "Tooltip": "reiciendis",
+      "Id": 272,
+      "Name": "Schaden, Bashirian and Adams",
+      "Tooltip": "eligendi",
       "Deleted": false,
-      "UdListDefinitionId": 753,
-      "Rank": 439
+      "UdListDefinitionId": 289,
+      "Rank": 61
     },
     {
-      "Id": 450,
-      "Name": "Kuhn, Johnston and Lehner",
-      "Tooltip": "reiciendis",
+      "Id": 272,
+      "Name": "Schaden, Bashirian and Adams",
+      "Tooltip": "eligendi",
       "Deleted": false,
-      "UdListDefinitionId": 753,
-      "Rank": 439
+      "UdListDefinitionId": 289,
+      "Rank": 61
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 403,
-    "Name": "Smith Inc and Sons",
-    "Tooltip": "cum",
-    "Deleted": false,
-    "UdListDefinitionId": 482,
-    "Rank": 477,
+    "Id": 528,
+    "Name": "Boyer, Cole and Becker",
+    "Tooltip": "quia",
+    "Deleted": true,
+    "UdListDefinitionId": 69,
+    "Rank": 832,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldType": "System.String",
+        "FieldLength": 117
       }
     }
   }

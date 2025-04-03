@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 692,
-  "Name": "Powlowski Inc and Sons",
-  "Tooltip": "non",
+  "HeadingId": 639,
+  "Name": "Kessler-Ondricka",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 701,
-  "UdListDefinitionId": 841
+  "Rank": 843,
+  "UdListDefinitionId": 783
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 619,
-  "Name": "Terry-Wuckert",
-  "Tooltip": "soluta",
-  "Deleted": true,
-  "Rank": 786,
-  "UdListDefinitionId": 318,
+  "HeadingId": 439,
+  "Name": "Kessler Inc and Sons",
+  "Tooltip": "tempore",
+  "Deleted": false,
+  "Rank": 981,
+  "UdListDefinitionId": 34,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 811
+      "FieldType": "System.Int32",
+      "FieldLength": 740
     }
   }
 }

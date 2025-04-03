@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 944,
-    "Name": "Stamm-Monahan",
-    "ToolTip": "Molestias repellat veritatis aut illum inventore.",
+    "Id": 246,
+    "Name": "Terry-Rodriguez",
+    "ToolTip": "Voluptatem nihil aliquam.",
     "Deleted": false,
-    "Rank": 533,
-    "Type": "alias",
-    "ColorBlock": 888,
-    "IconHint": "et",
+    "Rank": 253,
+    "Type": "et",
+    "ColorBlock": 529,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "2007-11-25T02:38:26.7767326+01:00",
+    "LastChanged": "2011-05-18T14:28:27.5707933+02:00",
     "ChildItems": [
       {
-        "Id": 570,
-        "Name": "Sawayn, Yost and Kling",
-        "ToolTip": "Est nisi eos molestias laudantium vero ab maiores.",
-        "Deleted": false,
-        "Rank": 61,
-        "Type": "ad",
-        "ColorBlock": 160,
-        "IconHint": "excepturi",
+        "Id": 322,
+        "Name": "Brekke Group",
+        "ToolTip": "In enim.",
+        "Deleted": true,
+        "Rank": 229,
+        "Type": "ut",
+        "ColorBlock": 213,
+        "IconHint": "aliquid",
         "Selected": false,
-        "LastChanged": "2001-12-12T02:38:26.7767326+01:00",
+        "LastChanged": "2024-12-04T14:28:27.5707933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Adah Bogan"
+        "ExtraInfo": "quam",
+        "StyleHint": "alias",
+        "Hidden": false,
+        "FullName": "Stephany Schuster"
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "omnis",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Edyth Mueller"
+    "FullName": "Jennyfer Schaden"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 540,
-    "Name": "Feil Group",
-    "ToolTip": "Et alias.",
-    "Deleted": true,
-    "Rank": 869,
-    "Type": "dolore",
-    "ColorBlock": 428,
-    "IconHint": "sunt",
+    "Id": 977,
+    "Name": "Dooley, Stanton and Walsh",
+    "ToolTip": "Vitae vero.",
+    "Deleted": false,
+    "Rank": 138,
+    "Type": "optio",
+    "ColorBlock": 413,
+    "IconHint": "dolorum",
     "Selected": false,
-    "LastChanged": "2000-02-29T02:38:26.7767326+01:00",
+    "LastChanged": "2024-03-09T14:28:27.5707933+01:00",
     "ChildItems": [
       {
-        "Id": 708,
-        "Name": "Lemke, Roob and Wiza",
-        "ToolTip": "Delectus aut sequi ut nihil.",
+        "Id": 758,
+        "Name": "O'Reilly LLC",
+        "ToolTip": "Tenetur in maxime itaque doloribus magni et.",
         "Deleted": false,
-        "Rank": 800,
-        "Type": "eligendi",
-        "ColorBlock": 983,
-        "IconHint": "qui",
-        "Selected": false,
-        "LastChanged": "1998-08-01T02:38:26.7767326+02:00",
+        "Rank": 348,
+        "Type": "illo",
+        "ColorBlock": 442,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2023-12-30T14:28:27.5707933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "voluptas",
-        "Hidden": true,
-        "FullName": "Mrs. Arvid Pacocha DDS",
+        "ExtraInfo": "ullam",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Willy Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 882
+            "FieldType": "System.String",
+            "FieldLength": 589
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "quaerat",
-    "Hidden": false,
-    "FullName": "Ms. Einar Grady",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "quae",
+    "Hidden": true,
+    "FullName": "Prof. Emile Elbert Jast I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldLength": 973
       }
     }
   }

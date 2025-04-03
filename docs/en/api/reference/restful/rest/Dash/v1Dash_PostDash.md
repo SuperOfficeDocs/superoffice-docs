@@ -104,30 +104,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 396,
-  "UniqueId": "assumenda",
-  "Name": "Hansen-Mayer",
-  "Description": "Adaptive responsive monitoring",
-  "AssociateId": 680,
-  "Columns": 696,
+  "DashboardId": 222,
+  "UniqueId": "amet",
+  "Name": "Dare-Crooks",
+  "Description": "Right-sized intangible emulation",
+  "AssociateId": 183,
+  "Columns": 141,
   "Theme": null,
-  "VisibleForAll": 924,
+  "VisibleForAll": 382,
   "VisibleForAssociates": [
-    865,
-    492
+    908,
+    805
   ],
   "VisibleForGroups": [
-    30,
-    97
+    512,
+    548
   ],
-  "PinForAll": 640,
+  "PinForAll": 724,
   "PinForAssociates": [
-    81,
-    850
+    348,
+    447
   ],
   "PinForGroups": [
-    248,
-    870
+    33,
+    27
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 578,
-  "UniqueId": "aut",
-  "Name": "Pouros, Fahey and Morissette",
-  "Description": "Configurable cohesive array",
-  "AssociateId": 409,
-  "Columns": 24,
+  "DashboardId": 644,
+  "UniqueId": "non",
+  "Name": "McCullough-Cole",
+  "Description": "Customer-focused asynchronous adapter",
+  "AssociateId": 997,
+  "Columns": 213,
   "Theme": null,
-  "VisibleForAll": 753,
+  "VisibleForAll": 284,
   "VisibleForAssociates": [
-    400,
-    631
+    762,
+    973
   ],
   "VisibleForGroups": [
-    119,
-    951
+    154,
+    634
   ],
-  "PinForAll": 112,
+  "PinForAll": 978,
   "PinForAssociates": [
-    820,
-    703
+    764,
+    548
   ],
   "PinForGroups": [
-    661,
-    395
+    956,
+    875
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldType": "System.String",
+      "FieldLength": 856
     }
   },
   "_Links": {

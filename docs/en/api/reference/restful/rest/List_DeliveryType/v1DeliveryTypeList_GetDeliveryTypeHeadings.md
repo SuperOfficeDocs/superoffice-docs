@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 347,
-    "Name": "Kuhlman Inc and Sons",
-    "Tooltip": "aliquid",
+    "HeadingId": 631,
+    "Name": "Jast LLC",
+    "Tooltip": "consequatur",
     "Deleted": false,
-    "Rank": 86,
-    "UdListDefinitionId": 76,
+    "Rank": 912,
+    "UdListDefinitionId": 324,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 180
       }
     }
   }

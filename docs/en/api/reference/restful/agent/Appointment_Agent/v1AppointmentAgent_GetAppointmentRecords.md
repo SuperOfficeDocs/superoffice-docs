@@ -114,6 +114,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,8 +133,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MotherId": 689,
-  "RecurrenceRuleId": 743
+  "MotherId": 157,
+  "RecurrenceRuleId": 777
 }
 ```
 
@@ -145,65 +146,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 368,
-    "StartDate": "2004-12-29T02:38:20.6514919+01:00",
-    "EndDate": "2023-11-04T02:38:20.6514919+01:00",
+    "AppointmentId": 620,
+    "StartDate": "2008-09-21T14:28:21.2744024+02:00",
+    "EndDate": "2012-08-14T14:28:21.2744024+02:00",
     "Type": "BookingForChecklist",
-    "Task": "repellendus",
-    "AssociateFullName": "Newell Eichmann",
-    "ContactName": "Cassin, Deckow and Erdman",
-    "Description": "Distributed empowering contingency",
-    "PersonFullName": "Suzanne Bernhard",
-    "PersonId": 788,
-    "ContactId": 994,
-    "ProjectId": 27,
-    "ProjectName": "Raynor-Casper",
+    "Task": "architecto",
+    "AssociateFullName": "Dr. Geo Haag",
+    "ContactName": "Morissette-Ratke",
+    "Description": "Down-sized zero administration secured line",
+    "PersonFullName": "Andreane McCullough",
+    "PersonId": 44,
+    "ContactId": 32,
+    "ProjectId": 547,
+    "ProjectName": "Parker-Spinka",
     "IsPublished": true,
-    "AssociateId": 926,
-    "ColorIndex": 86,
+    "AssociateId": 273,
+    "ColorIndex": 669,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 396,
-    "PriorityName": "Connelly, Johnston and Steuber",
+    "PriorityId": 161,
+    "PriorityName": "Larson Inc and Sons",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2000-01-21T02:38:20.6514919+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2018-08-08T14:28:21.2744024+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-01-19T02:38:20.6514919+01:00",
-    "RecurringEndDate": "2021-08-08T02:38:20.6514919+02:00",
-    "MotherId": 830,
-    "AssignedBy": 644,
-    "AssignedByFullName": "Clifford Steuber",
+    "RecurringStartDate": "2008-10-30T14:28:21.2744024+01:00",
+    "RecurringEndDate": "2024-07-22T14:28:21.2744024+02:00",
+    "MotherId": 360,
+    "AssignedBy": 929,
+    "AssignedByFullName": "Reilly Bernhard",
     "RejectReason": "",
-    "Location": "maiores",
-    "AlarmLeadTime": "est",
-    "SaleId": 822,
-    "SaleName": "Ernser, Mitchell and Kulas",
-    "AssociateName": "Stanton Group",
-    "CreatedDate": "2004-05-25T02:38:20.6514919+02:00",
-    "CreatedBy": "sequi",
-    "CreatedByFullName": "Nola Kulas",
-    "CreatedByAssociateId": 315,
+    "Location": "est",
+    "AlarmLeadTime": "et",
+    "SaleId": 86,
+    "SaleName": "Heidenreich Inc and Sons",
+    "AssociateName": "Rowe, Auer and Jewess",
+    "CreatedDate": "1999-11-30T14:28:21.2744024+01:00",
+    "CreatedBy": "sit",
+    "CreatedByFullName": "Sophia Moen",
+    "CreatedByAssociateId": 316,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 662,
-    "Title": "perspiciatis",
-    "Agenda": "quo",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 467,
+    "Title": "eius",
+    "Agenda": "dolore",
+    "InternalNotes": "non",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 852
+        "FieldLength": 661
       }
     }
   }

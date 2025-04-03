@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "necessitatibus",
+    "path": "ut",
     "value": {}
   },
   {
     "op": "add",
-    "path": "necessitatibus",
+    "path": "ut",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Balanced mobile support",
-  "Postit": "non",
+  "Description": "Triple-buffered eco-centric project",
+  "Postit": "debitis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 867,
-  "IncludePerson": 957,
+  "GroupIdx": 475,
+  "IncludePerson": 588,
   "MemberCount": 99.99,
-  "Name": "Robel LLC",
-  "PostitTextId": 480,
-  "CreatedDate": "2019-11-07T02:38:26.4172802+01:00",
-  "SelectionId": 811,
-  "SoundEx": "odit",
-  "Source": 382,
-  "TextId": 147,
-  "UpdatedDate": "2002-01-28T02:38:26.4172802+01:00",
-  "UpdatedCount": 409,
-  "Visibility": 922,
+  "Name": "Kilback, Walter and Buckridge",
+  "PostitTextId": 170,
+  "CreatedDate": "2013-02-25T14:28:27.2583066+01:00",
+  "SelectionId": 168,
+  "SoundEx": "vel",
+  "Source": 717,
+  "TextId": 161,
+  "UpdatedDate": "2022-07-18T14:28:27.2583066+02:00",
+  "UpdatedCount": 399,
+  "Visibility": 259,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 894,
-  "TargetTableName": "Zemlak, McKenzie and Stiedemann",
+  "CompanyUnique": false,
+  "TargetTableNumber": 541,
+  "TargetTableName": "Medhurst, Cormier and Nitzsche",
   "Completed": true,
-  "LeftSelectionId": 851,
-  "RightSelectionId": 290,
+  "LeftSelectionId": 324,
+  "RightSelectionId": 201,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Moen Group",
-  "ShadowProviderName": "Romaguera, Corkery and Hamill",
-  "ChartKey": "labore",
-  "LastLoaded": "2008-12-27T02:38:26.4172802+01:00",
-  "LastLoadedBy": 528,
+  "MainProviderName": "Eichmann, Langworth and Cassin",
+  "ShadowProviderName": "Collins LLC",
+  "ChartKey": "sed",
+  "LastLoaded": "2010-02-28T14:28:27.2583066+01:00",
+  "LastLoadedBy": 906,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-09-09T02:38:26.4172802+02:00",
-  "LastMembershipChangeBy": 347,
+  "LastMembershipChange": "1999-09-17T14:28:27.2583066+02:00",
+  "LastMembershipChangeBy": 787,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "consectetur",
-  "MemberTabHeading": "exercitationem",
-  "MailingsProviderName": "Wilderman-Jacobson",
-  "DashboardTileDefinitionId": 152,
+  "MainHeading": "totam",
+  "MemberTabHeading": "nesciunt",
+  "MailingsProviderName": "Simonis-Denesik",
+  "DashboardTileDefinitionId": 846,
   "VisibleFor": [
     {
-      "VisibleId": 502,
+      "VisibleId": 585,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1000
+          "FieldLength": 694
         }
       }
     },
     {
-      "VisibleId": 502,
+      "VisibleId": 585,
       "Visibility": "All",
-      "DisplayValue": "aliquid",
+      "DisplayValue": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 1000
+          "FieldLength": 694
         }
       }
     }
@@ -245,12 +245,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 997
+      "FieldLength": 380
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 251,
-  "Name": "Moen-Leffler",
-  "Tooltip": "eligendi",
+  "Id": 240,
+  "Name": "Terry Group",
+  "Tooltip": "ratione",
   "Deleted": false,
-  "Rank": 259,
+  "Rank": 800,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quis",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 864,
-  "Name": "Langworth-Weimann",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 550,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 592,
+  "Name": "Turcotte LLC",
+  "Tooltip": "blanditiis",
+  "Deleted": false,
+  "Rank": 544,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": true,
+  "ListType": "est",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 425
+      "FieldLength": 239
     }
   }
 }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "alias"
+  "Domain": "nostrum"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Donnelly, Wyman and Kiehn",
-    "SoPrimaryKey": 396,
-    "EntryName": "Cronin-Padberg",
-    "EntryIdentifier": "et",
-    "RuleDisplayName": "Rau-Gleichner",
+    "RuleName": "Simonis Inc and Sons",
+    "SoPrimaryKey": 604,
+    "EntryName": "Schneider, Hegmann and Crist",
+    "EntryIdentifier": "nihil",
+    "RuleDisplayName": "Schuppe Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldLength": 802
       }
     }
   }

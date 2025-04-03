@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 750,
-  "WorkflowId": 291,
+  "WorkflowTriggerId": 508,
+  "WorkflowId": 389,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Walter-Johnson",
-      "Description": "Advanced multimedia array",
-      "Rank": 544,
+      "Name": "O'Hara Group",
+      "Description": "Networked mission-critical capability",
+      "Rank": 642,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Walter-Johnson",
-      "Description": "Advanced multimedia array",
-      "Rank": 544,
+      "Name": "O'Hara Group",
+      "Description": "Networked mission-critical capability",
+      "Rank": 642,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 58,
-  "WorkflowId": 159,
+  "WorkflowTriggerId": 655,
+  "WorkflowId": 249,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Schinner Inc and Sons",
-      "Description": "Diverse global analyzer",
-      "Rank": 935,
+      "Name": "Weber Inc and Sons",
+      "Description": "Enhanced fault-tolerant internet solution",
+      "Rank": 421,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schinner Inc and Sons",
-      "Description": "Diverse global analyzer",
-      "Rank": 935,
+      "Name": "Weber Inc and Sons",
+      "Description": "Enhanced fault-tolerant internet solution",
+      "Rank": 421,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 986
+      "FieldLength": 854
     }
   }
 }

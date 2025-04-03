@@ -112,6 +112,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -131,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 921
+  "SaleId": 962
 }
 ```
 
@@ -150,120 +151,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-04-07T02:38:20.8077217+02:00",
-  "AppointmentId": 411,
-  "Description": "Persistent empowering pricing structure",
-  "Title": "et",
-  "Agenda": "ex",
-  "InternalNotes": "dolores",
-  "StartDate": "2016-08-19T02:38:20.8077217+02:00",
-  "EndDate": "2009-09-27T02:38:20.8077217+02:00",
+  "CreatedDate": "2005-02-14T14:28:21.4147931+01:00",
+  "AppointmentId": 165,
+  "Description": "Business-focused eco-centric contingency",
+  "Title": "accusantium",
+  "Agenda": "et",
+  "InternalNotes": "odio",
+  "StartDate": "2003-03-02T14:28:21.4147931+01:00",
+  "EndDate": "2010-06-15T14:28:21.4147931+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 479,
+  "MotherId": 946,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-05-14T02:38:20.8077217+02:00",
+  "UpdatedDate": "2012-10-22T14:28:21.4147931+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 609,
+  "ActiveLinks": 879,
   "Links": [
     {
-      "EntityName": "Kohler LLC",
-      "Id": 987,
-      "Description": "Down-sized exuding hardware",
-      "ExtraInfo": "a",
-      "LinkId": 192,
+      "EntityName": "Ryan-Hintz",
+      "Id": 435,
+      "Description": "Object-based neutral protocol",
+      "ExtraInfo": "alias",
+      "LinkId": 971,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 302
+          "FieldLength": 30
         }
       }
     }
   ],
-  "AlarmLeadTime": "hic",
+  "AlarmLeadTime": "amet",
   "HasAlarm": true,
-  "ColorIndex": 963,
-  "IsFree": true,
+  "ColorIndex": 806,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "commodi",
-  "LeadTime": "soluta",
-  "Location": "maxime",
-  "RejectCounter": 860,
-  "RejectReason": "",
+  "LagTime": "mollitia",
+  "LeadTime": "ut",
+  "Location": "tenetur",
+  "RejectCounter": 874,
+  "RejectReason": "seize transparent models",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 951,
-      "PersonId": 450,
-      "ContactId": 934,
-      "EmailId": 643,
+      "AssociateId": 106,
+      "PersonId": 194,
+      "ContactId": 211,
+      "EmailId": 818,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "oscar@mantetillman.uk",
-      "Description": "Extended zero defect pricing structure"
+      "EmailAddress": "eveline@schmitt.us",
+      "Description": "Triple-buffered attitude-oriented flexibility"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2023-12-07T02:38:20.8077217+01:00",
+  "ActiveDate": "2014-03-20T14:28:21.4147931+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 185,
+  "PreferredTZLocation": 215,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 448,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 216,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quis",
+  "CentralserviceVideomeetId": "sunt",
   "UserDefinedFields": {
-    "SuperOffice:1": "1687999627",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Claudine Larkin",
+    "SuperOffice:2": "Dr. Ellie Murazik"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "quasi"
+    "ExtraFields1": "esse",
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "ducimus"
+    "CustomFields1": "sed",
+    "CustomFields2": "culpa"
   },
-  "PublishEventDate": "2010-09-01T02:38:20.8077217+02:00",
-  "PublishTo": "2017-12-19T02:38:20.8077217+01:00",
-  "PublishFrom": "2005-10-31T02:38:20.8077217+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2010-05-09T14:28:21.4147931+02:00",
+  "PublishTo": "2012-03-24T14:28:21.4147931+01:00",
+  "PublishFrom": "2007-05-16T14:28:21.4147931+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 589,
+      "VisibleId": 895,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldType": "System.String",
+          "FieldLength": 734
         }
       }
     },
     {
-      "VisibleId": 589,
+      "VisibleId": 895,
       "Visibility": "All",
-      "DisplayValue": "velit",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 182
+          "FieldType": "System.String",
+          "FieldLength": 734
         }
       }
     }
@@ -273,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 316
+      "FieldLength": 346
     }
   }
 }

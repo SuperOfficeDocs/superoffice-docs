@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ViewState/GetCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Schneider LLC"
+  "HistoryName": "Price Group"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 794,
-  "Id": 296,
-  "HistoryName": "Zboncak-Conn",
-  "HistoryId": 407,
-  "AssociateId": 891,
-  "Name": "Jast-Crooks",
-  "ItemInfo": "molestias",
+  "Rank": 408,
+  "Id": 418,
+  "HistoryName": "Aufderhar Inc and Sons",
+  "HistoryId": 36,
+  "AssociateId": 112,
+  "Name": "Beatty, Larson and Bashirian",
+  "ItemInfo": "eveniet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldType": "System.Int32",
+      "FieldLength": 459
     }
   }
 }

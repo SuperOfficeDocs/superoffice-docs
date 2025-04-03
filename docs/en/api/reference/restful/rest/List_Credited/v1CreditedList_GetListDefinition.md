@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 405,
-  "Name": "Wunsch, Kiehn and Rohan",
-  "Tooltip": "deleniti",
+  "Id": 584,
+  "Name": "Maggio, Veum and Farrell",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 8,
+  "Rank": 70,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "dicta",
+  "ListType": "voluptatum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldType": "System.String",
+      "FieldLength": 302
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

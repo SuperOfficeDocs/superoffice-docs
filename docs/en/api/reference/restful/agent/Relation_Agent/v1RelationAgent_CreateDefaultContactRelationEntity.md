@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 930,
-  "SourcePersonId": 475,
-  "DestinationContactId": 361,
-  "DestinationPersonId": 296,
-  "RelationId": 983,
-  "Comment": "eum",
-  "RelationDefinitionId": 944,
-  "Reversed": 623,
-  "UpdatedDate": "2005-07-11T02:38:21.7919947+02:00",
-  "CreatedDate": "2025-01-13T02:38:21.7919947+01:00",
+  "SourceContactId": 11,
+  "SourcePersonId": 213,
+  "DestinationContactId": 99,
+  "DestinationPersonId": 159,
+  "RelationId": 540,
+  "Comment": "at",
+  "RelationDefinitionId": 736,
+  "Reversed": 37,
+  "UpdatedDate": "2001-09-02T14:28:22.3053817+02:00",
+  "CreatedDate": "2016-03-26T14:28:22.3053817+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Lindgren-Reinger",
-  "SourcePersonName": "Collier Inc and Sons",
-  "DestinationContactName": "Gusikowski-Runolfsdottir",
-  "DestinationPersonName": "Muller Inc and Sons",
-  "ActiveText": "labore",
-  "PassiveText": "recusandae",
+  "SourceContactName": "Jacobson-Smitham",
+  "SourcePersonName": "Stracke-Mayert",
+  "DestinationContactName": "Powlowski-Bednar",
+  "DestinationPersonName": "Johnson-Barton",
+  "ActiveText": "quis",
+  "PassiveText": "placeat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 35
+      "FieldLength": 2
     }
   }
 }

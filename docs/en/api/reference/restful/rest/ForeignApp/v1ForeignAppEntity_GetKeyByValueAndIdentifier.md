@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=sed
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=tenetur
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 14 Apr 2017 02:38:26 G4T
+Last-Modified: Wed, 17 Nov 1999 14:28:26 G11T
 
 {
-  "Key": "a",
-  "Value": "laboriosam",
-  "RecordId": 474,
-  "CreatedDate": "2001-11-01T02:38:26.1204323+01:00",
-  "UpdatedDate": "2017-04-14T02:38:26.1204323+02:00",
-  "UpdatedBy": "exercitationem",
-  "CreatedBy": "aliquid",
-  "TableName": "Rolfson, Towne and Zulauf",
+  "Key": "sint",
+  "Value": "voluptatem",
+  "RecordId": 359,
+  "CreatedDate": "1999-07-06T14:28:26.9458186+02:00",
+  "UpdatedDate": "1999-11-17T14:28:26.9458186+01:00",
+  "UpdatedBy": "doloremque",
+  "CreatedBy": "a",
+  "TableName": "Ward, Christiansen and Waelchi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 202
     }
   }
 }

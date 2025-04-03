@@ -105,33 +105,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Kling Group",
-  "ProviderName": "Kovacek LLC",
+  "GuiName": "Hirthe, Lubowitz and Price",
+  "ProviderName": "Ward, Kuphal and Purdy",
   "SortOrder": [
     {
-      "Name": "Mohr-Hansen",
+      "Name": "Sanford-Langworth",
       "Direction": "ASC"
     },
     {
-      "Name": "Mohr-Hansen",
+      "Name": "Sanford-Langworth",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Volkman Inc and Sons",
-      "Operator": "ipsam",
+      "Name": "Lehner, Hessel and Turcotte",
+      "Operator": "minus",
       "Values": [
-        "quis",
-        "minima"
+        "perferendis",
+        "consequuntur"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "autem"
+        "voluptatibus",
+        "voluptatibus"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 177,
+      "InterParenthesis": 606,
       "InterOperator": "And",
-      "UniqueHash": 767
+      "UniqueHash": 168
     }
   ],
   "Entities": [
-    "minima",
-    "vel"
+    "dolores",
+    "hic"
   ],
-  "Page": 886,
-  "PageSize": 17,
-  "Context": "beatae"
+  "Page": 993,
+  "PageSize": 749,
+  "Context": "eos"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kreiger, Wuckert and Klein",
-    "PrimaryKey": 241,
+    "EntityName": "Jewess Group",
+    "PrimaryKey": 26,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "odio",
-        "TooltipHint": "laborum",
+        "DisplayValue": "sed",
+        "TooltipHint": "eaque",
         "LinkHint": "repellat"
       }
     },
-    "LinkHint": "libero",
-    "StyleHint": "in",
+    "LinkHint": "fugiat",
+    "StyleHint": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldType": "System.String",
+        "FieldLength": 789
       }
     }
   }

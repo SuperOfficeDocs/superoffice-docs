@@ -33,7 +33,7 @@ Calls the Sale agent service GetSaleEntity.
 
 ```http
 GET /api/v1/Sale/{id}?$select=name,department,category/id
-GET /api/v1/Sale/{id}?fk=True
+GET /api/v1/Sale/{id}?fk=False
 ```
 
 
@@ -119,7 +119,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -127,7 +127,7 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 18 Feb 1998 02:38:26 G2T
+Last-Modified: Tue, 08 Mar 2016 14:28:27 G3T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Wed, 18 Feb 1998 02:38:26 G2T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "rerum",
+  "SaleText": "vitae",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Wed, 18 Feb 1998 02:38:26 G2T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2001-07-25T02:38:26.3704077+02:00",
-  "Amount": 5641.2,
-  "SaleId": 90,
-  "Earning": 20195.496,
-  "EarningPercent": 4823.226,
-  "Heading": "sapiente",
-  "Number": "793950",
-  "Probability": 462,
-  "CreatedDate": "2006-12-06T02:38:26.3704077+01:00",
-  "UpdatedDate": "1998-02-18T02:38:26.3704077+01:00",
+  "Saledate": "2018-02-18T14:28:27.2114406+01:00",
+  "Amount": 22871.932,
+  "SaleId": 856,
+  "Earning": 24670.847999999998,
+  "EarningPercent": 3926.902,
+  "Heading": "et",
+  "Number": "1665940",
+  "Probability": 557,
+  "CreatedDate": "2008-09-22T14:28:27.2114406+02:00",
+  "UpdatedDate": "2016-03-08T14:28:27.2114406+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 516,
+  "ActiveLinks": 194,
   "Links": [
     {
-      "EntityName": "Stehr-O'Hara",
-      "Id": 393,
-      "Description": "Right-sized analyzing infrastructure",
-      "ExtraInfo": "ut",
-      "LinkId": 907,
+      "EntityName": "Mraz-Robel",
+      "Id": 429,
+      "Description": "Decentralized heuristic hardware",
+      "ExtraInfo": "et",
+      "LinkId": 247,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 627
+          "FieldLength": 959
         }
       }
     }
   ],
-  "NextDueDate": "2007-11-17T02:38:26.3704077+01:00",
-  "Postit": "dolorum",
+  "NextDueDate": "2020-03-27T14:28:27.2114406+01:00",
+  "Postit": "illo",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1999-01-11T02:38:26.3704077+01:00",
+  "ReopenDate": "2024-02-27T14:28:27.2114406+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Hayes-Conroy",
-      "Comment": "quia",
-      "StakeholderRoleId": 563,
-      "CountryId": 256,
-      "PersonId": 968,
-      "EmailDescription": "jordane@osinski.co.uk",
-      "EmailId": 603,
-      "EmailAddress": "dimitri_pfeffer@bergnaumgislason.name",
-      "PhoneId": 695,
-      "ContactName": "Kreiger-Hagenes",
-      "ContactId": 32,
-      "SaleId": 284,
-      "Mrmrs": "quasi",
-      "Firstname": "Horacio",
-      "MiddleName": "O'Reilly Group",
-      "Lastname": "Shanahan",
-      "SaleStakeholderId": 520,
-      "Rank": 438,
-      "Phone": "(031)871-1901",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 176
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 400,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "nesciunt"
-  },
-  "CustomFields": {
-    "CustomFields1": "voluptatem",
-    "CustomFields2": "amet"
-  },
-  "PublishEventDate": "2018-08-03T02:38:26.3704077+02:00",
-  "PublishTo": "2015-11-19T02:38:26.3704077+01:00",
-  "PublishFrom": "2023-07-15T02:38:26.3704077+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 395,
-      "Visibility": "All",
-      "DisplayValue": "sed",
+      "StakeholderRoleName": "O'Hara-Cartwright",
+      "Comment": "ab",
+      "StakeholderRoleId": 368,
+      "CountryId": 942,
+      "PersonId": 55,
+      "EmailDescription": "jeanne@king.co.uk",
+      "EmailId": 627,
+      "EmailAddress": "dejuan@mertz.name",
+      "PhoneId": 963,
+      "ContactName": "Hilpert-Romaguera",
+      "ContactId": 126,
+      "SaleId": 509,
+      "Mrmrs": "aut",
+      "Firstname": "Jarod",
+      "MiddleName": "Schultz, Schumm and DuBuque",
+      "Lastname": "Carter",
+      "SaleStakeholderId": 152,
+      "Rank": 216,
+      "Phone": "1-244-851-7510",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 201
+          "FieldLength": 602
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 637,
+  "UserDefinedFields": {
+    "SuperOffice:1": "818973586",
+    "SuperOffice:2": "Vito Jerde"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "et"
+  },
+  "CustomFields": {
+    "CustomFields1": "nostrum",
+    "CustomFields2": "aut"
+  },
+  "PublishEventDate": "2004-06-22T14:28:27.2114406+02:00",
+  "PublishTo": "2019-05-24T14:28:27.2114406+02:00",
+  "PublishFrom": "1999-01-10T14:28:27.2114406+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 164,
+      "Visibility": "All",
+      "DisplayValue": "numquam",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 576
         }
       }
     },
     {
-      "VisibleId": 395,
+      "VisibleId": 164,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "numquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 201
+          "FieldType": "System.String",
+          "FieldLength": 576
         }
       }
     }
@@ -260,8 +260,8 @@ Last-Modified: Wed, 18 Feb 1998 02:38:26 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1002
+      "FieldType": "System.Int32",
+      "FieldLength": 531
     }
   },
   "_Links": {

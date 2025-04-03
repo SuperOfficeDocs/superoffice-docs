@@ -75,30 +75,30 @@ OK
 POST /api/v1/Agents/ErpSync/TryConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 963,
-  "CrmRecordId": 1001,
+  "ErpConnectionId": 582,
+  "CrmRecordId": 836,
   "CrmActorType": "Contact",
-  "ErpKey": "doloribus",
+  "ErpKey": "qui",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Strosin Inc and Sons",
-      "CrmFieldKey": "est",
-      "Value": "ipsam",
-      "DisplayValue": "nisi",
-      "SyncToCrm": true,
+      "DisplayName": "Metz, Mante and Murazik",
+      "CrmFieldKey": "qui",
+      "Value": "rerum",
+      "DisplayValue": "veritatis",
+      "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Strosin Inc and Sons",
-      "CrmFieldKey": "est",
-      "Value": "ipsam",
-      "DisplayValue": "nisi",
-      "SyncToCrm": true,
+      "DisplayName": "Metz, Mante and Murazik",
+      "CrmFieldKey": "qui",
+      "Value": "rerum",
+      "DisplayValue": "veritatis",
+      "SyncToCrm": false,
       "SyncToErp": false
     }
   ]

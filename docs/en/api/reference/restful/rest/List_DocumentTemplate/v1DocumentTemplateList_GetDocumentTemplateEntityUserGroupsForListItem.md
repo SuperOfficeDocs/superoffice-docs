@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 726,
-    "Name": "Langworth, Larkin and Haley",
-    "ToolTip": "Sit debitis vitae tempore.",
-    "Deleted": false,
-    "Rank": 370,
-    "Type": "quos",
-    "ColorBlock": 311,
-    "IconHint": "cupiditate",
-    "Selected": false,
-    "LastChanged": "2004-12-13T02:38:26.7611442+01:00",
+    "Id": 616,
+    "Name": "Cole-Nader",
+    "ToolTip": "Temporibus est a nulla quas et.",
+    "Deleted": true,
+    "Rank": 13,
+    "Type": "nesciunt",
+    "ColorBlock": 212,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2010-11-28T14:28:27.5707933+01:00",
     "ChildItems": [
       {
-        "Id": 131,
-        "Name": "Boyle LLC",
-        "ToolTip": "Cumque similique fugit omnis.",
+        "Id": 910,
+        "Name": "Strosin-Brown",
+        "ToolTip": "Voluptate et.",
         "Deleted": false,
-        "Rank": 310,
-        "Type": "repudiandae",
-        "ColorBlock": 43,
-        "IconHint": "magni",
+        "Rank": 751,
+        "Type": "omnis",
+        "ColorBlock": 242,
+        "IconHint": "labore",
         "Selected": false,
-        "LastChanged": "2019-11-06T02:38:26.7611442+01:00",
+        "LastChanged": "2014-08-29T14:28:27.5707933+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Mrs. Stephen William Dibbert IV",
+        "ExtraInfo": "ea",
+        "StyleHint": "dignissimos",
+        "Hidden": false,
+        "FullName": "Ms. Julie Hand",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 985
+            "FieldType": "System.Int32",
+            "FieldLength": 849
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "ea",
+    "ExtraInfo": "tempore",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Dr. Amie Kerluke III",
+    "FullName": "Adelbert Willms",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 637
+        "FieldType": "System.Int32",
+        "FieldLength": 933
       }
     }
   }

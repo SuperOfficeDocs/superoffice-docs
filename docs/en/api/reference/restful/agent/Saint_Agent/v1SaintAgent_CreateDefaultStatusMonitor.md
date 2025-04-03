@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 515,
-  "Rank": 393,
-  "DefaultTask": 260,
-  "DefaultTaskText": "dolores",
+  "OwnerTable": 655,
+  "Rank": 367,
+  "DefaultTask": 376,
+  "DefaultTaskText": "provident",
   "IsVisual": false,
-  "LastGenerated": "2019-05-13T02:38:21.8076201+02:00",
-  "Description": "Universal context-sensitive attitude",
-  "Name": "Wisozk, Bednar and Goldner",
-  "StatusMonitorId": 270,
-  "PictureId": 146,
+  "LastGenerated": "2004-01-30T14:28:22.321006+01:00",
+  "Description": "Universal leading edge circuit",
+  "Name": "Medhurst, Deckow and Effertz",
+  "StatusMonitorId": 697,
+  "PictureId": 997,
   "NeedsUpdate": false,
   "Deleted": true,
-  "NumMatches": 857,
-  "NumNeedUpdate": 786,
-  "GenerationStart": "2025-02-08T02:38:21.8076201+01:00",
+  "NumMatches": 675,
+  "NumNeedUpdate": 651,
+  "GenerationStart": "2004-07-23T14:28:22.321006+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 658
+      "FieldLength": 214
     }
   }
 }

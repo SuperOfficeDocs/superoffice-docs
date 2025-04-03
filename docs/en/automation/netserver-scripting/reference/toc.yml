@@ -765,6 +765,8 @@ items:
     href: customerserviceagent/getcustomercenterconfig.md
   - name: GetCustomerServiceStartup
     href: customerserviceagent/getcustomerservicestartup.md
+  - name: GetCustomerServiceStartupByOwner
+    href: customerserviceagent/getcustomerservicestartupbyowner.md
   - name: GetFaqForCustomer
     href: customerserviceagent/getfaqforcustomer.md
   - name: GetMailboxEntity
@@ -3437,6 +3439,8 @@ items:
     href: ticketagent/getdefaultmessagecontentwithoptions.md
   - name: GetForRmUi
     href: ticketagent/getforrmui.md
+  - name: GetHotlistEjUsers
+    href: ticketagent/gethotlistejusers.md
   - name: GetNextInQueue
     href: ticketagent/getnextinqueue.md
   - name: GetPreviewAttachmentStream

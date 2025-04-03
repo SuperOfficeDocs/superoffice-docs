@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 205,
-  "SourcePersonId": 164,
-  "DestinationContactId": 954,
-  "DestinationPersonId": 921,
-  "RelationId": 616,
-  "Comment": "suscipit",
-  "RelationDefinitionId": 399,
-  "Reversed": 430,
-  "UpdatedDate": "2003-12-05T02:38:21.7919947+01:00",
-  "CreatedDate": "2002-11-08T02:38:21.7919947+01:00",
+  "SourceContactId": 243,
+  "SourcePersonId": 762,
+  "DestinationContactId": 156,
+  "DestinationPersonId": 19,
+  "RelationId": 654,
+  "Comment": "dolore",
+  "RelationDefinitionId": 397,
+  "Reversed": 269,
+  "UpdatedDate": "2015-06-09T14:28:22.321006+02:00",
+  "CreatedDate": "2014-04-01T14:28:22.321006+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Carroll Group",
-  "SourcePersonName": "Hane Group",
-  "DestinationContactName": "Schuppe Group",
-  "DestinationPersonName": "Osinski-Kuhic",
-  "ActiveText": "quos",
-  "PassiveText": "at",
+  "SourceContactName": "McCullough, Veum and Blanda",
+  "SourcePersonName": "Gusikowski-Beahan",
+  "DestinationContactName": "Leannon-Abernathy",
+  "DestinationPersonName": "Mosciski LLC",
+  "ActiveText": "in",
+  "PassiveText": "nostrum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 57
+      "FieldLength": 721
     }
   }
 }

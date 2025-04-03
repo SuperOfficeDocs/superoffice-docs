@@ -112,29 +112,29 @@ OK
 POST /api/v1/SaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Funk, Walter and Rowe",
-  "Comment": "id",
-  "StakeholderRoleId": 649,
-  "CountryId": 395,
-  "PersonId": 804,
-  "EmailDescription": "bryce@schoenhuel.us",
-  "EmailId": 840,
-  "EmailAddress": "maida@johns.co.uk",
-  "PhoneId": 268,
-  "ContactName": "Lind Inc and Sons",
-  "ContactId": 527,
-  "SaleId": 436,
-  "Mrmrs": "cumque",
-  "Firstname": "Nico",
-  "MiddleName": "Mayert-Klocko",
-  "Lastname": "Kub",
-  "SaleStakeholderId": 460,
-  "Rank": 235,
-  "Phone": "1-007-901-1123"
+  "StakeholderRoleName": "Lang Inc and Sons",
+  "Comment": "sed",
+  "StakeholderRoleId": 157,
+  "CountryId": 181,
+  "PersonId": 863,
+  "EmailDescription": "carlie.effertz@olson.ca",
+  "EmailId": 435,
+  "EmailAddress": "dock@schusterauer.ca",
+  "PhoneId": 635,
+  "ContactName": "O'Conner LLC",
+  "ContactId": 281,
+  "SaleId": 49,
+  "Mrmrs": "voluptatem",
+  "Firstname": "Ocie",
+  "MiddleName": "Hackett-Nolan",
+  "Lastname": "Harvey",
+  "SaleStakeholderId": 700,
+  "Rank": 465,
+  "Phone": "(740)352-2611"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Witting-Shanahan",
-  "Comment": "ab",
-  "StakeholderRoleId": 993,
-  "CountryId": 178,
-  "PersonId": 509,
-  "EmailDescription": "simeon@beahansanford.name",
-  "EmailId": 266,
-  "EmailAddress": "art.dicki@schulist.info",
-  "PhoneId": 869,
-  "ContactName": "Ernser Group",
-  "ContactId": 220,
-  "SaleId": 358,
-  "Mrmrs": "minus",
-  "Firstname": "Abdiel",
-  "MiddleName": "Wisoky, Morissette and Nader",
-  "Lastname": "Kreiger",
-  "SaleStakeholderId": 944,
-  "Rank": 473,
-  "Phone": "(272)857-3703 x3392",
+  "StakeholderRoleName": "Hauck Inc and Sons",
+  "Comment": "sapiente",
+  "StakeholderRoleId": 531,
+  "CountryId": 886,
+  "PersonId": 188,
+  "EmailDescription": "vada_kuhic@osinski.info",
+  "EmailId": 953,
+  "EmailAddress": "lillie@boyer.ca",
+  "PhoneId": 357,
+  "ContactName": "Swift Group",
+  "ContactId": 879,
+  "SaleId": 880,
+  "Mrmrs": "voluptas",
+  "Firstname": "Chaz",
+  "MiddleName": "Barrows-Lind",
+  "Lastname": "Watsica",
+  "SaleStakeholderId": 67,
+  "Rank": 577,
+  "Phone": "1-873-835-5158 x7861",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 646
+      "FieldLength": 954
     }
   },
   "_Links": {

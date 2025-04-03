@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Heller LLC",
-  "AdditionalInfo": "nesciunt",
+  "Name": "Cassin-Denesik",
+  "AdditionalInfo": "consectetur",
   "SelectableMDOList": [
     {
-      "Id": 437,
-      "Name": "Kozey LLC",
-      "ToolTip": "Molestiae nam illum deserunt.",
+      "Id": 388,
+      "Name": "Becker-Yundt",
+      "ToolTip": "Et atque quae corrupti.",
       "Deleted": false,
-      "Rank": 63,
-      "Type": "sapiente",
-      "ColorBlock": 115,
-      "IconHint": "sint",
+      "Rank": 400,
+      "Type": "dignissimos",
+      "ColorBlock": 53,
+      "IconHint": "harum",
       "Selected": false,
-      "LastChanged": "2009-06-13T02:38:21.5732692+02:00",
+      "LastChanged": "2019-01-25T14:28:22.1178891+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "modi",
-      "StyleHint": "ab",
-      "Hidden": true,
-      "FullName": "Aimee Kuhn"
+      "ExtraInfo": "reprehenderit",
+      "StyleHint": "alias",
+      "Hidden": false,
+      "FullName": "Thea Torphy"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 334,
-    "Name": "Swaniawski LLC",
-    "ToolTip": "A ducimus dicta voluptatibus velit quidem quis.",
-    "Deleted": true,
-    "Rank": 137,
-    "Type": "et",
-    "ColorBlock": 493,
-    "IconHint": "voluptatum",
+    "Id": 2,
+    "Name": "Romaguera-Jacobs",
+    "ToolTip": "Eveniet voluptatibus et et ullam ducimus fugit.",
+    "Deleted": false,
+    "Rank": 353,
+    "Type": "sed",
+    "ColorBlock": 206,
+    "IconHint": "eos",
     "Selected": true,
-    "LastChanged": "2003-01-24T02:38:21.5732692+01:00",
+    "LastChanged": "2004-05-01T14:28:22.1178891+02:00",
     "ChildItems": [
       {
-        "Id": 736,
-        "Name": "Schaden Inc and Sons",
-        "ToolTip": "Ut ex quis deleniti quidem.",
+        "Id": 103,
+        "Name": "Hyatt LLC",
+        "ToolTip": "Voluptas autem atque aut tempore soluta blanditiis ducimus.",
         "Deleted": false,
-        "Rank": 62,
-        "Type": "modi",
-        "ColorBlock": 591,
-        "IconHint": "enim",
+        "Rank": 129,
+        "Type": "quia",
+        "ColorBlock": 593,
+        "IconHint": "laboriosam",
         "Selected": false,
-        "LastChanged": "2014-08-07T02:38:21.5732692+02:00",
+        "LastChanged": "2005-03-15T14:28:22.1178891+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "molestiae",
-        "Hidden": true,
-        "FullName": "Ms. Jose Thiel",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Hugh Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 252
+            "FieldType": "System.String",
+            "FieldLength": 19
           }
         }
       }
     ],
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "qui",
-    "Hidden": false,
-    "FullName": "Douglas Goldner",
+    "ExtraInfo": "debitis",
+    "StyleHint": "voluptates",
+    "Hidden": true,
+    "FullName": "Kyler Herminia Quigley DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 475
+        "FieldLength": 330
       }
     }
   }

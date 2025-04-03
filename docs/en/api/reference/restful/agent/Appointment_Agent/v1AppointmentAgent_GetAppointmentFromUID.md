@@ -112,6 +112,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -135,7 +136,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "soluta"
+  "UID": "autem"
 }
 ```
 
@@ -150,120 +151,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2011-05-24T02:38:20.8233467+02:00",
-  "AppointmentId": 428,
-  "Description": "Enterprise-wide disintermediate throughput",
-  "Title": "id",
-  "Agenda": "sit",
-  "InternalNotes": "iste",
-  "StartDate": "2022-03-11T02:38:20.8233467+01:00",
-  "EndDate": "2013-04-05T02:38:20.8233467+02:00",
+  "CreatedDate": "2003-05-16T14:28:21.4304178+02:00",
+  "AppointmentId": 142,
+  "Description": "Virtual grid-enabled internet solution",
+  "Title": "error",
+  "Agenda": "numquam",
+  "InternalNotes": "aut",
+  "StartDate": "2016-07-22T14:28:21.4304178+02:00",
+  "EndDate": "2022-04-10T14:28:21.4304178+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 685,
+  "MotherId": 438,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-03-04T02:38:20.8233467+01:00",
+  "UpdatedDate": "2001-07-03T14:28:21.4304178+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 899,
+  "ActiveLinks": 575,
   "Links": [
     {
-      "EntityName": "Erdman-Johns",
-      "Id": 589,
-      "Description": "Synchronised actuating system engine",
-      "ExtraInfo": "sapiente",
-      "LinkId": 95,
+      "EntityName": "Lebsack-Altenwerth",
+      "Id": 232,
+      "Description": "Diverse mission-critical focus group",
+      "ExtraInfo": "adipisci",
+      "LinkId": 416,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 207
+          "FieldType": "System.Int32",
+          "FieldLength": 174
         }
       }
     }
   ],
-  "AlarmLeadTime": "aut",
+  "AlarmLeadTime": "consequuntur",
   "HasAlarm": false,
-  "ColorIndex": 685,
+  "ColorIndex": 108,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "eligendi",
-  "LeadTime": "ut",
-  "Location": "veritatis",
-  "RejectCounter": 401,
-  "RejectReason": "",
+  "IsAlldayEvent": false,
+  "LagTime": "ut",
+  "LeadTime": "labore",
+  "Location": "voluptatum",
+  "RejectCounter": 831,
+  "RejectReason": "whiteboard leading-edge interfaces",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 51,
-      "PersonId": 326,
-      "ContactId": 587,
-      "EmailId": 822,
-      "SendEmail": false,
+      "AssociateId": 709,
+      "PersonId": 893,
+      "ContactId": 19,
+      "EmailId": 257,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "darren@torphyfunk.ca",
-      "Description": "Sharable zero administration neural-net"
+      "EmailAddress": "jakayla@dickensstiedemann.name",
+      "Description": "Managed empowering open system"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-08-14T02:38:20.8233467+02:00",
+  "ActiveDate": "2011-07-12T14:28:21.4304178+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 486,
+  "PreferredTZLocation": 506,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 529,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 784,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "voluptatem",
+  "CentralserviceVideomeetId": "molestiae",
   "UserDefinedFields": {
-    "SuperOffice:1": "Mauricio Lakin",
-    "SuperOffice:2": "Ova Ebert"
+    "SuperOffice:1": "1506707829",
+    "SuperOffice:2": "Prof. Michel Lorenza Macejkovic DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsum",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "nesciunt",
+    "ExtraFields2": "sapiente"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "perferendis"
+    "CustomFields1": "eum",
+    "CustomFields2": "incidunt"
   },
-  "PublishEventDate": "2018-09-08T02:38:20.8233467+02:00",
-  "PublishTo": "2016-09-04T02:38:20.8233467+02:00",
-  "PublishFrom": "2015-05-06T02:38:20.8233467+02:00",
+  "PublishEventDate": "1998-06-29T14:28:21.4304178+02:00",
+  "PublishTo": "2013-01-16T14:28:21.4304178+01:00",
+  "PublishFrom": "2017-07-28T14:28:21.4304178+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 740,
+      "VisibleId": 972,
       "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 442
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     },
     {
-      "VisibleId": 740,
+      "VisibleId": 972,
       "Visibility": "All",
-      "DisplayValue": "praesentium",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 442
+          "FieldType": "System.Int32",
+          "FieldLength": 599
         }
       }
     }
@@ -273,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 814
+      "FieldLength": 244
     }
   }
 }

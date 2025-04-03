@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 638
+  "SatelliteId": 666
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bashirian Inc and Sons",
-    "Description": "Team-oriented exuding success",
+    "Name": "Dooley Inc and Sons",
+    "Description": "Quality-focused next generation website",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 937,
-        "Tooltip": "sed",
+        "Unrestricted": true,
+        "Total": 971,
+        "Tooltip": "maiores",
         "CanAssign": true,
-        "Free": 167,
-        "InUse": 264,
+        "Free": 229,
+        "InUse": 159,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 679,
-        "Name": "Thiel-Blick",
-        "Description": "Intuitive scalable customer loyalty",
-        "PrerequisiteModuleName": "Kunde-Schinner",
-        "SortOrder": 177,
-        "ExtraFlags": 825,
+        "ModuleLicenseId": 453,
+        "Name": "Tromp-Will",
+        "Description": "Up-sized zero defect flexibility",
+        "PrerequisiteModuleName": "Braun Group",
+        "SortOrder": 606,
+        "ExtraFlags": 363,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldType": "System.String",
+            "FieldLength": 863
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 989,
-        "Tooltip": "voluptatem",
+        "Total": 726,
+        "Tooltip": "quisquam",
         "CanAssign": false,
-        "Free": 429,
-        "InUse": 799,
+        "Free": 965,
+        "InUse": 891,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 335,
-        "Name": "Kunde LLC",
-        "Description": "Integrated dynamic capacity",
-        "PrerequisiteModuleName": "Frami Group",
-        "SortOrder": 904,
-        "ExtraFlags": 342,
+        "ModuleLicenseId": 15,
+        "Name": "Feest Group",
+        "Description": "Optimized 6th generation hub",
+        "PrerequisiteModuleName": "Bosco-O'Hara",
+        "SortOrder": 930,
+        "ExtraFlags": 42,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 223
+            "FieldType": "System.String",
+            "FieldLength": 996
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 699
+        "FieldLength": 483
       }
     }
   },
   {
-    "Name": "Bashirian Inc and Sons",
-    "Description": "Team-oriented exuding success",
+    "Name": "Dooley Inc and Sons",
+    "Description": "Quality-focused next generation website",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 937,
-        "Tooltip": "sed",
+        "Unrestricted": true,
+        "Total": 971,
+        "Tooltip": "maiores",
         "CanAssign": true,
-        "Free": 167,
-        "InUse": 264,
+        "Free": 229,
+        "InUse": 159,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 679,
-        "Name": "Thiel-Blick",
-        "Description": "Intuitive scalable customer loyalty",
-        "PrerequisiteModuleName": "Kunde-Schinner",
-        "SortOrder": 177,
-        "ExtraFlags": 825,
+        "ModuleLicenseId": 453,
+        "Name": "Tromp-Will",
+        "Description": "Up-sized zero defect flexibility",
+        "PrerequisiteModuleName": "Braun Group",
+        "SortOrder": 606,
+        "ExtraFlags": 363,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldType": "System.String",
+            "FieldLength": 863
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 989,
-        "Tooltip": "voluptatem",
+        "Total": 726,
+        "Tooltip": "quisquam",
         "CanAssign": false,
-        "Free": 429,
-        "InUse": 799,
+        "Free": 965,
+        "InUse": 891,
         "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 335,
-        "Name": "Kunde LLC",
-        "Description": "Integrated dynamic capacity",
-        "PrerequisiteModuleName": "Frami Group",
-        "SortOrder": 904,
-        "ExtraFlags": 342,
+        "ModuleLicenseId": 15,
+        "Name": "Feest Group",
+        "Description": "Optimized 6th generation hub",
+        "PrerequisiteModuleName": "Bosco-O'Hara",
+        "SortOrder": 930,
+        "ExtraFlags": 42,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 223
+            "FieldType": "System.String",
+            "FieldLength": 996
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 699
+        "FieldLength": 483
       }
     }
   }

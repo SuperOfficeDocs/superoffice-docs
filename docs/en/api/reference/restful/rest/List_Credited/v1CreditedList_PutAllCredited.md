@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 380,
-    "Name": "Huels-Greenholt",
-    "Tooltip": "libero",
+    "Id": 199,
+    "Name": "Murphy-Ebert",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 222,
-    "Rank": 916
+    "UdListDefinitionId": 174,
+    "Rank": 920
   },
   {
-    "Id": 380,
-    "Name": "Huels-Greenholt",
-    "Tooltip": "libero",
+    "Id": 199,
+    "Name": "Murphy-Ebert",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 222,
-    "Rank": 916
+    "UdListDefinitionId": 174,
+    "Rank": 920
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 196,
-    "Name": "Walter-Cassin",
-    "Tooltip": "a",
+    "Id": 778,
+    "Name": "Romaguera, Hickle and Watsica",
+    "Tooltip": "qui",
     "Deleted": true,
-    "UdListDefinitionId": 614,
+    "UdListDefinitionId": 405,
     "Rank": 512,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 666
+        "FieldLength": 113
       }
     }
   }

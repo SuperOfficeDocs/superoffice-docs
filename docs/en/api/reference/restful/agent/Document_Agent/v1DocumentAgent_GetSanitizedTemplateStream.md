@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Brekke Inc and Sons",
-  "AllowPersonal": true,
-  "UiCulture": "suscipit"
+  "TemplateName": "Abbott Inc and Sons",
+  "AllowPersonal": false,
+  "UiCulture": "ut"
 }
 ```
 

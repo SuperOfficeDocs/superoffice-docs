@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Eichmann Inc and Sons",
-  "ProviderName": "Reichert, Powlowski and Schmidt",
+  "GuiName": "Graham-Huels",
+  "ProviderName": "Murazik Inc and Sons",
   "Entities": [
-    "et",
-    "velit"
+    "aut",
+    "sint"
   ]
 }
 ```

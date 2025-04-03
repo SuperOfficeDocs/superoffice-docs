@@ -29,6 +29,7 @@ items:
   - SuperOffice.CRM.Services.ITicketAgent.GetDefaultMessageContentFull(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32)
   - SuperOffice.CRM.Services.ITicketAgent.GetDefaultMessageContentWithOptions(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
   - SuperOffice.CRM.Services.ITicketAgent.GetForRmUi(System.Int32)
+  - SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers(System.Int32,System.Int32[],SuperOffice.Data.NotifyType,SuperOffice.Data.NotifyChannel)
   - SuperOffice.CRM.Services.ITicketAgent.GetNextInQueue
   - SuperOffice.CRM.Services.ITicketAgent.GetPreviewAttachmentStream(System.Int32)
   - SuperOffice.CRM.Services.ITicketAgent.GetRfcAttachmentStream(System.Int32,System.Int32)
@@ -1315,6 +1316,47 @@ items:
       description: The action to use when calculating the escalation
     content.vb: Sub DoEscalating(ticketId As Integer, action As TicketPriorityEscalateAction)
   overload: SuperOffice.CRM.Services.ITicketAgent.DoEscalating*
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers(System.Int32,System.Int32[],SuperOffice.Data.NotifyType,SuperOffice.Data.NotifyChannel)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers(System.Int32,System.Int32[],SuperOffice.Data.NotifyType,SuperOffice.Data.NotifyChannel)
+  id: GetHotlistEjUsers(System.Int32,System.Int32[],SuperOffice.Data.NotifyType,SuperOffice.Data.NotifyChannel)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHotlistEjUsers(Int32, Int32[], NotifyType, NotifyChannel)
+  nameWithType: ITicketAgent.GetHotlistEjUsers(Int32, Int32[], NotifyType, NotifyChannel)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers(System.Int32, System.Int32[], SuperOffice.Data.NotifyType, SuperOffice.Data.NotifyChannel)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a list of ej_user ids who should receive hotlist notification based on request and notification type\n"
+  syntax:
+    content: int[] GetHotlistEjUsers(int ticketId, int[] skipAssociateIds, NotifyType notifyType, NotifyChannel channel)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: The id of the ticket
+    - id: skipAssociateIds
+      type: System.Int32[]
+      description: A list of associate ids to skip when calculating whom to get the notification
+    - id: notifyType
+      type: SuperOffice.Data.NotifyType
+      description: The notification type we want to check for
+    - id: channel
+      type: SuperOffice.Data.NotifyChannel
+      description: The channel which we should check for
+    return:
+      type: System.Int32[]
+      description: List of matching ej_user ids
+    content.vb: Function GetHotlistEjUsers(ticketId As Integer, skipAssociateIds As Integer(), notifyType As NotifyType, channel As NotifyChannel) As Integer()
+  overload: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers*
+  nameWithType.vb: ITicketAgent.GetHotlistEjUsers(Int32, Int32(), NotifyType, NotifyChannel)
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers(System.Int32, System.Int32(), SuperOffice.Data.NotifyType, SuperOffice.Data.NotifyChannel)
+  name.vb: GetHotlistEjUsers(Int32, Int32(), NotifyType, NotifyChannel)
 - uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessage(System.Int32)
   commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetTicketMessage(System.Int32)
   id: GetTicketMessage(System.Int32)
@@ -2696,6 +2738,22 @@ references:
   name: TicketPriorityEscalateAction
   nameWithType: TicketPriorityEscalateAction
   fullName: SuperOffice.Data.TicketPriorityEscalateAction
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers*
+  commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers
+  isExternal: true
+  name: GetHotlistEjUsers
+  nameWithType: ITicketAgent.GetHotlistEjUsers
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers
+- uid: SuperOffice.Data.NotifyType
+  isExternal: true
+  name: NotifyType
+  nameWithType: NotifyType
+  fullName: SuperOffice.Data.NotifyType
+- uid: SuperOffice.Data.NotifyChannel
+  isExternal: true
+  name: NotifyChannel
+  nameWithType: NotifyChannel
+  fullName: SuperOffice.Data.NotifyChannel
 - uid: SuperOffice.CRM.Services.ITicketAgent.GetTicketMessage*
   commentId: Overload:SuperOffice.CRM.Services.ITicketAgent.GetTicketMessage
   isExternal: true

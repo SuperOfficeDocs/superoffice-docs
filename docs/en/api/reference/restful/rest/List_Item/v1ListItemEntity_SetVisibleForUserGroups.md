@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 335,
-    "Name": "Kunze, Upton and Stoltenberg",
-    "ToolTip": "Quaerat similique officia tempore ut eos quasi.",
+    "Id": 393,
+    "Name": "Hodkiewicz, Grimes and Blick",
+    "ToolTip": "Quis temporibus aspernatur hic nihil ea iure.",
     "Deleted": true,
-    "Rank": 294,
-    "Type": "corrupti",
-    "ColorBlock": 541,
-    "IconHint": "sequi",
+    "Rank": 530,
+    "Type": "voluptatum",
+    "ColorBlock": 505,
+    "IconHint": "adipisci",
     "Selected": false,
-    "LastChanged": "2004-11-09T02:38:26.6517427+01:00",
+    "LastChanged": "2009-03-22T14:28:27.4614236+01:00",
     "ChildItems": [
       {
-        "Id": 876,
-        "Name": "Miller-Boyle",
-        "ToolTip": "Quia sit dolores earum iusto officia vitae.",
+        "Id": 338,
+        "Name": "Dach-Gottlieb",
+        "ToolTip": "Tenetur voluptatem.",
         "Deleted": false,
-        "Rank": 982,
-        "Type": "qui",
-        "ColorBlock": 347,
-        "IconHint": "non",
+        "Rank": 367,
+        "Type": "modi",
+        "ColorBlock": 222,
+        "IconHint": "cupiditate",
         "Selected": true,
-        "LastChanged": "2012-10-06T02:38:26.6517427+02:00",
+        "LastChanged": "2004-10-12T14:28:27.4614236+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "rerum",
-        "Hidden": false,
-        "FullName": "Dr. Herminia Jacobson I"
+        "ExtraInfo": "et",
+        "StyleHint": "deserunt",
+        "Hidden": true,
+        "FullName": "Sylvia Pagac"
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "et",
+    "ExtraInfo": "vel",
+    "StyleHint": "dolore",
     "Hidden": true,
-    "FullName": "Lou Mraz"
+    "FullName": "Augustine Boyle"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 917,
-    "Name": "Schroeder-Wyman",
-    "ToolTip": "Quidem vitae.",
+    "Id": 240,
+    "Name": "Runolfsson-Witting",
+    "ToolTip": "Sit necessitatibus et vitae voluptas.",
     "Deleted": true,
-    "Rank": 786,
-    "Type": "eligendi",
-    "ColorBlock": 686,
-    "IconHint": "architecto",
-    "Selected": true,
-    "LastChanged": "2020-01-11T02:38:26.6517427+01:00",
+    "Rank": 762,
+    "Type": "repellendus",
+    "ColorBlock": 924,
+    "IconHint": "in",
+    "Selected": false,
+    "LastChanged": "2018-08-13T14:28:27.4614236+02:00",
     "ChildItems": [
       {
-        "Id": 480,
-        "Name": "Murphy, Hilll and Johnston",
-        "ToolTip": "Eum accusamus adipisci dolor quos fuga alias.",
-        "Deleted": false,
-        "Rank": 99,
-        "Type": "minima",
-        "ColorBlock": 593,
-        "IconHint": "harum",
-        "Selected": true,
-        "LastChanged": "2024-04-24T02:38:26.6517427+02:00",
+        "Id": 149,
+        "Name": "Von LLC",
+        "ToolTip": "Optio amet deleniti laudantium qui sit error.",
+        "Deleted": true,
+        "Rank": 327,
+        "Type": "repellendus",
+        "ColorBlock": 663,
+        "IconHint": "qui",
+        "Selected": false,
+        "LastChanged": "2002-06-30T14:28:27.4614236+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "similique",
-        "Hidden": false,
-        "FullName": "Tara Blanda",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "expedita",
+        "Hidden": true,
+        "FullName": "Dudley Lakin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 685
+            "FieldLength": 870
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "totam",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "cupiditate",
     "Hidden": false,
-    "FullName": "Hailey Hartmann",
+    "FullName": "Eldridge Bradtke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 778
+        "FieldType": "System.String",
+        "FieldLength": 996
       }
     }
   }

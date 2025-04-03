@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 219,
-  "TargetDimensionId": 169
+  "Year": 363,
+  "TargetDimensionId": 775
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 157,
+    "TargetAssignmentInfoId": 154,
     "Values": [
-      207,
-      19
+      42,
+      852
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 944,
-    "DimensionListItemDisplayName": "Lowe, Schimmel and Bailey",
+    "DimensionListItem": 966,
+    "DimensionListItemDisplayName": "Raynor, Trantow and O'Conner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 716
+        "FieldLength": 321
       }
     }
   }

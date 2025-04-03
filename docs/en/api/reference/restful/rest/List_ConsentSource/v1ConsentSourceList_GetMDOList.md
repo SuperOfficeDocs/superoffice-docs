@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=True
-GET /api/v1/List/ConsentSource/MDOItems?query=quasi
+GET /api/v1/List/ConsentSource/MDOItems?flat=False
+GET /api/v1/List/ConsentSource/MDOItems?query=perspiciatis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentSource/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 956,
-    "Name": "Reichel Inc and Sons",
-    "ToolTip": "Voluptatem sunt sit possimus delectus.",
+    "Id": 964,
+    "Name": "Kautzer Inc and Sons",
+    "ToolTip": "Vel eum repellendus esse.",
     "Deleted": true,
-    "Rank": 18,
-    "Type": "eos",
+    "Rank": 694,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 871,
-        "Name": "Simonis, Streich and Hilll",
-        "ToolTip": "Nihil veniam est sit explicabo consequatur voluptas.",
+        "Id": 244,
+        "Name": "Walker-Stamm",
+        "ToolTip": "Eum dolor libero laboriosam.",
         "Deleted": false,
-        "Rank": 974,
-        "Type": "et",
+        "Rank": 920,
+        "Type": "hic",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "doloremque",
-        "ColorBlock": 543,
-        "ExtraInfo": "cum",
-        "StyleHint": "tenetur",
-        "FullName": "Hellen Eunice Zboncak V",
+        "IconHint": "qui",
+        "ColorBlock": 520,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "architecto",
+        "FullName": "Prof. Rachael Gerda Hand IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 495
+            "FieldLength": 37
           }
         }
       }
     ],
-    "IconHint": "adipisci",
-    "ColorBlock": 475,
-    "ExtraInfo": "doloremque",
-    "StyleHint": "corrupti",
-    "FullName": "Royce Wehner",
+    "IconHint": "consequatur",
+    "ColorBlock": 708,
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "est",
+    "FullName": "Amari Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 704
+        "FieldLength": 153
       }
     }
   }

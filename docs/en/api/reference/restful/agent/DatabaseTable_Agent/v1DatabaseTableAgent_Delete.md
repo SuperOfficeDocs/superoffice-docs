@@ -83,10 +83,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Hilll, Kessler and Howell",
+  "TableName": "Hessel, Bauch and Toy",
   "IDs": [
-    485,
-    455
+    60,
+    125
   ]
 }
 ```
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": true,
-  "Message": "et",
-  "Inserts": 946,
-  "Updates": 671,
-  "Deletes": 960,
+  "Message": "blanditiis",
+  "Inserts": 402,
+  "Updates": 871,
+  "Deletes": 492,
   "RowStatus": [
     {
-      "PrimaryKey": 771,
+      "PrimaryKey": 364,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequuntur",
-        "non"
+        "exercitationem",
+        "delectus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 286
+          "FieldType": "System.Int32",
+          "FieldLength": 80
         }
       }
     },
     {
-      "PrimaryKey": 771,
+      "PrimaryKey": 364,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "consequuntur",
-        "non"
+        "exercitationem",
+        "delectus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 286
+          "FieldType": "System.Int32",
+          "FieldLength": 80
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 802
+      "FieldLength": 966
     }
   }
 }

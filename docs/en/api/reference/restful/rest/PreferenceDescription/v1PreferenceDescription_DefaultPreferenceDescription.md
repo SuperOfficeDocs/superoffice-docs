@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 126,
-  "Section": "dolorem",
-  "Key": "veniam",
-  "Name": "Dicki, Upton and McLaughlin",
+  "PrefDescId": 724,
+  "Section": "voluptatem",
+  "Key": "omnis",
+  "Name": "Klein Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Quality-focused dedicated core",
-  "IsBuiltin": false,
-  "TableName": "Yost-Cole",
-  "UserDefinedListId": 678,
-  "Rank": 179,
-  "SubGroup": "dolores",
-  "MinLevel": 377,
-  "MaxValue": 508,
-  "MinValue": 586,
-  "RequiredLicense": "reiciendis",
+  "Description": "Reverse-engineered client-server time-frame",
+  "IsBuiltin": true,
+  "TableName": "Feil Inc and Sons",
+  "UserDefinedListId": 562,
+  "Rank": 234,
+  "SubGroup": "est",
+  "MinLevel": 276,
+  "MaxValue": 274,
+  "MinValue": 985,
+  "RequiredLicense": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldLength": 682
     }
   }
 }

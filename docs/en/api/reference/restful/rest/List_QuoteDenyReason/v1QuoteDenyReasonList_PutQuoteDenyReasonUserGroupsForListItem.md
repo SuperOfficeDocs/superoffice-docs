@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 171,
-    "Name": "King, Corkery and Witting",
-    "ToolTip": "Voluptas sit.",
-    "Deleted": true,
-    "Rank": 675,
-    "Type": "minima",
-    "ColorBlock": 291,
-    "IconHint": "sed",
-    "Selected": true,
-    "LastChanged": "2018-01-10T02:38:26.886137+01:00",
+    "Id": 352,
+    "Name": "O'Kon, Padberg and Von",
+    "ToolTip": "Culpa harum harum ullam in amet consequatur aut.",
+    "Deleted": false,
+    "Rank": 924,
+    "Type": "deleniti",
+    "ColorBlock": 684,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2016-04-27T14:28:27.6645394+02:00",
     "ChildItems": [
       {
-        "Id": 341,
-        "Name": "Fay, Windler and Kautzer",
-        "ToolTip": "Harum sed accusamus nemo.",
-        "Deleted": true,
-        "Rank": 81,
-        "Type": "tenetur",
-        "ColorBlock": 896,
-        "IconHint": "voluptas",
+        "Id": 263,
+        "Name": "Anderson Group",
+        "ToolTip": "Laudantium nihil est aspernatur quasi eos est et.",
+        "Deleted": false,
+        "Rank": 263,
+        "Type": "at",
+        "ColorBlock": 170,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "2023-07-01T02:38:26.886137+02:00",
+        "LastChanged": "2020-09-10T14:28:27.6645394+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "sit",
+        "ExtraInfo": "culpa",
+        "StyleHint": "aliquid",
         "Hidden": true,
-        "FullName": "Jamel Rodriguez"
+        "FullName": "Carmelo Cummerata"
       }
     ],
     "ExtraInfo": "vel",
-    "StyleHint": "cum",
-    "Hidden": true,
-    "FullName": "Tara Yvonne Stokes PhD"
+    "StyleHint": "vero",
+    "Hidden": false,
+    "FullName": "Ms. Erick Gutmann PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 205,
-    "Name": "Crist Group",
-    "ToolTip": "Non minima maxime tenetur soluta iure soluta est.",
-    "Deleted": false,
-    "Rank": 90,
-    "Type": "quod",
-    "ColorBlock": 237,
-    "IconHint": "error",
-    "Selected": true,
-    "LastChanged": "2021-05-02T02:38:26.886137+02:00",
+    "Id": 424,
+    "Name": "O'Conner-Bechtelar",
+    "ToolTip": "Dolores officia voluptatem voluptate vel quam quisquam unde.",
+    "Deleted": true,
+    "Rank": 8,
+    "Type": "assumenda",
+    "ColorBlock": 344,
+    "IconHint": "sequi",
+    "Selected": false,
+    "LastChanged": "2004-06-04T14:28:27.6645394+02:00",
     "ChildItems": [
       {
-        "Id": 963,
-        "Name": "Walter, Lemke and Kautzer",
-        "ToolTip": "Similique vitae.",
-        "Deleted": true,
-        "Rank": 290,
-        "Type": "dignissimos",
-        "ColorBlock": 121,
-        "IconHint": "corporis",
-        "Selected": true,
-        "LastChanged": "2016-09-05T02:38:26.886137+02:00",
+        "Id": 903,
+        "Name": "Ritchie, Balistreri and Johnson",
+        "ToolTip": "Eveniet et ratione officiis.",
+        "Deleted": false,
+        "Rank": 462,
+        "Type": "voluptates",
+        "ColorBlock": 252,
+        "IconHint": "voluptatibus",
+        "Selected": false,
+        "LastChanged": "1999-03-18T14:28:27.6645394+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Wendy Mills",
+        "ExtraInfo": "pariatur",
+        "StyleHint": "modi",
+        "Hidden": false,
+        "FullName": "Martin Hoppe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 975
+            "FieldLength": 455
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Camila Margarita Conn PhD",
+    "FullName": "Hayley Greenholt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 684
+        "FieldLength": 720
       }
     }
   }

@@ -115,6 +115,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -138,8 +139,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 145,
-  "AssociateId": 376
+  "AppointmentId": 598,
+  "AssociateId": 17
 }
 ```
 
@@ -154,120 +155,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2002-06-12T02:38:20.7296081+02:00",
-  "AppointmentId": 234,
-  "Description": "Object-based upward-trending secured line",
-  "Title": "similique",
-  "Agenda": "quis",
-  "InternalNotes": "deserunt",
-  "StartDate": "2022-06-22T02:38:20.7296081+02:00",
-  "EndDate": "2010-12-02T02:38:20.7296081+01:00",
+  "CreatedDate": "2000-10-14T14:28:21.3366713+02:00",
+  "AppointmentId": 288,
+  "Description": "Inverse bifurcated customer loyalty",
+  "Title": "ad",
+  "Agenda": "fuga",
+  "InternalNotes": "rerum",
+  "StartDate": "2017-07-19T14:28:21.3366713+02:00",
+  "EndDate": "2012-07-14T14:28:21.3366713+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 208,
+  "MotherId": 435,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-03-19T02:38:20.7296081+01:00",
+  "UpdatedDate": "2013-05-10T14:28:21.3366713+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 720,
+  "ActiveLinks": 671,
   "Links": [
     {
-      "EntityName": "Kiehn, Marquardt and Mitchell",
-      "Id": 273,
-      "Description": "Mandatory local data-warehouse",
-      "ExtraInfo": "veritatis",
-      "LinkId": 802,
+      "EntityName": "Hammes-Abbott",
+      "Id": 610,
+      "Description": "Distributed optimizing matrix",
+      "ExtraInfo": "qui",
+      "LinkId": 776,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 827
+          "FieldType": "System.String",
+          "FieldLength": 794
         }
       }
     }
   ],
-  "AlarmLeadTime": "repellat",
-  "HasAlarm": true,
-  "ColorIndex": 658,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "voluptatem",
-  "LeadTime": "nam",
-  "Location": "quis",
-  "RejectCounter": 47,
+  "AlarmLeadTime": "et",
+  "HasAlarm": false,
+  "ColorIndex": 212,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "rem",
+  "LeadTime": "sed",
+  "Location": "vel",
+  "RejectCounter": 284,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 742,
-      "PersonId": 289,
-      "ContactId": 273,
-      "EmailId": 570,
-      "SendEmail": false,
+      "AssociateId": 979,
+      "PersonId": 808,
+      "ContactId": 521,
+      "EmailId": 683,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "ferne@jewess.co.uk",
-      "Description": "Adaptive exuding orchestration"
+      "EmailAddress": "helen@padberg.com",
+      "Description": "Automated tangible pricing structure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-05-28T02:38:20.7296081+02:00",
+  "ActiveDate": "2015-02-05T14:28:21.3366713+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 934,
+  "PreferredTZLocation": 594,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 409,
+  "SuggestedAppointmentId": 310,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ea",
+  "CentralserviceVideomeetId": "in",
   "UserDefinedFields": {
-    "SuperOffice:1": "Devonte Ebert",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Lisette Feil",
+    "SuperOffice:2": "2024452564"
   },
   "ExtraFields": {
-    "ExtraFields1": "maxime",
-    "ExtraFields2": "ad"
+    "ExtraFields1": "rem",
+    "ExtraFields2": "recusandae"
   },
   "CustomFields": {
-    "CustomFields1": "ex",
-    "CustomFields2": "autem"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "laboriosam"
   },
-  "PublishEventDate": "2001-09-30T02:38:20.7296081+02:00",
-  "PublishTo": "2002-05-14T02:38:20.7296081+02:00",
-  "PublishFrom": "2007-11-29T02:38:20.7296081+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2007-02-05T14:28:21.3366713+01:00",
+  "PublishTo": "2006-10-04T14:28:21.3366713+02:00",
+  "PublishFrom": "2022-09-17T14:28:21.3366713+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 111,
+      "VisibleId": 206,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 601
+          "FieldLength": 759
         }
       }
     },
     {
-      "VisibleId": 111,
+      "VisibleId": 206,
       "Visibility": "All",
-      "DisplayValue": "id",
+      "DisplayValue": "ipsam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 601
+          "FieldLength": 759
         }
       }
     }
@@ -276,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 122
+      "FieldType": "System.Int32",
+      "FieldLength": 927
     }
   }
 }

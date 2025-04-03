@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 649,
-    "Name": "Medhurst LLC",
-    "ToolTip": "Placeat aperiam similique totam aut sed.",
+    "Id": 83,
+    "Name": "Howe, Walsh and Steuber",
+    "ToolTip": "Quos aut.",
     "Deleted": false,
-    "Rank": 802,
-    "Type": "ut",
-    "ColorBlock": 737,
-    "IconHint": "id",
+    "Rank": 608,
+    "Type": "quibusdam",
+    "ColorBlock": 197,
+    "IconHint": "ex",
     "Selected": false,
-    "LastChanged": "2011-06-14T02:38:26.6517427+02:00",
+    "LastChanged": "2009-10-24T14:28:27.4614236+02:00",
     "ChildItems": [
       {
-        "Id": 741,
-        "Name": "Raynor, King and Stehr",
-        "ToolTip": "Ut nostrum sunt libero et consequatur itaque.",
-        "Deleted": false,
-        "Rank": 468,
-        "Type": "rerum",
-        "ColorBlock": 787,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2010-09-29T02:38:26.6517427+02:00",
+        "Id": 845,
+        "Name": "Stehr Inc and Sons",
+        "ToolTip": "Nam numquam quisquam sunt beatae aut.",
+        "Deleted": true,
+        "Rank": 76,
+        "Type": "aliquid",
+        "ColorBlock": 158,
+        "IconHint": "fuga",
+        "Selected": false,
+        "LastChanged": "2024-10-26T14:28:27.4614236+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "odit",
-        "Hidden": true,
-        "FullName": "Landen Kutch",
+        "ExtraInfo": "tempora",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Kendall Schaden DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 215
+            "FieldLength": 601
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sapiente",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Buck Weber",
+    "FullName": "Magnus Parisian Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 399
+        "FieldType": "System.Int32",
+        "FieldLength": 515
       }
     }
   }

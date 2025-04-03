@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 549
+  "ChatSessionId": 497
 }
 ```
 
@@ -120,29 +120,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 753,
-  "TopicId": 317,
+  "ChatSessionId": 516,
+  "TopicId": 871,
   "User": null,
   "Person": null,
-  "CustomerAlias": "quaerat",
-  "CustomerHost": "omnis",
-  "CustomerName": "Koss-Strosin",
-  "CustomerEmail": "florencio.hodkiewicz@wisozk.us",
-  "CustomerPhone": "(046)185-7518",
+  "CustomerAlias": "ex",
+  "CustomerHost": "et",
+  "CustomerName": "Bode Inc and Sons",
+  "CustomerEmail": "nils@handstiedemann.com",
+  "CustomerPhone": "709-231-5026",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kuhic, Breitenberg and Fritsch",
+  "CustomerCompanyName": "Emard Group",
   "Status": "Closed",
-  "FirstMessage": "consectetur",
-  "LastMessage": "odit",
-  "WhenRequested": "2012-01-07T02:38:20.9483349+01:00",
-  "WhenStarted": "2018-01-31T02:38:20.9483349+01:00",
-  "WhenEnded": "2010-08-17T02:38:20.9483349+02:00",
-  "WhenIdle": "2020-07-18T02:38:20.9483349+02:00",
-  "WhenFetched": "2002-12-07T02:38:20.9483349+01:00",
-  "SessionKey": "sapiente",
-  "InitialQueuePos": 874,
-  "AlertLevel": 454,
-  "Rank": 192,
+  "FirstMessage": "molestias",
+  "LastMessage": "quos",
+  "WhenRequested": "2020-11-15T14:28:21.5397876+01:00",
+  "WhenStarted": "2018-01-13T14:28:21.5397876+01:00",
+  "WhenEnded": "2004-07-02T14:28:21.5397876+02:00",
+  "WhenIdle": "2023-06-19T14:28:21.5397876+02:00",
+  "WhenFetched": "2009-01-20T14:28:21.5397876+01:00",
+  "SessionKey": "aperiam",
+  "InitialQueuePos": 160,
+  "AlertLevel": 137,
+  "Rank": 96,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -150,13 +150,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 430,
+  "Rating": 481,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 770
+      "FieldType": "System.Int32",
+      "FieldLength": 992
     }
   }
 }

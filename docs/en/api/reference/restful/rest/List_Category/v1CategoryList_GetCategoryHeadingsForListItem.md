@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Category/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 478,
-    "Name": "McLaughlin-Kautzer",
-    "ToolTip": "Recusandae voluptatum sunt sint dolore.",
+    "Id": 586,
+    "Name": "Breitenberg-Koss",
+    "ToolTip": "Quia debitis quo ut et atque id autem.",
     "Deleted": true,
-    "Rank": 512,
-    "Type": "in",
-    "ColorBlock": 930,
-    "IconHint": "quis",
+    "Rank": 216,
+    "Type": "dolorum",
+    "ColorBlock": 580,
+    "IconHint": "consequatur",
     "Selected": false,
-    "LastChanged": "2001-10-05T02:38:26.6830285+02:00",
+    "LastChanged": "2012-08-07T14:28:27.4926717+02:00",
     "ChildItems": [
       {
-        "Id": 919,
-        "Name": "Boyle LLC",
-        "ToolTip": "Qui praesentium consequuntur sunt.",
-        "Deleted": true,
-        "Rank": 430,
-        "Type": "tempore",
-        "ColorBlock": 263,
-        "IconHint": "cupiditate",
+        "Id": 800,
+        "Name": "Renner-Bradtke",
+        "ToolTip": "Est asperiores occaecati et quas.",
+        "Deleted": false,
+        "Rank": 648,
+        "Type": "et",
+        "ColorBlock": 447,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2008-08-04T02:38:26.6830285+02:00",
+        "LastChanged": "2008-02-23T14:28:27.4926717+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "hic",
+        "StyleHint": "assumenda",
         "Hidden": false,
-        "FullName": "Ms. Schuyler Mckayla Stehr",
+        "FullName": "Elody Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 659
+            "FieldLength": 668
           }
         }
       }
     ],
-    "ExtraInfo": "impedit",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "vel",
+    "StyleHint": "distinctio",
     "Hidden": true,
-    "FullName": "Mr. Donato Tate Harvey",
+    "FullName": "Mr. Sebastian Mireille Franecki",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 927
+        "FieldType": "System.String",
+        "FieldLength": 259
       }
     }
   }

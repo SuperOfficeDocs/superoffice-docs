@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "King-Ortiz",
-    "ToolTip": "Veritatis blanditiis molestias architecto qui distinctio.",
+    "Id": 1002,
+    "Name": "Schinner, Torp and Stamm",
+    "ToolTip": "Ea occaecati fugiat vitae reprehenderit provident beatae dolor.",
     "Deleted": false,
-    "Rank": 213,
-    "Type": "quis",
-    "ColorBlock": 794,
+    "Rank": 321,
+    "Type": "itaque",
+    "ColorBlock": 354,
     "IconHint": "voluptas",
-    "Selected": true,
-    "LastChanged": "2007-08-09T02:38:26.6986493+02:00",
+    "Selected": false,
+    "LastChanged": "2008-10-26T14:28:27.5082958+01:00",
     "ChildItems": [
       {
-        "Id": 359,
-        "Name": "Baumbach Group",
-        "ToolTip": "Magnam excepturi non est optio cupiditate molestiae.",
+        "Id": 285,
+        "Name": "Okuneva-Quigley",
+        "ToolTip": "Sequi reprehenderit repellendus tempora.",
         "Deleted": false,
-        "Rank": 610,
-        "Type": "asperiores",
-        "ColorBlock": 550,
-        "IconHint": "eum",
-        "Selected": true,
-        "LastChanged": "2017-07-08T02:38:26.6986493+02:00",
+        "Rank": 299,
+        "Type": "quisquam",
+        "ColorBlock": 304,
+        "IconHint": "laborum",
+        "Selected": false,
+        "LastChanged": "2009-06-08T14:28:27.5082958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptas",
-        "StyleHint": "velit",
-        "Hidden": true,
-        "FullName": "Garrett Koss",
+        "ExtraInfo": "aut",
+        "StyleHint": "sed",
+        "Hidden": false,
+        "FullName": "Hassan Blanda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 14
+            "FieldType": "System.String",
+            "FieldLength": 173
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "voluptatum",
+    "ExtraInfo": "illum",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Dr. Darion Grimes",
+    "FullName": "Amely Bahringer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 616
+        "FieldType": "System.Int32",
+        "FieldLength": 265
       }
     }
   }

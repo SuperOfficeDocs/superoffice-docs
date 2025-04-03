@@ -5,6 +5,13 @@ items:
   id: UserPreferenceStrings.NotificationSms
   parent: SuperOffice.CRM
   children:
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
   - SuperOffice.CRM.UserPreferenceStrings.NotificationSms.Section
   langs:
   - csharp
@@ -55,6 +62,209 @@ items:
     return:
       type: System.String
     content.vb: Public Const Section As String = "notificationSms"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
+  id: NotifySmsCustomMessage
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsCustomMessage
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsCustomMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants custom message notifications.\n"
+  syntax:
+    content: public const string NotifySmsCustomMessage = "notifySmsCustomMessage"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsCustomMessage As String = "notifySmsCustomMessage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
+  id: NotifySmsFavouriteRequest
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsFavouriteRequest
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsFavouriteRequest
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her favourite requests are updated.\n"
+  syntax:
+    content: public const string NotifySmsFavouriteRequest = "notifySmsFavouriteRequest"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsFavouriteRequest As String = "notifySmsFavouriteRequest"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
+  id: NotifySmsRequestAssignedAway
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsRequestAssignedAway
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestAssignedAway
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests were taken by someone else.\n"
+  syntax:
+    content: public const string NotifySmsRequestAssignedAway = "notifySmsRequestAssignedAway"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsRequestAssignedAway As String = "notifySmsRequestAssignedAway"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
+  id: NotifySmsRequestActivated
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsRequestActivated
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestActivated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests were activated.\n"
+  syntax:
+    content: public const string NotifySmsRequestActivated = "notifySmsRequestActivated"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsRequestActivated As String = "notifySmsRequestActivated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
+  id: NotifySmsRequestEscalated
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsRequestEscalated
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsRequestEscalated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests were escalated.\n"
+  syntax:
+    content: public const string NotifySmsRequestEscalated = "notifySmsRequestEscalated"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsRequestEscalated As String = "notifySmsRequestEscalated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
+  id: NotifySmsNewMessage
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsNewMessage
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests has a new message.\n"
+  syntax:
+    content: public const string NotifySmsNewMessage = "notifySmsNewMessage"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsNewMessage As String = "notifySmsNewMessage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
+  id: NotifySmsNewRequest
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationSms
+  langs:
+  - csharp
+  - vb
+  name: NotifySmsNewRequest
+  nameWithType: UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationSms.NotifySmsNewRequest
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants notifications when he/she is assigned a new request.\n"
+  syntax:
+    content: public const string NotifySmsNewRequest = "notifySmsNewRequest"
+    return:
+      type: System.String
+    content.vb: Public Const NotifySmsNewRequest As String = "notifySmsNewRequest"
   modifiers.csharp:
   - public
   - const

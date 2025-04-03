@@ -25,7 +25,7 @@ Deletes the PersonEntity
 | PersonEntityId | int32 | **Required** The id of the PersonEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Person/DeletePersonEntity?PersonEntityId=497
+POST /api/v1/Agents/Person/DeletePersonEntity?PersonEntityId=122
 ```
 
 

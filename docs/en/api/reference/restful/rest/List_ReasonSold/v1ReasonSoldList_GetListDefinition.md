@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 873,
-  "Name": "Wisozk LLC",
-  "Tooltip": "tempore",
+  "Id": 48,
+  "Name": "Mills-Bernhard",
+  "Tooltip": "sunt",
   "Deleted": false,
-  "Rank": 581,
+  "Rank": 248,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
+  "ListType": "enim",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 758
+      "FieldType": "System.String",
+      "FieldLength": 967
     }
   },
   "_Links": {

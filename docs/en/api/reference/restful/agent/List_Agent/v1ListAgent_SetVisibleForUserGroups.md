@@ -93,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 376,
-  "ListItemId": 732,
+  "UdListDefinitionId": 709,
+  "ListItemId": 198,
   "UserGroups": [
     {
-      "Id": 614,
-      "Name": "Gottlieb Group",
-      "ToolTip": "Excepturi consequuntur aut nihil distinctio.",
+      "Id": 240,
+      "Name": "Konopelski, Von and Schulist",
+      "ToolTip": "Animi assumenda quibusdam neque laudantium.",
       "Deleted": false,
-      "Rank": 401,
-      "Type": "ullam",
-      "ColorBlock": 417,
-      "IconHint": "ea",
-      "Selected": true,
-      "LastChanged": "2013-09-18T02:38:21.4951545+02:00",
+      "Rank": 341,
+      "Type": "quia",
+      "ColorBlock": 399,
+      "IconHint": "quos",
+      "Selected": false,
+      "LastChanged": "2021-09-05T14:28:22.0553915+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "explicabo",
-      "StyleHint": "nobis",
-      "Hidden": false,
-      "FullName": "Ms. Destinee Bosco PhD"
+      "ExtraInfo": "voluptatibus",
+      "StyleHint": "adipisci",
+      "Hidden": true,
+      "FullName": "Thomas Boehm"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 496,
-    "Name": "Wolff Inc and Sons",
-    "ToolTip": "Quis ea non qui eum reprehenderit veniam enim.",
+    "Id": 377,
+    "Name": "Kessler-Stark",
+    "ToolTip": "Sint tempora soluta rerum.",
     "Deleted": true,
-    "Rank": 635,
-    "Type": "et",
-    "ColorBlock": 55,
-    "IconHint": "excepturi",
-    "Selected": true,
-    "LastChanged": "2018-09-06T02:38:21.4951545+02:00",
+    "Rank": 284,
+    "Type": "incidunt",
+    "ColorBlock": 679,
+    "IconHint": "tempora",
+    "Selected": false,
+    "LastChanged": "2020-03-26T14:28:22.0553915+01:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Fisher, McClure and Skiles",
-        "ToolTip": "Sequi ullam autem asperiores.",
-        "Deleted": true,
-        "Rank": 169,
-        "Type": "rerum",
-        "ColorBlock": 631,
-        "IconHint": "corrupti",
-        "Selected": true,
-        "LastChanged": "2001-09-29T02:38:21.4951545+02:00",
+        "Id": 655,
+        "Name": "Beatty, Bahringer and Murazik",
+        "ToolTip": "Autem dignissimos illum quaerat et illo quas qui.",
+        "Deleted": false,
+        "Rank": 628,
+        "Type": "non",
+        "ColorBlock": 927,
+        "IconHint": "deleniti",
+        "Selected": false,
+        "LastChanged": "2011-02-09T14:28:22.0553915+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "natus",
+        "ExtraInfo": "doloribus",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Miss Gilbert Lee Berge DVM",
+        "FullName": "Megane Lindgren",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 484
+            "FieldType": "System.String",
+            "FieldLength": 507
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "impedit",
+    "ExtraInfo": "illum",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Geraldine Lowe",
+    "FullName": "Roselyn Lakin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 801
+        "FieldLength": 773
       }
     }
   }

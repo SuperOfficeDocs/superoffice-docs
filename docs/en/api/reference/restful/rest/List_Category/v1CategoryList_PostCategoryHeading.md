@@ -79,12 +79,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 442,
-  "Name": "Mayer Group",
-  "Tooltip": "dolores",
+  "HeadingId": 847,
+  "Name": "Wuckert, Armstrong and Tromp",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 888,
-  "UdListDefinitionId": 909
+  "Rank": 723,
+  "UdListDefinitionId": 895
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 266,
-  "Name": "Maggio-Padberg",
-  "Tooltip": "possimus",
+  "HeadingId": 106,
+  "Name": "Osinski Inc and Sons",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 30,
-  "UdListDefinitionId": 109,
+  "Rank": 602,
+  "UdListDefinitionId": 687,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 389
+      "FieldType": "System.Int32",
+      "FieldLength": 771
     }
   }
 }

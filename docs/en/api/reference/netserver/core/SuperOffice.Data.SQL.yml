@@ -12,6 +12,7 @@ items:
   - SuperOffice.Data.SQL.And
   - SuperOffice.Data.SQL.AppAvailStateFieldInfo
   - SuperOffice.Data.SQL.AppointmentCautionWarningFieldInfo
+  - SuperOffice.Data.SQL.AppointmentExternalOwnerFieldInfo
   - SuperOffice.Data.SQL.AppointmentPrivateFieldInfo
   - SuperOffice.Data.SQL.AppointmentStatusFieldInfo
   - SuperOffice.Data.SQL.AppointmentTypeFieldInfo
@@ -268,6 +269,13 @@ references:
   name: AppAvailStateFieldInfo
   nameWithType: AppAvailStateFieldInfo
   fullName: SuperOffice.Data.SQL.AppAvailStateFieldInfo
+- uid: SuperOffice.Data.SQL.AppointmentExternalOwnerFieldInfo
+  commentId: T:SuperOffice.Data.SQL.AppointmentExternalOwnerFieldInfo
+  parent: SuperOffice.Data.SQL
+  isExternal: true
+  name: AppointmentExternalOwnerFieldInfo
+  nameWithType: AppointmentExternalOwnerFieldInfo
+  fullName: SuperOffice.Data.SQL.AppointmentExternalOwnerFieldInfo
 - uid: SuperOffice.Data.SQL.AppointmentPrivateFieldInfo
   commentId: T:SuperOffice.Data.SQL.AppointmentPrivateFieldInfo
   parent: SuperOffice.Data.SQL

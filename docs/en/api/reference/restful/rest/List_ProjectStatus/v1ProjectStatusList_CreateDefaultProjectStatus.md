@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 887,
-  "Name": "Carter, Quitzon and Tremblay",
-  "Tooltip": "et",
+  "Id": 133,
+  "Name": "Will-Fritsch",
+  "Tooltip": "ratione",
   "Deleted": false,
-  "UdListDefinitionId": 5,
-  "Rank": 61,
+  "UdListDefinitionId": 907,
+  "Rank": 620,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 910
+      "FieldType": "System.String",
+      "FieldLength": 317
     }
   }
 }

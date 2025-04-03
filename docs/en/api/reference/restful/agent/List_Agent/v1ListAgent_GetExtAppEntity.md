@@ -26,7 +26,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=514
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=187
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 249,
-  "Name": "Bogan-Lebsack",
-  "Tooltip": "voluptatem",
+  "ExtAppId": 220,
+  "Name": "Larson, Herman and Langworth",
+  "Tooltip": "iure",
   "Deleted": true,
-  "Rank": 162,
-  "Filename": "molestiae",
-  "Parameters": "eveniet",
-  "Workdir": "laboriosam",
+  "Rank": 783,
+  "Filename": "id",
+  "Parameters": "nulla",
+  "Workdir": "corrupti",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "Icon": 401,
-  "WaitToFinish": true,
+  "Icon": 940,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "mollitia",
+  "Path": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldLength": 99
     }
   }
 }

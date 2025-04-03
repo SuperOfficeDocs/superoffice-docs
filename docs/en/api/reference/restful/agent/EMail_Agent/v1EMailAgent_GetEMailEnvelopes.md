@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    220,
-    986
+    781,
+    775
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 537,
-    "MessageId": "eos",
-    "Subject": "iste",
+    "ServerId": 421,
+    "MessageId": "tenetur",
+    "Subject": "non",
     "From": null,
     "To": [
       {
-        "ContactId": 400,
-        "ContactName": "Sawayn-Hilll",
-        "PersonId": 640,
-        "PersonName": "Skiles-Beahan",
-        "AssociateId": 109,
-        "Address": "reiciendis",
-        "EmailId": 845,
+        "ContactId": 404,
+        "ContactName": "Stark, Becker and Heller",
+        "PersonId": 530,
+        "PersonName": "Leannon-Gibson",
+        "AssociateId": 111,
+        "Address": "dolorum",
+        "EmailId": 407,
         "DuplicatePersonIds": [
-          225,
-          912
+          161,
+          611
         ],
-        "Name": "Brown, Simonis and Langworth",
+        "Name": "Wiza, McDermott and Abshire",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 378
+            "FieldLength": 69
           }
         }
       }
     ],
-    "Sent": "1998-08-02T02:38:21.401411+02:00",
+    "Sent": "2013-10-09T14:28:21.9616455+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 509,
+    "Size": 835,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldType": "System.Int32",
+        "FieldLength": 207
       }
     }
   }

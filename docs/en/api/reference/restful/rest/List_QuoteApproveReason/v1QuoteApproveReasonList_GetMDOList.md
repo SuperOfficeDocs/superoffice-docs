@@ -27,7 +27,7 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=est
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=voluptas
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 770,
-    "Name": "Moen, Bode and Deckow",
-    "ToolTip": "Hic suscipit tempore quisquam reprehenderit vel.",
-    "Deleted": true,
-    "Rank": 170,
-    "Type": "accusamus",
+    "Id": 130,
+    "Name": "Rohan Inc and Sons",
+    "ToolTip": "Magnam occaecati provident porro dolores non recusandae atque.",
+    "Deleted": false,
+    "Rank": 482,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 406,
-        "Name": "Bayer-Harvey",
-        "ToolTip": "Est eligendi laboriosam quae et ipsum.",
+        "Id": 972,
+        "Name": "Weber LLC",
+        "ToolTip": "Laborum autem quam et sed quidem.",
         "Deleted": true,
-        "Rank": 197,
-        "Type": "sint",
+        "Rank": 883,
+        "Type": "accusamus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 451,
-        "ExtraInfo": "quo",
-        "StyleHint": "repellendus",
-        "FullName": "Keyon Stark",
+        "IconHint": "nostrum",
+        "ColorBlock": 990,
+        "ExtraInfo": "et",
+        "StyleHint": "itaque",
+        "FullName": "Ms. Teresa Alford Walter PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 916
+            "FieldType": "System.Int32",
+            "FieldLength": 394
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 525,
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "laboriosam",
-    "FullName": "Prof. Pat Ron Little III",
+    "IconHint": "accusantium",
+    "ColorBlock": 925,
+    "ExtraInfo": "ut",
+    "StyleHint": "quaerat",
+    "FullName": "Elvie Bailey DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 548
+        "FieldType": "System.Int32",
+        "FieldLength": 503
       }
     }
   }

@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 472,
-  "ERPProductKey": "sapiente",
-  "ERPPriceListKey": "sit",
-  "Name": "Mann-Jacobi",
-  "Description": "Cross-group multimedia benchmark",
-  "Code": "aut",
-  "PriceUnit": "tempore",
-  "QuantityUnit": "aliquam",
+  "ProductId": 260,
+  "ERPProductKey": "accusamus",
+  "ERPPriceListKey": "itaque",
+  "Name": "Gutmann-Friesen",
+  "Description": "Programmable discrete function",
+  "Code": "enim",
+  "PriceUnit": "fugiat",
+  "QuantityUnit": "possimus",
   "IsSubscription": false,
-  "SubscriptionUnit": "sit",
-  "DefaultSubscriptionQuantity": 9555.5659999999989,
-  "ItemNumber": "862060",
+  "SubscriptionUnit": "commodi",
+  "DefaultSubscriptionQuantity": 4227.766,
+  "ItemNumber": "859934",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sed",
-  "ProductTypeKey": "iure",
-  "VAT": 9276.64,
-  "VATInfo": "commodi",
-  "UnitCost": 25723.872,
-  "UnitMinimumPrice": 3751.3979999999997,
-  "UnitListPrice": 22947.148,
-  "InAssortment": true,
-  "Supplier": "aspernatur",
-  "SupplierCode": "eum",
-  "Rights": "et",
-  "Rule": "delectus",
+  "ProductFamilyKey": "veritatis",
+  "ProductTypeKey": "temporibus",
+  "VAT": 21496.106,
+  "VATInfo": "voluptate",
+  "UnitCost": 20342.793999999998,
+  "UnitMinimumPrice": 1977.5539999999999,
+  "UnitListPrice": 23505.0,
+  "InAssortment": false,
+  "Supplier": "consequatur",
+  "SupplierCode": "at",
+  "Rights": "ab",
+  "Rule": "ipsam",
   "ExtraInfo": [
     {
-      "Name": "Daugherty-Conn",
-      "Value": "porro",
+      "Name": "Murray Group",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 400
+          "FieldLength": 555
         }
       }
     },
     {
-      "Name": "Daugherty-Conn",
-      "Value": "porro",
+      "Name": "Murray Group",
+      "Value": "ea",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 400
+          "FieldLength": 555
         }
       }
     }
   ],
-  "RawExtraInfo": "eos",
-  "ExtraField1": "sint",
-  "ExtraField2": "velit",
-  "ExtraField3": "aut",
-  "ExtraField4": "et",
-  "ExtraField5": "facere",
-  "InStock": 15691.938,
+  "RawExtraInfo": "tenetur",
+  "ExtraField1": "voluptas",
+  "ExtraField2": "assumenda",
+  "ExtraField3": "officia",
+  "ExtraField4": "blanditiis",
+  "ExtraField5": "rerum",
+  "InStock": 13874.217999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldLength": 244
     }
   }
 }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hamill, Moore and Lindgren",
+  "Name": "Dibbert-Bartell",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Nicolas, Frami and Hirthe",
-    "SoPrimaryKey": 273,
-    "EntryName": "Luettgen-Gutmann",
-    "EntryIdentifier": "voluptatem",
-    "RuleDisplayName": "Ritchie-Waelchi",
+    "RuleName": "Wehner, Kunde and Strosin",
+    "SoPrimaryKey": 331,
+    "EntryName": "Hauck, Bode and Kshlerin",
+    "EntryIdentifier": "dolorum",
+    "RuleDisplayName": "Gleason-Schiller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 728
+        "FieldLength": 655
       }
     }
   }

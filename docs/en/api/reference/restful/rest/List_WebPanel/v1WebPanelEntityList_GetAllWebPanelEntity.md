@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 601,
-    "Name": "Mills-Brekke",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 210,
+    "WebPanelId": 231,
+    "Name": "Cummerata Inc and Sons",
+    "Tooltip": "dolorem",
+    "Deleted": false,
+    "Rank": 657,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": false,
-    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
+    "ShowInMenuBar": false,
     "ShowInToolBar": false,
     "ShowInAddressBar": true,
     "ShowInStatusBar": true,
-    "WindowName": "Monahan Inc and Sons",
+    "WindowName": "Bednar-Hintz",
     "Url": "http://www.example.com/",
-    "ProgId": "doloribus",
-    "Icon": 291,
-    "AlwaysReloadOnShow": false,
-    "NeverReloadOnCurrentChange": true,
+    "ProgId": "qui",
+    "Icon": 252,
+    "AlwaysReloadOnShow": true,
+    "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 270
+        "FieldType": "System.String",
+        "FieldLength": 592
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 896,
-    "Name": "Grimes Inc and Sons",
-    "Tooltip": "sit",
+    "HeadingId": 81,
+    "Name": "Barrows, Daugherty and Zieme",
+    "Tooltip": "non",
     "Deleted": false,
-    "Rank": 590,
-    "UdListDefinitionId": 57,
+    "Rank": 735,
+    "UdListDefinitionId": 914,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldType": "System.String",
+        "FieldLength": 744
       }
     }
   }

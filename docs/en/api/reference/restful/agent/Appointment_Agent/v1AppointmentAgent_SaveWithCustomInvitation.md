@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Appointment/SaveWithCustomInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -90,9 +90,9 @@ Content-Type: application/json; charset=utf-8
   "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "wyman.kilback@gorczanybergstrom.biz",
-  "Subject": "pariatur",
-  "TemplateLanguage": "et"
+  "EmailBody": "isidro.grant@stroman.name",
+  "Subject": "quia",
+  "TemplateLanguage": "est"
 }
 ```
 
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 162
     }
   }
 }

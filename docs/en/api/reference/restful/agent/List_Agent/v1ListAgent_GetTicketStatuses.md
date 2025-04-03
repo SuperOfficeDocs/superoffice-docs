@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatuses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 949,
-    "Name": "Hyatt-Pollich",
+    "TicketStatusId": 173,
+    "Name": "Schulist LLC",
     "Status": "Active",
     "TimeCounter": "Externally",
     "NoEmailReopen": false,
-    "IsDefault": false,
+    "IsDefault": true,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 875
+        "FieldLength": 711
       }
     }
   }

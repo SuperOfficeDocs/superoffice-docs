@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 16,
-  "Name": "Franecki-Gibson",
+  "TicketPriorityId": 517,
+  "Name": "Lind-Schuster",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 373,
+  "SortOrder": 26,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 285,
-  "MonStart": "1998-10-02T02:38:27.0579944+02:00",
-  "MonStop": "2014-12-30T02:38:27.0579944+01:00",
-  "TueStart": "2022-11-28T02:38:27.0579944+01:00",
-  "TueStop": "2013-04-06T02:38:27.0579944+02:00",
-  "WedStart": "2010-10-27T02:38:27.0579944+02:00",
-  "WedStop": "1999-10-31T02:38:27.0579944+01:00",
-  "ThuStart": "2016-12-15T02:38:27.0579944+01:00",
-  "ThuStop": "2017-04-19T02:38:27.0579944+02:00",
-  "FriStart": "2003-01-19T02:38:27.0579944+01:00",
-  "FriStop": "2013-07-21T02:38:27.0579944+02:00",
-  "SatStart": "2014-06-05T02:38:27.0579944+02:00",
-  "SatStop": "2023-12-10T02:38:27.0579944+01:00",
-  "SunStart": "2015-12-31T02:38:27.0579944+01:00",
-  "SunStop": "2010-05-13T02:38:27.0579944+02:00",
+  "Deadline": 951,
+  "MonStart": "2013-09-27T14:28:27.7739195+02:00",
+  "MonStop": "2024-02-11T14:28:27.7739195+01:00",
+  "TueStart": "2013-07-14T14:28:27.7739195+02:00",
+  "TueStop": "2008-10-08T14:28:27.7739195+02:00",
+  "WedStart": "2004-10-06T14:28:27.7739195+02:00",
+  "WedStop": "2020-07-19T14:28:27.7739195+02:00",
+  "ThuStart": "2001-02-27T14:28:27.7739195+01:00",
+  "ThuStop": "2020-06-15T14:28:27.7739195+02:00",
+  "FriStart": "2012-10-28T14:28:27.7739195+01:00",
+  "FriStop": "2007-01-27T14:28:27.7739195+01:00",
+  "SatStart": "2002-12-24T14:28:27.7739195+01:00",
+  "SatStop": "2023-06-04T14:28:27.7739195+02:00",
+  "SunStart": "2000-12-01T14:28:27.7739195+01:00",
+  "SunStop": "2000-04-24T14:28:27.7739195+02:00",
   "NonDates": [
-    "ipsam",
-    "cum"
+    "exercitationem",
+    "quibusdam"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 562,
-      "AlertLevel": 551,
-      "AlertTimeout": 569,
-      "Action": 104,
-      "DelegateTo": 269,
-      "ScriptId": 105,
-      "EmailTo": "norberto_hahn@olson.biz",
-      "SmsTo": "harum",
-      "ReplyTemplateIdCustomer": 483,
-      "ReplyTemplateIdUser": 54,
-      "ReplyTemplateIdCatmast": 236,
-      "ReplyTemplateIdEmail": 390,
-      "RtiCustomerSms": 553,
-      "ReplyTemplateIdUserSms": 143,
-      "ReplyTemplateIdCatmastSms": 259,
-      "ReplyTemplateIdSms": 175,
+      "TicketAlertId": 873,
+      "AlertLevel": 137,
+      "AlertTimeout": 133,
+      "Action": 385,
+      "DelegateTo": 831,
+      "ScriptId": 70,
+      "EmailTo": "henriette@braunkuvalis.co.uk",
+      "SmsTo": "enim",
+      "ReplyTemplateIdCustomer": 56,
+      "ReplyTemplateIdUser": 32,
+      "ReplyTemplateIdCatmast": 389,
+      "ReplyTemplateIdEmail": 451,
+      "RtiCustomerSms": 195,
+      "ReplyTemplateIdUserSms": 24,
+      "ReplyTemplateIdCatmastSms": 943,
+      "ReplyTemplateIdSms": 635,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 15
+          "FieldLength": 358
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 830
+      "FieldLength": 566
     }
   }
 }

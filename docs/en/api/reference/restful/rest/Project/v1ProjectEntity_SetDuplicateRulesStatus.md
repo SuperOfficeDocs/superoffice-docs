@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Klein LLC",
-    "DisplayName": "Larson-Ziemann",
-    "DisplayTooltip": "sapiente",
+    "Name": "Emard-Ziemann",
+    "DisplayName": "Ferry-Krajcik",
+    "DisplayTooltip": "voluptatem",
     "IsActive": true
   },
   {
-    "Name": "Klein LLC",
-    "DisplayName": "Larson-Ziemann",
-    "DisplayTooltip": "sapiente",
+    "Name": "Emard-Ziemann",
+    "DisplayName": "Ferry-Krajcik",
+    "DisplayTooltip": "voluptatem",
     "IsActive": true
   }
 ]

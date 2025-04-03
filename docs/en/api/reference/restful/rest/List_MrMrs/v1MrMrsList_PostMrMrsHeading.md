@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 745,
-  "Name": "Shanahan, Schamberger and Willms",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "Rank": 101,
-  "UdListDefinitionId": 963
+  "HeadingId": 126,
+  "Name": "Dickens, Hettinger and Erdman",
+  "Tooltip": "ducimus",
+  "Deleted": true,
+  "Rank": 695,
+  "UdListDefinitionId": 711
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 923,
-  "Name": "Klein LLC",
-  "Tooltip": "explicabo",
+  "HeadingId": 582,
+  "Name": "Dooley, Kub and Padberg",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 205,
-  "UdListDefinitionId": 411,
+  "Rank": 772,
+  "UdListDefinitionId": 148,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldLength": 305
     }
   }
 }

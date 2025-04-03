@@ -105,7 +105,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 864,
+  "Id": 63,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 530,
+  "EjMessageId": 486,
   "Ticket": null,
-  "CreatedAt": "2019-12-15T02:38:22.1669527+01:00",
+  "CreatedAt": "2018-05-30T14:28:22.5397478+02:00",
   "CreatedBy": null,
-  "Author": "veritatis",
+  "Author": "neque",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "est",
-  "TimeSpent": 254,
-  "Body": "sint",
-  "HtmlBody": "quaerat",
-  "EmailHeader": "phyllis@kubschiller.us",
-  "DebugInfo": "voluptas",
-  "MailSorter": "vero",
+  "MessageId": "possimus",
+  "TimeSpent": 750,
+  "Body": "possimus",
+  "HtmlBody": "quisquam",
+  "EmailHeader": "donna@shieldsoberbrunner.co.uk",
+  "DebugInfo": "in",
+  "MailSorter": "ad",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolor",
+  "SearchTitle": "at",
   "MessageHeaders": [
     {
-      "Id": 321,
-      "Name": "Stiedemann, Halvorson and Rutherford",
-      "Value": "ad",
+      "Id": 255,
+      "Name": "Muller-Rolfson",
+      "Value": "nulla",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -146,50 +146,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 577
+          "FieldLength": 940
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "molestiae",
-  "Sentiment": 327,
-  "SentimentConfidence": 841,
+  "Important": false,
+  "Language": "harum",
+  "Sentiment": 369,
+  "SentimentConfidence": 346,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 547,
-      "Name": "Donnelly, VonRueden and Aufderhar",
-      "ContentType": "ut",
-      "AttSize": 799,
+      "AttachmentId": 133,
+      "Name": "Heaney-Cassin",
+      "ContentType": "enim",
+      "AttSize": 544,
       "InlineImage": false,
-      "ContentId": "eum",
-      "AuthKey": "aliquam",
-      "IsSafeFileExtension": false,
+      "ContentId": "ut",
+      "AuthKey": "omnis",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 243
+          "FieldLength": 135
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptate",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "maiores",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "quaerat",
-    "CustomFields2": "at"
+    "CustomFields1": "fugit",
+    "CustomFields2": "tempore"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 793
+      "FieldType": "System.String",
+      "FieldLength": 975
     }
   }
 }

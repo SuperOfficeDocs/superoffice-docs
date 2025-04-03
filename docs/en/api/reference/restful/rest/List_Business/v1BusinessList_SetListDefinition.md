@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 944,
-  "Name": "Lehner-Dicki",
-  "Tooltip": "in",
+  "Id": 604,
+  "Name": "Runolfsson-Wisoky",
+  "Tooltip": "suscipit",
   "Deleted": false,
-  "Rank": 176,
-  "IsCustomList": false,
+  "Rank": 523,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "earum",
+  "ListType": "odio",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 493,
-  "Name": "Gerhold LLC",
-  "Tooltip": "nam",
-  "Deleted": true,
-  "Rank": 678,
-  "IsCustomList": false,
+  "Id": 197,
+  "Name": "Schmitt-Moen",
+  "Tooltip": "praesentium",
+  "Deleted": false,
+  "Rank": 182,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
+  "ListType": "fugiat",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 262
+      "FieldType": "System.String",
+      "FieldLength": 88
     }
   }
 }

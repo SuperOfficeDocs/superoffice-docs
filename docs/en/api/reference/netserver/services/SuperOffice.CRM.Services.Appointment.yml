@@ -40,6 +40,7 @@ items:
   - SuperOffice.CRM.Services.Appointment.JoinVideomeetUrl
   - SuperOffice.CRM.Services.Appointment.Location
   - SuperOffice.CRM.Services.Appointment.MotherId
+  - SuperOffice.CRM.Services.Appointment.OwnedExternally
   - SuperOffice.CRM.Services.Appointment.PersonFullName
   - SuperOffice.CRM.Services.Appointment.PersonId
   - SuperOffice.CRM.Services.Appointment.PreferredTZLocation
@@ -1769,6 +1770,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.Appointment.OwnedExternally
+  commentId: P:SuperOffice.CRM.Services.Appointment.OwnedExternally
+  id: OwnedExternally
+  parent: SuperOffice.CRM.Services.Appointment
+  langs:
+  - csharp
+  - vb
+  name: OwnedExternally
+  nameWithType: Appointment.OwnedExternally
+  fullName: SuperOffice.CRM.Services.Appointment.OwnedExternally
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nSet if an external system owns this appointment. \n"
+  syntax:
+    content: public virtual AppointmentExternalOwner OwnedExternally { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.Data.AppointmentExternalOwner
+    content.vb: Public Overridable Property OwnedExternally As AppointmentExternalOwner
+  overload: SuperOffice.CRM.Services.Appointment.OwnedExternally*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 - uid: SuperOffice.CRM.Services.Appointment.JoinVideomeetUrl
   commentId: P:SuperOffice.CRM.Services.Appointment.JoinVideomeetUrl
   id: JoinVideomeetUrl
@@ -2344,6 +2378,17 @@ references:
   name: AppointmentCautionWarning
   nameWithType: AppointmentCautionWarning
   fullName: SuperOffice.Data.AppointmentCautionWarning
+- uid: SuperOffice.CRM.Services.Appointment.OwnedExternally*
+  commentId: Overload:SuperOffice.CRM.Services.Appointment.OwnedExternally
+  isExternal: true
+  name: OwnedExternally
+  nameWithType: Appointment.OwnedExternally
+  fullName: SuperOffice.CRM.Services.Appointment.OwnedExternally
+- uid: SuperOffice.Data.AppointmentExternalOwner
+  isExternal: true
+  name: AppointmentExternalOwner
+  nameWithType: AppointmentExternalOwner
+  fullName: SuperOffice.Data.AppointmentExternalOwner
 - uid: SuperOffice.CRM.Services.Appointment.JoinVideomeetUrl*
   commentId: Overload:SuperOffice.CRM.Services.Appointment.JoinVideomeetUrl
   isExternal: true

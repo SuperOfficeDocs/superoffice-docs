@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 295,
-  "Name": "Mohr-Lebsack",
-  "ConsentText": "sunt",
-  "FormText": "quidem",
+  "ConsentPurposeId": 599,
+  "Name": "Sanford Inc and Sons",
+  "ConsentText": "totam",
+  "FormText": "deleniti",
   "Key": "et",
-  "Tooltip": "sit",
-  "Active": 630,
-  "UpdatedDate": "2022-07-26T02:38:26.6986493+02:00",
+  "Tooltip": "ipsam",
+  "Active": 535,
+  "UpdatedDate": "2002-12-13T14:28:27.5082958+01:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 15,
-  "PrivacyStatementDesc": "ab",
+  "Deleted": true,
+  "Rank": 401,
+  "PrivacyStatementDesc": "delectus",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 302,
-  "Name": "Goldner, Botsford and Abbott",
-  "ConsentText": "quos",
-  "FormText": "dolores",
-  "Key": "praesentium",
-  "Tooltip": "voluptates",
-  "Active": 623,
-  "UpdatedDate": "2000-04-24T02:38:26.6986493+02:00",
+  "ConsentPurposeId": 917,
+  "Name": "Hessel LLC",
+  "ConsentText": "voluptatibus",
+  "FormText": "qui",
+  "Key": "impedit",
+  "Tooltip": "accusantium",
+  "Active": 366,
+  "UpdatedDate": "2020-06-21T14:28:27.5082958+02:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 863,
-  "PrivacyStatementDesc": "soluta",
+  "Deleted": false,
+  "Rank": 401,
+  "PrivacyStatementDesc": "architecto",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 849
     }
   }
 }

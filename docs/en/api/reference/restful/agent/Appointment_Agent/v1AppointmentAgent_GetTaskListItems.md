@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Appointment/GetTaskListItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,25 +101,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 308,
-    "Value": "reiciendis",
+    "TaskListItemId": 770,
+    "Value": "saepe",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "cumque",
-    "Deleted": true,
-    "IntentId": 452,
-    "Rank": 289,
+    "Tooltip": "recusandae",
+    "Deleted": false,
+    "IntentId": 425,
+    "Rank": 706,
     "IsDefaultAlldayEvent": true,
-    "IsDefaultFree": false,
-    "IsDefaultPublished": false,
+    "IsDefaultFree": true,
+    "IsDefaultPublished": true,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 558
+        "FieldType": "System.Int32",
+        "FieldLength": 264
       }
     }
   }

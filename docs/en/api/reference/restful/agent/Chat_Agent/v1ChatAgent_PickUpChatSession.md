@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 438
+  "ChatSessionId": 194
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 137,
-  "TopicId": 772,
+  "ChatSessionId": 424,
+  "TopicId": 953,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ut",
-  "CustomerHost": "officia",
-  "CustomerName": "Denesik-Yundt",
-  "CustomerEmail": "rosalyn@schulist.com",
-  "CustomerPhone": "(584)081-5698",
+  "CustomerAlias": "aut",
+  "CustomerHost": "vero",
+  "CustomerName": "Smith-Balistreri",
+  "CustomerEmail": "eriberto.dare@muller.com",
+  "CustomerPhone": "977.268.9021 x9941",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Swift Group",
+  "CustomerCompanyName": "Lemke Group",
   "Status": "Closed",
-  "FirstMessage": "est",
-  "LastMessage": "fugit",
-  "WhenRequested": "2007-12-19T02:38:20.9639576+01:00",
-  "WhenStarted": "2024-10-09T02:38:20.9639576+02:00",
-  "WhenEnded": "2009-11-06T02:38:20.9639576+01:00",
-  "WhenIdle": "2020-09-13T02:38:20.9639576+02:00",
-  "WhenFetched": "2011-08-14T02:38:20.9639576+02:00",
-  "SessionKey": "est",
-  "InitialQueuePos": 313,
-  "AlertLevel": 423,
-  "Rank": 906,
+  "FirstMessage": "dolor",
+  "LastMessage": "eligendi",
+  "WhenRequested": "2018-07-08T14:28:21.555412+02:00",
+  "WhenStarted": "2007-04-20T14:28:21.555412+02:00",
+  "WhenEnded": "2008-08-15T14:28:21.555412+02:00",
+  "WhenIdle": "2019-10-21T14:28:21.555412+02:00",
+  "WhenFetched": "2011-11-25T14:28:21.555412+01:00",
+  "SessionKey": "quaerat",
+  "InitialQueuePos": 722,
+  "AlertLevel": 912,
+  "Rank": 238,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 971,
+  "ChatbotIsActive": true,
+  "Rating": 215,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 467
     }
   }
 }

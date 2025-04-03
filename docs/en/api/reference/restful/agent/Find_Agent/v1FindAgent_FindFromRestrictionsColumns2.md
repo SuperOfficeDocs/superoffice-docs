@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "quisquam",
-  "ProviderName": "Mohr, Wiegand and Luettgen",
-  "DesiredColumns": "doloribus",
-  "PageSize": 592,
-  "PageNumber": 547
+  "Restrictions": "architecto",
+  "ProviderName": "Becker LLC",
+  "DesiredColumns": "voluptatem",
+  "PageSize": 907,
+  "PageNumber": 695
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Spencer, Wilderman and Bode",
-      "DisplayTooltip": "sit",
-      "DisplayType": "impedit",
-      "CanOrderBy": true,
-      "Name": "Mante Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "commodi",
-      "RestrictionListName": "Kunde Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "doloremque",
-      "Width": "veritatis",
-      "IconHint": "corrupti",
-      "HeadingIconHint": "voluptas"
+      "DisplayName": "Weber, McLaughlin and Gutkowski",
+      "DisplayTooltip": "laboriosam",
+      "DisplayType": "autem",
+      "CanOrderBy": false,
+      "Name": "Bayer LLC",
+      "CanRestrictBy": false,
+      "RestrictionType": "ducimus",
+      "RestrictionListName": "Flatley-Hagenes",
+      "IsVisible": true,
+      "ExtraInfo": "consectetur",
+      "Width": "quia",
+      "IconHint": "quisquam",
+      "HeadingIconHint": "aut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Padberg LLC",
-      "PrimaryKey": 203,
+      "EntityName": "Simonis Group",
+      "PrimaryKey": 729,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "similique",
-          "TooltipHint": "animi",
-          "LinkHint": "vitae"
+          "DisplayValue": "modi",
+          "TooltipHint": "natus",
+          "LinkHint": "dicta"
         }
       },
-      "LinkHint": "perspiciatis",
-      "StyleHint": "soluta",
+      "LinkHint": "consequatur",
+      "StyleHint": "quis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 133
+          "FieldLength": 114
         }
       }
     }
   ],
-  "RowCount": 145,
+  "RowCount": 579,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldType": "System.String",
+      "FieldLength": 475
     }
   }
 }

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 304,
-  "ColumnId": 918,
-  "FieldDefault": "labore",
-  "FieldHeight": 422,
-  "FieldLabel": "saepe",
-  "FieldLeft": 980,
-  "FieldTop": 865,
+  "UDefFieldId": 355,
+  "ColumnId": 68,
+  "FieldDefault": "in",
+  "FieldHeight": 203,
+  "FieldLabel": "ut",
+  "FieldLeft": 153,
+  "FieldTop": 556,
   "FieldType": "Checkbox",
-  "FieldWidth": 113,
-  "FormatMask": "debitis",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 845,
-  "LabelLeft": 753,
-  "LabelTop": 583,
-  "LabelWidth": 110,
-  "LastVersionId": 802,
-  "ListTableId": 61,
-  "IsMandatory": true,
+  "FieldWidth": 221,
+  "FormatMask": "deserunt",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 943,
+  "LabelLeft": 484,
+  "LabelTop": 137,
+  "LabelWidth": 45,
+  "LastVersionId": 815,
+  "ListTableId": 899,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 835,
-  "ProgId": "ut",
-  "IsReadOnly": true,
-  "ShortLabel": "aut",
-  "TabOrder": 870,
-  "TextLength": 686,
-  "Tooltip": "molestias",
-  "UdefIdentity": 263,
-  "UDListDefinitionId": 760,
+  "Page1LineNo": 652,
+  "ProgId": "tempore",
+  "IsReadOnly": false,
+  "ShortLabel": "adipisci",
+  "TabOrder": 160,
+  "TextLength": 817,
+  "Tooltip": "non",
+  "UdefIdentity": 1002,
+  "UDListDefinitionId": 219,
   "Justification": "Center",
-  "Version": 795,
-  "TemplateVariableName": "Stehr Group",
+  "Version": 317,
+  "TemplateVariableName": "Jacobi-Becker",
   "HasBeenPublished": false,
-  "MdoListName": "Cassin, Schinner and Paucek",
+  "MdoListName": "Gusikowski Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldType": "System.String",
+      "FieldLength": 748
     }
   }
 }

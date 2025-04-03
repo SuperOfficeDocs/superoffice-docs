@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 682,
+  "DocId": 826,
   "AttachmentIds": [
-    "repudiandae",
-    "laboriosam"
+    "ut",
+    "necessitatibus"
   ],
   "IncludeAttachments": true
 }
@@ -124,147 +124,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 594,
-      "ContactName": "Cassin-Wilderman",
-      "PersonId": 376,
-      "PersonName": "Sporer, Brekke and Keeling",
-      "AssociateId": 763,
-      "Address": "sit",
-      "EmailId": 399,
+      "ContactId": 352,
+      "ContactName": "Bins-Fadel",
+      "PersonId": 646,
+      "PersonName": "Moen, Crist and Balistreri",
+      "AssociateId": 238,
+      "Address": "qui",
+      "EmailId": 305,
       "DuplicatePersonIds": [
-        258,
-        741
+        152,
+        257
       ],
-      "Name": "Purdy, Leuschke and Moen",
+      "Name": "Ryan Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 968
+          "FieldLength": 858
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 256,
-      "ContactName": "Kuphal Group",
-      "PersonId": 886,
-      "PersonName": "Kozey, Nienow and Greenfelder",
-      "AssociateId": 493,
-      "Address": "non",
-      "EmailId": 261,
+      "ContactId": 854,
+      "ContactName": "Marquardt Inc and Sons",
+      "PersonId": 145,
+      "PersonName": "Dickens-Ferry",
+      "AssociateId": 641,
+      "Address": "molestias",
+      "EmailId": 721,
       "DuplicatePersonIds": [
-        389,
-        990
+        142,
+        490
       ],
-      "Name": "Wolff, Schmitt and Kreiger",
+      "Name": "Jerde, Huels and Bogisich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 867
+          "FieldType": "System.Int32",
+          "FieldLength": 942
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 179,
-      "ContactName": "Gleason, Kozey and Simonis",
-      "PersonId": 836,
-      "PersonName": "Ebert-Hauck",
-      "AssociateId": 740,
-      "Address": "magnam",
-      "EmailId": 4,
+      "ContactId": 334,
+      "ContactName": "Schuppe, Schmitt and Bradtke",
+      "PersonId": 337,
+      "PersonName": "Rath-Mertz",
+      "AssociateId": 783,
+      "Address": "enim",
+      "EmailId": 965,
       "DuplicatePersonIds": [
-        79,
-        714
+        979,
+        70
       ],
-      "Name": "Pfannerstill-Bernier",
+      "Name": "Rice-Langosh",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 203
+          "FieldType": "System.Int32",
+          "FieldLength": 726
         }
       }
     }
   ],
-  "Subject": "aut",
-  "HTMLBody": "ad",
+  "Subject": "in",
+  "HTMLBody": "qui",
   "From": null,
-  "Sent": "2002-12-05T02:38:21.401411+01:00",
-  "Size": 75,
+  "Sent": "2005-12-08T14:28:21.9616455+01:00",
+  "Size": 753,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "perspiciatis",
-  "PlainBody": "minus",
+  "MessageID": "sit",
+  "PlainBody": "doloremque",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 144,
+  "ServerId": 677,
   "Attachments": [
     {
-      "Description": "Expanded analyzing paradigm",
-      "Filename": "ducimus",
-      "Size": 952,
-      "Type": "et",
-      "Encoding": "qui",
-      "Id": "perferendis",
-      "Disposition": "inventore",
-      "IsSafeFileExtension": true,
+      "Description": "Balanced responsive flexibility",
+      "Filename": "rerum",
+      "Size": 214,
+      "Type": "eos",
+      "Encoding": "vero",
+      "Id": "aut",
+      "Disposition": "facilis",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 362
+          "FieldLength": 382
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gottlieb, Orn and Walker",
+      "Name": "Gusikowski-Luettgen",
       "Values": [
-        "et",
-        "at"
+        "praesentium",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldType": "System.String",
+          "FieldLength": 157
         }
       }
     },
     {
-      "Name": "Gottlieb, Orn and Walker",
+      "Name": "Gusikowski-Luettgen",
       "Values": [
-        "et",
-        "at"
+        "praesentium",
+        "in"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldType": "System.String",
+          "FieldLength": 157
         }
       }
     }
   ],
-  "FolderName": "Keeling, Krajcik and Hoppe",
-  "EmailItemId": 417,
-  "AccountId": 643,
-  "ReceivedAt": "2020-06-26T02:38:21.401411+02:00",
+  "FolderName": "Witting, DuBuque and Monahan",
+  "EmailItemId": 1000,
+  "AccountId": 243,
+  "ReceivedAt": "2013-08-29T14:28:21.9616455+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2018-07-31T02:38:21.401411+02:00",
+  "RepliedAt": "1998-12-02T14:28:21.9616455+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 87
+      "FieldType": "System.Int32",
+      "FieldLength": 601
     }
   }
 }

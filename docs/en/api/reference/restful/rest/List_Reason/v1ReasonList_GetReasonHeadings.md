@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 757,
-    "Name": "Cruickshank-Torphy",
-    "Tooltip": "error",
-    "Deleted": true,
-    "Rank": 88,
-    "UdListDefinitionId": 172,
+    "HeadingId": 441,
+    "Name": "Braun, Hilll and Bogisich",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 643,
+    "UdListDefinitionId": 886,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 845
       }
     }
   }

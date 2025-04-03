@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 437,
-    "Name": "Gleichner-Lesch",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "Rank": 32,
-    "UdListDefinitionId": 114,
+    "HeadingId": 653,
+    "Name": "Christiansen, Feeney and Toy",
+    "Tooltip": "animi",
+    "Deleted": false,
+    "Rank": 525,
+    "UdListDefinitionId": 157,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 440
+        "FieldType": "System.Int32",
+        "FieldLength": 504
       }
     }
   }

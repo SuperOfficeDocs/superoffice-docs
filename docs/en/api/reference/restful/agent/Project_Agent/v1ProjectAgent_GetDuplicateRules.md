@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Koelpin Group",
-    "DisplayName": "Ziemann, Kub and Rempel",
-    "DisplayTooltip": "aperiam",
+    "Name": "Gorczany, Marquardt and Wiegand",
+    "DisplayName": "Christiansen-Connelly",
+    "DisplayTooltip": "sed",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 308
+        "FieldLength": 477
       }
     }
   },
   {
-    "Name": "Koelpin Group",
-    "DisplayName": "Ziemann, Kub and Rempel",
-    "DisplayTooltip": "aperiam",
+    "Name": "Gorczany, Marquardt and Wiegand",
+    "DisplayName": "Christiansen-Connelly",
+    "DisplayTooltip": "sed",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 308
+        "FieldLength": 477
       }
     }
   }

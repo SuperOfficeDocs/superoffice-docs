@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 570,
-    "Name": "Harris, Gutmann and Moore",
-    "ToolTip": "Sequi odit animi officiis repellat et.",
+    "Id": 920,
+    "Name": "Orn LLC",
+    "ToolTip": "Consequatur consequuntur.",
     "Deleted": false,
-    "Rank": 234,
-    "Type": "doloremque",
-    "ColorBlock": 812,
-    "IconHint": "laborum",
+    "Rank": 694,
+    "Type": "qui",
+    "ColorBlock": 963,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2010-04-29T02:38:26.6986493+02:00",
+    "LastChanged": "2001-08-17T14:28:27.4926717+02:00",
     "ChildItems": [
       {
-        "Id": 293,
-        "Name": "Tillman Group",
-        "ToolTip": "Et veniam modi porro aut.",
+        "Id": 859,
+        "Name": "Ziemann Group",
+        "ToolTip": "Aut modi et rerum.",
         "Deleted": true,
-        "Rank": 760,
-        "Type": "quia",
-        "ColorBlock": 310,
-        "IconHint": "eius",
+        "Rank": 903,
+        "Type": "distinctio",
+        "ColorBlock": 398,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2015-11-07T02:38:26.6986493+01:00",
+        "LastChanged": "2024-07-02T14:28:27.4926717+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "quae",
-        "Hidden": true,
-        "FullName": "Albin Mertz"
+        "ExtraInfo": "odio",
+        "StyleHint": "eveniet",
+        "Hidden": false,
+        "FullName": "Lula Darien Weissnat V"
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "est",
+    "ExtraInfo": "eius",
+    "StyleHint": "tempore",
     "Hidden": false,
-    "FullName": "Richmond Kuhn"
+    "FullName": "Dr. Frieda Kuphal Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 534,
-    "Name": "Doyle, Leannon and Ondricka",
-    "ToolTip": "Sequi deserunt.",
-    "Deleted": false,
-    "Rank": 428,
-    "Type": "doloremque",
-    "ColorBlock": 596,
-    "IconHint": "nam",
+    "Id": 806,
+    "Name": "Stokes Group",
+    "ToolTip": "Soluta aut quia.",
+    "Deleted": true,
+    "Rank": 550,
+    "Type": "dolores",
+    "ColorBlock": 388,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2024-10-27T02:38:26.6986493+01:00",
+    "LastChanged": "2003-07-21T14:28:27.4926717+02:00",
     "ChildItems": [
       {
-        "Id": 922,
-        "Name": "Veum Inc and Sons",
-        "ToolTip": "Maiores officiis.",
-        "Deleted": false,
-        "Rank": 805,
-        "Type": "sunt",
-        "ColorBlock": 708,
-        "IconHint": "voluptates",
-        "Selected": false,
-        "LastChanged": "2021-12-11T02:38:26.6986493+01:00",
+        "Id": 285,
+        "Name": "Schiller-Howe",
+        "ToolTip": "Rem sequi voluptatem facilis veritatis eum.",
+        "Deleted": true,
+        "Rank": 719,
+        "Type": "esse",
+        "ColorBlock": 701,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "2011-06-12T14:28:27.4926717+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "aliquam",
-        "Hidden": true,
-        "FullName": "Hulda Nicolas DDS",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "cupiditate",
+        "Hidden": false,
+        "FullName": "Everette Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 810
+            "FieldLength": 22
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "sit",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "adipisci",
     "Hidden": true,
-    "FullName": "Prof. Priscilla Lottie Koss",
+    "FullName": "Donald Tremblay",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 542
+        "FieldLength": 425
       }
     }
   }

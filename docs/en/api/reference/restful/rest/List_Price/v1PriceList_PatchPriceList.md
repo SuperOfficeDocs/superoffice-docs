@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "provident",
+    "path": "sed",
     "value": {}
   },
   {
     "op": "add",
-    "path": "provident",
+    "path": "sed",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 7,
-  "ERPPriceListKey": "molestias",
-  "QuoteConnectionId": 668,
-  "Name": "Daugherty, Wehner and Abernathy",
-  "Description": "Object-based 5th generation instruction set",
-  "Currency": "autem",
-  "CurrencyName": "Kuvalis-Parisian",
-  "ValidFrom": "2003-05-27T02:38:26.8236417+02:00",
-  "ValidTo": "2020-08-25T02:38:26.8236417+02:00",
-  "IsActive": true,
+  "PriceListId": 153,
+  "ERPPriceListKey": "et",
+  "QuoteConnectionId": 550,
+  "Name": "Barrows Group",
+  "Description": "Synergized mobile portal",
+  "Currency": "perspiciatis",
+  "CurrencyName": "Gerhold Group",
+  "ValidFrom": "2001-12-20T14:28:27.6020419+01:00",
+  "ValidTo": "2006-08-01T14:28:27.6020419+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldType": "System.String",
+      "FieldLength": 988
     }
   },
   "_Links": {

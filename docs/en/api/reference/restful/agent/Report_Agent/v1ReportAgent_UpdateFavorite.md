@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 755,
+  "ReportId": 944,
   "ReportCategory": "All",
-  "Description": "Multi-tiered foreground project",
+  "Description": "Horizontal intermediate workforce",
   "ReportLayout": "CalendarMonth",
-  "Name": "Hudson-Weber",
-  "AssociateId": 920,
-  "TemplateId": 869,
-  "Published": false,
+  "Name": "Ondricka Group",
+  "AssociateId": 828,
+  "TemplateId": 607,
+  "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldLength": 723
     }
   }
 }

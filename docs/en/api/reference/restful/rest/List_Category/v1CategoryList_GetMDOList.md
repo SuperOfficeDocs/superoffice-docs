@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=aut
+GET /api/v1/List/Category/MDOItems?query=ea
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 368,
-    "Name": "Sipes Inc and Sons",
-    "ToolTip": "Dolores aperiam ipsa quis beatae.",
+    "Id": 351,
+    "Name": "Bogan-Schinner",
+    "ToolTip": "At consequatur accusamus quam qui.",
     "Deleted": false,
-    "Rank": 870,
-    "Type": "non",
+    "Rank": 718,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 226,
-        "Name": "Swaniawski-Quigley",
-        "ToolTip": "Doloremque sit assumenda unde maxime.",
+        "Id": 782,
+        "Name": "Nader Group",
+        "ToolTip": "Omnis natus autem et modi tempora quo.",
         "Deleted": true,
-        "Rank": 489,
-        "Type": "consequatur",
+        "Rank": 113,
+        "Type": "at",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 353,
-        "ExtraInfo": "necessitatibus",
-        "StyleHint": "aut",
-        "FullName": "Dr. Amber Enid Upton",
+        "IconHint": "et",
+        "ColorBlock": 552,
+        "ExtraInfo": "quod",
+        "StyleHint": "nihil",
+        "FullName": "Maximillian Schuppe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 577
+            "FieldLength": 438
           }
         }
       }
     ],
-    "IconHint": "perspiciatis",
-    "ColorBlock": 890,
-    "ExtraInfo": "ab",
-    "StyleHint": "voluptate",
-    "FullName": "Mr. Hank Alta Welch MD",
+    "IconHint": "laudantium",
+    "ColorBlock": 134,
+    "ExtraInfo": "id",
+    "StyleHint": "autem",
+    "FullName": "Bo Kathleen Nikolaus Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 554
+        "FieldLength": 952
       }
     }
   }

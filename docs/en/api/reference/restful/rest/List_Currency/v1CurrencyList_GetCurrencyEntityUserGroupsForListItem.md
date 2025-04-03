@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 315,
-    "Name": "Abbott, Hodkiewicz and Cummings",
-    "ToolTip": "Voluptatum ut omnis.",
+    "Id": 163,
+    "Name": "Goldner Inc and Sons",
+    "ToolTip": "Enim provident quo alias.",
     "Deleted": false,
-    "Rank": 375,
-    "Type": "dolor",
-    "ColorBlock": 564,
-    "IconHint": "et",
+    "Rank": 59,
+    "Type": "et",
+    "ColorBlock": 196,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2011-01-19T02:38:26.7299042+01:00",
+    "LastChanged": "2015-08-18T14:28:27.5395453+02:00",
     "ChildItems": [
       {
-        "Id": 432,
-        "Name": "Kovacek-Schmitt",
-        "ToolTip": "Cumque aliquam assumenda dolore consectetur cum.",
+        "Id": 361,
+        "Name": "DuBuque-Johnston",
+        "ToolTip": "Magnam omnis ab at.",
         "Deleted": false,
-        "Rank": 152,
-        "Type": "harum",
-        "ColorBlock": 230,
-        "IconHint": "ab",
+        "Rank": 376,
+        "Type": "cumque",
+        "ColorBlock": 182,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2003-08-14T02:38:26.7299042+02:00",
+        "LastChanged": "2017-05-02T14:28:27.5395453+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "expedita",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "ipsam",
         "Hidden": false,
-        "FullName": "Miss Antonetta Caroline Harvey III",
+        "FullName": "Tillman Geoffrey Goodwin Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 841
+            "FieldLength": 893
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "deserunt",
+    "ExtraInfo": "repudiandae",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Sydni Yost",
+    "FullName": "Amiya Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 374
       }
     }
   }

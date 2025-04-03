@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Stanton LLC",
-    "ToolTip": "Quia ex.",
+    "Id": 352,
+    "Name": "Langworth-Ullrich",
+    "ToolTip": "Et et qui nam consequatur est consequuntur.",
     "Deleted": false,
-    "Rank": 955,
-    "Type": "est",
-    "ColorBlock": 684,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "2022-09-16T02:38:26.6517427+02:00",
+    "Rank": 33,
+    "Type": "iusto",
+    "ColorBlock": 315,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2022-12-29T14:28:27.4614236+01:00",
     "ChildItems": [
       {
-        "Id": 650,
-        "Name": "Roberts-Kreiger",
-        "ToolTip": "Ipsam consequuntur dolorem.",
+        "Id": 729,
+        "Name": "Emmerich Group",
+        "ToolTip": "Beatae nihil eveniet iusto maxime aut expedita facilis.",
         "Deleted": false,
-        "Rank": 404,
-        "Type": "dignissimos",
-        "ColorBlock": 127,
-        "IconHint": "perferendis",
+        "Rank": 666,
+        "Type": "et",
+        "ColorBlock": 542,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "2004-01-19T02:38:26.6517427+01:00",
+        "LastChanged": "2022-03-27T14:28:27.4614236+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "vel",
+        "ExtraInfo": "minima",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Michele Rice Jr.",
+        "FullName": "Camilla Lockman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 90
+            "FieldType": "System.String",
+            "FieldLength": 234
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "qui",
+    "ExtraInfo": "autem",
+    "StyleHint": "repellat",
     "Hidden": true,
-    "FullName": "Buster Hodkiewicz",
+    "FullName": "Stevie Auer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 394
+        "FieldType": "System.Int32",
+        "FieldLength": 822
       }
     }
   }

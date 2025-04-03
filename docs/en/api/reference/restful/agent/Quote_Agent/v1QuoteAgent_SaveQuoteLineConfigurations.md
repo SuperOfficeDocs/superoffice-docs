@@ -83,21 +83,21 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 41,
-      "FieldName": "Sipes, Schmeler and Morar",
-      "Label": "nisi",
-      "Tooltip": "iusto",
+      "QuoteLineConfigurationId": 499,
+      "FieldName": "Hintz-Weissnat",
+      "Label": "dolorum",
+      "Tooltip": "et",
       "Editable": false,
       "InUse": false,
       "Mandatory": false,
-      "Rank": 925,
-      "RestrictEdit": false
+      "Rank": 924,
+      "RestrictEdit": true
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 899,
-    "FieldName": "Rohan, Beier and Denesik",
-    "Label": "cupiditate",
-    "Tooltip": "ex",
+    "QuoteLineConfigurationId": 795,
+    "FieldName": "Thompson, Shields and Prosacco",
+    "Label": "et",
+    "Tooltip": "molestiae",
     "Editable": false,
-    "InUse": false,
+    "InUse": true,
     "Mandatory": false,
-    "Rank": 916,
+    "Rank": 279,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 721
+        "FieldLength": 719
       }
     }
   }

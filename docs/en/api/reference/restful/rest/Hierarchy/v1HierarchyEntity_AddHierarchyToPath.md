@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 172,
+  "HierarchyId": 15,
   "Domain": "Dashboards",
-  "Name": "Cruickshank, Graham and Konopelski",
-  "Fullname": "qui",
-  "ParentId": 897,
+  "Name": "Hermiston Inc and Sons",
+  "Fullname": "rerum",
+  "ParentId": 396,
   "Children": [
     {
-      "HierarchyId": 778,
+      "HierarchyId": 727,
       "Domain": "Dashboards",
-      "Name": "Rogahn-Paucek",
-      "Fullname": "non",
-      "ParentId": 755,
+      "Name": "Hammes Inc and Sons",
+      "Fullname": "officiis",
+      "ParentId": 277,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2001-06-10T02:38:26.1204323+02:00",
-      "RegisteredAssociateId": 343,
-      "Updated": "2006-08-12T02:38:26.1204323+02:00",
-      "UpdatedAssociateId": 390,
+      "Registered": "2000-02-19T14:28:26.961443+01:00",
+      "RegisteredAssociateId": 500,
+      "Updated": "2006-08-25T14:28:26.961443+02:00",
+      "UpdatedAssociateId": 209,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 41
+          "FieldType": "System.Int32",
+          "FieldLength": 246
         }
       }
     }
   ],
-  "Registered": "1998-07-27T02:38:26.1204323+02:00",
-  "RegisteredAssociateId": 172,
-  "Updated": "2015-09-26T02:38:26.1204323+02:00",
-  "UpdatedAssociateId": 137,
+  "Registered": "2001-01-14T14:28:26.961443+01:00",
+  "RegisteredAssociateId": 460,
+  "Updated": "2024-11-21T14:28:26.961443+01:00",
+  "UpdatedAssociateId": 244,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 546
+      "FieldLength": 750
     }
   }
 }

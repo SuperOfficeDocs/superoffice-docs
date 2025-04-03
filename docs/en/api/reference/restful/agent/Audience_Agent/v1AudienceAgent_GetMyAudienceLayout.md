@@ -81,11 +81,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 227,
-  "InstanceLayout": "officia",
-  "InstanceName": "Lehner-Deckow",
-  "CreatedDate": "2017-06-10T02:38:20.885843+02:00",
-  "UpdatedDate": "1999-12-06T02:38:20.885843+01:00",
+  "AudienceLayoutId": 130,
+  "InstanceLayout": "delectus",
+  "InstanceName": "Wiza, Franecki and Wiegand",
+  "CreatedDate": "2001-04-23T14:28:21.47729+02:00",
+  "UpdatedDate": "2008-12-01T14:28:21.47729+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 431
+      "FieldLength": 278
     }
   }
 }

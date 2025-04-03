@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 314,
-  "Name": "Leannon-Yost",
+  "ScreenChooserId": 354,
+  "Name": "Ward, Mosciski and Boyer",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "sequi",
-  "Source": "ad",
-  "Registered": "2006-07-23T02:38:26.5266399+02:00",
-  "RegisteredAssociateId": 891,
-  "Updated": "1999-04-14T02:38:26.5266399+02:00",
-  "UpdatedAssociateId": 69
+  "Enabled": false,
+  "UniqueIdentifier": "eveniet",
+  "Source": "quaerat",
+  "Registered": "2007-09-03T14:28:27.3520534+02:00",
+  "RegisteredAssociateId": 842,
+  "Updated": "2021-03-30T14:28:27.3520534+02:00",
+  "UpdatedAssociateId": 265
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 944,
-  "Name": "Tremblay LLC",
+  "ScreenChooserId": 176,
+  "Name": "Christiansen, Casper and Kovacek",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "delectus",
-  "Source": "dolor",
-  "Registered": "2018-10-07T02:38:26.5266399+02:00",
-  "RegisteredAssociateId": 976,
-  "Updated": "2018-01-10T02:38:26.5266399+01:00",
-  "UpdatedAssociateId": 401,
+  "UniqueIdentifier": "atque",
+  "Source": "est",
+  "Registered": "2016-08-02T14:28:27.3520534+02:00",
+  "RegisteredAssociateId": 692,
+  "Updated": "2016-08-27T14:28:27.3520534+02:00",
+  "UpdatedAssociateId": 503,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldType": "System.String",
+      "FieldLength": 733
     }
   },
   "_Links": {

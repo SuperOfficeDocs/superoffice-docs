@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 992,
-  "Name": "Hills LLC",
-  "Tooltip": "deserunt",
+  "Id": 531,
+  "Name": "Donnelly Inc and Sons",
+  "Tooltip": "corporis",
   "Deleted": true,
-  "Rank": 431,
+  "Rank": 420,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "ListType": "sit",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 368,
-  "Name": "Breitenberg Inc and Sons",
-  "Tooltip": "reprehenderit",
+  "Id": 902,
+  "Name": "Corkery Group",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 609,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 513,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatum",
+  "ListType": "maxime",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 219
+      "FieldLength": 531
     }
   }
 }

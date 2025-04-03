@@ -113,6 +113,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -132,12 +133,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 570
+  "AssociateId": 965
 }
 ```
 
@@ -152,120 +153,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-06-21T02:38:20.7764793+02:00",
-  "AppointmentId": 747,
-  "Description": "Stand-alone intangible firmware",
-  "Title": "repellat",
-  "Agenda": "consectetur",
-  "InternalNotes": "optio",
-  "StartDate": "2012-10-16T02:38:20.7764793+02:00",
-  "EndDate": "2025-01-22T02:38:20.7764793+01:00",
+  "CreatedDate": "2015-06-20T14:28:21.3835445+02:00",
+  "AppointmentId": 642,
+  "Description": "Distributed background success",
+  "Title": "magni",
+  "Agenda": "maxime",
+  "InternalNotes": "sit",
+  "StartDate": "2003-03-02T14:28:21.3835445+01:00",
+  "EndDate": "2012-08-11T14:28:21.3835445+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 339,
+  "MotherId": 713,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2016-06-12T02:38:20.7764793+02:00",
+  "UpdatedDate": "2022-12-18T14:28:21.3991694+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 697,
+  "ActiveLinks": 91,
   "Links": [
     {
-      "EntityName": "Waters-Stanton",
-      "Id": 33,
-      "Description": "Reverse-engineered even-keeled support",
-      "ExtraInfo": "nobis",
-      "LinkId": 293,
+      "EntityName": "Kulas Inc and Sons",
+      "Id": 25,
+      "Description": "Re-engineered maximized infrastructure",
+      "ExtraInfo": "et",
+      "LinkId": 711,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 111
+          "FieldType": "System.Int32",
+          "FieldLength": 656
         }
       }
     }
   ],
-  "AlarmLeadTime": "non",
-  "HasAlarm": false,
-  "ColorIndex": 946,
-  "IsFree": true,
+  "AlarmLeadTime": "debitis",
+  "HasAlarm": true,
+  "ColorIndex": 640,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "dolore",
-  "LeadTime": "distinctio",
-  "Location": "non",
-  "RejectCounter": 689,
+  "LagTime": "perspiciatis",
+  "LeadTime": "rerum",
+  "Location": "maiores",
+  "RejectCounter": 277,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 272,
-      "PersonId": 585,
-      "ContactId": 790,
-      "EmailId": 914,
+      "AssociateId": 153,
+      "PersonId": 500,
+      "ContactId": 567,
+      "EmailId": 722,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jonatan_schmitt@roberts.uk",
-      "Description": "Customizable discrete emulation"
+      "EmailAddress": "pamela.ruecker@upton.co.uk",
+      "Description": "Phased reciprocal architecture"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-04-23T02:38:20.7764793+02:00",
+  "ActiveDate": "2016-12-23T14:28:21.3991694+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 284,
+  "PreferredTZLocation": 208,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 520,
+  "SuggestedAppointmentId": 325,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "in",
+  "CentralserviceVideomeetId": "quia",
   "UserDefinedFields": {
-    "SuperOffice:1": "Zachery Pfeffer",
-    "SuperOffice:2": "Agnes Eichmann"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "783769296"
   },
   "ExtraFields": {
-    "ExtraFields1": "facere",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "consequuntur",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "quo",
-    "CustomFields2": "aut"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "assumenda"
   },
-  "PublishEventDate": "2011-07-26T02:38:20.7921001+02:00",
-  "PublishTo": "2005-03-01T02:38:20.7921001+01:00",
-  "PublishFrom": "2001-06-07T02:38:20.7921001+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-03-20T14:28:21.3991694+01:00",
+  "PublishTo": "2009-11-22T14:28:21.3991694+01:00",
+  "PublishFrom": "2013-06-16T14:28:21.3991694+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 359,
+      "VisibleId": 95,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldLength": 839
         }
       }
     },
     {
-      "VisibleId": 359,
+      "VisibleId": 95,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "fugit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 680
+          "FieldLength": 839
         }
       }
     }
@@ -274,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 42
+      "FieldType": "System.Int32",
+      "FieldLength": 293
     }
   }
 }

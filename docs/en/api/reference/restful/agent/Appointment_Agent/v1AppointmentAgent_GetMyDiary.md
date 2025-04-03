@@ -115,6 +115,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -129,13 +130,13 @@ OK
 POST /api/v1/Agents/Appointment/GetMyDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2018-11-29T02:38:20.8545926+01:00",
-  "EndTime": "2008-04-10T02:38:20.8545926+02:00",
-  "Count": 584
+  "StartTime": "2021-05-10T14:28:21.4460417+02:00",
+  "EndTime": "2007-02-05T14:28:21.4460417+01:00",
+  "Count": 468
 }
 ```
 
@@ -147,65 +148,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 118,
-    "StartDate": "2019-05-05T02:38:20.8545926+02:00",
-    "EndDate": "2000-06-21T02:38:20.8545926+02:00",
+    "AppointmentId": 42,
+    "StartDate": "2001-03-28T14:28:21.4616659+02:00",
+    "EndDate": "2008-05-31T14:28:21.4616659+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptates",
-    "AssociateFullName": "Prof. Eva Bernhard Schuppe IV",
-    "ContactName": "Kulas-Franecki",
-    "Description": "Right-sized system-worthy process improvement",
-    "PersonFullName": "Marge Mireille Marquardt IV",
-    "PersonId": 881,
-    "ContactId": 132,
-    "ProjectId": 212,
-    "ProjectName": "Okuneva Inc and Sons",
+    "Task": "possimus",
+    "AssociateFullName": "Dustin Walter",
+    "ContactName": "Bruen-Murphy",
+    "Description": "Re-contextualized didactic moderator",
+    "PersonFullName": "Prof. Tobin Randal Rohan",
+    "PersonId": 183,
+    "ContactId": 468,
+    "ProjectId": 310,
+    "ProjectName": "O'Keefe-Spencer",
     "IsPublished": false,
-    "AssociateId": 587,
-    "ColorIndex": 547,
+    "AssociateId": 653,
+    "ColorIndex": 156,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 734,
-    "PriorityName": "Runolfsson Inc and Sons",
+    "PriorityId": 970,
+    "PriorityName": "Renner, Kub and Bartoletti",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1999-11-26T02:38:20.8545926+01:00",
+    "ActiveDate": "2001-06-06T14:28:21.4616659+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2022-08-06T02:38:20.8545926+02:00",
-    "RecurringEndDate": "2023-06-13T02:38:20.8545926+02:00",
-    "MotherId": 483,
-    "AssignedBy": 514,
-    "AssignedByFullName": "Franz Rice",
+    "RecurringStartDate": "2004-08-23T14:28:21.4616659+02:00",
+    "RecurringEndDate": "2003-12-04T14:28:21.4616659+01:00",
+    "MotherId": 978,
+    "AssignedBy": 366,
+    "AssignedByFullName": "Adelle Quitzon II",
     "RejectReason": "",
-    "Location": "voluptas",
-    "AlarmLeadTime": "rerum",
-    "SaleId": 613,
-    "SaleName": "Mayert, Gerlach and Daugherty",
-    "AssociateName": "Rippin Inc and Sons",
-    "CreatedDate": "2017-06-09T02:38:20.8545926+02:00",
-    "CreatedBy": "similique",
-    "CreatedByFullName": "Prof. Micheal Hane",
-    "CreatedByAssociateId": 81,
+    "Location": "repudiandae",
+    "AlarmLeadTime": "sed",
+    "SaleId": 203,
+    "SaleName": "Ebert, Fahey and Rath",
+    "AssociateName": "Kirlin, Lind and Sanford",
+    "CreatedDate": "2019-12-11T14:28:21.4616659+01:00",
+    "CreatedBy": "officiis",
+    "CreatedByFullName": "Carmela Olson",
+    "CreatedByAssociateId": 443,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 343,
-    "Title": "provident",
-    "Agenda": "nulla",
-    "InternalNotes": "expedita",
+    "PreferredTZLocation": 469,
+    "Title": "impedit",
+    "Agenda": "voluptatem",
+    "InternalNotes": "sunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 102
+        "FieldType": "System.String",
+        "FieldLength": 414
       }
     }
   }

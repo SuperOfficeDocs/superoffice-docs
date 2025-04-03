@@ -82,10 +82,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "voluptatem",
-  "Tooltip": "impedit",
-  "Id": 636,
-  "Rank": 279,
+  "Value": "eligendi",
+  "Tooltip": "qui",
+  "Id": 111,
+  "Rank": 631,
   "Deleted": true
 }
 ```
@@ -97,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "quae",
-  "Tooltip": "earum",
-  "Id": 690,
-  "Rank": 683,
-  "Deleted": false,
+  "Value": "earum",
+  "Tooltip": "voluptates",
+  "Id": 303,
+  "Rank": 796,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 867
     }
   }
 }

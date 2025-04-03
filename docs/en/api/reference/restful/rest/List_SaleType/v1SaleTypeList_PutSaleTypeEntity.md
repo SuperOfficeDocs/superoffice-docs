@@ -112,51 +112,51 @@ OK
 PUT /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 927,
-  "Name": "Thompson, Will and Schinner",
-  "Tooltip": "dolorem",
-  "Rank": 948,
+  "SaleTypeId": 130,
+  "Name": "Gulgowski-Homenick",
+  "Tooltip": "occaecati",
+  "Rank": 340,
   "DurationUnit": "Century",
-  "SaleDuration": 623,
-  "SaleTypeCatId": 711,
+  "SaleDuration": 701,
+  "SaleTypeCatId": 209,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 627,
-  "QuoteLinesTemplate": 366,
-  "ConfirmationLinesTemplate": 200,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 199,
+  "QuoteLinesTemplate": 523,
+  "ConfirmationLinesTemplate": 276,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 664,
-  "MinEarningPercent": 462,
-  "GroupQuoteLinesBy": 676,
-  "SortGroupLinesBy": 905,
+  "MaxDiscountPercent": 139,
+  "MinEarningPercent": 812,
+  "GroupQuoteLinesBy": 996,
+  "SortGroupLinesBy": 535,
   "Stages": [
     {
-      "Id": 995,
-      "Name": "McLaughlin-Dooley",
-      "ToolTip": "Modi expedita nobis est id minima.",
-      "Deleted": false,
-      "Rank": 864,
-      "Type": "temporibus",
-      "ColorBlock": 243,
-      "IconHint": "provident",
+      "Id": 418,
+      "Name": "Hodkiewicz, Schuster and Bins",
+      "ToolTip": "Consequatur deleniti voluptas facere.",
+      "Deleted": true,
+      "Rank": 780,
+      "Type": "officiis",
+      "ColorBlock": 576,
+      "IconHint": "enim",
       "Selected": false,
-      "LastChanged": "2003-07-30T02:38:26.9330101+02:00",
+      "LastChanged": "2002-07-11T14:28:27.6957886+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quas",
-      "StyleHint": "quia",
-      "Hidden": true,
-      "FullName": "Bryon Kiehn"
+      "ExtraInfo": "sint",
+      "StyleHint": "doloribus",
+      "Hidden": false,
+      "FullName": "Dr. Liza Kiley Volkman"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 180,
-  "Name": "Keeling Group",
-  "Tooltip": "odio",
-  "Rank": 831,
+  "SaleTypeId": 961,
+  "Name": "Parisian, Kunze and Buckridge",
+  "Tooltip": "architecto",
+  "Rank": 168,
   "DurationUnit": "Century",
-  "SaleDuration": 165,
-  "SaleTypeCatId": 324,
-  "Deleted": false,
+  "SaleDuration": 397,
+  "SaleTypeCatId": 827,
+  "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 913,
-  "QuoteLinesTemplate": 329,
-  "ConfirmationLinesTemplate": 128,
+  "DefaultQuoteValidity": 169,
+  "QuoteLinesTemplate": 148,
+  "ConfirmationLinesTemplate": 765,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 220,
-  "MinEarningPercent": 505,
-  "GroupQuoteLinesBy": 846,
-  "SortGroupLinesBy": 85,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 281,
+  "MinEarningPercent": 290,
+  "GroupQuoteLinesBy": 836,
+  "SortGroupLinesBy": 214,
   "Stages": [
     {
-      "Id": 400,
-      "Name": "Prohaska LLC",
-      "ToolTip": "Mollitia id voluptates sed eius doloremque itaque ab.",
+      "Id": 251,
+      "Name": "Casper-Harvey",
+      "ToolTip": "Ut cumque dolorem beatae saepe non sed.",
       "Deleted": false,
-      "Rank": 132,
-      "Type": "libero",
-      "ColorBlock": 269,
-      "IconHint": "aut",
+      "Rank": 533,
+      "Type": "consectetur",
+      "ColorBlock": 835,
+      "IconHint": "exercitationem",
       "Selected": false,
-      "LastChanged": "2017-07-16T02:38:26.9330101+02:00",
+      "LastChanged": "2004-04-13T14:28:27.6957886+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "enim",
-      "StyleHint": "itaque",
-      "Hidden": true,
-      "FullName": "Leatha Carroll Sr.",
+      "ExtraInfo": "ut",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Lonzo Tremblay",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 49
+          "FieldType": "System.String",
+          "FieldLength": 126
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 241
     }
   }
 }

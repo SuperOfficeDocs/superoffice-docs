@@ -73,16 +73,16 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 426,
-  "PrefDescId": 501,
-  "PrefValue": "et",
-  "PrefShowValue": "error",
-  "Description": "Integrated context-sensitive pricing structure",
-  "IsBuiltin": false
+  "PrefDescLineId": 672,
+  "PrefDescId": 103,
+  "PrefValue": "quasi",
+  "PrefShowValue": "aut",
+  "Description": "Business-focused needs-based application",
+  "IsBuiltin": true
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 220,
-  "PrefDescId": 353,
-  "PrefValue": "esse",
-  "PrefShowValue": "quasi",
-  "Description": "Versatile context-sensitive installation",
-  "IsBuiltin": false,
+  "PrefDescLineId": 434,
+  "PrefDescId": 227,
+  "PrefValue": "aut",
+  "PrefShowValue": "non",
+  "Description": "Enhanced contextually-based frame",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 725
+      "FieldLength": 468
     }
   }
 }

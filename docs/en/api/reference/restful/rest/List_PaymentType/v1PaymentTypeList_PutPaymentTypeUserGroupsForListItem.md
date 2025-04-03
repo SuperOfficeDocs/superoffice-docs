@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Abshire, Kessler and Padberg",
-    "ToolTip": "Vitae dolorem vel sint ea aut.",
-    "Deleted": false,
-    "Rank": 913,
-    "Type": "reiciendis",
-    "ColorBlock": 552,
-    "IconHint": "harum",
-    "Selected": false,
-    "LastChanged": "2023-06-24T02:38:26.8080217+02:00",
+    "Id": 742,
+    "Name": "Cassin, Quigley and Kozey",
+    "ToolTip": "Tenetur molestiae ut nulla saepe rerum voluptas.",
+    "Deleted": true,
+    "Rank": 635,
+    "Type": "est",
+    "ColorBlock": 337,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2014-03-02T14:28:27.6020419+01:00",
     "ChildItems": [
       {
-        "Id": 265,
-        "Name": "Reichert Inc and Sons",
-        "ToolTip": "Nostrum cumque sed.",
+        "Id": 574,
+        "Name": "Simonis, Rowe and O'Connell",
+        "ToolTip": "Modi non quae harum eum porro omnis.",
         "Deleted": false,
-        "Rank": 604,
-        "Type": "iste",
-        "ColorBlock": 242,
-        "IconHint": "tempore",
+        "Rank": 362,
+        "Type": "quibusdam",
+        "ColorBlock": 46,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2003-04-05T02:38:26.8080217+02:00",
+        "LastChanged": "2006-07-07T14:28:27.6020419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "tempora",
-        "Hidden": false,
-        "FullName": "Emmalee Smith"
+        "ExtraInfo": "rem",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Miss Shyann Dedrick Keebler DDS"
       }
     ],
-    "ExtraInfo": "assumenda",
-    "StyleHint": "perspiciatis",
-    "Hidden": false,
-    "FullName": "Albin Jakubowski"
+    "ExtraInfo": "doloremque",
+    "StyleHint": "corporis",
+    "Hidden": true,
+    "FullName": "Ressie Kling"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Hansen Inc and Sons",
-    "ToolTip": "Repellendus enim facere qui.",
-    "Deleted": true,
-    "Rank": 332,
-    "Type": "qui",
-    "ColorBlock": 895,
-    "IconHint": "illum",
-    "Selected": true,
-    "LastChanged": "2000-11-28T02:38:26.8080217+01:00",
+    "Id": 592,
+    "Name": "Jakubowski Group",
+    "ToolTip": "Reiciendis quisquam tempore non odio facilis aspernatur.",
+    "Deleted": false,
+    "Rank": 558,
+    "Type": "quaerat",
+    "ColorBlock": 373,
+    "IconHint": "repellat",
+    "Selected": false,
+    "LastChanged": "2009-03-22T14:28:27.6020419+01:00",
     "ChildItems": [
       {
-        "Id": 304,
-        "Name": "Lowe, Harris and Parker",
-        "ToolTip": "Fugiat tempore quisquam ullam aut.",
+        "Id": 56,
+        "Name": "Batz, Muller and Lang",
+        "ToolTip": "Repellat eligendi quasi voluptas.",
         "Deleted": false,
-        "Rank": 365,
-        "Type": "consequatur",
-        "ColorBlock": 232,
-        "IconHint": "animi",
-        "Selected": true,
-        "LastChanged": "2014-01-08T02:38:26.8080217+01:00",
+        "Rank": 796,
+        "Type": "dolorem",
+        "ColorBlock": 441,
+        "IconHint": "cupiditate",
+        "Selected": false,
+        "LastChanged": "1998-07-08T14:28:27.6020419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "sit",
-        "Hidden": true,
-        "FullName": "Brandyn Skiles",
+        "ExtraInfo": "eaque",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Aubrey Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 591
+            "FieldLength": 89
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "error",
+    "StyleHint": "quaerat",
     "Hidden": false,
-    "FullName": "Mrs. Dawn Meredith Howell",
+    "FullName": "Emmanuelle Conn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 799
+        "FieldLength": 852
       }
     }
   }

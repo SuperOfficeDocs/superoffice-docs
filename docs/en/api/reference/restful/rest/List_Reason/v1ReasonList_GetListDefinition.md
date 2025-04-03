@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 60,
-  "Name": "Kautzer LLC",
-  "Tooltip": "beatae",
-  "Deleted": false,
-  "Rank": 975,
+  "Id": 754,
+  "Name": "Becker LLC",
+  "Tooltip": "ea",
+  "Deleted": true,
+  "Rank": 43,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "minus",
+  "ListType": "magni",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 323
+      "FieldType": "System.String",
+      "FieldLength": 862
     }
   },
   "_Links": {

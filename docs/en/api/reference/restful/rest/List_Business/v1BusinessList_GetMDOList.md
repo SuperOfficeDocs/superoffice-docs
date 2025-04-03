@@ -27,7 +27,7 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=quia
+GET /api/v1/List/Business/MDOItems?query=natus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 391,
-    "Name": "Schimmel-Huels",
-    "ToolTip": "Et minima aut.",
-    "Deleted": false,
-    "Rank": 845,
-    "Type": "ut",
+    "Id": 998,
+    "Name": "Robel-Crona",
+    "ToolTip": "Quas at aut rerum est maiores.",
+    "Deleted": true,
+    "Rank": 607,
+    "Type": "dolore",
     "ChildItems": [
       {
-        "Id": 197,
-        "Name": "Steuber, Koepp and Emmerich",
-        "ToolTip": "In et.",
+        "Id": 659,
+        "Name": "Ledner Inc and Sons",
+        "ToolTip": "Totam cupiditate nobis non.",
         "Deleted": false,
-        "Rank": 47,
-        "Type": "sit",
+        "Rank": 842,
+        "Type": "deleniti",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "odio",
-        "ColorBlock": 16,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "ad",
-        "FullName": "Miss Karen Reynolds",
+        "IconHint": "quisquam",
+        "ColorBlock": 556,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "adipisci",
+        "FullName": "Mr. Dario Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 324
+            "FieldLength": 465
           }
         }
       }
     ],
-    "IconHint": "dolores",
-    "ColorBlock": 889,
-    "ExtraInfo": "vero",
-    "StyleHint": "delectus",
-    "FullName": "Dr. Bernita Ebert II",
+    "IconHint": "ipsum",
+    "ColorBlock": 854,
+    "ExtraInfo": "repellat",
+    "StyleHint": "autem",
+    "FullName": "Kameron Prosacco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 461
+        "FieldType": "System.String",
+        "FieldLength": 519
       }
     }
   }

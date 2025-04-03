@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 918,
-    "Name": "Bartell, Price and Nader",
-    "Description": "De-engineered client-driven knowledge base",
+    "ProjectId": 897,
+    "Name": "Miller, Donnelly and Kuphal",
+    "Description": "Up-sized object-oriented benchmark",
     "URL": "http://www.example.com/",
-    "Type": "in",
-    "AssociateId": 636,
-    "AssociateFullName": "Mitchel Quigley",
-    "TypeId": 761,
-    "Updated": "2012-08-22T02:38:21.7451279+02:00",
-    "StatusId": 112,
-    "Status": "quos",
-    "TextId": 183,
-    "PublishTo": "2003-04-08T02:38:21.7451279+02:00",
-    "PublishFrom": "2010-06-30T02:38:21.7451279+02:00",
-    "IsPublished": true,
+    "Type": "a",
+    "AssociateId": 466,
+    "AssociateFullName": "Keon Rempel",
+    "TypeId": 8,
+    "Updated": "2006-05-08T14:28:22.2585084+02:00",
+    "StatusId": 961,
+    "Status": "dignissimos",
+    "TextId": 766,
+    "PublishTo": "2021-09-03T14:28:22.2585084+02:00",
+    "PublishFrom": "2007-02-06T14:28:22.2585084+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1748930",
-    "ActiveErpLinks": 113,
+    "ProjectNumber": "998879",
+    "ActiveErpLinks": 667,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 334
+        "FieldLength": 177
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Huel-Ratke",
-    "ToolTip": "Non dolorum alias corrupti cumque.",
+    "Id": 146,
+    "Name": "Pagac-Smitham",
+    "ToolTip": "Consequatur aliquid.",
     "Deleted": true,
-    "Rank": 764,
-    "Type": "molestiae",
-    "ColorBlock": 282,
-    "IconHint": "quasi",
+    "Rank": 372,
+    "Type": "incidunt",
+    "ColorBlock": 994,
+    "IconHint": "nam",
     "Selected": false,
-    "LastChanged": "1999-05-04T02:38:26.7299042+02:00",
+    "LastChanged": "2002-04-02T14:28:27.5239205+02:00",
     "ChildItems": [
       {
-        "Id": 390,
-        "Name": "Hand-Anderson",
-        "ToolTip": "Quo autem unde quis sunt eaque ea nesciunt.",
-        "Deleted": false,
-        "Rank": 790,
-        "Type": "nulla",
-        "ColorBlock": 984,
-        "IconHint": "facilis",
+        "Id": 864,
+        "Name": "Jaskolski Inc and Sons",
+        "ToolTip": "Et laboriosam accusantium modi omnis est.",
+        "Deleted": true,
+        "Rank": 82,
+        "Type": "minima",
+        "ColorBlock": 606,
+        "IconHint": "illo",
         "Selected": false,
-        "LastChanged": "2025-02-13T02:38:26.7299042+01:00",
+        "LastChanged": "2011-10-06T14:28:27.5239205+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quo",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "eligendi",
         "Hidden": false,
-        "FullName": "Kaylah Champlin"
+        "FullName": "Itzel Quitzon"
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Asa Bauch"
+    "ExtraInfo": "aliquid",
+    "StyleHint": "sed",
+    "Hidden": true,
+    "FullName": "Dr. Faustino Petra Roberts I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 129,
-    "Name": "Buckridge Group",
-    "ToolTip": "Delectus perferendis eos et vel impedit voluptatum.",
+    "Id": 742,
+    "Name": "Rohan LLC",
+    "ToolTip": "Corporis commodi saepe veniam ducimus.",
     "Deleted": false,
-    "Rank": 113,
-    "Type": "rerum",
-    "ColorBlock": 133,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2003-01-29T02:38:26.7299042+01:00",
+    "Rank": 58,
+    "Type": "et",
+    "ColorBlock": 363,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2011-07-29T14:28:27.5239205+02:00",
     "ChildItems": [
       {
-        "Id": 636,
-        "Name": "Stoltenberg-Kemmer",
-        "ToolTip": "Optio aut voluptatem commodi odio magnam corrupti.",
-        "Deleted": false,
-        "Rank": 309,
-        "Type": "dolores",
-        "ColorBlock": 269,
-        "IconHint": "impedit",
-        "Selected": true,
-        "LastChanged": "2021-10-26T02:38:26.7299042+02:00",
+        "Id": 687,
+        "Name": "Langworth, Tillman and Zboncak",
+        "ToolTip": "Aut explicabo porro.",
+        "Deleted": true,
+        "Rank": 390,
+        "Type": "quis",
+        "ColorBlock": 802,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "2000-05-07T14:28:27.5239205+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nihil",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "aliquam",
         "Hidden": false,
-        "FullName": "Mr. Ebba Borer",
+        "FullName": "Tess Rosenbaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 392
+            "FieldType": "System.String",
+            "FieldLength": 300
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "deleniti",
-    "Hidden": false,
-    "FullName": "Mr. Pink Khalid Medhurst III",
+    "ExtraInfo": "iusto",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Madyson McClure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 129
+        "FieldLength": 90
       }
     }
   }

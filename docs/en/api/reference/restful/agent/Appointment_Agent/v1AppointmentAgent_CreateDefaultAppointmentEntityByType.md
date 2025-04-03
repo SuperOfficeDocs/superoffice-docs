@@ -112,6 +112,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -150,120 +151,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2004-08-27T02:38:20.7139856+02:00",
-  "AppointmentId": 476,
-  "Description": "Versatile hybrid encryption",
-  "Title": "non",
-  "Agenda": "veritatis",
-  "InternalNotes": "maxime",
-  "StartDate": "2002-08-18T02:38:20.7139856+02:00",
-  "EndDate": "2008-12-23T02:38:20.7139856+01:00",
+  "CreatedDate": "2010-11-07T14:28:21.3210472+01:00",
+  "AppointmentId": 175,
+  "Description": "Assimilated methodical neural-net",
+  "Title": "alias",
+  "Agenda": "et",
+  "InternalNotes": "quos",
+  "StartDate": "2004-11-09T14:28:21.3210472+01:00",
+  "EndDate": "1998-11-20T14:28:21.3210472+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 683,
+  "MotherId": 564,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2010-07-15T02:38:20.7139856+02:00",
+  "UpdatedDate": "2005-04-23T14:28:21.3366713+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 258,
+  "ActiveLinks": 727,
   "Links": [
     {
-      "EntityName": "Bednar LLC",
-      "Id": 546,
-      "Description": "Switchable responsive forecast",
-      "ExtraInfo": "excepturi",
-      "LinkId": 508,
+      "EntityName": "Cummerata, Stehr and Greenfelder",
+      "Id": 110,
+      "Description": "Front-line bottom-line algorithm",
+      "ExtraInfo": "qui",
+      "LinkId": 552,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 726
+          "FieldLength": 506
         }
       }
     }
   ],
-  "AlarmLeadTime": "sint",
+  "AlarmLeadTime": "quisquam",
   "HasAlarm": false,
-  "ColorIndex": 802,
-  "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "modi",
-  "LeadTime": "possimus",
-  "Location": "ipsa",
-  "RejectCounter": 692,
+  "ColorIndex": 583,
+  "IsFree": true,
+  "IsAlldayEvent": false,
+  "LagTime": "hic",
+  "LeadTime": "hic",
+  "Location": "blanditiis",
+  "RejectCounter": 79,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 371,
-      "PersonId": 52,
-      "ContactId": 486,
-      "EmailId": 712,
+      "AssociateId": 749,
+      "PersonId": 305,
+      "ContactId": 878,
+      "EmailId": 997,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "daniela@dietrich.biz",
-      "Description": "Cross-group interactive knowledge user"
+      "EmailAddress": "timothy@langworth.uk",
+      "Description": "Cross-group secondary structure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-04-28T02:38:20.7139856+02:00",
+  "ActiveDate": "2014-09-27T14:28:21.3366713+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 502,
+  "PreferredTZLocation": 724,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 400,
+  "SuggestedAppointmentId": 68,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "facere",
+  "CentralserviceVideomeetId": "aut",
   "UserDefinedFields": {
-    "SuperOffice:1": "Claude Baumbach",
-    "SuperOffice:2": "Mrs. Justice Lehner DVM"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "1302869967"
   },
   "ExtraFields": {
-    "ExtraFields1": "quaerat",
-    "ExtraFields2": "asperiores"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "repellendus",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "at",
+    "CustomFields2": "nihil"
   },
-  "PublishEventDate": "2013-12-03T02:38:20.7139856+01:00",
-  "PublishTo": "2004-03-24T02:38:20.7139856+01:00",
-  "PublishFrom": "2024-08-24T02:38:20.7139856+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2021-12-31T14:28:21.3366713+01:00",
+  "PublishTo": "2014-02-23T14:28:21.3366713+01:00",
+  "PublishFrom": "2024-03-02T14:28:21.3366713+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 142,
+      "VisibleId": 729,
       "Visibility": "All",
-      "DisplayValue": "tempore",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 881
+          "FieldType": "System.String",
+          "FieldLength": 286
         }
       }
     },
     {
-      "VisibleId": 142,
+      "VisibleId": 729,
       "Visibility": "All",
-      "DisplayValue": "tempore",
+      "DisplayValue": "voluptas",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 881
+          "FieldType": "System.String",
+          "FieldLength": 286
         }
       }
     }
@@ -272,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 372
+      "FieldType": "System.Int32",
+      "FieldLength": 33
     }
   }
 }

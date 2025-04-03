@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 501,
-  "StartTime": "2019-01-17T02:38:21.2295568+01:00",
-  "EndTime": "2003-04-16T02:38:21.2295568+02:00",
-  "Count": 550,
-  "DocumentTemplateId": 311
+  "ProjectId": 38,
+  "StartTime": "1997-12-25T14:28:21.8210267+01:00",
+  "EndTime": "2020-08-29T14:28:21.8210267+02:00",
+  "Count": 713,
+  "DocumentTemplateId": 68
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 27,
-    "Attention": "nulla",
-    "Header": "occaecati",
-    "Name": "Pfeffer-Borer",
-    "OurRef": "harum",
-    "YourRef": "nihil",
-    "Description": "Versatile disintermediate focus group",
-    "DocumentTemplate": "eveniet",
+    "DocumentId": 140,
+    "Attention": "quasi",
+    "Header": "aliquam",
+    "Name": "Dickens Inc and Sons",
+    "OurRef": "eum",
+    "YourRef": "iusto",
+    "Description": "Profound content-based website",
+    "DocumentTemplate": "porro",
     "IsPublished": false,
-    "PersonId": 410,
-    "PersonFullName": "Rickey Barrows",
-    "AssociateFullName": "Mrs. Alvena Consuelo Graham",
-    "ContactId": 884,
-    "ContactName": "O'Kon-Ondricka",
-    "ProjectId": 45,
-    "ProjectName": "Pollich-Herzog",
-    "AssociateId": 182,
-    "Snum": 222,
-    "SaleId": 434,
-    "SaleName": "Kiehn LLC",
+    "PersonId": 261,
+    "PersonFullName": "Paula Fisher",
+    "AssociateFullName": "Hailey Antonietta Heathcote MD",
+    "ContactId": 836,
+    "ContactName": "Lowe, Jewess and Haley",
+    "ProjectId": 637,
+    "ProjectName": "Nader, Littel and Kertzmann",
+    "AssociateId": 465,
+    "Snum": 787,
+    "SaleId": 176,
+    "SaleName": "Schulist, Haley and Sawayn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 594
+        "FieldLength": 747
       }
     }
   }

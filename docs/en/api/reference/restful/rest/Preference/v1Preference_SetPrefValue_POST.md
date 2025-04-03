@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sed",
+  "RawValue": "et",
   "Specification": null,
-  "DisplayValue": "repellat",
-  "DisplayTooltip": "inventore",
+  "DisplayValue": "doloribus",
+  "DisplayTooltip": "eos",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 634,
-  "PrefDescId": 941,
-  "TableName": "Keeling LLC",
-  "UserPreferenceId": 653
+  "TargetId": 526,
+  "PrefDescId": 605,
+  "TableName": "Cartwright-Pfannerstill",
+  "UserPreferenceId": 472
 }
 ```
 

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 510,
-  "FormKey": "voluptas",
-  "Name": "Rosenbaum, Marvin and Leuschke",
-  "Description": "Polarised interactive leverage",
-  "Config": "quidem",
-  "FolderId": 254,
-  "ScriptId": 522,
-  "ResponseShipmentId": 321,
+  "FormId": 441,
+  "FormKey": "autem",
+  "Name": "Hauck Group",
+  "Description": "Reverse-engineered dynamic policy",
+  "Config": "placeat",
+  "FolderId": 167,
+  "ScriptId": 8,
+  "ResponseShipmentId": 754,
   "Active": false,
-  "Expires": "2001-11-30T02:38:21.5576497+01:00",
-  "MaxSubmits": 452,
+  "Expires": "2024-03-26T14:28:22.1022648+01:00",
+  "MaxSubmits": 493,
   "Type": "Normal",
-  "Recipe": "dignissimos",
-  "GroupId": 287,
+  "Recipe": "aspernatur",
+  "GroupId": 942,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2007-11-03T02:38:21.5576497+01:00",
-  "RegisteredAssociateId": 856,
-  "Updated": "2010-07-21T02:38:21.5576497+02:00",
-  "UpdatedAssociateId": 187,
-  "UpdatedCount": 951,
+  "Registered": "2002-03-25T14:28:22.1022648+01:00",
+  "RegisteredAssociateId": 99,
+  "Updated": "2009-07-30T14:28:22.1022648+02:00",
+  "UpdatedAssociateId": 8,
+  "UpdatedCount": 855,
   "EmailFlows": [
-    308,
-    589
+    496,
+    915
   ],
-  "FolderName": "Mertz-Lynch",
+  "FolderName": "Bahringer, Harris and Dickinson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldType": "System.String",
+      "FieldLength": 191
     }
   }
 }

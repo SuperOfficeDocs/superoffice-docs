@@ -113,6 +113,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -127,16 +128,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    985,
-    10
+    642,
+    434
   ],
-  "StartTime": "2013-01-19T02:38:20.6514919+01:00",
-  "EndTime": "2009-03-28T02:38:20.6514919+01:00"
+  "StartTime": "2011-01-15T14:28:21.2429259+01:00",
+  "EndTime": "2000-09-28T14:28:21.2429259+02:00"
 }
 ```
 
@@ -148,65 +149,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 973,
-    "StartDate": "2002-08-08T02:38:20.6514919+02:00",
-    "EndDate": "2002-05-20T02:38:20.6514919+02:00",
+    "AppointmentId": 843,
+    "StartDate": "2013-08-05T14:28:21.2744024+02:00",
+    "EndDate": "2011-09-14T14:28:21.2744024+02:00",
     "Type": "BookingForChecklist",
-    "Task": "sit",
-    "AssociateFullName": "Verdie Haag",
-    "ContactName": "Strosin-Mante",
-    "Description": "Persevering zero tolerance secured line",
-    "PersonFullName": "Ricky D'Amore",
-    "PersonId": 553,
-    "ContactId": 552,
-    "ProjectId": 122,
-    "ProjectName": "Haag-Schowalter",
-    "IsPublished": false,
-    "AssociateId": 588,
-    "ColorIndex": 883,
+    "Task": "molestias",
+    "AssociateFullName": "Prof. Estell Runolfsdottir Jr.",
+    "ContactName": "Crist, Lockman and Walsh",
+    "Description": "Centralized hybrid software",
+    "PersonFullName": "Mrs. Ariane Clifton Stiedemann",
+    "PersonId": 940,
+    "ContactId": 205,
+    "ProjectId": 796,
+    "ProjectName": "Lynch, Streich and Konopelski",
+    "IsPublished": true,
+    "AssociateId": 3,
+    "ColorIndex": 480,
     "IsFree": true,
     "HasAlarm": true,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 481,
-    "PriorityName": "Bergnaum, Aufderhar and Ortiz",
+    "PriorityId": 575,
+    "PriorityName": "Watsica-Donnelly",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2017-02-03T02:38:20.6514919+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2019-02-06T14:28:21.2744024+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2020-06-26T02:38:20.6514919+02:00",
-    "RecurringEndDate": "2009-05-08T02:38:20.6514919+02:00",
-    "MotherId": 630,
-    "AssignedBy": 854,
-    "AssignedByFullName": "Theresa Willis Stoltenberg V",
+    "RecurringStartDate": "2008-10-08T14:28:21.2744024+02:00",
+    "RecurringEndDate": "2001-02-19T14:28:21.2744024+01:00",
+    "MotherId": 544,
+    "AssignedBy": 249,
+    "AssignedByFullName": "Rylee Kunze",
     "RejectReason": "",
-    "Location": "laboriosam",
-    "AlarmLeadTime": "ipsum",
-    "SaleId": 390,
-    "SaleName": "Kuhic LLC",
-    "AssociateName": "Powlowski, Thompson and Corwin",
-    "CreatedDate": "2006-08-06T02:38:20.6514919+02:00",
-    "CreatedBy": "quo",
-    "CreatedByFullName": "Alfred Spencer",
-    "CreatedByAssociateId": 574,
+    "Location": "ducimus",
+    "AlarmLeadTime": "voluptas",
+    "SaleId": 362,
+    "SaleName": "Denesik LLC",
+    "AssociateName": "Raynor-Mitchell",
+    "CreatedDate": "2012-12-30T14:28:21.2744024+01:00",
+    "CreatedBy": "aut",
+    "CreatedByFullName": "Mrs. Aylin Reinger",
+    "CreatedByAssociateId": 720,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 47,
-    "Title": "rerum",
-    "Agenda": "est",
-    "InternalNotes": "eligendi",
+    "PreferredTZLocation": 616,
+    "Title": "harum",
+    "Agenda": "ipsam",
+    "InternalNotes": "cumque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldLength": 866
       }
     }
   }

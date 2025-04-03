@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Smith, Stoltenberg and Buckridge",
-    "DisplayName": "Lindgren-Christiansen",
-    "DisplayTooltip": "non",
-    "IsActive": true,
+    "Name": "Hyatt-Gibson",
+    "DisplayName": "Monahan-Nienow",
+    "DisplayTooltip": "ut",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldLength": 798
       }
     }
   },
   {
-    "Name": "Smith, Stoltenberg and Buckridge",
-    "DisplayName": "Lindgren-Christiansen",
-    "DisplayTooltip": "non",
-    "IsActive": true,
+    "Name": "Hyatt-Gibson",
+    "DisplayName": "Monahan-Nienow",
+    "DisplayTooltip": "ut",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldLength": 798
       }
     }
   }

@@ -116,22 +116,22 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 419,
-  "PersonId": 492,
-  "AppointmentId": 10,
-  "DocumentId": 202,
-  "SaleId": 82,
-  "SelectionId": 562,
-  "ProjectId": 490,
+  "ContactId": 300,
+  "PersonId": 170,
+  "AppointmentId": 247,
+  "DocumentId": 187,
+  "SaleId": 614,
+  "SelectionId": 547,
+  "ProjectId": 626,
   "CustomTags": {
-    "CustomTags1": "repudiandae",
-    "CustomTags2": "error"
+    "CustomTags1": "sit",
+    "CustomTags2": "excepturi"
   },
-  "UiCulture": "non"
+  "UiCulture": "ut"
 }
 ```
 
@@ -142,88 +142,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 726,
+  "DocumentId": 912,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "praesentium",
-  "Header": "delectus",
-  "Name": "Fisher Inc and Sons",
-  "OurRef": "eveniet",
-  "YourRef": "nam",
-  "CreatedDate": "2023-06-07T02:38:21.2920122+02:00",
-  "UpdatedDate": "2001-08-15T02:38:21.2920122+02:00",
-  "Description": "Open-architected homogeneous hardware",
+  "Attention": "similique",
+  "Header": "aliquid",
+  "Name": "Moen, Kunze and Waelchi",
+  "OurRef": "facilis",
+  "YourRef": "omnis",
+  "CreatedDate": "2006-03-10T14:28:21.8678991+01:00",
+  "UpdatedDate": "2003-08-14T14:28:21.8678991+02:00",
+  "Description": "Robust motivating task-force",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2025-02-11T02:38:21.2920122+01:00",
-  "ExternalRef": "hic",
+  "Date": "2006-06-30T14:28:21.8678991+02:00",
+  "ExternalRef": "est",
   "Completed": "Completed",
-  "ActiveLinks": 342,
+  "ActiveLinks": 595,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Fisher Inc and Sons",
-      "Id": 275,
-      "Description": "Multi-channelled next generation policy",
-      "ExtraInfo": "distinctio",
-      "LinkId": 498,
+      "EntityName": "Skiles, Bailey and Schiller",
+      "Id": 390,
+      "Description": "Extended disintermediate function",
+      "ExtraInfo": "nostrum",
+      "LinkId": 879,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 906
+          "FieldLength": 631
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 714,
-  "Snum": 363,
+  "SuggestedDocumentId": 716,
+  "Snum": 292,
   "UserDefinedFields": {
-    "SuperOffice:1": "Zane Bernhard",
-    "SuperOffice:2": "316763872"
+    "SuperOffice:1": "432036626",
+    "SuperOffice:2": "Jenifer Susanna Murphy PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "accusantium",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "et",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "possimus",
-    "CustomFields2": "occaecati"
+    "CustomFields1": "in",
+    "CustomFields2": "molestiae"
   },
-  "PublishEventDate": "2021-09-09T02:38:21.2920122+02:00",
-  "PublishTo": "2024-05-30T02:38:21.2920122+02:00",
-  "PublishFrom": "2020-12-26T02:38:21.2920122+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2017-08-08T14:28:21.8678991+02:00",
+  "PublishTo": "2000-01-19T14:28:21.8678991+01:00",
+  "PublishFrom": "2005-05-29T14:28:21.8678991+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 943,
+      "VisibleId": 199,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldType": "System.String",
+          "FieldLength": 571
         }
       }
     },
     {
-      "VisibleId": 943,
+      "VisibleId": 199,
       "Visibility": "All",
-      "DisplayValue": "beatae",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 640
+          "FieldType": "System.String",
+          "FieldLength": 571
         }
       }
     }
@@ -232,8 +232,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 688
+      "FieldType": "System.Int32",
+      "FieldLength": 393
     }
   }
 }

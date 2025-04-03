@@ -87,55 +87,55 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Stokes, Renner and Torp",
-  "Context": "nihil",
+  "ProviderName": "Huels-Braun",
+  "Context": "nemo",
   "DesiredEntities": [
-    "dolorum",
-    "ut"
+    "ratione",
+    "accusantium"
   ],
   "Columns": [
-    "corrupti",
-    "et"
+    "enim",
+    "harum"
   ],
   "SortOrder": [
     {
-      "Name": "Goodwin-Mayert",
+      "Name": "Kirlin LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Goodwin-Mayert",
+      "Name": "Kirlin LLC",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Green-Kris",
-      "Operator": "sunt",
+      "Name": "Funk-Kassulke",
+      "Operator": "dolores",
       "Values": [
-        "iste",
-        "et"
+        "qui",
+        "ea"
       ],
       "DisplayValues": [
-        "tempora",
-        "blanditiis"
+        "ea",
+        "numquam"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 314,
+      "InterParenthesis": 766,
       "InterOperator": "And",
-      "UniqueHash": 1000
+      "UniqueHash": 737
     }
   ],
-  "ExportType": "quo",
+  "ExportType": "autem",
   "SelectedRowIds": [
-    "harum",
-    "cupiditate"
+    "aut",
+    "qui"
   ],
-  "EstimatedRowCount": 230
+  "EstimatedRowCount": 568
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 771,
-  "FileName": "Abbott Group",
-  "Message": "quod",
+  "BatchTaskId": 693,
+  "FileName": "Gottlieb Inc and Sons",
+  "Message": "amet",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 351
+      "FieldLength": 576
     }
   }
 }

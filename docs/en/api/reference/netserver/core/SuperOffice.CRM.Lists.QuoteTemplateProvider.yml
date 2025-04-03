@@ -6,6 +6,7 @@ items:
   parent: SuperOffice.CRM.Lists
   children:
   - SuperOffice.CRM.Lists.QuoteTemplateProvider.#ctor
+  - SuperOffice.CRM.Lists.QuoteTemplateProvider.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.QuoteTemplateProvider.Construct(System.String,System.String,System.Int32[],System.Boolean,System.String,System.Boolean)
   - SuperOffice.CRM.Lists.QuoteTemplateProvider.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.QuoteTemplateProvider.GetItemIconHint(SuperOffice.CRM.Lists.ListTableRow)
@@ -75,7 +76,6 @@ items:
   - SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingType(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemId(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemName(SuperOffice.CRM.Lists.ListTableRow)
-  - SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetHistoryIconHint(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemTooltip(SuperOffice.CRM.Lists.ListTableRow)
   - SuperOffice.CRM.Lists.MDOProviderBase.GetItemRank(SuperOffice.CRM.Lists.ListTableRow)
@@ -322,6 +322,39 @@ items:
     content.vb: Protected Overrides Function GetHeadingIconHint(row As ListTableRow) As String
   overridden: SuperOffice.CRM.Lists.MDOProviderBase.GetHeadingIconHint(SuperOffice.CRM.Lists.ListTableRow)
   overload: SuperOffice.CRM.Lists.QuoteTemplateProvider.GetHeadingIconHint*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: SuperOffice.CRM.Lists.QuoteTemplateProvider.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.QuoteTemplateProvider.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+  id: AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.QuoteTemplateProvider
+  langs:
+  - csharp
+  - vb
+  name: AcceptHistoryRow(ListTableRow)
+  nameWithType: QuoteTemplateProvider.AcceptHistoryRow(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.QuoteTemplateProvider.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Lists
+  syntax:
+    content: protected override bool AcceptHistoryRow(ListTableRow row)
+    parameters:
+    - id: row
+      type: SuperOffice.CRM.Lists.ListTableRow
+    return:
+      type: System.Boolean
+    content.vb: Protected Overrides Function AcceptHistoryRow(row As ListTableRow) As Boolean
+  overridden: SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+  overload: SuperOffice.CRM.Lists.QuoteTemplateProvider.AcceptHistoryRow*
   modifiers.csharp:
   - protected
   - override
@@ -1010,47 +1043,6 @@ references:
     name: GetItemName
     nameWithType: MDOProviderBase.GetItemName
     fullName: SuperOffice.CRM.Lists.MDOProviderBase.GetItemName
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Lists.ListTableRow
-    name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-- uid: SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
-  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
-  parent: SuperOffice.CRM.Lists.MDOProviderBase
-  isExternal: true
-  name: AcceptHistoryRow(ListTableRow)
-  nameWithType: MDOProviderBase.AcceptHistoryRow(ListTableRow)
-  fullName: SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
-  spec.csharp:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
-    name: AcceptHistoryRow
-    nameWithType: MDOProviderBase.AcceptHistoryRow
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow
-    isExternal: true
-  - name: (
-    nameWithType: (
-    fullName: (
-  - uid: SuperOffice.CRM.Lists.ListTableRow
-    name: ListTableRow
-    nameWithType: ListTableRow
-    fullName: SuperOffice.CRM.Lists.ListTableRow
-    isExternal: true
-  - name: )
-    nameWithType: )
-    fullName: )
-  spec.vb:
-  - uid: SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
-    name: AcceptHistoryRow
-    nameWithType: MDOProviderBase.AcceptHistoryRow
-    fullName: SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow
     isExternal: true
   - name: (
     nameWithType: (
@@ -2500,6 +2492,53 @@ references:
   name: GetHeadingIconHint
   nameWithType: QuoteTemplateProvider.GetHeadingIconHint
   fullName: SuperOffice.CRM.Lists.QuoteTemplateProvider.GetHeadingIconHint
+- uid: SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+  commentId: M:SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+  parent: SuperOffice.CRM.Lists.MDOProviderBase
+  isExternal: true
+  name: AcceptHistoryRow(ListTableRow)
+  nameWithType: MDOProviderBase.AcceptHistoryRow(ListTableRow)
+  fullName: SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+    name: AcceptHistoryRow
+    nameWithType: MDOProviderBase.AcceptHistoryRow
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow(SuperOffice.CRM.Lists.ListTableRow)
+    name: AcceptHistoryRow
+    nameWithType: MDOProviderBase.AcceptHistoryRow
+    fullName: SuperOffice.CRM.Lists.MDOProviderBase.AcceptHistoryRow
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: SuperOffice.CRM.Lists.ListTableRow
+    name: ListTableRow
+    nameWithType: ListTableRow
+    fullName: SuperOffice.CRM.Lists.ListTableRow
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.CRM.Lists.QuoteTemplateProvider.AcceptHistoryRow*
+  commentId: Overload:SuperOffice.CRM.Lists.QuoteTemplateProvider.AcceptHistoryRow
+  isExternal: true
+  name: AcceptHistoryRow
+  nameWithType: QuoteTemplateProvider.AcceptHistoryRow
+  fullName: SuperOffice.CRM.Lists.QuoteTemplateProvider.AcceptHistoryRow
 - uid: SuperOffice.CRM.Lists.QuoteTemplateProvider.#ctor*
   commentId: Overload:SuperOffice.CRM.Lists.QuoteTemplateProvider.#ctor
   isExternal: true

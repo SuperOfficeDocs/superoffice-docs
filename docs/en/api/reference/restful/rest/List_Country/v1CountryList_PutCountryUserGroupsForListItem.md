@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Schmidt-Hahn",
-    "ToolTip": "Dolorem aut nihil omnis maxime.",
-    "Deleted": true,
-    "Rank": 963,
-    "Type": "id",
-    "ColorBlock": 583,
-    "IconHint": "numquam",
-    "Selected": true,
-    "LastChanged": "2000-07-06T02:38:26.7142749+02:00",
+    "Id": 37,
+    "Name": "Bayer LLC",
+    "ToolTip": "Sed rerum vel delectus tenetur facere dolor et.",
+    "Deleted": false,
+    "Rank": 706,
+    "Type": "mollitia",
+    "ColorBlock": 695,
+    "IconHint": "a",
+    "Selected": false,
+    "LastChanged": "2024-03-21T14:28:27.5239205+01:00",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Ullrich, Dach and Ward",
-        "ToolTip": "Nemo cupiditate.",
-        "Deleted": true,
-        "Rank": 54,
-        "Type": "dolorum",
-        "ColorBlock": 488,
-        "IconHint": "odio",
+        "Id": 454,
+        "Name": "Sanford-Stoltenberg",
+        "ToolTip": "Corrupti vel reprehenderit tempore nisi.",
+        "Deleted": false,
+        "Rank": 916,
+        "Type": "quia",
+        "ColorBlock": 506,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2008-04-09T02:38:26.7142749+02:00",
+        "LastChanged": "2015-01-19T14:28:27.5239205+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "quis",
+        "ExtraInfo": "sed",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Prof. Pierce Wilkinson I"
+        "FullName": "Mr. Ruthie Marvin"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "error",
+    "ExtraInfo": "aut",
+    "StyleHint": "a",
     "Hidden": false,
-    "FullName": "Ms. Sean Pacocha"
+    "FullName": "Lester Sanford"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 482,
-    "Name": "Hansen-Koss",
-    "ToolTip": "Eum ut reprehenderit sed at alias hic ducimus.",
-    "Deleted": false,
-    "Rank": 792,
-    "Type": "beatae",
-    "ColorBlock": 38,
-    "IconHint": "dicta",
-    "Selected": false,
-    "LastChanged": "2016-02-28T02:38:26.7142749+01:00",
+    "Id": 69,
+    "Name": "Hagenes, Heller and Russel",
+    "ToolTip": "Facilis nulla et.",
+    "Deleted": true,
+    "Rank": 307,
+    "Type": "quae",
+    "ColorBlock": 251,
+    "IconHint": "a",
+    "Selected": true,
+    "LastChanged": "1998-11-01T14:28:27.5239205+01:00",
     "ChildItems": [
       {
-        "Id": 481,
-        "Name": "Powlowski, Denesik and Wuckert",
-        "ToolTip": "Facere maiores occaecati.",
-        "Deleted": true,
-        "Rank": 320,
-        "Type": "blanditiis",
-        "ColorBlock": 863,
-        "IconHint": "itaque",
+        "Id": 138,
+        "Name": "Krajcik-O'Keefe",
+        "ToolTip": "Non deleniti facere.",
+        "Deleted": false,
+        "Rank": 361,
+        "Type": "eum",
+        "ColorBlock": 248,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2008-09-01T02:38:26.7142749+02:00",
+        "LastChanged": "1999-06-07T14:28:27.5239205+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "beatae",
-        "StyleHint": "deserunt",
-        "Hidden": true,
-        "FullName": "Corbin Lillian Swift I",
+        "ExtraInfo": "sed",
+        "StyleHint": "quas",
+        "Hidden": false,
+        "FullName": "Myron Terry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 309
+            "FieldType": "System.Int32",
+            "FieldLength": 854
           }
         }
       }
     ],
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "sed",
+    "ExtraInfo": "labore",
+    "StyleHint": "autem",
     "Hidden": false,
-    "FullName": "Guiseppe Schuppe",
+    "FullName": "Angelo Rempel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 114
+        "FieldLength": 815
       }
     }
   }

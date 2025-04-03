@@ -26,7 +26,7 @@ Gets a Sale object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSale?saleId=688
+POST /api/v1/Agents/Sale/GetSale?saleId=700
 POST /api/v1/Agents/Sale/GetSale?$select=name,department,category/id
 ```
 
@@ -91,7 +91,7 @@ OK
 POST /api/v1/Agents/Sale/GetSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Bradtke Inc and Sons",
-  "SaleDate": "2006-07-14T02:38:21.8388638+02:00",
-  "SaleId": 989,
-  "Probability": 109,
-  "Title": "illum",
-  "Amount": 18995.174,
-  "Currency": "voluptatem",
-  "ProjectName": "Lowe LLC",
-  "AssociateFullName": "Miss Travon Kaleigh McDermott V",
-  "Description": "Integrated incremental instruction set",
+  "ContactName": "Bosco, Treutel and Zieme",
+  "SaleDate": "1998-01-20T14:28:22.3522543+01:00",
+  "SaleId": 476,
+  "Probability": 749,
+  "Title": "dolorum",
+  "Amount": 5873.116,
+  "Currency": "necessitatibus",
+  "ProjectName": "Hauck-Quitzon",
+  "AssociateFullName": "Ms. Lempi Zachery Jones",
+  "Description": "Multi-layered value-added project",
   "Status": "Lost",
-  "WeightedAmount": 30540.829999999998,
-  "ProjectId": 19,
-  "EarningPercent": 29240.219999999998,
-  "Earning": 29218.282,
-  "ContactId": 448,
-  "AssociateId": 237,
-  "PersonId": 163,
-  "SaleTypeId": 180,
-  "SaleTypeName": "Gutmann-Rosenbaum",
-  "PersonFullName": "Miss Annette Morar",
+  "WeightedAmount": 22502.12,
+  "ProjectId": 86,
+  "EarningPercent": 31264.784,
+  "Earning": 18421.652,
+  "ContactId": 563,
+  "AssociateId": 106,
+  "PersonId": 14,
+  "SaleTypeId": 474,
+  "SaleTypeName": "Homenick-Douglas",
+  "PersonFullName": "Cristobal Kuhic",
   "Completed": "Completed",
-  "ActiveErpLinks": 46,
-  "NextDueDate": "2016-02-10T02:38:21.8388638+01:00",
-  "Number": "1380110",
+  "ActiveErpLinks": 190,
+  "NextDueDate": "2018-11-06T14:28:22.3522543+01:00",
+  "Number": "1075323",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 815
+      "FieldLength": 472
     }
   }
 }

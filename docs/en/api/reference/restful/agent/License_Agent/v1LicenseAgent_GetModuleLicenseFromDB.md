@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Mraz-Bahringer",
-  "ModuleName": "Baumbach, Herzog and Hamill"
+  "OwnerName": "Nitzsche-Dibbert",
+  "ModuleName": "Schmitt LLC"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Kunze-Mitchell",
-  "ModuleName": "Wiegand LLC",
-  "ModuleDescription": "User-friendly contextually-based circuit",
-  "ModuleTooltip": "est",
-  "ModuleVersion": "qui",
+  "OwnerName": "Runolfsdottir-Greenfelder",
+  "ModuleName": "Kuhlman-Olson",
+  "ModuleDescription": "Polarised mission-critical infrastructure",
+  "ModuleTooltip": "eos",
+  "ModuleVersion": "sed",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 946,
-  "ExtraFlags": 297,
-  "ExtraInfo": "sequi",
-  "SortOrder": 708,
+  "NumberOfLicenses": 36,
+  "ExtraFlags": 172,
+  "ExtraInfo": "esse",
+  "SortOrder": 84,
   "IsHidden": true,
-  "PrerequisiteModuleName": "Nikolaus Group",
-  "Signature": "aut"
+  "PrerequisiteModuleName": "Maggio-Bergnaum",
+  "Signature": "nesciunt"
 }
 ```

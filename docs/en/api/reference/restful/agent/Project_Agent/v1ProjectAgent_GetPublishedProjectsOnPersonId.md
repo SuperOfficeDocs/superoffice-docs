@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 967
+  "PersonId": 825
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 573,
-    "Name": "Hickle LLC",
-    "Description": "Future-proofed discrete instruction set",
+    "ProjectId": 650,
+    "Name": "Johnston, Schamberger and Douglas",
+    "Description": "Object-based maximized software",
     "URL": "http://www.example.com/",
-    "Type": "sit",
-    "AssociateId": 839,
-    "AssociateFullName": "Silas Swift",
-    "TypeId": 258,
-    "Updated": "2021-09-11T02:38:21.7451279+02:00",
-    "StatusId": 793,
-    "Status": "iste",
-    "TextId": 361,
-    "PublishTo": "2016-05-21T02:38:21.7451279+02:00",
-    "PublishFrom": "2008-01-15T02:38:21.7451279+01:00",
-    "IsPublished": false,
+    "Type": "officiis",
+    "AssociateId": 519,
+    "AssociateFullName": "Ms. Sally Briana Runolfsson",
+    "TypeId": 453,
+    "Updated": "2023-10-14T14:28:22.2585084+02:00",
+    "StatusId": 453,
+    "Status": "ea",
+    "TextId": 291,
+    "PublishTo": "2015-06-07T14:28:22.2585084+02:00",
+    "PublishFrom": "1999-01-03T14:28:22.2585084+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "532768",
-    "ActiveErpLinks": 855,
+    "ProjectNumber": "497752",
+    "ActiveErpLinks": 196,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldLength": 183
       }
     }
   }

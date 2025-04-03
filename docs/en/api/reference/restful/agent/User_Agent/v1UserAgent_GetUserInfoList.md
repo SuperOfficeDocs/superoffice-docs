@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/User/GetUserInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,29 +98,29 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Deleted": false,
-    "UserInfoId": 501,
-    "UserName": "Mueller LLC",
-    "PersonId": 998,
-    "Rank": 946,
-    "Tooltip": "nemo",
-    "UserGroupId": 482,
-    "EjUserId": 436,
+    "UserInfoId": 139,
+    "UserName": "Gulgowski-Hayes",
+    "PersonId": 715,
+    "Rank": 496,
+    "Tooltip": "modi",
+    "UserGroupId": 51,
+    "EjUserId": 516,
     "UserType": "AnonymousAssociate",
     "GrantedLicenses": [
-      "omnis",
-      "enim"
+      "et",
+      "est"
     ],
-    "CanLogon": true,
-    "RoleName": "O'Reilly-Littel",
-    "RoleTooltip": "laboriosam",
-    "UserGroupName": "DuBuque, Batz and Considine",
-    "UserGroupTooltip": "labore",
+    "CanLogon": false,
+    "RoleName": "Jakubowski-Lehner",
+    "RoleTooltip": "fugit",
+    "UserGroupName": "Langosh Inc and Sons",
+    "UserGroupTooltip": "laborum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 222
+        "FieldType": "System.String",
+        "FieldLength": 717
       }
     }
   }

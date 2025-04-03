@@ -76,18 +76,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 815,
-  "Name": "O'Kon-Maggio",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "UdListDefinitionId": 902,
-  "Rank": 394,
+  "Id": 803,
+  "Name": "D'Amore-Wehner",
+  "Tooltip": "neque",
+  "Deleted": false,
+  "UdListDefinitionId": 73,
+  "Rank": 963,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 203
     }
   }
 }

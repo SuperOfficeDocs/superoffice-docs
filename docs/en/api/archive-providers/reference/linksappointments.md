@@ -735,7 +735,7 @@ Link data provider for appointments, handles both addressing by source or by des
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=contact/email/emailId,contact/contactAssociate/isLocation,contact/contactUdef/SuperOffice:3,contact/contactExtra/y_organization/x_name,person/useAsMailingAddress
+GET /api/v1/archive/LinksAppointments?$select=appointmentPublish/publishedTo,contact/restrictionAddress/addressId,contact/restrictionAddress/line2,contact/contactAssociate/ejDisplayName,person/birthdate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

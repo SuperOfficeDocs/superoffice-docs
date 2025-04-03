@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/User/GetValidUserName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 824,
+  "AssociateId": 868,
   "Type": "AnonymousAssociate",
-  "PersonId": 686,
-  "UserName": "Durgan-Mueller"
+  "PersonId": 237,
+  "UserName": "Gerlach Group"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Effertz Group"
+"Vandervort Group"
 ```

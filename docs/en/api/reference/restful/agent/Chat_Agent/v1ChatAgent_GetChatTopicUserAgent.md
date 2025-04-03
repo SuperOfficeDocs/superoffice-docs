@@ -81,8 +81,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 508,
-  "Username": "ut"
+  "ChatTopicId": 15,
+  "Username": "odio"
 }
 ```
 
@@ -93,11 +93,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TopicId": 383,
+  "TopicId": 229,
   "User": null,
-  "CanListen": false,
+  "CanListen": true,
   "CanRespond": false,
-  "CanManage": true,
-  "CanNotify": true
+  "CanManage": false,
+  "CanNotify": false
 }
 ```

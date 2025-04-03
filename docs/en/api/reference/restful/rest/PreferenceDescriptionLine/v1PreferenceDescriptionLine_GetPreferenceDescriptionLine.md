@@ -88,23 +88,23 @@ HTTP/1.1 200 PreferenceDescriptionLine found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 820,
-  "PrefDescId": 538,
-  "PrefValue": "eaque",
-  "PrefShowValue": "eligendi",
-  "Description": "Seamless non-volatile groupware",
-  "IsBuiltin": false,
+  "PrefDescLineId": 333,
+  "PrefDescId": 39,
+  "PrefValue": "vero",
+  "PrefShowValue": "eius",
+  "Description": "Triple-buffered uniform help-desk",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 787
+      "FieldType": "System.String",
+      "FieldLength": 388
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

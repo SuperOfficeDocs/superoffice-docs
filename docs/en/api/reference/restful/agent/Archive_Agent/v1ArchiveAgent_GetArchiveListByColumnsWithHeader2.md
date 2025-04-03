@@ -166,18 +166,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schimmel LLC",
-  "Columns": "ratione",
-  "SortOrder": "doloribus",
-  "Restriction": "unde",
-  "Entities": "ullam",
-  "Page": 530,
-  "PageSize": 895,
-  "Options": "corporis"
+  "ProviderName": "Heathcote Inc and Sons",
+  "Columns": "sunt",
+  "SortOrder": "ducimus",
+  "Restriction": "quibusdam",
+  "Entities": "nostrum",
+  "Page": 271,
+  "PageSize": 991,
+  "Options": "ex"
 }
 ```
 
@@ -188,26 +188,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 740,
+  "RowCount": 568,
   "Rows": [
     {
-      "EntityName": "Gulgowski, Powlowski and Schoen",
-      "PrimaryKey": 876,
+      "EntityName": "Johns, Friesen and Zieme",
+      "PrimaryKey": 874,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "odit",
-          "TooltipHint": "non",
-          "LinkHint": "ex"
+          "DisplayValue": "dignissimos",
+          "TooltipHint": "distinctio",
+          "LinkHint": "sed"
         }
       },
-      "LinkHint": "a",
-      "StyleHint": "et",
+      "LinkHint": "aut",
+      "StyleHint": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 403
+          "FieldType": "System.Int32",
+          "FieldLength": 558
         }
       }
     }
@@ -216,8 +216,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 549
+      "FieldType": "System.Int32",
+      "FieldLength": 676
     }
   }
 }

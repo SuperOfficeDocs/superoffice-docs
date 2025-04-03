@@ -85,10 +85,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 242,
-  "NumSentences": 693,
-  "Summary": "fugiat",
-  "IsoLangCode": "doloremque"
+  "TicketId": 2,
+  "NumSentences": 74,
+  "Summary": "sapiente",
+  "IsoLangCode": "laboriosam"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2012-08-10T02:38:20.5263598+02:00",
-  "UserPrompt": "et",
-  "UserDisplayText": "est",
-  "BotResponse": "minima",
+  "Timestamp": "2013-08-17T14:28:21.1335548+02:00",
+  "UserPrompt": "veniam",
+  "UserDisplayText": "quam",
+  "BotResponse": "voluptatem",
   "BotActions": {
-    "BotActions1": "nisi",
-    "BotActions2": "praesentium"
+    "BotActions1": "tempora",
+    "BotActions2": "et"
   },
   "Attachments": [
-    "repudiandae",
-    "modi"
+    "deserunt",
+    "doloremque"
   ]
 }
 ```

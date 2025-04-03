@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "maiores",
-  "ProviderName": "Hegmann-Ernser",
-  "StorageKey": "sit",
+  "StorageType": "asperiores",
+  "ProviderName": "Littel Group",
+  "StorageKey": "occaecati",
   "DesiredColumnNames": [
-    "Glover LLC",
-    "Cartwright LLC"
+    "Lubowitz-Spinka",
+    "Harvey, Carroll and Jakubowski"
   ],
   "StaticColumns": [
-    "veritatis",
-    "voluptates"
+    "ab",
+    "nobis"
   ],
-  "Context": "blanditiis"
+  "Context": "repudiandae"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Gottlieb, Collier and Corwin",
-      "Operator": "non",
+      "Name": "Leannon LLC",
+      "Operator": "aut",
       "Values": [
-        "tenetur",
-        "occaecati"
+        "eos",
+        "nobis"
       ],
       "DisplayValues": [
-        "et",
-        "molestiae"
+        "praesentium",
+        "asperiores"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 850,
+      "InterParenthesis": 880,
       "InterOperator": "And",
-      "UniqueHash": 994
+      "UniqueHash": 778
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Reichert, Medhurst and Bergstrom",
-      "DisplayTooltip": "quis",
-      "DisplayType": "consectetur",
+      "DisplayName": "Rice-Shanahan",
+      "DisplayTooltip": "laboriosam",
+      "DisplayType": "eligendi",
       "CanOrderBy": false,
-      "Name": "Weimann, Waters and Schiller",
-      "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "Miller Inc and Sons",
+      "Name": "Mante, Pagac and Marvin",
+      "CanRestrictBy": true,
+      "RestrictionType": "pariatur",
+      "RestrictionListName": "Boehm Inc and Sons",
       "IsVisible": false,
-      "ExtraInfo": "animi",
-      "Width": "ea",
-      "IconHint": "eum",
-      "HeadingIconHint": "ut"
+      "ExtraInfo": "unde",
+      "Width": "eum",
+      "IconHint": "similique",
+      "HeadingIconHint": "vel"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Schuster-Jast",
-      "PrimaryKey": 332,
+      "EntityName": "Hickle-O'Conner",
+      "PrimaryKey": 367,
       "ColumnData": {
         "fieldName": {
           "DisplayValue": "expedita",
-          "TooltipHint": "necessitatibus",
-          "LinkHint": "nam"
+          "TooltipHint": "et",
+          "LinkHint": "eius"
         }
       },
-      "LinkHint": "atque",
-      "StyleHint": "itaque",
+      "LinkHint": "voluptas",
+      "StyleHint": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 228
+          "FieldLength": 181
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Mosciski, Mraz and Osinski",
-      "Description": "Secured didactic architecture",
-      "Rank": 258,
+      "Name": "Ryan Inc and Sons",
+      "Description": "Inverse actuating benchmark",
+      "Rank": 22,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mosciski, Mraz and Osinski",
-      "Description": "Secured didactic architecture",
-      "Rank": 258,
+      "Name": "Ryan Inc and Sons",
+      "Description": "Inverse actuating benchmark",
+      "Rank": 22,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldLength": 744
     }
   }
 }

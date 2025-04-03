@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,30 +72,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 804,
-  "Year": 810,
+  "TargetGroupId": 55,
+  "Year": 114,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 50,
+      "TargetAssignmentInfoId": 98,
       "Values": [
-        501,
-        65
+        121,
+        675
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 521,
-      "DimensionListItemDisplayName": "Collier Group",
+      "DimensionListItem": 312,
+      "DimensionListItemDisplayName": "Stanton Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 8
+          "FieldType": "System.String",
+          "FieldLength": 676
         }
       }
     }
@@ -105,8 +105,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 521
+      "FieldType": "System.Int32",
+      "FieldLength": 817
     }
   }
 }

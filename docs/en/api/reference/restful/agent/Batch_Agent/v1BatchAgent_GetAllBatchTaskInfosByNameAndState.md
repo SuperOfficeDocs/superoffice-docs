@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Schneider, Christiansen and McGlynn",
+  "TaskName": "Sanford-Nader",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Nikolaus Inc and Sons",
-    "AssociateId": 884,
-    "DetailsTable": 772,
-    "DetailsRecord": 993,
-    "IsSystemTask": true,
-    "IsInternalTask": true,
+    "Id": 342,
+    "Name": "Crist-Gerlach",
+    "AssociateId": 221,
+    "DetailsTable": 43,
+    "DetailsRecord": 226,
+    "IsSystemTask": false,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "non",
-      "ParameterObject2": "ab"
+      "ParameterObject1": "sunt",
+      "ParameterObject2": "provident"
     },
-    "LastStarted": "2004-01-18T02:38:20.885843+01:00",
-    "Created": "2021-05-06T02:38:20.885843+02:00",
-    "StartCount": 858,
-    "DatabaseSerialNumber": "1302385",
-    "Context": "soluta",
-    "Result": "saepe",
+    "LastStarted": "2012-12-15T14:28:21.4929147+01:00",
+    "Created": "2008-04-04T14:28:21.4929147+02:00",
+    "StartCount": 809,
+    "DatabaseSerialNumber": "1337379",
+    "Context": "amet",
+    "Result": "qui",
     "State": "All",
-    "Description": "Multi-tiered static open system",
-    "Response": "qui",
-    "Request": "qui",
-    "ProgressDescription": "User-centric actuating hub",
-    "ProgressPercent": 869,
-    "FileName": "Watsica, Cruickshank and Johnson",
+    "Description": "Advanced clear-thinking parallelism",
+    "Response": "voluptates",
+    "Request": "neque",
+    "ProgressDescription": "Organized grid-enabled core",
+    "ProgressPercent": 673,
+    "FileName": "Kuphal, Daugherty and Kovacek",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 328
       }
     }
   }

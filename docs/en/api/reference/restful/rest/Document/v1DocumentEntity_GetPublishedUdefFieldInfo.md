@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 231,
-  "ColumnId": 66,
-  "FieldDefault": "in",
-  "FieldHeight": 425,
-  "FieldLabel": "qui",
-  "FieldLeft": 421,
-  "FieldTop": 887,
+  "UDefFieldId": 461,
+  "ColumnId": 562,
+  "FieldDefault": "commodi",
+  "FieldHeight": 737,
+  "FieldLabel": "ratione",
+  "FieldLeft": 47,
+  "FieldTop": 571,
   "FieldType": "Checkbox",
-  "FieldWidth": 719,
-  "FormatMask": "quos",
+  "FieldWidth": 191,
+  "FormatMask": "est",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 68,
-  "LabelLeft": 441,
-  "LabelTop": 929,
-  "LabelWidth": 801,
-  "LastVersionId": 342,
-  "ListTableId": 632,
+  "IsIndexed": false,
+  "LabelHeight": 624,
+  "LabelLeft": 762,
+  "LabelTop": 853,
+  "LabelWidth": 880,
+  "LastVersionId": 556,
+  "ListTableId": 487,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 278,
-  "ProgId": "sit",
+  "Page1LineNo": 929,
+  "ProgId": "consequuntur",
   "IsReadOnly": false,
-  "ShortLabel": "dolorem",
-  "TabOrder": 931,
-  "TextLength": 557,
-  "Tooltip": "fuga",
-  "UdefIdentity": 885,
-  "UDListDefinitionId": 148,
+  "ShortLabel": "quos",
+  "TabOrder": 785,
+  "TextLength": 862,
+  "Tooltip": "et",
+  "UdefIdentity": 748,
+  "UDListDefinitionId": 275,
   "Justification": "Center",
-  "Version": 62,
-  "TemplateVariableName": "Kuvalis Inc and Sons",
+  "Version": 878,
+  "TemplateVariableName": "Cummings-Klocko",
   "HasBeenPublished": false,
-  "MdoListName": "Hills LLC",
+  "MdoListName": "Bins-Wintheiser",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldLength": 666
     }
   }
 }

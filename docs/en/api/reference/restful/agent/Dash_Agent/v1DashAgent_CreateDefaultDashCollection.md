@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 710,
-      "UniqueId": "perspiciatis",
-      "Name": "Armstrong Inc and Sons",
-      "Description": "Adaptive 4th generation task-force",
-      "AssociateId": 662,
-      "Columns": 794,
+      "DashboardId": 771,
+      "UniqueId": "modi",
+      "Name": "Monahan, Hoppe and Zemlak",
+      "Description": "Centralized heuristic migration",
+      "AssociateId": 288,
+      "Columns": 988,
       "Theme": null,
-      "VisibleForAll": 852,
+      "VisibleForAll": 291,
       "VisibleForAssociates": [
-        472,
-        487
+        807,
+        833
       ],
       "VisibleForGroups": [
-        44,
-        535
+        332,
+        82
       ],
-      "PinForAll": 71,
+      "PinForAll": 703,
       "PinForAssociates": [
-        831,
-        629
+        523,
+        14
       ],
       "PinForGroups": [
-        448,
-        148
+        233,
+        610
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 625
+          "FieldLength": 808
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 140,
-      "UniqueId": "tempora",
-      "Name": "Padberg, Walsh and Okuneva",
-      "Description": "Implemented 24 hour open architecture",
-      "AssociateId": 700,
-      "Columns": 475,
+      "DashboardId": 878,
+      "UniqueId": "doloribus",
+      "Name": "Kunde LLC",
+      "Description": "Universal assymetric contingency",
+      "AssociateId": 766,
+      "Columns": 393,
       "Theme": null,
-      "VisibleForAll": 814,
+      "VisibleForAll": 459,
       "VisibleForAssociates": [
-        137,
-        313
+        300,
+        353
       ],
       "VisibleForGroups": [
-        303,
-        638
+        341,
+        322
       ],
-      "PinForAll": 391,
+      "PinForAll": 786,
       "PinForAssociates": [
-        855,
-        230
+        673,
+        948
       ],
       "PinForGroups": [
-        40,
-        823
-      ],
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 875
-        }
-      }
-    }
-  ],
-  "Other": [
-    {
-      "DashboardId": 524,
-      "UniqueId": "maiores",
-      "Name": "Terry Group",
-      "Description": "Realigned coherent Graphical User Interface",
-      "AssociateId": 554,
-      "Columns": 653,
-      "Theme": null,
-      "VisibleForAll": 654,
-      "VisibleForAssociates": [
-        99,
-        957
-      ],
-      "VisibleForGroups": [
-        103,
-        916
-      ],
-      "PinForAll": 140,
-      "PinForAssociates": [
-        228,
-        540
-      ],
-      "PinForGroups": [
-        709,
-        307
+        519,
+        353
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 37
+        }
+      }
+    }
+  ],
+  "Other": [
+    {
+      "DashboardId": 941,
+      "UniqueId": "vero",
+      "Name": "Fisher Group",
+      "Description": "Public-key client-server product",
+      "AssociateId": 880,
+      "Columns": 700,
+      "Theme": null,
+      "VisibleForAll": 658,
+      "VisibleForAssociates": [
+        43,
+        84
+      ],
+      "VisibleForGroups": [
+        365,
+        954
+      ],
+      "PinForAll": 762,
+      "PinForAssociates": [
+        953,
+        864
+      ],
+      "PinForGroups": [
+        555,
+        491
+      ],
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 368
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldLength": 102
     }
   }
 }

@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 499,
-  "Name": "Dickens Group",
-  "Tooltip": "placeat",
+  "Id": 390,
+  "Name": "Ward-Terry",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 630,
-  "Rank": 320
+  "UdListDefinitionId": 858,
+  "Rank": 552
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 827,
-  "Name": "Senger LLC",
-  "Tooltip": "veritatis",
+  "Id": 854,
+  "Name": "Franecki-Simonis",
+  "Tooltip": "vel",
   "Deleted": false,
-  "UdListDefinitionId": 426,
-  "Rank": 792,
+  "UdListDefinitionId": 162,
+  "Rank": 554,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 428
+      "FieldType": "System.Int32",
+      "FieldLength": 199
     }
   }
 }

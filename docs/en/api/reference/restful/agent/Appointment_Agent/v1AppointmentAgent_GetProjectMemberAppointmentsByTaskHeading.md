@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,15 +132,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 386,
-  "StartTime": "2023-05-03T02:38:20.557605+02:00",
-  "EndTime": "2022-05-30T02:38:20.557605+02:00",
-  "Count": 802,
-  "TaskHeadingId": 63
+  "PersonId": 902,
+  "StartTime": "2003-05-20T14:28:21.1491785+02:00",
+  "EndTime": "2015-04-17T14:28:21.1491785+02:00",
+  "Count": 792,
+  "TaskHeadingId": 235
 }
 ```
 
@@ -151,65 +152,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 853,
-    "StartDate": "2024-06-04T02:38:20.557605+02:00",
-    "EndDate": "2004-04-10T02:38:20.557605+02:00",
+    "AppointmentId": 118,
+    "StartDate": "2006-08-11T14:28:21.1491785+02:00",
+    "EndDate": "2024-12-13T14:28:21.1491785+01:00",
     "Type": "BookingForChecklist",
-    "Task": "est",
-    "AssociateFullName": "Mr. Stephanie Boehm III",
-    "ContactName": "Feil-O'Connell",
-    "Description": "Enhanced needs-based focus group",
-    "PersonFullName": "Valentina Wuckert",
-    "PersonId": 863,
-    "ContactId": 69,
-    "ProjectId": 549,
-    "ProjectName": "Reilly, Douglas and Rau",
-    "IsPublished": false,
-    "AssociateId": 684,
-    "ColorIndex": 37,
-    "IsFree": true,
+    "Task": "iure",
+    "AssociateFullName": "Dannie Smith",
+    "ContactName": "Schultz-Barrows",
+    "Description": "Ergonomic contextually-based challenge",
+    "PersonFullName": "Mr. Muhammad Adaline Bahringer",
+    "PersonId": 851,
+    "ContactId": 188,
+    "ProjectId": 479,
+    "ProjectName": "Ward LLC",
+    "IsPublished": true,
+    "AssociateId": 177,
+    "ColorIndex": 129,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 715,
-    "PriorityName": "Schaden LLC",
+    "PriorityId": 846,
+    "PriorityName": "Deckow, Gislason and Hammes",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2022-02-10T02:38:20.557605+01:00",
+    "ActiveDate": "2013-03-15T14:28:21.1491785+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2006-02-12T02:38:20.557605+01:00",
-    "RecurringEndDate": "2014-02-01T02:38:20.557605+01:00",
-    "MotherId": 947,
-    "AssignedBy": 55,
-    "AssignedByFullName": "Buford Zack Gibson DDS",
+    "RecurringStartDate": "2007-02-03T14:28:21.1491785+01:00",
+    "RecurringEndDate": "2012-07-18T14:28:21.1491785+02:00",
+    "MotherId": 573,
+    "AssignedBy": 691,
+    "AssignedByFullName": "Ms. Kendrick Predovic",
     "RejectReason": "",
-    "Location": "provident",
-    "AlarmLeadTime": "iure",
-    "SaleId": 22,
-    "SaleName": "Franecki Inc and Sons",
-    "AssociateName": "Upton, Stanton and Lindgren",
-    "CreatedDate": "2013-10-30T02:38:20.557605+01:00",
-    "CreatedBy": "maxime",
-    "CreatedByFullName": "Armani Pearline Kiehn DVM",
-    "CreatedByAssociateId": 78,
+    "Location": "sint",
+    "AlarmLeadTime": "ipsa",
+    "SaleId": 756,
+    "SaleName": "Treutel Inc and Sons",
+    "AssociateName": "Hamill-Sawayn",
+    "CreatedDate": "2016-02-01T14:28:21.1491785+01:00",
+    "CreatedBy": "dolores",
+    "CreatedByFullName": "Isobel Juwan Powlowski Jr.",
+    "CreatedByAssociateId": 524,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 170,
-    "Title": "consectetur",
-    "Agenda": "perferendis",
-    "InternalNotes": "ut",
+    "PreferredTZLocation": 515,
+    "Title": "quo",
+    "Agenda": "voluptatem",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 315
+        "FieldLength": 872
       }
     }
   }

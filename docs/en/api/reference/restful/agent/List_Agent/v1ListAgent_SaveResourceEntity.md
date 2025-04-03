@@ -75,17 +75,17 @@ OK
 POST /api/v1/Agents/List/SaveResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 741,
-  "Name": "Parker LLC",
-  "Rank": 398,
-  "Tooltip": "asperiores",
+  "ResourceId": 694,
+  "Name": "Jones Group",
+  "Rank": 167,
+  "Tooltip": "consequatur",
   "Deleted": false,
   "IsLocation": true,
-  "LocationAddress": "error"
+  "LocationAddress": "consequatur"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 216,
-  "Name": "Cremin Inc and Sons",
-  "Rank": 413,
-  "Tooltip": "enim",
-  "Deleted": false,
+  "ResourceId": 950,
+  "Name": "Zemlak-Von",
+  "Rank": 589,
+  "Tooltip": "et",
+  "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "eos",
+  "LocationAddress": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 82
+      "FieldType": "System.Int32",
+      "FieldLength": 868
     }
   }
 }

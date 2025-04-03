@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Ward-Grimes"
+  "ParameterName": "Koss-Will"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 146,
-  "Name": "Kuvalis-Walsh",
-  "Value": "aut",
-  "CreatedDate": "2005-04-05T02:38:20.8702208+02:00",
-  "UpdatedDate": "2020-08-18T02:38:20.8702208+02:00",
-  "CreatedBy": "temporibus",
+  "AudienceLayoutId": 846,
+  "Name": "Turner Inc and Sons",
+  "Value": "amet",
+  "CreatedDate": "2005-07-22T14:28:21.47729+02:00",
+  "UpdatedDate": "2024-10-27T14:28:21.47729+01:00",
+  "CreatedBy": "molestiae",
   "UpdatedBy": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldLength": 195
     }
   }
 }

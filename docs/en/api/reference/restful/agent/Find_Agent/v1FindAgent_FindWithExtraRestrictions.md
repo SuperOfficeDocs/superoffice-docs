@@ -84,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "possimus",
-  "ProviderName": "Watsica-Schiller",
-  "StorageKey": "libero",
+  "StorageType": "impedit",
+  "ProviderName": "Kuhn LLC",
+  "StorageKey": "omnis",
   "ExtraRestrictions": [
     {
-      "Name": "Mills, Lind and McGlynn",
-      "Operator": "blanditiis",
+      "Name": "Swaniawski-Cruickshank",
+      "Operator": "sint",
       "Values": [
-        "qui",
-        "earum"
+        "beatae",
+        "est"
       ],
       "DisplayValues": [
-        "unde",
-        "aperiam"
+        "quisquam",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -109,27 +109,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 16,
+      "InterParenthesis": 316,
       "InterOperator": "And",
-      "UniqueHash": 701
+      "UniqueHash": 916
     }
   ],
   "OrderBy": [
     {
-      "Name": "Green LLC",
+      "Name": "Hirthe Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Green LLC",
+      "Name": "Hirthe Group",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "alias",
-    "occaecati"
+    "nihil",
+    "magnam"
   ],
-  "PageSize": 355,
-  "PageNumber": 935
+  "PageSize": 459,
+  "PageNumber": 191
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Stoltenberg-Krajcik",
-      "DisplayTooltip": "deleniti",
-      "DisplayType": "in",
-      "CanOrderBy": true,
-      "Name": "Bosco-Klein",
+      "DisplayName": "Koch LLC",
+      "DisplayTooltip": "et",
+      "DisplayType": "sed",
+      "CanOrderBy": false,
+      "Name": "Kshlerin-Mills",
       "CanRestrictBy": true,
-      "RestrictionType": "ipsa",
-      "RestrictionListName": "Grant LLC",
-      "IsVisible": false,
-      "ExtraInfo": "nihil",
-      "Width": "explicabo",
-      "IconHint": "vel",
-      "HeadingIconHint": "id"
+      "RestrictionType": "ullam",
+      "RestrictionListName": "Marquardt-Johnson",
+      "IsVisible": true,
+      "ExtraInfo": "est",
+      "Width": "quos",
+      "IconHint": "ea",
+      "HeadingIconHint": "occaecati"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Littel Group",
-      "PrimaryKey": 566,
+      "EntityName": "Predovic Inc and Sons",
+      "PrimaryKey": 581,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "vel",
-          "TooltipHint": "quo",
-          "LinkHint": "nesciunt"
+          "DisplayValue": "expedita",
+          "TooltipHint": "qui",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "blanditiis",
-      "StyleHint": "autem",
+      "LinkHint": "magnam",
+      "StyleHint": "animi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 770
+          "FieldLength": 9
         }
       }
     }
   ],
-  "RowCount": 85,
+  "RowCount": 630,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 892
+      "FieldLength": 48
     }
   }
 }

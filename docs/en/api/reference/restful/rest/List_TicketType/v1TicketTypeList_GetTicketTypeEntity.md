@@ -90,40 +90,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 759,
-  "Name": "Yost, Zulauf and Kulas",
-  "Rank": 823,
-  "Tooltip": "eveniet",
-  "Icon": "praesentium",
-  "DefaultTicketStatus": 90,
+  "TicketTypeId": 429,
+  "Name": "Wiegand Inc and Sons",
+  "Rank": 970,
+  "Tooltip": "et",
+  "Icon": "deserunt",
+  "DefaultTicketStatus": 883,
   "TicketStatuses": [
-    391,
-    99
+    719,
+    536
   ],
-  "DefaultTicketPriority": 476,
+  "DefaultTicketPriority": 419,
   "TicketPriorities": [
-    944,
-    155
+    810,
+    563
   ],
-  "ReplyTemplate": 963,
+  "ReplyTemplate": 998,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": true,
-  "ExcludeSignature": false,
-  "ExcludeEmailRecipients": false,
+  "ExcludeSignature": true,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    453,
-    989
+    249,
+    961
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 251
+      "FieldLength": 107
     }
   }
 }

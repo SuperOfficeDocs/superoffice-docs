@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 767,
-  "Name": "Erdman, Turcotte and Waters",
-  "TZLocationCode": "aliquam",
-  "TZLocationCities": "repellat",
-  "IsoNumber": 519,
+  "TZLocationID": 938,
+  "Name": "Corwin Inc and Sons",
+  "TZLocationCode": "aut",
+  "TZLocationCities": "vel",
+  "IsoNumber": 78,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 142,
-      "StartMonth": 907,
-      "EndDay": 507,
-      "EndMonth": 789,
-      "TZOffset": 901,
-      "StartRulePattern": "amet",
-      "EndRulePattern": "eligendi"
+      "StartDay": 919,
+      "StartMonth": 243,
+      "EndDay": 137,
+      "EndMonth": 323,
+      "TZOffset": 288,
+      "StartRulePattern": "officiis",
+      "EndRulePattern": "ipsam"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 876,
-      "StartMonth": 232,
-      "EndDay": 533,
-      "EndMonth": 216,
-      "TZOffset": 700,
-      "StartRulePattern": "qui",
-      "EndRulePattern": "sunt"
+      "StartDay": 685,
+      "StartMonth": 692,
+      "EndDay": 347,
+      "EndMonth": 290,
+      "TZOffset": 455,
+      "StartRulePattern": "perferendis",
+      "EndRulePattern": "aut"
     }
   }
 }

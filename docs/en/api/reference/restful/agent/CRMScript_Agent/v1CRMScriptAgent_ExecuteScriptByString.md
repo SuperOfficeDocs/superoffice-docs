@@ -73,6 +73,9 @@ OK
 | Eventdata | EventData | The EventData instance after script execution with output values |
 | Success | bool | Indicates if the script was executed successfully, or if it failed. In case of failing, the error members will contain more information |
 | ErrorInformation | CRMScriptErrorInfo | Contains error information if the execution failed |
+| StatusCode | int32 | The status code which is available to be returned from Typescript scripts |
+| StatusMessage | string | An additional status message that can be sent along with the status code |
+| Headers | object | Optional result headers for context that supports it |
 | TableRight | TableRight | The carrier's table right |
 | FieldProperties | object | Field property dictionary mapping field names to field access rights. |
 
@@ -86,10 +89,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Script": "dicta",
+  "Script": "magni",
   "Parameters": {
-    "Parameters1": "nostrum",
-    "Parameters2": "ut"
+    "Parameters1": "voluptatem",
+    "Parameters2": "consequuntur"
   },
   "EventData": null
 }
@@ -102,21 +105,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Output": "repudiandae",
+  "Output": "laudantium",
   "Parameters": {
-    "Parameters1": "omnis",
-    "Parameters2": "porro"
+    "Parameters1": "molestiae",
+    "Parameters2": "distinctio"
   },
   "TraceRun": null,
   "Eventdata": null,
-  "Success": true,
+  "Success": false,
   "ErrorInformation": null,
+  "StatusCode": 95,
+  "StatusMessage": "suscipit",
+  "Headers": {
+    "Headers1": "et",
+    "Headers2": "culpa"
+  },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 532
+      "FieldLength": 92
     }
   }
 }

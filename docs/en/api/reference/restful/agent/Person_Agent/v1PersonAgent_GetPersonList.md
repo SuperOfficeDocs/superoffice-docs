@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Person/GetPersonList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -121,53 +121,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "corrupti",
-    "PersonId": 485,
-    "Mrmrs": "praesentium",
-    "Firstname": "Gianni",
-    "Lastname": "Zemlak",
-    "MiddleName": "Pfannerstill, Buckridge and Graham",
-    "Title": "qui",
-    "Description": "Balanced 4th generation matrices",
-    "Email": "glenna.stark@keeling.info",
-    "FullName": "Dr. Rene Marshall Braun",
-    "DirectPhone": "(682)309-7151",
-    "FormalName": "Bogisich, Schmitt and Wolff",
-    "CountryId": 338,
-    "ContactId": 554,
-    "ContactName": "Nienow Group",
-    "Retired": 400,
-    "Rank": 90,
-    "ActiveInterests": 703,
+    "Position": "molestias",
+    "PersonId": 801,
+    "Mrmrs": "cum",
+    "Firstname": "Nigel",
+    "Lastname": "Kihn",
+    "MiddleName": "Lakin, Lemke and Leuschke",
+    "Title": "nihil",
+    "Description": "Team-oriented system-worthy projection",
+    "Email": "monserrate.stiedemann@connellyheidenreich.ca",
+    "FullName": "Litzy Schroeder",
+    "DirectPhone": "686.799.2352 x32998",
+    "FormalName": "Padberg, Champlin and Lakin",
+    "CountryId": 323,
+    "ContactId": 965,
+    "ContactName": "Wuckert-Kuhic",
+    "Retired": 654,
+    "Rank": 800,
+    "ActiveInterests": 297,
     "ContactDepartment": "",
-    "ContactCountryId": 722,
-    "ContactOrgNr": "1571455",
-    "FaxPhone": "675.257.2685",
-    "MobilePhone": "(033)036-9843 x296",
-    "ContactPhone": "(267)553-3400 x1191",
-    "AssociateName": "Orn Group",
-    "AssociateId": 961,
+    "ContactCountryId": 917,
+    "ContactOrgNr": "1612431",
+    "FaxPhone": "(241)458-1781",
+    "MobilePhone": "553.459.4503 x0247",
+    "ContactPhone": "247-847-3991 x00946",
+    "AssociateName": "Nikolaus Inc and Sons",
+    "AssociateId": 507,
     "UsePersonAddress": false,
-    "ContactFax": "doloribus",
-    "Kanafname": "voluptatem",
-    "Kanalname": "debitis",
-    "Post1": "et",
-    "Post2": "delectus",
-    "Post3": "nemo",
-    "EmailName": "jocelyn_gerhold@hilpert.uk",
-    "ContactFullName": "Tristian Brown Bednar IV",
-    "ActiveErpLinks": 725,
-    "TicketPriorityId": 974,
-    "SupportLanguageId": 138,
-    "SupportAssociateId": 48,
+    "ContactFax": "ullam",
+    "Kanafname": "dolore",
+    "Kanalname": "unde",
+    "Post1": "quod",
+    "Post2": "quaerat",
+    "Post3": "eum",
+    "EmailName": "guiseppe@fritsch.name",
+    "ContactFullName": "Prof. Albert Howe",
+    "ActiveErpLinks": 645,
+    "TicketPriorityId": 290,
+    "SupportLanguageId": 646,
+    "SupportAssociateId": 450,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1673394",
+    "PersonNumber": "1117841",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 865
+        "FieldType": "System.Int32",
+        "FieldLength": 96
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 890,
-  "PrefDescId": 900,
-  "PrefValue": "omnis",
-  "PrefShowValue": "eveniet",
-  "Description": "Configurable global process improvement",
-  "IsBuiltin": true,
+  "PrefDescLineId": 628,
+  "PrefDescId": 330,
+  "PrefValue": "est",
+  "PrefShowValue": "tenetur",
+  "Description": "Configurable client-driven capability",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 667
+      "FieldType": "System.Int32",
+      "FieldLength": 589
     }
   }
 }

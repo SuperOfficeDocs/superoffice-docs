@@ -111,6 +111,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -125,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 769
+  "ProjectId": 508
 }
 ```
 
@@ -141,65 +142,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 901,
-    "StartDate": "2004-03-31T02:38:20.5732257+02:00",
-    "EndDate": "2023-09-04T02:38:20.5732257+02:00",
+    "AppointmentId": 848,
+    "StartDate": "2001-07-10T14:28:21.1648024+02:00",
+    "EndDate": "2022-02-05T14:28:21.1648024+01:00",
     "Type": "BookingForChecklist",
-    "Task": "sit",
-    "AssociateFullName": "Horacio Leffler",
-    "ContactName": "Lind, Ratke and Conroy",
-    "Description": "Re-engineered contextually-based access",
-    "PersonFullName": "Mrs. Bryce Elisha Koch V",
-    "PersonId": 793,
-    "ContactId": 495,
-    "ProjectId": 598,
-    "ProjectName": "Heaney, Kertzmann and Morar",
+    "Task": "ut",
+    "AssociateFullName": "King Mitchell III",
+    "ContactName": "Windler Inc and Sons",
+    "Description": "Seamless 4th generation hardware",
+    "PersonFullName": "Luella Dicki",
+    "PersonId": 400,
+    "ContactId": 89,
+    "ProjectId": 74,
+    "ProjectName": "Nader-D'Amore",
     "IsPublished": false,
-    "AssociateId": 752,
-    "ColorIndex": 158,
-    "IsFree": false,
+    "AssociateId": 84,
+    "ColorIndex": 860,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 379,
-    "PriorityName": "Bahringer, Mitchell and Runte",
+    "PriorityId": 678,
+    "PriorityName": "Schoen, Quigley and Morar",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2023-07-26T02:38:20.5732257+02:00",
+    "ActiveDate": "2001-04-04T14:28:21.1648024+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-07-08T02:38:20.5732257+02:00",
-    "RecurringEndDate": "2016-08-13T02:38:20.5732257+02:00",
-    "MotherId": 515,
-    "AssignedBy": 782,
-    "AssignedByFullName": "Sasha Marks",
+    "RecurringStartDate": "2004-05-10T14:28:21.1648024+02:00",
+    "RecurringEndDate": "2000-08-10T14:28:21.1648024+02:00",
+    "MotherId": 604,
+    "AssignedBy": 198,
+    "AssignedByFullName": "Dr. Kattie Carroll Purdy II",
     "RejectReason": "",
-    "Location": "fuga",
-    "AlarmLeadTime": "quibusdam",
-    "SaleId": 492,
-    "SaleName": "Stamm LLC",
-    "AssociateName": "Gorczany-Brakus",
-    "CreatedDate": "2000-05-09T02:38:20.5732257+02:00",
-    "CreatedBy": "consequatur",
-    "CreatedByFullName": "Ms. Wilson Armstrong DVM",
-    "CreatedByAssociateId": 616,
+    "Location": "mollitia",
+    "AlarmLeadTime": "sint",
+    "SaleId": 27,
+    "SaleName": "Ward, Wiegand and Kuhn",
+    "AssociateName": "Toy Inc and Sons",
+    "CreatedDate": "1998-08-24T14:28:21.1648024+02:00",
+    "CreatedBy": "hic",
+    "CreatedByFullName": "Prof. Jan Fahey III",
+    "CreatedByAssociateId": 219,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 489,
-    "Title": "est",
-    "Agenda": "veritatis",
-    "InternalNotes": "accusamus",
+    "PreferredTZLocation": 626,
+    "Title": "nihil",
+    "Agenda": "est",
+    "InternalNotes": "nam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 47
+        "FieldLength": 473
       }
     }
   }

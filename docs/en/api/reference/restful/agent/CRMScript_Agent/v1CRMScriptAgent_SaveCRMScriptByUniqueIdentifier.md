@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "in",
+  "UniqueIdentifier": "commodi",
   "Crmscript": null
 }
 ```
@@ -101,22 +101,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "delectus",
-  "Name": "Berge-McCullough",
-  "Description": "Vision-oriented regional migration",
-  "IncludeId": "dolorem",
-  "Source": "cumque",
-  "Registered": "2015-01-17T02:38:21.1670651+01:00",
-  "RegisteredBy": "minus",
-  "Updated": "2015-05-09T02:38:21.1670651+02:00",
-  "UpdatedBy": "ut",
-  "Path": "iure",
+  "UniqueIdentifier": "enim",
+  "Name": "Medhurst-Gleichner",
+  "Description": "Future-proofed fault-tolerant orchestration",
+  "IncludeId": "exercitationem",
+  "Source": "aliquid",
+  "Registered": "2014-12-26T14:28:21.680407+01:00",
+  "RegisteredBy": "laborum",
+  "Updated": "2021-07-18T14:28:21.680407+02:00",
+  "UpdatedBy": "fuga",
+  "Path": "error",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 977
+      "FieldType": "System.Int32",
+      "FieldLength": 373
     }
   }
 }

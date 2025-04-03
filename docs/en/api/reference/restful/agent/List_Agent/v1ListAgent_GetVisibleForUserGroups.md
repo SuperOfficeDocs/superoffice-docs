@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 686,
-  "ListItemId": 538
+  "UdListDefinitionId": 697,
+  "ListItemId": 838
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Name": "White-Crona",
-    "ToolTip": "Corporis sit sunt non omnis tenetur.",
-    "Deleted": false,
-    "Rank": 640,
-    "Type": "non",
-    "ColorBlock": 453,
-    "IconHint": "aperiam",
-    "Selected": true,
-    "LastChanged": "2017-10-22T02:38:21.4951545+02:00",
+    "Id": 100,
+    "Name": "Greenfelder Group",
+    "ToolTip": "Dolores accusantium consectetur nihil expedita.",
+    "Deleted": true,
+    "Rank": 706,
+    "Type": "maxime",
+    "ColorBlock": 852,
+    "IconHint": "quo",
+    "Selected": false,
+    "LastChanged": "2003-06-14T14:28:22.0553915+02:00",
     "ChildItems": [
       {
-        "Id": 616,
-        "Name": "Bergnaum Group",
-        "ToolTip": "Eum optio voluptatem.",
+        "Id": 778,
+        "Name": "Swift-Rogahn",
+        "ToolTip": "Aut tenetur aut non aut et.",
         "Deleted": false,
-        "Rank": 922,
-        "Type": "eligendi",
-        "ColorBlock": 850,
-        "IconHint": "explicabo",
+        "Rank": 790,
+        "Type": "enim",
+        "ColorBlock": 935,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "2000-07-07T02:38:21.4951545+02:00",
+        "LastChanged": "2019-10-01T14:28:22.0553915+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "quia",
+        "ExtraInfo": "natus",
+        "StyleHint": "quidem",
         "Hidden": false,
-        "FullName": "Nicole Elmira Reinger IV",
+        "FullName": "Ms. Katlyn Hubert Walter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 800
+            "FieldType": "System.Int32",
+            "FieldLength": 422
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "officiis",
+    "ExtraInfo": "veritatis",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Madge Volkman",
+    "FullName": "Miss Mya Rachel Hagenes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldLength": 197
       }
     }
   }

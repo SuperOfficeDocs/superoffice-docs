@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Rice Inc and Sons",
-  "EventFilter": "delectus",
+  "NameFilter": "Dickinson LLC",
+  "EventFilter": "modi",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 79,
-    "Name": "Macejkovic-Klocko",
+    "WebhookId": 300,
+    "Name": "Weissnat, Smitham and Heller",
     "Events": [
-      "sunt",
-      "saepe"
+      "et",
+      "quam"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "quidem",
+    "Secret": "incidunt",
     "State": "Active",
-    "Type": "rerum",
+    "Type": "ex",
     "Headers": {
-      "Headers1": "ipsum",
-      "Headers2": "est"
+      "Headers1": "totam",
+      "Headers2": "qui"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2021-09-10T02:38:22.245036+02:00",
+    "Registered": "2000-08-08T14:28:22.7428645+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2018-04-14T02:38:22.245036+02:00",
+    "Updated": "2010-09-12T14:28:22.7428645+02:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "cecelia@doyle.com"
+    "ErrorsEmail": "alana@prohaskawhite.uk"
   }
 ]
 ```

@@ -26,8 +26,8 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Source/MDOItems?flat=True
-GET /api/v1/List/Source/MDOItems?query=excepturi
+GET /api/v1/List/Source/MDOItems?flat=False
+GET /api/v1/List/Source/MDOItems?query=optio
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 584,
-    "Name": "McGlynn LLC",
-    "ToolTip": "Autem fuga dolorem cupiditate sint molestiae aspernatur omnis.",
+    "Id": 905,
+    "Name": "Gislason-Berge",
+    "ToolTip": "Necessitatibus omnis magnam.",
     "Deleted": false,
-    "Rank": 782,
-    "Type": "fuga",
+    "Rank": 432,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 283,
-        "Name": "Nikolaus Inc and Sons",
-        "ToolTip": "Ut magnam qui possimus ad non ea.",
-        "Deleted": false,
-        "Rank": 1000,
-        "Type": "qui",
+        "Id": 980,
+        "Name": "Schroeder LLC",
+        "ToolTip": "Maiores autem explicabo et laudantium.",
+        "Deleted": true,
+        "Rank": 652,
+        "Type": "libero",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "hic",
-        "ColorBlock": 695,
-        "ExtraInfo": "accusamus",
-        "StyleHint": "aliquam",
-        "FullName": "Josie Lang",
+        "IconHint": "expedita",
+        "ColorBlock": 331,
+        "ExtraInfo": "fuga",
+        "StyleHint": "nostrum",
+        "FullName": "Vida Schinner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 193
+            "FieldType": "System.String",
+            "FieldLength": 464
           }
         }
       }
     ],
-    "IconHint": "mollitia",
-    "ColorBlock": 227,
-    "ExtraInfo": "ad",
-    "StyleHint": "dolore",
-    "FullName": "Dr. Bradly Kaleigh Homenick MD",
+    "IconHint": "et",
+    "ColorBlock": 337,
+    "ExtraInfo": "recusandae",
+    "StyleHint": "occaecati",
+    "FullName": "Garfield Leuschke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 669
+        "FieldLength": 992
       }
     }
   }

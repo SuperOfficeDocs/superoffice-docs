@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 413,
-    "Name": "Rice, Gleichner and Ernser",
-    "Tooltip": "quisquam",
-    "Deleted": true,
-    "Rank": 398,
-    "UdListDefinitionId": 958,
+    "HeadingId": 550,
+    "Name": "Weissnat LLC",
+    "Tooltip": "sint",
+    "Deleted": false,
+    "Rank": 467,
+    "UdListDefinitionId": 585,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 538
+        "FieldType": "System.Int32",
+        "FieldLength": 640
       }
     }
   }

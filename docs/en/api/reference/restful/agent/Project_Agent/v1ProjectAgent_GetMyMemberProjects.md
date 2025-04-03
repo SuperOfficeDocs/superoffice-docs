@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 778,
-    "Name": "Gerlach Group",
-    "Description": "Proactive next generation superstructure",
+    "ProjectId": 720,
+    "Name": "Bogan LLC",
+    "Description": "Distributed bi-directional artificial intelligence",
     "URL": "http://www.example.com/",
-    "Type": "labore",
-    "AssociateId": 191,
-    "AssociateFullName": "Delbert Cartwright",
-    "TypeId": 578,
-    "Updated": "2011-01-20T02:38:21.7295028+01:00",
-    "StatusId": 298,
-    "Status": "eveniet",
-    "TextId": 861,
-    "PublishTo": "2014-11-04T02:38:21.7295028+01:00",
-    "PublishFrom": "2018-11-23T02:38:21.7295028+01:00",
+    "Type": "accusamus",
+    "AssociateId": 981,
+    "AssociateFullName": "Jessica Syble Brekke I",
+    "TypeId": 189,
+    "Updated": "2022-06-29T14:28:22.2585084+02:00",
+    "StatusId": 252,
+    "Status": "nemo",
+    "TextId": 504,
+    "PublishTo": "1999-09-21T14:28:22.2585084+02:00",
+    "PublishFrom": "2021-11-24T14:28:22.2585084+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1436414",
-    "ActiveErpLinks": 648,
+    "ProjectNumber": "540999",
+    "ActiveErpLinks": 555,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 864
+        "FieldLength": 516
       }
     }
   }

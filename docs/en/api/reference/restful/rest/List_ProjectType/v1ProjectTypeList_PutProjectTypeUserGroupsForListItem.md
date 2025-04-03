@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 242,
-    "Name": "Quitzon LLC",
-    "ToolTip": "Et sequi cum doloribus sunt deleniti quas.",
+    "Id": 304,
+    "Name": "Kris Inc and Sons",
+    "ToolTip": "Non omnis voluptas sed.",
     "Deleted": true,
-    "Rank": 191,
-    "Type": "sit",
-    "ColorBlock": 95,
-    "IconHint": "magnam",
+    "Rank": 709,
+    "Type": "sed",
+    "ColorBlock": 259,
+    "IconHint": "sunt",
     "Selected": true,
-    "LastChanged": "2000-06-10T02:38:26.8705112+02:00",
+    "LastChanged": "2020-11-02T14:28:27.6489147+01:00",
     "ChildItems": [
       {
-        "Id": 593,
-        "Name": "Pacocha LLC",
-        "ToolTip": "Sunt voluptatem velit fuga ut nobis labore deserunt.",
+        "Id": 319,
+        "Name": "Pfannerstill-Feil",
+        "ToolTip": "Adipisci aut enim sint.",
         "Deleted": false,
-        "Rank": 902,
-        "Type": "porro",
-        "ColorBlock": 259,
-        "IconHint": "ex",
+        "Rank": 97,
+        "Type": "omnis",
+        "ColorBlock": 34,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2000-06-17T02:38:26.8705112+02:00",
+        "LastChanged": "2007-05-17T14:28:27.6489147+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "architecto",
-        "Hidden": false,
-        "FullName": "Adan Balistreri"
+        "ExtraInfo": "molestiae",
+        "StyleHint": "dolores",
+        "Hidden": true,
+        "FullName": "Ayana Rolfson"
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "eos",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Kamren O'Keefe"
+    "FullName": "Magdalena Cole"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 869,
-    "Name": "King Group",
-    "ToolTip": "Ipsum laudantium perspiciatis doloremque quaerat.",
+    "Id": 721,
+    "Name": "Barrows-Morissette",
+    "ToolTip": "Quisquam expedita cum molestiae reiciendis quae blanditiis.",
     "Deleted": true,
-    "Rank": 226,
-    "Type": "sunt",
-    "ColorBlock": 867,
-    "IconHint": "quo",
+    "Rank": 494,
+    "Type": "occaecati",
+    "ColorBlock": 632,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2009-08-27T02:38:26.8705112+02:00",
+    "LastChanged": "1999-02-22T14:28:27.6489147+01:00",
     "ChildItems": [
       {
-        "Id": 425,
-        "Name": "Welch LLC",
-        "ToolTip": "Esse nisi doloremque unde architecto qui.",
+        "Id": 914,
+        "Name": "Kassulke, Johnson and Grimes",
+        "ToolTip": "Saepe quas.",
         "Deleted": false,
-        "Rank": 973,
-        "Type": "quod",
-        "ColorBlock": 1001,
-        "IconHint": "nesciunt",
+        "Rank": 115,
+        "Type": "corrupti",
+        "ColorBlock": 709,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2016-07-07T02:38:26.8705112+02:00",
+        "LastChanged": "2018-12-02T14:28:27.6489147+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "earum",
-        "Hidden": false,
-        "FullName": "Virginie Pfeffer",
+        "ExtraInfo": "iste",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Prof. Isabella Carroll",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 17
+            "FieldLength": 374
           }
         }
       }
     ],
-    "ExtraInfo": "ipsam",
-    "StyleHint": "aut",
-    "Hidden": true,
-    "FullName": "River Bosco",
+    "ExtraInfo": "dicta",
+    "StyleHint": "ipsum",
+    "Hidden": false,
+    "FullName": "Miracle Lilla Block IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 402
+        "FieldType": "System.String",
+        "FieldLength": 666
       }
     }
   }

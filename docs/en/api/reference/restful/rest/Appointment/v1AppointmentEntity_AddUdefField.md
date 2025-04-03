@@ -98,7 +98,7 @@ OK
 POST /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 71,
-  "ColumnId": 128,
-  "FieldDefault": "saepe",
-  "FieldHeight": 992,
-  "FieldLabel": "commodi",
-  "FieldLeft": 415,
-  "FieldTop": 150,
+  "UDefFieldId": 944,
+  "ColumnId": 604,
+  "FieldDefault": "pariatur",
+  "FieldHeight": 847,
+  "FieldLabel": "optio",
+  "FieldLeft": 122,
+  "FieldTop": 53,
   "FieldType": "Checkbox",
-  "FieldWidth": 28,
-  "FormatMask": "sit",
-  "HideLabel": true,
+  "FieldWidth": 655,
+  "FormatMask": "et",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 166,
-  "LabelLeft": 574,
-  "LabelTop": 254,
-  "LabelWidth": 897,
-  "LastVersionId": 918,
-  "ListTableId": 619,
+  "LabelHeight": 460,
+  "LabelLeft": 716,
+  "LabelTop": 167,
+  "LabelWidth": 153,
+  "LastVersionId": 660,
+  "ListTableId": 373,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 157,
-  "ProgId": "hic",
+  "Page1LineNo": 294,
+  "ProgId": "quod",
   "IsReadOnly": false,
-  "ShortLabel": "iure",
-  "TabOrder": 404,
-  "TextLength": 118,
-  "Tooltip": "sunt",
-  "UdefIdentity": 219,
-  "UDListDefinitionId": 671,
+  "ShortLabel": "hic",
+  "TabOrder": 659,
+  "TextLength": 8,
+  "Tooltip": "cum",
+  "UdefIdentity": 237,
+  "UDListDefinitionId": 295,
   "Justification": "Center",
-  "Version": 64,
-  "TemplateVariableName": "Kirlin, Roberts and Turcotte",
+  "Version": 23,
+  "TemplateVariableName": "Bernhard, Larson and Nicolas",
   "HasBeenPublished": false,
-  "MdoListName": "Tromp-Buckridge",
+  "MdoListName": "Gislason LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 252
+      "FieldType": "System.Int32",
+      "FieldLength": 79
     }
   }
 }

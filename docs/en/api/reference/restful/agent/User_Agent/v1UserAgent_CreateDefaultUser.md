@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -94,14 +94,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 417,
-  "Name": "Mitchell-Beatty",
-  "Rank": 373,
-  "Tooltip": "debitis",
+  "AssociateId": 431,
+  "Name": "Kozey-Romaguera",
+  "Rank": 392,
+  "Tooltip": "doloribus",
   "LicenseOwners": [
     {
-      "Name": "Schaefer, Koepp and Sporer",
-      "Description": "Progressive didactic architecture",
+      "Name": "Mayer, Jones and Mayer",
+      "Description": "Versatile national extranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -115,13 +115,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 53
+          "FieldLength": 795
         }
       }
     },
     {
-      "Name": "Schaefer, Koepp and Sporer",
-      "Description": "Progressive didactic architecture",
+      "Name": "Mayer, Jones and Mayer",
+      "Description": "Versatile national extranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 53
+          "FieldLength": 795
         }
       }
     }
@@ -144,110 +144,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "dolor",
-      "Tooltip": "perspiciatis",
-      "Id": 828,
-      "Rank": 388,
-      "Deleted": false,
+      "Value": "in",
+      "Tooltip": "aut",
+      "Id": 33,
+      "Rank": 391,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 967
+          "FieldLength": 928
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2009-01-26T02:38:22.1825743+01:00",
-  "Lastlogout": "2011-04-05T02:38:22.1825743+02:00",
-  "EjUserId": 969,
-  "RequestSignature": "ullam",
+  "Lastlogin": "1998-05-22T14:28:22.6803663+02:00",
+  "Lastlogout": "2016-12-07T14:28:22.6803663+01:00",
+  "EjUserId": 825,
+  "RequestSignature": "voluptatum",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "explicabo",
-      "DisplayValue": "autem",
+      "Value": "saepe",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 758
+          "FieldLength": 182
         }
       }
     },
     {
       "Type": null,
-      "Value": "explicabo",
-      "DisplayValue": "autem",
+      "Value": "saepe",
+      "DisplayValue": "mollitia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 758
+          "FieldLength": 182
         }
       }
     }
   ],
-  "UserName": "Rippin-D'Amore",
+  "UserName": "Krajcik Group",
   "TicketCategories": [
     {
-      "Id": 848,
-      "Name": "Bergstrom-Bode",
-      "ToolTip": "Corrupti qui commodi et perferendis delectus pariatur voluptas.",
+      "Id": 447,
+      "Name": "Miller LLC",
+      "ToolTip": "Fugiat et asperiores ducimus eaque autem.",
       "Deleted": false,
-      "Rank": 344,
-      "Type": "rerum",
+      "Rank": 79,
+      "Type": "blanditiis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "eos",
-      "ColorBlock": 209,
-      "ExtraInfo": "ut",
-      "StyleHint": "distinctio",
-      "FullName": "Miss Audra Hermiston Jr.",
+      "IconHint": "itaque",
+      "ColorBlock": 1000,
+      "ExtraInfo": "officia",
+      "StyleHint": "dolores",
+      "FullName": "Maybell Koelpin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldType": "System.String",
+          "FieldLength": 882
         }
       }
     }
   ],
-  "NickName": "Reichel-Stark",
-  "WaitingForApproval": true,
+  "NickName": "Durgan Inc and Sons",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "nam",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "voluptates"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "ex"
   },
   "PostSaveCommands": [
     {
-      "Name": "O'Keefe Inc and Sons",
-      "DisplayName": "Hand LLC",
-      "Description": "Devolved zero tolerance leverage",
-      "ToolTip": "Nisi quos deserunt non in.",
+      "Name": "Turner, Swift and Skiles",
+      "DisplayName": "Green, Gorczany and White",
+      "Description": "Expanded human-resource moratorium",
+      "ToolTip": "Aperiam modi et.",
       "Actions": "Implicit",
-      "ActionData": "eos",
+      "ActionData": "ipsa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 728
+          "FieldLength": 154
         }
       }
     }
@@ -256,8 +256,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 166
+      "FieldType": "System.Int32",
+      "FieldLength": 753
     }
   }
 }

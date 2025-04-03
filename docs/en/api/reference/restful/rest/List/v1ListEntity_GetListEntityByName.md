@@ -78,22 +78,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 262,
-  "Name": "Grimes-Boyle",
-  "Tooltip": "accusamus",
-  "Deleted": true,
-  "Rank": 672,
+  "Id": 834,
+  "Name": "Dooley-Vandervort",
+  "Tooltip": "exercitationem",
+  "Deleted": false,
+  "Rank": 839,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aspernatur",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "enim",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 636
+      "FieldType": "System.String",
+      "FieldLength": 185
     }
   }
 }

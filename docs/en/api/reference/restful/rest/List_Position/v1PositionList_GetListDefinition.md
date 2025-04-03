@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 806,
-  "Name": "Lehner, Weimann and Emard",
-  "Tooltip": "corporis",
+  "Id": 103,
+  "Name": "Bailey Group",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 900,
+  "Rank": 749,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "non",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 162
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 57,
-    "Name": "Kuphal, Gottlieb and Gusikowski",
-    "CurrencyId": 604,
-    "EnglishName": "Kuphal-Koch",
+    "CountryId": 461,
+    "Name": "Leffler, Thompson and Wyman",
+    "CurrencyId": 272,
+    "EnglishName": "Mosciski, McDermott and Goldner",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Multi-tiered object-oriented info-mediaries",
-    "OrgNrText": "963362",
-    "InterAreaPrefix": "aut",
-    "DialInPrefix": "repellendus",
-    "ZipPrefix": "excepturi",
-    "DomainName": "Bahringer-Kassulke",
+    "ImageDescription": "Phased disintermediate ability",
+    "OrgNrText": "1556350",
+    "InterAreaPrefix": "quis",
+    "DialInPrefix": "sit",
+    "ZipPrefix": "culpa",
+    "DomainName": "Lynch, Barton and Schneider",
     "AddressLayoutId": 133,
-    "DomesticAddressLayoutId": 115,
-    "ForeignAddressLayoutId": 175,
-    "Rank": 630,
-    "Tooltip": "odio",
+    "DomesticAddressLayoutId": 499,
+    "ForeignAddressLayoutId": 664,
+    "Rank": 206,
+    "Tooltip": "earum",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldType": "System.String",
+        "FieldLength": 9
       }
     }
   }

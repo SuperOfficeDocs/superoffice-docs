@@ -29,6 +29,7 @@ Service methods defined on <see cref='T:ICustomerServiceAgent'>CustomerServiceAg
 * [GetAllCustomerCenterConfigs](getallcustomercenterconfigs.md)
 * [GetCustomerCenterConfig](getcustomercenterconfig.md)
 * [GetCustomerServiceStartup](getcustomerservicestartup.md)
+* [GetCustomerServiceStartupByOwner](getcustomerservicestartupbyowner.md)
 * [GetFaqForCustomer](getfaqforcustomer.md)
 * [GetMailboxEntity](getmailboxentity.md)
 * [GetMailboxes](getmailboxes.md)

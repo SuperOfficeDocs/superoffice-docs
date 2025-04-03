@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 28 Oct 2012 02:38:25 G10T
+Last-Modified: Sat, 16 Apr 2005 14:28:26 G4T
 
 {
-  "BlobId": 966,
-  "BlobSize": 257,
-  "Description": "Phased background flexibility",
-  "ExtraInfo": "recusandae",
-  "IsEncrypted": true,
+  "BlobId": 432,
+  "BlobSize": 997,
+  "Description": "Fully-configurable cohesive application",
+  "ExtraInfo": "ducimus",
+  "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "magni",
-  "OriginalSize": 746,
-  "CreatedDate": "2004-12-28T02:38:25.9485792+01:00",
-  "UpdatedDate": "2012-10-28T02:38:25.9485792+01:00",
+  "MimeType": "alias",
+  "OriginalSize": 743,
+  "CreatedDate": "2011-08-09T14:28:26.8051995+02:00",
+  "UpdatedDate": "2005-04-16T14:28:26.8051995+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "dolorum",
+  "ConceptualType": "consequatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 149
+      "FieldLength": 212
     }
   }
 }

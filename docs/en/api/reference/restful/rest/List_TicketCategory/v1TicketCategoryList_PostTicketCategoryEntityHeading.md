@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 14,
-  "Name": "Nienow-Carroll",
-  "Tooltip": "aut",
+  "HeadingId": 749,
+  "Name": "Wisozk Inc and Sons",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "Rank": 440,
-  "UdListDefinitionId": 451
+  "Rank": 600,
+  "UdListDefinitionId": 520
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 315,
-  "Name": "Veum, Runte and Batz",
-  "Tooltip": "enim",
-  "Deleted": true,
-  "Rank": 766,
-  "UdListDefinitionId": 49,
+  "HeadingId": 793,
+  "Name": "Schoen-Hand",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "Rank": 993,
+  "UdListDefinitionId": 938,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 44
+      "FieldLength": 287
     }
   }
 }

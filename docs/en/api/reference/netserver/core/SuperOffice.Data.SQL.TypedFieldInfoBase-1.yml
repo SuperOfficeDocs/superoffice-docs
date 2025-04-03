@@ -59,6 +59,7 @@ items:
   - SuperOffice.Data.SQL.AllDayEventFieldInfo
   - SuperOffice.Data.SQL.AppAvailStateFieldInfo
   - SuperOffice.Data.SQL.AppointmentCautionWarningFieldInfo
+  - SuperOffice.Data.SQL.AppointmentExternalOwnerFieldInfo
   - SuperOffice.Data.SQL.AppointmentPrivateFieldInfo
   - SuperOffice.Data.SQL.AppointmentStatusFieldInfo
   - SuperOffice.Data.SQL.AppointmentTypeFieldInfo

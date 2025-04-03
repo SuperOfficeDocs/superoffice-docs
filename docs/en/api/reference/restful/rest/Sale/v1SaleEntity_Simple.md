@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Witting, Skiles and Walsh",
-  "SaleDate": "2024-04-07T02:38:26.4016552+02:00",
-  "SaleId": 346,
-  "Probability": 389,
-  "Title": "ab",
-  "Amount": 14867.696,
+  "ContactName": "Leuschke-Cassin",
+  "SaleDate": "2015-11-09T14:28:27.2270585+01:00",
+  "SaleId": 305,
+  "Probability": 750,
+  "Title": "at",
+  "Amount": 27629.343999999997,
   "Currency": "sed",
-  "ProjectName": "Bartoletti, Schimmel and Baumbach",
-  "AssociateFullName": "Anna Stanton",
-  "Description": "Object-based multi-state infrastructure",
+  "ProjectName": "Metz Inc and Sons",
+  "AssociateFullName": "Pearlie Weimann",
+  "Description": "Grass-roots explicit archive",
   "Status": "Lost",
-  "WeightedAmount": 28716.842,
-  "ProjectId": 370,
-  "EarningPercent": 27560.396,
-  "Earning": 17735.306,
-  "ContactId": 287,
-  "AssociateId": 274,
-  "PersonId": 997,
-  "SaleTypeId": 204,
-  "SaleTypeName": "Thompson, Green and Pfeffer",
-  "PersonFullName": "Irwin Nienow",
+  "WeightedAmount": 22530.326,
+  "ProjectId": 715,
+  "EarningPercent": 13961.97,
+  "Earning": 3177.8759999999997,
+  "ContactId": 867,
+  "AssociateId": 204,
+  "PersonId": 173,
+  "SaleTypeId": 505,
+  "SaleTypeName": "Wolf, Ziemann and Veum",
+  "PersonFullName": "Marta Stark",
   "Completed": "Completed",
-  "ActiveErpLinks": 24,
-  "NextDueDate": "2011-12-14T02:38:26.4016552+01:00",
-  "Number": "1306816",
+  "ActiveErpLinks": 336,
+  "NextDueDate": "1999-08-13T14:28:27.2270585+02:00",
+  "Number": "736221",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 659
+      "FieldLength": 715
     }
   }
 }

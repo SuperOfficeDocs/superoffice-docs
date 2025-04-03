@@ -96,6 +96,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -129,120 +130,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-10-25T02:38:20.6827021+02:00",
-  "AppointmentId": 104,
-  "Description": "Re-contextualized multi-tasking standardization",
-  "Title": "maiores",
-  "Agenda": "at",
-  "InternalNotes": "ut",
-  "StartDate": "2023-05-05T02:38:20.6827021+02:00",
-  "EndDate": "2023-02-01T02:38:20.6827021+01:00",
+  "CreatedDate": "2010-04-09T14:28:21.2898139+02:00",
+  "AppointmentId": 468,
+  "Description": "Proactive user-facing hierarchy",
+  "Title": "ratione",
+  "Agenda": "vero",
+  "InternalNotes": "voluptatem",
+  "StartDate": "2000-04-07T14:28:21.2898139+02:00",
+  "EndDate": "2023-10-26T14:28:21.2898139+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 595,
+  "MotherId": 159,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2005-10-22T02:38:20.6827021+02:00",
+  "UpdatedDate": "2021-05-04T14:28:21.2898139+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 420,
+  "ActiveLinks": 133,
   "Links": [
     {
-      "EntityName": "Purdy, Pfeffer and Bashirian",
-      "Id": 66,
-      "Description": "Automated solution-oriented encryption",
-      "ExtraInfo": "aspernatur",
-      "LinkId": 393,
+      "EntityName": "Schowalter, Smitham and Beier",
+      "Id": 207,
+      "Description": "Reactive explicit parallelism",
+      "ExtraInfo": "ipsum",
+      "LinkId": 450,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 190
+          "FieldLength": 170
         }
       }
     }
   ],
-  "AlarmLeadTime": "animi",
+  "AlarmLeadTime": "laboriosam",
   "HasAlarm": false,
-  "ColorIndex": 233,
+  "ColorIndex": 605,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "temporibus",
-  "LeadTime": "ipsa",
-  "Location": "facilis",
-  "RejectCounter": 718,
+  "LagTime": "illo",
+  "LeadTime": "harum",
+  "Location": "fuga",
+  "RejectCounter": 648,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 557,
-      "PersonId": 371,
-      "ContactId": 755,
-      "EmailId": 438,
+      "AssociateId": 317,
+      "PersonId": 372,
+      "ContactId": 186,
+      "EmailId": 11,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "angie@greenfelderrussel.uk",
-      "Description": "Up-sized composite model"
+      "EmailAddress": "modesto@bernhard.us",
+      "Description": "Cloned incremental local area network"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-11-30T02:38:20.6827021+01:00",
+  "ActiveDate": "2018-02-01T14:28:21.2898139+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 779,
+  "PreferredTZLocation": 371,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 258,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 302,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "molestiae",
+  "CentralserviceVideomeetId": "exercitationem",
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Beaulah Josh Brekke Sr.",
-    "SuperOffice:2": "452896386"
+    "SuperOffice:1": "Mrs. Sam Nicolas V",
+    "SuperOffice:2": "Ms. Rickey Greenfelder"
   },
   "ExtraFields": {
-    "ExtraFields1": "cupiditate",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "hic"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "suscipit"
+    "CustomFields1": "iure",
+    "CustomFields2": "quibusdam"
   },
-  "PublishEventDate": "2015-10-22T02:38:20.6827021+02:00",
-  "PublishTo": "2020-03-25T02:38:20.6827021+01:00",
-  "PublishFrom": "2006-03-09T02:38:20.6827021+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2008-09-03T14:28:21.2898139+02:00",
+  "PublishTo": "2025-02-21T14:28:21.2898139+01:00",
+  "PublishFrom": "2011-08-03T14:28:21.2898139+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 633,
+      "VisibleId": 455,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldLength": 340
         }
       }
     },
     {
-      "VisibleId": 633,
+      "VisibleId": 455,
       "Visibility": "All",
-      "DisplayValue": "sint",
+      "DisplayValue": "qui",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 652
+          "FieldLength": 340
         }
       }
     }
@@ -252,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldLength": 206
     }
   }
 }

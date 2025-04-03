@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 695
+  "SuggestedDocumentId": 165
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 16,
+  "DocumentId": 170,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quia",
-  "Header": "ipsam",
-  "Name": "Bosco, Swaniawski and Corkery",
-  "OurRef": "quia",
-  "YourRef": "assumenda",
-  "CreatedDate": "1999-12-08T02:38:21.3076706+01:00",
-  "UpdatedDate": "2008-07-28T02:38:21.3076706+02:00",
-  "Description": "Universal homogeneous middleware",
+  "Attention": "eligendi",
+  "Header": "voluptatem",
+  "Name": "Bashirian-Rempel",
+  "OurRef": "suscipit",
+  "YourRef": "dolores",
+  "CreatedDate": "1999-03-16T14:28:21.8835236+01:00",
+  "UpdatedDate": "1998-02-20T14:28:21.8835236+01:00",
+  "Description": "Diverse full-range adapter",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2005-08-04T02:38:21.3076706+02:00",
-  "ExternalRef": "voluptas",
+  "Date": "2018-06-09T14:28:21.8835236+02:00",
+  "ExternalRef": "autem",
   "Completed": "Completed",
-  "ActiveLinks": 418,
+  "ActiveLinks": 202,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Ryan, Hagenes and Hickle",
-      "Id": 62,
-      "Description": "Seamless 3rd generation access",
-      "ExtraInfo": "eaque",
-      "LinkId": 485,
+      "EntityName": "Rodriguez Inc and Sons",
+      "Id": 456,
+      "Description": "Sharable dynamic implementation",
+      "ExtraInfo": "facere",
+      "LinkId": 672,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 608
+          "FieldLength": 507
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 966,
-  "Snum": 563,
+  "SuggestedDocumentId": 656,
+  "Snum": 94,
   "UserDefinedFields": {
-    "SuperOffice:1": "Prof. Kacie Moen",
-    "SuperOffice:2": "Dr. Isabella Balistreri"
+    "SuperOffice:1": "Sarai Thiel",
+    "SuperOffice:2": "Alysha Roberts"
   },
   "ExtraFields": {
-    "ExtraFields1": "quod",
-    "ExtraFields2": "voluptatibus"
+    "ExtraFields1": "aspernatur",
+    "ExtraFields2": "saepe"
   },
   "CustomFields": {
-    "CustomFields1": "alias",
-    "CustomFields2": "voluptatem"
+    "CustomFields1": "nobis",
+    "CustomFields2": "alias"
   },
-  "PublishEventDate": "2014-11-29T02:38:21.3076706+01:00",
-  "PublishTo": "2002-10-06T02:38:21.3076706+02:00",
-  "PublishFrom": "2020-12-29T02:38:21.3076706+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2022-01-11T14:28:21.8835236+01:00",
+  "PublishTo": "2006-08-28T14:28:21.8835236+02:00",
+  "PublishFrom": "2011-10-25T14:28:21.8835236+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 937,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldLength": 61
         }
       }
     },
     {
-      "VisibleId": 937,
+      "VisibleId": 960,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldLength": 61
         }
       }
     }
@@ -212,7 +212,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldLength": 410
     }
   }
 }

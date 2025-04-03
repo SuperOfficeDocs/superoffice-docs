@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 647,
-  "Name": "Heller-Dietrich",
-  "Tooltip": "aliquid",
-  "Rank": 829,
-  "Rate": 14764.274,
-  "Units": 7562.342,
+  "CurrencyId": 565,
+  "Name": "Parker, Toy and Wunsch",
+  "Tooltip": "quia",
+  "Rank": 7,
+  "Rate": 28553.874,
+  "Units": 16980.012,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldLength": 537
     }
   }
 }

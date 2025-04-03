@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=sed
+GET /api/v1/List/ConsentPurpose/MDOItems?query=est
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 728,
-    "Name": "McClure-Roob",
-    "ToolTip": "Veniam quibusdam.",
+    "Id": 93,
+    "Name": "Kassulke, Emmerich and Rohan",
+    "ToolTip": "Libero quis modi reprehenderit mollitia.",
     "Deleted": false,
-    "Rank": 893,
-    "Type": "provident",
+    "Rank": 565,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 909,
-        "Name": "Kshlerin Group",
-        "ToolTip": "Dolor quam in facilis.",
-        "Deleted": false,
-        "Rank": 265,
-        "Type": "voluptas",
+        "Id": 90,
+        "Name": "Morar Inc and Sons",
+        "ToolTip": "Consequuntur magnam.",
+        "Deleted": true,
+        "Rank": 450,
+        "Type": "illum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "libero",
-        "ColorBlock": 812,
-        "ExtraInfo": "ex",
-        "StyleHint": "et",
-        "FullName": "Parker Deckow",
+        "IconHint": "aliquid",
+        "ColorBlock": 249,
+        "ExtraInfo": "eum",
+        "StyleHint": "optio",
+        "FullName": "Flossie Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 95
+            "FieldType": "System.String",
+            "FieldLength": 456
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 369,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "ut",
-    "FullName": "Gwen Kulas",
+    "IconHint": "nobis",
+    "ColorBlock": 403,
+    "ExtraInfo": "voluptates",
+    "StyleHint": "qui",
+    "FullName": "Jenifer Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 573
+        "FieldLength": 16
       }
     }
   }

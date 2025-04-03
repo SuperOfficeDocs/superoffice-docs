@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Contact/GetPersons
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 241
+  "ContactId": 488
 }
 ```
 
@@ -129,53 +129,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ipsum",
-    "PersonId": 103,
-    "Mrmrs": "accusamus",
-    "Firstname": "Dario",
-    "Lastname": "Stehr",
-    "MiddleName": "Von, Vandervort and Wiegand",
-    "Title": "voluptas",
-    "Description": "Balanced user-facing application",
-    "Email": "fleta@mcglynn.info",
-    "FullName": "Martine Huels",
-    "DirectPhone": "1-123-134-6261 x055",
-    "FormalName": "Kshlerin Inc and Sons",
-    "CountryId": 891,
-    "ContactId": 828,
-    "ContactName": "Balistreri LLC",
-    "Retired": 503,
-    "Rank": 746,
-    "ActiveInterests": 634,
+    "Position": "a",
+    "PersonId": 142,
+    "Mrmrs": "ipsam",
+    "Firstname": "Silas",
+    "Lastname": "Breitenberg",
+    "MiddleName": "Wiza-Hermann",
+    "Title": "eos",
+    "Description": "Networked bottom-line collaboration",
+    "Email": "eva_howell@durganweber.co.uk",
+    "FullName": "Dr. Aimee Albina Gleason",
+    "DirectPhone": "(867)574-2765 x050",
+    "FormalName": "Mayert-Bednar",
+    "CountryId": 876,
+    "ContactId": 481,
+    "ContactName": "Bauch, Kilback and Hackett",
+    "Retired": 585,
+    "Rank": 879,
+    "ActiveInterests": 893,
     "ContactDepartment": "",
-    "ContactCountryId": 962,
-    "ContactOrgNr": "776028",
-    "FaxPhone": "(439)451-9895 x839",
-    "MobilePhone": "1-637-982-0723",
-    "ContactPhone": "426.989.0519",
-    "AssociateName": "Dickens Group",
-    "AssociateId": 17,
+    "ContactCountryId": 983,
+    "ContactOrgNr": "1031792",
+    "FaxPhone": "(509)620-2355 x58385",
+    "MobilePhone": "(563)504-1268 x416",
+    "ContactPhone": "830.596.6308",
+    "AssociateName": "Batz Group",
+    "AssociateId": 518,
     "UsePersonAddress": false,
-    "ContactFax": "qui",
-    "Kanafname": "recusandae",
-    "Kanalname": "occaecati",
-    "Post1": "exercitationem",
-    "Post2": "ipsam",
-    "Post3": "ad",
-    "EmailName": "vickie@prosacco.co.uk",
-    "ContactFullName": "Miss Ernestine Jed Hilpert",
-    "ActiveErpLinks": 956,
-    "TicketPriorityId": 480,
-    "SupportLanguageId": 71,
-    "SupportAssociateId": 949,
+    "ContactFax": "at",
+    "Kanafname": "veniam",
+    "Kanalname": "reprehenderit",
+    "Post1": "corporis",
+    "Post2": "sed",
+    "Post3": "qui",
+    "EmailName": "derick@feil.name",
+    "ContactFullName": "Jazmyn Hilpert",
+    "ActiveErpLinks": 815,
+    "TicketPriorityId": 939,
+    "SupportLanguageId": 672,
+    "SupportAssociateId": 426,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1638939",
+    "PersonNumber": "1003413",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 667
+        "FieldLength": 124
       }
     }
   }

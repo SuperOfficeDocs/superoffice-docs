@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "deleniti",
+    "path": "odio",
     "value": {}
   },
   {
     "op": "add",
-    "path": "deleniti",
+    "path": "odio",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Zboncak, Murphy and Pollich",
-  "Comment": "est",
-  "StakeholderRoleId": 110,
-  "CountryId": 206,
-  "PersonId": 695,
-  "EmailDescription": "vickie@pricelebsack.us",
-  "EmailId": 562,
-  "EmailAddress": "landen@connelly.com",
-  "PhoneId": 660,
-  "ContactName": "Dicki Inc and Sons",
-  "ContactId": 774,
-  "SaleId": 993,
-  "Mrmrs": "porro",
-  "Firstname": "Hiram",
-  "MiddleName": "Boyer-Mitchell",
-  "Lastname": "Lehner",
-  "SaleStakeholderId": 800,
-  "Rank": 535,
-  "Phone": "1-909-387-7245 x4535",
+  "StakeholderRoleName": "Gulgowski Inc and Sons",
+  "Comment": "ut",
+  "StakeholderRoleId": 774,
+  "CountryId": 551,
+  "PersonId": 604,
+  "EmailDescription": "jeanie.feest@daugherty.ca",
+  "EmailId": 914,
+  "EmailAddress": "rylan.gislason@brekketorphy.com",
+  "PhoneId": 854,
+  "ContactName": "Prosacco, Blick and Stracke",
+  "ContactId": 759,
+  "SaleId": 571,
+  "Mrmrs": "officiis",
+  "Firstname": "Jonathan",
+  "MiddleName": "Dietrich, Marvin and Hermiston",
+  "Lastname": "Quigley",
+  "SaleStakeholderId": 104,
+  "Rank": 447,
+  "Phone": "(365)517-1812 x06673",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldType": "System.String",
+      "FieldLength": 994
     }
   },
   "_Links": {

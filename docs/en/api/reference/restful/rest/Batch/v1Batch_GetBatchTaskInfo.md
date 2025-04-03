@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 263,
-  "Name": "Davis, Krajcik and Cummings",
-  "AssociateId": 287,
-  "DetailsTable": 131,
-  "DetailsRecord": 263,
-  "IsSystemTask": true,
-  "IsInternalTask": true,
+  "Id": 894,
+  "Name": "Kutch, Dicki and Stehr",
+  "AssociateId": 982,
+  "DetailsTable": 682,
+  "DetailsRecord": 15,
+  "IsSystemTask": false,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "ipsa",
-    "ParameterObject2": "ea"
+    "ParameterObject1": "nihil",
+    "ParameterObject2": "perspiciatis"
   },
-  "LastStarted": "2016-03-30T02:38:26.5266399+02:00",
-  "Created": "2011-09-29T02:38:26.5266399+02:00",
-  "StartCount": 859,
-  "DatabaseSerialNumber": "410426",
-  "Context": "assumenda",
-  "Result": "tempora",
+  "LastStarted": "2019-08-19T14:28:27.3520534+02:00",
+  "Created": "2006-01-29T14:28:27.3520534+01:00",
+  "StartCount": 805,
+  "DatabaseSerialNumber": "1143586",
+  "Context": "fugit",
+  "Result": "facilis",
   "State": "All",
-  "Description": "Fundamental user-facing throughput",
-  "Response": "delectus",
-  "Request": "non",
-  "ProgressDescription": "Sharable neutral database",
-  "ProgressPercent": 890,
-  "FileName": "Kub LLC",
+  "Description": "Monitored foreground approach",
+  "Response": "libero",
+  "Request": "eveniet",
+  "ProgressDescription": "Enhanced logistical artificial intelligence",
+  "ProgressPercent": 222,
+  "FileName": "Stiedemann Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 324
     }
   }
 }

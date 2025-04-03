@@ -44,6 +44,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.MainTableName
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ModifyQuery
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ProcessOrderBy
+  - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName(SuperOffice.Data.SaleStatus,System.Int32,System.String)
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.TableToExtend
   - SuperOffice.CRM.ArchiveLists.SaleExtenderBase.VisibleForTable
@@ -1187,6 +1188,42 @@ items:
   modifiers.vb:
   - Protected
   - Overrides
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName(SuperOffice.Data.SaleStatus,System.Int32,System.String)
+  commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName(SuperOffice.Data.SaleStatus,System.Int32,System.String)
+  id: ResolveProbabilityName(SuperOffice.Data.SaleStatus,System.Int32,System.String)
+  parent: SuperOffice.CRM.ArchiveLists.SaleExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: ResolveProbabilityName(SaleStatus, Int32, String)
+  nameWithType: SaleExtenderBase.ResolveProbabilityName(SaleStatus, Int32, String)
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName(SuperOffice.Data.SaleStatus, System.Int32, System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public static ValueTuple<string, int> ResolveProbabilityName(SaleStatus status, int probId, string probName)
+    parameters:
+    - id: status
+      type: SuperOffice.Data.SaleStatus
+    - id: probId
+      type: System.Int32
+    - id: probName
+      type: System.String
+    return:
+      type: System.ValueTuple{System.String,System.Int32}
+    content.vb: Public Shared Function ResolveProbabilityName(status As SaleStatus, probId As Integer, probName As String) As ValueTuple(Of String, Integer)
+  overload: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   id: SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
@@ -7640,6 +7677,141 @@ references:
   - name: )
     nameWithType: )
     fullName: )
+- uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName*
+  commentId: Overload:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName
+  isExternal: true
+  name: ResolveProbabilityName
+  nameWithType: SaleExtenderBase.ResolveProbabilityName
+  fullName: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.ResolveProbabilityName
+- uid: SuperOffice.Data.SaleStatus
+  commentId: T:SuperOffice.Data.SaleStatus
+  parent: SuperOffice.Data
+  isExternal: true
+  name: SaleStatus
+  nameWithType: SaleStatus
+  fullName: SuperOffice.Data.SaleStatus
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.ValueTuple{System.String,System.Int32}
+  commentId: '!:System.ValueTuple{System.String,System.Int32}'
+  definition: System.ValueTuple`2
+  name: ValueTuple<String, Int32>
+  nameWithType: ValueTuple<String, Int32>
+  fullName: System.ValueTuple<System.String, System.Int32>
+  nameWithType.vb: ValueTuple(Of String, Int32)
+  fullName.vb: System.ValueTuple(Of System.String, System.Int32)
+  name.vb: ValueTuple(Of String, Int32)
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data
+  commentId: N:SuperOffice.Data
+  isExternal: true
+  name: SuperOffice.Data
+  nameWithType: SuperOffice.Data
+  fullName: SuperOffice.Data
+- uid: System.ValueTuple`2
+  isExternal: true
+  name: ValueTuple<, >
+  nameWithType: ValueTuple<, >
+  fullName: System.ValueTuple<, >
+  nameWithType.vb: ValueTuple(Of , )
+  fullName.vb: System.ValueTuple(Of , )
+  name.vb: ValueTuple(Of , )
+  spec.csharp:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.ValueTuple`2
+    name: ValueTuple
+    nameWithType: ValueTuple
+    fullName: System.ValueTuple
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
 - uid: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   commentId: M:SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase.SetOrderBy(SuperOffice.CRM.ArchiveLists.ArchiveOrderByInfo[])
   parent: SuperOffice.CRM.ArchiveLists.ExtensibleColumnsBase
@@ -7836,12 +8008,6 @@ references:
   name: ArchiveRow
   nameWithType: ArchiveRow
   fullName: SuperOffice.CRM.ArchiveLists.ArchiveRow
-- uid: SuperOffice.Data
-  commentId: N:SuperOffice.Data
-  isExternal: true
-  name: SuperOffice.Data
-  nameWithType: SuperOffice.Data
-  fullName: SuperOffice.Data
 - uid: SuperOffice.CRM.ArchiveLists.SaleExtenderBase.VisibleForTable*
   commentId: Overload:SuperOffice.CRM.ArchiveLists.SaleExtenderBase.VisibleForTable
   isExternal: true

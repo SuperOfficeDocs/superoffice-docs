@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Keebler-Mayer",
-  "Comment": "enim",
-  "StakeholderRoleId": 3,
-  "CountryId": 263,
-  "PersonId": 118,
-  "EmailDescription": "eleanora@gaylordullrich.us",
-  "EmailId": 697,
-  "EmailAddress": "alphonso@lemke.us",
-  "PhoneId": 167,
-  "ContactName": "Jerde-Marks",
-  "ContactId": 416,
-  "SaleId": 57,
-  "Mrmrs": "consequatur",
-  "Firstname": "Demond",
-  "MiddleName": "Goodwin-Quitzon",
-  "Lastname": "Legros",
-  "SaleStakeholderId": 727,
-  "Rank": 600,
-  "Phone": "(217)609-5126 x7183"
+  "StakeholderRoleName": "Ruecker, Jacobi and Bogan",
+  "Comment": "possimus",
+  "StakeholderRoleId": 302,
+  "CountryId": 139,
+  "PersonId": 223,
+  "EmailDescription": "lamont@hilpert.com",
+  "EmailId": 612,
+  "EmailAddress": "leora@lindrohan.biz",
+  "PhoneId": 69,
+  "ContactName": "Howell-Fahey",
+  "ContactId": 610,
+  "SaleId": 217,
+  "Mrmrs": "rerum",
+  "Firstname": "Dariana",
+  "MiddleName": "Koss LLC",
+  "Lastname": "Cole",
+  "SaleStakeholderId": 337,
+  "Rank": 886,
+  "Phone": "1-552-172-6574 x3228"
 }
 ```
 
@@ -148,31 +148,31 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Daugherty, Berge and Ledner",
-  "Comment": "velit",
-  "StakeholderRoleId": 356,
-  "CountryId": 409,
-  "PersonId": 268,
-  "EmailDescription": "cory.will@gibson.co.uk",
-  "EmailId": 246,
-  "EmailAddress": "abby@herzog.info",
-  "PhoneId": 631,
-  "ContactName": "Quigley Inc and Sons",
-  "ContactId": 585,
-  "SaleId": 672,
-  "Mrmrs": "esse",
-  "Firstname": "Alexandrine",
-  "MiddleName": "Wilkinson, Batz and Christiansen",
-  "Lastname": "Lockman",
-  "SaleStakeholderId": 518,
-  "Rank": 309,
-  "Phone": "(077)085-4546 x63735",
+  "StakeholderRoleName": "Pfannerstill Group",
+  "Comment": "est",
+  "StakeholderRoleId": 670,
+  "CountryId": 635,
+  "PersonId": 48,
+  "EmailDescription": "sedrick_daniel@littel.uk",
+  "EmailId": 105,
+  "EmailAddress": "america_stanton@langworth.us",
+  "PhoneId": 517,
+  "ContactName": "Little-Jerde",
+  "ContactId": 852,
+  "SaleId": 487,
+  "Mrmrs": "praesentium",
+  "Firstname": "Billy",
+  "MiddleName": "Torphy Group",
+  "Lastname": "Krajcik",
+  "SaleStakeholderId": 786,
+  "Rank": 585,
+  "Phone": "(404)811-9220 x9982",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 985
+      "FieldType": "System.Int32",
+      "FieldLength": 8
     }
   },
   "_Links": {

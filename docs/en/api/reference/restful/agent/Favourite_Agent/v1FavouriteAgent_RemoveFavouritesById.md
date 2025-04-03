@@ -69,8 +69,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FavouriteIds": [
-    219,
-    246
+    668,
+    179
   ]
 }
 ```

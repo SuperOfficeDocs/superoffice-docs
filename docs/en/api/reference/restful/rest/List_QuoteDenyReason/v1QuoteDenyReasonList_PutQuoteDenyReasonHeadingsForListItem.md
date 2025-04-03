@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 499,
-    "Name": "Nolan LLC",
-    "ToolTip": "Consectetur doloremque cupiditate.",
+    "Id": 29,
+    "Name": "Orn-Kerluke",
+    "ToolTip": "Ab repellendus nobis rerum consequatur.",
     "Deleted": false,
-    "Rank": 252,
-    "Type": "atque",
-    "ColorBlock": 311,
-    "IconHint": "illum",
-    "Selected": true,
-    "LastChanged": "2011-12-05T02:38:26.886137+01:00",
+    "Rank": 101,
+    "Type": "sit",
+    "ColorBlock": 314,
+    "IconHint": "dolore",
+    "Selected": false,
+    "LastChanged": "1999-06-27T14:28:27.6645394+02:00",
     "ChildItems": [
       {
-        "Id": 670,
-        "Name": "Ullrich-Rau",
-        "ToolTip": "Nihil et quisquam nostrum.",
-        "Deleted": true,
-        "Rank": 34,
-        "Type": "quas",
-        "ColorBlock": 78,
-        "IconHint": "provident",
+        "Id": 788,
+        "Name": "Lind-Schuster",
+        "ToolTip": "Dignissimos eum quia eum eum quia est recusandae.",
+        "Deleted": false,
+        "Rank": 282,
+        "Type": "quibusdam",
+        "ColorBlock": 497,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2016-07-07T02:38:26.886137+02:00",
+        "LastChanged": "2010-03-12T14:28:27.6645394+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "rem",
+        "ExtraInfo": "ut",
+        "StyleHint": "explicabo",
         "Hidden": true,
-        "FullName": "Alycia Schaefer"
+        "FullName": "Mr. Pearl Blake Rosenbaum I"
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Joel Bartell"
+    "ExtraInfo": "molestiae",
+    "StyleHint": "voluptate",
+    "Hidden": false,
+    "FullName": "Stephania Dicki"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Name": "Lemke-Maggio",
-    "ToolTip": "Officia dignissimos debitis ab.",
+    "Id": 970,
+    "Name": "Yost LLC",
+    "ToolTip": "Velit ut.",
     "Deleted": false,
-    "Rank": 565,
-    "Type": "ipsam",
-    "ColorBlock": 904,
-    "IconHint": "saepe",
-    "Selected": true,
-    "LastChanged": "2012-03-19T02:38:26.886137+01:00",
+    "Rank": 176,
+    "Type": "laboriosam",
+    "ColorBlock": 779,
+    "IconHint": "fugit",
+    "Selected": false,
+    "LastChanged": "1998-09-03T14:28:27.6645394+02:00",
     "ChildItems": [
       {
-        "Id": 547,
-        "Name": "Gibson-Gerhold",
-        "ToolTip": "Sit omnis aut ut.",
+        "Id": 985,
+        "Name": "Gislason, Bode and Dach",
+        "ToolTip": "Harum possimus nobis quod quia.",
         "Deleted": false,
-        "Rank": 766,
-        "Type": "esse",
-        "ColorBlock": 447,
-        "IconHint": "deleniti",
+        "Rank": 676,
+        "Type": "fuga",
+        "ColorBlock": 284,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2010-12-04T02:38:26.886137+01:00",
+        "LastChanged": "2005-05-04T14:28:27.6645394+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "fugit",
-        "Hidden": true,
-        "FullName": "Dolly Wyman",
+        "ExtraInfo": "quasi",
+        "StyleHint": "est",
+        "Hidden": false,
+        "FullName": "Magdalen Bailey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 653
+            "FieldLength": 516
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "cum",
-    "Hidden": false,
-    "FullName": "Shemar Hackett",
+    "ExtraInfo": "repellendus",
+    "StyleHint": "odit",
+    "Hidden": true,
+    "FullName": "Prof. Mellie Chelsey Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 607
+        "FieldLength": 576
       }
     }
   }

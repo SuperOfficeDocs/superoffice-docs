@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 729,
-  "Name": "Graham-Reichert",
-  "Tooltip": "sed",
+  "Id": 34,
+  "Name": "Rutherford Group",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 794,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 670,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eos",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldLength": 94
     }
   },
   "_Links": {

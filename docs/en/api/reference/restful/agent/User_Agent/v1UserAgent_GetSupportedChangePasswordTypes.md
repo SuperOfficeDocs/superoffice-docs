@@ -70,11 +70,11 @@ OK
 POST /api/v1/Agents/User/GetSupportedChangePasswordTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 567
+  "AssociateId": 332
 }
 ```
 
@@ -85,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "natus",
-  "maxime"
+  "velit",
+  "similique"
 ]
 ```

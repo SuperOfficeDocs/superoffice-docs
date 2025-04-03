@@ -90,7 +90,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 861
+  "SaleId": 341
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 325,
-  "SaleId": 373,
-  "QuoteConnectionId": 268,
-  "ERPQuoteKey": "tenetur",
-  "ERPOrderKey": "quis",
-  "ActiveQuoteVersionId": 491,
-  "AcceptedQuoteAlternativeId": 495,
-  "UseValuesFromQuote": 958,
-  "DocumentId": 276,
-  "PoNumber": "1099578",
-  "OrderComment": "quibusdam",
-  "PreferredEmailCulture": "regan@padberg.co.uk",
+  "QuoteId": 571,
+  "SaleId": 726,
+  "QuoteConnectionId": 448,
+  "ERPQuoteKey": "ad",
+  "ERPOrderKey": "dolore",
+  "ActiveQuoteVersionId": 636,
+  "AcceptedQuoteAlternativeId": 107,
+  "UseValuesFromQuote": 409,
+  "DocumentId": 296,
+  "PoNumber": "1110944",
+  "OrderComment": "velit",
+  "PreferredEmailCulture": "jaiden@reichel.info",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldType": "System.String",
+      "FieldLength": 937
     }
   }
 }

@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=True
-GET /api/v1/List/SaleType/MDOItems?query=et
+GET /api/v1/List/SaleType/MDOItems?flat=False
+GET /api/v1/List/SaleType/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 343,
-    "Name": "Schiller-Botsford",
-    "ToolTip": "Sed sint ad assumenda.",
+    "Id": 996,
+    "Name": "Stehr-Zboncak",
+    "ToolTip": "Incidunt totam impedit sequi quam.",
     "Deleted": false,
-    "Rank": 32,
-    "Type": "et",
+    "Rank": 92,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 105,
-        "Name": "Schinner Group",
-        "ToolTip": "Minima nisi neque.",
-        "Deleted": true,
-        "Rank": 868,
-        "Type": "consequatur",
+        "Id": 246,
+        "Name": "Witting-Monahan",
+        "ToolTip": "Consequuntur aut nisi iste natus.",
+        "Deleted": false,
+        "Rank": 374,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vitae",
-        "ColorBlock": 512,
-        "ExtraInfo": "saepe",
-        "StyleHint": "est",
-        "FullName": "Dr. Alexzander Mante",
+        "IconHint": "ad",
+        "ColorBlock": 455,
+        "ExtraInfo": "libero",
+        "StyleHint": "commodi",
+        "FullName": "Mrs. Jayden Collins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 484
+            "FieldType": "System.String",
+            "FieldLength": 1000
           }
         }
       }
     ],
-    "IconHint": "voluptas",
-    "ColorBlock": 59,
-    "ExtraInfo": "soluta",
-    "StyleHint": "qui",
-    "FullName": "Novella Ondricka",
+    "IconHint": "aut",
+    "ColorBlock": 141,
+    "ExtraInfo": "accusantium",
+    "StyleHint": "assumenda",
+    "FullName": "Mrs. Maryse Maia Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 13
+        "FieldLength": 705
       }
     }
   }

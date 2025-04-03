@@ -26,7 +26,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=632
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=669
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -104,60 +104,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 63,
-  "Name": "Schuppe-Kertzmann",
+  "TicketPriorityId": 241,
+  "Name": "Cronin-Haley",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 19,
+  "SortOrder": 487,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 95,
-  "MonStart": "2008-09-19T02:38:21.4795326+02:00",
-  "MonStop": "2023-07-04T02:38:21.4795326+02:00",
-  "TueStart": "2004-12-29T02:38:21.4795326+01:00",
-  "TueStop": "2009-10-26T02:38:21.4795326+01:00",
-  "WedStart": "2017-05-06T02:38:21.4795326+02:00",
-  "WedStop": "2006-12-18T02:38:21.4795326+01:00",
-  "ThuStart": "2011-07-18T02:38:21.4795326+02:00",
-  "ThuStop": "2008-08-29T02:38:21.4795326+02:00",
-  "FriStart": "2001-06-12T02:38:21.4795326+02:00",
-  "FriStop": "2007-03-23T02:38:21.4795326+01:00",
-  "SatStart": "2014-12-28T02:38:21.4795326+01:00",
-  "SatStop": "2003-04-24T02:38:21.4795326+02:00",
-  "SunStart": "2021-05-23T02:38:21.4795326+02:00",
-  "SunStop": "2009-05-29T02:38:21.4795326+02:00",
+  "Deadline": 19,
+  "MonStart": "2018-10-06T14:28:22.039767+02:00",
+  "MonStop": "2015-01-15T14:28:22.039767+01:00",
+  "TueStart": "2015-12-13T14:28:22.039767+01:00",
+  "TueStop": "1998-02-01T14:28:22.039767+01:00",
+  "WedStart": "2017-09-11T14:28:22.039767+02:00",
+  "WedStop": "2012-12-23T14:28:22.039767+01:00",
+  "ThuStart": "2001-09-11T14:28:22.039767+02:00",
+  "ThuStop": "2006-09-21T14:28:22.039767+02:00",
+  "FriStart": "2011-01-30T14:28:22.039767+01:00",
+  "FriStop": "2003-02-28T14:28:22.039767+01:00",
+  "SatStart": "1999-07-07T14:28:22.039767+02:00",
+  "SatStop": "2013-04-10T14:28:22.039767+02:00",
+  "SunStart": "2024-12-29T14:28:22.039767+01:00",
+  "SunStop": "2003-12-01T14:28:22.039767+01:00",
   "NonDates": [
-    "ipsa",
-    "asperiores"
+    "impedit",
+    "accusamus"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 995,
-      "AlertLevel": 732,
-      "AlertTimeout": 507,
-      "Action": 377,
-      "DelegateTo": 561,
-      "ScriptId": 858,
-      "EmailTo": "connor.lebsack@russel.name",
-      "SmsTo": "molestias",
-      "ReplyTemplateIdCustomer": 673,
-      "ReplyTemplateIdUser": 836,
-      "ReplyTemplateIdCatmast": 232,
-      "ReplyTemplateIdEmail": 770,
-      "RtiCustomerSms": 86,
-      "ReplyTemplateIdUserSms": 942,
-      "ReplyTemplateIdCatmastSms": 417,
-      "ReplyTemplateIdSms": 23,
+      "TicketAlertId": 821,
+      "AlertLevel": 418,
+      "AlertTimeout": 386,
+      "Action": 400,
+      "DelegateTo": 780,
+      "ScriptId": 146,
+      "EmailTo": "alisha@heidenreichdamore.com",
+      "SmsTo": "quia",
+      "ReplyTemplateIdCustomer": 499,
+      "ReplyTemplateIdUser": 46,
+      "ReplyTemplateIdCatmast": 25,
+      "ReplyTemplateIdEmail": 661,
+      "RtiCustomerSms": 198,
+      "ReplyTemplateIdUserSms": 627,
+      "ReplyTemplateIdCatmastSms": 652,
+      "ReplyTemplateIdSms": 840,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 759
+          "FieldLength": 890
         }
       }
     }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 322
     }
   }
 }

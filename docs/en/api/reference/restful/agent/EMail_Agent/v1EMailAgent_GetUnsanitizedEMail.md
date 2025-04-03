@@ -108,7 +108,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 911,
+  "Id": 129,
   "IncludeAttachments": false
 }
 ```
@@ -122,156 +122,156 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 574,
-      "ContactName": "King, McLaughlin and Lowe",
-      "PersonId": 299,
-      "PersonName": "Bruen, Gottlieb and Mann",
-      "AssociateId": 193,
-      "Address": "laborum",
-      "EmailId": 19,
+      "ContactId": 227,
+      "ContactName": "Metz, Shanahan and Howe",
+      "PersonId": 175,
+      "PersonName": "Bogan-Kohler",
+      "AssociateId": 932,
+      "Address": "aspernatur",
+      "EmailId": 256,
       "DuplicatePersonIds": [
-        474,
-        156
+        613,
+        66
       ],
-      "Name": "Orn, Stamm and Lockman",
+      "Name": "Gerlach, McClure and Hoppe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 271
+          "FieldLength": 697
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 855,
-      "ContactName": "Haag LLC",
-      "PersonId": 98,
-      "PersonName": "Price-Schinner",
-      "AssociateId": 908,
-      "Address": "ut",
-      "EmailId": 195,
+      "ContactId": 400,
+      "ContactName": "Schneider, Rodriguez and Bernhard",
+      "PersonId": 413,
+      "PersonName": "Hodkiewicz Group",
+      "AssociateId": 69,
+      "Address": "id",
+      "EmailId": 871,
       "DuplicatePersonIds": [
-        22,
-        515
+        339,
+        485
       ],
-      "Name": "Jakubowski-Krajcik",
+      "Name": "Lueilwitz, Raynor and Macejkovic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 637
+          "FieldLength": 587
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 88,
-      "ContactName": "Wisoky LLC",
-      "PersonId": 444,
-      "PersonName": "Balistreri, Cartwright and Mitchell",
-      "AssociateId": 419,
-      "Address": "dolorem",
-      "EmailId": 957,
+      "ContactId": 665,
+      "ContactName": "Rath-Barton",
+      "PersonId": 748,
+      "PersonName": "Schulist-O'Conner",
+      "AssociateId": 898,
+      "Address": "eum",
+      "EmailId": 214,
       "DuplicatePersonIds": [
-        674,
-        300
+        436,
+        594
       ],
-      "Name": "Hoeger, McKenzie and Welch",
+      "Name": "Paucek, O'Keefe and Jones",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 32
+          "FieldType": "System.String",
+          "FieldLength": 843
         }
       }
     }
   ],
-  "Subject": "eligendi",
-  "HTMLBody": "eum",
+  "Subject": "ab",
+  "HTMLBody": "incidunt",
   "From": null,
-  "Sent": "2018-11-03T02:38:21.401411+01:00",
-  "Size": 406,
+  "Sent": "2023-07-02T14:28:21.9772696+02:00",
+  "Size": 590,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "molestiae",
-  "PlainBody": "error",
+  "MessageID": "ut",
+  "PlainBody": "molestiae",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 613,
+  "ServerId": 258,
   "Attachments": [
     {
-      "Description": "Programmable explicit protocol",
-      "Filename": "sit",
-      "Size": 298,
-      "Type": "dolor",
-      "Encoding": "illum",
-      "Id": "veritatis",
-      "Disposition": "nihil",
-      "IsSafeFileExtension": true,
+      "Description": "Implemented real-time workforce",
+      "Filename": "laboriosam",
+      "Size": 342,
+      "Type": "vel",
+      "Encoding": "eligendi",
+      "Id": "et",
+      "Disposition": "eos",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 873
+          "FieldLength": 622
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Rodriguez LLC",
+      "Name": "Kilback, Dooley and Williamson",
       "Values": [
-        "eveniet",
-        "est"
+        "id",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 64
+          "FieldLength": 589
         }
       }
     },
     {
-      "Name": "Rodriguez LLC",
+      "Name": "Kilback, Dooley and Williamson",
       "Values": [
-        "eveniet",
-        "est"
+        "id",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 64
+          "FieldLength": 589
         }
       }
     }
   ],
-  "FolderName": "Terry-Schoen",
-  "EmailItemId": 551,
-  "AccountId": 645,
-  "ReceivedAt": "2008-06-06T02:38:21.401411+02:00",
+  "FolderName": "Reinger, Schiller and Raynor",
+  "EmailItemId": 363,
+  "AccountId": 914,
+  "ReceivedAt": "2011-10-18T14:28:21.9772696+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-01-20T02:38:21.401411+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2022-07-24T14:28:21.9772696+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 376
+      "FieldType": "System.Int32",
+      "FieldLength": 80
     }
   }
 }

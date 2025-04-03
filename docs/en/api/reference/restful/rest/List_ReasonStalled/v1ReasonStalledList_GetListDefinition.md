@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 61,
-  "Name": "Hagenes, Kemmer and Wehner",
-  "Tooltip": "et",
+  "Id": 899,
+  "Name": "Beahan, Kunde and Trantow",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "Rank": 53,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "accusamus",
+  "Rank": 669,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "magnam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 827
+      "FieldType": "System.Int32",
+      "FieldLength": 489
     }
   },
   "_Links": {

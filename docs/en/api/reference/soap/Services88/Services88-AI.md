@@ -199,6 +199,7 @@ title: Services88.AIAgent WSDL
               <xs:element minOccurs="0" name="SuggestedAppointmentId" type="xs:int" />
               <xs:element minOccurs="0" name="IsMileStone" type="xs:boolean" />
               <xs:element minOccurs="0" name="CautionWarning" type="q15:AppointmentCautionWarning" />
+              <xs:element minOccurs="0" name="OwnedExternally" type="q15:AppointmentExternalOwner" />
               <xs:element minOccurs="0" name="JoinVideomeetUrl" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="CentralserviceVideomeetId" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="UserDefinedFields" nillable="true" type="q15:StringDictionary" />
@@ -1122,6 +1123,20 @@ title: Services88.AIAgent WSDL
         </xs:restriction>
       </xs:simpleType>
       <xs:element name="AppointmentCautionWarning" nillable="true" type="q111:AppointmentCautionWarning" xmlns:q111="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:simpleType name="AppointmentExternalOwner">
+        <xs:annotation>
+          <xs:appinfo>
+            <ActualType Name="short" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+          </xs:appinfo>
+        </xs:annotation>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="None" />
+          <xs:enumeration value="Other" />
+          <xs:enumeration value="Outlook" />
+          <xs:enumeration value="Google" />
+        </xs:restriction>
+      </xs:simpleType>
+      <xs:element name="AppointmentExternalOwner" nillable="true" type="q112:AppointmentExternalOwner" xmlns:q112="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="StringDictionary">
         <xs:annotation>
           <xs:appinfo>
@@ -1139,25 +1154,25 @@ title: Services88.AIAgent WSDL
           </xs:element>
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="StringDictionary" nillable="true" type="q112:StringDictionary" xmlns:q112="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="StringDictionary" nillable="true" type="q113:StringDictionary" xmlns:q113="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ArrayOfVisibleFor">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="VisibleFor" nillable="true" type="q113:VisibleFor" xmlns:q113="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="VisibleFor" nillable="true" type="q114:VisibleFor" xmlns:q114="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfVisibleFor" nillable="true" type="q114:ArrayOfVisibleFor" xmlns:q114="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfVisibleFor" nillable="true" type="q115:ArrayOfVisibleFor" xmlns:q115="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="VisibleFor">
         <xs:complexContent mixed="false">
-          <xs:extension base="q115:Carrier" xmlns:q115="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q116:Carrier" xmlns:q116="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="VisibleId" type="xs:int" />
-              <xs:element minOccurs="0" name="Visibility" type="q115:Visibility" />
+              <xs:element minOccurs="0" name="Visibility" type="q116:Visibility" />
               <xs:element minOccurs="0" name="DisplayValue" nillable="true" type="xs:string" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="VisibleFor" nillable="true" type="q116:VisibleFor" xmlns:q116="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="VisibleFor" nillable="true" type="q117:VisibleFor" xmlns:q117="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:simpleType name="Visibility">
         <xs:restriction base="xs:string">
           <xs:enumeration value="All" />
@@ -1165,7 +1180,7 @@ title: Services88.AIAgent WSDL
           <xs:enumeration value="Group" />
         </xs:restriction>
       </xs:simpleType>
-      <xs:element name="Visibility" nillable="true" type="q117:Visibility" xmlns:q117="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Visibility" nillable="true" type="q118:Visibility" xmlns:q118="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="CreateTextForAppointmentResponse">
         <xs:complexType>
           <xs:sequence>
@@ -1181,26 +1196,26 @@ title: Services88.AIAgent WSDL
       <xs:element name="GetTrainingStatusResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q118:CategorizationStatusResponse" xmlns:q118="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q119:CategorizationStatusResponse" xmlns:q119="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="CategorizationStatusResponse">
         <xs:complexContent mixed="false">
-          <xs:extension base="q119:Carrier" xmlns:q119="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q120:Carrier" xmlns:q120="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ContextIdentifier" nillable="true" type="xs:string" />
               <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
-              <xs:element minOccurs="0" name="CurrentModel" nillable="true" type="q119:CategorizationModelDetails" />
-              <xs:element minOccurs="0" name="PreviousModel" nillable="true" type="q119:CategorizationModelDetails" />
+              <xs:element minOccurs="0" name="CurrentModel" nillable="true" type="q120:CategorizationModelDetails" />
+              <xs:element minOccurs="0" name="PreviousModel" nillable="true" type="q120:CategorizationModelDetails" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="CategorizationStatusResponse" nillable="true" type="q120:CategorizationStatusResponse" xmlns:q120="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="CategorizationStatusResponse" nillable="true" type="q121:CategorizationStatusResponse" xmlns:q121="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="CategorizationModelDetails">
         <xs:complexContent mixed="false">
-          <xs:extension base="q121:Carrier" xmlns:q121="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q122:Carrier" xmlns:q122="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="ModelBuiltDateTime" type="xs:dateTime" />
               <xs:element minOccurs="0" name="Accuracy" type="xs:double" />
@@ -1209,7 +1224,7 @@ title: Services88.AIAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="CategorizationModelDetails" nillable="true" type="q122:CategorizationModelDetails" xmlns:q122="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="CategorizationModelDetails" nillable="true" type="q123:CategorizationModelDetails" xmlns:q123="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GuessCategory">
         <xs:complexType>
           <xs:sequence>
@@ -1247,32 +1262,32 @@ title: Services88.AIAgent WSDL
             <xs:element minOccurs="0" name="IsoLangCode" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="UserPrompt" nillable="true" type="xs:string" />
             <xs:element minOccurs="0" name="DisplayValue" nillable="true" type="xs:string" />
-            <xs:element minOccurs="0" name="PreviousTurns" nillable="true" type="q123:ArrayOfChatbotTurn" xmlns:q123="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="PreviousTurns" nillable="true" type="q124:ArrayOfChatbotTurn" xmlns:q124="http://www.superoffice.net/ws/crm/NetServer/Services88" />
             <xs:element minOccurs="0" name="ApiUrl" nillable="true" type="xs:string" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="ArrayOfChatbotTurn">
         <xs:sequence>
-          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatbotTurn" nillable="true" type="q124:ChatbotTurn" xmlns:q124="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" maxOccurs="unbounded" name="ChatbotTurn" nillable="true" type="q125:ChatbotTurn" xmlns:q125="http://www.superoffice.net/ws/crm/NetServer/Services88" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ArrayOfChatbotTurn" nillable="true" type="q125:ArrayOfChatbotTurn" xmlns:q125="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ArrayOfChatbotTurn" nillable="true" type="q126:ArrayOfChatbotTurn" xmlns:q126="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:complexType name="ChatbotTurn">
         <xs:sequence>
           <xs:element minOccurs="0" name="Timestamp" type="xs:dateTime" />
           <xs:element minOccurs="0" name="UserPrompt" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="UserDisplayText" nillable="true" type="xs:string" />
           <xs:element minOccurs="0" name="BotResponse" nillable="true" type="xs:string" />
-          <xs:element minOccurs="0" name="BotActions" nillable="true" type="q126:StringDictionary" xmlns:q126="http://www.superoffice.net/ws/crm/NetServer/Services88" />
-          <xs:element minOccurs="0" name="Attachments" nillable="true" type="q127:ArrayOfstring" xmlns:q127="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+          <xs:element minOccurs="0" name="BotActions" nillable="true" type="q127:StringDictionary" xmlns:q127="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+          <xs:element minOccurs="0" name="Attachments" nillable="true" type="q128:ArrayOfstring" xmlns:q128="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
         </xs:sequence>
       </xs:complexType>
-      <xs:element name="ChatbotTurn" nillable="true" type="q128:ChatbotTurn" xmlns:q128="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="ChatbotTurn" nillable="true" type="q129:ChatbotTurn" xmlns:q129="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="GetChatbotResponseResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q129:ChatbotTurn" xmlns:q129="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q130:ChatbotTurn" xmlns:q130="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1288,7 +1303,7 @@ title: Services88.AIAgent WSDL
       <xs:element name="GetChatbotPromptSuggestionsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q130:ChatbotTurn" xmlns:q130="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q131:ChatbotTurn" xmlns:q131="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1302,7 +1317,7 @@ title: Services88.AIAgent WSDL
       <xs:element name="GetChatbotTurnsResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q131:ArrayOfChatbotTurn" xmlns:q131="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q132:ArrayOfChatbotTurn" xmlns:q132="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1342,13 +1357,13 @@ title: Services88.AIAgent WSDL
       <xs:element name="DetectSentimentResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q132:Sentiment" xmlns:q132="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q133:Sentiment" xmlns:q133="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
       <xs:complexType name="Sentiment">
         <xs:complexContent mixed="false">
-          <xs:extension base="q133:Carrier" xmlns:q133="http://www.superoffice.net/ws/crm/NetServer/Services88">
+          <xs:extension base="q134:Carrier" xmlns:q134="http://www.superoffice.net/ws/crm/NetServer/Services88">
             <xs:sequence>
               <xs:element minOccurs="0" name="Score" type="xs:int" />
               <xs:element minOccurs="0" name="Confidence" type="xs:int" />
@@ -1356,7 +1371,7 @@ title: Services88.AIAgent WSDL
           </xs:extension>
         </xs:complexContent>
       </xs:complexType>
-      <xs:element name="Sentiment" nillable="true" type="q134:Sentiment" xmlns:q134="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+      <xs:element name="Sentiment" nillable="true" type="q135:Sentiment" xmlns:q135="http://www.superoffice.net/ws/crm/NetServer/Services88" />
       <xs:element name="Translate">
         <xs:complexType>
           <xs:sequence>
@@ -1417,7 +1432,7 @@ title: Services88.AIAgent WSDL
       <xs:element name="GetSummarizeTicketPromptResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q135:ChatbotTurn" xmlns:q135="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q136:ChatbotTurn" xmlns:q136="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1450,7 +1465,7 @@ title: Services88.AIAgent WSDL
       <xs:element name="GetSummarizeContactPromptResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q136:ChatbotTurn" xmlns:q136="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q137:ChatbotTurn" xmlns:q137="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>
@@ -1483,7 +1498,7 @@ title: Services88.AIAgent WSDL
       <xs:element name="GetSummarizeSalePromptResponse">
         <xs:complexType>
           <xs:sequence>
-            <xs:element minOccurs="0" name="Response" nillable="true" type="q137:ChatbotTurn" xmlns:q137="http://www.superoffice.net/ws/crm/NetServer/Services88" />
+            <xs:element minOccurs="0" name="Response" nillable="true" type="q138:ChatbotTurn" xmlns:q138="http://www.superoffice.net/ws/crm/NetServer/Services88" />
           </xs:sequence>
         </xs:complexType>
       </xs:element>

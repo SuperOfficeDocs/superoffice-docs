@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "TicketIds": [
-    544,
-    176
+    591,
+    518
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketId": 611,
-    "TicketStatus": 990,
-    "Title": "voluptatem",
-    "Registered": "2016-10-29T02:38:22.02635+02:00",
-    "IconHint": "non"
+    "TicketId": 226,
+    "TicketStatus": 46,
+    "Title": "ea",
+    "Registered": "2017-09-04T14:28:22.5397478+02:00",
+    "IconHint": "impedit"
   },
   {
-    "TicketId": 611,
-    "TicketStatus": 990,
-    "Title": "voluptatem",
-    "Registered": "2016-10-29T02:38:22.02635+02:00",
-    "IconHint": "non"
+    "TicketId": 226,
+    "TicketStatus": 46,
+    "Title": "ea",
+    "Registered": "2017-09-04T14:28:22.5397478+02:00",
+    "IconHint": "impedit"
   }
 ]
 ```

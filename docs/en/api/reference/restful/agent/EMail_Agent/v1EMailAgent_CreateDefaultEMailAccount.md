@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 228,
-  "EMailAddress": "ipsum",
-  "AssociateId": 394,
+  "EMailAccountId": 142,
+  "EMailAddress": "atque",
+  "AssociateId": 617,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 167,
-  "ErrorCount": 902,
-  "ErrorReason": "",
-  "InboxFolder": "consequatur",
-  "SentFolder": "beatae",
-  "SimpleMode": 655,
-  "LastFetch": "2010-01-07T02:38:21.3545452+01:00",
+  "AccountStatus": 690,
+  "ErrorCount": 492,
+  "ErrorReason": "embrace wireless e-markets",
+  "InboxFolder": "est",
+  "SentFolder": "non",
+  "SimpleMode": 549,
+  "LastFetch": "2008-08-23T14:28:21.9303967+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 565
     }
   }
 }

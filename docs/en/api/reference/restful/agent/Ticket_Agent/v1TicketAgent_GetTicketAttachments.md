@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 327
+  "TicketEntityId": 277
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 400,
-    "Name": "Green-Leffler",
-    "ContentType": "quis",
-    "AttSize": 70,
-    "InlineImage": true,
-    "ContentId": "iure",
-    "AuthKey": "eos",
+    "AttachmentId": 820,
+    "Name": "Sporer Inc and Sons",
+    "ContentType": "cupiditate",
+    "AttSize": 767,
+    "InlineImage": false,
+    "ContentId": "deserunt",
+    "AuthKey": "nemo",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldLength": 260
       }
     }
   }

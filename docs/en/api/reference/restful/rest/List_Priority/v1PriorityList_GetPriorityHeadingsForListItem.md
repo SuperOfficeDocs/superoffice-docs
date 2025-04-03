@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Priority/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 502,
-    "Name": "Botsford Group",
-    "ToolTip": "Ullam quia eum similique illo dolores voluptatibus.",
+    "Id": 482,
+    "Name": "Kerluke-Sporer",
+    "ToolTip": "Voluptatum est.",
     "Deleted": false,
-    "Rank": 252,
-    "Type": "eligendi",
-    "ColorBlock": 11,
-    "IconHint": "eum",
+    "Rank": 196,
+    "Type": "eum",
+    "ColorBlock": 310,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2012-12-12T02:38:26.8392626+01:00",
+    "LastChanged": "2009-05-25T14:28:27.6176673+02:00",
     "ChildItems": [
       {
-        "Id": 943,
-        "Name": "Robel-DuBuque",
-        "ToolTip": "Sint et beatae hic autem doloribus eos.",
+        "Id": 258,
+        "Name": "Bahringer-Ryan",
+        "ToolTip": "Non sunt asperiores eligendi est quia aut.",
         "Deleted": false,
-        "Rank": 541,
-        "Type": "ducimus",
-        "ColorBlock": 832,
-        "IconHint": "nulla",
+        "Rank": 804,
+        "Type": "delectus",
+        "ColorBlock": 197,
+        "IconHint": "ipsa",
         "Selected": false,
-        "LastChanged": "2021-11-30T02:38:26.8392626+01:00",
+        "LastChanged": "2018-03-01T14:28:27.6176673+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "adipisci",
-        "Hidden": false,
-        "FullName": "Miss Eudora Jefferey Runte",
+        "ExtraInfo": "autem",
+        "StyleHint": "accusamus",
+        "Hidden": true,
+        "FullName": "Keven O'Keefe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 818
+            "FieldLength": 233
           }
         }
       }
     ],
-    "ExtraInfo": "nemo",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Prof. Florencio Dejah Walter",
+    "ExtraInfo": "amet",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Ruth Haley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 53
+        "FieldType": "System.Int32",
+        "FieldLength": 180
       }
     }
   }

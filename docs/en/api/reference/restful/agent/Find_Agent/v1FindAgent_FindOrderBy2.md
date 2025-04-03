@@ -82,16 +82,16 @@ OK
 POST /api/v1/Agents/Find/FindOrderBy2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "dolores",
-  "ProviderName": "Wisozk, Kautzer and Weissnat",
-  "StorageKey": "voluptatem",
-  "PageSize": 841,
-  "PageNumber": 476,
-  "OrderBy": "voluptas"
+  "StorageType": "eos",
+  "ProviderName": "Runolfsson-Wilderman",
+  "StorageKey": "odio",
+  "PageSize": 983,
+  "PageNumber": 130,
+  "OrderBy": "pariatur"
 }
 ```
 
@@ -104,51 +104,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Marvin, Crist and Quigley",
-      "DisplayTooltip": "vel",
-      "DisplayType": "ad",
-      "CanOrderBy": false,
-      "Name": "Keebler Inc and Sons",
+      "DisplayName": "Leuschke, Mayert and Mertz",
+      "DisplayTooltip": "id",
+      "DisplayType": "necessitatibus",
+      "CanOrderBy": true,
+      "Name": "Kulas, Wolf and Rice",
       "CanRestrictBy": false,
-      "RestrictionType": "sint",
-      "RestrictionListName": "Beatty, Parker and McCullough",
-      "IsVisible": true,
-      "ExtraInfo": "sunt",
-      "Width": "vel",
-      "IconHint": "et",
-      "HeadingIconHint": "necessitatibus"
+      "RestrictionType": "possimus",
+      "RestrictionListName": "Steuber LLC",
+      "IsVisible": false,
+      "ExtraInfo": "expedita",
+      "Width": "cum",
+      "IconHint": "eaque",
+      "HeadingIconHint": "reiciendis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Sporer-Satterfield",
-      "PrimaryKey": 98,
+      "EntityName": "Tillman-Leannon",
+      "PrimaryKey": 497,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "delectus",
-          "TooltipHint": "et",
-          "LinkHint": "asperiores"
+          "DisplayValue": "ipsa",
+          "TooltipHint": "molestias",
+          "LinkHint": "occaecati"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "facilis",
+      "LinkHint": "dolorem",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 891
+          "FieldLength": 317
         }
       }
     }
   ],
-  "RowCount": 810,
+  "RowCount": 115,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldLength": 144
     }
   }
 }

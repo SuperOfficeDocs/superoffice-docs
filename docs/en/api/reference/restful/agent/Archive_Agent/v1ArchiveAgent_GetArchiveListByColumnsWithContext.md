@@ -104,36 +104,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bauch Group",
+  "ProviderName": "Bartell-Davis",
   "Columns": [
-    "dolorem",
-    "neque"
+    "quas",
+    "totam"
   ],
   "SortOrder": [
     {
-      "Name": "Schroeder-Schroeder",
+      "Name": "Tillman Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "Schroeder-Schroeder",
+      "Name": "Tillman Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Heidenreich, Hamill and McGlynn",
-      "Operator": "esse",
+      "Name": "Ritchie-Blanda",
+      "Operator": "sunt",
       "Values": [
-        "accusantium",
-        "qui"
+        "voluptatem",
+        "repellendus"
       ],
       "DisplayValues": [
-        "est",
-        "saepe"
+        "aperiam",
+        "quia"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -141,18 +141,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 88,
+      "InterParenthesis": 160,
       "InterOperator": "And",
-      "UniqueHash": 722
+      "UniqueHash": 201
     }
   ],
   "Entities": [
-    "ex",
-    "odio"
+    "dignissimos",
+    "occaecati"
   ],
-  "Page": 875,
-  "PageSize": 685,
-  "Context": "itaque"
+  "Page": 337,
+  "PageSize": 560,
+  "Context": "nihil"
 }
 ```
 
@@ -164,23 +164,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Kub Inc and Sons",
-    "PrimaryKey": 287,
+    "EntityName": "Renner, Bernier and Hudson",
+    "PrimaryKey": 66,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "possimus",
-        "TooltipHint": "consequatur",
-        "LinkHint": "ducimus"
+        "DisplayValue": "delectus",
+        "TooltipHint": "est",
+        "LinkHint": "ut"
       }
     },
-    "LinkHint": "qui",
-    "StyleHint": "ipsum",
+    "LinkHint": "ut",
+    "StyleHint": "eos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 861
+        "FieldLength": 588
       }
     }
   }

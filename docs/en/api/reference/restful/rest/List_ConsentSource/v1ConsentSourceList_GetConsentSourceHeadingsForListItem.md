@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 295,
-    "Name": "McClure Group",
-    "ToolTip": "Ea nemo.",
+    "Id": 456,
+    "Name": "Homenick, Jacobs and Grimes",
+    "ToolTip": "Sint qui eum non aspernatur incidunt rem harum.",
     "Deleted": true,
-    "Rank": 571,
-    "Type": "possimus",
-    "ColorBlock": 921,
-    "IconHint": "quo",
+    "Rank": 481,
+    "Type": "et",
+    "ColorBlock": 68,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2014-12-05T02:38:26.7142749+01:00",
+    "LastChanged": "2011-03-23T14:28:27.5239205+01:00",
     "ChildItems": [
       {
-        "Id": 880,
-        "Name": "Toy LLC",
-        "ToolTip": "Temporibus debitis voluptatem labore.",
+        "Id": 693,
+        "Name": "Stehr, Schamberger and Rippin",
+        "ToolTip": "Et quidem.",
         "Deleted": false,
-        "Rank": 591,
-        "Type": "earum",
-        "ColorBlock": 765,
-        "IconHint": "quis",
+        "Rank": 582,
+        "Type": "laborum",
+        "ColorBlock": 666,
+        "IconHint": "laborum",
         "Selected": false,
-        "LastChanged": "2023-08-26T02:38:26.7142749+02:00",
+        "LastChanged": "2006-09-02T14:28:27.5239205+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "quas",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Dr. Brennon Mayer Sr.",
+        "FullName": "Ms. Conor Hayes DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 407
+            "FieldLength": 398
           }
         }
       }
     ],
-    "ExtraInfo": "repellendus",
-    "StyleHint": "aliquam",
-    "Hidden": false,
-    "FullName": "Mr. Elenora Damian Hoeger",
+    "ExtraInfo": "sed",
+    "StyleHint": "sint",
+    "Hidden": true,
+    "FullName": "Keaton Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 474
+        "FieldType": "System.Int32",
+        "FieldLength": 566
       }
     }
   }

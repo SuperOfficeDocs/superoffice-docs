@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 428,
-  "Name": "Murray LLC",
-  "Tooltip": "aliquid",
+  "RoleId": 467,
+  "Name": "Schuster-Reinger",
+  "Tooltip": "voluptas",
   "RoleType": "Anonymous",
-  "Deleted": 306,
-  "Rank": 832,
-  "Created": "2013-04-27T02:38:22.1825743+02:00",
-  "UseCategories": 323,
+  "Deleted": 603,
+  "Rank": 572,
+  "Created": "2020-02-23T14:28:22.6803663+01:00",
+  "UseCategories": 601,
   "CreatedBy": null,
-  "Updated": "2016-06-15T02:38:22.1825743+02:00",
+  "Updated": "2016-08-30T14:28:22.6803663+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 309
+      "FieldLength": 489
     }
   }
 }

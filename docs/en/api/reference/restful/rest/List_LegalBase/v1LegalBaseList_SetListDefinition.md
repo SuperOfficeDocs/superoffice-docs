@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 941,
-  "Name": "Kemmer Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 900,
+  "Id": 996,
+  "Name": "Strosin-Runolfsdottir",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 117,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "non",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 477,
-  "Name": "Fisher, Pfeffer and Will",
-  "Tooltip": "illo",
-  "Deleted": false,
-  "Rank": 534,
-  "IsCustomList": false,
+  "Id": 454,
+  "Name": "Schamberger, McCullough and Howe",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 365,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aliquam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "commodi",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldType": "System.Int32",
+      "FieldLength": 818
     }
   }
 }

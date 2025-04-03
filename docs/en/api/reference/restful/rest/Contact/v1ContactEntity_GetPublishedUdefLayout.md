@@ -88,7 +88,7 @@ OK
 GET /api/v1/Contact/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 364,
-    "ColumnId": 241,
-    "FieldDefault": "non",
-    "FieldHeight": 427,
-    "FieldLabel": "ut",
-    "FieldLeft": 970,
-    "FieldTop": 488,
+    "UDefFieldId": 756,
+    "ColumnId": 149,
+    "FieldDefault": "dolorem",
+    "FieldHeight": 248,
+    "FieldLabel": "eligendi",
+    "FieldLeft": 825,
+    "FieldTop": 920,
     "FieldType": "Checkbox",
-    "FieldWidth": 263,
-    "FormatMask": "eaque",
-    "HideLabel": false,
+    "FieldWidth": 118,
+    "FormatMask": "cumque",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 815,
-    "LabelLeft": 902,
-    "LabelTop": 997,
-    "LabelWidth": 76,
-    "LastVersionId": 704,
-    "ListTableId": 867,
-    "IsMandatory": true,
+    "LabelHeight": 332,
+    "LabelLeft": 516,
+    "LabelTop": 258,
+    "LabelWidth": 954,
+    "LastVersionId": 144,
+    "ListTableId": 978,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 277,
-    "ProgId": "in",
+    "Page1LineNo": 620,
+    "ProgId": "praesentium",
     "IsReadOnly": false,
-    "ShortLabel": "dolorum",
-    "TabOrder": 950,
-    "TextLength": 14,
-    "Tooltip": "modi",
-    "UdefIdentity": 128,
-    "UDListDefinitionId": 30,
+    "ShortLabel": "id",
+    "TabOrder": 135,
+    "TextLength": 181,
+    "Tooltip": "dolor",
+    "UdefIdentity": 800,
+    "UDListDefinitionId": 37,
     "Justification": "Center",
-    "Version": 342,
-    "TemplateVariableName": "Hilll-Kihn",
+    "Version": 619,
+    "TemplateVariableName": "Pollich-McClure",
     "HasBeenPublished": true,
-    "MdoListName": "Weissnat, Dach and Daugherty",
+    "MdoListName": "Carroll Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 794
+        "FieldType": "System.Int32",
+        "FieldLength": 83
       }
     }
   }

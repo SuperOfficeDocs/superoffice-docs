@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=False
-GET /api/v1/List/Competitor/MDOItems?query=dolorem
+GET /api/v1/List/Competitor/MDOItems?flat=True
+GET /api/v1/List/Competitor/MDOItems?query=dolorum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Romaguera Group",
-    "ToolTip": "Provident ut aut illo magnam molestiae.",
-    "Deleted": false,
-    "Rank": 530,
-    "Type": "et",
+    "Id": 202,
+    "Name": "Zulauf, Vandervort and Rowe",
+    "ToolTip": "Voluptates et aut voluptatem ex necessitatibus qui.",
+    "Deleted": true,
+    "Rank": 289,
+    "Type": "quam",
     "ChildItems": [
       {
-        "Id": 982,
-        "Name": "Powlowski-Schmeler",
-        "ToolTip": "Officiis dolorum sit quis ipsam dolores qui.",
+        "Id": 714,
+        "Name": "DuBuque-Hoeger",
+        "ToolTip": "Ut ullam assumenda dolor.",
         "Deleted": false,
-        "Rank": 597,
-        "Type": "laudantium",
+        "Rank": 480,
+        "Type": "ipsum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "amet",
-        "ColorBlock": 569,
-        "ExtraInfo": "atque",
-        "StyleHint": "quia",
-        "FullName": "Ettie Auer",
+        "IconHint": "consequatur",
+        "ColorBlock": 618,
+        "ExtraInfo": "temporibus",
+        "StyleHint": "maiores",
+        "FullName": "Miss Josiane Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 882
+            "FieldType": "System.String",
+            "FieldLength": 2
           }
         }
       }
     ],
-    "IconHint": "iure",
-    "ColorBlock": 840,
-    "ExtraInfo": "iusto",
-    "StyleHint": "omnis",
-    "FullName": "Wilfredo Mitchell",
+    "IconHint": "eligendi",
+    "ColorBlock": 474,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "soluta",
+    "FullName": "Hanna Alisha Kihn MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldLength": 993
       }
     }
   }

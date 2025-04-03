@@ -27,7 +27,7 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 
 ```http
 GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=sequi
+GET /api/v1/List/ProductFamily/MDOItems?query=dolorem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 133,
-    "Name": "Ondricka, Roob and Ernser",
-    "ToolTip": "Commodi tempore tenetur enim.",
-    "Deleted": true,
-    "Rank": 940,
-    "Type": "sed",
+    "Id": 291,
+    "Name": "Stamm-Wuckert",
+    "ToolTip": "Qui aut ut quod.",
+    "Deleted": false,
+    "Rank": 123,
+    "Type": "harum",
     "ChildItems": [
       {
-        "Id": 877,
-        "Name": "Pollich-Reinger",
-        "ToolTip": "Nesciunt asperiores consequatur est repudiandae minus.",
-        "Deleted": false,
-        "Rank": 189,
-        "Type": "quidem",
+        "Id": 503,
+        "Name": "Stiedemann Group",
+        "ToolTip": "Est qui et inventore voluptas sit.",
+        "Deleted": true,
+        "Rank": 181,
+        "Type": "unde",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "a",
-        "ColorBlock": 560,
-        "ExtraInfo": "voluptates",
-        "StyleHint": "reprehenderit",
-        "FullName": "Wilber Cassin",
+        "IconHint": "omnis",
+        "ColorBlock": 933,
+        "ExtraInfo": "sunt",
+        "StyleHint": "exercitationem",
+        "FullName": "Bettie Runolfsdottir",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 630
+            "FieldType": "System.String",
+            "FieldLength": 763
           }
         }
       }
     ],
-    "IconHint": "accusantium",
-    "ColorBlock": 420,
-    "ExtraInfo": "eum",
-    "StyleHint": "quae",
-    "FullName": "Marlin Kihn",
+    "IconHint": "deleniti",
+    "ColorBlock": 855,
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "omnis",
+    "FullName": "Sydnie D'Amore V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldLength": 267
       }
     }
   }

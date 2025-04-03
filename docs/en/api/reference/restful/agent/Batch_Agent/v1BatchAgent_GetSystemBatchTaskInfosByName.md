@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Hartmann, Hessel and Volkman"
+  "TaskName": "Becker, Parker and Hessel"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 456,
-    "Name": "Nitzsche, Parker and Rice",
-    "AssociateId": 824,
-    "DetailsTable": 611,
-    "DetailsRecord": 871,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 7,
+    "Name": "Stokes-Huel",
+    "AssociateId": 960,
+    "DetailsTable": 4,
+    "DetailsRecord": 914,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "quasi",
-      "ParameterObject2": "dolor"
+      "ParameterObject1": "nobis",
+      "ParameterObject2": "aut"
     },
-    "LastStarted": "2016-06-14T02:38:20.885843+02:00",
-    "Created": "2021-09-03T02:38:20.885843+02:00",
-    "StartCount": 23,
-    "DatabaseSerialNumber": "1212682",
-    "Context": "saepe",
-    "Result": "consequuntur",
+    "LastStarted": "2002-06-02T14:28:21.4929147+02:00",
+    "Created": "2016-01-19T14:28:21.4929147+01:00",
+    "StartCount": 384,
+    "DatabaseSerialNumber": "1379709",
+    "Context": "delectus",
+    "Result": "aut",
     "State": "All",
-    "Description": "Re-contextualized bifurcated architecture",
-    "Response": "eaque",
-    "Request": "enim",
-    "ProgressDescription": "Persistent holistic flexibility",
-    "ProgressPercent": 429,
-    "FileName": "Bergnaum LLC",
+    "Description": "Devolved local parallelism",
+    "Response": "aut",
+    "Request": "temporibus",
+    "ProgressDescription": "Enterprise-wide solution-oriented approach",
+    "ProgressPercent": 976,
+    "FileName": "Bode LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 944
+        "FieldType": "System.String",
+        "FieldLength": 805
       }
     }
   }

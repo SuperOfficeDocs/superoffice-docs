@@ -28,7 +28,7 @@ Gets a User object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUser?userId=82
+POST /api/v1/Agents/User/GetUser?userId=384
 POST /api/v1/Agents/User/GetUser?$select=name,department,category/id
 ```
 
@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/User/GetUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,14 +103,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 127,
-  "Name": "Kuhn-Cummings",
-  "Rank": 698,
-  "Tooltip": "error",
+  "AssociateId": 914,
+  "Name": "Rogahn LLC",
+  "Rank": 799,
+  "Tooltip": "quisquam",
   "LicenseOwners": [
     {
-      "Name": "King Group",
-      "Description": "Secured stable architecture",
+      "Name": "Rempel, Bashirian and Lebsack",
+      "Description": "Inverse reciprocal paradigm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -124,13 +124,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 624
+          "FieldLength": 897
         }
       }
     },
     {
-      "Name": "King Group",
-      "Description": "Secured stable architecture",
+      "Name": "Rempel, Bashirian and Lebsack",
+      "Description": "Inverse reciprocal paradigm",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 624
+          "FieldLength": 897
         }
       }
     }
@@ -153,110 +153,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aut",
-      "Tooltip": "sit",
-      "Id": 369,
-      "Rank": 168,
-      "Deleted": true,
+      "Value": "rem",
+      "Tooltip": "est",
+      "Id": 860,
+      "Rank": 724,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 467
+          "FieldLength": 142
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2022-02-07T02:38:22.1981664+01:00",
-  "Lastlogout": "2017-08-06T02:38:22.1981664+02:00",
-  "EjUserId": 661,
-  "RequestSignature": "ipsa",
+  "Lastlogin": "2006-10-10T14:28:22.6959913+02:00",
+  "Lastlogout": "2001-12-11T14:28:22.6959913+01:00",
+  "EjUserId": 976,
+  "RequestSignature": "velit",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsPersonRetired": true,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "at",
-      "DisplayValue": "quaerat",
+      "Value": "sunt",
+      "DisplayValue": "cum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 648
+          "FieldType": "System.Int32",
+          "FieldLength": 556
         }
       }
     },
     {
       "Type": null,
-      "Value": "at",
-      "DisplayValue": "quaerat",
+      "Value": "sunt",
+      "DisplayValue": "cum",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 556
+        }
+      }
+    }
+  ],
+  "UserName": "Lehner-Eichmann",
+  "TicketCategories": [
+    {
+      "Id": 954,
+      "Name": "Simonis-Mante",
+      "ToolTip": "Et corrupti commodi ipsa facere.",
+      "Deleted": false,
+      "Rank": 605,
+      "Type": "quaerat",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "repudiandae",
+      "ColorBlock": 347,
+      "ExtraInfo": "dolorem",
+      "StyleHint": "quia",
+      "FullName": "Regan Spinka",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 648
+          "FieldLength": 667
         }
       }
     }
   ],
-  "UserName": "Gottlieb LLC",
-  "TicketCategories": [
-    {
-      "Id": 52,
-      "Name": "Greenfelder, Schumm and Mayer",
-      "ToolTip": "Non accusamus.",
-      "Deleted": true,
-      "Rank": 943,
-      "Type": "cumque",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "eveniet",
-      "ColorBlock": 32,
-      "ExtraInfo": "non",
-      "StyleHint": "laudantium",
-      "FullName": "Prof. Baron Effertz",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 109
-        }
-      }
-    }
-  ],
-  "NickName": "Harvey-Hilpert",
-  "WaitingForApproval": false,
+  "NickName": "Heaney Group",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "dolores",
-    "ExtraFields2": "in"
+    "ExtraFields1": "dignissimos",
+    "ExtraFields2": "impedit"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatum",
-    "CustomFields2": "consequatur"
+    "CustomFields1": "tempore",
+    "CustomFields2": "explicabo"
   },
   "PostSaveCommands": [
     {
-      "Name": "Goodwin Inc and Sons",
-      "DisplayName": "Runte LLC",
-      "Description": "Implemented leading edge task-force",
-      "ToolTip": "Id eos quidem numquam voluptas unde sed est.",
+      "Name": "Collier Inc and Sons",
+      "DisplayName": "Hirthe-Shields",
+      "Description": "Innovative real-time encryption",
+      "ToolTip": "Odit hic incidunt incidunt earum.",
       "Actions": "Implicit",
-      "ActionData": "magni",
+      "ActionData": "dignissimos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 624
+          "FieldType": "System.String",
+          "FieldLength": 324
         }
       }
     }
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldLength": 105
     }
   }
 }

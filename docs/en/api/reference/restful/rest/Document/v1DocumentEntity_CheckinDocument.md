@@ -32,8 +32,8 @@ Check in a currently checked-out document
 
 ```http
 PUT /api/v1/Document/{documentId}/Lock?allowedReturnTypes=Message
-PUT /api/v1/Document/{documentId}/Lock?versionDescription=Compatible 24 hour access
-PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=velit,consequatur
+PUT /api/v1/Document/{documentId}/Lock?versionDescription=Secured bifurcated array
+PUT /api/v1/Document/{documentId}/Lock?versionExtraFields=laborum,rerum
 ```
 
 
@@ -76,7 +76,7 @@ OK
 PUT /api/v1/Document/{documentId}/Lock
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,11 +86,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExternalReference": "voluptatem",
-  "VersionId": "est",
+  "ExternalReference": "consequatur",
+  "VersionId": "animi",
   "Success": false,
   "Type": "CustomGui",
-  "Value": "ut",
-  "AdditionalInfo": "doloribus"
+  "Value": "ab",
+  "AdditionalInfo": "laborum"
 }
 ```

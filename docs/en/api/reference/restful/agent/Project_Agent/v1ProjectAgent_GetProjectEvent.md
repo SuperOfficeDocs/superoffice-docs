@@ -26,7 +26,7 @@ Gets a ProjectEvent object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=414
+POST /api/v1/Agents/Project/GetProjectEvent?projectEventId=884
 POST /api/v1/Agents/Project/GetProjectEvent?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateFullName": "Gaston Bode",
-  "Description": "Cloned tertiary methodology",
-  "ProjectId": 1000,
-  "EventName": "Raynor, Wunsch and Schinner",
-  "AssociateId": 373,
+  "AssociateFullName": "Allie Ernser",
+  "Description": "Up-sized mission-critical success",
+  "ProjectId": 275,
+  "EventName": "Wunsch Inc and Sons",
+  "AssociateId": 370,
   "IsSignedOn": false,
-  "SignOffConfirmationText": "quisquam",
-  "SignOffText": "dolorem",
-  "SignOnConfirmationText": "autem",
-  "SignOnText": "aut",
-  "EventDate": "2012-01-11T02:38:21.7295028+01:00",
+  "SignOffConfirmationText": "quod",
+  "SignOffText": "voluptatem",
+  "SignOnConfirmationText": "consequuntur",
+  "SignOnText": "maiores",
+  "EventDate": "2017-11-29T14:28:22.2585084+01:00",
   "Enabled": true,
   "SignOff": false,
-  "SignOffTaskEnable": false,
-  "SignOnTaskEnable": true,
+  "SignOffTaskEnable": true,
+  "SignOnTaskEnable": false,
   "SignOn": false,
-  "SignOffTaskId": 22,
-  "SignOnTaskId": 260,
+  "SignOffTaskId": 402,
+  "SignOnTaskId": 794,
   "SignOffTriggersAssign": false,
-  "SignOnTriggersAssign": false,
-  "SignOnPersonId": 71,
-  "SignOffPersonId": 260,
+  "SignOnTriggersAssign": true,
+  "SignOnPersonId": 772,
+  "SignOffPersonId": 442,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldType": "System.String",
+      "FieldLength": 781
     }
   }
 }

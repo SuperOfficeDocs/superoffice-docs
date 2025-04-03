@@ -69,7 +69,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Pfeffer, Gorczany and Tremblay",
+  "LayoutName": "Pacocha-Leffler",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

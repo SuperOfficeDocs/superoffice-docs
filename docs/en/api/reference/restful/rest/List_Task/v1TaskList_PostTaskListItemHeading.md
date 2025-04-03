@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Task/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 415,
-  "Name": "Senger-Cremin",
-  "Tooltip": "esse",
+  "HeadingId": 592,
+  "Name": "Yost Group",
+  "Tooltip": "suscipit",
   "Deleted": true,
-  "Rank": 352,
-  "UdListDefinitionId": 107
+  "Rank": 537,
+  "UdListDefinitionId": 727
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 673,
-  "Name": "Gaylord LLC",
-  "Tooltip": "qui",
-  "Deleted": true,
-  "Rank": 741,
-  "UdListDefinitionId": 779,
+  "HeadingId": 287,
+  "Name": "Bednar LLC",
+  "Tooltip": "cupiditate",
+  "Deleted": false,
+  "Rank": 392,
+  "UdListDefinitionId": 540,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 491
     }
   }
 }

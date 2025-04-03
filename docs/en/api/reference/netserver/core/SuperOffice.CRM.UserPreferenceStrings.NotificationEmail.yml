@@ -5,6 +5,14 @@ items:
   id: UserPreferenceStrings.NotificationEmail
   parent: SuperOffice.CRM
   children:
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailCustomMessage
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailFavouriteRequest
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailNewMessage
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailNewRequest
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailOpenRequestsNotRead
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailRequestActivated
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailRequestAssignedAway
+  - SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailRequestEscalated
   - SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.Section
   langs:
   - csharp
@@ -55,6 +63,238 @@ items:
     return:
       type: System.String
     content.vb: Public Const Section As String = "notificationEmail"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailCustomMessage
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailCustomMessage
+  id: NotifyEmailCustomMessage
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail
+  langs:
+  - csharp
+  - vb
+  name: NotifyEmailCustomMessage
+  nameWithType: UserPreferenceStrings.NotificationEmail.NotifyEmailCustomMessage
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailCustomMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants custom message notifications.\n"
+  syntax:
+    content: public const string NotifyEmailCustomMessage = "notifyEmailCustomMessage"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyEmailCustomMessage As String = "notifyEmailCustomMessage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailFavouriteRequest
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailFavouriteRequest
+  id: NotifyEmailFavouriteRequest
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail
+  langs:
+  - csharp
+  - vb
+  name: NotifyEmailFavouriteRequest
+  nameWithType: UserPreferenceStrings.NotificationEmail.NotifyEmailFavouriteRequest
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailFavouriteRequest
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her favourite requests are updated.\n"
+  syntax:
+    content: public const string NotifyEmailFavouriteRequest = "notifyEmailFavouriteRequest"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyEmailFavouriteRequest As String = "notifyEmailFavouriteRequest"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailRequestAssignedAway
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailRequestAssignedAway
+  id: NotifyEmailRequestAssignedAway
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail
+  langs:
+  - csharp
+  - vb
+  name: NotifyEmailRequestAssignedAway
+  nameWithType: UserPreferenceStrings.NotificationEmail.NotifyEmailRequestAssignedAway
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailRequestAssignedAway
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests were taken by someone else.\n"
+  syntax:
+    content: public const string NotifyEmailRequestAssignedAway = "notifyEmailRequestAssignedAway"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyEmailRequestAssignedAway As String = "notifyEmailRequestAssignedAway"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailRequestActivated
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailRequestActivated
+  id: NotifyEmailRequestActivated
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail
+  langs:
+  - csharp
+  - vb
+  name: NotifyEmailRequestActivated
+  nameWithType: UserPreferenceStrings.NotificationEmail.NotifyEmailRequestActivated
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailRequestActivated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests were activated.\n"
+  syntax:
+    content: public const string NotifyEmailRequestActivated = "notifyEmailRequestActivated"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyEmailRequestActivated As String = "notifyEmailRequestActivated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailRequestEscalated
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailRequestEscalated
+  id: NotifyEmailRequestEscalated
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail
+  langs:
+  - csharp
+  - vb
+  name: NotifyEmailRequestEscalated
+  nameWithType: UserPreferenceStrings.NotificationEmail.NotifyEmailRequestEscalated
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailRequestEscalated
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests were escalated.\n"
+  syntax:
+    content: public const string NotifyEmailRequestEscalated = "notifyEmailRequestEscalated"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyEmailRequestEscalated As String = "notifyEmailRequestEscalated"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailNewMessage
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailNewMessage
+  id: NotifyEmailNewMessage
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail
+  langs:
+  - csharp
+  - vb
+  name: NotifyEmailNewMessage
+  nameWithType: UserPreferenceStrings.NotificationEmail.NotifyEmailNewMessage
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailNewMessage
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants notifications when one of his/her requests has a new message.\n"
+  syntax:
+    content: public const string NotifyEmailNewMessage = "notifyEmailNewMessage"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyEmailNewMessage As String = "notifyEmailNewMessage"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailNewRequest
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailNewRequest
+  id: NotifyEmailNewRequest
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail
+  langs:
+  - csharp
+  - vb
+  name: NotifyEmailNewRequest
+  nameWithType: UserPreferenceStrings.NotificationEmail.NotifyEmailNewRequest
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailNewRequest
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Indicates if the user wants notifications when he/she is assigned a new request.\n"
+  syntax:
+    content: public const string NotifyEmailNewRequest = "notifyEmailNewRequest"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyEmailNewRequest As String = "notifyEmailNewRequest"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailOpenRequestsNotRead
+  commentId: F:SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailOpenRequestsNotRead
+  id: NotifyEmailOpenRequestsNotRead
+  parent: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail
+  langs:
+  - csharp
+  - vb
+  name: NotifyEmailOpenRequestsNotRead
+  nameWithType: UserPreferenceStrings.NotificationEmail.NotifyEmailOpenRequestsNotRead
+  fullName: SuperOffice.CRM.UserPreferenceStrings.NotificationEmail.NotifyEmailOpenRequestsNotRead
+  type: Field
+  source:
+    path: SoCore
+    isExternal: true
+  assemblies:
+  - SoCore
+  namespace: SuperOffice.CRM
+  summary: "\n(BOOL) Notify of request that has not been read for a while\n"
+  syntax:
+    content: public const string NotifyEmailOpenRequestsNotRead = "notifyEmailOpenRequestsNotRead"
+    return:
+      type: System.String
+    content.vb: Public Const NotifyEmailOpenRequestsNotRead As String = "notifyEmailOpenRequestsNotRead"
   modifiers.csharp:
   - public
   - const

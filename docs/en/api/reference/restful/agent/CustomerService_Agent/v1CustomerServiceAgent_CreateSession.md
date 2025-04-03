@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "explicabo"
+  "RemoteIp": "quia"
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolorem",
-  "LoginId": 170,
-  "UserId": 820,
+  "Key": "tempora",
+  "LoginId": 818,
+  "UserId": 458,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldLength": 930
     }
   }
 }

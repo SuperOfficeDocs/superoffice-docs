@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "ut",
-  "To": "et",
+  "From": "mollitia",
+  "To": "blanditiis",
   "Subject": "est",
-  "PlainBody": "nam",
-  "HtmlBody": "sunt",
+  "PlainBody": "laborum",
+  "HtmlBody": "quam",
   "AttachmentIds": [
-    167,
-    152
+    766,
+    710
   ],
-  "EventName": "Batz-Lueilwitz"
+  "EventName": "Kuhlman, Oberbrunner and Hickle"
 }
 ```
 

@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 872,
-  "Name": "Spencer, Hahn and Bins",
-  "Rank": 573,
-  "Tooltip": "expedita",
+  "AssociateId": 668,
+  "Name": "King-Smitham",
+  "Rank": 673,
+  "Tooltip": "aut",
   "LicenseOwners": [
     {
-      "Name": "Kuvalis-D'Amore",
-      "Description": "Reduced actuating customer loyalty",
+      "Name": "Rau-Cummerata",
+      "Description": "Secured maximized matrices",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -111,14 +111,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 318
+          "FieldType": "System.Int32",
+          "FieldLength": 621
         }
       }
     },
     {
-      "Name": "Kuvalis-D'Amore",
-      "Description": "Reduced actuating customer loyalty",
+      "Name": "Rau-Cummerata",
+      "Description": "Secured maximized matrices",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 318
+          "FieldType": "System.Int32",
+          "FieldLength": 621
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "qui",
-      "Tooltip": "est",
-      "Id": 918,
-      "Rank": 478,
+      "Value": "nesciunt",
+      "Tooltip": "quasi",
+      "Id": 539,
+      "Rank": 869,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 807
+          "FieldLength": 599
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2023-08-28T02:38:26.6362041+02:00",
-  "Lastlogout": "2002-08-09T02:38:26.6362041+02:00",
-  "EjUserId": 207,
-  "RequestSignature": "qui",
+  "Deleted": false,
+  "Lastlogin": "2009-10-09T14:28:27.4457991+02:00",
+  "Lastlogout": "1998-02-18T14:28:27.4457991+01:00",
+  "EjUserId": 707,
+  "RequestSignature": "vitae",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "et",
-      "DisplayValue": "neque",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 815
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "et",
-      "DisplayValue": "neque",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 815
-        }
-      }
-    }
-  ],
-  "UserName": "Champlin, Grimes and Hartmann",
-  "TicketCategories": [
-    {
-      "Id": 787,
-      "Name": "Collins, Baumbach and Jakubowski",
-      "ToolTip": "Quibusdam aut aliquid minima qui eum.",
-      "Deleted": false,
-      "Rank": 573,
-      "Type": "veniam",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "sed",
-      "ColorBlock": 307,
-      "ExtraInfo": "aut",
-      "StyleHint": "vero",
-      "FullName": "Josiah Reva Walsh IV",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 854
-        }
-      }
-    }
-  ],
-  "NickName": "Funk, Upton and Smitham",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "laudantium",
-    "ExtraFields2": "velit"
-  },
-  "CustomFields": {
-    "CustomFields1": "nihil",
-    "CustomFields2": "est"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Deckow, Witting and Skiles",
-      "DisplayName": "McLaughlin-Morissette",
-      "Description": "Total solution-oriented application",
-      "ToolTip": "Nulla distinctio rerum laborum rerum minima at.",
-      "Actions": "Implicit",
-      "ActionData": "rerum",
+      "Value": "aspernatur",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 707
+          "FieldLength": 156
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "aspernatur",
+      "DisplayValue": "similique",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 156
+        }
+      }
+    }
+  ],
+  "UserName": "Koss, McLaughlin and Stracke",
+  "TicketCategories": [
+    {
+      "Id": 829,
+      "Name": "Yundt Inc and Sons",
+      "ToolTip": "Eum voluptas numquam reprehenderit animi quaerat nulla.",
+      "Deleted": true,
+      "Rank": 78,
+      "Type": "corrupti",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "quidem",
+      "ColorBlock": 833,
+      "ExtraInfo": "quia",
+      "StyleHint": "vel",
+      "FullName": "Benton Cronin",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 546
+        }
+      }
+    }
+  ],
+  "NickName": "Bosco, Upton and Kris",
+  "WaitingForApproval": true,
+  "ExtraFields": {
+    "ExtraFields1": "sint",
+    "ExtraFields2": "aut"
+  },
+  "CustomFields": {
+    "CustomFields1": "veniam",
+    "CustomFields2": "neque"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Dooley Group",
+      "DisplayName": "Ullrich-Homenick",
+      "Description": "Streamlined intangible data-warehouse",
+      "ToolTip": "Vitae repellat quia.",
+      "Actions": "Implicit",
+      "ActionData": "modi",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 70
         }
       }
     }
@@ -254,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 538
     }
   }
 }

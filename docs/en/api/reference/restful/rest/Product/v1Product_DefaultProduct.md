@@ -90,7 +90,7 @@ OK
 GET /api/v1/Product/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 157,
-  "ERPProductKey": "pariatur",
-  "ERPPriceListKey": "quas",
-  "Name": "Lind, Russel and Bailey",
-  "Description": "Front-line upward-trending collaboration",
-  "Code": "dignissimos",
+  "ProductId": 137,
+  "ERPProductKey": "rerum",
+  "ERPPriceListKey": "id",
+  "Name": "Littel, Thiel and Mertz",
+  "Description": "Multi-tiered responsive functionalities",
+  "Code": "et",
   "PriceUnit": "minus",
-  "QuantityUnit": "officia",
-  "IsSubscription": false,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 20847.368,
-  "ItemNumber": "511609",
+  "QuantityUnit": "aspernatur",
+  "IsSubscription": true,
+  "SubscriptionUnit": "cumque",
+  "DefaultSubscriptionQuantity": 4553.702,
+  "ItemNumber": "1678922",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "eum",
-  "ProductTypeKey": "quisquam",
-  "VAT": 27817.384,
-  "VATInfo": "fugiat",
-  "UnitCost": 23172.796,
-  "UnitMinimumPrice": 1222.26,
-  "UnitListPrice": 26460.361999999997,
+  "ProductFamilyKey": "repellendus",
+  "ProductTypeKey": "aperiam",
+  "VAT": 20649.926,
+  "VATInfo": "esse",
+  "UnitCost": 9781.214,
+  "UnitMinimumPrice": 22655.685999999998,
+  "UnitListPrice": 29964.174,
   "InAssortment": false,
-  "Supplier": "minus",
-  "SupplierCode": "perspiciatis",
-  "Rights": "provident",
-  "Rule": "temporibus",
+  "Supplier": "inventore",
+  "SupplierCode": "sit",
+  "Rights": "architecto",
+  "Rule": "ad",
   "ExtraInfo": [
     {
-      "Name": "O'Connell-Rosenbaum",
-      "Value": "facere",
+      "Name": "Terry-Rath",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldType": "System.String",
+          "FieldLength": 294
         }
       }
     },
     {
-      "Name": "O'Connell-Rosenbaum",
-      "Value": "facere",
+      "Name": "Terry-Rath",
+      "Value": "aut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 668
+          "FieldType": "System.String",
+          "FieldLength": 294
         }
       }
     }
   ],
-  "RawExtraInfo": "est",
-  "ExtraField1": "minima",
-  "ExtraField2": "voluptatem",
-  "ExtraField3": "animi",
-  "ExtraField4": "itaque",
-  "ExtraField5": "nisi",
-  "InStock": 22831.19,
+  "RawExtraInfo": "enim",
+  "ExtraField1": "dolore",
+  "ExtraField2": "nam",
+  "ExtraField3": "est",
+  "ExtraField4": "et",
+  "ExtraField5": "voluptatem",
+  "InStock": 310.26599999999996,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldLength": 621
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=dignissimos
+GET /api/v1/List/Task/MDOItems?query=ut
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Task/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 399,
-    "Name": "Hammes, Runte and Orn",
-    "ToolTip": "Error ullam sequi quos maiores officia id saepe.",
+    "Id": 40,
+    "Name": "Bosco-Stamm",
+    "ToolTip": "Ad dolores et tenetur eaque porro consectetur.",
     "Deleted": false,
-    "Rank": 269,
-    "Type": "sint",
+    "Rank": 287,
+    "Type": "ullam",
     "ChildItems": [
       {
-        "Id": 967,
-        "Name": "Watsica LLC",
-        "ToolTip": "Reprehenderit sed ipsa doloremque.",
-        "Deleted": false,
-        "Rank": 964,
-        "Type": "quibusdam",
+        "Id": 73,
+        "Name": "Prosacco, Douglas and Pfeffer",
+        "ToolTip": "Numquam perspiciatis natus sed.",
+        "Deleted": true,
+        "Rank": 748,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minima",
-        "ColorBlock": 74,
-        "ExtraInfo": "fugit",
-        "StyleHint": "voluptatem",
-        "FullName": "Domingo Rath",
+        "IconHint": "enim",
+        "ColorBlock": 616,
+        "ExtraInfo": "commodi",
+        "StyleHint": "sed",
+        "FullName": "Karlie Spencer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 15
+            "FieldLength": 203
           }
         }
       }
     ],
-    "IconHint": "fuga",
-    "ColorBlock": 375,
-    "ExtraInfo": "magnam",
-    "StyleHint": "quod",
-    "FullName": "Verner Bernier",
+    "IconHint": "temporibus",
+    "ColorBlock": 481,
+    "ExtraInfo": "eum",
+    "StyleHint": "iure",
+    "FullName": "Mrs. Shirley Vida Ondricka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 197
       }
     }
   }

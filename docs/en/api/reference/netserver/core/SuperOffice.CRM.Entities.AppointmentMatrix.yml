@@ -39,6 +39,7 @@ items:
   - SuperOffice.CRM.Entities.AppointmentMatrix.GetAllAppointmentRows
   - SuperOffice.CRM.Entities.AppointmentMatrix.GetDates
   - SuperOffice.CRM.Entities.AppointmentMatrix.GetIncludedAppointmentRows
+  - SuperOffice.CRM.Entities.AppointmentMatrix.GetMailBodyFromMailBody(SuperOffice.CRM.Globalization.TemplateVariables,System.String,SuperOffice.CRM.Services.ParticipantInfo)
   - SuperOffice.CRM.Entities.AppointmentMatrix.GetParticipant(System.Int32,System.Int32,System.Int32,System.Int32,SuperOffice.Data.AppointmentStatus,System.Boolean)
   - SuperOffice.CRM.Entities.AppointmentMatrix.GetParticipantFullName(SuperOffice.CRM.Services.ParticipantInfo)
   - SuperOffice.CRM.Entities.AppointmentMatrix.GetParticipants
@@ -2095,6 +2096,40 @@ items:
     content: public void Delete()
     content.vb: Public Sub Delete
   overload: SuperOffice.CRM.Entities.AppointmentMatrix.Delete*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.GetMailBodyFromMailBody(SuperOffice.CRM.Globalization.TemplateVariables,System.String,SuperOffice.CRM.Services.ParticipantInfo)
+  commentId: M:SuperOffice.CRM.Entities.AppointmentMatrix.GetMailBodyFromMailBody(SuperOffice.CRM.Globalization.TemplateVariables,System.String,SuperOffice.CRM.Services.ParticipantInfo)
+  id: GetMailBodyFromMailBody(SuperOffice.CRM.Globalization.TemplateVariables,System.String,SuperOffice.CRM.Services.ParticipantInfo)
+  parent: SuperOffice.CRM.Entities.AppointmentMatrix
+  langs:
+  - csharp
+  - vb
+  name: GetMailBodyFromMailBody(TemplateVariables, String, ParticipantInfo)
+  nameWithType: AppointmentMatrix.GetMailBodyFromMailBody(TemplateVariables, String, ParticipantInfo)
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.GetMailBodyFromMailBody(SuperOffice.CRM.Globalization.TemplateVariables, System.String, SuperOffice.CRM.Services.ParticipantInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Entities
+  syntax:
+    content: public string GetMailBodyFromMailBody(TemplateVariables templateVariables, string mailBody, ParticipantInfo participant)
+    parameters:
+    - id: templateVariables
+      type: SuperOffice.CRM.Globalization.TemplateVariables
+    - id: mailBody
+      type: System.String
+    - id: participant
+      type: SuperOffice.CRM.Services.ParticipantInfo
+    return:
+      type: System.String
+    content.vb: Public Function GetMailBodyFromMailBody(templateVariables As TemplateVariables, mailBody As String, participant As ParticipantInfo) As String
+  overload: SuperOffice.CRM.Entities.AppointmentMatrix.GetMailBodyFromMailBody*
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -4666,6 +4701,12 @@ references:
   name: Delete
   nameWithType: AppointmentMatrix.Delete
   fullName: SuperOffice.CRM.Entities.AppointmentMatrix.Delete
+- uid: SuperOffice.CRM.Entities.AppointmentMatrix.GetMailBodyFromMailBody*
+  commentId: Overload:SuperOffice.CRM.Entities.AppointmentMatrix.GetMailBodyFromMailBody
+  isExternal: true
+  name: GetMailBodyFromMailBody
+  nameWithType: AppointmentMatrix.GetMailBodyFromMailBody
+  fullName: SuperOffice.CRM.Entities.AppointmentMatrix.GetMailBodyFromMailBody
 - uid: SuperOffice.CRM.Entities.AppointmentMatrix.SetInvitationMailBody*
   commentId: Overload:SuperOffice.CRM.Entities.AppointmentMatrix.SetInvitationMailBody
   isExternal: true

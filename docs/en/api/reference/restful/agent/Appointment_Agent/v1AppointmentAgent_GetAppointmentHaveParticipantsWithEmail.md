@@ -74,7 +74,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 785
+  "AppointmentId": 246
 }
 ```
 

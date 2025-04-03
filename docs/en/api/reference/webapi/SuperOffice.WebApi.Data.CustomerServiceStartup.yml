@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.WebApi.Data.CustomerServiceStartup.#ctor
   - SuperOffice.WebApi.Data.CustomerServiceStartup.RecaptchaSiteKey
+  - SuperOffice.WebApi.Data.CustomerServiceStartup.SelectedPreferences
   - SuperOffice.WebApi.Data.CustomerServiceStartup.TimezoneEnabled
   - SuperOffice.WebApi.Data.CustomerServiceStartup.TZOffset
   langs:
@@ -168,6 +169,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.WebApi.Data.CustomerServiceStartup.SelectedPreferences
+  commentId: P:SuperOffice.WebApi.Data.CustomerServiceStartup.SelectedPreferences
+  id: SelectedPreferences
+  parent: SuperOffice.WebApi.Data.CustomerServiceStartup
+  langs:
+  - csharp
+  - vb
+  name: SelectedPreferences
+  nameWithType: CustomerServiceStartup.SelectedPreferences
+  fullName: SuperOffice.WebApi.Data.CustomerServiceStartup.SelectedPreferences
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAn array of selected preferences needed by Service\n"
+  syntax:
+    content: public virtual Preference[] SelectedPreferences { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.Preference[]
+    content.vb: Public Overridable Property SelectedPreferences As Preference()
+  overload: SuperOffice.WebApi.Data.CustomerServiceStartup.SelectedPreferences*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.WebApi.Data
   commentId: N:SuperOffice.WebApi.Data
@@ -260,3 +294,35 @@ references:
   name: String
   nameWithType: String
   fullName: System.String
+- uid: SuperOffice.WebApi.Data.CustomerServiceStartup.SelectedPreferences*
+  commentId: Overload:SuperOffice.WebApi.Data.CustomerServiceStartup.SelectedPreferences
+  isExternal: true
+  name: SelectedPreferences
+  nameWithType: CustomerServiceStartup.SelectedPreferences
+  fullName: SuperOffice.WebApi.Data.CustomerServiceStartup.SelectedPreferences
+- uid: SuperOffice.WebApi.Data.Preference[]
+  isExternal: true
+  name: Preference[]
+  nameWithType: Preference[]
+  fullName: SuperOffice.WebApi.Data.Preference[]
+  nameWithType.vb: Preference()
+  fullName.vb: SuperOffice.WebApi.Data.Preference()
+  name.vb: Preference()
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.WebApi.Data.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.WebApi.Data.Preference
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

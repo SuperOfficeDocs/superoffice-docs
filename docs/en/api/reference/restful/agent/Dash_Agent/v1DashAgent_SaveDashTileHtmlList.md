@@ -79,15 +79,15 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 331,
+  "DashboardTileDefinitionId": 97,
   "Languages": [
     {
-      "LanguageCode": "aperiam",
-      "Html": "quo"
+      "LanguageCode": "fugit",
+      "Html": "suscipit"
     },
     {
-      "LanguageCode": "aperiam",
-      "Html": "quo"
+      "LanguageCode": "fugit",
+      "Html": "suscipit"
     }
   ]
 }
@@ -101,26 +101,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "sed",
-    "Html": "eligendi",
+    "LanguageCode": "tempore",
+    "Html": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 870
+        "FieldLength": 441
       }
     }
   },
   {
-    "LanguageCode": "sed",
-    "Html": "eligendi",
+    "LanguageCode": "tempore",
+    "Html": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 870
+        "FieldLength": 441
       }
     }
   }

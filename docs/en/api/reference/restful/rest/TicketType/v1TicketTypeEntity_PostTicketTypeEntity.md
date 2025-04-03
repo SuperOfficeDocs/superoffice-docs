@@ -112,35 +112,35 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 143,
-  "Name": "Witting LLC",
-  "Rank": 704,
-  "Tooltip": "vitae",
-  "Icon": "autem",
-  "DefaultTicketStatus": 696,
+  "TicketTypeId": 940,
+  "Name": "Lowe-Parker",
+  "Rank": 699,
+  "Tooltip": "voluptas",
+  "Icon": "eum",
+  "DefaultTicketStatus": 143,
   "TicketStatuses": [
-    548,
-    455
+    508,
+    856
   ],
-  "DefaultTicketPriority": 469,
+  "DefaultTicketPriority": 967,
   "TicketPriorities": [
-    609,
-    516
+    882,
+    85
   ],
-  "ReplyTemplate": 290,
+  "ReplyTemplate": 835,
   "IsExternalVisible": true,
-  "IsDefault": false,
-  "ShowInNew": false,
+  "IsDefault": true,
+  "ShowInNew": true,
   "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    714,
-    32
+    206,
+    418
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false
@@ -154,31 +154,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 421,
-  "Name": "Kris, Osinski and Howell",
-  "Rank": 133,
-  "Tooltip": "consectetur",
-  "Icon": "possimus",
-  "DefaultTicketStatus": 488,
+  "TicketTypeId": 696,
+  "Name": "Dicki Inc and Sons",
+  "Rank": 464,
+  "Tooltip": "aperiam",
+  "Icon": "quia",
+  "DefaultTicketStatus": 325,
   "TicketStatuses": [
-    644,
-    907
+    954,
+    773
   ],
-  "DefaultTicketPriority": 400,
+  "DefaultTicketPriority": 56,
   "TicketPriorities": [
-    563,
-    962
+    794,
+    749
   ],
-  "ReplyTemplate": 862,
+  "ReplyTemplate": 168,
   "IsExternalVisible": false,
   "IsDefault": true,
   "ShowInNew": true,
-  "ExcludeSignature": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    521,
-    37
+    562,
+    277
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 661
     }
   },
   "_Links": {

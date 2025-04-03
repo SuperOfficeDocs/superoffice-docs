@@ -100,7 +100,7 @@ OK
 GET /api/v1/Sale/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,7 +108,7 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 05 Aug 2013 02:38:26 G8T
+Last-Modified: Fri, 17 Jun 2022 14:28:27 G6T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Mon, 05 Aug 2013 02:38:26 G8T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "consequuntur",
+  "SaleText": "fugit",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Mon, 05 Aug 2013 02:38:26 G8T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2024-06-08T02:38:26.3547849+02:00",
-  "Amount": 1087.498,
-  "SaleId": 990,
-  "Earning": 22053.958,
-  "EarningPercent": 13563.952,
-  "Heading": "a",
-  "Number": "564833",
-  "Probability": 205,
-  "CreatedDate": "2010-04-23T02:38:26.3547849+02:00",
-  "UpdatedDate": "2013-08-05T02:38:26.3547849+02:00",
+  "Saledate": "2007-01-18T14:28:27.1804149+01:00",
+  "Amount": 6020.414,
+  "SaleId": 878,
+  "Earning": 28679.234,
+  "EarningPercent": 20496.36,
+  "Heading": "error",
+  "Number": "1016567",
+  "Probability": 377,
+  "CreatedDate": "2016-12-14T14:28:27.1804149+01:00",
+  "UpdatedDate": "2022-06-17T14:28:27.1804149+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 138,
+  "ActiveLinks": 151,
   "Links": [
     {
-      "EntityName": "Roob Group",
-      "Id": 161,
-      "Description": "Multi-channelled multi-tasking utilisation",
-      "ExtraInfo": "nobis",
-      "LinkId": 286,
+      "EntityName": "Champlin, Herzog and Farrell",
+      "Id": 543,
+      "Description": "Organized modular database",
+      "ExtraInfo": "dolor",
+      "LinkId": 584,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 864
+          "FieldLength": 674
         }
       }
     }
   ],
-  "NextDueDate": "2000-03-23T02:38:26.3547849+01:00",
-  "Postit": "fugit",
+  "NextDueDate": "2007-04-26T14:28:27.1804149+02:00",
+  "Postit": "voluptas",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2003-06-30T02:38:26.3547849+02:00",
+  "ReopenDate": "2002-09-16T14:28:27.1804149+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Emmerich, Terry and Jacobs",
-      "Comment": "quas",
-      "StakeholderRoleId": 744,
-      "CountryId": 802,
-      "PersonId": 477,
-      "EmailDescription": "terrance@friesen.co.uk",
-      "EmailId": 592,
-      "EmailAddress": "elaina.carroll@nienow.com",
-      "PhoneId": 592,
-      "ContactName": "Cummerata Inc and Sons",
-      "ContactId": 375,
-      "SaleId": 426,
-      "Mrmrs": "accusantium",
-      "Firstname": "Jamil",
-      "MiddleName": "Stanton, Schaden and Mertz",
-      "Lastname": "Oberbrunner",
-      "SaleStakeholderId": 183,
-      "Rank": 448,
-      "Phone": "750.106.1780",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 167
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 564,
-  "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Desmond Davis"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "debitis",
-    "ExtraFields2": "est"
-  },
-  "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "odit"
-  },
-  "PublishEventDate": "2012-09-07T02:38:26.3547849+02:00",
-  "PublishTo": "2009-09-12T02:38:26.3547849+02:00",
-  "PublishFrom": "2012-04-19T02:38:26.3547849+02:00",
-  "IsPublished": false,
-  "VisibleFor": [
-    {
-      "VisibleId": 109,
-      "Visibility": "All",
-      "DisplayValue": "autem",
+      "StakeholderRoleName": "Harvey, Olson and Ryan",
+      "Comment": "ut",
+      "StakeholderRoleId": 308,
+      "CountryId": 509,
+      "PersonId": 11,
+      "EmailDescription": "sunny@quigley.info",
+      "EmailId": 873,
+      "EmailAddress": "elva@erdman.biz",
+      "PhoneId": 48,
+      "ContactName": "Fritsch LLC",
+      "ContactId": 987,
+      "SaleId": 166,
+      "Mrmrs": "velit",
+      "Firstname": "Maxime",
+      "MiddleName": "Doyle-Hauck",
+      "Lastname": "Effertz",
+      "SaleStakeholderId": 738,
+      "Rank": 947,
+      "Phone": "616.405.5339",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 46
+          "FieldLength": 534
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 144,
+  "UserDefinedFields": {
+    "SuperOffice:1": "1458411020",
+    "SuperOffice:2": "959480023"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "veritatis",
+    "ExtraFields2": "voluptas"
+  },
+  "CustomFields": {
+    "CustomFields1": "tempora",
+    "CustomFields2": "quo"
+  },
+  "PublishEventDate": "2004-03-06T14:28:27.1804149+01:00",
+  "PublishTo": "2016-01-05T14:28:27.1804149+01:00",
+  "PublishFrom": "2012-11-04T14:28:27.1804149+01:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 908,
+      "Visibility": "All",
+      "DisplayValue": "ut",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 862
         }
       }
     },
     {
-      "VisibleId": 109,
+      "VisibleId": 908,
       "Visibility": "All",
-      "DisplayValue": "autem",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 46
+          "FieldType": "System.Int32",
+          "FieldLength": 862
         }
       }
     }
@@ -241,8 +241,8 @@ Last-Modified: Mon, 05 Aug 2013 02:38:26 G8T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 544
+      "FieldType": "System.String",
+      "FieldLength": 40
     }
   }
 }

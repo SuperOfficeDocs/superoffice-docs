@@ -1081,6 +1081,8 @@ items:
     href: enums/appntrecordtype.md
   - name: AppointmentCautionWarning
     href: enums/appointmentcautionwarning.md
+  - name: AppointmentExternalOwner
+    href: enums/appointmentexternalowner.md
   - name: AppointmentPrivate
     href: enums/appointmentprivate.md
   - name: AppointmentStatus

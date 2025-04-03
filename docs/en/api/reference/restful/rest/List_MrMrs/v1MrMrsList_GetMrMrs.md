@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 578,
-  "Name": "Braun Inc and Sons",
+  "Id": 118,
+  "Name": "Kozey-Hand",
   "Tooltip": "doloremque",
   "Deleted": false,
-  "UdListDefinitionId": 573,
-  "Rank": 27,
+  "UdListDefinitionId": 608,
+  "Rank": 342,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 918
+      "FieldType": "System.Int32",
+      "FieldLength": 108
     }
   }
 }

@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 40,
-  "AssociateId": 573,
-  "Caption": "quaerat",
+  "DashboardId": 113,
+  "AssociateId": 843,
+  "Caption": "unde",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 227,
-      "Caption": "dolorem",
-      "Description": "Implemented empowering conglomeration",
-      "ChartName": "Douglas-Berge",
-      "ChartId": "pariatur",
+      "DashboardTileId": 551,
+      "Caption": "nesciunt",
+      "Description": "Multi-tiered multimedia complexity",
+      "ChartName": "Bode LLC",
+      "ChartId": "et",
       "IsDefault": false,
-      "AssociateId": 630,
-      "GroupId": 879,
-      "SelectionId": 400,
-      "Config": "quaerat",
+      "AssociateId": 300,
+      "GroupId": 315,
+      "SelectionId": 161,
+      "Config": "aut",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 512,
-  "AssociateId": 662,
-  "Caption": "est",
+  "DashboardId": 166,
+  "AssociateId": 926,
+  "Caption": "excepturi",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 911,
-      "Caption": "consectetur",
-      "Description": "Extended zero tolerance application",
-      "ChartName": "Roberts, Steuber and Rippin",
-      "ChartId": "ea",
-      "IsDefault": false,
-      "AssociateId": 154,
-      "GroupId": 839,
-      "SelectionId": 534,
-      "Config": "eos",
+      "DashboardTileId": 316,
+      "Caption": "adipisci",
+      "Description": "Profound modular challenge",
+      "ChartName": "McGlynn, Swaniawski and Bednar",
+      "ChartId": "saepe",
+      "IsDefault": true,
+      "AssociateId": 202,
+      "GroupId": 943,
+      "SelectionId": 985,
+      "Config": "dolore",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 936
+          "FieldType": "System.String",
+          "FieldLength": 158
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 239
+      "FieldType": "System.Int32",
+      "FieldLength": 92
     }
   }
 }

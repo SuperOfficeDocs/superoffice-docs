@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 2,
-  "PlainMessage": "ea",
-  "HtmlMessage": "voluptatem",
-  "SmsMessage": "minus",
-  "Description": "Organized radical challenge",
-  "Subject": "tenetur",
-  "FolderId": 515,
-  "HeaderField": "officiis",
-  "Design": "quibusdam",
+  "ShipmentMessageId": 208,
+  "PlainMessage": "quos",
+  "HtmlMessage": "ut",
+  "SmsMessage": "harum",
+  "Description": "Operative bi-directional focus group",
+  "Subject": "aspernatur",
+  "FolderId": 89,
+  "HeaderField": "optio",
+  "Design": "nulla",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Ameliorated global moratorium",
-  "AccessKey": "quos",
-  "DocumentMessage": 812,
-  "Registered": "1999-11-09T02:38:26.4172802+01:00",
-  "RegisteredAssociateId": 538,
-  "Updated": "2019-03-11T02:38:26.4172802+01:00",
-  "UpdatedAssociateId": 862,
-  "UpdatedCount": 564,
+  "InlineImages": false,
+  "LongDescription": "Virtual 4th generation algorithm",
+  "AccessKey": "ut",
+  "DocumentMessage": 136,
+  "Registered": "2015-12-06T14:28:27.2583066+01:00",
+  "RegisteredAssociateId": 62,
+  "Updated": "2011-02-10T14:28:27.2583066+01:00",
+  "UpdatedAssociateId": 604,
+  "UpdatedCount": 873,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 653
+      "FieldType": "System.Int32",
+      "FieldLength": 249
     }
   }
 }

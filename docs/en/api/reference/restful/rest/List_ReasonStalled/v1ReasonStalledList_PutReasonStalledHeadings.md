@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 102,
-    "Name": "Schumm LLC",
-    "Tooltip": "sapiente",
-    "Deleted": true,
-    "Rank": 301,
-    "UdListDefinitionId": 201
+    "HeadingId": 161,
+    "Name": "Fahey-Morissette",
+    "Tooltip": "autem",
+    "Deleted": false,
+    "Rank": 157,
+    "UdListDefinitionId": 616
   },
   {
-    "HeadingId": 102,
-    "Name": "Schumm LLC",
-    "Tooltip": "sapiente",
-    "Deleted": true,
-    "Rank": 301,
-    "UdListDefinitionId": 201
+    "HeadingId": 161,
+    "Name": "Fahey-Morissette",
+    "Tooltip": "autem",
+    "Deleted": false,
+    "Rank": 157,
+    "UdListDefinitionId": 616
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 662,
-    "Name": "Runolfsdottir-Dibbert",
-    "Tooltip": "a",
-    "Deleted": true,
-    "Rank": 492,
-    "UdListDefinitionId": 903,
+    "HeadingId": 287,
+    "Name": "Hackett, Muller and Bailey",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 425,
+    "UdListDefinitionId": 419,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldLength": 243
       }
     }
   }

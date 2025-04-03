@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 637,
-    "Name": "Gerhold-Wiegand",
-    "ToolTip": "Beatae autem voluptas.",
-    "Deleted": true,
-    "Rank": 571,
-    "Type": "culpa",
-    "ColorBlock": 662,
-    "IconHint": "laboriosam",
+    "Id": 100,
+    "Name": "Kunze-Mertz",
+    "ToolTip": "Eum exercitationem et accusantium voluptatem.",
+    "Deleted": false,
+    "Rank": 821,
+    "Type": "ullam",
+    "ColorBlock": 701,
+    "IconHint": "molestias",
     "Selected": true,
-    "LastChanged": "2024-05-06T02:38:26.8392626+02:00",
+    "LastChanged": "2016-05-07T14:28:27.6176673+02:00",
     "ChildItems": [
       {
-        "Id": 38,
-        "Name": "Reichel, Block and Wisozk",
-        "ToolTip": "Labore harum.",
+        "Id": 26,
+        "Name": "Borer, Weissnat and Wolf",
+        "ToolTip": "Dolor esse ratione est.",
         "Deleted": false,
-        "Rank": 742,
-        "Type": "ut",
-        "ColorBlock": 85,
-        "IconHint": "tenetur",
-        "Selected": false,
-        "LastChanged": "2010-10-07T02:38:26.8392626+02:00",
+        "Rank": 490,
+        "Type": "modi",
+        "ColorBlock": 855,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2011-05-20T14:28:27.6176673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "sed",
+        "ExtraInfo": "autem",
+        "StyleHint": "commodi",
         "Hidden": true,
-        "FullName": "Prof. Fletcher Hiram Jenkins IV"
+        "FullName": "Emmy Clyde Dicki III"
       }
     ],
-    "ExtraInfo": "similique",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Mr. Leila Koepp"
+    "ExtraInfo": "animi",
+    "StyleHint": "eos",
+    "Hidden": true,
+    "FullName": "Ms. Arely Stokes Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 177,
-    "Name": "Weber Group",
-    "ToolTip": "Nulla aliquam fugiat.",
-    "Deleted": false,
-    "Rank": 390,
-    "Type": "non",
-    "ColorBlock": 558,
-    "IconHint": "facilis",
+    "Id": 51,
+    "Name": "Howell Group",
+    "ToolTip": "Adipisci neque rerum maiores blanditiis consectetur.",
+    "Deleted": true,
+    "Rank": 94,
+    "Type": "ut",
+    "ColorBlock": 845,
+    "IconHint": "quisquam",
     "Selected": false,
-    "LastChanged": "2002-10-10T02:38:26.8392626+02:00",
+    "LastChanged": "2007-12-24T14:28:27.6176673+01:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Daniel, Huels and Farrell",
-        "ToolTip": "Voluptatem ea omnis illum eos accusamus enim consequatur.",
-        "Deleted": false,
-        "Rank": 307,
-        "Type": "officiis",
-        "ColorBlock": 705,
-        "IconHint": "porro",
+        "Id": 703,
+        "Name": "Mitchell-Wiza",
+        "ToolTip": "Est ea in recusandae voluptate quas voluptatem.",
+        "Deleted": true,
+        "Rank": 516,
+        "Type": "et",
+        "ColorBlock": 83,
+        "IconHint": "quas",
         "Selected": true,
-        "LastChanged": "2013-10-29T02:38:26.8392626+01:00",
+        "LastChanged": "2005-03-05T14:28:27.6176673+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "molestias",
+        "ExtraInfo": "molestiae",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Winnifred Walsh",
+        "FullName": "Mr. Kallie Josiah Conroy MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 23
+            "FieldType": "System.String",
+            "FieldLength": 779
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "sit",
+    "ExtraInfo": "qui",
+    "StyleHint": "deserunt",
     "Hidden": true,
-    "FullName": "Bonnie Tania Heller DVM",
+    "FullName": "Marley Gibson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldLength": 224
       }
     }
   }

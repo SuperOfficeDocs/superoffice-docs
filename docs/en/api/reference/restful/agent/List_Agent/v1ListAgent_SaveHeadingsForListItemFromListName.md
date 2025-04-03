@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Fahey-Maggio",
-  "ListItemId": 957,
+  "UdListDefinitionName": "Abernathy LLC",
+  "ListItemId": 549,
   "Headings": [
     {
-      "Id": 144,
-      "Name": "Corkery LLC",
-      "ToolTip": "Vero iure.",
+      "Id": 148,
+      "Name": "Beahan, Dickens and Torphy",
+      "ToolTip": "Aut fugit.",
       "Deleted": false,
-      "Rank": 111,
-      "Type": "voluptatum",
-      "ColorBlock": 348,
-      "IconHint": "vero",
+      "Rank": 586,
+      "Type": "consectetur",
+      "ColorBlock": 605,
+      "IconHint": "at",
       "Selected": true,
-      "LastChanged": "2004-10-10T02:38:21.5107392+02:00",
+      "LastChanged": "2004-04-02T14:28:22.0553915+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "explicabo",
-      "StyleHint": "quam",
-      "Hidden": false,
-      "FullName": "Nels Leffler"
+      "ExtraInfo": "aliquam",
+      "StyleHint": "facilis",
+      "Hidden": true,
+      "FullName": "Vince Corkery"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 927,
-    "Name": "Quigley, Nicolas and Funk",
-    "ToolTip": "Aliquam animi perferendis et quibusdam magni ullam.",
+    "Id": 440,
+    "Name": "Dickinson Inc and Sons",
+    "ToolTip": "Quis nobis maxime praesentium vel inventore.",
     "Deleted": false,
-    "Rank": 341,
-    "Type": "qui",
-    "ColorBlock": 564,
-    "IconHint": "delectus",
+    "Rank": 150,
+    "Type": "et",
+    "ColorBlock": 41,
+    "IconHint": "alias",
     "Selected": false,
-    "LastChanged": "1998-04-12T02:38:21.5107392+02:00",
+    "LastChanged": "2002-04-11T14:28:22.0553915+02:00",
     "ChildItems": [
       {
-        "Id": 572,
-        "Name": "Russel, Bartell and Heaney",
-        "ToolTip": "Qui nostrum.",
-        "Deleted": true,
-        "Rank": 161,
-        "Type": "et",
-        "ColorBlock": 420,
-        "IconHint": "magnam",
-        "Selected": false,
-        "LastChanged": "2023-09-26T02:38:21.5107392+02:00",
+        "Id": 560,
+        "Name": "Rempel, Strosin and Crona",
+        "ToolTip": "Aut ut recusandae eum nihil delectus.",
+        "Deleted": false,
+        "Rank": 879,
+        "Type": "rerum",
+        "ColorBlock": 133,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2000-08-26T14:28:22.0553915+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "consectetur",
-        "Hidden": false,
-        "FullName": "Leola Prosacco",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "est",
+        "Hidden": true,
+        "FullName": "Jane Simonis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 801
+            "FieldType": "System.String",
+            "FieldLength": 439
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "vel",
+    "ExtraInfo": "et",
+    "StyleHint": "dignissimos",
     "Hidden": false,
-    "FullName": "Ines Nora Donnelly DDS",
+    "FullName": "Miss Monica Joy O'Kon IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 729
+        "FieldType": "System.String",
+        "FieldLength": 465
       }
     }
   }

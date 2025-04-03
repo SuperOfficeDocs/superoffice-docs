@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 363,
-    "Name": "Rodriguez, Little and Corwin",
-    "ToolTip": "Quibusdam distinctio.",
+    "Id": 322,
+    "Name": "Kuhlman LLC",
+    "ToolTip": "Dolorem et.",
     "Deleted": false,
-    "Rank": 396,
-    "Type": "voluptas",
-    "ColorBlock": 303,
-    "IconHint": "non",
+    "Rank": 237,
+    "Type": "expedita",
+    "ColorBlock": 930,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "2018-11-21T02:38:22.1981664+01:00",
+    "LastChanged": "2013-10-14T14:28:22.6959913+02:00",
     "ChildItems": [
       {
-        "Id": 349,
-        "Name": "Gleichner Group",
-        "ToolTip": "Similique rerum quam.",
+        "Id": 245,
+        "Name": "Kihn-Sporer",
+        "ToolTip": "Dolorem sint id esse omnis.",
         "Deleted": false,
-        "Rank": 122,
-        "Type": "alias",
-        "ColorBlock": 966,
-        "IconHint": "aut",
+        "Rank": 430,
+        "Type": "perferendis",
+        "ColorBlock": 757,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2015-11-01T02:38:22.1981664+01:00",
+        "LastChanged": "2015-07-22T14:28:22.6959913+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "commodi",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Casandra Heller",
+        "ExtraInfo": "non",
+        "StyleHint": "alias",
+        "Hidden": false,
+        "FullName": "Stephany Hagenes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 552
+            "FieldLength": 368
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "eaque",
-    "Hidden": true,
-    "FullName": "Kristin Streich",
+    "ExtraInfo": "alias",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Amely Olson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 98
+        "FieldType": "System.Int32",
+        "FieldLength": 45
       }
     }
   }

@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 162,
-  "ColumnId": 712,
-  "FieldDefault": "ullam",
-  "FieldHeight": 830,
-  "FieldLabel": "fugit",
-  "FieldLeft": 290,
-  "FieldTop": 290,
+  "UDefFieldId": 551,
+  "ColumnId": 380,
+  "FieldDefault": "occaecati",
+  "FieldHeight": 937,
+  "FieldLabel": "dolores",
+  "FieldLeft": 103,
+  "FieldTop": 907,
   "FieldType": "Checkbox",
-  "FieldWidth": 534,
-  "FormatMask": "vitae",
+  "FieldWidth": 412,
+  "FormatMask": "consequatur",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 764,
-  "LabelLeft": 229,
-  "LabelTop": 249,
-  "LabelWidth": 325,
-  "LastVersionId": 512,
-  "ListTableId": 956,
-  "IsMandatory": false,
+  "LabelHeight": 627,
+  "LabelLeft": 291,
+  "LabelTop": 629,
+  "LabelWidth": 56,
+  "LastVersionId": 609,
+  "ListTableId": 108,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 398,
-  "ProgId": "voluptatem",
+  "Page1LineNo": 764,
+  "ProgId": "excepturi",
   "IsReadOnly": false,
-  "ShortLabel": "neque",
-  "TabOrder": 839,
-  "TextLength": 886,
-  "Tooltip": "provident",
-  "UdefIdentity": 911,
-  "UDListDefinitionId": 306,
+  "ShortLabel": "odit",
+  "TabOrder": 606,
+  "TextLength": 341,
+  "Tooltip": "illo",
+  "UdefIdentity": 591,
+  "UDListDefinitionId": 935,
   "Justification": "Center",
-  "Version": 234,
-  "TemplateVariableName": "Hartmann, Lowe and Daniel",
-  "HasBeenPublished": false,
-  "MdoListName": "O'Kon, Kiehn and Koss",
+  "Version": 865,
+  "TemplateVariableName": "Crist Inc and Sons",
+  "HasBeenPublished": true,
+  "MdoListName": "Lind, Bernier and Lowe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldType": "System.String",
+      "FieldLength": 310
     }
   }
 }

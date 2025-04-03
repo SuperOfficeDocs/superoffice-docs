@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 515,
-    "ERPName": "Kiehn-Bradtke",
-    "DisplayName": "Doyle Group",
-    "DisplayDescription": "Polarised 24/7 function",
-    "Rank": 760,
-    "ConnectorName": "Frami-Hettinger",
-    "ErpConnectionId": 699,
-    "ExtraData": "nihil",
-    "IsAvailable": true,
+    "QuoteConnectionId": 330,
+    "ERPName": "Funk, Tillman and Hackett",
+    "DisplayName": "Christiansen Inc and Sons",
+    "DisplayDescription": "Business-focused zero tolerance support",
+    "Rank": 200,
+    "ConnectorName": "Feeney, Ankunding and Cartwright",
+    "ErpConnectionId": 726,
+    "ExtraData": "nesciunt",
+    "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 498,
-        "ERPPriceListKey": "est",
-        "QuoteConnectionId": 520,
-        "Name": "Nicolas, Rath and Bayer",
-        "Description": "Progressive empowering architecture",
-        "Currency": "officia",
-        "CurrencyName": "Terry-Mitchell",
-        "ValidFrom": "2011-11-25T02:38:21.7763357+01:00",
-        "ValidTo": "1998-07-25T02:38:21.7763357+02:00",
+        "PriceListId": 424,
+        "ERPPriceListKey": "reprehenderit",
+        "QuoteConnectionId": 264,
+        "Name": "Walter, Moore and Frami",
+        "Description": "Streamlined encompassing adapter",
+        "Currency": "corrupti",
+        "CurrencyName": "Schowalter Group",
+        "ValidFrom": "2020-03-28T14:28:22.3053817+01:00",
+        "ValidTo": "2012-11-14T14:28:22.3053817+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 902
+            "FieldType": "System.Int32",
+            "FieldLength": 379
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      848,
-      513
+      545,
+      639
     ],
     "AssociateAccessIds": [
-      84,
-      207
+      671,
+      456
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 257
+        "FieldLength": 676
       }
     }
   }

@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 920,
-  "Name": "Bruen Inc and Sons",
-  "Description": "Intuitive scalable success",
-  "DeltaJson": "ducimus",
+  "ConfigurableScreenDeltaId": 204,
+  "Name": "Corkery-Johnson",
+  "Description": "Versatile static collaboration",
+  "DeltaJson": "est",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "doloribus",
-  "UpdatedDate": "2003-02-21T02:38:20.995206+01:00",
-  "CreatedDate": "2024-05-09T02:38:20.995206+02:00",
+  "RecipeId": "est",
+  "UpdatedDate": "2020-08-19T14:28:21.5710362+02:00",
+  "CreatedDate": "2023-01-10T14:28:21.5710362+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    691,
-    710
+    760,
+    38
   ],
-  "AppliesToKey": "eos"
+  "AppliesToKey": "cum"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 436,
-  "Name": "Moen, Hoppe and Buckridge",
-  "Description": "Programmable object-oriented model",
-  "DeltaJson": "dolor",
+  "ConfigurableScreenDeltaId": 676,
+  "Name": "Yundt, Kiehn and Reynolds",
+  "Description": "Inverse incremental function",
+  "DeltaJson": "ea",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "ut",
-  "UpdatedDate": "2010-07-25T02:38:20.995206+02:00",
-  "CreatedDate": "2002-01-03T02:38:20.995206+01:00",
+  "RecipeId": "molestiae",
+  "UpdatedDate": "2008-08-15T14:28:21.5710362+02:00",
+  "CreatedDate": "2003-11-09T14:28:21.5710362+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    771,
-    268
+    754,
+    947
   ],
-  "AppliesToKey": "velit",
+  "AppliesToKey": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 265
+      "FieldLength": 152
     }
   }
 }

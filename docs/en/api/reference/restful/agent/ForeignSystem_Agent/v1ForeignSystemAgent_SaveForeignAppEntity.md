@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 869,
-  "Name": "Dach-Rice",
-  "CreatedDate": "2015-03-20T02:38:21.4482803+01:00",
-  "UpdatedDate": "1999-03-18T02:38:21.4482803+01:00",
+  "ForeignAppId": 798,
+  "Name": "Kuvalis LLC",
+  "CreatedDate": "2003-10-16T14:28:22.0085182+02:00",
+  "UpdatedDate": "2008-12-31T14:28:22.0085182+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 241,
-      "Name": "Lemke-Cassin",
-      "CreatedDate": "2020-11-22T02:38:21.4482803+01:00",
-      "UpdatedDate": "2005-06-04T02:38:21.4482803+02:00",
-      "AssociateFullName": "Jennyfer Trevor Adams II",
-      "CreatedBy": "asperiores",
-      "UpdatedBy": "aut",
-      "DeviceIdentifier": "deleniti",
-      "ForeignAppId": 827
+      "ForeignDeviceId": 950,
+      "Name": "Homenick-Rogahn",
+      "CreatedDate": "2007-03-15T14:28:22.0085182+01:00",
+      "UpdatedDate": "2014-03-15T14:28:22.0085182+01:00",
+      "AssociateFullName": "Darius Schneider",
+      "CreatedBy": "dolorem",
+      "UpdatedBy": "consequatur",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 265
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 123,
-  "Name": "Nicolas LLC",
-  "CreatedDate": "2004-05-17T02:38:21.4482803+02:00",
-  "UpdatedDate": "2018-12-05T02:38:21.4482803+01:00",
+  "ForeignAppId": 511,
+  "Name": "Anderson, Goodwin and Ernser",
+  "CreatedDate": "2015-02-01T14:28:22.0085182+01:00",
+  "UpdatedDate": "2023-06-15T14:28:22.0085182+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 15,
-      "Name": "Herman, Langworth and Parisian",
-      "CreatedDate": "2008-11-28T02:38:21.4482803+01:00",
-      "UpdatedDate": "2013-11-10T02:38:21.4482803+01:00",
-      "AssociateFullName": "Rosemarie Conroy",
-      "CreatedBy": "et",
-      "UpdatedBy": "quo",
-      "DeviceIdentifier": "aut",
-      "ForeignAppId": 116,
+      "ForeignDeviceId": 675,
+      "Name": "Doyle, Jakubowski and Bogan",
+      "CreatedDate": "2014-06-30T14:28:22.0085182+02:00",
+      "UpdatedDate": "1998-05-18T14:28:22.0085182+02:00",
+      "AssociateFullName": "Prof. Alize Jerde",
+      "CreatedBy": "rerum",
+      "UpdatedBy": "neque",
+      "DeviceIdentifier": "quod",
+      "ForeignAppId": 901,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 690
+          "FieldLength": 210
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 731
+      "FieldLength": 459
     }
   }
 }

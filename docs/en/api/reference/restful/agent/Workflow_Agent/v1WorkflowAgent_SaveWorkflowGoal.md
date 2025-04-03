@@ -73,23 +73,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 100,
-  "WorkflowId": 193,
+  "WorkflowGoalId": 80,
+  "WorkflowId": 429,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Rutherford-Gleason",
-      "Description": "Ergonomic non-volatile open system",
-      "Rank": 388,
+      "Name": "Runolfsson Inc and Sons",
+      "Description": "Grass-roots empowering solution",
+      "Rank": 958,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rutherford-Gleason",
-      "Description": "Ergonomic non-volatile open system",
-      "Rank": 388,
+      "Name": "Runolfsson Inc and Sons",
+      "Description": "Grass-roots empowering solution",
+      "Rank": 958,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 728,
-  "WorkflowId": 195,
+  "WorkflowGoalId": 806,
+  "WorkflowId": 50,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Ryan-O'Hara",
-      "Description": "Versatile actuating application",
-      "Rank": 226,
+      "Name": "Miller-Satterfield",
+      "Description": "Customizable modular leverage",
+      "Rank": 837,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ryan-O'Hara",
-      "Description": "Versatile actuating application",
-      "Rank": 226,
+      "Name": "Miller-Satterfield",
+      "Description": "Customizable modular leverage",
+      "Rank": 837,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldType": "System.String",
+      "FieldLength": 675
     }
   }
 }

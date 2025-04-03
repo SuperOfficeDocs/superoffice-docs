@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 392,
-    "Name": "Morissette, Toy and Nader",
-    "ToolTip": "Dolorum esse.",
-    "Deleted": true,
-    "Rank": 79,
-    "Type": "explicabo",
-    "ColorBlock": 720,
-    "IconHint": "soluta",
+    "Id": 46,
+    "Name": "Kassulke Group",
+    "ToolTip": "Qui quas rerum incidunt molestiae.",
+    "Deleted": false,
+    "Rank": 582,
+    "Type": "minima",
+    "ColorBlock": 745,
+    "IconHint": "quibusdam",
     "Selected": false,
-    "LastChanged": "2003-08-28T02:38:26.7923976+02:00",
+    "LastChanged": "2010-09-23T14:28:27.5864176+02:00",
     "ChildItems": [
       {
-        "Id": 958,
-        "Name": "Nolan Inc and Sons",
-        "ToolTip": "Ratione ullam dolorem.",
+        "Id": 85,
+        "Name": "Wiza LLC",
+        "ToolTip": "Enim aliquam veritatis nesciunt doloribus sunt.",
         "Deleted": false,
-        "Rank": 429,
-        "Type": "nostrum",
-        "ColorBlock": 472,
-        "IconHint": "odit",
+        "Rank": 949,
+        "Type": "sed",
+        "ColorBlock": 790,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2017-05-25T02:38:26.7923976+02:00",
+        "LastChanged": "2006-07-12T14:28:27.5864176+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "fugit",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Retta Rodriguez DDS",
+        "FullName": "Velva Quigley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 6
+            "FieldType": "System.String",
+            "FieldLength": 745
           }
         }
       }
     ],
-    "ExtraInfo": "vero",
-    "StyleHint": "amet",
-    "Hidden": true,
-    "FullName": "Bernard Walter",
+    "ExtraInfo": "fugit",
+    "StyleHint": "voluptate",
+    "Hidden": false,
+    "FullName": "Tina Flatley",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 564
+        "FieldLength": 711
       }
     }
   }

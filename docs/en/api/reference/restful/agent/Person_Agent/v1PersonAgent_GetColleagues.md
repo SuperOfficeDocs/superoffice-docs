@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,53 +116,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "deleniti",
-    "PersonId": 828,
-    "Mrmrs": "et",
-    "Firstname": "Jena",
-    "Lastname": "Rath",
-    "MiddleName": "Bechtelar-Baumbach",
-    "Title": "tempore",
-    "Description": "Customer-focused 6th generation hub",
-    "Email": "roger_vonrueden@ziemanngottlieb.info",
-    "FullName": "Abelardo Borer",
-    "DirectPhone": "(401)439-7293 x734",
-    "FormalName": "Crooks Group",
-    "CountryId": 450,
-    "ContactId": 871,
-    "ContactName": "Marquardt Inc and Sons",
-    "Retired": 836,
-    "Rank": 54,
-    "ActiveInterests": 550,
+    "Position": "repellat",
+    "PersonId": 654,
+    "Mrmrs": "excepturi",
+    "Firstname": "Jodie",
+    "Lastname": "Daniel",
+    "MiddleName": "Funk, O'Hara and Christiansen",
+    "Title": "reprehenderit",
+    "Description": "Multi-lateral actuating monitoring",
+    "Email": "gaylord@dooley.co.uk",
+    "FullName": "Mohammad Blick",
+    "DirectPhone": "285-418-7877 x249",
+    "FormalName": "Boyle, Haley and Pfeffer",
+    "CountryId": 808,
+    "ContactId": 602,
+    "ContactName": "Schamberger LLC",
+    "Retired": 953,
+    "Rank": 853,
+    "ActiveInterests": 25,
     "ContactDepartment": "",
-    "ContactCountryId": 118,
-    "ContactOrgNr": "1191587",
-    "FaxPhone": "727-029-4571",
-    "MobilePhone": "559-550-4787",
-    "ContactPhone": "(953)478-4064 x9280",
-    "AssociateName": "Jerde, Friesen and Gleichner",
-    "AssociateId": 261,
-    "UsePersonAddress": false,
-    "ContactFax": "nihil",
-    "Kanafname": "modi",
-    "Kanalname": "similique",
-    "Post1": "unde",
-    "Post2": "debitis",
-    "Post3": "velit",
-    "EmailName": "cindy@sengerwaters.co.uk",
-    "ContactFullName": "Dr. Euna Coralie Wyman V",
-    "ActiveErpLinks": 219,
-    "TicketPriorityId": 156,
-    "SupportLanguageId": 964,
-    "SupportAssociateId": 692,
+    "ContactCountryId": 568,
+    "ContactOrgNr": "651032",
+    "FaxPhone": "696.305.7497 x420",
+    "MobilePhone": "1-211-915-5125 x0116",
+    "ContactPhone": "583.429.9325",
+    "AssociateName": "Pfannerstill-Fritsch",
+    "AssociateId": 7,
+    "UsePersonAddress": true,
+    "ContactFax": "vel",
+    "Kanafname": "iste",
+    "Kanalname": "voluptate",
+    "Post1": "quos",
+    "Post2": "et",
+    "Post3": "laborum",
+    "EmailName": "drake.windler@cummerata.name",
+    "ContactFullName": "Prof. Ottis Pacocha Sr.",
+    "ActiveErpLinks": 322,
+    "TicketPriorityId": 698,
+    "SupportLanguageId": 732,
+    "SupportAssociateId": 362,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "608245",
+    "PersonNumber": "1588238",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 856
+        "FieldLength": 676
       }
     }
   }

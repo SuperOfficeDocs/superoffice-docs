@@ -114,18 +114,18 @@ ForeignAppEntity  updated.
 PATCH /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quae",
+    "path": "aliquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quae",
+    "path": "aliquam",
     "value": {}
   }
 ]
@@ -138,29 +138,29 @@ HTTP/1.1 200 ForeignAppEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 477,
-  "Name": "Simonis, Bergstrom and Kreiger",
-  "CreatedDate": "2015-10-21T02:38:26.1204323+02:00",
-  "UpdatedDate": "2018-09-12T02:38:26.1204323+02:00",
+  "ForeignAppId": 762,
+  "Name": "Brekke Group",
+  "CreatedDate": "2003-02-12T14:28:26.9458186+01:00",
+  "UpdatedDate": "2008-05-01T14:28:26.9458186+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 947,
-      "Name": "Gleichner-Schinner",
-      "CreatedDate": "2019-04-22T02:38:26.1204323+02:00",
-      "UpdatedDate": "2001-05-02T02:38:26.1204323+02:00",
-      "AssociateFullName": "Richie Predovic",
-      "CreatedBy": "unde",
-      "UpdatedBy": "quod",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 449,
+      "ForeignDeviceId": 839,
+      "Name": "Lesch LLC",
+      "CreatedDate": "2002-10-07T14:28:26.9458186+02:00",
+      "UpdatedDate": "2019-05-29T14:28:26.9458186+02:00",
+      "AssociateFullName": "Rowan Kemmer",
+      "CreatedBy": "rerum",
+      "UpdatedBy": "voluptate",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 392,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 318
+          "FieldLength": 266
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 572
+      "FieldType": "System.String",
+      "FieldLength": 936
     }
   },
   "_Links": {

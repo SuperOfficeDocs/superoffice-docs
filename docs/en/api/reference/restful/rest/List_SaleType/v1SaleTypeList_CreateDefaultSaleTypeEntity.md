@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 479,
-  "Name": "Ondricka-Bogan",
-  "Tooltip": "ipsum",
-  "Rank": 208,
+  "SaleTypeId": 406,
+  "Name": "Legros Inc and Sons",
+  "Tooltip": "dolorum",
+  "Rank": 639,
   "DurationUnit": "Century",
-  "SaleDuration": 367,
-  "SaleTypeCatId": 613,
+  "SaleDuration": 988,
+  "SaleTypeCatId": 797,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 984,
-  "QuoteLinesTemplate": 662,
-  "ConfirmationLinesTemplate": 954,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 391,
+  "QuoteLinesTemplate": 400,
+  "ConfirmationLinesTemplate": 726,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 713,
-  "MinEarningPercent": 896,
-  "GroupQuoteLinesBy": 34,
-  "SortGroupLinesBy": 127,
+  "MaxDiscountPercent": 287,
+  "MinEarningPercent": 707,
+  "GroupQuoteLinesBy": 244,
+  "SortGroupLinesBy": 65,
   "Stages": [
     {
-      "Id": 447,
-      "Name": "Stoltenberg-West",
-      "ToolTip": "Sed natus quo sit dicta placeat itaque.",
+      "Id": 598,
+      "Name": "Yost, Goyette and Thiel",
+      "ToolTip": "Tempora fugit dolorem consectetur debitis consequuntur et dolorem.",
       "Deleted": false,
-      "Rank": 188,
-      "Type": "qui",
-      "ColorBlock": 808,
+      "Rank": 623,
+      "Type": "error",
+      "ColorBlock": 996,
       "IconHint": "et",
-      "Selected": true,
-      "LastChanged": "2009-08-26T02:38:26.9330101+02:00",
+      "Selected": false,
+      "LastChanged": "2006-08-19T14:28:27.6957886+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "esse",
-      "StyleHint": "repellendus",
-      "Hidden": true,
-      "FullName": "Juliet Wolf",
+      "ExtraInfo": "iste",
+      "StyleHint": "nesciunt",
+      "Hidden": false,
+      "FullName": "Isabella Ondricka PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldType": "System.String",
+          "FieldLength": 511
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldType": "System.String",
+      "FieldLength": 410
     }
   }
 }

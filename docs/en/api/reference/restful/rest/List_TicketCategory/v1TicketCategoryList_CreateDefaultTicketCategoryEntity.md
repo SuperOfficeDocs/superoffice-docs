@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 850,
-  "ParentId": 616,
-  "Name": "Pfeffer Group",
-  "Fullname": "ut",
-  "CategoryMaster": 371,
+  "TicketCategoryId": 951,
+  "ParentId": 798,
+  "Name": "Miller LLC",
+  "Fullname": "omnis",
+  "CategoryMaster": 551,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Beer-Schroeder",
+  "ExternalName": "Ernser-Jacobson",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 956,
-  "ReplyTemplate": 949,
-  "NotificationEmail": "tomasa.baumbach@klocko.co.uk",
+  "AssignmentLag": 191,
+  "ReplyTemplate": 230,
+  "NotificationEmail": "zula@hermannlehner.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 382,
+  "EffectiveReplyTemplateId": 622,
   "ExtraFields": {
-    "ExtraFields1": "magnam",
-    "ExtraFields2": "dolore"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "libero"
   },
   "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "exercitationem"
+    "CustomFields1": "magni",
+    "CustomFields2": "magnam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldType": "System.String",
+      "FieldLength": 948
     }
   }
 }

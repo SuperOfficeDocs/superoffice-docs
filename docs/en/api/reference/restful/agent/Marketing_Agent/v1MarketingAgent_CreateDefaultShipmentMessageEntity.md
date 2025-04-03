@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 724,
-  "PlainMessage": "nihil",
-  "HtmlMessage": "qui",
-  "SmsMessage": "id",
-  "Description": "Front-line dynamic model",
-  "Subject": "aspernatur",
-  "FolderId": 278,
-  "HeaderField": "aliquid",
-  "Design": "molestiae",
+  "ShipmentMessageId": 213,
+  "PlainMessage": "sint",
+  "HtmlMessage": "commodi",
+  "SmsMessage": "ullam",
+  "Description": "Profit-focused discrete process improvement",
+  "Subject": "voluptatem",
+  "FolderId": 970,
+  "HeaderField": "ipsa",
+  "Design": "itaque",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Compatible intermediate info-mediaries",
-  "AccessKey": "deserunt",
-  "DocumentMessage": 330,
-  "Registered": "2014-08-24T02:38:21.5576497+02:00",
-  "RegisteredAssociateId": 878,
-  "Updated": "2002-04-16T02:38:21.5576497+02:00",
-  "UpdatedAssociateId": 224,
-  "UpdatedCount": 234,
+  "InlineImages": false,
+  "LongDescription": "Configurable reciprocal knowledge user",
+  "AccessKey": "est",
+  "DocumentMessage": 923,
+  "Registered": "2018-10-23T14:28:22.1022648+02:00",
+  "RegisteredAssociateId": 548,
+  "Updated": "2012-10-19T14:28:22.1022648+02:00",
+  "UpdatedAssociateId": 310,
+  "UpdatedCount": 584,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 504
+      "FieldLength": 280
     }
   }
 }

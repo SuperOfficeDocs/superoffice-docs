@@ -100,21 +100,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "D'Amore LLC",
-      "Operator": "rerum",
+      "Name": "Wintheiser Group",
+      "Operator": "aliquam",
       "Values": [
-        "occaecati",
-        "beatae"
+        "accusantium",
+        "nam"
       ],
       "DisplayValues": [
-        "quis",
-        "quia"
+        "inventore",
+        "porro"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 919,
+      "InterParenthesis": 617,
       "InterOperator": "And",
-      "UniqueHash": 816
+      "UniqueHash": 306
     }
   ],
-  "ProviderName": "Buckridge Inc and Sons",
+  "ProviderName": "Rolfson, Green and Schmidt",
   "DesiredColumns": [
-    "et",
-    "tempora"
+    "modi",
+    "dolorem"
   ],
-  "PageSize": 971,
-  "PageNumber": 840
+  "PageSize": 822,
+  "PageNumber": 447
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bashirian, Waelchi and Mraz",
-      "DisplayTooltip": "tenetur",
-      "DisplayType": "nihil",
-      "CanOrderBy": false,
-      "Name": "Kilback-Mills",
-      "CanRestrictBy": false,
-      "RestrictionType": "dolorem",
-      "RestrictionListName": "Rodriguez-McDermott",
+      "DisplayName": "Robel-Schultz",
+      "DisplayTooltip": "occaecati",
+      "DisplayType": "omnis",
+      "CanOrderBy": true,
+      "Name": "Howe Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "possimus",
+      "RestrictionListName": "Schamberger, Hayes and Bartoletti",
       "IsVisible": false,
-      "ExtraInfo": "at",
-      "Width": "velit",
-      "IconHint": "voluptatem",
-      "HeadingIconHint": "eaque"
+      "ExtraInfo": "ratione",
+      "Width": "animi",
+      "IconHint": "nobis",
+      "HeadingIconHint": "error"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Graham-Jakubowski",
-      "PrimaryKey": 799,
+      "EntityName": "Johnston, Davis and Marvin",
+      "PrimaryKey": 81,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sint",
-          "TooltipHint": "velit",
-          "LinkHint": "facere"
+          "DisplayValue": "molestiae",
+          "TooltipHint": "rerum",
+          "LinkHint": "numquam"
         }
       },
-      "LinkHint": "animi",
-      "StyleHint": "qui",
+      "LinkHint": "perspiciatis",
+      "StyleHint": "quae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 611
+          "FieldType": "System.String",
+          "FieldLength": 493
         }
       }
     }
   ],
-  "RowCount": 555,
+  "RowCount": 140,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldLength": 341
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 285,
-    "Name": "Schimmel, Dare and Orn",
-    "ToolTip": "Voluptate similique eum eligendi ipsam unde et.",
-    "Deleted": false,
-    "Rank": 150,
-    "Type": "itaque",
-    "ColorBlock": 859,
-    "IconHint": "libero",
-    "Selected": false,
-    "LastChanged": "2011-08-28T02:38:26.9330101+02:00",
+    "Id": 216,
+    "Name": "Bergnaum, Franecki and Volkman",
+    "ToolTip": "Eveniet vitae.",
+    "Deleted": true,
+    "Rank": 768,
+    "Type": "aut",
+    "ColorBlock": 508,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2016-11-12T14:28:27.7114135+01:00",
     "ChildItems": [
       {
-        "Id": 83,
-        "Name": "Lubowitz-Schinner",
-        "ToolTip": "Et quod voluptatem modi.",
+        "Id": 800,
+        "Name": "Veum-Bauch",
+        "ToolTip": "Fuga nostrum.",
         "Deleted": false,
-        "Rank": 943,
-        "Type": "maiores",
-        "ColorBlock": 263,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2014-08-01T02:38:26.9330101+02:00",
+        "Rank": 122,
+        "Type": "alias",
+        "ColorBlock": 952,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "2016-11-08T14:28:27.7114135+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Betty Balistreri",
+        "ExtraInfo": "autem",
+        "StyleHint": "recusandae",
+        "Hidden": true,
+        "FullName": "Mrs. Paolo Enos Paucek PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 812
+            "FieldType": "System.Int32",
+            "FieldLength": 740
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "non",
+    "ExtraInfo": "pariatur",
+    "StyleHint": "at",
     "Hidden": false,
-    "FullName": "Judson Rosenbaum IV",
+    "FullName": "Prof. Kathlyn Sarai Kemmer I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldType": "System.String",
+        "FieldLength": 974
       }
     }
   }

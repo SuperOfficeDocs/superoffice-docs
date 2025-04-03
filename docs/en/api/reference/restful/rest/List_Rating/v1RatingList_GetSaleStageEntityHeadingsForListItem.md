@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 472,
-    "Name": "Treutel Inc and Sons",
-    "ToolTip": "Eveniet nemo eum dolores quia ut expedita eos.",
-    "Deleted": false,
-    "Rank": 551,
-    "Type": "ut",
-    "ColorBlock": 880,
-    "IconHint": "aut",
+    "Id": 978,
+    "Name": "Schinner Group",
+    "ToolTip": "Dolore est saepe.",
+    "Deleted": true,
+    "Rank": 524,
+    "Type": "et",
+    "ColorBlock": 335,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "1998-12-04T02:38:26.9017511+01:00",
+    "LastChanged": "2012-08-25T14:28:27.6645394+02:00",
     "ChildItems": [
       {
-        "Id": 810,
-        "Name": "Rohan-Jenkins",
-        "ToolTip": "Sit ut mollitia praesentium eaque.",
+        "Id": 994,
+        "Name": "Dicki Inc and Sons",
+        "ToolTip": "Sint nisi provident.",
         "Deleted": false,
-        "Rank": 798,
-        "Type": "et",
-        "ColorBlock": 338,
-        "IconHint": "in",
-        "Selected": false,
-        "LastChanged": "2008-07-07T02:38:26.9017511+02:00",
+        "Rank": 338,
+        "Type": "voluptatem",
+        "ColorBlock": 641,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2007-11-04T14:28:27.6645394+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Devyn Schneider",
+        "ExtraInfo": "sed",
+        "StyleHint": "dolor",
+        "Hidden": true,
+        "FullName": "Ms. Sonny Julian Watsica MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 457
+            "FieldType": "System.String",
+            "FieldLength": 645
           }
         }
       }
     ],
-    "ExtraInfo": "incidunt",
-    "StyleHint": "modi",
+    "ExtraInfo": "temporibus",
+    "StyleHint": "illo",
     "Hidden": true,
-    "FullName": "Mr. Korbin McLaughlin",
+    "FullName": "Kenny Bogan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 200
+        "FieldType": "System.String",
+        "FieldLength": 192
       }
     }
   }

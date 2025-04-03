@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Contact/SaveQuoteVersionAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 341,
+  "QuoteVersionId": 914,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 902
+  "CountryId": 752
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 1435.3719999999998,
-  "Wgs84Longitude": 7198.798,
+  "Wgs84Latitude": 27287.737999999998,
+  "Wgs84Longitude": 6061.156,
   "LocalizedAddress": [
     [
       {
-        "Name": "Armstrong Inc and Sons",
-        "Value": "velit",
-        "Tooltip": "at",
-        "Label": "temporibus",
-        "ValueLength": 628,
-        "AddressType": "repellendus",
+        "Name": "Beatty-Huel",
+        "Value": "enim",
+        "Tooltip": "quibusdam",
+        "Label": "ut",
+        "ValueLength": 309,
+        "AddressType": "rerum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 105
+            "FieldType": "System.Int32",
+            "FieldLength": 172
           }
         }
       }
     ],
     [
       {
-        "Name": "Sporer, Durgan and Hartmann",
-        "Value": "voluptatem",
-        "Tooltip": "veritatis",
-        "Label": "nemo",
-        "ValueLength": 875,
-        "AddressType": "minus",
+        "Name": "Carroll-Kunze",
+        "Value": "occaecati",
+        "Tooltip": "quia",
+        "Label": "aut",
+        "ValueLength": 269,
+        "AddressType": "autem",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 349
+            "FieldLength": 499
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "impedit",
+  "Formatted": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 760
+      "FieldLength": 842
     }
   }
 }

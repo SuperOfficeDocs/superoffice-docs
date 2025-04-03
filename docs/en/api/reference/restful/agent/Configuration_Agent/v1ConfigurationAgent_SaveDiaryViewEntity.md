@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 329,
-  "Name": "Muller, Gerhold and Witting",
-  "Tooltip": "ut",
-  "VisibleColumns": 569,
-  "Rank": 820,
-  "AssocId": 757,
+  "DiaryViewId": 785,
+  "Name": "Sipes-Schowalter",
+  "Tooltip": "id",
+  "VisibleColumns": 295,
+  "Rank": 514,
+  "AssocId": 460,
   "AssociateList": [
     {
-      "Id": 491,
-      "Name": "Lebsack LLC",
-      "ToolTip": "Repudiandae sed explicabo itaque animi.",
-      "Deleted": false,
-      "Rank": 952,
-      "Type": "aliquid",
-      "ColorBlock": 861,
-      "IconHint": "quo",
+      "Id": 799,
+      "Name": "Considine-Schinner",
+      "ToolTip": "Cum autem voluptatem ratione minus libero nesciunt.",
+      "Deleted": true,
+      "Rank": 489,
+      "Type": "corporis",
+      "ColorBlock": 461,
+      "IconHint": "voluptatum",
       "Selected": true,
-      "LastChanged": "2012-10-03T02:38:20.995206+02:00",
+      "LastChanged": "2001-07-08T14:28:21.5710362+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatum",
-      "StyleHint": "nihil",
-      "Hidden": true,
-      "FullName": "Kathleen Koss"
+      "ExtraInfo": "pariatur",
+      "StyleHint": "sint",
+      "Hidden": false,
+      "FullName": "Rodolfo Ruecker"
     }
   ],
-  "TzLocationId": 204
+  "TzLocationId": 901
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 231,
-  "Name": "Oberbrunner-Jones",
-  "Tooltip": "iure",
-  "VisibleColumns": 138,
-  "Rank": 383,
-  "AssocId": 711,
+  "DiaryViewId": 121,
+  "Name": "Labadie Inc and Sons",
+  "Tooltip": "perferendis",
+  "VisibleColumns": 651,
+  "Rank": 248,
+  "AssocId": 742,
   "AssociateList": [
     {
-      "Id": 935,
-      "Name": "Rice Group",
-      "ToolTip": "Incidunt ut in possimus totam a ipsam enim.",
-      "Deleted": false,
-      "Rank": 875,
-      "Type": "porro",
-      "ColorBlock": 290,
-      "IconHint": "sunt",
+      "Id": 411,
+      "Name": "Quigley Inc and Sons",
+      "ToolTip": "Est accusamus corporis est consequatur praesentium.",
+      "Deleted": true,
+      "Rank": 66,
+      "Type": "qui",
+      "ColorBlock": 111,
+      "IconHint": "iure",
       "Selected": false,
-      "LastChanged": "2013-12-21T02:38:20.995206+01:00",
+      "LastChanged": "2016-07-19T14:28:21.5866608+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quae",
-      "StyleHint": "quae",
+      "ExtraInfo": "nam",
+      "StyleHint": "minima",
       "Hidden": true,
-      "FullName": "Luisa Stracke",
+      "FullName": "Doug Skiles",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldType": "System.String",
+          "FieldLength": 813
         }
       }
     }
   ],
-  "TzLocationId": 870,
+  "TzLocationId": 175,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldType": "System.String",
+      "FieldLength": 286
     }
   }
 }

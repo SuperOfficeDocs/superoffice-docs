@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    967,
-    406
+    924,
+    690
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 427,
-    "UniqueId": "nobis",
-    "Name": "Ondricka-Weimann",
-    "Description": "Multi-channelled bandwidth-monitored standardization",
-    "AssociateId": 332,
-    "Columns": 184,
+    "DashboardId": 690,
+    "UniqueId": "omnis",
+    "Name": "Reinger, Kuhic and Beatty",
+    "Description": "Right-sized attitude-oriented middleware",
+    "AssociateId": 14,
+    "Columns": 740,
     "Theme": null,
-    "VisibleForAll": 831,
+    "VisibleForAll": 947,
     "VisibleForAssociates": [
-      87,
-      920
+      127,
+      811
     ],
     "VisibleForGroups": [
-      235,
-      794
+      908,
+      143
     ],
-    "PinForAll": 899,
+    "PinForAll": 260,
     "PinForAssociates": [
-      300,
-      430
+      278,
+      14
     ],
     "PinForGroups": [
-      277,
-      68
+      582,
+      689
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 306
+        "FieldLength": 106
       }
     }
   }

@@ -92,27 +92,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 53,
-  "ERPPriceListKey": "voluptas",
-  "QuoteConnectionId": 858,
-  "Name": "Morissette Group",
-  "Description": "Diverse high-level attitude",
-  "Currency": "unde",
-  "CurrencyName": "Gusikowski Group",
-  "ValidFrom": "2002-02-06T02:38:26.8236417+01:00",
-  "ValidTo": "2021-03-14T02:38:26.8236417+01:00",
-  "IsActive": true,
+  "PriceListId": 706,
+  "ERPPriceListKey": "amet",
+  "QuoteConnectionId": 837,
+  "Name": "Kemmer LLC",
+  "Description": "Adaptive client-server internet solution",
+  "Currency": "quia",
+  "CurrencyName": "Stehr, Swift and Dooley",
+  "ValidFrom": "2023-02-21T14:28:27.6020419+01:00",
+  "ValidTo": "2005-09-22T14:28:27.6020419+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldType": "System.Int32",
+      "FieldLength": 837
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

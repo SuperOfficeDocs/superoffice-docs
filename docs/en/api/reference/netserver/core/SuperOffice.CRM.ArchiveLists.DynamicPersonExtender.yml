@@ -8,6 +8,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.DynamicPersonExtender.#ctor
   - SuperOffice.CRM.ArchiveLists.DynamicPersonExtender._colFullName
   - SuperOffice.CRM.ArchiveLists.DynamicPersonExtender._colPhone
+  - SuperOffice.CRM.ArchiveLists.DynamicPersonExtender._colSupportLanguage
   - SuperOffice.CRM.ArchiveLists.DynamicPersonExtender._FirstName
   - SuperOffice.CRM.ArchiveLists.DynamicPersonExtender._LastName
   - SuperOffice.CRM.ArchiveLists.DynamicPersonExtender._MiddleName
@@ -31,7 +32,7 @@ items:
   - SoDataBase
   namespace: SuperOffice.CRM.ArchiveLists
   summary: "\nCustomized dynamic extender for the Person table, with some special features\n"
-  remarks: "\nThe following special fields are handled:\n<br />fullName - gives persons full, formatted name\n<br />phone/formattedNumber - gives the first phone number for the person (first of direct, mobile, private, pager, fax - in this order)\n<br />emailAddress - email address with rank = 1\n<br />address/ a number of fields: addressId, line1 - line3, county, city, zip; includes fallback logic to contact address if no person address\n<p></p>Most of the logic is taken from the <see cref=\"!:PersonExtenderHelper\"></see>, to avoid duplication of significant code with the <xref href=\"SuperOffice.CRM.ArchiveLists.PersonExtenderBase\" data-throw-if-not-resolved=\"false\"></xref>.\n"
+  remarks: "\nThe following special fields are handled:\n<br />fullName - gives persons full, formatted name\n<br />phone/formattedNumber - gives the first phone number for the person (first of direct, mobile, private, pager, fax - in this order)\n<br />supportLanguage - Preferred communication language with this person\n<br />emailAddress - email address with rank = 1\n<br />address/ a number of fields: addressId, line1 - line3, county, city, zip; includes fallback logic to contact address if no person address\n<p></p>Most of the logic is taken from the <see cref=\"!:PersonExtenderHelper\"></see>, to avoid duplication of significant code with the <xref href=\"SuperOffice.CRM.ArchiveLists.PersonExtenderBase\" data-throw-if-not-resolved=\"false\"></xref>.\n"
   syntax:
     content: >-
       [DynamicExtender("person")]
@@ -277,6 +278,33 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colPhone As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.DynamicPersonExtender._colSupportLanguage
+  commentId: F:SuperOffice.CRM.ArchiveLists.DynamicPersonExtender._colSupportLanguage
+  id: _colSupportLanguage
+  parent: SuperOffice.CRM.ArchiveLists.DynamicPersonExtender
+  langs:
+  - csharp
+  - vb
+  name: _colSupportLanguage
+  nameWithType: DynamicPersonExtender._colSupportLanguage
+  fullName: SuperOffice.CRM.ArchiveLists.DynamicPersonExtender._colSupportLanguage
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  summary: "\nPreferred communication language with this person\n"
+  syntax:
+    content: protected ArchiveColumnInfo _colSupportLanguage
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colSupportLanguage As ArchiveColumnInfo
   modifiers.csharp:
   - protected
   modifiers.vb:

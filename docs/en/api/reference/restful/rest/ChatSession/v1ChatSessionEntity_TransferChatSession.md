@@ -92,7 +92,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/TransferTo/{toAssociate}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,29 +102,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 133,
-  "TopicId": 383,
+  "ChatSessionId": 392,
+  "TopicId": 757,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ullam",
-  "CustomerHost": "autem",
-  "CustomerName": "McGlynn, Herzog and Ankunding",
-  "CustomerEmail": "amber@tromppadberg.ca",
-  "CustomerPhone": "095-167-7979 x215",
+  "CustomerAlias": "illum",
+  "CustomerHost": "a",
+  "CustomerName": "Raynor-Windler",
+  "CustomerEmail": "karley@kuvalis.ca",
+  "CustomerPhone": "(951)840-0718 x94615",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Schmitt-Hermiston",
+  "CustomerCompanyName": "Little, Weber and Hintz",
   "Status": "Closed",
-  "FirstMessage": "laborum",
-  "LastMessage": "et",
-  "WhenRequested": "1997-12-16T02:38:25.8860863+01:00",
-  "WhenStarted": "2004-06-20T02:38:25.8860863+02:00",
-  "WhenEnded": "2009-11-01T02:38:25.8860863+01:00",
-  "WhenIdle": "2009-10-26T02:38:25.8860863+01:00",
-  "WhenFetched": "2017-06-13T02:38:25.8860863+02:00",
-  "SessionKey": "esse",
-  "InitialQueuePos": 336,
-  "AlertLevel": 789,
-  "Rank": 920,
+  "FirstMessage": "aut",
+  "LastMessage": "nulla",
+  "WhenRequested": "2000-05-31T14:28:26.7427021+02:00",
+  "WhenStarted": "2007-04-14T14:28:26.7427021+02:00",
+  "WhenEnded": "2001-04-29T14:28:26.7427021+02:00",
+  "WhenIdle": "1999-09-12T14:28:26.7427021+02:00",
+  "WhenFetched": "2022-03-22T14:28:26.7427021+01:00",
+  "SessionKey": "provident",
+  "InitialQueuePos": 247,
+  "AlertLevel": 181,
+  "Rank": 626,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -132,13 +132,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 339,
+  "Rating": 233,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 755
+      "FieldLength": 20
     }
   }
 }

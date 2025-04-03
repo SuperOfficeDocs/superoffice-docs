@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 401,
-  "ERPName": "Collins, Hermann and Hirthe",
-  "DisplayName": "Goyette, Ortiz and Sauer",
-  "DisplayDescription": "Universal stable standardization",
-  "Rank": 326,
-  "ConnectorName": "Schamberger Inc and Sons",
-  "ErpConnectionId": 381,
-  "ExtraData": "fuga",
-  "IsAvailable": false,
+  "QuoteConnectionId": 862,
+  "ERPName": "Tillman Group",
+  "DisplayName": "Hintz-Padberg",
+  "DisplayDescription": "Profound reciprocal customer loyalty",
+  "Rank": 736,
+  "ConnectorName": "Wilkinson, Batz and Rice",
+  "ErpConnectionId": 92,
+  "ExtraData": "natus",
+  "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 387,
-      "ERPPriceListKey": "asperiores",
-      "QuoteConnectionId": 527,
-      "Name": "Moore Group",
-      "Description": "Self-enabling multi-tasking intranet",
-      "Currency": "atque",
-      "CurrencyName": "Torp-Rodriguez",
-      "ValidFrom": "2010-05-20T02:38:21.7763357+02:00",
-      "ValidTo": "2019-05-13T02:38:21.7763357+02:00",
+      "PriceListId": 365,
+      "ERPPriceListKey": "delectus",
+      "QuoteConnectionId": 63,
+      "Name": "Kemmer-Tromp",
+      "Description": "Versatile leading edge standardization",
+      "Currency": "odio",
+      "CurrencyName": "Reichel, Carter and Huels",
+      "ValidFrom": "2017-02-25T14:28:22.3053817+01:00",
+      "ValidTo": "2000-07-08T14:28:22.3053817+02:00",
       "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 234
+          "FieldType": "System.String",
+          "FieldLength": 665
         }
       }
     }
   ],
-  "AllAccess": true,
+  "AllAccess": false,
   "Deleted": true,
   "UserGroupAccessIds": [
-    468,
-    156
+    855,
+    613
   ],
   "AssociateAccessIds": [
-    799,
-    865
+    510,
+    929
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 698
+      "FieldLength": 719
     }
   }
 }

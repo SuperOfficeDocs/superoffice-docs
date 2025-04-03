@@ -89,18 +89,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 245,
-  "Name": "Koelpin-Koepp",
-  "Description": "Re-contextualized clear-thinking monitoring",
+  "ReportLabelLayoutId": 717,
+  "Name": "Klocko-Metz",
+  "Description": "Front-line holistic encoding",
   "Orientation": "Landscape",
-  "PaperWidth": 343,
-  "PaperHeight": 592,
-  "LeftMargin": 502,
-  "RightMargin": 257,
-  "TopMargin": 540,
-  "BottomMargin": 146,
-  "CountColumns": 249,
-  "CountRows": 793
+  "PaperWidth": 598,
+  "PaperHeight": 200,
+  "LeftMargin": 624,
+  "RightMargin": 520,
+  "TopMargin": 376,
+  "BottomMargin": 102,
+  "CountColumns": 175,
+  "CountRows": 229
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 531,
-  "Name": "McLaughlin-Barton",
-  "Description": "Persistent attitude-oriented array",
+  "ReportLabelLayoutId": 128,
+  "Name": "Lesch, Yost and Hermann",
+  "Description": "Implemented next generation Graphic Interface",
   "Orientation": "Landscape",
-  "PaperWidth": 256,
-  "PaperHeight": 222,
-  "LeftMargin": 143,
-  "RightMargin": 191,
-  "TopMargin": 173,
-  "BottomMargin": 792,
-  "CountColumns": 353,
-  "CountRows": 400,
+  "PaperWidth": 858,
+  "PaperHeight": 853,
+  "LeftMargin": 466,
+  "RightMargin": 671,
+  "TopMargin": 786,
+  "BottomMargin": 873,
+  "CountColumns": 758,
+  "CountRows": 360,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 123
+      "FieldType": "System.String",
+      "FieldLength": 197
     }
   }
 }

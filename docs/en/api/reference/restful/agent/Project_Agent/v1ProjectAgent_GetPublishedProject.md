@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 659
+  "ProjectId": 663
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 600,
-  "Name": "Emmerich-Wolf",
-  "Description": "Profound asynchronous service-desk",
+  "ProjectId": 269,
+  "Name": "Trantow-Torphy",
+  "Description": "Devolved regional capacity",
   "URL": "http://www.example.com/",
-  "Type": "quia",
-  "AssociateId": 486,
-  "AssociateFullName": "Adah Effertz",
-  "TypeId": 648,
-  "Updated": "2009-05-12T02:38:21.7451279+02:00",
-  "StatusId": 72,
-  "Status": "neque",
-  "TextId": 468,
-  "PublishTo": "2019-03-17T02:38:21.7451279+01:00",
-  "PublishFrom": "2017-01-16T02:38:21.7451279+01:00",
+  "Type": "voluptatem",
+  "AssociateId": 674,
+  "AssociateFullName": "Myrl Carroll",
+  "TypeId": 717,
+  "Updated": "2024-04-24T14:28:22.2585084+02:00",
+  "StatusId": 279,
+  "Status": "et",
+  "TextId": 591,
+  "PublishTo": "2006-06-07T14:28:22.2585084+02:00",
+  "PublishFrom": "2018-11-06T14:28:22.2585084+01:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "807946",
-  "ActiveErpLinks": 404,
+  "ProjectNumber": "1209683",
+  "ActiveErpLinks": 531,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 768
+      "FieldLength": 348
     }
   }
 }

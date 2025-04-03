@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Beer-Borer",
+  "UdListDefinitionName": "Toy Inc and Sons",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 895,
-  "Name": "Macejkovic, Haley and Green",
-  "Tooltip": "eum",
+  "Id": 257,
+  "Name": "Price LLC",
+  "Tooltip": "occaecati",
   "Deleted": false,
-  "UdListDefinitionId": 237,
-  "Rank": 190,
+  "UdListDefinitionId": 825,
+  "Rank": 996,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 893
+      "FieldLength": 964
     }
   }
 }

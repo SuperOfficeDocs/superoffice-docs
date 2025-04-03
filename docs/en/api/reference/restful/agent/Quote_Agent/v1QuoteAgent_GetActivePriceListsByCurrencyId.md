@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 805,
-  "CurrencyId": 792
+  "QuoteConnectionId": 601,
+  "CurrencyId": 499
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 392,
-    "ERPPriceListKey": "voluptas",
-    "QuoteConnectionId": 635,
-    "Name": "Abernathy LLC",
-    "Description": "Customizable web-enabled secured line",
-    "Currency": "sit",
-    "CurrencyName": "Harvey LLC",
-    "ValidFrom": "2008-07-12T02:38:21.7763357+02:00",
-    "ValidTo": "1998-05-03T02:38:21.7763357+02:00",
-    "IsActive": false,
+    "PriceListId": 29,
+    "ERPPriceListKey": "iure",
+    "QuoteConnectionId": 77,
+    "Name": "Considine Group",
+    "Description": "Streamlined logistical Graphical User Interface",
+    "Currency": "excepturi",
+    "CurrencyName": "Pagac, Grady and Murazik",
+    "ValidFrom": "2012-09-21T14:28:22.3053817+02:00",
+    "ValidTo": "2015-08-26T14:28:22.3053817+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 323
+        "FieldType": "System.String",
+        "FieldLength": 503
       }
     }
   }

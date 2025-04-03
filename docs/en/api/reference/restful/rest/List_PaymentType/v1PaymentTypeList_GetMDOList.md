@@ -26,8 +26,8 @@ Get the MDO list items for "PaymentType" - with headings and filtering by user g
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/PaymentType/MDOItems?flat=False
-GET /api/v1/List/PaymentType/MDOItems?query=sit
+GET /api/v1/List/PaymentType/MDOItems?flat=True
+GET /api/v1/List/PaymentType/MDOItems?query=voluptatem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Hirthe-Carroll",
-    "ToolTip": "Qui magni et.",
-    "Deleted": false,
-    "Rank": 785,
-    "Type": "voluptas",
+    "Id": 876,
+    "Name": "Kuphal-Stanton",
+    "ToolTip": "A sunt ipsa molestiae eveniet quibusdam atque totam.",
+    "Deleted": true,
+    "Rank": 526,
+    "Type": "excepturi",
     "ChildItems": [
       {
-        "Id": 905,
-        "Name": "Flatley LLC",
-        "ToolTip": "Placeat explicabo pariatur.",
-        "Deleted": false,
-        "Rank": 874,
-        "Type": "voluptas",
+        "Id": 542,
+        "Name": "Franecki Inc and Sons",
+        "ToolTip": "Perferendis non et qui est est.",
+        "Deleted": true,
+        "Rank": 869,
+        "Type": "saepe",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 346,
-        "ExtraInfo": "numquam",
-        "StyleHint": "fugiat",
-        "FullName": "Thad Bernhard",
+        "IconHint": "sed",
+        "ColorBlock": 418,
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "rerum",
+        "FullName": "Arlie Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 452
+            "FieldLength": 127
           }
         }
       }
     ],
-    "IconHint": "quasi",
-    "ColorBlock": 998,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "alias",
-    "FullName": "Mr. Velda Kayden Rolfson",
+    "IconHint": "accusamus",
+    "ColorBlock": 576,
+    "ExtraInfo": "est",
+    "StyleHint": "non",
+    "FullName": "Mrs. Nina Letitia Becker DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 247
+        "FieldType": "System.String",
+        "FieldLength": 426
       }
     }
   }

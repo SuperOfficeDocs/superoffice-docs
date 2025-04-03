@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Rippin, Lebsack and Emmerich",
-    "ToolTip": "Unde aut qui.",
-    "Deleted": true,
-    "Rank": 161,
-    "Type": "necessitatibus",
-    "ColorBlock": 980,
-    "IconHint": "aut",
+    "Id": 320,
+    "Name": "Lueilwitz-Schiller",
+    "ToolTip": "Sunt in et qui tenetur.",
+    "Deleted": false,
+    "Rank": 675,
+    "Type": "vitae",
+    "ColorBlock": 152,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2008-06-12T02:38:26.7299042+02:00",
+    "LastChanged": "2004-05-25T14:28:27.5239205+02:00",
     "ChildItems": [
       {
-        "Id": 857,
-        "Name": "Lesch, Sawayn and Marvin",
-        "ToolTip": "Nihil atque porro voluptatem.",
+        "Id": 765,
+        "Name": "Greenholt, Gerlach and Bosco",
+        "ToolTip": "Corrupti consequuntur officia a nam.",
         "Deleted": true,
-        "Rank": 306,
-        "Type": "magni",
-        "ColorBlock": 423,
-        "IconHint": "et",
+        "Rank": 863,
+        "Type": "velit",
+        "ColorBlock": 842,
+        "IconHint": "pariatur",
         "Selected": false,
-        "LastChanged": "2021-07-19T02:38:26.7299042+02:00",
+        "LastChanged": "2015-03-20T14:28:27.5239205+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "qui",
+        "ExtraInfo": "sequi",
+        "StyleHint": "possimus",
         "Hidden": false,
-        "FullName": "Mckenna Harvey",
+        "FullName": "Alison Hane",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 974
+            "FieldLength": 197
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "quas",
-    "Hidden": true,
-    "FullName": "Brice Harber",
+    "ExtraInfo": "rerum",
+    "StyleHint": "earum",
+    "Hidden": false,
+    "FullName": "Nicolette Price",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 753
+        "FieldType": "System.String",
+        "FieldLength": 854
       }
     }
   }

@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 484,
+  "ErpConnectionId": 88,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 543,
-  "IsActive": false,
+  "ErpConnectionId": 13,
+  "IsActive": true,
   "FieldMappings": [
     {
-      "ErpFieldId": 288,
-      "CrmFieldKey": "eaque",
-      "CrmDisplayName": "Pollich, Bashirian and Harris",
-      "CrmDisplayTooltip": "deserunt",
-      "ErpFieldKey": "dolores",
+      "ErpFieldId": 763,
+      "CrmFieldKey": "labore",
+      "CrmDisplayName": "Kuhic Group",
+      "CrmDisplayTooltip": "ut",
+      "ErpFieldKey": "ea",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Stokes Group",
-      "ErpDisplayTooltip": "voluptas",
-      "SyncToCrm": true,
+      "ErpDisplayName": "Leannon Inc and Sons",
+      "ErpDisplayTooltip": "facere",
+      "SyncToCrm": false,
       "SyncToErp": false,
-      "ShowInGui": false,
-      "ShowInSearch": false,
+      "ShowInGui": true,
+      "ShowInSearch": true,
       "AlreadyMapped": false,
-      "MissingInERP": true,
-      "MissingInCRM": true,
+      "MissingInERP": false,
+      "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "est",
+      "ListReference": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 405
+          "FieldLength": 146
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 454
+      "FieldType": "System.String",
+      "FieldLength": 10
     }
   }
 }

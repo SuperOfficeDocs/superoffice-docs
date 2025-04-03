@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 328,
-  "Name": "Hessel-Koss",
-  "Tooltip": "distinctio",
+  "Id": 615,
+  "Name": "Legros Inc and Sons",
+  "Tooltip": "tenetur",
   "Deleted": true,
-  "Rank": 350,
+  "Rank": 329,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "nulla",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "sed",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 610,
-  "Name": "Dare-Herzog",
-  "Tooltip": "consequatur",
-  "Deleted": false,
-  "Rank": 136,
+  "Id": 402,
+  "Name": "Kuhn, Dicki and Johnston",
+  "Tooltip": "sequi",
+  "Deleted": true,
+  "Rank": 77,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quae",
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 865
+      "FieldType": "System.Int32",
+      "FieldLength": 163
     }
   }
 }

@@ -39,12 +39,12 @@ Use with SO-TIMEZONE header to specify times.
 GET /api/v1/TimeZone?$select=name,department,category/id
 GET /api/v1/TimeZone?$filter=name begins 'S'
 GET /api/v1/TimeZone?$orderBy=name asc
-GET /api/v1/TimeZone?$entities=mollitia
-GET /api/v1/TimeZone?$top=685
-GET /api/v1/TimeZone?$skip=73
+GET /api/v1/TimeZone?$entities=blanditiis
+GET /api/v1/TimeZone?$top=246
+GET /api/v1/TimeZone?$skip=953
 GET /api/v1/TimeZone?$mode=FULL
 GET /api/v1/TimeZone?$options=GrandTotal=true
-GET /api/v1/TimeZone?$context=sunt
+GET /api/v1/TimeZone?$context=assumenda
 GET /api/v1/TimeZone?$format=JSON
 ```
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/TimeZone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,19 +96,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "quibusdam",
+  "odata.nextLink": "mollitia",
   "value": [
     {
-      "PrimaryKey": 3197,
+      "PrimaryKey": 6481,
       "EntityName": "person",
-      "personId": 3197,
-      "fullName": "Miss Dewitt Willy Streich"
+      "personId": 6481,
+      "fullName": "Floyd Green"
     },
     {
-      "PrimaryKey": 2076,
+      "PrimaryKey": 4086,
       "EntityName": "person",
-      "personId": 2076,
-      "fullName": "Kavon Howe"
+      "personId": 4086,
+      "fullName": "Kaya Schneider"
     }
   ]
 }

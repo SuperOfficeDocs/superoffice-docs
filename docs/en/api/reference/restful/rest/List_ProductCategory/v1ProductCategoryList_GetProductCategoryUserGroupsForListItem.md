@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 730,
-    "Name": "Rohan Inc and Sons",
-    "ToolTip": "Est temporibus ut nisi et numquam dolore.",
-    "Deleted": true,
-    "Rank": 778,
-    "Type": "odio",
-    "ColorBlock": 269,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2013-03-03T02:38:26.8392626+01:00",
+    "Id": 145,
+    "Name": "Ernser-Schroeder",
+    "ToolTip": "Sit ex laboriosam nam quisquam voluptas qui molestiae.",
+    "Deleted": false,
+    "Rank": 129,
+    "Type": "voluptates",
+    "ColorBlock": 154,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2011-06-24T14:28:27.6176673+02:00",
     "ChildItems": [
       {
-        "Id": 367,
-        "Name": "Koepp-Ward",
-        "ToolTip": "Iure suscipit id dicta.",
+        "Id": 728,
+        "Name": "Carter, Wuckert and Leffler",
+        "ToolTip": "Voluptas mollitia debitis.",
         "Deleted": true,
-        "Rank": 371,
-        "Type": "culpa",
-        "ColorBlock": 567,
-        "IconHint": "quisquam",
+        "Rank": 98,
+        "Type": "excepturi",
+        "ColorBlock": 618,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "2024-08-22T02:38:26.8392626+02:00",
+        "LastChanged": "2002-02-06T14:28:27.6176673+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Mr. Chanelle Bryce Hansen",
+        "ExtraInfo": "ut",
+        "StyleHint": "voluptate",
+        "Hidden": true,
+        "FullName": "Declan Luettgen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 693
+            "FieldLength": 582
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "laborum",
+    "ExtraInfo": "esse",
+    "StyleHint": "veritatis",
     "Hidden": true,
-    "FullName": "Mrs. Kameron Gabe Schmitt",
+    "FullName": "Amelia O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 103
+        "FieldLength": 203
       }
     }
   }

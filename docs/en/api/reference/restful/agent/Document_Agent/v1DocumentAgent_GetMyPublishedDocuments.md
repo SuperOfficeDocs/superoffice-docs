@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 879,
-    "Attention": "ipsam",
-    "Header": "veritatis",
-    "Name": "Weissnat Group",
-    "OurRef": "voluptas",
-    "YourRef": "quos",
-    "Description": "Horizontal leading edge neural-net",
-    "DocumentTemplate": "voluptatibus",
-    "IsPublished": true,
-    "PersonId": 747,
-    "PersonFullName": "Ellen Niko Connelly I",
-    "AssociateFullName": "Flo Hauck",
-    "ContactId": 828,
-    "ContactName": "Cruickshank Group",
-    "ProjectId": 381,
-    "ProjectName": "Pfeffer-Bartoletti",
-    "AssociateId": 369,
-    "Snum": 396,
-    "SaleId": 768,
-    "SaleName": "Bode, Wyman and Collins",
+    "DocumentId": 159,
+    "Attention": "hic",
+    "Header": "nostrum",
+    "Name": "Welch LLC",
+    "OurRef": "aliquid",
+    "YourRef": "et",
+    "Description": "Profound national leverage",
+    "DocumentTemplate": "iusto",
+    "IsPublished": false,
+    "PersonId": 68,
+    "PersonFullName": "Christine Runte",
+    "AssociateFullName": "Shannon Krajcik",
+    "ContactId": 787,
+    "ContactName": "Langosh-Bayer",
+    "ProjectId": 793,
+    "ProjectName": "Runte-Ratke",
+    "AssociateId": 323,
+    "Snum": 422,
+    "SaleId": 168,
+    "SaleName": "Borer-Rowe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 318
+        "FieldType": "System.Int32",
+        "FieldLength": 548
       }
     }
   }

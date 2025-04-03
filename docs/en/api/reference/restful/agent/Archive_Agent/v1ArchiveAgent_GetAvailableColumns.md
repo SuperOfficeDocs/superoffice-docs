@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Archive/GetAvailableColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Bergnaum, Howell and Hackett",
-  "Context": "eaque"
+  "ProviderName": "Mayert, Beier and Glover",
+  "Context": "facilis"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Kessler-Hagenes",
-    "DisplayTooltip": "non",
-    "DisplayType": "culpa",
+    "DisplayName": "Langosh Group",
+    "DisplayTooltip": "aspernatur",
+    "DisplayType": "qui",
     "CanOrderBy": false,
-    "Name": "Bogan, Crooks and Herman",
-    "CanRestrictBy": true,
-    "RestrictionType": "mollitia",
-    "RestrictionListName": "Smitham-Weimann",
-    "IsVisible": true,
-    "ExtraInfo": "quis",
-    "Width": "quam",
-    "IconHint": "et",
-    "HeadingIconHint": "voluptas"
+    "Name": "Tillman, Harber and Lowe",
+    "CanRestrictBy": false,
+    "RestrictionType": "possimus",
+    "RestrictionListName": "Williamson LLC",
+    "IsVisible": false,
+    "ExtraInfo": "voluptas",
+    "Width": "ut",
+    "IconHint": "quo",
+    "HeadingIconHint": "nostrum"
   }
 ]
 ```

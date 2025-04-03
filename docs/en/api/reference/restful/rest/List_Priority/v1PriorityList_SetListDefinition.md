@@ -88,15 +88,15 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 113,
-  "Name": "Johns LLC",
-  "Tooltip": "dolore",
-  "Deleted": true,
-  "Rank": 23,
+  "Id": 290,
+  "Name": "Ebert Group",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "Rank": 874,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "magnam",
+  "ListType": "sed",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 321,
-  "Name": "Windler, Gorczany and Beatty",
-  "Tooltip": "dolorem",
+  "Id": 174,
+  "Name": "Dickinson Group",
+  "Tooltip": "atque",
   "Deleted": false,
-  "Rank": 146,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "impedit",
-  "InUseByUserDefinedFields": true,
+  "Rank": 665,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 503
     }
   }
 }

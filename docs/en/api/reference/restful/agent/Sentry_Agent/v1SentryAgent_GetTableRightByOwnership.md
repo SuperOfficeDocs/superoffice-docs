@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Dooley-Baumbach",
-  "ContactGroupId": 610,
-  "ContactAssociateId": 721
+  "TableName": "Botsford, Brakus and Marks",
+  "ContactGroupId": 599,
+  "ContactAssociateId": 233
 }
 ```
 

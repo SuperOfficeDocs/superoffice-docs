@@ -114,6 +114,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -133,11 +134,11 @@ OK
 POST /api/v1/Agents/Appointment/AssignTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 264,
+  "AppointmentId": 854,
   "Participant": null,
   "UpdateMode": "OnlyThis"
 }
@@ -154,120 +155,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2006-02-13T02:38:20.7452374+01:00",
-  "AppointmentId": 419,
-  "Description": "Organic system-worthy intranet",
-  "Title": "ut",
-  "Agenda": "voluptas",
-  "InternalNotes": "quas",
-  "StartDate": "2002-08-19T02:38:20.7452374+02:00",
-  "EndDate": "2003-05-16T02:38:20.7452374+02:00",
+  "CreatedDate": "2002-09-13T14:28:21.3522957+02:00",
+  "AppointmentId": 509,
+  "Description": "Multi-lateral tertiary model",
+  "Title": "sit",
+  "Agenda": "aut",
+  "InternalNotes": "repellendus",
+  "StartDate": "2004-07-26T14:28:21.3522957+02:00",
+  "EndDate": "2015-11-04T14:28:21.3522957+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 70,
+  "MotherId": 720,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-01-25T02:38:20.7452374+01:00",
+  "UpdatedDate": "2008-02-15T14:28:21.3522957+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 365,
+  "ActiveLinks": 992,
   "Links": [
     {
-      "EntityName": "Christiansen-Jerde",
-      "Id": 992,
-      "Description": "Progressive fault-tolerant migration",
-      "ExtraInfo": "aut",
-      "LinkId": 81,
+      "EntityName": "Metz, Walker and Schinner",
+      "Id": 463,
+      "Description": "Up-sized optimizing collaboration",
+      "ExtraInfo": "nisi",
+      "LinkId": 723,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 730
+          "FieldType": "System.String",
+          "FieldLength": 564
         }
       }
     }
   ],
-  "AlarmLeadTime": "quae",
+  "AlarmLeadTime": "eaque",
   "HasAlarm": false,
-  "ColorIndex": 407,
+  "ColorIndex": 308,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "et",
-  "LeadTime": "est",
-  "Location": "deserunt",
-  "RejectCounter": 775,
+  "LagTime": "aliquid",
+  "LeadTime": "suscipit",
+  "Location": "et",
+  "RejectCounter": 469,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 80,
-      "PersonId": 293,
-      "ContactId": 116,
-      "EmailId": 977,
+      "AssociateId": 713,
+      "PersonId": 741,
+      "ContactId": 52,
+      "EmailId": 868,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "johnathan@hermannwunsch.uk",
-      "Description": "Decentralized coherent open system"
+      "EmailAddress": "gregorio@handrath.info",
+      "Description": "Centralized context-sensitive instruction set"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-10-22T02:38:20.7452374+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2006-03-29T14:28:21.3522957+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 473,
+  "PreferredTZLocation": 551,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 275,
+  "SuggestedAppointmentId": 40,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "autem",
+  "CentralserviceVideomeetId": "voluptas",
   "UserDefinedFields": {
-    "SuperOffice:1": "538971295",
+    "SuperOffice:1": "Muhammad Rice",
     "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "blanditiis",
-    "ExtraFields2": "doloribus"
+    "ExtraFields1": "quis",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "aliquid",
-    "CustomFields2": "iusto"
+    "CustomFields1": "autem",
+    "CustomFields2": "nobis"
   },
-  "PublishEventDate": "2007-09-30T02:38:20.7452374+02:00",
-  "PublishTo": "2016-06-19T02:38:20.7452374+02:00",
-  "PublishFrom": "2003-11-20T02:38:20.7452374+01:00",
+  "PublishEventDate": "2000-03-25T14:28:21.3522957+01:00",
+  "PublishTo": "2010-09-10T14:28:21.3522957+02:00",
+  "PublishFrom": "2010-02-03T14:28:21.3522957+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 257,
+      "VisibleId": 622,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldType": "System.String",
+          "FieldLength": 360
         }
       }
     },
     {
-      "VisibleId": 257,
+      "VisibleId": 622,
       "Visibility": "All",
-      "DisplayValue": "eius",
+      "DisplayValue": "incidunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 805
+          "FieldType": "System.String",
+          "FieldLength": 360
         }
       }
     }
@@ -276,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 702
+      "FieldType": "System.Int32",
+      "FieldLength": 203
     }
   }
 }

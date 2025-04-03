@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 355,
-  "WritableUrl": false,
-  "LanguageCode": "qui"
+  "DocumentTemplateId": 287,
+  "WritableUrl": true,
+  "LanguageCode": "ut"
 }
 ```
 

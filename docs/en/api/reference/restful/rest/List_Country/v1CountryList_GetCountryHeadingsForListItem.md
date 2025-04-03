@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 901,
-    "Name": "Zieme, Wolff and Walker",
-    "ToolTip": "Unde et quibusdam.",
+    "Id": 239,
+    "Name": "Weimann LLC",
+    "ToolTip": "Corrupti quo sed soluta excepturi aut.",
     "Deleted": false,
-    "Rank": 439,
-    "Type": "rerum",
-    "ColorBlock": 511,
-    "IconHint": "unde",
-    "Selected": false,
-    "LastChanged": "2004-12-10T02:38:26.7142749+01:00",
+    "Rank": 228,
+    "Type": "modi",
+    "ColorBlock": 265,
+    "IconHint": "amet",
+    "Selected": true,
+    "LastChanged": "2004-05-10T14:28:27.5239205+02:00",
     "ChildItems": [
       {
-        "Id": 187,
-        "Name": "Watsica, Hintz and Lueilwitz",
-        "ToolTip": "Laudantium et hic.",
+        "Id": 304,
+        "Name": "Hammes-Kirlin",
+        "ToolTip": "Voluptatem et veniam quasi dolore officiis qui ducimus.",
         "Deleted": false,
-        "Rank": 654,
-        "Type": "blanditiis",
-        "ColorBlock": 772,
-        "IconHint": "delectus",
+        "Rank": 957,
+        "Type": "natus",
+        "ColorBlock": 264,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "1999-08-05T02:38:26.7142749+02:00",
+        "LastChanged": "2010-09-12T14:28:27.5239205+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "omnis",
-        "Hidden": true,
-        "FullName": "Hollie Larson",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "provident",
+        "Hidden": false,
+        "FullName": "Sterling Schumm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 893
+            "FieldType": "System.String",
+            "FieldLength": 713
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "sint",
+    "ExtraInfo": "quaerat",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Roma Jones",
+    "FullName": "Frederic Elyssa Runolfsdottir DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 709
+        "FieldLength": 958
       }
     }
   }

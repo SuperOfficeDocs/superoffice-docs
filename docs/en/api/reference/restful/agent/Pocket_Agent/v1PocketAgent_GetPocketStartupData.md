@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "adipisci",
-    "sit"
+    "omnis",
+    "voluptas"
   ],
-  "CurrentClientTime": "2022-08-12T02:38:21.6826314+02:00"
+  "CurrentClientTime": "1998-12-17T14:28:22.2272598+01:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "dolorem",
-    "dolor"
+    "et",
+    "nulla"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 951,
-  "NotificationsCount": 292,
+  "OverdueSalesCount": 963,
+  "NotificationsCount": 361,
   "SystemWebPanels": [
     {
-      "WebPanelId": 107,
-      "Name": "Christiansen LLC",
-      "Tooltip": "consequatur",
-      "Deleted": true,
-      "Rank": 755,
+      "WebPanelId": 593,
+      "Name": "Mertz-Marquardt",
+      "Tooltip": "qui",
+      "Deleted": false,
+      "Rank": 431,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
       "OnCentral": false,
       "OnSatellite": false,
-      "OnTravel": false,
+      "OnTravel": true,
       "OnSalesMarketingWeb": true,
-      "OnSalesMarketingPocket": false,
+      "OnSalesMarketingPocket": true,
       "ShowInMenuBar": false,
-      "ShowInToolBar": false,
+      "ShowInToolBar": true,
       "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Mann-Champlin",
+      "WindowName": "Schultz Inc and Sons",
       "Url": "http://www.example.com/",
-      "ProgId": "autem",
-      "Icon": 620,
-      "AlwaysReloadOnShow": true,
+      "ProgId": "non",
+      "Icon": 334,
+      "AlwaysReloadOnShow": false,
       "NeverReloadOnCurrentChange": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 495
+          "FieldType": "System.Int32",
+          "FieldLength": 771
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "accusamus",
+      "RawValue": "aut",
       "Specification": null,
-      "DisplayValue": "at",
-      "DisplayTooltip": "consequatur",
+      "DisplayValue": "qui",
+      "DisplayTooltip": "ut",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 300,
-      "PrefDescId": 116,
-      "TableName": "Kilback-Klein",
-      "UserPreferenceId": 673,
+      "TargetId": 429,
+      "PrefDescId": 39,
+      "TableName": "Mosciski-Jaskolski",
+      "UserPreferenceId": 181,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 757
+          "FieldLength": 670
         }
       }
     }
   ],
-  "IsPushNotificationEnabled": true,
-  "CustomData": "ut",
+  "IsPushNotificationEnabled": false,
+  "CustomData": "quod",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 569
+      "FieldType": "System.Int32",
+      "FieldLength": 670
     }
   }
 }

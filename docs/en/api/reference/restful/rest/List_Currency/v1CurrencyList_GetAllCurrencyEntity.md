@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 715,
-    "Name": "Murazik, Howell and Corwin",
-    "Tooltip": "dolorum",
-    "Rank": 223,
-    "Rate": 24128.665999999997,
-    "Units": 26084.282,
-    "Deleted": false,
+    "CurrencyId": 384,
+    "Name": "Schinner-Gutmann",
+    "Tooltip": "est",
+    "Rank": 313,
+    "Rate": 16647.808,
+    "Units": 27024.482,
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldLength": 524
       }
     }
   }

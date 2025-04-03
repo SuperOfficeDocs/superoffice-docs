@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
 {
   "Specifications": [
     {
-      "Section": "autem",
-      "Key": "laudantium"
+      "Section": "animi",
+      "Key": "nihil"
     },
     {
-      "Section": "autem",
-      "Key": "laudantium"
+      "Section": "animi",
+      "Key": "nihil"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "minus",
+    "RawValue": "labore",
     "Specification": null,
-    "DisplayValue": "vel",
-    "DisplayTooltip": "sunt",
+    "DisplayValue": "qui",
+    "DisplayTooltip": "quia",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 600,
-    "PrefDescId": 41,
-    "TableName": "Lindgren Inc and Sons",
-    "UserPreferenceId": 667,
+    "TargetId": 571,
+    "PrefDescId": 3,
+    "TableName": "Wiza-Krajcik",
+    "UserPreferenceId": 289,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 471
+        "FieldType": "System.Int32",
+        "FieldLength": 688
       }
     }
   }

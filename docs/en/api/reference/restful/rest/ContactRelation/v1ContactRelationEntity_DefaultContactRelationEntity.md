@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 18 Nov 1998 02:38:26 G11T
+Last-Modified: Sat, 04 May 2024 14:28:26 G5T
 
 {
-  "SourceContactId": 489,
-  "SourcePersonId": 842,
-  "DestinationContactId": 229,
-  "DestinationPersonId": 421,
-  "RelationId": 30,
-  "Comment": "qui",
-  "RelationDefinitionId": 651,
-  "Reversed": 926,
-  "UpdatedDate": "1998-11-18T02:38:26.0266945+01:00",
-  "CreatedDate": "2019-01-31T02:38:26.0266945+01:00",
+  "SourceContactId": 751,
+  "SourcePersonId": 670,
+  "DestinationContactId": 117,
+  "DestinationPersonId": 492,
+  "RelationId": 1002,
+  "Comment": "non",
+  "RelationDefinitionId": 694,
+  "Reversed": 391,
+  "UpdatedDate": "2024-05-04T14:28:26.8676969+02:00",
+  "CreatedDate": "2022-04-28T14:28:26.8676969+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Bergnaum, Conn and Macejkovic",
-  "SourcePersonName": "Mante, Cremin and Hilpert",
-  "DestinationContactName": "Gerhold LLC",
-  "DestinationPersonName": "Mertz, Gerlach and Torp",
-  "ActiveText": "eius",
-  "PassiveText": "officia",
+  "SourceContactName": "Lesch-Pfannerstill",
+  "SourcePersonName": "Funk LLC",
+  "DestinationContactName": "Berge, Bernhard and Gibson",
+  "DestinationPersonName": "Dach-Crist",
+  "ActiveText": "animi",
+  "PassiveText": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 986
+      "FieldType": "System.Int32",
+      "FieldLength": 974
     }
   }
 }

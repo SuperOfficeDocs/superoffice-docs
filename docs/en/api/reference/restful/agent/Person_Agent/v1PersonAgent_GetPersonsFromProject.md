@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Person/GetPersonsFromProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 322
+  "ProjectId": 914
 }
 ```
 
@@ -129,53 +129,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "est",
-    "PersonId": 736,
-    "Mrmrs": "cumque",
-    "Firstname": "Jennie",
-    "Lastname": "Ledner",
-    "MiddleName": "Muller, Baumbach and Skiles",
-    "Title": "blanditiis",
-    "Description": "Persevering next generation ability",
-    "Email": "florian_block@jerde.com",
-    "FullName": "Leola Simonis",
-    "DirectPhone": "059.745.0882",
-    "FormalName": "Emmerich-Durgan",
-    "CountryId": 290,
-    "ContactId": 46,
-    "ContactName": "Gusikowski, Ziemann and Aufderhar",
-    "Retired": 412,
-    "Rank": 371,
-    "ActiveInterests": 958,
-    "ContactDepartment": "",
-    "ContactCountryId": 995,
-    "ContactOrgNr": "772139",
-    "FaxPhone": "(482)909-0341 x06899",
-    "MobilePhone": "037.514.5455",
-    "ContactPhone": "1-755-336-1247 x79486",
-    "AssociateName": "Schultz, Feeney and Walker",
-    "AssociateId": 290,
-    "UsePersonAddress": true,
-    "ContactFax": "eum",
-    "Kanafname": "incidunt",
-    "Kanalname": "autem",
-    "Post1": "impedit",
-    "Post2": "atque",
-    "Post3": "et",
-    "EmailName": "jackie.bode@littlegrimes.name",
-    "ContactFullName": "Daija Aufderhar",
-    "ActiveErpLinks": 173,
-    "TicketPriorityId": 185,
-    "SupportLanguageId": 604,
-    "SupportAssociateId": 287,
+    "Position": "id",
+    "PersonId": 534,
+    "Mrmrs": "qui",
+    "Firstname": "Adriana",
+    "Lastname": "Cummerata",
+    "MiddleName": "Buckridge LLC",
+    "Title": "et",
+    "Description": "Vision-oriented motivating challenge",
+    "Email": "tod@okuneva.name",
+    "FullName": "Gabe Zboncak",
+    "DirectPhone": "1-756-880-9643",
+    "FormalName": "Haley Inc and Sons",
+    "CountryId": 813,
+    "ContactId": 747,
+    "ContactName": "Wuckert Group",
+    "Retired": 875,
+    "Rank": 166,
+    "ActiveInterests": 851,
+    "ContactDepartment": "repurpose best-of-breed convergence",
+    "ContactCountryId": 796,
+    "ContactOrgNr": "1514902",
+    "FaxPhone": "1-110-811-7725 x16509",
+    "MobilePhone": "1-886-428-7927",
+    "ContactPhone": "266.604.7475 x5514",
+    "AssociateName": "Prohaska Inc and Sons",
+    "AssociateId": 230,
+    "UsePersonAddress": false,
+    "ContactFax": "et",
+    "Kanafname": "facilis",
+    "Kanalname": "quos",
+    "Post1": "temporibus",
+    "Post2": "reiciendis",
+    "Post3": "neque",
+    "EmailName": "breana_doyle@fisher.co.uk",
+    "ContactFullName": "Mrs. Dillon Considine IV",
+    "ActiveErpLinks": 750,
+    "TicketPriorityId": 129,
+    "SupportLanguageId": 425,
+    "SupportAssociateId": 508,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1080336",
+    "PersonNumber": "1838893",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 47
+        "FieldType": "System.Int32",
+        "FieldLength": 754
       }
     }
   }

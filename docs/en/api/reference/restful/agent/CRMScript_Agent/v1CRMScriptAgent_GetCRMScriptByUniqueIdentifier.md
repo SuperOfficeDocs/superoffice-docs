@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "rem"
+  "UniqueIdentifier": "deserunt"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "asperiores",
-  "Name": "Schaden LLC",
-  "Description": "Optional systematic budgetary management",
-  "IncludeId": "suscipit",
-  "Source": "dignissimos",
-  "Registered": "2006-06-19T02:38:21.1670651+02:00",
-  "RegisteredBy": "quibusdam",
-  "Updated": "2007-12-30T02:38:21.1670651+01:00",
-  "UpdatedBy": "vel",
-  "Path": "possimus",
+  "UniqueIdentifier": "doloremque",
+  "Name": "Breitenberg-Spinka",
+  "Description": "Profit-focused systemic orchestration",
+  "IncludeId": "consectetur",
+  "Source": "distinctio",
+  "Registered": "2020-07-09T14:28:21.680407+02:00",
+  "RegisteredBy": "repellat",
+  "Updated": "2014-10-16T14:28:21.680407+02:00",
+  "UpdatedBy": "odio",
+  "Path": "tempora",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldLength": 989
     }
   }
 }

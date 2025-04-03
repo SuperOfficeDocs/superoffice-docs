@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sint",
+    "path": "debitis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sint",
+    "path": "debitis",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 875,
-  "Name": "Okuneva LLC",
-  "Tooltip": "voluptatem",
-  "PassiveText": "eius",
-  "Deleted": false,
-  "Rank": 740,
+  "ReldefId": 22,
+  "Name": "Gleichner-Wolff",
+  "Tooltip": "atque",
+  "PassiveText": "dolorem",
+  "Deleted": true,
+  "Rank": 157,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 216
+      "FieldType": "System.Int32",
+      "FieldLength": 795
     }
   },
   "_Links": {

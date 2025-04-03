@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Name": "Jast Group",
-    "ToolTip": "Quod ullam ut reiciendis.",
-    "Deleted": false,
-    "Rank": 628,
-    "Type": "fugit",
-    "ColorBlock": 800,
-    "IconHint": "eveniet",
+    "Id": 218,
+    "Name": "Romaguera LLC",
+    "ToolTip": "Totam rem omnis aliquid et magnam labore.",
+    "Deleted": true,
+    "Rank": 987,
+    "Type": "et",
+    "ColorBlock": 185,
+    "IconHint": "placeat",
     "Selected": false,
-    "LastChanged": "2020-07-11T02:38:26.7923976+02:00",
+    "LastChanged": "2008-06-26T14:28:27.5864176+02:00",
     "ChildItems": [
       {
-        "Id": 760,
-        "Name": "Bogisich-Gutmann",
-        "ToolTip": "Eligendi asperiores eum qui numquam ut reiciendis rem.",
-        "Deleted": false,
-        "Rank": 216,
-        "Type": "nesciunt",
-        "ColorBlock": 532,
-        "IconHint": "quasi",
-        "Selected": false,
-        "LastChanged": "2010-04-07T02:38:26.7923976+02:00",
+        "Id": 125,
+        "Name": "Bartell, Nolan and Stroman",
+        "ToolTip": "Alias possimus et.",
+        "Deleted": true,
+        "Rank": 265,
+        "Type": "aut",
+        "ColorBlock": 970,
+        "IconHint": "voluptas",
+        "Selected": true,
+        "LastChanged": "2003-01-26T14:28:27.5864176+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "ut",
+        "ExtraInfo": "fugit",
+        "StyleHint": "molestiae",
         "Hidden": false,
-        "FullName": "Ryleigh Quitzon",
+        "FullName": "Dr. Opal Waters Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 152
+            "FieldType": "System.Int32",
+            "FieldLength": 402
           }
         }
       }
     ],
-    "ExtraInfo": "earum",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "natus",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Neha Muller IV",
+    "FullName": "Prof. Madonna Hartmann II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldLength": 651
       }
     }
   }

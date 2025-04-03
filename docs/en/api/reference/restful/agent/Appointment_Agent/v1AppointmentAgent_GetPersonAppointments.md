@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,15 +132,15 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 864,
+  "PersonId": 710,
   "IncludeProjectAppointments": false,
-  "StartTime": "2017-11-02T02:38:20.8545926+01:00",
-  "EndTime": "2009-04-25T02:38:20.8545926+02:00",
-  "Count": 936
+  "StartTime": "2001-01-18T14:28:21.4460417+01:00",
+  "EndTime": "2012-03-01T14:28:21.4460417+01:00",
+  "Count": 427
 }
 ```
 
@@ -151,65 +152,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 143,
-    "StartDate": "2024-04-08T02:38:20.8545926+02:00",
-    "EndDate": "2021-09-29T02:38:20.8545926+02:00",
+    "AppointmentId": 64,
+    "StartDate": "2000-02-20T14:28:21.4460417+01:00",
+    "EndDate": "2013-05-23T14:28:21.4460417+02:00",
     "Type": "BookingForChecklist",
-    "Task": "facere",
-    "AssociateFullName": "Prof. Carmella Frieda Beer DVM",
-    "ContactName": "Frami, Kirlin and Donnelly",
-    "Description": "Fully-configurable 6th generation alliance",
-    "PersonFullName": "Newell Ruecker",
-    "PersonId": 997,
-    "ContactId": 684,
-    "ProjectId": 625,
-    "ProjectName": "Nikolaus LLC",
+    "Task": "eligendi",
+    "AssociateFullName": "Raleigh Herzog",
+    "ContactName": "Williamson LLC",
+    "Description": "Distributed bandwidth-monitored success",
+    "PersonFullName": "Retha Mark Doyle Sr.",
+    "PersonId": 942,
+    "ContactId": 483,
+    "ProjectId": 168,
+    "ProjectName": "Okuneva-Smitham",
     "IsPublished": false,
-    "AssociateId": 327,
-    "ColorIndex": 184,
+    "AssociateId": 997,
+    "ColorIndex": 657,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 578,
-    "PriorityName": "Davis-Grant",
+    "PriorityId": 325,
+    "PriorityName": "Feest-Jenkins",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2018-11-01T02:38:20.8545926+01:00",
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2021-11-29T14:28:21.4460417+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2016-06-20T02:38:20.8545926+02:00",
-    "RecurringEndDate": "2000-01-29T02:38:20.8545926+01:00",
-    "MotherId": 353,
-    "AssignedBy": 300,
-    "AssignedByFullName": "Emmanuelle Kunze",
+    "RecurringStartDate": "2024-11-01T14:28:21.4460417+01:00",
+    "RecurringEndDate": "2014-10-23T14:28:21.4460417+02:00",
+    "MotherId": 74,
+    "AssignedBy": 611,
+    "AssignedByFullName": "Maurice Kreiger",
     "RejectReason": "",
-    "Location": "dolore",
-    "AlarmLeadTime": "doloremque",
-    "SaleId": 90,
-    "SaleName": "Bogisich, Ortiz and Runolfsdottir",
-    "AssociateName": "Turner-Douglas",
-    "CreatedDate": "2010-11-14T02:38:20.8545926+01:00",
-    "CreatedBy": "non",
-    "CreatedByFullName": "Mr. Jay Treutel V",
-    "CreatedByAssociateId": 811,
+    "Location": "nostrum",
+    "AlarmLeadTime": "est",
+    "SaleId": 794,
+    "SaleName": "Kovacek Group",
+    "AssociateName": "Hintz, Hyatt and Fisher",
+    "CreatedDate": "2023-11-03T14:28:21.4460417+01:00",
+    "CreatedBy": "excepturi",
+    "CreatedByFullName": "Earline Weimann",
+    "CreatedByAssociateId": 549,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 109,
-    "Title": "laudantium",
-    "Agenda": "quidem",
-    "InternalNotes": "vel",
+    "PreferredTZLocation": 487,
+    "Title": "et",
+    "Agenda": "dolorem",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 791
       }
     }
   }

@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "explicabo",
-  "ProviderName": "Boyle-Powlowski",
-  "StorageKey": "minus"
+  "StorageType": "quia",
+  "ProviderName": "Williamson Group",
+  "StorageKey": "iste"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Romaguera, Koepp and Hayes",
-    "DisplayTooltip": "magni",
-    "DisplayType": "magni",
-    "CanOrderBy": false,
-    "Name": "Lakin-Bode",
-    "CanRestrictBy": true,
-    "RestrictionType": "rem",
-    "RestrictionListName": "Considine Inc and Sons",
+    "DisplayName": "Romaguera-Tromp",
+    "DisplayTooltip": "rem",
+    "DisplayType": "repellendus",
+    "CanOrderBy": true,
+    "Name": "Batz Inc and Sons",
+    "CanRestrictBy": false,
+    "RestrictionType": "ut",
+    "RestrictionListName": "Cremin, Ryan and Orn",
     "IsVisible": true,
-    "ExtraInfo": "rem",
-    "Width": "qui",
-    "IconHint": "suscipit",
-    "HeadingIconHint": "ut"
+    "ExtraInfo": "voluptates",
+    "Width": "est",
+    "IconHint": "ea",
+    "HeadingIconHint": "minima"
   }
 ]
 ```

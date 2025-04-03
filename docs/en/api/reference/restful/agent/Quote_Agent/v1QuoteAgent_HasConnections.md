@@ -80,10 +80,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsOk": true,
-  "UserExplanation": "modi",
-  "TechExplanation": "expedita",
-  "ErrorCode": "qui",
+  "IsOk": false,
+  "UserExplanation": "et",
+  "TechExplanation": "et",
+  "ErrorCode": "et",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -91,7 +91,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldLength": 666
     }
   }
 }

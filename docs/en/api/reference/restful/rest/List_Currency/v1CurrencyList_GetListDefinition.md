@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 357,
-  "Name": "McDermott Group",
-  "Tooltip": "distinctio",
-  "Deleted": true,
-  "Rank": 131,
+  "Id": 685,
+  "Name": "Gutmann-Quigley",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 954,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "voluptatibus",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "repudiandae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldLength": 624
     }
   },
   "_Links": {

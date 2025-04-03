@@ -25,7 +25,7 @@ Deletes the ChatSessionEntity
 | ChatSessionEntityId | int32 | **Required** The id of the ChatSessionEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Chat/DeleteChatSessionEntity?ChatSessionEntityId=263
+POST /api/v1/Agents/Chat/DeleteChatSessionEntity?ChatSessionEntityId=533
 ```
 
 

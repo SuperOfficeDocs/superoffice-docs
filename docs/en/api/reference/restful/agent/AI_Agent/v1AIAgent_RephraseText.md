@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/RephraseText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "quia",
+  "Text": "aliquid",
   "Style": "Casual",
-  "IsoLangCode": "quam"
+  "IsoLangCode": "eum"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"accusamus"
+"repellat"
 ```

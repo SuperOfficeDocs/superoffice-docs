@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Kreiger, Zieme and Lehner",
-    "Spencer-Wolff"
+    "Deckow-Ratke",
+    "Gibson-Reilly"
   ],
-  "Culture": "impedit"
+  "Culture": "modi"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Crona, Treutel and Cartwright",
-    "ResourceValue": "tempore",
-    "Culture": "iste",
+    "ResourceName": "Wuckert, Towne and Hauck",
+    "ResourceValue": "aut",
+    "Culture": "aut",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 215
+        "FieldType": "System.Int32",
+        "FieldLength": 170
       }
     }
   },
   {
-    "ResourceName": "Crona, Treutel and Cartwright",
-    "ResourceValue": "tempore",
-    "Culture": "iste",
+    "ResourceName": "Wuckert, Towne and Hauck",
+    "ResourceValue": "aut",
+    "Culture": "aut",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 215
+        "FieldType": "System.Int32",
+        "FieldLength": 170
       }
     }
   }

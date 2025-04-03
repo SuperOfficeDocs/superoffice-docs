@@ -69,7 +69,7 @@ OK
 GET /api/v1/Dash/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 713,
-  "UniqueId": "vel",
-  "Name": "Cruickshank Group",
-  "Description": "Stand-alone disintermediate knowledge user",
-  "AssociateId": 515,
-  "Columns": 475,
+  "DashboardId": 636,
+  "UniqueId": "debitis",
+  "Name": "Hermiston, Towne and Renner",
+  "Description": "Object-based even-keeled groupware",
+  "AssociateId": 928,
+  "Columns": 198,
   "Theme": null,
-  "VisibleForAll": 992,
+  "VisibleForAll": 714,
   "VisibleForAssociates": [
-    10,
-    126
+    264,
+    871
   ],
   "VisibleForGroups": [
-    958,
-    192
+    294,
+    366
   ],
-  "PinForAll": 243,
+  "PinForAll": 127,
   "PinForAssociates": [
-    346,
-    567
+    102,
+    817
   ],
   "PinForGroups": [
-    301,
-    134
+    914,
+    111
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 224
+      "FieldType": "System.Int32",
+      "FieldLength": 682
     }
   }
 }

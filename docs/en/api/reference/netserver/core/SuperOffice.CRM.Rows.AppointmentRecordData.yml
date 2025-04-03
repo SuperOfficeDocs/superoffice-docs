@@ -38,6 +38,7 @@ items:
   - SuperOffice.CRM.Rows.AppointmentRecordData.MotherAssociateId
   - SuperOffice.CRM.Rows.AppointmentRecordData.MotherId
   - SuperOffice.CRM.Rows.AppointmentRecordData.OriginalStartDate
+  - SuperOffice.CRM.Rows.AppointmentRecordData.OwnedExternally
   - SuperOffice.CRM.Rows.AppointmentRecordData.PersonId
   - SuperOffice.CRM.Rows.AppointmentRecordData.PreferredTZLocation
   - SuperOffice.CRM.Rows.AppointmentRecordData.PriorityIdx
@@ -1608,6 +1609,33 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Rows.AppointmentRecordData.OwnedExternally
+  commentId: F:SuperOffice.CRM.Rows.AppointmentRecordData.OwnedExternally
+  id: OwnedExternally
+  parent: SuperOffice.CRM.Rows.AppointmentRecordData
+  langs:
+  - csharp
+  - vb
+  name: OwnedExternally
+  nameWithType: AppointmentRecordData.OwnedExternally
+  fullName: SuperOffice.CRM.Rows.AppointmentRecordData.OwnedExternally
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  summary: "\nSet if an external system owns this appointment. \n"
+  syntax:
+    content: public AppointmentExternalOwner OwnedExternally
+    return:
+      type: SuperOffice.Data.AppointmentExternalOwner
+    content.vb: Public OwnedExternally As AppointmentExternalOwner
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
 - uid: SuperOffice.CRM.Rows.AppointmentRecordData.#ctor
   commentId: M:SuperOffice.CRM.Rows.AppointmentRecordData.#ctor
   id: '#ctor'
@@ -2165,6 +2193,13 @@ references:
   name: AppointmentCautionWarning
   nameWithType: AppointmentCautionWarning
   fullName: SuperOffice.Data.AppointmentCautionWarning
+- uid: SuperOffice.Data.AppointmentExternalOwner
+  commentId: T:SuperOffice.Data.AppointmentExternalOwner
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AppointmentExternalOwner
+  nameWithType: AppointmentExternalOwner
+  fullName: SuperOffice.Data.AppointmentExternalOwner
 - uid: SuperOffice.CRM.Rows.AppointmentRecordData.#ctor*
   commentId: Overload:SuperOffice.CRM.Rows.AppointmentRecordData.#ctor
   isExternal: true

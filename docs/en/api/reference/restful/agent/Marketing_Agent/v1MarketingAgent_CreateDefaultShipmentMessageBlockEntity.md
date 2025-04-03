@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 686,
-  "AssociateId": 268,
-  "Block": "ratione",
-  "Registered": "2006-06-01T02:38:21.5576497+02:00",
-  "RegisteredAssociateId": 137,
-  "Updated": "2006-12-27T02:38:21.5576497+01:00",
-  "UpdatedAssociateId": 261,
-  "UpdatedCount": 645,
+  "ShipmentMessageBlockId": 933,
+  "AssociateId": 471,
+  "Block": "culpa",
+  "Registered": "2013-08-19T14:28:22.1022648+02:00",
+  "RegisteredAssociateId": 731,
+  "Updated": "2011-08-20T14:28:22.1022648+02:00",
+  "UpdatedAssociateId": 837,
+  "UpdatedCount": 925,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 46
+      "FieldType": "System.String",
+      "FieldLength": 953
     }
   }
 }

@@ -86,8 +86,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 733,
-  "TargetDimensionId": 949
+  "UserGroupId": 702,
+  "TargetDimensionId": 223
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 275,
+    "TargetAssignmentInfoId": 521,
     "Values": [
-      963,
-      231
+      162,
+      576
     ],
     "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 649,
-    "DimensionListItemDisplayName": "Feest, Ruecker and Kuvalis",
+    "DimensionListItem": 629,
+    "DimensionListItemDisplayName": "Prosacco, Leannon and Gerhold",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 966
+        "FieldType": "System.String",
+        "FieldLength": 195
       }
     }
   }

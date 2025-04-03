@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 69,
-  "Section": "id",
-  "Key": "beatae",
-  "Name": "Hegmann LLC",
+  "PrefDescId": 292,
+  "Section": "laborum",
+  "Key": "numquam",
+  "Name": "Wisoky-Klein",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Innovative local attitude",
+  "Description": "Business-focused stable access",
   "IsBuiltin": false,
-  "TableName": "Reichel Inc and Sons",
-  "UserDefinedListId": 294,
-  "Rank": 161,
-  "SubGroup": "quam",
-  "MinLevel": 394,
-  "MaxValue": 233,
-  "MinValue": 180,
-  "RequiredLicense": "necessitatibus"
+  "TableName": "Carroll Group",
+  "UserDefinedListId": 655,
+  "Rank": 247,
+  "SubGroup": "minima",
+  "MinLevel": 885,
+  "MaxValue": 130,
+  "MinValue": 516,
+  "RequiredLicense": "explicabo"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 721,
-  "Section": "voluptates",
-  "Key": "temporibus",
-  "Name": "Zulauf, Bashirian and Kuhlman",
+  "PrefDescId": 161,
+  "Section": "id",
+  "Key": "expedita",
+  "Name": "Stehr LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Compatible high-level middleware",
+  "Description": "Profit-focused zero tolerance artificial intelligence",
   "IsBuiltin": false,
-  "TableName": "Gutkowski-Daniel",
-  "UserDefinedListId": 738,
-  "Rank": 330,
-  "SubGroup": "sit",
-  "MinLevel": 100,
-  "MaxValue": 29,
-  "MinValue": 950,
-  "RequiredLicense": "fugit",
+  "TableName": "Kuhn-Volkman",
+  "UserDefinedListId": 534,
+  "Rank": 999,
+  "SubGroup": "dolore",
+  "MinLevel": 684,
+  "MaxValue": 622,
+  "MinValue": 327,
+  "RequiredLicense": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldLength": 159
     }
   }
 }

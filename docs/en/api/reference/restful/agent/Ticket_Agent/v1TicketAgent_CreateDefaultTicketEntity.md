@@ -114,7 +114,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -124,21 +124,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 481,
-  "Title": "laborum",
-  "CreatedAt": "2015-10-07T02:38:22.02635+02:00",
-  "LastChanged": "2025-03-14T02:38:22.02635+01:00",
-  "ReadByOwner": "2004-02-17T02:38:22.02635+01:00",
-  "ReadByCustomer": "2007-12-17T02:38:22.02635+01:00",
-  "FirstReadByOwner": "2024-02-10T02:38:22.02635+01:00",
-  "FirstReadByUser": "2018-06-16T02:38:22.02635+02:00",
-  "Activate": "2009-09-08T02:38:22.02635+02:00",
-  "ClosedAt": "2008-11-04T02:38:22.02635+01:00",
-  "RepliedAt": "2002-10-30T02:38:22.02635+01:00",
-  "AlertTimeout": "2015-10-07T02:38:22.02635+02:00",
-  "Deadline": "2007-05-03T02:38:22.02635+02:00",
+  "TicketId": 403,
+  "Title": "dignissimos",
+  "CreatedAt": "2000-02-04T14:28:22.5553721+01:00",
+  "LastChanged": "1998-02-22T14:28:22.5553721+01:00",
+  "ReadByOwner": "2002-01-30T14:28:22.5553721+01:00",
+  "ReadByCustomer": "2005-08-16T14:28:22.5553721+02:00",
+  "FirstReadByOwner": "2011-10-04T14:28:22.5553721+02:00",
+  "FirstReadByUser": "2015-01-02T14:28:22.5553721+01:00",
+  "Activate": "2007-04-27T14:28:22.5553721+02:00",
+  "ClosedAt": "2013-02-11T14:28:22.5553721+01:00",
+  "RepliedAt": "2006-03-27T14:28:22.5553721+02:00",
+  "AlertTimeout": "2001-05-24T14:28:22.5553721+02:00",
+  "Deadline": "2017-02-01T14:28:22.5553721+01:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "quas",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -149,163 +149,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "quas",
-      "PersonId": 169,
-      "Mrmrs": "recusandae",
-      "Firstname": "Lauriane",
-      "Lastname": "Flatley",
-      "MiddleName": "Schimmel Group",
-      "Title": "et",
-      "Description": "Polarised exuding productivity",
-      "Email": "idella@windler.ca",
-      "FullName": "Dr. Lenora Cormier",
-      "DirectPhone": "(740)836-2136",
-      "FormalName": "DuBuque, Stehr and Ruecker",
-      "CountryId": 854,
-      "ContactId": 763,
-      "ContactName": "Reilly LLC",
-      "Retired": 862,
-      "Rank": 440,
-      "ActiveInterests": 511,
+      "Position": "ab",
+      "PersonId": 797,
+      "Mrmrs": "est",
+      "Firstname": "Holly",
+      "Lastname": "Tromp",
+      "MiddleName": "Koss, Hauck and Kunde",
+      "Title": "nobis",
+      "Description": "Focused human-resource hierarchy",
+      "Email": "raymundo.bechtelar@gleasonhuel.uk",
+      "FullName": "Miss Christian Hauck Sr.",
+      "DirectPhone": "1-255-668-0362",
+      "FormalName": "Kerluke-Turner",
+      "CountryId": 692,
+      "ContactId": 343,
+      "ContactName": "Kshlerin-Lynch",
+      "Retired": 461,
+      "Rank": 302,
+      "ActiveInterests": 829,
       "ContactDepartment": "",
-      "ContactCountryId": 850,
-      "ContactOrgNr": "763089",
-      "FaxPhone": "749-125-1995 x753",
-      "MobilePhone": "185.214.1311 x706",
-      "ContactPhone": "1-472-133-9866 x17076",
-      "AssociateName": "Miller, Hammes and Considine",
-      "AssociateId": 324,
-      "UsePersonAddress": false,
-      "ContactFax": "officia",
-      "Kanafname": "quia",
-      "Kanalname": "reprehenderit",
-      "Post1": "ut",
-      "Post2": "numquam",
-      "Post3": "voluptatem",
-      "EmailName": "dorthy_gleason@waters.us",
-      "ContactFullName": "Domenick Rutherford",
-      "ActiveErpLinks": 447,
-      "TicketPriorityId": 820,
-      "SupportLanguageId": 163,
-      "SupportAssociateId": 255,
+      "ContactCountryId": 119,
+      "ContactOrgNr": "1655691",
+      "FaxPhone": "337-531-9655",
+      "MobilePhone": "848.172.3082 x161",
+      "ContactPhone": "318.938.2110",
+      "AssociateName": "Roberts-Kassulke",
+      "AssociateId": 753,
+      "UsePersonAddress": true,
+      "ContactFax": "accusamus",
+      "Kanafname": "cum",
+      "Kanalname": "quod",
+      "Post1": "sit",
+      "Post2": "voluptatum",
+      "Post3": "quidem",
+      "EmailName": "marley.littel@halvorsonharvey.biz",
+      "ContactFullName": "Elian Welch",
+      "ActiveErpLinks": 298,
+      "TicketPriorityId": 182,
+      "SupportLanguageId": 52,
+      "SupportAssociateId": 154,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1216455",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 703
-        }
-      }
-    }
-  ],
-  "AlertLevel": 236,
-  "ConnectId": 452,
-  "ReadStatus": "Green",
-  "TimeToReply": 4,
-  "RealTimeToReply": 586,
-  "TimeToClose": 44,
-  "RealTimeToClose": 938,
-  "TimeSpentInternally": 556,
-  "TimeSpentExternally": 686,
-  "TimeSpentQueue": 550,
-  "RealTimeSpentInternally": 703,
-  "RealTimeSpentExternally": 501,
-  "RealTimeSpentQueue": 66,
-  "TimeSpent": 122,
-  "HasAttachment": false,
-  "NumReplies": 637,
-  "NumMessages": 380,
-  "FromAddress": "quibusdam",
-  "Messages": [
-    {
-      "TicketMessageId": 139,
-      "CreatedAt": "2007-03-05T02:38:22.02635+01:00",
-      "Slevel": "External",
-      "Important": true,
-      "Author": "veniam",
-      "PersonId": 540,
-      "PersonFullName": "Ms. Madie Leannon MD",
-      "ContactId": 744,
-      "ContactName": "Runolfsson, Herzog and Collins",
-      "ContactDepartment": "",
-      "NumAttachments": 492,
-      "EmailHeader": "faye.williamson@reichel.name",
-      "MessageHeaders": [
-        {},
-        {}
-      ],
-      "Language": "id",
-      "Sentiment": 538,
-      "SentimentConfidence": 456,
-      "CreatedBy": 7,
-      "ChangedAt": "2011-07-31T02:38:22.02635+02:00",
-      "Badge": "Comment",
+      "PersonNumber": "457353",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 602
+          "FieldLength": 611
+        }
+      }
+    }
+  ],
+  "AlertLevel": 105,
+  "ConnectId": 904,
+  "ReadStatus": "Green",
+  "TimeToReply": 612,
+  "RealTimeToReply": 954,
+  "TimeToClose": 965,
+  "RealTimeToClose": 794,
+  "TimeSpentInternally": 439,
+  "TimeSpentExternally": 587,
+  "TimeSpentQueue": 268,
+  "RealTimeSpentInternally": 757,
+  "RealTimeSpentExternally": 440,
+  "RealTimeSpentQueue": 816,
+  "TimeSpent": 390,
+  "HasAttachment": true,
+  "NumReplies": 445,
+  "NumMessages": 859,
+  "FromAddress": "commodi",
+  "Messages": [
+    {
+      "TicketMessageId": 270,
+      "CreatedAt": "2017-11-02T14:28:22.5553721+01:00",
+      "Slevel": "External",
+      "Important": false,
+      "Author": "eum",
+      "PersonId": 811,
+      "PersonFullName": "Janis Ruby Spinka IV",
+      "ContactId": 153,
+      "ContactName": "Grady Group",
+      "ContactDepartment": "",
+      "NumAttachments": 792,
+      "EmailHeader": "sven@durgan.us",
+      "MessageHeaders": [
+        {},
+        {}
+      ],
+      "Language": "similique",
+      "Sentiment": 405,
+      "SentimentConfidence": 979,
+      "CreatedBy": 243,
+      "ChangedAt": "2023-11-24T14:28:22.5553721+01:00",
+      "Badge": "Comment",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 418
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 107,
-      "Name": "Sporer, Jacobson and Hettinger",
-      "ToolTip": "Harum at quia culpa odio rem voluptatem.",
+      "Id": 68,
+      "Name": "Halvorson, Davis and Kemmer",
+      "ToolTip": "Delectus ea nam error dolorum rerum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldType": "System.Int32",
+          "FieldLength": 353
         }
       }
     },
     {
-      "Id": 107,
-      "Name": "Sporer, Jacobson and Hettinger",
-      "ToolTip": "Harum at quia culpa odio rem voluptatem.",
+      "Id": 68,
+      "Name": "Halvorson, Davis and Kemmer",
+      "ToolTip": "Delectus ea nam error dolorum rerum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 770
+          "FieldType": "System.Int32",
+          "FieldLength": 353
         }
       }
     }
   ],
-  "Language": "nihil",
-  "Sentiment": 992,
-  "SentimentConfidence": 227,
-  "SuggestedCategoryId": 378,
+  "Language": "voluptatem",
+  "Sentiment": 753,
+  "SentimentConfidence": 361,
+  "SuggestedCategoryId": 870,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 235,
-  "IconHint": "repudiandae",
+  "OrigHumanCategoryId": 703,
+  "IconHint": "voluptas",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 631,
+  "ActiveStatusMonitorId": 452,
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "minus"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "dolorum",
-    "CustomFields2": "nobis"
+    "CustomFields1": "eum",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 862
+      "FieldLength": 136
     }
   }
 }

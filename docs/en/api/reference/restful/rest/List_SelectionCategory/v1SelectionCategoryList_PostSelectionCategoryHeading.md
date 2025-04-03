@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 873,
-  "Name": "Roberts-Wisoky",
-  "Tooltip": "eius",
-  "Deleted": false,
-  "Rank": 229,
-  "UdListDefinitionId": 671
+  "HeadingId": 355,
+  "Name": "Hudson LLC",
+  "Tooltip": "eligendi",
+  "Deleted": true,
+  "Rank": 369,
+  "UdListDefinitionId": 456
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 137,
-  "Name": "Vandervort, Predovic and Erdman",
-  "Tooltip": "deserunt",
+  "HeadingId": 843,
+  "Name": "Rau Group",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 939,
-  "UdListDefinitionId": 119,
+  "Rank": 794,
+  "UdListDefinitionId": 853,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 912
     }
   }
 }

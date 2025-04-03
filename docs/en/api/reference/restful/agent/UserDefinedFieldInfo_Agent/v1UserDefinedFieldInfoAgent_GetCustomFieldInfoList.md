@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Gutkowski-Schroeder",
+  "TableName": "Keeling, Dicki and Davis",
   "IncludeStandard": false
 }
 ```
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Runolfsdottir-Schultz",
-    "DisplayName": "Fahey LLC",
-    "Description": "Multi-lateral systemic product",
-    "ShortLabel": "dolores",
+    "FieldName": "Rath-Smitham",
+    "DisplayName": "Marquardt-Adams",
+    "Description": "Grass-roots eco-centric groupware",
+    "ShortLabel": "dolorem",
     "HideLabel": false,
-    "HideField": true,
+    "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
+    "IsMandatory": true,
     "IsReadOnly": false,
-    "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 838,
-    "TemplateVariableName": "Klocko, Larkin and McCullough"
+    "IsExternal": true,
+    "IsDisplayField": false,
+    "Rank": 109,
+    "TemplateVariableName": "Will Inc and Sons"
   }
 ]
 ```

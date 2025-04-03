@@ -17845,6 +17845,8 @@
     name: ApplicationType
   - uid: SuperOffice.Data.AppointmentCautionWarning
     name: AppointmentCautionWarning
+  - uid: SuperOffice.Data.AppointmentExternalOwner
+    name: AppointmentExternalOwner
   - uid: SuperOffice.Data.AppointmentPrivate
     name: AppointmentPrivate
   - uid: SuperOffice.Data.AppointmentStatus
@@ -18041,6 +18043,8 @@
     name: GuideStepConstants
   - uid: SuperOffice.Data.HtmlSanitizerOptions
     name: HtmlSanitizerOptions
+  - uid: SuperOffice.Data.IDebugUser
+    name: IDebugUser
   - uid: SuperOffice.Data.ImageEmbedType
     name: ImageEmbedType
   - uid: SuperOffice.Data.ImportAction
@@ -18132,6 +18136,10 @@
     name: NotificationMessageType
   - uid: SuperOffice.Data.NotificationPlatform
     name: NotificationPlatform
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+  - uid: SuperOffice.Data.NotifyType
+    name: NotifyType
   - uid: SuperOffice.Data.OnIdUpdate
     name: OnIdUpdate
   - uid: SuperOffice.Data.OnSaved
@@ -18630,6 +18638,8 @@
     name: AppAvailStateFieldInfo
   - uid: SuperOffice.Data.SQL.AppointmentCautionWarningFieldInfo
     name: AppointmentCautionWarningFieldInfo
+  - uid: SuperOffice.Data.SQL.AppointmentExternalOwnerFieldInfo
+    name: AppointmentExternalOwnerFieldInfo
   - uid: SuperOffice.Data.SQL.AppointmentPrivateFieldInfo
     name: AppointmentPrivateFieldInfo
   - uid: SuperOffice.Data.SQL.AppointmentStatusFieldInfo
@@ -19915,6 +19925,8 @@
     name: ImportDefaults
   - uid: SuperOffice.Util.ITextEncodingDetector
     name: ITextEncodingDetector
+  - uid: SuperOffice.Util.ITrackEventDispatcher
+    name: ITrackEventDispatcher
   - uid: SuperOffice.Util.JsonPairSerializer`2
     name: JsonPairSerializer<T1, T2>
     name.vb: JsonPairSerializer(Of T1, T2)
@@ -20005,6 +20017,12 @@
     name: TimeConverterHelper
   - uid: SuperOffice.Util.TimeZoneUtility
     name: TimeZoneUtility
+  - uid: SuperOffice.Util.TrackEvent
+    name: TrackEvent
+  - uid: SuperOffice.Util.TrackEventConfiguration
+    name: TrackEventConfiguration
+  - uid: SuperOffice.Util.TrackEventDispatcher
+    name: TrackEventDispatcher
   - uid: SuperOffice.Util.TSRandom
     name: TSRandom
   - uid: SuperOffice.Util.TwipsConverter
