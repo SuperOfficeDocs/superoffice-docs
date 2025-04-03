@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetAllInDomain
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,46 +100,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HierarchyId": 751,
+    "HierarchyId": 157,
     "Domain": "Dashboards",
-    "Name": "Ryan-Terry",
-    "Fullname": "et",
-    "ParentId": 742,
+    "Name": "Runolfsson, O'Reilly and Terry",
+    "Fullname": "quam",
+    "ParentId": 992,
     "Children": [
       {
-        "HierarchyId": 361,
+        "HierarchyId": 448,
         "Domain": "Dashboards",
-        "Name": "Marquardt Group",
-        "Fullname": "commodi",
-        "ParentId": 550,
+        "Name": "Kassulke-Balistreri",
+        "Fullname": "eos",
+        "ParentId": 857,
         "Children": [
           {},
           {}
         ],
-        "Registered": "2023-11-10T02:38:21.5264044+01:00",
-        "RegisteredAssociateId": 31,
-        "Updated": "2001-05-19T02:38:21.5264044+02:00",
-        "UpdatedAssociateId": 662,
+        "Registered": "2015-08-25T14:28:22.0866401+02:00",
+        "RegisteredAssociateId": 817,
+        "Updated": "2016-07-22T14:28:22.0866401+02:00",
+        "UpdatedAssociateId": 958,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 829
+            "FieldType": "System.Int32",
+            "FieldLength": 63
           }
         }
       }
     ],
-    "Registered": "1999-04-17T02:38:21.5264044+02:00",
-    "RegisteredAssociateId": 431,
-    "Updated": "2003-10-15T02:38:21.5264044+02:00",
-    "UpdatedAssociateId": 106,
+    "Registered": "2014-12-10T14:28:22.0866401+01:00",
+    "RegisteredAssociateId": 354,
+    "Updated": "2009-05-09T14:28:22.0866401+02:00",
+    "UpdatedAssociateId": 582,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 493
+        "FieldLength": 455
       }
     }
   }

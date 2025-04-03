@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Jewess Group",
-  "ProviderName": "Powlowski-Walsh",
-  "SortOrder": "quia",
-  "Restriction": "necessitatibus",
-  "Entities": "quam",
-  "Page": 901,
-  "PageSize": 621
+  "GuiName": "Barrows-Lebsack",
+  "ProviderName": "Ziemann Group",
+  "SortOrder": "mollitia",
+  "Restriction": "rerum",
+  "Entities": "tempora",
+  "Page": 365,
+  "PageSize": 503
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Halvorson, Halvorson and Huels",
-    "PrimaryKey": 801,
+    "EntityName": "Parker Inc and Sons",
+    "PrimaryKey": 170,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "et",
-        "TooltipHint": "quisquam",
-        "LinkHint": "voluptas"
+        "DisplayValue": "natus",
+        "TooltipHint": "numquam",
+        "LinkHint": "eius"
       }
     },
-    "LinkHint": "optio",
-    "StyleHint": "illum",
+    "LinkHint": "quia",
+    "StyleHint": "voluptatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 339
+        "FieldLength": 682
       }
     }
   }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 966
+  "KbEntryId": 695
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "soluta",
-  "RegisteredByFullName": "Mercedes Mohr",
-  "Updated": "2023-02-22T02:38:21.182685+01:00",
-  "Question": "consequuntur",
-  "Answer": "non",
+  "Title": "esse",
+  "RegisteredByFullName": "Dr. Monique Scottie Hoeger DDS",
+  "Updated": "2019-03-10T14:28:21.6960311+01:00",
+  "Question": "sint",
+  "Answer": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 426
+      "FieldLength": 38
     }
   }
 }

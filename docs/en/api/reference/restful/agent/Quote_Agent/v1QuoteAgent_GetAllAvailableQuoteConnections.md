@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 401,
-    "ERPName": "Erdman-Keeling",
-    "DisplayName": "Nikolaus, Spinka and Botsford",
-    "DisplayDescription": "Future-proofed fresh-thinking firmware",
-    "Rank": 848,
-    "ConnectorName": "Bayer, McDermott and Dach",
-    "ErpConnectionId": 464,
-    "ExtraData": "odit",
+    "QuoteConnectionId": 969,
+    "ERPName": "Predovic LLC",
+    "DisplayName": "Heaney, Kihn and Marquardt",
+    "DisplayDescription": "Digitized 24/7 solution",
+    "Rank": 978,
+    "ConnectorName": "Abernathy LLC",
+    "ErpConnectionId": 232,
+    "ExtraData": "saepe",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 186,
-        "ERPPriceListKey": "quisquam",
-        "QuoteConnectionId": 156,
-        "Name": "Trantow LLC",
-        "Description": "Robust scalable database",
-        "Currency": "eligendi",
-        "CurrencyName": "Steuber LLC",
-        "ValidFrom": "2016-01-27T02:38:21.7763357+01:00",
-        "ValidTo": "2024-03-11T02:38:21.7763357+01:00",
-        "IsActive": false,
+        "PriceListId": 781,
+        "ERPPriceListKey": "consequatur",
+        "QuoteConnectionId": 453,
+        "Name": "Kilback LLC",
+        "Description": "Persistent discrete solution",
+        "Currency": "qui",
+        "CurrencyName": "Waters, Botsford and Hilpert",
+        "ValidFrom": "2002-10-16T14:28:22.3053817+02:00",
+        "ValidTo": "2019-07-16T14:28:22.3053817+02:00",
+        "IsActive": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 841
+            "FieldLength": 377
           }
         }
       }
     ],
-    "AllAccess": true,
-    "Deleted": false,
+    "AllAccess": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      837,
-      328
+      139,
+      996
     ],
     "AssociateAccessIds": [
-      531,
-      881
+      559,
+      579
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldLength": 68
       }
     }
   }

@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 542,
-  "ColumnId": 302,
-  "FieldDefault": "et",
-  "FieldHeight": 861,
-  "FieldLabel": "maiores",
-  "FieldLeft": 54,
-  "FieldTop": 422,
+  "UDefFieldId": 192,
+  "ColumnId": 529,
+  "FieldDefault": "quo",
+  "FieldHeight": 60,
+  "FieldLabel": "sapiente",
+  "FieldLeft": 904,
+  "FieldTop": 565,
   "FieldType": "Checkbox",
-  "FieldWidth": 658,
-  "FormatMask": "hic",
-  "HideLabel": false,
+  "FieldWidth": 76,
+  "FormatMask": "velit",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 223,
-  "LabelLeft": 264,
-  "LabelTop": 453,
-  "LabelWidth": 842,
-  "LastVersionId": 272,
-  "ListTableId": 943,
+  "LabelHeight": 824,
+  "LabelLeft": 561,
+  "LabelTop": 17,
+  "LabelWidth": 181,
+  "LastVersionId": 161,
+  "ListTableId": 98,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 609,
-  "ProgId": "provident",
+  "Page1LineNo": 199,
+  "ProgId": "deserunt",
   "IsReadOnly": false,
-  "ShortLabel": "voluptate",
-  "TabOrder": 713,
-  "TextLength": 990,
-  "Tooltip": "earum",
-  "UdefIdentity": 848,
-  "UDListDefinitionId": 13,
+  "ShortLabel": "veritatis",
+  "TabOrder": 854,
+  "TextLength": 417,
+  "Tooltip": "quo",
+  "UdefIdentity": 686,
+  "UDListDefinitionId": 550,
   "Justification": "Center",
-  "Version": 978,
-  "TemplateVariableName": "Smitham-McClure",
+  "Version": 524,
+  "TemplateVariableName": "Morar LLC",
   "HasBeenPublished": true,
-  "MdoListName": "Turner Inc and Sons",
+  "MdoListName": "Cole, Nolan and Gorczany",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 116
+      "FieldType": "System.Int32",
+      "FieldLength": 907
     }
   }
 }

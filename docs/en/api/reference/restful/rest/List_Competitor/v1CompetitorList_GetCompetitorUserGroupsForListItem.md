@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Gislason Inc and Sons",
-    "ToolTip": "Et voluptates ea occaecati quod velit unde fuga.",
+    "Id": 207,
+    "Name": "Leffler-Hintz",
+    "ToolTip": "Necessitatibus sunt veritatis facilis error a.",
     "Deleted": false,
-    "Rank": 146,
-    "Type": "laboriosam",
-    "ColorBlock": 143,
-    "IconHint": "dolores",
+    "Rank": 553,
+    "Type": "aut",
+    "ColorBlock": 958,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2019-01-20T02:38:26.6830285+01:00",
+    "LastChanged": "2003-12-27T14:28:27.4926717+01:00",
     "ChildItems": [
       {
-        "Id": 622,
-        "Name": "Veum LLC",
-        "ToolTip": "Rem commodi placeat vero.",
+        "Id": 867,
+        "Name": "Botsford, Crist and Hoppe",
+        "ToolTip": "Fuga ut.",
         "Deleted": false,
-        "Rank": 196,
-        "Type": "eveniet",
-        "ColorBlock": 5,
-        "IconHint": "ut",
+        "Rank": 812,
+        "Type": "sed",
+        "ColorBlock": 809,
+        "IconHint": "magnam",
         "Selected": true,
-        "LastChanged": "2022-10-31T02:38:26.6830285+01:00",
+        "LastChanged": "2010-07-05T14:28:27.4926717+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "et",
+        "ExtraInfo": "sit",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Willa Schmidt",
+        "FullName": "Virginia Roberts",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 663
+            "FieldLength": 491
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "fugit",
+    "ExtraInfo": "dicta",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Miss Lauretta Francisca Steuber",
+    "FullName": "Millie Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 364
+        "FieldType": "System.Int32",
+        "FieldLength": 51
       }
     }
   }

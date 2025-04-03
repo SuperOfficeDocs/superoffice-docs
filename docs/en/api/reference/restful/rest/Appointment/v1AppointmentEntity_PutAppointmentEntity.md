@@ -102,6 +102,7 @@ The AppointmentEntity to be saved.
 | SuggestedAppointmentId | Integer | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | Boolean | Is this appointment a milestone? |
 | CautionWarning | String | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | String | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | String | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | String | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | Object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -176,6 +177,7 @@ AppointmentEntity updated.
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -196,7 +198,7 @@ AppointmentEntity updated.
 PUT /api/v1/Appointment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -204,105 +206,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2023-12-10T02:38:25.8079327+01:00",
-  "AppointmentId": 254,
-  "Description": "Synergistic analyzing flexibility",
-  "Title": "sunt",
-  "Agenda": "repellat",
-  "InternalNotes": "numquam",
-  "StartDate": "1999-04-24T02:38:25.8079327+02:00",
-  "EndDate": "2017-02-25T02:38:25.8079327+01:00",
+  "CreatedDate": "2017-04-06T14:28:26.6645825+02:00",
+  "AppointmentId": 631,
+  "Description": "Triple-buffered intangible moderator",
+  "Title": "inventore",
+  "Agenda": "est",
+  "InternalNotes": "sit",
+  "StartDate": "2000-02-26T14:28:26.6645825+01:00",
+  "EndDate": "2001-07-30T14:28:26.6645825+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 963,
+  "MotherId": 572,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-09-23T02:38:25.8079327+02:00",
+  "UpdatedDate": "1999-03-02T14:28:26.6645825+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 276,
+  "ActiveLinks": 140,
   "Links": [
     {
-      "EntityName": "Larson-Leannon",
-      "Id": 656,
-      "Description": "Open-architected motivating application",
-      "ExtraInfo": "impedit",
-      "LinkId": 364
+      "EntityName": "Quitzon Group",
+      "Id": 364,
+      "Description": "Persistent bifurcated help-desk",
+      "ExtraInfo": "et",
+      "LinkId": 778
     },
     {
-      "EntityName": "Larson-Leannon",
-      "Id": 656,
-      "Description": "Open-architected motivating application",
-      "ExtraInfo": "impedit",
-      "LinkId": 364
+      "EntityName": "Quitzon Group",
+      "Id": 364,
+      "Description": "Persistent bifurcated help-desk",
+      "ExtraInfo": "et",
+      "LinkId": 778
     }
   ],
-  "AlarmLeadTime": "atque",
-  "HasAlarm": true,
-  "ColorIndex": 799,
+  "AlarmLeadTime": "qui",
+  "HasAlarm": false,
+  "ColorIndex": 670,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "provident",
-  "LeadTime": "soluta",
-  "Location": "nesciunt",
-  "RejectCounter": 646,
+  "LagTime": "similique",
+  "LeadTime": "consectetur",
+  "Location": "dolores",
+  "RejectCounter": 839,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 571,
-      "PersonId": 634,
-      "ContactId": 571,
-      "EmailId": 531,
+      "AssociateId": 933,
+      "PersonId": 170,
+      "ContactId": 271,
+      "EmailId": 87,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "zoe_stehr@koelpin.info",
-      "Description": "Extended well-modulated software"
+      "EmailAddress": "jazmyne@buckridge.co.uk",
+      "Description": "Networked 24/7 parallelism"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2018-03-01T02:38:25.8079327+01:00",
+  "ActiveDate": "1998-09-07T14:28:26.6645825+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 171,
+  "PreferredTZLocation": 795,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 520,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 55,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quia",
+  "CentralserviceVideomeetId": "ut",
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Mr. Brionna Baumbach"
+    "SuperOffice:2": "1182071888"
   },
   "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "nulla"
+    "ExtraFields1": "consequatur",
+    "ExtraFields2": "culpa"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "ipsum"
+    "CustomFields1": "ducimus",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2011-07-02T02:38:25.8079327+02:00",
-  "PublishTo": "2020-11-09T02:38:25.8079327+01:00",
-  "PublishFrom": "2000-10-29T02:38:25.8079327+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2016-08-27T14:28:26.6645825+02:00",
+  "PublishTo": "2024-03-30T14:28:26.6645825+01:00",
+  "PublishFrom": "2010-04-15T14:28:26.6645825+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 608,
+      "VisibleId": 41,
       "Visibility": "All",
-      "DisplayValue": "consequatur"
+      "DisplayValue": "est"
     },
     {
-      "VisibleId": 608,
+      "VisibleId": 41,
       "Visibility": "All",
-      "DisplayValue": "consequatur"
+      "DisplayValue": "est"
     }
   ]
 }
@@ -319,120 +322,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "1998-06-10T02:38:25.8079327+02:00",
-  "AppointmentId": 457,
-  "Description": "User-centric system-worthy info-mediaries",
-  "Title": "porro",
-  "Agenda": "molestiae",
-  "InternalNotes": "soluta",
-  "StartDate": "2006-11-05T02:38:25.8079327+01:00",
-  "EndDate": "2011-08-24T02:38:25.8079327+02:00",
+  "CreatedDate": "2007-05-24T14:28:26.6802047+02:00",
+  "AppointmentId": 352,
+  "Description": "Fundamental needs-based attitude",
+  "Title": "nam",
+  "Agenda": "maiores",
+  "InternalNotes": "ratione",
+  "StartDate": "2025-01-29T14:28:26.6802047+01:00",
+  "EndDate": "2022-11-23T14:28:26.6802047+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 533,
+  "MotherId": 380,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2021-12-06T02:38:25.8079327+01:00",
+  "UpdatedDate": "2021-07-27T14:28:26.6802047+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 241,
+  "ActiveLinks": 473,
   "Links": [
     {
-      "EntityName": "Quigley Inc and Sons",
-      "Id": 57,
-      "Description": "Distributed multimedia productivity",
-      "ExtraInfo": "magnam",
-      "LinkId": 430,
+      "EntityName": "Braun Inc and Sons",
+      "Id": 581,
+      "Description": "Integrated multi-tasking model",
+      "ExtraInfo": "sed",
+      "LinkId": 458,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldLength": 934
         }
       }
     }
   ],
-  "AlarmLeadTime": "sapiente",
-  "HasAlarm": false,
-  "ColorIndex": 661,
-  "IsFree": true,
+  "AlarmLeadTime": "omnis",
+  "HasAlarm": true,
+  "ColorIndex": 421,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "voluptas",
-  "LeadTime": "ullam",
-  "Location": "occaecati",
-  "RejectCounter": 740,
+  "LagTime": "hic",
+  "LeadTime": "excepturi",
+  "Location": "corporis",
+  "RejectCounter": 145,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 87,
-      "PersonId": 952,
-      "ContactId": 912,
-      "EmailId": 267,
+      "AssociateId": 774,
+      "PersonId": 456,
+      "ContactId": 14,
+      "EmailId": 650,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "brook.schuppe@marquardt.uk",
-      "Description": "Future-proofed human-resource protocol"
+      "EmailAddress": "alysha@creminbechtelar.info",
+      "Description": "Visionary context-sensitive array"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1998-06-23T02:38:25.8079327+02:00",
+  "ActiveDate": "2016-07-05T14:28:26.6802047+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 643,
+  "PreferredTZLocation": 200,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 511,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 235,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "quia",
+  "CentralserviceVideomeetId": "culpa",
   "UserDefinedFields": {
-    "SuperOffice:1": "1425444825",
-    "SuperOffice:2": "Jessyca Kovacek"
+    "SuperOffice:1": "804903554",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "cum"
+    "ExtraFields1": "impedit",
+    "ExtraFields2": "pariatur"
   },
   "CustomFields": {
-    "CustomFields1": "officiis",
-    "CustomFields2": "at"
+    "CustomFields1": "occaecati",
+    "CustomFields2": "molestiae"
   },
-  "PublishEventDate": "1998-10-08T02:38:25.8079327+02:00",
-  "PublishTo": "2004-03-09T02:38:25.8079327+01:00",
-  "PublishFrom": "2020-10-05T02:38:25.8079327+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2012-12-19T14:28:26.6802047+01:00",
+  "PublishTo": "2002-06-28T14:28:26.6802047+02:00",
+  "PublishFrom": "2022-11-10T14:28:26.6802047+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 875,
+      "VisibleId": 724,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 384
+          "FieldLength": 260
         }
       }
     },
     {
-      "VisibleId": 875,
+      "VisibleId": 724,
       "Visibility": "All",
-      "DisplayValue": "ea",
+      "DisplayValue": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 384
+          "FieldLength": 260
         }
       }
     }
@@ -442,12 +446,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldLength": 41
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

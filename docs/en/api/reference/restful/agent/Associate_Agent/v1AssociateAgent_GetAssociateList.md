@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Associate/GetAssociateList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 57,
-    "Name": "Beahan, Eichmann and Toy",
-    "PersonId": 680,
-    "Rank": 927,
-    "Tooltip": "voluptatem",
+    "AssociateId": 979,
+    "Name": "Franecki Group",
+    "PersonId": 414,
+    "Rank": 59,
+    "Tooltip": "sit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 715,
-    "FullName": "Prof. Neil Lorenzo Stiedemann",
-    "FormalName": "Schaden LLC",
+    "GroupIdx": 350,
+    "FullName": "Miss Trevion Runolfsson",
+    "FormalName": "Willms LLC",
     "Deleted": false,
-    "EjUserId": 134,
-    "UserName": "Waters-Keeling",
+    "EjUserId": 844,
+    "UserName": "Schinner-Parisian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 750
+        "FieldLength": 265
       }
     }
   }

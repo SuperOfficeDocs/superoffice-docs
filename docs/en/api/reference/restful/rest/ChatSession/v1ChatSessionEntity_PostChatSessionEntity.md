@@ -136,33 +136,33 @@ OK
 POST /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 314,
-  "TopicId": 680,
+  "ChatSessionId": 999,
+  "TopicId": 566,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "ab",
-  "CustomerName": "Jakubowski Inc and Sons",
-  "CustomerEmail": "mervin@schuster.biz",
-  "CustomerPhone": "(548)346-1028",
+  "CustomerAlias": "in",
+  "CustomerHost": "assumenda",
+  "CustomerName": "Kunze Group",
+  "CustomerEmail": "cleora@dubuquewalsh.ca",
+  "CustomerPhone": "1-766-715-6097",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Breitenberg, Schulist and Nicolas",
+  "CustomerCompanyName": "Hartmann, Stroman and Towne",
   "Status": "Closed",
-  "FirstMessage": "rerum",
-  "LastMessage": "ipsum",
-  "WhenRequested": "2007-11-02T02:38:25.8392104+01:00",
-  "WhenStarted": "2006-07-06T02:38:25.8392104+02:00",
-  "WhenEnded": "2023-10-11T02:38:25.8392104+02:00",
-  "WhenIdle": "1998-10-03T02:38:25.8392104+02:00",
-  "WhenFetched": "2008-01-18T02:38:25.8392104+01:00",
-  "SessionKey": "optio",
-  "InitialQueuePos": 693,
-  "AlertLevel": 618,
-  "Rank": 154,
+  "FirstMessage": "odit",
+  "LastMessage": "reprehenderit",
+  "WhenRequested": "2001-09-26T14:28:26.7114534+02:00",
+  "WhenStarted": "2019-12-04T14:28:26.7114534+01:00",
+  "WhenEnded": "2023-10-11T14:28:26.7114534+02:00",
+  "WhenIdle": "2020-05-20T14:28:26.7114534+02:00",
+  "WhenFetched": "2020-05-19T14:28:26.7114534+02:00",
+  "SessionKey": "reiciendis",
+  "InitialQueuePos": 6,
+  "AlertLevel": 906,
+  "Rank": 470,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -170,7 +170,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 527
+  "Rating": 866
 }
 ```
 
@@ -181,29 +181,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 451,
-  "TopicId": 619,
+  "ChatSessionId": 539,
+  "TopicId": 468,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "quaerat",
-  "CustomerName": "Hettinger Group",
-  "CustomerEmail": "hailee@crona.name",
-  "CustomerPhone": "(837)232-3512 x781",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Dickinson, Marquardt and Wiegand",
+  "CustomerAlias": "laboriosam",
+  "CustomerHost": "inventore",
+  "CustomerName": "Weimann, Effertz and Rutherford",
+  "CustomerEmail": "carlos_lockman@ondricka.ca",
+  "CustomerPhone": "1-551-873-1328 x455",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Larson, Crona and Littel",
   "Status": "Closed",
-  "FirstMessage": "esse",
-  "LastMessage": "iusto",
-  "WhenRequested": "2001-08-21T02:38:25.8548338+02:00",
-  "WhenStarted": "2022-03-04T02:38:25.8548338+01:00",
-  "WhenEnded": "2022-08-24T02:38:25.8548338+02:00",
-  "WhenIdle": "1999-06-29T02:38:25.8548338+02:00",
-  "WhenFetched": "2023-11-23T02:38:25.8548338+01:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 402,
-  "AlertLevel": 273,
-  "Rank": 624,
+  "FirstMessage": "voluptatem",
+  "LastMessage": "sunt",
+  "WhenRequested": "2001-10-17T14:28:26.7114534+02:00",
+  "WhenStarted": "2023-01-30T14:28:26.7114534+01:00",
+  "WhenEnded": "2013-06-15T14:28:26.7114534+02:00",
+  "WhenIdle": "2024-01-08T14:28:26.7114534+01:00",
+  "WhenFetched": "2000-11-02T14:28:26.7114534+01:00",
+  "SessionKey": "consequuntur",
+  "InitialQueuePos": 355,
+  "AlertLevel": 447,
+  "Rank": 78,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -211,13 +211,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 763,
+  "Rating": 347,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 629
+      "FieldType": "System.Int32",
+      "FieldLength": 728
     }
   },
   "_Links": {

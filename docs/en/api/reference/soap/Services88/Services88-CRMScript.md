@@ -1387,6 +1387,9 @@ title: Services88.CRMScriptAgent WSDL
               <xs:element minOccurs="0" name="Eventdata" nillable="true" type="tns:EventData" />
               <xs:element minOccurs="0" name="Success" type="xs:boolean" />
               <xs:element minOccurs="0" name="ErrorInformation" nillable="true" type="tns:CRMScriptErrorInfo" />
+              <xs:element minOccurs="0" name="StatusCode" type="xs:int" />
+              <xs:element minOccurs="0" name="StatusMessage" nillable="true" type="xs:string" />
+              <xs:element minOccurs="0" name="Headers" nillable="true" type="tns:StringDictionary" />
             </xs:sequence>
           </xs:extension>
         </xs:complexContent>

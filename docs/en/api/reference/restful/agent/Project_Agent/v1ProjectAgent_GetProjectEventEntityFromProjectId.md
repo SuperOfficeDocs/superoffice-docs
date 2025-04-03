@@ -102,11 +102,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectEventEntityFromProjectId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 106
+  "ProjectId": 318
 }
 ```
 
@@ -117,94 +117,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "consequatur",
-  "SignOffText": "aspernatur",
-  "SignOnConfirmationText": "quo",
-  "SignOnText": "velit",
-  "EventDate": "2005-08-01T02:38:21.7295028+02:00",
-  "Enabled": false,
-  "CreatedDate": "2014-06-24T02:38:21.7295028+02:00",
+  "SignOffConfirmationText": "quasi",
+  "SignOffText": "magnam",
+  "SignOnConfirmationText": "ducimus",
+  "SignOnText": "veniam",
+  "EventDate": "2014-05-30T14:28:22.2585084+02:00",
+  "Enabled": true,
+  "CreatedDate": "2020-07-14T14:28:22.2585084+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 870,
-  "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOffTaskId": 53,
+  "SignOffTriggersAssign": true,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 510,
+  "SignOnTaskId": 195,
   "SignOnTriggersAssign": false,
-  "UpdatedDate": "2007-02-09T02:38:21.7295028+01:00",
+  "UpdatedDate": "2020-03-18T14:28:22.2585084+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 76,
-  "Id": 909,
-  "PublishFrom": "2023-04-09T02:38:21.7295028+02:00",
+  "ProjectId": 107,
+  "Id": 562,
+  "PublishFrom": "2013-01-26T14:28:22.2585084+01:00",
   "PublishType": "External",
-  "PublishTo": "2025-02-20T02:38:21.7295028+01:00",
+  "PublishTo": "2014-01-01T14:28:22.2585084+01:00",
   "VisibleForCategories": [
     {
-      "Id": 84,
-      "Name": "Klein, Haley and Boyer",
-      "ToolTip": "Officiis exercitationem quasi voluptas molestiae voluptatem.",
+      "Id": 898,
+      "Name": "Feeney, West and Graham",
+      "ToolTip": "Animi nemo blanditiis quis ipsa occaecati.",
       "Deleted": false,
-      "Rank": 609,
-      "Type": "veritatis",
+      "Rank": 521,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "vel",
-      "ColorBlock": 746,
-      "ExtraInfo": "consequatur",
-      "StyleHint": "nihil",
-      "FullName": "Mr. Ethyl Myra Veum PhD",
+      "IconHint": "corrupti",
+      "ColorBlock": 412,
+      "ExtraInfo": "dolorem",
+      "StyleHint": "sunt",
+      "FullName": "Mr. Devin Angel Schinner IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldLength": 816
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 307,
-      "Name": "Purdy Group",
-      "ToolTip": "Velit quod nihil.",
-      "Deleted": true,
-      "Rank": 636,
-      "Type": "molestias",
+      "Id": 286,
+      "Name": "Shields Group",
+      "ToolTip": "Eum aut.",
+      "Deleted": false,
+      "Rank": 234,
+      "Type": "corrupti",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "cumque",
-      "ColorBlock": 538,
-      "ExtraInfo": "nisi",
-      "StyleHint": "rerum",
-      "FullName": "Nathanial Bernhard",
+      "IconHint": "cupiditate",
+      "ColorBlock": 673,
+      "ExtraInfo": "cupiditate",
+      "StyleHint": "hic",
+      "FullName": "Brandt Swift IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 546
+          "FieldType": "System.Int32",
+          "FieldLength": 912
         }
       }
     }
   ],
-  "IsPublished": true,
-  "IsVisibleForMembers": true,
-  "IsVisibleForCategories": false,
+  "IsPublished": false,
+  "IsVisibleForMembers": false,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 697,
+  "ProjectEventId": 588,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldLength": 591
     }
   }
 }

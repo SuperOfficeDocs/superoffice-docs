@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 847,
-  "PlainMessage": "explicabo",
-  "HtmlMessage": "quidem",
-  "SmsMessage": "quod",
-  "Description": "Robust context-sensitive task-force",
-  "Subject": "sed",
-  "FolderId": 529,
-  "HeaderField": "harum",
-  "Design": "asperiores",
+  "ShipmentMessageId": 66,
+  "PlainMessage": "et",
+  "HtmlMessage": "dolores",
+  "SmsMessage": "vitae",
+  "Description": "Expanded leading edge installation",
+  "Subject": "doloribus",
+  "FolderId": 960,
+  "HeaderField": "praesentium",
+  "Design": "saepe",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Diverse explicit migration",
-  "AccessKey": "ea",
-  "DocumentMessage": 232,
-  "Registered": "2018-01-07T02:38:21.5576497+01:00",
-  "RegisteredAssociateId": 442,
-  "Updated": "2014-08-26T02:38:21.5576497+02:00",
-  "UpdatedAssociateId": 28,
-  "UpdatedCount": 309
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Fundamental discrete productivity",
+  "AccessKey": "delectus",
+  "DocumentMessage": 774,
+  "Registered": "2009-10-14T14:28:22.1022648+02:00",
+  "RegisteredAssociateId": 154,
+  "Updated": "2007-03-12T14:28:22.1022648+01:00",
+  "UpdatedAssociateId": 181,
+  "UpdatedCount": 988
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 365,
-  "PlainMessage": "ducimus",
-  "HtmlMessage": "ipsam",
-  "SmsMessage": "molestiae",
-  "Description": "Robust well-modulated moratorium",
-  "Subject": "iusto",
-  "FolderId": 909,
-  "HeaderField": "aspernatur",
-  "Design": "quas",
+  "ShipmentMessageId": 327,
+  "PlainMessage": "reiciendis",
+  "HtmlMessage": "rerum",
+  "SmsMessage": "in",
+  "Description": "Operative 6th generation success",
+  "Subject": "eaque",
+  "FolderId": 636,
+  "HeaderField": "asperiores",
+  "Design": "beatae",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Enterprise-wide needs-based infrastructure",
-  "AccessKey": "omnis",
-  "DocumentMessage": 484,
-  "Registered": "2014-01-05T02:38:21.5576497+01:00",
-  "RegisteredAssociateId": 799,
-  "Updated": "2010-02-15T02:38:21.5576497+01:00",
-  "UpdatedAssociateId": 297,
-  "UpdatedCount": 746,
+  "LongDescription": "Open-source impactful hierarchy",
+  "AccessKey": "id",
+  "DocumentMessage": 904,
+  "Registered": "2012-01-16T14:28:22.1022648+01:00",
+  "RegisteredAssociateId": 763,
+  "Updated": "2002-04-27T14:28:22.1022648+02:00",
+  "UpdatedAssociateId": 909,
+  "UpdatedCount": 574,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldType": "System.String",
+      "FieldLength": 716
     }
   }
 }

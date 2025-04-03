@@ -80,11 +80,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 962,
+  "TicketId": 603,
   "MessageActionType": "Forward",
-  "TicketMessageId": 998,
-  "TicketTypeId": 516,
-  "ExcludeSignature": false
+  "TicketMessageId": 908,
+  "TicketTypeId": 276,
+  "ExcludeSignature": true
 }
 ```
 
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "itaque",
+  "Body": "recusandae",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 727,
-      "Name": "Haag, Powlowski and Johns",
-      "ContentType": "mollitia",
-      "AttSize": 602,
+      "AttachmentId": 203,
+      "Name": "Watsica, Pouros and Gibson",
+      "ContentType": "consequuntur",
+      "AttSize": 405,
       "InlineImage": false,
-      "ContentId": "aut",
-      "AuthKey": "corrupti",
-      "IsSafeFileExtension": true,
+      "ContentId": "sed",
+      "AuthKey": "autem",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldType": "System.String",
+          "FieldLength": 862
         }
       }
     }

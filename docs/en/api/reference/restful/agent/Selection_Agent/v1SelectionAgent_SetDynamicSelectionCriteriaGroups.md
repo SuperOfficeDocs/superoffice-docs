@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 793,
+  "SelectionId": 317,
   "Criteria": [
     {
-      "Name": "Koch, O'Hara and Littel",
-      "Description": "Virtual static utilisation",
-      "Rank": 202,
+      "Name": "Kunze-Schmeler",
+      "Description": "Compatible disintermediate implementation",
+      "Rank": 64,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Koch, O'Hara and Littel",
-      "Description": "Virtual static utilisation",
-      "Rank": 202,
+      "Name": "Kunze-Schmeler",
+      "Description": "Compatible disintermediate implementation",
+      "Rank": 64,
       "Restrictions": [
         {},
         {}
@@ -113,58 +113,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Klein, Bode and Muller",
-    "Description": "Self-enabling object-oriented Graphical User Interface",
-    "Rank": 452,
+    "Name": "Mann-Mosciski",
+    "Description": "Face to face holistic forecast",
+    "Rank": 789,
     "Restrictions": [
       {
-        "Name": "Pollich-Nitzsche",
-        "Operator": "quis",
+        "Name": "Aufderhar-Wisozk",
+        "Operator": "aliquam",
         "Values": [
-          "eos",
-          "est"
+          "consequatur",
+          "incidunt"
         ],
         "DisplayValues": [
-          "ut",
-          "culpa"
+          "optio",
+          "suscipit"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 689,
+        "InterParenthesis": 85,
         "InterOperator": "And",
-        "UniqueHash": 202
+        "UniqueHash": 799
       }
     ]
   },
   {
-    "Name": "Klein, Bode and Muller",
-    "Description": "Self-enabling object-oriented Graphical User Interface",
-    "Rank": 452,
+    "Name": "Mann-Mosciski",
+    "Description": "Face to face holistic forecast",
+    "Rank": 789,
     "Restrictions": [
       {
-        "Name": "Pollich-Nitzsche",
-        "Operator": "quis",
+        "Name": "Aufderhar-Wisozk",
+        "Operator": "aliquam",
         "Values": [
-          "eos",
-          "est"
+          "consequatur",
+          "incidunt"
         ],
         "DisplayValues": [
-          "ut",
-          "culpa"
+          "optio",
+          "suscipit"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 689,
+        "InterParenthesis": 85,
         "InterOperator": "And",
-        "UniqueHash": 202
+        "UniqueHash": 799
       }
     ]
   }

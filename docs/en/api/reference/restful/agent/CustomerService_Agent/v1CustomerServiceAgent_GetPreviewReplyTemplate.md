@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 970
+  "ReplyTemplateId": 386
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Block Inc and Sons",
-  "Description": "Adaptive content-based moderator",
-  "OwnedByFullName": "Ms. Hailey Crist",
-  "Updated": "2021-08-30T02:38:21.182685+02:00",
-  "Body": "pariatur",
-  "IsHtml": true,
+  "Name": "Price LLC",
+  "Description": "Profound static analyzer",
+  "OwnedByFullName": "Una Welch",
+  "Updated": "2017-03-22T14:28:21.6960311+01:00",
+  "Body": "iusto",
+  "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldType": "System.String",
+      "FieldLength": 700
     }
   }
 }

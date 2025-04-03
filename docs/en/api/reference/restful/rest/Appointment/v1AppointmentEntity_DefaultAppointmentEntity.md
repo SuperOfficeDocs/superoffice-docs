@@ -96,6 +96,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -115,7 +116,7 @@ OK
 GET /api/v1/Appointment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -123,127 +124,128 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 29 Apr 2007 02:38:25 G4T
+Last-Modified: Sun, 04 Jul 1999 14:28:26 G7T
 
 {
   "Associate": null,
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-11-27T02:38:25.761101+01:00",
-  "AppointmentId": 76,
-  "Description": "Realigned solution-oriented monitoring",
-  "Title": "aut",
-  "Agenda": "quas",
-  "InternalNotes": "rerum",
-  "StartDate": "2001-04-26T02:38:25.761101+02:00",
-  "EndDate": "2013-04-13T02:38:25.761101+02:00",
+  "CreatedDate": "2015-01-06T14:28:26.6333313+01:00",
+  "AppointmentId": 307,
+  "Description": "User-centric holistic groupware",
+  "Title": "fugiat",
+  "Agenda": "ut",
+  "InternalNotes": "odio",
+  "StartDate": "2002-01-05T14:28:26.6333313+01:00",
+  "EndDate": "2009-12-16T14:28:26.6333313+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 470,
+  "MotherId": 418,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2007-04-29T02:38:25.761101+02:00",
+  "UpdatedDate": "1999-07-04T14:28:26.6333313+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 316,
+  "ActiveLinks": 446,
   "Links": [
     {
-      "EntityName": "Steuber, Bogisich and Nolan",
-      "Id": 465,
-      "Description": "Diverse local synergy",
-      "ExtraInfo": "omnis",
-      "LinkId": 230,
+      "EntityName": "Jast LLC",
+      "Id": 847,
+      "Description": "Self-enabling local migration",
+      "ExtraInfo": "dignissimos",
+      "LinkId": 749,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 404
+          "FieldType": "System.Int32",
+          "FieldLength": 897
         }
       }
     }
   ],
-  "AlarmLeadTime": "beatae",
-  "HasAlarm": true,
-  "ColorIndex": 518,
+  "AlarmLeadTime": "aliquid",
+  "HasAlarm": false,
+  "ColorIndex": 557,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "incidunt",
-  "LeadTime": "cumque",
-  "Location": "sint",
-  "RejectCounter": 294,
+  "IsAlldayEvent": false,
+  "LagTime": "odit",
+  "LeadTime": "voluptatem",
+  "Location": "vel",
+  "RejectCounter": 94,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 261,
-      "PersonId": 929,
-      "ContactId": 64,
-      "EmailId": 430,
-      "SendEmail": true,
+      "AssociateId": 250,
+      "PersonId": 410,
+      "ContactId": 161,
+      "EmailId": 76,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "ila.heidenreich@bashiriankshlerin.us",
-      "Description": "Automated national capability"
+      "EmailAddress": "clarabelle@flatley.com",
+      "Description": "Down-sized maximized orchestration"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2020-12-05T02:38:25.761101+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2005-08-02T14:28:26.6333313+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 152,
+  "PreferredTZLocation": 876,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 918,
+  "SuggestedAppointmentId": 610,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "non",
+  "CentralserviceVideomeetId": "commodi",
   "UserDefinedFields": {
-    "SuperOffice:1": "Axel Greenholt",
-    "SuperOffice:2": "Deonte Sawayn"
+    "SuperOffice:1": "Prof. Electa Braun",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "impedit",
-    "ExtraFields2": "maiores"
+    "ExtraFields1": "et",
+    "ExtraFields2": "ducimus"
   },
   "CustomFields": {
-    "CustomFields1": "sunt",
-    "CustomFields2": "qui"
+    "CustomFields1": "omnis",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2019-01-23T02:38:25.761101+01:00",
-  "PublishTo": "2000-11-25T02:38:25.761101+01:00",
-  "PublishFrom": "2018-05-14T02:38:25.761101+02:00",
+  "PublishEventDate": "2006-01-20T14:28:26.6489578+01:00",
+  "PublishTo": "2007-02-14T14:28:26.6489578+01:00",
+  "PublishFrom": "2014-03-01T14:28:26.6489578+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 909,
+      "VisibleId": 659,
       "Visibility": "All",
-      "DisplayValue": "nisi",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 6
+          "FieldLength": 228
         }
       }
     },
     {
-      "VisibleId": 909,
+      "VisibleId": 659,
       "Visibility": "All",
-      "DisplayValue": "nisi",
+      "DisplayValue": "maiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 6
+          "FieldLength": 228
         }
       }
     }
@@ -253,7 +255,7 @@ Last-Modified: Sun, 29 Apr 2007 02:38:25 G4T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 832
+      "FieldLength": 289
     }
   }
 }

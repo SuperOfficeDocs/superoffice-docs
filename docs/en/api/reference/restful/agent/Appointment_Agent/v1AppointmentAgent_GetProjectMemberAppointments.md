@@ -116,6 +116,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -130,14 +131,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 413,
-  "StartTime": "2019-09-19T02:38:20.5419831+02:00",
-  "EndTime": "2017-04-24T02:38:20.5419831+02:00",
-  "Count": 178
+  "PersonId": 325,
+  "StartTime": "2023-08-14T14:28:21.1335548+02:00",
+  "EndTime": "2002-09-02T14:28:21.1335548+02:00",
+  "Count": 180
 }
 ```
 
@@ -149,65 +150,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 160,
-    "StartDate": "2009-10-02T02:38:20.5419831+02:00",
-    "EndDate": "2003-04-11T02:38:20.5419831+02:00",
+    "AppointmentId": 135,
+    "StartDate": "2008-12-07T14:28:21.1335548+01:00",
+    "EndDate": "2017-02-13T14:28:21.1335548+01:00",
     "Type": "BookingForChecklist",
-    "Task": "quo",
-    "AssociateFullName": "Mrs. Adah Schuster",
-    "ContactName": "Gleason-Ortiz",
-    "Description": "Enhanced 24/7 moderator",
-    "PersonFullName": "Ronny Carroll",
-    "PersonId": 217,
-    "ContactId": 56,
-    "ProjectId": 179,
-    "ProjectName": "Robel-Welch",
+    "Task": "tempore",
+    "AssociateFullName": "Mr. Emerson Waelchi II",
+    "ContactName": "Balistreri-Schinner",
+    "Description": "Innovative maximized data-warehouse",
+    "PersonFullName": "Erika Tillman",
+    "PersonId": 299,
+    "ContactId": 870,
+    "ProjectId": 450,
+    "ProjectName": "Adams, Aufderhar and Sipes",
     "IsPublished": true,
-    "AssociateId": 296,
-    "ColorIndex": 806,
-    "IsFree": true,
+    "AssociateId": 975,
+    "ColorIndex": 30,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 268,
-    "PriorityName": "Terry, Armstrong and Considine",
+    "PriorityId": 398,
+    "PriorityName": "Lemke, Ziemann and Auer",
     "TaskType": "Appointment",
     "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2012-12-11T02:38:20.5419831+01:00",
+    "ActiveDate": "2020-07-16T14:28:21.1335548+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-01-22T02:38:20.5419831+01:00",
-    "RecurringEndDate": "2008-05-14T02:38:20.5419831+02:00",
-    "MotherId": 241,
-    "AssignedBy": 603,
-    "AssignedByFullName": "Loraine Metz",
-    "RejectReason": "mesh extensible convergence",
-    "Location": "cupiditate",
-    "AlarmLeadTime": "necessitatibus",
-    "SaleId": 414,
-    "SaleName": "Pollich, Dicki and Dach",
-    "AssociateName": "Becker-Heaney",
-    "CreatedDate": "2018-02-19T02:38:20.5419831+01:00",
-    "CreatedBy": "atque",
-    "CreatedByFullName": "Jovany Collier II",
-    "CreatedByAssociateId": 621,
+    "RecurringStartDate": "1998-11-21T14:28:21.1335548+01:00",
+    "RecurringEndDate": "2001-10-03T14:28:21.1335548+02:00",
+    "MotherId": 727,
+    "AssignedBy": 607,
+    "AssignedByFullName": "Ms. Annalise Polly Schulist",
+    "RejectReason": "",
+    "Location": "mollitia",
+    "AlarmLeadTime": "veniam",
+    "SaleId": 312,
+    "SaleName": "Rolfson-Fritsch",
+    "AssociateName": "Hauck LLC",
+    "CreatedDate": "2014-05-20T14:28:21.1335548+02:00",
+    "CreatedBy": "consequuntur",
+    "CreatedByFullName": "Ms. Ophelia Keanu Stoltenberg DVM",
+    "CreatedByAssociateId": 570,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 933,
-    "Title": "qui",
-    "Agenda": "dolore",
-    "InternalNotes": "ducimus",
+    "PreferredTZLocation": 233,
+    "Title": "laborum",
+    "Agenda": "aut",
+    "InternalNotes": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 893
+        "FieldType": "System.String",
+        "FieldLength": 189
       }
     }
   }

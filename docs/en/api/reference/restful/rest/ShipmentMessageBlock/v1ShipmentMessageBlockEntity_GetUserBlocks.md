@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 988,
-    "AssociateId": 408,
-    "Block": "animi",
-    "Registered": "2012-09-15T02:38:26.4172802+02:00",
-    "RegisteredAssociateId": 719,
-    "Updated": "2019-08-08T02:38:26.4172802+02:00",
-    "UpdatedAssociateId": 436,
-    "UpdatedCount": 360,
+    "ShipmentMessageBlockId": 683,
+    "AssociateId": 198,
+    "Block": "commodi",
+    "Registered": "2019-08-01T14:28:27.2583066+02:00",
+    "RegisteredAssociateId": 428,
+    "Updated": "2005-07-11T14:28:27.2583066+02:00",
+    "UpdatedAssociateId": 568,
+    "UpdatedCount": 174,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 515
+        "FieldLength": 56
       }
     }
   }

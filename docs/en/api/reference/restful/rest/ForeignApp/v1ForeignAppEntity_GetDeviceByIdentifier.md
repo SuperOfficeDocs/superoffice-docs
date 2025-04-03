@@ -69,7 +69,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,24 +77,24 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 16 Jun 2000 02:38:26 G6T
+Last-Modified: Mon, 31 Aug 1998 14:28:26 G8T
 
 {
-  "ForeignDeviceId": 257,
-  "Name": "Hessel-Mosciski",
-  "CreatedDate": "2011-04-05T02:38:26.1204323+02:00",
-  "UpdatedDate": "2000-06-16T02:38:26.1204323+02:00",
-  "AssociateFullName": "Dominique Kuphal",
-  "CreatedBy": "ut",
-  "UpdatedBy": "explicabo",
-  "DeviceIdentifier": "ut",
-  "ForeignAppId": 969,
+  "ForeignDeviceId": 558,
+  "Name": "Cole, Von and Grimes",
+  "CreatedDate": "2016-09-06T14:28:26.9458186+02:00",
+  "UpdatedDate": "1998-08-31T14:28:26.9458186+02:00",
+  "AssociateFullName": "Santa Ryan",
+  "CreatedBy": "itaque",
+  "UpdatedBy": "voluptatibus",
+  "DeviceIdentifier": "aperiam",
+  "ForeignAppId": 365,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 887
+      "FieldLength": 582
     }
   }
 }

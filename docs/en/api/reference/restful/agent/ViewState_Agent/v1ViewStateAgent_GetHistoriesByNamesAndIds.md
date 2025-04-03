@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/GetHistoriesByNamesAndIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Requests": [
     {
-      "EntityName": "Swift Inc and Sons",
-      "EntityOrParentId": 168,
+      "EntityName": "Wisoky-Lockman",
+      "EntityOrParentId": 836,
       "RequestForNewRecord": true
     },
     {
-      "EntityName": "Swift Inc and Sons",
-      "EntityOrParentId": 168,
+      "EntityName": "Wisoky-Lockman",
+      "EntityOrParentId": 836,
       "RequestForNewRecord": true
     }
   ]
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 310,
-    "Id": 649,
-    "HistoryName": "Parisian Inc and Sons",
-    "HistoryId": 421,
-    "AssociateId": 145,
-    "Name": "Haag-Keeling",
-    "ItemInfo": "explicabo",
+    "Rank": 632,
+    "Id": 345,
+    "HistoryName": "Bergstrom LLC",
+    "HistoryId": 113,
+    "AssociateId": 198,
+    "Name": "Romaguera-Ledner",
+    "ItemInfo": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 828
+        "FieldLength": 269
       }
     }
   }

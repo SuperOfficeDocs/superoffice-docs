@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    316,
-    836
+    793,
+    1001
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 378,
-    "ContactName": "Klocko LLC",
-    "PersonId": 718,
-    "PersonName": "Abbott, Hirthe and Mohr",
-    "AssociateId": 144,
-    "Address": "quo",
-    "EmailId": 453,
+    "ContactId": 54,
+    "ContactName": "Jakubowski-Cartwright",
+    "PersonId": 41,
+    "PersonName": "Buckridge-Kuvalis",
+    "AssociateId": 479,
+    "Address": "sunt",
+    "EmailId": 512,
     "DuplicatePersonIds": [
-      231,
-      704
+      338,
+      759
     ],
-    "Name": "Daniel Inc and Sons",
+    "Name": "Klocko, Kuphal and Kutch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 946
+        "FieldType": "System.Int32",
+        "FieldLength": 568
       }
     }
   }

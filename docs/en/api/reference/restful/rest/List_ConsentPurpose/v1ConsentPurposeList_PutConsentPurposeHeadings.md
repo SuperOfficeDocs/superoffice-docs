@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 385,
-    "Name": "Ledner Group",
-    "Tooltip": "fugit",
-    "Deleted": true,
-    "Rank": 693,
-    "UdListDefinitionId": 309
+    "HeadingId": 757,
+    "Name": "Volkman-Adams",
+    "Tooltip": "id",
+    "Deleted": false,
+    "Rank": 251,
+    "UdListDefinitionId": 312
   },
   {
-    "HeadingId": 385,
-    "Name": "Ledner Group",
-    "Tooltip": "fugit",
-    "Deleted": true,
-    "Rank": 693,
-    "UdListDefinitionId": 309
+    "HeadingId": 757,
+    "Name": "Volkman-Adams",
+    "Tooltip": "id",
+    "Deleted": false,
+    "Rank": 251,
+    "UdListDefinitionId": 312
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 819,
-    "Name": "Ferry LLC",
-    "Tooltip": "nihil",
-    "Deleted": false,
-    "Rank": 201,
-    "UdListDefinitionId": 445,
+    "HeadingId": 295,
+    "Name": "Zboncak-Hermann",
+    "Tooltip": "tempora",
+    "Deleted": true,
+    "Rank": 867,
+    "UdListDefinitionId": 728,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 149
+        "FieldLength": 14
       }
     }
   }

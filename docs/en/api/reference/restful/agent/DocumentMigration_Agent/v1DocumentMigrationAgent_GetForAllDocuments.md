@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 709,
-  "IncludeEmails": true
+  "DocumentPluginId": 720,
+  "IncludeEmails": false
 }
 ```
 
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 519,
-  "NumDocumentsAlreadyMigrated": 385,
+  "NumDocumentsOmitted": 342,
+  "NumDocumentsAlreadyMigrated": 699,
   "Documents": [
     {
-      "DocumentId": 503,
-      "ContactId": 986,
-      "PersonId": 720,
-      "SaleId": 348,
-      "ProjectId": 336,
-      "DocTmplId": 999,
-      "AssociateId": 818,
-      "UserGroupId": 651,
-      "VisibleForId": 651
+      "DocumentId": 111,
+      "ContactId": 336,
+      "PersonId": 534,
+      "SaleId": 788,
+      "ProjectId": 287,
+      "DocTmplId": 474,
+      "AssociateId": 929,
+      "UserGroupId": 789,
+      "VisibleForId": 943
     }
   ],
   "Associates": [
     {
-      "AssociateId": 223,
-      "EmailAddress": "leola.reichert@padberg.us"
+      "AssociateId": 493,
+      "EmailAddress": "major_marvin@heathcotehalvorson.name"
     },
     {
-      "AssociateId": 223,
-      "EmailAddress": "leola.reichert@padberg.us"
+      "AssociateId": 493,
+      "EmailAddress": "major_marvin@heathcotehalvorson.name"
     }
   ]
 }

@@ -114,24 +114,24 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 988,
-  "SourcePersonId": 960,
-  "DestinationContactId": 825,
-  "DestinationPersonId": 565,
-  "RelationId": 613,
-  "Comment": "et",
-  "RelationDefinitionId": 166,
-  "Reversed": 65,
-  "UpdatedDate": "2015-07-10T02:38:26.0266945+02:00",
-  "CreatedDate": "1998-01-07T02:38:26.0266945+01:00",
+  "SourceContactId": 415,
+  "SourcePersonId": 765,
+  "DestinationContactId": 258,
+  "DestinationPersonId": 925,
+  "RelationId": 57,
+  "Comment": "non",
+  "RelationDefinitionId": 983,
+  "Reversed": 464,
+  "UpdatedDate": "2022-12-05T14:28:26.8676969+01:00",
+  "CreatedDate": "2001-06-02T14:28:26.8676969+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Treutel, Hermann and Torp",
-  "SourcePersonName": "Hoppe, Emard and Ledner",
-  "DestinationContactName": "McLaughlin Group",
-  "DestinationPersonName": "Block, Kihn and Schuster",
-  "ActiveText": "facere",
-  "PassiveText": "perspiciatis"
+  "SourceContactName": "Schuppe, Wolff and Powlowski",
+  "SourcePersonName": "McKenzie-Pouros",
+  "DestinationContactName": "Blanda LLC",
+  "DestinationPersonName": "Kirlin LLC",
+  "ActiveText": "nihil",
+  "PassiveText": "libero"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 261,
-  "SourcePersonId": 743,
-  "DestinationContactId": 766,
-  "DestinationPersonId": 88,
-  "RelationId": 446,
-  "Comment": "ipsa",
-  "RelationDefinitionId": 123,
-  "Reversed": 183,
-  "UpdatedDate": "2009-09-11T02:38:26.0266945+02:00",
-  "CreatedDate": "2013-06-07T02:38:26.0266945+02:00",
+  "SourceContactId": 494,
+  "SourcePersonId": 868,
+  "DestinationContactId": 514,
+  "DestinationPersonId": 675,
+  "RelationId": 775,
+  "Comment": "omnis",
+  "RelationDefinitionId": 523,
+  "Reversed": 185,
+  "UpdatedDate": "2000-01-22T14:28:26.8676969+01:00",
+  "CreatedDate": "2017-10-15T14:28:26.8676969+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Donnelly-Hudson",
-  "SourcePersonName": "Hyatt-Leuschke",
-  "DestinationContactName": "Nienow, Gerlach and Kuphal",
-  "DestinationPersonName": "Ebert-Pfeffer",
-  "ActiveText": "quo",
-  "PassiveText": "ipsam",
+  "SourceContactName": "Walker LLC",
+  "SourcePersonName": "Hilpert Group",
+  "DestinationContactName": "Moore-Feest",
+  "DestinationPersonName": "Hammes-Champlin",
+  "ActiveText": "autem",
+  "PassiveText": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 969
+      "FieldLength": 627
     }
   },
   "_Links": {

@@ -73,20 +73,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TopicId": 502,
+    "TopicId": 40,
     "User": null,
-    "CanListen": true,
-    "CanRespond": false,
-    "CanManage": false,
-    "CanNotify": false
+    "CanListen": false,
+    "CanRespond": true,
+    "CanManage": true,
+    "CanNotify": true
   },
   {
-    "TopicId": 502,
+    "TopicId": 40,
     "User": null,
-    "CanListen": true,
-    "CanRespond": false,
-    "CanManage": false,
-    "CanNotify": false
+    "CanListen": false,
+    "CanRespond": true,
+    "CanManage": true,
+    "CanNotify": true
   }
 ]
 ```

@@ -89,23 +89,23 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 896,
-  "Name": "Hirthe-Wiegand",
-  "Tooltip": "et",
-  "TableName": "Hansen-Heidenreich",
-  "Area": "et",
+  "TaskMenuId": 605,
+  "Name": "Runolfsson-Johnson",
+  "Tooltip": "enim",
+  "TableName": "Greenfelder-Parker",
+  "Area": "vitae",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 577,
+  "CrmScriptId": 574,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 723,
+  "Rank": 254,
   "Encoding": "ANSI",
-  "ProgId": "sit",
+  "ProgId": "quam",
   "Deleted": false
 }
 ```
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 775,
-  "Name": "Schulist, Brekke and McLaughlin",
-  "Tooltip": "est",
-  "TableName": "Bailey LLC",
-  "Area": "sed",
+  "TaskMenuId": 514,
+  "Name": "Cummerata Group",
+  "Tooltip": "consectetur",
+  "TableName": "Roob LLC",
+  "Area": "ducimus",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 652,
+  "CrmScriptId": 221,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 225,
+  "Rank": 284,
   "Encoding": "ANSI",
-  "ProgId": "ab",
-  "Deleted": true,
+  "ProgId": "enim",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 15
+      "FieldLength": 393
     }
   }
 }

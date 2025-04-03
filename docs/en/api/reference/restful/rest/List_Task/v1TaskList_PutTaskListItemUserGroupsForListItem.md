@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 733,
-    "Name": "Dibbert Inc and Sons",
-    "ToolTip": "Laudantium nemo delectus.",
+    "Id": 105,
+    "Name": "Kuphal Group",
+    "ToolTip": "Consequatur molestias neque assumenda et.",
     "Deleted": false,
-    "Rank": 909,
-    "Type": "suscipit",
-    "ColorBlock": 107,
-    "IconHint": "veritatis",
+    "Rank": 692,
+    "Type": "minima",
+    "ColorBlock": 418,
+    "IconHint": "dolorem",
     "Selected": true,
-    "LastChanged": "2020-12-19T02:38:27.0423674+01:00",
+    "LastChanged": "2008-09-03T14:28:27.7270373+02:00",
     "ChildItems": [
       {
-        "Id": 389,
-        "Name": "Dicki LLC",
-        "ToolTip": "Aperiam accusantium.",
+        "Id": 855,
+        "Name": "Klein LLC",
+        "ToolTip": "Nulla aut quidem officiis.",
         "Deleted": true,
-        "Rank": 520,
-        "Type": "labore",
-        "ColorBlock": 879,
-        "IconHint": "aliquid",
-        "Selected": false,
-        "LastChanged": "2021-10-25T02:38:27.0423674+02:00",
+        "Rank": 389,
+        "Type": "magni",
+        "ColorBlock": 437,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2004-12-19T14:28:27.7270373+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "officia",
-        "Hidden": true,
-        "FullName": "Prof. Deonte Kris"
+        "ExtraInfo": "enim",
+        "StyleHint": "consequuntur",
+        "Hidden": false,
+        "FullName": "Jarrod Will"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "aut",
+    "ExtraInfo": "iste",
+    "StyleHint": "pariatur",
     "Hidden": true,
-    "FullName": "Tremayne Schoen"
+    "FullName": "Dr. Leatha Armstrong II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 758,
-    "Name": "Crona, Pouros and Parker",
-    "ToolTip": "Occaecati consequuntur aut nisi cum.",
+    "Id": 973,
+    "Name": "Ziemann, Bechtelar and Cormier",
+    "ToolTip": "Ut omnis quasi odio incidunt quia.",
     "Deleted": false,
-    "Rank": 322,
-    "Type": "est",
-    "ColorBlock": 268,
-    "IconHint": "aut",
+    "Rank": 420,
+    "Type": "voluptas",
+    "ColorBlock": 633,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2002-03-01T02:38:27.0423674+01:00",
+    "LastChanged": "2018-09-01T14:28:27.7270373+02:00",
     "ChildItems": [
       {
-        "Id": 915,
-        "Name": "Kshlerin-Gerhold",
-        "ToolTip": "Est dolor.",
+        "Id": 280,
+        "Name": "Walker, Anderson and Simonis",
+        "ToolTip": "Itaque laborum et error autem.",
         "Deleted": false,
-        "Rank": 364,
-        "Type": "unde",
-        "ColorBlock": 7,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2023-05-13T02:38:27.0423674+02:00",
+        "Rank": 948,
+        "Type": "nobis",
+        "ColorBlock": 535,
+        "IconHint": "molestiae",
+        "Selected": false,
+        "LastChanged": "2024-06-28T14:28:27.7270373+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Ericka Doyle",
+        "ExtraInfo": "modi",
+        "StyleHint": "sed",
+        "Hidden": true,
+        "FullName": "Prof. Claudine Dylan Stiedemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 289
+            "FieldLength": 114
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "voluptatem",
-    "Hidden": false,
-    "FullName": "Giovani Fay",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Dr. Cristina Lang I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 423
+        "FieldType": "System.String",
+        "FieldLength": 770
       }
     }
   }

@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 440,
-  "Caption": "est",
-  "Description": "Configurable multi-state paradigm",
-  "SelectionId": 933,
+  "DashboardTileId": 473,
+  "Caption": "sit",
+  "Description": "Persistent logistical info-mediaries",
+  "SelectionId": 826,
   "VisibleFor": [
     {
-      "VisibleId": 924,
+      "VisibleId": 62,
       "Visibility": "All",
-      "DisplayValue": "esse"
+      "DisplayValue": "nisi"
     },
     {
-      "VisibleId": 924,
+      "VisibleId": 62,
       "Visibility": "All",
-      "DisplayValue": "esse"
+      "DisplayValue": "nisi"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 584,
-  "Caption": "amet",
-  "Description": "Decentralized well-modulated productivity",
-  "ChartName": "Paucek, Hudson and Kozey",
-  "ChartId": "sit",
+  "DashboardTileId": 812,
+  "Caption": "impedit",
+  "Description": "Future-proofed radical secured line",
+  "ChartName": "Franecki LLC",
+  "ChartId": "ullam",
   "IsDefault": false,
-  "AssociateId": 605,
-  "GroupId": 115,
-  "SelectionId": 434,
-  "Config": "sequi",
+  "AssociateId": 97,
+  "GroupId": 658,
+  "SelectionId": 3,
+  "Config": "excepturi",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Torp LLC",
-      "Description": "Front-line mission-critical core",
+      "Name": "Nicolas, Cole and Leannon",
+      "Description": "Profound content-based groupware",
       "Type": "Boolean",
-      "ListName": "Aufderhar-Erdman",
+      "ListName": "Bergnaum Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "dolores",
+      "Value": "porro",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 902
+          "FieldType": "System.String",
+          "FieldLength": 564
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 604,
+      "VisibleId": 668,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 922
+          "FieldType": "System.Int32",
+          "FieldLength": 890
         }
       }
     },
     {
-      "VisibleId": 604,
+      "VisibleId": 668,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 922
+          "FieldType": "System.Int32",
+          "FieldLength": 890
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 220
+      "FieldLength": 573
     }
   }
 }

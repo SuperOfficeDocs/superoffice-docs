@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 936
+  "CountryId": 349
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 365,
-  "BlobSize": 480,
-  "Description": "Switchable bifurcated matrix",
-  "ExtraInfo": "repudiandae",
+  "BlobId": 77,
+  "BlobSize": 676,
+  "Description": "Persevering analyzing implementation",
+  "ExtraInfo": "adipisci",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "repudiandae",
-  "OriginalSize": 576,
-  "CreatedDate": "2021-05-14T02:38:20.9014648+02:00",
-  "UpdatedDate": "2009-06-12T02:38:20.9014648+02:00",
+  "MimeType": "voluptas",
+  "OriginalSize": 933,
+  "CreatedDate": "1998-05-03T14:28:21.4929147+02:00",
+  "UpdatedDate": "2010-07-19T14:28:21.4929147+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ad",
+  "ConceptualType": "possimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 413
+      "FieldLength": 495
     }
   }
 }

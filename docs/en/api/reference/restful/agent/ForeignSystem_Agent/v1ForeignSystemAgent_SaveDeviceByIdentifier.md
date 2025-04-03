@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ernser, Swift and Gerlach",
-  "DeviceName": "Ernser Inc and Sons",
-  "DeviceIdentifier": "aperiam",
+  "ApplicationName": "Wintheiser LLC",
+  "DeviceName": "Keeling LLC",
+  "DeviceIdentifier": "vel",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 51,
-  "Name": "Kling-Gleason",
-  "CreatedDate": "2003-04-22T02:38:21.4482803+02:00",
-  "UpdatedDate": "2005-07-29T02:38:21.4482803+02:00",
-  "AssociateFullName": "Ms. Sarai Jewess",
-  "CreatedBy": "quaerat",
-  "UpdatedBy": "modi",
-  "DeviceIdentifier": "officia",
-  "ForeignAppId": 350,
+  "ForeignDeviceId": 635,
+  "Name": "Kilback, Nikolaus and Ullrich",
+  "CreatedDate": "2015-01-26T14:28:22.0085182+01:00",
+  "UpdatedDate": "2016-12-31T14:28:22.0085182+01:00",
+  "AssociateFullName": "Miss Davin Cole PhD",
+  "CreatedBy": "architecto",
+  "UpdatedBy": "accusamus",
+  "DeviceIdentifier": "porro",
+  "ForeignAppId": 792,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldLength": 893
     }
   }
 }

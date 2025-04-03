@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 148,
-  "TopicId": 541,
+  "ChatSessionId": 541,
+  "TopicId": 24,
   "User": null,
   "Person": null,
-  "CustomerAlias": "eum",
-  "CustomerHost": "rem",
-  "CustomerName": "Ward LLC",
-  "CustomerEmail": "prudence@walsh.name",
-  "CustomerPhone": "684.167.1679 x24365",
+  "CustomerAlias": "sequi",
+  "CustomerHost": "beatae",
+  "CustomerName": "Upton Group",
+  "CustomerEmail": "savanah@wilderman.co.uk",
+  "CustomerPhone": "875.695.5146 x1340",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Durgan-Runolfsdottir",
+  "CustomerCompanyName": "Ratke, Keebler and Kreiger",
   "Status": "Closed",
-  "FirstMessage": "eum",
-  "LastMessage": "non",
-  "WhenRequested": "2011-01-07T02:38:25.9173328+01:00",
-  "WhenStarted": "2007-01-26T02:38:25.9173328+01:00",
-  "WhenEnded": "2004-01-24T02:38:25.9173328+01:00",
-  "WhenIdle": "2018-01-27T02:38:25.9173328+01:00",
-  "WhenFetched": "2015-02-15T02:38:25.9173328+01:00",
-  "SessionKey": "optio",
-  "InitialQueuePos": 125,
-  "AlertLevel": 166,
-  "Rank": 400,
+  "FirstMessage": "tempora",
+  "LastMessage": "ea",
+  "WhenRequested": "2020-06-20T14:28:26.7739511+02:00",
+  "WhenStarted": "2017-09-11T14:28:26.7739511+02:00",
+  "WhenEnded": "2018-12-17T14:28:26.7739511+01:00",
+  "WhenIdle": "2008-09-14T14:28:26.7739511+02:00",
+  "WhenFetched": "2002-09-26T14:28:26.7739511+02:00",
+  "SessionKey": "suscipit",
+  "InitialQueuePos": 136,
+  "AlertLevel": 971,
+  "Rank": 30,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -127,13 +127,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 715,
+  "Rating": 620,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 491
+      "FieldLength": 116
     }
   }
 }

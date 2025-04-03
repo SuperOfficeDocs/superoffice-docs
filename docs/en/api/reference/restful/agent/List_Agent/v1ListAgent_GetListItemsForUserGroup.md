@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 246,
-  "GroupId": 722
+  "UdListDefinitionId": 993,
+  "GroupId": 384
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 991,
-    "Name": "Turcotte-O'Conner",
-    "ToolTip": "Qui repellendus consequatur nihil.",
-    "Deleted": true,
-    "Rank": 191,
-    "Type": "optio",
-    "ColorBlock": 720,
-    "IconHint": "enim",
-    "Selected": false,
-    "LastChanged": "2003-07-02T02:38:21.5107392+02:00",
+    "Id": 989,
+    "Name": "Gorczany Inc and Sons",
+    "ToolTip": "Soluta non non sint sed ut sint molestias.",
+    "Deleted": false,
+    "Rank": 138,
+    "Type": "quia",
+    "ColorBlock": 512,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2005-06-05T14:28:22.0553915+02:00",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "Osinski-Veum",
-        "ToolTip": "Qui ut est autem.",
+        "Id": 696,
+        "Name": "Towne, Bogan and Steuber",
+        "ToolTip": "Qui distinctio praesentium.",
         "Deleted": false,
-        "Rank": 509,
-        "Type": "rerum",
-        "ColorBlock": 98,
+        "Rank": 310,
+        "Type": "qui",
+        "ColorBlock": 553,
         "IconHint": "provident",
-        "Selected": true,
-        "LastChanged": "2008-08-09T02:38:21.5107392+02:00",
+        "Selected": false,
+        "LastChanged": "1999-09-06T14:28:22.0553915+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "libero",
-        "Hidden": false,
-        "FullName": "Miss Estella Lemke III",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "dicta",
+        "Hidden": true,
+        "FullName": "Mrs. Serena Leuschke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 944
+            "FieldLength": 674
           }
         }
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "quis",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Jaqueline Hayes",
+    "FullName": "Ernie Collins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 125
+        "FieldLength": 777
       }
     }
   }

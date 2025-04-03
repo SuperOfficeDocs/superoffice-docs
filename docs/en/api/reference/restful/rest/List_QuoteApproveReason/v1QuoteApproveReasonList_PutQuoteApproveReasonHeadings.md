@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 695,
-    "Name": "Kling Group",
-    "Tooltip": "est",
+    "HeadingId": 893,
+    "Name": "Roberts LLC",
+    "Tooltip": "voluptatibus",
     "Deleted": true,
-    "Rank": 336,
-    "UdListDefinitionId": 399
+    "Rank": 44,
+    "UdListDefinitionId": 601
   },
   {
-    "HeadingId": 695,
-    "Name": "Kling Group",
-    "Tooltip": "est",
+    "HeadingId": 893,
+    "Name": "Roberts LLC",
+    "Tooltip": "voluptatibus",
     "Deleted": true,
-    "Rank": 336,
-    "UdListDefinitionId": 399
+    "Rank": 44,
+    "UdListDefinitionId": 601
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 171,
-    "Name": "Heller, Bins and Farrell",
-    "Tooltip": "ipsa",
+    "HeadingId": 475,
+    "Name": "Lueilwitz-Muller",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "Rank": 253,
-    "UdListDefinitionId": 809,
+    "Rank": 263,
+    "UdListDefinitionId": 143,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 464
+        "FieldLength": 970
       }
     }
   }

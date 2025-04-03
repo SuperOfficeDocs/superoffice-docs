@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 870,
-  "Name": "Collier Group",
-  "Tooltip": "pariatur",
-  "Rank": 572,
-  "AmountFrom": 28509.998,
-  "AmountTo": 29553.62,
+  "AmountClassId": 622,
+  "Name": "Bergnaum, Quitzon and Cruickshank",
+  "Tooltip": "quod",
+  "Rank": 230,
+  "AmountFrom": 24865.156,
+  "AmountTo": 16995.682,
   "Deleted": true,
-  "CurrencyId": 91,
+  "CurrencyId": 468,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldLength": 553
     }
   }
 }

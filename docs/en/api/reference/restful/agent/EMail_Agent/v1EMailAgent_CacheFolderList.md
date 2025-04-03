@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mills Group",
-    "Delimiter": "recusandae",
-    "Flags": "eos",
-    "TotalItems": 28,
-    "UnreadItems": 118,
-    "Subscribed": true,
-    "EmailFolderId": 552,
+    "Name": "Kunde, D'Amore and Fadel",
+    "Delimiter": "dolor",
+    "Flags": "optio",
+    "TotalItems": 118,
+    "UnreadItems": 699,
+    "Subscribed": false,
+    "EmailFolderId": 516,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 613
+        "FieldType": "System.String",
+        "FieldLength": 83
       }
     }
   }

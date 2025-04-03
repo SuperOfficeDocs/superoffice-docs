@@ -113,6 +113,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,7 +132,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 111
+  "Count": 787
 }
 ```
 
@@ -143,65 +144,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 733,
-    "StartDate": "2022-08-14T02:38:20.8545926+02:00",
-    "EndDate": "2022-04-22T02:38:20.8545926+02:00",
+    "AppointmentId": 700,
+    "StartDate": "2014-09-06T14:28:21.4616659+02:00",
+    "EndDate": "2005-09-28T14:28:21.4616659+02:00",
     "Type": "BookingForChecklist",
-    "Task": "laboriosam",
-    "AssociateFullName": "Jaunita Paucek",
-    "ContactName": "Kemmer, Brown and Borer",
-    "Description": "Triple-buffered tangible structure",
-    "PersonFullName": "Octavia Anderson",
-    "PersonId": 234,
-    "ContactId": 733,
-    "ProjectId": 696,
-    "ProjectName": "Wisozk Inc and Sons",
+    "Task": "eius",
+    "AssociateFullName": "Mr. Chauncey Okuneva III",
+    "ContactName": "Metz-Ryan",
+    "Description": "Upgradable demand-driven protocol",
+    "PersonFullName": "Nestor Maggio",
+    "PersonId": 389,
+    "ContactId": 800,
+    "ProjectId": 284,
+    "ProjectName": "Sawayn, Olson and Davis",
     "IsPublished": true,
-    "AssociateId": 57,
-    "ColorIndex": 973,
+    "AssociateId": 582,
+    "ColorIndex": 75,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 542,
-    "PriorityName": "Lowe Group",
+    "PriorityId": 313,
+    "PriorityName": "Hyatt, Schaefer and Jacobs",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": true,
-    "ActiveDate": "2008-11-03T02:38:20.8545926+01:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": false,
+    "ActiveDate": "2009-05-23T14:28:21.4616659+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-01-06T02:38:20.8545926+01:00",
-    "RecurringEndDate": "2016-06-17T02:38:20.8545926+02:00",
-    "MotherId": 69,
-    "AssignedBy": 121,
-    "AssignedByFullName": "Bria Gislason DDS",
+    "RecurringStartDate": "2008-05-16T14:28:21.4616659+02:00",
+    "RecurringEndDate": "2023-05-21T14:28:21.4616659+02:00",
+    "MotherId": 264,
+    "AssignedBy": 948,
+    "AssignedByFullName": "Hans Brown Jr.",
     "RejectReason": "",
-    "Location": "nihil",
-    "AlarmLeadTime": "qui",
-    "SaleId": 546,
-    "SaleName": "Haag Inc and Sons",
-    "AssociateName": "Treutel Inc and Sons",
-    "CreatedDate": "2013-01-02T02:38:20.8545926+01:00",
-    "CreatedBy": "voluptas",
-    "CreatedByFullName": "Kyra Schiller",
-    "CreatedByAssociateId": 156,
+    "Location": "est",
+    "AlarmLeadTime": "repellat",
+    "SaleId": 134,
+    "SaleName": "Mertz, Wilkinson and Hegmann",
+    "AssociateName": "Jaskolski, Muller and Mertz",
+    "CreatedDate": "2003-04-14T14:28:21.4616659+02:00",
+    "CreatedBy": "expedita",
+    "CreatedByFullName": "Mrs. Conner Veum DVM",
+    "CreatedByAssociateId": 975,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 115,
-    "Title": "ex",
-    "Agenda": "ipsa",
-    "InternalNotes": "et",
+    "PreferredTZLocation": 622,
+    "Title": "doloremque",
+    "Agenda": "impedit",
+    "InternalNotes": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldLength": 883
       }
     }
   }

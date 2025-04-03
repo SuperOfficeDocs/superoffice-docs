@@ -72,7 +72,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 03 Mar 2014 02:38:26 G3T
+Last-Modified: Wed, 13 Nov 2024 14:28:26 G11T
 
 {
-  "Key": "neque",
-  "Value": "perspiciatis",
-  "RecordId": 954,
-  "CreatedDate": "2014-07-22T02:38:26.1204323+02:00",
-  "UpdatedDate": "2014-03-03T02:38:26.1204323+01:00",
-  "UpdatedBy": "accusamus",
-  "CreatedBy": "enim",
-  "TableName": "Hermiston-Tromp",
+  "Key": "provident",
+  "Value": "provident",
+  "RecordId": 212,
+  "CreatedDate": "2016-06-07T14:28:26.9458186+02:00",
+  "UpdatedDate": "2024-11-13T14:28:26.9458186+01:00",
+  "UpdatedBy": "nihil",
+  "CreatedBy": "distinctio",
+  "TableName": "Streich Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 707
+      "FieldType": "System.String",
+      "FieldLength": 672
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 274,
-    "Name": "Wisozk Group",
-    "Tooltip": "ipsa",
+    "HeadingId": 578,
+    "Name": "Murphy-Hintz",
+    "Tooltip": "voluptatum",
     "Deleted": false,
-    "Rank": 508,
-    "UdListDefinitionId": 255
+    "Rank": 187,
+    "UdListDefinitionId": 710
   },
   {
-    "HeadingId": 274,
-    "Name": "Wisozk Group",
-    "Tooltip": "ipsa",
+    "HeadingId": 578,
+    "Name": "Murphy-Hintz",
+    "Tooltip": "voluptatum",
     "Deleted": false,
-    "Rank": 508,
-    "UdListDefinitionId": 255
+    "Rank": 187,
+    "UdListDefinitionId": 710
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 297,
-    "Name": "Oberbrunner, Grady and Mayer",
-    "Tooltip": "dolorum",
-    "Deleted": false,
-    "Rank": 506,
-    "UdListDefinitionId": 462,
+    "HeadingId": 764,
+    "Name": "Keeling Group",
+    "Tooltip": "autem",
+    "Deleted": true,
+    "Rank": 698,
+    "UdListDefinitionId": 855,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 598
+        "FieldLength": 752
       }
     }
   }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 206,
-    "Name": "Bechtelar-Gorczany",
-    "Tooltip": "praesentium",
-    "Rank": 606,
-    "Key": "ad",
+    "LegalBaseId": 858,
+    "Name": "Yost-Ritchie",
+    "Tooltip": "cumque",
+    "Rank": 992,
+    "Key": "voluptas",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 796
+        "FieldType": "System.String",
+        "FieldLength": 184
       }
     }
   }

@@ -70,11 +70,11 @@ Content-Type: application/json; charset=utf-8
 {
   "FeatureToggles": [
     {
-      "Name": "Schulist, Price and Hilll",
+      "Name": "Kilback-Fay",
       "State": false
     },
     {
-      "Name": "Schulist, Price and Hilll",
+      "Name": "Kilback-Fay",
       "State": false
     }
   ]

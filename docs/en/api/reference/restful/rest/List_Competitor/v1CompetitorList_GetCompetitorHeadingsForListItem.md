@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 576,
-    "Name": "Jenkins, Larkin and Kub",
-    "ToolTip": "In dolore.",
+    "Id": 324,
+    "Name": "Hermann-Lesch",
+    "ToolTip": "Officiis ratione accusamus libero tempore sit ea.",
     "Deleted": false,
-    "Rank": 99,
-    "Type": "magni",
-    "ColorBlock": 259,
-    "IconHint": "harum",
-    "Selected": true,
-    "LastChanged": "2022-03-12T02:38:26.6986493+01:00",
+    "Rank": 709,
+    "Type": "vel",
+    "ColorBlock": 200,
+    "IconHint": "sit",
+    "Selected": false,
+    "LastChanged": "2021-06-28T14:28:27.4926717+02:00",
     "ChildItems": [
       {
-        "Id": 376,
-        "Name": "Pfannerstill, Gerhold and Davis",
-        "ToolTip": "Ullam ut.",
+        "Id": 845,
+        "Name": "Weber, Buckridge and Schmidt",
+        "ToolTip": "Exercitationem voluptates.",
         "Deleted": false,
-        "Rank": 80,
-        "Type": "distinctio",
-        "ColorBlock": 816,
-        "IconHint": "sunt",
+        "Rank": 953,
+        "Type": "cupiditate",
+        "ColorBlock": 311,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2019-12-29T02:38:26.6986493+01:00",
+        "LastChanged": "2017-05-24T14:28:27.4926717+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "explicabo",
-        "Hidden": false,
-        "FullName": "Isabel Hettinger",
+        "ExtraInfo": "est",
+        "StyleHint": "in",
+        "Hidden": true,
+        "FullName": "Prof. Juliana Hilpert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 840
+            "FieldType": "System.Int32",
+            "FieldLength": 858
           }
         }
       }
     ],
-    "ExtraInfo": "fugiat",
-    "StyleHint": "autem",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Rosalind Sanford",
+    "FullName": "Conor Lindgren MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 850
+        "FieldType": "System.String",
+        "FieldLength": 881
       }
     }
   }

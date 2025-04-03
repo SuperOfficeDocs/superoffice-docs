@@ -26,7 +26,7 @@ Gets a DashTheme object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=629
+POST /api/v1/Agents/Dash/GetDashTheme?dashThemeId=121
 POST /api/v1/Agents/Dash/GetDashTheme?$select=name,department,category/id
 ```
 
@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashTheme
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,18 +82,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 918,
-  "Name": "Maggio, Runolfsdottir and Tromp",
-  "Config": "deserunt",
-  "Rank": 818,
-  "Client": "sit",
-  "Style": "laudantium",
+  "DashboardThemeId": 114,
+  "Name": "Fritsch, DuBuque and Steuber",
+  "Config": "ratione",
+  "Rank": 678,
+  "Client": "corporis",
+  "Style": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldLength": 106
     }
   }
 }

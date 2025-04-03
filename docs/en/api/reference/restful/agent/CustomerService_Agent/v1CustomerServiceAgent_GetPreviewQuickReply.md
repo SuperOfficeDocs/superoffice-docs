@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 784
+  "QuickReplyId": 455
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kemmer Group",
-  "UpdatedByFullName": "Ms. Patsy Quigley",
-  "Updated": "2007-02-01T02:38:21.182685+01:00",
-  "HtmlBody": "eum",
+  "Name": "Kuvalis Inc and Sons",
+  "UpdatedByFullName": "Enrique Runte",
+  "Updated": "1998-11-05T14:28:21.6960311+01:00",
+  "HtmlBody": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 138
+      "FieldLength": 307
     }
   }
 }

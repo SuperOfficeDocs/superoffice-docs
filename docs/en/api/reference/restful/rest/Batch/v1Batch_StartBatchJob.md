@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 682,
-  "Name": "Moore, Witting and Kuhn",
-  "AssociateId": 979,
-  "DetailsTable": 867,
-  "DetailsRecord": 943,
+  "Id": 975,
+  "Name": "Smitham-Schaden",
+  "AssociateId": 165,
+  "DetailsTable": 271,
+  "DetailsRecord": 525,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "id",
-    "ParameterObject2": "fuga"
+    "ParameterObject1": "fugit",
+    "ParameterObject2": "deserunt"
   },
-  "LastStarted": "2010-01-15T02:38:26.5266399+01:00",
-  "Created": "2003-12-31T02:38:26.5266399+01:00",
-  "StartCount": 700,
-  "DatabaseSerialNumber": "1583577",
-  "Context": "tempore",
-  "Result": "enim",
+  "LastStarted": "2013-05-25T14:28:27.3520534+02:00",
+  "Created": "2003-12-21T14:28:27.3520534+01:00",
+  "StartCount": 624,
+  "DatabaseSerialNumber": "1080004",
+  "Context": "iste",
+  "Result": "omnis",
   "State": "All",
-  "Description": "Compatible fault-tolerant contingency",
-  "Response": "sit",
-  "Request": "non",
-  "ProgressDescription": "Distributed 6th generation data-warehouse",
-  "ProgressPercent": 41,
-  "FileName": "Dietrich, Smith and Beatty",
+  "Description": "Diverse regional workforce",
+  "Response": "repellendus",
+  "Request": "eum",
+  "ProgressDescription": "Triple-buffered modular task-force",
+  "ProgressPercent": 900,
+  "FileName": "Haley, Lowe and Kessler",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-486
+859
 ```

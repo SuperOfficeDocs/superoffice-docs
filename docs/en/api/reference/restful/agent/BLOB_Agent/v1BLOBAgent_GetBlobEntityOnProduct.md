@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 376
+  "ProductId": 638
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 244,
-  "BlobSize": 615,
-  "Description": "Expanded demand-driven solution",
-  "ExtraInfo": "quo",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "amet",
-  "OriginalSize": 437,
-  "CreatedDate": "2004-02-06T02:38:20.9014648+01:00",
-  "UpdatedDate": "2004-06-29T02:38:20.9014648+02:00",
+  "BlobId": 259,
+  "BlobSize": 499,
+  "Description": "Stand-alone eco-centric infrastructure",
+  "ExtraInfo": "vel",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "et",
+  "OriginalSize": 612,
+  "CreatedDate": "2007-04-19T14:28:21.4929147+02:00",
+  "UpdatedDate": "2003-07-04T14:28:21.4929147+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "qui",
+  "ConceptualType": "placeat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldLength": 435
     }
   }
 }

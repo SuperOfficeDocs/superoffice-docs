@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 291,
-    "Name": "Yost-Langosh",
-    "Tooltip": "et",
+    "HeadingId": 1002,
+    "Name": "Kemmer LLC",
+    "Tooltip": "aspernatur",
     "Deleted": false,
-    "Rank": 124,
-    "UdListDefinitionId": 156
+    "Rank": 567,
+    "UdListDefinitionId": 883
   },
   {
-    "HeadingId": 291,
-    "Name": "Yost-Langosh",
-    "Tooltip": "et",
+    "HeadingId": 1002,
+    "Name": "Kemmer LLC",
+    "Tooltip": "aspernatur",
     "Deleted": false,
-    "Rank": 124,
-    "UdListDefinitionId": 156
+    "Rank": 567,
+    "UdListDefinitionId": 883
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 653,
-    "Name": "Bode, Wolf and Schuppe",
-    "Tooltip": "ab",
+    "HeadingId": 427,
+    "Name": "Christiansen Inc and Sons",
+    "Tooltip": "ut",
     "Deleted": true,
-    "Rank": 251,
-    "UdListDefinitionId": 478,
+    "Rank": 773,
+    "UdListDefinitionId": 983,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 394
+        "FieldLength": 25
       }
     }
   }

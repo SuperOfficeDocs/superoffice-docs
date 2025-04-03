@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 302,
-    "Name": "Brakus-Carter",
-    "ToolTip": "Commodi aut saepe nam rerum.",
-    "Deleted": true,
-    "Rank": 31,
-    "Type": "molestias",
-    "ColorBlock": 46,
-    "IconHint": "quas",
+    "Id": 156,
+    "Name": "Bayer, Gaylord and Hudson",
+    "ToolTip": "Ducimus aperiam tenetur animi corrupti itaque et incidunt.",
+    "Deleted": false,
+    "Rank": 958,
+    "Type": "quos",
+    "ColorBlock": 763,
+    "IconHint": "ad",
     "Selected": false,
-    "LastChanged": "2017-07-17T02:38:26.8705112+02:00",
+    "LastChanged": "2005-10-08T14:28:27.6489147+02:00",
     "ChildItems": [
       {
-        "Id": 332,
-        "Name": "Bailey-Zboncak",
-        "ToolTip": "Molestiae enim.",
+        "Id": 238,
+        "Name": "Schmidt LLC",
+        "ToolTip": "Non non error nihil ea distinctio.",
         "Deleted": false,
-        "Rank": 582,
-        "Type": "eaque",
-        "ColorBlock": 633,
-        "IconHint": "libero",
+        "Rank": 956,
+        "Type": "et",
+        "ColorBlock": 428,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2002-01-22T02:38:26.8705112+01:00",
+        "LastChanged": "2024-05-11T14:28:27.6489147+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "est",
+        "ExtraInfo": "eos",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Kaylee Gerlach",
+        "FullName": "Joanie Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 596
+            "FieldLength": 503
           }
         }
       }
     ],
-    "ExtraInfo": "repudiandae",
-    "StyleHint": "id",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "River Klocko DDS",
+    "FullName": "Dr. Hardy Howell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 409
+        "FieldType": "System.String",
+        "FieldLength": 509
       }
     }
   }

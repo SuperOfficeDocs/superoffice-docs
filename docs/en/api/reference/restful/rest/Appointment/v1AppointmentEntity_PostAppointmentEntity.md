@@ -100,6 +100,7 @@ The AppointmentEntity to be saved.
 | SuggestedAppointmentId | Integer | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | Boolean | Is this appointment a milestone? |
 | CautionWarning | String | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | String | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | String | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | String | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | Object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -172,6 +173,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -192,7 +194,7 @@ OK
 POST /api/v1/Appointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -200,105 +202,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2021-04-22T02:38:25.7767239+02:00",
-  "AppointmentId": 320,
-  "Description": "Multi-lateral dedicated circuit",
-  "Title": "cumque",
-  "Agenda": "quia",
-  "InternalNotes": "excepturi",
-  "StartDate": "2021-12-12T02:38:25.7767239+01:00",
-  "EndDate": "2023-05-19T02:38:25.7767239+02:00",
+  "CreatedDate": "2003-08-01T14:28:26.6489578+02:00",
+  "AppointmentId": 111,
+  "Description": "Inverse dynamic pricing structure",
+  "Title": "temporibus",
+  "Agenda": "itaque",
+  "InternalNotes": "odit",
+  "StartDate": "2016-12-08T14:28:26.6489578+01:00",
+  "EndDate": "2008-09-16T14:28:26.6489578+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 980,
+  "MotherId": 977,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-03-06T02:38:25.7767239+01:00",
+  "UpdatedDate": "2012-05-16T14:28:26.6489578+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 215,
+  "ActiveLinks": 283,
   "Links": [
     {
-      "EntityName": "Ziemann, Gottlieb and Stroman",
-      "Id": 393,
-      "Description": "Extended demand-driven superstructure",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 932
+      "EntityName": "Muller Inc and Sons",
+      "Id": 280,
+      "Description": "Reverse-engineered client-server Graphic Interface",
+      "ExtraInfo": "cumque",
+      "LinkId": 762
     },
     {
-      "EntityName": "Ziemann, Gottlieb and Stroman",
-      "Id": 393,
-      "Description": "Extended demand-driven superstructure",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 932
+      "EntityName": "Muller Inc and Sons",
+      "Id": 280,
+      "Description": "Reverse-engineered client-server Graphic Interface",
+      "ExtraInfo": "cumque",
+      "LinkId": 762
     }
   ],
-  "AlarmLeadTime": "consequatur",
+  "AlarmLeadTime": "quo",
   "HasAlarm": false,
-  "ColorIndex": 581,
-  "IsFree": false,
+  "ColorIndex": 624,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "provident",
-  "LeadTime": "labore",
-  "Location": "corrupti",
-  "RejectCounter": 980,
+  "LagTime": "sed",
+  "LeadTime": "at",
+  "Location": "perferendis",
+  "RejectCounter": 774,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 721,
-      "PersonId": 180,
-      "ContactId": 990,
-      "EmailId": 97,
+      "AssociateId": 280,
+      "PersonId": 656,
+      "ContactId": 338,
+      "EmailId": 821,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "leonor@hirthe.us",
-      "Description": "Ergonomic stable Graphical User Interface"
+      "EmailAddress": "arnulfo.thompson@kunzehilpert.ca",
+      "Description": "Streamlined web-enabled customer loyalty"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-07-17T02:38:25.7767239+02:00",
+  "ActiveDate": "2024-12-24T14:28:26.6489578+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 239,
+  "PreferredTZLocation": 133,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 834,
+  "SuggestedAppointmentId": 650,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "eaque",
+  "CentralserviceVideomeetId": "vel",
   "UserDefinedFields": {
-    "SuperOffice:1": "Katelin Conroy",
-    "SuperOffice:2": "Ephraim Bergnaum"
+    "SuperOffice:1": "386253990",
+    "SuperOffice:2": "Ms. Amos Morissette I"
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "autem",
+    "ExtraFields2": "reprehenderit"
   },
   "CustomFields": {
-    "CustomFields1": "fuga",
-    "CustomFields2": "asperiores"
+    "CustomFields1": "ipsum",
+    "CustomFields2": "dolor"
   },
-  "PublishEventDate": "2022-03-27T02:38:25.7767239+01:00",
-  "PublishTo": "2006-05-11T02:38:25.7767239+02:00",
-  "PublishFrom": "2000-08-04T02:38:25.7767239+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2000-04-29T14:28:26.6489578+02:00",
+  "PublishTo": "2006-08-17T14:28:26.6489578+02:00",
+  "PublishFrom": "2023-02-04T14:28:26.6489578+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 442,
+      "VisibleId": 6,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "omnis"
     },
     {
-      "VisibleId": 442,
+      "VisibleId": 6,
       "Visibility": "All",
-      "DisplayValue": "ut"
+      "DisplayValue": "omnis"
     }
   ]
 }
@@ -315,120 +318,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-03-31T02:38:25.7923444+02:00",
-  "AppointmentId": 627,
-  "Description": "Quality-focused systematic secured line",
-  "Title": "qui",
-  "Agenda": "at",
-  "InternalNotes": "asperiores",
-  "StartDate": "2009-02-07T02:38:25.7923444+01:00",
-  "EndDate": "2016-01-08T02:38:25.7923444+01:00",
+  "CreatedDate": "2005-07-30T14:28:26.6645825+02:00",
+  "AppointmentId": 501,
+  "Description": "Compatible motivating process improvement",
+  "Title": "autem",
+  "Agenda": "assumenda",
+  "InternalNotes": "eos",
+  "StartDate": "2000-05-30T14:28:26.6645825+02:00",
+  "EndDate": "2019-01-27T14:28:26.6645825+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 369,
+  "MotherId": 694,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-06-29T02:38:25.7923444+02:00",
+  "UpdatedDate": "2008-11-05T14:28:26.6645825+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 863,
+  "ActiveLinks": 488,
   "Links": [
     {
-      "EntityName": "Abbott-Lang",
-      "Id": 567,
-      "Description": "Multi-lateral human-resource workforce",
-      "ExtraInfo": "est",
-      "LinkId": 131,
+      "EntityName": "Schuppe, Armstrong and Brown",
+      "Id": 737,
+      "Description": "Operative leading edge emulation",
+      "ExtraInfo": "inventore",
+      "LinkId": 907,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 708
+          "FieldType": "System.String",
+          "FieldLength": 205
         }
       }
     }
   ],
-  "AlarmLeadTime": "quod",
+  "AlarmLeadTime": "voluptatem",
   "HasAlarm": false,
-  "ColorIndex": 376,
+  "ColorIndex": 367,
   "IsFree": false,
   "IsAlldayEvent": true,
-  "LagTime": "eaque",
-  "LeadTime": "mollitia",
-  "Location": "voluptas",
-  "RejectCounter": 520,
+  "LagTime": "laborum",
+  "LeadTime": "maxime",
+  "Location": "nesciunt",
+  "RejectCounter": 760,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 967,
-      "PersonId": 430,
-      "ContactId": 96,
-      "EmailId": 47,
+      "AssociateId": 265,
+      "PersonId": 630,
+      "ContactId": 98,
+      "EmailId": 807,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "greta_considine@goodwinpagac.us",
-      "Description": "Advanced object-oriented project"
+      "EmailAddress": "nico@torp.name",
+      "Description": "Programmable multimedia open system"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2008-06-18T02:38:25.7923444+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2008-01-24T14:28:26.6645825+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 552,
+  "PreferredTZLocation": 56,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 962,
+  "SuggestedAppointmentId": 872,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "culpa",
+  "CentralserviceVideomeetId": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "788673952",
-    "SuperOffice:2": "Lavon Sawayn"
+    "SuperOffice:1": "Katrina Kuvalis Sr.",
+    "SuperOffice:2": "Mr. Estevan Miguel Homenick"
   },
   "ExtraFields": {
-    "ExtraFields1": "quibusdam",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "veniam",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "asperiores"
+    "CustomFields1": "tenetur",
+    "CustomFields2": "at"
   },
-  "PublishEventDate": "2022-04-08T02:38:25.7923444+02:00",
-  "PublishTo": "2021-04-15T02:38:25.7923444+02:00",
-  "PublishFrom": "1999-03-25T02:38:25.7923444+01:00",
+  "PublishEventDate": "2019-02-13T14:28:26.6645825+01:00",
+  "PublishTo": "2003-02-20T14:28:26.6645825+01:00",
+  "PublishFrom": "2019-11-07T14:28:26.6645825+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 993,
+      "VisibleId": 700,
       "Visibility": "All",
-      "DisplayValue": "esse",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldType": "System.String",
+          "FieldLength": 38
         }
       }
     },
     {
-      "VisibleId": 993,
+      "VisibleId": 700,
       "Visibility": "All",
-      "DisplayValue": "esse",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 220
+          "FieldType": "System.String",
+          "FieldLength": 38
         }
       }
     }
@@ -438,7 +442,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 259
     }
   },
   "_Links": {

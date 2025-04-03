@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Document/SaveSuggestedDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 332,
-  "Name": "Herzog Inc and Sons",
-  "Tooltip": "modi",
-  "Rank": 64,
-  "DoctmplId": 292,
-  "Header": "vitae",
-  "OurRef": "quibusdam",
-  "Deleted": true,
+  "SuggestedDocumentId": 451,
+  "Name": "Lang, Funk and Hamill",
+  "Tooltip": "ab",
+  "Rank": 773,
+  "DoctmplId": 340,
+  "Header": "esse",
+  "OurRef": "sunt",
+  "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 747,
-  "Name": "Kemmer-Heaney",
-  "Tooltip": "aut",
-  "Rank": 701,
-  "DoctmplId": 202,
-  "Header": "autem",
-  "OurRef": "ex",
+  "SuggestedDocumentId": 731,
+  "Name": "Jacobi LLC",
+  "Tooltip": "omnis",
+  "Rank": 683,
+  "DoctmplId": 457,
+  "Header": "rerum",
+  "OurRef": "tenetur",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 275
+      "FieldLength": 301
     }
   }
 }

@@ -71,21 +71,21 @@ No Content
 PUT /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "asperiores",
+  "RawValue": "error",
   "Specification": null,
   "DisplayValue": "qui",
-  "DisplayTooltip": "aut",
+  "DisplayTooltip": "pariatur",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 593,
-  "PrefDescId": 111,
-  "TableName": "Orn Inc and Sons",
-  "UserPreferenceId": 844
+  "TargetId": 193,
+  "PrefDescId": 386,
+  "TableName": "Kulas, Schimmel and West",
+  "UserPreferenceId": 591
 }
 ```
 

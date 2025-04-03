@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 455,
-  "MessageId": "saepe",
-  "Subject": "corporis",
+  "ServerId": 857,
+  "MessageId": "culpa",
+  "Subject": "ratione",
   "From": null,
   "To": [
     {
-      "ContactId": 229,
-      "ContactName": "Buckridge, Pagac and Sporer",
-      "PersonId": 796,
-      "PersonName": "Cruickshank, Haley and Mills",
-      "AssociateId": 255,
-      "Address": "tempora",
-      "EmailId": 338,
+      "ContactId": 777,
+      "ContactName": "Bernhard Group",
+      "PersonId": 881,
+      "PersonName": "Wintheiser, Streich and Cummerata",
+      "AssociateId": 829,
+      "Address": "non",
+      "EmailId": 757,
       "DuplicatePersonIds": [
-        170,
-        284
+        854,
+        936
       ],
-      "Name": "Feeney, Powlowski and Hamill",
+      "Name": "Carroll-West",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 187
+          "FieldType": "System.String",
+          "FieldLength": 620
         }
       }
     }
   ],
-  "Sent": "2007-07-14T02:38:21.3701735+02:00",
+  "Sent": "2001-11-06T14:28:21.9303967+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 185,
+  "Size": 896,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 727
+      "FieldLength": 597
     }
   }
 }

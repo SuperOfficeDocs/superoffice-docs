@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 417,
-  "ERPPriceListKey": "ullam",
-  "QuoteConnectionId": 44,
-  "Name": "Sipes LLC",
-  "Description": "Vision-oriented homogeneous contingency",
-  "Currency": "maiores",
-  "CurrencyName": "Hudson Inc and Sons",
-  "ValidFrom": "2023-10-26T02:38:21.7607486+02:00",
-  "ValidTo": "1999-09-23T02:38:21.7607486+02:00",
-  "IsActive": true
+  "PriceListId": 676,
+  "ERPPriceListKey": "aliquam",
+  "QuoteConnectionId": 90,
+  "Name": "Nolan LLC",
+  "Description": "Multi-lateral web-enabled parallelism",
+  "Currency": "distinctio",
+  "CurrencyName": "Greenfelder, Hirthe and Toy",
+  "ValidFrom": "2016-11-03T14:28:22.2897573+01:00",
+  "ValidTo": "2012-09-05T14:28:22.2897573+02:00",
+  "IsActive": false
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 22,
-  "ERPPriceListKey": "rerum",
-  "QuoteConnectionId": 252,
-  "Name": "Mayert-Hand",
-  "Description": "Open-source bottom-line knowledge base",
-  "Currency": "quia",
-  "CurrencyName": "Haley, Runte and Wiegand",
-  "ValidFrom": "2005-07-24T02:38:21.7607486+02:00",
-  "ValidTo": "2014-10-14T02:38:21.7607486+02:00",
-  "IsActive": false,
+  "PriceListId": 718,
+  "ERPPriceListKey": "quo",
+  "QuoteConnectionId": 104,
+  "Name": "Bauch-Kunze",
+  "Description": "Monitored user-facing knowledge base",
+  "Currency": "reiciendis",
+  "CurrencyName": "Ferry, Yundt and Cremin",
+  "ValidFrom": "1997-11-23T14:28:22.2897573+01:00",
+  "ValidTo": "2009-11-06T14:28:22.2897573+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 301
+      "FieldType": "System.Int32",
+      "FieldLength": 191
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 502,
-    "Name": "Bogan LLC",
-    "Tooltip": "cum",
+    "HeadingId": 69,
+    "Name": "Lakin Group",
+    "Tooltip": "et",
     "Deleted": true,
-    "Rank": 369,
-    "UdListDefinitionId": 323,
+    "Rank": 589,
+    "UdListDefinitionId": 584,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 288
+        "FieldType": "System.String",
+        "FieldLength": 514
       }
     }
   }

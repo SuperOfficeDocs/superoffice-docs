@@ -93,10 +93,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 563,
-  "AttachmentId": "hic",
-  "AttachmentType": "sit",
-  "AttachmentFilename": "quos"
+  "MailItemId": 370,
+  "AttachmentId": "quo",
+  "AttachmentType": "sed",
+  "AttachmentFilename": "molestiae"
 }
 ```
 
@@ -107,21 +107,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Face to face analyzing projection",
-  "Filename": "aut",
-  "Size": 276,
-  "Type": "ut",
-  "Encoding": "commodi",
-  "Id": "pariatur",
-  "Disposition": "sequi",
-  "IsSafeFileExtension": false,
+  "Description": "Ameliorated next generation challenge",
+  "Filename": "a",
+  "Size": 70,
+  "Type": "doloremque",
+  "Encoding": "est",
+  "Id": "officia",
+  "Disposition": "facere",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 834
+      "FieldLength": 736
     }
   }
 }

@@ -79,10 +79,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 417,
+  "TicketId": 13,
   "MessageActionType": "Forward",
-  "TicketMessageId": 185,
-  "TicketTypeId": 424
+  "TicketMessageId": 974,
+  "TicketTypeId": 61
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "reiciendis",
+  "Body": "voluptas",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 69,
-      "Name": "Kunde-Lueilwitz",
-      "ContentType": "odit",
-      "AttSize": 616,
+      "AttachmentId": 300,
+      "Name": "Thiel, Vandervort and Berge",
+      "ContentType": "voluptas",
+      "AttSize": 52,
       "InlineImage": false,
-      "ContentId": "ex",
-      "AuthKey": "hic",
-      "IsSafeFileExtension": true,
+      "ContentId": "culpa",
+      "AuthKey": "eveniet",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 46
+          "FieldLength": 695
         }
       }
     }

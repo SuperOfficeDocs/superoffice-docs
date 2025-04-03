@@ -86,16 +86,16 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 919,
-  "PrefDescId": 891,
-  "PrefValue": "odit",
-  "PrefShowValue": "et",
-  "Description": "Virtual assymetric portal",
-  "IsBuiltin": true
+  "PrefDescLineId": 575,
+  "PrefDescId": 141,
+  "PrefValue": "quisquam",
+  "PrefShowValue": "nam",
+  "Description": "Multi-channelled non-volatile array",
+  "IsBuiltin": false
 }
 ```
 
@@ -106,18 +106,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 278,
-  "PrefDescId": 59,
-  "PrefValue": "nihil",
-  "PrefShowValue": "est",
-  "Description": "Digitized stable emulation",
+  "PrefDescLineId": 639,
+  "PrefDescId": 743,
+  "PrefValue": "dolor",
+  "PrefShowValue": "consequatur",
+  "Description": "Fundamental foreground architecture",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 825
+      "FieldType": "System.Int32",
+      "FieldLength": 645
     }
   },
   "_Links": {

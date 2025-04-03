@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Preference/CreateDefaultPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "veniam",
+  "RawValue": "voluptatum",
   "Specification": null,
-  "DisplayValue": "numquam",
-  "DisplayTooltip": "animi",
+  "DisplayValue": "error",
+  "DisplayTooltip": "vero",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 222,
-  "PrefDescId": 453,
-  "TableName": "Corwin, Hills and McLaughlin",
-  "UserPreferenceId": 125,
+  "TargetId": 643,
+  "PrefDescId": 172,
+  "TableName": "Daniel LLC",
+  "UserPreferenceId": 953,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 450
+      "FieldType": "System.Int32",
+      "FieldLength": 671
     }
   }
 }

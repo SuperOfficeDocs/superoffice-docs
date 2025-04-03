@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    652,
-    208
+    832,
+    420
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 540,
-    "Name": "Schaden LLC",
-    "Description": "Virtual regional hub",
+    "ProjectId": 932,
+    "Name": "Altenwerth-Reichel",
+    "Description": "Object-based client-server application",
     "URL": "http://www.example.com/",
-    "Type": "quo",
-    "AssociateId": 569,
-    "AssociateFullName": "Jedediah Mayert",
-    "TypeId": 507,
-    "Updated": "1999-12-19T02:38:21.7451279+01:00",
-    "StatusId": 128,
-    "Status": "illo",
-    "TextId": 225,
-    "PublishTo": "1997-11-23T02:38:21.7451279+01:00",
-    "PublishFrom": "2020-11-11T02:38:21.7451279+01:00",
+    "Type": "tempore",
+    "AssociateId": 392,
+    "AssociateFullName": "Ms. Seth Kris Weber",
+    "TypeId": 188,
+    "Updated": "2004-02-14T14:28:22.2585084+01:00",
+    "StatusId": 831,
+    "Status": "labore",
+    "TextId": 70,
+    "PublishTo": "2021-08-18T14:28:22.2585084+02:00",
+    "PublishFrom": "2025-01-30T14:28:22.2585084+01:00",
     "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1179379",
-    "ActiveErpLinks": 447,
+    "ProjectNumber": "871282",
+    "ActiveErpLinks": 381,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 375
+        "FieldLength": 195
       }
     }
   }

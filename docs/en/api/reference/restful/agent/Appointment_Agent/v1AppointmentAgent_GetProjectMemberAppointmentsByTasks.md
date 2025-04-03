@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -135,13 +136,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 666,
-  "StartTime": "1999-02-27T02:38:20.557605+01:00",
-  "EndTime": "2013-02-19T02:38:20.557605+01:00",
-  "Count": 223,
+  "PersonId": 820,
+  "StartTime": "2007-04-24T14:28:21.1491785+02:00",
+  "EndTime": "2016-06-12T14:28:21.1491785+02:00",
+  "Count": 170,
   "TaskIds": [
-    223,
-    939
+    25,
+    907
   ]
 }
 ```
@@ -154,65 +155,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 8,
-    "StartDate": "2025-03-10T02:38:20.557605+01:00",
-    "EndDate": "2010-04-21T02:38:20.557605+02:00",
+    "AppointmentId": 566,
+    "StartDate": "2000-04-16T14:28:21.1491785+02:00",
+    "EndDate": "2013-09-09T14:28:21.1491785+02:00",
     "Type": "BookingForChecklist",
-    "Task": "beatae",
-    "AssociateFullName": "Robbie Pfannerstill PhD",
-    "ContactName": "Williamson-Farrell",
-    "Description": "Enterprise-wide motivating concept",
-    "PersonFullName": "Irma Nicolas",
-    "PersonId": 339,
-    "ContactId": 880,
-    "ProjectId": 91,
-    "ProjectName": "Nienow Inc and Sons",
-    "IsPublished": false,
-    "AssociateId": 683,
-    "ColorIndex": 524,
+    "Task": "deserunt",
+    "AssociateFullName": "Erna Terry",
+    "ContactName": "Cartwright, Bashirian and Kohler",
+    "Description": "Public-key bi-directional frame",
+    "PersonFullName": "Miss Alexandrea Dina Kuhic",
+    "PersonId": 102,
+    "ContactId": 112,
+    "ProjectId": 615,
+    "ProjectName": "Kuphal LLC",
+    "IsPublished": true,
+    "AssociateId": 190,
+    "ColorIndex": 181,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 252,
-    "PriorityName": "Beatty, Hartmann and Barton",
+    "PriorityId": 98,
+    "PriorityName": "Green Group",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2003-01-23T02:38:20.557605+01:00",
+    "ActiveDate": "2019-03-19T14:28:21.1491785+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-01-23T02:38:20.557605+01:00",
-    "RecurringEndDate": "2013-03-21T02:38:20.557605+01:00",
-    "MotherId": 303,
-    "AssignedBy": 131,
-    "AssignedByFullName": "Corine Skiles",
+    "RecurringStartDate": "2014-07-27T14:28:21.1491785+02:00",
+    "RecurringEndDate": "2017-02-04T14:28:21.1491785+01:00",
+    "MotherId": 387,
+    "AssignedBy": 885,
+    "AssignedByFullName": "Vicky Leora Jacobs I",
     "RejectReason": "",
-    "Location": "facere",
-    "AlarmLeadTime": "magnam",
-    "SaleId": 912,
-    "SaleName": "Frami-Barton",
-    "AssociateName": "Gerlach, Ortiz and Carter",
-    "CreatedDate": "2017-11-01T02:38:20.557605+01:00",
-    "CreatedBy": "facilis",
-    "CreatedByFullName": "Mrs. Lexie Boehm",
-    "CreatedByAssociateId": 596,
+    "Location": "consequatur",
+    "AlarmLeadTime": "tempore",
+    "SaleId": 581,
+    "SaleName": "Wolf, Price and Mueller",
+    "AssociateName": "Lowe-Bednar",
+    "CreatedDate": "2003-06-10T14:28:21.1491785+02:00",
+    "CreatedBy": "doloremque",
+    "CreatedByFullName": "Urban Rau",
+    "CreatedByAssociateId": 818,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 683,
-    "Title": "ea",
-    "Agenda": "nihil",
-    "InternalNotes": "error",
+    "PreferredTZLocation": 259,
+    "Title": "incidunt",
+    "Agenda": "consequatur",
+    "InternalNotes": "impedit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldType": "System.Int32",
+        "FieldLength": 624
       }
     }
   }

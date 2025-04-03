@@ -71,29 +71,29 @@ No Content
 POST /api/v1/Agents/ErpSync/ConnectActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 636,
-  "CrmRecordId": 718,
+  "ErpConnectionId": 732,
+  "CrmRecordId": 622,
   "CrmActorType": "Contact",
-  "ErpKey": "aspernatur",
+  "ErpKey": "ex",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Kuhn Group",
-      "CrmFieldKey": "sit",
-      "Value": "corrupti",
-      "DisplayValue": "dolores",
+      "DisplayName": "Adams, Flatley and Haag",
+      "CrmFieldKey": "nihil",
+      "Value": "atque",
+      "DisplayValue": "ut",
       "SyncToCrm": false,
       "SyncToErp": false
     },
     {
-      "DisplayName": "Kuhn Group",
-      "CrmFieldKey": "sit",
-      "Value": "corrupti",
-      "DisplayValue": "dolores",
+      "DisplayName": "Adams, Flatley and Haag",
+      "CrmFieldKey": "nihil",
+      "Value": "atque",
+      "DisplayValue": "ut",
       "SyncToCrm": false,
       "SyncToErp": false
     }

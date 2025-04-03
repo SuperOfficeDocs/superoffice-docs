@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 902,
-  "Select": "ex"
+  "SelectionId": 615,
+  "Select": "voluptatem"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Schaden-Feeney",
-    "PrimaryKey": 218,
+    "EntityName": "Crona Group",
+    "PrimaryKey": 228,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "libero",
-        "TooltipHint": "inventore",
-        "LinkHint": "consectetur"
+        "DisplayValue": "quis",
+        "TooltipHint": "quia",
+        "LinkHint": "distinctio"
       }
     },
-    "LinkHint": "hic",
-    "StyleHint": "perspiciatis",
+    "LinkHint": "voluptates",
+    "StyleHint": "deleniti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 93
+        "FieldType": "System.Int32",
+        "FieldLength": 684
       }
     }
   }

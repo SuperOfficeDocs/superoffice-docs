@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=quo
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=aspernatur
 ```
 
 
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 09 Feb 2014 02:38:26 G2T
+Last-Modified: Wed, 21 Oct 2009 14:28:26 G10T
 
 {
-  "Key": "cupiditate",
-  "Value": "illo",
-  "RecordId": 771,
-  "CreatedDate": "2023-03-28T02:38:26.1204323+02:00",
-  "UpdatedDate": "2014-02-09T02:38:26.1204323+01:00",
-  "UpdatedBy": "enim",
-  "CreatedBy": "dolorem",
-  "TableName": "Jacobson, Satterfield and Ziemann",
+  "Key": "ut",
+  "Value": "doloribus",
+  "RecordId": 748,
+  "CreatedDate": "2021-06-15T14:28:26.9458186+02:00",
+  "UpdatedDate": "2009-10-21T14:28:26.9458186+02:00",
+  "UpdatedBy": "amet",
+  "CreatedBy": "possimus",
+  "TableName": "Daniel, Stokes and McClure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldType": "System.String",
+      "FieldLength": 792
     }
   }
 }

@@ -369,7 +369,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextContact?$select=updatedBy,contactAssociate/contactFullName,contactAssociate/usergroup
+GET /api/v1/archive/FreetextContact?$select=country,contactSupportPerson/personDeletedDate,contactExtra/x_contact_default_integer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

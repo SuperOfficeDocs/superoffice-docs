@@ -67,34 +67,34 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "sunt",
-  "ProviderName": "Schmidt, Cremin and Hermiston",
-  "StorageKey": "quidem",
+  "StorageType": "quibusdam",
+  "ProviderName": "Larkin-Jenkins",
+  "StorageKey": "odio",
   "Restrictions": [
     {
-      "Name": "Zieme, Volkman and McCullough",
-      "Operator": "deleniti",
+      "Name": "Murray-Fadel",
+      "Operator": "et",
       "Values": [
-        "quia",
-        "optio"
+        "aut",
+        "aut"
       ],
       "DisplayValues": [
-        "sed",
-        "eveniet"
+        "ipsum",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 605,
+      "InterParenthesis": 46,
       "InterOperator": "And",
-      "UniqueHash": 554
+      "UniqueHash": 675
     }
   ]
 }

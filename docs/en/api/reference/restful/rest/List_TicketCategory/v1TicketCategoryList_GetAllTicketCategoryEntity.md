@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 760,
-    "ParentId": 874,
-    "Name": "Block, O'Keefe and Botsford",
-    "Fullname": "enim",
-    "CategoryMaster": 171,
+    "TicketCategoryId": 709,
+    "ParentId": 418,
+    "Name": "Altenwerth-Green",
+    "Fullname": "tempore",
+    "CategoryMaster": 651,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Okuneva-Yost",
+    "ExternalName": "Von-Braun",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 477,
-    "ReplyTemplate": 398,
-    "NotificationEmail": "jermain@collier.com",
+    "AssignmentLag": 325,
+    "ReplyTemplate": 543,
+    "NotificationEmail": "geraldine@adamsjerde.ca",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 213,
+    "EffectiveReplyTemplateId": 539,
     "ExtraFields": {
-      "ExtraFields1": "nostrum",
-      "ExtraFields2": "itaque"
+      "ExtraFields1": "eum",
+      "ExtraFields2": "non"
     },
     "CustomFields": {
-      "CustomFields1": "quis",
-      "CustomFields2": "ut"
+      "CustomFields1": "aut",
+      "CustomFields2": "accusamus"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 657
+        "FieldType": "System.String",
+        "FieldLength": 942
       }
     }
   }

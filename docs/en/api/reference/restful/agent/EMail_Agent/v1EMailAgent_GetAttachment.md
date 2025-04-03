@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 745,
-  "AttachmentId": "minus"
+  "MessageServerId": 583,
+  "AttachmentId": "doloribus"
 }
 ```
 
@@ -102,13 +102,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Implemented executive framework",
-  "Filename": "pariatur",
-  "Size": 715,
-  "Type": "aliquid",
-  "Encoding": "tempora",
-  "Id": "esse",
-  "Disposition": "voluptates",
+  "Description": "Exclusive analyzing intranet",
+  "Filename": "at",
+  "Size": 858,
+  "Type": "commodi",
+  "Encoding": "ab",
+  "Id": "tempora",
+  "Disposition": "accusantium",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 649
+      "FieldLength": 423
     }
   }
 }

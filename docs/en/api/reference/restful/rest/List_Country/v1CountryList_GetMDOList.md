@@ -26,8 +26,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=False
-GET /api/v1/List/Country/MDOItems?query=cum
+GET /api/v1/List/Country/MDOItems?flat=True
+GET /api/v1/List/Country/MDOItems?query=quis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 8,
-    "Name": "Morar-Dicki",
-    "ToolTip": "Et quaerat.",
+    "Id": 875,
+    "Name": "Trantow Group",
+    "ToolTip": "Ratione enim cupiditate.",
     "Deleted": false,
-    "Rank": 957,
-    "Type": "doloribus",
+    "Rank": 236,
+    "Type": "totam",
     "ChildItems": [
       {
-        "Id": 623,
-        "Name": "Koelpin LLC",
-        "ToolTip": "Consequatur accusamus eos officia.",
+        "Id": 124,
+        "Name": "Halvorson, Paucek and Bruen",
+        "ToolTip": "Blanditiis voluptatem quis eos voluptate.",
         "Deleted": false,
-        "Rank": 215,
-        "Type": "occaecati",
+        "Rank": 428,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "tenetur",
-        "ColorBlock": 682,
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "enim",
-        "FullName": "Osborne Wiza",
+        "IconHint": "aut",
+        "ColorBlock": 766,
+        "ExtraInfo": "et",
+        "StyleHint": "aut",
+        "FullName": "Megane Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 982
+            "FieldLength": 759
           }
         }
       }
     ],
-    "IconHint": "aliquid",
-    "ColorBlock": 830,
-    "ExtraInfo": "impedit",
-    "StyleHint": "dolorem",
-    "FullName": "Dr. Wilburn Little",
+    "IconHint": "voluptates",
+    "ColorBlock": 576,
+    "ExtraInfo": "qui",
+    "StyleHint": "qui",
+    "FullName": "Winifred Goyette",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 546
+        "FieldType": "System.Int32",
+        "FieldLength": 357
       }
     }
   }

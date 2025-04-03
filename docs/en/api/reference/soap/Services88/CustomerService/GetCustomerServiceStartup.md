@@ -65,6 +65,29 @@ Application tokens must be specified if calling an Online installation. Applicat
     <CustomerService:TimezoneEnabled xsi:type="xsd:boolean">false</CustomerService:TimezoneEnabled>
     <CustomerService:TZOffset xsi:type="xsd:int">0</CustomerService:TZOffset>
     <CustomerService:RecaptchaSiteKey xsi:type="xsd:string"></CustomerService:RecaptchaSiteKey>
+    <CustomerService:SelectedPreferences xsi:type="CustomerService:ArrayOfPreference">
+     <CustomerService:Preference xsi:type="CustomerService:Preference">
+      <CustomerService:Level xsi:type="CustomerService:PreferenceLevel">Undefined</CustomerService:Level>
+      <CustomerService:RawValue xsi:type="xsd:string"></CustomerService:RawValue>
+      <CustomerService:Specification xsi:type="CustomerService:PreferenceSpec">
+       <CustomerService:Section xsi:type="xsd:string"></CustomerService:Section>
+       <CustomerService:Key xsi:type="xsd:string"></CustomerService:Key>
+      </CustomerService:Specification>
+      <CustomerService:DisplayValue xsi:type="xsd:string"></CustomerService:DisplayValue>
+      <CustomerService:DisplayTooltip xsi:type="xsd:string"></CustomerService:DisplayTooltip>
+      <CustomerService:DisplayType xsi:type="CustomerService:PrefDescValueType">Unknown</CustomerService:DisplayType>
+      <CustomerService:TabOrder xsi:type="CustomerService:TabOrder">
+       <CustomerService:TabOrderId xsi:type="xsd:int">0</CustomerService:TabOrderId>
+       <CustomerService:TabName xsi:type="xsd:string"></CustomerService:TabName>
+       <CustomerService:Order xsi:type="xsd:string"></CustomerService:Order>
+       <CustomerService:AssociateId xsi:type="xsd:int">0</CustomerService:AssociateId>
+      </CustomerService:TabOrder>
+      <CustomerService:TargetId xsi:type="xsd:int">0</CustomerService:TargetId>
+      <CustomerService:PrefDescId xsi:type="xsd:int">0</CustomerService:PrefDescId>
+      <CustomerService:TableName xsi:type="xsd:string"></CustomerService:TableName>
+      <CustomerService:UserPreferenceId xsi:type="xsd:int">0</CustomerService:UserPreferenceId>
+     </CustomerService:Preference>
+    </CustomerService:SelectedPreferences>
    </CustomerService:Response>
   </CustomerService:GetCustomerServiceStartupResponse>
  </SOAP-ENV:Body>

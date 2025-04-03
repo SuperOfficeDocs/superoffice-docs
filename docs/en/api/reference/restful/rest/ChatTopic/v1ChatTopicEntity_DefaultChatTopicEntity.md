@@ -87,7 +87,7 @@ OK
 GET /api/v1/ChatTopic/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 259,
-  "Name": "Zulauf, Tremblay and Bailey",
-  "Description": "Customizable zero defect capability",
-  "WelcomeMessage": "delectus",
+  "ChatTopicId": 880,
+  "Name": "Hagenes, Dibbert and Bednar",
+  "Description": "Seamless impactful hardware",
+  "WelcomeMessage": "qui",
   "Language": null,
-  "LastAccept": "2004-10-09T02:38:25.9329544+02:00",
-  "SecondsPrAccept": 684,
-  "AlertRecipient": "et",
+  "LastAccept": "2014-07-30T14:28:26.7739511+02:00",
+  "SecondsPrAccept": 470,
+  "AlertRecipient": "debitis",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "debitis",
+  "CollectConsent": false,
+  "BadgeHeader": "qui",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "itaque",
-  "WarnNewChatMinutes": 937,
-  "WarnManagerNewChatMinutes": 711,
+  "CustomQueueText": "sed",
+  "WarnNewChatMinutes": 758,
+  "WarnManagerNewChatMinutes": 688,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 666,
-  "WarnManagerChatMessageMinutes": 754,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 386,
+  "WarnManagerChatMessageMinutes": 990,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 42,
-  "OfflineFormQueueLength": 883,
-  "WidgetEnableRating": true,
-  "WidgetRatingText": "quas",
+  "OfflineFormTimeLimit": 726,
+  "OfflineFormQueueLength": 688,
+  "WidgetEnableRating": false,
+  "WidgetRatingText": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldLength": 925
     }
   }
 }

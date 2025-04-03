@@ -101,9 +101,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 343,
-  "QuoteAlternativeId": 477,
-  "QuoteAlternativeName": "Schiller-Rohan"
+  "QuoteVersionId": 844,
+  "QuoteAlternativeId": 842,
+  "QuoteAlternativeName": "Abbott, Yundt and Jones"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 732,
-  "ERPQuoteAlternativeKey": "enim",
-  "QuoteVersionId": 829,
-  "Name": "Wilderman-Hane",
-  "Description": "Versatile high-level synergy",
+  "QuoteAlternativeId": 487,
+  "ERPQuoteAlternativeKey": "esse",
+  "QuoteVersionId": 521,
+  "Name": "Mertz-Stanton",
+  "Description": "Robust context-sensitive utilisation",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 21188.974,
-  "ERPDiscountAmount": 6860.326,
-  "DiscountPercent": 18600.29,
-  "DiscountAmount": 23965.698,
+  "ERPDiscountPercent": 24257.16,
+  "ERPDiscountAmount": 2450.788,
+  "DiscountPercent": 29820.01,
+  "DiscountAmount": 19556.16,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "consectetur",
-  "VAT": 12075.302,
-  "EarningPercent": 24658.311999999998,
-  "EarningAmount": 23724.38,
-  "SubTotal": 30553.365999999998,
-  "TotalPrice": 27757.838,
-  "ExtraField1": "nihil",
-  "ExtraField2": "et",
-  "ExtraField3": "porro",
-  "ExtraField4": "voluptate",
-  "ExtraField5": "quia",
+  "VATInfo": "est",
+  "VAT": 17898.273999999998,
+  "EarningPercent": 13720.652,
+  "EarningAmount": 27491.448,
+  "SubTotal": 20455.618,
+  "TotalPrice": 30804.086,
+  "ExtraField1": "veritatis",
+  "ExtraField2": "maiores",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "qui",
+  "ExtraField5": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldType": "System.String",
+      "FieldLength": 271
     }
   }
 }

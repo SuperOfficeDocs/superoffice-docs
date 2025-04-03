@@ -107,36 +107,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 477,
-  "FormKey": "omnis",
-  "Name": "Turcotte Group",
-  "Description": "Optional homogeneous paradigm",
-  "Config": "adipisci",
-  "FolderId": 721,
-  "ScriptId": 932,
-  "ResponseShipmentId": 281,
+  "FormId": 444,
+  "FormKey": "quis",
+  "Name": "Jacobs Group",
+  "Description": "Cloned encompassing moderator",
+  "Config": "est",
+  "FolderId": 979,
+  "ScriptId": 422,
+  "ResponseShipmentId": 155,
   "Active": true,
-  "Expires": "2010-12-30T02:38:21.5576497+01:00",
-  "MaxSubmits": 490,
+  "Expires": "2020-09-30T14:28:22.1022648+02:00",
+  "MaxSubmits": 484,
   "Type": "Normal",
-  "Recipe": "necessitatibus",
-  "GroupId": 764,
+  "Recipe": "aut",
+  "GroupId": 214,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2000-04-08T02:38:21.5576497+02:00",
-  "RegisteredAssociateId": 462,
-  "Updated": "2009-01-21T02:38:21.5576497+01:00",
-  "UpdatedAssociateId": 796,
-  "UpdatedCount": 34,
+  "Registered": "2000-12-24T14:28:22.1022648+01:00",
+  "RegisteredAssociateId": 630,
+  "Updated": "2011-08-29T14:28:22.1022648+02:00",
+  "UpdatedAssociateId": 108,
+  "UpdatedCount": 314,
   "EmailFlows": [
-    853,
-    838
+    102,
+    480
   ],
-  "FolderName": "Howell, Skiles and Lynch"
+  "FolderName": "Keeling-Glover"
 }
 ```
 
@@ -147,38 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 763,
-  "FormKey": "esse",
-  "Name": "Ullrich-Gusikowski",
-  "Description": "Streamlined asynchronous hub",
-  "Config": "perspiciatis",
-  "FolderId": 988,
-  "ScriptId": 679,
-  "ResponseShipmentId": 69,
-  "Active": true,
-  "Expires": "2017-10-28T02:38:21.5576497+02:00",
-  "MaxSubmits": 665,
+  "FormId": 76,
+  "FormKey": "quo",
+  "Name": "Pagac, Mills and Rice",
+  "Description": "Multi-tiered reciprocal workforce",
+  "Config": "tempore",
+  "FolderId": 421,
+  "ScriptId": 578,
+  "ResponseShipmentId": 657,
+  "Active": false,
+  "Expires": "2009-09-16T14:28:22.1022648+02:00",
+  "MaxSubmits": 901,
   "Type": "Normal",
-  "Recipe": "molestiae",
-  "GroupId": 916,
+  "Recipe": "qui",
+  "GroupId": 909,
   "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2010-04-27T02:38:21.5576497+02:00",
-  "RegisteredAssociateId": 807,
-  "Updated": "2017-12-22T02:38:21.5576497+01:00",
-  "UpdatedAssociateId": 417,
-  "UpdatedCount": 757,
+  "Registered": "2012-03-30T14:28:22.1022648+02:00",
+  "RegisteredAssociateId": 821,
+  "Updated": "2017-01-19T14:28:22.1022648+01:00",
+  "UpdatedAssociateId": 152,
+  "UpdatedCount": 938,
   "EmailFlows": [
-    101,
-    944
+    168,
+    417
   ],
-  "FolderName": "Hills Inc and Sons",
+  "FolderName": "Mayert-Swaniawski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldLength": 299
     }
   }
 }

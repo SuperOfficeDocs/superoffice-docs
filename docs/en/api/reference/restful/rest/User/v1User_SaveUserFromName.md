@@ -117,18 +117,18 @@ OK
 PUT /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 837,
-  "Name": "Corwin, Hagenes and Mills",
-  "Rank": 477,
-  "Tooltip": "impedit",
+  "AssociateId": 838,
+  "Name": "Pouros-Cassin",
+  "Rank": 893,
+  "Tooltip": "commodi",
   "LicenseOwners": [
     {
-      "Name": "Wuckert Inc and Sons",
-      "Description": "Decentralized bifurcated Graphic Interface",
+      "Name": "Casper-Vandervort",
+      "Description": "Cross-platform didactic superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Wuckert Inc and Sons",
-      "Description": "Decentralized bifurcated Graphic Interface",
+      "Name": "Casper-Vandervort",
+      "Description": "Cross-platform didactic superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -155,87 +155,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quidem",
-      "Tooltip": "veritatis",
-      "Id": 939,
-      "Rank": 30,
-      "Deleted": true
+      "Value": "quia",
+      "Tooltip": "voluptatibus",
+      "Id": 15,
+      "Rank": 86,
+      "Deleted": false
     },
     {
-      "Value": "quidem",
-      "Tooltip": "veritatis",
-      "Id": 939,
-      "Rank": 30,
-      "Deleted": true
+      "Value": "quia",
+      "Tooltip": "voluptatibus",
+      "Id": 15,
+      "Rank": 86,
+      "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2011-03-06T02:38:26.6203828+01:00",
-  "Lastlogout": "2014-11-06T02:38:26.6203828+01:00",
-  "EjUserId": 452,
-  "RequestSignature": "laudantium",
+  "Lastlogin": "2019-04-27T14:28:27.4301751+02:00",
+  "Lastlogout": "2024-06-18T14:28:27.4301751+02:00",
+  "EjUserId": 612,
+  "RequestSignature": "officia",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "magni",
-      "DisplayValue": "dolores"
+      "Value": "tempora",
+      "DisplayValue": "explicabo"
     },
     {
       "Type": null,
-      "Value": "magni",
-      "DisplayValue": "dolores"
+      "Value": "tempora",
+      "DisplayValue": "explicabo"
     }
   ],
-  "UserName": "Boyer, Labadie and Bogisich",
+  "UserName": "Waters, Gleichner and Lockman",
   "TicketCategories": [
     {
-      "Id": 883,
-      "Name": "Weissnat LLC",
-      "ToolTip": "Rem voluptas sed.",
+      "Id": 570,
+      "Name": "Murphy-Mohr",
+      "ToolTip": "Dolorem et nihil nemo porro nobis aliquam.",
       "Deleted": true,
-      "Rank": 35,
-      "Type": "dolore",
+      "Rank": 904,
+      "Type": "nemo",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "commodi",
-      "ColorBlock": 188,
-      "ExtraInfo": "ut",
-      "StyleHint": "doloribus",
-      "FullName": "Pasquale Koelpin"
+      "IconHint": "velit",
+      "ColorBlock": 802,
+      "ExtraInfo": "cumque",
+      "StyleHint": "quisquam",
+      "FullName": "Jeanie Kovacek"
     }
   ],
-  "NickName": "Rodriguez Group",
-  "WaitingForApproval": true,
+  "NickName": "Ullrich Group",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "consectetur"
+    "ExtraFields1": "non",
+    "ExtraFields2": "repellat"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "aut"
+    "CustomFields1": "in",
+    "CustomFields2": "et"
   },
   "PostSaveCommands": [
     {
-      "Name": "Padberg-Ankunding",
-      "DisplayName": "Gusikowski LLC",
-      "Description": "Multi-layered 5th generation challenge",
-      "ToolTip": "Voluptatibus enim.",
+      "Name": "Bergnaum Inc and Sons",
+      "DisplayName": "Mann Inc and Sons",
+      "Description": "Intuitive logistical architecture",
+      "ToolTip": "Nostrum et aut est explicabo necessitatibus nemo.",
       "Actions": "Implicit",
-      "ActionData": "esse"
+      "ActionData": "nostrum"
     },
     {
-      "Name": "Padberg-Ankunding",
-      "DisplayName": "Gusikowski LLC",
-      "Description": "Multi-layered 5th generation challenge",
-      "ToolTip": "Voluptatibus enim.",
+      "Name": "Bergnaum Inc and Sons",
+      "DisplayName": "Mann Inc and Sons",
+      "Description": "Intuitive logistical architecture",
+      "ToolTip": "Nostrum et aut est explicabo necessitatibus nemo.",
       "Actions": "Implicit",
-      "ActionData": "esse"
+      "ActionData": "nostrum"
     }
   ]
 }
@@ -248,14 +248,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 134,
-  "Name": "Hyatt, Collier and Kunze",
-  "Rank": 45,
-  "Tooltip": "culpa",
+  "AssociateId": 369,
+  "Name": "Bradtke-Bailey",
+  "Rank": 240,
+  "Tooltip": "fugit",
   "LicenseOwners": [
     {
-      "Name": "Kuhn-Buckridge",
-      "Description": "Multi-channelled contextually-based core",
+      "Name": "Mills-Beahan",
+      "Description": "User-centric non-volatile throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -269,13 +269,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldLength": 75
         }
       }
     },
     {
-      "Name": "Kuhn-Buckridge",
-      "Description": "Multi-channelled contextually-based core",
+      "Name": "Mills-Beahan",
+      "Description": "User-centric non-volatile throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -289,7 +289,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldLength": 75
         }
       }
     }
@@ -298,110 +298,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "consequatur",
-      "Tooltip": "dolores",
-      "Id": 198,
-      "Rank": 728,
-      "Deleted": true,
+      "Value": "praesentium",
+      "Tooltip": "inventore",
+      "Id": 559,
+      "Rank": 436,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 336
+          "FieldLength": 359
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2020-08-21T02:38:26.6203828+02:00",
-  "Lastlogout": "2003-06-05T02:38:26.6203828+02:00",
-  "EjUserId": 612,
-  "RequestSignature": "praesentium",
+  "Lastlogin": "2015-05-13T14:28:27.4301751+02:00",
+  "Lastlogout": "2025-03-24T14:28:27.4301751+01:00",
+  "EjUserId": 86,
+  "RequestSignature": "aliquid",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
-  "IsOnTravel": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quo",
-      "DisplayValue": "officiis",
+      "Value": "voluptatibus",
+      "DisplayValue": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 374
+          "FieldType": "System.String",
+          "FieldLength": 521
         }
       }
     },
     {
       "Type": null,
-      "Value": "quo",
-      "DisplayValue": "officiis",
+      "Value": "voluptatibus",
+      "DisplayValue": "vel",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 521
+        }
+      }
+    }
+  ],
+  "UserName": "Bins-Kilback",
+  "TicketCategories": [
+    {
+      "Id": 324,
+      "Name": "Kreiger, Price and Cremin",
+      "ToolTip": "Quod neque.",
+      "Deleted": true,
+      "Rank": 309,
+      "Type": "ipsa",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "dolor",
+      "ColorBlock": 939,
+      "ExtraInfo": "maiores",
+      "StyleHint": "eos",
+      "FullName": "Kelsie Sporer",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 300
+        }
+      }
+    }
+  ],
+  "NickName": "Ondricka-Kassulke",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "ea",
+    "ExtraFields2": "doloremque"
+  },
+  "CustomFields": {
+    "CustomFields1": "doloribus",
+    "CustomFields2": "voluptas"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Torphy-Labadie",
+      "DisplayName": "Reilly-Moen",
+      "Description": "Compatible contextually-based policy",
+      "ToolTip": "Libero fuga temporibus.",
+      "Actions": "Implicit",
+      "ActionData": "sequi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 374
-        }
-      }
-    }
-  ],
-  "UserName": "Gottlieb Group",
-  "TicketCategories": [
-    {
-      "Id": 445,
-      "Name": "Connelly, Schroeder and Skiles",
-      "ToolTip": "Culpa tenetur reiciendis voluptates nihil hic molestiae.",
-      "Deleted": true,
-      "Rank": 191,
-      "Type": "adipisci",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "illum",
-      "ColorBlock": 328,
-      "ExtraInfo": "recusandae",
-      "StyleHint": "nostrum",
-      "FullName": "Sydnie Lakin PhD",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 269
-        }
-      }
-    }
-  ],
-  "NickName": "Ernser-Walker",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "architecto"
-  },
-  "CustomFields": {
-    "CustomFields1": "aliquam",
-    "CustomFields2": "nihil"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Glover Group",
-      "DisplayName": "Frami, Hayes and Lehner",
-      "Description": "Polarised clear-thinking matrix",
-      "ToolTip": "Sunt minima eligendi.",
-      "Actions": "Implicit",
-      "ActionData": "sed",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 242
+          "FieldLength": 746
         }
       }
     }
@@ -411,7 +411,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 157
+      "FieldLength": 628
     }
   }
 }

@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 435,
-    "Name": "Reichel-Hickle",
-    "ToolTip": "In iste animi facilis.",
-    "Deleted": false,
-    "Rank": 974,
-    "Type": "magni",
-    "ColorBlock": 537,
-    "IconHint": "voluptates",
-    "Selected": false,
-    "LastChanged": "2025-03-17T02:38:26.7455241+01:00",
+    "Id": 571,
+    "Name": "Stark-Brown",
+    "ToolTip": "Accusantium voluptas et aut excepturi.",
+    "Deleted": true,
+    "Rank": 713,
+    "Type": "alias",
+    "ColorBlock": 808,
+    "IconHint": "tempora",
+    "Selected": true,
+    "LastChanged": "2003-08-23T14:28:27.5395453+02:00",
     "ChildItems": [
       {
-        "Id": 295,
-        "Name": "Ortiz Inc and Sons",
-        "ToolTip": "Repellat quia nulla.",
-        "Deleted": true,
-        "Rank": 783,
-        "Type": "autem",
-        "ColorBlock": 220,
-        "IconHint": "sed",
+        "Id": 5,
+        "Name": "Gutmann-Corwin",
+        "ToolTip": "Quaerat alias veritatis non aperiam.",
+        "Deleted": false,
+        "Rank": 152,
+        "Type": "deleniti",
+        "ColorBlock": 982,
+        "IconHint": "delectus",
         "Selected": true,
-        "LastChanged": "2021-10-12T02:38:26.7455241+02:00",
+        "LastChanged": "2013-11-12T14:28:27.5395453+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "labore",
-        "StyleHint": "soluta",
-        "Hidden": true,
-        "FullName": "Catherine Ullrich",
+        "ExtraInfo": "delectus",
+        "StyleHint": "facilis",
+        "Hidden": false,
+        "FullName": "Mr. Alan Roy West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 139
+            "FieldLength": 946
           }
         }
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "incidunt",
-    "Hidden": false,
-    "FullName": "Clifford Hudson",
+    "ExtraInfo": "vel",
+    "StyleHint": "accusamus",
+    "Hidden": true,
+    "FullName": "Willow Ratke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldType": "System.String",
+        "FieldLength": 163
       }
     }
   }

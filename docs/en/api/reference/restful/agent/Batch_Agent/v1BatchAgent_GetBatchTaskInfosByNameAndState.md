@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kihn-Kemmer",
+  "Name": "Zboncak LLC",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 616,
-    "Name": "Balistreri LLC",
-    "AssociateId": 122,
-    "DetailsTable": 258,
-    "DetailsRecord": 592,
+    "Id": 151,
+    "Name": "Brakus Group",
+    "AssociateId": 375,
+    "DetailsTable": 741,
+    "DetailsRecord": 967,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "aut",
-      "ParameterObject2": "ad"
+      "ParameterObject1": "atque",
+      "ParameterObject2": "ducimus"
     },
-    "LastStarted": "2013-08-28T02:38:20.885843+02:00",
-    "Created": "2006-01-24T02:38:20.885843+01:00",
-    "StartCount": 753,
-    "DatabaseSerialNumber": "1136332",
-    "Context": "itaque",
-    "Result": "possimus",
+    "LastStarted": "2022-12-03T14:28:21.4929147+01:00",
+    "Created": "2007-06-21T14:28:21.4929147+02:00",
+    "StartCount": 321,
+    "DatabaseSerialNumber": "793876",
+    "Context": "tempore",
+    "Result": "molestiae",
     "State": "All",
-    "Description": "Automated heuristic moratorium",
-    "Response": "quam",
-    "Request": "et",
-    "ProgressDescription": "Organized solution-oriented time-frame",
-    "ProgressPercent": 303,
-    "FileName": "Boehm LLC",
+    "Description": "Realigned grid-enabled implementation",
+    "Response": "quidem",
+    "Request": "non",
+    "ProgressDescription": "Digitized exuding product",
+    "ProgressPercent": 409,
+    "FileName": "Hessel Inc and Sons",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 33
+        "FieldType": "System.Int32",
+        "FieldLength": 201
       }
     }
   }

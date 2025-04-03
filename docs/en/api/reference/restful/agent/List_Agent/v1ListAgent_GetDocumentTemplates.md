@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/List/GetDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,23 +86,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 578,
-    "Name": "Wintheiser LLC",
-    "Tooltip": "velit",
-    "SaveInDb": 548,
-    "Filename": "suscipit",
-    "DefaultOref": "eum",
+    "DocumentTemplateId": 995,
+    "Name": "Morissette Inc and Sons",
+    "Tooltip": "aut",
+    "SaveInDb": 820,
+    "Filename": "molestias",
+    "DefaultOref": "consequatur",
     "RecordType": "Appointment",
-    "Deleted": 535,
+    "Deleted": 542,
     "Direction": "Incoming",
-    "AutoeventId": 158,
+    "AutoeventId": 982,
     "QuoteDocType": "ConfirmationLines",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 591
+        "FieldLength": 674
       }
     }
   }

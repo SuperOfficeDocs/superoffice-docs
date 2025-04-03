@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 434,
-  "Name": "Jerde Inc and Sons",
-  "Tooltip": "ex",
-  "Deleted": true,
-  "UdListDefinitionId": 458,
-  "Rank": 400
+  "Id": 132,
+  "Name": "Kihn-Towne",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "UdListDefinitionId": 155,
+  "Rank": 391
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 193,
-  "Name": "Will-Torp",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "UdListDefinitionId": 715,
-  "Rank": 880,
+  "Id": 324,
+  "Name": "Dibbert-Lind",
+  "Tooltip": "eveniet",
+  "Deleted": true,
+  "UdListDefinitionId": 350,
+  "Rank": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldType": "System.String",
+      "FieldLength": 137
     }
   }
 }

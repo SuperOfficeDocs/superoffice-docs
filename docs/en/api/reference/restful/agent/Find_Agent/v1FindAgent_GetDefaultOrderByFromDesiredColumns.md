@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Kohler, King and Cruickshank",
+  "ProviderName": "Leuschke Inc and Sons",
   "DesiredColumns": [
-    "ea",
-    "eum"
+    "et",
+    "consequatur"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bosco-Krajcik",
+    "Name": "Medhurst-Bechtelar",
     "Direction": "ASC"
   },
   {
-    "Name": "Bosco-Krajcik",
+    "Name": "Medhurst-Bechtelar",
     "Direction": "ASC"
   }
 ]

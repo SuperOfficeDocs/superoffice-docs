@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 577,
-  "AttachmentId": "numquam"
+  "DocId": 911,
+  "AttachmentId": "minima"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated non-volatile approach",
-  "Filename": "dignissimos",
-  "Size": 298,
-  "Type": "est",
-  "Encoding": "ipsa",
-  "Id": "illo",
-  "Disposition": "libero",
-  "IsSafeFileExtension": false,
+  "Description": "Cross-platform clear-thinking structure",
+  "Filename": "totam",
+  "Size": 508,
+  "Type": "quod",
+  "Encoding": "nulla",
+  "Id": "eos",
+  "Disposition": "veniam",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 12
+      "FieldLength": 142
     }
   }
 }

@@ -143,60 +143,60 @@ OK
 POST /api/v1/Agents/Selection/SaveSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized responsive task-force",
-  "Postit": "beatae",
+  "Description": "Front-line multi-state initiative",
+  "Postit": "molestias",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 949,
-  "IncludePerson": 228,
+  "GroupIdx": 891,
+  "IncludePerson": 335,
   "MemberCount": 99.99,
-  "Name": "Brown Group",
-  "PostitTextId": 361,
-  "CreatedDate": "2016-11-30T02:38:21.8701125+01:00",
-  "SelectionId": 834,
-  "SoundEx": "error",
-  "Source": 289,
-  "TextId": 278,
-  "UpdatedDate": "2000-07-29T02:38:21.8701125+02:00",
-  "UpdatedCount": 5,
-  "Visibility": 769,
+  "Name": "Weber, Gulgowski and Sanford",
+  "PostitTextId": 5,
+  "CreatedDate": "1997-12-16T14:28:22.3835038+01:00",
+  "SelectionId": 705,
+  "SoundEx": "iusto",
+  "Source": 711,
+  "TextId": 222,
+  "UpdatedDate": "2003-12-27T14:28:22.3835038+01:00",
+  "UpdatedCount": 138,
+  "Visibility": 332,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 604,
-  "TargetTableName": "Ferry-Roob",
-  "Completed": false,
-  "LeftSelectionId": 523,
-  "RightSelectionId": 625,
+  "TargetTableNumber": 487,
+  "TargetTableName": "Pouros-Deckow",
+  "Completed": true,
+  "LeftSelectionId": 44,
+  "RightSelectionId": 899,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kulas, Wisozk and Rau",
-  "ShadowProviderName": "Lehner-Walker",
-  "ChartKey": "inventore",
-  "LastLoaded": "2019-06-05T02:38:21.8701125+02:00",
-  "LastLoadedBy": 91,
+  "MainProviderName": "Labadie, Hilll and Auer",
+  "ShadowProviderName": "Terry, Johnson and Balistreri",
+  "ChartKey": "qui",
+  "LastLoaded": "2024-12-31T14:28:22.3835038+01:00",
+  "LastLoadedBy": 968,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2003-02-01T02:38:21.8701125+01:00",
-  "LastMembershipChangeBy": 473,
+  "LastMembershipChange": "2013-07-19T14:28:22.3835038+02:00",
+  "LastMembershipChangeBy": 823,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "ullam",
-  "MailingsProviderName": "Krajcik Group",
-  "DashboardTileDefinitionId": 604,
+  "MainHeading": "praesentium",
+  "MemberTabHeading": "commodi",
+  "MailingsProviderName": "Kautzer Inc and Sons",
+  "DashboardTileDefinitionId": 507,
   "VisibleFor": [
     {
-      "VisibleId": 751,
+      "VisibleId": 267,
       "Visibility": "All",
-      "DisplayValue": "eligendi"
+      "DisplayValue": "nesciunt"
     },
     {
-      "VisibleId": 751,
+      "VisibleId": 267,
       "Visibility": "All",
-      "DisplayValue": "eligendi"
+      "DisplayValue": "nesciunt"
     }
   ]
 }
@@ -209,70 +209,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Pre-emptive exuding installation",
-  "Postit": "et",
+  "Description": "Down-sized impactful hardware",
+  "Postit": "mollitia",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 524,
-  "IncludePerson": 881,
+  "GroupIdx": 445,
+  "IncludePerson": 949,
   "MemberCount": 99.99,
-  "Name": "Turner-Leuschke",
-  "PostitTextId": 670,
-  "CreatedDate": "1997-12-08T02:38:21.8701125+01:00",
-  "SelectionId": 344,
-  "SoundEx": "ea",
-  "Source": 379,
-  "TextId": 641,
-  "UpdatedDate": "2000-09-27T02:38:21.8701125+02:00",
-  "UpdatedCount": 13,
-  "Visibility": 399,
+  "Name": "Cassin, Kshlerin and Von",
+  "PostitTextId": 553,
+  "CreatedDate": "2011-01-05T14:28:22.3835038+01:00",
+  "SelectionId": 798,
+  "SoundEx": "veritatis",
+  "Source": 716,
+  "TextId": 790,
+  "UpdatedDate": "2021-11-01T14:28:22.3835038+01:00",
+  "UpdatedCount": 707,
+  "Visibility": 447,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 65,
-  "TargetTableName": "McKenzie Group",
+  "TargetTableNumber": 68,
+  "TargetTableName": "Block-Kub",
   "Completed": true,
-  "LeftSelectionId": 1002,
-  "RightSelectionId": 872,
+  "LeftSelectionId": 125,
+  "RightSelectionId": 151,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Boehm Group",
-  "ShadowProviderName": "Runte-Lakin",
-  "ChartKey": "deserunt",
-  "LastLoaded": "2000-08-28T02:38:21.8701125+02:00",
-  "LastLoadedBy": 150,
+  "MainProviderName": "Kassulke-Hickle",
+  "ShadowProviderName": "Lubowitz-Vandervort",
+  "ChartKey": "voluptatem",
+  "LastLoaded": "2017-07-22T14:28:22.3835038+02:00",
+  "LastLoadedBy": 460,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-04-26T02:38:21.8701125+02:00",
-  "LastMembershipChangeBy": 408,
+  "LastMembershipChange": "2001-05-30T14:28:22.3835038+02:00",
+  "LastMembershipChangeBy": 837,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sapiente",
-  "MemberTabHeading": "veniam",
-  "MailingsProviderName": "Wiza Group",
-  "DashboardTileDefinitionId": 727,
+  "MainHeading": "non",
+  "MemberTabHeading": "rem",
+  "MailingsProviderName": "Kessler-Hudson",
+  "DashboardTileDefinitionId": 651,
   "VisibleFor": [
     {
-      "VisibleId": 636,
+      "VisibleId": 132,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 351
+          "FieldLength": 414
         }
       }
     },
     {
-      "VisibleId": 636,
+      "VisibleId": 132,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "similique",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 351
+          "FieldLength": 414
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldType": "System.Int32",
+      "FieldLength": 257
     }
   }
 }

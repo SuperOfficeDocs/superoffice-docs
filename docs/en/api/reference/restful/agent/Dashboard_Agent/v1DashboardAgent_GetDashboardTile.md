@@ -26,7 +26,7 @@ Gets a DashboardTile object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=572
+POST /api/v1/Agents/Dashboard/GetDashboardTile?dashboardTileId=748
 POST /api/v1/Agents/Dashboard/GetDashboardTile?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,64 +90,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 480,
-  "Caption": "enim",
-  "Description": "Adaptive incremental standardization",
-  "ChartName": "Kulas, Zboncak and Friesen",
-  "ChartId": "eligendi",
+  "DashboardTileId": 479,
+  "Caption": "ut",
+  "Description": "Grass-roots solution-oriented core",
+  "ChartName": "Schimmel-Ebert",
+  "ChartId": "rerum",
   "IsDefault": false,
-  "AssociateId": 617,
-  "GroupId": 222,
-  "SelectionId": 463,
-  "Config": "dolorum",
+  "AssociateId": 533,
+  "GroupId": 713,
+  "SelectionId": 400,
+  "Config": "corrupti",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Wuckert LLC",
-      "Description": "Pre-emptive coherent policy",
+      "Name": "Nienow Inc and Sons",
+      "Description": "Centralized non-volatile support",
       "Type": "Boolean",
-      "ListName": "Ryan, Hane and Schoen",
+      "ListName": "Eichmann LLC",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "placeat",
-      "DefaultDataOption": true,
+      "Value": "aut",
+      "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 860
+          "FieldLength": 173
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 585,
+      "VisibleId": 946,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 602
+          "FieldType": "System.Int32",
+          "FieldLength": 448
         }
       }
     },
     {
-      "VisibleId": 585,
+      "VisibleId": 946,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "ratione",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 602
+          "FieldType": "System.Int32",
+          "FieldLength": 448
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 781
+      "FieldType": "System.Int32",
+      "FieldLength": 151
     }
   }
 }

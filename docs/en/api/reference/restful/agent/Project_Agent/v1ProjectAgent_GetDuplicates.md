@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Harvey Inc and Sons"
+  "Name": "Price, Rodriguez and Rippin"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Lind-Moen",
-    "SoPrimaryKey": 138,
-    "EntryName": "Stoltenberg LLC",
-    "EntryIdentifier": "qui",
-    "RuleDisplayName": "Keeling-Hessel",
+    "RuleName": "Murray Group",
+    "SoPrimaryKey": 630,
+    "EntryName": "Cassin, Keeling and Graham",
+    "EntryIdentifier": "quam",
+    "RuleDisplayName": "Waelchi-Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 454
+        "FieldType": "System.Int32",
+        "FieldLength": 767
       }
     }
   }

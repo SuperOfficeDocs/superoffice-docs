@@ -80,7 +80,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindSelection?$select=selectionAssociate/ejStatus,lastLoadedByFullName,selectionAssociate/contactId
+GET /api/v1/archive/FindSelection?$select=selectionAssociate/firstName,lastLoadedByFullName,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

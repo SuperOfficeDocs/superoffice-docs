@@ -70,31 +70,31 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Murray, Cassin and Champlin",
+  "ProviderName": "Emmerich, Windler and Gislason",
   "Restrictions": [
     {
-      "Name": "Hyatt, Hoeger and Kuhlman",
-      "Operator": "iste",
+      "Name": "Conroy-Gislason",
+      "Operator": "omnis",
       "Values": [
-        "in",
-        "rerum"
+        "minima",
+        "et"
       ],
       "DisplayValues": [
-        "expedita",
-        "esse"
+        "doloribus",
+        "sed"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 608,
+      "InterParenthesis": 33,
       "InterOperator": "And",
-      "UniqueHash": 954
+      "UniqueHash": 188
     }
   ],
-  "AssociateId": 949
+  "AssociateId": 295
 }
 ```
 

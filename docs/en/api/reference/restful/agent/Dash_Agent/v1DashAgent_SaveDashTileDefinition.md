@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 111,
-  "Name": "Wiegand-Jacobi",
-  "Description": "De-engineered mission-critical encoding",
-  "DefaultHeight": 122,
-  "DefaultWidth": 294,
+  "DashboardTileDefinitionId": 936,
+  "Name": "Ward-White",
+  "Description": "Phased grid-enabled superstructure",
+  "DefaultHeight": 430,
+  "DefaultWidth": 744,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Jerde-Lynch",
-  "SelectionId": 381,
+  "EntityName": "Mayert-Hackett",
+  "SelectionId": 153,
   "CurrencyMode": "Base",
-  "CurrencyCode": "officiis",
+  "CurrencyCode": "vitae",
   "Measure": "Average",
-  "MeasureField": "in",
-  "SortBy": "inventore",
-  "LayoutConfig": "animi",
-  "SecondarySelectionId": 310,
-  "MeasureByField": "ea",
+  "MeasureField": "tenetur",
+  "SortBy": "necessitatibus",
+  "LayoutConfig": "ut",
+  "SecondarySelectionId": 853,
+  "MeasureByField": "voluptate",
   "Usage": "Dashboard",
-  "ProviderName": "Dietrich, Bahringer and Ferry"
+  "ProviderName": "Beatty Inc and Sons"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 251,
-  "Name": "Bogisich, Lynch and Upton",
-  "Description": "Adaptive dedicated throughput",
-  "DefaultHeight": 224,
-  "DefaultWidth": 895,
+  "DashboardTileDefinitionId": 242,
+  "Name": "Klocko-Runolfsson",
+  "Description": "Reactive discrete benchmark",
+  "DefaultHeight": 254,
+  "DefaultWidth": 7,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Lueilwitz-Hackett",
-  "SelectionId": 461,
+  "EntityName": "Jaskolski LLC",
+  "SelectionId": 320,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ab",
+  "CurrencyCode": "iusto",
   "Measure": "Average",
-  "MeasureField": "consequatur",
-  "SortBy": "adipisci",
-  "LayoutConfig": "tenetur",
-  "SecondarySelectionId": 134,
-  "MeasureByField": "sunt",
+  "MeasureField": "magnam",
+  "SortBy": "aut",
+  "LayoutConfig": "qui",
+  "SecondarySelectionId": 127,
+  "MeasureByField": "ut",
   "Usage": "Dashboard",
-  "ProviderName": "Wiegand, Cremin and Pollich",
+  "ProviderName": "Fritsch-Dickens",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldType": "System.String",
+      "FieldLength": 292
     }
   }
 }

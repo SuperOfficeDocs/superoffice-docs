@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 87,
+  "SelectionId": 289,
   "SelectionMemberIds": [
-    554,
-    279
+    129,
+    910
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered heuristic attitude",
-  "Postit": "ducimus",
+  "Description": "Assimilated uniform hierarchy",
+  "Postit": "expedita",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 134,
-  "IncludePerson": 329,
+  "GroupIdx": 222,
+  "IncludePerson": 877,
   "MemberCount": 99.99,
-  "Name": "Legros, Brown and Moen",
-  "PostitTextId": 443,
-  "CreatedDate": "2007-08-21T02:38:21.9794397+02:00",
-  "SelectionId": 481,
-  "SoundEx": "illo",
-  "Source": 747,
-  "TextId": 594,
-  "UpdatedDate": "2005-02-01T02:38:21.9794397+01:00",
-  "UpdatedCount": 844,
-  "Visibility": 707,
+  "Name": "Dach-Stroman",
+  "PostitTextId": 726,
+  "CreatedDate": "2022-04-01T14:28:22.3991281+02:00",
+  "SelectionId": 360,
+  "SoundEx": "est",
+  "Source": 476,
+  "TextId": 120,
+  "UpdatedDate": "1998-09-27T14:28:22.3991281+02:00",
+  "UpdatedCount": 574,
+  "Visibility": 752,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 313,
-  "TargetTableName": "Pacocha LLC",
+  "TargetTableNumber": 856,
+  "TargetTableName": "Macejkovic, Mante and Brown",
   "Completed": true,
-  "LeftSelectionId": 293,
-  "RightSelectionId": 212,
+  "LeftSelectionId": 652,
+  "RightSelectionId": 927,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Pagac-Lesch",
-  "ShadowProviderName": "Wisoky, Koepp and Kris",
-  "ChartKey": "cum",
-  "LastLoaded": "2001-03-29T02:38:21.9794397+02:00",
-  "LastLoadedBy": 194,
+  "MainProviderName": "Bins, Ondricka and Jast",
+  "ShadowProviderName": "Jewess-Huel",
+  "ChartKey": "est",
+  "LastLoaded": "2005-05-22T14:28:22.3991281+02:00",
+  "LastLoadedBy": 963,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-06-15T02:38:21.9794397+02:00",
-  "LastMembershipChangeBy": 831,
+  "LastMembershipChange": "2007-10-27T14:28:22.3991281+02:00",
+  "LastMembershipChangeBy": 773,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "vitae",
-  "MailingsProviderName": "Okuneva LLC",
-  "DashboardTileDefinitionId": 361,
+  "MainHeading": "provident",
+  "MemberTabHeading": "et",
+  "MailingsProviderName": "Bayer-Cruickshank",
+  "DashboardTileDefinitionId": 927,
   "VisibleFor": [
     {
-      "VisibleId": 518,
+      "VisibleId": 677,
       "Visibility": "All",
-      "DisplayValue": "culpa",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 263
+          "FieldLength": 498
         }
       }
     },
     {
-      "VisibleId": 518,
+      "VisibleId": 677,
       "Visibility": "All",
-      "DisplayValue": "culpa",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 263
+          "FieldLength": 498
         }
       }
     }
@@ -205,8 +205,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 862
+      "FieldType": "System.Int32",
+      "FieldLength": 448
     }
   }
 }

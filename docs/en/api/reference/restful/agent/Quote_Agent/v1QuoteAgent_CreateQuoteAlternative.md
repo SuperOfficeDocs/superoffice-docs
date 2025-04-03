@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 773,
-  "QuoteAlternativeName": "Collier-Pfannerstill",
-  "QuoteAlternativeDescription": "Operative grid-enabled application"
+  "QuoteVersionId": 437,
+  "QuoteAlternativeName": "Effertz, Gottlieb and Stokes",
+  "QuoteAlternativeDescription": "Streamlined composite moratorium"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 148,
-  "ERPQuoteAlternativeKey": "nihil",
-  "QuoteVersionId": 838,
-  "Name": "Shanahan Group",
-  "Description": "Multi-lateral clear-thinking knowledge user",
+  "QuoteAlternativeId": 380,
+  "ERPQuoteAlternativeKey": "fugiat",
+  "QuoteVersionId": 321,
+  "Name": "Runolfsson LLC",
+  "Description": "Networked zero defect task-force",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 21452.23,
-  "ERPDiscountAmount": 12075.302,
-  "DiscountPercent": 11000.34,
-  "DiscountAmount": 23968.832,
+  "ERPDiscountPercent": 15074.539999999999,
+  "ERPDiscountAmount": 19330.512,
+  "DiscountPercent": 9333.052,
+  "DiscountAmount": 16462.902,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "qui",
-  "VAT": 28967.561999999998,
-  "EarningPercent": 25181.69,
-  "EarningAmount": 18503.136,
-  "SubTotal": 1635.9479999999999,
-  "TotalPrice": 5741.4879999999994,
-  "ExtraField1": "modi",
-  "ExtraField2": "ut",
-  "ExtraField3": "ipsum",
-  "ExtraField4": "vel",
-  "ExtraField5": "ut",
+  "VATInfo": "a",
+  "VAT": 18274.354,
+  "EarningPercent": 21167.036,
+  "EarningAmount": 548.44999999999993,
+  "SubTotal": 29591.228,
+  "TotalPrice": 17600.543999999998,
+  "ExtraField1": "voluptas",
+  "ExtraField2": "eveniet",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "cum",
+  "ExtraField5": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 945
+      "FieldType": "System.Int32",
+      "FieldLength": 13
     }
   }
 }

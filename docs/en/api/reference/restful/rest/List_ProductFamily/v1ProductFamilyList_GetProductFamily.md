@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 497,
-  "Name": "Cummerata, Little and Carroll",
-  "Tooltip": "cupiditate",
+  "Id": 331,
+  "Name": "Homenick, Blick and Stroman",
+  "Tooltip": "quia",
   "Deleted": false,
-  "UdListDefinitionId": 888,
-  "Rank": 142,
+  "UdListDefinitionId": 634,
+  "Rank": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 93
+      "FieldLength": 231
     }
   }
 }

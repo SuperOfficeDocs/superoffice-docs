@@ -123,67 +123,67 @@ OK
 POST /api/v1/TicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 276,
+  "EjMessageId": 217,
   "Ticket": null,
-  "CreatedAt": "1999-02-02T02:38:26.4953951+01:00",
+  "CreatedAt": "1998-09-15T14:28:27.3208039+02:00",
   "CreatedBy": null,
-  "Author": "provident",
+  "Author": "nisi",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "repellendus",
-  "TimeSpent": 301,
-  "Body": "iusto",
-  "HtmlBody": "sit",
-  "EmailHeader": "muriel@witting.uk",
-  "DebugInfo": "ea",
-  "MailSorter": "eligendi",
+  "MessageId": "nisi",
+  "TimeSpent": 44,
+  "Body": "quod",
+  "HtmlBody": "ut",
+  "EmailHeader": "geraldine_kemmer@kozeywuckert.name",
+  "DebugInfo": "dolores",
+  "MailSorter": "fugiat",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolores",
+  "SearchTitle": "alias",
   "MessageHeaders": [
     {
-      "Id": 203,
-      "Name": "Turcotte Group",
-      "Value": "esse",
+      "Id": 811,
+      "Name": "Jacobi, Willms and Monahan",
+      "Value": "maxime",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 203,
-      "Name": "Turcotte Group",
-      "Value": "esse",
+      "Id": 811,
+      "Name": "Jacobi, Willms and Monahan",
+      "Value": "maxime",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": false,
-  "Language": "libero",
-  "Sentiment": 959,
-  "SentimentConfidence": 128,
+  "Important": true,
+  "Language": "illum",
+  "Sentiment": 641,
+  "SentimentConfidence": 239,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 823,
-      "Name": "Rath, Howell and Terry",
-      "ContentType": "quas",
-      "AttSize": 994,
-      "InlineImage": true,
-      "ContentId": "quo",
-      "AuthKey": "excepturi",
-      "IsSafeFileExtension": true
+      "AttachmentId": 512,
+      "Name": "Schaefer-Pollich",
+      "ContentType": "commodi",
+      "AttSize": 853,
+      "InlineImage": false,
+      "ContentId": "qui",
+      "AuthKey": "ut",
+      "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "quae",
-    "CustomFields2": "et"
+    "CustomFields1": "incidunt",
+    "CustomFields2": "mollitia"
   }
 }
 ```
@@ -195,28 +195,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 351,
+  "EjMessageId": 851,
   "Ticket": null,
-  "CreatedAt": "2000-04-17T02:38:26.4953951+02:00",
+  "CreatedAt": "2020-09-27T14:28:27.3208039+02:00",
   "CreatedBy": null,
-  "Author": "in",
+  "Author": "debitis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 709,
-  "Body": "adipisci",
-  "HtmlBody": "maiores",
-  "EmailHeader": "patrick.powlowski@flatley.co.uk",
-  "DebugInfo": "sapiente",
-  "MailSorter": "dolor",
+  "MessageId": "quasi",
+  "TimeSpent": 435,
+  "Body": "minima",
+  "HtmlBody": "autem",
+  "EmailHeader": "brooklyn_gerlach@weissnatkeeling.uk",
+  "DebugInfo": "unde",
+  "MailSorter": "optio",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "esse",
+  "SearchTitle": "assumenda",
   "MessageHeaders": [
     {
-      "Id": 354,
-      "Name": "Schultz Group",
-      "Value": "molestiae",
+      "Id": 784,
+      "Name": "Dicki-Brown",
+      "Value": "expedita",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -224,50 +224,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 308
+          "FieldLength": 854
         }
       }
     }
   ],
   "Important": true,
-  "Language": "dolor",
-  "Sentiment": 438,
-  "SentimentConfidence": 163,
+  "Language": "nam",
+  "Sentiment": 874,
+  "SentimentConfidence": 814,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 125,
-      "Name": "Hessel LLC",
-      "ContentType": "pariatur",
-      "AttSize": 787,
-      "InlineImage": false,
-      "ContentId": "culpa",
-      "AuthKey": "exercitationem",
+      "AttachmentId": 603,
+      "Name": "Schmeler-Schiller",
+      "ContentType": "aut",
+      "AttSize": 919,
+      "InlineImage": true,
+      "ContentId": "qui",
+      "AuthKey": "ducimus",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 340
+          "FieldLength": 591
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "facilis",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "velit"
   },
   "CustomFields": {
-    "CustomFields1": "consequuntur",
-    "CustomFields2": "adipisci"
+    "CustomFields1": "et",
+    "CustomFields2": "voluptate"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 623
+      "FieldLength": 783
     }
   }
 }

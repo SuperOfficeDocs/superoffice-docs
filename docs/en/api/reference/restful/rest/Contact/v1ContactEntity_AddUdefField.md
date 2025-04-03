@@ -98,7 +98,7 @@ OK
 POST /api/v1/Contact/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 405,
-  "ColumnId": 598,
-  "FieldDefault": "ea",
-  "FieldHeight": 700,
-  "FieldLabel": "ea",
-  "FieldLeft": 981,
-  "FieldTop": 651,
+  "UDefFieldId": 966,
+  "ColumnId": 325,
+  "FieldDefault": "libero",
+  "FieldHeight": 928,
+  "FieldLabel": "maxime",
+  "FieldLeft": 419,
+  "FieldTop": 326,
   "FieldType": "Checkbox",
-  "FieldWidth": 802,
-  "FormatMask": "repudiandae",
+  "FieldWidth": 969,
+  "FormatMask": "impedit",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 653,
-  "LabelLeft": 924,
-  "LabelTop": 814,
-  "LabelWidth": 185,
-  "LastVersionId": 605,
-  "ListTableId": 943,
-  "IsMandatory": false,
+  "LabelHeight": 429,
+  "LabelLeft": 489,
+  "LabelTop": 779,
+  "LabelWidth": 322,
+  "LastVersionId": 650,
+  "ListTableId": 681,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 364,
-  "ProgId": "unde",
+  "Page1LineNo": 968,
+  "ProgId": "quasi",
   "IsReadOnly": false,
-  "ShortLabel": "voluptatum",
-  "TabOrder": 93,
-  "TextLength": 233,
-  "Tooltip": "perspiciatis",
-  "UdefIdentity": 522,
-  "UDListDefinitionId": 813,
+  "ShortLabel": "eos",
+  "TabOrder": 794,
+  "TextLength": 299,
+  "Tooltip": "harum",
+  "UdefIdentity": 866,
+  "UDListDefinitionId": 957,
   "Justification": "Center",
-  "Version": 907,
-  "TemplateVariableName": "Watsica LLC",
-  "HasBeenPublished": true,
-  "MdoListName": "Fay-Bernhard",
+  "Version": 141,
+  "TemplateVariableName": "Welch, Okuneva and Langworth",
+  "HasBeenPublished": false,
+  "MdoListName": "Dibbert-Sporer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldType": "System.Int32",
+      "FieldLength": 412
     }
   }
 }

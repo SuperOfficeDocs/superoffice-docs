@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "McLaughlin LLC"
+  "Name": "Christiansen, Grant and Goldner"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 583,
-  "Name": "Flatley-Moen",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 242,
+  "Id": 285,
+  "Name": "Jakubowski Group",
+  "Tooltip": "sint",
+  "Deleted": false,
+  "Rank": 287,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "deserunt",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "impedit",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 703
     }
   }
 }

@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 875,
-    "Name": "Halvorson-Maggio",
-    "ToolTip": "Non soluta consequatur et ut.",
+    "Id": 301,
+    "Name": "Graham, Satterfield and Rodriguez",
+    "ToolTip": "Ad eveniet quia molestias occaecati et.",
     "Deleted": false,
-    "Rank": 554,
-    "Type": "harum",
+    "Rank": 521,
+    "Type": "ab",
     "ChildItems": [
       {
-        "Id": 433,
-        "Name": "Ankunding LLC",
-        "ToolTip": "Sit id.",
+        "Id": 288,
+        "Name": "Zboncak-Schamberger",
+        "ToolTip": "Quis sit incidunt soluta dolor.",
         "Deleted": false,
-        "Rank": 389,
-        "Type": "rerum",
+        "Rank": 218,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "corporis",
-        "ColorBlock": 522,
-        "ExtraInfo": "sit",
-        "StyleHint": "ipsa",
-        "FullName": "Prof. Viva Hauck",
+        "IconHint": "libero",
+        "ColorBlock": 996,
+        "ExtraInfo": "quam",
+        "StyleHint": "in",
+        "FullName": "Mr. Melissa Rosendo Zieme III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 97
+            "FieldType": "System.Int32",
+            "FieldLength": 830
           }
         }
       }
     ],
-    "IconHint": "minus",
-    "ColorBlock": 4,
-    "ExtraInfo": "cumque",
-    "StyleHint": "quia",
-    "FullName": "Horace Bridget O'Connell Sr.",
+    "IconHint": "quia",
+    "ColorBlock": 430,
+    "ExtraInfo": "ullam",
+    "StyleHint": "mollitia",
+    "FullName": "Eula Emard I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldLength": 769
       }
     }
   }

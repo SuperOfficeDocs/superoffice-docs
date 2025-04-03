@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 673,
-    "Name": "Hickle-Hills",
-    "ToolTip": "Molestias id vel veniam reprehenderit.",
+    "Id": 234,
+    "Name": "Dickens Inc and Sons",
+    "ToolTip": "Laboriosam voluptas est delectus deserunt qui.",
     "Deleted": true,
-    "Rank": 96,
-    "Type": "aut",
-    "ColorBlock": 636,
-    "IconHint": "doloremque",
+    "Rank": 582,
+    "Type": "id",
+    "ColorBlock": 977,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2011-09-28T02:38:26.7142749+02:00",
+    "LastChanged": "2004-04-17T14:28:27.5082958+02:00",
     "ChildItems": [
       {
-        "Id": 938,
-        "Name": "Cassin, Hackett and Donnelly",
-        "ToolTip": "Dolor nisi sunt dolore ut.",
-        "Deleted": true,
-        "Rank": 614,
-        "Type": "neque",
-        "ColorBlock": 889,
-        "IconHint": "iste",
+        "Id": 800,
+        "Name": "Tromp-Dickens",
+        "ToolTip": "Voluptas unde molestiae fugiat nesciunt vel et accusamus.",
+        "Deleted": false,
+        "Rank": 484,
+        "Type": "qui",
+        "ColorBlock": 906,
+        "IconHint": "harum",
         "Selected": false,
-        "LastChanged": "2023-07-10T02:38:26.7142749+02:00",
+        "LastChanged": "2017-07-09T14:28:27.5082958+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "est",
-        "StyleHint": "praesentium",
-        "Hidden": false,
-        "FullName": "Felicita Alessandra Lindgren V"
+        "StyleHint": "maxime",
+        "Hidden": true,
+        "FullName": "Ms. Leopoldo Halvorson III"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "optio",
+    "StyleHint": "tenetur",
     "Hidden": false,
-    "FullName": "Torey Gleichner"
+    "FullName": "Lucile Mante IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 438,
-    "Name": "Gottlieb LLC",
-    "ToolTip": "Quibusdam placeat.",
+    "Id": 286,
+    "Name": "Mitchell Inc and Sons",
+    "ToolTip": "Amet pariatur enim.",
     "Deleted": false,
-    "Rank": 834,
-    "Type": "pariatur",
-    "ColorBlock": 188,
-    "IconHint": "voluptate",
+    "Rank": 157,
+    "Type": "tempora",
+    "ColorBlock": 560,
+    "IconHint": "nesciunt",
     "Selected": true,
-    "LastChanged": "2022-04-08T02:38:26.7142749+02:00",
+    "LastChanged": "2002-08-17T14:28:27.5082958+02:00",
     "ChildItems": [
       {
-        "Id": 859,
-        "Name": "Hegmann, Stanton and Murphy",
-        "ToolTip": "Eum et esse aut optio voluptas.",
-        "Deleted": true,
-        "Rank": 549,
-        "Type": "mollitia",
-        "ColorBlock": 388,
-        "IconHint": "exercitationem",
-        "Selected": true,
-        "LastChanged": "2014-05-16T02:38:26.7142749+02:00",
+        "Id": 822,
+        "Name": "Reichel, Morar and Halvorson",
+        "ToolTip": "Recusandae voluptas.",
+        "Deleted": false,
+        "Rank": 840,
+        "Type": "architecto",
+        "ColorBlock": 880,
+        "IconHint": "quam",
+        "Selected": false,
+        "LastChanged": "1998-04-27T14:28:27.5082958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "animi",
-        "StyleHint": "explicabo",
-        "Hidden": false,
-        "FullName": "Johnathon Konopelski",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "architecto",
+        "Hidden": true,
+        "FullName": "Nestor Koepp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 311
+            "FieldType": "System.Int32",
+            "FieldLength": 597
           }
         }
       }
     ],
-    "ExtraInfo": "hic",
-    "StyleHint": "nam",
-    "Hidden": true,
-    "FullName": "Heaven Celestine Johns IV",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "itaque",
+    "Hidden": false,
+    "FullName": "Magnus Talia Fahey DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 148
+        "FieldType": "System.String",
+        "FieldLength": 836
       }
     }
   }

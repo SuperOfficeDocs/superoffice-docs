@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Ticket/DeleteMessageHeaders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "HeaderIds": [
-    427,
-    616
+    174,
+    273
   ]
 }
 ```

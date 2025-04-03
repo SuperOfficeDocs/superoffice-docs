@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 901,
-    "Name": "McDermott-Mertz",
-    "Tooltip": "laborum",
+    "HeadingId": 305,
+    "Name": "Collier, Friesen and O'Kon",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 575,
-    "UdListDefinitionId": 773,
+    "Rank": 359,
+    "UdListDefinitionId": 645,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldType": "System.String",
+        "FieldLength": 34
       }
     }
   }

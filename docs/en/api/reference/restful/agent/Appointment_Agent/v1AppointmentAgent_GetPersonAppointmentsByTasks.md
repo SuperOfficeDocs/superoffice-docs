@@ -118,6 +118,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -136,14 +137,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 775,
+  "PersonId": 268,
   "IncludeProjectAppointments": false,
-  "StartTime": "2018-12-27T02:38:20.5419831+01:00",
-  "EndTime": "2014-12-01T02:38:20.5419831+01:00",
-  "Count": 861,
+  "StartTime": "2006-09-25T14:28:21.1491785+02:00",
+  "EndTime": "2015-05-13T14:28:21.1491785+02:00",
+  "Count": 657,
   "TaskIds": [
-    54,
-    630
+    930,
+    34
   ]
 }
 ```
@@ -156,65 +157,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 97,
-    "StartDate": "2010-02-10T02:38:20.5419831+01:00",
-    "EndDate": "1998-06-18T02:38:20.5419831+02:00",
+    "AppointmentId": 396,
+    "StartDate": "1999-07-19T14:28:21.1491785+02:00",
+    "EndDate": "2015-09-03T14:28:21.1491785+02:00",
     "Type": "BookingForChecklist",
-    "Task": "laudantium",
-    "AssociateFullName": "Bill Greenfelder",
-    "ContactName": "Predovic LLC",
-    "Description": "Reactive reciprocal service-desk",
-    "PersonFullName": "Glen Wolff",
-    "PersonId": 988,
-    "ContactId": 929,
-    "ProjectId": 656,
-    "ProjectName": "Wilkinson LLC",
-    "IsPublished": true,
-    "AssociateId": 454,
-    "ColorIndex": 717,
-    "IsFree": false,
-    "HasAlarm": true,
+    "Task": "amet",
+    "AssociateFullName": "Royal Lesch",
+    "ContactName": "Collier-Little",
+    "Description": "Configurable user-facing Graphical User Interface",
+    "PersonFullName": "Sigmund Flatley",
+    "PersonId": 565,
+    "ContactId": 210,
+    "ProjectId": 28,
+    "ProjectName": "Stamm-Mills",
+    "IsPublished": false,
+    "AssociateId": 902,
+    "ColorIndex": 638,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 526,
-    "PriorityName": "Yundt, Murray and Crooks",
+    "PriorityId": 410,
+    "PriorityName": "Parker, Runolfsson and Murazik",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2015-04-13T02:38:20.5419831+02:00",
+    "ActiveDate": "2014-12-22T14:28:21.1491785+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2023-06-13T02:38:20.5419831+02:00",
-    "RecurringEndDate": "2021-05-20T02:38:20.5419831+02:00",
-    "MotherId": 13,
-    "AssignedBy": 81,
-    "AssignedByFullName": "Celia Schuppe",
+    "RecurringStartDate": "2010-08-29T14:28:21.1491785+02:00",
+    "RecurringEndDate": "2015-03-30T14:28:21.1491785+02:00",
+    "MotherId": 564,
+    "AssignedBy": 396,
+    "AssignedByFullName": "Dr. Raphaelle Modesto Berge Jr.",
     "RejectReason": "",
-    "Location": "commodi",
-    "AlarmLeadTime": "totam",
-    "SaleId": 943,
-    "SaleName": "Lynch, Connelly and Mraz",
-    "AssociateName": "Ondricka LLC",
-    "CreatedDate": "2018-02-18T02:38:20.5419831+01:00",
-    "CreatedBy": "deserunt",
-    "CreatedByFullName": "Melvin Hintz",
-    "CreatedByAssociateId": 353,
+    "Location": "autem",
+    "AlarmLeadTime": "facilis",
+    "SaleId": 909,
+    "SaleName": "Auer LLC",
+    "AssociateName": "Emmerich-Hintz",
+    "CreatedDate": "2024-02-19T14:28:21.1491785+01:00",
+    "CreatedBy": "rerum",
+    "CreatedByFullName": "Edmund Quigley",
+    "CreatedByAssociateId": 834,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 36,
-    "Title": "qui",
-    "Agenda": "cupiditate",
-    "InternalNotes": "debitis",
+    "PreferredTZLocation": 869,
+    "Title": "voluptates",
+    "Agenda": "labore",
+    "InternalNotes": "cupiditate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 869
+        "FieldType": "System.String",
+        "FieldLength": 434
       }
     }
   }

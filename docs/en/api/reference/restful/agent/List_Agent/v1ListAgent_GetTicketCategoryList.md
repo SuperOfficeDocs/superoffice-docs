@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 393,
-    "ParentId": 508,
-    "Name": "Bogisich Group",
-    "Fullname": "error",
-    "CategoryMaster": 376,
+    "TicketCategoryId": 645,
+    "ParentId": 352,
+    "Name": "Beier-Hartmann",
+    "Fullname": "voluptatem",
+    "CategoryMaster": 149,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Purdy, Goyette and Pfannerstill",
+    "ExternalName": "Fisher-Hand",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 821,
-    "ReplyTemplate": 712,
-    "NotificationEmail": "ola@keebler.info",
+    "AssignmentLag": 95,
+    "ReplyTemplate": 958,
+    "NotificationEmail": "shane@ferrywilkinson.com",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 693,
+    "EffectiveReplyTemplateId": 304,
     "ExtraFields": {
-      "ExtraFields1": "ut",
-      "ExtraFields2": "hic"
+      "ExtraFields1": "alias",
+      "ExtraFields2": "est"
     },
     "CustomFields": {
-      "CustomFields1": "quo",
-      "CustomFields2": "hic"
+      "CustomFields1": "natus",
+      "CustomFields2": "inventore"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 358
+        "FieldType": "System.Int32",
+        "FieldLength": 263
       }
     }
   }

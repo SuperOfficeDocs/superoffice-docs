@@ -90,7 +90,7 @@ PreferenceDescription found.
 GET /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 223,
-  "Section": "quia",
-  "Key": "aut",
-  "Name": "Baumbach, Hoeger and Runte",
+  "PrefDescId": 83,
+  "Section": "ut",
+  "Key": "voluptatem",
+  "Name": "Spinka LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Stand-alone upward-trending policy",
-  "IsBuiltin": true,
-  "TableName": "Welch-Bradtke",
-  "UserDefinedListId": 153,
-  "Rank": 310,
-  "SubGroup": "illo",
-  "MinLevel": 797,
-  "MaxValue": 263,
-  "MinValue": 312,
-  "RequiredLicense": "architecto",
+  "Description": "Team-oriented multi-state parallelism",
+  "IsBuiltin": false,
+  "TableName": "Casper-Carter",
+  "UserDefinedListId": 224,
+  "Rank": 658,
+  "SubGroup": "dolores",
+  "MinLevel": 809,
+  "MaxValue": 337,
+  "MinValue": 162,
+  "RequiredLicense": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 391
+      "FieldLength": 555
     }
   },
   "_Links": {

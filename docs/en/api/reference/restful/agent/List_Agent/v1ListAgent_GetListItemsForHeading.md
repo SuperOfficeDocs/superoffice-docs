@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 813,
-  "HeadingId": 526
+  "UdListDefinitionId": 494,
+  "HeadingId": 573
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 245,
-    "Name": "Lubowitz, Stokes and Hermann",
-    "ToolTip": "Quo expedita.",
-    "Deleted": true,
-    "Rank": 270,
-    "Type": "aut",
-    "ColorBlock": 487,
-    "IconHint": "sequi",
-    "Selected": true,
-    "LastChanged": "2002-01-27T02:38:21.5107392+01:00",
+    "Id": 799,
+    "Name": "Gutkowski-Cruickshank",
+    "ToolTip": "Reprehenderit saepe qui.",
+    "Deleted": false,
+    "Rank": 512,
+    "Type": "harum",
+    "ColorBlock": 677,
+    "IconHint": "in",
+    "Selected": false,
+    "LastChanged": "2023-01-26T14:28:22.0553915+01:00",
     "ChildItems": [
       {
-        "Id": 171,
-        "Name": "Robel Group",
-        "ToolTip": "Ut amet rerum.",
+        "Id": 51,
+        "Name": "Conn Group",
+        "ToolTip": "Expedita dolorum.",
         "Deleted": false,
-        "Rank": 103,
-        "Type": "quia",
-        "ColorBlock": 78,
-        "IconHint": "sed",
+        "Rank": 318,
+        "Type": "aut",
+        "ColorBlock": 300,
+        "IconHint": "itaque",
         "Selected": false,
-        "LastChanged": "2009-05-23T02:38:21.5107392+02:00",
+        "LastChanged": "2021-02-09T14:28:22.0553915+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "optio",
-        "Hidden": false,
-        "FullName": "Name Marquardt",
+        "ExtraInfo": "tempore",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Dr. Noble Chadrick Ruecker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 456
+            "FieldLength": 223
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Edna Bailey",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "culpa",
+    "Hidden": true,
+    "FullName": "Loyce Langworth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 690
+        "FieldLength": 931
       }
     }
   }

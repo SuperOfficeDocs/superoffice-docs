@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 666
+  "MailItemId": 189
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 901,
-  "StartDate": "2010-12-27T02:38:21.3545452+01:00",
-  "EndDate": "2003-10-12T02:38:21.3545452+02:00",
-  "RecurrenceCounter": 180,
+  "RecurrenceId": 698,
+  "StartDate": "2002-05-09T14:28:21.9303967+02:00",
+  "EndDate": "2022-10-26T14:28:21.9303967+02:00",
+  "RecurrenceCounter": 70,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2023-04-04T02:38:21.3545452+02:00",
+      "Date": "2004-12-19T14:28:21.9303967+01:00",
       "IsConflict": false,
-      "Description": "Centralized assymetric moratorium",
-      "DescriptionStyleHint": "Compatible responsive benchmark",
-      "Tooltip": "nisi"
+      "Description": "Synergized user-facing system engine",
+      "DescriptionStyleHint": "Synergistic impactful parallelism",
+      "Tooltip": "blanditiis"
     },
     {
-      "Date": "2023-04-04T02:38:21.3545452+02:00",
+      "Date": "2004-12-19T14:28:21.9303967+01:00",
       "IsConflict": false,
-      "Description": "Centralized assymetric moratorium",
-      "DescriptionStyleHint": "Compatible responsive benchmark",
-      "Tooltip": "nisi"
+      "Description": "Synergized user-facing system engine",
+      "DescriptionStyleHint": "Synergistic impactful parallelism",
+      "Tooltip": "blanditiis"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

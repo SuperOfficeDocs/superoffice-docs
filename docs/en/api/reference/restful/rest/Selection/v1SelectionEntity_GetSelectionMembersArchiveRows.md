@@ -75,7 +75,7 @@ OK
 GET /api/v1/Selection/{selectionId}/Members
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,19 +86,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "pariatur",
+  "odata.nextLink": "optio",
   "value": [
     {
-      "PrimaryKey": 9497,
+      "PrimaryKey": 9844,
       "EntityName": "person",
-      "personId": 9497,
-      "fullName": "Sandra Rempel"
+      "personId": 9844,
+      "fullName": "Ryann Abernathy"
     },
     {
-      "PrimaryKey": 4854,
+      "PrimaryKey": 4454,
       "EntityName": "person",
-      "personId": 4854,
-      "fullName": "Jacinthe Collier"
+      "personId": 4454,
+      "fullName": "Jane Lindgren"
     }
   ]
 }

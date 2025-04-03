@@ -79,9 +79,9 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 905,
+  "TicketId": 478,
   "ActionType": "Forward",
-  "MessageId": 877
+  "MessageId": 123
 }
 ```
 
@@ -94,13 +94,13 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Type": "BCC",
-    "Value": "sint",
-    "DisplayValue": "placeat"
+    "Value": "rem",
+    "DisplayValue": "vitae"
   },
   {
     "Type": "BCC",
-    "Value": "sint",
-    "DisplayValue": "placeat"
+    "Value": "rem",
+    "DisplayValue": "vitae"
   }
 ]
 ```

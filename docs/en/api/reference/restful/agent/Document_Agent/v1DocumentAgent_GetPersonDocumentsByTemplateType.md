@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 830,
+  "PersonId": 506,
   "IncludeProjectDocuments": false,
-  "StartTime": "2023-03-31T02:38:21.2295568+02:00",
-  "EndTime": "2018-06-03T02:38:21.2295568+02:00",
-  "Count": 677,
-  "DocumentTemplateId": 176
+  "StartTime": "2022-12-17T14:28:21.8210267+01:00",
+  "EndTime": "2000-12-09T14:28:21.8210267+01:00",
+  "Count": 745,
+  "DocumentTemplateId": 255
 }
 ```
 
@@ -120,32 +120,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 384,
-    "Attention": "officia",
-    "Header": "soluta",
-    "Name": "Wisoky-Ebert",
-    "OurRef": "ratione",
-    "YourRef": "quam",
-    "Description": "Phased dynamic internet solution",
-    "DocumentTemplate": "rerum",
+    "DocumentId": 517,
+    "Attention": "dolor",
+    "Header": "modi",
+    "Name": "Bayer, Connelly and Welch",
+    "OurRef": "aut",
+    "YourRef": "dignissimos",
+    "Description": "Inverse zero tolerance analyzer",
+    "DocumentTemplate": "sed",
     "IsPublished": false,
-    "PersonId": 353,
-    "PersonFullName": "Dr. Katherine Missouri Casper III",
-    "AssociateFullName": "Ms. Leilani Feil",
-    "ContactId": 353,
-    "ContactName": "DuBuque, Marks and Kris",
-    "ProjectId": 630,
-    "ProjectName": "Hoppe LLC",
-    "AssociateId": 115,
-    "Snum": 463,
-    "SaleId": 320,
-    "SaleName": "Deckow, Koepp and Johns",
+    "PersonId": 317,
+    "PersonFullName": "Dr. Marianna Colby Adams V",
+    "AssociateFullName": "Karelle Schumm",
+    "ContactId": 44,
+    "ContactName": "Ondricka-Balistreri",
+    "ProjectId": 821,
+    "ProjectName": "Kshlerin-Bergnaum",
+    "AssociateId": 92,
+    "Snum": 384,
+    "SaleId": 827,
+    "SaleName": "Cormier-Klocko",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 318
+        "FieldType": "System.Int32",
+        "FieldLength": 952
       }
     }
   }

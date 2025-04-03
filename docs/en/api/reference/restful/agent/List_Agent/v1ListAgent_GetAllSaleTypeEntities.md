@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 383,
-    "Name": "Fay LLC",
-    "Tooltip": "omnis",
-    "Rank": 374,
+    "SaleTypeId": 633,
+    "Name": "Littel LLC",
+    "Tooltip": "neque",
+    "Rank": 843,
     "DurationUnit": "Century",
-    "SaleDuration": 620,
-    "SaleTypeCatId": 953,
+    "SaleDuration": 166,
+    "SaleTypeCatId": 98,
     "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": true,
-    "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 570,
-    "QuoteLinesTemplate": 271,
-    "ConfirmationLinesTemplate": 890,
+    "IsAutoAdvance": true,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 984,
+    "QuoteLinesTemplate": 100,
+    "ConfirmationLinesTemplate": 107,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 998,
-    "MinEarningPercent": 915,
-    "GroupQuoteLinesBy": 889,
-    "SortGroupLinesBy": 428,
+    "MaxDiscountPercent": 725,
+    "MinEarningPercent": 537,
+    "GroupQuoteLinesBy": 552,
+    "SortGroupLinesBy": 811,
     "Stages": [
       {
-        "Id": 810,
-        "Name": "Reinger Group",
-        "ToolTip": "Voluptatem velit eos rerum voluptate saepe unde.",
-        "Deleted": true,
-        "Rank": 430,
-        "Type": "aut",
-        "ColorBlock": 82,
-        "IconHint": "a",
+        "Id": 277,
+        "Name": "Ritchie LLC",
+        "ToolTip": "Ea delectus quod aperiam.",
+        "Deleted": false,
+        "Rank": 69,
+        "Type": "voluptate",
+        "ColorBlock": 980,
+        "IconHint": "dolorem",
         "Selected": true,
-        "LastChanged": "2021-08-27T02:38:21.4951545+02:00",
+        "LastChanged": "2009-01-29T14:28:22.039767+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "totam",
-        "StyleHint": "quae",
-        "Hidden": true,
-        "FullName": "Marcelo Hills",
+        "ExtraInfo": "dicta",
+        "StyleHint": "veritatis",
+        "Hidden": false,
+        "FullName": "Leanne Schowalter",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 802
+            "FieldLength": 756
           }
         }
       }
@@ -166,7 +166,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldLength": 390
       }
     }
   }

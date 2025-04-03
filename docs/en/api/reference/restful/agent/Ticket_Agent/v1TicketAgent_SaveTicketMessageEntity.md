@@ -117,63 +117,63 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 767,
+  "EjMessageId": 350,
   "Ticket": null,
-  "CreatedAt": "1998-05-24T02:38:22.0419723+02:00",
+  "CreatedAt": "2014-11-06T14:28:22.5709961+01:00",
   "CreatedBy": null,
-  "Author": "est",
+  "Author": "ipsum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nobis",
-  "TimeSpent": 124,
-  "Body": "aut",
-  "HtmlBody": "repudiandae",
-  "EmailHeader": "macey@leuschke.com",
-  "DebugInfo": "aut",
-  "MailSorter": "nulla",
+  "MessageId": "explicabo",
+  "TimeSpent": 857,
+  "Body": "ut",
+  "HtmlBody": "distinctio",
+  "EmailHeader": "rita@bahringer.uk",
+  "DebugInfo": "tenetur",
+  "MailSorter": "numquam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consequatur",
+  "SearchTitle": "qui",
   "MessageHeaders": [
     {
-      "Id": 423,
-      "Name": "Dooley-Nader",
-      "Value": "reiciendis",
+      "Id": 731,
+      "Name": "Rohan, Pfannerstill and Boehm",
+      "Value": "voluptas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 423,
-      "Name": "Dooley-Nader",
-      "Value": "reiciendis",
+      "Id": 731,
+      "Name": "Rohan, Pfannerstill and Boehm",
+      "Value": "voluptas",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "debitis",
-  "Sentiment": 750,
-  "SentimentConfidence": 784,
+  "Important": false,
+  "Language": "repellat",
+  "Sentiment": 343,
+  "SentimentConfidence": 300,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 862,
-      "Name": "Eichmann Group",
-      "ContentType": "suscipit",
-      "AttSize": 554,
+      "AttachmentId": 756,
+      "Name": "Senger-Becker",
+      "ContentType": "vel",
+      "AttSize": 269,
       "InlineImage": false,
-      "ContentId": "qui",
-      "AuthKey": "laborum",
+      "ContentId": "id",
+      "AuthKey": "nesciunt",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "non",
+    "ExtraFields2": "mollitia"
   },
   "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "ut"
+    "CustomFields1": "est",
+    "CustomFields2": "sapiente"
   }
 }
 ```
@@ -185,79 +185,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 586,
+  "EjMessageId": 916,
   "Ticket": null,
-  "CreatedAt": "2012-03-20T02:38:22.0575561+01:00",
+  "CreatedAt": "2008-01-07T14:28:22.5709961+01:00",
   "CreatedBy": null,
-  "Author": "molestiae",
+  "Author": "dignissimos",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "consectetur",
-  "TimeSpent": 262,
-  "Body": "rerum",
-  "HtmlBody": "quo",
-  "EmailHeader": "titus@schneider.biz",
-  "DebugInfo": "repellendus",
-  "MailSorter": "mollitia",
+  "MessageId": "dolor",
+  "TimeSpent": 887,
+  "Body": "id",
+  "HtmlBody": "delectus",
+  "EmailHeader": "valentin@adams.co.uk",
+  "DebugInfo": "dolore",
+  "MailSorter": "vel",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "alias",
+  "SearchTitle": "quaerat",
   "MessageHeaders": [
     {
-      "Id": 54,
-      "Name": "Boyle, Medhurst and Jones",
-      "Value": "consequatur",
+      "Id": 848,
+      "Name": "Koepp-Huels",
+      "Value": "neque",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 112
+          "FieldType": "System.Int32",
+          "FieldLength": 656
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quam",
-  "Sentiment": 26,
-  "SentimentConfidence": 136,
+  "Language": "in",
+  "Sentiment": 124,
+  "SentimentConfidence": 578,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 777,
-      "Name": "Pouros-Kunde",
-      "ContentType": "consequatur",
-      "AttSize": 658,
+      "AttachmentId": 598,
+      "Name": "Watsica-Kemmer",
+      "ContentType": "iure",
+      "AttSize": 462,
       "InlineImage": false,
-      "ContentId": "a",
-      "AuthKey": "sapiente",
+      "ContentId": "non",
+      "AuthKey": "est",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 903
+          "FieldType": "System.String",
+          "FieldLength": 383
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "quasi",
-    "ExtraFields2": "possimus"
+    "ExtraFields1": "veritatis",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "accusantium",
-    "CustomFields2": "et"
+    "CustomFields1": "a",
+    "CustomFields2": "perferendis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 531
+      "FieldType": "System.Int32",
+      "FieldLength": 786
     }
   }
 }

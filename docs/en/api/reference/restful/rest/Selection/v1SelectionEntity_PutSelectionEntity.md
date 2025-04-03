@@ -160,60 +160,60 @@ SelectionEntity updated.
 PUT /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Focused 3rd generation focus group",
-  "Postit": "dolor",
+  "Description": "Multi-tiered maximized toolset",
+  "Postit": "ipsam",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 581,
-  "IncludePerson": 702,
+  "GroupIdx": 167,
+  "IncludePerson": 22,
   "MemberCount": 99.99,
-  "Name": "O'Kon, Weissnat and Lang",
-  "PostitTextId": 386,
-  "CreatedDate": "2021-04-18T02:38:26.4172802+02:00",
-  "SelectionId": 428,
-  "SoundEx": "nisi",
-  "Source": 880,
-  "TextId": 174,
-  "UpdatedDate": "2000-06-14T02:38:26.4172802+02:00",
-  "UpdatedCount": 956,
-  "Visibility": 833,
+  "Name": "Considine, King and Hahn",
+  "PostitTextId": 970,
+  "CreatedDate": "2004-11-04T14:28:27.2426821+01:00",
+  "SelectionId": 95,
+  "SoundEx": "omnis",
+  "Source": 595,
+  "TextId": 222,
+  "UpdatedDate": "2021-10-25T14:28:27.2426821+02:00",
+  "UpdatedCount": 323,
+  "Visibility": 626,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 336,
-  "TargetTableName": "Toy, Lubowitz and Labadie",
+  "CompanyUnique": true,
+  "TargetTableNumber": 14,
+  "TargetTableName": "Hamill-Kautzer",
   "Completed": false,
-  "LeftSelectionId": 237,
-  "RightSelectionId": 222,
+  "LeftSelectionId": 755,
+  "RightSelectionId": 803,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Green, Koelpin and Herzog",
-  "ShadowProviderName": "Heidenreich-Stroman",
-  "ChartKey": "cupiditate",
-  "LastLoaded": "2017-03-08T02:38:26.4172802+01:00",
-  "LastLoadedBy": 146,
+  "MainProviderName": "Auer-Gibson",
+  "ShadowProviderName": "Heathcote-Ruecker",
+  "ChartKey": "velit",
+  "LastLoaded": "2005-11-16T14:28:27.2426821+01:00",
+  "LastLoadedBy": 977,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-09-15T02:38:26.4172802+02:00",
-  "LastMembershipChangeBy": 649,
+  "LastMembershipChange": "2020-05-28T14:28:27.2426821+02:00",
+  "LastMembershipChangeBy": 850,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nihil",
-  "MemberTabHeading": "cupiditate",
-  "MailingsProviderName": "Torp, Bergnaum and Hane",
-  "DashboardTileDefinitionId": 368,
+  "MainHeading": "et",
+  "MemberTabHeading": "culpa",
+  "MailingsProviderName": "Jerde-Becker",
+  "DashboardTileDefinitionId": 568,
   "VisibleFor": [
     {
-      "VisibleId": 975,
+      "VisibleId": 940,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "consectetur"
     },
     {
-      "VisibleId": 975,
+      "VisibleId": 940,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "consectetur"
     }
   ]
 }
@@ -226,70 +226,70 @@ HTTP/1.1 200 SelectionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Reduced executive functionalities",
-  "Postit": "vel",
+  "Description": "Down-sized multimedia solution",
+  "Postit": "corrupti",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 689,
-  "IncludePerson": 156,
+  "GroupIdx": 369,
+  "IncludePerson": 970,
   "MemberCount": 99.99,
-  "Name": "Rippin, Parisian and Bechtelar",
-  "PostitTextId": 703,
-  "CreatedDate": "2000-12-28T02:38:26.4172802+01:00",
-  "SelectionId": 662,
-  "SoundEx": "qui",
-  "Source": 956,
-  "TextId": 715,
-  "UpdatedDate": "2020-01-13T02:38:26.4172802+01:00",
-  "UpdatedCount": 837,
-  "Visibility": 61,
+  "Name": "Cummings-White",
+  "PostitTextId": 505,
+  "CreatedDate": "2006-05-27T14:28:27.2426821+02:00",
+  "SelectionId": 515,
+  "SoundEx": "libero",
+  "Source": 698,
+  "TextId": 919,
+  "UpdatedDate": "2003-01-03T14:28:27.2426821+01:00",
+  "UpdatedCount": 565,
+  "Visibility": 461,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 91,
-  "TargetTableName": "Stehr, Goyette and Anderson",
+  "CompanyUnique": true,
+  "TargetTableNumber": 831,
+  "TargetTableName": "Lehner-Weimann",
   "Completed": false,
-  "LeftSelectionId": 976,
-  "RightSelectionId": 295,
+  "LeftSelectionId": 80,
+  "RightSelectionId": 571,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Leffler Group",
-  "ShadowProviderName": "Vandervort LLC",
-  "ChartKey": "magni",
-  "LastLoaded": "2015-11-19T02:38:26.4172802+01:00",
-  "LastLoadedBy": 906,
+  "MainProviderName": "Skiles-Boyer",
+  "ShadowProviderName": "Dickinson, Greenfelder and Towne",
+  "ChartKey": "quia",
+  "LastLoaded": "2020-10-03T14:28:27.2426821+02:00",
+  "LastLoadedBy": 415,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2009-11-22T02:38:26.4172802+01:00",
-  "LastMembershipChangeBy": 135,
+  "LastMembershipChange": "2002-12-12T14:28:27.2426821+01:00",
+  "LastMembershipChangeBy": 475,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "nostrum",
-  "MemberTabHeading": "voluptatem",
-  "MailingsProviderName": "Leuschke, Mitchell and Mitchell",
-  "DashboardTileDefinitionId": 446,
+  "MainHeading": "nisi",
+  "MemberTabHeading": "ullam",
+  "MailingsProviderName": "Bradtke Inc and Sons",
+  "DashboardTileDefinitionId": 888,
   "VisibleFor": [
     {
-      "VisibleId": 379,
+      "VisibleId": 250,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldLength": 780
         }
       }
     },
     {
-      "VisibleId": 379,
+      "VisibleId": 250,
       "Visibility": "All",
-      "DisplayValue": "ab",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 532
+          "FieldLength": 780
         }
       }
     }
@@ -298,8 +298,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldType": "System.String",
+      "FieldLength": 110
     }
   },
   "_Links": {

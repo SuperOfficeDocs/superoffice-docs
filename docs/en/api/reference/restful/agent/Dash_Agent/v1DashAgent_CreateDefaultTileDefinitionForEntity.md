@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Robel-Kertzmann"
+  "EntityName": "Hauck-Keebler"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 91,
-  "Name": "Yost LLC",
-  "Description": "Pre-emptive intermediate secured line",
-  "DefaultHeight": 47,
-  "DefaultWidth": 254,
+  "DashboardTileDefinitionId": 28,
+  "Name": "Toy, Keeling and Gulgowski",
+  "Description": "Switchable bottom-line encryption",
+  "DefaultHeight": 304,
+  "DefaultWidth": 691,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "White-Heller",
-  "SelectionId": 584,
+  "EntityName": "Thompson-Jacobs",
+  "SelectionId": 527,
   "CurrencyMode": "Base",
-  "CurrencyCode": "at",
+  "CurrencyCode": "eos",
   "Measure": "Average",
-  "MeasureField": "voluptatem",
-  "SortBy": "hic",
-  "LayoutConfig": "dolorem",
-  "SecondarySelectionId": 605,
-  "MeasureByField": "sapiente",
+  "MeasureField": "rem",
+  "SortBy": "vel",
+  "LayoutConfig": "saepe",
+  "SecondarySelectionId": 857,
+  "MeasureByField": "commodi",
   "Usage": "Dashboard",
-  "ProviderName": "Keeling Inc and Sons",
+  "ProviderName": "Cartwright-Wisozk",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 553
+      "FieldLength": 444
     }
   }
 }

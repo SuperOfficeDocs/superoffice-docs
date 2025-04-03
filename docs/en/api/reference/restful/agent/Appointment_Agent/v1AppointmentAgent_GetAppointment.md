@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=621
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=229
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -105,6 +105,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -119,7 +120,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,65 +130,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 45,
-  "StartDate": "2014-05-26T02:38:20.698363+02:00",
-  "EndDate": "2000-10-04T02:38:20.698363+02:00",
+  "AppointmentId": 732,
+  "StartDate": "2015-05-28T14:28:21.3054297+02:00",
+  "EndDate": "1998-10-22T14:28:21.3054297+02:00",
   "Type": "BookingForChecklist",
-  "Task": "aut",
-  "AssociateFullName": "Prof. Ebba Wilkinson",
-  "ContactName": "Weimann-Schroeder",
-  "Description": "Multi-channelled analyzing adapter",
-  "PersonFullName": "Meagan Botsford",
-  "PersonId": 702,
-  "ContactId": 838,
-  "ProjectId": 757,
-  "ProjectName": "Bode, Hahn and Abbott",
+  "Task": "veritatis",
+  "AssociateFullName": "Roman Reichert",
+  "ContactName": "Wuckert LLC",
+  "Description": "Re-engineered incremental moratorium",
+  "PersonFullName": "Ms. Leo Dusty Dibbert DVM",
+  "PersonId": 514,
+  "ContactId": 429,
+  "ProjectId": 322,
+  "ProjectName": "Gleichner-Wunsch",
   "IsPublished": true,
-  "AssociateId": 567,
-  "ColorIndex": 856,
-  "IsFree": false,
+  "AssociateId": 126,
+  "ColorIndex": 800,
+  "IsFree": true,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 578,
-  "PriorityName": "Kassulke-Morar",
+  "PriorityId": 982,
+  "PriorityName": "Sanford Inc and Sons",
   "TaskType": "Appointment",
-  "IsBookingMain": false,
+  "IsBookingMain": true,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2002-10-31T02:38:20.698363+01:00",
+  "ActiveDate": "2016-12-28T14:28:21.3054297+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "1998-03-01T02:38:20.698363+01:00",
-  "RecurringEndDate": "2010-09-10T02:38:20.698363+02:00",
-  "MotherId": 447,
-  "AssignedBy": 588,
-  "AssignedByFullName": "Jadon Kameron Kreiger PhD",
+  "RecurringStartDate": "2002-09-02T14:28:21.3054297+02:00",
+  "RecurringEndDate": "1999-07-01T14:28:21.3054297+02:00",
+  "MotherId": 721,
+  "AssignedBy": 227,
+  "AssignedByFullName": "Prof. Verda Kiel Jakubowski PhD",
   "RejectReason": "",
-  "Location": "qui",
-  "AlarmLeadTime": "at",
-  "SaleId": 959,
-  "SaleName": "Connelly-Haag",
-  "AssociateName": "Kuphal-Eichmann",
-  "CreatedDate": "2023-01-29T02:38:20.698363+01:00",
-  "CreatedBy": "vero",
-  "CreatedByFullName": "Frederique Ryan",
-  "CreatedByAssociateId": 106,
+  "Location": "quia",
+  "AlarmLeadTime": "et",
+  "SaleId": 33,
+  "SaleName": "Spinka LLC",
+  "AssociateName": "Nolan Inc and Sons",
+  "CreatedDate": "2015-12-09T14:28:21.3054297+01:00",
+  "CreatedBy": "architecto",
+  "CreatedByFullName": "Mercedes Langosh",
+  "CreatedByAssociateId": 377,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 559,
-  "Title": "expedita",
-  "Agenda": "sunt",
-  "InternalNotes": "autem",
+  "PreferredTZLocation": 573,
+  "Title": "nisi",
+  "Agenda": "blanditiis",
+  "InternalNotes": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 655
+      "FieldLength": 480
     }
   }
 }

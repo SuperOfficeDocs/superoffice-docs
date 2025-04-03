@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 471,
-  "Name": "Padberg, Haag and Schinner",
-  "Tooltip": "dolores",
-  "Deleted": true,
-  "Rank": 192,
-  "UdListDefinitionId": 932,
+  "HeadingId": 442,
+  "Name": "Lindgren Inc and Sons",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 331,
+  "UdListDefinitionId": 211,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldLength": 613
     }
   }
 }

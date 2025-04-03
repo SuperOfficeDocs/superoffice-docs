@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 617,
-    "Name": "Hackett-Reichert",
-    "Tooltip": "quia",
+    "Id": 825,
+    "Name": "Hauck Group",
+    "Tooltip": "perferendis",
     "Deleted": false,
-    "UdListDefinitionId": 753,
-    "Rank": 559,
+    "UdListDefinitionId": 2,
+    "Rank": 715,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 337
+        "FieldType": "System.Int32",
+        "FieldLength": 948
       }
     }
   }

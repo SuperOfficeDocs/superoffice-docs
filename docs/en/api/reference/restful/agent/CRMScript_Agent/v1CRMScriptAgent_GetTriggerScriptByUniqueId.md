@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "possimus"
+  "TriggerScriptUniqueId": "quae"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 861,
-  "Name": "Hessel-Marvin",
+  "ScreenChooserId": 499,
+  "Name": "Veum LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "provident",
-  "Source": "id",
-  "Registered": "2022-02-03T02:38:21.182685+01:00",
-  "RegisteredAssociateId": 802,
-  "Updated": "2022-06-14T02:38:21.182685+02:00",
-  "UpdatedAssociateId": 535,
+  "UniqueIdentifier": "consectetur",
+  "Source": "molestias",
+  "Registered": "2001-04-17T14:28:21.680407+02:00",
+  "RegisteredAssociateId": 917,
+  "Updated": "2022-10-05T14:28:21.680407+02:00",
+  "UpdatedAssociateId": 197,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 685
+      "FieldLength": 478
     }
   }
 }

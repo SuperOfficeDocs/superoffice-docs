@@ -105,30 +105,30 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 295,
-  "Name": "Cole, Gerlach and Herzog",
-  "Tooltip": "consequatur",
+  "WebPanelId": 780,
+  "Name": "Kuphal Inc and Sons",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 279,
+  "Rank": 511,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Mante, Pacocha and Hilll",
+  "ShowInStatusBar": true,
+  "WindowName": "Effertz, Connelly and Ward",
   "Url": "http://www.example.com/",
-  "ProgId": "fuga",
-  "Icon": 924,
+  "ProgId": "dignissimos",
+  "Icon": 592,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true
 }
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 901,
-  "Name": "Jast Inc and Sons",
-  "Tooltip": "placeat",
+  "WebPanelId": 596,
+  "Name": "Becker-Cummerata",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "Rank": 660,
+  "Rank": 682,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Tromp LLC",
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "Lebsack-Walker",
   "Url": "http://www.example.com/",
-  "ProgId": "perspiciatis",
-  "Icon": 813,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "vel",
+  "Icon": 963,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 29
+      "FieldLength": 995
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 55,
-    "Name": "Adams, Jacobi and Schamberger",
-    "CurrencyId": 324,
-    "EnglishName": "Konopelski Group",
+    "CountryId": 350,
+    "Name": "Beier-Gerlach",
+    "CurrencyId": 181,
+    "EnglishName": "Nolan, Ratke and Reilly",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Synergized cohesive help-desk",
-    "OrgNrText": "1030029",
-    "InterAreaPrefix": "tempora",
-    "DialInPrefix": "labore",
-    "ZipPrefix": "nam",
-    "DomainName": "Haley, Pouros and Grant",
-    "AddressLayoutId": 224,
-    "DomesticAddressLayoutId": 644,
-    "ForeignAddressLayoutId": 978,
-    "Rank": 85,
-    "Tooltip": "est",
-    "Deleted": false,
+    "ImageDescription": "Profound interactive projection",
+    "OrgNrText": "1465033",
+    "InterAreaPrefix": "incidunt",
+    "DialInPrefix": "et",
+    "ZipPrefix": "alias",
+    "DomainName": "Batz, Grant and Ward",
+    "AddressLayoutId": 921,
+    "DomesticAddressLayoutId": 533,
+    "ForeignAddressLayoutId": 289,
+    "Rank": 519,
+    "Tooltip": "delectus",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldLength": 531
       }
     }
   }

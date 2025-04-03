@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 654,
-  "ColumnId": 263,
-  "FieldDefault": "quae",
-  "FieldHeight": 722,
-  "FieldLabel": "maxime",
-  "FieldLeft": 896,
-  "FieldTop": 636,
+  "UDefFieldId": 773,
+  "ColumnId": 683,
+  "FieldDefault": "omnis",
+  "FieldHeight": 875,
+  "FieldLabel": "iure",
+  "FieldLeft": 648,
+  "FieldTop": 732,
   "FieldType": "Checkbox",
-  "FieldWidth": 102,
-  "FormatMask": "laudantium",
+  "FieldWidth": 194,
+  "FormatMask": "qui",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 847,
-  "LabelLeft": 744,
-  "LabelTop": 36,
-  "LabelWidth": 504,
-  "LastVersionId": 673,
-  "ListTableId": 763,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 853,
+  "LabelLeft": 214,
+  "LabelTop": 504,
+  "LabelWidth": 833,
+  "LastVersionId": 410,
+  "ListTableId": 892,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 108,
-  "ProgId": "atque",
-  "IsReadOnly": true,
-  "ShortLabel": "dolore",
-  "TabOrder": 816,
-  "TextLength": 731,
-  "Tooltip": "architecto",
-  "UdefIdentity": 423,
-  "UDListDefinitionId": 946,
+  "Page1LineNo": 882,
+  "ProgId": "sed",
+  "IsReadOnly": false,
+  "ShortLabel": "magni",
+  "TabOrder": 596,
+  "TextLength": 851,
+  "Tooltip": "aperiam",
+  "UdefIdentity": 589,
+  "UDListDefinitionId": 506,
   "Justification": "Center",
-  "Version": 918,
-  "TemplateVariableName": "Jast-O'Keefe",
+  "Version": 355,
+  "TemplateVariableName": "Hudson-Okuneva",
   "HasBeenPublished": false,
-  "MdoListName": "McDermott Group",
+  "MdoListName": "Daniel Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 306
+      "FieldLength": 961
     }
   }
 }

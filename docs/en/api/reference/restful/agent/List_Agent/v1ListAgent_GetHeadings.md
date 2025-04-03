@@ -93,9 +93,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 85,
-  "ListItemId": 876,
-  "ShowDeleted": true
+  "UdListDefinitionId": 195,
+  "ListItemId": 987,
+  "ShowDeleted": false
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 510,
-    "Name": "Schowalter-Skiles",
-    "ToolTip": "Nemo quae.",
-    "Deleted": false,
-    "Rank": 603,
-    "Type": "aut",
-    "ColorBlock": 442,
-    "IconHint": "nisi",
+    "Id": 36,
+    "Name": "Kozey LLC",
+    "ToolTip": "Rerum officia at.",
+    "Deleted": true,
+    "Rank": 235,
+    "Type": "est",
+    "ColorBlock": 196,
+    "IconHint": "est",
     "Selected": true,
-    "LastChanged": "2017-10-22T02:38:21.5107392+02:00",
+    "LastChanged": "2009-04-09T14:28:22.0553915+02:00",
     "ChildItems": [
       {
-        "Id": 10,
-        "Name": "Stamm LLC",
-        "ToolTip": "Nam animi possimus.",
+        "Id": 321,
+        "Name": "Hoppe, Goldner and Pollich",
+        "ToolTip": "Autem voluptatem enim et aut ex necessitatibus.",
         "Deleted": true,
-        "Rank": 281,
-        "Type": "quisquam",
-        "ColorBlock": 161,
-        "IconHint": "veritatis",
+        "Rank": 964,
+        "Type": "aliquam",
+        "ColorBlock": 977,
+        "IconHint": "iure",
         "Selected": false,
-        "LastChanged": "2003-12-30T02:38:21.5107392+01:00",
+        "LastChanged": "2023-10-18T14:28:22.0553915+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Maximo Kody Hammes DVM",
+        "ExtraInfo": "quidem",
+        "StyleHint": "cum",
+        "Hidden": true,
+        "FullName": "Johnpaul Tiffany Schmeler IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 1001
+            "FieldType": "System.String",
+            "FieldLength": 548
           }
         }
       }
     ],
-    "ExtraInfo": "quis",
-    "StyleHint": "quia",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "illum",
     "Hidden": true,
-    "FullName": "Abbie Boehm DDS",
+    "FullName": "Carmen Mertz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldLength": 600
       }
     }
   }

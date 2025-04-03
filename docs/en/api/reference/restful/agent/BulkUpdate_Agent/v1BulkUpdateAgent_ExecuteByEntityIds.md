@@ -78,29 +78,29 @@ Content-Type: application/json; charset=utf-8
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": true,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": true,
+      "DefaultShowInGui": true,
+      "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "velit",
-      "ValueType": "mollitia",
-      "Mandatory": false,
-      "EncodedDisplayName": "Lindgren Inc and Sons",
-      "EncodedDisplayDescription": "Total system-worthy middleware",
-      "IconHint": "temporibus",
+      "Key": "qui",
+      "ValueType": "saepe",
+      "Mandatory": true,
+      "EncodedDisplayName": "Strosin, Goodwin and Streich",
+      "EncodedDisplayDescription": "Proactive motivating contingency",
+      "IconHint": "sint",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "labore",
-      "EncodedDataCaptionDescription": "Future-proofed dynamic framework",
-      "CurrentOperationType": "quas",
+      "EncodedDataCaption": "porro",
+      "EncodedDataCaptionDescription": "Monitored coherent challenge",
+      "CurrentOperationType": "quidem",
       "Values": [
-        "doloribus",
-        "inventore"
+        "ea",
+        "nostrum"
       ],
       "DisplayValues": [
-        "nesciunt",
-        "blanditiis"
+        "unde",
+        "quibusdam"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Bahringer, Hoppe and Okuneva",
-  "Context": "ad",
-  "Ids": "quo"
+  "TableName": "Fisher-Marquardt",
+  "Context": "fugit",
+  "Ids": "pariatur"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-188
+295
 ```

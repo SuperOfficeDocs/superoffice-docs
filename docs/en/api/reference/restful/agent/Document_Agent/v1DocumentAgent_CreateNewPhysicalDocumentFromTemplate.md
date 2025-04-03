@@ -115,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 552,
-  "PersonId": 994,
-  "AppointmentId": 219,
-  "DocumentId": 761,
-  "SaleId": 748,
-  "SelectionId": 963,
-  "ProjectId": 766,
-  "UiCulture": "iste"
+  "ContactId": 290,
+  "PersonId": 493,
+  "AppointmentId": 106,
+  "DocumentId": 691,
+  "SaleId": 514,
+  "SelectionId": 219,
+  "ProjectId": 432,
+  "UiCulture": "sunt"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 880,
+  "DocumentId": 283,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "at",
-  "Header": "est",
-  "Name": "Swaniawski, Abbott and Brekke",
-  "OurRef": "itaque",
-  "YourRef": "facere",
-  "CreatedDate": "2014-09-11T02:38:21.2920122+02:00",
-  "UpdatedDate": "2002-07-24T02:38:21.2920122+02:00",
-  "Description": "Public-key next generation portal",
+  "Attention": "laudantium",
+  "Header": "fuga",
+  "Name": "Brown, Gulgowski and Turner",
+  "OurRef": "nesciunt",
+  "YourRef": "sint",
+  "CreatedDate": "2023-06-11T14:28:21.8678991+02:00",
+  "UpdatedDate": "2009-09-21T14:28:21.8678991+02:00",
+  "Description": "Compatible didactic approach",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-04-13T02:38:21.2920122+02:00",
-  "ExternalRef": "et",
+  "Date": "2005-04-08T14:28:21.8678991+02:00",
+  "ExternalRef": "in",
   "Completed": "Completed",
-  "ActiveLinks": 502,
+  "ActiveLinks": 678,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rath LLC",
-      "Id": 200,
-      "Description": "Managed real-time middleware",
-      "ExtraInfo": "magni",
-      "LinkId": 981,
+      "EntityName": "Hilll, Luettgen and Schiller",
+      "Id": 233,
+      "Description": "Mandatory solution-oriented architecture",
+      "ExtraInfo": "illum",
+      "LinkId": 841,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 599
+          "FieldType": "System.Int32",
+          "FieldLength": 106
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 427,
-  "Snum": 79,
+  "SuggestedDocumentId": 392,
+  "Snum": 281,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Lou Bailey",
-    "SuperOffice:2": "Kamryn Boyle"
+    "SuperOffice:1": "983682943",
+    "SuperOffice:2": "Mrs. Leonard Cecilia Smitham"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "non"
+    "ExtraFields1": "et",
+    "ExtraFields2": "at"
   },
   "CustomFields": {
-    "CustomFields1": "doloremque",
-    "CustomFields2": "laudantium"
+    "CustomFields1": "asperiores",
+    "CustomFields2": "quae"
   },
-  "PublishEventDate": "2016-07-11T02:38:21.2920122+02:00",
-  "PublishTo": "2014-04-18T02:38:21.2920122+02:00",
-  "PublishFrom": "2011-11-14T02:38:21.2920122+01:00",
+  "PublishEventDate": "2018-10-21T14:28:21.8678991+02:00",
+  "PublishTo": "2002-02-15T14:28:21.8678991+01:00",
+  "PublishFrom": "2005-08-25T14:28:21.8678991+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 883,
+      "VisibleId": 826,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 963
+          "FieldLength": 885
         }
       }
     },
     {
-      "VisibleId": 883,
+      "VisibleId": 826,
       "Visibility": "All",
-      "DisplayValue": "provident",
+      "DisplayValue": "iure",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 963
+          "FieldLength": 885
         }
       }
     }
@@ -227,8 +227,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 773
+      "FieldType": "System.String",
+      "FieldLength": 496
     }
   }
 }

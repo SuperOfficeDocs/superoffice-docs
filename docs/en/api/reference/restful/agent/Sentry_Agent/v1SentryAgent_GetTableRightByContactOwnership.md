@@ -77,8 +77,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Roob Inc and Sons",
-  "ContactId": 841
+  "TableName": "Bernhard, Shanahan and Doyle",
+  "ContactId": 962
 }
 ```
 
@@ -90,6 +90,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Mask": "Delete",
-  "Reason": "maximize wireless content"
+  "Reason": ""
 }
 ```

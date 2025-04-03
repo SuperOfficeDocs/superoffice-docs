@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Person/GetCustomerCentrePasswordReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 945
+  "PersonId": 521
 }
 ```
 
@@ -92,36 +92,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 379,
-  "PlainParsed": "corrupti",
-  "HtmlParsed": "cum",
+  "ReplyTemplateId": 809,
+  "PlainParsed": "cum",
+  "HtmlParsed": "ab",
   "Attachments": [
     {
-      "AttachmentId": 807,
-      "Name": "Kunde-Bosco",
-      "ContentType": "et",
-      "AttSize": 22,
+      "AttachmentId": 992,
+      "Name": "Shields-Lindgren",
+      "ContentType": "excepturi",
+      "AttSize": 467,
       "InlineImage": false,
-      "ContentId": "est",
-      "AuthKey": "eaque",
-      "IsSafeFileExtension": false,
+      "ContentId": "unde",
+      "AuthKey": "amet",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 201
+          "FieldLength": 173
         }
       }
     }
   ],
-  "Subject": "consequatur",
+  "Subject": "adipisci",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 461
+      "FieldLength": 5
     }
   }
 }

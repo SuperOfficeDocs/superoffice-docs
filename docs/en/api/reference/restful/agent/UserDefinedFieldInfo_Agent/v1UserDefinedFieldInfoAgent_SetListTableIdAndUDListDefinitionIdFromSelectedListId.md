@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 884
+  "SelectedListId": 278
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 156,
-  "ColumnId": 153,
-  "FieldDefault": "deleniti",
-  "FieldHeight": 470,
-  "FieldLabel": "omnis",
-  "FieldLeft": 267,
-  "FieldTop": 323,
+  "UDefFieldId": 133,
+  "ColumnId": 732,
+  "FieldDefault": "beatae",
+  "FieldHeight": 656,
+  "FieldLabel": "nobis",
+  "FieldLeft": 371,
+  "FieldTop": 845,
   "FieldType": "Checkbox",
-  "FieldWidth": 952,
-  "FormatMask": "labore",
+  "FieldWidth": 589,
+  "FormatMask": "natus",
   "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 66,
-  "LabelLeft": 853,
-  "LabelTop": 346,
-  "LabelWidth": 544,
-  "LastVersionId": 497,
-  "ListTableId": 550,
+  "IsIndexed": true,
+  "LabelHeight": 481,
+  "LabelLeft": 371,
+  "LabelTop": 266,
+  "LabelWidth": 734,
+  "LastVersionId": 218,
+  "ListTableId": 660,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 966,
-  "ProgId": "sunt",
+  "Page1LineNo": 409,
+  "ProgId": "est",
   "IsReadOnly": false,
-  "ShortLabel": "nostrum",
-  "TabOrder": 262,
-  "TextLength": 66,
-  "Tooltip": "sequi",
-  "UdefIdentity": 175,
-  "UDListDefinitionId": 946,
+  "ShortLabel": "maiores",
+  "TabOrder": 625,
+  "TextLength": 534,
+  "Tooltip": "voluptates",
+  "UdefIdentity": 871,
+  "UDListDefinitionId": 641,
   "Justification": "Center",
-  "Version": 801,
-  "TemplateVariableName": "Zulauf, Upton and Stracke",
+  "Version": 546,
+  "TemplateVariableName": "Homenick Group",
   "HasBeenPublished": false,
-  "MdoListName": "Kirlin LLC",
+  "MdoListName": "Jacobi Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 520
     }
   }
 }

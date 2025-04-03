@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Quigley, Wilderman and Littel",
+  "TableName": "McGlynn, Eichmann and O'Kon",
   "Columns": [
-    "dolorem",
-    "incidunt"
+    "illo",
+    "a"
   ],
   "Data": [
     [
@@ -110,40 +110,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "dignissimos",
-  "Inserts": 188,
-  "Updates": 153,
-  "Deletes": 180,
+  "Message": "enim",
+  "Inserts": 777,
+  "Updates": 948,
+  "Deletes": 184,
   "RowStatus": [
     {
-      "PrimaryKey": 103,
+      "PrimaryKey": 672,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "delectus",
-        "voluptas"
+        "ut",
+        "doloribus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldLength": 455
         }
       }
     },
     {
-      "PrimaryKey": 103,
+      "PrimaryKey": 672,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "delectus",
-        "voluptas"
+        "ut",
+        "doloribus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 297
+          "FieldLength": 455
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 486
+      "FieldType": "System.Int32",
+      "FieldLength": 559
     }
   }
 }

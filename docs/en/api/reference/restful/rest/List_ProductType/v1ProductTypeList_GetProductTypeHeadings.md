@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 422,
-    "Name": "Bergstrom-Hermiston",
-    "Tooltip": "molestiae",
-    "Deleted": true,
-    "Rank": 504,
-    "UdListDefinitionId": 420,
+    "HeadingId": 67,
+    "Name": "Muller LLC",
+    "Tooltip": "corporis",
+    "Deleted": false,
+    "Rank": 283,
+    "UdListDefinitionId": 492,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldType": "System.String",
+        "FieldLength": 744
       }
     }
   }

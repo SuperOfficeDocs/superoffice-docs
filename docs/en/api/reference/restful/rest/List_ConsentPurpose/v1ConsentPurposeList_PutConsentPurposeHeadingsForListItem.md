@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Abshire, Labadie and Rippin",
-    "ToolTip": "Recusandae quia ea natus odit autem aut doloremque.",
-    "Deleted": true,
-    "Rank": 314,
-    "Type": "eum",
-    "ColorBlock": 577,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2000-04-09T02:38:26.6986493+02:00",
+    "Id": 764,
+    "Name": "Mohr, Christiansen and Towne",
+    "ToolTip": "Repudiandae qui soluta eum fugit.",
+    "Deleted": false,
+    "Rank": 233,
+    "Type": "mollitia",
+    "ColorBlock": 671,
+    "IconHint": "velit",
+    "Selected": false,
+    "LastChanged": "2007-03-01T14:28:27.5082958+01:00",
     "ChildItems": [
       {
-        "Id": 1001,
-        "Name": "Friesen-Crist",
-        "ToolTip": "Nesciunt qui non et minima quia velit cumque.",
+        "Id": 343,
+        "Name": "Schoen, Keebler and Leannon",
+        "ToolTip": "Quo magni veritatis.",
         "Deleted": false,
-        "Rank": 100,
-        "Type": "maxime",
-        "ColorBlock": 870,
-        "IconHint": "illum",
-        "Selected": false,
-        "LastChanged": "1999-07-21T02:38:26.6986493+02:00",
+        "Rank": 680,
+        "Type": "omnis",
+        "ColorBlock": 436,
+        "IconHint": "quos",
+        "Selected": true,
+        "LastChanged": "2021-05-28T14:28:27.5082958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "aut",
+        "ExtraInfo": "fugiat",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Brielle Dicki"
+        "FullName": "Angelica Jenkins"
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Miss Columbus Keebler"
+    "ExtraInfo": "aperiam",
+    "StyleHint": "odio",
+    "Hidden": false,
+    "FullName": "Gerhard Smitham"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 132,
-    "Name": "Gottlieb LLC",
-    "ToolTip": "Voluptatibus et aut blanditiis id labore.",
+    "Id": 873,
+    "Name": "Grimes-Bergnaum",
+    "ToolTip": "Nihil necessitatibus quasi perferendis sit placeat eligendi.",
     "Deleted": false,
-    "Rank": 291,
-    "Type": "labore",
-    "ColorBlock": 266,
-    "IconHint": "aut",
+    "Rank": 595,
+    "Type": "quaerat",
+    "ColorBlock": 945,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "1999-06-07T02:38:26.6986493+02:00",
+    "LastChanged": "2004-07-01T14:28:27.5082958+02:00",
     "ChildItems": [
       {
-        "Id": 613,
-        "Name": "Koepp-Windler",
-        "ToolTip": "Ea praesentium distinctio aut quis accusantium consequuntur.",
-        "Deleted": true,
-        "Rank": 215,
-        "Type": "et",
-        "ColorBlock": 522,
-        "IconHint": "sed",
+        "Id": 364,
+        "Name": "Hartmann, Powlowski and Sporer",
+        "ToolTip": "Cumque perspiciatis est molestiae vitae.",
+        "Deleted": false,
+        "Rank": 407,
+        "Type": "rerum",
+        "ColorBlock": 393,
+        "IconHint": "est",
         "Selected": false,
-        "LastChanged": "1998-03-26T02:38:26.6986493+01:00",
+        "LastChanged": "2001-04-25T14:28:27.5082958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "cum",
+        "ExtraInfo": "sit",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Mrs. Torrance Spencer Jr.",
+        "FullName": "Miss Vergie Kaela Reichert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 992
+            "FieldLength": 826
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "necessitatibus",
-    "Hidden": false,
-    "FullName": "Gabriella Lueilwitz",
+    "ExtraInfo": "omnis",
+    "StyleHint": "consequatur",
+    "Hidden": true,
+    "FullName": "Jessy Kuphal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 780
+        "FieldLength": 59
       }
     }
   }

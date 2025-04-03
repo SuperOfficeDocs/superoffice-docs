@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -135,11 +136,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 723,
-  "StartTime": "2010-06-29T02:38:20.557605+02:00",
-  "EndTime": "2015-02-26T02:38:20.557605+01:00",
-  "Count": 132,
-  "TaskHeadingId": 83
+  "ProjectId": 15,
+  "StartTime": "2011-03-21T14:28:21.1491785+01:00",
+  "EndTime": "2017-01-16T14:28:21.1491785+01:00",
+  "Count": 686,
+  "TaskHeadingId": 199
 }
 ```
 
@@ -151,65 +152,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 707,
-    "StartDate": "2010-01-14T02:38:20.557605+01:00",
-    "EndDate": "2017-12-11T02:38:20.557605+01:00",
+    "AppointmentId": 753,
+    "StartDate": "2018-10-02T14:28:21.1491785+02:00",
+    "EndDate": "2010-05-31T14:28:21.1491785+02:00",
     "Type": "BookingForChecklist",
-    "Task": "quo",
-    "AssociateFullName": "Miss Shaun Jacinthe Walter",
-    "ContactName": "Abbott-Koelpin",
-    "Description": "Diverse system-worthy superstructure",
-    "PersonFullName": "Donny Johns",
-    "PersonId": 533,
-    "ContactId": 154,
-    "ProjectId": 520,
-    "ProjectName": "Klocko, Lueilwitz and Oberbrunner",
-    "IsPublished": false,
-    "AssociateId": 842,
-    "ColorIndex": 152,
+    "Task": "voluptas",
+    "AssociateFullName": "Dusty Nikolaus V",
+    "ContactName": "Jacobi-Bailey",
+    "Description": "User-centric asynchronous secured line",
+    "PersonFullName": "Mr. Arturo Candace Powlowski DVM",
+    "PersonId": 829,
+    "ContactId": 72,
+    "ProjectId": 890,
+    "ProjectName": "Parisian-Donnelly",
+    "IsPublished": true,
+    "AssociateId": 516,
+    "ColorIndex": 947,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 150,
-    "PriorityName": "Towne-Hackett",
+    "PriorityId": 371,
+    "PriorityName": "Marvin, Jacobi and Gottlieb",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsBookingMain": true,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2019-03-20T02:38:20.557605+01:00",
+    "ActiveDate": "1997-12-16T14:28:21.1491785+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-12-29T02:38:20.557605+01:00",
-    "RecurringEndDate": "2013-12-15T02:38:20.557605+01:00",
-    "MotherId": 257,
-    "AssignedBy": 733,
-    "AssignedByFullName": "Barry Bayer",
-    "RejectReason": "monetize sexy systems",
-    "Location": "enim",
-    "AlarmLeadTime": "et",
-    "SaleId": 726,
-    "SaleName": "Toy, Dickinson and Borer",
-    "AssociateName": "Dietrich-Osinski",
-    "CreatedDate": "2020-06-29T02:38:20.557605+02:00",
-    "CreatedBy": "provident",
-    "CreatedByFullName": "Daphne Murray",
-    "CreatedByAssociateId": 826,
+    "RecurringStartDate": "1999-09-09T14:28:21.1491785+02:00",
+    "RecurringEndDate": "2022-03-03T14:28:21.1491785+01:00",
+    "MotherId": 111,
+    "AssignedBy": 987,
+    "AssignedByFullName": "Miss Alize Cremin",
+    "RejectReason": "",
+    "Location": "voluptas",
+    "AlarmLeadTime": "quam",
+    "SaleId": 990,
+    "SaleName": "Kassulke-Bosco",
+    "AssociateName": "Bruen LLC",
+    "CreatedDate": "2004-04-10T14:28:21.1491785+02:00",
+    "CreatedBy": "aliquid",
+    "CreatedByFullName": "Brandon Friesen",
+    "CreatedByAssociateId": 687,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 265,
-    "Title": "nisi",
-    "Agenda": "quod",
-    "InternalNotes": "in",
+    "PreferredTZLocation": 649,
+    "Title": "doloremque",
+    "Agenda": "hic",
+    "InternalNotes": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 275
+        "FieldType": "System.String",
+        "FieldLength": 866
       }
     }
   }

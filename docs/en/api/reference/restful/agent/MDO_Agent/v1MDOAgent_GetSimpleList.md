@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Strosin-Price"
+  "Name": "Murazik-Crona"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "Feeney LLC",
-    "ToolTip": "Vel qui ullam aut et quia tempora atque.",
+    "Id": 214,
+    "Name": "Altenwerth-Gutmann",
+    "ToolTip": "Quo eaque.",
     "Deleted": false,
-    "Rank": 208,
-    "Type": "et",
+    "Rank": 696,
+    "Type": "eos",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Durgan-Heaney",
-        "ToolTip": "Possimus reprehenderit quidem inventore quis.",
+        "Id": 816,
+        "Name": "Hartmann, Langosh and McDermott",
+        "ToolTip": "Animi cum ea id ut id quaerat.",
         "Deleted": true,
-        "Rank": 75,
-        "Type": "molestias",
+        "Rank": 189,
+        "Type": "provident",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cupiditate",
-        "ColorBlock": 3,
-        "ExtraInfo": "eligendi",
-        "StyleHint": "dolorem",
-        "FullName": "Olga Schultz",
+        "IconHint": "officiis",
+        "ColorBlock": 594,
+        "ExtraInfo": "quia",
+        "StyleHint": "accusantium",
+        "FullName": "Norris Miller",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 672
+            "FieldLength": 209
           }
         }
       }
     ],
-    "IconHint": "iste",
-    "ColorBlock": 945,
-    "ExtraInfo": "vero",
-    "StyleHint": "ea",
-    "FullName": "Rick Stanton",
+    "IconHint": "quasi",
+    "ColorBlock": 299,
+    "ExtraInfo": "quam",
+    "StyleHint": "sed",
+    "FullName": "Enos Sauer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 395
+        "FieldType": "System.Int32",
+        "FieldLength": 154
       }
     }
   }

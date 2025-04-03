@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kutch Inc and Sons",
-  "DeviceName": "Farrell-Morar",
-  "DeviceIdentifier": "beatae"
+  "ApplicationName": "Muller, Rolfson and Osinski",
+  "DeviceName": "Mraz-Koelpin",
+  "DeviceIdentifier": "itaque"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 514,
-  "Name": "Auer, Ferry and Block",
-  "CreatedDate": "2006-11-04T02:38:21.4482803+01:00",
-  "UpdatedDate": "2009-11-18T02:38:21.4482803+01:00",
-  "AssociateFullName": "Edmund Kuvalis",
-  "CreatedBy": "tempore",
-  "UpdatedBy": "deleniti",
-  "DeviceIdentifier": "minus",
-  "ForeignAppId": 346,
+  "ForeignDeviceId": 957,
+  "Name": "Leannon Inc and Sons",
+  "CreatedDate": "2017-01-22T14:28:22.0085182+01:00",
+  "UpdatedDate": "2000-04-07T14:28:22.0085182+02:00",
+  "AssociateFullName": "Gregory Borer",
+  "CreatedBy": "labore",
+  "UpdatedBy": "fugit",
+  "DeviceIdentifier": "repellendus",
+  "ForeignAppId": 247,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 262
+      "FieldType": "System.Int32",
+      "FieldLength": 34
     }
   }
 }

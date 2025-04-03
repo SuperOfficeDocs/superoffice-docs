@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 05 Feb 2009 02:38:26 G2T
+Last-Modified: Sun, 28 Jul 2024 14:28:26 G7T
 
 {
-  "Key": "ratione",
-  "Value": "voluptatem",
-  "RecordId": 733,
-  "CreatedDate": "2018-07-16T02:38:26.1204323+02:00",
-  "UpdatedDate": "2009-02-05T02:38:26.1204323+01:00",
-  "UpdatedBy": "assumenda",
-  "CreatedBy": "reprehenderit",
-  "TableName": "Kuhic-Emmerich",
+  "Key": "error",
+  "Value": "ullam",
+  "RecordId": 861,
+  "CreatedDate": "2013-11-04T14:28:26.9458186+01:00",
+  "UpdatedDate": "2024-07-28T14:28:26.9458186+02:00",
+  "UpdatedBy": "molestias",
+  "CreatedBy": "quis",
+  "TableName": "Johnston, Ortiz and Sanford",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 259
+      "FieldLength": 831
     }
   }
 }

@@ -122,7 +122,7 @@ OK
 POST /api/v1/Agents/Ticket/GetNextInQueue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -132,21 +132,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 754,
-  "Title": "ut",
-  "CreatedAt": "2013-10-28T02:38:22.0888409+01:00",
-  "LastChanged": "2025-03-04T02:38:22.0888409+01:00",
-  "ReadByOwner": "2019-07-03T02:38:22.0888409+02:00",
-  "ReadByCustomer": "2017-08-05T02:38:22.0888409+02:00",
-  "FirstReadByOwner": "2013-01-09T02:38:22.0888409+01:00",
-  "FirstReadByUser": "2018-04-09T02:38:22.0888409+02:00",
-  "Activate": "2022-07-09T02:38:22.0888409+02:00",
-  "ClosedAt": "2002-08-14T02:38:22.0888409+02:00",
-  "RepliedAt": "2007-01-26T02:38:22.0888409+01:00",
-  "AlertTimeout": "2021-01-08T02:38:22.0888409+01:00",
-  "Deadline": "2017-04-08T02:38:22.0888409+02:00",
+  "TicketId": 235,
+  "Title": "illum",
+  "CreatedAt": "2020-09-09T14:28:22.602245+02:00",
+  "LastChanged": "2015-08-05T14:28:22.602245+02:00",
+  "ReadByOwner": "2019-03-25T14:28:22.602245+01:00",
+  "ReadByCustomer": "2002-11-16T14:28:22.602245+01:00",
+  "FirstReadByOwner": "2001-02-10T14:28:22.602245+01:00",
+  "FirstReadByUser": "2007-12-17T14:28:22.602245+01:00",
+  "Activate": "2006-01-12T14:28:22.602245+01:00",
+  "ClosedAt": "2019-02-12T14:28:22.602245+01:00",
+  "RepliedAt": "2001-02-07T14:28:22.602245+01:00",
+  "AlertTimeout": "2010-05-21T14:28:22.602245+02:00",
+  "Deadline": "2002-01-21T14:28:22.602245+01:00",
   "CreatedBy": null,
-  "Author": "quo",
+  "Author": "non",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -157,163 +157,163 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "totam",
-      "PersonId": 937,
-      "Mrmrs": "temporibus",
-      "Firstname": "Felipa",
-      "Lastname": "Labadie",
-      "MiddleName": "Greenholt, Beatty and Gusikowski",
-      "Title": "ducimus",
-      "Description": "Expanded uniform function",
-      "Email": "triston_walter@sanford.com",
-      "FullName": "Antonio Harber",
-      "DirectPhone": "1-698-909-1101 x3906",
-      "FormalName": "Leffler-Mueller",
-      "CountryId": 29,
-      "ContactId": 570,
-      "ContactName": "Reinger, Shields and Murray",
-      "Retired": 520,
-      "Rank": 887,
-      "ActiveInterests": 919,
-      "ContactDepartment": "embrace revolutionary e-services",
-      "ContactCountryId": 692,
-      "ContactOrgNr": "369783",
-      "FaxPhone": "951-751-2530 x1458",
-      "MobilePhone": "414.550.8372 x278",
-      "ContactPhone": "177-896-8789 x064",
-      "AssociateName": "O'Conner, Reichert and Schowalter",
-      "AssociateId": 670,
-      "UsePersonAddress": false,
-      "ContactFax": "ducimus",
-      "Kanafname": "provident",
-      "Kanalname": "a",
-      "Post1": "eius",
-      "Post2": "voluptas",
-      "Post3": "repellat",
-      "EmailName": "peter@bayer.ca",
-      "ContactFullName": "Jillian Keeling",
-      "ActiveErpLinks": 891,
-      "TicketPriorityId": 516,
-      "SupportLanguageId": 973,
-      "SupportAssociateId": 839,
-      "CategoryName": "VIP Customer",
-      "PersonNumber": "1185196",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 533
-        }
-      }
-    }
-  ],
-  "AlertLevel": 904,
-  "ConnectId": 343,
-  "ReadStatus": "Green",
-  "TimeToReply": 236,
-  "RealTimeToReply": 190,
-  "TimeToClose": 340,
-  "RealTimeToClose": 908,
-  "TimeSpentInternally": 306,
-  "TimeSpentExternally": 469,
-  "TimeSpentQueue": 20,
-  "RealTimeSpentInternally": 164,
-  "RealTimeSpentExternally": 559,
-  "RealTimeSpentQueue": 992,
-  "TimeSpent": 166,
-  "HasAttachment": false,
-  "NumReplies": 17,
-  "NumMessages": 92,
-  "FromAddress": "inventore",
-  "Messages": [
-    {
-      "TicketMessageId": 836,
-      "CreatedAt": "2018-11-28T02:38:22.0888409+01:00",
-      "Slevel": "External",
-      "Important": true,
-      "Author": "eveniet",
-      "PersonId": 260,
-      "PersonFullName": "Jennie Hayes",
-      "ContactId": 253,
-      "ContactName": "Cummerata Group",
+      "Position": "eos",
+      "PersonId": 187,
+      "Mrmrs": "et",
+      "Firstname": "Lois",
+      "Lastname": "Abbott",
+      "MiddleName": "Reinger LLC",
+      "Title": "omnis",
+      "Description": "Business-focused 5th generation task-force",
+      "Email": "retha@gloverschimmel.com",
+      "FullName": "Macey Joana Quigley DDS",
+      "DirectPhone": "1-672-373-5357 x3933",
+      "FormalName": "Schowalter, Osinski and Cremin",
+      "CountryId": 75,
+      "ContactId": 179,
+      "ContactName": "Runte LLC",
+      "Retired": 581,
+      "Rank": 124,
+      "ActiveInterests": 903,
       "ContactDepartment": "",
-      "NumAttachments": 975,
-      "EmailHeader": "charlie@ritchie.uk",
-      "MessageHeaders": [
-        {},
-        {}
-      ],
-      "Language": "et",
-      "Sentiment": 456,
-      "SentimentConfidence": 995,
-      "CreatedBy": 716,
-      "ChangedAt": "2011-03-28T02:38:22.0888409+02:00",
-      "Badge": "Comment",
+      "ContactCountryId": 954,
+      "ContactOrgNr": "967328",
+      "FaxPhone": "1-619-068-8945",
+      "MobilePhone": "(818)258-8165 x29306",
+      "ContactPhone": "(060)706-1325 x848",
+      "AssociateName": "Hudson, Dare and Labadie",
+      "AssociateId": 454,
+      "UsePersonAddress": false,
+      "ContactFax": "id",
+      "Kanafname": "ut",
+      "Kanalname": "et",
+      "Post1": "voluptatum",
+      "Post2": "eum",
+      "Post3": "consequatur",
+      "EmailName": "halle_kutch@white.us",
+      "ContactFullName": "Mrs. Caesar Wallace Predovic",
+      "ActiveErpLinks": 961,
+      "TicketPriorityId": 219,
+      "SupportLanguageId": 145,
+      "SupportAssociateId": 233,
+      "CategoryName": "VIP Customer",
+      "PersonNumber": "869661",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 863
+          "FieldLength": 81
+        }
+      }
+    }
+  ],
+  "AlertLevel": 677,
+  "ConnectId": 445,
+  "ReadStatus": "Green",
+  "TimeToReply": 540,
+  "RealTimeToReply": 179,
+  "TimeToClose": 403,
+  "RealTimeToClose": 175,
+  "TimeSpentInternally": 670,
+  "TimeSpentExternally": 107,
+  "TimeSpentQueue": 868,
+  "RealTimeSpentInternally": 644,
+  "RealTimeSpentExternally": 340,
+  "RealTimeSpentQueue": 126,
+  "TimeSpent": 457,
+  "HasAttachment": true,
+  "NumReplies": 215,
+  "NumMessages": 976,
+  "FromAddress": "et",
+  "Messages": [
+    {
+      "TicketMessageId": 68,
+      "CreatedAt": "2009-06-23T14:28:22.602245+02:00",
+      "Slevel": "External",
+      "Important": false,
+      "Author": "eveniet",
+      "PersonId": 788,
+      "PersonFullName": "Ima Nolan II",
+      "ContactId": 484,
+      "ContactName": "Stroman, Kassulke and Reichel",
+      "ContactDepartment": "",
+      "NumAttachments": 884,
+      "EmailHeader": "daisha@murazikstanton.us",
+      "MessageHeaders": [
+        {},
+        {}
+      ],
+      "Language": "doloremque",
+      "Sentiment": 936,
+      "SentimentConfidence": 722,
+      "CreatedBy": 9,
+      "ChangedAt": "2001-11-28T14:28:22.602245+01:00",
+      "Badge": "Comment",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 266
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 105,
-      "Name": "Hauck, Walsh and Kshlerin",
-      "ToolTip": "Excepturi dolorum ut odio labore eaque aut.",
+      "Id": 171,
+      "Name": "Reinger, Weimann and Bergstrom",
+      "ToolTip": "Recusandae molestiae quibusdam culpa aut dicta unde.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldLength": 130
         }
       }
     },
     {
-      "Id": 105,
-      "Name": "Hauck, Walsh and Kshlerin",
-      "ToolTip": "Excepturi dolorum ut odio labore eaque aut.",
+      "Id": 171,
+      "Name": "Reinger, Weimann and Bergstrom",
+      "ToolTip": "Recusandae molestiae quibusdam culpa aut dicta unde.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldLength": 130
         }
       }
     }
   ],
-  "Language": "neque",
-  "Sentiment": 743,
-  "SentimentConfidence": 370,
-  "SuggestedCategoryId": 131,
+  "Language": "molestiae",
+  "Sentiment": 976,
+  "SentimentConfidence": 562,
+  "SuggestedCategoryId": 641,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 440,
-  "IconHint": "fugiat",
+  "OrigHumanCategoryId": 924,
+  "IconHint": "rerum",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 953,
+  "ActiveStatusMonitorId": 242,
   "ExtraFields": {
-    "ExtraFields1": "recusandae",
-    "ExtraFields2": "id"
+    "ExtraFields1": "asperiores",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "mollitia",
-    "CustomFields2": "facere"
+    "CustomFields1": "aut",
+    "CustomFields2": "velit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 447
+      "FieldLength": 974
     }
   }
 }

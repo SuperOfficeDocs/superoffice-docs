@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Dietrich Inc and Sons"
+  "LayoutName": "Wilkinson, Hintz and Murray"
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 642,
-  "InstanceLayout": "consequatur",
-  "InstanceName": "Koelpin-Lesch",
-  "CreatedDate": "2002-11-17T02:38:20.885843+01:00",
-  "UpdatedDate": "2021-06-16T02:38:20.885843+02:00",
+  "AudienceLayoutId": 230,
+  "InstanceLayout": "fugiat",
+  "InstanceName": "Zboncak, Kiehn and Oberbrunner",
+  "CreatedDate": "1999-07-25T14:28:21.47729+02:00",
+  "UpdatedDate": "2020-01-10T14:28:21.47729+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldLength": 350
     }
   }
 }

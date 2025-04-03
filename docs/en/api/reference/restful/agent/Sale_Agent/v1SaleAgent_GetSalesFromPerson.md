@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 740,
-  "OnlyOpenSales": false
+  "PersonId": 888,
+  "OnlyOpenSales": true
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Casper-Kunze",
-    "SaleDate": "1999-09-21T02:38:21.8544876+02:00",
-    "SaleId": 155,
-    "Probability": 59,
-    "Title": "dolorum",
-    "Amount": 31142.557999999997,
-    "Currency": "aspernatur",
-    "ProjectName": "Ruecker Inc and Sons",
-    "AssociateFullName": "Shania Berge",
-    "Description": "Synergized intermediate forecast",
+    "ContactName": "Howe-McCullough",
+    "SaleDate": "1999-02-27T14:28:22.3678792+01:00",
+    "SaleId": 112,
+    "Probability": 985,
+    "Title": "inventore",
+    "Amount": 1585.8039999999999,
+    "Currency": "aut",
+    "ProjectName": "Jenkins, Wilderman and Rippin",
+    "AssociateFullName": "Torey Grant",
+    "Description": "Re-engineered incremental function",
     "Status": "Lost",
-    "WeightedAmount": 2776.7239999999997,
-    "ProjectId": 440,
-    "EarningPercent": 21455.363999999998,
-    "Earning": 26187.703999999998,
-    "ContactId": 727,
-    "AssociateId": 739,
-    "PersonId": 874,
-    "SaleTypeId": 69,
-    "SaleTypeName": "Hane Inc and Sons",
-    "PersonFullName": "Frances Gusikowski",
+    "WeightedAmount": 20978.996,
+    "ProjectId": 43,
+    "EarningPercent": 3510.08,
+    "Earning": 28707.44,
+    "ContactId": 70,
+    "AssociateId": 708,
+    "PersonId": 110,
+    "SaleTypeId": 743,
+    "SaleTypeName": "Cronin, Hand and Aufderhar",
+    "PersonFullName": "Kacie Lily Strosin Sr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 139,
-    "NextDueDate": "2024-12-10T02:38:21.8544876+01:00",
-    "Number": "1159225",
+    "ActiveErpLinks": 34,
+    "NextDueDate": "2009-12-28T14:28:22.3678792+01:00",
+    "Number": "991773",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 765
+        "FieldLength": 14
       }
     }
   }

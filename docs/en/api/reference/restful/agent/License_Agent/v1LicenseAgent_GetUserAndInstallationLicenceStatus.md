@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserAndInstallationLicenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 980
+  "AssociateId": 1001
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AdminWarningDate": "2009-04-23T02:38:21.4639053+02:00",
-  "ExpiryDate": "2019-07-27T02:38:21.4639053+02:00",
-  "GraceDate": "2005-04-11T02:38:21.4639053+02:00",
-  "CompanyName": "Hahn Inc and Sons",
+  "AdminWarningDate": "2019-12-18T14:28:22.0241429+01:00",
+  "ExpiryDate": "2022-02-12T14:28:22.0241429+01:00",
+  "GraceDate": "2009-02-14T14:28:22.0241429+01:00",
+  "CompanyName": "Parisian, Kozey and Doyle",
   "SerialNr": "1010000006",
   "UserLicenses": [
-    "dicta",
-    "sint"
+    "cum",
+    "illum"
   ]
 }
 ```

@@ -89,7 +89,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 838
+  "QuoteId": 84
 }
 ```
 
@@ -100,58 +100,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 679,
-  "SaleId": 580,
-  "QuoteConnectionId": 281,
-  "ERPQuoteKey": "tenetur",
-  "ERPOrderKey": "consequatur",
-  "ActiveQuoteVersionId": 110,
-  "AcceptedQuoteAlternativeId": 192,
-  "UseValuesFromQuote": 415,
-  "DocumentId": 709,
-  "PoNumber": "192203",
-  "OrderComment": "ea",
-  "PreferredEmailCulture": "randi.zemlak@jerde.ca",
+  "QuoteId": 597,
+  "SaleId": 909,
+  "QuoteConnectionId": 106,
+  "ERPQuoteKey": "impedit",
+  "ERPOrderKey": "quae",
+  "ActiveQuoteVersionId": 123,
+  "AcceptedQuoteAlternativeId": 146,
+  "UseValuesFromQuote": 652,
+  "DocumentId": 908,
+  "PoNumber": "962671",
+  "OrderComment": "dolorem",
+  "PreferredEmailCulture": "mable_mills@cummingsohara.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 96,
-      "ERPQuoteVersionKey": "esse",
-      "QuoteId": 594,
-      "Description": "Polarised leading edge service-desk",
-      "Number": "1062017",
+      "QuoteVersionId": 960,
+      "ERPQuoteVersionKey": "illo",
+      "QuoteId": 526,
+      "Description": "Public-key dedicated structure",
+      "Number": "1071689",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
-      "Reason": "",
-      "LikelyQuoteAlternativeId": 969,
-      "SentDate": "2024-08-09T02:38:21.7763357+02:00",
-      "FollowupId": 435,
-      "ExpirationDate": "2017-09-19T02:38:21.7763357+02:00",
-      "DeliveryCountryId": 112,
-      "HasOwnDeliveryAddress": false,
-      "InvoiceCountryId": 278,
-      "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "quia",
-      "ERPPaymentTypeKey": "est",
-      "ERPDeliveryTermsKey": "cupiditate",
-      "ERPDeliveryTypeKey": "iste",
-      "Rank": 572,
-      "ApprovedBy": 721,
-      "ApprovedText": "minus",
-      "ApprovedRegisteredBy": 607,
-      "ApprovedRegisteredDate": "2005-03-11T02:38:21.7763357+01:00",
-      "ExtraField1": "corporis",
-      "ExtraField2": "eos",
-      "ExtraField3": "quos",
-      "ExtraField4": "id",
-      "ExtraField5": "cumque",
-      "LastRecalculated": "2011-03-17T02:38:21.7763357+01:00",
-      "Updated": "2015-05-15T02:38:21.7763357+02:00",
-      "UpdatedAssociateId": 218,
-      "Registered": "2006-07-26T02:38:21.7763357+02:00",
-      "RegisteredAssociateId": 747,
-      "RequestAssociateId": 959,
-      "RequestComment": "et",
+      "Reason": "redefine virtual supply-chains",
+      "LikelyQuoteAlternativeId": 196,
+      "SentDate": "2023-02-23T14:28:22.3053817+01:00",
+      "FollowupId": 494,
+      "ExpirationDate": "2023-01-10T14:28:22.3053817+01:00",
+      "DeliveryCountryId": 420,
+      "HasOwnDeliveryAddress": true,
+      "InvoiceCountryId": 120,
+      "HasOwnInvoiceAddress": false,
+      "ERPPaymentTermsKey": "odio",
+      "ERPPaymentTypeKey": "commodi",
+      "ERPDeliveryTermsKey": "necessitatibus",
+      "ERPDeliveryTypeKey": "tempore",
+      "Rank": 621,
+      "ApprovedBy": 260,
+      "ApprovedText": "exercitationem",
+      "ApprovedRegisteredBy": 972,
+      "ApprovedRegisteredDate": "2021-05-16T14:28:22.3053817+02:00",
+      "ExtraField1": "quam",
+      "ExtraField2": "sit",
+      "ExtraField3": "possimus",
+      "ExtraField4": "animi",
+      "ExtraField5": "reprehenderit",
+      "LastRecalculated": "2017-10-30T14:28:22.3053817+01:00",
+      "Updated": "2004-10-19T14:28:22.3053817+02:00",
+      "UpdatedAssociateId": 234,
+      "Registered": "2013-06-14T14:28:22.3053817+02:00",
+      "RegisteredAssociateId": 332,
+      "RequestAssociateId": 541,
+      "RequestComment": "nihil",
       "QuoteAlternatives": [
         {},
         {}
@@ -161,7 +161,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 528
+          "FieldLength": 180
         }
       }
     }
@@ -170,8 +170,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 941
+      "FieldType": "System.String",
+      "FieldLength": 902
     }
   }
 }

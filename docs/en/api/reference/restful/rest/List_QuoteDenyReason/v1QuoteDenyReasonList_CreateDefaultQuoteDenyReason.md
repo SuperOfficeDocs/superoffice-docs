@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 377,
-  "Name": "Pacocha-Erdman",
-  "Tooltip": "deleniti",
+  "Id": 195,
+  "Name": "Schroeder, Kozey and Herman",
+  "Tooltip": "dicta",
   "Deleted": false,
-  "UdListDefinitionId": 437,
-  "Rank": 636,
+  "UdListDefinitionId": 703,
+  "Rank": 571,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 999
+      "FieldLength": 834
     }
   }
 }

@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "commodi",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "commodi",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 680,
-  "TopicId": 489,
+  "ChatSessionId": 209,
+  "TopicId": 860,
   "User": null,
   "Person": null,
-  "CustomerAlias": "iure",
-  "CustomerHost": "eligendi",
-  "CustomerName": "Moore, Hammes and Schaefer",
-  "CustomerEmail": "carolyn.barton@kub.ca",
-  "CustomerPhone": "1-252-756-2771",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Stiedemann-Hahn",
+  "CustomerAlias": "vel",
+  "CustomerHost": "consequatur",
+  "CustomerName": "Lehner Group",
+  "CustomerEmail": "lula@terry.com",
+  "CustomerPhone": "253-346-6803",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Miller, Bernier and Olson",
   "Status": "Closed",
-  "FirstMessage": "ducimus",
-  "LastMessage": "voluptas",
-  "WhenRequested": "2010-02-21T02:38:25.8704588+01:00",
-  "WhenStarted": "2007-06-16T02:38:25.8704588+02:00",
-  "WhenEnded": "2002-06-13T02:38:25.8704588+02:00",
-  "WhenIdle": "2025-02-14T02:38:25.8704588+01:00",
-  "WhenFetched": "2004-06-06T02:38:25.8704588+02:00",
-  "SessionKey": "possimus",
-  "InitialQueuePos": 762,
-  "AlertLevel": 414,
-  "Rank": 25,
+  "FirstMessage": "dolores",
+  "LastMessage": "delectus",
+  "WhenRequested": "2023-05-16T14:28:26.7270778+02:00",
+  "WhenStarted": "2002-02-07T14:28:26.7270778+01:00",
+  "WhenEnded": "2003-05-02T14:28:26.7270778+02:00",
+  "WhenIdle": "2009-04-07T14:28:26.7270778+02:00",
+  "WhenFetched": "2013-10-07T14:28:26.7270778+02:00",
+  "SessionKey": "maxime",
+  "InitialQueuePos": 983,
+  "AlertLevel": 726,
+  "Rank": 86,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 823,
+  "ChatbotIsActive": false,
+  "Rating": 282,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 551
+      "FieldLength": 118
     }
   },
   "_Links": {

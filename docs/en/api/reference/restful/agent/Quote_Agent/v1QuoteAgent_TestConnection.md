@@ -85,10 +85,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Huel Inc and Sons",
+  "ConnectorName": "Veum Group",
   "ConnectionData": {
-    "ConnectionData1": "hic",
-    "ConnectionData2": "incidunt"
+    "ConnectionData1": "sed",
+    "ConnectionData2": "magni"
   }
 }
 ```
@@ -101,9 +101,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "qui",
-  "TechExplanation": "iure",
-  "ErrorCode": "cum",
+  "UserExplanation": "enim",
+  "TechExplanation": "maxime",
+  "ErrorCode": "repellat",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 653
+      "FieldLength": 948
     }
   }
 }

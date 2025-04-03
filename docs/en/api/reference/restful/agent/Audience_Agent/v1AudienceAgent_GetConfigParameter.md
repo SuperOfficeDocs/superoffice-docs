@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Watsica LLC",
-  "ParameterName": "Cummerata, Sanford and Dare"
+  "LayoutName": "Quigley, Labadie and Bailey",
+  "ParameterName": "Armstrong Inc and Sons"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 263,
-  "Name": "Feil Group",
-  "Value": "molestiae",
-  "CreatedDate": "2007-10-31T02:38:20.8702208+01:00",
-  "UpdatedDate": "2020-05-16T02:38:20.8702208+02:00",
-  "CreatedBy": "non",
-  "UpdatedBy": "repudiandae",
+  "AudienceLayoutId": 565,
+  "Name": "Hickle Group",
+  "Value": "soluta",
+  "CreatedDate": "2012-12-19T14:28:21.47729+01:00",
+  "UpdatedDate": "2014-07-19T14:28:21.47729+02:00",
+  "CreatedBy": "omnis",
+  "UpdatedBy": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 144
+      "FieldType": "System.Int32",
+      "FieldLength": 42
     }
   }
 }

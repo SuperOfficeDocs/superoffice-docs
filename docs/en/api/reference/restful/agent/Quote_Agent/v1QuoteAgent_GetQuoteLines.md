@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 701
+  "QuoteAlternativeId": 737
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 224,
-    "ERPQuoteLineKey": "quia",
-    "QuoteAlternativeId": 687,
-    "ERPProductKey": "error",
+    "QuoteLineId": 138,
+    "ERPQuoteLineKey": "quam",
+    "QuoteAlternativeId": 116,
+    "ERPProductKey": "quis",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 30910.642,
-    "DeliveredQuantity": 5804.168,
-    "Rank": 320,
-    "Name": "O'Kon-Cremin",
-    "Description": "Compatible explicit knowledge base",
-    "Code": "excepturi",
-    "QuantityUnit": "a",
-    "PriceUnit": "odit",
-    "ItemNumber": "1067224",
+    "Quantity": 16926.734,
+    "DeliveredQuantity": 8464.934,
+    "Rank": 645,
+    "Name": "Welch, Gulgowski and Bogisich",
+    "Description": "Secured zero defect circuit",
+    "Code": "vero",
+    "QuantityUnit": "non",
+    "PriceUnit": "ut",
+    "ItemNumber": "577980",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "cupiditate",
-    "ProductTypeKey": "excepturi",
-    "Supplier": "harum",
-    "SupplierCode": "corporis",
-    "Thumbnail": "quaerat",
-    "VATInfo": "consequatur",
-    "VAT": 28162.124,
-    "UnitCost": 18995.174,
-    "UnitMinimumPrice": 996.612,
-    "UnitListPrice": 19969.847999999998,
+    "ProductFamilyKey": "odit",
+    "ProductTypeKey": "enim",
+    "Supplier": "consequatur",
+    "SupplierCode": "dignissimos",
+    "Thumbnail": "voluptate",
+    "VATInfo": "quis",
+    "VAT": 1482.382,
+    "UnitCost": 22796.716,
+    "UnitMinimumPrice": 2187.532,
+    "UnitListPrice": 25260.04,
     "ExtraInfo": [
       {
-        "Name": "Hilpert, Lockman and Greenholt",
-        "Value": "sed",
+        "Name": "Oberbrunner-Jacobi",
+        "Value": "assumenda",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 341
+            "FieldLength": 76
           }
         }
       },
       {
-        "Name": "Hilpert, Lockman and Greenholt",
-        "Value": "sed",
+        "Name": "Oberbrunner-Jacobi",
+        "Value": "assumenda",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 341
+            "FieldLength": 76
           }
         }
       }
     ],
-    "RawExtraInfo": "hic",
+    "RawExtraInfo": "neque",
     "IsSubscription": false,
-    "SubscriptionUnit": "et",
-    "SubscriptionQuantity": 29139.932,
-    "SubscriptionStart": "2015-02-26T02:38:21.7919947+01:00",
-    "ERPDiscountPercent": 21690.414,
-    "ERPDiscountAmount": 30957.652,
-    "DiscountPercent": 16541.252,
-    "DiscountAmount": 28390.906,
+    "SubscriptionUnit": "praesentium",
+    "SubscriptionQuantity": 23078.775999999998,
+    "SubscriptionStart": "2010-10-08T14:28:22.3053817+02:00",
+    "ERPDiscountPercent": 16331.274,
+    "ERPDiscountAmount": 24366.85,
+    "DiscountPercent": 1184.652,
+    "DiscountAmount": 27522.788,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 8916.23,
-    "EarningAmount": 15394.207999999999,
-    "SubTotal": 9166.9499999999989,
-    "TotalPrice": 8950.704,
-    "Rights": "et",
-    "Rule": "reiciendis",
-    "ExtraField1": "aut",
-    "ExtraField2": "illum",
-    "ExtraField3": "qui",
-    "ExtraField4": "soluta",
-    "ExtraField5": "inventore",
+    "EarningPercent": 6766.306,
+    "EarningAmount": 24482.808,
+    "SubTotal": 19001.442,
+    "TotalPrice": 12106.642,
+    "Rights": "eum",
+    "Rule": "sapiente",
+    "ExtraField1": "quis",
+    "ExtraField2": "nemo",
+    "ExtraField3": "nisi",
+    "ExtraField4": "id",
+    "ExtraField5": "occaecati",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldLength": 77
       }
     }
   }

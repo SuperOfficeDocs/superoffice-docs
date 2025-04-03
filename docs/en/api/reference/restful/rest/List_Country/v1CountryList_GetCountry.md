@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 149,
-  "Name": "Leffler-Yundt",
-  "CurrencyId": 680,
-  "EnglishName": "Wunsch, Pacocha and Yundt",
+  "CountryId": 783,
+  "Name": "Ankunding Inc and Sons",
+  "CurrencyId": 766,
+  "EnglishName": "Renner Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Open-architected executive knowledge user",
-  "OrgNrText": "1325711",
-  "InterAreaPrefix": "doloremque",
-  "DialInPrefix": "sint",
-  "ZipPrefix": "aut",
-  "DomainName": "Grimes, Donnelly and Considine",
-  "AddressLayoutId": 186,
-  "DomesticAddressLayoutId": 553,
-  "ForeignAddressLayoutId": 799,
-  "Rank": 837,
-  "Tooltip": "maiores",
-  "Deleted": true,
+  "ImageDescription": "Team-oriented holistic knowledge user",
+  "OrgNrText": "775203",
+  "InterAreaPrefix": "ducimus",
+  "DialInPrefix": "ut",
+  "ZipPrefix": "praesentium",
+  "DomainName": "Grimes-Bayer",
+  "AddressLayoutId": 786,
+  "DomesticAddressLayoutId": 912,
+  "ForeignAddressLayoutId": 753,
+  "Rank": 96,
+  "Tooltip": "incidunt",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldLength": 825
     }
   }
 }

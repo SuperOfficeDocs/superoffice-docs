@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 755,
-  "FieldName": "Mueller Group",
-  "Label": "ipsam",
-  "Tooltip": "qui",
+  "QuoteLineConfigurationId": 791,
+  "FieldName": "Roob LLC",
+  "Label": "dolorem",
+  "Tooltip": "est",
   "Editable": false,
-  "InUse": false,
+  "InUse": true,
   "Mandatory": false,
-  "Rank": 415,
+  "Rank": 445,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 295
+      "FieldType": "System.Int32",
+      "FieldLength": 237
     }
   }
 }

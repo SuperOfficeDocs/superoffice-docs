@@ -77,17 +77,17 @@ OK
 POST /api/v1/Agents/Report/SaveReportEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 278,
+  "ReportId": 445,
   "ReportCategory": "All",
-  "Description": "Business-focused empowering ability",
+  "Description": "Diverse maximized capacity",
   "ReportLayout": "CalendarMonth",
-  "Name": "Wiegand, Dare and Schmitt",
-  "AssociateId": 198,
-  "TemplateId": 147,
+  "Name": "Hermann LLC",
+  "AssociateId": 402,
+  "TemplateId": 538,
   "Published": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 234,
+  "ReportId": 152,
   "ReportCategory": "All",
-  "Description": "Reactive disintermediate portal",
+  "Description": "Front-line multi-state focus group",
   "ReportLayout": "CalendarMonth",
-  "Name": "Wilkinson LLC",
-  "AssociateId": 248,
-  "TemplateId": 731,
+  "Name": "Lakin, Mante and Ritchie",
+  "AssociateId": 226,
+  "TemplateId": 902,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 199
+      "FieldType": "System.Int32",
+      "FieldLength": 519
     }
   }
 }

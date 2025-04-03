@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/MrMrs/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 86,
-    "Name": "McGlynn-Crooks",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 162,
-    "UdListDefinitionId": 513
+    "HeadingId": 96,
+    "Name": "Koepp, Kunze and Beatty",
+    "Tooltip": "cumque",
+    "Deleted": true,
+    "Rank": 577,
+    "UdListDefinitionId": 448
   },
   {
-    "HeadingId": 86,
-    "Name": "McGlynn-Crooks",
-    "Tooltip": "ut",
-    "Deleted": false,
-    "Rank": 162,
-    "UdListDefinitionId": 513
+    "HeadingId": 96,
+    "Name": "Koepp, Kunze and Beatty",
+    "Tooltip": "cumque",
+    "Deleted": true,
+    "Rank": 577,
+    "UdListDefinitionId": 448
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 182,
-    "Name": "Huel Inc and Sons",
-    "Tooltip": "magni",
-    "Deleted": true,
-    "Rank": 667,
-    "UdListDefinitionId": 217,
+    "HeadingId": 613,
+    "Name": "Funk, Brekke and Heathcote",
+    "Tooltip": "blanditiis",
+    "Deleted": false,
+    "Rank": 449,
+    "UdListDefinitionId": 58,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 746
+        "FieldLength": 132
       }
     }
   }

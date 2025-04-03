@@ -83,8 +83,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 972,
-  "UdListDefinitionId": 132
+  "Id": 181,
+  "UdListDefinitionId": 674
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 354,
-  "Name": "Reichel-Berge",
-  "Tooltip": "et",
+  "Id": 167,
+  "Name": "Stehr Inc and Sons",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 64,
-  "Rank": 818,
+  "UdListDefinitionId": 49,
+  "Rank": 787,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 137
+      "FieldLength": 129
     }
   }
 }

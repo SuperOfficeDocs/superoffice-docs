@@ -89,13 +89,13 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "O'Conner LLC",
-  "ListItemId": 242,
-  "ShowDeleted": true
+  "UdListDefinitionName": "Crooks Group",
+  "ListItemId": 930,
+  "ShowDeleted": false
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 395,
-    "Name": "Dietrich LLC",
-    "ToolTip": "Dolor sed amet aut alias voluptas.",
-    "Deleted": true,
-    "Rank": 108,
-    "Type": "sed",
-    "ColorBlock": 880,
-    "IconHint": "officia",
-    "Selected": true,
-    "LastChanged": "2014-04-25T02:38:21.5107392+02:00",
+    "Id": 300,
+    "Name": "Hessel-Waelchi",
+    "ToolTip": "Aspernatur impedit voluptatibus ut.",
+    "Deleted": false,
+    "Rank": 76,
+    "Type": "aut",
+    "ColorBlock": 59,
+    "IconHint": "provident",
+    "Selected": false,
+    "LastChanged": "1999-04-02T14:28:22.0553915+02:00",
     "ChildItems": [
       {
-        "Id": 396,
-        "Name": "Hegmann, Witting and Gleason",
-        "ToolTip": "Sed voluptate ullam.",
+        "Id": 692,
+        "Name": "Collins-Ziemann",
+        "ToolTip": "Omnis consequatur.",
         "Deleted": false,
-        "Rank": 406,
-        "Type": "impedit",
-        "ColorBlock": 852,
-        "IconHint": "adipisci",
+        "Rank": 305,
+        "Type": "ullam",
+        "ColorBlock": 719,
+        "IconHint": "dolores",
         "Selected": false,
-        "LastChanged": "2017-05-26T02:38:21.5107392+02:00",
+        "LastChanged": "2018-10-10T14:28:22.0553915+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "provident",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Giovanna Tillman",
+        "FullName": "Ellie Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 869
+            "FieldLength": 568
           }
         }
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "architecto",
+    "ExtraInfo": "nostrum",
+    "StyleHint": "repellat",
     "Hidden": false,
-    "FullName": "Mr. Yessenia Wunsch Jr.",
+    "FullName": "Mr. Brendan Ullrich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldType": "System.String",
+        "FieldLength": 364
       }
     }
   }

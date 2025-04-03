@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 210,
+  "ProjectEntityId": 979,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 212,
-      "ContactId": 362,
-      "ProjectId": 350,
-      "ContactName": "Mayert Group",
+      "ProjectmemberId": 951,
+      "ContactId": 55,
+      "ProjectId": 935,
+      "ContactName": "Haag Group",
       "ContactDepartment": "",
-      "ProjectName": "Buckridge, Ondricka and Bradtke",
-      "EmailId": 233,
-      "EmailAddress": "kailyn@schmitt.info",
-      "CountryId": 352,
-      "Firstname": "Lloyd",
-      "MiddleName": "Wiza, Trantow and Macejkovic",
-      "Lastname": "Nitzsche",
-      "PersonId": 625,
-      "Mrmrs": "et",
-      "ProjectMemberTypeName": "Johns Inc and Sons",
-      "Phone": "219.198.9637",
-      "PhoneId": 539,
-      "ProjectMemberTypeId": 567,
-      "EmailAddressName": "margaretta.morissette@gleason.us",
-      "Comment": "iusto",
-      "FullName": "Morton Mueller"
+      "ProjectName": "Marvin Group",
+      "EmailId": 560,
+      "EmailAddress": "elliot.hilpert@wehner.com",
+      "CountryId": 13,
+      "Firstname": "Meredith",
+      "MiddleName": "Champlin-Walter",
+      "Lastname": "Rolfson",
+      "PersonId": 115,
+      "Mrmrs": "cumque",
+      "ProjectMemberTypeName": "Altenwerth LLC",
+      "Phone": "396-830-3743",
+      "PhoneId": 505,
+      "ProjectMemberTypeId": 333,
+      "EmailAddressName": "avery_wolf@marvin.biz",
+      "Comment": "doloribus",
+      "FullName": "Miss Miles Green"
     }
   ]
 }

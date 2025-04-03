@@ -91,7 +91,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectorName": "Steuber, Champlin and Gutmann"
+  "ConnectorName": "Grady-Rice"
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 488,
-  "ERPName": "Fahey-Fisher",
-  "DisplayName": "Hoeger-Goodwin",
-  "DisplayDescription": "Stand-alone asynchronous info-mediaries",
-  "Rank": 518,
-  "ConnectorName": "Blick Inc and Sons",
-  "ErpConnectionId": 860,
-  "ExtraData": "dolorum",
-  "IsAvailable": true,
+  "QuoteConnectionId": 893,
+  "ERPName": "Feeney, Lang and Leffler",
+  "DisplayName": "Emard LLC",
+  "DisplayDescription": "User-centric eco-centric help-desk",
+  "Rank": 782,
+  "ConnectorName": "Reynolds-Gaylord",
+  "ErpConnectionId": 873,
+  "ExtraData": "voluptatem",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 446,
-      "ERPPriceListKey": "inventore",
-      "QuoteConnectionId": 385,
-      "Name": "Cremin, Ritchie and Kautzer",
-      "Description": "Digitized stable encoding",
-      "Currency": "consequatur",
-      "CurrencyName": "Littel-Friesen",
-      "ValidFrom": "2000-02-06T02:38:21.7763357+01:00",
-      "ValidTo": "1998-07-02T02:38:21.7763357+02:00",
-      "IsActive": false,
+      "PriceListId": 171,
+      "ERPPriceListKey": "error",
+      "QuoteConnectionId": 746,
+      "Name": "Stiedemann-Funk",
+      "Description": "Open-source uniform service-desk",
+      "Currency": "illo",
+      "CurrencyName": "Harvey-Daniel",
+      "ValidFrom": "2016-05-18T14:28:22.3053817+02:00",
+      "ValidTo": "2025-02-16T14:28:22.3053817+01:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldLength": 49
         }
       }
     }
   ],
-  "AllAccess": true,
-  "Deleted": true,
+  "AllAccess": false,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    186,
-    914
+    660,
+    920
   ],
   "AssociateAccessIds": [
-    669,
-    503
+    144,
+    182
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 421
+      "FieldType": "System.Int32",
+      "FieldLength": 949
     }
   }
 }

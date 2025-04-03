@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 126,
-    "ColumnId": 397,
-    "FieldDefault": "voluptatem",
-    "FieldHeight": 479,
-    "FieldLabel": "sed",
-    "FieldLeft": 376,
-    "FieldTop": 705,
+    "UDefFieldId": 74,
+    "ColumnId": 662,
+    "FieldDefault": "quibusdam",
+    "FieldHeight": 664,
+    "FieldLabel": "molestiae",
+    "FieldLeft": 130,
+    "FieldTop": 683,
     "FieldType": "Checkbox",
-    "FieldWidth": 373,
-    "FormatMask": "magnam",
-    "HideLabel": true,
+    "FieldWidth": 935,
+    "FormatMask": "odit",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 653,
-    "LabelLeft": 829,
-    "LabelTop": 355,
-    "LabelWidth": 183,
-    "LastVersionId": 398,
-    "ListTableId": 710,
+    "LabelHeight": 709,
+    "LabelLeft": 428,
+    "LabelTop": 627,
+    "LabelWidth": 209,
+    "LastVersionId": 786,
+    "ListTableId": 638,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 411,
-    "ProgId": "facilis",
+    "Page1LineNo": 649,
+    "ProgId": "et",
     "IsReadOnly": false,
-    "ShortLabel": "quia",
-    "TabOrder": 929,
-    "TextLength": 791,
-    "Tooltip": "repellat",
-    "UdefIdentity": 256,
-    "UDListDefinitionId": 460,
+    "ShortLabel": "qui",
+    "TabOrder": 661,
+    "TextLength": 179,
+    "Tooltip": "pariatur",
+    "UdefIdentity": 510,
+    "UDListDefinitionId": 417,
     "Justification": "Center",
-    "Version": 462,
-    "TemplateVariableName": "Huels LLC",
+    "Version": 767,
+    "TemplateVariableName": "Lueilwitz LLC",
     "HasBeenPublished": true,
-    "MdoListName": "Hand LLC",
+    "MdoListName": "Donnelly, Wiegand and Gleason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldLength": 391
       }
     }
   }

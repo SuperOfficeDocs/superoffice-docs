@@ -80,7 +80,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 178
+  "AssociateId": 296
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Funk Group",
-    "Description": "Re-contextualized analyzing approach",
+    "Name": "Rosenbaum Inc and Sons",
+    "Description": "Cross-platform content-based model",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 150,
-        "Tooltip": "numquam",
+        "Unrestricted": true,
+        "Total": 514,
+        "Tooltip": "est",
         "CanAssign": false,
-        "Free": 371,
-        "InUse": 834,
+        "Free": 652,
+        "InUse": 559,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 812,
-        "Name": "Conroy-Jakubowski",
-        "Description": "Pre-emptive systemic hierarchy",
-        "PrerequisiteModuleName": "Stamm Inc and Sons",
-        "SortOrder": 232,
-        "ExtraFlags": 148,
+        "ModuleLicenseId": 852,
+        "Name": "McLaughlin-Pouros",
+        "Description": "Organized zero defect alliance",
+        "PrerequisiteModuleName": "Crona Group",
+        "SortOrder": 12,
+        "ExtraFlags": 873,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 420
+            "FieldLength": 193
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 525,
-        "Tooltip": "culpa",
+        "Total": 657,
+        "Tooltip": "quia",
         "CanAssign": false,
-        "Free": 35,
-        "InUse": 35,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 542,
-        "Name": "Moore, Conn and Beahan",
-        "Description": "Balanced modular success",
-        "PrerequisiteModuleName": "Ondricka, Considine and Graham",
-        "SortOrder": 885,
-        "ExtraFlags": 777,
+        "Free": 966,
+        "InUse": 3,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 685,
+        "Name": "Cormier-Kunze",
+        "Description": "Versatile grid-enabled software",
+        "PrerequisiteModuleName": "Schuppe-Gorczany",
+        "SortOrder": 643,
+        "ExtraFlags": 269,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 167
+            "FieldType": "System.Int32",
+            "FieldLength": 899
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldLength": 405
       }
     }
   },
   {
-    "Name": "Funk Group",
-    "Description": "Re-contextualized analyzing approach",
+    "Name": "Rosenbaum Inc and Sons",
+    "Description": "Cross-platform content-based model",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 150,
-        "Tooltip": "numquam",
+        "Unrestricted": true,
+        "Total": 514,
+        "Tooltip": "est",
         "CanAssign": false,
-        "Free": 371,
-        "InUse": 834,
+        "Free": 652,
+        "InUse": 559,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 812,
-        "Name": "Conroy-Jakubowski",
-        "Description": "Pre-emptive systemic hierarchy",
-        "PrerequisiteModuleName": "Stamm Inc and Sons",
-        "SortOrder": 232,
-        "ExtraFlags": 148,
+        "ModuleLicenseId": 852,
+        "Name": "McLaughlin-Pouros",
+        "Description": "Organized zero defect alliance",
+        "PrerequisiteModuleName": "Crona Group",
+        "SortOrder": 12,
+        "ExtraFlags": 873,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 420
+            "FieldLength": 193
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 525,
-        "Tooltip": "culpa",
+        "Total": 657,
+        "Tooltip": "quia",
         "CanAssign": false,
-        "Free": 35,
-        "InUse": 35,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 542,
-        "Name": "Moore, Conn and Beahan",
-        "Description": "Balanced modular success",
-        "PrerequisiteModuleName": "Ondricka, Considine and Graham",
-        "SortOrder": 885,
-        "ExtraFlags": 777,
+        "Free": 966,
+        "InUse": 3,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 685,
+        "Name": "Cormier-Kunze",
+        "Description": "Versatile grid-enabled software",
+        "PrerequisiteModuleName": "Schuppe-Gorczany",
+        "SortOrder": 643,
+        "ExtraFlags": 269,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 167
+            "FieldType": "System.Int32",
+            "FieldLength": 899
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldLength": 405
       }
     }
   }

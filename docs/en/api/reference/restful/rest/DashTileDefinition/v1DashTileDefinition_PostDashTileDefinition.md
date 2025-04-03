@@ -112,29 +112,29 @@ OK
 POST /api/v1/DashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 170,
-  "Name": "Hermann, Schamberger and Towne",
-  "Description": "Up-sized next generation open system",
-  "DefaultHeight": 193,
-  "DefaultWidth": 566,
+  "DashboardTileDefinitionId": 794,
+  "Name": "Vandervort Group",
+  "Description": "Expanded full-range moratorium",
+  "DefaultHeight": 521,
+  "DefaultWidth": 657,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Yundt, Bayer and Hirthe",
-  "SelectionId": 318,
+  "EntityName": "Wilkinson, Macejkovic and Hamill",
+  "SelectionId": 647,
   "CurrencyMode": "Base",
-  "CurrencyCode": "voluptas",
+  "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "ea",
-  "SortBy": "sapiente",
-  "LayoutConfig": "ut",
-  "SecondarySelectionId": 467,
-  "MeasureByField": "ex",
+  "MeasureField": "ut",
+  "SortBy": "ut",
+  "LayoutConfig": "est",
+  "SecondarySelectionId": 864,
+  "MeasureByField": "reiciendis",
   "Usage": "Dashboard",
-  "ProviderName": "Romaguera, Fadel and Mitchell"
+  "ProviderName": "Langworth, Senger and Gleason"
 }
 ```
 
@@ -145,31 +145,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 159,
-  "Name": "Murphy LLC",
-  "Description": "Automated exuding firmware",
-  "DefaultHeight": 473,
-  "DefaultWidth": 742,
+  "DashboardTileDefinitionId": 984,
+  "Name": "Farrell-Stiedemann",
+  "Description": "Optimized logistical software",
+  "DefaultHeight": 400,
+  "DefaultWidth": 17,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Kerluke, Friesen and Emard",
-  "SelectionId": 90,
+  "EntityName": "Stoltenberg-Sawayn",
+  "SelectionId": 982,
   "CurrencyMode": "Base",
-  "CurrencyCode": "velit",
+  "CurrencyCode": "voluptatibus",
   "Measure": "Average",
-  "MeasureField": "aut",
-  "SortBy": "ut",
-  "LayoutConfig": "non",
-  "SecondarySelectionId": 111,
-  "MeasureByField": "nihil",
+  "MeasureField": "eligendi",
+  "SortBy": "at",
+  "LayoutConfig": "nisi",
+  "SecondarySelectionId": 63,
+  "MeasureByField": "perspiciatis",
   "Usage": "Dashboard",
-  "ProviderName": "Klocko LLC",
+  "ProviderName": "Bailey, Rath and Kunde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 882
+      "FieldLength": 971
     }
   },
   "_Links": {

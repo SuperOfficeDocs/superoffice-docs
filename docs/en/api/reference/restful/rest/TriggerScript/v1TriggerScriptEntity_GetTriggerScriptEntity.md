@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 605,
-  "Name": "Hessel LLC",
+  "ScreenChooserId": 708,
+  "Name": "Rath Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "illum",
-  "Source": "veritatis",
-  "Registered": "2010-01-04T02:38:26.5266399+01:00",
-  "RegisteredAssociateId": 504,
-  "Updated": "2009-02-19T02:38:26.5266399+01:00",
-  "UpdatedAssociateId": 925,
+  "UniqueIdentifier": "et",
+  "Source": "dolore",
+  "Registered": "2017-08-09T14:28:27.3520534+02:00",
+  "RegisteredAssociateId": 987,
+  "Updated": "2008-02-05T14:28:27.3520534+01:00",
+  "UpdatedAssociateId": 627,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 697
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

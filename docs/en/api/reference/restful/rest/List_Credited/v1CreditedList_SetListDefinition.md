@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 471,
-  "Name": "Bogan Group",
-  "Tooltip": "tempore",
+  "Id": 489,
+  "Name": "Gulgowski, Orn and Denesik",
+  "Tooltip": "temporibus",
   "Deleted": false,
-  "Rank": 20,
-  "IsCustomList": false,
+  "Rank": 463,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "architecto",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 349,
-  "Name": "Oberbrunner, Block and West",
-  "Tooltip": "provident",
+  "Id": 490,
+  "Name": "Sauer LLC",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 542,
+  "Rank": 215,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
-  "InUseByUserDefinedFields": true,
+  "ListType": "velit",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldType": "System.String",
+      "FieldLength": 704
     }
   }
 }

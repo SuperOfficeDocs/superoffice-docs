@@ -62,7 +62,7 @@ OK
 GET /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,58 +73,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "DuBuque, Lockman and Maggio",
-    "Description": "Fully-configurable non-volatile time-frame",
-    "Rank": 855,
+    "Name": "Parisian-Schamberger",
+    "Description": "Ameliorated cohesive standardization",
+    "Rank": 999,
     "Restrictions": [
       {
-        "Name": "Becker-Ondricka",
-        "Operator": "hic",
+        "Name": "Weissnat-McKenzie",
+        "Operator": "voluptatem",
         "Values": [
-          "dolorem",
-          "occaecati"
+          "eveniet",
+          "debitis"
         ],
         "DisplayValues": [
-          "facere",
-          "aut"
+          "fugit",
+          "est"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 33,
+        "InterParenthesis": 814,
         "InterOperator": "And",
-        "UniqueHash": 196
+        "UniqueHash": 429
       }
     ]
   },
   {
-    "Name": "DuBuque, Lockman and Maggio",
-    "Description": "Fully-configurable non-volatile time-frame",
-    "Rank": 855,
+    "Name": "Parisian-Schamberger",
+    "Description": "Ameliorated cohesive standardization",
+    "Rank": 999,
     "Restrictions": [
       {
-        "Name": "Becker-Ondricka",
-        "Operator": "hic",
+        "Name": "Weissnat-McKenzie",
+        "Operator": "voluptatem",
         "Values": [
-          "dolorem",
-          "occaecati"
+          "eveniet",
+          "debitis"
         ],
         "DisplayValues": [
-          "facere",
-          "aut"
+          "fugit",
+          "est"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 33,
+        "InterParenthesis": 814,
         "InterOperator": "And",
-        "UniqueHash": 196
+        "UniqueHash": 429
       }
     ]
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Name": "Herman, Pouros and Beer",
-    "ToolTip": "Vel molestiae aut optio dignissimos non dolor.",
+    "Id": 669,
+    "Name": "Keebler-Rohan",
+    "ToolTip": "Qui laborum tempora fugit nostrum asperiores vel veritatis.",
     "Deleted": true,
-    "Rank": 9,
-    "Type": "qui",
-    "ColorBlock": 146,
-    "IconHint": "qui",
+    "Rank": 994,
+    "Type": "debitis",
+    "ColorBlock": 331,
+    "IconHint": "ipsam",
     "Selected": false,
-    "LastChanged": "2017-08-27T02:38:26.7299042+02:00",
+    "LastChanged": "2008-07-08T14:28:27.5395453+02:00",
     "ChildItems": [
       {
-        "Id": 750,
-        "Name": "D'Amore-Schroeder",
-        "ToolTip": "Cumque mollitia consequatur quo placeat.",
-        "Deleted": true,
-        "Rank": 705,
-        "Type": "velit",
-        "ColorBlock": 837,
-        "IconHint": "odio",
+        "Id": 814,
+        "Name": "Jacobson-Glover",
+        "ToolTip": "Quo dolorem sunt voluptatem sit qui beatae.",
+        "Deleted": false,
+        "Rank": 256,
+        "Type": "vero",
+        "ColorBlock": 337,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "2018-07-19T02:38:26.7299042+02:00",
+        "LastChanged": "2009-06-01T14:28:27.5395453+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "beatae",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Rhett Friesen"
+        "FullName": "Miles Hilma Reichert Jr."
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "sunt",
+    "ExtraInfo": "dolores",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Mrs. Marilou Koepp III"
+    "FullName": "Prof. Karlee Icie Dicki"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "Lynch LLC",
-    "ToolTip": "Quis et tenetur rerum a quo officia.",
+    "Id": 771,
+    "Name": "Conn, Bosco and Gutmann",
+    "ToolTip": "Est expedita et voluptatem et enim autem.",
     "Deleted": false,
-    "Rank": 686,
-    "Type": "sit",
-    "ColorBlock": 218,
-    "IconHint": "nisi",
+    "Rank": 873,
+    "Type": "rerum",
+    "ColorBlock": 650,
+    "IconHint": "sapiente",
     "Selected": false,
-    "LastChanged": "2022-03-11T02:38:26.7455241+01:00",
+    "LastChanged": "2005-02-14T14:28:27.5395453+01:00",
     "ChildItems": [
       {
-        "Id": 668,
-        "Name": "Morissette Group",
-        "ToolTip": "Libero quisquam vel dolor iure occaecati.",
+        "Id": 431,
+        "Name": "Prohaska-Stehr",
+        "ToolTip": "Enim quibusdam aut id vel.",
         "Deleted": false,
-        "Rank": 939,
-        "Type": "cupiditate",
-        "ColorBlock": 855,
-        "IconHint": "iusto",
-        "Selected": false,
-        "LastChanged": "2006-11-09T02:38:26.7455241+01:00",
+        "Rank": 945,
+        "Type": "dolorem",
+        "ColorBlock": 446,
+        "IconHint": "provident",
+        "Selected": true,
+        "LastChanged": "2001-01-08T14:28:27.5395453+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "quis",
+        "ExtraInfo": "at",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Sydnee Corwin",
+        "FullName": "Jamal Adams",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 108
+            "FieldType": "System.String",
+            "FieldLength": 603
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "magni",
-    "Hidden": true,
-    "FullName": "Cecelia Reynolds",
+    "ExtraInfo": "atque",
+    "StyleHint": "omnis",
+    "Hidden": false,
+    "FullName": "Dr. Johnny Katelin Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldType": "System.Int32",
+        "FieldLength": 51
       }
     }
   }

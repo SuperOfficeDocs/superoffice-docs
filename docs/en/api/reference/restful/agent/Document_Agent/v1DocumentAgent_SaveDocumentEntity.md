@@ -129,77 +129,77 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 254,
+  "DocumentId": 343,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "et",
-  "Header": "aut",
-  "Name": "Crooks Inc and Sons",
-  "OurRef": "eveniet",
-  "YourRef": "nihil",
-  "CreatedDate": "2011-11-02T02:38:21.2451788+01:00",
-  "UpdatedDate": "2007-08-13T02:38:21.2451788+02:00",
-  "Description": "Networked explicit open system",
+  "Attention": "maiores",
+  "Header": "quo",
+  "Name": "Koelpin Group",
+  "OurRef": "doloribus",
+  "YourRef": "numquam",
+  "CreatedDate": "2017-09-05T14:28:21.8210267+02:00",
+  "UpdatedDate": "2006-06-06T14:28:21.8210267+02:00",
+  "Description": "Secured bi-directional archive",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2013-11-02T02:38:21.2451788+01:00",
-  "ExternalRef": "molestias",
+  "Date": "1998-05-23T14:28:21.8366505+02:00",
+  "ExternalRef": "quas",
   "Completed": "Completed",
-  "ActiveLinks": 255,
+  "ActiveLinks": 688,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Reichert, Wolf and Weissnat",
-      "Id": 813,
-      "Description": "Compatible discrete hub",
-      "ExtraInfo": "et",
-      "LinkId": 998
+      "EntityName": "Gutmann Group",
+      "Id": 143,
+      "Description": "Vision-oriented even-keeled alliance",
+      "ExtraInfo": "dolore",
+      "LinkId": 33
     },
     {
-      "EntityName": "Reichert, Wolf and Weissnat",
-      "Id": 813,
-      "Description": "Compatible discrete hub",
-      "ExtraInfo": "et",
-      "LinkId": 998
+      "EntityName": "Gutmann Group",
+      "Id": 143,
+      "Description": "Vision-oriented even-keeled alliance",
+      "ExtraInfo": "dolore",
+      "LinkId": 33
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 960,
-  "Snum": 889,
+  "SuggestedDocumentId": 793,
+  "Snum": 629,
   "UserDefinedFields": {
-    "SuperOffice:1": "Gus Mraz",
-    "SuperOffice:2": "Tremaine Daren Schaden Jr."
+    "SuperOffice:1": "Mrs. Theresia Price Swaniawski",
+    "SuperOffice:2": "Carson Kertzmann"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "et",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "tenetur",
-    "CustomFields2": "atque"
+    "CustomFields1": "aperiam",
+    "CustomFields2": "eligendi"
   },
-  "PublishEventDate": "2014-07-09T02:38:21.2451788+02:00",
-  "PublishTo": "2019-09-01T02:38:21.2451788+02:00",
-  "PublishFrom": "2013-10-09T02:38:21.2451788+02:00",
+  "PublishEventDate": "2006-09-01T14:28:21.8366505+02:00",
+  "PublishTo": "2007-11-04T14:28:21.8366505+01:00",
+  "PublishFrom": "2001-11-28T14:28:21.8366505+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 212,
+      "VisibleId": 892,
       "Visibility": "All",
-      "DisplayValue": "dignissimos"
+      "DisplayValue": "reiciendis"
     },
     {
-      "VisibleId": 212,
+      "VisibleId": 892,
       "Visibility": "All",
-      "DisplayValue": "dignissimos"
+      "DisplayValue": "reiciendis"
     }
   ]
 }
@@ -212,88 +212,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 190,
+  "DocumentId": 803,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "neque",
-  "Header": "earum",
-  "Name": "Harvey LLC",
-  "OurRef": "tempore",
-  "YourRef": "aut",
-  "CreatedDate": "2009-12-26T02:38:21.2451788+01:00",
-  "UpdatedDate": "2024-06-22T02:38:21.2451788+02:00",
-  "Description": "Implemented motivating success",
+  "Attention": "assumenda",
+  "Header": "vitae",
+  "Name": "Klocko-Brakus",
+  "OurRef": "vero",
+  "YourRef": "sunt",
+  "CreatedDate": "1999-05-09T14:28:21.8366505+02:00",
+  "UpdatedDate": "2011-01-05T14:28:21.8366505+01:00",
+  "Description": "Profit-focused real-time encryption",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-07-09T02:38:21.2451788+02:00",
+  "Date": "2015-05-26T14:28:21.8366505+02:00",
   "ExternalRef": "id",
   "Completed": "Completed",
-  "ActiveLinks": 885,
+  "ActiveLinks": 92,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Feil Inc and Sons",
-      "Id": 437,
-      "Description": "Synergized content-based utilisation",
-      "ExtraInfo": "sint",
-      "LinkId": 560,
+      "EntityName": "Sipes-Cummerata",
+      "Id": 404,
+      "Description": "Cloned upward-trending website",
+      "ExtraInfo": "ad",
+      "LinkId": 870,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 955
+          "FieldType": "System.Int32",
+          "FieldLength": 836
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 946,
-  "Snum": 560,
+  "SuggestedDocumentId": 155,
+  "Snum": 62,
   "UserDefinedFields": {
-    "SuperOffice:1": "Bennie Abbott",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "2127487879",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "fugiat"
+    "ExtraFields1": "impedit",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "aspernatur",
-    "CustomFields2": "excepturi"
+    "CustomFields1": "sit",
+    "CustomFields2": "illum"
   },
-  "PublishEventDate": "2006-08-07T02:38:21.2451788+02:00",
-  "PublishTo": "2000-09-06T02:38:21.2451788+02:00",
-  "PublishFrom": "2002-05-13T02:38:21.2451788+02:00",
+  "PublishEventDate": "2012-01-21T14:28:21.8366505+01:00",
+  "PublishTo": "2022-12-05T14:28:21.8366505+01:00",
+  "PublishFrom": "1997-11-20T14:28:21.8366505+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 232,
+      "VisibleId": 314,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 78
+          "FieldLength": 246
         }
       }
     },
     {
-      "VisibleId": 232,
+      "VisibleId": 314,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 78
+          "FieldLength": 246
         }
       }
     }
@@ -302,8 +302,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 868
+      "FieldType": "System.Int32",
+      "FieldLength": 33
     }
   }
 }

@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 593,
-    "Name": "Harber-Shanahan",
-    "TZLocationCode": "et",
-    "TZLocationCities": "itaque",
-    "IsoNumber": 391,
+    "TZLocationID": 137,
+    "Name": "Yundt, Sawayn and Emmerich",
+    "TZLocationCode": "tempore",
+    "TZLocationCities": "aut",
+    "IsoNumber": 830,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 959,
-        "StartMonth": 827,
-        "EndDay": 585,
-        "EndMonth": 148,
-        "TZOffset": 990,
-        "StartRulePattern": "possimus",
-        "EndRulePattern": "tempore"
+        "StartDay": 582,
+        "StartMonth": 161,
+        "EndDay": 734,
+        "EndMonth": 995,
+        "TZOffset": 452,
+        "StartRulePattern": "delectus",
+        "EndRulePattern": "qui"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 210,
-        "StartMonth": 21,
-        "EndDay": 214,
-        "EndMonth": 243,
-        "TZOffset": 528,
-        "StartRulePattern": "dicta",
-        "EndRulePattern": "officia"
+        "StartDay": 532,
+        "StartMonth": 909,
+        "EndDay": 542,
+        "EndMonth": 711,
+        "TZOffset": 67,
+        "StartRulePattern": "eos",
+        "EndRulePattern": "eos"
       }
     }
   }

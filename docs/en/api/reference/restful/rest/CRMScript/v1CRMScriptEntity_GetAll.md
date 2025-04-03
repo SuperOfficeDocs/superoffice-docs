@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/CRMScript?$select=name,department,category/id
 GET /api/v1/CRMScript?$filter=name begins 'S'
 GET /api/v1/CRMScript?$orderBy=name asc
-GET /api/v1/CRMScript?$entities=reiciendis
-GET /api/v1/CRMScript?$top=336
-GET /api/v1/CRMScript?$skip=298
+GET /api/v1/CRMScript?$entities=est
+GET /api/v1/CRMScript?$top=364
+GET /api/v1/CRMScript?$skip=971
 GET /api/v1/CRMScript?$mode=Full
 GET /api/v1/CRMScript?$options=GrandTotal=true
-GET /api/v1/CRMScript?$context=tempora
+GET /api/v1/CRMScript?$context=atque
 GET /api/v1/CRMScript?$format=JSON
-GET /api/v1/CRMScript?$jsonSafe=False
+GET /api/v1/CRMScript?$jsonSafe=True
 GET /api/v1/CRMScript?$output=Display
 ```
 
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "laboriosam",
+  "odata.nextLink": "magnam",
   "value": [
     {
-      "PrimaryKey": 704,
+      "PrimaryKey": 5372,
       "EntityName": "person",
-      "personId": 704,
-      "fullName": "Mr. Zelma Marks DVM"
+      "personId": 5372,
+      "fullName": "Napoleon Donnelly"
     },
     {
-      "PrimaryKey": 4159,
+      "PrimaryKey": 3382,
       "EntityName": "person",
-      "personId": 4159,
-      "fullName": "Don Kimberly Farrell IV"
+      "personId": 3382,
+      "fullName": "Vivienne Gibson"
     }
   ]
 }

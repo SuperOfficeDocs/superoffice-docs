@@ -101,15 +101,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": false,
+  "Notify": true,
   "AttachmentIds": [
-    723,
-    39
+    852,
+    594
   ],
   "UpdateRepliedAt": false
 }
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 621,
+  "EjMessageId": 37,
   "Ticket": null,
-  "CreatedAt": "2011-06-22T02:38:22.1513395+02:00",
+  "CreatedAt": "2001-11-26T14:28:22.6647419+01:00",
   "CreatedBy": null,
-  "Author": "velit",
+  "Author": "omnis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quos",
-  "TimeSpent": 884,
-  "Body": "odit",
-  "HtmlBody": "tempora",
-  "EmailHeader": "jermaine.bernhard@lind.name",
-  "DebugInfo": "sint",
-  "MailSorter": "voluptas",
+  "MessageId": "atque",
+  "TimeSpent": 631,
+  "Body": "id",
+  "HtmlBody": "sed",
+  "EmailHeader": "nathanial@barton.co.uk",
+  "DebugInfo": "voluptatem",
+  "MailSorter": "sed",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "corrupti",
+  "SearchTitle": "non",
   "MessageHeaders": [
     {
-      "Id": 703,
-      "Name": "Koelpin Group",
-      "Value": "molestiae",
+      "Id": 106,
+      "Name": "McDermott-Maggio",
+      "Value": "commodi",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 88
+          "FieldLength": 517
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "sint",
-  "Sentiment": 223,
-  "SentimentConfidence": 135,
+  "Important": false,
+  "Language": "sed",
+  "Sentiment": 462,
+  "SentimentConfidence": 696,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 3,
-      "Name": "Dibbert, Carroll and Kertzmann",
-      "ContentType": "cumque",
-      "AttSize": 547,
+      "AttachmentId": 353,
+      "Name": "Schmeler, Farrell and Upton",
+      "ContentType": "eos",
+      "AttSize": 750,
       "InlineImage": false,
-      "ContentId": "consequatur",
-      "AuthKey": "fugiat",
+      "ContentId": "dignissimos",
+      "AuthKey": "dolor",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 824
+          "FieldType": "System.Int32",
+          "FieldLength": 897
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "temporibus"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "laborum"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "sit"
+    "CustomFields1": "nesciunt",
+    "CustomFields2": "debitis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldLength": 327
     }
   }
 }

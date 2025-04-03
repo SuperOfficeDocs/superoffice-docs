@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 251,
-    "Name": "Connelly Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "UdListDefinitionId": 838,
-    "Rank": 613
+    "Id": 662,
+    "Name": "Nitzsche Group",
+    "Tooltip": "a",
+    "Deleted": true,
+    "UdListDefinitionId": 268,
+    "Rank": 942
   },
   {
-    "Id": 251,
-    "Name": "Connelly Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "UdListDefinitionId": 838,
-    "Rank": 613
+    "Id": 662,
+    "Name": "Nitzsche Group",
+    "Tooltip": "a",
+    "Deleted": true,
+    "UdListDefinitionId": 268,
+    "Rank": 942
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 535,
-    "Name": "Hirthe-Hauck",
-    "Tooltip": "ea",
+    "Id": 558,
+    "Name": "Nolan LLC",
+    "Tooltip": "sit",
     "Deleted": false,
-    "UdListDefinitionId": 412,
-    "Rank": 867,
+    "UdListDefinitionId": 144,
+    "Rank": 662,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 601
+        "FieldLength": 985
       }
     }
   }

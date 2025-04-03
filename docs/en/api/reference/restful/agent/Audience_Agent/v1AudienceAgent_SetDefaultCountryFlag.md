@@ -67,11 +67,11 @@ No Content
 POST /api/v1/Agents/Audience/SetDefaultCountryFlag
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Johns, Maggio and Lockman",
+  "LayoutName": "Metz-Erdman",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

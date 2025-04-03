@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Murazik Inc and Sons",
-    "ToolTip": "Error asperiores.",
+    "Id": 135,
+    "Name": "Gislason-Friesen",
+    "ToolTip": "Impedit eos et voluptates incidunt quasi quasi repellat.",
     "Deleted": false,
-    "Rank": 8,
-    "Type": "sit",
-    "ColorBlock": 575,
-    "IconHint": "et",
+    "Rank": 807,
+    "Type": "amet",
+    "ColorBlock": 524,
+    "IconHint": "incidunt",
     "Selected": true,
-    "LastChanged": "2006-05-03T02:38:26.9017511+02:00",
+    "LastChanged": "2024-03-17T14:28:27.6801638+01:00",
     "ChildItems": [
       {
-        "Id": 766,
-        "Name": "Funk-Hagenes",
-        "ToolTip": "Necessitatibus consectetur accusantium laudantium sapiente sunt id.",
+        "Id": 870,
+        "Name": "Kuvalis, Koss and Rolfson",
+        "ToolTip": "Et debitis totam voluptates.",
         "Deleted": false,
-        "Rank": 22,
-        "Type": "molestiae",
-        "ColorBlock": 409,
-        "IconHint": "qui",
+        "Rank": 330,
+        "Type": "fugiat",
+        "ColorBlock": 223,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2017-11-10T02:38:26.9017511+01:00",
+        "LastChanged": "2013-10-06T14:28:27.6801638+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "id",
+        "ExtraInfo": "sequi",
+        "StyleHint": "nisi",
         "Hidden": false,
-        "FullName": "Willis Lehner",
+        "FullName": "Alba Bayer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 14
+            "FieldLength": 506
           }
         }
       }
     ],
-    "ExtraInfo": "expedita",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "natus",
+    "StyleHint": "aut",
     "Hidden": true,
-    "FullName": "Savannah Jenkins",
+    "FullName": "Miss Andrew Crist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 27
+        "FieldType": "System.String",
+        "FieldLength": 838
       }
     }
   }

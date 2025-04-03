@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Contact/Copy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 319,
-  "DestinationContactName": "Boyle, Sanford and Torp",
+  "SourceContactId": 876,
+  "DestinationContactName": "Smith Inc and Sons",
   "DestinationContactDepartment": "",
   "CopyPersons": false
 }
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-791
+762
 ```

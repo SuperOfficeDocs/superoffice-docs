@@ -29,7 +29,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=False
+PUT /api/v1/TicketMessage/{id}?notify=True
 ```
 
 
@@ -128,67 +128,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 596,
+  "EjMessageId": 945,
   "Ticket": null,
-  "CreatedAt": "2003-02-22T02:38:26.5110233+01:00",
+  "CreatedAt": "2014-05-10T14:28:27.3364282+02:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "necessitatibus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "veritatis",
-  "TimeSpent": 815,
-  "Body": "aut",
-  "HtmlBody": "enim",
-  "EmailHeader": "adrienne@wildermancollins.ca",
-  "DebugInfo": "veritatis",
-  "MailSorter": "quia",
+  "MessageId": "minus",
+  "TimeSpent": 102,
+  "Body": "repudiandae",
+  "HtmlBody": "voluptatibus",
+  "EmailHeader": "micah@monahan.co.uk",
+  "DebugInfo": "aspernatur",
+  "MailSorter": "omnis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "non",
+  "SearchTitle": "dolorem",
   "MessageHeaders": [
     {
-      "Id": 229,
-      "Name": "Nitzsche, Ritchie and Torphy",
-      "Value": "ullam",
+      "Id": 953,
+      "Name": "Wisoky Group",
+      "Value": "maxime",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 229,
-      "Name": "Nitzsche, Ritchie and Torphy",
-      "Value": "ullam",
+      "Id": 953,
+      "Name": "Wisoky Group",
+      "Value": "maxime",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "commodi",
-  "Sentiment": 746,
-  "SentimentConfidence": 571,
+  "Important": false,
+  "Language": "mollitia",
+  "Sentiment": 363,
+  "SentimentConfidence": 346,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 975,
-      "Name": "Frami, Padberg and Beatty",
-      "ContentType": "dolorem",
-      "AttSize": 25,
-      "InlineImage": false,
-      "ContentId": "accusamus",
-      "AuthKey": "et",
+      "AttachmentId": 429,
+      "Name": "Wehner-Luettgen",
+      "ContentType": "sunt",
+      "AttSize": 829,
+      "InlineImage": true,
+      "ContentId": "et",
+      "AuthKey": "dignissimos",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "minima",
-    "ExtraFields2": "in"
+    "ExtraFields1": "corporis",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "iusto",
-    "CustomFields2": "corrupti"
+    "CustomFields1": "ut",
+    "CustomFields2": "eveniet"
   }
 }
 ```
@@ -200,28 +200,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 730,
+  "EjMessageId": 353,
   "Ticket": null,
-  "CreatedAt": "2022-09-20T02:38:26.5110233+02:00",
+  "CreatedAt": "1997-12-07T14:28:27.3364282+01:00",
   "CreatedBy": null,
-  "Author": "dolorem",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "rerum",
-  "TimeSpent": 371,
-  "Body": "tenetur",
-  "HtmlBody": "voluptate",
-  "EmailHeader": "waldo@jacobigutmann.name",
-  "DebugInfo": "numquam",
-  "MailSorter": "excepturi",
+  "MessageId": "architecto",
+  "TimeSpent": 578,
+  "Body": "eveniet",
+  "HtmlBody": "ipsum",
+  "EmailHeader": "waldo.keeling@ohara.uk",
+  "DebugInfo": "modi",
+  "MailSorter": "mollitia",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "consectetur",
+  "SearchTitle": "voluptatibus",
   "MessageHeaders": [
     {
-      "Id": 331,
-      "Name": "Kertzmann-Reichert",
-      "Value": "nisi",
+      "Id": 884,
+      "Name": "Lang-Bauch",
+      "Value": "quos",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -229,50 +229,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 871
+          "FieldLength": 236
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "vero",
-  "Sentiment": 736,
-  "SentimentConfidence": 802,
+  "Important": true,
+  "Language": "a",
+  "Sentiment": 265,
+  "SentimentConfidence": 753,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 105,
-      "Name": "Zboncak, Mraz and Smitham",
-      "ContentType": "incidunt",
-      "AttSize": 441,
+      "AttachmentId": 944,
+      "Name": "Dickinson LLC",
+      "ContentType": "reprehenderit",
+      "AttSize": 454,
       "InlineImage": false,
-      "ContentId": "quod",
-      "AuthKey": "eum",
+      "ContentId": "adipisci",
+      "AuthKey": "veritatis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldLength": 86
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "dolorum"
+    "ExtraFields1": "in",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "pariatur",
-    "CustomFields2": "aut"
+    "CustomFields1": "hic",
+    "CustomFields2": "ab"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 773
+      "FieldType": "System.Int32",
+      "FieldLength": 560
     }
   }
 }

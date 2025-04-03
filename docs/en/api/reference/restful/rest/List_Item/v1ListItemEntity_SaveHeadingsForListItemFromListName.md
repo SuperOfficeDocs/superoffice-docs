@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 450,
-    "Name": "Runolfsson, Johns and Trantow",
-    "ToolTip": "Illum ullam sit minus ut facere sed sit.",
+    "Id": 412,
+    "Name": "Erdman-Kuphal",
+    "ToolTip": "Quisquam quis.",
     "Deleted": false,
-    "Rank": 316,
-    "Type": "praesentium",
-    "ColorBlock": 125,
-    "IconHint": "quia",
+    "Rank": 910,
+    "Type": "a",
+    "ColorBlock": 402,
+    "IconHint": "ipsa",
     "Selected": false,
-    "LastChanged": "2015-01-28T02:38:26.6674035+01:00",
+    "LastChanged": "2003-05-16T14:28:27.4614236+02:00",
     "ChildItems": [
       {
-        "Id": 315,
-        "Name": "Graham LLC",
-        "ToolTip": "Qui consequatur debitis rerum est quae.",
+        "Id": 746,
+        "Name": "Ebert-Grady",
+        "ToolTip": "Et est dolore veritatis illo doloribus.",
         "Deleted": false,
-        "Rank": 658,
-        "Type": "iste",
-        "ColorBlock": 489,
-        "IconHint": "repudiandae",
+        "Rank": 176,
+        "Type": "aspernatur",
+        "ColorBlock": 144,
+        "IconHint": "tempora",
         "Selected": false,
-        "LastChanged": "2019-01-10T02:38:26.6674035+01:00",
+        "LastChanged": "2009-02-18T14:28:27.4770477+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "nesciunt",
-        "Hidden": false,
-        "FullName": "Kailyn Mackenzie Mohr PhD"
+        "ExtraInfo": "iste",
+        "StyleHint": "voluptates",
+        "Hidden": true,
+        "FullName": "Ms. Edison Odie Berge"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "aspernatur",
-    "Hidden": false,
-    "FullName": "Abbey Denesik"
+    "ExtraInfo": "omnis",
+    "StyleHint": "tempora",
+    "Hidden": true,
+    "FullName": "Alia Lesch"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 963,
-    "Name": "Kshlerin, Pollich and Bins",
-    "ToolTip": "Corrupti pariatur et perspiciatis optio hic nihil fugit.",
+    "Id": 765,
+    "Name": "Denesik-Bauch",
+    "ToolTip": "Distinctio facilis.",
     "Deleted": false,
-    "Rank": 582,
-    "Type": "voluptatum",
-    "ColorBlock": 960,
-    "IconHint": "nemo",
-    "Selected": false,
-    "LastChanged": "2022-08-06T02:38:26.6674035+02:00",
+    "Rank": 971,
+    "Type": "odit",
+    "ColorBlock": 733,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "2019-04-21T14:28:27.4770477+02:00",
     "ChildItems": [
       {
-        "Id": 940,
-        "Name": "Waelchi-Sporer",
-        "ToolTip": "Vel natus vero vel voluptatem vel doloribus.",
+        "Id": 959,
+        "Name": "Ortiz, Olson and Shields",
+        "ToolTip": "Ratione ex voluptatum doloribus.",
         "Deleted": false,
-        "Rank": 874,
-        "Type": "reiciendis",
-        "ColorBlock": 790,
-        "IconHint": "iure",
+        "Rank": 265,
+        "Type": "voluptates",
+        "ColorBlock": 264,
+        "IconHint": "nulla",
         "Selected": false,
-        "LastChanged": "2018-10-12T02:38:26.6674035+02:00",
+        "LastChanged": "2018-05-11T14:28:27.4770477+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "fugit",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Shea Bednar",
+        "FullName": "Maud Greenholt III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 542
+            "FieldLength": 184
           }
         }
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Brenden Becker",
+    "ExtraInfo": "est",
+    "StyleHint": "esse",
+    "Hidden": false,
+    "FullName": "Gayle Margarita Adams MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 111
+        "FieldType": "System.Int32",
+        "FieldLength": 425
       }
     }
   }

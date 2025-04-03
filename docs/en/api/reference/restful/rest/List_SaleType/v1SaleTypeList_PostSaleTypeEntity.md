@@ -107,51 +107,51 @@ OK
 POST /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 539,
-  "Name": "Will-Hagenes",
-  "Tooltip": "eos",
-  "Rank": 779,
+  "SaleTypeId": 731,
+  "Name": "Brekke-Dach",
+  "Tooltip": "in",
+  "Rank": 103,
   "DurationUnit": "Century",
-  "SaleDuration": 139,
-  "SaleTypeCatId": 563,
-  "Deleted": false,
+  "SaleDuration": 260,
+  "SaleTypeCatId": 992,
+  "Deleted": true,
   "HasGuide": false,
   "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 279,
-  "QuoteLinesTemplate": 465,
-  "ConfirmationLinesTemplate": 765,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 145,
+  "QuoteLinesTemplate": 103,
+  "ConfirmationLinesTemplate": 242,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 291,
-  "MinEarningPercent": 502,
-  "GroupQuoteLinesBy": 886,
-  "SortGroupLinesBy": 44,
+  "MaxDiscountPercent": 312,
+  "MinEarningPercent": 736,
+  "GroupQuoteLinesBy": 580,
+  "SortGroupLinesBy": 35,
   "Stages": [
     {
-      "Id": 267,
-      "Name": "Schowalter, Dach and Rempel",
-      "ToolTip": "Qui vitae quo sapiente aliquid ipsa inventore accusamus.",
+      "Id": 315,
+      "Name": "Hagenes-Pacocha",
+      "ToolTip": "Sed fuga sed vitae eos harum.",
       "Deleted": false,
-      "Rank": 89,
-      "Type": "quae",
-      "ColorBlock": 200,
-      "IconHint": "expedita",
+      "Rank": 63,
+      "Type": "consequuntur",
+      "ColorBlock": 596,
+      "IconHint": "dolorem",
       "Selected": false,
-      "LastChanged": "2008-04-18T02:38:26.9173771+02:00",
+      "LastChanged": "2013-03-01T14:28:27.6957886+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "pariatur",
-      "StyleHint": "excepturi",
-      "Hidden": true,
-      "FullName": "Ms. Daphnee Kamren Wilderman DVM"
+      "ExtraInfo": "harum",
+      "StyleHint": "sed",
+      "Hidden": false,
+      "FullName": "Prof. Irving Murray I"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 253,
-  "Name": "Bechtelar Inc and Sons",
-  "Tooltip": "quam",
-  "Rank": 403,
+  "SaleTypeId": 540,
+  "Name": "Zieme-Hegmann",
+  "Tooltip": "dolor",
+  "Rank": 322,
   "DurationUnit": "Century",
-  "SaleDuration": 630,
-  "SaleTypeCatId": 10,
-  "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "SaleDuration": 901,
+  "SaleTypeCatId": 450,
+  "Deleted": true,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 371,
-  "QuoteLinesTemplate": 782,
-  "ConfirmationLinesTemplate": 154,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 200,
+  "QuoteLinesTemplate": 397,
+  "ConfirmationLinesTemplate": 478,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 682,
-  "MinEarningPercent": 248,
-  "GroupQuoteLinesBy": 973,
-  "SortGroupLinesBy": 372,
+  "MaxDiscountPercent": 25,
+  "MinEarningPercent": 669,
+  "GroupQuoteLinesBy": 987,
+  "SortGroupLinesBy": 780,
   "Stages": [
     {
-      "Id": 595,
-      "Name": "Bergnaum, Treutel and Bogisich",
-      "ToolTip": "Et et.",
-      "Deleted": false,
-      "Rank": 246,
-      "Type": "eligendi",
-      "ColorBlock": 424,
-      "IconHint": "at",
-      "Selected": false,
-      "LastChanged": "2020-07-19T02:38:26.9173771+02:00",
+      "Id": 97,
+      "Name": "Marks Group",
+      "ToolTip": "Reprehenderit vel asperiores cumque eum asperiores.",
+      "Deleted": true,
+      "Rank": 264,
+      "Type": "debitis",
+      "ColorBlock": 334,
+      "IconHint": "voluptas",
+      "Selected": true,
+      "LastChanged": "2018-12-21T14:28:27.6957886+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "libero",
-      "StyleHint": "et",
-      "Hidden": false,
-      "FullName": "Grady Parisian",
+      "ExtraInfo": "blanditiis",
+      "StyleHint": "architecto",
+      "Hidden": true,
+      "FullName": "Prof. Kim Keeling",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 121
+          "FieldLength": 784
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 80
+      "FieldType": "System.Int32",
+      "FieldLength": 281
     }
   }
 }

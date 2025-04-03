@@ -121,7 +121,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 864,
-  "ERPQuoteLineKey": "ipsa",
-  "QuoteAlternativeId": 331,
-  "ERPProductKey": "et",
+  "QuoteLineId": 792,
+  "ERPQuoteLineKey": "quia",
+  "QuoteAlternativeId": 397,
+  "ERPProductKey": "fugit",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 21245.386,
-  "DeliveredQuantity": 24012.708,
-  "Rank": 502,
-  "Name": "Ruecker Inc and Sons",
-  "Description": "Expanded systemic contingency",
-  "Code": "est",
-  "QuantityUnit": "vel",
+  "Quantity": 1237.93,
+  "DeliveredQuantity": 25808.489999999998,
+  "Rank": 316,
+  "Name": "Nicolas, Oberbrunner and Friesen",
+  "Description": "Organized needs-based neural-net",
+  "Code": "voluptate",
+  "QuantityUnit": "deleniti",
   "PriceUnit": "id",
-  "ItemNumber": "410537",
+  "ItemNumber": "829035",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "autem",
-  "ProductTypeKey": "aut",
-  "Supplier": "quis",
-  "SupplierCode": "et",
-  "Thumbnail": "hic",
-  "VATInfo": "qui",
-  "VAT": 17672.626,
-  "UnitCost": 2729.714,
-  "UnitMinimumPrice": 15999.07,
-  "UnitListPrice": 14917.84,
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "atque",
+  "Supplier": "quibusdam",
+  "SupplierCode": "consectetur",
+  "Thumbnail": "neque",
+  "VATInfo": "dolor",
+  "VAT": 1598.34,
+  "UnitCost": 3459.9359999999997,
+  "UnitMinimumPrice": 1454.176,
+  "UnitListPrice": 4845.164,
   "ExtraInfo": [
     {
-      "Name": "Ankunding Inc and Sons",
-      "Value": "tenetur",
+      "Name": "Gerlach-Langosh",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldLength": 252
         }
       }
     },
     {
-      "Name": "Ankunding Inc and Sons",
-      "Value": "tenetur",
+      "Name": "Gerlach-Langosh",
+      "Value": "ut",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 189
+          "FieldLength": 252
         }
       }
     }
   ],
-  "RawExtraInfo": "esse",
+  "RawExtraInfo": "eius",
   "IsSubscription": true,
-  "SubscriptionUnit": "fugit",
-  "SubscriptionQuantity": 10878.114,
-  "SubscriptionStart": "2003-06-14T02:38:21.7919947+02:00",
-  "ERPDiscountPercent": 4237.168,
-  "ERPDiscountAmount": 2638.828,
-  "DiscountPercent": 18756.989999999998,
-  "DiscountAmount": 297.73,
+  "SubscriptionUnit": "aut",
+  "SubscriptionQuantity": 31198.969999999998,
+  "SubscriptionStart": "2000-06-03T14:28:22.3053817+02:00",
+  "ERPDiscountPercent": 12824.328,
+  "ERPDiscountAmount": 15146.622,
+  "DiscountPercent": 19966.714,
+  "DiscountAmount": 6399.628,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 2566.746,
-  "EarningAmount": 26667.206,
-  "SubTotal": 27005.678,
-  "TotalPrice": 12163.054,
-  "Rights": "dolores",
-  "Rule": "qui",
-  "ExtraField1": "dolor",
-  "ExtraField2": "quod",
-  "ExtraField3": "mollitia",
-  "ExtraField4": "recusandae",
-  "ExtraField5": "quibusdam",
+  "EarningPercent": 7697.1039999999994,
+  "EarningAmount": 10617.992,
+  "SubTotal": 17945.284,
+  "TotalPrice": 27256.397999999997,
+  "Rights": "suscipit",
+  "Rule": "ipsum",
+  "ExtraField1": "accusantium",
+  "ExtraField2": "quo",
+  "ExtraField3": "maxime",
+  "ExtraField4": "earum",
+  "ExtraField5": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 874
     }
   }
 }

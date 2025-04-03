@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 849
+  "UserGroupId": 983
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 993,
-    "ColumnId": 818,
-    "FieldDefault": "ab",
-    "FieldHeight": 268,
-    "FieldLabel": "rem",
-    "FieldLeft": 276,
-    "FieldTop": 223,
+    "UDefFieldId": 565,
+    "ColumnId": 188,
+    "FieldDefault": "consectetur",
+    "FieldHeight": 278,
+    "FieldLabel": "odit",
+    "FieldLeft": 665,
+    "FieldTop": 286,
     "FieldType": "Checkbox",
-    "FieldWidth": 477,
-    "FormatMask": "quia",
-    "HideLabel": false,
+    "FieldWidth": 58,
+    "FormatMask": "sunt",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 335,
-    "LabelLeft": 942,
-    "LabelTop": 197,
-    "LabelWidth": 485,
-    "LastVersionId": 598,
-    "ListTableId": 251,
+    "LabelHeight": 201,
+    "LabelLeft": 557,
+    "LabelTop": 748,
+    "LabelWidth": 245,
+    "LastVersionId": 615,
+    "ListTableId": 413,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 963,
-    "ProgId": "ipsam",
+    "Page1LineNo": 581,
+    "ProgId": "nobis",
     "IsReadOnly": false,
-    "ShortLabel": "dolorem",
-    "TabOrder": 474,
-    "TextLength": 240,
-    "Tooltip": "dolorem",
-    "UdefIdentity": 852,
-    "UDListDefinitionId": 307,
+    "ShortLabel": "minus",
+    "TabOrder": 693,
+    "TextLength": 892,
+    "Tooltip": "rem",
+    "UdefIdentity": 591,
+    "UDListDefinitionId": 415,
     "Justification": "Center",
-    "Version": 901,
-    "TemplateVariableName": "Thiel Group",
+    "Version": 680,
+    "TemplateVariableName": "Stehr Group",
     "HasBeenPublished": false,
-    "MdoListName": "Yundt Inc and Sons",
+    "MdoListName": "Romaguera-Hills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 391
+        "FieldType": "System.Int32",
+        "FieldLength": 863
       }
     }
   }

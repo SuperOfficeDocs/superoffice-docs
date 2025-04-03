@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 529,
-    "Name": "Pagac LLC",
-    "Tooltip": "temporibus",
-    "Deleted": true,
-    "Rank": 975,
-    "UdListDefinitionId": 512
+    "HeadingId": 829,
+    "Name": "Abshire, Block and Douglas",
+    "Tooltip": "aliquam",
+    "Deleted": false,
+    "Rank": 696,
+    "UdListDefinitionId": 395
   },
   {
-    "HeadingId": 529,
-    "Name": "Pagac LLC",
-    "Tooltip": "temporibus",
-    "Deleted": true,
-    "Rank": 975,
-    "UdListDefinitionId": 512
+    "HeadingId": 829,
+    "Name": "Abshire, Block and Douglas",
+    "Tooltip": "aliquam",
+    "Deleted": false,
+    "Rank": 696,
+    "UdListDefinitionId": 395
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 352,
-    "Name": "Kiehn, Cartwright and Walker",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 714,
-    "UdListDefinitionId": 864,
+    "HeadingId": 144,
+    "Name": "Mayert-Goyette",
+    "Tooltip": "officia",
+    "Deleted": false,
+    "Rank": 984,
+    "UdListDefinitionId": 345,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 603
+        "FieldType": "System.Int32",
+        "FieldLength": 48
       }
     }
   }

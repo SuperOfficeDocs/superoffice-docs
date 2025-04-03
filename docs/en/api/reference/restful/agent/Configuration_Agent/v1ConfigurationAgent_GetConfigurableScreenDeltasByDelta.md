@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 469,
-    "Name": "Reynolds, Heathcote and Pacocha",
-    "Description": "Synergized local data-warehouse",
-    "DeltaJson": "laboriosam",
+    "ConfigurableScreenDeltaId": 910,
+    "Name": "Will Inc and Sons",
+    "Description": "Enterprise-wide optimizing parallelism",
+    "DeltaJson": "aut",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "temporibus",
-    "UpdatedDate": "2014-05-09T02:38:20.995206+02:00",
-    "CreatedDate": "2005-09-26T02:38:20.995206+02:00",
+    "RecipeId": "quod",
+    "UpdatedDate": "2008-03-15T14:28:21.5866608+01:00",
+    "CreatedDate": "2023-05-11T14:28:21.5866608+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      904,
-      402
+      541,
+      855
     ],
-    "AppliesToKey": "qui",
+    "AppliesToKey": "necessitatibus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 715
+        "FieldType": "System.String",
+        "FieldLength": 360
       }
     }
   }

@@ -83,15 +83,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restriction": [
     {
-      "Name": "Treutel-Haag",
-      "Operator": "rerum",
+      "Name": "Braun-Dibbert",
+      "Operator": "ducimus",
       "Values": [
-        "non",
-        "sunt"
+        "consequuntur",
+        "explicabo"
       ],
       "DisplayValues": [
-        "quas",
-        "sunt"
+        "fugit",
+        "ipsum"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -99,16 +99,16 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 834,
+      "InterParenthesis": 695,
       "InterOperator": "And",
-      "UniqueHash": 113
+      "UniqueHash": 40
     }
   ],
   "Columns": [
-    "nisi",
-    "qui"
+    "magnam",
+    "id"
   ],
-  "ConnectionId": 599,
+  "ConnectionId": 668,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "et",
-        "quia"
+        "eaque",
+        "dicta"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "at",
+      "ExternalKey": "impedit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 101
+          "FieldType": "System.Int32",
+          "FieldLength": 552
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Kub-Dach",
-      "DisplayName": "Veum, Lehner and Predovic",
-      "Locked": false,
+      "Name": "Walsh LLC",
+      "DisplayName": "Dickens, Haley and Walter",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 665
+          "FieldLength": 884
         }
       }
     },
     {
-      "Name": "Kub-Dach",
-      "DisplayName": "Veum, Lehner and Predovic",
-      "Locked": false,
+      "Name": "Walsh LLC",
+      "DisplayName": "Dickens, Haley and Walter",
+      "Locked": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 665
+          "FieldLength": 884
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldType": "System.String",
+      "FieldLength": 395
     }
   }
 }

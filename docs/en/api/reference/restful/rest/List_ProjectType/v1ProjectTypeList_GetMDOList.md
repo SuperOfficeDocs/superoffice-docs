@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=False
-GET /api/v1/List/ProjectType/MDOItems?query=cupiditate
+GET /api/v1/List/ProjectType/MDOItems?flat=True
+GET /api/v1/List/ProjectType/MDOItems?query=corrupti
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 303,
-    "Name": "Nienow, Feil and Halvorson",
-    "ToolTip": "Consectetur nobis ut excepturi dolorum.",
+    "Id": 443,
+    "Name": "DuBuque-Kulas",
+    "ToolTip": "Itaque amet et.",
     "Deleted": false,
-    "Rank": 558,
-    "Type": "vero",
+    "Rank": 104,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 140,
-        "Name": "Gislason-Nader",
-        "ToolTip": "Minus provident eveniet iure rerum.",
-        "Deleted": true,
-        "Rank": 80,
-        "Type": "delectus",
+        "Id": 527,
+        "Name": "Weber, Harvey and Hartmann",
+        "ToolTip": "Cumque unde fugiat.",
+        "Deleted": false,
+        "Rank": 43,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "deleniti",
-        "ColorBlock": 661,
-        "ExtraInfo": "vitae",
-        "StyleHint": "ut",
-        "FullName": "Magdalena Padberg",
+        "IconHint": "ea",
+        "ColorBlock": 979,
+        "ExtraInfo": "iusto",
+        "StyleHint": "iusto",
+        "FullName": "Miss Kelsie Reilly DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 808
+            "FieldType": "System.String",
+            "FieldLength": 423
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 14,
-    "ExtraInfo": "deleniti",
-    "StyleHint": "soluta",
-    "FullName": "Arnaldo DuBuque",
+    "IconHint": "ut",
+    "ColorBlock": 482,
+    "ExtraInfo": "similique",
+    "StyleHint": "quaerat",
+    "FullName": "Jarod Morar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 45
+        "FieldLength": 177
       }
     }
   }

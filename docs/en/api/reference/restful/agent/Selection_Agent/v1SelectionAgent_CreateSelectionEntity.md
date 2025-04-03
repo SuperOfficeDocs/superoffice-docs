@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Mosciski Group"
+  "TargetTableName": "Fritsch LLC"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Customer-focused multi-tasking solution",
+  "Description": "Profit-focused upward-trending open architecture",
   "Postit": "et",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 901,
-  "IncludePerson": 642,
+  "GroupIdx": 420,
+  "IncludePerson": 747,
   "MemberCount": 99.99,
-  "Name": "Metz, Beahan and Bogan",
-  "PostitTextId": 987,
-  "CreatedDate": "2015-11-08T02:38:21.8701125+01:00",
-  "SelectionId": 846,
-  "SoundEx": "repellat",
-  "Source": 973,
-  "TextId": 327,
-  "UpdatedDate": "2024-09-07T02:38:21.8701125+02:00",
-  "UpdatedCount": 992,
-  "Visibility": 144,
+  "Name": "Kerluke LLC",
+  "PostitTextId": 911,
+  "CreatedDate": "2024-08-29T14:28:22.3835038+02:00",
+  "SelectionId": 374,
+  "SoundEx": "aut",
+  "Source": 105,
+  "TextId": 985,
+  "UpdatedDate": "2016-12-23T14:28:22.3835038+01:00",
+  "UpdatedCount": 620,
+  "Visibility": 338,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 992,
-  "TargetTableName": "Huel-Bechtelar",
+  "TargetTableNumber": 427,
+  "TargetTableName": "Miller Group",
   "Completed": false,
-  "LeftSelectionId": 329,
-  "RightSelectionId": 555,
+  "LeftSelectionId": 95,
+  "RightSelectionId": 16,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Leffler, Keeling and Dickens",
-  "ShadowProviderName": "Casper, Boehm and Cummerata",
-  "ChartKey": "ea",
-  "LastLoaded": "2018-07-20T02:38:21.8701125+02:00",
-  "LastLoadedBy": 542,
+  "MainProviderName": "Jast-Littel",
+  "ShadowProviderName": "Hermiston, Rippin and Cremin",
+  "ChartKey": "maxime",
+  "LastLoaded": "2014-02-17T14:28:22.3835038+01:00",
+  "LastLoadedBy": 402,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2015-10-17T02:38:21.8701125+02:00",
-  "LastMembershipChangeBy": 597,
+  "LastMembershipChange": "2014-05-28T14:28:22.3835038+02:00",
+  "LastMembershipChangeBy": 666,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "omnis",
-  "MemberTabHeading": "nisi",
-  "MailingsProviderName": "Goldner-Jenkins",
-  "DashboardTileDefinitionId": 872,
+  "MainHeading": "et",
+  "MemberTabHeading": "iste",
+  "MailingsProviderName": "Okuneva, Stanton and Howell",
+  "DashboardTileDefinitionId": 449,
   "VisibleFor": [
     {
-      "VisibleId": 809,
+      "VisibleId": 464,
       "Visibility": "All",
-      "DisplayValue": "incidunt",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 709
+          "FieldType": "System.Int32",
+          "FieldLength": 914
         }
       }
     },
     {
-      "VisibleId": 809,
+      "VisibleId": 464,
       "Visibility": "All",
-      "DisplayValue": "incidunt",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 709
+          "FieldType": "System.Int32",
+          "FieldLength": 914
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 978
+      "FieldLength": 677
     }
   }
 }

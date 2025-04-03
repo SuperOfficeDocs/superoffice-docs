@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 218,
-    "Name": "Hamill-Ullrich",
-    "Tooltip": "quibusdam",
+    "HeadingId": 790,
+    "Name": "Hickle Inc and Sons",
+    "Tooltip": "qui",
     "Deleted": true,
-    "Rank": 136,
-    "UdListDefinitionId": 10
+    "Rank": 48,
+    "UdListDefinitionId": 276
   },
   {
-    "HeadingId": 218,
-    "Name": "Hamill-Ullrich",
-    "Tooltip": "quibusdam",
+    "HeadingId": 790,
+    "Name": "Hickle Inc and Sons",
+    "Tooltip": "qui",
     "Deleted": true,
-    "Rank": 136,
-    "UdListDefinitionId": 10
+    "Rank": 48,
+    "UdListDefinitionId": 276
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 369,
-    "Name": "Kshlerin-Prosacco",
-    "Tooltip": "autem",
+    "HeadingId": 167,
+    "Name": "Brekke, Kessler and Kunde",
+    "Tooltip": "voluptatibus",
     "Deleted": false,
-    "Rank": 66,
-    "UdListDefinitionId": 499,
+    "Rank": 154,
+    "UdListDefinitionId": 745,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 184
+        "FieldType": "System.String",
+        "FieldLength": 510
       }
     }
   }

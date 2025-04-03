@@ -102,55 +102,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Sanford LLC",
+  "ProviderName": "Jaskolski-Bailey",
   "Columns": [
-    "eligendi",
-    "qui"
+    "consequuntur",
+    "et"
   ],
   "SortOrder": [
     {
-      "Name": "Hyatt-Stiedemann",
+      "Name": "Jast, Rice and Nader",
       "Direction": "ASC"
     },
     {
-      "Name": "Hyatt-Stiedemann",
+      "Name": "Jast, Rice and Nader",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Schowalter Group",
-      "Operator": "ab",
+      "Name": "O'Connell Inc and Sons",
+      "Operator": "cupiditate",
       "Values": [
-        "quibusdam",
-        "deleniti"
+        "consequatur",
+        "facere"
       ],
       "DisplayValues": [
-        "laboriosam",
-        "laboriosam"
+        "nobis",
+        "rerum"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 293,
+      "InterParenthesis": 793,
       "InterOperator": "And",
-      "UniqueHash": 557
+      "UniqueHash": 327
     }
   ],
   "Entities": [
-    "qui",
-    "dolorem"
+    "autem",
+    "ut"
   ],
-  "Page": 24,
-  "PageSize": 381,
-  "Options": "ea"
+  "Page": 655,
+  "PageSize": 518,
+  "Options": "quasi"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 663,
+  "RowCount": 266,
   "Rows": [
     {
-      "EntityName": "Hirthe, Kautzer and Hintz",
-      "PrimaryKey": 537,
+      "EntityName": "DuBuque, Blanda and Lueilwitz",
+      "PrimaryKey": 913,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "aut",
-          "TooltipHint": "et",
-          "LinkHint": "id"
+          "DisplayValue": "voluptates",
+          "TooltipHint": "quaerat",
+          "LinkHint": "pariatur"
         }
       },
-      "LinkHint": "repudiandae",
-      "StyleHint": "exercitationem",
+      "LinkHint": "culpa",
+      "StyleHint": "cupiditate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 471
+          "FieldType": "System.String",
+          "FieldLength": 136
         }
       }
     }
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 991
+      "FieldLength": 881
     }
   }
 }

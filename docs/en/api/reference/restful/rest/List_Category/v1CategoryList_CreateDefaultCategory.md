@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 752,
-  "Name": "Stiedemann Group",
-  "Tooltip": "est",
+  "Id": 164,
+  "Name": "Donnelly LLC",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 388,
-  "Rank": 291,
+  "UdListDefinitionId": 318,
+  "Rank": 655,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 88
+      "FieldType": "System.Int32",
+      "FieldLength": 914
     }
   }
 }

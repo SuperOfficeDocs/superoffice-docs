@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Dooley, Donnelly and Farrell",
-    "SaleDate": "2010-05-08T02:38:21.8544876+02:00",
-    "SaleId": 524,
-    "Probability": 87,
-    "Title": "eaque",
-    "Amount": 5236.914,
-    "Currency": "sapiente",
-    "ProjectName": "Ernser LLC",
-    "AssociateFullName": "Mrs. Francis Bergnaum",
-    "Description": "Sharable zero tolerance frame",
+    "ContactName": "Purdy LLC",
+    "SaleDate": "2009-06-07T14:28:22.3678792+02:00",
+    "SaleId": 545,
+    "Probability": 690,
+    "Title": "blanditiis",
+    "Amount": 15923.854,
+    "Currency": "quibusdam",
+    "ProjectName": "Schmeler-Douglas",
+    "AssociateFullName": "Flavio Runolfsson",
+    "Description": "Implemented foreground product",
     "Status": "Lost",
-    "WeightedAmount": 9872.1,
-    "ProjectId": 892,
-    "EarningPercent": 1441.6399999999999,
-    "Earning": 3547.688,
-    "ContactId": 568,
-    "AssociateId": 419,
-    "PersonId": 720,
-    "SaleTypeId": 741,
-    "SaleTypeName": "Bauch Inc and Sons",
-    "PersonFullName": "Bryon McClure",
+    "WeightedAmount": 12554.804,
+    "ProjectId": 838,
+    "EarningPercent": 19960.446,
+    "Earning": 21392.684,
+    "ContactId": 786,
+    "AssociateId": 2,
+    "PersonId": 31,
+    "SaleTypeId": 505,
+    "SaleTypeName": "Hickle, Wisoky and Boyer",
+    "PersonFullName": "Ms. Jermain Carlotta Moore",
     "Completed": "Completed",
-    "ActiveErpLinks": 788,
-    "NextDueDate": "1998-03-15T02:38:21.8544876+01:00",
-    "Number": "1050540",
+    "ActiveErpLinks": 898,
+    "NextDueDate": "1999-01-02T14:28:22.3678792+01:00",
+    "Number": "293349",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 780
+        "FieldLength": 987
       }
     }
   }

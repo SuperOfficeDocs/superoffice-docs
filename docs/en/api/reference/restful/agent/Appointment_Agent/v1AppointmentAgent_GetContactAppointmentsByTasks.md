@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,17 +132,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 631,
-  "StartTime": "2011-02-27T02:38:20.557605+01:00",
-  "EndTime": "2016-11-28T02:38:20.557605+01:00",
-  "Count": 606,
+  "ContactId": 126,
+  "StartTime": "2014-07-25T14:28:21.1491785+02:00",
+  "EndTime": "2021-03-09T14:28:21.1491785+01:00",
+  "Count": 798,
   "TaskIds": [
-    323,
-    782
+    976,
+    888
   ]
 }
 ```
@@ -154,65 +155,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 166,
-    "StartDate": "2001-06-26T02:38:20.557605+02:00",
-    "EndDate": "2018-02-13T02:38:20.557605+01:00",
+    "AppointmentId": 934,
+    "StartDate": "2013-07-27T14:28:21.1491785+02:00",
+    "EndDate": "2005-10-25T14:28:21.1491785+02:00",
     "Type": "BookingForChecklist",
-    "Task": "in",
-    "AssociateFullName": "Bradley Kunze",
-    "ContactName": "Ziemann Group",
-    "Description": "Compatible value-added archive",
-    "PersonFullName": "Nora Daugherty",
-    "PersonId": 141,
-    "ContactId": 995,
-    "ProjectId": 832,
-    "ProjectName": "Orn, Walker and Kunze",
-    "IsPublished": true,
-    "AssociateId": 20,
-    "ColorIndex": 570,
+    "Task": "ut",
+    "AssociateFullName": "Dino Champlin",
+    "ContactName": "Torphy-Huels",
+    "Description": "Reactive impactful emulation",
+    "PersonFullName": "Morris Dooley",
+    "PersonId": 248,
+    "ContactId": 348,
+    "ProjectId": 983,
+    "ProjectName": "Reilly LLC",
+    "IsPublished": false,
+    "AssociateId": 958,
+    "ColorIndex": 663,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 955,
-    "PriorityName": "O'Kon-Murphy",
+    "PriorityId": 885,
+    "PriorityName": "Kuhn-Hayes",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2000-04-18T02:38:20.557605+02:00",
+    "ActiveDate": "1998-02-04T14:28:21.1491785+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2008-07-10T02:38:20.557605+02:00",
-    "RecurringEndDate": "2024-06-08T02:38:20.557605+02:00",
-    "MotherId": 237,
-    "AssignedBy": 935,
-    "AssignedByFullName": "Johnson Wiegand",
+    "RecurringStartDate": "1998-05-31T14:28:21.1491785+02:00",
+    "RecurringEndDate": "2012-02-26T14:28:21.1491785+01:00",
+    "MotherId": 261,
+    "AssignedBy": 817,
+    "AssignedByFullName": "Ernie Kilback",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "dolore",
-    "SaleId": 707,
-    "SaleName": "Rempel Group",
-    "AssociateName": "Moen-Upton",
-    "CreatedDate": "2020-10-19T02:38:20.557605+02:00",
-    "CreatedBy": "sequi",
-    "CreatedByFullName": "Cathy Gutmann",
-    "CreatedByAssociateId": 71,
+    "Location": "commodi",
+    "AlarmLeadTime": "sit",
+    "SaleId": 862,
+    "SaleName": "Cassin-Pfeffer",
+    "AssociateName": "Kemmer, Osinski and Miller",
+    "CreatedDate": "2024-10-28T14:28:21.1491785+01:00",
+    "CreatedBy": "quis",
+    "CreatedByFullName": "Mrs. Gregoria Austin Walter",
+    "CreatedByAssociateId": 558,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 623,
-    "Title": "maiores",
-    "Agenda": "ut",
-    "InternalNotes": "quae",
+    "PreferredTZLocation": 537,
+    "Title": "autem",
+    "Agenda": "aliquid",
+    "InternalNotes": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 1002
+        "FieldType": "System.Int32",
+        "FieldLength": 164
       }
     }
   }

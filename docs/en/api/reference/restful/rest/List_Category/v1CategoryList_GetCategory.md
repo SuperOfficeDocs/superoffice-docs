@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Labadie, Gleason and Rosenbaum",
-  "Tooltip": "quod",
+  "Id": 17,
+  "Name": "Carroll-Schoen",
+  "Tooltip": "quis",
   "Deleted": true,
-  "UdListDefinitionId": 680,
-  "Rank": 714,
+  "UdListDefinitionId": 433,
+  "Rank": 915,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 626
+      "FieldLength": 395
     }
   }
 }

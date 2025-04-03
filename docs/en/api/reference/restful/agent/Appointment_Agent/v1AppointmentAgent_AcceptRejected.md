@@ -113,6 +113,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -136,7 +137,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 411,
+  "AppointmentId": 343,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,120 +153,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-05-13T02:38:20.7764793+02:00",
-  "AppointmentId": 768,
-  "Description": "Team-oriented bottom-line portal",
-  "Title": "amet",
-  "Agenda": "ab",
-  "InternalNotes": "et",
-  "StartDate": "2023-09-09T02:38:20.7764793+02:00",
-  "EndDate": "2018-03-05T02:38:20.7764793+01:00",
+  "CreatedDate": "2005-03-10T14:28:21.3835445+01:00",
+  "AppointmentId": 94,
+  "Description": "Centralized 24 hour policy",
+  "Title": "praesentium",
+  "Agenda": "illo",
+  "InternalNotes": "dolor",
+  "StartDate": "2004-05-29T14:28:21.3835445+02:00",
+  "EndDate": "2002-09-30T14:28:21.3835445+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 780,
+  "MotherId": 493,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2024-04-12T02:38:20.7764793+02:00",
+  "UpdatedDate": "2000-04-28T14:28:21.3835445+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 568,
+  "ActiveLinks": 362,
   "Links": [
     {
-      "EntityName": "Parisian Group",
-      "Id": 42,
-      "Description": "Down-sized next generation matrices",
-      "ExtraInfo": "nisi",
-      "LinkId": 135,
+      "EntityName": "Howell-Schoen",
+      "Id": 778,
+      "Description": "Diverse multi-state flexibility",
+      "ExtraInfo": "nulla",
+      "LinkId": 53,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 651
+          "FieldLength": 272
         }
       }
     }
   ],
-  "AlarmLeadTime": "nihil",
-  "HasAlarm": true,
-  "ColorIndex": 936,
-  "IsFree": false,
+  "AlarmLeadTime": "fugiat",
+  "HasAlarm": false,
+  "ColorIndex": 326,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "qui",
-  "LeadTime": "exercitationem",
-  "Location": "sit",
-  "RejectCounter": 917,
+  "LagTime": "quia",
+  "LeadTime": "fugiat",
+  "Location": "quo",
+  "RejectCounter": 407,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 570,
-      "PersonId": 939,
-      "ContactId": 983,
-      "EmailId": 650,
+      "AssociateId": 79,
+      "PersonId": 69,
+      "ContactId": 401,
+      "EmailId": 220,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "elvera@ward.name",
-      "Description": "Operative heuristic toolset"
+      "EmailAddress": "hester_wehner@koelpin.name",
+      "Description": "Ameliorated heuristic software"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "1999-05-05T02:38:20.7764793+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2013-06-04T14:28:21.3835445+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 420,
+  "PreferredTZLocation": 795,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 300,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 801,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "tenetur",
+  "CentralserviceVideomeetId": "delectus",
   "UserDefinedFields": {
-    "SuperOffice:1": "Geraldine Koss",
-    "SuperOffice:2": "Mr. Sincere Sheridan Bradtke IV"
+    "SuperOffice:1": "Theron Kihn",
+    "SuperOffice:2": "Felipa Zboncak"
   },
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "corporis"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "porro"
+    "CustomFields1": "fuga",
+    "CustomFields2": "quae"
   },
-  "PublishEventDate": "2009-09-28T02:38:20.7764793+02:00",
-  "PublishTo": "2021-03-09T02:38:20.7764793+01:00",
-  "PublishFrom": "2002-05-13T02:38:20.7764793+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2003-09-07T14:28:21.3835445+02:00",
+  "PublishTo": "2018-08-17T14:28:21.3835445+02:00",
+  "PublishFrom": "2015-05-04T14:28:21.3835445+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 342,
+      "VisibleId": 164,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 967
+          "FieldLength": 119
         }
       }
     },
     {
-      "VisibleId": 342,
+      "VisibleId": 164,
       "Visibility": "All",
-      "DisplayValue": "iure",
+      "DisplayValue": "voluptatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 967
+          "FieldLength": 119
         }
       }
     }
@@ -275,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 24
     }
   }
 }

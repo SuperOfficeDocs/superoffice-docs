@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 944,
-  "ParentId": 670,
-  "Name": "Hyatt Group",
-  "Fullname": "aut",
-  "CategoryMaster": 345,
+  "TicketCategoryId": 924,
+  "ParentId": 642,
+  "Name": "Morissette, Mann and Towne",
+  "Fullname": "debitis",
+  "CategoryMaster": 155,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Brekke, Friesen and Wyman",
+  "ExternalName": "Armstrong LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 388,
-  "ReplyTemplate": 886,
-  "NotificationEmail": "aubree.connelly@kozeymills.uk",
+  "AssignmentLag": 475,
+  "ReplyTemplate": 294,
+  "NotificationEmail": "jess.russel@thiel.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 675,
+  "EffectiveReplyTemplateId": 681,
   "ExtraFields": {
-    "ExtraFields1": "numquam",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "non",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "asperiores",
-    "CustomFields2": "quidem"
+    "CustomFields1": "ut",
+    "CustomFields2": "unde"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 507,
-  "ParentId": 130,
-  "Name": "Sporer Inc and Sons",
-  "Fullname": "voluptas",
-  "CategoryMaster": 261,
+  "TicketCategoryId": 431,
+  "ParentId": 594,
+  "Name": "White LLC",
+  "Fullname": "nihil",
+  "CategoryMaster": 254,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Zulauf-Connelly",
+  "ExternalName": "Rohan Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 908,
-  "ReplyTemplate": 623,
-  "NotificationEmail": "heloise.cronin@abshire.us",
+  "AssignmentLag": 516,
+  "ReplyTemplate": 866,
+  "NotificationEmail": "pasquale_armstrong@wuckertweimann.co.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 246,
+  "EffectiveReplyTemplateId": 673,
   "ExtraFields": {
-    "ExtraFields1": "aliquid",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "et",
+    "ExtraFields2": "nisi"
   },
   "CustomFields": {
-    "CustomFields1": "laudantium",
-    "CustomFields2": "voluptatibus"
+    "CustomFields1": "excepturi",
+    "CustomFields2": "distinctio"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 86
+      "FieldType": "System.Int32",
+      "FieldLength": 493
     }
   }
 }

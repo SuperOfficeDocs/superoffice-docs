@@ -26,8 +26,8 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SelectionCategory/MDOItems?flat=True
-GET /api/v1/List/SelectionCategory/MDOItems?query=quam
+GET /api/v1/List/SelectionCategory/MDOItems?flat=False
+GET /api/v1/List/SelectionCategory/MDOItems?query=consequuntur
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 530,
-    "Name": "Stark-Hermann",
-    "ToolTip": "Neque repudiandae id qui dignissimos.",
+    "Id": 276,
+    "Name": "Ward-McKenzie",
+    "ToolTip": "Pariatur consequuntur distinctio laudantium saepe non qui.",
     "Deleted": false,
-    "Rank": 687,
-    "Type": "molestiae",
+    "Rank": 538,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 723,
-        "Name": "Hoeger-Wunsch",
-        "ToolTip": "Doloremque quidem amet quis voluptatem dolores dolor ipsum.",
+        "Id": 178,
+        "Name": "Hettinger-Lemke",
+        "ToolTip": "Ut quis.",
         "Deleted": false,
-        "Rank": 50,
-        "Type": "qui",
+        "Rank": 555,
+        "Type": "non",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 524,
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "possimus",
-        "FullName": "Prof. Maiya Harold Yundt Sr.",
+        "IconHint": "voluptas",
+        "ColorBlock": 90,
+        "ExtraInfo": "non",
+        "StyleHint": "ut",
+        "FullName": "Yasmin Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 202
+            "FieldType": "System.Int32",
+            "FieldLength": 634
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 725,
-    "ExtraInfo": "rerum",
-    "StyleHint": "impedit",
-    "FullName": "Brook Wiza",
+    "IconHint": "sint",
+    "ColorBlock": 460,
+    "ExtraInfo": "quia",
+    "StyleHint": "sit",
+    "FullName": "Ryan Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 485
+        "FieldType": "System.Int32",
+        "FieldLength": 775
       }
     }
   }

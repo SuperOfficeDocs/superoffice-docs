@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTableRecordId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Brekke LLC",
-  "DeviceName": "Zulauf-Wiza",
-  "DeviceIdentifier": "veritatis",
-  "TableName": "Schmeler-Torp",
-  "RecordId": 693
+  "ApplicationName": "Nienow-Thompson",
+  "DeviceName": "Anderson Inc and Sons",
+  "DeviceIdentifier": "voluptatem",
+  "TableName": "Smith-Doyle",
+  "RecordId": 763
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ex",
-    "Value": "asperiores",
-    "RecordId": 941,
-    "CreatedDate": "2005-09-29T02:38:21.4639053+02:00",
-    "UpdatedDate": "2015-12-16T02:38:21.4639053+01:00",
-    "UpdatedBy": "similique",
-    "CreatedBy": "reiciendis",
-    "TableName": "Corkery LLC",
+    "Key": "sint",
+    "Value": "suscipit",
+    "RecordId": 738,
+    "CreatedDate": "2004-10-10T14:28:22.0241429+02:00",
+    "UpdatedDate": "2006-06-04T14:28:22.0241429+02:00",
+    "UpdatedBy": "nostrum",
+    "CreatedBy": "ut",
+    "TableName": "Maggio, Little and Howell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 614
+        "FieldLength": 730
       }
     }
   }

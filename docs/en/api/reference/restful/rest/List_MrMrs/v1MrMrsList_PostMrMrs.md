@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 506,
-  "Name": "Nader, Homenick and Rolfson",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "UdListDefinitionId": 51,
-  "Rank": 762
+  "Id": 890,
+  "Name": "Schimmel, Welch and Moore",
+  "Tooltip": "quo",
+  "Deleted": false,
+  "UdListDefinitionId": 264,
+  "Rank": 651
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 631,
-  "Name": "Turcotte-Keebler",
-  "Tooltip": "animi",
+  "Id": 505,
+  "Name": "Greenholt Inc and Sons",
+  "Tooltip": "quia",
   "Deleted": true,
-  "UdListDefinitionId": 409,
-  "Rank": 835,
+  "UdListDefinitionId": 604,
+  "Rank": 178,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldLength": 815
     }
   }
 }

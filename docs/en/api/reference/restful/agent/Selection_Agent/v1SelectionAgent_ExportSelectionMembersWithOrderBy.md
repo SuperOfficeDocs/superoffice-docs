@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Selection/ExportSelectionMembersWithOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 291,
-  "TemplateName": "Terry-Carter",
+  "SelectionId": 52,
+  "TemplateName": "Wolf-Tillman",
   "UseContacts": false,
-  "OrderBy": "fugit"
+  "OrderBy": "porro"
 }
 ```
 

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 985,
+  "EjMessageId": 900,
   "Ticket": null,
-  "CreatedAt": "2013-07-21T02:38:22.0419723+02:00",
+  "CreatedAt": "2016-08-13T14:28:22.5709961+02:00",
   "CreatedBy": null,
-  "Author": "reiciendis",
+  "Author": "mollitia",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "illo",
-  "TimeSpent": 377,
-  "Body": "quibusdam",
-  "HtmlBody": "consequatur",
-  "EmailHeader": "hellen@strosinokuneva.com",
-  "DebugInfo": "nostrum",
-  "MailSorter": "expedita",
+  "MessageId": "et",
+  "TimeSpent": 562,
+  "Body": "pariatur",
+  "HtmlBody": "molestias",
+  "EmailHeader": "jerrod.greenfelder@predovic.com",
+  "DebugInfo": "repellat",
+  "MailSorter": "delectus",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ea",
+  "SearchTitle": "aut",
   "MessageHeaders": [
     {
-      "Id": 178,
-      "Name": "Champlin LLC",
-      "Value": "distinctio",
+      "Id": 309,
+      "Name": "Lebsack Group",
+      "Value": "voluptatem",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldType": "System.String",
+          "FieldLength": 950
         }
       }
     }
   ],
   "Important": false,
-  "Language": "voluptatem",
-  "Sentiment": 547,
-  "SentimentConfidence": 71,
+  "Language": "qui",
+  "Sentiment": 456,
+  "SentimentConfidence": 607,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 980,
-      "Name": "Franecki, Lockman and Ferry",
-      "ContentType": "incidunt",
-      "AttSize": 640,
+      "AttachmentId": 970,
+      "Name": "Harber, Schamberger and Bayer",
+      "ContentType": "illum",
+      "AttSize": 500,
       "InlineImage": false,
-      "ContentId": "quibusdam",
-      "AuthKey": "expedita",
-      "IsSafeFileExtension": false,
+      "ContentId": "et",
+      "AuthKey": "fugiat",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 118
+          "FieldType": "System.String",
+          "FieldLength": 362
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "commodi",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "expedita",
+    "ExtraFields2": "est"
   },
   "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "est"
+    "CustomFields1": "commodi",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldType": "System.String",
+      "FieldLength": 520
     }
   }
 }

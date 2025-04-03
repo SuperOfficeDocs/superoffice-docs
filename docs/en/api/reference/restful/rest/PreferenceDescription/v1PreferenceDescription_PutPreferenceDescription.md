@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 309,
-  "Section": "eos",
-  "Key": "quos",
-  "Name": "Metz-Raynor",
+  "PrefDescId": 395,
+  "Section": "et",
+  "Key": "nemo",
+  "Name": "Medhurst LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Seamless dynamic encoding",
+  "Description": "Organic national solution",
   "IsBuiltin": false,
-  "TableName": "Wilderman-Keeling",
-  "UserDefinedListId": 795,
-  "Rank": 828,
-  "SubGroup": "quos",
-  "MinLevel": 844,
-  "MaxValue": 319,
-  "MinValue": 919,
-  "RequiredLicense": "praesentium"
+  "TableName": "Abbott-Tremblay",
+  "UserDefinedListId": 263,
+  "Rank": 269,
+  "SubGroup": "voluptas",
+  "MinLevel": 869,
+  "MaxValue": 775,
+  "MinValue": 322,
+  "RequiredLicense": "qui"
 }
 ```
 
@@ -145,30 +145,30 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 187,
-  "Section": "et",
-  "Key": "dolores",
-  "Name": "Schuster-Rice",
+  "PrefDescId": 719,
+  "Section": "ex",
+  "Key": "voluptatibus",
+  "Name": "Veum-Jenkins",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Digitized real-time website",
+  "Description": "Streamlined background system engine",
   "IsBuiltin": true,
-  "TableName": "Wiegand, Gibson and Willms",
-  "UserDefinedListId": 891,
-  "Rank": 730,
-  "SubGroup": "est",
-  "MinLevel": 369,
-  "MaxValue": 113,
-  "MinValue": 163,
-  "RequiredLicense": "voluptatem",
+  "TableName": "Becker, Dickens and Dach",
+  "UserDefinedListId": 376,
+  "Rank": 132,
+  "SubGroup": "labore",
+  "MinLevel": 454,
+  "MaxValue": 209,
+  "MinValue": 756,
+  "RequiredLicense": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 481
     }
   },
   "_Links": {

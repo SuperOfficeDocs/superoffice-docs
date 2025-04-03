@@ -75,7 +75,7 @@ OK
 GET /api/v1/TicketType/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,40 +85,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 603,
-  "Name": "Kerluke, Kihn and Gottlieb",
-  "Rank": 558,
-  "Tooltip": "et",
-  "Icon": "sit",
-  "DefaultTicketStatus": 372,
+  "TicketTypeId": 884,
+  "Name": "Quigley Inc and Sons",
+  "Rank": 844,
+  "Tooltip": "id",
+  "Icon": "sed",
+  "DefaultTicketStatus": 373,
   "TicketStatuses": [
-    184,
-    705
+    23,
+    693
   ],
-  "DefaultTicketPriority": 510,
+  "DefaultTicketPriority": 313,
   "TicketPriorities": [
-    273,
-    595
+    830,
+    132
   ],
-  "ReplyTemplate": 959,
+  "ReplyTemplate": 362,
   "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": true,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    875,
-    278
+    411,
+    581
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 884
+      "FieldLength": 801
     }
   }
 }

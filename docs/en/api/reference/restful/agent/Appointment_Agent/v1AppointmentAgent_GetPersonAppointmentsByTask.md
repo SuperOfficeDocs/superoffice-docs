@@ -118,6 +118,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,16 +133,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 216,
+  "PersonId": 426,
   "IncludeProjectAppointments": false,
-  "StartTime": "2012-07-13T02:38:20.5419831+02:00",
-  "EndTime": "2008-11-06T02:38:20.5419831+01:00",
-  "Count": 24,
-  "TaskId": 572
+  "StartTime": "2000-03-24T14:28:21.1335548+01:00",
+  "EndTime": "2012-08-19T14:28:21.1335548+02:00",
+  "Count": 204,
+  "TaskId": 733
 }
 ```
 
@@ -153,65 +154,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 690,
-    "StartDate": "2016-11-28T02:38:20.5419831+01:00",
-    "EndDate": "2009-12-17T02:38:20.5419831+01:00",
+    "AppointmentId": 271,
+    "StartDate": "2021-07-30T14:28:21.1335548+02:00",
+    "EndDate": "2019-11-10T14:28:21.1335548+01:00",
     "Type": "BookingForChecklist",
-    "Task": "dignissimos",
-    "AssociateFullName": "Orrin Rosenbaum Jr.",
-    "ContactName": "Harvey-Turcotte",
-    "Description": "Configurable disintermediate task-force",
-    "PersonFullName": "Ms. Filomena Renee Koepp",
-    "PersonId": 280,
-    "ContactId": 546,
-    "ProjectId": 897,
-    "ProjectName": "Gerlach-Christiansen",
+    "Task": "tempore",
+    "AssociateFullName": "Graciela Cremin",
+    "ContactName": "Boehm, Roob and Heaney",
+    "Description": "Organized high-level budgetary management",
+    "PersonFullName": "Broderick Johns",
+    "PersonId": 149,
+    "ContactId": 233,
+    "ProjectId": 308,
+    "ProjectName": "Ruecker, Keebler and Parker",
     "IsPublished": false,
-    "AssociateId": 842,
-    "ColorIndex": 366,
-    "IsFree": false,
+    "AssociateId": 16,
+    "ColorIndex": 968,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 418,
-    "PriorityName": "Bins LLC",
+    "PriorityId": 120,
+    "PriorityName": "Cartwright-Kilback",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2017-02-02T02:38:20.5419831+01:00",
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2012-06-30T14:28:21.1335548+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-02-08T02:38:20.5419831+01:00",
-    "RecurringEndDate": "2016-07-23T02:38:20.5419831+02:00",
-    "MotherId": 818,
-    "AssignedBy": 770,
-    "AssignedByFullName": "Ms. Diamond Greenholt",
+    "RecurringStartDate": "2018-06-06T14:28:21.1335548+02:00",
+    "RecurringEndDate": "2024-09-12T14:28:21.1335548+02:00",
+    "MotherId": 828,
+    "AssignedBy": 366,
+    "AssignedByFullName": "Miss Esther Robel",
     "RejectReason": "",
-    "Location": "impedit",
-    "AlarmLeadTime": "soluta",
-    "SaleId": 577,
-    "SaleName": "Stroman-Romaguera",
-    "AssociateName": "Bergstrom LLC",
-    "CreatedDate": "2006-12-30T02:38:20.5419831+01:00",
-    "CreatedBy": "aperiam",
-    "CreatedByFullName": "Mr. Cedrick Shaun Corwin V",
-    "CreatedByAssociateId": 890,
+    "Location": "quas",
+    "AlarmLeadTime": "molestiae",
+    "SaleId": 646,
+    "SaleName": "Bruen, Wolf and Runolfsson",
+    "AssociateName": "Walsh, Funk and DuBuque",
+    "CreatedDate": "2016-11-23T14:28:21.1335548+01:00",
+    "CreatedBy": "temporibus",
+    "CreatedByFullName": "Patrick Hills",
+    "CreatedByAssociateId": 430,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 60,
-    "Title": "aut",
-    "Agenda": "vero",
-    "InternalNotes": "aliquam",
+    "PreferredTZLocation": 724,
+    "Title": "optio",
+    "Agenda": "nihil",
+    "InternalNotes": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 320
+        "FieldType": "System.Int32",
+        "FieldLength": 844
       }
     }
   }

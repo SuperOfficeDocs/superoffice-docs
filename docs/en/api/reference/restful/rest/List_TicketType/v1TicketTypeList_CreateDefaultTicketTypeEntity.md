@@ -83,40 +83,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 53,
-  "Name": "Volkman Inc and Sons",
-  "Rank": 482,
-  "Tooltip": "soluta",
-  "Icon": "fugit",
-  "DefaultTicketStatus": 107,
+  "TicketTypeId": 253,
+  "Name": "Howe Group",
+  "Rank": 38,
+  "Tooltip": "dicta",
+  "Icon": "ut",
+  "DefaultTicketStatus": 136,
   "TicketStatuses": [
-    589,
-    141
+    471,
+    412
   ],
-  "DefaultTicketPriority": 401,
+  "DefaultTicketPriority": 151,
   "TicketPriorities": [
-    926,
-    705
+    138,
+    149
   ],
-  "ReplyTemplate": 725,
+  "ReplyTemplate": 988,
   "IsExternalVisible": false,
-  "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": false,
+  "IsDefault": true,
+  "ShowInNew": true,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    716,
-    111
+    666,
+    568
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 818
+      "FieldType": "System.Int32",
+      "FieldLength": 441
     }
   }
 }

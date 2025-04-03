@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 168,
-  "Name": "Smitham Group",
-  "Tooltip": "ratione",
-  "Deleted": false,
-  "UdListDefinitionId": 290,
-  "Rank": 763
+  "Id": 883,
+  "Name": "Botsford LLC",
+  "Tooltip": "quidem",
+  "Deleted": true,
+  "UdListDefinitionId": 770,
+  "Rank": 541
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 823,
-  "Name": "Gerhold LLC",
+  "Id": 222,
+  "Name": "Bahringer-Stamm",
   "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 255,
-  "Rank": 634,
+  "Deleted": false,
+  "UdListDefinitionId": 180,
+  "Rank": 1001,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 395
+      "FieldType": "System.Int32",
+      "FieldLength": 326
     }
   }
 }

@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,25 +93,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 401,
-    "Name": "Powlowski LLC",
-    "ConsentText": "at",
-    "FormText": "mollitia",
-    "Key": "similique",
-    "Tooltip": "id",
-    "Active": 417,
-    "UpdatedDate": "2000-06-17T02:38:21.5107392+02:00",
+    "ConsentPurposeId": 184,
+    "Name": "Feest LLC",
+    "ConsentText": "soluta",
+    "FormText": "in",
+    "Key": "voluptas",
+    "Tooltip": "rerum",
+    "Active": 692,
+    "UpdatedDate": "2008-06-13T14:28:22.071016+02:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 946,
-    "PrivacyStatementDesc": "enim",
+    "Deleted": true,
+    "Rank": 82,
+    "PrivacyStatementDesc": "dolorem",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 524
       }
     }
   }

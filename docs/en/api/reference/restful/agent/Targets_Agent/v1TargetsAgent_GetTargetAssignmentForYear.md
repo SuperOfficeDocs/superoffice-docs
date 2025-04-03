@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 999,
+  "TargetYear": 387,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 402
+  "Id": 325
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 301,
+  "TargetAssignmentInfoId": 179,
   "Values": [
-    800,
-    719
+    685,
+    876
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 780,
-  "DimensionListItemDisplayName": "Jacobson Group",
+  "DimensionListItem": 848,
+  "DimensionListItemDisplayName": "Kuhlman Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 126
+      "FieldLength": 90
     }
   }
 }

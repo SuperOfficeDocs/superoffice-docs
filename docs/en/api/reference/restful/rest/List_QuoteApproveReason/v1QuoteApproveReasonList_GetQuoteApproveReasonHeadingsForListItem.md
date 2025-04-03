@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Rice, Wilkinson and Wolf",
-    "ToolTip": "Voluptate tempora aspernatur architecto molestiae dicta sint.",
-    "Deleted": true,
-    "Rank": 38,
-    "Type": "rerum",
-    "ColorBlock": 707,
-    "IconHint": "dolore",
+    "Id": 75,
+    "Name": "Lemke, Douglas and Pouros",
+    "ToolTip": "Assumenda sed.",
+    "Deleted": false,
+    "Rank": 239,
+    "Type": "unde",
+    "ColorBlock": 757,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2021-08-23T02:38:26.886137+02:00",
+    "LastChanged": "2023-11-12T14:28:27.6645394+01:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Goldner-Schaden",
-        "ToolTip": "Error non mollitia aut asperiores ut fugiat.",
-        "Deleted": true,
-        "Rank": 188,
-        "Type": "tempore",
-        "ColorBlock": 576,
-        "IconHint": "distinctio",
+        "Id": 172,
+        "Name": "Zieme Inc and Sons",
+        "ToolTip": "Atque accusantium odit et ratione ut est.",
+        "Deleted": false,
+        "Rank": 378,
+        "Type": "provident",
+        "ColorBlock": 248,
+        "IconHint": "blanditiis",
         "Selected": false,
-        "LastChanged": "2016-05-23T02:38:26.886137+02:00",
+        "LastChanged": "2020-09-21T14:28:27.6645394+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "soluta",
-        "Hidden": true,
-        "FullName": "Mr. Burnice Leola Bechtelar DDS",
+        "ExtraInfo": "placeat",
+        "StyleHint": "voluptatum",
+        "Hidden": false,
+        "FullName": "Miss Ole Smitham",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 517
+            "FieldLength": 828
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Carol Rice",
+    "ExtraInfo": "maiores",
+    "StyleHint": "sunt",
+    "Hidden": false,
+    "FullName": "Guiseppe Klein",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 339
+        "FieldLength": 209
       }
     }
   }

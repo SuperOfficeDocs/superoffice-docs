@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 35,
-  "Currency": "quibusdam"
+  "QuoteConnectionId": 323,
+  "Currency": "accusamus"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 109,
-    "ERPPriceListKey": "eum",
-    "QuoteConnectionId": 889,
-    "Name": "Dietrich-Hermiston",
-    "Description": "Cloned system-worthy conglomeration",
-    "Currency": "quis",
-    "CurrencyName": "Bruen-Armstrong",
-    "ValidFrom": "2006-10-02T02:38:21.7763357+02:00",
-    "ValidTo": "2024-03-20T02:38:21.7763357+01:00",
-    "IsActive": false,
+    "PriceListId": 267,
+    "ERPPriceListKey": "a",
+    "QuoteConnectionId": 946,
+    "Name": "Pfannerstill Inc and Sons",
+    "Description": "Progressive reciprocal policy",
+    "Currency": "accusamus",
+    "CurrencyName": "Kunde-Hermiston",
+    "ValidFrom": "2017-09-17T14:28:22.3053817+02:00",
+    "ValidTo": "2005-09-02T14:28:22.3053817+02:00",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 76
+        "FieldType": "System.String",
+        "FieldLength": 107
       }
     }
   }

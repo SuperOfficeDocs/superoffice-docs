@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductCategory/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 791,
-    "Name": "Abernathy, Orn and Johnson",
-    "ToolTip": "Nostrum iusto qui cumque reiciendis odit.",
-    "Deleted": true,
-    "Rank": 381,
-    "Type": "tempora",
-    "ColorBlock": 305,
-    "IconHint": "odit",
-    "Selected": false,
-    "LastChanged": "2020-05-15T02:38:26.8392626+02:00",
+    "Id": 603,
+    "Name": "Klocko, Dare and Keebler",
+    "ToolTip": "Beatae neque aut cumque ducimus.",
+    "Deleted": false,
+    "Rank": 957,
+    "Type": "et",
+    "ColorBlock": 826,
+    "IconHint": "quidem",
+    "Selected": true,
+    "LastChanged": "2025-01-17T14:28:27.6176673+01:00",
     "ChildItems": [
       {
-        "Id": 148,
-        "Name": "Pacocha, Johnson and Bayer",
-        "ToolTip": "Itaque reprehenderit et consequatur consequatur.",
+        "Id": 272,
+        "Name": "Durgan-Greenholt",
+        "ToolTip": "Nisi deleniti voluptatum.",
         "Deleted": false,
-        "Rank": 627,
-        "Type": "possimus",
-        "ColorBlock": 182,
-        "IconHint": "earum",
+        "Rank": 338,
+        "Type": "omnis",
+        "ColorBlock": 928,
+        "IconHint": "explicabo",
         "Selected": false,
-        "LastChanged": "2019-01-06T02:38:26.8392626+01:00",
+        "LastChanged": "1999-06-04T14:28:27.6176673+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "et",
+        "ExtraInfo": "nobis",
+        "StyleHint": "fuga",
         "Hidden": false,
-        "FullName": "Hadley Katarina Schinner II",
+        "FullName": "Lila McGlynn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 509
+            "FieldLength": 270
           }
         }
       }
     ],
-    "ExtraInfo": "explicabo",
-    "StyleHint": "quas",
-    "Hidden": false,
-    "FullName": "Gust Hand",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "architecto",
+    "Hidden": true,
+    "FullName": "Sandy Rutherford",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 219
+        "FieldType": "System.Int32",
+        "FieldLength": 167
       }
     }
   }

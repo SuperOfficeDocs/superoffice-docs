@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 425,
-  "Name": "Cartwright-Heidenreich",
+  "ScreenChooserId": 912,
+  "Name": "Corkery LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "laudantium",
-  "Source": "expedita",
-  "Registered": "2004-05-30T02:38:26.5266399+02:00",
-  "RegisteredAssociateId": 741,
-  "Updated": "2005-05-21T02:38:26.5266399+02:00",
-  "UpdatedAssociateId": 657
+  "Enabled": false,
+  "UniqueIdentifier": "nam",
+  "Source": "veniam",
+  "Registered": "2020-11-19T14:28:27.3520534+01:00",
+  "RegisteredAssociateId": 39,
+  "Updated": "1999-01-25T14:28:27.3520534+01:00",
+  "UpdatedAssociateId": 613
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 842,
-  "Name": "Russel Inc and Sons",
+  "ScreenChooserId": 410,
+  "Name": "Champlin-Douglas",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "voluptatem",
-  "Source": "maxime",
-  "Registered": "2019-01-25T02:38:26.5266399+01:00",
-  "RegisteredAssociateId": 333,
-  "Updated": "2016-08-10T02:38:26.5266399+02:00",
-  "UpdatedAssociateId": 419,
+  "Enabled": false,
+  "UniqueIdentifier": "vel",
+  "Source": "quibusdam",
+  "Registered": "2010-03-22T14:28:27.3520534+01:00",
+  "RegisteredAssociateId": 716,
+  "Updated": "2003-12-15T14:28:27.3520534+01:00",
+  "UpdatedAssociateId": 934,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 322
     }
   },
   "_Links": {

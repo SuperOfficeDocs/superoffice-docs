@@ -113,18 +113,18 @@ PreferenceDescriptionLine  updated.
 PATCH /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "doloremque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "deserunt",
+    "path": "doloremque",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 891,
-  "PrefDescId": 927,
-  "PrefValue": "aliquid",
-  "PrefShowValue": "atque",
-  "Description": "Object-based impactful benchmark",
-  "IsBuiltin": false,
+  "PrefDescLineId": 906,
+  "PrefDescId": 698,
+  "PrefValue": "aut",
+  "PrefShowValue": "omnis",
+  "Description": "Right-sized 24/7 migration",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldLength": 708
     }
   },
   "_Links": {

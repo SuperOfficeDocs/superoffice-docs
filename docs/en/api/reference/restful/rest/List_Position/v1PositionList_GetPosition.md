@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 771,
-  "Name": "Mraz Group",
-  "Tooltip": "soluta",
+  "Id": 779,
+  "Name": "Koepp Inc and Sons",
+  "Tooltip": "nisi",
   "Deleted": false,
-  "UdListDefinitionId": 739,
-  "Rank": 334,
+  "UdListDefinitionId": 404,
+  "Rank": 441,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 509
+      "FieldType": "System.Int32",
+      "FieldLength": 504
     }
   }
 }

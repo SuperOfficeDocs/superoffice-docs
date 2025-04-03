@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nulla",
-  "ProviderName": "Rutherford-Murazik",
-  "StorageKey": "nisi",
-  "Rank": 848,
-  "Context": "ea"
+  "StorageType": "culpa",
+  "ProviderName": "O'Kon LLC",
+  "StorageKey": "temporibus",
+  "Rank": 431,
+  "Context": "distinctio"
 }
 ```
 

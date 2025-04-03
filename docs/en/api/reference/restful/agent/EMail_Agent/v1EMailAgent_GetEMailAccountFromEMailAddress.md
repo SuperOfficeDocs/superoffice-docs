@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "quia"
+  "FromAddress": "voluptates"
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 207,
-  "EMailAddress": "nisi",
-  "AssociateId": 44,
+  "EMailAccountId": 923,
+  "EMailAddress": "deleniti",
+  "AssociateId": 178,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 33,
-  "ErrorCount": 75,
+  "AccountStatus": 655,
+  "ErrorCount": 594,
   "ErrorReason": "",
-  "InboxFolder": "dignissimos",
-  "SentFolder": "quis",
-  "SimpleMode": 379,
-  "LastFetch": "2018-08-23T02:38:21.3701735+02:00",
+  "InboxFolder": "ab",
+  "SentFolder": "nisi",
+  "SimpleMode": 19,
+  "LastFetch": "2025-03-21T14:28:21.9303967+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 947
+      "FieldType": "System.Int32",
+      "FieldLength": 571
     }
   }
 }

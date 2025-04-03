@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "McCullough, McDermott and Smitham"
+  "LayoutName": "Stoltenberg-Mertz"
 }
 ```
 

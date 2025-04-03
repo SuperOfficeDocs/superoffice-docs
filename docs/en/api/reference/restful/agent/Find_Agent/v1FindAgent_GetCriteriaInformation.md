@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "perferendis",
-  "ProviderName": "Wiegand-Wintheiser",
-  "StorageKey": "eum",
+  "StorageType": "corrupti",
+  "ProviderName": "Jerde-Reilly",
+  "StorageKey": "dolores",
   "StaticColumns": [
-    "ipsa",
-    "hic"
+    "et",
+    "ut"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Swift LLC",
-      "Operator": "est",
+      "Name": "Beier Group",
+      "Operator": "vel",
       "Values": [
-        "ex",
-        "aspernatur"
+        "expedita",
+        "et"
       ],
       "DisplayValues": [
-        "sunt",
-        "quis"
+        "itaque",
+        "voluptas"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 10,
+      "InterParenthesis": 690,
       "InterOperator": "And",
-      "UniqueHash": 280
+      "UniqueHash": 894
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Shanahan, Stanton and Gislason",
-      "DisplayTooltip": "voluptas",
-      "DisplayType": "quia",
+      "DisplayName": "Grant, Champlin and Flatley",
+      "DisplayTooltip": "voluptatem",
+      "DisplayType": "rerum",
       "CanOrderBy": false,
-      "Name": "Cremin LLC",
+      "Name": "Wiza LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "incidunt",
-      "RestrictionListName": "Boyle-Trantow",
-      "IsVisible": true,
-      "ExtraInfo": "qui",
-      "Width": "quae",
-      "IconHint": "molestias",
-      "HeadingIconHint": "minus"
+      "RestrictionType": "sapiente",
+      "RestrictionListName": "Koch-Murphy",
+      "IsVisible": false,
+      "ExtraInfo": "blanditiis",
+      "Width": "laboriosam",
+      "IconHint": "quod",
+      "HeadingIconHint": "est"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Heathcote, Kozey and Beatty",
-      "PrimaryKey": 524,
+      "EntityName": "Krajcik LLC",
+      "PrimaryKey": 661,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "autem",
-          "TooltipHint": "dolorem",
-          "LinkHint": "quaerat"
+          "DisplayValue": "dolorem",
+          "TooltipHint": "maxime",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "quia",
-      "StyleHint": "dolorem",
+      "LinkHint": "est",
+      "StyleHint": "harum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 292
+          "FieldLength": 301
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Borer Inc and Sons",
-      "Description": "Grass-roots even-keeled migration",
-      "Rank": 620,
+      "Name": "Rice Group",
+      "Description": "Switchable tertiary info-mediaries",
+      "Rank": 255,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Borer Inc and Sons",
-      "Description": "Grass-roots even-keeled migration",
-      "Rank": 620,
+      "Name": "Rice Group",
+      "Description": "Switchable tertiary info-mediaries",
+      "Rank": 255,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 411
     }
   }
 }

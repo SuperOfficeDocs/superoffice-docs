@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 37,
-  "Name": "Cartwright, Wolff and VonRueden",
-  "Tooltip": "corrupti",
-  "Deleted": false,
-  "UdListDefinitionId": 24,
-  "Rank": 930,
+  "Id": 335,
+  "Name": "Crona Inc and Sons",
+  "Tooltip": "minus",
+  "Deleted": true,
+  "UdListDefinitionId": 400,
+  "Rank": 171,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 924
+      "FieldLength": 128
     }
   }
 }

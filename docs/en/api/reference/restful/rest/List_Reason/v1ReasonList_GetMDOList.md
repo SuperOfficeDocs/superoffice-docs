@@ -27,7 +27,7 @@ Get the MDO list items for "Reason" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Reason/MDOItems?flat=True
-GET /api/v1/List/Reason/MDOItems?query=in
+GET /api/v1/List/Reason/MDOItems?query=illo
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Reason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 519,
-    "Name": "Koepp Group",
-    "ToolTip": "Quia voluptatibus quaerat tempore quisquam soluta perspiciatis fugiat.",
+    "Id": 892,
+    "Name": "Abernathy, Padberg and Yost",
+    "ToolTip": "Dolores atque.",
     "Deleted": false,
-    "Rank": 574,
-    "Type": "cumque",
+    "Rank": 36,
+    "Type": "deleniti",
     "ChildItems": [
       {
-        "Id": 831,
-        "Name": "Collier-Zemlak",
-        "ToolTip": "Ex est ratione totam ea est.",
-        "Deleted": true,
-        "Rank": 630,
-        "Type": "maxime",
+        "Id": 970,
+        "Name": "Wunsch-Schinner",
+        "ToolTip": "Ipsam maxime impedit aperiam ipsum soluta cum sunt.",
+        "Deleted": false,
+        "Rank": 808,
+        "Type": "amet",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cum",
-        "ColorBlock": 899,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "dolorum",
-        "FullName": "Moses Rath",
+        "IconHint": "quas",
+        "ColorBlock": 508,
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "ipsum",
+        "FullName": "Karlie Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 29
+            "FieldType": "System.Int32",
+            "FieldLength": 844
           }
         }
       }
     ],
-    "IconHint": "illum",
-    "ColorBlock": 31,
-    "ExtraInfo": "excepturi",
-    "StyleHint": "atque",
-    "FullName": "Kianna Alia Spencer IV",
+    "IconHint": "et",
+    "ColorBlock": 517,
+    "ExtraInfo": "possimus",
+    "StyleHint": "tempore",
+    "FullName": "Keyon Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 896
+        "FieldLength": 305
       }
     }
   }

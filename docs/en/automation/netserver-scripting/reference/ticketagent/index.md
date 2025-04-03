@@ -36,6 +36,7 @@ Service methods defined on <see cref='T:ITicketAgent'>TicketAgent</see> that can
 * [GetDefaultMessageContentFull](getdefaultmessagecontentfull.md)
 * [GetDefaultMessageContentWithOptions](getdefaultmessagecontentwithoptions.md)
 * [GetForRmUi](getforrmui.md)
+* [GetHotlistEjUsers](gethotlistejusers.md)
 * [GetNextInQueue](getnextinqueue.md)
 * [GetPreviewAttachmentStream](getpreviewattachmentstream.md)
 * [GetRfcAttachmentStream](getrfcattachmentstream.md)

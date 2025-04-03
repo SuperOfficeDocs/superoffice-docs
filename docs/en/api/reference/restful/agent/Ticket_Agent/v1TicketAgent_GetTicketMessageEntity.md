@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=186
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=685
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -102,28 +102,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 127,
+  "EjMessageId": 485,
   "Ticket": null,
-  "CreatedAt": "2003-06-29T02:38:22.1513395+02:00",
+  "CreatedAt": "2009-09-01T14:28:22.6491174+02:00",
   "CreatedBy": null,
-  "Author": "in",
+  "Author": "assumenda",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 950,
-  "Body": "laborum",
-  "HtmlBody": "laborum",
-  "EmailHeader": "orie.luettgen@littlehilpert.us",
-  "DebugInfo": "aut",
-  "MailSorter": "illo",
+  "MessageId": "magnam",
+  "TimeSpent": 99,
+  "Body": "sequi",
+  "HtmlBody": "perspiciatis",
+  "EmailHeader": "scarlett_schneider@stoltenbergraynor.biz",
+  "DebugInfo": "architecto",
+  "MailSorter": "consectetur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "repudiandae",
+  "SearchTitle": "quis",
   "MessageHeaders": [
     {
-      "Id": 580,
-      "Name": "Stokes, Graham and Fadel",
-      "Value": "dolores",
+      "Id": 494,
+      "Name": "Stark-Harber",
+      "Value": "molestiae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -131,50 +131,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 553
         }
       }
     }
   ],
   "Important": false,
-  "Language": "vero",
-  "Sentiment": 274,
-  "SentimentConfidence": 661,
+  "Language": "at",
+  "Sentiment": 571,
+  "SentimentConfidence": 846,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 896,
-      "Name": "Powlowski Inc and Sons",
-      "ContentType": "officia",
-      "AttSize": 340,
+      "AttachmentId": 259,
+      "Name": "Haag Group",
+      "ContentType": "et",
+      "AttSize": 969,
       "InlineImage": false,
-      "ContentId": "fugit",
-      "AuthKey": "voluptate",
-      "IsSafeFileExtension": true,
+      "ContentId": "ut",
+      "AuthKey": "consequuntur",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 506
+          "FieldLength": 975
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "laborum",
-    "ExtraFields2": "voluptatem"
+    "ExtraFields1": "voluptatem",
+    "ExtraFields2": "itaque"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "ut"
+    "CustomFields1": "in",
+    "CustomFields2": "cupiditate"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 549
+      "FieldLength": 472
     }
   }
 }

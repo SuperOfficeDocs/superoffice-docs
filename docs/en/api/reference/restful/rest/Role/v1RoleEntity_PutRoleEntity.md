@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 84,
-  "Name": "Sanford LLC",
-  "Tooltip": "non",
+  "RoleId": 304,
+  "Name": "Goodwin, Moen and Kautzer",
+  "Tooltip": "at",
   "RoleType": "Anonymous",
-  "Deleted": 814,
-  "Rank": 778,
-  "Created": "2022-11-25T02:38:26.3391624+01:00",
-  "UseCategories": 619,
+  "Deleted": 371,
+  "Rank": 191,
+  "Created": "2020-01-21T14:28:27.0864524+01:00",
+  "UseCategories": 400,
   "CreatedBy": null,
-  "Updated": "2003-11-13T02:38:26.3391624+01:00",
+  "Updated": "2004-10-03T14:28:27.1020656+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,29 +129,29 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 403,
-  "Name": "Goyette, Conn and Lebsack",
-  "Tooltip": "et",
+  "RoleId": 334,
+  "Name": "Ankunding, Schuster and Anderson",
+  "Tooltip": "eum",
   "RoleType": "Anonymous",
-  "Deleted": 270,
-  "Rank": 434,
-  "Created": "2015-04-29T02:38:26.3391624+02:00",
-  "UseCategories": 121,
+  "Deleted": 124,
+  "Rank": 717,
+  "Created": "1999-02-21T14:28:27.1333149+01:00",
+  "UseCategories": 591,
   "CreatedBy": null,
-  "Updated": "2019-08-26T02:38:26.3391624+02:00",
+  "Updated": "2021-12-10T14:28:27.1333149+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 799
+      "FieldType": "System.String",
+      "FieldLength": 95
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

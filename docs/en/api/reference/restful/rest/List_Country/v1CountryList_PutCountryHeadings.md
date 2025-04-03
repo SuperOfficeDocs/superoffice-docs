@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 36,
-    "Name": "Langosh Group",
-    "Tooltip": "eum",
-    "Deleted": true,
-    "Rank": 203,
-    "UdListDefinitionId": 297
+    "HeadingId": 394,
+    "Name": "Hauck, Streich and Heaney",
+    "Tooltip": "labore",
+    "Deleted": false,
+    "Rank": 952,
+    "UdListDefinitionId": 628
   },
   {
-    "HeadingId": 36,
-    "Name": "Langosh Group",
-    "Tooltip": "eum",
-    "Deleted": true,
-    "Rank": 203,
-    "UdListDefinitionId": 297
+    "HeadingId": 394,
+    "Name": "Hauck, Streich and Heaney",
+    "Tooltip": "labore",
+    "Deleted": false,
+    "Rank": 952,
+    "UdListDefinitionId": 628
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 713,
-    "Name": "Murphy-Harris",
-    "Tooltip": "veritatis",
+    "HeadingId": 495,
+    "Name": "Runolfsson-Howell",
+    "Tooltip": "consectetur",
     "Deleted": false,
-    "Rank": 606,
-    "UdListDefinitionId": 763,
+    "Rank": 280,
+    "UdListDefinitionId": 104,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 638
+        "FieldType": "System.Int32",
+        "FieldLength": 278
       }
     }
   }

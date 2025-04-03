@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "reprehenderit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "reprehenderit",
     "value": {}
   }
 ]
@@ -162,22 +162,22 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 171,
-  "Name": "Beahan Inc and Sons",
-  "Description": "Managed needs-based workforce",
-  "WelcomeMessage": "ipsa",
+  "ChatTopicId": 40,
+  "Name": "Franecki, Runolfsson and Bauch",
+  "Description": "Profit-focused mission-critical internet solution",
+  "WelcomeMessage": "magnam",
   "Language": null,
-  "LastAccept": "2023-08-21T02:38:25.9329544+02:00",
-  "SecondsPrAccept": 600,
-  "AlertRecipient": "nulla",
+  "LastAccept": "2011-09-09T14:28:26.7895753+02:00",
+  "SecondsPrAccept": 210,
+  "AlertRecipient": "asperiores",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "ab",
+  "CollectConsent": true,
+  "BadgeHeader": "nihil",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "cum",
-  "WarnNewChatMinutes": 140,
-  "WarnManagerNewChatMinutes": 717,
-  "TicketEnabled": true,
+  "CustomQueueText": "maxime",
+  "WarnNewChatMinutes": 798,
+  "WarnManagerNewChatMinutes": 212,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
@@ -185,20 +185,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 61,
-  "WarnManagerChatMessageMinutes": 892,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 666,
+  "WarnManagerChatMessageMinutes": 200,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 664,
-  "OfflineFormQueueLength": 365,
+  "OfflineFormTimeLimit": 766,
+  "OfflineFormQueueLength": 460,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "id",
+  "WidgetRatingText": "at",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldLength": 436
     }
   },
   "_Links": {

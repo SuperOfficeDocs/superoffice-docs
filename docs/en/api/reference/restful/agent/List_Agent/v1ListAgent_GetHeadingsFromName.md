@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Walker, McCullough and Gerlach"
+  "Name": "Feest-Hamill"
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 446,
-    "Name": "Borer Inc and Sons",
-    "Tooltip": "sequi",
+    "HeadingId": 589,
+    "Name": "Stiedemann Inc and Sons",
+    "Tooltip": "quas",
     "Deleted": false,
-    "Rank": 531,
-    "UdListDefinitionId": 410,
+    "Rank": 138,
+    "UdListDefinitionId": 651,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 146
+        "FieldType": "System.Int32",
+        "FieldLength": 199
       }
     }
   }

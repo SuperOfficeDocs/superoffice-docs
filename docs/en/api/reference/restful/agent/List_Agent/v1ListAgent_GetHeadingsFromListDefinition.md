@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 446
+  "Id": 477
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 125,
-    "Name": "Koch Inc and Sons",
-    "Tooltip": "enim",
-    "Deleted": false,
-    "Rank": 270,
-    "UdListDefinitionId": 806,
+    "HeadingId": 278,
+    "Name": "Howell LLC",
+    "Tooltip": "sed",
+    "Deleted": true,
+    "Rank": 538,
+    "UdListDefinitionId": 426,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 801
+        "FieldType": "System.String",
+        "FieldLength": 676
       }
     }
   }

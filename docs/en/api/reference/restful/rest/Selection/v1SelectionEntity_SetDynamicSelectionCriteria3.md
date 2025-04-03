@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Blick, Fadel and Runolfsdottir",
-    "Operator": "quaerat",
+    "Name": "Abernathy Group",
+    "Operator": "et",
     "Values": [
-      "corporis",
-      "ut"
+      "aliquid",
+      "vel"
     ],
     "DisplayValues": [
-      "aut",
-      "placeat"
+      "quod",
+      "tempore"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Kovacek, Ferry and Runolfsson",
-        "Operator": "magnam",
+        "Name": "Feil, Zulauf and Koelpin",
+        "Operator": "sit",
         "Values": [
-          "omnis",
-          "accusantium"
+          "nulla",
+          "quibusdam"
         ],
         "DisplayValues": [
-          "corrupti",
-          "maxime"
+          "culpa",
+          "deserunt"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 493,
+        "InterParenthesis": 6,
         "InterOperator": "And",
-        "UniqueHash": 778
+        "UniqueHash": 483
       }
     ],
-    "InterParenthesis": 888,
+    "InterParenthesis": 681,
     "InterOperator": "And",
-    "UniqueHash": 264
+    "UniqueHash": 323
   }
 ]
 ```
@@ -150,29 +150,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wintheiser LLC",
-    "Operator": "repellat",
+    "Name": "Reynolds, Funk and Cronin",
+    "Operator": "provident",
     "Values": [
-      "ducimus",
-      "quibusdam"
+      "similique",
+      "similique"
     ],
     "DisplayValues": [
-      "deleniti",
-      "a"
+      "repellat",
+      "culpa"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Stokes, Koelpin and Jacobson",
-        "Operator": "vel",
+        "Name": "Wintheiser Inc and Sons",
+        "Operator": "fuga",
         "Values": [
-          "fugit",
-          "possimus"
+          "eaque",
+          "quasi"
         ],
         "DisplayValues": [
-          "rerum",
-          "repudiandae"
+          "saepe",
+          "voluptatibus"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -180,14 +180,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 14,
+        "InterParenthesis": 416,
         "InterOperator": "And",
-        "UniqueHash": 752
+        "UniqueHash": 573
       }
     ],
-    "InterParenthesis": 276,
+    "InterParenthesis": 147,
     "InterOperator": "And",
-    "UniqueHash": 739
+    "UniqueHash": 7
   }
 ]
 ```

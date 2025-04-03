@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "quae",
-  "Value": "impedit",
-  "RecordId": 67,
-  "CreatedDate": "2008-10-29T02:38:26.1204323+01:00",
-  "UpdatedDate": "2001-04-26T02:38:26.1204323+02:00",
-  "UpdatedBy": "voluptatem",
-  "CreatedBy": "sint",
-  "TableName": "Braun-Larson"
+  "Key": "neque",
+  "Value": "minus",
+  "RecordId": 667,
+  "CreatedDate": "2012-04-27T14:28:26.9458186+02:00",
+  "UpdatedDate": "2016-03-31T14:28:26.9458186+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "provident",
+  "TableName": "Cummings-Auer"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ut",
-  "Value": "incidunt",
-  "RecordId": 887,
-  "CreatedDate": "2000-08-15T02:38:26.1204323+02:00",
-  "UpdatedDate": "1999-10-29T02:38:26.1204323+02:00",
-  "UpdatedBy": "nobis",
-  "CreatedBy": "vitae",
-  "TableName": "Mertz Inc and Sons",
+  "Key": "sed",
+  "Value": "sed",
+  "RecordId": 595,
+  "CreatedDate": "2019-11-10T14:28:26.9458186+01:00",
+  "UpdatedDate": "2018-01-02T14:28:26.9458186+01:00",
+  "UpdatedBy": "nam",
+  "CreatedBy": "quia",
+  "TableName": "Lesch-Kuvalis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 952
+      "FieldLength": 630
     }
   }
 }

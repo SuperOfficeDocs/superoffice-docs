@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 283,
-  "Name": "Lebsack Inc and Sons",
-  "Tooltip": "id",
-  "Rank": 164,
+  "SaleTypeId": 469,
+  "Name": "Orn Group",
+  "Tooltip": "aut",
+  "Rank": 979,
   "DurationUnit": "Century",
-  "SaleDuration": 796,
-  "SaleTypeCatId": 29,
-  "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
+  "SaleDuration": 979,
+  "SaleTypeCatId": 191,
+  "Deleted": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 503,
-  "QuoteLinesTemplate": 973,
-  "ConfirmationLinesTemplate": 157,
-  "MaxDiscountPercentSet": false,
+  "DefaultQuoteValidity": 825,
+  "QuoteLinesTemplate": 47,
+  "ConfirmationLinesTemplate": 286,
+  "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 126,
-  "MinEarningPercent": 809,
-  "GroupQuoteLinesBy": 820,
-  "SortGroupLinesBy": 634,
+  "MaxDiscountPercent": 585,
+  "MinEarningPercent": 104,
+  "GroupQuoteLinesBy": 840,
+  "SortGroupLinesBy": 106,
   "Stages": [
     {
-      "Id": 968,
-      "Name": "Watsica Inc and Sons",
-      "ToolTip": "Harum doloremque est iure asperiores voluptate.",
-      "Deleted": false,
-      "Rank": 17,
-      "Type": "amet",
-      "ColorBlock": 405,
-      "IconHint": "debitis",
-      "Selected": false,
-      "LastChanged": "2023-07-09T02:38:21.5420262+02:00",
+      "Id": 13,
+      "Name": "Maggio, Huels and Reinger",
+      "ToolTip": "Blanditiis qui quis eaque.",
+      "Deleted": true,
+      "Rank": 548,
+      "Type": "omnis",
+      "ColorBlock": 879,
+      "IconHint": "voluptatum",
+      "Selected": true,
+      "LastChanged": "2024-07-29T14:28:22.0866401+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "porro",
+      "ExtraInfo": "doloremque",
+      "StyleHint": "voluptatem",
       "Hidden": false,
-      "FullName": "Juanita Wehner",
+      "FullName": "Theo Mante",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 39
+          "FieldType": "System.String",
+          "FieldLength": 860
         }
       }
     }
@@ -144,7 +144,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 919
+      "FieldLength": 640
     }
   }
 }

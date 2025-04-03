@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Feeney-Padberg",
-  "ListItemId": 661
+  "UdListDefinitionName": "Stehr-Kreiger",
+  "ListItemId": 164
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 581,
-    "Name": "McKenzie Group",
-    "ToolTip": "Eveniet et explicabo quia placeat est.",
+    "Id": 6,
+    "Name": "Runte, King and Bayer",
+    "ToolTip": "Amet neque est.",
     "Deleted": true,
-    "Rank": 961,
-    "Type": "quia",
-    "ColorBlock": 276,
-    "IconHint": "incidunt",
-    "Selected": false,
-    "LastChanged": "2013-01-06T02:38:21.4951545+01:00",
+    "Rank": 847,
+    "Type": "dicta",
+    "ColorBlock": 719,
+    "IconHint": "unde",
+    "Selected": true,
+    "LastChanged": "2022-05-27T14:28:22.0553915+02:00",
     "ChildItems": [
       {
-        "Id": 889,
-        "Name": "Brekke-Erdman",
-        "ToolTip": "Expedita consequatur debitis et molestiae maiores natus ut.",
+        "Id": 994,
+        "Name": "Lemke Group",
+        "ToolTip": "Quam dolorem deserunt quis necessitatibus nisi.",
         "Deleted": false,
-        "Rank": 183,
-        "Type": "quidem",
-        "ColorBlock": 105,
-        "IconHint": "voluptate",
-        "Selected": true,
-        "LastChanged": "2020-06-20T02:38:21.4951545+02:00",
+        "Rank": 279,
+        "Type": "dolore",
+        "ColorBlock": 314,
+        "IconHint": "ipsam",
+        "Selected": false,
+        "LastChanged": "2008-03-01T14:28:22.0553915+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rem",
-        "StyleHint": "provident",
-        "Hidden": true,
-        "FullName": "Kade Parker",
+        "ExtraInfo": "deleniti",
+        "StyleHint": "exercitationem",
+        "Hidden": false,
+        "FullName": "Chasity Ernser",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 576
+            "FieldType": "System.Int32",
+            "FieldLength": 735
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "enim",
+    "ExtraInfo": "ut",
+    "StyleHint": "explicabo",
     "Hidden": false,
-    "FullName": "Ms. Annabel Zane Terry",
+    "FullName": "Ms. Tierra Delphine Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 831
+        "FieldType": "System.String",
+        "FieldLength": 541
       }
     }
   }

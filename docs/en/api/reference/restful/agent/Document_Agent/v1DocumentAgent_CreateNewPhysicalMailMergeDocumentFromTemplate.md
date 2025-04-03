@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 661,
-  "UiCulture": "nihil"
+  "DocumentId": 356,
+  "UiCulture": "iure"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 239,
+  "DocumentId": 696,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "error",
-  "Header": "quas",
-  "Name": "Dibbert Group",
-  "OurRef": "nisi",
-  "YourRef": "molestiae",
-  "CreatedDate": "2022-06-05T02:38:21.2763892+02:00",
-  "UpdatedDate": "2005-09-19T02:38:21.2763892+02:00",
-  "Description": "Integrated optimal groupware",
+  "Attention": "sit",
+  "Header": "dignissimos",
+  "Name": "Ankunding, Von and Wisozk",
+  "OurRef": "qui",
+  "YourRef": "et",
+  "CreatedDate": "2019-06-03T14:28:21.8522749+02:00",
+  "UpdatedDate": "2003-04-24T14:28:21.8522749+02:00",
+  "Description": "Cross-platform systemic secured line",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2024-02-13T02:38:21.2763892+01:00",
-  "ExternalRef": "magni",
+  "Date": "2000-05-06T14:28:21.8522749+02:00",
+  "ExternalRef": "quis",
   "Completed": "Completed",
-  "ActiveLinks": 410,
+  "ActiveLinks": 11,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Harvey, Stanton and Kohler",
-      "Id": 264,
-      "Description": "Organized homogeneous synergy",
-      "ExtraInfo": "rerum",
-      "LinkId": 24,
+      "EntityName": "Kemmer Group",
+      "Id": 717,
+      "Description": "Secured upward-trending software",
+      "ExtraInfo": "suscipit",
+      "LinkId": 357,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 510
+          "FieldLength": 663
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 487,
-  "Snum": 537,
+  "SuggestedDocumentId": 451,
+  "Snum": 541,
   "UserDefinedFields": {
-    "SuperOffice:1": "Lillie Towne I",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "133566980",
+    "SuperOffice:2": "Marcelo Dooley"
   },
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "tempora"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "non"
   },
   "CustomFields": {
-    "CustomFields1": "consectetur",
-    "CustomFields2": "perspiciatis"
+    "CustomFields1": "minima",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2023-03-31T02:38:21.2763892+02:00",
-  "PublishTo": "2009-09-21T02:38:21.2763892+02:00",
-  "PublishFrom": "2012-07-15T02:38:21.2763892+02:00",
+  "PublishEventDate": "2020-08-15T14:28:21.8522749+02:00",
+  "PublishTo": "2004-09-21T14:28:21.8522749+02:00",
+  "PublishFrom": "2019-10-23T14:28:21.8522749+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 481,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 815
+          "FieldLength": 520
         }
       }
     },
     {
-      "VisibleId": 481,
+      "VisibleId": 521,
       "Visibility": "All",
-      "DisplayValue": "alias",
+      "DisplayValue": "repudiandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 815
+          "FieldLength": 520
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 903
+      "FieldType": "System.Int32",
+      "FieldLength": 301
     }
   }
 }

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,42 +103,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "id",
-    "InputValues2": "totam"
+    "InputValues1": "quae",
+    "InputValues2": "dolore"
   },
-  "BlockExecution": true,
-  "NavigateTo": "quis",
-  "Message": "voluptatem",
-  "ShowDialog": "est",
+  "BlockExecution": false,
+  "NavigateTo": "dicta",
+  "Message": "aut",
+  "ShowDialog": "inventore",
   "OutputValues": {
-    "OutputValues1": "consequatur",
-    "OutputValues2": "velit"
+    "OutputValues1": "qui",
+    "OutputValues2": "ipsam"
   },
   "StateValues": {
-    "StateValues1": "quasi",
-    "StateValues2": "porro"
+    "StateValues1": "nisi",
+    "StateValues2": "ex"
   },
-  "Exception": "consectetur",
+  "Exception": "debitis",
   "ParserValues": {
-    "ParserValues1": "id",
-    "ParserValues2": "sit"
+    "ParserValues1": "ut",
+    "ParserValues2": "iste"
   },
   "CgiVariables": {
-    "CgiVariables1": "totam",
-    "CgiVariables2": "maiores"
+    "CgiVariables1": "quibusdam",
+    "CgiVariables2": "atque"
   },
-  "CgiContent": "veniam",
+  "CgiContent": "ut",
   "Headers": {
-    "Headers1": "saepe",
-    "Headers2": "consequatur"
+    "Headers1": "quia",
+    "Headers2": "optio"
   },
   "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 868
+      "FieldType": "System.Int32",
+      "FieldLength": 518
     }
   }
 }

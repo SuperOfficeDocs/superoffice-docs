@@ -73,29 +73,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 553,
-  "Name": "Fahey LLC",
-  "CreatedDate": "2001-09-07T02:38:21.4482803+02:00",
-  "UpdatedDate": "2024-08-14T02:38:21.4482803+02:00",
+  "ForeignAppId": 968,
+  "Name": "Deckow, Carter and Fritsch",
+  "CreatedDate": "2017-12-09T14:28:22.0085182+01:00",
+  "UpdatedDate": "2016-06-30T14:28:22.0085182+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 284,
-      "Name": "Boyer-Marquardt",
-      "CreatedDate": "1999-12-24T02:38:21.4482803+01:00",
-      "UpdatedDate": "2017-10-21T02:38:21.4482803+02:00",
-      "AssociateFullName": "Nikolas O'Keefe",
-      "CreatedBy": "dolor",
-      "UpdatedBy": "ea",
-      "DeviceIdentifier": "culpa",
-      "ForeignAppId": 36,
+      "ForeignDeviceId": 957,
+      "Name": "O'Conner, Runte and Hansen",
+      "CreatedDate": "2013-11-22T14:28:22.0085182+01:00",
+      "UpdatedDate": "2022-09-12T14:28:22.0085182+02:00",
+      "AssociateFullName": "Chelsie Name Schroeder V",
+      "CreatedBy": "nam",
+      "UpdatedBy": "asperiores",
+      "DeviceIdentifier": "sapiente",
+      "ForeignAppId": 242,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 710
+          "FieldLength": 344
         }
       }
     }
@@ -105,7 +105,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 375
+      "FieldLength": 581
     }
   }
 }

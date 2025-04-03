@@ -12970,6 +12970,8 @@
       href: Services88/CustomerService/GetCustomerCenterConfig.md
     - name: GetCustomerServiceStartup
       href: Services88/CustomerService/GetCustomerServiceStartup.md
+    - name: GetCustomerServiceStartupByOwner
+      href: Services88/CustomerService/GetCustomerServiceStartupByOwner.md
     - name: GetFaqForCustomer
       href: Services88/CustomerService/GetFaqForCustomer.md
     - name: GetMailboxEntity
@@ -15692,6 +15694,8 @@
       href: Services88/Ticket/GetDefaultMessageContentWithOptions.md
     - name: GetForRmUi
       href: Services88/Ticket/GetForRmUi.md
+    - name: GetHotlistEjUsers
+      href: Services88/Ticket/GetHotlistEjUsers.md
     - name: GetNextInQueue
       href: Services88/Ticket/GetNextInQueue.md
     - name: GetPreviewAttachmentStream

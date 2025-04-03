@@ -104,8 +104,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 975,
-  "Count": 586
+  "WeightedAmountLimit": 7,
+  "Count": 608
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Satterfield Group",
-    "SaleDate": "1999-11-11T02:38:21.8544876+01:00",
-    "SaleId": 990,
-    "Probability": 569,
-    "Title": "aut",
-    "Amount": 2281.552,
-    "Currency": "quia",
-    "ProjectName": "Lemke, Rempel and Schmidt",
-    "AssociateFullName": "Prof. Aaron Gerard Hammes DVM",
-    "Description": "Operative radical help-desk",
+    "ContactName": "Kuphal LLC",
+    "SaleDate": "1998-10-03T14:28:22.3678792+02:00",
+    "SaleId": 747,
+    "Probability": 35,
+    "Title": "nihil",
+    "Amount": 23235.476,
+    "Currency": "magnam",
+    "ProjectName": "Pfannerstill-Farrell",
+    "AssociateFullName": "Raul Effertz",
+    "Description": "Virtual value-added artificial intelligence",
     "Status": "Lost",
-    "WeightedAmount": 10868.712,
-    "ProjectId": 868,
-    "EarningPercent": 27090.296,
-    "Earning": 24652.043999999998,
-    "ContactId": 887,
-    "AssociateId": 303,
-    "PersonId": 829,
-    "SaleTypeId": 50,
-    "SaleTypeName": "Thiel LLC",
-    "PersonFullName": "Reyes Wyman",
+    "WeightedAmount": 4882.772,
+    "ProjectId": 973,
+    "EarningPercent": 17221.329999999998,
+    "Earning": 8552.686,
+    "ContactId": 760,
+    "AssociateId": 433,
+    "PersonId": 70,
+    "SaleTypeId": 761,
+    "SaleTypeName": "Ledner Group",
+    "PersonFullName": "Phyllis Stoltenberg",
     "Completed": "Completed",
-    "ActiveErpLinks": 402,
-    "NextDueDate": "2000-10-25T02:38:21.8544876+02:00",
-    "Number": "841523",
+    "ActiveErpLinks": 10,
+    "NextDueDate": "2016-12-16T14:28:22.3678792+01:00",
+    "Number": "1888244",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 705
+        "FieldLength": 450
       }
     }
   }

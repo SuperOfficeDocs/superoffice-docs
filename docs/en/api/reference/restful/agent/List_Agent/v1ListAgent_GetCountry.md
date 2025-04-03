@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=875
+POST /api/v1/Agents/List/GetCountry?countryId=642
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 506,
-  "Name": "Brown Group",
-  "CurrencyId": 724,
-  "EnglishName": "Parker LLC",
+  "CountryId": 842,
+  "Name": "Beahan LLC",
+  "CurrencyId": 890,
+  "EnglishName": "Simonis-Ernser",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Triple-buffered 5th generation infrastructure",
-  "OrgNrText": "402427",
-  "InterAreaPrefix": "impedit",
-  "DialInPrefix": "sequi",
-  "ZipPrefix": "qui",
-  "DomainName": "Kuphal-Reilly",
-  "AddressLayoutId": 722,
-  "DomesticAddressLayoutId": 785,
-  "ForeignAddressLayoutId": 528,
-  "Rank": 705,
-  "Tooltip": "facilis",
-  "Deleted": true,
+  "ImageDescription": "Object-based logistical artificial intelligence",
+  "OrgNrText": "295245",
+  "InterAreaPrefix": "ut",
+  "DialInPrefix": "qui",
+  "ZipPrefix": "voluptas",
+  "DomainName": "Bauch-Bradtke",
+  "AddressLayoutId": 62,
+  "DomesticAddressLayoutId": 983,
+  "ForeignAddressLayoutId": 866,
+  "Rank": 547,
+  "Tooltip": "doloremque",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 82
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   }
 }

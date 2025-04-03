@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "labore",
+    "path": "voluptatem",
     "value": {}
   },
   {
     "op": "add",
-    "path": "labore",
+    "path": "voluptatem",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 830,
-  "Name": "Towne LLC",
-  "Config": "architecto",
-  "Rank": 405,
-  "Client": "quas",
-  "Style": "tempore",
+  "DashboardThemeId": 68,
+  "Name": "Bartoletti-Doyle",
+  "Config": "sint",
+  "Rank": 749,
+  "Client": "laborum",
+  "Style": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 51
+      "FieldType": "System.Int32",
+      "FieldLength": 325
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

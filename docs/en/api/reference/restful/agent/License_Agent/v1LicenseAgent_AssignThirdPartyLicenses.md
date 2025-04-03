@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 880,
-  "ModuleOwner": "quod",
+  "AssociateId": 41,
+  "ModuleOwner": "esse",
   "ModuleLicenseNames": [
-    "Donnelly-Buckridge",
-    "Morissette, Hamill and Towne"
+    "Greenholt-Turner",
+    "Johnson LLC"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 669,
-    "Tooltip": "nobis",
+    "Total": 508,
+    "Tooltip": "nam",
     "CanAssign": false,
-    "Free": 692,
-    "InUse": 679,
+    "Free": 437,
+    "InUse": 57,
     "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 996,
-    "Name": "Beatty Group",
-    "Description": "Future-proofed well-modulated capability",
-    "PrerequisiteModuleName": "Stanton-Gibson",
-    "SortOrder": 124,
-    "ExtraFlags": 735,
+    "ModuleLicenseId": 104,
+    "Name": "Kirlin LLC",
+    "Description": "Right-sized coherent core",
+    "PrerequisiteModuleName": "Mayer Inc and Sons",
+    "SortOrder": 901,
+    "ExtraFlags": 591,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldType": "System.String",
+        "FieldLength": 87
       }
     }
   }

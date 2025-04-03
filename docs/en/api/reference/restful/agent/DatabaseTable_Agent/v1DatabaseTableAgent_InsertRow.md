@@ -73,10 +73,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Price-Batz",
+  "TableName": "Hessel-Ankunding",
   "Values": {
-    "Values1": "debitis",
-    "Values2": "consectetur"
+    "Values1": "earum",
+    "Values2": "qui"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-4
+741
 ```

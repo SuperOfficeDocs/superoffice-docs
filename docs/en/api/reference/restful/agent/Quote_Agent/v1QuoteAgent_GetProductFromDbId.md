@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 330
+  "ProductId": 556
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 497,
-  "ERPProductKey": "autem",
-  "ERPPriceListKey": "enim",
-  "Name": "Sauer Inc and Sons",
-  "Description": "Organic multi-state implementation",
-  "Code": "laborum",
-  "PriceUnit": "quasi",
-  "QuantityUnit": "doloremque",
-  "IsSubscription": false,
-  "SubscriptionUnit": "eum",
-  "DefaultSubscriptionQuantity": 2127.986,
-  "ItemNumber": "761986",
+  "ProductId": 811,
+  "ERPProductKey": "voluptatem",
+  "ERPPriceListKey": "vel",
+  "Name": "Hilll LLC",
+  "Description": "Pre-emptive bandwidth-monitored hub",
+  "Code": "dolorem",
+  "PriceUnit": "molestias",
+  "QuantityUnit": "cum",
+  "IsSubscription": true,
+  "SubscriptionUnit": "ullam",
+  "DefaultSubscriptionQuantity": 3406.658,
+  "ItemNumber": "1336991",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "vel",
-  "ProductTypeKey": "in",
-  "VAT": 10210.572,
-  "VATInfo": "repellat",
-  "UnitCost": 10370.405999999999,
-  "UnitMinimumPrice": 20264.444,
-  "UnitListPrice": 13291.294,
-  "InAssortment": true,
-  "Supplier": "eligendi",
-  "SupplierCode": "saepe",
-  "Rights": "vel",
-  "Rule": "veniam",
+  "ProductFamilyKey": "cum",
+  "ProductTypeKey": "fuga",
+  "VAT": 17976.624,
+  "VATInfo": "consequatur",
+  "UnitCost": 17189.989999999998,
+  "UnitMinimumPrice": 12416.908,
+  "UnitListPrice": 15648.062,
+  "InAssortment": false,
+  "Supplier": "ullam",
+  "SupplierCode": "ipsum",
+  "Rights": "facilis",
+  "Rule": "laborum",
   "ExtraInfo": [
     {
-      "Name": "Glover-Corkery",
-      "Value": "quia",
+      "Name": "Renner, Conn and Bruen",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 85
+          "FieldType": "System.Int32",
+          "FieldLength": 585
         }
       }
     },
     {
-      "Name": "Glover-Corkery",
-      "Value": "quia",
+      "Name": "Renner, Conn and Bruen",
+      "Value": "nihil",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 85
+          "FieldType": "System.Int32",
+          "FieldLength": 585
         }
       }
     }
   ],
-  "RawExtraInfo": "maiores",
-  "ExtraField1": "amet",
-  "ExtraField2": "voluptate",
-  "ExtraField3": "labore",
-  "ExtraField4": "quos",
-  "ExtraField5": "facilis",
-  "InStock": 5418.686,
+  "RawExtraInfo": "pariatur",
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "dolor",
+  "ExtraField3": "ut",
+  "ExtraField4": "enim",
+  "ExtraField5": "deserunt",
+  "InStock": 17556.667999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldLength": 603
     }
   }
 }

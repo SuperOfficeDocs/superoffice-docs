@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 492
+  "QuoteVersionId": 900
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 946,
-  "ERPQuoteVersionKey": "rerum",
-  "QuoteId": 894,
-  "Description": "Optimized maximized application",
-  "Number": "804456",
+  "QuoteVersionId": 898,
+  "ERPQuoteVersionKey": "ipsam",
+  "QuoteId": 99,
+  "Description": "Advanced explicit analyzer",
+  "Number": "1016868",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "",
-  "LikelyQuoteAlternativeId": 113,
-  "SentDate": "2003-06-15T02:38:21.7607486+02:00",
-  "FollowupId": 304,
-  "ExpirationDate": "2012-10-01T02:38:21.7607486+02:00",
-  "DeliveryCountryId": 696,
-  "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 299,
+  "Reason": "envisioneer holistic interfaces",
+  "LikelyQuoteAlternativeId": 136,
+  "SentDate": "2015-01-02T14:28:22.274133+01:00",
+  "FollowupId": 407,
+  "ExpirationDate": "2020-12-11T14:28:22.274133+01:00",
+  "DeliveryCountryId": 307,
+  "HasOwnDeliveryAddress": true,
+  "InvoiceCountryId": 268,
   "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "eaque",
-  "ERPPaymentTypeKey": "porro",
-  "ERPDeliveryTermsKey": "praesentium",
-  "ERPDeliveryTypeKey": "rerum",
-  "Rank": 188,
-  "ApprovedBy": 245,
-  "ApprovedText": "numquam",
-  "ApprovedRegisteredBy": 99,
-  "ApprovedRegisteredDate": "2003-02-15T02:38:21.7607486+01:00",
-  "ExtraField1": "consectetur",
-  "ExtraField2": "ratione",
-  "ExtraField3": "assumenda",
-  "ExtraField4": "accusantium",
-  "ExtraField5": "commodi",
-  "LastRecalculated": "2023-04-02T02:38:21.7607486+02:00",
-  "Updated": "2014-10-29T02:38:21.7607486+01:00",
-  "UpdatedAssociateId": 195,
-  "Registered": "2013-08-16T02:38:21.7607486+02:00",
-  "RegisteredAssociateId": 582,
-  "RequestAssociateId": 397,
-  "RequestComment": "sed",
+  "ERPPaymentTermsKey": "culpa",
+  "ERPPaymentTypeKey": "aliquam",
+  "ERPDeliveryTermsKey": "dolorem",
+  "ERPDeliveryTypeKey": "corrupti",
+  "Rank": 819,
+  "ApprovedBy": 571,
+  "ApprovedText": "neque",
+  "ApprovedRegisteredBy": 736,
+  "ApprovedRegisteredDate": "2018-05-20T14:28:22.274133+02:00",
+  "ExtraField1": "aperiam",
+  "ExtraField2": "id",
+  "ExtraField3": "id",
+  "ExtraField4": "officia",
+  "ExtraField5": "voluptatem",
+  "LastRecalculated": "2011-03-16T14:28:22.274133+01:00",
+  "Updated": "2014-12-21T14:28:22.274133+01:00",
+  "UpdatedAssociateId": 285,
+  "Registered": "2014-02-17T14:28:22.274133+01:00",
+  "RegisteredAssociateId": 725,
+  "RequestAssociateId": 304,
+  "RequestComment": "ut",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 574,
-      "ERPQuoteAlternativeKey": "consequuntur",
-      "QuoteVersionId": 682,
-      "Name": "Schroeder Group",
-      "Description": "Exclusive system-worthy frame",
+      "QuoteAlternativeId": 400,
+      "ERPQuoteAlternativeKey": "possimus",
+      "QuoteVersionId": 927,
+      "Name": "Lowe-Mitchell",
+      "Description": "Up-sized 5th generation success",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 5139.76,
-      "ERPDiscountAmount": 16738.694,
-      "DiscountPercent": 19653.314,
-      "DiscountAmount": 18158.396,
+      "ERPDiscountPercent": 1081.23,
+      "ERPDiscountAmount": 10132.222,
+      "DiscountPercent": 12078.436,
+      "DiscountAmount": 10251.314,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "accusamus",
-      "VAT": 18709.98,
-      "EarningPercent": 27958.414,
-      "EarningAmount": 21887.856,
-      "SubTotal": 3168.4739999999997,
-      "TotalPrice": 25150.35,
-      "ExtraField1": "ex",
-      "ExtraField2": "magni",
-      "ExtraField3": "nemo",
-      "ExtraField4": "ullam",
-      "ExtraField5": "unde",
+      "VATInfo": "velit",
+      "VAT": 12611.216,
+      "EarningPercent": 23877.946,
+      "EarningAmount": 10790.362,
+      "SubTotal": 24473.406,
+      "TotalPrice": 13940.032,
+      "ExtraField1": "provident",
+      "ExtraField2": "neque",
+      "ExtraField3": "repudiandae",
+      "ExtraField4": "numquam",
+      "ExtraField5": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 619
+          "FieldLength": 744
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 147
+      "FieldType": "System.Int32",
+      "FieldLength": 722
     }
   }
 }

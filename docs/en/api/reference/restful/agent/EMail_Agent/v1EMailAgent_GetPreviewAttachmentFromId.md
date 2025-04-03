@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/EMail/GetPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 629,
-  "AttachmentId": "beatae",
-  "AttachmentType": "sequi",
-  "AttachmentFilename": "nihil"
+  "MailItemId": 472,
+  "AttachmentId": "dolores",
+  "AttachmentType": "placeat",
+  "AttachmentFilename": "vel"
 }
 ```
 
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-contextualized demand-driven forecast",
-  "Filename": "deleniti",
-  "Size": 627,
-  "Type": "sint",
-  "Encoding": "dolor",
-  "Id": "quas",
-  "Disposition": "odit",
+  "Description": "Vision-oriented user-facing focus group",
+  "Filename": "quas",
+  "Size": 474,
+  "Type": "enim",
+  "Encoding": "possimus",
+  "Id": "perspiciatis",
+  "Disposition": "adipisci",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldLength": 545
     }
   }
 }

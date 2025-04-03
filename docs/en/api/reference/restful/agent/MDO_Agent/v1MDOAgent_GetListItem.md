@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/MDO/GetListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ListName": "Hansen Inc and Sons",
-  "Id": 257
+  "ListName": "Denesik-Wehner",
+  "Id": 647
 }
 ```
 
@@ -101,50 +101,50 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 126,
-  "Name": "Kulas-Smith",
-  "ToolTip": "Sit magni tenetur ut odit perferendis dolorem velit.",
+  "Id": 1001,
+  "Name": "Considine Group",
+  "ToolTip": "A beatae nobis nemo aspernatur aut.",
   "Deleted": true,
-  "Rank": 660,
-  "Type": "ea",
+  "Rank": 694,
+  "Type": "similique",
   "ChildItems": [
     {
-      "Id": 504,
-      "Name": "Bayer Inc and Sons",
-      "ToolTip": "Est suscipit nostrum temporibus et eum.",
+      "Id": 655,
+      "Name": "Rutherford LLC",
+      "ToolTip": "Qui nostrum est ea placeat quia non.",
       "Deleted": false,
-      "Rank": 459,
-      "Type": "sint",
+      "Rank": 863,
+      "Type": "maxime",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "est",
-      "ColorBlock": 470,
-      "ExtraInfo": "ut",
-      "StyleHint": "assumenda",
-      "FullName": "Kamren Kutch",
+      "IconHint": "fuga",
+      "ColorBlock": 163,
+      "ExtraInfo": "non",
+      "StyleHint": "in",
+      "FullName": "Jarod Hagenes",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 94
+          "FieldLength": 582
         }
       }
     }
   ],
-  "IconHint": "asperiores",
-  "ColorBlock": 66,
-  "ExtraInfo": "iure",
-  "StyleHint": "consequuntur",
-  "FullName": "Jeanne Pfannerstill V",
+  "IconHint": "ad",
+  "ColorBlock": 775,
+  "ExtraInfo": "corporis",
+  "StyleHint": "labore",
+  "FullName": "Selina Senger",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 379
+      "FieldLength": 799
     }
   }
 }

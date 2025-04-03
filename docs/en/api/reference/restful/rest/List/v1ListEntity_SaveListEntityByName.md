@@ -89,16 +89,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1001,
-  "Name": "Cremin Group",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 967,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 511,
+  "Name": "Block-Rau",
+  "Tooltip": "nesciunt",
+  "Deleted": false,
+  "Rank": 270,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "molestiae",
-  "InUseByUserDefinedFields": false
+  "ListType": "dolorem",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -109,22 +109,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 203,
-  "Name": "Mohr LLC",
-  "Tooltip": "enim",
-  "Deleted": false,
-  "Rank": 869,
+  "Id": 495,
+  "Name": "Donnelly, Lowe and Fay",
+  "Tooltip": "unde",
+  "Deleted": true,
+  "Rank": 770,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dicta",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "illo",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldType": "System.String",
+      "FieldLength": 151
     }
   }
 }

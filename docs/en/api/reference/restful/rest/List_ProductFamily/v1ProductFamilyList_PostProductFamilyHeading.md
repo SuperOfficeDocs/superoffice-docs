@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 126,
-  "Name": "McGlynn, Schmitt and McKenzie",
-  "Tooltip": "quasi",
+  "HeadingId": 909,
+  "Name": "Shanahan, Dickinson and Barrows",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "Rank": 785,
-  "UdListDefinitionId": 585
+  "Rank": 747,
+  "UdListDefinitionId": 894
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 781,
-  "Name": "Nolan-Johns",
-  "Tooltip": "est",
+  "HeadingId": 271,
+  "Name": "Pouros Inc and Sons",
+  "Tooltip": "aperiam",
   "Deleted": true,
-  "Rank": 466,
-  "UdListDefinitionId": 435,
+  "Rank": 896,
+  "UdListDefinitionId": 378,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 374
+      "FieldLength": 675
     }
   }
 }

@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 170,
-  "UniqueId": "quis",
-  "Name": "Bosco LLC",
-  "Description": "Fundamental zero administration core",
-  "AssociateId": 593,
-  "Columns": 84,
+  "DashboardId": 965,
+  "UniqueId": "voluptatem",
+  "Name": "Johnston-Zboncak",
+  "Description": "Universal object-oriented customer loyalty",
+  "AssociateId": 212,
+  "Columns": 877,
   "Theme": null,
-  "VisibleForAll": 529,
+  "VisibleForAll": 594,
   "VisibleForAssociates": [
-    819,
-    495
+    144,
+    427
   ],
   "VisibleForGroups": [
-    524,
-    817
+    964,
+    387
   ],
-  "PinForAll": 571,
+  "PinForAll": 883,
   "PinForAssociates": [
-    744,
-    475
+    408,
+    258
   ],
   "PinForGroups": [
-    822,
-    715
+    921,
+    805
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 55,
-  "UniqueId": "fuga",
-  "Name": "Abernathy Inc and Sons",
-  "Description": "Public-key responsive matrix",
-  "AssociateId": 172,
-  "Columns": 352,
+  "DashboardId": 148,
+  "UniqueId": "sint",
+  "Name": "Nader LLC",
+  "Description": "Business-focused well-modulated capacity",
+  "AssociateId": 931,
+  "Columns": 41,
   "Theme": null,
-  "VisibleForAll": 612,
+  "VisibleForAll": 515,
   "VisibleForAssociates": [
-    349,
-    528
+    912,
+    14
   ],
   "VisibleForGroups": [
-    792,
-    497
+    998,
+    905
   ],
-  "PinForAll": 683,
+  "PinForAll": 145,
   "PinForAssociates": [
-    201,
-    491
+    304,
+    604
   ],
   "PinForGroups": [
-    852,
-    118
+    509,
+    748
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldLength": 904
     }
   },
   "_Links": {

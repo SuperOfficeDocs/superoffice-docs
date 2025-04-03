@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionSummaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "SelectionIds": [
-    716,
-    8
+    600,
+    483
   ]
 }
 ```
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SelectionId": 601,
-    "Name": "Prosacco-Murray",
-    "TargetTable": "doloribus",
-    "Registered": "2001-08-24T02:38:21.9951006+02:00",
-    "ProviderName": "Rodriguez-Hayes"
+    "SelectionId": 187,
+    "Name": "Gerhold, Murphy and Murray",
+    "TargetTable": "suscipit",
+    "Registered": "2020-02-07T14:28:22.4147526+01:00",
+    "ProviderName": "Murazik, Wehner and Renner"
   },
   {
-    "SelectionId": 601,
-    "Name": "Prosacco-Murray",
-    "TargetTable": "doloribus",
-    "Registered": "2001-08-24T02:38:21.9951006+02:00",
-    "ProviderName": "Rodriguez-Hayes"
+    "SelectionId": 187,
+    "Name": "Gerhold, Murphy and Murray",
+    "TargetTable": "suscipit",
+    "Registered": "2020-02-07T14:28:22.4147526+01:00",
+    "ProviderName": "Murazik, Wehner and Renner"
   }
 ]
 ```

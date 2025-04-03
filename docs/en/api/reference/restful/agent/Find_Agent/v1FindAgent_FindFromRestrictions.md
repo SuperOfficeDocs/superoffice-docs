@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Pfannerstill Inc and Sons",
-      "Operator": "voluptas",
+      "Name": "Welch-Feest",
+      "Operator": "eos",
       "Values": [
-        "nihil",
-        "deserunt"
+        "architecto",
+        "maxime"
       ],
       "DisplayValues": [
         "aut",
-        "magni"
+        "culpa"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 40,
+      "InterParenthesis": 384,
       "InterOperator": "And",
-      "UniqueHash": 975
+      "UniqueHash": 753
     }
   ],
-  "ProviderName": "Ryan, Bauch and Hilpert",
-  "PageSize": 233,
-  "PageNumber": 526
+  "ProviderName": "Labadie, Glover and Glover",
+  "PageSize": 757,
+  "PageNumber": 75
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Funk-Veum",
-      "DisplayTooltip": "deleniti",
-      "DisplayType": "ullam",
+      "DisplayName": "Koch Group",
+      "DisplayTooltip": "placeat",
+      "DisplayType": "voluptatem",
       "CanOrderBy": false,
-      "Name": "Von-Roob",
+      "Name": "Hand Inc and Sons",
       "CanRestrictBy": false,
-      "RestrictionType": "sint",
-      "RestrictionListName": "Ruecker-Schneider",
+      "RestrictionType": "est",
+      "RestrictionListName": "McDermott, Wisozk and Runolfsdottir",
       "IsVisible": false,
-      "ExtraInfo": "ut",
-      "Width": "velit",
-      "IconHint": "ea",
-      "HeadingIconHint": "aut"
+      "ExtraInfo": "est",
+      "Width": "ut",
+      "IconHint": "impedit",
+      "HeadingIconHint": "ut"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "McDermott, McLaughlin and Kilback",
-      "PrimaryKey": 558,
+      "EntityName": "Krajcik-Bergnaum",
+      "PrimaryKey": 532,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "debitis",
-          "TooltipHint": "eaque",
-          "LinkHint": "ipsum"
+          "DisplayValue": "quis",
+          "TooltipHint": "quasi",
+          "LinkHint": "voluptatem"
         }
       },
-      "LinkHint": "numquam",
-      "StyleHint": "maiores",
+      "LinkHint": "dolorem",
+      "StyleHint": "in",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 922
+          "FieldType": "System.String",
+          "FieldLength": 683
         }
       }
     }
   ],
-  "RowCount": 826,
+  "RowCount": 180,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldLength": 23
     }
   }
 }

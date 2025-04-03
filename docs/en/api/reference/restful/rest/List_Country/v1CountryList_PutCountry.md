@@ -104,28 +104,28 @@ OK
 PUT /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 829,
-  "Name": "Baumbach, Corwin and Koch",
-  "CurrencyId": 822,
-  "EnglishName": "Torphy Group",
+  "CountryId": 232,
+  "Name": "Reinger, Kautzer and Ward",
+  "CurrencyId": 5,
+  "EnglishName": "Pollich, Blanda and Mayert",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Synergized full-range parallelism",
-  "OrgNrText": "898293",
-  "InterAreaPrefix": "veniam",
-  "DialInPrefix": "quasi",
-  "ZipPrefix": "non",
-  "DomainName": "Rath-West",
-  "AddressLayoutId": 213,
-  "DomesticAddressLayoutId": 549,
-  "ForeignAddressLayoutId": 12,
-  "Rank": 603,
-  "Tooltip": "ab",
-  "Deleted": true
+  "ImageDescription": "Progressive mobile local area network",
+  "OrgNrText": "748265",
+  "InterAreaPrefix": "aliquid",
+  "DialInPrefix": "fuga",
+  "ZipPrefix": "eligendi",
+  "DomainName": "Cormier-Pollich",
+  "AddressLayoutId": 688,
+  "DomesticAddressLayoutId": 405,
+  "ForeignAddressLayoutId": 630,
+  "Rank": 336,
+  "Tooltip": "iure",
+  "Deleted": false
 }
 ```
 
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 661,
-  "Name": "Prohaska-Rodriguez",
-  "CurrencyId": 669,
-  "EnglishName": "Marks-Leuschke",
+  "CountryId": 736,
+  "Name": "Deckow, Von and Sauer",
+  "CurrencyId": 5,
+  "EnglishName": "Stanton, Corkery and Kertzmann",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Enterprise-wide contextually-based infrastructure",
-  "OrgNrText": "1578103",
-  "InterAreaPrefix": "fuga",
-  "DialInPrefix": "repellendus",
-  "ZipPrefix": "cum",
-  "DomainName": "Kozey Inc and Sons",
-  "AddressLayoutId": 587,
-  "DomesticAddressLayoutId": 913,
-  "ForeignAddressLayoutId": 345,
-  "Rank": 488,
-  "Tooltip": "et",
+  "ImageDescription": "Quality-focused scalable array",
+  "OrgNrText": "1692678",
+  "InterAreaPrefix": "omnis",
+  "DialInPrefix": "molestias",
+  "ZipPrefix": "dolorum",
+  "DomainName": "Toy LLC",
+  "AddressLayoutId": 599,
+  "DomesticAddressLayoutId": 18,
+  "ForeignAddressLayoutId": 792,
+  "Rank": 115,
+  "Tooltip": "dolorum",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 203
+      "FieldLength": 415
     }
   }
 }

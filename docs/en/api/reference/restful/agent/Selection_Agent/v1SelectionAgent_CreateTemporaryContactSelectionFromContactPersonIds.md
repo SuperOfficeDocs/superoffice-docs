@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 {
   "ContactPersonIds": [
     {
-      "PersonId": 475,
-      "ContactId": 747
+      "PersonId": 144,
+      "ContactId": 177
     },
     {
-      "PersonId": 475,
-      "ContactId": 747
+      "PersonId": 144,
+      "ContactId": 177
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-contextualized user-facing strategy",
-  "Postit": "est",
+  "Description": "Innovative intangible access",
+  "Postit": "pariatur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 186,
-  "IncludePerson": 699,
+  "GroupIdx": 224,
+  "IncludePerson": 114,
   "MemberCount": 99.99,
-  "Name": "King Group",
-  "PostitTextId": 544,
-  "CreatedDate": "1999-02-13T02:38:21.9638511+01:00",
-  "SelectionId": 283,
-  "SoundEx": "atque",
-  "Source": 662,
-  "TextId": 663,
-  "UpdatedDate": "2011-10-19T02:38:21.9638511+02:00",
-  "UpdatedCount": 735,
-  "Visibility": 642,
+  "Name": "Hammes-Sauer",
+  "PostitTextId": 44,
+  "CreatedDate": "2001-08-07T14:28:22.3991281+02:00",
+  "SelectionId": 262,
+  "SoundEx": "voluptas",
+  "Source": 635,
+  "TextId": 569,
+  "UpdatedDate": "2024-08-31T14:28:22.3991281+02:00",
+  "UpdatedCount": 213,
+  "Visibility": 341,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 773,
-  "TargetTableName": "Klocko, Kshlerin and Skiles",
-  "Completed": false,
-  "LeftSelectionId": 37,
-  "RightSelectionId": 75,
+  "CompanyUnique": false,
+  "TargetTableNumber": 49,
+  "TargetTableName": "Hand Group",
+  "Completed": true,
+  "LeftSelectionId": 668,
+  "RightSelectionId": 490,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Corwin, Batz and Von",
-  "ShadowProviderName": "Kirlin-Rohan",
-  "ChartKey": "est",
-  "LastLoaded": "2016-05-14T02:38:21.9638511+02:00",
-  "LastLoadedBy": 3,
+  "MainProviderName": "Hauck Inc and Sons",
+  "ShadowProviderName": "Gislason, Jaskolski and Dooley",
+  "ChartKey": "aliquam",
+  "LastLoaded": "2020-01-14T14:28:22.3991281+01:00",
+  "LastLoadedBy": 906,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1998-05-14T02:38:21.9638511+02:00",
-  "LastMembershipChangeBy": 92,
+  "LastMembershipChange": "2002-01-09T14:28:22.3991281+01:00",
+  "LastMembershipChangeBy": 815,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "velit",
-  "MemberTabHeading": "ut",
-  "MailingsProviderName": "Gislason-Grant",
-  "DashboardTileDefinitionId": 986,
+  "MainHeading": "aut",
+  "MemberTabHeading": "consequatur",
+  "MailingsProviderName": "Bode Inc and Sons",
+  "DashboardTileDefinitionId": 487,
   "VisibleFor": [
     {
-      "VisibleId": 664,
+      "VisibleId": 573,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldLength": 572
         }
       }
     },
     {
-      "VisibleId": 664,
+      "VisibleId": 573,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldLength": 572
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldLength": 601
     }
   }
 }

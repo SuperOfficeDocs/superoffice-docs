@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    737,
-    24
+    785,
+    95
   ],
-  "TargetTableNumber": 935
+  "TargetTableNumber": 675
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Quality-focused directional orchestration",
-  "Postit": "et",
+  "Description": "Optimized disintermediate task-force",
+  "Postit": "sapiente",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 561,
-  "IncludePerson": 908,
+  "GroupIdx": 959,
+  "IncludePerson": 746,
   "MemberCount": 99.99,
-  "Name": "Reichel Group",
-  "PostitTextId": 750,
-  "CreatedDate": "2011-09-26T02:38:21.9794397+02:00",
-  "SelectionId": 151,
-  "SoundEx": "qui",
-  "Source": 16,
-  "TextId": 934,
-  "UpdatedDate": "2013-03-04T02:38:21.9794397+01:00",
-  "UpdatedCount": 470,
-  "Visibility": 913,
+  "Name": "Kozey, Huels and Powlowski",
+  "PostitTextId": 294,
+  "CreatedDate": "2017-01-04T14:28:22.3991281+01:00",
+  "SelectionId": 586,
+  "SoundEx": "porro",
+  "Source": 211,
+  "TextId": 174,
+  "UpdatedDate": "1999-12-27T14:28:22.3991281+01:00",
+  "UpdatedCount": 586,
+  "Visibility": 830,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 852,
-  "TargetTableName": "Walsh, Roberts and Witting",
+  "TargetTableNumber": 237,
+  "TargetTableName": "Rath-Wehner",
   "Completed": true,
-  "LeftSelectionId": 191,
-  "RightSelectionId": 208,
+  "LeftSelectionId": 527,
+  "RightSelectionId": 127,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Grant-Hauck",
-  "ShadowProviderName": "DuBuque Inc and Sons",
-  "ChartKey": "totam",
-  "LastLoaded": "2014-09-18T02:38:21.9794397+02:00",
-  "LastLoadedBy": 442,
+  "MainProviderName": "Prosacco, Mitchell and Beier",
+  "ShadowProviderName": "Haley, Fahey and Okuneva",
+  "ChartKey": "aperiam",
+  "LastLoaded": "2017-03-08T14:28:22.3991281+01:00",
+  "LastLoadedBy": 584,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2008-06-24T02:38:21.9794397+02:00",
-  "LastMembershipChangeBy": 562,
+  "LastMembershipChange": "2018-08-13T14:28:22.3991281+02:00",
+  "LastMembershipChangeBy": 39,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "cupiditate",
-  "MemberTabHeading": "molestiae",
-  "MailingsProviderName": "Von-Klocko",
-  "DashboardTileDefinitionId": 618,
+  "MainHeading": "debitis",
+  "MemberTabHeading": "quia",
+  "MailingsProviderName": "Simonis Group",
+  "DashboardTileDefinitionId": 173,
   "VisibleFor": [
     {
-      "VisibleId": 58,
+      "VisibleId": 285,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 478
+          "FieldType": "System.String",
+          "FieldLength": 900
         }
       }
     },
     {
-      "VisibleId": 58,
+      "VisibleId": 285,
       "Visibility": "All",
-      "DisplayValue": "mollitia",
+      "DisplayValue": "a",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 478
+          "FieldType": "System.String",
+          "FieldLength": 900
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldLength": 506
     }
   }
 }

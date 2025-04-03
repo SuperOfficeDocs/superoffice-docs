@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleId}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 652,
-    "Name": "Kshlerin-Rohan",
-    "ToolTip": "Nisi hic dolor officiis ipsum.",
+    "Id": 769,
+    "Name": "Thompson Inc and Sons",
+    "ToolTip": "Incidunt optio.",
     "Deleted": false,
-    "Rank": 449,
-    "Type": "dicta",
-    "ColorBlock": 829,
-    "IconHint": "fuga",
-    "Selected": false,
-    "LastChanged": "2004-02-16T02:38:26.3391624+01:00",
+    "Rank": 840,
+    "Type": "adipisci",
+    "ColorBlock": 110,
+    "IconHint": "illo",
+    "Selected": true,
+    "LastChanged": "2005-12-08T14:28:27.1804149+01:00",
     "ChildItems": [
       {
-        "Id": 170,
-        "Name": "Stehr Inc and Sons",
-        "ToolTip": "Similique quia veritatis expedita fugit.",
+        "Id": 159,
+        "Name": "Beer-Pouros",
+        "ToolTip": "Deserunt qui distinctio sed laudantium.",
         "Deleted": false,
-        "Rank": 752,
-        "Type": "eius",
-        "ColorBlock": 667,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2008-08-04T02:38:26.3391624+02:00",
+        "Rank": 211,
+        "Type": "corrupti",
+        "ColorBlock": 782,
+        "IconHint": "earum",
+        "Selected": true,
+        "LastChanged": "2015-03-11T14:28:27.1804149+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "autem",
+        "ExtraInfo": "ea",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Darien Rutherford",
+        "FullName": "Mrs. Fredy Elva Corkery PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 453
+            "FieldLength": 95
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "nihil",
-    "Hidden": false,
-    "FullName": "Brenda Welch",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "laudantium",
+    "Hidden": true,
+    "FullName": "Amani Lois Towne DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 637
+        "FieldType": "System.String",
+        "FieldLength": 510
       }
     }
   }

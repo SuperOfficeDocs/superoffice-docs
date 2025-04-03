@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 146,
-  "Name": "Nitzsche, Pfannerstill and Hane",
-  "Tooltip": "necessitatibus",
+  "HeadingId": 596,
+  "Name": "Eichmann Inc and Sons",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 931,
-  "UdListDefinitionId": 837
+  "Rank": 248,
+  "UdListDefinitionId": 879
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 173,
-  "Name": "Lemke, Jacobson and Kling",
-  "Tooltip": "ullam",
-  "Deleted": true,
-  "Rank": 956,
-  "UdListDefinitionId": 55,
+  "HeadingId": 687,
+  "Name": "O'Reilly LLC",
+  "Tooltip": "ex",
+  "Deleted": false,
+  "Rank": 423,
+  "UdListDefinitionId": 388,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 537
+      "FieldLength": 417
     }
   }
 }

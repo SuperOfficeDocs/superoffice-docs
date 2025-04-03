@@ -88,6 +88,7 @@ The AppointmentEntity to be saved.
 | SuggestedAppointmentId | Integer | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | Boolean | Is this appointment a milestone? |
 | CautionWarning | String | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | String | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | String | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | String | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | Object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -160,6 +161,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -187,105 +189,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2006-10-24T02:38:20.6827021+02:00",
-  "AppointmentId": 253,
-  "Description": "Self-enabling multimedia product",
-  "Title": "facere",
-  "Agenda": "reprehenderit",
-  "InternalNotes": "harum",
-  "StartDate": "2016-07-26T02:38:20.6827021+02:00",
-  "EndDate": "2009-08-10T02:38:20.6827021+02:00",
+  "CreatedDate": "2015-04-08T14:28:21.3054297+02:00",
+  "AppointmentId": 602,
+  "Description": "Compatible content-based monitoring",
+  "Title": "itaque",
+  "Agenda": "ea",
+  "InternalNotes": "eum",
+  "StartDate": "2025-01-31T14:28:21.3054297+01:00",
+  "EndDate": "2023-03-16T14:28:21.3054297+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 654,
+  "MotherId": 135,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2018-12-04T02:38:20.6827021+01:00",
+  "UpdatedDate": "2020-02-08T14:28:21.3054297+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 28,
+  "ActiveLinks": 977,
   "Links": [
     {
-      "EntityName": "Gutmann-Shields",
-      "Id": 936,
-      "Description": "Multi-layered reciprocal projection",
-      "ExtraInfo": "nihil",
-      "LinkId": 234
+      "EntityName": "Pollich-Bogan",
+      "Id": 928,
+      "Description": "Future-proofed didactic approach",
+      "ExtraInfo": "hic",
+      "LinkId": 15
     },
     {
-      "EntityName": "Gutmann-Shields",
-      "Id": 936,
-      "Description": "Multi-layered reciprocal projection",
-      "ExtraInfo": "nihil",
-      "LinkId": 234
+      "EntityName": "Pollich-Bogan",
+      "Id": 928,
+      "Description": "Future-proofed didactic approach",
+      "ExtraInfo": "hic",
+      "LinkId": 15
     }
   ],
-  "AlarmLeadTime": "consectetur",
+  "AlarmLeadTime": "illum",
   "HasAlarm": false,
-  "ColorIndex": 15,
-  "IsFree": true,
-  "IsAlldayEvent": false,
-  "LagTime": "error",
-  "LeadTime": "architecto",
-  "Location": "et",
-  "RejectCounter": 171,
+  "ColorIndex": 9,
+  "IsFree": false,
+  "IsAlldayEvent": true,
+  "LagTime": "molestiae",
+  "LeadTime": "eligendi",
+  "Location": "omnis",
+  "RejectCounter": 411,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 169,
-      "PersonId": 358,
-      "ContactId": 430,
-      "EmailId": 26,
+      "AssociateId": 1002,
+      "PersonId": 664,
+      "ContactId": 466,
+      "EmailId": 329,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "demetris@townemonahan.name",
-      "Description": "Open-source high-level info-mediaries"
+      "EmailAddress": "kariane@mayer.us",
+      "Description": "Focused intermediate encryption"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-01-15T02:38:20.6827021+01:00",
+  "ActiveDate": "2006-02-01T14:28:21.3054297+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 51,
+  "PreferredTZLocation": 457,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 414,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 424,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "nam",
+  "CentralserviceVideomeetId": "et",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Itzel Morar",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "amet"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "iure"
   },
   "CustomFields": {
-    "CustomFields1": "eius",
-    "CustomFields2": "hic"
+    "CustomFields1": "ad",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2002-10-26T02:38:20.6827021+02:00",
-  "PublishTo": "2003-03-03T02:38:20.6827021+01:00",
-  "PublishFrom": "2010-08-11T02:38:20.6827021+02:00",
+  "PublishEventDate": "2020-01-08T14:28:21.3054297+01:00",
+  "PublishTo": "2013-11-12T14:28:21.3054297+01:00",
+  "PublishFrom": "2015-06-01T14:28:21.3054297+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 679,
+      "VisibleId": 244,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "tenetur"
     },
     {
-      "VisibleId": 679,
+      "VisibleId": 244,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "tenetur"
     }
   ]
 }
@@ -302,120 +305,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2018-06-12T02:38:20.698363+02:00",
-  "AppointmentId": 229,
-  "Description": "Ameliorated real-time instruction set",
-  "Title": "consequatur",
-  "Agenda": "voluptas",
-  "InternalNotes": "omnis",
-  "StartDate": "1998-06-01T02:38:20.698363+02:00",
-  "EndDate": "2005-05-28T02:38:20.698363+02:00",
+  "CreatedDate": "1999-07-05T14:28:21.3054297+02:00",
+  "AppointmentId": 655,
+  "Description": "Fundamental impactful encryption",
+  "Title": "quibusdam",
+  "Agenda": "provident",
+  "InternalNotes": "possimus",
+  "StartDate": "2016-03-19T14:28:21.3054297+01:00",
+  "EndDate": "2017-08-21T14:28:21.3054297+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 307,
+  "MotherId": 710,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2002-09-18T02:38:20.698363+02:00",
+  "UpdatedDate": "2015-11-17T14:28:21.3054297+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 509,
+  "ActiveLinks": 960,
   "Links": [
     {
-      "EntityName": "Halvorson-Kuhlman",
-      "Id": 781,
-      "Description": "Configurable logistical extranet",
-      "ExtraInfo": "quia",
-      "LinkId": 386,
+      "EntityName": "Yundt-Gutkowski",
+      "Id": 116,
+      "Description": "Face to face upward-trending open system",
+      "ExtraInfo": "saepe",
+      "LinkId": 253,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldType": "System.String",
+          "FieldLength": 137
         }
       }
     }
   ],
-  "AlarmLeadTime": "in",
+  "AlarmLeadTime": "vitae",
   "HasAlarm": true,
-  "ColorIndex": 262,
-  "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "neque",
-  "LeadTime": "repellendus",
-  "Location": "ab",
-  "RejectCounter": 623,
-  "RejectReason": "",
+  "ColorIndex": 634,
+  "IsFree": false,
+  "IsAlldayEvent": false,
+  "LagTime": "optio",
+  "LeadTime": "nam",
+  "Location": "in",
+  "RejectCounter": 975,
+  "RejectReason": "leverage 24/365 supply-chains",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 64,
-      "PersonId": 260,
-      "ContactId": 34,
-      "EmailId": 492,
+      "AssociateId": 907,
+      "PersonId": 203,
+      "ContactId": 619,
+      "EmailId": 286,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "clark.buckridge@huel.co.uk",
-      "Description": "Synergized value-added alliance"
+      "EmailAddress": "euna.shields@denesik.co.uk",
+      "Description": "Operative interactive flexibility"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-09-27T02:38:20.698363+02:00",
+  "ActiveDate": "1998-01-19T14:28:21.3054297+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 758,
+  "PreferredTZLocation": 376,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 908,
+  "SuggestedAppointmentId": 590,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "doloribus",
+  "CentralserviceVideomeetId": "cum",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "1549617236"
+    "SuperOffice:1": "Alycia Rogahn Sr.",
+    "SuperOffice:2": "Kenya Von"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "voluptas",
+    "ExtraFields2": "eius"
   },
   "CustomFields": {
-    "CustomFields1": "quidem",
-    "CustomFields2": "officia"
+    "CustomFields1": "est",
+    "CustomFields2": "autem"
   },
-  "PublishEventDate": "2015-06-03T02:38:20.698363+02:00",
-  "PublishTo": "2018-09-21T02:38:20.698363+02:00",
-  "PublishFrom": "2019-04-18T02:38:20.698363+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2018-09-06T14:28:21.3054297+02:00",
+  "PublishTo": "2018-06-16T14:28:21.3054297+02:00",
+  "PublishFrom": "2020-12-07T14:28:21.3054297+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 126,
+      "VisibleId": 679,
       "Visibility": "All",
-      "DisplayValue": "nisi",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 728
         }
       }
     },
     {
-      "VisibleId": 126,
+      "VisibleId": 679,
       "Visibility": "All",
-      "DisplayValue": "nisi",
+      "DisplayValue": "totam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 160
+          "FieldLength": 728
         }
       }
     }
@@ -425,7 +429,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 758
+      "FieldLength": 997
     }
   }
 }

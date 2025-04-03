@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 935,
-  "Year": 904,
-  "TargetDimensionId": 932
+  "UserGroupId": 560,
+  "Year": 946,
+  "TargetDimensionId": 374
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 700,
+    "TargetAssignmentInfoId": 9,
     "Values": [
-      809,
-      91
+      203,
+      552
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 95,
-    "DimensionListItemDisplayName": "Prohaska Inc and Sons",
+    "DimensionListItem": 93,
+    "DimensionListItemDisplayName": "Waters-Thiel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 560
+        "FieldLength": 766
       }
     }
   }

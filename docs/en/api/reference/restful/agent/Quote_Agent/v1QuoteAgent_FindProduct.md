@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 167,
-  "UserInput": "ipsam",
-  "PriceListKey": "officiis"
+  "QuoteAlternativeId": 846,
+  "UserInput": "repellendus",
+  "PriceListKey": "qui"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 469,
-    "ERPProductKey": "enim",
-    "ERPPriceListKey": "laudantium",
-    "Name": "West, Yundt and Ferry",
-    "Description": "Universal maximized policy",
-    "Code": "ut",
-    "PriceUnit": "molestiae",
-    "QuantityUnit": "perspiciatis",
+    "ProductId": 981,
+    "ERPProductKey": "in",
+    "ERPPriceListKey": "non",
+    "Name": "Johns Inc and Sons",
+    "Description": "Business-focused human-resource orchestration",
+    "Code": "sint",
+    "PriceUnit": "deserunt",
+    "QuantityUnit": "vel",
     "IsSubscription": true,
-    "SubscriptionUnit": "odit",
-    "DefaultSubscriptionQuantity": 21198.376,
-    "ItemNumber": "574582",
+    "SubscriptionUnit": "ipsam",
+    "DefaultSubscriptionQuantity": 2240.81,
+    "ItemNumber": "1105490",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "distinctio",
-    "ProductTypeKey": "laudantium",
-    "VAT": 7468.322,
-    "VATInfo": "velit",
-    "UnitCost": 6242.928,
-    "UnitMinimumPrice": 23959.43,
-    "UnitListPrice": 1291.2079999999999,
-    "InAssortment": false,
-    "Supplier": "aut",
-    "SupplierCode": "minima",
-    "Rights": "voluptas",
-    "Rule": "rerum",
+    "ProductFamilyKey": "sed",
+    "ProductTypeKey": "fuga",
+    "VAT": 7860.072,
+    "VATInfo": "repudiandae",
+    "UnitCost": 14294.173999999999,
+    "UnitMinimumPrice": 24022.11,
+    "UnitListPrice": 20565.308,
+    "InAssortment": true,
+    "Supplier": "quia",
+    "SupplierCode": "et",
+    "Rights": "quibusdam",
+    "Rule": "tenetur",
     "ExtraInfo": [
       {
-        "Name": "Reichert, Jacobi and Daniel",
-        "Value": "voluptatem",
+        "Name": "Carter-Huel",
+        "Value": "ipsa",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 465
+            "FieldType": "System.String",
+            "FieldLength": 80
           }
         }
       },
       {
-        "Name": "Reichert, Jacobi and Daniel",
-        "Value": "voluptatem",
+        "Name": "Carter-Huel",
+        "Value": "ipsa",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 465
+            "FieldType": "System.String",
+            "FieldLength": 80
           }
         }
       }
     ],
-    "RawExtraInfo": "alias",
-    "ExtraField1": "aut",
-    "ExtraField2": "in",
-    "ExtraField3": "ad",
-    "ExtraField4": "et",
-    "ExtraField5": "sint",
-    "InStock": 19935.374,
+    "RawExtraInfo": "consequatur",
+    "ExtraField1": "necessitatibus",
+    "ExtraField2": "vel",
+    "ExtraField3": "similique",
+    "ExtraField4": "rem",
+    "ExtraField5": "perspiciatis",
+    "InStock": 9072.93,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 521
+        "FieldType": "System.String",
+        "FieldLength": 709
       }
     }
   }

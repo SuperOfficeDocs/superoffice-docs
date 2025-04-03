@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Name": "Mohr-Dicki",
-    "ToolTip": "Deserunt quas qui sed quidem officiis.",
+    "Id": 617,
+    "Name": "Walter, Yost and Gutkowski",
+    "ToolTip": "Ex aperiam veritatis quos vel soluta laborum non.",
     "Deleted": false,
-    "Rank": 769,
-    "Type": "culpa",
-    "ColorBlock": 672,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2005-05-03T02:38:26.7767326+02:00",
+    "Rank": 354,
+    "Type": "numquam",
+    "ColorBlock": 469,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2010-10-15T14:28:27.5707933+02:00",
     "ChildItems": [
       {
-        "Id": 23,
-        "Name": "Stiedemann, Cummings and Balistreri",
-        "ToolTip": "Quia saepe quas qui voluptatem iusto rerum alias.",
+        "Id": 931,
+        "Name": "Bradtke Inc and Sons",
+        "ToolTip": "Voluptas ut dignissimos sunt ipsa qui vel.",
         "Deleted": false,
-        "Rank": 928,
-        "Type": "debitis",
-        "ColorBlock": 239,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "1999-06-24T02:38:26.7767326+02:00",
+        "Rank": 691,
+        "Type": "non",
+        "ColorBlock": 525,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2008-02-16T14:28:27.5707933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Miss Montana Kayleigh Lockman I"
+        "ExtraInfo": "distinctio",
+        "StyleHint": "officia",
+        "Hidden": false,
+        "FullName": "Ms. Conrad Wehner V"
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "accusamus",
-    "Hidden": true,
-    "FullName": "Adalberto Gerlach"
+    "ExtraInfo": "dolorem",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Elmo Margarita Kunze Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Name": "Kshlerin-Robel",
-    "ToolTip": "Autem est veniam.",
+    "Id": 831,
+    "Name": "Lesch-Mills",
+    "ToolTip": "Dignissimos libero ut.",
     "Deleted": false,
-    "Rank": 726,
-    "Type": "doloribus",
-    "ColorBlock": 689,
-    "IconHint": "facere",
-    "Selected": false,
-    "LastChanged": "2019-02-09T02:38:26.7767326+01:00",
+    "Rank": 746,
+    "Type": "ut",
+    "ColorBlock": 686,
+    "IconHint": "rerum",
+    "Selected": true,
+    "LastChanged": "2003-06-29T14:28:27.5707933+02:00",
     "ChildItems": [
       {
-        "Id": 413,
-        "Name": "Durgan Group",
-        "ToolTip": "Est dolores illum cum ut voluptas.",
+        "Id": 759,
+        "Name": "Stanton-Purdy",
+        "ToolTip": "Maxime ipsum ut inventore saepe.",
         "Deleted": false,
-        "Rank": 663,
-        "Type": "dicta",
-        "ColorBlock": 898,
-        "IconHint": "asperiores",
+        "Rank": 756,
+        "Type": "voluptatibus",
+        "ColorBlock": 379,
+        "IconHint": "facere",
         "Selected": false,
-        "LastChanged": "2003-10-05T02:38:26.7767326+02:00",
+        "LastChanged": "2001-03-29T14:28:27.5707933+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "error",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Ms. Josie Lucie Veum",
+        "FullName": "Eunice Ralph Weber III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 356
+            "FieldLength": 772
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "possimus",
-    "Hidden": false,
-    "FullName": "Myles Tremblay DVM",
+    "ExtraInfo": "omnis",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Danial Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 376
+        "FieldType": "System.Int32",
+        "FieldLength": 341
       }
     }
   }

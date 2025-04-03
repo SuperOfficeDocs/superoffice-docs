@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 223,
-    "Name": "Murazik-Barrows",
-    "ToolTip": "Atque recusandae aut sit.",
+    "Id": 476,
+    "Name": "Fahey, Schamberger and Cormier",
+    "ToolTip": "Dicta dolore.",
     "Deleted": false,
-    "Rank": 53,
-    "Type": "non",
-    "ColorBlock": 204,
-    "IconHint": "doloribus",
+    "Rank": 875,
+    "Type": "qui",
+    "ColorBlock": 254,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2017-01-01T02:38:26.854892+01:00",
+    "LastChanged": "2024-01-10T14:28:27.6332907+01:00",
     "ChildItems": [
       {
-        "Id": 842,
-        "Name": "Hagenes Group",
-        "ToolTip": "Et modi dolor ea voluptas sed.",
-        "Deleted": true,
-        "Rank": 142,
-        "Type": "tenetur",
-        "ColorBlock": 565,
-        "IconHint": "ad",
-        "Selected": false,
-        "LastChanged": "2011-12-14T02:38:26.854892+01:00",
+        "Id": 81,
+        "Name": "Lindgren Inc and Sons",
+        "ToolTip": "Officia tempora illum consectetur voluptate.",
+        "Deleted": false,
+        "Rank": 465,
+        "Type": "deserunt",
+        "ColorBlock": 188,
+        "IconHint": "perferendis",
+        "Selected": true,
+        "LastChanged": "2005-03-17T14:28:27.6332907+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "sit",
+        "ExtraInfo": "vitae",
+        "StyleHint": "quisquam",
         "Hidden": false,
-        "FullName": "Mrs. Jalon Jennifer Bergstrom III",
+        "FullName": "Colleen Oberbrunner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 223
+            "FieldType": "System.String",
+            "FieldLength": 591
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "impedit",
+    "ExtraInfo": "ut",
+    "StyleHint": "reiciendis",
     "Hidden": false,
-    "FullName": "Jacinto Swift",
+    "FullName": "Angelica Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 298
+        "FieldLength": 475
       }
     }
   }

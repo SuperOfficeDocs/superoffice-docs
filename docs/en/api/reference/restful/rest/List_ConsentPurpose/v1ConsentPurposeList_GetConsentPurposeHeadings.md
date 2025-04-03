@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 30,
-    "Name": "Schumm, Emard and Leannon",
-    "Tooltip": "doloremque",
+    "HeadingId": 886,
+    "Name": "Oberbrunner LLC",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 616,
-    "UdListDefinitionId": 637,
+    "Rank": 376,
+    "UdListDefinitionId": 855,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 543
+        "FieldLength": 408
       }
     }
   }

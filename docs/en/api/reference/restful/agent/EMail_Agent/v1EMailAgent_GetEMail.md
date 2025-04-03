@@ -105,8 +105,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 563,
-  "IncludeAttachments": true
+  "Id": 715,
+  "IncludeAttachments": false
 }
 ```
 
@@ -119,97 +119,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 446,
-      "ContactName": "Langworth-Maggio",
-      "PersonId": 151,
-      "PersonName": "Kihn, Weimann and Feest",
-      "AssociateId": 156,
-      "Address": "maxime",
-      "EmailId": 718,
+      "ContactId": 787,
+      "ContactName": "Orn-Lind",
+      "PersonId": 993,
+      "PersonName": "Erdman LLC",
+      "AssociateId": 386,
+      "Address": "id",
+      "EmailId": 237,
       "DuplicatePersonIds": [
-        333,
-        125
+        21,
+        597
       ],
-      "Name": "Wintheiser-Macejkovic",
+      "Name": "Kuhn, Green and Schoen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 166
+          "FieldType": "System.Int32",
+          "FieldLength": 831
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 442,
-      "ContactName": "Quigley LLC",
-      "PersonId": 858,
-      "PersonName": "Pagac-Doyle",
-      "AssociateId": 369,
-      "Address": "sit",
-      "EmailId": 63,
+      "ContactId": 632,
+      "ContactName": "Kutch LLC",
+      "PersonId": 674,
+      "PersonName": "Jerde-Nitzsche",
+      "AssociateId": 568,
+      "Address": "aliquam",
+      "EmailId": 595,
       "DuplicatePersonIds": [
-        591,
-        272
+        265,
+        248
       ],
-      "Name": "Spinka-Howe",
+      "Name": "Gerlach, Sporer and Emard",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 32
+          "FieldType": "System.Int32",
+          "FieldLength": 919
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 813,
-      "ContactName": "Murazik, Zemlak and Kling",
-      "PersonId": 99,
-      "PersonName": "Boehm, Block and Pfannerstill",
-      "AssociateId": 404,
-      "Address": "officiis",
-      "EmailId": 459,
+      "ContactId": 208,
+      "ContactName": "Bosco LLC",
+      "PersonId": 697,
+      "PersonName": "Doyle, Sporer and Powlowski",
+      "AssociateId": 227,
+      "Address": "blanditiis",
+      "EmailId": 11,
       "DuplicatePersonIds": [
-        43,
-        695
+        292,
+        563
       ],
-      "Name": "Murray Inc and Sons",
+      "Name": "Nikolaus-Lockman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 509
+          "FieldType": "System.String",
+          "FieldLength": 248
         }
       }
     }
   ],
-  "Subject": "asperiores",
-  "HTMLBody": "enim",
+  "Subject": "iure",
+  "HTMLBody": "dolor",
   "From": null,
-  "Sent": "2014-07-04T02:38:21.401411+02:00",
-  "Size": 453,
+  "Sent": "2001-10-21T14:28:21.9772696+02:00",
+  "Size": 699,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sequi",
-  "PlainBody": "dicta",
+  "MessageID": "sed",
+  "PlainBody": "occaecati",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 362,
+  "ServerId": 616,
   "Attachments": [
     {
-      "Description": "Secured static contingency",
-      "Filename": "et",
-      "Size": 354,
-      "Type": "et",
-      "Encoding": "nihil",
-      "Id": "occaecati",
-      "Disposition": "ut",
+      "Description": "Centralized regional process improvement",
+      "Filename": "cumque",
+      "Size": 799,
+      "Type": "facere",
+      "Encoding": "blanditiis",
+      "Id": "ea",
+      "Disposition": "a",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,49 +217,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 282
+          "FieldLength": 211
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Upton, Moen and Schowalter",
+      "Name": "Aufderhar-Pacocha",
       "Values": [
-        "enim",
-        "fugit"
+        "vel",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 189
+          "FieldLength": 345
         }
       }
     },
     {
-      "Name": "Upton, Moen and Schowalter",
+      "Name": "Aufderhar-Pacocha",
       "Values": [
-        "enim",
-        "fugit"
+        "vel",
+        "et"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 189
+          "FieldLength": 345
         }
       }
     }
   ],
-  "FolderName": "Beer-Hirthe",
-  "EmailItemId": 83,
-  "AccountId": 228,
-  "ReceivedAt": "2015-08-21T02:38:21.401411+02:00",
+  "FolderName": "Hahn, Grimes and Mayer",
+  "EmailItemId": 563,
+  "AccountId": 365,
+  "ReceivedAt": "2011-07-13T14:28:21.9772696+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2008-09-27T02:38:21.401411+02:00",
+  "RepliedAt": "2023-11-27T14:28:21.9772696+01:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 680
+      "FieldLength": 921
     }
   }
 }

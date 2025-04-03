@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 806,
-  "Name": "Rath-Ward",
-  "Tooltip": "rerum",
+  "ExtAppId": 461,
+  "Name": "Hamill-Shields",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 801,
-  "Filename": "in",
-  "Parameters": "dolor",
-  "Workdir": "ducimus",
+  "Rank": 442,
+  "Filename": "aut",
+  "Parameters": "laudantium",
+  "Workdir": "ipsum",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 648,
-  "WaitToFinish": true,
+  "Icon": 537,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "eligendi",
+  "Path": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 260
+      "FieldType": "System.Int32",
+      "FieldLength": 284
     }
   }
 }

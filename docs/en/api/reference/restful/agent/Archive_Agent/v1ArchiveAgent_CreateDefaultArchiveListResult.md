@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 639,
+  "RowCount": 947,
   "Rows": [
     {
-      "EntityName": "Abernathy-Pacocha",
-      "PrimaryKey": 864,
+      "EntityName": "Dooley, Kuhn and Crist",
+      "PrimaryKey": 260,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "libero",
-          "TooltipHint": "doloribus",
-          "LinkHint": "impedit"
+          "DisplayValue": "eveniet",
+          "TooltipHint": "eum",
+          "LinkHint": "tenetur"
         }
       },
-      "LinkHint": "dignissimos",
-      "StyleHint": "animi",
+      "LinkHint": "odio",
+      "StyleHint": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 500
+          "FieldType": "System.String",
+          "FieldLength": 800
         }
       }
     }
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 734
+      "FieldLength": 900
     }
   }
 }

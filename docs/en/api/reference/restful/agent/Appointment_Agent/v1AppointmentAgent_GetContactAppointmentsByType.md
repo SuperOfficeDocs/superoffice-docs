@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -135,10 +136,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 108,
-  "StartTime": "1998-02-12T02:38:20.5419831+01:00",
-  "EndTime": "2018-10-29T02:38:20.5419831+01:00",
-  "Count": 593,
+  "ContactId": 407,
+  "StartTime": "2003-11-20T14:28:21.1335548+01:00",
+  "EndTime": "2007-06-20T14:28:21.1335548+02:00",
+  "Count": 197,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -151,65 +152,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 249,
-    "StartDate": "1998-09-30T02:38:20.5419831+02:00",
-    "EndDate": "1998-11-07T02:38:20.5419831+01:00",
+    "AppointmentId": 159,
+    "StartDate": "2019-01-16T14:28:21.1335548+01:00",
+    "EndDate": "2015-02-14T14:28:21.1335548+01:00",
     "Type": "BookingForChecklist",
-    "Task": "qui",
-    "AssociateFullName": "Johnnie Monahan MD",
-    "ContactName": "Ernser, Pollich and Weimann",
-    "Description": "Quality-focused high-level toolset",
-    "PersonFullName": "Mr. Greyson Florida Keeling",
-    "PersonId": 755,
-    "ContactId": 233,
-    "ProjectId": 133,
-    "ProjectName": "Medhurst, Harber and Lebsack",
-    "IsPublished": true,
-    "AssociateId": 47,
-    "ColorIndex": 155,
-    "IsFree": true,
+    "Task": "exercitationem",
+    "AssociateFullName": "Naomi Hudson",
+    "ContactName": "Steuber-Nicolas",
+    "Description": "Decentralized 6th generation adapter",
+    "PersonFullName": "Stevie Ratke III",
+    "PersonId": 577,
+    "ContactId": 361,
+    "ProjectId": 750,
+    "ProjectName": "Koepp-Schimmel",
+    "IsPublished": false,
+    "AssociateId": 616,
+    "ColorIndex": 417,
+    "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 689,
-    "PriorityName": "Prosacco, Sanford and Spinka",
+    "PriorityId": 471,
+    "PriorityName": "Zboncak LLC",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsBookingMain": false,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "1999-05-02T02:38:20.5419831+02:00",
+    "ActiveDate": "2001-03-10T14:28:21.1335548+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2024-03-09T02:38:20.5419831+01:00",
-    "RecurringEndDate": "2006-09-17T02:38:20.5419831+02:00",
-    "MotherId": 166,
-    "AssignedBy": 198,
-    "AssignedByFullName": "Monserrat Murray",
-    "RejectReason": "",
-    "Location": "autem",
-    "AlarmLeadTime": "praesentium",
-    "SaleId": 670,
-    "SaleName": "Schumm-Johnson",
-    "AssociateName": "Dare-Gislason",
-    "CreatedDate": "2024-06-28T02:38:20.5419831+02:00",
-    "CreatedBy": "rerum",
-    "CreatedByFullName": "Colt Greenfelder",
-    "CreatedByAssociateId": 817,
+    "RecurringStartDate": "2007-04-21T14:28:21.1335548+02:00",
+    "RecurringEndDate": "2008-05-20T14:28:21.1335548+02:00",
+    "MotherId": 958,
+    "AssignedBy": 549,
+    "AssignedByFullName": "Mr. Lori Delilah Skiles PhD",
+    "RejectReason": "mesh granular bandwidth",
+    "Location": "nulla",
+    "AlarmLeadTime": "voluptas",
+    "SaleId": 944,
+    "SaleName": "Yundt-Lebsack",
+    "AssociateName": "Roob-Roberts",
+    "CreatedDate": "2006-09-26T14:28:21.1335548+02:00",
+    "CreatedBy": "quidem",
+    "CreatedByFullName": "Rowland Keeling",
+    "CreatedByAssociateId": 411,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 525,
-    "Title": "ab",
-    "Agenda": "quia",
-    "InternalNotes": "ex",
+    "PreferredTZLocation": 791,
+    "Title": "minus",
+    "Agenda": "ea",
+    "InternalNotes": "odio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 396
+        "FieldType": "System.String",
+        "FieldLength": 81
       }
     }
   }

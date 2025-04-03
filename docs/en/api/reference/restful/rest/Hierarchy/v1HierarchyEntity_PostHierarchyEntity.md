@@ -94,36 +94,36 @@ OK
 POST /api/v1/Hierarchy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 558,
+  "HierarchyId": 565,
   "Domain": "Dashboards",
-  "Name": "Lakin-Stiedemann",
-  "Fullname": "aut",
-  "ParentId": 631,
+  "Name": "Treutel LLC",
+  "Fullname": "recusandae",
+  "ParentId": 730,
   "Children": [
     {
-      "HierarchyId": 491,
+      "HierarchyId": 397,
       "Domain": "Dashboards",
-      "Name": "Halvorson Group",
-      "Fullname": "quis",
-      "ParentId": 668,
+      "Name": "Schulist, Murazik and Hoppe",
+      "Fullname": "et",
+      "ParentId": 109,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2021-12-08T02:38:26.1204323+01:00",
-      "RegisteredAssociateId": 76,
-      "Updated": "2001-06-02T02:38:26.1204323+02:00",
-      "UpdatedAssociateId": 951
+      "Registered": "2010-09-05T14:28:26.9458186+02:00",
+      "RegisteredAssociateId": 344,
+      "Updated": "2020-01-24T14:28:26.9458186+01:00",
+      "UpdatedAssociateId": 927
     }
   ],
-  "Registered": "2003-09-29T02:38:26.1204323+02:00",
-  "RegisteredAssociateId": 148,
-  "Updated": "2010-05-07T02:38:26.1204323+02:00",
-  "UpdatedAssociateId": 430
+  "Registered": "2000-11-27T14:28:26.9458186+01:00",
+  "RegisteredAssociateId": 96,
+  "Updated": "2003-12-11T14:28:26.9458186+01:00",
+  "UpdatedAssociateId": 239
 }
 ```
 
@@ -134,46 +134,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 935,
+  "HierarchyId": 979,
   "Domain": "Dashboards",
-  "Name": "Dickens-Murazik",
-  "Fullname": "reiciendis",
-  "ParentId": 408,
+  "Name": "Considine LLC",
+  "Fullname": "dicta",
+  "ParentId": 915,
   "Children": [
     {
-      "HierarchyId": 197,
+      "HierarchyId": 973,
       "Domain": "Dashboards",
-      "Name": "Skiles Inc and Sons",
-      "Fullname": "saepe",
-      "ParentId": 28,
+      "Name": "Beatty-Stroman",
+      "Fullname": "consectetur",
+      "ParentId": 127,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-12-15T02:38:26.1204323+01:00",
-      "RegisteredAssociateId": 817,
-      "Updated": "2013-12-05T02:38:26.1204323+01:00",
-      "UpdatedAssociateId": 774,
+      "Registered": "2024-05-16T14:28:26.9458186+02:00",
+      "RegisteredAssociateId": 245,
+      "Updated": "2020-09-09T14:28:26.9458186+02:00",
+      "UpdatedAssociateId": 216,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 469
+          "FieldType": "System.Int32",
+          "FieldLength": 956
         }
       }
     }
   ],
-  "Registered": "2003-05-26T02:38:26.1204323+02:00",
-  "RegisteredAssociateId": 72,
-  "Updated": "2008-12-24T02:38:26.1204323+01:00",
-  "UpdatedAssociateId": 918,
+  "Registered": "2009-06-30T14:28:26.9458186+02:00",
+  "RegisteredAssociateId": 937,
+  "Updated": "2010-12-22T14:28:26.9458186+01:00",
+  "UpdatedAssociateId": 286,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 31
+      "FieldType": "System.String",
+      "FieldLength": 72
     }
   },
   "_Links": {

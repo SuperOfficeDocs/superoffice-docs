@@ -33,6 +33,7 @@ Lists all CRM Scripts in the ejScript table.
 |registeredBy|associate|Registered by: The user who registered the data| x |
 |registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |path|string|Path: Full path that identifies the type of script| x |
+|type|int|Type: The type/language of this script| x |
 |ejscriptId|int|CRMScript ID: Primary key from the CRMScript table| x |
 |includeId|string|IncludeID: Name to be used when including this script in another script| x |
 |accessKey|string|Access key: Key to be used when calling this script externally| x |
@@ -47,7 +48,7 @@ Lists all CRM Scripts in the ejScript table.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Ejscripts?$select=path,updatedDate,ejscriptId
+GET /api/v1/archive/Ejscripts?$select=registeredBy,type
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 405,
-  "Name": "Prosacco LLC",
-  "Tooltip": "cumque",
-  "Deleted": true,
-  "Rank": 720,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "rem",
+  "Id": 666,
+  "Name": "Kuhlman, Schumm and Padberg",
+  "Tooltip": "voluptatem",
+  "Deleted": false,
+  "Rank": 182,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 642,
-  "Name": "Spencer-Wiegand",
-  "Tooltip": "perspiciatis",
+  "Id": 278,
+  "Name": "Crist Inc and Sons",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 209,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "saepe",
+  "Rank": 678,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "non",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 218
+      "FieldType": "System.Int32",
+      "FieldLength": 700
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 857,
-    "Name": "Reichert, Raynor and Leffler",
-    "ToolTip": "Et consequatur deleniti.",
-    "Deleted": true,
-    "Rank": 860,
-    "Type": "consectetur",
-    "ColorBlock": 607,
-    "IconHint": "accusamus",
+    "Id": 498,
+    "Name": "Hilpert LLC",
+    "ToolTip": "Nihil possimus autem reprehenderit qui perferendis.",
+    "Deleted": false,
+    "Rank": 546,
+    "Type": "magnam",
+    "ColorBlock": 428,
+    "IconHint": "ratione",
     "Selected": false,
-    "LastChanged": "2013-08-19T02:38:26.886137+02:00",
+    "LastChanged": "2023-12-10T14:28:27.6645394+01:00",
     "ChildItems": [
       {
-        "Id": 240,
-        "Name": "Bartell, Keeling and Watsica",
-        "ToolTip": "Est est.",
-        "Deleted": true,
-        "Rank": 150,
-        "Type": "odit",
-        "ColorBlock": 33,
-        "IconHint": "repellat",
-        "Selected": true,
-        "LastChanged": "2008-08-10T02:38:26.886137+02:00",
+        "Id": 380,
+        "Name": "Graham, Wisozk and Ward",
+        "ToolTip": "Nobis aperiam et.",
+        "Deleted": false,
+        "Rank": 52,
+        "Type": "voluptatem",
+        "ColorBlock": 263,
+        "IconHint": "mollitia",
+        "Selected": false,
+        "LastChanged": "2010-02-11T14:28:27.6645394+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "ut",
+        "ExtraInfo": "quod",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Ramiro Bergnaum"
+        "FullName": "Nathan Bechtelar"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Christian Fisher II"
+    "ExtraInfo": "labore",
+    "StyleHint": "suscipit",
+    "Hidden": true,
+    "FullName": "Melvin Connelly"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 22,
-    "Name": "Casper, Daniel and Yost",
-    "ToolTip": "Beatae in consequatur.",
+    "Id": 215,
+    "Name": "Dooley-Luettgen",
+    "ToolTip": "Vel nisi recusandae et et molestiae distinctio.",
     "Deleted": false,
-    "Rank": 922,
-    "Type": "omnis",
-    "ColorBlock": 184,
-    "IconHint": "repellat",
-    "Selected": false,
-    "LastChanged": "2004-12-21T02:38:26.886137+01:00",
+    "Rank": 177,
+    "Type": "porro",
+    "ColorBlock": 516,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2021-07-01T14:28:27.6645394+02:00",
     "ChildItems": [
       {
-        "Id": 449,
-        "Name": "Kassulke LLC",
-        "ToolTip": "Amet repellat ipsa nihil ipsam laboriosam.",
-        "Deleted": false,
-        "Rank": 50,
-        "Type": "illo",
-        "ColorBlock": 776,
-        "IconHint": "omnis",
+        "Id": 523,
+        "Name": "Lubowitz Inc and Sons",
+        "ToolTip": "Molestiae vel cum occaecati molestiae quas.",
+        "Deleted": true,
+        "Rank": 461,
+        "Type": "quidem",
+        "ColorBlock": 863,
+        "IconHint": "libero",
         "Selected": false,
-        "LastChanged": "2007-12-30T02:38:26.886137+01:00",
+        "LastChanged": "2022-06-18T14:28:27.6645394+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "occaecati",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Jacquelyn Kuhic",
+        "ExtraInfo": "sed",
+        "StyleHint": "tenetur",
+        "Hidden": true,
+        "FullName": "Ms. Denis Rutherford V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 922
+            "FieldType": "System.String",
+            "FieldLength": 652
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "quas",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Miss Justyn Savion Crooks V",
+    "FullName": "Miss Gavin Yvonne Kautzer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 922
+        "FieldType": "System.Int32",
+        "FieldLength": 423
       }
     }
   }

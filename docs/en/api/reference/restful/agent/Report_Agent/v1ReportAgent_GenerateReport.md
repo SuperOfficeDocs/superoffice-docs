@@ -73,26 +73,26 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 198,
-  "LabelLayoutId": 148,
+  "ReportId": 69,
+  "LabelLayoutId": 747,
   "Filename": "aut",
-  "Language": "id",
-  "FileType": "optio",
+  "Language": "est",
+  "FileType": "dolorem",
   "Restrictions": [
     {
-      "Name": "Runolfsson, Jones and Walsh",
-      "Operator": "consequatur",
+      "Name": "Hayes LLC",
+      "Operator": "ut",
       "Values": [
-        "pariatur",
-        "sit"
+        "unde",
+        "natus"
       ],
       "DisplayValues": [
-        "id",
-        "ea"
+        "error",
+        "quasi"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 184,
+      "InterParenthesis": 685,
       "InterOperator": "And",
-      "UniqueHash": 421
+      "UniqueHash": 349
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"vero"
+"cupiditate"
 ```

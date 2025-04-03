@@ -26,7 +26,7 @@ Gets a FormSubmissionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=774
+POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?formSubmissionEntityId=226
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 920,
-  "FormId": 173,
-  "WhenSubmitted": "2013-01-12T02:38:21.5576497+01:00",
-  "ContactId": 106,
-  "PersonId": 1001,
-  "EmailAddress": "wilson_gibson@treutel.name",
-  "ResponseShipmentAddrId": 844,
-  "Response": "vitae",
+  "FormSubmissionId": 783,
+  "FormId": 285,
+  "WhenSubmitted": "2001-07-13T14:28:22.1022648+02:00",
+  "ContactId": 98,
+  "PersonId": 793,
+  "EmailAddress": "destin.walter@lakin.ca",
+  "ResponseShipmentAddrId": 601,
+  "Response": "et",
   "Status": "EmailVerification",
-  "ProcessingLog": "illo",
+  "ProcessingLog": "voluptate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 591
+      "FieldLength": 89
     }
   }
 }

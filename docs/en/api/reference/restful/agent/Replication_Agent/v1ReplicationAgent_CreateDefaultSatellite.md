@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 624,
-  "Created": "2004-12-10T02:38:21.7919947+01:00",
+  "SatelliteId": 834,
+  "Created": "2002-05-16T14:28:22.321006+02:00",
   "CreatedBy": null,
-  "Updated": "2018-07-24T02:38:21.7919947+02:00",
+  "Updated": "2013-09-01T14:28:22.321006+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Hills-Ondricka",
-      "Description": "Expanded motivating implementation",
+      "Name": "Dietrich-Price",
+      "Description": "Quality-focused reciprocal neural-net",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -101,13 +101,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 43
+          "FieldLength": 259
         }
       }
     },
     {
-      "Name": "Hills-Ondricka",
-      "Description": "Expanded motivating implementation",
+      "Name": "Dietrich-Price",
+      "Description": "Quality-focused reciprocal neural-net",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 43
+          "FieldLength": 259
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 793
+      "FieldLength": 694
     }
   }
 }

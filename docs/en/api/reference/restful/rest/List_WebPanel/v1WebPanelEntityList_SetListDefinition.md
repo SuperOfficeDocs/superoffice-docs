@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 681,
-  "Name": "White Inc and Sons",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 737,
-  "IsCustomList": false,
+  "Id": 588,
+  "Name": "Cremin LLC",
+  "Tooltip": "magni",
+  "Deleted": false,
+  "Rank": 572,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "illum",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 12,
-  "Name": "Cormier Inc and Sons",
-  "Tooltip": "quae",
+  "Id": 694,
+  "Name": "Balistreri Group",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "Rank": 170,
+  "Rank": 991,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "nulla",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "accusamus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 2
     }
   }
 }

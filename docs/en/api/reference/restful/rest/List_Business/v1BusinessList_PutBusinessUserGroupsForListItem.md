@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 263,
-    "Name": "Goyette, Ritchie and Barton",
-    "ToolTip": "Excepturi debitis aut in vitae velit impedit.",
-    "Deleted": false,
-    "Rank": 640,
-    "Type": "vel",
-    "ColorBlock": 583,
-    "IconHint": "optio",
-    "Selected": true,
-    "LastChanged": "2016-10-11T02:38:26.6674035+02:00",
+    "Id": 606,
+    "Name": "Hyatt, Satterfield and Gleichner",
+    "ToolTip": "Nisi necessitatibus et cumque officiis quasi.",
+    "Deleted": true,
+    "Rank": 514,
+    "Type": "qui",
+    "ColorBlock": 967,
+    "IconHint": "sequi",
+    "Selected": false,
+    "LastChanged": "2001-02-13T14:28:27.4770477+01:00",
     "ChildItems": [
       {
-        "Id": 358,
-        "Name": "O'Hara-Aufderhar",
-        "ToolTip": "Deserunt ut doloremque praesentium dignissimos quasi.",
+        "Id": 831,
+        "Name": "Wintheiser Group",
+        "ToolTip": "Quis ut reiciendis minus.",
         "Deleted": false,
-        "Rank": 944,
-        "Type": "rerum",
-        "ColorBlock": 566,
-        "IconHint": "eum",
+        "Rank": 641,
+        "Type": "et",
+        "ColorBlock": 353,
+        "IconHint": "minima",
         "Selected": false,
-        "LastChanged": "2018-09-24T02:38:26.6674035+02:00",
+        "LastChanged": "2000-08-14T14:28:27.4770477+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "corrupti",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "praesentium",
         "Hidden": false,
-        "FullName": "Cora Kihn"
+        "FullName": "Itzel Wiza"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "soluta",
-    "Hidden": true,
-    "FullName": "Gregoria Macejkovic"
+    "ExtraInfo": "quasi",
+    "StyleHint": "esse",
+    "Hidden": false,
+    "FullName": "Mr. Waylon Buckridge"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 660,
-    "Name": "Gibson, Lubowitz and Lockman",
-    "ToolTip": "Officiis qui.",
-    "Deleted": false,
-    "Rank": 965,
-    "Type": "sint",
-    "ColorBlock": 169,
-    "IconHint": "dolores",
-    "Selected": false,
-    "LastChanged": "2010-03-25T02:38:26.6674035+01:00",
+    "Id": 862,
+    "Name": "Sawayn, Effertz and Jones",
+    "ToolTip": "Soluta ut aut architecto iusto omnis.",
+    "Deleted": true,
+    "Rank": 374,
+    "Type": "dicta",
+    "ColorBlock": 914,
+    "IconHint": "quis",
+    "Selected": true,
+    "LastChanged": "2011-07-06T14:28:27.4770477+02:00",
     "ChildItems": [
       {
-        "Id": 187,
-        "Name": "Franecki, Bartoletti and Adams",
-        "ToolTip": "Doloremque consequatur eum a sit assumenda voluptatem quia.",
+        "Id": 59,
+        "Name": "Bednar Group",
+        "ToolTip": "Mollitia iure ea.",
         "Deleted": false,
-        "Rank": 61,
-        "Type": "incidunt",
-        "ColorBlock": 975,
-        "IconHint": "quam",
+        "Rank": 123,
+        "Type": "accusamus",
+        "ColorBlock": 344,
+        "IconHint": "dolore",
         "Selected": false,
-        "LastChanged": "2011-07-22T02:38:26.6674035+02:00",
+        "LastChanged": "2024-05-04T14:28:27.4770477+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "non",
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Mr. Tania Stokes",
+        "FullName": "Dr. Hosea Collins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 464
+            "FieldLength": 165
           }
         }
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "corporis",
-    "Hidden": false,
-    "FullName": "Nona Crona",
+    "ExtraInfo": "dolores",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Dillon Macejkovic II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 171
+        "FieldType": "System.Int32",
+        "FieldLength": 952
       }
     }
   }

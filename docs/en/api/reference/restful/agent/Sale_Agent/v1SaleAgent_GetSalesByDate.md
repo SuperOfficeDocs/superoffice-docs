@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2016-12-17T02:38:21.8544876+01:00",
-  "ToDate": "2022-08-08T02:38:21.8544876+02:00",
-  "AmountLimit": 765,
+  "FromDate": "2008-11-21T14:28:22.3678792+01:00",
+  "ToDate": "2010-07-10T14:28:22.3678792+02:00",
+  "AmountLimit": 988,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kohler, Eichmann and Bergnaum",
-    "SaleDate": "2015-01-09T02:38:21.8544876+01:00",
-    "SaleId": 493,
-    "Probability": 895,
-    "Title": "dolorem",
-    "Amount": 12865.07,
-    "Currency": "asperiores",
-    "ProjectName": "Hyatt LLC",
-    "AssociateFullName": "Mr. Freddy Diego Cruickshank I",
-    "Description": "De-engineered mobile knowledge user",
+    "ContactName": "Lang Group",
+    "SaleDate": "2005-03-28T14:28:22.3678792+02:00",
+    "SaleId": 352,
+    "Probability": 336,
+    "Title": "exercitationem",
+    "Amount": 1059.292,
+    "Currency": "ipsam",
+    "ProjectName": "Bahringer, Pagac and Stamm",
+    "AssociateFullName": "Francis Mosciski",
+    "Description": "Phased foreground project",
     "Status": "Lost",
-    "WeightedAmount": 26861.514,
-    "ProjectId": 501,
-    "EarningPercent": 18164.664,
-    "Earning": 23821.534,
-    "ContactId": 106,
-    "AssociateId": 712,
-    "PersonId": 716,
-    "SaleTypeId": 768,
-    "SaleTypeName": "Cassin, Macejkovic and Bahringer",
-    "PersonFullName": "Holden Schiller",
+    "WeightedAmount": 2776.7239999999997,
+    "ProjectId": 236,
+    "EarningPercent": 2927.156,
+    "Earning": 17036.424,
+    "ContactId": 386,
+    "AssociateId": 887,
+    "PersonId": 382,
+    "SaleTypeId": 141,
+    "SaleTypeName": "Emard Inc and Sons",
+    "PersonFullName": "Mrs. Alysha Harris Sr.",
     "Completed": "Completed",
-    "ActiveErpLinks": 207,
-    "NextDueDate": "2008-06-15T02:38:21.8544876+02:00",
-    "Number": "1536524",
+    "ActiveErpLinks": 336,
+    "NextDueDate": "2002-04-09T14:28:22.3678792+02:00",
+    "Number": "1024972",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 315
+        "FieldLength": 65
       }
     }
   }

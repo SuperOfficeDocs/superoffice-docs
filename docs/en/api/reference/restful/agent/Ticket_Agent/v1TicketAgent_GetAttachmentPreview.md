@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 333
+  "AttachmentId": 944
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cassin-Beier",
-  "MimeType": "nihil",
-  "Size": 728,
+  "Name": "Prohaska LLC",
+  "MimeType": "vel",
+  "Size": 281,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "noe@aufderhar.com",
-  "EmailFrom": "jamel_ratke@spencer.com",
-  "EmailTo": "ayden@hermistongoyette.us",
-  "EmailCc": "idell.emard@bosco.com",
-  "EmailDate": "2011-01-16T02:38:22.1513395+01:00",
+  "EmailSubject": "stephen_willms@nader.name",
+  "EmailFrom": "dorthy.crist@lockmannader.info",
+  "EmailTo": "randall.waters@moorejenkins.ca",
+  "EmailCc": "clarissa_corwin@jakubowskicrona.biz",
+  "EmailDate": "1999-11-19T14:28:22.6491174+01:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 389,
-      "Name": "Aufderhar-Schmitt",
-      "ContentType": "occaecati",
-      "AttSize": 384,
-      "InlineImage": false,
-      "ContentId": "est",
-      "AuthKey": "vel",
+      "AttachmentId": 105,
+      "Name": "Stoltenberg LLC",
+      "ContentType": "veritatis",
+      "AttSize": 412,
+      "InlineImage": true,
+      "ContentId": "cumque",
+      "AuthKey": "nam",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 707
+          "FieldLength": 110
         }
       }
     }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 839
+      "FieldType": "System.String",
+      "FieldLength": 417
     }
   }
 }

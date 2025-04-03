@@ -73,12 +73,12 @@ OK
 POST /api/v1/Agents/Dashboard/GetData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 127,
-  "Restrictions": "nemo"
+  "DashboardTileId": 371,
+  "Restrictions": "non"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Pfeffer, McLaughlin and Rolfson",
-        "DisplayTooltip": "aut",
-        "DisplayType": "eum",
+        "DisplayName": "Zulauf, McGlynn and Rice",
+        "DisplayTooltip": "dolorem",
+        "DisplayType": "earum",
         "CanOrderBy": false,
-        "Name": "Schaefer, Effertz and Pagac",
-        "CanRestrictBy": false,
-        "RestrictionType": "accusantium",
-        "RestrictionListName": "Mills LLC",
+        "Name": "Flatley LLC",
+        "CanRestrictBy": true,
+        "RestrictionType": "sed",
+        "RestrictionListName": "Leffler-Emmerich",
         "IsVisible": false,
-        "ExtraInfo": "quis",
-        "Width": "sit",
-        "IconHint": "ut",
-        "HeadingIconHint": "dolor"
+        "ExtraInfo": "officia",
+        "Width": "voluptatem",
+        "IconHint": "tempore",
+        "HeadingIconHint": "iste"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Pfeffer, McLaughlin and Rolfson",
-        "DisplayTooltip": "aut",
-        "DisplayType": "eum",
+        "DisplayName": "Zulauf, McGlynn and Rice",
+        "DisplayTooltip": "dolorem",
+        "DisplayType": "earum",
         "CanOrderBy": false,
-        "Name": "Schaefer, Effertz and Pagac",
-        "CanRestrictBy": false,
-        "RestrictionType": "accusantium",
-        "RestrictionListName": "Mills LLC",
+        "Name": "Flatley LLC",
+        "CanRestrictBy": true,
+        "RestrictionType": "sed",
+        "RestrictionListName": "Leffler-Emmerich",
         "IsVisible": false,
-        "ExtraInfo": "quis",
-        "Width": "sit",
-        "IconHint": "ut",
-        "HeadingIconHint": "dolor"
+        "ExtraInfo": "officia",
+        "Width": "voluptatem",
+        "IconHint": "tempore",
+        "HeadingIconHint": "iste"
       }
     ],
     "Result": null

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 658,
-  "Name": "Sipes LLC",
-  "Tooltip": "nulla",
-  "Deleted": true,
-  "Rank": 213,
+  "Id": 898,
+  "Name": "O'Hara Group",
+  "Tooltip": "nihil",
+  "Deleted": false,
+  "Rank": 739,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "assumenda",
-  "InUseByUserDefinedFields": true
+  "ListType": "ut",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 457,
-  "Name": "Kuhlman Inc and Sons",
-  "Tooltip": "architecto",
+  "Id": 677,
+  "Name": "Jaskolski-Douglas",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 104,
-  "IsCustomList": false,
+  "Rank": 554,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "maiores",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quo",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 275
     }
   }
 }

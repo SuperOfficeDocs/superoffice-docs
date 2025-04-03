@@ -84,8 +84,8 @@ Content-Type: application/json; charset=utf-8
 {
   "License": [
     {
-      "Name": "Crist-Braun",
-      "Description": "Inverse leading edge challenge",
+      "Name": "Hirthe, D'Amore and Olson",
+      "Description": "Phased zero defect extranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Crist-Braun",
-      "Description": "Inverse leading edge challenge",
+      "Name": "Hirthe, D'Amore and Olson",
+      "Description": "Phased zero defect extranet",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,56 +119,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "McCullough, Jast and Fahey",
-    "Description": "Triple-buffered human-resource conglomeration",
+    "Name": "Heathcote, O'Kon and Thompson",
+    "Description": "Networked methodical open architecture",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 473,
-        "Tooltip": "quia",
+        "Unrestricted": false,
+        "Total": 169,
+        "Tooltip": "modi",
         "CanAssign": false,
-        "Free": 407,
-        "InUse": 157,
+        "Free": 222,
+        "InUse": 78,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 299,
-        "Name": "Klocko LLC",
-        "Description": "Automated composite secured line",
-        "PrerequisiteModuleName": "Hudson LLC",
-        "SortOrder": 927,
-        "ExtraFlags": 320,
+        "ModuleLicenseId": 303,
+        "Name": "Hudson-Swift",
+        "Description": "Secured explicit archive",
+        "PrerequisiteModuleName": "Bernhard, Okuneva and Weissnat",
+        "SortOrder": 576,
+        "ExtraFlags": 716,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 318
+            "FieldLength": 895
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 967,
-        "Tooltip": "sint",
-        "CanAssign": false,
-        "Free": 221,
-        "InUse": 141,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 697,
-        "Name": "Hoeger LLC",
-        "Description": "Operative asynchronous alliance",
-        "PrerequisiteModuleName": "Russel-Trantow",
-        "SortOrder": 40,
-        "ExtraFlags": 507,
+        "Unrestricted": false,
+        "Total": 428,
+        "Tooltip": "quis",
+        "CanAssign": true,
+        "Free": 86,
+        "InUse": 735,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 920,
+        "Name": "Nitzsche-Zboncak",
+        "Description": "Sharable dedicated firmware",
+        "PrerequisiteModuleName": "Trantow LLC",
+        "SortOrder": 924,
+        "ExtraFlags": 645,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 325
+            "FieldLength": 753
           }
         }
       }
@@ -177,62 +177,62 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldType": "System.String",
+        "FieldLength": 294
       }
     }
   },
   {
-    "Name": "McCullough, Jast and Fahey",
-    "Description": "Triple-buffered human-resource conglomeration",
+    "Name": "Heathcote, O'Kon and Thompson",
+    "Description": "Networked methodical open architecture",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 473,
-        "Tooltip": "quia",
+        "Unrestricted": false,
+        "Total": 169,
+        "Tooltip": "modi",
         "CanAssign": false,
-        "Free": 407,
-        "InUse": 157,
+        "Free": 222,
+        "InUse": 78,
         "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 299,
-        "Name": "Klocko LLC",
-        "Description": "Automated composite secured line",
-        "PrerequisiteModuleName": "Hudson LLC",
-        "SortOrder": 927,
-        "ExtraFlags": 320,
+        "ModuleLicenseId": 303,
+        "Name": "Hudson-Swift",
+        "Description": "Secured explicit archive",
+        "PrerequisiteModuleName": "Bernhard, Okuneva and Weissnat",
+        "SortOrder": 576,
+        "ExtraFlags": 716,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 318
+            "FieldLength": 895
           }
         }
       }
     ],
     "UnrestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 967,
-        "Tooltip": "sint",
-        "CanAssign": false,
-        "Free": 221,
-        "InUse": 141,
-        "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 697,
-        "Name": "Hoeger LLC",
-        "Description": "Operative asynchronous alliance",
-        "PrerequisiteModuleName": "Russel-Trantow",
-        "SortOrder": 40,
-        "ExtraFlags": 507,
+        "Unrestricted": false,
+        "Total": 428,
+        "Tooltip": "quis",
+        "CanAssign": true,
+        "Free": 86,
+        "InUse": 735,
+        "IsHidden": true,
+        "Assigned": true,
+        "ModuleLicenseId": 920,
+        "Name": "Nitzsche-Zboncak",
+        "Description": "Sharable dedicated firmware",
+        "PrerequisiteModuleName": "Trantow LLC",
+        "SortOrder": 924,
+        "ExtraFlags": 645,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 325
+            "FieldLength": 753
           }
         }
       }
@@ -241,8 +241,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 557
+        "FieldType": "System.String",
+        "FieldLength": 294
       }
     }
   }

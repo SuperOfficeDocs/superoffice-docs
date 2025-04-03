@@ -93,23 +93,23 @@ OK
 PUT /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 663,
-  "BlobSize": 156,
-  "Description": "Pre-emptive impactful firmware",
-  "ExtraInfo": "autem",
-  "IsEncrypted": true,
+  "BlobId": 215,
+  "BlobSize": 823,
+  "Description": "Organized executive attitude",
+  "ExtraInfo": "ex",
+  "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "maxime",
-  "OriginalSize": 525,
-  "CreatedDate": "2009-12-09T02:38:26.5735222+01:00",
-  "UpdatedDate": "2016-06-03T02:38:26.5735222+02:00",
+  "MimeType": "alias",
+  "OriginalSize": 452,
+  "CreatedDate": "2024-05-25T14:28:27.3833015+02:00",
+  "UpdatedDate": "2014-03-24T14:28:27.3833015+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "error"
+  "ConceptualType": "est"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 768,
-  "BlobSize": 96,
-  "Description": "Fundamental impactful attitude",
-  "ExtraInfo": "est",
+  "BlobId": 104,
+  "BlobSize": 806,
+  "Description": "Diverse 6th generation contingency",
+  "ExtraInfo": "perspiciatis",
   "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 171,
-  "CreatedDate": "2019-02-09T02:38:26.5735222+01:00",
-  "UpdatedDate": "1999-10-28T02:38:26.5735222+02:00",
+  "MimeType": "velit",
+  "OriginalSize": 665,
+  "CreatedDate": "2014-02-11T14:28:27.3833015+01:00",
+  "UpdatedDate": "2006-03-09T14:28:27.3833015+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ea",
+  "ConceptualType": "provident",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 876
+      "FieldLength": 637
     }
   }
 }

@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "ratione",
-  "Children": true
+  "Path": "et",
+  "Children": false
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 278,
+  "HierarchyId": 804,
   "Domain": "Dashboards",
-  "Name": "Jerde-Nikolaus",
-  "Fullname": "dignissimos",
-  "ParentId": 1001,
+  "Name": "Kuhn Inc and Sons",
+  "Fullname": "dolores",
+  "ParentId": 831,
   "Children": [
     {
-      "HierarchyId": 350,
+      "HierarchyId": 575,
       "Domain": "Dashboards",
-      "Name": "Wiza, Considine and Yost",
-      "Fullname": "fuga",
-      "ParentId": 434,
+      "Name": "Pfannerstill Group",
+      "Fullname": "quis",
+      "ParentId": 134,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1998-06-29T02:38:21.5264044+02:00",
-      "RegisteredAssociateId": 159,
-      "Updated": "2000-11-20T02:38:21.5264044+01:00",
-      "UpdatedAssociateId": 828,
+      "Registered": "2023-09-02T14:28:22.0866401+02:00",
+      "RegisteredAssociateId": 138,
+      "Updated": "2021-02-13T14:28:22.0866401+01:00",
+      "UpdatedAssociateId": 607,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 286
+          "FieldType": "System.Int32",
+          "FieldLength": 155
         }
       }
     }
   ],
-  "Registered": "2001-11-24T02:38:21.5264044+01:00",
-  "RegisteredAssociateId": 794,
-  "Updated": "2010-06-21T02:38:21.5264044+02:00",
-  "UpdatedAssociateId": 908,
+  "Registered": "2024-07-31T14:28:22.0866401+02:00",
+  "RegisteredAssociateId": 443,
+  "Updated": "2021-10-11T14:28:22.0866401+02:00",
+  "UpdatedAssociateId": 286,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 929
+      "FieldType": "System.String",
+      "FieldLength": 560
     }
   }
 }

@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,14 +132,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 46,
-  "StartTime": "1999-11-26T02:38:20.5419831+01:00",
-  "EndTime": "2000-12-26T02:38:20.5419831+01:00",
-  "Count": 401,
+  "PersonId": 300,
+  "StartTime": "2001-02-23T14:28:21.1335548+01:00",
+  "EndTime": "2013-10-24T14:28:21.1335548+02:00",
+  "Count": 652,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -151,65 +152,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 638,
-    "StartDate": "2007-12-10T02:38:20.5419831+01:00",
-    "EndDate": "2008-01-16T02:38:20.5419831+01:00",
+    "AppointmentId": 554,
+    "StartDate": "2016-02-10T14:28:21.1335548+01:00",
+    "EndDate": "2023-01-14T14:28:21.1335548+01:00",
     "Type": "BookingForChecklist",
-    "Task": "maiores",
-    "AssociateFullName": "Lue Medhurst PhD",
-    "ContactName": "Hyatt LLC",
-    "Description": "Balanced systemic groupware",
-    "PersonFullName": "Ms. Estel Towne MD",
-    "PersonId": 716,
-    "ContactId": 573,
-    "ProjectId": 152,
-    "ProjectName": "Tremblay, Stamm and Harvey",
+    "Task": "velit",
+    "AssociateFullName": "Marge Borer",
+    "ContactName": "Little Inc and Sons",
+    "Description": "Operative content-based middleware",
+    "PersonFullName": "Rozella Koepp",
+    "PersonId": 788,
+    "ContactId": 170,
+    "ProjectId": 1002,
+    "ProjectName": "Cole LLC",
     "IsPublished": false,
-    "AssociateId": 210,
-    "ColorIndex": 537,
+    "AssociateId": 249,
+    "ColorIndex": 197,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 452,
-    "PriorityName": "Stroman, Goodwin and Brakus",
+    "PriorityId": 843,
+    "PriorityName": "Ward-Mitchell",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2017-07-06T02:38:20.5419831+02:00",
+    "ActiveDate": "1998-09-03T14:28:21.1335548+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-07-28T02:38:20.5419831+02:00",
-    "RecurringEndDate": "1999-07-18T02:38:20.5419831+02:00",
-    "MotherId": 108,
-    "AssignedBy": 317,
-    "AssignedByFullName": "Mr. Dulce Brionna Wintheiser",
+    "RecurringStartDate": "2001-06-27T14:28:21.1335548+02:00",
+    "RecurringEndDate": "2005-12-12T14:28:21.1335548+01:00",
+    "MotherId": 56,
+    "AssignedBy": 822,
+    "AssignedByFullName": "Mr. Eleazar Zboncak Jr.",
     "RejectReason": "",
-    "Location": "quam",
-    "AlarmLeadTime": "voluptatem",
-    "SaleId": 643,
-    "SaleName": "Homenick-Stracke",
-    "AssociateName": "Kertzmann Group",
-    "CreatedDate": "2005-12-22T02:38:20.5419831+01:00",
-    "CreatedBy": "occaecati",
-    "CreatedByFullName": "Sandra Bernhard Moen II",
-    "CreatedByAssociateId": 599,
+    "Location": "sint",
+    "AlarmLeadTime": "voluptatum",
+    "SaleId": 532,
+    "SaleName": "Koss-Abshire",
+    "AssociateName": "Sporer, Farrell and Nader",
+    "CreatedDate": "2021-12-21T14:28:21.1335548+01:00",
+    "CreatedBy": "cumque",
+    "CreatedByFullName": "Elroy Hoppe",
+    "CreatedByAssociateId": 331,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 374,
-    "Title": "quisquam",
-    "Agenda": "alias",
-    "InternalNotes": "fuga",
+    "PreferredTZLocation": 59,
+    "Title": "aut",
+    "Agenda": "qui",
+    "InternalNotes": "cupiditate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 36
+        "FieldType": "System.Int32",
+        "FieldLength": 523
       }
     }
   }

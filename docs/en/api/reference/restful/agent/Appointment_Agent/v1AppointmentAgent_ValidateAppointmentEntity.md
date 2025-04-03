@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Appointment/ValidateAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "doloremque",
-  "2": "quia"
+  "1": "inventore",
+  "2": "modi"
 }
 ```

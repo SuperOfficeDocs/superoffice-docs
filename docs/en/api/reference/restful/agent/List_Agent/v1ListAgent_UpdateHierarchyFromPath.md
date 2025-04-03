@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "aut",
+  "Path": "doloribus",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 277,
+  "HierarchyId": 429,
   "Domain": "Dashboards",
-  "Name": "Johnston, Huel and Pfeffer",
-  "Fullname": "laborum",
-  "ParentId": 786,
+  "Name": "Morissette Inc and Sons",
+  "Fullname": "aut",
+  "ParentId": 277,
   "Children": [
     {
-      "HierarchyId": 337,
+      "HierarchyId": 742,
       "Domain": "Dashboards",
-      "Name": "Howe LLC",
-      "Fullname": "qui",
-      "ParentId": 226,
+      "Name": "Eichmann-Keebler",
+      "Fullname": "fugit",
+      "ParentId": 248,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2014-05-14T02:38:21.5264044+02:00",
-      "RegisteredAssociateId": 390,
-      "Updated": "2011-08-03T02:38:21.5264044+02:00",
-      "UpdatedAssociateId": 775,
+      "Registered": "2017-02-14T14:28:22.0866401+01:00",
+      "RegisteredAssociateId": 256,
+      "Updated": "2020-02-24T14:28:22.0866401+01:00",
+      "UpdatedAssociateId": 780,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 925
+          "FieldType": "System.String",
+          "FieldLength": 370
         }
       }
     }
   ],
-  "Registered": "2022-10-08T02:38:21.5264044+02:00",
-  "RegisteredAssociateId": 477,
-  "Updated": "2017-11-02T02:38:21.5264044+01:00",
-  "UpdatedAssociateId": 348,
+  "Registered": "2003-02-27T14:28:22.0866401+01:00",
+  "RegisteredAssociateId": 61,
+  "Updated": "2001-06-22T14:28:22.0866401+02:00",
+  "UpdatedAssociateId": 616,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldLength": 182
     }
   }
 }

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 422,
-    "Name": "Sporer-Goyette",
-    "Tooltip": "excepturi",
-    "Deleted": false,
-    "Rank": 731,
-    "UdListDefinitionId": 984,
+    "HeadingId": 437,
+    "Name": "Bashirian Group",
+    "Tooltip": "soluta",
+    "Deleted": true,
+    "Rank": 364,
+    "UdListDefinitionId": 369,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 542
+        "FieldType": "System.Int32",
+        "FieldLength": 408
       }
     }
   }

@@ -88,7 +88,7 @@ OK
 GET /api/v1/Person/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 268,
-    "ColumnId": 832,
-    "FieldDefault": "eaque",
-    "FieldHeight": 530,
-    "FieldLabel": "delectus",
-    "FieldLeft": 814,
-    "FieldTop": 713,
+    "UDefFieldId": 893,
+    "ColumnId": 96,
+    "FieldDefault": "qui",
+    "FieldHeight": 813,
+    "FieldLabel": "ab",
+    "FieldLeft": 735,
+    "FieldTop": 806,
     "FieldType": "Checkbox",
-    "FieldWidth": 889,
-    "FormatMask": "optio",
+    "FieldWidth": 153,
+    "FormatMask": "occaecati",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 995,
-    "LabelLeft": 933,
-    "LabelTop": 26,
-    "LabelWidth": 136,
-    "LastVersionId": 703,
-    "ListTableId": 367,
+    "LabelHeight": 797,
+    "LabelLeft": 713,
+    "LabelTop": 5,
+    "LabelWidth": 229,
+    "LastVersionId": 960,
+    "ListTableId": 719,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 653,
-    "ProgId": "mollitia",
+    "Page1LineNo": 545,
+    "ProgId": "omnis",
     "IsReadOnly": false,
-    "ShortLabel": "voluptatem",
-    "TabOrder": 692,
-    "TextLength": 630,
-    "Tooltip": "commodi",
-    "UdefIdentity": 607,
-    "UDListDefinitionId": 653,
+    "ShortLabel": "sit",
+    "TabOrder": 645,
+    "TextLength": 530,
+    "Tooltip": "saepe",
+    "UdefIdentity": 595,
+    "UDListDefinitionId": 532,
     "Justification": "Center",
-    "Version": 678,
-    "TemplateVariableName": "Watsica, Jast and Cremin",
-    "HasBeenPublished": false,
-    "MdoListName": "Considine Inc and Sons",
+    "Version": 380,
+    "TemplateVariableName": "Mann, Reynolds and Olson",
+    "HasBeenPublished": true,
+    "MdoListName": "Beahan-Erdman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 158
+        "FieldLength": 577
       }
     }
   }

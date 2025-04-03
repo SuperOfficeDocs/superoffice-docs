@@ -98,7 +98,7 @@ OK
 POST /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 765,
-  "ColumnId": 797,
-  "FieldDefault": "vero",
-  "FieldHeight": 764,
-  "FieldLabel": "consectetur",
-  "FieldLeft": 911,
-  "FieldTop": 1001,
+  "UDefFieldId": 650,
+  "ColumnId": 92,
+  "FieldDefault": "animi",
+  "FieldHeight": 928,
+  "FieldLabel": "vitae",
+  "FieldLeft": 223,
+  "FieldTop": 277,
   "FieldType": "Checkbox",
-  "FieldWidth": 608,
-  "FormatMask": "ipsa",
-  "HideLabel": true,
+  "FieldWidth": 679,
+  "FormatMask": "a",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 640,
-  "LabelLeft": 704,
-  "LabelTop": 468,
-  "LabelWidth": 62,
-  "LastVersionId": 44,
-  "ListTableId": 496,
+  "LabelHeight": 247,
+  "LabelLeft": 192,
+  "LabelTop": 266,
+  "LabelWidth": 389,
+  "LastVersionId": 59,
+  "ListTableId": 675,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 837,
-  "ProgId": "cupiditate",
+  "Page1LineNo": 721,
+  "ProgId": "rerum",
   "IsReadOnly": true,
-  "ShortLabel": "delectus",
-  "TabOrder": 849,
-  "TextLength": 52,
-  "Tooltip": "sint",
-  "UdefIdentity": 133,
-  "UDListDefinitionId": 549,
+  "ShortLabel": "et",
+  "TabOrder": 545,
+  "TextLength": 501,
+  "Tooltip": "quaerat",
+  "UdefIdentity": 49,
+  "UDListDefinitionId": 546,
   "Justification": "Center",
-  "Version": 783,
-  "TemplateVariableName": "Eichmann, Jenkins and Smitham",
+  "Version": 494,
+  "TemplateVariableName": "Murray Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Cormier Group",
+  "MdoListName": "Murazik, Legros and Feil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 680
+      "FieldLength": 14
     }
   }
 }

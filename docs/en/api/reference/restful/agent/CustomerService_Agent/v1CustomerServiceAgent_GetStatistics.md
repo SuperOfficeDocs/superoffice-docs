@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "velit",
-    "ut"
+    "consequatur",
+    "corrupti"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "voluptate",
+    "Label": "eius",
     "Values": [
       {
-        "Label": "tenetur",
-        "Value": 11332.544,
-        "Description": "Cross-group static open system",
+        "Label": "consequatur",
+        "Value": 20189.228,
+        "Description": "Pre-emptive transitional hierarchy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldLength": 104
           }
         }
       },
       {
-        "Label": "tenetur",
-        "Value": 11332.544,
-        "Description": "Cross-group static open system",
+        "Label": "consequatur",
+        "Value": 20189.228,
+        "Description": "Pre-emptive transitional hierarchy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldLength": 104
           }
         }
       }
     ],
-    "Description": "Networked logistical protocol",
+    "Description": "Proactive maximized array",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 527
       }
     }
   },
   {
-    "Label": "voluptate",
+    "Label": "eius",
     "Values": [
       {
-        "Label": "tenetur",
-        "Value": 11332.544,
-        "Description": "Cross-group static open system",
+        "Label": "consequatur",
+        "Value": 20189.228,
+        "Description": "Pre-emptive transitional hierarchy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldLength": 104
           }
         }
       },
       {
-        "Label": "tenetur",
-        "Value": 11332.544,
-        "Description": "Cross-group static open system",
+        "Label": "consequatur",
+        "Value": 20189.228,
+        "Description": "Pre-emptive transitional hierarchy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 473
+            "FieldLength": 104
           }
         }
       }
     ],
-    "Description": "Networked logistical protocol",
+    "Description": "Proactive maximized array",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 527
       }
     }
   }

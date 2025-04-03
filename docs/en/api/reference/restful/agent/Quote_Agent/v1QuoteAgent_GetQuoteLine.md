@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 453
+  "QuoteLineId": 884
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 543,
-  "ERPQuoteLineKey": "laudantium",
-  "QuoteAlternativeId": 815,
-  "ERPProductKey": "iste",
+  "QuoteLineId": 384,
+  "ERPQuoteLineKey": "nihil",
+  "QuoteAlternativeId": 847,
+  "ERPProductKey": "aliquam",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 29255.89,
-  "DeliveredQuantity": 12774.184,
-  "Rank": 957,
-  "Name": "Carroll LLC",
-  "Description": "Optional optimal functionalities",
-  "Code": "consequuntur",
-  "QuantityUnit": "ea",
-  "PriceUnit": "dolor",
-  "ItemNumber": "1305665",
+  "Quantity": 16813.91,
+  "DeliveredQuantity": 29638.237999999998,
+  "Rank": 696,
+  "Name": "Waelchi, Reilly and Heathcote",
+  "Description": "Progressive background portal",
+  "Code": "esse",
+  "QuantityUnit": "mollitia",
+  "PriceUnit": "ut",
+  "ItemNumber": "1413044",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "similique",
-  "ProductTypeKey": "sed",
-  "Supplier": "totam",
-  "SupplierCode": "sint",
-  "Thumbnail": "inventore",
-  "VATInfo": "dolor",
-  "VAT": 28723.11,
-  "UnitCost": 25808.489999999998,
-  "UnitMinimumPrice": 10680.672,
-  "UnitListPrice": 28196.597999999998,
+  "ProductFamilyKey": "voluptate",
+  "ProductTypeKey": "eligendi",
+  "Supplier": "eos",
+  "SupplierCode": "voluptatibus",
+  "Thumbnail": "error",
+  "VATInfo": "nobis",
+  "VAT": 21919.196,
+  "UnitCost": 11843.386,
+  "UnitMinimumPrice": 25611.048,
+  "UnitListPrice": 19847.622,
   "ExtraInfo": [
     {
-      "Name": "Luettgen Group",
-      "Value": "voluptatum",
+      "Name": "Gerlach-White",
+      "Value": "alias",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 337
+          "FieldLength": 335
         }
       }
     },
     {
-      "Name": "Luettgen Group",
-      "Value": "voluptatum",
+      "Name": "Gerlach-White",
+      "Value": "alias",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 337
+          "FieldLength": 335
         }
       }
     }
   ],
-  "RawExtraInfo": "qui",
+  "RawExtraInfo": "corrupti",
   "IsSubscription": true,
-  "SubscriptionUnit": "id",
-  "SubscriptionQuantity": 11069.288,
-  "SubscriptionStart": "2005-03-11T02:38:21.7919947+01:00",
-  "ERPDiscountPercent": 29299.766,
-  "ERPDiscountAmount": 12833.73,
-  "DiscountPercent": 25513.894,
-  "DiscountAmount": 29293.498,
+  "SubscriptionUnit": "alias",
+  "SubscriptionQuantity": 4393.8679999999995,
+  "SubscriptionStart": "1998-08-12T14:28:22.3053817+02:00",
+  "ERPDiscountPercent": 23899.884,
+  "ERPDiscountAmount": 9658.988,
+  "DiscountPercent": 29233.951999999997,
+  "DiscountAmount": 15463.155999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 11573.862,
-  "EarningAmount": 9492.886,
-  "SubTotal": 16017.874,
-  "TotalPrice": 22718.365999999998,
-  "Rights": "in",
-  "Rule": "debitis",
-  "ExtraField1": "unde",
-  "ExtraField2": "laborum",
-  "ExtraField3": "eligendi",
-  "ExtraField4": "veritatis",
-  "ExtraField5": "labore",
+  "EarningPercent": 20095.208,
+  "EarningAmount": 4349.992,
+  "SubTotal": 6816.45,
+  "TotalPrice": 17493.988,
+  "Rights": "sit",
+  "Rule": "nesciunt",
+  "ExtraField1": "ipsa",
+  "ExtraField2": "rerum",
+  "ExtraField3": "accusantium",
+  "ExtraField4": "quis",
+  "ExtraField5": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 822
+      "FieldType": "System.String",
+      "FieldLength": 774
     }
   }
 }

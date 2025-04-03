@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 800,
-    "Name": "Kerluke, Quitzon and Goodwin",
-    "Tooltip": "esse",
-    "Rank": 489,
-    "Key": "optio",
+    "LegalBaseId": 229,
+    "Name": "Donnelly Group",
+    "Tooltip": "ut",
+    "Rank": 308,
+    "Key": "ut",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldLength": 563
       }
     }
   }

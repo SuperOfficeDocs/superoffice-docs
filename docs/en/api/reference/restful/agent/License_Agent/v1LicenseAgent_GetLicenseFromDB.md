@@ -80,7 +80,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Hilpert LLC"
+  "OwnerName": "Smith Group"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 698,
-      "NumberOfLicensesFree": 995,
-      "NumberOfLicensesAdded": 877,
-      "NumberOfLicensesNewTotal": 177,
-      "NumberOfLicensesNewFree": 699,
-      "NumberOfLicensesTotal": 599
+      "NumberOfLicensesInUse": 466,
+      "NumberOfLicensesFree": 608,
+      "NumberOfLicensesAdded": 462,
+      "NumberOfLicensesNewTotal": 473,
+      "NumberOfLicensesNewFree": 385,
+      "NumberOfLicensesTotal": 343
     }
   ],
-  "AccumulatedNextCheckDate": "2004-06-05T02:38:21.4639053+02:00"
+  "AccumulatedNextCheckDate": "2013-09-21T14:28:22.0241429+02:00"
 }
 ```

@@ -30,7 +30,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ DocumentEntity found.
 POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 751,
-  "ColumnId": 650,
-  "FieldDefault": "quia",
-  "FieldHeight": 344,
-  "FieldLabel": "ut",
-  "FieldLeft": 618,
-  "FieldTop": 940,
+  "UDefFieldId": 390,
+  "ColumnId": 427,
+  "FieldDefault": "vero",
+  "FieldHeight": 546,
+  "FieldLabel": "illum",
+  "FieldLeft": 412,
+  "FieldTop": 557,
   "FieldType": "Checkbox",
-  "FieldWidth": 627,
-  "FormatMask": "fugiat",
-  "HideLabel": false,
+  "FieldWidth": 651,
+  "FormatMask": "dicta",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 879,
-  "LabelLeft": 22,
-  "LabelTop": 864,
-  "LabelWidth": 693,
-  "LastVersionId": 220,
-  "ListTableId": 928,
-  "IsMandatory": false,
+  "LabelHeight": 662,
+  "LabelLeft": 524,
+  "LabelTop": 690,
+  "LabelWidth": 344,
+  "LastVersionId": 634,
+  "ListTableId": 329,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 232,
-  "ProgId": "non",
-  "IsReadOnly": true,
-  "ShortLabel": "nobis",
-  "TabOrder": 782,
-  "TextLength": 928,
-  "Tooltip": "modi",
-  "UdefIdentity": 1000,
-  "UDListDefinitionId": 125,
+  "Page1LineNo": 126,
+  "ProgId": "maxime",
+  "IsReadOnly": false,
+  "ShortLabel": "aperiam",
+  "TabOrder": 97,
+  "TextLength": 401,
+  "Tooltip": "deserunt",
+  "UdefIdentity": 379,
+  "UDListDefinitionId": 371,
   "Justification": "Center",
-  "Version": 808,
-  "TemplateVariableName": "Morissette-Prosacco",
+  "Version": 58,
+  "TemplateVariableName": "Kulas, Bauch and Bednar",
   "HasBeenPublished": true,
-  "MdoListName": "Stiedemann-Goldner",
+  "MdoListName": "Schmidt, Goodwin and Block",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldType": "System.String",
+      "FieldLength": 790
     }
   }
 }

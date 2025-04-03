@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 486
+  "QuoteConnectionId": 380
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 107,
-  "ERPName": "Rowe, Pagac and Keebler",
-  "DisplayName": "Kautzer Group",
-  "DisplayDescription": "Self-enabling non-volatile project",
-  "Rank": 746,
-  "ConnectorName": "Conroy Group",
-  "ErpConnectionId": 17,
-  "ExtraData": "distinctio",
+  "QuoteConnectionId": 225,
+  "ERPName": "Mohr-Gorczany",
+  "DisplayName": "Green Inc and Sons",
+  "DisplayDescription": "Secured logistical access",
+  "Rank": 913,
+  "ConnectorName": "Hills-Nader",
+  "ErpConnectionId": 131,
+  "ExtraData": "quo",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 19,
-      "ERPPriceListKey": "nam",
-      "QuoteConnectionId": 42,
-      "Name": "Kessler, Marquardt and Ward",
-      "Description": "Front-line impactful array",
-      "Currency": "nesciunt",
-      "CurrencyName": "Doyle LLC",
-      "ValidFrom": "2011-05-07T02:38:21.7763357+02:00",
-      "ValidTo": "2003-10-21T02:38:21.7763357+02:00",
-      "IsActive": true,
+      "PriceListId": 860,
+      "ERPPriceListKey": "quia",
+      "QuoteConnectionId": 735,
+      "Name": "Thompson, Watsica and Bahringer",
+      "Description": "Operative national access",
+      "Currency": "dolorem",
+      "CurrencyName": "Kunze, Fahey and Cummerata",
+      "ValidFrom": "1998-04-30T14:28:22.3053817+02:00",
+      "ValidTo": "2018-12-08T14:28:22.3053817+01:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 739
+          "FieldLength": 647
         }
       }
     }
   ],
-  "AllAccess": false,
+  "AllAccess": true,
   "Deleted": false,
   "UserGroupAccessIds": [
-    205,
-    51
+    268,
+    50
   ],
   "AssociateAccessIds": [
-    271,
-    343
+    45,
+    641
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 426
+      "FieldLength": 775
     }
   }
 }

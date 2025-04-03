@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 54,
-    "Section": "ipsum",
+    "PrefDescId": 989,
+    "Section": "quidem",
     "Key": "quia",
-    "Name": "Cummerata Group",
+    "Name": "Flatley-Stehr",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Assimilated zero defect methodology",
+    "Description": "Profound local complexity",
     "IsBuiltin": true,
-    "TableName": "Rath, Kirlin and Murray",
-    "UserDefinedListId": 953,
-    "Rank": 740,
-    "SubGroup": "quos",
-    "MinLevel": 193,
-    "MaxValue": 437,
-    "MinValue": 303,
-    "RequiredLicense": "quia",
+    "TableName": "D'Amore-O'Reilly",
+    "UserDefinedListId": 768,
+    "Rank": 388,
+    "SubGroup": "repudiandae",
+    "MinLevel": 561,
+    "MaxValue": 46,
+    "MinValue": 826,
+    "RequiredLicense": "dicta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 630
       }
     }
   }

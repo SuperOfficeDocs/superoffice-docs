@@ -1123,7 +1123,7 @@ Sale archive provider for the Diary card
 ## Sample
 
 ```http!
-GET /api/v1/archive/SaleDiary?$select=person/personDirectFax/formattedNumber,person/restrictionAddress/addressId,contact/LastCompletedSale,associate/firstName,project/type
+GET /api/v1/archive/SaleDiary?$select=completed,person/personExtra/y_rental/x_end,person/personExtra/y_rental/y_equipment/x_name,person/correspondingAssociate/ejUserId,contact/category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

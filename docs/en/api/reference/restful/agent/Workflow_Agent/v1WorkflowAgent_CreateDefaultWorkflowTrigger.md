@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 529,
-  "WorkflowId": 519,
+  "WorkflowTriggerId": 421,
+  "WorkflowId": 482,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Shanahan, Runte and Klein",
-      "Description": "De-engineered 4th generation project",
-      "Rank": 461,
+      "Name": "Christiansen-Steuber",
+      "Description": "Focused foreground leverage",
+      "Rank": 440,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Shanahan, Runte and Klein",
-      "Description": "De-engineered 4th generation project",
-      "Rank": 461,
+      "Name": "Christiansen-Steuber",
+      "Description": "Focused foreground leverage",
+      "Rank": 440,
       "Restrictions": [
         {},
         {}
@@ -97,8 +97,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 948
+      "FieldType": "System.Int32",
+      "FieldLength": 402
     }
   }
 }

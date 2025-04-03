@@ -72,6 +72,7 @@ Tasks, appointments, followups, phone calls; and documents (document_id != 0). A
 |created\_by\_workflow\_id|The workflow this follow-up was created by|FK [workflow](workflow.md)|&#x25CF;|
 |cautionWarning|Status field to indicate appointments that have some sort of problem|Enum [AppointmentCautionWarning](enums/appointmentcautionwarning.md)|&#x25CF;|
 |mother\_associate\_id|Associate/owner of the mother appointment|FK [associate](associate.md)|&#x25CF;|
+|owned\_externally|Set if an external system owns this appointment.|Enum [AppointmentExternalOwner](enums/appointmentexternalowner.md)| |
 
 
 ![appointment table relationship diagram](./media/appointment.png)

@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 397,
-    "Name": "Marks-Powlowski",
-    "OrgNr": "918902",
+    "ContactId": 160,
+    "Name": "Crooks, Kirlin and Mertz",
+    "OrgNr": "1348361",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "vel",
-    "DirectPhone": "569.187.2924",
-    "AssociateId": 296,
-    "CountryId": 605,
-    "EmailAddress": "kylee@wiegand.co.uk",
-    "Kananame": "tenetur",
-    "EmailAddressName": "kirstin@koss.name",
+    "City": "est",
+    "DirectPhone": "(703)103-8857",
+    "AssociateId": 865,
+    "CountryId": 985,
+    "EmailAddress": "roy@wilkinson.ca",
+    "Kananame": "aut",
+    "EmailAddressName": "jenifer@roobfarrell.biz",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Ms. Baby Elmira Wyman",
+    "AssociateFullName": "Davin Nader",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "molestiae",
-    "FullName": "Ms. Amely Zulauf III",
-    "IsOwnerContact": false,
-    "ActiveErpLinks": 686,
-    "Number1": "623487",
-    "Number2": "1086472",
+    "FormattedAddress": "temporibus",
+    "FullName": "Mrs. Amalia Volkman",
+    "IsOwnerContact": true,
+    "ActiveErpLinks": 264,
+    "Number1": "737123",
+    "Number2": "1341021",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldLength": 574
       }
     }
   }

@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 228,
-  "StartTime": "2014-09-09T02:38:21.2295568+02:00",
-  "EndTime": "2025-01-19T02:38:21.2295568+01:00",
-  "Count": 746
+  "ContactId": 523,
+  "StartTime": "2012-01-14T14:28:21.805403+01:00",
+  "EndTime": "2006-08-15T14:28:21.805403+02:00",
+  "Count": 14
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 460,
-    "Attention": "suscipit",
-    "Header": "totam",
-    "Name": "Feil, Wuckert and Little",
-    "OurRef": "esse",
-    "YourRef": "nisi",
-    "Description": "Stand-alone composite challenge",
-    "DocumentTemplate": "earum",
-    "IsPublished": false,
-    "PersonId": 972,
-    "PersonFullName": "Harley Fisher",
-    "AssociateFullName": "Miss Dovie Mara Grant",
-    "ContactId": 847,
-    "ContactName": "Rowe Group",
-    "ProjectId": 402,
-    "ProjectName": "Waelchi-Ziemann",
-    "AssociateId": 312,
-    "Snum": 644,
-    "SaleId": 993,
-    "SaleName": "Wunsch LLC",
+    "DocumentId": 613,
+    "Attention": "ex",
+    "Header": "ut",
+    "Name": "Lindgren Inc and Sons",
+    "OurRef": "enim",
+    "YourRef": "saepe",
+    "Description": "Horizontal national success",
+    "DocumentTemplate": "accusamus",
+    "IsPublished": true,
+    "PersonId": 23,
+    "PersonFullName": "Carolina Streich",
+    "AssociateFullName": "Palma Tromp",
+    "ContactId": 575,
+    "ContactName": "Botsford Group",
+    "ProjectId": 255,
+    "ProjectName": "Pacocha-Hudson",
+    "AssociateId": 278,
+    "Snum": 17,
+    "SaleId": 241,
+    "SaleName": "Runte, Walsh and Mohr",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 614
+        "FieldType": "System.String",
+        "FieldLength": 415
       }
     }
   }

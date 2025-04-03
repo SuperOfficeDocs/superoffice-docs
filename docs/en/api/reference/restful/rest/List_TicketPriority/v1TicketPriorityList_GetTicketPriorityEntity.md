@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 622,
-  "Name": "Quitzon Group",
+  "TicketPriorityId": 953,
+  "Name": "Dicki-Hackett",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 37,
+  "SortOrder": 171,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 433,
-  "MonStart": "1997-11-15T02:38:27.0579944+01:00",
-  "MonStop": "2013-06-05T02:38:27.0579944+02:00",
-  "TueStart": "2015-04-03T02:38:27.0579944+02:00",
-  "TueStop": "2002-09-04T02:38:27.0579944+02:00",
-  "WedStart": "2021-10-03T02:38:27.0579944+02:00",
-  "WedStop": "2022-01-15T02:38:27.0579944+01:00",
-  "ThuStart": "2011-07-12T02:38:27.0579944+02:00",
-  "ThuStop": "2002-12-21T02:38:27.0579944+01:00",
-  "FriStart": "2013-07-18T02:38:27.0579944+02:00",
-  "FriStop": "1999-06-07T02:38:27.0579944+02:00",
-  "SatStart": "2001-01-29T02:38:27.0579944+01:00",
-  "SatStop": "2016-03-28T02:38:27.0579944+02:00",
-  "SunStart": "2023-01-01T02:38:27.0579944+01:00",
-  "SunStop": "1998-01-18T02:38:27.0579944+01:00",
+  "Deadline": 814,
+  "MonStart": "2003-07-16T14:28:27.7739195+02:00",
+  "MonStop": "2012-08-27T14:28:27.7739195+02:00",
+  "TueStart": "2002-06-17T14:28:27.7739195+02:00",
+  "TueStop": "2011-06-20T14:28:27.7739195+02:00",
+  "WedStart": "2024-05-15T14:28:27.7739195+02:00",
+  "WedStop": "2004-05-25T14:28:27.7739195+02:00",
+  "ThuStart": "2003-01-23T14:28:27.7739195+01:00",
+  "ThuStop": "2004-08-01T14:28:27.7739195+02:00",
+  "FriStart": "2013-04-07T14:28:27.7739195+02:00",
+  "FriStop": "2023-02-25T14:28:27.7739195+01:00",
+  "SatStart": "2005-05-24T14:28:27.7739195+02:00",
+  "SatStop": "2021-06-17T14:28:27.7739195+02:00",
+  "SunStart": "2012-05-08T14:28:27.7739195+02:00",
+  "SunStop": "2010-03-30T14:28:27.7739195+02:00",
   "NonDates": [
-    "placeat",
-    "aut"
+    "molestiae",
+    "alias"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 931,
-      "AlertLevel": 39,
-      "AlertTimeout": 493,
-      "Action": 837,
-      "DelegateTo": 847,
-      "ScriptId": 741,
-      "EmailTo": "sabina.emmerich@kemmerwunsch.us",
-      "SmsTo": "veniam",
-      "ReplyTemplateIdCustomer": 713,
-      "ReplyTemplateIdUser": 810,
-      "ReplyTemplateIdCatmast": 214,
-      "ReplyTemplateIdEmail": 919,
-      "RtiCustomerSms": 439,
-      "ReplyTemplateIdUserSms": 816,
-      "ReplyTemplateIdCatmastSms": 132,
-      "ReplyTemplateIdSms": 760,
+      "TicketAlertId": 54,
+      "AlertLevel": 162,
+      "AlertTimeout": 118,
+      "Action": 222,
+      "DelegateTo": 471,
+      "ScriptId": 530,
+      "EmailTo": "alivia_kiehn@kreigerjohnson.com",
+      "SmsTo": "sint",
+      "ReplyTemplateIdCustomer": 441,
+      "ReplyTemplateIdUser": 586,
+      "ReplyTemplateIdCatmast": 477,
+      "ReplyTemplateIdEmail": 977,
+      "RtiCustomerSms": 673,
+      "ReplyTemplateIdUserSms": 520,
+      "ReplyTemplateIdCatmastSms": 947,
+      "ReplyTemplateIdSms": 628,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 693
+          "FieldLength": 810
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 254
+      "FieldType": "System.Int32",
+      "FieldLength": 647
     }
   }
 }

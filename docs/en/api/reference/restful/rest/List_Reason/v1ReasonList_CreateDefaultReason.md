@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 873,
-  "Name": "White, Kozey and Johns",
-  "Tooltip": "dolore",
+  "Id": 544,
+  "Name": "Bogan, Howe and Blanda",
+  "Tooltip": "quos",
   "Deleted": false,
-  "UdListDefinitionId": 174,
-  "Rank": 850,
+  "UdListDefinitionId": 391,
+  "Rank": 659,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 663
+      "FieldLength": 323
     }
   }
 }

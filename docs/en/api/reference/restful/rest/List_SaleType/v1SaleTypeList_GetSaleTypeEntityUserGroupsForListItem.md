@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 346,
-    "Name": "Kreiger-Schmeler",
-    "ToolTip": "Beatae sit necessitatibus quia omnis.",
+    "Id": 632,
+    "Name": "Bosco, Homenick and Kuvalis",
+    "ToolTip": "Sequi reprehenderit ipsum at illo.",
     "Deleted": false,
-    "Rank": 991,
-    "Type": "provident",
-    "ColorBlock": 36,
-    "IconHint": "ut",
+    "Rank": 420,
+    "Type": "mollitia",
+    "ColorBlock": 626,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2001-03-13T02:38:26.9330101+01:00",
+    "LastChanged": "2024-12-11T14:28:27.6957886+01:00",
     "ChildItems": [
       {
-        "Id": 89,
-        "Name": "Orn, Stoltenberg and Graham",
-        "ToolTip": "Nam beatae deleniti voluptas dicta.",
+        "Id": 908,
+        "Name": "Gislason-Thiel",
+        "ToolTip": "Id molestias asperiores et laborum beatae veritatis reprehenderit.",
         "Deleted": true,
-        "Rank": 999,
-        "Type": "officiis",
-        "ColorBlock": 853,
-        "IconHint": "distinctio",
+        "Rank": 68,
+        "Type": "sit",
+        "ColorBlock": 908,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2009-09-11T02:38:26.9330101+02:00",
+        "LastChanged": "2022-01-18T14:28:27.6957886+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "rerum",
-        "Hidden": true,
-        "FullName": "Mrs. Blanche Wehner IV",
+        "ExtraInfo": "porro",
+        "StyleHint": "sunt",
+        "Hidden": false,
+        "FullName": "Abdul Wunsch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 874
+            "FieldType": "System.Int32",
+            "FieldLength": 300
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "ullam",
+    "ExtraInfo": "enim",
+    "StyleHint": "esse",
     "Hidden": false,
-    "FullName": "Federico Batz",
+    "FullName": "Ms. Merlin Kunze V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 859
+        "FieldLength": 518
       }
     }
   }

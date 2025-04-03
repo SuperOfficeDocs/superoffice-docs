@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Erdman-Stehr",
-    "DisplayName": "Wuckert-Nikolaus",
-    "Description": "Function-based global frame",
-    "ShortLabel": "eos",
-    "HideLabel": false,
-    "HideField": true,
+    "FieldName": "Bosco Group",
+    "DisplayName": "Collins, Hane and Glover",
+    "Description": "Persistent value-added hierarchy",
+    "ShortLabel": "vero",
+    "HideLabel": true,
+    "HideField": false,
     "IsIndexed": false,
     "IsMandatory": true,
     "IsReadOnly": true,
-    "IsExternal": true,
-    "IsDisplayField": true,
-    "Rank": 671,
-    "TemplateVariableName": "Gulgowski-Kovacek"
+    "IsExternal": false,
+    "IsDisplayField": false,
+    "Rank": 361,
+    "TemplateVariableName": "Heaney, Quigley and Fritsch"
   }
 ]
 ```

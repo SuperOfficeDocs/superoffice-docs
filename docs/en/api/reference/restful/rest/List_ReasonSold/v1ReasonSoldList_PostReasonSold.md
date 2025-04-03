@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 722,
-  "Name": "Wehner Group",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "UdListDefinitionId": 26,
-  "Rank": 990
+  "Id": 926,
+  "Name": "Towne Inc and Sons",
+  "Tooltip": "impedit",
+  "Deleted": false,
+  "UdListDefinitionId": 783,
+  "Rank": 687
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 204,
-  "Name": "Kessler, Fahey and Roberts",
-  "Tooltip": "nostrum",
-  "Deleted": true,
-  "UdListDefinitionId": 158,
-  "Rank": 360,
+  "Id": 987,
+  "Name": "Champlin-Romaguera",
+  "Tooltip": "natus",
+  "Deleted": false,
+  "UdListDefinitionId": 740,
+  "Rank": 843,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 140
+      "FieldType": "System.Int32",
+      "FieldLength": 785
     }
   }
 }

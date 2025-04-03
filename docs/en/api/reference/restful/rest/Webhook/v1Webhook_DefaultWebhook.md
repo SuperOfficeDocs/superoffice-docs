@@ -71,7 +71,7 @@ OK
 GET /api/v1/Webhook/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 432,
-  "Name": "Marquardt Inc and Sons",
+  "WebhookId": 51,
+  "Name": "Ferry-Veum",
   "Events": [
-    "iusto",
-    "iure"
+    "eos",
+    "ducimus"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "et",
+  "Secret": "quia",
   "State": "Active",
-  "Type": "neque",
+  "Type": "ullam",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "expedita"
+    "Headers1": "est",
+    "Headers2": "sed"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2001-11-21T02:38:26.6362041+01:00",
+  "Registered": "2001-08-24T14:28:27.4457991+02:00",
   "RegisteredAssociate": null,
-  "Updated": "1997-11-30T02:38:26.6362041+01:00",
+  "Updated": "2001-08-16T14:28:27.4457991+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "daniela@raynor.us"
+  "ErrorsEmail": "oscar@spinkaoreilly.us"
 }
 ```

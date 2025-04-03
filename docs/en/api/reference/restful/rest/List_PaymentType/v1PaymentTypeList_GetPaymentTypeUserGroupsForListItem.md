@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 374,
-    "Name": "Adams Inc and Sons",
-    "ToolTip": "Aspernatur ut in laborum beatae beatae.",
+    "Id": 201,
+    "Name": "Von-Parisian",
+    "ToolTip": "In voluptatem at ullam.",
     "Deleted": true,
-    "Rank": 755,
-    "Type": "tenetur",
-    "ColorBlock": 620,
-    "IconHint": "et",
-    "Selected": false,
-    "LastChanged": "2015-10-09T02:38:26.8080217+02:00",
+    "Rank": 628,
+    "Type": "ea",
+    "ColorBlock": 88,
+    "IconHint": "labore",
+    "Selected": true,
+    "LastChanged": "2003-05-18T14:28:27.6020419+02:00",
     "ChildItems": [
       {
-        "Id": 327,
-        "Name": "Bins, Bahringer and Bernier",
-        "ToolTip": "Dolorem repellendus enim.",
+        "Id": 762,
+        "Name": "Jacobs-Rutherford",
+        "ToolTip": "Cumque ut delectus maiores omnis amet.",
         "Deleted": false,
-        "Rank": 682,
-        "Type": "iste",
-        "ColorBlock": 372,
-        "IconHint": "illum",
+        "Rank": 422,
+        "Type": "facere",
+        "ColorBlock": 920,
+        "IconHint": "corrupti",
         "Selected": false,
-        "LastChanged": "2016-05-02T02:38:26.8080217+02:00",
+        "LastChanged": "2002-12-25T14:28:27.6020419+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "aut",
+        "ExtraInfo": "possimus",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Josefa Morissette",
+        "FullName": "Dr. Garrison Fay",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 196
+            "FieldLength": 167
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "eos",
+    "ExtraInfo": "culpa",
+    "StyleHint": "quod",
     "Hidden": true,
-    "FullName": "Priscilla Bogisich",
+    "FullName": "Miss Gardner Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 789
+        "FieldType": "System.Int32",
+        "FieldLength": 537
       }
     }
   }

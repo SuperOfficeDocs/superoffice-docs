@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -135,11 +136,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 339,
-  "StartTime": "2010-01-02T02:38:20.557605+01:00",
-  "EndTime": "2023-06-20T02:38:20.557605+02:00",
-  "Count": 40,
-  "TaskId": 226
+  "ContactId": 774,
+  "StartTime": "2003-10-22T14:28:21.1491785+02:00",
+  "EndTime": "2002-09-06T14:28:21.1491785+02:00",
+  "Count": 857,
+  "TaskId": 986
 }
 ```
 
@@ -151,65 +152,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 927,
-    "StartDate": "2004-02-15T02:38:20.557605+01:00",
-    "EndDate": "1998-03-19T02:38:20.557605+01:00",
+    "AppointmentId": 599,
+    "StartDate": "2008-10-04T14:28:21.1491785+02:00",
+    "EndDate": "2006-05-22T14:28:21.1491785+02:00",
     "Type": "BookingForChecklist",
-    "Task": "omnis",
-    "AssociateFullName": "Mrs. Andres Emmalee Stiedemann MD",
-    "ContactName": "Cole-Hettinger",
-    "Description": "Intuitive heuristic hardware",
-    "PersonFullName": "William Lynch",
-    "PersonId": 653,
-    "ContactId": 316,
-    "ProjectId": 81,
-    "ProjectName": "Spinka, Renner and DuBuque",
+    "Task": "praesentium",
+    "AssociateFullName": "Claudia Rogahn",
+    "ContactName": "Roberts-Schumm",
+    "Description": "Polarised methodical orchestration",
+    "PersonFullName": "Kiara Carter",
+    "PersonId": 575,
+    "ContactId": 61,
+    "ProjectId": 181,
+    "ProjectName": "Heller, Nienow and Smitham",
     "IsPublished": false,
-    "AssociateId": 93,
-    "ColorIndex": 774,
-    "IsFree": false,
+    "AssociateId": 763,
+    "ColorIndex": 144,
+    "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 620,
-    "PriorityName": "Mueller, Greenholt and Hand",
+    "PriorityId": 340,
+    "PriorityName": "Von, Ankunding and Gleichner",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
+    "IsBookingMain": true,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2009-03-13T02:38:20.557605+01:00",
+    "IsBooking": true,
+    "ActiveDate": "2003-08-08T14:28:21.1491785+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2003-03-11T02:38:20.557605+01:00",
-    "RecurringEndDate": "2010-01-04T02:38:20.557605+01:00",
-    "MotherId": 625,
-    "AssignedBy": 197,
-    "AssignedByFullName": "Mr. D'angelo Hilpert V",
-    "RejectReason": "syndicate strategic relationships",
-    "Location": "molestias",
-    "AlarmLeadTime": "illum",
-    "SaleId": 671,
-    "SaleName": "Frami Inc and Sons",
-    "AssociateName": "Cremin-Schulist",
-    "CreatedDate": "2017-07-19T02:38:20.557605+02:00",
-    "CreatedBy": "quisquam",
-    "CreatedByFullName": "Natalia Gottlieb",
-    "CreatedByAssociateId": 973,
+    "RecurringStartDate": "2007-06-07T14:28:21.1491785+02:00",
+    "RecurringEndDate": "2018-09-12T14:28:21.1491785+02:00",
+    "MotherId": 945,
+    "AssignedBy": 950,
+    "AssignedByFullName": "Zackary Hegmann",
+    "RejectReason": "",
+    "Location": "velit",
+    "AlarmLeadTime": "praesentium",
+    "SaleId": 245,
+    "SaleName": "Lueilwitz-Jacobi",
+    "AssociateName": "Hintz, Altenwerth and Cruickshank",
+    "CreatedDate": "2002-11-07T14:28:21.1491785+01:00",
+    "CreatedBy": "qui",
+    "CreatedByFullName": "Mr. Jaunita Dooley PhD",
+    "CreatedByAssociateId": 212,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 12,
-    "Title": "qui",
-    "Agenda": "a",
-    "InternalNotes": "eius",
+    "PreferredTZLocation": 719,
+    "Title": "et",
+    "Agenda": "eos",
+    "InternalNotes": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 648
+        "FieldType": "System.String",
+        "FieldLength": 899
       }
     }
   }

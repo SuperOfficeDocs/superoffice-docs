@@ -68,7 +68,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Olson-Abbott",
-    "DisplayName": "Hauck Group",
-    "Description": "Inverse scalable initiative",
+    "FieldName": "Zemlak, Morissette and Vandervort",
+    "DisplayName": "Rodriguez, O'Connell and Simonis",
+    "Description": "Open-source 3rd generation website",
     "ShortLabel": "ad",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsMandatory": false,
+    "IsReadOnly": false,
     "IsExternal": true,
-    "IsDisplayField": false,
-    "Rank": 761,
-    "TemplateVariableName": "O'Hara, Rowe and Runolfsson"
+    "IsDisplayField": true,
+    "Rank": 907,
+    "TemplateVariableName": "Rogahn-Lemke"
   }
 ]
 ```

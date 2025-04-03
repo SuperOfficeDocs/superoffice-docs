@@ -101,7 +101,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 161
+  "Count": 31
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Herzog-Hegmann",
-    "SaleDate": "2023-01-28T02:38:21.8544876+01:00",
-    "SaleId": 258,
-    "Probability": 819,
-    "Title": "alias",
-    "Amount": 28262.412,
-    "Currency": "dolores",
-    "ProjectName": "Macejkovic-Waters",
-    "AssociateFullName": "Tia Kessler",
-    "Description": "Integrated cohesive encryption",
+    "ContactName": "Parker-Bartell",
+    "SaleDate": "2013-07-16T14:28:22.3678792+02:00",
+    "SaleId": 646,
+    "Probability": 457,
+    "Title": "sunt",
+    "Amount": 12119.178,
+    "Currency": "debitis",
+    "ProjectName": "Durgan-Fahey",
+    "AssociateFullName": "Vita Miller",
+    "Description": "Universal leading edge hardware",
     "Status": "Lost",
-    "WeightedAmount": 6443.504,
-    "ProjectId": 202,
-    "EarningPercent": 4140.014,
-    "Earning": 3369.0499999999997,
-    "ContactId": 216,
-    "AssociateId": 626,
-    "PersonId": 621,
-    "SaleTypeId": 36,
-    "SaleTypeName": "Welch-Hilll",
-    "PersonFullName": "Ms. Cleta Armando Osinski DVM",
+    "WeightedAmount": 17735.306,
+    "ProjectId": 859,
+    "EarningPercent": 7502.7959999999994,
+    "Earning": 17597.41,
+    "ContactId": 418,
+    "AssociateId": 584,
+    "PersonId": 341,
+    "SaleTypeId": 200,
+    "SaleTypeName": "Block, Goyette and Ryan",
+    "PersonFullName": "Christina White",
     "Completed": "Completed",
-    "ActiveErpLinks": 234,
-    "NextDueDate": "2022-08-05T02:38:21.8544876+02:00",
-    "Number": "1846612",
+    "ActiveErpLinks": 895,
+    "NextDueDate": "2011-10-28T14:28:22.3678792+02:00",
+    "Number": "1209668",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 508
+        "FieldType": "System.Int32",
+        "FieldLength": 691
       }
     }
   }

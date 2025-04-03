@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 641,
-    "LCID": 783,
-    "EnglishName": "Romaguera, Kiehn and Abshire",
-    "NativeName": "Russel-Grant",
-    "ThreeLetterISOLanguageName": "Kutch-Nitzsche",
-    "TwoLetterISOLanguageName": "Morissette LLC",
+    "LanguageInfoId": 514,
+    "LCID": 192,
+    "EnglishName": "Littel-Labadie",
+    "NativeName": "Lueilwitz-Sanford",
+    "ThreeLetterISOLanguageName": "Hickle-Satterfield",
+    "TwoLetterISOLanguageName": "Waelchi-Jast",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 499
+        "FieldLength": 951
       }
     }
   }

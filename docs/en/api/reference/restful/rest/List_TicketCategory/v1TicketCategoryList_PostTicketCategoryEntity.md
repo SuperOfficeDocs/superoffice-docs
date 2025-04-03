@@ -99,33 +99,33 @@ OK
 POST /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 785,
-  "ParentId": 658,
-  "Name": "Walter Group",
-  "Fullname": "aliquam",
-  "CategoryMaster": 867,
+  "TicketCategoryId": 272,
+  "ParentId": 278,
+  "Name": "Howe, Legros and Greenholt",
+  "Fullname": "eligendi",
+  "CategoryMaster": 389,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Prosacco, Conn and Beatty",
+  "ExternalName": "Koelpin, Gleichner and Nicolas",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 297,
-  "ReplyTemplate": 676,
-  "NotificationEmail": "evangeline.osinski@tromp.ca",
+  "AssignmentLag": 550,
+  "ReplyTemplate": 718,
+  "NotificationEmail": "cordie@johns.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 576,
+  "EffectiveReplyTemplateId": 780,
   "ExtraFields": {
-    "ExtraFields1": "ut",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "nulla",
+    "ExtraFields2": "placeat"
   },
   "CustomFields": {
-    "CustomFields1": "dolore",
-    "CustomFields2": "aliquam"
+    "CustomFields1": "eos",
+    "CustomFields2": "iste"
   }
 }
 ```
@@ -137,36 +137,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 196,
-  "ParentId": 520,
-  "Name": "Raynor, Zulauf and Wiegand",
-  "Fullname": "quo",
-  "CategoryMaster": 372,
+  "TicketCategoryId": 747,
+  "ParentId": 647,
+  "Name": "Schneider, Herman and Mueller",
+  "Fullname": "dolor",
+  "CategoryMaster": 26,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Pfannerstill LLC",
+  "ExternalName": "Lemke-Ortiz",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 415,
-  "ReplyTemplate": 346,
-  "NotificationEmail": "favian_armstrong@dickens.biz",
+  "AssignmentLag": 151,
+  "ReplyTemplate": 156,
+  "NotificationEmail": "dangelo@lehner.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 575,
+  "EffectiveReplyTemplateId": 415,
   "ExtraFields": {
-    "ExtraFields1": "doloremque",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "recusandae",
+    "ExtraFields2": "sunt"
   },
   "CustomFields": {
-    "CustomFields1": "quibusdam",
-    "CustomFields2": "et"
+    "CustomFields1": "odio",
+    "CustomFields2": "error"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldLength": 873
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonSold
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 468,
-  "Name": "Klein, Wunsch and Jerde",
+  "Id": 184,
+  "Name": "Ullrich, Stroman and Bernhard",
   "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 263,
-  "IsCustomList": true,
+  "Deleted": false,
+  "Rank": 921,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "minus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 978,
-  "Name": "Cremin Inc and Sons",
-  "Tooltip": "dolore",
+  "Id": 905,
+  "Name": "Thompson, Gleason and Koss",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 693,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quos",
+  "Rank": 852,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "adipisci",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 189
+      "FieldLength": 660
     }
   }
 }

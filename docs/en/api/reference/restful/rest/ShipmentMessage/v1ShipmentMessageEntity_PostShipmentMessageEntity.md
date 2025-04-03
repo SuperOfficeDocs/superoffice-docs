@@ -120,27 +120,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 337,
-  "PlainMessage": "esse",
-  "HtmlMessage": "commodi",
-  "SmsMessage": "cupiditate",
-  "Description": "Realigned zero tolerance attitude",
-  "Subject": "voluptatum",
-  "FolderId": 544,
-  "HeaderField": "atque",
-  "Design": "et",
+  "ShipmentMessageId": 486,
+  "PlainMessage": "ipsum",
+  "HtmlMessage": "numquam",
+  "SmsMessage": "animi",
+  "Description": "Reduced executive initiative",
+  "Subject": "doloremque",
+  "FolderId": 937,
+  "HeaderField": "dolorem",
+  "Design": "dolorum",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Innovative transitional success",
-  "AccessKey": "aliquid",
-  "DocumentMessage": 524,
-  "Registered": "2019-01-06T02:38:26.4172802+01:00",
-  "RegisteredAssociateId": 777,
-  "Updated": "2008-11-10T02:38:26.4172802+01:00",
-  "UpdatedAssociateId": 148,
-  "UpdatedCount": 616
+  "InlineImages": true,
+  "LongDescription": "Enterprise-wide upward-trending secured line",
+  "AccessKey": "esse",
+  "DocumentMessage": 38,
+  "Registered": "2008-08-02T14:28:27.2583066+02:00",
+  "RegisteredAssociateId": 357,
+  "Updated": "2022-06-07T14:28:27.2583066+02:00",
+  "UpdatedAssociateId": 420,
+  "UpdatedCount": 696
 }
 ```
 
@@ -151,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 262,
-  "PlainMessage": "voluptatem",
-  "HtmlMessage": "quos",
-  "SmsMessage": "repellendus",
-  "Description": "Self-enabling 3rd generation support",
-  "Subject": "et",
-  "FolderId": 67,
-  "HeaderField": "perspiciatis",
-  "Design": "quam",
+  "ShipmentMessageId": 966,
+  "PlainMessage": "quo",
+  "HtmlMessage": "ut",
+  "SmsMessage": "veniam",
+  "Description": "Stand-alone empowering conglomeration",
+  "Subject": "consequuntur",
+  "FolderId": 327,
+  "HeaderField": "quia",
+  "Design": "doloribus",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Fully-configurable grid-enabled monitoring",
-  "AccessKey": "maxime",
-  "DocumentMessage": 135,
-  "Registered": "2007-06-27T02:38:26.4172802+02:00",
-  "RegisteredAssociateId": 632,
-  "Updated": "2010-11-06T02:38:26.4172802+01:00",
-  "UpdatedAssociateId": 370,
-  "UpdatedCount": 406,
+  "LongDescription": "Configurable analyzing matrix",
+  "AccessKey": "quae",
+  "DocumentMessage": 371,
+  "Registered": "2023-10-26T14:28:27.2583066+02:00",
+  "RegisteredAssociateId": 257,
+  "Updated": "2013-01-14T14:28:27.2583066+01:00",
+  "UpdatedAssociateId": 639,
+  "UpdatedCount": 996,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldLength": 86
     }
   },
   "_Links": {

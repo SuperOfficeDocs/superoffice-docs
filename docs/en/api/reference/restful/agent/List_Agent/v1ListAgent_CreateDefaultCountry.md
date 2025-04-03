@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 162,
-  "Name": "Gerhold Group",
-  "CurrencyId": 821,
-  "EnglishName": "Ledner-Hermiston",
+  "CountryId": 355,
+  "Name": "Reilly-Goldner",
+  "CurrencyId": 509,
+  "EnglishName": "Von LLC",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Networked next generation benchmark",
-  "OrgNrText": "853967",
-  "InterAreaPrefix": "quia",
-  "DialInPrefix": "occaecati",
-  "ZipPrefix": "est",
-  "DomainName": "Kuhlman Inc and Sons",
-  "AddressLayoutId": 557,
-  "DomesticAddressLayoutId": 736,
-  "ForeignAddressLayoutId": 991,
-  "Rank": 319,
-  "Tooltip": "a",
+  "ImageDescription": "Vision-oriented coherent ability",
+  "OrgNrText": "1272948",
+  "InterAreaPrefix": "sint",
+  "DialInPrefix": "molestias",
+  "ZipPrefix": "neque",
+  "DomainName": "Keebler-Tremblay",
+  "AddressLayoutId": 893,
+  "DomesticAddressLayoutId": 425,
+  "ForeignAddressLayoutId": 685,
+  "Rank": 327,
+  "Tooltip": "dolor",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 765
+      "FieldLength": 412
     }
   }
 }

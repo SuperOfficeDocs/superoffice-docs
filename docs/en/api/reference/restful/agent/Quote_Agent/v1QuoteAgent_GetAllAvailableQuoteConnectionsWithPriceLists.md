@@ -92,54 +92,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 140,
-    "ERPName": "Dare-Thompson",
-    "DisplayName": "Schowalter-Lowe",
-    "DisplayDescription": "Reverse-engineered well-modulated local area network",
-    "Rank": 635,
-    "ConnectorName": "Wiegand, Kozey and Abshire",
-    "ErpConnectionId": 470,
-    "ExtraData": "quisquam",
+    "QuoteConnectionId": 239,
+    "ERPName": "Gleichner, Simonis and Denesik",
+    "DisplayName": "Smith LLC",
+    "DisplayDescription": "Devolved user-facing customer loyalty",
+    "Rank": 611,
+    "ConnectorName": "Quigley, Marks and Hills",
+    "ErpConnectionId": 432,
+    "ExtraData": "non",
     "IsAvailable": false,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 866,
-        "ERPPriceListKey": "at",
-        "QuoteConnectionId": 6,
-        "Name": "Sawayn-Waelchi",
-        "Description": "Ameliorated logistical info-mediaries",
-        "Currency": "recusandae",
-        "CurrencyName": "Gulgowski Group",
-        "ValidFrom": "2020-03-23T02:38:21.7763357+01:00",
-        "ValidTo": "2012-03-26T02:38:21.7763357+02:00",
+        "PriceListId": 762,
+        "ERPPriceListKey": "ullam",
+        "QuoteConnectionId": 806,
+        "Name": "Bergstrom, Larkin and Stanton",
+        "Description": "Multi-channelled radical access",
+        "Currency": "laudantium",
+        "CurrencyName": "Dicki LLC",
+        "ValidFrom": "2013-10-28T14:28:22.3053817+01:00",
+        "ValidTo": "2022-02-03T14:28:22.3053817+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 823
+            "FieldType": "System.String",
+            "FieldLength": 718
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      316,
-      887
+      774,
+      136
     ],
     "AssociateAccessIds": [
-      709,
-      931
+      955,
+      482
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 342
       }
     }
   }

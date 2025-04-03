@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/EMail/GetEmailMessageIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,6 +86,6 @@ Content-Type: application/json; charset=utf-8
 
 [
   "blanditiis",
-  "aut"
+  "quisquam"
 ]
 ```

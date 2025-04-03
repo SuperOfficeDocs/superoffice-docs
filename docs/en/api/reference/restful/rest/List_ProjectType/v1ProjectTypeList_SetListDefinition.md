@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 921,
-  "Name": "Runolfsson, Zemlak and Pagac",
-  "Tooltip": "cum",
+  "Id": 586,
+  "Name": "Erdman-Treutel",
+  "Tooltip": "voluptatem",
   "Deleted": false,
-  "Rank": 353,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 532,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
-  "InUseByUserDefinedFields": true
+  "ListType": "eum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 96,
-  "Name": "Hamill, Ortiz and Stanton",
-  "Tooltip": "consequuntur",
-  "Deleted": true,
-  "Rank": 938,
+  "Id": 144,
+  "Name": "Kuhlman LLC",
+  "Tooltip": "voluptate",
+  "Deleted": false,
+  "Rank": 748,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
+  "UseGroupsAndHeadings": false,
+  "ListType": "exercitationem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 815
+      "FieldLength": 664
     }
   }
 }

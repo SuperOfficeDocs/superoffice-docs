@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 14,
-    "Name": "Bechtelar, Lesch and Ortiz",
-    "ToolTip": "Quo ab sit illum.",
+    "Id": 283,
+    "Name": "Reichert-Predovic",
+    "ToolTip": "Iusto sed voluptatum minima.",
     "Deleted": false,
-    "Rank": 173,
-    "Type": "qui",
-    "ColorBlock": 320,
-    "IconHint": "tempora",
+    "Rank": 351,
+    "Type": "nihil",
+    "ColorBlock": 901,
+    "IconHint": "quaerat",
     "Selected": false,
-    "LastChanged": "2023-07-09T02:38:26.7923976+02:00",
+    "LastChanged": "2011-03-23T14:28:27.5864176+01:00",
     "ChildItems": [
       {
-        "Id": 921,
-        "Name": "Lemke Group",
-        "ToolTip": "Nemo non corrupti.",
+        "Id": 272,
+        "Name": "Thompson-Dietrich",
+        "ToolTip": "Est similique voluptas nihil labore.",
         "Deleted": true,
-        "Rank": 412,
-        "Type": "quo",
-        "ColorBlock": 355,
-        "IconHint": "nulla",
+        "Rank": 32,
+        "Type": "nobis",
+        "ColorBlock": 379,
+        "IconHint": "ut",
         "Selected": true,
-        "LastChanged": "2024-10-30T02:38:26.7923976+01:00",
+        "LastChanged": "2017-05-27T14:28:27.5864176+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "sit",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "aut",
         "Hidden": true,
-        "FullName": "Mr. Jackson Jazmyne Huel",
+        "FullName": "Vida Gutmann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 105
+            "FieldType": "System.Int32",
+            "FieldLength": 314
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "dolores",
+    "StyleHint": "in",
     "Hidden": true,
-    "FullName": "Mazie Dietrich",
+    "FullName": "Alexandra Rice",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 718
+        "FieldType": "System.Int32",
+        "FieldLength": 308
       }
     }
   }

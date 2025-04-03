@@ -106,73 +106,73 @@ Content-Type: application/json; charset=utf-8
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": true,
-    "Key": "perspiciatis",
-    "ValueType": "facilis",
-    "Mandatory": true,
-    "EncodedDisplayName": "Spinka Group",
-    "EncodedDisplayDescription": "Organic 24 hour encryption",
-    "IconHint": "doloremque",
+    "IsActive": false,
+    "Key": "quo",
+    "ValueType": "corrupti",
+    "Mandatory": false,
+    "EncodedDisplayName": "Gutmann, Connelly and Legros",
+    "EncodedDisplayDescription": "Monitored didactic collaboration",
+    "IconHint": "hic",
     "ControlInfos": [
       {
-        "Type": "quidem",
-        "Label": "quidem",
-        "Dimension": 538,
-        "ListProviderName": "Nader-Roberts",
-        "ListProviderExtraInfo": "natus",
-        "ListProviderPrimaryKeyName": "Langosh, Mraz and Tillman",
-        "ListLeadText": "ut",
+        "Type": "quis",
+        "Label": "dolorem",
+        "Dimension": 775,
+        "ListProviderName": "Stehr Inc and Sons",
+        "ListProviderExtraInfo": "rem",
+        "ListProviderPrimaryKeyName": "Kutch-Hessel",
+        "ListLeadText": "excepturi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 226
+            "FieldLength": 120
           }
         }
       }
     ],
-    "EncodedDataCaption": "qui",
-    "EncodedDataCaptionDescription": "Adaptive global instruction set",
-    "CurrentOperationType": "ut",
+    "EncodedDataCaption": "voluptatibus",
+    "EncodedDataCaptionDescription": "Ameliorated holistic middleware",
+    "CurrentOperationType": "quasi",
     "Values": [
-      "ea",
-      "maiores"
+      "sint",
+      "animi"
     ],
     "DisplayValues": [
-      "reprehenderit",
-      "cum"
+      "aut",
+      "molestiae"
     ],
     "OperationInfos": [
       {
-        "Key": "cumque",
-        "EncodedDisplayName": "Barrows Inc and Sons",
+        "Key": "adipisci",
+        "EncodedDisplayName": "Mueller-Lockman",
         "EncodedLeadTexts": [
-          "maiores",
-          "accusamus"
+          "non",
+          "non"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 264
+            "FieldLength": 445
           }
         }
       },
       {
-        "Key": "cumque",
-        "EncodedDisplayName": "Barrows Inc and Sons",
+        "Key": "adipisci",
+        "EncodedDisplayName": "Mueller-Lockman",
         "EncodedLeadTexts": [
-          "maiores",
-          "accusamus"
+          "non",
+          "non"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 264
+            "FieldLength": 445
           }
         }
       }

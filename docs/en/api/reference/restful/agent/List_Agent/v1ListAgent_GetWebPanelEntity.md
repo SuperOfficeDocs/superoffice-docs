@@ -26,7 +26,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=137
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=390
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -98,26 +98,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 447,
-  "Name": "Reichel-Dietrich",
-  "Tooltip": "exercitationem",
+  "WebPanelId": 759,
+  "Name": "Orn-Wiegand",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "Rank": 891,
+  "Rank": 126,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Bartoletti-Larkin",
+  "WindowName": "Abernathy-Trantow",
   "Url": "http://www.example.com/",
-  "ProgId": "consectetur",
-  "Icon": 652,
+  "ProgId": "saepe",
+  "Icon": 567,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -125,7 +125,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 14
+      "FieldLength": 796
     }
   }
 }

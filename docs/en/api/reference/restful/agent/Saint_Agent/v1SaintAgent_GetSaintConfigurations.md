@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Saint/GetSaintConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,20 +83,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 28,
+    "OwnerTable": 936,
     "Enabled": false,
-    "Period1": 709,
-    "Period2": 913,
-    "Period3": 132,
-    "GenerationStart": "2002-06-01T02:38:21.8076201+02:00",
-    "GenerationEnd": "2003-01-19T02:38:21.8076201+01:00",
-    "RowsGenerated": 169,
+    "Period1": 398,
+    "Period2": 909,
+    "Period3": 844,
+    "GenerationStart": "2011-07-22T14:28:22.3366302+02:00",
+    "GenerationEnd": "2015-09-16T14:28:22.3366302+02:00",
+    "RowsGenerated": 874,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 346
+        "FieldType": "System.Int32",
+        "FieldLength": 223
       }
     }
   }

@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 969,
-  "Name": "Greenfelder-Dare",
-  "CreatedDate": "2014-04-15T02:38:26.1204323+02:00",
-  "UpdatedDate": "2007-04-22T02:38:26.1204323+02:00",
-  "AssociateFullName": "Jeff Lowe",
-  "CreatedBy": "perferendis",
-  "UpdatedBy": "aliquam",
-  "DeviceIdentifier": "quia",
-  "ForeignAppId": 279
+  "ForeignDeviceId": 57,
+  "Name": "Koepp-Emard",
+  "CreatedDate": "2014-04-10T14:28:26.9458186+02:00",
+  "UpdatedDate": "2007-06-12T14:28:26.9458186+02:00",
+  "AssociateFullName": "Marjolaine Langworth",
+  "CreatedBy": "et",
+  "UpdatedBy": "fuga",
+  "DeviceIdentifier": "sunt",
+  "ForeignAppId": 730
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 341,
-  "Name": "O'Conner-Satterfield",
-  "CreatedDate": "2001-06-17T02:38:26.1204323+02:00",
-  "UpdatedDate": "1999-11-04T02:38:26.1204323+01:00",
-  "AssociateFullName": "Berry Runte IV",
-  "CreatedBy": "ut",
-  "UpdatedBy": "veniam",
-  "DeviceIdentifier": "recusandae",
-  "ForeignAppId": 81,
+  "ForeignDeviceId": 147,
+  "Name": "Crist LLC",
+  "CreatedDate": "2013-11-06T14:28:26.9458186+01:00",
+  "UpdatedDate": "2011-09-02T14:28:26.9458186+02:00",
+  "AssociateFullName": "Prof. Jadon Rath",
+  "CreatedBy": "molestias",
+  "UpdatedBy": "natus",
+  "DeviceIdentifier": "modi",
+  "ForeignAppId": 286,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 512
+      "FieldType": "System.String",
+      "FieldLength": 353
     }
   }
 }

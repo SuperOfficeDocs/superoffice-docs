@@ -75,7 +75,7 @@ OK
 GET /api/v1/SaleStakeholder/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Schamberger-Klocko",
-  "Comment": "aliquam",
-  "StakeholderRoleId": 305,
-  "CountryId": 627,
-  "PersonId": 182,
-  "EmailDescription": "mathilde.schiller@gutkowski.uk",
-  "EmailId": 699,
-  "EmailAddress": "dalton@bruen.ca",
-  "PhoneId": 6,
-  "ContactName": "Eichmann-Thompson",
-  "ContactId": 68,
-  "SaleId": 415,
-  "Mrmrs": "sed",
-  "Firstname": "Ruthe",
-  "MiddleName": "Wolff-Gleichner",
-  "Lastname": "Stanton",
-  "SaleStakeholderId": 759,
-  "Rank": 166,
-  "Phone": "1-242-864-3856",
+  "StakeholderRoleName": "Yost, Hills and Corkery",
+  "Comment": "et",
+  "StakeholderRoleId": 177,
+  "CountryId": 532,
+  "PersonId": 163,
+  "EmailDescription": "brayan@mraz.biz",
+  "EmailId": 593,
+  "EmailAddress": "allan.pagac@conroy.com",
+  "PhoneId": 118,
+  "ContactName": "Langosh Inc and Sons",
+  "ContactId": 813,
+  "SaleId": 631,
+  "Mrmrs": "atque",
+  "Firstname": "Lauren",
+  "MiddleName": "Howell-Green",
+  "Lastname": "Wiegand",
+  "SaleStakeholderId": 385,
+  "Rank": 390,
+  "Phone": "1-512-749-8372 x2015",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 888
+      "FieldType": "System.Int32",
+      "FieldLength": 725
     }
   }
 }

@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -135,11 +136,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 929,
-  "StartTime": "1999-03-05T02:38:20.5419831+01:00",
-  "EndTime": "2007-09-17T02:38:20.5419831+02:00",
-  "Count": 140,
-  "TaskId": 442
+  "ProjectId": 379,
+  "StartTime": "2011-02-03T14:28:21.1491785+01:00",
+  "EndTime": "2011-12-02T14:28:21.1491785+01:00",
+  "Count": 98,
+  "TaskId": 909
 }
 ```
 
@@ -151,65 +152,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 972,
-    "StartDate": "2019-10-29T02:38:20.5419831+01:00",
-    "EndDate": "2020-11-27T02:38:20.5419831+01:00",
+    "AppointmentId": 286,
+    "StartDate": "2018-02-06T14:28:21.1491785+01:00",
+    "EndDate": "2015-12-11T14:28:21.1491785+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ab",
-    "AssociateFullName": "Fay Feest",
-    "ContactName": "Hermiston-Hermiston",
-    "Description": "Multi-channelled 5th generation budgetary management",
-    "PersonFullName": "Dr. Khalil Valerie Mueller",
-    "PersonId": 808,
-    "ContactId": 211,
-    "ProjectId": 165,
-    "ProjectName": "Harris-Koss",
-    "IsPublished": true,
-    "AssociateId": 323,
-    "ColorIndex": 435,
+    "Task": "voluptatum",
+    "AssociateFullName": "Belle Carroll",
+    "ContactName": "Stoltenberg, Satterfield and Sawayn",
+    "Description": "Automated secondary project",
+    "PersonFullName": "Terrill Gleichner I",
+    "PersonId": 317,
+    "ContactId": 352,
+    "ProjectId": 764,
+    "ProjectName": "Reichert, Feeney and Parker",
+    "IsPublished": false,
+    "AssociateId": 231,
+    "ColorIndex": 508,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 929,
-    "PriorityName": "Reynolds Group",
+    "PriorityId": 134,
+    "PriorityName": "Ankunding-Crona",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": true,
-    "IsBooking": false,
-    "ActiveDate": "2019-04-02T02:38:20.557605+02:00",
+    "IsBookingMain": false,
+    "IsRecurrence": false,
+    "IsBooking": true,
+    "ActiveDate": "2003-02-09T14:28:21.1491785+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2005-03-13T02:38:20.557605+01:00",
-    "RecurringEndDate": "2016-10-09T02:38:20.557605+02:00",
-    "MotherId": 260,
-    "AssignedBy": 189,
-    "AssignedByFullName": "Amparo Evelyn Stoltenberg IV",
+    "RecurringStartDate": "2019-11-18T14:28:21.1491785+01:00",
+    "RecurringEndDate": "1998-10-20T14:28:21.1491785+02:00",
+    "MotherId": 358,
+    "AssignedBy": 852,
+    "AssignedByFullName": "Mr. Alena Melyssa Jakubowski",
     "RejectReason": "",
-    "Location": "aut",
-    "AlarmLeadTime": "tempore",
-    "SaleId": 746,
-    "SaleName": "Sanford-Hamill",
-    "AssociateName": "Koss, Abbott and Boehm",
-    "CreatedDate": "2014-10-03T02:38:20.557605+02:00",
-    "CreatedBy": "omnis",
-    "CreatedByFullName": "Americo Lowe",
-    "CreatedByAssociateId": 497,
+    "Location": "et",
+    "AlarmLeadTime": "perferendis",
+    "SaleId": 412,
+    "SaleName": "Kihn-Schinner",
+    "AssociateName": "Padberg-Hintz",
+    "CreatedDate": "2003-03-16T14:28:21.1491785+01:00",
+    "CreatedBy": "nam",
+    "CreatedByFullName": "Odie Yvette Marquardt DVM",
+    "CreatedByAssociateId": 822,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 832,
-    "Title": "nam",
-    "Agenda": "minus",
-    "InternalNotes": "voluptas",
+    "PreferredTZLocation": 949,
+    "Title": "molestias",
+    "Agenda": "sed",
+    "InternalNotes": "vel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 265
+        "FieldLength": 914
       }
     }
   }

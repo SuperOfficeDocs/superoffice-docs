@@ -91,16 +91,16 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 991,
-  "Name": "Sporer-Gorczany",
-  "Tooltip": "ducimus",
+  "RoleId": 689,
+  "Name": "McLaughlin-Connelly",
+  "Tooltip": "fugit",
   "RoleType": "Anonymous",
-  "Deleted": 660,
-  "Rank": 355,
-  "Created": "2024-02-05T02:38:22.1825743+01:00",
-  "UseCategories": 816,
+  "Deleted": 921,
+  "Rank": 455,
+  "Created": "2003-02-20T14:28:22.6803663+01:00",
+  "UseCategories": 410,
   "CreatedBy": null,
-  "Updated": "2011-10-26T02:38:22.1825743+02:00",
+  "Updated": "2009-02-27T14:28:22.6803663+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 67,
-  "Name": "Towne, Russel and Windler",
-  "Tooltip": "possimus",
+  "RoleId": 711,
+  "Name": "Wiza, D'Amore and Fay",
+  "Tooltip": "inventore",
   "RoleType": "Anonymous",
-  "Deleted": 852,
-  "Rank": 540,
-  "Created": "2017-12-23T02:38:22.1825743+01:00",
-  "UseCategories": 887,
+  "Deleted": 156,
+  "Rank": 91,
+  "Created": "2000-04-12T14:28:22.6803663+02:00",
+  "UseCategories": 272,
   "CreatedBy": null,
-  "Updated": "2005-09-07T02:38:22.1825743+02:00",
+  "Updated": "1997-12-04T14:28:22.6803663+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldType": "System.String",
+      "FieldLength": 39
     }
   }
 }

@@ -110,33 +110,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 866,
-  "CustomerCustomerReplyTemplateId": 257,
-  "CustomerPasswordTemplateId": 15,
-  "CustomerConfirmEmailTemplateId": 58,
-  "CustomerChatLogTemplateId": 574,
-  "NewLinkTemplateId": 683,
-  "HotlistNewMessageTemplateId": 35,
-  "HotlistTicketActivatedTemplateId": 724,
-  "UserTicketAlarmTemplateId": 404,
-  "HotlistTicketTakenOverTemplateId": 464,
-  "UserActiveTicketsTemplateId": 606,
-  "UserNewMessageTemplateId": 127,
-  "UserTicketActivatedTemplateId": 122,
-  "UserNewTicketTemplateId": 899,
-  "PublishKbQuestionTemplateId": 680,
-  "PublishKbAnswerTemplateId": 107,
-  "UserTicketTakenOverTemplateId": 883,
-  "PrintTicketTemplateId": 182,
-  "WeekStatTemplateId": 993,
-  "TicketAlarmHotlistTemplateId": 606,
-  "EmailAddresses": "ryan@cronin.us",
+  "CustomerNewCustomerTemplateId": 794,
+  "CustomerCustomerReplyTemplateId": 422,
+  "CustomerPasswordTemplateId": 741,
+  "CustomerConfirmEmailTemplateId": 945,
+  "CustomerChatLogTemplateId": 369,
+  "NewLinkTemplateId": 512,
+  "HotlistNewMessageTemplateId": 334,
+  "HotlistTicketActivatedTemplateId": 543,
+  "UserTicketAlarmTemplateId": 287,
+  "HotlistTicketTakenOverTemplateId": 956,
+  "UserActiveTicketsTemplateId": 227,
+  "UserNewMessageTemplateId": 958,
+  "UserTicketActivatedTemplateId": 751,
+  "UserNewTicketTemplateId": 264,
+  "PublishKbQuestionTemplateId": 707,
+  "PublishKbAnswerTemplateId": 267,
+  "UserTicketTakenOverTemplateId": 770,
+  "PrintTicketTemplateId": 559,
+  "WeekStatTemplateId": 699,
+  "TicketAlarmHotlistTemplateId": 965,
+  "EmailAddresses": "mazie@hegmann.info",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 844
+      "FieldLength": 385
     }
   }
 }

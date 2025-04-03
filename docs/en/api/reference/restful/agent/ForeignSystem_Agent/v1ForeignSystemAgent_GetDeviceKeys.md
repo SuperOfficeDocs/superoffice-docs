@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Treutel, Balistreri and West",
-  "DeviceName": "Tremblay, O'Reilly and Kreiger"
+  "ApplicationName": "West-Powlowski",
+  "DeviceName": "Langworth-Dibbert"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "in",
-    "Value": "ipsum",
-    "RecordId": 211,
-    "CreatedDate": "2018-03-10T02:38:21.4639053+01:00",
-    "UpdatedDate": "2020-11-10T02:38:21.4639053+01:00",
-    "UpdatedBy": "neque",
-    "CreatedBy": "placeat",
-    "TableName": "Lind, Hirthe and Bins",
+    "Key": "fugiat",
+    "Value": "pariatur",
+    "RecordId": 49,
+    "CreatedDate": "2005-12-25T14:28:22.0241429+01:00",
+    "UpdatedDate": "2000-04-15T14:28:22.0241429+02:00",
+    "UpdatedBy": "beatae",
+    "CreatedBy": "veniam",
+    "TableName": "Kessler Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 574
+        "FieldType": "System.String",
+        "FieldLength": 724
       }
     }
   }

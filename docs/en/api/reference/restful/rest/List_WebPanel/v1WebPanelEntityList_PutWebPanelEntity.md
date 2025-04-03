@@ -112,30 +112,30 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 568,
-  "Name": "Parisian-Boehm",
-  "Tooltip": "nesciunt",
+  "WebPanelId": 189,
+  "Name": "Kreiger-Schowalter",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 529,
+  "Rank": 665,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Buckridge Inc and Sons",
+  "WindowName": "Lindgren, Mayer and Douglas",
   "Url": "http://www.example.com/",
-  "ProgId": "rerum",
-  "Icon": 92,
+  "ProgId": "nobis",
+  "Icon": 147,
   "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false
 }
@@ -148,34 +148,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 73,
-  "Name": "Bauch Group",
-  "Tooltip": "consequuntur",
-  "Deleted": true,
-  "Rank": 45,
+  "WebPanelId": 924,
+  "Name": "Reilly-Botsford",
+  "Tooltip": "est",
+  "Deleted": false,
+  "Rank": 592,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnCentral": true,
+  "OnSatellite": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Deckow, Davis and Macejkovic",
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Sauer-Considine",
   "Url": "http://www.example.com/",
-  "ProgId": "impedit",
-  "Icon": 53,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "ProgId": "accusantium",
+  "Icon": 577,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 756
     }
   }
 }

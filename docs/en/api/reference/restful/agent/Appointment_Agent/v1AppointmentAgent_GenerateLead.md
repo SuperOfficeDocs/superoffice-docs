@@ -92,18 +92,18 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 569,
-  "LeadDescription": "De-engineered tertiary frame",
-  "Relation": "necessitatibus",
-  "RelationId": 732,
-  "LeadContact": "quae",
-  "LeadPersonFirstname": "Aurore",
-  "LeadPersonLastname": "Feil",
-  "LeadPersonEmail": "harmony@dickens.info",
-  "LeadPhoneNumber": "487895",
-  "CreatorsContact": "atque",
-  "CreatorsFirstname": "Cassandre",
-  "CreatorsLastname": "Quigley"
+  "AssociateIdForNewContact": 728,
+  "LeadDescription": "Triple-buffered responsive functionalities",
+  "Relation": "excepturi",
+  "RelationId": 262,
+  "LeadContact": "quas",
+  "LeadPersonFirstname": "Carey",
+  "LeadPersonLastname": "Wilderman",
+  "LeadPersonEmail": "elbert.hammes@wiegand.name",
+  "LeadPhoneNumber": "975035",
+  "CreatorsContact": "distinctio",
+  "CreatorsFirstname": "Destin",
+  "CreatorsLastname": "Block"
 }
 ```
 
@@ -116,36 +116,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 843,
-      "Name": "Jerde, Boyer and Lynch",
-      "OrgNr": "617199",
+      "ContactId": 11,
+      "Name": "Rolfson-Streich",
+      "OrgNr": "950860",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "eius",
-      "DirectPhone": "277-240-8849 x505",
-      "AssociateId": 248,
-      "CountryId": 7,
-      "EmailAddress": "ethelyn.moore@frami.info",
-      "Kananame": "ullam",
-      "EmailAddressName": "janie@buckridge.us",
+      "City": "consequatur",
+      "DirectPhone": "1-487-081-0499 x27107",
+      "AssociateId": 798,
+      "CountryId": 666,
+      "EmailAddress": "annamae_bailey@wittingemmerich.uk",
+      "Kananame": "deserunt",
+      "EmailAddressName": "marge@dooley.name",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Talia Welch",
+      "AssociateFullName": "Dr. Kieran Richie Collier",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "sit",
-      "FullName": "Brad Mayer",
+      "FormattedAddress": "ea",
+      "FullName": "Dudley Swaniawski",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 583,
-      "Number1": "1440117",
-      "Number2": "451190",
+      "ActiveErpLinks": 87,
+      "Number1": "691841",
+      "Number2": "1374422",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 15
+          "FieldLength": 379
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldType": "System.Int32",
+      "FieldLength": 220
     }
   }
 }

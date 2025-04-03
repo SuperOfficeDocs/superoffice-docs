@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 372,
-  "Name": "Oberbrunner Inc and Sons",
-  "Tooltip": "ea",
+  "Id": 17,
+  "Name": "Gorczany Group",
+  "Tooltip": "in",
   "Deleted": false,
-  "Rank": 939,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 45,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
+  "ListType": "nulla",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 492,
-  "Name": "Ritchie-Lynch",
-  "Tooltip": "molestiae",
+  "Id": 534,
+  "Name": "Rau LLC",
+  "Tooltip": "magnam",
   "Deleted": true,
-  "Rank": 751,
+  "Rank": 326,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quidem",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sed",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 4
+      "FieldLength": 441
     }
   }
 }

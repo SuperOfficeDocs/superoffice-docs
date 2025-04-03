@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 894,
-    "Name": "Koepp-Paucek",
-    "Tooltip": "sed",
-    "Rank": 12,
+    "SaleTypeId": 317,
+    "Name": "Grant-Weimann",
+    "Tooltip": "facere",
+    "Rank": 885,
     "DurationUnit": "Century",
-    "SaleDuration": 219,
-    "SaleTypeCatId": 241,
+    "SaleDuration": 706,
+    "SaleTypeCatId": 661,
     "Deleted": false,
-    "HasGuide": false,
+    "HasGuide": true,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 392,
-    "QuoteLinesTemplate": 361,
-    "ConfirmationLinesTemplate": 79,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 263,
+    "QuoteLinesTemplate": 808,
+    "ConfirmationLinesTemplate": 621,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 547,
-    "MinEarningPercent": 582,
-    "GroupQuoteLinesBy": 988,
-    "SortGroupLinesBy": 686,
+    "MaxDiscountPercent": 870,
+    "MinEarningPercent": 337,
+    "GroupQuoteLinesBy": 984,
+    "SortGroupLinesBy": 895,
     "Stages": [
       {
-        "Id": 35,
-        "Name": "Mann, Fay and Schinner",
-        "ToolTip": "Commodi libero assumenda nesciunt doloribus impedit assumenda.",
-        "Deleted": false,
-        "Rank": 681,
-        "Type": "blanditiis",
-        "ColorBlock": 781,
-        "IconHint": "reprehenderit",
-        "Selected": true,
-        "LastChanged": "2024-02-17T02:38:26.9173771+01:00",
+        "Id": 320,
+        "Name": "D'Amore, Bogan and Hackett",
+        "ToolTip": "Vero esse culpa autem hic est vel.",
+        "Deleted": true,
+        "Rank": 252,
+        "Type": "est",
+        "ColorBlock": 932,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "2009-12-28T14:28:27.6957886+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "quia",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Dewitt Clara Fahey Jr.",
+        "FullName": "Regan Marks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 439
+            "FieldLength": 63
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 950
       }
     }
   }

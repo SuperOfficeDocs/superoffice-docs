@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 776,
+  "TargetYear": 922,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 906,
-  "DimensionId": 160
+  "Id": 88,
+  "DimensionId": 778
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 583,
+  "TargetAssignmentInfoId": 86,
   "Values": [
-    685,
-    814
+    458,
+    131
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 358,
-  "DimensionListItemDisplayName": "Larson Group",
+  "DimensionListItem": 769,
+  "DimensionListItemDisplayName": "Jewess LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldType": "System.String",
+      "FieldLength": 14
     }
   }
 }

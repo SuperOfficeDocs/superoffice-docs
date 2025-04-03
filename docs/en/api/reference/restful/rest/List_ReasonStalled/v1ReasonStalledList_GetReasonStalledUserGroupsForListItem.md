@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Murray, Grimes and Gorczany",
-    "ToolTip": "Est alias alias est.",
+    "Id": 286,
+    "Name": "O'Reilly, Hyatt and Klein",
+    "ToolTip": "Animi culpa quos doloremque consequatur laboriosam ut.",
     "Deleted": false,
-    "Rank": 642,
-    "Type": "est",
-    "ColorBlock": 502,
-    "IconHint": "debitis",
+    "Rank": 619,
+    "Type": "commodi",
+    "ColorBlock": 283,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2022-07-13T02:38:26.9173771+02:00",
+    "LastChanged": "2023-06-27T14:28:27.6957886+02:00",
     "ChildItems": [
       {
-        "Id": 894,
-        "Name": "Schuppe Group",
-        "ToolTip": "Rerum vel rerum rerum facilis.",
-        "Deleted": false,
-        "Rank": 362,
-        "Type": "facilis",
-        "ColorBlock": 416,
-        "IconHint": "aut",
+        "Id": 763,
+        "Name": "Stokes, Leffler and Witting",
+        "ToolTip": "Sapiente dolorem aut accusamus odio corrupti.",
+        "Deleted": true,
+        "Rank": 510,
+        "Type": "dolores",
+        "ColorBlock": 728,
+        "IconHint": "ducimus",
         "Selected": false,
-        "LastChanged": "1998-05-01T02:38:26.9173771+02:00",
+        "LastChanged": "1998-07-28T14:28:27.6957886+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quasi",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Helen Koch",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "similique",
+        "Hidden": true,
+        "FullName": "Lilla Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 378
+            "FieldLength": 626
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "et",
+    "StyleHint": "impedit",
     "Hidden": true,
-    "FullName": "Jewel Reichel",
+    "FullName": "Toby Mayert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 937
+        "FieldLength": 583
       }
     }
   }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Feeney LLC",
-  "ProviderName": "Cruickshank-Hammes"
+  "GuiName": "Considine Group",
+  "ProviderName": "Schuppe-Schultz"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Jaskolski, Willms and Cummerata",
-      "DisplayTooltip": "facilis",
-      "DisplayType": "totam",
+      "DisplayName": "Ruecker, Grimes and Kautzer",
+      "DisplayTooltip": "et",
+      "DisplayType": "qui",
       "CanOrderBy": true,
-      "Name": "Bode, Dooley and Miller",
-      "CanRestrictBy": false,
-      "RestrictionType": "reiciendis",
-      "RestrictionListName": "Veum-Kshlerin",
+      "Name": "Dibbert Inc and Sons",
+      "CanRestrictBy": true,
+      "RestrictionType": "delectus",
+      "RestrictionListName": "Walter-Abbott",
       "IsVisible": false,
-      "ExtraInfo": "perferendis",
-      "Width": "minus",
-      "IconHint": "facere",
-      "HeadingIconHint": "est"
+      "ExtraInfo": "omnis",
+      "Width": "quasi",
+      "IconHint": "suscipit",
+      "HeadingIconHint": "rerum"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 198,
-      "Name": "Gaylord, Gusikowski and O'Hara",
-      "ToolTip": "Assumenda ipsa et omnis aliquid.",
+      "Id": 251,
+      "Name": "Davis, Heller and Wehner",
+      "ToolTip": "Quo consectetur.",
       "Deleted": false,
-      "Rank": 258,
-      "Type": "maxime",
-      "ColorBlock": 897,
-      "IconHint": "sed",
+      "Rank": 295,
+      "Type": "enim",
+      "ColorBlock": 306,
+      "IconHint": "vel",
       "Selected": false,
-      "LastChanged": "2016-03-08T02:38:20.8545926+01:00",
+      "LastChanged": "2016-03-08T14:28:21.4616659+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sit",
-      "StyleHint": "natus",
+      "ExtraInfo": "cupiditate",
+      "StyleHint": "ipsa",
       "Hidden": false,
-      "FullName": "Alejandrin Prosacco",
+      "FullName": "Fabiola Kreiger",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 449
+          "FieldLength": 992
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Wiza Inc and Sons",
+      "Name": "Prohaska Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Wiza Inc and Sons",
+      "Name": "Prohaska Group",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "molestiae",
+  "OwnerKeys": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldType": "System.String",
+      "FieldLength": 844
     }
   }
 }

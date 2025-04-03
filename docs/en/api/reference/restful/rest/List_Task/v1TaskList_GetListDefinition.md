@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 171,
-  "Name": "Gottlieb-Conroy",
-  "Tooltip": "dolorem",
+  "Id": 986,
+  "Name": "Kuphal LLC",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "Rank": 895,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Rank": 95,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "minima",
+  "ListType": "non",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldLength": 779
     }
   },
   "_Links": {

@@ -81,16 +81,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 795,
-  "Name": "Streich, McKenzie and Emard",
-  "Tooltip": "sint",
+  "RoleId": 379,
+  "Name": "Emard-Wilkinson",
+  "Tooltip": "ipsum",
   "RoleType": "Anonymous",
-  "Deleted": 225,
-  "Rank": 476,
-  "Created": "2005-09-20T02:38:26.3235369+02:00",
-  "UseCategories": 944,
+  "Deleted": 211,
+  "Rank": 698,
+  "Created": "2009-11-19T14:28:27.0551896+01:00",
+  "UseCategories": 214,
   "CreatedBy": null,
-  "Updated": "2014-02-23T02:38:26.3235369+01:00",
+  "Updated": "2013-01-03T14:28:27.0551896+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 119
     }
   }
 }

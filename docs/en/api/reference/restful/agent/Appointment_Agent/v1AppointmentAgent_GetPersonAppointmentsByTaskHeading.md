@@ -118,6 +118,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,16 +133,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 794,
-  "IncludeProjectAppointments": true,
-  "StartTime": "2012-05-10T02:38:20.5419831+02:00",
-  "EndTime": "2018-06-02T02:38:20.5419831+02:00",
-  "Count": 412,
-  "TaskHeadingId": 409
+  "PersonId": 571,
+  "IncludeProjectAppointments": false,
+  "StartTime": "2009-01-22T14:28:21.1491785+01:00",
+  "EndTime": "2008-04-22T14:28:21.1491785+02:00",
+  "Count": 939,
+  "TaskHeadingId": 580
 }
 ```
 
@@ -153,65 +154,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 792,
-    "StartDate": "2017-06-27T02:38:20.5419831+02:00",
-    "EndDate": "2024-10-02T02:38:20.5419831+02:00",
+    "AppointmentId": 134,
+    "StartDate": "2017-02-27T14:28:21.1491785+01:00",
+    "EndDate": "2012-09-13T14:28:21.1491785+02:00",
     "Type": "BookingForChecklist",
-    "Task": "porro",
-    "AssociateFullName": "Roxanne Flatley",
-    "ContactName": "Schamberger-Leannon",
-    "Description": "Implemented bifurcated hierarchy",
-    "PersonFullName": "Ms. Alejandrin Eliza Schamberger II",
-    "PersonId": 187,
-    "ContactId": 482,
-    "ProjectId": 586,
-    "ProjectName": "Klein Inc and Sons",
+    "Task": "libero",
+    "AssociateFullName": "Frida Braun",
+    "ContactName": "Emard-Boyle",
+    "Description": "Quality-focused bifurcated archive",
+    "PersonFullName": "Saul Goldner",
+    "PersonId": 411,
+    "ContactId": 618,
+    "ProjectId": 322,
+    "ProjectName": "Conn, McClure and Nicolas",
     "IsPublished": false,
-    "AssociateId": 120,
-    "ColorIndex": 305,
-    "IsFree": false,
+    "AssociateId": 740,
+    "ColorIndex": 688,
+    "IsFree": true,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 216,
-    "PriorityName": "Jones, Price and Graham",
+    "PriorityId": 394,
+    "PriorityName": "Baumbach Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2024-07-17T02:38:20.5419831+02:00",
+    "ActiveDate": "2015-03-16T14:28:21.1491785+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2010-02-09T02:38:20.5419831+01:00",
-    "RecurringEndDate": "2012-03-01T02:38:20.5419831+01:00",
-    "MotherId": 417,
-    "AssignedBy": 380,
-    "AssignedByFullName": "Cicero Christiansen",
+    "RecurringStartDate": "2022-08-11T14:28:21.1491785+02:00",
+    "RecurringEndDate": "2015-10-28T14:28:21.1491785+01:00",
+    "MotherId": 465,
+    "AssignedBy": 64,
+    "AssignedByFullName": "Naomie Waters",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "cumque",
-    "SaleId": 935,
-    "SaleName": "Konopelski, Kuhic and Ernser",
-    "AssociateName": "Gorczany, Rempel and Lowe",
-    "CreatedDate": "2024-09-04T02:38:20.5419831+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Dr. Ned Walsh",
-    "CreatedByAssociateId": 790,
+    "Location": "incidunt",
+    "AlarmLeadTime": "dolores",
+    "SaleId": 399,
+    "SaleName": "Durgan-Aufderhar",
+    "AssociateName": "Kassulke-Satterfield",
+    "CreatedDate": "2006-04-06T14:28:21.1491785+02:00",
+    "CreatedBy": "voluptatibus",
+    "CreatedByFullName": "Ciara Veum",
+    "CreatedByAssociateId": 364,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 654,
-    "Title": "ab",
-    "Agenda": "dicta",
-    "InternalNotes": "sunt",
+    "PreferredTZLocation": 857,
+    "Title": "est",
+    "Agenda": "sit",
+    "InternalNotes": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 53
+        "FieldLength": 861
       }
     }
   }

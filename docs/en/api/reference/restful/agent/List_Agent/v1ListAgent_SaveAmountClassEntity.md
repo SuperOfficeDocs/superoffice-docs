@@ -81,14 +81,14 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 838,
-  "Name": "Ullrich Inc and Sons",
-  "Tooltip": "dignissimos",
-  "Rank": 664,
-  "AmountFrom": 28428.514,
-  "AmountTo": 15773.421999999999,
-  "Deleted": false,
-  "CurrencyId": 751
+  "AmountClassId": 305,
+  "Name": "Schmeler Inc and Sons",
+  "Tooltip": "voluptatem",
+  "Rank": 671,
+  "AmountFrom": 21502.374,
+  "AmountTo": 12094.106,
+  "Deleted": true,
+  "CurrencyId": 952
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 961,
-  "Name": "Stracke, Gleason and Von",
-  "Tooltip": "quibusdam",
-  "Rank": 201,
-  "AmountFrom": 14710.996,
-  "AmountTo": 30004.915999999997,
+  "AmountClassId": 671,
+  "Name": "Collier LLC",
+  "Tooltip": "sed",
+  "Rank": 110,
+  "AmountFrom": 266.39,
+  "AmountTo": 22151.112,
   "Deleted": false,
-  "CurrencyId": 403,
+  "CurrencyId": 159,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 709
+      "FieldLength": 476
     }
   }
 }

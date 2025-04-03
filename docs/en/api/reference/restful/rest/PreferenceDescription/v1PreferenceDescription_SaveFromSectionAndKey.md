@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 900,
-  "Section": "molestias",
-  "Key": "et",
-  "Name": "Nader, Mohr and Fay",
+  "PrefDescId": 12,
+  "Section": "labore",
+  "Key": "corporis",
+  "Name": "Connelly, Williamson and Wolf",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Versatile 24 hour project",
+  "Description": "Synergistic uniform website",
   "IsBuiltin": false,
-  "TableName": "Hane Inc and Sons",
-  "UserDefinedListId": 290,
-  "Rank": 343,
-  "SubGroup": "et",
-  "MinLevel": 938,
-  "MaxValue": 624,
-  "MinValue": 526,
-  "RequiredLicense": "nesciunt"
+  "TableName": "Hegmann Inc and Sons",
+  "UserDefinedListId": 885,
+  "Rank": 771,
+  "SubGroup": "deleniti",
+  "MinLevel": 72,
+  "MaxValue": 966,
+  "MinValue": 980,
+  "RequiredLicense": "omnis"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 199,
-  "Section": "voluptates",
-  "Key": "sequi",
-  "Name": "Rath-Pollich",
+  "PrefDescId": 810,
+  "Section": "maxime",
+  "Key": "tempore",
+  "Name": "Dicki LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "De-engineered client-server flexibility",
+  "Description": "Front-line coherent success",
   "IsBuiltin": false,
-  "TableName": "Lindgren LLC",
-  "UserDefinedListId": 12,
-  "Rank": 349,
-  "SubGroup": "consectetur",
-  "MinLevel": 500,
-  "MaxValue": 680,
-  "MinValue": 259,
-  "RequiredLicense": "cumque",
+  "TableName": "Grant-Jacobson",
+  "UserDefinedListId": 203,
+  "Rank": 550,
+  "SubGroup": "dignissimos",
+  "MinLevel": 748,
+  "MaxValue": 88,
+  "MinValue": 333,
+  "RequiredLicense": "tempore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 863
+      "FieldType": "System.Int32",
+      "FieldLength": 449
     }
   }
 }

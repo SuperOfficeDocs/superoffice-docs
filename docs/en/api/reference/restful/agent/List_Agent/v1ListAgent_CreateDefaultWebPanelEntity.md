@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,26 +88,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 77,
-  "Name": "Rath Inc and Sons",
-  "Tooltip": "voluptates",
-  "Deleted": true,
-  "Rank": 121,
+  "WebPanelId": 285,
+  "Name": "Sipes, Medhurst and Keeling",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 796,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": true,
-  "OnTravel": false,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": true,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Hilll Group",
+  "ShowInStatusBar": false,
+  "WindowName": "Fisher Group",
   "Url": "http://www.example.com/",
-  "ProgId": "perspiciatis",
-  "Icon": 170,
+  "ProgId": "et",
+  "Icon": 392,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 963
+      "FieldLength": 808
     }
   }
 }

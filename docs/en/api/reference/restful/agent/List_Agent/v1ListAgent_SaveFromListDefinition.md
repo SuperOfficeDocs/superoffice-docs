@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 793,
-  "UdListDefinitionId": 911,
+  "Id": 310,
+  "UdListDefinitionId": 656,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 418,
-  "Name": "Corwin-Waelchi",
-  "Tooltip": "placeat",
-  "Deleted": false,
-  "UdListDefinitionId": 828,
-  "Rank": 270,
+  "Id": 182,
+  "Name": "King-Mueller",
+  "Tooltip": "enim",
+  "Deleted": true,
+  "UdListDefinitionId": 167,
+  "Rank": 805,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 241
+      "FieldType": "System.Int32",
+      "FieldLength": 872
     }
   }
 }

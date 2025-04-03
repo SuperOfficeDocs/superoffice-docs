@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 767,
-  "Name": "Runolfsdottir Inc and Sons",
-  "Tooltip": "tenetur",
+  "Id": 726,
+  "Name": "Baumbach Inc and Sons",
+  "Tooltip": "officia",
   "Deleted": true,
-  "UdListDefinitionId": 300,
-  "Rank": 756,
+  "UdListDefinitionId": 617,
+  "Rank": 300,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 181
+      "FieldLength": 239
     }
   }
 }

@@ -103,7 +103,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 931,
+  "TicketMessageEntityId": 6,
   "IncludeNonInlineAttachmentsInfo": false
 }
 ```
@@ -115,27 +115,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 68,
+  "EjMessageId": 969,
   "Ticket": null,
-  "CreatedAt": "2005-02-13T02:38:22.02635+01:00",
+  "CreatedAt": "1999-03-05T14:28:22.5397478+01:00",
   "CreatedBy": null,
-  "Author": "nemo",
+  "Author": "neque",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "sed",
-  "TimeSpent": 573,
-  "Body": "earum",
-  "HtmlBody": "nesciunt",
-  "EmailHeader": "jacey@strosincasper.co.uk",
-  "DebugInfo": "fugit",
-  "MailSorter": "rerum",
+  "MessageId": "aliquid",
+  "TimeSpent": 130,
+  "Body": "quia",
+  "HtmlBody": "culpa",
+  "EmailHeader": "joanne.schulist@jacobson.ca",
+  "DebugInfo": "ea",
+  "MailSorter": "perferendis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "enim",
+  "SearchTitle": "dolores",
   "MessageHeaders": [
     {
-      "Id": 505,
-      "Name": "Vandervort Inc and Sons",
+      "Id": 95,
+      "Name": "Wintheiser LLC",
       "Value": "ullam",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
@@ -143,51 +143,51 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 529
+          "FieldType": "System.Int32",
+          "FieldLength": 981
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "dolore",
-  "Sentiment": 264,
-  "SentimentConfidence": 5,
+  "Important": true,
+  "Language": "itaque",
+  "Sentiment": 694,
+  "SentimentConfidence": 957,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 798,
-      "Name": "D'Amore-Bins",
-      "ContentType": "molestiae",
-      "AttSize": 92,
-      "InlineImage": false,
-      "ContentId": "non",
-      "AuthKey": "dolores",
+      "AttachmentId": 62,
+      "Name": "Prohaska, Kulas and Windler",
+      "ContentType": "et",
+      "AttSize": 369,
+      "InlineImage": true,
+      "ContentId": "amet",
+      "AuthKey": "mollitia",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 107
+          "FieldLength": 815
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "occaecati",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "repellat",
+    "ExtraFields2": "accusantium"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "aut"
+    "CustomFields1": "fugit",
+    "CustomFields2": "libero"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 288
     }
   }
 }

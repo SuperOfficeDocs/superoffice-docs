@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=False
-GET /api/v1/List/Position/MDOItems?query=officiis
+GET /api/v1/List/Position/MDOItems?flat=True
+GET /api/v1/List/Position/MDOItems?query=eveniet
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 598,
-    "Name": "Hauck LLC",
-    "ToolTip": "Voluptatum alias nam.",
+    "Id": 427,
+    "Name": "Ratke Group",
+    "ToolTip": "Qui et quo.",
     "Deleted": false,
-    "Rank": 533,
-    "Type": "necessitatibus",
+    "Rank": 86,
+    "Type": "porro",
     "ChildItems": [
       {
-        "Id": 250,
-        "Name": "Kassulke LLC",
-        "ToolTip": "Delectus veniam neque consequatur.",
+        "Id": 729,
+        "Name": "Altenwerth-Champlin",
+        "ToolTip": "Temporibus odit quis pariatur consequatur voluptatem nostrum.",
         "Deleted": false,
-        "Rank": 924,
-        "Type": "minus",
+        "Rank": 752,
+        "Type": "ad",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vitae",
-        "ColorBlock": 882,
-        "ExtraInfo": "dolor",
-        "StyleHint": "et",
-        "FullName": "Lemuel Grant",
+        "IconHint": "aliquam",
+        "ColorBlock": 844,
+        "ExtraInfo": "laudantium",
+        "StyleHint": "error",
+        "FullName": "Esteban Hayes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 365
+            "FieldLength": 614
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 564,
-    "ExtraInfo": "officiis",
-    "StyleHint": "asperiores",
-    "FullName": "Ulices Walter",
+    "IconHint": "id",
+    "ColorBlock": 397,
+    "ExtraInfo": "cumque",
+    "StyleHint": "voluptate",
+    "FullName": "Ms. Ahmad Jammie Morar V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 735
+        "FieldLength": 974
       }
     }
   }

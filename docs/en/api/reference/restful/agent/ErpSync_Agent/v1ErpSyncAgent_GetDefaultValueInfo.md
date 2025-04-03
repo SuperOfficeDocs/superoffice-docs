@@ -88,7 +88,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 369
+  "ErpFieldId": 952
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 672,
-  "DefaultValue": "voluptas",
+  "ErpFieldId": 582,
+  "DefaultValue": "et",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "officiis",
+  "FirstSyncDefaultValue": "voluptatem",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "non",
+  "ErpFieldKey": "eveniet",
   "FieldType": "Checkbox",
-  "ListName": "Dibbert, Harvey and Gorczany",
+  "ListName": "Ziemann Inc and Sons",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 864
+      "FieldType": "System.Int32",
+      "FieldLength": 960
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 224,
-    "Name": "Champlin-Hayes",
-    "ToolTip": "Distinctio voluptas mollitia fuga.",
+    "Id": 503,
+    "Name": "Greenfelder Inc and Sons",
+    "ToolTip": "Corporis a voluptate non.",
     "Deleted": false,
-    "Rank": 818,
-    "Type": "harum",
-    "ColorBlock": 280,
-    "IconHint": "quasi",
-    "Selected": false,
-    "LastChanged": "2007-09-25T02:38:26.7299042+02:00",
+    "Rank": 258,
+    "Type": "eveniet",
+    "ColorBlock": 630,
+    "IconHint": "minus",
+    "Selected": true,
+    "LastChanged": "2004-08-07T14:28:27.5395453+02:00",
     "ChildItems": [
       {
-        "Id": 184,
-        "Name": "West, Kreiger and Koepp",
-        "ToolTip": "Amet qui eum facilis officia.",
-        "Deleted": true,
-        "Rank": 406,
-        "Type": "totam",
-        "ColorBlock": 838,
-        "IconHint": "laudantium",
+        "Id": 141,
+        "Name": "Hand, Kuphal and Hahn",
+        "ToolTip": "Ab nihil.",
+        "Deleted": false,
+        "Rank": 828,
+        "Type": "repudiandae",
+        "ColorBlock": 943,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2001-05-11T02:38:26.7299042+02:00",
+        "LastChanged": "2006-05-01T14:28:27.5395453+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "eos",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "libero",
         "Hidden": true,
-        "FullName": "Rudolph Brakus"
+        "FullName": "Mrs. Helen Volkman"
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "quidem",
+    "ExtraInfo": "ut",
+    "StyleHint": "quas",
     "Hidden": false,
-    "FullName": "Mr. Juana Willis Hoppe DVM"
+    "FullName": "Benedict Rippin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Goldner, Ryan and Herzog",
-    "ToolTip": "Omnis nemo itaque quam pariatur eos.",
+    "Id": 564,
+    "Name": "Berge-Monahan",
+    "ToolTip": "Dolor a tempore voluptatem nulla voluptas.",
     "Deleted": true,
-    "Rank": 498,
-    "Type": "quibusdam",
-    "ColorBlock": 43,
-    "IconHint": "esse",
+    "Rank": 647,
+    "Type": "et",
+    "ColorBlock": 459,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2003-11-30T02:38:26.7299042+01:00",
+    "LastChanged": "2006-07-31T14:28:27.5395453+02:00",
     "ChildItems": [
       {
-        "Id": 714,
-        "Name": "Bahringer Group",
-        "ToolTip": "Nihil impedit vitae.",
+        "Id": 837,
+        "Name": "Beier, Wintheiser and Jacobi",
+        "ToolTip": "Cupiditate voluptas exercitationem blanditiis.",
         "Deleted": false,
-        "Rank": 96,
-        "Type": "reprehenderit",
-        "ColorBlock": 397,
-        "IconHint": "qui",
+        "Rank": 470,
+        "Type": "et",
+        "ColorBlock": 80,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2023-03-30T02:38:26.7299042+02:00",
+        "LastChanged": "2012-07-24T14:28:27.5395453+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "qui",
+        "ExtraInfo": "harum",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Cayla Conroy",
+        "FullName": "Danny Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 63
+            "FieldLength": 376
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "at",
+    "ExtraInfo": "molestias",
+    "StyleHint": "consectetur",
     "Hidden": false,
-    "FullName": "Dorcas Weber",
+    "FullName": "Fausto Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 851
+        "FieldLength": 647
       }
     }
   }

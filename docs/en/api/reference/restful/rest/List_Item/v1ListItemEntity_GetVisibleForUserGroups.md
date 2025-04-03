@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 831,
-    "Name": "Streich, Renner and Russel",
-    "ToolTip": "Rem consequatur ut.",
-    "Deleted": true,
-    "Rank": 451,
-    "Type": "autem",
-    "ColorBlock": 785,
-    "IconHint": "facere",
-    "Selected": true,
-    "LastChanged": "2019-04-05T02:38:26.6517427+02:00",
+    "Id": 439,
+    "Name": "Wolf LLC",
+    "ToolTip": "Nihil laboriosam ratione quasi itaque.",
+    "Deleted": false,
+    "Rank": 73,
+    "Type": "vel",
+    "ColorBlock": 131,
+    "IconHint": "quod",
+    "Selected": false,
+    "LastChanged": "2012-11-11T14:28:27.4614236+01:00",
     "ChildItems": [
       {
-        "Id": 38,
-        "Name": "Raynor Inc and Sons",
-        "ToolTip": "Molestiae ut.",
-        "Deleted": true,
-        "Rank": 75,
-        "Type": "dolores",
-        "ColorBlock": 517,
-        "IconHint": "sit",
+        "Id": 42,
+        "Name": "Jerde Group",
+        "ToolTip": "Vel nisi sit neque.",
+        "Deleted": false,
+        "Rank": 649,
+        "Type": "praesentium",
+        "ColorBlock": 755,
+        "IconHint": "iste",
         "Selected": false,
-        "LastChanged": "2019-10-17T02:38:26.6517427+02:00",
+        "LastChanged": "2008-09-13T14:28:27.4614236+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "vel",
+        "ExtraInfo": "molestias",
+        "StyleHint": "hic",
         "Hidden": true,
-        "FullName": "Prof. Hal Boehm IV",
+        "FullName": "Fabiola Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 962
+            "FieldType": "System.Int32",
+            "FieldLength": 354
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "inventore",
-    "Hidden": false,
-    "FullName": "Ms. Santina West",
+    "ExtraInfo": "qui",
+    "StyleHint": "esse",
+    "Hidden": true,
+    "FullName": "Lester Johnston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldLength": 425
       }
     }
   }

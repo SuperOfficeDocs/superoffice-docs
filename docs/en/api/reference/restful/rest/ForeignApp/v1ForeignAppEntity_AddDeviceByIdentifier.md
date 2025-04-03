@@ -79,21 +79,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 19,
-  "Name": "Mitchell, Thompson and Veum",
-  "CreatedDate": "2018-08-04T02:38:26.1204323+02:00",
-  "UpdatedDate": "2020-07-20T02:38:26.1204323+02:00",
-  "AssociateFullName": "King Feest II",
-  "CreatedBy": "sunt",
-  "UpdatedBy": "ratione",
-  "DeviceIdentifier": "cum",
-  "ForeignAppId": 327,
+  "ForeignDeviceId": 679,
+  "Name": "Konopelski, O'Keefe and O'Connell",
+  "CreatedDate": "2006-11-16T14:28:26.9458186+01:00",
+  "UpdatedDate": "2012-06-28T14:28:26.9458186+02:00",
+  "AssociateFullName": "Dr. Bette Hayes DVM",
+  "CreatedBy": "exercitationem",
+  "UpdatedBy": "autem",
+  "DeviceIdentifier": "velit",
+  "ForeignAppId": 50,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 612
+      "FieldType": "System.Int32",
+      "FieldLength": 206
     }
   }
 }

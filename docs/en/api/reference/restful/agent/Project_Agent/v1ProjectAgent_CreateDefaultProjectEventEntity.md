@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Project/CreateDefaultProjectEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,94 +96,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "dicta",
-  "SignOffText": "labore",
-  "SignOnConfirmationText": "enim",
-  "SignOnText": "et",
-  "EventDate": "2019-09-30T02:38:21.7138796+02:00",
+  "SignOffConfirmationText": "beatae",
+  "SignOffText": "perferendis",
+  "SignOnConfirmationText": "voluptatem",
+  "SignOnText": "voluptatem",
+  "EventDate": "1998-06-30T14:28:22.242884+02:00",
   "Enabled": false,
-  "CreatedDate": "2001-03-05T02:38:21.7138796+01:00",
-  "SignOff": true,
-  "SignOffTaskEnable": true,
-  "SignOffTaskId": 304,
-  "SignOffTriggersAssign": false,
+  "CreatedDate": "2016-09-14T14:28:22.242884+02:00",
+  "SignOff": false,
+  "SignOffTaskEnable": false,
+  "SignOffTaskId": 397,
+  "SignOffTriggersAssign": true,
   "SignOn": false,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 964,
+  "SignOnTaskId": 788,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2014-04-09T02:38:21.7138796+02:00",
+  "UpdatedDate": "2006-10-15T14:28:22.242884+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 847,
-  "Id": 805,
-  "PublishFrom": "2004-02-20T02:38:21.7138796+01:00",
+  "ProjectId": 670,
+  "Id": 965,
+  "PublishFrom": "2022-09-19T14:28:22.242884+02:00",
   "PublishType": "External",
-  "PublishTo": "2003-05-28T02:38:21.7138796+02:00",
+  "PublishTo": "2010-11-04T14:28:22.242884+01:00",
   "VisibleForCategories": [
     {
-      "Id": 320,
-      "Name": "Sporer-Dach",
-      "ToolTip": "Corrupti optio ipsam reiciendis omnis enim.",
-      "Deleted": false,
-      "Rank": 859,
-      "Type": "et",
+      "Id": 247,
+      "Name": "Bogisich, Wunsch and Larkin",
+      "ToolTip": "Eum et nesciunt ut tempore.",
+      "Deleted": true,
+      "Rank": 924,
+      "Type": "corporis",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "officiis",
-      "ColorBlock": 496,
-      "ExtraInfo": "qui",
-      "StyleHint": "ab",
-      "FullName": "Dr. Jackie Madge Muller III",
+      "IconHint": "consectetur",
+      "ColorBlock": 164,
+      "ExtraInfo": "et",
+      "StyleHint": "iure",
+      "FullName": "Eleanora Stoltenberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 166
+          "FieldLength": 77
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 100,
-      "Name": "Abbott, Fisher and Bartoletti",
-      "ToolTip": "Architecto dolorem nulla voluptates dolore non consectetur.",
-      "Deleted": true,
-      "Rank": 159,
-      "Type": "dolorem",
+      "Id": 5,
+      "Name": "Ward, O'Conner and Kozey",
+      "ToolTip": "Amet sunt illum hic omnis.",
+      "Deleted": false,
+      "Rank": 65,
+      "Type": "eos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "aut",
-      "ColorBlock": 955,
-      "ExtraInfo": "reiciendis",
-      "StyleHint": "ex",
-      "FullName": "Drew McCullough",
+      "IconHint": "laboriosam",
+      "ColorBlock": 124,
+      "ExtraInfo": "qui",
+      "StyleHint": "dignissimos",
+      "FullName": "Miss Ella Thiel Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 372
+          "FieldType": "System.Int32",
+          "FieldLength": 260
         }
       }
     }
   ],
-  "IsPublished": true,
+  "IsPublished": false,
   "IsVisibleForMembers": true,
-  "IsVisibleForCategories": false,
+  "IsVisibleForCategories": true,
   "IsVisibleForPersonInterests": false,
-  "ProjectEventId": 77,
+  "ProjectEventId": 959,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 534
     }
   }
 }

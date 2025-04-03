@@ -95,14 +95,14 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByNameAndAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Beer LLC",
+  "Name": "Schinner, Hermiston and Lakin",
   "AssociateIds": [
-    264,
-    827
+    905,
+    430
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 815,
-    "Name": "Kuhlman Group",
-    "AssociateId": 920,
-    "DetailsTable": 172,
-    "DetailsRecord": 192,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 481,
+    "Name": "Schiller, Ledner and Ebert",
+    "AssociateId": 26,
+    "DetailsTable": 19,
+    "DetailsRecord": 334,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "ex",
-      "ParameterObject2": "consequatur"
+      "ParameterObject1": "exercitationem",
+      "ParameterObject2": "aspernatur"
     },
-    "LastStarted": "2006-07-01T02:38:20.885843+02:00",
-    "Created": "2008-03-15T02:38:20.885843+01:00",
-    "StartCount": 831,
-    "DatabaseSerialNumber": "1039078",
-    "Context": "quaerat",
-    "Result": "aspernatur",
+    "LastStarted": "2022-01-16T14:28:21.4929147+01:00",
+    "Created": "2010-06-08T14:28:21.4929147+02:00",
+    "StartCount": 623,
+    "DatabaseSerialNumber": "351440",
+    "Context": "odit",
+    "Result": "nostrum",
     "State": "All",
-    "Description": "Proactive zero administration intranet",
-    "Response": "ab",
-    "Request": "natus",
-    "ProgressDescription": "Distributed actuating monitoring",
-    "ProgressPercent": 679,
-    "FileName": "Hoppe LLC",
+    "Description": "Intuitive 24/7 capability",
+    "Response": "ex",
+    "Request": "incidunt",
+    "ProgressDescription": "Reactive bottom-line firmware",
+    "ProgressPercent": 219,
+    "FileName": "Steuber Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 718
+        "FieldLength": 435
       }
     }
   }

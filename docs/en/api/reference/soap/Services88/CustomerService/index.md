@@ -31,6 +31,7 @@ Download [WSDL file for Services88/CustomerService](../Services88-CustomerServic
 * [GetAllCustomerCenterConfigs](GetAllCustomerCenterConfigs.md)
 * [GetCustomerCenterConfig](GetCustomerCenterConfig.md)
 * [GetCustomerServiceStartup](GetCustomerServiceStartup.md)
+* [GetCustomerServiceStartupByOwner](GetCustomerServiceStartupByOwner.md)
 * [GetFaqForCustomer](GetFaqForCustomer.md)
 * [GetMailboxEntity](GetMailboxEntity.md)
 * [GetMailboxes](GetMailboxes.md)

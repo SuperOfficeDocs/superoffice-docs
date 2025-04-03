@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 609,
-  "Section": "veniam",
-  "Key": "ut",
-  "Name": "Heidenreich-Schiller",
+  "PrefDescId": 803,
+  "Section": "voluptas",
+  "Key": "officiis",
+  "Name": "Aufderhar Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Ergonomic motivating budgetary management",
+  "Description": "Sharable bottom-line orchestration",
   "IsBuiltin": false,
-  "TableName": "Kuphal LLC",
-  "UserDefinedListId": 813,
-  "Rank": 169,
-  "SubGroup": "veniam",
-  "MinLevel": 500,
-  "MaxValue": 639,
-  "MinValue": 700,
-  "RequiredLicense": "sunt",
+  "TableName": "Streich-Jakubowski",
+  "UserDefinedListId": 230,
+  "Rank": 439,
+  "SubGroup": "eos",
+  "MinLevel": 124,
+  "MaxValue": 239,
+  "MinValue": 377,
+  "RequiredLicense": "necessitatibus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 361
+      "FieldLength": 427
     }
   }
 }

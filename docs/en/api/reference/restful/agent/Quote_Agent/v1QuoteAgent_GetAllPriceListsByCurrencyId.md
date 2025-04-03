@@ -89,8 +89,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 555,
-  "CurrencyId": 206
+  "QuoteConnectionId": 751,
+  "CurrencyId": 586
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 284,
-    "ERPPriceListKey": "qui",
-    "QuoteConnectionId": 408,
-    "Name": "Erdman Inc and Sons",
-    "Description": "Adaptive regional framework",
-    "Currency": "ex",
-    "CurrencyName": "Mitchell-Breitenberg",
-    "ValidFrom": "2019-07-26T02:38:21.7763357+02:00",
-    "ValidTo": "2002-07-18T02:38:21.7763357+02:00",
+    "PriceListId": 45,
+    "ERPPriceListKey": "rem",
+    "QuoteConnectionId": 276,
+    "Name": "White-Bechtelar",
+    "Description": "Programmable 5th generation framework",
+    "Currency": "velit",
+    "CurrencyName": "Ondricka-Wunsch",
+    "ValidFrom": "2000-07-23T14:28:22.3053817+02:00",
+    "ValidTo": "2025-01-10T14:28:22.3053817+01:00",
     "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 518
+        "FieldType": "System.Int32",
+        "FieldLength": 227
       }
     }
   }

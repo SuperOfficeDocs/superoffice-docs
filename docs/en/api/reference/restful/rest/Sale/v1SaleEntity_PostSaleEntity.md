@@ -162,7 +162,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "provident",
+  "SaleText": "libero",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -181,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2024-12-17T02:38:26.3547849+01:00",
-  "Amount": 2967.8979999999997,
-  "SaleId": 75,
-  "Earning": 11965.612,
-  "EarningPercent": 28321.958,
-  "Heading": "quibusdam",
-  "Number": "958273",
-  "Probability": 644,
-  "CreatedDate": "2022-11-24T02:38:26.3547849+01:00",
-  "UpdatedDate": "1998-01-18T02:38:26.3547849+01:00",
+  "Saledate": "2021-03-08T14:28:27.1958257+01:00",
+  "Amount": 21264.19,
+  "SaleId": 359,
+  "Earning": 1347.62,
+  "EarningPercent": 23887.347999999998,
+  "Heading": "voluptatum",
+  "Number": "760382",
+  "Probability": 294,
+  "CreatedDate": "2022-09-16T14:28:27.1958257+02:00",
+  "UpdatedDate": "2013-03-12T14:28:27.1958257+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 528,
+  "ActiveLinks": 207,
   "Links": [
     {
-      "EntityName": "Larson, Schneider and Pacocha",
-      "Id": 251,
-      "Description": "Horizontal 5th generation capacity",
-      "ExtraInfo": "et",
-      "LinkId": 705
+      "EntityName": "Murphy, Pacocha and Spinka",
+      "Id": 370,
+      "Description": "Open-source contextually-based paradigm",
+      "ExtraInfo": "modi",
+      "LinkId": 502
     },
     {
-      "EntityName": "Larson, Schneider and Pacocha",
-      "Id": 251,
-      "Description": "Horizontal 5th generation capacity",
-      "ExtraInfo": "et",
-      "LinkId": 705
+      "EntityName": "Murphy, Pacocha and Spinka",
+      "Id": 370,
+      "Description": "Open-source contextually-based paradigm",
+      "ExtraInfo": "modi",
+      "LinkId": 502
     }
   ],
-  "NextDueDate": "2014-07-15T02:38:26.3547849+02:00",
-  "Postit": "et",
+  "NextDueDate": "2018-11-24T14:28:27.1958257+01:00",
+  "Postit": "unde",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2007-04-01T02:38:26.3547849+02:00",
+  "ReopenDate": "2022-08-08T14:28:27.1958257+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Erdman Inc and Sons",
-      "Comment": "qui",
-      "StakeholderRoleId": 298,
-      "CountryId": 721,
-      "PersonId": 354,
-      "EmailDescription": "brayan@rohan.ca",
-      "EmailId": 915,
-      "EmailAddress": "einar@douglas.com",
-      "PhoneId": 552,
-      "ContactName": "Fritsch, Lueilwitz and Hamill",
-      "ContactId": 656,
-      "SaleId": 515,
-      "Mrmrs": "et",
-      "Firstname": "Loraine",
-      "MiddleName": "Haag Group",
-      "Lastname": "Kozey",
-      "SaleStakeholderId": 333,
-      "Rank": 335,
-      "Phone": "721-356-3477 x87639"
+      "StakeholderRoleName": "Quigley Group",
+      "Comment": "perspiciatis",
+      "StakeholderRoleId": 919,
+      "CountryId": 760,
+      "PersonId": 58,
+      "EmailDescription": "orpha@danielbrown.name",
+      "EmailId": 858,
+      "EmailAddress": "osvaldo.dibbert@bashirian.uk",
+      "PhoneId": 25,
+      "ContactName": "Torphy Group",
+      "ContactId": 254,
+      "SaleId": 981,
+      "Mrmrs": "quia",
+      "Firstname": "Madilyn",
+      "MiddleName": "Renner, Gottlieb and Renner",
+      "Lastname": "Runolfsson",
+      "SaleStakeholderId": 750,
+      "Rank": 589,
+      "Phone": "1-970-276-5108"
     }
   ],
-  "ActiveErpLinks": 216,
+  "ActiveErpLinks": 771,
   "UserDefinedFields": {
-    "SuperOffice:1": "543145253",
-    "SuperOffice:2": "Carole Wiza"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "August Blanda"
   },
   "ExtraFields": {
-    "ExtraFields1": "soluta",
-    "ExtraFields2": "esse"
+    "ExtraFields1": "voluptate",
+    "ExtraFields2": "quidem"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "maiores"
+    "CustomFields1": "occaecati",
+    "CustomFields2": "corporis"
   },
-  "PublishEventDate": "2002-12-26T02:38:26.3547849+01:00",
-  "PublishTo": "2007-03-24T02:38:26.3547849+01:00",
-  "PublishFrom": "2006-05-04T02:38:26.3547849+02:00",
+  "PublishEventDate": "2000-09-04T14:28:27.1958257+02:00",
+  "PublishTo": "2025-02-25T14:28:27.1958257+01:00",
+  "PublishFrom": "1999-11-15T14:28:27.1958257+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 797,
+      "VisibleId": 212,
       "Visibility": "All",
-      "DisplayValue": "nihil"
+      "DisplayValue": "iure"
     },
     {
-      "VisibleId": 797,
+      "VisibleId": 212,
       "Visibility": "All",
-      "DisplayValue": "nihil"
+      "DisplayValue": "iure"
     }
   ]
 }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "repellendus",
+  "SaleText": "mollitia",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -292,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-04-14T02:38:26.3547849+02:00",
-  "Amount": 7709.6399999999994,
-  "SaleId": 805,
-  "Earning": 4215.23,
-  "EarningPercent": 10367.271999999999,
-  "Heading": "modi",
-  "Number": "1412872",
-  "Probability": 849,
-  "CreatedDate": "2010-01-03T02:38:26.3547849+01:00",
-  "UpdatedDate": "2020-05-27T02:38:26.3547849+02:00",
+  "Saledate": "2017-03-27T14:28:27.1958257+02:00",
+  "Amount": 12015.756,
+  "SaleId": 981,
+  "Earning": 8333.306,
+  "EarningPercent": 3215.484,
+  "Heading": "est",
+  "Number": "341200",
+  "Probability": 319,
+  "CreatedDate": "2008-08-16T14:28:27.1958257+02:00",
+  "UpdatedDate": "2004-11-18T14:28:27.1958257+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 490,
+  "ActiveLinks": 793,
   "Links": [
     {
-      "EntityName": "Sporer, Predovic and Prohaska",
-      "Id": 883,
-      "Description": "Diverse content-based solution",
-      "ExtraInfo": "harum",
-      "LinkId": 292,
+      "EntityName": "Yost, Kassulke and Wuckert",
+      "Id": 88,
+      "Description": "Organized incremental software",
+      "ExtraInfo": "qui",
+      "LinkId": 374,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 155
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2008-06-10T14:28:27.1958257+02:00",
+  "Postit": "id",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2018-08-27T14:28:27.1958257+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Upton-Kihn",
+      "Comment": "ut",
+      "StakeholderRoleId": 563,
+      "CountryId": 886,
+      "PersonId": 245,
+      "EmailDescription": "gardner.schowalter@mayer.uk",
+      "EmailId": 589,
+      "EmailAddress": "asa.dietrich@lefflerberge.uk",
+      "PhoneId": 299,
+      "ContactName": "Runolfsdottir Group",
+      "ContactId": 732,
+      "SaleId": 332,
+      "Mrmrs": "et",
+      "Firstname": "Winfield",
+      "MiddleName": "O'Conner Inc and Sons",
+      "Lastname": "Heaney",
+      "SaleStakeholderId": 239,
+      "Rank": 387,
+      "Phone": "1-476-341-7223",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 734
+          "FieldLength": 233
         }
       }
     }
   ],
-  "NextDueDate": "2016-02-12T02:38:26.3547849+01:00",
-  "Postit": "blanditiis",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2019-06-23T02:38:26.3547849+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Rutherford LLC",
-      "Comment": "explicabo",
-      "StakeholderRoleId": 488,
-      "CountryId": 397,
-      "PersonId": 328,
-      "EmailDescription": "elizabeth_metz@mcdermott.uk",
-      "EmailId": 577,
-      "EmailAddress": "leon_leuschke@robel.co.uk",
-      "PhoneId": 276,
-      "ContactName": "Kuphal Group",
-      "ContactId": 35,
-      "SaleId": 670,
-      "Mrmrs": "adipisci",
-      "Firstname": "Matilde",
-      "MiddleName": "Cruickshank LLC",
-      "Lastname": "Blanda",
-      "SaleStakeholderId": 889,
-      "Rank": 478,
-      "Phone": "(972)568-0491 x434",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 47
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 652,
+  "ActiveErpLinks": 363,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Tobin McKenzie Sr."
+    "SuperOffice:1": "Ms. Eulah Emelia Anderson",
+    "SuperOffice:2": "Gus Jewess"
   },
   "ExtraFields": {
-    "ExtraFields1": "quidem",
-    "ExtraFields2": "architecto"
+    "ExtraFields1": "enim",
+    "ExtraFields2": "nisi"
   },
   "CustomFields": {
-    "CustomFields1": "fugiat",
-    "CustomFields2": "earum"
+    "CustomFields1": "dicta",
+    "CustomFields2": "dolorum"
   },
-  "PublishEventDate": "2004-04-16T02:38:26.3547849+02:00",
-  "PublishTo": "2004-08-25T02:38:26.3547849+02:00",
-  "PublishFrom": "2010-10-06T02:38:26.3547849+02:00",
+  "PublishEventDate": "1998-04-22T14:28:27.1958257+02:00",
+  "PublishTo": "2015-11-19T14:28:27.1958257+01:00",
+  "PublishFrom": "2014-02-04T14:28:27.1958257+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 967,
+      "VisibleId": 645,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 226
+          "FieldType": "System.String",
+          "FieldLength": 212
         }
       }
     },
     {
-      "VisibleId": 967,
+      "VisibleId": 645,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 226
+          "FieldType": "System.String",
+          "FieldLength": 212
         }
       }
     }
@@ -407,8 +407,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldType": "System.String",
+      "FieldLength": 589
     }
   },
   "_Links": {

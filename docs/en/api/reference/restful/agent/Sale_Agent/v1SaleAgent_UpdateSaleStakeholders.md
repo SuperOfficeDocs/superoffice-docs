@@ -91,31 +91,31 @@ OK
 POST /api/v1/Agents/Sale/UpdateSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Stakeholders": [
     {
-      "StakeholderRoleName": "Skiles-Hoeger",
-      "Comment": "dolore",
-      "StakeholderRoleId": 385,
-      "CountryId": 251,
-      "PersonId": 724,
-      "EmailDescription": "myrtle@stroman.info",
-      "EmailId": 758,
-      "EmailAddress": "jon@mcglynnlynch.name",
-      "PhoneId": 886,
-      "ContactName": "Hartmann-Schuppe",
-      "ContactId": 799,
-      "SaleId": 824,
-      "Mrmrs": "eum",
-      "Firstname": "Stone",
-      "MiddleName": "Brekke, Turner and Halvorson",
-      "Lastname": "Kuhlman",
-      "SaleStakeholderId": 277,
-      "Rank": 49,
-      "Phone": "603.010.7160 x981"
+      "StakeholderRoleName": "VonRueden LLC",
+      "Comment": "quaerat",
+      "StakeholderRoleId": 624,
+      "CountryId": 637,
+      "PersonId": 37,
+      "EmailDescription": "ramon_crona@medhurstschamberger.us",
+      "EmailId": 957,
+      "EmailAddress": "jayden@zulaufsmith.co.uk",
+      "PhoneId": 159,
+      "ContactName": "Larson Inc and Sons",
+      "ContactId": 839,
+      "SaleId": 554,
+      "Mrmrs": "et",
+      "Firstname": "Brisa",
+      "MiddleName": "Ullrich-Senger",
+      "Lastname": "Sporer",
+      "SaleStakeholderId": 603,
+      "Rank": 548,
+      "Phone": "(851)548-6673 x52128"
     }
   ]
 }
@@ -129,31 +129,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Langosh-Leannon",
-    "Comment": "iure",
-    "StakeholderRoleId": 54,
-    "CountryId": 909,
-    "PersonId": 599,
-    "EmailDescription": "roma_anderson@harris.uk",
-    "EmailId": 101,
-    "EmailAddress": "brandon_schiller@blandavolkman.ca",
-    "PhoneId": 525,
-    "ContactName": "Treutel-O'Reilly",
-    "ContactId": 468,
-    "SaleId": 647,
-    "Mrmrs": "occaecati",
-    "Firstname": "Bonita",
-    "MiddleName": "VonRueden Inc and Sons",
-    "Lastname": "Howe",
-    "SaleStakeholderId": 722,
-    "Rank": 341,
-    "Phone": "614-642-5875 x2037",
+    "StakeholderRoleName": "Turner LLC",
+    "Comment": "sit",
+    "StakeholderRoleId": 998,
+    "CountryId": 2,
+    "PersonId": 658,
+    "EmailDescription": "ted.kirlin@christiansenrogahn.com",
+    "EmailId": 643,
+    "EmailAddress": "ronny.schultz@kovacekgleichner.us",
+    "PhoneId": 146,
+    "ContactName": "Will Group",
+    "ContactId": 911,
+    "SaleId": 875,
+    "Mrmrs": "dolores",
+    "Firstname": "Noah",
+    "MiddleName": "Fadel, Deckow and Wyman",
+    "Lastname": "Hilll",
+    "SaleStakeholderId": 740,
+    "Rank": 791,
+    "Phone": "128-843-0384 x4362",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldLength": 483
       }
     }
   }

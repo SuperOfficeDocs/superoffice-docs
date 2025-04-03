@@ -31,7 +31,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 371,
-    "Name": "Abbott, Green and Okuneva",
-    "ToolTip": "Harum ratione quia.",
+    "Id": 52,
+    "Name": "Green LLC",
+    "ToolTip": "In laudantium consectetur consequatur sapiente similique provident.",
     "Deleted": false,
-    "Rank": 956,
-    "Type": "autem",
-    "ColorBlock": 328,
-    "IconHint": "non",
+    "Rank": 399,
+    "Type": "suscipit",
+    "ColorBlock": 650,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2003-10-18T02:38:27.0423674+02:00",
+    "LastChanged": "2017-07-10T14:28:27.7270373+02:00",
     "ChildItems": [
       {
-        "Id": 652,
-        "Name": "Labadie LLC",
-        "ToolTip": "Quae et asperiores.",
-        "Deleted": true,
-        "Rank": 435,
-        "Type": "autem",
-        "ColorBlock": 214,
-        "IconHint": "quae",
-        "Selected": false,
-        "LastChanged": "1999-06-29T02:38:27.0423674+02:00",
+        "Id": 24,
+        "Name": "Dickens, Kerluke and Jacobs",
+        "ToolTip": "Enim ut.",
+        "Deleted": false,
+        "Rank": 56,
+        "Type": "quis",
+        "ColorBlock": 270,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2005-09-14T14:28:27.7270373+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "aspernatur",
-        "Hidden": true,
-        "FullName": "Mr. Ansel Howell",
+        "ExtraInfo": "repellendus",
+        "StyleHint": "perferendis",
+        "Hidden": false,
+        "FullName": "Ida Schiller V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 588
+            "FieldType": "System.String",
+            "FieldLength": 26
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "labore",
+    "ExtraInfo": "a",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Allie Wisoky Jr.",
+    "FullName": "Ross Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 355
+        "FieldLength": 815
       }
     }
   }

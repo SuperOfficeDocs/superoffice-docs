@@ -111,6 +111,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -125,13 +126,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    547,
-    328
+    99,
+    772
   ]
 }
 ```
@@ -144,65 +145,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 14,
-    "StartDate": "2018-06-02T02:38:20.557605+02:00",
-    "EndDate": "2011-05-04T02:38:20.557605+02:00",
+    "AppointmentId": 511,
+    "StartDate": "2001-07-09T14:28:21.1648024+02:00",
+    "EndDate": "2024-02-20T14:28:21.1648024+01:00",
     "Type": "BookingForChecklist",
-    "Task": "eos",
-    "AssociateFullName": "Vivianne Lind",
-    "ContactName": "Maggio LLC",
-    "Description": "Innovative intermediate support",
-    "PersonFullName": "Piper Roberts",
-    "PersonId": 492,
-    "ContactId": 219,
-    "ProjectId": 762,
-    "ProjectName": "Trantow LLC",
-    "IsPublished": false,
-    "AssociateId": 385,
-    "ColorIndex": 98,
+    "Task": "dicta",
+    "AssociateFullName": "Friedrich Herzog",
+    "ContactName": "Quigley, Parker and Rogahn",
+    "Description": "Inverse grid-enabled core",
+    "PersonFullName": "Percival Towne V",
+    "PersonId": 108,
+    "ContactId": 382,
+    "ProjectId": 778,
+    "ProjectName": "Stokes Group",
+    "IsPublished": true,
+    "AssociateId": 364,
+    "ColorIndex": 668,
     "IsFree": false,
     "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 632,
-    "PriorityName": "Kihn-Maggio",
+    "PriorityId": 479,
+    "PriorityName": "Langworth, Lowe and Volkman",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2022-10-30T02:38:20.557605+01:00",
+    "ActiveDate": "2001-12-29T14:28:21.1648024+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2025-02-14T02:38:20.557605+01:00",
-    "RecurringEndDate": "2003-05-31T02:38:20.557605+02:00",
-    "MotherId": 74,
-    "AssignedBy": 520,
-    "AssignedByFullName": "Lorenzo Weissnat",
+    "RecurringStartDate": "2009-09-26T14:28:21.1648024+02:00",
+    "RecurringEndDate": "2023-06-23T14:28:21.1648024+02:00",
+    "MotherId": 435,
+    "AssignedBy": 656,
+    "AssignedByFullName": "Efrain Corkery",
     "RejectReason": "",
-    "Location": "voluptatem",
-    "AlarmLeadTime": "ut",
-    "SaleId": 889,
-    "SaleName": "Bode, Bogisich and Schoen",
-    "AssociateName": "Sipes-Kunze",
-    "CreatedDate": "2004-03-22T02:38:20.557605+01:00",
-    "CreatedBy": "totam",
-    "CreatedByFullName": "Brown Batz",
-    "CreatedByAssociateId": 566,
+    "Location": "et",
+    "AlarmLeadTime": "provident",
+    "SaleId": 504,
+    "SaleName": "Luettgen-Schimmel",
+    "AssociateName": "Nader-Stiedemann",
+    "CreatedDate": "2012-04-11T14:28:21.1648024+02:00",
+    "CreatedBy": "alias",
+    "CreatedByFullName": "Ms. Willie Dickinson",
+    "CreatedByAssociateId": 386,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 742,
-    "Title": "nulla",
-    "Agenda": "accusantium",
-    "InternalNotes": "aut",
+    "PreferredTZLocation": 49,
+    "Title": "cupiditate",
+    "Agenda": "dolorem",
+    "InternalNotes": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 517
+        "FieldLength": 144
       }
     }
   }

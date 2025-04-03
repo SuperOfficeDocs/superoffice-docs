@@ -167,10 +167,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "ad",
-  "ProviderName": "Reichel, Hand and Stracke",
-  "PageSize": 220,
-  "PageNumber": 581
+  "Restrictions": "aliquam",
+  "ProviderName": "Kiehn-Kuhlman",
+  "PageSize": 280,
+  "PageNumber": 269
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hermiston, Yost and Bradtke",
-      "DisplayTooltip": "consequatur",
-      "DisplayType": "beatae",
+      "DisplayName": "Hessel, Ebert and Schiller",
+      "DisplayTooltip": "laboriosam",
+      "DisplayType": "quia",
       "CanOrderBy": true,
-      "Name": "Murphy Group",
+      "Name": "Hansen-Franecki",
       "CanRestrictBy": false,
-      "RestrictionType": "dolores",
-      "RestrictionListName": "Streich, Eichmann and Reinger",
+      "RestrictionType": "excepturi",
+      "RestrictionListName": "O'Reilly Group",
       "IsVisible": false,
-      "ExtraInfo": "expedita",
-      "Width": "atque",
-      "IconHint": "vero",
-      "HeadingIconHint": "repellendus"
+      "ExtraInfo": "ut",
+      "Width": "et",
+      "IconHint": "nesciunt",
+      "HeadingIconHint": "praesentium"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Donnelly, Volkman and Rolfson",
-      "PrimaryKey": 573,
+      "EntityName": "Mueller LLC",
+      "PrimaryKey": 527,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "deserunt",
-          "TooltipHint": "beatae",
-          "LinkHint": "aperiam"
+          "DisplayValue": "vel",
+          "TooltipHint": "dolore",
+          "LinkHint": "ut"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "eligendi",
+      "LinkHint": "rerum",
+      "StyleHint": "recusandae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 216
+          "FieldLength": 252
         }
       }
     }
   ],
-  "RowCount": 575,
+  "RowCount": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldType": "System.String",
+      "FieldLength": 20
     }
   }
 }

@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 285,
-  "Name": "West LLC",
-  "Tooltip": "eum",
+  "Id": 393,
+  "Name": "Gleichner, Gislason and Yost",
+  "Tooltip": "adipisci",
   "Deleted": false,
-  "UdListDefinitionId": 677,
-  "Rank": 451,
+  "UdListDefinitionId": 456,
+  "Rank": 119,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 470
+      "FieldLength": 199
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 254,
-    "Name": "Grady LLC",
-    "ToolTip": "Voluptas vitae optio tenetur qui iure impedit et.",
-    "Deleted": true,
-    "Rank": 754,
+    "Id": 972,
+    "Name": "Lind, Cartwright and Mohr",
+    "ToolTip": "Illum incidunt.",
+    "Deleted": false,
+    "Rank": 42,
     "Type": "qui",
-    "ColorBlock": 445,
-    "IconHint": "sint",
+    "ColorBlock": 551,
+    "IconHint": "reiciendis",
     "Selected": true,
-    "LastChanged": "1999-05-13T02:38:26.8080217+02:00",
+    "LastChanged": "2008-03-24T14:28:27.6020419+01:00",
     "ChildItems": [
       {
-        "Id": 459,
-        "Name": "Homenick Group",
-        "ToolTip": "Quia nostrum perspiciatis.",
+        "Id": 72,
+        "Name": "Prosacco-Kuhn",
+        "ToolTip": "Eaque ut.",
         "Deleted": false,
-        "Rank": 29,
-        "Type": "tempore",
-        "ColorBlock": 472,
-        "IconHint": "a",
+        "Rank": 970,
+        "Type": "voluptas",
+        "ColorBlock": 891,
+        "IconHint": "nesciunt",
         "Selected": true,
-        "LastChanged": "2015-05-26T02:38:26.8080217+02:00",
+        "LastChanged": "2012-04-15T14:28:27.6020419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsam",
-        "StyleHint": "labore",
+        "ExtraInfo": "distinctio",
+        "StyleHint": "laudantium",
         "Hidden": false,
-        "FullName": "Leslie Miller",
+        "FullName": "Trace Rice",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 952
+            "FieldType": "System.String",
+            "FieldLength": 659
           }
         }
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "beatae",
-    "Hidden": false,
-    "FullName": "Ms. Jerrold Goldner II",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Carlie Walsh",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 478
+        "FieldType": "System.String",
+        "FieldLength": 913
       }
     }
   }

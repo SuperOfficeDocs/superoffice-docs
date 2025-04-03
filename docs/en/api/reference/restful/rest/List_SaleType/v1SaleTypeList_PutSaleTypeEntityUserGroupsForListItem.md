@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 47,
-    "Name": "Borer, Swaniawski and Rice",
-    "ToolTip": "Et quas ipsam sint eum possimus iusto.",
-    "Deleted": true,
-    "Rank": 807,
-    "Type": "inventore",
-    "ColorBlock": 338,
-    "IconHint": "dicta",
-    "Selected": true,
-    "LastChanged": "2017-02-11T02:38:26.9330101+01:00",
+    "Id": 930,
+    "Name": "Reynolds Inc and Sons",
+    "ToolTip": "Qui qui nam inventore optio dolore perferendis.",
+    "Deleted": false,
+    "Rank": 31,
+    "Type": "blanditiis",
+    "ColorBlock": 597,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "1998-03-04T14:28:27.7114135+01:00",
     "ChildItems": [
       {
-        "Id": 120,
-        "Name": "Hilpert Inc and Sons",
-        "ToolTip": "Rerum dolorem.",
+        "Id": 869,
+        "Name": "Kunde-Renner",
+        "ToolTip": "Porro aspernatur distinctio quia.",
         "Deleted": false,
-        "Rank": 711,
-        "Type": "voluptatibus",
-        "ColorBlock": 961,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2009-10-10T02:38:26.9330101+02:00",
+        "Rank": 209,
+        "Type": "a",
+        "ColorBlock": 43,
+        "IconHint": "nesciunt",
+        "Selected": true,
+        "LastChanged": "2023-10-21T14:28:27.7114135+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "fugit",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Dr. Alize Dexter Leuschke II"
+        "FullName": "Elisha Brekke"
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "sit",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Mrs. Cole Isabella Luettgen"
+    "FullName": "Mrs. Judge Jaylon Hintz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 624,
-    "Name": "Hilpert-Pacocha",
-    "ToolTip": "Dolor et aut culpa sunt libero deleniti odit.",
+    "Id": 443,
+    "Name": "Sipes-Okuneva",
+    "ToolTip": "Explicabo eum deleniti quo unde natus.",
     "Deleted": false,
-    "Rank": 478,
-    "Type": "animi",
-    "ColorBlock": 680,
-    "IconHint": "distinctio",
-    "Selected": false,
-    "LastChanged": "2024-08-12T02:38:26.9330101+02:00",
+    "Rank": 666,
+    "Type": "quam",
+    "ColorBlock": 48,
+    "IconHint": "nihil",
+    "Selected": true,
+    "LastChanged": "2015-10-02T14:28:27.7114135+02:00",
     "ChildItems": [
       {
-        "Id": 646,
-        "Name": "Hand, Christiansen and Schinner",
-        "ToolTip": "Voluptatem facilis corporis non atque voluptas optio.",
+        "Id": 768,
+        "Name": "Hayes Group",
+        "ToolTip": "Sint quos.",
         "Deleted": false,
-        "Rank": 623,
-        "Type": "reiciendis",
-        "ColorBlock": 632,
-        "IconHint": "distinctio",
-        "Selected": false,
-        "LastChanged": "2004-10-12T02:38:26.9330101+02:00",
+        "Rank": 61,
+        "Type": "nulla",
+        "ColorBlock": 979,
+        "IconHint": "aliquid",
+        "Selected": true,
+        "LastChanged": "2021-08-23T14:28:27.7114135+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "explicabo",
-        "StyleHint": "quo",
-        "Hidden": false,
-        "FullName": "Jacinto Waelchi",
+        "ExtraInfo": "magnam",
+        "StyleHint": "laborum",
+        "Hidden": true,
+        "FullName": "Baron Kuhn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 464
+            "FieldType": "System.String",
+            "FieldLength": 801
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "delectus",
-    "Hidden": true,
-    "FullName": "Daniella Quitzon II",
+    "ExtraInfo": "omnis",
+    "StyleHint": "quas",
+    "Hidden": false,
+    "FullName": "Rupert Blick",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 694
+        "FieldType": "System.Int32",
+        "FieldLength": 167
       }
     }
   }

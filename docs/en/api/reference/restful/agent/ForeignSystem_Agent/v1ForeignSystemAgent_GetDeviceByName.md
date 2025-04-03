@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Jast-Beatty",
-  "DeviceName": "Lesch, Kovacek and Orn"
+  "ApplicationName": "Lehner-Breitenberg",
+  "DeviceName": "Quigley LLC"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 823,
-  "Name": "Mosciski-Terry",
-  "CreatedDate": "2001-01-30T02:38:21.4482803+01:00",
-  "UpdatedDate": "1999-08-03T02:38:21.4482803+02:00",
-  "AssociateFullName": "Obie Scarlett Raynor MD",
-  "CreatedBy": "reiciendis",
-  "UpdatedBy": "aliquid",
-  "DeviceIdentifier": "molestias",
-  "ForeignAppId": 46,
+  "ForeignDeviceId": 383,
+  "Name": "Bahringer Inc and Sons",
+  "CreatedDate": "1998-04-18T14:28:22.0085182+02:00",
+  "UpdatedDate": "2010-11-01T14:28:22.0085182+01:00",
+  "AssociateFullName": "Hyman Wuckert",
+  "CreatedBy": "esse",
+  "UpdatedBy": "non",
+  "DeviceIdentifier": "optio",
+  "ForeignAppId": 47,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 823
+      "FieldType": "System.Int32",
+      "FieldLength": 309
     }
   }
 }

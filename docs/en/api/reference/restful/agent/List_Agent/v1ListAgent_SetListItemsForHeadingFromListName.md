@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/List/SetListItemsForHeadingFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "McKenzie Group",
-  "HeadingId": 590,
+  "UdListDefinitionName": "Gerhold, Windler and Zulauf",
+  "HeadingId": 910,
   "ListItemIds": [
-    807,
-    182
+    529,
+    856
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/Search
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "architecto"
+  "SearchString": "dolorem"
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "915-545-1491 x3764",
-    "PersonCellPhone": "615.994.6190 x7500",
-    "PersonPrivatePhone": "187.266.8449 x59552",
-    "PersonFaxNumber": "1178084",
-    "PersonPagerNumber": "660523",
-    "PersonEmail": "deion_kemmer@schulist.com",
-    "Id": 679,
-    "Name": "Wyman, Mohr and Bogan",
-    "Tooltip": "et",
-    "UniqueId": "debitis",
+    "PersonDirectPhone": "(233)953-5118 x6650",
+    "PersonCellPhone": "843.302.7460",
+    "PersonPrivatePhone": "749.735.7306",
+    "PersonFaxNumber": "1684387",
+    "PersonPagerNumber": "564899",
+    "PersonEmail": "carmela@treutel.uk",
+    "Id": 899,
+    "Name": "Nikolaus-Macejkovic",
+    "Tooltip": "quia",
+    "UniqueId": "dignissimos",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldLength": 91
       }
     }
   }

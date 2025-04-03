@@ -74,18 +74,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "illum",
+  "Provider": "repudiandae",
   "Restrictions": [
     {
-      "Name": "Hoppe, Denesik and Quigley",
-      "Operator": "quo",
+      "Name": "Kerluke Group",
+      "Operator": "vel",
       "Values": [
-        "id",
-        "consectetur"
+        "pariatur",
+        "quam"
       ],
       "DisplayValues": [
-        "ea",
-        "et"
+        "aut",
+        "autem"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 157,
+      "InterParenthesis": 743,
       "InterOperator": "And",
-      "UniqueHash": 700
+      "UniqueHash": 590
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  160,
-  341
+  485,
+  479
 ]
 ```

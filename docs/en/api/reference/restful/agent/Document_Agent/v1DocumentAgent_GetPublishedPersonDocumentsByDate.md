@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedPersonDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 902,
-  "IncludeProjectDocuments": false,
-  "StartTime": "1999-06-23T02:38:21.2295568+02:00",
-  "EndTime": "2010-01-15T02:38:21.2295568+01:00",
-  "Count": 134
+  "PersonId": 739,
+  "IncludeProjectDocuments": true,
+  "StartTime": "2011-09-18T14:28:21.805403+02:00",
+  "EndTime": "2016-12-13T14:28:21.805403+01:00",
+  "Count": 555
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 125,
-    "Attention": "culpa",
-    "Header": "atque",
-    "Name": "Gorczany, Huel and Beer",
-    "OurRef": "soluta",
-    "YourRef": "accusantium",
-    "Description": "Polarised needs-based interface",
-    "DocumentTemplate": "asperiores",
+    "DocumentId": 816,
+    "Attention": "quasi",
+    "Header": "aliquid",
+    "Name": "Kovacek-Abernathy",
+    "OurRef": "est",
+    "YourRef": "et",
+    "Description": "Synergistic intermediate monitoring",
+    "DocumentTemplate": "velit",
     "IsPublished": false,
-    "PersonId": 242,
-    "PersonFullName": "Eladio Wolff MD",
-    "AssociateFullName": "Sanford Flatley",
-    "ContactId": 307,
-    "ContactName": "Kemmer LLC",
-    "ProjectId": 762,
-    "ProjectName": "Klein-Prohaska",
-    "AssociateId": 69,
-    "Snum": 481,
-    "SaleId": 963,
-    "SaleName": "Fay, Wehner and Kassulke",
+    "PersonId": 248,
+    "PersonFullName": "Rodrigo Gusikowski",
+    "AssociateFullName": "Kameron Monahan",
+    "ContactId": 72,
+    "ContactName": "Heaney LLC",
+    "ProjectId": 861,
+    "ProjectName": "Mraz, Hansen and Balistreri",
+    "AssociateId": 501,
+    "Snum": 592,
+    "SaleId": 761,
+    "SaleName": "Boyer Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 522
+        "FieldLength": 93
       }
     }
   }

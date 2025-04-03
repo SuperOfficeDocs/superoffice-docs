@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 232,
-  "ColumnId": 902,
-  "FieldDefault": "aspernatur",
-  "FieldHeight": 788,
-  "FieldLabel": "et",
-  "FieldLeft": 305,
-  "FieldTop": 175,
+  "UDefFieldId": 106,
+  "ColumnId": 680,
+  "FieldDefault": "vel",
+  "FieldHeight": 577,
+  "FieldLabel": "aut",
+  "FieldLeft": 768,
+  "FieldTop": 735,
   "FieldType": "Checkbox",
-  "FieldWidth": 385,
-  "FormatMask": "accusamus",
-  "HideLabel": true,
+  "FieldWidth": 646,
+  "FormatMask": "est",
+  "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 21,
-  "LabelLeft": 13,
-  "LabelTop": 13,
+  "LabelHeight": 66,
+  "LabelLeft": 206,
+  "LabelTop": 999,
   "LabelWidth": 728,
-  "LastVersionId": 388,
-  "ListTableId": 570,
-  "IsMandatory": true,
+  "LastVersionId": 657,
+  "ListTableId": 284,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 305,
-  "ProgId": "repudiandae",
-  "IsReadOnly": true,
-  "ShortLabel": "doloremque",
-  "TabOrder": 585,
-  "TextLength": 776,
-  "Tooltip": "sed",
-  "UdefIdentity": 73,
-  "UDListDefinitionId": 505,
+  "Page1LineNo": 357,
+  "ProgId": "tempore",
+  "IsReadOnly": false,
+  "ShortLabel": "natus",
+  "TabOrder": 23,
+  "TextLength": 422,
+  "Tooltip": "eos",
+  "UdefIdentity": 990,
+  "UDListDefinitionId": 771,
   "Justification": "Center",
-  "Version": 179,
-  "TemplateVariableName": "Grady LLC",
+  "Version": 637,
+  "TemplateVariableName": "Cremin Group",
   "HasBeenPublished": false,
-  "MdoListName": "Bergstrom, Murray and Altenwerth",
+  "MdoListName": "Cormier, Rodriguez and Halvorson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 867
+      "FieldType": "System.Int32",
+      "FieldLength": 847
     }
   }
 }

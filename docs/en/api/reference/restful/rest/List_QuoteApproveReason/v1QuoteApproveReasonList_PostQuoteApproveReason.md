@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/QuoteApproveReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 577,
-  "Name": "Bergnaum-Hettinger",
-  "Tooltip": "incidunt",
+  "Id": 830,
+  "Name": "Swaniawski, Doyle and Brakus",
+  "Tooltip": "quae",
   "Deleted": false,
-  "UdListDefinitionId": 635,
-  "Rank": 631
+  "UdListDefinitionId": 615,
+  "Rank": 315
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 382,
-  "Name": "Gaylord LLC",
-  "Tooltip": "maiores",
+  "Id": 19,
+  "Name": "Lang Inc and Sons",
+  "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 116,
-  "Rank": 89,
+  "UdListDefinitionId": 356,
+  "Rank": 896,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 876
+      "FieldLength": 771
     }
   }
 }

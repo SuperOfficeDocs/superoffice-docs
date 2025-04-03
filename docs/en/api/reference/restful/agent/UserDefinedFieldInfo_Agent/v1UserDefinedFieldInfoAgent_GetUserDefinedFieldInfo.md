@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=295
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=505
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 960,
-  "ColumnId": 496,
-  "FieldDefault": "tempore",
-  "FieldHeight": 983,
-  "FieldLabel": "exercitationem",
-  "FieldLeft": 124,
-  "FieldTop": 812,
+  "UDefFieldId": 174,
+  "ColumnId": 429,
+  "FieldDefault": "qui",
+  "FieldHeight": 342,
+  "FieldLabel": "hic",
+  "FieldLeft": 307,
+  "FieldTop": 661,
   "FieldType": "Checkbox",
-  "FieldWidth": 514,
-  "FormatMask": "tenetur",
+  "FieldWidth": 756,
+  "FormatMask": "et",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 160,
-  "LabelLeft": 318,
-  "LabelTop": 872,
-  "LabelWidth": 100,
-  "LastVersionId": 161,
-  "ListTableId": 925,
+  "LabelHeight": 658,
+  "LabelLeft": 414,
+  "LabelTop": 994,
+  "LabelWidth": 461,
+  "LastVersionId": 290,
+  "ListTableId": 93,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 760,
-  "ProgId": "rerum",
+  "Page1LineNo": 252,
+  "ProgId": "ullam",
   "IsReadOnly": false,
-  "ShortLabel": "consequatur",
-  "TabOrder": 882,
-  "TextLength": 928,
-  "Tooltip": "totam",
-  "UdefIdentity": 578,
-  "UDListDefinitionId": 553,
+  "ShortLabel": "rerum",
+  "TabOrder": 592,
+  "TextLength": 986,
+  "Tooltip": "dolorem",
+  "UdefIdentity": 533,
+  "UDListDefinitionId": 925,
   "Justification": "Center",
-  "Version": 41,
-  "TemplateVariableName": "Feest, Brekke and Purdy",
-  "HasBeenPublished": true,
-  "MdoListName": "Kuphal-Monahan",
+  "Version": 708,
+  "TemplateVariableName": "Upton-Pagac",
+  "HasBeenPublished": false,
+  "MdoListName": "Mante, Swift and Deckow",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 5
+      "FieldLength": 689
     }
   }
 }

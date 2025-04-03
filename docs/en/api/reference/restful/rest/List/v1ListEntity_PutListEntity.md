@@ -101,15 +101,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 697,
-  "Name": "Flatley LLC",
-  "Tooltip": "illum",
+  "Id": 134,
+  "Name": "Hoppe Inc and Sons",
+  "Tooltip": "asperiores",
   "Deleted": false,
-  "Rank": 110,
+  "Rank": 911,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "occaecati",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "qui",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -121,22 +121,22 @@ HTTP/1.1 200 ListEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 753,
-  "Name": "Wilkinson Group",
-  "Tooltip": "aspernatur",
+  "Id": 125,
+  "Name": "Hammes Inc and Sons",
+  "Tooltip": "possimus",
   "Deleted": false,
-  "Rank": 746,
+  "Rank": 108,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quidem",
-  "InUseByUserDefinedFields": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "odio",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 495
+      "FieldType": "System.Int32",
+      "FieldLength": 576
     }
   },
   "_Links": {

@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 637,
-  "Name": "Boyle, Pfeffer and Trantow",
-  "Rank": 494,
-  "Tooltip": "officia",
+  "AssociateId": 729,
+  "Name": "Larkin, Bins and Kunde",
+  "Rank": 395,
+  "Tooltip": "quo",
   "LicenseOwners": [
     {
-      "Name": "Hauck-Armstrong",
-      "Description": "Cloned systemic pricing structure",
+      "Name": "Kulas-Smith",
+      "Description": "Synchronised cohesive monitoring",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 913
+          "FieldLength": 670
         }
       }
     },
     {
-      "Name": "Hauck-Armstrong",
-      "Description": "Cloned systemic pricing structure",
+      "Name": "Kulas-Smith",
+      "Description": "Synchronised cohesive monitoring",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 913
+          "FieldLength": 670
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "dolor",
-      "Tooltip": "id",
-      "Id": 667,
-      "Rank": 773,
+      "Value": "voluptatem",
+      "Tooltip": "voluptas",
+      "Id": 931,
+      "Rank": 853,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 839
+          "FieldLength": 190
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2024-04-03T02:38:22.1669527+02:00",
-  "Lastlogout": "2004-04-27T02:38:22.1669527+02:00",
-  "EjUserId": 292,
-  "RequestSignature": "maiores",
+  "Lastlogin": "2003-06-24T14:28:22.6647419+02:00",
+  "Lastlogout": "2009-03-27T14:28:22.6647419+01:00",
+  "EjUserId": 750,
+  "RequestSignature": "porro",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ratione",
-      "DisplayValue": "necessitatibus",
+      "Value": "et",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 868
+          "FieldType": "System.Int32",
+          "FieldLength": 249
         }
       }
     },
     {
       "Type": null,
-      "Value": "ratione",
-      "DisplayValue": "necessitatibus",
+      "Value": "et",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 868
+          "FieldType": "System.Int32",
+          "FieldLength": 249
         }
       }
     }
   ],
-  "UserName": "Hyatt-Schimmel",
+  "UserName": "Robel, Nikolaus and Hoppe",
   "TicketCategories": [
     {
-      "Id": 600,
-      "Name": "Dickens, Rodriguez and Hartmann",
-      "ToolTip": "Dolor recusandae.",
-      "Deleted": true,
-      "Rank": 557,
-      "Type": "inventore",
+      "Id": 961,
+      "Name": "Cummings, Abbott and Brown",
+      "ToolTip": "Nihil ipsam distinctio veritatis quis dolorem assumenda.",
+      "Deleted": false,
+      "Rank": 86,
+      "Type": "autem",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "necessitatibus",
-      "ColorBlock": 92,
-      "ExtraInfo": "ad",
-      "StyleHint": "ut",
-      "FullName": "Ansley Huels",
+      "IconHint": "iusto",
+      "ColorBlock": 942,
+      "ExtraInfo": "numquam",
+      "StyleHint": "ea",
+      "FullName": "Magnolia Bryana Rippin II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 312
+          "FieldLength": 297
         }
       }
     }
   ],
-  "NickName": "Kozey Group",
+  "NickName": "Effertz Inc and Sons",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "est"
+    "ExtraFields1": "aliquam",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "aut"
+    "CustomFields1": "dolor",
+    "CustomFields2": "enim"
   },
   "PostSaveCommands": [
     {
-      "Name": "Stoltenberg, Graham and Mitchell",
-      "DisplayName": "Hahn Group",
-      "Description": "Customer-focused foreground matrix",
-      "ToolTip": "Nulla ea dignissimos.",
+      "Name": "Hermann-Deckow",
+      "DisplayName": "Lebsack Inc and Sons",
+      "Description": "Realigned didactic moratorium",
+      "ToolTip": "Sed nobis earum.",
       "Actions": "Implicit",
-      "ActionData": "et",
+      "ActionData": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 22
+          "FieldLength": 909
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldType": "System.String",
+      "FieldLength": 939
     }
   }
 }

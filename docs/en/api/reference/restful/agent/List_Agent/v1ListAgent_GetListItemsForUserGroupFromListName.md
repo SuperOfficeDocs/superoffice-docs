@@ -92,8 +92,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kovacek LLC",
-  "GroupId": 594
+  "UdListDefinitionName": "Skiles-Kris",
+  "GroupId": 698
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Buckridge-Kessler",
-    "ToolTip": "Dolore iusto minus ea excepturi.",
-    "Deleted": false,
-    "Rank": 521,
-    "Type": "tempore",
-    "ColorBlock": 436,
-    "IconHint": "culpa",
-    "Selected": false,
-    "LastChanged": "2024-07-28T02:38:21.5107392+02:00",
+    "Id": 613,
+    "Name": "Beier-Davis",
+    "ToolTip": "Accusamus officia sed repudiandae mollitia atque consectetur.",
+    "Deleted": true,
+    "Rank": 845,
+    "Type": "dolor",
+    "ColorBlock": 927,
+    "IconHint": "natus",
+    "Selected": true,
+    "LastChanged": "2013-10-02T14:28:22.0553915+02:00",
     "ChildItems": [
       {
-        "Id": 692,
-        "Name": "Greenholt-Keeling",
-        "ToolTip": "Eos commodi maiores non iusto ut.",
-        "Deleted": false,
-        "Rank": 797,
-        "Type": "eum",
-        "ColorBlock": 10,
-        "IconHint": "rerum",
+        "Id": 563,
+        "Name": "Adams LLC",
+        "ToolTip": "Totam laudantium voluptate voluptas sed.",
+        "Deleted": true,
+        "Rank": 647,
+        "Type": "rerum",
+        "ColorBlock": 138,
+        "IconHint": "quaerat",
         "Selected": false,
-        "LastChanged": "2003-03-28T02:38:21.5107392+01:00",
+        "LastChanged": "2010-11-30T14:28:22.0553915+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "et",
+        "StyleHint": "officia",
         "Hidden": true,
-        "FullName": "Thad Ruecker",
+        "FullName": "Royce Kirlin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 403
+            "FieldLength": 161
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "doloribus",
+    "ExtraInfo": "soluta",
+    "StyleHint": "in",
     "Hidden": false,
-    "FullName": "Moises Rolfson",
+    "FullName": "Novella Fahey DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 682
+        "FieldType": "System.String",
+        "FieldLength": 90
       }
     }
   }

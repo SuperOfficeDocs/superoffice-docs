@@ -36,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=False
+GET /api/v1/User/{id}?fk=True
 ```
 
 
@@ -102,7 +102,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 657,
-  "Name": "Gutkowski, Hickle and Schamberger",
-  "Rank": 825,
-  "Tooltip": "nisi",
+  "AssociateId": 638,
+  "Name": "Flatley Inc and Sons",
+  "Rank": 357,
+  "Tooltip": "et",
   "LicenseOwners": [
     {
-      "Name": "Green, Streich and Stroman",
-      "Description": "Face to face directional focus group",
+      "Name": "Rippin LLC",
+      "Description": "Implemented tertiary throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,13 +133,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 886
         }
       }
     },
     {
-      "Name": "Green, Streich and Stroman",
-      "Description": "Face to face directional focus group",
+      "Name": "Rippin LLC",
+      "Description": "Implemented tertiary throughput",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 886
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "voluptas",
-      "Tooltip": "molestiae",
-      "Id": 458,
-      "Rank": 455,
-      "Deleted": false,
+      "Value": "impedit",
+      "Tooltip": "tempore",
+      "Id": 434,
+      "Rank": 504,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldType": "System.String",
+          "FieldLength": 768
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2012-09-26T02:38:26.6047599+02:00",
-  "Lastlogout": "2009-03-26T02:38:26.6047599+01:00",
-  "EjUserId": 213,
-  "RequestSignature": "autem",
+  "Deleted": false,
+  "Lastlogin": "2005-10-17T14:28:27.4145503+02:00",
+  "Lastlogout": "2000-09-08T14:28:27.4145503+02:00",
+  "EjUserId": 563,
+  "RequestSignature": "voluptate",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "tempore",
-      "DisplayValue": "id",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 872
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "tempore",
-      "DisplayValue": "id",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 872
-        }
-      }
-    }
-  ],
-  "UserName": "Grimes, Howe and Lebsack",
-  "TicketCategories": [
-    {
-      "Id": 539,
-      "Name": "Turner-Sporer",
-      "ToolTip": "Voluptates eum ipsam.",
-      "Deleted": false,
-      "Rank": 440,
-      "Type": "accusantium",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "expedita",
-      "ColorBlock": 852,
-      "ExtraInfo": "laudantium",
-      "StyleHint": "quae",
-      "FullName": "Evan Bernhard",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 790
-        }
-      }
-    }
-  ],
-  "NickName": "Kshlerin-Reichert",
-  "WaitingForApproval": true,
-  "ExtraFields": {
-    "ExtraFields1": "hic",
-    "ExtraFields2": "ut"
-  },
-  "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "nulla"
-  },
-  "PostSaveCommands": [
-    {
-      "Name": "Stamm, Muller and Ward",
-      "DisplayName": "Hermiston-Hoppe",
-      "Description": "Profound eco-centric Graphical User Interface",
-      "ToolTip": "Esse dolore vitae.",
-      "Actions": "Implicit",
-      "ActionData": "vitae",
+      "Value": "ratione",
+      "DisplayValue": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 895
+          "FieldLength": 584
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "ratione",
+      "DisplayValue": "non",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 584
+        }
+      }
+    }
+  ],
+  "UserName": "Larkin, Parisian and Emard",
+  "TicketCategories": [
+    {
+      "Id": 459,
+      "Name": "Smitham, Nicolas and Mueller",
+      "ToolTip": "Facere numquam explicabo voluptatibus adipisci.",
+      "Deleted": false,
+      "Rank": 336,
+      "Type": "sit",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "quia",
+      "ColorBlock": 420,
+      "ExtraInfo": "rerum",
+      "StyleHint": "et",
+      "FullName": "Amaya Pfeffer",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 331
+        }
+      }
+    }
+  ],
+  "NickName": "Bogan LLC",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "qui",
+    "ExtraFields2": "veniam"
+  },
+  "CustomFields": {
+    "CustomFields1": "quis",
+    "CustomFields2": "omnis"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Powlowski-Jacobson",
+      "DisplayName": "Herman Group",
+      "Description": "Down-sized tertiary circuit",
+      "ToolTip": "Recusandae voluptatem odio laborum.",
+      "Actions": "Implicit",
+      "ActionData": "cupiditate",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 920
         }
       }
     }
@@ -275,7 +275,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 13
+      "FieldLength": 129
     }
   },
   "_Links": {

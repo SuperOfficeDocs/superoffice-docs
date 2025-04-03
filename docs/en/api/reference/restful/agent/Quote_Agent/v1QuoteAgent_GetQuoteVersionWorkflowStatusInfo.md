@@ -82,7 +82,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 9
+  "QuoteVersionId": 481
 }
 ```
 
@@ -94,15 +94,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Status": "Error",
-  "IconHint": "vel",
-  "DisplayMessage": "ab",
-  "DisplayTooltip": "et",
+  "IconHint": "est",
+  "DisplayMessage": "qui",
+  "DisplayTooltip": "unde",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldLength": 205
     }
   }
 }

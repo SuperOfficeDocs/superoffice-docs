@@ -26,7 +26,7 @@ Gets a Person object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Person/GetPerson?personId=781
+POST /api/v1/Agents/Person/GetPerson?personId=532
 POST /api/v1/Agents/Person/GetPerson?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Person/GetPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -117,53 +117,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "aut",
-  "PersonId": 755,
-  "Mrmrs": "laboriosam",
-  "Firstname": "Chadrick",
-  "Lastname": "Kulas",
-  "MiddleName": "Walsh, Renner and Oberbrunner",
-  "Title": "sequi",
-  "Description": "Compatible composite Graphic Interface",
-  "Email": "derick@effertz.uk",
-  "FullName": "Prof. Ned Mitchell",
-  "DirectPhone": "(328)624-9930 x855",
-  "FormalName": "Hahn LLC",
-  "CountryId": 770,
-  "ContactId": 508,
-  "ContactName": "Lehner, Ryan and Feil",
-  "Retired": 657,
-  "Rank": 44,
-  "ActiveInterests": 156,
+  "Position": "quod",
+  "PersonId": 634,
+  "Mrmrs": "voluptatem",
+  "Firstname": "Lavinia",
+  "Lastname": "Glover",
+  "MiddleName": "Swift Group",
+  "Title": "rem",
+  "Description": "Up-sized real-time protocol",
+  "Email": "damion@stroman.info",
+  "FullName": "Mrs. Vincent Walter",
+  "DirectPhone": "1-617-519-0407",
+  "FormalName": "Davis, Sporer and Kuphal",
+  "CountryId": 504,
+  "ContactId": 482,
+  "ContactName": "Zemlak-Abernathy",
+  "Retired": 98,
+  "Rank": 249,
+  "ActiveInterests": 978,
   "ContactDepartment": "",
-  "ContactCountryId": 503,
-  "ContactOrgNr": "488026",
-  "FaxPhone": "803.927.1355",
-  "MobilePhone": "320.675.0005",
-  "ContactPhone": "517.453.4491 x213",
-  "AssociateName": "Oberbrunner, Abshire and Considine",
-  "AssociateId": 626,
+  "ContactCountryId": 682,
+  "ContactOrgNr": "250221",
+  "FaxPhone": "1-543-914-5765 x478",
+  "MobilePhone": "069-049-7831 x47870",
+  "ContactPhone": "029-787-9126 x28615",
+  "AssociateName": "Bauch, Okuneva and Schulist",
+  "AssociateId": 221,
   "UsePersonAddress": false,
-  "ContactFax": "harum",
-  "Kanafname": "illo",
-  "Kanalname": "aliquid",
-  "Post1": "dolor",
-  "Post2": "similique",
-  "Post3": "pariatur",
-  "EmailName": "landen.turcotte@donnelly.uk",
-  "ContactFullName": "Noemi Jaunita Ullrich V",
-  "ActiveErpLinks": 472,
-  "TicketPriorityId": 579,
-  "SupportLanguageId": 472,
-  "SupportAssociateId": 148,
+  "ContactFax": "laboriosam",
+  "Kanafname": "recusandae",
+  "Kanalname": "vel",
+  "Post1": "perspiciatis",
+  "Post2": "sit",
+  "Post3": "possimus",
+  "EmailName": "franz@boyle.co.uk",
+  "ContactFullName": "Ms. Myrl Reichert",
+  "ActiveErpLinks": 765,
+  "TicketPriorityId": 684,
+  "SupportLanguageId": 602,
+  "SupportAssociateId": 465,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "1501311",
+  "PersonNumber": "1290744",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 439
+      "FieldLength": 630
     }
   }
 }

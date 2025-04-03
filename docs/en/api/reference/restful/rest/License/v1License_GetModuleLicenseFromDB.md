@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "McClure, Brown and Sanford",
-  "ModuleName": "McClure-Collins",
-  "ModuleDescription": "Synchronised attitude-oriented local area network",
-  "ModuleTooltip": "debitis",
-  "ModuleVersion": "quisquam",
+  "OwnerName": "Stoltenberg Group",
+  "ModuleName": "Mertz-Kilback",
+  "ModuleDescription": "Upgradable 4th generation algorithm",
+  "ModuleTooltip": "sed",
+  "ModuleVersion": "repudiandae",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": false,
+  "Unrestricted": true,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 24,
-  "ExtraFlags": 913,
-  "ExtraInfo": "ut",
-  "SortOrder": 928,
+  "NumberOfLicenses": 536,
+  "ExtraFlags": 795,
+  "ExtraInfo": "praesentium",
+  "SortOrder": 497,
   "IsHidden": false,
-  "PrerequisiteModuleName": "Ebert-Bergstrom",
-  "Signature": "blanditiis"
+  "PrerequisiteModuleName": "Torp, Waters and Hills",
+  "Signature": "nesciunt"
 }
 ```

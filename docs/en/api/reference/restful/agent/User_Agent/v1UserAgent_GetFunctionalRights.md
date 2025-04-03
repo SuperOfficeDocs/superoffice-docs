@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 142
+  "RoleId": 133
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Spinka-Torphy",
-    "ToolTip": "Officiis sequi cum ipsam repellendus natus voluptatem.",
+    "Id": 386,
+    "Name": "Herman-Murphy",
+    "ToolTip": "Dolor deserunt.",
     "Deleted": false,
-    "Rank": 153,
-    "Type": "quibusdam",
-    "ColorBlock": 356,
-    "IconHint": "molestias",
+    "Rank": 20,
+    "Type": "alias",
+    "ColorBlock": 220,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2014-04-12T02:38:22.1981664+02:00",
+    "LastChanged": "2000-12-03T14:28:22.6959913+01:00",
     "ChildItems": [
       {
-        "Id": 715,
-        "Name": "Dickens-Runte",
-        "ToolTip": "Quisquam et quo a id.",
+        "Id": 893,
+        "Name": "Beahan LLC",
+        "ToolTip": "Dolores facilis unde exercitationem.",
         "Deleted": false,
-        "Rank": 891,
-        "Type": "eos",
-        "ColorBlock": 628,
+        "Rank": 349,
+        "Type": "reprehenderit",
+        "ColorBlock": 890,
         "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2009-04-09T02:38:22.1981664+02:00",
+        "Selected": false,
+        "LastChanged": "2009-09-17T14:28:22.6959913+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Aliya Hyatt",
+        "ExtraInfo": "ut",
+        "StyleHint": "officiis",
+        "Hidden": true,
+        "FullName": "Miss Ariel Ernie Ondricka Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 296
+            "FieldType": "System.String",
+            "FieldLength": 163
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "sed",
+    "ExtraInfo": "placeat",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Sid Johnston IV",
+    "FullName": "Miss Kamron Breitenberg",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 806
+        "FieldType": "System.Int32",
+        "FieldLength": 180
       }
     }
   }

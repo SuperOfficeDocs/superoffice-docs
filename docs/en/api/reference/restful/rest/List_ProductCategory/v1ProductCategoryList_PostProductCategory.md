@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 195,
-  "Name": "Christiansen-Hodkiewicz",
-  "Tooltip": "quod",
+  "Id": 26,
+  "Name": "Considine Group",
+  "Tooltip": "consequuntur",
   "Deleted": false,
-  "UdListDefinitionId": 890,
-  "Rank": 656
+  "UdListDefinitionId": 21,
+  "Rank": 408
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 193,
-  "Name": "Halvorson, Pfannerstill and Bergstrom",
-  "Tooltip": "reiciendis",
-  "Deleted": false,
-  "UdListDefinitionId": 534,
-  "Rank": 869,
+  "Id": 891,
+  "Name": "Upton, Rohan and Littel",
+  "Tooltip": "ad",
+  "Deleted": true,
+  "UdListDefinitionId": 856,
+  "Rank": 57,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 704
+      "FieldType": "System.Int32",
+      "FieldLength": 824
     }
   }
 }

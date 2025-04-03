@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Crist-Dibbert",
+  "UdListDefinitionName": "Kessler-Prosacco",
   "IncludeDeleted": false
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 184,
-    "Name": "Thiel, Schaefer and Stiedemann",
-    "Tooltip": "asperiores",
-    "Deleted": false,
-    "UdListDefinitionId": 149,
-    "Rank": 309,
+    "Id": 954,
+    "Name": "Hodkiewicz-Ritchie",
+    "Tooltip": "aut",
+    "Deleted": true,
+    "UdListDefinitionId": 296,
+    "Rank": 40,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldType": "System.String",
+        "FieldLength": 302
       }
     }
   }

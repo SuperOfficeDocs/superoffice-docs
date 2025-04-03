@@ -57,7 +57,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Padberg, Ebert and Jones",
-      "Description": "Seamless impactful website",
-      "Rank": 976,
+      "Name": "Sipes, Vandervort and Brekke",
+      "Description": "Synergized user-facing parallelism",
+      "Rank": 572,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Padberg, Ebert and Jones",
-      "Description": "Seamless impactful website",
-      "Rank": 976,
+      "Name": "Sipes, Vandervort and Brekke",
+      "Description": "Synergized user-facing parallelism",
+      "Rank": 572,
       "Restrictions": [
         {},
         {}
@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldType": "System.Int32",
+      "FieldLength": 295
     }
   }
 }

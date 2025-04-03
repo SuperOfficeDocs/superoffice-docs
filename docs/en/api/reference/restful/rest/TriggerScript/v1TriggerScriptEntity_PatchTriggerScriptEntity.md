@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "illo",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "illo",
+    "path": "et",
     "value": {}
   }
 ]
@@ -144,22 +144,22 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 955,
-  "Name": "Bogan, O'Connell and Kulas",
+  "ScreenChooserId": 521,
+  "Name": "Jakubowski-Klocko",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "voluptatem",
-  "Source": "ut",
-  "Registered": "2023-01-31T02:38:26.5266399+01:00",
-  "RegisteredAssociateId": 397,
-  "Updated": "2009-07-27T02:38:26.5266399+02:00",
-  "UpdatedAssociateId": 505,
+  "UniqueIdentifier": "eligendi",
+  "Source": "vel",
+  "Registered": "2013-06-22T14:28:27.3520534+02:00",
+  "RegisteredAssociateId": 586,
+  "Updated": "2020-01-18T14:28:27.3520534+01:00",
+  "UpdatedAssociateId": 45,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldType": "System.String",
+      "FieldLength": 979
     }
   },
   "_Links": {

@@ -90,17 +90,17 @@ OK
 POST /api/v1/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 517,
-  "Name": "Jerde-Hagenes",
-  "ContentType": "et",
-  "AttSize": 795,
+  "AttachmentId": 59,
+  "Name": "Considine, Upton and Mayer",
+  "ContentType": "eos",
+  "AttSize": 216,
   "InlineImage": false,
-  "ContentId": "explicabo",
-  "AuthKey": "rem",
+  "ContentId": "et",
+  "AuthKey": "dolor",
   "IsSafeFileExtension": false
 }
 ```
@@ -112,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 812,
-  "Name": "Kohler, Carroll and Sporer",
-  "ContentType": "est",
-  "AttSize": 454,
-  "InlineImage": false,
-  "ContentId": "deserunt",
-  "AuthKey": "autem",
+  "AttachmentId": 440,
+  "Name": "Kub-Heller",
+  "ContentType": "reiciendis",
+  "AttSize": 846,
+  "InlineImage": true,
+  "ContentId": "quod",
+  "AuthKey": "temporibus",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldLength": 370
     }
   },
   "_Links": {

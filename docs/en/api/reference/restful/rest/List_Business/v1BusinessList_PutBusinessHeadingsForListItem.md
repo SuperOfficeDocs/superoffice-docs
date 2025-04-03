@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 96,
-    "Name": "Kirlin, Zboncak and Gerhold",
-    "ToolTip": "Voluptatum ut velit sit hic excepturi autem.",
-    "Deleted": true,
-    "Rank": 36,
-    "Type": "alias",
-    "ColorBlock": 477,
-    "IconHint": "et",
+    "Id": 360,
+    "Name": "Dicki LLC",
+    "ToolTip": "Voluptatem sed.",
+    "Deleted": false,
+    "Rank": 492,
+    "Type": "enim",
+    "ColorBlock": 244,
+    "IconHint": "nemo",
     "Selected": false,
-    "LastChanged": "2023-09-30T02:38:26.6830285+02:00",
+    "LastChanged": "2021-04-15T14:28:27.4770477+02:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Schinner, Fay and Osinski",
-        "ToolTip": "Molestiae eveniet et et.",
-        "Deleted": true,
-        "Rank": 587,
-        "Type": "eum",
-        "ColorBlock": 255,
-        "IconHint": "deleniti",
-        "Selected": true,
-        "LastChanged": "2015-12-09T02:38:26.6830285+01:00",
+        "Id": 134,
+        "Name": "Grant Group",
+        "ToolTip": "Velit corporis voluptas.",
+        "Deleted": false,
+        "Rank": 424,
+        "Type": "sequi",
+        "ColorBlock": 303,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "2018-01-30T14:28:27.4770477+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "ut",
+        "ExtraInfo": "iste",
+        "StyleHint": "blanditiis",
         "Hidden": false,
-        "FullName": "Dr. Duncan Jazmyn Turcotte"
+        "FullName": "Clotilde Wolf"
       }
     ],
-    "ExtraInfo": "dolore",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Earl Murazik III"
+    "ExtraInfo": "dicta",
+    "StyleHint": "repellat",
+    "Hidden": true,
+    "FullName": "Johnathon Brown Conroy DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 797,
-    "Name": "Kozey, Smitham and Donnelly",
-    "ToolTip": "Explicabo quia rerum facilis laborum.",
-    "Deleted": true,
-    "Rank": 147,
-    "Type": "natus",
-    "ColorBlock": 544,
-    "IconHint": "laborum",
-    "Selected": true,
-    "LastChanged": "2015-12-11T02:38:26.6830285+01:00",
+    "Id": 38,
+    "Name": "Donnelly-Osinski",
+    "ToolTip": "Qui ut sed doloribus sit minus sit aspernatur.",
+    "Deleted": false,
+    "Rank": 807,
+    "Type": "ipsa",
+    "ColorBlock": 142,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "2018-12-05T14:28:27.4770477+01:00",
     "ChildItems": [
       {
-        "Id": 523,
-        "Name": "Rice Group",
-        "ToolTip": "Tempore accusantium assumenda earum eos asperiores.",
-        "Deleted": true,
-        "Rank": 264,
-        "Type": "illo",
-        "ColorBlock": 170,
-        "IconHint": "ut",
+        "Id": 937,
+        "Name": "Funk Group",
+        "ToolTip": "Ad dicta praesentium numquam porro.",
+        "Deleted": false,
+        "Rank": 51,
+        "Type": "quo",
+        "ColorBlock": 808,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2004-07-31T02:38:26.6830285+02:00",
+        "LastChanged": "2025-01-07T14:28:27.4770477+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "a",
-        "StyleHint": "rerum",
+        "ExtraInfo": "sint",
+        "StyleHint": "cum",
         "Hidden": false,
-        "FullName": "Prof. Jacinthe Braun V",
+        "FullName": "Stefanie Sipes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 617
+            "FieldType": "System.Int32",
+            "FieldLength": 378
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "sit",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Bryon Schimmel",
+    "FullName": "Tracey Hahn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 902
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   }

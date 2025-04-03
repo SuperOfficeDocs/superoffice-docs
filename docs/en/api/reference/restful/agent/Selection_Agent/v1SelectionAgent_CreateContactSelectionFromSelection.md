@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 893,
-  "Name": "Hermann, Dickinson and Goyette",
+  "SelectionId": 480,
+  "Name": "Grant, Swaniawski and Ryan",
   "TargetSelectionType": "Combined",
-  "CopyMembers": false
+  "CopyMembers": true
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-platform well-modulated local area network",
-  "Postit": "quos",
+  "Description": "Optimized dedicated interface",
+  "Postit": "quo",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 590,
-  "IncludePerson": 274,
+  "GroupIdx": 38,
+  "IncludePerson": 996,
   "MemberCount": 99.99,
-  "Name": "Towne-Johnston",
-  "PostitTextId": 824,
-  "CreatedDate": "2000-02-11T02:38:21.9638511+01:00",
-  "SelectionId": 241,
-  "SoundEx": "tempore",
-  "Source": 925,
-  "TextId": 154,
-  "UpdatedDate": "2018-09-02T02:38:21.9638511+02:00",
-  "UpdatedCount": 523,
-  "Visibility": 538,
+  "Name": "Hamill, Berge and Rutherford",
+  "PostitTextId": 300,
+  "CreatedDate": "2023-12-06T14:28:22.3835038+01:00",
+  "SelectionId": 436,
+  "SoundEx": "aut",
+  "Source": 743,
+  "TextId": 720,
+  "UpdatedDate": "2005-07-23T14:28:22.3835038+02:00",
+  "UpdatedCount": 96,
+  "Visibility": 153,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 585,
-  "TargetTableName": "Price-Pacocha",
+  "TargetTableNumber": 582,
+  "TargetTableName": "Schimmel-Franecki",
   "Completed": true,
-  "LeftSelectionId": 909,
-  "RightSelectionId": 591,
+  "LeftSelectionId": 226,
+  "RightSelectionId": 174,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Graham LLC",
-  "ShadowProviderName": "O'Connell, Leannon and Hegmann",
-  "ChartKey": "porro",
-  "LastLoaded": "1998-07-25T02:38:21.9638511+02:00",
-  "LastLoadedBy": 27,
+  "MainProviderName": "Schaden Group",
+  "ShadowProviderName": "Adams Group",
+  "ChartKey": "labore",
+  "LastLoaded": "2022-04-14T14:28:22.3835038+02:00",
+  "LastLoadedBy": 726,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-05-16T02:38:21.9638511+02:00",
-  "LastMembershipChangeBy": 372,
+  "LastMembershipChange": "2004-02-21T14:28:22.3835038+01:00",
+  "LastMembershipChangeBy": 253,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "aut",
-  "MailingsProviderName": "Wiza LLC",
-  "DashboardTileDefinitionId": 515,
+  "MainHeading": "est",
+  "MemberTabHeading": "nesciunt",
+  "MailingsProviderName": "Runolfsdottir-Mertz",
+  "DashboardTileDefinitionId": 649,
   "VisibleFor": [
     {
-      "VisibleId": 569,
+      "VisibleId": 492,
       "Visibility": "All",
-      "DisplayValue": "facere",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldLength": 418
         }
       }
     },
     {
-      "VisibleId": 569,
+      "VisibleId": 492,
       "Visibility": "All",
-      "DisplayValue": "facere",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 501
+          "FieldLength": 418
         }
       }
     }
@@ -207,7 +207,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 331
+      "FieldLength": 989
     }
   }
 }

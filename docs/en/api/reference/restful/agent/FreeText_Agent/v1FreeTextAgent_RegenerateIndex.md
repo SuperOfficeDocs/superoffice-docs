@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/FreeText/RegenerateIndex
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 851,
-  "Name": "Hodkiewicz Group",
-  "AssociateId": 9,
-  "DetailsTable": 269,
-  "DetailsRecord": 378,
-  "IsSystemTask": true,
-  "IsInternalTask": false,
+  "Id": 406,
+  "Name": "Daugherty-Jacobson",
+  "AssociateId": 991,
+  "DetailsTable": 969,
+  "DetailsRecord": 346,
+  "IsSystemTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "itaque",
-    "ParameterObject2": "nulla"
+    "ParameterObject1": "incidunt",
+    "ParameterObject2": "ea"
   },
-  "LastStarted": "2019-11-01T02:38:21.4639053+01:00",
-  "Created": "2018-09-16T02:38:21.4639053+02:00",
-  "StartCount": 652,
-  "DatabaseSerialNumber": "776834",
-  "Context": "molestias",
-  "Result": "earum",
+  "LastStarted": "2003-10-10T14:28:22.0241429+02:00",
+  "Created": "1999-08-17T14:28:22.0241429+02:00",
+  "StartCount": 512,
+  "DatabaseSerialNumber": "1359419",
+  "Context": "quos",
+  "Result": "vel",
   "State": "All",
-  "Description": "Exclusive multimedia infrastructure",
-  "Response": "incidunt",
-  "Request": "aliquam",
-  "ProgressDescription": "Fully-configurable 24/7 success",
-  "ProgressPercent": 286,
-  "FileName": "Murphy LLC",
+  "Description": "Function-based methodical support",
+  "Response": "ducimus",
+  "Request": "provident",
+  "ProgressDescription": "Front-line intangible contingency",
+  "ProgressPercent": 336,
+  "FileName": "Herzog, Skiles and Marquardt",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 6
+      "FieldType": "System.Int32",
+      "FieldLength": 724
     }
   }
 }

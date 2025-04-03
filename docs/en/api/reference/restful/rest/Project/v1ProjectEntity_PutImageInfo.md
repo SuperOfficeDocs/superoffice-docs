@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=225
+PUT /api/v1/Project/{id}/ImageInfo?projectId=832
 ```
 
 
@@ -104,23 +104,23 @@ OK
 PUT /api/v1/Project/{id}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 558,
-  "BlobSize": 216,
-  "Description": "Distributed attitude-oriented definition",
-  "ExtraInfo": "est",
+  "BlobId": 927,
+  "BlobSize": 642,
+  "Description": "Secured discrete application",
+  "ExtraInfo": "repellendus",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "molestias",
-  "OriginalSize": 598,
-  "CreatedDate": "2013-07-14T02:38:26.3235369+02:00",
-  "UpdatedDate": "2018-04-09T02:38:26.3235369+02:00",
+  "IsZipped": false,
+  "MimeType": "dolorem",
+  "OriginalSize": 526,
+  "CreatedDate": "2021-08-31T14:28:27.0551896+02:00",
+  "UpdatedDate": "2005-07-28T14:28:27.0551896+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "cumque"
+  "ConceptualType": "quia"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 546,
-  "BlobSize": 905,
-  "Description": "Reactive assymetric monitoring",
-  "ExtraInfo": "dolore",
+  "BlobId": 200,
+  "BlobSize": 678,
+  "Description": "Extended secondary portal",
+  "ExtraInfo": "quasi",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "fugit",
-  "OriginalSize": 614,
-  "CreatedDate": "2007-12-26T02:38:26.3235369+01:00",
-  "UpdatedDate": "2008-08-16T02:38:26.3235369+02:00",
+  "IsZipped": true,
+  "MimeType": "voluptas",
+  "OriginalSize": 786,
+  "CreatedDate": "2002-07-12T14:28:27.0551896+02:00",
+  "UpdatedDate": "2011-10-31T14:28:27.0551896+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "et",
+  "ConceptualType": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldLength": 349
     }
   }
 }

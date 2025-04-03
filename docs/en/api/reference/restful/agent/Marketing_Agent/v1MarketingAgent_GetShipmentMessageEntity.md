@@ -26,7 +26,7 @@ Gets a ShipmentMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=151
+POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?shipmentMessageEntityId=649
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Marketing/GetShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 734,
-  "PlainMessage": "in",
-  "HtmlMessage": "nam",
-  "SmsMessage": "voluptatum",
-  "Description": "Focused heuristic knowledge base",
-  "Subject": "temporibus",
-  "FolderId": 639,
-  "HeaderField": "aspernatur",
-  "Design": "occaecati",
+  "ShipmentMessageId": 83,
+  "PlainMessage": "maiores",
+  "HtmlMessage": "ratione",
+  "SmsMessage": "molestiae",
+  "Description": "Operative exuding knowledge base",
+  "Subject": "qui",
+  "FolderId": 38,
+  "HeaderField": "nihil",
+  "Design": "voluptatem",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Horizontal bi-directional parallelism",
-  "AccessKey": "praesentium",
-  "DocumentMessage": 361,
-  "Registered": "1998-05-27T02:38:21.5576497+02:00",
-  "RegisteredAssociateId": 900,
-  "Updated": "2007-06-07T02:38:21.5576497+02:00",
-  "UpdatedAssociateId": 378,
-  "UpdatedCount": 660,
+  "InlineImages": false,
+  "LongDescription": "Quality-focused holistic local area network",
+  "AccessKey": "consequuntur",
+  "DocumentMessage": 107,
+  "Registered": "2007-02-25T14:28:22.1022648+01:00",
+  "RegisteredAssociateId": 120,
+  "Updated": "2007-12-01T14:28:22.1022648+01:00",
+  "UpdatedAssociateId": 105,
+  "UpdatedCount": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 795
+      "FieldType": "System.Int32",
+      "FieldLength": 656
     }
   }
 }

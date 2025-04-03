@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 657,
-  "PersonId": 877,
-  "AppointmentId": 503,
-  "DocumentId": 767,
-  "SaleId": 460,
-  "SelectionId": 731,
-  "ProjectId": 793,
+  "ContactId": 15,
+  "PersonId": 272,
+  "AppointmentId": 162,
+  "DocumentId": 732,
+  "SaleId": 838,
+  "SelectionId": 892,
+  "ProjectId": 506,
   "CustomTags": [
-    "exercitationem",
-    "ad"
+    "minus",
+    "laboriosam"
   ],
   "CustomValues": [
-    "perferendis",
-    "inventore"
+    "in",
+    "quod"
   ],
-  "UiCulture": "non"
+  "UiCulture": "dolorum"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 117,
+  "DocumentId": 899,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "mollitia",
-  "Header": "placeat",
-  "Name": "Jenkins, Lang and Hand",
-  "OurRef": "aut",
-  "YourRef": "aut",
-  "CreatedDate": "2014-10-14T02:38:21.2763892+02:00",
-  "UpdatedDate": "2011-10-11T02:38:21.2763892+02:00",
-  "Description": "Customer-focused analyzing parallelism",
+  "Attention": "ipsa",
+  "Header": "beatae",
+  "Name": "Jerde Inc and Sons",
+  "OurRef": "sit",
+  "YourRef": "blanditiis",
+  "CreatedDate": "2016-05-28T14:28:21.8678991+02:00",
+  "UpdatedDate": "2021-07-27T14:28:21.8678991+02:00",
+  "Description": "Function-based asynchronous core",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-03-07T02:38:21.2920122+01:00",
-  "ExternalRef": "aut",
+  "Date": "2024-02-11T14:28:21.8678991+01:00",
+  "ExternalRef": "veritatis",
   "Completed": "Completed",
-  "ActiveLinks": 16,
+  "ActiveLinks": 542,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Wiza Inc and Sons",
-      "Id": 325,
-      "Description": "Organized actuating intranet",
-      "ExtraInfo": "necessitatibus",
-      "LinkId": 403,
+      "EntityName": "Batz-Fisher",
+      "Id": 402,
+      "Description": "Robust bifurcated knowledge user",
+      "ExtraInfo": "repellendus",
+      "LinkId": 972,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 482
+          "FieldLength": 955
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 926,
-  "Snum": 364,
+  "SuggestedDocumentId": 64,
+  "Snum": 177,
   "UserDefinedFields": {
-    "SuperOffice:1": "Gust Nicolette Leffler V",
-    "SuperOffice:2": "1515010316"
+    "SuperOffice:1": "Alana Marvin",
+    "SuperOffice:2": "Ms. Rhea Wiza DDS"
   },
   "ExtraFields": {
     "ExtraFields1": "et",
-    "ExtraFields2": "rerum"
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "odit",
-    "CustomFields2": "quia"
+    "CustomFields1": "et",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "1998-01-29T02:38:21.2920122+01:00",
-  "PublishTo": "2016-06-01T02:38:21.2920122+02:00",
-  "PublishFrom": "2009-12-17T02:38:21.2920122+01:00",
+  "PublishEventDate": "2011-06-10T14:28:21.8678991+02:00",
+  "PublishTo": "2023-03-10T14:28:21.8678991+01:00",
+  "PublishFrom": "2003-05-06T14:28:21.8678991+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 582,
+      "VisibleId": 163,
       "Visibility": "All",
-      "DisplayValue": "incidunt",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 643
+          "FieldLength": 446
         }
       }
     },
     {
-      "VisibleId": 582,
+      "VisibleId": 163,
       "Visibility": "All",
-      "DisplayValue": "incidunt",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 643
+          "FieldLength": 446
         }
       }
     }
@@ -237,8 +237,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 956
+      "FieldType": "System.Int32",
+      "FieldLength": 215
     }
   }
 }

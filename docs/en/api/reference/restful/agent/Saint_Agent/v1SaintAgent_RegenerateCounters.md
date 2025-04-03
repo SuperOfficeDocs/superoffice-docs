@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 303,
-  "Name": "Stamm LLC",
-  "AssociateId": 3,
-  "DetailsTable": 362,
-  "DetailsRecord": 798,
+  "Id": 909,
+  "Name": "Franecki, Balistreri and Fadel",
+  "AssociateId": 229,
+  "DetailsTable": 127,
+  "DetailsRecord": 570,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "nihil",
-    "ParameterObject2": "est"
+    "ParameterObject1": "pariatur",
+    "ParameterObject2": "beatae"
   },
-  "LastStarted": "2006-03-13T02:38:21.8076201+01:00",
-  "Created": "2016-12-03T02:38:21.8076201+01:00",
-  "StartCount": 621,
-  "DatabaseSerialNumber": "917232",
-  "Context": "minima",
-  "Result": "sit",
+  "LastStarted": "2013-05-22T14:28:22.3366302+02:00",
+  "Created": "2020-05-23T14:28:22.3366302+02:00",
+  "StartCount": 517,
+  "DatabaseSerialNumber": "1107028",
+  "Context": "velit",
+  "Result": "beatae",
   "State": "All",
-  "Description": "Re-contextualized multi-tasking monitoring",
-  "Response": "at",
-  "Request": "fuga",
-  "ProgressDescription": "Multi-channelled stable protocol",
-  "ProgressPercent": 639,
-  "FileName": "Stoltenberg, Gorczany and Rau",
+  "Description": "Persevering encompassing process improvement",
+  "Response": "tempora",
+  "Request": "id",
+  "ProgressDescription": "Self-enabling solution-oriented throughput",
+  "ProgressPercent": 477,
+  "FileName": "Douglas, Kuvalis and Lebsack",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 718
+      "FieldLength": 710
     }
   }
 }

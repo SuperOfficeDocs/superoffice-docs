@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=quo
+GET /api/v1/List/MrMrs/MDOItems?query=quis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "Brown-Reilly",
-    "ToolTip": "Possimus libero enim eaque ut hic.",
-    "Deleted": true,
-    "Rank": 829,
-    "Type": "ut",
+    "Id": 378,
+    "Name": "Swift Inc and Sons",
+    "ToolTip": "Qui blanditiis autem adipisci in animi dolorem quos.",
+    "Deleted": false,
+    "Rank": 397,
+    "Type": "necessitatibus",
     "ChildItems": [
       {
-        "Id": 621,
-        "Name": "Schmeler Group",
-        "ToolTip": "Accusantium debitis perferendis sit eos neque.",
+        "Id": 123,
+        "Name": "Bartoletti-Beier",
+        "ToolTip": "Illum non et.",
         "Deleted": false,
-        "Rank": 767,
-        "Type": "aliquid",
+        "Rank": 922,
+        "Type": "tenetur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veritatis",
-        "ColorBlock": 34,
-        "ExtraInfo": "id",
-        "StyleHint": "sunt",
-        "FullName": "Dr. Maxime Zula Auer Sr.",
+        "IconHint": "sit",
+        "ColorBlock": 342,
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "sint",
+        "FullName": "Mrs. Johnson Greenholt PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 4
+            "FieldType": "System.Int32",
+            "FieldLength": 213
           }
         }
       }
     ],
-    "IconHint": "temporibus",
-    "ColorBlock": 794,
-    "ExtraInfo": "distinctio",
-    "StyleHint": "iste",
-    "FullName": "Shanelle Parisian",
+    "IconHint": "reiciendis",
+    "ColorBlock": 180,
+    "ExtraInfo": "modi",
+    "StyleHint": "aut",
+    "FullName": "Mrs. Alvena Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 615
+        "FieldType": "System.Int32",
+        "FieldLength": 290
       }
     }
   }

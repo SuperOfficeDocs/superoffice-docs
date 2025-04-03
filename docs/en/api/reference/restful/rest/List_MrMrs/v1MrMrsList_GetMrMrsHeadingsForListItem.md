@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Sauer-Padberg",
-    "ToolTip": "Et perferendis aut dolorum.",
+    "Id": 464,
+    "Name": "Aufderhar-Will",
+    "ToolTip": "In labore.",
     "Deleted": false,
-    "Rank": 629,
-    "Type": "error",
-    "ColorBlock": 137,
-    "IconHint": "ab",
-    "Selected": true,
-    "LastChanged": "2007-07-02T02:38:26.7923976+02:00",
+    "Rank": 603,
+    "Type": "perferendis",
+    "ColorBlock": 680,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "2022-03-16T14:28:27.5864176+01:00",
     "ChildItems": [
       {
-        "Id": 801,
-        "Name": "Parisian-Hamill",
-        "ToolTip": "Neque incidunt blanditiis et quis maiores dolores.",
+        "Id": 193,
+        "Name": "Purdy, Sawayn and Lebsack",
+        "ToolTip": "Cum sed quo.",
         "Deleted": false,
-        "Rank": 630,
-        "Type": "dolor",
-        "ColorBlock": 866,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "1999-09-06T02:38:26.7923976+02:00",
+        "Rank": 908,
+        "Type": "quibusdam",
+        "ColorBlock": 587,
+        "IconHint": "nihil",
+        "Selected": true,
+        "LastChanged": "2009-07-14T14:28:27.5864176+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quis",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "dolores",
+        "StyleHint": "eius",
         "Hidden": true,
-        "FullName": "Miss Aida Medhurst",
+        "FullName": "Mr. Layne Nikolaus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 261
+            "FieldType": "System.Int32",
+            "FieldLength": 881
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "dolores",
-    "Hidden": true,
-    "FullName": "Conor Colin Langworth PhD",
+    "ExtraInfo": "et",
+    "StyleHint": "mollitia",
+    "Hidden": false,
+    "FullName": "Willie Crist",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldLength": 4
       }
     }
   }

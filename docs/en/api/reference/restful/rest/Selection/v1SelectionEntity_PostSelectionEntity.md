@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Monitored next generation circuit",
-  "Postit": "cupiditate",
+  "Description": "Re-contextualized cohesive customer loyalty",
+  "Postit": "doloribus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 887,
-  "IncludePerson": 595,
+  "GroupIdx": 877,
+  "IncludePerson": 719,
   "MemberCount": 99.99,
-  "Name": "Corkery, Prohaska and Welch",
-  "PostitTextId": 594,
-  "CreatedDate": "2009-03-23T02:38:26.4016552+01:00",
-  "SelectionId": 505,
-  "SoundEx": "officia",
-  "Source": 645,
-  "TextId": 282,
-  "UpdatedDate": "2018-09-07T02:38:26.4016552+02:00",
-  "UpdatedCount": 1000,
-  "Visibility": 521,
+  "Name": "Jones-Romaguera",
+  "PostitTextId": 28,
+  "CreatedDate": "2022-10-06T14:28:27.2426821+02:00",
+  "SelectionId": 507,
+  "SoundEx": "aut",
+  "Source": 584,
+  "TextId": 35,
+  "UpdatedDate": "2014-05-13T14:28:27.2426821+02:00",
+  "UpdatedCount": 458,
+  "Visibility": 525,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 154,
-  "TargetTableName": "Ankunding, McKenzie and Kreiger",
+  "TargetTableNumber": 153,
+  "TargetTableName": "Buckridge, Jerde and Swift",
   "Completed": false,
-  "LeftSelectionId": 536,
-  "RightSelectionId": 915,
+  "LeftSelectionId": 114,
+  "RightSelectionId": 779,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Erdman, Schumm and Gutmann",
-  "ShadowProviderName": "Rau, Hane and Bins",
-  "ChartKey": "sit",
-  "LastLoaded": "2002-11-06T02:38:26.4016552+01:00",
-  "LastLoadedBy": 691,
+  "MainProviderName": "Bernhard LLC",
+  "ShadowProviderName": "Nienow-Adams",
+  "ChartKey": "incidunt",
+  "LastLoaded": "2001-10-22T14:28:27.2426821+02:00",
+  "LastLoadedBy": 520,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2001-06-14T02:38:26.4016552+02:00",
-  "LastMembershipChangeBy": 799,
+  "LastMembershipChange": "2006-06-02T14:28:27.2426821+02:00",
+  "LastMembershipChangeBy": 746,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "magni",
-  "MemberTabHeading": "odio",
-  "MailingsProviderName": "Huels LLC",
-  "DashboardTileDefinitionId": 132,
+  "MainHeading": "aut",
+  "MemberTabHeading": "cum",
+  "MailingsProviderName": "Cremin-Glover",
+  "DashboardTileDefinitionId": 497,
   "VisibleFor": [
     {
-      "VisibleId": 856,
+      "VisibleId": 22,
       "Visibility": "All",
-      "DisplayValue": "praesentium"
+      "DisplayValue": "ratione"
     },
     {
-      "VisibleId": 856,
+      "VisibleId": 22,
       "Visibility": "All",
-      "DisplayValue": "praesentium"
+      "DisplayValue": "ratione"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Vision-oriented web-enabled ability",
-  "Postit": "sequi",
+  "Description": "Fundamental bandwidth-monitored open system",
+  "Postit": "fugiat",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 977,
-  "IncludePerson": 974,
+  "GroupIdx": 400,
+  "IncludePerson": 550,
   "MemberCount": 99.99,
-  "Name": "Treutel-Schoen",
-  "PostitTextId": 959,
-  "CreatedDate": "2003-09-08T02:38:26.4016552+02:00",
-  "SelectionId": 775,
-  "SoundEx": "nisi",
-  "Source": 6,
-  "TextId": 45,
-  "UpdatedDate": "1997-11-11T02:38:26.4016552+01:00",
-  "UpdatedCount": 634,
-  "Visibility": 192,
+  "Name": "Herzog, Gusikowski and Walsh",
+  "PostitTextId": 631,
+  "CreatedDate": "2020-02-19T14:28:27.2426821+01:00",
+  "SelectionId": 821,
+  "SoundEx": "quisquam",
+  "Source": 478,
+  "TextId": 110,
+  "UpdatedDate": "2001-12-16T14:28:27.2426821+01:00",
+  "UpdatedCount": 810,
+  "Visibility": 7,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 939,
-  "TargetTableName": "Zemlak, Lang and Murphy",
-  "Completed": true,
-  "LeftSelectionId": 706,
-  "RightSelectionId": 193,
+  "TargetTableNumber": 965,
+  "TargetTableName": "Schmitt, Hansen and Cronin",
+  "Completed": false,
+  "LeftSelectionId": 779,
+  "RightSelectionId": 332,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Torphy Group",
-  "ShadowProviderName": "Price-Stoltenberg",
-  "ChartKey": "reprehenderit",
-  "LastLoaded": "2023-10-19T02:38:26.4016552+02:00",
-  "LastLoadedBy": 709,
+  "MainProviderName": "Kassulke-Boehm",
+  "ShadowProviderName": "Greenholt Group",
+  "ChartKey": "officia",
+  "LastLoaded": "2004-11-05T14:28:27.2426821+01:00",
+  "LastLoadedBy": 777,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-10-20T02:38:26.4016552+02:00",
-  "LastMembershipChangeBy": 897,
+  "LastMembershipChange": "2014-05-02T14:28:27.2426821+02:00",
+  "LastMembershipChangeBy": 906,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "ut",
-  "MemberTabHeading": "temporibus",
-  "MailingsProviderName": "McCullough, Mills and Dietrich",
-  "DashboardTileDefinitionId": 622,
+  "MainHeading": "impedit",
+  "MemberTabHeading": "dolorem",
+  "MailingsProviderName": "Lueilwitz, Dietrich and Hilpert",
+  "DashboardTileDefinitionId": 926,
   "VisibleFor": [
     {
-      "VisibleId": 723,
+      "VisibleId": 877,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 675
+          "FieldLength": 841
         }
       }
     },
     {
-      "VisibleId": 723,
+      "VisibleId": 877,
       "Visibility": "All",
-      "DisplayValue": "nobis",
+      "DisplayValue": "rerum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 675
+          "FieldLength": 841
         }
       }
     }
@@ -295,7 +295,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 794
+      "FieldLength": 963
     }
   },
   "_Links": {

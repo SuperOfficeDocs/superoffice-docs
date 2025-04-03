@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Trantow Group",
-      "DisplayName": "Koepp, McCullough and Miller",
-      "DisplayTooltip": "et",
+      "Name": "O'Connell, Pollich and Cremin",
+      "DisplayName": "Casper Inc and Sons",
+      "DisplayTooltip": "qui",
       "IsActive": false
     },
     {
-      "Name": "Trantow Group",
-      "DisplayName": "Koepp, McCullough and Miller",
-      "DisplayTooltip": "et",
+      "Name": "O'Connell, Pollich and Cremin",
+      "DisplayName": "Casper Inc and Sons",
+      "DisplayTooltip": "qui",
       "IsActive": false
     }
   ]

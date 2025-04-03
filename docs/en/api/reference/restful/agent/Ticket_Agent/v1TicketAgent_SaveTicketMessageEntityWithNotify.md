@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithNotify
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": true
+  "Notify": false
 }
 ```
 
@@ -115,79 +115,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 842,
+  "EjMessageId": 675,
   "Ticket": null,
-  "CreatedAt": "1998-05-09T02:38:22.1513395+02:00",
+  "CreatedAt": "2018-03-07T14:28:22.6647419+01:00",
   "CreatedBy": null,
-  "Author": "labore",
+  "Author": "amet",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "est",
-  "TimeSpent": 110,
-  "Body": "rerum",
-  "HtmlBody": "nihil",
-  "EmailHeader": "kaela@reilly.uk",
-  "DebugInfo": "illo",
-  "MailSorter": "sunt",
+  "MessageId": "voluptas",
+  "TimeSpent": 334,
+  "Body": "nam",
+  "HtmlBody": "illo",
+  "EmailHeader": "bertram@feest.us",
+  "DebugInfo": "assumenda",
+  "MailSorter": "beatae",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "voluptatem",
   "MessageHeaders": [
     {
-      "Id": 745,
-      "Name": "Ziemann-Daniel",
-      "Value": "saepe",
+      "Id": 442,
+      "Name": "Schroeder LLC",
+      "Value": "corrupti",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 473
+          "FieldType": "System.Int32",
+          "FieldLength": 163
         }
       }
     }
   ],
   "Important": false,
-  "Language": "nesciunt",
-  "Sentiment": 457,
-  "SentimentConfidence": 633,
+  "Language": "quasi",
+  "Sentiment": 399,
+  "SentimentConfidence": 944,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 185,
-      "Name": "Ruecker, Keebler and Stiedemann",
-      "ContentType": "consequatur",
-      "AttSize": 765,
+      "AttachmentId": 211,
+      "Name": "Stoltenberg-Marquardt",
+      "ContentType": "hic",
+      "AttSize": 292,
       "InlineImage": false,
-      "ContentId": "pariatur",
-      "AuthKey": "id",
+      "ContentId": "quidem",
+      "AuthKey": "tempora",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 718
+          "FieldType": "System.String",
+          "FieldLength": 644
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "eligendi",
-    "ExtraFields2": "fugiat"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "id",
-    "CustomFields2": "aut"
+    "CustomFields1": "voluptatum",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldLength": 791
     }
   }
 }

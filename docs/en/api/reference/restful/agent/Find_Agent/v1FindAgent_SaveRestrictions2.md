@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "optio",
-  "ProviderName": "Beer Group",
-  "StorageKey": "dolor",
+  "StorageType": "ratione",
+  "ProviderName": "Altenwerth LLC",
+  "StorageKey": "pariatur",
   "Restrictions": "quod"
 }
 ```

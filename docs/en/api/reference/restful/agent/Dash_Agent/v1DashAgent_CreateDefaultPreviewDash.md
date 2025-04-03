@@ -72,33 +72,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 199,
-  "Name": "Moore-Monahan",
-  "Description": "Cloned 4th generation access",
-  "OwnedByFullName": "Fletcher Leffler",
-  "Registered": "2003-05-16T02:38:21.1983079+02:00",
+  "DashboardId": 916,
+  "Name": "Bernhard Group",
+  "Description": "Focused reciprocal time-frame",
+  "OwnedByFullName": "Kale Kennedy Kautzer II",
+  "Registered": "2002-04-24T14:28:21.6960311+02:00",
   "Tiles": [
     {
-      "Name": "Howe-Blanda",
+      "Name": "Schultz, Stracke and Hahn",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldType": "System.String",
+          "FieldLength": 260
         }
       }
     },
     {
-      "Name": "Howe-Blanda",
+      "Name": "Schultz, Stracke and Hahn",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 490
+          "FieldType": "System.String",
+          "FieldLength": 260
         }
       }
     }
@@ -107,8 +107,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 193
+      "FieldType": "System.Int32",
+      "FieldLength": 639
     }
   }
 }

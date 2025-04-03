@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 498,
-    "Name": "Stamm Inc and Sons",
-    "ToolTip": "Aut eos.",
+    "Id": 287,
+    "Name": "Crona-Rempel",
+    "ToolTip": "Nesciunt ipsum culpa est.",
     "Deleted": true,
-    "Rank": 310,
-    "Type": "qui",
-    "ColorBlock": 975,
-    "IconHint": "maxime",
-    "Selected": false,
-    "LastChanged": "2017-04-21T02:38:26.9330101+02:00",
+    "Rank": 530,
+    "Type": "voluptatum",
+    "ColorBlock": 765,
+    "IconHint": "quaerat",
+    "Selected": true,
+    "LastChanged": "2017-05-08T14:28:27.7114135+02:00",
     "ChildItems": [
       {
-        "Id": 42,
-        "Name": "Bahringer-Heathcote",
-        "ToolTip": "Ducimus molestiae consequuntur.",
-        "Deleted": true,
-        "Rank": 563,
-        "Type": "ea",
-        "ColorBlock": 585,
-        "IconHint": "architecto",
+        "Id": 617,
+        "Name": "Abbott Inc and Sons",
+        "ToolTip": "Cumque non at accusamus ipsam ratione corrupti.",
+        "Deleted": false,
+        "Rank": 245,
+        "Type": "temporibus",
+        "ColorBlock": 508,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "2003-04-11T02:38:26.9330101+02:00",
+        "LastChanged": "2016-05-25T14:28:27.7114135+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "in",
+        "ExtraInfo": "provident",
+        "StyleHint": "hic",
         "Hidden": true,
-        "FullName": "Mercedes Kailyn Vandervort Jr.",
+        "FullName": "Barrett Ona Grady II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 880
+            "FieldType": "System.Int32",
+            "FieldLength": 675
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Joyce Letitia Considine DVM",
+    "ExtraInfo": "in",
+    "StyleHint": "ex",
+    "Hidden": true,
+    "FullName": "Lew Dayne Turner MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldLength": 476
       }
     }
   }

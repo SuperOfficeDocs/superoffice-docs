@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 894,
-  "Type": "ipsum"
+  "Id": 467,
+  "Type": "dolor"
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 435,
-    "Rank": 411,
-    "DefaultTask": 742,
-    "DefaultTaskText": "alias",
-    "IsVisual": false,
-    "LastGenerated": "2013-04-11T02:38:21.8076201+02:00",
-    "Description": "Networked value-added secured line",
-    "Name": "Welch, Senger and Johnson",
-    "StatusMonitorId": 494,
-    "PictureId": 91,
+    "OwnerTable": 422,
+    "Rank": 930,
+    "DefaultTask": 599,
+    "DefaultTaskText": "quaerat",
+    "IsVisual": true,
+    "LastGenerated": "2015-02-08T14:28:22.3366302+01:00",
+    "Description": "Intuitive human-resource toolset",
+    "Name": "Ernser Group",
+    "StatusMonitorId": 822,
+    "PictureId": 464,
     "NeedsUpdate": true,
-    "Deleted": false,
-    "NumMatches": 617,
-    "NumNeedUpdate": 524,
-    "GenerationStart": "2006-08-15T02:38:21.8076201+02:00",
+    "Deleted": true,
+    "NumMatches": 571,
+    "NumNeedUpdate": 40,
+    "GenerationStart": "2001-04-19T14:28:22.3366302+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 473
       }
     }
   }

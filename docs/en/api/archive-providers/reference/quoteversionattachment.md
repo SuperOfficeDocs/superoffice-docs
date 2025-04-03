@@ -111,7 +111,7 @@ This is the archive Provider for quote version attachments.
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteVersionAttachment?$select=name,documentPublish/publishedBy
+GET /api/v1/archive/QuoteVersionAttachment?$select=isMail,name,documentPublish/publishedBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 209,
-  "Name": "Will, Green and Macejkovic",
-  "Tooltip": "dolor",
+  "HeadingId": 502,
+  "Name": "Schmeler Inc and Sons",
+  "Tooltip": "esse",
   "Deleted": true,
-  "Rank": 664,
-  "UdListDefinitionId": 138
+  "Rank": 756,
+  "UdListDefinitionId": 763
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 491,
-  "Name": "Borer Inc and Sons",
-  "Tooltip": "ipsam",
+  "HeadingId": 8,
+  "Name": "Gutmann-Hilll",
+  "Tooltip": "ut",
   "Deleted": false,
-  "Rank": 97,
-  "UdListDefinitionId": 942,
+  "Rank": 874,
+  "UdListDefinitionId": 415,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldType": "System.String",
+      "FieldLength": 18
     }
   }
 }

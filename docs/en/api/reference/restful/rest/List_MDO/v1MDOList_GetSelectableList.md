@@ -30,8 +30,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=earum
-GET /api/v1/MDOList/{listname}/selectable?flat=False
+GET /api/v1/MDOList/{listname}/selectable?additional=repellendus
+GET /api/v1/MDOList/{listname}/selectable?flat=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 756,
-    "Name": "Ferry LLC",
-    "ToolTip": "Consequuntur dicta at.",
+    "Id": 568,
+    "Name": "Roberts Group",
+    "ToolTip": "Dolor optio repellendus expedita.",
     "Deleted": false,
-    "Rank": 77,
-    "Type": "nesciunt",
-    "ColorBlock": 995,
-    "IconHint": "provident",
+    "Rank": 702,
+    "Type": "harum",
+    "ColorBlock": 148,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2000-06-12T02:38:26.7767326+02:00",
+    "LastChanged": "2011-03-17T14:28:27.5707933+01:00",
     "ChildItems": [
       {
-        "Id": 943,
-        "Name": "Hyatt, Ziemann and Stanton",
-        "ToolTip": "Et ut odit sunt eum.",
+        "Id": 397,
+        "Name": "Dooley, Miller and Nitzsche",
+        "ToolTip": "Voluptatum unde voluptatem doloribus cupiditate explicabo saepe.",
         "Deleted": false,
-        "Rank": 251,
-        "Type": "veniam",
-        "ColorBlock": 533,
-        "IconHint": "impedit",
-        "Selected": true,
-        "LastChanged": "1999-11-04T02:38:26.7767326+01:00",
+        "Rank": 871,
+        "Type": "quidem",
+        "ColorBlock": 151,
+        "IconHint": "in",
+        "Selected": false,
+        "LastChanged": "2010-11-11T14:28:27.5707933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellat",
+        "ExtraInfo": "odit",
         "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Monty Shields",
+        "Hidden": false,
+        "FullName": "Elbert Lucius Skiles I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 787
+            "FieldLength": 633
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "illo",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Elinor Keeling",
+    "FullName": "Prof. Jarvis Izabella Connelly Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 396
+        "FieldLength": 188
       }
     }
   }

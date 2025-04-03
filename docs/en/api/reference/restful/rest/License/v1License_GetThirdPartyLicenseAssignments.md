@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -85,25 +85,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 616,
-    "Tooltip": "ab",
+    "Total": 27,
+    "Tooltip": "tenetur",
     "CanAssign": false,
-    "Free": 701,
-    "InUse": 239,
+    "Free": 769,
+    "InUse": 668,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 121,
-    "Name": "Littel, Bartell and Kulas",
-    "Description": "Networked fresh-thinking migration",
-    "PrerequisiteModuleName": "Schowalter, Hansen and D'Amore",
-    "SortOrder": 423,
-    "ExtraFlags": 896,
+    "ModuleLicenseId": 657,
+    "Name": "Hegmann Inc and Sons",
+    "Description": "Business-focused methodical alliance",
+    "PrerequisiteModuleName": "Pfannerstill, Stanton and Reichel",
+    "SortOrder": 875,
+    "ExtraFlags": 219,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 519
+        "FieldType": "System.Int32",
+        "FieldLength": 517
       }
     }
   }

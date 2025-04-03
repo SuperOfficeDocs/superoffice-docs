@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Olson LLC"
+  "TaskName": "Yundt Group"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 734,
-    "Name": "Davis-Feeney",
-    "AssociateId": 657,
-    "DetailsTable": 428,
-    "DetailsRecord": 570,
+    "Id": 975,
+    "Name": "Kertzmann Group",
+    "AssociateId": 360,
+    "DetailsTable": 990,
+    "DetailsRecord": 841,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "molestiae",
-      "ParameterObject2": "animi"
+      "ParameterObject1": "dolore",
+      "ParameterObject2": "error"
     },
-    "LastStarted": "2010-09-05T02:38:20.885843+02:00",
-    "Created": "2011-03-20T02:38:20.885843+01:00",
-    "StartCount": 804,
-    "DatabaseSerialNumber": "688479",
-    "Context": "quidem",
-    "Result": "minima",
+    "LastStarted": "1998-10-28T14:28:21.4929147+01:00",
+    "Created": "2000-05-05T14:28:21.4929147+02:00",
+    "StartCount": 782,
+    "DatabaseSerialNumber": "1194694",
+    "Context": "ducimus",
+    "Result": "perferendis",
     "State": "All",
-    "Description": "Monitored encompassing concept",
-    "Response": "maiores",
-    "Request": "sequi",
-    "ProgressDescription": "Multi-channelled intermediate product",
-    "ProgressPercent": 344,
-    "FileName": "Bartell LLC",
+    "Description": "Right-sized client-server customer loyalty",
+    "Response": "culpa",
+    "Request": "id",
+    "ProgressDescription": "Stand-alone content-based data-warehouse",
+    "ProgressPercent": 53,
+    "FileName": "McKenzie Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 986
+        "FieldLength": 81
       }
     }
   }

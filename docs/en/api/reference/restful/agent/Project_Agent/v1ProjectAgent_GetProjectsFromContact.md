@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 716
+  "ContactId": 726
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 94,
-    "Name": "Kihn, Kutch and McGlynn",
-    "Description": "Public-key zero defect productivity",
+    "ProjectId": 388,
+    "Name": "Brakus LLC",
+    "Description": "Diverse tertiary data-warehouse",
     "URL": "http://www.example.com/",
-    "Type": "architecto",
-    "AssociateId": 942,
-    "AssociateFullName": "Norbert Johns",
-    "TypeId": 563,
-    "Updated": "2002-08-17T02:38:21.7451279+02:00",
-    "StatusId": 347,
-    "Status": "officiis",
-    "TextId": 613,
-    "PublishTo": "2022-02-23T02:38:21.7451279+01:00",
-    "PublishFrom": "2018-03-11T02:38:21.7451279+01:00",
-    "IsPublished": true,
+    "Type": "ut",
+    "AssociateId": 154,
+    "AssociateFullName": "Mrs. Sadie Jody Zemlak DVM",
+    "TypeId": 891,
+    "Updated": "2020-06-06T14:28:22.2585084+02:00",
+    "StatusId": 363,
+    "Status": "aut",
+    "TextId": 942,
+    "PublishTo": "2002-11-30T14:28:22.2585084+01:00",
+    "PublishFrom": "1999-09-29T14:28:22.2585084+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "812935",
-    "ActiveErpLinks": 597,
+    "ProjectNumber": "1031110",
+    "ActiveErpLinks": 508,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 159
+        "FieldType": "System.String",
+        "FieldLength": 631
       }
     }
   }

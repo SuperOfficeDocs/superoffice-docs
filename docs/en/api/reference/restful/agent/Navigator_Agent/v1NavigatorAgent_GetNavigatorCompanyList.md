@@ -72,7 +72,7 @@ OK
 POST /api/v1/Agents/Navigator/GetNavigatorCompanyList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 361,
-    "Value": "assumenda",
-    "Tooltip": "commodi",
+    "Id": 20,
+    "Value": "in",
+    "Tooltip": "sapiente",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldType": "System.String",
+        "FieldLength": 233
       }
     }
   },
   {
-    "Id": 361,
-    "Value": "assumenda",
-    "Tooltip": "commodi",
+    "Id": 20,
+    "Value": "in",
+    "Tooltip": "sapiente",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 53
+        "FieldType": "System.String",
+        "FieldLength": 233
       }
     }
   }

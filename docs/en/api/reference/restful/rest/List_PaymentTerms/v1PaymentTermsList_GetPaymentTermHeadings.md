@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 191,
-    "Name": "Kessler-Dietrich",
-    "Tooltip": "est",
+    "HeadingId": 539,
+    "Name": "Schultz, Bruen and Durgan",
+    "Tooltip": "velit",
     "Deleted": false,
-    "Rank": 357,
-    "UdListDefinitionId": 189,
+    "Rank": 545,
+    "UdListDefinitionId": 878,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldType": "System.String",
+        "FieldLength": 665
       }
     }
   }

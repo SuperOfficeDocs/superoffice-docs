@@ -116,6 +116,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -130,14 +131,14 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 322,
-  "StartTime": "2021-12-31T02:38:20.5419831+01:00",
-  "EndTime": "2012-01-07T02:38:20.5419831+01:00",
-  "Count": 945
+  "ProjectId": 210,
+  "StartTime": "2021-04-19T14:28:21.1335548+02:00",
+  "EndTime": "2003-11-01T14:28:21.1335548+01:00",
+  "Count": 105
 }
 ```
 
@@ -149,65 +150,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 172,
-    "StartDate": "2022-08-07T02:38:20.5419831+02:00",
-    "EndDate": "2011-03-03T02:38:20.5419831+01:00",
+    "AppointmentId": 23,
+    "StartDate": "2008-02-05T14:28:21.1335548+01:00",
+    "EndDate": "2010-03-13T14:28:21.1335548+01:00",
     "Type": "BookingForChecklist",
-    "Task": "tempora",
-    "AssociateFullName": "Sammy Goyette",
-    "ContactName": "Toy, Streich and Schneider",
-    "Description": "Fully-configurable value-added Graphic Interface",
-    "PersonFullName": "Dr. Ruben Darian Sawayn IV",
-    "PersonId": 753,
-    "ContactId": 453,
-    "ProjectId": 914,
-    "ProjectName": "Mohr, Rau and Hessel",
+    "Task": "sed",
+    "AssociateFullName": "Skyla Kuhn",
+    "ContactName": "Fisher, Cruickshank and Durgan",
+    "Description": "Multi-channelled 24/7 service-desk",
+    "PersonFullName": "Name Satterfield",
+    "PersonId": 350,
+    "ContactId": 270,
+    "ProjectId": 445,
+    "ProjectName": "Lynch-Von",
     "IsPublished": false,
-    "AssociateId": 738,
-    "ColorIndex": 401,
-    "IsFree": true,
+    "AssociateId": 62,
+    "ColorIndex": 957,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": false,
+    "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 265,
-    "PriorityName": "Marvin-Gibson",
+    "PriorityId": 796,
+    "PriorityName": "Weissnat-Wilderman",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2001-06-11T02:38:20.5419831+02:00",
+    "IsBooking": true,
+    "ActiveDate": "2023-11-19T14:28:21.1335548+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-04-01T02:38:20.5419831+02:00",
-    "RecurringEndDate": "2020-07-20T02:38:20.5419831+02:00",
-    "MotherId": 543,
-    "AssignedBy": 675,
-    "AssignedByFullName": "Sim Heller MD",
+    "RecurringStartDate": "2014-12-24T14:28:21.1335548+01:00",
+    "RecurringEndDate": "2003-06-03T14:28:21.1335548+02:00",
+    "MotherId": 274,
+    "AssignedBy": 327,
+    "AssignedByFullName": "Mr. Dameon Julian Feil",
     "RejectReason": "",
-    "Location": "enim",
-    "AlarmLeadTime": "distinctio",
-    "SaleId": 379,
-    "SaleName": "Mann-Turcotte",
-    "AssociateName": "McCullough Group",
-    "CreatedDate": "2003-05-16T02:38:20.5419831+02:00",
-    "CreatedBy": "est",
-    "CreatedByFullName": "Prof. Juliet Ryan MD",
-    "CreatedByAssociateId": 499,
+    "Location": "doloremque",
+    "AlarmLeadTime": "qui",
+    "SaleId": 848,
+    "SaleName": "Marvin, Lynch and Hudson",
+    "AssociateName": "Goodwin Group",
+    "CreatedDate": "2015-08-19T14:28:21.1335548+02:00",
+    "CreatedBy": "nisi",
+    "CreatedByFullName": "Destiny Jamie Crona IV",
+    "CreatedByAssociateId": 589,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 20,
-    "Title": "accusantium",
-    "Agenda": "et",
-    "InternalNotes": "aut",
+    "PreferredTZLocation": 873,
+    "Title": "error",
+    "Agenda": "exercitationem",
+    "InternalNotes": "ea",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 235
+        "FieldLength": 670
       }
     }
   }

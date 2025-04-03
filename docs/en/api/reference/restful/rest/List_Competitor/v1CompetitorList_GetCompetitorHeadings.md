@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Competitor/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 103,
-    "Name": "Thompson-Fisher",
-    "Tooltip": "repellendus",
-    "Deleted": false,
-    "Rank": 660,
-    "UdListDefinitionId": 49,
+    "HeadingId": 295,
+    "Name": "Feil Inc and Sons",
+    "Tooltip": "hic",
+    "Deleted": true,
+    "Rank": 345,
+    "UdListDefinitionId": 688,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 152
+        "FieldLength": 566
       }
     }
   }

@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 85,
-  "ERPProductKey": "sit",
-  "ERPPriceListKey": "dolore",
-  "Name": "Ryan Group",
-  "Description": "Innovative empowering adapter",
-  "Code": "cupiditate",
-  "PriceUnit": "qui",
-  "QuantityUnit": "officiis",
+  "ProductId": 572,
+  "ERPProductKey": "molestiae",
+  "ERPPriceListKey": "et",
+  "Name": "Brown-Tremblay",
+  "Description": "Secured disintermediate monitoring",
+  "Code": "et",
+  "PriceUnit": "quis",
+  "QuantityUnit": "ut",
   "IsSubscription": false,
-  "SubscriptionUnit": "consequuntur",
-  "DefaultSubscriptionQuantity": 18352.703999999998,
-  "ItemNumber": "1171237",
+  "SubscriptionUnit": "laboriosam",
+  "DefaultSubscriptionQuantity": 19546.757999999998,
+  "ItemNumber": "1239425",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "vitae",
-  "ProductTypeKey": "reprehenderit",
-  "VAT": 13169.068,
-  "VATInfo": "voluptas",
-  "UnitCost": 16854.652,
-  "UnitMinimumPrice": 17387.432,
-  "UnitListPrice": 8421.0579999999991,
+  "ProductFamilyKey": "et",
+  "ProductTypeKey": "animi",
+  "VAT": 28061.836,
+  "VATInfo": "laboriosam",
+  "UnitCost": 1391.4959999999999,
+  "UnitMinimumPrice": 24156.872,
+  "UnitListPrice": 18904.288,
   "InAssortment": false,
-  "Supplier": "reiciendis",
-  "SupplierCode": "est",
-  "Rights": "labore",
-  "Rule": "ab",
+  "Supplier": "minus",
+  "SupplierCode": "ut",
+  "Rights": "quia",
+  "Rule": "voluptatem",
   "ExtraInfo": [
     {
-      "Name": "Miller Inc and Sons",
-      "Value": "ad",
+      "Name": "Bosco, Bogan and Jacobs",
+      "Value": "vel",
       "Type": "Image"
     },
     {
-      "Name": "Miller Inc and Sons",
-      "Value": "ad",
+      "Name": "Bosco, Bogan and Jacobs",
+      "Value": "vel",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "quas",
-  "ExtraField1": "blanditiis",
-  "ExtraField2": "dolor",
-  "ExtraField3": "aut",
-  "ExtraField4": "nihil",
-  "ExtraField5": "hic",
-  "InStock": 15240.642
+  "RawExtraInfo": "nihil",
+  "ExtraField1": "cumque",
+  "ExtraField2": "quod",
+  "ExtraField3": "modi",
+  "ExtraField4": "quidem",
+  "ExtraField5": "atque",
+  "InStock": 30719.468
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 819,
-  "ERPProductKey": "quod",
-  "ERPPriceListKey": "possimus",
-  "Name": "Schneider, Lesch and Tillman",
-  "Description": "Ameliorated secondary pricing structure",
-  "Code": "laboriosam",
-  "PriceUnit": "illo",
-  "QuantityUnit": "repellendus",
+  "ProductId": 394,
+  "ERPProductKey": "molestias",
+  "ERPPriceListKey": "voluptas",
+  "Name": "Kreiger, Auer and Stanton",
+  "Description": "Pre-emptive multi-state encryption",
+  "Code": "illum",
+  "PriceUnit": "ut",
+  "QuantityUnit": "nemo",
   "IsSubscription": true,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 2623.158,
-  "ItemNumber": "126375",
+  "SubscriptionUnit": "ut",
+  "DefaultSubscriptionQuantity": 6205.32,
+  "ItemNumber": "1095413",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "sed",
-  "VAT": 6590.802,
-  "VATInfo": "quo",
-  "UnitCost": 25250.638,
-  "UnitMinimumPrice": 6283.67,
-  "UnitListPrice": 1610.876,
-  "InAssortment": true,
-  "Supplier": "totam",
-  "SupplierCode": "ducimus",
-  "Rights": "saepe",
-  "Rule": "et",
+  "ProductFamilyKey": "beatae",
+  "ProductTypeKey": "aut",
+  "VAT": 22451.976,
+  "VATInfo": "autem",
+  "UnitCost": 2547.942,
+  "UnitMinimumPrice": 22799.85,
+  "UnitListPrice": 20634.255999999998,
+  "InAssortment": false,
+  "Supplier": "doloribus",
+  "SupplierCode": "nemo",
+  "Rights": "voluptas",
+  "Rule": "sequi",
   "ExtraInfo": [
     {
-      "Name": "Waelchi, Fisher and Ondricka",
-      "Value": "consequatur",
+      "Name": "Erdman Group",
+      "Value": "nemo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 209
+          "FieldType": "System.Int32",
+          "FieldLength": 694
         }
       }
     },
     {
-      "Name": "Waelchi, Fisher and Ondricka",
-      "Value": "consequatur",
+      "Name": "Erdman Group",
+      "Value": "nemo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 209
+          "FieldType": "System.Int32",
+          "FieldLength": 694
         }
       }
     }
   ],
-  "RawExtraInfo": "dolores",
-  "ExtraField1": "sint",
-  "ExtraField2": "quis",
-  "ExtraField3": "dolor",
-  "ExtraField4": "veritatis",
-  "ExtraField5": "aut",
-  "InStock": 27137.306,
+  "RawExtraInfo": "et",
+  "ExtraField1": "totam",
+  "ExtraField2": "voluptates",
+  "ExtraField3": "ut",
+  "ExtraField4": "et",
+  "ExtraField5": "dicta",
+  "InStock": 30249.368,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 80
+      "FieldType": "System.String",
+      "FieldLength": 68
     }
   }
 }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 748,
+  "ErpConnectionId": 970,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "excepturi",
-    "Rank": 183,
-    "DisplayName": "Kuhn-Kunze",
-    "DisplayDescription": "Decentralized user-facing capability",
+    "FieldKey": "eos",
+    "Rank": 173,
+    "DisplayName": "Koch LLC",
+    "DisplayDescription": "Cloned background approach",
     "FieldType": "Checkbox",
-    "ListName": "Ernser-Rice",
-    "DefaultValue": "quia",
-    "MaxLength": 456,
+    "ListName": "Ryan, Turner and Rowe",
+    "DefaultValue": "et",
+    "MaxLength": 817,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 715
+        "FieldLength": 777
       }
     }
   }

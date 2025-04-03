@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeMemberProjects": true
+  "IncludeMemberProjects": false
 }
 ```
 
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 78,
-    "Name": "Labadie, Windler and Grant",
-    "Description": "Extended bifurcated concept",
+    "ProjectId": 262,
+    "Name": "Koch LLC",
+    "Description": "Synchronised motivating standardization",
     "URL": "http://www.example.com/",
-    "Type": "amet",
-    "AssociateId": 63,
-    "AssociateFullName": "Lauryn Price DVM",
-    "TypeId": 679,
-    "Updated": "2016-12-09T02:38:21.7295028+01:00",
-    "StatusId": 343,
-    "Status": "voluptate",
-    "TextId": 283,
-    "PublishTo": "2017-08-24T02:38:21.7295028+02:00",
-    "PublishFrom": "2022-11-18T02:38:21.7295028+01:00",
-    "IsPublished": false,
+    "Type": "ratione",
+    "AssociateId": 85,
+    "AssociateFullName": "Justen Crona",
+    "TypeId": 391,
+    "Updated": "2007-01-17T14:28:22.2585084+01:00",
+    "StatusId": 970,
+    "Status": "adipisci",
+    "TextId": 57,
+    "PublishTo": "2008-01-24T14:28:22.2585084+01:00",
+    "PublishFrom": "2003-08-01T14:28:22.2585084+02:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "620126",
-    "ActiveErpLinks": 99,
+    "ProjectNumber": "1444245",
+    "ActiveErpLinks": 938,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 86
+        "FieldType": "System.Int32",
+        "FieldLength": 253
       }
     }
   }

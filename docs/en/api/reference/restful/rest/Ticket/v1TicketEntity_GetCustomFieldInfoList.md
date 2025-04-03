@@ -68,7 +68,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Gleason-Price",
-    "DisplayName": "Langworth LLC",
-    "Description": "Reverse-engineered motivating utilisation",
-    "ShortLabel": "nisi",
+    "FieldName": "Cormier Inc and Sons",
+    "DisplayName": "Moore Group",
+    "Description": "Universal assymetric emulation",
+    "ShortLabel": "recusandae",
     "HideLabel": true,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 84,
-    "TemplateVariableName": "Miller-Wisozk"
+    "IsIndexed": false,
+    "IsMandatory": true,
+    "IsReadOnly": false,
+    "IsExternal": true,
+    "IsDisplayField": false,
+    "Rank": 519,
+    "TemplateVariableName": "Mills LLC"
   }
 ]
 ```

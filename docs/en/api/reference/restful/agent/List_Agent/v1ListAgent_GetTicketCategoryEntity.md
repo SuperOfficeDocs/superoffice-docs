@@ -26,7 +26,7 @@ Gets a TicketCategoryEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=902
+POST /api/v1/Agents/List/GetTicketCategoryEntity?ticketCategoryEntityId=866
 POST /api/v1/Agents/List/GetTicketCategoryEntity?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,36 +94,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 225,
-  "ParentId": 31,
-  "Name": "Turner-Wolff",
-  "Fullname": "occaecati",
-  "CategoryMaster": 995,
+  "TicketCategoryId": 701,
+  "ParentId": 148,
+  "Name": "Rice-Batz",
+  "Fullname": "error",
+  "CategoryMaster": 314,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Zieme-Homenick",
+  "ExternalName": "Stamm Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 664,
-  "ReplyTemplate": 56,
-  "NotificationEmail": "ally@schaefermetz.com",
+  "AssignmentLag": 15,
+  "ReplyTemplate": 784,
+  "NotificationEmail": "bud@barton.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 342,
+  "EffectiveReplyTemplateId": 931,
   "ExtraFields": {
-    "ExtraFields1": "tempora",
-    "ExtraFields2": "error"
+    "ExtraFields1": "cupiditate",
+    "ExtraFields2": "earum"
   },
   "CustomFields": {
-    "CustomFields1": "magnam",
-    "CustomFields2": "dolorem"
+    "CustomFields1": "iure",
+    "CustomFields2": "dolor"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 618
+      "FieldType": "System.String",
+      "FieldLength": 668
     }
   }
 }

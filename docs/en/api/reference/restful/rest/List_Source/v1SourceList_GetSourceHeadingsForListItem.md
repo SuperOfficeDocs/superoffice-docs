@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 269,
-    "Name": "Vandervort, Bashirian and Beer",
-    "ToolTip": "Dolorum deleniti voluptate aut aut.",
-    "Deleted": false,
-    "Rank": 640,
-    "Type": "odio",
-    "ColorBlock": 874,
-    "IconHint": "reiciendis",
-    "Selected": true,
-    "LastChanged": "1999-03-15T02:38:26.948622+01:00",
+    "Id": 327,
+    "Name": "Kirlin, Hegmann and Hand",
+    "ToolTip": "Similique qui sit blanditiis recusandae rerum quod nobis.",
+    "Deleted": true,
+    "Rank": 623,
+    "Type": "repellendus",
+    "ColorBlock": 108,
+    "IconHint": "alias",
+    "Selected": false,
+    "LastChanged": "2002-08-19T14:28:27.7270373+02:00",
     "ChildItems": [
       {
-        "Id": 7,
-        "Name": "Ankunding, Effertz and Stehr",
-        "ToolTip": "Ut voluptatem dolorum exercitationem error quod.",
+        "Id": 754,
+        "Name": "Reilly-Daugherty",
+        "ToolTip": "Doloremque cupiditate qui.",
         "Deleted": false,
-        "Rank": 641,
-        "Type": "hic",
-        "ColorBlock": 314,
-        "IconHint": "ut",
+        "Rank": 470,
+        "Type": "at",
+        "ColorBlock": 545,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2012-02-22T02:38:26.948622+01:00",
+        "LastChanged": "2015-05-24T14:28:27.7270373+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "suscipit",
-        "StyleHint": "ipsa",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Miss Nash Karlie Purdy DVM",
+        "FullName": "Marquis Jacobson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 753
+            "FieldLength": 336
           }
         }
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "quos",
-    "Hidden": false,
-    "FullName": "Rozella Conroy",
+    "ExtraInfo": "consequatur",
+    "StyleHint": "ab",
+    "Hidden": true,
+    "FullName": "Euna Spinka",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 82
+        "FieldType": "System.Int32",
+        "FieldLength": 183
       }
     }
   }

@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 442
+  "ProjectId": 498
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 103,
-  "BlobSize": 674,
-  "Description": "Public-key responsive intranet",
-  "ExtraInfo": "excepturi",
+  "BlobId": 874,
+  "BlobSize": 677,
+  "Description": "Profit-focused national product",
+  "ExtraInfo": "quo",
   "IsEncrypted": false,
   "IsZipped": true,
-  "MimeType": "possimus",
-  "OriginalSize": 236,
-  "CreatedDate": "2018-02-22T02:38:20.885843+01:00",
-  "UpdatedDate": "2000-12-24T02:38:20.885843+01:00",
+  "MimeType": "unde",
+  "OriginalSize": 427,
+  "CreatedDate": "2011-10-17T14:28:21.4929147+02:00",
+  "UpdatedDate": "2006-12-16T14:28:21.4929147+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "omnis",
+  "ConceptualType": "sunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 775
+      "FieldLength": 865
     }
   }
 }

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 935,
-  "Name": "Morar, Zieme and Kuhlman",
+  "WebhookId": 774,
+  "Name": "D'Amore, Purdy and McLaughlin",
   "Events": [
-    "sit",
-    "aut"
+    "officiis",
+    "iste"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "numquam",
+  "Secret": "voluptatem",
   "State": "Active",
-  "Type": "ut",
+  "Type": "veritatis",
   "Headers": {
-    "Headers1": "nisi",
-    "Headers2": "maiores"
+    "Headers1": "qui",
+    "Headers2": "inventore"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2017-10-21T02:38:22.245036+02:00",
+  "Registered": "2024-07-27T14:28:22.7428645+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2007-11-01T02:38:22.245036+01:00",
+  "Updated": "2012-05-16T14:28:22.7428645+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "micaela@steuber.com"
+  "ErrorsEmail": "garret@hoegerkeeling.ca"
 }
 ```

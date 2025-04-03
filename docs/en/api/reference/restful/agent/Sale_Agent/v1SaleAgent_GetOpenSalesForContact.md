@@ -101,7 +101,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 900
+  "ContactId": 495
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Legros-Schmidt",
-    "SaleDate": "2005-10-07T02:38:21.8544876+02:00",
-    "SaleId": 258,
-    "Probability": 840,
-    "Title": "dolore",
-    "Amount": 28046.165999999997,
-    "Currency": "qui",
-    "ProjectName": "Olson-Abernathy",
-    "AssociateFullName": "Dr. Clement Ottilie Streich",
-    "Description": "Balanced neutral encryption",
+    "ContactName": "Schimmel, Ruecker and Nikolaus",
+    "SaleDate": "2012-08-17T14:28:22.3678792+02:00",
+    "SaleId": 229,
+    "Probability": 465,
+    "Title": "incidunt",
+    "Amount": 16660.344,
+    "Currency": "enim",
+    "ProjectName": "Murazik-Waters",
+    "AssociateFullName": "Lukas Iva Crona I",
+    "Description": "User-centric foreground firmware",
     "Status": "Lost",
-    "WeightedAmount": 24112.996,
-    "ProjectId": 944,
-    "EarningPercent": 4218.364,
-    "Earning": 15945.792,
-    "ContactId": 636,
-    "AssociateId": 61,
-    "PersonId": 201,
-    "SaleTypeId": 808,
-    "SaleTypeName": "Wilderman-Hansen",
-    "PersonFullName": "Mr. Destinee Dickens Jr.",
+    "WeightedAmount": 1513.722,
+    "ProjectId": 161,
+    "EarningPercent": 23523.804,
+    "Earning": 4976.7919999999995,
+    "ContactId": 122,
+    "AssociateId": 246,
+    "PersonId": 641,
+    "SaleTypeId": 826,
+    "SaleTypeName": "Shields, Corkery and Ebert",
+    "PersonFullName": "Kiel Kuhn",
     "Completed": "Completed",
-    "ActiveErpLinks": 633,
-    "NextDueDate": "2015-10-29T02:38:21.8544876+01:00",
-    "Number": "1406561",
+    "ActiveErpLinks": 876,
+    "NextDueDate": "2008-06-10T14:28:22.3678792+02:00",
+    "Number": "490140",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 280
+        "FieldLength": 974
       }
     }
   }

@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 265,
-  "Name": "Kovacek Inc and Sons",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 141,
+  "Id": 689,
+  "Name": "Rosenbaum, Sanford and Corkery",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 42,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quam",
+  "UseGroupsAndHeadings": true,
+  "ListType": "necessitatibus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 127
+      "FieldType": "System.Int32",
+      "FieldLength": 550
     }
   },
   "_Links": {

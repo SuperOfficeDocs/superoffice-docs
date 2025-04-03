@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -135,12 +136,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 326,
-  "StartTime": "2012-09-09T02:38:20.5732257+02:00",
-  "EndTime": "2014-07-18T02:38:20.5732257+02:00",
+  "Id": 5,
+  "StartTime": "2016-12-20T14:28:21.1648024+01:00",
+  "EndTime": "2000-08-05T14:28:21.1648024+02:00",
   "Status": "Assignment",
   "Type": "BookingForChecklist",
-  "AssociateId": 511,
+  "AssociateId": 996,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -152,65 +153,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 525,
-  "StartDate": "2020-12-30T02:38:20.5732257+01:00",
-  "EndDate": "1998-03-27T02:38:20.5732257+01:00",
+  "AppointmentId": 425,
+  "StartDate": "2018-01-25T14:28:21.1648024+01:00",
+  "EndDate": "2010-02-04T14:28:21.1648024+01:00",
   "Type": "BookingForChecklist",
-  "Task": "fugit",
-  "AssociateFullName": "Prof. Ian Liana Funk",
-  "ContactName": "Kreiger, Blanda and Beer",
-  "Description": "Advanced zero tolerance open system",
-  "PersonFullName": "Angie Schoen",
-  "PersonId": 705,
-  "ContactId": 903,
-  "ProjectId": 56,
-  "ProjectName": "Wuckert LLC",
+  "Task": "velit",
+  "AssociateFullName": "Orville Wisoky",
+  "ContactName": "Rath Inc and Sons",
+  "Description": "Up-sized hybrid productivity",
+  "PersonFullName": "Dr. Dino Hahn",
+  "PersonId": 315,
+  "ContactId": 49,
+  "ProjectId": 234,
+  "ProjectName": "Kessler, Willms and Hessel",
   "IsPublished": false,
-  "AssociateId": 860,
-  "ColorIndex": 916,
+  "AssociateId": 67,
+  "ColorIndex": 253,
   "IsFree": true,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 649,
-  "PriorityName": "Stoltenberg, Denesik and Koss",
+  "PriorityId": 842,
+  "PriorityName": "Renner Inc and Sons",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
-  "IsRecurrence": true,
+  "IsBookingMain": false,
+  "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2018-04-26T02:38:20.5732257+02:00",
+  "ActiveDate": "1998-10-12T14:28:21.18043+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2000-12-24T02:38:20.5732257+01:00",
-  "RecurringEndDate": "2019-10-25T02:38:20.5732257+02:00",
-  "MotherId": 62,
-  "AssignedBy": 936,
-  "AssignedByFullName": "Mr. Cicero Edgardo Swift",
+  "RecurringStartDate": "2004-06-02T14:28:21.18043+02:00",
+  "RecurringEndDate": "2016-04-01T14:28:21.18043+02:00",
+  "MotherId": 150,
+  "AssignedBy": 699,
+  "AssignedByFullName": "Ms. Selmer Philip Schmeler",
   "RejectReason": "",
-  "Location": "reiciendis",
-  "AlarmLeadTime": "ut",
-  "SaleId": 303,
-  "SaleName": "Deckow-Little",
-  "AssociateName": "Gutmann-Daugherty",
-  "CreatedDate": "2012-02-09T02:38:20.6514919+01:00",
-  "CreatedBy": "voluptatibus",
-  "CreatedByFullName": "Marlin Veum",
-  "CreatedByAssociateId": 762,
+  "Location": "porro",
+  "AlarmLeadTime": "et",
+  "SaleId": 229,
+  "SaleName": "Tromp, Greenholt and Ryan",
+  "AssociateName": "Heidenreich-Auer",
+  "CreatedDate": "2006-05-09T14:28:21.18043+02:00",
+  "CreatedBy": "mollitia",
+  "CreatedByFullName": "Mrs. Erin Tiffany Schiller",
+  "CreatedByAssociateId": 813,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 92,
-  "Title": "porro",
-  "Agenda": "repellat",
-  "InternalNotes": "et",
+  "PreferredTZLocation": 51,
+  "Title": "soluta",
+  "Agenda": "laboriosam",
+  "InternalNotes": "eaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 37
+      "FieldType": "System.Int32",
+      "FieldLength": 873
     }
   }
 }

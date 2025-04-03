@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 405,
-    "Name": "Sporer-Leuschke",
-    "Tooltip": "quos",
+    "HeadingId": 151,
+    "Name": "Russel, Walter and Jacobson",
+    "Tooltip": "ut",
     "Deleted": false,
-    "Rank": 294,
-    "UdListDefinitionId": 422,
+    "Rank": 807,
+    "UdListDefinitionId": 466,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldLength": 211
       }
     }
   }

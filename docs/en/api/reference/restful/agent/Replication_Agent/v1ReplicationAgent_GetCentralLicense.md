@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,30 +81,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schroeder Inc and Sons",
-    "Description": "Inverse foreground function",
+    "Name": "Spinka Inc and Sons",
+    "Description": "Progressive secondary algorithm",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 821,
-        "Tooltip": "incidunt",
-        "CanAssign": true,
-        "Free": 490,
-        "InUse": 542,
+        "Unrestricted": true,
+        "Total": 966,
+        "Tooltip": "et",
+        "CanAssign": false,
+        "Free": 477,
+        "InUse": 977,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 441,
-        "Name": "Jerde-Pacocha",
-        "Description": "Multi-tiered client-server superstructure",
-        "PrerequisiteModuleName": "Osinski-Dibbert",
-        "SortOrder": 438,
-        "ExtraFlags": 916,
+        "ModuleLicenseId": 658,
+        "Name": "Stracke, Durgan and Mertz",
+        "Description": "Public-key client-server parallelism",
+        "PrerequisiteModuleName": "Kub, Walker and Jenkins",
+        "SortOrder": 8,
+        "ExtraFlags": 444,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 444
+            "FieldLength": 52
           }
         }
       }
@@ -112,25 +112,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 542,
-        "Tooltip": "optio",
-        "CanAssign": true,
-        "Free": 801,
-        "InUse": 721,
+        "Total": 19,
+        "Tooltip": "in",
+        "CanAssign": false,
+        "Free": 416,
+        "InUse": 403,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 578,
-        "Name": "Schmitt, Schultz and Vandervort",
-        "Description": "Stand-alone discrete extranet",
-        "PrerequisiteModuleName": "Rath, Haley and Hammes",
-        "SortOrder": 945,
-        "ExtraFlags": 520,
+        "ModuleLicenseId": 292,
+        "Name": "Hackett Inc and Sons",
+        "Description": "Multi-tiered content-based intranet",
+        "PrerequisiteModuleName": "Bradtke-Erdman",
+        "SortOrder": 982,
+        "ExtraFlags": 169,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 576
+            "FieldLength": 667
           }
         }
       }
@@ -140,35 +140,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 994
+        "FieldLength": 350
       }
     }
   },
   {
-    "Name": "Schroeder Inc and Sons",
-    "Description": "Inverse foreground function",
+    "Name": "Spinka Inc and Sons",
+    "Description": "Progressive secondary algorithm",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 821,
-        "Tooltip": "incidunt",
-        "CanAssign": true,
-        "Free": 490,
-        "InUse": 542,
+        "Unrestricted": true,
+        "Total": 966,
+        "Tooltip": "et",
+        "CanAssign": false,
+        "Free": 477,
+        "InUse": 977,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 441,
-        "Name": "Jerde-Pacocha",
-        "Description": "Multi-tiered client-server superstructure",
-        "PrerequisiteModuleName": "Osinski-Dibbert",
-        "SortOrder": 438,
-        "ExtraFlags": 916,
+        "ModuleLicenseId": 658,
+        "Name": "Stracke, Durgan and Mertz",
+        "Description": "Public-key client-server parallelism",
+        "PrerequisiteModuleName": "Kub, Walker and Jenkins",
+        "SortOrder": 8,
+        "ExtraFlags": 444,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 444
+            "FieldLength": 52
           }
         }
       }
@@ -176,25 +176,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 542,
-        "Tooltip": "optio",
-        "CanAssign": true,
-        "Free": 801,
-        "InUse": 721,
+        "Total": 19,
+        "Tooltip": "in",
+        "CanAssign": false,
+        "Free": 416,
+        "InUse": 403,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 578,
-        "Name": "Schmitt, Schultz and Vandervort",
-        "Description": "Stand-alone discrete extranet",
-        "PrerequisiteModuleName": "Rath, Haley and Hammes",
-        "SortOrder": 945,
-        "ExtraFlags": 520,
+        "ModuleLicenseId": 292,
+        "Name": "Hackett Inc and Sons",
+        "Description": "Multi-tiered content-based intranet",
+        "PrerequisiteModuleName": "Bradtke-Erdman",
+        "SortOrder": 982,
+        "ExtraFlags": 169,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 576
+            "FieldLength": 667
           }
         }
       }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 994
+        "FieldLength": 350
       }
     }
   }

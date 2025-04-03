@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 858,
-    "Name": "Gislason LLC",
-    "Tooltip": "consectetur",
+    "HeadingId": 9,
+    "Name": "Hoeger-Batz",
+    "Tooltip": "expedita",
     "Deleted": true,
-    "Rank": 296,
-    "UdListDefinitionId": 304,
+    "Rank": 808,
+    "UdListDefinitionId": 30,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldLength": 812
       }
     }
   }

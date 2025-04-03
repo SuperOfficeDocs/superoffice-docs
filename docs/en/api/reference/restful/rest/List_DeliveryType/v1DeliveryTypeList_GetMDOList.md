@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=False
-GET /api/v1/List/DeliveryType/MDOItems?query=fugiat
+GET /api/v1/List/DeliveryType/MDOItems?flat=True
+GET /api/v1/List/DeliveryType/MDOItems?query=libero
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 212,
-    "Name": "Schuppe Inc and Sons",
-    "ToolTip": "Ut similique.",
+    "Id": 490,
+    "Name": "Wilkinson-Zulauf",
+    "ToolTip": "Rerum eos voluptatem in omnis sed.",
     "Deleted": false,
-    "Rank": 824,
-    "Type": "tempora",
+    "Rank": 32,
+    "Type": "sunt",
     "ChildItems": [
       {
-        "Id": 54,
-        "Name": "Olson-Kreiger",
-        "ToolTip": "Iure dolore consequatur eligendi facere aut natus omnis.",
+        "Id": 787,
+        "Name": "Daugherty, Swaniawski and Hilll",
+        "ToolTip": "Voluptates fugiat nihil nulla.",
         "Deleted": false,
-        "Rank": 143,
-        "Type": "sed",
+        "Rank": 706,
+        "Type": "maiores",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "natus",
-        "ColorBlock": 520,
-        "ExtraInfo": "officiis",
-        "StyleHint": "ipsam",
-        "FullName": "Breana Jaden Stiedemann DVM",
+        "IconHint": "vero",
+        "ColorBlock": 222,
+        "ExtraInfo": "aliquam",
+        "StyleHint": "veniam",
+        "FullName": "Deshaun Sauer DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 3
+            "FieldLength": 486
           }
         }
       }
     ],
-    "IconHint": "illum",
-    "ColorBlock": 666,
-    "ExtraInfo": "reiciendis",
-    "StyleHint": "exercitationem",
-    "FullName": "Carolyn Dora Considine I",
+    "IconHint": "dolor",
+    "ColorBlock": 81,
+    "ExtraInfo": "a",
+    "StyleHint": "vel",
+    "FullName": "Adelle Giovanni McGlynn DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldLength": 803
       }
     }
   }

@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowWaitForAction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,25 +72,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowWaitForActionId": 599,
-  "WorkflowStepId": 219,
-  "WorkflowId": 40,
-  "Rank": 688,
+  "WorkflowWaitForActionId": 591,
+  "WorkflowStepId": 779,
+  "WorkflowId": 525,
+  "Rank": 649,
   "ActionType": "FormSubmitted",
   "RestrictionGroups": [
     {
-      "Name": "Schowalter, Corkery and O'Kon",
-      "Description": "Pre-emptive assymetric function",
-      "Rank": 157,
+      "Name": "Marks, Purdy and Brakus",
+      "Description": "Phased directional frame",
+      "Rank": 761,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Schowalter, Corkery and O'Kon",
-      "Description": "Pre-emptive assymetric function",
-      "Rank": 157,
+      "Name": "Marks, Purdy and Brakus",
+      "Description": "Phased directional frame",
+      "Rank": 761,
       "Restrictions": [
         {},
         {}
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldType": "System.String",
+      "FieldLength": 84
     }
   }
 }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Value": "distinctio",
-    "Tooltip": "mollitia",
+    "Id": 752,
+    "Value": "esse",
+    "Tooltip": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 459
+        "FieldType": "System.Int32",
+        "FieldLength": 960
       }
     }
   },
   {
-    "Id": 130,
-    "Value": "distinctio",
-    "Tooltip": "mollitia",
+    "Id": 752,
+    "Value": "esse",
+    "Tooltip": "ratione",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 459
+        "FieldType": "System.Int32",
+        "FieldLength": 960
       }
     }
   }

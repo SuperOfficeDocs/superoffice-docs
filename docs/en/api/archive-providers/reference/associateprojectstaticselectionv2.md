@@ -90,7 +90,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/AssociateProjectStaticSelectionV2?$select=description,endDate,projectAssociate/associateDbId
+GET /api/v1/archive/AssociateProjectStaticSelectionV2?$select=icon,endDate,projectAssociate/associateDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

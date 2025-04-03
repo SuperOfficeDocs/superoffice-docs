@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 275,
-    "Name": "Heller, Willms and Reilly",
-    "Tooltip": "harum",
+    "HeadingId": 271,
+    "Name": "Hegmann-Jewess",
+    "Tooltip": "explicabo",
     "Deleted": false,
-    "Rank": 915,
-    "UdListDefinitionId": 368,
+    "Rank": 765,
+    "UdListDefinitionId": 933,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldLength": 617
       }
     }
   }

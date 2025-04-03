@@ -87,10 +87,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Thompson, Blick and Schuppe",
-  "DeviceName": "Bailey-Kutch",
-  "DeviceIdentifier": "est",
-  "TableName": "Satterfield LLC"
+  "ApplicationName": "Hammes, Batz and Stoltenberg",
+  "DeviceName": "Feest-Parisian",
+  "DeviceIdentifier": "minus",
+  "TableName": "Mante Group"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "sunt",
-    "Value": "quis",
-    "RecordId": 222,
-    "CreatedDate": "2020-02-17T02:38:21.4639053+01:00",
-    "UpdatedDate": "2008-07-27T02:38:21.4639053+02:00",
-    "UpdatedBy": "itaque",
-    "CreatedBy": "dolores",
-    "TableName": "Schamberger, Daniel and Stehr",
+    "Key": "maiores",
+    "Value": "sint",
+    "RecordId": 556,
+    "CreatedDate": "2011-03-02T14:28:22.0241429+01:00",
+    "UpdatedDate": "2018-05-31T14:28:22.0241429+02:00",
+    "UpdatedBy": "accusamus",
+    "CreatedBy": "asperiores",
+    "TableName": "Streich Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 84
+        "FieldType": "System.String",
+        "FieldLength": 257
       }
     }
   }

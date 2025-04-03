@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Aufderhar LLC",
-  "ListItemId": 903,
+  "UdListDefinitionName": "DuBuque, Wilderman and Kuhlman",
+  "ListItemId": 997,
   "UserGroups": [
     {
-      "Id": 956,
-      "Name": "Cronin Inc and Sons",
-      "ToolTip": "Laborum quam totam consequatur non aut laboriosam.",
+      "Id": 605,
+      "Name": "Deckow Group",
+      "ToolTip": "Inventore quae quidem amet voluptate expedita.",
       "Deleted": false,
-      "Rank": 682,
-      "Type": "veniam",
-      "ColorBlock": 196,
-      "IconHint": "facere",
+      "Rank": 878,
+      "Type": "velit",
+      "ColorBlock": 938,
+      "IconHint": "veniam",
       "Selected": false,
-      "LastChanged": "2007-09-05T02:38:21.4951545+02:00",
+      "LastChanged": "2000-09-14T14:28:22.0553915+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ipsum",
-      "StyleHint": "ad",
-      "Hidden": true,
-      "FullName": "Miss Mafalda Webster Bechtelar V"
+      "ExtraInfo": "totam",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Zane Grady"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 88,
-    "Name": "Luettgen Group",
-    "ToolTip": "Voluptatem aspernatur.",
-    "Deleted": true,
-    "Rank": 564,
-    "Type": "officia",
-    "ColorBlock": 912,
-    "IconHint": "nesciunt",
+    "Id": 511,
+    "Name": "Koch-Mann",
+    "ToolTip": "Dicta corrupti aut et aut.",
+    "Deleted": false,
+    "Rank": 556,
+    "Type": "voluptatibus",
+    "ColorBlock": 415,
+    "IconHint": "doloribus",
     "Selected": false,
-    "LastChanged": "2014-09-29T02:38:21.4951545+02:00",
+    "LastChanged": "2021-03-07T14:28:22.0553915+01:00",
     "ChildItems": [
       {
-        "Id": 415,
-        "Name": "Bechtelar-Botsford",
-        "ToolTip": "Ab perspiciatis sed nostrum.",
-        "Deleted": true,
-        "Rank": 850,
-        "Type": "sunt",
-        "ColorBlock": 935,
-        "IconHint": "voluptas",
+        "Id": 942,
+        "Name": "Lubowitz-Hoeger",
+        "ToolTip": "Consectetur est et iusto explicabo.",
+        "Deleted": false,
+        "Rank": 276,
+        "Type": "maiores",
+        "ColorBlock": 402,
+        "IconHint": "reprehenderit",
         "Selected": false,
-        "LastChanged": "1999-12-30T02:38:21.4951545+01:00",
+        "LastChanged": "2020-01-06T14:28:22.0553915+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "eum",
+        "StyleHint": "alias",
         "Hidden": false,
-        "FullName": "Myrtice Russ Hahn I",
+        "FullName": "Miss Odell Pattie Larson DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 800
+            "FieldLength": 78
           }
         }
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "ratione",
+    "ExtraInfo": "maxime",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Prof. Adrain Ondricka DVM",
+    "FullName": "Mr. King Araceli Senger IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldLength": 308
       }
     }
   }

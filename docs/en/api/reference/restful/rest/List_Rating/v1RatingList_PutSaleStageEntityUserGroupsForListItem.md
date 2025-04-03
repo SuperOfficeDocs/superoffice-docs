@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Rating/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 679,
-    "Name": "West-Kling",
-    "ToolTip": "Numquam inventore aliquid quae deserunt voluptates repellendus.",
-    "Deleted": true,
-    "Rank": 803,
-    "Type": "ratione",
-    "ColorBlock": 588,
-    "IconHint": "recusandae",
+    "Id": 736,
+    "Name": "Kulas, Cartwright and Murray",
+    "ToolTip": "Consequatur aut.",
+    "Deleted": false,
+    "Rank": 775,
+    "Type": "et",
+    "ColorBlock": 141,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "1998-08-31T02:38:26.886137+02:00",
+    "LastChanged": "1999-01-07T14:28:27.6645394+01:00",
     "ChildItems": [
       {
-        "Id": 24,
-        "Name": "Rutherford Group",
-        "ToolTip": "Possimus ea quidem impedit perspiciatis doloribus eius ad.",
+        "Id": 411,
+        "Name": "Keebler-Kshlerin",
+        "ToolTip": "Et provident nihil et voluptates quidem.",
         "Deleted": false,
-        "Rank": 223,
-        "Type": "autem",
-        "ColorBlock": 357,
-        "IconHint": "modi",
+        "Rank": 714,
+        "Type": "nobis",
+        "ColorBlock": 261,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2001-09-18T02:38:26.886137+02:00",
+        "LastChanged": "2001-12-20T14:28:27.6645394+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "totam",
-        "Hidden": false,
-        "FullName": "Elena Langosh"
+        "ExtraInfo": "amet",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Louvenia Cormier"
       }
     ],
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "illum",
+    "ExtraInfo": "sunt",
+    "StyleHint": "officia",
     "Hidden": false,
-    "FullName": "Mazie Koelpin"
+    "FullName": "Kennedy Dach"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 938,
-    "Name": "Lehner, Ondricka and Connelly",
-    "ToolTip": "Laudantium ut dolor harum dolor.",
+    "Id": 486,
+    "Name": "Leuschke-Parker",
+    "ToolTip": "Accusamus possimus unde aut vel.",
     "Deleted": false,
-    "Rank": 858,
-    "Type": "delectus",
-    "ColorBlock": 2,
-    "IconHint": "et",
+    "Rank": 686,
+    "Type": "odit",
+    "ColorBlock": 228,
+    "IconHint": "assumenda",
     "Selected": false,
-    "LastChanged": "2022-11-14T02:38:26.9017511+01:00",
+    "LastChanged": "2000-02-07T14:28:27.6645394+01:00",
     "ChildItems": [
       {
-        "Id": 422,
-        "Name": "Hahn LLC",
-        "ToolTip": "Accusamus et.",
-        "Deleted": true,
-        "Rank": 651,
-        "Type": "similique",
-        "ColorBlock": 164,
-        "IconHint": "illum",
-        "Selected": false,
-        "LastChanged": "2000-02-13T02:38:26.9017511+01:00",
+        "Id": 175,
+        "Name": "McDermott-Bins",
+        "ToolTip": "Non harum.",
+        "Deleted": false,
+        "Rank": 205,
+        "Type": "quia",
+        "ColorBlock": 279,
+        "IconHint": "unde",
+        "Selected": true,
+        "LastChanged": "2024-12-03T14:28:27.6645394+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "officia",
-        "Hidden": false,
-        "FullName": "Dedrick Wyman",
+        "ExtraInfo": "eos",
+        "StyleHint": "voluptate",
+        "Hidden": true,
+        "FullName": "Raphael Fisher",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 185
+            "FieldLength": 172
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "soluta",
-    "Hidden": true,
-    "FullName": "Jesse Witting",
+    "ExtraInfo": "tempora",
+    "StyleHint": "eos",
+    "Hidden": false,
+    "FullName": "Keith Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 148
+        "FieldType": "System.String",
+        "FieldLength": 442
       }
     }
   }

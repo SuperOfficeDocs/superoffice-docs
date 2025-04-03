@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=100
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=578
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 935,
+  "DocumentId": 266,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "inventore",
-  "Header": "non",
-  "Name": "Deckow Group",
-  "OurRef": "ab",
-  "YourRef": "dolores",
-  "CreatedDate": "2012-09-22T02:38:21.2607667+02:00",
-  "UpdatedDate": "2004-04-04T02:38:21.2607667+02:00",
-  "Description": "Re-contextualized zero tolerance leverage",
+  "Attention": "perspiciatis",
+  "Header": "necessitatibus",
+  "Name": "Brown, Quigley and Oberbrunner",
+  "OurRef": "ut",
+  "YourRef": "quam",
+  "CreatedDate": "2019-04-26T14:28:21.8366505+02:00",
+  "UpdatedDate": "2014-05-11T14:28:21.8366505+02:00",
+  "Description": "Public-key upward-trending middleware",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2004-03-10T02:38:21.2607667+01:00",
-  "ExternalRef": "quasi",
+  "Date": "2019-08-26T14:28:21.8366505+02:00",
+  "ExternalRef": "nihil",
   "Completed": "Completed",
-  "ActiveLinks": 233,
+  "ActiveLinks": 94,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Williamson-Vandervort",
-      "Id": 843,
-      "Description": "Fundamental transitional superstructure",
-      "ExtraInfo": "dolorem",
-      "LinkId": 398,
+      "EntityName": "Schimmel-Murray",
+      "Id": 326,
+      "Description": "Total directional access",
+      "ExtraInfo": "eos",
+      "LinkId": 3,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 868
+          "FieldLength": 4
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 421,
-  "Snum": 106,
+  "SuggestedDocumentId": 644,
+  "Snum": 685,
   "UserDefinedFields": {
-    "SuperOffice:1": "1516331285",
-    "SuperOffice:2": "Margret Homenick"
+    "SuperOffice:1": "Vaughn Schaefer",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "a"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "ipsum"
   },
   "CustomFields": {
-    "CustomFields1": "neque",
-    "CustomFields2": "dolores"
+    "CustomFields1": "numquam",
+    "CustomFields2": "quo"
   },
-  "PublishEventDate": "2024-08-27T02:38:21.2607667+02:00",
-  "PublishTo": "2023-10-03T02:38:21.2607667+02:00",
-  "PublishFrom": "1999-12-03T02:38:21.2607667+01:00",
+  "PublishEventDate": "2004-08-02T14:28:21.8366505+02:00",
+  "PublishTo": "1998-05-14T14:28:21.8366505+02:00",
+  "PublishFrom": "2015-12-08T14:28:21.8366505+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 576,
+      "VisibleId": 220,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 906
+          "FieldType": "System.Int32",
+          "FieldLength": 242
         }
       }
     },
     {
-      "VisibleId": 576,
+      "VisibleId": 220,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "hic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 906
+          "FieldType": "System.Int32",
+          "FieldLength": 242
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldType": "System.String",
+      "FieldLength": 446
     }
   }
 }

@@ -77,7 +77,7 @@ Dashboard found.
 GET /api/v1/Dashboard/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -87,22 +87,22 @@ HTTP/1.1 200 Dashboard found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 809,
-  "AssociateId": 623,
-  "Caption": "laudantium",
+  "DashboardId": 310,
+  "AssociateId": 153,
+  "Caption": "similique",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 579,
-      "Caption": "vero",
-      "Description": "Intuitive full-range structure",
-      "ChartName": "Predovic, Kilback and Gaylord",
-      "ChartId": "ut",
+      "DashboardTileId": 896,
+      "Caption": "accusantium",
+      "Description": "Down-sized foreground Graphic Interface",
+      "ChartName": "Grimes-Marvin",
+      "ChartId": "autem",
       "IsDefault": true,
-      "AssociateId": 109,
-      "GroupId": 840,
-      "SelectionId": 186,
-      "Config": "fugit",
+      "AssociateId": 934,
+      "GroupId": 239,
+      "SelectionId": 301,
+      "Config": "corrupti",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 281
+          "FieldType": "System.String",
+          "FieldLength": 961
         }
       }
     }
@@ -128,12 +128,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldLength": 551
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

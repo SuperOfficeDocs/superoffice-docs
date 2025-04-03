@@ -97,16 +97,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 576,
-  "Name": "Gottlieb, Watsica and Bechtelar",
-  "Tooltip": "eos",
+  "RoleId": 30,
+  "Name": "Parisian-Rippin",
+  "Tooltip": "est",
   "RoleType": "Anonymous",
-  "Deleted": 255,
-  "Rank": 300,
-  "Created": "2001-04-27T02:38:26.3391624+02:00",
-  "UseCategories": 307,
+  "Deleted": 590,
+  "Rank": 312,
+  "Created": "2022-08-16T14:28:27.0708141+02:00",
+  "UseCategories": 302,
   "CreatedBy": null,
-  "Updated": "2009-10-03T02:38:26.3391624+02:00",
+  "Updated": "2006-05-31T14:28:27.0864524+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldLength": 264
     }
   },
   "_Links": {

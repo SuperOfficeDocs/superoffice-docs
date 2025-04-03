@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 348
+  "PrefDescId": 464
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 295,
-    "PrefDescId": 958,
-    "PrefValue": "labore",
-    "PrefShowValue": "laborum",
-    "Description": "Realigned upward-trending challenge",
-    "IsBuiltin": true,
+    "PrefDescLineId": 705,
+    "PrefDescId": 681,
+    "PrefValue": "laborum",
+    "PrefShowValue": "nobis",
+    "Description": "Customer-focused bi-directional success",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 514
+        "FieldLength": 742
       }
     }
   }

@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 235
+  "DocumentId": 601
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "non",
-    "DocumentId": 90,
-    "VersionId": "eveniet",
-    "CheckedInDate": "2018-05-14T02:38:21.3076706+02:00",
-    "CheckedInByName": "Heathcote, Batz and White",
-    "CheckedInByAssociateId": 313,
-    "Description": "Re-contextualized user-facing knowledge base",
-    "DisplayText": "expedita",
+    "ExternalReference": "voluptatem",
+    "DocumentId": 341,
+    "VersionId": "ut",
+    "CheckedInDate": "2013-04-06T14:28:21.8835236+02:00",
+    "CheckedInByName": "Schultz, Price and Lehner",
+    "CheckedInByAssociateId": 80,
+    "Description": "Robust incremental hub",
+    "DisplayText": "in",
     "ExtraFields": [
-      "dolorem",
-      "sapiente"
+      "tempore",
+      "nobis"
     ]
   }
 ]

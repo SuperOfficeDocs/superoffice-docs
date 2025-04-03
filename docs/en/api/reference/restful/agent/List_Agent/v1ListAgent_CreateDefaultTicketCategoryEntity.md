@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 975,
-  "ParentId": 822,
-  "Name": "Abbott-Blick",
-  "Fullname": "eligendi",
-  "CategoryMaster": 931,
+  "TicketCategoryId": 238,
+  "ParentId": 210,
+  "Name": "Runolfsson-Connelly",
+  "Fullname": "quis",
+  "CategoryMaster": 900,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Streich Group",
+  "ExternalName": "Keebler Group",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 193,
-  "ReplyTemplate": 539,
-  "NotificationEmail": "tom@sanford.ca",
+  "AssignmentLag": 697,
+  "ReplyTemplate": 299,
+  "NotificationEmail": "salma.jenkins@ferry.info",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 386,
+  "EffectiveReplyTemplateId": 879,
   "ExtraFields": {
-    "ExtraFields1": "nihil",
-    "ExtraFields2": "nulla"
+    "ExtraFields1": "deleniti",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "odio",
-    "CustomFields2": "et"
+    "CustomFields1": "nulla",
+    "CustomFields2": "quasi"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 781
+      "FieldLength": 940
     }
   }
 }

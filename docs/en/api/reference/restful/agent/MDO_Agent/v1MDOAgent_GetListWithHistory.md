@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ernser, Lebsack and Lueilwitz",
+  "Name": "Boehm Inc and Sons",
   "ForceFlatList": false,
-  "AdditionalInfo": "aut",
+  "AdditionalInfo": "odio",
   "HistoryItems": [
-    864,
-    883
+    724,
+    344
   ],
   "OnlyHistory": false
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "O'Kon-Brown",
-    "ToolTip": "Cumque rerum eius.",
-    "Deleted": false,
-    "Rank": 908,
-    "Type": "voluptas",
+    "Id": 90,
+    "Name": "Treutel, Hudson and Halvorson",
+    "ToolTip": "Est praesentium aut ratione.",
+    "Deleted": true,
+    "Rank": 88,
+    "Type": "nostrum",
     "ChildItems": [
       {
-        "Id": 172,
-        "Name": "Volkman-Pfannerstill",
-        "ToolTip": "Esse error molestiae placeat.",
-        "Deleted": false,
-        "Rank": 398,
-        "Type": "corporis",
+        "Id": 614,
+        "Name": "Bruen Inc and Sons",
+        "ToolTip": "Beatae explicabo libero natus.",
+        "Deleted": true,
+        "Rank": 345,
+        "Type": "est",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "cum",
-        "ColorBlock": 683,
-        "ExtraInfo": "labore",
-        "StyleHint": "et",
-        "FullName": "Lennie Ratke",
+        "IconHint": "quos",
+        "ColorBlock": 931,
+        "ExtraInfo": "sunt",
+        "StyleHint": "autem",
+        "FullName": "Mrs. Rod Klein",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 27
+            "FieldLength": 725
           }
         }
       }
     ],
-    "IconHint": "perspiciatis",
-    "ColorBlock": 226,
-    "ExtraInfo": "aut",
-    "StyleHint": "sed",
-    "FullName": "Anibal Carter",
+    "IconHint": "consectetur",
+    "ColorBlock": 295,
+    "ExtraInfo": "qui",
+    "StyleHint": "et",
+    "FullName": "Mrs. Jalen Leannon V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 224
+        "FieldType": "System.String",
+        "FieldLength": 391
       }
     }
   }

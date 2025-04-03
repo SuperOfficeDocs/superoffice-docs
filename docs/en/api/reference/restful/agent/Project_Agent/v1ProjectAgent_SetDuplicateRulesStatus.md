@@ -70,15 +70,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Brown, Spinka and Waelchi",
-      "DisplayName": "Hills Inc and Sons",
-      "DisplayTooltip": "magni",
+      "Name": "Bailey Group",
+      "DisplayName": "Trantow-O'Reilly",
+      "DisplayTooltip": "possimus",
       "IsActive": false
     },
     {
-      "Name": "Brown, Spinka and Waelchi",
-      "DisplayName": "Hills Inc and Sons",
-      "DisplayTooltip": "magni",
+      "Name": "Bailey Group",
+      "DisplayName": "Trantow-O'Reilly",
+      "DisplayTooltip": "possimus",
       "IsActive": false
     }
   ]

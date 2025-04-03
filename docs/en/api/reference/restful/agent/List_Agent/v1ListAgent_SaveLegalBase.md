@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 421,
-  "Name": "Mante LLC",
-  "Tooltip": "eos",
-  "Rank": 77,
-  "Key": "illum",
-  "Deleted": true,
+  "LegalBaseId": 285,
+  "Name": "Oberbrunner Group",
+  "Tooltip": "excepturi",
+  "Rank": 489,
+  "Key": "aut",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 35
+      "FieldType": "System.String",
+      "FieldLength": 54
     }
   }
 }

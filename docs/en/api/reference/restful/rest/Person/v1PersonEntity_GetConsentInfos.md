@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 945,
-    "Comment": "quisquam",
-    "Registered": "2000-01-03T02:38:26.1829353+01:00",
-    "RegisteredAssociateId": 152,
-    "Updated": "2017-07-18T02:38:26.1829353+02:00",
-    "UpdatedAssociateId": 306,
-    "LegalBaseId": 151,
-    "LegalBaseKey": "aut",
-    "LegalBaseName": "Harris Group",
-    "ConsentPurposeId": 443,
-    "ConsentPurposeKey": "ullam",
-    "ConsentPurposeName": "Auer-Schuster",
-    "ConsentSourceId": 246,
-    "ConsentSourceKey": "et",
-    "ConsentSourceName": "Jacobi Inc and Sons",
+    "ConsentPersonId": 238,
+    "Comment": "distinctio",
+    "Registered": "2009-05-23T14:28:27.008316+02:00",
+    "RegisteredAssociateId": 304,
+    "Updated": "2002-09-15T14:28:27.008316+02:00",
+    "UpdatedAssociateId": 745,
+    "LegalBaseId": 451,
+    "LegalBaseKey": "nemo",
+    "LegalBaseName": "Mertz, Blick and Zboncak",
+    "ConsentPurposeId": 117,
+    "ConsentPurposeKey": "ut",
+    "ConsentPurposeName": "Miller, Weber and Sauer",
+    "ConsentSourceId": 168,
+    "ConsentSourceKey": "mollitia",
+    "ConsentSourceName": "Hudson-Spencer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldType": "System.String",
+        "FieldLength": 617
       }
     }
   }

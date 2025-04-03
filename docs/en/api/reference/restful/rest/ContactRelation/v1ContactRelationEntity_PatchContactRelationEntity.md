@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sed",
+    "path": "esse",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sed",
+    "path": "esse",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 554,
-  "SourcePersonId": 465,
-  "DestinationContactId": 34,
-  "DestinationPersonId": 538,
-  "RelationId": 438,
-  "Comment": "vitae",
-  "RelationDefinitionId": 772,
-  "Reversed": 370,
-  "UpdatedDate": "2018-11-12T02:38:26.0423248+01:00",
-  "CreatedDate": "2024-06-05T02:38:26.0423248+02:00",
+  "SourceContactId": 37,
+  "SourcePersonId": 527,
+  "DestinationContactId": 699,
+  "DestinationPersonId": 142,
+  "RelationId": 450,
+  "Comment": "et",
+  "RelationDefinitionId": 850,
+  "Reversed": 616,
+  "UpdatedDate": "2013-05-27T14:28:26.8676969+02:00",
+  "CreatedDate": "2021-01-16T14:28:26.8676969+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schulist, Bahringer and Considine",
-  "SourcePersonName": "Simonis Inc and Sons",
-  "DestinationContactName": "Rohan, Jerde and Lynch",
-  "DestinationPersonName": "Ziemann LLC",
-  "ActiveText": "omnis",
-  "PassiveText": "quidem",
+  "SourceContactName": "Lowe, Schuster and Adams",
+  "SourcePersonName": "Keebler, Wunsch and Stoltenberg",
+  "DestinationContactName": "Wuckert-Dach",
+  "DestinationPersonName": "Weimann-Will",
+  "ActiveText": "in",
+  "PassiveText": "soluta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 335
+      "FieldLength": 1000
     }
   },
   "_Links": {

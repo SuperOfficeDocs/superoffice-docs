@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 58,
-    "Name": "Kuvalis, Nitzsche and Fadel",
-    "Description": "Enterprise-wide clear-thinking database",
+    "ProjectId": 985,
+    "Name": "Fadel-Schultz",
+    "Description": "Ergonomic zero tolerance forecast",
     "URL": "http://www.example.com/",
-    "Type": "impedit",
-    "AssociateId": 876,
-    "AssociateFullName": "Chadd O'Keefe",
-    "TypeId": 453,
-    "Updated": "2002-11-08T02:38:21.7295028+01:00",
-    "StatusId": 993,
-    "Status": "reiciendis",
-    "TextId": 330,
-    "PublishTo": "2004-06-16T02:38:21.7295028+02:00",
-    "PublishFrom": "2013-10-17T02:38:21.7295028+02:00",
+    "Type": "non",
+    "AssociateId": 698,
+    "AssociateFullName": "Lavada Muller",
+    "TypeId": 726,
+    "Updated": "2014-11-20T14:28:22.2585084+01:00",
+    "StatusId": 610,
+    "Status": "nihil",
+    "TextId": 147,
+    "PublishTo": "2019-02-21T14:28:22.2585084+01:00",
+    "PublishFrom": "2001-03-27T14:28:22.2585084+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "894424",
-    "ActiveErpLinks": 906,
+    "ProjectNumber": "1058642",
+    "ActiveErpLinks": 387,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 605
+        "FieldLength": 983
       }
     }
   }

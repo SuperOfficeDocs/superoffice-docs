@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "doloribus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "doloribus",
     "value": {}
   }
 ]
@@ -141,51 +141,51 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 293,
+  "HierarchyId": 226,
   "Domain": "Dashboards",
-  "Name": "Kulas Group",
-  "Fullname": "sed",
-  "ParentId": 212,
+  "Name": "Kiehn Inc and Sons",
+  "Fullname": "quaerat",
+  "ParentId": 948,
   "Children": [
     {
-      "HierarchyId": 457,
+      "HierarchyId": 834,
       "Domain": "Dashboards",
-      "Name": "Denesik, Friesen and Mueller",
-      "Fullname": "rerum",
-      "ParentId": 709,
+      "Name": "Hermann LLC",
+      "Fullname": "voluptatibus",
+      "ParentId": 146,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2022-10-18T02:38:26.1204323+02:00",
-      "RegisteredAssociateId": 42,
-      "Updated": "2015-09-03T02:38:26.1204323+02:00",
-      "UpdatedAssociateId": 946,
+      "Registered": "2022-09-19T14:28:26.961443+02:00",
+      "RegisteredAssociateId": 927,
+      "Updated": "2012-04-28T14:28:26.961443+02:00",
+      "UpdatedAssociateId": 149,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 199
+          "FieldLength": 996
         }
       }
     }
   ],
-  "Registered": "2012-12-02T02:38:26.1204323+01:00",
-  "RegisteredAssociateId": 149,
-  "Updated": "2012-02-21T02:38:26.1204323+01:00",
-  "UpdatedAssociateId": 977,
+  "Registered": "2018-02-12T14:28:26.961443+01:00",
+  "RegisteredAssociateId": 442,
+  "Updated": "2016-10-02T14:28:26.961443+02:00",
+  "UpdatedAssociateId": 67,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldLength": 379
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

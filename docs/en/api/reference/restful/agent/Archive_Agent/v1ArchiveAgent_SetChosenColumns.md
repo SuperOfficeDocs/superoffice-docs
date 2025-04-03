@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Skiles Group",
-  "ProviderName": "Cruickshank-Price",
+  "GuiName": "Windler, Daugherty and Nikolaus",
+  "ProviderName": "Mueller, Hills and Steuber",
   "ChosenColumns": [
-    "eaque",
-    "autem"
+    "illum",
+    "delectus"
   ]
 }
 ```

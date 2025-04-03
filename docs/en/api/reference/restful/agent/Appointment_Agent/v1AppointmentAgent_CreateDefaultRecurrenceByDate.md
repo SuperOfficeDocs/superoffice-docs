@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2002-10-01T02:38:20.7764793+02:00"
+  "StartDate": "2014-09-03T14:28:21.3835445+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 944,
-  "StartDate": "2013-04-09T02:38:20.7764793+02:00",
-  "EndDate": "2015-10-24T02:38:20.7764793+02:00",
-  "RecurrenceCounter": 54,
+  "RecurrenceId": 351,
+  "StartDate": "2020-11-21T14:28:21.3835445+01:00",
+  "EndDate": "2024-03-19T14:28:21.3835445+01:00",
+  "RecurrenceCounter": 198,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2001-07-21T02:38:20.7764793+02:00",
-      "IsConflict": true,
-      "Description": "Persistent human-resource installation",
-      "DescriptionStyleHint": "Streamlined explicit software",
-      "Tooltip": "consequatur"
+      "Date": "2009-11-14T14:28:21.3835445+01:00",
+      "IsConflict": false,
+      "Description": "Proactive well-modulated data-warehouse",
+      "DescriptionStyleHint": "Fundamental bandwidth-monitored monitoring",
+      "Tooltip": "nostrum"
     },
     {
-      "Date": "2001-07-21T02:38:20.7764793+02:00",
-      "IsConflict": true,
-      "Description": "Persistent human-resource installation",
-      "DescriptionStyleHint": "Streamlined explicit software",
-      "Tooltip": "consequatur"
+      "Date": "2009-11-14T14:28:21.3835445+01:00",
+      "IsConflict": false,
+      "Description": "Proactive well-modulated data-warehouse",
+      "DescriptionStyleHint": "Fundamental bandwidth-monitored monitoring",
+      "Tooltip": "nostrum"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

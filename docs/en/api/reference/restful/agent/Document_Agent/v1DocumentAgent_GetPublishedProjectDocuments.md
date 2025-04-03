@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 790
+  "ProjectId": 960
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 311,
-    "Attention": "voluptates",
-    "Header": "sapiente",
-    "Name": "Collins, Bartoletti and Goodwin",
-    "OurRef": "dolor",
-    "YourRef": "facilis",
-    "Description": "Horizontal uniform migration",
-    "DocumentTemplate": "vitae",
-    "IsPublished": false,
-    "PersonId": 22,
-    "PersonFullName": "Hope Ernser",
-    "AssociateFullName": "Aiden Effertz",
-    "ContactId": 215,
-    "ContactName": "Champlin-Wintheiser",
-    "ProjectId": 394,
-    "ProjectName": "Bernier Inc and Sons",
-    "AssociateId": 378,
-    "Snum": 850,
-    "SaleId": 219,
-    "SaleName": "Klein LLC",
+    "DocumentId": 718,
+    "Attention": "dicta",
+    "Header": "vero",
+    "Name": "Ferry-Willms",
+    "OurRef": "est",
+    "YourRef": "hic",
+    "Description": "Fully-configurable web-enabled capacity",
+    "DocumentTemplate": "delectus",
+    "IsPublished": true,
+    "PersonId": 916,
+    "PersonFullName": "Flo Lang",
+    "AssociateFullName": "Conrad Schimmel",
+    "ContactId": 827,
+    "ContactName": "Murazik, Konopelski and Trantow",
+    "ProjectId": 740,
+    "ProjectName": "Welch Group",
+    "AssociateId": 719,
+    "Snum": 870,
+    "SaleId": 14,
+    "SaleName": "Rice LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 731
+        "FieldType": "System.Int32",
+        "FieldLength": 991
       }
     }
   }

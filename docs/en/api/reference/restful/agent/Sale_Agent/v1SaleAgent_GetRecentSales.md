@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 843,
-  "Count": 9
+  "AmountLimit": 650,
+  "Count": 955
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kling-Klein",
-    "SaleDate": "2009-01-17T02:38:21.8544876+01:00",
-    "SaleId": 407,
-    "Probability": 539,
-    "Title": "magnam",
-    "Amount": 14679.655999999999,
-    "Currency": "rerum",
-    "ProjectName": "Hintz Group",
-    "AssociateFullName": "Jalon Kuhlman",
-    "Description": "Versatile leading edge conglomeration",
+    "ContactName": "Littel-Hettinger",
+    "SaleDate": "2023-10-11T14:28:22.3678792+02:00",
+    "SaleId": 413,
+    "Probability": 817,
+    "Title": "consequatur",
+    "Amount": 27814.25,
+    "Currency": "alias",
+    "ProjectName": "Botsford, Moen and Volkman",
+    "AssociateFullName": "Ms. Alan Aaron Stiedemann DDS",
+    "Description": "Reverse-engineered tangible architecture",
     "Status": "Lost",
-    "WeightedAmount": 31123.753999999997,
-    "ProjectId": 100,
-    "EarningPercent": 19647.046,
-    "Earning": 4622.65,
-    "ContactId": 536,
-    "AssociateId": 441,
-    "PersonId": 432,
-    "SaleTypeId": 951,
-    "SaleTypeName": "Larkin, Lueilwitz and Schmidt",
-    "PersonFullName": "Nyasia Hahn",
+    "WeightedAmount": 25592.244,
+    "ProjectId": 866,
+    "EarningPercent": 15648.062,
+    "Earning": 12416.908,
+    "ContactId": 535,
+    "AssociateId": 228,
+    "PersonId": 899,
+    "SaleTypeId": 810,
+    "SaleTypeName": "Bayer-Bruen",
+    "PersonFullName": "Mr. Abby Derick Lockman III",
     "Completed": "Completed",
-    "ActiveErpLinks": 213,
-    "NextDueDate": "2024-04-26T02:38:21.8544876+02:00",
-    "Number": "1619590",
+    "ActiveErpLinks": 874,
+    "NextDueDate": "2008-09-23T14:28:22.3678792+02:00",
+    "Number": "1048171",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 241
+        "FieldLength": 840
       }
     }
   }

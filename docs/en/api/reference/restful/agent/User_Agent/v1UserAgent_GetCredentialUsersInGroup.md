@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "et",
-  "GroupName": "Mann, Tillman and Skiles"
+  "Type": "accusamus",
+  "GroupName": "Botsford LLC"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "occaecati",
-    "occaecati"
+    "adipisci",
+    "temporibus"
   ],
   "Users": [
     {
-      "Value": "expedita",
-      "DisplayValue": "ut",
+      "Value": "quasi",
+      "DisplayValue": "culpa",
       "Columns": [
-        "quis",
-        "assumenda"
+        "quaerat",
+        "est"
       ],
       "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldType": "System.String",
+          "FieldLength": 928
         }
       }
     },
     {
-      "Value": "expedita",
-      "DisplayValue": "ut",
+      "Value": "quasi",
+      "DisplayValue": "culpa",
       "Columns": [
-        "quis",
-        "assumenda"
+        "quaerat",
+        "est"
       ],
       "CanCreatePerson": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldType": "System.String",
+          "FieldLength": 928
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 676
     }
   }
 }

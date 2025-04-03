@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 739,
-  "Name": "Morar LLC",
-  "Tooltip": "vero",
-  "Deleted": false,
-  "UdListDefinitionId": 696,
-  "Rank": 282,
+  "Id": 616,
+  "Name": "Moore-Rempel",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "UdListDefinitionId": 990,
+  "Rank": 200,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 775
+      "FieldLength": 681
     }
   }
 }

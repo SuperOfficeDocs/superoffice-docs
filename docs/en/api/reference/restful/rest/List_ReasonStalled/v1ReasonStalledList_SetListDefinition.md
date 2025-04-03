@@ -89,14 +89,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Id": 843,
-  "Name": "Hane, Skiles and Schoen",
-  "Tooltip": "ut",
+  "Name": "Miller LLC",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 316,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolorum",
+  "Rank": 31,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quisquam",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 264,
-  "Name": "Tillman, Daugherty and Durgan",
-  "Tooltip": "omnis",
+  "Id": 941,
+  "Name": "Cormier, Anderson and Wolf",
+  "Tooltip": "laboriosam",
   "Deleted": false,
-  "Rank": 87,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "culpa",
+  "Rank": 37,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quia",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 54
     }
   }
 }

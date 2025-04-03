@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 51,
-  "ConnectorName": "Kunde-Mayert"
+  "ConnectionId": 597,
+  "ConnectorName": "Blanda Inc and Sons"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "est",
-    "Rank": 435,
-    "DisplayName": "Bogisich LLC",
-    "DisplayDescription": "Compatible bifurcated knowledge base",
+    "FieldKey": "unde",
+    "Rank": 865,
+    "DisplayName": "Howell-Bauch",
+    "DisplayDescription": "Seamless tertiary pricing structure",
     "FieldType": "Checkbox",
-    "ListName": "Gibson LLC",
-    "DefaultValue": "odit",
-    "MaxLength": 503,
+    "ListName": "Turcotte, Nicolas and Block",
+    "DefaultValue": "qui",
+    "MaxLength": 686,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldLength": 538
       }
     }
   }

@@ -25,7 +25,7 @@ Gets all the PaymentType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/PaymentType/Items?includeDeleted=True
+GET /api/v1/List/PaymentType/Items?includeDeleted=False
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 545,
-    "Name": "Armstrong, Corwin and Dickinson",
-    "Tooltip": "dolor",
+    "Id": 656,
+    "Name": "Kassulke-Kshlerin",
+    "Tooltip": "deleniti",
     "Deleted": false,
-    "UdListDefinitionId": 563,
-    "Rank": 598,
+    "UdListDefinitionId": 421,
+    "Rank": 521,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 209
+        "FieldType": "System.String",
+        "FieldLength": 289
       }
     }
   }

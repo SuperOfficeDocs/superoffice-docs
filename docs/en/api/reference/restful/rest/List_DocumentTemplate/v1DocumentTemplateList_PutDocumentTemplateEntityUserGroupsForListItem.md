@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Schinner-Schultz",
-    "ToolTip": "Quo optio iure corporis voluptas quia fugiat fugiat.",
+    "Id": 271,
+    "Name": "Satterfield-Cartwright",
+    "ToolTip": "Laborum qui cumque non error cumque.",
     "Deleted": false,
-    "Rank": 468,
-    "Type": "exercitationem",
-    "ColorBlock": 691,
-    "IconHint": "distinctio",
+    "Rank": 870,
+    "Type": "dolor",
+    "ColorBlock": 73,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2006-03-14T02:38:26.7611442+01:00",
+    "LastChanged": "2024-07-04T14:28:27.5707933+02:00",
     "ChildItems": [
       {
         "Id": 725,
-        "Name": "Streich-Klein",
-        "ToolTip": "Consectetur qui alias saepe itaque sit.",
+        "Name": "Kuhic, Beatty and Rogahn",
+        "ToolTip": "Sed suscipit iusto.",
         "Deleted": false,
-        "Rank": 474,
-        "Type": "alias",
-        "ColorBlock": 990,
-        "IconHint": "sequi",
+        "Rank": 401,
+        "Type": "dolorem",
+        "ColorBlock": 807,
+        "IconHint": "omnis",
         "Selected": false,
-        "LastChanged": "2004-12-22T02:38:26.7611442+01:00",
+        "LastChanged": "2024-10-28T14:28:27.5707933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Prof. Estel Monty Blick DDS"
+        "ExtraInfo": "eos",
+        "StyleHint": "omnis",
+        "Hidden": false,
+        "FullName": "Carmella Lesch"
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "cumque",
+    "ExtraInfo": "velit",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Yessenia Fisher"
+    "FullName": "Oran Tillman"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 966,
-    "Name": "Feeney, Schinner and Stark",
-    "ToolTip": "Molestiae sunt blanditiis.",
+    "Id": 701,
+    "Name": "Barrows, Nader and Hoeger",
+    "ToolTip": "Quo autem tempore.",
     "Deleted": true,
-    "Rank": 649,
-    "Type": "velit",
-    "ColorBlock": 499,
-    "IconHint": "aliquam",
-    "Selected": true,
-    "LastChanged": "2002-06-27T02:38:26.7611442+02:00",
+    "Rank": 925,
+    "Type": "hic",
+    "ColorBlock": 743,
+    "IconHint": "fugiat",
+    "Selected": false,
+    "LastChanged": "2006-08-25T14:28:27.5707933+02:00",
     "ChildItems": [
       {
-        "Id": 104,
-        "Name": "Greenholt Group",
-        "ToolTip": "Corrupti nostrum aut.",
+        "Id": 193,
+        "Name": "Kirlin LLC",
+        "ToolTip": "Veniam sit.",
         "Deleted": true,
-        "Rank": 837,
-        "Type": "nobis",
-        "ColorBlock": 422,
-        "IconHint": "voluptatum",
+        "Rank": 520,
+        "Type": "omnis",
+        "ColorBlock": 188,
+        "IconHint": "ex",
         "Selected": false,
-        "LastChanged": "2008-02-23T02:38:26.7611442+01:00",
+        "LastChanged": "2003-10-21T14:28:27.5707933+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "architecto",
+        "ExtraInfo": "veniam",
+        "StyleHint": "qui",
         "Hidden": true,
-        "FullName": "Jade Kovacek",
+        "FullName": "Miss Ayla Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 331
+            "FieldLength": 924
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "maxime",
-    "Hidden": true,
-    "FullName": "Eriberto Jacobi",
+    "ExtraInfo": "et",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Jonathan Petra Macejkovic II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 710
+        "FieldType": "System.Int32",
+        "FieldLength": 561
       }
     }
   }

@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 598,
-  "Name": "Torp Inc and Sons",
-  "Tooltip": "perspiciatis",
+  "Id": 530,
+  "Name": "Trantow, Tillman and Bashirian",
+  "Tooltip": "libero",
   "Deleted": false,
-  "Rank": 133,
+  "Rank": 615,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sapiente",
+  "ListType": "quasi",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 632,
-  "Name": "Fadel LLC",
-  "Tooltip": "nam",
-  "Deleted": true,
-  "Rank": 803,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "illum",
+  "Id": 514,
+  "Name": "Abbott LLC",
+  "Tooltip": "magnam",
+  "Deleted": false,
+  "Rank": 740,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "porro",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 876
+      "FieldLength": 810
     }
   }
 }

@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 651,
-    "Name": "Torp, Torphy and Osinski",
-    "Tooltip": "dolores",
-    "Deleted": false,
-    "UdListDefinitionId": 463,
-    "Rank": 329,
+    "Id": 797,
+    "Name": "Harris-Kris",
+    "Tooltip": "ut",
+    "Deleted": true,
+    "UdListDefinitionId": 130,
+    "Rank": 919,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 471
+        "FieldType": "System.Int32",
+        "FieldLength": 817
       }
     }
   }

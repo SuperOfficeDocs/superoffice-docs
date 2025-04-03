@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    899,
-    125
+    901,
+    866
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 718,
-    "Name": "Halvorson, Waelchi and Reichel",
-    "ToolTip": "Est expedita eaque.",
+    "Id": 978,
+    "Name": "Hilll-Dicki",
+    "ToolTip": "Perspiciatis consequatur corrupti.",
     "Deleted": false,
-    "Rank": 520,
-    "Type": "ea",
+    "Rank": 382,
+    "Type": "odit",
     "ChildItems": [
       {
-        "Id": 59,
-        "Name": "Wehner, Gulgowski and Jast",
-        "ToolTip": "Voluptatem error accusamus.",
+        "Id": 139,
+        "Name": "Nolan, Kirlin and Connelly",
+        "ToolTip": "Dicta commodi ab.",
         "Deleted": true,
-        "Rank": 91,
-        "Type": "velit",
+        "Rank": 485,
+        "Type": "fugit",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ullam",
-        "ColorBlock": 863,
-        "ExtraInfo": "quidem",
-        "StyleHint": "aut",
-        "FullName": "Dr. Lacey Leffler III",
+        "IconHint": "aperiam",
+        "ColorBlock": 794,
+        "ExtraInfo": "aut",
+        "StyleHint": "id",
+        "FullName": "Zackery Harber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 92
+            "FieldLength": 10
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 543,
-    "ExtraInfo": "in",
-    "StyleHint": "illo",
-    "FullName": "Rosalia Stoltenberg",
+    "IconHint": "voluptatibus",
+    "ColorBlock": 382,
+    "ExtraInfo": "fuga",
+    "StyleHint": "sequi",
+    "FullName": "Dr. Unique Waelchi MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 319
+        "FieldLength": 371
       }
     }
   }

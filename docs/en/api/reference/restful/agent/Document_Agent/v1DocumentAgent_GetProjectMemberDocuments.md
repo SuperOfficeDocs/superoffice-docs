@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 461,
-  "StartTime": "2017-09-13T02:38:21.2295568+02:00",
-  "EndTime": "2018-12-12T02:38:21.2295568+01:00",
-  "Count": 155
+  "PersonId": 891,
+  "StartTime": "2004-04-30T14:28:21.805403+02:00",
+  "EndTime": "2000-10-08T14:28:21.805403+02:00",
+  "Count": 39
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 940,
-    "Attention": "laborum",
-    "Header": "nihil",
-    "Name": "Brekke-Keebler",
-    "OurRef": "minima",
-    "YourRef": "dolorem",
-    "Description": "Networked radical orchestration",
-    "DocumentTemplate": "architecto",
+    "DocumentId": 193,
+    "Attention": "et",
+    "Header": "quia",
+    "Name": "Bahringer-Heaney",
+    "OurRef": "autem",
+    "YourRef": "nostrum",
+    "Description": "Operative encompassing utilisation",
+    "DocumentTemplate": "quod",
     "IsPublished": false,
-    "PersonId": 184,
-    "PersonFullName": "Gladyce Marvin",
-    "AssociateFullName": "Trent Daphney Stanton V",
-    "ContactId": 974,
-    "ContactName": "O'Hara-Raynor",
-    "ProjectId": 396,
-    "ProjectName": "Lindgren LLC",
-    "AssociateId": 617,
-    "Snum": 728,
-    "SaleId": 304,
-    "SaleName": "Schowalter, Wisoky and Beer",
+    "PersonId": 312,
+    "PersonFullName": "Julio Bergstrom DVM",
+    "AssociateFullName": "Mr. Beryl Rahul Herman",
+    "ContactId": 776,
+    "ContactName": "Satterfield, Mayer and Treutel",
+    "ProjectId": 19,
+    "ProjectName": "Waters-Windler",
+    "AssociateId": 702,
+    "Snum": 1002,
+    "SaleId": 197,
+    "SaleName": "Dach Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 650
+        "FieldType": "System.Int32",
+        "FieldLength": 259
       }
     }
   }

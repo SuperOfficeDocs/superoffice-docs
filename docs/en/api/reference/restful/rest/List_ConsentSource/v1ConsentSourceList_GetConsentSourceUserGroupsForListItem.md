@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Jast LLC",
-    "ToolTip": "Molestias quaerat reprehenderit enim omnis qui fuga occaecati.",
-    "Deleted": true,
-    "Rank": 733,
-    "Type": "veritatis",
-    "ColorBlock": 961,
-    "IconHint": "iste",
+    "Id": 672,
+    "Name": "Bosco-Hintz",
+    "ToolTip": "Tempora libero a asperiores ut quos.",
+    "Deleted": false,
+    "Rank": 165,
+    "Type": "numquam",
+    "ColorBlock": 137,
+    "IconHint": "consequatur",
     "Selected": true,
-    "LastChanged": "2009-03-12T02:38:26.7142749+01:00",
+    "LastChanged": "2000-06-01T14:28:27.5082958+02:00",
     "ChildItems": [
       {
-        "Id": 224,
-        "Name": "Roob-Koch",
-        "ToolTip": "Quis deserunt nam.",
+        "Id": 628,
+        "Name": "Sipes Group",
+        "ToolTip": "Beatae cumque porro veniam iste voluptatem nam qui.",
         "Deleted": false,
-        "Rank": 64,
-        "Type": "ut",
-        "ColorBlock": 438,
-        "IconHint": "dignissimos",
+        "Rank": 286,
+        "Type": "minima",
+        "ColorBlock": 147,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "1999-06-30T02:38:26.7142749+02:00",
+        "LastChanged": "2022-09-07T14:28:27.5082958+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "ad",
-        "Hidden": false,
-        "FullName": "Austin Mueller Jr.",
+        "ExtraInfo": "deserunt",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Alanis Beier",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 894
+            "FieldType": "System.String",
+            "FieldLength": 778
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "earum",
-    "Hidden": true,
-    "FullName": "Mrs. Dashawn Mayra Hayes II",
+    "ExtraInfo": "illum",
+    "StyleHint": "tempora",
+    "Hidden": false,
+    "FullName": "Sally Turner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 726
+        "FieldType": "System.String",
+        "FieldLength": 592
       }
     }
   }

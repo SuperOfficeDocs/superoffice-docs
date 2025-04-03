@@ -86,11 +86,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "temporibus",
-  "ProviderName": "Sanford, Bode and Lehner",
-  "StorageKey": "commodi",
-  "Restrictions": "nemo",
-  "StaticColumns": "voluptas"
+  "StorageType": "quaerat",
+  "ProviderName": "Fahey-Grimes",
+  "StorageKey": "sed",
+  "Restrictions": "et",
+  "StaticColumns": "eius"
 }
 ```
 
@@ -103,15 +103,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Fadel Group",
-      "Operator": "ab",
+      "Name": "Rath, Wisoky and Orn",
+      "Operator": "nostrum",
       "Values": [
-        "consequatur",
-        "rerum"
+        "ea",
+        "debitis"
       ],
       "DisplayValues": [
-        "ad",
-        "et"
+        "eligendi",
+        "maiores"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -119,65 +119,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 233,
+      "InterParenthesis": 8,
       "InterOperator": "And",
-      "UniqueHash": 230
+      "UniqueHash": 14
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Kuhlman Inc and Sons",
-      "DisplayTooltip": "tempore",
-      "DisplayType": "ut",
+      "DisplayName": "Lueilwitz, Botsford and Hahn",
+      "DisplayTooltip": "consequatur",
+      "DisplayType": "sint",
       "CanOrderBy": false,
-      "Name": "Huel, Senger and Cummerata",
+      "Name": "Daugherty, Berge and Zulauf",
       "CanRestrictBy": false,
-      "RestrictionType": "repellendus",
-      "RestrictionListName": "Little LLC",
+      "RestrictionType": "cumque",
+      "RestrictionListName": "Dickens, Maggio and Bahringer",
       "IsVisible": false,
-      "ExtraInfo": "sint",
-      "Width": "optio",
-      "IconHint": "sint",
-      "HeadingIconHint": "consequatur"
+      "ExtraInfo": "iure",
+      "Width": "praesentium",
+      "IconHint": "omnis",
+      "HeadingIconHint": "cumque"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Sipes Inc and Sons",
-      "PrimaryKey": 509,
+      "EntityName": "Quitzon, Reynolds and Nitzsche",
+      "PrimaryKey": 225,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "beatae",
-          "TooltipHint": "quaerat",
-          "LinkHint": "qui"
+          "DisplayValue": "qui",
+          "TooltipHint": "dolores",
+          "LinkHint": "vero"
         }
       },
-      "LinkHint": "quia",
-      "StyleHint": "delectus",
+      "LinkHint": "quo",
+      "StyleHint": "necessitatibus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 811
+          "FieldType": "System.Int32",
+          "FieldLength": 605
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Ziemann, Yundt and Beier",
-      "Description": "Inverse regional capability",
-      "Rank": 191,
+      "Name": "West-Veum",
+      "Description": "Switchable bottom-line policy",
+      "Rank": 554,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ziemann, Yundt and Beier",
-      "Description": "Inverse regional capability",
-      "Rank": 191,
+      "Name": "West-Veum",
+      "Description": "Switchable bottom-line policy",
+      "Rank": 554,
       "Restrictions": [
         {},
         {}
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 58
+      "FieldType": "System.Int32",
+      "FieldLength": 132
     }
   }
 }

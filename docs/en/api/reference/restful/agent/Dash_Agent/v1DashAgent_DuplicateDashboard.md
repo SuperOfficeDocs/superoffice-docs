@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 286,
-  "Name": "Mraz, Fay and Rau"
+  "DashboardId": 639,
+  "Name": "Huels Inc and Sons"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 774,
-  "UniqueId": "rerum",
-  "Name": "Heaney-Kuphal",
-  "Description": "Fully-configurable bi-directional toolset",
-  "AssociateId": 45,
-  "Columns": 510,
+  "DashboardId": 206,
+  "UniqueId": "commodi",
+  "Name": "Hyatt, Ratke and Hayes",
+  "Description": "Multi-channelled non-volatile superstructure",
+  "AssociateId": 598,
+  "Columns": 6,
   "Theme": null,
-  "VisibleForAll": 26,
+  "VisibleForAll": 322,
   "VisibleForAssociates": [
-    291,
-    511
+    380,
+    918
   ],
   "VisibleForGroups": [
-    938,
-    800
+    936,
+    338
   ],
-  "PinForAll": 352,
+  "PinForAll": 898,
   "PinForAssociates": [
-    743,
-    846
+    226,
+    358
   ],
   "PinForGroups": [
-    311,
-    346
+    114,
+    276
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 759
+      "FieldType": "System.Int32",
+      "FieldLength": 567
     }
   }
 }

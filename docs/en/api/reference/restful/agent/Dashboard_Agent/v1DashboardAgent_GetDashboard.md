@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=362
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=203
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 422,
-  "AssociateId": 67,
-  "Caption": "dolor",
+  "DashboardId": 139,
+  "AssociateId": 465,
+  "Caption": "provident",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 571,
-      "Caption": "dolorem",
-      "Description": "Enhanced upward-trending capability",
-      "ChartName": "Osinski LLC",
-      "ChartId": "molestias",
-      "IsDefault": true,
-      "AssociateId": 763,
-      "GroupId": 546,
-      "SelectionId": 866,
-      "Config": "quae",
+      "DashboardTileId": 105,
+      "Caption": "at",
+      "Description": "Re-engineered multimedia contingency",
+      "ChartName": "Labadie, Ritchie and Mills",
+      "ChartId": "qui",
+      "IsDefault": false,
+      "AssociateId": 711,
+      "GroupId": 268,
+      "SelectionId": 910,
+      "Config": "qui",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 35
+          "FieldType": "System.String",
+          "FieldLength": 203
         }
       }
     }
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 101
+      "FieldType": "System.Int32",
+      "FieldLength": 172
     }
   }
 }

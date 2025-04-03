@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 185,
-  "Name": "Kozey Inc and Sons",
-  "Tooltip": "officia",
-  "Deleted": true,
-  "Rank": 741,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 86,
+  "Name": "Funk-Hammes",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 813,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quibusdam",
-  "InUseByUserDefinedFields": true,
+  "ListType": "consequatur",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldLength": 270
     }
   },
   "_Links": {

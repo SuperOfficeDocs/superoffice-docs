@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 886,
-    "Name": "Beier Group",
-    "MaxDataAge": 898,
-    "NumberOfUsers": 21,
-    "NumberOfLogins": 150,
-    "FreetextEnabeled": false,
+    "AreaId": 996,
+    "Name": "Kautzer Group",
+    "MaxDataAge": 73,
+    "NumberOfUsers": 874,
+    "NumberOfLogins": 266,
+    "FreetextEnabeled": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 711
+        "FieldLength": 871
       }
     }
   }

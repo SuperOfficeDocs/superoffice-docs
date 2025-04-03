@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 51,
-  "Name": "Reichel Group",
-  "Tooltip": "iste",
-  "Deleted": false,
-  "UdListDefinitionId": 310,
-  "Rank": 860
+  "Id": 555,
+  "Name": "Moore LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 983,
+  "Rank": 933
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 904,
-  "Name": "Hegmann-Dicki",
-  "Tooltip": "accusantium",
-  "Deleted": false,
-  "UdListDefinitionId": 757,
-  "Rank": 131,
+  "Id": 781,
+  "Name": "Casper, Gulgowski and Hoppe",
+  "Tooltip": "nobis",
+  "Deleted": true,
+  "UdListDefinitionId": 499,
+  "Rank": 898,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldLength": 721
     }
   }
 }

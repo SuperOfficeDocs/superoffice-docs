@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 109,
-  "ErpConnectorId": 23,
-  "DisplayName": "Runolfsdottir-Wisozk",
-  "DisplayDescription": "Face to face eco-centric productivity",
+  "ErpConnectionId": 593,
+  "ErpConnectorId": 680,
+  "DisplayName": "Block LLC",
+  "DisplayDescription": "Integrated 4th generation moderator",
   "Active": true,
-  "ConnectionId": "nostrum",
-  "MostRecentTimestamp": "dolores",
+  "ConnectionId": "ut",
+  "MostRecentTimestamp": "nisi",
   "ConfigFields": {
-    "ConfigFields1": "quas",
-    "ConfigFields2": "et"
+    "ConfigFields1": "sit",
+    "ConfigFields2": "quae"
   },
   "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    643,
-    410
+    175,
+    850
   ],
   "AssociateAccessIds": [
-    322,
-    56
+    763,
+    625
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldType": "System.String",
+      "FieldLength": 897
     }
   }
 }

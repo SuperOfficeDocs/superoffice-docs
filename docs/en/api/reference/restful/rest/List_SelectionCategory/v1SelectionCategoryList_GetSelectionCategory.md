@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 122,
-  "Name": "Fritsch LLC",
-  "Tooltip": "ipsa",
-  "Deleted": true,
-  "UdListDefinitionId": 557,
-  "Rank": 775,
+  "Id": 461,
+  "Name": "Emard, Collier and Turcotte",
+  "Tooltip": "vel",
+  "Deleted": false,
+  "UdListDefinitionId": 422,
+  "Rank": 798,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 457
+      "FieldType": "System.String",
+      "FieldLength": 966
     }
   }
 }

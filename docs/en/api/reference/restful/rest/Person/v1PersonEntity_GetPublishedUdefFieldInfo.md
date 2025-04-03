@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 752,
-  "ColumnId": 100,
-  "FieldDefault": "et",
-  "FieldHeight": 222,
-  "FieldLabel": "impedit",
-  "FieldLeft": 86,
-  "FieldTop": 611,
+  "UDefFieldId": 263,
+  "ColumnId": 773,
+  "FieldDefault": "nihil",
+  "FieldHeight": 70,
+  "FieldLabel": "id",
+  "FieldLeft": 423,
+  "FieldTop": 182,
   "FieldType": "Checkbox",
-  "FieldWidth": 761,
-  "FormatMask": "sit",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 978,
-  "LabelLeft": 702,
-  "LabelTop": 924,
-  "LabelWidth": 67,
-  "LastVersionId": 558,
-  "ListTableId": 915,
+  "FieldWidth": 983,
+  "FormatMask": "saepe",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 977,
+  "LabelLeft": 640,
+  "LabelTop": 41,
+  "LabelWidth": 694,
+  "LastVersionId": 259,
+  "ListTableId": 350,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 913,
-  "ProgId": "debitis",
+  "Page1LineNo": 359,
+  "ProgId": "autem",
   "IsReadOnly": false,
-  "ShortLabel": "sint",
-  "TabOrder": 617,
-  "TextLength": 148,
-  "Tooltip": "architecto",
-  "UdefIdentity": 664,
-  "UDListDefinitionId": 248,
+  "ShortLabel": "ut",
+  "TabOrder": 907,
+  "TextLength": 150,
+  "Tooltip": "repellat",
+  "UdefIdentity": 565,
+  "UDListDefinitionId": 668,
   "Justification": "Center",
-  "Version": 916,
-  "TemplateVariableName": "Nader-Morar",
+  "Version": 333,
+  "TemplateVariableName": "Corkery Group",
   "HasBeenPublished": false,
-  "MdoListName": "Yundt, Rempel and McLaughlin",
+  "MdoListName": "Okuneva-Haag",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldLength": 75
     }
   }
 }

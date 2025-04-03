@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 948,
-    "Name": "Graham-Waters",
-    "ToolTip": "Rerum iusto nesciunt dolorum quam incidunt veritatis deserunt.",
+    "Id": 448,
+    "Name": "McKenzie LLC",
+    "ToolTip": "Ut illum eum cum nemo omnis quod excepturi.",
     "Deleted": false,
-    "Rank": 985,
-    "Type": "vel",
-    "ColorBlock": 32,
-    "IconHint": "aperiam",
+    "Rank": 913,
+    "Type": "magnam",
+    "ColorBlock": 447,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2003-05-08T02:38:26.9173771+02:00",
+    "LastChanged": "2020-11-05T14:28:27.6957886+01:00",
     "ChildItems": [
       {
-        "Id": 741,
-        "Name": "Abernathy-Bogisich",
-        "ToolTip": "Mollitia maxime.",
-        "Deleted": true,
-        "Rank": 615,
-        "Type": "voluptatibus",
-        "ColorBlock": 893,
-        "IconHint": "dignissimos",
+        "Id": 14,
+        "Name": "Huel, Cruickshank and Zieme",
+        "ToolTip": "Eum occaecati aut ut eum sunt fugiat sunt.",
+        "Deleted": false,
+        "Rank": 232,
+        "Type": "unde",
+        "ColorBlock": 837,
+        "IconHint": "minus",
         "Selected": true,
-        "LastChanged": "2023-08-21T02:38:26.9173771+02:00",
+        "LastChanged": "2023-07-29T14:28:27.6957886+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "dolores",
-        "Hidden": false,
-        "FullName": "Guadalupe Frami"
+        "ExtraInfo": "dolorum",
+        "StyleHint": "iste",
+        "Hidden": true,
+        "FullName": "Ora Watsica"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "harum",
+    "ExtraInfo": "eos",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Roman Johnston"
+    "FullName": "Ronny Purdy"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 602,
-    "Name": "Lockman, Daugherty and Beatty",
-    "ToolTip": "Nam cum aspernatur beatae soluta minus consectetur natus.",
-    "Deleted": false,
-    "Rank": 340,
-    "Type": "omnis",
-    "ColorBlock": 703,
-    "IconHint": "est",
-    "Selected": false,
-    "LastChanged": "2009-12-12T02:38:26.9173771+01:00",
+    "Id": 194,
+    "Name": "Olson, Bartell and Mueller",
+    "ToolTip": "Culpa voluptatem enim veniam id autem similique inventore.",
+    "Deleted": true,
+    "Rank": 720,
+    "Type": "mollitia",
+    "ColorBlock": 382,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "1999-07-05T14:28:27.6957886+02:00",
     "ChildItems": [
       {
-        "Id": 740,
-        "Name": "Oberbrunner-Gibson",
-        "ToolTip": "Earum numquam.",
+        "Id": 136,
+        "Name": "Terry-Wolf",
+        "ToolTip": "Omnis quam voluptatem molestiae dicta facere fuga.",
         "Deleted": true,
-        "Rank": 145,
-        "Type": "occaecati",
-        "ColorBlock": 79,
-        "IconHint": "culpa",
-        "Selected": true,
-        "LastChanged": "2005-12-19T02:38:26.9173771+01:00",
+        "Rank": 272,
+        "Type": "ipsam",
+        "ColorBlock": 854,
+        "IconHint": "molestias",
+        "Selected": false,
+        "LastChanged": "2010-04-06T14:28:27.6957886+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "inventore",
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "placeat",
         "Hidden": false,
-        "FullName": "Miller Volkman",
+        "FullName": "Stefan Kihn Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 587
+            "FieldType": "System.Int32",
+            "FieldLength": 253
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "possimus",
-    "Hidden": false,
-    "FullName": "Edyth Schaden",
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "amet",
+    "Hidden": true,
+    "FullName": "Alysa Wehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 658
+        "FieldType": "System.Int32",
+        "FieldLength": 283
       }
     }
   }

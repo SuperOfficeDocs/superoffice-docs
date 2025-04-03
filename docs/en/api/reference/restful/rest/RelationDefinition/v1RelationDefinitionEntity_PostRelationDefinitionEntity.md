@@ -90,16 +90,16 @@ OK
 POST /api/v1/RelationDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 334,
-  "Name": "West, Roob and Welch",
-  "Tooltip": "pariatur",
-  "PassiveText": "fugit",
+  "ReldefId": 233,
+  "Name": "Parisian, Ankunding and Rempel",
+  "Tooltip": "libero",
+  "PassiveText": "alias",
   "Deleted": false,
-  "Rank": 557,
+  "Rank": 241,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,12 +112,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 518,
-  "Name": "Jacobi LLC",
-  "Tooltip": "magnam",
-  "PassiveText": "dolores",
+  "ReldefId": 692,
+  "Name": "Hilpert, Stanton and Trantow",
+  "Tooltip": "veniam",
+  "PassiveText": "et",
   "Deleted": false,
-  "Rank": 511,
+  "Rank": 723,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -125,12 +125,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 100
+      "FieldLength": 216
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

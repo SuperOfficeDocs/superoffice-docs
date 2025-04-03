@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jewess-Runte"
+  "Name": "Grady-Abbott"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 508,
-    "Name": "Miller, Nienow and Hirthe",
-    "ToolTip": "Nihil atque quos corrupti.",
+    "Id": 524,
+    "Name": "Crona-Lakin",
+    "ToolTip": "Fuga sunt quaerat.",
     "Deleted": false,
-    "Rank": 805,
-    "Type": "ut",
-    "ColorBlock": 968,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2021-08-13T02:38:21.5732692+02:00",
+    "Rank": 943,
+    "Type": "tempore",
+    "ColorBlock": 266,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2010-02-09T14:28:22.1178891+01:00",
     "ChildItems": [
       {
-        "Id": 168,
-        "Name": "Johnson-Blanda",
-        "ToolTip": "Illum nulla repudiandae earum id fugiat exercitationem fugiat.",
+        "Id": 453,
+        "Name": "Schaden, Walsh and Homenick",
+        "ToolTip": "Sit tenetur.",
         "Deleted": true,
-        "Rank": 293,
-        "Type": "qui",
-        "ColorBlock": 378,
-        "IconHint": "corrupti",
+        "Rank": 580,
+        "Type": "in",
+        "ColorBlock": 250,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2006-06-08T02:38:21.5732692+02:00",
+        "LastChanged": "2013-05-17T14:28:22.1178891+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "ut",
+        "ExtraInfo": "et",
+        "StyleHint": "unde",
         "Hidden": false,
-        "FullName": "Alejandra Russel",
+        "FullName": "Miss Bessie Haven Altenwerth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldLength": 167
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Judge Stehr",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "dolorem",
+    "Hidden": false,
+    "FullName": "Ms. Russell Macejkovic",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 274
+        "FieldLength": 970
       }
     }
   }

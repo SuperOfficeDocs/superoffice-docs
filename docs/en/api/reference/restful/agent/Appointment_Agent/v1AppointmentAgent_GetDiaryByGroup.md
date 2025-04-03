@@ -115,6 +115,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -129,15 +130,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 159,
-  "GroupType": 732,
-  "StartTime": "2011-08-09T02:38:20.5732257+02:00",
-  "EndTime": "2006-11-04T02:38:20.5732257+01:00",
-  "Count": 164
+  "GroupId": 99,
+  "GroupType": 312,
+  "StartTime": "1998-10-07T14:28:21.1648024+02:00",
+  "EndTime": "2023-05-09T14:28:21.1648024+02:00",
+  "Count": 662
 }
 ```
 
@@ -149,65 +150,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 511,
-    "StartDate": "2014-08-26T02:38:20.5732257+02:00",
-    "EndDate": "2016-02-25T02:38:20.5732257+01:00",
+    "AppointmentId": 594,
+    "StartDate": "2000-08-26T14:28:21.1648024+02:00",
+    "EndDate": "2012-03-01T14:28:21.1648024+01:00",
     "Type": "BookingForChecklist",
-    "Task": "non",
-    "AssociateFullName": "Sandrine Hansen",
-    "ContactName": "Lindgren-Braun",
-    "Description": "Public-key modular toolset",
-    "PersonFullName": "Prof. Birdie Sam Dickinson II",
-    "PersonId": 896,
-    "ContactId": 756,
-    "ProjectId": 83,
-    "ProjectName": "Little-Gulgowski",
-    "IsPublished": false,
-    "AssociateId": 219,
-    "ColorIndex": 506,
-    "IsFree": false,
-    "HasAlarm": true,
-    "IsAlldayEvent": true,
+    "Task": "exercitationem",
+    "AssociateFullName": "Dr. Nathanial Santina Harber",
+    "ContactName": "Renner-Hartmann",
+    "Description": "Horizontal value-added software",
+    "PersonFullName": "Jadon Dibbert",
+    "PersonId": 754,
+    "ContactId": 380,
+    "ProjectId": 465,
+    "ProjectName": "West-Kuvalis",
+    "IsPublished": true,
+    "AssociateId": 232,
+    "ColorIndex": 105,
+    "IsFree": true,
+    "HasAlarm": false,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 196,
-    "PriorityName": "Kilback, Witting and Tromp",
+    "PriorityId": 500,
+    "PriorityName": "Berge-Orn",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2011-11-25T02:38:20.5732257+01:00",
+    "IsBooking": false,
+    "ActiveDate": "2024-04-19T14:28:21.1648024+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-04-11T02:38:20.5732257+02:00",
-    "RecurringEndDate": "2013-01-12T02:38:20.5732257+01:00",
-    "MotherId": 548,
-    "AssignedBy": 22,
-    "AssignedByFullName": "Lulu Gerhold I",
+    "RecurringStartDate": "2009-06-07T14:28:21.1648024+02:00",
+    "RecurringEndDate": "2004-06-09T14:28:21.1648024+02:00",
+    "MotherId": 674,
+    "AssignedBy": 295,
+    "AssignedByFullName": "Arlie Hamill",
     "RejectReason": "",
-    "Location": "consequuntur",
-    "AlarmLeadTime": "sunt",
-    "SaleId": 695,
-    "SaleName": "Lind Group",
-    "AssociateName": "Sawayn-Reinger",
-    "CreatedDate": "2003-08-25T02:38:20.5732257+02:00",
-    "CreatedBy": "nobis",
-    "CreatedByFullName": "Ms. Derick Jovan Hermiston",
-    "CreatedByAssociateId": 817,
+    "Location": "quam",
+    "AlarmLeadTime": "facere",
+    "SaleId": 869,
+    "SaleName": "Russel, Waters and Kuhn",
+    "AssociateName": "Herman, Carter and Kozey",
+    "CreatedDate": "2020-04-09T14:28:21.1648024+02:00",
+    "CreatedBy": "consequatur",
+    "CreatedByFullName": "Cordie Bogan",
+    "CreatedByAssociateId": 590,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 702,
-    "Title": "et",
-    "Agenda": "odit",
-    "InternalNotes": "ipsam",
+    "PreferredTZLocation": 250,
+    "Title": "sunt",
+    "Agenda": "repellat",
+    "InternalNotes": "error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 56
+        "FieldType": "System.Int32",
+        "FieldLength": 74
       }
     }
   }

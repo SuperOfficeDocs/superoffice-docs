@@ -91,16 +91,16 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Purdy-Moore",
+  "Name": "Nolan Inc and Sons",
   "ForceFlatList": false,
-  "AdditionalInfo": "nisi",
+  "AdditionalInfo": "est",
   "HistoryItems": [
-    226,
-    692
+    877,
+    210
   ],
   "OnlyHistory": false
 }
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 509,
-    "Name": "Cormier-D'Amore",
-    "ToolTip": "Omnis pariatur nemo quo adipisci libero et ad.",
-    "Deleted": false,
-    "Rank": 783,
-    "Type": "praesentium",
-    "ColorBlock": 82,
-    "IconHint": "rerum",
-    "Selected": true,
-    "LastChanged": "2009-02-10T02:38:21.5732692+01:00",
+    "Id": 130,
+    "Name": "Moore Group",
+    "ToolTip": "Reprehenderit perspiciatis consequatur dolorum sed laboriosam.",
+    "Deleted": true,
+    "Rank": 803,
+    "Type": "consequatur",
+    "ColorBlock": 309,
+    "IconHint": "nisi",
+    "Selected": false,
+    "LastChanged": "1999-01-09T14:28:22.1178891+01:00",
     "ChildItems": [
       {
-        "Id": 783,
-        "Name": "Kassulke-Vandervort",
-        "ToolTip": "Ipsum excepturi animi earum.",
+        "Id": 332,
+        "Name": "Huel, Schroeder and Osinski",
+        "ToolTip": "Adipisci cupiditate aut nihil ut dicta nobis.",
         "Deleted": false,
-        "Rank": 593,
-        "Type": "assumenda",
-        "ColorBlock": 952,
-        "IconHint": "et",
+        "Rank": 938,
+        "Type": "velit",
+        "ColorBlock": 508,
+        "IconHint": "doloremque",
         "Selected": false,
-        "LastChanged": "2015-11-13T02:38:21.5732692+01:00",
+        "LastChanged": "2009-06-24T14:28:22.1178891+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "magnam",
+        "ExtraInfo": "eos",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Prof. Ashleigh Schaefer I",
+        "FullName": "Mrs. Nils O'Hara PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 963
+            "FieldType": "System.String",
+            "FieldLength": 235
           }
         }
       }
     ],
-    "ExtraInfo": "error",
-    "StyleHint": "id",
+    "ExtraInfo": "rerum",
+    "StyleHint": "fuga",
     "Hidden": false,
-    "FullName": "Miss Thad Cole DVM",
+    "FullName": "Roderick Trisha Reilly Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 259
+        "FieldType": "System.String",
+        "FieldLength": 180
       }
     }
   }

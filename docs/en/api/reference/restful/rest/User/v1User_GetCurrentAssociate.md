@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 814,
-  "Name": "Lehner, Ledner and Casper",
-  "PersonId": 497,
-  "Rank": 8,
-  "Tooltip": "nemo",
+  "AssociateId": 922,
+  "Name": "Zulauf Inc and Sons",
+  "PersonId": 995,
+  "Rank": 56,
+  "Tooltip": "ipsa",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 455,
-  "FullName": "Prof. Esmeralda Weissnat",
-  "FormalName": "Watsica Inc and Sons",
+  "GroupIdx": 83,
+  "FullName": "Mrs. Patrick Bernier Sr.",
+  "FormalName": "Luettgen, Graham and Franecki",
   "Deleted": false,
-  "EjUserId": 313,
-  "UserName": "Balistreri Inc and Sons",
+  "EjUserId": 871,
+  "UserName": "Reinger Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 296
+      "FieldType": "System.Int32",
+      "FieldLength": 185
     }
   }
 }

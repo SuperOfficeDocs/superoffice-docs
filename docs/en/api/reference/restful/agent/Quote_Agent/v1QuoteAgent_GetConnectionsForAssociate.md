@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnectionsForAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 666
+  "AssociateId": 310
 }
 ```
 
@@ -103,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 27,
-    "ERPName": "Reichert LLC",
-    "DisplayName": "Raynor-Walsh",
-    "DisplayDescription": "Inverse demand-driven service-desk",
-    "Rank": 691,
-    "ConnectorName": "Koepp-Feeney",
-    "ErpConnectionId": 936,
-    "ExtraData": "officiis",
+    "QuoteConnectionId": 659,
+    "ERPName": "Jacobs-Hintz",
+    "DisplayName": "Ankunding Inc and Sons",
+    "DisplayDescription": "Customizable coherent local area network",
+    "Rank": 787,
+    "ConnectorName": "Dickens-Upton",
+    "ErpConnectionId": 250,
+    "ExtraData": "voluptatem",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 282,
-        "ERPPriceListKey": "ducimus",
-        "QuoteConnectionId": 579,
-        "Name": "Cremin, Flatley and Schoen",
-        "Description": "Integrated homogeneous workforce",
-        "Currency": "qui",
-        "CurrencyName": "Littel LLC",
-        "ValidFrom": "2022-06-05T02:38:21.7763357+02:00",
-        "ValidTo": "2005-11-07T02:38:21.7763357+01:00",
+        "PriceListId": 621,
+        "ERPPriceListKey": "commodi",
+        "QuoteConnectionId": 398,
+        "Name": "Stark-Mann",
+        "Description": "User-friendly content-based synergy",
+        "Currency": "dolor",
+        "CurrencyName": "Reinger, Lesch and Berge",
+        "ValidFrom": "2013-10-22T14:28:22.3053817+02:00",
+        "ValidTo": "2004-07-25T14:28:22.3053817+02:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 526
+            "FieldLength": 493
           }
         }
       }
     ],
-    "AllAccess": true,
-    "Deleted": false,
+    "AllAccess": false,
+    "Deleted": true,
     "UserGroupAccessIds": [
-      579,
-      454
+      649,
+      796
     ],
     "AssociateAccessIds": [
-      610,
-      527
+      401,
+      659
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 858
+        "FieldLength": 770
       }
     }
   }

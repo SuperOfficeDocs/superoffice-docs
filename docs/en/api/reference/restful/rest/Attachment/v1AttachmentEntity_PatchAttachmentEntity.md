@@ -115,18 +115,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ratione",
+    "path": "sunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ratione",
+    "path": "sunt",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 256,
-  "Name": "Hilll-Wolf",
-  "ContentType": "voluptas",
-  "AttSize": 533,
-  "InlineImage": false,
-  "ContentId": "est",
-  "AuthKey": "voluptatem",
-  "IsSafeFileExtension": true,
+  "AttachmentId": 461,
+  "Name": "Osinski-Harber",
+  "ContentType": "cupiditate",
+  "AttSize": 53,
+  "InlineImage": true,
+  "ContentId": "dolor",
+  "AuthKey": "autem",
+  "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldType": "System.String",
+      "FieldLength": 515
     }
   },
   "_Links": {

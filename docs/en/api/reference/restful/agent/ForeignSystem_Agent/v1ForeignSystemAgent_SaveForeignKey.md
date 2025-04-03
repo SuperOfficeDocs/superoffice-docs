@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Herzog Inc and Sons",
-  "DeviceName": "Nader Group",
-  "DeviceIdentifier": "quis"
+  "ApplicationName": "Herzog, McDermott and Grady",
+  "DeviceName": "Murphy, Lind and Abernathy",
+  "DeviceIdentifier": "perspiciatis"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "laudantium",
-  "Value": "accusantium",
-  "RecordId": 821,
-  "CreatedDate": "2000-11-04T02:38:21.4639053+01:00",
-  "UpdatedDate": "1998-12-02T02:38:21.4639053+01:00",
-  "UpdatedBy": "enim",
-  "CreatedBy": "ut",
-  "TableName": "Bosco, Ziemann and Dicki",
+  "Key": "ad",
+  "Value": "voluptas",
+  "RecordId": 389,
+  "CreatedDate": "2015-02-07T14:28:22.0085182+01:00",
+  "UpdatedDate": "2019-08-12T14:28:22.0085182+02:00",
+  "UpdatedBy": "tempora",
+  "CreatedBy": "velit",
+  "TableName": "Kshlerin-Reichel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 444
+      "FieldLength": 316
     }
   }
 }

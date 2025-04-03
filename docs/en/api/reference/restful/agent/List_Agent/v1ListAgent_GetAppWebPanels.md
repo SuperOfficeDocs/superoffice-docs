@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 51,
-    "Name": "O'Kon, Botsford and Crooks",
-    "Tooltip": "iusto",
-    "Deleted": true,
-    "Rank": 395,
+    "WebPanelId": 834,
+    "Name": "Thompson Group",
+    "Tooltip": "cupiditate",
+    "Deleted": false,
+    "Rank": 999,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": false,
-    "OnTravel": false,
+    "OnTravel": true,
     "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
     "ShowInToolBar": false,
-    "ShowInAddressBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Davis Group",
+    "WindowName": "Wilderman-Haag",
     "Url": "http://www.example.com/",
-    "ProgId": "commodi",
-    "Icon": 806,
-    "AlwaysReloadOnShow": false,
-    "NeverReloadOnCurrentChange": true,
+    "ProgId": "non",
+    "Icon": 681,
+    "AlwaysReloadOnShow": true,
+    "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 251
+        "FieldLength": 270
       }
     }
   }

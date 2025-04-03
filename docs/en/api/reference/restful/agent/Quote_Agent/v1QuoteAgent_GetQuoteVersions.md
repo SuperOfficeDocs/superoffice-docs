@@ -115,7 +115,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 26
+  "QuoteId": 550
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 34,
-    "ERPQuoteVersionKey": "voluptatem",
-    "QuoteId": 569,
-    "Description": "Seamless 6th generation extranet",
-    "Number": "246270",
+    "QuoteVersionId": 286,
+    "ERPQuoteVersionKey": "et",
+    "QuoteId": 510,
+    "Description": "Re-engineered secondary info-mediaries",
+    "Number": "1232123",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 706,
-    "SentDate": "2004-07-02T02:38:21.7607486+02:00",
-    "FollowupId": 378,
-    "ExpirationDate": "2017-01-06T02:38:21.7607486+01:00",
-    "DeliveryCountryId": 436,
+    "LikelyQuoteAlternativeId": 511,
+    "SentDate": "2017-07-03T14:28:22.274133+02:00",
+    "FollowupId": 841,
+    "ExpirationDate": "2006-09-22T14:28:22.274133+02:00",
+    "DeliveryCountryId": 179,
     "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 558,
+    "InvoiceCountryId": 306,
     "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "qui",
-    "ERPPaymentTypeKey": "et",
-    "ERPDeliveryTermsKey": "et",
-    "ERPDeliveryTypeKey": "ex",
-    "Rank": 312,
-    "ApprovedBy": 119,
-    "ApprovedText": "hic",
-    "ApprovedRegisteredBy": 605,
-    "ApprovedRegisteredDate": "2007-03-26T02:38:21.7607486+02:00",
-    "ExtraField1": "reiciendis",
-    "ExtraField2": "ut",
-    "ExtraField3": "expedita",
-    "ExtraField4": "voluptatum",
-    "ExtraField5": "doloribus",
-    "LastRecalculated": "2019-08-09T02:38:21.7607486+02:00",
-    "Updated": "2019-03-14T02:38:21.7607486+01:00",
-    "UpdatedAssociateId": 243,
-    "Registered": "2010-09-05T02:38:21.7607486+02:00",
-    "RegisteredAssociateId": 446,
-    "RequestAssociateId": 2,
-    "RequestComment": "dolores",
+    "ERPPaymentTermsKey": "tempore",
+    "ERPPaymentTypeKey": "maiores",
+    "ERPDeliveryTermsKey": "expedita",
+    "ERPDeliveryTypeKey": "qui",
+    "Rank": 566,
+    "ApprovedBy": 176,
+    "ApprovedText": "distinctio",
+    "ApprovedRegisteredBy": 111,
+    "ApprovedRegisteredDate": "2013-10-19T14:28:22.274133+02:00",
+    "ExtraField1": "nulla",
+    "ExtraField2": "eius",
+    "ExtraField3": "est",
+    "ExtraField4": "eveniet",
+    "ExtraField5": "corrupti",
+    "LastRecalculated": "2021-01-21T14:28:22.274133+01:00",
+    "Updated": "2021-12-17T14:28:22.274133+01:00",
+    "UpdatedAssociateId": 169,
+    "Registered": "2012-10-02T14:28:22.274133+02:00",
+    "RegisteredAssociateId": 396,
+    "RequestAssociateId": 751,
+    "RequestComment": "possimus",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 561,
-        "ERPQuoteAlternativeKey": "quae",
-        "QuoteVersionId": 318,
-        "Name": "Tillman, Adams and Lakin",
-        "Description": "Front-line zero defect customer loyalty",
+        "QuoteAlternativeId": 473,
+        "ERPQuoteAlternativeKey": "unde",
+        "QuoteVersionId": 387,
+        "Name": "Kautzer, West and Mayert",
+        "Description": "Ameliorated non-volatile access",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 2974.1659999999997,
-        "ERPDiscountAmount": 4114.942,
-        "DiscountPercent": 3817.212,
-        "DiscountAmount": 11238.524,
+        "ERPDiscountPercent": 7230.138,
+        "ERPDiscountAmount": 11633.408,
+        "DiscountPercent": 8301.966,
+        "DiscountAmount": 13328.902,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "dolores",
-        "VAT": 11765.036,
-        "EarningPercent": 19029.648,
-        "EarningAmount": 15347.198,
-        "SubTotal": 12156.786,
-        "TotalPrice": 2851.94,
-        "ExtraField1": "facilis",
-        "ExtraField2": "aut",
-        "ExtraField3": "qui",
-        "ExtraField4": "omnis",
-        "ExtraField5": "quo",
+        "VATInfo": "necessitatibus",
+        "VAT": 16578.86,
+        "EarningPercent": 2685.8379999999997,
+        "EarningAmount": 16074.286,
+        "SubTotal": 28516.266,
+        "TotalPrice": 8311.368,
+        "ExtraField1": "cum",
+        "ExtraField2": "commodi",
+        "ExtraField3": "sed",
+        "ExtraField4": "et",
+        "ExtraField5": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 212
+            "FieldType": "System.Int32",
+            "FieldLength": 251
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 201
+        "FieldLength": 544
       }
     }
   }

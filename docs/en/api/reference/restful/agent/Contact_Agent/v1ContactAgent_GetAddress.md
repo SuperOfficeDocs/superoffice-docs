@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 549
+  "ContactId": 286
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 28318.824,
-  "Wgs84Longitude": 13360.242,
+  "Wgs84Latitude": 28848.469999999998,
+  "Wgs84Longitude": 5161.6979999999994,
   "LocalizedAddress": [
     [
       {
-        "Name": "Steuber Group",
-        "Value": "dolorum",
-        "Tooltip": "unde",
-        "Label": "et",
-        "ValueLength": 430,
-        "AddressType": "officiis",
+        "Name": "Shields-Sawayn",
+        "Value": "occaecati",
+        "Tooltip": "id",
+        "Label": "est",
+        "ValueLength": 872,
+        "AddressType": "qui",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 235
+            "FieldLength": 514
           }
         }
       }
     ],
     [
       {
-        "Name": "Stehr, Heaney and Dooley",
-        "Value": "quia",
-        "Tooltip": "tenetur",
-        "Label": "nihil",
-        "ValueLength": 68,
-        "AddressType": "non",
+        "Name": "Miller Group",
+        "Value": "sint",
+        "Tooltip": "voluptatem",
+        "Label": "autem",
+        "ValueLength": 388,
+        "AddressType": "aut",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 950
+            "FieldLength": 206
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "quisquam",
+  "Formatted": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 831
+      "FieldType": "System.Int32",
+      "FieldLength": 735
     }
   }
 }

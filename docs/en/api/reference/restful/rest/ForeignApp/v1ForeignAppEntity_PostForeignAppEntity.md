@@ -92,23 +92,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 438,
-  "Name": "Wolf, Hauck and Hickle",
-  "CreatedDate": "2003-05-10T02:38:26.1048073+02:00",
-  "UpdatedDate": "2024-06-06T02:38:26.1048073+02:00",
+  "ForeignAppId": 828,
+  "Name": "Crona Group",
+  "CreatedDate": "2024-07-29T14:28:26.9458186+02:00",
+  "UpdatedDate": "2020-07-05T14:28:26.9458186+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 394,
-      "Name": "Legros, Dickens and Kunze",
-      "CreatedDate": "2001-02-21T02:38:26.1048073+01:00",
-      "UpdatedDate": "2016-04-25T02:38:26.1048073+02:00",
-      "AssociateFullName": "Name Mohr",
-      "CreatedBy": "omnis",
-      "UpdatedBy": "doloremque",
-      "DeviceIdentifier": "totam",
-      "ForeignAppId": 982
+      "ForeignDeviceId": 289,
+      "Name": "Abbott, Bauch and Koelpin",
+      "CreatedDate": "2013-05-10T14:28:26.9458186+02:00",
+      "UpdatedDate": "1999-06-07T14:28:26.9458186+02:00",
+      "AssociateFullName": "Rubie Mann",
+      "CreatedBy": "sed",
+      "UpdatedBy": "esse",
+      "DeviceIdentifier": "molestiae",
+      "ForeignAppId": 555
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 540,
-  "Name": "Kessler-Schulist",
-  "CreatedDate": "2003-10-24T02:38:26.1048073+02:00",
-  "UpdatedDate": "2008-09-09T02:38:26.1048073+02:00",
+  "ForeignAppId": 656,
+  "Name": "Bernier Group",
+  "CreatedDate": "2014-08-10T14:28:26.9458186+02:00",
+  "UpdatedDate": "1999-05-20T14:28:26.9458186+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 412,
-      "Name": "Baumbach, Fay and Turcotte",
-      "CreatedDate": "2001-01-24T02:38:26.1048073+01:00",
-      "UpdatedDate": "2016-10-24T02:38:26.1048073+02:00",
-      "AssociateFullName": "Freeda Witting",
-      "CreatedBy": "magnam",
-      "UpdatedBy": "quia",
-      "DeviceIdentifier": "quos",
-      "ForeignAppId": 1002,
+      "ForeignDeviceId": 809,
+      "Name": "Price Group",
+      "CreatedDate": "2013-05-16T14:28:26.9458186+02:00",
+      "UpdatedDate": "2017-02-08T14:28:26.9458186+01:00",
+      "AssociateFullName": "Raymundo Heller",
+      "CreatedBy": "error",
+      "UpdatedBy": "culpa",
+      "DeviceIdentifier": "aperiam",
+      "ForeignAppId": 415,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 302
+          "FieldLength": 340
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 236
+      "FieldLength": 365
     }
   },
   "_Links": {

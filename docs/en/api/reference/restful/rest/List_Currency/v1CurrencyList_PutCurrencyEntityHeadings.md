@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 492,
-    "Name": "O'Keefe Group",
-    "Tooltip": "architecto",
+    "HeadingId": 671,
+    "Name": "Pouros Group",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 481,
-    "UdListDefinitionId": 897
+    "Rank": 976,
+    "UdListDefinitionId": 941
   },
   {
-    "HeadingId": 492,
-    "Name": "O'Keefe Group",
-    "Tooltip": "architecto",
+    "HeadingId": 671,
+    "Name": "Pouros Group",
+    "Tooltip": "aut",
     "Deleted": false,
-    "Rank": 481,
-    "UdListDefinitionId": 897
+    "Rank": 976,
+    "UdListDefinitionId": 941
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 320,
-    "Name": "Schiller, Reynolds and Wilderman",
-    "Tooltip": "quo",
+    "HeadingId": 823,
+    "Name": "Grady-Mayer",
+    "Tooltip": "dolore",
     "Deleted": false,
-    "Rank": 427,
-    "UdListDefinitionId": 209,
+    "Rank": 396,
+    "UdListDefinitionId": 169,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 855
+        "FieldLength": 961
       }
     }
   }

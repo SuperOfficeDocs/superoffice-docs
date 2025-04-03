@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolorem",
-  "Value": "dolor",
-  "RecordId": 662,
-  "CreatedDate": "2003-10-30T02:38:26.1204323+01:00",
-  "UpdatedDate": "2015-03-17T02:38:26.1204323+01:00",
-  "UpdatedBy": "veniam",
-  "CreatedBy": "rem",
-  "TableName": "Greenholt Inc and Sons"
+  "Key": "nemo",
+  "Value": "fugit",
+  "RecordId": 690,
+  "CreatedDate": "2020-04-05T14:28:26.9458186+02:00",
+  "UpdatedDate": "2025-03-16T14:28:26.9458186+01:00",
+  "UpdatedBy": "nam",
+  "CreatedBy": "quibusdam",
+  "TableName": "Wehner, Purdy and Abbott"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "ipsum",
-  "Value": "laudantium",
-  "RecordId": 670,
-  "CreatedDate": "2002-06-23T02:38:26.1204323+02:00",
-  "UpdatedDate": "2012-02-16T02:38:26.1204323+01:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "est",
-  "TableName": "Terry, Kub and Collins",
+  "Key": "est",
+  "Value": "dicta",
+  "RecordId": 807,
+  "CreatedDate": "2016-08-25T14:28:26.9458186+02:00",
+  "UpdatedDate": "2004-04-14T14:28:26.9458186+02:00",
+  "UpdatedBy": "facilis",
+  "CreatedBy": "sed",
+  "TableName": "Pollich-Hyatt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 194
+      "FieldType": "System.Int32",
+      "FieldLength": 87
     }
   }
 }

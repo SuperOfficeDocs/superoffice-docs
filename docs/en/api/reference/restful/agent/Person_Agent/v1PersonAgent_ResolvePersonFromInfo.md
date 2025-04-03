@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 928,
-  "PersonName": "Stroman Inc and Sons",
+  "ContactId": 892,
+  "PersonName": "Stehr Group",
   "PhoneNumbers": [
-    "1718486",
-    "440928"
+    "953014",
+    "1181588"
   ],
   "Emails": [
-    "eve_gislason@kautzerkohler.uk",
-    "mustafa_heller@klingpadberg.name"
+    "bruce@huels.biz",
+    "judge_langworth@runolfssonorn.ca"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": false,
+  "PersonCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldLength": 507
     }
   }
 }

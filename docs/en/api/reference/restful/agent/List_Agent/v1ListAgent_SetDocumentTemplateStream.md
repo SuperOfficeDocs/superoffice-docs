@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "quasi",
-  "PluginId": 409
+  "LanguageCode": "dolores",
+  "PluginId": 744
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 331,
-  "Name": "Langosh Group",
-  "Tooltip": "necessitatibus",
-  "SaveInDb": 91,
-  "Filename": "et",
-  "DefaultOref": "nam",
+  "DocumentTemplateId": 961,
+  "Name": "Borer Group",
+  "Tooltip": "nulla",
+  "SaveInDb": 897,
+  "Filename": "voluptas",
+  "DefaultOref": "expedita",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 772,
-  "IntentId": 659,
-  "IsDefaultPublished": false,
-  "Rank": 862,
-  "LoadTemplateFromPlugin": 15,
-  "MimeType": "molestiae",
+  "AutoeventId": 885,
+  "IntentId": 781,
+  "IsDefaultPublished": true,
+  "Rank": 804,
+  "LoadTemplateFromPlugin": 445,
+  "MimeType": "accusantium",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 473,
+  "DocumentTypeKey": 712,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "tomasa@leschveum.name",
+  "EmailSubject": "eriberto.hansen@carterwalsh.com",
   "IncludeSignature": false,
   "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "michale.christiansen@little.info",
+  "SenderEmailAddress": "garret_hermiston@schmidt.co.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldLength": 392
     }
   }
 }

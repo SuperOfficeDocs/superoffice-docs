@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Value": "quibusdam",
-    "Tooltip": "consequatur",
+    "Id": 547,
+    "Value": "voluptates",
+    "Tooltip": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldType": "System.Int32",
+        "FieldLength": 32
       }
     }
   },
   {
-    "Id": 349,
-    "Value": "quibusdam",
-    "Tooltip": "consequatur",
+    "Id": 547,
+    "Value": "voluptates",
+    "Tooltip": "vitae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 798
+        "FieldType": "System.Int32",
+        "FieldLength": 32
       }
     }
   }

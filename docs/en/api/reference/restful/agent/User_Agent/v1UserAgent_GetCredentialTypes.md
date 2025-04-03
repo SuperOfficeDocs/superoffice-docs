@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "recusandae",
-    "Type": "in",
-    "Description": "Reactive multi-tasking Graphical User Interface",
+    "DisplayType": "quis",
+    "Type": "aut",
+    "Description": "Adaptive high-level standardization",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
-    "IsUserNameSupported": true,
+    "CanCreatePerson": false,
+    "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 11
+        "FieldLength": 47
       }
     }
   }

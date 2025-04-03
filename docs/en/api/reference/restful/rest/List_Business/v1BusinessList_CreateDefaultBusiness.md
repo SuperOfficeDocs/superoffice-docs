@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 784,
-  "Name": "Tremblay Group",
-  "Tooltip": "ut",
-  "Deleted": true,
-  "UdListDefinitionId": 276,
-  "Rank": 18,
+  "Id": 401,
+  "Name": "Bayer-Gottlieb",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "UdListDefinitionId": 853,
+  "Rank": 379,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 980
+      "FieldLength": 420
     }
   }
 }

@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionForFind
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Roberts, Bahringer and Miller",
-  "TypicalSearchId": 354
+  "EntityName": "Larson, Gusikowski and Aufderhar",
+  "TypicalSearchId": 175
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "D'Amore Group",
-  "SelectionId": 525,
-  "CanSaveAsSelection": false,
-  "MainHeading": "ut",
-  "FilterScreenHeading": "aperiam",
-  "SelectionEntityHeading": "nam",
+  "ProviderName": "McLaughlin-Jakubowski",
+  "SelectionId": 17,
+  "CanSaveAsSelection": true,
+  "MainHeading": "culpa",
+  "FilterScreenHeading": "corporis",
+  "SelectionEntityHeading": "dicta",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 843
+      "FieldType": "System.String",
+      "FieldLength": 499
     }
   }
 }

@@ -87,7 +87,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "O'Keefe Inc and Sons",
+  "Name": "McCullough-D'Amore",
   "ListEntity": null
 }
 ```
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 621,
-  "Name": "Veum Inc and Sons",
-  "Tooltip": "molestiae",
-  "Deleted": true,
-  "Rank": 221,
-  "IsCustomList": true,
+  "Id": 203,
+  "Name": "Feil-Halvorson",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "Rank": 67,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "perspiciatis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "sint",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 588
+      "FieldType": "System.Int32",
+      "FieldLength": 273
     }
   }
 }

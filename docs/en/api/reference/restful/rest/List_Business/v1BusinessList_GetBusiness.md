@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 139,
-  "Name": "Botsford-Gusikowski",
-  "Tooltip": "eligendi",
+  "Id": 462,
+  "Name": "Ward Inc and Sons",
+  "Tooltip": "perferendis",
   "Deleted": false,
-  "UdListDefinitionId": 481,
-  "Rank": 675,
+  "UdListDefinitionId": 463,
+  "Rank": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 68
+      "FieldType": "System.Int32",
+      "FieldLength": 916
     }
   }
 }

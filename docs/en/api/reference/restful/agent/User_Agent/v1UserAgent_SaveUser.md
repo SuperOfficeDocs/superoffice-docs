@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/User/SaveUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 296,
-  "Name": "Crooks, Barrows and Pfeffer",
-  "Rank": 716,
-  "Tooltip": "quia",
+  "AssociateId": 464,
+  "Name": "Okuneva Inc and Sons",
+  "Rank": 818,
+  "Tooltip": "voluptas",
   "LicenseOwners": [
     {
-      "Name": "Aufderhar Inc and Sons",
-      "Description": "Universal static middleware",
+      "Name": "Sawayn Inc and Sons",
+      "Description": "Centralized bi-directional interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Aufderhar Inc and Sons",
-      "Description": "Universal static middleware",
+      "Name": "Sawayn Inc and Sons",
+      "Description": "Centralized bi-directional interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -151,87 +151,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "aut",
+      "Value": "nesciunt",
       "Tooltip": "tenetur",
-      "Id": 653,
-      "Rank": 951,
-      "Deleted": false
+      "Id": 660,
+      "Rank": 706,
+      "Deleted": true
     },
     {
-      "Value": "aut",
+      "Value": "nesciunt",
       "Tooltip": "tenetur",
-      "Id": 653,
-      "Rank": 951,
-      "Deleted": false
+      "Id": 660,
+      "Rank": 706,
+      "Deleted": true
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2011-11-02T02:38:22.1825743+01:00",
-  "Lastlogout": "2003-06-19T02:38:22.1825743+02:00",
-  "EjUserId": 610,
-  "RequestSignature": "porro",
+  "Deleted": true,
+  "Lastlogin": "2008-09-22T14:28:22.6803663+02:00",
+  "Lastlogout": "2019-01-05T14:28:22.6803663+01:00",
+  "EjUserId": 362,
+  "RequestSignature": "ipsam",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "quaerat",
-      "DisplayValue": "error"
+      "Value": "beatae",
+      "DisplayValue": "nesciunt"
     },
     {
       "Type": null,
-      "Value": "quaerat",
-      "DisplayValue": "error"
+      "Value": "beatae",
+      "DisplayValue": "nesciunt"
     }
   ],
-  "UserName": "Mayer-Huel",
+  "UserName": "Morissette-Cormier",
   "TicketCategories": [
     {
-      "Id": 902,
-      "Name": "Boehm, McGlynn and Ondricka",
-      "ToolTip": "Dolor et a aliquid.",
-      "Deleted": true,
-      "Rank": 292,
-      "Type": "voluptatem",
+      "Id": 53,
+      "Name": "Beahan Group",
+      "ToolTip": "Odio beatae.",
+      "Deleted": false,
+      "Rank": 926,
+      "Type": "molestiae",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "excepturi",
-      "ColorBlock": 569,
-      "ExtraInfo": "voluptas",
-      "StyleHint": "quia",
-      "FullName": "Reyes Dooley"
+      "IconHint": "numquam",
+      "ColorBlock": 822,
+      "ExtraInfo": "ut",
+      "StyleHint": "ea",
+      "FullName": "Mrs. Alysha Lemke"
     }
   ],
-  "NickName": "Wilkinson-Pouros",
-  "WaitingForApproval": false,
+  "NickName": "Kiehn Inc and Sons",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "nostrum",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "facere",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "aut",
-    "CustomFields2": "eveniet"
+    "CustomFields1": "sunt",
+    "CustomFields2": "magni"
   },
   "PostSaveCommands": [
     {
-      "Name": "Cormier, Gutkowski and Koelpin",
-      "DisplayName": "Gusikowski Group",
-      "Description": "Organized user-facing architecture",
-      "ToolTip": "Nihil dolorem ipsa optio eaque quis labore.",
+      "Name": "Hudson, Schroeder and Lakin",
+      "DisplayName": "Lind Inc and Sons",
+      "Description": "Secured intermediate migration",
+      "ToolTip": "At maxime.",
       "Actions": "Implicit",
-      "ActionData": "eos"
+      "ActionData": "animi"
     },
     {
-      "Name": "Cormier, Gutkowski and Koelpin",
-      "DisplayName": "Gusikowski Group",
-      "Description": "Organized user-facing architecture",
-      "ToolTip": "Nihil dolorem ipsa optio eaque quis labore.",
+      "Name": "Hudson, Schroeder and Lakin",
+      "DisplayName": "Lind Inc and Sons",
+      "Description": "Secured intermediate migration",
+      "ToolTip": "At maxime.",
       "Actions": "Implicit",
-      "ActionData": "eos"
+      "ActionData": "animi"
     }
   ]
 }
@@ -244,14 +244,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 53,
-  "Name": "Boehm, Langosh and Hills",
-  "Rank": 209,
-  "Tooltip": "quia",
+  "AssociateId": 699,
+  "Name": "Murphy, Hayes and Zboncak",
+  "Rank": 499,
+  "Tooltip": "ut",
   "LicenseOwners": [
     {
-      "Name": "Bernhard LLC",
-      "Description": "Triple-buffered explicit extranet",
+      "Name": "Labadie Group",
+      "Description": "Right-sized bifurcated open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -265,13 +265,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 214
+          "FieldLength": 947
         }
       }
     },
     {
-      "Name": "Bernhard LLC",
-      "Description": "Triple-buffered explicit extranet",
+      "Name": "Labadie Group",
+      "Description": "Right-sized bifurcated open architecture",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -285,7 +285,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 214
+          "FieldLength": 947
         }
       }
     }
@@ -294,110 +294,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "omnis",
-      "Tooltip": "nisi",
-      "Id": 848,
-      "Rank": 280,
-      "Deleted": false,
+      "Value": "veniam",
+      "Tooltip": "qui",
+      "Id": 722,
+      "Rank": 744,
+      "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 255
+          "FieldLength": 486
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2013-09-29T02:38:22.1825743+02:00",
-  "Lastlogout": "2011-06-24T02:38:22.1825743+02:00",
-  "EjUserId": 373,
-  "RequestSignature": "similique",
+  "Deleted": true,
+  "Lastlogin": "1999-02-23T14:28:22.6803663+01:00",
+  "Lastlogout": "2017-04-14T14:28:22.6803663+02:00",
+  "EjUserId": 80,
+  "RequestSignature": "itaque",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "molestiae",
-      "DisplayValue": "nemo",
+      "Value": "cumque",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 197
+          "FieldLength": 797
         }
       }
     },
     {
       "Type": null,
-      "Value": "molestiae",
-      "DisplayValue": "nemo",
+      "Value": "cumque",
+      "DisplayValue": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 197
+          "FieldLength": 797
         }
       }
     }
   ],
-  "UserName": "Hoppe-Dooley",
+  "UserName": "Feest, Becker and Osinski",
   "TicketCategories": [
     {
-      "Id": 809,
-      "Name": "Marvin LLC",
-      "ToolTip": "Eveniet qui nostrum quo cupiditate.",
+      "Id": 4,
+      "Name": "Leannon-Koch",
+      "ToolTip": "Consequatur enim alias sed sit qui libero sint.",
       "Deleted": true,
-      "Rank": 866,
-      "Type": "optio",
+      "Rank": 627,
+      "Type": "eos",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "et",
-      "ColorBlock": 796,
-      "ExtraInfo": "et",
-      "StyleHint": "atque",
-      "FullName": "Michale Arthur Hand II",
+      "IconHint": "qui",
+      "ColorBlock": 174,
+      "ExtraInfo": "maiores",
+      "StyleHint": "voluptatem",
+      "FullName": "Prof. Berry Runolfsson II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 462
+          "FieldLength": 956
         }
       }
     }
   ],
-  "NickName": "Nicolas LLC",
+  "NickName": "Bradtke Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "vero",
-    "ExtraFields2": "officiis"
+    "ExtraFields1": "possimus",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "corporis",
-    "CustomFields2": "eius"
+    "CustomFields1": "id",
+    "CustomFields2": "tempora"
   },
   "PostSaveCommands": [
     {
-      "Name": "Bartell Inc and Sons",
-      "DisplayName": "Kohler-Graham",
-      "Description": "Integrated dedicated forecast",
-      "ToolTip": "Culpa alias quia autem dignissimos.",
+      "Name": "Schimmel-Sawayn",
+      "DisplayName": "Kassulke-Mertz",
+      "Description": "Polarised optimizing utilisation",
+      "ToolTip": "Sed in earum sed dolore.",
       "Actions": "Implicit",
-      "ActionData": "dignissimos",
+      "ActionData": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 291
         }
       }
     }
@@ -407,7 +407,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldLength": 2
     }
   }
 }

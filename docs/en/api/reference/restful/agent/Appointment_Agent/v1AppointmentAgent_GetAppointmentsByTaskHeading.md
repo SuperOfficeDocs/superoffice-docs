@@ -113,6 +113,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -127,11 +128,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentsByTaskHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskHeadingId": 808
+  "TaskHeadingId": 886
 }
 ```
 
@@ -143,65 +144,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 272,
-    "StartDate": "2020-02-15T02:38:20.5732257+01:00",
-    "EndDate": "2016-10-13T02:38:20.5732257+02:00",
+    "AppointmentId": 640,
+    "StartDate": "1998-05-11T14:28:21.1648024+02:00",
+    "EndDate": "2021-08-09T14:28:21.1648024+02:00",
     "Type": "BookingForChecklist",
-    "Task": "laudantium",
-    "AssociateFullName": "Haylie Jacobson",
-    "ContactName": "Denesik, Bednar and Becker",
-    "Description": "Networked user-facing database",
-    "PersonFullName": "Mrs. Breanna Lucile Sipes",
-    "PersonId": 650,
-    "ContactId": 320,
-    "ProjectId": 614,
-    "ProjectName": "Emmerich Group",
+    "Task": "quo",
+    "AssociateFullName": "Prof. Golden Odessa Schamberger",
+    "ContactName": "Kiehn, Abshire and Zulauf",
+    "Description": "Up-sized bi-directional website",
+    "PersonFullName": "Dr. Karl Reichert III",
+    "PersonId": 878,
+    "ContactId": 751,
+    "ProjectId": 880,
+    "ProjectName": "Barton-Rice",
     "IsPublished": false,
-    "AssociateId": 467,
-    "ColorIndex": 786,
+    "AssociateId": 394,
+    "ColorIndex": 523,
     "IsFree": false,
-    "HasAlarm": false,
+    "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 243,
-    "PriorityName": "Kovacek Inc and Sons",
+    "PriorityId": 733,
+    "PriorityName": "Metz Group",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "1999-06-13T02:38:20.5732257+02:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2018-10-06T14:28:21.1648024+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-11-08T02:38:20.5732257+01:00",
-    "RecurringEndDate": "2012-12-08T02:38:20.5732257+01:00",
-    "MotherId": 781,
-    "AssignedBy": 51,
-    "AssignedByFullName": "Raven Dietrich",
-    "RejectReason": "productize killer networks",
-    "Location": "nostrum",
-    "AlarmLeadTime": "excepturi",
-    "SaleId": 522,
-    "SaleName": "Bashirian-Murray",
-    "AssociateName": "Cruickshank, Torp and Schultz",
-    "CreatedDate": "2022-06-20T02:38:20.5732257+02:00",
-    "CreatedBy": "asperiores",
-    "CreatedByFullName": "Lola Johnson",
-    "CreatedByAssociateId": 305,
+    "RecurringStartDate": "1997-12-18T14:28:21.1648024+01:00",
+    "RecurringEndDate": "2010-11-05T14:28:21.1648024+01:00",
+    "MotherId": 91,
+    "AssignedBy": 78,
+    "AssignedByFullName": "Miss Kristoffer Alfred Lynch Sr.",
+    "RejectReason": "",
+    "Location": "facilis",
+    "AlarmLeadTime": "fuga",
+    "SaleId": 48,
+    "SaleName": "Nikolaus-Monahan",
+    "AssociateName": "Homenick Inc and Sons",
+    "CreatedDate": "2005-05-14T14:28:21.1648024+02:00",
+    "CreatedBy": "ad",
+    "CreatedByFullName": "Lee Jaskolski",
+    "CreatedByAssociateId": 486,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 768,
-    "Title": "dicta",
-    "Agenda": "ratione",
-    "InternalNotes": "laborum",
+    "PreferredTZLocation": 281,
+    "Title": "et",
+    "Agenda": "nostrum",
+    "InternalNotes": "repudiandae",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 274
+        "FieldLength": 483
       }
     }
   }

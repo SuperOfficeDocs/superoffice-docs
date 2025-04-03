@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Source/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 825,
-    "Name": "Howe, Miller and Keebler",
-    "Tooltip": "voluptates",
+    "HeadingId": 586,
+    "Name": "Reichel-Kemmer",
+    "Tooltip": "facilis",
     "Deleted": true,
-    "Rank": 32,
-    "UdListDefinitionId": 778,
+    "Rank": 55,
+    "UdListDefinitionId": 973,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 31
+        "FieldType": "System.Int32",
+        "FieldLength": 427
       }
     }
   }

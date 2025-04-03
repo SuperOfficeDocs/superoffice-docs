@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 910,
-      "Id": 454,
-      "HistoryName": "Jenkins-Steuber",
-      "HistoryId": 203,
-      "AssociateId": 756,
-      "Name": "Bartoletti-Kemmer",
-      "ItemInfo": "enim"
+      "Rank": 215,
+      "Id": 470,
+      "HistoryName": "Stiedemann Inc and Sons",
+      "HistoryId": 254,
+      "AssociateId": 997,
+      "Name": "Legros-Daugherty",
+      "ItemInfo": "aliquam"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 384,
-    "Id": 337,
-    "HistoryName": "Morissette-Konopelski",
-    "HistoryId": 600,
-    "AssociateId": 58,
-    "Name": "Goldner, Windler and Kuvalis",
-    "ItemInfo": "labore",
+    "Rank": 896,
+    "Id": 977,
+    "HistoryName": "Dietrich-Schultz",
+    "HistoryId": 490,
+    "AssociateId": 461,
+    "Name": "Gerlach-Maggio",
+    "ItemInfo": "deserunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldLength": 612
       }
     }
   }

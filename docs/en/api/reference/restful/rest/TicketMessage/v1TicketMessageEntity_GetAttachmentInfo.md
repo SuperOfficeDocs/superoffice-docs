@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 107,
-    "Name": "Ernser LLC",
-    "ContentType": "est",
-    "AttSize": 310,
-    "InlineImage": false,
-    "ContentId": "ea",
-    "AuthKey": "non",
+    "AttachmentId": 187,
+    "Name": "Glover, Kling and Kilback",
+    "ContentType": "ut",
+    "AttSize": 862,
+    "InlineImage": true,
+    "ContentId": "ullam",
+    "AuthKey": "quia",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 784
+        "FieldType": "System.String",
+        "FieldLength": 87
       }
     }
   }

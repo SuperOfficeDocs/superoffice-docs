@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 848,
-    "Name": "Blanda Inc and Sons",
-    "ToolTip": "Quas ratione voluptatem nulla dolorum aut itaque quaerat.",
-    "Deleted": false,
-    "Rank": 271,
-    "Type": "facere",
-    "ColorBlock": 556,
-    "IconHint": "odit",
+    "Id": 17,
+    "Name": "Feil Inc and Sons",
+    "ToolTip": "Enim non sit ipsum laborum libero quam officia.",
+    "Deleted": true,
+    "Rank": 273,
+    "Type": "beatae",
+    "ColorBlock": 91,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2004-10-30T02:38:26.6986493+02:00",
+    "LastChanged": "2019-12-15T14:28:27.4926717+01:00",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "West Group",
-        "ToolTip": "Expedita est.",
-        "Deleted": false,
-        "Rank": 365,
-        "Type": "accusantium",
-        "ColorBlock": 321,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2007-09-18T02:38:26.6986493+02:00",
+        "Id": 747,
+        "Name": "Lehner, Kreiger and Zieme",
+        "ToolTip": "Et dolor repellat numquam et minus.",
+        "Deleted": true,
+        "Rank": 161,
+        "Type": "quis",
+        "ColorBlock": 502,
+        "IconHint": "cupiditate",
+        "Selected": false,
+        "LastChanged": "1997-12-04T14:28:27.4926717+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "temporibus",
-        "Hidden": false,
-        "FullName": "Rosemarie Gleason"
+        "ExtraInfo": "velit",
+        "StyleHint": "consequuntur",
+        "Hidden": true,
+        "FullName": "Miss Spencer Daryl Champlin"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "tempora",
-    "Hidden": false,
-    "FullName": "Mrs. Amely Marks III"
+    "ExtraInfo": "et",
+    "StyleHint": "sit",
+    "Hidden": true,
+    "FullName": "Jessie Marvin Feest I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 843,
-    "Name": "Wilderman, Aufderhar and Kuhlman",
-    "ToolTip": "Ipsum aut quas ut aut voluptatibus assumenda.",
+    "Id": 507,
+    "Name": "West LLC",
+    "ToolTip": "Voluptatum delectus culpa.",
     "Deleted": false,
-    "Rank": 111,
+    "Rank": 755,
     "Type": "provident",
-    "ColorBlock": 107,
-    "IconHint": "atque",
+    "ColorBlock": 966,
+    "IconHint": "beatae",
     "Selected": false,
-    "LastChanged": "2022-05-17T02:38:26.6986493+02:00",
+    "LastChanged": "2001-06-09T14:28:27.4926717+02:00",
     "ChildItems": [
       {
-        "Id": 791,
-        "Name": "Abshire, Stiedemann and Hane",
-        "ToolTip": "Sit autem dolorem quae quidem non.",
-        "Deleted": true,
-        "Rank": 593,
-        "Type": "blanditiis",
-        "ColorBlock": 440,
+        "Id": 853,
+        "Name": "Brakus-Nikolaus",
+        "ToolTip": "Aut sequi esse enim temporibus pariatur omnis et.",
+        "Deleted": false,
+        "Rank": 437,
+        "Type": "vel",
+        "ColorBlock": 545,
         "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1999-06-22T02:38:26.6986493+02:00",
+        "LastChanged": "2008-08-25T14:28:27.4926717+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Prof. Jasmin Moen IV",
+        "ExtraInfo": "nemo",
+        "StyleHint": "dolorum",
+        "Hidden": false,
+        "FullName": "Miss Horace Jones III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 355
+            "FieldLength": 336
           }
         }
       }
     ],
-    "ExtraInfo": "odit",
-    "StyleHint": "odio",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "veniam",
     "Hidden": false,
-    "FullName": "Penelope Mertz",
+    "FullName": "Ike Muller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 986
+        "FieldLength": 45
       }
     }
   }

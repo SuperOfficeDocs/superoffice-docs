@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 353,
-    "Name": "O'Conner, Kunze and Collins",
-    "ToolTip": "Est distinctio et.",
-    "Deleted": true,
-    "Rank": 941,
-    "Type": "inventore",
-    "ColorBlock": 114,
-    "IconHint": "alias",
-    "Selected": false,
-    "LastChanged": "1999-10-28T02:38:26.8705112+02:00",
+    "Id": 770,
+    "Name": "Stamm, Gutkowski and Kihn",
+    "ToolTip": "Reprehenderit nihil debitis qui voluptate eligendi.",
+    "Deleted": false,
+    "Rank": 277,
+    "Type": "qui",
+    "ColorBlock": 491,
+    "IconHint": "possimus",
+    "Selected": true,
+    "LastChanged": "2024-10-11T14:28:27.6489147+02:00",
     "ChildItems": [
       {
-        "Id": 617,
-        "Name": "Reichert Inc and Sons",
-        "ToolTip": "Velit distinctio laborum repellendus.",
+        "Id": 774,
+        "Name": "O'Kon, Schroeder and Medhurst",
+        "ToolTip": "Minus in consequatur reprehenderit mollitia temporibus tenetur officia.",
         "Deleted": false,
-        "Rank": 674,
-        "Type": "iure",
-        "ColorBlock": 522,
-        "IconHint": "repellendus",
-        "Selected": false,
-        "LastChanged": "2015-10-13T02:38:26.8705112+02:00",
+        "Rank": 82,
+        "Type": "odit",
+        "ColorBlock": 759,
+        "IconHint": "perferendis",
+        "Selected": true,
+        "LastChanged": "1998-03-30T14:28:27.6489147+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "eaque",
+        "ExtraInfo": "aut",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Lura Breitenberg",
+        "FullName": "Jerome Torp",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 120
+            "FieldLength": 273
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Mr. Giuseppe Donnelly II",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Jefferey Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 449
+        "FieldType": "System.Int32",
+        "FieldLength": 181
       }
     }
   }

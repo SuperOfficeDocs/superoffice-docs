@@ -64,7 +64,7 @@ OK
 GET /api/v1/RelationDefinition/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 549,
-  "Name": "Zulauf LLC",
-  "Tooltip": "repudiandae",
-  "PassiveText": "temporibus",
-  "Deleted": true,
-  "Rank": 117,
+  "ReldefId": 494,
+  "Name": "Bosco Inc and Sons",
+  "Tooltip": "eos",
+  "PassiveText": "nihil",
+  "Deleted": false,
+  "Rank": 416,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 994
+      "FieldLength": 869
     }
   }
 }

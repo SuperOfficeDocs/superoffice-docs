@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 605
+  "DepartmentId": 956
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(491)070-2773",
-    "PersonCellPhone": "1-262-551-4673 x664",
-    "PersonPrivatePhone": "242.726.0949",
-    "PersonFaxNumber": "1604248",
-    "PersonPagerNumber": "1471134",
-    "PersonEmail": "alda_lynch@fritsch.co.uk",
-    "Id": 382,
-    "Name": "Prohaska-Feil",
-    "Tooltip": "autem",
-    "UniqueId": "sit",
+    "PersonDirectPhone": "(694)363-7438 x8832",
+    "PersonCellPhone": "136-281-6440 x78381",
+    "PersonPrivatePhone": "(487)621-0189",
+    "PersonFaxNumber": "671578",
+    "PersonPagerNumber": "1067081",
+    "PersonEmail": "darian_dooley@crooksfeeney.ca",
+    "Id": 241,
+    "Name": "Heller-Cummings",
+    "Tooltip": "quidem",
+    "UniqueId": "perspiciatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 173
+        "FieldLength": 646
       }
     }
   }

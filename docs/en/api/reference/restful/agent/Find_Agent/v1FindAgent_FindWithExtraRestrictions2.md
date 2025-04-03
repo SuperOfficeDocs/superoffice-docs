@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsum",
-  "ProviderName": "Wunsch-Jacobson",
-  "StorageKey": "delectus",
-  "ExtraRestrictions": "nobis",
-  "OrderBy": "harum",
-  "DesiredColumns": "voluptatem",
-  "PageSize": 613,
-  "PageNumber": 240
+  "StorageType": "animi",
+  "ProviderName": "Rohan-Legros",
+  "StorageKey": "sunt",
+  "ExtraRestrictions": "enim",
+  "OrderBy": "maiores",
+  "DesiredColumns": "praesentium",
+  "PageSize": 515,
+  "PageNumber": 49
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Langosh, Anderson and Leuschke",
-      "DisplayTooltip": "quibusdam",
-      "DisplayType": "consectetur",
+      "DisplayName": "Bayer Inc and Sons",
+      "DisplayTooltip": "optio",
+      "DisplayType": "inventore",
       "CanOrderBy": false,
-      "Name": "Parker Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "laudantium",
-      "RestrictionListName": "Shields Group",
-      "IsVisible": true,
-      "ExtraInfo": "ad",
-      "Width": "aperiam",
-      "IconHint": "maiores",
-      "HeadingIconHint": "quae"
+      "Name": "Muller Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "enim",
+      "RestrictionListName": "Osinski-Flatley",
+      "IsVisible": false,
+      "ExtraInfo": "harum",
+      "Width": "veritatis",
+      "IconHint": "doloribus",
+      "HeadingIconHint": "quas"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Goyette-Rau",
-      "PrimaryKey": 381,
+      "EntityName": "Jacobi-Runte",
+      "PrimaryKey": 149,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "expedita",
-          "TooltipHint": "magni",
-          "LinkHint": "et"
+          "DisplayValue": "voluptas",
+          "TooltipHint": "eos",
+          "LinkHint": "architecto"
         }
       },
-      "LinkHint": "vero",
-      "StyleHint": "eaque",
+      "LinkHint": "quia",
+      "StyleHint": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 555
+          "FieldLength": 756
         }
       }
     }
   ],
-  "RowCount": 122,
+  "RowCount": 95,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 563
+      "FieldType": "System.String",
+      "FieldLength": 576
     }
   }
 }

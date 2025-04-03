@@ -64,22 +64,22 @@ No Content
 POST /api/v1/Agents/Selection/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "Mraz, Johnson and Bahringer",
-      "DisplayName": "Johnson, Schmitt and Schultz",
-      "DisplayTooltip": "facere",
-      "IsActive": false
+      "Name": "Kilback Inc and Sons",
+      "DisplayName": "Harris-Mohr",
+      "DisplayTooltip": "alias",
+      "IsActive": true
     },
     {
-      "Name": "Mraz, Johnson and Bahringer",
-      "DisplayName": "Johnson, Schmitt and Schultz",
-      "DisplayTooltip": "facere",
-      "IsActive": false
+      "Name": "Kilback Inc and Sons",
+      "DisplayName": "Harris-Mohr",
+      "DisplayTooltip": "alias",
+      "IsActive": true
     }
   ]
 }

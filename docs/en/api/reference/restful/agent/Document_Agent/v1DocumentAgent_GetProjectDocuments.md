@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 998,
-  "StartTime": "2018-05-11T02:38:21.2295568+02:00",
-  "EndTime": "2007-09-24T02:38:21.2295568+02:00",
-  "Count": 554
+  "ProjectId": 506,
+  "StartTime": "1999-11-11T14:28:21.8210267+01:00",
+  "EndTime": "2016-11-26T14:28:21.8210267+01:00",
+  "Count": 912
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 152,
-    "Attention": "quibusdam",
-    "Header": "ut",
-    "Name": "Frami-Herman",
-    "OurRef": "fuga",
-    "YourRef": "voluptatem",
-    "Description": "Monitored stable throughput",
-    "DocumentTemplate": "provident",
-    "IsPublished": false,
-    "PersonId": 27,
-    "PersonFullName": "Selina Toy",
-    "AssociateFullName": "Velma Tyreek Heaney PhD",
-    "ContactId": 80,
-    "ContactName": "Maggio-Kris",
-    "ProjectId": 379,
-    "ProjectName": "Padberg, Champlin and O'Connell",
-    "AssociateId": 557,
-    "Snum": 514,
-    "SaleId": 668,
-    "SaleName": "Bogan, Weissnat and Kshlerin",
+    "DocumentId": 50,
+    "Attention": "officia",
+    "Header": "blanditiis",
+    "Name": "Kutch LLC",
+    "OurRef": "quo",
+    "YourRef": "repellat",
+    "Description": "Distributed solution-oriented paradigm",
+    "DocumentTemplate": "et",
+    "IsPublished": true,
+    "PersonId": 361,
+    "PersonFullName": "Dr. Lonzo Cloyd Hodkiewicz I",
+    "AssociateFullName": "Estelle Vandervort PhD",
+    "ContactId": 593,
+    "ContactName": "Runte-Spinka",
+    "ProjectId": 15,
+    "ProjectName": "Renner, Spencer and Kirlin",
+    "AssociateId": 744,
+    "Snum": 731,
+    "SaleId": 480,
+    "SaleName": "Wehner, Collins and Ebert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 603
+        "FieldType": "System.Int32",
+        "FieldLength": 222
       }
     }
   }

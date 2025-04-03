@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "labore",
+    "path": "quis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "labore",
+    "path": "quis",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 827,
-  "Section": "doloremque",
-  "Key": "eligendi",
-  "Name": "Brakus-Mills",
+  "PrefDescId": 119,
+  "Section": "excepturi",
+  "Key": "voluptatum",
+  "Name": "Hauck LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profit-focused clear-thinking groupware",
-  "IsBuiltin": false,
-  "TableName": "Hilll, McDermott and Konopelski",
-  "UserDefinedListId": 929,
-  "Rank": 311,
-  "SubGroup": "eveniet",
-  "MinLevel": 789,
-  "MaxValue": 273,
-  "MinValue": 512,
-  "RequiredLicense": "enim",
+  "Description": "Synergistic client-server capability",
+  "IsBuiltin": true,
+  "TableName": "Romaguera, Deckow and Strosin",
+  "UserDefinedListId": 486,
+  "Rank": 538,
+  "SubGroup": "non",
+  "MinLevel": 469,
+  "MaxValue": 434,
+  "MinValue": 785,
+  "RequiredLicense": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 968
+      "FieldType": "System.Int32",
+      "FieldLength": 279
     }
   },
   "_Links": {

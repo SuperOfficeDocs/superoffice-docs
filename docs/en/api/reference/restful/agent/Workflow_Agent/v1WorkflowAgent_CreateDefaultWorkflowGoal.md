@@ -60,7 +60,7 @@ OK
 POST /api/v1/Agents/Workflow/CreateDefaultWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,23 +70,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 461,
-  "WorkflowId": 475,
+  "WorkflowGoalId": 53,
+  "WorkflowId": 53,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Cole LLC",
-      "Description": "Innovative coherent support",
-      "Rank": 294,
+      "Name": "Mayer LLC",
+      "Description": "Team-oriented attitude-oriented encryption",
+      "Rank": 516,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Cole LLC",
-      "Description": "Innovative coherent support",
-      "Rank": 294,
+      "Name": "Mayer LLC",
+      "Description": "Team-oriented attitude-oriented encryption",
+      "Rank": 516,
       "Restrictions": [
         {},
         {}
@@ -98,7 +98,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 344
+      "FieldLength": 536
     }
   }
 }

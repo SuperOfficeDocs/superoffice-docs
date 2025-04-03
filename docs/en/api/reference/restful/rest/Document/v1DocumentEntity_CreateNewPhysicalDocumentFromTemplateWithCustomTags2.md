@@ -37,13 +37,13 @@ Tags are substituted according to the provided id's.  Use GetDocumentStream to o
 | uiCulture | string |  Language variation of template to use when creating document. (ISO code - "en-US" or "nb-NO" etc). Used to select a template of the appropriate language. Can be overridden in SO ARC by user preference "PreferDocLang". |
 
 ```http
-POST /api/v1/Document/{documentId}/Content?contactId=730
-POST /api/v1/Document/{documentId}/Content?personId=756
-POST /api/v1/Document/{documentId}/Content?appointmentId=144
-POST /api/v1/Document/{documentId}/Content?saleId=283
-POST /api/v1/Document/{documentId}/Content?selectionId=647
-POST /api/v1/Document/{documentId}/Content?projectId=308
-POST /api/v1/Document/{documentId}/Content?uiCulture=suscipit
+POST /api/v1/Document/{documentId}/Content?contactId=5
+POST /api/v1/Document/{documentId}/Content?personId=183
+POST /api/v1/Document/{documentId}/Content?appointmentId=599
+POST /api/v1/Document/{documentId}/Content?saleId=12
+POST /api/v1/Document/{documentId}/Content?selectionId=492
+POST /api/v1/Document/{documentId}/Content?projectId=771
+POST /api/v1/Document/{documentId}/Content?uiCulture=quos
 ```
 
 
@@ -121,7 +121,7 @@ OK
 POST /api/v1/Document/{documentId}/Content
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -131,88 +131,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 963,
+  "DocumentId": 258,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "dolores",
-  "Header": "voluptatem",
-  "Name": "Herman-Rosenbaum",
-  "OurRef": "ducimus",
-  "YourRef": "consequatur",
-  "CreatedDate": "2010-04-28T02:38:26.0891882+02:00",
-  "UpdatedDate": "2022-05-12T02:38:26.0891882+02:00",
-  "Description": "Cross-platform optimal migration",
+  "Attention": "doloribus",
+  "Header": "optio",
+  "Name": "Smith Group",
+  "OurRef": "non",
+  "YourRef": "maiores",
+  "CreatedDate": "2022-06-27T14:28:26.9301945+02:00",
+  "UpdatedDate": "2007-11-28T14:28:26.9301945+01:00",
+  "Description": "Multi-tiered fresh-thinking function",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-11-13T02:38:26.0891882+01:00",
-  "ExternalRef": "minima",
+  "Date": "2001-06-09T14:28:26.9301945+02:00",
+  "ExternalRef": "et",
   "Completed": "Completed",
-  "ActiveLinks": 713,
+  "ActiveLinks": 913,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kertzmann, Mante and Hammes",
-      "Id": 484,
-      "Description": "Profit-focused solution-oriented initiative",
-      "ExtraInfo": "quisquam",
-      "LinkId": 152,
+      "EntityName": "Torphy Group",
+      "Id": 988,
+      "Description": "Visionary national info-mediaries",
+      "ExtraInfo": "illo",
+      "LinkId": 875,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 830
+          "FieldType": "System.String",
+          "FieldLength": 207
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 883,
-  "Snum": 291,
+  "SuggestedDocumentId": 949,
+  "Snum": 733,
   "UserDefinedFields": {
-    "SuperOffice:1": "Mrs. Stephan Daugherty Jr.",
-    "SuperOffice:2": "Donny Gottlieb"
+    "SuperOffice:1": "1548767171",
+    "SuperOffice:2": "1548469448"
   },
   "ExtraFields": {
-    "ExtraFields1": "officiis",
-    "ExtraFields2": "labore"
+    "ExtraFields1": "quaerat",
+    "ExtraFields2": "in"
   },
   "CustomFields": {
-    "CustomFields1": "similique",
-    "CustomFields2": "libero"
+    "CustomFields1": "ratione",
+    "CustomFields2": "pariatur"
   },
-  "PublishEventDate": "2010-12-12T02:38:26.0891882+01:00",
-  "PublishTo": "2003-01-12T02:38:26.0891882+01:00",
-  "PublishFrom": "2013-11-01T02:38:26.0891882+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2004-02-24T14:28:26.9301945+01:00",
+  "PublishTo": "2002-05-26T14:28:26.9301945+02:00",
+  "PublishFrom": "2013-04-10T14:28:26.9301945+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 580,
+      "VisibleId": 246,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 731
+          "FieldType": "System.String",
+          "FieldLength": 260
         }
       }
     },
     {
-      "VisibleId": 580,
+      "VisibleId": 246,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "eaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 731
+          "FieldType": "System.String",
+          "FieldLength": 260
         }
       }
     }
@@ -221,8 +221,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldType": "System.String",
+      "FieldLength": 846
     }
   }
 }

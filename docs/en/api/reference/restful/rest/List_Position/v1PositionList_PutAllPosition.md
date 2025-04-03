@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 957,
-    "Name": "Goldner-Ortiz",
-    "Tooltip": "corrupti",
+    "Id": 82,
+    "Name": "Goodwin-Stracke",
+    "Tooltip": "vero",
     "Deleted": false,
-    "UdListDefinitionId": 56,
-    "Rank": 424
+    "UdListDefinitionId": 656,
+    "Rank": 282
   },
   {
-    "Id": 957,
-    "Name": "Goldner-Ortiz",
-    "Tooltip": "corrupti",
+    "Id": 82,
+    "Name": "Goodwin-Stracke",
+    "Tooltip": "vero",
     "Deleted": false,
-    "UdListDefinitionId": 56,
-    "Rank": 424
+    "UdListDefinitionId": 656,
+    "Rank": 282
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 362,
-    "Name": "Torp-Kris",
-    "Tooltip": "veritatis",
-    "Deleted": false,
-    "UdListDefinitionId": 133,
-    "Rank": 18,
+    "Id": 811,
+    "Name": "Wintheiser Group",
+    "Tooltip": "occaecati",
+    "Deleted": true,
+    "UdListDefinitionId": 544,
+    "Rank": 836,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldType": "System.String",
+        "FieldLength": 880
       }
     }
   }

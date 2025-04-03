@@ -115,6 +115,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -133,9 +134,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartTime": "2003-05-15T02:38:20.8389734+02:00",
-  "EndTime": "2018-08-30T02:38:20.8389734+02:00",
-  "Count": 100
+  "StartTime": "2017-07-23T14:28:21.4460417+02:00",
+  "EndTime": "2016-06-23T14:28:21.4460417+02:00",
+  "Count": 712
 }
 ```
 
@@ -147,65 +148,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 849,
-    "StartDate": "2021-06-16T02:38:20.8545926+02:00",
-    "EndDate": "2018-11-23T02:38:20.8545926+01:00",
+    "AppointmentId": 699,
+    "StartDate": "2016-06-21T14:28:21.4460417+02:00",
+    "EndDate": "2005-01-12T14:28:21.4460417+01:00",
     "Type": "BookingForChecklist",
-    "Task": "et",
-    "AssociateFullName": "Hank Berge",
-    "ContactName": "Maggio, Kohler and Auer",
-    "Description": "Automated full-range core",
-    "PersonFullName": "Ms. Margarette Alisa Becker",
-    "PersonId": 724,
-    "ContactId": 533,
-    "ProjectId": 930,
-    "ProjectName": "Koelpin-Corkery",
+    "Task": "quo",
+    "AssociateFullName": "Osborne Pfeffer IV",
+    "ContactName": "Strosin-Sanford",
+    "Description": "Enhanced disintermediate moderator",
+    "PersonFullName": "Ms. Walton Nasir Becker",
+    "PersonId": 904,
+    "ContactId": 565,
+    "ProjectId": 631,
+    "ProjectName": "Powlowski LLC",
     "IsPublished": true,
-    "AssociateId": 780,
-    "ColorIndex": 141,
+    "AssociateId": 940,
+    "ColorIndex": 617,
     "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 573,
-    "PriorityName": "Bergnaum LLC",
+    "PriorityId": 655,
+    "PriorityName": "Gibson-Prohaska",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
+    "IsRecurrence": true,
     "IsBooking": true,
-    "ActiveDate": "2004-10-18T02:38:20.8545926+02:00",
+    "ActiveDate": "2013-09-24T14:28:21.4460417+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2021-11-23T02:38:20.8545926+01:00",
-    "RecurringEndDate": "1998-05-08T02:38:20.8545926+02:00",
-    "MotherId": 845,
-    "AssignedBy": 464,
-    "AssignedByFullName": "Bethany Langosh DDS",
+    "RecurringStartDate": "2021-03-29T14:28:21.4460417+02:00",
+    "RecurringEndDate": "2020-11-19T14:28:21.4460417+01:00",
+    "MotherId": 287,
+    "AssignedBy": 626,
+    "AssignedByFullName": "Francisca Davis",
     "RejectReason": "",
-    "Location": "qui",
-    "AlarmLeadTime": "nemo",
-    "SaleId": 3,
-    "SaleName": "Cartwright-Parker",
-    "AssociateName": "Murazik-Schinner",
-    "CreatedDate": "1999-10-16T02:38:20.8545926+02:00",
-    "CreatedBy": "et",
-    "CreatedByFullName": "Dr. Salma Keanu Bergstrom",
-    "CreatedByAssociateId": 460,
+    "Location": "ipsa",
+    "AlarmLeadTime": "itaque",
+    "SaleId": 896,
+    "SaleName": "Nikolaus, Shanahan and Kilback",
+    "AssociateName": "Emard Inc and Sons",
+    "CreatedDate": "1998-03-08T14:28:21.4460417+01:00",
+    "CreatedBy": "at",
+    "CreatedByFullName": "Karina Homenick",
+    "CreatedByAssociateId": 615,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 124,
-    "Title": "beatae",
-    "Agenda": "quam",
-    "InternalNotes": "beatae",
+    "PreferredTZLocation": 768,
+    "Title": "possimus",
+    "Agenda": "et",
+    "InternalNotes": "ullam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 632
+        "FieldLength": 532
       }
     }
   }

@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "aut",
-  "Key": "est",
+  "Section": "porro",
+  "Key": "neque",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 272,
+  "PrefDescId": 112,
   "Section": "et",
-  "Key": "velit",
-  "Name": "Kshlerin-Hessel",
+  "Key": "ad",
+  "Name": "Bogisich, Kub and Pagac",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Realigned didactic implementation",
+  "Description": "Proactive demand-driven secured line",
   "IsBuiltin": false,
-  "TableName": "Bednar Group",
-  "UserDefinedListId": 31,
-  "Rank": 828,
-  "SubGroup": "fugit",
-  "MinLevel": 497,
-  "MaxValue": 106,
-  "MinValue": 696,
-  "RequiredLicense": "et",
+  "TableName": "Smith Inc and Sons",
+  "UserDefinedListId": 38,
+  "Rank": 294,
+  "SubGroup": "voluptates",
+  "MinLevel": 142,
+  "MaxValue": 283,
+  "MinValue": 575,
+  "RequiredLicense": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 186
+      "FieldLength": 866
     }
   }
 }

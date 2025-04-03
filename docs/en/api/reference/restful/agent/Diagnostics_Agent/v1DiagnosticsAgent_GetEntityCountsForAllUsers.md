@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Hand-Graham",
-    "Records": 828,
+    "EntityName": "Wolf LLC",
+    "Records": 949,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldLength": 220
       }
     }
   },
   {
-    "EntityName": "Hand-Graham",
-    "Records": 828,
+    "EntityName": "Wolf LLC",
+    "Records": 949,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 710
+        "FieldLength": 220
       }
     }
   }

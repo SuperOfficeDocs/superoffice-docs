@@ -91,8 +91,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 145,
-  "ModuleOwner": "dolores"
+  "AssociateId": 270,
+  "ModuleOwner": "sunt"
 }
 ```
 
@@ -104,26 +104,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": true,
-    "Total": 649,
-    "Tooltip": "sint",
-    "CanAssign": false,
-    "Free": 397,
-    "InUse": 461,
-    "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 130,
-    "Name": "Cole, Dibbert and Carter",
-    "Description": "Centralized responsive secured line",
-    "PrerequisiteModuleName": "Olson, Runte and Spinka",
-    "SortOrder": 916,
-    "ExtraFlags": 860,
+    "Unrestricted": false,
+    "Total": 636,
+    "Tooltip": "similique",
+    "CanAssign": true,
+    "Free": 614,
+    "InUse": 2,
+    "IsHidden": true,
+    "Assigned": true,
+    "ModuleLicenseId": 747,
+    "Name": "Auer, Kessler and Willms",
+    "Description": "Vision-oriented multi-tasking utilisation",
+    "PrerequisiteModuleName": "Kub, Feest and Rau",
+    "SortOrder": 666,
+    "ExtraFlags": 967,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 176
+        "FieldType": "System.Int32",
+        "FieldLength": 207
       }
     }
   }

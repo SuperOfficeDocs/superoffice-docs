@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 449,
-  "Name": "Mayert-Spencer",
-  "CreatedDate": "2000-08-26T02:38:26.1048073+02:00",
-  "UpdatedDate": "2017-01-24T02:38:26.1048073+01:00",
+  "ForeignAppId": 720,
+  "Name": "Kuphal, Harber and Bahringer",
+  "CreatedDate": "2001-04-08T14:28:26.9458186+02:00",
+  "UpdatedDate": "2016-10-26T14:28:26.9458186+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 334,
-      "Name": "Lebsack LLC",
-      "CreatedDate": "2003-04-24T02:38:26.1048073+02:00",
-      "UpdatedDate": "2013-01-31T02:38:26.1048073+01:00",
-      "AssociateFullName": "Ms. Lorna Maggio",
-      "CreatedBy": "alias",
-      "UpdatedBy": "fugit",
-      "DeviceIdentifier": "quos",
-      "ForeignAppId": 466,
+      "ForeignDeviceId": 203,
+      "Name": "Moen Inc and Sons",
+      "CreatedDate": "2006-03-28T14:28:26.9458186+02:00",
+      "UpdatedDate": "2002-02-18T14:28:26.9458186+01:00",
+      "AssociateFullName": "Ari Schuster",
+      "CreatedBy": "necessitatibus",
+      "UpdatedBy": "qui",
+      "DeviceIdentifier": "odio",
+      "ForeignAppId": 753,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 248
+          "FieldLength": 765
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldLength": 439
     }
   }
 }

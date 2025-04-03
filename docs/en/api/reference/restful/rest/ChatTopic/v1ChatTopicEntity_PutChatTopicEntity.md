@@ -139,25 +139,25 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 817,
-  "Name": "Ratke-Kassulke",
-  "Description": "Focused 4th generation flexibility",
-  "WelcomeMessage": "deserunt",
+  "ChatTopicId": 117,
+  "Name": "Nolan Group",
+  "Description": "Multi-tiered incremental support",
+  "WelcomeMessage": "deleniti",
   "Language": null,
-  "LastAccept": "2005-01-01T02:38:25.9329544+01:00",
-  "SecondsPrAccept": 497,
-  "AlertRecipient": "occaecati",
+  "LastAccept": "2016-09-19T14:28:26.7895753+02:00",
+  "SecondsPrAccept": 94,
+  "AlertRecipient": "dicta",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "dicta",
+  "BadgeHeader": "recusandae",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "nisi",
-  "WarnNewChatMinutes": 518,
-  "WarnManagerNewChatMinutes": 814,
+  "CustomQueueText": "tempora",
+  "WarnNewChatMinutes": 291,
+  "WarnManagerNewChatMinutes": 781,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -166,14 +166,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 181,
-  "WarnManagerChatMessageMinutes": 309,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 136,
-  "OfflineFormQueueLength": 575,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 675,
+  "WarnManagerChatMessageMinutes": 213,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 779,
+  "OfflineFormQueueLength": 782,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "vero"
+  "WidgetRatingText": "iste"
 }
 ```
 
@@ -184,43 +184,43 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 763,
-  "Name": "Russel-Parker",
-  "Description": "Devolved leading edge collaboration",
-  "WelcomeMessage": "deserunt",
+  "ChatTopicId": 346,
+  "Name": "O'Conner, Terry and Hermann",
+  "Description": "Digitized context-sensitive firmware",
+  "WelcomeMessage": "et",
   "Language": null,
-  "LastAccept": "2009-09-26T02:38:25.9329544+02:00",
-  "SecondsPrAccept": 706,
-  "AlertRecipient": "molestiae",
+  "LastAccept": "2009-04-30T14:28:26.7895753+02:00",
+  "SecondsPrAccept": 687,
+  "AlertRecipient": "ut",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "porro",
+  "BadgeHeader": "nostrum",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "ea",
-  "WarnNewChatMinutes": 346,
-  "WarnManagerNewChatMinutes": 217,
+  "CustomQueueText": "necessitatibus",
+  "WarnNewChatMinutes": 630,
+  "WarnManagerNewChatMinutes": 674,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": true,
+  "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": true,
+  "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 858,
-  "WarnManagerChatMessageMinutes": 453,
+  "WarnChatMessageMinutes": 308,
+  "WarnManagerChatMessageMinutes": 991,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 550,
-  "OfflineFormQueueLength": 724,
+  "OfflineFormTimeLimit": 978,
+  "OfflineFormQueueLength": 452,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "saepe",
+  "WidgetRatingText": "similique",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 709
+      "FieldType": "System.String",
+      "FieldLength": 958
     }
   },
   "_Links": {

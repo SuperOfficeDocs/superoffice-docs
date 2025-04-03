@@ -28,7 +28,7 @@ Gets a EMailAccount object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=840
+POST /api/v1/Agents/EMail/GetEMailAccount?eMailAccountId=168
 POST /api/v1/Agents/EMail/GetEMailAccount?$select=name,department,category/id
 ```
 
@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,24 +90,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 712,
-  "EMailAddress": "omnis",
-  "AssociateId": 740,
+  "EMailAccountId": 479,
+  "EMailAddress": "autem",
+  "AssociateId": 976,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 856,
-  "ErrorCount": 950,
+  "AccountStatus": 295,
+  "ErrorCount": 99,
   "ErrorReason": "",
-  "InboxFolder": "eos",
-  "SentFolder": "id",
-  "SimpleMode": 540,
-  "LastFetch": "2023-06-30T02:38:21.3701735+02:00",
+  "InboxFolder": "repellat",
+  "SentFolder": "magni",
+  "SimpleMode": 921,
+  "LastFetch": "2012-05-07T14:28:21.9303967+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 182
     }
   }
 }

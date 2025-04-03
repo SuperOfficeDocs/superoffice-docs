@@ -73,8 +73,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 249,
-  "Position": 527
+  "AttachmentId": 904,
+  "Position": 648
 }
 ```
 

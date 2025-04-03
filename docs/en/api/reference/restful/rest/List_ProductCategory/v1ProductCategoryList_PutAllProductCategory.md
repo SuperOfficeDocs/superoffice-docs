@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 471,
-    "Name": "Farrell Inc and Sons",
-    "Tooltip": "voluptate",
+    "Id": 70,
+    "Name": "Gleichner-Casper",
+    "Tooltip": "facere",
     "Deleted": false,
-    "UdListDefinitionId": 161,
-    "Rank": 820
+    "UdListDefinitionId": 608,
+    "Rank": 535
   },
   {
-    "Id": 471,
-    "Name": "Farrell Inc and Sons",
-    "Tooltip": "voluptate",
+    "Id": 70,
+    "Name": "Gleichner-Casper",
+    "Tooltip": "facere",
     "Deleted": false,
-    "UdListDefinitionId": 161,
-    "Rank": 820
+    "UdListDefinitionId": 608,
+    "Rank": 535
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 275,
-    "Name": "Halvorson, Langworth and Dickens",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 473,
-    "Rank": 806,
+    "Id": 100,
+    "Name": "Kling Group",
+    "Tooltip": "voluptatem",
+    "Deleted": false,
+    "UdListDefinitionId": 111,
+    "Rank": 76,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 766
+        "FieldLength": 403
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 838,
-    "Name": "Schimmel, Jacobi and Tromp",
-    "ToolTip": "Eum sed quas.",
+    "Id": 772,
+    "Name": "Welch-Lueilwitz",
+    "ToolTip": "Voluptates adipisci eaque.",
     "Deleted": false,
-    "Rank": 615,
-    "Type": "aperiam",
-    "ColorBlock": 668,
+    "Rank": 237,
+    "Type": "et",
+    "ColorBlock": 649,
     "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2012-11-14T02:38:26.886137+01:00",
+    "Selected": true,
+    "LastChanged": "1998-09-29T14:28:27.6645394+02:00",
     "ChildItems": [
       {
-        "Id": 747,
-        "Name": "Gutmann-Bins",
-        "ToolTip": "Facere vel consectetur quia.",
-        "Deleted": true,
-        "Rank": 986,
-        "Type": "modi",
-        "ColorBlock": 993,
-        "IconHint": "recusandae",
+        "Id": 388,
+        "Name": "Dickens Group",
+        "ToolTip": "Animi aut natus ut necessitatibus consequatur neque quidem.",
+        "Deleted": false,
+        "Rank": 293,
+        "Type": "fugit",
+        "ColorBlock": 778,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2010-02-18T02:38:26.886137+01:00",
+        "LastChanged": "2019-03-21T14:28:27.6645394+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "unde",
-        "Hidden": false,
-        "FullName": "Mireya Rippin",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "ratione",
+        "Hidden": true,
+        "FullName": "Alda Heathcote",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 431
+            "FieldLength": 692
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "consequatur",
-    "Hidden": false,
-    "FullName": "Maeve Gleichner",
+    "ExtraInfo": "corporis",
+    "StyleHint": "odit",
+    "Hidden": true,
+    "FullName": "Luella Metz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 962
+        "FieldLength": 668
       }
     }
   }

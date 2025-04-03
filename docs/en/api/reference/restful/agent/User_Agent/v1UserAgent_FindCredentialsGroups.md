@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/User/FindCredentialsGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "odit",
-  "SearchString": "fugiat"
+  "Type": "officiis",
+  "SearchString": "explicabo"
 }
 ```
 
@@ -97,26 +97,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kassulke, Denesik and Howe",
-    "DisplayName": "Yundt-Trantow",
+    "Name": "Runolfsdottir Inc and Sons",
+    "DisplayName": "Spinka, Towne and Pfeffer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldLength": 251
       }
     }
   },
   {
-    "Name": "Kassulke, Denesik and Howe",
-    "DisplayName": "Yundt-Trantow",
+    "Name": "Runolfsdottir Inc and Sons",
+    "DisplayName": "Spinka, Towne and Pfeffer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 233
+        "FieldLength": 251
       }
     }
   }

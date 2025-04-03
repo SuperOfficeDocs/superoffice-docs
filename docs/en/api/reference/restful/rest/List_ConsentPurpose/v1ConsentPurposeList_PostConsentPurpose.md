@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 936,
-  "Name": "Kling, Cremin and Blick",
-  "ConsentText": "ipsa",
-  "FormText": "provident",
-  "Key": "deserunt",
-  "Tooltip": "iusto",
-  "Active": 894,
-  "UpdatedDate": "2006-05-06T02:38:26.6986493+02:00",
+  "ConsentPurposeId": 642,
+  "Name": "Bins, Gerlach and O'Connell",
+  "ConsentText": "vel",
+  "FormText": "iusto",
+  "Key": "fuga",
+  "Tooltip": "placeat",
+  "Active": 276,
+  "UpdatedDate": "2004-12-01T14:28:27.5082958+01:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 632,
-  "PrivacyStatementDesc": "eos",
+  "Deleted": true,
+  "Rank": 511,
+  "PrivacyStatementDesc": "maiores",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 520,
-  "Name": "Barton-Rowe",
-  "ConsentText": "dolores",
-  "FormText": "dicta",
-  "Key": "omnis",
-  "Tooltip": "modi",
-  "Active": 30,
-  "UpdatedDate": "2000-05-18T02:38:26.6986493+02:00",
+  "ConsentPurposeId": 971,
+  "Name": "Blanda, Hahn and Bashirian",
+  "ConsentText": "non",
+  "FormText": "ex",
+  "Key": "eos",
+  "Tooltip": "sunt",
+  "Active": 832,
+  "UpdatedDate": "2011-07-03T14:28:27.5082958+02:00",
   "UpdatedBy": null,
-  "Deleted": false,
-  "Rank": 591,
-  "PrivacyStatementDesc": "facilis",
+  "Deleted": true,
+  "Rank": 809,
+  "PrivacyStatementDesc": "et",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldType": "System.String",
+      "FieldLength": 92
     }
   }
 }

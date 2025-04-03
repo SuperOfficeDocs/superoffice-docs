@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sunt",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sunt",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 623,
+  "DocumentId": 867,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "fuga",
-  "Header": "eveniet",
-  "Name": "Bailey-Kiehn",
-  "OurRef": "et",
-  "YourRef": "expedita",
-  "CreatedDate": "2010-09-26T02:38:26.0735654+02:00",
-  "UpdatedDate": "2013-02-08T02:38:26.0735654+01:00",
-  "Description": "Centralized homogeneous standardization",
+  "Attention": "a",
+  "Header": "et",
+  "Name": "Harris, Altenwerth and Rice",
+  "OurRef": "facere",
+  "YourRef": "nam",
+  "CreatedDate": "2018-04-01T14:28:26.9145702+02:00",
+  "UpdatedDate": "1998-05-27T14:28:26.9145702+02:00",
+  "Description": "Customizable full-range challenge",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-07-02T02:38:26.0891882+02:00",
-  "ExternalRef": "reprehenderit",
+  "Date": "1999-03-17T14:28:26.9145702+01:00",
+  "ExternalRef": "debitis",
   "Completed": "Completed",
-  "ActiveLinks": 189,
+  "ActiveLinks": 436,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Paucek LLC",
-      "Id": 552,
-      "Description": "Profit-focused explicit superstructure",
-      "ExtraInfo": "amet",
-      "LinkId": 44,
+      "EntityName": "Schmidt-Nienow",
+      "Id": 136,
+      "Description": "Optimized foreground access",
+      "ExtraInfo": "omnis",
+      "LinkId": 441,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 812
+          "FieldType": "System.String",
+          "FieldLength": 363
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 677,
-  "Snum": 239,
+  "SuggestedDocumentId": 970,
+  "Snum": 125,
   "UserDefinedFields": {
-    "SuperOffice:1": "723775624",
-    "SuperOffice:2": "1717737765"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Betty Boehm"
   },
   "ExtraFields": {
-    "ExtraFields1": "velit",
-    "ExtraFields2": "minima"
+    "ExtraFields1": "vitae",
+    "ExtraFields2": "totam"
   },
   "CustomFields": {
-    "CustomFields1": "neque",
-    "CustomFields2": "laboriosam"
+    "CustomFields1": "blanditiis",
+    "CustomFields2": "quidem"
   },
-  "PublishEventDate": "2011-10-01T02:38:26.0891882+02:00",
-  "PublishTo": "2001-05-25T02:38:26.0891882+02:00",
-  "PublishFrom": "2021-10-12T02:38:26.0891882+02:00",
+  "PublishEventDate": "2011-10-16T14:28:26.9145702+02:00",
+  "PublishTo": "2011-06-28T14:28:26.9145702+02:00",
+  "PublishFrom": "2003-04-20T14:28:26.9145702+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 796,
+      "VisibleId": 77,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 295
+          "FieldLength": 648
         }
       }
     },
     {
-      "VisibleId": 796,
+      "VisibleId": 77,
       "Visibility": "All",
-      "DisplayValue": "minus",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 295
+          "FieldLength": 648
         }
       }
     }
@@ -255,8 +255,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldType": "System.String",
+      "FieldLength": 482
     }
   },
   "_Links": {

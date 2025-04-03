@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=61
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=479
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -106,6 +106,7 @@ OK
 | SuggestedAppointmentId | int32 | Suggested guide item that this appointment is an instance of (Note: NOT VALID for document-type appointments, they have their own link) |
 | IsMileStone | bool | Is this appointment a milestone? |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | CentralserviceVideomeetId | string | GUID for video meeting in central services – this is set when we create meetings from SuperOffice. It is blank for incoming meetings created from inbox. |
 | UserDefinedFields | object | Deprecated: Use {SuperOffice.CRM.Services.AppointmentEntity.CustomFields} instead. Dictionary of user defined field data. The key string is the ProgId of the UdefField, or if the ProgId is empty it is a string of the format "SuperOffice:[UdefFieldIdentity]", e.g. "SuperOffice:1234" |
@@ -125,7 +126,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -139,120 +140,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-07-13T02:38:20.698363+02:00",
-  "AppointmentId": 458,
-  "Description": "Cross-group directional core",
-  "Title": "officia",
-  "Agenda": "officiis",
-  "InternalNotes": "rerum",
-  "StartDate": "2015-03-31T02:38:20.698363+02:00",
-  "EndDate": "2023-03-13T02:38:20.698363+01:00",
+  "CreatedDate": "2023-03-24T14:28:21.3210472+01:00",
+  "AppointmentId": 272,
+  "Description": "Synergistic systemic focus group",
+  "Title": "et",
+  "Agenda": "unde",
+  "InternalNotes": "dolorum",
+  "StartDate": "2010-11-30T14:28:21.3210472+01:00",
+  "EndDate": "2020-06-20T14:28:21.3210472+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 140,
+  "MotherId": 887,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2020-06-15T02:38:20.7139856+02:00",
+  "UpdatedDate": "2006-04-02T14:28:21.3210472+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 292,
+  "ActiveLinks": 539,
   "Links": [
     {
-      "EntityName": "Kautzer, Bogan and Ledner",
-      "Id": 478,
-      "Description": "Business-focused optimal alliance",
-      "ExtraInfo": "sunt",
-      "LinkId": 219,
+      "EntityName": "Donnelly, Kassulke and Haley",
+      "Id": 871,
+      "Description": "Assimilated grid-enabled hierarchy",
+      "ExtraInfo": "aut",
+      "LinkId": 346,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 276
         }
       }
     }
   ],
-  "AlarmLeadTime": "beatae",
+  "AlarmLeadTime": "suscipit",
   "HasAlarm": false,
-  "ColorIndex": 838,
+  "ColorIndex": 915,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "sed",
-  "LeadTime": "non",
-  "Location": "ut",
-  "RejectCounter": 87,
+  "LagTime": "eveniet",
+  "LeadTime": "hic",
+  "Location": "sunt",
+  "RejectCounter": 334,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 666,
-      "PersonId": 842,
-      "ContactId": 796,
-      "EmailId": 272,
-      "SendEmail": false,
+      "AssociateId": 277,
+      "PersonId": 954,
+      "ContactId": 846,
+      "EmailId": 362,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "zack@schummraynor.name",
-      "Description": "Realigned 24/7 system engine"
+      "EmailAddress": "darryl_dickinson@hickledaniel.co.uk",
+      "Description": "Managed logistical initiative"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2010-09-27T02:38:20.7139856+02:00",
+  "ActiveDate": "2002-07-28T14:28:21.3210472+02:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 269,
+  "PreferredTZLocation": 776,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 476,
+  "SuggestedAppointmentId": 975,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "distinctio",
+  "CentralserviceVideomeetId": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "Adolfo Leuschke",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Malvina Becker",
+    "SuperOffice:2": "Margaret Okuneva"
   },
   "ExtraFields": {
-    "ExtraFields1": "aliquam",
-    "ExtraFields2": "deleniti"
+    "ExtraFields1": "corrupti",
+    "ExtraFields2": "pariatur"
   },
   "CustomFields": {
-    "CustomFields1": "occaecati",
-    "CustomFields2": "sunt"
+    "CustomFields1": "sint",
+    "CustomFields2": "molestias"
   },
-  "PublishEventDate": "2002-01-23T02:38:20.7139856+01:00",
-  "PublishTo": "2004-04-18T02:38:20.7139856+02:00",
-  "PublishFrom": "2009-11-01T02:38:20.7139856+01:00",
+  "PublishEventDate": "2002-03-25T14:28:21.3210472+01:00",
+  "PublishTo": "2022-08-03T14:28:21.3210472+02:00",
+  "PublishFrom": "2010-06-20T14:28:21.3210472+02:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 675,
+      "VisibleId": 584,
       "Visibility": "All",
-      "DisplayValue": "officia",
+      "DisplayValue": "dignissimos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 301
         }
       }
     },
     {
-      "VisibleId": 675,
+      "VisibleId": 584,
       "Visibility": "All",
-      "DisplayValue": "officia",
+      "DisplayValue": "dignissimos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 244
+          "FieldLength": 301
         }
       }
     }
@@ -262,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 212
     }
   }
 }

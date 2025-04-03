@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 852
+  "SelectionId": 68
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Price Group",
-    "Description": "Implemented fresh-thinking support",
-    "Rank": 659,
+    "Name": "Pouros-McDermott",
+    "Description": "Polarised empowering frame",
+    "Rank": 324,
     "Restrictions": [
       {
-        "Name": "Kemmer Inc and Sons",
-        "Operator": "est",
+        "Name": "Kuhic Group",
+        "Operator": "porro",
         "Values": [
-          "at",
-          "commodi"
+          "explicabo",
+          "eaque"
         ],
         "DisplayValues": [
-          "consectetur",
-          "fuga"
+          "non",
+          "quis"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 565,
+        "InterParenthesis": 801,
         "InterOperator": "And",
-        "UniqueHash": 625
+        "UniqueHash": 881
       }
     ]
   },
   {
-    "Name": "Price Group",
-    "Description": "Implemented fresh-thinking support",
-    "Rank": 659,
+    "Name": "Pouros-McDermott",
+    "Description": "Polarised empowering frame",
+    "Rank": 324,
     "Restrictions": [
       {
-        "Name": "Kemmer Inc and Sons",
-        "Operator": "est",
+        "Name": "Kuhic Group",
+        "Operator": "porro",
         "Values": [
-          "at",
-          "commodi"
+          "explicabo",
+          "eaque"
         ],
         "DisplayValues": [
-          "consectetur",
-          "fuga"
+          "non",
+          "quis"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 565,
+        "InterParenthesis": 801,
         "InterOperator": "And",
-        "UniqueHash": 625
+        "UniqueHash": 881
       }
     ]
   }

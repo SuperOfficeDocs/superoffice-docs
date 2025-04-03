@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 378,
-  "Name": "Heathcote-Reilly",
-  "Tooltip": "veritatis",
-  "Deleted": true,
-  "UdListDefinitionId": 468,
-  "Rank": 390,
+  "Id": 780,
+  "Name": "Schuppe-Bartell",
+  "Tooltip": "sapiente",
+  "Deleted": false,
+  "UdListDefinitionId": 691,
+  "Rank": 755,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 694
+      "FieldType": "System.Int32",
+      "FieldLength": 862
     }
   }
 }

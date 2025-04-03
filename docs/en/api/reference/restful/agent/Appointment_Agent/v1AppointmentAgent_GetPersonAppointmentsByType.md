@@ -118,6 +118,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -132,15 +133,15 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 288,
+  "PersonId": 909,
   "IncludeProjectAppointments": false,
-  "StartTime": "2018-05-20T02:38:20.5419831+02:00",
-  "EndTime": "2008-08-20T02:38:20.5419831+02:00",
-  "Count": 977,
+  "StartTime": "2021-11-03T14:28:21.1335548+01:00",
+  "EndTime": "2024-01-24T14:28:21.1335548+01:00",
+  "Count": 829,
   "AppointmentType": "BookingForChecklist"
 }
 ```
@@ -153,65 +154,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 489,
-    "StartDate": "2005-12-06T02:38:20.5419831+01:00",
-    "EndDate": "2007-04-28T02:38:20.5419831+02:00",
+    "AppointmentId": 642,
+    "StartDate": "1999-07-28T14:28:21.1335548+02:00",
+    "EndDate": "2017-05-21T14:28:21.1335548+02:00",
     "Type": "BookingForChecklist",
-    "Task": "tempore",
-    "AssociateFullName": "Sammie Pouros Sr.",
-    "ContactName": "Ratke-Schmeler",
-    "Description": "Synchronised solution-oriented moratorium",
-    "PersonFullName": "Prof. Toney Giovani Grimes",
-    "PersonId": 246,
-    "ContactId": 314,
-    "ProjectId": 95,
-    "ProjectName": "O'Hara-Nader",
-    "IsPublished": false,
-    "AssociateId": 885,
-    "ColorIndex": 962,
-    "IsFree": false,
-    "HasAlarm": true,
+    "Task": "voluptates",
+    "AssociateFullName": "Nils Rempel Sr.",
+    "ContactName": "Weissnat Inc and Sons",
+    "Description": "Multi-lateral methodical migration",
+    "PersonFullName": "Adah Aufderhar",
+    "PersonId": 15,
+    "ContactId": 860,
+    "ProjectId": 786,
+    "ProjectName": "Schuppe, Kuhic and Dare",
+    "IsPublished": true,
+    "AssociateId": 40,
+    "ColorIndex": 823,
+    "IsFree": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 130,
-    "PriorityName": "Russel Inc and Sons",
+    "PriorityId": 629,
+    "PriorityName": "Senger, Pfeffer and Kunze",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2011-04-11T02:38:20.5419831+02:00",
+    "ActiveDate": "2012-12-05T14:28:21.1335548+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2015-01-14T02:38:20.5419831+01:00",
-    "RecurringEndDate": "2010-12-02T02:38:20.5419831+01:00",
-    "MotherId": 964,
-    "AssignedBy": 304,
-    "AssignedByFullName": "Dawson Bauch",
+    "RecurringStartDate": "2016-10-02T14:28:21.1335548+02:00",
+    "RecurringEndDate": "2019-02-12T14:28:21.1335548+01:00",
+    "MotherId": 110,
+    "AssignedBy": 74,
+    "AssignedByFullName": "Johathan Boehm",
     "RejectReason": "",
-    "Location": "explicabo",
-    "AlarmLeadTime": "et",
-    "SaleId": 884,
-    "SaleName": "Bernier, Schamberger and Nader",
-    "AssociateName": "Willms-Jast",
-    "CreatedDate": "2024-10-23T02:38:20.5419831+02:00",
-    "CreatedBy": "aliquam",
-    "CreatedByFullName": "Narciso Zulauf",
-    "CreatedByAssociateId": 600,
+    "Location": "natus",
+    "AlarmLeadTime": "deserunt",
+    "SaleId": 166,
+    "SaleName": "Treutel-Howell",
+    "AssociateName": "Harvey Inc and Sons",
+    "CreatedDate": "2000-02-24T14:28:21.1335548+01:00",
+    "CreatedBy": "fuga",
+    "CreatedByFullName": "Mrs. Jocelyn Elmo Fadel Jr.",
+    "CreatedByAssociateId": 267,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 812,
-    "Title": "ut",
-    "Agenda": "quaerat",
-    "InternalNotes": "eos",
+    "PreferredTZLocation": 749,
+    "Title": "accusantium",
+    "Agenda": "deserunt",
+    "InternalNotes": "consequuntur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 795
+        "FieldType": "System.Int32",
+        "FieldLength": 413
       }
     }
   }

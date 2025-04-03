@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "perferendis"
+  "ProgId": "est"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 342,
-  "Name": "Bednar LLC",
-  "Tooltip": "vel",
-  "Deleted": false,
-  "Rank": 205,
+  "WebPanelId": 380,
+  "Name": "Wolff Inc and Sons",
+  "Tooltip": "ipsum",
+  "Deleted": true,
+  "Rank": 328,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Deckow, Smitham and Mante",
+  "ShowInStatusBar": false,
+  "WindowName": "Bartell-Mayer",
   "Url": "http://www.example.com/",
-  "ProgId": "nemo",
-  "Icon": 576,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "explicabo",
+  "Icon": 446,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 260
     }
   }
 }

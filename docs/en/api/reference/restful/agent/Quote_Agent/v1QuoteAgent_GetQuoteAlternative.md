@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=17
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=331
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 552,
-  "ERPQuoteAlternativeKey": "excepturi",
-  "QuoteVersionId": 677,
-  "Name": "Reichel, Tillman and Hansen",
-  "Description": "Managed impactful middleware",
+  "QuoteAlternativeId": 836,
+  "ERPQuoteAlternativeKey": "ratione",
+  "QuoteVersionId": 814,
+  "Name": "Greenholt-Zemlak",
+  "Description": "Automated asynchronous pricing structure",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 16741.827999999998,
-  "ERPDiscountAmount": 18405.982,
-  "DiscountPercent": 19678.386,
-  "DiscountAmount": 17678.894,
+  "Reason": "productize bleeding-edge functionalities",
+  "ERPDiscountPercent": 23495.597999999998,
+  "ERPDiscountAmount": 24025.244,
+  "DiscountPercent": 8276.894,
+  "DiscountAmount": 20311.453999999998,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "id",
-  "VAT": 21367.612,
-  "EarningPercent": 14692.192,
-  "EarningAmount": 14225.225999999999,
-  "SubTotal": 19380.656,
-  "TotalPrice": 14297.307999999999,
-  "ExtraField1": "officiis",
-  "ExtraField2": "velit",
-  "ExtraField3": "optio",
-  "ExtraField4": "deserunt",
-  "ExtraField5": "earum",
+  "VATInfo": "excepturi",
+  "VAT": 13748.858,
+  "EarningPercent": 2958.496,
+  "EarningAmount": 24072.254,
+  "SubTotal": 10796.63,
+  "TotalPrice": 22163.648,
+  "ExtraField1": "et",
+  "ExtraField2": "laborum",
+  "ExtraField3": "quidem",
+  "ExtraField4": "nesciunt",
+  "ExtraField5": "laborum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldType": "System.String",
+      "FieldLength": 770
     }
   }
 }

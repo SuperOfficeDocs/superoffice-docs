@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -135,11 +136,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 464,
-  "StartTime": "2020-03-13T02:38:20.557605+01:00",
-  "EndTime": "2010-04-07T02:38:20.557605+02:00",
-  "Count": 754,
-  "TaskHeadingId": 967
+  "ContactId": 230,
+  "StartTime": "2007-01-16T14:28:21.1491785+01:00",
+  "EndTime": "2006-12-28T14:28:21.1491785+01:00",
+  "Count": 83,
+  "TaskHeadingId": 364
 }
 ```
 
@@ -151,65 +152,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 355,
-    "StartDate": "2024-02-11T02:38:20.557605+01:00",
-    "EndDate": "2005-02-04T02:38:20.557605+01:00",
+    "AppointmentId": 359,
+    "StartDate": "2012-05-03T14:28:21.1491785+02:00",
+    "EndDate": "2018-04-14T14:28:21.1491785+02:00",
     "Type": "BookingForChecklist",
-    "Task": "voluptates",
-    "AssociateFullName": "Mrs. Raymundo Kris Jaskolski",
-    "ContactName": "Kuvalis, Gottlieb and Schmeler",
-    "Description": "Devolved foreground hub",
-    "PersonFullName": "Mr. Laurel Gutkowski",
-    "PersonId": 989,
-    "ContactId": 419,
-    "ProjectId": 883,
-    "ProjectName": "Grant-Brakus",
+    "Task": "sunt",
+    "AssociateFullName": "Miss Lucinda Emily Rosenbaum",
+    "ContactName": "Boyle LLC",
+    "Description": "Future-proofed bottom-line task-force",
+    "PersonFullName": "Mrs. Jamarcus Kunde DVM",
+    "PersonId": 785,
+    "ContactId": 868,
+    "ProjectId": 448,
+    "ProjectName": "Block-Casper",
     "IsPublished": false,
-    "AssociateId": 516,
-    "ColorIndex": 274,
+    "AssociateId": 794,
+    "ColorIndex": 144,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": true,
     "Private": "PrivateGroup",
-    "PriorityId": 743,
-    "PriorityName": "Leuschke LLC",
+    "PriorityId": 859,
+    "PriorityName": "Dickinson, Mills and Grady",
     "TaskType": "Appointment",
     "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2011-11-25T02:38:20.557605+01:00",
+    "ActiveDate": "2007-08-05T14:28:21.1491785+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-06-25T02:38:20.557605+02:00",
-    "RecurringEndDate": "2008-03-19T02:38:20.557605+01:00",
-    "MotherId": 167,
-    "AssignedBy": 136,
-    "AssignedByFullName": "Dr. Peter Baumbach",
+    "RecurringStartDate": "1999-02-22T14:28:21.1491785+01:00",
+    "RecurringEndDate": "2022-01-04T14:28:21.1491785+01:00",
+    "MotherId": 444,
+    "AssignedBy": 946,
+    "AssignedByFullName": "Dr. Eugenia Francis Emmerich III",
     "RejectReason": "",
-    "Location": "sed",
-    "AlarmLeadTime": "ab",
-    "SaleId": 800,
-    "SaleName": "Stehr-Lynch",
-    "AssociateName": "Hickle-Kulas",
-    "CreatedDate": "2022-10-18T02:38:20.557605+02:00",
-    "CreatedBy": "molestiae",
-    "CreatedByFullName": "Bruce Russel",
-    "CreatedByAssociateId": 891,
+    "Location": "alias",
+    "AlarmLeadTime": "deleniti",
+    "SaleId": 135,
+    "SaleName": "Conroy-Bode",
+    "AssociateName": "Spencer Inc and Sons",
+    "CreatedDate": "2005-03-15T14:28:21.1491785+01:00",
+    "CreatedBy": "et",
+    "CreatedByFullName": "Sherwood Thompson",
+    "CreatedByAssociateId": 751,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 608,
-    "Title": "ut",
-    "Agenda": "qui",
-    "InternalNotes": "modi",
+    "PreferredTZLocation": 340,
+    "Title": "et",
+    "Agenda": "magnam",
+    "InternalNotes": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldLength": 131
       }
     }
   }

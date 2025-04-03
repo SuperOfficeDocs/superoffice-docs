@@ -26,7 +26,7 @@ Gets a SaleStageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleStageEntity?saleStageEntityId=488
+POST /api/v1/Agents/List/GetSaleStageEntity?saleStageEntityId=50
 POST /api/v1/Agents/List/GetSaleStageEntity?$select=name,department,category/id
 ```
 
@@ -82,18 +82,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 418,
-  "Value": "maxime",
-  "Tooltip": "laudantium",
-  "Probability": 686,
+  "SaleStageId": 834,
+  "Value": "repudiandae",
+  "Tooltip": "perspiciatis",
+  "Probability": 346,
   "Deleted": false,
-  "Rank": 496,
+  "Rank": 925,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 497
+      "FieldLength": 353
     }
   }
 }

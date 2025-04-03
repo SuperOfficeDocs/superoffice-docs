@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 311,
-  "NewName": "Bechtelar-Pouros",
-  "ValidFrom": "2021-12-09T02:38:21.7607486+01:00",
-  "ValidTo": "2012-04-14T02:38:21.7607486+02:00",
-  "NewCurrencyId": 844,
-  "ConvertCurrency": true
+  "OriginalPriceListId": 548,
+  "NewName": "Cassin LLC",
+  "ValidFrom": "2004-02-26T14:28:22.2897573+01:00",
+  "ValidTo": "2023-09-14T14:28:22.2897573+02:00",
+  "NewCurrencyId": 680,
+  "ConvertCurrency": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 694,
-  "ERPPriceListKey": "porro",
-  "QuoteConnectionId": 221,
-  "Name": "Labadie LLC",
-  "Description": "Sharable 4th generation hub",
-  "Currency": "doloribus",
-  "CurrencyName": "Graham-Nienow",
-  "ValidFrom": "2017-10-15T02:38:21.7607486+02:00",
-  "ValidTo": "2019-02-16T02:38:21.7607486+01:00",
-  "IsActive": true,
+  "PriceListId": 393,
+  "ERPPriceListKey": "possimus",
+  "QuoteConnectionId": 366,
+  "Name": "Hilll, Grady and Mosciski",
+  "Description": "Realigned upward-trending interface",
+  "Currency": "accusamus",
+  "CurrencyName": "Glover, Rodriguez and Bernier",
+  "ValidFrom": "2021-04-30T14:28:22.2897573+02:00",
+  "ValidTo": "2006-09-19T14:28:22.2897573+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 200
+      "FieldType": "System.Int32",
+      "FieldLength": 385
     }
   }
 }

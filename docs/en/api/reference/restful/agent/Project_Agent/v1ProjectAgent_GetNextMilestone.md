@@ -111,6 +111,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -125,11 +126,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 687
+  "ProjectId": 452
 }
 ```
 
@@ -140,65 +141,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 6,
-  "StartDate": "1999-04-21T02:38:21.7295028+02:00",
-  "EndDate": "2020-12-11T02:38:21.7295028+01:00",
+  "AppointmentId": 420,
+  "StartDate": "2012-08-11T14:28:22.2585084+02:00",
+  "EndDate": "2006-11-06T14:28:22.2585084+01:00",
   "Type": "BookingForChecklist",
-  "Task": "est",
-  "AssociateFullName": "Mr. Alexandra Hodkiewicz",
-  "ContactName": "Nolan Inc and Sons",
-  "Description": "Enhanced fresh-thinking array",
-  "PersonFullName": "Brooke Dickens",
-  "PersonId": 855,
-  "ContactId": 599,
-  "ProjectId": 822,
-  "ProjectName": "Fisher, Hermann and Prohaska",
+  "Task": "veniam",
+  "AssociateFullName": "Prof. Abraham Rigoberto Emard PhD",
+  "ContactName": "Lubowitz-Konopelski",
+  "Description": "Profound secondary data-warehouse",
+  "PersonFullName": "Mrs. Felicity Rau",
+  "PersonId": 998,
+  "ContactId": 204,
+  "ProjectId": 961,
+  "ProjectName": "Auer, Turcotte and Funk",
   "IsPublished": false,
-  "AssociateId": 551,
-  "ColorIndex": 497,
+  "AssociateId": 811,
+  "ColorIndex": 971,
   "IsFree": false,
-  "HasAlarm": true,
+  "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 612,
-  "PriorityName": "Herman, Windler and Doyle",
+  "PriorityId": 391,
+  "PriorityName": "Hilll, Wyman and Hessel",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": true,
-  "ActiveDate": "2015-01-17T02:38:21.7295028+01:00",
+  "ActiveDate": "2005-06-13T14:28:22.2585084+02:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2021-02-09T02:38:21.7295028+01:00",
-  "RecurringEndDate": "2013-03-15T02:38:21.7295028+01:00",
-  "MotherId": 224,
-  "AssignedBy": 780,
-  "AssignedByFullName": "Annabel Gibson",
-  "RejectReason": "transform plug-and-play e-commerce",
-  "Location": "nesciunt",
-  "AlarmLeadTime": "voluptatum",
-  "SaleId": 669,
-  "SaleName": "Trantow-Larson",
-  "AssociateName": "Price-Rice",
-  "CreatedDate": "2018-11-11T02:38:21.7295028+01:00",
-  "CreatedBy": "rerum",
-  "CreatedByFullName": "Denis Goodwin V",
-  "CreatedByAssociateId": 760,
+  "RecurringStartDate": "2000-01-25T14:28:22.2585084+01:00",
+  "RecurringEndDate": "2020-05-28T14:28:22.2585084+02:00",
+  "MotherId": 785,
+  "AssignedBy": 281,
+  "AssignedByFullName": "Leora Stroman",
+  "RejectReason": "",
+  "Location": "sunt",
+  "AlarmLeadTime": "sunt",
+  "SaleId": 982,
+  "SaleName": "Kuhn, Ritchie and Turcotte",
+  "AssociateName": "Mills-Lind",
+  "CreatedDate": "2018-11-17T14:28:22.2585084+01:00",
+  "CreatedBy": "sapiente",
+  "CreatedByFullName": "Jaylan Jacynthe Boyle PhD",
+  "CreatedByAssociateId": 233,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 792,
-  "Title": "aspernatur",
-  "Agenda": "amet",
-  "InternalNotes": "illo",
+  "PreferredTZLocation": 512,
+  "Title": "expedita",
+  "Agenda": "veritatis",
+  "InternalNotes": "incidunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 89
+      "FieldType": "System.Int32",
+      "FieldLength": 534
     }
   }
 }

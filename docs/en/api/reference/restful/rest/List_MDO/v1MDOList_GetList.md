@@ -32,8 +32,8 @@ Get the list items in a named list.
 
 ```http
 GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=sit
-GET /api/v1/MDOList/{listname}?query=distinctio
+GET /api/v1/MDOList/{listname}?additional=autem
+GET /api/v1/MDOList/{listname}?query=non
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,44 +95,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 932,
-    "Name": "Blanda, Kuhlman and Gutkowski",
-    "ToolTip": "Eligendi et praesentium pariatur alias.",
+    "Id": 369,
+    "Name": "Jenkins-Greenfelder",
+    "ToolTip": "Quia vero cumque quis.",
     "Deleted": false,
-    "Rank": 806,
-    "Type": "omnis",
+    "Rank": 193,
+    "Type": "ex",
     "ChildItems": [
       {
-        "Id": 660,
-        "Name": "Crist-Stokes",
-        "ToolTip": "Magnam quibusdam perferendis et perferendis aut hic quas.",
-        "Deleted": false,
-        "Rank": 226,
-        "Type": "assumenda",
+        "Id": 364,
+        "Name": "Jacobs-Roberts",
+        "ToolTip": "Quasi sint eligendi doloremque nihil ut et.",
+        "Deleted": true,
+        "Rank": 634,
+        "Type": "earum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 558,
-        "ExtraInfo": "laborum",
-        "StyleHint": "dicta",
-        "FullName": "Tatum Wiza",
+        "IconHint": "optio",
+        "ColorBlock": 574,
+        "ExtraInfo": "id",
+        "StyleHint": "cupiditate",
+        "FullName": "Miss Maxime Farrell IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 141
+            "FieldType": "System.String",
+            "FieldLength": 487
           }
         }
       }
     ],
-    "IconHint": "libero",
-    "ColorBlock": 537,
-    "ExtraInfo": "esse",
-    "StyleHint": "nam",
-    "FullName": "Daphne Wyman",
+    "IconHint": "ut",
+    "ColorBlock": 430,
+    "ExtraInfo": "dolor",
+    "StyleHint": "dolorum",
+    "FullName": "Jakayla Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {

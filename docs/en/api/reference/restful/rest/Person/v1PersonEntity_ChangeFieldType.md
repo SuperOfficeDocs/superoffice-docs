@@ -30,7 +30,7 @@ Change a PersonEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ PersonEntity found.
 POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 756,
-  "ColumnId": 346,
-  "FieldDefault": "porro",
-  "FieldHeight": 301,
-  "FieldLabel": "quisquam",
-  "FieldLeft": 534,
-  "FieldTop": 431,
+  "UDefFieldId": 334,
+  "ColumnId": 125,
+  "FieldDefault": "et",
+  "FieldHeight": 465,
+  "FieldLabel": "totam",
+  "FieldLeft": 825,
+  "FieldTop": 894,
   "FieldType": "Checkbox",
-  "FieldWidth": 824,
-  "FormatMask": "reprehenderit",
+  "FieldWidth": 83,
+  "FormatMask": "molestiae",
   "HideLabel": true,
   "IsIndexed": true,
-  "LabelHeight": 637,
-  "LabelLeft": 555,
-  "LabelTop": 219,
-  "LabelWidth": 788,
-  "LastVersionId": 674,
-  "ListTableId": 25,
+  "LabelHeight": 182,
+  "LabelLeft": 686,
+  "LabelTop": 241,
+  "LabelWidth": 944,
+  "LastVersionId": 190,
+  "ListTableId": 990,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 528,
-  "ProgId": "veniam",
-  "IsReadOnly": false,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 747,
-  "TextLength": 77,
-  "Tooltip": "deserunt",
-  "UdefIdentity": 536,
-  "UDListDefinitionId": 279,
+  "Page1LineNo": 489,
+  "ProgId": "dolore",
+  "IsReadOnly": true,
+  "ShortLabel": "ex",
+  "TabOrder": 527,
+  "TextLength": 463,
+  "Tooltip": "voluptate",
+  "UdefIdentity": 387,
+  "UDListDefinitionId": 550,
   "Justification": "Center",
-  "Version": 764,
-  "TemplateVariableName": "Cremin, Bins and Smith",
-  "HasBeenPublished": false,
-  "MdoListName": "Collins-Upton",
+  "Version": 980,
+  "TemplateVariableName": "Carroll-Weissnat",
+  "HasBeenPublished": true,
+  "MdoListName": "Ondricka LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 460
+      "FieldType": "System.String",
+      "FieldLength": 552
     }
   }
 }

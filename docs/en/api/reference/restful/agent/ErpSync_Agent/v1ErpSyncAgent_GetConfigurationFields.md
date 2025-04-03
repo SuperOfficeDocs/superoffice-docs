@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 385
+  "ErpConnectorId": 76
 }
 ```
 
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "quisquam",
-    "Rank": 397,
-    "DisplayName": "Larson-Cassin",
-    "DisplayDescription": "Optional human-resource open architecture",
+    "FieldKey": "dignissimos",
+    "Rank": 212,
+    "DisplayName": "Zieme Inc and Sons",
+    "DisplayDescription": "Fundamental fault-tolerant attitude",
     "FieldType": "Checkbox",
-    "ListName": "Wunsch-Crist",
-    "DefaultValue": "quia",
-    "MaxLength": 175,
+    "ListName": "Dach-Rippin",
+    "DefaultValue": "dolores",
+    "MaxLength": 722,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -115,7 +115,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldLength": 259
       }
     }
   }

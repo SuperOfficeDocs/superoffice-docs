@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schinner-Hegmann",
-  "ForceFlatList": true,
-  "AdditionalInfo": "ex",
+  "Name": "White-Morar",
+  "ForceFlatList": false,
+  "AdditionalInfo": "quae",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 835,
-    "Name": "Torphy, Wiegand and Fadel",
-    "ToolTip": "Et quidem.",
+    "Id": 903,
+    "Name": "Nienow-Boehm",
+    "ToolTip": "Neque et alias perspiciatis consequuntur mollitia maxime.",
     "Deleted": false,
-    "Rank": 346,
-    "Type": "nostrum",
+    "Rank": 265,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 54,
-        "Name": "Weber-Prosacco",
-        "ToolTip": "Nihil unde.",
-        "Deleted": false,
-        "Rank": 151,
-        "Type": "quisquam",
+        "Id": 877,
+        "Name": "Haley LLC",
+        "ToolTip": "Numquam numquam ipsum ut excepturi.",
+        "Deleted": true,
+        "Rank": 552,
+        "Type": "porro",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 791,
-        "ExtraInfo": "facere",
-        "StyleHint": "aut",
-        "FullName": "Elise Kub",
+        "IconHint": "consequatur",
+        "ColorBlock": 18,
+        "ExtraInfo": "sit",
+        "StyleHint": "quod",
+        "FullName": "Prof. Danny Krajcik",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 493
+            "FieldLength": 616
           }
         }
       }
     ],
-    "IconHint": "accusantium",
-    "ColorBlock": 546,
-    "ExtraInfo": "rerum",
-    "StyleHint": "maiores",
-    "FullName": "Jerod Tiara Herzog III",
+    "IconHint": "similique",
+    "ColorBlock": 472,
+    "ExtraInfo": "nam",
+    "StyleHint": "enim",
+    "FullName": "Eileen Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldLength": 221
       }
     }
   }

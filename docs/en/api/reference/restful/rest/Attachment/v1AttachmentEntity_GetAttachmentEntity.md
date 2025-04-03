@@ -80,7 +80,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,24 +91,24 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AttachmentId": 495,
-  "Name": "O'Kon, Kautzer and Brakus",
+  "Name": "Crist, Harris and Altenwerth",
   "ContentType": "ut",
-  "AttSize": 386,
-  "InlineImage": false,
-  "ContentId": "nulla",
-  "AuthKey": "ut",
+  "AttSize": 60,
+  "InlineImage": true,
+  "ContentId": "ipsum",
+  "AuthKey": "rerum",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 532
+      "FieldLength": 155
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "Dickinson-Ruecker",
-    "ToolTip": "Vero libero excepturi.",
-    "Deleted": false,
-    "Rank": 510,
-    "Type": "dolorem",
-    "ColorBlock": 986,
-    "IconHint": "optio",
+    "Id": 670,
+    "Name": "Keebler, Champlin and Lubowitz",
+    "ToolTip": "Illum et eum.",
+    "Deleted": true,
+    "Rank": 913,
+    "Type": "ullam",
+    "ColorBlock": 108,
+    "IconHint": "voluptas",
     "Selected": false,
-    "LastChanged": "2008-10-12T02:38:26.7767326+02:00",
+    "LastChanged": "2016-02-08T14:28:27.5707933+01:00",
     "ChildItems": [
       {
-        "Id": 974,
-        "Name": "Keeling, Beahan and Conn",
-        "ToolTip": "Dolorem fugit et repellat pariatur.",
+        "Id": 899,
+        "Name": "Kirlin Inc and Sons",
+        "ToolTip": "Sed sit quod qui et occaecati harum.",
         "Deleted": false,
-        "Rank": 178,
-        "Type": "corrupti",
-        "ColorBlock": 359,
-        "IconHint": "alias",
+        "Rank": 387,
+        "Type": "quia",
+        "ColorBlock": 257,
+        "IconHint": "inventore",
         "Selected": false,
-        "LastChanged": "2022-09-26T02:38:26.7767326+02:00",
+        "LastChanged": "2004-11-19T14:28:27.5707933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "est",
-        "Hidden": true,
-        "FullName": "Denis Erdman",
+        "ExtraInfo": "non",
+        "StyleHint": "magnam",
+        "Hidden": false,
+        "FullName": "Dr. Meggie Marcelo Waelchi DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 642
+            "FieldType": "System.String",
+            "FieldLength": 963
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "dolor",
-    "Hidden": true,
-    "FullName": "Daphney Harber",
+    "ExtraInfo": "unde",
+    "StyleHint": "accusamus",
+    "Hidden": false,
+    "FullName": "Dr. Mason Stracke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 613
+        "FieldType": "System.Int32",
+        "FieldLength": 195
       }
     }
   }

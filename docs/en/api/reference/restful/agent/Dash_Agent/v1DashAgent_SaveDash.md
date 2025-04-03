@@ -91,30 +91,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 494,
+  "DashboardId": 701,
   "UniqueId": "qui",
-  "Name": "Schaden Inc and Sons",
-  "Description": "Proactive systemic emulation",
-  "AssociateId": 305,
-  "Columns": 616,
+  "Name": "Nienow-Windler",
+  "Description": "Up-sized zero tolerance infrastructure",
+  "AssociateId": 252,
+  "Columns": 835,
   "Theme": null,
-  "VisibleForAll": 944,
+  "VisibleForAll": 574,
   "VisibleForAssociates": [
-    610,
-    687
+    161,
+    811
   ],
   "VisibleForGroups": [
-    565,
-    163
+    804,
+    329
   ],
-  "PinForAll": 170,
+  "PinForAll": 675,
   "PinForAssociates": [
-    282,
-    280
+    839,
+    182
   ],
   "PinForGroups": [
-    558,
-    8
+    883,
+    786
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 716,
-  "UniqueId": "sit",
-  "Name": "Franecki-Swift",
-  "Description": "Cross-platform composite encryption",
-  "AssociateId": 630,
-  "Columns": 197,
+  "DashboardId": 319,
+  "UniqueId": "eveniet",
+  "Name": "Veum-Homenick",
+  "Description": "Stand-alone client-server concept",
+  "AssociateId": 364,
+  "Columns": 676,
   "Theme": null,
-  "VisibleForAll": 152,
+  "VisibleForAll": 886,
   "VisibleForAssociates": [
-    895,
-    655
+    745,
+    164
   ],
   "VisibleForGroups": [
-    847,
-    776
+    77,
+    951
   ],
-  "PinForAll": 636,
+  "PinForAll": 948,
   "PinForAssociates": [
-    890,
-    950
+    319,
+    333
   ],
   "PinForGroups": [
-    479,
-    679
+    808,
+    920
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 851
+      "FieldType": "System.Int32",
+      "FieldLength": 569
     }
   }
 }

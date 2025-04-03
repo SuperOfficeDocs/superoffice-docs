@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 483,
-  "Name": "Ankunding, Kulas and Purdy",
-  "Tooltip": "quas",
-  "Deleted": false,
-  "UdListDefinitionId": 367,
-  "Rank": 754
+  "Id": 821,
+  "Name": "Ullrich-Miller",
+  "Tooltip": "perferendis",
+  "Deleted": true,
+  "UdListDefinitionId": 307,
+  "Rank": 128
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 937,
-  "Name": "Wolf-Orn",
-  "Tooltip": "quia",
+  "Id": 957,
+  "Name": "Halvorson LLC",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "UdListDefinitionId": 769,
-  "Rank": 17,
+  "UdListDefinitionId": 637,
+  "Rank": 238,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 926
+      "FieldType": "System.Int32",
+      "FieldLength": 674
     }
   }
 }

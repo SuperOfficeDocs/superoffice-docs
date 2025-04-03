@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashTileId": 981,
-  "Name": "Nikolaus-Gerlach"
+  "DashTileId": 890,
+  "Name": "Erdman, Rogahn and Schowalter"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 704,
-  "DashboardId": 465,
-  "Height": 640,
-  "Width": 618,
-  "Rank": 852,
+  "DashboardTileId": 867,
+  "DashboardId": 954,
+  "Height": 394,
+  "Width": 257,
+  "Rank": 967,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 666
     }
   }
 }

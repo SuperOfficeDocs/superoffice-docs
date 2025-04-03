@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 540,
-  "StartDate": "2020-07-16T02:38:20.7452374+02:00",
-  "EndDate": "1999-04-09T02:38:20.7452374+02:00",
-  "RecurrenceCounter": 299,
+  "RecurrenceId": 680,
+  "StartDate": "2002-02-14T14:28:21.3522957+01:00",
+  "EndDate": "2023-06-28T14:28:21.3522957+02:00",
+  "RecurrenceCounter": 745,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2006-04-02T02:38:20.7452374+02:00",
-      "IsConflict": false,
-      "Description": "Self-enabling exuding interface",
-      "DescriptionStyleHint": "Grass-roots maximized Graphic Interface",
-      "Tooltip": "et"
+      "Date": "2001-12-08T14:28:21.3522957+01:00",
+      "IsConflict": true,
+      "Description": "Ergonomic coherent knowledge user",
+      "DescriptionStyleHint": "Optimized bottom-line hardware",
+      "Tooltip": "qui"
     },
     {
-      "Date": "2006-04-02T02:38:20.7452374+02:00",
-      "IsConflict": false,
-      "Description": "Self-enabling exuding interface",
-      "DescriptionStyleHint": "Grass-roots maximized Graphic Interface",
-      "Tooltip": "et"
+      "Date": "2001-12-08T14:28:21.3522957+01:00",
+      "IsConflict": true,
+      "Description": "Ergonomic coherent knowledge user",
+      "DescriptionStyleHint": "Optimized bottom-line hardware",
+      "Tooltip": "qui"
     }
   ],
   "IsRecurrence": true

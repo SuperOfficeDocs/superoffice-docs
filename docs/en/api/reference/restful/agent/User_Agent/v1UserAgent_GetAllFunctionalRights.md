@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 872,
-    "Name": "Homenick-Casper",
-    "ToolTip": "Perspiciatis quasi vero ex qui repellendus qui.",
-    "Deleted": true,
-    "Rank": 912,
-    "Type": "molestias",
-    "ColorBlock": 987,
-    "IconHint": "in",
-    "Selected": false,
-    "LastChanged": "2010-10-30T02:38:22.1981664+02:00",
+    "Id": 160,
+    "Name": "Parisian Inc and Sons",
+    "ToolTip": "Omnis asperiores temporibus repellat numquam velit voluptatibus non.",
+    "Deleted": false,
+    "Rank": 447,
+    "Type": "assumenda",
+    "ColorBlock": 264,
+    "IconHint": "consequatur",
+    "Selected": true,
+    "LastChanged": "2008-04-13T14:28:22.6959913+02:00",
     "ChildItems": [
       {
-        "Id": 741,
-        "Name": "Franecki, Upton and Schneider",
-        "ToolTip": "Fuga animi tempore voluptate qui tenetur fugit adipisci.",
-        "Deleted": false,
-        "Rank": 291,
-        "Type": "eveniet",
-        "ColorBlock": 895,
-        "IconHint": "unde",
+        "Id": 853,
+        "Name": "Jerde, Kris and Nitzsche",
+        "ToolTip": "Et tempora.",
+        "Deleted": true,
+        "Rank": 482,
+        "Type": "dolores",
+        "ColorBlock": 757,
+        "IconHint": "commodi",
         "Selected": false,
-        "LastChanged": "2022-03-15T02:38:22.1981664+01:00",
+        "LastChanged": "2004-11-06T14:28:22.6959913+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quisquam",
-        "StyleHint": "sint",
-        "Hidden": false,
-        "FullName": "Rita Jacobs",
+        "ExtraInfo": "et",
+        "StyleHint": "quas",
+        "Hidden": true,
+        "FullName": "Mr. Nash Crystel Kiehn II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 403
+            "FieldLength": 968
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
+    "ExtraInfo": "porro",
     "StyleHint": "at",
     "Hidden": true,
-    "FullName": "Hollis Cummings",
+    "FullName": "Ms. Maud Grayce VonRueden DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 883
+        "FieldType": "System.Int32",
+        "FieldLength": 429
       }
     }
   }

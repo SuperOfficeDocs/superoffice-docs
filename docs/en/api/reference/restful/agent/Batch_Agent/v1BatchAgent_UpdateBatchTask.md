@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 105,
-  "Name": "Gutkowski Group",
-  "AssociateId": 65,
-  "DetailsTable": 408,
-  "DetailsRecord": 821,
+  "Id": 817,
+  "Name": "Aufderhar-Abbott",
+  "AssociateId": 992,
+  "DetailsTable": 537,
+  "DetailsRecord": 315,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "laudantium",
-    "ParameterObject2": "sint"
+    "ParameterObject1": "quibusdam",
+    "ParameterObject2": "eius"
   },
-  "LastStarted": "2010-02-04T02:38:20.885843+01:00",
-  "Created": "2009-01-13T02:38:20.885843+01:00",
-  "StartCount": 725,
-  "DatabaseSerialNumber": "781053",
-  "Context": "nobis",
-  "Result": "nulla",
+  "LastStarted": "2003-12-28T14:28:21.4929147+01:00",
+  "Created": "2022-02-11T14:28:21.4929147+01:00",
+  "StartCount": 288,
+  "DatabaseSerialNumber": "764476",
+  "Context": "repudiandae",
+  "Result": "aut",
   "State": "All",
-  "Description": "Programmable executive throughput",
-  "Response": "nulla",
-  "Request": "est",
-  "ProgressDescription": "Automated mission-critical interface",
-  "ProgressPercent": 151,
-  "FileName": "Witting-Bruen",
+  "Description": "Secured background access",
+  "Response": "voluptatum",
+  "Request": "doloribus",
+  "ProgressDescription": "Decentralized disintermediate firmware",
+  "ProgressPercent": 549,
+  "FileName": "Block Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 183
+      "FieldLength": 868
     }
   }
 }

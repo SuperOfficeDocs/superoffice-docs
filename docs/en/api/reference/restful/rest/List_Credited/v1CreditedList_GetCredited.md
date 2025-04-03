@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 520,
-  "Name": "Padberg Inc and Sons",
-  "Tooltip": "aspernatur",
-  "Deleted": false,
-  "UdListDefinitionId": 675,
-  "Rank": 317,
+  "Id": 507,
+  "Name": "Crist-Gibson",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 51,
+  "Rank": 920,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 646
+      "FieldType": "System.Int32",
+      "FieldLength": 543
     }
   }
 }

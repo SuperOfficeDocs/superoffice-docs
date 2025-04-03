@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Botsford LLC",
-  "ProviderName": "Ferry Group",
-  "Context": "id",
-  "OwnerKeys": "natus",
+  "GuiName": "Braun, Wilkinson and Fahey",
+  "ProviderName": "Christiansen, Rolfson and Boyle",
+  "Context": "est",
+  "OwnerKeys": "laboriosam",
   "ChosenColumns": [
-    "magni",
-    "laudantium"
+    "consequuntur",
+    "eius"
   ]
 }
 ```

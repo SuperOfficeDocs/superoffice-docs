@@ -88,13 +88,13 @@ OK
 POST /api/v1/Agents/Appointment/GetNextSuggestedAppointmentBySale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 25,
-  "CurrentAppointmentId": 563,
-  "SkipCompleteCheck": false
+  "SaleId": 290,
+  "CurrentAppointmentId": 630,
+  "SkipCompleteCheck": true
 }
 ```
 
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 485,
-  "Deleted": 182,
-  "DaysFuture": 987,
+  "AutoSuggest": 185,
+  "Deleted": 243,
+  "DaysFuture": 395,
   "Tooltip": "enim",
   "Text": "voluptatem",
-  "TaskId": 934,
-  "SuggestedAppointmentId": 299,
-  "SaleTypeStageLinkId": 368,
-  "RegisteredAssociateId": 6,
-  "Rank": 291,
-  "ProjectTypeStatusLinkId": 993,
-  "Name": "Torphy-Rowe",
-  "Duration": 302,
+  "TaskId": 931,
+  "SuggestedAppointmentId": 339,
+  "SaleTypeStageLinkId": 890,
+  "RegisteredAssociateId": 892,
+  "Rank": 531,
+  "ProjectTypeStatusLinkId": 875,
+  "Name": "Friesen-Schamberger",
+  "Duration": 272,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldType": "System.String",
+      "FieldLength": 896
     }
   }
 }

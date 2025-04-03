@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 907,
+  "SourceDocumentTemplateId": 739,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 572,
-  "Name": "Brekke Group",
-  "Tooltip": "non",
-  "SaveInDb": 657,
-  "Filename": "placeat",
-  "DefaultOref": "nihil",
+  "DocumentTemplateId": 296,
+  "Name": "Lowe, Schaefer and Weissnat",
+  "Tooltip": "voluptatem",
+  "SaveInDb": 864,
+  "Filename": "vero",
+  "DefaultOref": "voluptatem",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 523,
-  "IntentId": 134,
-  "IsDefaultPublished": true,
-  "Rank": 769,
-  "LoadTemplateFromPlugin": 675,
-  "MimeType": "esse",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 224,
+  "AutoeventId": 622,
+  "IntentId": 928,
+  "IsDefaultPublished": false,
+  "Rank": 728,
+  "LoadTemplateFromPlugin": 707,
+  "MimeType": "corrupti",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 196,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "narciso@mraz.com",
+  "EmailSubject": "sherman.damore@schuster.co.uk",
   "IncludeSignature": false,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "anya@klinghilpert.ca",
+  "SenderEmailAddress": "vella_gulgowski@barton.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 539
+      "FieldType": "System.Int32",
+      "FieldLength": 287
     }
   }
 }

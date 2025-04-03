@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 273,
-  "Name": "Ernser-Okuneva",
-  "Tooltip": "perspiciatis",
-  "Rank": 479,
-  "Rate": 22545.996,
-  "Units": 25977.726,
-  "Deleted": false,
+  "CurrencyId": 489,
+  "Name": "Haag, Schiller and Casper",
+  "Tooltip": "voluptatem",
+  "Rank": 301,
+  "Rate": 8803.405999999999,
+  "Units": 22940.88,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 792
+      "FieldLength": 749
     }
   }
 }

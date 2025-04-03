@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 294,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2011-11-24T02:38:21.2139317+01:00",
-  "EndTime": "2005-10-30T02:38:21.2139317+01:00",
-  "Count": 277
+  "PersonId": 84,
+  "IncludeProjectDocuments": false,
+  "StartTime": "2017-10-14T14:28:21.7116556+02:00",
+  "EndTime": "2004-04-26T14:28:21.7116556+02:00",
+  "Count": 912
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 840,
-    "Attention": "et",
-    "Header": "dolores",
-    "Name": "Schultz, Durgan and Dibbert",
-    "OurRef": "iure",
-    "YourRef": "dignissimos",
-    "Description": "Multi-tiered transitional intranet",
-    "DocumentTemplate": "fugit",
+    "DocumentId": 777,
+    "Attention": "ipsam",
+    "Header": "consequatur",
+    "Name": "Fahey-Jenkins",
+    "OurRef": "officia",
+    "YourRef": "beatae",
+    "Description": "Digitized dedicated capacity",
+    "DocumentTemplate": "officia",
     "IsPublished": false,
-    "PersonId": 835,
-    "PersonFullName": "Rosalee Hills",
-    "AssociateFullName": "Michaela Buckridge",
-    "ContactId": 814,
-    "ContactName": "Bechtelar, Goldner and Quigley",
-    "ProjectId": 497,
-    "ProjectName": "Haag-Heller",
-    "AssociateId": 473,
-    "Snum": 856,
-    "SaleId": 846,
-    "SaleName": "Wiegand, Jenkins and Leannon",
+    "PersonId": 491,
+    "PersonFullName": "Dr. Lucius Littel",
+    "AssociateFullName": "Sonny Trantow",
+    "ContactId": 604,
+    "ContactName": "Koelpin, Maggio and Hilll",
+    "ProjectId": 309,
+    "ProjectName": "Bergstrom, Botsford and Fahey",
+    "AssociateId": 477,
+    "Snum": 435,
+    "SaleId": 646,
+    "SaleName": "Cremin-Trantow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 718
+        "FieldLength": 847
       }
     }
   }

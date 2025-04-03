@@ -115,11 +115,11 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesByDepartment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 47
+  "DepartmentId": 886
 }
 ```
 
@@ -131,53 +131,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "tempora",
-    "PersonId": 670,
-    "Mrmrs": "repudiandae",
-    "Firstname": "Christina",
-    "Lastname": "Weber",
-    "MiddleName": "Wuckert, Krajcik and Stracke",
-    "Title": "vitae",
-    "Description": "Persistent clear-thinking secured line",
-    "Email": "santos@reynoldsmacejkovic.us",
-    "FullName": "Oleta Bednar",
-    "DirectPhone": "273.261.0033 x11016",
-    "FormalName": "Beahan, Feest and Jacobson",
-    "CountryId": 232,
-    "ContactId": 291,
-    "ContactName": "Christiansen-Bayer",
-    "Retired": 49,
-    "Rank": 363,
-    "ActiveInterests": 818,
+    "Position": "laudantium",
+    "PersonId": 472,
+    "Mrmrs": "unde",
+    "Firstname": "Chester",
+    "Lastname": "Gerhold",
+    "MiddleName": "Lang, Sanford and Aufderhar",
+    "Title": "iure",
+    "Description": "Networked composite success",
+    "Email": "woodrow.olson@muller.uk",
+    "FullName": "Troy Lowe",
+    "DirectPhone": "174.264.4747 x48110",
+    "FormalName": "Towne Inc and Sons",
+    "CountryId": 555,
+    "ContactId": 537,
+    "ContactName": "Kohler, Runolfsson and Little",
+    "Retired": 344,
+    "Rank": 740,
+    "ActiveInterests": 215,
     "ContactDepartment": "",
-    "ContactCountryId": 967,
-    "ContactOrgNr": "734831",
-    "FaxPhone": "1-826-561-6878 x029",
-    "MobilePhone": "596-640-5390 x92844",
-    "ContactPhone": "591.977.9131 x3337",
-    "AssociateName": "Runte, Mayer and Hayes",
-    "AssociateId": 213,
+    "ContactCountryId": 16,
+    "ContactOrgNr": "1532710",
+    "FaxPhone": "353.641.0577 x68530",
+    "MobilePhone": "(433)248-3285 x184",
+    "ContactPhone": "1-071-971-8389 x281",
+    "AssociateName": "Kautzer-Littel",
+    "AssociateId": 436,
     "UsePersonAddress": true,
-    "ContactFax": "voluptas",
-    "Kanafname": "repellat",
-    "Kanalname": "est",
-    "Post1": "minus",
-    "Post2": "in",
-    "Post3": "voluptatibus",
-    "EmailName": "kenya_romaguera@langworthbeahan.com",
-    "ContactFullName": "Clare Russel",
-    "ActiveErpLinks": 354,
-    "TicketPriorityId": 566,
-    "SupportLanguageId": 54,
-    "SupportAssociateId": 801,
+    "ContactFax": "laboriosam",
+    "Kanafname": "pariatur",
+    "Kanalname": "aut",
+    "Post1": "ad",
+    "Post2": "voluptas",
+    "Post3": "molestiae",
+    "EmailName": "will_nienow@bergstromleannon.uk",
+    "ContactFullName": "Cortez Jed Russel DDS",
+    "ActiveErpLinks": 679,
+    "TicketPriorityId": 128,
+    "SupportLanguageId": 688,
+    "SupportAssociateId": 86,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1039091",
+    "PersonNumber": "1769689",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 21
+        "FieldType": "System.Int32",
+        "FieldLength": 336
       }
     }
   }

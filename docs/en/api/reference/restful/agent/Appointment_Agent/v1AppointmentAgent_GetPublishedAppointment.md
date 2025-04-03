@@ -111,6 +111,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -125,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 31
+  "AppointmentId": 474
 }
 ```
 
@@ -140,65 +141,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 832,
-  "StartDate": "2002-05-19T02:38:20.557605+02:00",
-  "EndDate": "2011-02-21T02:38:20.557605+01:00",
+  "AppointmentId": 891,
+  "StartDate": "2015-05-06T14:28:21.1648024+02:00",
+  "EndDate": "2015-04-12T14:28:21.1648024+02:00",
   "Type": "BookingForChecklist",
-  "Task": "minus",
-  "AssociateFullName": "Ms. Rozella Freeman Casper MD",
-  "ContactName": "Ondricka-Hoppe",
-  "Description": "Future-proofed assymetric artificial intelligence",
-  "PersonFullName": "Russel Abshire",
-  "PersonId": 629,
-  "ContactId": 99,
-  "ProjectId": 665,
-  "ProjectName": "Erdman, Walker and Schoen",
+  "Task": "ab",
+  "AssociateFullName": "Ayden Blick",
+  "ContactName": "Kassulke-McCullough",
+  "Description": "Secured value-added service-desk",
+  "PersonFullName": "Annetta Cummerata",
+  "PersonId": 642,
+  "ContactId": 835,
+  "ProjectId": 859,
+  "ProjectName": "Miller, Kutch and McClure",
   "IsPublished": true,
-  "AssociateId": 844,
-  "ColorIndex": 509,
+  "AssociateId": 795,
+  "ColorIndex": 923,
   "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 600,
-  "PriorityName": "Walter Inc and Sons",
+  "PriorityId": 748,
+  "PriorityName": "Rempel, Konopelski and Koepp",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2015-01-20T02:38:20.557605+01:00",
+  "ActiveDate": "2004-11-10T14:28:21.1648024+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2011-12-24T02:38:20.557605+01:00",
-  "RecurringEndDate": "2016-04-09T02:38:20.557605+02:00",
-  "MotherId": 266,
-  "AssignedBy": 204,
-  "AssignedByFullName": "Eden Strosin",
+  "RecurringStartDate": "2001-03-07T14:28:21.1648024+01:00",
+  "RecurringEndDate": "2019-06-01T14:28:21.1648024+02:00",
+  "MotherId": 557,
+  "AssignedBy": 609,
+  "AssignedByFullName": "Mrs. Chadd Effertz",
   "RejectReason": "",
-  "Location": "porro",
-  "AlarmLeadTime": "expedita",
-  "SaleId": 430,
-  "SaleName": "Pfeffer, Kertzmann and Hayes",
-  "AssociateName": "O'Keefe LLC",
-  "CreatedDate": "2009-05-14T02:38:20.557605+02:00",
-  "CreatedBy": "quia",
-  "CreatedByFullName": "Thelma Bednar",
-  "CreatedByAssociateId": 372,
+  "Location": "vero",
+  "AlarmLeadTime": "amet",
+  "SaleId": 185,
+  "SaleName": "Feeney-Hansen",
+  "AssociateName": "Lynch, Bahringer and Toy",
+  "CreatedDate": "2007-05-18T14:28:21.1648024+02:00",
+  "CreatedBy": "aliquid",
+  "CreatedByFullName": "Laney Daphnee Marks MD",
+  "CreatedByAssociateId": 640,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+  "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 577,
-  "Title": "quia",
-  "Agenda": "dolorem",
-  "InternalNotes": "eos",
+  "PreferredTZLocation": 600,
+  "Title": "aut",
+  "Agenda": "aspernatur",
+  "InternalNotes": "iure",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 800
     }
   }
 }

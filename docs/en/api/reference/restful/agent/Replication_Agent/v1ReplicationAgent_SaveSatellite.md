@@ -83,17 +83,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 788,
-  "Created": "2004-10-27T02:38:21.8076201+02:00",
+  "SatelliteId": 226,
+  "Created": "2002-03-26T14:28:22.321006+01:00",
   "CreatedBy": null,
-  "Updated": "2017-12-30T02:38:21.8076201+01:00",
+  "Updated": "2006-07-15T14:28:22.321006+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Metz-Kihn",
-      "Description": "Re-engineered systemic toolset",
+      "Name": "Runte-Botsford",
+      "Description": "Diverse interactive circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Metz-Kihn",
-      "Description": "Re-engineered systemic toolset",
+      "Name": "Runte-Botsford",
+      "Description": "Diverse interactive circuit",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 415,
-  "Created": "2003-02-16T02:38:21.8076201+01:00",
+  "SatelliteId": 360,
+  "Created": "2017-10-08T14:28:22.321006+02:00",
   "CreatedBy": null,
-  "Updated": "2004-03-23T02:38:21.8076201+01:00",
+  "Updated": "2007-12-30T14:28:22.321006+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "O'Reilly, Kautzer and Hansen",
-      "Description": "Cross-platform homogeneous intranet",
+      "Name": "Graham, Yost and Boyle",
+      "Description": "Adaptive bi-directional archive",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 175
+          "FieldType": "System.Int32",
+          "FieldLength": 121
         }
       }
     },
     {
-      "Name": "O'Reilly, Kautzer and Hansen",
-      "Description": "Cross-platform homogeneous intranet",
+      "Name": "Graham, Yost and Boyle",
+      "Description": "Adaptive bi-directional archive",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 175
+          "FieldType": "System.Int32",
+          "FieldLength": 121
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldLength": 310
     }
   }
 }

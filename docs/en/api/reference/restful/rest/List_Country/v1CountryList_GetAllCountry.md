@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=True
+GET /api/v1/List/Country/Items?includeDeleted=False
 ```
 
 
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 500,
-    "Name": "Dicki-Mayert",
-    "CurrencyId": 162,
-    "EnglishName": "Hackett-Kutch",
+    "CountryId": 415,
+    "Name": "Boyer, Upton and Kutch",
+    "CurrencyId": 101,
+    "EnglishName": "Jast LLC",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Robust exuding service-desk",
-    "OrgNrText": "1786936",
-    "InterAreaPrefix": "ut",
-    "DialInPrefix": "corporis",
-    "ZipPrefix": "hic",
-    "DomainName": "Pfeffer Group",
-    "AddressLayoutId": 163,
-    "DomesticAddressLayoutId": 247,
-    "ForeignAddressLayoutId": 184,
-    "Rank": 956,
-    "Tooltip": "reprehenderit",
-    "Deleted": false,
+    "ImageDescription": "Synergized non-volatile circuit",
+    "OrgNrText": "1424222",
+    "InterAreaPrefix": "vitae",
+    "DialInPrefix": "eos",
+    "ZipPrefix": "aut",
+    "DomainName": "Bradtke, Tromp and Connelly",
+    "AddressLayoutId": 273,
+    "DomesticAddressLayoutId": 366,
+    "ForeignAddressLayoutId": 286,
+    "Rank": 257,
+    "Tooltip": "consequatur",
+    "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldLength": 573
       }
     }
   }

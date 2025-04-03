@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Reynolds, Parisian and Harvey"
+  "LayoutName": "Runte, Heller and Runolfsdottir"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 769,
-    "Name": "Cummings-Romaguera",
-    "Value": "excepturi",
-    "CreatedDate": "2015-05-10T02:38:20.8702208+02:00",
-    "UpdatedDate": "2007-12-23T02:38:20.8702208+01:00",
-    "CreatedBy": "corporis",
-    "UpdatedBy": "inventore",
+    "AudienceLayoutId": 698,
+    "Name": "Boyle-Mills",
+    "Value": "quidem",
+    "CreatedDate": "2013-01-13T14:28:21.47729+01:00",
+    "UpdatedDate": "2018-07-19T14:28:21.47729+02:00",
+    "CreatedBy": "aut",
+    "UpdatedBy": "dolorem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldType": "System.String",
+        "FieldLength": 36
       }
     }
   }

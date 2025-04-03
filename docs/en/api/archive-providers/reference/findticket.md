@@ -761,7 +761,7 @@ Ticket provider for Find
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindTicket?$select=person/personInfo/infoText,person/personInterestIds,contact/hasInterests,contact/streetAddress/line1,contact/streetAddress/line2
+GET /api/v1/archive/FindTicket?$select=author,createdBy,person/personDirectFax/description,person/personExtra/y_rental/y_equipment/x_name,person/correspondingAssociate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

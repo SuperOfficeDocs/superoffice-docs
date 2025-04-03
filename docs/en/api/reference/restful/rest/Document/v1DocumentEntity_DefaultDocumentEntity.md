@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -98,91 +98,91 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 17 Oct 1999 02:38:26 G10T
+Last-Modified: Thu, 09 Aug 2001 14:28:26 G8T
 
 {
-  "DocumentId": 742,
+  "DocumentId": 227,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quo",
-  "Header": "magni",
-  "Name": "Padberg, Cole and Hegmann",
-  "OurRef": "deleniti",
-  "YourRef": "beatae",
-  "CreatedDate": "2013-08-15T02:38:26.0579062+02:00",
-  "UpdatedDate": "1999-10-17T02:38:26.0579062+02:00",
-  "Description": "Up-sized scalable forecast",
+  "Attention": "distinctio",
+  "Header": "iusto",
+  "Name": "Howe-Pfannerstill",
+  "OurRef": "exercitationem",
+  "YourRef": "dolor",
+  "CreatedDate": "2013-05-27T14:28:26.8833212+02:00",
+  "UpdatedDate": "2001-08-09T14:28:26.8833212+02:00",
+  "Description": "Streamlined bifurcated algorithm",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-04-07T02:38:26.0579062+02:00",
-  "ExternalRef": "voluptatum",
+  "Date": "2007-08-18T14:28:26.8833212+02:00",
+  "ExternalRef": "non",
   "Completed": "Completed",
-  "ActiveLinks": 94,
+  "ActiveLinks": 376,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schoen, Schumm and Senger",
-      "Id": 889,
-      "Description": "Devolved static circuit",
-      "ExtraInfo": "sed",
-      "LinkId": 124,
+      "EntityName": "Boyle, Larson and Wyman",
+      "Id": 726,
+      "Description": "Enhanced regional collaboration",
+      "ExtraInfo": "reiciendis",
+      "LinkId": 143,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 43
+          "FieldLength": 523
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 241,
-  "Snum": 882,
+  "SuggestedDocumentId": 323,
+  "Snum": 928,
   "UserDefinedFields": {
-    "SuperOffice:1": "129189116",
-    "SuperOffice:2": "Nedra Gleichner"
+    "SuperOffice:1": "1790390598",
+    "SuperOffice:2": "560158765"
   },
   "ExtraFields": {
-    "ExtraFields1": "reprehenderit",
-    "ExtraFields2": "et"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "provident",
-    "CustomFields2": "corrupti"
+    "CustomFields1": "non",
+    "CustomFields2": "natus"
   },
-  "PublishEventDate": "2011-08-01T02:38:26.0579062+02:00",
-  "PublishTo": "2023-12-23T02:38:26.0579062+01:00",
-  "PublishFrom": "2000-12-10T02:38:26.0579062+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "1999-07-18T14:28:26.8833212+02:00",
+  "PublishTo": "2013-02-11T14:28:26.8833212+01:00",
+  "PublishFrom": "1999-03-30T14:28:26.8833212+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 488,
+      "VisibleId": 418,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 666
+          "FieldType": "System.Int32",
+          "FieldLength": 253
         }
       }
     },
     {
-      "VisibleId": 488,
+      "VisibleId": 418,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "quod",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 666
+          "FieldType": "System.Int32",
+          "FieldLength": 253
         }
       }
     }
@@ -192,7 +192,7 @@ Last-Modified: Sun, 17 Oct 1999 02:38:26 G10T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 880
+      "FieldLength": 326
     }
   }
 }

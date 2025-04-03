@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 496,
-  "StartTime": "1999-08-01T02:38:21.2139317+02:00",
-  "EndTime": "2007-04-14T02:38:21.2139317+02:00",
-  "Count": 103,
-  "TemplateHeadingId": 131
+  "ContactId": 271,
+  "StartTime": "2006-12-14T14:28:21.7116556+01:00",
+  "EndTime": "2010-09-13T14:28:21.7116556+02:00",
+  "Count": 271,
+  "TemplateHeadingId": 441
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 613,
-    "Attention": "laborum",
-    "Header": "qui",
-    "Name": "Jakubowski LLC",
-    "OurRef": "dolor",
-    "YourRef": "facere",
-    "Description": "Fully-configurable coherent functionalities",
-    "DocumentTemplate": "ratione",
+    "DocumentId": 68,
+    "Attention": "culpa",
+    "Header": "enim",
+    "Name": "Bode Inc and Sons",
+    "OurRef": "perspiciatis",
+    "YourRef": "quas",
+    "Description": "Networked real-time website",
+    "DocumentTemplate": "nam",
     "IsPublished": false,
-    "PersonId": 992,
-    "PersonFullName": "Clemmie Brown DVM",
-    "AssociateFullName": "Dannie Fay",
-    "ContactId": 443,
-    "ContactName": "Torp, Boyer and Abshire",
-    "ProjectId": 14,
-    "ProjectName": "Wintheiser-Stehr",
-    "AssociateId": 40,
-    "Snum": 224,
-    "SaleId": 465,
-    "SaleName": "Runolfsdottir, Padberg and Stehr",
+    "PersonId": 168,
+    "PersonFullName": "Reba Pfannerstill I",
+    "AssociateFullName": "Otis Rippin DVM",
+    "ContactId": 136,
+    "ContactName": "Prosacco, Streich and Gutkowski",
+    "ProjectId": 549,
+    "ProjectName": "Lang-Crist",
+    "AssociateId": 153,
+    "Snum": 412,
+    "SaleId": 810,
+    "SaleName": "Spinka Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 558
       }
     }
   }

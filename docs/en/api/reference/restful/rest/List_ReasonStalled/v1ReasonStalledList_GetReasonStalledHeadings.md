@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 145,
-    "Name": "Kunze LLC",
-    "Tooltip": "occaecati",
+    "HeadingId": 395,
+    "Name": "Upton Inc and Sons",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 874,
-    "UdListDefinitionId": 911,
+    "Rank": 985,
+    "UdListDefinitionId": 825,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 299
+        "FieldLength": 885
       }
     }
   }

@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hamill-Little"
+  "Name": "Considine, Stoltenberg and Schaefer"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Steuber, Bruen and Durgan",
-    "SoPrimaryKey": 324,
-    "EntryName": "Kling Group",
-    "EntryIdentifier": "illo",
-    "RuleDisplayName": "Adams-Collins",
+    "RuleName": "Turner, Jast and Auer",
+    "SoPrimaryKey": 21,
+    "EntryName": "Hamill Group",
+    "EntryIdentifier": "quidem",
+    "RuleDisplayName": "Armstrong Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 152
+        "FieldType": "System.Int32",
+        "FieldLength": 496
       }
     }
   }

@@ -28,8 +28,8 @@ Post the array of strings to get translations for all the strings.
 | ignoreOverrides | bool |  Ignore the user-provided overrides, and return the translation as defined by the system. |
 
 ```http
-POST /api/v1/String?isoLangCode=repellendus
-POST /api/v1/String?ignoreOverrides=True
+POST /api/v1/String?isoLangCode=animi
+POST /api/v1/String?ignoreOverrides=False
 ```
 
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/String
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

@@ -77,24 +77,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 424,
-  "Year": 390,
+  "TargetGroupId": 467,
+  "Year": 822,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 433,
+      "TargetAssignmentInfoId": 381,
       "Values": [
-        827,
-        469
+        795,
+        964
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 666,
-      "DimensionListItemDisplayName": "Murray-Nicolas"
+      "DimensionListItem": 136,
+      "DimensionListItemDisplayName": "Hickle-Batz"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 550,
-  "Year": 911,
+  "TargetGroupId": 87,
+  "Year": 730,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 226,
+      "TargetAssignmentInfoId": 47,
       "Values": [
-        858,
-        405
+        556,
+        348
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 209,
-      "DimensionListItemDisplayName": "Adams, Homenick and Romaguera",
+      "DimensionListItem": 290,
+      "DimensionListItemDisplayName": "Halvorson, Schowalter and Collins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 183
+          "FieldLength": 415
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 648
+      "FieldLength": 838
     }
   }
 }

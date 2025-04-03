@@ -109,28 +109,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 360,
-  "Name": "Blanda-Prohaska",
-  "Tooltip": "eligendi",
+  "ExtAppId": 787,
+  "Name": "Mitchell-Koss",
+  "Tooltip": "nostrum",
   "Deleted": false,
-  "Rank": 960,
-  "Filename": "voluptatibus",
-  "Parameters": "laboriosam",
-  "Workdir": "culpa",
+  "Rank": 546,
+  "Filename": "aut",
+  "Parameters": "perferendis",
+  "Workdir": "consequuntur",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "Icon": 518,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "Icon": 581,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "aut"
+  "Path": "numquam"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 150,
-  "Name": "Johns, Schultz and O'Keefe",
-  "Tooltip": "mollitia",
-  "Deleted": true,
+  "ExtAppId": 296,
+  "Name": "Rohan Inc and Sons",
+  "Tooltip": "id",
+  "Deleted": false,
   "Rank": 704,
-  "Filename": "optio",
-  "Parameters": "nobis",
-  "Workdir": "voluptas",
+  "Filename": "non",
+  "Parameters": "quo",
+  "Workdir": "sit",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 661,
-  "WaitToFinish": true,
+  "ShowInStatusBar": false,
+  "Icon": 101,
+  "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "nulla",
+  "Path": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 900
+      "FieldLength": 858
     }
   }
 }

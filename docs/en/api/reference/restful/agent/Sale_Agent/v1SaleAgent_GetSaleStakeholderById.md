@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    63,
-    477
+    416,
+    442
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Klein, Sanford and Jacobi",
-    "Comment": "et",
-    "StakeholderRoleId": 654,
-    "CountryId": 971,
-    "PersonId": 348,
-    "EmailDescription": "collin.lehner@jaskolski.uk",
-    "EmailId": 166,
-    "EmailAddress": "destin.hettinger@willms.com",
-    "PhoneId": 374,
-    "ContactName": "Lindgren, Kertzmann and Nitzsche",
-    "ContactId": 222,
-    "SaleId": 776,
-    "Mrmrs": "maxime",
-    "Firstname": "Yazmin",
-    "MiddleName": "Powlowski-Doyle",
-    "Lastname": "Kunde",
-    "SaleStakeholderId": 915,
-    "Rank": 11,
-    "Phone": "895.398.4123 x80227",
+    "StakeholderRoleName": "McDermott, Bartell and Batz",
+    "Comment": "illum",
+    "StakeholderRoleId": 125,
+    "CountryId": 216,
+    "PersonId": 690,
+    "EmailDescription": "jessy.hirthe@lind.us",
+    "EmailId": 530,
+    "EmailAddress": "luna@smith.info",
+    "PhoneId": 872,
+    "ContactName": "Bergstrom-Weber",
+    "ContactId": 398,
+    "SaleId": 797,
+    "Mrmrs": "illum",
+    "Firstname": "Vickie",
+    "MiddleName": "Pacocha Group",
+    "Lastname": "Hettinger",
+    "SaleStakeholderId": 502,
+    "Rank": 127,
+    "Phone": "414.773.3896",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 955
+        "FieldLength": 586
       }
     }
   }

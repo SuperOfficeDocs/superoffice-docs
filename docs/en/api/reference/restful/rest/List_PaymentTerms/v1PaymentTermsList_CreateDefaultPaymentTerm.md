@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 2,
-  "Name": "Witting-Stamm",
-  "Tooltip": "eveniet",
-  "Deleted": false,
-  "UdListDefinitionId": 515,
-  "Rank": 868,
+  "Id": 274,
+  "Name": "Wisozk, Lueilwitz and Hoeger",
+  "Tooltip": "optio",
+  "Deleted": true,
+  "UdListDefinitionId": 812,
+  "Rank": 468,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 841
+      "FieldType": "System.String",
+      "FieldLength": 640
     }
   }
 }

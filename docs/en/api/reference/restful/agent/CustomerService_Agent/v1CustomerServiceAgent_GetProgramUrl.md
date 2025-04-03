@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/CustomerService/GetProgramUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgramName": "Pagac, Cruickshank and Bruen",
-  "External": false
+  "ProgramName": "McCullough, Heathcote and Leffler",
+  "External": true
 }
 ```
 

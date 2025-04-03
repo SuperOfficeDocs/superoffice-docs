@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 767,
-  "Name": "Goodwin-Von",
-  "TZLocationCode": "voluptates",
-  "TZLocationCities": "voluptatem",
-  "IsoNumber": 836,
+  "TZLocationID": 623,
+  "Name": "Witting Group",
+  "TZLocationCode": "enim",
+  "TZLocationCities": "doloremque",
+  "IsoNumber": 630,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 697,
-      "StartMonth": 800,
-      "EndDay": 310,
-      "EndMonth": 844,
-      "TZOffset": 754,
-      "StartRulePattern": "dolor",
-      "EndRulePattern": "iste"
+      "StartDay": 19,
+      "StartMonth": 455,
+      "EndDay": 962,
+      "EndMonth": 402,
+      "TZOffset": 442,
+      "StartRulePattern": "iure",
+      "EndRulePattern": "quae"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 43,
-      "StartMonth": 20,
-      "EndDay": 631,
-      "EndMonth": 883,
-      "TZOffset": 189,
-      "StartRulePattern": "reiciendis",
-      "EndRulePattern": "ad"
+      "StartDay": 549,
+      "StartMonth": 457,
+      "EndDay": 585,
+      "EndMonth": 802,
+      "TZOffset": 555,
+      "StartRulePattern": "a",
+      "EndRulePattern": "veritatis"
     }
   }
 }

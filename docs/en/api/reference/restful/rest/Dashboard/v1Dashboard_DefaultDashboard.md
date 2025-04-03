@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 92,
-  "AssociateId": 114,
-  "Caption": "assumenda",
+  "DashboardId": 747,
+  "AssociateId": 447,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 240,
-      "Caption": "qui",
-      "Description": "Grass-roots methodical process improvement",
-      "ChartName": "Torphy Inc and Sons",
-      "ChartId": "tempora",
+      "DashboardTileId": 844,
+      "Caption": "earum",
+      "Description": "Inverse real-time algorithm",
+      "ChartName": "Weimann, Reichel and Frami",
+      "ChartId": "ex",
       "IsDefault": false,
-      "AssociateId": 297,
-      "GroupId": 323,
-      "SelectionId": 556,
-      "Config": "consectetur",
+      "AssociateId": 557,
+      "GroupId": 105,
+      "SelectionId": 111,
+      "Config": "voluptate",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 319
+          "FieldLength": 250
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 386
+      "FieldType": "System.Int32",
+      "FieldLength": 129
     }
   }
 }

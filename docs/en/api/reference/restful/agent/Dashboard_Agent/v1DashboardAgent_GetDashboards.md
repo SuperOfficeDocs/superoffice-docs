@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 839
+  "AssociateId": 103
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 233,
-    "AssociateId": 823,
-    "Caption": "magnam",
+    "DashboardId": 63,
+    "AssociateId": 301,
+    "Caption": "quos",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 63,
-        "Caption": "id",
-        "Description": "Ergonomic actuating matrix",
-        "ChartName": "Beahan-Kuhlman",
-        "ChartId": "sit",
+        "DashboardTileId": 476,
+        "Caption": "iure",
+        "Description": "Programmable solution-oriented task-force",
+        "ChartName": "Moore LLC",
+        "ChartId": "aspernatur",
         "IsDefault": false,
-        "AssociateId": 820,
-        "GroupId": 421,
-        "SelectionId": 991,
-        "Config": "vel",
+        "AssociateId": 199,
+        "GroupId": 674,
+        "SelectionId": 603,
+        "Config": "consequatur",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 698
+            "FieldType": "System.String",
+            "FieldLength": 54
           }
         }
       }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 419
+        "FieldType": "System.Int32",
+        "FieldLength": 417
       }
     }
   }

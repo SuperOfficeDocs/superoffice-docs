@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 244,
-    "Name": "Dach, Tillman and Wyman",
-    "Tooltip": "quo",
+    "HeadingId": 7,
+    "Name": "Yost, Ratke and Stark",
+    "Tooltip": "odit",
     "Deleted": true,
-    "Rank": 238,
-    "UdListDefinitionId": 427,
+    "Rank": 976,
+    "UdListDefinitionId": 14,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 568
+        "FieldLength": 707
       }
     }
   }

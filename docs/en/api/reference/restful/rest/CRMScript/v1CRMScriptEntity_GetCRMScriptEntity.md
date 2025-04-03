@@ -103,57 +103,57 @@ HTTP/1.1 200 CRMScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 93,
-  "UniqueIdentifier": "quia",
-  "Name": "Sawayn-Rath",
-  "Description": "Digitized dedicated synergy",
-  "IncludeId": "qui",
-  "AccessKey": "ad",
-  "HierarchyId": 751,
-  "Source": "temporibus",
-  "SourceCode": "porro",
+  "EjscriptId": 769,
+  "UniqueIdentifier": "aliquid",
+  "Name": "Fay, Pouros and Runolfsson",
+  "Description": "Reactive client-server alliance",
+  "IncludeId": "consequuntur",
+  "AccessKey": "in",
+  "HierarchyId": 443,
+  "Source": "sequi",
+  "SourceCode": "voluptates",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 594,
+  "HtmlOutput": 388,
   "Includes": [
-    799,
-    660
+    501,
+    556
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 411,
-      "LineNumberTo": 713,
-      "Delta": 711,
-      "IncludeId": "id",
+      "LineNumberFrom": 536,
+      "LineNumberTo": 18,
+      "Delta": 278,
+      "IncludeId": "delectus",
       "IncludedFrom": [
-        "suscipit",
-        "dicta"
+        "qui",
+        "est"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldLength": 130
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "1999-03-27T02:38:26.0423248+01:00",
-  "RegisteredAssociateId": 535,
-  "Updated": "2008-06-10T02:38:26.0423248+02:00",
-  "UpdatedAssociateId": 401,
+  "Registered": "2013-03-22T14:28:26.8833212+01:00",
+  "RegisteredAssociateId": 434,
+  "Updated": "2006-11-09T14:28:26.8833212+01:00",
+  "UpdatedAssociateId": 47,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 860
+      "FieldType": "System.Int32",
+      "FieldLength": 202
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

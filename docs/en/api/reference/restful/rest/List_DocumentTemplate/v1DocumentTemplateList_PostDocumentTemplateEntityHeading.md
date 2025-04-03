@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 235,
-  "Name": "Stoltenberg LLC",
-  "Tooltip": "provident",
+  "HeadingId": 648,
+  "Name": "Bailey Inc and Sons",
+  "Tooltip": "fugit",
   "Deleted": false,
-  "Rank": 553,
-  "UdListDefinitionId": 872
+  "Rank": 611,
+  "UdListDefinitionId": 482
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 248,
-  "Name": "Larson-Shields",
-  "Tooltip": "et",
-  "Deleted": false,
-  "Rank": 944,
-  "UdListDefinitionId": 975,
+  "HeadingId": 303,
+  "Name": "Rice-Botsford",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 110,
+  "UdListDefinitionId": 277,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 325
+      "FieldType": "System.Int32",
+      "FieldLength": 395
     }
   }
 }

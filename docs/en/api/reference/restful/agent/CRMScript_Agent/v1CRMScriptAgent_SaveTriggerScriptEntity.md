@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 465,
-  "Name": "Hackett-Wehner",
+  "ScreenChooserId": 767,
+  "Name": "Hoppe, Schimmel and Cartwright",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "id",
-  "Source": "in",
-  "Registered": "2004-10-14T02:38:21.1670651+02:00",
-  "RegisteredAssociateId": 405,
-  "Updated": "2015-09-08T02:38:21.1670651+02:00",
-  "UpdatedAssociateId": 605
+  "UniqueIdentifier": "quo",
+  "Source": "quisquam",
+  "Registered": "2012-08-01T14:28:21.680407+02:00",
+  "RegisteredAssociateId": 581,
+  "Updated": "2018-09-11T14:28:21.680407+02:00",
+  "UpdatedAssociateId": 290
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 831,
-  "Name": "Schumm-Anderson",
+  "ScreenChooserId": 495,
+  "Name": "Ward Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "est",
-  "Source": "possimus",
-  "Registered": "2013-11-22T02:38:21.1670651+01:00",
-  "RegisteredAssociateId": 96,
-  "Updated": "2018-03-12T02:38:21.1670651+01:00",
-  "UpdatedAssociateId": 354,
+  "Enabled": false,
+  "UniqueIdentifier": "sapiente",
+  "Source": "repellat",
+  "Registered": "1999-02-28T14:28:21.680407+01:00",
+  "RegisteredAssociateId": 287,
+  "Updated": "2006-12-31T14:28:21.680407+01:00",
+  "UpdatedAssociateId": 105,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 122
+      "FieldLength": 880
     }
   }
 }

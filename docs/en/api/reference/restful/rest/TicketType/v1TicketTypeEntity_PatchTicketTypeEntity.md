@@ -132,12 +132,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "esse",
+    "path": "blanditiis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "esse",
+    "path": "blanditiis",
     "value": {}
   }
 ]
@@ -150,40 +150,40 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 314,
-  "Name": "Stamm LLC",
-  "Rank": 904,
-  "Tooltip": "et",
-  "Icon": "et",
-  "DefaultTicketStatus": 226,
+  "TicketTypeId": 461,
+  "Name": "Waelchi, Berge and Corkery",
+  "Rank": 493,
+  "Tooltip": "consectetur",
+  "Icon": "alias",
+  "DefaultTicketStatus": 902,
   "TicketStatuses": [
-    347,
-    653
+    432,
+    869
   ],
-  "DefaultTicketPriority": 1001,
+  "DefaultTicketPriority": 284,
   "TicketPriorities": [
-    301,
-    546
+    473,
+    459
   ],
-  "ReplyTemplate": 115,
+  "ReplyTemplate": 42,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": true,
+  "ShowInNew": true,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": true,
+  "ExternalAsDefault": false,
   "VisibleForGroups": [
-    537,
-    529
+    727,
+    546
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldType": "System.String",
+      "FieldLength": 310
     }
   },
   "_Links": {

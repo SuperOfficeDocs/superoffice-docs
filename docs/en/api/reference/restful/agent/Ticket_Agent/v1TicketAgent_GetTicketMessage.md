@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=362
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=433
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 861,
-  "CreatedAt": "2010-05-10T02:38:22.1357045+02:00",
+  "TicketMessageId": 665,
+  "CreatedAt": "2012-01-23T14:28:22.6491174+01:00",
   "Slevel": "External",
-  "Important": true,
-  "Author": "inventore",
-  "PersonId": 194,
-  "PersonFullName": "Ms. Verona Ethyl Rosenbaum",
-  "ContactId": 229,
-  "ContactName": "Collier Group",
+  "Important": false,
+  "Author": "dolores",
+  "PersonId": 541,
+  "PersonFullName": "Hassan Tremblay",
+  "ContactId": 579,
+  "ContactName": "Beier-Schuster",
   "ContactDepartment": "",
-  "NumAttachments": 558,
-  "EmailHeader": "dessie@schuppe.biz",
+  "NumAttachments": 971,
+  "EmailHeader": "irwin_hyatt@quigley.uk",
   "MessageHeaders": [
     {
-      "Id": 125,
-      "Name": "Corkery, Rolfson and Daugherty",
-      "Value": "quibusdam",
+      "Id": 13,
+      "Name": "Lakin Inc and Sons",
+      "Value": "pariatur",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 519
+          "FieldLength": 422
         }
       }
     }
   ],
-  "Language": "est",
-  "Sentiment": 220,
-  "SentimentConfidence": 427,
-  "CreatedBy": 549,
-  "ChangedAt": "2019-06-08T02:38:22.1357045+02:00",
+  "Language": "rerum",
+  "Sentiment": 918,
+  "SentimentConfidence": 428,
+  "CreatedBy": 938,
+  "ChangedAt": "2010-03-08T14:28:22.6491174+01:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 672
+      "FieldLength": 651
     }
   }
 }

@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 15 May 1998 02:38:26 G5T
+Last-Modified: Fri, 06 Mar 2009 14:28:26 G3T
 
 {
-  "ForeignAppId": 161,
-  "Name": "Nicolas-Jacobi",
-  "CreatedDate": "2008-03-29T02:38:26.1048073+01:00",
-  "UpdatedDate": "1998-05-15T02:38:26.1048073+02:00",
+  "ForeignAppId": 529,
+  "Name": "Gorczany Inc and Sons",
+  "CreatedDate": "2009-09-26T14:28:26.9458186+02:00",
+  "UpdatedDate": "2009-03-06T14:28:26.9458186+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 331,
-      "Name": "O'Conner Inc and Sons",
-      "CreatedDate": "2023-02-23T02:38:26.1048073+01:00",
-      "UpdatedDate": "2008-02-08T02:38:26.1048073+01:00",
-      "AssociateFullName": "Alison Kozey",
-      "CreatedBy": "adipisci",
-      "UpdatedBy": "ut",
-      "DeviceIdentifier": "dolore",
-      "ForeignAppId": 174,
+      "ForeignDeviceId": 292,
+      "Name": "Pollich Inc and Sons",
+      "CreatedDate": "2019-08-05T14:28:26.9458186+02:00",
+      "UpdatedDate": "2014-12-10T14:28:26.9458186+01:00",
+      "AssociateFullName": "Sarina Carter",
+      "CreatedBy": "aut",
+      "UpdatedBy": "amet",
+      "DeviceIdentifier": "et",
+      "ForeignAppId": 949,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 789
+          "FieldLength": 427
         }
       }
     }
@@ -122,13 +122,13 @@ Last-Modified: Fri, 15 May 1998 02:38:26 G5T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 268
+      "FieldType": "System.String",
+      "FieldLength": 123
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -90,7 +90,7 @@ OK
 GET /api/v1/Person/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 427,
-    "ColumnId": 39,
-    "FieldDefault": "qui",
-    "FieldHeight": 367,
-    "FieldLabel": "architecto",
-    "FieldLeft": 775,
-    "FieldTop": 242,
+    "UDefFieldId": 86,
+    "ColumnId": 160,
+    "FieldDefault": "rerum",
+    "FieldHeight": 492,
+    "FieldLabel": "molestiae",
+    "FieldLeft": 339,
+    "FieldTop": 193,
     "FieldType": "Checkbox",
-    "FieldWidth": 272,
-    "FormatMask": "quis",
-    "HideLabel": true,
+    "FieldWidth": 243,
+    "FormatMask": "cumque",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 73,
-    "LabelLeft": 536,
-    "LabelTop": 554,
-    "LabelWidth": 168,
-    "LastVersionId": 371,
-    "ListTableId": 480,
-    "IsMandatory": true,
+    "LabelHeight": 349,
+    "LabelLeft": 567,
+    "LabelTop": 34,
+    "LabelWidth": 748,
+    "LastVersionId": 202,
+    "ListTableId": 675,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 654,
-    "ProgId": "aut",
+    "Page1LineNo": 406,
+    "ProgId": "voluptatem",
     "IsReadOnly": true,
-    "ShortLabel": "aut",
-    "TabOrder": 688,
-    "TextLength": 60,
-    "Tooltip": "nemo",
-    "UdefIdentity": 774,
-    "UDListDefinitionId": 556,
+    "ShortLabel": "inventore",
+    "TabOrder": 623,
+    "TextLength": 311,
+    "Tooltip": "optio",
+    "UdefIdentity": 273,
+    "UDListDefinitionId": 230,
     "Justification": "Center",
-    "Version": 662,
-    "TemplateVariableName": "Anderson-Swaniawski",
-    "HasBeenPublished": true,
-    "MdoListName": "Schulist LLC",
+    "Version": 529,
+    "TemplateVariableName": "Bode-Keeling",
+    "HasBeenPublished": false,
+    "MdoListName": "Hudson Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 995
+        "FieldLength": 772
       }
     }
   }

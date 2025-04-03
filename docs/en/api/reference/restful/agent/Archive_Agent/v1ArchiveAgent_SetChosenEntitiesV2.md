@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Lemke LLC",
-  "ProviderName": "Lueilwitz-Nader",
-  "Context": "qui",
-  "OwnerKeys": "autem",
+  "GuiName": "Walsh-Wintheiser",
+  "ProviderName": "Fisher LLC",
+  "Context": "blanditiis",
+  "OwnerKeys": "provident",
   "Entities": [
-    "quis",
-    "impedit"
+    "recusandae",
+    "et"
   ]
 }
 ```

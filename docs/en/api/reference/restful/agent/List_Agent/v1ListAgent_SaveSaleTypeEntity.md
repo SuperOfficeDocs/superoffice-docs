@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 7,
-  "Name": "Armstrong-Lemke",
-  "Tooltip": "quia",
-  "Rank": 321,
+  "SaleTypeId": 591,
+  "Name": "Spinka Group",
+  "Tooltip": "qui",
+  "Rank": 865,
   "DurationUnit": "Century",
-  "SaleDuration": 64,
-  "SaleTypeCatId": 165,
-  "Deleted": true,
+  "SaleDuration": 13,
+  "SaleTypeCatId": 344,
+  "Deleted": false,
   "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 548,
-  "QuoteLinesTemplate": 925,
-  "ConfirmationLinesTemplate": 912,
+  "DefaultQuoteValidity": 113,
+  "QuoteLinesTemplate": 892,
+  "ConfirmationLinesTemplate": 908,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 132,
-  "MinEarningPercent": 557,
-  "GroupQuoteLinesBy": 491,
-  "SortGroupLinesBy": 111,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 942,
+  "MinEarningPercent": 542,
+  "GroupQuoteLinesBy": 805,
+  "SortGroupLinesBy": 905,
   "Stages": [
     {
-      "Id": 629,
-      "Name": "Dickinson-Dach",
-      "ToolTip": "Ex minus nesciunt fuga.",
-      "Deleted": true,
-      "Rank": 966,
-      "Type": "officiis",
-      "ColorBlock": 115,
-      "IconHint": "asperiores",
+      "Id": 177,
+      "Name": "Predovic, Cruickshank and Reichert",
+      "ToolTip": "Quibusdam accusantium aspernatur veniam tenetur.",
+      "Deleted": false,
+      "Rank": 448,
+      "Type": "voluptas",
+      "ColorBlock": 711,
+      "IconHint": "molestiae",
       "Selected": false,
-      "LastChanged": "2017-03-16T02:38:21.5420262+01:00",
+      "LastChanged": "2020-05-13T14:28:22.0866401+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "consequatur",
+      "ExtraInfo": "nam",
+      "StyleHint": "voluptates",
       "Hidden": false,
-      "FullName": "Rylan Loren Krajcik MD"
+      "FullName": "Floyd McCullough"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 731,
-  "Name": "Hane-Orn",
-  "Tooltip": "ullam",
-  "Rank": 331,
+  "SaleTypeId": 418,
+  "Name": "Rice-Feeney",
+  "Tooltip": "sint",
+  "Rank": 489,
   "DurationUnit": "Century",
-  "SaleDuration": 489,
-  "SaleTypeCatId": 216,
+  "SaleDuration": 421,
+  "SaleTypeCatId": 161,
   "Deleted": false,
-  "HasGuide": true,
-  "HasStakeholders": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 996,
-  "QuoteLinesTemplate": 766,
-  "ConfirmationLinesTemplate": 605,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 573,
+  "QuoteLinesTemplate": 281,
+  "ConfirmationLinesTemplate": 149,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 447,
-  "MinEarningPercent": 467,
-  "GroupQuoteLinesBy": 153,
-  "SortGroupLinesBy": 935,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 791,
+  "MinEarningPercent": 797,
+  "GroupQuoteLinesBy": 860,
+  "SortGroupLinesBy": 160,
   "Stages": [
     {
-      "Id": 459,
-      "Name": "Mraz-Ullrich",
-      "ToolTip": "Omnis voluptas molestiae officia.",
-      "Deleted": false,
-      "Rank": 269,
-      "Type": "eum",
-      "ColorBlock": 756,
-      "IconHint": "et",
+      "Id": 762,
+      "Name": "Jewess-Dickinson",
+      "ToolTip": "Sed praesentium sapiente velit voluptate doloremque consequatur.",
+      "Deleted": true,
+      "Rank": 38,
+      "Type": "consequatur",
+      "ColorBlock": 823,
+      "IconHint": "nulla",
       "Selected": false,
-      "LastChanged": "2012-12-11T02:38:21.5420262+01:00",
+      "LastChanged": "2013-10-19T14:28:22.0866401+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vel",
-      "StyleHint": "tempore",
+      "ExtraInfo": "officiis",
+      "StyleHint": "accusantium",
       "Hidden": false,
-      "FullName": "Mark Reynolds",
+      "FullName": "Elissa Reinhold Hauck IV",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 580
         }
       }
     }
@@ -218,7 +218,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 419
+      "FieldLength": 566
     }
   }
 }

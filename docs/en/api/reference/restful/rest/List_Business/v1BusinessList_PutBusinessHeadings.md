@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 93,
-    "Name": "Boyle, Hills and Zemlak",
-    "Tooltip": "minus",
-    "Deleted": false,
-    "Rank": 161,
-    "UdListDefinitionId": 642
+    "HeadingId": 458,
+    "Name": "Johns-Walter",
+    "Tooltip": "vel",
+    "Deleted": true,
+    "Rank": 93,
+    "UdListDefinitionId": 628
   },
   {
-    "HeadingId": 93,
-    "Name": "Boyle, Hills and Zemlak",
-    "Tooltip": "minus",
-    "Deleted": false,
-    "Rank": 161,
-    "UdListDefinitionId": 642
+    "HeadingId": 458,
+    "Name": "Johns-Walter",
+    "Tooltip": "vel",
+    "Deleted": true,
+    "Rank": 93,
+    "UdListDefinitionId": 628
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 687,
-    "Name": "Steuber-Dooley",
-    "Tooltip": "laborum",
+    "HeadingId": 760,
+    "Name": "Vandervort Group",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 650,
-    "UdListDefinitionId": 698,
+    "Rank": 540,
+    "UdListDefinitionId": 354,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 173
+        "FieldType": "System.String",
+        "FieldLength": 683
       }
     }
   }

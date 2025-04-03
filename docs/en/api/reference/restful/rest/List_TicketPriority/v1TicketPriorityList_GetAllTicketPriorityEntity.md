@@ -94,7 +94,7 @@ OK
 GET /api/v1/List/TicketPriority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 418,
-    "Name": "Bartoletti-Gibson",
+    "TicketPriorityId": 621,
+    "Name": "Gleichner LLC",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 524,
+    "SortOrder": 979,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 945,
-    "MonStart": "2007-12-17T02:38:27.0423674+01:00",
-    "MonStop": "1998-07-02T02:38:27.0423674+02:00",
-    "TueStart": "2014-09-08T02:38:27.0423674+02:00",
-    "TueStop": "2020-02-19T02:38:27.0423674+01:00",
-    "WedStart": "2020-05-20T02:38:27.0423674+02:00",
-    "WedStop": "1999-08-31T02:38:27.0423674+02:00",
-    "ThuStart": "2021-08-26T02:38:27.0423674+02:00",
-    "ThuStop": "2001-11-01T02:38:27.0423674+01:00",
-    "FriStart": "1999-01-18T02:38:27.0423674+01:00",
-    "FriStop": "2008-03-13T02:38:27.0423674+01:00",
-    "SatStart": "2012-09-08T02:38:27.0423674+02:00",
-    "SatStop": "2017-10-01T02:38:27.0423674+02:00",
-    "SunStart": "2012-04-15T02:38:27.0423674+02:00",
-    "SunStop": "2023-01-14T02:38:27.0423674+01:00",
+    "Deadline": 652,
+    "MonStart": "2011-04-08T14:28:27.7426615+02:00",
+    "MonStop": "2018-04-14T14:28:27.7426615+02:00",
+    "TueStart": "2019-11-12T14:28:27.7426615+01:00",
+    "TueStop": "2018-08-15T14:28:27.7426615+02:00",
+    "WedStart": "2012-05-13T14:28:27.7426615+02:00",
+    "WedStop": "2009-05-01T14:28:27.7426615+02:00",
+    "ThuStart": "2019-09-17T14:28:27.7426615+02:00",
+    "ThuStop": "2011-06-06T14:28:27.7426615+02:00",
+    "FriStart": "2017-06-27T14:28:27.7426615+02:00",
+    "FriStop": "2001-12-20T14:28:27.7426615+01:00",
+    "SatStart": "2000-04-30T14:28:27.7426615+02:00",
+    "SatStop": "1999-10-19T14:28:27.7426615+02:00",
+    "SunStart": "2007-10-31T14:28:27.7426615+01:00",
+    "SunStop": "2020-04-28T14:28:27.7426615+02:00",
     "NonDates": [
-      "consequuntur",
-      "et"
+      "reprehenderit",
+      "sint"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 628,
-        "AlertLevel": 670,
-        "AlertTimeout": 526,
-        "Action": 839,
-        "DelegateTo": 958,
-        "ScriptId": 965,
-        "EmailTo": "daren.legros@armstrong.info",
-        "SmsTo": "earum",
-        "ReplyTemplateIdCustomer": 27,
-        "ReplyTemplateIdUser": 325,
-        "ReplyTemplateIdCatmast": 244,
-        "ReplyTemplateIdEmail": 285,
-        "RtiCustomerSms": 1000,
-        "ReplyTemplateIdUserSms": 433,
-        "ReplyTemplateIdCatmastSms": 630,
-        "ReplyTemplateIdSms": 87,
+        "TicketAlertId": 362,
+        "AlertLevel": 47,
+        "AlertTimeout": 241,
+        "Action": 416,
+        "DelegateTo": 468,
+        "ScriptId": 435,
+        "EmailTo": "alta@nicolas.com",
+        "SmsTo": "consequatur",
+        "ReplyTemplateIdCustomer": 638,
+        "ReplyTemplateIdUser": 947,
+        "ReplyTemplateIdCatmast": 709,
+        "ReplyTemplateIdEmail": 904,
+        "RtiCustomerSms": 551,
+        "ReplyTemplateIdUserSms": 88,
+        "ReplyTemplateIdCatmastSms": 522,
+        "ReplyTemplateIdSms": 404,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 610
+            "FieldLength": 328
           }
         }
       }
@@ -167,8 +167,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 469
+        "FieldType": "System.String",
+        "FieldLength": 790
       }
     }
   }

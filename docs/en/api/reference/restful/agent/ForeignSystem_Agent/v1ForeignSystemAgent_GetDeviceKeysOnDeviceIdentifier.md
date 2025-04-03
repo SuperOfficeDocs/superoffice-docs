@@ -86,9 +86,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lind, Lebsack and Jast",
-  "DeviceName": "Walter LLC",
-  "DeviceIdentifier": "voluptates"
+  "ApplicationName": "Spinka-Barrows",
+  "DeviceName": "Spinka, Hartmann and Legros",
+  "DeviceIdentifier": "iure"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "quas",
-    "Value": "ab",
-    "RecordId": 947,
-    "CreatedDate": "2022-03-21T02:38:21.4639053+01:00",
-    "UpdatedDate": "2006-06-22T02:38:21.4639053+02:00",
-    "UpdatedBy": "sed",
-    "CreatedBy": "minus",
-    "TableName": "Schuppe, Bernier and Pacocha",
+    "Key": "impedit",
+    "Value": "doloribus",
+    "RecordId": 927,
+    "CreatedDate": "2021-10-23T14:28:22.0241429+02:00",
+    "UpdatedDate": "2004-08-22T14:28:22.0241429+02:00",
+    "UpdatedBy": "ipsa",
+    "CreatedBy": "nihil",
+    "TableName": "Quigley, Labadie and Feest",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 272
+        "FieldType": "System.Int32",
+        "FieldLength": 119
       }
     }
   }

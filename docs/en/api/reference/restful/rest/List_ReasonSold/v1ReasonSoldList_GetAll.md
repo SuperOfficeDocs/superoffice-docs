@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 522,
-    "Name": "Rutherford-Fisher",
-    "Tooltip": "nostrum",
+    "Id": 394,
+    "Name": "Hodkiewicz-Hahn",
+    "Tooltip": "sint",
     "Deleted": false,
-    "UdListDefinitionId": 100,
-    "Rank": 491,
+    "UdListDefinitionId": 887,
+    "Rank": 665,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 470
+        "FieldLength": 88
       }
     }
   }

@@ -100,13 +100,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEmailInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Appointment": null,
-  "TemplateName": "Okuneva-Wilderman",
-  "Language": "animi"
+  "TemplateName": "Boyer LLC",
+  "Language": "reprehenderit"
 }
 ```
 
@@ -119,97 +119,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 989,
-      "ContactName": "Pacocha Group",
-      "PersonId": 174,
-      "PersonName": "Brown, Cremin and Walter",
-      "AssociateId": 346,
-      "Address": "nesciunt",
-      "EmailId": 291,
+      "ContactId": 15,
+      "ContactName": "Zieme Inc and Sons",
+      "PersonId": 16,
+      "PersonName": "Mante-Hilpert",
+      "AssociateId": 868,
+      "Address": "delectus",
+      "EmailId": 495,
       "DuplicatePersonIds": [
-        741,
-        308
+        260,
+        725
       ],
-      "Name": "Mayert, Wisoky and Farrell",
+      "Name": "Kohler Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldType": "System.String",
+          "FieldLength": 442
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 541,
-      "ContactName": "Simonis, Cole and Haag",
-      "PersonId": 409,
-      "PersonName": "Stracke Group",
-      "AssociateId": 691,
-      "Address": "et",
-      "EmailId": 886,
+      "ContactId": 205,
+      "ContactName": "Price Group",
+      "PersonId": 287,
+      "PersonName": "Shanahan Group",
+      "AssociateId": 640,
+      "Address": "praesentium",
+      "EmailId": 972,
       "DuplicatePersonIds": [
-        743,
-        74
+        282,
+        782
       ],
-      "Name": "Conn, Goyette and Borer",
+      "Name": "Hodkiewicz-Hermiston",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 497
+          "FieldType": "System.Int32",
+          "FieldLength": 418
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 653,
-      "ContactName": "Thompson-Stroman",
-      "PersonId": 809,
-      "PersonName": "Raynor, Mosciski and Heller",
-      "AssociateId": 428,
-      "Address": "molestiae",
-      "EmailId": 473,
+      "ContactId": 310,
+      "ContactName": "Schuster, Klocko and Klein",
+      "PersonId": 584,
+      "PersonName": "Abshire-Emard",
+      "AssociateId": 243,
+      "Address": "enim",
+      "EmailId": 594,
       "DuplicatePersonIds": [
-        225,
-        394
+        766,
+        601
       ],
-      "Name": "Eichmann Group",
+      "Name": "Swift, Gerhold and McKenzie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 979
+          "FieldLength": 276
         }
       }
     }
   ],
-  "Subject": "praesentium",
-  "HTMLBody": "aut",
+  "Subject": "et",
+  "HTMLBody": "alias",
   "From": null,
-  "Sent": "2009-02-08T02:38:20.8389734+01:00",
-  "Size": 305,
+  "Sent": "2024-09-08T14:28:21.4460417+02:00",
+  "Size": 698,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "reprehenderit",
-  "PlainBody": "doloribus",
-  "IsSent": false,
+  "MessageID": "suscipit",
+  "PlainBody": "voluptas",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 231,
+  "ServerId": 97,
   "Attachments": [
     {
-      "Description": "Cloned holistic strategy",
-      "Filename": "atque",
-      "Size": 185,
-      "Type": "autem",
-      "Encoding": "dolor",
-      "Id": "minus",
-      "Disposition": "qui",
+      "Description": "Right-sized client-driven framework",
+      "Filename": "cupiditate",
+      "Size": 838,
+      "Type": "blanditiis",
+      "Encoding": "non",
+      "Id": "autem",
+      "Disposition": "sit",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,49 +217,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 957
+          "FieldLength": 38
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Boyle, Hills and Dibbert",
+      "Name": "Bogan Inc and Sons",
       "Values": [
-        "natus",
-        "ullam"
+        "fuga",
+        "similique"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 993
+          "FieldType": "System.String",
+          "FieldLength": 75
         }
       }
     },
     {
-      "Name": "Boyle, Hills and Dibbert",
+      "Name": "Bogan Inc and Sons",
       "Values": [
-        "natus",
-        "ullam"
+        "fuga",
+        "similique"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 993
+          "FieldType": "System.String",
+          "FieldLength": 75
         }
       }
     }
   ],
-  "FolderName": "Anderson, Stoltenberg and Anderson",
-  "EmailItemId": 832,
-  "AccountId": 724,
-  "ReceivedAt": "2023-03-14T02:38:20.8389734+01:00",
+  "FolderName": "Rice, Swift and Barton",
+  "EmailItemId": 885,
+  "AccountId": 452,
+  "ReceivedAt": "1998-12-25T14:28:21.4460417+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-06-02T02:38:20.8389734+02:00",
+  "RepliedAt": "2018-01-08T14:28:21.4460417+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldLength": 523
     }
   }
 }

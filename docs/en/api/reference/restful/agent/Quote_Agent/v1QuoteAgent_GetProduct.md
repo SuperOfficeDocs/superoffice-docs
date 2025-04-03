@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 82,
-  "ERPProductKey": "pariatur"
+  "QuoteConnectionId": 793,
+  "ERPProductKey": "sunt"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 185,
-  "ERPProductKey": "eaque",
-  "ERPPriceListKey": "praesentium",
-  "Name": "Wolff, Bogisich and Bayer",
-  "Description": "De-engineered full-range instruction set",
-  "Code": "officiis",
-  "PriceUnit": "est",
-  "QuantityUnit": "vel",
+  "ProductId": 922,
+  "ERPProductKey": "omnis",
+  "ERPPriceListKey": "placeat",
+  "Name": "Pacocha-Kozey",
+  "Description": "Customer-focused motivating application",
+  "Code": "sit",
+  "PriceUnit": "eligendi",
+  "QuantityUnit": "qui",
   "IsSubscription": false,
-  "SubscriptionUnit": "dolore",
-  "DefaultSubscriptionQuantity": 22332.884,
-  "ItemNumber": "1688253",
+  "SubscriptionUnit": "aut",
+  "DefaultSubscriptionQuantity": 12623.752,
+  "ItemNumber": "605347",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "labore",
-  "ProductTypeKey": "accusantium",
-  "VAT": 28318.824,
-  "VATInfo": "dignissimos",
-  "UnitCost": 25513.894,
-  "UnitMinimumPrice": 22254.534,
-  "UnitListPrice": 15497.63,
-  "InAssortment": true,
-  "Supplier": "et",
-  "SupplierCode": "nihil",
-  "Rights": "inventore",
-  "Rule": "maiores",
+  "ProductFamilyKey": "omnis",
+  "ProductTypeKey": "facere",
+  "VAT": 19697.19,
+  "VATInfo": "tempora",
+  "UnitCost": 6966.882,
+  "UnitMinimumPrice": 5989.074,
+  "UnitListPrice": 20023.126,
+  "InAssortment": false,
+  "Supplier": "neque",
+  "SupplierCode": "accusamus",
+  "Rights": "maxime",
+  "Rule": "nihil",
   "ExtraInfo": [
     {
-      "Name": "Abshire, Gorczany and Gislason",
-      "Value": "accusamus",
+      "Name": "Reichert-Leuschke",
+      "Value": "ad",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1000
+          "FieldType": "System.Int32",
+          "FieldLength": 826
         }
       }
     },
     {
-      "Name": "Abshire, Gorczany and Gislason",
-      "Value": "accusamus",
+      "Name": "Reichert-Leuschke",
+      "Value": "ad",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 1000
+          "FieldType": "System.Int32",
+          "FieldLength": 826
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
-  "ExtraField1": "quia",
-  "ExtraField2": "at",
-  "ExtraField3": "magnam",
-  "ExtraField4": "vero",
-  "ExtraField5": "quam",
-  "InStock": 11564.46,
+  "RawExtraInfo": "molestiae",
+  "ExtraField1": "rerum",
+  "ExtraField2": "quo",
+  "ExtraField3": "est",
+  "ExtraField4": "consequuntur",
+  "ExtraField5": "et",
+  "InStock": 6979.418,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 972
+      "FieldType": "System.String",
+      "FieldLength": 933
     }
   }
 }

@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 898,
-  "Name": "Shanahan, O'Conner and Weissnat",
-  "Tooltip": "recusandae",
-  "PassiveText": "ut",
+  "ReldefId": 272,
+  "Name": "Haag Group",
+  "Tooltip": "eos",
+  "PassiveText": "cupiditate",
   "Deleted": false,
-  "Rank": 401,
+  "Rank": 453,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 502
+      "FieldLength": 837
     }
   }
 }

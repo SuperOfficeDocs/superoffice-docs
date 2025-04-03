@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 999,
-    "Name": "Gleason-Wiza",
-    "ToolTip": "Numquam saepe laborum impedit ea.",
-    "Deleted": true,
-    "Rank": 516,
-    "Type": "ut",
-    "ColorBlock": 936,
-    "IconHint": "impedit",
+    "Id": 332,
+    "Name": "Luettgen Inc and Sons",
+    "ToolTip": "Aperiam odio molestiae.",
+    "Deleted": false,
+    "Rank": 24,
+    "Type": "consectetur",
+    "ColorBlock": 453,
+    "IconHint": "reiciendis",
     "Selected": false,
-    "LastChanged": "1999-12-28T02:38:26.7767326+01:00",
+    "LastChanged": "2020-05-09T14:28:27.5707933+02:00",
     "ChildItems": [
       {
-        "Id": 417,
-        "Name": "Hammes-McKenzie",
-        "ToolTip": "Laboriosam laudantium ab.",
-        "Deleted": true,
-        "Rank": 73,
-        "Type": "doloremque",
-        "ColorBlock": 966,
-        "IconHint": "tempore",
+        "Id": 743,
+        "Name": "Lubowitz-Schuster",
+        "ToolTip": "Sint ut labore libero qui cum temporibus.",
+        "Deleted": false,
+        "Rank": 493,
+        "Type": "autem",
+        "ColorBlock": 763,
+        "IconHint": "quae",
         "Selected": false,
-        "LastChanged": "2019-09-07T02:38:26.7767326+02:00",
+        "LastChanged": "2006-11-02T14:28:27.5707933+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consectetur",
-        "StyleHint": "illum",
-        "Hidden": true,
-        "FullName": "Leone Jacobs"
+        "ExtraInfo": "totam",
+        "StyleHint": "rem",
+        "Hidden": false,
+        "FullName": "Edison Rolfson"
       }
     ],
-    "ExtraInfo": "architecto",
-    "StyleHint": "assumenda",
-    "Hidden": true,
-    "FullName": "Priscilla Winston Bosco PhD"
+    "ExtraInfo": "aut",
+    "StyleHint": "tenetur",
+    "Hidden": false,
+    "FullName": "Brooke Ruecker"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 577,
-    "Name": "Bailey, Herzog and Koelpin",
-    "ToolTip": "Quas sit nobis excepturi non voluptatem repellat tempore.",
+    "Id": 974,
+    "Name": "DuBuque-Wunsch",
+    "ToolTip": "Et minus velit consequatur ea odio temporibus.",
     "Deleted": false,
-    "Rank": 231,
-    "Type": "iste",
-    "ColorBlock": 53,
-    "IconHint": "temporibus",
+    "Rank": 792,
+    "Type": "odio",
+    "ColorBlock": 275,
+    "IconHint": "adipisci",
     "Selected": false,
-    "LastChanged": "2023-01-08T02:38:26.7767326+01:00",
+    "LastChanged": "2020-05-01T14:28:27.5707933+02:00",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "Nicolas-Larson",
-        "ToolTip": "Quod dolore iusto magni.",
-        "Deleted": true,
-        "Rank": 291,
-        "Type": "necessitatibus",
-        "ColorBlock": 295,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2023-05-03T02:38:26.7767326+02:00",
+        "Id": 982,
+        "Name": "Jast-Heathcote",
+        "ToolTip": "Rerum reprehenderit quia vitae debitis hic.",
+        "Deleted": false,
+        "Rank": 120,
+        "Type": "labore",
+        "ColorBlock": 940,
+        "IconHint": "quo",
+        "Selected": false,
+        "LastChanged": "2022-10-07T14:28:27.5707933+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "et",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "perspiciatis",
         "Hidden": false,
-        "FullName": "Markus Erdman",
+        "FullName": "Ms. Gavin Wisozk Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 836
+            "FieldType": "System.String",
+            "FieldLength": 986
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "voluptas",
-    "Hidden": true,
-    "FullName": "Adriana Huel",
+    "ExtraInfo": "quia",
+    "StyleHint": "ut",
+    "Hidden": false,
+    "FullName": "Mrs. Josianne Pfannerstill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 437
+        "FieldLength": 22
       }
     }
   }

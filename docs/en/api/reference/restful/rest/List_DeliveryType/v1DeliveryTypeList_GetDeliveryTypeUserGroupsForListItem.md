@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 66,
-    "Name": "Schuppe, McGlynn and Mann",
-    "ToolTip": "Dolorem fuga dolores ea officiis.",
+    "Id": 999,
+    "Name": "Howe, Larson and Quigley",
+    "ToolTip": "Nobis ratione consequatur et nihil facilis.",
     "Deleted": false,
-    "Rank": 541,
-    "Type": "doloribus",
-    "ColorBlock": 520,
-    "IconHint": "aliquam",
-    "Selected": false,
-    "LastChanged": "2010-06-16T02:38:26.7611442+02:00",
+    "Rank": 213,
+    "Type": "expedita",
+    "ColorBlock": 634,
+    "IconHint": "optio",
+    "Selected": true,
+    "LastChanged": "2012-04-13T14:28:27.5551692+02:00",
     "ChildItems": [
       {
-        "Id": 9,
-        "Name": "Rohan Inc and Sons",
-        "ToolTip": "Cum voluptates.",
-        "Deleted": true,
-        "Rank": 411,
-        "Type": "quia",
-        "ColorBlock": 870,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2022-09-09T02:38:26.7611442+02:00",
+        "Id": 931,
+        "Name": "Renner-Kunze",
+        "ToolTip": "Illum fugiat sed quia perspiciatis veniam corrupti repellendus.",
+        "Deleted": false,
+        "Rank": 648,
+        "Type": "quae",
+        "ColorBlock": 946,
+        "IconHint": "quaerat",
+        "Selected": false,
+        "LastChanged": "2003-12-29T14:28:27.5551692+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "illum",
-        "Hidden": false,
-        "FullName": "Wallace Nienow",
+        "ExtraInfo": "qui",
+        "StyleHint": "consequatur",
+        "Hidden": true,
+        "FullName": "Prof. Hallie Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 74
+            "FieldType": "System.Int32",
+            "FieldLength": 959
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "id",
-    "Hidden": true,
-    "FullName": "Don Trantow",
+    "ExtraInfo": "est",
+    "StyleHint": "libero",
+    "Hidden": false,
+    "FullName": "Adah Gerhold",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 633
+        "FieldType": "System.Int32",
+        "FieldLength": 678
       }
     }
   }

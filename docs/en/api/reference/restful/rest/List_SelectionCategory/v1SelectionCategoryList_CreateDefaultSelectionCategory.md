@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 703,
-  "Name": "Sanford-Swaniawski",
-  "Tooltip": "vero",
-  "Deleted": true,
-  "UdListDefinitionId": 585,
-  "Rank": 836,
+  "Id": 889,
+  "Name": "Abernathy Inc and Sons",
+  "Tooltip": "cum",
+  "Deleted": false,
+  "UdListDefinitionId": 935,
+  "Rank": 724,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 588
+      "FieldLength": 93
     }
   }
 }

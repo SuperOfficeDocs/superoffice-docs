@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveListItemEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 163,
-  "Name": "Yundt LLC",
-  "Tooltip": "occaecati",
-  "Deleted": true,
-  "UdListDefinitionId": 171,
-  "Rank": 227,
+  "Id": 88,
+  "Name": "Rice LLC",
+  "Tooltip": "aperiam",
+  "Deleted": false,
+  "UdListDefinitionId": 208,
+  "Rank": 42,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 951
+      "FieldLength": 240
     }
   }
 }

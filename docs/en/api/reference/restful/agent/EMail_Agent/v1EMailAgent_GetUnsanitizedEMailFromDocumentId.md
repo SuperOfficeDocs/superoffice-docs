@@ -107,7 +107,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 724
+  "DocumentId": 988
 }
 ```
 
@@ -120,97 +120,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 775,
-      "ContactName": "Hamill Group",
-      "PersonId": 344,
-      "PersonName": "Koss, Runolfsdottir and Cormier",
-      "AssociateId": 807,
-      "Address": "voluptatem",
-      "EmailId": 102,
+      "ContactId": 985,
+      "ContactName": "Stamm-Stracke",
+      "PersonId": 558,
+      "PersonName": "Brown-Beer",
+      "AssociateId": 748,
+      "Address": "deserunt",
+      "EmailId": 412,
       "DuplicatePersonIds": [
-        524,
-        254
+        6,
+        528
       ],
-      "Name": "Bradtke, Blick and Hickle",
+      "Name": "Stracke LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 190
+          "FieldLength": 481
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 812,
-      "ContactName": "Witting LLC",
-      "PersonId": 834,
-      "PersonName": "Crona-Lehner",
-      "AssociateId": 835,
-      "Address": "aspernatur",
-      "EmailId": 100,
+      "ContactId": 977,
+      "ContactName": "Stracke, Deckow and Moore",
+      "PersonId": 309,
+      "PersonName": "Brakus, Abbott and Crooks",
+      "AssociateId": 702,
+      "Address": "modi",
+      "EmailId": 11,
       "DuplicatePersonIds": [
-        268,
-        878
+        651,
+        978
       ],
-      "Name": "Dach-Mosciski",
+      "Name": "Blanda, Pagac and Schmeler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 476
+          "FieldLength": 775
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 709,
-      "ContactName": "Kulas LLC",
-      "PersonId": 557,
-      "PersonName": "Sawayn-Quigley",
-      "AssociateId": 520,
-      "Address": "maxime",
-      "EmailId": 872,
+      "ContactId": 955,
+      "ContactName": "Reichert LLC",
+      "PersonId": 462,
+      "PersonName": "Ritchie-Lubowitz",
+      "AssociateId": 551,
+      "Address": "quo",
+      "EmailId": 486,
       "DuplicatePersonIds": [
-        532,
-        608
+        558,
+        293
       ],
-      "Name": "Becker-Lebsack",
+      "Name": "Mertz-Rutherford",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 609
+          "FieldType": "System.Int32",
+          "FieldLength": 952
         }
       }
     }
   ],
-  "Subject": "aspernatur",
-  "HTMLBody": "consequatur",
+  "Subject": "sint",
+  "HTMLBody": "aliquid",
   "From": null,
-  "Sent": "2022-07-10T02:38:21.3857927+02:00",
-  "Size": 7,
+  "Sent": "2013-03-15T14:28:21.9616455+01:00",
+  "Size": 178,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "eius",
-  "PlainBody": "temporibus",
-  "IsSent": true,
+  "MessageID": "quaerat",
+  "PlainBody": "harum",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 246,
+  "ServerId": 68,
   "Attachments": [
     {
-      "Description": "Optimized modular capacity",
-      "Filename": "facilis",
-      "Size": 189,
-      "Type": "neque",
-      "Encoding": "ut",
-      "Id": "cupiditate",
-      "Disposition": "non",
+      "Description": "Diverse systematic hardware",
+      "Filename": "voluptatem",
+      "Size": 29,
+      "Type": "veritatis",
+      "Encoding": "voluptatem",
+      "Id": "libero",
+      "Disposition": "maiores",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -218,49 +218,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 939
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "O'Connell Inc and Sons",
+      "Name": "Schamberger, Stehr and Bins",
       "Values": [
-        "in",
-        "reprehenderit"
+        "velit",
+        "magnam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 766
+          "FieldType": "System.Int32",
+          "FieldLength": 786
         }
       }
     },
     {
-      "Name": "O'Connell Inc and Sons",
+      "Name": "Schamberger, Stehr and Bins",
       "Values": [
-        "in",
-        "reprehenderit"
+        "velit",
+        "magnam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 766
+          "FieldType": "System.Int32",
+          "FieldLength": 786
         }
       }
     }
   ],
-  "FolderName": "Buckridge LLC",
-  "EmailItemId": 386,
-  "AccountId": 717,
-  "ReceivedAt": "2024-11-11T02:38:21.3857927+01:00",
+  "FolderName": "Rath, Marks and Heidenreich",
+  "EmailItemId": 475,
+  "AccountId": 45,
+  "ReceivedAt": "2013-05-15T14:28:21.9616455+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2016-07-07T02:38:21.3857927+02:00",
+  "RepliedAt": "2000-07-15T14:28:21.9616455+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -268,8 +268,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 879
+      "FieldType": "System.String",
+      "FieldLength": 9
     }
   }
 }

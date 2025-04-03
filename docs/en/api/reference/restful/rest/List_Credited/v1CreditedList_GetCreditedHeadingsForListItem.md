@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 444,
-    "Name": "Robel Inc and Sons",
-    "ToolTip": "Veniam optio expedita quis.",
-    "Deleted": true,
-    "Rank": 876,
-    "Type": "qui",
-    "ColorBlock": 340,
-    "IconHint": "omnis",
-    "Selected": false,
-    "LastChanged": "2006-01-07T02:38:26.7299042+01:00",
+    "Id": 354,
+    "Name": "Kshlerin LLC",
+    "ToolTip": "Accusantium fuga in ut deleniti nisi.",
+    "Deleted": false,
+    "Rank": 931,
+    "Type": "quos",
+    "ColorBlock": 194,
+    "IconHint": "esse",
+    "Selected": true,
+    "LastChanged": "2021-03-03T14:28:27.5395453+01:00",
     "ChildItems": [
       {
-        "Id": 464,
-        "Name": "Baumbach Inc and Sons",
-        "ToolTip": "Et est consequuntur expedita non.",
-        "Deleted": true,
-        "Rank": 831,
-        "Type": "quia",
-        "ColorBlock": 588,
-        "IconHint": "itaque",
-        "Selected": true,
-        "LastChanged": "2002-11-10T02:38:26.7299042+01:00",
+        "Id": 994,
+        "Name": "Gaylord-Effertz",
+        "ToolTip": "Et similique et atque voluptatem.",
+        "Deleted": false,
+        "Rank": 209,
+        "Type": "omnis",
+        "ColorBlock": 500,
+        "IconHint": "at",
+        "Selected": false,
+        "LastChanged": "2016-07-16T14:28:27.5395453+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "ut",
-        "Hidden": true,
-        "FullName": "Ms. Heber Terrance Rogahn PhD",
+        "ExtraInfo": "quia",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Brody Wisozk",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 138
+            "FieldLength": 723
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "qui",
-    "Hidden": true,
-    "FullName": "Lynn Odell Sauer V",
+    "ExtraInfo": "sit",
+    "StyleHint": "nemo",
+    "Hidden": false,
+    "FullName": "Kirsten Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 513
+        "FieldLength": 224
       }
     }
   }

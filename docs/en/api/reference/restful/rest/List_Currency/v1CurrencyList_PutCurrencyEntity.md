@@ -82,17 +82,17 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 235,
-  "Name": "Wiza Group",
-  "Tooltip": "ratione",
-  "Rank": 999,
-  "Rate": 11752.5,
-  "Units": 11288.668,
-  "Deleted": false
+  "CurrencyId": 501,
+  "Name": "Walsh, Runte and Greenholt",
+  "Tooltip": "eligendi",
+  "Rank": 627,
+  "Rate": 22194.987999999998,
+  "Units": 9953.5839999999989,
+  "Deleted": true
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 587,
-  "Name": "Will-Dare",
-  "Tooltip": "soluta",
-  "Rank": 130,
-  "Rate": 22420.636,
-  "Units": 10495.766,
+  "CurrencyId": 162,
+  "Name": "Trantow, Schamberger and Schumm",
+  "Tooltip": "minima",
+  "Rank": 228,
+  "Rate": 6571.998,
+  "Units": 25401.07,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 915
+      "FieldType": "System.String",
+      "FieldLength": 94
     }
   }
 }

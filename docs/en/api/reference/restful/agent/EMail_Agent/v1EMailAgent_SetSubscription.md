@@ -67,20 +67,20 @@ No Content
 POST /api/v1/Agents/EMail/SetSubscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Kautzer-West",
-      "Delimiter": "quasi",
-      "Flags": "cumque",
-      "TotalItems": 592,
-      "UnreadItems": 856,
+      "Name": "Wuckert, Cremin and Koch",
+      "Delimiter": "voluptatem",
+      "Flags": "qui",
+      "TotalItems": 998,
+      "UnreadItems": 434,
       "Subscribed": false,
-      "EmailFolderId": 55
+      "EmailFolderId": 569
     }
   ]
 }

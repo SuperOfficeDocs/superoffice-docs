@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "illum",
+    "path": "quia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "illum",
+    "path": "quia",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "id",
+  "SaleText": "provident",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2006-10-20T02:38:26.3860344+02:00",
-  "Amount": 24062.852,
-  "SaleId": 528,
-  "Earning": 14595.037999999999,
-  "EarningPercent": 9599.442,
-  "Heading": "ex",
-  "Number": "633160",
-  "Probability": 854,
-  "CreatedDate": "2007-08-20T02:38:26.3860344+02:00",
-  "UpdatedDate": "2004-01-31T02:38:26.3860344+01:00",
+  "Saledate": "2019-04-07T14:28:27.2270585+02:00",
+  "Amount": 27886.332,
+  "SaleId": 63,
+  "Earning": 20327.124,
+  "EarningPercent": 3171.6079999999997,
+  "Heading": "labore",
+  "Number": "470164",
+  "Probability": 799,
+  "CreatedDate": "2010-05-21T14:28:27.2270585+02:00",
+  "UpdatedDate": "2000-11-17T14:28:27.2270585+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 480,
+  "ActiveLinks": 581,
   "Links": [
     {
-      "EntityName": "Bogan, Rau and Bergnaum",
-      "Id": 867,
-      "Description": "Digitized grid-enabled productivity",
-      "ExtraInfo": "atque",
-      "LinkId": 386,
+      "EntityName": "Prosacco, Toy and Ankunding",
+      "Id": 202,
+      "Description": "Ameliorated incremental moderator",
+      "ExtraInfo": "ut",
+      "LinkId": 747,
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 809
+        }
+      }
+    }
+  ],
+  "NextDueDate": "2013-10-20T14:28:27.2270585+02:00",
+  "Postit": "non",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2018-10-08T14:28:27.2270585+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Rogahn LLC",
+      "Comment": "corrupti",
+      "StakeholderRoleId": 474,
+      "CountryId": 563,
+      "PersonId": 664,
+      "EmailDescription": "emmanuel@keelingchamplin.name",
+      "EmailId": 510,
+      "EmailAddress": "billie_christiansen@zulaufmcdermott.biz",
+      "PhoneId": 941,
+      "ContactName": "Ziemann, Raynor and Rutherford",
+      "ContactId": 827,
+      "SaleId": 935,
+      "Mrmrs": "beatae",
+      "Firstname": "Mac",
+      "MiddleName": "Will-Parisian",
+      "Lastname": "Harris",
+      "SaleStakeholderId": 358,
+      "Rank": 406,
+      "Phone": "312-760-3681 x2401",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 522
+          "FieldLength": 273
         }
       }
     }
   ],
-  "NextDueDate": "2016-05-17T02:38:26.3860344+02:00",
-  "Postit": "in",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2018-06-19T02:38:26.3860344+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Rohan LLC",
-      "Comment": "eveniet",
-      "StakeholderRoleId": 456,
-      "CountryId": 510,
-      "PersonId": 620,
-      "EmailDescription": "connor.cronin@spencer.com",
-      "EmailId": 654,
-      "EmailAddress": "nick.brown@ritchieabernathy.co.uk",
-      "PhoneId": 535,
-      "ContactName": "Gerlach, Hoeger and Fahey",
-      "ContactId": 169,
-      "SaleId": 456,
-      "Mrmrs": "necessitatibus",
-      "Firstname": "Marisol",
-      "MiddleName": "Zemlak-Kuvalis",
-      "Lastname": "Schaefer",
-      "SaleStakeholderId": 651,
-      "Rank": 280,
-      "Phone": "1-265-890-2376 x1999",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 919
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 410,
+  "ActiveErpLinks": 674,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Lemuel Jakubowski V"
+    "SuperOffice:1": "Alexie Tito Renner PhD",
+    "SuperOffice:2": "1567955136"
   },
   "ExtraFields": {
-    "ExtraFields1": "earum",
-    "ExtraFields2": "nisi"
+    "ExtraFields1": "iste",
+    "ExtraFields2": "porro"
   },
   "CustomFields": {
-    "CustomFields1": "sit",
-    "CustomFields2": "a"
+    "CustomFields1": "maiores",
+    "CustomFields2": "tempore"
   },
-  "PublishEventDate": "2000-01-07T02:38:26.3860344+01:00",
-  "PublishTo": "2003-08-14T02:38:26.3860344+02:00",
-  "PublishFrom": "2008-04-16T02:38:26.3860344+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2020-10-07T14:28:27.2270585+02:00",
+  "PublishTo": "2020-12-06T14:28:27.2270585+01:00",
+  "PublishFrom": "2000-09-17T14:28:27.2270585+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 592,
+      "VisibleId": 727,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldType": "System.String",
+          "FieldLength": 939
         }
       }
     },
     {
-      "VisibleId": 592,
+      "VisibleId": 727,
       "Visibility": "All",
-      "DisplayValue": "dicta",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 353
+          "FieldType": "System.String",
+          "FieldLength": 939
         }
       }
     }
@@ -305,13 +305,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 17
+      "FieldType": "System.Int32",
+      "FieldLength": 992
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

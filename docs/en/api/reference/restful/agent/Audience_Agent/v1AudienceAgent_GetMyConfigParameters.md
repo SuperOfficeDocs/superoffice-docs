@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameters
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 921,
-    "Name": "Gaylord LLC",
-    "Value": "qui",
-    "CreatedDate": "2007-05-08T02:38:20.8702208+02:00",
-    "UpdatedDate": "2008-06-28T02:38:20.8702208+02:00",
-    "CreatedBy": "suscipit",
-    "UpdatedBy": "saepe",
+    "AudienceLayoutId": 934,
+    "Name": "Nitzsche-Krajcik",
+    "Value": "voluptatem",
+    "CreatedDate": "2023-05-05T14:28:21.47729+02:00",
+    "UpdatedDate": "2002-09-13T14:28:21.47729+02:00",
+    "CreatedBy": "odit",
+    "UpdatedBy": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 580
+        "FieldLength": 433
       }
     }
   }

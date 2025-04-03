@@ -117,6 +117,7 @@ OK
 | CreatedByFullName | string | Who created the appointment. Full name. |
 | CreatedByAssociateId | int32 | Id of the associate that created the appointment |
 | CautionWarning | string | Status field to indicate appointments that have some sort of problem |
+| OwnedExternally | string | Set if an external system owns this appointment. |
 | JoinVideomeetUrl | string | Blank when not a video meeting. Filled with Join Meeting URL when created. |
 | PreferredTZLocation | int32 | Preferred timezone location to use when displaying/editing this appointment |
 | Title | string | The title of the appointment. |
@@ -131,15 +132,15 @@ OK
 POST /api/v1/Agents/Appointment/GetProjectMemberAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 10,
-  "StartTime": "2003-01-11T02:38:20.557605+01:00",
-  "EndTime": "2013-04-29T02:38:20.557605+02:00",
-  "Count": 269,
-  "TaskId": 20
+  "PersonId": 422,
+  "StartTime": "2011-06-29T14:28:21.1491785+02:00",
+  "EndTime": "2018-08-04T14:28:21.1491785+02:00",
+  "Count": 960,
+  "TaskId": 616
 }
 ```
 
@@ -151,65 +152,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 685,
-    "StartDate": "2012-07-12T02:38:20.557605+02:00",
-    "EndDate": "2001-10-10T02:38:20.557605+02:00",
+    "AppointmentId": 589,
+    "StartDate": "1999-09-30T14:28:21.1491785+02:00",
+    "EndDate": "2019-02-13T14:28:21.1491785+01:00",
     "Type": "BookingForChecklist",
-    "Task": "corporis",
-    "AssociateFullName": "Kristofer Heidenreich",
-    "ContactName": "Cummerata, Boyle and Veum",
-    "Description": "Phased coherent alliance",
-    "PersonFullName": "Emilie Wiegand",
-    "PersonId": 500,
-    "ContactId": 980,
-    "ProjectId": 806,
-    "ProjectName": "Fay LLC",
+    "Task": "voluptatum",
+    "AssociateFullName": "Prof. Waylon Vidal Lebsack PhD",
+    "ContactName": "Koepp LLC",
+    "Description": "Programmable disintermediate conglomeration",
+    "PersonFullName": "Robert Kshlerin",
+    "PersonId": 827,
+    "ContactId": 243,
+    "ProjectId": 695,
+    "ProjectName": "Franecki-Gusikowski",
     "IsPublished": false,
-    "AssociateId": 66,
-    "ColorIndex": 116,
-    "IsFree": true,
+    "AssociateId": 189,
+    "ColorIndex": 942,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 289,
-    "PriorityName": "Schneider-Hintz",
+    "PriorityId": 282,
+    "PriorityName": "Friesen Group",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2022-03-25T02:38:20.557605+01:00",
+    "ActiveDate": "2016-11-07T14:28:21.1491785+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2014-05-17T02:38:20.557605+02:00",
-    "RecurringEndDate": "2013-11-21T02:38:20.557605+01:00",
-    "MotherId": 244,
-    "AssignedBy": 729,
-    "AssignedByFullName": "Pete Schuppe",
+    "RecurringStartDate": "2021-10-18T14:28:21.1491785+02:00",
+    "RecurringEndDate": "2014-04-29T14:28:21.1491785+02:00",
+    "MotherId": 349,
+    "AssignedBy": 749,
+    "AssignedByFullName": "Mrs. Danyka O'Reilly Jr.",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "maiores",
-    "SaleId": 223,
-    "SaleName": "Hilll-Mohr",
-    "AssociateName": "Nader-Morissette",
-    "CreatedDate": "2013-07-25T02:38:20.557605+02:00",
-    "CreatedBy": "dignissimos",
-    "CreatedByFullName": "Dr. Saul Vandervort",
-    "CreatedByAssociateId": 380,
+    "Location": "magni",
+    "AlarmLeadTime": "voluptatum",
+    "SaleId": 110,
+    "SaleName": "Volkman Inc and Sons",
+    "AssociateName": "Becker-Considine",
+    "CreatedDate": "2023-07-04T14:28:21.1491785+02:00",
+    "CreatedBy": "ipsum",
+    "CreatedByFullName": "Alexie Lebsack",
+    "CreatedByAssociateId": 902,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
+    "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 614,
-    "Title": "sapiente",
-    "Agenda": "explicabo",
-    "InternalNotes": "natus",
+    "PreferredTZLocation": 214,
+    "Title": "atque",
+    "Agenda": "dolor",
+    "InternalNotes": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldType": "System.String",
+        "FieldLength": 97
       }
     }
   }

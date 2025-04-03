@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "est",
-    "recusandae"
+    "occaecati",
+    "rerum"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Spencer, Ziemann and Emmerich",
-    "Delimiter": "minus",
-    "Flags": "magnam",
-    "TotalItems": 491,
-    "UnreadItems": 827,
-    "Subscribed": true,
-    "EmailFolderId": 707,
+    "Name": "Weissnat LLC",
+    "Delimiter": "earum",
+    "Flags": "et",
+    "TotalItems": 472,
+    "UnreadItems": 205,
+    "Subscribed": false,
+    "EmailFolderId": 736,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 144
+        "FieldLength": 732
       }
     }
   }

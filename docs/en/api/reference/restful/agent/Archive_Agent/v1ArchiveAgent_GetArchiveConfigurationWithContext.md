@@ -80,13 +80,13 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Tillman, Gleichner and Goodwin",
-  "ProviderName": "Gerhold LLC",
-  "Context": "aut"
+  "GuiName": "Grady, Windler and Cassin",
+  "ProviderName": "Hansen-O'Keefe",
+  "Context": "vel"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Barrows Inc and Sons",
-      "DisplayTooltip": "et",
-      "DisplayType": "consectetur",
+      "DisplayName": "O'Reilly LLC",
+      "DisplayTooltip": "quibusdam",
+      "DisplayType": "nemo",
       "CanOrderBy": false,
-      "Name": "Mayert Group",
+      "Name": "Beer, Schaefer and Reynolds",
       "CanRestrictBy": false,
-      "RestrictionType": "ea",
-      "RestrictionListName": "Thompson-Mills",
-      "IsVisible": true,
-      "ExtraInfo": "exercitationem",
-      "Width": "nemo",
-      "IconHint": "libero",
-      "HeadingIconHint": "quae"
+      "RestrictionType": "error",
+      "RestrictionListName": "Heaney-Jast",
+      "IsVisible": false,
+      "ExtraInfo": "est",
+      "Width": "eos",
+      "IconHint": "minus",
+      "HeadingIconHint": "dolorum"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 641,
-      "Name": "Hansen-Lindgren",
-      "ToolTip": "Eveniet voluptatum rerum autem ex est vero.",
-      "Deleted": false,
-      "Rank": 615,
-      "Type": "est",
-      "ColorBlock": 297,
-      "IconHint": "mollitia",
+      "Id": 77,
+      "Name": "Schumm, Boyer and Nienow",
+      "ToolTip": "Esse magnam at et quibusdam.",
+      "Deleted": true,
+      "Rank": 879,
+      "Type": "omnis",
+      "ColorBlock": 221,
+      "IconHint": "necessitatibus",
       "Selected": false,
-      "LastChanged": "2023-11-03T02:38:20.8545926+01:00",
+      "LastChanged": "2024-08-24T14:28:21.4616659+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "distinctio",
-      "StyleHint": "saepe",
+      "ExtraInfo": "sunt",
+      "StyleHint": "nesciunt",
       "Hidden": false,
-      "FullName": "Tyshawn Blick",
+      "FullName": "Ms. Adele Bins",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 375
+          "FieldLength": 604
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Mraz-Emmerich",
+      "Name": "Hermiston LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Mraz-Emmerich",
+      "Name": "Hermiston LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "est",
+  "OwnerKeys": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 449
+      "FieldType": "System.Int32",
+      "FieldLength": 605
     }
   }
 }

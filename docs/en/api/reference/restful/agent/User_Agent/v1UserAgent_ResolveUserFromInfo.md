@@ -84,19 +84,19 @@ OK
 POST /api/v1/Agents/User/ResolveUserFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 254,
-  "PersonName": "Bode Group",
+  "ContactId": 240,
+  "PersonName": "Huels-Homenick",
   "PhoneNumbers": [
-    "536241",
-    "1238687"
+    "1087214",
+    "1064081"
   ],
   "Emails": [
-    "kyler@considine.com",
-    "jaden@muller.com"
+    "concepcion@lynch.co.uk",
+    "elton_funk@dach.co.uk"
   ],
   "UserType": "AnonymousAssociate",
   "Credential": null
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 108
+      "FieldType": "System.Int32",
+      "FieldLength": 429
     }
   }
 }

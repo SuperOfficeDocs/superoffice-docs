@@ -719,7 +719,7 @@ Link data provider for documents, handles both addressing by source or by destin
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksDocuments?$select=associateId,person/personCountry,person/personCountryId,contact/nameDepartment,contact/countryId
+GET /api/v1/archive/LinksDocuments?$select=person/personExtra/y_rental/x_start,person/correspondingAssociate/associateDbId,person/legalBaseStore,contact/contactNoMail,contact/contactAssociate/isActiveText
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

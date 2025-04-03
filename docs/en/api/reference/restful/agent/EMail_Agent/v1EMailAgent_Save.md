@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 763,
-      "ContactName": "Roberts-Heidenreich",
-      "PersonId": 139,
-      "PersonName": "Ferry, Schultz and Barton",
-      "AssociateId": 29,
-      "Address": "rerum",
-      "EmailId": 173,
+      "ContactId": 500,
+      "ContactName": "Koss-Spencer",
+      "PersonId": 734,
+      "PersonName": "Cruickshank LLC",
+      "AssociateId": 468,
+      "Address": "maiores",
+      "EmailId": 185,
       "DuplicatePersonIds": [
-        515,
-        316
+        359,
+        867
       ],
-      "Name": "Kunze, Okuneva and Baumbach",
+      "Name": "Kassulke, Hoppe and Windler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 358
+          "FieldLength": 315
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 398,
-      "ContactName": "Dooley-Armstrong",
-      "PersonId": 58,
-      "PersonName": "Miller Group",
-      "AssociateId": 627,
-      "Address": "non",
-      "EmailId": 702,
+      "ContactId": 807,
+      "ContactName": "Dickinson Inc and Sons",
+      "PersonId": 898,
+      "PersonName": "Feest, Oberbrunner and Littel",
+      "AssociateId": 476,
+      "Address": "laboriosam",
+      "EmailId": 526,
       "DuplicatePersonIds": [
-        334,
-        472
+        905,
+        607
       ],
-      "Name": "Fahey Inc and Sons",
+      "Name": "Leannon LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 915
+          "FieldLength": 778
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 401,
-      "ContactName": "Vandervort, Cartwright and Von",
-      "PersonId": 373,
-      "PersonName": "Kuhic Inc and Sons",
-      "AssociateId": 630,
-      "Address": "fuga",
-      "EmailId": 308,
+      "ContactId": 152,
+      "ContactName": "Murphy Inc and Sons",
+      "PersonId": 112,
+      "PersonName": "Erdman Group",
+      "AssociateId": 61,
+      "Address": "ullam",
+      "EmailId": 889,
       "DuplicatePersonIds": [
-        971,
-        134
+        715,
+        728
       ],
-      "Name": "Rowe-Gislason",
+      "Name": "Prohaska-Steuber",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 116
+          "FieldType": "System.String",
+          "FieldLength": 810
         }
       }
     }
   ],
-  "Subject": "architecto",
-  "HTMLBody": "consequatur",
+  "Subject": "magni",
+  "HTMLBody": "ipsum",
   "From": null,
-  "Sent": "2007-02-10T02:38:21.3232921+01:00",
-  "Size": 424,
+  "Sent": "2021-11-27T14:28:21.8991479+01:00",
+  "Size": 535,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quasi",
-  "PlainBody": "optio",
-  "IsSent": true,
+  "MessageID": "earum",
+  "PlainBody": "ea",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 383,
+  "ServerId": 343,
   "Attachments": [
     {
-      "Description": "Networked 24/7 project",
-      "Filename": "expedita",
-      "Size": 717,
-      "Type": "totam",
-      "Encoding": "quisquam",
-      "Id": "exercitationem",
-      "Disposition": "libero",
-      "IsSafeFileExtension": false,
+      "Description": "Multi-lateral analyzing flexibility",
+      "Filename": "quidem",
+      "Size": 804,
+      "Type": "dolores",
+      "Encoding": "quos",
+      "Id": "ipsa",
+      "Disposition": "sed",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 786
+          "FieldLength": 941
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Leannon-Baumbach",
+      "Name": "Ernser Inc and Sons",
       "Values": [
-        "ea",
-        "officia"
+        "et",
+        "voluptates"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 47
+          "FieldLength": 236
         }
       }
     },
     {
-      "Name": "Leannon-Baumbach",
+      "Name": "Ernser Inc and Sons",
       "Values": [
-        "ea",
-        "officia"
+        "et",
+        "voluptates"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 47
+          "FieldLength": 236
         }
       }
     }
   ],
-  "FolderName": "Blanda, Borer and Von",
-  "EmailItemId": 8,
-  "AccountId": 232,
-  "ReceivedAt": "2022-08-25T02:38:21.3232921+02:00",
+  "FolderName": "Corwin LLC",
+  "EmailItemId": 322,
+  "AccountId": 840,
+  "ReceivedAt": "2004-07-16T14:28:21.8991479+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2020-01-27T02:38:21.3232921+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2013-06-29T14:28:21.8991479+02:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldLength": 91
     }
   }
 }

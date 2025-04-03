@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schowalter Inc and Sons",
+  "Name": "Tillman, DuBuque and Wisoky",
   "ForceFlatList": false,
-  "AdditionalInfo": "recusandae",
+  "AdditionalInfo": "enim",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 930,
-    "Name": "Schneider Inc and Sons",
-    "ToolTip": "Architecto officiis fugit numquam reprehenderit officiis.",
+    "Id": 491,
+    "Name": "Kilback-Rodriguez",
+    "ToolTip": "Et corrupti voluptatem recusandae magni non.",
     "Deleted": false,
-    "Rank": 468,
-    "Type": "quia",
-    "ColorBlock": 128,
-    "IconHint": "odio",
-    "Selected": false,
-    "LastChanged": "2001-10-01T02:38:21.5732692+02:00",
+    "Rank": 105,
+    "Type": "deleniti",
+    "ColorBlock": 880,
+    "IconHint": "iure",
+    "Selected": true,
+    "LastChanged": "2023-12-06T14:28:22.1178891+01:00",
     "ChildItems": [
       {
-        "Id": 212,
-        "Name": "Trantow LLC",
-        "ToolTip": "Libero recusandae consequatur at ab.",
-        "Deleted": true,
-        "Rank": 237,
-        "Type": "quis",
-        "ColorBlock": 638,
-        "IconHint": "autem",
-        "Selected": false,
-        "LastChanged": "2000-03-02T02:38:21.5732692+01:00",
+        "Id": 611,
+        "Name": "Jacobs-Bins",
+        "ToolTip": "Necessitatibus vel rerum.",
+        "Deleted": false,
+        "Rank": 584,
+        "Type": "consequatur",
+        "ColorBlock": 543,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2023-06-29T14:28:22.1178891+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "excepturi",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "similique",
         "Hidden": false,
-        "FullName": "Dr. Garnet Van Boyle PhD",
+        "FullName": "Telly Brakus III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 890
+            "FieldType": "System.String",
+            "FieldLength": 694
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "sint",
+    "ExtraInfo": "eum",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Shakira Hessel",
+    "FullName": "Clyde Strosin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 706
+        "FieldType": "System.Int32",
+        "FieldLength": 913
       }
     }
   }

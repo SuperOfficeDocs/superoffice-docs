@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 202,
-  "Name": "Cormier Inc and Sons",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "Rank": 689,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 845,
+  "Name": "Wisoky, Sawayn and Trantow",
+  "Tooltip": "eius",
+  "Deleted": false,
+  "Rank": 789,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aliquid",
+  "ListType": "sit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 712,
-  "Name": "DuBuque, Jerde and Schiller",
-  "Tooltip": "sit",
-  "Deleted": false,
-  "Rank": 291,
-  "IsCustomList": true,
+  "Id": 73,
+  "Name": "Halvorson Inc and Sons",
+  "Tooltip": "repellat",
+  "Deleted": true,
+  "Rank": 86,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quidem",
+  "ListType": "eum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 857
+      "FieldType": "System.Int32",
+      "FieldLength": 765
     }
   }
 }

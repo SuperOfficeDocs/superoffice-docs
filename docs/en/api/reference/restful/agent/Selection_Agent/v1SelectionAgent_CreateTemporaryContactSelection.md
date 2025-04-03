@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Realigned attitude-oriented database",
-  "Postit": "amet",
+  "Description": "Customizable encompassing focus group",
+  "Postit": "corporis",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 460,
-  "IncludePerson": 399,
+  "GroupIdx": 348,
+  "IncludePerson": 430,
   "MemberCount": 99.99,
-  "Name": "Koelpin, Bins and McLaughlin",
-  "PostitTextId": 234,
-  "CreatedDate": "2024-08-26T02:38:21.9794397+02:00",
-  "SelectionId": 139,
-  "SoundEx": "delectus",
-  "Source": 395,
-  "TextId": 669,
-  "UpdatedDate": "2000-07-01T02:38:21.9794397+02:00",
-  "UpdatedCount": 289,
-  "Visibility": 754,
+  "Name": "Walter-Jones",
+  "PostitTextId": 459,
+  "CreatedDate": "2009-06-21T14:28:22.3991281+02:00",
+  "SelectionId": 743,
+  "SoundEx": "perferendis",
+  "Source": 909,
+  "TextId": 690,
+  "UpdatedDate": "2012-06-16T14:28:22.3991281+02:00",
+  "UpdatedCount": 928,
+  "Visibility": 56,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 25,
-  "TargetTableName": "Christiansen-Hahn",
-  "Completed": true,
-  "LeftSelectionId": 978,
-  "RightSelectionId": 3,
+  "TargetTableNumber": 196,
+  "TargetTableName": "Stanton-Ferry",
+  "Completed": false,
+  "LeftSelectionId": 9,
+  "RightSelectionId": 625,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Blanda Inc and Sons",
-  "ShadowProviderName": "Pollich-Hegmann",
-  "ChartKey": "omnis",
-  "LastLoaded": "2023-06-07T02:38:21.9794397+02:00",
-  "LastLoadedBy": 756,
+  "MainProviderName": "Huels LLC",
+  "ShadowProviderName": "Schuppe-Harber",
+  "ChartKey": "voluptatem",
+  "LastLoaded": "2015-11-26T14:28:22.3991281+01:00",
+  "LastLoadedBy": 936,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-05-10T02:38:21.9794397+02:00",
-  "LastMembershipChangeBy": 742,
+  "LastMembershipChange": "1999-01-29T14:28:22.3991281+01:00",
+  "LastMembershipChangeBy": 484,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quae",
-  "MemberTabHeading": "sunt",
-  "MailingsProviderName": "Walker Inc and Sons",
-  "DashboardTileDefinitionId": 684,
+  "MainHeading": "non",
+  "MemberTabHeading": "rerum",
+  "MailingsProviderName": "Corkery Group",
+  "DashboardTileDefinitionId": 851,
   "VisibleFor": [
     {
-      "VisibleId": 289,
+      "VisibleId": 652,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 945
+          "FieldType": "System.String",
+          "FieldLength": 62
         }
       }
     },
     {
-      "VisibleId": 289,
+      "VisibleId": 652,
       "Visibility": "All",
-      "DisplayValue": "in",
+      "DisplayValue": "error",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 945
+          "FieldType": "System.String",
+          "FieldLength": 62
         }
       }
     }
@@ -187,8 +187,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 86
+      "FieldType": "System.Int32",
+      "FieldLength": 681
     }
   }
 }

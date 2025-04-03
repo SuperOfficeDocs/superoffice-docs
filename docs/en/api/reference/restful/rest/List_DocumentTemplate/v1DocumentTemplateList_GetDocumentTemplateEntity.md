@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 650,
-  "Name": "Kozey, Schulist and Leuschke",
-  "Tooltip": "aspernatur",
-  "SaveInDb": 64,
-  "Filename": "dolor",
-  "DefaultOref": "voluptates",
+  "DocumentTemplateId": 184,
+  "Name": "Towne-Murazik",
+  "Tooltip": "nulla",
+  "SaveInDb": 621,
+  "Filename": "eos",
+  "DefaultOref": "eos",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 944,
-  "IntentId": 521,
-  "IsDefaultPublished": false,
-  "Rank": 252,
-  "LoadTemplateFromPlugin": 420,
-  "MimeType": "est",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 81,
+  "AutoeventId": 843,
+  "IntentId": 337,
+  "IsDefaultPublished": true,
+  "Rank": 348,
+  "LoadTemplateFromPlugin": 222,
+  "MimeType": "vitae",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 766,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "humberto.konopelski@cartwrightstracke.info",
+  "EmailSubject": "lucy.rolfson@handreichert.ca",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "christine@runolfsdottir.uk",
+  "SenderEmailAddress": "kaylee.runolfsson@schinner.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldType": "System.String",
+      "FieldLength": 595
     }
   }
 }

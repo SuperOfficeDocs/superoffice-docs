@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 387,
-    "Name": "Larson-Johns",
-    "Tooltip": "perferendis",
+    "HeadingId": 632,
+    "Name": "Heidenreich, Lind and Casper",
+    "Tooltip": "recusandae",
     "Deleted": false,
-    "Rank": 335,
-    "UdListDefinitionId": 519,
+    "Rank": 426,
+    "UdListDefinitionId": 365,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 251
+        "FieldLength": 717
       }
     }
   }

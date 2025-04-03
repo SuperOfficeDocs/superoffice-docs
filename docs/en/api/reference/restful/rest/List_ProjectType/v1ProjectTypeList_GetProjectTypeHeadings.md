@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 280,
-    "Name": "Dickinson, Lueilwitz and Rohan",
-    "Tooltip": "nam",
+    "HeadingId": 411,
+    "Name": "Upton Group",
+    "Tooltip": "exercitationem",
     "Deleted": false,
-    "Rank": 786,
-    "UdListDefinitionId": 291,
+    "Rank": 445,
+    "UdListDefinitionId": 788,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 143
+        "FieldLength": 595
       }
     }
   }

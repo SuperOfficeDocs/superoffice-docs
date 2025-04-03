@@ -103,54 +103,54 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Durgan-Buckridge",
+  "ProviderName": "Fritsch-White",
   "Columns": [
-    "corrupti",
-    "quidem"
+    "sapiente",
+    "aperiam"
   ],
   "SortOrder": [
     {
-      "Name": "O'Connell, Jewess and Jacobson",
+      "Name": "Jast Inc and Sons",
       "Direction": "ASC"
     },
     {
-      "Name": "O'Connell, Jewess and Jacobson",
+      "Name": "Jast Inc and Sons",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Bergnaum LLC",
-      "Operator": "dolorum",
+      "Name": "Cummerata, Dietrich and Powlowski",
+      "Operator": "doloremque",
       "Values": [
-        "officia",
-        "quasi"
+        "quae",
+        "quia"
       ],
       "DisplayValues": [
-        "et",
-        "tempora"
+        "dolor",
+        "sit"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 86,
+      "InterParenthesis": 620,
       "InterOperator": "And",
-      "UniqueHash": 385
+      "UniqueHash": 693
     }
   ],
   "Entities": [
-    "rerum",
-    "quo"
+    "ipsum",
+    "voluptatum"
   ],
-  "Page": 760,
-  "PageSize": 722
+  "Page": 848,
+  "PageSize": 814
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Senger-Deckow",
-    "PrimaryKey": 851,
+    "EntityName": "Waters-Kling",
+    "PrimaryKey": 671,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "cumque",
-        "TooltipHint": "et",
-        "LinkHint": "soluta"
+        "DisplayValue": "ea",
+        "TooltipHint": "odit",
+        "LinkHint": "autem"
       }
     },
-    "LinkHint": "exercitationem",
-    "StyleHint": "esse",
+    "LinkHint": "nisi",
+    "StyleHint": "assumenda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 921
+        "FieldLength": 31
       }
     }
   }

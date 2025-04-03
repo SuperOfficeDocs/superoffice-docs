@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/UserGroup/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 296,
-    "Name": "Lockman-Jenkins",
-    "Tooltip": "ut",
+    "HeadingId": 512,
+    "Name": "O'Keefe, Koelpin and Keeling",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 216,
-    "UdListDefinitionId": 689
+    "Rank": 562,
+    "UdListDefinitionId": 9
   },
   {
-    "HeadingId": 296,
-    "Name": "Lockman-Jenkins",
-    "Tooltip": "ut",
+    "HeadingId": 512,
+    "Name": "O'Keefe, Koelpin and Keeling",
+    "Tooltip": "eum",
     "Deleted": false,
-    "Rank": 216,
-    "UdListDefinitionId": 689
+    "Rank": 562,
+    "UdListDefinitionId": 9
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 96,
-    "Name": "Harris Group",
-    "Tooltip": "eos",
-    "Deleted": true,
-    "Rank": 931,
-    "UdListDefinitionId": 544,
+    "HeadingId": 524,
+    "Name": "Heaney-Abernathy",
+    "Tooltip": "quae",
+    "Deleted": false,
+    "Rank": 259,
+    "UdListDefinitionId": 509,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 454
+        "FieldType": "System.String",
+        "FieldLength": 628
       }
     }
   }

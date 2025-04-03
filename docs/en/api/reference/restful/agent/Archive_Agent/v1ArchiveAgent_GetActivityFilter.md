@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2013-05-13T02:38:20.8545926+02:00",
-  "ToDate": "2003-10-01T02:38:20.8545926+02:00",
+  "FromDate": "2000-09-16T14:28:21.4616659+02:00",
+  "ToDate": "2022-07-04T14:28:21.4616659+02:00",
   "AssociateList": [
     {
-      "Id": 339,
-      "Name": "Krajcik Inc and Sons",
-      "ToolTip": "Libero placeat et et cupiditate molestiae enim a.",
+      "Id": 104,
+      "Name": "McClure-Kassulke",
+      "ToolTip": "Quas amet molestias ducimus repellat molestias repellat magni.",
       "Deleted": false,
-      "Rank": 841,
-      "Type": "delectus",
-      "ColorBlock": 904,
-      "IconHint": "corporis",
-      "Selected": true,
-      "LastChanged": "2005-07-06T02:38:20.8545926+02:00",
+      "Rank": 833,
+      "Type": "debitis",
+      "ColorBlock": 884,
+      "IconHint": "et",
+      "Selected": false,
+      "LastChanged": "2021-06-07T14:28:21.4616659+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "blanditiis",
+      "ExtraInfo": "quas",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Wava Diego Effertz IV",
+      "FullName": "General Hahn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 499
+          "FieldLength": 588
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 900,
-      "Name": "Bergstrom Group",
-      "ToolTip": "Et id ullam quis qui ipsum aut.",
+      "Id": 889,
+      "Name": "Rath Inc and Sons",
+      "ToolTip": "Rem ut quisquam non aliquid repellat architecto fuga.",
       "Deleted": true,
-      "Rank": 76,
-      "Type": "vitae",
-      "ColorBlock": 128,
-      "IconHint": "voluptates",
+      "Rank": 477,
+      "Type": "et",
+      "ColorBlock": 197,
+      "IconHint": "consequuntur",
       "Selected": true,
-      "LastChanged": "2009-08-06T02:38:20.8545926+02:00",
+      "LastChanged": "2016-06-01T14:28:21.4616659+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "debitis",
-      "StyleHint": "ducimus",
-      "Hidden": true,
-      "FullName": "Mrs. Beryl Morissette",
+      "ExtraInfo": "est",
+      "StyleHint": "et",
+      "Hidden": false,
+      "FullName": "Lucinda Wintheiser",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 193
+          "FieldLength": 10
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 720,
-      "Name": "Dare, Towne and Lubowitz",
-      "ToolTip": "Tempore sed numquam neque et.",
+      "Id": 676,
+      "Name": "Hartmann, Waelchi and Maggio",
+      "ToolTip": "Voluptas voluptas repudiandae sint odit et.",
       "Deleted": false,
-      "Rank": 222,
-      "Type": "officiis",
+      "Rank": 454,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "perferendis",
-      "ColorBlock": 615,
-      "ExtraInfo": "voluptatem",
-      "StyleHint": "ipsam",
-      "FullName": "Wilhelm Kertzmann",
+      "IconHint": "modi",
+      "ColorBlock": 280,
+      "ExtraInfo": "iure",
+      "StyleHint": "eius",
+      "FullName": "Eleanore Dessie Boehm DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 103
+          "FieldType": "System.String",
+          "FieldLength": 617
         }
       }
     }
@@ -173,7 +173,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 343
+      "FieldLength": 846
     }
   }
 }

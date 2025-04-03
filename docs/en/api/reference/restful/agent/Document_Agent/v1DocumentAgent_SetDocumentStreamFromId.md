@@ -113,7 +113,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 905,
+  "DocumentId": 395,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 896,
+  "DocumentId": 493,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "molestias",
-  "Header": "illum",
-  "Name": "Kuhn-Deckow",
-  "OurRef": "sunt",
-  "YourRef": "eligendi",
-  "CreatedDate": "2024-07-22T02:38:21.3076706+02:00",
-  "UpdatedDate": "2022-02-20T02:38:21.3076706+01:00",
-  "Description": "Future-proofed 6th generation Graphical User Interface",
+  "Attention": "consequatur",
+  "Header": "quia",
+  "Name": "Terry Inc and Sons",
+  "OurRef": "voluptatem",
+  "YourRef": "praesentium",
+  "CreatedDate": "2014-10-19T14:28:21.8835236+02:00",
+  "UpdatedDate": "2012-08-24T14:28:21.8835236+02:00",
+  "Description": "Seamless fresh-thinking help-desk",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-05-21T02:38:21.3076706+02:00",
-  "ExternalRef": "laudantium",
+  "Date": "2006-08-11T14:28:21.8835236+02:00",
+  "ExternalRef": "provident",
   "Completed": "Completed",
-  "ActiveLinks": 816,
+  "ActiveLinks": 103,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Durgan-Koepp",
-      "Id": 731,
-      "Description": "Implemented object-oriented database",
-      "ExtraInfo": "dolores",
-      "LinkId": 913,
+      "EntityName": "Heidenreich-Klein",
+      "Id": 149,
+      "Description": "Switchable even-keeled intranet",
+      "ExtraInfo": "placeat",
+      "LinkId": 541,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 607
+          "FieldLength": 122
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 294,
-  "Snum": 472,
+  "SuggestedDocumentId": 808,
+  "Snum": 887,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Mr. Teagan Cronin Sr."
+    "SuperOffice:1": "Shawna Vance Batz Jr.",
+    "SuperOffice:2": "Genesis Padberg"
   },
   "ExtraFields": {
-    "ExtraFields1": "quia",
-    "ExtraFields2": "ut"
+    "ExtraFields1": "ducimus",
+    "ExtraFields2": "autem"
   },
   "CustomFields": {
-    "CustomFields1": "ipsum",
-    "CustomFields2": "delectus"
+    "CustomFields1": "eligendi",
+    "CustomFields2": "voluptas"
   },
-  "PublishEventDate": "2001-07-14T02:38:21.3076706+02:00",
-  "PublishTo": "2019-07-25T02:38:21.3076706+02:00",
-  "PublishFrom": "2020-03-13T02:38:21.3076706+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-12-01T14:28:21.8835236+01:00",
+  "PublishTo": "2011-10-28T14:28:21.8835236+02:00",
+  "PublishFrom": "2003-12-31T14:28:21.8835236+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 282,
+      "VisibleId": 80,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 577
+          "FieldType": "System.Int32",
+          "FieldLength": 279
         }
       }
     },
     {
-      "VisibleId": 282,
+      "VisibleId": 80,
       "Visibility": "All",
-      "DisplayValue": "aut",
+      "DisplayValue": "esse",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 577
+          "FieldType": "System.Int32",
+          "FieldLength": 279
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 937
+      "FieldLength": 22
     }
   }
 }

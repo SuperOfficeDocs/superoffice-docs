@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=ex
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=aut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Smith-Kris",
-    "ToolTip": "Est illum error.",
+    "Id": 385,
+    "Name": "Reilly-Will",
+    "ToolTip": "Corrupti unde iusto.",
     "Deleted": false,
-    "Rank": 685,
-    "Type": "atque",
+    "Rank": 176,
+    "Type": "labore",
     "ChildItems": [
       {
-        "Id": 674,
-        "Name": "Koepp-Rowe",
-        "ToolTip": "Ratione ducimus est.",
+        "Id": 288,
+        "Name": "Padberg LLC",
+        "ToolTip": "Perferendis necessitatibus pariatur.",
         "Deleted": false,
-        "Rank": 690,
-        "Type": "quo",
+        "Rank": 614,
+        "Type": "delectus",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "totam",
-        "ColorBlock": 954,
-        "ExtraInfo": "nemo",
-        "StyleHint": "molestiae",
-        "FullName": "Mr. Dustin Lemke",
+        "IconHint": "earum",
+        "ColorBlock": 295,
+        "ExtraInfo": "quia",
+        "StyleHint": "totam",
+        "FullName": "Wava Metz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 518
+            "FieldLength": 43
           }
         }
       }
     ],
-    "IconHint": "accusamus",
-    "ColorBlock": 499,
-    "ExtraInfo": "accusantium",
-    "StyleHint": "sed",
-    "FullName": "Mr. Malvina Gorczany IV",
+    "IconHint": "voluptatem",
+    "ColorBlock": 374,
+    "ExtraInfo": "sint",
+    "StyleHint": "velit",
+    "FullName": "Ms. Johathan Kulas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 854
+        "FieldType": "System.Int32",
+        "FieldLength": 144
       }
     }
   }

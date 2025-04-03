@@ -761,7 +761,7 @@ Combined multi-query ticket search provider supporting freetext and finding tick
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextTicket?$select=getAllRows,firstReadByUser,createdBy/contactFullName,ownedBy/associateDbId,ownedBy/usergroup
+GET /api/v1/archive/FreetextTicket?$select=person/fullName,person/useAsMailingAddress,contact/contactAssociate/credentialDisplayValue,contact/NumberOfNotCompletedActivities,sale/personId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

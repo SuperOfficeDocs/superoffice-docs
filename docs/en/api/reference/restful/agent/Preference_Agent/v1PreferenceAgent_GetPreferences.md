@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "reiciendis",
-      "Key": "nisi"
+      "Section": "libero",
+      "Key": "distinctio"
     },
     {
-      "Section": "reiciendis",
-      "Key": "nisi"
+      "Section": "libero",
+      "Key": "distinctio"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "ad",
+    "RawValue": "non",
     "Specification": null,
-    "DisplayValue": "iusto",
-    "DisplayTooltip": "rem",
+    "DisplayValue": "eaque",
+    "DisplayTooltip": "inventore",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 739,
-    "PrefDescId": 239,
-    "TableName": "Bartoletti, Koelpin and Miller",
-    "UserPreferenceId": 762,
+    "TargetId": 63,
+    "PrefDescId": 431,
+    "TableName": "Kirlin-Howell",
+    "UserPreferenceId": 668,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 875
+        "FieldType": "System.Int32",
+        "FieldLength": 1000
       }
     }
   }

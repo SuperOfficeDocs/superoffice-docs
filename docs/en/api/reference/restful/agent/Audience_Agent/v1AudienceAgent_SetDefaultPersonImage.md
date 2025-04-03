@@ -67,11 +67,11 @@ No Content
 POST /api/v1/Agents/Audience/SetDefaultPersonImage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Weimann-Runolfsdottir",
+  "LayoutName": "Torphy, Spinka and Kozey",
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

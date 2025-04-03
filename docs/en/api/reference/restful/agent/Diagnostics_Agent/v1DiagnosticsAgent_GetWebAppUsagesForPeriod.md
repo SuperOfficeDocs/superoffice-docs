@@ -81,13 +81,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetWebAppUsagesForPeriod
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2003-09-29T02:38:21.2139317+02:00",
-  "ToDate": "2023-09-19T02:38:21.2139317+02:00",
-  "SearchTerm": "quibusdam"
+  "FromDate": "2020-04-13T14:28:21.7116556+02:00",
+  "ToDate": "2011-07-03T14:28:21.7116556+02:00",
+  "SearchTerm": "nihil"
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 913,
-    "AssocId": 916,
-    "Timestamp": "2000-06-25T02:38:21.2139317+02:00",
-    "ViewState": "vero",
-    "AggregateCount": 821,
-    "AggregateBin": 716,
-    "Version": 685,
+    "WebAppUsageId": 404,
+    "AssocId": 406,
+    "Timestamp": "2000-01-25T14:28:21.7116556+01:00",
+    "ViewState": "harum",
+    "AggregateCount": 449,
+    "AggregateBin": 794,
+    "Version": 980,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 261
+        "FieldLength": 131
       }
     }
   }

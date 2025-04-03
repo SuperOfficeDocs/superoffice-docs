@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "Daugherty-Lubowitz",
-    "ToolTip": "Architecto aut dolorem.",
+    "Id": 507,
+    "Name": "Ritchie, Nader and Little",
+    "ToolTip": "Temporibus dolorum consectetur iste ullam.",
     "Deleted": false,
-    "Rank": 745,
-    "Type": "quae",
-    "ColorBlock": 798,
-    "IconHint": "sed",
+    "Rank": 748,
+    "Type": "at",
+    "ColorBlock": 549,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2013-08-25T02:38:26.8080217+02:00",
+    "LastChanged": "2007-10-31T14:28:27.6020419+01:00",
     "ChildItems": [
       {
-        "Id": 659,
-        "Name": "Schamberger, Cassin and Adams",
-        "ToolTip": "Hic eum inventore et.",
+        "Id": 247,
+        "Name": "Gutmann, Zieme and Abernathy",
+        "ToolTip": "Omnis accusamus tempora sunt.",
         "Deleted": false,
-        "Rank": 845,
-        "Type": "ad",
-        "ColorBlock": 89,
-        "IconHint": "dicta",
+        "Rank": 778,
+        "Type": "qui",
+        "ColorBlock": 917,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1999-04-18T02:38:26.8080217+02:00",
+        "LastChanged": "2013-06-26T14:28:27.6020419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Ms. Angelo Louvenia Daugherty V"
+        "ExtraInfo": "unde",
+        "StyleHint": "commodi",
+        "Hidden": true,
+        "FullName": "Prof. Rickey Brekke II"
       }
     ],
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "odio",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Greta Reichel"
+    "FullName": "Selmer Ferry"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 945,
-    "Name": "Kihn, Ortiz and Lemke",
-    "ToolTip": "Labore neque iusto illo.",
-    "Deleted": true,
-    "Rank": 135,
-    "Type": "ipsum",
-    "ColorBlock": 613,
-    "IconHint": "expedita",
+    "Id": 346,
+    "Name": "Robel Inc and Sons",
+    "ToolTip": "Autem sit nostrum inventore.",
+    "Deleted": false,
+    "Rank": 46,
+    "Type": "quo",
+    "ColorBlock": 927,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2008-11-21T02:38:26.8080217+01:00",
+    "LastChanged": "2001-08-26T14:28:27.6020419+02:00",
     "ChildItems": [
       {
-        "Id": 266,
-        "Name": "Kiehn Inc and Sons",
-        "ToolTip": "Commodi voluptatum culpa temporibus sint in beatae consectetur.",
+        "Id": 453,
+        "Name": "Leffler, Gusikowski and Heidenreich",
+        "ToolTip": "Sed facere beatae fugiat dolorem aspernatur.",
         "Deleted": false,
-        "Rank": 190,
-        "Type": "saepe",
-        "ColorBlock": 159,
-        "IconHint": "magnam",
-        "Selected": false,
-        "LastChanged": "2013-06-12T02:38:26.8080217+02:00",
+        "Rank": 547,
+        "Type": "quia",
+        "ColorBlock": 991,
+        "IconHint": "sunt",
+        "Selected": true,
+        "LastChanged": "2005-10-25T14:28:27.6020419+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "nulla",
-        "Hidden": true,
-        "FullName": "Melyna Paucek",
+        "ExtraInfo": "sint",
+        "StyleHint": "sequi",
+        "Hidden": false,
+        "FullName": "Cyrus Runolfsdottir I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 651
+            "FieldLength": 590
           }
         }
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "doloribus",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Ms. Xavier Bergstrom Sr.",
+    "FullName": "Ofelia Koss IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 436
+        "FieldType": "System.String",
+        "FieldLength": 876
       }
     }
   }

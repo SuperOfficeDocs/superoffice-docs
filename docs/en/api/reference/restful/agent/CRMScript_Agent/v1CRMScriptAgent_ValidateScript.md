@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptId": 967
+  "CRMScriptId": 812
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Valid": true,
-  "ErrorMessage": "dolorem",
-  "LineNumber": 740,
+  "Valid": false,
+  "ErrorMessage": "porro",
+  "LineNumber": 517,
   "ErrorInformation": null,
-  "Transpiled": "aut",
+  "Transpiled": "atque",
   "Includes": [
-    151,
-    964
+    519,
+    774
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 934,
-      "LineNumberTo": 209,
-      "Delta": 729,
-      "IncludeId": "est",
+      "LineNumberFrom": 598,
+      "LineNumberTo": 402,
+      "Delta": 890,
+      "IncludeId": "ab",
       "IncludedFrom": [
-        "expedita",
-        "accusamus"
+        "aut",
+        "doloremque"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 26
+          "FieldLength": 688
         }
       }
     }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldType": "System.String",
+      "FieldLength": 255
     }
   }
 }
