@@ -100,7 +100,7 @@ To ensure consistency, use a well-designed quote document template. Administrato
 [6]: create.md#copy
 [3]: create-quote-document.md
 [4]: send.md
-[5]: create-order.md
+[5]: place-order.md
 [7]: add-alternative.md
 [11]: ../../admin/quote.md
 

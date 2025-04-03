@@ -95,9 +95,7 @@ To add multiple products at once, you must use the advanced search.
 
     The search includes all active price lists with the sale's currency.
 
-1. Select the products you want to add:
-
-    * **Ctrl+click** (Windows) or **Cmd+click** (Mac) to select multiple products
+1. Select the products you want to add: **Ctrl+click** (Windows) or **Cmd+click** (Mac) to select multiple products.
 
 1. Click **OK**. All selected products are added to the quote.
 
@@ -184,16 +182,14 @@ These messages may be displayed in the following places:
 * [Create a quote document][6]
 * [Send a quote][7]
 * [Create an order][8]
-* [Edit a sent quote (versions)][3]
 * [Set up your products and prices in Settings and maintenance][9]
 
 <!-- Referenced links -->
 [1]: ../create.md
-[3]: versions.md
 [5]: add-alternative.md
 [6]: create-quote-document.md
 [7]: send.md
-[8]: create-order.md
+[8]: place-order.md
 [9]: ../../admin/quote.md
 
 <!-- Referenced images -->

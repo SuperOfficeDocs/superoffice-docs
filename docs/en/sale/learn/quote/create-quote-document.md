@@ -26,10 +26,10 @@ You can create the document either from the **Quote** section tab of a sale or f
 
 1. If you are already editing the quote, click **Click to create quote document** at the top of the **Edit quote** dialog.
 
-   *Otherwise*, go to the **Quote** section tab on the sale and click **Click to create quote document**.
+    *Otherwise*, go to the **Quote** section tab on the sale and click **Click to create quote document**.
 
-   > [!NOTE]
-   > The quote must be in **Draft** state. If it is already sent, [create a new version][1] first.
+    > [!NOTE]
+    > The quote must be in **Draft** state. If it is already sent, [create a new version][1] first.
 
 1. In the **Document** dialog, [complete the required fields][2].
 
@@ -39,7 +39,7 @@ You can create the document either from the **Quote** section tab of a sale or f
 
     The document appears on the **Quote** section tab and is linked to the quote. It is also listed in the **Activities** section tab on the sale (and in the Company and Diary screens).
 
-## Replace the quote document
+## <a id="replace"></a>Replace the quote document
 
 To change the contents or template used for a quote document, choose one of the following options:
 
@@ -79,7 +79,7 @@ Use this method to manually create a new document using your preferred template,
 
 1. Select the new document from the list.
 
-   > The list shows all quote documents registered for the current sale.
+    The list shows all quote documents registered for the current sale.
 
 > [!TIP]
 > For minor changes, open the existing document, make edits, and save. No need to replace the file or delete the document.
@@ -100,9 +100,9 @@ The templates for quote documents, quote details, and order confirmations differ
 * [Template variables and merge fields][3]
 
 <!-- Referenced links -->
-[1]: versions.md
+[1]: send.md#versions
 [2]: ../../../document/learn/edit.md
 [3]: ../../../document/templates/merge-fields/quote.md
 [6]: ../../../document/templates/learn/quote-templates.md
 [4]: send.md
-[5]: create-order.md
+[5]: place-order.md

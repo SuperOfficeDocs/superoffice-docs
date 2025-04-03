@@ -7,11 +7,7 @@ items:
   href: add-alternative.md
 - name: Create quote document
   href: create-quote-document.md
-- name: Approve quote before sending
-  href: approve.md
-- name: Send quote
+- name: Approve and send quote
   href: send.md
-- name: Edit a sent quote (versions)
-  href: versions.md
 - name: Place an order
-  href: create-order.md
+  href: place-order.md

@@ -26,8 +26,7 @@ You can create a new alternative from scratch or copy an existing one.
 
 1. In the **Quote** section tab of the sale, click **Open** to edit the quote.
 
-    > [!NOTE]
-    > The quote must be in **Draft** state. If it is already sent, [create a new version][1].
+    The quote must be in **Draft** state. If it is already sent, [create a new version][1].
 
 1. Click the **+** tab next to the last alternative.
 
@@ -59,6 +58,6 @@ You can create a new alternative from scratch or copy an existing one.
 > The <i class="ph ph-trash" aria-hidden="true"></i> icon below the product list only deletes selected **product lines**, not alternatives.
 
 <!-- Referenced links -->
-[1]: versions.md
+[1]: send.md#versions
 [2]: create.md#add-products
-[3]: ../admin/sale-type.md#quote-fields
+[3]: ../../admin/sale-type.md#quote-fields
