@@ -2,7 +2,7 @@
 uid: help-en-erp-configure
 title: Configure ERP connection
 description: Configure synchronization between SuperOffice CRM and your ERP system by mapping fields, setting defaults, and prioritizing ERP connections.
-keywords: ERP connection, configure sync, field mapping, list mapping, default values, rank ERP fields, set sync priority, activate ERP connection, edit ERP connection, SuperOffice ERP integration, ERP tab, sync connector
+keywords: ERP connection, configure sync, field mapping, list mapping, default values, rank ERP fields, set sync priority, edit ERP connection, SuperOffice ERP integration, ERP tab, sync connector
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
@@ -16,16 +16,6 @@ language: en
 # Configure ERP connection
 
 After adding an ERP connection, you must configure how data is synchronized between SuperOffice and the ERP system. You do this using the buttons at the bottom of the **Sync** tab in the Quote/Sync screen.
-
-> [!NOTE]
-> If the connection is active (checkmark in the **Active** column), you must temporarily deactivate it before making changes:
->
-> 1. Select the connection and click **Configure ERP connection**.
-> 2. In the dialog, clear the **Active** checkbox.
-> 3. Click **Test ERP connection** to enable the **OK** button.
-> 4. Click **OK** to save.
->
-> Remember to reactivate the connection after configuration.
 
 ![ERP connections list with options below -screenshot][img1]
 
@@ -62,7 +52,7 @@ Field mappings define how ERP fields correspond to SuperOffice fields and how da
 
 1. Click **Done** when finished.
 
-You can now continue with list mapping, default values, or ranking fields *or* reactivate the connection if no further configuration is needed.
+You can now continue with list mapping, default values, or ranking fields *or* activate the connection if no further configuration is needed.
 
 ## <a id="list-mapping"></a>List mapping
 
@@ -80,7 +70,7 @@ If you mapped any list fields, such as category or status, you must also map the
 
 1. Repeat for all relevant lists.
 
-1. Click **Save**, then reactivate the ERP connection if no further configuration is needed.
+1. Click **Save**, then activate the ERP connection if no further configuration is needed.
 
 ## <a id="defaults"></a>Default values for synchronization
 
@@ -158,14 +148,6 @@ If the direction arrows remain dimmed even after selecting a SuperOffice field, 
 * The field is not valid for the selected ERP actor.
 
 Hover over the arrow to see a tooltip explaining why it is unavailable.
-
-### ERP connection cannot be saved
-
-If the **OK** button is dimmed when adding or editing a connection:
-
-* Make sure the connection test has succeeded.
-* Check that all required configuration fields are filled in.
-* Confirm that any mandatory settings (such as scope) are completed.
 
 <!-- Referenced links -->
 

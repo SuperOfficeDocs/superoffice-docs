@@ -17,16 +17,6 @@ language: de
 
 Nachdem Sie eine ERP-Verbindung hinzugefügt haben, müssen Sie konfigurieren, wie Daten zwischen SuperOffice und dem ERP-System synchronisiert werden. Dies erfolgt über die Schaltflächen unten auf der Registerkarte **Sync** in der Ansicht Angebot/Sync.
 
-> [!NOTE]
-> Wenn die Verbindung aktiv ist (Häkchen in der Spalte **Aktiv**), müssen Sie sie vorübergehend deaktivieren, um Änderungen vornehmen zu können:
->
-> 1. Wählen Sie die Verbindung aus und klicken Sie auf **ERP-Verbindung konfigurieren**.
-> 2. Deaktivieren Sie im Dialogfeld das Kontrollkästchen **Aktiv**.
-> 3. Klicken Sie auf **ERP-Verbindung testen**, um die Schaltfläche **OK** zu aktivieren.
-> 4. Klicken Sie auf **OK**, um zu speichern.
->
-> Denken Sie daran, die Verbindung nach der Konfiguration wieder zu aktivieren.
-
 ![Liste der ERP-Verbindungen mit Optionen darunter -screenshot][img1]
 
 ## Feldzuordnung
@@ -62,7 +52,7 @@ Die Feldzuordnung definiert, wie ERP-Felder SuperOffice-Feldern zugeordnet werde
 
 1. Klicken Sie auf **Fertig**, wenn Sie fertig sind.
 
-Sie können jetzt mit Listenzuordnung, Standardwerten oder Sortierung der Felder fortfahren – oder die Verbindung wieder aktivieren, wenn keine weitere Konfiguration erforderlich ist.
+Sie können jetzt mit Listenzuordnung, Standardwerten oder Sortierung der Felder fortfahren – oder die Verbindung aktivieren, wenn keine weitere Konfiguration erforderlich ist.
 
 ## <a id="list-mapping"></a>Listenzuordnung
 
@@ -158,14 +148,6 @@ Wenn die Richtungspfeile ausgegraut bleiben, obwohl ein SuperOffice-Feld ausgew�
 * Das Feld ist für den ausgewählten ERP-Aktor nicht gültig.
 
 Fahren Sie mit der Maus über den Pfeil, um eine Erläuterung anzuzeigen.
-
-### ERP-Verbindung kann nicht gespeichert werden
-
-Wenn die Schaltfläche **OK** beim Hinzufügen oder Bearbeiten einer Verbindung deaktiviert ist:
-
-* Stellen Sie sicher, dass der Verbindungstest erfolgreich war.
-* Prüfen Sie, ob alle Pflichtfelder ausgefüllt sind.
-* Überprüfen Sie, ob alle erforderlichen Einstellungen (wie z. B. Umfang) vorgenommen wurden.
 
 <!-- Referenced links -->
 

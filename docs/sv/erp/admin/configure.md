@@ -2,7 +2,7 @@
 uid: help-sv-erp-configure
 title: Konfigurera ERP-koppling
 description: Konfigurera synkronisering mellan SuperOffice CRM och ditt ERP-system genom att mappa fält, ställa in standardvärden och prioritera ERP-kopplingar.
-keywords: ERP-koppling, konfigurera synk, fältmappning, listmappning, standardvärden, ordna ERP-fält, ange synk-prioritet, aktivera ERP-koppling, redigera ERP-koppling, SuperOffice ERP-integration, ERP-flik, synk-connector
+keywords: ERP-koppling, konfigurera synk, fältmappning, listmappning, standardvärden, ordna ERP-fält, ange synk-prioritet, redigera ERP-koppling, SuperOffice ERP-integration, ERP-flik, synk-connector
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
@@ -17,16 +17,6 @@ language: sv
 # Konfigurera ERP-koppling
 
 När du har lagt till en ERP-koppling måste du konfigurera hur data ska synkroniseras mellan SuperOffice och ERP-systemet. Du gör detta med hjälp av knapparna längst ned på fliken **Synk** i fönstret Offert/Synk.
-
-> [!NOTE]
-> Om kopplingen är aktiv (markerad i kolumnen **Aktiv**) måste du tillfälligt inaktivera den innan du gör ändringar:
->
-> 1. Markera kopplingen och klicka på **Konfigurera ERP-koppling**.
-> 2. Avmarkera kryssrutan **Aktiv** i dialogrutan.
-> 3. Klicka på **Testa ERP-koppling** för att aktivera knappen **OK**.
-> 4. Klicka på **OK** för att spara.
->
-> Kom ihåg att aktivera kopplingen igen när du är klar med konfigurationen.
 
 ![ERP-kopplingar med alternativ nedanför -screenshot][img1]
 
@@ -63,7 +53,7 @@ Fältkopplingar definierar hur ERP-fält motsvarar SuperOffice-fält och hur dat
 
 1. Klicka på **Klar** när du är klar.
 
-Du kan nu fortsätta med listmappning, standardvärden eller fältrangordning *eller* återaktivera kopplingen om ingen ytterligare konfiguration krävs.
+Du kan nu fortsätta med listmappning, standardvärden eller fältrangordning *eller* aktivera kopplingen om ingen ytterligare konfiguration krävs.
 
 ## <a id="list-mapping"></a>Listmappning
 
@@ -81,7 +71,7 @@ Om du kopplade några listfält, till exempel kategori eller status, måste du �
 
 1. Upprepa för alla relevanta listor.
 
-1. Klicka på **Spara**, och återaktivera ERP-kopplingen om ingen ytterligare konfiguration krävs.
+1. Klicka på **Spara**, och aktivera ERP-kopplingen om ingen ytterligare konfiguration krävs.
 
 ## <a id="defaults"></a>Standardvärden för synkronisering
 
@@ -159,14 +149,6 @@ Om riktningspilarna är grå även efter att du valt ett SuperOffice-fält kan d
 * Fältet är inte giltigt för vald ERP-aktör.
 
 Håll muspekaren över pilen för att se en förklaring i ett verktygstips.
-
-### ERP-koppling kan inte sparas
-
-Om knappen **OK** är nedtonad när du lägger till eller redigerar en koppling:
-
-* Kontrollera att testet av kopplingen lyckades.
-* Kontrollera att alla obligatoriska konfigurationsfält är ifyllda.
-* Bekräfta att alla obligatoriska inställningar (t.ex. synlighet) är angivna.
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/erp/erp-connection-settings.png

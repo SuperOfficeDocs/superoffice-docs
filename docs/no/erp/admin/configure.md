@@ -2,7 +2,7 @@
 uid: help-no-erp-configure
 title: Konfigurere ERP-kobling
 description: Konfigurer synkronisering mellom SuperOffice CRM og ERP-systemet ved å tilordne felter, angi standardverdier og prioritere ERP-koblinger.
-keywords: ERP-kobling, konfigurere synk, felttilordning, listetilordning, standardverdier, ranger ERP-felter, angi synkprioritet, aktivere ERP-kobling, redigere ERP-kobling, SuperOffice ERP-integrasjon, ERP-fane, sync connector
+keywords: ERP-kobling, konfigurere synk, felttilordning, listetilordning, standardverdier, ranger ERP-felter, angi synkprioritet, redigere ERP-kobling, SuperOffice ERP-integrasjon, ERP-fane, sync connector
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
@@ -16,16 +16,6 @@ language: no
 # Konfigurere ERP-kobling
 
 Når du har lagt til en ERP-kobling, må du konfigurere hvordan data skal synkroniseres mellom SuperOffice og ERP-systemet. Dette gjør du ved å bruke knappene nederst på fanen **Sync** i bildet Tilbud/Sync.
-
-> [!NOTE]
-> Hvis koblingen er aktiv (avmerket i kolonnen **Aktiv**), må du midlertidig deaktivere den før du kan gjøre endringer:
->
-> 1. Velg koblingen og klikk på **Konfigurer ERP-kobling**.
-> 2. Fjern merket i avmerkingsboksen **Aktiv** i dialogboksen.
-> 3. Klikk på **Test ERP-kobling** for å aktivere **OK**-knappen.
-> 4. Klikk på **OK** for å lagre.
->
-> Husk å aktivere koblingen igjen etter at konfigurasjonen er fullført.
 
 ![ERP-koblinger vist i Sync-fanen med alternativer nederst -screenshot][img1]
 
@@ -62,7 +52,7 @@ Felttilordning definerer hvordan ERP-felter tilsvarer SuperOffice-felter, og hvo
 
 1. Klikk på **Fullført** når du er ferdig.
 
-Du kan nå fortsette med listetilordning, standardverdier eller rangering av felter – *eller* aktivere koblingen igjen hvis ingen videre konfigurasjon er nødvendig.
+Du kan nå fortsette med listetilordning, standardverdier eller rangering av felter – *eller* aktivere koblingen hvis ingen videre konfigurasjon er nødvendig.
 
 ## <a id="list-mapping"></a>Listetilordning
 
@@ -80,7 +70,7 @@ Hvis du har tilordnet listefelt, som kategori eller status, må du også knytte 
 
 1. Gjenta for alle relevante lister.
 
-1. Klikk på **Lagre**, og aktiver ERP-koblingen igjen hvis ingen ytterligere konfigurasjon er nødvendig.
+1. Klikk på **Lagre**, og aktiver ERP-koblingen hvis ingen ytterligere konfigurasjon er nødvendig.
 
 ## <a id="defaults"></a>Standardverdier for synkronisering
 
@@ -158,14 +148,6 @@ Hvis retningspilene forblir nedtonet etter at du har valgt et SuperOffice-felt, 
 * Feltet er ikke gyldig for den valgte ERP-aktøren.
 
 Hold musepekeren over pilen for å vise en forklaring.
-
-### ERP-koblingen kan ikke lagres
-
-Hvis **OK**-knappen er nedtonet når du legger til eller redigerer en kobling:
-
-* Sørg for at forbindelsestesten var vellykket.
-* Kontroller at alle obligatoriske konfigurasjonsfelt er fylt ut.
-* Bekreft at nødvendige innstillinger (for eksempel synlighet) er angitt.
 
 <!-- Referenced links -->
 

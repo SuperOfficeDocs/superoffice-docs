@@ -2,7 +2,7 @@
 uid: help-nl-erp-configure
 title: ERP-verbinding configureren
 description: Configureer de synchronisatie tussen SuperOffice CRM en uw ERP-systeem door velden toe te wijzen, standaardwaarden in te stellen en ERP-verbindingen te prioriteren.
-keywords: ERP-verbinding, synchronisatie configureren, veldtoewijzing, lijsttoewijzing, standaardwaarden, ERP-velden rangschikken, synchronisatieprioriteit instellen, ERP-verbinding activeren, ERP-verbinding bewerken, SuperOffice ERP-integratie, ERP-tabblad, sync connector
+keywords: ERP-verbinding, synchronisatie configureren, veldtoewijzing, lijsttoewijzing, standaardwaarden, ERP-velden rangschikken, synchronisatieprioriteit instellen, ERP-verbinding bewerken, SuperOffice ERP-integratie, ERP-tabblad, sync connector
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
@@ -16,16 +16,6 @@ language: nl
 # ERP-verbinding configureren
 
 Nadat u een ERP-verbinding hebt toegevoegd, moet u configureren hoe gegevens worden gesynchroniseerd tussen SuperOffice en het ERP-systeem. Dit doet u via de knoppen onderaan het tabblad **Synchroniseren** in het scherm Offerte/Synchroniseren.
-
-> [!NOTE]
-> Als de verbinding actief is (aangevinkt in de kolom **Actief**), moet u deze tijdelijk deactiveren om wijzigingen aan te brengen:
->
-> 1. Selecteer de verbinding en klik op **ERP-verbinding configureren**.
-> 2. Schakel in het dialoogvenster het selectievakje **Actief** uit.
-> 3. Klik op **ERP-verbinding testen** om de knop **OK** te activeren.
-> 4. Klik op **OK** om op te slaan.
->
-> Vergeet niet de verbinding opnieuw te activeren nadat u de configuratie hebt voltooid.
 
 ![ERP-verbindingenlijst met opties onderaan -screenshot][img1]
 
@@ -62,7 +52,7 @@ Bij veldtoewijzing bepaalt u welke ERP-velden overeenkomen met welke SuperOffice
 
 1. Klik op **Gereed** wanneer u klaar bent.
 
-U kunt nu doorgaan met lijsttoewijzing, standaardwaarden of het rangschikken van velden, of de verbinding opnieuw activeren als verdere configuratie niet nodig is.
+U kunt nu doorgaan met lijsttoewijzing, standaardwaarden of het rangschikken van velden, of de verbinding activeren als verdere configuratie niet nodig is.
 
 ## <a id="list-mapping"></a>Lijsttoewijzing
 
@@ -80,7 +70,7 @@ Als u lijstvelden hebt toegewezen, zoals categorie of status, moet u ook de afzo
 
 1. Herhaal dit voor alle relevante lijsten.
 
-1. Klik op **Opslaan** en activeer de ERP-verbinding opnieuw als er geen verdere configuratie nodig is.
+1. Klik op **Opslaan** en activeer de ERP-verbinding als er geen verdere configuratie nodig is.
 
 ## <a id="defaults"></a>Standaardwaarden voor synchronisatie
 
@@ -158,14 +148,6 @@ Als de richtingspijlen grijs blijven, zelfs na het selecteren van een SuperOffic
 * Het veld is ongeldig voor de geselecteerde ERP-actor.
 
 Wijs met de muis op de pijl om een tooltip met uitleg te bekijken.
-
-### ERP-verbinding kan niet worden opgeslagen
-
-Als de knop **OK** grijs blijft bij het toevoegen of bewerken van een verbinding:
-
-* Controleer of de verbindingscontrole is geslaagd.
-* Zorg ervoor dat alle verplichte configuratievelden zijn ingevuld.
-* Controleer of verplichte instellingen (zoals bereik) zijn voltooid.
 
 <!-- Referenced links -->
 

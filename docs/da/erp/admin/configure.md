@@ -2,7 +2,7 @@
 uid: help-da-erp-configure
 title: Konfigurere ERP-link
 description: Konfigurer synkronisering mellem SuperOffice CRM og dit ERP-system ved at tilknytte felter, angive standardværdier og prioritere ERP-links.
-keywords: ERP-link, konfigurere synk, felttilknytning, listetilknytning, standardværdier, ranger ERP-felter, angiv synkprioritet, aktivér ERP-link, rediger ERP-link, SuperOffice ERP-integration, ERP-fanen, sync connector
+keywords: ERP-link, konfigurere synk, felttilknytning, listetilknytning, standardværdier, ranger ERP-felter, angiv synkprioritet, rediger ERP-link, SuperOffice ERP-integration, ERP-fanen, sync connector
 author: Bergfrid Dias
 date: 03.31.2025
 version: 10.5
@@ -16,16 +16,6 @@ language: da
 # Konfigurere ERP-link
 
 Når du har tilføjet et ERP-link, skal du konfigurere, hvordan data synkroniseres mellem SuperOffice og ERP-systemet. Dette gør du ved hjælp af knapperne nederst på fanen **Sync** i skærmbilledet Tilbud/Sync.
-
-> [!NOTE]
-> Hvis linket er aktivt (markeret i kolonnen **Aktiv**), skal du midlertidigt deaktivere det, før du kan foretage ændringer:
->
-> 1. Markér linket, og klik på **Konfigurer ERP-link**.
-> 2. Fjern markeringen i afkrydsningsfeltet **Aktiv** i dialogboksen.
-> 3. Klik på **Test ERP-link** for at aktivere **OK**-knappen.
-> 4. Klik på **OK** for at gemme.
->
-> Husk at genaktivere linket, når konfigurationen er færdig.
 
 ![ERP-links vist i Sync-fanen med tilvalg nedenfor -screenshot][img1]
 
@@ -62,7 +52,7 @@ Felttilknytninger definerer, hvordan ERP-felter svarer til SuperOffice-felter, o
 
 1. Klik på **Udfør**, når du er færdig.
 
-Du kan nu fortsætte med listetilknytning, standardværdier eller felt-rangering – *eller* aktivere linket igen, hvis der ikke er behov for yderligere konfiguration.
+Du kan nu fortsætte med listetilknytning, standardværdier eller felt-rangering – *eller* aktivere linket, hvis der ikke er behov for yderligere konfiguration.
 
 ## <a id="list-mapping"></a>Listetilknytning
 
@@ -80,7 +70,7 @@ Hvis du har tilknyttet lister, såsom kategori eller status, skal du også knytt
 
 1. Gentag for alle relevante lister.
 
-1. Klik på **Gem**, og genaktiver ERP-linket, hvis du er færdig med konfigurationen.
+1. Klik på **Gem**, og aktiver ERP-linket, hvis du er færdig med konfigurationen.
 
 ## <a id="defaults"></a>Standardværdier for synkronisering
 
@@ -158,14 +148,6 @@ Hvis retningspile forbliver nedtonede, selv efter at du har valgt et SuperOffice
 * Feltet er ikke gyldigt for den valgte ERP-aktør.
 
 Hold musen over pilen for at se en forklarende besked.
-
-### ERP-linket kan ikke gemmes
-
-Hvis **OK**-knappen er nedtonet under tilføjelse eller redigering af et link:
-
-* Kontrollér, at forbindelsestesten er gennemført med succes.
-* Kontrollér, at alle obligatoriske konfigurationsfelter er udfyldt.
-* Kontrollér, at nødvendige indstillinger som synlighed er angivet.
 
 <!-- Referenced links -->
 
