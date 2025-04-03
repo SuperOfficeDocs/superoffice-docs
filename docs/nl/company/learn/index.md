@@ -4,7 +4,7 @@ title: Bedrijf
 description: Alle informatie met betrekking tot een bedrijf – of het nu uw klant, partner of leverancier is – wordt opgeslagen op de bedrijfskaart/het scherm in SuperOffice CRM.
 keywords: Bedrijfskaart, Bedrijfsscherm, bedrijf, klant, partner, leverancier
 author: Bergfrid Dias
-date: 03.14.2025
+date: 03.31.2025
 version: 10.5.2
 topic: concept
 audience: person
@@ -36,7 +36,7 @@ Daarnaast kunt u in dit scherm bedrijven zoeken, nieuwe records aanmaken, person
 | [Interesses][2] | Selectievakjes om bedrijfsinteresses op te geven voor selecties of campagnes. Een punt verschijnt wanneer interesses zijn geselecteerd. |
 | [Notitie][20] | Vrij tekstveld voor het toevoegen van notities over het bedrijf. Notities worden gemarkeerd met een punt als ze zijn ingevuld. |
 | [www][21] | Snelkoppeling naar een URL voor het bekijken van webpagina's of externe gegevens over het bedrijf. |
-| [ERP][22] | Verbindt bedrijven met het ERP-systeem, waardoor gegevenssynchronisatie en koppeling van contactpersonen mogelijk wordt. |
+| [ERP][22] | Verbindt bedrijven met een klant/leverancier in het ERP-systeem, waardoor gegevenssynchronisatie en koppeling van contactpersonen mogelijk wordt. |
 
 ## <a id="section-tabs"></a>Sectietabbladen op Bedrijf
 
@@ -50,7 +50,6 @@ Het onderste deel van het scherm bevat de volgende [standaardsectietabbladen][18
 | [Projecten][14] | Toont alle projecten voor het actieve bedrijf. |
 | [Verkoop][15] | Bevat informatie over verkopen die gekoppeld zijn aan het bedrijf. |
 | [Verzoeken][16] | Toont SuperOffice Service-verzoeken voor het actieve bedrijf. |
-| [ERP][17] | Hier kunt u een SuperOffice-bedrijf koppelen aan een klant/leverancier in het ERP-systeem. |
 
 > [!NOTE]
 > [Contactpersonen][1] die niet aan een bedrijf zijn gekoppeld, zijn te vinden in het scherm Persoon.
@@ -81,12 +80,11 @@ Het onderste deel van het scherm bevat de volgende [standaardsectietabbladen][18
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/sales-tab.md
 [16]: ../../learn/section-tabs/requests-tab.md
-[17]: ../../admin/erp/learn/index.md
 [18]: ../../learn/section-tabs/index.md
 [19]: ../../custom-objects/learn/more-tab.md
 [20]: ../../learn/basics/notes.md
 [21]: ../../admin/lists/learn/web-panel.md
-[22]: ../../admin/erp/learn/screen/erp-tab.md
+[22]: ../../erp/learn/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../media/loc/en/company/company-screen.png

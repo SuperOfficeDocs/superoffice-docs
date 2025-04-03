@@ -15,10 +15,6 @@ language: nl
 
 Het tabblad **ERP-verbindingen** op het scherm **Offerte/Synchroniseren** geeft Quote Connectors en gekoppelde ERP-verbindingen weer. Quote Connectors worden gebruikt om offerten te berekenen, orders te verzenden naar het ERP-systeem en om informatie op te halen uit prijslijsten.
 
-## Hoe stel ik een ERP-verbinding in voor SuperOffice CRM for Web (online)?
-
-[!include[How to set up ERP](includes/set-up-erp.md)]
-
 ## Beschikbare Quote Connectors
 
 Actieve Quote Connectors worden hier weergegeven. Plaats de muisaanwijzer op een rij om meer informatie weer te geven. Zichtbare connectoren zijn DLL-bestanden die zich op de server bevinden.

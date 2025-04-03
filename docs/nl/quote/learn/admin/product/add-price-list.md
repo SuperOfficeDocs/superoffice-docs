@@ -59,15 +59,9 @@ Het aanpassen van prijslijsten helpt uw verkopers de juiste prijsdetails te gebr
 ## Gerelateerde inhoud
 
 * [Producten toevoegen aan een prijslijst][1]
-* [Synchroniseren][2]
-* [Een Sync Connector toevoegen][3]
-* [Een ERP-verbinding toevoegen][4]
 
 <!-- Referenced links -->
 [1]: add-product-to-price-list.md
-[2]: ../sync/index.md
-[3]: ../sync/sync-connector-add.md
-[4]: ../sync/sync-add-erp-connection.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/quote/add-price-list.png

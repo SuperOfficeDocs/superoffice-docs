@@ -4,8 +4,8 @@ title: Company
 description: All information related to a company – be it your customer, partner or supplier – is stored on the Company card/screen in SuperOffice CRM.
 keywords: Company card, Company screen, company, customer, partner, supplier
 author: Bergfrid Dias
-date: 12.16.2024
-version: 10
+date: 03.31.2025
+version: 10.5
 topic: concept
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -36,7 +36,7 @@ The screen also lets you search for companies, create new records, manage contac
 | [Interests][2] | Checkboxes to specify company interests for selections or campaigns. A dot appears when interests are selected. |
 | [Note][20] | Free text area to add notes about the company. Notes are marked with a dot when filled. |
 | [www][21] | Shortcut to a URL for viewing web pages or external data related to the company. |
-| [ERP][22] | Connects companies to the ERP system, enabling data synchronization and linking contacts. |
+| [ERP][22] | Connects companies to a customer/supplier in the ERP system, enabling data synchronization and linking contacts. |
 
 ## <a id="section-tabs"></a>Section tabs on Company
 
@@ -50,7 +50,6 @@ The bottom of the screen contains the following [default section tabs][18]:
 | [Projects][14] | Shows all the projects for the active company. |
 | [Sales][15] | Contains information about any sales connected to the company. |
 | [Requests][16] | Shows SuperOffice Service requests for the active company. |
-| [ERP][17] | Here you can link a SuperOffice company to a customer/supplier in the ERP system. |
 
 > [!NOTE]
 > [Contacts][1] that are not associated with a company, can be found in the Contact screen.
@@ -81,12 +80,11 @@ The bottom of the screen contains the following [default section tabs][18]:
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/sales-tab.md
 [16]: ../../learn/section-tabs/requests-tab.md
-[17]: ../../admin/erp/learn/index.md
 [18]: ../../learn/section-tabs/index.md
 [19]: ../../custom-objects/learn/more-tab.md
 [20]: ../../learn/basics/notes.md
 [21]: ../../admin/lists/learn/web-panel.md
-[22]: ../../admin/erp/learn/screen/erp-tab.md
+[22]: ../../erp/learn/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../media/loc/en/company/company-screen.png

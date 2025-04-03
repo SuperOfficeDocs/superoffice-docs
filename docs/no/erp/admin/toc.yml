@@ -1,0 +1,11 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Legge til synkroniseringskobling og ERP-tilkobling
+  href: add-connection.md
+- name: Konfigurere ERP-tilkobling
+  href: configure.md
+- name: Redigere ERP-tilkobling
+  href: update-connection.md
+- name: Synkroniser på nytt fra CRM
+  href: resync-from-crm.md

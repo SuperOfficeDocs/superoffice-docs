@@ -1,0 +1,10 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Verbinden
+  href: connect.md
+- name: Verbinding verbreken
+  href: disconnect.md
+- name: Voor beheerders
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

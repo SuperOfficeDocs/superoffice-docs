@@ -75,7 +75,7 @@ Onder de persoonskaart bieden [sectietabbladen][16] snelle toegang tot informati
 [19]: ../../custom-objects/learn/more-tab.md
 [20]: ../../learn/basics/notes.md
 [21]: ../../admin/lists/learn/web-panel.md
-[22]: ../../admin/erp/learn/screen/erp-tab.md
+[22]: ../../erp/learn/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../media/loc/en/contact/contact-screen.png

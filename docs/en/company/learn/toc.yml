@@ -13,6 +13,3 @@ items:
   href: delete.md
 - name: Address formats for countries
   href: address-formats.md
-- name: ERP connection
-  href: ../../admin/erp/learn/toc.yml
-  topicHref: ../../admin/erp/learn/index.md

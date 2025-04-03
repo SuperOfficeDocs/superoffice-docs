@@ -4,7 +4,7 @@ title: Firma
 description: All informasjon knyttet til et firma – enten kunden, partneren eller leverandøren din – lagres på Firmakortet/-bildet i SuperOffice CRM.
 keywords: Firmakort, Firmabildet, firma, kunde, partner, leverandør
 author: Bergfrid Dias
-date: 01.24.2025
+date: 03.31.2025
 version: 10.5.1
 topic: concept
 audience: person
@@ -36,7 +36,7 @@ Bildet lar deg også søke etter firmaer, opprette nye oppføringer, administrer
 | [Interesser][2] | Avkrysningsbokser for å angi firmaets interesser for utvalg eller kampanjer. En prikk vises når interesser er valgt. |
 | [Notat][20] | Fritekstområde for å legge til notater om firmaet. Notater markeres med en prikk når de er fylt ut. |
 | [www][21] | Snarvei til en URL for å vise nettsider eller eksterne data relatert til firmaet. |
-| [ERP][22] | Knytter firmaer til ERP-systemet for datasynkronisering og kobling av kontakter. |
+| [ERP][22] | Knytter firmaer til en kunde/leverandør i ERP-systemet for datasynkronisering og kobling av kontakter. |
 
 ## <a id="section-tabs"></a>Detaljkort i Firmabildet
 
@@ -50,7 +50,6 @@ Nederst i bildet finner du følgende [standard detaljkort][18]:
 | [Prosjekter][14] | Viser alle prosjektene for det aktive firmaet. |
 | [Salg][15] | Inneholder informasjon om salg tilknyttet firmaet. |
 | [Saker][16] | Viser saker fra SuperOffice Service for det aktive firmaet. |
-| [ERP][17] | Knytter et SuperOffice-firma til en kunde/leverandør i ERP-systemet. |
 
 > [!NOTE]
 > [Personer][1] som ikke er knyttet til et firma, finnes i Person-bildet.
@@ -81,12 +80,11 @@ Nederst i bildet finner du følgende [standard detaljkort][18]:
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/sales-tab.md
 [16]: ../../learn/section-tabs/requests-tab.md
-[17]: ../../admin/erp/learn/index.md
 [18]: ../../learn/section-tabs/index.md
 [19]: ../../custom-objects/learn/more-tab.md
 [20]: ../../learn/basics/notes.md
 [21]: ../../admin/lists/learn/web-panel.md
-[22]: ../../admin/erp/learn/screen/erp-tab.md
+[22]: ../../erp/learn/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../media/loc/en/company/company-screen.png

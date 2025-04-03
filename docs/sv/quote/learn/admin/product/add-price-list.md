@@ -59,15 +59,9 @@ Att anpassa prislistor hjälper dina säljare att använda rätt prisinformation
 ## Vad vill du göra nu?
 
 * [Lägga till produkt i prislista][1]
-* [Sync][2]
-* [Lägga till Sync Connector][3]
-* [Lägga till ERP-koppling][4]
 
 <!-- Referenced links -->
 [1]: add-product-to-price-list.md
-[2]: ../sync/index.md
-[3]: ../sync/sync-connector-add.md
-[4]: ../sync/sync-add-erp-connection.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/quote/add-price-list.png

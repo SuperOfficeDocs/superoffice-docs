@@ -1,11 +1,14 @@
 ---
 uid: help-no-import-from-erp
-title: importere fra ERP
-description: importere fra ERP
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Innstillinger og vedlikehold, importere
-topic: help
+title: Importere fra ERP
+description: Importere fra ERP
+keywords: import, ERP
+author: Bergfrid Dias
+date: 03.31.2025
+version: 10.5
+topic: howto
+audience: settings
+audience_tooltip: Settings and maintenance
 language: no
 ---
 
@@ -21,7 +24,7 @@ Følg fremgangsmåten under for å importere aktører (kunder, leverandører og 
 > Hvis ![ikon][img1] ERP Sync-ikonet er inaktivt, må du slå av synkronisering i **Tilbud/Sync** > **Sync**-fanen.
 
 1. [!include[Open Import](includes/open-import.md)]
-2. [!include[Select source](includes/select-source.md)]
+2. Klikk på ![ikon][img1] ERP Sync-ikonet under **Velg en importkilde**. Dialogboksen **Velg ERP-kobling** vises.
 3. I listen **ERP-kobling** velger du [koblingen][2] du vil importere fra.
 4. I listen **Aktørtype** velger du hva du vil importere. For eksempel kunder, leverandører eller enkeltpersoner.
 5. Klikk på **OK**. Dialogboksen **Søk i ERP** vises.
@@ -56,7 +59,7 @@ Over hver liste er det en kobling til utvalget med de nye/endrede aktørene.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md
-[2]: ../../../quote/learn/admin/sync/index.md
+[2]: ../../../learn/admin/index.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/icons/admin/import-erp-small.png

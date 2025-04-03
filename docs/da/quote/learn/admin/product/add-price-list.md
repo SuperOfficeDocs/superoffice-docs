@@ -59,15 +59,9 @@ Tilpasning af prislister hjælper dine sælgere med at bruge de korrekte prisopl
 ## Relateret indhold
 
 * [Tilføje produkter til en prisliste][1]
-* [Sync][2]
-* [Tilføje en Sync Connector][3]
-* [Tilføje et ERP-link][4]
 
 <!-- Referenced links -->
 [1]: add-product-to-price-list.md
-[2]: ../sync/index.md
-[3]: ../sync/sync-connector-add.md
-[4]: ../sync/sync-add-erp-connection.md
 
 <!-- Referenced images -->
 [img1]: ../../../../../media/loc/en/quote/add-price-list.png

@@ -1,0 +1,10 @@
+items:
+- name: Oversigt
+  href: index.md
+- name: Tilknyt
+  href: connect.md
+- name: Afbryd
+  href: disconnect.md
+- name: For admins
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

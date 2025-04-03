@@ -1,0 +1,24 @@
+---
+uid: help-sv-erp-disconnect-actor
+title: Inaktivera ERP-synkronisering
+description: Inaktivera ERP-synkronisering
+keywords: koppla från ERP, ERP-flik, koppla från, ERP
+author: SuperOffice RnD
+date: 03.31.2025
+version: 10.5
+topic: howto
+license: development-tools
+audience: person
+audience_tooltip: SuperOffice CRM
+language: sv
+---
+
+# Inaktivera synkronisering
+
+[!include[Requirement](../../learn/includes/req-expander-services.md)]
+
+1. Gå till Företag-, Kontakt- eller Projekt-fönstret och välj **ERP**-fliken.
+1. Klicka på **Redigera**.
+1. Klicka på **Koppla från**. Dialogrutan **Koppla från** visas.
+1. Klicka på **Koppla från**.
+1. Klicka på **Spara**. Data kommer inte längre att synkroniseras.

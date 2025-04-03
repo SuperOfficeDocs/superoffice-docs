@@ -1,22 +1,4 @@
 ---
-uid: help-de-sync-resync-from-crm
-title: Aus CRM neu synchronisieren
-description: Aus CRM neu synchronisieren
-author: SuperOffice RnD
-date: 06.29.2022
-keywords: Angebot, Sync, Connector, ERP
-topic: howto
-audience: settings
-audience_tooltip: Settings and maintenance
-language: de
+uid: help-de-sync-resync-from-crm-redirect
+redirect_url: https://docs.superoffice.com/de/erp/admin/resync-from-crm.html
 ---
-
-# Aus CRM neu synchronisieren
-
-Mit dieser Funktion können Sie Probleme beheben, vor allem wenn Sie wissen, dass die Daten in SuperOffice CRM von höherer Qualität sind als die ERP-Daten. Sie funktioniert wie eine normale Synchronisation, aber Zeitstempel werden ignoriert und die Synchronisation erfolgt nur in eine Richtung (von CRM nach ERP).
-
-[!include[Back up database before import](../../../../admin/import/learn/includes/caution-backup-before-import.md)]
-
-1. Gehen Sie zur Registerkarte **Sync** in der Ansicht Angebot/Sync.
-2. Klicken Sie unten in der Liste **ERP-Verbindungen** auf **Aus CRM neu synchronisieren**.
-3. Klicken Sie zur Bestätigung auf **Ja**.

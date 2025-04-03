@@ -1,0 +1,10 @@
+items:
+- name: Översikt
+  href: index.md
+- name: Ansluta
+  href: connect.md
+- name: Koppla bort
+  href: disconnect.md
+- name: För administratörer
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

@@ -13,9 +13,12 @@ language: sv
 
 Varje Quote Connector måste ha en ERP-koppling med konfigurationsinformation för att koppla Quote Connector till SuperOffice.
 
-Hur konfigurerar jag en ERP-anslutning för SuperOffice CRM för webben (online)?
+Hur konfigurerar jag en ERP-koppling för SuperOffice CRM för webben (online)?
 
-[!include[How to set up ERP](includes/set-up-erp.md)]
+1. Gå till [https://online.superoffice.com/appstore][4].
+2. Hitta rätt "sync"-app för ditt ERP-system. [Klicka här om du vill söka][2]
+3. Hitta rätt "quote"-app för ditt ERP-system. [Klicka här om du vill söka][3]
+4. För att slutföra installationen kontaktar du app-leverantören.
 
 ## Lägga till en ERP-koppling
 
@@ -32,7 +35,7 @@ Hur konfigurerar jag en ERP-anslutning för SuperOffice CRM för webben (online)
     * **Alla**: Välj det här alternativet om alla användare ska kunna använda ERP-kopplingen. Det innebär att de kan använda prislistorna som är tillgängliga via denna koppling.
     * **Angivna användare + grupper**: Klicka på **Välj grupper och användare** för att välja vilka användargrupper och/eller användare som ska få tillgång till ERP-kopplingen.
 
-1. Välj ERP-kopplingen som ska hantera synkroniseringen ([Sync Connector][1]) i fältet **ERP-koppling**.
+1. Välj ERP-kopplingen som ska hantera synkroniseringen i fältet **ERP-koppling**.
 
 1. Längst ned i dialogrutan anger du önskade inställningar. Innehållet i listan varierar beroende på vilken typ av Quote Connector du har valt.
 
@@ -46,13 +49,15 @@ Hur konfigurerar jag en ERP-anslutning för SuperOffice CRM för webben (online)
 
 Nederst i listan **ERP-kopplingar** kan du ta bort ERP-kopplingar som inte längre används.
 
-Så här återställer du en borttagen ERP-anslutning:
+Så här återställer du en borttagen ERP-koppling:
 
 1. Markera **Borttagen**.
-1. Välj den borttagna anslutningen i listan.
+1. Välj den borttagna kopplingen i listan.
 1. Klicka på **Återskapa**.
 
 <!-- Referenced links -->
-[1]:sync/index.md
+[4]: https://online.superoffice.com/appstore
+[2]: https://online.superoffice.com/appstore/app/search?phrase=sync
+[3]: https://online.superoffice.com/appstore/app/search?phrase=quote
 
 <!-- Referenced images -->

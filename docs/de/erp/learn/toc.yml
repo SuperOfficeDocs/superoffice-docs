@@ -1,0 +1,10 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Verbinden
+  href: connect.md
+- name: Trennen
+  href: disconnect.md
+- name: Für Admins
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

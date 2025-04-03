@@ -89,8 +89,6 @@ landingContent:
         typeDesc: how-to-guide
         links:
         - text: Tilknyt ERP
-          url: ../admin/erp/learn/erp-connect.md
-        - text: Opret ERP-aktør
-          url: ../admin/erp/learn/erp-create-new-actor.md
+          url: ../erp/learn/connect.md
         - text: Deaktiver synkronisering
-          url: ../admin/erp/learn/erp-sync-disconnect.md
+          url: ../erp/learn/disconnect.md

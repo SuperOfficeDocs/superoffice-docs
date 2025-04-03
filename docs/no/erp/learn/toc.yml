@@ -1,0 +1,10 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Koble til
+  href: connect.md
+- name: Koble fra
+  href: disconnect.md
+- name: For administratorer
+  href: ../admin/toc.yml
+  topicHref: ../admin/index.md

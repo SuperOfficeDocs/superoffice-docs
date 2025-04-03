@@ -15,10 +15,6 @@ language: de
 
 Die Registerkarte **ERP-Verbindungen** in der Ansicht **Angebot/Synchronisierung** zeigt Quote Connectors und zugehörige ERP-Verbindungen an. Quote Connectors werden für die Berechnung von Angeboten, das Senden von Aufträgen zum ERP-System und den Zugriff auf Informationen von Preislisten verwendet.
 
-## Wie man eine ERP-Verbindung für SuperOffice CRM for Web (Online) einrichtet?
-
-[!include[How to set up ERP](includes/set-up-erp.md)]
-
 ## Verfügbare Quote Connectors
 
 Aktive Quote Connectors werden hier angezeigt. Wenn Sie mit der Maus auf eine Zeile zeigen, werden weitere Informationen dazu angezeigt. Sichtbare Connectors sind DLL-Dateien auf dem Server.

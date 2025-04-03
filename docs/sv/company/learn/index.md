@@ -4,7 +4,7 @@ title: Företag
 description: All information som hör samman med ett företag – oavsett om det är din kund, partner eller leverantör – lagras på företagskortet i SuperOffice CRM.
 keywords: företagskort, företagsskärm, företag, fönstret Företag, kund, partner, leverantör
 author: Bergfrid Dias
-date: 02.25.2025
+date: 03.31.2025
 version: 10.5.2
 topic: concept
 audience: person
@@ -36,7 +36,7 @@ Skärmen gör det också möjligt att söka efter företag, skapa nya poster, ha
 | [Intressen][2] | Kryssrutor för att ange företagets intressen i urval eller kampanjer. En punkt visas när intressen är valda. |
 | [Anteckning][20] | Ett fritextfält för att lägga till anteckningar om företaget. Anteckningar markeras med en punkt när de innehåller text. |
 | [www][21] | Snabbåtkomst till en webbadress för att visa webbsidor eller externa data relaterade till företaget. |
-| [ERP][22] | Kopplar företag till ERP-systemet, vilket möjliggör datasynkronisering och länkning av kontakter. |
+| [ERP][22] | Kopplar företag till en kund/leverantör i ERP-systemet, vilket möjliggör datasynkronisering och länkning av kontakter. |
 
 ## <a id="section-tabs"></a>Detaljkorten i fönstret Företag
 
@@ -50,7 +50,6 @@ Längst ned i fönstret finns följande [detaljkort som standard][18]:
 | [Projekt][14] | Visar alla projekt för det aktiva företaget. |
 | [Försäljning][15] | Innehåller information om eventuella försäljningar kopplade till företaget. |
 | [Ärenden][16] | Visar SuperOffice Service-ärenden för det aktiva företaget. |
-| [ERP][17] | Här kan du koppla ett SuperOffice-företag till en kund/leverantör i ERP-systemet. |
 
 > [!NOTE]
 > [Kontakter][1] som inte tillhör något företag hittar du i fönstret Kontakt.
@@ -81,12 +80,11 @@ Längst ned i fönstret finns följande [detaljkort som standard][18]:
 [14]: ../../learn/section-tabs/projects-tab.md
 [15]: ../../learn/section-tabs/sales-tab.md
 [16]: ../../learn/section-tabs/requests-tab.md
-[17]: ../../admin/erp/learn/index.md
 [18]: ../../learn/section-tabs/index.md
 [19]: ../../custom-objects/learn/more-tab.md
 [20]: ../../learn/basics/notes.md
 [21]: ../../admin/lists/learn/web-panel.md
-[22]: ../../admin/erp/learn/screen/erp-tab.md
+[22]: ../../erp/learn/index.md
 
 <!-- Referenced images -->
 [img3]: ../../../media/loc/en/company/company-screen.png

@@ -15,10 +15,6 @@ language: da
 
 På fanen **ERP-links** i skærmbilledet **Tilbud/Sync** vises Quote Connectors og tilhørende ERP-links. Quote Connectors bruges blandt andet til at beregne tilbud, sende ordrer til ERP-systemet, og hente information fra prislister.
 
-## Hvordan indstiller jeg en ERP-forbindelse til SuperOffice CRM til web (online)?
-
-[!include[How to set up ERP](includes/set-up-erp.md)]
-
 ## Tilgængelige Quote Connectors
 
 Her vises aktive Quote Connectors. Hold musemarkøren over en række for at vise detaljeinformation. Synlige connectorer er DLL-filer, som ligger på serveren.

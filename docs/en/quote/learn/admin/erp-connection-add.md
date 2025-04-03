@@ -15,7 +15,10 @@ Each Quote Connector must have an ERP connection with configuration data for lin
 
 How do I set up an ERP connection for SuperOffice CRM for Web (Online)?
 
-[!include[How to set up ERP](includes/set-up-erp.md)]
+1. Go to [https://online.superoffice.com/appstore][4].
+2. Locate the correct &quot;sync&quot; app for your ERP system. [Click here to search][2]
+3. Locate the correct &quot;quote&quot; app for your ERP system. [Click here to search][3]
+4. To complete the setup, contact the app provider.
 
 ## To add an ERP connection
 
@@ -32,7 +35,7 @@ How do I set up an ERP connection for SuperOffice CRM for Web (Online)?
     * **All**: Select this option if all the users are to have access to and be allowed to use this ERP connection. This means that they can use the price lists accessible via this connection.
     * **Specific users + groups**: Click **Select users and groups** to choose which user groups and/or users should have access to this ERP connection.
 
-1. Select the ERP connection to handle the synchronization ([Sync Connector][1]) in the **ERP connection** field.
+1. Select the ERP connection to handle the synchronization in the **ERP connection** field.
 
 1. At the bottom of the dialog, configure the required settings. The contents of this list vary depending on the type of Quote Connector you have chosen.
 
@@ -53,6 +56,8 @@ To restore a deleted ERP connection:
 1. Click **Restore**.
 
 <!-- Referenced links -->
-[1]:sync/index.md
+[4]: https://online.superoffice.com/appstore
+[2]: https://online.superoffice.com/appstore/app/search?phrase=sync
+[3]: https://online.superoffice.com/appstore/app/search?phrase=quote
 
 <!-- Referenced images -->
