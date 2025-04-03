@@ -30,6 +30,7 @@ items:
   - SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContentFull(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.GetDefaultMessageContentWithOptions(System.Int32,SuperOffice.Data.MessageActionType,System.Int32,System.Int32,System.Boolean)
   - SuperOffice.CRM.Services.TicketAgent.GetForRmUi(System.Int32)
+  - SuperOffice.CRM.Services.TicketAgent.GetHotlistEjUsers(System.Int32,System.Int32[],SuperOffice.Data.NotifyType,SuperOffice.Data.NotifyChannel)
   - SuperOffice.CRM.Services.TicketAgent.GetNextInQueue
   - SuperOffice.CRM.Services.TicketAgent.GetPreviewAttachmentStream(System.Int32)
   - SuperOffice.CRM.Services.TicketAgent.GetRfcAttachmentStream(System.Int32,System.Int32)
@@ -1548,6 +1549,53 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.CRM.Services.TicketAgent.GetHotlistEjUsers(System.Int32,System.Int32[],SuperOffice.Data.NotifyType,SuperOffice.Data.NotifyChannel)
+  commentId: M:SuperOffice.CRM.Services.TicketAgent.GetHotlistEjUsers(System.Int32,System.Int32[],SuperOffice.Data.NotifyType,SuperOffice.Data.NotifyChannel)
+  id: GetHotlistEjUsers(System.Int32,System.Int32[],SuperOffice.Data.NotifyType,SuperOffice.Data.NotifyChannel)
+  parent: SuperOffice.CRM.Services.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHotlistEjUsers(Int32, Int32[], NotifyType, NotifyChannel)
+  nameWithType: TicketAgent.GetHotlistEjUsers(Int32, Int32[], NotifyType, NotifyChannel)
+  fullName: SuperOffice.CRM.Services.TicketAgent.GetHotlistEjUsers(System.Int32, System.Int32[], SuperOffice.Data.NotifyType, SuperOffice.Data.NotifyChannel)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet a list of ej_user ids who should receive hotlist notification based on request and notification type\n"
+  syntax:
+    content: public int[] GetHotlistEjUsers(int ticketId, int[] skipAssociateIds, NotifyType notifyType, NotifyChannel channel)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: The id of the ticket
+    - id: skipAssociateIds
+      type: System.Int32[]
+      description: A list of associate ids to skip when calculating whom to get the notification
+    - id: notifyType
+      type: SuperOffice.Data.NotifyType
+      description: The notification type we want to check for
+    - id: channel
+      type: SuperOffice.Data.NotifyChannel
+      description: The channel which we should check for
+    return:
+      type: System.Int32[]
+      description: List of matching ej_user ids
+    content.vb: Public Function GetHotlistEjUsers(ticketId As Integer, skipAssociateIds As Integer(), notifyType As NotifyType, channel As NotifyChannel) As Integer()
+  overload: SuperOffice.CRM.Services.TicketAgent.GetHotlistEjUsers*
+  implements:
+  - SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers(System.Int32,System.Int32[],SuperOffice.Data.NotifyType,SuperOffice.Data.NotifyChannel)
+  nameWithType.vb: TicketAgent.GetHotlistEjUsers(Int32, Int32(), NotifyType, NotifyChannel)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Services.TicketAgent.GetHotlistEjUsers(System.Int32, System.Int32(), SuperOffice.Data.NotifyType, SuperOffice.Data.NotifyChannel)
+  name.vb: GetHotlistEjUsers(Int32, Int32(), NotifyType, NotifyChannel)
 - uid: SuperOffice.CRM.Services.TicketAgent.GetTicketMessage(System.Int32)
   commentId: M:SuperOffice.CRM.Services.TicketAgent.GetTicketMessage(System.Int32)
   id: GetTicketMessage(System.Int32)
@@ -5378,6 +5426,120 @@ references:
   name: TicketPriorityEscalateAction
   nameWithType: TicketPriorityEscalateAction
   fullName: SuperOffice.Data.TicketPriorityEscalateAction
+- uid: SuperOffice.CRM.Services.TicketAgent.GetHotlistEjUsers*
+  commentId: Overload:SuperOffice.CRM.Services.TicketAgent.GetHotlistEjUsers
+  isExternal: true
+  name: GetHotlistEjUsers
+  nameWithType: TicketAgent.GetHotlistEjUsers
+  fullName: SuperOffice.CRM.Services.TicketAgent.GetHotlistEjUsers
+- uid: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers(System.Int32,System.Int32[],SuperOffice.Data.NotifyType,SuperOffice.Data.NotifyChannel)
+  commentId: M:SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers(System.Int32,System.Int32[],SuperOffice.Data.NotifyType,SuperOffice.Data.NotifyChannel)
+  parent: SuperOffice.CRM.Services.ITicketAgent
+  isExternal: true
+  name: GetHotlistEjUsers(Int32, Int32[], NotifyType, NotifyChannel)
+  nameWithType: ITicketAgent.GetHotlistEjUsers(Int32, Int32[], NotifyType, NotifyChannel)
+  fullName: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers(System.Int32, System.Int32[], SuperOffice.Data.NotifyType, SuperOffice.Data.NotifyChannel)
+  nameWithType.vb: ITicketAgent.GetHotlistEjUsers(Int32, Int32(), NotifyType, NotifyChannel)
+  fullName.vb: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers(System.Int32, System.Int32(), SuperOffice.Data.NotifyType, SuperOffice.Data.NotifyChannel)
+  name.vb: GetHotlistEjUsers(Int32, Int32(), NotifyType, NotifyChannel)
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers(System.Int32,System.Int32[],SuperOffice.Data.NotifyType,SuperOffice.Data.NotifyChannel)
+    name: GetHotlistEjUsers
+    nameWithType: ITicketAgent.GetHotlistEjUsers
+    fullName: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.NotifyType
+    name: NotifyType
+    nameWithType: NotifyType
+    fullName: SuperOffice.Data.NotifyType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    nameWithType: NotifyChannel
+    fullName: SuperOffice.Data.NotifyChannel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers(System.Int32,System.Int32[],SuperOffice.Data.NotifyType,SuperOffice.Data.NotifyChannel)
+    name: GetHotlistEjUsers
+    nameWithType: ITicketAgent.GetHotlistEjUsers
+    fullName: SuperOffice.CRM.Services.ITicketAgent.GetHotlistEjUsers
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.NotifyType
+    name: NotifyType
+    nameWithType: NotifyType
+    fullName: SuperOffice.Data.NotifyType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.Data.NotifyChannel
+    name: NotifyChannel
+    nameWithType: NotifyChannel
+    fullName: SuperOffice.Data.NotifyChannel
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Data.NotifyType
+  isExternal: true
+  name: NotifyType
+  nameWithType: NotifyType
+  fullName: SuperOffice.Data.NotifyType
+- uid: SuperOffice.Data.NotifyChannel
+  isExternal: true
+  name: NotifyChannel
+  nameWithType: NotifyChannel
+  fullName: SuperOffice.Data.NotifyChannel
 - uid: SuperOffice.CRM.Services.TicketAgent.GetTicketMessage*
   commentId: Overload:SuperOffice.CRM.Services.TicketAgent.GetTicketMessage
   isExternal: true

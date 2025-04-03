@@ -1,0 +1,280 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest
+  id: Ticket_GetHotlistEjUsersRequest
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.#ctor
+  - SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.Channel
+  - SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.NotifyType
+  - SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.SkipAssociateIds
+  - SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.TicketId
+  langs:
+  - csharp
+  - vb
+  name: Ticket_GetHotlistEjUsersRequest
+  nameWithType: Ticket_GetHotlistEjUsersRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: 'public class Ticket_GetHotlistEjUsersRequest : Object'
+    content.vb: >-
+      Public Class Ticket_GetHotlistEjUsersRequest
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.#ctor
+  commentId: M:SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.#ctor
+  id: '#ctor'
+  parent: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest
+  langs:
+  - csharp
+  - vb
+  name: Ticket_GetHotlistEjUsersRequest()
+  nameWithType: Ticket_GetHotlistEjUsersRequest.Ticket_GetHotlistEjUsersRequest()
+  fullName: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.Ticket_GetHotlistEjUsersRequest()
+  type: Constructor
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public Ticket_GetHotlistEjUsersRequest()
+    content.vb: Public Sub New
+  overload: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.TicketId
+  commentId: P:SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.TicketId
+  id: TicketId
+  parent: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest
+  langs:
+  - csharp
+  - vb
+  name: TicketId
+  nameWithType: Ticket_GetHotlistEjUsersRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.TicketId
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int TicketId { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property TicketId As Integer
+  overload: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.TicketId*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.SkipAssociateIds
+  commentId: P:SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.SkipAssociateIds
+  id: SkipAssociateIds
+  parent: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest
+  langs:
+  - csharp
+  - vb
+  name: SkipAssociateIds
+  nameWithType: Ticket_GetHotlistEjUsersRequest.SkipAssociateIds
+  fullName: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.SkipAssociateIds
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public int[] SkipAssociateIds { get; set; }
+    parameters: []
+    return:
+      type: System.Int32[]
+    content.vb: Public Property SkipAssociateIds As Integer()
+  overload: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.SkipAssociateIds*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.NotifyType
+  commentId: P:SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.NotifyType
+  id: NotifyType
+  parent: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest
+  langs:
+  - csharp
+  - vb
+  name: NotifyType
+  nameWithType: Ticket_GetHotlistEjUsersRequest.NotifyType
+  fullName: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.NotifyType
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public NotifyType NotifyType { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.NotifyType
+    content.vb: Public Property NotifyType As NotifyType
+  overload: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.NotifyType*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.Channel
+  commentId: P:SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.Channel
+  id: Channel
+  parent: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest
+  langs:
+  - csharp
+  - vb
+  name: Channel
+  nameWithType: Ticket_GetHotlistEjUsersRequest.Channel
+  fullName: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.Channel
+  type: Property
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public NotifyChannel Channel { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.WebApi.Data.NotifyChannel
+    content.vb: Public Property Channel As NotifyChannel
+  overload: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.Channel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.#ctor*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.#ctor
+  isExternal: true
+  name: Ticket_GetHotlistEjUsersRequest
+  nameWithType: Ticket_GetHotlistEjUsersRequest.Ticket_GetHotlistEjUsersRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.Ticket_GetHotlistEjUsersRequest
+- uid: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.TicketId*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.TicketId
+  isExternal: true
+  name: TicketId
+  nameWithType: Ticket_GetHotlistEjUsersRequest.TicketId
+  fullName: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.TicketId
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.SkipAssociateIds*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.SkipAssociateIds
+  isExternal: true
+  name: SkipAssociateIds
+  nameWithType: Ticket_GetHotlistEjUsersRequest.SkipAssociateIds
+  fullName: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.SkipAssociateIds
+- uid: System.Int32[]
+  isExternal: true
+  name: Int32[]
+  nameWithType: Int32[]
+  fullName: System.Int32[]
+  nameWithType.vb: Int32()
+  fullName.vb: System.Int32()
+  name.vb: Int32()
+  spec.csharp:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.NotifyType*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.NotifyType
+  isExternal: true
+  name: NotifyType
+  nameWithType: Ticket_GetHotlistEjUsersRequest.NotifyType
+  fullName: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.NotifyType
+- uid: SuperOffice.WebApi.Data.NotifyType
+  commentId: T:SuperOffice.WebApi.Data.NotifyType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: NotifyType
+  nameWithType: NotifyType
+  fullName: SuperOffice.WebApi.Data.NotifyType
+- uid: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.Channel*
+  commentId: Overload:SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.Channel
+  isExternal: true
+  name: Channel
+  nameWithType: Ticket_GetHotlistEjUsersRequest.Channel
+  fullName: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest.Channel
+- uid: SuperOffice.WebApi.Data.NotifyChannel
+  commentId: T:SuperOffice.WebApi.Data.NotifyChannel
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: NotifyChannel
+  nameWithType: NotifyChannel
+  fullName: SuperOffice.WebApi.Data.NotifyChannel

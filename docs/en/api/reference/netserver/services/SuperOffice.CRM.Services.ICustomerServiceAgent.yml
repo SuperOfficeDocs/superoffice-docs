@@ -22,6 +22,7 @@ items:
   - SuperOffice.CRM.Services.ICustomerServiceAgent.GetAllCustomerCenterConfigs
   - SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerCenterConfig(System.Int32)
   - SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup
+  - SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner(System.Int32)
   - SuperOffice.CRM.Services.ICustomerServiceAgent.GetFaqForCustomer(System.Int32)
   - SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxEntity(System.Int32)
   - SuperOffice.CRM.Services.ICustomerServiceAgent.GetMailboxes
@@ -746,6 +747,35 @@ items:
       description: The carrier containing the startup data
     content.vb: Function GetCustomerServiceStartup As CustomerServiceStartup
   overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartup*
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner(System.Int32)
+  commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner(System.Int32)
+  id: GetCustomerServiceStartupByOwner(System.Int32)
+  parent: SuperOffice.CRM.Services.ICustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomerServiceStartupByOwner(Int32)
+  nameWithType: ICustomerServiceAgent.GetCustomerServiceStartupByOwner(Int32)
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner(System.Int32)
+  type: Method
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nGet the carrier with data that Service needs when starting up for a specific user\n"
+  syntax:
+    content: CustomerServiceStartup GetCustomerServiceStartupByOwner(int userId)
+    parameters:
+    - id: userId
+      type: System.Int32
+      description: The user for which we want to fetch the startup values for
+    return:
+      type: SuperOffice.CRM.Services.CustomerServiceStartup
+      description: The carrier containing the startup data
+    content.vb: Function GetCustomerServiceStartupByOwner(userId As Integer) As CustomerServiceStartup
+  overload: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner*
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers(SuperOffice.CRM.Services.EventData)
   commentId: M:SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers(SuperOffice.CRM.Services.EventData)
   id: ExecuteEventHandlers(SuperOffice.CRM.Services.EventData)
@@ -1550,6 +1580,12 @@ references:
   name: CustomerServiceStartup
   nameWithType: CustomerServiceStartup
   fullName: SuperOffice.CRM.Services.CustomerServiceStartup
+- uid: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner*
+  commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner
+  isExternal: true
+  name: GetCustomerServiceStartupByOwner
+  nameWithType: ICustomerServiceAgent.GetCustomerServiceStartupByOwner
+  fullName: SuperOffice.CRM.Services.ICustomerServiceAgent.GetCustomerServiceStartupByOwner
 - uid: SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers*
   commentId: Overload:SuperOffice.CRM.Services.ICustomerServiceAgent.ExecuteEventHandlers
   isExternal: true

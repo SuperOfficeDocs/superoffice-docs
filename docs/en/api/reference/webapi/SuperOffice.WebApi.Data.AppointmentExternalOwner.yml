@@ -1,0 +1,219 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.WebApi.Data.AppointmentExternalOwner
+  commentId: T:SuperOffice.WebApi.Data.AppointmentExternalOwner
+  id: AppointmentExternalOwner
+  parent: SuperOffice.WebApi.Data
+  children:
+  - SuperOffice.WebApi.Data.AppointmentExternalOwner.Google
+  - SuperOffice.WebApi.Data.AppointmentExternalOwner.None
+  - SuperOffice.WebApi.Data.AppointmentExternalOwner.Other
+  - SuperOffice.WebApi.Data.AppointmentExternalOwner.Outlook
+  - SuperOffice.WebApi.Data.AppointmentExternalOwner.value__
+  langs:
+  - csharp
+  - vb
+  name: AppointmentExternalOwner
+  nameWithType: AppointmentExternalOwner
+  fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner
+  type: Class
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\nAn external owner system for appointments (Outlook, Google...)\nThis Enum is used by:  appointment.owned_externally\n"
+  syntax:
+    content: 'public sealed class AppointmentExternalOwner : Enum'
+    content.vb: >-
+      Public NotInheritable Class AppointmentExternalOwner
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: SuperOffice.WebApi.Data.AppointmentExternalOwner.value__
+  commentId: F:SuperOffice.WebApi.Data.AppointmentExternalOwner.value__
+  id: value__
+  parent: SuperOffice.WebApi.Data.AppointmentExternalOwner
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: AppointmentExternalOwner.value__
+  fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner.value__
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  syntax:
+    content: public short value__
+    return:
+      type: System.Int16
+    content.vb: Public value__ As Short
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Data.AppointmentExternalOwner.None
+  commentId: F:SuperOffice.WebApi.Data.AppointmentExternalOwner.None
+  id: None
+  parent: SuperOffice.WebApi.Data.AppointmentExternalOwner
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: AppointmentExternalOwner.None
+  fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner.None
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n0: No external owner\n"
+  syntax:
+    content: public const AppointmentExternalOwner None
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentExternalOwner
+    content.vb: Public Const None As AppointmentExternalOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AppointmentExternalOwner.Other
+  commentId: F:SuperOffice.WebApi.Data.AppointmentExternalOwner.Other
+  id: Other
+  parent: SuperOffice.WebApi.Data.AppointmentExternalOwner
+  langs:
+  - csharp
+  - vb
+  name: Other
+  nameWithType: AppointmentExternalOwner.Other
+  fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner.Other
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n1: An external system owns the appointment\n"
+  syntax:
+    content: public const AppointmentExternalOwner Other
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentExternalOwner
+    content.vb: Public Const Other As AppointmentExternalOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AppointmentExternalOwner.Outlook
+  commentId: F:SuperOffice.WebApi.Data.AppointmentExternalOwner.Outlook
+  id: Outlook
+  parent: SuperOffice.WebApi.Data.AppointmentExternalOwner
+  langs:
+  - csharp
+  - vb
+  name: Outlook
+  nameWithType: AppointmentExternalOwner.Outlook
+  fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner.Outlook
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n2: Outlook owns the appointment\n"
+  syntax:
+    content: public const AppointmentExternalOwner Outlook
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentExternalOwner
+    content.vb: Public Const Outlook As AppointmentExternalOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.WebApi.Data.AppointmentExternalOwner.Google
+  commentId: F:SuperOffice.WebApi.Data.AppointmentExternalOwner.Google
+  id: Google
+  parent: SuperOffice.WebApi.Data.AppointmentExternalOwner
+  langs:
+  - csharp
+  - vb
+  name: Google
+  nameWithType: AppointmentExternalOwner.Google
+  fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner.Google
+  type: Field
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Data
+  summary: "\n3: Google owns the appointment\n"
+  syntax:
+    content: public const AppointmentExternalOwner Google
+    return:
+      type: SuperOffice.WebApi.Data.AppointmentExternalOwner
+    content.vb: Public Const Google As AppointmentExternalOwner
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: SuperOffice.WebApi.Data
+  commentId: N:SuperOffice.WebApi.Data
+  isExternal: true
+  name: SuperOffice.WebApi.Data
+  nameWithType: SuperOffice.WebApi.Data
+  fullName: SuperOffice.WebApi.Data
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int16
+  commentId: T:System.Int16
+  parent: System
+  isExternal: true
+  name: Int16
+  nameWithType: Int16
+  fullName: System.Int16
+- uid: SuperOffice.WebApi.Data.AppointmentExternalOwner
+  commentId: T:SuperOffice.WebApi.Data.AppointmentExternalOwner
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AppointmentExternalOwner
+  nameWithType: AppointmentExternalOwner
+  fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner

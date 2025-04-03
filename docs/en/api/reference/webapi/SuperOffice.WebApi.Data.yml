@@ -136,6 +136,7 @@ items:
   - SuperOffice.WebApi.Data.Appointment_WillSendEmailRequest
   - SuperOffice.WebApi.Data.AppointmentCautionWarning
   - SuperOffice.WebApi.Data.AppointmentEntity
+  - SuperOffice.WebApi.Data.AppointmentExternalOwner
   - SuperOffice.WebApi.Data.AppointmentInfo
   - SuperOffice.WebApi.Data.AppointmentPrivate
   - SuperOffice.WebApi.Data.AppointmentSaveData
@@ -481,6 +482,7 @@ items:
   - SuperOffice.WebApi.Data.CustomerService_ExecuteEventHandlersRequest
   - SuperOffice.WebApi.Data.CustomerService_FindTicketsByTitleOrIdRequest
   - SuperOffice.WebApi.Data.CustomerService_GetAllCustomerCenterConfigsRequest
+  - SuperOffice.WebApi.Data.CustomerService_GetCustomerServiceStartupByOwnerRequest
   - SuperOffice.WebApi.Data.CustomerService_GetCustomerServiceStartupRequest
   - SuperOffice.WebApi.Data.CustomerService_GetFaqForCustomerRequest
   - SuperOffice.WebApi.Data.CustomerService_GetMailboxesRequest
@@ -1265,6 +1267,8 @@ items:
   - SuperOffice.WebApi.Data.NotificationEventType
   - SuperOffice.WebApi.Data.NotificationMessageType
   - SuperOffice.WebApi.Data.NotificationPlatform
+  - SuperOffice.WebApi.Data.NotifyChannel
+  - SuperOffice.WebApi.Data.NotifyType
   - SuperOffice.WebApi.Data.NumberAllocation_GetNumberEachTemplateRequest
   - SuperOffice.WebApi.Data.NumberAllocation_SaveDefaultNumberingRequest
   - SuperOffice.WebApi.Data.NumberAllocation_SetNumberEachTemplateRequest
@@ -1854,6 +1858,7 @@ items:
   - SuperOffice.WebApi.Data.Ticket_GetDefaultMessageContentRequest
   - SuperOffice.WebApi.Data.Ticket_GetDefaultMessageContentWithOptionsRequest
   - SuperOffice.WebApi.Data.Ticket_GetForRmUiRequest
+  - SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest
   - SuperOffice.WebApi.Data.Ticket_GetNextInQueueRequest
   - SuperOffice.WebApi.Data.Ticket_GetPreviewAttachmentStreamRequest
   - SuperOffice.WebApi.Data.Ticket_GetRfcAttachmentStreamRequest
@@ -12017,6 +12022,12 @@ references:
   name: CustomerService_GetCustomerServiceStartupRequest
   nameWithType: CustomerService_GetCustomerServiceStartupRequest
   fullName: SuperOffice.WebApi.Data.CustomerService_GetCustomerServiceStartupRequest
+- uid: SuperOffice.WebApi.Data.CustomerService_GetCustomerServiceStartupByOwnerRequest
+  commentId: T:SuperOffice.WebApi.Data.CustomerService_GetCustomerServiceStartupByOwnerRequest
+  isExternal: true
+  name: CustomerService_GetCustomerServiceStartupByOwnerRequest
+  nameWithType: CustomerService_GetCustomerServiceStartupByOwnerRequest
+  fullName: SuperOffice.WebApi.Data.CustomerService_GetCustomerServiceStartupByOwnerRequest
 - uid: SuperOffice.WebApi.Data.EventData
   commentId: T:SuperOffice.WebApi.Data.EventData
   parent: SuperOffice.WebApi.Data
@@ -13313,6 +13324,12 @@ references:
   name: Ticket_DoEscalatingRequest
   nameWithType: Ticket_DoEscalatingRequest
   fullName: SuperOffice.WebApi.Data.Ticket_DoEscalatingRequest
+- uid: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest
+  commentId: T:SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest
+  isExternal: true
+  name: Ticket_GetHotlistEjUsersRequest
+  nameWithType: Ticket_GetHotlistEjUsersRequest
+  fullName: SuperOffice.WebApi.Data.Ticket_GetHotlistEjUsersRequest
 - uid: SuperOffice.WebApi.Data.TicketMessage
   commentId: T:SuperOffice.WebApi.Data.TicketMessage
   isExternal: true
@@ -14279,6 +14296,13 @@ references:
   name: AddressType
   nameWithType: AddressType
   fullName: SuperOffice.WebApi.Data.AddressType
+- uid: SuperOffice.WebApi.Data.AppointmentExternalOwner
+  commentId: T:SuperOffice.WebApi.Data.AppointmentExternalOwner
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: AppointmentExternalOwner
+  nameWithType: AppointmentExternalOwner
+  fullName: SuperOffice.WebApi.Data.AppointmentExternalOwner
 - uid: SuperOffice.WebApi.Data.AppointmentPrivate
   commentId: T:SuperOffice.WebApi.Data.AppointmentPrivate
   parent: SuperOffice.WebApi.Data
@@ -15364,6 +15388,13 @@ references:
   name: SystemMessageType
   nameWithType: SystemMessageType
   fullName: SuperOffice.WebApi.Data.SystemMessageType
+- uid: SuperOffice.WebApi.Data.NotifyChannel
+  commentId: T:SuperOffice.WebApi.Data.NotifyChannel
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: NotifyChannel
+  nameWithType: NotifyChannel
+  fullName: SuperOffice.WebApi.Data.NotifyChannel
 - uid: SuperOffice.WebApi.Data.EventHandlerType
   commentId: T:SuperOffice.WebApi.Data.EventHandlerType
   parent: SuperOffice.WebApi.Data
@@ -15490,6 +15521,13 @@ references:
   name: BadgeType
   nameWithType: BadgeType
   fullName: SuperOffice.WebApi.Data.BadgeType
+- uid: SuperOffice.WebApi.Data.NotifyType
+  commentId: T:SuperOffice.WebApi.Data.NotifyType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: NotifyType
+  nameWithType: NotifyType
+  fullName: SuperOffice.WebApi.Data.NotifyType
 - uid: SuperOffice.WebApi.Data.ScriptType
   commentId: T:SuperOffice.WebApi.Data.ScriptType
   parent: SuperOffice.WebApi.Data

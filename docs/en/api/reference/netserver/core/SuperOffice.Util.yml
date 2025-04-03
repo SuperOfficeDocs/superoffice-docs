@@ -43,6 +43,7 @@ items:
   - SuperOffice.Util.ImageUtilities.VerticalAlignment
   - SuperOffice.Util.ImportDefaults
   - SuperOffice.Util.ITextEncodingDetector
+  - SuperOffice.Util.ITrackEventDispatcher
   - SuperOffice.Util.JsonPairSerializer`2
   - SuperOffice.Util.KeyedMatrix`3
   - SuperOffice.Util.MailHelper
@@ -86,6 +87,9 @@ items:
   - SuperOffice.Util.TimeConverterData
   - SuperOffice.Util.TimeConverterHelper
   - SuperOffice.Util.TimeZoneUtility
+  - SuperOffice.Util.TrackEvent
+  - SuperOffice.Util.TrackEventConfiguration
+  - SuperOffice.Util.TrackEventDispatcher
   - SuperOffice.Util.TSRandom
   - SuperOffice.Util.TwipsConverter
   - SuperOffice.Util.TwoWayDictionary`2
@@ -1153,6 +1157,31 @@ references:
   name: TimeZoneUtility
   nameWithType: TimeZoneUtility
   fullName: SuperOffice.Util.TimeZoneUtility
+- uid: SuperOffice.Util.TrackEvent
+  commentId: T:SuperOffice.Util.TrackEvent
+  isExternal: true
+  name: TrackEvent
+  nameWithType: TrackEvent
+  fullName: SuperOffice.Util.TrackEvent
+- uid: SuperOffice.Util.ITrackEventDispatcher
+  commentId: T:SuperOffice.Util.ITrackEventDispatcher
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ITrackEventDispatcher
+  nameWithType: ITrackEventDispatcher
+  fullName: SuperOffice.Util.ITrackEventDispatcher
+- uid: SuperOffice.Util.TrackEventConfiguration
+  commentId: T:SuperOffice.Util.TrackEventConfiguration
+  isExternal: true
+  name: TrackEventConfiguration
+  nameWithType: TrackEventConfiguration
+  fullName: SuperOffice.Util.TrackEventConfiguration
+- uid: SuperOffice.Util.TrackEventDispatcher
+  commentId: T:SuperOffice.Util.TrackEventDispatcher
+  isExternal: true
+  name: TrackEventDispatcher
+  nameWithType: TrackEventDispatcher
+  fullName: SuperOffice.Util.TrackEventDispatcher
 - uid: SuperOffice.Util.UsedPrefKeysUtils
   commentId: T:SuperOffice.Util.UsedPrefKeysUtils
   isExternal: true

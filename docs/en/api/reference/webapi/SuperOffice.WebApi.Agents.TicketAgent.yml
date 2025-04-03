@@ -31,6 +31,7 @@ items:
   - SuperOffice.WebApi.Agents.TicketAgent.GetDefaultMessageContentFullAsync(System.Int32,SuperOffice.WebApi.Data.MessageActionType,System.Int32,System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.GetDefaultMessageContentWithOptionsAsync(System.Int32,SuperOffice.WebApi.Data.MessageActionType,System.Int32,System.Int32,System.Boolean,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.GetForRmUiAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.TicketAgent.GetHotlistEjUsersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.Data.NotifyType,SuperOffice.WebApi.Data.NotifyChannel,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.GetNextInQueueAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.GetPreviewAttachmentStreamAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.TicketAgent.GetRfcAttachmentStreamAsync(System.Int32,System.Int32,System.String,SuperOffice.WebApi.RequestOptions)
@@ -1781,6 +1782,56 @@ items:
   - public
   modifiers.vb:
   - Public
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetHotlistEjUsersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.Data.NotifyType,SuperOffice.WebApi.Data.NotifyChannel,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetHotlistEjUsersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.Data.NotifyType,SuperOffice.WebApi.Data.NotifyChannel,SuperOffice.WebApi.RequestOptions)
+  id: GetHotlistEjUsersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.Data.NotifyType,SuperOffice.WebApi.Data.NotifyChannel,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.TicketAgent
+  langs:
+  - csharp
+  - vb
+  name: GetHotlistEjUsersAsync(Int32, Int32[], NotifyType, NotifyChannel, RequestOptions)
+  nameWithType: TicketAgent.GetHotlistEjUsersAsync(Int32, Int32[], NotifyType, NotifyChannel, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetHotlistEjUsersAsync(System.Int32, System.Int32[], SuperOffice.WebApi.Data.NotifyType, SuperOffice.WebApi.Data.NotifyChannel, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet a list of ej_user ids who should receive hotlist notification based on request and notification type\n"
+  syntax:
+    content: public Task<int[]> GetHotlistEjUsersAsync(int ticketId, int[] skipAssociateIds, NotifyType notifyType, NotifyChannel channel, RequestOptions requestOptions = null)
+    parameters:
+    - id: ticketId
+      type: System.Int32
+      description: The id of the ticket
+    - id: skipAssociateIds
+      type: System.Int32[]
+      description: A list of associate ids to skip when calculating whom to get the notification
+    - id: notifyType
+      type: SuperOffice.WebApi.Data.NotifyType
+      description: The notification type we want to check for
+    - id: channel
+      type: SuperOffice.WebApi.Data.NotifyChannel
+      description: The channel which we should check for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{System.Int32[]}
+      description: List of matching ej_user ids
+    content.vb: Public Function GetHotlistEjUsersAsync(ticketId As Integer, skipAssociateIds As Integer(), notifyType As NotifyType, channel As NotifyChannel, requestOptions As RequestOptions = Nothing) As Task(Of Integer())
+  overload: SuperOffice.WebApi.Agents.TicketAgent.GetHotlistEjUsersAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ITicketAgent.GetHotlistEjUsersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.Data.NotifyType,SuperOffice.WebApi.Data.NotifyChannel,SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: TicketAgent.GetHotlistEjUsersAsync(Int32, Int32(), NotifyType, NotifyChannel, RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.WebApi.Agents.TicketAgent.GetHotlistEjUsersAsync(System.Int32, System.Int32(), SuperOffice.WebApi.Data.NotifyType, SuperOffice.WebApi.Data.NotifyChannel, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetHotlistEjUsersAsync(Int32, Int32(), NotifyType, NotifyChannel, RequestOptions)
 - uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   commentId: M:SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   id: GetTicketMessageAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
@@ -7680,6 +7731,140 @@ references:
   name: TicketPriorityEscalateAction
   nameWithType: TicketPriorityEscalateAction
   fullName: SuperOffice.WebApi.Data.TicketPriorityEscalateAction
+- uid: SuperOffice.WebApi.Agents.TicketAgent.GetHotlistEjUsersAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetHotlistEjUsersAsync
+  isExternal: true
+  name: GetHotlistEjUsersAsync
+  nameWithType: TicketAgent.GetHotlistEjUsersAsync
+  fullName: SuperOffice.WebApi.Agents.TicketAgent.GetHotlistEjUsersAsync
+- uid: SuperOffice.WebApi.Agents.ITicketAgent.GetHotlistEjUsersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.Data.NotifyType,SuperOffice.WebApi.Data.NotifyChannel,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ITicketAgent.GetHotlistEjUsersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.Data.NotifyType,SuperOffice.WebApi.Data.NotifyChannel,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ITicketAgent
+  isExternal: true
+  name: GetHotlistEjUsersAsync(Int32, Int32[], NotifyType, NotifyChannel, RequestOptions)
+  nameWithType: ITicketAgent.GetHotlistEjUsersAsync(Int32, Int32[], NotifyType, NotifyChannel, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ITicketAgent.GetHotlistEjUsersAsync(System.Int32, System.Int32[], SuperOffice.WebApi.Data.NotifyType, SuperOffice.WebApi.Data.NotifyChannel, SuperOffice.WebApi.RequestOptions)
+  nameWithType.vb: ITicketAgent.GetHotlistEjUsersAsync(Int32, Int32(), NotifyType, NotifyChannel, RequestOptions)
+  fullName.vb: SuperOffice.WebApi.Agents.ITicketAgent.GetHotlistEjUsersAsync(System.Int32, System.Int32(), SuperOffice.WebApi.Data.NotifyType, SuperOffice.WebApi.Data.NotifyChannel, SuperOffice.WebApi.RequestOptions)
+  name.vb: GetHotlistEjUsersAsync(Int32, Int32(), NotifyType, NotifyChannel, RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.GetHotlistEjUsersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.Data.NotifyType,SuperOffice.WebApi.Data.NotifyChannel,SuperOffice.WebApi.RequestOptions)
+    name: GetHotlistEjUsersAsync
+    nameWithType: ITicketAgent.GetHotlistEjUsersAsync
+    fullName: SuperOffice.WebApi.Agents.ITicketAgent.GetHotlistEjUsersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.NotifyType
+    name: NotifyType
+    nameWithType: NotifyType
+    fullName: SuperOffice.WebApi.Data.NotifyType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.NotifyChannel
+    name: NotifyChannel
+    nameWithType: NotifyChannel
+    fullName: SuperOffice.WebApi.Data.NotifyChannel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ITicketAgent.GetHotlistEjUsersAsync(System.Int32,System.Int32[],SuperOffice.WebApi.Data.NotifyType,SuperOffice.WebApi.Data.NotifyChannel,SuperOffice.WebApi.RequestOptions)
+    name: GetHotlistEjUsersAsync
+    nameWithType: ITicketAgent.GetHotlistEjUsersAsync
+    fullName: SuperOffice.WebApi.Agents.ITicketAgent.GetHotlistEjUsersAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.NotifyType
+    name: NotifyType
+    nameWithType: NotifyType
+    fullName: SuperOffice.WebApi.Data.NotifyType
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.Data.NotifyChannel
+    name: NotifyChannel
+    nameWithType: NotifyChannel
+    fullName: SuperOffice.WebApi.Data.NotifyChannel
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Data.NotifyType
+  commentId: T:SuperOffice.WebApi.Data.NotifyType
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: NotifyType
+  nameWithType: NotifyType
+  fullName: SuperOffice.WebApi.Data.NotifyType
+- uid: SuperOffice.WebApi.Data.NotifyChannel
+  commentId: T:SuperOffice.WebApi.Data.NotifyChannel
+  parent: SuperOffice.WebApi.Data
+  isExternal: true
+  name: NotifyChannel
+  nameWithType: NotifyChannel
+  fullName: SuperOffice.WebApi.Data.NotifyChannel
 - uid: SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync*
   commentId: Overload:SuperOffice.WebApi.Agents.TicketAgent.GetTicketMessageAsync
   isExternal: true

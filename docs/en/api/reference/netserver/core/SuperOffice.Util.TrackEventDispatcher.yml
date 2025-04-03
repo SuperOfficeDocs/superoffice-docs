@@ -1,0 +1,477 @@
+### YamlMime:ManagedReference
+items:
+- uid: SuperOffice.Util.TrackEventDispatcher
+  commentId: T:SuperOffice.Util.TrackEventDispatcher
+  id: TrackEventDispatcher
+  parent: SuperOffice.Util
+  children:
+  - SuperOffice.Util.TrackEventDispatcher.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration})
+  - SuperOffice.Util.TrackEventDispatcher.GetInstance
+  - SuperOffice.Util.TrackEventDispatcher.TrackEvent(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TrackEventDispatcher
+  nameWithType: TrackEventDispatcher
+  fullName: SuperOffice.Util.TrackEventDispatcher
+  type: Class
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nSends events to Amplitude on a background thread\n"
+  syntax:
+    content: 'public class TrackEventDispatcher : Object, ITrackEventDispatcher'
+    content.vb: >-
+      Public Class TrackEventDispatcher
+          Inherits Object
+          Implements ITrackEventDispatcher
+  inheritance:
+  - System.Object
+  implements:
+  - SuperOffice.Util.ITrackEventDispatcher
+  extensionMethods:
+  - SuperOffice.Util.TrackEventDispatcher.EnumUtil.MapEnums``2
+  - SuperOffice.Util.TrackEventDispatcher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: SuperOffice.Util.TrackEventDispatcher.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration})
+  commentId: M:SuperOffice.Util.TrackEventDispatcher.#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration})
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration})'
+  parent: SuperOffice.Util.TrackEventDispatcher
+  langs:
+  - csharp
+  - vb
+  name: TrackEventDispatcher(IOptions<TrackEventConfiguration>)
+  nameWithType: TrackEventDispatcher.TrackEventDispatcher(IOptions<TrackEventConfiguration>)
+  fullName: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher(Microsoft.Extensions.Options.IOptions<SuperOffice.Util.TrackEventConfiguration>)
+  type: Constructor
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  syntax:
+    content: public TrackEventDispatcher(IOptions<TrackEventConfiguration> options)
+    parameters:
+    - id: options
+      type: Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}
+    content.vb: Public Sub New(options As IOptions(Of TrackEventConfiguration))
+  overload: SuperOffice.Util.TrackEventDispatcher.#ctor*
+  nameWithType.vb: TrackEventDispatcher.TrackEventDispatcher(IOptions(Of TrackEventConfiguration))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher(Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.TrackEventConfiguration))
+  name.vb: TrackEventDispatcher(IOptions(Of TrackEventConfiguration))
+- uid: SuperOffice.Util.TrackEventDispatcher.GetInstance
+  commentId: M:SuperOffice.Util.TrackEventDispatcher.GetInstance
+  id: GetInstance
+  parent: SuperOffice.Util.TrackEventDispatcher
+  langs:
+  - csharp
+  - vb
+  name: GetInstance()
+  nameWithType: TrackEventDispatcher.GetInstance()
+  fullName: SuperOffice.Util.TrackEventDispatcher.GetInstance()
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nReturns a tracker instance if the feature is enabled, and we are online\n"
+  syntax:
+    content: public static ITrackEventDispatcher GetInstance()
+    return:
+      type: SuperOffice.Util.ITrackEventDispatcher
+      description: NULL if not online
+    content.vb: Public Shared Function GetInstance As ITrackEventDispatcher
+  overload: SuperOffice.Util.TrackEventDispatcher.GetInstance*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: SuperOffice.Util.TrackEventDispatcher.TrackEvent(System.String)
+  commentId: M:SuperOffice.Util.TrackEventDispatcher.TrackEvent(System.String)
+  id: TrackEvent(System.String)
+  parent: SuperOffice.Util.TrackEventDispatcher
+  langs:
+  - csharp
+  - vb
+  name: TrackEvent(String)
+  nameWithType: TrackEventDispatcher.TrackEvent(String)
+  fullName: SuperOffice.Util.TrackEventDispatcher.TrackEvent(System.String)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.Util
+  summary: "\nPosts event to background job that sends events to Amplitude and/or Userflow\n"
+  syntax:
+    content: public void TrackEvent(string trackEvent)
+    parameters:
+    - id: trackEvent
+      type: System.String
+      description: '&quot;sale-completed&quot; or &quot;sale-sold&quot; etc'
+    content.vb: Public Sub TrackEvent(trackEvent As String)
+  overload: SuperOffice.Util.TrackEventDispatcher.TrackEvent*
+  implements:
+  - SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: SuperOffice.Util
+  commentId: N:SuperOffice.Util
+  isExternal: true
+  name: SuperOffice.Util
+  nameWithType: SuperOffice.Util
+  fullName: SuperOffice.Util
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: SuperOffice.Util.ITrackEventDispatcher
+  commentId: T:SuperOffice.Util.ITrackEventDispatcher
+  parent: SuperOffice.Util
+  isExternal: true
+  name: ITrackEventDispatcher
+  nameWithType: ITrackEventDispatcher
+  fullName: SuperOffice.Util.ITrackEventDispatcher
+- uid: SuperOffice.Util.TrackEventDispatcher.EnumUtil.MapEnums``2
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  parent: EnumUtil
+  definition: EnumUtil.MapEnums``2(``0)
+  name: MapEnums<TrackEventDispatcher, To>()
+  nameWithType: EnumUtil.MapEnums<TrackEventDispatcher, To>()
+  fullName: EnumUtil.MapEnums<SuperOffice.Util.TrackEventDispatcher, To>()
+  nameWithType.vb: EnumUtil.MapEnums(Of TrackEventDispatcher, To)()
+  fullName.vb: EnumUtil.MapEnums(Of SuperOffice.Util.TrackEventDispatcher, To)()
+  name.vb: MapEnums(Of TrackEventDispatcher, To)()
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums<TrackEventDispatcher, To>
+    nameWithType: EnumUtil.MapEnums<TrackEventDispatcher, To>
+    fullName: EnumUtil.MapEnums<SuperOffice.Util.TrackEventDispatcher, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2
+    name: MapEnums(Of TrackEventDispatcher, To)
+    nameWithType: EnumUtil.MapEnums(Of TrackEventDispatcher, To)
+    fullName: EnumUtil.MapEnums(Of SuperOffice.Util.TrackEventDispatcher, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TrackEventDispatcher.SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  parent: SuperOffice.ErpSync.ConnectorWS.Converters
+  definition: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  name: MapEnums<TrackEventDispatcher, To>()
+  nameWithType: Converters.MapEnums<TrackEventDispatcher, To>()
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TrackEventDispatcher, To>()
+  nameWithType.vb: Converters.MapEnums(Of TrackEventDispatcher, To)()
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TrackEventDispatcher, To)()
+  name.vb: MapEnums(Of TrackEventDispatcher, To)()
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums<TrackEventDispatcher, To>
+    nameWithType: Converters.MapEnums<TrackEventDispatcher, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<SuperOffice.Util.TrackEventDispatcher, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2
+    name: MapEnums(Of TrackEventDispatcher, To)
+    nameWithType: Converters.MapEnums(Of TrackEventDispatcher, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of SuperOffice.Util.TrackEventDispatcher, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: EnumUtil.MapEnums``2(``0)
+  commentId: M:EnumUtil.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: EnumUtil.MapEnums<From, To>(From)
+  fullName: EnumUtil.MapEnums<From, To>(From)
+  nameWithType.vb: EnumUtil.MapEnums(Of From, To)(From)
+  fullName.vb: EnumUtil.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: EnumUtil.MapEnums<From, To>
+    fullName: EnumUtil.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: EnumUtil.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: EnumUtil.MapEnums(Of From, To)
+    fullName: EnumUtil.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: EnumUtil
+  commentId: T:EnumUtil
+  isExternal: true
+  name: EnumUtil
+  nameWithType: EnumUtil
+  fullName: EnumUtil
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  commentId: M:SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+  isExternal: true
+  name: MapEnums<From, To>(From)
+  nameWithType: Converters.MapEnums<From, To>(From)
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>(From)
+  nameWithType.vb: Converters.MapEnums(Of From, To)(From)
+  fullName.vb: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)(From)
+  name.vb: MapEnums(Of From, To)(From)
+  spec.csharp:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums<From, To>
+    nameWithType: Converters.MapEnums<From, To>
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums<From, To>
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums``2(``0)
+    name: MapEnums(Of From, To)
+    nameWithType: Converters.MapEnums(Of From, To)
+    fullName: SuperOffice.ErpSync.ConnectorWS.Converters.MapEnums(Of From, To)
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: From
+    nameWithType: From
+    fullName: From
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.ErpSync.ConnectorWS.Converters
+  commentId: T:SuperOffice.ErpSync.ConnectorWS.Converters
+  parent: SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: Converters
+  nameWithType: Converters
+  fullName: SuperOffice.ErpSync.ConnectorWS.Converters
+- uid: SuperOffice.ErpSync.ConnectorWS
+  commentId: N:SuperOffice.ErpSync.ConnectorWS
+  isExternal: true
+  name: SuperOffice.ErpSync.ConnectorWS
+  nameWithType: SuperOffice.ErpSync.ConnectorWS
+  fullName: SuperOffice.ErpSync.ConnectorWS
+- uid: SuperOffice.Util.TrackEventDispatcher.#ctor*
+  commentId: Overload:SuperOffice.Util.TrackEventDispatcher.#ctor
+  isExternal: true
+  name: TrackEventDispatcher
+  nameWithType: TrackEventDispatcher.TrackEventDispatcher
+  fullName: SuperOffice.Util.TrackEventDispatcher.TrackEventDispatcher
+- uid: Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}
+  commentId: '!:Microsoft.Extensions.Options.IOptions{SuperOffice.Util.TrackEventConfiguration}'
+  definition: Microsoft.Extensions.Options.IOptions`1
+  name: IOptions<TrackEventConfiguration>
+  nameWithType: IOptions<TrackEventConfiguration>
+  fullName: Microsoft.Extensions.Options.IOptions<SuperOffice.Util.TrackEventConfiguration>
+  nameWithType.vb: IOptions(Of TrackEventConfiguration)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of SuperOffice.Util.TrackEventConfiguration)
+  name.vb: IOptions(Of TrackEventConfiguration)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: SuperOffice.Util.TrackEventConfiguration
+    name: TrackEventConfiguration
+    nameWithType: TrackEventConfiguration
+    fullName: SuperOffice.Util.TrackEventConfiguration
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: SuperOffice.Util.TrackEventConfiguration
+    name: TrackEventConfiguration
+    nameWithType: TrackEventConfiguration
+    fullName: SuperOffice.Util.TrackEventConfiguration
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: '!:Microsoft.Extensions.Options.IOptions`1'
+  isExternal: true
+  name: IOptions<>
+  nameWithType: IOptions<>
+  fullName: Microsoft.Extensions.Options.IOptions<>
+  nameWithType.vb: IOptions(Of )
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of )
+  name.vb: IOptions(Of )
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.Util.TrackEventDispatcher.GetInstance*
+  commentId: Overload:SuperOffice.Util.TrackEventDispatcher.GetInstance
+  isExternal: true
+  name: GetInstance
+  nameWithType: TrackEventDispatcher.GetInstance
+  fullName: SuperOffice.Util.TrackEventDispatcher.GetInstance
+- uid: SuperOffice.Util.TrackEventDispatcher.TrackEvent*
+  commentId: Overload:SuperOffice.Util.TrackEventDispatcher.TrackEvent
+  isExternal: true
+  name: TrackEvent
+  nameWithType: TrackEventDispatcher.TrackEvent
+  fullName: SuperOffice.Util.TrackEventDispatcher.TrackEvent
+- uid: SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String)
+  commentId: M:SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String)
+  parent: SuperOffice.Util.ITrackEventDispatcher
+  isExternal: true
+  name: TrackEvent(String)
+  nameWithType: ITrackEventDispatcher.TrackEvent(String)
+  fullName: SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String)
+  spec.csharp:
+  - uid: SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String)
+    name: TrackEvent
+    nameWithType: ITrackEventDispatcher.TrackEvent
+    fullName: SuperOffice.Util.ITrackEventDispatcher.TrackEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.Util.ITrackEventDispatcher.TrackEvent(System.String)
+    name: TrackEvent
+    nameWithType: ITrackEventDispatcher.TrackEvent
+    fullName: SuperOffice.Util.ITrackEventDispatcher.TrackEvent
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

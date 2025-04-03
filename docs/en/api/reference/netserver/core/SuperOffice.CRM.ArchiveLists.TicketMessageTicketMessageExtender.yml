@@ -45,6 +45,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colSearchTitle
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colHeader
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTicketId
+  - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTicketMessageId
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colAuthor
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colCreatedAt
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colBody
@@ -452,6 +453,13 @@ references:
   name: _colTicketId
   nameWithType: TicketMessageExtenderBase._colTicketId
   fullName: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTicketId
+- uid: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTicketMessageId
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTicketMessageId
+  parent: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase
+  isExternal: true
+  name: _colTicketMessageId
+  nameWithType: TicketMessageExtenderBase._colTicketMessageId
+  fullName: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTicketMessageId
 - uid: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colAuthor
   commentId: F:SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colAuthor
   parent: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase

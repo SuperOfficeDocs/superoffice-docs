@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colSearchTitle
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colSLevel
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTicketId
+  - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTicketMessageId
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase.ColumnTicketId
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -285,6 +286,32 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colTicketId As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTicketMessageId
+  commentId: F:SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTicketMessageId
+  id: _colTicketMessageId
+  parent: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colTicketMessageId
+  nameWithType: TicketMessageExtenderBase._colTicketMessageId
+  fullName: SuperOffice.CRM.ArchiveLists.TicketMessageExtenderBase._colTicketMessageId
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colTicketMessageId
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colTicketMessageId As ArchiveColumnInfo
   modifiers.csharp:
   - protected
   modifiers.vb:

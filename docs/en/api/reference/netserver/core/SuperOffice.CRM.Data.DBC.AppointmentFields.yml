@@ -37,6 +37,7 @@ items:
   - SuperOffice.CRM.Data.DBC.AppointmentFields.MotherAssociateId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.MotherId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.OriginalStartDate
+  - SuperOffice.CRM.Data.DBC.AppointmentFields.OwnedExternally
   - SuperOffice.CRM.Data.DBC.AppointmentFields.PersonId
   - SuperOffice.CRM.Data.DBC.AppointmentFields.PreferredTZLocation
   - SuperOffice.CRM.Data.DBC.AppointmentFields.PriorityIdx
@@ -1707,6 +1708,35 @@ items:
     return:
       type: System.String
     content.vb: Public Const MotherAssociateId As String = "mother_associate_id"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: SuperOffice.CRM.Data.DBC.AppointmentFields.OwnedExternally
+  commentId: F:SuperOffice.CRM.Data.DBC.AppointmentFields.OwnedExternally
+  id: OwnedExternally
+  parent: SuperOffice.CRM.Data.DBC.AppointmentFields
+  langs:
+  - csharp
+  - vb
+  name: OwnedExternally
+  nameWithType: DBC.AppointmentFields.OwnedExternally
+  fullName: SuperOffice.CRM.Data.DBC.AppointmentFields.OwnedExternally
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Data
+  summary: "\nAppointment.OwnedExternally: Set if an external system owns this appointment.\n"
+  syntax:
+    content: public const string OwnedExternally = "owned_externally"
+    return:
+      type: System.String
+    content.vb: Public Const OwnedExternally As String = "owned_externally"
   modifiers.csharp:
   - public
   - const

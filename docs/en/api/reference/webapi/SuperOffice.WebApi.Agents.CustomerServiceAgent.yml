@@ -22,6 +22,7 @@ items:
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetAllCustomerCenterConfigsAsync(SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetCustomerCenterConfigAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetCustomerServiceStartupAsync(SuperOffice.WebApi.RequestOptions)
+  - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetFaqForCustomerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetMailboxEntityAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   - SuperOffice.WebApi.Agents.CustomerServiceAgent.GetMailboxesAsync(SuperOffice.WebApi.RequestOptions)
@@ -984,6 +985,44 @@ items:
   overload: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetCustomerServiceStartupAsync*
   implements:
   - SuperOffice.WebApi.Agents.ICustomerServiceAgent.GetCustomerServiceStartupAsync(SuperOffice.WebApi.RequestOptions)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.CustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  id: GetCustomerServiceStartupByOwnerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.CustomerServiceAgent
+  langs:
+  - csharp
+  - vb
+  name: GetCustomerServiceStartupByOwnerAsync(Int32, RequestOptions)
+  nameWithType: CustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  type: Method
+  source:
+    path: SuperOffice.WebApi
+    isExternal: true
+  assemblies:
+  - SuperOffice.WebApi
+  namespace: SuperOffice.WebApi.Agents
+  summary: "\nGet the carrier with data that Service needs when starting up for a specific user\n"
+  syntax:
+    content: public Task<CustomerServiceStartup> GetCustomerServiceStartupByOwnerAsync(int userId, RequestOptions requestOptions = null)
+    parameters:
+    - id: userId
+      type: System.Int32
+      description: The user for which we want to fetch the startup values for
+    - id: requestOptions
+      type: SuperOffice.WebApi.RequestOptions
+      description: 'Override language/culture codes on this request. '
+    return:
+      type: System.Threading.Tasks.Task{SuperOffice.WebApi.Data.CustomerServiceStartup}
+      description: The carrier containing the startup data
+    content.vb: Public Function GetCustomerServiceStartupByOwnerAsync(userId As Integer, requestOptions As RequestOptions = Nothing) As Task(Of CustomerServiceStartup)
+  overload: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync*
+  implements:
+  - SuperOffice.WebApi.Agents.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
   modifiers.csharp:
   - public
   modifiers.vb:
@@ -4511,6 +4550,69 @@ references:
     name: CustomerServiceStartup
     nameWithType: CustomerServiceStartup
     fullName: SuperOffice.WebApi.Data.CustomerServiceStartup
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync*
+  commentId: Overload:SuperOffice.WebApi.Agents.CustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync
+  isExternal: true
+  name: GetCustomerServiceStartupByOwnerAsync
+  nameWithType: CustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync
+  fullName: SuperOffice.WebApi.Agents.CustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync
+- uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  commentId: M:SuperOffice.WebApi.Agents.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+  parent: SuperOffice.WebApi.Agents.ICustomerServiceAgent
+  isExternal: true
+  name: GetCustomerServiceStartupByOwnerAsync(Int32, RequestOptions)
+  nameWithType: ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(Int32, RequestOptions)
+  fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32, SuperOffice.WebApi.RequestOptions)
+  spec.csharp:
+  - uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetCustomerServiceStartupByOwnerAsync
+    nameWithType: ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync
+    fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: SuperOffice.WebApi.Agents.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync(System.Int32,SuperOffice.WebApi.RequestOptions)
+    name: GetCustomerServiceStartupByOwnerAsync
+    nameWithType: ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync
+    fullName: SuperOffice.WebApi.Agents.ICustomerServiceAgent.GetCustomerServiceStartupByOwnerAsync
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: SuperOffice.WebApi.RequestOptions
+    name: RequestOptions
+    nameWithType: RequestOptions
+    fullName: SuperOffice.WebApi.RequestOptions
     isExternal: true
   - name: )
     nameWithType: )

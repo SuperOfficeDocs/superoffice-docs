@@ -17,6 +17,7 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AllDayEvent@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppAvailState@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentCautionWarning@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentExternalOwner@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentPrivate@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentStatus@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentType@,SuperOffice.Data.SQL.FieldInfo)
@@ -121,6 +122,8 @@ items:
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotificationEventType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotificationMessageType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotificationPlatform@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotifyChannel@,SuperOffice.Data.SQL.FieldInfo)
+  - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotifyType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.OrderBySortType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.PhoneType@,SuperOffice.Data.SQL.FieldInfo)
   - SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.PrefDescAccessFlags@,SuperOffice.Data.SQL.FieldInfo)
@@ -1016,6 +1019,41 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.AppAvailState, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ByRef AppAvailState, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentExternalOwner@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentExternalOwner@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.AppointmentExternalOwner@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref AppointmentExternalOwner, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref AppointmentExternalOwner, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.AppointmentExternalOwner, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref AppointmentExternalOwner field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.AppointmentExternalOwner
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As AppointmentExternalOwner, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef AppointmentExternalOwner, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.AppointmentExternalOwner, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef AppointmentExternalOwner, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentPrivate@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.AppointmentPrivate@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.AppointmentPrivate@,SuperOffice.Data.SQL.FieldInfo)
@@ -7351,6 +7389,41 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.DocumentHandler, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ByRef DocumentHandler, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotifyChannel@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotifyChannel@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.NotifyChannel@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref NotifyChannel, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref NotifyChannel, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.NotifyChannel, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref NotifyChannel field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.NotifyChannel
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As NotifyChannel, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef NotifyChannel, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.NotifyChannel, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef NotifyChannel, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.EventHandlerType@,SuperOffice.Data.SQL.FieldInfo)
@@ -8156,6 +8229,41 @@ items:
   - Public
   fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.BadgeType, SuperOffice.Data.SQL.FieldInfo)
   name.vb: ValidateField(ByRef BadgeType, FieldInfo)
+- uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotifyType@,SuperOffice.Data.SQL.FieldInfo)
+  commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.NotifyType@,SuperOffice.Data.SQL.FieldInfo)
+  id: ValidateField(SuperOffice.Data.NotifyType@,SuperOffice.Data.SQL.FieldInfo)
+  parent: SuperOffice.CRM.Rows.RowValidator
+  langs:
+  - csharp
+  - vb
+  name: ValidateField(ref NotifyType, FieldInfo)
+  nameWithType: RowValidator.ValidateField(ref NotifyType, FieldInfo)
+  fullName: SuperOffice.CRM.Rows.RowValidator.ValidateField(ref SuperOffice.Data.NotifyType, SuperOffice.Data.SQL.FieldInfo)
+  type: Method
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.Rows
+  syntax:
+    content: public bool ValidateField(ref NotifyType field, FieldInfo fieldInfo)
+    parameters:
+    - id: field
+      type: SuperOffice.Data.NotifyType
+    - id: fieldInfo
+      type: SuperOffice.Data.SQL.FieldInfo
+    return:
+      type: System.Boolean
+    content.vb: Public Function ValidateField(ByRef field As NotifyType, fieldInfo As FieldInfo) As Boolean
+  overload: SuperOffice.CRM.Rows.RowValidator.ValidateField*
+  nameWithType.vb: RowValidator.ValidateField(ByRef NotifyType, FieldInfo)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SuperOffice.CRM.Rows.RowValidator.ValidateField(ByRef SuperOffice.Data.NotifyType, SuperOffice.Data.SQL.FieldInfo)
+  name.vb: ValidateField(ByRef NotifyType, FieldInfo)
 - uid: SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ScriptType@,SuperOffice.Data.SQL.FieldInfo)
   commentId: M:SuperOffice.CRM.Rows.RowValidator.ValidateField(SuperOffice.Data.ScriptType@,SuperOffice.Data.SQL.FieldInfo)
   id: ValidateField(SuperOffice.Data.ScriptType@,SuperOffice.Data.SQL.FieldInfo)
@@ -9197,6 +9305,13 @@ references:
   name: AppAvailState
   nameWithType: AppAvailState
   fullName: SuperOffice.Data.AppAvailState
+- uid: SuperOffice.Data.AppointmentExternalOwner
+  commentId: T:SuperOffice.Data.AppointmentExternalOwner
+  parent: SuperOffice.Data
+  isExternal: true
+  name: AppointmentExternalOwner
+  nameWithType: AppointmentExternalOwner
+  fullName: SuperOffice.Data.AppointmentExternalOwner
 - uid: SuperOffice.Data.AppointmentPrivate
   commentId: T:SuperOffice.Data.AppointmentPrivate
   parent: SuperOffice.Data
@@ -10463,6 +10578,13 @@ references:
   name: DocumentHandler
   nameWithType: DocumentHandler
   fullName: SuperOffice.Data.DocumentHandler
+- uid: SuperOffice.Data.NotifyChannel
+  commentId: T:SuperOffice.Data.NotifyChannel
+  parent: SuperOffice.Data
+  isExternal: true
+  name: NotifyChannel
+  nameWithType: NotifyChannel
+  fullName: SuperOffice.Data.NotifyChannel
 - uid: SuperOffice.Data.EventHandlerType
   commentId: T:SuperOffice.Data.EventHandlerType
   parent: SuperOffice.Data
@@ -10624,6 +10746,13 @@ references:
   name: BadgeType
   nameWithType: BadgeType
   fullName: SuperOffice.Data.BadgeType
+- uid: SuperOffice.Data.NotifyType
+  commentId: T:SuperOffice.Data.NotifyType
+  parent: SuperOffice.Data
+  isExternal: true
+  name: NotifyType
+  nameWithType: NotifyType
+  fullName: SuperOffice.Data.NotifyType
 - uid: SuperOffice.Data.ScriptType
   commentId: T:SuperOffice.Data.ScriptType
   parent: SuperOffice.Data

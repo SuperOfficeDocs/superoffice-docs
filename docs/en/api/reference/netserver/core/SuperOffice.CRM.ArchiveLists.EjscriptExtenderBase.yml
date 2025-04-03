@@ -16,6 +16,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colPath
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colRegisteredBy
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colRegisteredDate
+  - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colType
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colUniqueIdentifier
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colUpdatedBy
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colUpdatedDate
@@ -29,6 +30,7 @@ items:
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnIncludeId
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnName
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnPath
+  - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnType
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnUniqueIdentifier
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.InnerModifyQuery
   - SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.InnerPopulateRowFromReader(SuperOffice.Data.SoDataReader,SuperOffice.CRM.ArchiveLists.ArchiveRow)
@@ -474,6 +476,34 @@ items:
   modifiers.vb:
   - Public
   - Const
+- uid: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnType
+  commentId: F:SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnType
+  id: ColumnType
+  parent: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: ColumnType
+  nameWithType: EjscriptExtenderBase.ColumnType
+  fullName: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase.ColumnType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: public const string ColumnType = "type"
+    return:
+      type: System.String
+    content.vb: Public Const ColumnType As String = "type"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
 - uid: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colName
   commentId: F:SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colName
   id: _colName
@@ -678,6 +708,32 @@ items:
     return:
       type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
     content.vb: Protected _colPath As ArchiveColumnInfo
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colType
+  commentId: F:SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colType
+  id: _colType
+  parent: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase
+  langs:
+  - csharp
+  - vb
+  name: _colType
+  nameWithType: EjscriptExtenderBase._colType
+  fullName: SuperOffice.CRM.ArchiveLists.EjscriptExtenderBase._colType
+  type: Field
+  source:
+    path: SoDataBase
+    isExternal: true
+  assemblies:
+  - SoDataBase
+  namespace: SuperOffice.CRM.ArchiveLists
+  syntax:
+    content: protected ArchiveColumnInfo _colType
+    return:
+      type: SuperOffice.CRM.ArchiveLists.ArchiveColumnInfo
+    content.vb: Protected _colType As ArchiveColumnInfo
   modifiers.csharp:
   - protected
   modifiers.vb:

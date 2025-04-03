@@ -7,6 +7,7 @@ items:
   children:
   - SuperOffice.CRM.Services.CustomerServiceStartup.#ctor
   - SuperOffice.CRM.Services.CustomerServiceStartup.RecaptchaSiteKey
+  - SuperOffice.CRM.Services.CustomerServiceStartup.SelectedPreferences
   - SuperOffice.CRM.Services.CustomerServiceStartup.TimezoneEnabled
   - SuperOffice.CRM.Services.CustomerServiceStartup.ToString
   - SuperOffice.CRM.Services.CustomerServiceStartup.ToString(System.String)
@@ -232,6 +233,39 @@ items:
   modifiers.vb:
   - Public
   - Overridable
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup.SelectedPreferences
+  commentId: P:SuperOffice.CRM.Services.CustomerServiceStartup.SelectedPreferences
+  id: SelectedPreferences
+  parent: SuperOffice.CRM.Services.CustomerServiceStartup
+  langs:
+  - csharp
+  - vb
+  name: SelectedPreferences
+  nameWithType: CustomerServiceStartup.SelectedPreferences
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup.SelectedPreferences
+  type: Property
+  source:
+    path: SuperOffice.Services
+    isExternal: true
+  assemblies:
+  - SuperOffice.Services
+  namespace: SuperOffice.CRM.Services
+  summary: "\nAn array of selected preferences needed by Service \n"
+  syntax:
+    content: public virtual Preference[] SelectedPreferences { get; set; }
+    parameters: []
+    return:
+      type: SuperOffice.CRM.Services.Preference[]
+    content.vb: Public Overridable Property SelectedPreferences As Preference()
+  overload: SuperOffice.CRM.Services.CustomerServiceStartup.SelectedPreferences*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
 references:
 - uid: SuperOffice.CRM.Services
   commentId: N:SuperOffice.CRM.Services
@@ -309,3 +343,35 @@ references:
   name: RecaptchaSiteKey
   nameWithType: CustomerServiceStartup.RecaptchaSiteKey
   fullName: SuperOffice.CRM.Services.CustomerServiceStartup.RecaptchaSiteKey
+- uid: SuperOffice.CRM.Services.CustomerServiceStartup.SelectedPreferences*
+  commentId: Overload:SuperOffice.CRM.Services.CustomerServiceStartup.SelectedPreferences
+  isExternal: true
+  name: SelectedPreferences
+  nameWithType: CustomerServiceStartup.SelectedPreferences
+  fullName: SuperOffice.CRM.Services.CustomerServiceStartup.SelectedPreferences
+- uid: SuperOffice.CRM.Services.Preference[]
+  isExternal: true
+  name: Preference[]
+  nameWithType: Preference[]
+  fullName: SuperOffice.CRM.Services.Preference[]
+  nameWithType.vb: Preference()
+  fullName.vb: SuperOffice.CRM.Services.Preference()
+  name.vb: Preference()
+  spec.csharp:
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: SuperOffice.CRM.Services.Preference
+    name: Preference
+    nameWithType: Preference
+    fullName: SuperOffice.CRM.Services.Preference
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
