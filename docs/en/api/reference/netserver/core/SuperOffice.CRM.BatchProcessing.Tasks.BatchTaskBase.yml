@@ -56,7 +56,6 @@ items:
   - SuperOffice.CRM.BatchProcessing.Plugins.ImportProductImageBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.MailMergeBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.MaintenanceBatchPlugin
-  - SuperOffice.CRM.BatchProcessing.Plugins.ReporterBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin
   - SuperOffice.ExportArchive.TicketBatchPluginBase

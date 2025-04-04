@@ -3183,8 +3183,6 @@
     name: MaintenanceBatchPlugin
   - uid: SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
     name: ProgressHandler
-  - uid: SuperOffice.CRM.BatchProcessing.Plugins.ReporterBatchPlugin
-    name: ReporterBatchPlugin
   - uid: SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
     name: SaintRegenBatchPlugin
   - uid: SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin

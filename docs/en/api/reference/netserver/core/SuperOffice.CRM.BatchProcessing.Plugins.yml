@@ -16,7 +16,6 @@ items:
   - SuperOffice.CRM.BatchProcessing.Plugins.MailMergeBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.MaintenanceBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.ProgressHandler
-  - SuperOffice.CRM.BatchProcessing.Plugins.ReporterBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   - SuperOffice.CRM.BatchProcessing.Plugins.UdefPublishBatchPlugin
   langs:
@@ -95,12 +94,6 @@ references:
   name: MaintenanceBatchPlugin
   nameWithType: MaintenanceBatchPlugin
   fullName: SuperOffice.CRM.BatchProcessing.Plugins.MaintenanceBatchPlugin
-- uid: SuperOffice.CRM.BatchProcessing.Plugins.ReporterBatchPlugin
-  commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.ReporterBatchPlugin
-  isExternal: true
-  name: ReporterBatchPlugin
-  nameWithType: ReporterBatchPlugin
-  fullName: SuperOffice.CRM.BatchProcessing.Plugins.ReporterBatchPlugin
 - uid: SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   commentId: T:SuperOffice.CRM.BatchProcessing.Plugins.SaintRegenBatchPlugin
   isExternal: true
