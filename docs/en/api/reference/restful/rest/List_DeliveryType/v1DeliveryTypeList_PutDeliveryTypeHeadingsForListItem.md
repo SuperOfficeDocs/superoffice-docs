@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 820,
-    "Name": "Luettgen-Halvorson",
-    "ToolTip": "Dolorem cumque animi voluptas cumque omnis.",
-    "Deleted": false,
-    "Rank": 853,
-    "Type": "sequi",
-    "ColorBlock": 41,
-    "IconHint": "culpa",
+    "Id": 434,
+    "Name": "Wisoky LLC",
+    "ToolTip": "Commodi facere sunt cum est magnam quod doloribus.",
+    "Deleted": true,
+    "Rank": 133,
+    "Type": "harum",
+    "ColorBlock": 743,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2004-03-26T14:28:27.5551692+01:00",
+    "LastChanged": "2000-04-24T13:14:09.7597728+02:00",
     "ChildItems": [
       {
-        "Id": 403,
-        "Name": "Gibson Inc and Sons",
-        "ToolTip": "Error quo iusto sint fuga excepturi deserunt.",
+        "Id": 290,
+        "Name": "Wisoky-Bins",
+        "ToolTip": "Blanditiis unde fugiat et omnis.",
         "Deleted": false,
-        "Rank": 197,
-        "Type": "recusandae",
-        "ColorBlock": 131,
-        "IconHint": "delectus",
+        "Rank": 62,
+        "Type": "provident",
+        "ColorBlock": 295,
+        "IconHint": "eos",
         "Selected": false,
-        "LastChanged": "2006-07-18T14:28:27.5551692+02:00",
+        "LastChanged": "2010-04-17T13:14:09.7597728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "dolor",
+        "ExtraInfo": "possimus",
+        "StyleHint": "laboriosam",
         "Hidden": false,
-        "FullName": "Angeline Parker"
+        "FullName": "Leann Jakubowski"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "et",
+    "ExtraInfo": "et",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Prof. Victor Dach"
+    "FullName": "Mr. Dwight Valerie Jenkins MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 893,
-    "Name": "Powlowski, Corwin and Grady",
-    "ToolTip": "Nihil soluta tenetur libero.",
+    "Id": 53,
+    "Name": "Gleichner, Koch and Pouros",
+    "ToolTip": "Asperiores sequi reiciendis sapiente quia.",
     "Deleted": false,
-    "Rank": 178,
-    "Type": "repudiandae",
-    "ColorBlock": 751,
-    "IconHint": "aspernatur",
+    "Rank": 782,
+    "Type": "sit",
+    "ColorBlock": 375,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2013-06-10T14:28:27.5551692+02:00",
+    "LastChanged": "1999-02-09T13:14:09.7597728+01:00",
     "ChildItems": [
       {
-        "Id": 597,
-        "Name": "Stracke, Jaskolski and Larkin",
-        "ToolTip": "Fugiat sit sapiente consectetur quos et.",
+        "Id": 920,
+        "Name": "Kuhic, Turner and Lehner",
+        "ToolTip": "Dolores veritatis officiis illo sed tempora.",
         "Deleted": true,
-        "Rank": 617,
-        "Type": "placeat",
-        "ColorBlock": 274,
-        "IconHint": "voluptates",
-        "Selected": true,
-        "LastChanged": "2003-11-07T14:28:27.5551692+01:00",
+        "Rank": 700,
+        "Type": "necessitatibus",
+        "ColorBlock": 719,
+        "IconHint": "facere",
+        "Selected": false,
+        "LastChanged": "2011-12-02T13:14:09.7597728+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "assumenda",
-        "Hidden": true,
-        "FullName": "Clyde Hirthe",
+        "ExtraInfo": "modi",
+        "StyleHint": "veritatis",
+        "Hidden": false,
+        "FullName": "Estevan Lowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 465
+            "FieldLength": 211
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "suscipit",
+    "ExtraInfo": "et",
+    "StyleHint": "culpa",
     "Hidden": false,
-    "FullName": "Prof. Isabella Sydnie Turner I",
+    "FullName": "Genevieve Ledner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 749
+        "FieldType": "System.Int32",
+        "FieldLength": 250
       }
     }
   }

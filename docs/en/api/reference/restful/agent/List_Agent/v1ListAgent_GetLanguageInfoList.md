@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 514,
-    "LCID": 192,
-    "EnglishName": "Littel-Labadie",
-    "NativeName": "Lueilwitz-Sanford",
-    "ThreeLetterISOLanguageName": "Hickle-Satterfield",
-    "TwoLetterISOLanguageName": "Waelchi-Jast",
+    "LanguageInfoId": 171,
+    "LCID": 123,
+    "EnglishName": "Zieme-Parisian",
+    "NativeName": "Tillman, Hilpert and Crooks",
+    "ThreeLetterISOLanguageName": "Dach Inc and Sons",
+    "TwoLetterISOLanguageName": "Bogisich LLC",
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 951
+        "FieldLength": 979
       }
     }
   }

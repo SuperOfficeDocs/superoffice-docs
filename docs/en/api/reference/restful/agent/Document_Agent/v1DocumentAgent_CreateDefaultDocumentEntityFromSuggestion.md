@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntityFromSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 165
+  "SuggestedDocumentId": 897
 }
 ```
 
@@ -121,88 +121,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 170,
+  "DocumentId": 722,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "eligendi",
-  "Header": "voluptatem",
-  "Name": "Bashirian-Rempel",
-  "OurRef": "suscipit",
-  "YourRef": "dolores",
-  "CreatedDate": "1999-03-16T14:28:21.8835236+01:00",
-  "UpdatedDate": "1998-02-20T14:28:21.8835236+01:00",
-  "Description": "Diverse full-range adapter",
+  "Attention": "ipsa",
+  "Header": "reprehenderit",
+  "Name": "Kreiger, Zieme and Watsica",
+  "OurRef": "omnis",
+  "YourRef": "et",
+  "CreatedDate": "1999-03-07T13:14:00.2199679+01:00",
+  "UpdatedDate": "2005-04-09T13:14:00.2199679+02:00",
+  "Description": "Organized discrete toolset",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2018-06-09T14:28:21.8835236+02:00",
-  "ExternalRef": "autem",
+  "Date": "2017-04-25T13:14:00.2355945+02:00",
+  "ExternalRef": "laboriosam",
   "Completed": "Completed",
-  "ActiveLinks": 202,
+  "ActiveLinks": 392,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Rodriguez Inc and Sons",
-      "Id": 456,
-      "Description": "Sharable dynamic implementation",
-      "ExtraInfo": "facere",
-      "LinkId": 672,
+      "EntityName": "Hayes-Wolf",
+      "Id": 956,
+      "Description": "Function-based logistical artificial intelligence",
+      "ExtraInfo": "nihil",
+      "LinkId": 589,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldType": "System.String",
+          "FieldLength": 810
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 656,
-  "Snum": 94,
+  "SuggestedDocumentId": 383,
+  "Snum": 252,
   "UserDefinedFields": {
-    "SuperOffice:1": "Sarai Thiel",
-    "SuperOffice:2": "Alysha Roberts"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "100452498"
   },
   "ExtraFields": {
-    "ExtraFields1": "aspernatur",
-    "ExtraFields2": "saepe"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "nobis",
-    "CustomFields2": "alias"
+    "CustomFields1": "cupiditate",
+    "CustomFields2": "in"
   },
-  "PublishEventDate": "2022-01-11T14:28:21.8835236+01:00",
-  "PublishTo": "2006-08-28T14:28:21.8835236+02:00",
-  "PublishFrom": "2011-10-25T14:28:21.8835236+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2020-03-15T13:14:00.2355945+01:00",
+  "PublishTo": "2025-02-23T13:14:00.2355945+01:00",
+  "PublishFrom": "2002-02-09T13:14:00.2355945+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 960,
+      "VisibleId": 556,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 61
+          "FieldLength": 161
         }
       }
     },
     {
-      "VisibleId": 960,
+      "VisibleId": 556,
       "Visibility": "All",
-      "DisplayValue": "consectetur",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 61
+          "FieldLength": 161
         }
       }
     }
@@ -211,8 +211,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 410
+      "FieldType": "System.String",
+      "FieldLength": 761
     }
   }
 }

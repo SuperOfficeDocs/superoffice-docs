@@ -33,7 +33,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | Value | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=tenetur
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}?Value=possimus
 ```
 
 
@@ -80,7 +80,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -88,23 +88,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 17 Nov 1999 14:28:26 G11T
+Last-Modified: Mon, 04 Apr 2022 13:14:08 G4T
 
 {
-  "Key": "sint",
-  "Value": "voluptatem",
-  "RecordId": 359,
-  "CreatedDate": "1999-07-06T14:28:26.9458186+02:00",
-  "UpdatedDate": "1999-11-17T14:28:26.9458186+01:00",
-  "UpdatedBy": "doloremque",
-  "CreatedBy": "a",
-  "TableName": "Ward, Christiansen and Waelchi",
+  "Key": "omnis",
+  "Value": "enim",
+  "RecordId": 572,
+  "CreatedDate": "2015-09-07T13:14:08.7741411+02:00",
+  "UpdatedDate": "2022-04-04T13:14:08.7741411+02:00",
+  "UpdatedBy": "fugit",
+  "CreatedBy": "quam",
+  "TableName": "Emard LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 202
+      "FieldLength": 572
     }
   }
 }

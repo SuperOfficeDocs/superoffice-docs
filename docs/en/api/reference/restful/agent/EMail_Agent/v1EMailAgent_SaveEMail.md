@@ -101,7 +101,7 @@ OK
 POST /api/v1/Agents/EMail/SaveEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -119,148 +119,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 520,
-      "ContactName": "Erdman Group",
-      "PersonId": 828,
-      "PersonName": "Stamm Group",
-      "AssociateId": 458,
-      "Address": "nesciunt",
-      "EmailId": 718,
+      "ContactId": 325,
+      "ContactName": "Kuvalis-Tillman",
+      "PersonId": 490,
+      "PersonName": "Beer-Upton",
+      "AssociateId": 677,
+      "Address": "ipsum",
+      "EmailId": 910,
       "DuplicatePersonIds": [
-        750,
-        590
+        627,
+        554
       ],
-      "Name": "Harris, Mertz and Mante",
+      "Name": "Kutch Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 632
+          "FieldType": "System.Int32",
+          "FieldLength": 922
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 325,
-      "ContactName": "Tromp-Dach",
-      "PersonId": 145,
-      "PersonName": "Hegmann, White and Hayes",
-      "AssociateId": 273,
-      "Address": "nulla",
-      "EmailId": 447,
+      "ContactId": 743,
+      "ContactName": "Schoen, Hauck and Medhurst",
+      "PersonId": 986,
+      "PersonName": "Medhurst-Lind",
+      "AssociateId": 760,
+      "Address": "at",
+      "EmailId": 603,
       "DuplicatePersonIds": [
-        64,
-        617
+        807,
+        463
       ],
-      "Name": "Crooks, Dare and Collins",
+      "Name": "Stehr, Steuber and Lind",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 916
+          "FieldLength": 486
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 25,
-      "ContactName": "O'Connell, Daniel and Klocko",
-      "PersonId": 246,
-      "PersonName": "Turner-Murazik",
-      "AssociateId": 719,
-      "Address": "fuga",
-      "EmailId": 979,
+      "ContactId": 302,
+      "ContactName": "Beier LLC",
+      "PersonId": 599,
+      "PersonName": "Bayer Inc and Sons",
+      "AssociateId": 535,
+      "Address": "dolor",
+      "EmailId": 495,
       "DuplicatePersonIds": [
-        438,
-        908
+        677,
+        719
       ],
-      "Name": "Yost Inc and Sons",
+      "Name": "White, White and Christiansen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 987
+          "FieldType": "System.String",
+          "FieldLength": 573
         }
       }
     }
   ],
-  "Subject": "repellendus",
-  "HTMLBody": "est",
+  "Subject": "qui",
+  "HTMLBody": "necessitatibus",
   "From": null,
-  "Sent": "1998-10-21T14:28:21.9460219+02:00",
-  "Size": 617,
+  "Sent": "2014-01-15T13:14:00.3762277+01:00",
+  "Size": 685,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "id",
-  "PlainBody": "rem",
+  "MessageID": "tenetur",
+  "PlainBody": "hic",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 474,
+  "ServerId": 475,
   "Attachments": [
     {
-      "Description": "Object-based 6th generation protocol",
-      "Filename": "nulla",
-      "Size": 806,
-      "Type": "ex",
-      "Encoding": "nihil",
-      "Id": "molestiae",
-      "Disposition": "quaerat",
-      "IsSafeFileExtension": true,
+      "Description": "Inverse bottom-line support",
+      "Filename": "et",
+      "Size": 607,
+      "Type": "est",
+      "Encoding": "eum",
+      "Id": "dolor",
+      "Disposition": "molestiae",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 566
+          "FieldLength": 582
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Koss-Cole",
+      "Name": "Harvey-Bahringer",
       "Values": [
-        "cumque",
-        "itaque"
+        "pariatur",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldLength": 980
         }
       }
     },
     {
-      "Name": "Koss-Cole",
+      "Name": "Harvey-Bahringer",
       "Values": [
-        "cumque",
-        "itaque"
+        "pariatur",
+        "beatae"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 568
+          "FieldLength": 980
         }
       }
     }
   ],
-  "FolderName": "Sauer-Goodwin",
-  "EmailItemId": 715,
-  "AccountId": 215,
-  "ReceivedAt": "2011-02-15T14:28:21.9460219+01:00",
+  "FolderName": "Lakin, Little and Schumm",
+  "EmailItemId": 744,
+  "AccountId": 354,
+  "ReceivedAt": "2019-04-13T13:14:00.3762277+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-02-01T14:28:21.9460219+01:00",
-  "HasCalendarData": false,
+  "RepliedAt": "1999-03-23T13:14:00.3762277+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 460
+      "FieldLength": 734
     }
   }
 }

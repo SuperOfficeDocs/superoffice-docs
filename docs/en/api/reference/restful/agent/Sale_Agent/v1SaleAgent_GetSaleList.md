@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -105,37 +105,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Purdy LLC",
-    "SaleDate": "2009-06-07T14:28:22.3678792+02:00",
-    "SaleId": 545,
-    "Probability": 690,
-    "Title": "blanditiis",
-    "Amount": 15923.854,
-    "Currency": "quibusdam",
-    "ProjectName": "Schmeler-Douglas",
-    "AssociateFullName": "Flavio Runolfsson",
-    "Description": "Implemented foreground product",
+    "ContactName": "Nader, Parisian and Kuhic",
+    "SaleDate": "1998-12-26T13:14:01.111992+01:00",
+    "SaleId": 704,
+    "Probability": 63,
+    "Title": "et",
+    "Amount": 15742.082,
+    "Currency": "quidem",
+    "ProjectName": "Mayert LLC",
+    "AssociateFullName": "Ms. Daryl Willie Rempel",
+    "Description": "Realigned high-level model",
     "Status": "Lost",
-    "WeightedAmount": 12554.804,
-    "ProjectId": 838,
-    "EarningPercent": 19960.446,
-    "Earning": 21392.684,
-    "ContactId": 786,
-    "AssociateId": 2,
-    "PersonId": 31,
-    "SaleTypeId": 505,
-    "SaleTypeName": "Hickle, Wisoky and Boyer",
-    "PersonFullName": "Ms. Jermain Carlotta Moore",
+    "WeightedAmount": 10122.82,
+    "ProjectId": 852,
+    "EarningPercent": 1015.4159999999999,
+    "Earning": 3541.42,
+    "ContactId": 58,
+    "AssociateId": 231,
+    "PersonId": 277,
+    "SaleTypeId": 431,
+    "SaleTypeName": "Friesen LLC",
+    "PersonFullName": "Linnie Okuneva",
     "Completed": "Completed",
-    "ActiveErpLinks": 898,
-    "NextDueDate": "1999-01-02T14:28:22.3678792+01:00",
-    "Number": "293349",
+    "ActiveErpLinks": 679,
+    "NextDueDate": "2010-08-11T13:14:01.111992+02:00",
+    "Number": "1849234",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 987
+        "FieldType": "System.String",
+        "FieldLength": 298
       }
     }
   }

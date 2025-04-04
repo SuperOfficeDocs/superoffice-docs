@@ -111,47 +111,47 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 731,
-  "Name": "Brekke-Dach",
-  "Tooltip": "in",
-  "Rank": 103,
+  "SaleTypeId": 931,
+  "Name": "Murazik, Bruen and Runte",
+  "Tooltip": "qui",
+  "Rank": 71,
   "DurationUnit": "Century",
-  "SaleDuration": 260,
-  "SaleTypeCatId": 992,
+  "SaleDuration": 456,
+  "SaleTypeCatId": 970,
   "Deleted": true,
-  "HasGuide": false,
-  "HasStakeholders": false,
-  "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 145,
-  "QuoteLinesTemplate": 103,
-  "ConfirmationLinesTemplate": 242,
+  "HasGuide": true,
+  "HasStakeholders": true,
+  "IsAutoAdvance": true,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 286,
+  "QuoteLinesTemplate": 377,
+  "ConfirmationLinesTemplate": 280,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 312,
-  "MinEarningPercent": 736,
-  "GroupQuoteLinesBy": 580,
-  "SortGroupLinesBy": 35,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 361,
+  "MinEarningPercent": 333,
+  "GroupQuoteLinesBy": 180,
+  "SortGroupLinesBy": 912,
   "Stages": [
     {
-      "Id": 315,
-      "Name": "Hagenes-Pacocha",
-      "ToolTip": "Sed fuga sed vitae eos harum.",
+      "Id": 811,
+      "Name": "Stark, Fahey and Okuneva",
+      "ToolTip": "Sit aut laborum esse eius enim distinctio.",
       "Deleted": false,
-      "Rank": 63,
-      "Type": "consequuntur",
-      "ColorBlock": 596,
-      "IconHint": "dolorem",
-      "Selected": false,
-      "LastChanged": "2013-03-01T14:28:27.6957886+01:00",
+      "Rank": 581,
+      "Type": "quae",
+      "ColorBlock": 550,
+      "IconHint": "quisquam",
+      "Selected": true,
+      "LastChanged": "2015-03-15T13:14:10.0566655+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "harum",
-      "StyleHint": "sed",
+      "ExtraInfo": "et",
+      "StyleHint": "quos",
       "Hidden": false,
-      "FullName": "Prof. Irving Murray I"
+      "FullName": "Filiberto Bergstrom"
     }
   ]
 }
@@ -164,53 +164,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 540,
-  "Name": "Zieme-Hegmann",
-  "Tooltip": "dolor",
-  "Rank": 322,
+  "SaleTypeId": 876,
+  "Name": "Kirlin-Kuhic",
+  "Tooltip": "molestiae",
+  "Rank": 329,
   "DurationUnit": "Century",
-  "SaleDuration": 901,
-  "SaleTypeCatId": 450,
-  "Deleted": true,
+  "SaleDuration": 602,
+  "SaleTypeCatId": 215,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 200,
-  "QuoteLinesTemplate": 397,
-  "ConfirmationLinesTemplate": 478,
+  "DefaultQuoteValidity": 673,
+  "QuoteLinesTemplate": 899,
+  "ConfirmationLinesTemplate": 102,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 25,
-  "MinEarningPercent": 669,
-  "GroupQuoteLinesBy": 987,
-  "SortGroupLinesBy": 780,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 159,
+  "MinEarningPercent": 433,
+  "GroupQuoteLinesBy": 340,
+  "SortGroupLinesBy": 449,
   "Stages": [
     {
-      "Id": 97,
-      "Name": "Marks Group",
-      "ToolTip": "Reprehenderit vel asperiores cumque eum asperiores.",
-      "Deleted": true,
-      "Rank": 264,
-      "Type": "debitis",
-      "ColorBlock": 334,
-      "IconHint": "voluptas",
+      "Id": 828,
+      "Name": "Mraz-Kautzer",
+      "ToolTip": "Consequatur voluptate non aut perspiciatis nihil.",
+      "Deleted": false,
+      "Rank": 348,
+      "Type": "et",
+      "ColorBlock": 516,
+      "IconHint": "cum",
       "Selected": true,
-      "LastChanged": "2018-12-21T14:28:27.6957886+01:00",
+      "LastChanged": "2004-11-29T13:14:10.0566655+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "blanditiis",
-      "StyleHint": "architecto",
+      "ExtraInfo": "omnis",
+      "StyleHint": "quis",
       "Hidden": true,
-      "FullName": "Prof. Kim Keeling",
+      "FullName": "Mr. Brant Fatima Flatley DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 784
+          "FieldLength": 373
         }
       }
     }
@@ -219,8 +219,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 281
+      "FieldType": "System.String",
+      "FieldLength": 454
     }
   }
 }

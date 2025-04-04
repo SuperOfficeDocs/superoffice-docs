@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 508,
-  "WorkflowId": 389,
+  "WorkflowTriggerId": 69,
+  "WorkflowId": 632,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "O'Hara Group",
-      "Description": "Networked mission-critical capability",
-      "Rank": 642,
+      "Name": "Predovic, Ward and Kuphal",
+      "Description": "Organic foreground data-warehouse",
+      "Rank": 209,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "O'Hara Group",
-      "Description": "Networked mission-critical capability",
-      "Rank": 642,
+      "Name": "Predovic, Ward and Kuphal",
+      "Description": "Organic foreground data-warehouse",
+      "Rank": 209,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 655,
-  "WorkflowId": 249,
+  "WorkflowTriggerId": 634,
+  "WorkflowId": 670,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Weber Inc and Sons",
-      "Description": "Enhanced fault-tolerant internet solution",
-      "Rank": 421,
+      "Name": "Walker-Quitzon",
+      "Description": "Face to face multi-tasking instruction set",
+      "Rank": 464,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Weber Inc and Sons",
-      "Description": "Enhanced fault-tolerant internet solution",
-      "Rank": 421,
+      "Name": "Walker-Quitzon",
+      "Description": "Face to face multi-tasking instruction set",
+      "Rank": 464,
       "Restrictions": [
         {},
         {}
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 854
+      "FieldLength": 828
     }
   }
 }

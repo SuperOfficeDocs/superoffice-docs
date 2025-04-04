@@ -104,30 +104,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 222,
-  "UniqueId": "amet",
-  "Name": "Dare-Crooks",
-  "Description": "Right-sized intangible emulation",
-  "AssociateId": 183,
-  "Columns": 141,
+  "DashboardId": 692,
+  "UniqueId": "unde",
+  "Name": "Russel LLC",
+  "Description": "Mandatory discrete pricing structure",
+  "AssociateId": 952,
+  "Columns": 977,
   "Theme": null,
-  "VisibleForAll": 382,
+  "VisibleForAll": 166,
   "VisibleForAssociates": [
-    908,
-    805
+    470,
+    863
   ],
   "VisibleForGroups": [
-    512,
-    548
+    661,
+    183
   ],
-  "PinForAll": 724,
+  "PinForAll": 930,
   "PinForAssociates": [
-    348,
-    447
+    31,
+    252
   ],
   "PinForGroups": [
-    33,
-    27
+    293,
+    984
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 644,
-  "UniqueId": "non",
-  "Name": "McCullough-Cole",
-  "Description": "Customer-focused asynchronous adapter",
-  "AssociateId": 997,
-  "Columns": 213,
+  "DashboardId": 131,
+  "UniqueId": "atque",
+  "Name": "Mosciski-Jacobi",
+  "Description": "Monitored clear-thinking hub",
+  "AssociateId": 29,
+  "Columns": 1000,
   "Theme": null,
-  "VisibleForAll": 284,
+  "VisibleForAll": 713,
   "VisibleForAssociates": [
-    762,
-    973
+    472,
+    570
   ],
   "VisibleForGroups": [
-    154,
-    634
+    760,
+    682
   ],
-  "PinForAll": 978,
+  "PinForAll": 441,
   "PinForAssociates": [
-    764,
-    548
+    687,
+    44
   ],
   "PinForGroups": [
-    956,
-    875
+    863,
+    241
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 856
+      "FieldType": "System.Int32",
+      "FieldLength": 489
     }
   },
   "_Links": {

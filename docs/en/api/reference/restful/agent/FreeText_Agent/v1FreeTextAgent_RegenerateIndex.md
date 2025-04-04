@@ -98,7 +98,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RunAsBatch": true
+  "RunAsBatch": false
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 406,
-  "Name": "Daugherty-Jacobson",
-  "AssociateId": 991,
-  "DetailsTable": 969,
-  "DetailsRecord": 346,
-  "IsSystemTask": false,
-  "IsInternalTask": true,
+  "Id": 459,
+  "Name": "Macejkovic LLC",
+  "AssociateId": 428,
+  "DetailsTable": 594,
+  "DetailsRecord": 511,
+  "IsSystemTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "incidunt",
-    "ParameterObject2": "ea"
+    "ParameterObject1": "dolor",
+    "ParameterObject2": "libero"
   },
-  "LastStarted": "2003-10-10T14:28:22.0241429+02:00",
-  "Created": "1999-08-17T14:28:22.0241429+02:00",
-  "StartCount": 512,
-  "DatabaseSerialNumber": "1359419",
-  "Context": "quos",
-  "Result": "vel",
+  "LastStarted": "2010-12-07T13:14:00.5168611+01:00",
+  "Created": "2005-01-11T13:14:00.5168611+01:00",
+  "StartCount": 215,
+  "DatabaseSerialNumber": "636372",
+  "Context": "laboriosam",
+  "Result": "velit",
   "State": "All",
-  "Description": "Function-based methodical support",
-  "Response": "ducimus",
-  "Request": "provident",
-  "ProgressDescription": "Front-line intangible contingency",
-  "ProgressPercent": 336,
-  "FileName": "Herzog, Skiles and Marquardt",
+  "Description": "Re-engineered optimizing paradigm",
+  "Response": "ipsum",
+  "Request": "nihil",
+  "ProgressDescription": "Proactive foreground framework",
+  "ProgressPercent": 104,
+  "FileName": "Nikolaus LLC",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 724
+      "FieldLength": 156
     }
   }
 }

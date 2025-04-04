@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ConsentPurpose
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 935,
-  "Name": "Lindgren Inc and Sons",
-  "Tooltip": "officia",
-  "Deleted": false,
-  "Rank": 713,
-  "IsCustomList": false,
+  "Id": 132,
+  "Name": "Roob, Kihn and Marquardt",
+  "Tooltip": "ipsum",
+  "Deleted": true,
+  "Rank": 719,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laudantium",
-  "InUseByUserDefinedFields": false,
+  "ListType": "corrupti",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldType": "System.String",
+      "FieldLength": 610
     }
   },
   "_Links": {

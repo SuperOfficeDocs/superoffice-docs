@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Skiles-Kris",
-  "GroupId": 698
+  "UdListDefinitionName": "Stanton LLC",
+  "GroupId": 248
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 613,
-    "Name": "Beier-Davis",
-    "ToolTip": "Accusamus officia sed repudiandae mollitia atque consectetur.",
-    "Deleted": true,
-    "Rank": 845,
-    "Type": "dolor",
-    "ColorBlock": 927,
-    "IconHint": "natus",
+    "Id": 731,
+    "Name": "Dooley-Nitzsche",
+    "ToolTip": "Ut tempore ad sit sequi nulla ab.",
+    "Deleted": false,
+    "Rank": 626,
+    "Type": "iure",
+    "ColorBlock": 315,
+    "IconHint": "omnis",
     "Selected": true,
-    "LastChanged": "2013-10-02T14:28:22.0553915+02:00",
+    "LastChanged": "2000-08-01T13:14:00.5949987+02:00",
     "ChildItems": [
       {
-        "Id": 563,
-        "Name": "Adams LLC",
-        "ToolTip": "Totam laudantium voluptate voluptas sed.",
+        "Id": 75,
+        "Name": "Dare-Goldner",
+        "ToolTip": "Est dolores ipsam numquam quod quia.",
         "Deleted": true,
-        "Rank": 647,
-        "Type": "rerum",
-        "ColorBlock": 138,
-        "IconHint": "quaerat",
+        "Rank": 491,
+        "Type": "animi",
+        "ColorBlock": 295,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2010-11-30T14:28:22.0553915+01:00",
+        "LastChanged": "2016-07-01T13:14:00.5949987+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "officia",
-        "Hidden": true,
-        "FullName": "Royce Kirlin",
+        "ExtraInfo": "officiis",
+        "StyleHint": "nulla",
+        "Hidden": false,
+        "FullName": "Jace Goldner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 161
+            "FieldLength": 278
           }
         }
       }
     ],
-    "ExtraInfo": "soluta",
-    "StyleHint": "in",
+    "ExtraInfo": "libero",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Novella Fahey DDS",
+    "FullName": "Jordane Gislason",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 90
+        "FieldType": "System.Int32",
+        "FieldLength": 969
       }
     }
   }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/Sale/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "McKenzie Group",
-    "DisplayName": "Conn-Reilly",
-    "Description": "Fundamental didactic standardization",
-    "ShortLabel": "quos",
-    "HideLabel": false,
-    "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": true,
-    "IsDisplayField": true,
-    "Rank": 476,
-    "TemplateVariableName": "Schiller-Lowe"
+    "FieldName": "McKenzie, Dare and Hirthe",
+    "DisplayName": "Bins-Barrows",
+    "Description": "Centralized content-based solution",
+    "ShortLabel": "nihil",
+    "HideLabel": true,
+    "HideField": true,
+    "IsIndexed": false,
+    "IsMandatory": true,
+    "IsReadOnly": false,
+    "IsExternal": false,
+    "IsDisplayField": false,
+    "Rank": 621,
+    "TemplateVariableName": "Pollich-McDermott"
   }
 ]
 ```

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1002,
-    "Name": "Schinner, Torp and Stamm",
-    "ToolTip": "Ea occaecati fugiat vitae reprehenderit provident beatae dolor.",
-    "Deleted": false,
-    "Rank": 321,
-    "Type": "itaque",
-    "ColorBlock": 354,
-    "IconHint": "voluptas",
+    "Id": 748,
+    "Name": "Mitchell, Romaguera and Schulist",
+    "ToolTip": "Soluta aut.",
+    "Deleted": true,
+    "Rank": 820,
+    "Type": "atque",
+    "ColorBlock": 450,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2008-10-26T14:28:27.5082958+01:00",
+    "LastChanged": "2008-02-06T13:14:09.6660173+01:00",
     "ChildItems": [
       {
-        "Id": 285,
-        "Name": "Okuneva-Quigley",
-        "ToolTip": "Sequi reprehenderit repellendus tempora.",
+        "Id": 582,
+        "Name": "Conroy Group",
+        "ToolTip": "Temporibus magni et a nihil rerum.",
         "Deleted": false,
-        "Rank": 299,
-        "Type": "quisquam",
-        "ColorBlock": 304,
-        "IconHint": "laborum",
-        "Selected": false,
-        "LastChanged": "2009-06-08T14:28:27.5082958+02:00",
+        "Rank": 280,
+        "Type": "et",
+        "ColorBlock": 601,
+        "IconHint": "consequuntur",
+        "Selected": true,
+        "LastChanged": "2020-04-11T13:14:09.6660173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "sed",
-        "Hidden": false,
-        "FullName": "Hassan Blanda",
+        "ExtraInfo": "culpa",
+        "StyleHint": "omnis",
+        "Hidden": true,
+        "FullName": "Mireille Hammes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 173
+            "FieldLength": 792
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Amely Bahringer",
+    "ExtraInfo": "soluta",
+    "StyleHint": "accusantium",
+    "Hidden": true,
+    "FullName": "Orie Gutmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 265
+        "FieldLength": 413
       }
     }
   }

@@ -79,32 +79,32 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "omnis",
-        "nostrum"
+        "consequatur",
+        "illo"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "sit"
+      "ExternalKey": "dolor"
     },
     {
       "Values": [
-        "omnis",
-        "nostrum"
+        "consequatur",
+        "illo"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "sit"
+      "ExternalKey": "dolor"
     }
   ],
   "ColumnDefinition": [
-    "quisquam",
-    "et"
+    "commodi",
+    "dolore"
   ],
   "CreateSelection": false,
-  "Culture": "eos",
-  "Context": "aspernatur"
+  "Culture": "distinctio",
+  "Context": "earum"
 }
 ```
 
@@ -115,7 +115,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  997,
-  860
+  223,
+  746
 ]
 ```

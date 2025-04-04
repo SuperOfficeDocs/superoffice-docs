@@ -78,15 +78,15 @@ OK
 PUT /api/v1/List/UserGroup/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "eligendi",
-  "Tooltip": "qui",
-  "Id": 111,
-  "Rank": 631,
-  "Deleted": true
+  "Value": "dolorem",
+  "Tooltip": "voluptatum",
+  "Id": 816,
+  "Rank": 173,
+  "Deleted": false
 }
 ```
 
@@ -97,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "earum",
-  "Tooltip": "voluptates",
-  "Id": 303,
-  "Rank": 796,
-  "Deleted": true,
+  "Value": "dolores",
+  "Tooltip": "facere",
+  "Id": 331,
+  "Rank": 425,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldLength": 578
     }
   }
 }

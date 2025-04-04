@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 412,
-    "Name": "Erdman-Kuphal",
-    "ToolTip": "Quisquam quis.",
-    "Deleted": false,
-    "Rank": 910,
-    "Type": "a",
-    "ColorBlock": 402,
-    "IconHint": "ipsa",
+    "Id": 716,
+    "Name": "Cartwright, Schmitt and Quigley",
+    "ToolTip": "Accusamus vero consectetur.",
+    "Deleted": true,
+    "Rank": 399,
+    "Type": "dignissimos",
+    "ColorBlock": 11,
+    "IconHint": "labore",
     "Selected": false,
-    "LastChanged": "2003-05-16T14:28:27.4614236+02:00",
+    "LastChanged": "2007-01-18T13:14:09.6036167+01:00",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Ebert-Grady",
-        "ToolTip": "Et est dolore veritatis illo doloribus.",
+        "Id": 421,
+        "Name": "Littel-Shanahan",
+        "ToolTip": "Delectus perferendis quibusdam ut corporis alias nulla dolore.",
         "Deleted": false,
-        "Rank": 176,
-        "Type": "aspernatur",
-        "ColorBlock": 144,
-        "IconHint": "tempora",
+        "Rank": 117,
+        "Type": "explicabo",
+        "ColorBlock": 314,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2009-02-18T14:28:27.4770477+01:00",
+        "LastChanged": "2009-07-30T13:14:09.6036167+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "voluptates",
+        "ExtraInfo": "vel",
+        "StyleHint": "iusto",
         "Hidden": true,
-        "FullName": "Ms. Edison Odie Berge"
+        "FullName": "Evan Cole"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "tempora",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "quod",
     "Hidden": true,
-    "FullName": "Alia Lesch"
+    "FullName": "Dr. Reed Swift III"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Denesik-Bauch",
-    "ToolTip": "Distinctio facilis.",
+    "Id": 71,
+    "Name": "Bayer Inc and Sons",
+    "ToolTip": "Quibusdam accusamus ducimus quia id eum.",
     "Deleted": false,
-    "Rank": 971,
-    "Type": "odit",
-    "ColorBlock": 733,
-    "IconHint": "nihil",
-    "Selected": true,
-    "LastChanged": "2019-04-21T14:28:27.4770477+02:00",
+    "Rank": 784,
+    "Type": "laudantium",
+    "ColorBlock": 42,
+    "IconHint": "ad",
+    "Selected": false,
+    "LastChanged": "2002-09-04T13:14:09.6036167+02:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Ortiz, Olson and Shields",
-        "ToolTip": "Ratione ex voluptatum doloribus.",
+        "Id": 144,
+        "Name": "McClure Group",
+        "ToolTip": "Et consequuntur amet accusantium in.",
         "Deleted": false,
-        "Rank": 265,
-        "Type": "voluptates",
-        "ColorBlock": 264,
-        "IconHint": "nulla",
-        "Selected": false,
-        "LastChanged": "2018-05-11T14:28:27.4770477+02:00",
+        "Rank": 881,
+        "Type": "facere",
+        "ColorBlock": 597,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2002-02-22T13:14:09.6036167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugit",
-        "StyleHint": "dolores",
-        "Hidden": true,
-        "FullName": "Maud Greenholt III",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "quasi",
+        "Hidden": false,
+        "FullName": "Lon Kuphal V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 184
+            "FieldType": "System.String",
+            "FieldLength": 652
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "esse",
+    "ExtraInfo": "et",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Gayle Margarita Adams MD",
+    "FullName": "Sarai Terry",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldLength": 615
       }
     }
   }

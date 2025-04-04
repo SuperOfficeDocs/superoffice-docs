@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetTicketStatusList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -87,19 +87,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketStatusId": 626,
-    "Name": "Cruickshank-Gulgowski",
+    "TicketStatusId": 777,
+    "Name": "O'Kon-Hudson",
     "Status": "Active",
     "TimeCounter": "Externally",
-    "NoEmailReopen": false,
-    "IsDefault": true,
+    "NoEmailReopen": true,
+    "IsDefault": false,
     "UsedInQueue": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 956
+        "FieldType": "System.String",
+        "FieldLength": 425
       }
     }
   }

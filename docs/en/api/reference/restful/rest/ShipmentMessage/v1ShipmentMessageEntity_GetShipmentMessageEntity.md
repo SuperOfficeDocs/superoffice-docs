@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 305,
-  "PlainMessage": "enim",
-  "HtmlMessage": "unde",
-  "SmsMessage": "molestiae",
-  "Description": "Networked 4th generation strategy",
-  "Subject": "in",
-  "FolderId": 656,
-  "HeaderField": "soluta",
-  "Design": "nulla",
+  "ShipmentMessageId": 439,
+  "PlainMessage": "hic",
+  "HtmlMessage": "sit",
+  "SmsMessage": "corrupti",
+  "Description": "Re-engineered upward-trending function",
+  "Subject": "totam",
+  "FolderId": 34,
+  "HeaderField": "consequatur",
+  "Design": "sit",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Business-focused real-time concept",
-  "AccessKey": "dignissimos",
-  "DocumentMessage": 67,
-  "Registered": "2003-05-18T14:28:27.2583066+02:00",
-  "RegisteredAssociateId": 532,
-  "Updated": "2011-05-14T14:28:27.2583066+02:00",
-  "UpdatedAssociateId": 56,
-  "UpdatedCount": 927,
+  "InlineImages": false,
+  "LongDescription": "User-centric interactive system engine",
+  "AccessKey": "qui",
+  "DocumentMessage": 801,
+  "Registered": "2011-04-30T13:14:09.1966452+02:00",
+  "RegisteredAssociateId": 509,
+  "Updated": "2000-03-27T13:14:09.1966452+02:00",
+  "UpdatedAssociateId": 329,
+  "UpdatedCount": 179,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 883
+      "FieldLength": 976
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

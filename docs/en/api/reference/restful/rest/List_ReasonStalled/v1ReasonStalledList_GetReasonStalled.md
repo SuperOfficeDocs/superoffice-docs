@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 492,
-  "Name": "Wisozk, O'Reilly and Wisozk",
-  "Tooltip": "et",
+  "Id": 92,
+  "Name": "King LLC",
+  "Tooltip": "iste",
   "Deleted": true,
-  "UdListDefinitionId": 48,
-  "Rank": 212,
+  "UdListDefinitionId": 402,
+  "Rank": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 783
+      "FieldType": "System.Int32",
+      "FieldLength": 145
     }
   }
 }

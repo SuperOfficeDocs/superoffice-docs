@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveAllFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Nicolas, Collins and Schultz",
-  "AssociateId": 525
+  "TableName": "Stokes-Osinski",
+  "AssociateId": 801
 }
 ```
 

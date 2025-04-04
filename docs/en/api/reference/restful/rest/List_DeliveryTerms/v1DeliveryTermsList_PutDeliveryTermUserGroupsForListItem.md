@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 112,
-    "Name": "Medhurst-Bednar",
-    "ToolTip": "Ducimus at ab esse animi eos et voluptas.",
-    "Deleted": false,
-    "Rank": 5,
-    "Type": "magni",
-    "ColorBlock": 222,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "1998-06-25T14:28:27.5395453+02:00",
+    "Id": 711,
+    "Name": "Rippin-Herman",
+    "ToolTip": "Qui porro saepe optio nam praesentium.",
+    "Deleted": true,
+    "Rank": 844,
+    "Type": "natus",
+    "ColorBlock": 679,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2003-06-09T13:14:09.7441386+02:00",
     "ChildItems": [
       {
-        "Id": 119,
-        "Name": "Schmidt, Kunde and Heller",
-        "ToolTip": "Vero sit minus et non suscipit ipsam enim.",
+        "Id": 576,
+        "Name": "Schuppe-Spencer",
+        "ToolTip": "Est alias voluptas quisquam quibusdam et.",
         "Deleted": false,
-        "Rank": 355,
-        "Type": "voluptatem",
-        "ColorBlock": 322,
-        "IconHint": "et",
+        "Rank": 932,
+        "Type": "ipsum",
+        "ColorBlock": 676,
+        "IconHint": "nobis",
         "Selected": false,
-        "LastChanged": "2008-05-05T14:28:27.5395453+02:00",
+        "LastChanged": "2023-05-16T13:14:09.7441386+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "natus",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Charles Ledner"
+        "FullName": "Granville Bashirian"
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Alessandro Chanel Bogan I"
+    "FullName": "Mrs. Ellis Harris"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 722,
-    "Name": "Littel-Stracke",
-    "ToolTip": "Voluptatem voluptas culpa illum autem.",
+    "Id": 232,
+    "Name": "Dietrich, Cummings and Abshire",
+    "ToolTip": "Illum asperiores sed vel quam veniam.",
     "Deleted": false,
-    "Rank": 721,
-    "Type": "accusantium",
-    "ColorBlock": 1001,
-    "IconHint": "asperiores",
+    "Rank": 704,
+    "Type": "fuga",
+    "ColorBlock": 699,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2009-03-24T14:28:27.5551692+01:00",
+    "LastChanged": "2015-12-19T13:14:09.7441386+01:00",
     "ChildItems": [
       {
-        "Id": 687,
-        "Name": "Hand-Simonis",
-        "ToolTip": "Sint suscipit et qui quidem error et.",
+        "Id": 11,
+        "Name": "Maggio-Trantow",
+        "ToolTip": "Voluptatem omnis temporibus porro provident voluptas maiores atque.",
         "Deleted": false,
-        "Rank": 473,
-        "Type": "corrupti",
-        "ColorBlock": 811,
-        "IconHint": "libero",
+        "Rank": 157,
+        "Type": "a",
+        "ColorBlock": 648,
+        "IconHint": "nemo",
         "Selected": false,
-        "LastChanged": "2003-04-15T14:28:27.5551692+02:00",
+        "LastChanged": "2013-05-17T13:14:09.7441386+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "id",
-        "Hidden": false,
-        "FullName": "Ms. Ron Federico Wisoky",
+        "ExtraInfo": "repellat",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Ms. Luna Kreiger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 804
+            "FieldLength": 866
           }
         }
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "omnis",
+    "ExtraInfo": "maiores",
+    "StyleHint": "velit",
     "Hidden": false,
-    "FullName": "Kaylie Kunze",
+    "FullName": "Mrs. Jovan Herzog",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 829
+        "FieldLength": 875
       }
     }
   }

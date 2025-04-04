@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 395,
-  "Section": "et",
-  "Key": "nemo",
-  "Name": "Medhurst LLC",
+  "PrefDescId": 190,
+  "Section": "ab",
+  "Key": "qui",
+  "Name": "Grant Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Organic national solution",
+  "Description": "Inverse even-keeled strategy",
   "IsBuiltin": false,
-  "TableName": "Abbott-Tremblay",
-  "UserDefinedListId": 263,
-  "Rank": 269,
-  "SubGroup": "voluptas",
-  "MinLevel": 869,
-  "MaxValue": 775,
-  "MinValue": 322,
-  "RequiredLicense": "qui"
+  "TableName": "Kassulke, Heaney and Leffler",
+  "UserDefinedListId": 377,
+  "Rank": 275,
+  "SubGroup": "necessitatibus",
+  "MinLevel": 315,
+  "MaxValue": 243,
+  "MinValue": 255,
+  "RequiredLicense": "explicabo"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 719,
-  "Section": "ex",
-  "Key": "voluptatibus",
-  "Name": "Veum-Jenkins",
+  "PrefDescId": 109,
+  "Section": "qui",
+  "Key": "labore",
+  "Name": "Schulist-Crona",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Streamlined background system engine",
-  "IsBuiltin": true,
-  "TableName": "Becker, Dickens and Dach",
-  "UserDefinedListId": 376,
-  "Rank": 132,
-  "SubGroup": "labore",
-  "MinLevel": 454,
-  "MaxValue": 209,
-  "MinValue": 756,
-  "RequiredLicense": "provident",
+  "Description": "Synergistic intangible implementation",
+  "IsBuiltin": false,
+  "TableName": "Ebert, Parisian and Kuvalis",
+  "UserDefinedListId": 251,
+  "Rank": 417,
+  "SubGroup": "illum",
+  "MinLevel": 865,
+  "MaxValue": 676,
+  "MinValue": 135,
+  "RequiredLicense": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 481
+      "FieldLength": 761
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

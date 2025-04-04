@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailing
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentAddrId": 261
+  "ShipmentAddrId": 234
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SendingTime": "2005-05-12T14:28:22.1022648+02:00",
+  "SendingTime": "2008-02-05T13:14:00.6887452+01:00",
   "Status": "Blocked",
-  "ShipmentId": 540,
-  "ShipmentDescription": "Stand-alone uniform service-desk",
-  "FromAddress": "magnam",
-  "Configuration": 729,
-  "ContactId": 404,
-  "ContactName": "Kertzmann, Wintheiser and Stamm",
-  "PersonId": 509,
-  "PersonFullName": "Remington Hassan Orn III",
-  "ShipmentType": "corrupti",
-  "MessageId": 77,
-  "MessageSubject": "neque",
-  "DocumentMessageId": 361,
-  "Opened": "1999-05-14T14:28:22.1022648+02:00",
-  "LinkClicks": 148,
+  "ShipmentId": 613,
+  "ShipmentDescription": "Future-proofed bottom-line synergy",
+  "FromAddress": "rerum",
+  "Configuration": 347,
+  "ContactId": 106,
+  "ContactName": "Wuckert-Donnelly",
+  "PersonId": 10,
+  "PersonFullName": "Lizeth Kadin Hermiston V",
+  "ShipmentType": "dolor",
+  "MessageId": 635,
+  "MessageSubject": "ut",
+  "DocumentMessageId": 668,
+  "Opened": "2012-10-23T13:14:00.6887452+02:00",
+  "LinkClicks": 552,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldLength": 907
     }
   }
 }

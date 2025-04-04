@@ -81,8 +81,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "accusamus",
-  "GroupName": "Botsford LLC"
+  "Type": "quis",
+  "GroupName": "Dibbert-Sanford"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "adipisci",
-    "temporibus"
+    "sint",
+    "quas"
   ],
   "Users": [
     {
-      "Value": "quasi",
-      "DisplayValue": "culpa",
+      "Value": "saepe",
+      "DisplayValue": "blanditiis",
       "Columns": [
-        "quaerat",
-        "est"
+        "veniam",
+        "quia"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 928
+          "FieldType": "System.Int32",
+          "FieldLength": 616
         }
       }
     },
     {
-      "Value": "quasi",
-      "DisplayValue": "culpa",
+      "Value": "saepe",
+      "DisplayValue": "blanditiis",
       "Columns": [
-        "quaerat",
-        "est"
+        "veniam",
+        "quia"
       ],
-      "CanCreatePerson": true,
+      "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 928
+          "FieldType": "System.Int32",
+          "FieldLength": 616
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 676
+      "FieldLength": 40
     }
   }
 }

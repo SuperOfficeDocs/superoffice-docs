@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "placeat",
+      "RawValue": "dolore",
       "Specification": null,
-      "DisplayValue": "molestiae",
-      "DisplayTooltip": "vitae",
+      "DisplayValue": "eum",
+      "DisplayTooltip": "eaque",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 839,
-      "PrefDescId": 776,
-      "TableName": "Heidenreich Group",
-      "UserPreferenceId": 636
+      "TargetId": 217,
+      "PrefDescId": 712,
+      "TableName": "Parker-Pagac",
+      "UserPreferenceId": 77
     }
   ]
 }

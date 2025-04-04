@@ -93,16 +93,16 @@ RelationDefinitionEntity updated.
 PUT /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 209,
-  "Name": "Beahan-Bednar",
-  "Tooltip": "consequatur",
-  "PassiveText": "quia",
-  "Deleted": false,
-  "Rank": 398,
+  "ReldefId": 462,
+  "Name": "Wisozk, Metz and Keeling",
+  "Tooltip": "repellat",
+  "PassiveText": "suscipit",
+  "Deleted": true,
+  "Rank": 578,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -115,25 +115,25 @@ HTTP/1.1 200 RelationDefinitionEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 211,
-  "Name": "Davis Inc and Sons",
-  "Tooltip": "consectetur",
-  "PassiveText": "et",
-  "Deleted": true,
-  "Rank": 368,
+  "ReldefId": 842,
+  "Name": "Schaefer Inc and Sons",
+  "Tooltip": "quisquam",
+  "PassiveText": "vero",
+  "Deleted": false,
+  "Rank": 446,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldType": "System.String",
+      "FieldLength": 64
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

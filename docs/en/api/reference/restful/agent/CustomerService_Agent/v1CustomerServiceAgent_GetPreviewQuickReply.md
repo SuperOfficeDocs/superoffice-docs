@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewQuickReply
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuickReplyId": 455
+  "QuickReplyId": 938
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kuvalis Inc and Sons",
-  "UpdatedByFullName": "Enrique Runte",
-  "Updated": "1998-11-05T14:28:21.6960311+01:00",
-  "HtmlBody": "laudantium",
+  "Name": "Wiegand, Luettgen and Beatty",
+  "UpdatedByFullName": "Imogene McClure DDS",
+  "Updated": "2014-11-04T13:14:00.0319625+01:00",
+  "HtmlBody": "deleniti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 307
+      "FieldType": "System.String",
+      "FieldLength": 341
     }
   }
 }

@@ -83,59 +83,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Huels-Braun",
-  "Context": "nemo",
+  "ProviderName": "Legros-Huel",
+  "Context": "facilis",
   "DesiredEntities": [
-    "ratione",
-    "accusantium"
+    "tempore",
+    "explicabo"
   ],
   "Columns": [
-    "enim",
-    "harum"
+    "aut",
+    "est"
   ],
   "SortOrder": [
     {
-      "Name": "Kirlin LLC",
+      "Name": "Klocko-Sawayn",
       "Direction": "ASC"
     },
     {
-      "Name": "Kirlin LLC",
+      "Name": "Klocko-Sawayn",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Funk-Kassulke",
-      "Operator": "dolores",
+      "Name": "Ritchie Inc and Sons",
+      "Operator": "sunt",
       "Values": [
-        "qui",
-        "ea"
+        "possimus",
+        "a"
       ],
       "DisplayValues": [
-        "ea",
-        "numquam"
+        "minima",
+        "nemo"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 766,
+      "InterParenthesis": 418,
       "InterOperator": "And",
-      "UniqueHash": 737
+      "UniqueHash": 2
     }
   ],
-  "ExportType": "autem",
+  "ExportType": "voluptas",
   "SelectedRowIds": [
-    "aut",
-    "qui"
+    "sunt",
+    "similique"
   ],
-  "EstimatedRowCount": 568
+  "EstimatedRowCount": 900
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 693,
-  "FileName": "Gottlieb Inc and Sons",
-  "Message": "amet",
+  "BatchTaskId": 699,
+  "FileName": "Bahringer-Corwin",
+  "Message": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 576
+      "FieldType": "System.String",
+      "FieldLength": 503
     }
   }
 }

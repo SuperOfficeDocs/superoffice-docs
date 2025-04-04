@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 115,
-  "ColumnId": 954,
-  "FieldDefault": "quisquam",
-  "FieldHeight": 146,
-  "FieldLabel": "ut",
-  "FieldLeft": 768,
-  "FieldTop": 157,
+  "UDefFieldId": 418,
+  "ColumnId": 480,
+  "FieldDefault": "nihil",
+  "FieldHeight": 745,
+  "FieldLabel": "voluptatem",
+  "FieldLeft": 873,
+  "FieldTop": 658,
   "FieldType": "Checkbox",
-  "FieldWidth": 501,
-  "FormatMask": "ut",
+  "FieldWidth": 199,
+  "FormatMask": "modi",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 459,
-  "LabelLeft": 171,
-  "LabelTop": 18,
-  "LabelWidth": 274,
-  "LastVersionId": 803,
-  "ListTableId": 81,
+  "IsIndexed": true,
+  "LabelHeight": 438,
+  "LabelLeft": 642,
+  "LabelTop": 909,
+  "LabelWidth": 622,
+  "LastVersionId": 750,
+  "ListTableId": 907,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 160,
-  "ProgId": "eum",
+  "Page1LineNo": 1002,
+  "ProgId": "ratione",
   "IsReadOnly": false,
-  "ShortLabel": "maxime",
-  "TabOrder": 502,
-  "TextLength": 721,
-  "Tooltip": "magni",
-  "UdefIdentity": 163,
-  "UDListDefinitionId": 459,
+  "ShortLabel": "rerum",
+  "TabOrder": 440,
+  "TextLength": 213,
+  "Tooltip": "totam",
+  "UdefIdentity": 767,
+  "UDListDefinitionId": 145,
   "Justification": "Center",
-  "Version": 575,
-  "TemplateVariableName": "Vandervort Group",
+  "Version": 640,
+  "TemplateVariableName": "Frami Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Klocko Group",
+  "MdoListName": "Kihn, Bosco and Olson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 9
     }
   }
 }

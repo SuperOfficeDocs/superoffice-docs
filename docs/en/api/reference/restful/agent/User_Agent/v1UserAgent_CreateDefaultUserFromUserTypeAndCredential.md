@@ -103,15 +103,15 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndCredential
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "ContactId": 819,
-  "CredentialType": "aut",
-  "CredentialValue": "minus",
-  "CredentialDisplayValue": "perspiciatis"
+  "ContactId": 304,
+  "CredentialType": "nisi",
+  "CredentialValue": "veritatis",
+  "CredentialDisplayValue": "et"
 }
 ```
 
@@ -122,14 +122,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 769,
-  "Name": "Maggio, Rau and Trantow",
-  "Rank": 299,
-  "Tooltip": "rerum",
+  "AssociateId": 603,
+  "Name": "Dicki, Heller and Rempel",
+  "Rank": 952,
+  "Tooltip": "voluptatem",
   "LicenseOwners": [
     {
-      "Name": "Anderson-Hansen",
-      "Description": "Ergonomic foreground software",
+      "Name": "Bruen-Bergnaum",
+      "Description": "Re-engineered multi-state workforce",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -143,13 +143,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 394
         }
       }
     },
     {
-      "Name": "Anderson-Hansen",
-      "Description": "Ergonomic foreground software",
+      "Name": "Bruen-Bergnaum",
+      "Description": "Re-engineered multi-state workforce",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 394
         }
       }
     }
@@ -172,110 +172,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "eius",
-      "Tooltip": "qui",
-      "Id": 957,
-      "Rank": 994,
+      "Value": "voluptas",
+      "Tooltip": "voluptatem",
+      "Id": 868,
+      "Rank": 294,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 856
+          "FieldLength": 377
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "1999-03-06T14:28:22.6647419+01:00",
-  "Lastlogout": "2023-02-12T14:28:22.6647419+01:00",
-  "EjUserId": 782,
-  "RequestSignature": "nostrum",
+  "Lastlogin": "2004-11-16T13:14:01.6444424+01:00",
+  "Lastlogout": "2016-07-13T13:14:01.6444424+02:00",
+  "EjUserId": 260,
+  "RequestSignature": "dolorum",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aliquid",
-      "DisplayValue": "voluptatem",
+      "Value": "in",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldLength": 641
         }
       }
     },
     {
       "Type": null,
-      "Value": "aliquid",
-      "DisplayValue": "voluptatem",
+      "Value": "in",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldLength": 641
         }
       }
     }
   ],
-  "UserName": "Nienow Inc and Sons",
+  "UserName": "Little Group",
   "TicketCategories": [
     {
-      "Id": 208,
-      "Name": "Jacobson Group",
-      "ToolTip": "Quae adipisci atque mollitia velit non.",
+      "Id": 256,
+      "Name": "Wilderman LLC",
+      "ToolTip": "Delectus nesciunt omnis et.",
       "Deleted": false,
-      "Rank": 673,
-      "Type": "rerum",
+      "Rank": 988,
+      "Type": "dolores",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "recusandae",
-      "ColorBlock": 895,
-      "ExtraInfo": "et",
-      "StyleHint": "omnis",
-      "FullName": "Miss Morton Haylie Kerluke",
+      "IconHint": "voluptates",
+      "ColorBlock": 820,
+      "ExtraInfo": "voluptatum",
+      "StyleHint": "laboriosam",
+      "FullName": "Maggie Doyle",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 615
+          "FieldType": "System.String",
+          "FieldLength": 967
         }
       }
     }
   ],
-  "NickName": "Kuhn-Rogahn",
-  "WaitingForApproval": false,
+  "NickName": "Jast Inc and Sons",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "quod",
-    "ExtraFields2": "cumque"
+    "ExtraFields1": "facere",
+    "ExtraFields2": "nihil"
   },
   "CustomFields": {
-    "CustomFields1": "commodi",
-    "CustomFields2": "nulla"
+    "CustomFields1": "nihil",
+    "CustomFields2": "nemo"
   },
   "PostSaveCommands": [
     {
-      "Name": "Mitchell Group",
-      "DisplayName": "Nitzsche, Homenick and Murphy",
-      "Description": "Integrated 4th generation portal",
-      "ToolTip": "Molestias modi ipsam neque.",
+      "Name": "Dickens-King",
+      "DisplayName": "Hackett, Green and Koch",
+      "Description": "Upgradable stable strategy",
+      "ToolTip": "Et et culpa.",
       "Actions": "Implicit",
-      "ActionData": "quo",
+      "ActionData": "omnis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 192
+          "FieldType": "System.String",
+          "FieldLength": 769
         }
       }
     }
@@ -284,8 +284,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 379
+      "FieldType": "System.String",
+      "FieldLength": 187
     }
   }
 }

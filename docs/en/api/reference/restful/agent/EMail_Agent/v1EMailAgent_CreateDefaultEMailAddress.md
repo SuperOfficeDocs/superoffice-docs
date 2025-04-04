@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 737,
-  "ContactName": "Graham, Champlin and McGlynn",
-  "PersonId": 314,
-  "PersonName": "Bogan-Kihn",
-  "AssociateId": 918,
-  "Address": "reprehenderit",
-  "EmailId": 286,
+  "ContactId": 862,
+  "ContactName": "Legros-Mann",
+  "PersonId": 569,
+  "PersonName": "Cummerata-Jerde",
+  "AssociateId": 765,
+  "Address": "vel",
+  "EmailId": 152,
   "DuplicatePersonIds": [
-    716,
-    623
+    293,
+    98
   ],
-  "Name": "Braun Inc and Sons",
+  "Name": "Thiel, Hackett and Konopelski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 187
+      "FieldType": "System.String",
+      "FieldLength": 550
     }
   }
 }

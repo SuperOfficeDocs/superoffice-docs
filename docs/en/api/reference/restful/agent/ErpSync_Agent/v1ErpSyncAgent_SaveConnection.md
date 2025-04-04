@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 593,
-  "ErpConnectorId": 680,
-  "DisplayName": "Block LLC",
-  "DisplayDescription": "Integrated 4th generation moderator",
-  "Active": true,
-  "ConnectionId": "ut",
-  "MostRecentTimestamp": "nisi",
+  "ErpConnectionId": 983,
+  "ErpConnectorId": 225,
+  "DisplayName": "Brakus, Hagenes and Lehner",
+  "DisplayDescription": "Fundamental context-sensitive interface",
+  "Active": false,
+  "ConnectionId": "sed",
+  "MostRecentTimestamp": "quia",
   "ConfigFields": {
-    "ConfigFields1": "sit",
-    "ConfigFields2": "quae"
+    "ConfigFields1": "quam",
+    "ConfigFields2": "omnis"
   },
-  "Deleted": true,
-  "AllAccess": false,
+  "Deleted": false,
+  "AllAccess": true,
   "UserGroupAccessIds": [
-    175,
-    850
+    774,
+    217
   ],
   "AssociateAccessIds": [
-    763,
-    625
+    821,
+    81
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 897
+      "FieldType": "System.Int32",
+      "FieldLength": 977
     }
   }
 }

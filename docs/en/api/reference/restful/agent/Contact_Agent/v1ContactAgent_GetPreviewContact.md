@@ -82,11 +82,11 @@ OK
 POST /api/v1/Agents/Contact/GetPreviewContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 354
+  "ContactId": 673
 }
 ```
 
@@ -97,17 +97,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 977,
-  "Name": "Rice, Reichert and Halvorson",
-  "Department": "iterate intuitive initiatives",
-  "CountryId": 294,
-  "Number2": "631277",
-  "DirectPhone": "1-625-450-9782",
+  "ContactId": 68,
+  "Name": "Casper, Balistreri and Kuvalis",
+  "Department": "",
+  "CountryId": 442,
+  "Number2": "1878890",
+  "DirectPhone": "839-714-0414",
   "URL": "http://www.example.com/",
-  "EmailAddress": "josie@wyman.ca",
+  "EmailAddress": "willy.tillman@howelllesch.info",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
-  "AssociateFullName": "Darron Keeling",
+  "AssociateFullName": "Dr. Neoma Cummings",
   "Address": null
 }
 ```

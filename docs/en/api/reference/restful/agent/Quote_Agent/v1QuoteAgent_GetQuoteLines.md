@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 737
+  "QuoteAlternativeId": 766
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 138,
-    "ERPQuoteLineKey": "quam",
-    "QuoteAlternativeId": 116,
-    "ERPProductKey": "quis",
+    "QuoteLineId": 417,
+    "ERPQuoteLineKey": "qui",
+    "QuoteAlternativeId": 389,
+    "ERPProductKey": "pariatur",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 16926.734,
-    "DeliveredQuantity": 8464.934,
-    "Rank": 645,
-    "Name": "Welch, Gulgowski and Bogisich",
-    "Description": "Secured zero defect circuit",
-    "Code": "vero",
-    "QuantityUnit": "non",
-    "PriceUnit": "ut",
-    "ItemNumber": "577980",
+    "Quantity": 2316.026,
+    "DeliveredQuantity": 27306.541999999998,
+    "Rank": 981,
+    "Name": "Daugherty LLC",
+    "Description": "Front-line bandwidth-monitored hub",
+    "Code": "vel",
+    "QuantityUnit": "omnis",
+    "PriceUnit": "consequuntur",
+    "ItemNumber": "1297848",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "odit",
-    "ProductTypeKey": "enim",
-    "Supplier": "consequatur",
-    "SupplierCode": "dignissimos",
-    "Thumbnail": "voluptate",
-    "VATInfo": "quis",
-    "VAT": 1482.382,
-    "UnitCost": 22796.716,
-    "UnitMinimumPrice": 2187.532,
-    "UnitListPrice": 25260.04,
+    "ProductFamilyKey": "aspernatur",
+    "ProductTypeKey": "asperiores",
+    "Supplier": "itaque",
+    "SupplierCode": "voluptatibus",
+    "Thumbnail": "quisquam",
+    "VATInfo": "et",
+    "VAT": 19878.962,
+    "UnitCost": 4635.186,
+    "UnitMinimumPrice": 31126.888,
+    "UnitListPrice": 12420.042,
     "ExtraInfo": [
       {
-        "Name": "Oberbrunner-Jacobi",
-        "Value": "assumenda",
+        "Name": "Kris-Grant",
+        "Value": "quis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 76
+            "FieldType": "System.Int32",
+            "FieldLength": 234
           }
         }
       },
       {
-        "Name": "Oberbrunner-Jacobi",
-        "Value": "assumenda",
+        "Name": "Kris-Grant",
+        "Value": "quis",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 76
+            "FieldType": "System.Int32",
+            "FieldLength": 234
           }
         }
       }
     ],
-    "RawExtraInfo": "neque",
-    "IsSubscription": false,
-    "SubscriptionUnit": "praesentium",
-    "SubscriptionQuantity": 23078.775999999998,
-    "SubscriptionStart": "2010-10-08T14:28:22.3053817+02:00",
-    "ERPDiscountPercent": 16331.274,
-    "ERPDiscountAmount": 24366.85,
-    "DiscountPercent": 1184.652,
-    "DiscountAmount": 27522.788,
+    "RawExtraInfo": "nam",
+    "IsSubscription": true,
+    "SubscriptionUnit": "dolorem",
+    "SubscriptionQuantity": 11937.405999999999,
+    "SubscriptionStart": "2021-10-11T13:14:01.017639+02:00",
+    "ERPDiscountPercent": 17939.016,
+    "ERPDiscountAmount": 5562.8499999999995,
+    "DiscountPercent": 10561.58,
+    "DiscountAmount": 20477.556,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 6766.306,
-    "EarningAmount": 24482.808,
-    "SubTotal": 19001.442,
-    "TotalPrice": 12106.642,
-    "Rights": "eum",
-    "Rule": "sapiente",
-    "ExtraField1": "quis",
-    "ExtraField2": "nemo",
-    "ExtraField3": "nisi",
-    "ExtraField4": "id",
-    "ExtraField5": "occaecati",
+    "EarningPercent": 25491.956,
+    "EarningAmount": 10533.374,
+    "SubTotal": 28187.196,
+    "TotalPrice": 22956.55,
+    "Rights": "sint",
+    "Rule": "illo",
+    "ExtraField1": "ipsum",
+    "ExtraField2": "consectetur",
+    "ExtraField3": "incidunt",
+    "ExtraField4": "ea",
+    "ExtraField5": "numquam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 77
+        "FieldLength": 965
       }
     }
   }

@@ -68,7 +68,7 @@ OK
 GET /api/v1/Ticket/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Cormier Inc and Sons",
-    "DisplayName": "Moore Group",
-    "Description": "Universal assymetric emulation",
-    "ShortLabel": "recusandae",
-    "HideLabel": true,
-    "HideField": false,
-    "IsIndexed": false,
-    "IsMandatory": true,
+    "FieldName": "Kub-Quigley",
+    "DisplayName": "Marvin-Koelpin",
+    "Description": "Profound user-facing collaboration",
+    "ShortLabel": "aperiam",
+    "HideLabel": false,
+    "HideField": true,
+    "IsIndexed": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
-    "IsDisplayField": false,
-    "Rank": 519,
-    "TemplateVariableName": "Mills LLC"
+    "IsExternal": false,
+    "IsDisplayField": true,
+    "Rank": 314,
+    "TemplateVariableName": "Hirthe Group"
   }
 ]
 ```

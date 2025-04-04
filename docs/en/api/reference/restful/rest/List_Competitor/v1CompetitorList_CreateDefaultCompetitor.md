@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Competitor/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 895,
-  "Name": "Kub-Douglas",
-  "Tooltip": "tempora",
-  "Deleted": true,
-  "UdListDefinitionId": 990,
-  "Rank": 898,
+  "Id": 781,
+  "Name": "Anderson-Brekke",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 588,
+  "Rank": 563,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 97
+      "FieldLength": 61
     }
   }
 }

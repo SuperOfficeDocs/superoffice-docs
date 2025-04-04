@@ -123,33 +123,33 @@ OK
 POST /api/v1/Agents/Chat/SaveChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 915,
-  "TopicId": 922,
+  "ChatSessionId": 329,
+  "TopicId": 356,
   "User": null,
   "Person": null,
-  "CustomerAlias": "non",
-  "CustomerHost": "dolor",
-  "CustomerName": "Sporer-Parker",
-  "CustomerEmail": "johann@oconnell.uk",
-  "CustomerPhone": "1-857-913-1693 x8342",
+  "CustomerAlias": "dolorum",
+  "CustomerHost": "totam",
+  "CustomerName": "Kshlerin, Wilderman and Renner",
+  "CustomerEmail": "maegan_mitchell@muller.name",
+  "CustomerPhone": "151.578.2239 x9347",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Murray Group",
+  "CustomerCompanyName": "Bechtelar LLC",
   "Status": "Closed",
-  "FirstMessage": "eveniet",
-  "LastMessage": "explicabo",
-  "WhenRequested": "2013-08-05T14:28:21.5085386+02:00",
-  "WhenStarted": "2010-03-26T14:28:21.5085386+01:00",
-  "WhenEnded": "2005-10-22T14:28:21.5085386+02:00",
-  "WhenIdle": "2016-12-06T14:28:21.5085386+01:00",
-  "WhenFetched": "2009-11-27T14:28:21.5085386+01:00",
-  "SessionKey": "quo",
-  "InitialQueuePos": 866,
-  "AlertLevel": 92,
-  "Rank": 384,
+  "FirstMessage": "sunt",
+  "LastMessage": "sint",
+  "WhenRequested": "2009-03-02T13:13:59.5626977+01:00",
+  "WhenStarted": "2006-09-27T13:13:59.5626977+02:00",
+  "WhenEnded": "2024-12-09T13:13:59.5626977+01:00",
+  "WhenIdle": "2000-08-12T13:13:59.5626977+02:00",
+  "WhenFetched": "2006-02-19T13:13:59.5626977+01:00",
+  "SessionKey": "dolore",
+  "InitialQueuePos": 413,
+  "AlertLevel": 298,
+  "Rank": 253,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -157,7 +157,7 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 643
+  "Rating": 814
 }
 ```
 
@@ -168,43 +168,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 444,
-  "TopicId": 950,
+  "ChatSessionId": 130,
+  "TopicId": 59,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "quam",
-  "CustomerName": "Waelchi, Dare and Gottlieb",
-  "CustomerEmail": "schuyler@rosenbaumbeatty.biz",
-  "CustomerPhone": "309.354.0463",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Becker, Funk and Koelpin",
+  "CustomerAlias": "iusto",
+  "CustomerHost": "quia",
+  "CustomerName": "McClure LLC",
+  "CustomerEmail": "ashley_conroy@framikassulke.us",
+  "CustomerPhone": "1-529-882-5423 x0509",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Witting, Swift and Littel",
   "Status": "Closed",
-  "FirstMessage": "aut",
-  "LastMessage": "sint",
-  "WhenRequested": "2015-10-26T14:28:21.5085386+01:00",
-  "WhenStarted": "2016-08-02T14:28:21.5085386+02:00",
-  "WhenEnded": "2012-11-07T14:28:21.5085386+01:00",
-  "WhenIdle": "1997-11-15T14:28:21.5085386+01:00",
-  "WhenFetched": "1998-07-11T14:28:21.5085386+02:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 47,
-  "AlertLevel": 276,
-  "Rank": 823,
+  "FirstMessage": "tempore",
+  "LastMessage": "eum",
+  "WhenRequested": "2017-07-24T13:13:59.5783234+02:00",
+  "WhenStarted": "2002-12-27T13:13:59.5783234+01:00",
+  "WhenEnded": "2006-02-26T13:13:59.5783234+01:00",
+  "WhenIdle": "2002-12-24T13:13:59.5783234+01:00",
+  "WhenFetched": "2002-07-11T13:13:59.5783234+02:00",
+  "SessionKey": "ea",
+  "InitialQueuePos": 50,
+  "AlertLevel": 867,
+  "Rank": 158,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 822,
+  "ChatbotIsActive": false,
+  "Rating": 696,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 699
+      "FieldLength": 894
     }
   }
 }

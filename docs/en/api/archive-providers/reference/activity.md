@@ -757,7 +757,7 @@ Activity archive provider that performs no filtering. This archive is not presen
 ## Sample
 
 ```http!
-GET /api/v1/archive/Activity?$select=person/personUpdatedByFullName,contact/orgnr,contact/contactNoMail,sale/saleStatus,sale/saleType
+GET /api/v1/archive/Activity?$select=person/retired,person/personAssociate/assocTooltip,contact/streetAddress/county,contact/contactAssociate/isActiveText,contact/contactUdef/SuperOffice:8
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

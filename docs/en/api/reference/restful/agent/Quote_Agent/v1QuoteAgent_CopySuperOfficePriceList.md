@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 548,
-  "NewName": "Cassin LLC",
-  "ValidFrom": "2004-02-26T14:28:22.2897573+01:00",
-  "ValidTo": "2023-09-14T14:28:22.2897573+02:00",
-  "NewCurrencyId": 680,
-  "ConvertCurrency": false
+  "OriginalPriceListId": 762,
+  "NewName": "Mann-Upton",
+  "ValidFrom": "2014-01-14T13:14:00.9702863+01:00",
+  "ValidTo": "2024-03-02T13:14:00.9702863+01:00",
+  "NewCurrencyId": 596,
+  "ConvertCurrency": true
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 393,
-  "ERPPriceListKey": "possimus",
-  "QuoteConnectionId": 366,
-  "Name": "Hilll, Grady and Mosciski",
-  "Description": "Realigned upward-trending interface",
-  "Currency": "accusamus",
-  "CurrencyName": "Glover, Rodriguez and Bernier",
-  "ValidFrom": "2021-04-30T14:28:22.2897573+02:00",
-  "ValidTo": "2006-09-19T14:28:22.2897573+02:00",
-  "IsActive": false,
+  "PriceListId": 538,
+  "ERPPriceListKey": "in",
+  "QuoteConnectionId": 610,
+  "Name": "Zboncak-Marquardt",
+  "Description": "Extended bi-directional interface",
+  "Currency": "culpa",
+  "CurrencyName": "Witting Inc and Sons",
+  "ValidFrom": "2009-10-18T13:14:00.9702863+02:00",
+  "ValidTo": "2010-06-19T13:14:00.9702863+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 385
+      "FieldLength": 133
     }
   }
 }

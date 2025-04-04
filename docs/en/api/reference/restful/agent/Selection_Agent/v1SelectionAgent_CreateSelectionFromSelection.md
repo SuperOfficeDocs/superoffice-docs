@@ -120,8 +120,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 155,
-  "Name": "Harvey, Jacobs and Block",
+  "SelectionId": 182,
+  "Name": "Konopelski LLC",
   "TargetSelectionType": "Combined",
   "CopyMembers": true
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Balanced high-level array",
-  "Postit": "nulla",
+  "Description": "Multi-tiered global data-warehouse",
+  "Postit": "consectetur",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 941,
-  "IncludePerson": 996,
+  "GroupIdx": 440,
+  "IncludePerson": 24,
   "MemberCount": 99.99,
-  "Name": "Will LLC",
-  "PostitTextId": 127,
-  "CreatedDate": "2000-02-28T14:28:22.4147526+01:00",
-  "SelectionId": 529,
-  "SoundEx": "et",
-  "Source": 196,
-  "TextId": 484,
-  "UpdatedDate": "1997-11-26T14:28:22.4147526+01:00",
-  "UpdatedCount": 172,
-  "Visibility": 945,
+  "Name": "Jakubowski-Greenfelder",
+  "PostitTextId": 149,
+  "CreatedDate": "2019-12-01T13:14:01.3319239+01:00",
+  "SelectionId": 766,
+  "SoundEx": "quas",
+  "Source": 743,
+  "TextId": 169,
+  "UpdatedDate": "2002-03-22T13:14:01.3319239+01:00",
+  "UpdatedCount": 880,
+  "Visibility": 579,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 52,
-  "TargetTableName": "Cummings-Bradtke",
+  "CompanyUnique": true,
+  "TargetTableNumber": 442,
+  "TargetTableName": "Hand Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 185,
-  "RightSelectionId": 123,
+  "LeftSelectionId": 149,
+  "RightSelectionId": 284,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Greenholt Inc and Sons",
-  "ShadowProviderName": "Lakin-Paucek",
-  "ChartKey": "labore",
-  "LastLoaded": "2023-02-11T14:28:22.4147526+01:00",
-  "LastLoadedBy": 316,
+  "MainProviderName": "Leuschke-Hettinger",
+  "ShadowProviderName": "Lakin LLC",
+  "ChartKey": "laboriosam",
+  "LastLoaded": "2020-11-02T13:14:01.3319239+01:00",
+  "LastLoadedBy": 785,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2016-02-25T14:28:22.4147526+01:00",
-  "LastMembershipChangeBy": 305,
+  "LastMembershipChange": "2011-11-02T13:14:01.3319239+01:00",
+  "LastMembershipChangeBy": 29,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sint",
-  "MemberTabHeading": "necessitatibus",
-  "MailingsProviderName": "Kirlin-Kulas",
-  "DashboardTileDefinitionId": 922,
+  "MainHeading": "voluptatem",
+  "MemberTabHeading": "omnis",
+  "MailingsProviderName": "Jewess Group",
+  "DashboardTileDefinitionId": 448,
   "VisibleFor": [
     {
-      "VisibleId": 81,
+      "VisibleId": 264,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldType": "System.String",
+          "FieldLength": 70
         }
       }
     },
     {
-      "VisibleId": 81,
+      "VisibleId": 264,
       "Visibility": "All",
-      "DisplayValue": "est",
+      "DisplayValue": "enim",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 84
+          "FieldType": "System.String",
+          "FieldLength": 70
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 729
+      "FieldType": "System.String",
+      "FieldLength": 532
     }
   }
 }

@@ -166,7 +166,7 @@ SaleEntity updated.
 PUT /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -176,7 +176,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "doloremque",
+  "SaleText": "recusandae",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -185,90 +185,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "1999-01-08T14:28:27.2114406+01:00",
-  "Amount": 22605.541999999998,
-  "SaleId": 797,
-  "Earning": 26222.178,
-  "EarningPercent": 29967.307999999997,
-  "Heading": "ipsum",
-  "Number": "1559642",
-  "Probability": 674,
-  "CreatedDate": "2016-10-03T14:28:27.2114406+02:00",
-  "UpdatedDate": "2012-06-27T14:28:27.2114406+02:00",
+  "Saledate": "2006-11-03T13:14:09.1029925+01:00",
+  "Amount": 16368.882,
+  "SaleId": 154,
+  "Earning": 25021.856,
+  "EarningPercent": 10890.65,
+  "Heading": "minima",
+  "Number": "1161628",
+  "Probability": 937,
+  "CreatedDate": "2002-03-16T13:14:09.1029925+01:00",
+  "UpdatedDate": "2009-05-04T13:14:09.1029925+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 711,
+  "ActiveLinks": 376,
   "Links": [
     {
-      "EntityName": "Willms-Corwin",
-      "Id": 712,
-      "Description": "Business-focused cohesive budgetary management",
-      "ExtraInfo": "consequatur",
-      "LinkId": 476
+      "EntityName": "Cummerata, Blick and Senger",
+      "Id": 852,
+      "Description": "Customizable bifurcated analyzer",
+      "ExtraInfo": "non",
+      "LinkId": 909
     },
     {
-      "EntityName": "Willms-Corwin",
-      "Id": 712,
-      "Description": "Business-focused cohesive budgetary management",
-      "ExtraInfo": "consequatur",
-      "LinkId": 476
+      "EntityName": "Cummerata, Blick and Senger",
+      "Id": 852,
+      "Description": "Customizable bifurcated analyzer",
+      "ExtraInfo": "non",
+      "LinkId": 909
     }
   ],
-  "NextDueDate": "2025-02-03T14:28:27.2114406+01:00",
-  "Postit": "repudiandae",
+  "NextDueDate": "2010-01-12T13:14:09.1029925+01:00",
+  "Postit": "ratione",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "1998-02-11T14:28:27.2114406+01:00",
+  "ReopenDate": "2006-06-17T13:14:09.1029925+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Grimes-Kilback",
-      "Comment": "molestiae",
-      "StakeholderRoleId": 77,
-      "CountryId": 766,
-      "PersonId": 342,
-      "EmailDescription": "lura_stark@oberbrunnerreynolds.com",
-      "EmailId": 927,
-      "EmailAddress": "emmett@harber.ca",
-      "PhoneId": 513,
-      "ContactName": "Torphy, Schiller and Emmerich",
-      "ContactId": 110,
-      "SaleId": 423,
-      "Mrmrs": "dolorem",
-      "Firstname": "Tobin",
-      "MiddleName": "Boyer Inc and Sons",
-      "Lastname": "Satterfield",
-      "SaleStakeholderId": 914,
-      "Rank": 358,
-      "Phone": "095.268.9604"
+      "StakeholderRoleName": "Romaguera LLC",
+      "Comment": "consequuntur",
+      "StakeholderRoleId": 128,
+      "CountryId": 342,
+      "PersonId": 428,
+      "EmailDescription": "alejandra_feeney@ryan.uk",
+      "EmailId": 122,
+      "EmailAddress": "orland@gaylord.ca",
+      "PhoneId": 258,
+      "ContactName": "Wehner Inc and Sons",
+      "ContactId": 685,
+      "SaleId": 57,
+      "Mrmrs": "natus",
+      "Firstname": "Adeline",
+      "MiddleName": "Cronin, O'Keefe and Herzog",
+      "Lastname": "Grimes",
+      "SaleStakeholderId": 581,
+      "Rank": 306,
+      "Phone": "173.990.9006 x151"
     }
   ],
-  "ActiveErpLinks": 375,
+  "ActiveErpLinks": 888,
   "UserDefinedFields": {
-    "SuperOffice:1": "Johnathon Johnson",
-    "SuperOffice:2": "Mr. Cecilia Pinkie Zieme Sr."
+    "SuperOffice:1": "Kaya Gottlieb",
+    "SuperOffice:2": "Mr. Esta O'Kon"
   },
   "ExtraFields": {
-    "ExtraFields1": "deserunt",
-    "ExtraFields2": "temporibus"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "repellat"
   },
   "CustomFields": {
-    "CustomFields1": "porro",
-    "CustomFields2": "sapiente"
+    "CustomFields1": "et",
+    "CustomFields2": "alias"
   },
-  "PublishEventDate": "2012-11-06T14:28:27.2114406+01:00",
-  "PublishTo": "2014-11-15T14:28:27.2114406+01:00",
-  "PublishFrom": "2000-10-10T14:28:27.2114406+02:00",
+  "PublishEventDate": "2015-11-12T13:14:09.1185073+01:00",
+  "PublishTo": "2024-03-03T13:14:09.1185073+01:00",
+  "PublishFrom": "2011-06-10T13:14:09.1185073+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 488,
+      "VisibleId": 168,
       "Visibility": "All",
-      "DisplayValue": "nostrum"
+      "DisplayValue": "et"
     },
     {
-      "VisibleId": 488,
+      "VisibleId": 168,
       "Visibility": "All",
-      "DisplayValue": "nostrum"
+      "DisplayValue": "et"
     }
   ]
 }
@@ -287,7 +287,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "dicta",
+  "SaleText": "nesciunt",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -296,113 +296,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2011-10-06T14:28:27.2114406+02:00",
-  "Amount": 16672.88,
-  "SaleId": 520,
-  "Earning": 8026.174,
-  "EarningPercent": 8270.626,
-  "Heading": "voluptatem",
-  "Number": "894336",
-  "Probability": 57,
-  "CreatedDate": "2007-02-08T14:28:27.2114406+01:00",
-  "UpdatedDate": "2013-07-15T14:28:27.2114406+02:00",
+  "Saledate": "1998-01-01T13:14:09.1185073+01:00",
+  "Amount": 10006.862,
+  "SaleId": 921,
+  "Earning": 6424.7,
+  "EarningPercent": 23761.987999999998,
+  "Heading": "est",
+  "Number": "788462",
+  "Probability": 241,
+  "CreatedDate": "1998-07-08T13:14:09.1185073+02:00",
+  "UpdatedDate": "2010-10-16T13:14:09.1185073+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 806,
+  "ActiveLinks": 931,
   "Links": [
     {
-      "EntityName": "Labadie, Paucek and Hoeger",
-      "Id": 142,
-      "Description": "Implemented system-worthy definition",
-      "ExtraInfo": "voluptatibus",
-      "LinkId": 777,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 190
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2000-02-17T14:28:27.2114406+01:00",
-  "Postit": "voluptatem",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2020-04-19T14:28:27.2114406+02:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Hand LLC",
-      "Comment": "sunt",
-      "StakeholderRoleId": 640,
-      "CountryId": 715,
-      "PersonId": 569,
-      "EmailDescription": "otha@fadelmorar.uk",
-      "EmailId": 691,
-      "EmailAddress": "humberto@weberhane.info",
-      "PhoneId": 42,
-      "ContactName": "Rath, Larson and Stiedemann",
-      "ContactId": 313,
-      "SaleId": 586,
-      "Mrmrs": "officiis",
-      "Firstname": "Kenyatta",
-      "MiddleName": "Osinski-Wolf",
-      "Lastname": "Senger",
-      "SaleStakeholderId": 515,
-      "Rank": 423,
-      "Phone": "1-049-262-7417 x0892",
+      "EntityName": "Brakus-Rath",
+      "Id": 908,
+      "Description": "Vision-oriented high-level knowledge base",
+      "ExtraInfo": "officia",
+      "LinkId": 292,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 881
+          "FieldLength": 427
         }
       }
     }
   ],
-  "ActiveErpLinks": 274,
-  "UserDefinedFields": {
-    "SuperOffice:1": "332316172",
-    "SuperOffice:2": "Celestine Kerluke"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "et"
-  },
-  "CustomFields": {
-    "CustomFields1": "aperiam",
-    "CustomFields2": "et"
-  },
-  "PublishEventDate": "2002-07-12T14:28:27.2114406+02:00",
-  "PublishTo": "2014-04-29T14:28:27.2114406+02:00",
-  "PublishFrom": "1999-12-31T14:28:27.2114406+01:00",
-  "IsPublished": true,
-  "VisibleFor": [
+  "NextDueDate": "2024-07-26T13:14:09.1185073+02:00",
+  "Postit": "unde",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2005-05-14T13:14:09.1185073+02:00",
+  "SaleStakeholders": [
     {
-      "VisibleId": 705,
-      "Visibility": "All",
-      "DisplayValue": "sunt",
+      "StakeholderRoleName": "Ortiz, Lakin and Bogisich",
+      "Comment": "ipsam",
+      "StakeholderRoleId": 78,
+      "CountryId": 939,
+      "PersonId": 411,
+      "EmailDescription": "jaclyn.dubuque@corwinmueller.biz",
+      "EmailId": 183,
+      "EmailAddress": "jaida_kautzer@murazik.info",
+      "PhoneId": 347,
+      "ContactName": "Bergnaum LLC",
+      "ContactId": 599,
+      "SaleId": 714,
+      "Mrmrs": "velit",
+      "Firstname": "Stephan",
+      "MiddleName": "Ondricka-Gottlieb",
+      "Lastname": "Zulauf",
+      "SaleStakeholderId": 541,
+      "Rank": 756,
+      "Phone": "1-727-792-2407 x4741",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 170
+          "FieldLength": 660
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 568,
+  "UserDefinedFields": {
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "Miles Feil"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "provident",
+    "ExtraFields2": "consequatur"
+  },
+  "CustomFields": {
+    "CustomFields1": "nostrum",
+    "CustomFields2": "velit"
+  },
+  "PublishEventDate": "2020-12-10T13:14:09.1185073+01:00",
+  "PublishTo": "2006-12-11T13:14:09.1185073+01:00",
+  "PublishFrom": "2000-05-02T13:14:09.1185073+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 625,
+      "Visibility": "All",
+      "DisplayValue": "voluptate",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 757
         }
       }
     },
     {
-      "VisibleId": 705,
+      "VisibleId": 625,
       "Visibility": "All",
-      "DisplayValue": "sunt",
+      "DisplayValue": "voluptate",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 170
+          "FieldType": "System.String",
+          "FieldLength": 757
         }
       }
     }
@@ -411,13 +411,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 636
+      "FieldType": "System.Int32",
+      "FieldLength": 606
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

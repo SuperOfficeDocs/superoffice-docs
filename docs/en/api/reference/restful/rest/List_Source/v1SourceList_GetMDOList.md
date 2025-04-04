@@ -27,7 +27,7 @@ Get the MDO list items for "Source" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Source/MDOItems?flat=False
-GET /api/v1/List/Source/MDOItems?query=optio
+GET /api/v1/List/Source/MDOItems?query=maxime
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Source/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Name": "Gislason-Berge",
-    "ToolTip": "Necessitatibus omnis magnam.",
+    "Id": 878,
+    "Name": "Feeney-Shanahan",
+    "ToolTip": "Dolorem laudantium eius.",
     "Deleted": false,
-    "Rank": 432,
-    "Type": "in",
+    "Rank": 889,
+    "Type": "vel",
     "ChildItems": [
       {
-        "Id": 980,
-        "Name": "Schroeder LLC",
-        "ToolTip": "Maiores autem explicabo et laudantium.",
-        "Deleted": true,
-        "Rank": 652,
-        "Type": "libero",
+        "Id": 67,
+        "Name": "Sanford, Brown and Kreiger",
+        "ToolTip": "Corrupti asperiores neque dolores aut.",
+        "Deleted": false,
+        "Rank": 851,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "expedita",
-        "ColorBlock": 331,
-        "ExtraInfo": "fuga",
-        "StyleHint": "nostrum",
-        "FullName": "Vida Schinner",
+        "IconHint": "dolorum",
+        "ColorBlock": 718,
+        "ExtraInfo": "aspernatur",
+        "StyleHint": "vitae",
+        "FullName": "Miss Rowan Darian Stokes DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 464
+            "FieldType": "System.Int32",
+            "FieldLength": 475
           }
         }
       }
     ],
-    "IconHint": "et",
-    "ColorBlock": 337,
-    "ExtraInfo": "recusandae",
-    "StyleHint": "occaecati",
-    "FullName": "Garfield Leuschke",
+    "IconHint": "eos",
+    "ColorBlock": 921,
+    "ExtraInfo": "rerum",
+    "StyleHint": "et",
+    "FullName": "Mr. Ari Deckow DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 992
+        "FieldLength": 69
       }
     }
   }

@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 939,
+  "Id": 170,
   "Entities": [
     {
-      "HeadingId": 561,
-      "Name": "Blanda-Wolff",
-      "Tooltip": "repellendus",
-      "Deleted": false,
-      "Rank": 240,
-      "UdListDefinitionId": 520
+      "HeadingId": 214,
+      "Name": "Balistreri Inc and Sons",
+      "Tooltip": "voluptatem",
+      "Deleted": true,
+      "Rank": 747,
+      "UdListDefinitionId": 87
     },
     {
-      "HeadingId": 561,
-      "Name": "Blanda-Wolff",
-      "Tooltip": "repellendus",
-      "Deleted": false,
-      "Rank": 240,
-      "UdListDefinitionId": 520
+      "HeadingId": 214,
+      "Name": "Balistreri Inc and Sons",
+      "Tooltip": "voluptatem",
+      "Deleted": true,
+      "Rank": 747,
+      "UdListDefinitionId": 87
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 368,
-    "Name": "Abshire-Sipes",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 893,
-    "UdListDefinitionId": 299,
+    "HeadingId": 502,
+    "Name": "Bahringer Inc and Sons",
+    "Tooltip": "culpa",
+    "Deleted": false,
+    "Rank": 878,
+    "UdListDefinitionId": 534,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 988
+        "FieldType": "System.Int32",
+        "FieldLength": 308
       }
     }
   }

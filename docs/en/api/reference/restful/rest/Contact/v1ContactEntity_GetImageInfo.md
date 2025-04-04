@@ -73,7 +73,7 @@ OK
 GET /api/v1/Contact/{contactId}/Imageinfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: fr,de,ru,zh
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 16 Apr 2005 14:28:26 G4T
+Last-Modified: Fri, 18 Dec 2009 13:14:08 G12T
 
 {
-  "BlobId": 432,
-  "BlobSize": 997,
-  "Description": "Fully-configurable cohesive application",
-  "ExtraInfo": "ducimus",
+  "BlobId": 391,
+  "BlobSize": 161,
+  "Description": "Front-line 4th generation paradigm",
+  "ExtraInfo": "quia",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "alias",
-  "OriginalSize": 743,
-  "CreatedDate": "2011-08-09T14:28:26.8051995+02:00",
-  "UpdatedDate": "2005-04-16T14:28:26.8051995+02:00",
+  "IsZipped": false,
+  "MimeType": "quia",
+  "OriginalSize": 188,
+  "CreatedDate": "2008-04-26T13:14:08.4928742+02:00",
+  "UpdatedDate": "2009-12-18T13:14:08.4928742+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "consequatur",
+  "ConceptualType": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 212
+      "FieldType": "System.Int32",
+      "FieldLength": 602
     }
   }
 }

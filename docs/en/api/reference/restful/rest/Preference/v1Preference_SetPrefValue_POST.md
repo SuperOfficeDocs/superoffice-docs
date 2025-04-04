@@ -71,21 +71,21 @@ No Content
 POST /api/v1/Preference/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "et",
+  "RawValue": "quia",
   "Specification": null,
-  "DisplayValue": "doloribus",
-  "DisplayTooltip": "eos",
+  "DisplayValue": "in",
+  "DisplayTooltip": "dolorum",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 526,
-  "PrefDescId": 605,
-  "TableName": "Cartwright-Pfannerstill",
-  "UserPreferenceId": 472
+  "TargetId": 443,
+  "PrefDescId": 505,
+  "TableName": "Rempel, Hayes and Hagenes",
+  "UserPreferenceId": 391
 }
 ```
 

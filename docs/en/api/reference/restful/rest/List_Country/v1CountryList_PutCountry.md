@@ -108,23 +108,23 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 232,
-  "Name": "Reinger, Kautzer and Ward",
-  "CurrencyId": 5,
-  "EnglishName": "Pollich, Blanda and Mayert",
+  "CountryId": 533,
+  "Name": "Simonis Inc and Sons",
+  "CurrencyId": 111,
+  "EnglishName": "Schroeder Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Progressive mobile local area network",
-  "OrgNrText": "748265",
-  "InterAreaPrefix": "aliquid",
-  "DialInPrefix": "fuga",
-  "ZipPrefix": "eligendi",
-  "DomainName": "Cormier-Pollich",
-  "AddressLayoutId": 688,
-  "DomesticAddressLayoutId": 405,
-  "ForeignAddressLayoutId": 630,
-  "Rank": 336,
-  "Tooltip": "iure",
+  "ImageDescription": "Vision-oriented static system engine",
+  "OrgNrText": "1558073",
+  "InterAreaPrefix": "asperiores",
+  "DialInPrefix": "nostrum",
+  "ZipPrefix": "corrupti",
+  "DomainName": "Rutherford-Grimes",
+  "AddressLayoutId": 522,
+  "DomesticAddressLayoutId": 150,
+  "ForeignAddressLayoutId": 884,
+  "Rank": 804,
+  "Tooltip": "magni",
   "Deleted": false
 }
 ```
@@ -136,30 +136,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 736,
-  "Name": "Deckow, Von and Sauer",
-  "CurrencyId": 5,
-  "EnglishName": "Stanton, Corkery and Kertzmann",
+  "CountryId": 603,
+  "Name": "Nader, Hamill and Weimann",
+  "CurrencyId": 525,
+  "EnglishName": "Lemke-Cartwright",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Quality-focused scalable array",
-  "OrgNrText": "1692678",
-  "InterAreaPrefix": "omnis",
-  "DialInPrefix": "molestias",
-  "ZipPrefix": "dolorum",
-  "DomainName": "Toy LLC",
-  "AddressLayoutId": 599,
-  "DomesticAddressLayoutId": 18,
-  "ForeignAddressLayoutId": 792,
-  "Rank": 115,
-  "Tooltip": "dolorum",
-  "Deleted": false,
+  "ImageDescription": "Extended empowering extranet",
+  "OrgNrText": "101550",
+  "InterAreaPrefix": "placeat",
+  "DialInPrefix": "suscipit",
+  "ZipPrefix": "at",
+  "DomainName": "Legros-Monahan",
+  "AddressLayoutId": 360,
+  "DomesticAddressLayoutId": 67,
+  "ForeignAddressLayoutId": 43,
+  "Rank": 509,
+  "Tooltip": "quia",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldType": "System.String",
+      "FieldLength": 319
     }
   }
 }

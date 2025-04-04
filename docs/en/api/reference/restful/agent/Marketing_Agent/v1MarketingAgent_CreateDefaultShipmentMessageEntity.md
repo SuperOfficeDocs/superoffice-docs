@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 213,
-  "PlainMessage": "sint",
-  "HtmlMessage": "commodi",
-  "SmsMessage": "ullam",
-  "Description": "Profit-focused discrete process improvement",
-  "Subject": "voluptatem",
-  "FolderId": 970,
-  "HeaderField": "ipsa",
-  "Design": "itaque",
+  "ShipmentMessageId": 905,
+  "PlainMessage": "ut",
+  "HtmlMessage": "aut",
+  "SmsMessage": "rem",
+  "Description": "Decentralized full-range capacity",
+  "Subject": "omnis",
+  "FolderId": 528,
+  "HeaderField": "et",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "Configurable reciprocal knowledge user",
-  "AccessKey": "est",
-  "DocumentMessage": 923,
-  "Registered": "2018-10-23T14:28:22.1022648+02:00",
-  "RegisteredAssociateId": 548,
-  "Updated": "2012-10-19T14:28:22.1022648+02:00",
-  "UpdatedAssociateId": 310,
-  "UpdatedCount": 584,
+  "InlineImages": true,
+  "LongDescription": "Profound local standardization",
+  "AccessKey": "modi",
+  "DocumentMessage": 378,
+  "Registered": "2019-11-28T13:14:00.6887452+01:00",
+  "RegisteredAssociateId": 265,
+  "Updated": "2018-03-11T13:14:00.6887452+01:00",
+  "UpdatedAssociateId": 370,
+  "UpdatedCount": 933,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldLength": 259
     }
   }
 }

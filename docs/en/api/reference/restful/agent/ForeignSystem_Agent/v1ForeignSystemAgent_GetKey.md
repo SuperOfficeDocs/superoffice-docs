@@ -86,15 +86,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Schmidt-Wolf",
-  "DeviceName": "Runolfsdottir-Schmeler",
-  "KeyName": "Rippin-Heaney",
-  "TableName": "Stoltenberg LLC",
-  "RecordId": 238
+  "ApplicationName": "Ruecker Group",
+  "DeviceName": "Keeling, Boyer and Rowe",
+  "KeyName": "Reichel, Feeney and Senger",
+  "TableName": "Stokes LLC",
+  "RecordId": 563
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "non",
-  "Value": "consequatur",
-  "RecordId": 675,
-  "CreatedDate": "2000-06-09T14:28:22.0085182+02:00",
-  "UpdatedDate": "2004-08-23T14:28:22.0085182+02:00",
-  "UpdatedBy": "est",
-  "CreatedBy": "voluptates",
-  "TableName": "Stanton Inc and Sons",
+  "Key": "eligendi",
+  "Value": "quas",
+  "RecordId": 396,
+  "CreatedDate": "2012-05-01T13:14:00.5168611+02:00",
+  "UpdatedDate": "2016-05-29T13:14:00.5168611+02:00",
+  "UpdatedBy": "nihil",
+  "CreatedBy": "iusto",
+  "TableName": "Nicolas-Welch",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldLength": 697
     }
   }
 }

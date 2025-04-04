@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "aliquam",
-  "ProviderName": "Kiehn-Kuhlman",
-  "PageSize": 280,
-  "PageNumber": 269
+  "Restrictions": "blanditiis",
+  "ProviderName": "Langworth, Kreiger and Waelchi",
+  "PageSize": 334,
+  "PageNumber": 996
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Hessel, Ebert and Schiller",
-      "DisplayTooltip": "laboriosam",
-      "DisplayType": "quia",
-      "CanOrderBy": true,
-      "Name": "Hansen-Franecki",
+      "DisplayName": "Wilkinson Inc and Sons",
+      "DisplayTooltip": "accusamus",
+      "DisplayType": "ad",
+      "CanOrderBy": false,
+      "Name": "Greenholt Group",
       "CanRestrictBy": false,
-      "RestrictionType": "excepturi",
-      "RestrictionListName": "O'Reilly Group",
+      "RestrictionType": "ex",
+      "RestrictionListName": "Mills-Sauer",
       "IsVisible": false,
-      "ExtraInfo": "ut",
-      "Width": "et",
-      "IconHint": "nesciunt",
-      "HeadingIconHint": "praesentium"
+      "ExtraInfo": "sint",
+      "Width": "consequuntur",
+      "IconHint": "similique",
+      "HeadingIconHint": "consequatur"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Mueller LLC",
-      "PrimaryKey": 527,
+      "EntityName": "Mohr-Hermiston",
+      "PrimaryKey": 138,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "vel",
-          "TooltipHint": "dolore",
-          "LinkHint": "ut"
+          "DisplayValue": "velit",
+          "TooltipHint": "iusto",
+          "LinkHint": "harum"
         }
       },
-      "LinkHint": "rerum",
-      "StyleHint": "recusandae",
+      "LinkHint": "sed",
+      "StyleHint": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 840
         }
       }
     }
   ],
-  "RowCount": 54,
+  "RowCount": 261,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldLength": 609
     }
   }
 }

@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Chat/DeleteChatTopicUserAgent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 689,
-  "Username": "vitae"
+  "ChatTopicId": 828,
+  "Username": "non"
 }
 ```
 

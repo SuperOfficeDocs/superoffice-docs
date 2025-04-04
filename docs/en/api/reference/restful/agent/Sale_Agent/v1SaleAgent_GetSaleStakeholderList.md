@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,31 +99,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Macejkovic-Heaney",
-    "Comment": "sunt",
-    "StakeholderRoleId": 975,
-    "CountryId": 844,
-    "PersonId": 617,
-    "EmailDescription": "ned@rice.ca",
-    "EmailId": 975,
-    "EmailAddress": "ada@leannon.info",
-    "PhoneId": 614,
-    "ContactName": "Aufderhar LLC",
-    "ContactId": 464,
-    "SaleId": 238,
-    "Mrmrs": "hic",
-    "Firstname": "Adele",
-    "MiddleName": "Nolan-Bartoletti",
-    "Lastname": "Cassin",
-    "SaleStakeholderId": 225,
-    "Rank": 380,
-    "Phone": "394.285.9311",
+    "StakeholderRoleName": "Rippin-Grant",
+    "Comment": "porro",
+    "StakeholderRoleId": 879,
+    "CountryId": 779,
+    "PersonId": 848,
+    "EmailDescription": "jamie.davis@nikolaus.com",
+    "EmailId": 348,
+    "EmailAddress": "wallace@pfannerstill.us",
+    "PhoneId": 669,
+    "ContactName": "Heaney Group",
+    "ContactId": 618,
+    "SaleId": 192,
+    "Mrmrs": "explicabo",
+    "Firstname": "Clarabelle",
+    "MiddleName": "Schultz-Roob",
+    "Lastname": "Klocko",
+    "SaleStakeholderId": 530,
+    "Rank": 469,
+    "Phone": "1-798-058-2963",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 244
+        "FieldLength": 40
       }
     }
   }

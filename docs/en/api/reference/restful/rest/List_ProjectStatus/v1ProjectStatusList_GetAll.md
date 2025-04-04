@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 862,
-    "Name": "Jacobson, McLaughlin and Greenfelder",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "UdListDefinitionId": 568,
-    "Rank": 159,
+    "Id": 643,
+    "Name": "Cronin, Koepp and Adams",
+    "Tooltip": "omnis",
+    "Deleted": false,
+    "UdListDefinitionId": 451,
+    "Rank": 781,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 577
+        "FieldLength": 743
       }
     }
   }

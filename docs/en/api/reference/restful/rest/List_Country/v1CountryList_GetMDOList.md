@@ -27,7 +27,7 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=quis
+GET /api/v1/List/Country/MDOItems?query=dicta
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 875,
-    "Name": "Trantow Group",
-    "ToolTip": "Ratione enim cupiditate.",
-    "Deleted": false,
-    "Rank": 236,
-    "Type": "totam",
+    "Id": 197,
+    "Name": "Tremblay, Brekke and Nitzsche",
+    "ToolTip": "Provident minima.",
+    "Deleted": true,
+    "Rank": 782,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 124,
-        "Name": "Halvorson, Paucek and Bruen",
-        "ToolTip": "Blanditiis voluptatem quis eos voluptate.",
+        "Id": 517,
+        "Name": "Herman, Leffler and O'Reilly",
+        "ToolTip": "Praesentium ut sit impedit.",
         "Deleted": false,
-        "Rank": 428,
-        "Type": "est",
+        "Rank": 908,
+        "Type": "ipsam",
         "ChildItems": [
           {},
           {}
         ],
         "IconHint": "aut",
-        "ColorBlock": 766,
-        "ExtraInfo": "et",
-        "StyleHint": "aut",
-        "FullName": "Megane Breitenberg",
+        "ColorBlock": 193,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "sequi",
+        "FullName": "Hugh Barton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 759
+            "FieldLength": 223
           }
         }
       }
     ],
-    "IconHint": "voluptates",
-    "ColorBlock": 576,
-    "ExtraInfo": "qui",
-    "StyleHint": "qui",
-    "FullName": "Winifred Goyette",
+    "IconHint": "aut",
+    "ColorBlock": 724,
+    "ExtraInfo": "nostrum",
+    "StyleHint": "quas",
+    "FullName": "Victor Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 357
+        "FieldLength": 823
       }
     }
   }

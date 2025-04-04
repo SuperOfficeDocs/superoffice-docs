@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 422,
-  "Name": "Murray LLC",
-  "Tooltip": "distinctio",
+  "HeadingId": 562,
+  "Name": "Koch, Lueilwitz and Bailey",
+  "Tooltip": "qui",
   "Deleted": true,
-  "Rank": 55,
-  "UdListDefinitionId": 111
+  "Rank": 254,
+  "UdListDefinitionId": 774
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 282,
-  "Name": "Aufderhar, Erdman and Kertzmann",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 823,
-  "UdListDefinitionId": 176,
+  "HeadingId": 16,
+  "Name": "Beahan Inc and Sons",
+  "Tooltip": "molestias",
+  "Deleted": false,
+  "Rank": 780,
+  "UdListDefinitionId": 799,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 890
+      "FieldLength": 985
     }
   }
 }

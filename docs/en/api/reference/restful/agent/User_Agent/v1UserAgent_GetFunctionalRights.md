@@ -96,7 +96,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 133
+  "RoleId": 986
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 386,
-    "Name": "Herman-Murphy",
-    "ToolTip": "Dolor deserunt.",
-    "Deleted": false,
-    "Rank": 20,
-    "Type": "alias",
-    "ColorBlock": 220,
-    "IconHint": "rerum",
+    "Id": 292,
+    "Name": "Pacocha, Casper and Barton",
+    "ToolTip": "Qui voluptatem.",
+    "Deleted": true,
+    "Rank": 603,
+    "Type": "iure",
+    "ColorBlock": 657,
+    "IconHint": "harum",
     "Selected": false,
-    "LastChanged": "2000-12-03T14:28:22.6959913+01:00",
+    "LastChanged": "1999-04-04T13:14:01.6913203+02:00",
     "ChildItems": [
       {
-        "Id": 893,
-        "Name": "Beahan LLC",
-        "ToolTip": "Dolores facilis unde exercitationem.",
-        "Deleted": false,
-        "Rank": 349,
-        "Type": "reprehenderit",
-        "ColorBlock": 890,
-        "IconHint": "voluptatem",
+        "Id": 450,
+        "Name": "Kuhn Group",
+        "ToolTip": "Inventore ea pariatur autem.",
+        "Deleted": true,
+        "Rank": 51,
+        "Type": "id",
+        "ColorBlock": 648,
+        "IconHint": "temporibus",
         "Selected": false,
-        "LastChanged": "2009-09-17T14:28:22.6959913+02:00",
+        "LastChanged": "2020-10-04T13:14:01.6913203+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "officiis",
+        "ExtraInfo": "odio",
+        "StyleHint": "dolorem",
         "Hidden": true,
-        "FullName": "Miss Ariel Ernie Ondricka Jr.",
+        "FullName": "Mikel Gibson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 163
+            "FieldLength": 312
           }
         }
       }
     ],
-    "ExtraInfo": "placeat",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Miss Kamron Breitenberg",
+    "ExtraInfo": "nisi",
+    "StyleHint": "tempore",
+    "Hidden": false,
+    "FullName": "Isabella Bartoletti",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldLength": 561
       }
     }
   }

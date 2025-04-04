@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "animi",
-  "ProviderName": "Rohan-Legros",
-  "StorageKey": "sunt",
-  "ExtraRestrictions": "enim",
-  "OrderBy": "maiores",
-  "DesiredColumns": "praesentium",
-  "PageSize": 515,
-  "PageNumber": 49
+  "StorageType": "consequatur",
+  "ProviderName": "Abernathy-Kassulke",
+  "StorageKey": "quaerat",
+  "ExtraRestrictions": "rerum",
+  "OrderBy": "est",
+  "DesiredColumns": "ut",
+  "PageSize": 33,
+  "PageNumber": 910
 }
 ```
 
@@ -191,51 +191,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bayer Inc and Sons",
-      "DisplayTooltip": "optio",
-      "DisplayType": "inventore",
+      "DisplayName": "Hackett Group",
+      "DisplayTooltip": "incidunt",
+      "DisplayType": "dolorem",
       "CanOrderBy": false,
-      "Name": "Muller Group",
-      "CanRestrictBy": true,
-      "RestrictionType": "enim",
-      "RestrictionListName": "Osinski-Flatley",
+      "Name": "Ullrich, Schamberger and Daugherty",
+      "CanRestrictBy": false,
+      "RestrictionType": "qui",
+      "RestrictionListName": "Lubowitz, McLaughlin and Kassulke",
       "IsVisible": false,
-      "ExtraInfo": "harum",
-      "Width": "veritatis",
-      "IconHint": "doloribus",
-      "HeadingIconHint": "quas"
+      "ExtraInfo": "ut",
+      "Width": "esse",
+      "IconHint": "molestiae",
+      "HeadingIconHint": "quia"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Jacobi-Runte",
-      "PrimaryKey": 149,
+      "EntityName": "Hickle LLC",
+      "PrimaryKey": 147,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptas",
-          "TooltipHint": "eos",
-          "LinkHint": "architecto"
+          "DisplayValue": "rerum",
+          "TooltipHint": "quaerat",
+          "LinkHint": "illum"
         }
       },
-      "LinkHint": "quia",
-      "StyleHint": "nostrum",
+      "LinkHint": "optio",
+      "StyleHint": "porro",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 756
+          "FieldLength": 246
         }
       }
     }
   ],
-  "RowCount": 95,
+  "RowCount": 475,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 576
+      "FieldType": "System.Int32",
+      "FieldLength": 734
     }
   }
 }

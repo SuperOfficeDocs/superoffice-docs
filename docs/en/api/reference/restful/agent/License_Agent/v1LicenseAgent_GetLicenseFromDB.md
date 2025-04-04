@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Smith Group"
+  "OwnerName": "Schinner, Carter and Kuhic"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 466,
-      "NumberOfLicensesFree": 608,
-      "NumberOfLicensesAdded": 462,
-      "NumberOfLicensesNewTotal": 473,
-      "NumberOfLicensesNewFree": 385,
-      "NumberOfLicensesTotal": 343
+      "NumberOfLicensesInUse": 145,
+      "NumberOfLicensesFree": 693,
+      "NumberOfLicensesAdded": 790,
+      "NumberOfLicensesNewTotal": 847,
+      "NumberOfLicensesNewFree": 293,
+      "NumberOfLicensesTotal": 717
     }
   ],
-  "AccumulatedNextCheckDate": "2013-09-21T14:28:22.0241429+02:00"
+  "AccumulatedNextCheckDate": "2002-11-13T13:14:00.532487+01:00"
 }
 ```

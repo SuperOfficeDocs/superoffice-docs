@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 967
+  "PersonId": 436
 }
 ```
 
@@ -99,24 +99,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 435,
-  "Name": "Runolfsson, Flatley and Klocko",
-  "PersonId": 681,
-  "Rank": 440,
-  "Tooltip": "enim",
+  "AssociateId": 684,
+  "Name": "Zieme, Emard and Doyle",
+  "PersonId": 903,
+  "Rank": 187,
+  "Tooltip": "distinctio",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 894,
-  "FullName": "Prof. Vilma Hilll",
-  "FormalName": "Padberg-Dooley",
+  "GroupIdx": 140,
+  "FullName": "Alicia Shanahan",
+  "FormalName": "Lang-Krajcik",
   "Deleted": false,
-  "EjUserId": 983,
-  "UserName": "Bailey-Effertz",
+  "EjUserId": 360,
+  "UserName": "Morar-Effertz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 889
+      "FieldType": "System.String",
+      "FieldLength": 396
     }
   }
 }

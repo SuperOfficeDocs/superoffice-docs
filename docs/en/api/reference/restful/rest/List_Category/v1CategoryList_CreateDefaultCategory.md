@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Category/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 164,
-  "Name": "Donnelly LLC",
+  "Id": 631,
+  "Name": "Kovacek-Bogisich",
   "Tooltip": "non",
   "Deleted": false,
-  "UdListDefinitionId": 318,
-  "Rank": 655,
+  "UdListDefinitionId": 166,
+  "Rank": 690,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 914
+      "FieldType": "System.String",
+      "FieldLength": 256
     }
   }
 }

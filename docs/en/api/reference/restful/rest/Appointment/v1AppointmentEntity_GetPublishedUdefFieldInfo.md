@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 106,
-  "ColumnId": 680,
-  "FieldDefault": "vel",
-  "FieldHeight": 577,
-  "FieldLabel": "aut",
-  "FieldLeft": 768,
-  "FieldTop": 735,
+  "UDefFieldId": 903,
+  "ColumnId": 953,
+  "FieldDefault": "in",
+  "FieldHeight": 360,
+  "FieldLabel": "velit",
+  "FieldLeft": 306,
+  "FieldTop": 995,
   "FieldType": "Checkbox",
-  "FieldWidth": 646,
-  "FormatMask": "est",
+  "FieldWidth": 1001,
+  "FormatMask": "accusantium",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 66,
-  "LabelLeft": 206,
-  "LabelTop": 999,
-  "LabelWidth": 728,
-  "LastVersionId": 657,
-  "ListTableId": 284,
-  "IsMandatory": false,
+  "IsIndexed": true,
+  "LabelHeight": 595,
+  "LabelLeft": 205,
+  "LabelTop": 380,
+  "LabelWidth": 96,
+  "LastVersionId": 382,
+  "ListTableId": 163,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 357,
-  "ProgId": "tempore",
+  "Page1LineNo": 783,
+  "ProgId": "rerum",
   "IsReadOnly": false,
-  "ShortLabel": "natus",
-  "TabOrder": 23,
-  "TextLength": 422,
-  "Tooltip": "eos",
-  "UdefIdentity": 990,
-  "UDListDefinitionId": 771,
+  "ShortLabel": "officia",
+  "TabOrder": 432,
+  "TextLength": 653,
+  "Tooltip": "neque",
+  "UdefIdentity": 217,
+  "UDListDefinitionId": 536,
   "Justification": "Center",
-  "Version": 637,
-  "TemplateVariableName": "Cremin Group",
+  "Version": 168,
+  "TemplateVariableName": "Koss-Kohler",
   "HasBeenPublished": false,
-  "MdoListName": "Cormier, Rodriguez and Halvorson",
+  "MdoListName": "Walsh Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 847
+      "FieldLength": 657
     }
   }
 }

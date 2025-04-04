@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 408,
-    "Name": "Hauck, Cole and Donnelly",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 302,
-    "UdListDefinitionId": 871
+    "HeadingId": 270,
+    "Name": "Lueilwitz, Donnelly and Bogisich",
+    "Tooltip": "vel",
+    "Deleted": false,
+    "Rank": 914,
+    "UdListDefinitionId": 691
   },
   {
-    "HeadingId": 408,
-    "Name": "Hauck, Cole and Donnelly",
-    "Tooltip": "et",
-    "Deleted": true,
-    "Rank": 302,
-    "UdListDefinitionId": 871
+    "HeadingId": 270,
+    "Name": "Lueilwitz, Donnelly and Bogisich",
+    "Tooltip": "vel",
+    "Deleted": false,
+    "Rank": 914,
+    "UdListDefinitionId": 691
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 920,
-    "Name": "Swaniawski Inc and Sons",
-    "Tooltip": "esse",
-    "Deleted": false,
-    "Rank": 19,
-    "UdListDefinitionId": 188,
+    "HeadingId": 385,
+    "Name": "Runolfsdottir Group",
+    "Tooltip": "illo",
+    "Deleted": true,
+    "Rank": 641,
+    "UdListDefinitionId": 725,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldType": "System.String",
+        "FieldLength": 80
       }
     }
   }

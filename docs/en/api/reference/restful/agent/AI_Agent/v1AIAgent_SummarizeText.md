@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "necessitatibus",
-  "PercentSmaller": 798,
-  "IsoLangCode": "doloribus"
+  "Text": "qui",
+  "PercentSmaller": 558,
+  "IsoLangCode": "error"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"expedita"
+"accusamus"
 ```

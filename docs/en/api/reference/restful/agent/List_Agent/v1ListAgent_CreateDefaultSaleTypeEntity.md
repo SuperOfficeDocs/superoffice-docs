@@ -88,53 +88,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 469,
-  "Name": "Orn Group",
-  "Tooltip": "aut",
-  "Rank": 979,
+  "SaleTypeId": 797,
+  "Name": "Mayer-Halvorson",
+  "Tooltip": "est",
+  "Rank": 804,
   "DurationUnit": "Century",
-  "SaleDuration": 979,
-  "SaleTypeCatId": 191,
-  "Deleted": true,
-  "HasGuide": true,
+  "SaleDuration": 636,
+  "SaleTypeCatId": 811,
+  "Deleted": false,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 825,
-  "QuoteLinesTemplate": 47,
-  "ConfirmationLinesTemplate": 286,
+  "DefaultQuoteValidity": 19,
+  "QuoteLinesTemplate": 328,
+  "ConfirmationLinesTemplate": 769,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 585,
-  "MinEarningPercent": 104,
-  "GroupQuoteLinesBy": 840,
-  "SortGroupLinesBy": 106,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 6,
+  "MinEarningPercent": 404,
+  "GroupQuoteLinesBy": 810,
+  "SortGroupLinesBy": 863,
   "Stages": [
     {
-      "Id": 13,
-      "Name": "Maggio, Huels and Reinger",
-      "ToolTip": "Blanditiis qui quis eaque.",
+      "Id": 842,
+      "Name": "Nitzsche Group",
+      "ToolTip": "Omnis repudiandae.",
       "Deleted": true,
-      "Rank": 548,
-      "Type": "omnis",
-      "ColorBlock": 879,
-      "IconHint": "voluptatum",
-      "Selected": true,
-      "LastChanged": "2024-07-29T14:28:22.0866401+02:00",
+      "Rank": 757,
+      "Type": "esse",
+      "ColorBlock": 309,
+      "IconHint": "voluptas",
+      "Selected": false,
+      "LastChanged": "2008-08-16T13:14:00.6575024+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "doloremque",
-      "StyleHint": "voluptatem",
+      "ExtraInfo": "a",
+      "StyleHint": "dignissimos",
       "Hidden": false,
-      "FullName": "Theo Mante",
+      "FullName": "Fidel Luigi Maggio Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 860
+          "FieldType": "System.Int32",
+          "FieldLength": 286
         }
       }
     }
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 640
+      "FieldType": "System.Int32",
+      "FieldLength": 539
     }
   }
 }

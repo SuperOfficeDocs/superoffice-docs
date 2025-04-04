@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 546,
-    "Name": "Raynor-Ullrich",
-    "Tooltip": "amet",
-    "Deleted": false,
-    "Rank": 671,
-    "UdListDefinitionId": 709
+    "HeadingId": 928,
+    "Name": "Lindgren LLC",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 257,
+    "UdListDefinitionId": 393
   },
   {
-    "HeadingId": 546,
-    "Name": "Raynor-Ullrich",
-    "Tooltip": "amet",
-    "Deleted": false,
-    "Rank": 671,
-    "UdListDefinitionId": 709
+    "HeadingId": 928,
+    "Name": "Lindgren LLC",
+    "Tooltip": "consequatur",
+    "Deleted": true,
+    "Rank": 257,
+    "UdListDefinitionId": 393
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 472,
-    "Name": "Kirlin, Rowe and Schoen",
-    "Tooltip": "dolore",
+    "HeadingId": 433,
+    "Name": "Hodkiewicz Group",
+    "Tooltip": "deserunt",
     "Deleted": true,
-    "Rank": 30,
-    "UdListDefinitionId": 24,
+    "Rank": 85,
+    "UdListDefinitionId": 882,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 198
+        "FieldType": "System.String",
+        "FieldLength": 279
       }
     }
   }

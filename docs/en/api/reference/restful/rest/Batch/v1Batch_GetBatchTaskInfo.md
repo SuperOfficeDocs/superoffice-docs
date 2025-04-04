@@ -81,7 +81,7 @@ OK
 GET /api/v1/BatchTask/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 894,
-  "Name": "Kutch, Dicki and Stehr",
-  "AssociateId": 982,
-  "DetailsTable": 682,
-  "DetailsRecord": 15,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 313,
+  "Name": "Metz LLC",
+  "AssociateId": 120,
+  "DetailsTable": 160,
+  "DetailsRecord": 519,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "nihil",
-    "ParameterObject2": "perspiciatis"
+    "ParameterObject1": "error",
+    "ParameterObject2": "provident"
   },
-  "LastStarted": "2019-08-19T14:28:27.3520534+02:00",
-  "Created": "2006-01-29T14:28:27.3520534+01:00",
-  "StartCount": 805,
-  "DatabaseSerialNumber": "1143586",
-  "Context": "fugit",
-  "Result": "facilis",
+  "LastStarted": "2016-07-25T13:14:09.3841564+02:00",
+  "Created": "2001-04-17T13:14:09.3841564+02:00",
+  "StartCount": 117,
+  "DatabaseSerialNumber": "655077",
+  "Context": "facere",
+  "Result": "est",
   "State": "All",
-  "Description": "Monitored foreground approach",
-  "Response": "libero",
-  "Request": "eveniet",
-  "ProgressDescription": "Enhanced logistical artificial intelligence",
-  "ProgressPercent": 222,
-  "FileName": "Stiedemann Group",
+  "Description": "Implemented grid-enabled pricing structure",
+  "Response": "excepturi",
+  "Request": "est",
+  "ProgressDescription": "Operative web-enabled adapter",
+  "ProgressPercent": 806,
+  "FileName": "Marks Inc and Sons",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldType": "System.String",
+      "FieldLength": 1000
     }
   }
 }

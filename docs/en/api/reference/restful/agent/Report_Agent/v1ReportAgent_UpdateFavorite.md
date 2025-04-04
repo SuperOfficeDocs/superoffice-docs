@@ -80,7 +80,7 @@ OK
 POST /api/v1/Agents/Report/UpdateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 944,
+  "ReportId": 77,
   "ReportCategory": "All",
-  "Description": "Horizontal intermediate workforce",
+  "Description": "Customer-focused uniform hub",
   "ReportLayout": "CalendarMonth",
-  "Name": "Ondricka Group",
-  "AssociateId": 828,
-  "TemplateId": 607,
+  "Name": "Kunde, Moen and Adams",
+  "AssociateId": 988,
+  "TemplateId": 462,
   "Published": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 288
     }
   }
 }

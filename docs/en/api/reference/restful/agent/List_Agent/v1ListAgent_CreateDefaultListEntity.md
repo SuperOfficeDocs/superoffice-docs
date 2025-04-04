@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 696,
-  "Name": "Lowe-Dare",
-  "Tooltip": "accusantium",
-  "Deleted": false,
-  "Rank": 250,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 528,
+  "Name": "Larson-Harris",
+  "Tooltip": "quos",
+  "Deleted": true,
+  "Rank": 44,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ea",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 634
+      "FieldType": "System.String",
+      "FieldLength": 967
     }
   }
 }

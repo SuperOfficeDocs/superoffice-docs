@@ -135,14 +135,14 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityFromSaleSuggestion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 385,
-  "SaleId": 724,
-  "CreateNow": true,
-  "OwnerId": 179
+  "SuggestedAppointmentId": 593,
+  "SaleId": 166,
+  "CreateNow": false,
+  "OwnerId": 578
 }
 ```
 
@@ -157,121 +157,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2020-10-08T14:28:21.3991694+02:00",
-  "AppointmentId": 31,
-  "Description": "Synergized upward-trending orchestration",
-  "Title": "maiores",
-  "Agenda": "corrupti",
-  "InternalNotes": "tempora",
-  "StartDate": "2013-11-06T14:28:21.3991694+01:00",
-  "EndDate": "2021-01-03T14:28:21.3991694+01:00",
+  "CreatedDate": "2014-09-20T13:13:59.3907332+02:00",
+  "AppointmentId": 141,
+  "Description": "Multi-layered tertiary instruction set",
+  "Title": "et",
+  "Agenda": "sapiente",
+  "InternalNotes": "alias",
+  "StartDate": "1999-03-28T13:13:59.3907332+02:00",
+  "EndDate": "2009-02-10T13:13:59.3907332+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 377,
+  "MotherId": 514,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "1999-10-19T14:28:21.3991694+02:00",
+  "UpdatedDate": "2023-03-03T13:13:59.3907332+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 11,
+  "ActiveLinks": 434,
   "Links": [
     {
-      "EntityName": "Jenkins Inc and Sons",
-      "Id": 802,
-      "Description": "De-engineered executive Graphic Interface",
-      "ExtraInfo": "consequatur",
-      "LinkId": 223,
+      "EntityName": "Satterfield-Macejkovic",
+      "Id": 806,
+      "Description": "Focused client-driven alliance",
+      "ExtraInfo": "ea",
+      "LinkId": 434,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 355
+          "FieldType": "System.Int32",
+          "FieldLength": 312
         }
       }
     }
   ],
-  "AlarmLeadTime": "ipsam",
-  "HasAlarm": true,
-  "ColorIndex": 187,
-  "IsFree": true,
+  "AlarmLeadTime": "dicta",
+  "HasAlarm": false,
+  "ColorIndex": 5,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "consectetur",
-  "LeadTime": "eos",
-  "Location": "aut",
-  "RejectCounter": 885,
+  "LagTime": "ea",
+  "LeadTime": "ut",
+  "Location": "animi",
+  "RejectCounter": 554,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 578,
-      "PersonId": 358,
-      "ContactId": 671,
-      "EmailId": 452,
-      "SendEmail": true,
+      "AssociateId": 427,
+      "PersonId": 872,
+      "ContactId": 14,
+      "EmailId": 863,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "reese@nader.uk",
-      "Description": "Configurable needs-based parallelism"
+      "EmailAddress": "virgie.daugherty@stracke.com",
+      "Description": "Organized content-based focus group"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2009-07-07T14:28:21.3991694+02:00",
+  "ActiveDate": "2003-09-27T13:13:59.4063589+02:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 648,
+  "PreferredTZLocation": 832,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 952,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 249,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "at",
+  "CentralserviceVideomeetId": "dolorem",
   "UserDefinedFields": {
-    "SuperOffice:1": "1127869382",
-    "SuperOffice:2": "Tierra Steuber"
+    "SuperOffice:1": "Kari Wilderman",
+    "SuperOffice:2": "1556412506"
   },
   "ExtraFields": {
-    "ExtraFields1": "culpa",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "et",
+    "ExtraFields2": "eos"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "a"
+    "CustomFields1": "ut",
+    "CustomFields2": "nisi"
   },
-  "PublishEventDate": "2011-11-14T14:28:21.3991694+01:00",
-  "PublishTo": "2012-08-26T14:28:21.3991694+02:00",
-  "PublishFrom": "2017-05-04T14:28:21.3991694+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2003-08-21T13:13:59.4063589+02:00",
+  "PublishTo": "2001-01-29T13:13:59.4063589+01:00",
+  "PublishFrom": "2001-06-24T13:13:59.4063589+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 73,
+      "VisibleId": 159,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 337
+          "FieldType": "System.String",
+          "FieldLength": 305
         }
       }
     },
     {
-      "VisibleId": 73,
+      "VisibleId": 159,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 337
+          "FieldType": "System.String",
+          "FieldLength": 305
         }
       }
     }
@@ -280,8 +280,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 579
+      "FieldType": "System.String",
+      "FieldLength": 111
     }
   }
 }

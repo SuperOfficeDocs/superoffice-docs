@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionsAndDisplayFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 753
+  "EntityId": 974
 }
 ```
 
@@ -99,18 +99,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 559,
-    "ConnectionName": "Adams, Johnston and Lubowitz",
+    "ErpConnectionId": 175,
+    "ConnectionName": "Hermann LLC",
     "Connected": false,
     "ErpFields": [
       {
-        "FieldKey": "neque",
-        "Rank": 254,
-        "DisplayName": "McClure, Ebert and Kub",
-        "DisplayDescription": "Multi-lateral regional structure",
+        "FieldKey": "sunt",
+        "Rank": 142,
+        "DisplayName": "Dickens, Lakin and Smitham",
+        "DisplayDescription": "Diverse user-facing capacity",
         "FieldType": "Checkbox",
-        "ListName": "Kertzmann, Gerlach and Reilly",
-        "DefaultValue": "voluptatum",
+        "ListName": "Schuppe Inc and Sons",
+        "DefaultValue": "minus",
         "MaxLength": 290,
         "Access": "Mandatory",
         "ShowInSearch": true,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 785
+            "FieldLength": 199
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "veritatis",
-      "et"
+      "sapiente",
+      "consequatur"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 988
+        "FieldType": "System.String",
+        "FieldLength": 997
       }
     }
   }

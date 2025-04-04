@@ -84,12 +84,12 @@ OK
 POST /api/v1/Agents/List/UpdateHierarchyFromPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "doloribus",
+  "Path": "porro",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 429,
+  "HierarchyId": 900,
   "Domain": "Dashboards",
-  "Name": "Morissette Inc and Sons",
-  "Fullname": "aut",
-  "ParentId": 277,
+  "Name": "Armstrong, Cormier and Durgan",
+  "Fullname": "quo",
+  "ParentId": 52,
   "Children": [
     {
-      "HierarchyId": 742,
+      "HierarchyId": 526,
       "Domain": "Dashboards",
-      "Name": "Eichmann-Keebler",
-      "Fullname": "fugit",
-      "ParentId": 248,
+      "Name": "Daugherty-Hettinger",
+      "Fullname": "pariatur",
+      "ParentId": 576,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2017-02-14T14:28:22.0866401+01:00",
-      "RegisteredAssociateId": 256,
-      "Updated": "2020-02-24T14:28:22.0866401+01:00",
-      "UpdatedAssociateId": 780,
+      "Registered": "2020-08-02T13:14:00.6418764+02:00",
+      "RegisteredAssociateId": 736,
+      "Updated": "2022-07-18T13:14:00.6418764+02:00",
+      "UpdatedAssociateId": 826,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 370
+          "FieldLength": 125
         }
       }
     }
   ],
-  "Registered": "2003-02-27T14:28:22.0866401+01:00",
-  "RegisteredAssociateId": 61,
-  "Updated": "2001-06-22T14:28:22.0866401+02:00",
-  "UpdatedAssociateId": 616,
+  "Registered": "2008-03-30T13:14:00.6418764+02:00",
+  "RegisteredAssociateId": 111,
+  "Updated": "2009-11-23T13:14:00.6418764+01:00",
+  "UpdatedAssociateId": 464,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 182
+      "FieldLength": 68
     }
   }
 }

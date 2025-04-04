@@ -105,7 +105,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 715,
+  "Id": 544,
   "IncludeAttachments": false
 }
 ```
@@ -119,97 +119,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 787,
-      "ContactName": "Orn-Lind",
-      "PersonId": 993,
-      "PersonName": "Erdman LLC",
-      "AssociateId": 386,
-      "Address": "id",
-      "EmailId": 237,
+      "ContactId": 343,
+      "ContactName": "Goodwin-Bailey",
+      "PersonId": 934,
+      "PersonName": "Ebert, Murphy and Moen",
+      "AssociateId": 884,
+      "Address": "temporibus",
+      "EmailId": 879,
       "DuplicatePersonIds": [
-        21,
-        597
+        324,
+        165
       ],
-      "Name": "Kuhn, Green and Schoen",
+      "Name": "Zboncak, Hayes and Walsh",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 831
+          "FieldLength": 53
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 632,
-      "ContactName": "Kutch LLC",
-      "PersonId": 674,
-      "PersonName": "Jerde-Nitzsche",
-      "AssociateId": 568,
-      "Address": "aliquam",
-      "EmailId": 595,
+      "ContactId": 491,
+      "ContactName": "Connelly-Kunze",
+      "PersonId": 408,
+      "PersonName": "Muller LLC",
+      "AssociateId": 74,
+      "Address": "doloremque",
+      "EmailId": 467,
       "DuplicatePersonIds": [
-        265,
-        248
+        225,
+        885
       ],
-      "Name": "Gerlach, Sporer and Emard",
+      "Name": "Cruickshank, Wilkinson and Gutmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 919
+          "FieldLength": 890
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 208,
-      "ContactName": "Bosco LLC",
-      "PersonId": 697,
-      "PersonName": "Doyle, Sporer and Powlowski",
-      "AssociateId": 227,
-      "Address": "blanditiis",
-      "EmailId": 11,
+      "ContactId": 480,
+      "ContactName": "Roob LLC",
+      "PersonId": 230,
+      "PersonName": "Eichmann-Lockman",
+      "AssociateId": 768,
+      "Address": "mollitia",
+      "EmailId": 757,
       "DuplicatePersonIds": [
-        292,
-        563
+        552,
+        21
       ],
-      "Name": "Nikolaus-Lockman",
+      "Name": "Veum-Lesch",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 248
+          "FieldType": "System.Int32",
+          "FieldLength": 719
         }
       }
     }
   ],
-  "Subject": "iure",
-  "HTMLBody": "dolor",
+  "Subject": "possimus",
+  "HTMLBody": "quasi",
   "From": null,
-  "Sent": "2001-10-21T14:28:21.9772696+02:00",
-  "Size": 699,
+  "Sent": "2000-06-09T13:14:00.4231039+02:00",
+  "Size": 658,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sed",
-  "PlainBody": "occaecati",
-  "IsSent": true,
+  "MessageID": "fugiat",
+  "PlainBody": "aliquam",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 616,
+  "ServerId": 908,
   "Attachments": [
     {
-      "Description": "Centralized regional process improvement",
-      "Filename": "cumque",
-      "Size": 799,
-      "Type": "facere",
-      "Encoding": "blanditiis",
-      "Id": "ea",
-      "Disposition": "a",
+      "Description": "Organic 6th generation extranet",
+      "Filename": "omnis",
+      "Size": 515,
+      "Type": "quas",
+      "Encoding": "temporibus",
+      "Id": "nostrum",
+      "Disposition": "nihil",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -217,50 +217,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 211
+          "FieldLength": 32
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Aufderhar-Pacocha",
+      "Name": "O'Kon, Gusikowski and Schultz",
       "Values": [
-        "vel",
-        "et"
+        "doloribus",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 345
+          "FieldType": "System.Int32",
+          "FieldLength": 296
         }
       }
     },
     {
-      "Name": "Aufderhar-Pacocha",
+      "Name": "O'Kon, Gusikowski and Schultz",
       "Values": [
-        "vel",
-        "et"
+        "doloribus",
+        "velit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 345
+          "FieldType": "System.Int32",
+          "FieldLength": 296
         }
       }
     }
   ],
-  "FolderName": "Hahn, Grimes and Mayer",
-  "EmailItemId": 563,
-  "AccountId": 365,
-  "ReceivedAt": "2011-07-13T14:28:21.9772696+02:00",
+  "FolderName": "Ondricka, Wisozk and Willms",
+  "EmailItemId": 385,
+  "AccountId": 451,
+  "ReceivedAt": "2004-10-25T13:14:00.4231039+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2023-11-27T14:28:21.9772696+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2011-06-14T13:14:00.4231039+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 921
+      "FieldLength": 496
     }
   }
 }

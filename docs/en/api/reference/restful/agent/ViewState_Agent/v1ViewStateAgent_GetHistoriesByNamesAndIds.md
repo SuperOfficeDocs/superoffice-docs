@@ -87,14 +87,14 @@ Content-Type: application/json; charset=utf-8
 {
   "Requests": [
     {
-      "EntityName": "Wisoky-Lockman",
-      "EntityOrParentId": 836,
-      "RequestForNewRecord": true
+      "EntityName": "Raynor-Simonis",
+      "EntityOrParentId": 393,
+      "RequestForNewRecord": false
     },
     {
-      "EntityName": "Wisoky-Lockman",
-      "EntityOrParentId": 836,
-      "RequestForNewRecord": true
+      "EntityName": "Raynor-Simonis",
+      "EntityOrParentId": 393,
+      "RequestForNewRecord": false
     }
   ]
 }
@@ -108,19 +108,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 632,
-    "Id": 345,
-    "HistoryName": "Bergstrom LLC",
-    "HistoryId": 113,
-    "AssociateId": 198,
-    "Name": "Romaguera-Ledner",
-    "ItemInfo": "nesciunt",
+    "Rank": 993,
+    "Id": 585,
+    "HistoryName": "Schmeler-Herman",
+    "HistoryId": 763,
+    "AssociateId": 519,
+    "Name": "Kris Inc and Sons",
+    "ItemInfo": "provident",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 269
+        "FieldType": "System.Int32",
+        "FieldLength": 936
       }
     }
   }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "reprehenderit"
+  "QuoteListType": "adipisci"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "consectetur",
-    "DisplayValue": "dignissimos",
-    "DisplayDescription": "Universal bottom-line parallelism",
+    "ERPQuoteListItemKey": "alias",
+    "DisplayValue": "vel",
+    "DisplayDescription": "Fully-configurable zero defect system engine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldLength": 945
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "consectetur",
-    "DisplayValue": "dignissimos",
-    "DisplayDescription": "Universal bottom-line parallelism",
+    "ERPQuoteListItemKey": "alias",
+    "DisplayValue": "vel",
+    "DisplayDescription": "Fully-configurable zero defect system engine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 967
+        "FieldLength": 945
       }
     }
   }

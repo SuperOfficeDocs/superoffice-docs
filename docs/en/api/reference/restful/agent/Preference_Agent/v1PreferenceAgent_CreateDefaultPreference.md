@@ -78,22 +78,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptatum",
+  "RawValue": "repellat",
   "Specification": null,
-  "DisplayValue": "error",
-  "DisplayTooltip": "vero",
+  "DisplayValue": "aut",
+  "DisplayTooltip": "et",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 643,
-  "PrefDescId": 172,
-  "TableName": "Daniel LLC",
-  "UserPreferenceId": 953,
+  "TargetId": 24,
+  "PrefDescId": 5,
+  "TableName": "Morar, Becker and Huel",
+  "UserPreferenceId": 74,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldType": "System.String",
+      "FieldLength": 887
     }
   }
 }

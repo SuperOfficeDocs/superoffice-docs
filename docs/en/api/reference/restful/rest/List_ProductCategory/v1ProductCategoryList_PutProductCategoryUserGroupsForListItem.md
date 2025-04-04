@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Kunze-Mertz",
-    "ToolTip": "Eum exercitationem et accusantium voluptatem.",
+    "Id": 354,
+    "Name": "Stiedemann Group",
+    "ToolTip": "Officia quis harum rerum voluptatibus.",
     "Deleted": false,
-    "Rank": 821,
-    "Type": "ullam",
-    "ColorBlock": 701,
-    "IconHint": "molestias",
+    "Rank": 468,
+    "Type": "fuga",
+    "ColorBlock": 879,
+    "IconHint": "dolorem",
     "Selected": true,
-    "LastChanged": "2016-05-07T14:28:27.6176673+02:00",
+    "LastChanged": "2002-06-24T13:14:09.9004061+02:00",
     "ChildItems": [
       {
-        "Id": 26,
-        "Name": "Borer, Weissnat and Wolf",
-        "ToolTip": "Dolor esse ratione est.",
+        "Id": 759,
+        "Name": "Jacobson-Dickens",
+        "ToolTip": "Ducimus dolores enim ad aut.",
         "Deleted": false,
-        "Rank": 490,
-        "Type": "modi",
-        "ColorBlock": 855,
-        "IconHint": "voluptatem",
+        "Rank": 916,
+        "Type": "eligendi",
+        "ColorBlock": 244,
+        "IconHint": "alias",
         "Selected": true,
-        "LastChanged": "2011-05-20T14:28:27.6176673+02:00",
+        "LastChanged": "2006-09-11T13:14:09.9004061+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "commodi",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Emmy Clyde Dicki III"
+        "FullName": "Mr. Barbara Wunsch"
       }
     ],
-    "ExtraInfo": "animi",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Ms. Arely Stokes Sr."
+    "ExtraInfo": "in",
+    "StyleHint": "commodi",
+    "Hidden": false,
+    "FullName": "Rocky Fay"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 51,
-    "Name": "Howell Group",
-    "ToolTip": "Adipisci neque rerum maiores blanditiis consectetur.",
-    "Deleted": true,
-    "Rank": 94,
-    "Type": "ut",
-    "ColorBlock": 845,
-    "IconHint": "quisquam",
+    "Id": 229,
+    "Name": "Senger LLC",
+    "ToolTip": "Eos cupiditate.",
+    "Deleted": false,
+    "Rank": 499,
+    "Type": "nisi",
+    "ColorBlock": 865,
+    "IconHint": "ad",
     "Selected": false,
-    "LastChanged": "2007-12-24T14:28:27.6176673+01:00",
+    "LastChanged": "2001-11-03T13:14:09.9004061+01:00",
     "ChildItems": [
       {
-        "Id": 703,
-        "Name": "Mitchell-Wiza",
-        "ToolTip": "Est ea in recusandae voluptate quas voluptatem.",
+        "Id": 293,
+        "Name": "Oberbrunner, Schulist and Braun",
+        "ToolTip": "Fugit dolorum iure et eum.",
         "Deleted": true,
-        "Rank": 516,
-        "Type": "et",
-        "ColorBlock": 83,
-        "IconHint": "quas",
-        "Selected": true,
-        "LastChanged": "2005-03-05T14:28:27.6176673+01:00",
+        "Rank": 738,
+        "Type": "dolorem",
+        "ColorBlock": 287,
+        "IconHint": "ad",
+        "Selected": false,
+        "LastChanged": "2002-12-24T13:14:09.9004061+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Mr. Kallie Josiah Conroy MD",
+        "ExtraInfo": "quo",
+        "StyleHint": "quo",
+        "Hidden": true,
+        "FullName": "Santos Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 779
+            "FieldType": "System.Int32",
+            "FieldLength": 682
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "deserunt",
-    "Hidden": true,
-    "FullName": "Marley Gibson",
+    "ExtraInfo": "cum",
+    "StyleHint": "nobis",
+    "Hidden": false,
+    "FullName": "Sandy Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 224
+        "FieldType": "System.String",
+        "FieldLength": 517
       }
     }
   }

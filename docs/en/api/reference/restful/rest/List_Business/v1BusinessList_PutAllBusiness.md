@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Business/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 907,
-    "Name": "Krajcik-Will",
-    "Tooltip": "deserunt",
+    "Id": 328,
+    "Name": "Beatty, Kertzmann and Christiansen",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 974,
-    "Rank": 837
+    "UdListDefinitionId": 625,
+    "Rank": 411
   },
   {
-    "Id": 907,
-    "Name": "Krajcik-Will",
-    "Tooltip": "deserunt",
+    "Id": 328,
+    "Name": "Beatty, Kertzmann and Christiansen",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 974,
-    "Rank": 837
+    "UdListDefinitionId": 625,
+    "Rank": 411
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 123,
-    "Name": "Langworth-Denesik",
-    "Tooltip": "quidem",
-    "Deleted": false,
-    "UdListDefinitionId": 310,
-    "Rank": 117,
+    "Id": 444,
+    "Name": "Gusikowski Group",
+    "Tooltip": "cupiditate",
+    "Deleted": true,
+    "UdListDefinitionId": 685,
+    "Rank": 877,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 589
+        "FieldType": "System.String",
+        "FieldLength": 381
       }
     }
   }

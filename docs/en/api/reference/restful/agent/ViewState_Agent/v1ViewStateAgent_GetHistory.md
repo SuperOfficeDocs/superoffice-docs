@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/ViewState/GetHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 845,
-  "Id": 283,
-  "HistoryName": "Luettgen LLC",
-  "HistoryId": 496,
-  "AssociateId": 933,
-  "Name": "Waters Inc and Sons",
-  "ItemInfo": "quidem",
+  "Rank": 499,
+  "Id": 651,
+  "HistoryName": "Reichert, Goodwin and Cronin",
+  "HistoryId": 511,
+  "AssociateId": 925,
+  "Name": "Terry, Rosenbaum and Batz",
+  "ItemInfo": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldLength": 334
     }
   }
 }

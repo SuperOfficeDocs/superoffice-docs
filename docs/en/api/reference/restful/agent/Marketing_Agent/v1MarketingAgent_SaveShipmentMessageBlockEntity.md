@@ -81,14 +81,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 185,
-  "AssociateId": 648,
-  "Block": "ab",
-  "Registered": "1998-06-16T14:28:22.1022648+02:00",
-  "RegisteredAssociateId": 650,
-  "Updated": "2005-06-17T14:28:22.1022648+02:00",
-  "UpdatedAssociateId": 44,
-  "UpdatedCount": 828
+  "ShipmentMessageBlockId": 703,
+  "AssociateId": 207,
+  "Block": "sed",
+  "Registered": "2002-08-27T13:14:00.6887452+02:00",
+  "RegisteredAssociateId": 807,
+  "Updated": "2020-01-12T13:14:00.6887452+01:00",
+  "UpdatedAssociateId": 478,
+  "UpdatedCount": 977
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 162,
-  "AssociateId": 342,
-  "Block": "quis",
-  "Registered": "2019-12-23T14:28:22.1022648+01:00",
-  "RegisteredAssociateId": 487,
-  "Updated": "2012-02-05T14:28:22.1022648+01:00",
-  "UpdatedAssociateId": 636,
-  "UpdatedCount": 520,
+  "ShipmentMessageBlockId": 185,
+  "AssociateId": 999,
+  "Block": "nobis",
+  "Registered": "2010-07-20T13:14:00.6887452+02:00",
+  "RegisteredAssociateId": 944,
+  "Updated": "2021-08-29T13:14:00.6887452+02:00",
+  "UpdatedAssociateId": 512,
+  "UpdatedCount": 765,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 544
+      "FieldLength": 417
     }
   }
 }

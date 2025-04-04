@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/ForeignSystem/DeleteDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Kerluke Group",
-  "DeviceName": "Reinger, Gleichner and Yost",
-  "DeviceIdentifier": "cupiditate"
+  "ApplicationName": "O'Connell-Grady",
+  "DeviceName": "Cronin LLC",
+  "DeviceIdentifier": "ut"
 }
 ```
 

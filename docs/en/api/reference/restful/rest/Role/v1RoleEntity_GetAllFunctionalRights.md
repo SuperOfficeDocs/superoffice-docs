@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Ruecker Inc and Sons",
-    "ToolTip": "Culpa iure ut dolorem.",
-    "Deleted": true,
-    "Rank": 918,
-    "Type": "voluptates",
-    "ColorBlock": 759,
-    "IconHint": "recusandae",
+    "Id": 912,
+    "Name": "Rutherford-Gusikowski",
+    "ToolTip": "Voluptatum dolores quia aliquid perspiciatis qui non rerum.",
+    "Deleted": false,
+    "Rank": 800,
+    "Type": "deserunt",
+    "ColorBlock": 116,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2015-11-27T14:28:27.1804149+01:00",
+    "LastChanged": "2023-12-30T13:14:09.0555114+01:00",
     "ChildItems": [
       {
-        "Id": 116,
-        "Name": "Weber-Greenfelder",
-        "ToolTip": "Quis impedit ex voluptate.",
-        "Deleted": false,
-        "Rank": 867,
-        "Type": "tenetur",
-        "ColorBlock": 779,
-        "IconHint": "quaerat",
-        "Selected": true,
-        "LastChanged": "2008-07-25T14:28:27.1804149+02:00",
+        "Id": 986,
+        "Name": "Upton, Okuneva and Kunde",
+        "ToolTip": "Fugit ipsa numquam adipisci at aliquid dolores.",
+        "Deleted": true,
+        "Rank": 125,
+        "Type": "repudiandae",
+        "ColorBlock": 430,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2025-02-06T13:14:09.0555114+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "sequi",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "fugiat",
         "Hidden": false,
-        "FullName": "Hope Terry",
+        "FullName": "Lelia Steuber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 201
+            "FieldType": "System.String",
+            "FieldLength": 30
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "cupiditate",
-    "Hidden": true,
-    "FullName": "Nova Kulas",
+    "ExtraInfo": "est",
+    "StyleHint": "veniam",
+    "Hidden": false,
+    "FullName": "Roslyn Harris",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldLength": 57
       }
     }
   }

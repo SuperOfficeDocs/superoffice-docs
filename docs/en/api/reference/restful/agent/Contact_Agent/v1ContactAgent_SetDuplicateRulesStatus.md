@@ -64,21 +64,21 @@ No Content
 POST /api/v1/Agents/Contact/SetDuplicateRulesStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Rules": [
     {
-      "Name": "O'Connell, Pollich and Cremin",
-      "DisplayName": "Casper Inc and Sons",
-      "DisplayTooltip": "qui",
+      "Name": "Hamill-Maggio",
+      "DisplayName": "Larkin Inc and Sons",
+      "DisplayTooltip": "magnam",
       "IsActive": false
     },
     {
-      "Name": "O'Connell, Pollich and Cremin",
-      "DisplayName": "Casper Inc and Sons",
-      "DisplayTooltip": "qui",
+      "Name": "Hamill-Maggio",
+      "DisplayName": "Larkin Inc and Sons",
+      "DisplayTooltip": "magnam",
       "IsActive": false
     }
   ]

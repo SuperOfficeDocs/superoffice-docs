@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 361,
+  "TargetDimensionId": 216,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "corporis",
-  "DimensionListName": "Lueilwitz-Schmidt",
-  "DimensionListId": 86,
-  "DimensionListLabel": "dolores",
+  "DimensionListField": "sunt",
+  "DimensionListName": "Feest, Huels and Reichel",
+  "DimensionListId": 743,
+  "DimensionListLabel": "enim",
   "SelectedDimensions": [
-    55,
-    751
+    314,
+    22
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 230
+      "FieldLength": 257
     }
   }
 }

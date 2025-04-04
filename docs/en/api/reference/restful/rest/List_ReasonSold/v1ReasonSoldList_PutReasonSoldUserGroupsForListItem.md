@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 495,
-    "Name": "Moore-Wyman",
-    "ToolTip": "Qui blanditiis nostrum sunt.",
-    "Deleted": true,
-    "Rank": 432,
-    "Type": "ipsum",
-    "ColorBlock": 698,
-    "IconHint": "quos",
+    "Id": 550,
+    "Name": "Nader-Fisher",
+    "ToolTip": "Cum magnam cumque hic ut qui sequi.",
+    "Deleted": false,
+    "Rank": 38,
+    "Type": "ipsa",
+    "ColorBlock": 372,
+    "IconHint": "voluptates",
     "Selected": false,
-    "LastChanged": "2014-03-04T14:28:27.6801638+01:00",
+    "LastChanged": "2004-12-11T13:14:10.0254136+01:00",
     "ChildItems": [
       {
-        "Id": 992,
-        "Name": "Toy-Heidenreich",
-        "ToolTip": "Necessitatibus beatae voluptatem odit quis ipsa corporis et.",
+        "Id": 385,
+        "Name": "Abernathy LLC",
+        "ToolTip": "Vel at rerum at ut aspernatur eaque.",
         "Deleted": false,
-        "Rank": 964,
-        "Type": "culpa",
-        "ColorBlock": 459,
-        "IconHint": "asperiores",
-        "Selected": true,
-        "LastChanged": "2004-09-18T14:28:27.6801638+02:00",
+        "Rank": 549,
+        "Type": "distinctio",
+        "ColorBlock": 385,
+        "IconHint": "illo",
+        "Selected": false,
+        "LastChanged": "2013-05-21T13:14:10.0254136+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "saepe",
+        "ExtraInfo": "rerum",
+        "StyleHint": "vero",
         "Hidden": false,
-        "FullName": "Mr. Icie Hessel"
+        "FullName": "Gabriella Langworth IV"
       }
     ],
-    "ExtraInfo": "harum",
-    "StyleHint": "temporibus",
-    "Hidden": false,
-    "FullName": "Prof. Donnie Goldner"
+    "ExtraInfo": "facere",
+    "StyleHint": "atque",
+    "Hidden": true,
+    "FullName": "Dr. Akeem Monahan Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 871,
-    "Name": "Lindgren-Kuhic",
-    "ToolTip": "Quisquam est vitae corporis incidunt inventore.",
+    "Id": 276,
+    "Name": "Konopelski-McLaughlin",
+    "ToolTip": "Voluptatum nam beatae laboriosam ipsum consequatur mollitia.",
     "Deleted": false,
-    "Rank": 583,
-    "Type": "ullam",
-    "ColorBlock": 752,
-    "IconHint": "expedita",
+    "Rank": 856,
+    "Type": "odit",
+    "ColorBlock": 772,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2019-02-28T14:28:27.6801638+01:00",
+    "LastChanged": "2016-10-03T13:14:10.0254136+02:00",
     "ChildItems": [
       {
-        "Id": 499,
-        "Name": "Zieme Inc and Sons",
-        "ToolTip": "Reprehenderit velit impedit qui ipsa natus dolorem.",
-        "Deleted": true,
-        "Rank": 343,
-        "Type": "ut",
-        "ColorBlock": 923,
-        "IconHint": "ut",
+        "Id": 84,
+        "Name": "Murphy Group",
+        "ToolTip": "Omnis pariatur ut saepe rerum.",
+        "Deleted": false,
+        "Rank": 100,
+        "Type": "sunt",
+        "ColorBlock": 309,
+        "IconHint": "dolorum",
         "Selected": true,
-        "LastChanged": "2024-10-25T14:28:27.6801638+02:00",
+        "LastChanged": "2010-05-31T13:14:10.0254136+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "eos",
+        "ExtraInfo": "iste",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Quinten Friesen",
+        "FullName": "Wanda Boehm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 867
+            "FieldType": "System.String",
+            "FieldLength": 596
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "officiis",
+    "StyleHint": "eos",
     "Hidden": false,
-    "FullName": "Wilburn Emmerich",
+    "FullName": "Erik Eichmann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 310
+        "FieldLength": 444
       }
     }
   }

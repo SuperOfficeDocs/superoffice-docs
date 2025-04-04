@@ -80,23 +80,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 13 Nov 2024 14:28:26 G11T
+Last-Modified: Sat, 29 Aug 2020 13:14:08 G8T
 
 {
-  "Key": "provident",
-  "Value": "provident",
-  "RecordId": 212,
-  "CreatedDate": "2016-06-07T14:28:26.9458186+02:00",
-  "UpdatedDate": "2024-11-13T14:28:26.9458186+01:00",
-  "UpdatedBy": "nihil",
-  "CreatedBy": "distinctio",
-  "TableName": "Streich Inc and Sons",
+  "Key": "minima",
+  "Value": "omnis",
+  "RecordId": 447,
+  "CreatedDate": "2020-12-26T13:14:08.7585151+01:00",
+  "UpdatedDate": "2020-08-29T13:14:08.7585151+02:00",
+  "UpdatedBy": "dolor",
+  "CreatedBy": "consequatur",
+  "TableName": "Mayer-Hessel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 672
+      "FieldType": "System.Int32",
+      "FieldLength": 325
     }
   }
 }

@@ -82,50 +82,50 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumnsOrderBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Gibson Group",
-      "Operator": "aut",
+      "Name": "Prohaska, Corkery and Miller",
+      "Operator": "ad",
       "Values": [
-        "nostrum",
-        "odio"
+        "molestiae",
+        "animi"
       ],
       "DisplayValues": [
-        "natus",
-        "architecto"
+        "laboriosam",
+        "sint"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 785,
+      "InterParenthesis": 563,
       "InterOperator": "And",
-      "UniqueHash": 215
+      "UniqueHash": 890
     }
   ],
-  "ProviderName": "Kreiger-Bruen",
+  "ProviderName": "O'Hara Group",
   "DesiredColumns": [
-    "non",
-    "rerum"
+    "quia",
+    "sint"
   ],
   "OrderBy": [
     {
-      "Name": "Frami, Kerluke and Collier",
+      "Name": "Braun, Hickle and Hilll",
       "Direction": "ASC"
     },
     {
-      "Name": "Frami, Kerluke and Collier",
+      "Name": "Braun, Hickle and Hilll",
       "Direction": "ASC"
     }
   ],
-  "PageSize": 371,
-  "PageNumber": 733
+  "PageSize": 683,
+  "PageNumber": 553
 }
 ```
 
@@ -138,51 +138,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "O'Keefe, Paucek and Kassulke",
-      "DisplayTooltip": "sit",
-      "DisplayType": "repellendus",
+      "DisplayName": "Hodkiewicz, Rau and Parker",
+      "DisplayTooltip": "sed",
+      "DisplayType": "accusantium",
       "CanOrderBy": true,
-      "Name": "Robel-Lakin",
+      "Name": "Ratke-Mante",
       "CanRestrictBy": false,
-      "RestrictionType": "inventore",
-      "RestrictionListName": "Walsh, Lesch and Treutel",
-      "IsVisible": false,
-      "ExtraInfo": "fugit",
-      "Width": "ab",
-      "IconHint": "repellendus",
-      "HeadingIconHint": "voluptas"
+      "RestrictionType": "molestias",
+      "RestrictionListName": "Roberts, Prohaska and Shields",
+      "IsVisible": true,
+      "ExtraInfo": "quia",
+      "Width": "eligendi",
+      "IconHint": "quaerat",
+      "HeadingIconHint": "enim"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Adams, Yost and Herman",
-      "PrimaryKey": 443,
+      "EntityName": "Waters-Leffler",
+      "PrimaryKey": 358,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "adipisci",
-          "TooltipHint": "voluptatem",
-          "LinkHint": "suscipit"
+          "DisplayValue": "et",
+          "TooltipHint": "adipisci",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "eligendi",
-      "StyleHint": "ipsam",
+      "LinkHint": "qui",
+      "StyleHint": "dolorum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 604
+          "FieldLength": 176
         }
       }
     }
   ],
-  "RowCount": 235,
+  "RowCount": 508,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 371
+      "FieldType": "System.String",
+      "FieldLength": 404
     }
   }
 }

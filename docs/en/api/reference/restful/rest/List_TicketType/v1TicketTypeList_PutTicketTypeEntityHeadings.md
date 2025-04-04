@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 963,
-    "Name": "Collier-Kiehn",
-    "Tooltip": "blanditiis",
+    "HeadingId": 518,
+    "Name": "Stamm, Schiller and Conroy",
+    "Tooltip": "amet",
     "Deleted": false,
-    "Rank": 426,
-    "UdListDefinitionId": 717
+    "Rank": 880,
+    "UdListDefinitionId": 752
   },
   {
-    "HeadingId": 963,
-    "Name": "Collier-Kiehn",
-    "Tooltip": "blanditiis",
+    "HeadingId": 518,
+    "Name": "Stamm, Schiller and Conroy",
+    "Tooltip": "amet",
     "Deleted": false,
-    "Rank": 426,
-    "UdListDefinitionId": 717
+    "Rank": 880,
+    "UdListDefinitionId": 752
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 107,
-    "Name": "VonRueden, Lesch and Stokes",
-    "Tooltip": "sit",
+    "HeadingId": 941,
+    "Name": "Zemlak, Koch and Labadie",
+    "Tooltip": "voluptates",
     "Deleted": false,
-    "Rank": 417,
-    "UdListDefinitionId": 857,
+    "Rank": 909,
+    "UdListDefinitionId": 703,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 689
       }
     }
   }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 489,
-  "Name": "Gulgowski, Orn and Denesik",
-  "Tooltip": "temporibus",
-  "Deleted": false,
-  "Rank": 463,
+  "Id": 935,
+  "Name": "Boehm, Schmidt and Farrell",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 372,
   "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "architecto",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ut",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 490,
-  "Name": "Sauer LLC",
-  "Tooltip": "voluptatem",
+  "Id": 450,
+  "Name": "Gislason-Mayer",
+  "Tooltip": "cupiditate",
   "Deleted": false,
-  "Rank": 215,
+  "Rank": 212,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "velit",
-  "InUseByUserDefinedFields": false,
+  "ListType": "est",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 704
+      "FieldLength": 501
     }
   }
 }

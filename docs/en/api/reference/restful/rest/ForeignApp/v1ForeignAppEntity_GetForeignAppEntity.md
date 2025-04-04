@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 06 Mar 2009 14:28:26 G3T
+Last-Modified: Sat, 07 Mar 2015 13:14:08 G3T
 
 {
-  "ForeignAppId": 529,
-  "Name": "Gorczany Inc and Sons",
-  "CreatedDate": "2009-09-26T14:28:26.9458186+02:00",
-  "UpdatedDate": "2009-03-06T14:28:26.9458186+01:00",
+  "ForeignAppId": 620,
+  "Name": "Kunze, Rowe and Klein",
+  "CreatedDate": "2017-10-20T13:14:08.7428891+02:00",
+  "UpdatedDate": "2015-03-07T13:14:08.7428891+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 292,
-      "Name": "Pollich Inc and Sons",
-      "CreatedDate": "2019-08-05T14:28:26.9458186+02:00",
-      "UpdatedDate": "2014-12-10T14:28:26.9458186+01:00",
-      "AssociateFullName": "Sarina Carter",
-      "CreatedBy": "aut",
-      "UpdatedBy": "amet",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 949,
+      "ForeignDeviceId": 381,
+      "Name": "Fadel Group",
+      "CreatedDate": "2017-09-03T13:14:08.7428891+02:00",
+      "UpdatedDate": "2021-10-28T13:14:08.7428891+02:00",
+      "AssociateFullName": "Dr. Effie Laurel VonRueden I",
+      "CreatedBy": "facilis",
+      "UpdatedBy": "mollitia",
+      "DeviceIdentifier": "optio",
+      "ForeignAppId": 132,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 427
+          "FieldLength": 228
         }
       }
     }
@@ -123,7 +123,7 @@ Last-Modified: Fri, 06 Mar 2009 14:28:26 G3T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldLength": 168
     }
   },
   "_Links": {

@@ -25,7 +25,7 @@ Gets all the PaymentTerm items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/PaymentTerm/Items?includeDeleted=False
+GET /api/v1/List/PaymentTerm/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 822,
-    "Name": "Donnelly Group",
-    "Tooltip": "enim",
-    "Deleted": false,
-    "UdListDefinitionId": 286,
-    "Rank": 221,
+    "Id": 300,
+    "Name": "Moen-Hamill",
+    "Tooltip": "dicta",
+    "Deleted": true,
+    "UdListDefinitionId": 510,
+    "Rank": 421,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 521
+        "FieldLength": 776
       }
     }
   }

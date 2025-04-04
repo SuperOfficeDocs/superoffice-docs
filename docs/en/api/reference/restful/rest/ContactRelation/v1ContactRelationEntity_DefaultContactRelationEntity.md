@@ -74,7 +74,7 @@ OK
 GET /api/v1/Relation/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,33 +82,33 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 04 May 2024 14:28:26 G5T
+Last-Modified: Mon, 31 Jul 2000 13:14:08 G7T
 
 {
-  "SourceContactId": 751,
-  "SourcePersonId": 670,
-  "DestinationContactId": 117,
-  "DestinationPersonId": 492,
-  "RelationId": 1002,
-  "Comment": "non",
-  "RelationDefinitionId": 694,
-  "Reversed": 391,
-  "UpdatedDate": "2024-05-04T14:28:26.8676969+02:00",
-  "CreatedDate": "2022-04-28T14:28:26.8676969+02:00",
+  "SourceContactId": 323,
+  "SourcePersonId": 912,
+  "DestinationContactId": 722,
+  "DestinationPersonId": 274,
+  "RelationId": 471,
+  "Comment": "consectetur",
+  "RelationDefinitionId": 591,
+  "Reversed": 575,
+  "UpdatedDate": "2000-07-31T13:14:08.6022481+02:00",
+  "CreatedDate": "1999-04-25T13:14:08.6022481+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Lesch-Pfannerstill",
-  "SourcePersonName": "Funk LLC",
-  "DestinationContactName": "Berge, Bernhard and Gibson",
-  "DestinationPersonName": "Dach-Crist",
-  "ActiveText": "animi",
-  "PassiveText": "est",
+  "SourceContactName": "Brakus, Kerluke and Koepp",
+  "SourcePersonName": "Jaskolski LLC",
+  "DestinationContactName": "Yost, Jewess and Davis",
+  "DestinationPersonName": "Rippin, Fritsch and Kshlerin",
+  "ActiveText": "eaque",
+  "PassiveText": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 974
+      "FieldLength": 948
     }
   }
 }

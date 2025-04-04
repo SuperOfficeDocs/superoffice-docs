@@ -87,31 +87,31 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "id",
-        "autem"
+        "dignissimos",
+        "minus"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "eum"
+      "ExternalKey": "non"
     },
     {
       "Values": [
-        "id",
-        "autem"
+        "dignissimos",
+        "minus"
       ],
-      "Selected": true,
+      "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "eum"
+      "ExternalKey": "non"
     }
   ],
   "ColumnDefinition": [
-    "distinctio",
-    "reiciendis"
+    "molestias",
+    "aut"
   ],
-  "Culture": "sequi",
-  "Context": "nisi"
+  "Culture": "reiciendis",
+  "Context": "consequatur"
 }
 ```
 
@@ -124,19 +124,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Values": [
-      "sapiente",
-      "ducimus"
+      "quos",
+      "molestias"
     ],
-    "Selected": false,
+    "Selected": true,
     "Operation": "ContactAdded",
     "Type": "Contact",
-    "ExternalKey": "earum",
+    "ExternalKey": "rem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 969
+        "FieldType": "System.Int32",
+        "FieldLength": 181
       }
     }
   }

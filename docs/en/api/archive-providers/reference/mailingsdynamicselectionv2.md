@@ -656,7 +656,7 @@ Mailings selection archive with OR-able selection groups. Each group is represen
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsDynamicSelectionV2?$select=mailingAddr/contact/NumberOfNotCompletedTicketsInPeriod,mailingAddr/person/personAssociate/userName,emailFlow/workflowEnrolledCount,project/projectUdef/SuperOffice:9
+GET /api/v1/archive/MailingsDynamicSelectionV2?$select=recipientStatus,mailingAddr/contact/streetAddress/formattedAddress,mailingAddr/contact/contactAssociate/contactDepartment,mailingAddr/contact/contactExtra/x_contact_contact,emailFlow/workflowAssociate/title
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

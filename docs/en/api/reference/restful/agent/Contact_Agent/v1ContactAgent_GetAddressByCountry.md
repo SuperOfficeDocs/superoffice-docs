@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Contact/GetAddressByCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 304,
-  "CountryId": 904
+  "ContactId": 329,
+  "CountryId": 369
 }
 ```
 
@@ -95,41 +95,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 7230.138,
-  "Wgs84Longitude": 28428.514,
+  "Wgs84Latitude": 9590.0399999999991,
+  "Wgs84Longitude": 26300.528,
   "LocalizedAddress": [
     [
       {
-        "Name": "Bins, Torphy and Rohan",
-        "Value": "odio",
-        "Tooltip": "eligendi",
-        "Label": "qui",
-        "ValueLength": 114,
-        "AddressType": "voluptatem",
+        "Name": "Funk LLC",
+        "Value": "corporis",
+        "Tooltip": "vero",
+        "Label": "sint",
+        "ValueLength": 869,
+        "AddressType": "voluptatibus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 689
+            "FieldLength": 324
           }
         }
       }
     ],
     [
       {
-        "Name": "Kovacek-Witting",
-        "Value": "eum",
-        "Tooltip": "modi",
-        "Label": "aut",
-        "ValueLength": 101,
-        "AddressType": "dolorem",
+        "Name": "Stiedemann-King",
+        "Value": "non",
+        "Tooltip": "voluptatem",
+        "Label": "ut",
+        "ValueLength": 789,
+        "AddressType": "voluptatum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 294
+            "FieldLength": 141
           }
         }
       }
@@ -137,13 +137,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "quia",
+  "Formatted": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 103
+      "FieldType": "System.String",
+      "FieldLength": 382
     }
   }
 }

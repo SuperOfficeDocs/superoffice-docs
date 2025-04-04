@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/ErpSync/ForceResyncNoBlankValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 867,
+  "ErpConnectionId": 788,
   "InternalKeyIds": [
-    317,
-    26
+    921,
+    80
   ]
 }
 ```
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "et",
-  "TechExplanation": "libero",
-  "ErrorCode": "veniam",
+  "UserExplanation": "occaecati",
+  "TechExplanation": "quaerat",
+  "ErrorCode": "sed",
   "Changes": null,
   "Status": "Error",
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 367
+      "FieldLength": 371
     }
   }
 }

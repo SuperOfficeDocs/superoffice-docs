@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/AssignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 41,
-  "ModuleOwner": "esse",
+  "AssociateId": 504,
+  "ModuleOwner": "voluptas",
   "ModuleLicenseNames": [
-    "Greenholt-Turner",
-    "Johnson LLC"
+    "Nicolas, Boyer and Hermiston",
+    "Mohr-O'Connell"
   ]
 }
 ```
@@ -110,25 +110,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 508,
-    "Tooltip": "nam",
-    "CanAssign": false,
-    "Free": 437,
-    "InUse": 57,
-    "IsHidden": true,
+    "Total": 555,
+    "Tooltip": "praesentium",
+    "CanAssign": true,
+    "Free": 628,
+    "InUse": 332,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 104,
-    "Name": "Kirlin LLC",
-    "Description": "Right-sized coherent core",
-    "PrerequisiteModuleName": "Mayer Inc and Sons",
-    "SortOrder": 901,
-    "ExtraFlags": 591,
+    "ModuleLicenseId": 762,
+    "Name": "Gutkowski, Quigley and Hickle",
+    "Description": "Stand-alone explicit parallelism",
+    "PrerequisiteModuleName": "Kunze-Mills",
+    "SortOrder": 234,
+    "ExtraFlags": 220,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 87
+        "FieldLength": 926
       }
     }
   }

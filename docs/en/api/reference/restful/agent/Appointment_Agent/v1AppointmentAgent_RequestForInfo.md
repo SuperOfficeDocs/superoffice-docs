@@ -84,18 +84,18 @@ OK
 POST /api/v1/Agents/Appointment/RequestForInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateIdForNewContact": 458,
-  "Channel": "libero",
-  "Regarding": "est",
-  "ContactName": "Kub, Gusikowski and Erdman",
-  "PersonFirstname": "Thalia",
-  "PersonLastname": "Jenkins",
-  "EmailAddress": "adam@schaefergutkowski.us",
-  "PhoneNumber": "803710"
+  "AssociateIdForNewContact": 601,
+  "Channel": "voluptas",
+  "Regarding": "facilis",
+  "ContactName": "Stamm-Hammes",
+  "PersonFirstname": "Jules",
+  "PersonLastname": "Turner",
+  "EmailAddress": "nicola_wisoky@mccullough.biz",
+  "PhoneNumber": "1132923"
 }
 ```
 
@@ -108,36 +108,36 @@ Content-Type: application/json; charset=utf-8
 {
   "RequestedContacts": [
     {
-      "ContactId": 526,
-      "Name": "Corkery Inc and Sons",
-      "OrgNr": "934843",
+      "ContactId": 788,
+      "Name": "Conroy LLC",
+      "OrgNr": "257341",
       "Department": "",
       "URL": "http://www.example.com/",
-      "City": "voluptate",
-      "DirectPhone": "206.879.5695 x279",
-      "AssociateId": 465,
-      "CountryId": 331,
-      "EmailAddress": "ferne@walter.com",
-      "Kananame": "ut",
-      "EmailAddressName": "london@fahey.biz",
+      "City": "dolores",
+      "DirectPhone": "015.801.4869 x330",
+      "AssociateId": 228,
+      "CountryId": 92,
+      "EmailAddress": "cullen_miller@lakin.biz",
+      "Kananame": "explicabo",
+      "EmailAddressName": "reynold_bartell@thompson.ca",
       "URLName": "http://www.example.com/",
-      "AssociateFullName": "Miss Gisselle Durgan",
+      "AssociateFullName": "Graham Hahn",
       "BusinessName": "Information Technology",
       "CategoryName": "VIP Customer",
       "CountryName": "Sokovia",
       "Address": null,
-      "FormattedAddress": "occaecati",
-      "FullName": "Chandler Wiegand",
+      "FormattedAddress": "sunt",
+      "FullName": "Carmen Lowe",
       "IsOwnerContact": false,
-      "ActiveErpLinks": 132,
-      "Number1": "1775802",
-      "Number2": "416180",
+      "ActiveErpLinks": 642,
+      "Number1": "1193223",
+      "Number2": "1421929",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 850
+          "FieldType": "System.String",
+          "FieldLength": 602
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 100
+      "FieldLength": 994
     }
   }
 }

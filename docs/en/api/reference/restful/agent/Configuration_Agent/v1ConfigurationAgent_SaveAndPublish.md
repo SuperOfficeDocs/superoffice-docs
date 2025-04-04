@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Configuration/SaveAndPublish
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -100,28 +100,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 415,
-  "Name": "Hoppe-Donnelly",
-  "Description": "Intuitive static infrastructure",
-  "DeltaJson": "occaecati",
+  "ConfigurableScreenDeltaId": 71,
+  "Name": "Grant-Jacobs",
+  "Description": "Cloned next generation framework",
+  "DeltaJson": "omnis",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "veniam",
-  "UpdatedDate": "1998-01-01T14:28:21.5866608+01:00",
-  "CreatedDate": "2012-05-20T14:28:21.5866608+02:00",
+  "RecipeId": "nulla",
+  "UpdatedDate": "2009-05-30T13:13:59.7038141+02:00",
+  "CreatedDate": "2023-12-13T13:13:59.7038141+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    175,
-    798
+    731,
+    476
   ],
-  "AppliesToKey": "corrupti",
+  "AppliesToKey": "laudantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 720
+      "FieldType": "System.String",
+      "FieldLength": 72
     }
   }
 }

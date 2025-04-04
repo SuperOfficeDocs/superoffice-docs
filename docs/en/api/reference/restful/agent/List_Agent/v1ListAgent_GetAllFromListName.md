@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Kessler-Prosacco",
-  "IncludeDeleted": false
+  "UdListDefinitionName": "Jerde LLC",
+  "IncludeDeleted": true
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 954,
-    "Name": "Hodkiewicz-Ritchie",
-    "Tooltip": "aut",
-    "Deleted": true,
-    "UdListDefinitionId": 296,
-    "Rank": 40,
+    "Id": 32,
+    "Name": "Goldner Inc and Sons",
+    "Tooltip": "debitis",
+    "Deleted": false,
+    "UdListDefinitionId": 759,
+    "Rank": 30,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 302
+        "FieldType": "System.Int32",
+        "FieldLength": 916
       }
     }
   }

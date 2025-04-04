@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartupByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 215
+  "UserId": 718
 }
 ```
 
@@ -92,27 +92,27 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": true,
-  "TZOffset": 175,
-  "RecaptchaSiteKey": "nobis",
+  "TZOffset": 989,
+  "RecaptchaSiteKey": "numquam",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "accusantium",
+      "RawValue": "ipsam",
       "Specification": null,
-      "DisplayValue": "veritatis",
-      "DisplayTooltip": "nulla",
+      "DisplayValue": "dolorem",
+      "DisplayTooltip": "ab",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 409,
-      "PrefDescId": 238,
-      "TableName": "Mitchell-Kshlerin",
-      "UserPreferenceId": 130,
+      "TargetId": 117,
+      "PrefDescId": 548,
+      "TableName": "Becker Group",
+      "UserPreferenceId": 577,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 135
+          "FieldLength": 171
         }
       }
     }
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldLength": 804
     }
   }
 }

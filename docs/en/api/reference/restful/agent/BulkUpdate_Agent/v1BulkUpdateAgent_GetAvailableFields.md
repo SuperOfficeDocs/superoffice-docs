@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetAvailableFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -106,73 +106,73 @@ Content-Type: application/json; charset=utf-8
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
     "DefaultShowInSelector": false,
-    "IsActive": false,
-    "Key": "quo",
-    "ValueType": "corrupti",
-    "Mandatory": false,
-    "EncodedDisplayName": "Gutmann, Connelly and Legros",
-    "EncodedDisplayDescription": "Monitored didactic collaboration",
-    "IconHint": "hic",
+    "IsActive": true,
+    "Key": "aliquam",
+    "ValueType": "culpa",
+    "Mandatory": true,
+    "EncodedDisplayName": "Thompson-Howe",
+    "EncodedDisplayDescription": "Synergized modular installation",
+    "IconHint": "autem",
     "ControlInfos": [
       {
-        "Type": "quis",
-        "Label": "dolorem",
-        "Dimension": 775,
-        "ListProviderName": "Stehr Inc and Sons",
-        "ListProviderExtraInfo": "rem",
-        "ListProviderPrimaryKeyName": "Kutch-Hessel",
-        "ListLeadText": "excepturi",
+        "Type": "esse",
+        "Label": "natus",
+        "Dimension": 446,
+        "ListProviderName": "Christiansen Inc and Sons",
+        "ListProviderExtraInfo": "assumenda",
+        "ListProviderPrimaryKeyName": "Gerlach-Moen",
+        "ListLeadText": "facere",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 120
+            "FieldType": "System.String",
+            "FieldLength": 954
           }
         }
       }
     ],
-    "EncodedDataCaption": "voluptatibus",
-    "EncodedDataCaptionDescription": "Ameliorated holistic middleware",
-    "CurrentOperationType": "quasi",
+    "EncodedDataCaption": "suscipit",
+    "EncodedDataCaptionDescription": "Reactive bottom-line adapter",
+    "CurrentOperationType": "rerum",
     "Values": [
-      "sint",
-      "animi"
+      "sequi",
+      "maiores"
     ],
     "DisplayValues": [
-      "aut",
-      "molestiae"
+      "et",
+      "autem"
     ],
     "OperationInfos": [
       {
-        "Key": "adipisci",
-        "EncodedDisplayName": "Mueller-Lockman",
+        "Key": "et",
+        "EncodedDisplayName": "Ledner-Streich",
         "EncodedLeadTexts": [
-          "non",
-          "non"
+          "impedit",
+          "voluptas"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 445
+            "FieldLength": 335
           }
         }
       },
       {
-        "Key": "adipisci",
-        "EncodedDisplayName": "Mueller-Lockman",
+        "Key": "et",
+        "EncodedDisplayName": "Ledner-Streich",
         "EncodedLeadTexts": [
-          "non",
-          "non"
+          "impedit",
+          "voluptas"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 445
+            "FieldLength": 335
           }
         }
       }

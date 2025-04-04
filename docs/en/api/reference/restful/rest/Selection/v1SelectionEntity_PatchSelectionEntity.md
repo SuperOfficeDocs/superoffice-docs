@@ -148,18 +148,18 @@ SelectionEntity  updated.
 PATCH /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ut",
+    "path": "incidunt",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ut",
+    "path": "incidunt",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Triple-buffered eco-centric project",
-  "Postit": "debitis",
+  "Description": "Progressive value-added time-frame",
+  "Postit": "delectus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 475,
-  "IncludePerson": 588,
+  "GroupIdx": 672,
+  "IncludePerson": 647,
   "MemberCount": 99.99,
-  "Name": "Kilback, Walter and Buckridge",
-  "PostitTextId": 170,
-  "CreatedDate": "2013-02-25T14:28:27.2583066+01:00",
-  "SelectionId": 168,
-  "SoundEx": "vel",
-  "Source": 717,
-  "TextId": 161,
-  "UpdatedDate": "2022-07-18T14:28:27.2583066+02:00",
-  "UpdatedCount": 399,
-  "Visibility": 259,
+  "Name": "Ebert-Brekke",
+  "PostitTextId": 935,
+  "CreatedDate": "2023-09-05T13:14:09.1810193+02:00",
+  "SelectionId": 589,
+  "SoundEx": "velit",
+  "Source": 228,
+  "TextId": 481,
+  "UpdatedDate": "2021-04-18T13:14:09.1810193+02:00",
+  "UpdatedCount": 340,
+  "Visibility": 927,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 541,
-  "TargetTableName": "Medhurst, Cormier and Nitzsche",
-  "Completed": true,
-  "LeftSelectionId": 324,
-  "RightSelectionId": 201,
+  "CompanyUnique": true,
+  "TargetTableNumber": 151,
+  "TargetTableName": "Heller Group",
+  "Completed": false,
+  "LeftSelectionId": 992,
+  "RightSelectionId": 139,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Eichmann, Langworth and Cassin",
-  "ShadowProviderName": "Collins LLC",
-  "ChartKey": "sed",
-  "LastLoaded": "2010-02-28T14:28:27.2583066+01:00",
-  "LastLoadedBy": 906,
+  "MainProviderName": "Carter, Goyette and Gerlach",
+  "ShadowProviderName": "Greenholt Group",
+  "ChartKey": "aut",
+  "LastLoaded": "2002-10-19T13:14:09.1810193+02:00",
+  "LastLoadedBy": 28,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-09-17T14:28:27.2583066+02:00",
-  "LastMembershipChangeBy": 787,
+  "LastMembershipChange": "2017-06-07T13:14:09.1810193+02:00",
+  "LastMembershipChangeBy": 317,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "totam",
-  "MemberTabHeading": "nesciunt",
-  "MailingsProviderName": "Simonis-Denesik",
-  "DashboardTileDefinitionId": 846,
+  "MainHeading": "labore",
+  "MemberTabHeading": "aspernatur",
+  "MailingsProviderName": "Stamm Group",
+  "DashboardTileDefinitionId": 539,
   "VisibleFor": [
     {
-      "VisibleId": 585,
+      "VisibleId": 871,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 579
         }
       }
     },
     {
-      "VisibleId": 585,
+      "VisibleId": 871,
       "Visibility": "All",
-      "DisplayValue": "necessitatibus",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 579
         }
       }
     }
@@ -245,12 +245,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 380
+      "FieldLength": 348
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

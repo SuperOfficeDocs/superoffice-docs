@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ShipmentMessageBlockId": 683,
-    "AssociateId": 198,
-    "Block": "commodi",
-    "Registered": "2019-08-01T14:28:27.2583066+02:00",
-    "RegisteredAssociateId": 428,
-    "Updated": "2005-07-11T14:28:27.2583066+02:00",
-    "UpdatedAssociateId": 568,
-    "UpdatedCount": 174,
+    "ShipmentMessageBlockId": 124,
+    "AssociateId": 85,
+    "Block": "itaque",
+    "Registered": "2015-09-25T13:14:09.1966452+02:00",
+    "RegisteredAssociateId": 123,
+    "Updated": "2006-01-13T13:14:09.1966452+01:00",
+    "UpdatedAssociateId": 11,
+    "UpdatedCount": 805,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 56
+        "FieldLength": 580
       }
     }
   }

@@ -65,8 +65,8 @@ Application tokens must be specified if calling an Online installation. Applicat
    <EMail:Response xsi:type="EMail:EMailAppointment">
     <EMail:Appointment xsi:type="EMail:Appointment">
      <EMail:AppointmentId xsi:type="xsd:int">0</EMail:AppointmentId>
-     <EMail:StartDate xsi:type="xsd:dateTime">2025-04-01T12:26:43Z</EMail:StartDate>
-     <EMail:EndDate xsi:type="xsd:dateTime">2025-04-01T12:26:43Z</EMail:EndDate>
+     <EMail:StartDate xsi:type="xsd:dateTime">2025-04-03T11:12:12Z</EMail:StartDate>
+     <EMail:EndDate xsi:type="xsd:dateTime">2025-04-03T11:12:12Z</EMail:EndDate>
      <EMail:Type xsi:type="EMail:AppointmentType">Unknown</EMail:Type>
      <EMail:Task xsi:type="xsd:string"></EMail:Task>
      <EMail:AssociateFullName xsi:type="xsd:string"></EMail:AssociateFullName>
@@ -90,14 +90,14 @@ Application tokens must be specified if calling an Online installation. Applicat
      <EMail:IsBookingMain xsi:type="xsd:boolean">false</EMail:IsBookingMain>
      <EMail:IsRecurrence xsi:type="xsd:boolean">false</EMail:IsRecurrence>
      <EMail:IsBooking xsi:type="xsd:boolean">false</EMail:IsBooking>
-     <EMail:ActiveDate xsi:type="xsd:dateTime">2025-04-01T12:26:43Z</EMail:ActiveDate>
+     <EMail:ActiveDate xsi:type="xsd:dateTime">2025-04-03T11:12:12Z</EMail:ActiveDate>
      <EMail:AssignmentStatus xsi:type="EMail:AssignmentStatus">Unknown</EMail:AssignmentStatus>
      <EMail:InvitationStatus xsi:type="EMail:InvitationStatus">Unknown</EMail:InvitationStatus>
      <EMail:BookingType xsi:type="EMail:BookingType">Unknown</EMail:BookingType>
      <EMail:Completed xsi:type="EMail:ActivityStatus">Unknown</EMail:Completed>
      <EMail:RecurringPattern xsi:type="EMail:RecurrencePattern">Unknown</EMail:RecurringPattern>
-     <EMail:RecurringStartDate xsi:type="xsd:dateTime">2025-04-01T12:26:43Z</EMail:RecurringStartDate>
-     <EMail:RecurringEndDate xsi:type="xsd:dateTime">2025-04-01T12:26:43Z</EMail:RecurringEndDate>
+     <EMail:RecurringStartDate xsi:type="xsd:dateTime">2025-04-03T11:12:12Z</EMail:RecurringStartDate>
+     <EMail:RecurringEndDate xsi:type="xsd:dateTime">2025-04-03T11:12:12Z</EMail:RecurringEndDate>
      <EMail:MotherId xsi:type="xsd:int">0</EMail:MotherId>
      <EMail:AssignedBy xsi:type="xsd:int">0</EMail:AssignedBy>
      <EMail:AssignedByFullName xsi:type="xsd:string"></EMail:AssignedByFullName>
@@ -107,7 +107,7 @@ Application tokens must be specified if calling an Online installation. Applicat
      <EMail:SaleId xsi:type="xsd:int">0</EMail:SaleId>
      <EMail:SaleName xsi:type="xsd:string"></EMail:SaleName>
      <EMail:AssociateName xsi:type="xsd:string"></EMail:AssociateName>
-     <EMail:CreatedDate xsi:type="xsd:dateTime">2025-04-01T12:26:43Z</EMail:CreatedDate>
+     <EMail:CreatedDate xsi:type="xsd:dateTime">2025-04-03T11:12:12Z</EMail:CreatedDate>
      <EMail:CreatedBy xsi:type="xsd:string"></EMail:CreatedBy>
      <EMail:CreatedByFullName xsi:type="xsd:string"></EMail:CreatedByFullName>
      <EMail:CreatedByAssociateId xsi:type="xsd:int">0</EMail:CreatedByAssociateId>
@@ -125,8 +125,8 @@ Application tokens must be specified if calling an Online installation. Applicat
     </EMail:Participants>
     <EMail:Comment xsi:type="xsd:string"></EMail:Comment>
     <EMail:Sequence xsi:type="xsd:int">0</EMail:Sequence>
-    <EMail:DtStart xsi:type="xsd:dateTime">2025-04-01T12:26:43Z</EMail:DtStart>
-    <EMail:DtEnd xsi:type="xsd:dateTime">2025-04-01T12:26:43Z</EMail:DtEnd>
+    <EMail:DtStart xsi:type="xsd:dateTime">2025-04-03T11:12:12Z</EMail:DtStart>
+    <EMail:DtEnd xsi:type="xsd:dateTime">2025-04-03T11:12:12Z</EMail:DtEnd>
     <EMail:Superseded xsi:type="xsd:boolean">false</EMail:Superseded>
    </EMail:Response>
   </EMail:GetEmailAppointmentResponse>

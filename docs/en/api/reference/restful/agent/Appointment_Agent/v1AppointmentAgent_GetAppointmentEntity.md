@@ -26,7 +26,7 @@ Gets a AppointmentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=479
+POST /api/v1/Agents/Appointment/GetAppointmentEntity?appointmentEntityId=51
 POST /api/v1/Agents/Appointment/GetAppointmentEntity?$select=name,department,category/id
 ```
 
@@ -126,7 +126,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -140,121 +140,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2023-03-24T14:28:21.3210472+01:00",
-  "AppointmentId": 272,
-  "Description": "Synergistic systemic focus group",
-  "Title": "et",
-  "Agenda": "unde",
-  "InternalNotes": "dolorum",
-  "StartDate": "2010-11-30T14:28:21.3210472+01:00",
-  "EndDate": "2020-06-20T14:28:21.3210472+02:00",
+  "CreatedDate": "2012-06-29T13:13:59.2500998+02:00",
+  "AppointmentId": 358,
+  "Description": "Re-contextualized explicit forecast",
+  "Title": "a",
+  "Agenda": "sunt",
+  "InternalNotes": "nesciunt",
+  "StartDate": "2014-02-18T13:13:59.2500998+01:00",
+  "EndDate": "2001-05-28T13:13:59.2500998+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 887,
+  "MotherId": 174,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-04-02T14:28:21.3210472+02:00",
+  "UpdatedDate": "2006-08-06T13:13:59.2500998+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 539,
+  "ActiveLinks": 760,
   "Links": [
     {
-      "EntityName": "Donnelly, Kassulke and Haley",
-      "Id": 871,
-      "Description": "Assimilated grid-enabled hierarchy",
-      "ExtraInfo": "aut",
-      "LinkId": 346,
+      "EntityName": "Simonis, Boyer and Bednar",
+      "Id": 750,
+      "Description": "Robust heuristic challenge",
+      "ExtraInfo": "rerum",
+      "LinkId": 922,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 276
+          "FieldLength": 331
         }
       }
     }
   ],
-  "AlarmLeadTime": "suscipit",
-  "HasAlarm": false,
-  "ColorIndex": 915,
+  "AlarmLeadTime": "enim",
+  "HasAlarm": true,
+  "ColorIndex": 589,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "eveniet",
-  "LeadTime": "hic",
-  "Location": "sunt",
-  "RejectCounter": 334,
+  "LagTime": "neque",
+  "LeadTime": "quaerat",
+  "Location": "illo",
+  "RejectCounter": 639,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 277,
-      "PersonId": 954,
-      "ContactId": 846,
-      "EmailId": 362,
+      "AssociateId": 498,
+      "PersonId": 730,
+      "ContactId": 554,
+      "EmailId": 887,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "darryl_dickinson@hickledaniel.co.uk",
-      "Description": "Managed logistical initiative"
+      "EmailAddress": "eleanore.batz@pfannerstillprosacco.uk",
+      "Description": "Expanded radical concept"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2002-07-28T14:28:21.3210472+02:00",
+  "ActiveDate": "2022-03-06T13:13:59.2500998+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 776,
+  "PreferredTZLocation": 511,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 975,
+  "SuggestedAppointmentId": 741,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ut",
+  "CentralserviceVideomeetId": "necessitatibus",
   "UserDefinedFields": {
-    "SuperOffice:1": "Malvina Becker",
-    "SuperOffice:2": "Margaret Okuneva"
+    "SuperOffice:1": "165104088",
+    "SuperOffice:2": "10607701"
   },
   "ExtraFields": {
-    "ExtraFields1": "corrupti",
-    "ExtraFields2": "pariatur"
+    "ExtraFields1": "et",
+    "ExtraFields2": "dolore"
   },
   "CustomFields": {
-    "CustomFields1": "sint",
-    "CustomFields2": "molestias"
+    "CustomFields1": "laudantium",
+    "CustomFields2": "a"
   },
-  "PublishEventDate": "2002-03-25T14:28:21.3210472+01:00",
-  "PublishTo": "2022-08-03T14:28:21.3210472+02:00",
-  "PublishFrom": "2010-06-20T14:28:21.3210472+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2005-11-29T13:13:59.2500998+01:00",
+  "PublishTo": "2003-04-20T13:13:59.2500998+02:00",
+  "PublishFrom": "1999-03-11T13:13:59.2500998+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 584,
+      "VisibleId": 201,
       "Visibility": "All",
-      "DisplayValue": "dignissimos",
+      "DisplayValue": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 301
+          "FieldLength": 528
         }
       }
     },
     {
-      "VisibleId": 584,
+      "VisibleId": 201,
       "Visibility": "All",
-      "DisplayValue": "dignissimos",
+      "DisplayValue": "explicabo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 301
+          "FieldLength": 528
         }
       }
     }
@@ -264,7 +264,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldLength": 169
     }
   }
 }

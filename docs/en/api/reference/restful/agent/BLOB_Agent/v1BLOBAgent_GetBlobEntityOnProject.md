@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 498
+  "ProjectId": 436
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 874,
-  "BlobSize": 677,
-  "Description": "Profit-focused national product",
-  "ExtraInfo": "quo",
+  "BlobId": 630,
+  "BlobSize": 939,
+  "Description": "Assimilated neutral analyzer",
+  "ExtraInfo": "vel",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "unde",
-  "OriginalSize": 427,
-  "CreatedDate": "2011-10-17T14:28:21.4929147+02:00",
-  "UpdatedDate": "2006-12-16T14:28:21.4929147+01:00",
+  "IsZipped": false,
+  "MimeType": "consequatur",
+  "OriginalSize": 168,
+  "CreatedDate": "1998-10-26T13:13:59.5314453+01:00",
+  "UpdatedDate": "2019-01-21T13:13:59.5314453+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "sunt",
+  "ConceptualType": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 865
+      "FieldLength": 156
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Deckow, Kertzmann and Rath",
-    "ToolTip": "Esse repellat quis modi consectetur ducimus.",
+    "Id": 836,
+    "Name": "O'Hara, Jacobson and Gorczany",
+    "ToolTip": "Eum quo iure voluptatem vel vel labore est.",
     "Deleted": false,
-    "Rank": 330,
-    "Type": "sint",
-    "ColorBlock": 571,
-    "IconHint": "magnam",
+    "Rank": 431,
+    "Type": "ut",
+    "ColorBlock": 115,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2009-12-02T14:28:27.6332907+01:00",
+    "LastChanged": "2007-01-25T13:14:09.9160322+01:00",
     "ChildItems": [
       {
-        "Id": 560,
-        "Name": "Quitzon, Cronin and Powlowski",
-        "ToolTip": "Perferendis tempora.",
+        "Id": 712,
+        "Name": "Veum, Bashirian and Walker",
+        "ToolTip": "Ut omnis repellat fugit vitae dolorum sit omnis.",
         "Deleted": false,
-        "Rank": 259,
-        "Type": "aut",
-        "ColorBlock": 539,
-        "IconHint": "optio",
-        "Selected": false,
-        "LastChanged": "2024-01-19T14:28:27.6332907+01:00",
+        "Rank": 954,
+        "Type": "et",
+        "ColorBlock": 171,
+        "IconHint": "atque",
+        "Selected": true,
+        "LastChanged": "2010-12-20T13:14:09.9160322+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "tenetur",
-        "Hidden": false,
-        "FullName": "Virgil Hansen III",
+        "ExtraInfo": "quidem",
+        "StyleHint": "nesciunt",
+        "Hidden": true,
+        "FullName": "Elenora Kemmer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 966
+            "FieldLength": 256
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "numquam",
+    "ExtraInfo": "aperiam",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Jefferey Samantha Ankunding DDS",
+    "FullName": "Dr. Cortney Jones III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 869
+        "FieldType": "System.Int32",
+        "FieldLength": 33
       }
     }
   }

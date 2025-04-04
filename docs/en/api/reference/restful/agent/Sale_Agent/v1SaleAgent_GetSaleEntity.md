@@ -26,7 +26,7 @@ Gets a SaleEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=141
+POST /api/v1/Agents/Sale/GetSaleEntity?saleEntityId=406
 POST /api/v1/Agents/Sale/GetSaleEntity?$select=name,department,category/id
 ```
 
@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Sale/GetSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "deleniti",
+  "SaleText": "sint",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -135,113 +135,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2020-07-29T14:28:22.3522543+02:00",
-  "Amount": 2334.83,
-  "SaleId": 154,
-  "Earning": 22072.762,
-  "EarningPercent": 4992.4619999999995,
-  "Heading": "rem",
-  "Number": "195743",
-  "Probability": 492,
-  "CreatedDate": "2025-03-22T14:28:22.3522543+01:00",
-  "UpdatedDate": "1998-10-28T14:28:22.3522543+01:00",
+  "Saledate": "2021-03-01T13:14:01.111992+01:00",
+  "Amount": 17951.552,
+  "SaleId": 756,
+  "Earning": 12680.163999999999,
+  "EarningPercent": 29631.969999999998,
+  "Heading": "repudiandae",
+  "Number": "1530469",
+  "Probability": 415,
+  "CreatedDate": "2004-08-04T13:14:01.111992+02:00",
+  "UpdatedDate": "2000-09-07T13:14:01.111992+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 766,
+  "ActiveLinks": 430,
   "Links": [
     {
-      "EntityName": "Gislason Inc and Sons",
-      "Id": 378,
-      "Description": "Ergonomic explicit moderator",
-      "ExtraInfo": "architecto",
-      "LinkId": 455,
+      "EntityName": "Tremblay, Welch and Zieme",
+      "Id": 88,
+      "Description": "Customizable clear-thinking secured line",
+      "ExtraInfo": "aut",
+      "LinkId": 510,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 540
+          "FieldLength": 295
         }
       }
     }
   ],
-  "NextDueDate": "2018-02-07T14:28:22.3522543+01:00",
-  "Postit": "labore",
+  "NextDueDate": "2018-05-03T13:14:01.111992+02:00",
+  "Postit": "ratione",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2019-05-15T14:28:22.3522543+02:00",
+  "ReopenDate": "2005-04-10T13:14:01.111992+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Runolfsdottir Inc and Sons",
-      "Comment": "quo",
-      "StakeholderRoleId": 449,
-      "CountryId": 474,
-      "PersonId": 254,
-      "EmailDescription": "lilian@konopelskigerlach.co.uk",
-      "EmailId": 478,
-      "EmailAddress": "lonie@white.info",
-      "PhoneId": 88,
-      "ContactName": "Monahan Group",
-      "ContactId": 941,
-      "SaleId": 712,
-      "Mrmrs": "rerum",
-      "Firstname": "Alexzander",
-      "MiddleName": "Lakin, Raynor and Schamberger",
-      "Lastname": "McCullough",
-      "SaleStakeholderId": 613,
-      "Rank": 270,
-      "Phone": "(070)739-3682 x010",
+      "StakeholderRoleName": "Bernier, Tillman and Bednar",
+      "Comment": "eligendi",
+      "StakeholderRoleId": 922,
+      "CountryId": 249,
+      "PersonId": 846,
+      "EmailDescription": "marlin@trantowwitting.us",
+      "EmailId": 690,
+      "EmailAddress": "julia_okuneva@schmidt.info",
+      "PhoneId": 243,
+      "ContactName": "Kihn, Kertzmann and Considine",
+      "ContactId": 37,
+      "SaleId": 947,
+      "Mrmrs": "labore",
+      "Firstname": "Lenore",
+      "MiddleName": "Leffler, Trantow and Roob",
+      "Lastname": "Rutherford",
+      "SaleStakeholderId": 440,
+      "Rank": 960,
+      "Phone": "106.432.6924",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 864
+          "FieldLength": 528
         }
       }
     }
   ],
-  "ActiveErpLinks": 801,
+  "ActiveErpLinks": 598,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Nicola Zboncak"
+    "SuperOffice:1": "Lulu Pfannerstill",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "sit"
+    "ExtraFields1": "commodi",
+    "ExtraFields2": "provident"
   },
   "CustomFields": {
-    "CustomFields1": "expedita",
-    "CustomFields2": "mollitia"
+    "CustomFields1": "quae",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2018-12-08T14:28:22.3522543+01:00",
-  "PublishTo": "2016-02-21T14:28:22.3522543+01:00",
-  "PublishFrom": "2015-03-14T14:28:22.3522543+01:00",
+  "PublishEventDate": "2019-07-14T13:14:01.111992+02:00",
+  "PublishTo": "2017-09-07T13:14:01.111992+02:00",
+  "PublishFrom": "2019-07-25T13:14:01.111992+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 454,
+      "VisibleId": 746,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldType": "System.String",
+          "FieldLength": 358
         }
       }
     },
     {
-      "VisibleId": 454,
+      "VisibleId": 746,
       "Visibility": "All",
-      "DisplayValue": "recusandae",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 290
+          "FieldType": "System.String",
+          "FieldLength": 358
         }
       }
     }
@@ -250,8 +250,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 713
+      "FieldType": "System.String",
+      "FieldLength": 88
     }
   }
 }

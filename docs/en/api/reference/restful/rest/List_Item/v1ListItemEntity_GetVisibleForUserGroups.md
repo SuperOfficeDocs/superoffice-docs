@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 439,
-    "Name": "Wolf LLC",
-    "ToolTip": "Nihil laboriosam ratione quasi itaque.",
+    "Id": 12,
+    "Name": "Turner Inc and Sons",
+    "ToolTip": "Enim quibusdam maxime omnis quisquam consequuntur rerum molestias.",
     "Deleted": false,
-    "Rank": 73,
-    "Type": "vel",
-    "ColorBlock": 131,
-    "IconHint": "quod",
+    "Rank": 755,
+    "Type": "quis",
+    "ColorBlock": 259,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2012-11-11T14:28:27.4614236+01:00",
+    "LastChanged": "2007-11-27T13:14:09.5873854+01:00",
     "ChildItems": [
       {
-        "Id": 42,
-        "Name": "Jerde Group",
-        "ToolTip": "Vel nisi sit neque.",
+        "Id": 699,
+        "Name": "Howell Inc and Sons",
+        "ToolTip": "Occaecati nisi.",
         "Deleted": false,
-        "Rank": 649,
-        "Type": "praesentium",
-        "ColorBlock": 755,
-        "IconHint": "iste",
+        "Rank": 919,
+        "Type": "adipisci",
+        "ColorBlock": 792,
+        "IconHint": "voluptates",
         "Selected": false,
-        "LastChanged": "2008-09-13T14:28:27.4614236+02:00",
+        "LastChanged": "2002-01-21T13:14:09.5873854+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestias",
-        "StyleHint": "hic",
-        "Hidden": true,
-        "FullName": "Fabiola Reilly",
+        "ExtraInfo": "natus",
+        "StyleHint": "facilis",
+        "Hidden": false,
+        "FullName": "Abdul Cummings",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 354
+            "FieldLength": 115
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "esse",
-    "Hidden": true,
-    "FullName": "Lester Johnston",
+    "ExtraInfo": "et",
+    "StyleHint": "molestiae",
+    "Hidden": false,
+    "FullName": "Ms. Perry Mitchell MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldLength": 62
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a PaymentType object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetPaymentType?paymentTypeId=97
+POST /api/v1/Agents/List/GetPaymentType?paymentTypeId=134
 POST /api/v1/Agents/List/GetPaymentType?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetPaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 930,
-  "Value": "illum",
-  "Tooltip": "non",
+  "Id": 347,
+  "Value": "ea",
+  "Tooltip": "distinctio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 239
+      "FieldLength": 800
     }
   }
 }

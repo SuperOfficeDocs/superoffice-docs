@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 494,
-  "HeadingId": 573
+  "UdListDefinitionId": 77,
+  "HeadingId": 94
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 799,
-    "Name": "Gutkowski-Cruickshank",
-    "ToolTip": "Reprehenderit saepe qui.",
+    "Id": 580,
+    "Name": "Funk-Boehm",
+    "ToolTip": "Consequatur ea ipsam enim consequatur.",
     "Deleted": false,
-    "Rank": 512,
-    "Type": "harum",
-    "ColorBlock": 677,
-    "IconHint": "in",
+    "Rank": 678,
+    "Type": "dolore",
+    "ColorBlock": 508,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2023-01-26T14:28:22.0553915+01:00",
+    "LastChanged": "2025-01-08T13:14:00.6106246+01:00",
     "ChildItems": [
       {
-        "Id": 51,
-        "Name": "Conn Group",
-        "ToolTip": "Expedita dolorum.",
+        "Id": 25,
+        "Name": "Torphy Group",
+        "ToolTip": "Ex quam ipsum beatae quo autem ea.",
         "Deleted": false,
-        "Rank": 318,
-        "Type": "aut",
-        "ColorBlock": 300,
-        "IconHint": "itaque",
-        "Selected": false,
-        "LastChanged": "2021-02-09T14:28:22.0553915+01:00",
+        "Rank": 301,
+        "Type": "accusamus",
+        "ColorBlock": 72,
+        "IconHint": "porro",
+        "Selected": true,
+        "LastChanged": "2002-04-07T13:14:00.6106246+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempore",
-        "StyleHint": "quia",
+        "ExtraInfo": "doloremque",
+        "StyleHint": "optio",
         "Hidden": true,
-        "FullName": "Dr. Noble Chadrick Ruecker",
+        "FullName": "Maia Jessyca Stoltenberg PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 223
+            "FieldLength": 634
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "culpa",
-    "Hidden": true,
-    "FullName": "Loyce Langworth",
+    "ExtraInfo": "molestias",
+    "StyleHint": "soluta",
+    "Hidden": false,
+    "FullName": "Gennaro Fritsch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 931
+        "FieldLength": 868
       }
     }
   }

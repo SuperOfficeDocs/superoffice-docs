@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Sale/SaveSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Quitzon LLC",
-  "Comment": "animi",
-  "StakeholderRoleId": 846,
-  "CountryId": 513,
-  "PersonId": 46,
-  "EmailDescription": "orion@kozey.uk",
-  "EmailId": 880,
-  "EmailAddress": "gavin.mohr@mitchellabernathy.co.uk",
-  "PhoneId": 540,
-  "ContactName": "Greenfelder, Batz and Doyle",
-  "ContactId": 589,
-  "SaleId": 622,
-  "Mrmrs": "aperiam",
-  "Firstname": "Vesta",
-  "MiddleName": "Goyette-Tillman",
-  "Lastname": "Collins",
-  "SaleStakeholderId": 341,
-  "Rank": 893,
-  "Phone": "082.522.9205"
+  "StakeholderRoleName": "Ebert LLC",
+  "Comment": "ad",
+  "StakeholderRoleId": 628,
+  "CountryId": 138,
+  "PersonId": 220,
+  "EmailDescription": "melvina@grimes.uk",
+  "EmailId": 520,
+  "EmailAddress": "rashawn.howe@feest.info",
+  "PhoneId": 711,
+  "ContactName": "Bosco-Murphy",
+  "ContactId": 51,
+  "SaleId": 624,
+  "Mrmrs": "ex",
+  "Firstname": "Mae",
+  "MiddleName": "Littel-Daniel",
+  "Lastname": "Romaguera",
+  "SaleStakeholderId": 417,
+  "Rank": 510,
+  "Phone": "1-713-584-4436"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Bosco, Medhurst and Reynolds",
-  "Comment": "modi",
-  "StakeholderRoleId": 387,
-  "CountryId": 349,
-  "PersonId": 999,
-  "EmailDescription": "melvin_rohan@millsbruen.uk",
-  "EmailId": 150,
-  "EmailAddress": "demetris@markscormier.biz",
-  "PhoneId": 539,
-  "ContactName": "Jacobs Inc and Sons",
-  "ContactId": 270,
-  "SaleId": 985,
-  "Mrmrs": "accusamus",
-  "Firstname": "Patsy",
-  "MiddleName": "Jacobs-Johns",
-  "Lastname": "Prosacco",
-  "SaleStakeholderId": 220,
-  "Rank": 497,
-  "Phone": "276.636.9239",
+  "StakeholderRoleName": "Konopelski-Kemmer",
+  "Comment": "et",
+  "StakeholderRoleId": 122,
+  "CountryId": 351,
+  "PersonId": 722,
+  "EmailDescription": "colton@durgan.info",
+  "EmailId": 155,
+  "EmailAddress": "blair@beerboyer.biz",
+  "PhoneId": 355,
+  "ContactName": "Durgan-Price",
+  "ContactId": 732,
+  "SaleId": 684,
+  "Mrmrs": "aut",
+  "Firstname": "Hettie",
+  "MiddleName": "Toy-Welch",
+  "Lastname": "Weimann",
+  "SaleStakeholderId": 481,
+  "Rank": 951,
+  "Phone": "583-024-6380",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldType": "System.String",
+      "FieldLength": 841
     }
   }
 }

@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 502,
-  "Name": "Schmeler Inc and Sons",
-  "Tooltip": "esse",
-  "Deleted": true,
-  "Rank": 756,
-  "UdListDefinitionId": 763
+  "HeadingId": 469,
+  "Name": "Schamberger-Koss",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "Rank": 283,
+  "UdListDefinitionId": 795
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 8,
-  "Name": "Gutmann-Hilll",
-  "Tooltip": "ut",
+  "HeadingId": 309,
+  "Name": "Strosin, Corkery and Bergnaum",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 874,
-  "UdListDefinitionId": 415,
+  "Rank": 582,
+  "UdListDefinitionId": 844,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 18
+      "FieldType": "System.Int32",
+      "FieldLength": 920
     }
   }
 }

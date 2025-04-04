@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2014-09-03T14:28:21.3835445+02:00"
+  "StartDate": "2006-09-04T13:13:59.3594813+02:00"
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 351,
-  "StartDate": "2020-11-21T14:28:21.3835445+01:00",
-  "EndDate": "2024-03-19T14:28:21.3835445+01:00",
-  "RecurrenceCounter": 198,
+  "RecurrenceId": 429,
+  "StartDate": "2013-04-22T13:13:59.3594813+02:00",
+  "EndDate": "2018-11-08T13:13:59.3594813+01:00",
+  "RecurrenceCounter": 934,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2009-11-14T14:28:21.3835445+01:00",
-      "IsConflict": false,
-      "Description": "Proactive well-modulated data-warehouse",
-      "DescriptionStyleHint": "Fundamental bandwidth-monitored monitoring",
-      "Tooltip": "nostrum"
+      "Date": "2008-04-05T13:13:59.3594813+02:00",
+      "IsConflict": true,
+      "Description": "Intuitive neutral definition",
+      "DescriptionStyleHint": "Reverse-engineered homogeneous instruction set",
+      "Tooltip": "deleniti"
     },
     {
-      "Date": "2009-11-14T14:28:21.3835445+01:00",
-      "IsConflict": false,
-      "Description": "Proactive well-modulated data-warehouse",
-      "DescriptionStyleHint": "Fundamental bandwidth-monitored monitoring",
-      "Tooltip": "nostrum"
+      "Date": "2008-04-05T13:13:59.3594813+02:00",
+      "IsConflict": true,
+      "Description": "Intuitive neutral definition",
+      "DescriptionStyleHint": "Reverse-engineered homogeneous instruction set",
+      "Tooltip": "deleniti"
     }
   ],
   "IsRecurrence": false

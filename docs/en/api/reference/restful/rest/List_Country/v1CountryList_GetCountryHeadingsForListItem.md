@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Weimann LLC",
-    "ToolTip": "Corrupti quo sed soluta excepturi aut.",
+    "Id": 779,
+    "Name": "Bernier, Cruickshank and Zboncak",
+    "ToolTip": "Magnam velit natus quis animi ad.",
     "Deleted": false,
-    "Rank": 228,
-    "Type": "modi",
-    "ColorBlock": 265,
-    "IconHint": "amet",
-    "Selected": true,
-    "LastChanged": "2004-05-10T14:28:27.5239205+02:00",
+    "Rank": 493,
+    "Type": "quam",
+    "ColorBlock": 20,
+    "IconHint": "ea",
+    "Selected": false,
+    "LastChanged": "2018-02-02T13:14:09.6972691+01:00",
     "ChildItems": [
       {
-        "Id": 304,
-        "Name": "Hammes-Kirlin",
-        "ToolTip": "Voluptatem et veniam quasi dolore officiis qui ducimus.",
-        "Deleted": false,
-        "Rank": 957,
-        "Type": "natus",
-        "ColorBlock": 264,
-        "IconHint": "est",
+        "Id": 998,
+        "Name": "O'Keefe, White and Hansen",
+        "ToolTip": "Vitae sint vel praesentium amet.",
+        "Deleted": true,
+        "Rank": 432,
+        "Type": "magnam",
+        "ColorBlock": 483,
+        "IconHint": "quibusdam",
         "Selected": false,
-        "LastChanged": "2010-09-12T14:28:27.5239205+02:00",
+        "LastChanged": "1998-12-18T13:14:09.6972691+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "provident",
+        "ExtraInfo": "neque",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Sterling Schumm",
+        "FullName": "Destiny Hamill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 713
+            "FieldType": "System.Int32",
+            "FieldLength": 15
           }
         }
       }
     ],
-    "ExtraInfo": "quaerat",
-    "StyleHint": "non",
-    "Hidden": false,
-    "FullName": "Frederic Elyssa Runolfsdottir DDS",
+    "ExtraInfo": "et",
+    "StyleHint": "nisi",
+    "Hidden": true,
+    "FullName": "Mr. Brooks Little PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 958
+        "FieldLength": 69
       }
     }
   }

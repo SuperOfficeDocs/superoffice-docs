@@ -90,14 +90,14 @@ OK
 POST /api/v1/Agents/Contact/GetMyActiveContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ActivityStartTime": "2000-11-03T14:28:21.6179108+01:00",
+  "ActivityStartTime": "2024-04-06T13:13:59.750692+02:00",
   "ContactCategories": [
-    75,
-    73
+    485,
+    889
   ],
   "ActionType": "ActivityCompleted"
 }
@@ -111,26 +111,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 411,
+    "ContactId": 600,
     "Department": "",
-    "OrgNr": "1181892",
-    "Name": "Marvin-Christiansen",
+    "OrgNr": "330083",
+    "Name": "Dietrich Group",
     "URL": "http://www.example.com/",
-    "AssociateFullName": "Carson Schowalter",
+    "AssociateFullName": "Marion Trudie Hoeger Jr.",
     "Action": "ActivityCompleted",
-    "ActionTime": "2014-08-27T14:28:21.6179108+02:00",
+    "ActionTime": "2024-07-07T13:13:59.750692+02:00",
     "Category": "VIP Customer",
-    "ActivityPersonName": "Wunsch-Gleichner",
-    "ActionId": 50,
-    "PersonId": 760,
-    "ActivityPersonId": 488,
-    "AssociateId": 593,
+    "ActivityPersonName": "Barton Inc and Sons",
+    "ActionId": 130,
+    "PersonId": 173,
+    "ActivityPersonId": 966,
+    "AssociateId": 725,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 929
+        "FieldLength": 1002
       }
     }
   }

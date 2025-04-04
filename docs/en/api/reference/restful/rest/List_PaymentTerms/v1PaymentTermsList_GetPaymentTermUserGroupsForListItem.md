@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Reichert-Predovic",
-    "ToolTip": "Iusto sed voluptatum minima.",
+    "Id": 272,
+    "Name": "Von, Boyle and Waters",
+    "ToolTip": "Assumenda quia a et assumenda non ex praesentium.",
     "Deleted": false,
-    "Rank": 351,
-    "Type": "nihil",
-    "ColorBlock": 901,
-    "IconHint": "quaerat",
+    "Rank": 672,
+    "Type": "repudiandae",
+    "ColorBlock": 343,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2011-03-23T14:28:27.5864176+01:00",
+    "LastChanged": "2003-09-06T13:14:09.8222767+02:00",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "Thompson-Dietrich",
-        "ToolTip": "Est similique voluptas nihil labore.",
-        "Deleted": true,
-        "Rank": 32,
-        "Type": "nobis",
-        "ColorBlock": 379,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2017-05-27T14:28:27.5864176+02:00",
+        "Id": 132,
+        "Name": "Renner-Spencer",
+        "ToolTip": "Est aut ea ea aut rem minus.",
+        "Deleted": false,
+        "Rank": 630,
+        "Type": "voluptates",
+        "ColorBlock": 114,
+        "IconHint": "dicta",
+        "Selected": false,
+        "LastChanged": "2001-06-01T13:14:09.8222767+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ipsum",
-        "StyleHint": "aut",
-        "Hidden": true,
-        "FullName": "Vida Gutmann",
+        "ExtraInfo": "eius",
+        "StyleHint": "mollitia",
+        "Hidden": false,
+        "FullName": "Ms. Lula Schaden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 314
+            "FieldLength": 610
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "in",
+    "ExtraInfo": "et",
+    "StyleHint": "eos",
     "Hidden": true,
-    "FullName": "Alexandra Rice",
+    "FullName": "Prof. Marisa Mills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldLength": 97
       }
     }
   }

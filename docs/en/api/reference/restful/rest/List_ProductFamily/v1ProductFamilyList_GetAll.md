@@ -25,7 +25,7 @@ Gets all the ProductFamily items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProductFamily/Items?includeDeleted=True
+GET /api/v1/List/ProductFamily/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProductFamily/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 749,
-    "Name": "Satterfield Group",
-    "Tooltip": "dolor",
+    "Id": 166,
+    "Name": "Howell-Grant",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 982,
-    "Rank": 611,
+    "UdListDefinitionId": 364,
+    "Rank": 71,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 865
+        "FieldLength": 765
       }
     }
   }

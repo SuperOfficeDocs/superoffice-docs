@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 365,
-  "ColumnId": 861,
-  "FieldDefault": "eaque",
-  "FieldHeight": 508,
-  "FieldLabel": "et",
-  "FieldLeft": 153,
-  "FieldTop": 869,
+  "UDefFieldId": 959,
+  "ColumnId": 819,
+  "FieldDefault": "voluptates",
+  "FieldHeight": 662,
+  "FieldLabel": "autem",
+  "FieldLeft": 737,
+  "FieldTop": 622,
   "FieldType": "Checkbox",
-  "FieldWidth": 523,
-  "FormatMask": "voluptatum",
+  "FieldWidth": 796,
+  "FormatMask": "ut",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 16,
-  "LabelLeft": 728,
-  "LabelTop": 621,
-  "LabelWidth": 292,
-  "LastVersionId": 319,
-  "ListTableId": 389,
+  "LabelHeight": 605,
+  "LabelLeft": 904,
+  "LabelTop": 39,
+  "LabelWidth": 663,
+  "LastVersionId": 4,
+  "ListTableId": 508,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 330,
-  "ProgId": "autem",
+  "Page1LineNo": 785,
+  "ProgId": "maiores",
   "IsReadOnly": false,
-  "ShortLabel": "omnis",
-  "TabOrder": 355,
-  "TextLength": 331,
-  "Tooltip": "non",
-  "UdefIdentity": 205,
-  "UDListDefinitionId": 132,
+  "ShortLabel": "doloremque",
+  "TabOrder": 501,
+  "TextLength": 221,
+  "Tooltip": "dolores",
+  "UdefIdentity": 138,
+  "UDListDefinitionId": 854,
   "Justification": "Center",
-  "Version": 113,
-  "TemplateVariableName": "Streich-Lang",
+  "Version": 434,
+  "TemplateVariableName": "Grant-Towne",
   "HasBeenPublished": false,
-  "MdoListName": "Jaskolski-Gleichner",
+  "MdoListName": "Wiza-Spencer",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 111
+      "FieldType": "System.String",
+      "FieldLength": 411
     }
   }
 }

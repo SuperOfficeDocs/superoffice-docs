@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 918,
-  "Name": "Jerde, Terry and O'Reilly",
-  "Tooltip": "eos",
-  "Deleted": true,
-  "UdListDefinitionId": 522,
-  "Rank": 16,
+  "Id": 237,
+  "Name": "Watsica LLC",
+  "Tooltip": "non",
+  "Deleted": false,
+  "UdListDefinitionId": 881,
+  "Rank": 583,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldType": "System.String",
+      "FieldLength": 767
     }
   }
 }

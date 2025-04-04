@@ -25,7 +25,7 @@ Deletes the WorkflowGoal
 | WorkflowGoalId | int32 | **Required** The id of the WorkflowGoal to be deleted. |
 
 ```http
-POST /api/v1/Agents/Workflow/DeleteWorkflowGoal?WorkflowGoalId=391
+POST /api/v1/Agents/Workflow/DeleteWorkflowGoal?WorkflowGoalId=711
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Workflow/DeleteWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response

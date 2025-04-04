@@ -77,7 +77,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 803,
-  "Section": "voluptas",
-  "Key": "officiis",
-  "Name": "Aufderhar Group",
+  "PrefDescId": 432,
+  "Section": "enim",
+  "Key": "sit",
+  "Name": "Hoeger-Hessel",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Sharable bottom-line orchestration",
-  "IsBuiltin": false,
-  "TableName": "Streich-Jakubowski",
-  "UserDefinedListId": 230,
-  "Rank": 439,
-  "SubGroup": "eos",
-  "MinLevel": 124,
-  "MaxValue": 239,
-  "MinValue": 377,
-  "RequiredLicense": "necessitatibus",
+  "Description": "Front-line stable info-mediaries",
+  "IsBuiltin": true,
+  "TableName": "Windler, Kuphal and Schinner",
+  "UserDefinedListId": 204,
+  "Rank": 62,
+  "SubGroup": "est",
+  "MinLevel": 192,
+  "MaxValue": 666,
+  "MinValue": 222,
+  "RequiredLicense": "repellat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 427
+      "FieldLength": 640
     }
   }
 }

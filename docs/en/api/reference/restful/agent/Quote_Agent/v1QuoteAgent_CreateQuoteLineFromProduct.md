@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 585,
+  "QuoteAlternativeId": 820,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 964,
-  "ERPQuoteLineKey": "qui",
-  "QuoteAlternativeId": 48,
-  "ERPProductKey": "tenetur",
+  "QuoteLineId": 139,
+  "ERPQuoteLineKey": "ratione",
+  "QuoteAlternativeId": 824,
+  "ERPProductKey": "est",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 15331.528,
-  "DeliveredQuantity": 1360.156,
-  "Rank": 870,
-  "Name": "Dickinson, Kling and Torp",
-  "Description": "Managed uniform focus group",
-  "Code": "accusamus",
-  "QuantityUnit": "aut",
-  "PriceUnit": "id",
-  "ItemNumber": "761433",
+  "Quantity": 11229.122,
+  "DeliveredQuantity": 20192.362,
+  "Rank": 180,
+  "Name": "Weissnat Group",
+  "Description": "Function-based directional open system",
+  "Code": "quas",
+  "QuantityUnit": "non",
+  "PriceUnit": "perferendis",
+  "ItemNumber": "599412",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "delectus",
-  "Supplier": "totam",
-  "SupplierCode": "voluptatem",
-  "Thumbnail": "aut",
-  "VATInfo": "rerum",
-  "VAT": 25545.234,
-  "UnitCost": 10442.488,
-  "UnitMinimumPrice": 15419.279999999999,
-  "UnitListPrice": 16083.688,
+  "ProductFamilyKey": "dolores",
+  "ProductTypeKey": "nihil",
+  "Supplier": "suscipit",
+  "SupplierCode": "repudiandae",
+  "Thumbnail": "odit",
+  "VATInfo": "incidunt",
+  "VAT": 9398.866,
+  "UnitCost": 7835.0,
+  "UnitMinimumPrice": 29321.703999999998,
+  "UnitListPrice": 9474.082,
   "ExtraInfo": [
     {
-      "Name": "Kohler-Nader",
-      "Value": "porro",
+      "Name": "Johns, Dickinson and Goyette",
+      "Value": "esse",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 21
+          "FieldLength": 675
         }
       }
     },
     {
-      "Name": "Kohler-Nader",
-      "Value": "porro",
+      "Name": "Johns, Dickinson and Goyette",
+      "Value": "esse",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 21
+          "FieldLength": 675
         }
       }
     }
   ],
-  "RawExtraInfo": "blanditiis",
-  "IsSubscription": false,
-  "SubscriptionUnit": "eos",
-  "SubscriptionQuantity": 13664.24,
-  "SubscriptionStart": "2012-04-06T14:28:22.3053817+02:00",
-  "ERPDiscountPercent": 12260.207999999999,
-  "ERPDiscountAmount": 6769.44,
-  "DiscountPercent": 20471.288,
-  "DiscountAmount": 7675.166,
+  "RawExtraInfo": "ut",
+  "IsSubscription": true,
+  "SubscriptionUnit": "necessitatibus",
+  "SubscriptionQuantity": 30763.343999999997,
+  "SubscriptionStart": "2025-01-06T13:14:01.017639+01:00",
+  "ERPDiscountPercent": 24075.388,
+  "ERPDiscountAmount": 21944.268,
+  "DiscountPercent": 4343.724,
+  "DiscountAmount": 31151.96,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 30876.167999999998,
-  "EarningAmount": 19089.194,
-  "SubTotal": 4954.854,
-  "TotalPrice": 1400.898,
-  "Rights": "maxime",
-  "Rule": "iste",
-  "ExtraField1": "ab",
-  "ExtraField2": "quo",
-  "ExtraField3": "et",
-  "ExtraField4": "reprehenderit",
-  "ExtraField5": "dicta",
+  "EarningPercent": 27566.664,
+  "EarningAmount": 13783.332,
+  "SubTotal": 26927.327999999998,
+  "TotalPrice": 26848.978,
+  "Rights": "repudiandae",
+  "Rule": "in",
+  "ExtraField1": "atque",
+  "ExtraField2": "eveniet",
+  "ExtraField3": "vel",
+  "ExtraField4": "est",
+  "ExtraField5": "corporis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 6
+      "FieldLength": 742
     }
   }
 }

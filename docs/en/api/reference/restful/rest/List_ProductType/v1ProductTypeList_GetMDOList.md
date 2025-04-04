@@ -27,7 +27,7 @@ Get the MDO list items for "ProductType" - with headings and filtering by user g
 
 ```http
 GET /api/v1/List/ProductType/MDOItems?flat=False
-GET /api/v1/List/ProductType/MDOItems?query=explicabo
+GET /api/v1/List/ProductType/MDOItems?query=ut
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 266,
-    "Name": "Wehner-Rowe",
-    "ToolTip": "Ducimus quia vel suscipit.",
+    "Id": 591,
+    "Name": "Kuvalis-Emard",
+    "ToolTip": "Veritatis quae.",
     "Deleted": false,
-    "Rank": 644,
-    "Type": "vel",
+    "Rank": 643,
+    "Type": "dolor",
     "ChildItems": [
       {
-        "Id": 821,
-        "Name": "McKenzie Inc and Sons",
-        "ToolTip": "Commodi quia itaque aliquid repellendus qui consequatur deserunt.",
+        "Id": 805,
+        "Name": "Koelpin LLC",
+        "ToolTip": "Qui sint consequatur magnam et sit modi voluptatibus.",
         "Deleted": false,
-        "Rank": 323,
-        "Type": "nostrum",
+        "Rank": 525,
+        "Type": "accusantium",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sunt",
-        "ColorBlock": 964,
-        "ExtraInfo": "animi",
-        "StyleHint": "aliquid",
-        "FullName": "Garret Burnice Bayer III",
+        "IconHint": "vel",
+        "ColorBlock": 69,
+        "ExtraInfo": "velit",
+        "StyleHint": "atque",
+        "FullName": "Murray Casper",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 88
+            "FieldLength": 835
           }
         }
       }
     ],
-    "IconHint": "laudantium",
-    "ColorBlock": 65,
-    "ExtraInfo": "provident",
-    "StyleHint": "ab",
-    "FullName": "Karlee Rowe",
+    "IconHint": "ut",
+    "ColorBlock": 208,
+    "ExtraInfo": "debitis",
+    "StyleHint": "laboriosam",
+    "FullName": "Favian Camryn Greenfelder V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 973
+        "FieldType": "System.String",
+        "FieldLength": 757
       }
     }
   }

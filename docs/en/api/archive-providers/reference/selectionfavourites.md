@@ -84,7 +84,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/selectionfavourites?$select=lastMembershipChangeBy,selectionAssociate/middleName
+GET /api/v1/archive/selectionfavourites?$select=name,targetTableNumber,selectionAssociate/role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

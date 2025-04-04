@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroupsFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Stehr-Kreiger",
-  "ListItemId": 164
+  "UdListDefinitionName": "Brakus-Weimann",
+  "ListItemId": 903
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 6,
-    "Name": "Runte, King and Bayer",
-    "ToolTip": "Amet neque est.",
-    "Deleted": true,
-    "Rank": 847,
-    "Type": "dicta",
-    "ColorBlock": 719,
-    "IconHint": "unde",
-    "Selected": true,
-    "LastChanged": "2022-05-27T14:28:22.0553915+02:00",
+    "Id": 878,
+    "Name": "Jacobson, Kiehn and Heller",
+    "ToolTip": "Et dolores quae vitae.",
+    "Deleted": false,
+    "Rank": 263,
+    "Type": "temporibus",
+    "ColorBlock": 92,
+    "IconHint": "incidunt",
+    "Selected": false,
+    "LastChanged": "2022-11-29T13:14:00.5793728+01:00",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Lemke Group",
-        "ToolTip": "Quam dolorem deserunt quis necessitatibus nisi.",
-        "Deleted": false,
-        "Rank": 279,
-        "Type": "dolore",
-        "ColorBlock": 314,
-        "IconHint": "ipsam",
+        "Id": 275,
+        "Name": "Nader-Leuschke",
+        "ToolTip": "Iure odit.",
+        "Deleted": true,
+        "Rank": 752,
+        "Type": "quaerat",
+        "ColorBlock": 199,
+        "IconHint": "eum",
         "Selected": false,
-        "LastChanged": "2008-03-01T14:28:22.0553915+01:00",
+        "LastChanged": "1998-10-04T13:14:00.5793728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deleniti",
-        "StyleHint": "exercitationem",
-        "Hidden": false,
-        "FullName": "Chasity Ernser",
+        "ExtraInfo": "asperiores",
+        "StyleHint": "nostrum",
+        "Hidden": true,
+        "FullName": "Darby Huels DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 735
+            "FieldLength": 6
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "explicabo",
+    "ExtraInfo": "qui",
+    "StyleHint": "architecto",
     "Hidden": false,
-    "FullName": "Ms. Tierra Delphine Thiel",
+    "FullName": "Murray Harvey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 541
+        "FieldType": "System.Int32",
+        "FieldLength": 281
       }
     }
   }

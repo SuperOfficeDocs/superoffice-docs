@@ -91,16 +91,16 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Nolan Inc and Sons",
-  "ForceFlatList": false,
-  "AdditionalInfo": "est",
+  "Name": "Jewess, Durgan and Price",
+  "ForceFlatList": true,
+  "AdditionalInfo": "in",
   "HistoryItems": [
-    877,
-    210
+    607,
+    73
   ],
   "OnlyHistory": false
 }
@@ -114,56 +114,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 130,
-    "Name": "Moore Group",
-    "ToolTip": "Reprehenderit perspiciatis consequatur dolorum sed laboriosam.",
+    "Id": 74,
+    "Name": "Kihn-Satterfield",
+    "ToolTip": "Occaecati sit.",
     "Deleted": true,
-    "Rank": 803,
-    "Type": "consequatur",
-    "ColorBlock": 309,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "1999-01-09T14:28:22.1178891+01:00",
+    "Rank": 79,
+    "Type": "doloremque",
+    "ColorBlock": 125,
+    "IconHint": "iusto",
+    "Selected": true,
+    "LastChanged": "2017-07-23T13:14:00.7043711+02:00",
     "ChildItems": [
       {
-        "Id": 332,
-        "Name": "Huel, Schroeder and Osinski",
-        "ToolTip": "Adipisci cupiditate aut nihil ut dicta nobis.",
+        "Id": 661,
+        "Name": "Mayert LLC",
+        "ToolTip": "Mollitia totam est.",
         "Deleted": false,
-        "Rank": 938,
-        "Type": "velit",
-        "ColorBlock": 508,
-        "IconHint": "doloremque",
+        "Rank": 857,
+        "Type": "alias",
+        "ColorBlock": 649,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2009-06-24T14:28:22.1178891+02:00",
+        "LastChanged": "2015-05-13T13:14:00.7043711+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "ut",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Mrs. Nils O'Hara PhD",
+        "FullName": "Jimmy Braeden Douglas Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 235
+            "FieldLength": 462
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "fuga",
+    "ExtraInfo": "impedit",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Roderick Trisha Reilly Sr.",
+    "FullName": "Keshaun Schowalter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 180
+        "FieldType": "System.Int32",
+        "FieldLength": 128
       }
     }
   }

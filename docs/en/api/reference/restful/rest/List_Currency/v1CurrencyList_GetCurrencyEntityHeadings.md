@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 308,
-    "Name": "Lind, Torphy and Streich",
-    "Tooltip": "voluptas",
+    "HeadingId": 595,
+    "Name": "Predovic-Bauch",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 801,
-    "UdListDefinitionId": 898,
+    "Rank": 76,
+    "UdListDefinitionId": 607,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 211
+        "FieldType": "System.String",
+        "FieldLength": 307
       }
     }
   }

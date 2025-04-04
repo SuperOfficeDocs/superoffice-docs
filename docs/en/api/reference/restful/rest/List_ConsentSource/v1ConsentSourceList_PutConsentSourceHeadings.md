@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 1002,
-    "Name": "Feil LLC",
-    "Tooltip": "ratione",
+    "HeadingId": 227,
+    "Name": "Nienow Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 105,
-    "UdListDefinitionId": 506
+    "Rank": 446,
+    "UdListDefinitionId": 109
   },
   {
-    "HeadingId": 1002,
-    "Name": "Feil LLC",
-    "Tooltip": "ratione",
+    "HeadingId": 227,
+    "Name": "Nienow Inc and Sons",
+    "Tooltip": "omnis",
     "Deleted": false,
-    "Rank": 105,
-    "UdListDefinitionId": 506
+    "Rank": 446,
+    "UdListDefinitionId": 109
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 596,
-    "Name": "Abbott, Koepp and Schneider",
-    "Tooltip": "totam",
+    "HeadingId": 686,
+    "Name": "O'Keefe LLC",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 681,
-    "UdListDefinitionId": 253,
+    "Rank": 896,
+    "UdListDefinitionId": 90,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 895
+        "FieldLength": 759
       }
     }
   }

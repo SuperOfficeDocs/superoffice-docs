@@ -87,13 +87,13 @@ Content-Type: application/json; charset=utf-8
 {
   "Currents": [
     {
-      "Rank": 215,
-      "Id": 470,
-      "HistoryName": "Stiedemann Inc and Sons",
-      "HistoryId": 254,
-      "AssociateId": 997,
-      "Name": "Legros-Daugherty",
-      "ItemInfo": "aliquam"
+      "Rank": 413,
+      "Id": 89,
+      "HistoryName": "Daugherty, Senger and Jenkins",
+      "HistoryId": 639,
+      "AssociateId": 544,
+      "Name": "Willms, Maggio and Murray",
+      "ItemInfo": "a"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 896,
-    "Id": 977,
-    "HistoryName": "Dietrich-Schultz",
-    "HistoryId": 490,
-    "AssociateId": 461,
-    "Name": "Gerlach-Maggio",
-    "ItemInfo": "deserunt",
+    "Rank": 775,
+    "Id": 700,
+    "HistoryName": "Mosciski Inc and Sons",
+    "HistoryId": 445,
+    "AssociateId": 601,
+    "Name": "Thiel-Schoen",
+    "ItemInfo": "distinctio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 612
+        "FieldLength": 947
       }
     }
   }

@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Weimann Inc and Sons",
-  "AllowPersonal": true,
-  "UiCulture": "delectus"
+  "TemplateName": "Runolfsdottir-Ferry",
+  "AllowPersonal": false,
+  "UiCulture": "dolorum"
 }
 ```
 

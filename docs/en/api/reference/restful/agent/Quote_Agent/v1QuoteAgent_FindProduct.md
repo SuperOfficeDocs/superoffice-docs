@@ -108,13 +108,13 @@ OK
 POST /api/v1/Agents/Quote/FindProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 846,
-  "UserInput": "repellendus",
-  "PriceListKey": "qui"
+  "QuoteAlternativeId": 630,
+  "UserInput": "veritatis",
+  "PriceListKey": "expedita"
 }
 ```
 
@@ -126,73 +126,73 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProductId": 981,
-    "ERPProductKey": "in",
-    "ERPPriceListKey": "non",
-    "Name": "Johns Inc and Sons",
-    "Description": "Business-focused human-resource orchestration",
-    "Code": "sint",
-    "PriceUnit": "deserunt",
-    "QuantityUnit": "vel",
+    "ProductId": 465,
+    "ERPProductKey": "aut",
+    "ERPPriceListKey": "et",
+    "Name": "Schuppe Inc and Sons",
+    "Description": "Virtual needs-based portal",
+    "Code": "quam",
+    "PriceUnit": "corrupti",
+    "QuantityUnit": "quos",
     "IsSubscription": true,
-    "SubscriptionUnit": "ipsam",
-    "DefaultSubscriptionQuantity": 2240.81,
-    "ItemNumber": "1105490",
+    "SubscriptionUnit": "quibusdam",
+    "DefaultSubscriptionQuantity": 1598.34,
+    "ItemNumber": "360920",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "sed",
-    "ProductTypeKey": "fuga",
-    "VAT": 7860.072,
-    "VATInfo": "repudiandae",
-    "UnitCost": 14294.173999999999,
-    "UnitMinimumPrice": 24022.11,
-    "UnitListPrice": 20565.308,
+    "ProductFamilyKey": "voluptatum",
+    "ProductTypeKey": "maxime",
+    "VAT": 24047.182,
+    "VATInfo": "necessitatibus",
+    "UnitCost": 15701.34,
+    "UnitMinimumPrice": 24467.138,
+    "UnitListPrice": 3394.122,
     "InAssortment": true,
-    "Supplier": "quia",
-    "SupplierCode": "et",
-    "Rights": "quibusdam",
-    "Rule": "tenetur",
+    "Supplier": "consectetur",
+    "SupplierCode": "eaque",
+    "Rights": "distinctio",
+    "Rule": "expedita",
     "ExtraInfo": [
       {
-        "Name": "Carter-Huel",
-        "Value": "ipsa",
+        "Name": "Shanahan-Bauch",
+        "Value": "sint",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 80
+            "FieldLength": 140
           }
         }
       },
       {
-        "Name": "Carter-Huel",
-        "Value": "ipsa",
+        "Name": "Shanahan-Bauch",
+        "Value": "sint",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 80
+            "FieldLength": 140
           }
         }
       }
     ],
-    "RawExtraInfo": "consequatur",
-    "ExtraField1": "necessitatibus",
-    "ExtraField2": "vel",
-    "ExtraField3": "similique",
-    "ExtraField4": "rem",
-    "ExtraField5": "perspiciatis",
-    "InStock": 9072.93,
+    "RawExtraInfo": "culpa",
+    "ExtraField1": "praesentium",
+    "ExtraField2": "ipsum",
+    "ExtraField3": "et",
+    "ExtraField4": "et",
+    "ExtraField5": "nihil",
+    "InStock": 11570.728,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 709
+        "FieldType": "System.Int32",
+        "FieldLength": 71
       }
     }
   }

@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,52 +107,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 683,
-  "UniqueIdentifier": "accusamus",
-  "Name": "Erdman LLC",
-  "Description": "Up-sized assymetric throughput",
-  "IncludeId": "eveniet",
-  "AccessKey": "eveniet",
-  "HierarchyId": 57,
-  "Source": "porro",
-  "SourceCode": "autem",
+  "EjscriptId": 955,
+  "UniqueIdentifier": "doloribus",
+  "Name": "Mosciski, Schumm and Gutmann",
+  "Description": "Re-contextualized fresh-thinking monitoring",
+  "IncludeId": "voluptate",
+  "AccessKey": "placeat",
+  "HierarchyId": 249,
+  "Source": "eaque",
+  "SourceCode": "voluptatibus",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 344,
+  "HtmlOutput": 931,
   "Includes": [
-    330,
-    416
+    224,
+    198
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 328,
-      "LineNumberTo": 65,
-      "Delta": 757,
-      "IncludeId": "ipsa",
+      "LineNumberFrom": 773,
+      "LineNumberTo": 960,
+      "Delta": 693,
+      "IncludeId": "aliquid",
       "IncludedFrom": [
-        "est",
-        "eum"
+        "explicabo",
+        "qui"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 524
+          "FieldType": "System.String",
+          "FieldLength": 508
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2001-03-03T14:28:21.680407+01:00",
-  "RegisteredAssociateId": 457,
-  "Updated": "2019-02-02T14:28:21.680407+01:00",
-  "UpdatedAssociateId": 594,
+  "Registered": "2000-03-27T13:14:00.0033265+02:00",
+  "RegisteredAssociateId": 268,
+  "Updated": "2021-09-19T13:14:00.0033265+02:00",
+  "UpdatedAssociateId": 50,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldLength": 79
     }
   }
 }

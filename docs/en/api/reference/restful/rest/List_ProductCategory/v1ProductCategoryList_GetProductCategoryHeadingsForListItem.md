@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Name": "Klocko, Dare and Keebler",
-    "ToolTip": "Beatae neque aut cumque ducimus.",
+    "Id": 844,
+    "Name": "Quitzon-Baumbach",
+    "ToolTip": "Minima molestiae dolorem accusamus.",
     "Deleted": false,
-    "Rank": 957,
-    "Type": "et",
-    "ColorBlock": 826,
-    "IconHint": "quidem",
-    "Selected": true,
-    "LastChanged": "2025-01-17T14:28:27.6176673+01:00",
+    "Rank": 596,
+    "Type": "necessitatibus",
+    "ColorBlock": 970,
+    "IconHint": "perspiciatis",
+    "Selected": false,
+    "LastChanged": "2015-07-19T13:14:09.9004061+02:00",
     "ChildItems": [
       {
-        "Id": 272,
-        "Name": "Durgan-Greenholt",
-        "ToolTip": "Nisi deleniti voluptatum.",
-        "Deleted": false,
-        "Rank": 338,
-        "Type": "omnis",
-        "ColorBlock": 928,
-        "IconHint": "explicabo",
+        "Id": 567,
+        "Name": "Effertz-Fisher",
+        "ToolTip": "Odio unde a earum corporis unde accusantium aut.",
+        "Deleted": true,
+        "Rank": 301,
+        "Type": "illo",
+        "ColorBlock": 871,
+        "IconHint": "nisi",
         "Selected": false,
-        "LastChanged": "1999-06-04T14:28:27.6176673+02:00",
+        "LastChanged": "2005-03-12T13:14:09.9004061+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "fuga",
+        "ExtraInfo": "quas",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Lila McGlynn",
+        "FullName": "Miss Dana Michelle Ebert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 270
+            "FieldLength": 922
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "architecto",
-    "Hidden": true,
-    "FullName": "Sandy Rutherford",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "est",
+    "Hidden": false,
+    "FullName": "Dr. Ulices Hipolito Renner V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 167
+        "FieldLength": 663
       }
     }
   }

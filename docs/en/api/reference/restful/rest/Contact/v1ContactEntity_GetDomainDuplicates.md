@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Renner-Quitzon",
-    "SoPrimaryKey": 715,
-    "EntryName": "VonRueden LLC",
-    "EntryIdentifier": "quasi",
-    "RuleDisplayName": "Kessler Group",
+    "RuleName": "Gusikowski LLC",
+    "SoPrimaryKey": 335,
+    "EntryName": "Schaefer Group",
+    "EntryIdentifier": "ducimus",
+    "RuleDisplayName": "Christiansen Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 273
+        "FieldLength": 448
       }
     }
   }

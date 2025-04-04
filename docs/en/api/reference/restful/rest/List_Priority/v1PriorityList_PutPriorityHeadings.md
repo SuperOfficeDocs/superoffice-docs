@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 578,
-    "Name": "Murphy-Hintz",
-    "Tooltip": "voluptatum",
-    "Deleted": false,
-    "Rank": 187,
-    "UdListDefinitionId": 710
+    "HeadingId": 562,
+    "Name": "Schulist, Hoppe and Tremblay",
+    "Tooltip": "debitis",
+    "Deleted": true,
+    "Rank": 700,
+    "UdListDefinitionId": 450
   },
   {
-    "HeadingId": 578,
-    "Name": "Murphy-Hintz",
-    "Tooltip": "voluptatum",
-    "Deleted": false,
-    "Rank": 187,
-    "UdListDefinitionId": 710
+    "HeadingId": 562,
+    "Name": "Schulist, Hoppe and Tremblay",
+    "Tooltip": "debitis",
+    "Deleted": true,
+    "Rank": 700,
+    "UdListDefinitionId": 450
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 764,
-    "Name": "Keeling Group",
-    "Tooltip": "autem",
-    "Deleted": true,
-    "Rank": 698,
-    "UdListDefinitionId": 855,
+    "HeadingId": 957,
+    "Name": "Kuvalis-Rodriguez",
+    "Tooltip": "accusantium",
+    "Deleted": false,
+    "Rank": 580,
+    "UdListDefinitionId": 685,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 752
+        "FieldType": "System.Int32",
+        "FieldLength": 323
       }
     }
   }

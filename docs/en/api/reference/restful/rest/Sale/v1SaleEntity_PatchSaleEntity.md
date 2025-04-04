@@ -151,18 +151,18 @@ SaleEntity  updated.
 PATCH /api/v1/Sale/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "perspiciatis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "perspiciatis",
     "value": {}
   }
 ]
@@ -181,7 +181,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "provident",
+  "SaleText": "eaque",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -190,113 +190,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2019-04-07T14:28:27.2270585+02:00",
-  "Amount": 27886.332,
-  "SaleId": 63,
-  "Earning": 20327.124,
-  "EarningPercent": 3171.6079999999997,
-  "Heading": "labore",
-  "Number": "470164",
-  "Probability": 799,
-  "CreatedDate": "2010-05-21T14:28:27.2270585+02:00",
-  "UpdatedDate": "2000-11-17T14:28:27.2270585+01:00",
+  "Saledate": "2017-04-07T13:14:09.1341414+02:00",
+  "Amount": 23652.298,
+  "SaleId": 858,
+  "Earning": 7418.178,
+  "EarningPercent": 26429.022,
+  "Heading": "omnis",
+  "Number": "914868",
+  "Probability": 438,
+  "CreatedDate": "2014-11-15T13:14:09.1341414+01:00",
+  "UpdatedDate": "2021-11-03T13:14:09.1341414+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 581,
+  "ActiveLinks": 17,
   "Links": [
     {
-      "EntityName": "Prosacco, Toy and Ankunding",
-      "Id": 202,
-      "Description": "Ameliorated incremental moderator",
-      "ExtraInfo": "ut",
-      "LinkId": 747,
+      "EntityName": "Beer-Goodwin",
+      "Id": 437,
+      "Description": "Re-engineered neutral adapter",
+      "ExtraInfo": "iusto",
+      "LinkId": 682,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 809
+          "FieldLength": 691
         }
       }
     }
   ],
-  "NextDueDate": "2013-10-20T14:28:27.2270585+02:00",
-  "Postit": "non",
+  "NextDueDate": "2006-09-20T13:14:09.1341414+02:00",
+  "Postit": "at",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-10-08T14:28:27.2270585+02:00",
+  "ReopenDate": "2017-12-14T13:14:09.1341414+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Rogahn LLC",
-      "Comment": "corrupti",
-      "StakeholderRoleId": 474,
-      "CountryId": 563,
-      "PersonId": 664,
-      "EmailDescription": "emmanuel@keelingchamplin.name",
-      "EmailId": 510,
-      "EmailAddress": "billie_christiansen@zulaufmcdermott.biz",
-      "PhoneId": 941,
-      "ContactName": "Ziemann, Raynor and Rutherford",
-      "ContactId": 827,
-      "SaleId": 935,
-      "Mrmrs": "beatae",
-      "Firstname": "Mac",
-      "MiddleName": "Will-Parisian",
-      "Lastname": "Harris",
-      "SaleStakeholderId": 358,
-      "Rank": 406,
-      "Phone": "312-760-3681 x2401",
+      "StakeholderRoleName": "Smitham Inc and Sons",
+      "Comment": "illum",
+      "StakeholderRoleId": 157,
+      "CountryId": 474,
+      "PersonId": 709,
+      "EmailDescription": "anahi@raynorbins.us",
+      "EmailId": 655,
+      "EmailAddress": "cornelius@bauch.uk",
+      "PhoneId": 980,
+      "ContactName": "Botsford-Bernhard",
+      "ContactId": 99,
+      "SaleId": 365,
+      "Mrmrs": "dolorum",
+      "Firstname": "Effie",
+      "MiddleName": "Considine Inc and Sons",
+      "Lastname": "Satterfield",
+      "SaleStakeholderId": 887,
+      "Rank": 686,
+      "Phone": "633-402-5618",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 273
+          "FieldLength": 735
         }
       }
     }
   ],
-  "ActiveErpLinks": 674,
+  "ActiveErpLinks": 402,
   "UserDefinedFields": {
-    "SuperOffice:1": "Alexie Tito Renner PhD",
-    "SuperOffice:2": "1567955136"
+    "SuperOffice:1": "Aylin Wyman",
+    "SuperOffice:2": "1845007651"
   },
   "ExtraFields": {
-    "ExtraFields1": "iste",
-    "ExtraFields2": "porro"
+    "ExtraFields1": "quasi",
+    "ExtraFields2": "vel"
   },
   "CustomFields": {
-    "CustomFields1": "maiores",
-    "CustomFields2": "tempore"
+    "CustomFields1": "earum",
+    "CustomFields2": "non"
   },
-  "PublishEventDate": "2020-10-07T14:28:27.2270585+02:00",
-  "PublishTo": "2020-12-06T14:28:27.2270585+01:00",
-  "PublishFrom": "2000-09-17T14:28:27.2270585+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2021-07-13T13:14:09.1341414+02:00",
+  "PublishTo": "1998-11-21T13:14:09.1341414+01:00",
+  "PublishFrom": "2011-08-07T13:14:09.1341414+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 727,
+      "VisibleId": 318,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 939
+          "FieldType": "System.Int32",
+          "FieldLength": 258
         }
       }
     },
     {
-      "VisibleId": 727,
+      "VisibleId": 318,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "nostrum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 939
+          "FieldType": "System.Int32",
+          "FieldLength": 258
         }
       }
     }
@@ -305,13 +305,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldType": "System.String",
+      "FieldLength": 743
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

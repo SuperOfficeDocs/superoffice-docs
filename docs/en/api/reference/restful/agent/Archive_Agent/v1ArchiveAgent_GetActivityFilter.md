@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Archive/GetActivityFilter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -79,91 +79,91 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2000-09-16T14:28:21.4616659+02:00",
-  "ToDate": "2022-07-04T14:28:21.4616659+02:00",
+  "FromDate": "2007-11-15T13:13:59.4845676+01:00",
+  "ToDate": "2008-10-12T13:13:59.4845676+02:00",
   "AssociateList": [
     {
-      "Id": 104,
-      "Name": "McClure-Kassulke",
-      "ToolTip": "Quas amet molestias ducimus repellat molestias repellat magni.",
-      "Deleted": false,
-      "Rank": 833,
-      "Type": "debitis",
-      "ColorBlock": 884,
-      "IconHint": "et",
+      "Id": 58,
+      "Name": "Torp Group",
+      "ToolTip": "Quam deserunt.",
+      "Deleted": true,
+      "Rank": 362,
+      "Type": "qui",
+      "ColorBlock": 877,
+      "IconHint": "exercitationem",
       "Selected": false,
-      "LastChanged": "2021-06-07T14:28:21.4616659+02:00",
+      "LastChanged": "2016-08-26T13:13:59.4845676+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "quas",
-      "StyleHint": "qui",
-      "Hidden": false,
-      "FullName": "General Hahn",
+      "ExtraInfo": "aliquam",
+      "StyleHint": "voluptatem",
+      "Hidden": true,
+      "FullName": "Gwen Bergstrom",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 676
         }
       }
     }
   ],
   "GroupList": [
     {
-      "Id": 889,
-      "Name": "Rath Inc and Sons",
-      "ToolTip": "Rem ut quisquam non aliquid repellat architecto fuga.",
-      "Deleted": true,
-      "Rank": 477,
-      "Type": "et",
-      "ColorBlock": 197,
-      "IconHint": "consequuntur",
-      "Selected": true,
-      "LastChanged": "2016-06-01T14:28:21.4616659+02:00",
+      "Id": 713,
+      "Name": "Orn Inc and Sons",
+      "ToolTip": "Amet aut saepe.",
+      "Deleted": false,
+      "Rank": 690,
+      "Type": "labore",
+      "ColorBlock": 68,
+      "IconHint": "est",
+      "Selected": false,
+      "LastChanged": "2005-05-30T13:13:59.4845676+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "et",
+      "ExtraInfo": "consequuntur",
+      "StyleHint": "numquam",
       "Hidden": false,
-      "FullName": "Lucinda Wintheiser",
+      "FullName": "Noah Connelly",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 10
+          "FieldLength": 222
         }
       }
     }
   ],
   "FutureDateList": [
     {
-      "Id": 676,
-      "Name": "Hartmann, Waelchi and Maggio",
-      "ToolTip": "Voluptas voluptas repudiandae sint odit et.",
+      "Id": 626,
+      "Name": "Schulist LLC",
+      "ToolTip": "Ut saepe eum et.",
       "Deleted": false,
-      "Rank": 454,
-      "Type": "et",
+      "Rank": 546,
+      "Type": "qui",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "modi",
-      "ColorBlock": 280,
-      "ExtraInfo": "iure",
-      "StyleHint": "eius",
-      "FullName": "Eleanore Dessie Boehm DDS",
+      "IconHint": "odit",
+      "ColorBlock": 787,
+      "ExtraInfo": "vel",
+      "StyleHint": "repellat",
+      "FullName": "Sibyl Berge",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 617
+          "FieldLength": 969
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 846
+      "FieldType": "System.Int32",
+      "FieldLength": 63
     }
   }
 }

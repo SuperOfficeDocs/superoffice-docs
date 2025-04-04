@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 670,
-    "Name": "Keebler, Champlin and Lubowitz",
-    "ToolTip": "Illum et eum.",
+    "Id": 41,
+    "Name": "Bruen-Witting",
+    "ToolTip": "Quo in alias.",
     "Deleted": true,
-    "Rank": 913,
-    "Type": "ullam",
-    "ColorBlock": 108,
-    "IconHint": "voluptas",
+    "Rank": 60,
+    "Type": "aspernatur",
+    "ColorBlock": 679,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2016-02-08T14:28:27.5707933+01:00",
+    "LastChanged": "2016-08-11T13:14:09.7753986+02:00",
     "ChildItems": [
       {
-        "Id": 899,
-        "Name": "Kirlin Inc and Sons",
-        "ToolTip": "Sed sit quod qui et occaecati harum.",
+        "Id": 489,
+        "Name": "Howe-Abshire",
+        "ToolTip": "Sint doloremque repellat enim commodi voluptatem molestias maiores.",
         "Deleted": false,
-        "Rank": 387,
-        "Type": "quia",
-        "ColorBlock": 257,
-        "IconHint": "inventore",
+        "Rank": 402,
+        "Type": "aliquam",
+        "ColorBlock": 376,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2004-11-19T14:28:27.5707933+01:00",
+        "LastChanged": "2007-08-13T13:14:09.7753986+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "magnam",
+        "ExtraInfo": "fuga",
+        "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Dr. Meggie Marcelo Waelchi DDS",
+        "FullName": "Barbara Nienow",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 963
+            "FieldLength": 912
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "accusamus",
+    "ExtraInfo": "tempora",
+    "StyleHint": "nihil",
     "Hidden": false,
-    "FullName": "Dr. Mason Stracke",
+    "FullName": "Clinton Reynolds",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 195
+        "FieldLength": 970
       }
     }
   }

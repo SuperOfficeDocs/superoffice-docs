@@ -87,10 +87,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Hammes, Batz and Stoltenberg",
-  "DeviceName": "Feest-Parisian",
-  "DeviceIdentifier": "minus",
-  "TableName": "Mante Group"
+  "ApplicationName": "O'Conner-Tillman",
+  "DeviceName": "Runolfsson-Klein",
+  "DeviceIdentifier": "sit",
+  "TableName": "Swaniawski-Harvey"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "maiores",
-    "Value": "sint",
-    "RecordId": 556,
-    "CreatedDate": "2011-03-02T14:28:22.0241429+01:00",
-    "UpdatedDate": "2018-05-31T14:28:22.0241429+02:00",
-    "UpdatedBy": "accusamus",
-    "CreatedBy": "asperiores",
-    "TableName": "Streich Inc and Sons",
+    "Key": "unde",
+    "Value": "corporis",
+    "RecordId": 182,
+    "CreatedDate": "2003-05-21T13:14:00.5168611+02:00",
+    "UpdatedDate": "2017-01-19T13:14:00.5168611+01:00",
+    "UpdatedBy": "cum",
+    "CreatedBy": "architecto",
+    "TableName": "Beer, Mohr and Dach",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 257
+        "FieldType": "System.Int32",
+        "FieldLength": 93
       }
     }
   }

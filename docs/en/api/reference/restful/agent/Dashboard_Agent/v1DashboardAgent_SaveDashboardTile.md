@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 340,
-  "Caption": "voluptatibus",
-  "Description": "Object-based motivating array",
-  "ChartName": "Williamson-Stiedemann",
-  "ChartId": "aspernatur",
-  "IsDefault": false,
-  "AssociateId": 296,
-  "GroupId": 93,
-  "SelectionId": 24,
-  "Config": "sunt",
+  "DashboardTileId": 570,
+  "Caption": "ipsum",
+  "Description": "Managed tangible encoding",
+  "ChartName": "Oberbrunner-Renner",
+  "ChartId": "architecto",
+  "IsDefault": true,
+  "AssociateId": 936,
+  "GroupId": 827,
+  "SelectionId": 860,
+  "Config": "dolorem",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Hermiston, Hauck and Hudson",
-      "Description": "Open-architected optimal data-warehouse",
+      "Name": "Kautzer, White and Marquardt",
+      "Description": "Devolved executive ability",
       "Type": "Boolean",
-      "ListName": "Mertz-Muller",
+      "ListName": "Cartwright-Schmitt",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "dignissimos",
+      "Value": "et",
       "DefaultDataOption": false
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 437,
+      "VisibleId": 241,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit"
+      "DisplayValue": "amet"
     },
     {
-      "VisibleId": 437,
+      "VisibleId": 241,
       "Visibility": "All",
-      "DisplayValue": "reprehenderit"
+      "DisplayValue": "amet"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 619,
-  "Caption": "dolor",
-  "Description": "Cross-platform 24 hour monitoring",
-  "ChartName": "Schulist Inc and Sons",
-  "ChartId": "consequuntur",
-  "IsDefault": false,
-  "AssociateId": 353,
-  "GroupId": 213,
-  "SelectionId": 521,
-  "Config": "placeat",
+  "DashboardTileId": 51,
+  "Caption": "rerum",
+  "Description": "Intuitive national Graphical User Interface",
+  "ChartName": "Bins Group",
+  "ChartId": "nam",
+  "IsDefault": true,
+  "AssociateId": 310,
+  "GroupId": 386,
+  "SelectionId": 681,
+  "Config": "quaerat",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Orn, Emard and Morar",
-      "Description": "Proactive intermediate initiative",
+      "Name": "Jones LLC",
+      "Description": "Expanded global access",
       "Type": "Boolean",
-      "ListName": "Schulist, Schowalter and Gislason",
+      "ListName": "Nikolaus Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "recusandae",
+      "Value": "excepturi",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 723
+          "FieldLength": 327
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 953,
+      "VisibleId": 43,
       "Visibility": "All",
-      "DisplayValue": "nemo",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldLength": 311
         }
       }
     },
     {
-      "VisibleId": 953,
+      "VisibleId": 43,
       "Visibility": "All",
-      "DisplayValue": "nemo",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 938
+          "FieldLength": 311
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 593
+      "FieldLength": 731
     }
   }
 }

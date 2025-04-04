@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 17,
-  "Name": "Carroll-Schoen",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "UdListDefinitionId": 433,
-  "Rank": 915,
+  "Id": 989,
+  "Name": "Conroy LLC",
+  "Tooltip": "ipsum",
+  "Deleted": false,
+  "UdListDefinitionId": 876,
+  "Rank": 881,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldType": "System.String",
+      "FieldLength": 69
     }
   }
 }

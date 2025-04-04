@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 385,
-  "Name": "Senger-Hane",
-  "Tooltip": "cupiditate",
+  "HeadingId": 423,
+  "Name": "Walsh-Conroy",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 469,
-  "UdListDefinitionId": 119
+  "Rank": 829,
+  "UdListDefinitionId": 488
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 627,
-  "Name": "Bernhard-Kautzer",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 799,
-  "UdListDefinitionId": 493,
+  "HeadingId": 180,
+  "Name": "Willms-Veum",
+  "Tooltip": "in",
+  "Deleted": true,
+  "Rank": 150,
+  "UdListDefinitionId": 170,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 280
+      "FieldType": "System.String",
+      "FieldLength": 823
     }
   }
 }

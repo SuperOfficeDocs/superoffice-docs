@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 834,
-  "Created": "2002-05-16T14:28:22.321006+02:00",
+  "SatelliteId": 448,
+  "Created": "2021-09-06T13:14:01.033265+02:00",
   "CreatedBy": null,
-  "Updated": "2013-09-01T14:28:22.321006+02:00",
+  "Updated": "2009-07-08T13:14:01.033265+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Dietrich-Price",
-      "Description": "Quality-focused reciprocal neural-net",
+      "Name": "Volkman-O'Connell",
+      "Description": "Synchronised mission-critical array",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 259
+          "FieldType": "System.Int32",
+          "FieldLength": 258
         }
       }
     },
     {
-      "Name": "Dietrich-Price",
-      "Description": "Quality-focused reciprocal neural-net",
+      "Name": "Volkman-O'Connell",
+      "Description": "Synchronised mission-critical array",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 259
+          "FieldType": "System.Int32",
+          "FieldLength": 258
         }
       }
     }
@@ -130,8 +130,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 694
+      "FieldType": "System.Int32",
+      "FieldLength": 743
     }
   }
 }

@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Find/GetAvailableRestrictionColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "similique",
-  "ProviderName": "O'Kon Inc and Sons"
+  "StorageType": "aut",
+  "ProviderName": "Dare, Emard and Pagac"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "deleniti",
-  "exercitationem"
+  "fuga",
+  "quos"
 ]
 ```

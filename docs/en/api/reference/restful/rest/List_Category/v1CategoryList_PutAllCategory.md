@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Category/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Name": "Bergnaum, Kunde and Gulgowski",
-    "Tooltip": "quae",
+    "Id": 633,
+    "Name": "Pfeffer LLC",
+    "Tooltip": "voluptate",
     "Deleted": false,
-    "UdListDefinitionId": 856,
-    "Rank": 925
+    "UdListDefinitionId": 476,
+    "Rank": 533
   },
   {
-    "Id": 17,
-    "Name": "Bergnaum, Kunde and Gulgowski",
-    "Tooltip": "quae",
+    "Id": 633,
+    "Name": "Pfeffer LLC",
+    "Tooltip": "voluptate",
     "Deleted": false,
-    "UdListDefinitionId": 856,
-    "Rank": 925
+    "UdListDefinitionId": 476,
+    "Rank": 533
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 785,
-    "Name": "Roberts Group",
-    "Tooltip": "optio",
-    "Deleted": false,
-    "UdListDefinitionId": 965,
-    "Rank": 661,
+    "Id": 566,
+    "Name": "Brown Inc and Sons",
+    "Tooltip": "id",
+    "Deleted": true,
+    "UdListDefinitionId": 802,
+    "Rank": 674,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 733
+        "FieldLength": 662
       }
     }
   }

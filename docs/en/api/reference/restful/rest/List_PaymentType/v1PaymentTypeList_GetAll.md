@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 656,
-    "Name": "Kassulke-Kshlerin",
-    "Tooltip": "deleniti",
+    "Id": 573,
+    "Name": "Witting LLC",
+    "Tooltip": "nemo",
     "Deleted": false,
-    "UdListDefinitionId": 421,
-    "Rank": 521,
+    "UdListDefinitionId": 810,
+    "Rank": 55,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 289
+        "FieldType": "System.Int32",
+        "FieldLength": 144
       }
     }
   }

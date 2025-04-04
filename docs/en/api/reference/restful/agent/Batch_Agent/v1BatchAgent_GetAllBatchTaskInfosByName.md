@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Yundt Group"
+  "TaskName": "Bayer, Daniel and Mante"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 975,
-    "Name": "Kertzmann Group",
-    "AssociateId": 360,
-    "DetailsTable": 990,
-    "DetailsRecord": 841,
+    "Id": 370,
+    "Name": "Durgan, Block and Schmeler",
+    "AssociateId": 418,
+    "DetailsTable": 322,
+    "DetailsRecord": 893,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "dolore",
-      "ParameterObject2": "error"
+      "ParameterObject1": "omnis",
+      "ParameterObject2": "voluptatibus"
     },
-    "LastStarted": "1998-10-28T14:28:21.4929147+01:00",
-    "Created": "2000-05-05T14:28:21.4929147+02:00",
-    "StartCount": 782,
-    "DatabaseSerialNumber": "1194694",
-    "Context": "ducimus",
-    "Result": "perferendis",
+    "LastStarted": "2010-09-17T13:13:59.5314453+02:00",
+    "Created": "2014-06-02T13:13:59.5314453+02:00",
+    "StartCount": 275,
+    "DatabaseSerialNumber": "698520",
+    "Context": "nulla",
+    "Result": "incidunt",
     "State": "All",
-    "Description": "Right-sized client-server customer loyalty",
-    "Response": "culpa",
-    "Request": "id",
-    "ProgressDescription": "Stand-alone content-based data-warehouse",
-    "ProgressPercent": 53,
-    "FileName": "McKenzie Group",
+    "Description": "Digitized needs-based strategy",
+    "Response": "exercitationem",
+    "Request": "beatae",
+    "ProgressDescription": "Secured grid-enabled strategy",
+    "ProgressPercent": 992,
+    "FileName": "Reynolds, Littel and Watsica",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 81
+        "FieldLength": 412
       }
     }
   }

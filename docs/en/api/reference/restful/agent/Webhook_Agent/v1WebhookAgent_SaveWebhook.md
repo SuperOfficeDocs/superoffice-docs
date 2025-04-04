@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/Webhook/SaveWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 932,
-  "Name": "Hartmann LLC",
+  "WebhookId": 130,
+  "Name": "Dooley, Feeney and Gaylord",
   "Events": [
-    "harum",
-    "eveniet"
+    "ut",
+    "excepturi"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "hic",
+  "Secret": "dignissimos",
   "State": "Active",
-  "Type": "dolor",
+  "Type": "placeat",
   "Headers": {
     "Headers1": "pariatur",
-    "Headers2": "sit"
+    "Headers2": "ipsa"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2018-05-19T14:28:22.7428645+02:00",
+  "Registered": "1998-02-09T13:14:01.7850758+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2023-06-21T14:28:22.7428645+02:00",
+  "Updated": "2003-03-09T13:14:01.7850758+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "reagan@brakus.ca"
+  "ErrorsEmail": "felix_hintz@mann.info"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 386,
-  "Name": "Herzog, Marvin and Rowe",
+  "WebhookId": 366,
+  "Name": "Stokes LLC",
   "Events": [
-    "et",
+    "beatae",
     "et"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "officia",
+  "Secret": "tempora",
   "State": "Active",
-  "Type": "eaque",
+  "Type": "nihil",
   "Headers": {
-    "Headers1": "et",
-    "Headers2": "deserunt"
+    "Headers1": "deserunt",
+    "Headers2": "voluptatibus"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2018-07-18T14:28:22.7428645+02:00",
+  "Registered": "2000-08-02T13:14:01.7850758+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2011-04-02T14:28:22.7428645+02:00",
+  "Updated": "2005-02-23T13:14:01.7850758+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "boyd@senger.uk"
+  "ErrorsEmail": "jettie@marvincummings.name"
 }
 ```

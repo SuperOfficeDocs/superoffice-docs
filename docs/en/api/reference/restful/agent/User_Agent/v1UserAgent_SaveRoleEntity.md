@@ -87,20 +87,20 @@ OK
 POST /api/v1/Agents/User/SaveRoleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 689,
-  "Name": "McLaughlin-Connelly",
-  "Tooltip": "fugit",
+  "RoleId": 493,
+  "Name": "Lang, Reichert and Bergnaum",
+  "Tooltip": "quidem",
   "RoleType": "Anonymous",
-  "Deleted": 921,
-  "Rank": 455,
-  "Created": "2003-02-20T14:28:22.6803663+01:00",
-  "UseCategories": 410,
+  "Deleted": 664,
+  "Rank": 130,
+  "Created": "2017-01-05T13:14:01.6600684+01:00",
+  "UseCategories": 814,
   "CreatedBy": null,
-  "Updated": "2009-02-27T14:28:22.6803663+01:00",
+  "Updated": "2007-11-13T13:14:01.6600684+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 711,
-  "Name": "Wiza, D'Amore and Fay",
-  "Tooltip": "inventore",
+  "RoleId": 937,
+  "Name": "Purdy, Oberbrunner and Wilderman",
+  "Tooltip": "explicabo",
   "RoleType": "Anonymous",
-  "Deleted": 156,
-  "Rank": 91,
-  "Created": "2000-04-12T14:28:22.6803663+02:00",
-  "UseCategories": 272,
+  "Deleted": 915,
+  "Rank": 684,
+  "Created": "2019-08-01T13:14:01.6600684+02:00",
+  "UseCategories": 503,
   "CreatedBy": null,
-  "Updated": "1997-12-04T14:28:22.6803663+01:00",
+  "Updated": "2022-11-09T13:14:01.6600684+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 39
+      "FieldType": "System.Int32",
+      "FieldLength": 173
     }
   }
 }

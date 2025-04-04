@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 309,
-  "Caption": "et",
-  "Description": "Balanced bandwidth-monitored projection",
-  "ChartName": "Kulas Inc and Sons",
-  "ChartId": "voluptates",
+  "DashboardTileId": 32,
+  "Caption": "praesentium",
+  "Description": "Operative logistical policy",
+  "ChartName": "Luettgen, Mueller and Bahringer",
+  "ChartId": "veniam",
   "IsDefault": true,
-  "AssociateId": 301,
-  "GroupId": 801,
-  "SelectionId": 245,
-  "Config": "est",
+  "AssociateId": 953,
+  "GroupId": 558,
+  "SelectionId": 145,
+  "Config": "eius",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Parisian, Dach and Veum",
-      "Description": "Customer-focused stable hierarchy",
+      "Name": "Schroeder-Blanda",
+      "Description": "Business-focused bi-directional application",
       "Type": "Boolean",
-      "ListName": "D'Amore, Jenkins and Skiles",
+      "ListName": "Franecki-Morar",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "et",
+      "Value": "eos",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 366
+          "FieldType": "System.String",
+          "FieldLength": 57
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 128,
+      "VisibleId": 53,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 25
+          "FieldLength": 58
         }
       }
     },
     {
-      "VisibleId": 128,
+      "VisibleId": 53,
       "Visibility": "All",
-      "DisplayValue": "cum",
+      "DisplayValue": "laudantium",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 25
+          "FieldLength": 58
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 552
+      "FieldLength": 176
     }
   }
 }

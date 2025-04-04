@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "libero",
-      "Key": "distinctio"
+      "Section": "sit",
+      "Key": "asperiores"
     },
     {
-      "Section": "libero",
-      "Key": "distinctio"
+      "Section": "sit",
+      "Key": "asperiores"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "non",
+    "RawValue": "optio",
     "Specification": null,
-    "DisplayValue": "eaque",
-    "DisplayTooltip": "inventore",
+    "DisplayValue": "quia",
+    "DisplayTooltip": "non",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 63,
-    "PrefDescId": 431,
-    "TableName": "Kirlin-Howell",
-    "UserPreferenceId": 668,
+    "TargetId": 299,
+    "PrefDescId": 983,
+    "TableName": "Purdy-Bashirian",
+    "UserPreferenceId": 2,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldType": "System.String",
+        "FieldLength": 5
       }
     }
   }

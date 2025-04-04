@@ -26,7 +26,7 @@ Gets a QuoteAlternative object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=331
+POST /api/v1/Agents/Quote/GetQuoteAlternative?quoteAlternativeId=579
 POST /api/v1/Agents/Quote/GetQuoteAlternative?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,35 +99,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 836,
-  "ERPQuoteAlternativeKey": "ratione",
-  "QuoteVersionId": 814,
-  "Name": "Greenholt-Zemlak",
-  "Description": "Automated asynchronous pricing structure",
+  "QuoteAlternativeId": 455,
+  "ERPQuoteAlternativeKey": "aperiam",
+  "QuoteVersionId": 162,
+  "Name": "Gutmann, Morissette and Hauck",
+  "Description": "Switchable holistic toolset",
   "Status": "Error",
-  "Reason": "productize bleeding-edge functionalities",
-  "ERPDiscountPercent": 23495.597999999998,
-  "ERPDiscountAmount": 24025.244,
-  "DiscountPercent": 8276.894,
-  "DiscountAmount": 20311.453999999998,
+  "Reason": "",
+  "ERPDiscountPercent": 8684.314,
+  "ERPDiscountAmount": 15923.854,
+  "DiscountPercent": 16547.52,
+  "DiscountAmount": 13893.021999999999,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "excepturi",
-  "VAT": 13748.858,
-  "EarningPercent": 2958.496,
-  "EarningAmount": 24072.254,
-  "SubTotal": 10796.63,
-  "TotalPrice": 22163.648,
+  "VATInfo": "dolor",
+  "VAT": 7809.928,
+  "EarningPercent": 11971.88,
+  "EarningAmount": 21182.706,
+  "SubTotal": 28535.07,
+  "TotalPrice": 23226.074,
   "ExtraField1": "et",
-  "ExtraField2": "laborum",
-  "ExtraField3": "quidem",
-  "ExtraField4": "nesciunt",
-  "ExtraField5": "laborum",
+  "ExtraField2": "est",
+  "ExtraField3": "officia",
+  "ExtraField4": "ea",
+  "ExtraField5": "praesentium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 770
+      "FieldType": "System.Int32",
+      "FieldLength": 733
     }
   }
 }

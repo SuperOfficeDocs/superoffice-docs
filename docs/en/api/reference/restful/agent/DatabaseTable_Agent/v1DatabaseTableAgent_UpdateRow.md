@@ -66,15 +66,15 @@ No Content
 POST /api/v1/Agents/DatabaseTable/UpdateRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Harvey Group",
-  "Id": 455,
+  "TableName": "Morar-Adams",
+  "Id": 578,
   "Values": {
-    "Values1": "corrupti",
-    "Values2": "aut"
+    "Values1": "aut",
+    "Values2": "harum"
   }
 }
 ```

@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 285,
-  "Name": "Sipes, Medhurst and Keeling",
-  "Tooltip": "non",
+  "WebPanelId": 833,
+  "Name": "Corwin-Schimmel",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "Rank": 796,
+  "Rank": 847,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Fisher Group",
+  "WindowName": "Jakubowski-Streich",
   "Url": "http://www.example.com/",
-  "ProgId": "et",
-  "Icon": 392,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "dolores",
+  "Icon": 888,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 808
+      "FieldLength": 367
     }
   }
 }

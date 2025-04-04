@@ -111,7 +111,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 830,
-  "ERPQuoteVersionKey": "cumque",
-  "QuoteId": 925,
-  "Description": "Automated uniform infrastructure",
-  "Number": "887162",
+  "QuoteVersionId": 141,
+  "ERPQuoteVersionKey": "aspernatur",
+  "QuoteId": 331,
+  "Description": "Switchable bifurcated firmware",
+  "Number": "941682",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "extend collaborative content",
-  "LikelyQuoteAlternativeId": 990,
-  "SentDate": "2020-10-25T14:28:22.274133+01:00",
-  "FollowupId": 211,
-  "ExpirationDate": "2001-01-20T14:28:22.274133+01:00",
-  "DeliveryCountryId": 659,
+  "Reason": "",
+  "LikelyQuoteAlternativeId": 103,
+  "SentDate": "2024-02-25T13:14:00.9546603+01:00",
+  "FollowupId": 727,
+  "ExpirationDate": "2002-09-11T13:14:00.9546603+02:00",
+  "DeliveryCountryId": 110,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 272,
+  "InvoiceCountryId": 71,
   "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "eligendi",
-  "ERPPaymentTypeKey": "sit",
-  "ERPDeliveryTermsKey": "sequi",
-  "ERPDeliveryTypeKey": "aliquam",
-  "Rank": 454,
-  "ApprovedBy": 712,
-  "ApprovedText": "eum",
-  "ApprovedRegisteredBy": 723,
-  "ApprovedRegisteredDate": "1997-12-07T14:28:22.274133+01:00",
-  "ExtraField1": "possimus",
-  "ExtraField2": "molestias",
-  "ExtraField3": "eius",
-  "ExtraField4": "quis",
-  "ExtraField5": "qui",
-  "LastRecalculated": "2022-09-30T14:28:22.274133+02:00",
-  "Updated": "2016-11-27T14:28:22.274133+01:00",
-  "UpdatedAssociateId": 871,
-  "Registered": "2008-07-07T14:28:22.274133+02:00",
-  "RegisteredAssociateId": 440,
-  "RequestAssociateId": 130,
-  "RequestComment": "ut",
+  "ERPPaymentTermsKey": "reprehenderit",
+  "ERPPaymentTypeKey": "ratione",
+  "ERPDeliveryTermsKey": "ut",
+  "ERPDeliveryTypeKey": "accusantium",
+  "Rank": 189,
+  "ApprovedBy": 64,
+  "ApprovedText": "sit",
+  "ApprovedRegisteredBy": 296,
+  "ApprovedRegisteredDate": "2004-01-12T13:14:00.9546603+01:00",
+  "ExtraField1": "in",
+  "ExtraField2": "consequuntur",
+  "ExtraField3": "nihil",
+  "ExtraField4": "quos",
+  "ExtraField5": "omnis",
+  "LastRecalculated": "2000-03-30T13:14:00.9546603+02:00",
+  "Updated": "2021-02-08T13:14:00.9546603+01:00",
+  "UpdatedAssociateId": 936,
+  "Registered": "2000-01-01T13:14:00.9546603+01:00",
+  "RegisteredAssociateId": 758,
+  "RequestAssociateId": 792,
+  "RequestComment": "sit",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 492,
-      "ERPQuoteAlternativeKey": "architecto",
-      "QuoteVersionId": 380,
-      "Name": "O'Connell Group",
-      "Description": "Compatible actuating interface",
+      "QuoteAlternativeId": 261,
+      "ERPQuoteAlternativeKey": "ut",
+      "QuoteVersionId": 216,
+      "Name": "Roberts-Cruickshank",
+      "Description": "Innovative homogeneous hub",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 8226.75,
-      "ERPDiscountAmount": 9931.6459999999988,
-      "DiscountPercent": 8129.596,
-      "DiscountAmount": 10182.366,
+      "ERPDiscountPercent": 1864.73,
+      "ERPDiscountAmount": 24391.922,
+      "DiscountPercent": 24282.232,
+      "DiscountAmount": 8461.8,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "vitae",
-      "VAT": 3325.174,
-      "EarningPercent": 30465.613999999998,
-      "EarningAmount": 9947.3159999999989,
-      "SubTotal": 1999.492,
-      "TotalPrice": 17478.318,
-      "ExtraField1": "optio",
-      "ExtraField2": "ipsam",
-      "ExtraField3": "quidem",
-      "ExtraField4": "vel",
-      "ExtraField5": "accusamus",
+      "VATInfo": "aut",
+      "VAT": 29628.836,
+      "EarningPercent": 20217.434,
+      "EarningAmount": 316.534,
+      "SubTotal": 7650.094,
+      "TotalPrice": 2967.8979999999997,
+      "ExtraField1": "corporis",
+      "ExtraField2": "ex",
+      "ExtraField3": "voluptatem",
+      "ExtraField4": "dolor",
+      "ExtraField5": "suscipit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 411
+          "FieldType": "System.Int32",
+          "FieldLength": 17
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 148
+      "FieldType": "System.String",
+      "FieldLength": 802
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 112,
-  "Name": "Considine-Waters",
-  "Tooltip": "culpa",
+  "Id": 975,
+  "Name": "Kirlin, Osinski and Lemke",
+  "Tooltip": "maxime",
   "Deleted": false,
-  "UdListDefinitionId": 929,
-  "Rank": 792,
+  "UdListDefinitionId": 946,
+  "Rank": 221,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 897
+      "FieldLength": 179
     }
   }
 }

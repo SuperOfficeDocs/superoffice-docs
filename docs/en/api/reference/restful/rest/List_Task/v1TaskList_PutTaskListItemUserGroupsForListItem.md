@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 105,
-    "Name": "Kuphal Group",
-    "ToolTip": "Consequatur molestias neque assumenda et.",
+    "Id": 223,
+    "Name": "Hyatt-Eichmann",
+    "ToolTip": "Magni qui et aut eaque in.",
     "Deleted": false,
-    "Rank": 692,
-    "Type": "minima",
-    "ColorBlock": 418,
-    "IconHint": "dolorem",
-    "Selected": true,
-    "LastChanged": "2008-09-03T14:28:27.7270373+02:00",
+    "Rank": 930,
+    "Type": "vero",
+    "ColorBlock": 762,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2004-08-03T13:14:10.1035433+02:00",
     "ChildItems": [
       {
-        "Id": 855,
-        "Name": "Klein LLC",
-        "ToolTip": "Nulla aut quidem officiis.",
-        "Deleted": true,
-        "Rank": 389,
-        "Type": "magni",
-        "ColorBlock": 437,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2004-12-19T14:28:27.7270373+01:00",
+        "Id": 388,
+        "Name": "Casper-Langworth",
+        "ToolTip": "Sed consectetur earum qui vel.",
+        "Deleted": false,
+        "Rank": 102,
+        "Type": "ullam",
+        "ColorBlock": 31,
+        "IconHint": "distinctio",
+        "Selected": false,
+        "LastChanged": "2016-10-23T13:14:10.1035433+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "consequuntur",
-        "Hidden": false,
-        "FullName": "Jarrod Will"
+        "ExtraInfo": "alias",
+        "StyleHint": "quam",
+        "Hidden": true,
+        "FullName": "Miss Morton Deckow"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "pariatur",
+    "ExtraInfo": "quia",
+    "StyleHint": "eveniet",
     "Hidden": true,
-    "FullName": "Dr. Leatha Armstrong II"
+    "FullName": "Rosalyn Cronin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 973,
-    "Name": "Ziemann, Bechtelar and Cormier",
-    "ToolTip": "Ut omnis quasi odio incidunt quia.",
+    "Id": 863,
+    "Name": "White-Harris",
+    "ToolTip": "Non est sit rerum consequuntur.",
     "Deleted": false,
-    "Rank": 420,
-    "Type": "voluptas",
-    "ColorBlock": 633,
-    "IconHint": "qui",
+    "Rank": 241,
+    "Type": "voluptates",
+    "ColorBlock": 966,
+    "IconHint": "exercitationem",
     "Selected": false,
-    "LastChanged": "2018-09-01T14:28:27.7270373+02:00",
+    "LastChanged": "2015-07-27T13:14:10.1035433+02:00",
     "ChildItems": [
       {
-        "Id": 280,
-        "Name": "Walker, Anderson and Simonis",
-        "ToolTip": "Itaque laborum et error autem.",
-        "Deleted": false,
-        "Rank": 948,
-        "Type": "nobis",
-        "ColorBlock": 535,
-        "IconHint": "molestiae",
+        "Id": 940,
+        "Name": "Kunze, Davis and Crooks",
+        "ToolTip": "Omnis illo asperiores fugit ut corrupti dolorum.",
+        "Deleted": true,
+        "Rank": 751,
+        "Type": "accusamus",
+        "ColorBlock": 621,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2024-06-28T14:28:27.7270373+02:00",
+        "LastChanged": "2006-05-27T13:14:10.1035433+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "modi",
-        "StyleHint": "sed",
-        "Hidden": true,
-        "FullName": "Prof. Claudine Dylan Stiedemann",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "non",
+        "Hidden": false,
+        "FullName": "Dr. Marietta Lindsey Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 114
+            "FieldType": "System.Int32",
+            "FieldLength": 619
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "rerum",
+    "ExtraInfo": "eos",
+    "StyleHint": "quasi",
     "Hidden": true,
-    "FullName": "Dr. Cristina Lang I",
+    "FullName": "Ms. Ofelia Jenkins II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldLength": 410
       }
     }
   }

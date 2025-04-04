@@ -93,9 +93,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Kilback, Beahan and Kassulke",
-  "AdditionalInfo": "qui",
-  "SearchValue": "voluptas"
+  "Name": "Thompson, Heller and Armstrong",
+  "AdditionalInfo": "accusamus",
+  "SearchValue": "sunt"
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 396,
-    "Name": "Cronin-Senger",
-    "ToolTip": "Similique repellat perspiciatis pariatur ut.",
+    "Id": 546,
+    "Name": "Runte-McClure",
+    "ToolTip": "Impedit accusamus culpa nemo exercitationem.",
     "Deleted": false,
-    "Rank": 825,
-    "Type": "perferendis",
-    "ColorBlock": 220,
-    "IconHint": "perspiciatis",
-    "Selected": false,
-    "LastChanged": "2014-05-01T14:28:22.1178891+02:00",
+    "Rank": 885,
+    "Type": "qui",
+    "ColorBlock": 150,
+    "IconHint": "eligendi",
+    "Selected": true,
+    "LastChanged": "1999-02-23T13:14:00.7043711+01:00",
     "ChildItems": [
       {
-        "Id": 257,
-        "Name": "Jewess, Mraz and Deckow",
-        "ToolTip": "Quisquam labore ipsum vero.",
-        "Deleted": false,
-        "Rank": 435,
-        "Type": "explicabo",
-        "ColorBlock": 56,
-        "IconHint": "aut",
+        "Id": 26,
+        "Name": "West-Mraz",
+        "ToolTip": "Et suscipit explicabo accusantium.",
+        "Deleted": true,
+        "Rank": 546,
+        "Type": "quia",
+        "ColorBlock": 625,
+        "IconHint": "exercitationem",
         "Selected": false,
-        "LastChanged": "2009-04-19T14:28:22.1178891+02:00",
+        "LastChanged": "2021-06-24T13:14:00.7043711+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "ut",
+        "ExtraInfo": "error",
+        "StyleHint": "amet",
         "Hidden": true,
-        "FullName": "Mr. Eino Kyler Moen DDS",
+        "FullName": "Lois Wolff",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 507
+            "FieldType": "System.Int32",
+            "FieldLength": 775
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "eligendi",
+    "ExtraInfo": "atque",
+    "StyleHint": "illo",
     "Hidden": false,
-    "FullName": "Miss Davon Balistreri IV",
+    "FullName": "Miss Newton Jones",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 866
       }
     }
   }

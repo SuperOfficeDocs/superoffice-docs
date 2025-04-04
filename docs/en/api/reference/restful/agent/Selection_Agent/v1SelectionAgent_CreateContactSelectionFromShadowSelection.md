@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 651,
-  "Name": "Rutherford Group"
+  "SelectionId": 454,
+  "Name": "Walter, Effertz and Doyle"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Public-key impactful extranet",
-  "Postit": "quis",
+  "Description": "Integrated intermediate contingency",
+  "Postit": "eum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 890,
-  "IncludePerson": 269,
+  "GroupIdx": 501,
+  "IncludePerson": 686,
   "MemberCount": 99.99,
-  "Name": "Bernier-Denesik",
-  "PostitTextId": 438,
-  "CreatedDate": "2015-02-14T14:28:22.4147526+01:00",
-  "SelectionId": 718,
-  "SoundEx": "molestias",
-  "Source": 185,
-  "TextId": 220,
-  "UpdatedDate": "2015-07-18T14:28:22.4147526+02:00",
-  "UpdatedCount": 198,
-  "Visibility": 233,
+  "Name": "Goodwin LLC",
+  "PostitTextId": 888,
+  "CreatedDate": "2016-03-21T13:14:01.3319239+01:00",
+  "SelectionId": 207,
+  "SoundEx": "et",
+  "Source": 496,
+  "TextId": 765,
+  "UpdatedDate": "2007-11-04T13:14:01.3319239+01:00",
+  "UpdatedCount": 679,
+  "Visibility": 82,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 121,
-  "TargetTableName": "Johnston LLC",
-  "Completed": false,
-  "LeftSelectionId": 724,
-  "RightSelectionId": 736,
+  "TargetTableNumber": 749,
+  "TargetTableName": "Zboncak Group",
+  "Completed": true,
+  "LeftSelectionId": 913,
+  "RightSelectionId": 447,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Armstrong, Beahan and Wisoky",
-  "ShadowProviderName": "Cassin, Von and Shields",
-  "ChartKey": "ipsam",
-  "LastLoaded": "2012-12-21T14:28:22.4147526+01:00",
-  "LastLoadedBy": 702,
+  "MainProviderName": "Williamson LLC",
+  "ShadowProviderName": "Boyle, Yost and VonRueden",
+  "ChartKey": "non",
+  "LastLoaded": "2017-07-06T13:14:01.3319239+02:00",
+  "LastLoadedBy": 687,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-02-07T14:28:22.4147526+01:00",
-  "LastMembershipChangeBy": 304,
+  "LastMembershipChange": "2025-03-18T13:14:01.3319239+01:00",
+  "LastMembershipChangeBy": 187,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "deserunt",
-  "MemberTabHeading": "iste",
-  "MailingsProviderName": "Willms LLC",
-  "DashboardTileDefinitionId": 840,
+  "MainHeading": "est",
+  "MemberTabHeading": "aspernatur",
+  "MailingsProviderName": "Turcotte, Littel and Hintz",
+  "DashboardTileDefinitionId": 982,
   "VisibleFor": [
     {
-      "VisibleId": 248,
+      "VisibleId": 76,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 412
+          "FieldLength": 985
         }
       }
     },
     {
-      "VisibleId": 248,
+      "VisibleId": 76,
       "Visibility": "All",
-      "DisplayValue": "optio",
+      "DisplayValue": "eveniet",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 412
+          "FieldLength": 985
         }
       }
     }
@@ -204,8 +204,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 470
+      "FieldType": "System.Int32",
+      "FieldLength": 525
     }
   }
 }

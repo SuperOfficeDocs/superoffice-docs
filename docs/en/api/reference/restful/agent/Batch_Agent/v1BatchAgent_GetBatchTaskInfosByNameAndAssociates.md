@@ -99,10 +99,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schinner, Hermiston and Lakin",
+  "Name": "West Group",
   "AssociateIds": [
-    905,
-    430
+    801,
+    938
   ]
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 481,
-    "Name": "Schiller, Ledner and Ebert",
-    "AssociateId": 26,
-    "DetailsTable": 19,
-    "DetailsRecord": 334,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 345,
+    "Name": "Strosin, Murray and Roob",
+    "AssociateId": 961,
+    "DetailsTable": 81,
+    "DetailsRecord": 766,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "exercitationem",
-      "ParameterObject2": "aspernatur"
+      "ParameterObject1": "officia",
+      "ParameterObject2": "non"
     },
-    "LastStarted": "2022-01-16T14:28:21.4929147+01:00",
-    "Created": "2010-06-08T14:28:21.4929147+02:00",
-    "StartCount": 623,
-    "DatabaseSerialNumber": "351440",
-    "Context": "odit",
-    "Result": "nostrum",
+    "LastStarted": "2006-03-03T13:13:59.5314453+01:00",
+    "Created": "2024-10-26T13:13:59.5314453+02:00",
+    "StartCount": 876,
+    "DatabaseSerialNumber": "813409",
+    "Context": "voluptas",
+    "Result": "omnis",
     "State": "All",
-    "Description": "Intuitive 24/7 capability",
-    "Response": "ex",
-    "Request": "incidunt",
-    "ProgressDescription": "Reactive bottom-line firmware",
-    "ProgressPercent": 219,
-    "FileName": "Steuber Group",
+    "Description": "Devolved systematic interface",
+    "Response": "qui",
+    "Request": "sunt",
+    "ProgressDescription": "Focused composite Graphic Interface",
+    "ProgressPercent": 619,
+    "FileName": "Dietrich-Metz",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldLength": 461
       }
     }
   }

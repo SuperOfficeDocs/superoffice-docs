@@ -110,13 +110,13 @@ OK
 POST /api/v1/Agents/EMail/CreateNewPhysicalDocumentFromEmailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 868,
-  "EmailItemId": 346,
-  "AttachmentId": "quo"
+  "DocumentId": 935,
+  "EmailItemId": 681,
+  "AttachmentId": "eius"
 }
 ```
 
@@ -127,88 +127,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 259,
+  "DocumentId": 840,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "quasi",
-  "Header": "nobis",
-  "Name": "Haley Inc and Sons",
-  "OurRef": "accusantium",
-  "YourRef": "nisi",
-  "CreatedDate": "2020-09-27T14:28:21.9147723+02:00",
-  "UpdatedDate": "2007-05-06T14:28:21.9147723+02:00",
-  "Description": "Expanded reciprocal monitoring",
+  "Attention": "occaecati",
+  "Header": "enim",
+  "Name": "Boyle LLC",
+  "OurRef": "asperiores",
+  "YourRef": "omnis",
+  "CreatedDate": "2018-11-17T13:14:00.2824721+01:00",
+  "UpdatedDate": "2018-06-01T13:14:00.2824721+02:00",
+  "Description": "Balanced heuristic collaboration",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2017-09-20T14:28:21.9147723+02:00",
-  "ExternalRef": "provident",
+  "Date": "2007-03-26T13:14:00.2824721+02:00",
+  "ExternalRef": "eius",
   "Completed": "Completed",
-  "ActiveLinks": 370,
+  "ActiveLinks": 115,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Bosco-Rosenbaum",
-      "Id": 36,
-      "Description": "Progressive bifurcated functionalities",
-      "ExtraInfo": "quia",
-      "LinkId": 151,
+      "EntityName": "Herzog-Beahan",
+      "Id": 850,
+      "Description": "Synergized bi-directional initiative",
+      "ExtraInfo": "alias",
+      "LinkId": 410,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 290
+          "FieldLength": 232
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 784,
-  "Snum": 638,
+  "SuggestedDocumentId": 347,
+  "Snum": 372,
   "UserDefinedFields": {
-    "SuperOffice:1": "1981863868",
-    "SuperOffice:2": "Kennedi Nikolaus"
+    "SuperOffice:1": "1718567603",
+    "SuperOffice:2": "Soledad Harris"
   },
   "ExtraFields": {
-    "ExtraFields1": "consequatur",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "nesciunt",
-    "CustomFields2": "omnis"
+    "CustomFields1": "et",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2014-11-04T14:28:21.9147723+01:00",
-  "PublishTo": "2009-12-17T14:28:21.9147723+01:00",
-  "PublishFrom": "2012-10-31T14:28:21.9147723+01:00",
+  "PublishEventDate": "2000-11-20T13:14:00.2824721+01:00",
+  "PublishTo": "2012-07-16T13:14:00.2824721+02:00",
+  "PublishFrom": "2009-07-05T13:14:00.2824721+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 969,
+      "VisibleId": 839,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 556
+          "FieldType": "System.Int32",
+          "FieldLength": 467
         }
       }
     },
     {
-      "VisibleId": 969,
+      "VisibleId": 839,
       "Visibility": "All",
-      "DisplayValue": "unde",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 556
+          "FieldType": "System.Int32",
+          "FieldLength": 467
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 477
+      "FieldType": "System.String",
+      "FieldLength": 75
     }
   }
 }

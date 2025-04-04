@@ -101,15 +101,15 @@ OK
 POST /api/v1/Agents/Ticket/SaveTicketMessageEntityWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Entity": null,
-  "Notify": true,
+  "Notify": false,
   "AttachmentIds": [
-    852,
-    594
+    110,
+    706
   ],
   "UpdateRepliedAt": false
 }
@@ -122,28 +122,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 37,
+  "EjMessageId": 1001,
   "Ticket": null,
-  "CreatedAt": "2001-11-26T14:28:22.6647419+01:00",
+  "CreatedAt": "2006-02-03T13:14:01.6288165+01:00",
   "CreatedBy": null,
-  "Author": "omnis",
+  "Author": "qui",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "atque",
-  "TimeSpent": 631,
-  "Body": "id",
-  "HtmlBody": "sed",
-  "EmailHeader": "nathanial@barton.co.uk",
-  "DebugInfo": "voluptatem",
-  "MailSorter": "sed",
+  "MessageId": "aut",
+  "TimeSpent": 817,
+  "Body": "rerum",
+  "HtmlBody": "et",
+  "EmailHeader": "arnaldo.gleason@schadenebert.co.uk",
+  "DebugInfo": "non",
+  "MailSorter": "vel",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "non",
+  "SearchTitle": "rerum",
   "MessageHeaders": [
     {
-      "Id": 106,
-      "Name": "McDermott-Maggio",
-      "Value": "commodi",
+      "Id": 969,
+      "Name": "Klein-Murray",
+      "Value": "sapiente",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -151,50 +151,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 517
+          "FieldLength": 638
         }
       }
     }
   ],
   "Important": false,
-  "Language": "sed",
-  "Sentiment": 462,
-  "SentimentConfidence": 696,
+  "Language": "non",
+  "Sentiment": 855,
+  "SentimentConfidence": 509,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 353,
-      "Name": "Schmeler, Farrell and Upton",
-      "ContentType": "eos",
-      "AttSize": 750,
+      "AttachmentId": 4,
+      "Name": "Morar, Schamberger and Casper",
+      "ContentType": "excepturi",
+      "AttSize": 430,
       "InlineImage": false,
-      "ContentId": "dignissimos",
-      "AuthKey": "dolor",
+      "ContentId": "expedita",
+      "AuthKey": "nihil",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldLength": 858
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "mollitia",
-    "ExtraFields2": "laborum"
+    "ExtraFields1": "sit",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "nesciunt",
-    "CustomFields2": "debitis"
+    "CustomFields1": "illo",
+    "CustomFields2": "explicabo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 327
+      "FieldLength": 164
     }
   }
 }

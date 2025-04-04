@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 938,
-  "Name": "Corwin Inc and Sons",
-  "TZLocationCode": "aut",
-  "TZLocationCities": "vel",
-  "IsoNumber": 78,
+  "TZLocationID": 721,
+  "Name": "Treutel Group",
+  "TZLocationCode": "ad",
+  "TZLocationCities": "aliquid",
+  "IsoNumber": 913,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 919,
-      "StartMonth": 243,
-      "EndDay": 137,
-      "EndMonth": 323,
-      "TZOffset": 288,
-      "StartRulePattern": "officiis",
-      "EndRulePattern": "ipsam"
+      "StartDay": 922,
+      "StartMonth": 845,
+      "EndDay": 158,
+      "EndMonth": 631,
+      "TZOffset": 641,
+      "StartRulePattern": "velit",
+      "EndRulePattern": "suscipit"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 685,
-      "StartMonth": 692,
-      "EndDay": 347,
-      "EndMonth": 290,
-      "TZOffset": 455,
-      "StartRulePattern": "perferendis",
-      "EndRulePattern": "aut"
+      "StartDay": 648,
+      "StartMonth": 134,
+      "EndDay": 474,
+      "EndMonth": 379,
+      "TZOffset": 451,
+      "StartRulePattern": "laudantium",
+      "EndRulePattern": "sed"
     }
   }
 }

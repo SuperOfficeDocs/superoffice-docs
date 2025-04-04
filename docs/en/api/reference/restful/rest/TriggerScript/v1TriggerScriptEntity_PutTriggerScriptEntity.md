@@ -99,20 +99,20 @@ TriggerScriptEntity updated.
 PUT /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 912,
-  "Name": "Corkery LLC",
+  "ScreenChooserId": 210,
+  "Name": "Herzog, Beatty and Dietrich",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "nam",
-  "Source": "veniam",
-  "Registered": "2020-11-19T14:28:27.3520534+01:00",
-  "RegisteredAssociateId": 39,
-  "Updated": "1999-01-25T14:28:27.3520534+01:00",
-  "UpdatedAssociateId": 613
+  "Enabled": true,
+  "UniqueIdentifier": "aspernatur",
+  "Source": "consequatur",
+  "Registered": "2022-08-21T13:14:09.3685305+02:00",
+  "RegisteredAssociateId": 80,
+  "Updated": "1998-06-16T13:14:09.3685305+02:00",
+  "UpdatedAssociateId": 357
 }
 ```
 
@@ -123,22 +123,22 @@ HTTP/1.1 200 TriggerScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 410,
-  "Name": "Champlin-Douglas",
+  "ScreenChooserId": 564,
+  "Name": "Koepp Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "vel",
-  "Source": "quibusdam",
-  "Registered": "2010-03-22T14:28:27.3520534+01:00",
-  "RegisteredAssociateId": 716,
-  "Updated": "2003-12-15T14:28:27.3520534+01:00",
-  "UpdatedAssociateId": 934,
+  "UniqueIdentifier": "ut",
+  "Source": "mollitia",
+  "Registered": "2009-07-30T13:14:09.3685305+02:00",
+  "RegisteredAssociateId": 40,
+  "Updated": "2003-12-09T13:14:09.3685305+01:00",
+  "UpdatedAssociateId": 521,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 679
     }
   },
   "_Links": {

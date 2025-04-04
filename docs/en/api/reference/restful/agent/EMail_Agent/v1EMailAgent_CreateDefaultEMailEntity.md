@@ -97,147 +97,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 147,
-      "ContactName": "Herzog, Jacobs and Hackett",
-      "PersonId": 355,
-      "PersonName": "Lindgren-Heller",
-      "AssociateId": 768,
-      "Address": "adipisci",
-      "EmailId": 889,
+      "ContactId": 730,
+      "ContactName": "Hodkiewicz, Rowe and Schinner",
+      "PersonId": 705,
+      "PersonName": "Stark LLC",
+      "AssociateId": 614,
+      "Address": "reprehenderit",
+      "EmailId": 941,
       "DuplicatePersonIds": [
-        998,
-        390
+        541,
+        790
       ],
-      "Name": "Kuhlman-Hoppe",
+      "Name": "Cassin, Streich and Pfannerstill",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldType": "System.String",
+          "FieldLength": 774
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 815,
-      "ContactName": "Beahan, Streich and Jacobs",
-      "PersonId": 749,
-      "PersonName": "Kunze-Torphy",
-      "AssociateId": 538,
-      "Address": "sunt",
-      "EmailId": 315,
+      "ContactId": 907,
+      "ContactName": "Lemke, Eichmann and Goodwin",
+      "PersonId": 631,
+      "PersonName": "Jast, Nienow and Connelly",
+      "AssociateId": 801,
+      "Address": "nulla",
+      "EmailId": 290,
       "DuplicatePersonIds": [
-        900,
-        3
+        967,
+        732
       ],
-      "Name": "Sauer Inc and Sons",
+      "Name": "Jast LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 450
+          "FieldLength": 891
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 984,
-      "ContactName": "Corkery Group",
-      "PersonId": 764,
-      "PersonName": "Ratke, Littel and Prosacco",
-      "AssociateId": 717,
-      "Address": "suscipit",
-      "EmailId": 844,
+      "ContactId": 983,
+      "ContactName": "Kshlerin LLC",
+      "PersonId": 253,
+      "PersonName": "Schuppe-Kris",
+      "AssociateId": 307,
+      "Address": "esse",
+      "EmailId": 750,
       "DuplicatePersonIds": [
-        371,
-        356
+        47,
+        408
       ],
-      "Name": "Bins LLC",
+      "Name": "Wisozk, Rutherford and Graham",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 856
+          "FieldLength": 862
         }
       }
     }
   ],
   "Subject": "sed",
-  "HTMLBody": "ea",
+  "HTMLBody": "repudiandae",
   "From": null,
-  "Sent": "2022-07-22T14:28:21.9303967+02:00",
-  "Size": 182,
+  "Sent": "2020-07-18T13:14:00.32935+02:00",
+  "Size": 996,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "pariatur",
-  "PlainBody": "quod",
-  "IsSent": true,
+  "MessageID": "similique",
+  "PlainBody": "maxime",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 885,
+  "ServerId": 371,
   "Attachments": [
     {
-      "Description": "Re-contextualized 3rd generation time-frame",
-      "Filename": "minima",
-      "Size": 399,
-      "Type": "nostrum",
-      "Encoding": "impedit",
-      "Id": "nisi",
-      "Disposition": "earum",
-      "IsSafeFileExtension": true,
+      "Description": "Innovative bifurcated internet solution",
+      "Filename": "deserunt",
+      "Size": 256,
+      "Type": "mollitia",
+      "Encoding": "minima",
+      "Id": "id",
+      "Disposition": "assumenda",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 559
+          "FieldType": "System.Int32",
+          "FieldLength": 454
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Langosh-Ullrich",
+      "Name": "Wiza Group",
       "Values": [
-        "iure",
-        "fugit"
+        "unde",
+        "maxime"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldLength": 747
         }
       }
     },
     {
-      "Name": "Langosh-Ullrich",
+      "Name": "Wiza Group",
       "Values": [
-        "iure",
-        "fugit"
+        "unde",
+        "maxime"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 213
+          "FieldLength": 747
         }
       }
     }
   ],
-  "FolderName": "Beahan, Cartwright and McLaughlin",
-  "EmailItemId": 673,
-  "AccountId": 41,
-  "ReceivedAt": "2010-10-01T14:28:21.9303967+02:00",
+  "FolderName": "Zboncak, Hane and Goodwin",
+  "EmailItemId": 687,
+  "AccountId": 367,
+  "ReceivedAt": "2009-07-12T13:14:00.32935+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-02-21T14:28:21.9303967+01:00",
+  "RepliedAt": "2009-02-26T13:14:00.32935+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -245,8 +245,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 174
+      "FieldType": "System.Int32",
+      "FieldLength": 30
     }
   }
 }

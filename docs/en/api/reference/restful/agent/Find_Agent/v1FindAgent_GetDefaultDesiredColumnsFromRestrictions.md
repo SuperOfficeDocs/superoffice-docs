@@ -90,28 +90,28 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Nolan-Gutmann",
+  "ProviderName": "Adams Inc and Sons",
   "Restrictions": [
     {
-      "Name": "Barrows Group",
-      "Operator": "placeat",
+      "Name": "Gorczany-Pfannerstill",
+      "Operator": "nisi",
       "Values": [
-        "perferendis",
-        "culpa"
+        "dolor",
+        "vel"
       ],
       "DisplayValues": [
-        "aut",
-        "necessitatibus"
+        "et",
+        "voluptatem"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 378,
+      "InterParenthesis": 584,
       "InterOperator": "And",
-      "UniqueHash": 345
+      "UniqueHash": 532
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Schneider, Reinger and Jakubowski",
-    "DisplayTooltip": "vero",
-    "DisplayType": "magni",
+    "DisplayName": "Runolfsson-Rodriguez",
+    "DisplayTooltip": "quibusdam",
+    "DisplayType": "iure",
     "CanOrderBy": false,
-    "Name": "Zemlak, Lubowitz and Hackett",
+    "Name": "Ward, Kessler and Rowe",
     "CanRestrictBy": false,
-    "RestrictionType": "tenetur",
-    "RestrictionListName": "Jacobson LLC",
+    "RestrictionType": "in",
+    "RestrictionListName": "Howe Group",
     "IsVisible": false,
-    "ExtraInfo": "commodi",
-    "Width": "reprehenderit",
-    "IconHint": "facilis",
-    "HeadingIconHint": "alias"
+    "ExtraInfo": "possimus",
+    "Width": "nihil",
+    "IconHint": "ut",
+    "HeadingIconHint": "iure"
   }
 ]
 ```

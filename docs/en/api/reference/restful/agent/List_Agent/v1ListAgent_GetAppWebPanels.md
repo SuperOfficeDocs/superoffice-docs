@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 834,
-    "Name": "Thompson Group",
-    "Tooltip": "cupiditate",
+    "WebPanelId": 364,
+    "Name": "Hilpert, Ankunding and Swift",
+    "Tooltip": "eveniet",
     "Deleted": false,
-    "Rank": 999,
+    "Rank": 555,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
+    "OnCentral": false,
     "OnSatellite": false,
     "OnTravel": true,
     "OnSalesMarketingWeb": false,
     "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
+    "ShowInMenuBar": false,
     "ShowInToolBar": false,
-    "ShowInAddressBar": true,
+    "ShowInAddressBar": false,
     "ShowInStatusBar": false,
-    "WindowName": "Wilderman-Haag",
+    "WindowName": "Zieme-O'Connell",
     "Url": "http://www.example.com/",
-    "ProgId": "non",
-    "Icon": 681,
+    "ProgId": "placeat",
+    "Icon": 725,
     "AlwaysReloadOnShow": true,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 270
+        "FieldType": "System.String",
+        "FieldLength": 211
       }
     }
   }

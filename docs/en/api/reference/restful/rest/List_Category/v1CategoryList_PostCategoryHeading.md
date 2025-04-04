@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 847,
-  "Name": "Wuckert, Armstrong and Tromp",
-  "Tooltip": "nihil",
-  "Deleted": false,
-  "Rank": 723,
-  "UdListDefinitionId": 895
+  "HeadingId": 934,
+  "Name": "Blick LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 562,
+  "UdListDefinitionId": 237
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 106,
-  "Name": "Osinski Inc and Sons",
-  "Tooltip": "nihil",
+  "HeadingId": 990,
+  "Name": "Little-Ondricka",
+  "Tooltip": "quibusdam",
   "Deleted": false,
-  "Rank": 602,
-  "UdListDefinitionId": 687,
+  "Rank": 556,
+  "UdListDefinitionId": 983,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 771
+      "FieldLength": 691
     }
   }
 }

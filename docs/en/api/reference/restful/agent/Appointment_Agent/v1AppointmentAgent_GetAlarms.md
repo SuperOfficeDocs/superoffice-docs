@@ -77,13 +77,13 @@ OK
 POST /api/v1/Agents/Appointment/GetAlarms
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "IncludeInvitations": false,
-  "IncludeAllAppointments": true,
-  "DefaultAlarmLeadTimeInMinutes": 930
+  "IncludeAllAppointments": false,
+  "DefaultAlarmLeadTimeInMinutes": 798
 }
 ```
 
@@ -96,47 +96,47 @@ Content-Type: application/json; charset=utf-8
 {
   "Alarms": [
     {
-      "AppointmentId": 93,
-      "StartTime": "2017-02-27T14:28:21.2744024+01:00",
-      "EndDate": "2021-01-16T14:28:21.2744024+01:00",
-      "AlarmTime": "2005-04-04T14:28:21.2744024+02:00",
-      "PersonId": 786,
-      "PersonFullName": "Jannie Aufderhar",
-      "ContactName": "Carter-Macejkovic",
-      "ProjectId": 23,
-      "ProjectName": "Corkery-Runte",
-      "AppointmentText": "magni",
-      "SaleId": 410,
-      "SaleName": "Jenkins LLC",
-      "Location": "ut",
+      "AppointmentId": 183,
+      "StartTime": "2012-05-20T13:13:59.1719704+02:00",
+      "EndDate": "2005-03-19T13:13:59.1719704+01:00",
+      "AlarmTime": "2005-11-23T13:13:59.1719704+01:00",
+      "PersonId": 319,
+      "PersonFullName": "Ole Douglas",
+      "ContactName": "Kreiger, Stracke and Buckridge",
+      "ProjectId": 445,
+      "ProjectName": "Trantow Inc and Sons",
+      "AppointmentText": "ut",
+      "SaleId": 709,
+      "SaleName": "Jones LLC",
+      "Location": "qui",
       "AppointmentType": "BookingForChecklist",
-      "ContactId": 76,
+      "ContactId": 713,
       "AssignmentStatus": "Assigning",
       "InvitationStatus": "Accepted",
       "BookingType": "None",
-      "FormalName": "Homenick LLC",
-      "TaskName": "Friesen-Wiegand",
-      "ContactDepartment": "architect real-time action-items",
-      "ContactFullName": "Annabel Fay",
+      "FormalName": "Gleichner Group",
+      "TaskName": "Grimes-Hegmann",
+      "ContactDepartment": "",
+      "ContactFullName": "Mr. Fritz Will",
       "JoinVideomeetUrl": "http://www.example.com/",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 532
+          "FieldType": "System.Int32",
+          "FieldLength": 982
         }
       }
     }
   ],
-  "PollingInterval": 371,
-  "SilentAfter": 400,
+  "PollingInterval": 64,
+  "SilentAfter": 381,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 12
+      "FieldLength": 971
     }
   }
 }

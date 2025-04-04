@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Emmerich, Windler and Gislason",
+  "ProviderName": "Schinner LLC",
   "Restrictions": [
     {
-      "Name": "Conroy-Gislason",
-      "Operator": "omnis",
+      "Name": "Gleason, Muller and Rosenbaum",
+      "Operator": "dolorum",
       "Values": [
-        "minima",
-        "et"
+        "corrupti",
+        "modi"
       ],
       "DisplayValues": [
-        "doloribus",
-        "sed"
+        "molestiae",
+        "quia"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 33,
+      "InterParenthesis": 654,
       "InterOperator": "And",
-      "UniqueHash": 188
+      "UniqueHash": 573
     }
   ],
-  "AssociateId": 295
+  "AssociateId": 316
 }
 ```
 

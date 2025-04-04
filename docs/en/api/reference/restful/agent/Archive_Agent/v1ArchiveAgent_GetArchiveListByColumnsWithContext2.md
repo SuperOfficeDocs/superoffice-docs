@@ -167,18 +167,18 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schroeder, Shanahan and Schoen",
-  "Columns": "necessitatibus",
-  "SortOrder": "veniam",
-  "Restriction": "aut",
-  "Entities": "dolorem",
-  "Page": 574,
-  "PageSize": 558,
-  "Context": "ea"
+  "ProviderName": "Turcotte Group",
+  "Columns": "aperiam",
+  "SortOrder": "fuga",
+  "Restriction": "mollitia",
+  "Entities": "aliquid",
+  "Page": 841,
+  "PageSize": 694,
+  "Context": "magni"
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Zulauf, Lebsack and Okuneva",
-    "PrimaryKey": 526,
+    "EntityName": "Koepp-Moen",
+    "PrimaryKey": 156,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "vitae",
-        "TooltipHint": "nam",
-        "LinkHint": "doloremque"
+        "DisplayValue": "laborum",
+        "TooltipHint": "illo",
+        "LinkHint": "eligendi"
       }
     },
-    "LinkHint": "qui",
-    "StyleHint": "sed",
+    "LinkHint": "ut",
+    "StyleHint": "corporis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 906
+        "FieldType": "System.Int32",
+        "FieldLength": 410
       }
     }
   }

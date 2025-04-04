@@ -73,13 +73,13 @@ OK
 POST /api/v1/Agents/User/FindRolesWithFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Nienow Inc and Sons",
-    "Quigley Inc and Sons"
+    "Gutmann Group",
+    "Romaguera LLC"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  805,
-  772
+  1002,
+  293
 ]
 ```

@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 984,
-    "Name": "Buckridge LLC",
-    "Tooltip": "sapiente",
+    "HeadingId": 472,
+    "Name": "Hayes, Durgan and Borer",
+    "Tooltip": "explicabo",
     "Deleted": false,
-    "Rank": 821,
-    "UdListDefinitionId": 238,
+    "Rank": 735,
+    "UdListDefinitionId": 797,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 511
+        "FieldType": "System.String",
+        "FieldLength": 53
       }
     }
   }

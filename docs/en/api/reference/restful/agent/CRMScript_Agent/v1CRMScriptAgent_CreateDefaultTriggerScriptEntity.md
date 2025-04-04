@@ -79,22 +79,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 355,
-  "Name": "Bashirian-Mitchell",
+  "ScreenChooserId": 225,
+  "Name": "Witting, Emmerich and Becker",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "dolores",
-  "Source": "quo",
-  "Registered": "2006-05-21T14:28:21.680407+02:00",
-  "RegisteredAssociateId": 176,
-  "Updated": "2006-12-27T14:28:21.680407+01:00",
-  "UpdatedAssociateId": 668,
+  "Enabled": true,
+  "UniqueIdentifier": "quia",
+  "Source": "illum",
+  "Registered": "2010-02-23T13:14:00.0033265+01:00",
+  "RegisteredAssociateId": 509,
+  "Updated": "2017-07-26T13:14:00.0033265+02:00",
+  "UpdatedAssociateId": 886,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 140
+      "FieldLength": 481
     }
   }
 }

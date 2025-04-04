@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 968,
-  "Name": "Spencer, Quigley and Kessler",
-  "Tooltip": "dicta",
-  "Deleted": true,
-  "UdListDefinitionId": 203,
-  "Rank": 238,
+  "Id": 350,
+  "Name": "Kulas-Wiza",
+  "Tooltip": "neque",
+  "Deleted": false,
+  "UdListDefinitionId": 62,
+  "Rank": 691,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 103
+      "FieldLength": 698
     }
   }
 }

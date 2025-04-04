@@ -63,23 +63,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 32,
-    "DisplayName": "Zemlak-Zboncak",
-    "OngoingChats": 414,
+    "UserId": 787,
+    "DisplayName": "O'Connell, Walker and Bailey",
+    "OngoingChats": 433,
     "Present": false,
     "ChatTopics": [
-      271,
-      270
+      157,
+      80
     ]
   },
   {
-    "UserId": 32,
-    "DisplayName": "Zemlak-Zboncak",
-    "OngoingChats": 414,
+    "UserId": 787,
+    "DisplayName": "O'Connell, Walker and Bailey",
+    "OngoingChats": 433,
     "Present": false,
     "ChatTopics": [
-      271,
-      270
+      157,
+      80
     ]
   }
 ]

@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 467,
-  "Name": "Schuster-Reinger",
-  "Tooltip": "voluptas",
+  "RoleId": 404,
+  "Name": "Altenwerth-Hane",
+  "Tooltip": "commodi",
   "RoleType": "Anonymous",
-  "Deleted": 603,
-  "Rank": 572,
-  "Created": "2020-02-23T14:28:22.6803663+01:00",
-  "UseCategories": 601,
+  "Deleted": 197,
+  "Rank": 509,
+  "Created": "2003-07-29T13:14:01.6600684+02:00",
+  "UseCategories": 870,
   "CreatedBy": null,
-  "Updated": "2016-08-30T14:28:22.6803663+02:00",
+  "Updated": "2017-10-31T13:14:01.6600684+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 489
+      "FieldType": "System.Int32",
+      "FieldLength": 909
     }
   }
 }

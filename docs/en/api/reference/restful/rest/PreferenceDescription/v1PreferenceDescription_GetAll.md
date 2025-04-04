@@ -72,7 +72,7 @@ OK
 GET /api/v1/PreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,30 +83,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 236,
-    "Section": "minima",
-    "Key": "animi",
-    "Name": "Collier Group",
+    "PrefDescId": 906,
+    "Section": "velit",
+    "Key": "commodi",
+    "Name": "Price Inc and Sons",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Intuitive zero defect info-mediaries",
-    "IsBuiltin": true,
-    "TableName": "Gleichner-Rutherford",
-    "UserDefinedListId": 924,
-    "Rank": 489,
-    "SubGroup": "totam",
-    "MinLevel": 280,
-    "MaxValue": 46,
-    "MinValue": 798,
-    "RequiredLicense": "maxime",
+    "Description": "Automated full-range circuit",
+    "IsBuiltin": false,
+    "TableName": "Wilkinson LLC",
+    "UserDefinedListId": 583,
+    "Rank": 719,
+    "SubGroup": "nihil",
+    "MinLevel": 913,
+    "MaxValue": 3,
+    "MinValue": 441,
+    "RequiredLicense": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 479
+        "FieldLength": 105
       }
     }
   }

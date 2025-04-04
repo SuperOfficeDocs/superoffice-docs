@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewFaqEntry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "KbEntryId": 695
+  "KbEntryId": 540
 }
 ```
 
@@ -92,17 +92,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Title": "esse",
-  "RegisteredByFullName": "Dr. Monique Scottie Hoeger DDS",
-  "Updated": "2019-03-10T14:28:21.6960311+01:00",
-  "Question": "sint",
+  "Title": "id",
+  "RegisteredByFullName": "Josefina Hammes",
+  "Updated": "2019-05-16T13:14:00.0319625+02:00",
+  "Question": "doloremque",
   "Answer": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 38
+      "FieldLength": 314
     }
   }
 }

@@ -73,23 +73,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 80,
-  "WorkflowId": 429,
+  "WorkflowGoalId": 994,
+  "WorkflowId": 658,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Runolfsson Inc and Sons",
-      "Description": "Grass-roots empowering solution",
-      "Rank": 958,
+      "Name": "Hickle-Kunde",
+      "Description": "Open-architected exuding conglomeration",
+      "Rank": 377,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Runolfsson Inc and Sons",
-      "Description": "Grass-roots empowering solution",
-      "Rank": 958,
+      "Name": "Hickle-Kunde",
+      "Description": "Open-architected exuding conglomeration",
+      "Rank": 377,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 806,
-  "WorkflowId": 50,
+  "WorkflowGoalId": 967,
+  "WorkflowId": 836,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Miller-Satterfield",
-      "Description": "Customizable modular leverage",
-      "Rank": 837,
+      "Name": "Dickens LLC",
+      "Description": "Operative composite definition",
+      "Rank": 683,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Miller-Satterfield",
-      "Description": "Customizable modular leverage",
-      "Rank": 837,
+      "Name": "Dickens LLC",
+      "Description": "Operative composite definition",
+      "Rank": 683,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 675
+      "FieldType": "System.Int32",
+      "FieldLength": 603
     }
   }
 }

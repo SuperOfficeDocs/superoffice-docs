@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Bogisich-Legros",
-    "ToolTip": "Delectus impedit dignissimos officia et rerum.",
-    "Deleted": false,
-    "Rank": 535,
-    "Type": "aperiam",
-    "ColorBlock": 382,
-    "IconHint": "ullam",
+    "Id": 177,
+    "Name": "Kihn-Schimmel",
+    "ToolTip": "Sint illum sapiente optio harum et exercitationem.",
+    "Deleted": true,
+    "Rank": 893,
+    "Type": "repellendus",
+    "ColorBlock": 541,
+    "IconHint": "dolores",
     "Selected": true,
-    "LastChanged": "2003-10-12T14:28:27.5707933+02:00",
+    "LastChanged": "2016-03-26T13:14:09.7910245+01:00",
     "ChildItems": [
       {
-        "Id": 923,
-        "Name": "Ferry-Cummings",
-        "ToolTip": "Rerum officia est quia rerum.",
-        "Deleted": false,
-        "Rank": 162,
-        "Type": "sunt",
-        "ColorBlock": 380,
-        "IconHint": "tempore",
-        "Selected": false,
-        "LastChanged": "2017-01-31T14:28:27.5707933+01:00",
+        "Id": 696,
+        "Name": "Olson Group",
+        "ToolTip": "Inventore est quia magni alias occaecati autem suscipit.",
+        "Deleted": true,
+        "Rank": 296,
+        "Type": "velit",
+        "ColorBlock": 658,
+        "IconHint": "reiciendis",
+        "Selected": true,
+        "LastChanged": "2005-06-07T13:14:09.7910245+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "omnis",
+        "ExtraInfo": "incidunt",
+        "StyleHint": "necessitatibus",
         "Hidden": false,
-        "FullName": "Dr. Raymundo Ortiz",
+        "FullName": "Adam Jones",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 401
+            "FieldLength": 230
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "aliquid",
+    "ExtraInfo": "rerum",
+    "StyleHint": "qui",
     "Hidden": false,
-    "FullName": "Mr. Toney Anderson Sr.",
+    "FullName": "Terrance Kuvalis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 265
+        "FieldType": "System.Int32",
+        "FieldLength": 252
       }
     }
   }

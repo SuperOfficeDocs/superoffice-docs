@@ -28,7 +28,7 @@ Users with Chat-CALs from the MDO list 'chatuser'
 | onlyPresent | bool |  Only show users who are present |
 
 ```http
-GET /api/v1/ChatTopic/UserAgents?flat=True
+GET /api/v1/ChatTopic/UserAgents?flat=False
 GET /api/v1/ChatTopic/UserAgents?onlyPresent=False
 ```
 
@@ -91,50 +91,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Name": "O'Kon LLC",
-    "ToolTip": "Minima odit impedit nisi dolor consectetur rerum.",
+    "Id": 1002,
+    "Name": "Konopelski Group",
+    "ToolTip": "Voluptatem ipsam sed eos id recusandae consequatur molestiae.",
     "Deleted": true,
-    "Rank": 308,
-    "Type": "ex",
+    "Rank": 300,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 133,
-        "Name": "Prosacco Inc and Sons",
-        "ToolTip": "Error laboriosam dignissimos perspiciatis aut et aut.",
+        "Id": 414,
+        "Name": "Dach-D'Amore",
+        "ToolTip": "Odio reprehenderit et quibusdam dolores sunt fugiat.",
         "Deleted": false,
-        "Rank": 373,
-        "Type": "voluptatibus",
+        "Rank": 897,
+        "Type": "atque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "optio",
-        "ColorBlock": 423,
-        "ExtraInfo": "est",
-        "StyleHint": "veniam",
-        "FullName": "Joany Franecki",
+        "IconHint": "officiis",
+        "ColorBlock": 345,
+        "ExtraInfo": "quas",
+        "StyleHint": "sunt",
+        "FullName": "Mrs. Miguel Oliver Lowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 245
+            "FieldLength": 270
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 312,
-    "ExtraInfo": "ut",
-    "StyleHint": "et",
-    "FullName": "Josue Koelpin",
+    "IconHint": "assumenda",
+    "ColorBlock": 10,
+    "ExtraInfo": "neque",
+    "StyleHint": "facilis",
+    "FullName": "Donald Tillman MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 407
+        "FieldLength": 367
       }
     }
   }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 536,
-    "Name": "McKenzie Inc and Sons",
-    "ToolTip": "Eos eius distinctio nemo molestiae odit.",
-    "Deleted": true,
-    "Rank": 153,
-    "Type": "cum",
-    "ColorBlock": 71,
-    "IconHint": "ea",
+    "Id": 923,
+    "Name": "Mann-Bartoletti",
+    "ToolTip": "Possimus fugiat.",
+    "Deleted": false,
+    "Rank": 387,
+    "Type": "eum",
+    "ColorBlock": 166,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2016-06-23T14:28:27.6489147+02:00",
+    "LastChanged": "2003-10-06T13:14:09.9472839+02:00",
     "ChildItems": [
       {
-        "Id": 817,
-        "Name": "Reinger-Hane",
-        "ToolTip": "Ut dicta non non.",
+        "Id": 388,
+        "Name": "Cummings, Little and Hills",
+        "ToolTip": "Et ipsum explicabo distinctio.",
         "Deleted": false,
-        "Rank": 263,
-        "Type": "inventore",
-        "ColorBlock": 764,
-        "IconHint": "fugit",
+        "Rank": 129,
+        "Type": "omnis",
+        "ColorBlock": 855,
+        "IconHint": "voluptatum",
         "Selected": false,
-        "LastChanged": "2022-07-03T14:28:27.6489147+02:00",
+        "LastChanged": "2004-02-08T13:14:09.9472839+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "harum",
+        "ExtraInfo": "quod",
+        "StyleHint": "deleniti",
         "Hidden": false,
-        "FullName": "Duncan Rempel",
+        "FullName": "Fanny Breitenberg",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 432
+            "FieldLength": 571
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "dolores",
-    "Hidden": false,
-    "FullName": "Miss Horacio Nitzsche",
+    "ExtraInfo": "a",
+    "StyleHint": "dolor",
+    "Hidden": true,
+    "FullName": "Assunta Oral Orn II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 357
+        "FieldType": "System.Int32",
+        "FieldLength": 501
       }
     }
   }

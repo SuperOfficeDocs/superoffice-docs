@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,30 +108,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 262,
-    "Name": "Koch LLC",
-    "Description": "Synchronised motivating standardization",
+    "ProjectId": 856,
+    "Name": "Fay-Krajcik",
+    "Description": "Up-sized mission-critical moratorium",
     "URL": "http://www.example.com/",
-    "Type": "ratione",
-    "AssociateId": 85,
-    "AssociateFullName": "Justen Crona",
-    "TypeId": 391,
-    "Updated": "2007-01-17T14:28:22.2585084+01:00",
-    "StatusId": 970,
-    "Status": "adipisci",
-    "TextId": 57,
-    "PublishTo": "2008-01-24T14:28:22.2585084+01:00",
-    "PublishFrom": "2003-08-01T14:28:22.2585084+02:00",
-    "IsPublished": true,
+    "Type": "eos",
+    "AssociateId": 583,
+    "AssociateFullName": "Raymond Crooks",
+    "TypeId": 191,
+    "Updated": "2021-03-18T13:14:00.9234102+01:00",
+    "StatusId": 849,
+    "Status": "inventore",
+    "TextId": 596,
+    "PublishTo": "2009-02-16T13:14:00.9234102+01:00",
+    "PublishFrom": "2020-10-06T13:14:00.9234102+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1444245",
-    "ActiveErpLinks": 938,
+    "ProjectNumber": "543590",
+    "ActiveErpLinks": 386,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 253
+        "FieldType": "System.String",
+        "FieldLength": 271
       }
     }
   }

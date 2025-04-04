@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 338,
-    "Name": "Weimann, Gutmann and Stracke",
-    "Tooltip": "aut",
+    "HeadingId": 215,
+    "Name": "Leffler, Koss and Stracke",
+    "Tooltip": "nisi",
     "Deleted": false,
-    "Rank": 56,
-    "UdListDefinitionId": 425,
+    "Rank": 258,
+    "UdListDefinitionId": 337,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 350
+        "FieldLength": 963
       }
     }
   }

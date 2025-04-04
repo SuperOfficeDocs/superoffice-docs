@@ -72,7 +72,7 @@ OK
 GET /api/v1/User/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Kihn Group",
-  "DisplayName": "Denesik Group",
-  "Description": "Profound bi-directional access",
-  "ShortLabel": "eum",
+  "FieldName": "Hamill, Frami and Balistreri",
+  "DisplayName": "Hyatt-Reichel",
+  "Description": "Optional systemic intranet",
+  "ShortLabel": "temporibus",
   "HideLabel": false,
   "HideField": false,
-  "IsIndexed": false,
+  "IsIndexed": true,
   "IsMandatory": true,
   "IsReadOnly": false,
   "IsExternal": false,
-  "IsDisplayField": true,
-  "Rank": 678,
-  "TemplateVariableName": "Hoeger Inc and Sons"
+  "IsDisplayField": false,
+  "Rank": 332,
+  "TemplateVariableName": "Reichel-Yundt"
 }
 ```

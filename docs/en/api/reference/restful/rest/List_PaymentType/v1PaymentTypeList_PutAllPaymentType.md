@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "Veum-Hermiston",
-    "Tooltip": "necessitatibus",
-    "Deleted": false,
-    "UdListDefinitionId": 922,
-    "Rank": 666
+    "Id": 99,
+    "Name": "Grimes, Trantow and Blick",
+    "Tooltip": "ratione",
+    "Deleted": true,
+    "UdListDefinitionId": 173,
+    "Rank": 918
   },
   {
-    "Id": 779,
-    "Name": "Veum-Hermiston",
-    "Tooltip": "necessitatibus",
-    "Deleted": false,
-    "UdListDefinitionId": 922,
-    "Rank": 666
+    "Id": 99,
+    "Name": "Grimes, Trantow and Blick",
+    "Tooltip": "ratione",
+    "Deleted": true,
+    "UdListDefinitionId": 173,
+    "Rank": 918
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 101,
-    "Name": "White-Schaden",
-    "Tooltip": "non",
-    "Deleted": false,
-    "UdListDefinitionId": 665,
-    "Rank": 940,
+    "Id": 741,
+    "Name": "Murray, Breitenberg and Bruen",
+    "Tooltip": "voluptate",
+    "Deleted": true,
+    "UdListDefinitionId": 394,
+    "Rank": 98,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 562
+        "FieldType": "System.String",
+        "FieldLength": 837
       }
     }
   }

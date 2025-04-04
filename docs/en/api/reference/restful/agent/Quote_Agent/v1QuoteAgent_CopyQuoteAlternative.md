@@ -101,9 +101,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 844,
-  "QuoteAlternativeId": 842,
-  "QuoteAlternativeName": "Abbott, Yundt and Jones"
+  "QuoteVersionId": 533,
+  "QuoteAlternativeId": 608,
+  "QuoteAlternativeName": "Waters, Wolff and Feest"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 487,
-  "ERPQuoteAlternativeKey": "esse",
-  "QuoteVersionId": 521,
-  "Name": "Mertz-Stanton",
-  "Description": "Robust context-sensitive utilisation",
+  "QuoteAlternativeId": 462,
+  "ERPQuoteAlternativeKey": "harum",
+  "QuoteVersionId": 56,
+  "Name": "Ferry-Reinger",
+  "Description": "Organic leading edge frame",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 24257.16,
-  "ERPDiscountAmount": 2450.788,
-  "DiscountPercent": 29820.01,
-  "DiscountAmount": 19556.16,
+  "ERPDiscountPercent": 8552.686,
+  "ERPDiscountAmount": 11066.154,
+  "DiscountPercent": 4581.9079999999994,
+  "DiscountAmount": 24554.89,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "est",
-  "VAT": 17898.273999999998,
-  "EarningPercent": 13720.652,
-  "EarningAmount": 27491.448,
-  "SubTotal": 20455.618,
-  "TotalPrice": 30804.086,
-  "ExtraField1": "veritatis",
-  "ExtraField2": "maiores",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "qui",
-  "ExtraField5": "et",
+  "VATInfo": "quis",
+  "VAT": 8988.312,
+  "EarningPercent": 3362.7819999999997,
+  "EarningAmount": 20270.712,
+  "SubTotal": 10630.528,
+  "TotalPrice": 30835.426,
+  "ExtraField1": "libero",
+  "ExtraField2": "nobis",
+  "ExtraField3": "error",
+  "ExtraField4": "quasi",
+  "ExtraField5": "quibusdam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 271
+      "FieldType": "System.Int32",
+      "FieldLength": 49
     }
   }
 }

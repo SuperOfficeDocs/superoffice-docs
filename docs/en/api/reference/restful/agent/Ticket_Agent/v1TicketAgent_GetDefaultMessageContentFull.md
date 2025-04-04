@@ -79,10 +79,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 13,
+  "TicketId": 154,
   "MessageActionType": "Forward",
-  "TicketMessageId": 974,
-  "TicketTypeId": 61
+  "TicketMessageId": 771,
+  "TicketTypeId": 224
 }
 ```
 
@@ -93,23 +93,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "voluptas",
+  "Body": "aut",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 300,
-      "Name": "Thiel, Vandervort and Berge",
-      "ContentType": "voluptas",
-      "AttSize": 52,
+      "AttachmentId": 932,
+      "Name": "Morar, Rosenbaum and Maggio",
+      "ContentType": "iste",
+      "AttSize": 979,
       "InlineImage": false,
-      "ContentId": "culpa",
-      "AuthKey": "eveniet",
-      "IsSafeFileExtension": false,
+      "ContentId": "quam",
+      "AuthKey": "blanditiis",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 695
+          "FieldLength": 940
         }
       }
     }

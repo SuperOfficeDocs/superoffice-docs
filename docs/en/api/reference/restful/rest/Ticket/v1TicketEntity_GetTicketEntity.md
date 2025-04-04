@@ -33,7 +33,7 @@ Calls the Ticket agent service GetTicketEntity.
 
 ```http
 GET /api/v1/Ticket/{id}?$select=name,department,category/id
-GET /api/v1/Ticket/{id}?fk=True
+GET /api/v1/Ticket/{id}?fk=False
 ```
 
 
@@ -142,21 +142,21 @@ HTTP/1.1 200 TicketEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 976,
-  "Title": "ea",
-  "CreatedAt": "2023-03-10T14:28:27.2895551+01:00",
-  "LastChanged": "2017-10-24T14:28:27.2895551+02:00",
-  "ReadByOwner": "2001-07-20T14:28:27.2895551+02:00",
-  "ReadByCustomer": "1998-07-10T14:28:27.2895551+02:00",
-  "FirstReadByOwner": "2024-11-13T14:28:27.2895551+01:00",
-  "FirstReadByUser": "2015-06-23T14:28:27.2895551+02:00",
-  "Activate": "2025-03-17T14:28:27.2895551+01:00",
-  "ClosedAt": "2021-08-01T14:28:27.2895551+02:00",
-  "RepliedAt": "2006-03-24T14:28:27.2895551+01:00",
-  "AlertTimeout": "2018-07-27T14:28:27.2895551+02:00",
-  "Deadline": "2004-04-18T14:28:27.2895551+02:00",
+  "TicketId": 46,
+  "Title": "excepturi",
+  "CreatedAt": "2003-05-02T13:14:09.2591489+02:00",
+  "LastChanged": "2011-09-29T13:14:09.2591489+02:00",
+  "ReadByOwner": "2015-01-16T13:14:09.2591489+01:00",
+  "ReadByCustomer": "2013-11-25T13:14:09.2591489+01:00",
+  "FirstReadByOwner": "2002-07-13T13:14:09.2591489+02:00",
+  "FirstReadByUser": "2022-03-24T13:14:09.2591489+01:00",
+  "Activate": "2008-12-10T13:14:09.2591489+01:00",
+  "ClosedAt": "2005-12-10T13:14:09.2591489+01:00",
+  "RepliedAt": "2022-09-21T13:14:09.2591489+02:00",
+  "AlertTimeout": "2015-06-08T13:14:09.2591489+02:00",
+  "Deadline": "2012-05-26T13:14:09.2591489+02:00",
   "CreatedBy": null,
-  "Author": "incidunt",
+  "Author": "doloribus",
   "OwnedBy": null,
   "Category": null,
   "Slevel": "External",
@@ -167,168 +167,168 @@ Content-Type: application/json; charset=utf-8
   "Person": null,
   "SecondaryPersons": [
     {
-      "Position": "ipsam",
-      "PersonId": 839,
-      "Mrmrs": "aspernatur",
-      "Firstname": "Elmore",
-      "Lastname": "Pagac",
-      "MiddleName": "Jast-Kihn",
-      "Title": "eaque",
-      "Description": "Face to face scalable circuit",
-      "Email": "morris@cronin.name",
-      "FullName": "Quinton Schuster",
-      "DirectPhone": "351-885-6908 x327",
-      "FormalName": "DuBuque, Jacobson and Douglas",
-      "CountryId": 379,
-      "ContactId": 572,
-      "ContactName": "Krajcik, Hermann and Schowalter",
-      "Retired": 874,
-      "Rank": 860,
-      "ActiveInterests": 655,
+      "Position": "adipisci",
+      "PersonId": 95,
+      "Mrmrs": "sapiente",
+      "Firstname": "Chelsie",
+      "Lastname": "Purdy",
+      "MiddleName": "Cassin, Stehr and Emard",
+      "Title": "quia",
+      "Description": "Compatible zero tolerance Graphical User Interface",
+      "Email": "tre_cremin@feeney.uk",
+      "FullName": "Miss Joelle Stanton",
+      "DirectPhone": "1-986-616-4045 x068",
+      "FormalName": "Kiehn, Sauer and Murray",
+      "CountryId": 719,
+      "ContactId": 431,
+      "ContactName": "Bechtelar LLC",
+      "Retired": 978,
+      "Rank": 515,
+      "ActiveInterests": 250,
       "ContactDepartment": "",
-      "ContactCountryId": 607,
-      "ContactOrgNr": "1050053",
-      "FaxPhone": "1-504-733-9039 x885",
-      "MobilePhone": "1-030-315-0415 x8058",
-      "ContactPhone": "664-190-0425 x555",
-      "AssociateName": "Kautzer, Cremin and Jacobs",
-      "AssociateId": 630,
+      "ContactCountryId": 127,
+      "ContactOrgNr": "1065957",
+      "FaxPhone": "761.507.9564 x27903",
+      "MobilePhone": "1-424-092-0422 x78015",
+      "ContactPhone": "893.309.8181",
+      "AssociateName": "Buckridge, Feest and Stark",
+      "AssociateId": 380,
       "UsePersonAddress": false,
-      "ContactFax": "et",
-      "Kanafname": "veritatis",
-      "Kanalname": "sit",
-      "Post1": "consequatur",
-      "Post2": "praesentium",
-      "Post3": "tempora",
-      "EmailName": "deontae_mraz@herzogbechtelar.co.uk",
-      "ContactFullName": "Gerhard Kuphal",
-      "ActiveErpLinks": 857,
-      "TicketPriorityId": 580,
-      "SupportLanguageId": 666,
-      "SupportAssociateId": 964,
+      "ContactFax": "facere",
+      "Kanafname": "sapiente",
+      "Kanalname": "laboriosam",
+      "Post1": "ipsa",
+      "Post2": "assumenda",
+      "Post3": "sit",
+      "EmailName": "godfrey_doyle@champlin.uk",
+      "ContactFullName": "Tomasa Lesch",
+      "ActiveErpLinks": 65,
+      "TicketPriorityId": 203,
+      "SupportLanguageId": 317,
+      "SupportAssociateId": 925,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "1724922",
+      "PersonNumber": "856015",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 461
+          "FieldLength": 372
         }
       }
     }
   ],
-  "AlertLevel": 871,
-  "ConnectId": 848,
+  "AlertLevel": 776,
+  "ConnectId": 477,
   "ReadStatus": "Green",
-  "TimeToReply": 528,
-  "RealTimeToReply": 393,
-  "TimeToClose": 767,
-  "RealTimeToClose": 802,
-  "TimeSpentInternally": 600,
-  "TimeSpentExternally": 369,
-  "TimeSpentQueue": 683,
-  "RealTimeSpentInternally": 874,
-  "RealTimeSpentExternally": 578,
-  "RealTimeSpentQueue": 256,
-  "TimeSpent": 471,
-  "HasAttachment": true,
-  "NumReplies": 869,
-  "NumMessages": 782,
-  "FromAddress": "amet",
+  "TimeToReply": 33,
+  "RealTimeToReply": 851,
+  "TimeToClose": 846,
+  "RealTimeToClose": 774,
+  "TimeSpentInternally": 315,
+  "TimeSpentExternally": 119,
+  "TimeSpentQueue": 291,
+  "RealTimeSpentInternally": 175,
+  "RealTimeSpentExternally": 429,
+  "RealTimeSpentQueue": 23,
+  "TimeSpent": 993,
+  "HasAttachment": false,
+  "NumReplies": 8,
+  "NumMessages": 450,
+  "FromAddress": "repudiandae",
   "Messages": [
     {
-      "TicketMessageId": 612,
-      "CreatedAt": "1998-08-10T14:28:27.2895551+02:00",
+      "TicketMessageId": 236,
+      "CreatedAt": "2005-07-10T13:14:09.2591489+02:00",
       "Slevel": "External",
-      "Important": false,
-      "Author": "sed",
-      "PersonId": 652,
-      "PersonFullName": "Lonzo Bins",
-      "ContactId": 57,
-      "ContactName": "Hodkiewicz LLC",
+      "Important": true,
+      "Author": "consectetur",
+      "PersonId": 418,
+      "PersonFullName": "Verlie Stamm",
+      "ContactId": 198,
+      "ContactName": "Ebert Inc and Sons",
       "ContactDepartment": "",
-      "NumAttachments": 479,
-      "EmailHeader": "cletus@becker.name",
+      "NumAttachments": 206,
+      "EmailHeader": "lizzie@hudsoncorwin.co.uk",
       "MessageHeaders": [
         {},
         {}
       ],
-      "Language": "quia",
-      "Sentiment": 508,
-      "SentimentConfidence": 608,
-      "CreatedBy": 765,
-      "ChangedAt": "2000-04-08T14:28:27.2895551+02:00",
+      "Language": "ut",
+      "Sentiment": 404,
+      "SentimentConfidence": 657,
+      "CreatedBy": 576,
+      "ChangedAt": "2015-02-22T13:14:09.2591489+01:00",
       "Badge": "Comment",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 79
+          "FieldType": "System.Int32",
+          "FieldLength": 858
         }
       }
     }
   ],
   "Tags": [
     {
-      "Id": 230,
-      "Name": "Schinner-Dickens",
-      "ToolTip": "Sed quo voluptas deserunt vel.",
+      "Id": 786,
+      "Name": "Feil, Ruecker and Runte",
+      "ToolTip": "Doloremque beatae maiores aut cum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldLength": 114
         }
       }
     },
     {
-      "Id": 230,
-      "Name": "Schinner-Dickens",
-      "ToolTip": "Sed quo voluptas deserunt vel.",
+      "Id": 786,
+      "Name": "Feil, Ruecker and Runte",
+      "ToolTip": "Doloremque beatae maiores aut cum.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 762
+          "FieldLength": 114
         }
       }
     }
   ],
-  "Language": "et",
-  "Sentiment": 341,
-  "SentimentConfidence": 427,
-  "SuggestedCategoryId": 664,
+  "Language": "voluptatem",
+  "Sentiment": 548,
+  "SentimentConfidence": 365,
+  "SuggestedCategoryId": 905,
   "SuggestedCategoryName": "VIP Customer",
-  "OrigHumanCategoryId": 669,
-  "IconHint": "occaecati",
+  "OrigHumanCategoryId": 999,
+  "IconHint": "ipsam",
   "Sale": null,
   "Project": null,
   "FormSubmission": null,
   "TicketType": null,
-  "ActiveStatusMonitorId": 789,
+  "ActiveStatusMonitorId": 611,
   "ExtraFields": {
-    "ExtraFields1": "itaque",
-    "ExtraFields2": "unde"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "dolorem",
-    "CustomFields2": "aut"
+    "CustomFields1": "repellat",
+    "CustomFields2": "dolor"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldType": "System.String",
+      "FieldLength": 927
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

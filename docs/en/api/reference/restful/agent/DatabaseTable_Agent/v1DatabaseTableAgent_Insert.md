@@ -82,14 +82,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/Insert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "McGlynn, Eichmann and O'Kon",
+  "TableName": "Hills-Langworth",
   "Columns": [
-    "illo",
-    "a"
+    "perspiciatis",
+    "dolores"
   ],
   "Data": [
     [
@@ -109,41 +109,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "enim",
-  "Inserts": 777,
-  "Updates": 948,
-  "Deletes": 184,
+  "Success": true,
+  "Message": "optio",
+  "Inserts": 77,
+  "Updates": 188,
+  "Deletes": 602,
   "RowStatus": [
     {
-      "PrimaryKey": 672,
+      "PrimaryKey": 419,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "doloribus"
+        "et",
+        "veniam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldLength": 649
         }
       }
     },
     {
-      "PrimaryKey": 672,
+      "PrimaryKey": 419,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "ut",
-        "doloribus"
+        "et",
+        "veniam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 455
+          "FieldLength": 649
         }
       }
     }
@@ -152,8 +152,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 559
+      "FieldType": "System.String",
+      "FieldLength": 1001
     }
   }
 }

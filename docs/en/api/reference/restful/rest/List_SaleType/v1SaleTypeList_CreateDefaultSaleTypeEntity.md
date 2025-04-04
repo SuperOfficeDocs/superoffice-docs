@@ -76,7 +76,7 @@ OK
 GET /api/v1/List/SaleType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,53 +86,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 406,
-  "Name": "Legros Inc and Sons",
-  "Tooltip": "dolorum",
-  "Rank": 639,
+  "SaleTypeId": 958,
+  "Name": "Hegmann Group",
+  "Tooltip": "quisquam",
+  "Rank": 19,
   "DurationUnit": "Century",
-  "SaleDuration": 988,
-  "SaleTypeCatId": 797,
+  "SaleDuration": 11,
+  "SaleTypeCatId": 785,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 391,
-  "QuoteLinesTemplate": 400,
-  "ConfirmationLinesTemplate": 726,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 900,
+  "QuoteLinesTemplate": 934,
+  "ConfirmationLinesTemplate": 817,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 287,
-  "MinEarningPercent": 707,
-  "GroupQuoteLinesBy": 244,
-  "SortGroupLinesBy": 65,
+  "MaxDiscountPercent": 76,
+  "MinEarningPercent": 512,
+  "GroupQuoteLinesBy": 676,
+  "SortGroupLinesBy": 605,
   "Stages": [
     {
-      "Id": 598,
-      "Name": "Yost, Goyette and Thiel",
-      "ToolTip": "Tempora fugit dolorem consectetur debitis consequuntur et dolorem.",
+      "Id": 145,
+      "Name": "Effertz, Reynolds and Altenwerth",
+      "ToolTip": "Ea exercitationem repellat quo laudantium.",
       "Deleted": false,
-      "Rank": 623,
-      "Type": "error",
-      "ColorBlock": 996,
-      "IconHint": "et",
-      "Selected": false,
-      "LastChanged": "2006-08-19T14:28:27.6957886+02:00",
+      "Rank": 942,
+      "Type": "exercitationem",
+      "ColorBlock": 814,
+      "IconHint": "provident",
+      "Selected": true,
+      "LastChanged": "2002-03-31T13:14:10.0566655+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "iste",
-      "StyleHint": "nesciunt",
+      "ExtraInfo": "quo",
+      "StyleHint": "dolor",
       "Hidden": false,
-      "FullName": "Isabella Ondricka PhD",
+      "FullName": "Miss Reed Kerluke II",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 511
+          "FieldType": "System.Int32",
+          "FieldLength": 970
         }
       }
     }
@@ -141,8 +141,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 410
+      "FieldType": "System.Int32",
+      "FieldLength": 750
     }
   }
 }

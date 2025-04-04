@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 287,
-    "Name": "Crona-Rempel",
-    "ToolTip": "Nesciunt ipsum culpa est.",
-    "Deleted": true,
-    "Rank": 530,
-    "Type": "voluptatum",
-    "ColorBlock": 765,
-    "IconHint": "quaerat",
-    "Selected": true,
-    "LastChanged": "2017-05-08T14:28:27.7114135+02:00",
+    "Id": 201,
+    "Name": "Hintz Group",
+    "ToolTip": "Voluptates sint dolorem.",
+    "Deleted": false,
+    "Rank": 844,
+    "Type": "eos",
+    "ColorBlock": 740,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2002-12-12T13:14:10.0722914+01:00",
     "ChildItems": [
       {
-        "Id": 617,
-        "Name": "Abbott Inc and Sons",
-        "ToolTip": "Cumque non at accusamus ipsam ratione corrupti.",
-        "Deleted": false,
-        "Rank": 245,
-        "Type": "temporibus",
-        "ColorBlock": 508,
-        "IconHint": "totam",
+        "Id": 757,
+        "Name": "Runolfsson-Mayert",
+        "ToolTip": "Sequi libero maiores tempora ab.",
+        "Deleted": true,
+        "Rank": 885,
+        "Type": "libero",
+        "ColorBlock": 387,
+        "IconHint": "sit",
         "Selected": false,
-        "LastChanged": "2016-05-25T14:28:27.7114135+02:00",
+        "LastChanged": "2016-06-11T13:14:10.0722914+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "hic",
-        "Hidden": true,
-        "FullName": "Barrett Ona Grady II",
+        "ExtraInfo": "eum",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Jessie Dooley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 675
+            "FieldLength": 892
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "ex",
-    "Hidden": true,
-    "FullName": "Lew Dayne Turner MD",
+    "ExtraInfo": "vel",
+    "StyleHint": "sed",
+    "Hidden": false,
+    "FullName": "Dr. Stephon Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 476
+        "FieldLength": 583
       }
     }
   }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 648,
-  "Name": "Bailey Inc and Sons",
-  "Tooltip": "fugit",
-  "Deleted": false,
-  "Rank": 611,
-  "UdListDefinitionId": 482
+  "HeadingId": 179,
+  "Name": "Langosh-Schamberger",
+  "Tooltip": "itaque",
+  "Deleted": true,
+  "Rank": 488,
+  "UdListDefinitionId": 821
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 303,
-  "Name": "Rice-Botsford",
-  "Tooltip": "sit",
+  "HeadingId": 137,
+  "Name": "Miller, Dooley and Ward",
+  "Tooltip": "quo",
   "Deleted": true,
-  "Rank": 110,
-  "UdListDefinitionId": 277,
+  "Rank": 198,
+  "UdListDefinitionId": 495,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldLength": 292
     }
   }
 }

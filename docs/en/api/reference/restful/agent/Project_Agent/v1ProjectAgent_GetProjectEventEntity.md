@@ -26,7 +26,7 @@ Gets a ProjectEventEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=11
+POST /api/v1/Agents/Project/GetProjectEventEntity?projectEventEntityId=414
 POST /api/v1/Agents/Project/GetProjectEventEntity?$select=name,department,category/id
 ```
 
@@ -106,94 +106,94 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SignOffConfirmationText": "consequatur",
-  "SignOffText": "repellendus",
-  "SignOnConfirmationText": "cumque",
-  "SignOnText": "placeat",
-  "EventDate": "2005-11-27T14:28:22.2585084+01:00",
+  "SignOffConfirmationText": "aut",
+  "SignOffText": "rerum",
+  "SignOnConfirmationText": "accusamus",
+  "SignOnText": "nihil",
+  "EventDate": "2018-12-19T13:14:00.9234102+01:00",
   "Enabled": false,
-  "CreatedDate": "2016-12-07T14:28:22.2585084+01:00",
+  "CreatedDate": "2021-06-13T13:14:00.9234102+02:00",
   "SignOff": false,
   "SignOffTaskEnable": false,
-  "SignOffTaskId": 35,
+  "SignOffTaskId": 294,
   "SignOffTriggersAssign": false,
-  "SignOn": false,
+  "SignOn": true,
   "SignOnTaskEnable": false,
-  "SignOnTaskId": 322,
+  "SignOnTaskId": 529,
   "SignOnTriggersAssign": true,
-  "UpdatedDate": "2024-05-04T14:28:22.2585084+02:00",
+  "UpdatedDate": "2010-04-30T13:14:00.9234102+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ProjectId": 899,
-  "Id": 119,
-  "PublishFrom": "2014-08-17T14:28:22.2585084+02:00",
+  "ProjectId": 905,
+  "Id": 412,
+  "PublishFrom": "2014-10-17T13:14:00.9234102+02:00",
   "PublishType": "External",
-  "PublishTo": "2023-09-28T14:28:22.2585084+02:00",
+  "PublishTo": "2001-01-03T13:14:00.9234102+01:00",
   "VisibleForCategories": [
     {
-      "Id": 39,
-      "Name": "McCullough Group",
-      "ToolTip": "Delectus dolores dolores non unde deleniti vitae blanditiis.",
-      "Deleted": true,
-      "Rank": 852,
+      "Id": 241,
+      "Name": "Leffler, Wilkinson and Bartell",
+      "ToolTip": "Quia est beatae et ut inventore sunt nesciunt.",
+      "Deleted": false,
+      "Rank": 938,
       "Type": "cupiditate",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "rerum",
-      "ColorBlock": 588,
-      "ExtraInfo": "itaque",
-      "StyleHint": "deleniti",
-      "FullName": "Kathlyn Dare",
+      "IconHint": "sapiente",
+      "ColorBlock": 165,
+      "ExtraInfo": "laboriosam",
+      "StyleHint": "ipsum",
+      "FullName": "Mrs. Roman Prohaska MD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldLength": 910
         }
       }
     }
   ],
   "VisibleForPersonInterests": [
     {
-      "Id": 833,
-      "Name": "Fadel Group",
-      "ToolTip": "Non et natus non eligendi officia.",
-      "Deleted": true,
-      "Rank": 103,
-      "Type": "accusamus",
+      "Id": 933,
+      "Name": "Mraz Group",
+      "ToolTip": "Eaque eaque quae similique repellat.",
+      "Deleted": false,
+      "Rank": 700,
+      "Type": "iusto",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "ipsa",
-      "ColorBlock": 76,
-      "ExtraInfo": "maxime",
-      "StyleHint": "quae",
-      "FullName": "Kaelyn Lesch",
+      "IconHint": "expedita",
+      "ColorBlock": 896,
+      "ExtraInfo": "excepturi",
+      "StyleHint": "et",
+      "FullName": "Lurline Lubowitz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 646
+          "FieldLength": 952
         }
       }
     }
   ],
   "IsPublished": false,
-  "IsVisibleForMembers": false,
+  "IsVisibleForMembers": true,
   "IsVisibleForCategories": false,
-  "IsVisibleForPersonInterests": true,
-  "ProjectEventId": 824,
+  "IsVisibleForPersonInterests": false,
+  "ProjectEventId": 66,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 958
+      "FieldLength": 752
     }
   }
 }

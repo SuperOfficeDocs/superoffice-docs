@@ -31,7 +31,7 @@ Calls the Appointment agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Task/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Task/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 52,
-    "Name": "Green LLC",
-    "ToolTip": "In laudantium consectetur consequatur sapiente similique provident.",
+    "Id": 400,
+    "Name": "McClure-Zboncak",
+    "ToolTip": "Rerum necessitatibus ea et non optio maiores beatae.",
     "Deleted": false,
-    "Rank": 399,
-    "Type": "suscipit",
-    "ColorBlock": 650,
-    "IconHint": "quis",
-    "Selected": false,
-    "LastChanged": "2017-07-10T14:28:27.7270373+02:00",
+    "Rank": 959,
+    "Type": "similique",
+    "ColorBlock": 579,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2006-02-11T13:14:10.1035433+01:00",
     "ChildItems": [
       {
-        "Id": 24,
-        "Name": "Dickens, Kerluke and Jacobs",
-        "ToolTip": "Enim ut.",
-        "Deleted": false,
-        "Rank": 56,
-        "Type": "quis",
-        "ColorBlock": 270,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2005-09-14T14:28:27.7270373+02:00",
+        "Id": 752,
+        "Name": "Nikolaus Inc and Sons",
+        "ToolTip": "Sed cupiditate possimus numquam autem mollitia.",
+        "Deleted": true,
+        "Rank": 322,
+        "Type": "est",
+        "ColorBlock": 567,
+        "IconHint": "consequuntur",
+        "Selected": false,
+        "LastChanged": "2010-06-11T13:14:10.1035433+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repellendus",
-        "StyleHint": "perferendis",
+        "ExtraInfo": "molestias",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Ida Schiller V",
+        "FullName": "Miss Kenny Stehr",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 26
+            "FieldType": "System.Int32",
+            "FieldLength": 143
           }
         }
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "possimus",
+    "ExtraInfo": "dolore",
+    "StyleHint": "nemo",
     "Hidden": false,
-    "FullName": "Ross Ward",
+    "FullName": "Ms. Pink Jacques Pfeffer PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 815
+        "FieldLength": 286
       }
     }
   }

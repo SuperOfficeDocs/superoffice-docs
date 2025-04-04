@@ -136,7 +136,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 962
+  "SaleId": 34
 }
 ```
 
@@ -151,121 +151,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2005-02-14T14:28:21.4147931+01:00",
-  "AppointmentId": 165,
-  "Description": "Business-focused eco-centric contingency",
-  "Title": "accusantium",
-  "Agenda": "et",
-  "InternalNotes": "odio",
-  "StartDate": "2003-03-02T14:28:21.4147931+01:00",
-  "EndDate": "2010-06-15T14:28:21.4147931+02:00",
+  "CreatedDate": "2008-12-14T13:13:59.4063589+01:00",
+  "AppointmentId": 384,
+  "Description": "Configurable neutral orchestration",
+  "Title": "est",
+  "Agenda": "quo",
+  "InternalNotes": "laborum",
+  "StartDate": "2012-09-05T13:13:59.4063589+02:00",
+  "EndDate": "2012-04-23T13:13:59.4063589+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 946,
+  "MotherId": 251,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2012-10-22T14:28:21.4147931+02:00",
+  "UpdatedDate": "2006-08-18T13:13:59.4221723+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 879,
+  "ActiveLinks": 311,
   "Links": [
     {
-      "EntityName": "Ryan-Hintz",
-      "Id": 435,
-      "Description": "Object-based neutral protocol",
-      "ExtraInfo": "alias",
-      "LinkId": 971,
+      "EntityName": "Goyette LLC",
+      "Id": 56,
+      "Description": "Realigned impactful extranet",
+      "ExtraInfo": "laudantium",
+      "LinkId": 926,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 30
+          "FieldLength": 896
         }
       }
     }
   ],
-  "AlarmLeadTime": "amet",
-  "HasAlarm": true,
-  "ColorIndex": 806,
+  "AlarmLeadTime": "odio",
+  "HasAlarm": false,
+  "ColorIndex": 715,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "mollitia",
-  "LeadTime": "ut",
-  "Location": "tenetur",
-  "RejectCounter": 874,
-  "RejectReason": "seize transparent models",
+  "LagTime": "fugit",
+  "LeadTime": "et",
+  "Location": "et",
+  "RejectCounter": 511,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 106,
-      "PersonId": 194,
-      "ContactId": 211,
-      "EmailId": 818,
+      "AssociateId": 432,
+      "PersonId": 916,
+      "ContactId": 259,
+      "EmailId": 90,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "eveline@schmitt.us",
-      "Description": "Triple-buffered attitude-oriented flexibility"
+      "EmailAddress": "audrey@konopelskikris.com",
+      "Description": "Seamless reciprocal intranet"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2014-03-20T14:28:21.4147931+01:00",
+  "ActiveDate": "2003-11-08T13:13:59.4221723+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 215,
+  "PreferredTZLocation": 794,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 216,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 849,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sunt",
+  "CentralserviceVideomeetId": "sed",
   "UserDefinedFields": {
-    "SuperOffice:1": "Claudine Larkin",
-    "SuperOffice:2": "Dr. Ellie Murazik"
+    "SuperOffice:1": "1240080206",
+    "SuperOffice:2": "Arnulfo Lilliana Emmerich I"
   },
   "ExtraFields": {
-    "ExtraFields1": "esse",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "rem",
+    "ExtraFields2": "dolores"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "culpa"
+    "CustomFields1": "et",
+    "CustomFields2": "accusamus"
   },
-  "PublishEventDate": "2010-05-09T14:28:21.4147931+02:00",
-  "PublishTo": "2012-03-24T14:28:21.4147931+01:00",
-  "PublishFrom": "2007-05-16T14:28:21.4147931+02:00",
+  "PublishEventDate": "2004-03-08T13:13:59.4231812+01:00",
+  "PublishTo": "2023-01-08T13:13:59.4231812+01:00",
+  "PublishFrom": "2016-09-29T13:13:59.4231812+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 895,
+      "VisibleId": 507,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 734
+          "FieldType": "System.Int32",
+          "FieldLength": 666
         }
       }
     },
     {
-      "VisibleId": 895,
+      "VisibleId": 507,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 734
+          "FieldType": "System.Int32",
+          "FieldLength": 666
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 346
+      "FieldType": "System.String",
+      "FieldLength": 427
     }
   }
 }

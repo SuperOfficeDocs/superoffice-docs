@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 127,
-  "Name": "Zemlak-Denesik",
-  "Tooltip": "quia",
+  "RoleId": 229,
+  "Name": "Rath-Murphy",
+  "Tooltip": "eveniet",
   "RoleType": "Anonymous",
-  "Deleted": 157,
-  "Rank": 451,
-  "Created": "2015-04-02T14:28:27.0551896+02:00",
-  "UseCategories": 995,
+  "Deleted": 784,
+  "Rank": 128,
+  "Created": "2002-10-31T13:14:08.9461361+01:00",
+  "UseCategories": 498,
   "CreatedBy": null,
-  "Updated": "2017-12-31T14:28:27.0551896+01:00",
+  "Updated": "2005-10-29T13:14:08.9461361+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,24 +127,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 582,
-  "Name": "Leffler LLC",
-  "Tooltip": "harum",
+  "RoleId": 977,
+  "Name": "Hirthe Inc and Sons",
+  "Tooltip": "fugit",
   "RoleType": "Anonymous",
-  "Deleted": 557,
-  "Rank": 719,
-  "Created": "2020-05-01T14:28:27.0551896+02:00",
-  "UseCategories": 531,
+  "Deleted": 113,
+  "Rank": 959,
+  "Created": "2007-08-23T13:14:08.9461361+02:00",
+  "UseCategories": 493,
   "CreatedBy": null,
-  "Updated": "2008-12-20T14:28:27.0708141+01:00",
+  "Updated": "2022-12-08T13:14:08.9461361+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 861
+      "FieldType": "System.String",
+      "FieldLength": 927
     }
   },
   "_Links": {

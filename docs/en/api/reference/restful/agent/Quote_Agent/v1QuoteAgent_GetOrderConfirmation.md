@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Quote/GetOrderConfirmation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 787,
-  "ConfirmationTemplateId": 742
+  "QuoteVersionId": 228,
+  "ConfirmationTemplateId": 841
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"non"
+"suscipit"
 ```

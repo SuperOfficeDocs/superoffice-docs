@@ -105,33 +105,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Hirthe, Lubowitz and Price",
-  "ProviderName": "Ward, Kuphal and Purdy",
+  "GuiName": "Dooley Inc and Sons",
+  "ProviderName": "Gulgowski, Grady and Willms",
   "SortOrder": [
     {
-      "Name": "Sanford-Langworth",
+      "Name": "Rohan LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Sanford-Langworth",
+      "Name": "Rohan LLC",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Lehner, Hessel and Turcotte",
-      "Operator": "minus",
+      "Name": "Zulauf-Stracke",
+      "Operator": "tenetur",
       "Values": [
-        "perferendis",
-        "consequuntur"
+        "est",
+        "saepe"
       ],
       "DisplayValues": [
-        "voluptatibus",
-        "voluptatibus"
+        "dolore",
+        "esse"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 606,
+      "InterParenthesis": 662,
       "InterOperator": "And",
-      "UniqueHash": 168
+      "UniqueHash": 826
     }
   ],
   "Entities": [
-    "dolores",
-    "hic"
+    "amet",
+    "et"
   ],
-  "Page": 993,
-  "PageSize": 749,
-  "Context": "eos"
+  "Page": 939,
+  "PageSize": 210,
+  "Context": "ut"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Jewess Group",
-    "PrimaryKey": 26,
+    "EntityName": "Langworth LLC",
+    "PrimaryKey": 320,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "sed",
-        "TooltipHint": "eaque",
-        "LinkHint": "repellat"
+        "DisplayValue": "enim",
+        "TooltipHint": "officia",
+        "LinkHint": "culpa"
       }
     },
-    "LinkHint": "fugiat",
-    "StyleHint": "aut",
+    "LinkHint": "repellendus",
+    "StyleHint": "dicta",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 789
+        "FieldType": "System.Int32",
+        "FieldLength": 932
       }
     }
   }

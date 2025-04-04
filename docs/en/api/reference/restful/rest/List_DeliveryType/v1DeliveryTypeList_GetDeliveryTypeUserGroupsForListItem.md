@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 999,
-    "Name": "Howe, Larson and Quigley",
-    "ToolTip": "Nobis ratione consequatur et nihil facilis.",
+    "Id": 279,
+    "Name": "Wolf Group",
+    "ToolTip": "Similique est aut.",
     "Deleted": false,
-    "Rank": 213,
-    "Type": "expedita",
-    "ColorBlock": 634,
-    "IconHint": "optio",
-    "Selected": true,
-    "LastChanged": "2012-04-13T14:28:27.5551692+02:00",
+    "Rank": 140,
+    "Type": "voluptate",
+    "ColorBlock": 502,
+    "IconHint": "aliquam",
+    "Selected": false,
+    "LastChanged": "2004-10-18T13:14:09.7597728+02:00",
     "ChildItems": [
       {
-        "Id": 931,
-        "Name": "Renner-Kunze",
-        "ToolTip": "Illum fugiat sed quia perspiciatis veniam corrupti repellendus.",
+        "Id": 740,
+        "Name": "Robel, Eichmann and Bahringer",
+        "ToolTip": "Repudiandae veritatis sed neque recusandae qui voluptatem.",
         "Deleted": false,
-        "Rank": 648,
-        "Type": "quae",
-        "ColorBlock": 946,
-        "IconHint": "quaerat",
-        "Selected": false,
-        "LastChanged": "2003-12-29T14:28:27.5551692+01:00",
+        "Rank": 801,
+        "Type": "sed",
+        "ColorBlock": 335,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2012-12-24T13:14:09.7597728+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Prof. Hallie Price",
+        "ExtraInfo": "quia",
+        "StyleHint": "a",
+        "Hidden": false,
+        "FullName": "Lonnie Treutel PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 959
+            "FieldType": "System.String",
+            "FieldLength": 897
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "libero",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Adah Gerhold",
+    "FullName": "Prof. Athena Catherine Kozey PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 678
+        "FieldLength": 528
       }
     }
   }

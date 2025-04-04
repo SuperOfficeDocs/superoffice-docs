@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 765,
+  "UdListDefinitionId": 113,
   "Items": [
     {
-      "Id": 486,
-      "Name": "Kemmer-Pfannerstill",
-      "Tooltip": "accusamus",
+      "Id": 704,
+      "Name": "Vandervort LLC",
+      "Tooltip": "id",
       "Deleted": false,
-      "UdListDefinitionId": 162,
-      "Rank": 852
+      "UdListDefinitionId": 185,
+      "Rank": 969
     },
     {
-      "Id": 486,
-      "Name": "Kemmer-Pfannerstill",
-      "Tooltip": "accusamus",
+      "Id": 704,
+      "Name": "Vandervort LLC",
+      "Tooltip": "id",
       "Deleted": false,
-      "UdListDefinitionId": 162,
-      "Rank": 852
+      "UdListDefinitionId": 185,
+      "Rank": 969
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 996,
-    "Name": "Cormier-Orn",
-    "Tooltip": "mollitia",
+    "Id": 925,
+    "Name": "Murphy LLC",
+    "Tooltip": "eveniet",
     "Deleted": false,
-    "UdListDefinitionId": 703,
-    "Rank": 54,
+    "UdListDefinitionId": 23,
+    "Rank": 509,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 728
+        "FieldType": "System.String",
+        "FieldLength": 215
       }
     }
   }

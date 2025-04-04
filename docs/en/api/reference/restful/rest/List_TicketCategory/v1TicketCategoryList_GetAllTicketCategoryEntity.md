@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/TicketCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,36 +85,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 709,
-    "ParentId": 418,
-    "Name": "Altenwerth-Green",
-    "Fullname": "tempore",
-    "CategoryMaster": 651,
+    "TicketCategoryId": 744,
+    "ParentId": 94,
+    "Name": "Gibson-Gutkowski",
+    "Fullname": "laudantium",
+    "CategoryMaster": 724,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Von-Braun",
+    "ExternalName": "Becker, Murazik and Roberts",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 325,
-    "ReplyTemplate": 543,
-    "NotificationEmail": "geraldine@adamsjerde.ca",
+    "AssignmentLag": 776,
+    "ReplyTemplate": 82,
+    "NotificationEmail": "gordon_heaney@larsonfarrell.uk",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 539,
+    "EffectiveReplyTemplateId": 755,
     "ExtraFields": {
-      "ExtraFields1": "eum",
-      "ExtraFields2": "non"
+      "ExtraFields1": "optio",
+      "ExtraFields2": "nobis"
     },
     "CustomFields": {
-      "CustomFields1": "aut",
-      "CustomFields2": "accusamus"
+      "CustomFields1": "non",
+      "CustomFields2": "magni"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 942
+        "FieldType": "System.Int32",
+        "FieldLength": 26
       }
     }
   }

@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/RejectChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 695
+  "ChatSessionId": 698
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 856,
-  "TopicId": 110,
+  "ChatSessionId": 654,
+  "TopicId": 756,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sapiente",
-  "CustomerHost": "dolore",
-  "CustomerName": "Stroman-Wuckert",
-  "CustomerEmail": "brain@murphystrosin.ca",
-  "CustomerPhone": "1-149-235-1433 x3831",
+  "CustomerAlias": "laboriosam",
+  "CustomerHost": "enim",
+  "CustomerName": "Nienow-Carter",
+  "CustomerEmail": "uriel@swaniawski.info",
+  "CustomerPhone": "804.517.2059 x9165",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Krajcik Group",
+  "CustomerCompanyName": "Robel Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "dolorum",
-  "LastMessage": "aut",
-  "WhenRequested": "2018-04-20T14:28:21.5397876+02:00",
-  "WhenStarted": "2004-10-14T14:28:21.5397876+02:00",
-  "WhenEnded": "2020-07-29T14:28:21.5397876+02:00",
-  "WhenIdle": "2009-05-03T14:28:21.5397876+02:00",
-  "WhenFetched": "2006-06-17T14:28:21.5397876+02:00",
-  "SessionKey": "incidunt",
-  "InitialQueuePos": 213,
-  "AlertLevel": 301,
-  "Rank": 378,
+  "FirstMessage": "in",
+  "LastMessage": "voluptate",
+  "WhenRequested": "2012-01-27T13:13:59.6252018+01:00",
+  "WhenStarted": "2006-04-16T13:13:59.6252018+02:00",
+  "WhenEnded": "2014-12-11T13:13:59.6252018+01:00",
+  "WhenIdle": "2016-06-09T13:13:59.6252018+02:00",
+  "WhenFetched": "2013-07-20T13:13:59.6252018+02:00",
+  "SessionKey": "aliquam",
+  "InitialQueuePos": 613,
+  "AlertLevel": 404,
+  "Rank": 858,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 323,
+  "ChatbotIsActive": true,
+  "Rating": 47,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 296
+      "FieldType": "System.String",
+      "FieldLength": 287
     }
   }
 }

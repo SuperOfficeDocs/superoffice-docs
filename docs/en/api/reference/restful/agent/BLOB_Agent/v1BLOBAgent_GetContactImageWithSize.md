@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 953,
-  "Width": 567,
-  "Height": 256
+  "ContactId": 474,
+  "Width": 456,
+  "Height": 619
 }
 ```
 

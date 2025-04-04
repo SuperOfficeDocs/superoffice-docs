@@ -355,7 +355,7 @@ Contact provider for general use
 ## Sample
 
 ```http!
-GET /api/v1/archive/Contact?$select=phone/formattedNumber,contactAssociate/usergroup,contactSupportPerson/personId
+GET /api/v1/archive/Contact?$select=hasInterests,contactFax/description,contactSupportPerson/personAssociateFullName,contactSupportPerson/personExtra/x_person_datetime,contactUdef/SuperOffice:6
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

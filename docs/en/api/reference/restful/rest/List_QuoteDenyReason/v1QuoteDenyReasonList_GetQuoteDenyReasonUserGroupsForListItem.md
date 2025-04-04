@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 772,
-    "Name": "Welch-Lueilwitz",
-    "ToolTip": "Voluptates adipisci eaque.",
+    "Id": 548,
+    "Name": "Hintz-Reichert",
+    "ToolTip": "Sequi temporibus maiores fugit et vitae.",
     "Deleted": false,
-    "Rank": 237,
-    "Type": "et",
-    "ColorBlock": 649,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "1998-09-29T14:28:27.6645394+02:00",
+    "Rank": 727,
+    "Type": "quis",
+    "ColorBlock": 665,
+    "IconHint": "autem",
+    "Selected": false,
+    "LastChanged": "2021-07-05T13:14:09.9941617+02:00",
     "ChildItems": [
       {
-        "Id": 388,
-        "Name": "Dickens Group",
-        "ToolTip": "Animi aut natus ut necessitatibus consequatur neque quidem.",
-        "Deleted": false,
-        "Rank": 293,
-        "Type": "fugit",
-        "ColorBlock": 778,
-        "IconHint": "consequatur",
-        "Selected": false,
-        "LastChanged": "2019-03-21T14:28:27.6645394+01:00",
+        "Id": 893,
+        "Name": "Bechtelar, Smith and Okuneva",
+        "ToolTip": "Eos ut commodi omnis libero aut voluptas.",
+        "Deleted": true,
+        "Rank": 305,
+        "Type": "et",
+        "ColorBlock": 112,
+        "IconHint": "quod",
+        "Selected": true,
+        "LastChanged": "2022-07-27T13:14:09.9941617+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laboriosam",
-        "StyleHint": "ratione",
+        "ExtraInfo": "neque",
+        "StyleHint": "perspiciatis",
         "Hidden": true,
-        "FullName": "Alda Heathcote",
+        "FullName": "Brock Stroman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 692
+            "FieldType": "System.String",
+            "FieldLength": 898
           }
         }
       }
     ],
-    "ExtraInfo": "corporis",
-    "StyleHint": "odit",
-    "Hidden": true,
-    "FullName": "Luella Metz",
+    "ExtraInfo": "aliquam",
+    "StyleHint": "cum",
+    "Hidden": false,
+    "FullName": "Prof. Natasha Maryam Barrows",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 668
+        "FieldLength": 806
       }
     }
   }

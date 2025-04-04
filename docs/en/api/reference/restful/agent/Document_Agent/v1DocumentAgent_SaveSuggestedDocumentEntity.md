@@ -87,13 +87,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 451,
-  "Name": "Lang, Funk and Hamill",
-  "Tooltip": "ab",
-  "Rank": 773,
-  "DoctmplId": 340,
-  "Header": "esse",
-  "OurRef": "sunt",
+  "SuggestedDocumentId": 808,
+  "Name": "Waters-Crona",
+  "Tooltip": "aliquam",
+  "Rank": 528,
+  "DoctmplId": 160,
+  "Header": "qui",
+  "OurRef": "fugiat",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -108,13 +108,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedDocumentId": 731,
-  "Name": "Jacobi LLC",
-  "Tooltip": "omnis",
-  "Rank": 683,
-  "DoctmplId": 457,
-  "Header": "rerum",
-  "OurRef": "tenetur",
+  "SuggestedDocumentId": 253,
+  "Name": "Eichmann, Watsica and Cummerata",
+  "Tooltip": "sint",
+  "Rank": 148,
+  "DoctmplId": 751,
+  "Header": "harum",
+  "OurRef": "similique",
   "Deleted": false,
   "DocTmpl": null,
   "ProjectTypeStatusLink": null,
@@ -123,8 +123,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldType": "System.String",
+      "FieldLength": 144
     }
   }
 }

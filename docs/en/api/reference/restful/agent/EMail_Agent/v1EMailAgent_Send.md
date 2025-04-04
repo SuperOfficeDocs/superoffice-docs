@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Send
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -118,18 +118,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "natus",
-      "HTMLBody": "placeat",
+      "Subject": "sapiente",
+      "HTMLBody": "quis",
       "From": null,
-      "Sent": "2024-02-19T14:28:21.8991479+01:00",
-      "Size": 210,
+      "Sent": "2015-10-01T13:14:00.2668463+02:00",
+      "Size": 717,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "deleniti",
-      "PlainBody": "in",
+      "MessageID": "qui",
+      "PlainBody": "unde",
       "IsSent": true,
       "EMailSOInfo": null,
-      "ServerId": 882,
+      "ServerId": 171,
       "Attachments": [
         {},
         {}
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Grimes-Bartell",
-      "EmailItemId": 622,
-      "AccountId": 32,
-      "ReceivedAt": "1999-03-27T14:28:21.8991479+01:00",
+      "FolderName": "Powlowski LLC",
+      "EmailItemId": 486,
+      "AccountId": 404,
+      "ReceivedAt": "2013-03-23T13:14:00.2668463+01:00",
       "InReplyTo": null,
-      "RepliedAt": "2015-03-29T14:28:21.8991479+02:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2021-11-16T13:14:00.2668463+01:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -162,148 +162,148 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 852,
-        "ContactName": "Swift, Rau and Cruickshank",
-        "PersonId": 4,
-        "PersonName": "Pacocha-Sipes",
-        "AssociateId": 68,
-        "Address": "consequatur",
-        "EmailId": 113,
+        "ContactId": 668,
+        "ContactName": "Glover-Beier",
+        "PersonId": 114,
+        "PersonName": "Luettgen, Koepp and Borer",
+        "AssociateId": 880,
+        "Address": "et",
+        "EmailId": 749,
         "DuplicatePersonIds": [
-          798,
-          959
+          218,
+          196
         ],
-        "Name": "Hartmann-Conn",
+        "Name": "Lemke LLC",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 293
+            "FieldType": "System.Int32",
+            "FieldLength": 139
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 713,
-        "ContactName": "Torphy, Berge and Heathcote",
-        "PersonId": 284,
-        "PersonName": "Sawayn Inc and Sons",
-        "AssociateId": 888,
-        "Address": "sequi",
-        "EmailId": 548,
+        "ContactId": 967,
+        "ContactName": "Towne-Muller",
+        "PersonId": 854,
+        "PersonName": "Kiehn, Abshire and Mills",
+        "AssociateId": 907,
+        "Address": "aut",
+        "EmailId": 380,
         "DuplicatePersonIds": [
-          786,
-          909
+          406,
+          287
         ],
-        "Name": "Mayert, Bins and D'Amore",
+        "Name": "Huel-Koch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 603
+            "FieldLength": 785
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 848,
-        "ContactName": "Wisoky LLC",
-        "PersonId": 683,
-        "PersonName": "Medhurst, Herzog and Thompson",
-        "AssociateId": 576,
-        "Address": "esse",
-        "EmailId": 96,
+        "ContactId": 65,
+        "ContactName": "Koepp Group",
+        "PersonId": 674,
+        "PersonName": "Kuhn Inc and Sons",
+        "AssociateId": 415,
+        "Address": "cumque",
+        "EmailId": 191,
         "DuplicatePersonIds": [
-          797,
-          557
+          711,
+          965
         ],
-        "Name": "Wilderman-Predovic",
+        "Name": "Reynolds, Hoppe and Rowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 744
+            "FieldType": "System.Int32",
+            "FieldLength": 914
           }
         }
       }
     ],
-    "Subject": "quis",
-    "HTMLBody": "sunt",
+    "Subject": "accusantium",
+    "HTMLBody": "recusandae",
     "From": null,
-    "Sent": "2005-07-03T14:28:21.8991479+02:00",
-    "Size": 894,
+    "Sent": "2024-07-17T13:14:00.2668463+02:00",
+    "Size": 823,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "et",
-    "PlainBody": "expedita",
+    "MessageID": "architecto",
+    "PlainBody": "mollitia",
     "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 290,
+    "ServerId": 60,
     "Attachments": [
       {
-        "Description": "Public-key heuristic matrices",
-        "Filename": "ea",
-        "Size": 274,
-        "Type": "autem",
-        "Encoding": "et",
-        "Id": "molestiae",
-        "Disposition": "dolorem",
-        "IsSafeFileExtension": true,
+        "Description": "Secured 3rd generation paradigm",
+        "Filename": "beatae",
+        "Size": 769,
+        "Type": "ea",
+        "Encoding": "beatae",
+        "Id": "ea",
+        "Disposition": "enim",
+        "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 679
+            "FieldLength": 654
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Mueller-Bogan",
+        "Name": "Sawayn-Witting",
         "Values": [
-          "soluta",
-          "veritatis"
+          "magnam",
+          "sit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 49
+            "FieldLength": 331
           }
         }
       },
       {
-        "Name": "Mueller-Bogan",
+        "Name": "Sawayn-Witting",
         "Values": [
-          "soluta",
-          "veritatis"
+          "magnam",
+          "sit"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 49
+            "FieldLength": 331
           }
         }
       }
     ],
-    "FolderName": "Weimann-Kling",
-    "EmailItemId": 184,
-    "AccountId": 623,
-    "ReceivedAt": "2024-02-24T14:28:21.8991479+01:00",
+    "FolderName": "Renner LLC",
+    "EmailItemId": 393,
+    "AccountId": 557,
+    "ReceivedAt": "2011-10-19T13:14:00.2668463+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2024-06-22T14:28:21.8991479+02:00",
-    "HasCalendarData": true,
+    "RepliedAt": "2014-02-17T13:14:00.2668463+01:00",
+    "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
     "TableRight": null,
@@ -311,7 +311,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 30
+        "FieldLength": 694
       }
     }
   }

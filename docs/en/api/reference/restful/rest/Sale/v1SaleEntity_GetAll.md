@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Sale?$select=name,department,category/id
 GET /api/v1/Sale?$filter=name begins 'S'
 GET /api/v1/Sale?$orderBy=name asc
-GET /api/v1/Sale?$entities=et
-GET /api/v1/Sale?$top=180
-GET /api/v1/Sale?$skip=126
+GET /api/v1/Sale?$entities=numquam
+GET /api/v1/Sale?$top=564
+GET /api/v1/Sale?$skip=720
 GET /api/v1/Sale?$mode=Full
 GET /api/v1/Sale?$options=GrandTotal=true
-GET /api/v1/Sale?$context=architecto
+GET /api/v1/Sale?$context=animi
 GET /api/v1/Sale?$format=JSON
-GET /api/v1/Sale?$jsonSafe=False
+GET /api/v1/Sale?$jsonSafe=True
 GET /api/v1/Sale?$output=Display
 ```
 
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolor",
+  "odata.nextLink": "ipsam",
   "value": [
     {
-      "PrimaryKey": 1955,
+      "PrimaryKey": 1929,
       "EntityName": "person",
-      "personId": 1955,
-      "fullName": "Miss Eleanora Ena O'Hara PhD"
+      "personId": 1929,
+      "fullName": "Nelda Hintz I"
     },
     {
-      "PrimaryKey": 7360,
+      "PrimaryKey": 4799,
       "EntityName": "person",
-      "personId": 7360,
-      "fullName": "Daron Schumm"
+      "personId": 4799,
+      "fullName": "Neva Jakubowski"
     }
   ]
 }

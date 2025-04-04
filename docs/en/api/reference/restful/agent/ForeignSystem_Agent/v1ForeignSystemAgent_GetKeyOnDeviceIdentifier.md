@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Mitchell-Bins",
-  "DeviceName": "King Inc and Sons",
-  "DeviceIdentifier": "modi",
-  "KeyName": "Sporer LLC",
-  "TableName": "Bruen, Langworth and Dare",
-  "RecordId": 329
+  "ApplicationName": "Wiza LLC",
+  "DeviceName": "Koepp Group",
+  "DeviceIdentifier": "repellendus",
+  "KeyName": "Hegmann Inc and Sons",
+  "TableName": "O'Keefe-Metz",
+  "RecordId": 438
 }
 ```
 
@@ -107,20 +107,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "praesentium",
-  "Value": "vero",
-  "RecordId": 708,
-  "CreatedDate": "2000-11-12T14:28:22.0085182+01:00",
-  "UpdatedDate": "2012-12-18T14:28:22.0085182+01:00",
-  "UpdatedBy": "ex",
-  "CreatedBy": "non",
-  "TableName": "Stark, Schuppe and Heller",
+  "Key": "ipsa",
+  "Value": "dolorum",
+  "RecordId": 985,
+  "CreatedDate": "2014-03-25T13:14:00.5168611+01:00",
+  "UpdatedDate": "1999-02-04T13:14:00.5168611+01:00",
+  "UpdatedBy": "fugit",
+  "CreatedBy": "explicabo",
+  "TableName": "Fritsch-Effertz",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 717
+      "FieldLength": 890
     }
   }
 }

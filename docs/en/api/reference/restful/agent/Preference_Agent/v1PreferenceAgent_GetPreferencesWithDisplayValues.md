@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "animi",
-      "Key": "nihil"
+      "Section": "veniam",
+      "Key": "repellat"
     },
     {
-      "Section": "animi",
-      "Key": "nihil"
+      "Section": "veniam",
+      "Key": "repellat"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "labore",
+    "RawValue": "eos",
     "Specification": null,
-    "DisplayValue": "qui",
-    "DisplayTooltip": "quia",
+    "DisplayValue": "nisi",
+    "DisplayTooltip": "maiores",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 571,
-    "PrefDescId": 3,
-    "TableName": "Wiza-Krajcik",
-    "UserPreferenceId": 289,
+    "TargetId": 386,
+    "PrefDescId": 372,
+    "TableName": "Medhurst LLC",
+    "UserPreferenceId": 742,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldLength": 312
       }
     }
   }

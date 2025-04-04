@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 317,
-    "Name": "Grant-Weimann",
-    "Tooltip": "facere",
-    "Rank": 885,
+    "SaleTypeId": 112,
+    "Name": "Jewess Group",
+    "Tooltip": "libero",
+    "Rank": 13,
     "DurationUnit": "Century",
-    "SaleDuration": 706,
-    "SaleTypeCatId": 661,
+    "SaleDuration": 478,
+    "SaleTypeCatId": 612,
     "Deleted": false,
-    "HasGuide": true,
+    "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 263,
-    "QuoteLinesTemplate": 808,
-    "ConfirmationLinesTemplate": 621,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 186,
+    "QuoteLinesTemplate": 472,
+    "ConfirmationLinesTemplate": 419,
     "MaxDiscountPercentSet": false,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 870,
-    "MinEarningPercent": 337,
-    "GroupQuoteLinesBy": 984,
-    "SortGroupLinesBy": 895,
+    "MaxDiscountPercent": 185,
+    "MinEarningPercent": 165,
+    "GroupQuoteLinesBy": 738,
+    "SortGroupLinesBy": 899,
     "Stages": [
       {
-        "Id": 320,
-        "Name": "D'Amore, Bogan and Hackett",
-        "ToolTip": "Vero esse culpa autem hic est vel.",
-        "Deleted": true,
-        "Rank": 252,
-        "Type": "est",
-        "ColorBlock": 932,
-        "IconHint": "enim",
+        "Id": 572,
+        "Name": "Jewess-Thiel",
+        "ToolTip": "Doloribus corporis itaque qui.",
+        "Deleted": false,
+        "Rank": 744,
+        "Type": "error",
+        "ColorBlock": 769,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2009-12-28T14:28:27.6957886+01:00",
+        "LastChanged": "2007-08-09T13:14:10.0566655+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Regan Marks",
+        "ExtraInfo": "nobis",
+        "StyleHint": "rerum",
+        "Hidden": true,
+        "FullName": "Giovani Abshire",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 63
+            "FieldLength": 515
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 950
+        "FieldLength": 994
       }
     }
   }

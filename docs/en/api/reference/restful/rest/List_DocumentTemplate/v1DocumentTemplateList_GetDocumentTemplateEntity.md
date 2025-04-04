@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 184,
-  "Name": "Towne-Murazik",
-  "Tooltip": "nulla",
-  "SaveInDb": 621,
-  "Filename": "eos",
-  "DefaultOref": "eos",
+  "DocumentTemplateId": 416,
+  "Name": "Schoen-Padberg",
+  "Tooltip": "quaerat",
+  "SaveInDb": 335,
+  "Filename": "dicta",
+  "DefaultOref": "et",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 843,
-  "IntentId": 337,
-  "IsDefaultPublished": true,
-  "Rank": 348,
-  "LoadTemplateFromPlugin": 222,
-  "MimeType": "vitae",
+  "AutoeventId": 120,
+  "IntentId": 40,
+  "IsDefaultPublished": false,
+  "Rank": 60,
+  "LoadTemplateFromPlugin": 389,
+  "MimeType": "voluptatum",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 766,
+  "DocumentTypeKey": 711,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "lucy.rolfson@handreichert.ca",
+  "EmailSubject": "mitchel@sauer.ca",
   "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "kaylee.runolfsson@schinner.biz",
+  "SenderEmailAddress": "laurel_trantow@kuphal.biz",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 595
+      "FieldLength": 188
     }
   }
 }

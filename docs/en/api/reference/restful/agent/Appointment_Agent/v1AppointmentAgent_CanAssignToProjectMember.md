@@ -73,8 +73,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 817,
-  "SuggestedAppointmentId": 357
+  "ProjectId": 69,
+  "SuggestedAppointmentId": 738
 }
 ```
 

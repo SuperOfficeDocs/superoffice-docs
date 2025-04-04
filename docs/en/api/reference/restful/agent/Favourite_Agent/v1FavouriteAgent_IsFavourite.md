@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Favourite/IsFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Cassin-Ryan",
-  "RecordId": 586,
-  "AssociateId": 391
+  "TableName": "Dare, Pollich and Douglas",
+  "RecordId": 469,
+  "AssociateId": 321
 }
 ```
 

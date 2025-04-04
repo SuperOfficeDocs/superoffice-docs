@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 965,
-  "UniqueId": "voluptatem",
-  "Name": "Johnston-Zboncak",
-  "Description": "Universal object-oriented customer loyalty",
-  "AssociateId": 212,
-  "Columns": 877,
+  "DashboardId": 295,
+  "UniqueId": "quam",
+  "Name": "Corkery, Bartoletti and Zulauf",
+  "Description": "Cloned multi-tasking artificial intelligence",
+  "AssociateId": 537,
+  "Columns": 586,
   "Theme": null,
-  "VisibleForAll": 594,
+  "VisibleForAll": 717,
   "VisibleForAssociates": [
-    144,
-    427
+    353,
+    943
   ],
   "VisibleForGroups": [
-    964,
-    387
+    955,
+    760
   ],
-  "PinForAll": 883,
+  "PinForAll": 328,
   "PinForAssociates": [
-    408,
-    258
+    848,
+    791
   ],
   "PinForGroups": [
-    921,
-    805
+    136,
+    821
   ]
 }
 ```
@@ -142,42 +142,42 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 148,
-  "UniqueId": "sint",
-  "Name": "Nader LLC",
-  "Description": "Business-focused well-modulated capacity",
-  "AssociateId": 931,
-  "Columns": 41,
+  "DashboardId": 382,
+  "UniqueId": "voluptas",
+  "Name": "Lebsack Inc and Sons",
+  "Description": "Virtual 24 hour matrices",
+  "AssociateId": 863,
+  "Columns": 382,
   "Theme": null,
-  "VisibleForAll": 515,
+  "VisibleForAll": 941,
   "VisibleForAssociates": [
-    912,
-    14
+    855,
+    695
   ],
   "VisibleForGroups": [
-    998,
-    905
+    458,
+    601
   ],
-  "PinForAll": 145,
+  "PinForAll": 252,
   "PinForAssociates": [
-    304,
-    604
+    469,
+    427
   ],
   "PinForGroups": [
-    509,
-    748
+    914,
+    65
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 904
+      "FieldLength": 467
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

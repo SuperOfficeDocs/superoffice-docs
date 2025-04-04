@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 918,
-  "EmailAddress": "hayley@mcclure.biz",
-  "SetAsPrimaryEmail": false
+  "PersonId": 14,
+  "EmailAddress": "larissa.prohaska@waters.ca",
+  "SetAsPrimaryEmail": true
 }
 ```
 

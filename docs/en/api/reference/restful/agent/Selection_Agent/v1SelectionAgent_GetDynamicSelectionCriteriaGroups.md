@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/Selection/GetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 68
+  "SelectionId": 915
 }
 ```
 
@@ -92,20 +92,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Pouros-McDermott",
-    "Description": "Polarised empowering frame",
-    "Rank": 324,
+    "Name": "Donnelly-Legros",
+    "Description": "Face to face interactive moderator",
+    "Rank": 154,
     "Restrictions": [
       {
-        "Name": "Kuhic Group",
-        "Operator": "porro",
+        "Name": "Kuhlman-Brakus",
+        "Operator": "laudantium",
         "Values": [
-          "explicabo",
-          "eaque"
+          "maiores",
+          "ratione"
         ],
         "DisplayValues": [
-          "non",
-          "quis"
+          "aut",
+          "rerum"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -113,27 +113,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 801,
+        "InterParenthesis": 630,
         "InterOperator": "And",
-        "UniqueHash": 881
+        "UniqueHash": 339
       }
     ]
   },
   {
-    "Name": "Pouros-McDermott",
-    "Description": "Polarised empowering frame",
-    "Rank": 324,
+    "Name": "Donnelly-Legros",
+    "Description": "Face to face interactive moderator",
+    "Rank": 154,
     "Restrictions": [
       {
-        "Name": "Kuhic Group",
-        "Operator": "porro",
+        "Name": "Kuhlman-Brakus",
+        "Operator": "laudantium",
         "Values": [
-          "explicabo",
-          "eaque"
+          "maiores",
+          "ratione"
         ],
         "DisplayValues": [
-          "non",
-          "quis"
+          "aut",
+          "rerum"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -141,9 +141,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 801,
+        "InterParenthesis": 630,
         "InterOperator": "And",
-        "UniqueHash": 881
+        "UniqueHash": 339
       }
     ]
   }

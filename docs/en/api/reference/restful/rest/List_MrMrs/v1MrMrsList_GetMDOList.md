@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=quis
+GET /api/v1/List/MrMrs/MDOItems?query=exercitationem
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 378,
-    "Name": "Swift Inc and Sons",
-    "ToolTip": "Qui blanditiis autem adipisci in animi dolorem quos.",
+    "Id": 17,
+    "Name": "Cartwright, Rosenbaum and Mosciski",
+    "ToolTip": "Et qui pariatur velit ut doloremque.",
     "Deleted": false,
-    "Rank": 397,
-    "Type": "necessitatibus",
+    "Rank": 355,
+    "Type": "debitis",
     "ChildItems": [
       {
-        "Id": 123,
-        "Name": "Bartoletti-Beier",
-        "ToolTip": "Illum non et.",
+        "Id": 226,
+        "Name": "Lowe LLC",
+        "ToolTip": "Soluta sint enim nobis et earum et.",
         "Deleted": false,
-        "Rank": 922,
-        "Type": "tenetur",
+        "Rank": 983,
+        "Type": "magnam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sit",
-        "ColorBlock": 342,
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "sint",
-        "FullName": "Mrs. Johnson Greenholt PhD",
+        "IconHint": "aut",
+        "ColorBlock": 816,
+        "ExtraInfo": "rem",
+        "StyleHint": "necessitatibus",
+        "FullName": "Cierra Gino Fadel II",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 213
+            "FieldLength": 896
           }
         }
       }
     ],
-    "IconHint": "reiciendis",
-    "ColorBlock": 180,
-    "ExtraInfo": "modi",
-    "StyleHint": "aut",
-    "FullName": "Mrs. Alvena Cruickshank",
+    "IconHint": "sunt",
+    "ColorBlock": 365,
+    "ExtraInfo": "voluptas",
+    "StyleHint": "laboriosam",
+    "FullName": "Foster Mabelle Paucek IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 290
+        "FieldLength": 579
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 560,
-    "Name": "Daugherty-Stanton",
-    "ToolTip": "Aperiam nam tempore adipisci laboriosam commodi.",
+    "Id": 677,
+    "Name": "Cronin LLC",
+    "ToolTip": "Nemo omnis officia id quasi beatae.",
     "Deleted": false,
-    "Rank": 841,
-    "Type": "quisquam",
-    "ColorBlock": 865,
-    "IconHint": "eveniet",
-    "Selected": true,
-    "LastChanged": "2001-10-28T14:28:27.5551692+01:00",
+    "Rank": 460,
+    "Type": "unde",
+    "ColorBlock": 787,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2011-03-21T13:14:09.7441386+01:00",
     "ChildItems": [
       {
-        "Id": 368,
-        "Name": "Boyer-Schoen",
-        "ToolTip": "Laudantium cumque est repellat quia beatae rem.",
+        "Id": 660,
+        "Name": "Cartwright, McDermott and Kohler",
+        "ToolTip": "Enim similique iste ex est dolore voluptas quia.",
         "Deleted": false,
-        "Rank": 348,
-        "Type": "sed",
-        "ColorBlock": 386,
-        "IconHint": "quae",
-        "Selected": true,
-        "LastChanged": "2015-03-13T14:28:27.5551692+01:00",
+        "Rank": 458,
+        "Type": "qui",
+        "ColorBlock": 126,
+        "IconHint": "itaque",
+        "Selected": false,
+        "LastChanged": "2018-05-09T13:14:09.7441386+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "qui",
+        "ExtraInfo": "aut",
+        "StyleHint": "dolores",
         "Hidden": true,
-        "FullName": "Damion Makenzie Bergstrom MD"
+        "FullName": "Mr. Tamara Hudson PhD"
       }
     ],
-    "ExtraInfo": "cumque",
-    "StyleHint": "recusandae",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "veniam",
     "Hidden": false,
-    "FullName": "Aron Bechtelar"
+    "FullName": "Gianni Turcotte PhD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 155,
-    "Name": "Ebert Inc and Sons",
-    "ToolTip": "Quia ipsa et.",
+    "Id": 785,
+    "Name": "Koepp-Conn",
+    "ToolTip": "Non amet enim.",
     "Deleted": false,
-    "Rank": 373,
-    "Type": "fugit",
-    "ColorBlock": 734,
-    "IconHint": "assumenda",
-    "Selected": false,
-    "LastChanged": "1999-09-07T14:28:27.5551692+02:00",
+    "Rank": 555,
+    "Type": "qui",
+    "ColorBlock": 906,
+    "IconHint": "quisquam",
+    "Selected": true,
+    "LastChanged": "2023-08-21T13:14:09.7441386+02:00",
     "ChildItems": [
       {
-        "Id": 410,
-        "Name": "Wunsch Inc and Sons",
-        "ToolTip": "Nihil et et eos impedit et.",
-        "Deleted": true,
-        "Rank": 594,
-        "Type": "delectus",
-        "ColorBlock": 463,
-        "IconHint": "et",
+        "Id": 609,
+        "Name": "Quitzon LLC",
+        "ToolTip": "Quia asperiores corporis possimus cupiditate.",
+        "Deleted": false,
+        "Rank": 12,
+        "Type": "consequatur",
+        "ColorBlock": 515,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2008-09-18T14:28:27.5551692+02:00",
+        "LastChanged": "2007-08-08T13:14:09.7441386+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Hardy Moen",
+        "FullName": "Maybelle Hane",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 851
+            "FieldType": "System.String",
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "non",
-    "StyleHint": "alias",
+    "ExtraInfo": "velit",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Quentin Ferry",
+    "FullName": "Alva Treutel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 10
+        "FieldLength": 991
       }
     }
   }

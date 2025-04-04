@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Feest-Hamill"
+  "Name": "Wilkinson-Nitzsche"
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 589,
-    "Name": "Stiedemann Inc and Sons",
-    "Tooltip": "quas",
+    "HeadingId": 640,
+    "Name": "Murphy Inc and Sons",
+    "Tooltip": "voluptatum",
     "Deleted": false,
-    "Rank": 138,
-    "UdListDefinitionId": 651,
+    "Rank": 47,
+    "UdListDefinitionId": 669,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 199
+        "FieldLength": 936
       }
     }
   }

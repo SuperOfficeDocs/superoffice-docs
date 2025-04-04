@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/UserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 845,
-  "Name": "Wisoky, Sawayn and Trantow",
-  "Tooltip": "eius",
-  "Deleted": false,
-  "Rank": 789,
+  "Id": 94,
+  "Name": "Leuschke-Fahey",
+  "Tooltip": "eaque",
+  "Deleted": true,
+  "Rank": 133,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sit",
+  "ListType": "harum",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 73,
-  "Name": "Halvorson Inc and Sons",
-  "Tooltip": "repellat",
-  "Deleted": true,
-  "Rank": 86,
+  "Id": 415,
+  "Name": "Klein, Schmeler and Littel",
+  "Tooltip": "repudiandae",
+  "Deleted": false,
+  "Rank": 85,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "eligendi",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 765
+      "FieldLength": 833
     }
   }
 }

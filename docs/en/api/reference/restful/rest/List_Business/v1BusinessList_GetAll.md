@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 778,
-    "Name": "Rippin LLC",
-    "Tooltip": "qui",
+    "Id": 507,
+    "Name": "Kassulke, Miller and Ratke",
+    "Tooltip": "cupiditate",
     "Deleted": false,
-    "UdListDefinitionId": 511,
-    "Rank": 933,
+    "UdListDefinitionId": 270,
+    "Rank": 172,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 283
+        "FieldType": "System.String",
+        "FieldLength": 104
       }
     }
   }

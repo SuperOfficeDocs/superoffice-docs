@@ -99,8 +99,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    869,
-    847
+    346,
+    922
   ]
 }
 ```
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 608,
-    "Name": "Daniel Group",
-    "AssociateId": 666,
-    "DetailsTable": 812,
-    "DetailsRecord": 701,
+    "Id": 381,
+    "Name": "Gibson, Armstrong and Kshlerin",
+    "AssociateId": 254,
+    "DetailsTable": 153,
+    "DetailsRecord": 20,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "vitae",
-      "ParameterObject2": "aliquid"
+      "ParameterObject1": "enim",
+      "ParameterObject2": "voluptate"
     },
-    "LastStarted": "2009-09-19T14:28:21.4929147+02:00",
-    "Created": "2003-12-04T14:28:21.4929147+01:00",
-    "StartCount": 97,
-    "DatabaseSerialNumber": "754157",
-    "Context": "corporis",
-    "Result": "aut",
+    "LastStarted": "2002-04-05T13:13:59.5314453+02:00",
+    "Created": "2014-05-30T13:13:59.5314453+02:00",
+    "StartCount": 815,
+    "DatabaseSerialNumber": "1153789",
+    "Context": "debitis",
+    "Result": "adipisci",
     "State": "All",
-    "Description": "Front-line non-volatile hierarchy",
-    "Response": "maxime",
-    "Request": "repellendus",
-    "ProgressDescription": "Upgradable optimizing hierarchy",
-    "ProgressPercent": 571,
-    "FileName": "Kihn-Cormier",
+    "Description": "Profound zero tolerance pricing structure",
+    "Response": "et",
+    "Request": "perspiciatis",
+    "ProgressDescription": "Future-proofed static methodology",
+    "ProgressPercent": 245,
+    "FileName": "Reilly, Bailey and Haag",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldType": "System.Int32",
+        "FieldLength": 449
       }
     }
   }

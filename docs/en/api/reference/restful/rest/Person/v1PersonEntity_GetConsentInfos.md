@@ -75,7 +75,7 @@ OK
 GET /api/v1/Person/{personId}/Consent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,27 +86,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 238,
-    "Comment": "distinctio",
-    "Registered": "2009-05-23T14:28:27.008316+02:00",
-    "RegisteredAssociateId": 304,
-    "Updated": "2002-09-15T14:28:27.008316+02:00",
-    "UpdatedAssociateId": 745,
-    "LegalBaseId": 451,
-    "LegalBaseKey": "nemo",
-    "LegalBaseName": "Mertz, Blick and Zboncak",
-    "ConsentPurposeId": 117,
-    "ConsentPurposeKey": "ut",
-    "ConsentPurposeName": "Miller, Weber and Sauer",
-    "ConsentSourceId": 168,
-    "ConsentSourceKey": "mollitia",
-    "ConsentSourceName": "Hudson-Spencer",
+    "ConsentPersonId": 619,
+    "Comment": "deleniti",
+    "Registered": "2003-03-22T13:14:08.8678966+01:00",
+    "RegisteredAssociateId": 159,
+    "Updated": "2008-08-21T13:14:08.8678966+02:00",
+    "UpdatedAssociateId": 796,
+    "LegalBaseId": 870,
+    "LegalBaseKey": "ea",
+    "LegalBaseName": "Metz, Hyatt and Pfannerstill",
+    "ConsentPurposeId": 59,
+    "ConsentPurposeKey": "quas",
+    "ConsentPurposeName": "Ortiz Group",
+    "ConsentSourceId": 261,
+    "ConsentSourceKey": "rerum",
+    "ConsentSourceName": "O'Connell Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 617
+        "FieldLength": 487
       }
     }
   }

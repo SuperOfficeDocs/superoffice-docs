@@ -96,7 +96,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldLength": 949
     }
   }
 }

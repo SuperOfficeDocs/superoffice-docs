@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 591,
-  "Name": "Spinka Group",
-  "Tooltip": "qui",
-  "Rank": 865,
+  "SaleTypeId": 874,
+  "Name": "Bernhard LLC",
+  "Tooltip": "quis",
+  "Rank": 780,
   "DurationUnit": "Century",
-  "SaleDuration": 13,
-  "SaleTypeCatId": 344,
+  "SaleDuration": 390,
+  "SaleTypeCatId": 613,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 113,
-  "QuoteLinesTemplate": 892,
-  "ConfirmationLinesTemplate": 908,
+  "DefaultQuoteValidity": 515,
+  "QuoteLinesTemplate": 35,
+  "ConfirmationLinesTemplate": 711,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 942,
-  "MinEarningPercent": 542,
-  "GroupQuoteLinesBy": 805,
-  "SortGroupLinesBy": 905,
+  "MaxDiscountPercent": 390,
+  "MinEarningPercent": 250,
+  "GroupQuoteLinesBy": 288,
+  "SortGroupLinesBy": 217,
   "Stages": [
     {
-      "Id": 177,
-      "Name": "Predovic, Cruickshank and Reichert",
-      "ToolTip": "Quibusdam accusantium aspernatur veniam tenetur.",
+      "Id": 212,
+      "Name": "Walsh, Kautzer and Buckridge",
+      "ToolTip": "Consequatur modi quidem harum quia voluptatibus.",
       "Deleted": false,
-      "Rank": 448,
-      "Type": "voluptas",
-      "ColorBlock": 711,
-      "IconHint": "molestiae",
-      "Selected": false,
-      "LastChanged": "2020-05-13T14:28:22.0866401+02:00",
+      "Rank": 114,
+      "Type": "laboriosam",
+      "ColorBlock": 543,
+      "IconHint": "voluptas",
+      "Selected": true,
+      "LastChanged": "2020-12-25T13:14:00.6575024+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nam",
-      "StyleHint": "voluptates",
+      "ExtraInfo": "qui",
+      "StyleHint": "voluptas",
       "Hidden": false,
-      "FullName": "Floyd McCullough"
+      "FullName": "Mrs. Orland Murray"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 418,
-  "Name": "Rice-Feeney",
-  "Tooltip": "sint",
-  "Rank": 489,
+  "SaleTypeId": 94,
+  "Name": "Wisoky LLC",
+  "Tooltip": "ullam",
+  "Rank": 584,
   "DurationUnit": "Century",
-  "SaleDuration": 421,
-  "SaleTypeCatId": 161,
+  "SaleDuration": 554,
+  "SaleTypeCatId": 417,
   "Deleted": false,
-  "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasGuide": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 573,
-  "QuoteLinesTemplate": 281,
-  "ConfirmationLinesTemplate": 149,
+  "DefaultQuoteValidity": 554,
+  "QuoteLinesTemplate": 93,
+  "ConfirmationLinesTemplate": 902,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 791,
-  "MinEarningPercent": 797,
-  "GroupQuoteLinesBy": 860,
-  "SortGroupLinesBy": 160,
+  "MaxDiscountPercent": 606,
+  "MinEarningPercent": 966,
+  "GroupQuoteLinesBy": 974,
+  "SortGroupLinesBy": 242,
   "Stages": [
     {
-      "Id": 762,
-      "Name": "Jewess-Dickinson",
-      "ToolTip": "Sed praesentium sapiente velit voluptate doloremque consequatur.",
-      "Deleted": true,
-      "Rank": 38,
-      "Type": "consequatur",
-      "ColorBlock": 823,
-      "IconHint": "nulla",
+      "Id": 420,
+      "Name": "Keeling Inc and Sons",
+      "ToolTip": "Omnis laboriosam necessitatibus molestiae esse aliquam doloremque qui.",
+      "Deleted": false,
+      "Rank": 793,
+      "Type": "itaque",
+      "ColorBlock": 809,
+      "IconHint": "consequatur",
       "Selected": false,
-      "LastChanged": "2013-10-19T14:28:22.0866401+02:00",
+      "LastChanged": "2016-07-23T13:14:00.6575024+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "officiis",
-      "StyleHint": "accusantium",
+      "ExtraInfo": "vero",
+      "StyleHint": "consequatur",
       "Hidden": false,
-      "FullName": "Elissa Reinhold Hauck IV",
+      "FullName": "Mrs. Dina Okuneva",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 580
+          "FieldLength": 21
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldType": "System.String",
+      "FieldLength": 660
     }
   }
 }

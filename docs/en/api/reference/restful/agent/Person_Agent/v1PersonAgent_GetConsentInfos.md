@@ -89,11 +89,11 @@ OK
 POST /api/v1/Agents/Person/GetConsentInfos
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 696
+  "PersonId": 708
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPersonId": 8,
-    "Comment": "sed",
-    "Registered": "2002-10-17T14:28:22.196011+02:00",
-    "RegisteredAssociateId": 188,
-    "Updated": "2009-06-07T14:28:22.196011+02:00",
-    "UpdatedAssociateId": 77,
-    "LegalBaseId": 797,
-    "LegalBaseKey": "quis",
-    "LegalBaseName": "Shanahan Group",
-    "ConsentPurposeId": 420,
-    "ConsentPurposeKey": "eos",
-    "ConsentPurposeName": "Farrell Inc and Sons",
-    "ConsentSourceId": 37,
-    "ConsentSourceKey": "ullam",
-    "ConsentSourceName": "Weber Group",
+    "ConsentPersonId": 412,
+    "Comment": "sit",
+    "Registered": "2011-05-05T13:14:00.8294529+02:00",
+    "RegisteredAssociateId": 289,
+    "Updated": "2004-11-06T13:14:00.8294529+01:00",
+    "UpdatedAssociateId": 988,
+    "LegalBaseId": 392,
+    "LegalBaseKey": "tempore",
+    "LegalBaseName": "Koss LLC",
+    "ConsentPurposeId": 545,
+    "ConsentPurposeKey": "dolorem",
+    "ConsentPurposeName": "Abshire Inc and Sons",
+    "ConsentSourceId": 590,
+    "ConsentSourceKey": "vitae",
+    "ConsentSourceName": "Zulauf, Botsford and Bruen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 846
+        "FieldType": "System.String",
+        "FieldLength": 429
       }
     }
   }

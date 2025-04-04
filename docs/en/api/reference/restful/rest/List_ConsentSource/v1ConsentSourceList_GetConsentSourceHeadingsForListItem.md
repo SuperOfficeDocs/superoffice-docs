@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ConsentSource/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 456,
-    "Name": "Homenick, Jacobs and Grimes",
-    "ToolTip": "Sint qui eum non aspernatur incidunt rem harum.",
+    "Id": 450,
+    "Name": "Funk-Heller",
+    "ToolTip": "Rem sint quia.",
     "Deleted": true,
-    "Rank": 481,
-    "Type": "et",
-    "ColorBlock": 68,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2011-03-23T14:28:27.5239205+01:00",
+    "Rank": 378,
+    "Type": "vitae",
+    "ColorBlock": 564,
+    "IconHint": "voluptatem",
+    "Selected": true,
+    "LastChanged": "2024-12-13T13:14:09.6816431+01:00",
     "ChildItems": [
       {
-        "Id": 693,
-        "Name": "Stehr, Schamberger and Rippin",
-        "ToolTip": "Et quidem.",
+        "Id": 435,
+        "Name": "Boyer Inc and Sons",
+        "ToolTip": "Nisi ipsam natus nam perspiciatis impedit est.",
         "Deleted": false,
-        "Rank": 582,
-        "Type": "laborum",
-        "ColorBlock": 666,
-        "IconHint": "laborum",
+        "Rank": 578,
+        "Type": "debitis",
+        "ColorBlock": 877,
+        "IconHint": "a",
         "Selected": false,
-        "LastChanged": "2006-09-02T14:28:27.5239205+02:00",
+        "LastChanged": "1999-11-07T13:14:09.6816431+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "ut",
+        "StyleHint": "hic",
         "Hidden": false,
-        "FullName": "Ms. Conor Hayes DVM",
+        "FullName": "Vicenta Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 398
+            "FieldLength": 213
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "sint",
+    "ExtraInfo": "inventore",
+    "StyleHint": "porro",
     "Hidden": true,
-    "FullName": "Keaton Tromp",
+    "FullName": "Mrs. Devante Aiden Nienow",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 566
+        "FieldLength": 259
       }
     }
   }

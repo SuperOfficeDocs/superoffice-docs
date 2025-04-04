@@ -83,21 +83,21 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 499,
-      "FieldName": "Hintz-Weissnat",
-      "Label": "dolorum",
-      "Tooltip": "et",
+      "QuoteLineConfigurationId": 1002,
+      "FieldName": "Fisher LLC",
+      "Label": "id",
+      "Tooltip": "ea",
       "Editable": false,
       "InUse": false,
       "Mandatory": false,
-      "Rank": 924,
-      "RestrictEdit": true
+      "Rank": 32,
+      "RestrictEdit": false
     }
   ]
 }
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 795,
-    "FieldName": "Thompson, Shields and Prosacco",
-    "Label": "et",
-    "Tooltip": "molestiae",
+    "QuoteLineConfigurationId": 546,
+    "FieldName": "Hintz, Bahringer and McGlynn",
+    "Label": "provident",
+    "Tooltip": "adipisci",
     "Editable": false,
     "InUse": true,
     "Mandatory": false,
-    "Rank": 279,
+    "Rank": 1001,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 719
+        "FieldLength": 528
       }
     }
   }

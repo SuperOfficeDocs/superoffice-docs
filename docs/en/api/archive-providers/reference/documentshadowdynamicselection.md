@@ -711,7 +711,7 @@ Shadow contact provider for the dynamic document provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/DocumentShadowDynamicSelection?$select=attention,person/personAssociate/credentialDisplayValue,person/correspondingAssociate/role,contact/contactDeleted,associate/mrMrs
+GET /api/v1/archive/DocumentShadowDynamicSelection?$select=completed,person/personAddress/wgs84latitude,person/personUdef/SuperOffice:3,person/personAssociate/ejDisplayName,contact/contactDeleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

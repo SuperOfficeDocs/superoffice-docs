@@ -74,14 +74,14 @@ OK
 POST /api/v1/Agents/EMail/RefreshFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "maxime",
-    "et"
+    "sapiente",
+    "aperiam"
   ]
 }
 ```
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-445
+320
 ```

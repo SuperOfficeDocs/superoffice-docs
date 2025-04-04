@@ -70,7 +70,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "ChangePasswordCustomerCenter",
-  "PersonId": 601
+  "PersonId": 268
 }
 ```
 

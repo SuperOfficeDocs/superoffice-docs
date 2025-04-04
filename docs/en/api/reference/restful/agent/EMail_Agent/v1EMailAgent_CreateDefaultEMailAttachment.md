@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,21 +78,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Face to face logistical architecture",
-  "Filename": "facilis",
-  "Size": 169,
-  "Type": "nisi",
-  "Encoding": "numquam",
-  "Id": "aperiam",
-  "Disposition": "dolores",
+  "Description": "Switchable hybrid pricing structure",
+  "Filename": "velit",
+  "Size": 936,
+  "Type": "autem",
+  "Encoding": "velit",
+  "Id": "numquam",
+  "Disposition": "quos",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldType": "System.Int32",
+      "FieldLength": 306
     }
   }
 }

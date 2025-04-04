@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 944,
-  "TopicId": 982,
+  "ChatSessionId": 117,
+  "TopicId": 330,
   "User": null,
   "Person": null,
-  "CustomerAlias": "fugit",
-  "CustomerHost": "modi",
-  "CustomerName": "Hodkiewicz, Kshlerin and Stamm",
-  "CustomerEmail": "fleta@grady.com",
-  "CustomerPhone": "1-099-194-5246",
+  "CustomerAlias": "aspernatur",
+  "CustomerHost": "in",
+  "CustomerName": "Towne, Bartell and Gibson",
+  "CustomerEmail": "earl@cassin.us",
+  "CustomerPhone": "668.079.2435 x712",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Kshlerin-Prohaska",
+  "CustomerCompanyName": "Goldner Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "consequatur",
-  "LastMessage": "et",
-  "WhenRequested": "2007-07-06T14:28:26.7739511+02:00",
-  "WhenStarted": "2011-07-05T14:28:26.7739511+02:00",
-  "WhenEnded": "2017-07-16T14:28:26.7739511+02:00",
-  "WhenIdle": "2016-01-27T14:28:26.7739511+01:00",
-  "WhenFetched": "2023-07-30T14:28:26.7739511+02:00",
-  "SessionKey": "voluptas",
-  "InitialQueuePos": 627,
-  "AlertLevel": 434,
-  "Rank": 50,
+  "FirstMessage": "qui",
+  "LastMessage": "porro",
+  "WhenRequested": "2017-04-11T13:14:08.4459934+02:00",
+  "WhenStarted": "2002-03-26T13:14:08.4459934+01:00",
+  "WhenEnded": "2024-12-01T13:14:08.4459934+01:00",
+  "WhenIdle": "2023-11-30T13:14:08.4459934+01:00",
+  "WhenFetched": "2016-05-17T13:14:08.4459934+02:00",
+  "SessionKey": "voluptatibus",
+  "InitialQueuePos": 69,
+  "AlertLevel": 730,
+  "Rank": 249,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": true,
-  "Rating": 426,
+  "Rating": 711,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 430
     }
   }
 }

@@ -74,9 +74,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 31,
-  "TemplateName": "Davis LLC",
-  "UseContacts": true
+  "SelectionId": 96,
+  "TemplateName": "Hettinger Inc and Sons",
+  "UseContacts": false
 }
 ```
 

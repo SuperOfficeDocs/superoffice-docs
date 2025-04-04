@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Person/AddBounceWithDetails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailAddress": "darrion.raynor@berge.co.uk",
-  "Counts": 754,
-  "Code": 23,
+  "EmailAddress": "cornell@damoremccullough.name",
+  "Counts": 121,
+  "Code": 610,
   "Reason": ""
 }
 ```

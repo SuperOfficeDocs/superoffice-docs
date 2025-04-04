@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 215
+  "QuoteVersionId": 136
 }
 ```
 
@@ -97,15 +97,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": false,
-  "UserExplanation": "dolores",
-  "TechExplanation": "consequatur",
-  "ErrorCode": "iure",
+  "UserExplanation": "facere",
+  "TechExplanation": "accusamus",
+  "ErrorCode": "labore",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
   "ChangedQuoteAlternatives": [
     {
-      "QuoteLinesHasChanged": true,
+      "QuoteLinesHasChanged": false,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
@@ -113,12 +113,12 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 641
+          "FieldLength": 753
         }
       }
     },
     {
-      "QuoteLinesHasChanged": true,
+      "QuoteLinesHasChanged": false,
       "ChangedQuoteAlternative": null,
       "Changes": null,
       "TableRight": null,
@@ -126,7 +126,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 641
+          "FieldLength": 753
         }
       }
     }
@@ -137,7 +137,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 93
+      "FieldLength": 636
     }
   }
 }

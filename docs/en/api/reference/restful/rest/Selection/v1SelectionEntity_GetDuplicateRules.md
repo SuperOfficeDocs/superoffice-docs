@@ -58,7 +58,7 @@ OK
 GET /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gutmann-Prosacco",
-    "DisplayName": "Heaney Inc and Sons",
-    "DisplayTooltip": "atque",
-    "IsActive": false,
+    "Name": "Nolan-Schultz",
+    "DisplayName": "Kunde Inc and Sons",
+    "DisplayTooltip": "voluptates",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldLength": 692
       }
     }
   },
   {
-    "Name": "Gutmann-Prosacco",
-    "DisplayName": "Heaney Inc and Sons",
-    "DisplayTooltip": "atque",
-    "IsActive": false,
+    "Name": "Nolan-Schultz",
+    "DisplayName": "Kunde Inc and Sons",
+    "DisplayTooltip": "voluptates",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 130
+        "FieldLength": 692
       }
     }
   }

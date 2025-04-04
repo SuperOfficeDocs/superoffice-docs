@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 439,
-  "Name": "Howe-Haag",
-  "Tooltip": "ipsa",
-  "Rank": 942,
-  "Rate": 7487.126,
-  "Units": 8082.5859999999993,
+  "CurrencyId": 233,
+  "Name": "Bartoletti, Hirthe and Kirlin",
+  "Tooltip": "sint",
+  "Rank": 972,
+  "Rate": 8424.192,
+  "Units": 17193.124,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 300
+      "FieldType": "System.String",
+      "FieldLength": 636
     }
   }
 }

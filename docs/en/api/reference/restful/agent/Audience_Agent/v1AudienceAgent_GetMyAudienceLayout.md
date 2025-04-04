@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 130,
-  "InstanceLayout": "delectus",
-  "InstanceName": "Wiza, Franecki and Wiegand",
-  "CreatedDate": "2001-04-23T14:28:21.47729+02:00",
-  "UpdatedDate": "2008-12-01T14:28:21.47729+01:00",
+  "AudienceLayoutId": 294,
+  "InstanceLayout": "velit",
+  "InstanceName": "Schinner Group",
+  "CreatedDate": "1998-11-11T13:13:59.5314453+01:00",
+  "UpdatedDate": "2024-07-07T13:13:59.5314453+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 278
+      "FieldType": "System.Int32",
+      "FieldLength": 791
     }
   }
 }

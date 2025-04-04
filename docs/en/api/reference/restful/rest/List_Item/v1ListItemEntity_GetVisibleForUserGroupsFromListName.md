@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 83,
-    "Name": "Howe, Walsh and Steuber",
-    "ToolTip": "Quos aut.",
-    "Deleted": false,
-    "Rank": 608,
-    "Type": "quibusdam",
-    "ColorBlock": 197,
-    "IconHint": "ex",
+    "Id": 961,
+    "Name": "Lesch, Pouros and Windler",
+    "ToolTip": "Soluta laboriosam maiores quo nisi quaerat corrupti in.",
+    "Deleted": true,
+    "Rank": 468,
+    "Type": "eum",
+    "ColorBlock": 667,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2009-10-24T14:28:27.4614236+02:00",
+    "LastChanged": "2022-04-09T13:14:09.5873854+02:00",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Stehr Inc and Sons",
-        "ToolTip": "Nam numquam quisquam sunt beatae aut.",
-        "Deleted": true,
-        "Rank": 76,
-        "Type": "aliquid",
-        "ColorBlock": 158,
-        "IconHint": "fuga",
+        "Id": 813,
+        "Name": "Beier, Cummerata and Borer",
+        "ToolTip": "Velit laudantium nisi optio.",
+        "Deleted": false,
+        "Rank": 136,
+        "Type": "pariatur",
+        "ColorBlock": 376,
+        "IconHint": "alias",
         "Selected": false,
-        "LastChanged": "2024-10-26T14:28:27.4614236+02:00",
+        "LastChanged": "2002-08-22T13:14:09.5873854+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "tempora",
-        "StyleHint": "totam",
+        "ExtraInfo": "dicta",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Kendall Schaden DDS",
+        "FullName": "Llewellyn Hahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 601
+            "FieldType": "System.String",
+            "FieldLength": 103
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Magnus Parisian Sr.",
+    "ExtraInfo": "aliquid",
+    "StyleHint": "possimus",
+    "Hidden": true,
+    "FullName": "Mrs. Rachelle Chelsie Hills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 515
+        "FieldType": "System.String",
+        "FieldLength": 577
       }
     }
   }

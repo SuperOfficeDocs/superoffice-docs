@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "corrupti",
-  "ProviderName": "Jerde-Reilly",
-  "StorageKey": "dolores",
+  "StorageType": "voluptatem",
+  "ProviderName": "Dickinson-Baumbach",
+  "StorageKey": "id",
   "StaticColumns": [
     "et",
-    "ut"
+    "hic"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Beier Group",
-      "Operator": "vel",
+      "Name": "Hudson, Reynolds and O'Reilly",
+      "Operator": "quia",
       "Values": [
-        "expedita",
-        "et"
+        "et",
+        "est"
       ],
       "DisplayValues": [
-        "itaque",
-        "voluptas"
+        "dolor",
+        "officia"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 690,
+      "InterParenthesis": 248,
       "InterOperator": "And",
-      "UniqueHash": 894
+      "UniqueHash": 184
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Grant, Champlin and Flatley",
-      "DisplayTooltip": "voluptatem",
-      "DisplayType": "rerum",
+      "DisplayName": "Baumbach Group",
+      "DisplayTooltip": "nulla",
+      "DisplayType": "commodi",
       "CanOrderBy": false,
-      "Name": "Wiza LLC",
+      "Name": "Mueller-Ernser",
       "CanRestrictBy": false,
-      "RestrictionType": "sapiente",
-      "RestrictionListName": "Koch-Murphy",
+      "RestrictionType": "voluptas",
+      "RestrictionListName": "Williamson-Krajcik",
       "IsVisible": false,
-      "ExtraInfo": "blanditiis",
-      "Width": "laboriosam",
-      "IconHint": "quod",
-      "HeadingIconHint": "est"
+      "ExtraInfo": "officia",
+      "Width": "est",
+      "IconHint": "consequatur",
+      "HeadingIconHint": "blanditiis"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Krajcik LLC",
-      "PrimaryKey": 661,
+      "EntityName": "Monahan Inc and Sons",
+      "PrimaryKey": 69,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "dolorem",
-          "TooltipHint": "maxime",
-          "LinkHint": "et"
+          "DisplayValue": "a",
+          "TooltipHint": "perferendis",
+          "LinkHint": "enim"
         }
       },
-      "LinkHint": "est",
-      "StyleHint": "harum",
+      "LinkHint": "non",
+      "StyleHint": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 301
+          "FieldLength": 879
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Rice Group",
-      "Description": "Switchable tertiary info-mediaries",
-      "Rank": 255,
+      "Name": "Harris, Schiller and Hermiston",
+      "Description": "Innovative hybrid utilisation",
+      "Rank": 151,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Rice Group",
-      "Description": "Switchable tertiary info-mediaries",
-      "Rank": 255,
+      "Name": "Harris, Schiller and Hermiston",
+      "Description": "Innovative hybrid utilisation",
+      "Rank": 151,
       "Restrictions": [
         {},
         {}
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 411
+      "FieldLength": 519
     }
   }
 }

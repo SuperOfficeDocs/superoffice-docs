@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 843,
-  "Name": "Miller LLC",
-  "Tooltip": "qui",
+  "Id": 452,
+  "Name": "Heathcote Group",
+  "Tooltip": "eaque",
   "Deleted": false,
-  "Rank": 31,
-  "IsCustomList": true,
+  "Rank": 941,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "quisquam",
+  "ListType": "accusamus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 941,
-  "Name": "Cormier, Anderson and Wolf",
-  "Tooltip": "laboriosam",
-  "Deleted": false,
-  "Rank": 37,
-  "IsCustomList": true,
+  "Id": 232,
+  "Name": "Gleichner-Murazik",
+  "Tooltip": "qui",
+  "Deleted": true,
+  "Rank": 687,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quia",
+  "UseGroupsAndHeadings": false,
+  "ListType": "tenetur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 54
+      "FieldLength": 957
     }
   }
 }

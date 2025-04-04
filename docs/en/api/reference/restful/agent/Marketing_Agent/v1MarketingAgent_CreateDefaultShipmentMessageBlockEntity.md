@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 933,
-  "AssociateId": 471,
-  "Block": "culpa",
-  "Registered": "2013-08-19T14:28:22.1022648+02:00",
-  "RegisteredAssociateId": 731,
-  "Updated": "2011-08-20T14:28:22.1022648+02:00",
-  "UpdatedAssociateId": 837,
-  "UpdatedCount": 925,
+  "ShipmentMessageBlockId": 166,
+  "AssociateId": 840,
+  "Block": "velit",
+  "Registered": "1999-08-23T13:14:00.6887452+02:00",
+  "RegisteredAssociateId": 512,
+  "Updated": "2018-07-21T13:14:00.6887452+02:00",
+  "UpdatedAssociateId": 588,
+  "UpdatedCount": 81,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 953
+      "FieldType": "System.Int32",
+      "FieldLength": 204
     }
   }
 }

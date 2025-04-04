@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/GetUserAgentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 603,
-    "Name": "Shanahan, Mante and Wolff",
-    "ToolTip": "Consequuntur cumque quo dolor aliquam et laborum numquam.",
-    "Deleted": true,
-    "Rank": 878,
-    "Type": "voluptate",
+    "Id": 746,
+    "Name": "Volkman-O'Conner",
+    "ToolTip": "Beatae sed et suscipit sit qui tempora inventore.",
+    "Deleted": false,
+    "Rank": 398,
+    "Type": "iure",
     "ChildItems": [
       {
-        "Id": 710,
-        "Name": "Okuneva, Walsh and Shanahan",
-        "ToolTip": "Explicabo non expedita id iure maiores.",
+        "Id": 629,
+        "Name": "Mann Inc and Sons",
+        "ToolTip": "Sunt ipsa voluptas illum ea labore eligendi.",
         "Deleted": false,
-        "Rank": 753,
-        "Type": "ratione",
+        "Rank": 634,
+        "Type": "veritatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "natus",
-        "ColorBlock": 236,
-        "ExtraInfo": "illum",
-        "StyleHint": "aperiam",
-        "FullName": "Miss Skylar Jarrett Lockman",
+        "IconHint": "non",
+        "ColorBlock": 314,
+        "ExtraInfo": "incidunt",
+        "StyleHint": "voluptatum",
+        "FullName": "Emmet Lemke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 699
+            "FieldLength": 572
           }
         }
       }
     ],
-    "IconHint": "at",
-    "ColorBlock": 652,
-    "ExtraInfo": "qui",
-    "StyleHint": "corporis",
-    "FullName": "Alyce Stroman",
+    "IconHint": "quae",
+    "ColorBlock": 243,
+    "ExtraInfo": "ipsum",
+    "StyleHint": "ut",
+    "FullName": "Mrs. Alexis Mann III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 653
+        "FieldLength": 910
       }
     }
   }

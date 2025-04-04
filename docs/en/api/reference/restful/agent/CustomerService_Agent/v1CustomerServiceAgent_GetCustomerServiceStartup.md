@@ -79,27 +79,27 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": false,
-  "TZOffset": 498,
-  "RecaptchaSiteKey": "molestiae",
+  "TZOffset": 326,
+  "RecaptchaSiteKey": "dolore",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "impedit",
+      "RawValue": "accusamus",
       "Specification": null,
-      "DisplayValue": "corporis",
-      "DisplayTooltip": "reprehenderit",
+      "DisplayValue": "omnis",
+      "DisplayTooltip": "officia",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 723,
-      "PrefDescId": 252,
-      "TableName": "Goldner LLC",
-      "UserPreferenceId": 589,
+      "TargetId": 719,
+      "PrefDescId": 888,
+      "TableName": "Krajcik Group",
+      "UserPreferenceId": 250,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 52
+          "FieldLength": 175
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldType": "System.String",
+      "FieldLength": 363
     }
   }
 }

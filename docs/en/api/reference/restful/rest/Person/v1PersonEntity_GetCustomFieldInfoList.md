@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Pollich, Leuschke and Gulgowski",
-    "DisplayName": "DuBuque, Bahringer and Beahan",
-    "Description": "Optimized mobile local area network",
-    "ShortLabel": "amet",
+    "FieldName": "Okuneva, Lueilwitz and Wisoky",
+    "DisplayName": "Kohler Inc and Sons",
+    "Description": "Realigned bifurcated pricing structure",
+    "ShortLabel": "laudantium",
     "HideLabel": false,
     "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": false,
+    "IsIndexed": false,
+    "IsMandatory": true,
     "IsReadOnly": true,
     "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 490,
-    "TemplateVariableName": "Stamm Inc and Sons"
+    "Rank": 978,
+    "TemplateVariableName": "Wunsch, Oberbrunner and Bechtelar"
   }
 ]
 ```

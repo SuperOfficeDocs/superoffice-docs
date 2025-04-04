@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Quote/SavePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 676,
-  "ERPPriceListKey": "aliquam",
-  "QuoteConnectionId": 90,
-  "Name": "Nolan LLC",
-  "Description": "Multi-lateral web-enabled parallelism",
-  "Currency": "distinctio",
-  "CurrencyName": "Greenfelder, Hirthe and Toy",
-  "ValidFrom": "2016-11-03T14:28:22.2897573+01:00",
-  "ValidTo": "2012-09-05T14:28:22.2897573+02:00",
+  "PriceListId": 619,
+  "ERPPriceListKey": "libero",
+  "QuoteConnectionId": 642,
+  "Name": "O'Reilly Inc and Sons",
+  "Description": "Fully-configurable 6th generation array",
+  "Currency": "in",
+  "CurrencyName": "Kuhic LLC",
+  "ValidFrom": "1997-12-11T13:14:00.9702863+01:00",
+  "ValidTo": "2021-09-04T13:14:00.9702863+02:00",
   "IsActive": false
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 718,
-  "ERPPriceListKey": "quo",
-  "QuoteConnectionId": 104,
-  "Name": "Bauch-Kunze",
-  "Description": "Monitored user-facing knowledge base",
-  "Currency": "reiciendis",
-  "CurrencyName": "Ferry, Yundt and Cremin",
-  "ValidFrom": "1997-11-23T14:28:22.2897573+01:00",
-  "ValidTo": "2009-11-06T14:28:22.2897573+01:00",
-  "IsActive": true,
+  "PriceListId": 552,
+  "ERPPriceListKey": "omnis",
+  "QuoteConnectionId": 217,
+  "Name": "Monahan-Torphy",
+  "Description": "Polarised motivating secured line",
+  "Currency": "natus",
+  "CurrencyName": "Beatty-Wunsch",
+  "ValidFrom": "2000-11-25T13:14:00.9702863+01:00",
+  "ValidTo": "2002-01-15T13:14:00.9702863+01:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 191
+      "FieldLength": 961
     }
   }
 }

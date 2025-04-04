@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 550
+  "QuoteId": 914
 }
 ```
 
@@ -127,75 +127,75 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteVersionId": 286,
-    "ERPQuoteVersionKey": "et",
-    "QuoteId": 510,
-    "Description": "Re-engineered secondary info-mediaries",
-    "Number": "1232123",
+    "QuoteVersionId": 48,
+    "ERPQuoteVersionKey": "est",
+    "QuoteId": 981,
+    "Description": "Pre-emptive clear-thinking system engine",
+    "Number": "310677",
     "State": "Archived",
     "ArchivedState": "Archived",
     "Status": "Error",
     "Reason": "",
-    "LikelyQuoteAlternativeId": 511,
-    "SentDate": "2017-07-03T14:28:22.274133+02:00",
-    "FollowupId": 841,
-    "ExpirationDate": "2006-09-22T14:28:22.274133+02:00",
-    "DeliveryCountryId": 179,
-    "HasOwnDeliveryAddress": false,
-    "InvoiceCountryId": 306,
-    "HasOwnInvoiceAddress": false,
-    "ERPPaymentTermsKey": "tempore",
-    "ERPPaymentTypeKey": "maiores",
+    "LikelyQuoteAlternativeId": 451,
+    "SentDate": "2004-05-30T13:14:00.9546603+02:00",
+    "FollowupId": 500,
+    "ExpirationDate": "2007-03-04T13:14:00.9546603+01:00",
+    "DeliveryCountryId": 39,
+    "HasOwnDeliveryAddress": true,
+    "InvoiceCountryId": 347,
+    "HasOwnInvoiceAddress": true,
+    "ERPPaymentTermsKey": "voluptatem",
+    "ERPPaymentTypeKey": "tenetur",
     "ERPDeliveryTermsKey": "expedita",
     "ERPDeliveryTypeKey": "qui",
-    "Rank": 566,
-    "ApprovedBy": 176,
-    "ApprovedText": "distinctio",
-    "ApprovedRegisteredBy": 111,
-    "ApprovedRegisteredDate": "2013-10-19T14:28:22.274133+02:00",
-    "ExtraField1": "nulla",
-    "ExtraField2": "eius",
-    "ExtraField3": "est",
-    "ExtraField4": "eveniet",
-    "ExtraField5": "corrupti",
-    "LastRecalculated": "2021-01-21T14:28:22.274133+01:00",
-    "Updated": "2021-12-17T14:28:22.274133+01:00",
-    "UpdatedAssociateId": 169,
-    "Registered": "2012-10-02T14:28:22.274133+02:00",
-    "RegisteredAssociateId": 396,
-    "RequestAssociateId": 751,
-    "RequestComment": "possimus",
+    "Rank": 247,
+    "ApprovedBy": 893,
+    "ApprovedText": "et",
+    "ApprovedRegisteredBy": 710,
+    "ApprovedRegisteredDate": "2014-11-22T13:14:00.9546603+01:00",
+    "ExtraField1": "laborum",
+    "ExtraField2": "ab",
+    "ExtraField3": "quisquam",
+    "ExtraField4": "necessitatibus",
+    "ExtraField5": "qui",
+    "LastRecalculated": "2016-12-21T13:14:00.9546603+01:00",
+    "Updated": "2024-06-22T13:14:00.9546603+02:00",
+    "UpdatedAssociateId": 463,
+    "Registered": "2011-01-29T13:14:00.9546603+01:00",
+    "RegisteredAssociateId": 31,
+    "RequestAssociateId": 488,
+    "RequestComment": "dolor",
     "QuoteAlternatives": [
       {
-        "QuoteAlternativeId": 473,
-        "ERPQuoteAlternativeKey": "unde",
-        "QuoteVersionId": 387,
-        "Name": "Kautzer, West and Mayert",
-        "Description": "Ameliorated non-volatile access",
+        "QuoteAlternativeId": 619,
+        "ERPQuoteAlternativeKey": "animi",
+        "QuoteVersionId": 524,
+        "Name": "Dibbert-Stokes",
+        "Description": "Open-source motivating Graphic Interface",
         "Status": "Error",
         "Reason": "",
-        "ERPDiscountPercent": 7230.138,
-        "ERPDiscountAmount": 11633.408,
-        "DiscountPercent": 8301.966,
-        "DiscountAmount": 13328.902,
+        "ERPDiscountPercent": 4722.938,
+        "ERPDiscountAmount": 26228.446,
+        "DiscountPercent": 11410.894,
+        "DiscountAmount": 15607.32,
         "UserValueOverride": "DiscountAmount",
-        "VATInfo": "necessitatibus",
-        "VAT": 16578.86,
-        "EarningPercent": 2685.8379999999997,
-        "EarningAmount": 16074.286,
-        "SubTotal": 28516.266,
-        "TotalPrice": 8311.368,
-        "ExtraField1": "cum",
-        "ExtraField2": "commodi",
-        "ExtraField3": "sed",
-        "ExtraField4": "et",
-        "ExtraField5": "qui",
+        "VATInfo": "fuga",
+        "VAT": 28983.232,
+        "EarningPercent": 6036.084,
+        "EarningAmount": 21922.329999999998,
+        "SubTotal": 24617.57,
+        "TotalPrice": 15265.714,
+        "ExtraField1": "dolorem",
+        "ExtraField2": "qui",
+        "ExtraField3": "reprehenderit",
+        "ExtraField4": "adipisci",
+        "ExtraField5": "quis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 251
+            "FieldLength": 152
           }
         }
       }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 544
+        "FieldLength": 987
       }
     }
   }

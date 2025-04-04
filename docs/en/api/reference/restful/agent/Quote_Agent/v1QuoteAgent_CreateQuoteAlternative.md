@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 437,
-  "QuoteAlternativeName": "Effertz, Gottlieb and Stokes",
-  "QuoteAlternativeDescription": "Streamlined composite moratorium"
+  "QuoteVersionId": 117,
+  "QuoteAlternativeName": "Hegmann Inc and Sons",
+  "QuoteAlternativeDescription": "Organized fresh-thinking circuit"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 380,
-  "ERPQuoteAlternativeKey": "fugiat",
-  "QuoteVersionId": 321,
-  "Name": "Runolfsson LLC",
-  "Description": "Networked zero defect task-force",
+  "QuoteAlternativeId": 917,
+  "ERPQuoteAlternativeKey": "minima",
+  "QuoteVersionId": 577,
+  "Name": "Mraz-Borer",
+  "Description": "Face to face directional hub",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 15074.539999999999,
-  "ERPDiscountAmount": 19330.512,
-  "DiscountPercent": 9333.052,
-  "DiscountAmount": 16462.902,
+  "ERPDiscountPercent": 22730.902,
+  "ERPDiscountAmount": 5544.0459999999994,
+  "DiscountPercent": 20684.399999999998,
+  "DiscountAmount": 7007.624,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "a",
-  "VAT": 18274.354,
-  "EarningPercent": 21167.036,
-  "EarningAmount": 548.44999999999993,
-  "SubTotal": 29591.228,
-  "TotalPrice": 17600.543999999998,
-  "ExtraField1": "voluptas",
-  "ExtraField2": "eveniet",
-  "ExtraField3": "voluptatem",
-  "ExtraField4": "cum",
-  "ExtraField5": "omnis",
+  "VATInfo": "molestiae",
+  "VAT": 26504.237999999998,
+  "EarningPercent": 1971.2859999999998,
+  "EarningAmount": 3497.544,
+  "SubTotal": 1986.956,
+  "TotalPrice": 12319.753999999999,
+  "ExtraField1": "sint",
+  "ExtraField2": "non",
+  "ExtraField3": "eum",
+  "ExtraField4": "commodi",
+  "ExtraField5": "aliquam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 13
+      "FieldLength": 497
     }
   }
 }

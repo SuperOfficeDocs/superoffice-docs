@@ -101,11 +101,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithEmbeddedData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 63,
+  "Id": 879,
   "EmbedImages": "Inline"
 }
 ```
@@ -117,79 +117,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 486,
+  "EjMessageId": 178,
   "Ticket": null,
-  "CreatedAt": "2018-05-30T14:28:22.5397478+02:00",
+  "CreatedAt": "1998-06-11T13:14:01.3944274+02:00",
   "CreatedBy": null,
-  "Author": "neque",
+  "Author": "recusandae",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "possimus",
-  "TimeSpent": 750,
-  "Body": "possimus",
-  "HtmlBody": "quisquam",
-  "EmailHeader": "donna@shieldsoberbrunner.co.uk",
-  "DebugInfo": "in",
-  "MailSorter": "ad",
+  "MessageId": "praesentium",
+  "TimeSpent": 163,
+  "Body": "nesciunt",
+  "HtmlBody": "repudiandae",
+  "EmailHeader": "meghan.hodkiewicz@schaefer.name",
+  "DebugInfo": "ut",
+  "MailSorter": "sed",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "at",
+  "SearchTitle": "omnis",
   "MessageHeaders": [
     {
-      "Id": 255,
-      "Name": "Muller-Rolfson",
-      "Value": "nulla",
+      "Id": 174,
+      "Name": "Spencer-Ziemann",
+      "Value": "et",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldType": "System.String",
+          "FieldLength": 66
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "harum",
-  "Sentiment": 369,
-  "SentimentConfidence": 346,
+  "Important": true,
+  "Language": "reprehenderit",
+  "Sentiment": 113,
+  "SentimentConfidence": 389,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 133,
-      "Name": "Heaney-Cassin",
-      "ContentType": "enim",
-      "AttSize": 544,
+      "AttachmentId": 994,
+      "Name": "Kemmer-Kilback",
+      "ContentType": "iusto",
+      "AttSize": 843,
       "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "omnis",
-      "IsSafeFileExtension": true,
+      "ContentId": "dolorum",
+      "AuthKey": "illo",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 135
+          "FieldType": "System.String",
+          "FieldLength": 583
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "maiores",
-    "ExtraFields2": "mollitia"
+    "ExtraFields1": "illum",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "fugit",
-    "CustomFields2": "tempore"
+    "CustomFields1": "earum",
+    "CustomFields2": "quo"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 975
+      "FieldType": "System.Int32",
+      "FieldLength": 691
     }
   }
 }

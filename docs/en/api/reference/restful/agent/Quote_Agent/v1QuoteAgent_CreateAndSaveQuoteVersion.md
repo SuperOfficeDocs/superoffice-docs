@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 690
+  "QuoteVersionId": 950
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 321,
-  "ERPQuoteVersionKey": "sed",
-  "QuoteId": 336,
-  "Description": "Assimilated next generation collaboration",
-  "Number": "386061",
+  "QuoteVersionId": 493,
+  "ERPQuoteVersionKey": "voluptatem",
+  "QuoteId": 867,
+  "Description": "Centralized attitude-oriented encryption",
+  "Number": "1675646",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
   "Reason": "",
-  "LikelyQuoteAlternativeId": 260,
-  "SentDate": "1997-11-27T14:28:22.274133+01:00",
-  "FollowupId": 288,
-  "ExpirationDate": "2024-10-03T14:28:22.274133+02:00",
-  "DeliveryCountryId": 374,
+  "LikelyQuoteAlternativeId": 653,
+  "SentDate": "2000-06-29T13:14:00.9546603+02:00",
+  "FollowupId": 467,
+  "ExpirationDate": "2006-12-25T13:14:00.9546603+01:00",
+  "DeliveryCountryId": 281,
   "HasOwnDeliveryAddress": false,
-  "InvoiceCountryId": 800,
-  "HasOwnInvoiceAddress": false,
-  "ERPPaymentTermsKey": "odit",
-  "ERPPaymentTypeKey": "laborum",
-  "ERPDeliveryTermsKey": "at",
-  "ERPDeliveryTypeKey": "porro",
-  "Rank": 868,
-  "ApprovedBy": 96,
-  "ApprovedText": "aut",
-  "ApprovedRegisteredBy": 992,
-  "ApprovedRegisteredDate": "2007-11-15T14:28:22.274133+01:00",
-  "ExtraField1": "repudiandae",
-  "ExtraField2": "quibusdam",
-  "ExtraField3": "a",
-  "ExtraField4": "a",
-  "ExtraField5": "ad",
-  "LastRecalculated": "2023-08-13T14:28:22.274133+02:00",
-  "Updated": "2000-05-05T14:28:22.274133+02:00",
-  "UpdatedAssociateId": 143,
-  "Registered": "2020-01-01T14:28:22.274133+01:00",
-  "RegisteredAssociateId": 818,
-  "RequestAssociateId": 890,
-  "RequestComment": "possimus",
+  "InvoiceCountryId": 49,
+  "HasOwnInvoiceAddress": true,
+  "ERPPaymentTermsKey": "voluptatum",
+  "ERPPaymentTypeKey": "optio",
+  "ERPDeliveryTermsKey": "quis",
+  "ERPDeliveryTypeKey": "non",
+  "Rank": 594,
+  "ApprovedBy": 60,
+  "ApprovedText": "ab",
+  "ApprovedRegisteredBy": 547,
+  "ApprovedRegisteredDate": "2008-05-24T13:14:00.9546603+02:00",
+  "ExtraField1": "voluptatem",
+  "ExtraField2": "tenetur",
+  "ExtraField3": "pariatur",
+  "ExtraField4": "eius",
+  "ExtraField5": "quos",
+  "LastRecalculated": "2006-06-29T13:14:00.9546603+02:00",
+  "Updated": "2016-10-26T13:14:00.9546603+02:00",
+  "UpdatedAssociateId": 118,
+  "Registered": "2021-02-15T13:14:00.9546603+01:00",
+  "RegisteredAssociateId": 288,
+  "RequestAssociateId": 669,
+  "RequestComment": "minus",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 834,
-      "ERPQuoteAlternativeKey": "eaque",
-      "QuoteVersionId": 758,
-      "Name": "Armstrong Inc and Sons",
-      "Description": "Realigned attitude-oriented collaboration",
+      "QuoteAlternativeId": 23,
+      "ERPQuoteAlternativeKey": "qui",
+      "QuoteVersionId": 976,
+      "Name": "Harber-Schumm",
+      "Description": "Cloned transitional software",
       "Status": "Error",
-      "Reason": "repurpose magnetic content",
-      "ERPDiscountPercent": 11793.242,
-      "ERPDiscountAmount": 10840.506,
-      "DiscountPercent": 9047.858,
-      "DiscountAmount": 28898.613999999998,
+      "Reason": "",
+      "ERPDiscountPercent": 6891.666,
+      "ERPDiscountAmount": 9909.708,
+      "DiscountPercent": 10824.836,
+      "DiscountAmount": 18691.176,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "aliquid",
-      "VAT": 15999.07,
-      "EarningPercent": 10956.464,
-      "EarningAmount": 28663.564,
-      "SubTotal": 5497.036,
-      "TotalPrice": 24554.89,
-      "ExtraField1": "quia",
-      "ExtraField2": "rerum",
-      "ExtraField3": "hic",
-      "ExtraField4": "facere",
-      "ExtraField5": "aut",
+      "VATInfo": "omnis",
+      "VAT": 20067.002,
+      "EarningPercent": 17741.574,
+      "EarningAmount": 1585.8039999999999,
+      "SubTotal": 1222.26,
+      "TotalPrice": 17832.46,
+      "ExtraField1": "dolorem",
+      "ExtraField2": "sapiente",
+      "ExtraField3": "laudantium",
+      "ExtraField4": "est",
+      "ExtraField5": "possimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 99
+          "FieldType": "System.String",
+          "FieldLength": 525
         }
       }
     }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 235
+      "FieldType": "System.Int32",
+      "FieldLength": 795
     }
   }
 }

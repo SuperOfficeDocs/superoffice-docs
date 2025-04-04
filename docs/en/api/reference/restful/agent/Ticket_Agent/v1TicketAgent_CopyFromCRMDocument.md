@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 802
+  "DocumentId": 193
 }
 ```
 
@@ -95,20 +95,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 333,
-  "Name": "Runte LLC",
-  "ContentType": "consequatur",
-  "AttSize": 719,
-  "InlineImage": true,
-  "ContentId": "omnis",
-  "AuthKey": "consequatur",
+  "AttachmentId": 529,
+  "Name": "Zieme Inc and Sons",
+  "ContentType": "quod",
+  "AttSize": 706,
+  "InlineImage": false,
+  "ContentId": "accusantium",
+  "AuthKey": "rerum",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 475
+      "FieldType": "System.Int32",
+      "FieldLength": 9
     }
   }
 }

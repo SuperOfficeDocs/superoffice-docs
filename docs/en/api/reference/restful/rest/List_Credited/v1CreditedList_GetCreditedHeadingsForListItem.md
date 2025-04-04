@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Credited/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 354,
-    "Name": "Kshlerin LLC",
-    "ToolTip": "Accusantium fuga in ut deleniti nisi.",
+    "Id": 23,
+    "Name": "Murray-Schiller",
+    "ToolTip": "Sed consequatur natus illum.",
     "Deleted": false,
-    "Rank": 931,
-    "Type": "quos",
-    "ColorBlock": 194,
-    "IconHint": "esse",
-    "Selected": true,
-    "LastChanged": "2021-03-03T14:28:27.5395453+01:00",
+    "Rank": 388,
+    "Type": "saepe",
+    "ColorBlock": 827,
+    "IconHint": "veritatis",
+    "Selected": false,
+    "LastChanged": "1998-05-07T13:14:09.7128949+02:00",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Gaylord-Effertz",
-        "ToolTip": "Et similique et atque voluptatem.",
+        "Id": 930,
+        "Name": "Cormier-Gorczany",
+        "ToolTip": "Et magnam dicta eos.",
         "Deleted": false,
-        "Rank": 209,
-        "Type": "omnis",
-        "ColorBlock": 500,
-        "IconHint": "at",
+        "Rank": 484,
+        "Type": "tempora",
+        "ColorBlock": 493,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2016-07-16T14:28:27.5395453+02:00",
+        "LastChanged": "2010-11-30T13:14:09.7128949+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "est",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Brody Wisozk",
+        "FullName": "Prof. Letitia Volkman Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 723
+            "FieldType": "System.String",
+            "FieldLength": 244
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "nemo",
+    "ExtraInfo": "enim",
+    "StyleHint": "necessitatibus",
     "Hidden": false,
-    "FullName": "Kirsten Blanda",
+    "FullName": "Miss Reinhold Precious Schimmel II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 224
+        "FieldType": "System.Int32",
+        "FieldLength": 609
       }
     }
   }

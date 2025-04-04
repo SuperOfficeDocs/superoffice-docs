@@ -93,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 709,
-  "ListItemId": 198,
+  "UdListDefinitionId": 564,
+  "ListItemId": 666,
   "UserGroups": [
     {
-      "Id": 240,
-      "Name": "Konopelski, Von and Schulist",
-      "ToolTip": "Animi assumenda quibusdam neque laudantium.",
+      "Id": 901,
+      "Name": "Rohan-Roberts",
+      "ToolTip": "Repellendus dignissimos tempora.",
       "Deleted": false,
-      "Rank": 341,
-      "Type": "quia",
-      "ColorBlock": 399,
-      "IconHint": "quos",
+      "Rank": 31,
+      "Type": "voluptatibus",
+      "ColorBlock": 493,
+      "IconHint": "sed",
       "Selected": false,
-      "LastChanged": "2021-09-05T14:28:22.0553915+02:00",
+      "LastChanged": "1999-11-08T13:14:00.5949987+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptatibus",
-      "StyleHint": "adipisci",
-      "Hidden": true,
-      "FullName": "Thomas Boehm"
+      "ExtraInfo": "aut",
+      "StyleHint": "autem",
+      "Hidden": false,
+      "FullName": "Sim Stracke"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 377,
-    "Name": "Kessler-Stark",
-    "ToolTip": "Sint tempora soluta rerum.",
-    "Deleted": true,
-    "Rank": 284,
-    "Type": "incidunt",
-    "ColorBlock": 679,
-    "IconHint": "tempora",
-    "Selected": false,
-    "LastChanged": "2020-03-26T14:28:22.0553915+01:00",
+    "Id": 559,
+    "Name": "Hegmann, Kshlerin and Gibson",
+    "ToolTip": "Dolorem error soluta.",
+    "Deleted": false,
+    "Rank": 905,
+    "Type": "tempora",
+    "ColorBlock": 424,
+    "IconHint": "maiores",
+    "Selected": true,
+    "LastChanged": "2024-11-04T13:14:00.5949987+01:00",
     "ChildItems": [
       {
-        "Id": 655,
-        "Name": "Beatty, Bahringer and Murazik",
-        "ToolTip": "Autem dignissimos illum quaerat et illo quas qui.",
-        "Deleted": false,
-        "Rank": 628,
-        "Type": "non",
-        "ColorBlock": 927,
-        "IconHint": "deleniti",
+        "Id": 825,
+        "Name": "Dicki LLC",
+        "ToolTip": "Quaerat excepturi est occaecati perspiciatis.",
+        "Deleted": true,
+        "Rank": 757,
+        "Type": "deserunt",
+        "ColorBlock": 452,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2011-02-09T14:28:22.0553915+01:00",
+        "LastChanged": "2023-07-16T13:14:00.5949987+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "odit",
+        "ExtraInfo": "itaque",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Megane Lindgren",
+        "FullName": "Earline Von",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 507
+            "FieldType": "System.Int32",
+            "FieldLength": 820
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "molestiae",
+    "ExtraInfo": "quasi",
+    "StyleHint": "maxime",
     "Hidden": false,
-    "FullName": "Roselyn Lakin",
+    "FullName": "George Hanna Gerhold V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 773
+        "FieldType": "System.Int32",
+        "FieldLength": 514
       }
     }
   }

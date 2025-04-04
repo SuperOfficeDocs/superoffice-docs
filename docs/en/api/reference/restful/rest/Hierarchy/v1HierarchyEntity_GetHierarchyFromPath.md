@@ -89,46 +89,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 642,
+  "HierarchyId": 860,
   "Domain": "Dashboards",
-  "Name": "Hettinger Inc and Sons",
-  "Fullname": "consectetur",
-  "ParentId": 466,
+  "Name": "Kshlerin LLC",
+  "Fullname": "omnis",
+  "ParentId": 673,
   "Children": [
     {
-      "HierarchyId": 445,
+      "HierarchyId": 155,
       "Domain": "Dashboards",
-      "Name": "Lesch-Lakin",
-      "Fullname": "sit",
-      "ParentId": 952,
+      "Name": "Green LLC",
+      "Fullname": "rerum",
+      "ParentId": 686,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2019-03-25T14:28:26.961443+01:00",
-      "RegisteredAssociateId": 507,
-      "Updated": "2021-07-07T14:28:26.961443+02:00",
-      "UpdatedAssociateId": 93,
+      "Registered": "1998-05-14T13:14:08.7741411+02:00",
+      "RegisteredAssociateId": 676,
+      "Updated": "2020-04-27T13:14:08.7741411+02:00",
+      "UpdatedAssociateId": 248,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 976
+          "FieldType": "System.String",
+          "FieldLength": 957
         }
       }
     }
   ],
-  "Registered": "2005-06-21T14:28:26.961443+02:00",
-  "RegisteredAssociateId": 225,
-  "Updated": "2021-07-29T14:28:26.961443+02:00",
-  "UpdatedAssociateId": 248,
+  "Registered": "2002-07-24T13:14:08.7741411+02:00",
+  "RegisteredAssociateId": 885,
+  "Updated": "2009-12-20T13:14:08.7741411+01:00",
+  "UpdatedAssociateId": 813,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 902
+      "FieldType": "System.Int32",
+      "FieldLength": 962
     }
   }
 }

@@ -25,7 +25,7 @@ Deletes the CustomerCenterConfig
 | CustomerCenterConfigId | int32 | **Required** The id of the CustomerCenterConfig to be deleted. |
 
 ```http
-POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?CustomerCenterConfigId=686
+POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig?CustomerCenterConfigId=149
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/CustomerService/DeleteCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response

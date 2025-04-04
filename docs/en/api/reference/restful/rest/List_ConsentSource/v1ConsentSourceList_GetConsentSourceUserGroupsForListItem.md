@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Bosco-Hintz",
-    "ToolTip": "Tempora libero a asperiores ut quos.",
-    "Deleted": false,
-    "Rank": 165,
-    "Type": "numquam",
-    "ColorBlock": 137,
-    "IconHint": "consequatur",
-    "Selected": true,
-    "LastChanged": "2000-06-01T14:28:27.5082958+02:00",
+    "Id": 259,
+    "Name": "Graham, Braun and O'Kon",
+    "ToolTip": "Quod exercitationem odio ab.",
+    "Deleted": true,
+    "Rank": 324,
+    "Type": "a",
+    "ColorBlock": 25,
+    "IconHint": "dolor",
+    "Selected": false,
+    "LastChanged": "1999-03-19T13:14:09.6816431+01:00",
     "ChildItems": [
       {
-        "Id": 628,
-        "Name": "Sipes Group",
-        "ToolTip": "Beatae cumque porro veniam iste voluptatem nam qui.",
-        "Deleted": false,
-        "Rank": 286,
-        "Type": "minima",
-        "ColorBlock": 147,
-        "IconHint": "possimus",
+        "Id": 587,
+        "Name": "Rosenbaum, Sporer and Rolfson",
+        "ToolTip": "Aut qui alias eius quis.",
+        "Deleted": true,
+        "Rank": 147,
+        "Type": "officiis",
+        "ColorBlock": 643,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2022-09-07T14:28:27.5082958+02:00",
+        "LastChanged": "2015-03-20T13:14:09.6816431+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "deserunt",
-        "StyleHint": "qui",
-        "Hidden": true,
-        "FullName": "Alanis Beier",
+        "ExtraInfo": "iste",
+        "StyleHint": "quo",
+        "Hidden": false,
+        "FullName": "Prof. Annamarie Moore V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 778
+            "FieldType": "System.Int32",
+            "FieldLength": 388
           }
         }
       }
     ],
-    "ExtraInfo": "illum",
-    "StyleHint": "tempora",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "harum",
     "Hidden": false,
-    "FullName": "Sally Turner",
+    "FullName": "Joelle Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 592
+        "FieldLength": 660
       }
     }
   }

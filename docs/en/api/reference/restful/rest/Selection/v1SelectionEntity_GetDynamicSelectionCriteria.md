@@ -77,44 +77,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Koss Group",
-    "Operator": "non",
+    "Name": "Wehner, Kertzmann and Rogahn",
+    "Operator": "ut",
     "Values": [
-      "quasi",
-      "voluptatem"
+      "nihil",
+      "itaque"
     ],
     "DisplayValues": [
-      "voluptas",
-      "excepturi"
+      "voluptatem",
+      "facere"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Veum, Eichmann and Reilly",
-        "Operator": "vitae",
+        "Name": "Kohler Inc and Sons",
+        "Operator": "aut",
         "Values": [
-          "animi",
-          "qui"
+          "qui",
+          "molestiae"
         ],
         "DisplayValues": [
-          "qui",
-          "quasi"
+          "excepturi",
+          "illo"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 760,
+        "InterParenthesis": 458,
         "InterOperator": "And",
-        "UniqueHash": 971
+        "UniqueHash": 1002
       }
     ],
-    "InterParenthesis": 521,
+    "InterParenthesis": 811,
     "InterOperator": "And",
-    "UniqueHash": 262
+    "UniqueHash": 993
   }
 ]
 ```

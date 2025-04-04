@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 9,
-  "Name": "Flatley, Beier and Quigley",
-  "Tooltip": "est",
+  "Id": 77,
+  "Name": "Haag Inc and Sons",
+  "Tooltip": "voluptatem",
   "Deleted": true,
-  "UdListDefinitionId": 649,
-  "Rank": 833
+  "UdListDefinitionId": 750,
+  "Rank": 264
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 488,
-  "Name": "Becker LLC",
-  "Tooltip": "nobis",
-  "Deleted": true,
-  "UdListDefinitionId": 482,
-  "Rank": 436,
+  "Id": 67,
+  "Name": "Bruen-Runte",
+  "Tooltip": "labore",
+  "Deleted": false,
+  "UdListDefinitionId": 493,
+  "Rank": 922,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 557
+      "FieldLength": 325
     }
   }
 }

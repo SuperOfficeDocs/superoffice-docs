@@ -25,7 +25,7 @@ Deletes the DocumentEntity
 | DocumentEntityId | int32 | **Required** The id of the DocumentEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Document/DeleteDocumentEntity?DocumentEntityId=24
+POST /api/v1/Agents/Document/DeleteDocumentEntity?DocumentEntityId=440
 ```
 
 

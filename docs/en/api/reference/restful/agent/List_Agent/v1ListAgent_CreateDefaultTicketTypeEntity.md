@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 579,
-  "Name": "Brown LLC",
-  "Rank": 657,
-  "Tooltip": "quo",
-  "Icon": "delectus",
-  "DefaultTicketStatus": 29,
+  "TicketTypeId": 883,
+  "Name": "Pollich, Connelly and Walsh",
+  "Rank": 494,
+  "Tooltip": "enim",
+  "Icon": "corrupti",
+  "DefaultTicketStatus": 961,
   "TicketStatuses": [
-    294,
-    882
+    103,
+    262
   ],
-  "DefaultTicketPriority": 116,
+  "DefaultTicketPriority": 274,
   "TicketPriorities": [
-    553,
-    483
+    2,
+    476
   ],
-  "ReplyTemplate": 891,
+  "ReplyTemplate": 538,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    639,
-    752
+    414,
+    271
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": true,
@@ -117,8 +117,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 8
     }
   }
 }

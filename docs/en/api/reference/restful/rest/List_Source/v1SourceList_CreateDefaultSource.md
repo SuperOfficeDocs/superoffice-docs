@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 620,
-  "Name": "Kris LLC",
-  "Tooltip": "ipsum",
-  "Deleted": false,
-  "UdListDefinitionId": 294,
-  "Rank": 610,
+  "Id": 326,
+  "Name": "Gusikowski Group",
+  "Tooltip": "natus",
+  "Deleted": true,
+  "UdListDefinitionId": 292,
+  "Rank": 391,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 675
+      "FieldType": "System.Int32",
+      "FieldLength": 379
     }
   }
 }

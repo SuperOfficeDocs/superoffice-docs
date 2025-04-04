@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rohan-Rogahn",
-    "DisplayName": "Ebert Group",
-    "Description": "Cross-platform interactive support",
-    "ToolTip": "Omnis ullam autem voluptatem non praesentium.",
+    "Name": "Brekke Inc and Sons",
+    "DisplayName": "Windler, Bruen and Kshlerin",
+    "Description": "Compatible actuating pricing structure",
+    "ToolTip": "Necessitatibus quisquam autem sequi.",
     "Actions": "Implicit",
-    "ActionData": "quidem",
+    "ActionData": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldLength": 245
       }
     }
   }

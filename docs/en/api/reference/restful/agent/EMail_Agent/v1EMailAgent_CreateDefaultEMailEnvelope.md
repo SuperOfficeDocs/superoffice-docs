@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailEnvelope
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,45 +79,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerId": 857,
-  "MessageId": "culpa",
-  "Subject": "ratione",
+  "ServerId": 468,
+  "MessageId": "impedit",
+  "Subject": "quam",
   "From": null,
   "To": [
     {
-      "ContactId": 777,
-      "ContactName": "Bernhard Group",
-      "PersonId": 881,
-      "PersonName": "Wintheiser, Streich and Cummerata",
-      "AssociateId": 829,
-      "Address": "non",
-      "EmailId": 757,
+      "ContactId": 822,
+      "ContactName": "Hodkiewicz, Legros and Kemmer",
+      "PersonId": 44,
+      "PersonName": "Zulauf-Greenholt",
+      "AssociateId": 860,
+      "Address": "commodi",
+      "EmailId": 532,
       "DuplicatePersonIds": [
-        854,
-        936
+        914,
+        846
       ],
-      "Name": "Carroll-West",
+      "Name": "Schumm Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 620
+          "FieldType": "System.Int32",
+          "FieldLength": 841
         }
       }
     }
   ],
-  "Sent": "2001-11-06T14:28:21.9303967+01:00",
+  "Sent": "2014-02-25T13:14:00.32935+01:00",
   "Priority": "High",
   "Flags": "Answered",
-  "Size": 896,
+  "Size": 480,
   "EMailSOInfo": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 597
+      "FieldType": "System.String",
+      "FieldLength": 487
     }
   }
 }

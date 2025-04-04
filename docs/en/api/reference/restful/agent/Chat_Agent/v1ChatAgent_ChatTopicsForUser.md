@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/ChatTopicsForUser
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,43 +108,43 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ChatTopicId": 18,
-    "Name": "O'Hara Inc and Sons",
-    "Description": "Networked mobile database",
-    "WelcomeMessage": "assumenda",
+    "ChatTopicId": 967,
+    "Name": "Satterfield-Heathcote",
+    "Description": "Focused multimedia project",
+    "WelcomeMessage": "ullam",
     "Language": null,
-    "LastAccept": "2023-05-25T14:28:21.5710362+02:00",
-    "SecondsPrAccept": 453,
-    "AlertRecipient": "inventore",
+    "LastAccept": "2024-11-22T13:13:59.6725623+01:00",
+    "SecondsPrAccept": 254,
+    "AlertRecipient": "qui",
     "AlertTemplate": null,
-    "CollectConsent": true,
-    "BadgeHeader": "sapiente",
-    "CustomQueueTextEnabled": false,
-    "CustomQueueText": "praesentium",
-    "WarnNewChatMinutes": 982,
-    "WarnManagerNewChatMinutes": 545,
+    "CollectConsent": false,
+    "BadgeHeader": "rem",
+    "CustomQueueTextEnabled": true,
+    "CustomQueueText": "quia",
+    "WarnNewChatMinutes": 192,
+    "WarnManagerNewChatMinutes": 868,
     "TicketEnabled": false,
     "TicketCategory": null,
     "TicketPriority": null,
-    "OpeningHoursEnabled": false,
+    "OpeningHoursEnabled": true,
     "OpeningHours": null,
     "Widget": null,
     "BotEnabled": false,
     "BotSettings": null,
     "OfflineCollectConsent": false,
-    "WarnChatMessageMinutes": 597,
-    "WarnManagerChatMessageMinutes": 629,
-    "UseQueueOfflineForm": true,
-    "OfflineFormTimeLimit": 495,
-    "OfflineFormQueueLength": 695,
+    "WarnChatMessageMinutes": 711,
+    "WarnManagerChatMessageMinutes": 332,
+    "UseQueueOfflineForm": false,
+    "OfflineFormTimeLimit": 570,
+    "OfflineFormQueueLength": 982,
     "WidgetEnableRating": true,
-    "WidgetRatingText": "voluptates",
+    "WidgetRatingText": "eum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 64
+        "FieldType": "System.String",
+        "FieldLength": 679
       }
     }
   }

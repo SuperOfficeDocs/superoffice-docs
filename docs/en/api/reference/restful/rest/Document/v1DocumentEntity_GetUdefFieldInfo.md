@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 462,
-  "ColumnId": 659,
-  "FieldDefault": "omnis",
-  "FieldHeight": 144,
-  "FieldLabel": "ut",
-  "FieldLeft": 863,
-  "FieldTop": 210,
+  "UDefFieldId": 774,
+  "ColumnId": 540,
+  "FieldDefault": "temporibus",
+  "FieldHeight": 993,
+  "FieldLabel": "optio",
+  "FieldLeft": 707,
+  "FieldTop": 394,
   "FieldType": "Checkbox",
-  "FieldWidth": 529,
-  "FormatMask": "quaerat",
+  "FieldWidth": 128,
+  "FormatMask": "et",
   "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 635,
-  "LabelLeft": 97,
-  "LabelTop": 370,
-  "LabelWidth": 996,
-  "LastVersionId": 794,
-  "ListTableId": 296,
+  "IsIndexed": true,
+  "LabelHeight": 891,
+  "LabelLeft": 307,
+  "LabelTop": 258,
+  "LabelWidth": 182,
+  "LastVersionId": 802,
+  "ListTableId": 392,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 148,
-  "ProgId": "officia",
-  "IsReadOnly": true,
-  "ShortLabel": "voluptatem",
-  "TabOrder": 762,
-  "TextLength": 176,
-  "Tooltip": "architecto",
-  "UdefIdentity": 437,
-  "UDListDefinitionId": 725,
+  "Page1LineNo": 713,
+  "ProgId": "ea",
+  "IsReadOnly": false,
+  "ShortLabel": "impedit",
+  "TabOrder": 705,
+  "TextLength": 365,
+  "Tooltip": "hic",
+  "UdefIdentity": 398,
+  "UDListDefinitionId": 379,
   "Justification": "Center",
-  "Version": 226,
-  "TemplateVariableName": "Weimann-Spencer",
+  "Version": 410,
+  "TemplateVariableName": "Jones Inc and Sons",
   "HasBeenPublished": false,
-  "MdoListName": "Rohan-Schiller",
+  "MdoListName": "Jacobi-Lang",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 932
+      "FieldLength": 352
     }
   }
 }

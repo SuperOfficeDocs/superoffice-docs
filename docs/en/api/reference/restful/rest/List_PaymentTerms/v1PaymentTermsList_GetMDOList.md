@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=quibusdam
+GET /api/v1/List/PaymentTerm/MDOItems?query=provident
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 358,
-    "Name": "Rippin Inc and Sons",
-    "ToolTip": "Amet culpa et corporis aliquam non et magni.",
-    "Deleted": false,
-    "Rank": 464,
-    "Type": "sed",
+    "Id": 317,
+    "Name": "Orn, Zulauf and Ernser",
+    "ToolTip": "Sit est.",
+    "Deleted": true,
+    "Rank": 50,
+    "Type": "qui",
     "ChildItems": [
       {
-        "Id": 400,
-        "Name": "Carter-Schuppe",
-        "ToolTip": "Molestias maiores error.",
-        "Deleted": true,
-        "Rank": 725,
-        "Type": "hic",
+        "Id": 826,
+        "Name": "Crist, Nienow and Morar",
+        "ToolTip": "Non sit consequatur.",
+        "Deleted": false,
+        "Rank": 987,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "illo",
-        "ColorBlock": 93,
-        "ExtraInfo": "sunt",
-        "StyleHint": "hic",
-        "FullName": "Delbert Amani Johns DDS",
+        "IconHint": "voluptatum",
+        "ColorBlock": 599,
+        "ExtraInfo": "velit",
+        "StyleHint": "minima",
+        "FullName": "Mrs. Madge Halvorson I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 149
+            "FieldType": "System.Int32",
+            "FieldLength": 322
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 648,
-    "ExtraInfo": "et",
-    "StyleHint": "vero",
-    "FullName": "Leanna Rosenbaum",
+    "IconHint": "ut",
+    "ColorBlock": 818,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ratione",
+    "FullName": "Beau Bashirian",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 883
+        "FieldLength": 264
       }
     }
   }

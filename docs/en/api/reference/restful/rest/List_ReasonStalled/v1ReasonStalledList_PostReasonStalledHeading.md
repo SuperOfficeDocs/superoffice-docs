@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 280,
-  "Name": "Emard, Mills and Mann",
-  "Tooltip": "quia",
+  "HeadingId": 323,
+  "Name": "Kilback-Nitzsche",
+  "Tooltip": "optio",
   "Deleted": false,
-  "Rank": 372,
-  "UdListDefinitionId": 723
+  "Rank": 509,
+  "UdListDefinitionId": 836
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 395,
-  "Name": "Koss, Towne and Dietrich",
-  "Tooltip": "praesentium",
+  "HeadingId": 543,
+  "Name": "Boyle-Senger",
+  "Tooltip": "a",
   "Deleted": false,
-  "Rank": 239,
-  "UdListDefinitionId": 5,
+  "Rank": 993,
+  "UdListDefinitionId": 927,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 640
+      "FieldLength": 860
     }
   }
 }

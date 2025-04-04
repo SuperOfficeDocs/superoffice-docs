@@ -85,8 +85,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Larson, Gusikowski and Aufderhar",
-  "TypicalSearchId": 175
+  "EntityName": "Kovacek Inc and Sons",
+  "TypicalSearchId": 752
 }
 ```
 
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "McLaughlin-Jakubowski",
-  "SelectionId": 17,
-  "CanSaveAsSelection": true,
-  "MainHeading": "culpa",
-  "FilterScreenHeading": "corporis",
-  "SelectionEntityHeading": "dicta",
+  "ProviderName": "Stehr, Pacocha and McCullough",
+  "SelectionId": 584,
+  "CanSaveAsSelection": false,
+  "MainHeading": "voluptatem",
+  "FilterScreenHeading": "officiis",
+  "SelectionEntityHeading": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 499
+      "FieldLength": 100
     }
   }
 }

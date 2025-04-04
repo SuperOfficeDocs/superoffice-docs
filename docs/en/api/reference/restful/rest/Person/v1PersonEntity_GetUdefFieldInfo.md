@@ -93,7 +93,7 @@ PersonEntity found.
 GET /api/v1/Person/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 374,
-  "ColumnId": 51,
-  "FieldDefault": "consequatur",
-  "FieldHeight": 661,
-  "FieldLabel": "et",
-  "FieldLeft": 343,
-  "FieldTop": 883,
+  "UDefFieldId": 563,
+  "ColumnId": 18,
+  "FieldDefault": "veritatis",
+  "FieldHeight": 204,
+  "FieldLabel": "voluptatibus",
+  "FieldLeft": 56,
+  "FieldTop": 253,
   "FieldType": "Checkbox",
-  "FieldWidth": 162,
-  "FormatMask": "minus",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 880,
-  "LabelLeft": 416,
-  "LabelTop": 820,
-  "LabelWidth": 961,
-  "LastVersionId": 856,
-  "ListTableId": 315,
-  "IsMandatory": true,
+  "FieldWidth": 478,
+  "FormatMask": "dolor",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 904,
+  "LabelLeft": 940,
+  "LabelTop": 941,
+  "LabelWidth": 300,
+  "LastVersionId": 782,
+  "ListTableId": 253,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 304,
-  "ProgId": "quo",
+  "Page1LineNo": 154,
+  "ProgId": "possimus",
   "IsReadOnly": false,
-  "ShortLabel": "totam",
-  "TabOrder": 994,
-  "TextLength": 365,
-  "Tooltip": "est",
-  "UdefIdentity": 800,
-  "UDListDefinitionId": 525,
+  "ShortLabel": "velit",
+  "TabOrder": 298,
+  "TextLength": 15,
+  "Tooltip": "doloribus",
+  "UdefIdentity": 768,
+  "UDListDefinitionId": 947,
   "Justification": "Center",
-  "Version": 692,
-  "TemplateVariableName": "Langworth Group",
+  "Version": 326,
+  "TemplateVariableName": "Powlowski-Towne",
   "HasBeenPublished": false,
-  "MdoListName": "Johns-Quigley",
+  "MdoListName": "Halvorson, Moore and Blanda",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 913
+      "FieldType": "System.String",
+      "FieldLength": 828
     }
   }
 }

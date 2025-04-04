@@ -99,7 +99,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 872
+  "QuoteVersionId": 515
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 321,
-    "ERPQuoteAlternativeKey": "illo",
-    "QuoteVersionId": 299,
-    "Name": "Metz, Gislason and Heathcote",
-    "Description": "Operative heuristic extranet",
+    "QuoteAlternativeId": 622,
+    "ERPQuoteAlternativeKey": "tenetur",
+    "QuoteVersionId": 807,
+    "Name": "Grimes, Aufderhar and Bernhard",
+    "Description": "Phased secondary knowledge user",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 770.96399999999994,
-    "ERPDiscountAmount": 20298.917999999998,
-    "DiscountPercent": 21621.466,
-    "DiscountAmount": 5108.42,
+    "ERPDiscountPercent": 23787.059999999998,
+    "ERPDiscountAmount": 25886.84,
+    "DiscountPercent": 14388.194,
+    "DiscountAmount": 6973.15,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "maiores",
-    "VAT": 20706.338,
-    "EarningPercent": 15281.384,
-    "EarningAmount": 6894.8,
-    "SubTotal": 27535.324,
-    "TotalPrice": 980.942,
-    "ExtraField1": "cum",
-    "ExtraField2": "ducimus",
-    "ExtraField3": "rerum",
-    "ExtraField4": "architecto",
-    "ExtraField5": "vel",
+    "VATInfo": "et",
+    "VAT": 17331.02,
+    "EarningPercent": 1585.8039999999999,
+    "EarningAmount": 17478.318,
+    "SubTotal": 2635.694,
+    "TotalPrice": 23881.079999999998,
+    "ExtraField1": "eos",
+    "ExtraField2": "consectetur",
+    "ExtraField3": "totam",
+    "ExtraField4": "pariatur",
+    "ExtraField5": "doloremque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 156
+        "FieldLength": 660
       }
     }
   }

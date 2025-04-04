@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaultsWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "asperiores",
-  "ProviderName": "Littel Group",
+  "StorageType": "nostrum",
+  "ProviderName": "Schoen, Ruecker and Huels",
   "StorageKey": "occaecati",
   "DesiredColumnNames": [
-    "Lubowitz-Spinka",
-    "Harvey, Carroll and Jakubowski"
+    "Schultz, Bayer and Crist",
+    "Moen Group"
   ],
   "StaticColumns": [
-    "ab",
-    "nobis"
+    "nesciunt",
+    "enim"
   ],
-  "Context": "repudiandae"
+  "Context": "quam"
 }
 ```
 
@@ -111,81 +111,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Leannon LLC",
-      "Operator": "aut",
+      "Name": "Runte-Weimann",
+      "Operator": "esse",
       "Values": [
-        "eos",
-        "nobis"
+        "et",
+        "ut"
       ],
       "DisplayValues": [
-        "praesentium",
-        "asperiores"
+        "nihil",
+        "ex"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 880,
+      "InterParenthesis": 31,
       "InterOperator": "And",
-      "UniqueHash": 778
+      "UniqueHash": 943
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Rice-Shanahan",
-      "DisplayTooltip": "laboriosam",
-      "DisplayType": "eligendi",
+      "DisplayName": "Keebler, Satterfield and Flatley",
+      "DisplayTooltip": "nulla",
+      "DisplayType": "in",
       "CanOrderBy": false,
-      "Name": "Mante, Pagac and Marvin",
-      "CanRestrictBy": true,
-      "RestrictionType": "pariatur",
-      "RestrictionListName": "Boehm Inc and Sons",
+      "Name": "Welch, Schuppe and Torphy",
+      "CanRestrictBy": false,
+      "RestrictionType": "amet",
+      "RestrictionListName": "Kunde-Goodwin",
       "IsVisible": false,
-      "ExtraInfo": "unde",
-      "Width": "eum",
-      "IconHint": "similique",
-      "HeadingIconHint": "vel"
+      "ExtraInfo": "perferendis",
+      "Width": "quod",
+      "IconHint": "doloremque",
+      "HeadingIconHint": "id"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Hickle-O'Conner",
-      "PrimaryKey": 367,
+      "EntityName": "Bernhard, Abshire and Lynch",
+      "PrimaryKey": 561,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "expedita",
-          "TooltipHint": "et",
-          "LinkHint": "eius"
+          "DisplayValue": "fuga",
+          "TooltipHint": "alias",
+          "LinkHint": "cupiditate"
         }
       },
-      "LinkHint": "voluptas",
-      "StyleHint": "ut",
+      "LinkHint": "nobis",
+      "StyleHint": "quos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 181
+          "FieldType": "System.Int32",
+          "FieldLength": 999
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Ryan Inc and Sons",
-      "Description": "Inverse actuating benchmark",
-      "Rank": 22,
+      "Name": "Lebsack Group",
+      "Description": "Cross-platform composite secured line",
+      "Rank": 740,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ryan Inc and Sons",
-      "Description": "Inverse actuating benchmark",
-      "Rank": 22,
+      "Name": "Lebsack Group",
+      "Description": "Cross-platform composite secured line",
+      "Rank": 740,
       "Restrictions": [
         {},
         {}
@@ -197,7 +197,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 840
     }
   }
 }

@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Succeeded": false,
-  "Reason": "architect 24/7 models",
+  "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 166
+      "FieldType": "System.Int32",
+      "FieldLength": 149
     }
   }
 }

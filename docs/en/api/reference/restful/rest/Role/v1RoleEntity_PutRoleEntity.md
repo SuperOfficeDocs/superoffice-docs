@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 304,
-  "Name": "Goodwin, Moen and Kautzer",
-  "Tooltip": "at",
+  "RoleId": 207,
+  "Name": "Herman Inc and Sons",
+  "Tooltip": "culpa",
   "RoleType": "Anonymous",
-  "Deleted": 371,
-  "Rank": 191,
-  "Created": "2020-01-21T14:28:27.0864524+01:00",
-  "UseCategories": 400,
+  "Deleted": 229,
+  "Rank": 82,
+  "Created": "2021-02-26T13:14:08.9461361+01:00",
+  "UseCategories": 898,
   "CreatedBy": null,
-  "Updated": "2004-10-03T14:28:27.1020656+02:00",
+  "Updated": "2007-02-24T13:14:08.9461361+01:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,24 +129,24 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 334,
-  "Name": "Ankunding, Schuster and Anderson",
-  "Tooltip": "eum",
+  "RoleId": 950,
+  "Name": "Abshire-Roob",
+  "Tooltip": "blanditiis",
   "RoleType": "Anonymous",
-  "Deleted": 124,
-  "Rank": 717,
-  "Created": "1999-02-21T14:28:27.1333149+01:00",
-  "UseCategories": 591,
+  "Deleted": 912,
+  "Rank": 21,
+  "Created": "2014-10-22T13:14:08.961762+02:00",
+  "UseCategories": 260,
   "CreatedBy": null,
-  "Updated": "2021-12-10T14:28:27.1333149+01:00",
+  "Updated": "2000-10-04T13:14:08.961762+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 95
+      "FieldType": "System.Int32",
+      "FieldLength": 11
     }
   },
   "_Links": {

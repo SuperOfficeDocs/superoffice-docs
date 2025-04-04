@@ -765,7 +765,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowSelectionCombinedV2?$select=timeSpentInternally,createdBy/title,person/personAssociate/mrMrs,person/hasStoreConsent,contact/saintSaleStatus
+GET /api/v1/archive/TicketShadowSelectionCombinedV2?$select=ownedBy/associateDbId,person/correspondingAssociate/lastName,person/correspondingAssociate/contactName,contact/contactAssociate/assocName,project/updatedByFullName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -26,7 +26,7 @@ Gets a Country object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetCountry?countryId=642
+POST /api/v1/Agents/List/GetCountry?countryId=773
 POST /api/v1/Agents/List/GetCountry?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/GetCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 842,
-  "Name": "Beahan LLC",
-  "CurrencyId": 890,
-  "EnglishName": "Simonis-Ernser",
+  "CountryId": 35,
+  "Name": "Heaney Group",
+  "CurrencyId": 855,
+  "EnglishName": "Brekke, Schaden and Conroy",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Object-based logistical artificial intelligence",
-  "OrgNrText": "295245",
-  "InterAreaPrefix": "ut",
-  "DialInPrefix": "qui",
-  "ZipPrefix": "voluptas",
-  "DomainName": "Bauch-Bradtke",
-  "AddressLayoutId": 62,
-  "DomesticAddressLayoutId": 983,
-  "ForeignAddressLayoutId": 866,
-  "Rank": 547,
-  "Tooltip": "doloremque",
+  "ImageDescription": "Multi-layered non-volatile encryption",
+  "OrgNrText": "1229506",
+  "InterAreaPrefix": "omnis",
+  "DialInPrefix": "dolorem",
+  "ZipPrefix": "velit",
+  "DomainName": "Witting, Renner and Reinger",
+  "AddressLayoutId": 475,
+  "DomesticAddressLayoutId": 32,
+  "ForeignAddressLayoutId": 614,
+  "Rank": 980,
+  "Tooltip": "corrupti",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldType": "System.Int32",
+      "FieldLength": 611
     }
   }
 }

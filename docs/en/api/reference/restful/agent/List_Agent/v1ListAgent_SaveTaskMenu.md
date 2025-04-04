@@ -93,20 +93,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 605,
-  "Name": "Runolfsson-Johnson",
-  "Tooltip": "enim",
-  "TableName": "Greenfelder-Parker",
-  "Area": "vitae",
+  "TaskMenuId": 428,
+  "Name": "Luettgen Inc and Sons",
+  "Tooltip": "commodi",
+  "TableName": "Jaskolski-Kuhlman",
+  "Area": "porro",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 574,
+  "CrmScriptId": 733,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 254,
+  "Rank": 555,
   "Encoding": "ANSI",
-  "ProgId": "quam",
-  "Deleted": false
+  "ProgId": "exercitationem",
+  "Deleted": true
 }
 ```
 
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 514,
-  "Name": "Cummerata Group",
-  "Tooltip": "consectetur",
-  "TableName": "Roob LLC",
-  "Area": "ducimus",
+  "TaskMenuId": 895,
+  "Name": "Kilback LLC",
+  "Tooltip": "quod",
+  "TableName": "Jacobs-Corkery",
+  "Area": "aut",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 221,
+  "CrmScriptId": 774,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 284,
+  "Rank": 818,
   "Encoding": "ANSI",
-  "ProgId": "enim",
+  "ProgId": "dolore",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 393
+      "FieldLength": 398
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 476,
-    "Name": "Fahey, Schamberger and Cormier",
-    "ToolTip": "Dicta dolore.",
+    "Id": 971,
+    "Name": "Pagac, Lindgren and Crist",
+    "ToolTip": "Adipisci ipsa voluptates.",
     "Deleted": false,
-    "Rank": 875,
-    "Type": "qui",
-    "ColorBlock": 254,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "2024-01-10T14:28:27.6332907+01:00",
+    "Rank": 833,
+    "Type": "velit",
+    "ColorBlock": 35,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2009-01-30T13:14:09.9160322+01:00",
     "ChildItems": [
       {
-        "Id": 81,
-        "Name": "Lindgren Inc and Sons",
-        "ToolTip": "Officia tempora illum consectetur voluptate.",
-        "Deleted": false,
-        "Rank": 465,
-        "Type": "deserunt",
-        "ColorBlock": 188,
-        "IconHint": "perferendis",
+        "Id": 274,
+        "Name": "Larson-Cole",
+        "ToolTip": "Dolores impedit quisquam porro consectetur excepturi.",
+        "Deleted": true,
+        "Rank": 666,
+        "Type": "velit",
+        "ColorBlock": 1002,
+        "IconHint": "laudantium",
         "Selected": true,
-        "LastChanged": "2005-03-17T14:28:27.6332907+01:00",
+        "LastChanged": "2010-02-17T13:14:09.9160322+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vitae",
-        "StyleHint": "quisquam",
+        "ExtraInfo": "sed",
+        "StyleHint": "dolorem",
         "Hidden": false,
-        "FullName": "Colleen Oberbrunner",
+        "FullName": "Erika Waelchi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 591
+            "FieldType": "System.Int32",
+            "FieldLength": 52
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "reiciendis",
-    "Hidden": false,
-    "FullName": "Angelica Witting",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "assumenda",
+    "Hidden": true,
+    "FullName": "Larry Rippin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 560
       }
     }
   }

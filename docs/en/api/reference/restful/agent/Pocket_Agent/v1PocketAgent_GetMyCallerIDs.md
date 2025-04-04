@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Pocket/GetMyCallerIDs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LastHash": "ad",
-  "MinDate": "2017-07-15T14:28:22.2272598+02:00",
-  "MaxDate": "2002-07-31T14:28:22.2272598+02:00"
+  "LastHash": "molestiae",
+  "MinDate": "1998-01-18T13:14:00.8763305+01:00",
+  "MaxDate": "2009-06-24T13:14:00.8763305+02:00"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CallerIDHash": "sit",
+  "CallerIDHash": "illo",
   "CallerIDs": [
     {
       "PhoneNumber": 99.99,
-      "DialInPrefix": 204,
-      "PersonId": 985,
-      "PersonName": "Jacobi, Sporer and Rogahn",
-      "Mrmrs": "officiis",
-      "ContactId": 384,
-      "ContactName": "Kerluke, Kessler and Konopelski"
+      "DialInPrefix": 635,
+      "PersonId": 936,
+      "PersonName": "Ortiz-Marks",
+      "Mrmrs": "autem",
+      "ContactId": 318,
+      "ContactName": "Will-Weber"
     }
   ]
 }

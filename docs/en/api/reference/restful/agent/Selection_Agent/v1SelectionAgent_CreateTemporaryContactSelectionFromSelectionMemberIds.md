@@ -114,14 +114,14 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromSelectionMemberIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 289,
+  "SelectionId": 724,
   "SelectionMemberIds": [
-    129,
-    910
+    682,
+    3
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Assimilated uniform hierarchy",
-  "Postit": "expedita",
+  "Description": "Distributed fresh-thinking matrix",
+  "Postit": "rerum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 222,
-  "IncludePerson": 877,
+  "GroupIdx": 659,
+  "IncludePerson": 806,
   "MemberCount": 99.99,
-  "Name": "Dach-Stroman",
-  "PostitTextId": 726,
-  "CreatedDate": "2022-04-01T14:28:22.3991281+02:00",
-  "SelectionId": 360,
-  "SoundEx": "est",
-  "Source": 476,
-  "TextId": 120,
-  "UpdatedDate": "1998-09-27T14:28:22.3991281+02:00",
-  "UpdatedCount": 574,
-  "Visibility": 752,
+  "Name": "Raynor Inc and Sons",
+  "PostitTextId": 615,
+  "CreatedDate": "2020-10-12T13:14:01.3162978+02:00",
+  "SelectionId": 449,
+  "SoundEx": "dicta",
+  "Source": 209,
+  "TextId": 530,
+  "UpdatedDate": "2012-06-28T13:14:01.3162978+02:00",
+  "UpdatedCount": 346,
+  "Visibility": 675,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 856,
-  "TargetTableName": "Macejkovic, Mante and Brown",
-  "Completed": true,
-  "LeftSelectionId": 652,
-  "RightSelectionId": 927,
+  "CompanyUnique": false,
+  "TargetTableNumber": 24,
+  "TargetTableName": "Murray-Ruecker",
+  "Completed": false,
+  "LeftSelectionId": 149,
+  "RightSelectionId": 659,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bins, Ondricka and Jast",
-  "ShadowProviderName": "Jewess-Huel",
-  "ChartKey": "est",
-  "LastLoaded": "2005-05-22T14:28:22.3991281+02:00",
-  "LastLoadedBy": 963,
+  "MainProviderName": "Zieme LLC",
+  "ShadowProviderName": "Wintheiser Inc and Sons",
+  "ChartKey": "corporis",
+  "LastLoaded": "2000-02-19T13:14:01.3162978+01:00",
+  "LastLoadedBy": 518,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2007-10-27T14:28:22.3991281+02:00",
-  "LastMembershipChangeBy": 773,
+  "LastMembershipChange": "2013-07-05T13:14:01.3162978+02:00",
+  "LastMembershipChangeBy": 516,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "provident",
-  "MemberTabHeading": "et",
-  "MailingsProviderName": "Bayer-Cruickshank",
-  "DashboardTileDefinitionId": 927,
+  "MainHeading": "voluptas",
+  "MemberTabHeading": "vitae",
+  "MailingsProviderName": "Bode Group",
+  "DashboardTileDefinitionId": 101,
   "VisibleFor": [
     {
-      "VisibleId": 677,
+      "VisibleId": 795,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 304
         }
       }
     },
     {
-      "VisibleId": 677,
+      "VisibleId": 795,
       "Visibility": "All",
-      "DisplayValue": "sed",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 498
+          "FieldLength": 304
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 448
+      "FieldLength": 479
     }
   }
 }

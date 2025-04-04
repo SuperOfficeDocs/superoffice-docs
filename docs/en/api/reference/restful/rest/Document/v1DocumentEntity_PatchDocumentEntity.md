@@ -147,12 +147,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "qui",
+    "path": "ea",
     "value": {}
   },
   {
     "op": "add",
-    "path": "qui",
+    "path": "ea",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 867,
+  "DocumentId": 184,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "a",
-  "Header": "et",
-  "Name": "Harris, Altenwerth and Rice",
-  "OurRef": "facere",
-  "YourRef": "nam",
-  "CreatedDate": "2018-04-01T14:28:26.9145702+02:00",
-  "UpdatedDate": "1998-05-27T14:28:26.9145702+02:00",
-  "Description": "Customizable full-range challenge",
+  "Attention": "sed",
+  "Header": "non",
+  "Name": "Bernhard Group",
+  "OurRef": "sit",
+  "YourRef": "quas",
+  "CreatedDate": "2015-05-10T13:14:08.6960113+02:00",
+  "UpdatedDate": "2007-08-12T13:14:08.6960113+02:00",
+  "Description": "Polarised 6th generation capacity",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "1999-03-17T14:28:26.9145702+01:00",
-  "ExternalRef": "debitis",
+  "Date": "2001-12-18T13:14:08.6960113+01:00",
+  "ExternalRef": "dolor",
   "Completed": "Completed",
-  "ActiveLinks": 436,
+  "ActiveLinks": 160,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schmidt-Nienow",
-      "Id": 136,
-      "Description": "Optimized foreground access",
-      "ExtraInfo": "omnis",
-      "LinkId": 441,
+      "EntityName": "Friesen, Block and Hermann",
+      "Id": 898,
+      "Description": "Adaptive transitional product",
+      "ExtraInfo": "itaque",
+      "LinkId": 738,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 363
+          "FieldType": "System.Int32",
+          "FieldLength": 642
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 970,
-  "Snum": 125,
+  "SuggestedDocumentId": 273,
+  "Snum": 228,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "Betty Boehm"
+    "SuperOffice:1": "720445564",
+    "SuperOffice:2": "Ms. Brandi Turner"
   },
   "ExtraFields": {
-    "ExtraFields1": "vitae",
-    "ExtraFields2": "totam"
+    "ExtraFields1": "mollitia",
+    "ExtraFields2": "nesciunt"
   },
   "CustomFields": {
-    "CustomFields1": "blanditiis",
-    "CustomFields2": "quidem"
+    "CustomFields1": "beatae",
+    "CustomFields2": "quaerat"
   },
-  "PublishEventDate": "2011-10-16T14:28:26.9145702+02:00",
-  "PublishTo": "2011-06-28T14:28:26.9145702+02:00",
-  "PublishFrom": "2003-04-20T14:28:26.9145702+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2024-07-06T13:14:08.6960113+02:00",
+  "PublishTo": "2019-11-28T13:14:08.6960113+01:00",
+  "PublishFrom": "2019-05-26T13:14:08.6960113+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 77,
+      "VisibleId": 60,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 648
+          "FieldType": "System.Int32",
+          "FieldLength": 303
         }
       }
     },
     {
-      "VisibleId": 77,
+      "VisibleId": 60,
       "Visibility": "All",
-      "DisplayValue": "assumenda",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 648
+          "FieldType": "System.Int32",
+          "FieldLength": 303
         }
       }
     }
@@ -255,8 +255,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 482
+      "FieldType": "System.Int32",
+      "FieldLength": 22
     }
   },
   "_Links": {

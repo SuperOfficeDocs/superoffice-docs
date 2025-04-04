@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OldPassword": "rerum",
-  "NewPassword": "assumenda"
+  "OldPassword": "ea",
+  "NewPassword": "sapiente"
 }
 ```
 

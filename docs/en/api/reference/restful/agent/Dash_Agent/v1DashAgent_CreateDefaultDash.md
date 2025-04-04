@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 676,
-  "UniqueId": "fugiat",
-  "Name": "Bogisich, West and Howell",
-  "Description": "User-friendly heuristic collaboration",
-  "AssociateId": 375,
-  "Columns": 178,
+  "DashboardId": 897,
+  "UniqueId": "cupiditate",
+  "Name": "Kiehn LLC",
+  "Description": "Ameliorated 5th generation standardization",
+  "AssociateId": 141,
+  "Columns": 335,
   "Theme": null,
-  "VisibleForAll": 564,
+  "VisibleForAll": 954,
   "VisibleForAssociates": [
-    300,
-    240
+    557,
+    644
   ],
   "VisibleForGroups": [
-    328,
-    701
+    826,
+    87
   ],
-  "PinForAll": 257,
+  "PinForAll": 656,
   "PinForAssociates": [
-    194,
-    390
+    284,
+    948
   ],
   "PinForGroups": [
-    971,
-    875
+    307,
+    308
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldLength": 886
     }
   }
 }

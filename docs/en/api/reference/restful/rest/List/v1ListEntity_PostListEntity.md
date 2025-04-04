@@ -94,19 +94,19 @@ OK
 POST /api/v1/List
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 466,
-  "Name": "Stark LLC",
-  "Tooltip": "repellendus",
-  "Deleted": true,
-  "Rank": 592,
+  "Id": 480,
+  "Name": "Abbott Group",
+  "Tooltip": "voluptates",
+  "Deleted": false,
+  "Rank": 441,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 175,
-  "Name": "Friesen LLC",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "Rank": 981,
+  "Id": 867,
+  "Name": "Corwin-Ziemann",
+  "Tooltip": "facere",
+  "Deleted": false,
+  "Rank": 662,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "minima",
-  "InUseByUserDefinedFields": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "totam",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 808
     }
   },
   "_Links": {

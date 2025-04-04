@@ -57,21 +57,21 @@ No Content
 PUT /api/v1/Project/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Emard-Ziemann",
-    "DisplayName": "Ferry-Krajcik",
-    "DisplayTooltip": "voluptatem",
-    "IsActive": true
+    "Name": "Lebsack, Lesch and Schowalter",
+    "DisplayName": "Gislason, Crist and Paucek",
+    "DisplayTooltip": "unde",
+    "IsActive": false
   },
   {
-    "Name": "Emard-Ziemann",
-    "DisplayName": "Ferry-Krajcik",
-    "DisplayTooltip": "voluptatem",
-    "IsActive": true
+    "Name": "Lebsack, Lesch and Schowalter",
+    "DisplayName": "Gislason, Crist and Paucek",
+    "DisplayTooltip": "unde",
+    "IsActive": false
   }
 ]
 ```

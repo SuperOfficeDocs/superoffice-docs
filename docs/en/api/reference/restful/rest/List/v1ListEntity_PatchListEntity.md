@@ -117,18 +117,18 @@ ListEntity  updated.
 PATCH /api/v1/List/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quia",
+    "path": "optio",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quia",
+    "path": "optio",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 ListEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 701,
-  "Name": "Davis LLC",
-  "Tooltip": "accusantium",
-  "Deleted": true,
-  "Rank": 437,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "Id": 64,
+  "Name": "Kuhlman-Koss",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 718,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldType": "System.String",
+      "FieldLength": 691
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

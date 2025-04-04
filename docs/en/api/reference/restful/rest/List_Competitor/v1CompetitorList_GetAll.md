@@ -25,7 +25,7 @@ Gets all the Competitor items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/Competitor/Items?includeDeleted=False
+GET /api/v1/List/Competitor/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 504,
-    "Name": "Schuppe LLC",
-    "Tooltip": "maxime",
-    "Deleted": true,
-    "UdListDefinitionId": 27,
-    "Rank": 840,
+    "Id": 11,
+    "Name": "Brakus, Pacocha and Conroy",
+    "Tooltip": "et",
+    "Deleted": false,
+    "UdListDefinitionId": 530,
+    "Rank": 369,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldLength": 56
       }
     }
   }

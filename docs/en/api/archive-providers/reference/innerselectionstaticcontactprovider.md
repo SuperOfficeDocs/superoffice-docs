@@ -654,7 +654,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=targetRelation/associateId,appointment/appointmentPublish/isPublished,appointment/associate/portraitThumbnail,document/associate/portraitThumbnail,position
+GET /api/v1/archive/InnerSelectionStaticContactProvider?$select=contactAssociate/personId,contactAssociate/isLocation,contactExtra/x_contact_date,sourceRelation/contactDeleted,targetRelation/contactDeleted
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

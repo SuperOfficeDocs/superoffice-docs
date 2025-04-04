@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 831,
-  "Name": "Rosenbaum, Kunze and Denesik",
-  "Tooltip": "molestiae",
+  "Id": 163,
+  "Name": "Mante-Rowe",
+  "Tooltip": "sunt",
   "Deleted": true,
-  "Rank": 276,
-  "IsCustomList": true,
+  "Rank": 681,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "ut",
+  "ListType": "sint",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 66
+      "FieldLength": 382
     }
   },
   "_Links": {

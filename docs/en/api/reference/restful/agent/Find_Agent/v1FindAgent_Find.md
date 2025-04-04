@@ -81,15 +81,15 @@ OK
 POST /api/v1/Agents/Find/Find
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "alias",
-  "ProviderName": "Schamberger-O'Kon",
-  "StorageKey": "sunt",
-  "PageSize": 369,
-  "PageNumber": 799
+  "StorageType": "sed",
+  "ProviderName": "McClure-McLaughlin",
+  "StorageKey": "accusamus",
+  "PageSize": 674,
+  "PageNumber": 651
 }
 ```
 
@@ -102,51 +102,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Pfeffer Group",
-      "DisplayTooltip": "omnis",
-      "DisplayType": "quod",
+      "DisplayName": "Graham Group",
+      "DisplayTooltip": "aut",
+      "DisplayType": "perferendis",
       "CanOrderBy": false,
-      "Name": "Tillman LLC",
-      "CanRestrictBy": true,
-      "RestrictionType": "deserunt",
-      "RestrictionListName": "Bauch-Bosco",
+      "Name": "Hoeger, Kuhlman and Funk",
+      "CanRestrictBy": false,
+      "RestrictionType": "culpa",
+      "RestrictionListName": "Franecki-Rosenbaum",
       "IsVisible": false,
-      "ExtraInfo": "rerum",
-      "Width": "ab",
-      "IconHint": "maxime",
-      "HeadingIconHint": "maiores"
+      "ExtraInfo": "in",
+      "Width": "velit",
+      "IconHint": "et",
+      "HeadingIconHint": "rerum"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Pfannerstill, Kautzer and Olson",
-      "PrimaryKey": 939,
+      "EntityName": "Bergstrom, Lehner and Kuvalis",
+      "PrimaryKey": 555,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "impedit",
-          "TooltipHint": "quas",
-          "LinkHint": "atque"
+          "DisplayValue": "ea",
+          "TooltipHint": "explicabo",
+          "LinkHint": "consequatur"
         }
       },
-      "LinkHint": "autem",
-      "StyleHint": "eveniet",
+      "LinkHint": "sed",
+      "StyleHint": "magnam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 714
+          "FieldLength": 310
         }
       }
     }
   ],
-  "RowCount": 199,
+  "RowCount": 198,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 664
     }
   }
 }

@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Quote/GetInUseQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 522,
-    "FieldName": "Kirlin, Gerhold and Green",
-    "Label": "rerum",
-    "Tooltip": "nihil",
-    "Editable": true,
-    "InUse": true,
+    "QuoteLineConfigurationId": 164,
+    "FieldName": "Roob, Graham and Jerde",
+    "Label": "quod",
+    "Tooltip": "ut",
+    "Editable": false,
+    "InUse": false,
     "Mandatory": false,
-    "Rank": 599,
-    "RestrictEdit": true,
+    "Rank": 177,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldType": "System.String",
+        "FieldLength": 217
       }
     }
   }

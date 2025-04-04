@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,18 +85,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 541,
-    "Name": "Hayes, Hand and Bode",
-    "Tooltip": "non",
+    "Id": 138,
+    "Name": "Dooley, Murazik and Harvey",
+    "Tooltip": "deserunt",
     "Deleted": false,
-    "UdListDefinitionId": 862,
-    "Rank": 994,
+    "UdListDefinitionId": 618,
+    "Rank": 277,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 311
+        "FieldType": "System.Int32",
+        "FieldLength": 618
       }
     }
   }

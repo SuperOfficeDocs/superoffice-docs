@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 324,
-    "Name": "Hermann-Lesch",
-    "ToolTip": "Officiis ratione accusamus libero tempore sit ea.",
+    "Id": 521,
+    "Name": "Von-Rath",
+    "ToolTip": "Aut dolorem aperiam voluptas accusamus.",
     "Deleted": false,
-    "Rank": 709,
-    "Type": "vel",
-    "ColorBlock": 200,
+    "Rank": 871,
+    "Type": "eum",
+    "ColorBlock": 493,
     "IconHint": "sit",
     "Selected": false,
-    "LastChanged": "2021-06-28T14:28:27.4926717+02:00",
+    "LastChanged": "2015-09-28T13:14:09.6503912+02:00",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "Weber, Buckridge and Schmidt",
-        "ToolTip": "Exercitationem voluptates.",
+        "Id": 728,
+        "Name": "Baumbach Inc and Sons",
+        "ToolTip": "Aut eveniet eligendi reprehenderit velit.",
         "Deleted": false,
-        "Rank": 953,
-        "Type": "cupiditate",
-        "ColorBlock": 311,
-        "IconHint": "nobis",
-        "Selected": false,
-        "LastChanged": "2017-05-24T14:28:27.4926717+02:00",
+        "Rank": 54,
+        "Type": "quis",
+        "ColorBlock": 490,
+        "IconHint": "aut",
+        "Selected": true,
+        "LastChanged": "2014-06-14T13:14:09.6503912+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "in",
-        "Hidden": true,
-        "FullName": "Prof. Juliana Hilpert",
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "adipisci",
+        "Hidden": false,
+        "FullName": "Matt Veum III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 858
+            "FieldLength": 199
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "sapiente",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Conor Lindgren MD",
+    "FullName": "Kamren Barton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 881
+        "FieldType": "System.Int32",
+        "FieldLength": 108
       }
     }
   }

@@ -86,7 +86,7 @@ SaleEntity found.
 GET /api/v1/Sale/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactName": "Leuschke-Cassin",
-  "SaleDate": "2015-11-09T14:28:27.2270585+01:00",
-  "SaleId": 305,
-  "Probability": 750,
-  "Title": "at",
-  "Amount": 27629.343999999997,
-  "Currency": "sed",
-  "ProjectName": "Metz Inc and Sons",
-  "AssociateFullName": "Pearlie Weimann",
-  "Description": "Grass-roots explicit archive",
+  "ContactName": "McClure LLC",
+  "SaleDate": "1999-05-30T13:14:09.1497673+02:00",
+  "SaleId": 489,
+  "Probability": 330,
+  "Title": "nostrum",
+  "Amount": 16791.971999999998,
+  "Currency": "voluptatibus",
+  "ProjectName": "Mitchell LLC",
+  "AssociateFullName": "Maribel Gusikowski",
+  "Description": "Operative responsive projection",
   "Status": "Lost",
-  "WeightedAmount": 22530.326,
-  "ProjectId": 715,
-  "EarningPercent": 13961.97,
-  "Earning": 3177.8759999999997,
-  "ContactId": 867,
-  "AssociateId": 204,
-  "PersonId": 173,
-  "SaleTypeId": 505,
-  "SaleTypeName": "Wolf, Ziemann and Veum",
-  "PersonFullName": "Marta Stark",
+  "WeightedAmount": 23514.402,
+  "ProjectId": 688,
+  "EarningPercent": 3444.266,
+  "Earning": 4074.2,
+  "ContactId": 885,
+  "AssociateId": 890,
+  "PersonId": 708,
+  "SaleTypeId": 800,
+  "SaleTypeName": "Hermann-Quitzon",
+  "PersonFullName": "Prof. Rollin Neha Tillman",
   "Completed": "Completed",
-  "ActiveErpLinks": 336,
-  "NextDueDate": "1999-08-13T14:28:27.2270585+02:00",
-  "Number": "736221",
+  "ActiveErpLinks": 188,
+  "NextDueDate": "2004-04-07T13:14:09.1497673+02:00",
+  "Number": "1235213",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 17
     }
   }
 }

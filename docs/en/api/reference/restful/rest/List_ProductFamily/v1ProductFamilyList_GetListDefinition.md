@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductFamily
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 358,
-  "Name": "Denesik, Steuber and Brakus",
-  "Tooltip": "est",
+  "Id": 892,
+  "Name": "Koch Group",
+  "Tooltip": "quisquam",
   "Deleted": false,
-  "Rank": 182,
+  "Rank": 645,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "itaque",
-  "InUseByUserDefinedFields": false,
+  "ListType": "eos",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldType": "System.String",
+      "FieldLength": 166
     }
   },
   "_Links": {

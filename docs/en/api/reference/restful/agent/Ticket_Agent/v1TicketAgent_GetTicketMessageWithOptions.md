@@ -99,12 +99,12 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 6,
-  "IncludeNonInlineAttachmentsInfo": false
+  "TicketMessageEntityId": 220,
+  "IncludeNonInlineAttachmentsInfo": true
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 969,
+  "EjMessageId": 464,
   "Ticket": null,
-  "CreatedAt": "1999-03-05T14:28:22.5397478+01:00",
+  "CreatedAt": "2018-08-22T13:14:01.4100534+02:00",
   "CreatedBy": null,
-  "Author": "neque",
+  "Author": "dolorem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "aliquid",
-  "TimeSpent": 130,
-  "Body": "quia",
-  "HtmlBody": "culpa",
-  "EmailHeader": "joanne.schulist@jacobson.ca",
-  "DebugInfo": "ea",
-  "MailSorter": "perferendis",
+  "MessageId": "amet",
+  "TimeSpent": 503,
+  "Body": "esse",
+  "HtmlBody": "aut",
+  "EmailHeader": "mauricio@schmidt.us",
+  "DebugInfo": "suscipit",
+  "MailSorter": "eaque",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolores",
+  "SearchTitle": "quos",
   "MessageHeaders": [
     {
-      "Id": 95,
-      "Name": "Wintheiser LLC",
-      "Value": "ullam",
+      "Id": 322,
+      "Name": "Considine LLC",
+      "Value": "voluptatum",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 981
+          "FieldLength": 85
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "itaque",
-  "Sentiment": 694,
-  "SentimentConfidence": 957,
+  "Important": false,
+  "Language": "deleniti",
+  "Sentiment": 759,
+  "SentimentConfidence": 249,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 62,
-      "Name": "Prohaska, Kulas and Windler",
-      "ContentType": "et",
-      "AttSize": 369,
-      "InlineImage": true,
-      "ContentId": "amet",
-      "AuthKey": "mollitia",
+      "AttachmentId": 911,
+      "Name": "O'Keefe, Wolf and Hayes",
+      "ContentType": "nulla",
+      "AttSize": 307,
+      "InlineImage": false,
+      "ContentId": "sunt",
+      "AuthKey": "perferendis",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 815
+          "FieldLength": 669
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "repellat",
-    "ExtraFields2": "accusantium"
+    "ExtraFields1": "laudantium",
+    "ExtraFields2": "quos"
   },
   "CustomFields": {
-    "CustomFields1": "fugit",
-    "CustomFields2": "libero"
+    "CustomFields1": "nulla",
+    "CustomFields2": "sed"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 288
+      "FieldLength": 334
     }
   }
 }

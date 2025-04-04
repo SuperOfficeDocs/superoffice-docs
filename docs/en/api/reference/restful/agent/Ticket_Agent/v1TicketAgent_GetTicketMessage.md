@@ -26,7 +26,7 @@ Gets a TicketMessage object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=433
+POST /api/v1/Agents/Ticket/GetTicketMessage?ticketMessageId=221
 POST /api/v1/Agents/Ticket/GetTicketMessage?$select=name,department,category/id
 ```
 
@@ -85,7 +85,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageId": 665,
-  "CreatedAt": "2012-01-23T14:28:22.6491174+01:00",
+  "TicketMessageId": 174,
+  "CreatedAt": "2007-05-25T13:14:01.5975646+02:00",
   "Slevel": "External",
-  "Important": false,
-  "Author": "dolores",
-  "PersonId": 541,
-  "PersonFullName": "Hassan Tremblay",
-  "ContactId": 579,
-  "ContactName": "Beier-Schuster",
+  "Important": true,
+  "Author": "assumenda",
+  "PersonId": 490,
+  "PersonFullName": "Viva Waters",
+  "ContactId": 96,
+  "ContactName": "Wilkinson Inc and Sons",
   "ContactDepartment": "",
-  "NumAttachments": 971,
-  "EmailHeader": "irwin_hyatt@quigley.uk",
+  "NumAttachments": 958,
+  "EmailHeader": "jeffrey@robel.com",
   "MessageHeaders": [
     {
-      "Id": 13,
-      "Name": "Lakin Inc and Sons",
-      "Value": "pariatur",
+      "Id": 877,
+      "Name": "Trantow-Bechtelar",
+      "Value": "nulla",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -119,23 +119,23 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 422
+          "FieldLength": 790
         }
       }
     }
   ],
-  "Language": "rerum",
-  "Sentiment": 918,
-  "SentimentConfidence": 428,
-  "CreatedBy": 938,
-  "ChangedAt": "2010-03-08T14:28:22.6491174+01:00",
+  "Language": "magni",
+  "Sentiment": 718,
+  "SentimentConfidence": 267,
+  "CreatedBy": 85,
+  "ChangedAt": "2017-08-16T13:14:01.5975646+02:00",
   "Badge": "Comment",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 651
+      "FieldType": "System.String",
+      "FieldLength": 352
     }
   }
 }

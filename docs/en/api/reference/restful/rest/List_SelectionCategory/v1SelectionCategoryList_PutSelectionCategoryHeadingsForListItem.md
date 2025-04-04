@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 318,
-    "Name": "Zemlak-McGlynn",
-    "ToolTip": "Neque omnis cumque ipsa dolore molestiae.",
+    "Id": 862,
+    "Name": "Nitzsche LLC",
+    "ToolTip": "Autem et exercitationem voluptatum quia excepturi velit ut.",
     "Deleted": false,
-    "Rank": 535,
-    "Type": "rerum",
-    "ColorBlock": 403,
-    "IconHint": "pariatur",
-    "Selected": false,
-    "LastChanged": "2016-05-24T14:28:27.7114135+02:00",
+    "Rank": 440,
+    "Type": "placeat",
+    "ColorBlock": 215,
+    "IconHint": "quod",
+    "Selected": true,
+    "LastChanged": "2011-08-06T13:14:10.0879174+02:00",
     "ChildItems": [
       {
-        "Id": 382,
-        "Name": "Spencer, Kihn and Predovic",
-        "ToolTip": "Voluptatibus laboriosam ut autem.",
-        "Deleted": true,
-        "Rank": 90,
-        "Type": "assumenda",
-        "ColorBlock": 265,
-        "IconHint": "tempore",
+        "Id": 833,
+        "Name": "Hand-Lang",
+        "ToolTip": "Sit ut dolorem et est id assumenda nesciunt.",
+        "Deleted": false,
+        "Rank": 634,
+        "Type": "vel",
+        "ColorBlock": 614,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "2008-12-01T14:28:27.7114135+01:00",
+        "LastChanged": "2007-05-29T13:14:10.0879174+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Forest Becker"
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "ut",
+        "Hidden": false,
+        "FullName": "Dr. Claudie Layne Dickens DVM"
       }
     ],
-    "ExtraInfo": "quam",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Mikel Maxwell Larson I"
+    "ExtraInfo": "magnam",
+    "StyleHint": "quia",
+    "Hidden": true,
+    "FullName": "Ms. Derick Will MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 678,
-    "Name": "Nicolas, Herzog and Dickinson",
-    "ToolTip": "Aspernatur nostrum necessitatibus consequatur sint officiis rerum.",
-    "Deleted": false,
-    "Rank": 129,
-    "Type": "magnam",
-    "ColorBlock": 464,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2015-05-06T14:28:27.7114135+02:00",
+    "Id": 936,
+    "Name": "Spinka-Rath",
+    "ToolTip": "At hic sapiente porro.",
+    "Deleted": true,
+    "Rank": 860,
+    "Type": "aut",
+    "ColorBlock": 687,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2012-10-09T13:14:10.0879174+02:00",
     "ChildItems": [
       {
-        "Id": 740,
-        "Name": "Blanda, Collier and Schroeder",
-        "ToolTip": "Aut ut est et.",
+        "Id": 57,
+        "Name": "Senger, Sawayn and Skiles",
+        "ToolTip": "Id eius impedit et.",
         "Deleted": false,
-        "Rank": 969,
-        "Type": "officia",
-        "ColorBlock": 99,
-        "IconHint": "dolor",
-        "Selected": false,
-        "LastChanged": "2022-12-22T14:28:27.7114135+01:00",
+        "Rank": 879,
+        "Type": "tempore",
+        "ColorBlock": 999,
+        "IconHint": "nulla",
+        "Selected": true,
+        "LastChanged": "2006-03-18T13:14:10.0879174+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "accusamus",
-        "StyleHint": "velit",
+        "ExtraInfo": "impedit",
+        "StyleHint": "repellat",
         "Hidden": false,
-        "FullName": "Dr. Elsa Cathryn Schinner",
+        "FullName": "Dr. Suzanne Crooks",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 346
+            "FieldLength": 926
           }
         }
       }
     ],
-    "ExtraInfo": "quo",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Sofia Schiller",
+    "ExtraInfo": "tenetur",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Reynold Bergstrom",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 308
+        "FieldType": "System.Int32",
+        "FieldLength": 279
       }
     }
   }

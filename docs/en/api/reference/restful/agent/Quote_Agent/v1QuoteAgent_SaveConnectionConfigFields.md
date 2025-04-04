@@ -69,14 +69,14 @@ OK
 POST /api/v1/Agents/Quote/SaveConnectionConfigFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 670,
+  "QuoteConnectionId": 63,
   "ConnectionConfigFields": {
-    "ConnectionConfigFields1": "reprehenderit",
-    "ConnectionConfigFields2": "accusamus"
+    "ConnectionConfigFields1": "assumenda",
+    "ConnectionConfigFields2": "nisi"
   }
 }
 ```
@@ -88,7 +88,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "voluptatem",
-  "2": "consequuntur"
+  "1": "aut",
+  "2": "recusandae"
 }
 ```

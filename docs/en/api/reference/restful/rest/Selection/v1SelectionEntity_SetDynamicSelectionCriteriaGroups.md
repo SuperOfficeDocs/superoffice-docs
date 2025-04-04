@@ -73,25 +73,25 @@ OK
 PUT /api/v1/Selection/{selectionId}/CriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Schimmel LLC",
-    "Description": "Inverse responsive forecast",
-    "Rank": 65,
+    "Name": "Volkman, Weimann and Grady",
+    "Description": "Diverse user-facing open architecture",
+    "Rank": 313,
     "Restrictions": [
       {
-        "Name": "Mann, Abernathy and Aufderhar",
-        "Operator": "dolorem",
+        "Name": "Borer Group",
+        "Operator": "est",
         "Values": [
-          "doloremque",
-          "rerum"
+          "tempora",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "nobis",
-          "ullam"
+          "repellat",
+          "similique"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 309,
+        "InterParenthesis": 41,
         "InterOperator": "And",
-        "UniqueHash": 431
+        "UniqueHash": 503
       }
     ]
   },
   {
-    "Name": "Schimmel LLC",
-    "Description": "Inverse responsive forecast",
-    "Rank": 65,
+    "Name": "Volkman, Weimann and Grady",
+    "Description": "Diverse user-facing open architecture",
+    "Rank": 313,
     "Restrictions": [
       {
-        "Name": "Mann, Abernathy and Aufderhar",
-        "Operator": "dolorem",
+        "Name": "Borer Group",
+        "Operator": "est",
         "Values": [
-          "doloremque",
-          "rerum"
+          "tempora",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "nobis",
-          "ullam"
+          "repellat",
+          "similique"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -127,9 +127,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 309,
+        "InterParenthesis": 41,
         "InterOperator": "And",
-        "UniqueHash": 431
+        "UniqueHash": 503
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Huels LLC",
-    "Description": "Customer-focused didactic instruction set",
-    "Rank": 593,
+    "Name": "Reilly, Rempel and Kub",
+    "Description": "Virtual cohesive superstructure",
+    "Rank": 473,
     "Restrictions": [
       {
-        "Name": "Feeney-O'Reilly",
-        "Operator": "dolorem",
+        "Name": "Stracke Inc and Sons",
+        "Operator": "alias",
         "Values": [
-          "debitis",
-          "quidem"
+          "dolorum",
+          "occaecati"
         ],
         "DisplayValues": [
-          "voluptas",
-          "rerum"
+          "perspiciatis",
+          "ipsa"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 896,
+        "InterParenthesis": 252,
         "InterOperator": "And",
-        "UniqueHash": 815
+        "UniqueHash": 627
       }
     ]
   },
   {
-    "Name": "Huels LLC",
-    "Description": "Customer-focused didactic instruction set",
-    "Rank": 593,
+    "Name": "Reilly, Rempel and Kub",
+    "Description": "Virtual cohesive superstructure",
+    "Rank": 473,
     "Restrictions": [
       {
-        "Name": "Feeney-O'Reilly",
-        "Operator": "dolorem",
+        "Name": "Stracke Inc and Sons",
+        "Operator": "alias",
         "Values": [
-          "debitis",
-          "quidem"
+          "dolorum",
+          "occaecati"
         ],
         "DisplayValues": [
-          "voluptas",
-          "rerum"
+          "perspiciatis",
+          "ipsa"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 896,
+        "InterParenthesis": 252,
         "InterOperator": "And",
-        "UniqueHash": 815
+        "UniqueHash": 627
       }
     ]
   }

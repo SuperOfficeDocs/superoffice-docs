@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 981,
-    "FieldName": "Abbott Group",
-    "Label": "non",
-    "Tooltip": "officia",
+    "QuoteLineConfigurationId": 670,
+    "FieldName": "Friesen-Beier",
+    "Label": "minus",
+    "Tooltip": "rerum",
     "Editable": false,
     "InUse": false,
     "Mandatory": false,
-    "Rank": 332,
-    "RestrictEdit": true,
+    "Rank": 699,
+    "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 434
+        "FieldType": "System.Int32",
+        "FieldLength": 303
       }
     }
   }

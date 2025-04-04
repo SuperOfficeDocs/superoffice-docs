@@ -105,32 +105,32 @@ Webhook updated.
 PUT /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 701,
-  "Name": "Emmerich Group",
+  "WebhookId": 909,
+  "Name": "Gleichner-Hartmann",
   "Events": [
-    "esse",
-    "non"
+    "sit",
+    "atque"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "sunt",
+  "Secret": "consequatur",
   "State": "Active",
-  "Type": "ex",
+  "Type": "animi",
   "Headers": {
-    "Headers1": "quaerat",
-    "Headers2": "mollitia"
+    "Headers1": "cupiditate",
+    "Headers2": "iure"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-05-28T14:28:27.4614236+02:00",
+  "Registered": "2019-01-01T13:14:09.5717594+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2000-05-31T14:28:27.4614236+02:00",
+  "Updated": "2015-07-11T13:14:09.5717594+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "hillard@sporer.com"
+  "ErrorsEmail": "sanford@simonis.us"
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 Webhook updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 262,
-  "Name": "Sawayn, Hamill and Tremblay",
+  "WebhookId": 941,
+  "Name": "Fritsch-Harvey",
   "Events": [
-    "consectetur",
-    "ratione"
+    "dolores",
+    "accusantium"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "illum",
+  "Secret": "consequuntur",
   "State": "Active",
-  "Type": "et",
+  "Type": "magni",
   "Headers": {
-    "Headers1": "sit",
-    "Headers2": "nesciunt"
+    "Headers1": "nisi",
+    "Headers2": "itaque"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2020-12-31T14:28:27.4614236+01:00",
+  "Registered": "2010-08-20T13:14:09.5717594+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2016-02-23T14:28:27.4614236+01:00",
+  "Updated": "2004-10-25T13:14:09.5717594+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "andrew_murazik@shields.com",
+  "ErrorsEmail": "nyah@leschrosenbaum.info",
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -78,7 +78,7 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "AccessToken",
   "Image": "GIF89....File contents as raw bytes...",
-  "Description": "Re-engineered contextually-based collaboration"
+  "Description": "Automated interactive definition"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-981
+426
 ```

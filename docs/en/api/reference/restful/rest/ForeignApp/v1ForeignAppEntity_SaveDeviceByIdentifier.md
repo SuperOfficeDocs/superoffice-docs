@@ -85,19 +85,19 @@ OK
 PUT /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 57,
-  "Name": "Koepp-Emard",
-  "CreatedDate": "2014-04-10T14:28:26.9458186+02:00",
-  "UpdatedDate": "2007-06-12T14:28:26.9458186+02:00",
-  "AssociateFullName": "Marjolaine Langworth",
+  "ForeignDeviceId": 773,
+  "Name": "Dibbert, Bahringer and Stehr",
+  "CreatedDate": "2013-02-11T13:14:08.7585151+01:00",
+  "UpdatedDate": "2006-05-14T13:14:08.7585151+02:00",
+  "AssociateFullName": "Hillard Beatty",
   "CreatedBy": "et",
-  "UpdatedBy": "fuga",
-  "DeviceIdentifier": "sunt",
-  "ForeignAppId": 730
+  "UpdatedBy": "quis",
+  "DeviceIdentifier": "incidunt",
+  "ForeignAppId": 327
 }
 ```
 
@@ -108,21 +108,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 147,
-  "Name": "Crist LLC",
-  "CreatedDate": "2013-11-06T14:28:26.9458186+01:00",
-  "UpdatedDate": "2011-09-02T14:28:26.9458186+02:00",
-  "AssociateFullName": "Prof. Jadon Rath",
-  "CreatedBy": "molestias",
-  "UpdatedBy": "natus",
-  "DeviceIdentifier": "modi",
-  "ForeignAppId": 286,
+  "ForeignDeviceId": 258,
+  "Name": "Wintheiser, Reynolds and Spencer",
+  "CreatedDate": "2024-09-01T13:14:08.7585151+02:00",
+  "UpdatedDate": "1997-12-24T13:14:08.7585151+01:00",
+  "AssociateFullName": "Reid Douglas PhD",
+  "CreatedBy": "itaque",
+  "UpdatedBy": "et",
+  "DeviceIdentifier": "expedita",
+  "ForeignAppId": 945,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 239
     }
   }
 }

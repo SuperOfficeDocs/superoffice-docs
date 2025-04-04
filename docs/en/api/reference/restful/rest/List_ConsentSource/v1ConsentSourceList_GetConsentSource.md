@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 539,
-  "Name": "Bartell-Ullrich",
-  "Tooltip": "impedit",
-  "Rank": 372,
-  "Key": "quibusdam",
-  "MailTemplateId": 299,
-  "Deleted": false,
+  "ConsentSourceId": 194,
+  "Name": "Wiza-Predovic",
+  "Tooltip": "cupiditate",
+  "Rank": 431,
+  "Key": "voluptas",
+  "MailTemplateId": 307,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldType": "System.Int32",
+      "FieldLength": 466
     }
   }
 }

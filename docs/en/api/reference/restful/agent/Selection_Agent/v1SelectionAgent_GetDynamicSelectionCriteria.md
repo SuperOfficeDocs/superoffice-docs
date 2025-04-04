@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 652
+  "SelectionId": 936
 }
 ```
 
@@ -96,44 +96,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Parisian-Lesch",
-    "Operator": "voluptates",
+    "Name": "Wisoky-Kilback",
+    "Operator": "provident",
     "Values": [
-      "ipsum",
-      "sit"
+      "commodi",
+      "possimus"
     ],
     "DisplayValues": [
-      "consequuntur",
-      "enim"
+      "qui",
+      "rerum"
     ],
     "ColumnInfo": null,
     "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "O'Reilly, Casper and Schaden",
-        "Operator": "error",
+        "Name": "Rempel Inc and Sons",
+        "Operator": "ipsam",
         "Values": [
-          "qui",
-          "ea"
+          "libero",
+          "voluptas"
         ],
         "DisplayValues": [
-          "nihil",
-          "culpa"
+          "est",
+          "deleniti"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 585,
+        "InterParenthesis": 371,
         "InterOperator": "And",
-        "UniqueHash": 969
+        "UniqueHash": 646
       }
     ],
-    "InterParenthesis": 849,
+    "InterParenthesis": 518,
     "InterOperator": "And",
-    "UniqueHash": 857
+    "UniqueHash": 149
   }
 ]
 ```

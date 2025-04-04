@@ -98,12 +98,12 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 888,
-  "OnlyOpenSales": true
+  "PersonId": 356,
+  "OnlyOpenSales": false
 }
 ```
 
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Howe-McCullough",
-    "SaleDate": "1999-02-27T14:28:22.3678792+01:00",
-    "SaleId": 112,
-    "Probability": 985,
-    "Title": "inventore",
-    "Amount": 1585.8039999999999,
-    "Currency": "aut",
-    "ProjectName": "Jenkins, Wilderman and Rippin",
-    "AssociateFullName": "Torey Grant",
-    "Description": "Re-engineered incremental function",
+    "ContactName": "Schumm, Pouros and Carroll",
+    "SaleDate": "2019-07-31T13:14:01.1274981+02:00",
+    "SaleId": 529,
+    "Probability": 895,
+    "Title": "quidem",
+    "Amount": 28798.325999999997,
+    "Currency": "possimus",
+    "ProjectName": "Pouros Group",
+    "AssociateFullName": "Bennett Morar V",
+    "Description": "Organized full-range application",
     "Status": "Lost",
-    "WeightedAmount": 20978.996,
-    "ProjectId": 43,
-    "EarningPercent": 3510.08,
-    "Earning": 28707.44,
-    "ContactId": 70,
-    "AssociateId": 708,
-    "PersonId": 110,
-    "SaleTypeId": 743,
-    "SaleTypeName": "Cronin, Hand and Aufderhar",
-    "PersonFullName": "Kacie Lily Strosin Sr.",
+    "WeightedAmount": 9762.41,
+    "ProjectId": 686,
+    "EarningPercent": 21583.858,
+    "Earning": 9947.3159999999989,
+    "ContactId": 501,
+    "AssociateId": 271,
+    "PersonId": 841,
+    "SaleTypeId": 745,
+    "SaleTypeName": "Torp, Nitzsche and Hudson",
+    "PersonFullName": "Dr. John Rollin Tremblay I",
     "Completed": "Completed",
-    "ActiveErpLinks": 34,
-    "NextDueDate": "2009-12-28T14:28:22.3678792+01:00",
-    "Number": "991773",
+    "ActiveErpLinks": 384,
+    "NextDueDate": "2025-01-17T13:14:01.1274981+01:00",
+    "Number": "981683",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldLength": 771
       }
     }
   }

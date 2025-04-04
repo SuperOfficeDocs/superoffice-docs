@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    901,
-    866
+    942,
+    785
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 978,
-    "Name": "Hilll-Dicki",
-    "ToolTip": "Perspiciatis consequatur corrupti.",
-    "Deleted": false,
-    "Rank": 382,
-    "Type": "odit",
+    "Id": 169,
+    "Name": "Cole LLC",
+    "ToolTip": "Eaque saepe ea.",
+    "Deleted": true,
+    "Rank": 913,
+    "Type": "numquam",
     "ChildItems": [
       {
-        "Id": 139,
-        "Name": "Nolan, Kirlin and Connelly",
-        "ToolTip": "Dicta commodi ab.",
-        "Deleted": true,
-        "Rank": 485,
-        "Type": "fugit",
+        "Id": 746,
+        "Name": "Ullrich-Skiles",
+        "ToolTip": "Corrupti aut in sit totam animi.",
+        "Deleted": false,
+        "Rank": 803,
+        "Type": "perspiciatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aperiam",
-        "ColorBlock": 794,
+        "IconHint": "voluptatem",
+        "ColorBlock": 914,
         "ExtraInfo": "aut",
-        "StyleHint": "id",
-        "FullName": "Zackery Harber",
+        "StyleHint": "dolor",
+        "FullName": "Alexie Maximus Schinner PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 10
+            "FieldType": "System.String",
+            "FieldLength": 641
           }
         }
       }
     ],
-    "IconHint": "voluptatibus",
-    "ColorBlock": 382,
-    "ExtraInfo": "fuga",
-    "StyleHint": "sequi",
-    "FullName": "Dr. Unique Waelchi MD",
+    "IconHint": "aut",
+    "ColorBlock": 361,
+    "ExtraInfo": "esse",
+    "StyleHint": "sint",
+    "FullName": "Dr. Elvie Felicita Langosh Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 371
+        "FieldLength": 523
       }
     }
   }

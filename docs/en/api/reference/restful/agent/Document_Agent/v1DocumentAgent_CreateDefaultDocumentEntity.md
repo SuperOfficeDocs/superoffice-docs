@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 867,
+  "DocumentId": 657,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "fugiat",
-  "Header": "pariatur",
-  "Name": "Murray-Hackett",
-  "OurRef": "cupiditate",
-  "YourRef": "est",
-  "CreatedDate": "2001-05-06T14:28:21.8210267+02:00",
-  "UpdatedDate": "2004-07-24T14:28:21.8210267+02:00",
-  "Description": "Switchable hybrid instruction set",
+  "Attention": "rerum",
+  "Header": "optio",
+  "Name": "Fay, Feest and Lockman",
+  "OurRef": "sunt",
+  "YourRef": "quisquam",
+  "CreatedDate": "2020-08-02T13:14:00.1257184+02:00",
+  "UpdatedDate": "2020-10-21T13:14:00.1257184+02:00",
+  "Description": "Extended mission-critical Graphical User Interface",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2014-10-11T14:28:21.8210267+02:00",
-  "ExternalRef": "architecto",
+  "Date": "2022-09-02T13:14:00.1257184+02:00",
+  "ExternalRef": "quo",
   "Completed": "Completed",
-  "ActiveLinks": 977,
+  "ActiveLinks": 544,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schulist, Deckow and Dach",
-      "Id": 569,
-      "Description": "Reactive hybrid archive",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 57,
+      "EntityName": "Hammes Inc and Sons",
+      "Id": 7,
+      "Description": "Diverse systematic collaboration",
+      "ExtraInfo": "sunt",
+      "LinkId": 199,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldType": "System.String",
+          "FieldLength": 816
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 324,
-  "Snum": 55,
+  "SuggestedDocumentId": 349,
+  "Snum": 682,
   "UserDefinedFields": {
-    "SuperOffice:1": "Estella Schowalter",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Florida Kub"
   },
   "ExtraFields": {
-    "ExtraFields1": "numquam",
-    "ExtraFields2": "blanditiis"
+    "ExtraFields1": "sapiente",
+    "ExtraFields2": "consectetur"
   },
   "CustomFields": {
-    "CustomFields1": "voluptas",
-    "CustomFields2": "nihil"
+    "CustomFields1": "facilis",
+    "CustomFields2": "quo"
   },
-  "PublishEventDate": "1998-01-10T14:28:21.8210267+01:00",
-  "PublishTo": "2009-05-13T14:28:21.8210267+02:00",
-  "PublishFrom": "2005-12-15T14:28:21.8210267+01:00",
-  "IsPublished": true,
+  "PublishEventDate": "2013-11-29T13:14:00.1257184+01:00",
+  "PublishTo": "2018-07-30T13:14:00.1257184+02:00",
+  "PublishFrom": "2000-06-19T13:14:00.1257184+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 948,
+      "VisibleId": 847,
       "Visibility": "All",
-      "DisplayValue": "illo",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 776
         }
       }
     },
     {
-      "VisibleId": 948,
+      "VisibleId": 847,
       "Visibility": "All",
-      "DisplayValue": "illo",
+      "DisplayValue": "delectus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 296
+          "FieldLength": 776
         }
       }
     }
@@ -191,7 +191,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 868
     }
   }
 }

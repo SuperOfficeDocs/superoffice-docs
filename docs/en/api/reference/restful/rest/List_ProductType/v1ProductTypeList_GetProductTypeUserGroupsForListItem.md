@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 23,
-    "Name": "Hirthe-Marks",
-    "ToolTip": "Culpa quia distinctio.",
+    "Id": 352,
+    "Name": "Nicolas-Jenkins",
+    "ToolTip": "Dolor sint cupiditate.",
     "Deleted": false,
-    "Rank": 552,
-    "Type": "est",
-    "ColorBlock": 681,
-    "IconHint": "voluptatem",
-    "Selected": true,
-    "LastChanged": "2008-02-01T14:28:27.6332907+01:00",
+    "Rank": 253,
+    "Type": "molestias",
+    "ColorBlock": 792,
+    "IconHint": "architecto",
+    "Selected": false,
+    "LastChanged": "2020-08-12T13:14:09.931658+02:00",
     "ChildItems": [
       {
-        "Id": 855,
-        "Name": "Romaguera LLC",
-        "ToolTip": "Ea nesciunt aperiam vel.",
+        "Id": 607,
+        "Name": "Prohaska-Rath",
+        "ToolTip": "Iste et fugiat nulla.",
         "Deleted": false,
-        "Rank": 240,
-        "Type": "quis",
-        "ColorBlock": 485,
-        "IconHint": "debitis",
+        "Rank": 273,
+        "Type": "temporibus",
+        "ColorBlock": 568,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "1999-05-31T14:28:27.6332907+02:00",
+        "LastChanged": "2019-05-08T13:14:09.931658+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "facere",
+        "ExtraInfo": "ipsum",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Lola Bailey",
+        "FullName": "Haylee Cole",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 492
+            "FieldLength": 817
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "architecto",
-    "Hidden": false,
-    "FullName": "Naomi Jones",
+    "ExtraInfo": "et",
+    "StyleHint": "hic",
+    "Hidden": true,
+    "FullName": "Miss Marcel Georgianna Cassin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 459
+        "FieldType": "System.String",
+        "FieldLength": 961
       }
     }
   }

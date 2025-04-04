@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 638
+  "ProductId": 194
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 259,
-  "BlobSize": 499,
-  "Description": "Stand-alone eco-centric infrastructure",
-  "ExtraInfo": "vel",
+  "BlobId": 40,
+  "BlobSize": 860,
+  "Description": "Self-enabling static functionalities",
+  "ExtraInfo": "quia",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "et",
-  "OriginalSize": 612,
-  "CreatedDate": "2007-04-19T14:28:21.4929147+02:00",
-  "UpdatedDate": "2003-07-04T14:28:21.4929147+02:00",
+  "IsZipped": false,
+  "MimeType": "labore",
+  "OriginalSize": 107,
+  "CreatedDate": "2022-12-03T13:13:59.5470712+01:00",
+  "UpdatedDate": "2024-04-14T13:13:59.5470712+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "placeat",
+  "ConceptualType": "voluptate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 435
+      "FieldType": "System.Int32",
+      "FieldLength": 518
     }
   }
 }

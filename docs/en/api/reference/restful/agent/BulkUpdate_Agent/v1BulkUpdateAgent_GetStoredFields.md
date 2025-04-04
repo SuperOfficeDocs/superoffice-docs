@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "contact",
-  "Context": "beatae"
+  "Context": "dolor"
 }
 ```
 
@@ -106,75 +106,75 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "CanSupportMultiUse": false,
-    "DefaultShowInGui": true,
-    "DefaultShowInSelector": false,
+    "DefaultShowInGui": false,
+    "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "ut",
+    "Key": "expedita",
     "ValueType": "et",
-    "Mandatory": false,
-    "EncodedDisplayName": "Harber Inc and Sons",
-    "EncodedDisplayDescription": "Open-source context-sensitive capacity",
-    "IconHint": "sint",
+    "Mandatory": true,
+    "EncodedDisplayName": "Huels Group",
+    "EncodedDisplayDescription": "Reduced zero defect system engine",
+    "IconHint": "explicabo",
     "ControlInfos": [
       {
-        "Type": "doloribus",
-        "Label": "sunt",
-        "Dimension": 626,
-        "ListProviderName": "Shields Group",
+        "Type": "eos",
+        "Label": "molestiae",
+        "Dimension": 602,
+        "ListProviderName": "Schroeder Group",
         "ListProviderExtraInfo": "quidem",
-        "ListProviderPrimaryKeyName": "Gerhold Inc and Sons",
-        "ListLeadText": "voluptatem",
+        "ListProviderPrimaryKeyName": "Walter LLC",
+        "ListLeadText": "excepturi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 197
+            "FieldLength": 70
           }
         }
       }
     ],
-    "EncodedDataCaption": "et",
-    "EncodedDataCaptionDescription": "Networked homogeneous concept",
-    "CurrentOperationType": "ab",
+    "EncodedDataCaption": "magnam",
+    "EncodedDataCaptionDescription": "Intuitive intermediate knowledge user",
+    "CurrentOperationType": "voluptatem",
     "Values": [
-      "deserunt",
-      "quidem"
+      "rerum",
+      "suscipit"
     ],
     "DisplayValues": [
-      "qui",
-      "perferendis"
+      "et",
+      "vel"
     ],
     "OperationInfos": [
       {
-        "Key": "ea",
-        "EncodedDisplayName": "Lesch LLC",
+        "Key": "omnis",
+        "EncodedDisplayName": "Hauck, Daniel and Reilly",
         "EncodedLeadTexts": [
-          "nobis",
-          "quos"
+          "est",
+          "eum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 906
+            "FieldType": "System.String",
+            "FieldLength": 235
           }
         }
       },
       {
-        "Key": "ea",
-        "EncodedDisplayName": "Lesch LLC",
+        "Key": "omnis",
+        "EncodedDisplayName": "Hauck, Daniel and Reilly",
         "EncodedLeadTexts": [
-          "nobis",
-          "quos"
+          "est",
+          "eum"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 906
+            "FieldType": "System.String",
+            "FieldLength": 235
           }
         }
       }

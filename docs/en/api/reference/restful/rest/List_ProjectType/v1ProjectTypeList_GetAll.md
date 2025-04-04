@@ -25,7 +25,7 @@ Gets all the ProjectType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/ProjectType/Items?includeDeleted=True
+GET /api/v1/List/ProjectType/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Abbott Inc and Sons",
-    "Tooltip": "doloremque",
-    "Deleted": false,
-    "UdListDefinitionId": 384,
-    "Rank": 644,
+    "Id": 314,
+    "Name": "Vandervort, Brekke and Jacobi",
+    "Tooltip": "rem",
+    "Deleted": true,
+    "UdListDefinitionId": 522,
+    "Rank": 727,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 121
+        "FieldType": "System.String",
+        "FieldLength": 630
       }
     }
   }

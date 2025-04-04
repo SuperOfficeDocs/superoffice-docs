@@ -98,7 +98,7 @@ OK
 POST /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 355,
-  "ColumnId": 68,
-  "FieldDefault": "in",
-  "FieldHeight": 203,
-  "FieldLabel": "ut",
-  "FieldLeft": 153,
-  "FieldTop": 556,
+  "UDefFieldId": 28,
+  "ColumnId": 423,
+  "FieldDefault": "ut",
+  "FieldHeight": 280,
+  "FieldLabel": "ad",
+  "FieldLeft": 175,
+  "FieldTop": 257,
   "FieldType": "Checkbox",
-  "FieldWidth": 221,
-  "FormatMask": "deserunt",
-  "HideLabel": false,
+  "FieldWidth": 664,
+  "FormatMask": "voluptatibus",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 943,
-  "LabelLeft": 484,
-  "LabelTop": 137,
-  "LabelWidth": 45,
-  "LastVersionId": 815,
-  "ListTableId": 899,
-  "IsMandatory": false,
+  "LabelHeight": 879,
+  "LabelLeft": 461,
+  "LabelTop": 209,
+  "LabelWidth": 245,
+  "LastVersionId": 571,
+  "ListTableId": 254,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 652,
-  "ProgId": "tempore",
+  "Page1LineNo": 722,
+  "ProgId": "harum",
   "IsReadOnly": false,
-  "ShortLabel": "adipisci",
-  "TabOrder": 160,
-  "TextLength": 817,
-  "Tooltip": "non",
-  "UdefIdentity": 1002,
-  "UDListDefinitionId": 219,
+  "ShortLabel": "incidunt",
+  "TabOrder": 725,
+  "TextLength": 446,
+  "Tooltip": "explicabo",
+  "UdefIdentity": 666,
+  "UDListDefinitionId": 694,
   "Justification": "Center",
-  "Version": 317,
-  "TemplateVariableName": "Jacobi-Becker",
-  "HasBeenPublished": false,
-  "MdoListName": "Gusikowski Group",
+  "Version": 973,
+  "TemplateVariableName": "Schmitt LLC",
+  "HasBeenPublished": true,
+  "MdoListName": "Schneider, Abernathy and Lind",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 748
+      "FieldType": "System.Int32",
+      "FieldLength": 163
     }
   }
 }

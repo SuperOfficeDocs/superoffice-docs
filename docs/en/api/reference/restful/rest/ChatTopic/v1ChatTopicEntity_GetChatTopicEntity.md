@@ -103,7 +103,7 @@ ChatTopicEntity found.
 GET /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -113,48 +113,48 @@ HTTP/1.1 200 ChatTopicEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 442,
-  "Name": "Parisian, Parker and Fisher",
-  "Description": "Organized content-based framework",
-  "WelcomeMessage": "necessitatibus",
+  "ChatTopicId": 628,
+  "Name": "Abshire Group",
+  "Description": "Implemented background matrices",
+  "WelcomeMessage": "quibusdam",
   "Language": null,
-  "LastAccept": "1999-07-18T14:28:26.7895753+02:00",
-  "SecondsPrAccept": 538,
-  "AlertRecipient": "et",
+  "LastAccept": "2019-10-07T13:14:08.4616221+02:00",
+  "SecondsPrAccept": 178,
+  "AlertRecipient": "tenetur",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "occaecati",
-  "CustomQueueTextEnabled": true,
-  "CustomQueueText": "sunt",
-  "WarnNewChatMinutes": 547,
-  "WarnManagerNewChatMinutes": 176,
-  "TicketEnabled": false,
+  "CollectConsent": true,
+  "BadgeHeader": "asperiores",
+  "CustomQueueTextEnabled": false,
+  "CustomQueueText": "consequatur",
+  "WarnNewChatMinutes": 17,
+  "WarnManagerNewChatMinutes": 101,
+  "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 911,
-  "WarnManagerChatMessageMinutes": 625,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 183,
+  "WarnManagerChatMessageMinutes": 101,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 87,
-  "OfflineFormQueueLength": 694,
+  "OfflineFormTimeLimit": 135,
+  "OfflineFormQueueLength": 915,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "omnis",
+  "WidgetRatingText": "eaque",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldType": "System.Int32",
+      "FieldLength": 410
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

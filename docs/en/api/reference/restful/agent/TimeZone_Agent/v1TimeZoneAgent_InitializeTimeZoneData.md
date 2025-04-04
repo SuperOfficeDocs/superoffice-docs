@@ -80,31 +80,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TZLocationID": 137,
-    "Name": "Yundt, Sawayn and Emmerich",
-    "TZLocationCode": "tempore",
-    "TZLocationCities": "aut",
-    "IsoNumber": 830,
+    "TZLocationID": 171,
+    "Name": "Bergstrom Inc and Sons",
+    "TZLocationCode": "repellendus",
+    "TZLocationCities": "cum",
+    "IsoNumber": 134,
     "TimeZoneSTDRules": {
       "fieldName": {
-        "StartDay": 582,
-        "StartMonth": 161,
-        "EndDay": 734,
-        "EndMonth": 995,
-        "TZOffset": 452,
-        "StartRulePattern": "delectus",
-        "EndRulePattern": "qui"
+        "StartDay": 42,
+        "StartMonth": 878,
+        "EndDay": 201,
+        "EndMonth": 989,
+        "TZOffset": 320,
+        "StartRulePattern": "omnis",
+        "EndRulePattern": "deleniti"
       }
     },
     "TimeZoneDSTRules": {
       "fieldName": {
-        "StartDay": 532,
-        "StartMonth": 909,
-        "EndDay": 542,
-        "EndMonth": 711,
-        "TZOffset": 67,
-        "StartRulePattern": "eos",
-        "EndRulePattern": "eos"
+        "StartDay": 465,
+        "StartMonth": 946,
+        "EndDay": 241,
+        "EndMonth": 160,
+        "TZOffset": 458,
+        "StartRulePattern": "sequi",
+        "EndRulePattern": "voluptatibus"
       }
     }
   }

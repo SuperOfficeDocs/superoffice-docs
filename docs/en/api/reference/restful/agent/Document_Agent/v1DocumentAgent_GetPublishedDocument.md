@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocument
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 590
+  "DocumentId": 37
 }
 ```
 
@@ -107,32 +107,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 342,
-  "Attention": "officia",
-  "Header": "rerum",
-  "Name": "Jast, Senger and VonRueden",
-  "OurRef": "laudantium",
-  "YourRef": "voluptatem",
-  "Description": "Devolved context-sensitive contingency",
-  "DocumentTemplate": "necessitatibus",
-  "IsPublished": true,
-  "PersonId": 19,
-  "PersonFullName": "Ansel Lueilwitz",
-  "AssociateFullName": "Jerod Kunde",
-  "ContactId": 221,
-  "ContactName": "Mills, Armstrong and Heathcote",
-  "ProjectId": 799,
-  "ProjectName": "Stokes-Gaylord",
-  "AssociateId": 949,
-  "Snum": 270,
-  "SaleId": 882,
-  "SaleName": "Green, West and Schiller",
+  "DocumentId": 647,
+  "Attention": "quae",
+  "Header": "autem",
+  "Name": "Jacobi-Satterfield",
+  "OurRef": "sed",
+  "YourRef": "autem",
+  "Description": "Automated value-added help-desk",
+  "DocumentTemplate": "sint",
+  "IsPublished": false,
+  "PersonId": 582,
+  "PersonFullName": "Miss Boyd Metz",
+  "AssociateFullName": "Sarai Wehner",
+  "ContactId": 696,
+  "ContactName": "Price-Mosciski",
+  "ProjectId": 527,
+  "ProjectName": "Mayer-Schroeder",
+  "AssociateId": 973,
+  "Snum": 870,
+  "SaleId": 299,
+  "SaleName": "Corwin Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 710
+      "FieldLength": 672
     }
   }
 }

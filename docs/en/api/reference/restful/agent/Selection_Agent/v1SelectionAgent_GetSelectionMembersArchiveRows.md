@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 615,
-  "Select": "voluptatem"
+  "SelectionId": 892,
+  "Select": "totam"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Crona Group",
-    "PrimaryKey": 228,
+    "EntityName": "Rath, Kemmer and Heidenreich",
+    "PrimaryKey": 870,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "quis",
-        "TooltipHint": "quia",
-        "LinkHint": "distinctio"
+        "DisplayValue": "laudantium",
+        "TooltipHint": "quae",
+        "LinkHint": "natus"
       }
     },
-    "LinkHint": "voluptates",
-    "StyleHint": "deleniti",
+    "LinkHint": "consequatur",
+    "StyleHint": "rerum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 684
+        "FieldLength": 692
       }
     }
   }

@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 380
+  "QuoteConnectionId": 473
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 225,
-  "ERPName": "Mohr-Gorczany",
-  "DisplayName": "Green Inc and Sons",
-  "DisplayDescription": "Secured logistical access",
-  "Rank": 913,
-  "ConnectorName": "Hills-Nader",
-  "ErpConnectionId": 131,
-  "ExtraData": "quo",
+  "QuoteConnectionId": 296,
+  "ERPName": "Willms LLC",
+  "DisplayName": "Bosco LLC",
+  "DisplayDescription": "Advanced leading edge productivity",
+  "Rank": 659,
+  "ConnectorName": "Carter-Kunze",
+  "ErpConnectionId": 555,
+  "ExtraData": "aut",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 860,
-      "ERPPriceListKey": "quia",
-      "QuoteConnectionId": 735,
-      "Name": "Thompson, Watsica and Bahringer",
-      "Description": "Operative national access",
-      "Currency": "dolorem",
-      "CurrencyName": "Kunze, Fahey and Cummerata",
-      "ValidFrom": "1998-04-30T14:28:22.3053817+02:00",
-      "ValidTo": "2018-12-08T14:28:22.3053817+01:00",
-      "IsActive": false,
+      "PriceListId": 9,
+      "ERPPriceListKey": "dolorem",
+      "QuoteConnectionId": 684,
+      "Name": "Hilpert LLC",
+      "Description": "Visionary analyzing middleware",
+      "Currency": "aut",
+      "CurrencyName": "Greenfelder-Kuhn",
+      "ValidFrom": "2008-06-19T13:14:01.0020135+02:00",
+      "ValidTo": "2003-03-27T13:14:01.0020135+01:00",
+      "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 647
+          "FieldType": "System.String",
+          "FieldLength": 681
         }
       }
     }
   ],
   "AllAccess": true,
-  "Deleted": false,
+  "Deleted": true,
   "UserGroupAccessIds": [
-    268,
-    50
+    961,
+    403
   ],
   "AssociateAccessIds": [
-    45,
-    641
+    912,
+    601
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 775
+      "FieldLength": 213
     }
   }
 }

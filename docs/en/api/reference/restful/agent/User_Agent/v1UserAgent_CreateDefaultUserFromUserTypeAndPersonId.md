@@ -103,12 +103,12 @@ OK
 POST /api/v1/Agents/User/CreateDefaultUserFromUserTypeAndPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "PersonId": 864
+  "PersonId": 297
 }
 ```
 
@@ -119,14 +119,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 826,
-  "Name": "Prohaska, Howell and Dickens",
-  "Rank": 839,
-  "Tooltip": "autem",
+  "AssociateId": 110,
+  "Name": "Heathcote Inc and Sons",
+  "Rank": 138,
+  "Tooltip": "ab",
   "LicenseOwners": [
     {
-      "Name": "Vandervort Group",
-      "Description": "Open-architected optimal attitude",
+      "Name": "Lang-Kuhic",
+      "Description": "Secured mission-critical Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -139,14 +139,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldType": "System.String",
+          "FieldLength": 893
         }
       }
     },
     {
-      "Name": "Vandervort Group",
-      "Description": "Open-architected optimal attitude",
+      "Name": "Lang-Kuhic",
+      "Description": "Secured mission-critical Graphic Interface",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -159,8 +159,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 825
+          "FieldType": "System.String",
+          "FieldLength": 893
         }
       }
     }
@@ -169,110 +169,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "totam",
-      "Tooltip": "cum",
-      "Id": 411,
-      "Rank": 230,
-      "Deleted": true,
+      "Value": "fugit",
+      "Tooltip": "eaque",
+      "Id": 726,
+      "Rank": 544,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 995
+          "FieldType": "System.Int32",
+          "FieldLength": 551
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2013-01-29T14:28:22.7116081+01:00",
-  "Lastlogout": "2015-04-16T14:28:22.7116081+02:00",
-  "EjUserId": 271,
-  "RequestSignature": "corporis",
+  "Lastlogin": "1998-09-09T13:14:01.738198+02:00",
+  "Lastlogout": "2017-03-21T13:14:01.738198+01:00",
+  "EjUserId": 859,
+  "RequestSignature": "ut",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
-  "IsOnTravel": false,
+  "IsPersonRetired": false,
+  "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "commodi",
-      "DisplayValue": "eaque",
+      "Value": "vero",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 612
+          "FieldType": "System.Int32",
+          "FieldLength": 358
         }
       }
     },
     {
       "Type": null,
-      "Value": "commodi",
-      "DisplayValue": "eaque",
+      "Value": "vero",
+      "DisplayValue": "assumenda",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 612
+          "FieldType": "System.Int32",
+          "FieldLength": 358
         }
       }
     }
   ],
-  "UserName": "Bogisich, Grimes and Kuhlman",
+  "UserName": "Bartell, Casper and Yost",
   "TicketCategories": [
     {
-      "Id": 550,
-      "Name": "Wolf-Wiza",
-      "ToolTip": "Fugiat minus velit dolor eum.",
+      "Id": 438,
+      "Name": "Leannon Group",
+      "ToolTip": "Eos quia reiciendis.",
       "Deleted": false,
-      "Rank": 71,
-      "Type": "quae",
+      "Rank": 583,
+      "Type": "ea",
       "ChildItems": [
         {},
         {}
       ],
       "IconHint": "et",
-      "ColorBlock": 778,
-      "ExtraInfo": "similique",
-      "StyleHint": "possimus",
-      "FullName": "Micah Bergnaum PhD",
+      "ColorBlock": 331,
+      "ExtraInfo": "iure",
+      "StyleHint": "aut",
+      "FullName": "Milford Kuhic",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 515
+          "FieldType": "System.Int32",
+          "FieldLength": 212
         }
       }
     }
   ],
-  "NickName": "Friesen Inc and Sons",
+  "NickName": "Dickens Group",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "doloribus",
-    "ExtraFields2": "tempora"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "labore"
   },
   "CustomFields": {
-    "CustomFields1": "dolores",
-    "CustomFields2": "odio"
+    "CustomFields1": "non",
+    "CustomFields2": "quae"
   },
   "PostSaveCommands": [
     {
-      "Name": "Metz, Jenkins and Torp",
-      "DisplayName": "Walsh-Friesen",
-      "Description": "Realigned value-added database",
-      "ToolTip": "Expedita dolores velit.",
+      "Name": "Treutel, Bins and Nitzsche",
+      "DisplayName": "Parker-Ziemann",
+      "Description": "Public-key optimal database",
+      "ToolTip": "Itaque adipisci blanditiis.",
       "Actions": "Implicit",
-      "ActionData": "fugiat",
+      "ActionData": "eius",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 80
+          "FieldLength": 477
         }
       }
     }
@@ -281,8 +281,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldType": "System.Int32",
+      "FieldLength": 106
     }
   }
 }

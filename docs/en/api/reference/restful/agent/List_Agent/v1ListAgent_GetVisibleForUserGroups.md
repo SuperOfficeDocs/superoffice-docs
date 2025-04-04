@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 697,
-  "ListItemId": 838
+  "UdListDefinitionId": 574,
+  "ListItemId": 64
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Greenfelder Group",
-    "ToolTip": "Dolores accusantium consectetur nihil expedita.",
-    "Deleted": true,
-    "Rank": 706,
-    "Type": "maxime",
-    "ColorBlock": 852,
-    "IconHint": "quo",
+    "Id": 164,
+    "Name": "Hickle, Legros and Pagac",
+    "ToolTip": "Asperiores voluptates omnis beatae quisquam molestiae est.",
+    "Deleted": false,
+    "Rank": 222,
+    "Type": "sed",
+    "ColorBlock": 988,
+    "IconHint": "libero",
     "Selected": false,
-    "LastChanged": "2003-06-14T14:28:22.0553915+02:00",
+    "LastChanged": "2009-04-06T13:14:00.5793728+02:00",
     "ChildItems": [
       {
-        "Id": 778,
-        "Name": "Swift-Rogahn",
-        "ToolTip": "Aut tenetur aut non aut et.",
+        "Id": 658,
+        "Name": "Cartwright Group",
+        "ToolTip": "Molestias ducimus natus eligendi.",
         "Deleted": false,
-        "Rank": 790,
-        "Type": "enim",
-        "ColorBlock": 935,
-        "IconHint": "cum",
-        "Selected": false,
-        "LastChanged": "2019-10-01T14:28:22.0553915+02:00",
+        "Rank": 384,
+        "Type": "cumque",
+        "ColorBlock": 374,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2002-06-26T13:14:00.5793728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "natus",
-        "StyleHint": "quidem",
-        "Hidden": false,
-        "FullName": "Ms. Katlyn Hubert Walter",
+        "ExtraInfo": "autem",
+        "StyleHint": "voluptatem",
+        "Hidden": true,
+        "FullName": "Magdalen Rogahn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 422
+            "FieldLength": 810
           }
         }
       }
     ],
-    "ExtraInfo": "veritatis",
-    "StyleHint": "quas",
+    "ExtraInfo": "est",
+    "StyleHint": "tempore",
     "Hidden": false,
-    "FullName": "Miss Mya Rachel Hagenes",
+    "FullName": "Esta Kutch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldLength": 408
       }
     }
   }

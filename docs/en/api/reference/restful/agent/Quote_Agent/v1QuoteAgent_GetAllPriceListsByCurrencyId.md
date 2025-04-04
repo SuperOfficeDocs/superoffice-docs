@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 751,
-  "CurrencyId": 586
+  "QuoteConnectionId": 825,
+  "CurrencyId": 261
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 45,
+    "PriceListId": 95,
     "ERPPriceListKey": "rem",
-    "QuoteConnectionId": 276,
-    "Name": "White-Bechtelar",
-    "Description": "Programmable 5th generation framework",
-    "Currency": "velit",
-    "CurrencyName": "Ondricka-Wunsch",
-    "ValidFrom": "2000-07-23T14:28:22.3053817+02:00",
-    "ValidTo": "2025-01-10T14:28:22.3053817+01:00",
-    "IsActive": true,
+    "QuoteConnectionId": 892,
+    "Name": "Hills, Armstrong and DuBuque",
+    "Description": "Distributed assymetric system engine",
+    "Currency": "necessitatibus",
+    "CurrencyName": "Nader-Schaefer",
+    "ValidFrom": "2008-08-31T13:14:01.0020135+02:00",
+    "ValidTo": "2024-09-25T13:14:01.0020135+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 227
+        "FieldType": "System.String",
+        "FieldLength": 144
       }
     }
   }

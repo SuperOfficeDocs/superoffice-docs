@@ -29,7 +29,7 @@ Get length of the document content in bytes.
 | versionId | string |  Version ID if applicable; a blank value implies "latest" version and is always acceptable. |
 
 ```http
-GET /api/v1/Document/{documentId}/Length?versionId=vero
+GET /api/v1/Document/{documentId}/Length?versionId=dolores
 ```
 
 

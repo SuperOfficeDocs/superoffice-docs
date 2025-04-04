@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 271,
-    "Name": "Hegmann-Jewess",
-    "Tooltip": "explicabo",
-    "Deleted": false,
-    "Rank": 765,
-    "UdListDefinitionId": 933,
+    "HeadingId": 986,
+    "Name": "Willms-Larson",
+    "Tooltip": "asperiores",
+    "Deleted": true,
+    "Rank": 896,
+    "UdListDefinitionId": 908,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 617
+        "FieldLength": 477
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=ea
+GET /api/v1/List/Category/MDOItems?query=ullam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 351,
-    "Name": "Bogan-Schinner",
-    "ToolTip": "At consequatur accusamus quam qui.",
+    "Id": 767,
+    "Name": "Olson-Gislason",
+    "ToolTip": "Est voluptas qui et eveniet sed sit.",
     "Deleted": false,
-    "Rank": 718,
-    "Type": "omnis",
+    "Rank": 550,
+    "Type": "reprehenderit",
     "ChildItems": [
       {
-        "Id": 782,
-        "Name": "Nader Group",
-        "ToolTip": "Omnis natus autem et modi tempora quo.",
+        "Id": 556,
+        "Name": "Hansen-Ortiz",
+        "ToolTip": "Architecto et dolorem rem nostrum a.",
         "Deleted": true,
-        "Rank": 113,
-        "Type": "at",
+        "Rank": 461,
+        "Type": "ad",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "et",
-        "ColorBlock": 552,
-        "ExtraInfo": "quod",
-        "StyleHint": "nihil",
-        "FullName": "Maximillian Schuppe",
+        "IconHint": "sequi",
+        "ColorBlock": 620,
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "ad",
+        "FullName": "Carlos Hansen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 438
+            "FieldType": "System.String",
+            "FieldLength": 139
           }
         }
       }
     ],
-    "IconHint": "laudantium",
-    "ColorBlock": 134,
-    "ExtraInfo": "id",
-    "StyleHint": "autem",
-    "FullName": "Bo Kathleen Nikolaus Sr.",
+    "IconHint": "temporibus",
+    "ColorBlock": 75,
+    "ExtraInfo": "laudantium",
+    "StyleHint": "consequuntur",
+    "FullName": "Durward Leannon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldLength": 825
       }
     }
   }

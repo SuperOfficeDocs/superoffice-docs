@@ -117,18 +117,18 @@ PriceList  updated.
 PATCH /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "sed",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sed",
+    "path": "non",
     "value": {}
   }
 ]
@@ -141,27 +141,27 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 153,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 550,
-  "Name": "Barrows Group",
-  "Description": "Synergized mobile portal",
-  "Currency": "perspiciatis",
-  "CurrencyName": "Gerhold Group",
-  "ValidFrom": "2001-12-20T14:28:27.6020419+01:00",
-  "ValidTo": "2006-08-01T14:28:27.6020419+02:00",
+  "PriceListId": 336,
+  "ERPPriceListKey": "laudantium",
+  "QuoteConnectionId": 944,
+  "Name": "Fahey, Batz and Luettgen",
+  "Description": "Progressive intangible moderator",
+  "Currency": "et",
+  "CurrencyName": "Lebsack, Buckridge and Hackett",
+  "ValidFrom": "2011-03-23T13:14:09.8691543+01:00",
+  "ValidTo": "2013-07-10T13:14:09.8691543+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 988
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

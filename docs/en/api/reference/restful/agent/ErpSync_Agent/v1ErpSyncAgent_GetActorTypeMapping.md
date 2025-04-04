@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 88,
+  "ErpConnectionId": 169,
   "ActorType": "Customer"
 }
 ```
@@ -96,33 +96,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 13,
-  "IsActive": true,
+  "ErpConnectionId": 897,
+  "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 763,
-      "CrmFieldKey": "labore",
-      "CrmDisplayName": "Kuhic Group",
-      "CrmDisplayTooltip": "ut",
-      "ErpFieldKey": "ea",
+      "ErpFieldId": 346,
+      "CrmFieldKey": "quo",
+      "CrmDisplayName": "Cormier, Bednar and Stracke",
+      "CrmDisplayTooltip": "maxime",
+      "ErpFieldKey": "aperiam",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Leannon Inc and Sons",
-      "ErpDisplayTooltip": "facere",
+      "ErpDisplayName": "Schamberger LLC",
+      "ErpDisplayTooltip": "doloremque",
       "SyncToCrm": false,
       "SyncToErp": false,
-      "ShowInGui": true,
-      "ShowInSearch": true,
-      "AlreadyMapped": false,
+      "ShowInGui": false,
+      "ShowInSearch": false,
+      "AlreadyMapped": true,
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "recusandae",
+      "ListReference": "alias",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 146
+          "FieldLength": 197
         }
       }
     }
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 10
+      "FieldType": "System.Int32",
+      "FieldLength": 583
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultHeadingEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 442,
-  "Name": "Lindgren Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 331,
-  "UdListDefinitionId": 211,
+  "HeadingId": 7,
+  "Name": "Lockman Inc and Sons",
+  "Tooltip": "alias",
+  "Deleted": true,
+  "Rank": 525,
+  "UdListDefinitionId": 857,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 613
+      "FieldLength": 108
     }
   }
 }

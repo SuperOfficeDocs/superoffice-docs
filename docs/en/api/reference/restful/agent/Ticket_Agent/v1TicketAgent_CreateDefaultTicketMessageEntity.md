@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 900,
+  "EjMessageId": 756,
   "Ticket": null,
-  "CreatedAt": "2016-08-13T14:28:22.5709961+02:00",
+  "CreatedAt": "2009-02-07T13:14:01.4413053+01:00",
   "CreatedBy": null,
-  "Author": "mollitia",
+  "Author": "laudantium",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "et",
-  "TimeSpent": 562,
-  "Body": "pariatur",
-  "HtmlBody": "molestias",
-  "EmailHeader": "jerrod.greenfelder@predovic.com",
-  "DebugInfo": "repellat",
-  "MailSorter": "delectus",
+  "MessageId": "qui",
+  "TimeSpent": 496,
+  "Body": "molestiae",
+  "HtmlBody": "consequatur",
+  "EmailHeader": "gino@green.us",
+  "DebugInfo": "debitis",
+  "MailSorter": "unde",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "aut",
+  "SearchTitle": "quo",
   "MessageHeaders": [
     {
-      "Id": 309,
-      "Name": "Lebsack Group",
-      "Value": "voluptatem",
+      "Id": 322,
+      "Name": "Little, O'Hara and Koelpin",
+      "Value": "vel",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 950
+          "FieldType": "System.Int32",
+          "FieldLength": 72
         }
       }
     }
   ],
   "Important": false,
-  "Language": "qui",
-  "Sentiment": 456,
-  "SentimentConfidence": 607,
+  "Language": "expedita",
+  "Sentiment": 788,
+  "SentimentConfidence": 704,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 970,
-      "Name": "Harber, Schamberger and Bayer",
-      "ContentType": "illum",
-      "AttSize": 500,
+      "AttachmentId": 782,
+      "Name": "Witting Group",
+      "ContentType": "officiis",
+      "AttSize": 540,
       "InlineImage": false,
-      "ContentId": "et",
-      "AuthKey": "fugiat",
-      "IsSafeFileExtension": true,
+      "ContentId": "odit",
+      "AuthKey": "sit",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 362
+          "FieldType": "System.Int32",
+          "FieldLength": 95
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "expedita",
-    "ExtraFields2": "est"
+    "ExtraFields1": "vel",
+    "ExtraFields2": "dolorem"
   },
   "CustomFields": {
-    "CustomFields1": "commodi",
-    "CustomFields2": "sed"
+    "CustomFields1": "adipisci",
+    "CustomFields2": "et"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 520
+      "FieldType": "System.Int32",
+      "FieldLength": 258
     }
   }
 }

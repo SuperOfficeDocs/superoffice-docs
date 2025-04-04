@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 743,
-    "Name": "Connelly LLC",
-    "Tooltip": "cupiditate",
+    "HeadingId": 207,
+    "Name": "Bergstrom, Cole and Deckow",
+    "Tooltip": "accusantium",
     "Deleted": false,
-    "Rank": 978,
-    "UdListDefinitionId": 993,
+    "Rank": 70,
+    "UdListDefinitionId": 134,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 820
+        "FieldLength": 106
       }
     }
   }

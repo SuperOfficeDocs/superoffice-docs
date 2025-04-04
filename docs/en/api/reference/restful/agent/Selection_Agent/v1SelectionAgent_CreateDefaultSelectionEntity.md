@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Selection/CreateDefaultSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -107,70 +107,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Synchronised multi-tasking emulation",
-  "Postit": "aut",
+  "Description": "User-centric object-oriented algorithm",
+  "Postit": "enim",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 772,
-  "IncludePerson": 113,
+  "GroupIdx": 916,
+  "IncludePerson": 884,
   "MemberCount": 99.99,
-  "Name": "Greenholt Inc and Sons",
-  "PostitTextId": 462,
-  "CreatedDate": "2005-12-15T14:28:22.3835038+01:00",
-  "SelectionId": 327,
-  "SoundEx": "nulla",
-  "Source": 738,
-  "TextId": 952,
-  "UpdatedDate": "2022-05-22T14:28:22.3835038+02:00",
-  "UpdatedCount": 746,
-  "Visibility": 631,
+  "Name": "Wiza-Labadie",
+  "PostitTextId": 759,
+  "CreatedDate": "2017-03-21T13:14:01.1431224+01:00",
+  "SelectionId": 165,
+  "SoundEx": "eaque",
+  "Source": 708,
+  "TextId": 209,
+  "UpdatedDate": "1998-08-17T13:14:01.1431224+02:00",
+  "UpdatedCount": 807,
+  "Visibility": 713,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 391,
-  "TargetTableName": "Kunze, Aufderhar and Ledner",
-  "Completed": true,
-  "LeftSelectionId": 873,
-  "RightSelectionId": 528,
+  "CompanyUnique": true,
+  "TargetTableNumber": 872,
+  "TargetTableName": "Hickle Group",
+  "Completed": false,
+  "LeftSelectionId": 655,
+  "RightSelectionId": 912,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wunsch-Brakus",
-  "ShadowProviderName": "Bergnaum-Dicki",
-  "ChartKey": "sunt",
-  "LastLoaded": "2023-04-21T14:28:22.3835038+02:00",
-  "LastLoadedBy": 458,
+  "MainProviderName": "Ankunding, Luettgen and Marks",
+  "ShadowProviderName": "Brekke LLC",
+  "ChartKey": "magnam",
+  "LastLoaded": "2001-05-13T13:14:01.1431224+02:00",
+  "LastLoadedBy": 925,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-05-22T14:28:22.3835038+02:00",
-  "LastMembershipChangeBy": 308,
+  "LastMembershipChange": "2022-07-08T13:14:01.1431224+02:00",
+  "LastMembershipChangeBy": 752,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "enim",
-  "MemberTabHeading": "atque",
-  "MailingsProviderName": "Johnson-Borer",
-  "DashboardTileDefinitionId": 280,
+  "MainHeading": "ut",
+  "MemberTabHeading": "impedit",
+  "MailingsProviderName": "Langworth, Schaden and Heaney",
+  "DashboardTileDefinitionId": 439,
   "VisibleFor": [
     {
-      "VisibleId": 62,
+      "VisibleId": 623,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldLength": 691
         }
       }
     },
     {
-      "VisibleId": 62,
+      "VisibleId": 623,
       "Visibility": "All",
-      "DisplayValue": "voluptatem",
+      "DisplayValue": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 735
+          "FieldLength": 691
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 177
+      "FieldLength": 31
     }
   }
 }

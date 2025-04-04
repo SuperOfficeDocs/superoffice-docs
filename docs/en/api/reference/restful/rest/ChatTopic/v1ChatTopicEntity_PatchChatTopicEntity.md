@@ -138,18 +138,18 @@ ChatTopicEntity  updated.
 PATCH /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "reprehenderit",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "reprehenderit",
+    "path": "et",
     "value": {}
   }
 ]
@@ -162,21 +162,21 @@ HTTP/1.1 200 ChatTopicEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 40,
-  "Name": "Franecki, Runolfsson and Bauch",
-  "Description": "Profit-focused mission-critical internet solution",
-  "WelcomeMessage": "magnam",
+  "ChatTopicId": 792,
+  "Name": "Bogisich, Lesch and Jenkins",
+  "Description": "Implemented multi-state secured line",
+  "WelcomeMessage": "eos",
   "Language": null,
-  "LastAccept": "2011-09-09T14:28:26.7895753+02:00",
-  "SecondsPrAccept": 210,
-  "AlertRecipient": "asperiores",
+  "LastAccept": "2009-04-24T13:14:08.4616221+02:00",
+  "SecondsPrAccept": 605,
+  "AlertRecipient": "quo",
   "AlertTemplate": null,
-  "CollectConsent": true,
-  "BadgeHeader": "nihil",
+  "CollectConsent": false,
+  "BadgeHeader": "reprehenderit",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "maxime",
-  "WarnNewChatMinutes": 798,
-  "WarnManagerNewChatMinutes": 212,
+  "CustomQueueText": "consequatur",
+  "WarnNewChatMinutes": 118,
+  "WarnManagerNewChatMinutes": 198,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
   "BotEnabled": false,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 666,
-  "WarnManagerChatMessageMinutes": 200,
+  "WarnChatMessageMinutes": 76,
+  "WarnManagerChatMessageMinutes": 870,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 766,
-  "OfflineFormQueueLength": 460,
+  "OfflineFormTimeLimit": 946,
+  "OfflineFormQueueLength": 609,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "at",
+  "WidgetRatingText": "perferendis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 436
+      "FieldType": "System.Int32",
+      "FieldLength": 851
     }
   },
   "_Links": {

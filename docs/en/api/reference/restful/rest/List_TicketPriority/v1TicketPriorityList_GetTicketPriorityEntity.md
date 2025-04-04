@@ -99,60 +99,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 953,
-  "Name": "Dicki-Hackett",
+  "TicketPriorityId": 592,
+  "Name": "Brakus Group",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 171,
+  "SortOrder": 905,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 814,
-  "MonStart": "2003-07-16T14:28:27.7739195+02:00",
-  "MonStop": "2012-08-27T14:28:27.7739195+02:00",
-  "TueStart": "2002-06-17T14:28:27.7739195+02:00",
-  "TueStop": "2011-06-20T14:28:27.7739195+02:00",
-  "WedStart": "2024-05-15T14:28:27.7739195+02:00",
-  "WedStop": "2004-05-25T14:28:27.7739195+02:00",
-  "ThuStart": "2003-01-23T14:28:27.7739195+01:00",
-  "ThuStop": "2004-08-01T14:28:27.7739195+02:00",
-  "FriStart": "2013-04-07T14:28:27.7739195+02:00",
-  "FriStop": "2023-02-25T14:28:27.7739195+01:00",
-  "SatStart": "2005-05-24T14:28:27.7739195+02:00",
-  "SatStop": "2021-06-17T14:28:27.7739195+02:00",
-  "SunStart": "2012-05-08T14:28:27.7739195+02:00",
-  "SunStop": "2010-03-30T14:28:27.7739195+02:00",
+  "Deadline": 294,
+  "MonStart": "2014-02-10T13:14:10.1347951+01:00",
+  "MonStop": "2000-12-03T13:14:10.1347951+01:00",
+  "TueStart": "2005-10-05T13:14:10.1347951+02:00",
+  "TueStop": "2002-05-18T13:14:10.1347951+02:00",
+  "WedStart": "1998-05-26T13:14:10.1347951+02:00",
+  "WedStop": "2000-01-20T13:14:10.1347951+01:00",
+  "ThuStart": "2025-03-30T13:14:10.1347951+02:00",
+  "ThuStop": "2022-06-24T13:14:10.1347951+02:00",
+  "FriStart": "2001-03-17T13:14:10.1347951+01:00",
+  "FriStop": "2012-09-02T13:14:10.1347951+02:00",
+  "SatStart": "2012-05-24T13:14:10.1347951+02:00",
+  "SatStop": "2004-04-21T13:14:10.1347951+02:00",
+  "SunStart": "2016-12-16T13:14:10.1347951+01:00",
+  "SunStop": "2013-12-12T13:14:10.1347951+01:00",
   "NonDates": [
-    "molestiae",
-    "alias"
+    "provident",
+    "corporis"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 54,
-      "AlertLevel": 162,
-      "AlertTimeout": 118,
-      "Action": 222,
-      "DelegateTo": 471,
-      "ScriptId": 530,
-      "EmailTo": "alivia_kiehn@kreigerjohnson.com",
-      "SmsTo": "sint",
-      "ReplyTemplateIdCustomer": 441,
-      "ReplyTemplateIdUser": 586,
-      "ReplyTemplateIdCatmast": 477,
-      "ReplyTemplateIdEmail": 977,
-      "RtiCustomerSms": 673,
-      "ReplyTemplateIdUserSms": 520,
-      "ReplyTemplateIdCatmastSms": 947,
-      "ReplyTemplateIdSms": 628,
+      "TicketAlertId": 474,
+      "AlertLevel": 793,
+      "AlertTimeout": 205,
+      "Action": 214,
+      "DelegateTo": 180,
+      "ScriptId": 595,
+      "EmailTo": "liliane.rogahn@bahringer.com",
+      "SmsTo": "repellat",
+      "ReplyTemplateIdCustomer": 800,
+      "ReplyTemplateIdUser": 348,
+      "ReplyTemplateIdCatmast": 260,
+      "ReplyTemplateIdEmail": 589,
+      "RtiCustomerSms": 58,
+      "ReplyTemplateIdUserSms": 159,
+      "ReplyTemplateIdCatmastSms": 457,
+      "ReplyTemplateIdSms": 216,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 810
+          "FieldLength": 467
         }
       }
     }
@@ -162,7 +162,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 647
+      "FieldLength": 586
     }
   }
 }

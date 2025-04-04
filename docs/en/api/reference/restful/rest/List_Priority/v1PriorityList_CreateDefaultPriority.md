@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Priority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 800,
-  "Name": "Harvey, Dach and Jones",
-  "Tooltip": "voluptatem",
+  "Id": 378,
+  "Name": "Streich, Gorczany and Kassulke",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "UdListDefinitionId": 43,
-  "Rank": 801,
+  "UdListDefinitionId": 861,
+  "Rank": 303,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 947
+      "FieldLength": 516
     }
   }
 }

@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 828,
-  "Name": "Crona Group",
-  "CreatedDate": "2024-07-29T14:28:26.9458186+02:00",
-  "UpdatedDate": "2020-07-05T14:28:26.9458186+02:00",
+  "ForeignAppId": 30,
+  "Name": "Medhurst Inc and Sons",
+  "CreatedDate": "2008-09-04T13:14:08.7428891+02:00",
+  "UpdatedDate": "2005-04-14T13:14:08.7428891+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 289,
-      "Name": "Abbott, Bauch and Koelpin",
-      "CreatedDate": "2013-05-10T14:28:26.9458186+02:00",
-      "UpdatedDate": "1999-06-07T14:28:26.9458186+02:00",
-      "AssociateFullName": "Rubie Mann",
-      "CreatedBy": "sed",
-      "UpdatedBy": "esse",
-      "DeviceIdentifier": "molestiae",
-      "ForeignAppId": 555
+      "ForeignDeviceId": 574,
+      "Name": "Barton-Jaskolski",
+      "CreatedDate": "2003-11-23T13:14:08.7428891+01:00",
+      "UpdatedDate": "2019-11-02T13:14:08.7428891+01:00",
+      "AssociateFullName": "Alfred Swift",
+      "CreatedBy": "possimus",
+      "UpdatedBy": "reprehenderit",
+      "DeviceIdentifier": "error",
+      "ForeignAppId": 344
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 656,
-  "Name": "Bernier Group",
-  "CreatedDate": "2014-08-10T14:28:26.9458186+02:00",
-  "UpdatedDate": "1999-05-20T14:28:26.9458186+02:00",
+  "ForeignAppId": 903,
+  "Name": "Tromp-Altenwerth",
+  "CreatedDate": "2019-04-14T13:14:08.7428891+02:00",
+  "UpdatedDate": "2017-02-21T13:14:08.7428891+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 809,
-      "Name": "Price Group",
-      "CreatedDate": "2013-05-16T14:28:26.9458186+02:00",
-      "UpdatedDate": "2017-02-08T14:28:26.9458186+01:00",
-      "AssociateFullName": "Raymundo Heller",
-      "CreatedBy": "error",
-      "UpdatedBy": "culpa",
-      "DeviceIdentifier": "aperiam",
-      "ForeignAppId": 415,
+      "ForeignDeviceId": 669,
+      "Name": "Hamill, Hoppe and Zboncak",
+      "CreatedDate": "2001-08-05T13:14:08.7428891+02:00",
+      "UpdatedDate": "2017-06-15T13:14:08.7428891+02:00",
+      "AssociateFullName": "Ms. Mariah Kuvalis",
+      "CreatedBy": "ut",
+      "UpdatedBy": "iusto",
+      "DeviceIdentifier": "similique",
+      "ForeignAppId": 340,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 340
+          "FieldLength": 909
         }
       }
     }
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 365
+      "FieldLength": 565
     }
   },
   "_Links": {

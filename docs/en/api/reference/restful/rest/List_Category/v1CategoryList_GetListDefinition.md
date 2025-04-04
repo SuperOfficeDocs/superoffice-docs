@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Category
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 86,
-  "Name": "Funk-Hammes",
-  "Tooltip": "omnis",
+  "Id": 882,
+  "Name": "Hayes, Langworth and Walker",
+  "Tooltip": "molestias",
   "Deleted": false,
-  "Rank": 813,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "Rank": 8,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "reiciendis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldLength": 354
     }
   },
   "_Links": {

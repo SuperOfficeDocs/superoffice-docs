@@ -79,7 +79,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RemoteIp": "quia"
+  "RemoteIp": "praesentium"
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "tempora",
-  "LoginId": 818,
-  "UserId": 458,
+  "Key": "eligendi",
+  "LoginId": 525,
+  "UserId": 664,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 930
+      "FieldLength": 5
     }
   }
 }

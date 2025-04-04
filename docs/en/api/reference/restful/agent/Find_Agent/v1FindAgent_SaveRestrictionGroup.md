@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "eveniet",
-  "ProviderName": "Abshire, Cartwright and Pfannerstill",
-  "StorageKey": "repellat",
+  "StorageType": "non",
+  "ProviderName": "Homenick, Dietrich and Gutkowski",
+  "StorageKey": "quo",
   "RestrictionGroup": null,
-  "Context": "autem"
+  "Context": "ullam"
 }
 ```
 

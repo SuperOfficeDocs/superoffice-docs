@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 621,
-  "Name": "Koch, Brekke and Ebert",
-  "Tooltip": "quia",
+  "Id": 951,
+  "Name": "O'Connell LLC",
+  "Tooltip": "itaque",
   "Deleted": false,
-  "Rank": 446,
-  "IsCustomList": false,
+  "Rank": 16,
+  "IsCustomList": true,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quo",
+  "ListType": "accusamus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 769
+      "FieldLength": 555
     }
   },
   "_Links": {

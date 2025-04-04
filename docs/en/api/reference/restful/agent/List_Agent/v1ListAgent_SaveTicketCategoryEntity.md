@@ -101,29 +101,29 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 924,
-  "ParentId": 642,
-  "Name": "Morissette, Mann and Towne",
-  "Fullname": "debitis",
-  "CategoryMaster": 155,
+  "TicketCategoryId": 930,
+  "ParentId": 263,
+  "Name": "Sanford-Bernhard",
+  "Fullname": "corrupti",
+  "CategoryMaster": 498,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Armstrong LLC",
+  "ExternalName": "Kautzer LLC",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 475,
-  "ReplyTemplate": 294,
-  "NotificationEmail": "jess.russel@thiel.info",
+  "AssignmentLag": 332,
+  "ReplyTemplate": 824,
+  "NotificationEmail": "jeff@kertzmann.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 681,
+  "EffectiveReplyTemplateId": 78,
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "vel"
+    "ExtraFields1": "totam",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "unde"
+    "CustomFields1": "distinctio",
+    "CustomFields2": "incidunt"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 431,
-  "ParentId": 594,
-  "Name": "White LLC",
-  "Fullname": "nihil",
-  "CategoryMaster": 254,
+  "TicketCategoryId": 232,
+  "ParentId": 9,
+  "Name": "Goldner-Schmeler",
+  "Fullname": "molestias",
+  "CategoryMaster": 564,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Rohan Group",
+  "ExternalName": "McCullough-Pacocha",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 516,
-  "ReplyTemplate": 866,
-  "NotificationEmail": "pasquale_armstrong@wuckertweimann.co.uk",
+  "AssignmentLag": 334,
+  "ReplyTemplate": 850,
+  "NotificationEmail": "ryleigh@hoppe.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 673,
+  "EffectiveReplyTemplateId": 368,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "nisi"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "ad"
   },
   "CustomFields": {
-    "CustomFields1": "excepturi",
-    "CustomFields2": "distinctio"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "consequuntur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 493
+      "FieldType": "System.String",
+      "FieldLength": 256
     }
   }
 }

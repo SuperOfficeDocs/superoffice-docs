@@ -59,7 +59,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,111 +71,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 771,
-      "UniqueId": "modi",
-      "Name": "Monahan, Hoppe and Zemlak",
-      "Description": "Centralized heuristic migration",
-      "AssociateId": 288,
-      "Columns": 988,
+      "DashboardId": 850,
+      "UniqueId": "officiis",
+      "Name": "Rogahn Group",
+      "Description": "Digitized analyzing hardware",
+      "AssociateId": 49,
+      "Columns": 278,
       "Theme": null,
-      "VisibleForAll": 291,
+      "VisibleForAll": 797,
       "VisibleForAssociates": [
-        807,
-        833
+        648,
+        562
       ],
       "VisibleForGroups": [
-        332,
-        82
+        378,
+        641
       ],
-      "PinForAll": 703,
+      "PinForAll": 768,
       "PinForAssociates": [
-        523,
-        14
+        747,
+        524
       ],
       "PinForGroups": [
-        233,
-        610
+        896,
+        533
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 808
+          "FieldType": "System.String",
+          "FieldLength": 62
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 878,
-      "UniqueId": "doloribus",
-      "Name": "Kunde LLC",
-      "Description": "Universal assymetric contingency",
-      "AssociateId": 766,
-      "Columns": 393,
+      "DashboardId": 571,
+      "UniqueId": "aut",
+      "Name": "Grant Group",
+      "Description": "Advanced local strategy",
+      "AssociateId": 872,
+      "Columns": 960,
       "Theme": null,
-      "VisibleForAll": 459,
+      "VisibleForAll": 356,
       "VisibleForAssociates": [
-        300,
-        353
+        521,
+        732
       ],
       "VisibleForGroups": [
-        341,
-        322
+        647,
+        690
       ],
-      "PinForAll": 786,
+      "PinForAll": 399,
       "PinForAssociates": [
-        673,
-        948
+        891,
+        398
       ],
       "PinForGroups": [
-        519,
-        353
+        493,
+        469
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 37
+          "FieldType": "System.String",
+          "FieldLength": 322
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 941,
-      "UniqueId": "vero",
-      "Name": "Fisher Group",
-      "Description": "Public-key client-server product",
-      "AssociateId": 880,
-      "Columns": 700,
+      "DashboardId": 62,
+      "UniqueId": "nemo",
+      "Name": "Will Inc and Sons",
+      "Description": "Business-focused attitude-oriented frame",
+      "AssociateId": 926,
+      "Columns": 71,
       "Theme": null,
-      "VisibleForAll": 658,
+      "VisibleForAll": 532,
       "VisibleForAssociates": [
-        43,
-        84
+        963,
+        686
       ],
       "VisibleForGroups": [
-        365,
-        954
+        394,
+        423
       ],
-      "PinForAll": 762,
+      "PinForAll": 980,
       "PinForAssociates": [
-        953,
-        864
+        21,
+        1002
       ],
       "PinForGroups": [
-        555,
-        491
+        261,
+        239
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 368
+          "FieldLength": 1000
         }
       }
     }
@@ -185,7 +185,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 663
     }
   }
 }

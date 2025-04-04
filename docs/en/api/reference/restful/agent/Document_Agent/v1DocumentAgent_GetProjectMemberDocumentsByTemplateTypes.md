@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 249,
-  "StartTime": "2005-08-11T14:28:21.805403+02:00",
-  "EndTime": "2021-11-12T14:28:21.805403+01:00",
-  "Count": 361,
+  "PersonId": 868,
+  "StartTime": "2019-06-08T13:14:00.0944666+02:00",
+  "EndTime": "2023-03-23T13:14:00.0944666+01:00",
+  "Count": 359,
   "DocumentTemplateIds": [
-    580,
-    501
+    647,
+    681
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 444,
-    "Attention": "maiores",
-    "Header": "ut",
-    "Name": "Lynch, Smith and Morissette",
-    "OurRef": "assumenda",
-    "YourRef": "beatae",
-    "Description": "Cross-platform systematic support",
-    "DocumentTemplate": "suscipit",
-    "IsPublished": true,
-    "PersonId": 315,
-    "PersonFullName": "Caleb Eichmann",
-    "AssociateFullName": "Prof. Gudrun Considine",
-    "ContactId": 226,
-    "ContactName": "Schuster-Quigley",
-    "ProjectId": 293,
-    "ProjectName": "Rosenbaum-Bahringer",
-    "AssociateId": 805,
-    "Snum": 720,
-    "SaleId": 259,
-    "SaleName": "Bayer-Koepp",
+    "DocumentId": 581,
+    "Attention": "et",
+    "Header": "in",
+    "Name": "Wuckert Group",
+    "OurRef": "et",
+    "YourRef": "fugiat",
+    "Description": "Multi-tiered well-modulated hardware",
+    "DocumentTemplate": "esse",
+    "IsPublished": false,
+    "PersonId": 947,
+    "PersonFullName": "Prof. Jacinto Wyatt Wuckert III",
+    "AssociateFullName": "Ms. Destiney Schultz",
+    "ContactId": 757,
+    "ContactName": "Ziemann Group",
+    "ProjectId": 131,
+    "ProjectName": "Braun LLC",
+    "AssociateId": 5,
+    "Snum": 168,
+    "SaleId": 802,
+    "SaleName": "Howe-Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 785
+        "FieldLength": 539
       }
     }
   }

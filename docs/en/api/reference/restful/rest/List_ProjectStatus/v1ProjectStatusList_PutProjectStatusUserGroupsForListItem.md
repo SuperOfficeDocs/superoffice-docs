@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectStatus/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 685,
-    "Name": "Windler Inc and Sons",
-    "ToolTip": "Tenetur maiores iure enim odio.",
+    "Id": 749,
+    "Name": "Runolfsdottir, Toy and Pagac",
+    "ToolTip": "Illo fugiat aspernatur cumque.",
     "Deleted": false,
-    "Rank": 450,
-    "Type": "accusamus",
-    "ColorBlock": 724,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2012-11-10T14:28:27.6489147+01:00",
+    "Rank": 382,
+    "Type": "rerum",
+    "ColorBlock": 776,
+    "IconHint": "aspernatur",
+    "Selected": true,
+    "LastChanged": "2008-01-19T13:14:09.9472839+01:00",
     "ChildItems": [
       {
-        "Id": 56,
-        "Name": "Welch-Kassulke",
-        "ToolTip": "Sunt consequatur.",
-        "Deleted": false,
-        "Rank": 785,
-        "Type": "itaque",
-        "ColorBlock": 602,
-        "IconHint": "placeat",
+        "Id": 699,
+        "Name": "Kshlerin-Lueilwitz",
+        "ToolTip": "Ut omnis non expedita.",
+        "Deleted": true,
+        "Rank": 360,
+        "Type": "eius",
+        "ColorBlock": 182,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "2000-06-06T14:28:27.6489147+02:00",
+        "LastChanged": "2015-10-20T13:14:09.9472839+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "ab",
-        "Hidden": false,
-        "FullName": "Miss Isabelle Hardy Collins PhD"
+        "ExtraInfo": "ut",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Evert Senger"
       }
     ],
-    "ExtraInfo": "perferendis",
-    "StyleHint": "delectus",
+    "ExtraInfo": "omnis",
+    "StyleHint": "pariatur",
     "Hidden": true,
-    "FullName": "Kellen Beahan"
+    "FullName": "Billie Russel"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Runte, Emmerich and Gaylord",
-    "ToolTip": "Sint ut deleniti qui animi.",
+    "Id": 970,
+    "Name": "Kautzer Inc and Sons",
+    "ToolTip": "Praesentium earum nemo eum.",
     "Deleted": false,
-    "Rank": 75,
-    "Type": "possimus",
-    "ColorBlock": 73,
-    "IconHint": "atque",
+    "Rank": 401,
+    "Type": "suscipit",
+    "ColorBlock": 75,
+    "IconHint": "exercitationem",
     "Selected": false,
-    "LastChanged": "2017-04-26T14:28:27.6489147+02:00",
+    "LastChanged": "2011-06-11T13:14:09.9472839+02:00",
     "ChildItems": [
       {
-        "Id": 972,
-        "Name": "Smith, Carroll and Hartmann",
-        "ToolTip": "Qui iure.",
+        "Id": 924,
+        "Name": "Muller LLC",
+        "ToolTip": "Sequi veniam rerum.",
         "Deleted": false,
-        "Rank": 452,
-        "Type": "omnis",
-        "ColorBlock": 63,
-        "IconHint": "rerum",
+        "Rank": 519,
+        "Type": "sed",
+        "ColorBlock": 97,
+        "IconHint": "temporibus",
         "Selected": false,
-        "LastChanged": "2021-10-28T14:28:27.6489147+02:00",
+        "LastChanged": "2012-09-07T13:14:09.9472839+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "enim",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "maiores",
         "Hidden": false,
-        "FullName": "Gaston Vincenzo Okuneva MD",
+        "FullName": "Jeramy Lebsack",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 372
+            "FieldLength": 517
           }
         }
       }
     ],
-    "ExtraInfo": "voluptas",
-    "StyleHint": "odit",
-    "Hidden": false,
-    "FullName": "Mrs. Hilma Zachariah Frami",
+    "ExtraInfo": "quasi",
+    "StyleHint": "exercitationem",
+    "Hidden": true,
+    "FullName": "Madie Hills",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 109
+        "FieldType": "System.Int32",
+        "FieldLength": 471
       }
     }
   }

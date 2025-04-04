@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 588,
-  "Name": "Cremin LLC",
-  "Tooltip": "magni",
+  "Id": 591,
+  "Name": "Considine-Powlowski",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 572,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Rank": 68,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "aut",
-  "InUseByUserDefinedFields": true
+  "ListType": "sit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 694,
-  "Name": "Balistreri Group",
-  "Tooltip": "debitis",
+  "Id": 404,
+  "Name": "Flatley-Johnson",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 991,
+  "Rank": 984,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "accusamus",
+  "UseGroupsAndHeadings": true,
+  "ListType": "ducimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 2
+      "FieldLength": 255
     }
   }
 }

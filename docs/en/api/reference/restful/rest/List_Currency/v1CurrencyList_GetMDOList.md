@@ -27,7 +27,7 @@ Get the MDO list items for "Currency" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Currency/MDOItems?flat=False
-GET /api/v1/List/Currency/MDOItems?query=fugiat
+GET /api/v1/List/Currency/MDOItems?query=nostrum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Currency/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 672,
-    "Name": "Zemlak, Rosenbaum and Haag",
-    "ToolTip": "Dolorum laborum et ab suscipit necessitatibus ea dolorem.",
-    "Deleted": true,
-    "Rank": 304,
-    "Type": "vel",
+    "Id": 792,
+    "Name": "O'Conner-Connelly",
+    "ToolTip": "Eaque minus sapiente dolor consectetur ut.",
+    "Deleted": false,
+    "Rank": 462,
+    "Type": "doloribus",
     "ChildItems": [
       {
-        "Id": 960,
-        "Name": "Huels Group",
-        "ToolTip": "Ut aperiam placeat tempora tenetur eos sunt.",
-        "Deleted": false,
-        "Rank": 668,
-        "Type": "dolorem",
+        "Id": 14,
+        "Name": "Sipes LLC",
+        "ToolTip": "Aspernatur sunt nesciunt.",
+        "Deleted": true,
+        "Rank": 191,
+        "Type": "aliquid",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nam",
-        "ColorBlock": 193,
-        "ExtraInfo": "et",
-        "StyleHint": "corrupti",
-        "FullName": "Glenda Bins",
+        "IconHint": "libero",
+        "ColorBlock": 905,
+        "ExtraInfo": "nesciunt",
+        "StyleHint": "tempore",
+        "FullName": "Christophe Morissette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 139
+            "FieldLength": 297
           }
         }
       }
     ],
-    "IconHint": "voluptates",
-    "ColorBlock": 460,
-    "ExtraInfo": "occaecati",
-    "StyleHint": "dolorum",
-    "FullName": "Miss Crystal Mazie Kertzmann",
+    "IconHint": "illum",
+    "ColorBlock": 688,
+    "ExtraInfo": "fugiat",
+    "StyleHint": "assumenda",
+    "FullName": "Dr. Cullen Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 445
+        "FieldType": "System.Int32",
+        "FieldLength": 472
       }
     }
   }

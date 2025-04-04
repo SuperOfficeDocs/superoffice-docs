@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 884
+  "QuoteLineId": 636
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 384,
-  "ERPQuoteLineKey": "nihil",
-  "QuoteAlternativeId": 847,
-  "ERPProductKey": "aliquam",
+  "QuoteLineId": 728,
+  "ERPQuoteLineKey": "dignissimos",
+  "QuoteAlternativeId": 143,
+  "ERPProductKey": "quidem",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 16813.91,
-  "DeliveredQuantity": 29638.237999999998,
-  "Rank": 696,
-  "Name": "Waelchi, Reilly and Heathcote",
-  "Description": "Progressive background portal",
-  "Code": "esse",
-  "QuantityUnit": "mollitia",
-  "PriceUnit": "ut",
-  "ItemNumber": "1413044",
+  "Quantity": 16967.476,
+  "DeliveredQuantity": 5481.366,
+  "Rank": 53,
+  "Name": "Beatty-Crona",
+  "Description": "Cross-platform secondary encoding",
+  "Code": "voluptatum",
+  "QuantityUnit": "et",
+  "PriceUnit": "eum",
+  "ItemNumber": "891412",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "voluptate",
-  "ProductTypeKey": "eligendi",
-  "Supplier": "eos",
-  "SupplierCode": "voluptatibus",
-  "Thumbnail": "error",
-  "VATInfo": "nobis",
-  "VAT": 21919.196,
-  "UnitCost": 11843.386,
-  "UnitMinimumPrice": 25611.048,
-  "UnitListPrice": 19847.622,
+  "ProductFamilyKey": "sit",
+  "ProductTypeKey": "explicabo",
+  "Supplier": "enim",
+  "SupplierCode": "eum",
+  "Thumbnail": "nam",
+  "VATInfo": "blanditiis",
+  "VAT": 24567.426,
+  "UnitCost": 25517.028,
+  "UnitMinimumPrice": 20242.505999999998,
+  "UnitListPrice": 28384.638,
   "ExtraInfo": [
     {
-      "Name": "Gerlach-White",
-      "Value": "alias",
+      "Name": "Wisoky LLC",
+      "Value": "illo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldType": "System.String",
+          "FieldLength": 846
         }
       }
     },
     {
-      "Name": "Gerlach-White",
-      "Value": "alias",
+      "Name": "Wisoky LLC",
+      "Value": "illo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 335
+          "FieldType": "System.String",
+          "FieldLength": 846
         }
       }
     }
   ],
-  "RawExtraInfo": "corrupti",
-  "IsSubscription": true,
-  "SubscriptionUnit": "alias",
-  "SubscriptionQuantity": 4393.8679999999995,
-  "SubscriptionStart": "1998-08-12T14:28:22.3053817+02:00",
-  "ERPDiscountPercent": 23899.884,
-  "ERPDiscountAmount": 9658.988,
-  "DiscountPercent": 29233.951999999997,
-  "DiscountAmount": 15463.155999999999,
+  "RawExtraInfo": "aut",
+  "IsSubscription": false,
+  "SubscriptionUnit": "voluptatem",
+  "SubscriptionQuantity": 17227.597999999998,
+  "SubscriptionStart": "2015-12-12T13:14:01.017639+01:00",
+  "ERPDiscountPercent": 16933.002,
+  "ERPDiscountAmount": 13833.475999999999,
+  "DiscountPercent": 24523.55,
+  "DiscountAmount": 26466.629999999997,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 20095.208,
-  "EarningAmount": 4349.992,
-  "SubTotal": 6816.45,
-  "TotalPrice": 17493.988,
-  "Rights": "sit",
-  "Rule": "nesciunt",
-  "ExtraField1": "ipsa",
-  "ExtraField2": "rerum",
-  "ExtraField3": "accusantium",
-  "ExtraField4": "quis",
-  "ExtraField5": "ut",
+  "EarningPercent": 21358.21,
+  "EarningAmount": 17760.378,
+  "SubTotal": 31296.124,
+  "TotalPrice": 29500.342,
+  "Rights": "ad",
+  "Rule": "enim",
+  "ExtraField1": "magni",
+  "ExtraField2": "eligendi",
+  "ExtraField3": "similique",
+  "ExtraField4": "et",
+  "ExtraField5": "vitae",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 774
+      "FieldType": "System.Int32",
+      "FieldLength": 475
     }
   }
 }

@@ -27,7 +27,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=error
+GET /api/v1/List/Rating/MDOItems?query=omnis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 65,
-    "Name": "Yundt, Mills and Bins",
-    "ToolTip": "Animi quaerat magnam voluptatibus.",
+    "Id": 87,
+    "Name": "Shanahan-Renner",
+    "ToolTip": "Qui vitae in doloremque impedit deserunt.",
     "Deleted": true,
-    "Rank": 388,
-    "Type": "ut",
+    "Rank": 496,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 912,
-        "Name": "Baumbach-Schmeler",
-        "ToolTip": "Quis et consequatur consequatur.",
-        "Deleted": false,
-        "Rank": 914,
-        "Type": "illum",
+        "Id": 596,
+        "Name": "Blanda LLC",
+        "ToolTip": "Possimus quisquam.",
+        "Deleted": true,
+        "Rank": 906,
+        "Type": "vel",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 700,
-        "ExtraInfo": "id",
-        "StyleHint": "vitae",
-        "FullName": "Else Macejkovic",
+        "IconHint": "minima",
+        "ColorBlock": 803,
+        "ExtraInfo": "enim",
+        "StyleHint": "illo",
+        "FullName": "Dennis Lind",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 269
+            "FieldType": "System.Int32",
+            "FieldLength": 256
           }
         }
       }
     ],
-    "IconHint": "id",
-    "ColorBlock": 565,
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "illum",
-    "FullName": "Eden Hagenes",
+    "IconHint": "sed",
+    "ColorBlock": 721,
+    "ExtraInfo": "fugit",
+    "StyleHint": "doloremque",
+    "FullName": "Alexzander Bogisich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldLength": 572
       }
     }
   }

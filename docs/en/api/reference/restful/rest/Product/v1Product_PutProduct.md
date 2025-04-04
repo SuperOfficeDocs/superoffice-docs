@@ -144,55 +144,55 @@ Product updated.
 PUT /api/v1/Product/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 421,
-  "ERPProductKey": "molestias",
-  "ERPPriceListKey": "ipsam",
-  "Name": "Wintheiser Group",
-  "Description": "Optional dynamic task-force",
-  "Code": "enim",
-  "PriceUnit": "rem",
-  "QuantityUnit": "ut",
+  "ProductId": 500,
+  "ERPProductKey": "tempora",
+  "ERPPriceListKey": "fugit",
+  "Name": "Leannon-Zboncak",
+  "Description": "Grass-roots intermediate matrices",
+  "Code": "magnam",
+  "PriceUnit": "iure",
+  "QuantityUnit": "nemo",
   "IsSubscription": false,
-  "SubscriptionUnit": "quasi",
-  "DefaultSubscriptionQuantity": 12269.609999999999,
-  "ItemNumber": "1222675",
+  "SubscriptionUnit": "veritatis",
+  "DefaultSubscriptionQuantity": 3372.1839999999997,
+  "ItemNumber": "794137",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "non",
-  "ProductTypeKey": "rerum",
-  "VAT": 18587.754,
-  "VATInfo": "est",
-  "UnitCost": 23260.548,
-  "UnitMinimumPrice": 7769.186,
-  "UnitListPrice": 5920.126,
-  "InAssortment": false,
-  "Supplier": "et",
-  "SupplierCode": "consequatur",
-  "Rights": "est",
-  "Rule": "necessitatibus",
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "id",
+  "VAT": 28215.402,
+  "VATInfo": "quibusdam",
+  "UnitCost": 22994.158,
+  "UnitMinimumPrice": 14096.732,
+  "UnitListPrice": 8421.0579999999991,
+  "InAssortment": true,
+  "Supplier": "velit",
+  "SupplierCode": "a",
+  "Rights": "vitae",
+  "Rule": "soluta",
   "ExtraInfo": [
     {
-      "Name": "Koss, Weber and Jenkins",
-      "Value": "et",
+      "Name": "Hammes-Jaskolski",
+      "Value": "velit",
       "Type": "Image"
     },
     {
-      "Name": "Koss, Weber and Jenkins",
-      "Value": "et",
+      "Name": "Hammes-Jaskolski",
+      "Value": "velit",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "quia",
-  "ExtraField1": "ducimus",
-  "ExtraField2": "aliquid",
-  "ExtraField3": "quibusdam",
-  "ExtraField4": "sunt",
-  "ExtraField5": "possimus",
-  "InStock": 13103.253999999999
+  "RawExtraInfo": "asperiores",
+  "ExtraField1": "asperiores",
+  "ExtraField2": "et",
+  "ExtraField3": "animi",
+  "ExtraField4": "quo",
+  "ExtraField5": "voluptas",
+  "InStock": 13758.26
 }
 ```
 
@@ -203,73 +203,73 @@ HTTP/1.1 200 Product updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 167,
-  "ERPProductKey": "dolorem",
-  "ERPPriceListKey": "enim",
-  "Name": "Legros-Lubowitz",
-  "Description": "Multi-layered client-server standardization",
-  "Code": "aut",
-  "PriceUnit": "fugiat",
-  "QuantityUnit": "maiores",
+  "ProductId": 464,
+  "ERPProductKey": "consectetur",
+  "ERPPriceListKey": "labore",
+  "Name": "Greenholt Inc and Sons",
+  "Description": "Ameliorated global functionalities",
+  "Code": "consequatur",
+  "PriceUnit": "tempore",
+  "QuantityUnit": "quos",
   "IsSubscription": false,
-  "SubscriptionUnit": "sit",
-  "DefaultSubscriptionQuantity": 15557.176,
-  "ItemNumber": "1234358",
+  "SubscriptionUnit": "enim",
+  "DefaultSubscriptionQuantity": 7255.21,
+  "ItemNumber": "1084148",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sit",
-  "ProductTypeKey": "eum",
-  "VAT": 19994.92,
-  "VATInfo": "molestias",
-  "UnitCost": 19684.654,
-  "UnitMinimumPrice": 21264.19,
-  "UnitListPrice": 2218.872,
-  "InAssortment": true,
-  "Supplier": "ut",
-  "SupplierCode": "fugit",
-  "Rights": "voluptatem",
-  "Rule": "repellat",
+  "ProductFamilyKey": "ut",
+  "ProductTypeKey": "autem",
+  "VAT": 8505.676,
+  "VATInfo": "vel",
+  "UnitCost": 20571.576,
+  "UnitMinimumPrice": 604.862,
+  "UnitListPrice": 1197.1879999999999,
+  "InAssortment": false,
+  "Supplier": "corrupti",
+  "SupplierCode": "praesentium",
+  "Rights": "et",
+  "Rule": "et",
   "ExtraInfo": [
     {
-      "Name": "Nicolas, Koss and Lockman",
-      "Value": "minus",
+      "Name": "Murazik, Nicolas and Koepp",
+      "Value": "voluptatum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldLength": 476
         }
       }
     },
     {
-      "Name": "Nicolas, Koss and Lockman",
-      "Value": "minus",
+      "Name": "Murazik, Nicolas and Koepp",
+      "Value": "voluptatum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 270
+          "FieldLength": 476
         }
       }
     }
   ],
-  "RawExtraInfo": "velit",
-  "ExtraField1": "accusantium",
-  "ExtraField2": "similique",
-  "ExtraField3": "et",
-  "ExtraField4": "dicta",
-  "ExtraField5": "est",
-  "InStock": 6452.906,
+  "RawExtraInfo": "omnis",
+  "ExtraField1": "qui",
+  "ExtraField2": "ut",
+  "ExtraField3": "aperiam",
+  "ExtraField4": "fugit",
+  "ExtraField5": "voluptates",
+  "InStock": 10361.003999999999,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 352
+      "FieldLength": 41
     }
   }
 }

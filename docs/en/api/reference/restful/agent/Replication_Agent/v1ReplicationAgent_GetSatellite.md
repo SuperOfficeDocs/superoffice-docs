@@ -28,7 +28,7 @@ Gets a Satellite object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Replication/GetSatellite?satelliteId=388
+POST /api/v1/Agents/Replication/GetSatellite?satelliteId=988
 POST /api/v1/Agents/Replication/GetSatellite?$select=name,department,category/id
 ```
 
@@ -86,17 +86,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 524,
-  "Created": "2022-06-13T14:28:22.321006+02:00",
+  "SatelliteId": 41,
+  "Created": "2001-08-27T13:14:01.048891+02:00",
   "CreatedBy": null,
-  "Updated": "2004-07-01T14:28:22.321006+02:00",
+  "Updated": "2000-12-20T13:14:01.048891+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Gutkowski-Streich",
-      "Description": "Configurable tangible concept",
+      "Name": "Emard, Fritsch and Kertzmann",
+      "Description": "Triple-buffered exuding customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -110,13 +110,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 753
         }
       }
     },
     {
-      "Name": "Gutkowski-Streich",
-      "Description": "Configurable tangible concept",
+      "Name": "Emard, Fritsch and Kertzmann",
+      "Description": "Triple-buffered exuding customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -130,7 +130,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 588
+          "FieldLength": 753
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 89
     }
   }
 }

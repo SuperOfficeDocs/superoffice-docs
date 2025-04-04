@@ -81,13 +81,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 760,
-  "Name": "Jacobi, Stiedemann and Reynolds",
-  "ContentType": "voluptate",
-  "AttSize": 985,
+  "AttachmentId": 398,
+  "Name": "Pouros Group",
+  "ContentType": "officiis",
+  "AttSize": 164,
   "InlineImage": false,
-  "ContentId": "qui",
-  "AuthKey": "aut",
+  "ContentId": "aut",
+  "AuthKey": "laboriosam",
   "IsSafeFileExtension": false
 }
 ```
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 157,
-  "Name": "Nicolas LLC",
-  "ContentType": "fugiat",
-  "AttSize": 411,
+  "AttachmentId": 974,
+  "Name": "Schaden, Renner and Schuppe",
+  "ContentType": "aut",
+  "AttSize": 322,
   "InlineImage": true,
-  "ContentId": "maiores",
-  "AuthKey": "possimus",
+  "ContentId": "quam",
+  "AuthKey": "dolorem",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 401
+      "FieldType": "System.Int32",
+      "FieldLength": 687
     }
   }
 }

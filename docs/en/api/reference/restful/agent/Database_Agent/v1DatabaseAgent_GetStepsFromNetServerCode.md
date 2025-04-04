@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Senger-Hayes",
-    "StepNumber": 732,
+    "Name": "Swaniawski, Reilly and Kovacek",
+    "StepNumber": 743,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 294
+        "FieldType": "System.Int32",
+        "FieldLength": 13
       }
     }
   },
   {
-    "Name": "Senger-Hayes",
-    "StepNumber": 732,
+    "Name": "Swaniawski, Reilly and Kovacek",
+    "StepNumber": 743,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 294
+        "FieldType": "System.Int32",
+        "FieldLength": 13
       }
     }
   }

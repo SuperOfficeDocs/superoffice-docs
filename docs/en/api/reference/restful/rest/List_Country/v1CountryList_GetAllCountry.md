@@ -27,7 +27,7 @@ Calls the List agent service GetAllCountry.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/Country/Items?includeDeleted=False
+GET /api/v1/List/Country/Items?includeDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 415,
-    "Name": "Boyer, Upton and Kutch",
-    "CurrencyId": 101,
-    "EnglishName": "Jast LLC",
+    "CountryId": 326,
+    "Name": "Adams-Lesch",
+    "CurrencyId": 953,
+    "EnglishName": "Sporer-Hand",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Synergized non-volatile circuit",
-    "OrgNrText": "1424222",
-    "InterAreaPrefix": "vitae",
-    "DialInPrefix": "eos",
+    "ImageDescription": "Reduced context-sensitive help-desk",
+    "OrgNrText": "340539",
+    "InterAreaPrefix": "et",
+    "DialInPrefix": "dolor",
     "ZipPrefix": "aut",
-    "DomainName": "Bradtke, Tromp and Connelly",
-    "AddressLayoutId": 273,
-    "DomesticAddressLayoutId": 366,
-    "ForeignAddressLayoutId": 286,
-    "Rank": 257,
-    "Tooltip": "consequatur",
+    "DomainName": "Raynor-Stanton",
+    "AddressLayoutId": 4,
+    "DomesticAddressLayoutId": 584,
+    "ForeignAddressLayoutId": 776,
+    "Rank": 161,
+    "Tooltip": "non",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 573
+        "FieldLength": 936
       }
     }
   }

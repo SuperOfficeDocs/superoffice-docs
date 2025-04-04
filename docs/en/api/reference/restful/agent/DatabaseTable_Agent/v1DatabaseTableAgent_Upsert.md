@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/DatabaseTable/Upsert
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Huels-Wintheiser",
+  "TableName": "Gutmann, Bahringer and Cormier",
   "Columns": [
-    "ullam",
-    "enim"
+    "quod",
+    "repellat"
   ],
   "Keys": [
-    "dolores",
-    "perspiciatis"
+    "nobis",
+    "tempora"
   ],
   "Data": [
     [
@@ -119,40 +119,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "magnam",
-  "Inserts": 44,
-  "Updates": 983,
-  "Deletes": 997,
+  "Message": "eius",
+  "Inserts": 809,
+  "Updates": 236,
+  "Deletes": 892,
   "RowStatus": [
     {
-      "PrimaryKey": 687,
+      "PrimaryKey": 156,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "sunt",
-        "aut"
+        "ut",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldLength": 65
         }
       }
     },
     {
-      "PrimaryKey": 687,
+      "PrimaryKey": 156,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "sunt",
-        "aut"
+        "ut",
+        "ut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 940
+          "FieldLength": 65
         }
       }
     }
@@ -161,8 +161,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 468
+      "FieldType": "System.String",
+      "FieldLength": 941
     }
   }
 }

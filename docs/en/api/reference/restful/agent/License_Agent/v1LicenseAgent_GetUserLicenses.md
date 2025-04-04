@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 296
+  "AssociateId": 332
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rosenbaum Inc and Sons",
-    "Description": "Cross-platform content-based model",
+    "Name": "Adams LLC",
+    "Description": "Open-source interactive moratorium",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 514,
-        "Tooltip": "est",
-        "CanAssign": false,
-        "Free": 652,
-        "InUse": 559,
+        "Total": 505,
+        "Tooltip": "in",
+        "CanAssign": true,
+        "Free": 667,
+        "InUse": 645,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 852,
-        "Name": "McLaughlin-Pouros",
-        "Description": "Organized zero defect alliance",
-        "PrerequisiteModuleName": "Crona Group",
-        "SortOrder": 12,
-        "ExtraFlags": 873,
+        "Assigned": true,
+        "ModuleLicenseId": 384,
+        "Name": "Cassin, Hermiston and Hilpert",
+        "Description": "Versatile bandwidth-monitored customer loyalty",
+        "PrerequisiteModuleName": "Moen Group",
+        "SortOrder": 64,
+        "ExtraFlags": 21,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 193
+            "FieldType": "System.Int32",
+            "FieldLength": 241
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 657,
-        "Tooltip": "quia",
+        "Total": 48,
+        "Tooltip": "eum",
         "CanAssign": false,
-        "Free": 966,
-        "InUse": 3,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 685,
-        "Name": "Cormier-Kunze",
-        "Description": "Versatile grid-enabled software",
-        "PrerequisiteModuleName": "Schuppe-Gorczany",
-        "SortOrder": 643,
-        "ExtraFlags": 269,
+        "Free": 446,
+        "InUse": 545,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 702,
+        "Name": "Boyer-Christiansen",
+        "Description": "Monitored secondary hub",
+        "PrerequisiteModuleName": "Jones Group",
+        "SortOrder": 921,
+        "ExtraFlags": 108,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 899
+            "FieldType": "System.String",
+            "FieldLength": 412
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldLength": 96
       }
     }
   },
   {
-    "Name": "Rosenbaum Inc and Sons",
-    "Description": "Cross-platform content-based model",
+    "Name": "Adams LLC",
+    "Description": "Open-source interactive moratorium",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 514,
-        "Tooltip": "est",
-        "CanAssign": false,
-        "Free": 652,
-        "InUse": 559,
+        "Total": 505,
+        "Tooltip": "in",
+        "CanAssign": true,
+        "Free": 667,
+        "InUse": 645,
         "IsHidden": false,
-        "Assigned": false,
-        "ModuleLicenseId": 852,
-        "Name": "McLaughlin-Pouros",
-        "Description": "Organized zero defect alliance",
-        "PrerequisiteModuleName": "Crona Group",
-        "SortOrder": 12,
-        "ExtraFlags": 873,
+        "Assigned": true,
+        "ModuleLicenseId": 384,
+        "Name": "Cassin, Hermiston and Hilpert",
+        "Description": "Versatile bandwidth-monitored customer loyalty",
+        "PrerequisiteModuleName": "Moen Group",
+        "SortOrder": 64,
+        "ExtraFlags": 21,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 193
+            "FieldType": "System.Int32",
+            "FieldLength": 241
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 657,
-        "Tooltip": "quia",
+        "Total": 48,
+        "Tooltip": "eum",
         "CanAssign": false,
-        "Free": 966,
-        "InUse": 3,
-        "IsHidden": true,
-        "Assigned": false,
-        "ModuleLicenseId": 685,
-        "Name": "Cormier-Kunze",
-        "Description": "Versatile grid-enabled software",
-        "PrerequisiteModuleName": "Schuppe-Gorczany",
-        "SortOrder": 643,
-        "ExtraFlags": 269,
+        "Free": 446,
+        "InUse": 545,
+        "IsHidden": false,
+        "Assigned": true,
+        "ModuleLicenseId": 702,
+        "Name": "Boyer-Christiansen",
+        "Description": "Monitored secondary hub",
+        "PrerequisiteModuleName": "Jones Group",
+        "SortOrder": 921,
+        "ExtraFlags": 108,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 899
+            "FieldType": "System.String",
+            "FieldLength": 412
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 405
+        "FieldLength": 96
       }
     }
   }

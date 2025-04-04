@@ -106,11 +106,11 @@ OK
 POST /api/v1/Agents/Quote/GetProductFromDbId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 556
+  "ProductId": 104
 }
 ```
 
@@ -121,73 +121,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 811,
-  "ERPProductKey": "voluptatem",
-  "ERPPriceListKey": "vel",
-  "Name": "Hilll LLC",
-  "Description": "Pre-emptive bandwidth-monitored hub",
-  "Code": "dolorem",
-  "PriceUnit": "molestias",
-  "QuantityUnit": "cum",
+  "ProductId": 50,
+  "ERPProductKey": "illo",
+  "ERPPriceListKey": "magnam",
+  "Name": "Klein-Bernier",
+  "Description": "Automated scalable projection",
+  "Code": "incidunt",
+  "PriceUnit": "adipisci",
+  "QuantityUnit": "qui",
   "IsSubscription": true,
-  "SubscriptionUnit": "ullam",
-  "DefaultSubscriptionQuantity": 3406.658,
-  "ItemNumber": "1336991",
+  "SubscriptionUnit": "nam",
+  "DefaultSubscriptionQuantity": 28447.318,
+  "ItemNumber": "536381",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "cum",
-  "ProductTypeKey": "fuga",
-  "VAT": 17976.624,
-  "VATInfo": "consequatur",
-  "UnitCost": 17189.989999999998,
-  "UnitMinimumPrice": 12416.908,
-  "UnitListPrice": 15648.062,
+  "ProductFamilyKey": "voluptatibus",
+  "ProductTypeKey": "quia",
+  "VAT": 30703.798,
+  "VATInfo": "temporibus",
+  "UnitCost": 9123.074,
+  "UnitMinimumPrice": 47.01,
+  "UnitListPrice": 29929.7,
   "InAssortment": false,
-  "Supplier": "ullam",
-  "SupplierCode": "ipsum",
-  "Rights": "facilis",
-  "Rule": "laborum",
+  "Supplier": "corporis",
+  "SupplierCode": "veniam",
+  "Rights": "fugit",
+  "Rule": "ipsum",
   "ExtraInfo": [
     {
-      "Name": "Renner, Conn and Bruen",
-      "Value": "nihil",
+      "Name": "Simonis-Mante",
+      "Value": "facilis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 735
         }
       }
     },
     {
-      "Name": "Renner, Conn and Bruen",
-      "Value": "nihil",
+      "Name": "Simonis-Mante",
+      "Value": "facilis",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 585
+          "FieldLength": 735
         }
       }
     }
   ],
-  "RawExtraInfo": "pariatur",
-  "ExtraField1": "voluptatem",
-  "ExtraField2": "dolor",
-  "ExtraField3": "ut",
-  "ExtraField4": "enim",
-  "ExtraField5": "deserunt",
-  "InStock": 17556.667999999998,
+  "RawExtraInfo": "adipisci",
+  "ExtraField1": "culpa",
+  "ExtraField2": "voluptates",
+  "ExtraField3": "ad",
+  "ExtraField4": "sapiente",
+  "ExtraField5": "blanditiis",
+  "InStock": 18396.579999999998,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldLength": 831
     }
   }
 }

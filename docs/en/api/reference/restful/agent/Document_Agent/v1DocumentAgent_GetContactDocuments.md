@@ -97,14 +97,14 @@ OK
 POST /api/v1/Agents/Document/GetContactDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 523,
-  "StartTime": "2012-01-14T14:28:21.805403+01:00",
-  "EndTime": "2006-08-15T14:28:21.805403+02:00",
-  "Count": 14
+  "ContactId": 456,
+  "StartTime": "2006-10-31T13:14:00.0944666+01:00",
+  "EndTime": "2015-03-09T13:14:00.0944666+01:00",
+  "Count": 930
 }
 ```
 
@@ -116,32 +116,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 613,
-    "Attention": "ex",
-    "Header": "ut",
-    "Name": "Lindgren Inc and Sons",
-    "OurRef": "enim",
-    "YourRef": "saepe",
-    "Description": "Horizontal national success",
-    "DocumentTemplate": "accusamus",
+    "DocumentId": 132,
+    "Attention": "est",
+    "Header": "architecto",
+    "Name": "Torp, Strosin and Hoeger",
+    "OurRef": "ipsam",
+    "YourRef": "deleniti",
+    "Description": "Pre-emptive 24 hour customer loyalty",
+    "DocumentTemplate": "et",
     "IsPublished": true,
-    "PersonId": 23,
-    "PersonFullName": "Carolina Streich",
-    "AssociateFullName": "Palma Tromp",
-    "ContactId": 575,
-    "ContactName": "Botsford Group",
-    "ProjectId": 255,
-    "ProjectName": "Pacocha-Hudson",
-    "AssociateId": 278,
-    "Snum": 17,
-    "SaleId": 241,
-    "SaleName": "Runte, Walsh and Mohr",
+    "PersonId": 647,
+    "PersonFullName": "Andres Larkin",
+    "AssociateFullName": "Leslie Lueilwitz",
+    "ContactId": 235,
+    "ContactName": "Torphy-Cronin",
+    "ProjectId": 950,
+    "ProjectName": "Larkin LLC",
+    "AssociateId": 973,
+    "Snum": 806,
+    "SaleId": 329,
+    "SaleName": "Halvorson-Jakubowski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 415
+        "FieldLength": 9
       }
     }
   }

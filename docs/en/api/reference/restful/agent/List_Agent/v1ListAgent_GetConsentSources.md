@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentSourceId": 61,
-    "Name": "Mayer LLC",
-    "Tooltip": "voluptatibus",
-    "Rank": 436,
-    "Key": "veritatis",
-    "MailTemplateId": 541,
+    "ConsentSourceId": 242,
+    "Name": "Anderson Inc and Sons",
+    "Tooltip": "ut",
+    "Rank": 254,
+    "Key": "in",
+    "MailTemplateId": 534,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 769
+        "FieldType": "System.String",
+        "FieldLength": 608
       }
     }
   }

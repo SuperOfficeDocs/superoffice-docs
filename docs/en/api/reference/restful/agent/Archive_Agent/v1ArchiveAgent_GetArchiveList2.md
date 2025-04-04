@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Barrows-Lebsack",
-  "ProviderName": "Ziemann Group",
-  "SortOrder": "mollitia",
-  "Restriction": "rerum",
-  "Entities": "tempora",
-  "Page": 365,
-  "PageSize": 503
+  "GuiName": "Stiedemann-Parisian",
+  "ProviderName": "Conroy, Shields and Dach",
+  "SortOrder": "tempore",
+  "Restriction": "quidem",
+  "Entities": "voluptas",
+  "Page": 379,
+  "PageSize": 112
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Parker Inc and Sons",
-    "PrimaryKey": 170,
+    "EntityName": "Raynor, Glover and Towne",
+    "PrimaryKey": 364,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "natus",
-        "TooltipHint": "numquam",
-        "LinkHint": "eius"
+        "DisplayValue": "fugit",
+        "TooltipHint": "explicabo",
+        "LinkHint": "aspernatur"
       }
     },
-    "LinkHint": "quia",
-    "StyleHint": "voluptatibus",
+    "LinkHint": "laboriosam",
+    "StyleHint": "totam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 682
+        "FieldLength": 104
       }
     }
   }

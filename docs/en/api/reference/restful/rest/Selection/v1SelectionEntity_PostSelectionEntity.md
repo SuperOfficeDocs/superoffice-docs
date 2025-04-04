@@ -156,60 +156,60 @@ OK
 POST /api/v1/Selection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-contextualized cohesive customer loyalty",
-  "Postit": "doloribus",
+  "Description": "Extended dynamic moratorium",
+  "Postit": "itaque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 877,
-  "IncludePerson": 719,
+  "GroupIdx": 763,
+  "IncludePerson": 727,
   "MemberCount": 99.99,
-  "Name": "Jones-Romaguera",
-  "PostitTextId": 28,
-  "CreatedDate": "2022-10-06T14:28:27.2426821+02:00",
-  "SelectionId": 507,
-  "SoundEx": "aut",
-  "Source": 584,
-  "TextId": 35,
-  "UpdatedDate": "2014-05-13T14:28:27.2426821+02:00",
-  "UpdatedCount": 458,
-  "Visibility": 525,
+  "Name": "Considine LLC",
+  "PostitTextId": 38,
+  "CreatedDate": "2005-01-21T13:14:09.1653933+01:00",
+  "SelectionId": 127,
+  "SoundEx": "ea",
+  "Source": 798,
+  "TextId": 105,
+  "UpdatedDate": "2008-11-17T13:14:09.1653933+01:00",
+  "UpdatedCount": 763,
+  "Visibility": 12,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 153,
-  "TargetTableName": "Buckridge, Jerde and Swift",
-  "Completed": false,
-  "LeftSelectionId": 114,
-  "RightSelectionId": 779,
+  "CompanyUnique": true,
+  "TargetTableNumber": 186,
+  "TargetTableName": "Kessler-Gulgowski",
+  "Completed": true,
+  "LeftSelectionId": 532,
+  "RightSelectionId": 65,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bernhard LLC",
-  "ShadowProviderName": "Nienow-Adams",
-  "ChartKey": "incidunt",
-  "LastLoaded": "2001-10-22T14:28:27.2426821+02:00",
-  "LastLoadedBy": 520,
+  "MainProviderName": "Hackett, Dibbert and Ryan",
+  "ShadowProviderName": "Mayert Inc and Sons",
+  "ChartKey": "placeat",
+  "LastLoaded": "2012-06-13T13:14:09.1653933+02:00",
+  "LastLoadedBy": 439,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2006-06-02T14:28:27.2426821+02:00",
-  "LastMembershipChangeBy": 746,
+  "LastMembershipChange": "2010-02-10T13:14:09.1653933+01:00",
+  "LastMembershipChangeBy": 895,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "cum",
-  "MailingsProviderName": "Cremin-Glover",
-  "DashboardTileDefinitionId": 497,
+  "MainHeading": "necessitatibus",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Feest, Stanton and Wintheiser",
+  "DashboardTileDefinitionId": 669,
   "VisibleFor": [
     {
-      "VisibleId": 22,
+      "VisibleId": 458,
       "Visibility": "All",
-      "DisplayValue": "ratione"
+      "DisplayValue": "facilis"
     },
     {
-      "VisibleId": 22,
+      "VisibleId": 458,
       "Visibility": "All",
-      "DisplayValue": "ratione"
+      "DisplayValue": "facilis"
     }
   ]
 }
@@ -222,70 +222,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Fundamental bandwidth-monitored open system",
-  "Postit": "fugiat",
+  "Description": "Multi-tiered even-keeled open architecture",
+  "Postit": "nostrum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 400,
-  "IncludePerson": 550,
+  "GroupIdx": 605,
+  "IncludePerson": 733,
   "MemberCount": 99.99,
-  "Name": "Herzog, Gusikowski and Walsh",
-  "PostitTextId": 631,
-  "CreatedDate": "2020-02-19T14:28:27.2426821+01:00",
-  "SelectionId": 821,
-  "SoundEx": "quisquam",
-  "Source": 478,
-  "TextId": 110,
-  "UpdatedDate": "2001-12-16T14:28:27.2426821+01:00",
-  "UpdatedCount": 810,
-  "Visibility": 7,
+  "Name": "Cartwright-Klocko",
+  "PostitTextId": 980,
+  "CreatedDate": "2014-11-02T13:14:09.1653933+01:00",
+  "SelectionId": 513,
+  "SoundEx": "porro",
+  "Source": 778,
+  "TextId": 998,
+  "UpdatedDate": "2017-04-09T13:14:09.1653933+02:00",
+  "UpdatedCount": 96,
+  "Visibility": 195,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 965,
-  "TargetTableName": "Schmitt, Hansen and Cronin",
-  "Completed": false,
-  "LeftSelectionId": 779,
-  "RightSelectionId": 332,
+  "TargetTableNumber": 998,
+  "TargetTableName": "Braun-Denesik",
+  "Completed": true,
+  "LeftSelectionId": 822,
+  "RightSelectionId": 784,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Kassulke-Boehm",
-  "ShadowProviderName": "Greenholt Group",
-  "ChartKey": "officia",
-  "LastLoaded": "2004-11-05T14:28:27.2426821+01:00",
-  "LastLoadedBy": 777,
+  "MainProviderName": "Wuckert-Thompson",
+  "ShadowProviderName": "Bahringer Group",
+  "ChartKey": "praesentium",
+  "LastLoaded": "2022-07-14T13:14:09.1653933+02:00",
+  "LastLoadedBy": 713,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-05-02T14:28:27.2426821+02:00",
-  "LastMembershipChangeBy": 906,
+  "LastMembershipChange": "2018-01-09T13:14:09.1653933+01:00",
+  "LastMembershipChangeBy": 104,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "impedit",
-  "MemberTabHeading": "dolorem",
-  "MailingsProviderName": "Lueilwitz, Dietrich and Hilpert",
-  "DashboardTileDefinitionId": 926,
+  "MainHeading": "voluptates",
+  "MemberTabHeading": "autem",
+  "MailingsProviderName": "Cruickshank, Dicki and Purdy",
+  "DashboardTileDefinitionId": 376,
   "VisibleFor": [
     {
-      "VisibleId": 877,
+      "VisibleId": 413,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 841
+          "FieldLength": 798
         }
       }
     },
     {
-      "VisibleId": 877,
+      "VisibleId": 413,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 841
+          "FieldLength": 798
         }
       }
     }
@@ -295,7 +295,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 963
+      "FieldLength": 731
     }
   },
   "_Links": {

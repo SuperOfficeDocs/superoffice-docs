@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "McClure Inc and Sons"
+  "Name": "Morar-Nitzsche"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 313,
-    "Value": "quos",
-    "Tooltip": "saepe",
+    "Id": 583,
+    "Value": "sint",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldType": "System.String",
+        "FieldLength": 137
       }
     }
   },
   {
-    "Id": 313,
-    "Value": "quos",
-    "Tooltip": "saepe",
+    "Id": 583,
+    "Value": "sint",
+    "Tooltip": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 512
+        "FieldType": "System.String",
+        "FieldLength": 137
       }
     }
   }

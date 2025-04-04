@@ -93,9 +93,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 195,
-  "ListItemId": 987,
-  "ShowDeleted": false
+  "UdListDefinitionId": 997,
+  "ListItemId": 379,
+  "ShowDeleted": true
 }
 ```
 
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 36,
-    "Name": "Kozey LLC",
-    "ToolTip": "Rerum officia at.",
-    "Deleted": true,
-    "Rank": 235,
-    "Type": "est",
-    "ColorBlock": 196,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2009-04-09T14:28:22.0553915+02:00",
+    "Id": 62,
+    "Name": "Wilkinson, Hagenes and Bayer",
+    "ToolTip": "Et dignissimos fugit esse eligendi aut.",
+    "Deleted": false,
+    "Rank": 339,
+    "Type": "explicabo",
+    "ColorBlock": 651,
+    "IconHint": "ullam",
+    "Selected": false,
+    "LastChanged": "2016-03-19T13:14:00.5949987+01:00",
     "ChildItems": [
       {
-        "Id": 321,
-        "Name": "Hoppe, Goldner and Pollich",
-        "ToolTip": "Autem voluptatem enim et aut ex necessitatibus.",
-        "Deleted": true,
-        "Rank": 964,
-        "Type": "aliquam",
-        "ColorBlock": 977,
-        "IconHint": "iure",
+        "Id": 933,
+        "Name": "Parisian LLC",
+        "ToolTip": "Optio consequatur necessitatibus nihil aliquid cumque reprehenderit occaecati.",
+        "Deleted": false,
+        "Rank": 452,
+        "Type": "dolorem",
+        "ColorBlock": 717,
+        "IconHint": "aut",
         "Selected": false,
-        "LastChanged": "2023-10-18T14:28:22.0553915+02:00",
+        "LastChanged": "2022-11-20T13:14:00.5949987+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "cum",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "beatae",
         "Hidden": true,
-        "FullName": "Johnpaul Tiffany Schmeler IV",
+        "FullName": "Maybelle Turner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 548
+            "FieldLength": 998
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "illum",
+    "ExtraInfo": "laborum",
+    "StyleHint": "alias",
     "Hidden": true,
-    "FullName": "Carmen Mertz",
+    "FullName": "Alana King",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 600
+        "FieldType": "System.String",
+        "FieldLength": 660
       }
     }
   }

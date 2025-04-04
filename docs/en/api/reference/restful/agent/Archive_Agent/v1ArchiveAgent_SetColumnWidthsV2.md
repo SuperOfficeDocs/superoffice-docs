@@ -68,17 +68,17 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidthsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Von, Botsford and Turner",
-  "ProviderName": "O'Keefe, Cummerata and Johns",
-  "Context": "nihil",
-  "OwnerKeys": "placeat",
+  "GuiName": "Carroll-Kemmer",
+  "ProviderName": "Carroll-Batz",
+  "Context": "provident",
+  "OwnerKeys": "necessitatibus",
   "ColumnWidths": [
-    "voluptatem",
-    "odio"
+    "repellendus",
+    "debitis"
   ]
 }
 ```

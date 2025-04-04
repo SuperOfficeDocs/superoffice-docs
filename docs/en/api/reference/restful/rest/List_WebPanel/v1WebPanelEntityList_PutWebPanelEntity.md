@@ -112,32 +112,32 @@ OK
 PUT /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 189,
-  "Name": "Kreiger-Schowalter",
-  "Tooltip": "quis",
+  "WebPanelId": 311,
+  "Name": "Green-Sipes",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 665,
+  "Rank": 857,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Lindgren, Mayer and Douglas",
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": true,
+  "WindowName": "O'Reilly LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "nobis",
-  "Icon": 147,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false
+  "ProgId": "optio",
+  "Icon": 898,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -148,34 +148,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 924,
-  "Name": "Reilly-Botsford",
-  "Tooltip": "est",
+  "WebPanelId": 539,
+  "Name": "Pacocha-Gleichner",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 592,
+  "Rank": 187,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
-  "OnSalesMarketingWeb": false,
+  "OnTravel": false,
+  "OnSalesMarketingWeb": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Sauer-Considine",
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "WindowName": "Bashirian, Armstrong and Schulist",
   "Url": "http://www.example.com/",
-  "ProgId": "accusantium",
-  "Icon": 577,
-  "AlwaysReloadOnShow": true,
-  "NeverReloadOnCurrentChange": false,
+  "ProgId": "repudiandae",
+  "Icon": 342,
+  "AlwaysReloadOnShow": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 756
+      "FieldLength": 112
     }
   }
 }

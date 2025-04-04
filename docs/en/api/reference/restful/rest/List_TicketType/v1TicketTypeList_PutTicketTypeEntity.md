@@ -110,34 +110,34 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 625,
-  "Name": "Aufderhar, McKenzie and Beahan",
-  "Rank": 404,
-  "Tooltip": "nisi",
-  "Icon": "doloremque",
-  "DefaultTicketStatus": 939,
+  "TicketTypeId": 629,
+  "Name": "Hermann LLC",
+  "Rank": 958,
+  "Tooltip": "et",
+  "Icon": "expedita",
+  "DefaultTicketStatus": 62,
   "TicketStatuses": [
-    963,
-    146
+    952,
+    26
   ],
-  "DefaultTicketPriority": 113,
+  "DefaultTicketPriority": 587,
   "TicketPriorities": [
-    587,
-    194
+    152,
+    864
   ],
-  "ReplyTemplate": 935,
+  "ReplyTemplate": 23,
   "IsExternalVisible": true,
-  "IsDefault": true,
-  "ShowInNew": true,
+  "IsDefault": false,
+  "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    916,
-    399
+    654,
+    357
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false
+  "ReplyExternalAsDefault": true
 }
 ```
 
@@ -148,40 +148,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 556,
-  "Name": "Jerde-Harris",
-  "Rank": 632,
-  "Tooltip": "rerum",
-  "Icon": "itaque",
-  "DefaultTicketStatus": 420,
+  "TicketTypeId": 835,
+  "Name": "Gutmann, Eichmann and Hane",
+  "Rank": 940,
+  "Tooltip": "accusamus",
+  "Icon": "harum",
+  "DefaultTicketStatus": 626,
   "TicketStatuses": [
-    137,
-    109
+    374,
+    346
   ],
-  "DefaultTicketPriority": 174,
+  "DefaultTicketPriority": 519,
   "TicketPriorities": [
-    742,
-    279
+    852,
+    323
   ],
-  "ReplyTemplate": 752,
+  "ReplyTemplate": 863,
   "IsExternalVisible": true,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    630,
-    646
+    356,
+    795
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": true,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 505
+      "FieldLength": 365
     }
   }
 }

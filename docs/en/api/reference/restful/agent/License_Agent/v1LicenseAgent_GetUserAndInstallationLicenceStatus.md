@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserAndInstallationLicenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 1001
+  "AssociateId": 693
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AdminWarningDate": "2019-12-18T14:28:22.0241429+01:00",
-  "ExpiryDate": "2022-02-12T14:28:22.0241429+01:00",
-  "GraceDate": "2009-02-14T14:28:22.0241429+01:00",
-  "CompanyName": "Parisian, Kozey and Doyle",
+  "AdminWarningDate": "2010-12-16T13:14:00.532487+01:00",
+  "ExpiryDate": "2006-04-29T13:14:00.532487+02:00",
+  "GraceDate": "2018-08-05T13:14:00.532487+02:00",
+  "CompanyName": "Brown, Fadel and Quigley",
   "SerialNr": "1010000006",
   "UserLicenses": [
-    "cum",
-    "illum"
+    "et",
+    "ea"
   ]
 }
 ```

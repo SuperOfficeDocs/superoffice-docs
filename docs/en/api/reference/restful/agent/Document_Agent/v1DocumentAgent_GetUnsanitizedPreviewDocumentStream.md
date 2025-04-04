@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Document/GetUnsanitizedPreviewDocumentStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 820
+  "DocumentId": 861
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Ortiz-Fahey",
-  "Type": "sequi",
-  "Size": 385,
+  "Name": "Toy, Kovacek and Lueilwitz",
+  "Type": "beatae",
+  "Size": 468,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 684
+      "FieldType": "System.Int32",
+      "FieldLength": 83
     }
   }
 }

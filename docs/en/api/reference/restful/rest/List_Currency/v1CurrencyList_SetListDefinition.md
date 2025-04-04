@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 530,
-  "Name": "Trantow, Tillman and Bashirian",
-  "Tooltip": "libero",
-  "Deleted": false,
-  "Rank": 615,
-  "IsCustomList": false,
+  "Id": 197,
+  "Name": "Harris-Baumbach",
+  "Tooltip": "iste",
+  "Deleted": true,
+  "Rank": 330,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "quasi",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quidem",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 514,
-  "Name": "Abbott LLC",
-  "Tooltip": "magnam",
-  "Deleted": false,
-  "Rank": 740,
-  "IsCustomList": true,
+  "Id": 960,
+  "Name": "Sawayn-Kshlerin",
+  "Tooltip": "voluptatum",
+  "Deleted": true,
+  "Rank": 360,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "porro",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "ea",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 810
+      "FieldType": "System.Int32",
+      "FieldLength": 353
     }
   }
 }

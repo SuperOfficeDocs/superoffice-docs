@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 74,
-    "ColumnId": 662,
-    "FieldDefault": "quibusdam",
-    "FieldHeight": 664,
-    "FieldLabel": "molestiae",
-    "FieldLeft": 130,
-    "FieldTop": 683,
+    "UDefFieldId": 405,
+    "ColumnId": 518,
+    "FieldDefault": "iste",
+    "FieldHeight": 345,
+    "FieldLabel": "error",
+    "FieldLeft": 294,
+    "FieldTop": 690,
     "FieldType": "Checkbox",
-    "FieldWidth": 935,
-    "FormatMask": "odit",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 709,
-    "LabelLeft": 428,
-    "LabelTop": 627,
-    "LabelWidth": 209,
-    "LastVersionId": 786,
-    "ListTableId": 638,
-    "IsMandatory": false,
+    "FieldWidth": 994,
+    "FormatMask": "atque",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 641,
+    "LabelLeft": 442,
+    "LabelTop": 673,
+    "LabelWidth": 873,
+    "LastVersionId": 830,
+    "ListTableId": 593,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 649,
-    "ProgId": "et",
+    "Page1LineNo": 262,
+    "ProgId": "ex",
     "IsReadOnly": false,
-    "ShortLabel": "qui",
-    "TabOrder": 661,
-    "TextLength": 179,
-    "Tooltip": "pariatur",
-    "UdefIdentity": 510,
-    "UDListDefinitionId": 417,
+    "ShortLabel": "eum",
+    "TabOrder": 105,
+    "TextLength": 423,
+    "Tooltip": "ipsa",
+    "UdefIdentity": 746,
+    "UDListDefinitionId": 692,
     "Justification": "Center",
-    "Version": 767,
-    "TemplateVariableName": "Lueilwitz LLC",
+    "Version": 170,
+    "TemplateVariableName": "Dach, Jakubowski and Bechtelar",
     "HasBeenPublished": true,
-    "MdoListName": "Donnelly, Wiegand and Gleason",
+    "MdoListName": "Paucek Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 270
       }
     }
   }

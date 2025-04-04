@@ -136,25 +136,25 @@ OK
 POST /api/v1/ChatTopic
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 690,
-  "Name": "Kuhlman Inc and Sons",
-  "Description": "Ergonomic background attitude",
-  "WelcomeMessage": "illo",
+  "ChatTopicId": 239,
+  "Name": "Schroeder Inc and Sons",
+  "Description": "Visionary directional monitoring",
+  "WelcomeMessage": "autem",
   "Language": null,
-  "LastAccept": "2023-04-01T14:28:26.7739511+02:00",
-  "SecondsPrAccept": 350,
-  "AlertRecipient": "tenetur",
+  "LastAccept": "2025-03-04T13:14:08.4616221+01:00",
+  "SecondsPrAccept": 148,
+  "AlertRecipient": "ipsam",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "et",
+  "BadgeHeader": "facilis",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "voluptas",
-  "WarnNewChatMinutes": 283,
-  "WarnManagerNewChatMinutes": 97,
+  "CustomQueueText": "velit",
+  "WarnNewChatMinutes": 115,
+  "WarnManagerNewChatMinutes": 922,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -163,14 +163,14 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 59,
-  "WarnManagerChatMessageMinutes": 404,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 389,
+  "WarnManagerChatMessageMinutes": 843,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 647,
-  "OfflineFormQueueLength": 1001,
+  "OfflineFormTimeLimit": 646,
+  "OfflineFormQueueLength": 324,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "vero"
+  "WidgetRatingText": "exercitationem"
 }
 ```
 
@@ -181,48 +181,48 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 355,
-  "Name": "Osinski, O'Reilly and Daugherty",
-  "Description": "Front-line modular leverage",
-  "WelcomeMessage": "eum",
+  "ChatTopicId": 594,
+  "Name": "Stanton-O'Hara",
+  "Description": "Operative transitional emulation",
+  "WelcomeMessage": "harum",
   "Language": null,
-  "LastAccept": "1999-09-23T14:28:26.7895753+02:00",
-  "SecondsPrAccept": 273,
-  "AlertRecipient": "adipisci",
+  "LastAccept": "2024-07-04T13:14:08.4616221+02:00",
+  "SecondsPrAccept": 471,
+  "AlertRecipient": "aperiam",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "ipsa",
+  "BadgeHeader": "ut",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "eligendi",
-  "WarnNewChatMinutes": 490,
-  "WarnManagerNewChatMinutes": 449,
-  "TicketEnabled": true,
+  "CustomQueueText": "voluptas",
+  "WarnNewChatMinutes": 273,
+  "WarnManagerNewChatMinutes": 262,
+  "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
   "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 281,
-  "WarnManagerChatMessageMinutes": 16,
+  "WarnChatMessageMinutes": 171,
+  "WarnManagerChatMessageMinutes": 25,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 433,
-  "OfflineFormQueueLength": 644,
+  "OfflineFormTimeLimit": 987,
+  "OfflineFormQueueLength": 474,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "quod",
+  "WidgetRatingText": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 459
+      "FieldType": "System.String",
+      "FieldLength": 850
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

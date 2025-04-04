@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Document/SavePrivacyReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HtmlReport": "porro",
-  "Title": "eius",
-  "PersonId": 53
+  "HtmlReport": "perferendis",
+  "Title": "et",
+  "PersonId": 224
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-979
+131
 ```

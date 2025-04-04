@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 519,
-  "ColumnId": 105,
-  "FieldDefault": "officiis",
-  "FieldHeight": 589,
-  "FieldLabel": "sit",
-  "FieldLeft": 677,
-  "FieldTop": 118,
+  "UDefFieldId": 811,
+  "ColumnId": 111,
+  "FieldDefault": "tempore",
+  "FieldHeight": 893,
+  "FieldLabel": "vel",
+  "FieldLeft": 945,
+  "FieldTop": 503,
   "FieldType": "Checkbox",
-  "FieldWidth": 172,
-  "FormatMask": "itaque",
+  "FieldWidth": 170,
+  "FormatMask": "consectetur",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 591,
-  "LabelLeft": 830,
-  "LabelTop": 64,
-  "LabelWidth": 229,
-  "LastVersionId": 309,
-  "ListTableId": 93,
-  "IsMandatory": false,
+  "LabelHeight": 626,
+  "LabelLeft": 275,
+  "LabelTop": 355,
+  "LabelWidth": 589,
+  "LastVersionId": 400,
+  "ListTableId": 602,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 91,
-  "ProgId": "velit",
+  "Page1LineNo": 474,
+  "ProgId": "quod",
   "IsReadOnly": true,
   "ShortLabel": "iste",
-  "TabOrder": 343,
-  "TextLength": 926,
-  "Tooltip": "voluptatibus",
-  "UdefIdentity": 438,
-  "UDListDefinitionId": 401,
+  "TabOrder": 23,
+  "TextLength": 556,
+  "Tooltip": "ab",
+  "UdefIdentity": 945,
+  "UDListDefinitionId": 529,
   "Justification": "Center",
-  "Version": 339,
-  "TemplateVariableName": "Kshlerin Group",
+  "Version": 554,
+  "TemplateVariableName": "Schmidt, Von and Wiza",
   "HasBeenPublished": false,
-  "MdoListName": "Schmeler, Rodriguez and Flatley",
+  "MdoListName": "Feil-Harber",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 59
+      "FieldLength": 810
     }
   }
 }

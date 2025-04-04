@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignDevice": null,
-  "ApplicationName": "D'Amore, Wisozk and Sanford"
+  "ApplicationName": "Champlin-Goyette"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 989,
-  "Name": "Kub-Will",
-  "CreatedDate": "2005-02-10T14:28:22.0241429+01:00",
-  "UpdatedDate": "2001-01-25T14:28:22.0241429+01:00",
-  "AssociateFullName": "Leilani Pfannerstill DDS",
-  "CreatedBy": "tenetur",
-  "UpdatedBy": "at",
-  "DeviceIdentifier": "illo",
-  "ForeignAppId": 565,
+  "ForeignDeviceId": 329,
+  "Name": "Kuhn, Schinner and Kovacek",
+  "CreatedDate": "2015-07-13T13:14:00.5168611+02:00",
+  "UpdatedDate": "2001-08-10T13:14:00.5168611+02:00",
+  "AssociateFullName": "Daniela Cummerata",
+  "CreatedBy": "et",
+  "UpdatedBy": "nobis",
+  "DeviceIdentifier": "voluptatem",
+  "ForeignAppId": 465,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 455
+      "FieldLength": 625
     }
   }
 }

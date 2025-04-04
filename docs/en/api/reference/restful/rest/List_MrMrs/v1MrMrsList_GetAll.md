@@ -25,7 +25,7 @@ Gets all the MrMrs items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/MrMrs/Items?includeDeleted=True
+GET /api/v1/List/MrMrs/Items?includeDeleted=False
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 402,
-    "Name": "Swift, Erdman and Cruickshank",
-    "Tooltip": "accusamus",
+    "Id": 668,
+    "Name": "Welch Group",
+    "Tooltip": "qui",
     "Deleted": false,
-    "UdListDefinitionId": 74,
-    "Rank": 420,
+    "UdListDefinitionId": 208,
+    "Rank": 642,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 593
+        "FieldType": "System.String",
+        "FieldLength": 529
       }
     }
   }

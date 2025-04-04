@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 500,
-      "ContactName": "Koss-Spencer",
-      "PersonId": 734,
-      "PersonName": "Cruickshank LLC",
-      "AssociateId": 468,
-      "Address": "maiores",
-      "EmailId": 185,
+      "ContactId": 806,
+      "ContactName": "Emmerich, Davis and Kunze",
+      "PersonId": 733,
+      "PersonName": "Cummerata, VonRueden and O'Keefe",
+      "AssociateId": 214,
+      "Address": "exercitationem",
+      "EmailId": 60,
       "DuplicatePersonIds": [
-        359,
-        867
+        722,
+        652
       ],
-      "Name": "Kassulke, Hoppe and Windler",
+      "Name": "Larkin, Sipes and Boyer",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 315
+          "FieldType": "System.String",
+          "FieldLength": 450
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 807,
-      "ContactName": "Dickinson Inc and Sons",
-      "PersonId": 898,
-      "PersonName": "Feest, Oberbrunner and Littel",
-      "AssociateId": 476,
-      "Address": "laboriosam",
-      "EmailId": 526,
+      "ContactId": 923,
+      "ContactName": "Conroy, Klocko and O'Keefe",
+      "PersonId": 162,
+      "PersonName": "Robel Group",
+      "AssociateId": 445,
+      "Address": "sit",
+      "EmailId": 476,
       "DuplicatePersonIds": [
-        905,
-        607
+        628,
+        712
       ],
-      "Name": "Leannon LLC",
+      "Name": "Beer-Turcotte",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 778
+          "FieldType": "System.String",
+          "FieldLength": 225
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 152,
-      "ContactName": "Murphy Inc and Sons",
-      "PersonId": 112,
-      "PersonName": "Erdman Group",
-      "AssociateId": 61,
-      "Address": "ullam",
-      "EmailId": 889,
+      "ContactId": 14,
+      "ContactName": "McKenzie Group",
+      "PersonId": 803,
+      "PersonName": "Parisian Group",
+      "AssociateId": 277,
+      "Address": "neque",
+      "EmailId": 954,
       "DuplicatePersonIds": [
-        715,
-        728
+        259,
+        204
       ],
-      "Name": "Prohaska-Steuber",
+      "Name": "Haley Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 810
+          "FieldLength": 327
         }
       }
     }
   ],
-  "Subject": "magni",
-  "HTMLBody": "ipsum",
+  "Subject": "non",
+  "HTMLBody": "aspernatur",
   "From": null,
-  "Sent": "2021-11-27T14:28:21.8991479+01:00",
-  "Size": 535,
+  "Sent": "2013-10-07T13:14:00.2512206+02:00",
+  "Size": 759,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "earum",
-  "PlainBody": "ea",
+  "MessageID": "sed",
+  "PlainBody": "quasi",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 343,
+  "ServerId": 315,
   "Attachments": [
     {
-      "Description": "Multi-lateral analyzing flexibility",
-      "Filename": "quidem",
-      "Size": 804,
-      "Type": "dolores",
-      "Encoding": "quos",
-      "Id": "ipsa",
-      "Disposition": "sed",
-      "IsSafeFileExtension": true,
+      "Description": "Synergistic object-oriented architecture",
+      "Filename": "inventore",
+      "Size": 300,
+      "Type": "totam",
+      "Encoding": "sequi",
+      "Id": "ab",
+      "Disposition": "laboriosam",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 941
+          "FieldType": "System.Int32",
+          "FieldLength": 551
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ernser Inc and Sons",
+      "Name": "Ratke-Turner",
       "Values": [
-        "et",
-        "voluptates"
+        "accusamus",
+        "sit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldType": "System.String",
+          "FieldLength": 187
         }
       }
     },
     {
-      "Name": "Ernser Inc and Sons",
+      "Name": "Ratke-Turner",
       "Values": [
-        "et",
-        "voluptates"
+        "accusamus",
+        "sit"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldType": "System.String",
+          "FieldLength": 187
         }
       }
     }
   ],
-  "FolderName": "Corwin LLC",
-  "EmailItemId": 322,
-  "AccountId": 840,
-  "ReceivedAt": "2004-07-16T14:28:21.8991479+02:00",
+  "FolderName": "Corkery Group",
+  "EmailItemId": 216,
+  "AccountId": 841,
+  "ReceivedAt": "2023-06-22T13:14:00.2512206+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-06-29T14:28:21.8991479+02:00",
+  "RepliedAt": "2015-05-27T13:14:00.2512206+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 91
+      "FieldType": "System.String",
+      "FieldLength": 511
     }
   }
 }

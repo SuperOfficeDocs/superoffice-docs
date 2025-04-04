@@ -77,8 +77,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 371,
-  "Restrictions": "non"
+  "DashboardTileId": 68,
+  "Restrictions": "quos"
 }
 ```
 
@@ -92,19 +92,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Zulauf, McGlynn and Rice",
-        "DisplayTooltip": "dolorem",
-        "DisplayType": "earum",
-        "CanOrderBy": false,
-        "Name": "Flatley LLC",
+        "DisplayName": "Gleichner LLC",
+        "DisplayTooltip": "ut",
+        "DisplayType": "praesentium",
+        "CanOrderBy": true,
+        "Name": "Kling LLC",
         "CanRestrictBy": true,
-        "RestrictionType": "sed",
-        "RestrictionListName": "Leffler-Emmerich",
+        "RestrictionType": "voluptatem",
+        "RestrictionListName": "Goyette-Brakus",
         "IsVisible": false,
-        "ExtraInfo": "officia",
-        "Width": "voluptatem",
-        "IconHint": "tempore",
-        "HeadingIconHint": "iste"
+        "ExtraInfo": "velit",
+        "Width": "ut",
+        "IconHint": "rem",
+        "HeadingIconHint": "nisi"
       }
     ],
     "Result": null
@@ -112,19 +112,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Zulauf, McGlynn and Rice",
-        "DisplayTooltip": "dolorem",
-        "DisplayType": "earum",
-        "CanOrderBy": false,
-        "Name": "Flatley LLC",
+        "DisplayName": "Gleichner LLC",
+        "DisplayTooltip": "ut",
+        "DisplayType": "praesentium",
+        "CanOrderBy": true,
+        "Name": "Kling LLC",
         "CanRestrictBy": true,
-        "RestrictionType": "sed",
-        "RestrictionListName": "Leffler-Emmerich",
+        "RestrictionType": "voluptatem",
+        "RestrictionListName": "Goyette-Brakus",
         "IsVisible": false,
-        "ExtraInfo": "officia",
-        "Width": "voluptatem",
-        "IconHint": "tempore",
-        "HeadingIconHint": "iste"
+        "ExtraInfo": "velit",
+        "Width": "ut",
+        "IconHint": "rem",
+        "HeadingIconHint": "nisi"
       }
     ],
     "Result": null

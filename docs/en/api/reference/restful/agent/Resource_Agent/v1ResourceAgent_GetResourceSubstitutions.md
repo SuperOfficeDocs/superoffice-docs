@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Leannon LLC",
-    "Kunze Inc and Sons"
+    "Buckridge-Baumbach",
+    "Wolf-Feil"
   ],
-  "Culture": "et",
+  "Culture": "neque",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Walker-Waelchi",
-    "ResourceValue": "rerum",
-    "Culture": "reprehenderit",
+    "ResourceName": "Aufderhar-Herzog",
+    "ResourceValue": "et",
+    "Culture": "ad",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldType": "System.String",
+        "FieldLength": 204
       }
     }
   },
   {
-    "ResourceName": "Walker-Waelchi",
-    "ResourceValue": "rerum",
-    "Culture": "reprehenderit",
+    "ResourceName": "Aufderhar-Herzog",
+    "ResourceValue": "et",
+    "Culture": "ad",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 898
+        "FieldType": "System.String",
+        "FieldLength": 204
       }
     }
   }

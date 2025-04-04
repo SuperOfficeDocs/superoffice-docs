@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Lehner-Breitenberg",
-  "DeviceName": "Quigley LLC"
+  "ApplicationName": "Bednar, Predovic and Kohler",
+  "DeviceName": "Koepp-Welch"
 }
 ```
 
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 383,
-  "Name": "Bahringer Inc and Sons",
-  "CreatedDate": "1998-04-18T14:28:22.0085182+02:00",
-  "UpdatedDate": "2010-11-01T14:28:22.0085182+01:00",
-  "AssociateFullName": "Hyman Wuckert",
-  "CreatedBy": "esse",
-  "UpdatedBy": "non",
-  "DeviceIdentifier": "optio",
-  "ForeignAppId": 47,
+  "ForeignDeviceId": 803,
+  "Name": "Wisozk, Doyle and Renner",
+  "CreatedDate": "2010-05-11T13:14:00.5012353+02:00",
+  "UpdatedDate": "2003-12-24T13:14:00.5012353+01:00",
+  "AssociateFullName": "Mr. Lavinia Constantin Funk IV",
+  "CreatedBy": "quia",
+  "UpdatedBy": "nam",
+  "DeviceIdentifier": "voluptatem",
+  "ForeignAppId": 832,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 309
+      "FieldLength": 326
     }
   }
 }

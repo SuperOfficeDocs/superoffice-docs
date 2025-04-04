@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 10 Feb 2002 14:28:27 G2T
+Last-Modified: Fri, 11 Nov 2016 13:14:09 G11T
 
 {
-  "Description": "Secured heuristic system engine",
-  "Postit": "distinctio",
+  "Description": "Synchronised next generation infrastructure",
+  "Postit": "sed",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 19,
-  "IncludePerson": 706,
+  "GroupIdx": 949,
+  "IncludePerson": 842,
   "MemberCount": 99.99,
-  "Name": "Carroll-Champlin",
-  "PostitTextId": 958,
-  "CreatedDate": "2022-03-24T14:28:27.2426821+01:00",
-  "SelectionId": 8,
-  "SoundEx": "natus",
-  "Source": 324,
-  "TextId": 984,
-  "UpdatedDate": "2002-02-10T14:28:27.2426821+01:00",
-  "UpdatedCount": 47,
-  "Visibility": 214,
+  "Name": "Schaden Group",
+  "PostitTextId": 597,
+  "CreatedDate": "2015-04-11T13:14:09.1810193+02:00",
+  "SelectionId": 983,
+  "SoundEx": "nisi",
+  "Source": 625,
+  "TextId": 512,
+  "UpdatedDate": "2016-11-11T13:14:09.1810193+01:00",
+  "UpdatedCount": 45,
+  "Visibility": 797,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 990,
-  "TargetTableName": "Smith, Block and Streich",
+  "TargetTableNumber": 953,
+  "TargetTableName": "Smith LLC",
   "Completed": true,
-  "LeftSelectionId": 714,
-  "RightSelectionId": 585,
+  "LeftSelectionId": 124,
+  "RightSelectionId": 942,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schneider LLC",
-  "ShadowProviderName": "Williamson, Lesch and Legros",
-  "ChartKey": "itaque",
-  "LastLoaded": "2010-06-12T14:28:27.2426821+02:00",
-  "LastLoadedBy": 516,
+  "MainProviderName": "Marquardt Inc and Sons",
+  "ShadowProviderName": "Stoltenberg, Mosciski and Jacobi",
+  "ChartKey": "et",
+  "LastLoaded": "2017-03-23T13:14:09.1810193+01:00",
+  "LastLoadedBy": 38,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2023-02-11T14:28:27.2426821+01:00",
-  "LastMembershipChangeBy": 402,
+  "LastMembershipChange": "2013-04-25T13:14:09.1810193+02:00",
+  "LastMembershipChangeBy": 169,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "qui",
-  "MemberTabHeading": "voluptatem",
-  "MailingsProviderName": "Ernser, Kunde and Gerlach",
-  "DashboardTileDefinitionId": 242,
+  "MainHeading": "adipisci",
+  "MemberTabHeading": "aperiam",
+  "MailingsProviderName": "Powlowski-Zulauf",
+  "DashboardTileDefinitionId": 885,
   "VisibleFor": [
     {
-      "VisibleId": 675,
+      "VisibleId": 245,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldType": "System.String",
+          "FieldLength": 618
         }
       }
     },
     {
-      "VisibleId": 675,
+      "VisibleId": 245,
       "Visibility": "All",
-      "DisplayValue": "rerum",
+      "DisplayValue": "sapiente",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 692
+          "FieldType": "System.String",
+          "FieldLength": 618
         }
       }
     }
@@ -197,8 +197,8 @@ Last-Modified: Sun, 10 Feb 2002 14:28:27 G2T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 682
+      "FieldType": "System.Int32",
+      "FieldLength": 456
     }
   },
   "_Links": {

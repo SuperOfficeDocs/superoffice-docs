@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/MDO/GetListWithRestriction
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Gottlieb Inc and Sons",
-  "AdditionalInfo": "dolor",
-  "SearchValue": "corrupti"
+  "Name": "Kautzer, Boehm and Larson",
+  "AdditionalInfo": "aliquam",
+  "SearchValue": "necessitatibus"
 }
 ```
 
@@ -104,50 +104,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Name": "Schaefer, Effertz and Green",
-    "ToolTip": "Aliquam iusto enim eveniet magnam eius placeat.",
-    "Deleted": false,
-    "Rank": 514,
-    "Type": "minima",
+    "Id": 884,
+    "Name": "Kuhn, Spinka and Carter",
+    "ToolTip": "Voluptatem dignissimos qui velit rem dignissimos.",
+    "Deleted": true,
+    "Rank": 815,
+    "Type": "cumque",
     "ChildItems": [
       {
-        "Id": 632,
-        "Name": "Mertz Inc and Sons",
-        "ToolTip": "In ut culpa sit a fugiat aut assumenda.",
+        "Id": 74,
+        "Name": "Ratke Inc and Sons",
+        "ToolTip": "Sit consequuntur ex ut quidem.",
         "Deleted": false,
-        "Rank": 552,
-        "Type": "voluptate",
+        "Rank": 577,
+        "Type": "saepe",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 827,
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "reiciendis",
-        "FullName": "Victor Smitham",
+        "IconHint": "voluptatem",
+        "ColorBlock": 558,
+        "ExtraInfo": "corrupti",
+        "StyleHint": "quae",
+        "FullName": "Oleta Anderson IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 27
+            "FieldLength": 7
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 803,
-    "ExtraInfo": "cum",
-    "StyleHint": "qui",
-    "FullName": "Claude Jaylen Stokes V",
+    "IconHint": "corporis",
+    "ColorBlock": 968,
+    "ExtraInfo": "sint",
+    "StyleHint": "omnis",
+    "FullName": "Mr. Vincenzo Mayert I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 223
+        "FieldLength": 75
       }
     }
   }

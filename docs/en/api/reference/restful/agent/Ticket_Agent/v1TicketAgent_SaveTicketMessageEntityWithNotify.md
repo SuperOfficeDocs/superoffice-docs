@@ -104,7 +104,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "NewEntity": null,
-  "Notify": false
+  "Notify": true
 }
 ```
 
@@ -115,28 +115,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 675,
+  "EjMessageId": 953,
   "Ticket": null,
-  "CreatedAt": "2018-03-07T14:28:22.6647419+01:00",
+  "CreatedAt": "2024-12-04T13:14:01.6288165+01:00",
   "CreatedBy": null,
-  "Author": "amet",
+  "Author": "voluptatem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "voluptas",
-  "TimeSpent": 334,
-  "Body": "nam",
-  "HtmlBody": "illo",
-  "EmailHeader": "bertram@feest.us",
-  "DebugInfo": "assumenda",
-  "MailSorter": "beatae",
+  "MessageId": "non",
+  "TimeSpent": 248,
+  "Body": "nesciunt",
+  "HtmlBody": "est",
+  "EmailHeader": "ronny@sauer.co.uk",
+  "DebugInfo": "qui",
+  "MailSorter": "eius",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatem",
+  "SearchTitle": "doloribus",
   "MessageHeaders": [
     {
-      "Id": 442,
-      "Name": "Schroeder LLC",
-      "Value": "corrupti",
+      "Id": 616,
+      "Name": "Blick, Dooley and Friesen",
+      "Value": "vitae",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -144,50 +144,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 163
+          "FieldLength": 331
         }
       }
     }
   ],
   "Important": false,
-  "Language": "quasi",
-  "Sentiment": 399,
-  "SentimentConfidence": 944,
+  "Language": "repellat",
+  "Sentiment": 95,
+  "SentimentConfidence": 269,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 211,
-      "Name": "Stoltenberg-Marquardt",
-      "ContentType": "hic",
-      "AttSize": 292,
+      "AttachmentId": 861,
+      "Name": "Willms-Welch",
+      "ContentType": "voluptas",
+      "AttSize": 798,
       "InlineImage": false,
-      "ContentId": "quidem",
-      "AuthKey": "tempora",
+      "ContentId": "id",
+      "AuthKey": "sit",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 644
+          "FieldType": "System.Int32",
+          "FieldLength": 875
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "et",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "voluptatum",
-    "CustomFields2": "est"
+    "CustomFields1": "cum",
+    "CustomFields2": "alias"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldType": "System.Int32",
+      "FieldLength": 37
     }
   }
 }

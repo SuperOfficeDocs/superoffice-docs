@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 658,
-  "Name": "Watsica-McClure",
-  "Tooltip": "et",
+  "Id": 485,
+  "Name": "McDermott, Hegmann and Hauck",
+  "Tooltip": "officia",
   "Deleted": true,
-  "Rank": 177,
+  "Rank": 622,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "tenetur",
+  "ListType": "debitis",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 225
+      "FieldType": "System.Int32",
+      "FieldLength": 151
     }
   },
   "_Links": {

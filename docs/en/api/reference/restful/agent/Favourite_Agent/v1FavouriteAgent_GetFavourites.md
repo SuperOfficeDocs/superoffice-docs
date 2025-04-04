@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Brown, Tillman and Purdy",
-  "AssociateId": 852
+  "TableName": "Littel-Bechtelar",
+  "AssociateId": 829
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Ortiz Inc and Sons",
-    "RecordId": 365,
-    "AssociateId": 257,
-    "ExtraInfo": "sit",
-    "Rank": 106,
+    "TableName": "Runolfsdottir-Erdman",
+    "RecordId": 732,
+    "AssociateId": 515,
+    "ExtraInfo": "a",
+    "Rank": 67,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 515
+        "FieldLength": 372
       }
     }
   }

@@ -28,7 +28,7 @@ Gets a EMailSOInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=877
+POST /api/v1/Agents/EMail/GetEMailSOInfo?eMailSOInfoId=576
 POST /api/v1/Agents/EMail/GetEMailSOInfo?$select=name,department,category/id
 ```
 
@@ -86,20 +86,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 808,
-  "AppointmentId": 8,
-  "ProjectId": 360,
-  "SaleId": 311,
+  "DocumentId": 31,
+  "AppointmentId": 428,
+  "ProjectId": 944,
+  "SaleId": 868,
   "Archived": false,
-  "ArchivedAt": "2003-05-02T14:28:21.9303967+02:00",
-  "ArchivedBy": 943,
-  "ArchivedDisplayName": "Oberbrunner, Davis and Beier",
+  "ArchivedAt": "2003-05-22T13:14:00.313724+02:00",
+  "ArchivedBy": 489,
+  "ArchivedDisplayName": "Friesen-Smith",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldType": "System.String",
+      "FieldLength": 585
     }
   }
 }

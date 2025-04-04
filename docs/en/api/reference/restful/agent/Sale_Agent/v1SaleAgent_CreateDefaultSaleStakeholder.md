@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleStakeholder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Sawayn Group",
-  "Comment": "incidunt",
-  "StakeholderRoleId": 808,
-  "CountryId": 982,
-  "PersonId": 468,
-  "EmailDescription": "carey@sanford.com",
-  "EmailId": 469,
-  "EmailAddress": "giovanny_mraz@brownmills.biz",
-  "PhoneId": 407,
-  "ContactName": "Hirthe LLC",
-  "ContactId": 75,
-  "SaleId": 243,
-  "Mrmrs": "eos",
-  "Firstname": "Janice",
-  "MiddleName": "Torp Group",
-  "Lastname": "Bergnaum",
-  "SaleStakeholderId": 90,
-  "Rank": 247,
-  "Phone": "(156)098-6734 x5482",
+  "StakeholderRoleName": "Frami-Schmeler",
+  "Comment": "aliquam",
+  "StakeholderRoleId": 117,
+  "CountryId": 321,
+  "PersonId": 407,
+  "EmailDescription": "nelson@swiftroberts.us",
+  "EmailId": 597,
+  "EmailAddress": "jany_corkery@faysmitham.com",
+  "PhoneId": 101,
+  "ContactName": "Green-Jast",
+  "ContactId": 600,
+  "SaleId": 162,
+  "Mrmrs": "tempore",
+  "Firstname": "Justyn",
+  "MiddleName": "Dietrich-Predovic",
+  "Lastname": "Murphy",
+  "SaleStakeholderId": 951,
+  "Rank": 70,
+  "Phone": "1-921-312-2782 x060",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 113
+      "FieldLength": 302
     }
   }
 }

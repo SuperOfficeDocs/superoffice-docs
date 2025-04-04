@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 893,
-    "Name": "Roberts LLC",
-    "Tooltip": "voluptatibus",
-    "Deleted": true,
-    "Rank": 44,
-    "UdListDefinitionId": 601
+    "HeadingId": 848,
+    "Name": "Grimes-VonRueden",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 863,
+    "UdListDefinitionId": 905
   },
   {
-    "HeadingId": 893,
-    "Name": "Roberts LLC",
-    "Tooltip": "voluptatibus",
-    "Deleted": true,
-    "Rank": 44,
-    "UdListDefinitionId": 601
+    "HeadingId": 848,
+    "Name": "Grimes-VonRueden",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 863,
+    "UdListDefinitionId": 905
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 475,
-    "Name": "Lueilwitz-Muller",
-    "Tooltip": "voluptates",
+    "HeadingId": 595,
+    "Name": "Oberbrunner, Konopelski and Hahn",
+    "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 263,
-    "UdListDefinitionId": 143,
+    "Rank": 905,
+    "UdListDefinitionId": 292,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 970
+        "FieldType": "System.Int32",
+        "FieldLength": 435
       }
     }
   }

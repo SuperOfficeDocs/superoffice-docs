@@ -79,7 +79,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 427
+  "PersonId": 199
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "distinctio",
-    "StrippedValue": "quod",
-    "Description": "Phased eco-centric projection",
+    "Value": "autem",
+    "StrippedValue": "enim",
+    "Description": "Secured multi-state groupware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldLength": 45
       }
     }
   },
   {
-    "Value": "distinctio",
-    "StrippedValue": "quod",
-    "Description": "Phased eco-centric projection",
+    "Value": "autem",
+    "StrippedValue": "enim",
+    "Description": "Secured multi-state groupware",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 132
+        "FieldLength": 45
       }
     }
   }

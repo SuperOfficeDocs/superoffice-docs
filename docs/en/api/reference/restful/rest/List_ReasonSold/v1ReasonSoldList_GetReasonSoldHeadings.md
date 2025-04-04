@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonSold/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 438,
-    "Name": "Tillman-Kuhn",
-    "Tooltip": "ea",
+    "HeadingId": 1002,
+    "Name": "Smitham-Senger",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "Rank": 142,
-    "UdListDefinitionId": 952,
+    "Rank": 666,
+    "UdListDefinitionId": 693,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 999
+        "FieldLength": 441
       }
     }
   }

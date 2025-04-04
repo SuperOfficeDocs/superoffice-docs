@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,31 +85,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 831,
-  "Name": "Bergstrom-Heaney",
-  "Description": "Fully-configurable actuating concept",
-  "DefaultHeight": 218,
-  "DefaultWidth": 512,
+  "DashboardTileDefinitionId": 525,
+  "Name": "Koepp Inc and Sons",
+  "Description": "Future-proofed 24 hour throughput",
+  "DefaultHeight": 382,
+  "DefaultWidth": 830,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Feeney-Vandervort",
-  "SelectionId": 23,
+  "EntityName": "Hoppe, Kling and Rohan",
+  "SelectionId": 487,
   "CurrencyMode": "Base",
-  "CurrencyCode": "earum",
+  "CurrencyCode": "est",
   "Measure": "Average",
-  "MeasureField": "nostrum",
-  "SortBy": "voluptates",
-  "LayoutConfig": "ducimus",
-  "SecondarySelectionId": 344,
-  "MeasureByField": "sunt",
+  "MeasureField": "blanditiis",
+  "SortBy": "quae",
+  "LayoutConfig": "fugit",
+  "SecondarySelectionId": 737,
+  "MeasureByField": "est",
   "Usage": "Dashboard",
-  "ProviderName": "Douglas, Pollich and O'Keefe",
+  "ProviderName": "Pfannerstill, Yost and Wiza",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 744
+      "FieldLength": 522
     }
   }
 }

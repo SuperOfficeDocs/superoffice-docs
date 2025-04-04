@@ -96,7 +96,7 @@ OK
 POST /api/v1/Agents/Batch/UpdateBatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -111,37 +111,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 817,
-  "Name": "Aufderhar-Abbott",
-  "AssociateId": 992,
-  "DetailsTable": 537,
-  "DetailsRecord": 315,
+  "Id": 527,
+  "Name": "Macejkovic Group",
+  "AssociateId": 699,
+  "DetailsTable": 568,
+  "DetailsRecord": 735,
   "IsSystemTask": false,
-  "IsInternalTask": false,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "quibusdam",
-    "ParameterObject2": "eius"
+    "ParameterObject1": "sit",
+    "ParameterObject2": "laborum"
   },
-  "LastStarted": "2003-12-28T14:28:21.4929147+01:00",
-  "Created": "2022-02-11T14:28:21.4929147+01:00",
-  "StartCount": 288,
-  "DatabaseSerialNumber": "764476",
-  "Context": "repudiandae",
-  "Result": "aut",
+  "LastStarted": "2008-02-08T13:13:59.5314453+01:00",
+  "Created": "2005-05-13T13:13:59.5314453+02:00",
+  "StartCount": 141,
+  "DatabaseSerialNumber": "1380576",
+  "Context": "iusto",
+  "Result": "consequatur",
   "State": "All",
-  "Description": "Secured background access",
-  "Response": "voluptatum",
-  "Request": "doloribus",
-  "ProgressDescription": "Decentralized disintermediate firmware",
-  "ProgressPercent": 549,
-  "FileName": "Block Group",
+  "Description": "Triple-buffered local throughput",
+  "Response": "minus",
+  "Request": "numquam",
+  "ProgressDescription": "Focused clear-thinking encryption",
+  "ProgressPercent": 104,
+  "FileName": "Spinka, Renner and Hackett",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldLength": 13
     }
   }
 }

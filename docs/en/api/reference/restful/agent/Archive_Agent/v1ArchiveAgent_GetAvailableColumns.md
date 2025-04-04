@@ -90,8 +90,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Mayert, Beier and Glover",
-  "Context": "facilis"
+  "ProviderName": "Auer LLC",
+  "Context": "quas"
 }
 ```
 
@@ -103,19 +103,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Langosh Group",
-    "DisplayTooltip": "aspernatur",
-    "DisplayType": "qui",
-    "CanOrderBy": false,
-    "Name": "Tillman, Harber and Lowe",
+    "DisplayName": "Leffler, Tremblay and Schneider",
+    "DisplayTooltip": "quod",
+    "DisplayType": "eum",
+    "CanOrderBy": true,
+    "Name": "Aufderhar Group",
     "CanRestrictBy": false,
-    "RestrictionType": "possimus",
-    "RestrictionListName": "Williamson LLC",
-    "IsVisible": false,
-    "ExtraInfo": "voluptas",
-    "Width": "ut",
-    "IconHint": "quo",
-    "HeadingIconHint": "nostrum"
+    "RestrictionType": "voluptatem",
+    "RestrictionListName": "Wisozk, Kiehn and Zieme",
+    "IsVisible": true,
+    "ExtraInfo": "consectetur",
+    "Width": "natus",
+    "IconHint": "maiores",
+    "HeadingIconHint": "occaecati"
   }
 ]
 ```

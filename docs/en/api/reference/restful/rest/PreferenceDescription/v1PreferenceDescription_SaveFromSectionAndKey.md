@@ -106,24 +106,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 12,
-  "Section": "labore",
-  "Key": "corporis",
-  "Name": "Connelly, Williamson and Wolf",
+  "PrefDescId": 888,
+  "Section": "aspernatur",
+  "Key": "sint",
+  "Name": "Satterfield Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergistic uniform website",
+  "Description": "Implemented user-facing moderator",
   "IsBuiltin": false,
-  "TableName": "Hegmann Inc and Sons",
-  "UserDefinedListId": 885,
-  "Rank": 771,
-  "SubGroup": "deleniti",
-  "MinLevel": 72,
-  "MaxValue": 966,
-  "MinValue": 980,
-  "RequiredLicense": "omnis"
+  "TableName": "Williamson, Rutherford and Dooley",
+  "UserDefinedListId": 854,
+  "Rank": 639,
+  "SubGroup": "autem",
+  "MinLevel": 652,
+  "MaxValue": 96,
+  "MinValue": 483,
+  "RequiredLicense": "sit"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 810,
-  "Section": "maxime",
-  "Key": "tempore",
-  "Name": "Dicki LLC",
+  "PrefDescId": 334,
+  "Section": "magni",
+  "Key": "eos",
+  "Name": "Kris-Baumbach",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Front-line coherent success",
+  "Description": "Advanced coherent parallelism",
   "IsBuiltin": false,
-  "TableName": "Grant-Jacobson",
-  "UserDefinedListId": 203,
-  "Rank": 550,
-  "SubGroup": "dignissimos",
-  "MinLevel": 748,
-  "MaxValue": 88,
-  "MinValue": 333,
-  "RequiredLicense": "tempore",
+  "TableName": "Swift Inc and Sons",
+  "UserDefinedListId": 464,
+  "Rank": 219,
+  "SubGroup": "iste",
+  "MinLevel": 697,
+  "MaxValue": 224,
+  "MinValue": 761,
+  "RequiredLicense": "facilis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldType": "System.String",
+      "FieldLength": 397
     }
   }
 }

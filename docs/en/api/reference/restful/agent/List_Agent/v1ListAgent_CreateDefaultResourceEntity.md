@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultResourceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 2,
-  "Name": "Homenick Group",
-  "Rank": 907,
-  "Tooltip": "sunt",
+  "ResourceId": 275,
+  "Name": "Towne Inc and Sons",
+  "Rank": 205,
+  "Tooltip": "non",
   "Deleted": false,
-  "IsLocation": false,
-  "LocationAddress": "placeat",
+  "IsLocation": true,
+  "LocationAddress": "libero",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 655
     }
   }
 }

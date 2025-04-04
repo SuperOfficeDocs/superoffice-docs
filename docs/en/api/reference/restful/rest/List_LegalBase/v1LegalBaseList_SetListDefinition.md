@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/LegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 996,
-  "Name": "Strosin-Runolfsdottir",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 117,
+  "Id": 463,
+  "Name": "Lemke Inc and Sons",
+  "Tooltip": "minima",
+  "Deleted": true,
+  "Rank": 329,
   "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "ab",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 454,
-  "Name": "Schamberger, McCullough and Howe",
-  "Tooltip": "et",
+  "Id": 464,
+  "Name": "White-Cronin",
+  "Tooltip": "est",
   "Deleted": true,
-  "Rank": 365,
-  "IsCustomList": true,
+  "Rank": 374,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "commodi",
+  "ListType": "dolorum",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 818
+      "FieldType": "System.String",
+      "FieldLength": 38
     }
   }
 }

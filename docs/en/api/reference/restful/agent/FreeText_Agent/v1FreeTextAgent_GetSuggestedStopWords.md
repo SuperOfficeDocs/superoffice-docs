@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/FreeText/GetSuggestedStopWords
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountWords": 333
+  "CountWords": 907
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 689,
-    "Name": "Dooley-McDermott",
-    "ToolTip": "Iure aperiam est fuga.",
+    "Id": 169,
+    "Name": "Swaniawski LLC",
+    "ToolTip": "Ea eius qui autem est non quas totam.",
     "Deleted": false,
-    "Rank": 610,
-    "Type": "aliquid",
+    "Rank": 168,
+    "Type": "voluptatibus",
     "ChildItems": [
       {
-        "Id": 46,
-        "Name": "Kuhlman-Donnelly",
-        "ToolTip": "Debitis ut distinctio architecto est.",
+        "Id": 557,
+        "Name": "Reinger Inc and Sons",
+        "ToolTip": "Deleniti fuga numquam libero eius aut.",
         "Deleted": false,
-        "Rank": 305,
-        "Type": "omnis",
+        "Rank": 710,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 77,
-        "ExtraInfo": "dicta",
-        "StyleHint": "tempore",
-        "FullName": "Elizabeth Reynolds",
+        "IconHint": "repudiandae",
+        "ColorBlock": 36,
+        "ExtraInfo": "tenetur",
+        "StyleHint": "repudiandae",
+        "FullName": "Ms. Dianna Murray DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 864
+            "FieldType": "System.Int32",
+            "FieldLength": 145
           }
         }
       }
     ],
-    "IconHint": "labore",
-    "ColorBlock": 640,
-    "ExtraInfo": "soluta",
-    "StyleHint": "officia",
-    "FullName": "Miss Gudrun Rohan",
+    "IconHint": "nam",
+    "ColorBlock": 560,
+    "ExtraInfo": "nisi",
+    "StyleHint": "dicta",
+    "FullName": "Miss Tyrel Marks Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 475
+        "FieldLength": 652
       }
     }
   }

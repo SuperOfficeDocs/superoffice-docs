@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -79,28 +79,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 547,
-  "Name": "Herman, Hand and Johns",
-  "Description": "Integrated client-driven success",
-  "DeltaJson": "est",
+  "ConfigurableScreenDeltaId": 94,
+  "Name": "Schumm LLC",
+  "Description": "Synergistic scalable installation",
+  "DeltaJson": "modi",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "enim",
-  "UpdatedDate": "2024-09-27T14:28:21.5710362+02:00",
-  "CreatedDate": "2023-08-02T14:28:21.5710362+02:00",
+  "RecipeId": "ipsa",
+  "UpdatedDate": "2015-10-16T13:13:59.6881883+02:00",
+  "CreatedDate": "2005-04-16T13:13:59.6881883+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    186,
-    97
+    621,
+    141
   ],
-  "AppliesToKey": "molestiae",
+  "AppliesToKey": "sed",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 70
     }
   }
 }

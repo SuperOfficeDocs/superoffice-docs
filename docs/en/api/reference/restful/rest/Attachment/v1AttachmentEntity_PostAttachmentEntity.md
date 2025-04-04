@@ -94,13 +94,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 59,
-  "Name": "Considine, Upton and Mayer",
-  "ContentType": "eos",
-  "AttSize": 216,
+  "AttachmentId": 668,
+  "Name": "Pfeffer, Pfeffer and D'Amore",
+  "ContentType": "accusantium",
+  "AttSize": 542,
   "InlineImage": false,
-  "ContentId": "et",
-  "AuthKey": "dolor",
+  "ContentId": "facere",
+  "AuthKey": "temporibus",
   "IsSafeFileExtension": false
 }
 ```
@@ -112,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 440,
-  "Name": "Kub-Heller",
-  "ContentType": "reiciendis",
-  "AttSize": 846,
-  "InlineImage": true,
-  "ContentId": "quod",
-  "AuthKey": "temporibus",
+  "AttachmentId": 248,
+  "Name": "Kreiger, Roob and Jacobi",
+  "ContentType": "praesentium",
+  "AttSize": 759,
+  "InlineImage": false,
+  "ContentId": "dicta",
+  "AuthKey": "voluptatum",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 370
+      "FieldLength": 31
     }
   },
   "_Links": {

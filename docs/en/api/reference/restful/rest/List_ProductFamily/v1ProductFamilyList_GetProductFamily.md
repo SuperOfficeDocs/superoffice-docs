@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 331,
-  "Name": "Homenick, Blick and Stroman",
-  "Tooltip": "quia",
+  "Id": 460,
+  "Name": "Jakubowski-Rowe",
+  "Tooltip": "aspernatur",
   "Deleted": false,
-  "UdListDefinitionId": 634,
-  "Rank": 81,
+  "UdListDefinitionId": 89,
+  "Rank": 871,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 231
+      "FieldType": "System.Int32",
+      "FieldLength": 326
     }
   }
 }

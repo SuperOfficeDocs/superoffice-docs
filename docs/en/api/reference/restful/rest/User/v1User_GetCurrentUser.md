@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/current
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 668,
-  "Name": "King-Smitham",
-  "Rank": 673,
-  "Tooltip": "aut",
+  "AssociateId": 206,
+  "Name": "Rippin-Anderson",
+  "Rank": 307,
+  "Tooltip": "in",
   "LicenseOwners": [
     {
-      "Name": "Rau-Cummerata",
-      "Description": "Secured maximized matrices",
+      "Name": "Conn-Cole",
+      "Description": "Mandatory directional benchmark",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -111,14 +111,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldType": "System.String",
+          "FieldLength": 979
         }
       }
     },
     {
-      "Name": "Rau-Cummerata",
-      "Description": "Secured maximized matrices",
+      "Name": "Conn-Cole",
+      "Description": "Mandatory directional benchmark",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 621
+          "FieldType": "System.String",
+          "FieldLength": 979
         }
       }
     }
@@ -141,110 +141,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "nesciunt",
-      "Tooltip": "quasi",
-      "Id": 539,
-      "Rank": 869,
-      "Deleted": true,
+      "Value": "accusantium",
+      "Tooltip": "sed",
+      "Id": 683,
+      "Rank": 445,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldLength": 905
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2009-10-09T14:28:27.4457991+02:00",
-  "Lastlogout": "1998-02-18T14:28:27.4457991+01:00",
-  "EjUserId": 707,
-  "RequestSignature": "vitae",
+  "Deleted": true,
+  "Lastlogin": "2016-04-13T13:14:09.5561337+02:00",
+  "Lastlogout": "2025-02-11T13:14:09.5561337+01:00",
+  "EjUserId": 1002,
+  "RequestSignature": "placeat",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "aspernatur",
-      "DisplayValue": "similique",
+      "Value": "odio",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 156
+          "FieldLength": 790
         }
       }
     },
     {
       "Type": null,
-      "Value": "aspernatur",
-      "DisplayValue": "similique",
+      "Value": "odio",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 156
+          "FieldLength": 790
         }
       }
     }
   ],
-  "UserName": "Koss, McLaughlin and Stracke",
+  "UserName": "Shields-Wisozk",
   "TicketCategories": [
     {
-      "Id": 829,
-      "Name": "Yundt Inc and Sons",
-      "ToolTip": "Eum voluptas numquam reprehenderit animi quaerat nulla.",
+      "Id": 435,
+      "Name": "Cronin Inc and Sons",
+      "ToolTip": "Dolores quasi.",
       "Deleted": true,
-      "Rank": 78,
-      "Type": "corrupti",
+      "Rank": 222,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "quidem",
-      "ColorBlock": 833,
-      "ExtraInfo": "quia",
-      "StyleHint": "vel",
-      "FullName": "Benton Cronin",
+      "IconHint": "cumque",
+      "ColorBlock": 349,
+      "ExtraInfo": "non",
+      "StyleHint": "enim",
+      "FullName": "Maegan Daugherty",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 546
+          "FieldLength": 906
         }
       }
     }
   ],
-  "NickName": "Bosco, Upton and Kris",
-  "WaitingForApproval": true,
+  "NickName": "Gerlach, O'Hara and Olson",
+  "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "aut"
+    "ExtraFields1": "explicabo",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "veniam",
-    "CustomFields2": "neque"
+    "CustomFields1": "dicta",
+    "CustomFields2": "recusandae"
   },
   "PostSaveCommands": [
     {
-      "Name": "Dooley Group",
-      "DisplayName": "Ullrich-Homenick",
-      "Description": "Streamlined intangible data-warehouse",
-      "ToolTip": "Vitae repellat quia.",
+      "Name": "Wilderman-Corwin",
+      "DisplayName": "Kulas-DuBuque",
+      "Description": "Open-architected maximized capability",
+      "ToolTip": "Soluta doloribus praesentium dicta qui corrupti eum.",
       "Actions": "Implicit",
-      "ActionData": "modi",
+      "ActionData": "consectetur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 70
+          "FieldLength": 54
         }
       }
     }
@@ -254,7 +254,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 538
+      "FieldLength": 663
     }
   }
 }

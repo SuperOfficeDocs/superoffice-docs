@@ -91,22 +91,22 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 563,
-  "AssociateId": 933,
-  "Caption": "exercitationem",
+  "DashboardId": 211,
+  "AssociateId": 734,
+  "Caption": "ut",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 799,
-      "Caption": "molestias",
-      "Description": "Universal intangible open architecture",
-      "ChartName": "Parker, Hartmann and Hyatt",
-      "ChartId": "doloremque",
-      "IsDefault": false,
-      "AssociateId": 668,
-      "GroupId": 880,
-      "SelectionId": 919,
-      "Config": "enim",
+      "DashboardTileId": 519,
+      "Caption": "omnis",
+      "Description": "Exclusive interactive capability",
+      "ChartName": "Legros, Conn and Schamberger",
+      "ChartId": "similique",
+      "IsDefault": true,
+      "AssociateId": 667,
+      "GroupId": 852,
+      "SelectionId": 408,
+      "Config": "autem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -129,22 +129,22 @@ HTTP/1.1 200 Dashboard updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 565,
-  "AssociateId": 297,
-  "Caption": "quis",
+  "DashboardId": 594,
+  "AssociateId": 352,
+  "Caption": "et",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 192,
-      "Caption": "aperiam",
-      "Description": "Digitized needs-based array",
-      "ChartName": "Schultz Group",
-      "ChartId": "iure",
+      "DashboardTileId": 863,
+      "Caption": "nostrum",
+      "Description": "Exclusive solution-oriented success",
+      "ChartName": "Klein LLC",
+      "ChartId": "aliquid",
       "IsDefault": false,
-      "AssociateId": 822,
-      "GroupId": 498,
-      "SelectionId": 757,
-      "Config": "voluptatum",
+      "AssociateId": 305,
+      "GroupId": 640,
+      "SelectionId": 587,
+      "Config": "esse",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -160,7 +160,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 92
+          "FieldLength": 893
         }
       }
     }
@@ -169,13 +169,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 71
+      "FieldType": "System.Int32",
+      "FieldLength": 340
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

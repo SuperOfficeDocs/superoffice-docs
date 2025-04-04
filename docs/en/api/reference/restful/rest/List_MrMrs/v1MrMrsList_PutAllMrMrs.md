@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Cronin-Gibson",
-    "Tooltip": "a",
-    "Deleted": true,
-    "UdListDefinitionId": 68,
-    "Rank": 28
+    "Id": 151,
+    "Name": "Bayer-Bergnaum",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "UdListDefinitionId": 935,
+    "Rank": 355
   },
   {
-    "Id": 100,
-    "Name": "Cronin-Gibson",
-    "Tooltip": "a",
-    "Deleted": true,
-    "UdListDefinitionId": 68,
-    "Rank": 28
+    "Id": 151,
+    "Name": "Bayer-Bergnaum",
+    "Tooltip": "quia",
+    "Deleted": false,
+    "UdListDefinitionId": 935,
+    "Rank": 355
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 559,
-    "Name": "Mante, Considine and Jerde",
-    "Tooltip": "excepturi",
-    "Deleted": false,
-    "UdListDefinitionId": 721,
-    "Rank": 828,
+    "Id": 57,
+    "Name": "Friesen Inc and Sons",
+    "Tooltip": "alias",
+    "Deleted": true,
+    "UdListDefinitionId": 980,
+    "Rank": 245,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 142
+        "FieldLength": 466
       }
     }
   }

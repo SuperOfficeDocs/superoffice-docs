@@ -135,12 +135,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 598,
-  "AssociateId": 17
+  "AppointmentId": 765,
+  "AssociateId": 12
 }
 ```
 
@@ -155,121 +155,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2000-10-14T14:28:21.3366713+02:00",
-  "AppointmentId": 288,
-  "Description": "Inverse bifurcated customer loyalty",
-  "Title": "ad",
-  "Agenda": "fuga",
-  "InternalNotes": "rerum",
-  "StartDate": "2017-07-19T14:28:21.3366713+02:00",
-  "EndDate": "2012-07-14T14:28:21.3366713+02:00",
+  "CreatedDate": "2022-09-10T13:13:59.2813517+02:00",
+  "AppointmentId": 817,
+  "Description": "Polarised holistic encoding",
+  "Title": "repellendus",
+  "Agenda": "est",
+  "InternalNotes": "autem",
+  "StartDate": "2014-01-29T13:13:59.2813517+01:00",
+  "EndDate": "2002-08-28T13:13:59.2813517+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 435,
+  "MotherId": 558,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2013-05-10T14:28:21.3366713+02:00",
+  "UpdatedDate": "2009-01-23T13:13:59.2813517+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 671,
+  "ActiveLinks": 588,
   "Links": [
     {
-      "EntityName": "Hammes-Abbott",
-      "Id": 610,
-      "Description": "Distributed optimizing matrix",
-      "ExtraInfo": "qui",
-      "LinkId": 776,
+      "EntityName": "Legros-Fay",
+      "Id": 267,
+      "Description": "Operative multi-tasking artificial intelligence",
+      "ExtraInfo": "quia",
+      "LinkId": 481,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 794
+          "FieldType": "System.Int32",
+          "FieldLength": 838
         }
       }
     }
   ],
-  "AlarmLeadTime": "et",
-  "HasAlarm": false,
-  "ColorIndex": 212,
-  "IsFree": true,
+  "AlarmLeadTime": "incidunt",
+  "HasAlarm": true,
+  "ColorIndex": 422,
+  "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "rem",
-  "LeadTime": "sed",
-  "Location": "vel",
-  "RejectCounter": 284,
+  "LagTime": "optio",
+  "LeadTime": "ad",
+  "Location": "aliquam",
+  "RejectCounter": 780,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 979,
-      "PersonId": 808,
-      "ContactId": 521,
-      "EmailId": 683,
+      "AssociateId": 984,
+      "PersonId": 692,
+      "ContactId": 133,
+      "EmailId": 414,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "helen@padberg.com",
-      "Description": "Automated tangible pricing structure"
+      "EmailAddress": "mack@luettgenmonahan.ca",
+      "Description": "Phased uniform firmware"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2015-02-05T14:28:21.3366713+01:00",
+  "ActiveDate": "2005-11-25T13:13:59.2813517+01:00",
   "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 594,
+  "PreferredTZLocation": 970,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 310,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 769,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "in",
+  "CentralserviceVideomeetId": "error",
   "UserDefinedFields": {
-    "SuperOffice:1": "Lisette Feil",
-    "SuperOffice:2": "2024452564"
+    "SuperOffice:1": "1699740484",
+    "SuperOffice:2": "443254059"
   },
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "recusandae"
+    "ExtraFields1": "est",
+    "ExtraFields2": "eum"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "laboriosam"
+    "CustomFields1": "tempora",
+    "CustomFields2": "in"
   },
-  "PublishEventDate": "2007-02-05T14:28:21.3366713+01:00",
-  "PublishTo": "2006-10-04T14:28:21.3366713+02:00",
-  "PublishFrom": "2022-09-17T14:28:21.3366713+02:00",
+  "PublishEventDate": "1998-12-30T13:13:59.2813517+01:00",
+  "PublishTo": "2024-07-19T13:13:59.2813517+02:00",
+  "PublishFrom": "1998-09-27T13:13:59.2813517+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 206,
+      "VisibleId": 166,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 759
+          "FieldLength": 172
         }
       }
     },
     {
-      "VisibleId": 206,
+      "VisibleId": 166,
       "Visibility": "All",
-      "DisplayValue": "ipsam",
+      "DisplayValue": "quo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 759
+          "FieldLength": 172
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 927
+      "FieldType": "System.String",
+      "FieldLength": 842
     }
   }
 }

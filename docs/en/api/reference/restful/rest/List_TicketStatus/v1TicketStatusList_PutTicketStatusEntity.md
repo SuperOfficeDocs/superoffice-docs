@@ -86,13 +86,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 920,
-  "Name": "McClure, Funk and Feeney",
+  "TicketStatusId": 612,
+  "Name": "Bergnaum-Koelpin",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": true,
   "IsDefault": false,
-  "UsedInQueue": true
+  "UsedInQueue": false
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketStatusId": 561,
-  "Name": "Blanda, Yost and Graham",
+  "TicketStatusId": 361,
+  "Name": "Kozey-Harber",
   "Status": "Active",
   "TimeCounter": "Externally",
   "NoEmailReopen": false,
-  "IsDefault": true,
-  "UsedInQueue": false,
+  "IsDefault": false,
+  "UsedInQueue": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 958
     }
   }
 }

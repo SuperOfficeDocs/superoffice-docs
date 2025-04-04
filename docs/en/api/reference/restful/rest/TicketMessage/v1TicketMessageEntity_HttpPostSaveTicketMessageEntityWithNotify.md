@@ -127,63 +127,63 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 217,
+  "EjMessageId": 276,
   "Ticket": null,
-  "CreatedAt": "1998-09-15T14:28:27.3208039+02:00",
+  "CreatedAt": "2010-12-29T13:14:09.3216528+01:00",
   "CreatedBy": null,
-  "Author": "nisi",
+  "Author": "omnis",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nisi",
-  "TimeSpent": 44,
-  "Body": "quod",
-  "HtmlBody": "ut",
-  "EmailHeader": "geraldine_kemmer@kozeywuckert.name",
-  "DebugInfo": "dolores",
-  "MailSorter": "fugiat",
+  "MessageId": "animi",
+  "TimeSpent": 859,
+  "Body": "corrupti",
+  "HtmlBody": "perferendis",
+  "EmailHeader": "myrtle@stehrbotsford.uk",
+  "DebugInfo": "ab",
+  "MailSorter": "voluptate",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "alias",
+  "SearchTitle": "iusto",
   "MessageHeaders": [
     {
-      "Id": 811,
-      "Name": "Jacobi, Willms and Monahan",
-      "Value": "maxime",
+      "Id": 458,
+      "Name": "Huel, Brekke and Botsford",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 811,
-      "Name": "Jacobi, Willms and Monahan",
-      "Value": "maxime",
+      "Id": 458,
+      "Name": "Huel, Brekke and Botsford",
+      "Value": "aut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
-  "Important": true,
-  "Language": "illum",
-  "Sentiment": 641,
-  "SentimentConfidence": 239,
+  "Important": false,
+  "Language": "commodi",
+  "Sentiment": 348,
+  "SentimentConfidence": 791,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 512,
-      "Name": "Schaefer-Pollich",
-      "ContentType": "commodi",
-      "AttSize": 853,
-      "InlineImage": false,
-      "ContentId": "qui",
+      "AttachmentId": 112,
+      "Name": "Mayer-Rosenbaum",
+      "ContentType": "et",
+      "AttSize": 520,
+      "InlineImage": true,
+      "ContentId": "quos",
       "AuthKey": "ut",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "libero",
-    "ExtraFields2": "quo"
+    "ExtraFields1": "excepturi",
+    "ExtraFields2": "consequatur"
   },
   "CustomFields": {
-    "CustomFields1": "incidunt",
-    "CustomFields2": "mollitia"
+    "CustomFields1": "qui",
+    "CustomFields2": "autem"
   }
 }
 ```
@@ -195,28 +195,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 851,
+  "EjMessageId": 594,
   "Ticket": null,
-  "CreatedAt": "2020-09-27T14:28:27.3208039+02:00",
+  "CreatedAt": "2001-06-07T13:14:09.3372786+02:00",
   "CreatedBy": null,
-  "Author": "debitis",
+  "Author": "tenetur",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "quasi",
-  "TimeSpent": 435,
-  "Body": "minima",
-  "HtmlBody": "autem",
-  "EmailHeader": "brooklyn_gerlach@weissnatkeeling.uk",
-  "DebugInfo": "unde",
-  "MailSorter": "optio",
+  "MessageId": "rerum",
+  "TimeSpent": 50,
+  "Body": "rerum",
+  "HtmlBody": "est",
+  "EmailHeader": "fay_gaylord@jacobi.ca",
+  "DebugInfo": "at",
+  "MailSorter": "blanditiis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "assumenda",
+  "SearchTitle": "illum",
   "MessageHeaders": [
     {
-      "Id": 784,
-      "Name": "Dicki-Brown",
-      "Value": "expedita",
+      "Id": 260,
+      "Name": "Skiles Group",
+      "Value": "velit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -224,50 +224,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 854
+          "FieldLength": 948
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "nam",
-  "Sentiment": 874,
-  "SentimentConfidence": 814,
+  "Important": false,
+  "Language": "ex",
+  "Sentiment": 973,
+  "SentimentConfidence": 574,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 603,
-      "Name": "Schmeler-Schiller",
-      "ContentType": "aut",
-      "AttSize": 919,
+      "AttachmentId": 453,
+      "Name": "Vandervort, Flatley and Kuhic",
+      "ContentType": "odit",
+      "AttSize": 699,
       "InlineImage": true,
-      "ContentId": "qui",
-      "AuthKey": "ducimus",
+      "ContentId": "maiores",
+      "AuthKey": "consequatur",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 591
+          "FieldLength": 377
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "tempora",
+    "ExtraFields2": "voluptatem"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "voluptate"
+    "CustomFields1": "ab",
+    "CustomFields2": "iste"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 783
+      "FieldType": "System.String",
+      "FieldLength": 307
     }
   }
 }

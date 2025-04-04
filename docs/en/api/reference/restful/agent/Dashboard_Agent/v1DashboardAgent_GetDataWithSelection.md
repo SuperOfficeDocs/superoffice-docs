@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 314,
-  "SelectionId": 279,
-  "Restrictions": "et"
+  "DashboardTileId": 534,
+  "SelectionId": 75,
+  "Restrictions": "consequuntur"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Spencer-Ortiz",
-        "DisplayTooltip": "voluptatem",
-        "DisplayType": "fuga",
+        "DisplayName": "Sipes Group",
+        "DisplayTooltip": "aliquid",
+        "DisplayType": "dolorum",
         "CanOrderBy": true,
-        "Name": "Mayert-Harber",
-        "CanRestrictBy": false,
-        "RestrictionType": "ea",
-        "RestrictionListName": "Halvorson-Walker",
+        "Name": "Grady Group",
+        "CanRestrictBy": true,
+        "RestrictionType": "quod",
+        "RestrictionListName": "Rippin Inc and Sons",
         "IsVisible": false,
-        "ExtraInfo": "vitae",
-        "Width": "ut",
-        "IconHint": "laboriosam",
-        "HeadingIconHint": "error"
+        "ExtraInfo": "est",
+        "Width": "eveniet",
+        "IconHint": "commodi",
+        "HeadingIconHint": "nostrum"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Spencer-Ortiz",
-        "DisplayTooltip": "voluptatem",
-        "DisplayType": "fuga",
+        "DisplayName": "Sipes Group",
+        "DisplayTooltip": "aliquid",
+        "DisplayType": "dolorum",
         "CanOrderBy": true,
-        "Name": "Mayert-Harber",
-        "CanRestrictBy": false,
-        "RestrictionType": "ea",
-        "RestrictionListName": "Halvorson-Walker",
+        "Name": "Grady Group",
+        "CanRestrictBy": true,
+        "RestrictionType": "quod",
+        "RestrictionListName": "Rippin Inc and Sons",
         "IsVisible": false,
-        "ExtraInfo": "vitae",
-        "Width": "ut",
-        "IconHint": "laboriosam",
-        "HeadingIconHint": "error"
+        "ExtraInfo": "est",
+        "Width": "eveniet",
+        "IconHint": "commodi",
+        "HeadingIconHint": "nostrum"
       }
     ],
     "Result": null

@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 639,
-  "Name": "Huels Inc and Sons"
+  "DashboardId": 484,
+  "Name": "Stiedemann Inc and Sons"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 206,
-  "UniqueId": "commodi",
-  "Name": "Hyatt, Ratke and Hayes",
-  "Description": "Multi-channelled non-volatile superstructure",
-  "AssociateId": 598,
-  "Columns": 6,
+  "DashboardId": 373,
+  "UniqueId": "possimus",
+  "Name": "Weimann, Kshlerin and Nicolas",
+  "Description": "Integrated systematic matrices",
+  "AssociateId": 887,
+  "Columns": 641,
   "Theme": null,
-  "VisibleForAll": 322,
+  "VisibleForAll": 508,
   "VisibleForAssociates": [
-    380,
-    918
+    929,
+    432
   ],
   "VisibleForGroups": [
-    936,
-    338
+    948,
+    664
   ],
-  "PinForAll": 898,
+  "PinForAll": 427,
   "PinForAssociates": [
-    226,
-    358
+    908,
+    278
   ],
   "PinForGroups": [
-    114,
-    276
+    6,
+    35
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 567
+      "FieldType": "System.String",
+      "FieldLength": 735
     }
   }
 }

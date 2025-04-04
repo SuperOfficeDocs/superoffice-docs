@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 623,
-  "Name": "Witting Group",
-  "TZLocationCode": "enim",
-  "TZLocationCities": "doloremque",
-  "IsoNumber": 630,
+  "TZLocationID": 820,
+  "Name": "Muller, Prosacco and Labadie",
+  "TZLocationCode": "fugit",
+  "TZLocationCities": "omnis",
+  "IsoNumber": 892,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 19,
-      "StartMonth": 455,
-      "EndDay": 962,
-      "EndMonth": 402,
-      "TZOffset": 442,
-      "StartRulePattern": "iure",
-      "EndRulePattern": "quae"
+      "StartDay": 852,
+      "StartMonth": 9,
+      "EndDay": 918,
+      "EndMonth": 989,
+      "TZOffset": 81,
+      "StartRulePattern": "ducimus",
+      "EndRulePattern": "pariatur"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 549,
-      "StartMonth": 457,
-      "EndDay": 585,
-      "EndMonth": 802,
-      "TZOffset": 555,
-      "StartRulePattern": "a",
-      "EndRulePattern": "veritatis"
+      "StartDay": 888,
+      "StartMonth": 968,
+      "EndDay": 7,
+      "EndMonth": 245,
+      "TZOffset": 680,
+      "StartRulePattern": "numquam",
+      "EndRulePattern": "dolor"
     }
   }
 }

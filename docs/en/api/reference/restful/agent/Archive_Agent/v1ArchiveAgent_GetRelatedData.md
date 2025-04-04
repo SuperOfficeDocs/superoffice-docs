@@ -80,11 +80,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "quam",
-  "RecordId": 100,
+  "Table": "accusantium",
+  "RecordId": 665,
   "Fields": [
-    "est",
-    "mollitia"
+    "quos",
+    "quo"
   ]
 }
 ```
@@ -97,11 +97,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "dignissimos",
+    "Field": "laborum",
     "FieldValue": null
   },
   {
-    "Field": "dignissimos",
+    "Field": "laborum",
     "FieldValue": null
   }
 ]

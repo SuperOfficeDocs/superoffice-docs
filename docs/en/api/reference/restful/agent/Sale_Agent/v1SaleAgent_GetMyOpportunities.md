@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetMyOpportunities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Count": 31
+  "Count": 528
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Parker-Bartell",
-    "SaleDate": "2013-07-16T14:28:22.3678792+02:00",
-    "SaleId": 646,
-    "Probability": 457,
-    "Title": "sunt",
-    "Amount": 12119.178,
-    "Currency": "debitis",
-    "ProjectName": "Durgan-Fahey",
-    "AssociateFullName": "Vita Miller",
-    "Description": "Universal leading edge hardware",
+    "ContactName": "Gerlach, Schmitt and Gaylord",
+    "SaleDate": "2015-07-27T13:14:01.1274981+02:00",
+    "SaleId": 815,
+    "Probability": 952,
+    "Title": "dolor",
+    "Amount": 27563.53,
+    "Currency": "quod",
+    "ProjectName": "McCullough, Braun and Sipes",
+    "AssociateFullName": "Leola Kling",
+    "Description": "Synergized uniform contingency",
     "Status": "Lost",
-    "WeightedAmount": 17735.306,
-    "ProjectId": 859,
-    "EarningPercent": 7502.7959999999994,
-    "Earning": 17597.41,
-    "ContactId": 418,
-    "AssociateId": 584,
-    "PersonId": 341,
-    "SaleTypeId": 200,
-    "SaleTypeName": "Block, Goyette and Ryan",
-    "PersonFullName": "Christina White",
+    "WeightedAmount": 8170.338,
+    "ProjectId": 959,
+    "EarningPercent": 18860.412,
+    "Earning": 27030.75,
+    "ContactId": 463,
+    "AssociateId": 112,
+    "PersonId": 596,
+    "SaleTypeId": 488,
+    "SaleTypeName": "Powlowski, Jones and Stark",
+    "PersonFullName": "Wilfred Bruen",
     "Completed": "Completed",
-    "ActiveErpLinks": 895,
-    "NextDueDate": "2011-10-28T14:28:22.3678792+02:00",
-    "Number": "1209668",
+    "ActiveErpLinks": 672,
+    "NextDueDate": "2010-05-26T13:14:01.1274981+02:00",
+    "Number": "695680",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 691
+        "FieldLength": 88
       }
     }
   }

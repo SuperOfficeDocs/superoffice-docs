@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,36 +93,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 793,
-    "ParentId": 972,
-    "Name": "Heathcote, Padberg and Beatty",
-    "Fullname": "illo",
-    "CategoryMaster": 951,
+    "TicketCategoryId": 775,
+    "ParentId": 605,
+    "Name": "Yundt, Russel and Walsh",
+    "Fullname": "ducimus",
+    "CategoryMaster": 15,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "West, Sawayn and Hammes",
+    "ExternalName": "Little Inc and Sons",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 800,
-    "ReplyTemplate": 259,
-    "NotificationEmail": "issac.hickle@wuckert.us",
+    "AssignmentLag": 257,
+    "ReplyTemplate": 216,
+    "NotificationEmail": "leopoldo_connelly@erdman.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 582,
+    "EffectiveReplyTemplateId": 796,
     "ExtraFields": {
-      "ExtraFields1": "animi",
-      "ExtraFields2": "repudiandae"
+      "ExtraFields1": "tempore",
+      "ExtraFields2": "ipsa"
     },
     "CustomFields": {
-      "CustomFields1": "asperiores",
-      "CustomFields2": "autem"
+      "CustomFields1": "corporis",
+      "CustomFields2": "earum"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 202
+        "FieldLength": 608
       }
     }
   }

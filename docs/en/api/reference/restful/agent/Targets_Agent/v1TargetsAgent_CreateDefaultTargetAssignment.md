@@ -75,24 +75,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 156,
+  "TargetAssignmentInfoId": 838,
   "Values": [
-    959,
-    587
+    895,
+    199
   ],
   "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 583,
-  "DimensionListItemDisplayName": "Kuhlman-Ebert",
+  "DimensionListItem": 974,
+  "DimensionListItemDisplayName": "Waelchi Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 671
+      "FieldLength": 466
     }
   }
 }

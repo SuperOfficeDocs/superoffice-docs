@@ -65,32 +65,32 @@ No Content
 POST /api/v1/Agents/Sale/AddSaleStakeholders
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 905,
+  "SaleId": 157,
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Gaylord, Morissette and Upton",
-      "Comment": "voluptatem",
-      "StakeholderRoleId": 730,
-      "CountryId": 403,
-      "PersonId": 938,
-      "EmailDescription": "madisyn_pollich@crist.uk",
-      "EmailId": 783,
-      "EmailAddress": "maria_veum@jerdebins.com",
-      "PhoneId": 790,
-      "ContactName": "Greenholt, O'Conner and Nikolaus",
-      "ContactId": 108,
-      "SaleId": 537,
-      "Mrmrs": "et",
-      "Firstname": "Mattie",
-      "MiddleName": "Harris Inc and Sons",
-      "Lastname": "Spencer",
-      "SaleStakeholderId": 828,
-      "Rank": 591,
-      "Phone": "(843)646-9794 x67406"
+      "StakeholderRoleName": "Kautzer LLC",
+      "Comment": "sit",
+      "StakeholderRoleId": 394,
+      "CountryId": 59,
+      "PersonId": 248,
+      "EmailDescription": "camille@kertzmann.info",
+      "EmailId": 61,
+      "EmailAddress": "jesse.kuhic@adams.biz",
+      "PhoneId": 383,
+      "ContactName": "Emmerich, Bechtelar and Kutch",
+      "ContactId": 149,
+      "SaleId": 599,
+      "Mrmrs": "illo",
+      "Firstname": "April",
+      "MiddleName": "Lebsack Inc and Sons",
+      "Lastname": "Connelly",
+      "SaleStakeholderId": 320,
+      "Rank": 220,
+      "Phone": "1-850-902-3551 x253"
     }
   ]
 }

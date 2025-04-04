@@ -26,8 +26,8 @@ Get the MDO list items for "ConsentSource" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ConsentSource/MDOItems?flat=False
-GET /api/v1/List/ConsentSource/MDOItems?query=perspiciatis
+GET /api/v1/List/ConsentSource/MDOItems?flat=True
+GET /api/v1/List/ConsentSource/MDOItems?query=enim
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 964,
-    "Name": "Kautzer Inc and Sons",
-    "ToolTip": "Vel eum repellendus esse.",
-    "Deleted": true,
-    "Rank": 694,
-    "Type": "aut",
+    "Id": 258,
+    "Name": "Hessel Inc and Sons",
+    "ToolTip": "Enim dolorum ut.",
+    "Deleted": false,
+    "Rank": 162,
+    "Type": "officia",
     "ChildItems": [
       {
-        "Id": 244,
-        "Name": "Walker-Stamm",
-        "ToolTip": "Eum dolor libero laboriosam.",
+        "Id": 963,
+        "Name": "Schmitt, Kshlerin and Monahan",
+        "ToolTip": "Aperiam sit qui fuga voluptas molestias ad tempore.",
         "Deleted": false,
-        "Rank": 920,
-        "Type": "hic",
+        "Rank": 890,
+        "Type": "ad",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 520,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "architecto",
-        "FullName": "Prof. Rachael Gerda Hand IV",
+        "IconHint": "ipsum",
+        "ColorBlock": 143,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "quas",
+        "FullName": "Jade Bins",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 37
+            "FieldType": "System.Int32",
+            "FieldLength": 344
           }
         }
       }
     ],
-    "IconHint": "consequatur",
-    "ColorBlock": 708,
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "est",
-    "FullName": "Amari Witting",
+    "IconHint": "sint",
+    "ColorBlock": 244,
+    "ExtraInfo": "sequi",
+    "StyleHint": "maxime",
+    "FullName": "Marcelle Stroman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 153
+        "FieldLength": 989
       }
     }
   }

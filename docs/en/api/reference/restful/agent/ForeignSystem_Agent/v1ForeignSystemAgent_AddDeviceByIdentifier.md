@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wyman, Yost and Schuster",
-  "DeviceName": "Doyle-Berge",
-  "DeviceIdentifier": "sit"
+  "ApplicationName": "Feest LLC",
+  "DeviceName": "Crona-Lang",
+  "DeviceIdentifier": "et"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 336,
-  "Name": "Botsford, Trantow and Swaniawski",
-  "CreatedDate": "2021-11-23T14:28:22.0085182+01:00",
-  "UpdatedDate": "2008-11-08T14:28:22.0085182+01:00",
-  "AssociateFullName": "Marlee Klocko",
-  "CreatedBy": "dolorum",
-  "UpdatedBy": "et",
-  "DeviceIdentifier": "consectetur",
-  "ForeignAppId": 228,
+  "ForeignDeviceId": 959,
+  "Name": "Simonis Group",
+  "CreatedDate": "2012-02-18T13:14:00.5012353+01:00",
+  "UpdatedDate": "2019-03-14T13:14:00.5012353+01:00",
+  "AssociateFullName": "Kayden Murray",
+  "CreatedBy": "eos",
+  "UpdatedBy": "aliquid",
+  "DeviceIdentifier": "enim",
+  "ForeignAppId": 633,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 163
+      "FieldLength": 445
     }
   }
 }

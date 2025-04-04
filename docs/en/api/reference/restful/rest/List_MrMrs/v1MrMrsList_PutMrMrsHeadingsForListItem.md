@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 712,
-    "Name": "Thiel-Schoen",
-    "ToolTip": "Repudiandae magnam possimus qui.",
-    "Deleted": false,
-    "Rank": 185,
-    "Type": "et",
-    "ColorBlock": 424,
-    "IconHint": "temporibus",
-    "Selected": false,
-    "LastChanged": "2000-12-12T14:28:27.5864176+01:00",
+    "Id": 837,
+    "Name": "Heathcote, Beier and Hahn",
+    "ToolTip": "Libero ut inventore repudiandae quisquam.",
+    "Deleted": true,
+    "Rank": 353,
+    "Type": "ea",
+    "ColorBlock": 3,
+    "IconHint": "eos",
+    "Selected": true,
+    "LastChanged": "2004-09-08T13:14:09.8222767+02:00",
     "ChildItems": [
       {
-        "Id": 791,
-        "Name": "Lind LLC",
-        "ToolTip": "Mollitia sunt voluptate totam alias omnis ea minima.",
+        "Id": 520,
+        "Name": "Doyle-Gorczany",
+        "ToolTip": "Vel veniam quibusdam in eum ab autem aut.",
         "Deleted": false,
-        "Rank": 390,
-        "Type": "inventore",
-        "ColorBlock": 333,
-        "IconHint": "dolorum",
+        "Rank": 334,
+        "Type": "impedit",
+        "ColorBlock": 468,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2005-10-22T14:28:27.5864176+02:00",
+        "LastChanged": "1998-11-10T13:14:09.8222767+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "quia",
-        "Hidden": true,
-        "FullName": "Zachary Renner"
+        "ExtraInfo": "non",
+        "StyleHint": "similique",
+        "Hidden": false,
+        "FullName": "Christopher Thompson MD"
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "omnis",
+    "ExtraInfo": "iste",
+    "StyleHint": "possimus",
     "Hidden": false,
-    "FullName": "Alex Beatty"
+    "FullName": "Miss Chelsie Adriana Jerde II"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 769,
-    "Name": "Kuvalis-Kuhlman",
-    "ToolTip": "Quo ipsa.",
-    "Deleted": true,
-    "Rank": 22,
-    "Type": "voluptas",
-    "ColorBlock": 306,
-    "IconHint": "in",
+    "Id": 245,
+    "Name": "Hessel-Raynor",
+    "ToolTip": "Ut accusantium quo necessitatibus et cupiditate.",
+    "Deleted": false,
+    "Rank": 466,
+    "Type": "asperiores",
+    "ColorBlock": 731,
+    "IconHint": "maxime",
     "Selected": false,
-    "LastChanged": "2019-01-03T14:28:27.5864176+01:00",
+    "LastChanged": "2021-02-22T13:14:09.8222767+01:00",
     "ChildItems": [
       {
-        "Id": 206,
-        "Name": "Greenholt LLC",
-        "ToolTip": "Est id aut fugit error perferendis.",
-        "Deleted": true,
-        "Rank": 55,
-        "Type": "aut",
-        "ColorBlock": 550,
-        "IconHint": "sit",
+        "Id": 452,
+        "Name": "Erdman-Hodkiewicz",
+        "ToolTip": "Voluptatem inventore voluptatem maiores.",
+        "Deleted": false,
+        "Rank": 487,
+        "Type": "nobis",
+        "ColorBlock": 328,
+        "IconHint": "explicabo",
         "Selected": false,
-        "LastChanged": "2017-02-20T14:28:27.5864176+01:00",
+        "LastChanged": "2021-05-19T13:14:09.8222767+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "aut",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Omer Fadel",
+        "FullName": "Mellie Schoen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 736
+            "FieldLength": 405
           }
         }
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "laudantium",
+    "StyleHint": "amet",
     "Hidden": false,
-    "FullName": "Ellsworth Kris",
+    "FullName": "Chase O'Keefe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 501
+        "FieldType": "System.String",
+        "FieldLength": 622
       }
     }
   }

@@ -122,18 +122,18 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "temporibus",
+    "path": "esse",
     "value": {}
   },
   {
     "op": "add",
-    "path": "temporibus",
+    "path": "esse",
     "value": {}
   }
 ]
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 134,
-  "Name": "Hansen, Hegmann and Wisozk",
-  "Tooltip": "eaque",
+  "RoleId": 125,
+  "Name": "Kovacek, Stiedemann and Schneider",
+  "Tooltip": "qui",
   "RoleType": "Anonymous",
-  "Deleted": 695,
-  "Rank": 290,
-  "Created": "2011-04-19T14:28:27.1804149+02:00",
-  "UseCategories": 726,
+  "Deleted": 325,
+  "Rank": 224,
+  "Created": "2017-05-26T13:14:08.9773824+02:00",
+  "UseCategories": 91,
   "CreatedBy": null,
-  "Updated": "2011-12-09T14:28:27.1804149+01:00",
+  "Updated": "2012-09-27T13:14:08.9930077+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 337
     }
   },
   "_Links": {

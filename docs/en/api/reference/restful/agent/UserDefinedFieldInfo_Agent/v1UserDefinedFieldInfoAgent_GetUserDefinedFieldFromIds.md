@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    80,
-    29
+    827,
+    160
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 924,
-    "ColumnId": 585,
-    "FieldDefault": "sequi",
-    "FieldHeight": 898,
-    "FieldLabel": "autem",
-    "FieldLeft": 495,
-    "FieldTop": 869,
+    "UDefFieldId": 268,
+    "ColumnId": 60,
+    "FieldDefault": "iste",
+    "FieldHeight": 412,
+    "FieldLabel": "illum",
+    "FieldLeft": 753,
+    "FieldTop": 673,
     "FieldType": "Checkbox",
-    "FieldWidth": 727,
-    "FormatMask": "perferendis",
-    "HideLabel": true,
+    "FieldWidth": 756,
+    "FormatMask": "voluptas",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 236,
-    "LabelLeft": 561,
-    "LabelTop": 971,
-    "LabelWidth": 572,
-    "LastVersionId": 186,
-    "ListTableId": 211,
-    "IsMandatory": true,
+    "LabelHeight": 462,
+    "LabelLeft": 913,
+    "LabelTop": 862,
+    "LabelWidth": 562,
+    "LastVersionId": 330,
+    "ListTableId": 873,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 349,
-    "ProgId": "commodi",
+    "Page1LineNo": 322,
+    "ProgId": "rerum",
     "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 158,
-    "TextLength": 600,
-    "Tooltip": "sit",
-    "UdefIdentity": 687,
-    "UDListDefinitionId": 62,
+    "ShortLabel": "aliquid",
+    "TabOrder": 932,
+    "TextLength": 40,
+    "Tooltip": "et",
+    "UdefIdentity": 704,
+    "UDListDefinitionId": 215,
     "Justification": "Center",
-    "Version": 771,
-    "TemplateVariableName": "Von Inc and Sons",
-    "HasBeenPublished": true,
-    "MdoListName": "Cronin, McKenzie and Champlin",
+    "Version": 884,
+    "TemplateVariableName": "Barrows-Wolf",
+    "HasBeenPublished": false,
+    "MdoListName": "Yundt, Roob and Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 83
+        "FieldLength": 544
       }
     }
   }

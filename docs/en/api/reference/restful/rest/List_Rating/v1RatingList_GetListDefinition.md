@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 547,
-  "Name": "Treutel, Boyer and Mante",
-  "Tooltip": "pariatur",
+  "Id": 755,
+  "Name": "Armstrong Inc and Sons",
+  "Tooltip": "unde",
   "Deleted": false,
-  "Rank": 241,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 289,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "doloribus",
-  "InUseByUserDefinedFields": true,
+  "ListType": "voluptatum",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 599
+      "FieldLength": 40
     }
   },
   "_Links": {

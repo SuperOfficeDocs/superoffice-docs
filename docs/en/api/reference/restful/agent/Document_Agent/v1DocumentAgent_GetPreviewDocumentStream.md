@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 588
+  "DocumentId": 505
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Langworth, Ratke and Hauck",
-  "Type": "dicta",
-  "Size": 521,
+  "Name": "Bashirian Inc and Sons",
+  "Type": "qui",
+  "Size": 634,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 928
+      "FieldLength": 420
     }
   }
 }

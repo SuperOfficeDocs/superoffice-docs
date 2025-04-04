@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Satterfield-Cartwright",
-    "ToolTip": "Laborum qui cumque non error cumque.",
-    "Deleted": false,
-    "Rank": 870,
-    "Type": "dolor",
-    "ColorBlock": 73,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2024-07-04T14:28:27.5707933+02:00",
+    "Id": 973,
+    "Name": "Schneider, Thompson and Murray",
+    "ToolTip": "Maxime corrupti tempore consequatur ex nostrum pariatur aliquam.",
+    "Deleted": true,
+    "Rank": 29,
+    "Type": "deleniti",
+    "ColorBlock": 391,
+    "IconHint": "non",
+    "Selected": true,
+    "LastChanged": "2002-06-08T13:14:09.7753986+02:00",
     "ChildItems": [
       {
-        "Id": 725,
-        "Name": "Kuhic, Beatty and Rogahn",
-        "ToolTip": "Sed suscipit iusto.",
-        "Deleted": false,
-        "Rank": 401,
-        "Type": "dolorem",
-        "ColorBlock": 807,
-        "IconHint": "omnis",
+        "Id": 235,
+        "Name": "Bruen-Orn",
+        "ToolTip": "Exercitationem a unde accusamus.",
+        "Deleted": true,
+        "Rank": 994,
+        "Type": "et",
+        "ColorBlock": 450,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2024-10-28T14:28:27.5707933+01:00",
+        "LastChanged": "1999-10-03T13:14:09.7753986+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "omnis",
+        "ExtraInfo": "quia",
+        "StyleHint": "laboriosam",
         "Hidden": false,
-        "FullName": "Carmella Lesch"
+        "FullName": "Dr. Okey Feeney"
       }
     ],
-    "ExtraInfo": "velit",
-    "StyleHint": "sed",
+    "ExtraInfo": "commodi",
+    "StyleHint": "doloribus",
     "Hidden": false,
-    "FullName": "Oran Tillman"
+    "FullName": "Dr. Darrick Malvina Johnston"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 701,
-    "Name": "Barrows, Nader and Hoeger",
-    "ToolTip": "Quo autem tempore.",
+    "Id": 802,
+    "Name": "Blanda LLC",
+    "ToolTip": "Aut quo aut et.",
     "Deleted": true,
-    "Rank": 925,
-    "Type": "hic",
-    "ColorBlock": 743,
-    "IconHint": "fugiat",
+    "Rank": 880,
+    "Type": "et",
+    "ColorBlock": 646,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2006-08-25T14:28:27.5707933+02:00",
+    "LastChanged": "2016-08-19T13:14:09.7753986+02:00",
     "ChildItems": [
       {
-        "Id": 193,
-        "Name": "Kirlin LLC",
-        "ToolTip": "Veniam sit.",
+        "Id": 391,
+        "Name": "Feil-Turcotte",
+        "ToolTip": "Qui fugiat eos ipsam dolore consequatur voluptatum.",
         "Deleted": true,
-        "Rank": 520,
-        "Type": "omnis",
-        "ColorBlock": 188,
-        "IconHint": "ex",
-        "Selected": false,
-        "LastChanged": "2003-10-21T14:28:27.5707933+02:00",
+        "Rank": 964,
+        "Type": "quia",
+        "ColorBlock": 884,
+        "IconHint": "eius",
+        "Selected": true,
+        "LastChanged": "2023-06-19T13:14:09.7753986+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "qui",
+        "ExtraInfo": "vitae",
+        "StyleHint": "optio",
         "Hidden": true,
-        "FullName": "Miss Ayla Farrell",
+        "FullName": "Zane Cummerata",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 924
+            "FieldLength": 188
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Jonathan Petra Macejkovic II",
+    "ExtraInfo": "eius",
+    "StyleHint": "at",
+    "Hidden": true,
+    "FullName": "Lonnie Schmitt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldLength": 997
       }
     }
   }

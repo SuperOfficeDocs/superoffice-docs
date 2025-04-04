@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Gislason-Friesen",
-    "ToolTip": "Impedit eos et voluptates incidunt quasi quasi repellat.",
+    "Id": 134,
+    "Name": "Hintz-Gislason",
+    "ToolTip": "Eligendi nihil enim modi.",
     "Deleted": false,
-    "Rank": 807,
-    "Type": "amet",
-    "ColorBlock": 524,
-    "IconHint": "incidunt",
-    "Selected": true,
-    "LastChanged": "2024-03-17T14:28:27.6801638+01:00",
+    "Rank": 982,
+    "Type": "voluptatum",
+    "ColorBlock": 577,
+    "IconHint": "illo",
+    "Selected": false,
+    "LastChanged": "2009-06-12T13:14:10.0097876+02:00",
     "ChildItems": [
       {
-        "Id": 870,
-        "Name": "Kuvalis, Koss and Rolfson",
-        "ToolTip": "Et debitis totam voluptates.",
+        "Id": 588,
+        "Name": "Ratke-Kohler",
+        "ToolTip": "Sed labore beatae aut nobis laudantium.",
         "Deleted": false,
-        "Rank": 330,
-        "Type": "fugiat",
-        "ColorBlock": 223,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2013-10-06T14:28:27.6801638+02:00",
+        "Rank": 595,
+        "Type": "voluptate",
+        "ColorBlock": 168,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2012-01-03T13:14:10.0097876+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sequi",
-        "StyleHint": "nisi",
-        "Hidden": false,
-        "FullName": "Alba Bayer",
+        "ExtraInfo": "autem",
+        "StyleHint": "doloremque",
+        "Hidden": true,
+        "FullName": "Liam Herman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 506
+            "FieldLength": 180
           }
         }
       }
     ],
-    "ExtraInfo": "natus",
-    "StyleHint": "aut",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "ut",
     "Hidden": true,
-    "FullName": "Miss Andrew Crist",
+    "FullName": "Mrs. Nola Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 838
+        "FieldType": "System.Int32",
+        "FieldLength": 685
       }
     }
   }

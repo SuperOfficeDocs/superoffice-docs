@@ -71,29 +71,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 722,
-  "NumDocumentsAlreadyMigrated": 535,
+  "NumDocumentsOmitted": 980,
+  "NumDocumentsAlreadyMigrated": 376,
   "Documents": [
     {
-      "DocumentId": 88,
-      "ContactId": 62,
-      "PersonId": 274,
-      "SaleId": 706,
-      "ProjectId": 941,
-      "DocTmplId": 398,
-      "AssociateId": 603,
-      "UserGroupId": 590,
-      "VisibleForId": 4
+      "DocumentId": 178,
+      "ContactId": 172,
+      "PersonId": 705,
+      "SaleId": 362,
+      "ProjectId": 199,
+      "DocTmplId": 976,
+      "AssociateId": 720,
+      "UserGroupId": 696,
+      "VisibleForId": 556
     }
   ],
   "Associates": [
     {
-      "AssociateId": 168,
-      "EmailAddress": "owen.weber@schulist.ca"
+      "AssociateId": 917,
+      "EmailAddress": "benton_orn@schimmel.co.uk"
     },
     {
-      "AssociateId": 168,
-      "EmailAddress": "owen.weber@schulist.ca"
+      "AssociateId": 917,
+      "EmailAddress": "benton_orn@schimmel.co.uk"
     }
   ]
 }

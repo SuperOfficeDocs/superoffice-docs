@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 244,
-  "Name": "Kuvalis-Willms",
-  "Tooltip": "tenetur",
-  "VisibleColumns": 874,
-  "Rank": 985,
-  "AssocId": 633,
+  "DiaryViewId": 145,
+  "Name": "Wolf, Heaney and Hansen",
+  "Tooltip": "in",
+  "VisibleColumns": 522,
+  "Rank": 570,
+  "AssocId": 677,
   "AssociateList": [
     {
-      "Id": 973,
-      "Name": "Stokes-McKenzie",
-      "ToolTip": "Sunt facilis laborum beatae.",
+      "Id": 839,
+      "Name": "Schimmel Inc and Sons",
+      "ToolTip": "In ea non facere consequatur quisquam voluptatibus error.",
       "Deleted": false,
-      "Rank": 4,
-      "Type": "provident",
-      "ColorBlock": 390,
-      "IconHint": "voluptatem",
-      "Selected": false,
-      "LastChanged": "1998-10-21T14:28:21.5710362+02:00",
+      "Rank": 444,
+      "Type": "est",
+      "ColorBlock": 156,
+      "IconHint": "quos",
+      "Selected": true,
+      "LastChanged": "2010-11-12T13:13:59.6881883+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "velit",
-      "StyleHint": "quaerat",
+      "ExtraInfo": "est",
+      "StyleHint": "qui",
       "Hidden": false,
-      "FullName": "Guillermo McDermott",
+      "FullName": "Beverly Strosin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 569
+          "FieldType": "System.String",
+          "FieldLength": 375
         }
       }
     }
   ],
-  "TzLocationId": 590,
+  "TzLocationId": 704,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldLength": 372
     }
   }
 }

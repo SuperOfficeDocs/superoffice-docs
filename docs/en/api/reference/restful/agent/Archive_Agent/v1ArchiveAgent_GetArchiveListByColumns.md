@@ -103,54 +103,54 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Fritsch-White",
+  "ProviderName": "Reinger-Jenkins",
   "Columns": [
-    "sapiente",
-    "aperiam"
+    "quia",
+    "eveniet"
   ],
   "SortOrder": [
     {
-      "Name": "Jast Inc and Sons",
+      "Name": "Yost-Kiehn",
       "Direction": "ASC"
     },
     {
-      "Name": "Jast Inc and Sons",
+      "Name": "Yost-Kiehn",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Cummerata, Dietrich and Powlowski",
-      "Operator": "doloremque",
+      "Name": "Torphy Group",
+      "Operator": "voluptatem",
       "Values": [
-        "quae",
-        "quia"
+        "adipisci",
+        "voluptas"
       ],
       "DisplayValues": [
-        "dolor",
-        "sit"
+        "molestiae",
+        "omnis"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 620,
+      "InterParenthesis": 463,
       "InterOperator": "And",
-      "UniqueHash": 693
+      "UniqueHash": 542
     }
   ],
   "Entities": [
-    "ipsum",
-    "voluptatum"
+    "et",
+    "perspiciatis"
   ],
-  "Page": 848,
-  "PageSize": 814
+  "Page": 644,
+  "PageSize": 424
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Waters-Kling",
-    "PrimaryKey": 671,
+    "EntityName": "Howe, Padberg and Stroman",
+    "PrimaryKey": 434,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "ea",
-        "TooltipHint": "odit",
-        "LinkHint": "autem"
+        "DisplayValue": "blanditiis",
+        "TooltipHint": "amet",
+        "LinkHint": "rem"
       }
     },
-    "LinkHint": "nisi",
-    "StyleHint": "assumenda",
+    "LinkHint": "iste",
+    "StyleHint": "cum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 31
+        "FieldLength": 593
       }
     }
   }

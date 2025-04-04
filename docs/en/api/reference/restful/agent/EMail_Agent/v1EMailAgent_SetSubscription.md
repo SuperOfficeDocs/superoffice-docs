@@ -74,13 +74,13 @@ Content-Type: application/json; charset=utf-8
   "ConnectionInfo": null,
   "Folders": [
     {
-      "Name": "Wuckert, Cremin and Koch",
-      "Delimiter": "voluptatem",
-      "Flags": "qui",
-      "TotalItems": 998,
-      "UnreadItems": 434,
-      "Subscribed": false,
-      "EmailFolderId": 569
+      "Name": "Ledner-Greenholt",
+      "Delimiter": "maiores",
+      "Flags": "dolorem",
+      "TotalItems": 411,
+      "UnreadItems": 689,
+      "Subscribed": true,
+      "EmailFolderId": 980
     }
   ]
 }

@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntitiesV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Walsh-Wintheiser",
-  "ProviderName": "Fisher LLC",
-  "Context": "blanditiis",
-  "OwnerKeys": "provident",
+  "GuiName": "Herman Group",
+  "ProviderName": "Kutch LLC",
+  "Context": "eum",
+  "OwnerKeys": "aspernatur",
   "Entities": [
-    "recusandae",
-    "et"
+    "quis",
+    "maxime"
   ]
 }
 ```

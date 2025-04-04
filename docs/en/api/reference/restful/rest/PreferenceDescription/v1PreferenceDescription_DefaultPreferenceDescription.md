@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 724,
-  "Section": "voluptatem",
-  "Key": "omnis",
-  "Name": "Klein Group",
+  "PrefDescId": 844,
+  "Section": "natus",
+  "Key": "quaerat",
+  "Name": "Stoltenberg-Muller",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reverse-engineered client-server time-frame",
+  "Description": "Visionary clear-thinking middleware",
   "IsBuiltin": true,
-  "TableName": "Feil Inc and Sons",
-  "UserDefinedListId": 562,
-  "Rank": 234,
-  "SubGroup": "est",
-  "MinLevel": 276,
-  "MaxValue": 274,
-  "MinValue": 985,
-  "RequiredLicense": "qui",
+  "TableName": "Nienow-Wisoky",
+  "UserDefinedListId": 386,
+  "Rank": 439,
+  "SubGroup": "in",
+  "MinLevel": 395,
+  "MaxValue": 491,
+  "MinValue": 494,
+  "RequiredLicense": "est",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldType": "System.String",
+      "FieldLength": 676
     }
   }
 }

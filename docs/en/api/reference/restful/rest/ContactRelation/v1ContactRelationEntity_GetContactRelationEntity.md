@@ -91,7 +91,7 @@ ContactRelationEntity found.
 GET /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 ContactRelationEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 16 Oct 2005 14:28:26 G10T
+Last-Modified: Tue, 05 Feb 2013 13:14:08 G2T
 
 {
-  "SourceContactId": 160,
-  "SourcePersonId": 68,
-  "DestinationContactId": 155,
-  "DestinationPersonId": 125,
-  "RelationId": 787,
-  "Comment": "natus",
-  "RelationDefinitionId": 104,
-  "Reversed": 64,
-  "UpdatedDate": "2005-10-16T14:28:26.8676969+02:00",
-  "CreatedDate": "2010-08-11T14:28:26.8676969+02:00",
+  "SourceContactId": 992,
+  "SourcePersonId": 899,
+  "DestinationContactId": 215,
+  "DestinationPersonId": 219,
+  "RelationId": 380,
+  "Comment": "est",
+  "RelationDefinitionId": 515,
+  "Reversed": 423,
+  "UpdatedDate": "2013-02-05T13:14:08.6178742+01:00",
+  "CreatedDate": "2002-12-17T13:14:08.6178742+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schoen, Smith and Medhurst",
-  "SourcePersonName": "Lind-Bins",
-  "DestinationContactName": "Hettinger, Rutherford and Roob",
-  "DestinationPersonName": "McDermott-Considine",
-  "ActiveText": "ipsum",
-  "PassiveText": "consectetur",
+  "SourceContactName": "Johnston, Stroman and Schmidt",
+  "SourcePersonName": "Oberbrunner Group",
+  "DestinationContactName": "Schuppe-Rippin",
+  "DestinationPersonName": "Goldner Group",
+  "ActiveText": "et",
+  "PassiveText": "ratione",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 601
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

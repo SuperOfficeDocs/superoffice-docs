@@ -105,14 +105,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 714,
+  "DocId": 502,
   "AttachmentIds": [
-    "quas",
-    "iste"
+    "et",
+    "velit"
   ],
   "IncludeAttachments": false
 }
@@ -127,97 +127,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 113,
-      "ContactName": "Cronin, Metz and McGlynn",
-      "PersonId": 381,
-      "PersonName": "Legros-Champlin",
-      "AssociateId": 826,
-      "Address": "dolor",
-      "EmailId": 633,
+      "ContactId": 845,
+      "ContactName": "Turner Group",
+      "PersonId": 536,
+      "PersonName": "Powlowski-Bahringer",
+      "AssociateId": 500,
+      "Address": "quia",
+      "EmailId": 464,
       "DuplicatePersonIds": [
-        448,
-        113
+        111,
+        871
       ],
-      "Name": "Brown-Johns",
+      "Name": "Schmeler-Rempel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 168
+          "FieldType": "System.Int32",
+          "FieldLength": 105
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 153,
-      "ContactName": "Daugherty, Bernhard and Medhurst",
-      "PersonId": 946,
-      "PersonName": "Hintz-Dickens",
-      "AssociateId": 921,
-      "Address": "magni",
-      "EmailId": 311,
+      "ContactId": 485,
+      "ContactName": "Ward-Hyatt",
+      "PersonId": 250,
+      "PersonName": "Baumbach Inc and Sons",
+      "AssociateId": 163,
+      "Address": "enim",
+      "EmailId": 961,
       "DuplicatePersonIds": [
-        178,
-        8
+        165,
+        840
       ],
-      "Name": "Bosco, Emard and Harris",
+      "Name": "Walsh Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 475
+          "FieldType": "System.String",
+          "FieldLength": 312
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 486,
-      "ContactName": "Considine, Boehm and Windler",
-      "PersonId": 275,
-      "PersonName": "Lowe, Kassulke and Kovacek",
-      "AssociateId": 55,
-      "Address": "quae",
-      "EmailId": 967,
+      "ContactId": 681,
+      "ContactName": "Dach LLC",
+      "PersonId": 334,
+      "PersonName": "Tremblay, Lehner and Kulas",
+      "AssociateId": 505,
+      "Address": "mollitia",
+      "EmailId": 780,
       "DuplicatePersonIds": [
-        25,
-        881
+        287,
+        568
       ],
-      "Name": "Reinger, Gulgowski and Roberts",
+      "Name": "Lakin-Armstrong",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 916
+          "FieldType": "System.String",
+          "FieldLength": 889
         }
       }
     }
   ],
-  "Subject": "rerum",
-  "HTMLBody": "nostrum",
+  "Subject": "iusto",
+  "HTMLBody": "qui",
   "From": null,
-  "Sent": "1999-01-23T14:28:21.9616455+01:00",
-  "Size": 939,
+  "Sent": "2022-12-04T13:14:00.3918537+01:00",
+  "Size": 491,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "illum",
-  "PlainBody": "quia",
-  "IsSent": false,
+  "MessageID": "neque",
+  "PlainBody": "neque",
+  "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 932,
+  "ServerId": 659,
   "Attachments": [
     {
-      "Description": "Inverse neutral matrices",
-      "Filename": "non",
-      "Size": 979,
-      "Type": "molestiae",
-      "Encoding": "reprehenderit",
-      "Id": "et",
-      "Disposition": "minus",
+      "Description": "Seamless 4th generation neural-net",
+      "Filename": "et",
+      "Size": 174,
+      "Type": "porro",
+      "Encoding": "blanditiis",
+      "Id": "sit",
+      "Disposition": "consequatur",
       "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -225,49 +225,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 800
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Stoltenberg, Corwin and Prohaska",
+      "Name": "Breitenberg Inc and Sons",
       "Values": [
-        "soluta",
-        "quod"
+        "nam",
+        "facere"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 450
+          "FieldLength": 147
         }
       }
     },
     {
-      "Name": "Stoltenberg, Corwin and Prohaska",
+      "Name": "Breitenberg Inc and Sons",
       "Values": [
-        "soluta",
-        "quod"
+        "nam",
+        "facere"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 450
+          "FieldLength": 147
         }
       }
     }
   ],
-  "FolderName": "Feeney Inc and Sons",
-  "EmailItemId": 217,
-  "AccountId": 367,
-  "ReceivedAt": "2002-08-13T14:28:21.9616455+02:00",
+  "FolderName": "Bernier Group",
+  "EmailItemId": 282,
+  "AccountId": 224,
+  "ReceivedAt": "2007-01-10T13:14:00.3918537+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2013-07-22T14:28:21.9616455+02:00",
+  "RepliedAt": "2011-04-11T13:14:00.3918537+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -275,8 +275,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 952
+      "FieldType": "System.Int32",
+      "FieldLength": 633
     }
   }
 }

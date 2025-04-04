@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Heaney-Haley",
-    "Corwin-Thompson"
+    "O'Connell-Mills",
+    "Sipes, Aufderhar and Kuvalis"
   ]
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"harum"
+"error"
 ```

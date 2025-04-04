@@ -126,12 +126,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "et",
+    "path": "ab",
     "value": {}
   },
   {
     "op": "add",
-    "path": "et",
+    "path": "ab",
     "value": {}
   }
 ]
@@ -144,27 +144,27 @@ HTTP/1.1 200 TriggerScriptEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 521,
-  "Name": "Jakubowski-Klocko",
+  "ScreenChooserId": 713,
+  "Name": "Ondricka LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "eligendi",
-  "Source": "vel",
-  "Registered": "2013-06-22T14:28:27.3520534+02:00",
-  "RegisteredAssociateId": 586,
-  "Updated": "2020-01-18T14:28:27.3520534+01:00",
-  "UpdatedAssociateId": 45,
+  "UniqueIdentifier": "omnis",
+  "Source": "possimus",
+  "Registered": "2023-11-04T13:14:09.3685305+01:00",
+  "RegisteredAssociateId": 981,
+  "Updated": "2010-04-15T13:14:09.3685305+02:00",
+  "UpdatedAssociateId": 348,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 979
+      "FieldLength": 57
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

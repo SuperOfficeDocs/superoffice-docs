@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 34,
-  "Name": "Rutherford Group",
-  "Tooltip": "ut",
+  "Id": 287,
+  "Name": "Kreiger-McDermott",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 670,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eos",
-  "InUseByUserDefinedFields": false,
+  "Rank": 335,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "sapiente",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 94
+      "FieldType": "System.String",
+      "FieldLength": 876
     }
   },
   "_Links": {

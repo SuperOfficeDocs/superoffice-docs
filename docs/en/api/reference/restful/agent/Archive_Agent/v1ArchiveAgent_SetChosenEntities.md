@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Graham-Huels",
-  "ProviderName": "Murazik Inc and Sons",
+  "GuiName": "Crona, Batz and Harber",
+  "ProviderName": "Fadel, Heaney and Kuphal",
   "Entities": [
-    "aut",
-    "sint"
+    "consequatur",
+    "aut"
   ]
 }
 ```

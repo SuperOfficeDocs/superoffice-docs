@@ -94,22 +94,22 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 599,
-  "Name": "Sanford Inc and Sons",
-  "ConsentText": "totam",
-  "FormText": "deleniti",
+  "ConsentPurposeId": 320,
+  "Name": "Mohr, Fadel and Nolan",
+  "ConsentText": "nam",
+  "FormText": "tempore",
   "Key": "et",
-  "Tooltip": "ipsam",
-  "Active": 535,
-  "UpdatedDate": "2002-12-13T14:28:27.5082958+01:00",
+  "Tooltip": "corporis",
+  "Active": 248,
+  "UpdatedDate": "2021-06-23T13:14:09.6660173+02:00",
   "UpdatedBy": null,
   "Deleted": true,
-  "Rank": 401,
-  "PrivacyStatementDesc": "delectus",
+  "Rank": 966,
+  "PrivacyStatementDesc": "distinctio",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -121,25 +121,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 917,
-  "Name": "Hessel LLC",
-  "ConsentText": "voluptatibus",
-  "FormText": "qui",
-  "Key": "impedit",
-  "Tooltip": "accusantium",
-  "Active": 366,
-  "UpdatedDate": "2020-06-21T14:28:27.5082958+02:00",
+  "ConsentPurposeId": 272,
+  "Name": "Rath-Bins",
+  "ConsentText": "sapiente",
+  "FormText": "sint",
+  "Key": "autem",
+  "Tooltip": "facere",
+  "Active": 404,
+  "UpdatedDate": "2015-02-17T13:14:09.6660173+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 401,
-  "PrivacyStatementDesc": "architecto",
+  "Rank": 461,
+  "PrivacyStatementDesc": "eligendi",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldLength": 793
     }
   }
 }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 335,
-  "Name": "Crona Inc and Sons",
-  "Tooltip": "minus",
-  "Deleted": true,
-  "UdListDefinitionId": 400,
-  "Rank": 171,
+  "Id": 173,
+  "Name": "Klein-White",
+  "Tooltip": "beatae",
+  "Deleted": false,
+  "UdListDefinitionId": 736,
+  "Rank": 281,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 128
+      "FieldLength": 640
     }
   }
 }

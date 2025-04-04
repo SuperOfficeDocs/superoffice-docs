@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 505
+  "QuoteLineConfigurationId": 236
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 61,
-  "FieldName": "Hudson-Harvey",
-  "Label": "perspiciatis",
-  "Tooltip": "possimus",
+  "QuoteLineConfigurationId": 455,
+  "FieldName": "Champlin Inc and Sons",
+  "Label": "praesentium",
+  "Tooltip": "odio",
   "Editable": false,
   "InUse": false,
   "Mandatory": false,
-  "Rank": 543,
-  "RestrictEdit": true,
+  "Rank": 776,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 561
+      "FieldLength": 187
     }
   }
 }

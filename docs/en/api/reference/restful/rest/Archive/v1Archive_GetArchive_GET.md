@@ -140,16 +140,16 @@ GET api/archives/findContact?$select=nameDepartment,fullname&amp;$filter=name be
 GET /api/v1/Archive/{archiveProviderName}?$select=name,department,category/id
 GET /api/v1/Archive/{archiveProviderName}?$filter=name begins 'S'
 GET /api/v1/Archive/{archiveProviderName}?$orderBy=name asc
-GET /api/v1/Archive/{archiveProviderName}?$entities=ad
-GET /api/v1/Archive/{archiveProviderName}?$top=129
-GET /api/v1/Archive/{archiveProviderName}?$skip=544
+GET /api/v1/Archive/{archiveProviderName}?$entities=tenetur
+GET /api/v1/Archive/{archiveProviderName}?$top=145
+GET /api/v1/Archive/{archiveProviderName}?$skip=146
 GET /api/v1/Archive/{archiveProviderName}?$mode=Full
 GET /api/v1/Archive/{archiveProviderName}?$options=GrandTotal=true
-GET /api/v1/Archive/{archiveProviderName}?$context=modi
+GET /api/v1/Archive/{archiveProviderName}?$context=velit
 GET /api/v1/Archive/{archiveProviderName}?$format=JSON
-GET /api/v1/Archive/{archiveProviderName}?$metadata=facere
+GET /api/v1/Archive/{archiveProviderName}?$metadata=velit
 GET /api/v1/Archive/{archiveProviderName}?$inlineCount=AllPages
-GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=True
+GET /api/v1/Archive/{archiveProviderName}?$jsonSafe=False
 GET /api/v1/Archive/{archiveProviderName}?$output=Display
 ```
 
@@ -190,7 +190,7 @@ OK
 GET /api/v1/Archive/{archiveProviderName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -201,19 +201,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "laboriosam",
+  "odata.nextLink": "omnis",
   "value": [
     {
-      "PrimaryKey": 4852,
+      "PrimaryKey": 4521,
       "EntityName": "person",
-      "personId": 4852,
-      "fullName": "Mr. Milan Makenzie Johns"
+      "personId": 4521,
+      "fullName": "Carlotta Morissette III"
     },
     {
-      "PrimaryKey": 3295,
+      "PrimaryKey": 5660,
       "EntityName": "person",
-      "personId": 3295,
-      "fullName": "Patricia Cummerata"
+      "personId": 5660,
+      "fullName": "Prof. Jammie Cronin DDS"
     }
   ]
 }

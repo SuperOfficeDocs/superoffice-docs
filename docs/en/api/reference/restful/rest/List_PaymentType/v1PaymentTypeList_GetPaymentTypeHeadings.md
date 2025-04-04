@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 81,
-    "Name": "Barrows, Daugherty and Zieme",
-    "Tooltip": "non",
+    "HeadingId": 80,
+    "Name": "Kris LLC",
+    "Tooltip": "deserunt",
     "Deleted": false,
-    "Rank": 735,
-    "UdListDefinitionId": 914,
+    "Rank": 184,
+    "UdListDefinitionId": 786,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 744
+        "FieldType": "System.Int32",
+        "FieldLength": 434
       }
     }
   }

@@ -131,12 +131,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "esse",
+    "path": "minus",
     "value": {}
   },
   {
     "op": "add",
-    "path": "esse",
+    "path": "minus",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 37,
-  "SourcePersonId": 527,
-  "DestinationContactId": 699,
-  "DestinationPersonId": 142,
-  "RelationId": 450,
-  "Comment": "et",
-  "RelationDefinitionId": 850,
-  "Reversed": 616,
-  "UpdatedDate": "2013-05-27T14:28:26.8676969+02:00",
-  "CreatedDate": "2021-01-16T14:28:26.8676969+01:00",
+  "SourceContactId": 74,
+  "SourcePersonId": 795,
+  "DestinationContactId": 897,
+  "DestinationPersonId": 494,
+  "RelationId": 66,
+  "Comment": "consectetur",
+  "RelationDefinitionId": 895,
+  "Reversed": 469,
+  "UpdatedDate": "2019-03-31T13:14:08.6178742+02:00",
+  "CreatedDate": "2005-07-07T13:14:08.6178742+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Lowe, Schuster and Adams",
-  "SourcePersonName": "Keebler, Wunsch and Stoltenberg",
-  "DestinationContactName": "Wuckert-Dach",
-  "DestinationPersonName": "Weimann-Will",
-  "ActiveText": "in",
-  "PassiveText": "soluta",
+  "SourceContactName": "Grady-Frami",
+  "SourcePersonName": "Yundt Group",
+  "DestinationContactName": "Zulauf Group",
+  "DestinationPersonName": "Pagac-Lakin",
+  "ActiveText": "facilis",
+  "PassiveText": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 1000
+      "FieldLength": 304
     }
   },
   "_Links": {

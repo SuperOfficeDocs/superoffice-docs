@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 641,
-    "Name": "Buckridge Group",
-    "Tooltip": "quo",
+    "HeadingId": 865,
+    "Name": "O'Kon, Bernhard and Little",
+    "Tooltip": "nihil",
     "Deleted": false,
-    "Rank": 836,
-    "UdListDefinitionId": 37,
+    "Rank": 971,
+    "UdListDefinitionId": 768,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 745
+        "FieldType": "System.String",
+        "FieldLength": 733
       }
     }
   }

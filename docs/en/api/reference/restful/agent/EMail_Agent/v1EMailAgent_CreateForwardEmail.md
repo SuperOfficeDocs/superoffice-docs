@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/CreateForwardEmail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 799,
-      "ContactName": "Bartell Inc and Sons",
-      "PersonId": 677,
-      "PersonName": "Gulgowski LLC",
-      "AssociateId": 10,
-      "Address": "ad",
-      "EmailId": 973,
+      "ContactId": 370,
+      "ContactName": "Carter, King and Waelchi",
+      "PersonId": 374,
+      "PersonName": "Waelchi, Macejkovic and Littel",
+      "AssociateId": 647,
+      "Address": "ipsa",
+      "EmailId": 288,
       "DuplicatePersonIds": [
-        45,
-        681
+        326,
+        953
       ],
-      "Name": "Farrell LLC",
+      "Name": "Lueilwitz, Wilderman and Hermann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 923
+          "FieldLength": 931
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 511,
-      "ContactName": "Volkman, Beahan and Mayert",
-      "PersonId": 595,
-      "PersonName": "Herzog LLC",
-      "AssociateId": 708,
-      "Address": "quisquam",
-      "EmailId": 478,
+      "ContactId": 334,
+      "ContactName": "Emard, Grant and Kris",
+      "PersonId": 278,
+      "PersonName": "Reynolds, Will and Torphy",
+      "AssociateId": 583,
+      "Address": "sint",
+      "EmailId": 981,
       "DuplicatePersonIds": [
-        639,
-        124
+        400,
+        697
       ],
-      "Name": "Mann-Pacocha",
+      "Name": "Terry-Langworth",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 751
+          "FieldType": "System.Int32",
+          "FieldLength": 379
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 184,
-      "ContactName": "Hessel-Gaylord",
-      "PersonId": 371,
-      "PersonName": "Sanford-Hegmann",
-      "AssociateId": 61,
-      "Address": "cumque",
-      "EmailId": 808,
+      "ContactId": 909,
+      "ContactName": "Wisoky-Funk",
+      "PersonId": 756,
+      "PersonName": "Rohan-McLaughlin",
+      "AssociateId": 352,
+      "Address": "similique",
+      "EmailId": 247,
       "DuplicatePersonIds": [
-        231,
-        958
+        343,
+        339
       ],
-      "Name": "Morissette Group",
+      "Name": "Hodkiewicz Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 848
+          "FieldLength": 772
         }
       }
     }
   ],
-  "Subject": "rerum",
-  "HTMLBody": "rerum",
+  "Subject": "quidem",
+  "HTMLBody": "voluptatum",
   "From": null,
-  "Sent": "2024-09-18T14:28:21.8991479+02:00",
-  "Size": 712,
+  "Sent": "2000-02-29T13:14:00.2668463+01:00",
+  "Size": 30,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ut",
-  "PlainBody": "et",
-  "IsSent": true,
+  "MessageID": "dolores",
+  "PlainBody": "corporis",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 78,
+  "ServerId": 720,
   "Attachments": [
     {
-      "Description": "Polarised regional system engine",
-      "Filename": "voluptas",
-      "Size": 252,
-      "Type": "totam",
-      "Encoding": "eos",
-      "Id": "quod",
-      "Disposition": "quisquam",
-      "IsSafeFileExtension": true,
+      "Description": "Horizontal methodical structure",
+      "Filename": "sit",
+      "Size": 331,
+      "Type": "labore",
+      "Encoding": "beatae",
+      "Id": "omnis",
+      "Disposition": "dolorum",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 18
+          "FieldLength": 924
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Prohaska-Schuppe",
+      "Name": "Jacobi Group",
       "Values": [
-        "enim",
-        "maxime"
+        "sequi",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldLength": 408
         }
       }
     },
     {
-      "Name": "Prohaska-Schuppe",
+      "Name": "Jacobi Group",
       "Values": [
-        "enim",
-        "maxime"
+        "sequi",
+        "autem"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 686
+          "FieldLength": 408
         }
       }
     }
   ],
-  "FolderName": "Baumbach, Jast and Lind",
-  "EmailItemId": 936,
-  "AccountId": 343,
-  "ReceivedAt": "2006-02-20T14:28:21.8991479+01:00",
+  "FolderName": "Macejkovic, Schaden and Adams",
+  "EmailItemId": 819,
+  "AccountId": 684,
+  "ReceivedAt": "2003-08-21T13:14:00.2668463+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-07-22T14:28:21.8991479+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2015-07-28T13:14:00.2668463+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 534
     }
   }
 }

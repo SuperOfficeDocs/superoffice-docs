@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 352,
-    "Name": "O'Kon, Padberg and Von",
-    "ToolTip": "Culpa harum harum ullam in amet consequatur aut.",
+    "Id": 161,
+    "Name": "Bruen-Beer",
+    "ToolTip": "Maiores dolor porro molestiae.",
     "Deleted": false,
-    "Rank": 924,
-    "Type": "deleniti",
-    "ColorBlock": 684,
-    "IconHint": "est",
+    "Rank": 9,
+    "Type": "ipsam",
+    "ColorBlock": 412,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "2016-04-27T14:28:27.6645394+02:00",
+    "LastChanged": "2022-06-25T13:14:09.9941617+02:00",
     "ChildItems": [
       {
-        "Id": 263,
-        "Name": "Anderson Group",
-        "ToolTip": "Laudantium nihil est aspernatur quasi eos est et.",
-        "Deleted": false,
-        "Rank": 263,
-        "Type": "at",
-        "ColorBlock": 170,
-        "IconHint": "repellendus",
+        "Id": 913,
+        "Name": "Bashirian Group",
+        "ToolTip": "Aliquid omnis dolores consectetur soluta ipsam.",
+        "Deleted": true,
+        "Rank": 95,
+        "Type": "ipsum",
+        "ColorBlock": 534,
+        "IconHint": "soluta",
         "Selected": false,
-        "LastChanged": "2020-09-10T14:28:27.6645394+02:00",
+        "LastChanged": "2020-09-15T13:14:09.9941617+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "aliquid",
-        "Hidden": true,
-        "FullName": "Carmelo Cummerata"
+        "ExtraInfo": "soluta",
+        "StyleHint": "reiciendis",
+        "Hidden": false,
+        "FullName": "Max Weber"
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "vero",
+    "ExtraInfo": "facilis",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Ms. Erick Gutmann PhD"
+    "FullName": "Dakota Anderson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 424,
-    "Name": "O'Conner-Bechtelar",
-    "ToolTip": "Dolores officia voluptatem voluptate vel quam quisquam unde.",
-    "Deleted": true,
-    "Rank": 8,
-    "Type": "assumenda",
-    "ColorBlock": 344,
-    "IconHint": "sequi",
+    "Id": 953,
+    "Name": "Hilpert-Stamm",
+    "ToolTip": "Cumque officiis provident.",
+    "Deleted": false,
+    "Rank": 661,
+    "Type": "maxime",
+    "ColorBlock": 80,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2004-06-04T14:28:27.6645394+02:00",
+    "LastChanged": "2001-02-20T13:14:09.9941617+01:00",
     "ChildItems": [
       {
-        "Id": 903,
-        "Name": "Ritchie, Balistreri and Johnson",
-        "ToolTip": "Eveniet et ratione officiis.",
+        "Id": 355,
+        "Name": "Gleichner Inc and Sons",
+        "ToolTip": "Aut amet ut et et quis.",
         "Deleted": false,
-        "Rank": 462,
-        "Type": "voluptates",
-        "ColorBlock": 252,
-        "IconHint": "voluptatibus",
-        "Selected": false,
-        "LastChanged": "1999-03-18T14:28:27.6645394+01:00",
+        "Rank": 17,
+        "Type": "ad",
+        "ColorBlock": 488,
+        "IconHint": "quod",
+        "Selected": true,
+        "LastChanged": "2012-06-08T13:14:09.9941617+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "pariatur",
-        "StyleHint": "modi",
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "velit",
         "Hidden": false,
-        "FullName": "Martin Hoppe",
+        "FullName": "Dr. Elena Eleazar Kautzer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 455
+            "FieldLength": 67
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
+    "ExtraInfo": "sit",
     "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Hayley Greenholt",
+    "Hidden": true,
+    "FullName": "Vidal Robel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldLength": 165
       }
     }
   }

@@ -72,20 +72,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "consequatur",
-  "ProviderName": "Stroman, Bernhard and Hauck",
-  "StorageKey": "ea",
+  "StorageType": "voluptas",
+  "ProviderName": "Keebler-Senger",
+  "StorageKey": "quo",
   "Restrictions": [
     {
-      "Name": "Johns-Gutkowski",
-      "Operator": "quas",
+      "Name": "Daugherty Group",
+      "Operator": "praesentium",
       "Values": [
-        "iusto",
-        "fuga"
+        "voluptate",
+        "laudantium"
       ],
       "DisplayValues": [
-        "illo",
-        "asperiores"
+        "qui",
+        "quis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,12 +93,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 606,
+      "InterParenthesis": 207,
       "InterOperator": "And",
-      "UniqueHash": 720
+      "UniqueHash": 177
     }
   ],
-  "Context": "a"
+  "Context": "sit"
 }
 ```
 

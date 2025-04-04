@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "consequatur",
-    "corrupti"
+    "est",
+    "est"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "eius",
+    "Label": "veritatis",
     "Values": [
       {
-        "Label": "consequatur",
-        "Value": 20189.228,
-        "Description": "Pre-emptive transitional hierarchy",
+        "Label": "et",
+        "Value": 17168.052,
+        "Description": "Vision-oriented client-server infrastructure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 104
+            "FieldType": "System.String",
+            "FieldLength": 199
           }
         }
       },
       {
-        "Label": "consequatur",
-        "Value": 20189.228,
-        "Description": "Pre-emptive transitional hierarchy",
+        "Label": "et",
+        "Value": 17168.052,
+        "Description": "Vision-oriented client-server infrastructure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 104
+            "FieldType": "System.String",
+            "FieldLength": 199
           }
         }
       }
     ],
-    "Description": "Proactive maximized array",
+    "Description": "Secured zero administration superstructure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 213
       }
     }
   },
   {
-    "Label": "eius",
+    "Label": "veritatis",
     "Values": [
       {
-        "Label": "consequatur",
-        "Value": 20189.228,
-        "Description": "Pre-emptive transitional hierarchy",
+        "Label": "et",
+        "Value": 17168.052,
+        "Description": "Vision-oriented client-server infrastructure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 104
+            "FieldType": "System.String",
+            "FieldLength": 199
           }
         }
       },
       {
-        "Label": "consequatur",
-        "Value": 20189.228,
-        "Description": "Pre-emptive transitional hierarchy",
+        "Label": "et",
+        "Value": 17168.052,
+        "Description": "Vision-oriented client-server infrastructure",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 104
+            "FieldType": "System.String",
+            "FieldLength": 199
           }
         }
       }
     ],
-    "Description": "Proactive maximized array",
+    "Description": "Secured zero administration superstructure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 527
+        "FieldLength": 213
       }
     }
   }

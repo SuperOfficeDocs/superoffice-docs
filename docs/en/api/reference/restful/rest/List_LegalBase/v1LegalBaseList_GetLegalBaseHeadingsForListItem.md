@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 452,
-    "Name": "Runte-Walter",
-    "ToolTip": "Eum quas quia facere rerum sequi perspiciatis enim.",
-    "Deleted": true,
-    "Rank": 291,
-    "Type": "nesciunt",
-    "ColorBlock": 967,
-    "IconHint": "dolorem",
-    "Selected": false,
-    "LastChanged": "2022-02-23T14:28:27.5707933+01:00",
+    "Id": 373,
+    "Name": "Bergstrom Group",
+    "ToolTip": "Rem a et aperiam.",
+    "Deleted": false,
+    "Rank": 405,
+    "Type": "qui",
+    "ColorBlock": 955,
+    "IconHint": "ducimus",
+    "Selected": true,
+    "LastChanged": "2001-05-28T13:14:09.7910245+02:00",
     "ChildItems": [
       {
-        "Id": 744,
-        "Name": "Kuphal Inc and Sons",
-        "ToolTip": "Qui qui velit repellendus iste debitis at.",
+        "Id": 977,
+        "Name": "Barton, Heaney and Erdman",
+        "ToolTip": "Voluptatem quibusdam quis facere in.",
         "Deleted": false,
-        "Rank": 409,
-        "Type": "quidem",
-        "ColorBlock": 517,
-        "IconHint": "porro",
+        "Rank": 262,
+        "Type": "praesentium",
+        "ColorBlock": 290,
+        "IconHint": "minima",
         "Selected": false,
-        "LastChanged": "1999-02-27T14:28:27.5707933+01:00",
+        "LastChanged": "1998-04-27T13:14:09.7910245+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "excepturi",
-        "StyleHint": "et",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "eum",
         "Hidden": false,
-        "FullName": "Noble Denesik",
+        "FullName": "Kennith Aubree Beahan Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 292
+            "FieldLength": 726
           }
         }
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "aut",
+    "ExtraInfo": "officiis",
+    "StyleHint": "quod",
     "Hidden": false,
-    "FullName": "Eldora Homenick",
+    "FullName": "Kailey Doyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldLength": 368
       }
     }
   }

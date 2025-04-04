@@ -147,38 +147,38 @@ OK
 POST /api/v1/Agents/Workflow/SaveEmailFlow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 18,
-  "Name": "Mante, Hessel and Schmidt",
-  "Description": "Fully-configurable next generation core",
+  "EmailFlowId": 712,
+  "Name": "Bashirian, Treutel and Marquardt",
+  "Description": "Compatible regional hub",
   "Status": "None",
-  "JumpToFinish": true,
-  "StartOnlyOnce": false,
-  "OverrideConsentSubscription": false,
+  "JumpToFinish": false,
+  "StartOnlyOnce": true,
+  "OverrideConsentSubscription": true,
   "FromType": "FromOnlySpecified",
-  "FromName": "Ruecker Inc and Sons",
-  "FromAddr": "reprehenderit",
+  "FromName": "Robel, Pollich and Lowe",
+  "FromAddr": "soluta",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "vitae",
-  "ReplyToName": "Schiller Group",
-  "SmsSender": "possimus",
+  "ReplyToAddr": "ad",
+  "ReplyToName": "Kuhn Group",
+  "SmsSender": "exercitationem",
   "UseGoogleAnalytics": false,
-  "GaSource": "non",
-  "GaCampaign": "quos",
+  "GaSource": "eum",
+  "GaCampaign": "aut",
   "UseTimeframe": false,
   "SelectedDays": "Friday",
-  "TimeframeStart": "ut",
-  "TimeframeEnd": "qui",
+  "TimeframeStart": "dolor",
+  "TimeframeEnd": "quia",
   "UseWorkflowStart": false,
-  "WorkflowStart": "voluptatem",
+  "WorkflowStart": "ut",
   "UseEnrollmentEnd": false,
-  "EnrollmentEnd": "est",
+  "EnrollmentEnd": "animi",
   "RemoveFromFlows": [
-    621,
-    765
+    190,
+    965
   ],
   "TzLocation": null,
   "Folder": null,
@@ -186,22 +186,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 95,
-      "WorkflowId": 818,
+      "WorkflowStepId": 455,
+      "WorkflowId": 705,
       "StepType": "AddToList",
-      "Rank": 954
+      "Rank": 468
     },
     {
-      "WorkflowStepId": 95,
-      "WorkflowId": 818,
+      "WorkflowStepId": 455,
+      "WorkflowId": 705,
       "StepType": "AddToList",
-      "Rank": 954
+      "Rank": 468
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 539,
-      "WorkflowId": 463,
+      "WorkflowTriggerId": 430,
+      "WorkflowId": 350,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -209,8 +209,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "WorkflowTriggerId": 539,
-      "WorkflowId": 463,
+      "WorkflowTriggerId": 430,
+      "WorkflowId": 350,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -220,8 +220,8 @@ Content-Type: application/json; charset=utf-8
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 545,
-      "WorkflowId": 547,
+      "WorkflowGoalId": 617,
+      "WorkflowId": 379,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -229,8 +229,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "WorkflowGoalId": 545,
-      "WorkflowId": 547,
+      "WorkflowGoalId": 617,
+      "WorkflowId": 379,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -240,37 +240,37 @@ Content-Type: application/json; charset=utf-8
   ],
   "Filter": null,
   "BlockLists": [
-    296,
-    628
+    980,
+    782
   ],
   "ContentInfo": [
     {
       "WorkflowContentType": "Form",
-      "Id": 692,
-      "Actions": false
+      "Id": 608,
+      "Actions": true
     },
     {
       "WorkflowContentType": "Form",
-      "Id": 692,
-      "Actions": false
+      "Id": 608,
+      "Actions": true
     }
   ],
-  "ExitFlowId": 948,
-  "ExitSuccessFlowId": 971,
+  "ExitFlowId": 297,
+  "ExitSuccessFlowId": 567,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-11-13T14:28:22.7428645+01:00",
-  "UpdatedDate": "2022-05-26T14:28:22.7428645+02:00",
+  "CreatedDate": "2024-06-26T13:14:01.7850758+02:00",
+  "UpdatedDate": "2011-01-14T13:14:01.8007017+01:00",
   "VisibleFor": [
     {
-      "VisibleId": 434,
+      "VisibleId": 102,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "est"
     },
     {
-      "VisibleId": 434,
+      "VisibleId": 102,
       "Visibility": "All",
-      "DisplayValue": "fuga"
+      "DisplayValue": "est"
     }
   ]
 }
@@ -283,34 +283,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailFlowId": 215,
-  "Name": "Pfeffer, Lubowitz and Haag",
-  "Description": "Networked system-worthy groupware",
+  "EmailFlowId": 323,
+  "Name": "Bosco-Yundt",
+  "Description": "Total high-level success",
   "Status": "None",
   "JumpToFinish": false,
-  "StartOnlyOnce": true,
-  "OverrideConsentSubscription": false,
+  "StartOnlyOnce": false,
+  "OverrideConsentSubscription": true,
   "FromType": "FromOnlySpecified",
-  "FromName": "Beier, Bahringer and Beier",
-  "FromAddr": "voluptas",
+  "FromName": "Bosco-Emmerich",
+  "FromAddr": "odit",
   "ReplyToType": "ReplyToEmpty",
-  "ReplyToAddr": "rerum",
-  "ReplyToName": "Steuber, Ferry and Romaguera",
-  "SmsSender": "repellat",
-  "UseGoogleAnalytics": true,
-  "GaSource": "at",
-  "GaCampaign": "sed",
+  "ReplyToAddr": "eos",
+  "ReplyToName": "Kunze, Marks and Reichel",
+  "SmsSender": "rerum",
+  "UseGoogleAnalytics": false,
+  "GaSource": "quasi",
+  "GaCampaign": "ea",
   "UseTimeframe": false,
   "SelectedDays": "Friday",
-  "TimeframeStart": "nam",
-  "TimeframeEnd": "dolore",
+  "TimeframeStart": "culpa",
+  "TimeframeEnd": "esse",
   "UseWorkflowStart": false,
-  "WorkflowStart": "et",
-  "UseEnrollmentEnd": true,
-  "EnrollmentEnd": "voluptas",
+  "WorkflowStart": "dignissimos",
+  "UseEnrollmentEnd": false,
+  "EnrollmentEnd": "atque",
   "RemoveFromFlows": [
-    872,
-    732
+    669,
+    365
   ],
   "TzLocation": null,
   "Folder": null,
@@ -318,22 +318,22 @@ Content-Type: application/json; charset=utf-8
   "ShipmentType": null,
   "Steps": [
     {
-      "WorkflowStepId": 569,
-      "WorkflowId": 923,
+      "WorkflowStepId": 437,
+      "WorkflowId": 623,
       "StepType": "AddToList",
-      "Rank": 412
+      "Rank": 156
     },
     {
-      "WorkflowStepId": 569,
-      "WorkflowId": 923,
+      "WorkflowStepId": 437,
+      "WorkflowId": 623,
       "StepType": "AddToList",
-      "Rank": 412
+      "Rank": 156
     }
   ],
   "Triggers": [
     {
-      "WorkflowTriggerId": 493,
-      "WorkflowId": 343,
+      "WorkflowTriggerId": 982,
+      "WorkflowId": 190,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -343,14 +343,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldType": "System.String",
+          "FieldLength": 63
         }
       }
     },
     {
-      "WorkflowTriggerId": 493,
-      "WorkflowId": 343,
+      "WorkflowTriggerId": 982,
+      "WorkflowId": 190,
       "TriggerType": "AddedMessage",
       "RestrictionGroups": [
         {},
@@ -360,16 +360,16 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 574
+          "FieldType": "System.String",
+          "FieldLength": 63
         }
       }
     }
   ],
   "Goals": [
     {
-      "WorkflowGoalId": 455,
-      "WorkflowId": 20,
+      "WorkflowGoalId": 361,
+      "WorkflowId": 107,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -380,13 +380,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 292
+          "FieldLength": 264
         }
       }
     },
     {
-      "WorkflowGoalId": 455,
-      "WorkflowId": 20,
+      "WorkflowGoalId": 361,
+      "WorkflowId": 107,
       "GoalType": "AddedToProject",
       "RestrictionGroups": [
         {},
@@ -397,74 +397,74 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 292
+          "FieldLength": 264
         }
       }
     }
   ],
   "Filter": null,
   "BlockLists": [
-    593,
-    57
+    471,
+    468
   ],
   "ContentInfo": [
     {
       "WorkflowContentType": "Form",
-      "Id": 866,
-      "Actions": true,
+      "Id": 475,
+      "Actions": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 829
+          "FieldType": "System.String",
+          "FieldLength": 161
         }
       }
     },
     {
       "WorkflowContentType": "Form",
-      "Id": 866,
-      "Actions": true,
+      "Id": 475,
+      "Actions": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 829
+          "FieldType": "System.String",
+          "FieldLength": 161
         }
       }
     }
   ],
-  "ExitFlowId": 88,
-  "ExitSuccessFlowId": 199,
+  "ExitFlowId": 210,
+  "ExitSuccessFlowId": 617,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2013-10-27T14:28:22.7584885+01:00",
-  "UpdatedDate": "2015-04-02T14:28:22.7584885+02:00",
+  "CreatedDate": "2001-08-11T13:14:01.8007017+02:00",
+  "UpdatedDate": "2020-06-28T13:14:01.8007017+02:00",
   "VisibleFor": [
     {
-      "VisibleId": 26,
+      "VisibleId": 162,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 451
         }
       }
     },
     {
-      "VisibleId": 26,
+      "VisibleId": 162,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "dolore",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 273
+          "FieldLength": 451
         }
       }
     }
@@ -474,7 +474,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 903
+      "FieldLength": 291
     }
   }
 }

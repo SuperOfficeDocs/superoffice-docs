@@ -709,7 +709,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/documentfavourites?$select=person/searchPhone/formattedNumber,person/personAssociate/credentialType,person/withdrawnEmarketingConsent,project/registeredBy,project/projectAssociate/contactId
+GET /api/v1/archive/documentfavourites?$select=person/personMobilePhone/formattedNumber,person/personPrivate/description,person/personAssociate/otherGroups,person/correspondingAssociate/contactFullName,person/correspondingAssociate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

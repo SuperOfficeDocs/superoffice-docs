@@ -107,33 +107,33 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 306,
-  "ERPQuoteAlternativeKey": "ex",
-  "QuoteVersionId": 764,
-  "Name": "Prohaska LLC",
-  "Description": "Enhanced foreground database",
+  "QuoteAlternativeId": 685,
+  "ERPQuoteAlternativeKey": "voluptatibus",
+  "QuoteVersionId": 716,
+  "Name": "Hickle, Mayert and Bernier",
+  "Description": "Devolved zero administration application",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 25774.016,
-  "ERPDiscountAmount": 31098.682,
-  "DiscountPercent": 6600.204,
-  "DiscountAmount": 10790.362,
+  "ERPDiscountPercent": 17293.412,
+  "ERPDiscountAmount": 15340.93,
+  "DiscountPercent": 228.78199999999998,
+  "DiscountAmount": 6468.576,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "sint",
-  "VAT": 22079.03,
-  "EarningPercent": 28876.676,
-  "EarningAmount": 19813.148,
-  "SubTotal": 11056.752,
-  "TotalPrice": 30584.706,
-  "ExtraField1": "harum",
-  "ExtraField2": "ipsum",
-  "ExtraField3": "facilis",
-  "ExtraField4": "delectus",
-  "ExtraField5": "consequatur"
+  "VATInfo": "cupiditate",
+  "VAT": 30124.007999999998,
+  "EarningPercent": 29359.311999999998,
+  "EarningAmount": 20872.44,
+  "SubTotal": 25745.809999999998,
+  "TotalPrice": 12883.874,
+  "ExtraField1": "sit",
+  "ExtraField2": "dicta",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "odio",
+  "ExtraField5": "laborum"
 }
 ```
 
@@ -144,35 +144,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 261,
-  "ERPQuoteAlternativeKey": "expedita",
-  "QuoteVersionId": 373,
-  "Name": "Little, Russel and Hauck",
-  "Description": "Distributed human-resource budgetary management",
+  "QuoteAlternativeId": 369,
+  "ERPQuoteAlternativeKey": "sunt",
+  "QuoteVersionId": 956,
+  "Name": "Boyer Inc and Sons",
+  "Description": "Multi-tiered executive focus group",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 2356.768,
-  "ERPDiscountAmount": 13510.673999999999,
-  "DiscountPercent": 6086.228,
-  "DiscountAmount": 30515.757999999998,
+  "ERPDiscountPercent": 24862.022,
+  "ERPDiscountAmount": 26184.57,
+  "DiscountPercent": 7299.0859999999993,
+  "DiscountAmount": 12040.828,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "blanditiis",
-  "VAT": 7339.8279999999995,
-  "EarningPercent": 25573.44,
-  "EarningAmount": 19941.642,
-  "SubTotal": 18014.232,
-  "TotalPrice": 23414.113999999998,
-  "ExtraField1": "ipsam",
-  "ExtraField2": "rerum",
-  "ExtraField3": "odit",
-  "ExtraField4": "ut",
-  "ExtraField5": "magni",
+  "VATInfo": "in",
+  "VAT": 19709.726,
+  "EarningPercent": 15673.134,
+  "EarningAmount": 5412.418,
+  "SubTotal": 16350.078,
+  "TotalPrice": 6944.9439999999995,
+  "ExtraField1": "praesentium",
+  "ExtraField2": "incidunt",
+  "ExtraField3": "fugit",
+  "ExtraField4": "est",
+  "ExtraField5": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 824
     }
   }
 }

@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -94,40 +94,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 313,
-    "Name": "Okuneva, Kilback and Collins",
-    "Rank": 60,
-    "Tooltip": "voluptatibus",
-    "Icon": "omnis",
-    "DefaultTicketStatus": 498,
+    "TicketTypeId": 877,
+    "Name": "Weissnat Inc and Sons",
+    "Rank": 468,
+    "Tooltip": "minus",
+    "Icon": "praesentium",
+    "DefaultTicketStatus": 323,
     "TicketStatuses": [
-      668,
-      10
+      391,
+      398
     ],
-    "DefaultTicketPriority": 349,
+    "DefaultTicketPriority": 217,
     "TicketPriorities": [
-      334,
-      102
+      828,
+      460
     ],
-    "ReplyTemplate": 867,
+    "ReplyTemplate": 759,
     "IsExternalVisible": false,
     "IsDefault": false,
-    "ShowInNew": false,
+    "ShowInNew": true,
     "ExcludeSignature": true,
     "ExcludeEmailRecipients": false,
-    "ExternalAsDefault": true,
+    "ExternalAsDefault": false,
     "VisibleForGroups": [
-      628,
-      773
+      31,
+      877
     ],
-    "ReplyForwardNoSignature": false,
-    "ReplyExternalAsDefault": false,
+    "ReplyForwardNoSignature": true,
+    "ReplyExternalAsDefault": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldType": "System.String",
+        "FieldLength": 557
       }
     }
   }

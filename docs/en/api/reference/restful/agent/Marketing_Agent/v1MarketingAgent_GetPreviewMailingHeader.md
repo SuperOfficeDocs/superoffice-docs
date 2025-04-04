@@ -88,11 +88,11 @@ OK
 POST /api/v1/Agents/Marketing/GetPreviewMailingHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentId": 386
+  "ShipmentId": 964
 }
 ```
 
@@ -103,28 +103,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "StartDate": "2020-01-19T14:28:22.1022648+01:00",
+  "StartDate": "2022-03-26T13:14:00.6887452+01:00",
   "Status": "AwaitPopulate",
-  "ShipmentId": 738,
-  "ShipmentDescription": "Mandatory client-server benchmark",
-  "FromAddress": "aut",
-  "Configuration": 85,
-  "PersonId": 796,
-  "PersonFullName": "Grant McCullough",
-  "ShipmentType": "et",
-  "MessageId": 312,
-  "MessageSubject": "sed",
-  "DocumentMessageId": 482,
-  "NumSent": 199,
-  "NumOpened": 118,
-  "NumBounced": 365,
-  "NumClicks": 608,
+  "ShipmentId": 303,
+  "ShipmentDescription": "Horizontal stable project",
+  "FromAddress": "eaque",
+  "Configuration": 118,
+  "PersonId": 399,
+  "PersonFullName": "Gus Lemke",
+  "ShipmentType": "a",
+  "MessageId": 471,
+  "MessageSubject": "corporis",
+  "DocumentMessageId": 683,
+  "NumSent": 12,
+  "NumOpened": 72,
+  "NumBounced": 418,
+  "NumClicks": 75,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 487
+      "FieldLength": 497
     }
   }
 }

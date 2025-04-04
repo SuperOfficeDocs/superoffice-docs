@@ -91,7 +91,7 @@ SaleStakeholder found.
 GET /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 SaleStakeholder found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "O'Hara-Rogahn",
-  "Comment": "voluptatem",
-  "StakeholderRoleId": 20,
-  "CountryId": 504,
-  "PersonId": 205,
-  "EmailDescription": "callie@rohan.com",
-  "EmailId": 644,
-  "EmailAddress": "abbigail@tremblay.name",
-  "PhoneId": 232,
-  "ContactName": "Sauer-O'Kon",
-  "ContactId": 348,
-  "SaleId": 69,
-  "Mrmrs": "minima",
-  "Firstname": "Braden",
-  "MiddleName": "Turcotte LLC",
-  "Lastname": "Rutherford",
-  "SaleStakeholderId": 82,
-  "Rank": 165,
-  "Phone": "(879)348-9332",
+  "StakeholderRoleName": "Wuckert, Hoppe and Johnson",
+  "Comment": "delectus",
+  "StakeholderRoleId": 430,
+  "CountryId": 917,
+  "PersonId": 608,
+  "EmailDescription": "iva.bosco@boscocarter.name",
+  "EmailId": 889,
+  "EmailAddress": "bartholome@ledner.name",
+  "PhoneId": 743,
+  "ContactName": "Roob-Quitzon",
+  "ContactId": 204,
+  "SaleId": 467,
+  "Mrmrs": "harum",
+  "Firstname": "Zetta",
+  "MiddleName": "Ward-Stehr",
+  "Lastname": "Hills",
+  "SaleStakeholderId": 632,
+  "Rank": 134,
+  "Phone": "1-404-736-4301 x51802",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 371
+      "FieldType": "System.Int32",
+      "FieldLength": 753
     }
   },
   "_Links": {

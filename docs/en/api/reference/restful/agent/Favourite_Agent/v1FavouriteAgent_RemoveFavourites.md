@@ -66,16 +66,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Feest, Stokes and Donnelly",
+  "TableName": "Marquardt LLC",
   "RecordIds": [
-    533,
-    589
+    767,
+    632
   ],
-  "AssociateId": 708
+  "AssociateId": 16
 }
 ```
 

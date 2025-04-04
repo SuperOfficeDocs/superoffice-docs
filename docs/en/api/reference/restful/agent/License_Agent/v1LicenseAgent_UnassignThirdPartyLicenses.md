@@ -88,15 +88,15 @@ OK
 POST /api/v1/Agents/License/UnassignThirdPartyLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 381,
-  "ModuleOwner": "quam",
+  "AssociateId": 863,
+  "ModuleOwner": "vel",
   "ModuleLicenseNames": [
-    "Hintz Group",
-    "Wolf, Schulist and Wilderman"
+    "Collier Inc and Sons",
+    "Homenick LLC"
   ]
 }
 ```
@@ -109,26 +109,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 154,
-    "Tooltip": "architecto",
-    "CanAssign": false,
-    "Free": 45,
-    "InUse": 594,
-    "IsHidden": false,
-    "Assigned": true,
-    "ModuleLicenseId": 463,
-    "Name": "Dare, Leffler and Stanton",
-    "Description": "Multi-lateral neutral model",
-    "PrerequisiteModuleName": "Bergnaum-Fisher",
-    "SortOrder": 746,
-    "ExtraFlags": 776,
+    "Unrestricted": true,
+    "Total": 793,
+    "Tooltip": "illo",
+    "CanAssign": true,
+    "Free": 874,
+    "InUse": 124,
+    "IsHidden": true,
+    "Assigned": false,
+    "ModuleLicenseId": 253,
+    "Name": "Hammes-Kihn",
+    "Description": "Reactive context-sensitive archive",
+    "PrerequisiteModuleName": "Smith Inc and Sons",
+    "SortOrder": 912,
+    "ExtraFlags": 120,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 735
+        "FieldLength": 874
       }
     }
   }

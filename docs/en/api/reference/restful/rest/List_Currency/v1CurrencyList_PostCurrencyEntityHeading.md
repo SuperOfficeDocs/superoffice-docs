@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 652,
-  "Name": "Robel-Streich",
-  "Tooltip": "placeat",
-  "Deleted": true,
-  "Rank": 381,
-  "UdListDefinitionId": 58
+  "HeadingId": 774,
+  "Name": "Dibbert-Wyman",
+  "Tooltip": "qui",
+  "Deleted": false,
+  "Rank": 379,
+  "UdListDefinitionId": 706
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 970,
-  "Name": "Leannon LLC",
-  "Tooltip": "minus",
+  "HeadingId": 553,
+  "Name": "Kihn-McKenzie",
+  "Tooltip": "aspernatur",
   "Deleted": true,
-  "Rank": 911,
-  "UdListDefinitionId": 716,
+  "Rank": 731,
+  "UdListDefinitionId": 903,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 140
+      "FieldType": "System.String",
+      "FieldLength": 232
     }
   }
 }

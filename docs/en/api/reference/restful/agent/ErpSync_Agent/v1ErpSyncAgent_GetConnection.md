@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 110
+  "ErpConnectionId": 913
 }
 ```
 
@@ -101,33 +101,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 380,
-  "ErpConnectorId": 368,
-  "DisplayName": "Robel-Mohr",
-  "DisplayDescription": "Reverse-engineered zero administration standardization",
-  "Active": false,
-  "ConnectionId": "occaecati",
-  "MostRecentTimestamp": "qui",
+  "ErpConnectionId": 690,
+  "ErpConnectorId": 58,
+  "DisplayName": "Schoen, Wiegand and Terry",
+  "DisplayDescription": "Focused web-enabled instruction set",
+  "Active": true,
+  "ConnectionId": "et",
+  "MostRecentTimestamp": "architecto",
   "ConfigFields": {
-    "ConfigFields1": "quas",
-    "ConfigFields2": "excepturi"
+    "ConfigFields1": "magnam",
+    "ConfigFields2": "doloremque"
   },
-  "Deleted": false,
+  "Deleted": true,
   "AllAccess": false,
   "UserGroupAccessIds": [
-    924,
-    616
+    569,
+    815
   ],
   "AssociateAccessIds": [
-    338,
-    622
+    304,
+    857
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 305
+      "FieldType": "System.String",
+      "FieldLength": 894
     }
   }
 }

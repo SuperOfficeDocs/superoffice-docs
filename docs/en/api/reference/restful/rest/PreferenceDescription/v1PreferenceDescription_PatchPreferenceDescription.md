@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "quis",
+    "path": "ab",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quis",
+    "path": "ab",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 119,
-  "Section": "excepturi",
-  "Key": "voluptatum",
-  "Name": "Hauck LLC",
+  "PrefDescId": 613,
+  "Section": "quibusdam",
+  "Key": "pariatur",
+  "Name": "Wilderman Group",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergistic client-server capability",
-  "IsBuiltin": true,
-  "TableName": "Romaguera, Deckow and Strosin",
-  "UserDefinedListId": 486,
-  "Rank": 538,
-  "SubGroup": "non",
-  "MinLevel": 469,
-  "MaxValue": 434,
-  "MinValue": 785,
-  "RequiredLicense": "aut",
+  "Description": "Reactive contextually-based artificial intelligence",
+  "IsBuiltin": false,
+  "TableName": "Fay LLC",
+  "UserDefinedListId": 723,
+  "Rank": 515,
+  "SubGroup": "quisquam",
+  "MinLevel": 359,
+  "MaxValue": 5,
+  "MinValue": 84,
+  "RequiredLicense": "inventore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 279
+      "FieldLength": 153
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

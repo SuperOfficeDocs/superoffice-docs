@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 737,
-    "Attention": "perspiciatis",
-    "Header": "culpa",
-    "Name": "O'Connell-Olson",
-    "OurRef": "ipsam",
-    "YourRef": "et",
-    "Description": "Multi-channelled systemic encoding",
-    "DocumentTemplate": "porro",
-    "IsPublished": false,
-    "PersonId": 70,
-    "PersonFullName": "Maia Funk III",
-    "AssociateFullName": "Mrs. Olga McCullough",
-    "ContactId": 493,
-    "ContactName": "Will-Thiel",
-    "ProjectId": 423,
-    "ProjectName": "Lakin-Considine",
-    "AssociateId": 907,
-    "Snum": 32,
-    "SaleId": 653,
-    "SaleName": "Lesch-Koss",
+    "DocumentId": 12,
+    "Attention": "aut",
+    "Header": "et",
+    "Name": "Conroy-Price",
+    "OurRef": "explicabo",
+    "YourRef": "voluptatum",
+    "Description": "Customer-focused zero defect secured line",
+    "DocumentTemplate": "quasi",
+    "IsPublished": true,
+    "PersonId": 50,
+    "PersonFullName": "Waldo Konopelski",
+    "AssociateFullName": "Mrs. Theron Marvin MD",
+    "ContactId": 65,
+    "ContactName": "Quigley Inc and Sons",
+    "ProjectId": 703,
+    "ProjectName": "Rutherford, Wunsch and Oberbrunner",
+    "AssociateId": 576,
+    "Snum": 840,
+    "SaleId": 12,
+    "SaleName": "Kuhic LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 645
+        "FieldType": "System.String",
+        "FieldLength": 771
       }
     }
   }

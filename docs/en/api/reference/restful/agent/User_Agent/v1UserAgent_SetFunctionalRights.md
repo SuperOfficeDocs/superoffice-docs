@@ -70,14 +70,14 @@ No Content
 POST /api/v1/Agents/User/SetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 917,
+  "RoleId": 22,
   "FunctionalRightIds": [
-    664,
-    814
+    306,
+    572
   ]
 }
 ```

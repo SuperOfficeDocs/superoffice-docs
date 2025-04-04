@@ -72,13 +72,13 @@ OK
 POST /api/v1/Agents/Diagnostics/GetCacheInvalidationGenerations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Names": [
-    "Emmerich LLC",
-    "Schneider LLC"
+    "Goldner, Armstrong and Padberg",
+    "Breitenberg Group"
   ]
 }
 ```
@@ -91,12 +91,12 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Rempel-Mitchell",
-    "Generation": 963
+    "Name": "Bashirian Inc and Sons",
+    "Generation": 831
   },
   {
-    "Name": "Rempel-Mitchell",
-    "Generation": 963
+    "Name": "Bashirian Inc and Sons",
+    "Generation": 831
   }
 ]
 ```

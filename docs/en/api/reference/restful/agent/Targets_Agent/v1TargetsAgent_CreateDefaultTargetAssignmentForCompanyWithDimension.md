@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 136
+  "TargetDimensionId": 930
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 532,
+    "TargetAssignmentInfoId": 473,
     "Values": [
-      334,
-      281
+      418,
+      503
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 908,
-    "DimensionListItemDisplayName": "Pfeffer-Crist",
+    "DimensionListItem": 608,
+    "DimensionListItemDisplayName": "Mayert Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldLength": 63
       }
     }
   }

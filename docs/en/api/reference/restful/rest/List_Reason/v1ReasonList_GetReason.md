@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 897,
-  "Name": "Kuhn, Treutel and Wilkinson",
-  "Tooltip": "omnis",
+  "Id": 29,
+  "Name": "Walker Group",
+  "Tooltip": "libero",
   "Deleted": false,
-  "UdListDefinitionId": 531,
-  "Rank": 151,
+  "UdListDefinitionId": 317,
+  "Rank": 915,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldLength": 223
     }
   }
 }

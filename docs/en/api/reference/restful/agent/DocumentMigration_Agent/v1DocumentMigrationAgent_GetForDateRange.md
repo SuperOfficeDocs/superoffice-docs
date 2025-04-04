@@ -79,13 +79,13 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 641,
-  "MinDate": "2007-04-02T14:28:21.8991479+02:00",
-  "MaxDate": "2004-07-19T14:28:21.8991479+02:00",
+  "DocumentPluginId": 241,
+  "MinDate": "2004-09-02T13:14:00.2512206+02:00",
+  "MaxDate": "2017-09-19T13:14:00.2512206+02:00",
   "IncludeEmails": true
 }
 ```
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 638,
-  "NumDocumentsAlreadyMigrated": 702,
+  "NumDocumentsOmitted": 497,
+  "NumDocumentsAlreadyMigrated": 358,
   "Documents": [
     {
-      "DocumentId": 570,
-      "ContactId": 808,
-      "PersonId": 239,
-      "SaleId": 328,
-      "ProjectId": 114,
-      "DocTmplId": 479,
-      "AssociateId": 621,
-      "UserGroupId": 373,
-      "VisibleForId": 362
+      "DocumentId": 525,
+      "ContactId": 692,
+      "PersonId": 955,
+      "SaleId": 933,
+      "ProjectId": 932,
+      "DocTmplId": 269,
+      "AssociateId": 288,
+      "UserGroupId": 903,
+      "VisibleForId": 734
     }
   ],
   "Associates": [
     {
-      "AssociateId": 499,
-      "EmailAddress": "cullen@yost.ca"
+      "AssociateId": 790,
+      "EmailAddress": "gina@mcculloughlittle.co.uk"
     },
     {
-      "AssociateId": 499,
-      "EmailAddress": "cullen@yost.ca"
+      "AssociateId": 790,
+      "EmailAddress": "gina@mcculloughlittle.co.uk"
     }
   ]
 }

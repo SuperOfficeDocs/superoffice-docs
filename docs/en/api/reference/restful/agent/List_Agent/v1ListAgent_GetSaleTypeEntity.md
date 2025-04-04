@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=751
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=442
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 548,
-  "Name": "Dare-Rogahn",
-  "Tooltip": "ut",
-  "Rank": 376,
+  "SaleTypeId": 934,
+  "Name": "Morar, Wehner and Koelpin",
+  "Tooltip": "ipsa",
+  "Rank": 104,
   "DurationUnit": "Century",
-  "SaleDuration": 269,
-  "SaleTypeCatId": 514,
-  "Deleted": false,
-  "HasGuide": false,
+  "SaleDuration": 593,
+  "SaleTypeCatId": 212,
+  "Deleted": true,
+  "HasGuide": true,
   "HasStakeholders": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 630,
-  "QuoteLinesTemplate": 672,
-  "ConfirmationLinesTemplate": 158,
-  "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 469,
-  "MinEarningPercent": 94,
-  "GroupQuoteLinesBy": 745,
-  "SortGroupLinesBy": 322,
+  "DefaultQuoteValidity": 993,
+  "QuoteLinesTemplate": 910,
+  "ConfirmationLinesTemplate": 5,
+  "MaxDiscountPercentSet": true,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 256,
+  "MinEarningPercent": 263,
+  "GroupQuoteLinesBy": 431,
+  "SortGroupLinesBy": 598,
   "Stages": [
     {
-      "Id": 632,
-      "Name": "Emard, Ullrich and Hessel",
-      "ToolTip": "Commodi sunt.",
+      "Id": 736,
+      "Name": "Kuhlman, Watsica and Schuster",
+      "ToolTip": "Nobis exercitationem animi.",
       "Deleted": true,
-      "Rank": 178,
-      "Type": "provident",
-      "ColorBlock": 55,
-      "IconHint": "voluptas",
+      "Rank": 847,
+      "Type": "voluptas",
+      "ColorBlock": 936,
+      "IconHint": "eveniet",
       "Selected": true,
-      "LastChanged": "1999-01-28T14:28:22.039767+01:00",
+      "LastChanged": "2008-04-09T13:14:00.5793728+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aperiam",
-      "StyleHint": "in",
+      "ExtraInfo": "accusamus",
+      "StyleHint": "temporibus",
       "Hidden": false,
-      "FullName": "Dr. Daphne Zula Rath",
+      "FullName": "Phyllis Hegmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 114
+          "FieldLength": 283
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 985
     }
   }
 }

@@ -84,52 +84,52 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "impedit",
-  "ProviderName": "Kuhn LLC",
-  "StorageKey": "omnis",
+  "StorageType": "ipsa",
+  "ProviderName": "Auer-Champlin",
+  "StorageKey": "blanditiis",
   "ExtraRestrictions": [
     {
-      "Name": "Swaniawski-Cruickshank",
-      "Operator": "sint",
+      "Name": "Macejkovic, Franecki and Hoeger",
+      "Operator": "iusto",
       "Values": [
-        "beatae",
-        "est"
+        "ea",
+        "maiores"
       ],
       "DisplayValues": [
-        "quisquam",
-        "et"
+        "temporibus",
+        "nihil"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 316,
+      "InterParenthesis": 440,
       "InterOperator": "And",
-      "UniqueHash": 916
+      "UniqueHash": 756
     }
   ],
   "OrderBy": [
     {
-      "Name": "Hirthe Group",
+      "Name": "Bechtelar-Prohaska",
       "Direction": "ASC"
     },
     {
-      "Name": "Hirthe Group",
+      "Name": "Bechtelar-Prohaska",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "nihil",
-    "magnam"
+    "architecto",
+    "architecto"
   ],
-  "PageSize": 459,
-  "PageNumber": 191
+  "PageSize": 454,
+  "PageNumber": 499
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Koch LLC",
-      "DisplayTooltip": "et",
-      "DisplayType": "sed",
+      "DisplayName": "Okuneva Group",
+      "DisplayTooltip": "dignissimos",
+      "DisplayType": "dolor",
       "CanOrderBy": false,
-      "Name": "Kshlerin-Mills",
-      "CanRestrictBy": true,
-      "RestrictionType": "ullam",
-      "RestrictionListName": "Marquardt-Johnson",
-      "IsVisible": true,
-      "ExtraInfo": "est",
-      "Width": "quos",
-      "IconHint": "ea",
-      "HeadingIconHint": "occaecati"
+      "Name": "Lind-Hammes",
+      "CanRestrictBy": false,
+      "RestrictionType": "qui",
+      "RestrictionListName": "Smitham, Ernser and Boyle",
+      "IsVisible": false,
+      "ExtraInfo": "tenetur",
+      "Width": "dolore",
+      "IconHint": "quisquam",
+      "HeadingIconHint": "minus"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Predovic Inc and Sons",
-      "PrimaryKey": 581,
+      "EntityName": "Tromp, Auer and Christiansen",
+      "PrimaryKey": 666,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "expedita",
-          "TooltipHint": "qui",
-          "LinkHint": "ut"
+          "DisplayValue": "consequatur",
+          "TooltipHint": "similique",
+          "LinkHint": "ea"
         }
       },
-      "LinkHint": "magnam",
-      "StyleHint": "animi",
+      "LinkHint": "et",
+      "StyleHint": "magni",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 9
+          "FieldLength": 781
         }
       }
     }
   ],
-  "RowCount": 630,
+  "RowCount": 197,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldLength": 916
     }
   }
 }

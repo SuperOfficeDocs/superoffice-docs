@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 195,
-  "Name": "Schroeder, Kozey and Herman",
-  "Tooltip": "dicta",
+  "Id": 465,
+  "Name": "Leuschke, Stamm and Goodwin",
+  "Tooltip": "fuga",
   "Deleted": false,
-  "UdListDefinitionId": 703,
-  "Rank": 571,
+  "UdListDefinitionId": 674,
+  "Rank": 805,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 834
+      "FieldType": "System.Int32",
+      "FieldLength": 420
     }
   }
 }

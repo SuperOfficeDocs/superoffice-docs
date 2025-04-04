@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DeliveryType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 864,
-    "Name": "Kirlin-O'Conner",
-    "ToolTip": "Corporis veritatis dignissimos maxime vel.",
+    "Id": 594,
+    "Name": "Stroman-Beahan",
+    "ToolTip": "Soluta possimus est labore.",
     "Deleted": false,
-    "Rank": 409,
-    "Type": "est",
-    "ColorBlock": 306,
-    "IconHint": "et",
+    "Rank": 634,
+    "Type": "cumque",
+    "ColorBlock": 496,
+    "IconHint": "quis",
     "Selected": false,
-    "LastChanged": "2000-04-26T14:28:27.5551692+02:00",
+    "LastChanged": "2013-06-12T13:14:09.7597728+02:00",
     "ChildItems": [
       {
-        "Id": 869,
-        "Name": "Jerde, McLaughlin and Will",
-        "ToolTip": "Et qui non.",
+        "Id": 75,
+        "Name": "Wilkinson Group",
+        "ToolTip": "Ut voluptatem est.",
         "Deleted": false,
-        "Rank": 247,
-        "Type": "voluptas",
-        "ColorBlock": 822,
-        "IconHint": "eaque",
-        "Selected": true,
-        "LastChanged": "2015-05-24T14:28:27.5551692+02:00",
+        "Rank": 626,
+        "Type": "accusamus",
+        "ColorBlock": 291,
+        "IconHint": "voluptatem",
+        "Selected": false,
+        "LastChanged": "1999-07-08T13:14:09.7597728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Dee Jenkins",
+        "ExtraInfo": "repellat",
+        "StyleHint": "quis",
+        "Hidden": true,
+        "FullName": "Miss Maggie Hackett Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 53
+            "FieldType": "System.String",
+            "FieldLength": 849
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Hubert Moen",
+    "ExtraInfo": "omnis",
+    "StyleHint": "reprehenderit",
+    "Hidden": false,
+    "FullName": "Mr. Anika Danyka Littel DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 906
+        "FieldType": "System.Int32",
+        "FieldLength": 983
       }
     }
   }

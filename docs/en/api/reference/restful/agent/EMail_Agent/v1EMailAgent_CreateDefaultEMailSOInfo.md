@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 367,
-  "AppointmentId": 943,
-  "ProjectId": 446,
-  "SaleId": 517,
-  "Archived": false,
-  "ArchivedAt": "1999-05-20T14:28:21.9303967+02:00",
-  "ArchivedBy": 931,
-  "ArchivedDisplayName": "McClure, Witting and Kohler",
+  "DocumentId": 840,
+  "AppointmentId": 99,
+  "ProjectId": 66,
+  "SaleId": 450,
+  "Archived": true,
+  "ArchivedAt": "2005-03-18T13:14:00.32935+01:00",
+  "ArchivedBy": 94,
+  "ArchivedDisplayName": "Corwin Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 611
+      "FieldType": "System.Int32",
+      "FieldLength": 711
     }
   }
 }

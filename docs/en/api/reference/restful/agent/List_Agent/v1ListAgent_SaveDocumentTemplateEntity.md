@@ -111,34 +111,34 @@ OK
 POST /api/v1/Agents/List/SaveDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 419,
-  "Name": "Wunsch Inc and Sons",
-  "Tooltip": "rerum",
-  "SaveInDb": 757,
-  "Filename": "ea",
-  "DefaultOref": "consequatur",
+  "DocumentTemplateId": 263,
+  "Name": "Rippin LLC",
+  "Tooltip": "dicta",
+  "SaveInDb": 683,
+  "Filename": "mollitia",
+  "DefaultOref": "eius",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 998,
-  "IntentId": 62,
+  "AutoeventId": 286,
+  "IntentId": 580,
   "IsDefaultPublished": false,
-  "Rank": 10,
-  "LoadTemplateFromPlugin": 179,
-  "MimeType": "corrupti",
+  "Rank": 258,
+  "LoadTemplateFromPlugin": 291,
+  "MimeType": "rem",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 902,
+  "DocumentTypeKey": 580,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "myrl@schamberger.biz",
-  "IncludeSignature": false,
+  "EmailSubject": "taurean@durgan.info",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "brittany@shields.name",
+  "SenderEmailAddress": "shanon@dickens.biz",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 511,
-  "Name": "Gutkowski-Shanahan",
-  "Tooltip": "eaque",
-  "SaveInDb": 69,
-  "Filename": "velit",
-  "DefaultOref": "quo",
+  "DocumentTemplateId": 517,
+  "Name": "Abshire Inc and Sons",
+  "Tooltip": "ut",
+  "SaveInDb": 273,
+  "Filename": "perferendis",
+  "DefaultOref": "exercitationem",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 348,
-  "IntentId": 383,
-  "IsDefaultPublished": false,
-  "Rank": 705,
-  "LoadTemplateFromPlugin": 597,
-  "MimeType": "similique",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 660,
+  "AutoeventId": 987,
+  "IntentId": 554,
+  "IsDefaultPublished": true,
+  "Rank": 88,
+  "LoadTemplateFromPlugin": 910,
+  "MimeType": "et",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 603,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "isobel_stoltenberg@krisdoyle.us",
-  "IncludeSignature": false,
-  "ShowCurrents": false,
+  "EmailSubject": "kyla@corwin.biz",
+  "IncludeSignature": true,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "danika_ratke@glover.co.uk",
+  "SenderEmailAddress": "willie@cruickshankwintheiser.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 77
+      "FieldLength": 68
     }
   }
 }

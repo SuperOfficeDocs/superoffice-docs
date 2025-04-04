@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/User/GetDataRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 671,
-  "TableName": "Lemke, Marvin and Hane"
+  "RoleId": 336,
+  "TableName": "Runolfsson-Schmidt"
 }
 ```
 
@@ -90,7 +90,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "omnis",
-  "2": "similique"
+  "1": "dolores",
+  "2": "eaque"
 }
 ```

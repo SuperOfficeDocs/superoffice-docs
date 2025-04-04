@@ -121,12 +121,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "sunt",
+    "path": "non",
     "value": {}
   },
   {
     "op": "add",
-    "path": "sunt",
+    "path": "non",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 461,
-  "Name": "Osinski-Harber",
-  "ContentType": "cupiditate",
-  "AttSize": 53,
-  "InlineImage": true,
-  "ContentId": "dolor",
-  "AuthKey": "autem",
+  "AttachmentId": 762,
+  "Name": "Wunsch-Batz",
+  "ContentType": "tenetur",
+  "AttSize": 846,
+  "InlineImage": false,
+  "ContentId": "ut",
+  "AuthKey": "enim",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 515
+      "FieldType": "System.Int32",
+      "FieldLength": 928
     }
   },
   "_Links": {

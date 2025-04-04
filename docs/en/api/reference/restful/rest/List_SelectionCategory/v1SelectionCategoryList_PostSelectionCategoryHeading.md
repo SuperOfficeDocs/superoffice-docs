@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 355,
-  "Name": "Hudson LLC",
-  "Tooltip": "eligendi",
-  "Deleted": true,
-  "Rank": 369,
-  "UdListDefinitionId": 456
+  "HeadingId": 720,
+  "Name": "Zulauf, Jakubowski and Abernathy",
+  "Tooltip": "distinctio",
+  "Deleted": false,
+  "Rank": 655,
+  "UdListDefinitionId": 823
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 843,
-  "Name": "Rau Group",
-  "Tooltip": "illo",
+  "HeadingId": 266,
+  "Name": "Hilll-Dibbert",
+  "Tooltip": "praesentium",
   "Deleted": false,
-  "Rank": 794,
-  "UdListDefinitionId": 853,
+  "Rank": 671,
+  "UdListDefinitionId": 3,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 666
     }
   }
 }

@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/Dash/GetDashList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Dashboards": [
-    924,
-    690
+    899,
+    325
   ]
 }
 ```
@@ -104,37 +104,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 690,
-    "UniqueId": "omnis",
-    "Name": "Reinger, Kuhic and Beatty",
-    "Description": "Right-sized attitude-oriented middleware",
-    "AssociateId": 14,
-    "Columns": 740,
+    "DashboardId": 794,
+    "UniqueId": "laudantium",
+    "Name": "Watsica Group",
+    "Description": "Future-proofed methodical neural-net",
+    "AssociateId": 801,
+    "Columns": 932,
     "Theme": null,
-    "VisibleForAll": 947,
+    "VisibleForAll": 251,
     "VisibleForAssociates": [
-      127,
-      811
+      330,
+      146
     ],
     "VisibleForGroups": [
-      908,
-      143
+      976,
+      36
     ],
-    "PinForAll": 260,
+    "PinForAll": 197,
     "PinForAssociates": [
-      278,
-      14
+      81,
+      253
     ],
     "PinForGroups": [
-      582,
-      689
+      793,
+      487
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 106
+        "FieldLength": 1001
       }
     }
   }

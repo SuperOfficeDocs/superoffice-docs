@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 527,
-  "DocumentId": 552,
+  "SelectionId": 982,
+  "DocumentId": 242,
   "MailMergeDeliveryType": "BestFit",
-  "CustomAttention": "eveniet",
+  "CustomAttention": "dolores",
   "AlwaysUseCustomAttention": true,
   "SaveDocument": false,
-  "CustomMailBody": "in",
+  "CustomMailBody": "excepturi",
   "TaskEntity": null,
-  "AddCompanyInterest": 470,
-  "AddPersonInterest": 941,
-  "RemoveCompanyInterest": 425,
-  "RemovePersonInterest": 159,
-  "IncludeNoMailingsRecipient": true,
+  "AddCompanyInterest": 909,
+  "AddPersonInterest": 445,
+  "RemoveCompanyInterest": 11,
+  "RemovePersonInterest": 411,
+  "IncludeNoMailingsRecipient": false,
   "TestOnly": false,
-  "ProjectId": 611,
+  "ProjectId": 637,
   "IncludeRetiredRecipients": false,
   "IncludeStoppedRecipients": false,
-  "CustomMailSubject": "ut",
+  "CustomMailSubject": "minima",
   "ExtraInfo": "et",
   "Synchronous": false,
-  "IsTemporarySelection": true,
+  "IsTemporarySelection": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldType": "System.String",
+      "FieldLength": 742
     }
   }
 }

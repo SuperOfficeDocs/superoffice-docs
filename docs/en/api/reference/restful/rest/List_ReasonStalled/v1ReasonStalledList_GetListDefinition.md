@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 899,
-  "Name": "Beahan, Kunde and Trantow",
-  "Tooltip": "pariatur",
-  "Deleted": false,
-  "Rank": 669,
+  "Id": 625,
+  "Name": "Christiansen Group",
+  "Tooltip": "corporis",
+  "Deleted": true,
+  "Rank": 620,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "magnam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quia",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldLength": 849
     }
   },
   "_Links": {

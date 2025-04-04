@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 395,
-    "Name": "Upton Inc and Sons",
-    "Tooltip": "eum",
+    "HeadingId": 74,
+    "Name": "Rice LLC",
+    "Tooltip": "occaecati",
     "Deleted": false,
-    "Rank": 985,
-    "UdListDefinitionId": 825,
+    "Rank": 899,
+    "UdListDefinitionId": 503,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 885
+        "FieldLength": 308
       }
     }
   }

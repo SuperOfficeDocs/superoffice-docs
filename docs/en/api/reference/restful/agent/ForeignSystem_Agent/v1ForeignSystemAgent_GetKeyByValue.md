@@ -84,15 +84,15 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Adams LLC",
-  "DeviceName": "Kohler, Hackett and Dach",
-  "KeyName": "Robel-Kozey",
-  "KeyValue": "eos",
-  "TableName": "Dietrich, Zulauf and Quigley"
+  "ApplicationName": "Schiller Inc and Sons",
+  "DeviceName": "Welch-Lindgren",
+  "KeyName": "O'Connell, Sanford and Jast",
+  "KeyValue": "tempora",
+  "TableName": "Terry-DuBuque"
 }
 ```
 
@@ -103,20 +103,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "magni",
-  "Value": "laboriosam",
-  "RecordId": 579,
-  "CreatedDate": "1999-01-17T14:28:22.0241429+01:00",
-  "UpdatedDate": "2002-09-25T14:28:22.0241429+02:00",
-  "UpdatedBy": "consequatur",
-  "CreatedBy": "voluptates",
-  "TableName": "Volkman LLC",
+  "Key": "sequi",
+  "Value": "est",
+  "RecordId": 826,
+  "CreatedDate": "2023-11-20T13:14:00.5168611+01:00",
+  "UpdatedDate": "2016-12-17T13:14:00.5168611+01:00",
+  "UpdatedBy": "sit",
+  "CreatedBy": "porro",
+  "TableName": "Stroman, Sporer and Ryan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 446
+      "FieldLength": 22
     }
   }
 }

@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Value": "perspiciatis",
+    "Id": 399,
+    "Value": "officia",
     "Tooltip": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 443
+        "FieldType": "System.Int32",
+        "FieldLength": 168
       }
     }
   },
   {
-    "Id": 1000,
-    "Value": "perspiciatis",
+    "Id": 399,
+    "Value": "officia",
     "Tooltip": "quo",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 443
+        "FieldType": "System.Int32",
+        "FieldLength": 168
       }
     }
   }

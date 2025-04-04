@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/List/GetLegalBases
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LegalBaseId": 229,
-    "Name": "Donnelly Group",
+    "LegalBaseId": 786,
+    "Name": "Buckridge Group",
     "Tooltip": "ut",
-    "Rank": 308,
-    "Key": "ut",
+    "Rank": 942,
+    "Key": "repellat",
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 563
+        "FieldLength": 723
       }
     }
   }

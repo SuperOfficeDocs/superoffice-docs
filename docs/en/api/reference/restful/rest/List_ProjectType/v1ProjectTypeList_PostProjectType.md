@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 555,
-  "Name": "Moore LLC",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 983,
-  "Rank": 933
+  "Id": 687,
+  "Name": "Jerde Group",
+  "Tooltip": "ab",
+  "Deleted": false,
+  "UdListDefinitionId": 601,
+  "Rank": 443
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 781,
-  "Name": "Casper, Gulgowski and Hoppe",
-  "Tooltip": "nobis",
-  "Deleted": true,
-  "UdListDefinitionId": 499,
-  "Rank": 898,
+  "Id": 182,
+  "Name": "Bayer, Haag and Kuvalis",
+  "Tooltip": "delectus",
+  "Deleted": false,
+  "UdListDefinitionId": 78,
+  "Rank": 18,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 721
+      "FieldLength": 307
     }
   }
 }

@@ -74,7 +74,7 @@ OK
 DELETE /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 454,
-    "Tooltip": "qui",
-    "CanAssign": true,
-    "Free": 605,
-    "InUse": 870,
-    "IsHidden": true,
-    "Assigned": true,
-    "ModuleLicenseId": 640,
-    "Name": "O'Reilly, Graham and Nitzsche",
-    "Description": "Grass-roots dedicated ability",
-    "PrerequisiteModuleName": "Adams LLC",
-    "SortOrder": 589,
-    "ExtraFlags": 472,
+    "Total": 201,
+    "Tooltip": "earum",
+    "CanAssign": false,
+    "Free": 124,
+    "InUse": 307,
+    "IsHidden": false,
+    "Assigned": false,
+    "ModuleLicenseId": 50,
+    "Name": "Spinka LLC",
+    "Description": "Versatile dedicated local area network",
+    "PrerequisiteModuleName": "Kuvalis-Miller",
+    "SortOrder": 507,
+    "ExtraFlags": 979,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 69
+        "FieldType": "System.Int32",
+        "FieldLength": 900
       }
     }
   }

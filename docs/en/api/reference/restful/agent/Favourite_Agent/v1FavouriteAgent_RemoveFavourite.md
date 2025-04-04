@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Waelchi LLC",
-  "RecordId": 667,
-  "AssociateId": 75
+  "TableName": "Oberbrunner LLC",
+  "RecordId": 536,
+  "AssociateId": 707
 }
 ```
 

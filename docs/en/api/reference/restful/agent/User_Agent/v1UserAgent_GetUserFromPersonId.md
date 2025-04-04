@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 822
+  "PersonId": 93
 }
 ```
 
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 24,
-    "Name": "Gerhold Inc and Sons",
-    "Rank": 14,
-    "Tooltip": "nulla",
+    "AssociateId": 85,
+    "Name": "Goodwin, Bartell and Skiles",
+    "Rank": 986,
+    "Tooltip": "commodi",
     "LicenseOwners": [
       {
-        "Name": "Crona Inc and Sons",
-        "Description": "Configurable intermediate workforce",
+        "Name": "Price-Jacobson",
+        "Description": "Customer-focused stable collaboration",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -136,13 +136,13 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 305
+            "FieldLength": 232
           }
         }
       },
       {
-        "Name": "Crona Inc and Sons",
-        "Description": "Configurable intermediate workforce",
+        "Name": "Price-Jacobson",
+        "Description": "Customer-focused stable collaboration",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -156,7 +156,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 305
+            "FieldLength": 232
           }
         }
       }
@@ -165,11 +165,76 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "earum",
-        "Tooltip": "magni",
-        "Id": 312,
-        "Rank": 7,
+        "Value": "doloremque",
+        "Tooltip": "possimus",
+        "Id": 295,
+        "Rank": 301,
         "Deleted": false,
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 671
+          }
+        }
+      }
+    ],
+    "Person": null,
+    "Deleted": true,
+    "Lastlogin": "2009-03-21T13:14:01.738198+01:00",
+    "Lastlogout": "2012-02-23T13:14:01.738198+01:00",
+    "EjUserId": 479,
+    "RequestSignature": "qui",
+    "Type": "AnonymousAssociate",
+    "IsPersonRetired": false,
+    "IsOnTravel": false,
+    "Credentials": [
+      {
+        "Type": null,
+        "Value": "tenetur",
+        "DisplayValue": "quo",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 49
+          }
+        }
+      },
+      {
+        "Type": null,
+        "Value": "tenetur",
+        "DisplayValue": "quo",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.String",
+            "FieldLength": 49
+          }
+        }
+      }
+    ],
+    "UserName": "Kris-Luettgen",
+    "TicketCategories": [
+      {
+        "Id": 519,
+        "Name": "Herzog, Braun and Morar",
+        "ToolTip": "Blanditiis quia animi est voluptas.",
+        "Deleted": true,
+        "Rank": 619,
+        "Type": "molestias",
+        "ChildItems": [
+          {},
+          {}
+        ],
+        "IconHint": "delectus",
+        "ColorBlock": 497,
+        "ExtraInfo": "eum",
+        "StyleHint": "alias",
+        "FullName": "Ignatius Blanda",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
@@ -180,95 +245,30 @@ Content-Type: application/json; charset=utf-8
         }
       }
     ],
-    "Person": null,
-    "Deleted": false,
-    "Lastlogin": "2024-06-13T14:28:22.7116081+02:00",
-    "Lastlogout": "2020-11-09T14:28:22.7116081+01:00",
-    "EjUserId": 909,
-    "RequestSignature": "qui",
-    "Type": "AnonymousAssociate",
-    "IsPersonRetired": false,
-    "IsOnTravel": false,
-    "Credentials": [
-      {
-        "Type": null,
-        "Value": "impedit",
-        "DisplayValue": "odio",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 873
-          }
-        }
-      },
-      {
-        "Type": null,
-        "Value": "impedit",
-        "DisplayValue": "odio",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 873
-          }
-        }
-      }
-    ],
-    "UserName": "Effertz Inc and Sons",
-    "TicketCategories": [
-      {
-        "Id": 58,
-        "Name": "Dooley, Beahan and Hodkiewicz",
-        "ToolTip": "Quod itaque quia.",
-        "Deleted": true,
-        "Rank": 846,
-        "Type": "laudantium",
-        "ChildItems": [
-          {},
-          {}
-        ],
-        "IconHint": "est",
-        "ColorBlock": 874,
-        "ExtraInfo": "autem",
-        "StyleHint": "facere",
-        "FullName": "Dewitt Mann",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 792
-          }
-        }
-      }
-    ],
-    "NickName": "Bailey, Gutmann and O'Keefe",
+    "NickName": "Rodriguez Group",
     "WaitingForApproval": false,
     "ExtraFields": {
-      "ExtraFields1": "ut",
-      "ExtraFields2": "repellendus"
+      "ExtraFields1": "velit",
+      "ExtraFields2": "molestiae"
     },
     "CustomFields": {
-      "CustomFields1": "perspiciatis",
-      "CustomFields2": "aspernatur"
+      "CustomFields1": "quam",
+      "CustomFields2": "quibusdam"
     },
     "PostSaveCommands": [
       {
-        "Name": "Simonis, Schamberger and Gleichner",
-        "DisplayName": "Lehner LLC",
-        "Description": "Intuitive composite framework",
-        "ToolTip": "Et ut quia sit fugiat perferendis.",
+        "Name": "Armstrong, Haley and Parker",
+        "DisplayName": "Emmerich, Bartell and Rice",
+        "Description": "Expanded client-server concept",
+        "ToolTip": "Molestiae accusantium sapiente facilis et eos ad.",
         "Actions": "Implicit",
-        "ActionData": "vel",
+        "ActionData": "dolore",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 295
+            "FieldLength": 282
           }
         }
       }
@@ -277,8 +277,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldType": "System.String",
+        "FieldLength": 564
       }
     }
   }

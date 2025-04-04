@@ -99,18 +99,18 @@ OK
 POST /api/v1/Agents/Document/GetPersonDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 51,
+  "PersonId": 273,
   "IncludeProjectDocuments": false,
-  "StartTime": "2000-08-16T14:28:21.8210267+02:00",
-  "EndTime": "2020-06-05T14:28:21.8210267+02:00",
-  "Count": 89,
+  "StartTime": "2002-12-01T13:14:00.1100925+01:00",
+  "EndTime": "2020-10-27T13:14:00.1100925+01:00",
+  "Count": 769,
   "DocumentTemplateIds": [
-    504,
-    339
+    65,
+    661
   ]
 }
 ```
@@ -123,32 +123,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 700,
-    "Attention": "velit",
-    "Header": "nemo",
-    "Name": "Stamm, Wehner and Mann",
-    "OurRef": "molestias",
-    "YourRef": "excepturi",
-    "Description": "Down-sized holistic throughput",
-    "DocumentTemplate": "architecto",
-    "IsPublished": true,
-    "PersonId": 477,
-    "PersonFullName": "Ms. Ashlee Sheila Beer MD",
-    "AssociateFullName": "Mr. Sarai Denesik Sr.",
-    "ContactId": 234,
-    "ContactName": "Homenick, Hodkiewicz and Dare",
-    "ProjectId": 726,
-    "ProjectName": "Schamberger-Mann",
-    "AssociateId": 857,
-    "Snum": 687,
-    "SaleId": 628,
-    "SaleName": "Osinski-Hills",
+    "DocumentId": 992,
+    "Attention": "sit",
+    "Header": "dolores",
+    "Name": "D'Amore, Parker and Larkin",
+    "OurRef": "adipisci",
+    "YourRef": "alias",
+    "Description": "Front-line impactful support",
+    "DocumentTemplate": "saepe",
+    "IsPublished": false,
+    "PersonId": 688,
+    "PersonFullName": "Sidney Lelia Beatty I",
+    "AssociateFullName": "Chance Dickens",
+    "ContactId": 509,
+    "ContactName": "Renner Inc and Sons",
+    "ProjectId": 992,
+    "ProjectName": "Lind, Oberbrunner and Mann",
+    "AssociateId": 807,
+    "Snum": 454,
+    "SaleId": 243,
+    "SaleName": "Price Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 434
+        "FieldLength": 792
       }
     }
   }

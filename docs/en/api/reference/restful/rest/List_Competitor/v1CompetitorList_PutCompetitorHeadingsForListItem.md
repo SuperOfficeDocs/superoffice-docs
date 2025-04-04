@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Orn LLC",
-    "ToolTip": "Consequatur consequuntur.",
-    "Deleted": false,
-    "Rank": 694,
-    "Type": "qui",
-    "ColorBlock": 963,
-    "IconHint": "ut",
+    "Id": 546,
+    "Name": "Zulauf, Kunze and Hamill",
+    "ToolTip": "Ratione perspiciatis consequatur ea eius voluptatibus.",
+    "Deleted": true,
+    "Rank": 793,
+    "Type": "fugit",
+    "ColorBlock": 520,
+    "IconHint": "quod",
     "Selected": false,
-    "LastChanged": "2001-08-17T14:28:27.4926717+02:00",
+    "LastChanged": "2018-05-14T13:14:09.6503912+02:00",
     "ChildItems": [
       {
-        "Id": 859,
-        "Name": "Ziemann Group",
-        "ToolTip": "Aut modi et rerum.",
+        "Id": 979,
+        "Name": "Senger-Wolf",
+        "ToolTip": "Laboriosam est.",
         "Deleted": true,
-        "Rank": 903,
-        "Type": "distinctio",
-        "ColorBlock": 398,
-        "IconHint": "aut",
+        "Rank": 629,
+        "Type": "deleniti",
+        "ColorBlock": 687,
+        "IconHint": "beatae",
         "Selected": false,
-        "LastChanged": "2024-07-02T14:28:27.4926717+02:00",
+        "LastChanged": "2018-10-30T13:14:09.6503912+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "eveniet",
+        "ExtraInfo": "ex",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Lula Darien Weissnat V"
+        "FullName": "Kailee Spencer"
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "tempore",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "asperiores",
     "Hidden": false,
-    "FullName": "Dr. Frieda Kuphal Jr."
+    "FullName": "Gaetano Enrique Sanford I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 806,
-    "Name": "Stokes Group",
-    "ToolTip": "Soluta aut quia.",
+    "Id": 507,
+    "Name": "Willms, Baumbach and Marks",
+    "ToolTip": "Sapiente animi vel exercitationem.",
     "Deleted": true,
-    "Rank": 550,
-    "Type": "dolores",
-    "ColorBlock": 388,
-    "IconHint": "in",
+    "Rank": 612,
+    "Type": "consectetur",
+    "ColorBlock": 807,
+    "IconHint": "temporibus",
     "Selected": false,
-    "LastChanged": "2003-07-21T14:28:27.4926717+02:00",
+    "LastChanged": "2016-09-21T13:14:09.6503912+02:00",
     "ChildItems": [
       {
-        "Id": 285,
-        "Name": "Schiller-Howe",
-        "ToolTip": "Rem sequi voluptatem facilis veritatis eum.",
-        "Deleted": true,
-        "Rank": 719,
-        "Type": "esse",
-        "ColorBlock": 701,
-        "IconHint": "nihil",
+        "Id": 231,
+        "Name": "Lueilwitz, Gaylord and Yost",
+        "ToolTip": "Magnam quod quos et est asperiores mollitia eum.",
+        "Deleted": false,
+        "Rank": 238,
+        "Type": "non",
+        "ColorBlock": 211,
+        "IconHint": "est",
         "Selected": true,
-        "LastChanged": "2011-06-12T14:28:27.4926717+02:00",
+        "LastChanged": "2016-12-12T13:14:09.6503912+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "corrupti",
-        "StyleHint": "cupiditate",
+        "ExtraInfo": "qui",
+        "StyleHint": "accusantium",
         "Hidden": false,
-        "FullName": "Everette Stokes",
+        "FullName": "Dr. Jacquelyn Jast",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 22
+            "FieldLength": 365
           }
         }
       }
     ],
-    "ExtraInfo": "ipsum",
-    "StyleHint": "adipisci",
+    "ExtraInfo": "suscipit",
+    "StyleHint": "repellendus",
     "Hidden": true,
-    "FullName": "Donald Tremblay",
+    "FullName": "Jazmyn Kunze",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 425
+        "FieldLength": 917
       }
     }
   }

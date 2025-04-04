@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/Configuration/GetObjectMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "quaerat",
-  "Instance": "ad"
+  "Application": "est",
+  "Instance": "assumenda"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"qui"
+"est"
 ```

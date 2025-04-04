@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 662,
-    "Name": "Nitzsche Group",
-    "Tooltip": "a",
-    "Deleted": true,
-    "UdListDefinitionId": 268,
-    "Rank": 942
+    "Id": 836,
+    "Name": "Kihn-Torphy",
+    "Tooltip": "distinctio",
+    "Deleted": false,
+    "UdListDefinitionId": 934,
+    "Rank": 750
   },
   {
-    "Id": 662,
-    "Name": "Nitzsche Group",
-    "Tooltip": "a",
-    "Deleted": true,
-    "UdListDefinitionId": 268,
-    "Rank": 942
+    "Id": 836,
+    "Name": "Kihn-Torphy",
+    "Tooltip": "distinctio",
+    "Deleted": false,
+    "UdListDefinitionId": 934,
+    "Rank": 750
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 558,
-    "Name": "Nolan LLC",
-    "Tooltip": "sit",
+    "Id": 645,
+    "Name": "Reichert, Swaniawski and Friesen",
+    "Tooltip": "et",
     "Deleted": false,
-    "UdListDefinitionId": 144,
-    "Rank": 662,
+    "UdListDefinitionId": 242,
+    "Rank": 814,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 985
+        "FieldLength": 545
       }
     }
   }

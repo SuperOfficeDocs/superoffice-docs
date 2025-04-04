@@ -26,7 +26,7 @@ Gets a ChatTopicEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=574
+POST /api/v1/Agents/Chat/GetChatTopicEntity?chatTopicEntityId=792
 POST /api/v1/Agents/Chat/GetChatTopicEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatTopicEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 505,
-  "Name": "Pfannerstill, Maggio and Adams",
-  "Description": "Decentralized 3rd generation firmware",
-  "WelcomeMessage": "distinctio",
+  "ChatTopicId": 351,
+  "Name": "Emmerich-Kulas",
+  "Description": "Organic reciprocal conglomeration",
+  "WelcomeMessage": "et",
   "Language": null,
-  "LastAccept": "2022-12-01T14:28:21.5710362+01:00",
-  "SecondsPrAccept": 723,
-  "AlertRecipient": "atque",
+  "LastAccept": "2014-11-14T13:13:59.6725623+01:00",
+  "SecondsPrAccept": 247,
+  "AlertRecipient": "tempore",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "porro",
+  "BadgeHeader": "asperiores",
   "CustomQueueTextEnabled": false,
   "CustomQueueText": "voluptas",
-  "WarnNewChatMinutes": 829,
-  "WarnManagerNewChatMinutes": 529,
+  "WarnNewChatMinutes": 348,
+  "WarnManagerNewChatMinutes": 702,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
   "OpeningHoursEnabled": false,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 207,
-  "WarnManagerChatMessageMinutes": 88,
-  "UseQueueOfflineForm": true,
-  "OfflineFormTimeLimit": 808,
-  "OfflineFormQueueLength": 687,
-  "WidgetEnableRating": false,
-  "WidgetRatingText": "aliquam",
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 803,
+  "WarnManagerChatMessageMinutes": 716,
+  "UseQueueOfflineForm": false,
+  "OfflineFormTimeLimit": 46,
+  "OfflineFormQueueLength": 325,
+  "WidgetEnableRating": true,
+  "WidgetRatingText": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 429
+      "FieldType": "System.String",
+      "FieldLength": 774
     }
   }
 }

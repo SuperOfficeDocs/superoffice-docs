@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 498,
-    "Name": "Hilpert LLC",
-    "ToolTip": "Nihil possimus autem reprehenderit qui perferendis.",
-    "Deleted": false,
-    "Rank": 546,
-    "Type": "magnam",
-    "ColorBlock": 428,
-    "IconHint": "ratione",
+    "Id": 147,
+    "Name": "Morissette Inc and Sons",
+    "ToolTip": "Voluptatum recusandae corrupti accusamus nobis saepe id itaque.",
+    "Deleted": true,
+    "Rank": 214,
+    "Type": "temporibus",
+    "ColorBlock": 786,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2023-12-10T14:28:27.6645394+01:00",
+    "LastChanged": "2006-10-08T13:14:09.9785358+02:00",
     "ChildItems": [
       {
-        "Id": 380,
-        "Name": "Graham, Wisozk and Ward",
-        "ToolTip": "Nobis aperiam et.",
+        "Id": 841,
+        "Name": "Miller Inc and Sons",
+        "ToolTip": "Et quas vel ipsum tempora.",
         "Deleted": false,
-        "Rank": 52,
-        "Type": "voluptatem",
-        "ColorBlock": 263,
-        "IconHint": "mollitia",
+        "Rank": 323,
+        "Type": "porro",
+        "ColorBlock": 188,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "2010-02-11T14:28:27.6645394+01:00",
+        "LastChanged": "2012-08-13T13:14:09.9785358+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quod",
-        "StyleHint": "sit",
-        "Hidden": false,
-        "FullName": "Nathan Bechtelar"
+        "ExtraInfo": "eveniet",
+        "StyleHint": "ea",
+        "Hidden": true,
+        "FullName": "Jessy Gleichner"
       }
     ],
-    "ExtraInfo": "labore",
-    "StyleHint": "suscipit",
-    "Hidden": true,
-    "FullName": "Melvin Connelly"
+    "ExtraInfo": "minima",
+    "StyleHint": "ullam",
+    "Hidden": false,
+    "FullName": "Ms. Rylee McDermott"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 215,
-    "Name": "Dooley-Luettgen",
-    "ToolTip": "Vel nisi recusandae et et molestiae distinctio.",
+    "Id": 435,
+    "Name": "Krajcik-King",
+    "ToolTip": "Consequatur aut quos sed.",
     "Deleted": false,
-    "Rank": 177,
-    "Type": "porro",
-    "ColorBlock": 516,
-    "IconHint": "est",
+    "Rank": 502,
+    "Type": "quo",
+    "ColorBlock": 768,
+    "IconHint": "quod",
     "Selected": true,
-    "LastChanged": "2021-07-01T14:28:27.6645394+02:00",
+    "LastChanged": "2007-06-13T13:14:09.9785358+02:00",
     "ChildItems": [
       {
-        "Id": 523,
-        "Name": "Lubowitz Inc and Sons",
-        "ToolTip": "Molestiae vel cum occaecati molestiae quas.",
-        "Deleted": true,
-        "Rank": 461,
-        "Type": "quidem",
-        "ColorBlock": 863,
-        "IconHint": "libero",
-        "Selected": false,
-        "LastChanged": "2022-06-18T14:28:27.6645394+02:00",
+        "Id": 674,
+        "Name": "O'Reilly-Connelly",
+        "ToolTip": "Explicabo consequatur.",
+        "Deleted": false,
+        "Rank": 386,
+        "Type": "qui",
+        "ColorBlock": 805,
+        "IconHint": "esse",
+        "Selected": true,
+        "LastChanged": "2004-06-05T13:14:09.9785358+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "tenetur",
-        "Hidden": true,
-        "FullName": "Ms. Denis Rutherford V",
+        "ExtraInfo": "dicta",
+        "StyleHint": "a",
+        "Hidden": false,
+        "FullName": "Okey Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 652
+            "FieldType": "System.Int32",
+            "FieldLength": 844
           }
         }
       }
     ],
-    "ExtraInfo": "quas",
-    "StyleHint": "aut",
-    "Hidden": false,
-    "FullName": "Miss Gavin Yvonne Kautzer",
+    "ExtraInfo": "architecto",
+    "StyleHint": "animi",
+    "Hidden": true,
+    "FullName": "Kiel Heller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 423
+        "FieldLength": 157
       }
     }
   }

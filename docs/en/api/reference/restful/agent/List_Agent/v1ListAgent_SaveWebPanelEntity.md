@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveWebPanelEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 780,
-  "Name": "Kuphal Inc and Sons",
-  "Tooltip": "provident",
-  "Deleted": false,
-  "Rank": 511,
+  "WebPanelId": 873,
+  "Name": "Bernier-Wehner",
+  "Tooltip": "reprehenderit",
+  "Deleted": true,
+  "Rank": 952,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
-  "OnTravel": true,
+  "OnTravel": false,
   "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Effertz, Connelly and Ward",
+  "WindowName": "Nikolaus LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "dignissimos",
-  "Icon": 592,
-  "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true
+  "ProgId": "sed",
+  "Icon": 32,
+  "AlwaysReloadOnShow": true,
+  "NeverReloadOnCurrentChange": false
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 596,
-  "Name": "Becker-Cummerata",
-  "Tooltip": "maxime",
-  "Deleted": false,
-  "Rank": 682,
+  "WebPanelId": 64,
+  "Name": "Toy, Cremin and Mann",
+  "Tooltip": "ex",
+  "Deleted": true,
+  "Rank": 812,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "WindowName": "Lebsack-Walker",
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": false,
+  "WindowName": "Dach-Dicki",
   "Url": "http://www.example.com/",
-  "ProgId": "vel",
-  "Icon": 963,
+  "ProgId": "cupiditate",
+  "Icon": 352,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 995
+      "FieldType": "System.Int32",
+      "FieldLength": 434
     }
   }
 }

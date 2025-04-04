@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 642,
-    "Name": "Gleichner-Moen",
-    "ToolTip": "Culpa architecto aspernatur.",
+    "Id": 248,
+    "Name": "Brakus LLC",
+    "ToolTip": "In ea quis perspiciatis nesciunt eum.",
     "Deleted": false,
-    "Rank": 909,
-    "Type": "nisi",
-    "ColorBlock": 248,
-    "IconHint": "velit",
-    "Selected": false,
-    "LastChanged": "2014-03-12T14:28:27.6332907+01:00",
+    "Rank": 470,
+    "Type": "adipisci",
+    "ColorBlock": 129,
+    "IconHint": "tempora",
+    "Selected": true,
+    "LastChanged": "2024-01-02T13:14:09.931658+01:00",
     "ChildItems": [
       {
-        "Id": 43,
-        "Name": "Rempel Group",
-        "ToolTip": "Qui laborum consectetur aut ducimus.",
-        "Deleted": false,
-        "Rank": 512,
-        "Type": "vero",
-        "ColorBlock": 572,
-        "IconHint": "nulla",
-        "Selected": true,
-        "LastChanged": "2019-04-30T14:28:27.6332907+02:00",
+        "Id": 620,
+        "Name": "Hayes Group",
+        "ToolTip": "Modi perferendis ab fugit quo consectetur id autem.",
+        "Deleted": true,
+        "Rank": 901,
+        "Type": "tempora",
+        "ColorBlock": 263,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2010-05-12T13:14:09.931658+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "unde",
+        "ExtraInfo": "odio",
+        "StyleHint": "corrupti",
         "Hidden": true,
-        "FullName": "Mr. Alden Pfannerstill"
+        "FullName": "Perry Elva Harris V"
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "beatae",
+    "ExtraInfo": "quia",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Dr. Nash Becker DVM"
+    "FullName": "Rosalinda Botsford"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Lebsack LLC",
-    "ToolTip": "In explicabo dolores recusandae pariatur autem rerum.",
-    "Deleted": true,
-    "Rank": 790,
-    "Type": "numquam",
-    "ColorBlock": 26,
-    "IconHint": "corrupti",
-    "Selected": true,
-    "LastChanged": "2018-09-29T14:28:27.6332907+02:00",
+    "Id": 858,
+    "Name": "Braun, Stiedemann and Maggio",
+    "ToolTip": "Optio placeat voluptas in voluptatem.",
+    "Deleted": false,
+    "Rank": 122,
+    "Type": "sapiente",
+    "ColorBlock": 787,
+    "IconHint": "harum",
+    "Selected": false,
+    "LastChanged": "2019-01-24T13:14:09.931658+01:00",
     "ChildItems": [
       {
-        "Id": 845,
-        "Name": "McLaughlin Inc and Sons",
-        "ToolTip": "Debitis aut laborum unde in.",
+        "Id": 844,
+        "Name": "Carter-Beatty",
+        "ToolTip": "Neque sit fugiat.",
         "Deleted": true,
-        "Rank": 955,
-        "Type": "debitis",
-        "ColorBlock": 663,
-        "IconHint": "labore",
-        "Selected": true,
-        "LastChanged": "2018-07-28T14:28:27.6332907+02:00",
+        "Rank": 272,
+        "Type": "rerum",
+        "ColorBlock": 659,
+        "IconHint": "incidunt",
+        "Selected": false,
+        "LastChanged": "2016-10-18T13:14:09.931658+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "debitis",
-        "StyleHint": "dolorum",
+        "ExtraInfo": "consequatur",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Isom Parker",
+        "FullName": "Johnny Quigley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 481
+            "FieldLength": 975
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Greg Daniel",
+    "ExtraInfo": "itaque",
+    "StyleHint": "officia",
+    "Hidden": true,
+    "FullName": "Skyla Hackett",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 291
+        "FieldLength": 896
       }
     }
   }

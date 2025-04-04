@@ -116,31 +116,31 @@ OK
 POST /api/v1/ShipmentMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 486,
-  "PlainMessage": "ipsum",
-  "HtmlMessage": "numquam",
-  "SmsMessage": "animi",
-  "Description": "Reduced executive initiative",
-  "Subject": "doloremque",
-  "FolderId": 937,
-  "HeaderField": "dolorem",
-  "Design": "dolorum",
+  "ShipmentMessageId": 654,
+  "PlainMessage": "aut",
+  "HtmlMessage": "earum",
+  "SmsMessage": "voluptatem",
+  "Description": "Secured cohesive productivity",
+  "Subject": "quaerat",
+  "FolderId": 345,
+  "HeaderField": "fugiat",
+  "Design": "et",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Enterprise-wide upward-trending secured line",
-  "AccessKey": "esse",
-  "DocumentMessage": 38,
-  "Registered": "2008-08-02T14:28:27.2583066+02:00",
-  "RegisteredAssociateId": 357,
-  "Updated": "2022-06-07T14:28:27.2583066+02:00",
-  "UpdatedAssociateId": 420,
-  "UpdatedCount": 696
+  "RegisterViews": true,
+  "InlineImages": false,
+  "LongDescription": "Focused real-time standardization",
+  "AccessKey": "quis",
+  "DocumentMessage": 283,
+  "Registered": "2008-01-20T13:14:09.1966452+01:00",
+  "RegisteredAssociateId": 193,
+  "Updated": "2014-08-15T13:14:09.1966452+02:00",
+  "UpdatedAssociateId": 225,
+  "UpdatedCount": 312
 }
 ```
 
@@ -151,38 +151,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 966,
-  "PlainMessage": "quo",
-  "HtmlMessage": "ut",
-  "SmsMessage": "veniam",
-  "Description": "Stand-alone empowering conglomeration",
-  "Subject": "consequuntur",
-  "FolderId": 327,
-  "HeaderField": "quia",
-  "Design": "doloribus",
+  "ShipmentMessageId": 270,
+  "PlainMessage": "neque",
+  "HtmlMessage": "officia",
+  "SmsMessage": "rem",
+  "Description": "Versatile client-driven Graphical User Interface",
+  "Subject": "velit",
+  "FolderId": 764,
+  "HeaderField": "sunt",
+  "Design": "fugit",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Configurable analyzing matrix",
-  "AccessKey": "quae",
-  "DocumentMessage": 371,
-  "Registered": "2023-10-26T14:28:27.2583066+02:00",
-  "RegisteredAssociateId": 257,
-  "Updated": "2013-01-14T14:28:27.2583066+01:00",
-  "UpdatedAssociateId": 639,
-  "UpdatedCount": 996,
+  "LongDescription": "Horizontal logistical circuit",
+  "AccessKey": "repellendus",
+  "DocumentMessage": 408,
+  "Registered": "2009-10-06T13:14:09.1966452+02:00",
+  "RegisteredAssociateId": 659,
+  "Updated": "2019-03-21T13:14:09.1966452+01:00",
+  "UpdatedAssociateId": 114,
+  "UpdatedCount": 678,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 86
+      "FieldType": "System.String",
+      "FieldLength": 404
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

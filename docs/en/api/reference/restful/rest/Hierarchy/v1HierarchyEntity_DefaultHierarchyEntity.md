@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 447,
+  "HierarchyId": 676,
   "Domain": "Dashboards",
-  "Name": "Kertzmann-Renner",
-  "Fullname": "sed",
-  "ParentId": 231,
+  "Name": "Dooley, Ondricka and Lakin",
+  "Fullname": "magnam",
+  "ParentId": 535,
   "Children": [
     {
-      "HierarchyId": 214,
+      "HierarchyId": 664,
       "Domain": "Dashboards",
-      "Name": "Harber, Lesch and Funk",
-      "Fullname": "fugit",
-      "ParentId": 147,
+      "Name": "Mertz Group",
+      "Fullname": "nam",
+      "ParentId": 382,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-07-03T14:28:26.9458186+02:00",
-      "RegisteredAssociateId": 310,
-      "Updated": "2013-01-16T14:28:26.9458186+01:00",
-      "UpdatedAssociateId": 102,
+      "Registered": "2008-12-08T13:14:08.7741411+01:00",
+      "RegisteredAssociateId": 910,
+      "Updated": "2016-06-26T13:14:08.7741411+02:00",
+      "UpdatedAssociateId": 510,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 360
+          "FieldLength": 445
         }
       }
     }
   ],
-  "Registered": "1998-01-16T14:28:26.9458186+01:00",
-  "RegisteredAssociateId": 985,
-  "Updated": "2018-04-27T14:28:26.9458186+02:00",
-  "UpdatedAssociateId": 655,
+  "Registered": "2024-02-20T13:14:08.7741411+01:00",
+  "RegisteredAssociateId": 529,
+  "Updated": "1999-02-05T13:14:08.7741411+01:00",
+  "UpdatedAssociateId": 817,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 510
+      "FieldType": "System.String",
+      "FieldLength": 996
     }
   }
 }

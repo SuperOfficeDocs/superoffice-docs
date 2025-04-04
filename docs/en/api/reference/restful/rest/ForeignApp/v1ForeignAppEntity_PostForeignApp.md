@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 720,
-  "Name": "Kuphal, Harber and Bahringer",
-  "CreatedDate": "2001-04-08T14:28:26.9458186+02:00",
-  "UpdatedDate": "2016-10-26T14:28:26.9458186+02:00",
+  "ForeignAppId": 766,
+  "Name": "Lowe-Little",
+  "CreatedDate": "2016-03-15T13:14:08.7428891+01:00",
+  "UpdatedDate": "2023-04-05T13:14:08.7428891+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 203,
-      "Name": "Moen Inc and Sons",
-      "CreatedDate": "2006-03-28T14:28:26.9458186+02:00",
-      "UpdatedDate": "2002-02-18T14:28:26.9458186+01:00",
-      "AssociateFullName": "Ari Schuster",
-      "CreatedBy": "necessitatibus",
-      "UpdatedBy": "qui",
-      "DeviceIdentifier": "odio",
-      "ForeignAppId": 753,
+      "ForeignDeviceId": 988,
+      "Name": "Nitzsche-Schneider",
+      "CreatedDate": "2021-04-05T13:14:08.7428891+02:00",
+      "UpdatedDate": "2023-10-12T13:14:08.7428891+02:00",
+      "AssociateFullName": "Nickolas Reichel",
+      "CreatedBy": "aliquid",
+      "UpdatedBy": "maiores",
+      "DeviceIdentifier": "ut",
+      "ForeignAppId": 65,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 765
+          "FieldType": "System.Int32",
+          "FieldLength": 41
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 439
+      "FieldType": "System.String",
+      "FieldLength": 86
     }
   }
 }

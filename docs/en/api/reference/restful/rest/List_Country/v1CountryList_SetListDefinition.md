@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 666,
-  "Name": "Kuhlman, Schumm and Padberg",
-  "Tooltip": "voluptatem",
-  "Deleted": false,
-  "Rank": 182,
+  "Id": 531,
+  "Name": "Stehr-Morar",
+  "Tooltip": "earum",
+  "Deleted": true,
+  "Rank": 805,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "aut",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolor",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 278,
-  "Name": "Crist Inc and Sons",
-  "Tooltip": "quia",
+  "Id": 685,
+  "Name": "Weber Inc and Sons",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 678,
-  "IsCustomList": true,
+  "Rank": 16,
+  "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "non",
+  "UseGroupsAndHeadings": true,
+  "ListType": "rerum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldType": "System.String",
+      "FieldLength": 225
     }
   }
 }

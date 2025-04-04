@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 575,
-  "Name": "Miller-Lebsack",
-  "Tooltip": "porro",
+  "HeadingId": 699,
+  "Name": "Wisoky Group",
+  "Tooltip": "ratione",
   "Deleted": false,
-  "Rank": 342,
-  "UdListDefinitionId": 877
+  "Rank": 397,
+  "UdListDefinitionId": 821
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 830,
-  "Name": "Yundt LLC",
-  "Tooltip": "optio",
-  "Deleted": false,
-  "Rank": 108,
-  "UdListDefinitionId": 101,
+  "HeadingId": 630,
+  "Name": "Metz Inc and Sons",
+  "Tooltip": "eos",
+  "Deleted": true,
+  "Rank": 581,
+  "UdListDefinitionId": 6,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 977
+      "FieldType": "System.String",
+      "FieldLength": 204
     }
   }
 }

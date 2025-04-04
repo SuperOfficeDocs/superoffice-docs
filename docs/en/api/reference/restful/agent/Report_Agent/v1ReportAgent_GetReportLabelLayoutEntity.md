@@ -26,7 +26,7 @@ Gets a ReportLabelLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=175
+POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?reportLabelLayoutEntityId=863
 POST /api/v1/Agents/Report/GetReportLabelLayoutEntity?$select=name,department,category/id
 ```
 
@@ -88,24 +88,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 399,
-  "Name": "Rippin Group",
-  "Description": "Public-key methodical function",
+  "ReportLabelLayoutId": 109,
+  "Name": "Greenholt-Turcotte",
+  "Description": "User-friendly optimizing matrix",
   "Orientation": "Landscape",
-  "PaperWidth": 815,
-  "PaperHeight": 142,
-  "LeftMargin": 830,
-  "RightMargin": 978,
-  "TopMargin": 640,
-  "BottomMargin": 951,
-  "CountColumns": 673,
-  "CountRows": 436,
+  "PaperWidth": 445,
+  "PaperHeight": 117,
+  "LeftMargin": 919,
+  "RightMargin": 684,
+  "TopMargin": 875,
+  "BottomMargin": 260,
+  "CountColumns": 370,
+  "CountRows": 334,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 867
+      "FieldType": "System.String",
+      "FieldLength": 841
     }
   }
 }

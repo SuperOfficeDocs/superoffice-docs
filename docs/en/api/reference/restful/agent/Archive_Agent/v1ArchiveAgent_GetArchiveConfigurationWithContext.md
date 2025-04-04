@@ -84,9 +84,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Grady, Windler and Cassin",
-  "ProviderName": "Hansen-O'Keefe",
-  "Context": "vel"
+  "GuiName": "Gislason LLC",
+  "ProviderName": "Jones Inc and Sons",
+  "Context": "libero"
 }
 ```
 
@@ -99,68 +99,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "O'Reilly LLC",
-      "DisplayTooltip": "quibusdam",
-      "DisplayType": "nemo",
-      "CanOrderBy": false,
-      "Name": "Beer, Schaefer and Reynolds",
+      "DisplayName": "Kunze Group",
+      "DisplayTooltip": "nostrum",
+      "DisplayType": "placeat",
+      "CanOrderBy": true,
+      "Name": "Pollich-Kris",
       "CanRestrictBy": false,
-      "RestrictionType": "error",
-      "RestrictionListName": "Heaney-Jast",
+      "RestrictionType": "similique",
+      "RestrictionListName": "Gorczany Group",
       "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "eos",
-      "IconHint": "minus",
-      "HeadingIconHint": "dolorum"
+      "ExtraInfo": "ipsam",
+      "Width": "consequatur",
+      "IconHint": "et",
+      "HeadingIconHint": "sit"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 77,
-      "Name": "Schumm, Boyer and Nienow",
-      "ToolTip": "Esse magnam at et quibusdam.",
-      "Deleted": true,
-      "Rank": 879,
-      "Type": "omnis",
-      "ColorBlock": 221,
-      "IconHint": "necessitatibus",
+      "Id": 705,
+      "Name": "Kilback, Johnson and Marvin",
+      "ToolTip": "Sit error omnis nostrum expedita sed id.",
+      "Deleted": false,
+      "Rank": 26,
+      "Type": "dolor",
+      "ColorBlock": 911,
+      "IconHint": "mollitia",
       "Selected": false,
-      "LastChanged": "2024-08-24T14:28:21.4616659+02:00",
+      "LastChanged": "2021-04-05T13:13:59.5001938+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sunt",
-      "StyleHint": "nesciunt",
+      "ExtraInfo": "omnis",
+      "StyleHint": "id",
       "Hidden": false,
-      "FullName": "Ms. Adele Bins",
+      "FullName": "Dr. Gaetano Ole Orn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 604
+          "FieldLength": 68
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Hermiston LLC",
+      "Name": "Mann, Cole and Nicolas",
       "Direction": "ASC"
     },
     {
-      "Name": "Hermiston LLC",
+      "Name": "Mann, Cole and Nicolas",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "voluptatem",
+  "OwnerKeys": "corporis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 605
+      "FieldType": "System.String",
+      "FieldLength": 965
     }
   }
 }

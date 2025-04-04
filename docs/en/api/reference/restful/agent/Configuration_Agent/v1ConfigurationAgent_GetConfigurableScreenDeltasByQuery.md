@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 681,
-    "Name": "Mitchell LLC",
-    "Description": "Face to face fault-tolerant info-mediaries",
-    "DeltaJson": "iusto",
+    "ConfigurableScreenDeltaId": 531,
+    "Name": "Grady-Wintheiser",
+    "Description": "Universal analyzing model",
+    "DeltaJson": "dolorem",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "tenetur",
-    "UpdatedDate": "2020-10-25T14:28:21.5866608+01:00",
-    "CreatedDate": "1999-04-21T14:28:21.5866608+02:00",
+    "RecipeId": "earum",
+    "UpdatedDate": "2018-08-06T13:13:59.7038141+02:00",
+    "CreatedDate": "2019-11-06T13:13:59.7038141+01:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      453,
-      487
+      721,
+      571
     ],
-    "AppliesToKey": "dolor",
+    "AppliesToKey": "itaque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 567
+        "FieldLength": 57
       }
     }
   }

@@ -91,12 +91,12 @@ OK
 POST /api/v1/Agents/Preference/GetFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "natus",
-  "Key": "provident"
+  "Section": "voluptatem",
+  "Key": "quod"
 }
 ```
 
@@ -107,30 +107,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 750,
-  "Section": "et",
-  "Key": "reiciendis",
-  "Name": "Klein-Ryan",
+  "PrefDescId": 234,
+  "Section": "non",
+  "Key": "inventore",
+  "Name": "O'Reilly Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Optional 4th generation hierarchy",
+  "Description": "Operative intermediate function",
   "IsBuiltin": false,
-  "TableName": "Feeney, Smith and Weimann",
-  "UserDefinedListId": 291,
-  "Rank": 875,
-  "SubGroup": "nulla",
-  "MinLevel": 845,
-  "MaxValue": 558,
-  "MinValue": 92,
-  "RequiredLicense": "harum",
+  "TableName": "Friesen-Stark",
+  "UserDefinedListId": 845,
+  "Rank": 155,
+  "SubGroup": "est",
+  "MinLevel": 315,
+  "MaxValue": 160,
+  "MinValue": 93,
+  "RequiredLicense": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 678
+      "FieldLength": 603
     }
   }
 }

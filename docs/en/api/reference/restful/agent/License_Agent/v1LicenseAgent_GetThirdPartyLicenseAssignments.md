@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/License/GetThirdPartyLicenseAssignments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 270,
-  "ModuleOwner": "sunt"
+  "AssociateId": 394,
+  "ModuleOwner": "ea"
 }
 ```
 
@@ -105,25 +105,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 636,
-    "Tooltip": "similique",
-    "CanAssign": true,
-    "Free": 614,
-    "InUse": 2,
+    "Total": 931,
+    "Tooltip": "distinctio",
+    "CanAssign": false,
+    "Free": 760,
+    "InUse": 181,
     "IsHidden": true,
     "Assigned": true,
-    "ModuleLicenseId": 747,
-    "Name": "Auer, Kessler and Willms",
-    "Description": "Vision-oriented multi-tasking utilisation",
-    "PrerequisiteModuleName": "Kub, Feest and Rau",
-    "SortOrder": 666,
-    "ExtraFlags": 967,
+    "ModuleLicenseId": 281,
+    "Name": "Bruen, Yundt and Schmitt",
+    "Description": "Grass-roots multi-state definition",
+    "PrerequisiteModuleName": "Hane-Fadel",
+    "SortOrder": 268,
+    "ExtraFlags": 25,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldType": "System.String",
+        "FieldLength": 538
       }
     }
   }

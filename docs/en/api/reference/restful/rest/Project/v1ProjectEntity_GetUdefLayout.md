@@ -90,7 +90,7 @@ OK
 GET /api/v1/Project/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 371,
-    "ColumnId": 622,
-    "FieldDefault": "nulla",
-    "FieldHeight": 489,
-    "FieldLabel": "sapiente",
-    "FieldLeft": 412,
-    "FieldTop": 620,
+    "UDefFieldId": 483,
+    "ColumnId": 663,
+    "FieldDefault": "itaque",
+    "FieldHeight": 25,
+    "FieldLabel": "dolore",
+    "FieldLeft": 567,
+    "FieldTop": 51,
     "FieldType": "Checkbox",
-    "FieldWidth": 721,
-    "FormatMask": "placeat",
+    "FieldWidth": 625,
+    "FormatMask": "qui",
     "HideLabel": true,
-    "IsIndexed": true,
-    "LabelHeight": 740,
-    "LabelLeft": 180,
-    "LabelTop": 199,
-    "LabelWidth": 708,
-    "LastVersionId": 444,
-    "ListTableId": 345,
+    "IsIndexed": false,
+    "LabelHeight": 352,
+    "LabelLeft": 218,
+    "LabelTop": 750,
+    "LabelWidth": 219,
+    "LastVersionId": 995,
+    "ListTableId": 887,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 467,
+    "Page1LineNo": 864,
     "ProgId": "et",
     "IsReadOnly": false,
-    "ShortLabel": "quam",
-    "TabOrder": 531,
-    "TextLength": 508,
-    "Tooltip": "et",
-    "UdefIdentity": 116,
-    "UDListDefinitionId": 661,
+    "ShortLabel": "nemo",
+    "TabOrder": 390,
+    "TextLength": 222,
+    "Tooltip": "est",
+    "UdefIdentity": 158,
+    "UDListDefinitionId": 272,
     "Justification": "Center",
-    "Version": 320,
-    "TemplateVariableName": "Cummerata Group",
+    "Version": 846,
+    "TemplateVariableName": "Pagac-Boehm",
     "HasBeenPublished": false,
-    "MdoListName": "Lesch Group",
+    "MdoListName": "Botsford Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 344
+        "FieldType": "System.String",
+        "FieldLength": 387
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a Business object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetBusiness?businessId=856
+POST /api/v1/Agents/List/GetBusiness?businessId=180
 POST /api/v1/Agents/List/GetBusiness?$select=name,department,category/id
 ```
 
@@ -69,7 +69,7 @@ OK
 POST /api/v1/Agents/List/GetBusiness
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 763,
-  "Value": "laudantium",
-  "Tooltip": "repellat",
+  "Id": 506,
+  "Value": "et",
+  "Tooltip": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 116
+      "FieldLength": 748
     }
   }
 }

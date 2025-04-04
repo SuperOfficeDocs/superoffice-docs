@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/List/GetAllDocumentTemplates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 662,
-    "Name": "West-Schmitt",
-    "Tooltip": "sit",
-    "SaveInDb": 538,
-    "Filename": "rem",
-    "DefaultOref": "distinctio",
+    "DocumentTemplateId": 33,
+    "Name": "Wuckert Inc and Sons",
+    "Tooltip": "sint",
+    "SaveInDb": 907,
+    "Filename": "corrupti",
+    "DefaultOref": "sunt",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 407,
-    "IntentId": 147,
+    "AutoeventId": 199,
+    "IntentId": 549,
     "IsDefaultPublished": false,
-    "Rank": 312,
-    "LoadTemplateFromPlugin": 151,
-    "MimeType": "repudiandae",
+    "Rank": 806,
+    "LoadTemplateFromPlugin": 134,
+    "MimeType": "saepe",
     "IsInUseInGuides": false,
-    "DocumentTypeKey": 676,
+    "DocumentTypeKey": 3,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "lola.grady@klocko.name",
+    "EmailSubject": "arianna_rippin@macejkovicfritsch.com",
     "IncludeSignature": true,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "damion@dooley.ca",
+    "SenderEmailAddress": "callie_lynch@pollich.co.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldLength": 693
       }
     }
   }

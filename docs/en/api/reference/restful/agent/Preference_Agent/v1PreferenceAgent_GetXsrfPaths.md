@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "ea"
+  "Hostname": "consequatur"
 }
 ```
 
@@ -83,7 +83,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "facere",
-  "unde"
+  "quae",
+  "minima"
 ]
 ```

@@ -105,16 +105,16 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 531,
+  "EmailId": 170,
   "AttachmentIds": [
-    "temporibus",
-    "placeat"
+    "placeat",
+    "quia"
   ],
-  "IncludeAttachments": false
+  "IncludeAttachments": true
 }
 ```
 
@@ -127,148 +127,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 362,
-      "ContactName": "Kemmer LLC",
-      "PersonId": 300,
-      "PersonName": "Oberbrunner Group",
-      "AssociateId": 153,
-      "Address": "quaerat",
-      "EmailId": 599,
+      "ContactId": 521,
+      "ContactName": "Wyman-Gaylord",
+      "PersonId": 776,
+      "PersonName": "Smith-Schultz",
+      "AssociateId": 30,
+      "Address": "beatae",
+      "EmailId": 156,
       "DuplicatePersonIds": [
-        445,
-        549
+        840,
+        714
       ],
-      "Name": "Fay-Runte",
+      "Name": "Christiansen-Moen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 180
+          "FieldType": "System.Int32",
+          "FieldLength": 971
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 237,
-      "ContactName": "Jerde, Donnelly and Jast",
-      "PersonId": 785,
-      "PersonName": "Glover Group",
-      "AssociateId": 646,
-      "Address": "saepe",
-      "EmailId": 114,
+      "ContactId": 796,
+      "ContactName": "Rosenbaum, O'Connell and Kutch",
+      "PersonId": 426,
+      "PersonName": "Reilly, Quitzon and Cole",
+      "AssociateId": 97,
+      "Address": "quisquam",
+      "EmailId": 930,
       "DuplicatePersonIds": [
-        596,
-        644
+        342,
+        129
       ],
-      "Name": "Quitzon Inc and Sons",
+      "Name": "Shanahan-Hane",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 796
+          "FieldLength": 259
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 956,
-      "ContactName": "Nienow, Jerde and Dickens",
-      "PersonId": 803,
-      "PersonName": "Lueilwitz-Gutmann",
-      "AssociateId": 27,
-      "Address": "sed",
-      "EmailId": 15,
+      "ContactId": 860,
+      "ContactName": "Pfeffer, Bechtelar and Kohler",
+      "PersonId": 577,
+      "PersonName": "Jerde, Becker and Hayes",
+      "AssociateId": 227,
+      "Address": "quisquam",
+      "EmailId": 470,
       "DuplicatePersonIds": [
-        741,
-        45
+        760,
+        107
       ],
-      "Name": "Kihn, Fadel and Davis",
+      "Name": "O'Connell, Rogahn and Wolf",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 85
+          "FieldType": "System.String",
+          "FieldLength": 844
         }
       }
     }
   ],
-  "Subject": "consequuntur",
-  "HTMLBody": "qui",
+  "Subject": "quia",
+  "HTMLBody": "dolorem",
   "From": null,
-  "Sent": "2010-02-15T14:28:21.9616455+01:00",
-  "Size": 914,
+  "Sent": "2015-12-07T13:14:00.3918537+01:00",
+  "Size": 877,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "non",
-  "PlainBody": "exercitationem",
+  "MessageID": "quisquam",
+  "PlainBody": "eos",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 464,
+  "ServerId": 23,
   "Attachments": [
     {
-      "Description": "Devolved transitional orchestration",
-      "Filename": "voluptatem",
-      "Size": 203,
-      "Type": "pariatur",
-      "Encoding": "laudantium",
-      "Id": "aut",
-      "Disposition": "a",
-      "IsSafeFileExtension": true,
+      "Description": "Configurable solution-oriented model",
+      "Filename": "possimus",
+      "Size": 43,
+      "Type": "eum",
+      "Encoding": "ipsum",
+      "Id": "sint",
+      "Disposition": "voluptates",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 497
+          "FieldLength": 415
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Willms Group",
+      "Name": "O'Kon, Windler and Mohr",
       "Values": [
-        "dolorum",
-        "eos"
+        "ipsa",
+        "incidunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 630
+          "FieldType": "System.Int32",
+          "FieldLength": 996
         }
       }
     },
     {
-      "Name": "Willms Group",
+      "Name": "O'Kon, Windler and Mohr",
       "Values": [
-        "dolorum",
-        "eos"
+        "ipsa",
+        "incidunt"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 630
+          "FieldType": "System.Int32",
+          "FieldLength": 996
         }
       }
     }
   ],
-  "FolderName": "Bernhard LLC",
-  "EmailItemId": 262,
-  "AccountId": 852,
-  "ReceivedAt": "2003-10-03T14:28:21.9616455+02:00",
+  "FolderName": "Mertz LLC",
+  "EmailItemId": 885,
+  "AccountId": 761,
+  "ReceivedAt": "2000-04-25T13:14:00.3918537+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-06-06T14:28:21.9616455+02:00",
-  "HasCalendarData": false,
+  "RepliedAt": "2015-12-31T13:14:00.3918537+01:00",
+  "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 607
+      "FieldLength": 10
     }
   }
 }

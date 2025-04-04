@@ -83,38 +83,38 @@ OK
 POST /api/v1/Agents/NumberAllocation/SaveRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 124,
-  "Field": "dicta",
-  "RecordId": 1000,
+  "RefCountsId": 36,
+  "Field": "dolor",
+  "RecordId": 4,
   "SuggestedRecords": [
     {
-      "Id": 197,
-      "Name": "Cronin Group",
-      "ToolTip": "Qui et voluptas aliquid.",
+      "Id": 905,
+      "Name": "Toy Inc and Sons",
+      "ToolTip": "Rem cum unde ab non.",
       "Deleted": false,
-      "Rank": 968,
-      "Type": "qui",
+      "Rank": 706,
+      "Type": "et",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "voluptatem",
-      "ColorBlock": 512,
-      "ExtraInfo": "quia",
-      "StyleHint": "voluptas",
-      "FullName": "Mr. Josefina Martin Walsh V"
+      "IconHint": "repellat",
+      "ColorBlock": 332,
+      "ExtraInfo": "magni",
+      "StyleHint": "laudantium",
+      "FullName": "Wilfredo Hettinger"
     }
   ],
-  "CurrentValue": 685,
-  "TravelPrefix": 776,
-  "SatPrefix": 340,
+  "CurrentValue": 964,
+  "TravelPrefix": 592,
+  "SatPrefix": 417,
   "Allocate": false,
-  "Unique": true,
-  "ReadOnly": false,
+  "Unique": false,
+  "ReadOnly": true,
   "AllowBlank": false
 }
 ```
@@ -126,49 +126,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 339,
-  "Field": "accusantium",
-  "RecordId": 632,
+  "RefCountsId": 481,
+  "Field": "quos",
+  "RecordId": 593,
   "SuggestedRecords": [
     {
-      "Id": 163,
-      "Name": "Reichert, Adams and Becker",
-      "ToolTip": "Sit alias qui et minus impedit.",
+      "Id": 450,
+      "Name": "West LLC",
+      "ToolTip": "Velit a et aut ut quia quia est.",
       "Deleted": false,
-      "Rank": 813,
-      "Type": "earum",
+      "Rank": 444,
+      "Type": "ea",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "perferendis",
-      "ColorBlock": 34,
-      "ExtraInfo": "est",
-      "StyleHint": "est",
-      "FullName": "Andrew Ankunding",
+      "IconHint": "est",
+      "ColorBlock": 123,
+      "ExtraInfo": "quas",
+      "StyleHint": "quo",
+      "FullName": "Marilie Rodriguez",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 913
+          "FieldType": "System.Int32",
+          "FieldLength": 692
         }
       }
     }
   ],
-  "CurrentValue": 82,
-  "TravelPrefix": 890,
-  "SatPrefix": 165,
+  "CurrentValue": 509,
+  "TravelPrefix": 206,
+  "SatPrefix": 986,
   "Allocate": false,
-  "Unique": true,
-  "ReadOnly": false,
+  "Unique": false,
+  "ReadOnly": true,
   "AllowBlank": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 920
+      "FieldLength": 971
     }
   }
 }

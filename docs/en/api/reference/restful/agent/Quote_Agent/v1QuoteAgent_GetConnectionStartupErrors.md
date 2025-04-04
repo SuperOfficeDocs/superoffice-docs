@@ -82,17 +82,17 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "IsOk": false,
-    "UserExplanation": "ut",
-    "TechExplanation": "provident",
-    "ErrorCode": "tenetur",
+    "UserExplanation": "soluta",
+    "TechExplanation": "sit",
+    "ErrorCode": "maxime",
     "Changes": null,
     "Status": "Error",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 115
+        "FieldType": "System.String",
+        "FieldLength": 493
       }
     }
   }

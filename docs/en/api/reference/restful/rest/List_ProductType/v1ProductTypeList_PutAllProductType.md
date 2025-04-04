@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 450,
-    "Name": "Lowe, Schultz and Mosciski",
-    "Tooltip": "rem",
+    "Id": 342,
+    "Name": "Armstrong-Swift",
+    "Tooltip": "quis",
     "Deleted": false,
-    "UdListDefinitionId": 885,
-    "Rank": 465
+    "UdListDefinitionId": 471,
+    "Rank": 809
   },
   {
-    "Id": 450,
-    "Name": "Lowe, Schultz and Mosciski",
-    "Tooltip": "rem",
+    "Id": 342,
+    "Name": "Armstrong-Swift",
+    "Tooltip": "quis",
     "Deleted": false,
-    "UdListDefinitionId": 885,
-    "Rank": 465
+    "UdListDefinitionId": 471,
+    "Rank": 809
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 20,
-    "Name": "Kerluke, Wolff and Pacocha",
-    "Tooltip": "quas",
+    "Id": 359,
+    "Name": "Prohaska Inc and Sons",
+    "Tooltip": "temporibus",
     "Deleted": false,
-    "UdListDefinitionId": 344,
-    "Rank": 700,
+    "UdListDefinitionId": 578,
+    "Rank": 535,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 987
+        "FieldLength": 304
       }
     }
   }

@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 69,
-  "Rank": 955,
-  "DefaultTask": 421,
-  "DefaultTaskText": "sed",
+  "OwnerTable": 555,
+  "Rank": 21,
+  "DefaultTask": 436,
+  "DefaultTaskText": "doloremque",
   "IsVisual": false,
-  "LastGenerated": "2014-04-06T14:28:22.321006+02:00",
-  "Description": "Open-architected national instruction set",
-  "Name": "Pacocha, Dickens and Sporer",
-  "StatusMonitorId": 428,
-  "PictureId": 705,
-  "NeedsUpdate": true,
+  "LastGenerated": "2004-03-03T13:14:01.048891+01:00",
+  "Description": "Proactive systemic implementation",
+  "Name": "Wiegand Inc and Sons",
+  "StatusMonitorId": 726,
+  "PictureId": 889,
+  "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 758,
-  "NumNeedUpdate": 29,
-  "GenerationStart": "2008-02-13T14:28:22.321006+01:00"
+  "NumMatches": 755,
+  "NumNeedUpdate": 462,
+  "GenerationStart": "1998-08-29T13:14:01.048891+02:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 861,
-  "Rank": 90,
-  "DefaultTask": 177,
-  "DefaultTaskText": "illo",
+  "OwnerTable": 904,
+  "Rank": 696,
+  "DefaultTask": 294,
+  "DefaultTaskText": "eum",
   "IsVisual": false,
-  "LastGenerated": "2015-01-30T14:28:22.321006+01:00",
-  "Description": "Optional intermediate throughput",
-  "Name": "Hand-Will",
-  "StatusMonitorId": 666,
-  "PictureId": 813,
+  "LastGenerated": "2017-07-22T13:14:01.048891+02:00",
+  "Description": "Implemented leading edge success",
+  "Name": "Littel, Wilkinson and Jaskolski",
+  "StatusMonitorId": 200,
+  "PictureId": 539,
   "NeedsUpdate": false,
-  "Deleted": false,
-  "NumMatches": 245,
-  "NumNeedUpdate": 321,
-  "GenerationStart": "1999-12-07T14:28:22.321006+01:00",
+  "Deleted": true,
+  "NumMatches": 927,
+  "NumNeedUpdate": 54,
+  "GenerationStart": "1998-11-01T13:14:01.048891+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 32
+      "FieldType": "System.String",
+      "FieldLength": 26
     }
   }
 }

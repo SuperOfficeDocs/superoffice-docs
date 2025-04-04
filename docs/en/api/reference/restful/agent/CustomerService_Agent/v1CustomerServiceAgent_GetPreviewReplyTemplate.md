@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetPreviewReplyTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReplyTemplateId": 386
+  "ReplyTemplateId": 704
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Price LLC",
-  "Description": "Profound static analyzer",
-  "OwnedByFullName": "Una Welch",
-  "Updated": "2017-03-22T14:28:21.6960311+01:00",
-  "Body": "iusto",
+  "Name": "Jacobi, Hauck and Bergstrom",
+  "Description": "Triple-buffered solution-oriented implementation",
+  "OwnedByFullName": "Ms. Carlo Skiles",
+  "Updated": "2003-11-16T13:14:00.0319625+01:00",
+  "Body": "eligendi",
   "IsHtml": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 700
+      "FieldType": "System.Int32",
+      "FieldLength": 272
     }
   }
 }

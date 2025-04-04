@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 967,
-  "Name": "Strosin-Goyette",
-  "Tooltip": "beatae",
+  "Id": 634,
+  "Name": "Abshire, Mante and Brekke",
+  "Tooltip": "nesciunt",
   "Deleted": false,
-  "UdListDefinitionId": 189,
-  "Rank": 432,
+  "UdListDefinitionId": 591,
+  "Rank": 230,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 661
+      "FieldLength": 491
     }
   }
 }

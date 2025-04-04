@@ -86,14 +86,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "nihil",
-  "ProviderName": "Ruecker-Gleason",
-  "StorageKey": "sed",
+  "StorageType": "ea",
+  "ProviderName": "Ward, Mertz and Bartoletti",
+  "StorageKey": "laborum",
   "StaticColumns": [
-    "ut",
-    "quas"
+    "et",
+    "soluta"
   ],
-  "Context": "quia"
+  "Context": "quam"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hegmann Inc and Sons",
-      "Operator": "quis",
+      "Name": "Maggio, Padberg and Sipes",
+      "Operator": "dignissimos",
       "Values": [
-        "est",
-        "alias"
+        "quisquam",
+        "quia"
       ],
       "DisplayValues": [
-        "natus",
-        "animi"
+        "deserunt",
+        "omnis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 850,
+      "InterParenthesis": 717,
       "InterOperator": "And",
-      "UniqueHash": 294
+      "UniqueHash": 323
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Steuber-Johnson",
-      "DisplayTooltip": "veritatis",
-      "DisplayType": "exercitationem",
+      "DisplayName": "Gleason LLC",
+      "DisplayTooltip": "et",
+      "DisplayType": "dolorem",
       "CanOrderBy": true,
-      "Name": "Ferry, Wiza and Paucek",
+      "Name": "Ebert-Wisozk",
       "CanRestrictBy": false,
-      "RestrictionType": "doloribus",
-      "RestrictionListName": "Predovic Group",
+      "RestrictionType": "dignissimos",
+      "RestrictionListName": "Kuhlman, Hartmann and Cole",
       "IsVisible": false,
-      "ExtraInfo": "suscipit",
-      "Width": "maxime",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "magni"
+      "ExtraInfo": "qui",
+      "Width": "vel",
+      "IconHint": "et",
+      "HeadingIconHint": "aliquid"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Ullrich, Grady and Mohr",
-      "PrimaryKey": 335,
+      "EntityName": "Kutch LLC",
+      "PrimaryKey": 543,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "asperiores",
-          "TooltipHint": "quisquam",
-          "LinkHint": "ea"
+          "DisplayValue": "officiis",
+          "TooltipHint": "quos",
+          "LinkHint": "culpa"
         }
       },
-      "LinkHint": "eos",
-      "StyleHint": "quaerat",
+      "LinkHint": "incidunt",
+      "StyleHint": "placeat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 764
+          "FieldType": "System.String",
+          "FieldLength": 463
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Mitchell-Mayer",
-      "Description": "Seamless bandwidth-monitored internet solution",
-      "Rank": 50,
+      "Name": "Nitzsche Inc and Sons",
+      "Description": "Synchronised maximized array",
+      "Rank": 136,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Mitchell-Mayer",
-      "Description": "Seamless bandwidth-monitored internet solution",
-      "Rank": 50,
+      "Name": "Nitzsche Inc and Sons",
+      "Description": "Synchronised maximized array",
+      "Rank": 136,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 179
     }
   }
 }

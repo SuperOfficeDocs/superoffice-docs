@@ -32,7 +32,7 @@ Get a foreignkey based on its name and value, that belongs to the specified devi
 | keyValue | string | **Required** Foreignkey value |
 
 ```http
-GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=aspernatur
+GET /api/v1/ForeignApp/{applicationName}/{deviceName}/Key/{keyName}/{tableName}?keyValue=tenetur
 ```
 
 
@@ -87,23 +87,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Wed, 21 Oct 2009 14:28:26 G10T
+Last-Modified: Sat, 02 Sep 2017 13:14:08 G9T
 
 {
-  "Key": "ut",
-  "Value": "doloribus",
-  "RecordId": 748,
-  "CreatedDate": "2021-06-15T14:28:26.9458186+02:00",
-  "UpdatedDate": "2009-10-21T14:28:26.9458186+02:00",
-  "UpdatedBy": "amet",
-  "CreatedBy": "possimus",
-  "TableName": "Daniel, Stokes and McClure",
+  "Key": "id",
+  "Value": "omnis",
+  "RecordId": 245,
+  "CreatedDate": "2017-05-12T13:14:08.7585151+02:00",
+  "UpdatedDate": "2017-09-02T13:14:08.7585151+02:00",
+  "UpdatedBy": "deleniti",
+  "CreatedBy": "vitae",
+  "TableName": "Gaylord LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 792
+      "FieldType": "System.Int32",
+      "FieldLength": 332
     }
   }
 }

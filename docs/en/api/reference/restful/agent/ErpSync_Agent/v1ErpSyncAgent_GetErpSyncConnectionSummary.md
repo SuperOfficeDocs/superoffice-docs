@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 140
+  "ErpSyncConnectionId": 819
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Kessler Inc and Sons",
-  "DisplayDescription": "Robust intangible workforce",
-  "Active": true,
+  "DisplayName": "Klein-Gerlach",
+  "DisplayDescription": "Synergistic tertiary solution",
+  "Active": false,
   "Deleted": false,
-  "LastSync": "2013-07-19T14:28:21.9772696+02:00",
+  "LastSync": "2017-12-24T13:14:00.4387312+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "velit",
-      "Mappings": "earum",
+      "HasMappings": true,
+      "Defaults": "hic",
+      "Mappings": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 879
+          "FieldLength": 180
         }
       }
     },
     {
       "ActorType": "Customer",
-      "HasMappings": false,
-      "Defaults": "velit",
-      "Mappings": "earum",
+      "HasMappings": true,
+      "Defaults": "hic",
+      "Mappings": "ut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 879
+          "FieldLength": 180
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 574
+      "FieldLength": 243
     }
   }
 }

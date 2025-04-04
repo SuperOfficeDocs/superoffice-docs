@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 271,
-  "StartTime": "2006-12-14T14:28:21.7116556+01:00",
-  "EndTime": "2010-09-13T14:28:21.7116556+02:00",
-  "Count": 271,
-  "TemplateHeadingId": 441
+  "ContactId": 112,
+  "StartTime": "2012-09-30T13:14:00.0944666+02:00",
+  "EndTime": "2015-09-13T13:14:00.0944666+02:00",
+  "Count": 962,
+  "TemplateHeadingId": 792
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 68,
-    "Attention": "culpa",
-    "Header": "enim",
-    "Name": "Bode Inc and Sons",
-    "OurRef": "perspiciatis",
-    "YourRef": "quas",
-    "Description": "Networked real-time website",
-    "DocumentTemplate": "nam",
+    "DocumentId": 492,
+    "Attention": "natus",
+    "Header": "iusto",
+    "Name": "Schoen Inc and Sons",
+    "OurRef": "itaque",
+    "YourRef": "qui",
+    "Description": "Reduced heuristic database",
+    "DocumentTemplate": "aut",
     "IsPublished": false,
-    "PersonId": 168,
-    "PersonFullName": "Reba Pfannerstill I",
-    "AssociateFullName": "Otis Rippin DVM",
-    "ContactId": 136,
-    "ContactName": "Prosacco, Streich and Gutkowski",
-    "ProjectId": 549,
-    "ProjectName": "Lang-Crist",
-    "AssociateId": 153,
-    "Snum": 412,
-    "SaleId": 810,
-    "SaleName": "Spinka Inc and Sons",
+    "PersonId": 347,
+    "PersonFullName": "Miss Isabelle Martina Zemlak",
+    "AssociateFullName": "Deshaun Block",
+    "ContactId": 320,
+    "ContactName": "Toy Inc and Sons",
+    "ProjectId": 91,
+    "ProjectName": "Williamson-Hermann",
+    "AssociateId": 537,
+    "Snum": 22,
+    "SaleId": 266,
+    "SaleName": "Raynor-Mann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 558
+        "FieldLength": 44
       }
     }
   }

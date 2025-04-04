@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/SaveLegalBase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 285,
-  "Name": "Oberbrunner Group",
-  "Tooltip": "excepturi",
-  "Rank": 489,
-  "Key": "aut",
-  "Deleted": false,
+  "LegalBaseId": 73,
+  "Name": "Donnelly, Schneider and Gulgowski",
+  "Tooltip": "perspiciatis",
+  "Rank": 308,
+  "Key": "et",
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 54
+      "FieldLength": 455
     }
   }
 }

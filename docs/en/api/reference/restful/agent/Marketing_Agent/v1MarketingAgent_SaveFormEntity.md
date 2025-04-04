@@ -107,36 +107,36 @@ OK
 POST /api/v1/Agents/Marketing/SaveFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 444,
-  "FormKey": "quis",
-  "Name": "Jacobs Group",
-  "Description": "Cloned encompassing moderator",
-  "Config": "est",
-  "FolderId": 979,
-  "ScriptId": 422,
-  "ResponseShipmentId": 155,
+  "FormId": 831,
+  "FormKey": "quaerat",
+  "Name": "Bartoletti, Rau and Effertz",
+  "Description": "Operative system-worthy monitoring",
+  "Config": "voluptatem",
+  "FolderId": 771,
+  "ScriptId": 193,
+  "ResponseShipmentId": 540,
   "Active": true,
-  "Expires": "2020-09-30T14:28:22.1022648+02:00",
-  "MaxSubmits": 484,
+  "Expires": "1999-02-01T13:14:00.6887452+01:00",
+  "MaxSubmits": 758,
   "Type": "Normal",
-  "Recipe": "aut",
-  "GroupId": 214,
-  "NewTicket": false,
+  "Recipe": "omnis",
+  "GroupId": 487,
+  "NewTicket": true,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2000-12-24T14:28:22.1022648+01:00",
-  "RegisteredAssociateId": 630,
-  "Updated": "2011-08-29T14:28:22.1022648+02:00",
-  "UpdatedAssociateId": 108,
-  "UpdatedCount": 314,
+  "Registered": "2000-11-25T13:14:00.6887452+01:00",
+  "RegisteredAssociateId": 156,
+  "Updated": "2001-04-20T13:14:00.6887452+02:00",
+  "UpdatedAssociateId": 692,
+  "UpdatedCount": 694,
   "EmailFlows": [
-    102,
-    480
+    61,
+    363
   ],
-  "FolderName": "Keeling-Glover"
+  "FolderName": "Armstrong, Frami and Wiza"
 }
 ```
 
@@ -147,38 +147,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 76,
-  "FormKey": "quo",
-  "Name": "Pagac, Mills and Rice",
-  "Description": "Multi-tiered reciprocal workforce",
-  "Config": "tempore",
-  "FolderId": 421,
-  "ScriptId": 578,
-  "ResponseShipmentId": 657,
+  "FormId": 427,
+  "FormKey": "vero",
+  "Name": "Okuneva LLC",
+  "Description": "Distributed multi-state implementation",
+  "Config": "rerum",
+  "FolderId": 520,
+  "ScriptId": 211,
+  "ResponseShipmentId": 830,
   "Active": false,
-  "Expires": "2009-09-16T14:28:22.1022648+02:00",
-  "MaxSubmits": 901,
+  "Expires": "2012-05-30T13:14:00.6887452+02:00",
+  "MaxSubmits": 450,
   "Type": "Normal",
-  "Recipe": "qui",
-  "GroupId": 909,
-  "NewTicket": true,
+  "Recipe": "eum",
+  "GroupId": 875,
+  "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2012-03-30T14:28:22.1022648+02:00",
-  "RegisteredAssociateId": 821,
-  "Updated": "2017-01-19T14:28:22.1022648+01:00",
-  "UpdatedAssociateId": 152,
-  "UpdatedCount": 938,
+  "Registered": "2016-11-28T13:14:00.6887452+01:00",
+  "RegisteredAssociateId": 159,
+  "Updated": "2024-11-15T13:14:00.6887452+01:00",
+  "UpdatedAssociateId": 484,
+  "UpdatedCount": 51,
   "EmailFlows": [
-    168,
-    417
+    454,
+    879
   ],
-  "FolderName": "Mayert-Swaniawski",
+  "FolderName": "Prohaska-Osinski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 299
+      "FieldType": "System.String",
+      "FieldLength": 128
     }
   }
 }

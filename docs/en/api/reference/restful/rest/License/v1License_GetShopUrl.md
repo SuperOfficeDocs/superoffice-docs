@@ -56,7 +56,7 @@ OK
 GET /api/v1/License/{ownerName}/ShopUrl
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response

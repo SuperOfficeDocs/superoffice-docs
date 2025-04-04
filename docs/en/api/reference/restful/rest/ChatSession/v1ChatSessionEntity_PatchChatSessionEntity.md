@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -162,29 +162,29 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 209,
-  "TopicId": 860,
+  "ChatSessionId": 367,
+  "TopicId": 56,
   "User": null,
   "Person": null,
-  "CustomerAlias": "vel",
-  "CustomerHost": "consequatur",
-  "CustomerName": "Lehner Group",
-  "CustomerEmail": "lula@terry.com",
-  "CustomerPhone": "253-346-6803",
+  "CustomerAlias": "et",
+  "CustomerHost": "aliquid",
+  "CustomerName": "Greenfelder, Roob and Welch",
+  "CustomerEmail": "paolo@rohan.us",
+  "CustomerPhone": "1-972-695-9159 x95048",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Miller, Bernier and Olson",
+  "CustomerCompanyName": "Flatley Group",
   "Status": "Closed",
-  "FirstMessage": "dolores",
-  "LastMessage": "delectus",
-  "WhenRequested": "2023-05-16T14:28:26.7270778+02:00",
-  "WhenStarted": "2002-02-07T14:28:26.7270778+01:00",
-  "WhenEnded": "2003-05-02T14:28:26.7270778+02:00",
-  "WhenIdle": "2009-04-07T14:28:26.7270778+02:00",
-  "WhenFetched": "2013-10-07T14:28:26.7270778+02:00",
-  "SessionKey": "maxime",
-  "InitialQueuePos": 983,
-  "AlertLevel": 726,
-  "Rank": 86,
+  "FirstMessage": "sit",
+  "LastMessage": "nobis",
+  "WhenRequested": "2013-07-04T13:14:08.3991159+02:00",
+  "WhenStarted": "2019-06-26T13:14:08.3991159+02:00",
+  "WhenEnded": "2014-03-04T13:14:08.3991159+01:00",
+  "WhenIdle": "2016-10-28T13:14:08.3991159+02:00",
+  "WhenFetched": "1998-12-01T13:14:08.3991159+01:00",
+  "SessionKey": "vero",
+  "InitialQueuePos": 262,
+  "AlertLevel": 407,
+  "Rank": 793,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -192,13 +192,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 282,
+  "Rating": 648,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 118
+      "FieldType": "System.Int32",
+      "FieldLength": 132
     }
   },
   "_Links": {

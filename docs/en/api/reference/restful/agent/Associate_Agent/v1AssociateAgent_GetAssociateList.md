@@ -92,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 979,
-    "Name": "Franecki Group",
-    "PersonId": 414,
-    "Rank": 59,
-    "Tooltip": "sit",
+    "AssociateId": 734,
+    "Name": "Morissette, Bernier and Beatty",
+    "PersonId": 558,
+    "Rank": 649,
+    "Tooltip": "dolorem",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 350,
-    "FullName": "Miss Trevion Runolfsson",
-    "FormalName": "Willms LLC",
+    "GroupIdx": 415,
+    "FullName": "Mr. Kenton Evie Treutel",
+    "FormalName": "Yundt Inc and Sons",
     "Deleted": false,
-    "EjUserId": 844,
-    "UserName": "Schinner-Parisian",
+    "EjUserId": 408,
+    "UserName": "Cummerata, Harvey and O'Connell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 265
+        "FieldType": "System.String",
+        "FieldLength": 770
       }
     }
   }

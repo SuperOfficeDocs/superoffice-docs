@@ -95,49 +95,49 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Abernathy Group",
-    "Operator": "et",
+    "Name": "Klocko, Rice and Kessler",
+    "Operator": "sed",
     "Values": [
-      "aliquid",
-      "vel"
+      "sed",
+      "sed"
     ],
     "DisplayValues": [
-      "quod",
-      "tempore"
+      "ipsa",
+      "illo"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Feil, Zulauf and Koelpin",
-        "Operator": "sit",
+        "Name": "Schroeder LLC",
+        "Operator": "dolor",
         "Values": [
-          "nulla",
-          "quibusdam"
+          "dolores",
+          "in"
         ],
         "DisplayValues": [
-          "culpa",
-          "deserunt"
+          "mollitia",
+          "excepturi"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 6,
+        "InterParenthesis": 611,
         "InterOperator": "And",
-        "UniqueHash": 483
+        "UniqueHash": 49
       }
     ],
-    "InterParenthesis": 681,
+    "InterParenthesis": 691,
     "InterOperator": "And",
-    "UniqueHash": 323
+    "UniqueHash": 190
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Reynolds, Funk and Cronin",
-    "Operator": "provident",
+    "Name": "Cole-Von",
+    "Operator": "voluptas",
     "Values": [
-      "similique",
-      "similique"
+      "enim",
+      "et"
     ],
     "DisplayValues": [
-      "repellat",
-      "culpa"
+      "illum",
+      "voluptatem"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Wintheiser Inc and Sons",
-        "Operator": "fuga",
+        "Name": "Schneider, Ratke and Kunde",
+        "Operator": "reprehenderit",
         "Values": [
-          "eaque",
-          "quasi"
+          "praesentium",
+          "necessitatibus"
         ],
         "DisplayValues": [
-          "saepe",
-          "voluptatibus"
+          "ut",
+          "odio"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 416,
+        "InterParenthesis": 189,
         "InterOperator": "And",
-        "UniqueHash": 573
+        "UniqueHash": 522
       }
     ],
-    "InterParenthesis": 147,
+    "InterParenthesis": 309,
     "InterOperator": "And",
-    "UniqueHash": 7
+    "UniqueHash": 693
   }
 ]
 ```

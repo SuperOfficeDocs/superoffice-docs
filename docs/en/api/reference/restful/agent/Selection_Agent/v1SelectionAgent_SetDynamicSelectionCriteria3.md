@@ -88,18 +88,18 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 886,
+  "SelectionId": 561,
   "Criteria": [
     {
-      "Name": "Hamill Group",
-      "Operator": "ut",
+      "Name": "Flatley LLC",
+      "Operator": "impedit",
       "Values": [
-        "et",
-        "inventore"
+        "impedit",
+        "quisquam"
       ],
       "DisplayValues": [
-        "consequatur",
-        "nihil"
+        "voluptatum",
+        "earum"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -107,12 +107,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 360,
+      "InterParenthesis": 506,
       "InterOperator": "And",
-      "UniqueHash": 201
+      "UniqueHash": 552
     }
   ],
-  "Filter": "corporis"
+  "Filter": "vel"
 }
 ```
 
@@ -124,44 +124,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Balistreri, Prohaska and Kertzmann",
-    "Operator": "et",
+    "Name": "Hegmann-Von",
+    "Operator": "explicabo",
     "Values": [
-      "in",
-      "qui"
+      "sunt",
+      "harum"
     ],
     "DisplayValues": [
-      "adipisci",
-      "voluptate"
+      "qui",
+      "repudiandae"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Weber, Osinski and Walker",
-        "Operator": "explicabo",
+        "Name": "Batz Inc and Sons",
+        "Operator": "doloribus",
         "Values": [
-          "atque",
-          "aut"
+          "maxime",
+          "enim"
         ],
         "DisplayValues": [
-          "aliquid",
-          "magni"
+          "excepturi",
+          "molestias"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 364,
+        "InterParenthesis": 200,
         "InterOperator": "And",
-        "UniqueHash": 827
+        "UniqueHash": 704
       }
     ],
-    "InterParenthesis": 296,
+    "InterParenthesis": 280,
     "InterOperator": "And",
-    "UniqueHash": 819
+    "UniqueHash": 232
   }
 ]
 ```

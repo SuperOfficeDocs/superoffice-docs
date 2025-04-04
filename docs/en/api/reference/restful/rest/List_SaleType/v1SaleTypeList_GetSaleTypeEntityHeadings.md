@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 441,
-    "Name": "Stokes-Konopelski",
-    "Tooltip": "aut",
+    "HeadingId": 439,
+    "Name": "Schmeler-Armstrong",
+    "Tooltip": "et",
     "Deleted": false,
-    "Rank": 875,
-    "UdListDefinitionId": 744,
+    "Rank": 636,
+    "UdListDefinitionId": 47,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 713
+        "FieldType": "System.String",
+        "FieldLength": 708
       }
     }
   }

@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/License/GetUserLicensesMDOList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,56 +90,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 182,
-    "Name": "Dietrich LLC",
-    "ToolTip": "Perferendis excepturi.",
+    "Id": 216,
+    "Name": "Connelly LLC",
+    "ToolTip": "Doloremque enim.",
     "Deleted": false,
-    "Rank": 311,
-    "Type": "quos",
-    "ColorBlock": 382,
-    "IconHint": "aliquam",
-    "Selected": false,
-    "LastChanged": "2011-08-26T14:28:22.0241429+02:00",
+    "Rank": 476,
+    "Type": "quod",
+    "ColorBlock": 841,
+    "IconHint": "atque",
+    "Selected": true,
+    "LastChanged": "2011-06-14T13:14:00.532487+02:00",
     "ChildItems": [
       {
-        "Id": 692,
-        "Name": "Flatley-McKenzie",
-        "ToolTip": "Est quibusdam voluptate ipsum at eveniet qui cum.",
+        "Id": 380,
+        "Name": "Wunsch Group",
+        "ToolTip": "Optio voluptatem eaque consequatur id non et molestiae.",
         "Deleted": false,
-        "Rank": 267,
-        "Type": "voluptas",
-        "ColorBlock": 328,
-        "IconHint": "quaerat",
-        "Selected": true,
-        "LastChanged": "2004-01-14T14:28:22.0241429+01:00",
+        "Rank": 514,
+        "Type": "fuga",
+        "ColorBlock": 698,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2009-10-22T13:14:00.532487+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sunt",
-        "StyleHint": "sapiente",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Mrs. Eveline Richard Hammes PhD",
+        "FullName": "Sister Pfeffer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 937
+            "FieldType": "System.Int32",
+            "FieldLength": 446
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "occaecati",
-    "Hidden": true,
-    "FullName": "Jensen Bayer",
+    "ExtraInfo": "quia",
+    "StyleHint": "adipisci",
+    "Hidden": false,
+    "FullName": "Jalen Beer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 484
+        "FieldLength": 499
       }
     }
   }

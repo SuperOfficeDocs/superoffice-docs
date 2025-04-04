@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 393,
-  "Name": "Metz, Leannon and Lehner",
-  "Tooltip": "veritatis",
-  "Deleted": true,
-  "Rank": 703,
+  "Id": 515,
+  "Name": "Russel-Emard",
+  "Tooltip": "distinctio",
+  "Deleted": false,
+  "Rank": 34,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nobis",
-  "InUseByUserDefinedFields": true
+  "ListType": "accusantium",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 667,
-  "Name": "Berge-Krajcik",
-  "Tooltip": "aut",
+  "Id": 544,
+  "Name": "Murazik-Bashirian",
+  "Tooltip": "molestiae",
   "Deleted": true,
-  "Rank": 51,
+  "Rank": 714,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "ListType": "eius",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 368
+      "FieldType": "System.String",
+      "FieldLength": 262
     }
   }
 }

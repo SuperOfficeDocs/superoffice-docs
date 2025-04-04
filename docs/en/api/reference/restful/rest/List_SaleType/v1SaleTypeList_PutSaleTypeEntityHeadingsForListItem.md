@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SaleType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 228,
-    "Name": "Boyle LLC",
-    "ToolTip": "Tempora eius ullam rerum enim vel.",
-    "Deleted": true,
-    "Rank": 106,
-    "Type": "ut",
-    "ColorBlock": 414,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2007-09-28T14:28:27.7114135+02:00",
+    "Id": 645,
+    "Name": "Erdman Inc and Sons",
+    "ToolTip": "Aut laudantium laudantium debitis aut voluptas.",
+    "Deleted": false,
+    "Rank": 653,
+    "Type": "repellat",
+    "ColorBlock": 501,
+    "IconHint": "necessitatibus",
+    "Selected": true,
+    "LastChanged": "2001-10-25T13:14:10.0722914+02:00",
     "ChildItems": [
       {
-        "Id": 566,
-        "Name": "O'Keefe-Purdy",
-        "ToolTip": "Eum dolor.",
+        "Id": 872,
+        "Name": "Lebsack-Farrell",
+        "ToolTip": "Unde est.",
         "Deleted": false,
-        "Rank": 765,
-        "Type": "quis",
-        "ColorBlock": 230,
-        "IconHint": "in",
-        "Selected": false,
-        "LastChanged": "2010-11-25T14:28:27.7114135+01:00",
+        "Rank": 286,
+        "Type": "in",
+        "ColorBlock": 802,
+        "IconHint": "praesentium",
+        "Selected": true,
+        "LastChanged": "2014-05-24T13:14:10.0722914+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "facere",
-        "StyleHint": "magnam",
+        "ExtraInfo": "optio",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Blanca Hilll"
+        "FullName": "Augustine Reichel"
       }
     ],
-    "ExtraInfo": "tempore",
-    "StyleHint": "omnis",
+    "ExtraInfo": "totam",
+    "StyleHint": "aut",
     "Hidden": false,
-    "FullName": "Junior King"
+    "FullName": "Prof. Josephine Virgie Brakus"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Jacobson, Raynor and Zieme",
-    "ToolTip": "Eveniet deserunt qui adipisci distinctio.",
-    "Deleted": true,
-    "Rank": 499,
-    "Type": "consequatur",
-    "ColorBlock": 114,
-    "IconHint": "nisi",
-    "Selected": false,
-    "LastChanged": "2024-02-13T14:28:27.7114135+01:00",
+    "Id": 791,
+    "Name": "Macejkovic LLC",
+    "ToolTip": "Dicta et illo harum consequatur itaque.",
+    "Deleted": false,
+    "Rank": 687,
+    "Type": "error",
+    "ColorBlock": 998,
+    "IconHint": "cumque",
+    "Selected": true,
+    "LastChanged": "2017-06-03T13:14:10.0722914+02:00",
     "ChildItems": [
       {
-        "Id": 144,
-        "Name": "Langosh Inc and Sons",
-        "ToolTip": "Ut ut esse provident voluptas.",
+        "Id": 332,
+        "Name": "Schroeder-Lesch",
+        "ToolTip": "Pariatur laudantium fuga ratione est non.",
         "Deleted": false,
-        "Rank": 366,
-        "Type": "ipsa",
-        "ColorBlock": 122,
-        "IconHint": "et",
+        "Rank": 270,
+        "Type": "esse",
+        "ColorBlock": 409,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2001-03-21T14:28:27.7114135+01:00",
+        "LastChanged": "2011-10-21T13:14:10.0722914+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aspernatur",
-        "StyleHint": "ipsum",
+        "ExtraInfo": "fugit",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Prof. Cristian Santino Moen",
+        "FullName": "Miss Josephine Pedro Brown",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 80
+            "FieldLength": 309
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "totam",
+    "ExtraInfo": "fugit",
+    "StyleHint": "modi",
     "Hidden": false,
-    "FullName": "Amina Pouros",
+    "FullName": "Julius O'Kon",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldType": "System.String",
+        "FieldLength": 58
       }
     }
   }

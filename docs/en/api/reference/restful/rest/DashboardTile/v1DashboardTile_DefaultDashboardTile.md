@@ -70,7 +70,7 @@ OK
 GET /api/v1/DashboardTile/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 420,
-  "Caption": "qui",
-  "Description": "Mandatory dedicated Graphical User Interface",
-  "ChartName": "Kovacek LLC",
-  "ChartId": "eum",
+  "DashboardTileId": 663,
+  "Caption": "dolor",
+  "Description": "Vision-oriented empowering firmware",
+  "ChartName": "Rempel Inc and Sons",
+  "ChartId": "omnis",
   "IsDefault": false,
-  "AssociateId": 980,
-  "GroupId": 747,
-  "SelectionId": 142,
-  "Config": "aut",
+  "AssociateId": 405,
+  "GroupId": 495,
+  "SelectionId": 920,
+  "Config": "corporis",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Boehm, Lowe and Ryan",
-      "Description": "Proactive systematic matrix",
+      "Name": "Langworth-Hansen",
+      "Description": "Operative holistic hub",
       "Type": "Boolean",
-      "ListName": "Powlowski-Herman",
+      "ListName": "Hagenes-Schaden",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "nihil",
-      "DefaultDataOption": false,
+      "Value": "quos",
+      "DefaultDataOption": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 324
+          "FieldType": "System.String",
+          "FieldLength": 830
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 889,
+      "VisibleId": 754,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 802
+          "FieldLength": 383
         }
       }
     },
     {
-      "VisibleId": 889,
+      "VisibleId": 754,
       "Visibility": "All",
-      "DisplayValue": "impedit",
+      "DisplayValue": "voluptates",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 802
+          "FieldLength": 383
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 199
+      "FieldLength": 954
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 1002,
-    "Name": "Kemmer LLC",
-    "Tooltip": "aspernatur",
+    "HeadingId": 464,
+    "Name": "Smith-Reynolds",
+    "Tooltip": "odio",
     "Deleted": false,
-    "Rank": 567,
-    "UdListDefinitionId": 883
+    "Rank": 841,
+    "UdListDefinitionId": 459
   },
   {
-    "HeadingId": 1002,
-    "Name": "Kemmer LLC",
-    "Tooltip": "aspernatur",
+    "HeadingId": 464,
+    "Name": "Smith-Reynolds",
+    "Tooltip": "odio",
     "Deleted": false,
-    "Rank": 567,
-    "UdListDefinitionId": 883
+    "Rank": 841,
+    "UdListDefinitionId": 459
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 427,
-    "Name": "Christiansen Inc and Sons",
-    "Tooltip": "ut",
-    "Deleted": true,
-    "Rank": 773,
-    "UdListDefinitionId": 983,
+    "HeadingId": 545,
+    "Name": "Bergnaum-Swift",
+    "Tooltip": "quo",
+    "Deleted": false,
+    "Rank": 591,
+    "UdListDefinitionId": 732,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 25
+        "FieldLength": 778
       }
     }
   }

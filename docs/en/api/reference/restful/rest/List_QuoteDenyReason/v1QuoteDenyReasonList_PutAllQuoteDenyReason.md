@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 211,
-    "Name": "Satterfield-Ryan",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "UdListDefinitionId": 185,
-    "Rank": 124
+    "Id": 934,
+    "Name": "Sporer, Hoppe and Hermiston",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "UdListDefinitionId": 90,
+    "Rank": 417
   },
   {
-    "Id": 211,
-    "Name": "Satterfield-Ryan",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "UdListDefinitionId": 185,
-    "Rank": 124
+    "Id": 934,
+    "Name": "Sporer, Hoppe and Hermiston",
+    "Tooltip": "quis",
+    "Deleted": true,
+    "UdListDefinitionId": 90,
+    "Rank": 417
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 456,
-    "Name": "Lesch Inc and Sons",
-    "Tooltip": "ab",
-    "Deleted": false,
-    "UdListDefinitionId": 173,
-    "Rank": 694,
+    "Id": 78,
+    "Name": "Hills-Simonis",
+    "Tooltip": "est",
+    "Deleted": true,
+    "UdListDefinitionId": 955,
+    "Rank": 902,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 231
+        "FieldLength": 403
       }
     }
   }

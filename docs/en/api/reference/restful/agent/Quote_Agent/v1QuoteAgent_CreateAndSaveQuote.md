@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Quote/CreateAndSaveQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 553,
-  "ConnectionId": 806,
-  "FirstAlternativeName": "Gerhold Inc and Sons"
+  "SaleId": 493,
+  "ConnectionId": 515,
+  "FirstAlternativeName": "Jaskolski-Prohaska"
 }
 ```
 
@@ -104,58 +104,58 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 533,
-  "SaleId": 252,
-  "QuoteConnectionId": 893,
-  "ERPQuoteKey": "ut",
-  "ERPOrderKey": "voluptatem",
-  "ActiveQuoteVersionId": 983,
-  "AcceptedQuoteAlternativeId": 694,
-  "UseValuesFromQuote": 184,
-  "DocumentId": 355,
-  "PoNumber": "1589706",
-  "OrderComment": "eos",
-  "PreferredEmailCulture": "rickey@borermcclure.info",
+  "QuoteId": 570,
+  "SaleId": 809,
+  "QuoteConnectionId": 334,
+  "ERPQuoteKey": "tempore",
+  "ERPOrderKey": "rerum",
+  "ActiveQuoteVersionId": 592,
+  "AcceptedQuoteAlternativeId": 240,
+  "UseValuesFromQuote": 953,
+  "DocumentId": 188,
+  "PoNumber": "1042488",
+  "OrderComment": "vero",
+  "PreferredEmailCulture": "albertha@moen.co.uk",
   "QuoteVersions": [
     {
-      "QuoteVersionId": 25,
-      "ERPQuoteVersionKey": "animi",
-      "QuoteId": 405,
-      "Description": "Programmable incremental process improvement",
-      "Number": "955889",
+      "QuoteVersionId": 168,
+      "ERPQuoteVersionKey": "mollitia",
+      "QuoteId": 434,
+      "Description": "Re-contextualized exuding installation",
+      "Number": "1548824",
       "State": "Archived",
       "ArchivedState": "Archived",
       "Status": "Error",
       "Reason": "",
-      "LikelyQuoteAlternativeId": 956,
-      "SentDate": "2008-09-26T14:28:22.3053817+02:00",
-      "FollowupId": 485,
-      "ExpirationDate": "2004-06-03T14:28:22.3053817+02:00",
-      "DeliveryCountryId": 605,
-      "HasOwnDeliveryAddress": true,
-      "InvoiceCountryId": 795,
+      "LikelyQuoteAlternativeId": 481,
+      "SentDate": "1999-08-12T13:14:01.0020135+02:00",
+      "FollowupId": 964,
+      "ExpirationDate": "2020-01-09T13:14:01.0020135+01:00",
+      "DeliveryCountryId": 700,
+      "HasOwnDeliveryAddress": false,
+      "InvoiceCountryId": 15,
       "HasOwnInvoiceAddress": true,
-      "ERPPaymentTermsKey": "voluptates",
-      "ERPPaymentTypeKey": "facere",
-      "ERPDeliveryTermsKey": "non",
-      "ERPDeliveryTypeKey": "et",
-      "Rank": 478,
-      "ApprovedBy": 281,
-      "ApprovedText": "in",
-      "ApprovedRegisteredBy": 93,
-      "ApprovedRegisteredDate": "2007-11-08T14:28:22.3053817+01:00",
-      "ExtraField1": "illum",
-      "ExtraField2": "non",
-      "ExtraField3": "et",
-      "ExtraField4": "commodi",
-      "ExtraField5": "et",
-      "LastRecalculated": "2019-01-21T14:28:22.3053817+01:00",
-      "Updated": "2004-07-10T14:28:22.3053817+02:00",
-      "UpdatedAssociateId": 342,
-      "Registered": "2001-06-13T14:28:22.3053817+02:00",
-      "RegisteredAssociateId": 959,
-      "RequestAssociateId": 909,
-      "RequestComment": "qui",
+      "ERPPaymentTermsKey": "voluptatem",
+      "ERPPaymentTypeKey": "et",
+      "ERPDeliveryTermsKey": "ut",
+      "ERPDeliveryTypeKey": "voluptas",
+      "Rank": 320,
+      "ApprovedBy": 561,
+      "ApprovedText": "nobis",
+      "ApprovedRegisteredBy": 980,
+      "ApprovedRegisteredDate": "2006-02-27T13:14:01.0020135+01:00",
+      "ExtraField1": "quasi",
+      "ExtraField2": "tempore",
+      "ExtraField3": "soluta",
+      "ExtraField4": "sed",
+      "ExtraField5": "perspiciatis",
+      "LastRecalculated": "2015-05-28T13:14:01.0020135+02:00",
+      "Updated": "2017-07-19T13:14:01.0020135+02:00",
+      "UpdatedAssociateId": 223,
+      "Registered": "2009-01-11T13:14:01.0020135+01:00",
+      "RegisteredAssociateId": 560,
+      "RequestAssociateId": 496,
+      "RequestComment": "quo",
       "QuoteAlternatives": [
         {},
         {}
@@ -164,8 +164,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 742
+          "FieldType": "System.Int32",
+          "FieldLength": 980
         }
       }
     }
@@ -175,7 +175,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 114
+      "FieldLength": 471
     }
   }
 }

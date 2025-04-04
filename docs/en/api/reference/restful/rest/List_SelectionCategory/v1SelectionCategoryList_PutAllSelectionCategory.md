@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 681,
-    "Name": "Wisoky LLC",
-    "Tooltip": "ut",
+    "Id": 288,
+    "Name": "Veum, Gottlieb and Schimmel",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 748,
-    "Rank": 934
+    "UdListDefinitionId": 606,
+    "Rank": 417
   },
   {
-    "Id": 681,
-    "Name": "Wisoky LLC",
-    "Tooltip": "ut",
+    "Id": 288,
+    "Name": "Veum, Gottlieb and Schimmel",
+    "Tooltip": "quia",
     "Deleted": false,
-    "UdListDefinitionId": 748,
-    "Rank": 934
+    "UdListDefinitionId": 606,
+    "Rank": 417
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 320,
-    "Name": "Murphy, Bartell and Torphy",
-    "Tooltip": "et",
-    "Deleted": true,
-    "UdListDefinitionId": 106,
-    "Rank": 533,
+    "Id": 693,
+    "Name": "Stracke-Ullrich",
+    "Tooltip": "deleniti",
+    "Deleted": false,
+    "UdListDefinitionId": 876,
+    "Rank": 155,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 8
+        "FieldLength": 604
       }
     }
   }

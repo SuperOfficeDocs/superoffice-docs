@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetTableName": "Fritsch LLC"
+  "TargetTableName": "Heller Inc and Sons"
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Profit-focused upward-trending open architecture",
-  "Postit": "et",
+  "Description": "Virtual systematic Graphical User Interface",
+  "Postit": "expedita",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 420,
-  "IncludePerson": 747,
+  "GroupIdx": 771,
+  "IncludePerson": 881,
   "MemberCount": 99.99,
-  "Name": "Kerluke LLC",
-  "PostitTextId": 911,
-  "CreatedDate": "2024-08-29T14:28:22.3835038+02:00",
-  "SelectionId": 374,
-  "SoundEx": "aut",
-  "Source": 105,
-  "TextId": 985,
-  "UpdatedDate": "2016-12-23T14:28:22.3835038+01:00",
-  "UpdatedCount": 620,
-  "Visibility": 338,
+  "Name": "Roob, Nikolaus and Schuppe",
+  "PostitTextId": 433,
+  "CreatedDate": "2011-07-11T13:14:01.300672+02:00",
+  "SelectionId": 917,
+  "SoundEx": "non",
+  "Source": 133,
+  "TextId": 244,
+  "UpdatedDate": "2005-10-03T13:14:01.300672+02:00",
+  "UpdatedCount": 463,
+  "Visibility": 373,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 427,
-  "TargetTableName": "Miller Group",
+  "CompanyUnique": true,
+  "TargetTableNumber": 72,
+  "TargetTableName": "VonRueden-Zemlak",
   "Completed": false,
-  "LeftSelectionId": 95,
-  "RightSelectionId": 16,
+  "LeftSelectionId": 30,
+  "RightSelectionId": 725,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Jast-Littel",
-  "ShadowProviderName": "Hermiston, Rippin and Cremin",
-  "ChartKey": "maxime",
-  "LastLoaded": "2014-02-17T14:28:22.3835038+01:00",
-  "LastLoadedBy": 402,
+  "MainProviderName": "Yundt Group",
+  "ShadowProviderName": "Harber-Rowe",
+  "ChartKey": "omnis",
+  "LastLoaded": "2013-08-02T13:14:01.300672+02:00",
+  "LastLoadedBy": 731,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2014-05-28T14:28:22.3835038+02:00",
-  "LastMembershipChangeBy": 666,
+  "LastMembershipChange": "2008-10-14T13:14:01.300672+02:00",
+  "LastMembershipChangeBy": 513,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "iste",
-  "MailingsProviderName": "Okuneva, Stanton and Howell",
-  "DashboardTileDefinitionId": 449,
+  "MainHeading": "nam",
+  "MemberTabHeading": "culpa",
+  "MailingsProviderName": "Wilkinson-Cormier",
+  "DashboardTileDefinitionId": 96,
   "VisibleFor": [
     {
-      "VisibleId": 464,
+      "VisibleId": 975,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldLength": 377
         }
       }
     },
     {
-      "VisibleId": 464,
+      "VisibleId": 975,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 914
+          "FieldLength": 377
         }
       }
     }
@@ -201,7 +201,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 677
+      "FieldLength": 138
     }
   }
 }

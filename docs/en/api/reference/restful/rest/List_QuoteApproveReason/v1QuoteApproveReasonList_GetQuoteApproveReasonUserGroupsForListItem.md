@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 156,
-    "Name": "Bayer, Gaylord and Hudson",
-    "ToolTip": "Ducimus aperiam tenetur animi corrupti itaque et incidunt.",
+    "Id": 550,
+    "Name": "Sanford, O'Connell and Zboncak",
+    "ToolTip": "Non reiciendis debitis ut soluta commodi corrupti.",
     "Deleted": false,
-    "Rank": 958,
-    "Type": "quos",
-    "ColorBlock": 763,
-    "IconHint": "ad",
-    "Selected": false,
-    "LastChanged": "2005-10-08T14:28:27.6489147+02:00",
+    "Rank": 118,
+    "Type": "laboriosam",
+    "ColorBlock": 777,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2007-12-23T13:14:09.9785358+01:00",
     "ChildItems": [
       {
-        "Id": 238,
-        "Name": "Schmidt LLC",
-        "ToolTip": "Non non error nihil ea distinctio.",
+        "Id": 521,
+        "Name": "Leannon-Kub",
+        "ToolTip": "Molestiae ab adipisci ut autem rerum.",
         "Deleted": false,
-        "Rank": 956,
-        "Type": "et",
-        "ColorBlock": 428,
-        "IconHint": "enim",
+        "Rank": 653,
+        "Type": "esse",
+        "ColorBlock": 956,
+        "IconHint": "accusantium",
         "Selected": false,
-        "LastChanged": "2024-05-11T14:28:27.6489147+02:00",
+        "LastChanged": "2013-05-14T13:14:09.9785358+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eos",
-        "StyleHint": "ut",
+        "ExtraInfo": "quo",
+        "StyleHint": "dolor",
         "Hidden": true,
-        "FullName": "Joanie Jacobson",
+        "FullName": "Mr. Tressa Smith",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 503
+            "FieldType": "System.String",
+            "FieldLength": 104
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "in",
+    "ExtraInfo": "nulla",
+    "StyleHint": "dolorum",
     "Hidden": false,
-    "FullName": "Dr. Hardy Howell",
+    "FullName": "Kasandra Leilani Baumbach DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 509
+        "FieldType": "System.Int32",
+        "FieldLength": 532
       }
     }
   }

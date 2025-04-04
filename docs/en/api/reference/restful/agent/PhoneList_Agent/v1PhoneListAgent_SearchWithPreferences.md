@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/PhoneList/SearchWithPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SearchString": "neque",
+  "SearchString": "incidunt",
   "Preferences": null
 }
 ```
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-538-413-2759 x393",
-    "PersonCellPhone": "(573)929-2362 x7591",
-    "PersonPrivatePhone": "(796)828-7604",
-    "PersonFaxNumber": "1113507",
-    "PersonPagerNumber": "553903",
-    "PersonEmail": "arvid_ward@bartellrenner.com",
-    "Id": 919,
-    "Name": "Gerlach, Ferry and Jenkins",
-    "Tooltip": "aspernatur",
-    "UniqueId": "iure",
+    "PersonDirectPhone": "1-616-317-7759",
+    "PersonCellPhone": "(978)966-8588",
+    "PersonPrivatePhone": "054.073.8038 x68494",
+    "PersonFaxNumber": "413159",
+    "PersonPagerNumber": "661397",
+    "PersonEmail": "baron@hickle.co.uk",
+    "Id": 551,
+    "Name": "Stiedemann Group",
+    "Tooltip": "incidunt",
+    "UniqueId": "quam",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 938
+        "FieldLength": 460
       }
     }
   }

@@ -87,22 +87,22 @@ OK
 POST /api/v1/Agents/EMail/SaveEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 911,
-  "EMailAddress": "quidem",
-  "AssociateId": 986,
+  "EMailAccountId": 75,
+  "EMailAddress": "delectus",
+  "AssociateId": 483,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 865,
-  "ErrorCount": 429,
+  "AccountStatus": 622,
+  "ErrorCount": 741,
   "ErrorReason": "",
-  "InboxFolder": "soluta",
-  "SentFolder": "aut",
-  "SimpleMode": 523,
-  "LastFetch": "1999-05-29T14:28:21.9303967+02:00"
+  "InboxFolder": "et",
+  "SentFolder": "modi",
+  "SimpleMode": 105,
+  "LastFetch": "2002-09-15T13:14:00.32935+02:00"
 }
 ```
 
@@ -113,24 +113,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 230,
-  "EMailAddress": "est",
-  "AssociateId": 216,
+  "EMailAccountId": 740,
+  "EMailAddress": "cumque",
+  "AssociateId": 366,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 887,
-  "ErrorCount": 626,
+  "AccountStatus": 968,
+  "ErrorCount": 386,
   "ErrorReason": "",
-  "InboxFolder": "deserunt",
-  "SentFolder": "ea",
-  "SimpleMode": 108,
-  "LastFetch": "2015-12-03T14:28:21.9303967+01:00",
+  "InboxFolder": "soluta",
+  "SentFolder": "molestiae",
+  "SimpleMode": 487,
+  "LastFetch": "2024-01-20T13:14:00.32935+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 170
+      "FieldLength": 642
     }
   }
 }

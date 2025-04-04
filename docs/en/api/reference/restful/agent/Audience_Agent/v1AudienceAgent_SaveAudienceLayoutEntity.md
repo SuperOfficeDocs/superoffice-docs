@@ -75,15 +75,15 @@ OK
 POST /api/v1/Agents/Audience/SaveAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 274,
-  "InstanceLayout": "quia",
-  "InstanceName": "Larson Group",
-  "CreatedDate": "2000-05-03T14:28:21.47729+02:00",
-  "UpdatedDate": "2009-08-15T14:28:21.47729+02:00",
+  "AudienceLayoutId": 729,
+  "InstanceLayout": "ut",
+  "InstanceName": "Lindgren, Schaefer and Kshlerin",
+  "CreatedDate": "2016-04-15T13:13:59.5158194+02:00",
+  "UpdatedDate": "2001-12-13T13:13:59.5158194+01:00",
   "CreatedBy": null,
   "UpdatedBy": null
 }
@@ -96,11 +96,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 513,
-  "InstanceLayout": "debitis",
-  "InstanceName": "Kreiger-Greenholt",
-  "CreatedDate": "2013-12-02T14:28:21.47729+01:00",
-  "UpdatedDate": "2015-03-06T14:28:21.47729+01:00",
+  "AudienceLayoutId": 870,
+  "InstanceLayout": "non",
+  "InstanceName": "Greenfelder Inc and Sons",
+  "CreatedDate": "2008-12-08T13:13:59.5158194+01:00",
+  "UpdatedDate": "2001-08-25T13:13:59.5158194+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 732
+      "FieldLength": 472
     }
   }
 }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 323,
-  "Currency": "accusamus"
+  "QuoteConnectionId": 623,
+  "Currency": "sint"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 267,
-    "ERPPriceListKey": "a",
-    "QuoteConnectionId": 946,
-    "Name": "Pfannerstill Inc and Sons",
-    "Description": "Progressive reciprocal policy",
-    "Currency": "accusamus",
-    "CurrencyName": "Kunde-Hermiston",
-    "ValidFrom": "2017-09-17T14:28:22.3053817+02:00",
-    "ValidTo": "2005-09-02T14:28:22.3053817+02:00",
-    "IsActive": true,
+    "PriceListId": 213,
+    "ERPPriceListKey": "quae",
+    "QuoteConnectionId": 318,
+    "Name": "Kihn LLC",
+    "Description": "Organic 4th generation flexibility",
+    "Currency": "deleniti",
+    "CurrencyName": "Langworth-Huels",
+    "ValidFrom": "2014-01-03T13:14:01.0020135+01:00",
+    "ValidTo": "2024-03-17T13:14:01.0020135+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 107
+        "FieldType": "System.Int32",
+        "FieldLength": 936
       }
     }
   }

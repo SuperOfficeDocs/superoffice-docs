@@ -83,7 +83,7 @@ This is the archive Provider for the Selection selection archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionSelectionV2?$select=getAllRows,lastMembershipChange,selectionAssociate/contactId
+GET /api/v1/archive/SelectionSelectionV2?$select=lastMembershipChange,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

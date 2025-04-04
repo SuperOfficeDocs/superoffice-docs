@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "in",
+  "ProgId": "ipsa",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 883,
-  "ColumnId": 321,
-  "FieldDefault": "natus",
-  "FieldHeight": 441,
-  "FieldLabel": "odio",
-  "FieldLeft": 525,
-  "FieldTop": 497,
+  "UDefFieldId": 113,
+  "ColumnId": 632,
+  "FieldDefault": "consequatur",
+  "FieldHeight": 839,
+  "FieldLabel": "aperiam",
+  "FieldLeft": 78,
+  "FieldTop": 65,
   "FieldType": "Checkbox",
-  "FieldWidth": 932,
-  "FormatMask": "temporibus",
-  "HideLabel": false,
+  "FieldWidth": 424,
+  "FormatMask": "dolor",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 554,
-  "LabelLeft": 225,
-  "LabelTop": 339,
-  "LabelWidth": 553,
-  "LastVersionId": 66,
-  "ListTableId": 784,
+  "LabelHeight": 385,
+  "LabelLeft": 540,
+  "LabelTop": 70,
+  "LabelWidth": 848,
+  "LastVersionId": 866,
+  "ListTableId": 295,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 745,
-  "ProgId": "atque",
+  "Page1LineNo": 439,
+  "ProgId": "dolores",
   "IsReadOnly": false,
-  "ShortLabel": "illo",
-  "TabOrder": 937,
-  "TextLength": 623,
-  "Tooltip": "magnam",
-  "UdefIdentity": 61,
-  "UDListDefinitionId": 785,
+  "ShortLabel": "officiis",
+  "TabOrder": 866,
+  "TextLength": 950,
+  "Tooltip": "expedita",
+  "UdefIdentity": 192,
+  "UDListDefinitionId": 346,
   "Justification": "Center",
-  "Version": 874,
-  "TemplateVariableName": "Ziemann-Stamm",
+  "Version": 235,
+  "TemplateVariableName": "Hauck-Daniel",
   "HasBeenPublished": true,
-  "MdoListName": "Koepp Inc and Sons",
+  "MdoListName": "Kuvalis LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 562
+      "FieldType": "System.Int32",
+      "FieldLength": 863
     }
   }
 }

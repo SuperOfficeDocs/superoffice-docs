@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hills LLC",
+  "Name": "Effertz, Krajcik and Pfannerstill",
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 527,
-  "Name": "Haag Group",
-  "Tooltip": "culpa",
-  "Deleted": false,
-  "Rank": 581,
-  "UdListDefinitionId": 646,
+  "HeadingId": 941,
+  "Name": "VonRueden-Padberg",
+  "Tooltip": "cumque",
+  "Deleted": true,
+  "Rank": 816,
+  "UdListDefinitionId": 294,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 735
+      "FieldType": "System.Int32",
+      "FieldLength": 391
     }
   }
 }

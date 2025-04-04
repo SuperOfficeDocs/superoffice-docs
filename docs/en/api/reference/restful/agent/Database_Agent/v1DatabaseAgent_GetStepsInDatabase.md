@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Database/GetStepsInDatabase
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Emmerich Group",
-    "StepNumber": 409,
+    "Name": "Little, Bergstrom and Feeney",
+    "StepNumber": 687,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 146
+        "FieldLength": 998
       }
     }
   },
   {
-    "Name": "Emmerich Group",
-    "StepNumber": 409,
+    "Name": "Little, Bergstrom and Feeney",
+    "StepNumber": 687,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 146
+        "FieldLength": 998
       }
     }
   }

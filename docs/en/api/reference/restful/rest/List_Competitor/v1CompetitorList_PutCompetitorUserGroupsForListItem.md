@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Name": "Feil Inc and Sons",
-    "ToolTip": "Enim non sit ipsum laborum libero quam officia.",
-    "Deleted": true,
-    "Rank": 273,
-    "Type": "beatae",
-    "ColorBlock": 91,
-    "IconHint": "ut",
-    "Selected": true,
-    "LastChanged": "2019-12-15T14:28:27.4926717+01:00",
+    "Id": 519,
+    "Name": "Hilll LLC",
+    "ToolTip": "Et est sapiente perspiciatis pariatur rerum velit.",
+    "Deleted": false,
+    "Rank": 86,
+    "Type": "et",
+    "ColorBlock": 28,
+    "IconHint": "ipsa",
+    "Selected": false,
+    "LastChanged": "2006-06-25T13:14:09.6503912+02:00",
     "ChildItems": [
       {
-        "Id": 747,
-        "Name": "Lehner, Kreiger and Zieme",
-        "ToolTip": "Et dolor repellat numquam et minus.",
-        "Deleted": true,
-        "Rank": 161,
-        "Type": "quis",
-        "ColorBlock": 502,
-        "IconHint": "cupiditate",
+        "Id": 996,
+        "Name": "Borer, Marvin and Cruickshank",
+        "ToolTip": "Nihil mollitia et repudiandae.",
+        "Deleted": false,
+        "Rank": 518,
+        "Type": "rerum",
+        "ColorBlock": 72,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "1997-12-04T14:28:27.4926717+01:00",
+        "LastChanged": "2007-04-12T13:14:09.6503912+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "velit",
-        "StyleHint": "consequuntur",
-        "Hidden": true,
-        "FullName": "Miss Spencer Daryl Champlin"
+        "ExtraInfo": "quam",
+        "StyleHint": "iste",
+        "Hidden": false,
+        "FullName": "Yadira Cassin"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "sit",
-    "Hidden": true,
-    "FullName": "Jessie Marvin Feest I"
+    "ExtraInfo": "aperiam",
+    "StyleHint": "non",
+    "Hidden": false,
+    "FullName": "Eve Torphy"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Name": "West LLC",
-    "ToolTip": "Voluptatum delectus culpa.",
+    "Id": 816,
+    "Name": "Goldner, Predovic and Bahringer",
+    "ToolTip": "Iure ullam eum commodi eius enim numquam.",
     "Deleted": false,
-    "Rank": 755,
-    "Type": "provident",
-    "ColorBlock": 966,
-    "IconHint": "beatae",
+    "Rank": 824,
+    "Type": "voluptatibus",
+    "ColorBlock": 205,
+    "IconHint": "dolorum",
     "Selected": false,
-    "LastChanged": "2001-06-09T14:28:27.4926717+02:00",
+    "LastChanged": "2017-03-29T13:14:09.6503912+02:00",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Brakus-Nikolaus",
-        "ToolTip": "Aut sequi esse enim temporibus pariatur omnis et.",
-        "Deleted": false,
-        "Rank": 437,
-        "Type": "vel",
-        "ColorBlock": 545,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2008-08-25T14:28:27.4926717+02:00",
+        "Id": 198,
+        "Name": "Weissnat-Kessler",
+        "ToolTip": "Necessitatibus facere.",
+        "Deleted": true,
+        "Rank": 356,
+        "Type": "tempora",
+        "ColorBlock": 135,
+        "IconHint": "non",
+        "Selected": true,
+        "LastChanged": "2004-12-22T13:14:09.6503912+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "dolorum",
-        "Hidden": false,
-        "FullName": "Miss Horace Jones III",
+        "ExtraInfo": "dicta",
+        "StyleHint": "accusantium",
+        "Hidden": true,
+        "FullName": "Dr. Woodrow Marcel West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 336
+            "FieldType": "System.Int32",
+            "FieldLength": 492
           }
         }
       }
     ],
-    "ExtraInfo": "occaecati",
-    "StyleHint": "veniam",
+    "ExtraInfo": "non",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Ike Muller",
+    "FullName": "Glenda Howell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 45
+        "FieldType": "System.Int32",
+        "FieldLength": 942
       }
     }
   }

@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProject
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 663
+  "ProjectId": 180
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 269,
-  "Name": "Trantow-Torphy",
-  "Description": "Devolved regional capacity",
+  "ProjectId": 744,
+  "Name": "Schmidt, Kris and Block",
+  "Description": "Configurable eco-centric standardization",
   "URL": "http://www.example.com/",
-  "Type": "voluptatem",
-  "AssociateId": 674,
-  "AssociateFullName": "Myrl Carroll",
-  "TypeId": 717,
-  "Updated": "2024-04-24T14:28:22.2585084+02:00",
-  "StatusId": 279,
-  "Status": "et",
-  "TextId": 591,
-  "PublishTo": "2006-06-07T14:28:22.2585084+02:00",
-  "PublishFrom": "2018-11-06T14:28:22.2585084+01:00",
+  "Type": "possimus",
+  "AssociateId": 846,
+  "AssociateFullName": "Miss Else Seth Schmidt",
+  "TypeId": 111,
+  "Updated": "2002-11-18T13:14:00.9390342+01:00",
+  "StatusId": 402,
+  "Status": "voluptatibus",
+  "TextId": 703,
+  "PublishTo": "2009-08-15T13:14:00.9390342+02:00",
+  "PublishFrom": "2000-06-29T13:14:00.9390342+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1209683",
-  "ActiveErpLinks": 531,
+  "ProjectNumber": "1044323",
+  "ActiveErpLinks": 117,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldType": "System.String",
+      "FieldLength": 120
     }
   }
 }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConnectionListMappings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 924
+  "ErpConnectionId": 133
 }
 ```
 
@@ -95,31 +95,31 @@ Content-Type: application/json; charset=utf-8
   "ErpListItemMappings": [
     {
       "CrmList": null,
-      "ErpListName": "Mayert, Sauer and Schuster",
+      "ErpListName": "Wuckert, Mertz and Davis",
       "ErpCrmListItemMappings": [
         {},
         {}
       ],
-      "ErpActorTypeName": "Bergstrom, Lebsack and Kessler",
-      "ErpFieldId": 256,
+      "ErpActorTypeName": "Lubowitz-Yundt",
+      "ErpFieldId": 509,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 939
+          "FieldLength": 972
         }
       }
     }
   ],
-  "ErpConnectionId": 417,
-  "ErpConnectionName": "Zieme LLC",
+  "ErpConnectionId": 645,
+  "ErpConnectionName": "Homenick Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 333
+      "FieldType": "System.String",
+      "FieldLength": 814
     }
   }
 }

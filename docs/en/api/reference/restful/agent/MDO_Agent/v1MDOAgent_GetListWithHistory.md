@@ -88,16 +88,16 @@ OK
 POST /api/v1/Agents/MDO/GetListWithHistory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Boehm Inc and Sons",
+  "Name": "Reichel Group",
   "ForceFlatList": false,
-  "AdditionalInfo": "odio",
+  "AdditionalInfo": "totam",
   "HistoryItems": [
-    724,
-    344
+    308,
+    883
   ],
   "OnlyHistory": false
 }
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 90,
-    "Name": "Treutel, Hudson and Halvorson",
-    "ToolTip": "Est praesentium aut ratione.",
-    "Deleted": true,
-    "Rank": 88,
-    "Type": "nostrum",
+    "Id": 120,
+    "Name": "Reynolds-Denesik",
+    "ToolTip": "Iusto libero odit enim repellendus corrupti asperiores praesentium.",
+    "Deleted": false,
+    "Rank": 742,
+    "Type": "necessitatibus",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Bruen Inc and Sons",
-        "ToolTip": "Beatae explicabo libero natus.",
-        "Deleted": true,
-        "Rank": 345,
-        "Type": "est",
+        "Id": 776,
+        "Name": "Bailey-Rice",
+        "ToolTip": "Sint praesentium cum vel.",
+        "Deleted": false,
+        "Rank": 364,
+        "Type": "id",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quos",
-        "ColorBlock": 931,
-        "ExtraInfo": "sunt",
-        "StyleHint": "autem",
-        "FullName": "Mrs. Rod Klein",
+        "IconHint": "est",
+        "ColorBlock": 201,
+        "ExtraInfo": "nihil",
+        "StyleHint": "dolorem",
+        "FullName": "Mrs. Jane Schoen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 725
+            "FieldLength": 487
           }
         }
       }
     ],
-    "IconHint": "consectetur",
-    "ColorBlock": 295,
-    "ExtraInfo": "qui",
-    "StyleHint": "et",
-    "FullName": "Mrs. Jalen Leannon V",
+    "IconHint": "quod",
+    "ColorBlock": 93,
+    "ExtraInfo": "quam",
+    "StyleHint": "velit",
+    "FullName": "Dale Hamill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 391
+        "FieldLength": 567
       }
     }
   }

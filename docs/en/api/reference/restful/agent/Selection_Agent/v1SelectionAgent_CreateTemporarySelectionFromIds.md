@@ -114,15 +114,15 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporarySelectionFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    785,
-    95
+    164,
+    807
   ],
-  "TargetTableNumber": 675
+  "TargetTableNumber": 106
 }
 ```
 
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized disintermediate task-force",
-  "Postit": "sapiente",
+  "Description": "Multi-layered upward-trending toolset",
+  "Postit": "nulla",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 959,
-  "IncludePerson": 746,
+  "GroupIdx": 78,
+  "IncludePerson": 362,
   "MemberCount": 99.99,
-  "Name": "Kozey, Huels and Powlowski",
-  "PostitTextId": 294,
-  "CreatedDate": "2017-01-04T14:28:22.3991281+01:00",
-  "SelectionId": 586,
-  "SoundEx": "porro",
-  "Source": 211,
-  "TextId": 174,
-  "UpdatedDate": "1999-12-27T14:28:22.3991281+01:00",
-  "UpdatedCount": 586,
-  "Visibility": 830,
+  "Name": "McClure, Schroeder and Schuppe",
+  "PostitTextId": 240,
+  "CreatedDate": "2005-01-24T13:14:01.3319239+01:00",
+  "SelectionId": 164,
+  "SoundEx": "a",
+  "Source": 935,
+  "TextId": 685,
+  "UpdatedDate": "2006-12-20T13:14:01.3319239+01:00",
+  "UpdatedCount": 720,
+  "Visibility": 55,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 237,
-  "TargetTableName": "Rath-Wehner",
-  "Completed": true,
-  "LeftSelectionId": 527,
-  "RightSelectionId": 127,
+  "TargetTableNumber": 264,
+  "TargetTableName": "Christiansen Group",
+  "Completed": false,
+  "LeftSelectionId": 870,
+  "RightSelectionId": 178,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Prosacco, Mitchell and Beier",
-  "ShadowProviderName": "Haley, Fahey and Okuneva",
-  "ChartKey": "aperiam",
-  "LastLoaded": "2017-03-08T14:28:22.3991281+01:00",
-  "LastLoadedBy": 584,
+  "MainProviderName": "Bins-Schmidt",
+  "ShadowProviderName": "Shields, Goyette and Ratke",
+  "ChartKey": "voluptatum",
+  "LastLoaded": "2001-07-11T13:14:01.3319239+02:00",
+  "LastLoadedBy": 744,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2018-08-13T14:28:22.3991281+02:00",
-  "LastMembershipChangeBy": 39,
+  "LastMembershipChange": "2020-12-20T13:14:01.3319239+01:00",
+  "LastMembershipChangeBy": 934,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "debitis",
-  "MemberTabHeading": "quia",
-  "MailingsProviderName": "Simonis Group",
-  "DashboardTileDefinitionId": 173,
+  "MainHeading": "possimus",
+  "MemberTabHeading": "quae",
+  "MailingsProviderName": "Torp, Predovic and Crona",
+  "DashboardTileDefinitionId": 404,
   "VisibleFor": [
     {
-      "VisibleId": 285,
+      "VisibleId": 293,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 900
+          "FieldType": "System.Int32",
+          "FieldLength": 150
         }
       }
     },
     {
-      "VisibleId": 285,
+      "VisibleId": 293,
       "Visibility": "All",
-      "DisplayValue": "a",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 900
+          "FieldType": "System.Int32",
+          "FieldLength": 150
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 506
+      "FieldLength": 980
     }
   }
 }

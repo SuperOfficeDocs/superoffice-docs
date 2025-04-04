@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjectsOnPersonId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 825
+  "PersonId": 691
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 650,
-    "Name": "Johnston, Schamberger and Douglas",
-    "Description": "Object-based maximized software",
+    "ProjectId": 355,
+    "Name": "Cormier-Deckow",
+    "Description": "Face to face executive methodology",
     "URL": "http://www.example.com/",
-    "Type": "officiis",
-    "AssociateId": 519,
-    "AssociateFullName": "Ms. Sally Briana Runolfsson",
-    "TypeId": 453,
-    "Updated": "2023-10-14T14:28:22.2585084+02:00",
-    "StatusId": 453,
-    "Status": "ea",
-    "TextId": 291,
-    "PublishTo": "2015-06-07T14:28:22.2585084+02:00",
-    "PublishFrom": "1999-01-03T14:28:22.2585084+01:00",
-    "IsPublished": true,
+    "Type": "pariatur",
+    "AssociateId": 604,
+    "AssociateFullName": "Mr. Elouise Effertz II",
+    "TypeId": 897,
+    "Updated": "2014-08-10T13:14:00.9390342+02:00",
+    "StatusId": 148,
+    "Status": "officia",
+    "TextId": 384,
+    "PublishTo": "2022-12-18T13:14:00.9390342+01:00",
+    "PublishFrom": "2012-10-17T13:14:00.9390342+02:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "497752",
-    "ActiveErpLinks": 196,
+    "ProjectNumber": "1137591",
+    "ActiveErpLinks": 795,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 183
+        "FieldLength": 564
       }
     }
   }

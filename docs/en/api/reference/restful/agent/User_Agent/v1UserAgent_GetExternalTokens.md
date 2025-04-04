@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nam"
+  "Key": "tenetur"
 }
 ```
 
@@ -92,15 +92,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "eum",
-  "AccessToken": "voluptatem",
-  "RefreshToken": "quas",
+  "Provider": "quis",
+  "AccessToken": "velit",
+  "RefreshToken": "quis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 809
+      "FieldLength": 508
     }
   }
 }

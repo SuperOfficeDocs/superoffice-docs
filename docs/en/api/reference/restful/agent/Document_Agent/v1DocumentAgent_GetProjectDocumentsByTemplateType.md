@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 38,
-  "StartTime": "1997-12-25T14:28:21.8210267+01:00",
-  "EndTime": "2020-08-29T14:28:21.8210267+02:00",
-  "Count": 713,
-  "DocumentTemplateId": 68
+  "ProjectId": 812,
+  "StartTime": "2007-08-07T13:14:00.0944666+02:00",
+  "EndTime": "2012-07-09T13:14:00.0944666+02:00",
+  "Count": 884,
+  "DocumentTemplateId": 43
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 140,
-    "Attention": "quasi",
-    "Header": "aliquam",
-    "Name": "Dickens Inc and Sons",
-    "OurRef": "eum",
-    "YourRef": "iusto",
-    "Description": "Profound content-based website",
-    "DocumentTemplate": "porro",
+    "DocumentId": 802,
+    "Attention": "autem",
+    "Header": "consequatur",
+    "Name": "Shanahan, Ebert and DuBuque",
+    "OurRef": "rerum",
+    "YourRef": "qui",
+    "Description": "Total interactive methodology",
+    "DocumentTemplate": "velit",
     "IsPublished": false,
-    "PersonId": 261,
-    "PersonFullName": "Paula Fisher",
-    "AssociateFullName": "Hailey Antonietta Heathcote MD",
-    "ContactId": 836,
-    "ContactName": "Lowe, Jewess and Haley",
-    "ProjectId": 637,
-    "ProjectName": "Nader, Littel and Kertzmann",
-    "AssociateId": 465,
-    "Snum": 787,
-    "SaleId": 176,
-    "SaleName": "Schulist, Haley and Sawayn",
+    "PersonId": 115,
+    "PersonFullName": "Gina Graham",
+    "AssociateFullName": "Jarrell Tabitha Blanda PhD",
+    "ContactId": 917,
+    "ContactName": "Collins-White",
+    "ProjectId": 241,
+    "ProjectName": "Schaden LLC",
+    "AssociateId": 186,
+    "Snum": 617,
+    "SaleId": 154,
+    "SaleName": "Mohr, Rogahn and Kassulke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 364
       }
     }
   }

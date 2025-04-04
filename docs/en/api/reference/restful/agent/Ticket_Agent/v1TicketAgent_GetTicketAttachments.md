@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketAttachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketEntityId": 277
+  "TicketEntityId": 563
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 820,
-    "Name": "Sporer Inc and Sons",
-    "ContentType": "cupiditate",
-    "AttSize": 767,
-    "InlineImage": false,
-    "ContentId": "deserunt",
-    "AuthKey": "nemo",
+    "AttachmentId": 624,
+    "Name": "Schuppe Group",
+    "ContentType": "tenetur",
+    "AttSize": 659,
+    "InlineImage": true,
+    "ContentId": "provident",
+    "AuthKey": "saepe",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldLength": 859
       }
     }
   }

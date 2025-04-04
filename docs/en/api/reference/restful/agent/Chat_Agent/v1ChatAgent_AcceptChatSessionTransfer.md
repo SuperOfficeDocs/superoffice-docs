@@ -105,11 +105,11 @@ OK
 POST /api/v1/Agents/Chat/AcceptChatSessionTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 497
+  "ChatSessionId": 136
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 516,
-  "TopicId": 871,
+  "ChatSessionId": 156,
+  "TopicId": 136,
   "User": null,
   "Person": null,
-  "CustomerAlias": "ex",
-  "CustomerHost": "et",
-  "CustomerName": "Bode Inc and Sons",
-  "CustomerEmail": "nils@handstiedemann.com",
-  "CustomerPhone": "709-231-5026",
+  "CustomerAlias": "tempora",
+  "CustomerHost": "ea",
+  "CustomerName": "Luettgen, Marvin and Krajcik",
+  "CustomerEmail": "jamaal@hansen.com",
+  "CustomerPhone": "1-955-480-3047 x71199",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Emard Group",
+  "CustomerCompanyName": "Kuhic-Medhurst",
   "Status": "Closed",
-  "FirstMessage": "molestias",
-  "LastMessage": "quos",
-  "WhenRequested": "2020-11-15T14:28:21.5397876+01:00",
-  "WhenStarted": "2018-01-13T14:28:21.5397876+01:00",
-  "WhenEnded": "2004-07-02T14:28:21.5397876+02:00",
-  "WhenIdle": "2023-06-19T14:28:21.5397876+02:00",
-  "WhenFetched": "2009-01-20T14:28:21.5397876+01:00",
-  "SessionKey": "aperiam",
-  "InitialQueuePos": 160,
-  "AlertLevel": 137,
-  "Rank": 96,
+  "FirstMessage": "eaque",
+  "LastMessage": "porro",
+  "WhenRequested": "2003-06-25T13:13:59.6252018+02:00",
+  "WhenStarted": "2003-07-18T13:13:59.6252018+02:00",
+  "WhenEnded": "1998-08-10T13:13:59.6252018+02:00",
+  "WhenIdle": "2014-05-29T13:13:59.6252018+02:00",
+  "WhenFetched": "2013-05-10T13:13:59.6252018+02:00",
+  "SessionKey": "delectus",
+  "InitialQueuePos": 704,
+  "AlertLevel": 25,
+  "Rank": 315,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 481,
+  "ChatbotIsActive": false,
+  "Rating": 364,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 34
     }
   }
 }

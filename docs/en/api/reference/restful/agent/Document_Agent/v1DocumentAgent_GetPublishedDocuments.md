@@ -92,13 +92,13 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentIds": [
-    116,
-    687
+    968,
+    855
   ]
 }
 ```
@@ -111,32 +111,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 171,
-    "Attention": "beatae",
-    "Header": "id",
-    "Name": "Welch Inc and Sons",
-    "OurRef": "sint",
-    "YourRef": "maiores",
-    "Description": "Innovative explicit project",
-    "DocumentTemplate": "sapiente",
+    "DocumentId": 905,
+    "Attention": "sit",
+    "Header": "cum",
+    "Name": "Kshlerin, Macejkovic and McClure",
+    "OurRef": "dolores",
+    "YourRef": "molestias",
+    "Description": "Stand-alone coherent structure",
+    "DocumentTemplate": "est",
     "IsPublished": false,
-    "PersonId": 967,
-    "PersonFullName": "Betsy Robel",
-    "AssociateFullName": "Emile Crist",
-    "ContactId": 601,
-    "ContactName": "Donnelly Inc and Sons",
-    "ProjectId": 328,
-    "ProjectName": "McCullough Group",
-    "AssociateId": 825,
-    "Snum": 437,
-    "SaleId": 296,
-    "SaleName": "Cronin Group",
+    "PersonId": 149,
+    "PersonFullName": "Mrs. Gloria Goldner",
+    "AssociateFullName": "Prof. Caitlyn Heidenreich",
+    "ContactId": 846,
+    "ContactName": "Considine-Keebler",
+    "ProjectId": 42,
+    "ProjectName": "Purdy-Flatley",
+    "AssociateId": 537,
+    "Snum": 478,
+    "SaleId": 342,
+    "SaleName": "Green Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 361
+        "FieldLength": 731
       }
     }
   }

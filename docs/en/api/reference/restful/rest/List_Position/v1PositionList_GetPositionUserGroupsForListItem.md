@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Lind, Cartwright and Mohr",
-    "ToolTip": "Illum incidunt.",
+    "Id": 920,
+    "Name": "Mante, Schultz and Treutel",
+    "ToolTip": "Facilis rerum aut veniam minus.",
     "Deleted": false,
-    "Rank": 42,
-    "Type": "qui",
-    "ColorBlock": 551,
-    "IconHint": "reiciendis",
-    "Selected": true,
-    "LastChanged": "2008-03-24T14:28:27.6020419+01:00",
+    "Rank": 474,
+    "Type": "ducimus",
+    "ColorBlock": 939,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2021-07-07T13:14:09.8535282+02:00",
     "ChildItems": [
       {
-        "Id": 72,
-        "Name": "Prosacco-Kuhn",
-        "ToolTip": "Eaque ut.",
-        "Deleted": false,
-        "Rank": 970,
-        "Type": "voluptas",
-        "ColorBlock": 891,
-        "IconHint": "nesciunt",
-        "Selected": true,
-        "LastChanged": "2012-04-15T14:28:27.6020419+02:00",
+        "Id": 584,
+        "Name": "Schuppe-Pagac",
+        "ToolTip": "Repellat libero dolores quidem.",
+        "Deleted": true,
+        "Rank": 231,
+        "Type": "et",
+        "ColorBlock": 915,
+        "IconHint": "repudiandae",
+        "Selected": false,
+        "LastChanged": "2020-11-04T13:14:09.8535282+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "distinctio",
-        "StyleHint": "laudantium",
-        "Hidden": false,
-        "FullName": "Trace Rice",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Elnora Walsh",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 659
+            "FieldType": "System.Int32",
+            "FieldLength": 816
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Carlie Walsh",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "aliquam",
+    "Hidden": false,
+    "FullName": "Trent Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 913
+        "FieldLength": 580
       }
     }
   }

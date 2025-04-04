@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 486,
-    "Name": "O'Keefe-O'Reilly",
-    "ToolTip": "Officiis quas eius aut similique.",
+    "Id": 330,
+    "Name": "Price-Frami",
+    "ToolTip": "Ut quia qui est architecto.",
     "Deleted": true,
-    "Rank": 186,
-    "Type": "nobis",
-    "ColorBlock": 162,
-    "IconHint": "fugit",
-    "Selected": true,
-    "LastChanged": "2021-05-08T14:28:27.5864176+02:00",
+    "Rank": 403,
+    "Type": "quod",
+    "ColorBlock": 970,
+    "IconHint": "consequatur",
+    "Selected": false,
+    "LastChanged": "2021-04-23T13:14:09.8222767+02:00",
     "ChildItems": [
       {
-        "Id": 952,
-        "Name": "Schneider Inc and Sons",
-        "ToolTip": "Veniam et.",
+        "Id": 74,
+        "Name": "Hane, Dooley and Hane",
+        "ToolTip": "Earum est eum veniam qui sed.",
         "Deleted": false,
-        "Rank": 136,
-        "Type": "est",
-        "ColorBlock": 899,
-        "IconHint": "animi",
+        "Rank": 856,
+        "Type": "sit",
+        "ColorBlock": 572,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "1999-06-20T14:28:27.5864176+02:00",
+        "LastChanged": "2010-07-08T13:14:09.8379023+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "amet",
-        "StyleHint": "molestias",
+        "ExtraInfo": "sapiente",
+        "StyleHint": "eaque",
         "Hidden": true,
-        "FullName": "Marilyne Satterfield I"
+        "FullName": "Kenton Bayer"
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "modi",
-    "Hidden": false,
-    "FullName": "Dolores Lynch"
+    "ExtraInfo": "corporis",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Jevon Wyman"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 848,
-    "Name": "Ryan, Bogan and Bechtelar",
-    "ToolTip": "Nulla provident.",
+    "Id": 20,
+    "Name": "Jenkins LLC",
+    "ToolTip": "Nemo eos exercitationem.",
     "Deleted": false,
-    "Rank": 394,
-    "Type": "ut",
-    "ColorBlock": 633,
-    "IconHint": "delectus",
+    "Rank": 680,
+    "Type": "facilis",
+    "ColorBlock": 412,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2013-08-06T14:28:27.5864176+02:00",
+    "LastChanged": "1998-05-28T13:14:09.8379023+02:00",
     "ChildItems": [
       {
-        "Id": 276,
-        "Name": "Anderson Group",
-        "ToolTip": "Ex voluptatibus.",
+        "Id": 989,
+        "Name": "Zboncak Group",
+        "ToolTip": "Tempora asperiores quod omnis velit.",
         "Deleted": true,
-        "Rank": 479,
-        "Type": "ut",
-        "ColorBlock": 757,
-        "IconHint": "non",
+        "Rank": 109,
+        "Type": "ipsa",
+        "ColorBlock": 89,
+        "IconHint": "vero",
         "Selected": false,
-        "LastChanged": "2011-10-26T14:28:27.5864176+02:00",
+        "LastChanged": "1999-05-26T13:14:09.8379023+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "suscipit",
-        "Hidden": false,
-        "FullName": "Emilio Mike Gerlach PhD",
+        "ExtraInfo": "earum",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Imani Heathcote",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 758
+            "FieldLength": 337
           }
         }
       }
     ],
-    "ExtraInfo": "sed",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Aurelia Cummerata",
+    "ExtraInfo": "omnis",
+    "StyleHint": "nostrum",
+    "Hidden": true,
+    "FullName": "Ms. Aracely Billie Hodkiewicz II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 787
       }
     }
   }

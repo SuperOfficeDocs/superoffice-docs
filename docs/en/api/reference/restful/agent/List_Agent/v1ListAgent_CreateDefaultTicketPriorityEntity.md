@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketPriorityEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,60 +94,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 991,
-  "Name": "Legros LLC",
+  "TicketPriorityId": 572,
+  "Name": "Marks Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 124,
+  "SortOrder": 324,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 178,
-  "MonStart": "1998-02-05T14:28:22.1022648+01:00",
-  "MonStop": "2006-10-25T14:28:22.1022648+02:00",
-  "TueStart": "2001-04-30T14:28:22.1022648+02:00",
-  "TueStop": "2023-07-31T14:28:22.1022648+02:00",
-  "WedStart": "1998-11-28T14:28:22.1022648+01:00",
-  "WedStop": "2008-11-26T14:28:22.1022648+01:00",
-  "ThuStart": "2022-06-02T14:28:22.1022648+02:00",
-  "ThuStop": "2000-11-07T14:28:22.1022648+01:00",
-  "FriStart": "2018-11-02T14:28:22.1022648+01:00",
-  "FriStop": "2002-07-18T14:28:22.1022648+02:00",
-  "SatStart": "2004-11-13T14:28:22.1022648+01:00",
-  "SatStop": "1999-10-31T14:28:22.1022648+01:00",
-  "SunStart": "2007-03-10T14:28:22.1022648+01:00",
-  "SunStop": "2022-07-01T14:28:22.1022648+02:00",
+  "Deadline": 228,
+  "MonStart": "2005-01-28T13:14:00.6731283+01:00",
+  "MonStop": "2021-04-20T13:14:00.6731283+02:00",
+  "TueStart": "2007-07-13T13:14:00.6731283+02:00",
+  "TueStop": "1998-10-18T13:14:00.6731283+02:00",
+  "WedStart": "2000-03-20T13:14:00.6731283+01:00",
+  "WedStop": "2003-04-29T13:14:00.6731283+02:00",
+  "ThuStart": "2002-12-21T13:14:00.6731283+01:00",
+  "ThuStop": "2013-07-22T13:14:00.6731283+02:00",
+  "FriStart": "2013-09-09T13:14:00.6731283+02:00",
+  "FriStop": "2011-11-26T13:14:00.6731283+01:00",
+  "SatStart": "2003-04-03T13:14:00.6731283+02:00",
+  "SatStop": "2004-05-01T13:14:00.6731283+02:00",
+  "SunStart": "2013-05-30T13:14:00.6731283+02:00",
+  "SunStop": "1999-09-05T13:14:00.6731283+02:00",
   "NonDates": [
-    "eveniet",
-    "nostrum"
+    "laborum",
+    "vitae"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 668,
-      "AlertLevel": 723,
-      "AlertTimeout": 372,
-      "Action": 750,
-      "DelegateTo": 206,
-      "ScriptId": 345,
-      "EmailTo": "freddy@zemlakritchie.biz",
-      "SmsTo": "provident",
-      "ReplyTemplateIdCustomer": 271,
-      "ReplyTemplateIdUser": 834,
-      "ReplyTemplateIdCatmast": 859,
-      "ReplyTemplateIdEmail": 905,
-      "RtiCustomerSms": 556,
-      "ReplyTemplateIdUserSms": 900,
-      "ReplyTemplateIdCatmastSms": 392,
-      "ReplyTemplateIdSms": 371,
+      "TicketAlertId": 831,
+      "AlertLevel": 740,
+      "AlertTimeout": 163,
+      "Action": 56,
+      "DelegateTo": 167,
+      "ScriptId": 254,
+      "EmailTo": "jess_stark@stanton.ca",
+      "SmsTo": "est",
+      "ReplyTemplateIdCustomer": 472,
+      "ReplyTemplateIdUser": 477,
+      "ReplyTemplateIdCatmast": 184,
+      "ReplyTemplateIdEmail": 925,
+      "RtiCustomerSms": 570,
+      "ReplyTemplateIdUserSms": 659,
+      "ReplyTemplateIdCatmastSms": 489,
+      "ReplyTemplateIdSms": 710,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 467
+          "FieldType": "System.String",
+          "FieldLength": 188
         }
       }
     }
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 366
+      "FieldType": "System.Int32",
+      "FieldLength": 624
     }
   }
 }

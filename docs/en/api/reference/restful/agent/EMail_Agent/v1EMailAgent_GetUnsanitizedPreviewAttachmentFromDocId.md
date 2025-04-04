@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 846,
-  "AttachmentId": "numquam"
+  "DocId": 872,
+  "AttachmentId": "optio"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Up-sized incremental info-mediaries",
-  "Filename": "voluptatibus",
-  "Size": 413,
-  "Type": "placeat",
-  "Encoding": "dolorum",
-  "Id": "aliquid",
-  "Disposition": "non",
-  "IsSafeFileExtension": true,
+  "Description": "Secured intangible support",
+  "Filename": "molestias",
+  "Size": 663,
+  "Type": "minima",
+  "Encoding": "et",
+  "Id": "minima",
+  "Disposition": "debitis",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 667
     }
   }
 }

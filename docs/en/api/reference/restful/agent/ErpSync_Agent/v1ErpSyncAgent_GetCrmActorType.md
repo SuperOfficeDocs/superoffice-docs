@@ -71,11 +71,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetCrmActorType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 870,
+  "ErpConnectionId": 818,
   "ErpActorType": "Customer"
 }
 ```

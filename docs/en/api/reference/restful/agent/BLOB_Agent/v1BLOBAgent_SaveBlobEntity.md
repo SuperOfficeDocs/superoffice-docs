@@ -87,23 +87,23 @@ OK
 POST /api/v1/Agents/BLOB/SaveBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 554,
-  "BlobSize": 341,
-  "Description": "Extended system-worthy database",
-  "ExtraInfo": "fuga",
-  "IsEncrypted": false,
+  "BlobId": 445,
+  "BlobSize": 830,
+  "Description": "Universal empowering frame",
+  "ExtraInfo": "perferendis",
+  "IsEncrypted": true,
   "IsZipped": true,
-  "MimeType": "omnis",
-  "OriginalSize": 405,
-  "CreatedDate": "2004-03-17T14:28:21.4929147+01:00",
-  "UpdatedDate": "2023-05-08T14:28:21.4929147+02:00",
+  "MimeType": "hic",
+  "OriginalSize": 152,
+  "CreatedDate": "2013-10-22T13:13:59.5314453+02:00",
+  "UpdatedDate": "2023-08-26T13:13:59.5314453+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "occaecati"
+  "ConceptualType": "nostrum"
 }
 ```
 
@@ -114,25 +114,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 62,
-  "BlobSize": 192,
-  "Description": "Ergonomic national alliance",
-  "ExtraInfo": "id",
+  "BlobId": 545,
+  "BlobSize": 616,
+  "Description": "Organic cohesive info-mediaries",
+  "ExtraInfo": "quo",
   "IsEncrypted": false,
-  "IsZipped": true,
-  "MimeType": "iure",
-  "OriginalSize": 306,
-  "CreatedDate": "2000-04-24T14:28:21.4929147+02:00",
-  "UpdatedDate": "2021-03-18T14:28:21.4929147+01:00",
+  "IsZipped": false,
+  "MimeType": "officiis",
+  "OriginalSize": 131,
+  "CreatedDate": "2020-10-17T13:13:59.5314453+02:00",
+  "UpdatedDate": "2018-12-14T13:13:59.5314453+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "veniam",
+  "ConceptualType": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldLength": 312
     }
   }
 }

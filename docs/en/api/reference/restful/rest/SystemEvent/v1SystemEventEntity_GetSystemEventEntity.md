@@ -82,7 +82,7 @@ SystemEventEntity found.
 GET /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,27 +92,27 @@ HTTP/1.1 200 SystemEventEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 257,
+  "SystemEventId": 330,
   "Scope": "Database",
-  "Eta": "2011-02-14T14:28:27.2583066+01:00",
-  "Eventkey": "earum",
-  "Eventmess": "vel",
-  "ExtraInfo": 972,
-  "Owner": 832,
-  "UpdatedCount": 612,
-  "Registered": "2008-05-10T14:28:27.2583066+02:00",
+  "Eta": "2017-03-29T13:14:09.2122711+02:00",
+  "Eventkey": "voluptatem",
+  "Eventmess": "culpa",
+  "ExtraInfo": 529,
+  "Owner": 184,
+  "UpdatedCount": 90,
+  "Registered": "2014-02-18T13:14:09.2122711+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 19
+      "FieldType": "System.Int32",
+      "FieldLength": 930
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

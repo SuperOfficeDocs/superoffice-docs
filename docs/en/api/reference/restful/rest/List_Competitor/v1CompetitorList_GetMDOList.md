@@ -26,8 +26,8 @@ Get the MDO list items for "Comptr" - with headings and filtering by user group.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Competitor/MDOItems?flat=True
-GET /api/v1/List/Competitor/MDOItems?query=dolorum
+GET /api/v1/List/Competitor/MDOItems?flat=False
+GET /api/v1/List/Competitor/MDOItems?query=molestiae
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 202,
-    "Name": "Zulauf, Vandervort and Rowe",
-    "ToolTip": "Voluptates et aut voluptatem ex necessitatibus qui.",
+    "Id": 84,
+    "Name": "Brakus Inc and Sons",
+    "ToolTip": "Eum quia.",
     "Deleted": true,
-    "Rank": 289,
-    "Type": "quam",
+    "Rank": 52,
+    "Type": "ducimus",
     "ChildItems": [
       {
-        "Id": 714,
-        "Name": "DuBuque-Hoeger",
-        "ToolTip": "Ut ullam assumenda dolor.",
+        "Id": 438,
+        "Name": "Beahan Inc and Sons",
+        "ToolTip": "Eos rerum nihil officiis consequatur molestiae.",
         "Deleted": false,
-        "Rank": 480,
-        "Type": "ipsum",
+        "Rank": 430,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 618,
-        "ExtraInfo": "temporibus",
-        "StyleHint": "maiores",
-        "FullName": "Miss Josiane Lynch",
+        "IconHint": "eum",
+        "ColorBlock": 923,
+        "ExtraInfo": "quia",
+        "StyleHint": "ut",
+        "FullName": "Ms. Michale Towne DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 2
+            "FieldLength": 449
           }
         }
       }
     ],
-    "IconHint": "eligendi",
-    "ColorBlock": 474,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "soluta",
-    "FullName": "Hanna Alisha Kihn MD",
+    "IconHint": "voluptatem",
+    "ColorBlock": 188,
+    "ExtraInfo": "ut",
+    "StyleHint": "quibusdam",
+    "FullName": "Prof. Bill Ova Wilkinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 993
+        "FieldLength": 291
       }
     }
   }

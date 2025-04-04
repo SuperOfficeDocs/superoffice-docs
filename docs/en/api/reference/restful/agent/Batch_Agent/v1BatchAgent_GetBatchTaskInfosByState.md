@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Pfeffer Inc and Sons",
-    "AssociateId": 98,
-    "DetailsTable": 399,
-    "DetailsRecord": 931,
+    "Id": 308,
+    "Name": "Kemmer, Boyle and Roob",
+    "AssociateId": 894,
+    "DetailsTable": 359,
+    "DetailsRecord": 518,
     "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "illo",
-      "ParameterObject2": "nihil"
+      "ParameterObject1": "porro",
+      "ParameterObject2": "dignissimos"
     },
-    "LastStarted": "2007-01-28T14:28:21.4929147+01:00",
-    "Created": "2010-03-04T14:28:21.4929147+01:00",
-    "StartCount": 746,
-    "DatabaseSerialNumber": "1773009",
-    "Context": "aliquam",
-    "Result": "mollitia",
+    "LastStarted": "2013-10-17T13:13:59.5314453+02:00",
+    "Created": "2007-07-21T13:13:59.5314453+02:00",
+    "StartCount": 638,
+    "DatabaseSerialNumber": "1213812",
+    "Context": "aperiam",
+    "Result": "nulla",
     "State": "All",
-    "Description": "Assimilated national knowledge user",
-    "Response": "quis",
-    "Request": "blanditiis",
-    "ProgressDescription": "Multi-lateral multi-tasking infrastructure",
-    "ProgressPercent": 421,
-    "FileName": "Hegmann, McKenzie and Mitchell",
+    "Description": "Stand-alone 4th generation customer loyalty",
+    "Response": "voluptatem",
+    "Request": "temporibus",
+    "ProgressDescription": "Monitored disintermediate parallelism",
+    "ProgressPercent": 159,
+    "FileName": "Littel-McLaughlin",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 626
+        "FieldType": "System.Int32",
+        "FieldLength": 801
       }
     }
   }

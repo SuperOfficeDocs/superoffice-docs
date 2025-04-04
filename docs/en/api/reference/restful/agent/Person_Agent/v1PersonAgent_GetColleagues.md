@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Person/GetColleagues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -116,53 +116,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "repellat",
-    "PersonId": 654,
-    "Mrmrs": "excepturi",
-    "Firstname": "Jodie",
-    "Lastname": "Daniel",
-    "MiddleName": "Funk, O'Hara and Christiansen",
-    "Title": "reprehenderit",
-    "Description": "Multi-lateral actuating monitoring",
-    "Email": "gaylord@dooley.co.uk",
-    "FullName": "Mohammad Blick",
-    "DirectPhone": "285-418-7877 x249",
-    "FormalName": "Boyle, Haley and Pfeffer",
-    "CountryId": 808,
-    "ContactId": 602,
-    "ContactName": "Schamberger LLC",
-    "Retired": 953,
-    "Rank": 853,
-    "ActiveInterests": 25,
+    "Position": "dolores",
+    "PersonId": 668,
+    "Mrmrs": "velit",
+    "Firstname": "Camylle",
+    "Lastname": "Pouros",
+    "MiddleName": "Kessler-Ebert",
+    "Title": "velit",
+    "Description": "Cloned intangible definition",
+    "Email": "kristian.wolf@powlowski.com",
+    "FullName": "Mrs. Emerson Emmie Towne Sr.",
+    "DirectPhone": "720-469-4055 x250",
+    "FormalName": "Bartoletti, Gibson and Mitchell",
+    "CountryId": 586,
+    "ContactId": 89,
+    "ContactName": "Spencer-Stroman",
+    "Retired": 402,
+    "Rank": 975,
+    "ActiveInterests": 720,
     "ContactDepartment": "",
-    "ContactCountryId": 568,
-    "ContactOrgNr": "651032",
-    "FaxPhone": "696.305.7497 x420",
-    "MobilePhone": "1-211-915-5125 x0116",
-    "ContactPhone": "583.429.9325",
-    "AssociateName": "Pfannerstill-Fritsch",
-    "AssociateId": 7,
+    "ContactCountryId": 952,
+    "ContactOrgNr": "664986",
+    "FaxPhone": "125.502.5358 x761",
+    "MobilePhone": "810-834-0059 x07516",
+    "ContactPhone": "(242)899-6345",
+    "AssociateName": "Erdman-Deckow",
+    "AssociateId": 465,
     "UsePersonAddress": true,
-    "ContactFax": "vel",
-    "Kanafname": "iste",
-    "Kanalname": "voluptate",
-    "Post1": "quos",
-    "Post2": "et",
-    "Post3": "laborum",
-    "EmailName": "drake.windler@cummerata.name",
-    "ContactFullName": "Prof. Ottis Pacocha Sr.",
-    "ActiveErpLinks": 322,
-    "TicketPriorityId": 698,
-    "SupportLanguageId": 732,
-    "SupportAssociateId": 362,
+    "ContactFax": "ad",
+    "Kanafname": "consequatur",
+    "Kanalname": "voluptas",
+    "Post1": "dignissimos",
+    "Post2": "cumque",
+    "Post3": "facilis",
+    "EmailName": "marianna@connflatley.ca",
+    "ContactFullName": "Hattie Kshlerin",
+    "ActiveErpLinks": 980,
+    "TicketPriorityId": 322,
+    "SupportLanguageId": 183,
+    "SupportAssociateId": 390,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "1588238",
+    "PersonNumber": "961217",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldType": "System.String",
+        "FieldLength": 184
       }
     }
   }

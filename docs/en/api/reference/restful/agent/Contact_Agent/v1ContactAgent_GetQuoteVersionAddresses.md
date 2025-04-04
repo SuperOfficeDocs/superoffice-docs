@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 898
+  "QuoteVersionId": 284
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 97.154,
-    "Wgs84Longitude": 30233.698,
+    "Wgs84Latitude": 25645.522,
+    "Wgs84Longitude": 27817.384,
     "LocalizedAddress": [
       [
         {
-          "Name": "Sporer-Crooks",
-          "Value": "corporis",
-          "Tooltip": "eveniet",
-          "Label": "vel",
-          "ValueLength": 207,
-          "AddressType": "adipisci",
+          "Name": "McKenzie, Mitchell and Parisian",
+          "Value": "et",
+          "Tooltip": "omnis",
+          "Label": "libero",
+          "ValueLength": 715,
+          "AddressType": "libero",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 751
+              "FieldLength": 782
             }
           }
         }
       ],
       [
         {
-          "Name": "West-Heaney",
-          "Value": "ut",
-          "Tooltip": "omnis",
-          "Label": "mollitia",
-          "ValueLength": 368,
-          "AddressType": "est",
+          "Name": "Lesch, Hagenes and Thiel",
+          "Value": "velit",
+          "Tooltip": "ad",
+          "Label": "dolores",
+          "ValueLength": 784,
+          "AddressType": "accusamus",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
-              "FieldType": "System.Int32",
-              "FieldLength": 873
+              "FieldType": "System.String",
+              "FieldLength": 575
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "quo",
+    "Formatted": "perspiciatis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldType": "System.String",
+        "FieldLength": 10
       }
     }
   }

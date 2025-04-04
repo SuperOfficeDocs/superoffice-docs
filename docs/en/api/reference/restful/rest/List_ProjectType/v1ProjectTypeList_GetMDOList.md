@@ -26,8 +26,8 @@ Get the MDO list items for "ProjType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectType/MDOItems?flat=True
-GET /api/v1/List/ProjectType/MDOItems?query=corrupti
+GET /api/v1/List/ProjectType/MDOItems?flat=False
+GET /api/v1/List/ProjectType/MDOItems?query=et
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 443,
-    "Name": "DuBuque-Kulas",
-    "ToolTip": "Itaque amet et.",
+    "Id": 988,
+    "Name": "Barrows, Block and Fahey",
+    "ToolTip": "Tenetur quia.",
     "Deleted": false,
-    "Rank": 104,
-    "Type": "ut",
+    "Rank": 771,
+    "Type": "occaecati",
     "ChildItems": [
       {
-        "Id": 527,
-        "Name": "Weber, Harvey and Hartmann",
-        "ToolTip": "Cumque unde fugiat.",
-        "Deleted": false,
-        "Rank": 43,
-        "Type": "qui",
+        "Id": 575,
+        "Name": "Schumm, Hauck and Ritchie",
+        "ToolTip": "Ex eaque.",
+        "Deleted": true,
+        "Rank": 301,
+        "Type": "laboriosam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ea",
-        "ColorBlock": 979,
-        "ExtraInfo": "iusto",
-        "StyleHint": "iusto",
-        "FullName": "Miss Kelsie Reilly DVM",
+        "IconHint": "necessitatibus",
+        "ColorBlock": 484,
+        "ExtraInfo": "cupiditate",
+        "StyleHint": "quos",
+        "FullName": "Laurel Kshlerin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 423
+            "FieldType": "System.Int32",
+            "FieldLength": 832
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 482,
-    "ExtraInfo": "similique",
-    "StyleHint": "quaerat",
-    "FullName": "Jarod Morar",
+    "IconHint": "fugit",
+    "ColorBlock": 734,
+    "ExtraInfo": "nihil",
+    "StyleHint": "quas",
+    "FullName": "Yasmeen Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldLength": 533
       }
     }
   }

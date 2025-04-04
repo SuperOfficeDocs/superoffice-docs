@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveDeviceByIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Wintheiser LLC",
-  "DeviceName": "Keeling LLC",
-  "DeviceIdentifier": "vel",
+  "ApplicationName": "Heaney Inc and Sons",
+  "DeviceName": "Adams-Trantow",
+  "DeviceIdentifier": "architecto",
   "ForeignDevice": null
 }
 ```
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 635,
-  "Name": "Kilback, Nikolaus and Ullrich",
-  "CreatedDate": "2015-01-26T14:28:22.0085182+01:00",
-  "UpdatedDate": "2016-12-31T14:28:22.0085182+01:00",
-  "AssociateFullName": "Miss Davin Cole PhD",
-  "CreatedBy": "architecto",
-  "UpdatedBy": "accusamus",
-  "DeviceIdentifier": "porro",
-  "ForeignAppId": 792,
+  "ForeignDeviceId": 477,
+  "Name": "Olson Inc and Sons",
+  "CreatedDate": "2025-03-17T13:14:00.5168611+01:00",
+  "UpdatedDate": "2023-01-11T13:14:00.5168611+01:00",
+  "AssociateFullName": "Jairo Lynch",
+  "CreatedBy": "atque",
+  "UpdatedBy": "quis",
+  "DeviceIdentifier": "nostrum",
+  "ForeignAppId": 582,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 893
+      "FieldType": "System.String",
+      "FieldLength": 40
     }
   }
 }

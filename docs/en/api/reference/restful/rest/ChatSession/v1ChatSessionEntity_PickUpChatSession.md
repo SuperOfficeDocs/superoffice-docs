@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 662,
-  "TopicId": 145,
+  "ChatSessionId": 121,
+  "TopicId": 262,
   "User": null,
   "Person": null,
-  "CustomerAlias": "itaque",
-  "CustomerHost": "laudantium",
-  "CustomerName": "Hintz, Gibson and Berge",
-  "CustomerEmail": "janessa@funk.com",
-  "CustomerPhone": "754.444.1187",
+  "CustomerAlias": "unde",
+  "CustomerHost": "ab",
+  "CustomerName": "Cormier-Eichmann",
+  "CustomerEmail": "willa@rice.com",
+  "CustomerPhone": "983-607-8876",
   "CustomerConsented": true,
-  "CustomerCompanyName": "Bayer-O'Keefe",
+  "CustomerCompanyName": "Armstrong LLC",
   "Status": "Closed",
-  "FirstMessage": "non",
-  "LastMessage": "tenetur",
-  "WhenRequested": "2016-03-31T14:28:26.7583268+02:00",
-  "WhenStarted": "2015-05-11T14:28:26.7583268+02:00",
-  "WhenEnded": "2006-06-20T14:28:26.7583268+02:00",
-  "WhenIdle": "2002-10-27T14:28:26.7583268+01:00",
-  "WhenFetched": "2000-12-08T14:28:26.7583268+01:00",
-  "SessionKey": "quam",
-  "InitialQueuePos": 308,
-  "AlertLevel": 645,
-  "Rank": 463,
+  "FirstMessage": "esse",
+  "LastMessage": "temporibus",
+  "WhenRequested": "2006-10-04T13:14:08.4303675+02:00",
+  "WhenStarted": "1999-07-23T13:14:08.4303675+02:00",
+  "WhenEnded": "2018-08-07T13:14:08.4303675+02:00",
+  "WhenIdle": "2022-08-28T13:14:08.4303675+02:00",
+  "WhenFetched": "2011-01-03T13:14:08.4303675+01:00",
+  "SessionKey": "et",
+  "InitialQueuePos": 135,
+  "AlertLevel": 738,
+  "Rank": 624,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 811,
+  "ChatbotIsActive": false,
+  "Rating": 49,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 336
     }
   }
 }

@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 137,
+  "ProductId": 365,
   "ERPProductKey": "rerum",
-  "ERPPriceListKey": "id",
-  "Name": "Littel, Thiel and Mertz",
-  "Description": "Multi-tiered responsive functionalities",
-  "Code": "et",
-  "PriceUnit": "minus",
-  "QuantityUnit": "aspernatur",
+  "ERPPriceListKey": "rerum",
+  "Name": "Mueller Inc and Sons",
+  "Description": "Operative executive complexity",
+  "Code": "dolor",
+  "PriceUnit": "facilis",
+  "QuantityUnit": "ea",
   "IsSubscription": true,
-  "SubscriptionUnit": "cumque",
-  "DefaultSubscriptionQuantity": 4553.702,
-  "ItemNumber": "1678922",
+  "SubscriptionUnit": "est",
+  "DefaultSubscriptionQuantity": 22282.739999999998,
+  "ItemNumber": "651903",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "repellendus",
-  "ProductTypeKey": "aperiam",
-  "VAT": 20649.926,
-  "VATInfo": "esse",
-  "UnitCost": 9781.214,
-  "UnitMinimumPrice": 22655.685999999998,
-  "UnitListPrice": 29964.174,
-  "InAssortment": false,
-  "Supplier": "inventore",
-  "SupplierCode": "sit",
-  "Rights": "architecto",
-  "Rule": "ad",
+  "ProductFamilyKey": "sint",
+  "ProductTypeKey": "voluptatibus",
+  "VAT": 30882.435999999998,
+  "VATInfo": "et",
+  "UnitCost": 19427.666,
+  "UnitMinimumPrice": 16472.304,
+  "UnitListPrice": 3046.248,
+  "InAssortment": true,
+  "Supplier": "facilis",
+  "SupplierCode": "in",
+  "Rights": "omnis",
+  "Rule": "aperiam",
   "ExtraInfo": [
     {
-      "Name": "Terry-Rath",
-      "Value": "aut",
+      "Name": "Lemke Inc and Sons",
+      "Value": "rerum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 294
+          "FieldType": "System.Int32",
+          "FieldLength": 743
         }
       }
     },
     {
-      "Name": "Terry-Rath",
-      "Value": "aut",
+      "Name": "Lemke Inc and Sons",
+      "Value": "rerum",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 294
+          "FieldType": "System.Int32",
+          "FieldLength": 743
         }
       }
     }
   ],
-  "RawExtraInfo": "enim",
-  "ExtraField1": "dolore",
-  "ExtraField2": "nam",
-  "ExtraField3": "est",
-  "ExtraField4": "et",
-  "ExtraField5": "voluptatem",
-  "InStock": 310.26599999999996,
+  "RawExtraInfo": "iusto",
+  "ExtraField1": "reiciendis",
+  "ExtraField2": "velit",
+  "ExtraField3": "dignissimos",
+  "ExtraField4": "consequuntur",
+  "ExtraField5": "itaque",
+  "InStock": 7719.0419999999995,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 621
+      "FieldType": "System.Int32",
+      "FieldLength": 388
     }
   }
 }

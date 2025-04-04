@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -83,31 +83,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 253,
-  "Name": "Howe Group",
-  "Rank": 38,
-  "Tooltip": "dicta",
-  "Icon": "ut",
-  "DefaultTicketStatus": 136,
+  "TicketTypeId": 12,
+  "Name": "Feil-Hermiston",
+  "Rank": 549,
+  "Tooltip": "odit",
+  "Icon": "aspernatur",
+  "DefaultTicketStatus": 333,
   "TicketStatuses": [
-    471,
-    412
+    643,
+    932
   ],
-  "DefaultTicketPriority": 151,
+  "DefaultTicketPriority": 925,
   "TicketPriorities": [
-    138,
-    149
+    176,
+    120
   ],
-  "ReplyTemplate": 988,
-  "IsExternalVisible": false,
-  "IsDefault": true,
+  "ReplyTemplate": 362,
+  "IsExternalVisible": true,
+  "IsDefault": false,
   "ShowInNew": true,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    666,
-    568
+    108,
+    276
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
@@ -115,8 +115,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldType": "System.String",
+      "FieldLength": 510
     }
   }
 }

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/List/GetInstalledLanguages
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageInfoId": 225,
-    "LCID": 653,
-    "EnglishName": "Walter Group",
-    "NativeName": "Eichmann-Stanton",
-    "ThreeLetterISOLanguageName": "Kulas LLC",
-    "TwoLetterISOLanguageName": "Hermann, Swaniawski and Stark",
-    "IsBuiltIn": true,
+    "LanguageInfoId": 865,
+    "LCID": 309,
+    "EnglishName": "Yundt, Price and Marks",
+    "NativeName": "Lockman-Cummerata",
+    "ThreeLetterISOLanguageName": "Kertzmann, Wunsch and O'Conner",
+    "TwoLetterISOLanguageName": "Adams-Kerluke",
+    "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 570
+        "FieldLength": 932
       }
     }
   }

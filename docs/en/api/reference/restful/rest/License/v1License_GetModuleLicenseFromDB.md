@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Stoltenberg Group",
-  "ModuleName": "Mertz-Kilback",
-  "ModuleDescription": "Upgradable 4th generation algorithm",
-  "ModuleTooltip": "sed",
-  "ModuleVersion": "repudiandae",
+  "OwnerName": "Huels-O'Kon",
+  "ModuleName": "Robel Inc and Sons",
+  "ModuleDescription": "Persevering web-enabled neural-net",
+  "ModuleTooltip": "ea",
+  "ModuleVersion": "asperiores",
   "LicenseType": "SatelliteLicense",
-  "Unrestricted": true,
+  "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 536,
-  "ExtraFlags": 795,
-  "ExtraInfo": "praesentium",
-  "SortOrder": 497,
-  "IsHidden": false,
-  "PrerequisiteModuleName": "Torp, Waters and Hills",
-  "Signature": "nesciunt"
+  "NumberOfLicenses": 649,
+  "ExtraFlags": 827,
+  "ExtraInfo": "ea",
+  "SortOrder": 263,
+  "IsHidden": true,
+  "PrerequisiteModuleName": "Zulauf-Hamill",
+  "Signature": "qui"
 }
 ```

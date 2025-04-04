@@ -102,13 +102,13 @@ OK
 POST /api/v1/Agents/Sale/GetSalesByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2008-11-21T14:28:22.3678792+01:00",
-  "ToDate": "2010-07-10T14:28:22.3678792+02:00",
-  "AmountLimit": 988,
+  "FromDate": "2003-04-05T13:14:01.1274981+02:00",
+  "ToDate": "2023-01-25T13:14:01.1274981+01:00",
+  "AmountLimit": 977,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Lang Group",
-    "SaleDate": "2005-03-28T14:28:22.3678792+02:00",
-    "SaleId": 352,
-    "Probability": 336,
-    "Title": "exercitationem",
-    "Amount": 1059.292,
-    "Currency": "ipsam",
-    "ProjectName": "Bahringer, Pagac and Stamm",
-    "AssociateFullName": "Francis Mosciski",
-    "Description": "Phased foreground project",
+    "ContactName": "Bahringer, Harris and Ward",
+    "SaleDate": "2012-01-12T13:14:01.1274981+01:00",
+    "SaleId": 726,
+    "Probability": 747,
+    "Title": "nesciunt",
+    "Amount": 11006.608,
+    "Currency": "dignissimos",
+    "ProjectName": "Dach-Romaguera",
+    "AssociateFullName": "Dr. Hal Greenholt",
+    "Description": "Stand-alone holistic capacity",
     "Status": "Lost",
-    "WeightedAmount": 2776.7239999999997,
-    "ProjectId": 236,
-    "EarningPercent": 2927.156,
-    "Earning": 17036.424,
-    "ContactId": 386,
-    "AssociateId": 887,
-    "PersonId": 382,
-    "SaleTypeId": 141,
-    "SaleTypeName": "Emard Inc and Sons",
-    "PersonFullName": "Mrs. Alysha Harris Sr.",
+    "WeightedAmount": 19571.829999999998,
+    "ProjectId": 129,
+    "EarningPercent": 28785.789999999997,
+    "Earning": 23128.92,
+    "ContactId": 525,
+    "AssociateId": 841,
+    "PersonId": 525,
+    "SaleTypeId": 193,
+    "SaleTypeName": "Dibbert, Ryan and Romaguera",
+    "PersonFullName": "Avis Stanton",
     "Completed": "Completed",
-    "ActiveErpLinks": 336,
-    "NextDueDate": "2002-04-09T14:28:22.3678792+02:00",
-    "Number": "1024972",
+    "ActiveErpLinks": 993,
+    "NextDueDate": "2007-03-26T13:14:01.1274981+02:00",
+    "Number": "1296432",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 65
+        "FieldLength": 739
       }
     }
   }

@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 237,
-  "Name": "Yundt-Kuvalis",
-  "Tooltip": "aut",
-  "Deleted": false,
-  "Rank": 240,
+  "Id": 398,
+  "Name": "Lubowitz Inc and Sons",
+  "Tooltip": "ut",
+  "Deleted": true,
+  "Rank": 469,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "iste",
-  "InUseByUserDefinedFields": true
+  "ListType": "maiores",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 704,
-  "Name": "Stokes-Hamill",
-  "Tooltip": "natus",
+  "Id": 379,
+  "Name": "Bednar LLC",
+  "Tooltip": "quo",
   "Deleted": false,
-  "Rank": 507,
+  "Rank": 458,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 732
+      "FieldType": "System.Int32",
+      "FieldLength": 196
     }
   }
 }

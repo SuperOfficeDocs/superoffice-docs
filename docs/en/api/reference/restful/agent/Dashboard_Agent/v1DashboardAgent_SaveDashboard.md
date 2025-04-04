@@ -71,26 +71,26 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 113,
-  "AssociateId": 843,
-  "Caption": "unde",
+  "DashboardId": 376,
+  "AssociateId": 364,
+  "Caption": "dolores",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 551,
-      "Caption": "nesciunt",
-      "Description": "Multi-tiered multimedia complexity",
-      "ChartName": "Bode LLC",
+      "DashboardTileId": 478,
+      "Caption": "omnis",
+      "Description": "Sharable coherent standardization",
+      "ChartName": "Fritsch-Beier",
       "ChartId": "et",
-      "IsDefault": false,
-      "AssociateId": 300,
-      "GroupId": 315,
-      "SelectionId": 161,
-      "Config": "aut",
+      "IsDefault": true,
+      "AssociateId": 728,
+      "GroupId": 826,
+      "SelectionId": 217,
+      "Config": "natus",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -113,22 +113,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 166,
-  "AssociateId": 926,
-  "Caption": "excepturi",
+  "DashboardId": 301,
+  "AssociateId": 392,
+  "Caption": "quod",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 316,
-      "Caption": "adipisci",
-      "Description": "Profound modular challenge",
-      "ChartName": "McGlynn, Swaniawski and Bednar",
-      "ChartId": "saepe",
+      "DashboardTileId": 55,
+      "Caption": "repellendus",
+      "Description": "Balanced motivating leverage",
+      "ChartName": "Renner-Halvorson",
+      "ChartId": "sit",
       "IsDefault": true,
-      "AssociateId": 202,
-      "GroupId": 943,
-      "SelectionId": 985,
-      "Config": "dolore",
+      "AssociateId": 794,
+      "GroupId": 183,
+      "SelectionId": 225,
+      "Config": "id",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -143,8 +143,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 158
+          "FieldType": "System.Int32",
+          "FieldLength": 270
         }
       }
     }
@@ -153,8 +153,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   }
 }

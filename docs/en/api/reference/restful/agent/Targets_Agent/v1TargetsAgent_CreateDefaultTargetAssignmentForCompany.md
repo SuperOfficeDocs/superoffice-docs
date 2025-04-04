@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompany
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -83,24 +83,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 774,
+  "TargetAssignmentInfoId": 991,
   "Values": [
-    72,
-    862
+    927,
+    262
   ],
-  "Locked": true,
+  "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 281,
-  "DimensionListItemDisplayName": "Walsh, Koss and Schaefer",
+  "DimensionListItem": 521,
+  "DimensionListItemDisplayName": "Heidenreich, Pfeffer and Quigley",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 501
+      "FieldType": "System.String",
+      "FieldLength": 356
     }
   }
 }

@@ -85,10 +85,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 914,
+  "QuoteVersionId": 196,
   "Address": null,
   "AddressType": "ContactPostalAddress",
-  "CountryId": 752
+  "CountryId": 402
 }
 ```
 
@@ -99,41 +99,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 27287.737999999998,
-  "Wgs84Longitude": 6061.156,
+  "Wgs84Latitude": 15262.58,
+  "Wgs84Longitude": 29312.302,
   "LocalizedAddress": [
     [
       {
-        "Name": "Beatty-Huel",
-        "Value": "enim",
-        "Tooltip": "quibusdam",
-        "Label": "ut",
-        "ValueLength": 309,
-        "AddressType": "rerum",
+        "Name": "Kessler-Schmeler",
+        "Value": "sed",
+        "Tooltip": "aut",
+        "Label": "error",
+        "ValueLength": 891,
+        "AddressType": "commodi",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 172
+            "FieldLength": 431
           }
         }
       }
     ],
     [
       {
-        "Name": "Carroll-Kunze",
-        "Value": "occaecati",
-        "Tooltip": "quia",
-        "Label": "aut",
-        "ValueLength": 269,
-        "AddressType": "autem",
+        "Name": "Runolfsson, Bins and West",
+        "Value": "consequatur",
+        "Tooltip": "sed",
+        "Label": "qui",
+        "ValueLength": 24,
+        "AddressType": "consequatur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 499
+            "FieldLength": 149
           }
         }
       }
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "eum",
+  "Formatted": "reprehenderit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 842
+      "FieldType": "System.String",
+      "FieldLength": 579
     }
   }
 }

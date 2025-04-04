@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 726,
-  "Name": "Baumbach Inc and Sons",
-  "Tooltip": "officia",
-  "Deleted": true,
-  "UdListDefinitionId": 617,
-  "Rank": 300,
+  "Id": 104,
+  "Name": "Bode, Rempel and Trantow",
+  "Tooltip": "earum",
+  "Deleted": false,
+  "UdListDefinitionId": 469,
+  "Rank": 854,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldType": "System.String",
+      "FieldLength": 125
     }
   }
 }

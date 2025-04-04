@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/RejectTransfer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 473,
-  "TopicId": 730,
+  "ChatSessionId": 733,
+  "TopicId": 637,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sed",
-  "CustomerHost": "suscipit",
-  "CustomerName": "Corwin-Sipes",
-  "CustomerEmail": "consuelo@wuckertkuphal.us",
-  "CustomerPhone": "(799)731-2409",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Leuschke LLC",
+  "CustomerAlias": "nihil",
+  "CustomerHost": "officia",
+  "CustomerName": "Feest-Sawayn",
+  "CustomerEmail": "bulah@kirlin.com",
+  "CustomerPhone": "1-115-892-6675 x6929",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Yundt Inc and Sons",
   "Status": "Closed",
-  "FirstMessage": "accusamus",
-  "LastMessage": "illum",
-  "WhenRequested": "2009-05-19T14:28:26.7583268+02:00",
-  "WhenStarted": "2006-12-16T14:28:26.7583268+01:00",
-  "WhenEnded": "2018-07-13T14:28:26.7583268+02:00",
-  "WhenIdle": "2019-06-07T14:28:26.7583268+02:00",
-  "WhenFetched": "2011-05-19T14:28:26.7583268+02:00",
-  "SessionKey": "ut",
-  "InitialQueuePos": 584,
-  "AlertLevel": 881,
-  "Rank": 563,
+  "FirstMessage": "fuga",
+  "LastMessage": "incidunt",
+  "WhenRequested": "2005-10-14T13:14:08.4303675+02:00",
+  "WhenStarted": "2010-06-07T13:14:08.4303675+02:00",
+  "WhenEnded": "1998-09-26T13:14:08.4303675+02:00",
+  "WhenIdle": "2004-01-22T13:14:08.4303675+01:00",
+  "WhenFetched": "2024-10-04T13:14:08.4303675+02:00",
+  "SessionKey": "vitae",
+  "InitialQueuePos": 208,
+  "AlertLevel": 3,
+  "Rank": 871,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 243,
+  "ChatbotIsActive": true,
+  "Rating": 13,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldType": "System.Int32",
+      "FieldLength": 62
     }
   }
 }

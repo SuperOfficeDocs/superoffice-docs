@@ -97,16 +97,16 @@ HTTP/1.1 200 RoleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 30,
-  "Name": "Parisian-Rippin",
-  "Tooltip": "est",
+  "RoleId": 249,
+  "Name": "Will-Goodwin",
+  "Tooltip": "reiciendis",
   "RoleType": "Anonymous",
-  "Deleted": 590,
-  "Rank": 312,
-  "Created": "2022-08-16T14:28:27.0708141+02:00",
-  "UseCategories": 302,
+  "Deleted": 953,
+  "Rank": 424,
+  "Created": "2004-04-29T13:14:08.9461361+02:00",
+  "UseCategories": 355,
   "CreatedBy": null,
-  "Updated": "2006-05-31T14:28:27.0864524+02:00",
+  "Updated": "2009-01-22T13:14:08.9461361+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -114,7 +114,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 264
+      "FieldLength": 189
     }
   },
   "_Links": {

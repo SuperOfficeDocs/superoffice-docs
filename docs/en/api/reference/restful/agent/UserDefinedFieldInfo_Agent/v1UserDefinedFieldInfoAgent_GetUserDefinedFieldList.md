@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 540,
-    "ColumnId": 667,
-    "FieldDefault": "consequuntur",
-    "FieldHeight": 826,
-    "FieldLabel": "voluptatem",
-    "FieldLeft": 641,
-    "FieldTop": 888,
+    "UDefFieldId": 734,
+    "ColumnId": 835,
+    "FieldDefault": "nisi",
+    "FieldHeight": 879,
+    "FieldLabel": "quas",
+    "FieldLeft": 171,
+    "FieldTop": 429,
     "FieldType": "Checkbox",
-    "FieldWidth": 522,
-    "FormatMask": "et",
+    "FieldWidth": 373,
+    "FormatMask": "sed",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 946,
-    "LabelLeft": 700,
-    "LabelTop": 910,
-    "LabelWidth": 211,
-    "LastVersionId": 851,
-    "ListTableId": 671,
-    "IsMandatory": true,
+    "IsIndexed": false,
+    "LabelHeight": 688,
+    "LabelLeft": 109,
+    "LabelTop": 379,
+    "LabelWidth": 347,
+    "LastVersionId": 627,
+    "ListTableId": 618,
+    "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 278,
-    "ProgId": "eos",
+    "Page1LineNo": 71,
+    "ProgId": "non",
     "IsReadOnly": false,
-    "ShortLabel": "iure",
-    "TabOrder": 544,
-    "TextLength": 942,
-    "Tooltip": "maiores",
-    "UdefIdentity": 8,
-    "UDListDefinitionId": 155,
+    "ShortLabel": "et",
+    "TabOrder": 611,
+    "TextLength": 9,
+    "Tooltip": "eius",
+    "UdefIdentity": 399,
+    "UDListDefinitionId": 398,
     "Justification": "Center",
-    "Version": 810,
-    "TemplateVariableName": "Greenfelder Group",
+    "Version": 546,
+    "TemplateVariableName": "Cummerata, Windler and Schiller",
     "HasBeenPublished": false,
-    "MdoListName": "Prosacco, Schuppe and Jast",
+    "MdoListName": "Hansen LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 638
+        "FieldType": "System.String",
+        "FieldLength": 637
       }
     }
   }

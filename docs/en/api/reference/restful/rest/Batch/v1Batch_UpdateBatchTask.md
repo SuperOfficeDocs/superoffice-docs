@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 691,
-  "Name": "Lindgren LLC",
-  "AssociateId": 888,
-  "DetailsTable": 105,
-  "DetailsRecord": 765,
-  "IsSystemTask": true,
+  "Id": 495,
+  "Name": "Kassulke, Heller and Pouros",
+  "AssociateId": 803,
+  "DetailsTable": 726,
+  "DetailsRecord": 758,
+  "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "repudiandae",
-    "ParameterObject2": "sed"
+    "ParameterObject1": "at",
+    "ParameterObject2": "consequuntur"
   },
-  "LastStarted": "2015-09-08T14:28:27.3520534+02:00",
-  "Created": "2004-04-10T14:28:27.3520534+02:00",
-  "StartCount": 10,
-  "DatabaseSerialNumber": "1002328",
-  "Context": "quasi",
-  "Result": "culpa",
+  "LastStarted": "1998-08-19T13:14:09.3841564+02:00",
+  "Created": "2015-10-24T13:14:09.3841564+02:00",
+  "StartCount": 261,
+  "DatabaseSerialNumber": "1483863",
+  "Context": "dolore",
+  "Result": "est",
   "State": "All",
-  "Description": "Devolved uniform contingency",
-  "Response": "sit",
-  "Request": "et",
-  "ProgressDescription": "Business-focused systematic portal",
-  "ProgressPercent": 391,
-  "FileName": "Lueilwitz Inc and Sons",
+  "Description": "Innovative transitional hardware",
+  "Response": "corporis",
+  "Request": "enim",
+  "ProgressDescription": "Programmable regional parallelism",
+  "ProgressPercent": 923,
+  "FileName": "Haley Group",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 124,
-  "Name": "Johnston Group",
-  "AssociateId": 23,
-  "DetailsTable": 664,
-  "DetailsRecord": 141,
+  "Id": 541,
+  "Name": "Sporer, Jacobi and Sauer",
+  "AssociateId": 504,
+  "DetailsTable": 419,
+  "DetailsRecord": 837,
   "IsSystemTask": false,
   "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "et",
-    "ParameterObject2": "voluptas"
+    "ParameterObject1": "tenetur",
+    "ParameterObject2": "veniam"
   },
-  "LastStarted": "2001-10-28T14:28:27.3520534+01:00",
-  "Created": "2011-09-22T14:28:27.3520534+02:00",
-  "StartCount": 178,
-  "DatabaseSerialNumber": "291144",
-  "Context": "dolore",
-  "Result": "et",
+  "LastStarted": "2020-07-08T13:14:09.3841564+02:00",
+  "Created": "2020-03-02T13:14:09.3841564+01:00",
+  "StartCount": 416,
+  "DatabaseSerialNumber": "1177189",
+  "Context": "eveniet",
+  "Result": "molestiae",
   "State": "All",
-  "Description": "User-friendly multi-state focus group",
-  "Response": "error",
-  "Request": "animi",
-  "ProgressDescription": "Front-line stable migration",
-  "ProgressPercent": 874,
-  "FileName": "King-Bernhard",
+  "Description": "Expanded static synergy",
+  "Response": "saepe",
+  "Request": "ab",
+  "ProgressDescription": "Cross-platform well-modulated encoding",
+  "ProgressPercent": 551,
+  "FileName": "Shields-Ortiz",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldLength": 125
     }
   }
 }

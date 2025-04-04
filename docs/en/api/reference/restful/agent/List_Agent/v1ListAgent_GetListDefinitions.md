@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/GetListDefinitions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,22 +98,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 908,
-    "Name": "Weber, Ryan and Terry",
-    "Tooltip": "rerum",
+    "Id": 359,
+    "Name": "Wisoky, Emard and Walker",
+    "Tooltip": "illo",
     "Deleted": false,
-    "Rank": 313,
+    "Rank": 266,
     "IsCustomList": false,
-    "IsMDOList": true,
+    "IsMDOList": false,
     "UseGroupsAndHeadings": false,
-    "ListType": "eius",
+    "ListType": "ea",
     "InUseByUserDefinedFields": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 133
+        "FieldLength": 76
       }
     }
   }

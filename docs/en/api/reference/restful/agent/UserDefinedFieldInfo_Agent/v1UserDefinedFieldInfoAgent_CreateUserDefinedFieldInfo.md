@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/CreateUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 587,
-  "ColumnId": 581,
-  "FieldDefault": "ratione",
-  "FieldHeight": 226,
-  "FieldLabel": "repudiandae",
-  "FieldLeft": 150,
-  "FieldTop": 352,
+  "UDefFieldId": 214,
+  "ColumnId": 731,
+  "FieldDefault": "unde",
+  "FieldHeight": 281,
+  "FieldLabel": "voluptas",
+  "FieldLeft": 595,
+  "FieldTop": 787,
   "FieldType": "Checkbox",
-  "FieldWidth": 811,
-  "FormatMask": "est",
-  "HideLabel": false,
+  "FieldWidth": 714,
+  "FormatMask": "dolorem",
+  "HideLabel": true,
   "IsIndexed": false,
-  "LabelHeight": 783,
-  "LabelLeft": 75,
-  "LabelTop": 138,
-  "LabelWidth": 540,
-  "LastVersionId": 705,
-  "ListTableId": 983,
+  "LabelHeight": 865,
+  "LabelLeft": 904,
+  "LabelTop": 846,
+  "LabelWidth": 721,
+  "LastVersionId": 878,
+  "ListTableId": 139,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 207,
-  "ProgId": "molestiae",
-  "IsReadOnly": false,
-  "ShortLabel": "dolorem",
-  "TabOrder": 413,
-  "TextLength": 470,
-  "Tooltip": "atque",
-  "UdefIdentity": 326,
-  "UDListDefinitionId": 734,
+  "Page1LineNo": 836,
+  "ProgId": "esse",
+  "IsReadOnly": true,
+  "ShortLabel": "voluptates",
+  "TabOrder": 554,
+  "TextLength": 304,
+  "Tooltip": "sit",
+  "UdefIdentity": 795,
+  "UDListDefinitionId": 861,
   "Justification": "Center",
-  "Version": 847,
-  "TemplateVariableName": "Cassin, Hackett and Schmeler",
+  "Version": 701,
+  "TemplateVariableName": "Schneider Group",
   "HasBeenPublished": false,
-  "MdoListName": "Green-McCullough",
+  "MdoListName": "Schaden, Senger and Krajcik",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 440
+      "FieldType": "System.Int32",
+      "FieldLength": 343
     }
   }
 }

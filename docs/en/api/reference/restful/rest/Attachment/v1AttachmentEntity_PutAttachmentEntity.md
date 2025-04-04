@@ -93,17 +93,17 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 637,
-  "Name": "Armstrong-Blanda",
-  "ContentType": "consequatur",
-  "AttSize": 20,
+  "AttachmentId": 727,
+  "Name": "Reynolds-Marvin",
+  "ContentType": "dolor",
+  "AttSize": 559,
   "InlineImage": false,
-  "ContentId": "consequuntur",
-  "AuthKey": "perspiciatis",
+  "ContentId": "quis",
+  "AuthKey": "totam",
   "IsSafeFileExtension": false
 }
 ```
@@ -115,25 +115,25 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 426,
-  "Name": "Wehner Group",
-  "ContentType": "aliquam",
-  "AttSize": 299,
+  "AttachmentId": 211,
+  "Name": "Heaney-Stanton",
+  "ContentType": "omnis",
+  "AttSize": 9,
   "InlineImage": false,
-  "ContentId": "corporis",
-  "AuthKey": "fugit",
+  "ContentId": "vel",
+  "AuthKey": "ut",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldLength": 430
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

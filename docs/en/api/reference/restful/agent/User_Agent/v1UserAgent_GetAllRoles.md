@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllRoles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 322,
-    "Name": "Kuhlman LLC",
-    "ToolTip": "Dolorem et.",
+    "Id": 669,
+    "Name": "Terry Inc and Sons",
+    "ToolTip": "Quibusdam molestiae saepe accusantium nisi.",
     "Deleted": false,
-    "Rank": 237,
-    "Type": "expedita",
-    "ColorBlock": 930,
-    "IconHint": "perferendis",
+    "Rank": 291,
+    "Type": "amet",
+    "ColorBlock": 242,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2013-10-14T14:28:22.6959913+02:00",
+    "LastChanged": "2010-03-06T13:14:01.6913203+01:00",
     "ChildItems": [
       {
-        "Id": 245,
-        "Name": "Kihn-Sporer",
-        "ToolTip": "Dolorem sint id esse omnis.",
+        "Id": 800,
+        "Name": "Glover LLC",
+        "ToolTip": "Corrupti laudantium tempore voluptas quo.",
         "Deleted": false,
-        "Rank": 430,
-        "Type": "perferendis",
-        "ColorBlock": 757,
-        "IconHint": "enim",
+        "Rank": 543,
+        "Type": "laborum",
+        "ColorBlock": 751,
+        "IconHint": "quasi",
         "Selected": false,
-        "LastChanged": "2015-07-22T14:28:22.6959913+02:00",
+        "LastChanged": "2016-02-14T13:14:01.6913203+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "alias",
+        "ExtraInfo": "tenetur",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Stephany Hagenes",
+        "FullName": "Kacie Harber",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 368
+            "FieldType": "System.String",
+            "FieldLength": 641
           }
         }
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "et",
+    "ExtraInfo": "non",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Amely Olson",
+    "FullName": "Joshua McKenzie",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 45
+        "FieldLength": 629
       }
     }
   }

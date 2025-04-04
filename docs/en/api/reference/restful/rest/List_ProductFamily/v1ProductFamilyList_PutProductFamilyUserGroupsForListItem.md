@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 639,
-    "Name": "Pacocha Group",
-    "ToolTip": "Nam qui pariatur perferendis.",
+    "Id": 595,
+    "Name": "Leffler, Murphy and Wehner",
+    "ToolTip": "Minus ut sapiente praesentium nisi laborum.",
     "Deleted": false,
-    "Rank": 934,
-    "Type": "quia",
-    "ColorBlock": 337,
-    "IconHint": "quisquam",
-    "Selected": false,
-    "LastChanged": "1999-12-03T14:28:27.6332907+01:00",
+    "Rank": 600,
+    "Type": "esse",
+    "ColorBlock": 310,
+    "IconHint": "totam",
+    "Selected": true,
+    "LastChanged": "2006-05-24T13:14:09.9160322+02:00",
     "ChildItems": [
       {
-        "Id": 734,
-        "Name": "Upton, Effertz and Oberbrunner",
-        "ToolTip": "Architecto assumenda aliquam voluptates quia.",
+        "Id": 72,
+        "Name": "Ward, Ruecker and Mante",
+        "ToolTip": "Molestias voluptates perferendis sunt id rem.",
         "Deleted": false,
-        "Rank": 948,
-        "Type": "omnis",
-        "ColorBlock": 239,
-        "IconHint": "et",
+        "Rank": 235,
+        "Type": "magni",
+        "ColorBlock": 808,
+        "IconHint": "quo",
         "Selected": false,
-        "LastChanged": "2008-05-14T14:28:27.6332907+02:00",
+        "LastChanged": "2014-06-12T13:14:09.9160322+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quos",
-        "Hidden": true,
-        "FullName": "Eloisa Reichel"
+        "ExtraInfo": "modi",
+        "StyleHint": "earum",
+        "Hidden": false,
+        "FullName": "Annette Bahringer"
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "ut",
+    "ExtraInfo": "sint",
+    "StyleHint": "temporibus",
     "Hidden": false,
-    "FullName": "Carlotta Parisian"
+    "FullName": "Jessica Carroll"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 679,
-    "Name": "Harber-Wisoky",
-    "ToolTip": "Repellendus et.",
-    "Deleted": false,
-    "Rank": 415,
-    "Type": "numquam",
-    "ColorBlock": 336,
-    "IconHint": "vitae",
+    "Id": 434,
+    "Name": "Skiles, Kerluke and Kunze",
+    "ToolTip": "Et architecto autem.",
+    "Deleted": true,
+    "Rank": 942,
+    "Type": "sunt",
+    "ColorBlock": 968,
+    "IconHint": "corporis",
     "Selected": false,
-    "LastChanged": "2004-07-01T14:28:27.6332907+02:00",
+    "LastChanged": "2001-08-29T13:14:09.9160322+02:00",
     "ChildItems": [
       {
-        "Id": 732,
-        "Name": "Mosciski-Grady",
-        "ToolTip": "Molestias qui enim.",
+        "Id": 961,
+        "Name": "Spencer-Jakubowski",
+        "ToolTip": "Sunt consequuntur neque repellendus quis enim deserunt quo.",
         "Deleted": false,
-        "Rank": 497,
-        "Type": "velit",
-        "ColorBlock": 937,
-        "IconHint": "eligendi",
-        "Selected": false,
-        "LastChanged": "1999-03-16T14:28:27.6332907+01:00",
+        "Rank": 976,
+        "Type": "sed",
+        "ColorBlock": 938,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2009-03-06T13:14:09.9160322+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorum",
-        "StyleHint": "dolorem",
+        "ExtraInfo": "ut",
+        "StyleHint": "veniam",
         "Hidden": false,
-        "FullName": "Alayna White",
+        "FullName": "Dr. Rubie Zoey Ward",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 146
+            "FieldLength": 262
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "alias",
-    "Hidden": false,
-    "FullName": "Dr. Wilfrid Rutherford II",
+    "ExtraInfo": "error",
+    "StyleHint": "voluptates",
+    "Hidden": true,
+    "FullName": "Ms. Abigail Bethel Rowe Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 700
+        "FieldLength": 728
       }
     }
   }

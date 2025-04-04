@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=est
+GET /api/v1/List/ConsentPurpose/MDOItems?query=dicta
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 93,
-    "Name": "Kassulke, Emmerich and Rohan",
-    "ToolTip": "Libero quis modi reprehenderit mollitia.",
-    "Deleted": false,
-    "Rank": 565,
-    "Type": "rerum",
+    "Id": 626,
+    "Name": "Herman LLC",
+    "ToolTip": "Consequatur et aut quidem.",
+    "Deleted": true,
+    "Rank": 522,
+    "Type": "reiciendis",
     "ChildItems": [
       {
-        "Id": 90,
-        "Name": "Morar Inc and Sons",
-        "ToolTip": "Consequuntur magnam.",
-        "Deleted": true,
-        "Rank": 450,
-        "Type": "illum",
+        "Id": 593,
+        "Name": "Ondricka, Towne and Runolfsson",
+        "ToolTip": "Molestias velit maiores architecto quia.",
+        "Deleted": false,
+        "Rank": 780,
+        "Type": "quibusdam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquid",
-        "ColorBlock": 249,
-        "ExtraInfo": "eum",
-        "StyleHint": "optio",
-        "FullName": "Flossie Kreiger",
+        "IconHint": "repellendus",
+        "ColorBlock": 663,
+        "ExtraInfo": "dolor",
+        "StyleHint": "enim",
+        "FullName": "Ms. Yessenia Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 456
+            "FieldType": "System.Int32",
+            "FieldLength": 522
           }
         }
       }
     ],
-    "IconHint": "nobis",
-    "ColorBlock": 403,
-    "ExtraInfo": "voluptates",
-    "StyleHint": "qui",
-    "FullName": "Jenifer Rippin",
+    "IconHint": "omnis",
+    "ColorBlock": 241,
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "eius",
+    "FullName": "Stacey McClure",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 16
+        "FieldLength": 465
       }
     }
   }

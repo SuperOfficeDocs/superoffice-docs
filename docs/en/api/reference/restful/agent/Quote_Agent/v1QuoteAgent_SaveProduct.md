@@ -133,51 +133,51 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 572,
-  "ERPProductKey": "molestiae",
-  "ERPPriceListKey": "et",
-  "Name": "Brown-Tremblay",
-  "Description": "Secured disintermediate monitoring",
-  "Code": "et",
-  "PriceUnit": "quis",
-  "QuantityUnit": "ut",
-  "IsSubscription": false,
-  "SubscriptionUnit": "laboriosam",
-  "DefaultSubscriptionQuantity": 19546.757999999998,
-  "ItemNumber": "1239425",
+  "ProductId": 1001,
+  "ERPProductKey": "omnis",
+  "ERPPriceListKey": "corporis",
+  "Name": "Smitham Group",
+  "Description": "Universal optimal functionalities",
+  "Code": "eius",
+  "PriceUnit": "voluptates",
+  "QuantityUnit": "et",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quia",
+  "DefaultSubscriptionQuantity": 8596.562,
+  "ItemNumber": "1414015",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "et",
-  "ProductTypeKey": "animi",
-  "VAT": 28061.836,
-  "VATInfo": "laboriosam",
-  "UnitCost": 1391.4959999999999,
-  "UnitMinimumPrice": 24156.872,
-  "UnitListPrice": 18904.288,
-  "InAssortment": false,
-  "Supplier": "minus",
-  "SupplierCode": "ut",
-  "Rights": "quia",
-  "Rule": "voluptatem",
+  "ProductFamilyKey": "iusto",
+  "ProductTypeKey": "voluptatem",
+  "VAT": 24216.417999999998,
+  "VATInfo": "ducimus",
+  "UnitCost": 17327.886,
+  "UnitMinimumPrice": 11379.554,
+  "UnitListPrice": 2033.966,
+  "InAssortment": true,
+  "Supplier": "id",
+  "SupplierCode": "eum",
+  "Rights": "eaque",
+  "Rule": "hic",
   "ExtraInfo": [
     {
-      "Name": "Bosco, Bogan and Jacobs",
-      "Value": "vel",
+      "Name": "Swaniawski, Langworth and Wiza",
+      "Value": "eligendi",
       "Type": "Image"
     },
     {
-      "Name": "Bosco, Bogan and Jacobs",
-      "Value": "vel",
+      "Name": "Swaniawski, Langworth and Wiza",
+      "Value": "eligendi",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "nihil",
-  "ExtraField1": "cumque",
-  "ExtraField2": "quod",
-  "ExtraField3": "modi",
-  "ExtraField4": "quidem",
-  "ExtraField5": "atque",
-  "InStock": 30719.468
+  "RawExtraInfo": "asperiores",
+  "ExtraField1": "omnis",
+  "ExtraField2": "adipisci",
+  "ExtraField3": "in",
+  "ExtraField4": "impedit",
+  "ExtraField5": "quae",
+  "InStock": 3741.996
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 394,
-  "ERPProductKey": "molestias",
-  "ERPPriceListKey": "voluptas",
-  "Name": "Kreiger, Auer and Stanton",
-  "Description": "Pre-emptive multi-state encryption",
-  "Code": "illum",
-  "PriceUnit": "ut",
-  "QuantityUnit": "nemo",
-  "IsSubscription": true,
-  "SubscriptionUnit": "ut",
-  "DefaultSubscriptionQuantity": 6205.32,
-  "ItemNumber": "1095413",
+  "ProductId": 966,
+  "ERPProductKey": "veritatis",
+  "ERPPriceListKey": "molestiae",
+  "Name": "DuBuque Group",
+  "Description": "Synergized grid-enabled website",
+  "Code": "in",
+  "PriceUnit": "ad",
+  "QuantityUnit": "error",
+  "IsSubscription": false,
+  "SubscriptionUnit": "voluptatem",
+  "DefaultSubscriptionQuantity": 8336.44,
+  "ItemNumber": "414088",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "beatae",
-  "ProductTypeKey": "aut",
-  "VAT": 22451.976,
-  "VATInfo": "autem",
-  "UnitCost": 2547.942,
-  "UnitMinimumPrice": 22799.85,
-  "UnitListPrice": 20634.255999999998,
-  "InAssortment": false,
-  "Supplier": "doloribus",
-  "SupplierCode": "nemo",
-  "Rights": "voluptas",
-  "Rule": "sequi",
+  "ProductFamilyKey": "ratione",
+  "ProductTypeKey": "et",
+  "VAT": 20067.002,
+  "VATInfo": "vitae",
+  "UnitCost": 17666.358,
+  "UnitMinimumPrice": 13031.172,
+  "UnitListPrice": 11567.594,
+  "InAssortment": true,
+  "Supplier": "quo",
+  "SupplierCode": "quia",
+  "Rights": "occaecati",
+  "Rule": "quod",
   "ExtraInfo": [
     {
-      "Name": "Erdman Group",
-      "Value": "nemo",
+      "Name": "Homenick Group",
+      "Value": "molestias",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 947
         }
       }
     },
     {
-      "Name": "Erdman Group",
-      "Value": "nemo",
+      "Name": "Homenick Group",
+      "Value": "molestias",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 694
+          "FieldLength": 947
         }
       }
     }
   ],
-  "RawExtraInfo": "et",
-  "ExtraField1": "totam",
-  "ExtraField2": "voluptates",
-  "ExtraField3": "ut",
-  "ExtraField4": "et",
-  "ExtraField5": "dicta",
-  "InStock": 30249.368,
+  "RawExtraInfo": "eveniet",
+  "ExtraField1": "tempora",
+  "ExtraField2": "quas",
+  "ExtraField3": "dicta",
+  "ExtraField4": "laborum",
+  "ExtraField5": "et",
+  "InStock": 30431.14,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 68
+      "FieldType": "System.Int32",
+      "FieldLength": 629
     }
   }
 }

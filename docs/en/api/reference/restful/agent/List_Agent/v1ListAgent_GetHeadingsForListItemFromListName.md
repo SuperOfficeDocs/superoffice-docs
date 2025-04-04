@@ -89,12 +89,12 @@ OK
 POST /api/v1/Agents/List/GetHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Crooks Group",
-  "ListItemId": 930,
+  "UdListDefinitionName": "Brakus, Goodwin and Schmitt",
+  "ListItemId": 781,
   "ShowDeleted": false
 }
 ```
@@ -107,56 +107,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 300,
-    "Name": "Hessel-Waelchi",
-    "ToolTip": "Aspernatur impedit voluptatibus ut.",
-    "Deleted": false,
-    "Rank": 76,
-    "Type": "aut",
-    "ColorBlock": 59,
-    "IconHint": "provident",
-    "Selected": false,
-    "LastChanged": "1999-04-02T14:28:22.0553915+02:00",
+    "Id": 274,
+    "Name": "Connelly Inc and Sons",
+    "ToolTip": "Modi assumenda ducimus aliquid minima magni quisquam molestiae.",
+    "Deleted": true,
+    "Rank": 480,
+    "Type": "at",
+    "ColorBlock": 206,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2016-04-17T13:14:00.5949987+02:00",
     "ChildItems": [
       {
-        "Id": 692,
-        "Name": "Collins-Ziemann",
-        "ToolTip": "Omnis consequatur.",
+        "Id": 748,
+        "Name": "Ziemann Inc and Sons",
+        "ToolTip": "Nulla non.",
         "Deleted": false,
-        "Rank": 305,
-        "Type": "ullam",
-        "ColorBlock": 719,
-        "IconHint": "dolores",
-        "Selected": false,
-        "LastChanged": "2018-10-10T14:28:22.0553915+02:00",
+        "Rank": 474,
+        "Type": "vel",
+        "ColorBlock": 730,
+        "IconHint": "distinctio",
+        "Selected": true,
+        "LastChanged": "2009-04-16T13:14:00.5949987+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "quis",
-        "Hidden": false,
-        "FullName": "Ellie Farrell",
+        "ExtraInfo": "aut",
+        "StyleHint": "perspiciatis",
+        "Hidden": true,
+        "FullName": "Alayna Dicki",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 568
+            "FieldLength": 191
           }
         }
       }
     ],
-    "ExtraInfo": "nostrum",
-    "StyleHint": "repellat",
+    "ExtraInfo": "facere",
+    "StyleHint": "ut",
     "Hidden": false,
-    "FullName": "Mr. Brendan Ullrich",
+    "FullName": "Shaniya Goldner I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 364
+        "FieldType": "System.Int32",
+        "FieldLength": 537
       }
     }
   }

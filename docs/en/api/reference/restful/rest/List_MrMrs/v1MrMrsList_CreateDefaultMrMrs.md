@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/MrMrs/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 976,
-  "Name": "Doyle Group",
-  "Tooltip": "totam",
+  "Id": 118,
+  "Name": "O'Conner-Daugherty",
+  "Tooltip": "debitis",
   "Deleted": false,
-  "UdListDefinitionId": 167,
-  "Rank": 280,
+  "UdListDefinitionId": 889,
+  "Rank": 351,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldType": "System.String",
+      "FieldLength": 10
     }
   }
 }

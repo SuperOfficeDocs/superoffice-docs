@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Tillman, DuBuque and Wisoky",
+  "Name": "Monahan LLC",
   "ForceFlatList": false,
-  "AdditionalInfo": "enim",
+  "AdditionalInfo": "vel",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 491,
-    "Name": "Kilback-Rodriguez",
-    "ToolTip": "Et corrupti voluptatem recusandae magni non.",
+    "Id": 659,
+    "Name": "Mann LLC",
+    "ToolTip": "Quis ipsam distinctio fugit voluptas.",
     "Deleted": false,
-    "Rank": 105,
-    "Type": "deleniti",
-    "ColorBlock": 880,
-    "IconHint": "iure",
+    "Rank": 733,
+    "Type": "ipsam",
+    "ColorBlock": 27,
+    "IconHint": "minima",
     "Selected": true,
-    "LastChanged": "2023-12-06T14:28:22.1178891+01:00",
+    "LastChanged": "2003-09-04T13:14:00.7043711+02:00",
     "ChildItems": [
       {
-        "Id": 611,
-        "Name": "Jacobs-Bins",
-        "ToolTip": "Necessitatibus vel rerum.",
+        "Id": 647,
+        "Name": "Pfeffer-Nader",
+        "ToolTip": "Alias reprehenderit quia maiores recusandae.",
         "Deleted": false,
-        "Rank": 584,
-        "Type": "consequatur",
-        "ColorBlock": 543,
-        "IconHint": "id",
-        "Selected": true,
-        "LastChanged": "2023-06-29T14:28:22.1178891+02:00",
+        "Rank": 130,
+        "Type": "nam",
+        "ColorBlock": 935,
+        "IconHint": "beatae",
+        "Selected": false,
+        "LastChanged": "2021-12-28T13:14:00.7043711+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "asperiores",
-        "StyleHint": "similique",
-        "Hidden": false,
-        "FullName": "Telly Brakus III",
+        "ExtraInfo": "quaerat",
+        "StyleHint": "possimus",
+        "Hidden": true,
+        "FullName": "Ward Barrows",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 694
+            "FieldLength": 930
           }
         }
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "qui",
+    "ExtraInfo": "mollitia",
+    "StyleHint": "laboriosam",
     "Hidden": false,
-    "FullName": "Clyde Strosin",
+    "FullName": "Prof. Richard Taryn Bogan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldType": "System.String",
+        "FieldLength": 296
       }
     }
   }

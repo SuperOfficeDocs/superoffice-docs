@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromEjUserId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjUserId": 490
+  "EjUserId": 801
 }
 ```
 
@@ -115,14 +115,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 71,
-    "Name": "Hagenes LLC",
-    "Rank": 737,
-    "Tooltip": "earum",
+    "AssociateId": 497,
+    "Name": "Rowe LLC",
+    "Rank": 155,
+    "Tooltip": "dicta",
     "LicenseOwners": [
       {
-        "Name": "Rice, Doyle and Rogahn",
-        "Description": "Reactive background Graphical User Interface",
+        "Name": "Grady-Ebert",
+        "Description": "Quality-focused 3rd generation service-desk",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -135,14 +135,14 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 522
+            "FieldType": "System.String",
+            "FieldLength": 173
           }
         }
       },
       {
-        "Name": "Rice, Doyle and Rogahn",
-        "Description": "Reactive background Graphical User Interface",
+        "Name": "Grady-Ebert",
+        "Description": "Quality-focused 3rd generation service-desk",
         "RestrictedModuleLicenses": [
           {},
           {}
@@ -155,8 +155,8 @@ Content-Type: application/json; charset=utf-8
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 522
+            "FieldType": "System.String",
+            "FieldLength": 173
           }
         }
       }
@@ -165,110 +165,110 @@ Content-Type: application/json; charset=utf-8
     "UserGroup": null,
     "OtherGroups": [
       {
-        "Value": "tempora",
-        "Tooltip": "sed",
-        "Id": 17,
-        "Rank": 526,
-        "Deleted": true,
+        "Value": "quas",
+        "Tooltip": "et",
+        "Id": 538,
+        "Rank": 512,
+        "Deleted": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 874
+            "FieldLength": 961
           }
         }
       }
     ],
     "Person": null,
-    "Deleted": true,
-    "Lastlogin": "2017-10-04T14:28:22.7272398+02:00",
-    "Lastlogout": "2002-03-01T14:28:22.7272398+01:00",
-    "EjUserId": 678,
-    "RequestSignature": "illum",
+    "Deleted": false,
+    "Lastlogin": "2010-10-21T13:14:01.753824+02:00",
+    "Lastlogout": "1998-07-17T13:14:01.753824+02:00",
+    "EjUserId": 359,
+    "RequestSignature": "nihil",
     "Type": "AnonymousAssociate",
-    "IsPersonRetired": false,
+    "IsPersonRetired": true,
     "IsOnTravel": false,
     "Credentials": [
       {
         "Type": null,
-        "Value": "quod",
-        "DisplayValue": "soluta",
+        "Value": "totam",
+        "DisplayValue": "reprehenderit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 16
+            "FieldLength": 830
           }
         }
       },
       {
         "Type": null,
-        "Value": "quod",
-        "DisplayValue": "soluta",
+        "Value": "totam",
+        "DisplayValue": "reprehenderit",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 16
+            "FieldLength": 830
           }
         }
       }
     ],
-    "UserName": "Homenick-Torphy",
+    "UserName": "Armstrong, Kirlin and McGlynn",
     "TicketCategories": [
       {
-        "Id": 296,
-        "Name": "Willms-Pagac",
-        "ToolTip": "Repudiandae facere voluptas nobis.",
-        "Deleted": false,
-        "Rank": 939,
-        "Type": "et",
+        "Id": 544,
+        "Name": "Fay Inc and Sons",
+        "ToolTip": "Non rem et.",
+        "Deleted": true,
+        "Rank": 961,
+        "Type": "in",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "deleniti",
-        "ColorBlock": 634,
-        "ExtraInfo": "sint",
-        "StyleHint": "quidem",
-        "FullName": "Prof. Tyrese Gleichner Sr.",
-        "TableRight": null,
-        "FieldProperties": {
-          "fieldName": {
-            "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 854
-          }
-        }
-      }
-    ],
-    "NickName": "Zieme, Price and Mraz",
-    "WaitingForApproval": false,
-    "ExtraFields": {
-      "ExtraFields1": "voluptatibus",
-      "ExtraFields2": "quia"
-    },
-    "CustomFields": {
-      "CustomFields1": "excepturi",
-      "CustomFields2": "possimus"
-    },
-    "PostSaveCommands": [
-      {
-        "Name": "Streich Group",
-        "DisplayName": "Roob, Hilpert and Veum",
-        "Description": "Function-based mobile knowledge user",
-        "ToolTip": "Beatae culpa nam aspernatur neque quis aut dolorem.",
-        "Actions": "Implicit",
-        "ActionData": "sed",
+        "IconHint": "laudantium",
+        "ColorBlock": 27,
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "numquam",
+        "FullName": "Rickie Ankunding",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 330
+            "FieldLength": 897
+          }
+        }
+      }
+    ],
+    "NickName": "Conroy Group",
+    "WaitingForApproval": false,
+    "ExtraFields": {
+      "ExtraFields1": "necessitatibus",
+      "ExtraFields2": "voluptatem"
+    },
+    "CustomFields": {
+      "CustomFields1": "sequi",
+      "CustomFields2": "odio"
+    },
+    "PostSaveCommands": [
+      {
+        "Name": "Hermann-Miller",
+        "DisplayName": "Bergnaum, Walter and Morissette",
+        "Description": "Intuitive bottom-line function",
+        "ToolTip": "Nesciunt ipsam.",
+        "Actions": "Implicit",
+        "ActionData": "est",
+        "TableRight": null,
+        "FieldProperties": {
+          "fieldName": {
+            "FieldRight": null,
+            "FieldType": "System.Int32",
+            "FieldLength": 449
           }
         }
       }
@@ -278,7 +278,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 463
+        "FieldLength": 335
       }
     }
   }

@@ -36,7 +36,7 @@ Calls the User agent service GetUser.
 
 ```http
 GET /api/v1/User/{id}?$select=name,department,category/id
-GET /api/v1/User/{id}?fk=True
+GET /api/v1/User/{id}?fk=False
 ```
 
 
@@ -102,7 +102,7 @@ User found.
 GET /api/v1/User/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -112,14 +112,14 @@ HTTP/1.1 200 User found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 638,
-  "Name": "Flatley Inc and Sons",
-  "Rank": 357,
-  "Tooltip": "et",
+  "AssociateId": 464,
+  "Name": "Rempel Group",
+  "Rank": 282,
+  "Tooltip": "nihil",
   "LicenseOwners": [
     {
-      "Name": "Rippin LLC",
-      "Description": "Implemented tertiary throughput",
+      "Name": "Rutherford Inc and Sons",
+      "Description": "Optimized optimizing moratorium",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -133,13 +133,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 886
+          "FieldLength": 666
         }
       }
     },
     {
-      "Name": "Rippin LLC",
-      "Description": "Implemented tertiary throughput",
+      "Name": "Rutherford Inc and Sons",
+      "Description": "Optimized optimizing moratorium",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -153,7 +153,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 886
+          "FieldLength": 666
         }
       }
     }
@@ -162,110 +162,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "impedit",
-      "Tooltip": "tempore",
-      "Id": 434,
-      "Rank": 504,
-      "Deleted": true,
+      "Value": "sit",
+      "Tooltip": "et",
+      "Id": 469,
+      "Rank": 228,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 768
+          "FieldLength": 446
         }
       }
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2005-10-17T14:28:27.4145503+02:00",
-  "Lastlogout": "2000-09-08T14:28:27.4145503+02:00",
-  "EjUserId": 563,
-  "RequestSignature": "voluptate",
+  "Lastlogin": "2009-11-16T13:14:09.5092557+01:00",
+  "Lastlogout": "2005-09-12T13:14:09.5092557+02:00",
+  "EjUserId": 17,
+  "RequestSignature": "quam",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": false,
+  "IsPersonRetired": true,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "ratione",
-      "DisplayValue": "non",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 584
-        }
-      }
-    },
-    {
-      "Type": null,
-      "Value": "ratione",
-      "DisplayValue": "non",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 584
-        }
-      }
-    }
-  ],
-  "UserName": "Larkin, Parisian and Emard",
-  "TicketCategories": [
-    {
-      "Id": 459,
-      "Name": "Smitham, Nicolas and Mueller",
-      "ToolTip": "Facere numquam explicabo voluptatibus adipisci.",
-      "Deleted": false,
-      "Rank": 336,
-      "Type": "sit",
-      "ChildItems": [
-        {},
-        {}
-      ],
-      "IconHint": "quia",
-      "ColorBlock": 420,
-      "ExtraInfo": "rerum",
-      "StyleHint": "et",
-      "FullName": "Amaya Pfeffer",
+      "Value": "qui",
+      "DisplayValue": "odit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 331
+          "FieldLength": 662
+        }
+      }
+    },
+    {
+      "Type": null,
+      "Value": "qui",
+      "DisplayValue": "odit",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 662
         }
       }
     }
   ],
-  "NickName": "Bogan LLC",
-  "WaitingForApproval": false,
-  "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "veniam"
-  },
-  "CustomFields": {
-    "CustomFields1": "quis",
-    "CustomFields2": "omnis"
-  },
-  "PostSaveCommands": [
+  "UserName": "Herman Group",
+  "TicketCategories": [
     {
-      "Name": "Powlowski-Jacobson",
-      "DisplayName": "Herman Group",
-      "Description": "Down-sized tertiary circuit",
-      "ToolTip": "Recusandae voluptatem odio laborum.",
-      "Actions": "Implicit",
-      "ActionData": "cupiditate",
+      "Id": 284,
+      "Name": "Hickle-Schowalter",
+      "ToolTip": "Sit velit cumque ut quia qui qui.",
+      "Deleted": true,
+      "Rank": 246,
+      "Type": "aut",
+      "ChildItems": [
+        {},
+        {}
+      ],
+      "IconHint": "placeat",
+      "ColorBlock": 337,
+      "ExtraInfo": "et",
+      "StyleHint": "velit",
+      "FullName": "Roberta Leola Cruickshank III",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 920
+          "FieldLength": 473
+        }
+      }
+    }
+  ],
+  "NickName": "Klein Inc and Sons",
+  "WaitingForApproval": false,
+  "ExtraFields": {
+    "ExtraFields1": "id",
+    "ExtraFields2": "voluptas"
+  },
+  "CustomFields": {
+    "CustomFields1": "amet",
+    "CustomFields2": "beatae"
+  },
+  "PostSaveCommands": [
+    {
+      "Name": "Schroeder-Roberts",
+      "DisplayName": "Haag-Quitzon",
+      "Description": "Operative assymetric neural-net",
+      "ToolTip": "Harum fuga quasi molestias.",
+      "Actions": "Implicit",
+      "ActionData": "omnis",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 911
         }
       }
     }
@@ -275,12 +275,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 129
+      "FieldLength": 257
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 657,
-  "Name": "McClure, Bogan and Prohaska",
-  "CurrencyId": 864,
-  "EnglishName": "Orn, Gusikowski and Bashirian",
+  "CountryId": 396,
+  "Name": "O'Reilly Inc and Sons",
+  "CurrencyId": 562,
+  "EnglishName": "Mosciski, Schumm and Pacocha",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Inverse value-added focus group",
-  "OrgNrText": "886038",
-  "InterAreaPrefix": "sed",
-  "DialInPrefix": "qui",
-  "ZipPrefix": "maiores",
-  "DomainName": "Sauer, Eichmann and Crona",
-  "AddressLayoutId": 692,
-  "DomesticAddressLayoutId": 787,
-  "ForeignAddressLayoutId": 199,
-  "Rank": 315,
-  "Tooltip": "reprehenderit",
+  "ImageDescription": "Horizontal multi-state data-warehouse",
+  "OrgNrText": "1548085",
+  "InterAreaPrefix": "corporis",
+  "DialInPrefix": "nobis",
+  "ZipPrefix": "eum",
+  "DomainName": "Torphy-Schneider",
+  "AddressLayoutId": 723,
+  "DomesticAddressLayoutId": 343,
+  "ForeignAddressLayoutId": 537,
+  "Rank": 485,
+  "Tooltip": "fugiat",
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 65
+      "FieldType": "System.String",
+      "FieldLength": 103
     }
   }
 }

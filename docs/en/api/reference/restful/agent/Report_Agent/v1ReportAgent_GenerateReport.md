@@ -73,26 +73,26 @@ OK
 POST /api/v1/Agents/Report/GenerateReport
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 69,
-  "LabelLayoutId": 747,
-  "Filename": "aut",
-  "Language": "est",
-  "FileType": "dolorem",
+  "ReportId": 936,
+  "LabelLayoutId": 310,
+  "Filename": "corrupti",
+  "Language": "vitae",
+  "FileType": "nihil",
   "Restrictions": [
     {
-      "Name": "Hayes LLC",
-      "Operator": "ut",
+      "Name": "Batz-Goldner",
+      "Operator": "autem",
       "Values": [
-        "unde",
-        "natus"
+        "excepturi",
+        "corrupti"
       ],
       "DisplayValues": [
-        "error",
-        "quasi"
+        "voluptates",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -100,9 +100,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 685,
+      "InterParenthesis": 717,
       "InterOperator": "And",
-      "UniqueHash": 349
+      "UniqueHash": 438
     }
   ]
 }
@@ -114,5 +114,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"cupiditate"
+"officia"
 ```

@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
-GET /api/v1/List/DeliveryTerm/MDOItems?query=quis
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
+GET /api/v1/List/DeliveryTerm/MDOItems?query=voluptates
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/DeliveryTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 819,
-    "Name": "Prosacco, Crona and Renner",
-    "ToolTip": "Est eaque recusandae a et vero dolor.",
-    "Deleted": true,
-    "Rank": 232,
-    "Type": "quaerat",
+    "Id": 981,
+    "Name": "Franecki, Gusikowski and Blick",
+    "ToolTip": "Et consequatur soluta ea autem.",
+    "Deleted": false,
+    "Rank": 346,
+    "Type": "sed",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Ruecker-Gaylord",
-        "ToolTip": "Cum dignissimos laudantium accusamus numquam maxime vitae explicabo.",
+        "Id": 732,
+        "Name": "Sawayn Group",
+        "ToolTip": "Aut pariatur.",
         "Deleted": true,
-        "Rank": 81,
-        "Type": "ut",
+        "Rank": 476,
+        "Type": "fuga",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "explicabo",
-        "ColorBlock": 295,
-        "ExtraInfo": "illo",
-        "StyleHint": "sit",
-        "FullName": "Miss Wilfred Schneider",
+        "IconHint": "officia",
+        "ColorBlock": 305,
+        "ExtraInfo": "sed",
+        "StyleHint": "sequi",
+        "FullName": "Lolita Bode",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 122
+            "FieldLength": 908
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 783,
-    "ExtraInfo": "rerum",
-    "StyleHint": "beatae",
-    "FullName": "Electa Zboncak Sr.",
+    "IconHint": "fugiat",
+    "ColorBlock": 431,
+    "ExtraInfo": "repellendus",
+    "StyleHint": "enim",
+    "FullName": "Ms. Efrain Trey Ratke II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldType": "System.String",
+        "FieldLength": 239
       }
     }
   }

@@ -26,7 +26,7 @@ Gets a DocumentEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=578
+POST /api/v1/Agents/Document/GetDocumentEntity?documentEntityId=764
 POST /api/v1/Agents/Document/GetDocumentEntity?$select=name,department,category/id
 ```
 
@@ -110,88 +110,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 266,
+  "DocumentId": 115,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "perspiciatis",
-  "Header": "necessitatibus",
-  "Name": "Brown, Quigley and Oberbrunner",
-  "OurRef": "ut",
-  "YourRef": "quam",
-  "CreatedDate": "2019-04-26T14:28:21.8366505+02:00",
-  "UpdatedDate": "2014-05-11T14:28:21.8366505+02:00",
-  "Description": "Public-key upward-trending middleware",
+  "Attention": "dolor",
+  "Header": "velit",
+  "Name": "Hessel, Konopelski and Smith",
+  "OurRef": "praesentium",
+  "YourRef": "qui",
+  "CreatedDate": "2010-03-22T13:14:00.1569702+01:00",
+  "UpdatedDate": "2017-06-25T13:14:00.1569702+02:00",
+  "Description": "Networked real-time internet solution",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-08-26T14:28:21.8366505+02:00",
+  "Date": "2015-03-06T13:14:00.1569702+01:00",
   "ExternalRef": "nihil",
   "Completed": "Completed",
-  "ActiveLinks": 94,
+  "ActiveLinks": 839,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Schimmel-Murray",
-      "Id": 326,
-      "Description": "Total directional access",
-      "ExtraInfo": "eos",
-      "LinkId": 3,
+      "EntityName": "Morar, Volkman and Koelpin",
+      "Id": 467,
+      "Description": "Persevering intermediate concept",
+      "ExtraInfo": "sapiente",
+      "LinkId": 669,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 4
+          "FieldType": "System.Int32",
+          "FieldLength": 179
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 644,
-  "Snum": 685,
+  "SuggestedDocumentId": 346,
+  "Snum": 625,
   "UserDefinedFields": {
-    "SuperOffice:1": "Vaughn Schaefer",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Karine Jerde",
+    "SuperOffice:2": "Laurel McLaughlin V"
   },
   "ExtraFields": {
-    "ExtraFields1": "aut",
-    "ExtraFields2": "ipsum"
+    "ExtraFields1": "molestiae",
+    "ExtraFields2": "modi"
   },
   "CustomFields": {
-    "CustomFields1": "numquam",
-    "CustomFields2": "quo"
+    "CustomFields1": "veniam",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "2004-08-02T14:28:21.8366505+02:00",
-  "PublishTo": "1998-05-14T14:28:21.8366505+02:00",
-  "PublishFrom": "2015-12-08T14:28:21.8366505+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2020-02-24T13:14:00.1569702+01:00",
+  "PublishTo": "2004-03-12T13:14:00.1569702+01:00",
+  "PublishFrom": "2010-03-01T13:14:00.1569702+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 220,
+      "VisibleId": 196,
       "Visibility": "All",
-      "DisplayValue": "hic",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 16
         }
       }
     },
     {
-      "VisibleId": 220,
+      "VisibleId": 196,
       "Visibility": "All",
-      "DisplayValue": "hic",
+      "DisplayValue": "eum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 242
+          "FieldLength": 16
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 446
+      "FieldType": "System.Int32",
+      "FieldLength": 627
     }
   }
 }

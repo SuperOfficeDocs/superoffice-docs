@@ -106,7 +106,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -122,46 +122,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 196,
-    "ColumnId": 379,
-    "FieldDefault": "sit",
-    "FieldHeight": 507,
-    "FieldLabel": "nesciunt",
-    "FieldLeft": 274,
-    "FieldTop": 538,
+    "UDefFieldId": 963,
+    "ColumnId": 435,
+    "FieldDefault": "recusandae",
+    "FieldHeight": 779,
+    "FieldLabel": "rerum",
+    "FieldLeft": 31,
+    "FieldTop": 546,
     "FieldType": "Checkbox",
-    "FieldWidth": 839,
-    "FormatMask": "et",
+    "FieldWidth": 516,
+    "FormatMask": "laboriosam",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 572,
-    "LabelLeft": 890,
-    "LabelTop": 951,
-    "LabelWidth": 266,
-    "LastVersionId": 573,
-    "ListTableId": 116,
+    "IsIndexed": false,
+    "LabelHeight": 272,
+    "LabelLeft": 956,
+    "LabelTop": 225,
+    "LabelWidth": 815,
+    "LastVersionId": 776,
+    "ListTableId": 265,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 964,
-    "ProgId": "quaerat",
+    "Page1LineNo": 5,
+    "ProgId": "error",
     "IsReadOnly": true,
-    "ShortLabel": "optio",
-    "TabOrder": 327,
-    "TextLength": 372,
-    "Tooltip": "quas",
-    "UdefIdentity": 167,
-    "UDListDefinitionId": 394,
+    "ShortLabel": "earum",
+    "TabOrder": 93,
+    "TextLength": 500,
+    "Tooltip": "odit",
+    "UdefIdentity": 89,
+    "UDListDefinitionId": 85,
     "Justification": "Center",
-    "Version": 711,
-    "TemplateVariableName": "Stehr-Reichert",
-    "HasBeenPublished": false,
-    "MdoListName": "O'Kon-Smitham",
+    "Version": 41,
+    "TemplateVariableName": "Rosenbaum-Cruickshank",
+    "HasBeenPublished": true,
+    "MdoListName": "Simonis-Stiedemann",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 783
+        "FieldLength": 482
       }
     }
   }

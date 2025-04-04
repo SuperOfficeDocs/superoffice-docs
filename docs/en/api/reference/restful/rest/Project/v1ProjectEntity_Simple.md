@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 549,
-  "Name": "Daniel LLC",
-  "Description": "Optimized incremental frame",
+  "ProjectId": 15,
+  "Name": "Strosin, Rutherford and Waters",
+  "Description": "Object-based maximized challenge",
   "URL": "http://www.example.com/",
-  "Type": "odio",
-  "AssociateId": 51,
-  "AssociateFullName": "Rebeka Waelchi",
-  "TypeId": 239,
-  "Updated": "1999-02-13T14:28:27.0551896+01:00",
-  "StatusId": 885,
-  "Status": "doloremque",
-  "TextId": 774,
-  "PublishTo": "2013-08-30T14:28:27.0551896+02:00",
-  "PublishFrom": "1998-09-13T14:28:27.0551896+02:00",
-  "IsPublished": false,
+  "Type": "nostrum",
+  "AssociateId": 242,
+  "AssociateFullName": "Miss Kris Kali White",
+  "TypeId": 594,
+  "Updated": "1999-10-26T13:14:08.93051+02:00",
+  "StatusId": 724,
+  "Status": "dolorem",
+  "TextId": 330,
+  "PublishTo": "2011-02-03T13:14:08.93051+01:00",
+  "PublishFrom": "2006-02-07T13:14:08.93051+01:00",
+  "IsPublished": true,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "969563",
-  "ActiveErpLinks": 973,
+  "ProjectNumber": "649736",
+  "ActiveErpLinks": 397,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 226
+      "FieldLength": 944
     }
   }
 }

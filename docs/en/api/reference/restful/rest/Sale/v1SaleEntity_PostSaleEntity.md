@@ -162,7 +162,7 @@ OK
 POST /api/v1/Sale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "libero",
+  "SaleText": "illo",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -181,90 +181,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2021-03-08T14:28:27.1958257+01:00",
-  "Amount": 21264.19,
-  "SaleId": 359,
-  "Earning": 1347.62,
-  "EarningPercent": 23887.347999999998,
-  "Heading": "voluptatum",
-  "Number": "760382",
-  "Probability": 294,
-  "CreatedDate": "2022-09-16T14:28:27.1958257+02:00",
-  "UpdatedDate": "2013-03-12T14:28:27.1958257+01:00",
+  "Saledate": "2013-06-01T13:14:09.0867626+02:00",
+  "Amount": 11194.648,
+  "SaleId": 488,
+  "Earning": 8565.222,
+  "EarningPercent": 19180.079999999998,
+  "Heading": "amet",
+  "Number": "1202632",
+  "Probability": 902,
+  "CreatedDate": "2021-04-15T13:14:09.0867626+02:00",
+  "UpdatedDate": "2011-04-26T13:14:09.0867626+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 207,
+  "ActiveLinks": 687,
   "Links": [
     {
-      "EntityName": "Murphy, Pacocha and Spinka",
-      "Id": 370,
-      "Description": "Open-source contextually-based paradigm",
-      "ExtraInfo": "modi",
-      "LinkId": 502
+      "EntityName": "Kihn-Mayert",
+      "Id": 9,
+      "Description": "Extended fresh-thinking intranet",
+      "ExtraInfo": "enim",
+      "LinkId": 103
     },
     {
-      "EntityName": "Murphy, Pacocha and Spinka",
-      "Id": 370,
-      "Description": "Open-source contextually-based paradigm",
-      "ExtraInfo": "modi",
-      "LinkId": 502
+      "EntityName": "Kihn-Mayert",
+      "Id": 9,
+      "Description": "Extended fresh-thinking intranet",
+      "ExtraInfo": "enim",
+      "LinkId": 103
     }
   ],
-  "NextDueDate": "2018-11-24T14:28:27.1958257+01:00",
-  "Postit": "unde",
+  "NextDueDate": "2012-10-18T13:14:09.0867626+02:00",
+  "Postit": "voluptatem",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2022-08-08T14:28:27.1958257+02:00",
+  "ReopenDate": "2002-10-22T13:14:09.0867626+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Quigley Group",
-      "Comment": "perspiciatis",
-      "StakeholderRoleId": 919,
-      "CountryId": 760,
-      "PersonId": 58,
-      "EmailDescription": "orpha@danielbrown.name",
-      "EmailId": 858,
-      "EmailAddress": "osvaldo.dibbert@bashirian.uk",
-      "PhoneId": 25,
-      "ContactName": "Torphy Group",
-      "ContactId": 254,
-      "SaleId": 981,
-      "Mrmrs": "quia",
-      "Firstname": "Madilyn",
-      "MiddleName": "Renner, Gottlieb and Renner",
-      "Lastname": "Runolfsson",
-      "SaleStakeholderId": 750,
-      "Rank": 589,
-      "Phone": "1-970-276-5108"
+      "StakeholderRoleName": "Satterfield-Balistreri",
+      "Comment": "id",
+      "StakeholderRoleId": 527,
+      "CountryId": 294,
+      "PersonId": 149,
+      "EmailDescription": "ezra@oreillyrunolfsdottir.biz",
+      "EmailId": 9,
+      "EmailAddress": "edgar@morar.uk",
+      "PhoneId": 906,
+      "ContactName": "Torphy-Langworth",
+      "ContactId": 263,
+      "SaleId": 303,
+      "Mrmrs": "nihil",
+      "Firstname": "Jewell",
+      "MiddleName": "Schuppe-Fahey",
+      "Lastname": "Funk",
+      "SaleStakeholderId": 718,
+      "Rank": 402,
+      "Phone": "(450)174-5348 x766"
     }
   ],
-  "ActiveErpLinks": 771,
+  "ActiveErpLinks": 494,
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "August Blanda"
+    "SuperOffice:1": "1150020862",
+    "SuperOffice:2": "Prof. Reina Lexus Farrell PhD"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptate",
-    "ExtraFields2": "quidem"
+    "ExtraFields1": "impedit",
+    "ExtraFields2": "cupiditate"
   },
   "CustomFields": {
     "CustomFields1": "occaecati",
-    "CustomFields2": "corporis"
+    "CustomFields2": "saepe"
   },
-  "PublishEventDate": "2000-09-04T14:28:27.1958257+02:00",
-  "PublishTo": "2025-02-25T14:28:27.1958257+01:00",
-  "PublishFrom": "1999-11-15T14:28:27.1958257+01:00",
+  "PublishEventDate": "2006-01-07T13:14:09.0867626+01:00",
+  "PublishTo": "2000-08-03T13:14:09.0867626+02:00",
+  "PublishFrom": "2001-01-12T13:14:09.0867626+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 212,
+      "VisibleId": 446,
       "Visibility": "All",
-      "DisplayValue": "iure"
+      "DisplayValue": "neque"
     },
     {
-      "VisibleId": 212,
+      "VisibleId": 446,
       "Visibility": "All",
-      "DisplayValue": "iure"
+      "DisplayValue": "neque"
     }
   ]
 }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "mollitia",
+  "SaleText": "sequi",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -292,113 +292,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2017-03-27T14:28:27.1958257+02:00",
-  "Amount": 12015.756,
-  "SaleId": 981,
-  "Earning": 8333.306,
-  "EarningPercent": 3215.484,
-  "Heading": "est",
-  "Number": "341200",
-  "Probability": 319,
-  "CreatedDate": "2008-08-16T14:28:27.1958257+02:00",
-  "UpdatedDate": "2004-11-18T14:28:27.1958257+01:00",
+  "Saledate": "2015-08-17T13:14:09.0867626+02:00",
+  "Amount": 18205.406,
+  "SaleId": 302,
+  "Earning": 25915.046,
+  "EarningPercent": 8530.748,
+  "Heading": "harum",
+  "Number": "196596",
+  "Probability": 287,
+  "CreatedDate": "2002-01-29T13:14:09.0867626+01:00",
+  "UpdatedDate": "2011-08-10T13:14:09.0867626+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 793,
+  "ActiveLinks": 558,
   "Links": [
     {
-      "EntityName": "Yost, Kassulke and Wuckert",
-      "Id": 88,
-      "Description": "Organized incremental software",
-      "ExtraInfo": "qui",
-      "LinkId": 374,
+      "EntityName": "Gleason, Miller and Bogan",
+      "Id": 876,
+      "Description": "Re-engineered systemic monitoring",
+      "ExtraInfo": "nihil",
+      "LinkId": 71,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 155
+          "FieldLength": 685
         }
       }
     }
   ],
-  "NextDueDate": "2008-06-10T14:28:27.1958257+02:00",
-  "Postit": "id",
+  "NextDueDate": "2005-12-25T13:14:09.0867626+01:00",
+  "Postit": "mollitia",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2018-08-27T14:28:27.1958257+02:00",
+  "ReopenDate": "2004-09-23T13:14:09.0867626+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Upton-Kihn",
-      "Comment": "ut",
-      "StakeholderRoleId": 563,
-      "CountryId": 886,
-      "PersonId": 245,
-      "EmailDescription": "gardner.schowalter@mayer.uk",
-      "EmailId": 589,
-      "EmailAddress": "asa.dietrich@lefflerberge.uk",
-      "PhoneId": 299,
-      "ContactName": "Runolfsdottir Group",
-      "ContactId": 732,
-      "SaleId": 332,
-      "Mrmrs": "et",
-      "Firstname": "Winfield",
-      "MiddleName": "O'Conner Inc and Sons",
-      "Lastname": "Heaney",
-      "SaleStakeholderId": 239,
-      "Rank": 387,
-      "Phone": "1-476-341-7223",
+      "StakeholderRoleName": "Roob-Reynolds",
+      "Comment": "dignissimos",
+      "StakeholderRoleId": 274,
+      "CountryId": 547,
+      "PersonId": 355,
+      "EmailDescription": "alexzander.torphy@romaguera.info",
+      "EmailId": 534,
+      "EmailAddress": "keven@murphy.biz",
+      "PhoneId": 735,
+      "ContactName": "Pouros Inc and Sons",
+      "ContactId": 898,
+      "SaleId": 896,
+      "Mrmrs": "fugiat",
+      "Firstname": "Everardo",
+      "MiddleName": "Kovacek-Marks",
+      "Lastname": "Kemmer",
+      "SaleStakeholderId": 716,
+      "Rank": 168,
+      "Phone": "802-079-4079 x1684",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 233
+          "FieldLength": 965
         }
       }
     }
   ],
-  "ActiveErpLinks": 363,
+  "ActiveErpLinks": 308,
   "UserDefinedFields": {
-    "SuperOffice:1": "Ms. Eulah Emelia Anderson",
-    "SuperOffice:2": "Gus Jewess"
+    "SuperOffice:1": "Buddy Bins",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
     "ExtraFields1": "enim",
-    "ExtraFields2": "nisi"
+    "ExtraFields2": "voluptas"
   },
   "CustomFields": {
-    "CustomFields1": "dicta",
-    "CustomFields2": "dolorum"
+    "CustomFields1": "blanditiis",
+    "CustomFields2": "voluptatem"
   },
-  "PublishEventDate": "1998-04-22T14:28:27.1958257+02:00",
-  "PublishTo": "2015-11-19T14:28:27.1958257+01:00",
-  "PublishFrom": "2014-02-04T14:28:27.1958257+01:00",
+  "PublishEventDate": "2009-11-22T13:14:09.0867626+01:00",
+  "PublishTo": "2007-12-29T13:14:09.0867626+01:00",
+  "PublishFrom": "2015-01-02T13:14:09.0867626+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 645,
+      "VisibleId": 316,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 212
+          "FieldLength": 802
         }
       }
     },
     {
-      "VisibleId": 645,
+      "VisibleId": 316,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 212
+          "FieldLength": 802
         }
       }
     }
@@ -407,8 +407,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 589
+      "FieldType": "System.Int32",
+      "FieldLength": 412
     }
   },
   "_Links": {

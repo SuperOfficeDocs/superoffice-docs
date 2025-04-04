@@ -64,29 +64,29 @@ No Content
 POST /api/v1/Agents/Chat/SaveChatPresence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ChatPresence": [
     {
-      "UserId": 85,
-      "DisplayName": "Schimmel, Swift and O'Hara",
-      "OngoingChats": 117,
-      "Present": false,
+      "UserId": 104,
+      "DisplayName": "Schuppe, Eichmann and Lind",
+      "OngoingChats": 453,
+      "Present": true,
       "ChatTopics": [
-        828,
-        937
+        799,
+        755
       ]
     },
     {
-      "UserId": 85,
-      "DisplayName": "Schimmel, Swift and O'Hara",
-      "OngoingChats": 117,
-      "Present": false,
+      "UserId": 104,
+      "DisplayName": "Schuppe, Eichmann and Lind",
+      "OngoingChats": 453,
+      "Present": true,
       "ChatTopics": [
-        828,
-        937
+        799,
+        755
       ]
     }
   ]

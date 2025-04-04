@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=False
-GET /api/v1/List/Priority/MDOItems?query=libero
+GET /api/v1/List/Priority/MDOItems?flat=True
+GET /api/v1/List/Priority/MDOItems?query=nam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 26,
-    "Name": "Hamill, Dickinson and Funk",
-    "ToolTip": "Ipsam asperiores nostrum voluptate voluptatem aperiam neque consequatur.",
-    "Deleted": false,
-    "Rank": 926,
-    "Type": "qui",
+    "Id": 606,
+    "Name": "Orn-King",
+    "ToolTip": "Quo excepturi incidunt aliquid.",
+    "Deleted": true,
+    "Rank": 889,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 147,
-        "Name": "Stamm Inc and Sons",
-        "ToolTip": "Eos dolore omnis quis impedit voluptatem.",
-        "Deleted": true,
-        "Rank": 364,
-        "Type": "expedita",
+        "Id": 527,
+        "Name": "Bartell LLC",
+        "ToolTip": "Quis ut suscipit.",
+        "Deleted": false,
+        "Rank": 575,
+        "Type": "mollitia",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "odit",
-        "ColorBlock": 652,
-        "ExtraInfo": "in",
-        "StyleHint": "enim",
-        "FullName": "Dr. Delpha Bartoletti",
+        "IconHint": "qui",
+        "ColorBlock": 29,
+        "ExtraInfo": "et",
+        "StyleHint": "ut",
+        "FullName": "Sophia Johns",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 101
+            "FieldLength": 368
           }
         }
       }
     ],
-    "IconHint": "dolorem",
-    "ColorBlock": 32,
-    "ExtraInfo": "id",
-    "StyleHint": "est",
-    "FullName": "Lue Gleichner",
+    "IconHint": "ut",
+    "ColorBlock": 361,
+    "ExtraInfo": "ipsam",
+    "StyleHint": "ut",
+    "FullName": "Josiane Marty Dietrich DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 840
+        "FieldLength": 408
       }
     }
   }

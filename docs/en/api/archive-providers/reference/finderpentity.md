@@ -30,7 +30,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.ErpSync.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FindErpEntity?$select=ErpActorType,ErpActorType,Connected
+GET /api/v1/archive/FindErpEntity?$select=ErpActorType,Connected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 277,
-    "Value": "architecto",
-    "Tooltip": "assumenda",
+    "Id": 224,
+    "Value": "modi",
+    "Tooltip": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldType": "System.String",
+        "FieldLength": 972
       }
     }
   },
   {
-    "Id": 277,
-    "Value": "architecto",
-    "Tooltip": "assumenda",
+    "Id": 224,
+    "Value": "modi",
+    "Tooltip": "aspernatur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 23
+        "FieldType": "System.String",
+        "FieldLength": 972
       }
     }
   }

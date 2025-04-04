@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetPublishedDocumentsByDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 84,
+  "PersonId": 240,
   "IncludeProjectDocuments": false,
-  "StartTime": "2017-10-14T14:28:21.7116556+02:00",
-  "EndTime": "2004-04-26T14:28:21.7116556+02:00",
-  "Count": 912
+  "StartTime": "2002-06-28T13:14:00.0788404+02:00",
+  "EndTime": "2021-03-11T13:14:00.0788404+01:00",
+  "Count": 433
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 777,
-    "Attention": "ipsam",
-    "Header": "consequatur",
-    "Name": "Fahey-Jenkins",
-    "OurRef": "officia",
-    "YourRef": "beatae",
-    "Description": "Digitized dedicated capacity",
-    "DocumentTemplate": "officia",
-    "IsPublished": false,
-    "PersonId": 491,
-    "PersonFullName": "Dr. Lucius Littel",
-    "AssociateFullName": "Sonny Trantow",
-    "ContactId": 604,
-    "ContactName": "Koelpin, Maggio and Hilll",
-    "ProjectId": 309,
-    "ProjectName": "Bergstrom, Botsford and Fahey",
-    "AssociateId": 477,
-    "Snum": 435,
-    "SaleId": 646,
-    "SaleName": "Cremin-Trantow",
+    "DocumentId": 160,
+    "Attention": "illum",
+    "Header": "soluta",
+    "Name": "Dibbert, Sauer and Torphy",
+    "OurRef": "laboriosam",
+    "YourRef": "dolorem",
+    "Description": "Synchronised logistical core",
+    "DocumentTemplate": "est",
+    "IsPublished": true,
+    "PersonId": 539,
+    "PersonFullName": "Mr. Lily Deckow",
+    "AssociateFullName": "Emilie Hermiston",
+    "ContactId": 753,
+    "ContactName": "Fritsch LLC",
+    "ProjectId": 240,
+    "ProjectName": "Abbott, Rosenbaum and Wolff",
+    "AssociateId": 783,
+    "Snum": 1002,
+    "SaleId": 82,
+    "SaleName": "Grimes-Windler",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 847
+        "FieldType": "System.String",
+        "FieldLength": 314
       }
     }
   }

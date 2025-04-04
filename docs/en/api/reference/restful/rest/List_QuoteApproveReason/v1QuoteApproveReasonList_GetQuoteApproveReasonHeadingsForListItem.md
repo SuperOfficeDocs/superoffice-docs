@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Name": "Lemke, Douglas and Pouros",
-    "ToolTip": "Assumenda sed.",
-    "Deleted": false,
-    "Rank": 239,
-    "Type": "unde",
-    "ColorBlock": 757,
-    "IconHint": "eum",
+    "Id": 246,
+    "Name": "McKenzie-Dietrich",
+    "ToolTip": "Eos optio blanditiis quae animi natus.",
+    "Deleted": true,
+    "Rank": 742,
+    "Type": "non",
+    "ColorBlock": 816,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2023-11-12T14:28:27.6645394+01:00",
+    "LastChanged": "1999-03-13T13:14:09.9785358+01:00",
     "ChildItems": [
       {
-        "Id": 172,
-        "Name": "Zieme Inc and Sons",
-        "ToolTip": "Atque accusantium odit et ratione ut est.",
+        "Id": 877,
+        "Name": "Lowe, Olson and Kemmer",
+        "ToolTip": "Eum impedit.",
         "Deleted": false,
-        "Rank": 378,
-        "Type": "provident",
-        "ColorBlock": 248,
-        "IconHint": "blanditiis",
+        "Rank": 974,
+        "Type": "ut",
+        "ColorBlock": 795,
+        "IconHint": "sapiente",
         "Selected": false,
-        "LastChanged": "2020-09-21T14:28:27.6645394+02:00",
+        "LastChanged": "2005-01-10T13:14:09.9785358+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "placeat",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "unde",
+        "StyleHint": "debitis",
         "Hidden": false,
-        "FullName": "Miss Ole Smitham",
+        "FullName": "Jordon Cremin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 828
+            "FieldLength": 613
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Guiseppe Klein",
+    "ExtraInfo": "ex",
+    "StyleHint": "voluptas",
+    "Hidden": true,
+    "FullName": "Alysha Houston Crooks II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 209
+        "FieldLength": 813
       }
     }
   }

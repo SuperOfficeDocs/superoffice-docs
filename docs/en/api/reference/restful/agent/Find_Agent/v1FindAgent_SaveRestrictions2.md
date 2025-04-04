@@ -71,10 +71,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ratione",
-  "ProviderName": "Altenwerth LLC",
-  "StorageKey": "pariatur",
-  "Restrictions": "quod"
+  "StorageType": "similique",
+  "ProviderName": "Cartwright, Gottlieb and Herman",
+  "StorageKey": "nisi",
+  "Restrictions": "aut"
 }
 ```
 

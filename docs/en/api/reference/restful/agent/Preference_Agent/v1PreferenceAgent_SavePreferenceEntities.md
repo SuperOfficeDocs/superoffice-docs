@@ -72,19 +72,19 @@ Content-Type: application/json; charset=utf-8
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "deleniti",
+      "RawValue": "quia",
       "Specification": null,
-      "DisplayValue": "cumque",
-      "DisplayTooltip": "aliquid",
+      "DisplayValue": "odit",
+      "DisplayTooltip": "et",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 330,
-      "PrefDescId": 218,
-      "TableName": "Paucek-Watsica",
-      "UserPreferenceId": 743
+      "TargetId": 194,
+      "PrefDescId": 295,
+      "TableName": "O'Connell Group",
+      "UserPreferenceId": 837
     }
   ],
-  "RemoveLowerLevels": false
+  "RemoveLowerLevels": true
 }
 ```
 

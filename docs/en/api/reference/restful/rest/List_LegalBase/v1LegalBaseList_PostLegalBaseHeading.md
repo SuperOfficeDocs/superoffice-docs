@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 495,
-  "Name": "Hintz LLC",
-  "Tooltip": "incidunt",
+  "HeadingId": 440,
+  "Name": "Muller-Abshire",
+  "Tooltip": "provident",
   "Deleted": false,
-  "Rank": 655,
-  "UdListDefinitionId": 693
+  "Rank": 161,
+  "UdListDefinitionId": 81
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 708,
-  "Name": "McGlynn-Schinner",
-  "Tooltip": "eius",
-  "Deleted": true,
-  "Rank": 909,
-  "UdListDefinitionId": 639,
+  "HeadingId": 427,
+  "Name": "Rogahn-Reichert",
+  "Tooltip": "amet",
+  "Deleted": false,
+  "Rank": 421,
+  "UdListDefinitionId": 104,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 635
+      "FieldType": "System.Int32",
+      "FieldLength": 163
     }
   }
 }

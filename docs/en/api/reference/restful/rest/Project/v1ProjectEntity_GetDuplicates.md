@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Kuhic Inc and Sons",
-    "SoPrimaryKey": 533,
-    "EntryName": "Wisozk LLC",
-    "EntryIdentifier": "dolores",
-    "RuleDisplayName": "Maggio LLC",
+    "RuleName": "Stokes LLC",
+    "SoPrimaryKey": 514,
+    "EntryName": "Jacobi-Stroman",
+    "EntryIdentifier": "beatae",
+    "RuleDisplayName": "Champlin-Shanahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 583
+        "FieldType": "System.Int32",
+        "FieldLength": 161
       }
     }
   }

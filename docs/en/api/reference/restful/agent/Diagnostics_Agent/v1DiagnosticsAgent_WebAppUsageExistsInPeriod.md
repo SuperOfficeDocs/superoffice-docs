@@ -76,9 +76,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 709,
-  "ViewState": "molestiae",
-  "FromDate": "2023-10-16T14:28:21.7116556+02:00"
+  "AssociateId": 927,
+  "ViewState": "rerum",
+  "FromDate": "2016-03-15T13:14:00.0788404+01:00"
 }
 ```
 

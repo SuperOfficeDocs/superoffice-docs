@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 904,
-  "Name": "Jakubowski, Kris and Shanahan",
-  "Tooltip": "dolorem",
+  "Id": 3,
+  "Name": "Ernser LLC",
+  "Tooltip": "nobis",
   "Deleted": false,
-  "UdListDefinitionId": 39,
-  "Rank": 824,
+  "UdListDefinitionId": 202,
+  "Rank": 887,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 20
+      "FieldLength": 580
     }
   }
 }
