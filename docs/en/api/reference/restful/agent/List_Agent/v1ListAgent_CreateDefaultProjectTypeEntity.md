@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,41 +76,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 962,
-  "Name": "Buckridge-Haley",
-  "Tooltip": "eveniet",
-  "Rank": 234,
+  "ProjTypeId": 537,
+  "Name": "Christiansen Group",
+  "Tooltip": "et",
+  "Rank": 510,
   "DurationUnit": "Century",
-  "ProjectDuration": 154,
-  "Deleted": true,
-  "HasGuide": true,
+  "ProjectDuration": 433,
+  "Deleted": false,
+  "HasGuide": false,
   "IsAutoAdvance": false,
   "Stages": [
     {
-      "Id": 85,
-      "Name": "Homenick, Klocko and Abernathy",
-      "ToolTip": "Consequatur dolorem sequi impedit quaerat et praesentium.",
+      "Id": 61,
+      "Name": "Turcotte, Lynch and Hartmann",
+      "ToolTip": "Porro in atque expedita quasi animi corrupti quia.",
       "Deleted": true,
-      "Rank": 100,
-      "Type": "quis",
-      "ColorBlock": 722,
-      "IconHint": "qui",
+      "Rank": 737,
+      "Type": "repudiandae",
+      "ColorBlock": 346,
+      "IconHint": "sit",
       "Selected": false,
-      "LastChanged": "2015-12-15T14:28:22.0866401+01:00",
+      "LastChanged": "2022-07-20T13:14:00.6575024+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eaque",
-      "StyleHint": "libero",
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "iste",
       "Hidden": false,
-      "FullName": "Kamren Marks",
+      "FullName": "Howard Leannon",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 567
+          "FieldType": "System.String",
+          "FieldLength": 241
         }
       }
     }
@@ -119,8 +119,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 393
+      "FieldType": "System.Int32",
+      "FieldLength": 359
     }
   }
 }

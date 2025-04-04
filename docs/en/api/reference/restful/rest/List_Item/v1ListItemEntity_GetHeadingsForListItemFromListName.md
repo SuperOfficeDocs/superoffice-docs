@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Robel Inc and Sons",
-    "ToolTip": "Aperiam id qui nam iste assumenda corrupti sed.",
-    "Deleted": true,
-    "Rank": 700,
-    "Type": "dolores",
-    "ColorBlock": 639,
-    "IconHint": "similique",
-    "Selected": false,
-    "LastChanged": "2021-02-28T14:28:27.4614236+01:00",
+    "Id": 555,
+    "Name": "McCullough, Kilback and Schroeder",
+    "ToolTip": "Quae provident.",
+    "Deleted": false,
+    "Rank": 220,
+    "Type": "nisi",
+    "ColorBlock": 444,
+    "IconHint": "ratione",
+    "Selected": true,
+    "LastChanged": "2017-03-03T13:14:09.6036167+01:00",
     "ChildItems": [
       {
-        "Id": 371,
-        "Name": "Kuhlman-Runolfsdottir",
-        "ToolTip": "Reiciendis excepturi blanditiis earum aut et eligendi ipsa.",
+        "Id": 511,
+        "Name": "Runolfsson LLC",
+        "ToolTip": "Eveniet id.",
         "Deleted": false,
-        "Rank": 771,
-        "Type": "sed",
-        "ColorBlock": 72,
-        "IconHint": "quia",
+        "Rank": 188,
+        "Type": "non",
+        "ColorBlock": 958,
+        "IconHint": "nam",
         "Selected": false,
-        "LastChanged": "2022-04-29T14:28:27.4614236+02:00",
+        "LastChanged": "2024-12-06T13:14:09.6036167+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "odio",
+        "ExtraInfo": "itaque",
+        "StyleHint": "sit",
         "Hidden": false,
-        "FullName": "Maryam Hodkiewicz",
+        "FullName": "Mrs. Horace Pouros PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 699
+            "FieldLength": 660
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "error",
-    "Hidden": true,
-    "FullName": "Miss Eusebio Brown V",
+    "ExtraInfo": "dolores",
+    "StyleHint": "et",
+    "Hidden": false,
+    "FullName": "Oscar Kilback",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 2
+        "FieldLength": 471
       }
     }
   }

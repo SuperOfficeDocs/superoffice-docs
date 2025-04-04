@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Priority
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 290,
-  "Name": "Ebert Group",
-  "Tooltip": "sed",
-  "Deleted": false,
-  "Rank": 874,
+  "Id": 410,
+  "Name": "Kling-Balistreri",
+  "Tooltip": "nisi",
+  "Deleted": true,
+  "Rank": 86,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "sed",
+  "UseGroupsAndHeadings": true,
+  "ListType": "velit",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 174,
-  "Name": "Dickinson Group",
-  "Tooltip": "atque",
-  "Deleted": false,
-  "Rank": 665,
-  "IsCustomList": false,
+  "Id": 307,
+  "Name": "Hansen LLC",
+  "Tooltip": "sit",
+  "Deleted": true,
+  "Rank": 487,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatem",
-  "InUseByUserDefinedFields": false,
+  "ListType": "aut",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 503
+      "FieldLength": 884
     }
   }
 }

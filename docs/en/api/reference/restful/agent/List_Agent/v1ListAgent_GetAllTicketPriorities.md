@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/List/GetAllTicketPriorities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,60 +116,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 988,
-    "Name": "Hansen-Larkin",
+    "TicketPriorityId": 994,
+    "Name": "Wilkinson, O'Reilly and Walter",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 617,
+    "SortOrder": 25,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 217,
-    "MonStart": "2022-03-30T14:28:22.039767+02:00",
-    "MonStop": "2002-02-18T14:28:22.039767+01:00",
-    "TueStart": "2011-05-08T14:28:22.039767+02:00",
-    "TueStop": "1998-06-18T14:28:22.039767+02:00",
-    "WedStart": "2023-06-04T14:28:22.039767+02:00",
-    "WedStop": "2000-11-24T14:28:22.039767+01:00",
-    "ThuStart": "2017-08-14T14:28:22.039767+02:00",
-    "ThuStop": "2014-02-02T14:28:22.039767+01:00",
-    "FriStart": "2003-08-26T14:28:22.039767+02:00",
-    "FriStop": "2023-01-21T14:28:22.039767+01:00",
-    "SatStart": "2016-01-16T14:28:22.039767+01:00",
-    "SatStop": "2020-02-13T14:28:22.039767+01:00",
-    "SunStart": "2004-08-12T14:28:22.039767+02:00",
-    "SunStop": "2009-05-16T14:28:22.039767+02:00",
+    "Deadline": 539,
+    "MonStart": "2001-04-02T13:14:00.5481129+02:00",
+    "MonStop": "2011-01-06T13:14:00.5481129+01:00",
+    "TueStart": "2008-07-23T13:14:00.5481129+02:00",
+    "TueStop": "2006-05-16T13:14:00.5481129+02:00",
+    "WedStart": "2017-12-28T13:14:00.5481129+01:00",
+    "WedStop": "2008-11-28T13:14:00.5481129+01:00",
+    "ThuStart": "2025-02-24T13:14:00.5481129+01:00",
+    "ThuStop": "2004-10-11T13:14:00.5481129+02:00",
+    "FriStart": "2011-09-25T13:14:00.5481129+02:00",
+    "FriStop": "2000-06-19T13:14:00.5481129+02:00",
+    "SatStart": "2021-10-18T13:14:00.5481129+02:00",
+    "SatStop": "1999-12-17T13:14:00.5481129+01:00",
+    "SunStart": "2019-05-07T13:14:00.5481129+02:00",
+    "SunStop": "2006-01-26T13:14:00.5481129+01:00",
     "NonDates": [
-      "inventore",
-      "quia"
+      "quae",
+      "tempore"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 303,
-        "AlertLevel": 10,
-        "AlertTimeout": 583,
-        "Action": 108,
-        "DelegateTo": 754,
-        "ScriptId": 202,
-        "EmailTo": "dave.langworth@ortiz.com",
-        "SmsTo": "rem",
-        "ReplyTemplateIdCustomer": 818,
-        "ReplyTemplateIdUser": 747,
-        "ReplyTemplateIdCatmast": 103,
-        "ReplyTemplateIdEmail": 301,
-        "RtiCustomerSms": 371,
-        "ReplyTemplateIdUserSms": 113,
-        "ReplyTemplateIdCatmastSms": 129,
-        "ReplyTemplateIdSms": 636,
+        "TicketAlertId": 756,
+        "AlertLevel": 124,
+        "AlertTimeout": 70,
+        "Action": 702,
+        "DelegateTo": 720,
+        "ScriptId": 152,
+        "EmailTo": "jesse.metz@sawayn.name",
+        "SmsTo": "vel",
+        "ReplyTemplateIdCustomer": 846,
+        "ReplyTemplateIdUser": 694,
+        "ReplyTemplateIdCatmast": 996,
+        "ReplyTemplateIdEmail": 959,
+        "RtiCustomerSms": 25,
+        "ReplyTemplateIdUserSms": 778,
+        "ReplyTemplateIdCatmastSms": 32,
+        "ReplyTemplateIdSms": 69,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 79
+            "FieldType": "System.Int32",
+            "FieldLength": 399
           }
         }
       }
@@ -178,8 +178,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 756
+        "FieldType": "System.Int32",
+        "FieldLength": 355
       }
     }
   }

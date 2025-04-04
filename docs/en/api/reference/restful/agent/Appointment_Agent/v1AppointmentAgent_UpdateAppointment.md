@@ -131,16 +131,16 @@ OK
 POST /api/v1/Agents/Appointment/UpdateAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 458,
-  "StartTime": "2024-03-08T14:28:21.1648024+01:00",
-  "EndTime": "2019-03-22T14:28:21.1648024+01:00",
-  "Status": 957,
-  "Type": 880,
-  "AssociateId": 944
+  "Id": 488,
+  "StartTime": "2022-03-09T13:13:59.1407181+01:00",
+  "EndTime": "1998-04-08T13:13:59.1407181+02:00",
+  "Status": 540,
+  "Type": 127,
+  "AssociateId": 917
 }
 ```
 
@@ -151,66 +151,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 299,
-  "StartDate": "2020-09-06T14:28:21.1648024+02:00",
-  "EndDate": "2013-04-11T14:28:21.1648024+02:00",
+  "AppointmentId": 665,
+  "StartDate": "2023-12-05T13:13:59.156344+01:00",
+  "EndDate": "2011-01-13T13:13:59.156344+01:00",
   "Type": "BookingForChecklist",
-  "Task": "qui",
-  "AssociateFullName": "Emilio Sipes",
-  "ContactName": "Green, Schaefer and Brekke",
-  "Description": "Customizable methodical pricing structure",
-  "PersonFullName": "Toney Welch",
-  "PersonId": 63,
-  "ContactId": 994,
-  "ProjectId": 753,
-  "ProjectName": "Barton-Hyatt",
+  "Task": "reprehenderit",
+  "AssociateFullName": "Ryann Devan Keeling Jr.",
+  "ContactName": "Roob-Metz",
+  "Description": "Decentralized assymetric website",
+  "PersonFullName": "Kamille Zieme",
+  "PersonId": 770,
+  "ContactId": 129,
+  "ProjectId": 39,
+  "ProjectName": "Lind, Erdman and Windler",
   "IsPublished": false,
-  "AssociateId": 332,
-  "ColorIndex": 941,
+  "AssociateId": 637,
+  "ColorIndex": 427,
   "IsFree": false,
-  "HasAlarm": true,
-  "IsAlldayEvent": true,
+  "HasAlarm": false,
+  "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 455,
-  "PriorityName": "Hyatt-Tremblay",
+  "PriorityId": 68,
+  "PriorityName": "Lakin-Luettgen",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": false,
-  "ActiveDate": "2001-07-12T14:28:21.1648024+02:00",
+  "ActiveDate": "2014-11-15T13:13:59.156344+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2016-02-11T14:28:21.1648024+01:00",
-  "RecurringEndDate": "2010-02-15T14:28:21.1648024+01:00",
-  "MotherId": 339,
-  "AssignedBy": 678,
-  "AssignedByFullName": "Amely Aidan Bogisich DVM",
+  "RecurringStartDate": "2016-02-02T13:13:59.156344+01:00",
+  "RecurringEndDate": "2013-07-18T13:13:59.156344+02:00",
+  "MotherId": 748,
+  "AssignedBy": 377,
+  "AssignedByFullName": "Daryl King",
   "RejectReason": "",
-  "Location": "corporis",
-  "AlarmLeadTime": "tenetur",
-  "SaleId": 622,
-  "SaleName": "Von LLC",
-  "AssociateName": "Bernier LLC",
-  "CreatedDate": "1997-12-24T14:28:21.1648024+01:00",
-  "CreatedBy": "ipsam",
-  "CreatedByFullName": "Julien Champlin",
-  "CreatedByAssociateId": 508,
+  "Location": "est",
+  "AlarmLeadTime": "temporibus",
+  "SaleId": 630,
+  "SaleName": "Bode-Ledner",
+  "AssociateName": "Simonis Inc and Sons",
+  "CreatedDate": "2023-07-19T13:13:59.156344+02:00",
+  "CreatedBy": "sit",
+  "CreatedByFullName": "Alize Osinski",
+  "CreatedByAssociateId": 524,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 432,
-  "Title": "iste",
-  "Agenda": "itaque",
-  "InternalNotes": "molestiae",
+  "PreferredTZLocation": 46,
+  "Title": "dolores",
+  "Agenda": "qui",
+  "InternalNotes": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 412
+      "FieldLength": 345
     }
   }
 }

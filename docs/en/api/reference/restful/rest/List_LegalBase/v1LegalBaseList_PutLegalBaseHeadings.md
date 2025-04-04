@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 956,
-    "Name": "Gaylord, Hegmann and Watsica",
-    "Tooltip": "nobis",
+    "HeadingId": 849,
+    "Name": "Gerlach-Grimes",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "Rank": 408,
-    "UdListDefinitionId": 642
+    "Rank": 28,
+    "UdListDefinitionId": 387
   },
   {
-    "HeadingId": 956,
-    "Name": "Gaylord, Hegmann and Watsica",
-    "Tooltip": "nobis",
+    "HeadingId": 849,
+    "Name": "Gerlach-Grimes",
+    "Tooltip": "fugiat",
     "Deleted": false,
-    "Rank": 408,
-    "UdListDefinitionId": 642
+    "Rank": 28,
+    "UdListDefinitionId": 387
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 531,
-    "Name": "Willms LLC",
-    "Tooltip": "accusantium",
+    "HeadingId": 519,
+    "Name": "Skiles LLC",
+    "Tooltip": "nobis",
     "Deleted": true,
-    "Rank": 892,
-    "UdListDefinitionId": 772,
+    "Rank": 737,
+    "UdListDefinitionId": 375,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 774
+        "FieldLength": 654
       }
     }
   }

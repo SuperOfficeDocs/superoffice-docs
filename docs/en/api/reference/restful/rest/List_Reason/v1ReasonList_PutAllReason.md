@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Reason/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 935,
-    "Name": "Zieme Inc and Sons",
-    "Tooltip": "ipsa",
-    "Deleted": true,
-    "UdListDefinitionId": 900,
-    "Rank": 254
+    "Id": 725,
+    "Name": "Breitenberg Group",
+    "Tooltip": "sapiente",
+    "Deleted": false,
+    "UdListDefinitionId": 474,
+    "Rank": 449
   },
   {
-    "Id": 935,
-    "Name": "Zieme Inc and Sons",
-    "Tooltip": "ipsa",
-    "Deleted": true,
-    "UdListDefinitionId": 900,
-    "Rank": 254
+    "Id": 725,
+    "Name": "Breitenberg Group",
+    "Tooltip": "sapiente",
+    "Deleted": false,
+    "UdListDefinitionId": 474,
+    "Rank": 449
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 589,
-    "Name": "Champlin, Fay and Runolfsson",
-    "Tooltip": "sequi",
+    "Id": 942,
+    "Name": "Heidenreich-Schuster",
+    "Tooltip": "soluta",
     "Deleted": false,
-    "UdListDefinitionId": 513,
-    "Rank": 536,
+    "UdListDefinitionId": 191,
+    "Rank": 113,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 478
+        "FieldType": "System.Int32",
+        "FieldLength": 109
       }
     }
   }

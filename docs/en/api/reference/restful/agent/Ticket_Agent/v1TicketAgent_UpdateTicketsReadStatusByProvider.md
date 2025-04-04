@@ -70,22 +70,22 @@ OK
 POST /api/v1/Agents/Ticket/UpdateTicketsReadStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Provider": "repudiandae",
+  "Provider": "iste",
   "Restrictions": [
     {
-      "Name": "Kerluke Group",
-      "Operator": "vel",
+      "Name": "Auer-Williamson",
+      "Operator": "deserunt",
       "Values": [
-        "pariatur",
-        "quam"
+        "sit",
+        "sed"
       ],
       "DisplayValues": [
-        "aut",
-        "autem"
+        "sequi",
+        "sunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -93,9 +93,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 743,
+      "InterParenthesis": 784,
       "InterOperator": "And",
-      "UniqueHash": 590
+      "UniqueHash": 674
     }
   ],
   "NewStatus": "Green"
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  485,
-  479
+  235,
+  491
 ]
 ```

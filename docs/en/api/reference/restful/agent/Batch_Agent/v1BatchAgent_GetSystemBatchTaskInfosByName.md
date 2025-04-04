@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Becker, Parker and Hessel"
+  "TaskName": "Fisher LLC"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 7,
-    "Name": "Stokes-Huel",
-    "AssociateId": 960,
-    "DetailsTable": 4,
-    "DetailsRecord": 914,
+    "Id": 457,
+    "Name": "Bechtelar Inc and Sons",
+    "AssociateId": 843,
+    "DetailsTable": 855,
+    "DetailsRecord": 295,
     "IsSystemTask": false,
     "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "nobis",
-      "ParameterObject2": "aut"
+      "ParameterObject1": "qui",
+      "ParameterObject2": "eos"
     },
-    "LastStarted": "2002-06-02T14:28:21.4929147+02:00",
-    "Created": "2016-01-19T14:28:21.4929147+01:00",
-    "StartCount": 384,
-    "DatabaseSerialNumber": "1379709",
-    "Context": "delectus",
-    "Result": "aut",
+    "LastStarted": "2012-04-05T13:13:59.5314453+02:00",
+    "Created": "2014-10-30T13:13:59.5314453+01:00",
+    "StartCount": 825,
+    "DatabaseSerialNumber": "1684373",
+    "Context": "ullam",
+    "Result": "voluptates",
     "State": "All",
-    "Description": "Devolved local parallelism",
-    "Response": "aut",
-    "Request": "temporibus",
-    "ProgressDescription": "Enterprise-wide solution-oriented approach",
-    "ProgressPercent": 976,
-    "FileName": "Bode LLC",
+    "Description": "Robust multi-state capacity",
+    "Response": "reiciendis",
+    "Request": "vero",
+    "ProgressDescription": "Persevering cohesive monitoring",
+    "ProgressPercent": 502,
+    "FileName": "Herzog LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 805
+        "FieldType": "System.Int32",
+        "FieldLength": 351
       }
     }
   }

@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 739,
+  "SourceDocumentTemplateId": 78,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 296,
-  "Name": "Lowe, Schaefer and Weissnat",
-  "Tooltip": "voluptatem",
-  "SaveInDb": 864,
-  "Filename": "vero",
-  "DefaultOref": "voluptatem",
+  "DocumentTemplateId": 858,
+  "Name": "Cummings-Haley",
+  "Tooltip": "veritatis",
+  "SaveInDb": 88,
+  "Filename": "deleniti",
+  "DefaultOref": "minima",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 622,
-  "IntentId": 928,
+  "AutoeventId": 251,
+  "IntentId": 727,
   "IsDefaultPublished": false,
-  "Rank": 728,
-  "LoadTemplateFromPlugin": 707,
-  "MimeType": "corrupti",
-  "IsInUseInGuides": true,
-  "DocumentTypeKey": 196,
+  "Rank": 794,
+  "LoadTemplateFromPlugin": 341,
+  "MimeType": "reiciendis",
+  "IsInUseInGuides": false,
+  "DocumentTypeKey": 555,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "sherman.damore@schuster.co.uk",
+  "EmailSubject": "johathan@vonruedenromaguera.info",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "vella_gulgowski@barton.us",
+  "SenderEmailAddress": "stephanie@oconner.name",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 287
+      "FieldType": "System.String",
+      "FieldLength": 912
     }
   }
 }

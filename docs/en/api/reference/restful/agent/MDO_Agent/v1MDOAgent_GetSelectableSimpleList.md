@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Grady-Abbott"
+  "Name": "Bernhard, Monahan and Ankunding"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 524,
-    "Name": "Crona-Lakin",
-    "ToolTip": "Fuga sunt quaerat.",
+    "Id": 209,
+    "Name": "Zemlak Group",
+    "ToolTip": "Molestias dolor accusamus porro enim eveniet.",
     "Deleted": false,
-    "Rank": 943,
-    "Type": "tempore",
-    "ColorBlock": 266,
-    "IconHint": "consequatur",
+    "Rank": 14,
+    "Type": "temporibus",
+    "ColorBlock": 411,
+    "IconHint": "animi",
     "Selected": false,
-    "LastChanged": "2010-02-09T14:28:22.1178891+01:00",
+    "LastChanged": "2004-12-29T13:14:00.7043711+01:00",
     "ChildItems": [
       {
-        "Id": 453,
-        "Name": "Schaden, Walsh and Homenick",
-        "ToolTip": "Sit tenetur.",
-        "Deleted": true,
-        "Rank": 580,
-        "Type": "in",
-        "ColorBlock": 250,
-        "IconHint": "non",
+        "Id": 173,
+        "Name": "Stoltenberg, Schmeler and Okuneva",
+        "ToolTip": "Omnis illum id non aut.",
+        "Deleted": false,
+        "Rank": 133,
+        "Type": "incidunt",
+        "ColorBlock": 217,
+        "IconHint": "ipsum",
         "Selected": false,
-        "LastChanged": "2013-05-17T14:28:22.1178891+02:00",
+        "LastChanged": "2004-02-20T13:14:00.7043711+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "unde",
+        "ExtraInfo": "odio",
+        "StyleHint": "esse",
         "Hidden": false,
-        "FullName": "Miss Bessie Haven Altenwerth",
+        "FullName": "Moses Berge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 167
+            "FieldType": "System.String",
+            "FieldLength": 403
           }
         }
       }
     ],
-    "ExtraInfo": "voluptate",
-    "StyleHint": "dolorem",
+    "ExtraInfo": "et",
+    "StyleHint": "consequatur",
     "Hidden": false,
-    "FullName": "Ms. Russell Macejkovic",
+    "FullName": "Selmer Emerald Donnelly III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldLength": 806
       }
     }
   }

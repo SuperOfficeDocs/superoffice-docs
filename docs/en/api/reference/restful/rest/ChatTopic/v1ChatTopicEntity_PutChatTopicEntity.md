@@ -139,41 +139,41 @@ ChatTopicEntity updated.
 PUT /api/v1/ChatTopic/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 117,
-  "Name": "Nolan Group",
-  "Description": "Multi-tiered incremental support",
-  "WelcomeMessage": "deleniti",
+  "ChatTopicId": 913,
+  "Name": "Pfeffer LLC",
+  "Description": "Sharable solution-oriented hub",
+  "WelcomeMessage": "porro",
   "Language": null,
-  "LastAccept": "2016-09-19T14:28:26.7895753+02:00",
-  "SecondsPrAccept": 94,
-  "AlertRecipient": "dicta",
+  "LastAccept": "2003-12-08T13:14:08.4616221+01:00",
+  "SecondsPrAccept": 836,
+  "AlertRecipient": "tempore",
   "AlertTemplate": null,
-  "CollectConsent": false,
-  "BadgeHeader": "recusandae",
+  "CollectConsent": true,
+  "BadgeHeader": "aut",
   "CustomQueueTextEnabled": false,
-  "CustomQueueText": "tempora",
-  "WarnNewChatMinutes": 291,
-  "WarnManagerNewChatMinutes": 781,
+  "CustomQueueText": "animi",
+  "WarnNewChatMinutes": 124,
+  "WarnManagerNewChatMinutes": 296,
   "TicketEnabled": false,
   "TicketCategory": null,
   "TicketPriority": null,
-  "OpeningHoursEnabled": false,
+  "OpeningHoursEnabled": true,
   "OpeningHours": null,
   "Widget": null,
-  "BotEnabled": false,
+  "BotEnabled": true,
   "BotSettings": null,
-  "OfflineCollectConsent": true,
-  "WarnChatMessageMinutes": 675,
-  "WarnManagerChatMessageMinutes": 213,
+  "OfflineCollectConsent": false,
+  "WarnChatMessageMinutes": 630,
+  "WarnManagerChatMessageMinutes": 3,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 779,
-  "OfflineFormQueueLength": 782,
+  "OfflineFormTimeLimit": 519,
+  "OfflineFormQueueLength": 5,
   "WidgetEnableRating": true,
-  "WidgetRatingText": "iste"
+  "WidgetRatingText": "ipsum"
 }
 ```
 
@@ -184,21 +184,21 @@ HTTP/1.1 200 ChatTopicEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatTopicId": 346,
-  "Name": "O'Conner, Terry and Hermann",
-  "Description": "Digitized context-sensitive firmware",
-  "WelcomeMessage": "et",
+  "ChatTopicId": 942,
+  "Name": "Koelpin, Langworth and Blanda",
+  "Description": "Ameliorated tangible software",
+  "WelcomeMessage": "voluptatum",
   "Language": null,
-  "LastAccept": "2009-04-30T14:28:26.7895753+02:00",
-  "SecondsPrAccept": 687,
-  "AlertRecipient": "ut",
+  "LastAccept": "2009-05-28T13:14:08.4616221+02:00",
+  "SecondsPrAccept": 885,
+  "AlertRecipient": "autem",
   "AlertTemplate": null,
   "CollectConsent": false,
-  "BadgeHeader": "nostrum",
-  "CustomQueueTextEnabled": false,
-  "CustomQueueText": "necessitatibus",
-  "WarnNewChatMinutes": 630,
-  "WarnManagerNewChatMinutes": 674,
+  "BadgeHeader": "vel",
+  "CustomQueueTextEnabled": true,
+  "CustomQueueText": "error",
+  "WarnNewChatMinutes": 745,
+  "WarnManagerNewChatMinutes": 726,
   "TicketEnabled": true,
   "TicketCategory": null,
   "TicketPriority": null,
@@ -207,20 +207,20 @@ Content-Type: application/json; charset=utf-8
   "Widget": null,
   "BotEnabled": false,
   "BotSettings": null,
-  "OfflineCollectConsent": false,
-  "WarnChatMessageMinutes": 308,
-  "WarnManagerChatMessageMinutes": 991,
+  "OfflineCollectConsent": true,
+  "WarnChatMessageMinutes": 869,
+  "WarnManagerChatMessageMinutes": 144,
   "UseQueueOfflineForm": false,
-  "OfflineFormTimeLimit": 978,
-  "OfflineFormQueueLength": 452,
+  "OfflineFormTimeLimit": 460,
+  "OfflineFormQueueLength": 613,
   "WidgetEnableRating": false,
-  "WidgetRatingText": "similique",
+  "WidgetRatingText": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 958
+      "FieldType": "System.Int32",
+      "FieldLength": 927
     }
   },
   "_Links": {

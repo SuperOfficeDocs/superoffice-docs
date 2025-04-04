@@ -91,77 +91,77 @@ OK
 POST /api/v1/Document/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 985,
+  "DocumentId": 807,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptas",
-  "Header": "eos",
-  "Name": "Bergstrom Inc and Sons",
-  "OurRef": "culpa",
-  "YourRef": "commodi",
-  "CreatedDate": "1998-02-27T14:28:26.9301945+01:00",
-  "UpdatedDate": "2023-09-13T14:28:26.9301945+02:00",
-  "Description": "Cross-platform global database",
+  "Attention": "repudiandae",
+  "Header": "dolorem",
+  "Name": "Bogisich-Mitchell",
+  "OurRef": "quae",
+  "YourRef": "rerum",
+  "CreatedDate": "2020-05-09T13:14:08.7272632+02:00",
+  "UpdatedDate": "2001-08-28T13:14:08.7272632+02:00",
+  "Description": "Ameliorated upward-trending protocol",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2012-04-16T14:28:26.9301945+02:00",
-  "ExternalRef": "sint",
+  "Date": "2008-06-05T13:14:08.7272632+02:00",
+  "ExternalRef": "qui",
   "Completed": "Completed",
-  "ActiveLinks": 68,
+  "ActiveLinks": 668,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Runolfsson Group",
-      "Id": 37,
-      "Description": "Persistent executive firmware",
-      "ExtraInfo": "accusantium",
-      "LinkId": 190
+      "EntityName": "Hauck-Spencer",
+      "Id": 302,
+      "Description": "Devolved static definition",
+      "ExtraInfo": "dolorem",
+      "LinkId": 636
     },
     {
-      "EntityName": "Runolfsson Group",
-      "Id": 37,
-      "Description": "Persistent executive firmware",
-      "ExtraInfo": "accusantium",
-      "LinkId": 190
+      "EntityName": "Hauck-Spencer",
+      "Id": 302,
+      "Description": "Devolved static definition",
+      "ExtraInfo": "dolorem",
+      "LinkId": 636
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 40,
-  "Snum": 209,
+  "SuggestedDocumentId": 231,
+  "Snum": 823,
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Abigail Roberts",
+    "SuperOffice:2": "Lottie Sporer Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "perferendis",
-    "ExtraFields2": "dignissimos"
+    "ExtraFields1": "ut",
+    "ExtraFields2": "corrupti"
   },
   "CustomFields": {
-    "CustomFields1": "doloribus",
-    "CustomFields2": "quo"
+    "CustomFields1": "quos",
+    "CustomFields2": "maxime"
   },
-  "PublishEventDate": "2016-07-09T14:28:26.9301945+02:00",
-  "PublishTo": "2001-08-31T14:28:26.9301945+02:00",
-  "PublishFrom": "2011-07-24T14:28:26.9301945+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-09-30T13:14:08.7272632+02:00",
+  "PublishTo": "1998-01-23T13:14:08.7272632+01:00",
+  "PublishFrom": "2023-12-26T13:14:08.7272632+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 867,
+      "VisibleId": 700,
       "Visibility": "All",
-      "DisplayValue": "illo"
+      "DisplayValue": "vel"
     },
     {
-      "VisibleId": 867,
+      "VisibleId": 700,
       "Visibility": "All",
-      "DisplayValue": "illo"
+      "DisplayValue": "vel"
     }
   ]
 }
@@ -174,7 +174,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "non",
-  "2": "eligendi"
+  "1": "maiores",
+  "2": "ad"
 }
 ```

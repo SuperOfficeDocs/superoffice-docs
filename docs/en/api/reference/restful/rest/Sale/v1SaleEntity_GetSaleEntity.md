@@ -127,7 +127,7 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 08 Mar 2016 14:28:27 G3T
+Last-Modified: Thu, 13 Sep 2012 13:14:09 G9T
 
 {
   "Appointment": null,
@@ -136,7 +136,7 @@ Last-Modified: Tue, 08 Mar 2016 14:28:27 G3T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "vitae",
+  "SaleText": "quaerat",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -145,113 +145,113 @@ Last-Modified: Tue, 08 Mar 2016 14:28:27 G3T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-02-18T14:28:27.2114406+01:00",
-  "Amount": 22871.932,
-  "SaleId": 856,
-  "Earning": 24670.847999999998,
-  "EarningPercent": 3926.902,
-  "Heading": "et",
-  "Number": "1665940",
-  "Probability": 557,
-  "CreatedDate": "2008-09-22T14:28:27.2114406+02:00",
-  "UpdatedDate": "2016-03-08T14:28:27.2114406+01:00",
+  "Saledate": "2023-10-01T13:14:09.1029925+02:00",
+  "Amount": 21847.113999999998,
+  "SaleId": 979,
+  "Earning": 22702.696,
+  "EarningPercent": 17468.916,
+  "Heading": "deserunt",
+  "Number": "1351269",
+  "Probability": 872,
+  "CreatedDate": "2022-03-11T13:14:09.1029925+01:00",
+  "UpdatedDate": "2012-09-13T13:14:09.1029925+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 194,
+  "ActiveLinks": 19,
   "Links": [
     {
-      "EntityName": "Mraz-Robel",
-      "Id": 429,
-      "Description": "Decentralized heuristic hardware",
-      "ExtraInfo": "et",
-      "LinkId": 247,
+      "EntityName": "Runte LLC",
+      "Id": 517,
+      "Description": "Multi-tiered incremental productivity",
+      "ExtraInfo": "nostrum",
+      "LinkId": 649,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 959
+          "FieldLength": 82
         }
       }
     }
   ],
-  "NextDueDate": "2020-03-27T14:28:27.2114406+01:00",
-  "Postit": "illo",
+  "NextDueDate": "2024-09-27T13:14:09.1029925+02:00",
+  "Postit": "mollitia",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2024-02-27T14:28:27.2114406+01:00",
+  "ReopenDate": "2009-05-28T13:14:09.1029925+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "O'Hara-Cartwright",
-      "Comment": "ab",
-      "StakeholderRoleId": 368,
-      "CountryId": 942,
-      "PersonId": 55,
-      "EmailDescription": "jeanne@king.co.uk",
-      "EmailId": 627,
-      "EmailAddress": "dejuan@mertz.name",
-      "PhoneId": 963,
-      "ContactName": "Hilpert-Romaguera",
-      "ContactId": 126,
-      "SaleId": 509,
-      "Mrmrs": "aut",
-      "Firstname": "Jarod",
-      "MiddleName": "Schultz, Schumm and DuBuque",
-      "Lastname": "Carter",
-      "SaleStakeholderId": 152,
-      "Rank": 216,
-      "Phone": "1-244-851-7510",
+      "StakeholderRoleName": "Sanford-Abernathy",
+      "Comment": "maxime",
+      "StakeholderRoleId": 249,
+      "CountryId": 864,
+      "PersonId": 682,
+      "EmailDescription": "chanel@glover.ca",
+      "EmailId": 609,
+      "EmailAddress": "juston@gloverlesch.uk",
+      "PhoneId": 556,
+      "ContactName": "Rodriguez, Boyle and D'Amore",
+      "ContactId": 880,
+      "SaleId": 18,
+      "Mrmrs": "blanditiis",
+      "Firstname": "Ashton",
+      "MiddleName": "Hoeger, Pollich and Watsica",
+      "Lastname": "Brakus",
+      "SaleStakeholderId": 958,
+      "Rank": 149,
+      "Phone": "660.861.8938",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 602
+          "FieldLength": 187
         }
       }
     }
   ],
-  "ActiveErpLinks": 637,
+  "ActiveErpLinks": 482,
   "UserDefinedFields": {
-    "SuperOffice:1": "818973586",
-    "SuperOffice:2": "Vito Jerde"
+    "SuperOffice:1": "Mr. Dayne Rico Daugherty",
+    "SuperOffice:2": "727957242"
   },
   "ExtraFields": {
-    "ExtraFields1": "ipsam",
-    "ExtraFields2": "et"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "magni"
   },
   "CustomFields": {
-    "CustomFields1": "nostrum",
-    "CustomFields2": "aut"
+    "CustomFields1": "error",
+    "CustomFields2": "saepe"
   },
-  "PublishEventDate": "2004-06-22T14:28:27.2114406+02:00",
-  "PublishTo": "2019-05-24T14:28:27.2114406+02:00",
-  "PublishFrom": "1999-01-10T14:28:27.2114406+01:00",
+  "PublishEventDate": "2006-07-16T13:14:09.1029925+02:00",
+  "PublishTo": "2020-03-07T13:14:09.1029925+01:00",
+  "PublishFrom": "2001-04-22T13:14:09.1029925+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 164,
+      "VisibleId": 659,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 576
+          "FieldLength": 248
         }
       }
     },
     {
-      "VisibleId": 164,
+      "VisibleId": 659,
       "Visibility": "All",
-      "DisplayValue": "numquam",
+      "DisplayValue": "iste",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 576
+          "FieldLength": 248
         }
       }
     }
@@ -261,7 +261,7 @@ Last-Modified: Tue, 08 Mar 2016 14:28:27 G3T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 33
     }
   },
   "_Links": {

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 377,
-    "Name": "Gerhold, Kozey and Friesen",
-    "Tooltip": "cum",
-    "Deleted": true,
-    "Rank": 72,
-    "UdListDefinitionId": 289
+    "HeadingId": 465,
+    "Name": "Lehner, Leuschke and Gottlieb",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 394,
+    "UdListDefinitionId": 620
   },
   {
-    "HeadingId": 377,
-    "Name": "Gerhold, Kozey and Friesen",
-    "Tooltip": "cum",
-    "Deleted": true,
-    "Rank": 72,
-    "UdListDefinitionId": 289
+    "HeadingId": 465,
+    "Name": "Lehner, Leuschke and Gottlieb",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 394,
+    "UdListDefinitionId": 620
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 27,
-    "Name": "Rolfson Inc and Sons",
-    "Tooltip": "et",
+    "HeadingId": 976,
+    "Name": "Rogahn LLC",
+    "Tooltip": "mollitia",
     "Deleted": false,
-    "Rank": 564,
-    "UdListDefinitionId": 615,
+    "Rank": 730,
+    "UdListDefinitionId": 570,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 870
+        "FieldType": "System.Int32",
+        "FieldLength": 916
       }
     }
   }

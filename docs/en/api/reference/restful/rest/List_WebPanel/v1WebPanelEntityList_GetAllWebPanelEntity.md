@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 231,
-    "Name": "Cummerata Inc and Sons",
-    "Tooltip": "dolorem",
-    "Deleted": false,
-    "Rank": 657,
+    "WebPanelId": 36,
+    "Name": "Mertz Group",
+    "Tooltip": "natus",
+    "Deleted": true,
+    "Rank": 828,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": false,
+    "OnCentral": true,
     "OnSatellite": false,
-    "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
+    "OnTravel": true,
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": true,
     "ShowInMenuBar": false,
-    "ShowInToolBar": false,
-    "ShowInAddressBar": true,
-    "ShowInStatusBar": true,
-    "WindowName": "Bednar-Hintz",
+    "ShowInToolBar": true,
+    "ShowInAddressBar": false,
+    "ShowInStatusBar": false,
+    "WindowName": "Wolff-Moore",
     "Url": "http://www.example.com/",
-    "ProgId": "qui",
-    "Icon": 252,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "deleniti",
+    "Icon": 964,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 592
+        "FieldLength": 118
       }
     }
   }

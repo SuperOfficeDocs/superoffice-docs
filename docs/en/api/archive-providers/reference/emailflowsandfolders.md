@@ -89,7 +89,7 @@ Combines all EmailFlows and EmailFlowFolders in one archive together.
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowsAndFolders?$select=name,updatedBy,workflowAssociate/mrMrs
+GET /api/v1/archive/EmailFlowsAndFolders?$select=workflowAssociate/contactCategory,updatedBy,workflowAssociate/mrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

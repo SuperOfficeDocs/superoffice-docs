@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 754,
-  "Name": "Lang-Romaguera",
-  "Tooltip": "beatae",
+  "HeadingId": 172,
+  "Name": "Steuber Group",
+  "Tooltip": "dicta",
   "Deleted": false,
-  "Rank": 503,
-  "UdListDefinitionId": 439
+  "Rank": 409,
+  "UdListDefinitionId": 583
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 323,
-  "Name": "Balistreri, Moen and O'Kon",
-  "Tooltip": "ut",
-  "Deleted": false,
-  "Rank": 75,
-  "UdListDefinitionId": 206,
+  "HeadingId": 408,
+  "Name": "Schamberger, Reichert and Collier",
+  "Tooltip": "quos",
+  "Deleted": true,
+  "Rank": 106,
+  "UdListDefinitionId": 647,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldLength": 269
     }
   }
 }

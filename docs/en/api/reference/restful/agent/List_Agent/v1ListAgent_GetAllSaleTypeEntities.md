@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetAllSaleTypeEntities
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -110,53 +110,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 633,
-    "Name": "Littel LLC",
-    "Tooltip": "neque",
-    "Rank": 843,
+    "SaleTypeId": 931,
+    "Name": "Satterfield Inc and Sons",
+    "Tooltip": "quam",
+    "Rank": 792,
     "DurationUnit": "Century",
-    "SaleDuration": 166,
-    "SaleTypeCatId": 98,
+    "SaleDuration": 594,
+    "SaleTypeCatId": 672,
     "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": true,
-    "IsAutoAdvance": true,
-    "AllowQuoteAlternatives": true,
-    "DefaultQuoteValidity": 984,
-    "QuoteLinesTemplate": 100,
-    "ConfirmationLinesTemplate": 107,
+    "IsAutoAdvance": false,
+    "AllowQuoteAlternatives": false,
+    "DefaultQuoteValidity": 708,
+    "QuoteLinesTemplate": 805,
+    "ConfirmationLinesTemplate": 353,
     "MaxDiscountPercentSet": false,
-    "MinEarningPercentSet": true,
-    "MaxDiscountPercent": 725,
-    "MinEarningPercent": 537,
-    "GroupQuoteLinesBy": 552,
-    "SortGroupLinesBy": 811,
+    "MinEarningPercentSet": false,
+    "MaxDiscountPercent": 303,
+    "MinEarningPercent": 685,
+    "GroupQuoteLinesBy": 522,
+    "SortGroupLinesBy": 609,
     "Stages": [
       {
-        "Id": 277,
-        "Name": "Ritchie LLC",
-        "ToolTip": "Ea delectus quod aperiam.",
-        "Deleted": false,
-        "Rank": 69,
-        "Type": "voluptate",
-        "ColorBlock": 980,
-        "IconHint": "dolorem",
-        "Selected": true,
-        "LastChanged": "2009-01-29T14:28:22.039767+01:00",
+        "Id": 786,
+        "Name": "Borer LLC",
+        "ToolTip": "Rerum doloremque sed totam explicabo.",
+        "Deleted": true,
+        "Rank": 369,
+        "Type": "aut",
+        "ColorBlock": 130,
+        "IconHint": "omnis",
+        "Selected": false,
+        "LastChanged": "2001-10-18T13:14:00.5793728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "cum",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Leanne Schowalter",
+        "FullName": "Zack Kub",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 756
+            "FieldLength": 898
           }
         }
       }
@@ -165,8 +165,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 390
+        "FieldType": "System.String",
+        "FieldLength": 133
       }
     }
   }

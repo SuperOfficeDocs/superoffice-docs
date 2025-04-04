@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Person/GetColleaguesBySource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "SourceType": "All",
-  "Count": 849
+  "Count": 339
 }
 ```
 
@@ -133,53 +133,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Position": "ut",
-    "PersonId": 474,
-    "Mrmrs": "ut",
-    "Firstname": "Norval",
-    "Lastname": "Von",
-    "MiddleName": "Bernier, McCullough and Conn",
-    "Title": "minima",
-    "Description": "Stand-alone fault-tolerant infrastructure",
-    "Email": "bianka@okon.name",
-    "FullName": "Ms. Kariane Mayer",
-    "DirectPhone": "(221)623-5774 x5199",
-    "FormalName": "Schaefer, Schneider and Runolfsson",
-    "CountryId": 927,
-    "ContactId": 365,
-    "ContactName": "Jenkins Group",
-    "Retired": 283,
-    "Rank": 224,
-    "ActiveInterests": 640,
+    "Position": "consequatur",
+    "PersonId": 739,
+    "Mrmrs": "porro",
+    "Firstname": "Tianna",
+    "Lastname": "Goyette",
+    "MiddleName": "Schinner, Conroy and Collier",
+    "Title": "magnam",
+    "Description": "Multi-channelled directional attitude",
+    "Email": "virgil_hamill@kling.us",
+    "FullName": "Mrs. Michelle Corwin",
+    "DirectPhone": "1-168-711-7788 x2931",
+    "FormalName": "Zulauf, Stoltenberg and Cummerata",
+    "CountryId": 157,
+    "ContactId": 405,
+    "ContactName": "Renner-Lindgren",
+    "Retired": 908,
+    "Rank": 452,
+    "ActiveInterests": 629,
     "ContactDepartment": "",
-    "ContactCountryId": 944,
-    "ContactOrgNr": "850053",
-    "FaxPhone": "621.221.7509",
-    "MobilePhone": "(268)763-7224 x3911",
-    "ContactPhone": "(345)008-9727",
-    "AssociateName": "Lowe-Spencer",
-    "AssociateId": 786,
-    "UsePersonAddress": true,
-    "ContactFax": "illum",
-    "Kanafname": "consequuntur",
-    "Kanalname": "ullam",
-    "Post1": "et",
-    "Post2": "dolore",
-    "Post3": "molestiae",
-    "EmailName": "kristina@blick.name",
-    "ContactFullName": "Rubie Wehner Sr.",
-    "ActiveErpLinks": 352,
-    "TicketPriorityId": 611,
-    "SupportLanguageId": 833,
-    "SupportAssociateId": 832,
+    "ContactCountryId": 379,
+    "ContactOrgNr": "652799",
+    "FaxPhone": "1-844-859-3431 x5205",
+    "MobilePhone": "1-100-763-6958",
+    "ContactPhone": "1-849-575-2230 x8904",
+    "AssociateName": "Rippin Inc and Sons",
+    "AssociateId": 192,
+    "UsePersonAddress": false,
+    "ContactFax": "omnis",
+    "Kanafname": "deleniti",
+    "Kanalname": "ex",
+    "Post1": "sed",
+    "Post2": "quibusdam",
+    "Post3": "quae",
+    "EmailName": "twila@kling.us",
+    "ContactFullName": "Ms. Ford Yundt IV",
+    "ActiveErpLinks": 895,
+    "TicketPriorityId": 756,
+    "SupportLanguageId": 330,
+    "SupportAssociateId": 869,
     "CategoryName": "VIP Customer",
-    "PersonNumber": "234576",
+    "PersonNumber": "1253740",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 855
+        "FieldLength": 78
       }
     }
   }

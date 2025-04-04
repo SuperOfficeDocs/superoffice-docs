@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 553,
-  "Name": "Dibbert, Goldner and Ledner",
-  "Tooltip": "mollitia",
+  "HeadingId": 837,
+  "Name": "Quitzon, Effertz and Buckridge",
+  "Tooltip": "odit",
   "Deleted": false,
-  "Rank": 435,
-  "UdListDefinitionId": 250
+  "Rank": 49,
+  "UdListDefinitionId": 291
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 348,
-  "Name": "Cruickshank Inc and Sons",
-  "Tooltip": "consequuntur",
+  "HeadingId": 807,
+  "Name": "Crooks-Kerluke",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 99,
-  "UdListDefinitionId": 113,
+  "Rank": 772,
+  "UdListDefinitionId": 474,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 513
+      "FieldType": "System.String",
+      "FieldLength": 136
     }
   }
 }

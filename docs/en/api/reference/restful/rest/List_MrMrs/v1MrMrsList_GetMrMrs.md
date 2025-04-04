@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 118,
-  "Name": "Kozey-Hand",
-  "Tooltip": "doloremque",
-  "Deleted": false,
-  "UdListDefinitionId": 608,
-  "Rank": 342,
+  "Id": 328,
+  "Name": "Rippin, Funk and Grady",
+  "Tooltip": "tempore",
+  "Deleted": true,
+  "UdListDefinitionId": 189,
+  "Rank": 714,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 108
+      "FieldType": "System.String",
+      "FieldLength": 151
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 304,
-    "Name": "Kris Inc and Sons",
-    "ToolTip": "Non omnis voluptas sed.",
+    "Id": 719,
+    "Name": "Grant LLC",
+    "ToolTip": "Saepe accusamus rerum.",
     "Deleted": true,
-    "Rank": 709,
-    "Type": "sed",
-    "ColorBlock": 259,
-    "IconHint": "sunt",
+    "Rank": 556,
+    "Type": "sapiente",
+    "ColorBlock": 181,
+    "IconHint": "deleniti",
     "Selected": true,
-    "LastChanged": "2020-11-02T14:28:27.6489147+01:00",
+    "LastChanged": "2017-03-28T13:14:09.9629099+02:00",
     "ChildItems": [
       {
-        "Id": 319,
-        "Name": "Pfannerstill-Feil",
-        "ToolTip": "Adipisci aut enim sint.",
+        "Id": 23,
+        "Name": "Dooley-Kuhlman",
+        "ToolTip": "Ad a officiis in aut omnis est cumque.",
         "Deleted": false,
-        "Rank": 97,
-        "Type": "omnis",
-        "ColorBlock": 34,
-        "IconHint": "voluptatem",
-        "Selected": false,
-        "LastChanged": "2007-05-17T14:28:27.6489147+02:00",
+        "Rank": 342,
+        "Type": "maxime",
+        "ColorBlock": 492,
+        "IconHint": "veritatis",
+        "Selected": true,
+        "LastChanged": "2003-08-27T13:14:09.9629099+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "dolores",
+        "ExtraInfo": "corporis",
+        "StyleHint": "dolor",
         "Hidden": true,
-        "FullName": "Ayana Rolfson"
+        "FullName": "Ms. Monserrate Russel"
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "in",
+    "ExtraInfo": "consectetur",
+    "StyleHint": "temporibus",
     "Hidden": false,
-    "FullName": "Magdalena Cole"
+    "FullName": "Mr. Pascale Pollich Jr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 721,
-    "Name": "Barrows-Morissette",
-    "ToolTip": "Quisquam expedita cum molestiae reiciendis quae blanditiis.",
+    "Id": 73,
+    "Name": "West, Blanda and Considine",
+    "ToolTip": "Ut voluptates quis nulla velit.",
     "Deleted": true,
-    "Rank": 494,
-    "Type": "occaecati",
-    "ColorBlock": 632,
-    "IconHint": "incidunt",
-    "Selected": false,
-    "LastChanged": "1999-02-22T14:28:27.6489147+01:00",
+    "Rank": 183,
+    "Type": "quas",
+    "ColorBlock": 359,
+    "IconHint": "voluptates",
+    "Selected": true,
+    "LastChanged": "1997-11-21T13:14:09.9629099+01:00",
     "ChildItems": [
       {
-        "Id": 914,
-        "Name": "Kassulke, Johnson and Grimes",
-        "ToolTip": "Saepe quas.",
+        "Id": 133,
+        "Name": "Runolfsdottir-Adams",
+        "ToolTip": "Voluptatibus totam laboriosam perferendis aut maiores nostrum.",
         "Deleted": false,
-        "Rank": 115,
-        "Type": "corrupti",
-        "ColorBlock": 709,
-        "IconHint": "beatae",
+        "Rank": 810,
+        "Type": "praesentium",
+        "ColorBlock": 473,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2018-12-02T14:28:27.6489147+01:00",
+        "LastChanged": "2003-04-04T13:14:09.9629099+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "non",
+        "ExtraInfo": "et",
+        "StyleHint": "labore",
         "Hidden": true,
-        "FullName": "Prof. Isabella Carroll",
+        "FullName": "Mrs. Demarcus Magnolia Hettinger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 374
+            "FieldLength": 419
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "ipsum",
-    "Hidden": false,
-    "FullName": "Miracle Lilla Block IV",
+    "ExtraInfo": "quas",
+    "StyleHint": "voluptatem",
+    "Hidden": true,
+    "FullName": "Demetris Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 666
+        "FieldType": "System.Int32",
+        "FieldLength": 28
       }
     }
   }

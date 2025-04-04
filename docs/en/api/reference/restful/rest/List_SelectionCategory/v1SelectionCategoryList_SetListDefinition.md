@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 918,
-  "Name": "Altenwerth, Gottlieb and Treutel",
-  "Tooltip": "quam",
-  "Deleted": false,
-  "Rank": 708,
+  "Id": 469,
+  "Name": "Hilll Inc and Sons",
+  "Tooltip": "aut",
+  "Deleted": true,
+  "Rank": 791,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "expedita",
+  "ListType": "nulla",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 756,
-  "Name": "Auer, Wiza and Lindgren",
-  "Tooltip": "fugiat",
+  "Id": 973,
+  "Name": "Hessel-Eichmann",
+  "Tooltip": "non",
   "Deleted": false,
-  "Rank": 565,
+  "Rank": 405,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "quos",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldLength": 992
     }
   }
 }

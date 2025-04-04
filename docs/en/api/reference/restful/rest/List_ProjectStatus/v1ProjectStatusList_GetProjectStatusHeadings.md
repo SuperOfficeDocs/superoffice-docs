@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProjectStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 305,
-    "Name": "Collier, Friesen and O'Kon",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "Rank": 359,
-    "UdListDefinitionId": 645,
+    "HeadingId": 710,
+    "Name": "Hahn-Nicolas",
+    "Tooltip": "eum",
+    "Deleted": true,
+    "Rank": 722,
+    "UdListDefinitionId": 142,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 34
+        "FieldType": "System.Int32",
+        "FieldLength": 151
       }
     }
   }

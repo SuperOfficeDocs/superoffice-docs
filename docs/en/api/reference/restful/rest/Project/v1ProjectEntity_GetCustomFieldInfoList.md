@@ -68,7 +68,7 @@ OK
 GET /api/v1/Project/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Mayer, Stracke and Schmitt",
-    "DisplayName": "Wilderman, Runte and Ratke",
-    "Description": "Public-key mission-critical installation",
-    "ShortLabel": "qui",
+    "FieldName": "Schmeler, Klocko and Bode",
+    "DisplayName": "Lakin-Bechtelar",
+    "Description": "Advanced mission-critical pricing structure",
+    "ShortLabel": "sequi",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
-    "IsReadOnly": true,
+    "IsMandatory": false,
+    "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 542,
-    "TemplateVariableName": "Rempel-Wisoky"
+    "Rank": 664,
+    "TemplateVariableName": "Stark Inc and Sons"
   }
 ]
 ```

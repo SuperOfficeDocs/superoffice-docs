@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 802,
-  "Name": "Frami-Ledner",
-  "Tooltip": "eligendi",
-  "Deleted": true,
-  "Rank": 50,
+  "WebPanelId": 10,
+  "Name": "Kovacek, Howell and Dicki",
+  "Tooltip": "odio",
+  "Deleted": false,
+  "Rank": 531,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingWeb": false,
   "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Kohler-Labadie",
+  "WindowName": "Cummings, Jaskolski and Schroeder",
   "Url": "http://www.example.com/",
-  "ProgId": "facere",
-  "Icon": 643,
+  "ProgId": "totam",
+  "Icon": 839,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false,
+  "NeverReloadOnCurrentChange": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 912
+      "FieldLength": 684
     }
   }
 }

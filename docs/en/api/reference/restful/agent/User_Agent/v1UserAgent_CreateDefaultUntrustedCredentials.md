@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ValidFrom": "2005-06-24T14:28:22.6803663+02:00",
-  "ValidTo": "2000-01-09T14:28:22.6803663+01:00",
-  "Comment": "ducimus",
-  "SecretValue": "nulla",
-  "PublicValue": "veniam",
+  "ValidFrom": "2019-09-07T13:14:01.6600684+02:00",
+  "ValidTo": "2010-09-03T13:14:01.6600684+02:00",
+  "Comment": "non",
+  "SecretValue": "incidunt",
+  "PublicValue": "ut",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 204
+      "FieldLength": 201
     }
   }
 }

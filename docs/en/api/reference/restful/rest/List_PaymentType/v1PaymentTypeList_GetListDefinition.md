@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 866,
-  "Name": "Feest-Doyle",
-  "Tooltip": "praesentium",
+  "Id": 91,
+  "Name": "Hane, Douglas and Rath",
+  "Tooltip": "non",
   "Deleted": true,
-  "Rank": 210,
+  "Rank": 684,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "omnis",
+  "ListType": "molestiae",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldType": "System.String",
+      "FieldLength": 974
     }
   },
   "_Links": {

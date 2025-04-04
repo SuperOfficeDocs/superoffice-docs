@@ -26,7 +26,7 @@ Gets a TicketMessageEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=685
+POST /api/v1/Agents/Ticket/GetTicketMessageEntity?ticketMessageEntityId=25
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity?$select=name,department,category/id
 ```
 
@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/Ticket/GetTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -102,28 +102,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 485,
+  "EjMessageId": 852,
   "Ticket": null,
-  "CreatedAt": "2009-09-01T14:28:22.6491174+02:00",
+  "CreatedAt": "2004-06-09T13:14:01.6131905+02:00",
   "CreatedBy": null,
-  "Author": "assumenda",
+  "Author": "sunt",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "magnam",
-  "TimeSpent": 99,
-  "Body": "sequi",
-  "HtmlBody": "perspiciatis",
-  "EmailHeader": "scarlett_schneider@stoltenbergraynor.biz",
-  "DebugInfo": "architecto",
-  "MailSorter": "consectetur",
+  "MessageId": "aspernatur",
+  "TimeSpent": 304,
+  "Body": "at",
+  "HtmlBody": "quaerat",
+  "EmailHeader": "alia.ledner@schimmel.biz",
+  "DebugInfo": "quam",
+  "MailSorter": "aut",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quis",
+  "SearchTitle": "nesciunt",
   "MessageHeaders": [
     {
-      "Id": 494,
-      "Name": "Stark-Harber",
-      "Value": "molestiae",
+      "Id": 882,
+      "Name": "Kerluke Inc and Sons",
+      "Value": "adipisci",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -131,50 +131,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 553
+          "FieldLength": 85
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "at",
-  "Sentiment": 571,
-  "SentimentConfidence": 846,
+  "Important": true,
+  "Language": "qui",
+  "Sentiment": 623,
+  "SentimentConfidence": 98,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 259,
-      "Name": "Haag Group",
-      "ContentType": "et",
-      "AttSize": 969,
-      "InlineImage": false,
-      "ContentId": "ut",
-      "AuthKey": "consequuntur",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 315,
+      "Name": "Jaskolski Inc and Sons",
+      "ContentType": "ad",
+      "AttSize": 619,
+      "InlineImage": true,
+      "ContentId": "et",
+      "AuthKey": "a",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 975
+          "FieldLength": 971
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "itaque"
+    "ExtraFields1": "atque",
+    "ExtraFields2": "omnis"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "cupiditate"
+    "CustomFields1": "autem",
+    "CustomFields2": "vel"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 472
+      "FieldType": "System.String",
+      "FieldLength": 246
     }
   }
 }

@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "architecto",
-  "ProviderName": "Becker LLC",
-  "DesiredColumns": "voluptatem",
-  "PageSize": 907,
-  "PageNumber": 695
+  "Restrictions": "id",
+  "ProviderName": "Champlin, Brekke and Kautzer",
+  "DesiredColumns": "nesciunt",
+  "PageSize": 802,
+  "PageNumber": 905
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Weber, McLaughlin and Gutkowski",
-      "DisplayTooltip": "laboriosam",
-      "DisplayType": "autem",
-      "CanOrderBy": false,
-      "Name": "Bayer LLC",
+      "DisplayName": "Waters-Rolfson",
+      "DisplayTooltip": "quaerat",
+      "DisplayType": "recusandae",
+      "CanOrderBy": true,
+      "Name": "Sawayn Group",
       "CanRestrictBy": false,
-      "RestrictionType": "ducimus",
-      "RestrictionListName": "Flatley-Hagenes",
-      "IsVisible": true,
-      "ExtraInfo": "consectetur",
-      "Width": "quia",
-      "IconHint": "quisquam",
-      "HeadingIconHint": "aut"
+      "RestrictionType": "est",
+      "RestrictionListName": "Corwin-Beer",
+      "IsVisible": false,
+      "ExtraInfo": "est",
+      "Width": "facilis",
+      "IconHint": "et",
+      "HeadingIconHint": "facere"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Simonis Group",
-      "PrimaryKey": 729,
+      "EntityName": "Dibbert Inc and Sons",
+      "PrimaryKey": 126,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "modi",
-          "TooltipHint": "natus",
-          "LinkHint": "dicta"
+          "DisplayValue": "enim",
+          "TooltipHint": "consequuntur",
+          "LinkHint": "iusto"
         }
       },
-      "LinkHint": "consequatur",
-      "StyleHint": "quis",
+      "LinkHint": "repudiandae",
+      "StyleHint": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 114
+          "FieldLength": 53
         }
       }
     }
   ],
-  "RowCount": 579,
+  "RowCount": 515,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 475
+      "FieldType": "System.Int32",
+      "FieldLength": 27
     }
   }
 }

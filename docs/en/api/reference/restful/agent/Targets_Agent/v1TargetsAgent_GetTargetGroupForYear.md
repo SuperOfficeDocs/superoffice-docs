@@ -83,7 +83,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 315,
+  "TargetYear": 988,
   "EntityType": "None"
 }
 ```
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 359,
-  "Year": 501,
+  "TargetGroupId": 81,
+  "Year": 711,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 956,
+      "TargetAssignmentInfoId": 98,
       "Values": [
-        40,
-        874
+        778,
+        730
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 339,
-      "DimensionListItemDisplayName": "Schmitt Inc and Sons",
+      "DimensionListItem": 566,
+      "DimensionListItemDisplayName": "Cummings, O'Reilly and Corwin",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 964
+          "FieldLength": 234
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 272
     }
   }
 }

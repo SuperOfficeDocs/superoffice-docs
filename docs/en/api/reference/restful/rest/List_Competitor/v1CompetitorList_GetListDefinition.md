@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Competitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 972,
-  "Name": "Trantow-Weimann",
-  "Tooltip": "est",
+  "Id": 96,
+  "Name": "Kuhn-Boyer",
+  "Tooltip": "illo",
   "Deleted": false,
-  "Rank": 397,
-  "IsCustomList": true,
+  "Rank": 868,
+  "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "ListType": "possimus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 209
+      "FieldType": "System.String",
+      "FieldLength": 372
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -101,16 +101,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 354,
-  "Name": "Ward, Mosciski and Boyer",
+  "ScreenChooserId": 874,
+  "Name": "Thompson-Blick",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "eveniet",
-  "Source": "quaerat",
-  "Registered": "2007-09-03T14:28:27.3520534+02:00",
-  "RegisteredAssociateId": 842,
-  "Updated": "2021-03-30T14:28:27.3520534+02:00",
-  "UpdatedAssociateId": 265
+  "Enabled": true,
+  "UniqueIdentifier": "iste",
+  "Source": "saepe",
+  "Registered": "2019-10-08T13:14:09.3685305+02:00",
+  "RegisteredAssociateId": 888,
+  "Updated": "2017-03-30T13:14:09.3685305+02:00",
+  "UpdatedAssociateId": 690
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 176,
-  "Name": "Christiansen, Casper and Kovacek",
+  "ScreenChooserId": 374,
+  "Name": "Abbott Inc and Sons",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "atque",
-  "Source": "est",
-  "Registered": "2016-08-02T14:28:27.3520534+02:00",
-  "RegisteredAssociateId": 692,
-  "Updated": "2016-08-27T14:28:27.3520534+02:00",
-  "UpdatedAssociateId": 503,
+  "UniqueIdentifier": "alias",
+  "Source": "sed",
+  "Registered": "2000-08-15T13:14:09.3685305+02:00",
+  "RegisteredAssociateId": 958,
+  "Updated": "2014-12-25T13:14:09.3685305+01:00",
+  "UpdatedAssociateId": 689,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 733
+      "FieldLength": 35
     }
   },
   "_Links": {

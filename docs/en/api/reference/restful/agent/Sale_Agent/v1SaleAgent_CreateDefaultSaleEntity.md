@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "voluptas",
+  "SaleText": "magni",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2018-08-02T14:28:22.3366302+02:00",
-  "Amount": 11091.225999999999,
-  "SaleId": 448,
-  "Earning": 1823.9879999999998,
-  "EarningPercent": 24169.408,
-  "Heading": "quas",
-  "Number": "682960",
-  "Probability": 422,
-  "CreatedDate": "2002-07-11T14:28:22.3366302+02:00",
-  "UpdatedDate": "2009-05-27T14:28:22.3366302+02:00",
+  "Saledate": "2010-03-11T13:14:01.0645169+01:00",
+  "Amount": 9658.988,
+  "SaleId": 472,
+  "Earning": 21282.994,
+  "EarningPercent": 17142.98,
+  "Heading": "commodi",
+  "Number": "336648",
+  "Probability": 635,
+  "CreatedDate": "2021-03-23T13:14:01.0645169+01:00",
+  "UpdatedDate": "2007-11-02T13:14:01.0645169+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 124,
+  "ActiveLinks": 743,
   "Links": [
     {
-      "EntityName": "Doyle LLC",
-      "Id": 742,
-      "Description": "User-centric executive service-desk",
-      "ExtraInfo": "quidem",
-      "LinkId": 294,
+      "EntityName": "Walter, Doyle and Nolan",
+      "Id": 236,
+      "Description": "Adaptive real-time hub",
+      "ExtraInfo": "molestias",
+      "LinkId": 788,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldLength": 401
         }
       }
     }
   ],
-  "NextDueDate": "2017-05-22T14:28:22.3366302+02:00",
-  "Postit": "aut",
+  "NextDueDate": "2014-06-27T13:14:01.0645169+02:00",
+  "Postit": "quis",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2005-05-10T14:28:22.3366302+02:00",
+  "ReopenDate": "2004-03-22T13:14:01.0645169+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Dach-Kassulke",
-      "Comment": "quos",
-      "StakeholderRoleId": 956,
-      "CountryId": 822,
-      "PersonId": 458,
-      "EmailDescription": "milton.pouros@conn.info",
-      "EmailId": 661,
-      "EmailAddress": "susan_nienow@bednar.name",
-      "PhoneId": 127,
-      "ContactName": "Hauck-Bruen",
-      "ContactId": 15,
-      "SaleId": 417,
-      "Mrmrs": "voluptate",
-      "Firstname": "Janelle",
-      "MiddleName": "Marvin, Jaskolski and Bahringer",
-      "Lastname": "Toy",
-      "SaleStakeholderId": 505,
-      "Rank": 44,
-      "Phone": "336-607-3817 x838",
+      "StakeholderRoleName": "Langworth-Pfeffer",
+      "Comment": "odit",
+      "StakeholderRoleId": 764,
+      "CountryId": 902,
+      "PersonId": 516,
+      "EmailDescription": "dorthy_wolff@macejkovicmorissette.co.uk",
+      "EmailId": 301,
+      "EmailAddress": "edward.oreilly@krajcik.us",
+      "PhoneId": 974,
+      "ContactName": "Balistreri Group",
+      "ContactId": 281,
+      "SaleId": 285,
+      "Mrmrs": "atque",
+      "Firstname": "Zack",
+      "MiddleName": "Herman-Parisian",
+      "Lastname": "Feeney",
+      "SaleStakeholderId": 164,
+      "Rank": 243,
+      "Phone": "(091)621-5795 x26056",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 658
+          "FieldLength": 923
         }
       }
     }
   ],
-  "ActiveErpLinks": 600,
+  "ActiveErpLinks": 775,
   "UserDefinedFields": {
-    "SuperOffice:1": "73328018",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Magnus Wyman",
+    "SuperOffice:2": "465666755"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptatem",
-    "ExtraFields2": "officia"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "delectus"
   },
   "CustomFields": {
-    "CustomFields1": "in",
-    "CustomFields2": "soluta"
+    "CustomFields1": "qui",
+    "CustomFields2": "eos"
   },
-  "PublishEventDate": "2000-08-20T14:28:22.3366302+02:00",
-  "PublishTo": "2012-06-03T14:28:22.3366302+02:00",
-  "PublishFrom": "1998-08-20T14:28:22.3366302+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-12-02T13:14:01.0645169+01:00",
+  "PublishTo": "2009-12-23T13:14:01.0645169+01:00",
+  "PublishFrom": "2024-06-12T13:14:01.0645169+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 987,
+      "VisibleId": 16,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 916
+          "FieldType": "System.String",
+          "FieldLength": 72
         }
       }
     },
     {
-      "VisibleId": 987,
+      "VisibleId": 16,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 916
+          "FieldType": "System.String",
+          "FieldLength": 72
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 668
     }
   }
 }

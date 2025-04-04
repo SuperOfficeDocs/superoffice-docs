@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 637,
-  "Name": "O'Connell-McGlynn",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "UdListDefinitionId": 481,
-  "Rank": 37,
+  "Id": 565,
+  "Name": "Konopelski LLC",
+  "Tooltip": "sunt",
+  "Deleted": true,
+  "UdListDefinitionId": 853,
+  "Rank": 546,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 908
+      "FieldLength": 595
     }
   }
 }

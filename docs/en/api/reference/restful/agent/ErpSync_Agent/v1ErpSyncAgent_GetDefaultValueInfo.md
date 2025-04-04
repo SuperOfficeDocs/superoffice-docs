@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 952
+  "ErpFieldId": 266
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 582,
-  "DefaultValue": "et",
+  "ErpFieldId": 247,
+  "DefaultValue": "repellendus",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "voluptatem",
-  "PromptUser": false,
-  "Mandatory": false,
-  "ErpFieldKey": "eveniet",
+  "FirstSyncDefaultValue": "ea",
+  "PromptUser": true,
+  "Mandatory": true,
+  "ErpFieldKey": "illum",
   "FieldType": "Checkbox",
-  "ListName": "Ziemann Inc and Sons",
+  "ListName": "Brakus LLC",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 960
+      "FieldLength": 253
     }
   }
 }

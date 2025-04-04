@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Value": "quis",
-    "Tooltip": "veritatis",
+    "Id": 491,
+    "Value": "similique",
+    "Tooltip": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 792
+        "FieldType": "System.Int32",
+        "FieldLength": 773
       }
     }
   },
   {
-    "Id": 771,
-    "Value": "quis",
-    "Tooltip": "veritatis",
+    "Id": 491,
+    "Value": "similique",
+    "Tooltip": "earum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 792
+        "FieldType": "System.Int32",
+        "FieldLength": 773
       }
     }
   }

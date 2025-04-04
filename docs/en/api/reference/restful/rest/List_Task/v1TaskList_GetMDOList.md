@@ -27,7 +27,7 @@ Get the MDO list items for "Task" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Task/MDOItems?flat=False
-GET /api/v1/List/Task/MDOItems?query=ut
+GET /api/v1/List/Task/MDOItems?query=quaerat
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 40,
-    "Name": "Bosco-Stamm",
-    "ToolTip": "Ad dolores et tenetur eaque porro consectetur.",
-    "Deleted": false,
-    "Rank": 287,
-    "Type": "ullam",
+    "Id": 69,
+    "Name": "Greenfelder LLC",
+    "ToolTip": "Tempora illum corporis libero doloribus similique.",
+    "Deleted": true,
+    "Rank": 965,
+    "Type": "perspiciatis",
     "ChildItems": [
       {
-        "Id": 73,
-        "Name": "Prosacco, Douglas and Pfeffer",
-        "ToolTip": "Numquam perspiciatis natus sed.",
+        "Id": 162,
+        "Name": "Ferry-Nitzsche",
+        "ToolTip": "Sit quae voluptatem.",
         "Deleted": true,
-        "Rank": 748,
-        "Type": "aut",
+        "Rank": 193,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 616,
-        "ExtraInfo": "commodi",
-        "StyleHint": "sed",
-        "FullName": "Karlie Spencer",
+        "IconHint": "blanditiis",
+        "ColorBlock": 459,
+        "ExtraInfo": "ea",
+        "StyleHint": "velit",
+        "FullName": "Miss Julian Rae Williamson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 203
+            "FieldType": "System.String",
+            "FieldLength": 424
           }
         }
       }
     ],
-    "IconHint": "temporibus",
-    "ColorBlock": 481,
-    "ExtraInfo": "eum",
-    "StyleHint": "iure",
-    "FullName": "Mrs. Shirley Vida Ondricka",
+    "IconHint": "sunt",
+    "ColorBlock": 875,
+    "ExtraInfo": "quaerat",
+    "StyleHint": "neque",
+    "FullName": "Jevon VonRueden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldLength": 661
       }
     }
   }

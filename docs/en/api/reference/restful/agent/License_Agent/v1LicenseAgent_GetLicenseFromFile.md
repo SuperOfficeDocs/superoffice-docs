@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "dolorum"
+  "FileContent": "amet"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 699,
-      "NumberOfLicensesFree": 89,
-      "NumberOfLicensesAdded": 5,
-      "NumberOfLicensesNewTotal": 142,
-      "NumberOfLicensesNewFree": 67,
-      "NumberOfLicensesTotal": 69
+      "NumberOfLicensesInUse": 742,
+      "NumberOfLicensesFree": 275,
+      "NumberOfLicensesAdded": 48,
+      "NumberOfLicensesNewTotal": 469,
+      "NumberOfLicensesNewFree": 121,
+      "NumberOfLicensesTotal": 875
     }
   ],
-  "AccumulatedNextCheckDate": "2009-12-31T14:28:22.0241429+01:00"
+  "AccumulatedNextCheckDate": "2019-10-12T13:14:00.532487+02:00"
 }
 ```

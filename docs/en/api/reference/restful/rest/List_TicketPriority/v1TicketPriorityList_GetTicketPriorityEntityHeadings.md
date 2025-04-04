@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 987,
-    "Name": "Wuckert Inc and Sons",
-    "Tooltip": "explicabo",
-    "Deleted": true,
-    "Rank": 969,
-    "UdListDefinitionId": 870,
+    "HeadingId": 2,
+    "Name": "Flatley, Corkery and Trantow",
+    "Tooltip": "molestiae",
+    "Deleted": false,
+    "Rank": 92,
+    "UdListDefinitionId": 258,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 477
+        "FieldType": "System.Int32",
+        "FieldLength": 662
       }
     }
   }

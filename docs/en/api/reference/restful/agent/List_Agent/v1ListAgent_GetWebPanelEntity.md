@@ -26,7 +26,7 @@ Gets a WebPanelEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=390
+POST /api/v1/Agents/List/GetWebPanelEntity?webPanelEntityId=476
 POST /api/v1/Agents/List/GetWebPanelEntity?$select=name,department,category/id
 ```
 
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 759,
-  "Name": "Orn-Wiegand",
-  "Tooltip": "perferendis",
+  "WebPanelId": 267,
+  "Name": "Gerhold, Bins and Glover",
+  "Tooltip": "minima",
   "Deleted": false,
-  "Rank": 126,
+  "Rank": 895,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": true,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Abernathy-Trantow",
+  "WindowName": "Rutherford Group",
   "Url": "http://www.example.com/",
-  "ProgId": "saepe",
-  "Icon": 567,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "et",
+  "Icon": 250,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 125
     }
   }
 }

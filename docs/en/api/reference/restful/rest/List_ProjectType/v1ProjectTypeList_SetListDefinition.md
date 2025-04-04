@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 586,
-  "Name": "Erdman-Treutel",
-  "Tooltip": "voluptatem",
+  "Id": 931,
+  "Name": "Cruickshank-Denesik",
+  "Tooltip": "voluptates",
   "Deleted": false,
-  "Rank": 532,
-  "IsCustomList": true,
+  "Rank": 256,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eum",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "quis",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 144,
-  "Name": "Kuhlman LLC",
-  "Tooltip": "voluptate",
-  "Deleted": false,
-  "Rank": 748,
-  "IsCustomList": true,
+  "Id": 264,
+  "Name": "Hessel, Koelpin and McDermott",
+  "Tooltip": "molestias",
+  "Deleted": true,
+  "Rank": 381,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "exercitationem",
+  "ListType": "nihil",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 452
     }
   }
 }

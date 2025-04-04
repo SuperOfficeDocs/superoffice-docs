@@ -74,7 +74,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 839
+  "TicketId": 900
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-93
+36
 ```

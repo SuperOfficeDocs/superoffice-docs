@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 602,
-  "Name": "Ledner LLC",
-  "Tooltip": "et",
+  "HeadingId": 671,
+  "Name": "Bernier-Walsh",
+  "Tooltip": "sed",
   "Deleted": false,
-  "Rank": 347,
-  "UdListDefinitionId": 245
+  "Rank": 321,
+  "UdListDefinitionId": 179
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 313,
-  "Name": "Padberg, Witting and Rodriguez",
-  "Tooltip": "dolores",
+  "HeadingId": 405,
+  "Name": "Johns Group",
+  "Tooltip": "autem",
   "Deleted": false,
-  "Rank": 553,
-  "UdListDefinitionId": 288,
+  "Rank": 303,
+  "UdListDefinitionId": 602,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 228
+      "FieldLength": 699
     }
   }
 }

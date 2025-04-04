@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "West-Powlowski",
-  "DeviceName": "Langworth-Dibbert"
+  "ApplicationName": "Willms-Altenwerth",
+  "DeviceName": "Nitzsche-Stoltenberg"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "fugiat",
-    "Value": "pariatur",
-    "RecordId": 49,
-    "CreatedDate": "2005-12-25T14:28:22.0241429+01:00",
-    "UpdatedDate": "2000-04-15T14:28:22.0241429+02:00",
-    "UpdatedBy": "beatae",
-    "CreatedBy": "veniam",
-    "TableName": "Kessler Inc and Sons",
+    "Key": "enim",
+    "Value": "nostrum",
+    "RecordId": 885,
+    "CreatedDate": "2016-03-27T13:14:00.5168611+02:00",
+    "UpdatedDate": "2008-04-04T13:14:00.5168611+02:00",
+    "UpdatedBy": "blanditiis",
+    "CreatedBy": "ut",
+    "TableName": "Gislason, Walter and Bins",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 724
+        "FieldType": "System.Int32",
+        "FieldLength": 284
       }
     }
   }

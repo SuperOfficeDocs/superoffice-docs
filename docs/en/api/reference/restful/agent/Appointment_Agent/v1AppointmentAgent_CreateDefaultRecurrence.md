@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -84,10 +84,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 661,
-  "StartDate": "2000-03-02T14:28:21.3522957+01:00",
-  "EndDate": "2004-03-30T14:28:21.3522957+02:00",
-  "RecurrenceCounter": 590,
+  "RecurrenceId": 541,
+  "StartDate": "1999-10-09T13:13:59.2969775+02:00",
+  "EndDate": "2006-12-07T13:13:59.2969775+01:00",
+  "RecurrenceCounter": 65,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-08-15T14:28:21.3522957+02:00",
+      "Date": "2018-07-26T13:13:59.2969775+02:00",
       "IsConflict": true,
-      "Description": "Customer-focused national Graphical User Interface",
-      "DescriptionStyleHint": "Multi-layered uniform hub",
-      "Tooltip": "maxime"
+      "Description": "Public-key coherent strategy",
+      "DescriptionStyleHint": "Phased next generation orchestration",
+      "Tooltip": "assumenda"
     },
     {
-      "Date": "1999-08-15T14:28:21.3522957+02:00",
+      "Date": "2018-07-26T13:13:59.2969775+02:00",
       "IsConflict": true,
-      "Description": "Customer-focused national Graphical User Interface",
-      "DescriptionStyleHint": "Multi-layered uniform hub",
-      "Tooltip": "maxime"
+      "Description": "Public-key coherent strategy",
+      "DescriptionStyleHint": "Phased next generation orchestration",
+      "Tooltip": "assumenda"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

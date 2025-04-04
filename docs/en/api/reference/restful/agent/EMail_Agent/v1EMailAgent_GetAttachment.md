@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 583,
-  "AttachmentId": "doloribus"
+  "MessageServerId": 718,
+  "AttachmentId": "molestiae"
 }
 ```
 
@@ -102,13 +102,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Exclusive analyzing intranet",
-  "Filename": "at",
-  "Size": 858,
-  "Type": "commodi",
-  "Encoding": "ab",
-  "Id": "tempora",
-  "Disposition": "accusantium",
+  "Description": "Optional dynamic function",
+  "Filename": "sint",
+  "Size": 640,
+  "Type": "necessitatibus",
+  "Encoding": "omnis",
+  "Id": "quis",
+  "Disposition": "veritatis",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 423
+      "FieldLength": 358
     }
   }
 }

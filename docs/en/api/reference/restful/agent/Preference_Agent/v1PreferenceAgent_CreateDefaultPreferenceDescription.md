@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 388,
-  "Section": "culpa",
-  "Key": "rerum",
-  "Name": "Wilderman-Larkin",
+  "PrefDescId": 850,
+  "Section": "numquam",
+  "Key": "magnam",
+  "Name": "Ziemann, Larkin and Nicolas",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Organized systemic capacity",
+  "Description": "Assimilated solution-oriented open system",
   "IsBuiltin": false,
-  "TableName": "O'Kon LLC",
-  "UserDefinedListId": 139,
-  "Rank": 769,
-  "SubGroup": "ut",
-  "MinLevel": 338,
-  "MaxValue": 876,
-  "MinValue": 448,
-  "RequiredLicense": "quidem",
+  "TableName": "Rogahn, Kohler and West",
+  "UserDefinedListId": 73,
+  "Rank": 397,
+  "SubGroup": "voluptatem",
+  "MinLevel": 84,
+  "MaxValue": 205,
+  "MinValue": 602,
+  "RequiredLicense": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 733
+      "FieldType": "System.String",
+      "FieldLength": 209
     }
   }
 }

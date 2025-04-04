@@ -1398,7 +1398,7 @@ This is the archive Provider for the Selection contact/person archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ContactPersonSelectionV2?$select=streetAddress/county,contactAssociate/personId,contactAssociate/assocTooltip,sourceRelation/updatedDate,sale/text
+GET /api/v1/archive/ContactPersonSelectionV2?$select=sale/saleUdef/SuperOffice:1,document/associate/portraitThumbnail,birthYear,personSourceRelation/birthdate,personSourceRelation/personSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

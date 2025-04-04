@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 829,
-    "Name": "Abshire, Block and Douglas",
-    "Tooltip": "aliquam",
+    "HeadingId": 902,
+    "Name": "Mueller Inc and Sons",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 696,
-    "UdListDefinitionId": 395
+    "Rank": 501,
+    "UdListDefinitionId": 218
   },
   {
-    "HeadingId": 829,
-    "Name": "Abshire, Block and Douglas",
-    "Tooltip": "aliquam",
+    "HeadingId": 902,
+    "Name": "Mueller Inc and Sons",
+    "Tooltip": "inventore",
     "Deleted": false,
-    "Rank": 696,
-    "UdListDefinitionId": 395
+    "Rank": 501,
+    "UdListDefinitionId": 218
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 144,
-    "Name": "Mayert-Goyette",
-    "Tooltip": "officia",
+    "HeadingId": 687,
+    "Name": "Russel-Considine",
+    "Tooltip": "delectus",
     "Deleted": false,
-    "Rank": 984,
-    "UdListDefinitionId": 345,
+    "Rank": 309,
+    "UdListDefinitionId": 803,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 48
+        "FieldLength": 97
       }
     }
   }

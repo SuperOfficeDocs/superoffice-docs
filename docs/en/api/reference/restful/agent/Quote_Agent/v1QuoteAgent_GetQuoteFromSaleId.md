@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteFromSaleId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 341
+  "SaleId": 551
 }
 ```
 
@@ -101,26 +101,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 571,
-  "SaleId": 726,
-  "QuoteConnectionId": 448,
-  "ERPQuoteKey": "ad",
-  "ERPOrderKey": "dolore",
-  "ActiveQuoteVersionId": 636,
-  "AcceptedQuoteAlternativeId": 107,
-  "UseValuesFromQuote": 409,
-  "DocumentId": 296,
-  "PoNumber": "1110944",
-  "OrderComment": "velit",
-  "PreferredEmailCulture": "jaiden@reichel.info",
+  "QuoteId": 26,
+  "SaleId": 269,
+  "QuoteConnectionId": 672,
+  "ERPQuoteKey": "sequi",
+  "ERPOrderKey": "sunt",
+  "ActiveQuoteVersionId": 840,
+  "AcceptedQuoteAlternativeId": 153,
+  "UseValuesFromQuote": 904,
+  "DocumentId": 384,
+  "PoNumber": "510990",
+  "OrderComment": "in",
+  "PreferredEmailCulture": "eulah.morissette@medhurststokes.co.uk",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 937
+      "FieldType": "System.Int32",
+      "FieldLength": 357
     }
   }
 }

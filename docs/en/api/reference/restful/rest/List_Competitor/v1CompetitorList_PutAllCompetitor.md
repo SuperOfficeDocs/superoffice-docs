@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Competitor/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 50,
-    "Name": "VonRueden Inc and Sons",
-    "Tooltip": "possimus",
+    "Id": 797,
+    "Name": "Lesch-Rohan",
+    "Tooltip": "repudiandae",
     "Deleted": false,
-    "UdListDefinitionId": 713,
-    "Rank": 1002
+    "UdListDefinitionId": 379,
+    "Rank": 783
   },
   {
-    "Id": 50,
-    "Name": "VonRueden Inc and Sons",
-    "Tooltip": "possimus",
+    "Id": 797,
+    "Name": "Lesch-Rohan",
+    "Tooltip": "repudiandae",
     "Deleted": false,
-    "UdListDefinitionId": 713,
-    "Rank": 1002
+    "UdListDefinitionId": 379,
+    "Rank": 783
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 349,
-    "Name": "Cole, Batz and Lebsack",
-    "Tooltip": "fuga",
+    "Id": 828,
+    "Name": "Murray Group",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "UdListDefinitionId": 713,
-    "Rank": 360,
+    "UdListDefinitionId": 760,
+    "Rank": 114,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 240
+        "FieldLength": 959
       }
     }
   }

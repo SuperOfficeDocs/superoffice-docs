@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 76,
+  "ErpConnectionId": 968,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 756,
-      "CrmFieldKey": "ut",
-      "CrmDisplayName": "Farrell-Eichmann",
-      "CrmDisplayTooltip": "reprehenderit",
-      "ErpFieldKey": "suscipit",
+      "ErpFieldId": 227,
+      "CrmFieldKey": "asperiores",
+      "CrmDisplayName": "Jewess LLC",
+      "CrmDisplayTooltip": "dolores",
+      "ErpFieldKey": "praesentium",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Hahn Inc and Sons",
-      "ErpDisplayTooltip": "ratione",
-      "SyncToCrm": true,
+      "ErpDisplayName": "Effertz-Cormier",
+      "ErpDisplayTooltip": "sit",
+      "SyncToCrm": false,
       "SyncToErp": true,
-      "ShowInGui": false,
+      "ShowInGui": true,
       "ShowInSearch": true,
-      "AlreadyMapped": true,
-      "MissingInERP": false,
+      "AlreadyMapped": false,
+      "MissingInERP": true,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "illo",
+      "ListReference": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 542
+          "FieldLength": 847
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldType": "System.String",
+      "FieldLength": 767
     }
   }
 }

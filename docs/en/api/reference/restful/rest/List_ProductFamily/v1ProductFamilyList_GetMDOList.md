@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=False
-GET /api/v1/List/ProductFamily/MDOItems?query=dolorem
+GET /api/v1/List/ProductFamily/MDOItems?flat=True
+GET /api/v1/List/ProductFamily/MDOItems?query=qui
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 291,
-    "Name": "Stamm-Wuckert",
-    "ToolTip": "Qui aut ut quod.",
+    "Id": 558,
+    "Name": "McGlynn Group",
+    "ToolTip": "Odio voluptatem nesciunt.",
     "Deleted": false,
-    "Rank": 123,
-    "Type": "harum",
+    "Rank": 820,
+    "Type": "repellendus",
     "ChildItems": [
       {
-        "Id": 503,
-        "Name": "Stiedemann Group",
-        "ToolTip": "Est qui et inventore voluptas sit.",
+        "Id": 155,
+        "Name": "Armstrong, McGlynn and Haley",
+        "ToolTip": "Nisi unde quia.",
         "Deleted": true,
-        "Rank": 181,
-        "Type": "unde",
+        "Rank": 586,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "omnis",
-        "ColorBlock": 933,
-        "ExtraInfo": "sunt",
-        "StyleHint": "exercitationem",
-        "FullName": "Bettie Runolfsdottir",
+        "IconHint": "veritatis",
+        "ColorBlock": 47,
+        "ExtraInfo": "illum",
+        "StyleHint": "omnis",
+        "FullName": "Mr. Hermina Alexandro Hilll MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 763
+            "FieldType": "System.Int32",
+            "FieldLength": 379
           }
         }
       }
     ],
-    "IconHint": "deleniti",
-    "ColorBlock": 855,
-    "ExtraInfo": "consequuntur",
-    "StyleHint": "omnis",
-    "FullName": "Sydnie D'Amore V",
+    "IconHint": "omnis",
+    "ColorBlock": 51,
+    "ExtraInfo": "soluta",
+    "StyleHint": "eum",
+    "FullName": "Ms. Glenda Lynch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 267
+        "FieldLength": 787
       }
     }
   }

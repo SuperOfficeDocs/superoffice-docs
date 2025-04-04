@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Credited/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 883,
-  "Name": "Botsford LLC",
-  "Tooltip": "quidem",
+  "Id": 192,
+  "Name": "Reinger Group",
+  "Tooltip": "enim",
   "Deleted": true,
-  "UdListDefinitionId": 770,
-  "Rank": 541
+  "UdListDefinitionId": 825,
+  "Rank": 809
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 222,
-  "Name": "Bahringer-Stamm",
-  "Tooltip": "ut",
+  "Id": 169,
+  "Name": "Hamill-Balistreri",
+  "Tooltip": "veritatis",
   "Deleted": false,
-  "UdListDefinitionId": 180,
-  "Rank": 1001,
+  "UdListDefinitionId": 616,
+  "Rank": 972,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 341
     }
   }
 }

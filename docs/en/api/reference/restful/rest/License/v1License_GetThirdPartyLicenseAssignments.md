@@ -73,7 +73,7 @@ OK
 GET /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,26 +84,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Unrestricted": false,
-    "Total": 27,
-    "Tooltip": "tenetur",
-    "CanAssign": false,
-    "Free": 769,
-    "InUse": 668,
-    "IsHidden": false,
+    "Unrestricted": true,
+    "Total": 76,
+    "Tooltip": "ut",
+    "CanAssign": true,
+    "Free": 274,
+    "InUse": 12,
+    "IsHidden": true,
     "Assigned": false,
-    "ModuleLicenseId": 657,
-    "Name": "Hegmann Inc and Sons",
-    "Description": "Business-focused methodical alliance",
-    "PrerequisiteModuleName": "Pfannerstill, Stanton and Reichel",
-    "SortOrder": 875,
-    "ExtraFlags": 219,
+    "ModuleLicenseId": 134,
+    "Name": "Baumbach, Erdman and Ernser",
+    "Description": "Managed discrete strategy",
+    "PrerequisiteModuleName": "Dickinson, Runte and Barrows",
+    "SortOrder": 575,
+    "ExtraFlags": 30,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 517
+        "FieldLength": 504
       }
     }
   }

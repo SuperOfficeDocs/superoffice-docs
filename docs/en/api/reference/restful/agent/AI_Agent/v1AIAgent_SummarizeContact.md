@@ -74,9 +74,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 247,
-  "NumSentences": 672,
-  "IsoLangCode": "aspernatur"
+  "ContactId": 656,
+  "NumSentences": 58,
+  "IsoLangCode": "possimus"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"illum"
+"qui"
 ```

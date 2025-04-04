@@ -73,7 +73,7 @@ OK
 GET /api/v1/Person/{personId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Tue, 13 Mar 2018 14:28:27 G3T
+Last-Modified: Sun, 12 Oct 2003 13:14:08 G10T
 
 {
-  "BlobId": 439,
-  "BlobSize": 486,
-  "Description": "Right-sized exuding monitoring",
-  "ExtraInfo": "qui",
+  "BlobId": 302,
+  "BlobSize": 607,
+  "Description": "Switchable uniform focus group",
+  "ExtraInfo": "error",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "facere",
-  "OriginalSize": 191,
-  "CreatedDate": "2016-07-05T14:28:27.0239403+02:00",
-  "UpdatedDate": "2018-03-13T14:28:27.0239403+01:00",
+  "MimeType": "ea",
+  "OriginalSize": 17,
+  "CreatedDate": "2001-07-04T13:14:08.8992518+02:00",
+  "UpdatedDate": "2003-10-12T13:14:08.8992518+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "labore",
+  "ConceptualType": "minus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 102
+      "FieldLength": 411
     }
   }
 }

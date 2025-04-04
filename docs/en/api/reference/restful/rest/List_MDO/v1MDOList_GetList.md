@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=False
-GET /api/v1/MDOList/{listname}?additional=autem
-GET /api/v1/MDOList/{listname}?query=non
+GET /api/v1/MDOList/{listname}?flat=True
+GET /api/v1/MDOList/{listname}?additional=incidunt
+GET /api/v1/MDOList/{listname}?query=sint
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 369,
-    "Name": "Jenkins-Greenfelder",
-    "ToolTip": "Quia vero cumque quis.",
+    "Id": 133,
+    "Name": "Lindgren, Crist and Hyatt",
+    "ToolTip": "Rerum aliquam dolor inventore ut sunt.",
     "Deleted": false,
-    "Rank": 193,
-    "Type": "ex",
+    "Rank": 166,
+    "Type": "consectetur",
     "ChildItems": [
       {
-        "Id": 364,
-        "Name": "Jacobs-Roberts",
-        "ToolTip": "Quasi sint eligendi doloremque nihil ut et.",
+        "Id": 108,
+        "Name": "Pagac, McLaughlin and Legros",
+        "ToolTip": "Ducimus maxime dolorem quae eius laborum nihil.",
         "Deleted": true,
-        "Rank": 634,
-        "Type": "earum",
+        "Rank": 685,
+        "Type": "nisi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "optio",
-        "ColorBlock": 574,
-        "ExtraInfo": "id",
-        "StyleHint": "cupiditate",
-        "FullName": "Miss Maxime Farrell IV",
+        "IconHint": "enim",
+        "ColorBlock": 666,
+        "ExtraInfo": "quibusdam",
+        "StyleHint": "debitis",
+        "FullName": "Mustafa Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 487
+            "FieldType": "System.Int32",
+            "FieldLength": 463
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 430,
-    "ExtraInfo": "dolor",
-    "StyleHint": "dolorum",
-    "FullName": "Jakayla Reynolds",
+    "IconHint": "architecto",
+    "ColorBlock": 258,
+    "ExtraInfo": "quas",
+    "StyleHint": "doloribus",
+    "FullName": "Sammy Kuhn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 688
+        "FieldType": "System.String",
+        "FieldLength": 548
       }
     }
   }

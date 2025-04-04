@@ -76,10 +76,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 589,
-  "TableName": "Rath, Will and Hansen",
+  "RoleId": 447,
+  "TableName": "Block-Hane",
   "RelationToOwner": "Anonymous",
-  "DataRightValue": "et"
+  "DataRightValue": "ratione"
 }
 ```
 

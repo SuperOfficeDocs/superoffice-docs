@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Rating/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleStageId": 822,
-  "Value": "recusandae",
-  "Tooltip": "harum",
-  "Probability": 981,
+  "SaleStageId": 253,
+  "Value": "dolores",
+  "Tooltip": "ratione",
+  "Probability": 158,
   "Deleted": false,
-  "Rank": 521,
+  "Rank": 491,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 535
+      "FieldLength": 1001
     }
   }
 }

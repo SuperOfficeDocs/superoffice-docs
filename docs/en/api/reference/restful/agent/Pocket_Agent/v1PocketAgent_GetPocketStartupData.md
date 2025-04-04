@@ -87,10 +87,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "omnis",
-    "voluptas"
+    "ullam",
+    "sunt"
   ],
-  "CurrentClientTime": "1998-12-17T14:28:22.2272598+01:00"
+  "CurrentClientTime": "2007-06-16T13:14:00.8763305+02:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "et",
-    "nulla"
+    "pariatur",
+    "voluptatem"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 963,
-  "NotificationsCount": 361,
+  "OverdueSalesCount": 790,
+  "NotificationsCount": 467,
   "SystemWebPanels": [
     {
-      "WebPanelId": 593,
-      "Name": "Mertz-Marquardt",
-      "Tooltip": "qui",
+      "WebPanelId": 790,
+      "Name": "Reichel LLC",
+      "Tooltip": "quis",
       "Deleted": false,
-      "Rank": 431,
+      "Rank": 860,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": false,
-      "OnSatellite": false,
-      "OnTravel": true,
-      "OnSalesMarketingWeb": true,
+      "OnCentral": true,
+      "OnSatellite": true,
+      "OnTravel": false,
+      "OnSalesMarketingWeb": false,
       "OnSalesMarketingPocket": true,
       "ShowInMenuBar": false,
       "ShowInToolBar": true,
       "ShowInAddressBar": false,
       "ShowInStatusBar": false,
-      "WindowName": "Schultz Inc and Sons",
+      "WindowName": "Cassin, Monahan and Koepp",
       "Url": "http://www.example.com/",
-      "ProgId": "non",
-      "Icon": 334,
+      "ProgId": "nihil",
+      "Icon": 461,
       "AlwaysReloadOnShow": false,
-      "NeverReloadOnCurrentChange": true,
+      "NeverReloadOnCurrentChange": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 771
+          "FieldLength": 197
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "aut",
+      "RawValue": "et",
       "Specification": null,
-      "DisplayValue": "qui",
-      "DisplayTooltip": "ut",
+      "DisplayValue": "dolorem",
+      "DisplayTooltip": "at",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 429,
-      "PrefDescId": 39,
-      "TableName": "Mosciski-Jaskolski",
-      "UserPreferenceId": 181,
+      "TargetId": 503,
+      "PrefDescId": 647,
+      "TableName": "Torp, Mohr and Hintz",
+      "UserPreferenceId": 684,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 670
+          "FieldType": "System.Int32",
+          "FieldLength": 525
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "quod",
+  "CustomData": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 670
+      "FieldLength": 823
     }
   }
 }

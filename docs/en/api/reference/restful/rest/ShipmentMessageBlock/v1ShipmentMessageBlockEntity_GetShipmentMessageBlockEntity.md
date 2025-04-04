@@ -90,20 +90,20 @@ HTTP/1.1 200 ShipmentMessageBlockEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 187,
-  "AssociateId": 82,
-  "Block": "libero",
-  "Registered": "2002-08-12T14:28:27.2583066+02:00",
-  "RegisteredAssociateId": 452,
-  "Updated": "2025-03-10T14:28:27.2583066+01:00",
-  "UpdatedAssociateId": 762,
-  "UpdatedCount": 628,
+  "ShipmentMessageBlockId": 102,
+  "AssociateId": 581,
+  "Block": "id",
+  "Registered": "2011-05-24T13:14:09.1966452+02:00",
+  "RegisteredAssociateId": 199,
+  "Updated": "2023-02-22T13:14:09.1966452+01:00",
+  "UpdatedAssociateId": 359,
+  "UpdatedCount": 516,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 969
     }
   },
   "_Links": {

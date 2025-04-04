@@ -88,14 +88,14 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Bergstrom-Goodwin",
-      "Operator": "et",
+      "Name": "Berge-Green",
+      "Operator": "autem",
       "Values": [
-        "inventore",
-        "laboriosam"
+        "expedita",
+        "et"
       ],
       "DisplayValues": [
-        "qui",
+        "iure",
         "quia"
       ],
       "ColumnInfo": null,
@@ -104,9 +104,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 596,
+      "InterParenthesis": 40,
       "InterOperator": "And",
-      "UniqueHash": 929
+      "UniqueHash": 674
     }
   ]
 }
@@ -120,29 +120,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Legros-Osinski",
-    "Operator": "saepe",
+    "Name": "Kihn-Langworth",
+    "Operator": "incidunt",
     "Values": [
-      "repellat",
-      "porro"
+      "dicta",
+      "illo"
     ],
     "DisplayValues": [
-      "est",
-      "nemo"
+      "architecto",
+      "deleniti"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Leannon, Cremin and Abbott",
-        "Operator": "aut",
+        "Name": "Green-Becker",
+        "Operator": "error",
         "Values": [
-          "soluta",
-          "recusandae"
+          "ipsum",
+          "modi"
         ],
         "DisplayValues": [
-          "voluptas",
-          "est"
+          "dolor",
+          "quisquam"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -150,14 +150,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 108,
+        "InterParenthesis": 341,
         "InterOperator": "And",
-        "UniqueHash": 398
+        "UniqueHash": 529
       }
     ],
-    "InterParenthesis": 560,
+    "InterParenthesis": 995,
     "InterOperator": "And",
-    "UniqueHash": 759
+    "UniqueHash": 637
   }
 ]
 ```

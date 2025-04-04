@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Position/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Position/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 15,
-    "Name": "Wisoky-Mills",
-    "ToolTip": "Officia dolore repellat voluptates.",
+    "Id": 146,
+    "Name": "Kuphal LLC",
+    "ToolTip": "Iure voluptate eum soluta ut.",
     "Deleted": false,
-    "Rank": 996,
-    "Type": "qui",
-    "ColorBlock": 989,
-    "IconHint": "vitae",
+    "Rank": 558,
+    "Type": "ut",
+    "ColorBlock": 253,
+    "IconHint": "aut",
     "Selected": false,
-    "LastChanged": "1998-10-10T14:28:27.6020419+02:00",
+    "LastChanged": "2020-12-25T13:14:09.8691543+01:00",
     "ChildItems": [
       {
-        "Id": 313,
-        "Name": "Emmerich LLC",
-        "ToolTip": "Rerum tenetur laudantium et facere iste.",
-        "Deleted": true,
-        "Rank": 668,
-        "Type": "libero",
-        "ColorBlock": 67,
-        "IconHint": "aut",
+        "Id": 597,
+        "Name": "Bergnaum, Zieme and Gleichner",
+        "ToolTip": "Velit molestias quibusdam.",
+        "Deleted": false,
+        "Rank": 422,
+        "Type": "sunt",
+        "ColorBlock": 763,
+        "IconHint": "deleniti",
         "Selected": false,
-        "LastChanged": "2020-09-06T14:28:27.6020419+02:00",
+        "LastChanged": "2016-11-18T13:14:09.8691543+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "ad",
-        "Hidden": false,
-        "FullName": "Ms. Trystan Aylin Paucek",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "doloremque",
+        "Hidden": true,
+        "FullName": "Mr. Aurore Bauch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 55
+            "FieldLength": 729
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "repudiandae",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "praesentium",
     "Hidden": false,
-    "FullName": "Gay Velma Lindgren Jr.",
+    "FullName": "Ibrahim Pagac",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 601
+        "FieldType": "System.String",
+        "FieldLength": 868
       }
     }
   }

@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Relation/CreateDefaultContactRelationEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 11,
-  "SourcePersonId": 213,
-  "DestinationContactId": 99,
-  "DestinationPersonId": 159,
-  "RelationId": 540,
-  "Comment": "at",
-  "RelationDefinitionId": 736,
-  "Reversed": 37,
-  "UpdatedDate": "2001-09-02T14:28:22.3053817+02:00",
-  "CreatedDate": "2016-03-26T14:28:22.3053817+01:00",
+  "SourceContactId": 853,
+  "SourcePersonId": 618,
+  "DestinationContactId": 745,
+  "DestinationPersonId": 50,
+  "RelationId": 893,
+  "Comment": "nulla",
+  "RelationDefinitionId": 726,
+  "Reversed": 655,
+  "UpdatedDate": "2015-06-26T13:14:01.017639+02:00",
+  "CreatedDate": "2015-04-03T13:14:01.017639+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Jacobson-Smitham",
-  "SourcePersonName": "Stracke-Mayert",
-  "DestinationContactName": "Powlowski-Bednar",
-  "DestinationPersonName": "Johnson-Barton",
-  "ActiveText": "quis",
-  "PassiveText": "placeat",
+  "SourceContactName": "Kilback, Kuphal and Lesch",
+  "SourcePersonName": "Rowe-Hills",
+  "DestinationContactName": "Wolf Inc and Sons",
+  "DestinationPersonName": "Franecki LLC",
+  "ActiveText": "officia",
+  "PassiveText": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 2
+      "FieldType": "System.Int32",
+      "FieldLength": 717
     }
   }
 }

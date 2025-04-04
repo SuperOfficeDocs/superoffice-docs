@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/SaveHeadingFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 316,
+  "Id": 432,
   "Entity": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 339,
-  "Name": "Cremin Group",
-  "Tooltip": "est",
+  "HeadingId": 391,
+  "Name": "Hamill-Von",
+  "Tooltip": "saepe",
   "Deleted": false,
-  "Rank": 104,
-  "UdListDefinitionId": 762,
+  "Rank": 245,
+  "UdListDefinitionId": 232,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 566
+      "FieldType": "System.Int32",
+      "FieldLength": 150
     }
   }
 }

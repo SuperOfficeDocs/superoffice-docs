@@ -119,12 +119,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "doloremque",
+    "path": "voluptas",
     "value": {}
   },
   {
     "op": "add",
-    "path": "doloremque",
+    "path": "voluptas",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 PreferenceDescriptionLine  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 906,
-  "PrefDescId": 698,
+  "PrefDescLineId": 392,
+  "PrefDescId": 475,
   "PrefValue": "aut",
   "PrefShowValue": "omnis",
-  "Description": "Right-sized 24/7 migration",
-  "IsBuiltin": true,
+  "Description": "Public-key motivating projection",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 708
+      "FieldLength": 255
     }
   },
   "_Links": {

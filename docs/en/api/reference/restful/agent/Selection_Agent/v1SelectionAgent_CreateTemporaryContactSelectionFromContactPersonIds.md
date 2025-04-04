@@ -113,18 +113,18 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromContactPersonIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ContactPersonIds": [
     {
-      "PersonId": 144,
-      "ContactId": 177
+      "PersonId": 882,
+      "ContactId": 434
     },
     {
-      "PersonId": 144,
-      "ContactId": 177
+      "PersonId": 882,
+      "ContactId": 434
     }
   ]
 }
@@ -137,70 +137,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Innovative intangible access",
-  "Postit": "pariatur",
+  "Description": "Re-contextualized contextually-based groupware",
+  "Postit": "minima",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 224,
-  "IncludePerson": 114,
+  "GroupIdx": 832,
+  "IncludePerson": 357,
   "MemberCount": 99.99,
-  "Name": "Hammes-Sauer",
-  "PostitTextId": 44,
-  "CreatedDate": "2001-08-07T14:28:22.3991281+02:00",
-  "SelectionId": 262,
-  "SoundEx": "voluptas",
-  "Source": 635,
-  "TextId": 569,
-  "UpdatedDate": "2024-08-31T14:28:22.3991281+02:00",
-  "UpdatedCount": 213,
-  "Visibility": 341,
+  "Name": "Cormier-Kunze",
+  "PostitTextId": 589,
+  "CreatedDate": "2010-11-30T13:14:01.300672+01:00",
+  "SelectionId": 240,
+  "SoundEx": "earum",
+  "Source": 395,
+  "TextId": 94,
+  "UpdatedDate": "2003-05-09T13:14:01.300672+02:00",
+  "UpdatedCount": 467,
+  "Visibility": 811,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 49,
-  "TargetTableName": "Hand Group",
-  "Completed": true,
-  "LeftSelectionId": 668,
-  "RightSelectionId": 490,
+  "TargetTableNumber": 434,
+  "TargetTableName": "Schultz-O'Conner",
+  "Completed": false,
+  "LeftSelectionId": 161,
+  "RightSelectionId": 557,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Hauck Inc and Sons",
-  "ShadowProviderName": "Gislason, Jaskolski and Dooley",
-  "ChartKey": "aliquam",
-  "LastLoaded": "2020-01-14T14:28:22.3991281+01:00",
-  "LastLoadedBy": 906,
+  "MainProviderName": "Rempel, Welch and Lynch",
+  "ShadowProviderName": "Kreiger Inc and Sons",
+  "ChartKey": "voluptas",
+  "LastLoaded": "2001-04-09T13:14:01.300672+02:00",
+  "LastLoadedBy": 412,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2002-01-09T14:28:22.3991281+01:00",
-  "LastMembershipChangeBy": 815,
+  "LastMembershipChange": "2002-09-24T13:14:01.300672+02:00",
+  "LastMembershipChangeBy": 583,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "aut",
-  "MemberTabHeading": "consequatur",
-  "MailingsProviderName": "Bode Inc and Sons",
-  "DashboardTileDefinitionId": 487,
+  "MainHeading": "autem",
+  "MemberTabHeading": "voluptatem",
+  "MailingsProviderName": "Shields, Hirthe and Leannon",
+  "DashboardTileDefinitionId": 369,
   "VisibleFor": [
     {
-      "VisibleId": 573,
+      "VisibleId": 979,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldType": "System.String",
+          "FieldLength": 208
         }
       }
     },
     {
-      "VisibleId": 573,
+      "VisibleId": 979,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 572
+          "FieldType": "System.String",
+          "FieldLength": 208
         }
       }
     }
@@ -210,7 +210,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldLength": 833
     }
   }
 }

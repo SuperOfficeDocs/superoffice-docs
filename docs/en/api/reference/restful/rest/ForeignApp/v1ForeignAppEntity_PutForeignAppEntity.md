@@ -92,27 +92,27 @@ ForeignAppEntity updated.
 PUT /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 26,
-  "Name": "Farrell, Reinger and Harris",
-  "CreatedDate": "2012-06-11T14:28:26.9458186+02:00",
-  "UpdatedDate": "2016-10-16T14:28:26.9458186+02:00",
+  "ForeignAppId": 942,
+  "Name": "Kutch, Stanton and Zulauf",
+  "CreatedDate": "2000-05-25T13:14:08.7428891+02:00",
+  "UpdatedDate": "2004-08-26T13:14:08.7428891+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 658,
-      "Name": "Gottlieb LLC",
-      "CreatedDate": "2004-10-10T14:28:26.9458186+02:00",
-      "UpdatedDate": "1998-08-12T14:28:26.9458186+02:00",
-      "AssociateFullName": "Cletus Zieme",
-      "CreatedBy": "itaque",
-      "UpdatedBy": "placeat",
-      "DeviceIdentifier": "neque",
-      "ForeignAppId": 197
+      "ForeignDeviceId": 645,
+      "Name": "Schinner Inc and Sons",
+      "CreatedDate": "2013-03-25T13:14:08.7428891+01:00",
+      "UpdatedDate": "2004-07-14T13:14:08.7428891+02:00",
+      "AssociateFullName": "Martin Dibbert",
+      "CreatedBy": "beatae",
+      "UpdatedBy": "aspernatur",
+      "DeviceIdentifier": "autem",
+      "ForeignAppId": 165
     }
   ]
 }
@@ -125,29 +125,29 @@ HTTP/1.1 200 ForeignAppEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 975,
-  "Name": "Cronin, Crona and Weber",
-  "CreatedDate": "2023-09-26T14:28:26.9458186+02:00",
-  "UpdatedDate": "2004-07-03T14:28:26.9458186+02:00",
+  "ForeignAppId": 983,
+  "Name": "Armstrong Group",
+  "CreatedDate": "2013-10-10T13:14:08.7585151+02:00",
+  "UpdatedDate": "2006-11-09T13:14:08.7585151+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 935,
-      "Name": "Blanda, Wiza and Lakin",
-      "CreatedDate": "2016-10-28T14:28:26.9458186+02:00",
-      "UpdatedDate": "2007-06-07T14:28:26.9458186+02:00",
-      "AssociateFullName": "Ms. Imogene Schinner MD",
-      "CreatedBy": "est",
-      "UpdatedBy": "id",
-      "DeviceIdentifier": "est",
-      "ForeignAppId": 177,
+      "ForeignDeviceId": 902,
+      "Name": "Jenkins-Rutherford",
+      "CreatedDate": "2021-10-26T13:14:08.7585151+02:00",
+      "UpdatedDate": "2018-07-18T13:14:08.7585151+02:00",
+      "AssociateFullName": "Felicity Braun V",
+      "CreatedBy": "sed",
+      "UpdatedBy": "totam",
+      "DeviceIdentifier": "exercitationem",
+      "ForeignAppId": 665,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 190
+          "FieldLength": 734
         }
       }
     }
@@ -157,12 +157,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 242
+      "FieldLength": 558
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

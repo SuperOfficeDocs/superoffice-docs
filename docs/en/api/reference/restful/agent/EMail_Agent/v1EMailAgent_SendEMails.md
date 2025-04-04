@@ -102,7 +102,7 @@ OK
 POST /api/v1/Agents/EMail/SendEMails
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -121,18 +121,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "Subject": "quaerat",
-      "HTMLBody": "voluptates",
+      "Subject": "minima",
+      "HTMLBody": "vel",
       "From": null,
-      "Sent": "2024-10-29T14:28:21.9460219+01:00",
-      "Size": 563,
+      "Sent": "2001-05-13T13:14:00.360602+02:00",
+      "Size": 832,
       "Priority": "High",
       "Flags": "Answered",
-      "MessageID": "vel",
-      "PlainBody": "aspernatur",
-      "IsSent": true,
+      "MessageID": "amet",
+      "PlainBody": "molestiae",
+      "IsSent": false,
       "EMailSOInfo": null,
-      "ServerId": 876,
+      "ServerId": 201,
       "Attachments": [
         {},
         {}
@@ -141,13 +141,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "FolderName": "Hermiston-Volkman",
-      "EmailItemId": 531,
-      "AccountId": 100,
-      "ReceivedAt": "2018-06-27T14:28:21.9460219+02:00",
+      "FolderName": "Mosciski-Price",
+      "EmailItemId": 931,
+      "AccountId": 272,
+      "ReceivedAt": "2001-06-07T13:14:00.360602+02:00",
       "InReplyTo": null,
-      "RepliedAt": "2010-11-01T14:28:21.9460219+01:00",
-      "HasCalendarData": true,
+      "RepliedAt": "2001-08-14T13:14:00.360602+02:00",
+      "HasCalendarData": false,
       "CalMethod": "Add",
       "CalReplyStatus": "Accepted"
     }
@@ -166,147 +166,147 @@ Content-Type: application/json; charset=utf-8
   {
     "To": [
       {
-        "ContactId": 144,
-        "ContactName": "Hahn, Treutel and Bogan",
-        "PersonId": 991,
-        "PersonName": "Walker, McLaughlin and Jenkins",
-        "AssociateId": 645,
-        "Address": "voluptatem",
-        "EmailId": 511,
+        "ContactId": 461,
+        "ContactName": "Blanda, Spencer and Grant",
+        "PersonId": 264,
+        "PersonName": "Jacobson, Champlin and Schumm",
+        "AssociateId": 301,
+        "Address": "et",
+        "EmailId": 952,
         "DuplicatePersonIds": [
-          586,
-          990
+          200,
+          176
         ],
-        "Name": "Ruecker-Harvey",
+        "Name": "Cassin, Stiedemann and Ankunding",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 927
+            "FieldType": "System.String",
+            "FieldLength": 36
           }
         }
       }
     ],
     "Cc": [
       {
-        "ContactId": 608,
-        "ContactName": "Kiehn, Casper and Dooley",
-        "PersonId": 118,
-        "PersonName": "Carter-Hirthe",
-        "AssociateId": 293,
-        "Address": "accusantium",
-        "EmailId": 900,
+        "ContactId": 845,
+        "ContactName": "Ledner, Lemke and Heller",
+        "PersonId": 795,
+        "PersonName": "Stiedemann-Harber",
+        "AssociateId": 561,
+        "Address": "autem",
+        "EmailId": 945,
         "DuplicatePersonIds": [
-          117,
-          87
+          757,
+          985
         ],
-        "Name": "Harber LLC",
+        "Name": "Bruen-Terry",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 415
+            "FieldLength": 572
           }
         }
       }
     ],
     "Bcc": [
       {
-        "ContactId": 137,
-        "ContactName": "Kulas-Mraz",
-        "PersonId": 773,
-        "PersonName": "Hickle Group",
-        "AssociateId": 581,
-        "Address": "nobis",
-        "EmailId": 772,
+        "ContactId": 708,
+        "ContactName": "Conroy Inc and Sons",
+        "PersonId": 538,
+        "PersonName": "Huel-Larkin",
+        "AssociateId": 815,
+        "Address": "vel",
+        "EmailId": 248,
         "DuplicatePersonIds": [
-          452,
-          310
+          606,
+          202
         ],
-        "Name": "Ritchie, Turcotte and Bode",
+        "Name": "Dickinson-Jakubowski",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 494
+            "FieldType": "System.String",
+            "FieldLength": 801
           }
         }
       }
     ],
-    "Subject": "eligendi",
-    "HTMLBody": "dolorem",
+    "Subject": "sunt",
+    "HTMLBody": "ratione",
     "From": null,
-    "Sent": "2018-05-14T14:28:21.9460219+02:00",
-    "Size": 811,
+    "Sent": "2012-12-14T13:14:00.360602+01:00",
+    "Size": 113,
     "Priority": "High",
     "Flags": "Answered",
-    "MessageID": "voluptatem",
-    "PlainBody": "voluptatem",
-    "IsSent": false,
+    "MessageID": "nihil",
+    "PlainBody": "doloribus",
+    "IsSent": true,
     "EMailSOInfo": null,
-    "ServerId": 832,
+    "ServerId": 665,
     "Attachments": [
       {
-        "Description": "Profit-focused eco-centric migration",
-        "Filename": "sunt",
-        "Size": 429,
+        "Description": "Triple-buffered tertiary flexibility",
+        "Filename": "et",
+        "Size": 894,
         "Type": "sint",
-        "Encoding": "sed",
-        "Id": "eum",
-        "Disposition": "fuga",
+        "Encoding": "maiores",
+        "Id": "explicabo",
+        "Disposition": "ut",
         "IsSafeFileExtension": false,
         "Stream": "GIF89....File contents as raw bytes...",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 588
+            "FieldType": "System.String",
+            "FieldLength": 911
           }
         }
       }
     ],
     "CustomHeaderList": [
       {
-        "Name": "Schultz-Zieme",
+        "Name": "Langosh-Kirlin",
         "Values": [
-          "nihil",
-          "deleniti"
+          "consequatur",
+          "cumque"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 450
+            "FieldLength": 136
           }
         }
       },
       {
-        "Name": "Schultz-Zieme",
+        "Name": "Langosh-Kirlin",
         "Values": [
-          "nihil",
-          "deleniti"
+          "consequatur",
+          "cumque"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 450
+            "FieldLength": 136
           }
         }
       }
     ],
-    "FolderName": "Mills-Daugherty",
-    "EmailItemId": 49,
-    "AccountId": 133,
-    "ReceivedAt": "2008-08-19T14:28:21.9460219+02:00",
+    "FolderName": "Reynolds, Jast and Ruecker",
+    "EmailItemId": 940,
+    "AccountId": 882,
+    "ReceivedAt": "2005-05-05T13:14:00.360602+02:00",
     "InReplyTo": null,
-    "RepliedAt": "2025-03-17T14:28:21.9460219+01:00",
+    "RepliedAt": "2021-06-25T13:14:00.360602+02:00",
     "HasCalendarData": false,
     "CalMethod": "Add",
     "CalReplyStatus": "Accepted",
@@ -314,8 +314,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 697
+        "FieldType": "System.Int32",
+        "FieldLength": 462
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 488,
-    "Name": "Anderson-Collier",
-    "ToolTip": "Non et explicabo temporibus minima.",
+    "Id": 922,
+    "Name": "Hessel, Kreiger and Kulas",
+    "ToolTip": "Perferendis quis debitis.",
     "Deleted": false,
-    "Rank": 4,
-    "Type": "voluptates",
-    "ColorBlock": 273,
-    "IconHint": "ad",
+    "Rank": 389,
+    "Type": "dolorum",
+    "ColorBlock": 745,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2011-10-30T14:28:27.5395453+01:00",
+    "LastChanged": "2015-06-11T13:14:09.7285208+02:00",
     "ChildItems": [
       {
-        "Id": 568,
-        "Name": "West-Volkman",
-        "ToolTip": "Odio quia assumenda dolorem quia debitis.",
+        "Id": 206,
+        "Name": "Dickinson-Koelpin",
+        "ToolTip": "Velit neque quia consequuntur dolore sunt voluptatum nisi.",
         "Deleted": true,
-        "Rank": 258,
-        "Type": "sunt",
-        "ColorBlock": 254,
-        "IconHint": "ut",
+        "Rank": 928,
+        "Type": "amet",
+        "ColorBlock": 646,
+        "IconHint": "at",
         "Selected": false,
-        "LastChanged": "2000-11-19T14:28:27.5395453+01:00",
+        "LastChanged": "2017-07-26T13:14:09.7285208+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minus",
-        "StyleHint": "ducimus",
-        "Hidden": true,
-        "FullName": "Heidi Nicolas"
+        "ExtraInfo": "magni",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Jedediah Wyman"
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "nulla",
+    "StyleHint": "sed",
     "Hidden": true,
-    "FullName": "Caroline Alessandra Cormier III"
+    "FullName": "Aglae Johns"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 451,
-    "Name": "Will Inc and Sons",
-    "ToolTip": "Eos ducimus aliquam dicta.",
+    "Id": 206,
+    "Name": "Bayer Inc and Sons",
+    "ToolTip": "Nihil maiores amet ut nobis.",
     "Deleted": false,
-    "Rank": 33,
-    "Type": "laudantium",
-    "ColorBlock": 374,
-    "IconHint": "vel",
-    "Selected": false,
-    "LastChanged": "1997-12-22T14:28:27.5395453+01:00",
+    "Rank": 952,
+    "Type": "ex",
+    "ColorBlock": 339,
+    "IconHint": "in",
+    "Selected": true,
+    "LastChanged": "2017-10-17T13:14:09.7285208+02:00",
     "ChildItems": [
       {
-        "Id": 995,
-        "Name": "Cummerata, Cruickshank and Berge",
-        "ToolTip": "Reiciendis amet officia.",
-        "Deleted": false,
-        "Rank": 620,
-        "Type": "temporibus",
-        "ColorBlock": 54,
-        "IconHint": "delectus",
-        "Selected": true,
-        "LastChanged": "2013-03-29T14:28:27.5395453+01:00",
+        "Id": 715,
+        "Name": "Ward-Collier",
+        "ToolTip": "Possimus et placeat rerum assumenda sequi eos dolor.",
+        "Deleted": true,
+        "Rank": 799,
+        "Type": "perferendis",
+        "ColorBlock": 217,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "2001-04-02T13:14:09.7285208+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolor",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Alia Dickinson",
+        "ExtraInfo": "sunt",
+        "StyleHint": "necessitatibus",
+        "Hidden": false,
+        "FullName": "Ayana O'Reilly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 909
+            "FieldLength": 872
           }
         }
       }
     ],
-    "ExtraInfo": "modi",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "asperiores",
+    "StyleHint": "corporis",
     "Hidden": false,
-    "FullName": "Prof. Chaya Veum",
+    "FullName": "Deborah Afton Leannon Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldType": "System.String",
+        "FieldLength": 934
       }
     }
   }

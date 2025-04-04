@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 862,
-  "ERPName": "Tillman Group",
-  "DisplayName": "Hintz-Padberg",
-  "DisplayDescription": "Profound reciprocal customer loyalty",
-  "Rank": 736,
-  "ConnectorName": "Wilkinson, Batz and Rice",
-  "ErpConnectionId": 92,
-  "ExtraData": "natus",
+  "QuoteConnectionId": 486,
+  "ERPName": "Graham, Wisoky and Okuneva",
+  "DisplayName": "Pagac, Kautzer and Pollich",
+  "DisplayDescription": "Monitored uniform secured line",
+  "Rank": 881,
+  "ConnectorName": "Mills, Beatty and Windler",
+  "ErpConnectionId": 837,
+  "ExtraData": "aut",
   "IsAvailable": true,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 365,
-      "ERPPriceListKey": "delectus",
-      "QuoteConnectionId": 63,
-      "Name": "Kemmer-Tromp",
-      "Description": "Versatile leading edge standardization",
-      "Currency": "odio",
-      "CurrencyName": "Reichel, Carter and Huels",
-      "ValidFrom": "2017-02-25T14:28:22.3053817+01:00",
-      "ValidTo": "2000-07-08T14:28:22.3053817+02:00",
-      "IsActive": true,
+      "PriceListId": 409,
+      "ERPPriceListKey": "amet",
+      "QuoteConnectionId": 306,
+      "Name": "Lehner Group",
+      "Description": "Innovative even-keeled productivity",
+      "Currency": "aut",
+      "CurrencyName": "Legros, Pagac and Shanahan",
+      "ValidFrom": "2021-09-29T13:14:01.0020135+02:00",
+      "ValidTo": "2004-05-15T13:14:01.0020135+02:00",
+      "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 665
+          "FieldLength": 339
         }
       }
     }
   ],
   "AllAccess": false,
-  "Deleted": true,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    855,
-    613
+    201,
+    694
   ],
   "AssociateAccessIds": [
-    510,
-    929
+    126,
+    28
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 719
+      "FieldType": "System.String",
+      "FieldLength": 552
     }
   }
 }

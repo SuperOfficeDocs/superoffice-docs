@@ -89,35 +89,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 365,
-  "ERPQuoteAlternativeKey": "cupiditate",
-  "QuoteVersionId": 764,
-  "Name": "Hermiston, Schamberger and Rowe",
-  "Description": "Stand-alone 4th generation infrastructure",
+  "QuoteAlternativeId": 394,
+  "ERPQuoteAlternativeKey": "rerum",
+  "QuoteVersionId": 846,
+  "Name": "Parker Group",
+  "Description": "Expanded regional support",
   "Status": "Error",
-  "Reason": "",
-  "ERPDiscountPercent": 23326.362,
-  "ERPDiscountAmount": 19882.095999999998,
-  "DiscountPercent": 25463.75,
-  "DiscountAmount": 4368.796,
+  "Reason": "grow mission-critical convergence",
+  "ERPDiscountPercent": 16256.057999999999,
+  "ERPDiscountAmount": 3472.4719999999998,
+  "DiscountPercent": 10552.178,
+  "DiscountAmount": 28143.32,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "rerum",
-  "VAT": 19471.541999999998,
-  "EarningPercent": 4212.096,
-  "EarningAmount": 16513.046,
-  "SubTotal": 1729.9679999999998,
-  "TotalPrice": 16133.832,
-  "ExtraField1": "officiis",
-  "ExtraField2": "consectetur",
-  "ExtraField3": "et",
-  "ExtraField4": "quaerat",
+  "VATInfo": "dolores",
+  "VAT": 2231.408,
+  "EarningPercent": 30894.971999999998,
+  "EarningAmount": 21082.417999999998,
+  "SubTotal": 24636.374,
+  "TotalPrice": 21214.046,
+  "ExtraField1": "id",
+  "ExtraField2": "excepturi",
+  "ExtraField3": "temporibus",
+  "ExtraField4": "doloribus",
   "ExtraField5": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 987
+      "FieldLength": 891
     }
   }
 }

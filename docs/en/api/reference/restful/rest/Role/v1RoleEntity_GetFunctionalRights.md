@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 769,
-    "Name": "Thompson Inc and Sons",
-    "ToolTip": "Incidunt optio.",
-    "Deleted": false,
-    "Rank": 840,
-    "Type": "adipisci",
-    "ColorBlock": 110,
-    "IconHint": "illo",
+    "Id": 359,
+    "Name": "Romaguera Group",
+    "ToolTip": "Officia eum.",
+    "Deleted": true,
+    "Rank": 984,
+    "Type": "cum",
+    "ColorBlock": 122,
+    "IconHint": "neque",
     "Selected": true,
-    "LastChanged": "2005-12-08T14:28:27.1804149+01:00",
+    "LastChanged": "2011-12-29T13:14:09.0711377+01:00",
     "ChildItems": [
       {
-        "Id": 159,
-        "Name": "Beer-Pouros",
-        "ToolTip": "Deserunt qui distinctio sed laudantium.",
-        "Deleted": false,
-        "Rank": 211,
-        "Type": "corrupti",
-        "ColorBlock": 782,
-        "IconHint": "earum",
-        "Selected": true,
-        "LastChanged": "2015-03-11T14:28:27.1804149+01:00",
+        "Id": 620,
+        "Name": "Maggio, Koss and Pacocha",
+        "ToolTip": "Magni minima.",
+        "Deleted": true,
+        "Rank": 766,
+        "Type": "totam",
+        "ColorBlock": 563,
+        "IconHint": "magni",
+        "Selected": false,
+        "LastChanged": "2020-04-15T13:14:09.0711377+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ea",
-        "StyleHint": "suscipit",
-        "Hidden": false,
-        "FullName": "Mrs. Fredy Elva Corkery PhD",
+        "ExtraInfo": "quam",
+        "StyleHint": "corrupti",
+        "Hidden": true,
+        "FullName": "Mrs. Kirsten Anais Hintz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 95
+            "FieldType": "System.String",
+            "FieldLength": 971
           }
         }
       }
     ],
-    "ExtraInfo": "consequatur",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "saepe",
+    "StyleHint": "quo",
     "Hidden": true,
-    "FullName": "Amani Lois Towne DVM",
+    "FullName": "Kenneth McClure V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 510
+        "FieldType": "System.Int32",
+        "FieldLength": 14
       }
     }
   }

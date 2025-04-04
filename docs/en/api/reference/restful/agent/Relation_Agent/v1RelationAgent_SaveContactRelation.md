@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 243,
-  "SourcePersonId": 762,
-  "DestinationContactId": 156,
-  "DestinationPersonId": 19,
-  "RelationId": 654,
-  "Comment": "dolore",
-  "RelationDefinitionId": 397,
-  "Reversed": 269,
-  "UpdatedDate": "2015-06-09T14:28:22.321006+02:00",
-  "CreatedDate": "2014-04-01T14:28:22.321006+02:00",
+  "SourceContactId": 864,
+  "SourcePersonId": 669,
+  "DestinationContactId": 699,
+  "DestinationPersonId": 372,
+  "RelationId": 1001,
+  "Comment": "omnis",
+  "RelationDefinitionId": 131,
+  "Reversed": 632,
+  "UpdatedDate": "1999-01-24T13:14:01.017639+01:00",
+  "CreatedDate": "2024-09-04T13:14:01.017639+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "McCullough, Veum and Blanda",
-  "SourcePersonName": "Gusikowski-Beahan",
-  "DestinationContactName": "Leannon-Abernathy",
-  "DestinationPersonName": "Mosciski LLC",
-  "ActiveText": "in",
-  "PassiveText": "nostrum",
+  "SourceContactName": "Stokes Group",
+  "SourcePersonName": "Ankunding, Hills and Beatty",
+  "DestinationContactName": "Hammes-Vandervort",
+  "DestinationPersonName": "White Inc and Sons",
+  "ActiveText": "aut",
+  "PassiveText": "in",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 721
+      "FieldType": "System.Int32",
+      "FieldLength": 247
     }
   }
 }

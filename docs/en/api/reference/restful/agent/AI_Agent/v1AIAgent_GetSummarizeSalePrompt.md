@@ -85,10 +85,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 277,
-  "NumSentences": 364,
-  "Summary": "omnis",
-  "IsoLangCode": "aut"
+  "SaleId": 536,
+  "NumSentences": 593,
+  "Summary": "quis",
+  "IsoLangCode": "ipsam"
 }
 ```
 
@@ -99,17 +99,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2018-11-14T14:28:21.1335548+01:00",
-  "UserPrompt": "vel",
-  "UserDisplayText": "eius",
-  "BotResponse": "et",
+  "Timestamp": "2015-06-28T13:13:58.953207+02:00",
+  "UserPrompt": "ipsam",
+  "UserDisplayText": "a",
+  "BotResponse": "iusto",
   "BotActions": {
-    "BotActions1": "ab",
-    "BotActions2": "eum"
+    "BotActions1": "saepe",
+    "BotActions2": "quibusdam"
   },
   "Attachments": [
-    "dolores",
-    "sed"
+    "minus",
+    "eum"
   ]
 }
 ```

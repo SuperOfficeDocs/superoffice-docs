@@ -86,7 +86,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Christiansen, Grant and Goldner"
+  "Name": "Miller-Homenick"
 }
 ```
 
@@ -97,22 +97,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 285,
-  "Name": "Jakubowski Group",
-  "Tooltip": "sint",
+  "Id": 328,
+  "Name": "DuBuque, Zemlak and Langworth",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 287,
+  "Rank": 72,
   "IsCustomList": true,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "impedit",
+  "ListType": "illo",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 703
+      "FieldLength": 555
     }
   }
 }

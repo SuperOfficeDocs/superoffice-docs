@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/Country/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 783,
-  "Name": "Ankunding Inc and Sons",
-  "CurrencyId": 766,
-  "EnglishName": "Renner Inc and Sons",
+  "CountryId": 396,
+  "Name": "Kiehn-Graham",
+  "CurrencyId": 30,
+  "EnglishName": "Steuber-Cummings",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Team-oriented holistic knowledge user",
-  "OrgNrText": "775203",
-  "InterAreaPrefix": "ducimus",
-  "DialInPrefix": "ut",
-  "ZipPrefix": "praesentium",
-  "DomainName": "Grimes-Bayer",
-  "AddressLayoutId": 786,
-  "DomesticAddressLayoutId": 912,
-  "ForeignAddressLayoutId": 753,
-  "Rank": 96,
-  "Tooltip": "incidunt",
+  "ImageDescription": "Optional interactive knowledge base",
+  "OrgNrText": "531125",
+  "InterAreaPrefix": "accusantium",
+  "DialInPrefix": "id",
+  "ZipPrefix": "eos",
+  "DomainName": "Feeney Group",
+  "AddressLayoutId": 134,
+  "DomesticAddressLayoutId": 51,
+  "ForeignAddressLayoutId": 253,
+  "Rank": 877,
+  "Tooltip": "ducimus",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 825
+      "FieldLength": 292
     }
   }
 }

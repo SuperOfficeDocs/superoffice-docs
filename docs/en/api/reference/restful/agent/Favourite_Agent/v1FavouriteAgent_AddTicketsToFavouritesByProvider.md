@@ -67,22 +67,22 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jerde, Bernier and Shanahan",
+  "ProviderName": "Considine, Ward and Hahn",
   "Restrictions": [
     {
-      "Name": "Terry-Stehr",
-      "Operator": "voluptas",
+      "Name": "Kuhn Inc and Sons",
+      "Operator": "qui",
       "Values": [
-        "sit",
-        "et"
+        "eum",
+        "deleniti"
       ],
       "DisplayValues": [
-        "voluptatem",
-        "hic"
+        "eligendi",
+        "deserunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -90,13 +90,13 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 508,
+      "InterParenthesis": 170,
       "InterOperator": "And",
-      "UniqueHash": 518
+      "UniqueHash": 536
     }
   ],
-  "AssociateId": 985,
-  "ExtraInfo": "ducimus"
+  "AssociateId": 264,
+  "ExtraInfo": "quia"
 }
 ```
 

@@ -87,9 +87,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Muller, Rolfson and Osinski",
-  "DeviceName": "Mraz-Koelpin",
-  "DeviceIdentifier": "itaque"
+  "ApplicationName": "Yost Inc and Sons",
+  "DeviceName": "Daugherty Inc and Sons",
+  "DeviceIdentifier": "ut"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 957,
-  "Name": "Leannon Inc and Sons",
-  "CreatedDate": "2017-01-22T14:28:22.0085182+01:00",
-  "UpdatedDate": "2000-04-07T14:28:22.0085182+02:00",
-  "AssociateFullName": "Gregory Borer",
-  "CreatedBy": "labore",
-  "UpdatedBy": "fugit",
-  "DeviceIdentifier": "repellendus",
-  "ForeignAppId": 247,
+  "ForeignDeviceId": 857,
+  "Name": "Cartwright Inc and Sons",
+  "CreatedDate": "2009-03-20T13:14:00.5012353+01:00",
+  "UpdatedDate": "2023-05-05T13:14:00.5012353+02:00",
+  "AssociateFullName": "Natalia Halvorson I",
+  "CreatedBy": "dolorem",
+  "UpdatedBy": "vel",
+  "DeviceIdentifier": "impedit",
+  "ForeignAppId": 294,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldLength": 665
     }
   }
 }

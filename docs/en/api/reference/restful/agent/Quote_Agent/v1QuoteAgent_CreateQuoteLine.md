@@ -122,12 +122,12 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 214,
-  "ERPProductKey": "ea"
+  "QuoteAlternativeId": 474,
+  "ERPProductKey": "voluptatum"
 }
 ```
 
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 221,
-  "ERPQuoteLineKey": "sapiente",
-  "QuoteAlternativeId": 821,
-  "ERPProductKey": "et",
+  "QuoteLineId": 565,
+  "ERPQuoteLineKey": "consectetur",
+  "QuoteAlternativeId": 308,
+  "ERPProductKey": "incidunt",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 7164.324,
-  "DeliveredQuantity": 13285.026,
-  "Rank": 602,
-  "Name": "Rowe-Quigley",
-  "Description": "Reactive hybrid complexity",
-  "Code": "cupiditate",
-  "QuantityUnit": "nisi",
-  "PriceUnit": "vero",
-  "ItemNumber": "738268",
+  "Quantity": 14522.956,
+  "DeliveredQuantity": 21793.836,
+  "Rank": 204,
+  "Name": "VonRueden-Heathcote",
+  "Description": "Down-sized analyzing toolset",
+  "Code": "quaerat",
+  "QuantityUnit": "est",
+  "PriceUnit": "illo",
+  "ItemNumber": "1495379",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "assumenda",
-  "ProductTypeKey": "voluptate",
-  "Supplier": "possimus",
-  "SupplierCode": "voluptate",
-  "Thumbnail": "enim",
-  "VATInfo": "qui",
-  "VAT": 1802.05,
-  "UnitCost": 1585.8039999999999,
-  "UnitMinimumPrice": 5083.348,
-  "UnitListPrice": 24542.354,
+  "ProductFamilyKey": "sit",
+  "ProductTypeKey": "sit",
+  "Supplier": "deserunt",
+  "SupplierCode": "dicta",
+  "Thumbnail": "et",
+  "VATInfo": "vitae",
+  "VAT": 20032.528,
+  "UnitCost": 11802.644,
+  "UnitMinimumPrice": 770.96399999999994,
+  "UnitListPrice": 7302.2199999999993,
   "ExtraInfo": [
     {
-      "Name": "Schiller-Connelly",
-      "Value": "blanditiis",
+      "Name": "Brekke, Ankunding and Huel",
+      "Value": "aliquid",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldLength": 84
         }
       }
     },
     {
-      "Name": "Schiller-Connelly",
-      "Value": "blanditiis",
+      "Name": "Brekke, Ankunding and Huel",
+      "Value": "aliquid",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 565
+          "FieldLength": 84
         }
       }
     }
   ],
-  "RawExtraInfo": "mollitia",
-  "IsSubscription": true,
+  "RawExtraInfo": "sint",
+  "IsSubscription": false,
   "SubscriptionUnit": "et",
-  "SubscriptionQuantity": 16299.934,
-  "SubscriptionStart": "2005-03-29T14:28:22.3053817+02:00",
-  "ERPDiscountPercent": 20546.504,
-  "ERPDiscountAmount": 19361.852,
-  "DiscountPercent": 28284.35,
-  "DiscountAmount": 30428.005999999998,
+  "SubscriptionQuantity": 17177.453999999998,
+  "SubscriptionStart": "2012-02-20T13:14:01.017639+01:00",
+  "ERPDiscountPercent": 1347.62,
+  "ERPDiscountAmount": 30127.142,
+  "DiscountPercent": 1366.424,
+  "DiscountAmount": 6405.896,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 11266.73,
-  "EarningAmount": 12492.124,
-  "SubTotal": 11288.668,
-  "TotalPrice": 836.778,
-  "Rights": "doloremque",
-  "Rule": "occaecati",
-  "ExtraField1": "eos",
-  "ExtraField2": "quae",
-  "ExtraField3": "harum",
-  "ExtraField4": "eveniet",
-  "ExtraField5": "magnam",
+  "EarningPercent": 22730.902,
+  "EarningAmount": 21107.489999999998,
+  "SubTotal": 23548.876,
+  "TotalPrice": 31079.878,
+  "Rights": "in",
+  "Rule": "sit",
+  "ExtraField1": "est",
+  "ExtraField2": "qui",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "quos",
+  "ExtraField5": "aliquid",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 565
     }
   }
 }

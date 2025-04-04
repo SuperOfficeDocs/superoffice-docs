@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/Project/GetPublishedProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    832,
-    420
+    47,
+    980
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 932,
-    "Name": "Altenwerth-Reichel",
-    "Description": "Object-based client-server application",
+    "ProjectId": 75,
+    "Name": "Moen-Jenkins",
+    "Description": "Horizontal tertiary projection",
     "URL": "http://www.example.com/",
-    "Type": "tempore",
-    "AssociateId": 392,
-    "AssociateFullName": "Ms. Seth Kris Weber",
-    "TypeId": 188,
-    "Updated": "2004-02-14T14:28:22.2585084+01:00",
-    "StatusId": 831,
-    "Status": "labore",
-    "TextId": 70,
-    "PublishTo": "2021-08-18T14:28:22.2585084+02:00",
-    "PublishFrom": "2025-01-30T14:28:22.2585084+01:00",
-    "IsPublished": true,
+    "Type": "consectetur",
+    "AssociateId": 211,
+    "AssociateFullName": "Marianne Waters",
+    "TypeId": 402,
+    "Updated": "2023-07-05T13:14:00.9390342+02:00",
+    "StatusId": 819,
+    "Status": "ad",
+    "TextId": 826,
+    "PublishTo": "2022-12-16T13:14:00.9390342+01:00",
+    "PublishFrom": "2010-01-19T13:14:00.9390342+01:00",
+    "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "871282",
-    "ActiveErpLinks": 381,
+    "ProjectNumber": "705694",
+    "ActiveErpLinks": 188,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 195
+        "FieldType": "System.String",
+        "FieldLength": 25
       }
     }
   }

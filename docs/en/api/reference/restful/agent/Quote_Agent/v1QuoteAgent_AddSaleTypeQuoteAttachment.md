@@ -73,8 +73,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 291,
-  "DocumentId": 949
+  "SaleTypeId": 276,
+  "DocumentId": 794
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-208
+883
 ```

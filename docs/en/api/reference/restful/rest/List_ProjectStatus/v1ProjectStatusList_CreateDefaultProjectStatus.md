@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 133,
-  "Name": "Will-Fritsch",
-  "Tooltip": "ratione",
+  "Id": 809,
+  "Name": "Ondricka, Wuckert and Schultz",
+  "Tooltip": "expedita",
   "Deleted": false,
-  "UdListDefinitionId": 907,
-  "Rank": 620,
+  "UdListDefinitionId": 675,
+  "Rank": 575,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 317
+      "FieldLength": 449
     }
   }
 }

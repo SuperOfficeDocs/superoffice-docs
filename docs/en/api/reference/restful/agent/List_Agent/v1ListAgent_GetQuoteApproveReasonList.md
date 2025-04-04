@@ -83,28 +83,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 671,
-    "Value": "similique",
-    "Tooltip": "repellendus",
+    "Id": 402,
+    "Value": "ut",
+    "Tooltip": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldType": "System.String",
+        "FieldLength": 733
       }
     }
   },
   {
-    "Id": 671,
-    "Value": "similique",
-    "Tooltip": "repellendus",
+    "Id": 402,
+    "Value": "ut",
+    "Tooltip": "autem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 481
+        "FieldType": "System.String",
+        "FieldLength": 733
       }
     }
   }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/Appointment/SaveWithCustomInvitation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -90,9 +90,9 @@ Content-Type: application/json; charset=utf-8
   "SendEmailToParticipants": false,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null,
-  "EmailBody": "isidro.grant@stroman.name",
-  "Subject": "quia",
-  "TemplateLanguage": "est"
+  "EmailBody": "milan@hamill.co.uk",
+  "Subject": "iste",
+  "TemplateLanguage": "quos"
 }
 ```
 
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
-  "EmailCreated": false,
+  "EmailCreated": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 162
+      "FieldType": "System.String",
+      "FieldLength": 587
     }
   }
 }

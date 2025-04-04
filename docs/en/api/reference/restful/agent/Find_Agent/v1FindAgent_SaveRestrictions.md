@@ -71,20 +71,20 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quibusdam",
-  "ProviderName": "Larkin-Jenkins",
-  "StorageKey": "odio",
+  "StorageType": "maiores",
+  "ProviderName": "Walter, Price and Thiel",
+  "StorageKey": "recusandae",
   "Restrictions": [
     {
-      "Name": "Murray-Fadel",
-      "Operator": "et",
+      "Name": "Ryan, Leuschke and Dibbert",
+      "Operator": "vel",
       "Values": [
-        "aut",
-        "aut"
+        "libero",
+        "et"
       ],
       "DisplayValues": [
-        "ipsum",
-        "et"
+        "aliquam",
+        "quaerat"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -92,9 +92,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 46,
+      "InterParenthesis": 41,
       "InterOperator": "And",
-      "UniqueHash": 675
+      "UniqueHash": 419
     }
   ]
 }

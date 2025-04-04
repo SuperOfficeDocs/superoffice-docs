@@ -109,12 +109,12 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalMailMergeDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 356,
-  "UiCulture": "iure"
+  "DocumentId": 212,
+  "UiCulture": "natus"
 }
 ```
 
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 696,
+  "DocumentId": 151,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sit",
-  "Header": "dignissimos",
-  "Name": "Ankunding, Von and Wisozk",
-  "OurRef": "qui",
-  "YourRef": "et",
-  "CreatedDate": "2019-06-03T14:28:21.8522749+02:00",
-  "UpdatedDate": "2003-04-24T14:28:21.8522749+02:00",
-  "Description": "Cross-platform systemic secured line",
+  "Attention": "tempore",
+  "Header": "magnam",
+  "Name": "Bayer Group",
+  "OurRef": "vitae",
+  "YourRef": "odit",
+  "CreatedDate": "2012-10-12T13:14:00.1725959+02:00",
+  "UpdatedDate": "2005-10-25T13:14:00.1725959+02:00",
+  "Description": "Centralized empowering artificial intelligence",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-05-06T14:28:21.8522749+02:00",
-  "ExternalRef": "quis",
+  "Date": "2002-05-07T13:14:00.1882219+02:00",
+  "ExternalRef": "facilis",
   "Completed": "Completed",
-  "ActiveLinks": 11,
+  "ActiveLinks": 609,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kemmer Group",
-      "Id": 717,
-      "Description": "Secured upward-trending software",
-      "ExtraInfo": "suscipit",
-      "LinkId": 357,
+      "EntityName": "Bosco, Jerde and Bergnaum",
+      "Id": 228,
+      "Description": "Quality-focused optimal budgetary management",
+      "ExtraInfo": "magnam",
+      "LinkId": 60,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 663
+          "FieldLength": 851
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 451,
-  "Snum": 541,
+  "SuggestedDocumentId": 910,
+  "Snum": 166,
   "UserDefinedFields": {
-    "SuperOffice:1": "133566980",
-    "SuperOffice:2": "Marcelo Dooley"
+    "SuperOffice:1": "Rex Zieme",
+    "SuperOffice:2": "Dr. Terrence Torey Ferry"
   },
   "ExtraFields": {
-    "ExtraFields1": "sit",
-    "ExtraFields2": "non"
+    "ExtraFields1": "dolorem",
+    "ExtraFields2": "nisi"
   },
   "CustomFields": {
-    "CustomFields1": "minima",
-    "CustomFields2": "et"
+    "CustomFields1": "aut",
+    "CustomFields2": "exercitationem"
   },
-  "PublishEventDate": "2020-08-15T14:28:21.8522749+02:00",
-  "PublishTo": "2004-09-21T14:28:21.8522749+02:00",
-  "PublishFrom": "2019-10-23T14:28:21.8522749+02:00",
+  "PublishEventDate": "1998-11-13T13:14:00.1882219+01:00",
+  "PublishTo": "2005-11-09T13:14:00.1882219+01:00",
+  "PublishFrom": "2023-08-25T13:14:00.1882219+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 521,
+      "VisibleId": 692,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldType": "System.String",
+          "FieldLength": 199
         }
       }
     },
     {
-      "VisibleId": 521,
+      "VisibleId": 692,
       "Visibility": "All",
-      "DisplayValue": "repudiandae",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 520
+          "FieldType": "System.String",
+          "FieldLength": 199
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 301
+      "FieldLength": 531
     }
   }
 }

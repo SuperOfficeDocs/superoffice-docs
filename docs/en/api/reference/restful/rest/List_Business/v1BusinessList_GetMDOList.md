@@ -26,8 +26,8 @@ Get the MDO list items for "Business" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Business/MDOItems?flat=False
-GET /api/v1/List/Business/MDOItems?query=natus
+GET /api/v1/List/Business/MDOItems?flat=True
+GET /api/v1/List/Business/MDOItems?query=iste
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Business/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 998,
-    "Name": "Robel-Crona",
-    "ToolTip": "Quas at aut rerum est maiores.",
+    "Id": 745,
+    "Name": "Monahan Inc and Sons",
+    "ToolTip": "Nisi illum optio beatae.",
     "Deleted": true,
-    "Rank": 607,
-    "Type": "dolore",
+    "Rank": 437,
+    "Type": "dignissimos",
     "ChildItems": [
       {
-        "Id": 659,
-        "Name": "Ledner Inc and Sons",
-        "ToolTip": "Totam cupiditate nobis non.",
+        "Id": 754,
+        "Name": "Bednar LLC",
+        "ToolTip": "Quae autem repellat.",
         "Deleted": false,
-        "Rank": 842,
-        "Type": "deleniti",
+        "Rank": 505,
+        "Type": "officiis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quisquam",
-        "ColorBlock": 556,
-        "ExtraInfo": "consequatur",
-        "StyleHint": "adipisci",
-        "FullName": "Mr. Dario Legros",
+        "IconHint": "maiores",
+        "ColorBlock": 701,
+        "ExtraInfo": "exercitationem",
+        "StyleHint": "ipsa",
+        "FullName": "Mr. Valentin Brooke Mills DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 465
+            "FieldLength": 925
           }
         }
       }
     ],
-    "IconHint": "ipsum",
-    "ColorBlock": 854,
-    "ExtraInfo": "repellat",
-    "StyleHint": "autem",
-    "FullName": "Kameron Prosacco",
+    "IconHint": "tenetur",
+    "ColorBlock": 91,
+    "ExtraInfo": "iure",
+    "StyleHint": "non",
+    "FullName": "Dejon Prohaska",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 519
+        "FieldType": "System.Int32",
+        "FieldLength": 919
       }
     }
   }

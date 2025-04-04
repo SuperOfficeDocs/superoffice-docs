@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 770,
-    "Name": "Stamm, Gutkowski and Kihn",
-    "ToolTip": "Reprehenderit nihil debitis qui voluptate eligendi.",
-    "Deleted": false,
-    "Rank": 277,
-    "Type": "qui",
-    "ColorBlock": 491,
-    "IconHint": "possimus",
+    "Id": 57,
+    "Name": "Lowe, Zboncak and Wisozk",
+    "ToolTip": "Ut unde.",
+    "Deleted": true,
+    "Rank": 500,
+    "Type": "id",
+    "ColorBlock": 119,
+    "IconHint": "similique",
     "Selected": true,
-    "LastChanged": "2024-10-11T14:28:27.6489147+02:00",
+    "LastChanged": "2021-10-04T13:14:09.9472839+02:00",
     "ChildItems": [
       {
-        "Id": 774,
-        "Name": "O'Kon, Schroeder and Medhurst",
-        "ToolTip": "Minus in consequatur reprehenderit mollitia temporibus tenetur officia.",
+        "Id": 862,
+        "Name": "Crist LLC",
+        "ToolTip": "Quia facere ut repudiandae.",
         "Deleted": false,
-        "Rank": 82,
-        "Type": "odit",
-        "ColorBlock": 759,
-        "IconHint": "perferendis",
-        "Selected": true,
-        "LastChanged": "1998-03-30T14:28:27.6489147+02:00",
+        "Rank": 993,
+        "Type": "molestias",
+        "ColorBlock": 823,
+        "IconHint": "fugit",
+        "Selected": false,
+        "LastChanged": "1998-11-16T13:14:09.9472839+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "quia",
+        "ExtraInfo": "est",
+        "StyleHint": "explicabo",
         "Hidden": false,
-        "FullName": "Jerome Torp",
+        "FullName": "Annabell Schmidt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 273
+            "FieldLength": 547
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Jefferey Nader",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "dolore",
+    "Hidden": false,
+    "FullName": "Prof. Laisha Hirthe II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 181
+        "FieldLength": 800
       }
     }
   }

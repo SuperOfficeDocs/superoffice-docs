@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 663,
-  "Name": "Metz Inc and Sons",
-  "Tooltip": "laboriosam",
+  "HeadingId": 224,
+  "Name": "Kessler, Braun and Bruen",
+  "Tooltip": "totam",
   "Deleted": false,
-  "Rank": 94,
-  "UdListDefinitionId": 784
+  "Rank": 990,
+  "UdListDefinitionId": 318
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 664,
-  "Name": "McKenzie LLC",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "Rank": 825,
-  "UdListDefinitionId": 410,
+  "HeadingId": 848,
+  "Name": "Jenkins-Altenwerth",
+  "Tooltip": "iusto",
+  "Deleted": false,
+  "Rank": 937,
+  "UdListDefinitionId": 850,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 633
+      "FieldType": "System.Int32",
+      "FieldLength": 632
     }
   }
 }

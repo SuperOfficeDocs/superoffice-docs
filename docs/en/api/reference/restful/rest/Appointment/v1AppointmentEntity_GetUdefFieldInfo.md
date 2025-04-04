@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 648,
-  "ColumnId": 442,
-  "FieldDefault": "voluptatem",
-  "FieldHeight": 44,
-  "FieldLabel": "repudiandae",
-  "FieldLeft": 713,
-  "FieldTop": 71,
+  "UDefFieldId": 994,
+  "ColumnId": 319,
+  "FieldDefault": "voluptates",
+  "FieldHeight": 656,
+  "FieldLabel": "rem",
+  "FieldLeft": 382,
+  "FieldTop": 980,
   "FieldType": "Checkbox",
-  "FieldWidth": 868,
-  "FormatMask": "ad",
+  "FieldWidth": 472,
+  "FormatMask": "voluptas",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 274,
-  "LabelLeft": 954,
-  "LabelTop": 830,
-  "LabelWidth": 158,
-  "LastVersionId": 581,
-  "ListTableId": 784,
+  "LabelHeight": 118,
+  "LabelLeft": 394,
+  "LabelTop": 331,
+  "LabelWidth": 643,
+  "LastVersionId": 235,
+  "ListTableId": 280,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 414,
-  "ProgId": "corrupti",
+  "Page1LineNo": 784,
+  "ProgId": "officia",
   "IsReadOnly": true,
-  "ShortLabel": "tempore",
-  "TabOrder": 108,
-  "TextLength": 787,
-  "Tooltip": "provident",
-  "UdefIdentity": 257,
-  "UDListDefinitionId": 996,
+  "ShortLabel": "magni",
+  "TabOrder": 120,
+  "TextLength": 413,
+  "Tooltip": "exercitationem",
+  "UdefIdentity": 755,
+  "UDListDefinitionId": 861,
   "Justification": "Center",
-  "Version": 916,
-  "TemplateVariableName": "Larkin-Rau",
+  "Version": 848,
+  "TemplateVariableName": "Hane, Moore and Hand",
   "HasBeenPublished": false,
-  "MdoListName": "Aufderhar, Herman and Lemke",
+  "MdoListName": "Boyer-Schumm",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 810
+      "FieldLength": 240
     }
   }
 }

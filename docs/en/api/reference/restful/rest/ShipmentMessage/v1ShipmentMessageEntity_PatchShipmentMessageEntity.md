@@ -128,18 +128,18 @@ ShipmentMessageEntity  updated.
 PATCH /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "dolores",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "dolores",
+    "path": "et",
     "value": {}
   }
 ]
@@ -152,33 +152,33 @@ HTTP/1.1 200 ShipmentMessageEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 67,
-  "PlainMessage": "qui",
-  "HtmlMessage": "debitis",
-  "SmsMessage": "natus",
-  "Description": "Streamlined bottom-line customer loyalty",
-  "Subject": "ducimus",
-  "FolderId": 76,
-  "HeaderField": "est",
-  "Design": "recusandae",
+  "ShipmentMessageId": 829,
+  "PlainMessage": "sapiente",
+  "HtmlMessage": "molestiae",
+  "SmsMessage": "reiciendis",
+  "Description": "Re-engineered bifurcated policy",
+  "Subject": "nisi",
+  "FolderId": 950,
+  "HeaderField": "in",
+  "Design": "est",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Focused homogeneous emulation",
-  "AccessKey": "iure",
-  "DocumentMessage": 764,
-  "Registered": "2012-12-21T14:28:27.2583066+01:00",
-  "RegisteredAssociateId": 562,
-  "Updated": "2002-08-06T14:28:27.2583066+02:00",
-  "UpdatedAssociateId": 750,
-  "UpdatedCount": 919,
+  "LongDescription": "Up-sized local synergy",
+  "AccessKey": "omnis",
+  "DocumentMessage": 268,
+  "Registered": "2002-10-01T13:14:09.1966452+02:00",
+  "RegisteredAssociateId": 608,
+  "Updated": "2015-06-04T13:14:09.1966452+02:00",
+  "UpdatedAssociateId": 565,
+  "UpdatedCount": 486,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 612
+      "FieldType": "System.Int32",
+      "FieldLength": 76
     }
   },
   "_Links": {

@@ -85,7 +85,7 @@ TriggerScriptEntity found.
 GET /api/v1/TriggerScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,27 +95,27 @@ HTTP/1.1 200 TriggerScriptEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 708,
-  "Name": "Rath Inc and Sons",
+  "ScreenChooserId": 671,
+  "Name": "Krajcik-Halvorson",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "et",
-  "Source": "dolore",
-  "Registered": "2017-08-09T14:28:27.3520534+02:00",
-  "RegisteredAssociateId": 987,
-  "Updated": "2008-02-05T14:28:27.3520534+01:00",
-  "UpdatedAssociateId": 627,
+  "Enabled": true,
+  "UniqueIdentifier": "explicabo",
+  "Source": "est",
+  "Registered": "2005-12-15T13:14:09.3685305+01:00",
+  "RegisteredAssociateId": 471,
+  "Updated": "2014-07-24T13:14:09.3685305+02:00",
+  "UpdatedAssociateId": 732,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 697
+      "FieldLength": 648
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

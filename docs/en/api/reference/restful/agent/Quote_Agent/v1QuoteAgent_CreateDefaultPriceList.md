@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultPriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 443,
-  "ERPPriceListKey": "at",
-  "QuoteConnectionId": 789,
-  "Name": "Reinger Group",
-  "Description": "Open-architected regional array",
-  "Currency": "excepturi",
-  "CurrencyName": "Rutherford LLC",
-  "ValidFrom": "2015-08-04T14:28:22.2897573+02:00",
-  "ValidTo": "2019-02-12T14:28:22.2897573+01:00",
+  "PriceListId": 373,
+  "ERPPriceListKey": "id",
+  "QuoteConnectionId": 541,
+  "Name": "Pacocha-Nienow",
+  "Description": "Operative secondary functionalities",
+  "Currency": "iste",
+  "CurrencyName": "Brown-Hermiston",
+  "ValidFrom": "2018-07-05T13:14:00.9702863+02:00",
+  "ValidTo": "2000-09-29T13:14:00.9702863+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldLength": 812
     }
   }
 }

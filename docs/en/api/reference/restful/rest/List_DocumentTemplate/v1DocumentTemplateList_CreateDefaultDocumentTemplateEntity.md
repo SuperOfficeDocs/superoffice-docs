@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 475,
-  "Name": "Schinner LLC",
-  "Tooltip": "sit",
-  "SaveInDb": 601,
-  "Filename": "odio",
-  "DefaultOref": "voluptatem",
+  "DocumentTemplateId": 870,
+  "Name": "Fisher-Johnson",
+  "Tooltip": "nostrum",
+  "SaveInDb": 344,
+  "Filename": "non",
+  "DefaultOref": "itaque",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 442,
-  "IntentId": 522,
+  "AutoeventId": 759,
+  "IntentId": 753,
   "IsDefaultPublished": false,
-  "Rank": 587,
-  "LoadTemplateFromPlugin": 46,
-  "MimeType": "et",
+  "Rank": 814,
+  "LoadTemplateFromPlugin": 685,
+  "MimeType": "eum",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 219,
+  "DocumentTypeKey": 481,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "anastacio.padberg@cartwright.name",
-  "IncludeSignature": false,
+  "EmailSubject": "elliot@beahankautzer.name",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "tobin@cronareichel.co.uk",
+  "SenderEmailAddress": "maurine@mclaughlin.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 359
+      "FieldType": "System.String",
+      "FieldLength": 504
     }
   }
 }

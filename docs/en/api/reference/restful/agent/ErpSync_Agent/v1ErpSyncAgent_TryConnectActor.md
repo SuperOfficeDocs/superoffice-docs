@@ -79,27 +79,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 582,
-  "CrmRecordId": 836,
+  "ErpConnectionId": 779,
+  "CrmRecordId": 179,
   "CrmActorType": "Contact",
-  "ErpKey": "qui",
+  "ErpKey": "porro",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Metz, Mante and Murazik",
-      "CrmFieldKey": "qui",
-      "Value": "rerum",
-      "DisplayValue": "veritatis",
+      "DisplayName": "Hand, Rosenbaum and Schmidt",
+      "CrmFieldKey": "quasi",
+      "Value": "non",
+      "DisplayValue": "quia",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Metz, Mante and Murazik",
-      "CrmFieldKey": "qui",
-      "Value": "rerum",
-      "DisplayValue": "veritatis",
+      "DisplayName": "Hand, Rosenbaum and Schmidt",
+      "CrmFieldKey": "quasi",
+      "Value": "non",
+      "DisplayValue": "quia",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     }
   ]
 }

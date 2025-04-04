@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 433,
-    "Name": "Lind-Blick",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "Rank": 253,
-    "UdListDefinitionId": 329,
+    "HeadingId": 305,
+    "Name": "Mraz-Yundt",
+    "Tooltip": "hic",
+    "Deleted": true,
+    "Rank": 655,
+    "UdListDefinitionId": 727,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 224
+        "FieldType": "System.String",
+        "FieldLength": 189
       }
     }
   }

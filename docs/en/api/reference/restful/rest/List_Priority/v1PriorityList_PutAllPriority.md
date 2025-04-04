@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 738,
-    "Name": "Davis, Dickinson and Gerhold",
-    "Tooltip": "quis",
+    "Id": 913,
+    "Name": "Keebler Inc and Sons",
+    "Tooltip": "velit",
     "Deleted": false,
-    "UdListDefinitionId": 927,
-    "Rank": 230
+    "UdListDefinitionId": 438,
+    "Rank": 979
   },
   {
-    "Id": 738,
-    "Name": "Davis, Dickinson and Gerhold",
-    "Tooltip": "quis",
+    "Id": 913,
+    "Name": "Keebler Inc and Sons",
+    "Tooltip": "velit",
     "Deleted": false,
-    "UdListDefinitionId": 927,
-    "Rank": 230
+    "UdListDefinitionId": 438,
+    "Rank": 979
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 716,
-    "Name": "Crist LLC",
+    "Id": 721,
+    "Name": "Tremblay, Veum and Pagac",
     "Tooltip": "molestias",
-    "Deleted": true,
-    "UdListDefinitionId": 542,
-    "Rank": 422,
+    "Deleted": false,
+    "UdListDefinitionId": 786,
+    "Rank": 98,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 764
+        "FieldLength": 513
       }
     }
   }

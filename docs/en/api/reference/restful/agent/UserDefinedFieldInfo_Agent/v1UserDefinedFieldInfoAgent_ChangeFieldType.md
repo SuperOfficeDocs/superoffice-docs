@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 551,
-  "ColumnId": 380,
-  "FieldDefault": "occaecati",
-  "FieldHeight": 937,
-  "FieldLabel": "dolores",
-  "FieldLeft": 103,
-  "FieldTop": 907,
+  "UDefFieldId": 294,
+  "ColumnId": 376,
+  "FieldDefault": "quos",
+  "FieldHeight": 605,
+  "FieldLabel": "officiis",
+  "FieldLeft": 559,
+  "FieldTop": 774,
   "FieldType": "Checkbox",
-  "FieldWidth": 412,
-  "FormatMask": "consequatur",
+  "FieldWidth": 99,
+  "FormatMask": "culpa",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 627,
-  "LabelLeft": 291,
-  "LabelTop": 629,
-  "LabelWidth": 56,
-  "LastVersionId": 609,
-  "ListTableId": 108,
-  "IsMandatory": true,
+  "LabelHeight": 97,
+  "LabelLeft": 534,
+  "LabelTop": 778,
+  "LabelWidth": 939,
+  "LastVersionId": 211,
+  "ListTableId": 204,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 764,
-  "ProgId": "excepturi",
+  "Page1LineNo": 801,
+  "ProgId": "quod",
   "IsReadOnly": false,
-  "ShortLabel": "odit",
-  "TabOrder": 606,
-  "TextLength": 341,
-  "Tooltip": "illo",
-  "UdefIdentity": 591,
-  "UDListDefinitionId": 935,
+  "ShortLabel": "aliquid",
+  "TabOrder": 427,
+  "TextLength": 52,
+  "Tooltip": "saepe",
+  "UdefIdentity": 967,
+  "UDListDefinitionId": 529,
   "Justification": "Center",
-  "Version": 865,
-  "TemplateVariableName": "Crist Inc and Sons",
-  "HasBeenPublished": true,
-  "MdoListName": "Lind, Bernier and Lowe",
+  "Version": 18,
+  "TemplateVariableName": "Lynch LLC",
+  "HasBeenPublished": false,
+  "MdoListName": "Legros-Dickens",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldType": "System.Int32",
+      "FieldLength": 808
     }
   }
 }

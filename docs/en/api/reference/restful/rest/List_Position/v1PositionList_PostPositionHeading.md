@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 186,
-  "Name": "Reichert, Bergstrom and Weimann",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 887,
-  "UdListDefinitionId": 333
+  "HeadingId": 508,
+  "Name": "Schaden, Fritsch and Christiansen",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 149,
+  "UdListDefinitionId": 191
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 558,
-  "Name": "Brakus Group",
-  "Tooltip": "accusantium",
-  "Deleted": false,
-  "Rank": 820,
-  "UdListDefinitionId": 597,
+  "HeadingId": 975,
+  "Name": "Friesen Inc and Sons",
+  "Tooltip": "illum",
+  "Deleted": true,
+  "Rank": 405,
+  "UdListDefinitionId": 788,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldLength": 925
     }
   }
 }

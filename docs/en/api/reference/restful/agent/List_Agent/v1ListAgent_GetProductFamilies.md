@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/List/GetProductFamilies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 620,
-    "Value": "cupiditate",
-    "Tooltip": "totam",
+    "Id": 215,
+    "Value": "quia",
+    "Tooltip": "nostrum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 564
+        "FieldLength": 976
       }
     }
   },
   {
-    "Id": 620,
-    "Value": "cupiditate",
-    "Tooltip": "totam",
+    "Id": 215,
+    "Value": "quia",
+    "Tooltip": "nostrum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 564
+        "FieldLength": 976
       }
     }
   }

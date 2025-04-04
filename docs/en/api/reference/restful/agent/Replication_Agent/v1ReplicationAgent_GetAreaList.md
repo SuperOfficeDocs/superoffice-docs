@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/Replication/GetAreaList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,18 +88,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AreaId": 996,
-    "Name": "Kautzer Group",
-    "MaxDataAge": 73,
-    "NumberOfUsers": 874,
-    "NumberOfLogins": 266,
-    "FreetextEnabeled": true,
+    "AreaId": 750,
+    "Name": "Braun Inc and Sons",
+    "MaxDataAge": 617,
+    "NumberOfUsers": 876,
+    "NumberOfLogins": 936,
+    "FreetextEnabeled": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 871
+        "FieldType": "System.Int32",
+        "FieldLength": 322
       }
     }
   }

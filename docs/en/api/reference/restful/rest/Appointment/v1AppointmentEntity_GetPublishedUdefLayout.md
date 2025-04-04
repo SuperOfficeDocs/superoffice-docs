@@ -88,7 +88,7 @@ OK
 GET /api/v1/Appointment/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 230,
-    "ColumnId": 122,
-    "FieldDefault": "ab",
-    "FieldHeight": 260,
-    "FieldLabel": "officiis",
-    "FieldLeft": 328,
-    "FieldTop": 779,
+    "UDefFieldId": 161,
+    "ColumnId": 839,
+    "FieldDefault": "qui",
+    "FieldHeight": 455,
+    "FieldLabel": "iusto",
+    "FieldLeft": 253,
+    "FieldTop": 862,
     "FieldType": "Checkbox",
-    "FieldWidth": 133,
-    "FormatMask": "sequi",
-    "HideLabel": false,
+    "FieldWidth": 629,
+    "FormatMask": "animi",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 799,
-    "LabelLeft": 177,
-    "LabelTop": 939,
-    "LabelWidth": 861,
-    "LastVersionId": 807,
-    "ListTableId": 409,
-    "IsMandatory": false,
+    "LabelHeight": 481,
+    "LabelLeft": 590,
+    "LabelTop": 290,
+    "LabelWidth": 490,
+    "LastVersionId": 880,
+    "ListTableId": 162,
+    "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 368,
-    "ProgId": "architecto",
+    "Page1LineNo": 353,
+    "ProgId": "sapiente",
     "IsReadOnly": false,
-    "ShortLabel": "voluptatem",
-    "TabOrder": 231,
-    "TextLength": 809,
-    "Tooltip": "nemo",
-    "UdefIdentity": 458,
-    "UDListDefinitionId": 335,
+    "ShortLabel": "rem",
+    "TabOrder": 479,
+    "TextLength": 637,
+    "Tooltip": "eos",
+    "UdefIdentity": 904,
+    "UDListDefinitionId": 605,
     "Justification": "Center",
-    "Version": 185,
-    "TemplateVariableName": "Kunze Inc and Sons",
+    "Version": 533,
+    "TemplateVariableName": "Bode-Waelchi",
     "HasBeenPublished": false,
-    "MdoListName": "Crist-Hettinger",
+    "MdoListName": "Wunsch LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 874
+        "FieldLength": 873
       }
     }
   }

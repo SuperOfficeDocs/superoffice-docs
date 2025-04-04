@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Country/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 596,
-  "Name": "Eichmann Inc and Sons",
-  "Tooltip": "autem",
+  "HeadingId": 3,
+  "Name": "Emmerich LLC",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 248,
-  "UdListDefinitionId": 879
+  "Rank": 441,
+  "UdListDefinitionId": 968
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 687,
-  "Name": "O'Reilly LLC",
-  "Tooltip": "ex",
+  "HeadingId": 144,
+  "Name": "Thompson LLC",
+  "Tooltip": "totam",
   "Deleted": false,
-  "Rank": 423,
-  "UdListDefinitionId": 388,
+  "Rank": 820,
+  "UdListDefinitionId": 84,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 417
+      "FieldLength": 472
     }
   }
 }

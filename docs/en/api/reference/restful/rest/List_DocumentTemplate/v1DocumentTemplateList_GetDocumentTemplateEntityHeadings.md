@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 550,
-    "Name": "Weissnat LLC",
-    "Tooltip": "sint",
+    "HeadingId": 688,
+    "Name": "Ullrich, Schmeler and Kozey",
+    "Tooltip": "aliquid",
     "Deleted": false,
-    "Rank": 467,
-    "UdListDefinitionId": 585,
+    "Rank": 54,
+    "UdListDefinitionId": 22,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldType": "System.String",
+        "FieldLength": 463
       }
     }
   }

@@ -72,36 +72,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteBySelectionId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
-      "DefaultShowInGui": false,
-      "DefaultShowInSelector": true,
+      "CanSupportMultiUse": false,
+      "DefaultShowInGui": true,
+      "DefaultShowInSelector": false,
       "IsActive": true,
-      "Key": "dolorem",
-      "ValueType": "nostrum",
+      "Key": "aut",
+      "ValueType": "quis",
       "Mandatory": false,
-      "EncodedDisplayName": "Rosenbaum, Pacocha and Schroeder",
-      "EncodedDisplayDescription": "Diverse empowering frame",
-      "IconHint": "et",
+      "EncodedDisplayName": "Wolf, Schneider and Schmeler",
+      "EncodedDisplayDescription": "Persevering scalable budgetary management",
+      "IconHint": "aperiam",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "rerum",
-      "EncodedDataCaptionDescription": "Open-architected didactic paradigm",
-      "CurrentOperationType": "nulla",
+      "EncodedDataCaption": "fugiat",
+      "EncodedDataCaptionDescription": "Intuitive didactic knowledge user",
+      "CurrentOperationType": "sit",
       "Values": [
-        "cupiditate",
-        "ut"
+        "aliquid",
+        "rerum"
       ],
       "DisplayValues": [
-        "a",
-        "aut"
+        "sapiente",
+        "asperiores"
       ],
       "OperationInfos": [
         {},
@@ -109,10 +109,10 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "O'Conner Group",
-  "Context": "magni",
-  "SelectionId": 301,
-  "IsShadow": false
+  "TableName": "Tremblay, Gaylord and Schulist",
+  "Context": "illo",
+  "SelectionId": 774,
+  "IsShadow": true
 }
 ```
 
@@ -122,5 +122,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-342
+50
 ```

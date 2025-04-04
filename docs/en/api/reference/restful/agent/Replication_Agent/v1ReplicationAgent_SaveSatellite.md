@@ -79,21 +79,21 @@ OK
 POST /api/v1/Agents/Replication/SaveSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 226,
-  "Created": "2002-03-26T14:28:22.321006+01:00",
+  "SatelliteId": 777,
+  "Created": "2006-07-31T13:14:01.033265+02:00",
   "CreatedBy": null,
-  "Updated": "2006-07-15T14:28:22.321006+02:00",
+  "Updated": "2004-03-09T13:14:01.033265+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Runte-Botsford",
-      "Description": "Diverse interactive circuit",
+      "Name": "Cruickshank LLC",
+      "Description": "Versatile demand-driven productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -104,8 +104,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Runte-Botsford",
-      "Description": "Diverse interactive circuit",
+      "Name": "Cruickshank LLC",
+      "Description": "Versatile demand-driven productivity",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -126,17 +126,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 360,
-  "Created": "2017-10-08T14:28:22.321006+02:00",
+  "SatelliteId": 876,
+  "Created": "2002-04-24T13:14:01.033265+02:00",
   "CreatedBy": null,
-  "Updated": "2007-12-30T14:28:22.321006+01:00",
+  "Updated": "2011-06-05T13:14:01.033265+02:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Graham, Yost and Boyle",
-      "Description": "Adaptive bi-directional archive",
+      "Name": "Gislason-Sporer",
+      "Description": "Persistent local approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -149,14 +149,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldType": "System.String",
+          "FieldLength": 48
         }
       }
     },
     {
-      "Name": "Graham, Yost and Boyle",
-      "Description": "Adaptive bi-directional archive",
+      "Name": "Gislason-Sporer",
+      "Description": "Persistent local approach",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldType": "System.String",
+          "FieldLength": 48
         }
       }
     }
@@ -180,7 +180,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldLength": 565
     }
   }
 }

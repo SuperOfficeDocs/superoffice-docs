@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/Project/GetProjectsFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 726
+  "ContactId": 424
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 388,
-    "Name": "Brakus LLC",
-    "Description": "Diverse tertiary data-warehouse",
+    "ProjectId": 980,
+    "Name": "Hartmann-Mitchell",
+    "Description": "Multi-layered analyzing workforce",
     "URL": "http://www.example.com/",
-    "Type": "ut",
-    "AssociateId": 154,
-    "AssociateFullName": "Mrs. Sadie Jody Zemlak DVM",
-    "TypeId": 891,
-    "Updated": "2020-06-06T14:28:22.2585084+02:00",
-    "StatusId": 363,
-    "Status": "aut",
-    "TextId": 942,
-    "PublishTo": "2002-11-30T14:28:22.2585084+01:00",
-    "PublishFrom": "1999-09-29T14:28:22.2585084+02:00",
+    "Type": "saepe",
+    "AssociateId": 348,
+    "AssociateFullName": "Jennings Windler",
+    "TypeId": 154,
+    "Updated": "2001-01-08T13:14:00.9390342+01:00",
+    "StatusId": 236,
+    "Status": "eum",
+    "TextId": 782,
+    "PublishTo": "2016-03-27T13:14:00.9390342+02:00",
+    "PublishFrom": "2024-11-30T13:14:00.9390342+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "1031110",
-    "ActiveErpLinks": 508,
+    "ProjectNumber": "246174",
+    "ActiveErpLinks": 109,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 631
+        "FieldLength": 412
       }
     }
   }

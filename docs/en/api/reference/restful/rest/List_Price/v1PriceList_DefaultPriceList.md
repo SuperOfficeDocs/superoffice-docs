@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 1001,
-  "ERPPriceListKey": "et",
-  "QuoteConnectionId": 713,
-  "Name": "Barrows, Rohan and Witting",
-  "Description": "Diverse needs-based installation",
-  "Currency": "reprehenderit",
-  "CurrencyName": "Buckridge-Hammes",
-  "ValidFrom": "2022-03-08T14:28:27.6020419+01:00",
-  "ValidTo": "2008-06-05T14:28:27.6020419+02:00",
+  "PriceListId": 16,
+  "ERPPriceListKey": "ex",
+  "QuoteConnectionId": 783,
+  "Name": "Abernathy Group",
+  "Description": "Enhanced transitional challenge",
+  "Currency": "vel",
+  "CurrencyName": "Gutkowski, Adams and Maggio",
+  "ValidFrom": "2003-02-18T13:14:09.8691543+01:00",
+  "ValidTo": "2004-08-13T13:14:09.8691543+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 488
+      "FieldLength": 121
     }
   }
 }

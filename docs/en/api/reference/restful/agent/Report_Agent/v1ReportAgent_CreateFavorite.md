@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/Report/CreateFavorite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceId": 899,
-  "Name": "Hahn, Hoeger and Gottlieb",
-  "Description": "Ergonomic 6th generation array"
+  "SourceId": 876,
+  "Name": "Hoppe, Marvin and Dibbert",
+  "Description": "Ergonomic multimedia strategy"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportId": 360,
+  "ReportId": 794,
   "ReportCategory": "All",
-  "Description": "Switchable upward-trending time-frame",
+  "Description": "Reduced intermediate orchestration",
   "ReportLayout": "CalendarMonth",
-  "Name": "Wyman, Wiegand and Jast",
-  "AssociateId": 671,
-  "TemplateId": 632,
+  "Name": "Armstrong, Kilback and Maggio",
+  "AssociateId": 885,
+  "TemplateId": 551,
   "Published": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 990
+      "FieldType": "System.String",
+      "FieldLength": 552
     }
   }
 }

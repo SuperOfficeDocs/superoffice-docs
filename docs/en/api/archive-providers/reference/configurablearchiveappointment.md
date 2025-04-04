@@ -726,7 +726,7 @@ This is the archive Provider for the Configurable appointment Archive.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ConfigurableArchiveAppointment?$select=contact/registeredDate,person/contactId,appointmentUdef/SuperOffice:5,appointmentUdef/SuperOffice:7,sale/associate/assocType
+GET /api/v1/archive/ConfigurableArchiveAppointment?$select=contact/updatedByFullName,contact/contactExtra/x_contact_contact_relation,person/personRegisteredDate,person/personExtra/x_person_shorttext_list,project/projectEvent/hasSignOn
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

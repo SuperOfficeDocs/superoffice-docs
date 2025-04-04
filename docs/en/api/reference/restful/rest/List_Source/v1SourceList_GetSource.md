@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 411,
-  "Name": "Walker LLC",
-  "Tooltip": "vitae",
-  "Deleted": true,
-  "UdListDefinitionId": 610,
-  "Rank": 264,
+  "Id": 606,
+  "Name": "Breitenberg-Renner",
+  "Tooltip": "omnis",
+  "Deleted": false,
+  "UdListDefinitionId": 263,
+  "Rank": 433,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 75
+      "FieldType": "System.Int32",
+      "FieldLength": 358
     }
   }
 }

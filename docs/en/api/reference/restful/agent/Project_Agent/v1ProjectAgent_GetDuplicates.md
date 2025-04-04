@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Price, Rodriguez and Rippin"
+  "Name": "Huel Inc and Sons"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Murray Group",
-    "SoPrimaryKey": 630,
-    "EntryName": "Cassin, Keeling and Graham",
-    "EntryIdentifier": "quam",
-    "RuleDisplayName": "Waelchi-Schmitt",
+    "RuleName": "Turner-Halvorson",
+    "SoPrimaryKey": 552,
+    "EntryName": "Sawayn, Wehner and Wilkinson",
+    "EntryIdentifier": "excepturi",
+    "RuleDisplayName": "McDermott LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 767
+        "FieldLength": 502
       }
     }
   }

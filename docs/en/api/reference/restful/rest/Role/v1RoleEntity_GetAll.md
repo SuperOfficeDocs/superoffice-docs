@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Role?$select=name,department,category/id
 GET /api/v1/Role?$filter=name begins 'S'
 GET /api/v1/Role?$orderBy=name asc
-GET /api/v1/Role?$entities=officiis
-GET /api/v1/Role?$top=295
-GET /api/v1/Role?$skip=101
+GET /api/v1/Role?$entities=sed
+GET /api/v1/Role?$top=242
+GET /api/v1/Role?$skip=890
 GET /api/v1/Role?$mode=Full
 GET /api/v1/Role?$options=GrandTotal=true
-GET /api/v1/Role?$context=repudiandae
+GET /api/v1/Role?$context=molestiae
 GET /api/v1/Role?$format=JSON
 GET /api/v1/Role?$jsonSafe=False
 GET /api/v1/Role?$output=Display
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "dolorem",
+  "odata.nextLink": "nihil",
   "value": [
     {
-      "PrimaryKey": 1955,
+      "PrimaryKey": 8532,
       "EntityName": "person",
-      "personId": 1955,
-      "fullName": "Nannie Bradtke"
+      "personId": 8532,
+      "fullName": "Winona Davis"
     },
     {
-      "PrimaryKey": 8924,
+      "PrimaryKey": 4895,
       "EntityName": "person",
-      "personId": 8924,
-      "fullName": "Jamel Lueilwitz"
+      "personId": 4895,
+      "fullName": "Virginie Mills"
     }
   ]
 }

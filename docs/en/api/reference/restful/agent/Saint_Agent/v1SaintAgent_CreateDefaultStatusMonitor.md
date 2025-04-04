@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Saint/CreateDefaultStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 655,
-  "Rank": 367,
-  "DefaultTask": 376,
-  "DefaultTaskText": "provident",
+  "OwnerTable": 792,
+  "Rank": 1001,
+  "DefaultTask": 199,
+  "DefaultTaskText": "dolorem",
   "IsVisual": false,
-  "LastGenerated": "2004-01-30T14:28:22.321006+01:00",
-  "Description": "Universal leading edge circuit",
-  "Name": "Medhurst, Deckow and Effertz",
-  "StatusMonitorId": 697,
-  "PictureId": 997,
+  "LastGenerated": "2006-11-12T13:14:01.048891+01:00",
+  "Description": "Proactive didactic support",
+  "Name": "Berge-Turcotte",
+  "StatusMonitorId": 961,
+  "PictureId": 688,
   "NeedsUpdate": false,
-  "Deleted": true,
-  "NumMatches": 675,
-  "NumNeedUpdate": 651,
-  "GenerationStart": "2004-07-23T14:28:22.321006+02:00",
+  "Deleted": false,
+  "NumMatches": 580,
+  "NumNeedUpdate": 142,
+  "GenerationStart": "2022-05-25T13:14:01.048891+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldType": "System.String",
+      "FieldLength": 84
     }
   }
 }

@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/Webhook/CreateDefaultWebhook
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 774,
-  "Name": "D'Amore, Purdy and McLaughlin",
+  "WebhookId": 773,
+  "Name": "McCullough-Labadie",
   "Events": [
-    "officiis",
-    "iste"
+    "earum",
+    "cumque"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "voluptatem",
+  "Secret": "quas",
   "State": "Active",
-  "Type": "veritatis",
+  "Type": "vel",
   "Headers": {
-    "Headers1": "qui",
-    "Headers2": "inventore"
+    "Headers1": "sunt",
+    "Headers2": "molestias"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2024-07-27T14:28:22.7428645+02:00",
+  "Registered": "2016-10-19T13:14:01.76945+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2012-05-16T14:28:22.7428645+02:00",
+  "Updated": "2008-11-18T13:14:01.7850758+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "garret@hoegerkeeling.ca"
+  "ErrorsEmail": "kaitlyn_wisoky@crist.biz"
 }
 ```

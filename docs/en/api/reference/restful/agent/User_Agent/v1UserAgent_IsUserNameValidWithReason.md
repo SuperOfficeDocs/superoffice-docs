@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/User/IsUserNameValidWithReason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 715,
+  "AssociateId": 523,
   "Type": "AnonymousAssociate",
-  "PersonId": 319,
-  "UserName": "Konopelski-Keeling"
+  "PersonId": 777,
+  "UserName": "Glover-Yost"
 }
 ```
 
@@ -97,14 +97,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "monetize value-added networks",
+  "Reason": "",
   "Result": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 465
+      "FieldLength": 13
     }
   }
 }

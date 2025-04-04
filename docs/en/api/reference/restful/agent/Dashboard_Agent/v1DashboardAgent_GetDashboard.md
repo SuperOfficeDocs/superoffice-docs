@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=203
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=871
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 139,
-  "AssociateId": 465,
-  "Caption": "provident",
+  "DashboardId": 480,
+  "AssociateId": 810,
+  "Caption": "exercitationem",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 105,
-      "Caption": "at",
-      "Description": "Re-engineered multimedia contingency",
-      "ChartName": "Labadie, Ritchie and Mills",
-      "ChartId": "qui",
+      "DashboardTileId": 408,
+      "Caption": "nihil",
+      "Description": "Team-oriented attitude-oriented migration",
+      "ChartName": "Gutkowski Inc and Sons",
+      "ChartId": "sed",
       "IsDefault": false,
-      "AssociateId": 711,
-      "GroupId": 268,
-      "SelectionId": 910,
-      "Config": "qui",
+      "AssociateId": 852,
+      "GroupId": 419,
+      "SelectionId": 894,
+      "Config": "nesciunt",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 203
+          "FieldLength": 929
         }
       }
     }
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 415
     }
   }
 }

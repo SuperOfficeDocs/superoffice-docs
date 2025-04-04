@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 430,
-    "Name": "Schroeder-Dach",
-    "Tooltip": "ut",
-    "Rank": 782,
-    "Rate": 24727.26,
-    "Units": 1231.662,
+    "CurrencyId": 286,
+    "Name": "Ortiz Inc and Sons",
+    "Tooltip": "quae",
+    "Rank": 284,
+    "Rate": 26491.701999999997,
+    "Units": 11417.162,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 939
+        "FieldType": "System.String",
+        "FieldLength": 570
       }
     }
   }

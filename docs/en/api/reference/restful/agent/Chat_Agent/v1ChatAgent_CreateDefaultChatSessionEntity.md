@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Chat/CreateDefaultChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 558,
-  "TopicId": 366,
+  "ChatSessionId": 212,
+  "TopicId": 393,
   "User": null,
   "Person": null,
-  "CustomerAlias": "sapiente",
-  "CustomerHost": "veritatis",
-  "CustomerName": "Okuneva-Kling",
-  "CustomerEmail": "karl@dooley.ca",
-  "CustomerPhone": "665-561-6440 x48448",
+  "CustomerAlias": "voluptatem",
+  "CustomerHost": "rerum",
+  "CustomerName": "Wuckert LLC",
+  "CustomerEmail": "edwardo.hartmann@mcclure.uk",
+  "CustomerPhone": "1-907-920-2121 x484",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Effertz, Toy and Raynor",
+  "CustomerCompanyName": "Hodkiewicz LLC",
   "Status": "Closed",
-  "FirstMessage": "fuga",
-  "LastMessage": "voluptatem",
-  "WhenRequested": "2010-10-05T14:28:21.5085386+02:00",
-  "WhenStarted": "2015-05-12T14:28:21.5085386+02:00",
-  "WhenEnded": "2024-12-08T14:28:21.5085386+01:00",
-  "WhenIdle": "2019-12-02T14:28:21.5085386+01:00",
-  "WhenFetched": "2022-09-12T14:28:21.5085386+02:00",
-  "SessionKey": "dolores",
-  "InitialQueuePos": 992,
-  "AlertLevel": 160,
-  "Rank": 829,
+  "FirstMessage": "est",
+  "LastMessage": "expedita",
+  "WhenRequested": "2009-10-02T13:13:59.5626977+02:00",
+  "WhenStarted": "2022-09-01T13:13:59.5626977+02:00",
+  "WhenEnded": "2013-12-19T13:13:59.5626977+01:00",
+  "WhenIdle": "2022-03-02T13:13:59.5626977+01:00",
+  "WhenFetched": "1997-12-26T13:13:59.5626977+01:00",
+  "SessionKey": "eum",
+  "InitialQueuePos": 288,
+  "AlertLevel": 842,
+  "Rank": 229,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 312,
+  "ChatbotIsActive": false,
+  "Rating": 462,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 669
+      "FieldLength": 547
     }
   }
 }

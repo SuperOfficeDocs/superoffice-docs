@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/MDO/SetSelected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Cassin-Denesik",
-  "AdditionalInfo": "consectetur",
+  "Name": "Quitzon-Bashirian",
+  "AdditionalInfo": "est",
   "SelectableMDOList": [
     {
-      "Id": 388,
-      "Name": "Becker-Yundt",
-      "ToolTip": "Et atque quae corrupti.",
+      "Id": 37,
+      "Name": "Abernathy-Donnelly",
+      "ToolTip": "Repellat sint perferendis commodi.",
       "Deleted": false,
-      "Rank": 400,
-      "Type": "dignissimos",
-      "ColorBlock": 53,
-      "IconHint": "harum",
-      "Selected": false,
-      "LastChanged": "2019-01-25T14:28:22.1178891+01:00",
+      "Rank": 456,
+      "Type": "non",
+      "ColorBlock": 598,
+      "IconHint": "voluptas",
+      "Selected": true,
+      "LastChanged": "2014-06-21T13:14:00.7043711+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "reprehenderit",
-      "StyleHint": "alias",
-      "Hidden": false,
-      "FullName": "Thea Torphy"
+      "ExtraInfo": "voluptatem",
+      "StyleHint": "quas",
+      "Hidden": true,
+      "FullName": "Maybelle Purdy V"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 2,
-    "Name": "Romaguera-Jacobs",
-    "ToolTip": "Eveniet voluptatibus et et ullam ducimus fugit.",
-    "Deleted": false,
-    "Rank": 353,
-    "Type": "sed",
-    "ColorBlock": 206,
-    "IconHint": "eos",
+    "Id": 810,
+    "Name": "Carroll Inc and Sons",
+    "ToolTip": "Fugiat sed numquam tempora tenetur explicabo veritatis fuga.",
+    "Deleted": true,
+    "Rank": 453,
+    "Type": "dolorem",
+    "ColorBlock": 489,
+    "IconHint": "repudiandae",
     "Selected": true,
-    "LastChanged": "2004-05-01T14:28:22.1178891+02:00",
+    "LastChanged": "2006-07-15T13:14:00.7043711+02:00",
     "ChildItems": [
       {
-        "Id": 103,
-        "Name": "Hyatt LLC",
-        "ToolTip": "Voluptas autem atque aut tempore soluta blanditiis ducimus.",
+        "Id": 931,
+        "Name": "Bradtke, Feeney and Jaskolski",
+        "ToolTip": "Fugit adipisci eligendi atque voluptatem.",
         "Deleted": false,
-        "Rank": 129,
-        "Type": "quia",
-        "ColorBlock": 593,
-        "IconHint": "laboriosam",
+        "Rank": 151,
+        "Type": "atque",
+        "ColorBlock": 602,
+        "IconHint": "autem",
         "Selected": false,
-        "LastChanged": "2005-03-15T14:28:22.1178891+01:00",
+        "LastChanged": "2010-11-17T13:14:00.7043711+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "ut",
+        "ExtraInfo": "quia",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Hugh Ward",
+        "FullName": "Donnie Elyssa Spencer III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 19
+            "FieldType": "System.Int32",
+            "FieldLength": 279
           }
         }
       }
     ],
-    "ExtraInfo": "debitis",
-    "StyleHint": "voluptates",
-    "Hidden": true,
-    "FullName": "Kyler Herminia Quigley DDS",
+    "ExtraInfo": "id",
+    "StyleHint": "laboriosam",
+    "Hidden": false,
+    "FullName": "Mr. Danny Wilhelm Johns",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 330
+        "FieldType": "System.Int32",
+        "FieldLength": 469
       }
     }
   }

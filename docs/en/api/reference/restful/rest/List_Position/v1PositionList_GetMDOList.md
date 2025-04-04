@@ -27,7 +27,7 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=eveniet
+GET /api/v1/List/Position/MDOItems?query=ad
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 427,
-    "Name": "Ratke Group",
-    "ToolTip": "Qui et quo.",
-    "Deleted": false,
-    "Rank": 86,
-    "Type": "porro",
+    "Id": 597,
+    "Name": "Graham LLC",
+    "ToolTip": "Est excepturi itaque autem.",
+    "Deleted": true,
+    "Rank": 205,
+    "Type": "in",
     "ChildItems": [
       {
-        "Id": 729,
-        "Name": "Altenwerth-Champlin",
-        "ToolTip": "Temporibus odit quis pariatur consequatur voluptatem nostrum.",
-        "Deleted": false,
-        "Rank": 752,
-        "Type": "ad",
+        "Id": 156,
+        "Name": "Larkin, Bailey and Rolfson",
+        "ToolTip": "Corrupti assumenda repellat dolore optio.",
+        "Deleted": true,
+        "Rank": 253,
+        "Type": "voluptatem",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aliquam",
-        "ColorBlock": 844,
-        "ExtraInfo": "laudantium",
-        "StyleHint": "error",
-        "FullName": "Esteban Hayes",
+        "IconHint": "id",
+        "ColorBlock": 368,
+        "ExtraInfo": "voluptas",
+        "StyleHint": "aut",
+        "FullName": "Rosalind Lincoln Hermann DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 614
+            "FieldLength": 631
           }
         }
       }
     ],
-    "IconHint": "id",
-    "ColorBlock": 397,
-    "ExtraInfo": "cumque",
-    "StyleHint": "voluptate",
-    "FullName": "Ms. Ahmad Jammie Morar V",
+    "IconHint": "ipsum",
+    "ColorBlock": 941,
+    "ExtraInfo": "accusamus",
+    "StyleHint": "reprehenderit",
+    "FullName": "Sabryna Jacobs",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 117
       }
     }
   }

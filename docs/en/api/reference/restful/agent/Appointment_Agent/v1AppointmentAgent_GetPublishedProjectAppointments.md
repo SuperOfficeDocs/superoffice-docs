@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedProjectAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 508
+  "ProjectId": 950
 }
 ```
 
@@ -142,66 +142,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 848,
-    "StartDate": "2001-07-10T14:28:21.1648024+02:00",
-    "EndDate": "2022-02-05T14:28:21.1648024+01:00",
+    "AppointmentId": 434,
+    "StartDate": "2023-11-17T13:13:59.1407181+01:00",
+    "EndDate": "2006-02-17T13:13:59.1407181+01:00",
     "Type": "BookingForChecklist",
-    "Task": "ut",
-    "AssociateFullName": "King Mitchell III",
-    "ContactName": "Windler Inc and Sons",
-    "Description": "Seamless 4th generation hardware",
-    "PersonFullName": "Luella Dicki",
-    "PersonId": 400,
-    "ContactId": 89,
-    "ProjectId": 74,
-    "ProjectName": "Nader-D'Amore",
-    "IsPublished": false,
-    "AssociateId": 84,
-    "ColorIndex": 860,
+    "Task": "et",
+    "AssociateFullName": "Mathew Flatley",
+    "ContactName": "Rosenbaum-Gulgowski",
+    "Description": "Reactive object-oriented process improvement",
+    "PersonFullName": "Ms. Mina Hermina Schaden",
+    "PersonId": 479,
+    "ContactId": 549,
+    "ProjectId": 164,
+    "ProjectName": "Barrows, Roberts and Schinner",
+    "IsPublished": true,
+    "AssociateId": 620,
+    "ColorIndex": 264,
     "IsFree": true,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 678,
-    "PriorityName": "Schoen, Quigley and Morar",
+    "PriorityId": 587,
+    "PriorityName": "Dietrich-Emard",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
-    "IsRecurrence": false,
+    "IsBookingMain": false,
+    "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2001-04-04T14:28:21.1648024+02:00",
+    "ActiveDate": "2013-07-17T13:13:59.1407181+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2004-05-10T14:28:21.1648024+02:00",
-    "RecurringEndDate": "2000-08-10T14:28:21.1648024+02:00",
-    "MotherId": 604,
-    "AssignedBy": 198,
-    "AssignedByFullName": "Dr. Kattie Carroll Purdy II",
+    "RecurringStartDate": "2013-12-15T13:13:59.1407181+01:00",
+    "RecurringEndDate": "2020-05-25T13:13:59.1407181+02:00",
+    "MotherId": 230,
+    "AssignedBy": 884,
+    "AssignedByFullName": "Neva Kris",
     "RejectReason": "",
-    "Location": "mollitia",
-    "AlarmLeadTime": "sint",
-    "SaleId": 27,
-    "SaleName": "Ward, Wiegand and Kuhn",
-    "AssociateName": "Toy Inc and Sons",
-    "CreatedDate": "1998-08-24T14:28:21.1648024+02:00",
-    "CreatedBy": "hic",
-    "CreatedByFullName": "Prof. Jan Fahey III",
-    "CreatedByAssociateId": 219,
+    "Location": "consequatur",
+    "AlarmLeadTime": "reiciendis",
+    "SaleId": 1000,
+    "SaleName": "Beier Inc and Sons",
+    "AssociateName": "Pacocha-Kshlerin",
+    "CreatedDate": "2023-12-09T13:13:59.1407181+01:00",
+    "CreatedBy": "omnis",
+    "CreatedByFullName": "Antonietta Becker V",
+    "CreatedByAssociateId": 459,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 626,
-    "Title": "nihil",
-    "Agenda": "est",
-    "InternalNotes": "nam",
+    "PreferredTZLocation": 748,
+    "Title": "mollitia",
+    "Agenda": "asperiores",
+    "InternalNotes": "ipsum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldType": "System.String",
+        "FieldLength": 930
       }
     }
   }

@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 438,
-  "ParentId": 783,
-  "Name": "Kuhic Group",
-  "Fullname": "animi",
-  "CategoryMaster": 184,
+  "TicketCategoryId": 416,
+  "ParentId": 220,
+  "Name": "Braun LLC",
+  "Fullname": "nostrum",
+  "CategoryMaster": 522,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Cremin-Stracke",
+  "ExternalName": "Gleason-Gislason",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 494,
-  "ReplyTemplate": 245,
-  "NotificationEmail": "aditya@reichert.uk",
+  "AssignmentLag": 589,
+  "ReplyTemplate": 483,
+  "NotificationEmail": "caterina@hackettzieme.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 545,
+  "EffectiveReplyTemplateId": 687,
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "aspernatur"
+    "ExtraFields1": "et",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "est",
-    "CustomFields2": "nihil"
+    "CustomFields1": "delectus",
+    "CustomFields2": "doloribus"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 709,
-  "ParentId": 429,
-  "Name": "Turner, Barrows and Turner",
-  "Fullname": "eum",
-  "CategoryMaster": 230,
+  "TicketCategoryId": 227,
+  "ParentId": 556,
+  "Name": "Lang Inc and Sons",
+  "Fullname": "illo",
+  "CategoryMaster": 544,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Schoen, Grant and Leuschke",
+  "ExternalName": "Dooley Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 578,
-  "ReplyTemplate": 68,
-  "NotificationEmail": "else_walsh@rautremblay.uk",
+  "AssignmentLag": 329,
+  "ReplyTemplate": 232,
+  "NotificationEmail": "samson@fadel.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 437,
+  "EffectiveReplyTemplateId": 886,
   "ExtraFields": {
-    "ExtraFields1": "qui",
-    "ExtraFields2": "praesentium"
+    "ExtraFields1": "sint",
+    "ExtraFields2": "dolore"
   },
   "CustomFields": {
-    "CustomFields1": "dolor",
-    "CustomFields2": "et"
+    "CustomFields1": "sed",
+    "CustomFields2": "rerum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 298
+      "FieldType": "System.String",
+      "FieldLength": 983
     }
   }
 }

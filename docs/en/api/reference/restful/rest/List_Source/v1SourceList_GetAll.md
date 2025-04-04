@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 621,
-    "Name": "Abshire, Dickinson and Flatley",
-    "Tooltip": "sapiente",
-    "Deleted": false,
-    "UdListDefinitionId": 391,
-    "Rank": 17,
+    "Id": 819,
+    "Name": "Koelpin Group",
+    "Tooltip": "odio",
+    "Deleted": true,
+    "UdListDefinitionId": 82,
+    "Rank": 771,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 99
+        "FieldType": "System.String",
+        "FieldLength": 94
       }
     }
   }

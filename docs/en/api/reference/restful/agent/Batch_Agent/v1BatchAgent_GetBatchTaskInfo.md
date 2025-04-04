@@ -98,7 +98,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 253
+  "Id": 99
 }
 ```
 
@@ -109,37 +109,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 349,
-  "Name": "Gulgowski, Wolff and Barrows",
-  "AssociateId": 38,
-  "DetailsTable": 688,
-  "DetailsRecord": 640,
-  "IsSystemTask": false,
-  "IsInternalTask": false,
+  "Id": 442,
+  "Name": "Kshlerin, Huels and Zulauf",
+  "AssociateId": 34,
+  "DetailsTable": 273,
+  "DetailsRecord": 878,
+  "IsSystemTask": true,
+  "IsInternalTask": true,
   "ParameterObject": {
-    "ParameterObject1": "tempore",
-    "ParameterObject2": "voluptatibus"
+    "ParameterObject1": "eius",
+    "ParameterObject2": "ullam"
   },
-  "LastStarted": "2021-06-05T14:28:21.47729+02:00",
-  "Created": "2008-06-02T14:28:21.47729+02:00",
-  "StartCount": 154,
-  "DatabaseSerialNumber": "1139903",
-  "Context": "odio",
-  "Result": "consequatur",
+  "LastStarted": "2015-12-21T13:13:59.5314453+01:00",
+  "Created": "2012-03-29T13:13:59.5314453+02:00",
+  "StartCount": 126,
+  "DatabaseSerialNumber": "879827",
+  "Context": "excepturi",
+  "Result": "ut",
   "State": "All",
-  "Description": "Phased methodical algorithm",
+  "Description": "Profit-focused bandwidth-monitored monitoring",
   "Response": "et",
-  "Request": "beatae",
-  "ProgressDescription": "Exclusive regional website",
-  "ProgressPercent": 663,
-  "FileName": "Bergnaum, Wilderman and Kunze",
+  "Request": "quis",
+  "ProgressDescription": "Open-architected intangible info-mediaries",
+  "ProgressPercent": 728,
+  "FileName": "Erdman-Block",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 810
+      "FieldLength": 258
     }
   }
 }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Selection/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Considine, Stoltenberg and Schaefer"
+  "Name": "Hoeger-Luettgen"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Turner, Jast and Auer",
-    "SoPrimaryKey": 21,
-    "EntryName": "Hamill Group",
-    "EntryIdentifier": "quidem",
-    "RuleDisplayName": "Armstrong Inc and Sons",
+    "RuleName": "Reichert-Boyer",
+    "SoPrimaryKey": 705,
+    "EntryName": "Renner Group",
+    "EntryIdentifier": "aut",
+    "RuleDisplayName": "Kilback, Pagac and Dickinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 496
+        "FieldType": "System.String",
+        "FieldLength": 404
       }
     }
   }

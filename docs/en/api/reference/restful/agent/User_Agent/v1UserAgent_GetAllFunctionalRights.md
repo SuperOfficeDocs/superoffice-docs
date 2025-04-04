@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/User/GetAllFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 160,
-    "Name": "Parisian Inc and Sons",
-    "ToolTip": "Omnis asperiores temporibus repellat numquam velit voluptatibus non.",
+    "Id": 934,
+    "Name": "Keebler Group",
+    "ToolTip": "Quidem aut aut quasi vitae odit sed quia.",
     "Deleted": false,
-    "Rank": 447,
-    "Type": "assumenda",
-    "ColorBlock": 264,
-    "IconHint": "consequatur",
+    "Rank": 828,
+    "Type": "id",
+    "ColorBlock": 203,
+    "IconHint": "et",
     "Selected": true,
-    "LastChanged": "2008-04-13T14:28:22.6959913+02:00",
+    "LastChanged": "2022-01-25T13:14:01.6913203+01:00",
     "ChildItems": [
       {
-        "Id": 853,
-        "Name": "Jerde, Kris and Nitzsche",
-        "ToolTip": "Et tempora.",
+        "Id": 677,
+        "Name": "Runolfsdottir, Hills and Skiles",
+        "ToolTip": "Est aut qui aut esse deleniti omnis.",
         "Deleted": true,
-        "Rank": 482,
-        "Type": "dolores",
-        "ColorBlock": 757,
-        "IconHint": "commodi",
+        "Rank": 762,
+        "Type": "voluptatum",
+        "ColorBlock": 125,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2004-11-06T14:28:22.6959913+01:00",
+        "LastChanged": "1999-05-17T13:14:01.6913203+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "quas",
+        "ExtraInfo": "vel",
+        "StyleHint": "reprehenderit",
         "Hidden": true,
-        "FullName": "Mr. Nash Crystel Kiehn II",
+        "FullName": "Sheldon Wuckert",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 968
+            "FieldType": "System.String",
+            "FieldLength": 813
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "at",
+    "ExtraInfo": "et",
+    "StyleHint": "ea",
     "Hidden": true,
-    "FullName": "Ms. Maud Grayce VonRueden DVM",
+    "FullName": "Susanna Zulauf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 429
+        "FieldLength": 470
       }
     }
   }

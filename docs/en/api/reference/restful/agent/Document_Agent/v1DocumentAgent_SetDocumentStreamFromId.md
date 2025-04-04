@@ -113,7 +113,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 395,
+  "DocumentId": 879,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 493,
+  "DocumentId": 462,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "consequatur",
-  "Header": "quia",
-  "Name": "Terry Inc and Sons",
-  "OurRef": "voluptatem",
-  "YourRef": "praesentium",
-  "CreatedDate": "2014-10-19T14:28:21.8835236+02:00",
-  "UpdatedDate": "2012-08-24T14:28:21.8835236+02:00",
-  "Description": "Seamless fresh-thinking help-desk",
+  "Attention": "architecto",
+  "Header": "vel",
+  "Name": "Wolf-Ratke",
+  "OurRef": "voluptatum",
+  "YourRef": "voluptates",
+  "CreatedDate": "2020-01-04T13:14:00.2355945+01:00",
+  "UpdatedDate": "2016-10-17T13:14:00.2355945+02:00",
+  "Description": "Enterprise-wide tertiary project",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2006-08-11T14:28:21.8835236+02:00",
-  "ExternalRef": "provident",
+  "Date": "2019-11-03T13:14:00.2355945+01:00",
+  "ExternalRef": "voluptates",
   "Completed": "Completed",
-  "ActiveLinks": 103,
+  "ActiveLinks": 80,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Heidenreich-Klein",
-      "Id": 149,
-      "Description": "Switchable even-keeled intranet",
-      "ExtraInfo": "placeat",
-      "LinkId": 541,
+      "EntityName": "Hamill Inc and Sons",
+      "Id": 182,
+      "Description": "Networked intangible functionalities",
+      "ExtraInfo": "tempore",
+      "LinkId": 279,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldLength": 243
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 808,
-  "Snum": 887,
+  "SuggestedDocumentId": 805,
+  "Snum": 826,
   "UserDefinedFields": {
-    "SuperOffice:1": "Shawna Vance Batz Jr.",
-    "SuperOffice:2": "Genesis Padberg"
+    "SuperOffice:1": "406258098",
+    "SuperOffice:2": "2127094707"
   },
   "ExtraFields": {
-    "ExtraFields1": "ducimus",
-    "ExtraFields2": "autem"
+    "ExtraFields1": "quod",
+    "ExtraFields2": "modi"
   },
   "CustomFields": {
-    "CustomFields1": "eligendi",
-    "CustomFields2": "voluptas"
+    "CustomFields1": "labore",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2021-12-01T14:28:21.8835236+01:00",
-  "PublishTo": "2011-10-28T14:28:21.8835236+02:00",
-  "PublishFrom": "2003-12-31T14:28:21.8835236+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2002-07-26T13:14:00.2355945+02:00",
+  "PublishTo": "1999-01-07T13:14:00.2355945+01:00",
+  "PublishFrom": "2022-06-26T13:14:00.2355945+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 80,
+      "VisibleId": 45,
       "Visibility": "All",
-      "DisplayValue": "esse",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 802
         }
       }
     },
     {
-      "VisibleId": 80,
+      "VisibleId": 45,
       "Visibility": "All",
-      "DisplayValue": "esse",
+      "DisplayValue": "quia",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 279
+          "FieldLength": 802
         }
       }
     }
@@ -216,7 +216,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 548
     }
   }
 }

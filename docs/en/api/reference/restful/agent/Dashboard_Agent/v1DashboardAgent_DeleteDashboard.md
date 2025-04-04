@@ -25,7 +25,7 @@ Deletes the Dashboard
 | DashboardId | int32 | **Required** The id of the Dashboard to be deleted. |
 
 ```http
-POST /api/v1/Agents/Dashboard/DeleteDashboard?DashboardId=976
+POST /api/v1/Agents/Dashboard/DeleteDashboard?DashboardId=112
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Dashboard/DeleteDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response

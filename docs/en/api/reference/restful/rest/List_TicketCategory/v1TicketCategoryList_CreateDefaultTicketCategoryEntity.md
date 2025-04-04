@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 951,
-  "ParentId": 798,
-  "Name": "Miller LLC",
-  "Fullname": "omnis",
-  "CategoryMaster": 551,
+  "TicketCategoryId": 583,
+  "ParentId": 181,
+  "Name": "Wiegand-Ritchie",
+  "Fullname": "et",
+  "CategoryMaster": 729,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Ernser-Jacobson",
+  "ExternalName": "Goldner-Considine",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 191,
-  "ReplyTemplate": 230,
-  "NotificationEmail": "zula@hermannlehner.biz",
+  "AssignmentLag": 469,
+  "ReplyTemplate": 648,
+  "NotificationEmail": "daisha@schowalter.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 622,
+  "EffectiveReplyTemplateId": 495,
   "ExtraFields": {
-    "ExtraFields1": "enim",
-    "ExtraFields2": "libero"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "incidunt"
   },
   "CustomFields": {
-    "CustomFields1": "magni",
-    "CustomFields2": "magnam"
+    "CustomFields1": "praesentium",
+    "CustomFields2": "ut"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 948
+      "FieldType": "System.Int32",
+      "FieldLength": 139
     }
   }
 }

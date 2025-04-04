@@ -115,35 +115,35 @@ TicketTypeEntity updated.
 PUT /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 213,
-  "Name": "Kilback LLC",
-  "Rank": 196,
-  "Tooltip": "facilis",
-  "Icon": "sit",
-  "DefaultTicketStatus": 51,
+  "TicketTypeId": 238,
+  "Name": "Sauer, Torp and Kuphal",
+  "Rank": 965,
+  "Tooltip": "vero",
+  "Icon": "aut",
+  "DefaultTicketStatus": 820,
   "TicketStatuses": [
-    11,
-    57
+    385,
+    578
   ],
-  "DefaultTicketPriority": 539,
+  "DefaultTicketPriority": 791,
   "TicketPriorities": [
-    38,
-    571
+    588,
+    353
   ],
-  "ReplyTemplate": 976,
+  "ReplyTemplate": 768,
   "IsExternalVisible": true,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": true,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    863,
-    642
+    500,
+    183
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false
@@ -157,31 +157,31 @@ HTTP/1.1 200 TicketTypeEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 821,
-  "Name": "Deckow-Howe",
-  "Rank": 392,
-  "Tooltip": "harum",
-  "Icon": "magnam",
-  "DefaultTicketStatus": 225,
+  "TicketTypeId": 665,
+  "Name": "Carroll LLC",
+  "Rank": 222,
+  "Tooltip": "tempora",
+  "Icon": "at",
+  "DefaultTicketStatus": 294,
   "TicketStatuses": [
-    173,
-    171
+    717,
+    348
   ],
-  "DefaultTicketPriority": 563,
+  "DefaultTicketPriority": 974,
   "TicketPriorities": [
-    915,
-    805
+    775,
+    444
   ],
-  "ReplyTemplate": 912,
+  "ReplyTemplate": 77,
   "IsExternalVisible": false,
   "IsDefault": true,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    37,
-    773
+    209,
+    243
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -190,7 +190,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 377
+      "FieldLength": 631
     }
   },
   "_Links": {

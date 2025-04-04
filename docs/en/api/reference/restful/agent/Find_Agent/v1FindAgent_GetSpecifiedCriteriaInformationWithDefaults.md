@@ -82,20 +82,20 @@ OK
 POST /api/v1/Agents/Find/GetSpecifiedCriteriaInformationWithDefaults
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "labore",
-  "ProviderName": "McGlynn-Toy",
-  "StorageKey": "repellat",
+  "StorageType": "ad",
+  "ProviderName": "Kovacek-Weimann",
+  "StorageKey": "quis",
   "DesiredColumnNames": [
-    "Heller-Hane",
-    "Gerlach-Hegmann"
+    "O'Conner LLC",
+    "Rempel-Jewess"
   ],
   "StaticColumns": [
-    "ut",
-    "aut"
+    "delectus",
+    "vero"
   ]
 }
 ```
@@ -109,15 +109,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Kulas, Stanton and Zieme",
-      "Operator": "magnam",
+      "Name": "Kautzer, Witting and O'Connell",
+      "Operator": "nihil",
       "Values": [
-        "consectetur",
+        "et",
         "architecto"
       ],
       "DisplayValues": [
-        "nemo",
-        "quasi"
+        "dolorem",
+        "facilis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -125,65 +125,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 287,
+      "InterParenthesis": 499,
       "InterOperator": "And",
-      "UniqueHash": 403
+      "UniqueHash": 324
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Heller-Hand",
-      "DisplayTooltip": "qui",
-      "DisplayType": "fuga",
+      "DisplayName": "Doyle Group",
+      "DisplayTooltip": "in",
+      "DisplayType": "minus",
       "CanOrderBy": false,
-      "Name": "Sipes-Howell",
+      "Name": "Kemmer-Armstrong",
       "CanRestrictBy": true,
-      "RestrictionType": "cupiditate",
-      "RestrictionListName": "Corwin-Padberg",
+      "RestrictionType": "quibusdam",
+      "RestrictionListName": "Ullrich-Thompson",
       "IsVisible": false,
-      "ExtraInfo": "omnis",
-      "Width": "reiciendis",
-      "IconHint": "magnam",
-      "HeadingIconHint": "sequi"
+      "ExtraInfo": "fugiat",
+      "Width": "quos",
+      "IconHint": "tenetur",
+      "HeadingIconHint": "et"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Bruen Inc and Sons",
-      "PrimaryKey": 188,
+      "EntityName": "Rolfson-Morar",
+      "PrimaryKey": 596,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestiae",
-          "TooltipHint": "eos",
-          "LinkHint": "quibusdam"
+          "DisplayValue": "nisi",
+          "TooltipHint": "nemo",
+          "LinkHint": "at"
         }
       },
-      "LinkHint": "magni",
-      "StyleHint": "quia",
+      "LinkHint": "reprehenderit",
+      "StyleHint": "dolores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 594
+          "FieldLength": 976
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "VonRueden, Franecki and Bernier",
-      "Description": "Reverse-engineered bi-directional array",
-      "Rank": 343,
+      "Name": "Quitzon Group",
+      "Description": "Seamless optimal project",
+      "Rank": 44,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "VonRueden, Franecki and Bernier",
-      "Description": "Reverse-engineered bi-directional array",
-      "Rank": 343,
+      "Name": "Quitzon Group",
+      "Description": "Seamless optimal project",
+      "Rank": 44,
       "Restrictions": [
         {},
         {}
@@ -195,7 +195,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 308
+      "FieldLength": 345
     }
   }
 }

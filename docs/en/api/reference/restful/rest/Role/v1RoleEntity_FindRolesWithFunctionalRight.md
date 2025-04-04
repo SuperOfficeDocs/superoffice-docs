@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/WithFunctionRight/{functionalRightName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,50 +86,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 847,
-    "Name": "Schowalter LLC",
-    "ToolTip": "Omnis ut provident.",
+    "Id": 260,
+    "Name": "Schmidt LLC",
+    "ToolTip": "Nam nam eum alias.",
     "Deleted": false,
-    "Rank": 128,
-    "Type": "sunt",
+    "Rank": 92,
+    "Type": "corrupti",
     "ChildItems": [
       {
-        "Id": 608,
-        "Name": "Nicolas, Koelpin and Stokes",
-        "ToolTip": "Natus sunt sapiente.",
-        "Deleted": true,
-        "Rank": 348,
-        "Type": "consequatur",
+        "Id": 598,
+        "Name": "Boyle, Carroll and Douglas",
+        "ToolTip": "Dolorem qui cumque dolor in aliquam praesentium.",
+        "Deleted": false,
+        "Rank": 564,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 29,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "distinctio",
-        "FullName": "Quinn Gutmann",
+        "IconHint": "magni",
+        "ColorBlock": 864,
+        "ExtraInfo": "nihil",
+        "StyleHint": "et",
+        "FullName": "Duncan Parker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 99
+            "FieldLength": 276
           }
         }
       }
     ],
-    "IconHint": "dicta",
-    "ColorBlock": 909,
-    "ExtraInfo": "aperiam",
-    "StyleHint": "autem",
-    "FullName": "Viva Elmira Schmitt MD",
+    "IconHint": "sit",
+    "ColorBlock": 210,
+    "ExtraInfo": "rerum",
+    "StyleHint": "est",
+    "FullName": "Ms. Pascale Joey Kuhlman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 433
+        "FieldType": "System.Int32",
+        "FieldLength": 663
       }
     }
   }

@@ -27,7 +27,7 @@ Get the MDO list items for "ProductCategory" - with headings and filtering by us
 
 ```http
 GET /api/v1/List/ProductCategory/MDOItems?flat=True
-GET /api/v1/List/ProductCategory/MDOItems?query=eius
+GET /api/v1/List/ProductCategory/MDOItems?query=laborum
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Harber, Williamson and Thiel",
-    "ToolTip": "Iusto libero quo dolore nostrum et deleniti.",
-    "Deleted": false,
-    "Rank": 894,
-    "Type": "a",
+    "Id": 328,
+    "Name": "Carroll Group",
+    "ToolTip": "Ducimus voluptatem.",
+    "Deleted": true,
+    "Rank": 196,
+    "Type": "aliquid",
     "ChildItems": [
       {
-        "Id": 449,
-        "Name": "Dibbert Inc and Sons",
-        "ToolTip": "Veritatis iure aut.",
+        "Id": 135,
+        "Name": "Lindgren, Bergnaum and Okuneva",
+        "ToolTip": "Fuga qui laboriosam.",
         "Deleted": false,
-        "Rank": 626,
-        "Type": "ratione",
+        "Rank": 552,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "nostrum",
-        "ColorBlock": 907,
-        "ExtraInfo": "quo",
-        "StyleHint": "similique",
-        "FullName": "Dayna Volkman",
+        "IconHint": "illum",
+        "ColorBlock": 374,
+        "ExtraInfo": "accusamus",
+        "StyleHint": "cum",
+        "FullName": "Mr. Herta Greenfelder",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 627
+            "FieldLength": 149
           }
         }
       }
     ],
-    "IconHint": "ex",
-    "ColorBlock": 831,
-    "ExtraInfo": "expedita",
-    "StyleHint": "quod",
-    "FullName": "Meredith Fahey",
+    "IconHint": "optio",
+    "ColorBlock": 142,
+    "ExtraInfo": "est",
+    "StyleHint": "sapiente",
+    "FullName": "Ms. Enid Pietro Witting",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 911
+        "FieldType": "System.String",
+        "FieldLength": 269
       }
     }
   }

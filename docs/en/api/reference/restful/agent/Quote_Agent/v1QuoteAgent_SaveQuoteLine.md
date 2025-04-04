@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 792,
-  "ERPQuoteLineKey": "quia",
-  "QuoteAlternativeId": 397,
-  "ERPProductKey": "fugit",
+  "QuoteLineId": 625,
+  "ERPQuoteLineKey": "nostrum",
+  "QuoteAlternativeId": 814,
+  "ERPProductKey": "qui",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 1237.93,
-  "DeliveredQuantity": 25808.489999999998,
-  "Rank": 316,
-  "Name": "Nicolas, Oberbrunner and Friesen",
-  "Description": "Organized needs-based neural-net",
-  "Code": "voluptate",
-  "QuantityUnit": "deleniti",
-  "PriceUnit": "id",
-  "ItemNumber": "829035",
+  "Quantity": 5910.724,
+  "DeliveredQuantity": 16547.52,
+  "Rank": 762,
+  "Name": "Bergstrom-Gleason",
+  "Description": "Team-oriented next generation application",
+  "Code": "saepe",
+  "QuantityUnit": "rem",
+  "PriceUnit": "vel",
+  "ItemNumber": "801524",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "atque",
-  "Supplier": "quibusdam",
-  "SupplierCode": "consectetur",
-  "Thumbnail": "neque",
-  "VATInfo": "dolor",
-  "VAT": 1598.34,
-  "UnitCost": 3459.9359999999997,
-  "UnitMinimumPrice": 1454.176,
-  "UnitListPrice": 4845.164,
+  "ProductFamilyKey": "quia",
+  "ProductTypeKey": "magnam",
+  "Supplier": "tenetur",
+  "SupplierCode": "est",
+  "Thumbnail": "et",
+  "VATInfo": "expedita",
+  "VAT": 18340.167999999998,
+  "UnitCost": 30324.584,
+  "UnitMinimumPrice": 23448.588,
+  "UnitListPrice": 8765.7979999999989,
   "ExtraInfo": [
     {
-      "Name": "Gerlach-Langosh",
-      "Value": "ut",
+      "Name": "Olson, Ritchie and Daniel",
+      "Value": "soluta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 760
         }
       }
     },
     {
-      "Name": "Gerlach-Langosh",
-      "Value": "ut",
+      "Name": "Olson, Ritchie and Daniel",
+      "Value": "soluta",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 252
+          "FieldLength": 760
         }
       }
     }
   ],
-  "RawExtraInfo": "eius",
+  "RawExtraInfo": "voluptatem",
   "IsSubscription": true,
-  "SubscriptionUnit": "aut",
-  "SubscriptionQuantity": 31198.969999999998,
-  "SubscriptionStart": "2000-06-03T14:28:22.3053817+02:00",
-  "ERPDiscountPercent": 12824.328,
-  "ERPDiscountAmount": 15146.622,
-  "DiscountPercent": 19966.714,
-  "DiscountAmount": 6399.628,
+  "SubscriptionUnit": "natus",
+  "SubscriptionQuantity": 13404.118,
+  "SubscriptionStart": "1999-03-12T13:14:01.017639+01:00",
+  "ERPDiscountPercent": 30619.18,
+  "ERPDiscountAmount": 11949.942,
+  "DiscountPercent": 5891.92,
+  "DiscountAmount": 9380.062,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 7697.1039999999994,
-  "EarningAmount": 10617.992,
-  "SubTotal": 17945.284,
-  "TotalPrice": 27256.397999999997,
-  "Rights": "suscipit",
-  "Rule": "ipsum",
-  "ExtraField1": "accusantium",
-  "ExtraField2": "quo",
-  "ExtraField3": "maxime",
-  "ExtraField4": "earum",
-  "ExtraField5": "dicta",
+  "EarningPercent": 13664.24,
+  "EarningAmount": 30691.262,
+  "SubTotal": 17926.48,
+  "TotalPrice": 2450.788,
+  "Rights": "optio",
+  "Rule": "aperiam",
+  "ExtraField1": "quas",
+  "ExtraField2": "assumenda",
+  "ExtraField3": "voluptatem",
+  "ExtraField4": "rem",
+  "ExtraField5": "ea",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 874
+      "FieldType": "System.String",
+      "FieldLength": 946
     }
   }
 }

@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 265,
-  "UdListDefinitionName": "Kling, Homenick and Goldner",
+  "Id": 68,
+  "UdListDefinitionName": "Simonis-Boyle",
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 568,
-  "Name": "Huel-Fay",
-  "Tooltip": "sapiente",
+  "Id": 769,
+  "Name": "Lehner, Gusikowski and Jacobson",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "UdListDefinitionId": 531,
-  "Rank": 584,
+  "UdListDefinitionId": 215,
+  "Rank": 164,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 388
+      "FieldLength": 123
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Priority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 552,
-  "Name": "Schmidt Inc and Sons",
-  "Tooltip": "ea",
-  "Deleted": true,
-  "Rank": 640,
-  "UdListDefinitionId": 666
+  "HeadingId": 370,
+  "Name": "Christiansen LLC",
+  "Tooltip": "corrupti",
+  "Deleted": false,
+  "Rank": 625,
+  "UdListDefinitionId": 562
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 919,
-  "Name": "Luettgen-Schiller",
-  "Tooltip": "quia",
+  "HeadingId": 711,
+  "Name": "Wisoky-Kovacek",
+  "Tooltip": "fuga",
   "Deleted": true,
-  "Rank": 88,
-  "UdListDefinitionId": 117,
+  "Rank": 276,
+  "UdListDefinitionId": 948,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 109
+      "FieldLength": 421
     }
   }
 }

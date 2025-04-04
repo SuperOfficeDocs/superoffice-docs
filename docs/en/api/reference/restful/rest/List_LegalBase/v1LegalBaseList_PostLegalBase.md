@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/LegalBase/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 343,
-  "Name": "Hagenes, Haley and Kessler",
-  "Tooltip": "excepturi",
-  "Rank": 209,
-  "Key": "nisi",
-  "Deleted": true
+  "LegalBaseId": 451,
+  "Name": "Schinner-Howe",
+  "Tooltip": "sit",
+  "Rank": 824,
+  "Key": "itaque",
+  "Deleted": false
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 66,
-  "Name": "Hettinger-Bosco",
-  "Tooltip": "omnis",
-  "Rank": 497,
-  "Key": "sapiente",
-  "Deleted": true,
+  "LegalBaseId": 263,
+  "Name": "Hettinger Inc and Sons",
+  "Tooltip": "sed",
+  "Rank": 737,
+  "Key": "et",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 429
+      "FieldType": "System.Int32",
+      "FieldLength": 898
     }
   }
 }

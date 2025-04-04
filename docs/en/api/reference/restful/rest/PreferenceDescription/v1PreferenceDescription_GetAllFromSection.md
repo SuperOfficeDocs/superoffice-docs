@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 989,
-    "Section": "quidem",
-    "Key": "quia",
-    "Name": "Flatley-Stehr",
+    "PrefDescId": 861,
+    "Section": "eum",
+    "Key": "ut",
+    "Name": "Pollich-Kuvalis",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Profound local complexity",
-    "IsBuiltin": true,
-    "TableName": "D'Amore-O'Reilly",
-    "UserDefinedListId": 768,
-    "Rank": 388,
-    "SubGroup": "repudiandae",
-    "MinLevel": 561,
-    "MaxValue": 46,
-    "MinValue": 826,
-    "RequiredLicense": "dicta",
+    "Description": "Multi-layered web-enabled adapter",
+    "IsBuiltin": false,
+    "TableName": "Larson Inc and Sons",
+    "UserDefinedListId": 526,
+    "Rank": 849,
+    "SubGroup": "libero",
+    "MinLevel": 807,
+    "MaxValue": 713,
+    "MinValue": 319,
+    "RequiredLicense": "animi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 630
+        "FieldLength": 260
       }
     }
   }

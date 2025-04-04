@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/SetListTableIdAndUDListDefinitionIdFromSelectedListId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Info": null,
-  "SelectedListId": 278
+  "SelectedListId": 589
 }
 ```
 
@@ -123,46 +123,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 133,
-  "ColumnId": 732,
-  "FieldDefault": "beatae",
-  "FieldHeight": 656,
-  "FieldLabel": "nobis",
-  "FieldLeft": 371,
-  "FieldTop": 845,
+  "UDefFieldId": 722,
+  "ColumnId": 34,
+  "FieldDefault": "sit",
+  "FieldHeight": 112,
+  "FieldLabel": "quo",
+  "FieldLeft": 188,
+  "FieldTop": 562,
   "FieldType": "Checkbox",
-  "FieldWidth": 589,
-  "FormatMask": "natus",
-  "HideLabel": true,
+  "FieldWidth": 227,
+  "FormatMask": "aut",
+  "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 481,
-  "LabelLeft": 371,
-  "LabelTop": 266,
-  "LabelWidth": 734,
-  "LastVersionId": 218,
-  "ListTableId": 660,
+  "LabelHeight": 32,
+  "LabelLeft": 110,
+  "LabelTop": 485,
+  "LabelWidth": 148,
+  "LastVersionId": 675,
+  "ListTableId": 672,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 409,
-  "ProgId": "est",
-  "IsReadOnly": false,
-  "ShortLabel": "maiores",
-  "TabOrder": 625,
-  "TextLength": 534,
-  "Tooltip": "voluptates",
-  "UdefIdentity": 871,
-  "UDListDefinitionId": 641,
+  "Page1LineNo": 143,
+  "ProgId": "et",
+  "IsReadOnly": true,
+  "ShortLabel": "quisquam",
+  "TabOrder": 112,
+  "TextLength": 39,
+  "Tooltip": "exercitationem",
+  "UdefIdentity": 53,
+  "UDListDefinitionId": 811,
   "Justification": "Center",
-  "Version": 546,
-  "TemplateVariableName": "Homenick Group",
-  "HasBeenPublished": false,
-  "MdoListName": "Jacobi Inc and Sons",
+  "Version": 403,
+  "TemplateVariableName": "Tillman-Runolfsdottir",
+  "HasBeenPublished": true,
+  "MdoListName": "Grimes-Treutel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 520
+      "FieldLength": 125
     }
   }
 }

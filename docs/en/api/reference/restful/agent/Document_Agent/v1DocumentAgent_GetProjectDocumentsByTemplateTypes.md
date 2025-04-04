@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetProjectDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 818,
-  "StartTime": "1999-01-08T14:28:21.8210267+01:00",
-  "EndTime": "2004-01-22T14:28:21.8210267+01:00",
-  "Count": 815,
+  "ProjectId": 808,
+  "StartTime": "2008-03-06T13:14:00.0944666+01:00",
+  "EndTime": "2014-11-06T13:14:00.0944666+01:00",
+  "Count": 568,
   "DocumentTemplateIds": [
-    838,
-    851
+    751,
+    396
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 622,
-    "Attention": "ea",
-    "Header": "dolorem",
-    "Name": "Bogisich, Christiansen and Kiehn",
-    "OurRef": "quisquam",
-    "YourRef": "commodi",
-    "Description": "Implemented exuding help-desk",
-    "DocumentTemplate": "ut",
+    "DocumentId": 846,
+    "Attention": "alias",
+    "Header": "doloribus",
+    "Name": "Osinski Group",
+    "OurRef": "quia",
+    "YourRef": "aperiam",
+    "Description": "Open-architected 6th generation artificial intelligence",
+    "DocumentTemplate": "et",
     "IsPublished": false,
-    "PersonId": 265,
-    "PersonFullName": "Vilma Brakus",
-    "AssociateFullName": "Dr. Adam Lynch MD",
-    "ContactId": 213,
-    "ContactName": "Spinka, Torphy and Roob",
-    "ProjectId": 151,
-    "ProjectName": "Feest Group",
-    "AssociateId": 521,
-    "Snum": 197,
-    "SaleId": 217,
-    "SaleName": "Moore, Treutel and Lesch",
+    "PersonId": 504,
+    "PersonFullName": "Prof. Kathlyn Margaret Flatley II",
+    "AssociateFullName": "Brody Lockman",
+    "ContactId": 299,
+    "ContactName": "McClure LLC",
+    "ProjectId": 483,
+    "ProjectName": "Hermiston-Goldner",
+    "AssociateId": 60,
+    "Snum": 922,
+    "SaleId": 176,
+    "SaleName": "Gottlieb, Maggio and Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 597
+        "FieldType": "System.String",
+        "FieldLength": 335
       }
     }
   }

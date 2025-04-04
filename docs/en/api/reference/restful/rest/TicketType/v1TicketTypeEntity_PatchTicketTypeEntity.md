@@ -132,12 +132,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "quo",
     "value": {}
   },
   {
     "op": "add",
-    "path": "blanditiis",
+    "path": "quo",
     "value": {}
   }
 ]
@@ -150,45 +150,45 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 461,
-  "Name": "Waelchi, Berge and Corkery",
-  "Rank": 493,
-  "Tooltip": "consectetur",
-  "Icon": "alias",
-  "DefaultTicketStatus": 902,
+  "TicketTypeId": 516,
+  "Name": "Kohler, Jacobs and Herman",
+  "Rank": 153,
+  "Tooltip": "reiciendis",
+  "Icon": "dolor",
+  "DefaultTicketStatus": 841,
   "TicketStatuses": [
-    432,
-    869
+    789,
+    736
   ],
-  "DefaultTicketPriority": 284,
+  "DefaultTicketPriority": 98,
   "TicketPriorities": [
-    473,
-    459
+    711,
+    178
   ],
-  "ReplyTemplate": 42,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 889,
+  "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    727,
-    546
+    357,
+    270
   ],
-  "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyForwardNoSignature": true,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 310
+      "FieldType": "System.Int32",
+      "FieldLength": 601
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

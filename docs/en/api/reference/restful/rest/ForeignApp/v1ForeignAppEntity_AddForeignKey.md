@@ -83,18 +83,18 @@ OK
 POST /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "neque",
-  "Value": "minus",
-  "RecordId": 667,
-  "CreatedDate": "2012-04-27T14:28:26.9458186+02:00",
-  "UpdatedDate": "2016-03-31T14:28:26.9458186+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "provident",
-  "TableName": "Cummings-Auer"
+  "Key": "assumenda",
+  "Value": "quaerat",
+  "RecordId": 112,
+  "CreatedDate": "2003-12-01T13:14:08.7585151+01:00",
+  "UpdatedDate": "2023-10-23T13:14:08.7585151+02:00",
+  "UpdatedBy": "nesciunt",
+  "CreatedBy": "ad",
+  "TableName": "Koss-Moen"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "sed",
-  "Value": "sed",
-  "RecordId": 595,
-  "CreatedDate": "2019-11-10T14:28:26.9458186+01:00",
-  "UpdatedDate": "2018-01-02T14:28:26.9458186+01:00",
-  "UpdatedBy": "nam",
-  "CreatedBy": "quia",
-  "TableName": "Lesch-Kuvalis",
+  "Key": "aut",
+  "Value": "adipisci",
+  "RecordId": 763,
+  "CreatedDate": "2019-10-13T13:14:08.7585151+02:00",
+  "UpdatedDate": "2015-08-08T13:14:08.7585151+02:00",
+  "UpdatedBy": "et",
+  "CreatedBy": "amet",
+  "TableName": "Kertzmann Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 630
+      "FieldType": "System.String",
+      "FieldLength": 871
     }
   }
 }

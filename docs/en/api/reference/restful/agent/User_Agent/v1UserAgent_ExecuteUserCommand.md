@@ -73,7 +73,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CommandName": "Mitchell-Fritsch",
+  "CommandName": "Emmerich-Schamberger",
   "ActionResult": "Cancel",
   "User": null
 }
@@ -86,15 +86,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": false,
-  "Message": "quo",
+  "Success": true,
+  "Message": "rerum",
   "Result": "Cancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 394
+      "FieldType": "System.String",
+      "FieldLength": 248
     }
   }
 }

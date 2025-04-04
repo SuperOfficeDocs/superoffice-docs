@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 782,
-  "PrefDescId": 642,
-  "PrefValue": "et",
-  "PrefShowValue": "nihil",
-  "Description": "Progressive coherent benchmark",
+  "PrefDescLineId": 42,
+  "PrefDescId": 129,
+  "PrefValue": "consequatur",
+  "PrefShowValue": "molestiae",
+  "Description": "Digitized neutral knowledge user",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 156
+      "FieldLength": 207
     }
   }
 }

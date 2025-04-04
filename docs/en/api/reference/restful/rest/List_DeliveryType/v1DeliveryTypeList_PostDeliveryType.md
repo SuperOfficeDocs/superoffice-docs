@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 543,
-  "Name": "Pfeffer, Boyle and Blick",
-  "Tooltip": "voluptatem",
+  "Id": 366,
+  "Name": "Wolff-Mosciski",
+  "Tooltip": "quod",
   "Deleted": false,
-  "UdListDefinitionId": 186,
-  "Rank": 712
+  "UdListDefinitionId": 484,
+  "Rank": 979
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 84,
-  "Name": "Bechtelar LLC",
-  "Tooltip": "possimus",
+  "Id": 184,
+  "Name": "Gorczany-Schroeder",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 854,
-  "Rank": 280,
+  "UdListDefinitionId": 261,
+  "Rank": 925,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 846
+      "FieldType": "System.Int32",
+      "FieldLength": 452
     }
   }
 }

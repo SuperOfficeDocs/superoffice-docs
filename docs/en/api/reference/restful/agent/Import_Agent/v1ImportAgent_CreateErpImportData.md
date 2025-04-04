@@ -77,38 +77,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Braun-Dibbert",
-      "Operator": "ducimus",
+      "Name": "Denesik LLC",
+      "Operator": "consequatur",
       "Values": [
-        "consequuntur",
-        "explicabo"
+        "omnis",
+        "illo"
       ],
       "DisplayValues": [
-        "fugit",
-        "ipsum"
+        "quos",
+        "odio"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 695,
+      "InterParenthesis": 407,
       "InterOperator": "And",
-      "UniqueHash": 40
+      "UniqueHash": 153
     }
   ],
   "Columns": [
-    "magnam",
-    "id"
+    "necessitatibus",
+    "expedita"
   ],
-  "ConnectionId": 668,
+  "ConnectionId": 344,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "eaque",
-        "dicta"
+        "quia",
+        "aperiam"
       ],
       "Selected": false,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "impedit",
+      "ExternalKey": "vel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 552
+          "FieldLength": 123
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Walsh LLC",
-      "DisplayName": "Dickens, Haley and Walter",
-      "Locked": true,
+      "Name": "Langosh-Rau",
+      "DisplayName": "Mills-Gaylord",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldLength": 370
         }
       }
     },
     {
-      "Name": "Walsh LLC",
-      "DisplayName": "Dickens, Haley and Walter",
-      "Locked": true,
+      "Name": "Langosh-Rau",
+      "DisplayName": "Mills-Gaylord",
+      "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 884
+          "FieldLength": 370
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 395
+      "FieldType": "System.Int32",
+      "FieldLength": 828
     }
   }
 }

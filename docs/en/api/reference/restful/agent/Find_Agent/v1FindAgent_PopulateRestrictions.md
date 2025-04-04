@@ -83,22 +83,22 @@ OK
 POST /api/v1/Agents/Find/PopulateRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Stokes-Hilll",
+  "ProviderName": "Hickle-Haag",
   "Restrictions": [
     {
-      "Name": "Marks-Sawayn",
-      "Operator": "eveniet",
+      "Name": "Daugherty Group",
+      "Operator": "veniam",
       "Values": [
-        "ipsum",
-        "porro"
+        "delectus",
+        "id"
       ],
       "DisplayValues": [
-        "corporis",
-        "corporis"
+        "laudantium",
+        "est"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 48,
+      "InterParenthesis": 363,
       "InterOperator": "And",
-      "UniqueHash": 942
+      "UniqueHash": 90
     }
   ]
 }
@@ -122,29 +122,29 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wolf-Conroy",
-    "Operator": "commodi",
+    "Name": "Pouros Inc and Sons",
+    "Operator": "eos",
     "Values": [
-      "occaecati",
-      "aut"
+      "nihil",
+      "soluta"
     ],
     "DisplayValues": [
-      "optio",
-      "voluptatem"
+      "molestiae",
+      "consectetur"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Cummerata-Ritchie",
-        "Operator": "tempora",
+        "Name": "Lebsack-Fritsch",
+        "Operator": "inventore",
         "Values": [
-          "molestiae",
+          "earum",
           "et"
         ],
         "DisplayValues": [
-          "accusamus",
-          "quasi"
+          "illum",
+          "velit"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -152,14 +152,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 230,
+        "InterParenthesis": 100,
         "InterOperator": "And",
-        "UniqueHash": 749
+        "UniqueHash": 203
       }
     ],
-    "InterParenthesis": 788,
+    "InterParenthesis": 686,
     "InterOperator": "And",
-    "UniqueHash": 626
+    "UniqueHash": 408
   }
 ]
 ```

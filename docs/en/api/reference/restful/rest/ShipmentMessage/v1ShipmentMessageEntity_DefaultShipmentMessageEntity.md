@@ -77,7 +77,7 @@ OK
 GET /api/v1/ShipmentMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 208,
-  "PlainMessage": "quos",
-  "HtmlMessage": "ut",
-  "SmsMessage": "harum",
-  "Description": "Operative bi-directional focus group",
-  "Subject": "aspernatur",
-  "FolderId": 89,
-  "HeaderField": "optio",
-  "Design": "nulla",
+  "ShipmentMessageId": 933,
+  "PlainMessage": "et",
+  "HtmlMessage": "omnis",
+  "SmsMessage": "consequuntur",
+  "Description": "Networked dedicated hardware",
+  "Subject": "voluptatem",
+  "FolderId": 192,
+  "HeaderField": "cumque",
+  "Design": "consequuntur",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Virtual 4th generation algorithm",
-  "AccessKey": "ut",
-  "DocumentMessage": 136,
-  "Registered": "2015-12-06T14:28:27.2583066+01:00",
-  "RegisteredAssociateId": 62,
-  "Updated": "2011-02-10T14:28:27.2583066+01:00",
-  "UpdatedAssociateId": 604,
-  "UpdatedCount": 873,
+  "LongDescription": "Innovative 24/7 data-warehouse",
+  "AccessKey": "accusantium",
+  "DocumentMessage": 229,
+  "Registered": "2007-10-16T13:14:09.1966452+02:00",
+  "RegisteredAssociateId": 379,
+  "Updated": "2015-04-19T13:14:09.1966452+02:00",
+  "UpdatedAssociateId": 928,
+  "UpdatedCount": 329,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 249
+      "FieldLength": 210
     }
   }
 }

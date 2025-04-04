@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 499,
-  "Name": "Zboncak, Conn and Kuhlman",
-  "Tooltip": "perferendis",
+  "Id": 524,
+  "Name": "McCullough Inc and Sons",
+  "Tooltip": "ab",
   "Deleted": false,
-  "Rank": 330,
+  "Rank": 203,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "impedit",
+  "UseGroupsAndHeadings": false,
+  "ListType": "quo",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 230,
-  "Name": "Rice, Hammes and Torp",
-  "Tooltip": "quis",
+  "Id": 615,
+  "Name": "Mertz-Cummings",
+  "Tooltip": "quod",
   "Deleted": false,
-  "Rank": 798,
+  "Rank": 707,
   "IsCustomList": true,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ipsam",
+  "ListType": "similique",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 461
+      "FieldType": "System.String",
+      "FieldLength": 647
     }
   }
 }

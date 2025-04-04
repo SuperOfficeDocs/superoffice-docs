@@ -82,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 350,
-  "SelectionId": 72,
-  "IncludeEmails": true
+  "DocumentPluginId": 154,
+  "SelectionId": 544,
+  "IncludeEmails": false
 }
 ```
 
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 660,
-  "NumDocumentsAlreadyMigrated": 225,
+  "NumDocumentsOmitted": 747,
+  "NumDocumentsAlreadyMigrated": 416,
   "Documents": [
     {
-      "DocumentId": 772,
-      "ContactId": 278,
-      "PersonId": 628,
-      "SaleId": 892,
-      "ProjectId": 844,
-      "DocTmplId": 684,
-      "AssociateId": 200,
-      "UserGroupId": 161,
-      "VisibleForId": 33
+      "DocumentId": 890,
+      "ContactId": 762,
+      "PersonId": 974,
+      "SaleId": 417,
+      "ProjectId": 301,
+      "DocTmplId": 528,
+      "AssociateId": 231,
+      "UserGroupId": 935,
+      "VisibleForId": 349
     }
   ],
   "Associates": [
     {
-      "AssociateId": 964,
-      "EmailAddress": "elda@kihnmcclure.uk"
+      "AssociateId": 333,
+      "EmailAddress": "shanna@bernier.com"
     },
     {
-      "AssociateId": 964,
-      "EmailAddress": "elda@kihnmcclure.uk"
+      "AssociateId": 333,
+      "EmailAddress": "shanna@bernier.com"
     }
   ]
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 145,
-    "Name": "Ernser-Schroeder",
-    "ToolTip": "Sit ex laboriosam nam quisquam voluptas qui molestiae.",
+    "Id": 464,
+    "Name": "Murazik-Eichmann",
+    "ToolTip": "Dolores molestias sit cumque aut voluptate.",
     "Deleted": false,
-    "Rank": 129,
-    "Type": "voluptates",
-    "ColorBlock": 154,
-    "IconHint": "eos",
-    "Selected": false,
-    "LastChanged": "2011-06-24T14:28:27.6176673+02:00",
+    "Rank": 134,
+    "Type": "dolore",
+    "ColorBlock": 171,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2018-01-10T13:14:09.9004061+01:00",
     "ChildItems": [
       {
-        "Id": 728,
-        "Name": "Carter, Wuckert and Leffler",
-        "ToolTip": "Voluptas mollitia debitis.",
-        "Deleted": true,
-        "Rank": 98,
-        "Type": "excepturi",
-        "ColorBlock": 618,
-        "IconHint": "deserunt",
+        "Id": 818,
+        "Name": "Christiansen, Gottlieb and Conn",
+        "ToolTip": "Fugiat labore distinctio nihil.",
+        "Deleted": false,
+        "Rank": 681,
+        "Type": "omnis",
+        "ColorBlock": 186,
+        "IconHint": "ab",
         "Selected": false,
-        "LastChanged": "2002-02-06T14:28:27.6176673+01:00",
+        "LastChanged": "2004-06-29T13:14:09.9004061+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "voluptate",
-        "Hidden": true,
-        "FullName": "Declan Luettgen",
+        "ExtraInfo": "reprehenderit",
+        "StyleHint": "provident",
+        "Hidden": false,
+        "FullName": "Emery Bruen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 582
+            "FieldType": "System.String",
+            "FieldLength": 715
           }
         }
       }
     ],
-    "ExtraInfo": "esse",
-    "StyleHint": "veritatis",
-    "Hidden": true,
-    "FullName": "Amelia O'Keefe",
+    "ExtraInfo": "veniam",
+    "StyleHint": "consequatur",
+    "Hidden": false,
+    "FullName": "Mr. Cindy Simonis PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 203
+        "FieldType": "System.Int32",
+        "FieldLength": 52
       }
     }
   }

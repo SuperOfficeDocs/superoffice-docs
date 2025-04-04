@@ -98,91 +98,91 @@ Accept-Language: sv
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Thu, 09 Aug 2001 14:28:26 G8T
+Last-Modified: Sun, 05 Jul 2015 13:14:08 G7T
 
 {
-  "DocumentId": 227,
+  "DocumentId": 717,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "distinctio",
-  "Header": "iusto",
-  "Name": "Howe-Pfannerstill",
-  "OurRef": "exercitationem",
-  "YourRef": "dolor",
-  "CreatedDate": "2013-05-27T14:28:26.8833212+02:00",
-  "UpdatedDate": "2001-08-09T14:28:26.8833212+02:00",
-  "Description": "Streamlined bifurcated algorithm",
+  "Attention": "soluta",
+  "Header": "asperiores",
+  "Name": "Keeling, Lind and Buckridge",
+  "OurRef": "labore",
+  "YourRef": "non",
+  "CreatedDate": "2024-11-29T13:14:08.6334998+01:00",
+  "UpdatedDate": "2015-07-05T13:14:08.6334998+02:00",
+  "Description": "Cross-group homogeneous info-mediaries",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2007-08-18T14:28:26.8833212+02:00",
-  "ExternalRef": "non",
+  "Date": "2004-11-16T13:14:08.6334998+01:00",
+  "ExternalRef": "illum",
   "Completed": "Completed",
-  "ActiveLinks": 376,
+  "ActiveLinks": 845,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Boyle, Larson and Wyman",
-      "Id": 726,
-      "Description": "Enhanced regional collaboration",
-      "ExtraInfo": "reiciendis",
-      "LinkId": 143,
+      "EntityName": "Hintz-Langworth",
+      "Id": 397,
+      "Description": "Persevering 4th generation extranet",
+      "ExtraInfo": "ipsa",
+      "LinkId": 184,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 523
+          "FieldLength": 117
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 323,
-  "Snum": 928,
+  "SuggestedDocumentId": 507,
+  "Snum": 285,
   "UserDefinedFields": {
-    "SuperOffice:1": "1790390598",
-    "SuperOffice:2": "560158765"
+    "SuperOffice:1": "True",
+    "SuperOffice:2": "1210014157"
   },
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "enim"
+    "ExtraFields1": "ea",
+    "ExtraFields2": "harum"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "natus"
+    "CustomFields1": "nesciunt",
+    "CustomFields2": "praesentium"
   },
-  "PublishEventDate": "1999-07-18T14:28:26.8833212+02:00",
-  "PublishTo": "2013-02-11T14:28:26.8833212+01:00",
-  "PublishFrom": "1999-03-30T14:28:26.8833212+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2017-04-16T13:14:08.6491258+02:00",
+  "PublishTo": "2008-02-03T13:14:08.6491258+01:00",
+  "PublishFrom": "2023-05-08T13:14:08.6491258+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 418,
+      "VisibleId": 273,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 972
         }
       }
     },
     {
-      "VisibleId": 418,
+      "VisibleId": 273,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "ducimus",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 253
+          "FieldLength": 972
         }
       }
     }
@@ -192,7 +192,7 @@ Last-Modified: Thu, 09 Aug 2001 14:28:26 G8T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 326
+      "FieldLength": 126
     }
   }
 }

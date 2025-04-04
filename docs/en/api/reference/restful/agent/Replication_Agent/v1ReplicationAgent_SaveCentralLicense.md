@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Replication/SaveCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "License": [
     {
-      "Name": "Hirthe, D'Amore and Olson",
-      "Description": "Phased zero defect extranet",
+      "Name": "Homenick Group",
+      "Description": "Focused fresh-thinking knowledge base",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -96,8 +96,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Hirthe, D'Amore and Olson",
-      "Description": "Phased zero defect extranet",
+      "Name": "Homenick Group",
+      "Description": "Focused fresh-thinking knowledge base",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -119,30 +119,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Heathcote, O'Kon and Thompson",
-    "Description": "Networked methodical open architecture",
+    "Name": "Daniel, O'Conner and Schneider",
+    "Description": "Self-enabling 24 hour migration",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 169,
-        "Tooltip": "modi",
-        "CanAssign": false,
-        "Free": 222,
-        "InUse": 78,
+        "Unrestricted": true,
+        "Total": 230,
+        "Tooltip": "voluptate",
+        "CanAssign": true,
+        "Free": 349,
+        "InUse": 829,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 303,
-        "Name": "Hudson-Swift",
-        "Description": "Secured explicit archive",
-        "PrerequisiteModuleName": "Bernhard, Okuneva and Weissnat",
-        "SortOrder": 576,
-        "ExtraFlags": 716,
+        "Assigned": false,
+        "ModuleLicenseId": 986,
+        "Name": "Bailey-Williamson",
+        "Description": "Organic leading edge methodology",
+        "PrerequisiteModuleName": "Jacobs LLC",
+        "SortOrder": 581,
+        "ExtraFlags": 302,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 895
+            "FieldLength": 848
           }
         }
       }
@@ -150,25 +150,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 428,
-        "Tooltip": "quis",
+        "Total": 730,
+        "Tooltip": "omnis",
         "CanAssign": true,
-        "Free": 86,
-        "InUse": 735,
-        "IsHidden": true,
+        "Free": 831,
+        "InUse": 848,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 920,
-        "Name": "Nitzsche-Zboncak",
-        "Description": "Sharable dedicated firmware",
-        "PrerequisiteModuleName": "Trantow LLC",
-        "SortOrder": 924,
-        "ExtraFlags": 645,
+        "ModuleLicenseId": 340,
+        "Name": "Brown-Ankunding",
+        "Description": "Devolved motivating workforce",
+        "PrerequisiteModuleName": "Friesen-Jones",
+        "SortOrder": 484,
+        "ExtraFlags": 339,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 753
+            "FieldType": "System.String",
+            "FieldLength": 621
           }
         }
       }
@@ -177,36 +177,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 294
+        "FieldType": "System.Int32",
+        "FieldLength": 179
       }
     }
   },
   {
-    "Name": "Heathcote, O'Kon and Thompson",
-    "Description": "Networked methodical open architecture",
+    "Name": "Daniel, O'Conner and Schneider",
+    "Description": "Self-enabling 24 hour migration",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 169,
-        "Tooltip": "modi",
-        "CanAssign": false,
-        "Free": 222,
-        "InUse": 78,
+        "Unrestricted": true,
+        "Total": 230,
+        "Tooltip": "voluptate",
+        "CanAssign": true,
+        "Free": 349,
+        "InUse": 829,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 303,
-        "Name": "Hudson-Swift",
-        "Description": "Secured explicit archive",
-        "PrerequisiteModuleName": "Bernhard, Okuneva and Weissnat",
-        "SortOrder": 576,
-        "ExtraFlags": 716,
+        "Assigned": false,
+        "ModuleLicenseId": 986,
+        "Name": "Bailey-Williamson",
+        "Description": "Organic leading edge methodology",
+        "PrerequisiteModuleName": "Jacobs LLC",
+        "SortOrder": 581,
+        "ExtraFlags": 302,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 895
+            "FieldLength": 848
           }
         }
       }
@@ -214,25 +214,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 428,
-        "Tooltip": "quis",
+        "Total": 730,
+        "Tooltip": "omnis",
         "CanAssign": true,
-        "Free": 86,
-        "InUse": 735,
-        "IsHidden": true,
+        "Free": 831,
+        "InUse": 848,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 920,
-        "Name": "Nitzsche-Zboncak",
-        "Description": "Sharable dedicated firmware",
-        "PrerequisiteModuleName": "Trantow LLC",
-        "SortOrder": 924,
-        "ExtraFlags": 645,
+        "ModuleLicenseId": 340,
+        "Name": "Brown-Ankunding",
+        "Description": "Devolved motivating workforce",
+        "PrerequisiteModuleName": "Friesen-Jones",
+        "SortOrder": 484,
+        "ExtraFlags": 339,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 753
+            "FieldType": "System.String",
+            "FieldLength": 621
           }
         }
       }
@@ -241,8 +241,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 294
+        "FieldType": "System.Int32",
+        "FieldLength": 179
       }
     }
   }

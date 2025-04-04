@@ -97,34 +97,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 801,
-    "Name": "Lind, Becker and Berge",
-    "Tooltip": "illo",
-    "Deleted": false,
-    "Rank": 188,
+    "WebPanelId": 429,
+    "Name": "Thompson Inc and Sons",
+    "Tooltip": "laborum",
+    "Deleted": true,
+    "Rank": 700,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
     "OnCentral": true,
-    "OnSatellite": false,
+    "OnSatellite": true,
     "OnTravel": false,
-    "OnSalesMarketingWeb": false,
-    "OnSalesMarketingPocket": false,
-    "ShowInMenuBar": true,
-    "ShowInToolBar": false,
+    "OnSalesMarketingWeb": true,
+    "OnSalesMarketingPocket": true,
+    "ShowInMenuBar": false,
+    "ShowInToolBar": true,
     "ShowInAddressBar": false,
-    "ShowInStatusBar": true,
-    "WindowName": "Stoltenberg LLC",
+    "ShowInStatusBar": false,
+    "WindowName": "Johns, Wiza and Johnston",
     "Url": "http://www.example.com/",
-    "ProgId": "consequatur",
-    "Icon": 698,
-    "AlwaysReloadOnShow": true,
+    "ProgId": "architecto",
+    "Icon": 429,
+    "AlwaysReloadOnShow": false,
     "NeverReloadOnCurrentChange": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldLength": 998
       }
     }
   }

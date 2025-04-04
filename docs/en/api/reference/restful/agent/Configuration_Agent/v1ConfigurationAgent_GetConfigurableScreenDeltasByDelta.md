@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 910,
-    "Name": "Will Inc and Sons",
-    "Description": "Enterprise-wide optimizing parallelism",
-    "DeltaJson": "aut",
+    "ConfigurableScreenDeltaId": 253,
+    "Name": "Stracke, Gutkowski and Predovic",
+    "Description": "Cross-group 24/7 help-desk",
+    "DeltaJson": "eius",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "quod",
-    "UpdatedDate": "2008-03-15T14:28:21.5866608+01:00",
-    "CreatedDate": "2023-05-11T14:28:21.5866608+02:00",
+    "RecipeId": "voluptas",
+    "UpdatedDate": "2021-03-02T13:13:59.7038141+01:00",
+    "CreatedDate": "2020-10-23T13:13:59.7038141+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      541,
-      855
+      811,
+      556
     ],
-    "AppliesToKey": "necessitatibus",
+    "AppliesToKey": "inventore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 360
+        "FieldType": "System.Int32",
+        "FieldLength": 59
       }
     }
   }

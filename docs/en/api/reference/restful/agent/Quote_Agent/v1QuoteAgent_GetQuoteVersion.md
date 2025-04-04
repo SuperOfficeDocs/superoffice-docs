@@ -111,11 +111,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteVersion
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 900
+  "QuoteVersionId": 962
 }
 ```
 
@@ -126,75 +126,75 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 898,
-  "ERPQuoteVersionKey": "ipsam",
-  "QuoteId": 99,
-  "Description": "Advanced explicit analyzer",
-  "Number": "1016868",
+  "QuoteVersionId": 250,
+  "ERPQuoteVersionKey": "culpa",
+  "QuoteId": 635,
+  "Description": "Profit-focused hybrid alliance",
+  "Number": "1208139",
   "State": "Archived",
   "ArchivedState": "Archived",
   "Status": "Error",
-  "Reason": "envisioneer holistic interfaces",
-  "LikelyQuoteAlternativeId": 136,
-  "SentDate": "2015-01-02T14:28:22.274133+01:00",
-  "FollowupId": 407,
-  "ExpirationDate": "2020-12-11T14:28:22.274133+01:00",
-  "DeliveryCountryId": 307,
-  "HasOwnDeliveryAddress": true,
-  "InvoiceCountryId": 268,
-  "HasOwnInvoiceAddress": true,
-  "ERPPaymentTermsKey": "culpa",
-  "ERPPaymentTypeKey": "aliquam",
-  "ERPDeliveryTermsKey": "dolorem",
-  "ERPDeliveryTypeKey": "corrupti",
-  "Rank": 819,
-  "ApprovedBy": 571,
-  "ApprovedText": "neque",
-  "ApprovedRegisteredBy": 736,
-  "ApprovedRegisteredDate": "2018-05-20T14:28:22.274133+02:00",
-  "ExtraField1": "aperiam",
-  "ExtraField2": "id",
-  "ExtraField3": "id",
-  "ExtraField4": "officia",
-  "ExtraField5": "voluptatem",
-  "LastRecalculated": "2011-03-16T14:28:22.274133+01:00",
-  "Updated": "2014-12-21T14:28:22.274133+01:00",
-  "UpdatedAssociateId": 285,
-  "Registered": "2014-02-17T14:28:22.274133+01:00",
-  "RegisteredAssociateId": 725,
-  "RequestAssociateId": 304,
-  "RequestComment": "ut",
+  "Reason": "",
+  "LikelyQuoteAlternativeId": 651,
+  "SentDate": "2016-09-22T13:14:00.9546603+02:00",
+  "FollowupId": 982,
+  "ExpirationDate": "2000-05-28T13:14:00.9546603+02:00",
+  "DeliveryCountryId": 549,
+  "HasOwnDeliveryAddress": false,
+  "InvoiceCountryId": 367,
+  "HasOwnInvoiceAddress": false,
+  "ERPPaymentTermsKey": "voluptatem",
+  "ERPPaymentTypeKey": "magnam",
+  "ERPDeliveryTermsKey": "qui",
+  "ERPDeliveryTypeKey": "sapiente",
+  "Rank": 20,
+  "ApprovedBy": 180,
+  "ApprovedText": "sint",
+  "ApprovedRegisteredBy": 635,
+  "ApprovedRegisteredDate": "1997-12-12T13:14:00.9546603+01:00",
+  "ExtraField1": "magnam",
+  "ExtraField2": "omnis",
+  "ExtraField3": "qui",
+  "ExtraField4": "et",
+  "ExtraField5": "eum",
+  "LastRecalculated": "2013-02-21T13:14:00.9546603+01:00",
+  "Updated": "2010-08-28T13:14:00.9546603+02:00",
+  "UpdatedAssociateId": 776,
+  "Registered": "2013-08-17T13:14:00.9546603+02:00",
+  "RegisteredAssociateId": 259,
+  "RequestAssociateId": 186,
+  "RequestComment": "qui",
   "QuoteAlternatives": [
     {
-      "QuoteAlternativeId": 400,
-      "ERPQuoteAlternativeKey": "possimus",
-      "QuoteVersionId": 927,
-      "Name": "Lowe-Mitchell",
-      "Description": "Up-sized 5th generation success",
+      "QuoteAlternativeId": 374,
+      "ERPQuoteAlternativeKey": "omnis",
+      "QuoteVersionId": 286,
+      "Name": "Farrell, Cole and Rutherford",
+      "Description": "Operative systematic utilisation",
       "Status": "Error",
       "Reason": "",
-      "ERPDiscountPercent": 1081.23,
-      "ERPDiscountAmount": 10132.222,
-      "DiscountPercent": 12078.436,
-      "DiscountAmount": 10251.314,
+      "ERPDiscountPercent": 10063.274,
+      "ERPDiscountAmount": 27052.688,
+      "DiscountPercent": 2604.354,
+      "DiscountAmount": 29678.98,
       "UserValueOverride": "DiscountAmount",
-      "VATInfo": "velit",
-      "VAT": 12611.216,
-      "EarningPercent": 23877.946,
-      "EarningAmount": 10790.362,
-      "SubTotal": 24473.406,
-      "TotalPrice": 13940.032,
-      "ExtraField1": "provident",
-      "ExtraField2": "neque",
-      "ExtraField3": "repudiandae",
-      "ExtraField4": "numquam",
-      "ExtraField5": "possimus",
+      "VATInfo": "esse",
+      "VAT": 28162.124,
+      "EarningPercent": 10031.934,
+      "EarningAmount": 27713.962,
+      "SubTotal": 7490.2599999999993,
+      "TotalPrice": 4130.612,
+      "ExtraField1": "saepe",
+      "ExtraField2": "fuga",
+      "ExtraField3": "praesentium",
+      "ExtraField4": "nulla",
+      "ExtraField5": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 744
+          "FieldType": "System.Int32",
+          "FieldLength": 979
         }
       }
     }
@@ -204,7 +204,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 722
+      "FieldLength": 25
     }
   }
 }

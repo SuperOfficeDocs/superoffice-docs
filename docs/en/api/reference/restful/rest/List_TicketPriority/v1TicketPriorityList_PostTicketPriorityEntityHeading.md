@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 591,
-  "Name": "Weissnat, Koepp and Simonis",
-  "Tooltip": "alias",
-  "Deleted": true,
-  "Rank": 329,
-  "UdListDefinitionId": 847
+  "HeadingId": 420,
+  "Name": "Roob, Effertz and O'Keefe",
+  "Tooltip": "dolores",
+  "Deleted": false,
+  "Rank": 953,
+  "UdListDefinitionId": 888
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 508,
-  "Name": "Weber Inc and Sons",
-  "Tooltip": "autem",
-  "Deleted": true,
-  "Rank": 290,
-  "UdListDefinitionId": 610,
+  "HeadingId": 208,
+  "Name": "Lang, Goldner and Turcotte",
+  "Tooltip": "sed",
+  "Deleted": false,
+  "Rank": 583,
+  "UdListDefinitionId": 786,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 877
+      "FieldType": "System.Int32",
+      "FieldLength": 106
     }
   }
 }

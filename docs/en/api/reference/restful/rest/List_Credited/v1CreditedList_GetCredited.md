@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 507,
-  "Name": "Crist-Gibson",
-  "Tooltip": "et",
-  "Deleted": true,
-  "UdListDefinitionId": 51,
-  "Rank": 920,
+  "Id": 169,
+  "Name": "Tremblay LLC",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "UdListDefinitionId": 263,
+  "Rank": 539,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 543
+      "FieldLength": 511
     }
   }
 }

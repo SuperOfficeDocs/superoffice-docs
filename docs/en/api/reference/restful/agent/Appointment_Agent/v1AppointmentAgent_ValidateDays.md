@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Appointment/ValidateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "Dates": [
-    "architecto",
-    "dolor"
+    "quod",
+    "suscipit"
   ]
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Date": "2003-06-18T14:28:21.3522957+02:00",
+    "Date": "2017-03-08T13:13:59.2969775+01:00",
     "IsConflict": false,
-    "Description": "Cloned leading edge system engine",
-    "DescriptionStyleHint": "Programmable logistical open architecture",
-    "Tooltip": "in"
+    "Description": "Customizable demand-driven synergy",
+    "DescriptionStyleHint": "Optional executive open architecture",
+    "Tooltip": "itaque"
   },
   {
-    "Date": "2003-06-18T14:28:21.3522957+02:00",
+    "Date": "2017-03-08T13:13:59.2969775+01:00",
     "IsConflict": false,
-    "Description": "Cloned leading edge system engine",
-    "DescriptionStyleHint": "Programmable logistical open architecture",
-    "Tooltip": "in"
+    "Description": "Customizable demand-driven synergy",
+    "DescriptionStyleHint": "Optional executive open architecture",
+    "Tooltip": "itaque"
   }
 ]
 ```

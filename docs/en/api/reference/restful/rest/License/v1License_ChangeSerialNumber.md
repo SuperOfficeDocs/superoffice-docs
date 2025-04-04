@@ -28,8 +28,8 @@ Requests a new license from SuperLicense, checks if change is authorized.
 | newSerialNumber | string | **Required** New serial number to change to. |
 
 ```http
-POST /api/v1/License/ChangeSerialNumber?newCompanyName=Mitchell Inc and Sons
-POST /api/v1/License/ChangeSerialNumber?newSerialNumber=926499
+POST /api/v1/License/ChangeSerialNumber?newCompanyName=Schmeler Group
+POST /api/v1/License/ChangeSerialNumber?newSerialNumber=789684
 ```
 
 
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 660
+      "FieldLength": 755
     }
   }
 }

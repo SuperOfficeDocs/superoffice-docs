@@ -82,10 +82,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 356,
+  "DocumentId": 983,
   "AllowedReturnTypes": [
-    "sunt",
-    "dolorum"
+    "omnis",
+    "praesentium"
   ]
 }
 ```
@@ -98,17 +98,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Brown-Padberg",
-    "DisplayName": "Wolf-Bauch",
-    "DisplayTooltip": "veritatis",
-    "IconHint": "blanditiis",
+    "Name": "Feil, Windler and Jerde",
+    "DisplayName": "Goodwin LLC",
+    "DisplayTooltip": "eaque",
+    "IconHint": "repudiandae",
     "ReturnType": "CustomGui"
   },
   {
-    "Name": "Brown-Padberg",
-    "DisplayName": "Wolf-Bauch",
-    "DisplayTooltip": "veritatis",
-    "IconHint": "blanditiis",
+    "Name": "Feil, Windler and Jerde",
+    "DisplayName": "Goodwin LLC",
+    "DisplayTooltip": "eaque",
+    "IconHint": "repudiandae",
     "ReturnType": "CustomGui"
   }
 ]

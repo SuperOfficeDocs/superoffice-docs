@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/Associate/GetAssociatesByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 987,
-  "Type": 716
+  "GroupId": 626,
+  "Type": 776
 }
 ```
 
@@ -104,24 +104,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 566,
-    "Name": "Kemmer Group",
-    "PersonId": 260,
-    "Rank": 78,
-    "Tooltip": "aut",
+    "AssociateId": 38,
+    "Name": "Murray-Veum",
+    "PersonId": 834,
+    "Rank": 361,
+    "Tooltip": "ratione",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 529,
-    "FullName": "Ms. Rachael Zion Renner MD",
-    "FormalName": "Gutmann-Walter",
+    "GroupIdx": 693,
+    "FullName": "Mrs. Janice Windler V",
+    "FormalName": "McClure Inc and Sons",
     "Deleted": false,
-    "EjUserId": 308,
-    "UserName": "Larson-Herman",
+    "EjUserId": 591,
+    "UserName": "Ankunding Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 167
+        "FieldLength": 479
       }
     }
   }

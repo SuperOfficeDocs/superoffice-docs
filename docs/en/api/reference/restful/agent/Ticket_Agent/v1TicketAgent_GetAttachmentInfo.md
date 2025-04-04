@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Ticket/GetAttachmentInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 360
+  "TicketMessageEntityId": 831
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 168,
-    "Name": "Zemlak, Emmerich and Kassulke",
-    "ContentType": "consequatur",
-    "AttSize": 303,
+    "AttachmentId": 738,
+    "Name": "Powlowski, Hodkiewicz and Mayer",
+    "ContentType": "tenetur",
+    "AttSize": 278,
     "InlineImage": true,
-    "ContentId": "sunt",
-    "AuthKey": "consequuntur",
+    "ContentId": "numquam",
+    "AuthKey": "est",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldLength": 957
       }
     }
   }

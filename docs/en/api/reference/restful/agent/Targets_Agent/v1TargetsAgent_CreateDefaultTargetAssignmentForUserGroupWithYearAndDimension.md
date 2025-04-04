@@ -83,13 +83,13 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 560,
-  "Year": 946,
-  "TargetDimensionId": 374
+  "UserGroupId": 655,
+  "Year": 766,
+  "TargetDimensionId": 868
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 9,
+    "TargetAssignmentInfoId": 212,
     "Values": [
-      203,
-      552
+      403,
+      246
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 93,
-    "DimensionListItemDisplayName": "Waters-Thiel",
+    "DimensionListItem": 179,
+    "DimensionListItemDisplayName": "Jast, Hackett and Blanda",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 766
+        "FieldType": "System.Int32",
+        "FieldLength": 470
       }
     }
   }

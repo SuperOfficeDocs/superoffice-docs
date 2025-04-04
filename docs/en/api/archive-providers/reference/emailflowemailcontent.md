@@ -258,7 +258,7 @@ Lists all email flow message content
 ## Sample
 
 ```http!
-GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/project/projectAssociate/ejDisplayName,shipment/project/NumberOfSales,shipment/emailFlow/workflowDefinitionStatus
+GET /api/v1/archive/EmailFlowEmailContent?$select=shipment/emailFlow/workflowDefinitionStatus,shipment/emailFlow/workflowAssociate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Year": 363,
-  "TargetDimensionId": 775
+  "Year": 880,
+  "TargetDimensionId": 872
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 154,
+    "TargetAssignmentInfoId": 389,
     "Values": [
-      42,
-      852
+      175,
+      87
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 966,
-    "DimensionListItemDisplayName": "Raynor, Trantow and O'Conner",
+    "DimensionListItem": 785,
+    "DimensionListItemDisplayName": "Fay Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 321
+        "FieldLength": 152
       }
     }
   }

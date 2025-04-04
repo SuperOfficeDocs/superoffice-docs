@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 157,
-    "Name": "Greenholt, Wintheiser and O'Conner",
-    "Tooltip": "illum",
-    "Deleted": true,
-    "UdListDefinitionId": 345,
-    "Rank": 428,
+    "Id": 560,
+    "Name": "Champlin, Graham and Rowe",
+    "Tooltip": "dignissimos",
+    "Deleted": false,
+    "UdListDefinitionId": 473,
+    "Rank": 755,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 272
+        "FieldType": "System.String",
+        "FieldLength": 218
       }
     }
   }

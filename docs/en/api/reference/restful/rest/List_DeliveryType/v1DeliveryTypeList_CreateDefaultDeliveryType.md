@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 510,
-  "Name": "Cronin-Franecki",
-  "Tooltip": "cum",
+  "Id": 352,
+  "Name": "Kiehn Inc and Sons",
+  "Tooltip": "necessitatibus",
   "Deleted": false,
-  "UdListDefinitionId": 179,
-  "Rank": 208,
+  "UdListDefinitionId": 34,
+  "Rank": 370,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 684
+      "FieldLength": 452
     }
   }
 }

@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,34 +93,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 119,
-  "Name": "Carroll Group",
-  "Tooltip": "sed",
-  "Deleted": true,
-  "Rank": 364,
+  "WebPanelId": 707,
+  "Name": "Trantow LLC",
+  "Tooltip": "ea",
+  "Deleted": false,
+  "Rank": 926,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
+  "OnCentral": false,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": true,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Bernier, Marvin and Pfeffer",
+  "ShowInToolBar": false,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Schmidt, Price and Volkman",
   "Url": "http://www.example.com/",
-  "ProgId": "nihil",
-  "Icon": 776,
+  "ProgId": "asperiores",
+  "Icon": 35,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 953
+      "FieldType": "System.String",
+      "FieldLength": 281
     }
   }
 }

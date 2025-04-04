@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/RemoveStoredFieldsAndGetDefaultFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Schaden-Mueller",
-  "Context": "qui"
+  "TableName": "Beahan-Braun",
+  "Context": "ut"
 }
 ```
 
@@ -109,72 +109,72 @@ Content-Type: application/json; charset=utf-8
     "DefaultShowInGui": false,
     "DefaultShowInSelector": true,
     "IsActive": false,
-    "Key": "deleniti",
-    "ValueType": "nisi",
-    "Mandatory": true,
-    "EncodedDisplayName": "Osinski, Buckridge and Friesen",
-    "EncodedDisplayDescription": "Reverse-engineered cohesive solution",
-    "IconHint": "qui",
+    "Key": "dolor",
+    "ValueType": "quia",
+    "Mandatory": false,
+    "EncodedDisplayName": "Kling LLC",
+    "EncodedDisplayDescription": "Face to face attitude-oriented focus group",
+    "IconHint": "distinctio",
     "ControlInfos": [
       {
-        "Type": "alias",
-        "Label": "dolor",
-        "Dimension": 103,
-        "ListProviderName": "Collier-Shields",
-        "ListProviderExtraInfo": "neque",
-        "ListProviderPrimaryKeyName": "Fadel-Jaskolski",
-        "ListLeadText": "maxime",
+        "Type": "et",
+        "Label": "qui",
+        "Dimension": 617,
+        "ListProviderName": "Rice, Dickinson and Ratke",
+        "ListProviderExtraInfo": "sint",
+        "ListProviderPrimaryKeyName": "Parker-Frami",
+        "ListLeadText": "corrupti",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 466
+            "FieldType": "System.Int32",
+            "FieldLength": 26
           }
         }
       }
     ],
-    "EncodedDataCaption": "officiis",
-    "EncodedDataCaptionDescription": "Cross-group intermediate matrices",
-    "CurrentOperationType": "aperiam",
+    "EncodedDataCaption": "fugiat",
+    "EncodedDataCaptionDescription": "Assimilated hybrid matrix",
+    "CurrentOperationType": "odio",
     "Values": [
-      "eos",
-      "debitis"
+      "ea",
+      "eius"
     ],
     "DisplayValues": [
-      "beatae",
-      "vitae"
+      "ullam",
+      "necessitatibus"
     ],
     "OperationInfos": [
       {
-        "Key": "aut",
-        "EncodedDisplayName": "Fritsch-Koch",
+        "Key": "fugiat",
+        "EncodedDisplayName": "Crooks-Spinka",
         "EncodedLeadTexts": [
-          "minus",
-          "ut"
+          "et",
+          "ea"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 494
+            "FieldType": "System.Int32",
+            "FieldLength": 168
           }
         }
       },
       {
-        "Key": "aut",
-        "EncodedDisplayName": "Fritsch-Koch",
+        "Key": "fugiat",
+        "EncodedDisplayName": "Crooks-Spinka",
         "EncodedLeadTexts": [
-          "minus",
-          "ut"
+          "et",
+          "ea"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 494
+            "FieldType": "System.Int32",
+            "FieldLength": 168
           }
         }
       }

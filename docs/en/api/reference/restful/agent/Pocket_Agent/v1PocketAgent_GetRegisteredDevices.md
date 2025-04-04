@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 922
+  "AssociateId": 817
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Kuhlman-Lind",
-    "DeviceIdentifier": "nostrum",
-    "PocketVersion": "nisi",
-    "Language": "aut",
-    "PNSHandle": "incidunt",
+    "DeviceName": "Funk-Olson",
+    "DeviceIdentifier": "tempora",
+    "PocketVersion": "nihil",
+    "Language": "tenetur",
+    "PNSHandle": "non",
     "Platform": "Apple",
-    "OSVersion": "quia",
-    "TimeZoneId": 202
+    "OSVersion": "quisquam",
+    "TimeZoneId": 417
   }
 ]
 ```

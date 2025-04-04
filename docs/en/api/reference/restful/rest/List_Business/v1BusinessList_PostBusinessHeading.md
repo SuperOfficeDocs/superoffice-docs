@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Business/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 55,
-  "Name": "Zulauf-Streich",
-  "Tooltip": "veritatis",
-  "Deleted": false,
-  "Rank": 788,
-  "UdListDefinitionId": 931
+  "HeadingId": 151,
+  "Name": "Hudson-Reinger",
+  "Tooltip": "aspernatur",
+  "Deleted": true,
+  "Rank": 838,
+  "UdListDefinitionId": 11
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 507,
-  "Name": "Kozey, Orn and Harber",
-  "Tooltip": "expedita",
+  "HeadingId": 853,
+  "Name": "Lakin Group",
+  "Tooltip": "nihil",
   "Deleted": false,
-  "Rank": 728,
-  "UdListDefinitionId": 348,
+  "Rank": 745,
+  "UdListDefinitionId": 620,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 158
+      "FieldType": "System.String",
+      "FieldLength": 40
     }
   }
 }

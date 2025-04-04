@@ -77,39 +77,39 @@ OK
 POST /api/v1/Agents/Configuration/SaveDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 785,
-  "Name": "Sipes-Schowalter",
-  "Tooltip": "id",
-  "VisibleColumns": 295,
-  "Rank": 514,
-  "AssocId": 460,
+  "DiaryViewId": 197,
+  "Name": "Terry Group",
+  "Tooltip": "et",
+  "VisibleColumns": 525,
+  "Rank": 48,
+  "AssocId": 798,
   "AssociateList": [
     {
-      "Id": 799,
-      "Name": "Considine-Schinner",
-      "ToolTip": "Cum autem voluptatem ratione minus libero nesciunt.",
+      "Id": 447,
+      "Name": "Veum-Hudson",
+      "ToolTip": "Voluptatum ut delectus rem pariatur est.",
       "Deleted": true,
-      "Rank": 489,
-      "Type": "corporis",
-      "ColorBlock": 461,
-      "IconHint": "voluptatum",
-      "Selected": true,
-      "LastChanged": "2001-07-08T14:28:21.5710362+02:00",
+      "Rank": 586,
+      "Type": "ex",
+      "ColorBlock": 374,
+      "IconHint": "ratione",
+      "Selected": false,
+      "LastChanged": "2024-10-20T13:13:59.6881883+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "pariatur",
-      "StyleHint": "sint",
+      "ExtraInfo": "est",
+      "StyleHint": "laborum",
       "Hidden": false,
-      "FullName": "Rodolfo Ruecker"
+      "FullName": "Mr. Allie Gusikowski II"
     }
   ],
-  "TzLocationId": 901
+  "TzLocationId": 332
 }
 ```
 
@@ -120,49 +120,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 121,
-  "Name": "Labadie Inc and Sons",
-  "Tooltip": "perferendis",
-  "VisibleColumns": 651,
-  "Rank": 248,
-  "AssocId": 742,
+  "DiaryViewId": 724,
+  "Name": "Cummings, Rohan and Kertzmann",
+  "Tooltip": "dolorem",
+  "VisibleColumns": 247,
+  "Rank": 665,
+  "AssocId": 887,
   "AssociateList": [
     {
-      "Id": 411,
-      "Name": "Quigley Inc and Sons",
-      "ToolTip": "Est accusamus corporis est consequatur praesentium.",
-      "Deleted": true,
-      "Rank": 66,
-      "Type": "qui",
-      "ColorBlock": 111,
-      "IconHint": "iure",
+      "Id": 85,
+      "Name": "Adams, Connelly and McCullough",
+      "ToolTip": "Itaque voluptas temporibus.",
+      "Deleted": false,
+      "Rank": 956,
+      "Type": "quam",
+      "ColorBlock": 983,
+      "IconHint": "perferendis",
       "Selected": false,
-      "LastChanged": "2016-07-19T14:28:21.5866608+02:00",
+      "LastChanged": "2007-06-04T13:13:59.6881883+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "nam",
-      "StyleHint": "minima",
+      "ExtraInfo": "ab",
+      "StyleHint": "eos",
       "Hidden": true,
-      "FullName": "Doug Skiles",
+      "FullName": "Miss Judah Cecelia Cassin Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 813
+          "FieldType": "System.Int32",
+          "FieldLength": 496
         }
       }
     }
   ],
-  "TzLocationId": 175,
+  "TzLocationId": 120,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 286
+      "FieldType": "System.Int32",
+      "FieldLength": 145
     }
   }
 }

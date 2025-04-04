@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Sentry/GetTableRightByOwnership
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Botsford, Brakus and Marks",
-  "ContactGroupId": 599,
-  "ContactAssociateId": 233
+  "TableName": "Wiza-Kling",
+  "ContactGroupId": 898,
+  "ContactAssociateId": 455
 }
 ```
 

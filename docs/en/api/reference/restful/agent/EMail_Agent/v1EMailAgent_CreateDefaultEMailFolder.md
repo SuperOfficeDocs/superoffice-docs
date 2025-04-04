@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Aufderhar, Zemlak and Hartmann",
-  "Delimiter": "nobis",
-  "Flags": "eveniet",
-  "TotalItems": 846,
-  "UnreadItems": 855,
+  "Name": "Schiller-Bergnaum",
+  "Delimiter": "sequi",
+  "Flags": "sit",
+  "TotalItems": 16,
+  "UnreadItems": 513,
   "Subscribed": false,
-  "EmailFolderId": 702,
+  "EmailFolderId": 821,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 852
+      "FieldLength": 252
     }
   }
 }

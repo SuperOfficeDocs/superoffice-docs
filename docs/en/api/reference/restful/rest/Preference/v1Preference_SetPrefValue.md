@@ -76,16 +76,16 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "error",
+  "RawValue": "amet",
   "Specification": null,
-  "DisplayValue": "qui",
-  "DisplayTooltip": "pariatur",
+  "DisplayValue": "rem",
+  "DisplayTooltip": "recusandae",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 193,
-  "PrefDescId": 386,
-  "TableName": "Kulas, Schimmel and West",
-  "UserPreferenceId": 591
+  "TargetId": 260,
+  "PrefDescId": 313,
+  "TableName": "Halvorson LLC",
+  "UserPreferenceId": 29
 }
 ```
 

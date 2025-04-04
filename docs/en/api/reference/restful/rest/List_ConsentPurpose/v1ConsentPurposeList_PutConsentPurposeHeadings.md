@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 757,
-    "Name": "Volkman-Adams",
-    "Tooltip": "id",
+    "HeadingId": 835,
+    "Name": "Auer LLC",
+    "Tooltip": "facere",
     "Deleted": false,
-    "Rank": 251,
-    "UdListDefinitionId": 312
+    "Rank": 804,
+    "UdListDefinitionId": 740
   },
   {
-    "HeadingId": 757,
-    "Name": "Volkman-Adams",
-    "Tooltip": "id",
+    "HeadingId": 835,
+    "Name": "Auer LLC",
+    "Tooltip": "facere",
     "Deleted": false,
-    "Rank": 251,
-    "UdListDefinitionId": 312
+    "Rank": 804,
+    "UdListDefinitionId": 740
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 295,
-    "Name": "Zboncak-Hermann",
-    "Tooltip": "tempora",
-    "Deleted": true,
-    "Rank": 867,
-    "UdListDefinitionId": 728,
+    "HeadingId": 824,
+    "Name": "Kling, Brown and Schinner",
+    "Tooltip": "qui",
+    "Deleted": false,
+    "Rank": 766,
+    "UdListDefinitionId": 23,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldType": "System.String",
+        "FieldLength": 137
       }
     }
   }

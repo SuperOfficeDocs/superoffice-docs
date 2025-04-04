@@ -113,18 +113,18 @@ DashTheme  updated.
 PATCH /api/v1/DashTheme/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "velit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "voluptatem",
+    "path": "velit",
     "value": {}
   }
 ]
@@ -137,18 +137,18 @@ HTTP/1.1 200 DashTheme  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardThemeId": 68,
-  "Name": "Bartoletti-Doyle",
-  "Config": "sint",
-  "Rank": 749,
-  "Client": "laborum",
-  "Style": "aspernatur",
+  "DashboardThemeId": 591,
+  "Name": "Rempel Inc and Sons",
+  "Config": "asperiores",
+  "Rank": 710,
+  "Client": "quas",
+  "Style": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldLength": 127
     }
   },
   "_Links": {

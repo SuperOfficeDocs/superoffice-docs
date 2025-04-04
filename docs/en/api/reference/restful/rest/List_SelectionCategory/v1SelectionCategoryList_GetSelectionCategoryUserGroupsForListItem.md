@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 880,
-    "Name": "Marquardt, Rolfson and Jenkins",
-    "ToolTip": "Vel occaecati ratione eos voluptatem animi quia voluptate.",
+    "Id": 228,
+    "Name": "Murray, Runolfsdottir and Powlowski",
+    "ToolTip": "Quia adipisci voluptas adipisci laborum rerum pariatur.",
     "Deleted": false,
-    "Rank": 112,
-    "Type": "et",
-    "ColorBlock": 544,
-    "IconHint": "dolorem",
+    "Rank": 669,
+    "Type": "nulla",
+    "ColorBlock": 187,
+    "IconHint": "pariatur",
     "Selected": false,
-    "LastChanged": "2020-06-13T14:28:27.7114135+02:00",
+    "LastChanged": "2010-02-09T13:14:10.0722914+01:00",
     "ChildItems": [
       {
-        "Id": 925,
-        "Name": "Sipes, Breitenberg and Hills",
-        "ToolTip": "Fugiat quia in tempore eos libero eum.",
+        "Id": 240,
+        "Name": "Weber-Skiles",
+        "ToolTip": "Mollitia est.",
         "Deleted": false,
-        "Rank": 502,
-        "Type": "alias",
-        "ColorBlock": 12,
-        "IconHint": "cum",
+        "Rank": 336,
+        "Type": "et",
+        "ColorBlock": 595,
+        "IconHint": "vel",
         "Selected": true,
-        "LastChanged": "2009-11-25T14:28:27.7114135+01:00",
+        "LastChanged": "2025-02-17T13:14:10.0722914+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
-        "StyleHint": "quidem",
+        "ExtraInfo": "nisi",
+        "StyleHint": "numquam",
         "Hidden": false,
-        "FullName": "Ellsworth Breitenberg",
+        "FullName": "Miss Brennon Alek Wehner Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 565
+            "FieldType": "System.Int32",
+            "FieldLength": 165
           }
         }
       }
     ],
-    "ExtraInfo": "sint",
-    "StyleHint": "in",
-    "Hidden": false,
-    "FullName": "Lenny Breitenberg",
+    "ExtraInfo": "aut",
+    "StyleHint": "error",
+    "Hidden": true,
+    "FullName": "Dr. Calista Lillian Rau II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 116
+        "FieldLength": 633
       }
     }
   }

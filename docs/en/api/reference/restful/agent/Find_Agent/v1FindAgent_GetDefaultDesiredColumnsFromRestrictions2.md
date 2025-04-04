@@ -169,12 +169,12 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hermann-Hayes",
-  "Restrictions": "quis"
+  "ProviderName": "Ondricka Group",
+  "Restrictions": "optio"
 }
 ```
 
@@ -186,19 +186,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Macejkovic-Brown",
-    "DisplayTooltip": "tempora",
-    "DisplayType": "accusamus",
-    "CanOrderBy": true,
-    "Name": "Bednar Group",
+    "DisplayName": "Osinski LLC",
+    "DisplayTooltip": "mollitia",
+    "DisplayType": "consequatur",
+    "CanOrderBy": false,
+    "Name": "Cole, Volkman and Purdy",
     "CanRestrictBy": false,
-    "RestrictionType": "consequatur",
-    "RestrictionListName": "Bailey-Hoeger",
+    "RestrictionType": "sint",
+    "RestrictionListName": "Paucek, Nicolas and Romaguera",
     "IsVisible": false,
-    "ExtraInfo": "quibusdam",
-    "Width": "aut",
-    "IconHint": "aut",
-    "HeadingIconHint": "possimus"
+    "ExtraInfo": "velit",
+    "Width": "error",
+    "IconHint": "aperiam",
+    "HeadingIconHint": "optio"
   }
 ]
 ```

@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 368,
-  "Name": "Ledner-Eichmann",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "Rank": 178,
+  "Id": 406,
+  "Name": "Trantow LLC",
+  "Tooltip": "dolorem",
+  "Deleted": true,
+  "Rank": 990,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
+  "UseGroupsAndHeadings": true,
+  "ListType": "voluptas",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 961
+      "FieldLength": 188
     }
   }
 }

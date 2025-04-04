@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 855,
-  "Name": "Wisoky LLC",
-  "Tooltip": "porro",
-  "Deleted": false,
-  "Rank": 269,
+  "Id": 440,
+  "Name": "Donnelly, Klein and Jerde",
+  "Tooltip": "odio",
+  "Deleted": true,
+  "Rank": 122,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consectetur",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "architecto",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldLength": 133
     }
   },
   "_Links": {

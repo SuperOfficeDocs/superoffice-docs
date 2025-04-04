@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 439,
-    "Name": "Walker LLC",
-    "ToolTip": "Culpa nisi rerum hic.",
+    "Id": 809,
+    "Name": "Balistreri Inc and Sons",
+    "ToolTip": "Reprehenderit et non.",
     "Deleted": false,
-    "Rank": 106,
-    "Type": "nostrum",
-    "ColorBlock": 716,
-    "IconHint": "eligendi",
+    "Rank": 452,
+    "Type": "totam",
+    "ColorBlock": 654,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2001-09-24T14:28:27.6489147+02:00",
+    "LastChanged": "2005-09-17T13:14:09.9629099+02:00",
     "ChildItems": [
       {
-        "Id": 992,
-        "Name": "Botsford, Schaden and Hintz",
-        "ToolTip": "Rerum perferendis voluptas vitae inventore totam impedit.",
+        "Id": 138,
+        "Name": "McClure-Skiles",
+        "ToolTip": "Totam explicabo sed non debitis sed corrupti alias.",
         "Deleted": false,
-        "Rank": 803,
-        "Type": "assumenda",
-        "ColorBlock": 855,
-        "IconHint": "tempora",
+        "Rank": 603,
+        "Type": "qui",
+        "ColorBlock": 661,
+        "IconHint": "magni",
         "Selected": true,
-        "LastChanged": "2012-01-04T14:28:27.6489147+01:00",
+        "LastChanged": "2011-10-09T13:14:09.9629099+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "nemo",
+        "ExtraInfo": "minima",
+        "StyleHint": "iusto",
         "Hidden": false,
-        "FullName": "Eden Heathcote",
+        "FullName": "Prof. Tressa Connelly",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 84
+            "FieldLength": 15
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "voluptas",
+    "ExtraInfo": "magni",
+    "StyleHint": "totam",
     "Hidden": false,
-    "FullName": "Halle Monique Hayes MD",
+    "FullName": "Tracey Howell",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 462
+        "FieldType": "System.Int32",
+        "FieldLength": 495
       }
     }
   }

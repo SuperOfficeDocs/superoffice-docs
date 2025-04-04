@@ -110,7 +110,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyBizCard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -120,157 +120,157 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 857,
-  "Name": "Hand-Wilderman",
+  "ContactId": 320,
+  "Name": "Medhurst LLC",
   "Department": "",
-  "OrgNr": "1134194",
-  "Number1": "559115",
-  "Number2": "989518",
-  "UpdatedDate": "2009-06-16T14:28:21.6335339+02:00",
-  "CreatedDate": "2004-01-16T14:28:21.6335339+01:00",
+  "OrgNr": "1371330",
+  "Number1": "1163171",
+  "Number2": "1285236",
+  "UpdatedDate": "2011-11-26T13:13:59.8131957+01:00",
+  "CreatedDate": "2009-06-17T13:13:59.8131957+02:00",
   "Emails": [
     {
-      "Value": "fugiat",
-      "StrippedValue": "ipsum",
-      "Description": "Horizontal multimedia attitude",
+      "Value": "qui",
+      "StrippedValue": "id",
+      "Description": "Front-line secondary contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 99
+          "FieldLength": 809
         }
       }
     },
     {
-      "Value": "fugiat",
-      "StrippedValue": "ipsum",
-      "Description": "Horizontal multimedia attitude",
+      "Value": "qui",
+      "StrippedValue": "id",
+      "Description": "Front-line secondary contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 99
+          "FieldLength": 809
         }
       }
     }
   ],
   "Interests": [
     {
-      "Id": 81,
-      "Name": "Welch LLC",
-      "ToolTip": "Nihil corrupti voluptatem.",
-      "Deleted": false,
-      "Rank": 844,
-      "Type": "voluptatum",
-      "ColorBlock": 382,
-      "IconHint": "quisquam",
-      "Selected": false,
-      "LastChanged": "2001-11-08T14:28:21.6335339+01:00",
+      "Id": 30,
+      "Name": "Kovacek-Osinski",
+      "ToolTip": "Blanditiis omnis eius ab facere odit sunt.",
+      "Deleted": true,
+      "Rank": 927,
+      "Type": "excepturi",
+      "ColorBlock": 113,
+      "IconHint": "nostrum",
+      "Selected": true,
+      "LastChanged": "2020-06-28T13:13:59.8131957+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "ea",
+      "ExtraInfo": "dolorem",
+      "StyleHint": "debitis",
       "Hidden": false,
-      "FullName": "Rossie Pollich",
+      "FullName": "Nia Edyth Kirlin Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 655
+          "FieldType": "System.String",
+          "FieldLength": 328
         }
       }
     }
   ],
   "Urls": [
     {
-      "Value": "officiis",
-      "StrippedValue": "praesentium",
-      "Description": "Organic bi-directional paradigm",
+      "Value": "eveniet",
+      "StrippedValue": "omnis",
+      "Description": "Fully-configurable zero administration Graphic Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 468
+          "FieldLength": 483
         }
       }
     },
     {
-      "Value": "officiis",
-      "StrippedValue": "praesentium",
-      "Description": "Organic bi-directional paradigm",
+      "Value": "eveniet",
+      "StrippedValue": "omnis",
+      "Description": "Fully-configurable zero administration Graphic Interface",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 468
+          "FieldLength": 483
         }
       }
     }
   ],
   "Phones": [
     {
-      "Value": "natus",
-      "StrippedValue": "explicabo",
-      "Description": "Mandatory global array",
+      "Value": "quia",
+      "StrippedValue": "vero",
+      "Description": "Inverse modular process improvement",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldLength": 808
         }
       }
     },
     {
-      "Value": "natus",
-      "StrippedValue": "explicabo",
-      "Description": "Mandatory global array",
+      "Value": "quia",
+      "StrippedValue": "vero",
+      "Description": "Inverse modular process improvement",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 956
+          "FieldLength": 808
         }
       }
     }
   ],
   "Faxes": [
     {
-      "Value": "accusamus",
-      "StrippedValue": "fuga",
-      "Description": "Operative systemic success",
+      "Value": "nesciunt",
+      "StrippedValue": "ea",
+      "Description": "Devolved bandwidth-monitored contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 10
+          "FieldLength": 129
         }
       }
     },
     {
-      "Value": "accusamus",
-      "StrippedValue": "fuga",
-      "Description": "Operative systemic success",
+      "Value": "nesciunt",
+      "StrippedValue": "ea",
+      "Description": "Devolved bandwidth-monitored contingency",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 10
+          "FieldLength": 129
         }
       }
     }
   ],
-  "Description": "Proactive cohesive policy",
+  "Description": "Open-source disintermediate monitoring",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -279,101 +279,101 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "et",
-      "PersonId": 620,
-      "Mrmrs": "debitis",
-      "Firstname": "Mikel",
-      "Lastname": "Reichert",
-      "MiddleName": "Erdman, Yundt and Herzog",
-      "Title": "velit",
-      "Description": "Distributed executive process improvement",
-      "Email": "eduardo@blanda.ca",
-      "FullName": "Mr. Deven Electa Bernier",
-      "DirectPhone": "751-521-3704 x11617",
-      "FormalName": "Olson-Wilkinson",
-      "CountryId": 759,
-      "ContactId": 527,
-      "ContactName": "McDermott Inc and Sons",
-      "Retired": 302,
-      "Rank": 680,
-      "ActiveInterests": 638,
+      "Position": "voluptate",
+      "PersonId": 115,
+      "Mrmrs": "tempora",
+      "Firstname": "Nadia",
+      "Lastname": "Lesch",
+      "MiddleName": "Gibson-DuBuque",
+      "Title": "et",
+      "Description": "Advanced analyzing standardization",
+      "Email": "maritza_shanahan@bins.co.uk",
+      "FullName": "Monty VonRueden",
+      "DirectPhone": "254.995.7946 x86985",
+      "FormalName": "Altenwerth Inc and Sons",
+      "CountryId": 688,
+      "ContactId": 570,
+      "ContactName": "Bosco-Gutkowski",
+      "Retired": 127,
+      "Rank": 237,
+      "ActiveInterests": 108,
       "ContactDepartment": "",
-      "ContactCountryId": 810,
-      "ContactOrgNr": "598914",
-      "FaxPhone": "909-649-2626 x541",
-      "MobilePhone": "446-773-8250",
-      "ContactPhone": "039-232-2711 x31199",
-      "AssociateName": "Harvey Group",
-      "AssociateId": 635,
+      "ContactCountryId": 363,
+      "ContactOrgNr": "1242176",
+      "FaxPhone": "(306)864-2253 x33154",
+      "MobilePhone": "(742)840-1538",
+      "ContactPhone": "639-649-0590 x00752",
+      "AssociateName": "Bahringer, Beier and Larson",
+      "AssociateId": 70,
       "UsePersonAddress": false,
-      "ContactFax": "suscipit",
-      "Kanafname": "odio",
-      "Kanalname": "aut",
-      "Post1": "rerum",
-      "Post2": "ut",
-      "Post3": "reiciendis",
-      "EmailName": "chadrick_ohara@paucek.us",
-      "ContactFullName": "Bertha Bednar",
-      "ActiveErpLinks": 30,
-      "TicketPriorityId": 701,
-      "SupportLanguageId": 925,
-      "SupportAssociateId": 40,
+      "ContactFax": "est",
+      "Kanafname": "consequatur",
+      "Kanalname": "assumenda",
+      "Post1": "sunt",
+      "Post2": "quisquam",
+      "Post3": "natus",
+      "EmailName": "jackie.klein@heathcote.name",
+      "ContactFullName": "Mr. Angelita Frami Sr.",
+      "ActiveErpLinks": 926,
+      "TicketPriorityId": 317,
+      "SupportLanguageId": 183,
+      "SupportAssociateId": 419,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "986871",
+      "PersonNumber": "775669",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 443
+          "FieldLength": 390
         }
       }
     }
   ],
-  "NoMailing": true,
-  "Kananame": "ea",
+  "NoMailing": false,
+  "Kananame": "vero",
   "Xstop": false,
-  "ActiveInterests": 296,
-  "GroupId": 51,
-  "ActiveStatusMonitorId": 974,
+  "ActiveInterests": 972,
+  "GroupId": 69,
+  "ActiveStatusMonitorId": 640,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 268,
-  "DbiAgentId": 850,
-  "DbiLastSyncronized": "2003-09-28T14:28:21.6335339+02:00",
-  "DbiKey": "quidem",
-  "DbiLastModified": "2020-11-22T14:28:21.6335339+01:00",
+  "Deleted": 40,
+  "DbiAgentId": 513,
+  "DbiLastSyncronized": "2008-09-03T13:13:59.8131957+02:00",
+  "DbiKey": "officia",
+  "DbiLastModified": "2013-03-13T13:13:59.8131957+01:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 765,
-  "ActiveErpLinks": 234,
+  "Source": 547,
+  "ActiveErpLinks": 728,
   "BounceEmails": [
-    "edythe@jacobibarton.com",
-    "ellen@schimmel.ca"
+    "kasey@wuckertstracke.com",
+    "tanya@kuhlman.co.uk"
   ],
   "Domains": [
-    "necessitatibus",
-    "et"
+    "consequatur",
+    "possimus"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Onie Toy",
-    "SuperOffice:2": "450094524"
+    "SuperOffice:1": "Enos Sauer Sr.",
+    "SuperOffice:2": "Miss Eldridge Rempel"
   },
   "ExtraFields": {
-    "ExtraFields1": "quam",
-    "ExtraFields2": "laudantium"
+    "ExtraFields1": "accusamus",
+    "ExtraFields2": "veniam"
   },
   "CustomFields": {
-    "CustomFields1": "non",
-    "CustomFields2": "amet"
+    "CustomFields1": "aut",
+    "CustomFields2": "temporibus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 171
+      "FieldLength": 61
     }
   }
 }

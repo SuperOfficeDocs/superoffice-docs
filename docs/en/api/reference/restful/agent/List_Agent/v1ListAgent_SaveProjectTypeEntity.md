@@ -81,39 +81,39 @@ OK
 POST /api/v1/Agents/List/SaveProjectTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 28,
-  "Name": "Swaniawski-Breitenberg",
-  "Tooltip": "et",
-  "Rank": 722,
+  "ProjTypeId": 100,
+  "Name": "Walker-White",
+  "Tooltip": "itaque",
+  "Rank": 940,
   "DurationUnit": "Century",
-  "ProjectDuration": 498,
-  "Deleted": false,
-  "HasGuide": true,
-  "IsAutoAdvance": false,
+  "ProjectDuration": 843,
+  "Deleted": true,
+  "HasGuide": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 971,
-      "Name": "Casper-Frami",
-      "ToolTip": "Eum quia veritatis numquam vel corporis voluptatem molestiae.",
-      "Deleted": true,
-      "Rank": 205,
-      "Type": "sed",
-      "ColorBlock": 337,
-      "IconHint": "sed",
+      "Id": 392,
+      "Name": "Swift, Cronin and Heaney",
+      "ToolTip": "Fugit quis corrupti perspiciatis vel est.",
+      "Deleted": false,
+      "Rank": 701,
+      "Type": "cupiditate",
+      "ColorBlock": 717,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2006-09-04T14:28:22.0866401+02:00",
+      "LastChanged": "2002-07-19T13:14:00.6575024+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "cupiditate",
-      "StyleHint": "nulla",
+      "ExtraInfo": "eum",
+      "StyleHint": "iure",
       "Hidden": false,
-      "FullName": "Terry Newell Marvin IV"
+      "FullName": "Dr. Alda Cydney Boehm"
     }
   ]
 }
@@ -126,41 +126,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjTypeId": 306,
-  "Name": "Kub, Schroeder and Monahan",
-  "Tooltip": "ex",
-  "Rank": 237,
+  "ProjTypeId": 142,
+  "Name": "Feil Inc and Sons",
+  "Tooltip": "laudantium",
+  "Rank": 469,
   "DurationUnit": "Century",
-  "ProjectDuration": 871,
-  "Deleted": false,
+  "ProjectDuration": 147,
+  "Deleted": true,
   "HasGuide": false,
-  "IsAutoAdvance": false,
+  "IsAutoAdvance": true,
   "Stages": [
     {
-      "Id": 553,
-      "Name": "Weissnat, Schmitt and Buckridge",
-      "ToolTip": "Veritatis aut alias.",
+      "Id": 805,
+      "Name": "Erdman LLC",
+      "ToolTip": "Eaque sint vel tempora.",
       "Deleted": true,
-      "Rank": 190,
-      "Type": "itaque",
-      "ColorBlock": 820,
-      "IconHint": "ea",
+      "Rank": 69,
+      "Type": "et",
+      "ColorBlock": 561,
+      "IconHint": "ex",
       "Selected": false,
-      "LastChanged": "2001-12-06T14:28:22.0866401+01:00",
+      "LastChanged": "2017-12-03T13:14:00.6575024+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "possimus",
-      "StyleHint": "odit",
+      "ExtraInfo": "natus",
+      "StyleHint": "labore",
       "Hidden": false,
-      "FullName": "Damian Ubaldo Rolfson I",
+      "FullName": "Earnest Mollie Hamill DVM",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 582
+          "FieldType": "System.Int32",
+          "FieldLength": 354
         }
       }
     }
@@ -169,8 +169,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 110
+      "FieldType": "System.String",
+      "FieldLength": 649
     }
   }
 }

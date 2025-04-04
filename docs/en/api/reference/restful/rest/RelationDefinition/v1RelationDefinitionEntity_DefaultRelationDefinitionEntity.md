@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 494,
-  "Name": "Bosco Inc and Sons",
-  "Tooltip": "eos",
-  "PassiveText": "nihil",
+  "ReldefId": 18,
+  "Name": "Wiegand-Ziemann",
+  "Tooltip": "iusto",
+  "PassiveText": "autem",
   "Deleted": false,
-  "Rank": 416,
+  "Rank": 1001,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 333
     }
   }
 }

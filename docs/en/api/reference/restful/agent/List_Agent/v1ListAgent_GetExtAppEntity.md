@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 220,
-  "Name": "Larson, Herman and Langworth",
-  "Tooltip": "iure",
-  "Deleted": true,
-  "Rank": 783,
-  "Filename": "id",
-  "Parameters": "nulla",
-  "Workdir": "corrupti",
+  "ExtAppId": 886,
+  "Name": "Beatty Group",
+  "Tooltip": "et",
+  "Deleted": false,
+  "Rank": 489,
+  "Filename": "amet",
+  "Parameters": "ut",
+  "Workdir": "odit",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnCentral": true,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "Icon": 940,
+  "Icon": 294,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "praesentium",
+  "Path": "voluptas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 99
+      "FieldLength": 869
     }
   }
 }

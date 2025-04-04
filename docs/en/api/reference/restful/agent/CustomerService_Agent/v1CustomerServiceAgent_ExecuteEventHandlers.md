@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/CustomerService/ExecuteEventHandlers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,34 +103,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "quae",
-    "InputValues2": "dolore"
+    "InputValues1": "eos",
+    "InputValues2": "labore"
   },
   "BlockExecution": false,
-  "NavigateTo": "dicta",
-  "Message": "aut",
-  "ShowDialog": "inventore",
+  "NavigateTo": "deleniti",
+  "Message": "recusandae",
+  "ShowDialog": "sed",
   "OutputValues": {
-    "OutputValues1": "qui",
-    "OutputValues2": "ipsam"
+    "OutputValues1": "fuga",
+    "OutputValues2": "consequatur"
   },
   "StateValues": {
-    "StateValues1": "nisi",
-    "StateValues2": "ex"
+    "StateValues1": "molestiae",
+    "StateValues2": "expedita"
   },
-  "Exception": "debitis",
+  "Exception": "voluptatem",
   "ParserValues": {
-    "ParserValues1": "ut",
-    "ParserValues2": "iste"
+    "ParserValues1": "laboriosam",
+    "ParserValues2": "et"
   },
   "CgiVariables": {
-    "CgiVariables1": "quibusdam",
-    "CgiVariables2": "atque"
+    "CgiVariables1": "aut",
+    "CgiVariables2": "commodi"
   },
-  "CgiContent": "ut",
+  "CgiContent": "iure",
   "Headers": {
-    "Headers1": "quia",
-    "Headers2": "optio"
+    "Headers1": "sit",
+    "Headers2": "sit"
   },
   "TraceExecution": false,
   "TableRight": null,
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 518
+      "FieldLength": 194
     }
   }
 }

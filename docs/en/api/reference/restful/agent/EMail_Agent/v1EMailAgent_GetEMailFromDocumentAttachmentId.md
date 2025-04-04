@@ -106,12 +106,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 826,
+  "DocId": 606,
   "AttachmentIds": [
-    "ut",
-    "necessitatibus"
+    "illum",
+    "explicabo"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -124,97 +124,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 352,
-      "ContactName": "Bins-Fadel",
-      "PersonId": 646,
-      "PersonName": "Moen, Crist and Balistreri",
-      "AssociateId": 238,
-      "Address": "qui",
-      "EmailId": 305,
+      "ContactId": 502,
+      "ContactName": "Smitham-Bartell",
+      "PersonId": 850,
+      "PersonName": "Walker-Hamill",
+      "AssociateId": 817,
+      "Address": "nemo",
+      "EmailId": 45,
       "DuplicatePersonIds": [
-        152,
-        257
+        201,
+        7
       ],
-      "Name": "Ryan Inc and Sons",
+      "Name": "Hermiston-Schmitt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 858
+          "FieldLength": 198
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 854,
-      "ContactName": "Marquardt Inc and Sons",
-      "PersonId": 145,
-      "PersonName": "Dickens-Ferry",
-      "AssociateId": 641,
-      "Address": "molestias",
-      "EmailId": 721,
+      "ContactId": 203,
+      "ContactName": "Corkery, Champlin and Rolfson",
+      "PersonId": 852,
+      "PersonName": "McGlynn, Johnston and Doyle",
+      "AssociateId": 733,
+      "Address": "quae",
+      "EmailId": 165,
       "DuplicatePersonIds": [
-        142,
-        490
+        284,
+        71
       ],
-      "Name": "Jerde, Huels and Bogisich",
+      "Name": "Stamm-Bergnaum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 942
+          "FieldLength": 289
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 334,
-      "ContactName": "Schuppe, Schmitt and Bradtke",
-      "PersonId": 337,
-      "PersonName": "Rath-Mertz",
-      "AssociateId": 783,
-      "Address": "enim",
-      "EmailId": 965,
+      "ContactId": 588,
+      "ContactName": "Gulgowski-Pouros",
+      "PersonId": 332,
+      "PersonName": "Borer Group",
+      "AssociateId": 731,
+      "Address": "perspiciatis",
+      "EmailId": 639,
       "DuplicatePersonIds": [
-        979,
-        70
+        743,
+        244
       ],
-      "Name": "Rice-Langosh",
+      "Name": "Runolfsson LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 726
+          "FieldType": "System.String",
+          "FieldLength": 846
         }
       }
     }
   ],
-  "Subject": "in",
-  "HTMLBody": "qui",
+  "Subject": "similique",
+  "HTMLBody": "earum",
   "From": null,
-  "Sent": "2005-12-08T14:28:21.9616455+01:00",
-  "Size": 753,
+  "Sent": "2010-11-01T13:14:00.3918537+01:00",
+  "Size": 878,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sit",
-  "PlainBody": "doloremque",
-  "IsSent": true,
+  "MessageID": "omnis",
+  "PlainBody": "rerum",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 677,
+  "ServerId": 871,
   "Attachments": [
     {
-      "Description": "Balanced responsive flexibility",
-      "Filename": "rerum",
-      "Size": 214,
-      "Type": "eos",
-      "Encoding": "vero",
-      "Id": "aut",
-      "Disposition": "facilis",
+      "Description": "Self-enabling national core",
+      "Filename": "tenetur",
+      "Size": 101,
+      "Type": "aperiam",
+      "Encoding": "ut",
+      "Id": "qui",
+      "Disposition": "animi",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -222,49 +222,49 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 382
+          "FieldLength": 40
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Gusikowski-Luettgen",
+      "Name": "Mante, Graham and Christiansen",
       "Values": [
-        "praesentium",
-        "in"
+        "est",
+        "dolorum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 157
+          "FieldType": "System.Int32",
+          "FieldLength": 358
         }
       }
     },
     {
-      "Name": "Gusikowski-Luettgen",
+      "Name": "Mante, Graham and Christiansen",
       "Values": [
-        "praesentium",
-        "in"
+        "est",
+        "dolorum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 157
+          "FieldType": "System.Int32",
+          "FieldLength": 358
         }
       }
     }
   ],
-  "FolderName": "Witting, DuBuque and Monahan",
-  "EmailItemId": 1000,
-  "AccountId": 243,
-  "ReceivedAt": "2013-08-29T14:28:21.9616455+02:00",
+  "FolderName": "Schmidt Group",
+  "EmailItemId": 833,
+  "AccountId": 273,
+  "ReceivedAt": "2022-03-11T13:14:00.3918537+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1998-12-02T14:28:21.9616455+01:00",
+  "RepliedAt": "2006-11-19T13:14:00.3918537+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -272,8 +272,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldType": "System.String",
+      "FieldLength": 504
     }
   }
 }

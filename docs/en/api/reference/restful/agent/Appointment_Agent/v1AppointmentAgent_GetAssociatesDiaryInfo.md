@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    353,
-    789
+    488,
+    482
   ],
-  "StartTime": "2005-05-25T14:28:21.2744024+02:00",
-  "EndTime": "2020-05-11T14:28:21.2744024+02:00"
+  "StartTime": "2019-08-22T13:13:59.156344+02:00",
+  "EndTime": "2021-01-10T13:13:59.156344+01:00"
 }
 ```
 
@@ -120,37 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 698,
-    "AssociateId": 690,
-    "MotherId": 299,
-    "StartDate": "2022-06-16T14:28:21.2744024+02:00",
-    "EndDate": "2018-04-25T14:28:21.2744024+02:00",
+    "AppointmentId": 858,
+    "AssociateId": 927,
+    "MotherId": 877,
+    "StartDate": "2024-10-23T13:13:59.156344+02:00",
+    "EndDate": "2021-02-15T13:13:59.156344+01:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Bergstrom, Moore and Jewess",
-    "ContactName": "Hayes-Konopelski",
-    "ProjectName": "Lynch LLC",
-    "Title": "hic",
-    "Agenda": "occaecati",
+    "TaskName": "Wisoky-Cole",
+    "ContactName": "Orn, Pfannerstill and Marvin",
+    "ProjectName": "Bruen-West",
+    "Title": "dolor",
+    "Agenda": "eaque",
     "IsAllDay": true,
     "IsBusy": false,
     "IsRecurring": false,
-    "IsVideoMeeting": false,
-    "HasAlarm": false,
-    "IsCompleted": false,
+    "IsVideoMeeting": true,
+    "HasAlarm": true,
+    "IsCompleted": true,
     "IsTentative": false,
-    "IsBookingMain": false,
-    "SendEmail": true,
+    "IsBookingMain": true,
+    "SendEmail": false,
     "AnySendEmail": true,
-    "IsPrivate": false,
+    "IsPrivate": true,
     "RecurrenceInfo": null,
-    "PersonName": "Bechtelar-Gleason",
+    "PersonName": "Pfannerstill Inc and Sons",
     "IsBooking": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 327
+        "FieldType": "System.Int32",
+        "FieldLength": 853
       }
     }
   }

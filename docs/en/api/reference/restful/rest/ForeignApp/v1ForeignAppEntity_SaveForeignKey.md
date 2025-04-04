@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "nemo",
-  "Value": "fugit",
-  "RecordId": 690,
-  "CreatedDate": "2020-04-05T14:28:26.9458186+02:00",
-  "UpdatedDate": "2025-03-16T14:28:26.9458186+01:00",
-  "UpdatedBy": "nam",
-  "CreatedBy": "quibusdam",
-  "TableName": "Wehner, Purdy and Abbott"
+  "Key": "voluptatum",
+  "Value": "facilis",
+  "RecordId": 489,
+  "CreatedDate": "2001-06-13T13:14:08.7585151+02:00",
+  "UpdatedDate": "2001-05-19T13:14:08.7585151+02:00",
+  "UpdatedBy": "omnis",
+  "CreatedBy": "sint",
+  "TableName": "Becker-Rolfson"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "est",
-  "Value": "dicta",
-  "RecordId": 807,
-  "CreatedDate": "2016-08-25T14:28:26.9458186+02:00",
-  "UpdatedDate": "2004-04-14T14:28:26.9458186+02:00",
-  "UpdatedBy": "facilis",
-  "CreatedBy": "sed",
-  "TableName": "Pollich-Hyatt",
+  "Key": "maiores",
+  "Value": "ab",
+  "RecordId": 548,
+  "CreatedDate": "2006-05-05T13:14:08.7585151+02:00",
+  "UpdatedDate": "2009-10-27T13:14:08.7585151+01:00",
+  "UpdatedBy": "quidem",
+  "CreatedBy": "occaecati",
+  "TableName": "Purdy LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 87
+      "FieldLength": 16
     }
   }
 }

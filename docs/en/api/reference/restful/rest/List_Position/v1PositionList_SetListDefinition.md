@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 51,
-  "Name": "Treutel-Carroll",
-  "Tooltip": "quis",
-  "Deleted": true,
-  "Rank": 309,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "temporibus",
-  "InUseByUserDefinedFields": true
+  "Id": 30,
+  "Name": "Brakus Inc and Sons",
+  "Tooltip": "in",
+  "Deleted": false,
+  "Rank": 935,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "laborum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 63,
-  "Name": "Ritchie Inc and Sons",
-  "Tooltip": "sunt",
-  "Deleted": true,
-  "Rank": 181,
+  "Id": 342,
+  "Name": "Johnson, Roob and Hyatt",
+  "Tooltip": "temporibus",
+  "Deleted": false,
+  "Rank": 472,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sapiente",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "iure",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 523
+      "FieldType": "System.String",
+      "FieldLength": 190
     }
   }
 }

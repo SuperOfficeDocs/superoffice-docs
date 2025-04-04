@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 384,
-    "Name": "Schinner-Gutmann",
-    "Tooltip": "est",
-    "Rank": 313,
-    "Rate": 16647.808,
-    "Units": 27024.482,
+    "CurrencyId": 904,
+    "Name": "Ruecker-Balistreri",
+    "Tooltip": "qui",
+    "Rank": 108,
+    "Rate": 2604.354,
+    "Units": 14676.521999999999,
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 524
+        "FieldLength": 10
       }
     }
   }

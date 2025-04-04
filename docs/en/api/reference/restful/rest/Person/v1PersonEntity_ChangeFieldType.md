@@ -30,7 +30,7 @@ Change a PersonEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Person/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 334,
-  "ColumnId": 125,
-  "FieldDefault": "et",
-  "FieldHeight": 465,
-  "FieldLabel": "totam",
-  "FieldLeft": 825,
-  "FieldTop": 894,
+  "UDefFieldId": 268,
+  "ColumnId": 292,
+  "FieldDefault": "dolores",
+  "FieldHeight": 38,
+  "FieldLabel": "ullam",
+  "FieldLeft": 183,
+  "FieldTop": 528,
   "FieldType": "Checkbox",
-  "FieldWidth": 83,
-  "FormatMask": "molestiae",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 182,
-  "LabelLeft": 686,
-  "LabelTop": 241,
-  "LabelWidth": 944,
-  "LastVersionId": 190,
-  "ListTableId": 990,
+  "FieldWidth": 151,
+  "FormatMask": "recusandae",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 196,
+  "LabelLeft": 113,
+  "LabelTop": 531,
+  "LabelWidth": 699,
+  "LastVersionId": 480,
+  "ListTableId": 353,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 489,
-  "ProgId": "dolore",
+  "Page1LineNo": 22,
+  "ProgId": "quo",
   "IsReadOnly": true,
-  "ShortLabel": "ex",
-  "TabOrder": 527,
-  "TextLength": 463,
-  "Tooltip": "voluptate",
-  "UdefIdentity": 387,
-  "UDListDefinitionId": 550,
+  "ShortLabel": "quo",
+  "TabOrder": 494,
+  "TextLength": 908,
+  "Tooltip": "cumque",
+  "UdefIdentity": 749,
+  "UDListDefinitionId": 294,
   "Justification": "Center",
-  "Version": 980,
-  "TemplateVariableName": "Carroll-Weissnat",
+  "Version": 746,
+  "TemplateVariableName": "Witting-Schultz",
   "HasBeenPublished": true,
-  "MdoListName": "Ondricka LLC",
+  "MdoListName": "Parisian Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldType": "System.Int32",
+      "FieldLength": 300
     }
   }
 }

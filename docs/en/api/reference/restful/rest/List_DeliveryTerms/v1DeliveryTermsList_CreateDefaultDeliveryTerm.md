@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 748,
-  "Name": "Wolf Inc and Sons",
-  "Tooltip": "illo",
+  "Id": 621,
+  "Name": "Nikolaus-Mante",
+  "Tooltip": "dolores",
   "Deleted": false,
-  "UdListDefinitionId": 574,
-  "Rank": 707,
+  "UdListDefinitionId": 860,
+  "Rank": 797,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldType": "System.String",
+      "FieldLength": 890
     }
   }
 }

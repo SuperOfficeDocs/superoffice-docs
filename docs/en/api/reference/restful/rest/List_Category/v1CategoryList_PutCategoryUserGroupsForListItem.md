@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 947,
-    "Name": "Luettgen, Moore and O'Hara",
-    "ToolTip": "Maxime eveniet.",
-    "Deleted": true,
-    "Rank": 32,
-    "Type": "qui",
-    "ColorBlock": 703,
-    "IconHint": "voluptate",
+    "Id": 249,
+    "Name": "Bayer, Aufderhar and Waters",
+    "ToolTip": "Dolorem eius iste minus eius tempora.",
+    "Deleted": false,
+    "Rank": 769,
+    "Type": "et",
+    "ColorBlock": 295,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2000-03-06T14:28:27.4926717+01:00",
+    "LastChanged": "2001-11-08T13:14:09.6347653+01:00",
     "ChildItems": [
       {
-        "Id": 807,
-        "Name": "Ratke Group",
-        "ToolTip": "Dolorem labore veniam quo nobis aperiam.",
+        "Id": 466,
+        "Name": "Gerlach LLC",
+        "ToolTip": "Iure occaecati mollitia.",
         "Deleted": false,
-        "Rank": 296,
-        "Type": "ullam",
-        "ColorBlock": 812,
-        "IconHint": "dolorem",
+        "Rank": 453,
+        "Type": "alias",
+        "ColorBlock": 646,
+        "IconHint": "quos",
         "Selected": false,
-        "LastChanged": "2007-05-27T14:28:27.4926717+02:00",
+        "LastChanged": "2006-11-10T13:14:09.6347653+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "repudiandae",
-        "StyleHint": "voluptatem",
+        "ExtraInfo": "magnam",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Edison Greenfelder PhD"
+        "FullName": "Lucy Deshaun Sipes II"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "illo",
+    "ExtraInfo": "illo",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Dr. Bertram Mertz"
+    "FullName": "Joshua Nolan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 262,
-    "Name": "Gutmann-Ritchie",
-    "ToolTip": "Illum fugit porro sed cupiditate vero.",
+    "Id": 494,
+    "Name": "Frami-Quigley",
+    "ToolTip": "Dolor alias.",
     "Deleted": false,
-    "Rank": 10,
-    "Type": "ea",
-    "ColorBlock": 974,
-    "IconHint": "qui",
-    "Selected": true,
-    "LastChanged": "2007-07-02T14:28:27.4926717+02:00",
+    "Rank": 299,
+    "Type": "odio",
+    "ColorBlock": 64,
+    "IconHint": "necessitatibus",
+    "Selected": false,
+    "LastChanged": "2010-03-17T13:14:09.6347653+01:00",
     "ChildItems": [
       {
-        "Id": 62,
-        "Name": "Kilback-Lebsack",
-        "ToolTip": "Veritatis ullam unde velit odio id doloribus.",
-        "Deleted": true,
-        "Rank": 122,
-        "Type": "eius",
-        "ColorBlock": 989,
-        "IconHint": "dolores",
-        "Selected": true,
-        "LastChanged": "2008-08-18T14:28:27.4926717+02:00",
+        "Id": 763,
+        "Name": "Hane-Gulgowski",
+        "ToolTip": "Cupiditate voluptas vitae saepe quam dolor deserunt.",
+        "Deleted": false,
+        "Rank": 625,
+        "Type": "nihil",
+        "ColorBlock": 558,
+        "IconHint": "accusantium",
+        "Selected": false,
+        "LastChanged": "2021-02-03T13:14:09.6347653+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "omnis",
-        "StyleHint": "atque",
+        "ExtraInfo": "et",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Brayan Johnnie Gerhold MD",
+        "FullName": "Wayne Labadie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 694
+            "FieldType": "System.String",
+            "FieldLength": 720
           }
         }
       }
     ],
-    "ExtraInfo": "ex",
-    "StyleHint": "eius",
-    "Hidden": true,
-    "FullName": "Mrs. Modesta Jaquelin Durgan MD",
+    "ExtraInfo": "nam",
+    "StyleHint": "sit",
+    "Hidden": false,
+    "FullName": "Camila Buckridge",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 7
+        "FieldType": "System.Int32",
+        "FieldLength": 123
       }
     }
   }

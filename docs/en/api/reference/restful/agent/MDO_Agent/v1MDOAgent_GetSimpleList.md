@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/MDO/GetSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Murazik-Crona"
+  "Name": "Hagenes, Christiansen and Krajcik"
 }
 ```
 
@@ -100,50 +100,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 214,
-    "Name": "Altenwerth-Gutmann",
-    "ToolTip": "Quo eaque.",
-    "Deleted": false,
-    "Rank": 696,
-    "Type": "eos",
+    "Id": 241,
+    "Name": "Russel, Reichert and McKenzie",
+    "ToolTip": "Ipsum voluptas repellat sint sit fugit odit.",
+    "Deleted": true,
+    "Rank": 243,
+    "Type": "necessitatibus",
     "ChildItems": [
       {
-        "Id": 816,
-        "Name": "Hartmann, Langosh and McDermott",
-        "ToolTip": "Animi cum ea id ut id quaerat.",
+        "Id": 915,
+        "Name": "McGlynn-Lehner",
+        "ToolTip": "Accusamus et est repellendus explicabo reprehenderit rerum.",
         "Deleted": true,
-        "Rank": 189,
-        "Type": "provident",
+        "Rank": 685,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officiis",
-        "ColorBlock": 594,
-        "ExtraInfo": "quia",
-        "StyleHint": "accusantium",
-        "FullName": "Norris Miller",
+        "IconHint": "quo",
+        "ColorBlock": 415,
+        "ExtraInfo": "voluptate",
+        "StyleHint": "aliquid",
+        "FullName": "Larissa Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 209
+            "FieldLength": 49
           }
         }
       }
     ],
-    "IconHint": "quasi",
-    "ColorBlock": 299,
-    "ExtraInfo": "quam",
-    "StyleHint": "sed",
-    "FullName": "Enos Sauer",
+    "IconHint": "et",
+    "ColorBlock": 213,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "nostrum",
+    "FullName": "Prof. Lucius Allie Kerluke MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 154
+        "FieldLength": 641
       }
     }
   }

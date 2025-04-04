@@ -91,8 +91,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 911,
-  "AttachmentId": "minima"
+  "DocId": 987,
+  "AttachmentId": "veniam"
 }
 ```
 
@@ -103,21 +103,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Cross-platform clear-thinking structure",
-  "Filename": "totam",
-  "Size": 508,
-  "Type": "quod",
-  "Encoding": "nulla",
-  "Id": "eos",
-  "Disposition": "veniam",
-  "IsSafeFileExtension": true,
+  "Description": "Inverse tangible neural-net",
+  "Filename": "porro",
+  "Size": 567,
+  "Type": "dolores",
+  "Encoding": "consequatur",
+  "Id": "autem",
+  "Disposition": "necessitatibus",
+  "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 142
+      "FieldType": "System.Int32",
+      "FieldLength": 82
     }
   }
 }

@@ -77,24 +77,24 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 31 Aug 1998 14:28:26 G8T
+Last-Modified: Wed, 17 Oct 2001 13:14:08 G10T
 
 {
-  "ForeignDeviceId": 558,
-  "Name": "Cole, Von and Grimes",
-  "CreatedDate": "2016-09-06T14:28:26.9458186+02:00",
-  "UpdatedDate": "1998-08-31T14:28:26.9458186+02:00",
-  "AssociateFullName": "Santa Ryan",
-  "CreatedBy": "itaque",
-  "UpdatedBy": "voluptatibus",
-  "DeviceIdentifier": "aperiam",
-  "ForeignAppId": 365,
+  "ForeignDeviceId": 835,
+  "Name": "Hessel Group",
+  "CreatedDate": "2014-11-14T13:14:08.7585151+01:00",
+  "UpdatedDate": "2001-10-17T13:14:08.7585151+02:00",
+  "AssociateFullName": "Prof. Garrick Hartmann DDS",
+  "CreatedBy": "iusto",
+  "UpdatedBy": "nostrum",
+  "DeviceIdentifier": "quia",
+  "ForeignAppId": 507,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 582
+      "FieldLength": 151
     }
   }
 }

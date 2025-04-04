@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Credited
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 584,
-  "Name": "Maggio, Veum and Farrell",
-  "Tooltip": "quia",
-  "Deleted": false,
-  "Rank": 70,
+  "Id": 680,
+  "Name": "Kulas, Kris and Robel",
+  "Tooltip": "doloribus",
+  "Deleted": true,
+  "Rank": 76,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptatum",
+  "ListType": "magni",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 302
+      "FieldType": "System.Int32",
+      "FieldLength": 384
     }
   },
   "_Links": {

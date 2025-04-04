@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
       "CanSupportMultiUse": true,
-      "DefaultShowInGui": true,
-      "DefaultShowInSelector": false,
+      "DefaultShowInGui": false,
+      "DefaultShowInSelector": true,
       "IsActive": false,
-      "Key": "qui",
-      "ValueType": "saepe",
+      "Key": "tenetur",
+      "ValueType": "ut",
       "Mandatory": true,
-      "EncodedDisplayName": "Strosin, Goodwin and Streich",
-      "EncodedDisplayDescription": "Proactive motivating contingency",
-      "IconHint": "sint",
+      "EncodedDisplayName": "Kunze, Emmerich and Stanton",
+      "EncodedDisplayDescription": "Object-based contextually-based project",
+      "IconHint": "magnam",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "porro",
-      "EncodedDataCaptionDescription": "Monitored coherent challenge",
-      "CurrentOperationType": "quidem",
+      "EncodedDataCaption": "aut",
+      "EncodedDataCaptionDescription": "Vision-oriented heuristic data-warehouse",
+      "CurrentOperationType": "repudiandae",
       "Values": [
         "ea",
-        "nostrum"
+        "assumenda"
       ],
       "DisplayValues": [
-        "unde",
-        "quibusdam"
+        "qui",
+        "corporis"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Fisher-Marquardt",
-  "Context": "fugit",
-  "Ids": "pariatur"
+  "TableName": "Bode Inc and Sons",
+  "Context": "consequatur",
+  "Ids": "delectus"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-295
+37
 ```

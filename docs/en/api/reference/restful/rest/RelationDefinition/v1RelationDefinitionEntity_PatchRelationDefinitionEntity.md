@@ -115,18 +115,18 @@ RelationDefinitionEntity  updated.
 PATCH /api/v1/RelationDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "debitis",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "debitis",
+    "path": "et",
     "value": {}
   }
 ]
@@ -139,12 +139,12 @@ HTTP/1.1 200 RelationDefinitionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 22,
-  "Name": "Gleichner-Wolff",
-  "Tooltip": "atque",
-  "PassiveText": "dolorem",
-  "Deleted": true,
-  "Rank": 157,
+  "ReldefId": 335,
+  "Name": "Klein Group",
+  "Tooltip": "in",
+  "PassiveText": "nihil",
+  "Deleted": false,
+  "Rank": 684,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 795
+      "FieldLength": 626
     }
   },
   "_Links": {

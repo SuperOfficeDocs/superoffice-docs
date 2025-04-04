@@ -68,7 +68,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Upton LLC",
-    "DisplayName": "Kautzer-Farrell",
-    "Description": "Networked regional matrix",
-    "ShortLabel": "ipsum",
-    "HideLabel": true,
-    "HideField": false,
-    "IsIndexed": true,
-    "IsMandatory": true,
-    "IsReadOnly": true,
+    "FieldName": "Conn, Dicki and Kassulke",
+    "DisplayName": "Kutch, Padberg and Macejkovic",
+    "Description": "Future-proofed composite implementation",
+    "ShortLabel": "sunt",
+    "HideLabel": false,
+    "HideField": true,
+    "IsIndexed": false,
+    "IsMandatory": false,
+    "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": true,
-    "Rank": 499,
-    "TemplateVariableName": "Wisozk-Jenkins"
+    "IsDisplayField": false,
+    "Rank": 642,
+    "TemplateVariableName": "Hessel-Lemke"
   }
 ]
 ```

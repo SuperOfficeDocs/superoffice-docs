@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 524,
-  "Name": "Durgan Inc and Sons",
-  "Tooltip": "voluptatum",
+  "Id": 851,
+  "Name": "Doyle-Glover",
+  "Tooltip": "corrupti",
   "Deleted": false,
-  "Rank": 768,
-  "IsCustomList": true,
+  "Rank": 97,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "officiis",
-  "InUseByUserDefinedFields": false,
+  "ListType": "vitae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 98
+      "FieldType": "System.Int32",
+      "FieldLength": 959
     }
   },
   "_Links": {

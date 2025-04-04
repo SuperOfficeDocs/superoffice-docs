@@ -87,26 +87,26 @@ OK
 POST /api/v1/Agents/Configuration/SaveConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 204,
-  "Name": "Corkery-Johnson",
-  "Description": "Versatile static collaboration",
-  "DeltaJson": "est",
+  "ConfigurableScreenDeltaId": 63,
+  "Name": "Johnson-Lakin",
+  "Description": "Decentralized explicit knowledge user",
+  "DeltaJson": "dolores",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "est",
-  "UpdatedDate": "2020-08-19T14:28:21.5710362+02:00",
-  "CreatedDate": "2023-01-10T14:28:21.5710362+01:00",
+  "RecipeId": "sit",
+  "UpdatedDate": "2013-09-02T13:13:59.6881883+02:00",
+  "CreatedDate": "2019-02-02T13:13:59.6881883+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    760,
-    38
+    390,
+    696
   ],
-  "AppliesToKey": "cum"
+  "AppliesToKey": "officia"
 }
 ```
 
@@ -117,28 +117,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 676,
-  "Name": "Yundt, Kiehn and Reynolds",
-  "Description": "Inverse incremental function",
-  "DeltaJson": "ea",
+  "ConfigurableScreenDeltaId": 557,
+  "Name": "Fisher-Borer",
+  "Description": "Managed bandwidth-monitored benchmark",
+  "DeltaJson": "pariatur",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "molestiae",
-  "UpdatedDate": "2008-08-15T14:28:21.5710362+02:00",
-  "CreatedDate": "2003-11-09T14:28:21.5710362+01:00",
+  "RecipeId": "quia",
+  "UpdatedDate": "2010-09-10T13:13:59.6881883+02:00",
+  "CreatedDate": "2009-06-29T13:13:59.6881883+02:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    754,
-    947
+    598,
+    353
   ],
-  "AppliesToKey": "incidunt",
+  "AppliesToKey": "sapiente",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 152
+      "FieldLength": 617
     }
   }
 }

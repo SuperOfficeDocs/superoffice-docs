@@ -74,9 +74,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Kassulke, Morissette and Lang",
-  "EntityId": 996,
-  "TargetLanguage": "distinctio"
+  "EntityName": "Gaylord-Satterfield",
+  "EntityId": 175,
+  "TargetLanguage": "sapiente"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"sed"
+"in"
 ```

@@ -822,7 +822,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/priorityName,ticket/person/retired,ticket/contact/updatedBy,ticket/contact/contactUdef/SuperOffice:6,ticket/contact/NumberOfTicketsInPeriod
+GET /api/v1/archive/TicketMessage?$select=ticket/ownedBy/firstName,ticket/person/correspondingAssociate/ejStatus,ticket/sale/associate/contactDepartment,ticket/project/NumberOfNotCompletedActivitiesInPeriod,ticket/project/LastSale
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

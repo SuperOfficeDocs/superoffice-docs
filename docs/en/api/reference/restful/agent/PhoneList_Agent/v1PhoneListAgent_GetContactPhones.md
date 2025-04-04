@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 935
+  "ContactId": 945
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(804)569-5103 x5098",
-    "PersonCellPhone": "952-957-1108 x0105",
-    "PersonPrivatePhone": "1-796-745-8978",
-    "PersonFaxNumber": "1439191",
-    "PersonPagerNumber": "1017759",
-    "PersonEmail": "garnet.kemmer@dickinsonhodkiewicz.co.uk",
-    "Id": 867,
-    "Name": "Parisian-Mann",
-    "Tooltip": "assumenda",
-    "UniqueId": "ratione",
+    "PersonDirectPhone": "548.122.8805 x8124",
+    "PersonCellPhone": "(520)588-2855 x2666",
+    "PersonPrivatePhone": "650-042-1861",
+    "PersonFaxNumber": "892953",
+    "PersonPagerNumber": "768454",
+    "PersonEmail": "kaleb.schaefer@bayer.uk",
+    "Id": 993,
+    "Name": "Murray, Waters and Murazik",
+    "Tooltip": "officiis",
+    "UniqueId": "porro",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 397
+        "FieldLength": 269
       }
     }
   }

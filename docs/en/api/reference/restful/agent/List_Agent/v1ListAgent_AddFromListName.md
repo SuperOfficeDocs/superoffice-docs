@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Toy Inc and Sons",
+  "UdListDefinitionName": "Altenwerth, O'Kon and Gleason",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 257,
-  "Name": "Price LLC",
-  "Tooltip": "occaecati",
+  "Id": 626,
+  "Name": "Jast, Swift and Feeney",
+  "Tooltip": "molestiae",
   "Deleted": false,
-  "UdListDefinitionId": 825,
-  "Rank": 996,
+  "UdListDefinitionId": 107,
+  "Rank": 900,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 964
+      "FieldLength": 64
     }
   }
 }

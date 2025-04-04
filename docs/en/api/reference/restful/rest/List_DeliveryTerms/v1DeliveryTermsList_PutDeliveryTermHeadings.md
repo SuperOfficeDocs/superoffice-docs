@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 455,
-    "Name": "Streich, Rau and Morissette",
-    "Tooltip": "inventore",
-    "Deleted": false,
-    "Rank": 559,
-    "UdListDefinitionId": 911
+    "HeadingId": 305,
+    "Name": "Hirthe LLC",
+    "Tooltip": "iste",
+    "Deleted": true,
+    "Rank": 715,
+    "UdListDefinitionId": 795
   },
   {
-    "HeadingId": 455,
-    "Name": "Streich, Rau and Morissette",
-    "Tooltip": "inventore",
-    "Deleted": false,
-    "Rank": 559,
-    "UdListDefinitionId": 911
+    "HeadingId": 305,
+    "Name": "Hirthe LLC",
+    "Tooltip": "iste",
+    "Deleted": true,
+    "Rank": 715,
+    "UdListDefinitionId": 795
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 558,
-    "Name": "Rippin Inc and Sons",
-    "Tooltip": "voluptate",
+    "HeadingId": 655,
+    "Name": "Schowalter, Mayer and Keebler",
+    "Tooltip": "magni",
     "Deleted": true,
-    "Rank": 536,
-    "UdListDefinitionId": 38,
+    "Rank": 467,
+    "UdListDefinitionId": 500,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 408
+        "FieldType": "System.Int32",
+        "FieldLength": 403
       }
     }
   }

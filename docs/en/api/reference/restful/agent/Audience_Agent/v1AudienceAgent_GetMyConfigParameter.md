@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetMyConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Koss-Will"
+  "ParameterName": "Hamill-Thompson"
 }
 ```
 
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 846,
-  "Name": "Turner Inc and Sons",
-  "Value": "amet",
-  "CreatedDate": "2005-07-22T14:28:21.47729+02:00",
-  "UpdatedDate": "2024-10-27T14:28:21.47729+01:00",
-  "CreatedBy": "molestiae",
-  "UpdatedBy": "ratione",
+  "AudienceLayoutId": 445,
+  "Name": "Hilll LLC",
+  "Value": "ducimus",
+  "CreatedDate": "2022-05-13T13:13:59.5158194+02:00",
+  "UpdatedDate": "2024-11-11T13:13:59.5158194+01:00",
+  "CreatedBy": "aut",
+  "UpdatedBy": "aut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldLength": 498
     }
   }
 }

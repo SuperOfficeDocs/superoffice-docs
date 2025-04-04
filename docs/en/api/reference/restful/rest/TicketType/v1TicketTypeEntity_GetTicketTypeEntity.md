@@ -91,7 +91,7 @@ TicketTypeEntity found.
 GET /api/v1/TicketType/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -101,31 +101,31 @@ HTTP/1.1 200 TicketTypeEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 961,
-  "Name": "Hermiston LLC",
-  "Rank": 689,
-  "Tooltip": "architecto",
-  "Icon": "qui",
-  "DefaultTicketStatus": 410,
+  "TicketTypeId": 199,
+  "Name": "Cormier, Bahringer and Kerluke",
+  "Rank": 632,
+  "Tooltip": "aut",
+  "Icon": "autem",
+  "DefaultTicketStatus": 233,
   "TicketStatuses": [
-    122,
-    483
+    269,
+    360
   ],
-  "DefaultTicketPriority": 880,
+  "DefaultTicketPriority": 651,
   "TicketPriorities": [
-    83,
-    807
+    657,
+    965
   ],
-  "ReplyTemplate": 671,
-  "IsExternalVisible": false,
-  "IsDefault": false,
+  "ReplyTemplate": 870,
+  "IsExternalVisible": true,
+  "IsDefault": true,
   "ShowInNew": false,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": true,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    844,
-    112
+    511,
+    355
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 505
+      "FieldType": "System.Int32",
+      "FieldLength": 896
     }
   },
   "_Links": {

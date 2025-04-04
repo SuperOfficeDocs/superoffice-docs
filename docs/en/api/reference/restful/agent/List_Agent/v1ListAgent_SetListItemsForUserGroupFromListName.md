@@ -71,13 +71,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Rippin LLC",
-  "UsergroupId": 836,
+  "UdListDefinitionName": "Waters-Bernier",
+  "UsergroupId": 430,
   "ListItemsID": [
-    751,
-    726
+    104,
+    357
   ],
-  "Enable": true
+  "Enable": false
 }
 ```
 

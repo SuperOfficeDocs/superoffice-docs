@@ -27,7 +27,7 @@ Get the MDO list items for "SearchCat" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/SelectionCategory/MDOItems?flat=False
-GET /api/v1/List/SelectionCategory/MDOItems?query=consequuntur
+GET /api/v1/List/SelectionCategory/MDOItems?query=dolor
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SelectionCategory/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Ward-McKenzie",
-    "ToolTip": "Pariatur consequuntur distinctio laudantium saepe non qui.",
-    "Deleted": false,
-    "Rank": 538,
-    "Type": "qui",
+    "Id": 420,
+    "Name": "Witting Inc and Sons",
+    "ToolTip": "Omnis autem sapiente natus nam alias.",
+    "Deleted": true,
+    "Rank": 282,
+    "Type": "debitis",
     "ChildItems": [
       {
-        "Id": 178,
-        "Name": "Hettinger-Lemke",
-        "ToolTip": "Ut quis.",
+        "Id": 664,
+        "Name": "Jast, Schiller and Volkman",
+        "ToolTip": "Rerum qui occaecati.",
         "Deleted": false,
-        "Rank": 555,
-        "Type": "non",
+        "Rank": 1000,
+        "Type": "cumque",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptas",
-        "ColorBlock": 90,
-        "ExtraInfo": "non",
-        "StyleHint": "ut",
-        "FullName": "Yasmin Lehner",
+        "IconHint": "ratione",
+        "ColorBlock": 861,
+        "ExtraInfo": "aliquam",
+        "StyleHint": "eum",
+        "FullName": "Lesley Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 634
+            "FieldType": "System.String",
+            "FieldLength": 385
           }
         }
       }
     ],
-    "IconHint": "sint",
-    "ColorBlock": 460,
-    "ExtraInfo": "quia",
-    "StyleHint": "sit",
-    "FullName": "Ryan Lebsack",
+    "IconHint": "et",
+    "ColorBlock": 202,
+    "ExtraInfo": "consequuntur",
+    "StyleHint": "voluptatem",
+    "FullName": "Maudie Rath",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 775
+        "FieldType": "System.String",
+        "FieldLength": 435
       }
     }
   }

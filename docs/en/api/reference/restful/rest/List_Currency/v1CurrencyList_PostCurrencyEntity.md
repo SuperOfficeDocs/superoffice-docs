@@ -81,13 +81,13 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 613,
-  "Name": "Feil, Tillman and O'Hara",
-  "Tooltip": "at",
-  "Rank": 196,
-  "Rate": 14491.616,
-  "Units": 25288.246,
-  "Deleted": true
+  "CurrencyId": 417,
+  "Name": "Simonis-Pollich",
+  "Tooltip": "sit",
+  "Rank": 20,
+  "Rate": 16099.358,
+  "Units": 5528.376,
+  "Deleted": false
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 820,
-  "Name": "Hane LLC",
-  "Tooltip": "quae",
-  "Rank": 781,
-  "Rate": 24235.221999999998,
-  "Units": 23752.586,
+  "CurrencyId": 247,
+  "Name": "Batz LLC",
+  "Tooltip": "necessitatibus",
+  "Rank": 417,
+  "Rate": 20778.42,
+  "Units": 30152.214,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 515
+      "FieldLength": 687
     }
   }
 }

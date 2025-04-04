@@ -97,36 +97,36 @@ HierarchyEntity updated.
 PUT /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 464,
+  "HierarchyId": 711,
   "Domain": "Dashboards",
-  "Name": "Wolf-Wilderman",
-  "Fullname": "dicta",
-  "ParentId": 876,
+  "Name": "Hermann, Kirlin and Larkin",
+  "Fullname": "enim",
+  "ParentId": 870,
   "Children": [
     {
-      "HierarchyId": 177,
+      "HierarchyId": 907,
       "Domain": "Dashboards",
-      "Name": "Hayes-Greenholt",
-      "Fullname": "hic",
-      "ParentId": 203,
+      "Name": "Buckridge Inc and Sons",
+      "Fullname": "facilis",
+      "ParentId": 218,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2005-07-21T14:28:26.961443+02:00",
-      "RegisteredAssociateId": 302,
-      "Updated": "2019-09-03T14:28:26.961443+02:00",
-      "UpdatedAssociateId": 488
+      "Registered": "1997-12-22T13:14:08.7741411+01:00",
+      "RegisteredAssociateId": 567,
+      "Updated": "2011-12-13T13:14:08.7741411+01:00",
+      "UpdatedAssociateId": 195
     }
   ],
-  "Registered": "2015-02-18T14:28:26.961443+01:00",
-  "RegisteredAssociateId": 6,
-  "Updated": "2010-11-08T14:28:26.961443+01:00",
-  "UpdatedAssociateId": 37
+  "Registered": "2008-10-11T13:14:08.7741411+02:00",
+  "RegisteredAssociateId": 29,
+  "Updated": "2008-03-02T13:14:08.7741411+01:00",
+  "UpdatedAssociateId": 895
 }
 ```
 
@@ -137,46 +137,46 @@ HTTP/1.1 200 HierarchyEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 297,
+  "HierarchyId": 878,
   "Domain": "Dashboards",
-  "Name": "McDermott LLC",
-  "Fullname": "sint",
-  "ParentId": 659,
+  "Name": "McDermott Group",
+  "Fullname": "libero",
+  "ParentId": 340,
   "Children": [
     {
-      "HierarchyId": 39,
+      "HierarchyId": 647,
       "Domain": "Dashboards",
-      "Name": "Schamberger, Daugherty and Langosh",
-      "Fullname": "perspiciatis",
-      "ParentId": 240,
+      "Name": "Stracke LLC",
+      "Fullname": "autem",
+      "ParentId": 759,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-06-06T14:28:26.961443+02:00",
-      "RegisteredAssociateId": 404,
-      "Updated": "2008-09-02T14:28:26.961443+02:00",
-      "UpdatedAssociateId": 314,
+      "Registered": "2008-07-15T13:14:08.7741411+02:00",
+      "RegisteredAssociateId": 535,
+      "Updated": "2007-09-29T13:14:08.7741411+02:00",
+      "UpdatedAssociateId": 239,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 479
+          "FieldType": "System.Int32",
+          "FieldLength": 165
         }
       }
     }
   ],
-  "Registered": "2022-11-12T14:28:26.961443+01:00",
-  "RegisteredAssociateId": 913,
-  "Updated": "2024-07-29T14:28:26.961443+02:00",
-  "UpdatedAssociateId": 279,
+  "Registered": "2012-06-10T13:14:08.7741411+02:00",
+  "RegisteredAssociateId": 241,
+  "Updated": "2012-12-03T13:14:08.7741411+01:00",
+  "UpdatedAssociateId": 744,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldLength": 681
     }
   },
   "_Links": {

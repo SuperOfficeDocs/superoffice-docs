@@ -97,19 +97,19 @@ SystemEventEntity updated.
 PUT /api/v1/SystemEvent/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 277,
+  "SystemEventId": 302,
   "Scope": "Database",
-  "Eta": "2004-07-23T14:28:27.2583066+02:00",
-  "Eventkey": "ut",
-  "Eventmess": "explicabo",
-  "ExtraInfo": 832,
-  "Owner": 629,
-  "UpdatedCount": 954,
-  "Registered": "2006-12-03T14:28:27.2583066+01:00",
+  "Eta": "2013-11-05T13:14:09.2122711+01:00",
+  "Eventkey": "quia",
+  "Eventmess": "distinctio",
+  "ExtraInfo": 858,
+  "Owner": 705,
+  "UpdatedCount": 985,
+  "Registered": "1999-06-11T13:14:09.2122711+02:00",
   "ActivatedBy": null
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 SystemEventEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 734,
+  "SystemEventId": 284,
   "Scope": "Database",
-  "Eta": "2009-11-10T14:28:27.2583066+01:00",
-  "Eventkey": "perspiciatis",
-  "Eventmess": "beatae",
-  "ExtraInfo": 390,
-  "Owner": 597,
-  "UpdatedCount": 138,
-  "Registered": "2015-07-13T14:28:27.2583066+02:00",
+  "Eta": "2018-04-04T13:14:09.2122711+02:00",
+  "Eventkey": "rerum",
+  "Eventmess": "aut",
+  "ExtraInfo": 827,
+  "Owner": 745,
+  "UpdatedCount": 983,
+  "Registered": "1999-12-19T13:14:09.2122711+01:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 749
+      "FieldType": "System.String",
+      "FieldLength": 95
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

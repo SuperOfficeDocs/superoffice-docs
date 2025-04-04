@@ -73,7 +73,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/{deviceName}/{deviceIdentifier}/Key/{keyName}/{tableName}/{recordId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,23 +81,23 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 28 Jul 2024 14:28:26 G7T
+Last-Modified: Sat, 27 Jul 2013 13:14:08 G7T
 
 {
-  "Key": "error",
-  "Value": "ullam",
-  "RecordId": 861,
-  "CreatedDate": "2013-11-04T14:28:26.9458186+01:00",
-  "UpdatedDate": "2024-07-28T14:28:26.9458186+02:00",
-  "UpdatedBy": "molestias",
-  "CreatedBy": "quis",
-  "TableName": "Johnston, Ortiz and Sanford",
+  "Key": "aliquam",
+  "Value": "qui",
+  "RecordId": 747,
+  "CreatedDate": "2015-04-04T13:14:08.7585151+02:00",
+  "UpdatedDate": "2013-07-27T13:14:08.7585151+02:00",
+  "UpdatedBy": "quisquam",
+  "CreatedBy": "et",
+  "TableName": "Williamson-Rau",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 831
+      "FieldLength": 231
     }
   }
 }

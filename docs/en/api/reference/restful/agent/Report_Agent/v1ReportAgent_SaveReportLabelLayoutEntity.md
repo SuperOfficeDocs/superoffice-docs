@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 717,
-  "Name": "Klocko-Metz",
-  "Description": "Front-line holistic encoding",
+  "ReportLabelLayoutId": 798,
+  "Name": "Cummings Group",
+  "Description": "Distributed assymetric data-warehouse",
   "Orientation": "Landscape",
-  "PaperWidth": 598,
-  "PaperHeight": 200,
-  "LeftMargin": 624,
-  "RightMargin": 520,
-  "TopMargin": 376,
-  "BottomMargin": 102,
-  "CountColumns": 175,
-  "CountRows": 229
+  "PaperWidth": 509,
+  "PaperHeight": 917,
+  "LeftMargin": 617,
+  "RightMargin": 134,
+  "TopMargin": 709,
+  "BottomMargin": 271,
+  "CountColumns": 421,
+  "CountRows": 415
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 128,
-  "Name": "Lesch, Yost and Hermann",
-  "Description": "Implemented next generation Graphic Interface",
+  "ReportLabelLayoutId": 593,
+  "Name": "Lehner, Bruen and Cormier",
+  "Description": "Enhanced hybrid toolset",
   "Orientation": "Landscape",
-  "PaperWidth": 858,
-  "PaperHeight": 853,
-  "LeftMargin": 466,
-  "RightMargin": 671,
-  "TopMargin": 786,
-  "BottomMargin": 873,
-  "CountColumns": 758,
-  "CountRows": 360,
+  "PaperWidth": 794,
+  "PaperHeight": 641,
+  "LeftMargin": 318,
+  "RightMargin": 975,
+  "TopMargin": 725,
+  "BottomMargin": 941,
+  "CountColumns": 668,
+  "CountRows": 848,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 197
+      "FieldType": "System.Int32",
+      "FieldLength": 723
     }
   }
 }

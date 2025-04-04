@@ -83,12 +83,12 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteria2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 286,
-  "Filter": "quis"
+  "SelectionId": 731,
+  "Filter": "provident"
 }
 ```
 
@@ -100,44 +100,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Gulgowski LLC",
-    "Operator": "hic",
+    "Name": "Labadie, Jacobi and Labadie",
+    "Operator": "commodi",
     "Values": [
-      "animi",
-      "sequi"
+      "sint",
+      "repudiandae"
     ],
     "DisplayValues": [
-      "dolorum",
-      "voluptatem"
+      "doloremque",
+      "qui"
     ],
     "ColumnInfo": null,
-    "IsActive": false,
+    "IsActive": true,
     "SubRestrictions": [
       {
-        "Name": "Koepp-Schmidt",
-        "Operator": "culpa",
+        "Name": "Davis Group",
+        "Operator": "magnam",
         "Values": [
-          "cupiditate",
-          "ut"
+          "reiciendis",
+          "rerum"
         ],
         "DisplayValues": [
-          "consectetur",
-          "voluptatem"
+          "quae",
+          "neque"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 223,
+        "InterParenthesis": 949,
         "InterOperator": "And",
-        "UniqueHash": 859
+        "UniqueHash": 715
       }
     ],
-    "InterParenthesis": 129,
+    "InterParenthesis": 591,
     "InterOperator": "And",
-    "UniqueHash": 303
+    "UniqueHash": 487
   }
 ]
 ```

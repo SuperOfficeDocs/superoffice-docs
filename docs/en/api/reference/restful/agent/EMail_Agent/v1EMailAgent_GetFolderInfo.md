@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "Folders": [
-    "occaecati",
-    "rerum"
+    "eos",
+    "soluta"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Weissnat LLC",
-    "Delimiter": "earum",
-    "Flags": "et",
-    "TotalItems": 472,
-    "UnreadItems": 205,
-    "Subscribed": false,
-    "EmailFolderId": 736,
+    "Name": "Wyman-Robel",
+    "Delimiter": "omnis",
+    "Flags": "illo",
+    "TotalItems": 794,
+    "UnreadItems": 569,
+    "Subscribed": true,
+    "EmailFolderId": 402,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 732
+        "FieldType": "System.Int32",
+        "FieldLength": 655
       }
     }
   }

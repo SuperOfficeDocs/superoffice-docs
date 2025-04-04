@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/GenerateQuoteDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 249,
-  "EmailBodyTemplateId": 21,
+  "QuoteVersionId": 782,
+  "EmailBodyTemplateId": 46,
   "AttachMainDocument": false,
-  "QuotedProductsTemplateId": 431,
-  "IncludeAttachments": false,
-  "RawMailSubject": "doloribus"
+  "QuotedProductsTemplateId": 256,
+  "IncludeAttachments": true,
+  "RawMailSubject": "quia"
 }
 ```
 
@@ -107,23 +107,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteDocumentId": 457,
-  "QuotedProductsId": 659,
+  "QuoteDocumentId": 507,
+  "QuotedProductsId": 436,
   "QuoteAttachmentIds": [
-    595,
-    529
+    515,
+    272
   ],
-  "MailBody": "aliquid",
-  "MailSubject": "consequatur",
-  "ToEmail": "frederick@lesch.co.uk",
-  "ToFullName": "Isobel Nitzsche",
-  "ErrorMessage": "animi",
+  "MailBody": "doloribus",
+  "MailSubject": "quam",
+  "ToEmail": "nicklaus_ohara@dicki.ca",
+  "ToFullName": "Prof. Raphael Beau Kunze",
+  "ErrorMessage": "ipsa",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldLength": 880
     }
   }
 }

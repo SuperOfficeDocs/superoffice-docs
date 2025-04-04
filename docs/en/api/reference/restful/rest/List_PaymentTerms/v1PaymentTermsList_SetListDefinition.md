@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/PaymentTerm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 579,
-  "Name": "Orn-Hyatt",
-  "Tooltip": "sint",
-  "Deleted": false,
-  "Rank": 823,
-  "IsCustomList": false,
+  "Id": 725,
+  "Name": "Marks Inc and Sons",
+  "Tooltip": "tempora",
+  "Deleted": true,
+  "Rank": 531,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quibusdam",
-  "InUseByUserDefinedFields": false
+  "ListType": "explicabo",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 502,
-  "Name": "Jakubowski Group",
-  "Tooltip": "placeat",
-  "Deleted": true,
-  "Rank": 385,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 10,
+  "Name": "Gaylord, Pacocha and Casper",
+  "Tooltip": "velit",
+  "Deleted": false,
+  "Rank": 926,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "minus",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quod",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 81
+      "FieldType": "System.String",
+      "FieldLength": 40
     }
   }
 }

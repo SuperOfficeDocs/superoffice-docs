@@ -64,7 +64,7 @@ OK
 GET /api/v1/Attachment/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 621,
-  "Name": "Effertz, Sanford and Barrows",
-  "ContentType": "vel",
-  "AttSize": 589,
+  "AttachmentId": 719,
+  "Name": "Johnson LLC",
+  "ContentType": "sit",
+  "AttSize": 111,
   "InlineImage": false,
-  "ContentId": "ducimus",
-  "AuthKey": "adipisci",
+  "ContentId": "unde",
+  "AuthKey": "a",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 381
+      "FieldLength": 808
     }
   }
 }

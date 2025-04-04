@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Preference/GetAll
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 997,
-    "Section": "ipsa",
+    "PrefDescId": 382,
+    "Section": "corrupti",
     "Key": "et",
-    "Name": "Crist-McGlynn",
+    "Name": "Gusikowski-Welch",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Enterprise-wide composite solution",
+    "Description": "Decentralized composite moratorium",
     "IsBuiltin": false,
-    "TableName": "Cormier Group",
-    "UserDefinedListId": 522,
-    "Rank": 228,
-    "SubGroup": "at",
-    "MinLevel": 403,
-    "MaxValue": 264,
-    "MinValue": 673,
-    "RequiredLicense": "doloremque",
+    "TableName": "Trantow-Jerde",
+    "UserDefinedListId": 824,
+    "Rank": 354,
+    "SubGroup": "ut",
+    "MinLevel": 406,
+    "MaxValue": 464,
+    "MinValue": 874,
+    "RequiredLicense": "sint",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 160
+        "FieldType": "System.Int32",
+        "FieldLength": 998
       }
     }
   }

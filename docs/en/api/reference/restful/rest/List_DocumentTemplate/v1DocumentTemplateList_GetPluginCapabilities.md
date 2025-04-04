@@ -56,7 +56,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Plugin/{pluginId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -67,6 +67,6 @@ Content-Type: application/json; charset=utf-8
 
 {
   "1": "et",
-  "2": "blanditiis"
+  "2": "dolorum"
 }
 ```

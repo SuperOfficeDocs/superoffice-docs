@@ -26,7 +26,7 @@ Gets a TicketPriorityEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=669
+POST /api/v1/Agents/List/GetTicketPriorityEntity?ticketPriorityEntityId=556
 POST /api/v1/Agents/List/GetTicketPriorityEntity?$select=name,department,category/id
 ```
 
@@ -104,60 +104,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 241,
-  "Name": "Cronin-Haley",
+  "TicketPriorityId": 295,
+  "Name": "Littel Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 487,
+  "SortOrder": 818,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 19,
-  "MonStart": "2018-10-06T14:28:22.039767+02:00",
-  "MonStop": "2015-01-15T14:28:22.039767+01:00",
-  "TueStart": "2015-12-13T14:28:22.039767+01:00",
-  "TueStop": "1998-02-01T14:28:22.039767+01:00",
-  "WedStart": "2017-09-11T14:28:22.039767+02:00",
-  "WedStop": "2012-12-23T14:28:22.039767+01:00",
-  "ThuStart": "2001-09-11T14:28:22.039767+02:00",
-  "ThuStop": "2006-09-21T14:28:22.039767+02:00",
-  "FriStart": "2011-01-30T14:28:22.039767+01:00",
-  "FriStop": "2003-02-28T14:28:22.039767+01:00",
-  "SatStart": "1999-07-07T14:28:22.039767+02:00",
-  "SatStop": "2013-04-10T14:28:22.039767+02:00",
-  "SunStart": "2024-12-29T14:28:22.039767+01:00",
-  "SunStop": "2003-12-01T14:28:22.039767+01:00",
+  "Deadline": 90,
+  "MonStart": "2009-03-15T13:14:00.5481129+01:00",
+  "MonStop": "2009-03-19T13:14:00.5481129+01:00",
+  "TueStart": "2013-06-22T13:14:00.5481129+02:00",
+  "TueStop": "2007-01-05T13:14:00.5481129+01:00",
+  "WedStart": "2016-07-30T13:14:00.5481129+02:00",
+  "WedStop": "2021-01-08T13:14:00.5481129+01:00",
+  "ThuStart": "2020-07-05T13:14:00.5481129+02:00",
+  "ThuStop": "2018-04-12T13:14:00.5481129+02:00",
+  "FriStart": "2018-04-02T13:14:00.5481129+02:00",
+  "FriStop": "2017-02-03T13:14:00.5481129+01:00",
+  "SatStart": "2020-01-21T13:14:00.5481129+01:00",
+  "SatStop": "2009-04-05T13:14:00.5481129+02:00",
+  "SunStart": "2005-11-09T13:14:00.5481129+01:00",
+  "SunStop": "2013-08-30T13:14:00.5481129+02:00",
   "NonDates": [
-    "impedit",
-    "accusamus"
+    "qui",
+    "perspiciatis"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 821,
-      "AlertLevel": 418,
-      "AlertTimeout": 386,
-      "Action": 400,
-      "DelegateTo": 780,
-      "ScriptId": 146,
-      "EmailTo": "alisha@heidenreichdamore.com",
-      "SmsTo": "quia",
-      "ReplyTemplateIdCustomer": 499,
-      "ReplyTemplateIdUser": 46,
-      "ReplyTemplateIdCatmast": 25,
-      "ReplyTemplateIdEmail": 661,
-      "RtiCustomerSms": 198,
-      "ReplyTemplateIdUserSms": 627,
-      "ReplyTemplateIdCatmastSms": 652,
-      "ReplyTemplateIdSms": 840,
+      "TicketAlertId": 505,
+      "AlertLevel": 938,
+      "AlertTimeout": 492,
+      "Action": 56,
+      "DelegateTo": 559,
+      "ScriptId": 662,
+      "EmailTo": "johanna@padbergturcotte.name",
+      "SmsTo": "quo",
+      "ReplyTemplateIdCustomer": 16,
+      "ReplyTemplateIdUser": 129,
+      "ReplyTemplateIdCatmast": 977,
+      "ReplyTemplateIdEmail": 620,
+      "RtiCustomerSms": 375,
+      "ReplyTemplateIdUserSms": 100,
+      "ReplyTemplateIdCatmastSms": 928,
+      "ReplyTemplateIdSms": 148,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 890
+          "FieldType": "System.String",
+          "FieldLength": 715
         }
       }
     }
@@ -167,7 +167,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 322
+      "FieldLength": 189
     }
   }
 }

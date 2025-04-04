@@ -26,7 +26,7 @@ Gets a PreferenceDescription object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=272
+POST /api/v1/Agents/Preference/GetPreferenceDescription?preferenceDescriptionId=218
 POST /api/v1/Agents/Preference/GetPreferenceDescription?$select=name,department,category/id
 ```
 
@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -94,30 +94,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 185,
-  "Section": "in",
-  "Key": "et",
-  "Name": "Wolf-Rippin",
+  "PrefDescId": 206,
+  "Section": "quod",
+  "Key": "unde",
+  "Name": "Walker Inc and Sons",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Business-focused bi-directional extranet",
-  "IsBuiltin": true,
-  "TableName": "Wunsch-Towne",
-  "UserDefinedListId": 540,
-  "Rank": 446,
-  "SubGroup": "consectetur",
-  "MinLevel": 262,
-  "MaxValue": 555,
-  "MinValue": 197,
-  "RequiredLicense": "atque",
+  "Description": "Profound national internet solution",
+  "IsBuiltin": false,
+  "TableName": "Bayer-Schultz",
+  "UserDefinedListId": 348,
+  "Rank": 563,
+  "SubGroup": "sit",
+  "MinLevel": 763,
+  "MaxValue": 270,
+  "MinValue": 951,
+  "RequiredLicense": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldLength": 234
     }
   }
 }

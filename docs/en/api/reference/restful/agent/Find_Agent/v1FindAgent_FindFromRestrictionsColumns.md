@@ -106,34 +106,34 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Wintheiser Group",
-      "Operator": "aliquam",
+      "Name": "Thompson, Cronin and Strosin",
+      "Operator": "ut",
       "Values": [
-        "accusantium",
-        "nam"
+        "est",
+        "aut"
       ],
       "DisplayValues": [
-        "inventore",
-        "porro"
+        "autem",
+        "iusto"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 617,
+      "InterParenthesis": 40,
       "InterOperator": "And",
-      "UniqueHash": 306
+      "UniqueHash": 276
     }
   ],
-  "ProviderName": "Rolfson, Green and Schmidt",
+  "ProviderName": "Leuschke, Koelpin and Turcotte",
   "DesiredColumns": [
-    "modi",
-    "dolorem"
+    "blanditiis",
+    "iure"
   ],
-  "PageSize": 822,
-  "PageNumber": 447
+  "PageSize": 329,
+  "PageNumber": 809
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Robel-Schultz",
-      "DisplayTooltip": "occaecati",
-      "DisplayType": "omnis",
-      "CanOrderBy": true,
-      "Name": "Howe Inc and Sons",
+      "DisplayName": "Grant, Graham and Collier",
+      "DisplayTooltip": "unde",
+      "DisplayType": "fugit",
+      "CanOrderBy": false,
+      "Name": "Hickle, Zemlak and Abshire",
       "CanRestrictBy": true,
-      "RestrictionType": "possimus",
-      "RestrictionListName": "Schamberger, Hayes and Bartoletti",
-      "IsVisible": false,
-      "ExtraInfo": "ratione",
-      "Width": "animi",
-      "IconHint": "nobis",
-      "HeadingIconHint": "error"
+      "RestrictionType": "exercitationem",
+      "RestrictionListName": "Streich, Jacobi and Quigley",
+      "IsVisible": true,
+      "ExtraInfo": "architecto",
+      "Width": "autem",
+      "IconHint": "odio",
+      "HeadingIconHint": "sit"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Johnston, Davis and Marvin",
-      "PrimaryKey": 81,
+      "EntityName": "Gorczany Inc and Sons",
+      "PrimaryKey": 376,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "molestiae",
-          "TooltipHint": "rerum",
-          "LinkHint": "numquam"
+          "DisplayValue": "sint",
+          "TooltipHint": "ullam",
+          "LinkHint": "eum"
         }
       },
-      "LinkHint": "perspiciatis",
-      "StyleHint": "quae",
+      "LinkHint": "vero",
+      "StyleHint": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 493
+          "FieldType": "System.Int32",
+          "FieldLength": 389
         }
       }
     }
   ],
-  "RowCount": 140,
+  "RowCount": 798,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 341
+      "FieldLength": 304
     }
   }
 }

@@ -72,8 +72,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 467,
-  "Type": "delectus",
+  "AssociateId": 856,
+  "Type": "rerum",
   "Credentials": null
 }
 ```

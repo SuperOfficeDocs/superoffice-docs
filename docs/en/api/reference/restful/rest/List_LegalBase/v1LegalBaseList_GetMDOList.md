@@ -27,7 +27,7 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 
 ```http
 GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=aperiam
+GET /api/v1/List/LegalBase/MDOItems?query=iste
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 330,
-    "Name": "Gorczany-Brown",
-    "ToolTip": "Sed odio reprehenderit qui dignissimos.",
+    "Id": 135,
+    "Name": "Howell, Wehner and Trantow",
+    "ToolTip": "Quas officiis labore aut expedita ut porro.",
     "Deleted": true,
-    "Rank": 118,
-    "Type": "labore",
+    "Rank": 702,
+    "Type": "blanditiis",
     "ChildItems": [
       {
-        "Id": 668,
-        "Name": "Farrell-Moen",
-        "ToolTip": "Necessitatibus minus.",
+        "Id": 273,
+        "Name": "Beatty LLC",
+        "ToolTip": "Ea eligendi tempora neque fuga.",
         "Deleted": false,
-        "Rank": 875,
-        "Type": "qui",
+        "Rank": 975,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "quo",
-        "ColorBlock": 747,
-        "ExtraInfo": "esse",
-        "StyleHint": "consequatur",
-        "FullName": "Frida Hodkiewicz",
+        "IconHint": "libero",
+        "ColorBlock": 791,
+        "ExtraInfo": "non",
+        "StyleHint": "vitae",
+        "FullName": "Marlen McGlynn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 724
+            "FieldType": "System.Int32",
+            "FieldLength": 362
           }
         }
       }
     ],
-    "IconHint": "quas",
-    "ColorBlock": 986,
-    "ExtraInfo": "dolorem",
-    "StyleHint": "commodi",
-    "FullName": "Lucinda Block",
+    "IconHint": "ea",
+    "ColorBlock": 733,
+    "ExtraInfo": "necessitatibus",
+    "StyleHint": "numquam",
+    "FullName": "Maurine Hauck",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 534
+        "FieldLength": 115
       }
     }
   }

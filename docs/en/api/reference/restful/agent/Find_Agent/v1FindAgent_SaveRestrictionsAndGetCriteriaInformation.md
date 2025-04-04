@@ -82,24 +82,24 @@ OK
 POST /api/v1/Agents/Find/SaveRestrictionsAndGetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Cruickshank, O'Keefe and Schneider",
-  "StorageKey": "voluptatibus",
+  "StorageType": "laudantium",
+  "ProviderName": "Green-Eichmann",
+  "StorageKey": "et",
   "Restrictions": [
     {
-      "Name": "Runte-Hauck",
-      "Operator": "et",
+      "Name": "Mayert-Ullrich",
+      "Operator": "temporibus",
       "Values": [
-        "doloribus",
-        "voluptatem"
+        "voluptate",
+        "qui"
       ],
       "DisplayValues": [
-        "a",
-        "numquam"
+        "incidunt",
+        "nulla"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -107,14 +107,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 82,
+      "InterParenthesis": 464,
       "InterOperator": "And",
-      "UniqueHash": 976
+      "UniqueHash": 133
     }
   ],
   "StaticColumns": [
-    "voluptatibus",
-    "nostrum"
+    "aut",
+    "nesciunt"
   ]
 }
 ```
@@ -128,81 +128,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Jenkins-Koch",
-      "Operator": "sit",
+      "Name": "Hane LLC",
+      "Operator": "repellendus",
       "Values": [
-        "in",
-        "sed"
+        "reprehenderit",
+        "aspernatur"
       ],
       "DisplayValues": [
-        "magni",
-        "velit"
+        "repellendus",
+        "consequatur"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 136,
+      "InterParenthesis": 526,
       "InterOperator": "And",
-      "UniqueHash": 829
+      "UniqueHash": 878
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Ortiz, Zieme and Rutherford",
-      "DisplayTooltip": "rem",
-      "DisplayType": "sunt",
+      "DisplayName": "Gerlach Group",
+      "DisplayTooltip": "minima",
+      "DisplayType": "eligendi",
       "CanOrderBy": false,
-      "Name": "Schroeder-Simonis",
+      "Name": "Conroy, Kuphal and Yost",
       "CanRestrictBy": false,
-      "RestrictionType": "voluptatem",
-      "RestrictionListName": "Mueller Inc and Sons",
+      "RestrictionType": "quaerat",
+      "RestrictionListName": "Wyman Group",
       "IsVisible": true,
-      "ExtraInfo": "ducimus",
-      "Width": "minus",
-      "IconHint": "sapiente",
-      "HeadingIconHint": "vel"
+      "ExtraInfo": "ex",
+      "Width": "eos",
+      "IconHint": "sit",
+      "HeadingIconHint": "eos"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Bradtke Inc and Sons",
-      "PrimaryKey": 763,
+      "EntityName": "Hintz-Boyle",
+      "PrimaryKey": 61,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "deserunt",
-          "TooltipHint": "debitis",
-          "LinkHint": "dolorem"
+          "DisplayValue": "id",
+          "TooltipHint": "atque",
+          "LinkHint": "et"
         }
       },
-      "LinkHint": "consequatur",
-      "StyleHint": "impedit",
+      "LinkHint": "omnis",
+      "StyleHint": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 491
+          "FieldType": "System.String",
+          "FieldLength": 395
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Hirthe Inc and Sons",
-      "Description": "Integrated composite infrastructure",
-      "Rank": 820,
+      "Name": "Collins-Mayert",
+      "Description": "Down-sized real-time contingency",
+      "Rank": 303,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hirthe Inc and Sons",
-      "Description": "Integrated composite infrastructure",
-      "Rank": 820,
+      "Name": "Collins-Mayert",
+      "Description": "Down-sized real-time contingency",
+      "Rank": 303,
       "Restrictions": [
         {},
         {}
@@ -213,8 +213,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 715
+      "FieldType": "System.String",
+      "FieldLength": 541
     }
   }
 }

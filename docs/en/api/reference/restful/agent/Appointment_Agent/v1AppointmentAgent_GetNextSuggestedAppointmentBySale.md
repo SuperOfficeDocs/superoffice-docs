@@ -92,8 +92,8 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 290,
-  "CurrentAppointmentId": 630,
+  "SaleId": 419,
+  "CurrentAppointmentId": 501,
   "SkipCompleteCheck": true
 }
 ```
@@ -105,26 +105,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AutoSuggest": 185,
-  "Deleted": 243,
-  "DaysFuture": 395,
-  "Tooltip": "enim",
-  "Text": "voluptatem",
-  "TaskId": 931,
-  "SuggestedAppointmentId": 339,
-  "SaleTypeStageLinkId": 890,
-  "RegisteredAssociateId": 892,
-  "Rank": 531,
-  "ProjectTypeStatusLinkId": 875,
-  "Name": "Friesen-Schamberger",
-  "Duration": 272,
+  "AutoSuggest": 932,
+  "Deleted": 791,
+  "DaysFuture": 391,
+  "Tooltip": "necessitatibus",
+  "Text": "excepturi",
+  "TaskId": 827,
+  "SuggestedAppointmentId": 293,
+  "SaleTypeStageLinkId": 404,
+  "RegisteredAssociateId": 646,
+  "Rank": 218,
+  "ProjectTypeStatusLinkId": 870,
+  "Name": "Willms Inc and Sons",
+  "Duration": 650,
   "Associate": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 896
+      "FieldType": "System.Int32",
+      "FieldLength": 412
     }
   }
 }

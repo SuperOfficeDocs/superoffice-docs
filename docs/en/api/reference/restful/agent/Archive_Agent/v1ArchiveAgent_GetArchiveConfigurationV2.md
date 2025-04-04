@@ -81,14 +81,14 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfigurationV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Schaefer-Nolan",
-  "ProviderName": "Goodwin LLC",
-  "Context": "nulla",
-  "OwnerKeys": "sit"
+  "GuiName": "Kautzer Group",
+  "ProviderName": "Jaskolski LLC",
+  "Context": "harum",
+  "OwnerKeys": "eaque"
 }
 ```
 
@@ -101,68 +101,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Schuppe Group",
-      "DisplayTooltip": "rerum",
-      "DisplayType": "rerum",
-      "CanOrderBy": true,
-      "Name": "Streich, Maggio and Rau",
+      "DisplayName": "Schamberger, Gottlieb and Osinski",
+      "DisplayTooltip": "omnis",
+      "DisplayType": "et",
+      "CanOrderBy": false,
+      "Name": "Murazik, McKenzie and Lebsack",
       "CanRestrictBy": false,
-      "RestrictionType": "mollitia",
-      "RestrictionListName": "Ruecker Group",
+      "RestrictionType": "repellat",
+      "RestrictionListName": "Rutherford-Walsh",
       "IsVisible": false,
-      "ExtraInfo": "sed",
-      "Width": "illum",
-      "IconHint": "neque",
-      "HeadingIconHint": "placeat"
+      "ExtraInfo": "eaque",
+      "Width": "soluta",
+      "IconHint": "dolor",
+      "HeadingIconHint": "quia"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 957,
-      "Name": "Strosin, Walter and Braun",
-      "ToolTip": "Aut commodi.",
+      "Id": 729,
+      "Name": "Farrell-Brekke",
+      "ToolTip": "Voluptas aut voluptas nemo deleniti maxime.",
       "Deleted": false,
-      "Rank": 57,
-      "Type": "similique",
-      "ColorBlock": 655,
-      "IconHint": "vel",
-      "Selected": false,
-      "LastChanged": "2013-10-31T14:28:21.4616659+01:00",
+      "Rank": 967,
+      "Type": "sit",
+      "ColorBlock": 374,
+      "IconHint": "perspiciatis",
+      "Selected": true,
+      "LastChanged": "2007-07-02T13:13:59.5001938+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "et",
-      "StyleHint": "est",
-      "Hidden": false,
-      "FullName": "Jaden Jamar Aufderhar Jr.",
+      "ExtraInfo": "qui",
+      "StyleHint": "adipisci",
+      "Hidden": true,
+      "FullName": "Luella Fahey",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 398
+          "FieldLength": 462
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Johnson, Borer and Shields",
+      "Name": "Reinger LLC",
       "Direction": "ASC"
     },
     {
-      "Name": "Johnson, Borer and Shields",
+      "Name": "Reinger LLC",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "aut",
+  "OwnerKeys": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 974
+      "FieldType": "System.Int32",
+      "FieldLength": 376
     }
   }
 }

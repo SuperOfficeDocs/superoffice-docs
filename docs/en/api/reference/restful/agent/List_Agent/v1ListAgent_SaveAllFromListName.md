@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Weissnat Group",
+  "UdListDefinitionName": "Schiller Inc and Sons",
   "Items": [
     {
-      "Id": 272,
-      "Name": "Schaden, Bashirian and Adams",
-      "Tooltip": "eligendi",
+      "Id": 138,
+      "Name": "Walker, Rau and O'Conner",
+      "Tooltip": "velit",
       "Deleted": false,
-      "UdListDefinitionId": 289,
-      "Rank": 61
+      "UdListDefinitionId": 875,
+      "Rank": 445
     },
     {
-      "Id": 272,
-      "Name": "Schaden, Bashirian and Adams",
-      "Tooltip": "eligendi",
+      "Id": 138,
+      "Name": "Walker, Rau and O'Conner",
+      "Tooltip": "velit",
       "Deleted": false,
-      "UdListDefinitionId": 289,
-      "Rank": 61
+      "UdListDefinitionId": 875,
+      "Rank": 445
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 528,
-    "Name": "Boyer, Cole and Becker",
-    "Tooltip": "quia",
-    "Deleted": true,
-    "UdListDefinitionId": 69,
-    "Rank": 832,
+    "Id": 332,
+    "Name": "Klocko Group",
+    "Tooltip": "illum",
+    "Deleted": false,
+    "UdListDefinitionId": 666,
+    "Rank": 792,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 117
+        "FieldType": "System.Int32",
+        "FieldLength": 75
       }
     }
   }

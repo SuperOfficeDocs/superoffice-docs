@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 586,
-    "Name": "Breitenberg-Koss",
-    "ToolTip": "Quia debitis quo ut et atque id autem.",
+    "Id": 746,
+    "Name": "Rowe Group",
+    "ToolTip": "Ea autem blanditiis ut tenetur eum odit provident.",
     "Deleted": true,
-    "Rank": 216,
-    "Type": "dolorum",
-    "ColorBlock": 580,
-    "IconHint": "consequatur",
+    "Rank": 44,
+    "Type": "atque",
+    "ColorBlock": 607,
+    "IconHint": "impedit",
     "Selected": false,
-    "LastChanged": "2012-08-07T14:28:27.4926717+02:00",
+    "LastChanged": "2014-11-19T13:14:09.6347653+01:00",
     "ChildItems": [
       {
-        "Id": 800,
-        "Name": "Renner-Bradtke",
-        "ToolTip": "Est asperiores occaecati et quas.",
+        "Id": 559,
+        "Name": "Toy Group",
+        "ToolTip": "Harum consectetur rem modi nam quia.",
         "Deleted": false,
-        "Rank": 648,
-        "Type": "et",
-        "ColorBlock": 447,
-        "IconHint": "voluptatem",
+        "Rank": 274,
+        "Type": "dolorem",
+        "ColorBlock": 339,
+        "IconHint": "eligendi",
         "Selected": false,
-        "LastChanged": "2008-02-23T14:28:27.4926717+01:00",
+        "LastChanged": "2012-01-05T13:14:09.6347653+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "hic",
-        "StyleHint": "assumenda",
-        "Hidden": false,
-        "FullName": "Elody Cremin",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Deontae Leanna Gutkowski Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 668
+            "FieldLength": 611
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "distinctio",
+    "ExtraInfo": "ut",
+    "StyleHint": "numquam",
     "Hidden": true,
-    "FullName": "Mr. Sebastian Mireille Franecki",
+    "FullName": "Mr. Krystel Sawayn",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 259
+        "FieldLength": 728
       }
     }
   }

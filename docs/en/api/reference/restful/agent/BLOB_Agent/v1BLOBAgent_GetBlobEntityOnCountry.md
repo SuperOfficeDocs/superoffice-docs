@@ -89,7 +89,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 349
+  "CountryId": 308
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 77,
-  "BlobSize": 676,
-  "Description": "Persevering analyzing implementation",
-  "ExtraInfo": "adipisci",
-  "IsEncrypted": false,
+  "BlobId": 861,
+  "BlobSize": 212,
+  "Description": "Object-based 5th generation pricing structure",
+  "ExtraInfo": "beatae",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "voluptas",
-  "OriginalSize": 933,
-  "CreatedDate": "1998-05-03T14:28:21.4929147+02:00",
-  "UpdatedDate": "2010-07-19T14:28:21.4929147+02:00",
+  "MimeType": "iure",
+  "OriginalSize": 127,
+  "CreatedDate": "2000-04-11T13:13:59.5470712+02:00",
+  "UpdatedDate": "2014-02-21T13:13:59.5470712+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "possimus",
+  "ConceptualType": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 495
+      "FieldLength": 278
     }
   }
 }

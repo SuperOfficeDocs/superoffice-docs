@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "et",
+  "SaleText": "quam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -120,90 +120,90 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2015-08-20T14:28:27.2270585+02:00",
-  "Amount": 6177.114,
-  "SaleId": 62,
-  "Earning": 441.894,
-  "EarningPercent": 2215.738,
-  "Heading": "sed",
-  "Number": "609879",
-  "Probability": 101,
-  "CreatedDate": "2015-09-23T14:28:27.2270585+02:00",
-  "UpdatedDate": "2011-04-19T14:28:27.2270585+02:00",
+  "Saledate": "2013-09-13T13:14:09.1497673+02:00",
+  "Amount": 11949.942,
+  "SaleId": 84,
+  "Earning": 24617.57,
+  "EarningPercent": 9467.814,
+  "Heading": "pariatur",
+  "Number": "1235209",
+  "Probability": 790,
+  "CreatedDate": "2010-01-01T13:14:09.1497673+01:00",
+  "UpdatedDate": "2012-06-08T13:14:09.1497673+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 964,
+  "ActiveLinks": 609,
   "Links": [
     {
-      "EntityName": "Cartwright-Ortiz",
-      "Id": 177,
-      "Description": "Centralized composite paradigm",
-      "ExtraInfo": "enim",
-      "LinkId": 223
+      "EntityName": "Runolfsdottir LLC",
+      "Id": 676,
+      "Description": "Business-focused transitional analyzer",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 853
     },
     {
-      "EntityName": "Cartwright-Ortiz",
-      "Id": 177,
-      "Description": "Centralized composite paradigm",
-      "ExtraInfo": "enim",
-      "LinkId": 223
+      "EntityName": "Runolfsdottir LLC",
+      "Id": 676,
+      "Description": "Business-focused transitional analyzer",
+      "ExtraInfo": "blanditiis",
+      "LinkId": 853
     }
   ],
-  "NextDueDate": "2001-11-08T14:28:27.2270585+01:00",
-  "Postit": "sed",
+  "NextDueDate": "2002-08-02T13:14:09.1497673+02:00",
+  "Postit": "corrupti",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2024-11-25T14:28:27.2270585+01:00",
+  "ReopenDate": "2024-01-01T13:14:09.1497673+01:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Kohler-Hermann",
-      "Comment": "delectus",
-      "StakeholderRoleId": 588,
-      "CountryId": 131,
-      "PersonId": 346,
-      "EmailDescription": "alexandro@gleichner.uk",
-      "EmailId": 897,
-      "EmailAddress": "dedrick@hegmann.uk",
-      "PhoneId": 783,
-      "ContactName": "Swift, Von and DuBuque",
-      "ContactId": 585,
-      "SaleId": 366,
-      "Mrmrs": "incidunt",
-      "Firstname": "Erna",
-      "MiddleName": "Connelly, Hauck and Purdy",
-      "Lastname": "Gorczany",
-      "SaleStakeholderId": 457,
-      "Rank": 689,
-      "Phone": "462.000.6116 x643"
+      "StakeholderRoleName": "Bartell-Reichel",
+      "Comment": "autem",
+      "StakeholderRoleId": 656,
+      "CountryId": 951,
+      "PersonId": 650,
+      "EmailDescription": "alessia@abbott.info",
+      "EmailId": 826,
+      "EmailAddress": "cedrick_huel@borer.name",
+      "PhoneId": 181,
+      "ContactName": "Smitham-Muller",
+      "ContactId": 416,
+      "SaleId": 749,
+      "Mrmrs": "distinctio",
+      "Firstname": "Vada",
+      "MiddleName": "Murphy-Farrell",
+      "Lastname": "Littel",
+      "SaleStakeholderId": 308,
+      "Rank": 898,
+      "Phone": "018.065.2832 x9952"
     }
   ],
-  "ActiveErpLinks": 411,
+  "ActiveErpLinks": 351,
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Marley Kovacek I",
-    "SuperOffice:2": "1526664919"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Mrs. Macy Dach Sr."
   },
   "ExtraFields": {
-    "ExtraFields1": "illo",
-    "ExtraFields2": "sint"
+    "ExtraFields1": "aliquid",
+    "ExtraFields2": "quo"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "voluptatibus"
+    "CustomFields1": "nihil",
+    "CustomFields2": "ut"
   },
-  "PublishEventDate": "2017-10-11T14:28:27.2270585+02:00",
-  "PublishTo": "2012-11-13T14:28:27.2270585+01:00",
-  "PublishFrom": "2015-05-15T14:28:27.2270585+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2002-10-19T13:14:09.1497673+02:00",
+  "PublishTo": "2008-04-13T13:14:09.1497673+02:00",
+  "PublishFrom": "2004-08-25T13:14:09.1497673+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 474,
+      "VisibleId": 561,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "magni"
     },
     {
-      "VisibleId": 474,
+      "VisibleId": 561,
       "Visibility": "All",
-      "DisplayValue": "et"
+      "DisplayValue": "magni"
     }
   ]
 }
@@ -216,7 +216,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "vitae",
-  "2": "alias"
+  "1": "omnis",
+  "2": "voluptate"
 }
 ```

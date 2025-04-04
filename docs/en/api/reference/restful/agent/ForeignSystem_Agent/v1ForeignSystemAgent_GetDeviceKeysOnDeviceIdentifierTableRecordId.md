@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Nienow-Thompson",
-  "DeviceName": "Anderson Inc and Sons",
-  "DeviceIdentifier": "voluptatem",
-  "TableName": "Smith-Doyle",
-  "RecordId": 763
+  "ApplicationName": "Satterfield, Lakin and Bauch",
+  "DeviceName": "Renner, Kub and Hermiston",
+  "DeviceIdentifier": "vitae",
+  "TableName": "Jacobi-Haley",
+  "RecordId": 454
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "sint",
-    "Value": "suscipit",
-    "RecordId": 738,
-    "CreatedDate": "2004-10-10T14:28:22.0241429+02:00",
-    "UpdatedDate": "2006-06-04T14:28:22.0241429+02:00",
-    "UpdatedBy": "nostrum",
-    "CreatedBy": "ut",
-    "TableName": "Maggio, Little and Howell",
+    "Key": "ullam",
+    "Value": "cumque",
+    "RecordId": 940,
+    "CreatedDate": "2023-06-06T13:14:00.5168611+02:00",
+    "UpdatedDate": "1999-12-10T13:14:00.5168611+01:00",
+    "UpdatedBy": "laboriosam",
+    "CreatedBy": "est",
+    "TableName": "Wolf, Durgan and Barrows",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 730
+        "FieldType": "System.String",
+        "FieldLength": 748
       }
     }
   }

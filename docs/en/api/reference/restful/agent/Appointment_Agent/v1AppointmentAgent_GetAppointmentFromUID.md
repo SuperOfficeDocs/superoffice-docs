@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointmentFromUID
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UID": "autem"
+  "UID": "sit"
 }
 ```
 
@@ -151,121 +151,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-05-16T14:28:21.4304178+02:00",
-  "AppointmentId": 142,
-  "Description": "Virtual grid-enabled internet solution",
-  "Title": "error",
-  "Agenda": "numquam",
-  "InternalNotes": "aut",
-  "StartDate": "2016-07-22T14:28:21.4304178+02:00",
-  "EndDate": "2022-04-10T14:28:21.4304178+02:00",
+  "CreatedDate": "2006-01-01T13:13:59.4533163+01:00",
+  "AppointmentId": 993,
+  "Description": "Business-focused systematic workforce",
+  "Title": "et",
+  "Agenda": "blanditiis",
+  "InternalNotes": "debitis",
+  "StartDate": "2023-08-13T13:13:59.4533163+02:00",
+  "EndDate": "2004-01-05T13:13:59.4533163+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 438,
+  "MotherId": 11,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-07-03T14:28:21.4304178+02:00",
+  "UpdatedDate": "2015-04-16T13:13:59.4689417+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 575,
+  "ActiveLinks": 697,
   "Links": [
     {
-      "EntityName": "Lebsack-Altenwerth",
-      "Id": 232,
-      "Description": "Diverse mission-critical focus group",
-      "ExtraInfo": "adipisci",
-      "LinkId": 416,
+      "EntityName": "Jakubowski, Brown and Paucek",
+      "Id": 469,
+      "Description": "Configurable human-resource productivity",
+      "ExtraInfo": "distinctio",
+      "LinkId": 90,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 174
+          "FieldLength": 863
         }
       }
     }
   ],
-  "AlarmLeadTime": "consequuntur",
+  "AlarmLeadTime": "a",
   "HasAlarm": false,
-  "ColorIndex": 108,
-  "IsFree": false,
+  "ColorIndex": 857,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "ut",
-  "LeadTime": "labore",
-  "Location": "voluptatum",
-  "RejectCounter": 831,
-  "RejectReason": "whiteboard leading-edge interfaces",
+  "LagTime": "dolor",
+  "LeadTime": "est",
+  "Location": "sit",
+  "RejectCounter": 174,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 709,
-      "PersonId": 893,
-      "ContactId": 19,
-      "EmailId": 257,
-      "SendEmail": true,
+      "AssociateId": 178,
+      "PersonId": 81,
+      "ContactId": 724,
+      "EmailId": 915,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "jakayla@dickensstiedemann.name",
-      "Description": "Managed empowering open system"
+      "EmailAddress": "naomie@kutch.us",
+      "Description": "Triple-buffered client-server matrix"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2011-07-12T14:28:21.4304178+02:00",
-  "HasConflict": true,
+  "ActiveDate": "1999-12-23T13:13:59.4689417+01:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 506,
+  "PreferredTZLocation": 147,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 784,
+  "SuggestedAppointmentId": 952,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "molestiae",
+  "CentralserviceVideomeetId": "hic",
   "UserDefinedFields": {
-    "SuperOffice:1": "1506707829",
-    "SuperOffice:2": "Prof. Michel Lorenza Macejkovic DVM"
+    "SuperOffice:1": "264695282",
+    "SuperOffice:2": "Friedrich Willms"
   },
   "ExtraFields": {
-    "ExtraFields1": "nesciunt",
-    "ExtraFields2": "sapiente"
+    "ExtraFields1": "delectus",
+    "ExtraFields2": "neque"
   },
   "CustomFields": {
-    "CustomFields1": "eum",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "tempore",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "1998-06-29T14:28:21.4304178+02:00",
-  "PublishTo": "2013-01-16T14:28:21.4304178+01:00",
-  "PublishFrom": "2017-07-28T14:28:21.4304178+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2006-05-20T13:13:59.4689417+02:00",
+  "PublishTo": "2000-04-14T13:13:59.4689417+02:00",
+  "PublishFrom": "2005-03-06T13:13:59.4689417+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 972,
+      "VisibleId": 325,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldLength": 974
         }
       }
     },
     {
-      "VisibleId": 972,
+      "VisibleId": 325,
       "Visibility": "All",
-      "DisplayValue": "eaque",
+      "DisplayValue": "asperiores",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 599
+          "FieldLength": 974
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 244
+      "FieldType": "System.Int32",
+      "FieldLength": 800
     }
   }
 }

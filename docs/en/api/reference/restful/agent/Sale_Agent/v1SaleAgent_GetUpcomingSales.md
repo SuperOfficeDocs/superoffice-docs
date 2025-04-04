@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 7,
-  "Count": 608
+  "WeightedAmountLimit": 265,
+  "Count": 233
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Kuphal LLC",
-    "SaleDate": "1998-10-03T14:28:22.3678792+02:00",
-    "SaleId": 747,
-    "Probability": 35,
-    "Title": "nihil",
-    "Amount": 23235.476,
-    "Currency": "magnam",
-    "ProjectName": "Pfannerstill-Farrell",
-    "AssociateFullName": "Raul Effertz",
-    "Description": "Virtual value-added artificial intelligence",
+    "ContactName": "Champlin-Schaden",
+    "SaleDate": "2009-06-27T13:14:01.1274981+02:00",
+    "SaleId": 270,
+    "Probability": 535,
+    "Title": "qui",
+    "Amount": 19640.778,
+    "Currency": "sequi",
+    "ProjectName": "Hegmann, Hammes and Murphy",
+    "AssociateFullName": "Courtney Legros",
+    "Description": "Triple-buffered disintermediate policy",
     "Status": "Lost",
-    "WeightedAmount": 4882.772,
-    "ProjectId": 973,
-    "EarningPercent": 17221.329999999998,
-    "Earning": 8552.686,
-    "ContactId": 760,
-    "AssociateId": 433,
-    "PersonId": 70,
-    "SaleTypeId": 761,
-    "SaleTypeName": "Ledner Group",
-    "PersonFullName": "Phyllis Stoltenberg",
+    "WeightedAmount": 6766.306,
+    "ProjectId": 156,
+    "EarningPercent": 16149.501999999999,
+    "Earning": 7527.8679999999995,
+    "ContactId": 248,
+    "AssociateId": 403,
+    "PersonId": 294,
+    "SaleTypeId": 369,
+    "SaleTypeName": "Sauer LLC",
+    "PersonFullName": "Chaz Bosco",
     "Completed": "Completed",
-    "ActiveErpLinks": 10,
-    "NextDueDate": "2016-12-16T14:28:22.3678792+01:00",
-    "Number": "1888244",
+    "ActiveErpLinks": 7,
+    "NextDueDate": "2009-08-05T13:14:01.1274981+02:00",
+    "Number": "521078",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 450
+        "FieldLength": 207
       }
     }
   }

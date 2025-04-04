@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 97
+  "Id": 863
 }
 ```
 
@@ -102,27 +102,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 429,
-  "Rank": 974,
-  "DefaultTask": 39,
-  "DefaultTaskText": "corporis",
+  "OwnerTable": 147,
+  "Rank": 159,
+  "DefaultTask": 49,
+  "DefaultTaskText": "quam",
   "IsVisual": false,
-  "LastGenerated": "2023-06-17T14:28:22.3366302+02:00",
-  "Description": "Focused reciprocal function",
-  "Name": "Dicki Group",
-  "StatusMonitorId": 928,
-  "PictureId": 724,
+  "LastGenerated": "2009-08-28T13:14:01.048891+02:00",
+  "Description": "Reactive actuating structure",
+  "Name": "Pfeffer Inc and Sons",
+  "StatusMonitorId": 881,
+  "PictureId": 34,
   "NeedsUpdate": false,
   "Deleted": false,
-  "NumMatches": 492,
-  "NumNeedUpdate": 91,
-  "GenerationStart": "2016-02-23T14:28:22.3366302+01:00",
+  "NumMatches": 231,
+  "NumNeedUpdate": 908,
+  "GenerationStart": "2013-12-19T13:14:01.048891+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 48
+      "FieldType": "System.String",
+      "FieldLength": 955
     }
   }
 }

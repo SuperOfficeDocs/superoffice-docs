@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryType" - with headings and filtering by user 
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryType/MDOItems?flat=True
-GET /api/v1/List/DeliveryType/MDOItems?query=libero
+GET /api/v1/List/DeliveryType/MDOItems?flat=False
+GET /api/v1/List/DeliveryType/MDOItems?query=ducimus
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 490,
-    "Name": "Wilkinson-Zulauf",
-    "ToolTip": "Rerum eos voluptatem in omnis sed.",
-    "Deleted": false,
-    "Rank": 32,
-    "Type": "sunt",
+    "Id": 63,
+    "Name": "Ziemann LLC",
+    "ToolTip": "Quia repudiandae laboriosam recusandae quod est aperiam.",
+    "Deleted": true,
+    "Rank": 169,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 787,
-        "Name": "Daugherty, Swaniawski and Hilll",
-        "ToolTip": "Voluptates fugiat nihil nulla.",
+        "Id": 731,
+        "Name": "Aufderhar Inc and Sons",
+        "ToolTip": "Aut repudiandae eius placeat ad.",
         "Deleted": false,
-        "Rank": 706,
-        "Type": "maiores",
+        "Rank": 638,
+        "Type": "dignissimos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "vero",
-        "ColorBlock": 222,
-        "ExtraInfo": "aliquam",
-        "StyleHint": "veniam",
-        "FullName": "Deshaun Sauer DVM",
+        "IconHint": "quasi",
+        "ColorBlock": 622,
+        "ExtraInfo": "quas",
+        "StyleHint": "maxime",
+        "FullName": "Jaren Keeling",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 486
+            "FieldLength": 943
           }
         }
       }
     ],
-    "IconHint": "dolor",
-    "ColorBlock": 81,
-    "ExtraInfo": "a",
-    "StyleHint": "vel",
-    "FullName": "Adelle Giovanni McGlynn DVM",
+    "IconHint": "ut",
+    "ColorBlock": 719,
+    "ExtraInfo": "aut",
+    "StyleHint": "ipsa",
+    "FullName": "Zula Brekke",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 803
+        "FieldLength": 920
       }
     }
   }

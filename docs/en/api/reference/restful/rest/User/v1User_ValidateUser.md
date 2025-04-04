@@ -84,18 +84,18 @@ OK
 POST /api/v1/User/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 921,
-  "Name": "Dicki, Langworth and Wilkinson",
-  "Rank": 189,
-  "Tooltip": "ab",
+  "AssociateId": 115,
+  "Name": "Kessler-Friesen",
+  "Rank": 987,
+  "Tooltip": "explicabo",
   "LicenseOwners": [
     {
-      "Name": "Buckridge, Dicki and Hudson",
-      "Description": "Cloned impactful protocol",
+      "Name": "Mayert Group",
+      "Description": "Virtual demand-driven system engine",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
       ]
     },
     {
-      "Name": "Buckridge, Dicki and Hudson",
-      "Description": "Cloned impactful protocol",
+      "Name": "Mayert Group",
+      "Description": "Virtual demand-driven system engine",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -122,87 +122,87 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "quo",
-      "Tooltip": "veritatis",
-      "Id": 169,
-      "Rank": 415,
-      "Deleted": true
+      "Value": "aliquid",
+      "Tooltip": "delectus",
+      "Id": 534,
+      "Rank": 374,
+      "Deleted": false
     },
     {
-      "Value": "quo",
-      "Tooltip": "veritatis",
-      "Id": 169,
-      "Rank": 415,
-      "Deleted": true
+      "Value": "aliquid",
+      "Tooltip": "delectus",
+      "Id": 534,
+      "Rank": 374,
+      "Deleted": false
     }
   ],
   "Person": null,
   "Deleted": false,
-  "Lastlogin": "2007-10-10T14:28:27.4457991+02:00",
-  "Lastlogout": "2017-05-17T14:28:27.4457991+02:00",
-  "EjUserId": 730,
-  "RequestSignature": "voluptas",
+  "Lastlogin": "2004-10-28T13:14:09.5561337+02:00",
+  "Lastlogout": "2001-03-10T13:14:09.5561337+01:00",
+  "EjUserId": 107,
+  "RequestSignature": "in",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "vel",
-      "DisplayValue": "labore"
+      "Value": "consequatur",
+      "DisplayValue": "omnis"
     },
     {
       "Type": null,
-      "Value": "vel",
-      "DisplayValue": "labore"
+      "Value": "consequatur",
+      "DisplayValue": "omnis"
     }
   ],
-  "UserName": "Bailey LLC",
+  "UserName": "Windler LLC",
   "TicketCategories": [
     {
-      "Id": 514,
-      "Name": "Romaguera, Towne and Torphy",
-      "ToolTip": "Dolores et.",
+      "Id": 968,
+      "Name": "Skiles-Mitchell",
+      "ToolTip": "Quia qui nesciunt et est vitae.",
       "Deleted": false,
-      "Rank": 918,
-      "Type": "consequuntur",
+      "Rank": 999,
+      "Type": "quibusdam",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sit",
-      "ColorBlock": 61,
-      "ExtraInfo": "esse",
-      "StyleHint": "ut",
-      "FullName": "Mia Heaney"
+      "IconHint": "delectus",
+      "ColorBlock": 932,
+      "ExtraInfo": "excepturi",
+      "StyleHint": "eum",
+      "FullName": "Mrs. Dannie Littel IV"
     }
   ],
-  "NickName": "Hegmann-Stanton",
-  "WaitingForApproval": false,
+  "NickName": "Hand-Ledner",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "fuga",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "quae",
+    "ExtraFields2": "ab"
   },
   "CustomFields": {
-    "CustomFields1": "ea",
-    "CustomFields2": "assumenda"
+    "CustomFields1": "eum",
+    "CustomFields2": "soluta"
   },
   "PostSaveCommands": [
     {
-      "Name": "Romaguera-Reynolds",
-      "DisplayName": "Becker-Runolfsdottir",
-      "Description": "Programmable dynamic secured line",
-      "ToolTip": "Et recusandae.",
+      "Name": "Willms, Satterfield and Satterfield",
+      "DisplayName": "Robel-Lind",
+      "Description": "Sharable scalable hardware",
+      "ToolTip": "Laudantium impedit.",
       "Actions": "Implicit",
-      "ActionData": "voluptatem"
+      "ActionData": "earum"
     },
     {
-      "Name": "Romaguera-Reynolds",
-      "DisplayName": "Becker-Runolfsdottir",
-      "Description": "Programmable dynamic secured line",
-      "ToolTip": "Et recusandae.",
+      "Name": "Willms, Satterfield and Satterfield",
+      "DisplayName": "Robel-Lind",
+      "Description": "Sharable scalable hardware",
+      "ToolTip": "Laudantium impedit.",
       "Actions": "Implicit",
-      "ActionData": "voluptatem"
+      "ActionData": "earum"
     }
   ]
 }
@@ -215,7 +215,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "explicabo",
-  "2": "alias"
+  "1": "est",
+  "2": "voluptas"
 }
 ```

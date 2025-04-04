@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 886,
-    "Name": "Oberbrunner LLC",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 376,
-    "UdListDefinitionId": 855,
+    "HeadingId": 14,
+    "Name": "Raynor Group",
+    "Tooltip": "atque",
+    "Deleted": true,
+    "Rank": 942,
+    "UdListDefinitionId": 10,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 128
       }
     }
   }

@@ -86,7 +86,7 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "fuga",
+  "RawValue": "aut",
   "Specification": null,
-  "DisplayValue": "iusto",
-  "DisplayTooltip": "quisquam",
+  "DisplayValue": "sapiente",
+  "DisplayTooltip": "nobis",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 552,
-  "PrefDescId": 784,
-  "TableName": "Haley-Hagenes",
-  "UserPreferenceId": 94,
+  "TargetId": 992,
+  "PrefDescId": 851,
+  "TableName": "Gutkowski Inc and Sons",
+  "UserPreferenceId": 847,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 310
+      "FieldLength": 739
     }
   }
 }

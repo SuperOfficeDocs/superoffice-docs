@@ -130,15 +130,15 @@ OK
 POST /api/v1/Agents/Appointment/GetDiaryByGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GroupId": 99,
-  "GroupType": 312,
-  "StartTime": "1998-10-07T14:28:21.1648024+02:00",
-  "EndTime": "2023-05-09T14:28:21.1648024+02:00",
-  "Count": 662
+  "GroupId": 883,
+  "GroupType": 886,
+  "StartTime": "2000-08-11T13:13:59.1407181+02:00",
+  "EndTime": "2016-10-25T13:13:59.1407181+02:00",
+  "Count": 297
 }
 ```
 
@@ -150,66 +150,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 594,
-    "StartDate": "2000-08-26T14:28:21.1648024+02:00",
-    "EndDate": "2012-03-01T14:28:21.1648024+01:00",
+    "AppointmentId": 678,
+    "StartDate": "2009-02-14T13:13:59.1407181+01:00",
+    "EndDate": "2014-12-22T13:13:59.1407181+01:00",
     "Type": "BookingForChecklist",
-    "Task": "exercitationem",
-    "AssociateFullName": "Dr. Nathanial Santina Harber",
-    "ContactName": "Renner-Hartmann",
-    "Description": "Horizontal value-added software",
-    "PersonFullName": "Jadon Dibbert",
-    "PersonId": 754,
-    "ContactId": 380,
-    "ProjectId": 465,
-    "ProjectName": "West-Kuvalis",
-    "IsPublished": true,
-    "AssociateId": 232,
-    "ColorIndex": 105,
-    "IsFree": true,
+    "Task": "facilis",
+    "AssociateFullName": "Aubrey Micaela Ryan IV",
+    "ContactName": "Bartell Group",
+    "Description": "User-friendly reciprocal core",
+    "PersonFullName": "Cortez Tromp",
+    "PersonId": 976,
+    "ContactId": 63,
+    "ProjectId": 57,
+    "ProjectName": "Tremblay-Lakin",
+    "IsPublished": false,
+    "AssociateId": 373,
+    "ColorIndex": 761,
+    "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 500,
-    "PriorityName": "Berge-Orn",
+    "PriorityId": 261,
+    "PriorityName": "Murazik LLC",
     "TaskType": "Appointment",
     "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": false,
-    "ActiveDate": "2024-04-19T14:28:21.1648024+02:00",
+    "IsRecurrence": true,
+    "IsBooking": true,
+    "ActiveDate": "2023-12-26T13:13:59.1407181+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-06-07T14:28:21.1648024+02:00",
-    "RecurringEndDate": "2004-06-09T14:28:21.1648024+02:00",
-    "MotherId": 674,
-    "AssignedBy": 295,
-    "AssignedByFullName": "Arlie Hamill",
+    "RecurringStartDate": "2013-02-02T13:13:59.1407181+01:00",
+    "RecurringEndDate": "2004-09-25T13:13:59.1407181+02:00",
+    "MotherId": 570,
+    "AssignedBy": 336,
+    "AssignedByFullName": "Garett Morar",
     "RejectReason": "",
-    "Location": "quam",
-    "AlarmLeadTime": "facere",
-    "SaleId": 869,
-    "SaleName": "Russel, Waters and Kuhn",
-    "AssociateName": "Herman, Carter and Kozey",
-    "CreatedDate": "2020-04-09T14:28:21.1648024+02:00",
-    "CreatedBy": "consequatur",
-    "CreatedByFullName": "Cordie Bogan",
-    "CreatedByAssociateId": 590,
+    "Location": "sit",
+    "AlarmLeadTime": "quia",
+    "SaleId": 984,
+    "SaleName": "Witting-King",
+    "AssociateName": "Yundt, Maggio and Waelchi",
+    "CreatedDate": "2000-07-29T13:13:59.1407181+02:00",
+    "CreatedBy": "vel",
+    "CreatedByFullName": "Matilda Mayert",
+    "CreatedByAssociateId": 105,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 250,
-    "Title": "sunt",
-    "Agenda": "repellat",
-    "InternalNotes": "error",
+    "PreferredTZLocation": 453,
+    "Title": "aliquid",
+    "Agenda": "sint",
+    "InternalNotes": "ducimus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 74
+        "FieldLength": 125
       }
     }
   }

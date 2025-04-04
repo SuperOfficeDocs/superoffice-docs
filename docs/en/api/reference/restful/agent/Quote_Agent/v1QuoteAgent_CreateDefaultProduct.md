@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 39,
-  "ERPProductKey": "sequi",
-  "ERPPriceListKey": "aut",
-  "Name": "Quitzon, Hoeger and Gaylord",
-  "Description": "Fundamental dynamic installation",
-  "Code": "voluptas",
-  "PriceUnit": "quos",
-  "QuantityUnit": "eveniet",
-  "IsSubscription": false,
-  "SubscriptionUnit": "est",
-  "DefaultSubscriptionQuantity": 23780.791999999998,
-  "ItemNumber": "1244405",
+  "ProductId": 727,
+  "ERPProductKey": "harum",
+  "ERPPriceListKey": "voluptatibus",
+  "Name": "Wiegand, Schumm and Frami",
+  "Description": "Reverse-engineered clear-thinking application",
+  "Code": "corrupti",
+  "PriceUnit": "est",
+  "QuantityUnit": "dicta",
+  "IsSubscription": true,
+  "SubscriptionUnit": "et",
+  "DefaultSubscriptionQuantity": 13507.539999999999,
+  "ItemNumber": "437795",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "a",
-  "ProductTypeKey": "vitae",
-  "VAT": 13363.376,
-  "VATInfo": "totam",
-  "UnitCost": 5678.808,
-  "UnitMinimumPrice": 30387.264,
-  "UnitListPrice": 22693.293999999998,
-  "InAssortment": false,
-  "Supplier": "molestiae",
-  "SupplierCode": "culpa",
-  "Rights": "laborum",
-  "Rule": "ut",
+  "ProductFamilyKey": "aut",
+  "ProductTypeKey": "quia",
+  "VAT": 7261.478,
+  "VATInfo": "in",
+  "UnitCost": 29039.644,
+  "UnitMinimumPrice": 5271.388,
+  "UnitListPrice": 2369.304,
+  "InAssortment": true,
+  "Supplier": "et",
+  "SupplierCode": "assumenda",
+  "Rights": "aliquid",
+  "Rule": "ipsam",
   "ExtraInfo": [
     {
-      "Name": "Reichel Group",
-      "Value": "quaerat",
+      "Name": "O'Hara Group",
+      "Value": "quo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 176
+          "FieldType": "System.Int32",
+          "FieldLength": 849
         }
       }
     },
     {
-      "Name": "Reichel Group",
-      "Value": "quaerat",
+      "Name": "O'Hara Group",
+      "Value": "quo",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 176
+          "FieldType": "System.Int32",
+          "FieldLength": 849
         }
       }
     }
   ],
-  "RawExtraInfo": "eos",
-  "ExtraField1": "minus",
-  "ExtraField2": "blanditiis",
-  "ExtraField3": "dolores",
-  "ExtraField4": "cupiditate",
-  "ExtraField5": "aliquid",
-  "InStock": 24880.826,
+  "RawExtraInfo": "sed",
+  "ExtraField1": "quia",
+  "ExtraField2": "numquam",
+  "ExtraField3": "doloremque",
+  "ExtraField4": "iure",
+  "ExtraField5": "dolorem",
+  "InStock": 2908.352,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 353
+      "FieldType": "System.Int32",
+      "FieldLength": 797
     }
   }
 }

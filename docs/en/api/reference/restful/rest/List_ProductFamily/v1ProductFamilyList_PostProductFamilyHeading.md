@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 909,
-  "Name": "Shanahan, Dickinson and Barrows",
-  "Tooltip": "maxime",
-  "Deleted": false,
-  "Rank": 747,
-  "UdListDefinitionId": 894
+  "HeadingId": 956,
+  "Name": "Cremin Group",
+  "Tooltip": "saepe",
+  "Deleted": true,
+  "Rank": 559,
+  "UdListDefinitionId": 99
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 271,
-  "Name": "Pouros Inc and Sons",
-  "Tooltip": "aperiam",
-  "Deleted": true,
-  "Rank": 896,
-  "UdListDefinitionId": 378,
+  "HeadingId": 341,
+  "Name": "Gottlieb-Balistreri",
+  "Tooltip": "sequi",
+  "Deleted": false,
+  "Rank": 289,
+  "UdListDefinitionId": 679,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 675
+      "FieldType": "System.String",
+      "FieldLength": 1000
     }
   }
 }

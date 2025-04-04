@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuote
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 226
+  "QuoteId": 818
 }
 ```
 
@@ -101,18 +101,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteId": 857,
-  "SaleId": 986,
-  "QuoteConnectionId": 540,
-  "ERPQuoteKey": "laborum",
-  "ERPOrderKey": "velit",
-  "ActiveQuoteVersionId": 871,
-  "AcceptedQuoteAlternativeId": 680,
-  "UseValuesFromQuote": 905,
-  "DocumentId": 456,
-  "PoNumber": "1012030",
-  "OrderComment": "nemo",
-  "PreferredEmailCulture": "darrion.barrows@hammes.uk",
+  "QuoteId": 864,
+  "SaleId": 178,
+  "QuoteConnectionId": 92,
+  "ERPQuoteKey": "magnam",
+  "ERPOrderKey": "eveniet",
+  "ActiveQuoteVersionId": 385,
+  "AcceptedQuoteAlternativeId": 610,
+  "UseValuesFromQuote": 707,
+  "DocumentId": 313,
+  "PoNumber": "1411905",
+  "OrderComment": "non",
+  "PreferredEmailCulture": "orval_mohr@kunzegreenfelder.com",
   "ActiveQuoteVersion": null,
   "FavoriteQuoteAlternative": null,
   "TableRight": null,
@@ -120,7 +120,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 482
+      "FieldLength": 644
     }
   }
 }

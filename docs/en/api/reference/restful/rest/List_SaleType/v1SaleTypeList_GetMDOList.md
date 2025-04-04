@@ -27,7 +27,7 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=voluptatem
+GET /api/v1/List/SaleType/MDOItems?query=asperiores
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 996,
-    "Name": "Stehr-Zboncak",
-    "ToolTip": "Incidunt totam impedit sequi quam.",
+    "Id": 987,
+    "Name": "Beatty LLC",
+    "ToolTip": "Minima accusamus culpa deserunt hic in.",
     "Deleted": false,
-    "Rank": 92,
-    "Type": "autem",
+    "Rank": 963,
+    "Type": "recusandae",
     "ChildItems": [
       {
-        "Id": 246,
-        "Name": "Witting-Monahan",
-        "ToolTip": "Consequuntur aut nisi iste natus.",
-        "Deleted": false,
-        "Rank": 374,
-        "Type": "qui",
+        "Id": 438,
+        "Name": "Torphy, Okuneva and Parisian",
+        "ToolTip": "Tenetur aliquid numquam dolorum fugiat.",
+        "Deleted": true,
+        "Rank": 631,
+        "Type": "pariatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "ad",
-        "ColorBlock": 455,
-        "ExtraInfo": "libero",
-        "StyleHint": "commodi",
-        "FullName": "Mrs. Jayden Collins",
+        "IconHint": "suscipit",
+        "ColorBlock": 621,
+        "ExtraInfo": "perspiciatis",
+        "StyleHint": "sed",
+        "FullName": "Maeve Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 1000
+            "FieldLength": 681
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 141,
-    "ExtraInfo": "accusantium",
-    "StyleHint": "assumenda",
-    "FullName": "Mrs. Maryse Maia Terry",
+    "IconHint": "qui",
+    "ColorBlock": 562,
+    "ExtraInfo": "exercitationem",
+    "StyleHint": "praesentium",
+    "FullName": "Ms. Birdie Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 705
+        "FieldType": "System.Int32",
+        "FieldLength": 541
       }
     }
   }

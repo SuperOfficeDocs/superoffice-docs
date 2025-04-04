@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 352,
-    "Name": "Langworth-Ullrich",
-    "ToolTip": "Et et qui nam consequatur est consequuntur.",
+    "Id": 707,
+    "Name": "Konopelski LLC",
+    "ToolTip": "Enim sit.",
     "Deleted": false,
-    "Rank": 33,
-    "Type": "iusto",
-    "ColorBlock": 315,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2022-12-29T14:28:27.4614236+01:00",
+    "Rank": 780,
+    "Type": "tenetur",
+    "ColorBlock": 852,
+    "IconHint": "officiis",
+    "Selected": true,
+    "LastChanged": "2006-04-20T13:14:09.5873854+02:00",
     "ChildItems": [
       {
-        "Id": 729,
-        "Name": "Emmerich Group",
-        "ToolTip": "Beatae nihil eveniet iusto maxime aut expedita facilis.",
-        "Deleted": false,
-        "Rank": 666,
-        "Type": "et",
-        "ColorBlock": 542,
-        "IconHint": "est",
+        "Id": 516,
+        "Name": "O'Connell Group",
+        "ToolTip": "Rerum et.",
+        "Deleted": true,
+        "Rank": 161,
+        "Type": "quidem",
+        "ColorBlock": 64,
+        "IconHint": "distinctio",
         "Selected": false,
-        "LastChanged": "2022-03-27T14:28:27.4614236+02:00",
+        "LastChanged": "2005-05-03T13:14:09.5873854+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "cum",
+        "ExtraInfo": "officiis",
+        "StyleHint": "sapiente",
         "Hidden": false,
-        "FullName": "Camilla Lockman",
+        "FullName": "Madyson Corwin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 234
+            "FieldType": "System.Int32",
+            "FieldLength": 497
           }
         }
       }
     ],
-    "ExtraInfo": "autem",
-    "StyleHint": "repellat",
-    "Hidden": true,
-    "FullName": "Stevie Auer",
+    "ExtraInfo": "quidem",
+    "StyleHint": "incidunt",
+    "Hidden": false,
+    "FullName": "Kyler Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 822
+        "FieldType": "System.String",
+        "FieldLength": 150
       }
     }
   }

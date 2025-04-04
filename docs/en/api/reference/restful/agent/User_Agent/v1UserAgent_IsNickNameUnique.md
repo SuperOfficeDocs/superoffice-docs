@@ -71,12 +71,12 @@ OK
 POST /api/v1/Agents/User/IsNickNameUnique
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 247,
-  "NickName": "Cartwright LLC"
+  "AssociateId": 460,
+  "NickName": "Tromp Group"
 }
 ```
 

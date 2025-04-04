@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 240,
-  "Name": "Terry Group",
-  "Tooltip": "ratione",
+  "Id": 155,
+  "Name": "Greenfelder-McCullough",
+  "Tooltip": "rerum",
   "Deleted": false,
-  "Rank": 800,
+  "Rank": 68,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "et",
-  "InUseByUserDefinedFields": false
+  "ListType": "ullam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 592,
-  "Name": "Turcotte LLC",
-  "Tooltip": "blanditiis",
+  "Id": 917,
+  "Name": "Boyer, Conn and Streich",
+  "Tooltip": "excepturi",
   "Deleted": false,
-  "Rank": 544,
+  "Rank": 605,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
+  "ListType": "at",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 239
+      "FieldLength": 735
     }
   }
 }

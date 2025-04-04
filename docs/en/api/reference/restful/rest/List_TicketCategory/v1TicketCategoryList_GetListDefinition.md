@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/TicketCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 509,
-  "Name": "Hegmann, Hills and Oberbrunner",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "Rank": 886,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 73,
+  "Name": "Mueller, Kunze and Waters",
+  "Tooltip": "voluptas",
+  "Deleted": true,
+  "Rank": 567,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "eum",
+  "ListType": "consequatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 456
+      "FieldType": "System.Int32",
+      "FieldLength": 229
     }
   },
   "_Links": {

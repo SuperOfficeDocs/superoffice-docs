@@ -90,7 +90,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChartId": "blanditiis"
+  "ChartId": "impedit"
 }
 ```
 
@@ -101,64 +101,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 371,
-  "Caption": "est",
-  "Description": "Adaptive tangible benchmark",
-  "ChartName": "Schmidt, Dach and Muller",
-  "ChartId": "aut",
+  "DashboardTileId": 521,
+  "Caption": "distinctio",
+  "Description": "Future-proofed directional model",
+  "ChartName": "Rice, Smitham and Hilpert",
+  "ChartId": "possimus",
   "IsDefault": true,
-  "AssociateId": 930,
-  "GroupId": 872,
-  "SelectionId": 320,
-  "Config": "sit",
+  "AssociateId": 575,
+  "GroupId": 900,
+  "SelectionId": 697,
+  "Config": "eveniet",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Renner, Prohaska and Jewess",
-      "Description": "Organized intangible success",
+      "Name": "Armstrong, Waters and Tromp",
+      "Description": "Customer-focused regional firmware",
       "Type": "Boolean",
-      "ListName": "Turner Group",
+      "ListName": "Botsford, Harris and Jaskolski",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "aut",
+      "Value": "ipsam",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 264
+          "FieldLength": 326
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 83,
+      "VisibleId": 971,
       "Visibility": "All",
-      "DisplayValue": "totam",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 97
+          "FieldLength": 641
         }
       }
     },
     {
-      "VisibleId": 83,
+      "VisibleId": 971,
       "Visibility": "All",
-      "DisplayValue": "totam",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 97
+          "FieldLength": 641
         }
       }
     }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 681
     }
   }
 }

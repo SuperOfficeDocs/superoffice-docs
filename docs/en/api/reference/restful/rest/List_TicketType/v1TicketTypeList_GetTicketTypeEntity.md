@@ -80,7 +80,7 @@ OK
 GET /api/v1/List/TicketType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -90,31 +90,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 429,
-  "Name": "Wiegand Inc and Sons",
-  "Rank": 970,
-  "Tooltip": "et",
-  "Icon": "deserunt",
-  "DefaultTicketStatus": 883,
+  "TicketTypeId": 538,
+  "Name": "Hayes, Hauck and Satterfield",
+  "Rank": 341,
+  "Tooltip": "adipisci",
+  "Icon": "in",
+  "DefaultTicketStatus": 610,
   "TicketStatuses": [
-    719,
-    536
+    181,
+    929
   ],
-  "DefaultTicketPriority": 419,
+  "DefaultTicketPriority": 335,
   "TicketPriorities": [
-    810,
-    563
+    45,
+    978
   ],
-  "ReplyTemplate": 998,
+  "ReplyTemplate": 790,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    249,
-    961
+    61,
+    495
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
@@ -123,7 +123,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 107
+      "FieldLength": 214
     }
   }
 }

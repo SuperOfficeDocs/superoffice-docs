@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 83,
-  "Section": "ut",
-  "Key": "voluptatem",
-  "Name": "Spinka LLC",
+  "PrefDescId": 37,
+  "Section": "consectetur",
+  "Key": "a",
+  "Name": "Koelpin LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Team-oriented multi-state parallelism",
+  "Description": "Total demand-driven implementation",
   "IsBuiltin": false,
-  "TableName": "Casper-Carter",
-  "UserDefinedListId": 224,
-  "Rank": 658,
-  "SubGroup": "dolores",
-  "MinLevel": 809,
-  "MaxValue": 337,
-  "MinValue": 162,
-  "RequiredLicense": "sit",
+  "TableName": "Mohr Inc and Sons",
+  "UserDefinedListId": 800,
+  "Rank": 536,
+  "SubGroup": "qui",
+  "MinLevel": 515,
+  "MaxValue": 207,
+  "MinValue": 198,
+  "RequiredLicense": "illum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 555
+      "FieldLength": 151
     }
   },
   "_Links": {

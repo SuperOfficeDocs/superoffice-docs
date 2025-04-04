@@ -72,31 +72,31 @@ Content-Type: application/json; charset=utf-8
 {
   "LogEvent": "Create",
   "Who": null,
-  "When": "1999-12-31T14:28:22.4147526+01:00",
+  "When": "2023-01-29T13:14:01.3631756+01:00",
   "Changes": [
     {
       "FieldIdentifier": "est",
-      "ValueChangeFrom": 13532.612,
-      "ValueChangeTo": 6434.102,
+      "ValueChangeFrom": 10580.384,
+      "ValueChangeTo": 12072.168,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 745
         }
       }
     },
     {
       "FieldIdentifier": "est",
-      "ValueChangeFrom": 13532.612,
-      "ValueChangeTo": 6434.102,
+      "ValueChangeFrom": 10580.384,
+      "ValueChangeTo": 12072.168,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 539
+          "FieldLength": 745
         }
       }
     }
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 3
+      "FieldLength": 458
     }
   }
 }

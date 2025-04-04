@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 135,
-  "Name": "Cummerata-Sauer",
-  "Tooltip": "quae",
+  "Id": 670,
+  "Name": "Carter LLC",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 272,
-  "Rank": 918
+  "UdListDefinitionId": 954,
+  "Rank": 376
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 58,
-  "Name": "Weber-Langworth",
-  "Tooltip": "ea",
+  "Id": 989,
+  "Name": "Romaguera LLC",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "UdListDefinitionId": 719,
-  "Rank": 373,
+  "UdListDefinitionId": 987,
+  "Rank": 947,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 98
+      "FieldLength": 596
     }
   }
 }

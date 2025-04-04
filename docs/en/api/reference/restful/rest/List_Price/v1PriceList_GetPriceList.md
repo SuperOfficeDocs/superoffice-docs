@@ -92,27 +92,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 706,
-  "ERPPriceListKey": "amet",
-  "QuoteConnectionId": 837,
-  "Name": "Kemmer LLC",
-  "Description": "Adaptive client-server internet solution",
-  "Currency": "quia",
-  "CurrencyName": "Stehr, Swift and Dooley",
-  "ValidFrom": "2023-02-21T14:28:27.6020419+01:00",
-  "ValidTo": "2005-09-22T14:28:27.6020419+02:00",
+  "PriceListId": 113,
+  "ERPPriceListKey": "ullam",
+  "QuoteConnectionId": 148,
+  "Name": "O'Reilly Inc and Sons",
+  "Description": "Adaptive systemic monitoring",
+  "Currency": "rerum",
+  "CurrencyName": "Barrows-Watsica",
+  "ValidFrom": "2005-03-01T13:14:09.8691543+01:00",
+  "ValidTo": "2002-06-22T13:14:09.8691543+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldLength": 779
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

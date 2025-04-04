@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 598,
-  "Name": "Morissette-Blanda",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 141,
+  "Id": 952,
+  "Name": "O'Kon, Goyette and White",
+  "Tooltip": "fuga",
+  "Deleted": false,
+  "Rank": 71,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "consequatur",
+  "UseGroupsAndHeadings": false,
+  "ListType": "laboriosam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 201
+      "FieldLength": 598
     }
   },
   "_Links": {

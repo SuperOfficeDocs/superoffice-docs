@@ -25,7 +25,7 @@ Deletes the ChatSessionEntity
 | ChatSessionEntityId | int32 | **Required** The id of the ChatSessionEntity to be deleted. |
 
 ```http
-POST /api/v1/Agents/Chat/DeleteChatSessionEntity?ChatSessionEntityId=533
+POST /api/v1/Agents/Chat/DeleteChatSessionEntity?ChatSessionEntityId=628
 ```
 
 
@@ -56,7 +56,7 @@ No Content
 POST /api/v1/Agents/Chat/DeleteChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Rating/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 785,
-    "Name": "Mayer-Dickinson",
-    "Tooltip": "quibusdam",
-    "Deleted": true,
-    "Rank": 232,
-    "UdListDefinitionId": 389,
+    "HeadingId": 383,
+    "Name": "Carroll-Schumm",
+    "Tooltip": "aperiam",
+    "Deleted": false,
+    "Rank": 666,
+    "UdListDefinitionId": 1000,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 490
+        "FieldLength": 719
       }
     }
   }

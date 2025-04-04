@@ -68,13 +68,13 @@ OK
 POST /api/v1/Agents/Appointment/GetCanInsertForAssociates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    27,
-    191
+    169,
+    329
   ]
 }
 ```
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  false,
-  false
+  true,
+  true
 ]
 ```

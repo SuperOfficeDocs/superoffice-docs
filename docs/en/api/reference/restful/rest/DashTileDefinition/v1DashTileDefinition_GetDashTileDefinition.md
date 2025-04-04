@@ -91,7 +91,7 @@ DashTileDefinition found.
 GET /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,36 +101,36 @@ HTTP/1.1 200 DashTileDefinition found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 104,
-  "Name": "Wintheiser Group",
-  "Description": "Reverse-engineered attitude-oriented synergy",
-  "DefaultHeight": 94,
-  "DefaultWidth": 332,
+  "DashboardTileDefinitionId": 978,
+  "Name": "Parisian-Goodwin",
+  "Description": "Seamless foreground encryption",
+  "DefaultHeight": 891,
+  "DefaultWidth": 675,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Gibson-Klocko",
-  "SelectionId": 609,
+  "EntityName": "Lowe-Satterfield",
+  "SelectionId": 315,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ipsam",
+  "CurrencyCode": "laudantium",
   "Measure": "Average",
-  "MeasureField": "libero",
-  "SortBy": "nihil",
-  "LayoutConfig": "consequatur",
-  "SecondarySelectionId": 555,
-  "MeasureByField": "voluptatem",
+  "MeasureField": "fugiat",
+  "SortBy": "aut",
+  "LayoutConfig": "corporis",
+  "SecondarySelectionId": 804,
+  "MeasureByField": "officia",
   "Usage": "Dashboard",
-  "ProviderName": "Emard, Hackett and Goyette",
+  "ProviderName": "Medhurst, Feil and Morissette",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 943
+      "FieldType": "System.String",
+      "FieldLength": 283
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

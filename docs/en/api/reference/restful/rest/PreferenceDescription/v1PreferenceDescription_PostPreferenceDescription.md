@@ -114,24 +114,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 329,
-  "Section": "est",
-  "Key": "ipsa",
-  "Name": "Herman Inc and Sons",
+  "PrefDescId": 678,
+  "Section": "velit",
+  "Key": "eveniet",
+  "Name": "O'Conner, McGlynn and Rolfson",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Stand-alone composite artificial intelligence",
+  "Description": "Inverse reciprocal support",
   "IsBuiltin": false,
-  "TableName": "Lueilwitz-Donnelly",
-  "UserDefinedListId": 347,
-  "Rank": 110,
-  "SubGroup": "ut",
-  "MinLevel": 259,
-  "MaxValue": 946,
-  "MinValue": 105,
-  "RequiredLicense": "alias"
+  "TableName": "Brakus-Paucek",
+  "UserDefinedListId": 504,
+  "Rank": 74,
+  "SubGroup": "et",
+  "MinLevel": 203,
+  "MaxValue": 959,
+  "MinValue": 877,
+  "RequiredLicense": "dolorem"
 }
 ```
 
@@ -142,35 +142,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 351,
-  "Section": "aut",
-  "Key": "repellat",
-  "Name": "Kuhn, Brekke and Hoppe",
+  "PrefDescId": 294,
+  "Section": "nostrum",
+  "Key": "et",
+  "Name": "Zieme-Rau",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Versatile multimedia approach",
-  "IsBuiltin": true,
-  "TableName": "O'Conner Group",
-  "UserDefinedListId": 101,
-  "Rank": 227,
-  "SubGroup": "recusandae",
-  "MinLevel": 855,
-  "MaxValue": 88,
-  "MinValue": 923,
-  "RequiredLicense": "aspernatur",
+  "Description": "Proactive mission-critical hierarchy",
+  "IsBuiltin": false,
+  "TableName": "Wyman, Hintz and Wolf",
+  "UserDefinedListId": 954,
+  "Rank": 776,
+  "SubGroup": "sint",
+  "MinLevel": 879,
+  "MaxValue": 183,
+  "MinValue": 361,
+  "RequiredLicense": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 492
+      "FieldType": "System.String",
+      "FieldLength": 644
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

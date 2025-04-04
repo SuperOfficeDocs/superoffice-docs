@@ -78,14 +78,14 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 556,
+  "DocumentTemplateId": 265,
   "Content": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "aut",
-  "PluginId": 814
+  "LanguageCode": "saepe",
+  "PluginId": 660
 }
 ```
 
@@ -96,10 +96,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Jacobi-Jerde",
-  "Description": "Right-sized well-modulated database",
-  "ExternalReference": "pariatur",
-  "MimeType": "ipsam",
-  "PluginId": 855
+  "Name": "Kilback Group",
+  "Description": "Extended 24/7 algorithm",
+  "ExternalReference": "distinctio",
+  "MimeType": "enim",
+  "PluginId": 683
 }
 ```

@@ -79,7 +79,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,36 +89,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 283,
-  "ParentId": 396,
-  "Name": "Nienow, Legros and Bauch",
-  "Fullname": "et",
-  "CategoryMaster": 967,
+  "TicketCategoryId": 211,
+  "ParentId": 482,
+  "Name": "Balistreri LLC",
+  "Fullname": "dolore",
+  "CategoryMaster": 809,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Keeling-Senger",
+  "ExternalName": "Grant, Mitchell and Schimmel",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 41,
-  "ReplyTemplate": 622,
-  "NotificationEmail": "karina.herzog@wintheiser.uk",
+  "AssignmentLag": 354,
+  "ReplyTemplate": 449,
+  "NotificationEmail": "billy@windlerbeer.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 630,
+  "EffectiveReplyTemplateId": 423,
   "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "quos"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "aliquid"
   },
   "CustomFields": {
-    "CustomFields1": "earum",
-    "CustomFields2": "non"
+    "CustomFields1": "illo",
+    "CustomFields2": "est"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 42
+      "FieldLength": 20
     }
   }
 }

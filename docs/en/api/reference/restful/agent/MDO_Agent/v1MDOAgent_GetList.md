@@ -91,9 +91,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "White-Morar",
-  "ForceFlatList": false,
-  "AdditionalInfo": "quae",
+  "Name": "Weber-Leuschke",
+  "ForceFlatList": true,
+  "AdditionalInfo": "enim",
   "OnlyHistory": false
 }
 ```
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Nienow-Boehm",
-    "ToolTip": "Neque et alias perspiciatis consequuntur mollitia maxime.",
-    "Deleted": false,
-    "Rank": 265,
-    "Type": "qui",
+    "Id": 859,
+    "Name": "Wunsch LLC",
+    "ToolTip": "Aliquid maiores earum reprehenderit aut non ducimus deserunt.",
+    "Deleted": true,
+    "Rank": 349,
+    "Type": "iusto",
     "ChildItems": [
       {
-        "Id": 877,
-        "Name": "Haley LLC",
-        "ToolTip": "Numquam numquam ipsum ut excepturi.",
-        "Deleted": true,
-        "Rank": 552,
-        "Type": "porro",
+        "Id": 566,
+        "Name": "Rosenbaum Group",
+        "ToolTip": "Dolores porro sed.",
+        "Deleted": false,
+        "Rank": 515,
+        "Type": "quam",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "consequatur",
-        "ColorBlock": 18,
-        "ExtraInfo": "sit",
-        "StyleHint": "quod",
-        "FullName": "Prof. Danny Krajcik",
+        "IconHint": "eveniet",
+        "ColorBlock": 332,
+        "ExtraInfo": "beatae",
+        "StyleHint": "explicabo",
+        "FullName": "Dr. Nico Williamson DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 616
+            "FieldType": "System.String",
+            "FieldLength": 975
           }
         }
       }
     ],
-    "IconHint": "similique",
-    "ColorBlock": 472,
-    "ExtraInfo": "nam",
-    "StyleHint": "enim",
-    "FullName": "Eileen Moore",
+    "IconHint": "temporibus",
+    "ColorBlock": 361,
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "modi",
+    "FullName": "Miss Jeramie Savanna Mraz DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 221
+        "FieldLength": 242
       }
     }
   }

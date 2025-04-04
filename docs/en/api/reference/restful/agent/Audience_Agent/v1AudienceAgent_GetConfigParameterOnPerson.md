@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ParameterName": "Franecki-Tromp",
-  "PersonId": 260
+  "ParameterName": "Kertzmann-Tromp",
+  "PersonId": 871
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 233,
-  "Name": "Lehner, Bechtelar and Hackett",
-  "Value": "et",
-  "CreatedDate": "2003-03-04T14:28:21.47729+01:00",
-  "UpdatedDate": "2017-06-20T14:28:21.47729+02:00",
-  "CreatedBy": "ullam",
-  "UpdatedBy": "accusantium",
+  "AudienceLayoutId": 752,
+  "Name": "Haley, Graham and Welch",
+  "Value": "dolor",
+  "CreatedDate": "1999-07-28T13:13:59.5158194+02:00",
+  "UpdatedDate": "2003-01-08T13:13:59.5158194+01:00",
+  "CreatedBy": "ad",
+  "UpdatedBy": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 250
+      "FieldType": "System.String",
+      "FieldLength": 949
     }
   }
 }

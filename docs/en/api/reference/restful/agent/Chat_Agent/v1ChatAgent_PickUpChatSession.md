@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 194
+  "ChatSessionId": 544
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 424,
-  "TopicId": 953,
+  "ChatSessionId": 957,
+  "TopicId": 271,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aut",
-  "CustomerHost": "vero",
-  "CustomerName": "Smith-Balistreri",
-  "CustomerEmail": "eriberto.dare@muller.com",
-  "CustomerPhone": "977.268.9021 x9941",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Lemke Group",
+  "CustomerAlias": "labore",
+  "CustomerHost": "beatae",
+  "CustomerName": "Halvorson-Bednar",
+  "CustomerEmail": "lucienne@ferry.name",
+  "CustomerPhone": "780.669.8840",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Howe Group",
   "Status": "Closed",
-  "FirstMessage": "dolor",
-  "LastMessage": "eligendi",
-  "WhenRequested": "2018-07-08T14:28:21.555412+02:00",
-  "WhenStarted": "2007-04-20T14:28:21.555412+02:00",
-  "WhenEnded": "2008-08-15T14:28:21.555412+02:00",
-  "WhenIdle": "2019-10-21T14:28:21.555412+02:00",
-  "WhenFetched": "2011-11-25T14:28:21.555412+01:00",
-  "SessionKey": "quaerat",
-  "InitialQueuePos": 722,
-  "AlertLevel": 912,
-  "Rank": 238,
+  "FirstMessage": "qui",
+  "LastMessage": "quis",
+  "WhenRequested": "2019-01-22T13:13:59.6414283+01:00",
+  "WhenStarted": "2018-03-10T13:13:59.6414283+01:00",
+  "WhenEnded": "1998-09-01T13:13:59.6414283+02:00",
+  "WhenIdle": "2023-09-26T13:13:59.6414283+02:00",
+  "WhenFetched": "1999-05-25T13:13:59.6414283+02:00",
+  "SessionKey": "iste",
+  "InitialQueuePos": 888,
+  "AlertLevel": 540,
+  "Rank": 356,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 215,
+  "ChatbotIsActive": false,
+  "Rating": 153,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 677
     }
   }
 }

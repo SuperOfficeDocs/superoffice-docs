@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Abernathy LLC",
-  "ListItemId": 549,
+  "UdListDefinitionName": "Lakin, Altenwerth and Hettinger",
+  "ListItemId": 955,
   "Headings": [
     {
-      "Id": 148,
-      "Name": "Beahan, Dickens and Torphy",
-      "ToolTip": "Aut fugit.",
+      "Id": 797,
+      "Name": "Wilkinson, Lynch and Cole",
+      "ToolTip": "Nesciunt voluptatem cumque alias commodi ipsam eaque.",
       "Deleted": false,
-      "Rank": 586,
-      "Type": "consectetur",
-      "ColorBlock": 605,
-      "IconHint": "at",
+      "Rank": 236,
+      "Type": "ea",
+      "ColorBlock": 377,
+      "IconHint": "dolorem",
       "Selected": true,
-      "LastChanged": "2004-04-02T14:28:22.0553915+02:00",
+      "LastChanged": "2023-04-14T13:14:00.5949987+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aliquam",
-      "StyleHint": "facilis",
-      "Hidden": true,
-      "FullName": "Vince Corkery"
+      "ExtraInfo": "quia",
+      "StyleHint": "debitis",
+      "Hidden": false,
+      "FullName": "Reyes Daugherty MD"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 440,
-    "Name": "Dickinson Inc and Sons",
-    "ToolTip": "Quis nobis maxime praesentium vel inventore.",
+    "Id": 670,
+    "Name": "Lesch, Kihn and O'Reilly",
+    "ToolTip": "Consequatur et qui.",
     "Deleted": false,
-    "Rank": 150,
-    "Type": "et",
-    "ColorBlock": 41,
-    "IconHint": "alias",
+    "Rank": 222,
+    "Type": "ut",
+    "ColorBlock": 362,
+    "IconHint": "est",
     "Selected": false,
-    "LastChanged": "2002-04-11T14:28:22.0553915+02:00",
+    "LastChanged": "2018-10-24T13:14:00.5949987+02:00",
     "ChildItems": [
       {
-        "Id": 560,
-        "Name": "Rempel, Strosin and Crona",
-        "ToolTip": "Aut ut recusandae eum nihil delectus.",
-        "Deleted": false,
-        "Rank": 879,
-        "Type": "rerum",
-        "ColorBlock": 133,
-        "IconHint": "dolores",
-        "Selected": true,
-        "LastChanged": "2000-08-26T14:28:22.0553915+02:00",
+        "Id": 65,
+        "Name": "Bernhard, Cartwright and Gerhold",
+        "ToolTip": "Aut veniam omnis dicta ad est iusto.",
+        "Deleted": true,
+        "Rank": 888,
+        "Type": "similique",
+        "ColorBlock": 687,
+        "IconHint": "aliquam",
+        "Selected": false,
+        "LastChanged": "2015-05-16T13:14:00.5949987+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "est",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "fugiat",
         "Hidden": true,
-        "FullName": "Jane Simonis",
+        "FullName": "Prof. Antwan Damion Parker I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 439
+            "FieldLength": 306
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "dignissimos",
-    "Hidden": false,
-    "FullName": "Miss Monica Joy O'Kon IV",
+    "ExtraInfo": "nesciunt",
+    "StyleHint": "porro",
+    "Hidden": true,
+    "FullName": "Alison Aglae Collins PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 465
+        "FieldLength": 568
       }
     }
   }

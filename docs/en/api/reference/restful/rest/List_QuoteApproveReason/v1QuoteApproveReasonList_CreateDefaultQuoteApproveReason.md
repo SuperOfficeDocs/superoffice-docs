@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 509,
-  "Name": "Macejkovic-Hilll",
-  "Tooltip": "porro",
-  "Deleted": true,
-  "UdListDefinitionId": 563,
-  "Rank": 753,
+  "Id": 521,
+  "Name": "Mayer-Considine",
+  "Tooltip": "ut",
+  "Deleted": false,
+  "UdListDefinitionId": 742,
+  "Rank": 93,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 159
+      "FieldType": "System.Int32",
+      "FieldLength": 389
     }
   }
 }

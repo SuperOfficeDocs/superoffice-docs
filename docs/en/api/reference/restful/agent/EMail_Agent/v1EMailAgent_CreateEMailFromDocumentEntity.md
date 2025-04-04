@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 919,
-      "ContactName": "Parisian-Ernser",
-      "PersonId": 627,
-      "PersonName": "Yundt LLC",
-      "AssociateId": 918,
-      "Address": "non",
-      "EmailId": 150,
+      "ContactId": 583,
+      "ContactName": "Lynch LLC",
+      "PersonId": 888,
+      "PersonName": "McLaughlin-Considine",
+      "AssociateId": 11,
+      "Address": "qui",
+      "EmailId": 307,
       "DuplicatePersonIds": [
-        462,
-        707
+        238,
+        649
       ],
-      "Name": "Heidenreich-Wuckert",
+      "Name": "Bergstrom-Gleason",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 21
+          "FieldType": "System.String",
+          "FieldLength": 707
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 662,
-      "ContactName": "Schmeler Group",
-      "PersonId": 908,
-      "PersonName": "Johns Group",
-      "AssociateId": 833,
-      "Address": "harum",
-      "EmailId": 932,
+      "ContactId": 919,
+      "ContactName": "Howe, Roob and Bernhard",
+      "PersonId": 420,
+      "PersonName": "Cruickshank-Turcotte",
+      "AssociateId": 642,
+      "Address": "sit",
+      "EmailId": 471,
       "DuplicatePersonIds": [
-        461,
-        97
+        937,
+        788
       ],
-      "Name": "Lueilwitz, Funk and Thompson",
+      "Name": "Hand, Braun and Gutkowski",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 413
+          "FieldType": "System.String",
+          "FieldLength": 960
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 885,
-      "ContactName": "Beahan, Lebsack and Beahan",
-      "PersonId": 84,
-      "PersonName": "Volkman, Huel and Gleason",
-      "AssociateId": 697,
-      "Address": "consequatur",
-      "EmailId": 986,
+      "ContactId": 789,
+      "ContactName": "Carter Inc and Sons",
+      "PersonId": 567,
+      "PersonName": "Olson Inc and Sons",
+      "AssociateId": 858,
+      "Address": "voluptas",
+      "EmailId": 998,
       "DuplicatePersonIds": [
-        70,
-        829
+        28,
+        421
       ],
-      "Name": "Roob, Ziemann and Schoen",
+      "Name": "Carter, O'Conner and Jerde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 407
+          "FieldLength": 769
         }
       }
     }
   ],
-  "Subject": "perferendis",
-  "HTMLBody": "repellat",
+  "Subject": "eligendi",
+  "HTMLBody": "culpa",
   "From": null,
-  "Sent": "2010-10-31T14:28:21.9616455+01:00",
-  "Size": 689,
+  "Sent": "2022-04-13T13:14:00.3918537+02:00",
+  "Size": 147,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "officia",
-  "PlainBody": "quo",
+  "MessageID": "consectetur",
+  "PlainBody": "eos",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 701,
+  "ServerId": 576,
   "Attachments": [
     {
-      "Description": "Devolved didactic capacity",
-      "Filename": "libero",
-      "Size": 20,
-      "Type": "et",
-      "Encoding": "in",
-      "Id": "soluta",
-      "Disposition": "aut",
-      "IsSafeFileExtension": false,
+      "Description": "Robust even-keeled synergy",
+      "Filename": "omnis",
+      "Size": 966,
+      "Type": "quod",
+      "Encoding": "repellat",
+      "Id": "aut",
+      "Disposition": "aliquid",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 687
+          "FieldLength": 917
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Moen-Swift",
+      "Name": "McCullough Inc and Sons",
       "Values": [
-        "esse",
-        "dolores"
+        "labore",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldType": "System.String",
+          "FieldLength": 253
         }
       }
     },
     {
-      "Name": "Moen-Swift",
+      "Name": "McCullough Inc and Sons",
       "Values": [
-        "esse",
-        "dolores"
+        "labore",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 91
+          "FieldType": "System.String",
+          "FieldLength": 253
         }
       }
     }
   ],
-  "FolderName": "Eichmann-Botsford",
-  "EmailItemId": 938,
-  "AccountId": 381,
-  "ReceivedAt": "2007-07-09T14:28:21.9616455+02:00",
+  "FolderName": "Ortiz-Metz",
+  "EmailItemId": 652,
+  "AccountId": 33,
+  "ReceivedAt": "1998-05-13T13:14:00.3918537+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2007-11-22T14:28:21.9616455+01:00",
+  "RepliedAt": "2001-03-18T13:14:00.3918537+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 884
+      "FieldType": "System.Int32",
+      "FieldLength": 418
     }
   }
 }

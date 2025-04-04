@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 689,
-  "Name": "Rosenbaum, Sanford and Corkery",
-  "Tooltip": "aut",
-  "Deleted": true,
-  "Rank": 42,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 348,
+  "Name": "Heathcote-Welch",
+  "Tooltip": "vero",
+  "Deleted": false,
+  "Rank": 438,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": true,
-  "ListType": "necessitatibus",
-  "InUseByUserDefinedFields": false,
+  "ListType": "maxime",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 550
+      "FieldLength": 979
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

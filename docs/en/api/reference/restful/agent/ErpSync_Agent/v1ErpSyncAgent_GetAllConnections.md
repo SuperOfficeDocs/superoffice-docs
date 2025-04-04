@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/ErpSync/GetAllConnections
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,33 +105,33 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 152,
-    "ErpConnectorId": 105,
-    "DisplayName": "Goldner, Kling and Lowe",
-    "DisplayDescription": "Reduced coherent internet solution",
-    "Active": true,
-    "ConnectionId": "hic",
-    "MostRecentTimestamp": "magni",
+    "ErpConnectionId": 96,
+    "ErpConnectorId": 18,
+    "DisplayName": "Buckridge Group",
+    "DisplayDescription": "Stand-alone heuristic approach",
+    "Active": false,
+    "ConnectionId": "animi",
+    "MostRecentTimestamp": "numquam",
     "ConfigFields": {
-      "ConfigFields1": "recusandae",
-      "ConfigFields2": "aut"
+      "ConfigFields1": "in",
+      "ConfigFields2": "mollitia"
     },
-    "Deleted": false,
-    "AllAccess": true,
+    "Deleted": true,
+    "AllAccess": false,
     "UserGroupAccessIds": [
-      1001,
-      654
+      953,
+      968
     ],
     "AssociateAccessIds": [
-      480,
-      52
+      898,
+      567
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 325
+        "FieldLength": 108
       }
     }
   }

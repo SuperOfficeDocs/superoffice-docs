@@ -105,85 +105,85 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 599,
-  "Name": "Zemlak Inc and Sons",
+  "ContactId": 131,
+  "Name": "Prohaska, Boyer and Howell",
   "Department": "",
-  "OrgNr": "516521",
-  "Number1": "456487",
-  "Number2": "506861",
-  "UpdatedDate": "2018-10-03T14:28:26.8520728+02:00",
-  "CreatedDate": "2016-11-01T14:28:26.8520728+01:00",
+  "OrgNr": "1003346",
+  "Number1": "580127",
+  "Number2": "929945",
+  "UpdatedDate": "2015-01-27T13:14:08.5866221+01:00",
+  "CreatedDate": "2005-01-20T13:14:08.5866221+01:00",
   "Emails": [
     {
-      "Value": "voluptas",
-      "StrippedValue": "autem",
-      "Description": "Phased motivating projection"
+      "Value": "quidem",
+      "StrippedValue": "libero",
+      "Description": "Face to face zero defect project"
     },
     {
-      "Value": "voluptas",
-      "StrippedValue": "autem",
-      "Description": "Phased motivating projection"
+      "Value": "quidem",
+      "StrippedValue": "libero",
+      "Description": "Face to face zero defect project"
     }
   ],
   "Interests": [
     {
-      "Id": 91,
-      "Name": "Ritchie LLC",
-      "ToolTip": "Repudiandae praesentium corrupti sed consequuntur totam aperiam nemo.",
+      "Id": 695,
+      "Name": "White-Kuhlman",
+      "ToolTip": "Similique ea animi nesciunt sequi modi dolorem.",
       "Deleted": false,
-      "Rank": 15,
-      "Type": "laborum",
-      "ColorBlock": 343,
-      "IconHint": "ullam",
-      "Selected": false,
-      "LastChanged": "2016-08-01T14:28:26.8520728+02:00",
+      "Rank": 653,
+      "Type": "quidem",
+      "ColorBlock": 936,
+      "IconHint": "omnis",
+      "Selected": true,
+      "LastChanged": "2025-03-13T13:14:08.5866221+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "voluptas",
-      "StyleHint": "omnis",
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "consequatur",
       "Hidden": false,
-      "FullName": "Prof. Selmer Bode"
+      "FullName": "Ismael Wunsch"
     }
   ],
   "Urls": [
     {
-      "Value": "assumenda",
-      "StrippedValue": "voluptates",
-      "Description": "Open-source 24/7 open system"
+      "Value": "officiis",
+      "StrippedValue": "et",
+      "Description": "Function-based solution-oriented knowledge base"
     },
     {
-      "Value": "assumenda",
-      "StrippedValue": "voluptates",
-      "Description": "Open-source 24/7 open system"
+      "Value": "officiis",
+      "StrippedValue": "et",
+      "Description": "Function-based solution-oriented knowledge base"
     }
   ],
   "Phones": [
     {
-      "Value": "vero",
-      "StrippedValue": "enim",
-      "Description": "Profit-focused even-keeled capacity"
+      "Value": "libero",
+      "StrippedValue": "doloremque",
+      "Description": "Up-sized logistical implementation"
     },
     {
-      "Value": "vero",
-      "StrippedValue": "enim",
-      "Description": "Profit-focused even-keeled capacity"
+      "Value": "libero",
+      "StrippedValue": "doloremque",
+      "Description": "Up-sized logistical implementation"
     }
   ],
   "Faxes": [
     {
-      "Value": "consequatur",
-      "StrippedValue": "magni",
-      "Description": "Decentralized intangible hub"
+      "Value": "consequuntur",
+      "StrippedValue": "asperiores",
+      "Description": "Profound explicit function"
     },
     {
-      "Value": "consequatur",
-      "StrippedValue": "magni",
-      "Description": "Decentralized intangible hub"
+      "Value": "consequuntur",
+      "StrippedValue": "asperiores",
+      "Description": "Profound explicit function"
     }
   ],
-  "Description": "Vision-oriented mobile protocol",
+  "Description": "Balanced next generation functionalities",
   "UpdatedBy": null,
   "CreatedBy": null,
   "Associate": null,
@@ -192,86 +192,86 @@ Content-Type: application/json; charset=utf-8
   "Country": null,
   "Persons": [
     {
-      "Position": "non",
-      "PersonId": 488,
-      "Mrmrs": "autem",
-      "Firstname": "Darrin",
-      "Lastname": "Kassulke",
-      "MiddleName": "Mertz, Halvorson and Leuschke",
-      "Title": "et",
-      "Description": "Advanced attitude-oriented definition",
-      "Email": "heath@sauerglover.name",
-      "FullName": "Mrs. Esmeralda O'Kon IV",
-      "DirectPhone": "829-851-7358 x854",
-      "FormalName": "Bahringer LLC",
-      "CountryId": 285,
-      "ContactId": 439,
-      "ContactName": "Kilback-Cummerata",
-      "Retired": 283,
-      "Rank": 4,
-      "ActiveInterests": 652,
+      "Position": "possimus",
+      "PersonId": 857,
+      "Mrmrs": "voluptas",
+      "Firstname": "Lazaro",
+      "Lastname": "Monahan",
+      "MiddleName": "Heathcote, Bednar and Torphy",
+      "Title": "dolorem",
+      "Description": "Focused value-added infrastructure",
+      "Email": "allie.beatty@feeney.biz",
+      "FullName": "Hector Thompson",
+      "DirectPhone": "423.026.8413",
+      "FormalName": "Torphy-Braun",
+      "CountryId": 867,
+      "ContactId": 860,
+      "ContactName": "Nicolas, Tillman and Mills",
+      "Retired": 275,
+      "Rank": 122,
+      "ActiveInterests": 177,
       "ContactDepartment": "",
-      "ContactCountryId": 955,
-      "ContactOrgNr": "1203368",
-      "FaxPhone": "(224)129-4556 x4612",
-      "MobilePhone": "891.867.2491 x4004",
-      "ContactPhone": "1-126-622-7335",
-      "AssociateName": "Carroll Group",
-      "AssociateId": 848,
+      "ContactCountryId": 10,
+      "ContactOrgNr": "1594236",
+      "FaxPhone": "724-422-3345 x7481",
+      "MobilePhone": "809-080-4029",
+      "ContactPhone": "(973)315-9418 x02949",
+      "AssociateName": "Cole, Gorczany and Crona",
+      "AssociateId": 284,
       "UsePersonAddress": false,
-      "ContactFax": "provident",
-      "Kanafname": "veniam",
-      "Kanalname": "officia",
-      "Post1": "placeat",
-      "Post2": "ea",
-      "Post3": "voluptas",
-      "EmailName": "amely_kuphal@grady.uk",
-      "ContactFullName": "Aryanna Barrows",
-      "ActiveErpLinks": 211,
-      "TicketPriorityId": 98,
-      "SupportLanguageId": 24,
-      "SupportAssociateId": 403,
+      "ContactFax": "quae",
+      "Kanafname": "cum",
+      "Kanalname": "ratione",
+      "Post1": "consequatur",
+      "Post2": "esse",
+      "Post3": "reprehenderit",
+      "EmailName": "woodrow.considine@hagenesmann.co.uk",
+      "ContactFullName": "Irwin Stracke",
+      "ActiveErpLinks": 922,
+      "TicketPriorityId": 241,
+      "SupportLanguageId": 489,
+      "SupportAssociateId": 922,
       "CategoryName": "VIP Customer",
-      "PersonNumber": "867437"
+      "PersonNumber": "1338999"
     }
   ],
   "NoMailing": false,
-  "Kananame": "repellat",
+  "Kananame": "perferendis",
   "Xstop": false,
-  "ActiveInterests": 691,
-  "GroupId": 1001,
-  "ActiveStatusMonitorId": 596,
+  "ActiveInterests": 825,
+  "GroupId": 693,
+  "ActiveStatusMonitorId": 927,
   "SupportAssociate": null,
   "TicketPriority": null,
   "CustomerLanguage": null,
-  "Deleted": 671,
-  "DbiAgentId": 98,
-  "DbiLastSyncronized": "2001-12-26T14:28:26.8520728+01:00",
-  "DbiKey": "rerum",
-  "DbiLastModified": "2023-10-27T14:28:26.8520728+02:00",
+  "Deleted": 533,
+  "DbiAgentId": 50,
+  "DbiLastSyncronized": "2014-10-01T13:14:08.6022481+02:00",
+  "DbiKey": "est",
+  "DbiLastModified": "2021-08-01T13:14:08.6022481+02:00",
   "SupportPerson": null,
   "Address": null,
-  "Source": 170,
-  "ActiveErpLinks": 252,
+  "Source": 378,
+  "ActiveErpLinks": 713,
   "BounceEmails": [
-    "titus@wisozk.name",
-    "dereck.cremin@stiedemann.us"
+    "amya@abernathy.biz",
+    "haven_will@purdy.ca"
   ],
   "Domains": [
-    "dolore",
-    "id"
+    "autem",
+    "aperiam"
   ],
   "UserDefinedFields": {
-    "SuperOffice:1": "Hilton Graham",
-    "SuperOffice:2": "Dr. Crystel Collins Sr."
+    "SuperOffice:1": "Ms. Ulices Roberto Kohler Jr.",
+    "SuperOffice:2": "Ulices Murazik"
   },
   "ExtraFields": {
-    "ExtraFields1": "ab",
-    "ExtraFields2": "explicabo"
+    "ExtraFields1": "quam",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "sapiente",
-    "CustomFields2": "delectus"
+    "CustomFields1": "fuga",
+    "CustomFields2": "unde"
   }
 }
 ```
@@ -283,7 +283,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "suscipit",
-  "2": "ut"
+  "1": "dolor",
+  "2": "saepe"
 }
 ```

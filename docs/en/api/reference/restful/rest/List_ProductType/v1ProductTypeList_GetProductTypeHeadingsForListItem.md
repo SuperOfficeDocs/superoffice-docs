@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProductType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 327,
-    "Name": "Kub, Balistreri and Kiehn",
-    "ToolTip": "Tempore cumque sit mollitia est adipisci.",
+    "Id": 919,
+    "Name": "Welch-Hamill",
+    "ToolTip": "Vitae quidem molestiae omnis.",
     "Deleted": false,
-    "Rank": 728,
-    "Type": "quod",
-    "ColorBlock": 833,
-    "IconHint": "ipsa",
-    "Selected": false,
-    "LastChanged": "2005-02-16T14:28:27.6332907+01:00",
+    "Rank": 233,
+    "Type": "reiciendis",
+    "ColorBlock": 215,
+    "IconHint": "quisquam",
+    "Selected": true,
+    "LastChanged": "2022-02-19T13:14:09.931658+01:00",
     "ChildItems": [
       {
-        "Id": 935,
-        "Name": "Douglas-Williamson",
-        "ToolTip": "Saepe veritatis nesciunt recusandae.",
-        "Deleted": false,
-        "Rank": 199,
-        "Type": "nulla",
-        "ColorBlock": 733,
-        "IconHint": "consequatur",
-        "Selected": true,
-        "LastChanged": "2014-04-28T14:28:27.6332907+02:00",
+        "Id": 424,
+        "Name": "Crooks, Weissnat and Dibbert",
+        "ToolTip": "Ut similique.",
+        "Deleted": true,
+        "Rank": 122,
+        "Type": "inventore",
+        "ColorBlock": 698,
+        "IconHint": "molestiae",
+        "Selected": false,
+        "LastChanged": "2022-12-20T13:14:09.931658+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "saepe",
-        "StyleHint": "culpa",
+        "ExtraInfo": "quasi",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Mrs. Kacie Virginia Treutel IV",
+        "FullName": "Mr. Marie Johns",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 18
+            "FieldType": "System.Int32",
+            "FieldLength": 358
           }
         }
       }
     ],
-    "ExtraInfo": "eveniet",
-    "StyleHint": "sit",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "repudiandae",
     "Hidden": false,
-    "FullName": "Dr. Ariane Josephine Bechtelar I",
+    "FullName": "Mr. Fredrick Nadia Baumbach V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 763
+        "FieldLength": 290
       }
     }
   }

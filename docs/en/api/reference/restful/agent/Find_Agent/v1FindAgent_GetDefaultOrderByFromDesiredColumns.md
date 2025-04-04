@@ -75,14 +75,14 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Leuschke Inc and Sons",
+  "ProviderName": "Hammes-Flatley",
   "DesiredColumns": [
-    "et",
-    "consequatur"
+    "officia",
+    "alias"
   ]
 }
 ```
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Medhurst-Bechtelar",
+    "Name": "Lowe-Pfannerstill",
     "Direction": "ASC"
   },
   {
-    "Name": "Medhurst-Bechtelar",
+    "Name": "Lowe-Pfannerstill",
     "Direction": "ASC"
   }
 ]

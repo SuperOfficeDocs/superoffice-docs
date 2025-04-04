@@ -83,8 +83,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 423,
-  "PrefValue": "totam"
+  "PrefDescId": 684,
+  "PrefValue": "quo"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 754,
-  "PrefDescId": 814,
-  "PrefValue": "quam",
-  "PrefShowValue": "quasi",
-  "Description": "Devolved tertiary methodology",
-  "IsBuiltin": true,
+  "PrefDescLineId": 260,
+  "PrefDescId": 210,
+  "PrefValue": "est",
+  "PrefShowValue": "aut",
+  "Description": "Monitored systemic forecast",
+  "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 317
+      "FieldLength": 631
     }
   }
 }

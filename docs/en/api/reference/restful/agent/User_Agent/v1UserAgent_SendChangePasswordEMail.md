@@ -74,11 +74,11 @@ OK
 POST /api/v1/Agents/User/SendChangePasswordEMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 19
+  "AssociateId": 559
 }
 ```
 
@@ -89,7 +89,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Success": true,
-  "Message": "quia"
+  "Success": false,
+  "Message": "rerum"
 }
 ```

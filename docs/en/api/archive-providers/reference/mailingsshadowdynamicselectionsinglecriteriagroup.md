@@ -654,7 +654,7 @@ Shadow contact provider for the dynamic Mailings provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/NumberOfTickets,mailingAddr/person/personAddress/line2,associate/otherGroups,emailFlow/updatedBy,emailFlow/workflowAssociate/credentialDisplayValue
+GET /api/v1/archive/MailingsShadowDynamicSelectionSingleCriteriaGroup?$select=mailingAddr/contact/contactDeleted,mailingAddr/contact/postAddress/line3,mailingAddr/contact/postAddress/city,mailingAddr/contact/contactUdef/SuperOffice:13,mailingAddr/person/correspondingAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

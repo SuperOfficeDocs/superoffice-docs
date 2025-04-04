@@ -116,47 +116,47 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 130,
-  "Name": "Gulgowski-Homenick",
-  "Tooltip": "occaecati",
-  "Rank": 340,
+  "SaleTypeId": 737,
+  "Name": "McGlynn-Wuckert",
+  "Tooltip": "voluptates",
+  "Rank": 722,
   "DurationUnit": "Century",
-  "SaleDuration": 701,
-  "SaleTypeCatId": 209,
+  "SaleDuration": 72,
+  "SaleTypeCatId": 316,
   "Deleted": false,
   "HasGuide": false,
-  "HasStakeholders": true,
-  "IsAutoAdvance": true,
+  "HasStakeholders": false,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 199,
-  "QuoteLinesTemplate": 523,
-  "ConfirmationLinesTemplate": 276,
+  "DefaultQuoteValidity": 90,
+  "QuoteLinesTemplate": 702,
+  "ConfirmationLinesTemplate": 702,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 139,
-  "MinEarningPercent": 812,
-  "GroupQuoteLinesBy": 996,
-  "SortGroupLinesBy": 535,
+  "MaxDiscountPercent": 681,
+  "MinEarningPercent": 313,
+  "GroupQuoteLinesBy": 586,
+  "SortGroupLinesBy": 132,
   "Stages": [
     {
-      "Id": 418,
-      "Name": "Hodkiewicz, Schuster and Bins",
-      "ToolTip": "Consequatur deleniti voluptas facere.",
-      "Deleted": true,
-      "Rank": 780,
-      "Type": "officiis",
-      "ColorBlock": 576,
-      "IconHint": "enim",
-      "Selected": false,
-      "LastChanged": "2002-07-11T14:28:27.6957886+02:00",
+      "Id": 616,
+      "Name": "Kovacek-Ebert",
+      "ToolTip": "Neque exercitationem consectetur est minus aspernatur deleniti est.",
+      "Deleted": false,
+      "Rank": 506,
+      "Type": "aliquid",
+      "ColorBlock": 268,
+      "IconHint": "qui",
+      "Selected": true,
+      "LastChanged": "2011-11-14T13:14:10.0566655+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "sint",
-      "StyleHint": "doloribus",
-      "Hidden": false,
-      "FullName": "Dr. Liza Kiley Volkman"
+      "ExtraInfo": "aliquam",
+      "StyleHint": "illum",
+      "Hidden": true,
+      "FullName": "Conor Dibbert"
     }
   ]
 }
@@ -169,53 +169,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 961,
-  "Name": "Parisian, Kunze and Buckridge",
-  "Tooltip": "architecto",
-  "Rank": 168,
+  "SaleTypeId": 882,
+  "Name": "Kreiger LLC",
+  "Tooltip": "nihil",
+  "Rank": 997,
   "DurationUnit": "Century",
-  "SaleDuration": 397,
-  "SaleTypeCatId": 827,
-  "Deleted": true,
+  "SaleDuration": 662,
+  "SaleTypeCatId": 677,
+  "Deleted": false,
   "HasGuide": false,
   "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 169,
-  "QuoteLinesTemplate": 148,
-  "ConfirmationLinesTemplate": 765,
+  "DefaultQuoteValidity": 502,
+  "QuoteLinesTemplate": 504,
+  "ConfirmationLinesTemplate": 552,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 281,
-  "MinEarningPercent": 290,
-  "GroupQuoteLinesBy": 836,
-  "SortGroupLinesBy": 214,
+  "MaxDiscountPercent": 220,
+  "MinEarningPercent": 555,
+  "GroupQuoteLinesBy": 872,
+  "SortGroupLinesBy": 191,
   "Stages": [
     {
-      "Id": 251,
-      "Name": "Casper-Harvey",
-      "ToolTip": "Ut cumque dolorem beatae saepe non sed.",
+      "Id": 482,
+      "Name": "Hudson, Klein and Larson",
+      "ToolTip": "Provident qui praesentium quo beatae.",
       "Deleted": false,
-      "Rank": 533,
-      "Type": "consectetur",
-      "ColorBlock": 835,
-      "IconHint": "exercitationem",
+      "Rank": 832,
+      "Type": "ea",
+      "ColorBlock": 259,
+      "IconHint": "eum",
       "Selected": false,
-      "LastChanged": "2004-04-13T14:28:27.6957886+02:00",
+      "LastChanged": "2012-08-05T13:14:10.0566655+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "ut",
-      "StyleHint": "et",
-      "Hidden": false,
-      "FullName": "Lonzo Tremblay",
+      "ExtraInfo": "debitis",
+      "StyleHint": "voluptatibus",
+      "Hidden": true,
+      "FullName": "Ms. Lue Odessa Bergstrom DDS",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 126
+          "FieldType": "System.Int32",
+          "FieldLength": 488
         }
       }
     }
@@ -224,8 +224,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 241
+      "FieldType": "System.String",
+      "FieldLength": 561
     }
   }
 }

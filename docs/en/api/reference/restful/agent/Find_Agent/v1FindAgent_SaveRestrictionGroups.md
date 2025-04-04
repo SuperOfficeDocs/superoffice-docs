@@ -82,30 +82,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "animi",
-  "ProviderName": "Morar Group",
-  "StorageKey": "facere",
+  "StorageType": "aliquam",
+  "ProviderName": "Schinner Group",
+  "StorageKey": "qui",
   "RestrictionGroups": [
     {
-      "Name": "Emmerich Group",
-      "Description": "Team-oriented client-driven policy",
-      "Rank": 279,
+      "Name": "Ward-Weber",
+      "Description": "Vision-oriented homogeneous knowledge base",
+      "Rank": 461,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Emmerich Group",
-      "Description": "Team-oriented client-driven policy",
-      "Rank": 279,
+      "Name": "Ward-Weber",
+      "Description": "Vision-oriented homogeneous knowledge base",
+      "Rank": 461,
       "Restrictions": [
         {},
         {}
       ]
     }
   ],
-  "Context": "dolores"
+  "Context": "ut"
 }
 ```
 
@@ -117,58 +117,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Quigley Group",
-    "Description": "Total even-keeled synergy",
-    "Rank": 15,
+    "Name": "VonRueden, Rolfson and Auer",
+    "Description": "Managed next generation project",
+    "Rank": 285,
     "Restrictions": [
       {
-        "Name": "Kerluke-Wunsch",
-        "Operator": "qui",
+        "Name": "McDermott, Hayes and Wilkinson",
+        "Operator": "aut",
         "Values": [
-          "voluptas",
-          "ut"
+          "soluta",
+          "sed"
         ],
         "DisplayValues": [
-          "voluptas",
-          "et"
+          "facere",
+          "neque"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 249,
+        "InterParenthesis": 258,
         "InterOperator": "And",
-        "UniqueHash": 836
+        "UniqueHash": 233
       }
     ]
   },
   {
-    "Name": "Quigley Group",
-    "Description": "Total even-keeled synergy",
-    "Rank": 15,
+    "Name": "VonRueden, Rolfson and Auer",
+    "Description": "Managed next generation project",
+    "Rank": 285,
     "Restrictions": [
       {
-        "Name": "Kerluke-Wunsch",
-        "Operator": "qui",
+        "Name": "McDermott, Hayes and Wilkinson",
+        "Operator": "aut",
         "Values": [
-          "voluptas",
-          "ut"
+          "soluta",
+          "sed"
         ],
         "DisplayValues": [
-          "voluptas",
-          "et"
+          "facere",
+          "neque"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 249,
+        "InterParenthesis": 258,
         "InterOperator": "And",
-        "UniqueHash": 836
+        "UniqueHash": 233
       }
     ]
   }

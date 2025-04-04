@@ -80,20 +80,20 @@ Content-Type: application/json; charset=utf-8
   "Appointment": null,
   "CalMethod": "Add",
   "Participants": [
-    "corrupti",
-    "quam"
+    "eum",
+    "vitae"
   ],
-  "Comment": "occaecati",
-  "Sequence": 725,
-  "DtStart": "2013-08-22T14:28:21.9303967+02:00",
-  "DtEnd": "2020-09-07T14:28:21.9303967+02:00",
+  "Comment": "incidunt",
+  "Sequence": 676,
+  "DtStart": "2023-12-05T13:14:00.32935+01:00",
+  "DtEnd": "2000-07-27T13:14:00.32935+02:00",
   "Superseded": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldLength": 548
     }
   }
 }

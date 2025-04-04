@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 624,
-  "Name": "Bechtelar, Lueilwitz and Fahey",
-  "Tooltip": "consequatur",
+  "Id": 436,
+  "Name": "Quigley Group",
+  "Tooltip": "placeat",
   "Deleted": false,
-  "Rank": 247,
+  "Rank": 982,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ex",
-  "InUseByUserDefinedFields": true,
+  "ListType": "perspiciatis",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 791
+      "FieldLength": 592
     }
   },
   "_Links": {

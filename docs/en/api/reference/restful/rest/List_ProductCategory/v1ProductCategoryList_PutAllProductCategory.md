@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProductCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 70,
-    "Name": "Gleichner-Casper",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "UdListDefinitionId": 608,
-    "Rank": 535
+    "Id": 592,
+    "Name": "Harris-Satterfield",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "UdListDefinitionId": 599,
+    "Rank": 725
   },
   {
-    "Id": 70,
-    "Name": "Gleichner-Casper",
-    "Tooltip": "facere",
-    "Deleted": false,
-    "UdListDefinitionId": 608,
-    "Rank": 535
+    "Id": 592,
+    "Name": "Harris-Satterfield",
+    "Tooltip": "sit",
+    "Deleted": true,
+    "UdListDefinitionId": 599,
+    "Rank": 725
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Kling Group",
-    "Tooltip": "voluptatem",
+    "Id": 460,
+    "Name": "Pollich, Casper and Klocko",
+    "Tooltip": "ut",
     "Deleted": false,
-    "UdListDefinitionId": 111,
-    "Rank": 76,
+    "UdListDefinitionId": 940,
+    "Rank": 970,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldType": "System.String",
+        "FieldLength": 629
       }
     }
   }

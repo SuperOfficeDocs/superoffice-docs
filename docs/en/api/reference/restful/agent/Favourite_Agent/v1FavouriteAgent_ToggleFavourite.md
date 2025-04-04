@@ -71,14 +71,14 @@ OK
 POST /api/v1/Agents/Favourite/ToggleFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Murphy-Heidenreich",
-  "RecordId": 725,
-  "AssociateId": 400,
-  "ExtraInfo": "voluptatem"
+  "TableName": "Abshire Group",
+  "RecordId": 814,
+  "AssociateId": 508,
+  "ExtraInfo": "ut"
 }
 ```
 
@@ -88,5 +88,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

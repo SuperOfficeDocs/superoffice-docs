@@ -97,28 +97,28 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 292,
-  "Section": "laborum",
-  "Key": "numquam",
-  "Name": "Wisoky-Klein",
+  "PrefDescId": 635,
+  "Section": "ut",
+  "Key": "incidunt",
+  "Name": "Corwin-Stoltenberg",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Business-focused stable access",
+  "Description": "Reverse-engineered neutral pricing structure",
   "IsBuiltin": false,
-  "TableName": "Carroll Group",
-  "UserDefinedListId": 655,
-  "Rank": 247,
-  "SubGroup": "minima",
-  "MinLevel": 885,
-  "MaxValue": 130,
-  "MinValue": 516,
-  "RequiredLicense": "explicabo"
+  "TableName": "Grimes, Wisoky and Keeling",
+  "UserDefinedListId": 883,
+  "Rank": 123,
+  "SubGroup": "velit",
+  "MinLevel": 610,
+  "MaxValue": 743,
+  "MinValue": 304,
+  "RequiredLicense": "qui"
 }
 ```
 
@@ -129,30 +129,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 161,
-  "Section": "id",
-  "Key": "expedita",
-  "Name": "Stehr LLC",
+  "PrefDescId": 948,
+  "Section": "est",
+  "Key": "nulla",
+  "Name": "Wilkinson, Feeney and Yundt",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Profit-focused zero tolerance artificial intelligence",
+  "Description": "Advanced mission-critical toolset",
   "IsBuiltin": false,
-  "TableName": "Kuhn-Volkman",
-  "UserDefinedListId": 534,
-  "Rank": 999,
-  "SubGroup": "dolore",
-  "MinLevel": 684,
-  "MaxValue": 622,
-  "MinValue": 327,
-  "RequiredLicense": "deserunt",
+  "TableName": "Sawayn, Nikolaus and Bradtke",
+  "UserDefinedListId": 399,
+  "Rank": 393,
+  "SubGroup": "rem",
+  "MinLevel": 676,
+  "MaxValue": 65,
+  "MinValue": 39,
+  "RequiredLicense": "aspernatur",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 460
     }
   }
 }

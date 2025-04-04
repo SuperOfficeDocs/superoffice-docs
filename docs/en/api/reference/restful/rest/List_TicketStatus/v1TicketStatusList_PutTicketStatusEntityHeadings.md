@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 340,
-    "Name": "Robel-Howe",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "Rank": 537,
-    "UdListDefinitionId": 975
+    "HeadingId": 697,
+    "Name": "Wilderman LLC",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "Rank": 483,
+    "UdListDefinitionId": 698
   },
   {
-    "HeadingId": 340,
-    "Name": "Robel-Howe",
-    "Tooltip": "ea",
-    "Deleted": true,
-    "Rank": 537,
-    "UdListDefinitionId": 975
+    "HeadingId": 697,
+    "Name": "Wilderman LLC",
+    "Tooltip": "nulla",
+    "Deleted": false,
+    "Rank": 483,
+    "UdListDefinitionId": 698
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 262,
-    "Name": "Brown LLC",
-    "Tooltip": "delectus",
-    "Deleted": false,
-    "Rank": 846,
-    "UdListDefinitionId": 90,
+    "HeadingId": 31,
+    "Name": "Daniel-Bednar",
+    "Tooltip": "tempora",
+    "Deleted": true,
+    "Rank": 646,
+    "UdListDefinitionId": 581,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 485
+        "FieldType": "System.String",
+        "FieldLength": 775
       }
     }
   }

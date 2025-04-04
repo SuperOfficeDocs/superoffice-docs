@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 922,
+  "TargetYear": 823,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 88,
-  "DimensionId": 778
+  "Id": 35,
+  "DimensionId": 542
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 86,
+  "TargetAssignmentInfoId": 830,
   "Values": [
-    458,
-    131
+    898,
+    568
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 769,
-  "DimensionListItemDisplayName": "Jewess LLC",
+  "DimensionListItem": 891,
+  "DimensionListItemDisplayName": "Hermiston-Marks",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 14
+      "FieldType": "System.Int32",
+      "FieldLength": 759
     }
   }
 }

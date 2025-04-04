@@ -88,16 +88,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 355,
-  "Name": "Gulgowski Group",
-  "Tooltip": "fugiat",
-  "Deleted": true,
-  "Rank": 560,
+  "Id": 619,
+  "Name": "Wilderman, Erdman and Sanford",
+  "Tooltip": "quae",
+  "Deleted": false,
+  "Rank": 51,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "nihil",
-  "InUseByUserDefinedFields": true
+  "ListType": "maxime",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 56,
-  "Name": "Jacobs Inc and Sons",
-  "Tooltip": "rerum",
+  "Id": 30,
+  "Name": "Ullrich Inc and Sons",
+  "Tooltip": "omnis",
   "Deleted": true,
-  "Rank": 546,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 544,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ad",
-  "InUseByUserDefinedFields": false,
+  "ListType": "odio",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 538
+      "FieldType": "System.Int32",
+      "FieldLength": 29
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 326,
-    "Name": "Hegmann Group",
-    "ToolTip": "Et aut voluptates atque cum et corporis rem.",
-    "Deleted": false,
-    "Rank": 534,
-    "Type": "aliquid",
-    "ColorBlock": 179,
-    "IconHint": "explicabo",
+    "Id": 974,
+    "Name": "Wisozk-Moen",
+    "ToolTip": "Aut iure adipisci repellat qui consequatur quos.",
+    "Deleted": true,
+    "Rank": 203,
+    "Type": "reprehenderit",
+    "ColorBlock": 271,
+    "IconHint": "ea",
     "Selected": false,
-    "LastChanged": "2008-10-08T14:28:27.6020419+02:00",
+    "LastChanged": "2016-07-22T13:14:09.8535282+02:00",
     "ChildItems": [
       {
-        "Id": 640,
-        "Name": "Connelly, Kassulke and Okuneva",
-        "ToolTip": "Temporibus enim corporis placeat delectus atque.",
+        "Id": 430,
+        "Name": "Cummerata Group",
+        "ToolTip": "Rerum quo earum.",
         "Deleted": true,
-        "Rank": 760,
-        "Type": "accusantium",
-        "ColorBlock": 873,
-        "IconHint": "nihil",
+        "Rank": 958,
+        "Type": "veritatis",
+        "ColorBlock": 558,
+        "IconHint": "dolorem",
         "Selected": false,
-        "LastChanged": "2009-11-22T14:28:27.6020419+01:00",
+        "LastChanged": "2011-05-13T13:14:09.8535282+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "aspernatur",
+        "ExtraInfo": "numquam",
+        "StyleHint": "ea",
         "Hidden": false,
-        "FullName": "Abigale Lynch"
+        "FullName": "Alvena Upton"
       }
     ],
-    "ExtraInfo": "recusandae",
-    "StyleHint": "nulla",
+    "ExtraInfo": "saepe",
+    "StyleHint": "molestiae",
     "Hidden": false,
-    "FullName": "Solon Rippin"
+    "FullName": "Prof. Marlene Destini Wiza"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 288,
-    "Name": "Fritsch Inc and Sons",
-    "ToolTip": "Nam illo consequatur laboriosam.",
+    "Id": 816,
+    "Name": "Yundt, Walter and Ruecker",
+    "ToolTip": "Ea minima deserunt et in aut.",
     "Deleted": false,
-    "Rank": 581,
-    "Type": "iure",
-    "ColorBlock": 203,
-    "IconHint": "tempore",
-    "Selected": false,
-    "LastChanged": "2014-11-08T14:28:27.6020419+01:00",
+    "Rank": 917,
+    "Type": "omnis",
+    "ColorBlock": 885,
+    "IconHint": "et",
+    "Selected": true,
+    "LastChanged": "2002-09-13T13:14:09.8535282+02:00",
     "ChildItems": [
       {
-        "Id": 8,
-        "Name": "Barrows Group",
-        "ToolTip": "Est reprehenderit sunt ratione velit vel voluptatibus est.",
-        "Deleted": false,
-        "Rank": 313,
-        "Type": "qui",
-        "ColorBlock": 958,
-        "IconHint": "adipisci",
+        "Id": 732,
+        "Name": "Homenick-Witting",
+        "ToolTip": "Rerum ut saepe qui occaecati corporis quos aliquid.",
+        "Deleted": true,
+        "Rank": 27,
+        "Type": "eveniet",
+        "ColorBlock": 799,
+        "IconHint": "voluptatem",
         "Selected": false,
-        "LastChanged": "2024-06-30T14:28:27.6020419+02:00",
+        "LastChanged": "2002-02-21T13:14:09.8535282+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "alias",
-        "Hidden": true,
-        "FullName": "Ms. Cullen Domenico Smitham",
+        "ExtraInfo": "sint",
+        "StyleHint": "vitae",
+        "Hidden": false,
+        "FullName": "Ms. Jamil Markus Leffler",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 669
+            "FieldType": "System.Int32",
+            "FieldLength": 992
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatibus",
-    "StyleHint": "veniam",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "distinctio",
     "Hidden": false,
-    "FullName": "Jesus Ledner V",
+    "FullName": "Prof. Thomas Ernie Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 330
+        "FieldLength": 416
       }
     }
   }

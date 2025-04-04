@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 440
+  "Id": 446
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "voluptatibus",
+  "RawValue": "sed",
   "Specification": null,
-  "DisplayValue": "nobis",
-  "DisplayTooltip": "aut",
+  "DisplayValue": "soluta",
+  "DisplayTooltip": "et",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 312,
-  "PrefDescId": 791,
-  "TableName": "Nicolas Group",
-  "UserPreferenceId": 571,
+  "TargetId": 431,
+  "PrefDescId": 744,
+  "TableName": "Hermann, Cassin and Tillman",
+  "UserPreferenceId": 311,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 873
+      "FieldType": "System.Int32",
+      "FieldLength": 70
     }
   }
 }

@@ -486,7 +486,7 @@ Shadow contact provider for the ChatConversation provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/ChatConversationShadowSelectionV2?$select=associate/contactFullName,person/personId,person/personAssociate/role,contact/url/URLDescription
+GET /api/v1/archive/ChatConversationShadowSelectionV2?$select=chatTopic/badgeHeader,person/legalBaseStore,contact/streetAddress/state
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

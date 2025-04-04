@@ -78,26 +78,26 @@ OK
 POST /api/v1/Agents/Preference/SavePreferenceDescriptionLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "PreferenceDescriptionLines": [
     {
-      "PrefDescLineId": 877,
-      "PrefDescId": 205,
-      "PrefValue": "vitae",
-      "PrefShowValue": "accusamus",
-      "Description": "Customizable next generation interface",
-      "IsBuiltin": true
+      "PrefDescLineId": 420,
+      "PrefDescId": 977,
+      "PrefValue": "qui",
+      "PrefShowValue": "et",
+      "Description": "Assimilated dynamic architecture",
+      "IsBuiltin": false
     },
     {
-      "PrefDescLineId": 877,
-      "PrefDescId": 205,
-      "PrefValue": "vitae",
-      "PrefShowValue": "accusamus",
-      "Description": "Customizable next generation interface",
-      "IsBuiltin": true
+      "PrefDescLineId": 420,
+      "PrefDescId": 977,
+      "PrefValue": "qui",
+      "PrefShowValue": "et",
+      "Description": "Assimilated dynamic architecture",
+      "IsBuiltin": false
     }
   ]
 }
@@ -111,18 +111,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 981,
-    "PrefDescId": 1001,
-    "PrefValue": "aliquid",
-    "PrefShowValue": "molestiae",
-    "Description": "Distributed executive knowledge base",
-    "IsBuiltin": true,
+    "PrefDescLineId": 206,
+    "PrefDescId": 198,
+    "PrefValue": "corporis",
+    "PrefShowValue": "et",
+    "Description": "Upgradable didactic application",
+    "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 377
+        "FieldType": "System.String",
+        "FieldLength": 555
       }
     }
   }

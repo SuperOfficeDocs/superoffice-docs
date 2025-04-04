@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Saint/GetStatusMonitors
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 467,
-  "Type": "dolor"
+  "Id": 645,
+  "Type": "quam"
 }
 ```
 
@@ -105,27 +105,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "OwnerTable": 422,
-    "Rank": 930,
-    "DefaultTask": 599,
-    "DefaultTaskText": "quaerat",
-    "IsVisual": true,
-    "LastGenerated": "2015-02-08T14:28:22.3366302+01:00",
-    "Description": "Intuitive human-resource toolset",
-    "Name": "Ernser Group",
-    "StatusMonitorId": 822,
-    "PictureId": 464,
+    "OwnerTable": 901,
+    "Rank": 782,
+    "DefaultTask": 265,
+    "DefaultTaskText": "odio",
+    "IsVisual": false,
+    "LastGenerated": "2021-08-04T13:14:01.048891+02:00",
+    "Description": "Front-line multi-state complexity",
+    "Name": "Reichel, Stoltenberg and Hane",
+    "StatusMonitorId": 48,
+    "PictureId": 355,
     "NeedsUpdate": true,
     "Deleted": true,
-    "NumMatches": 571,
-    "NumNeedUpdate": 40,
-    "GenerationStart": "2001-04-19T14:28:22.3366302+02:00",
+    "NumMatches": 643,
+    "NumNeedUpdate": 667,
+    "GenerationStart": "2013-06-29T13:14:01.048891+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 473
+        "FieldLength": 97
       }
     }
   }

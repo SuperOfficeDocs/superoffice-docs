@@ -91,7 +91,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -102,37 +102,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentTemplateId": 94,
-    "Name": "Willms Inc and Sons",
-    "Tooltip": "sequi",
-    "SaveInDb": 282,
-    "Filename": "ipsa",
-    "DefaultOref": "ea",
+    "DocumentTemplateId": 674,
+    "Name": "Heller Inc and Sons",
+    "Tooltip": "repellat",
+    "SaveInDb": 322,
+    "Filename": "consequatur",
+    "DefaultOref": "perspiciatis",
     "RecordType": "Appointment",
     "Deleted": false,
     "Direction": "Incoming",
-    "AutoeventId": 956,
-    "IntentId": 578,
+    "AutoeventId": 196,
+    "IntentId": 540,
     "IsDefaultPublished": false,
-    "Rank": 450,
-    "LoadTemplateFromPlugin": 806,
-    "MimeType": "enim",
-    "IsInUseInGuides": false,
-    "DocumentTypeKey": 849,
+    "Rank": 135,
+    "LoadTemplateFromPlugin": 427,
+    "MimeType": "quasi",
+    "IsInUseInGuides": true,
+    "DocumentTypeKey": 935,
     "QuoteDocType": "ConfirmationLines",
     "PrivacyDocType": "None",
-    "EmailSubject": "scot_kohler@heidenreich.co.uk",
+    "EmailSubject": "lenora@hesselstokes.name",
     "IncludeSignature": false,
     "ShowCurrents": false,
     "SenderEmailMode": "UseDefaultSender",
-    "SenderEmailAddress": "ted@oreilly.co.uk",
+    "SenderEmailAddress": "josefina@boscospinka.uk",
     "InvitationDocType": "Cancelled",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 120
+        "FieldType": "System.String",
+        "FieldLength": 985
       }
     }
   }

@@ -92,7 +92,7 @@ OK
 GET /api/v1/Product/{productId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -102,73 +102,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 260,
-  "ERPProductKey": "accusamus",
-  "ERPPriceListKey": "itaque",
-  "Name": "Gutmann-Friesen",
-  "Description": "Programmable discrete function",
-  "Code": "enim",
-  "PriceUnit": "fugiat",
-  "QuantityUnit": "possimus",
+  "ProductId": 692,
+  "ERPProductKey": "voluptate",
+  "ERPPriceListKey": "qui",
+  "Name": "Renner-Johnson",
+  "Description": "Monitored zero defect protocol",
+  "Code": "dolorem",
+  "PriceUnit": "quo",
+  "QuantityUnit": "explicabo",
   "IsSubscription": false,
-  "SubscriptionUnit": "commodi",
-  "DefaultSubscriptionQuantity": 4227.766,
-  "ItemNumber": "859934",
+  "SubscriptionUnit": "iure",
+  "DefaultSubscriptionQuantity": 11216.586,
+  "ItemNumber": "689999",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "veritatis",
-  "ProductTypeKey": "temporibus",
-  "VAT": 21496.106,
-  "VATInfo": "voluptate",
-  "UnitCost": 20342.793999999998,
-  "UnitMinimumPrice": 1977.5539999999999,
-  "UnitListPrice": 23505.0,
-  "InAssortment": false,
-  "Supplier": "consequatur",
-  "SupplierCode": "at",
-  "Rights": "ab",
-  "Rule": "ipsam",
+  "ProductFamilyKey": "quaerat",
+  "ProductTypeKey": "tempore",
+  "VAT": 26316.198,
+  "VATInfo": "sapiente",
+  "UnitCost": 17437.576,
+  "UnitMinimumPrice": 15723.278,
+  "UnitListPrice": 16885.992,
+  "InAssortment": true,
+  "Supplier": "ea",
+  "SupplierCode": "rerum",
+  "Rights": "exercitationem",
+  "Rule": "aut",
   "ExtraInfo": [
     {
-      "Name": "Murray Group",
-      "Value": "ea",
+      "Name": "Strosin LLC",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 555
+          "FieldLength": 887
         }
       }
     },
     {
-      "Name": "Murray Group",
-      "Value": "ea",
+      "Name": "Strosin LLC",
+      "Value": "sed",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 555
+          "FieldLength": 887
         }
       }
     }
   ],
-  "RawExtraInfo": "tenetur",
-  "ExtraField1": "voluptas",
-  "ExtraField2": "assumenda",
-  "ExtraField3": "officia",
-  "ExtraField4": "blanditiis",
-  "ExtraField5": "rerum",
-  "InStock": 13874.217999999999,
+  "RawExtraInfo": "in",
+  "ExtraField1": "natus",
+  "ExtraField2": "rerum",
+  "ExtraField3": "eveniet",
+  "ExtraField4": "sint",
+  "ExtraField5": "facilis",
+  "InStock": 7054.634,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 244
+      "FieldLength": 205
     }
   }
 }

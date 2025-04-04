@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 993,
-  "GroupId": 384
+  "UdListDefinitionId": 64,
+  "GroupId": 158
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 989,
-    "Name": "Gorczany Inc and Sons",
-    "ToolTip": "Soluta non non sint sed ut sint molestias.",
+    "Id": 482,
+    "Name": "Deckow, Dicki and Jacobs",
+    "ToolTip": "Debitis dicta et neque ut nam esse.",
     "Deleted": false,
-    "Rank": 138,
-    "Type": "quia",
-    "ColorBlock": 512,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2005-06-05T14:28:22.0553915+02:00",
+    "Rank": 30,
+    "Type": "culpa",
+    "ColorBlock": 898,
+    "IconHint": "vel",
+    "Selected": false,
+    "LastChanged": "2023-05-03T13:14:00.5949987+02:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Towne, Bogan and Steuber",
-        "ToolTip": "Qui distinctio praesentium.",
+        "Id": 875,
+        "Name": "Stanton LLC",
+        "ToolTip": "Autem et quia.",
         "Deleted": false,
-        "Rank": 310,
-        "Type": "qui",
-        "ColorBlock": 553,
-        "IconHint": "provident",
-        "Selected": false,
-        "LastChanged": "1999-09-06T14:28:22.0553915+02:00",
+        "Rank": 95,
+        "Type": "cum",
+        "ColorBlock": 736,
+        "IconHint": "cumque",
+        "Selected": true,
+        "LastChanged": "2003-01-12T13:14:00.5949987+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "praesentium",
-        "StyleHint": "dicta",
-        "Hidden": true,
-        "FullName": "Mrs. Serena Leuschke",
+        "ExtraInfo": "voluptatum",
+        "StyleHint": "veritatis",
+        "Hidden": false,
+        "FullName": "Prof. Kelli Rosario Satterfield DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 674
+            "FieldLength": 729
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "quas",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "iusto",
     "Hidden": false,
-    "FullName": "Ernie Collins",
+    "FullName": "Joshuah Collier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldType": "System.String",
+        "FieldLength": 440
       }
     }
   }

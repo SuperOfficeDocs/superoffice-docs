@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 592,
-  "Name": "Lebsack-Wunsch",
-  "Tooltip": "qui",
+  "Id": 576,
+  "Name": "Ondricka, Lowe and Schuppe",
+  "Tooltip": "blanditiis",
   "Deleted": false,
-  "UdListDefinitionId": 723,
-  "Rank": 937,
+  "UdListDefinitionId": 449,
+  "Rank": 724,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 479
+      "FieldType": "System.Int32",
+      "FieldLength": 707
     }
   }
 }

@@ -76,14 +76,14 @@ OK
 POST /api/v1/Agents/Ticket/GetDefaultMessageContentWithOptions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 603,
+  "TicketId": 309,
   "MessageActionType": "Forward",
-  "TicketMessageId": 908,
-  "TicketTypeId": 276,
+  "TicketMessageId": 799,
+  "TicketTypeId": 850,
   "ExcludeSignature": true
 }
 ```
@@ -95,23 +95,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Body": "recusandae",
+  "Body": "consequuntur",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 203,
-      "Name": "Watsica, Pouros and Gibson",
-      "ContentType": "consequuntur",
-      "AttSize": 405,
-      "InlineImage": false,
-      "ContentId": "sed",
-      "AuthKey": "autem",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 153,
+      "Name": "Yost Group",
+      "ContentType": "aut",
+      "AttSize": 285,
+      "InlineImage": true,
+      "ContentId": "cupiditate",
+      "AuthKey": "perspiciatis",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 862
+          "FieldType": "System.Int32",
+          "FieldLength": 530
         }
       }
     }

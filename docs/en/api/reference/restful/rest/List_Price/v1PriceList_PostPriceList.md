@@ -94,20 +94,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 319,
-  "ERPPriceListKey": "pariatur",
-  "QuoteConnectionId": 287,
-  "Name": "Wilkinson-Kihn",
-  "Description": "Reverse-engineered 6th generation migration",
-  "Currency": "numquam",
-  "CurrencyName": "Zieme, Hodkiewicz and Deckow",
-  "ValidFrom": "2007-05-16T14:28:27.6020419+02:00",
-  "ValidTo": "2008-02-20T14:28:27.6020419+01:00",
-  "IsActive": false
+  "PriceListId": 246,
+  "ERPPriceListKey": "repudiandae",
+  "QuoteConnectionId": 870,
+  "Name": "Kessler Inc and Sons",
+  "Description": "Open-architected context-sensitive synergy",
+  "Currency": "explicabo",
+  "CurrencyName": "Corwin, McClure and Runolfsson",
+  "ValidFrom": "2012-03-31T13:14:09.8691543+02:00",
+  "ValidTo": "2002-06-25T13:14:09.8691543+02:00",
+  "IsActive": true
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 888,
-  "ERPPriceListKey": "aperiam",
-  "QuoteConnectionId": 381,
-  "Name": "Bogisich LLC",
-  "Description": "Monitored bifurcated core",
-  "Currency": "ea",
-  "CurrencyName": "Kris Inc and Sons",
-  "ValidFrom": "1998-03-16T14:28:27.6020419+01:00",
-  "ValidTo": "2004-10-02T14:28:27.6020419+02:00",
-  "IsActive": false,
+  "PriceListId": 550,
+  "ERPPriceListKey": "iusto",
+  "QuoteConnectionId": 142,
+  "Name": "Swift, Olson and Sanford",
+  "Description": "Monitored even-keeled workforce",
+  "Currency": "eum",
+  "CurrencyName": "Kilback Group",
+  "ValidFrom": "1999-01-02T13:14:09.8691543+01:00",
+  "ValidTo": "1998-12-22T13:14:09.8691543+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 250
+      "FieldType": "System.Int32",
+      "FieldLength": 234
     }
   },
   "_Links": {

@@ -99,28 +99,28 @@ OK
 POST /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 889,
-  "Name": "Koss, Cormier and Baumbach",
-  "CurrencyId": 104,
-  "EnglishName": "Nikolaus-Beier",
+  "CountryId": 621,
+  "Name": "Hilpert-Hayes",
+  "CurrencyId": 682,
+  "EnglishName": "Aufderhar Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Advanced zero tolerance capacity",
-  "OrgNrText": "742844",
-  "InterAreaPrefix": "nemo",
-  "DialInPrefix": "sint",
-  "ZipPrefix": "minima",
-  "DomainName": "Kovacek-Shanahan",
-  "AddressLayoutId": 584,
-  "DomesticAddressLayoutId": 755,
-  "ForeignAddressLayoutId": 473,
-  "Rank": 678,
-  "Tooltip": "occaecati",
-  "Deleted": true
+  "ImageDescription": "Customer-focused assymetric success",
+  "OrgNrText": "990351",
+  "InterAreaPrefix": "et",
+  "DialInPrefix": "placeat",
+  "ZipPrefix": "itaque",
+  "DomainName": "Labadie-Upton",
+  "AddressLayoutId": 678,
+  "DomesticAddressLayoutId": 432,
+  "ForeignAddressLayoutId": 73,
+  "Rank": 210,
+  "Tooltip": "vel",
+  "Deleted": false
 }
 ```
 
@@ -131,30 +131,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 488,
-  "Name": "Greenholt Inc and Sons",
-  "CurrencyId": 680,
-  "EnglishName": "Robel, Block and Monahan",
+  "CountryId": 842,
+  "Name": "Sipes, Monahan and Sporer",
+  "CurrencyId": 502,
+  "EnglishName": "Torp-Reinger",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Profound bi-directional moderator",
-  "OrgNrText": "1665290",
-  "InterAreaPrefix": "nam",
-  "DialInPrefix": "at",
-  "ZipPrefix": "quisquam",
-  "DomainName": "Koelpin Group",
-  "AddressLayoutId": 125,
-  "DomesticAddressLayoutId": 590,
-  "ForeignAddressLayoutId": 610,
-  "Rank": 681,
-  "Tooltip": "ut",
+  "ImageDescription": "Upgradable reciprocal core",
+  "OrgNrText": "472730",
+  "InterAreaPrefix": "rerum",
+  "DialInPrefix": "omnis",
+  "ZipPrefix": "veritatis",
+  "DomainName": "Wuckert Inc and Sons",
+  "AddressLayoutId": 391,
+  "DomesticAddressLayoutId": 233,
+  "ForeignAddressLayoutId": 608,
+  "Rank": 455,
+  "Tooltip": "tempora",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 396
+      "FieldType": "System.Int32",
+      "FieldLength": 655
     }
   }
 }

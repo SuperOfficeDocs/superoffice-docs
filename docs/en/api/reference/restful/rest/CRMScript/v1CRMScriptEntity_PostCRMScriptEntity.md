@@ -113,52 +113,52 @@ OK
 POST /api/v1/CRMScript
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 264,
-  "UniqueIdentifier": "similique",
-  "Name": "Jones, Simonis and Mohr",
-  "Description": "Synergistic grid-enabled access",
-  "IncludeId": "omnis",
-  "AccessKey": "nihil",
-  "HierarchyId": 983,
-  "Source": "aliquam",
-  "SourceCode": "impedit",
+  "EjscriptId": 634,
+  "UniqueIdentifier": "illum",
+  "Name": "Bartoletti Inc and Sons",
+  "Description": "Switchable executive hardware",
+  "IncludeId": "ex",
+  "AccessKey": "ex",
+  "HierarchyId": 391,
+  "Source": "aut",
+  "SourceCode": "est",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 833,
+  "HtmlOutput": 49,
   "Includes": [
-    27,
-    184
+    609,
+    203
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 644,
-      "LineNumberTo": 794,
-      "Delta": 738,
-      "IncludeId": "et",
+      "LineNumberFrom": 754,
+      "LineNumberTo": 582,
+      "Delta": 127,
+      "IncludeId": "sint",
       "IncludedFrom": [
-        "sit",
-        "animi"
+        "occaecati",
+        "sit"
       ]
     },
     {
-      "LineNumberFrom": 644,
-      "LineNumberTo": 794,
-      "Delta": 738,
-      "IncludeId": "et",
+      "LineNumberFrom": 754,
+      "LineNumberTo": 582,
+      "Delta": 127,
+      "IncludeId": "sint",
       "IncludedFrom": [
-        "sit",
-        "animi"
+        "occaecati",
+        "sit"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2021-04-16T14:28:26.8833212+02:00",
-  "RegisteredAssociateId": 972,
-  "Updated": "2001-05-11T14:28:26.8833212+02:00",
-  "UpdatedAssociateId": 109
+  "Registered": "2002-08-13T13:14:08.6178742+02:00",
+  "RegisteredAssociateId": 993,
+  "Updated": "2006-10-31T13:14:08.6178742+01:00",
+  "UpdatedAssociateId": 723
 }
 ```
 
@@ -169,52 +169,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 197,
-  "UniqueIdentifier": "quaerat",
-  "Name": "Stracke LLC",
-  "Description": "Ergonomic optimal encoding",
-  "IncludeId": "dolor",
-  "AccessKey": "eum",
-  "HierarchyId": 201,
-  "Source": "enim",
+  "EjscriptId": 645,
+  "UniqueIdentifier": "inventore",
+  "Name": "Schmitt LLC",
+  "Description": "Self-enabling fresh-thinking info-mediaries",
+  "IncludeId": "sit",
+  "AccessKey": "culpa",
+  "HierarchyId": 101,
+  "Source": "voluptatem",
   "SourceCode": "quaerat",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 514,
+  "HtmlOutput": 387,
   "Includes": [
-    162,
-    143
+    531,
+    203
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 343,
-      "LineNumberTo": 582,
-      "Delta": 505,
-      "IncludeId": "ut",
+      "LineNumberFrom": 962,
+      "LineNumberTo": 1000,
+      "Delta": 351,
+      "IncludeId": "rerum",
       "IncludedFrom": [
-        "laboriosam",
-        "et"
+        "rerum",
+        "non"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 181
+          "FieldLength": 556
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2017-09-10T14:28:26.8833212+02:00",
-  "RegisteredAssociateId": 878,
-  "Updated": "1999-12-27T14:28:26.8833212+01:00",
-  "UpdatedAssociateId": 534,
+  "Registered": "2002-05-08T13:14:08.6178742+02:00",
+  "RegisteredAssociateId": 780,
+  "Updated": "2023-09-07T13:14:08.6178742+02:00",
+  "UpdatedAssociateId": 331,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 888
+      "FieldLength": 844
     }
   },
   "_Links": {

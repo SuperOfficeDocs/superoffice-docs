@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Lehner-Gerhold",
+  "Name": "Berge, Klein and Adams",
   "Entities": [
     {
-      "HeadingId": 593,
-      "Name": "Simonis-Feeney",
-      "Tooltip": "quia",
-      "Deleted": false,
-      "Rank": 217,
-      "UdListDefinitionId": 54
+      "HeadingId": 174,
+      "Name": "Hilll LLC",
+      "Tooltip": "laboriosam",
+      "Deleted": true,
+      "Rank": 332,
+      "UdListDefinitionId": 25
     },
     {
-      "HeadingId": 593,
-      "Name": "Simonis-Feeney",
-      "Tooltip": "quia",
-      "Deleted": false,
-      "Rank": 217,
-      "UdListDefinitionId": 54
+      "HeadingId": 174,
+      "Name": "Hilll LLC",
+      "Tooltip": "laboriosam",
+      "Deleted": true,
+      "Rank": 332,
+      "UdListDefinitionId": 25
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 83,
-    "Name": "Hoeger-Adams",
-    "Tooltip": "reiciendis",
-    "Deleted": true,
-    "Rank": 521,
-    "UdListDefinitionId": 134,
+    "HeadingId": 678,
+    "Name": "Larkin-McKenzie",
+    "Tooltip": "quisquam",
+    "Deleted": false,
+    "Rank": 697,
+    "UdListDefinitionId": 376,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 878
+        "FieldType": "System.Int32",
+        "FieldLength": 493
       }
     }
   }

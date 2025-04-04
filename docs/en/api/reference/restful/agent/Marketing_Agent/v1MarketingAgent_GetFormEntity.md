@@ -26,7 +26,7 @@ Gets a FormEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=51
+POST /api/v1/Agents/Marketing/GetFormEntity?formEntityId=478
 POST /api/v1/Agents/Marketing/GetFormEntity?$select=name,department,category/id
 ```
 
@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Marketing/GetFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,38 +99,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 565,
-  "FormKey": "et",
-  "Name": "Emard-Kunde",
-  "Description": "Optimized zero administration complexity",
-  "Config": "consequatur",
-  "FolderId": 150,
-  "ScriptId": 866,
-  "ResponseShipmentId": 461,
-  "Active": false,
-  "Expires": "2013-10-04T14:28:22.1022648+02:00",
-  "MaxSubmits": 377,
+  "FormId": 689,
+  "FormKey": "voluptas",
+  "Name": "Collier, Stokes and Frami",
+  "Description": "Exclusive background support",
+  "Config": "mollitia",
+  "FolderId": 175,
+  "ScriptId": 292,
+  "ResponseShipmentId": 102,
+  "Active": true,
+  "Expires": "2022-07-06T13:14:00.6887452+02:00",
+  "MaxSubmits": 217,
   "Type": "Normal",
-  "Recipe": "et",
-  "GroupId": 593,
+  "Recipe": "dolore",
+  "GroupId": 10,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2006-07-09T14:28:22.1022648+02:00",
-  "RegisteredAssociateId": 943,
-  "Updated": "2003-12-10T14:28:22.1022648+01:00",
-  "UpdatedAssociateId": 224,
-  "UpdatedCount": 13,
+  "Registered": "2002-04-06T13:14:00.6887452+02:00",
+  "RegisteredAssociateId": 577,
+  "Updated": "2023-01-03T13:14:00.6887452+01:00",
+  "UpdatedAssociateId": 518,
+  "UpdatedCount": 566,
   "EmailFlows": [
-    564,
-    937
+    142,
+    995
   ],
-  "FolderName": "Waters, Conn and Sanford",
+  "FolderName": "Stehr Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 995
+      "FieldType": "System.String",
+      "FieldLength": 501
     }
   }
 }

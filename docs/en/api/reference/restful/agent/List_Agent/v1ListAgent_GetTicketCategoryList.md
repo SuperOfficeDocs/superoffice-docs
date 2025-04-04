@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,36 +98,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketCategoryId": 645,
-    "ParentId": 352,
-    "Name": "Beier-Hartmann",
-    "Fullname": "voluptatem",
-    "CategoryMaster": 149,
+    "TicketCategoryId": 6,
+    "ParentId": 734,
+    "Name": "Johns-Glover",
+    "Fullname": "et",
+    "CategoryMaster": 977,
     "Flags": "AcceptWhenReplying",
     "DelegateMethod": "Even",
-    "ExternalName": "Fisher-Hand",
+    "ExternalName": "Nolan LLC",
     "ClosingStatus": "Active",
     "MsgClosingStatus": "Active",
-    "AssignmentLag": 95,
-    "ReplyTemplate": 958,
-    "NotificationEmail": "shane@ferrywilkinson.com",
+    "AssignmentLag": 792,
+    "ReplyTemplate": 299,
+    "NotificationEmail": "raoul_moore@schillerbreitenberg.info",
     "DefaultTicketStatus": null,
     "DefaultMessageStatus": null,
-    "EffectiveReplyTemplateId": 304,
+    "EffectiveReplyTemplateId": 529,
     "ExtraFields": {
-      "ExtraFields1": "alias",
-      "ExtraFields2": "est"
+      "ExtraFields1": "aut",
+      "ExtraFields2": "consequatur"
     },
     "CustomFields": {
-      "CustomFields1": "natus",
-      "CustomFields2": "inventore"
+      "CustomFields1": "commodi",
+      "CustomFields2": "optio"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 263
+        "FieldType": "System.String",
+        "FieldLength": 756
       }
     }
   }

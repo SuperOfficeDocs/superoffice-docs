@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 537,
-    "Tooltip": "et",
+    "Total": 299,
+    "Tooltip": "reiciendis",
     "CanAssign": false,
-    "Free": 755,
-    "InUse": 570,
-    "IsHidden": true,
+    "Free": 481,
+    "InUse": 555,
+    "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 286,
-    "Name": "Hilll, Dach and Hyatt",
-    "Description": "Monitored local array",
-    "PrerequisiteModuleName": "Oberbrunner, Jast and Abshire",
-    "SortOrder": 809,
-    "ExtraFlags": 197,
+    "ModuleLicenseId": 645,
+    "Name": "Bailey, Gutkowski and O'Connell",
+    "Description": "Multi-lateral logistical projection",
+    "PrerequisiteModuleName": "Thiel Inc and Sons",
+    "SortOrder": 467,
+    "ExtraFlags": 877,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 761
+        "FieldLength": 368
       }
     }
   }

@@ -92,7 +92,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "voluptates",
+  "TriggerScriptUniqueId": "ex",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 822,
-  "Name": "Bartoletti, Kshlerin and Corkery",
+  "ScreenChooserId": 55,
+  "Name": "Lemke-Anderson",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "qui",
-  "Source": "consequatur",
-  "Registered": "2019-06-17T14:28:21.680407+02:00",
-  "RegisteredAssociateId": 689,
-  "Updated": "2014-07-27T14:28:21.680407+02:00",
-  "UpdatedAssociateId": 642,
+  "Enabled": true,
+  "UniqueIdentifier": "dicta",
+  "Source": "assumenda",
+  "Registered": "2009-08-13T13:14:00.0163364+02:00",
+  "RegisteredAssociateId": 513,
+  "Updated": "2005-09-12T13:14:00.0163364+02:00",
+  "UpdatedAssociateId": 319,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 664
+      "FieldLength": 311
     }
   }
 }

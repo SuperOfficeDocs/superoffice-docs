@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 310,
-  "UdListDefinitionId": 656,
+  "Id": 58,
+  "UdListDefinitionId": 232,
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 182,
-  "Name": "King-Mueller",
-  "Tooltip": "enim",
+  "Id": 201,
+  "Name": "Bashirian-Cruickshank",
+  "Tooltip": "nulla",
   "Deleted": true,
-  "UdListDefinitionId": 167,
-  "Rank": 805,
+  "UdListDefinitionId": 997,
+  "Rank": 609,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldLength": 379
     }
   }
 }

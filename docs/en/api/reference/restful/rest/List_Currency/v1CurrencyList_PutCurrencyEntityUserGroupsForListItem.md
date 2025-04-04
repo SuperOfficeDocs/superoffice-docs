@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Currency/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 669,
-    "Name": "Keebler-Rohan",
-    "ToolTip": "Qui laborum tempora fugit nostrum asperiores vel veritatis.",
-    "Deleted": true,
-    "Rank": 994,
-    "Type": "debitis",
-    "ColorBlock": 331,
-    "IconHint": "ipsam",
-    "Selected": false,
-    "LastChanged": "2008-07-08T14:28:27.5395453+02:00",
+    "Id": 282,
+    "Name": "Hackett-Strosin",
+    "ToolTip": "Omnis nemo neque eos.",
+    "Deleted": false,
+    "Rank": 147,
+    "Type": "nam",
+    "ColorBlock": 223,
+    "IconHint": "eos",
+    "Selected": true,
+    "LastChanged": "2002-02-09T13:14:09.7285208+01:00",
     "ChildItems": [
       {
-        "Id": 814,
-        "Name": "Jacobson-Glover",
-        "ToolTip": "Quo dolorem sunt voluptatem sit qui beatae.",
+        "Id": 393,
+        "Name": "Goldner-Hettinger",
+        "ToolTip": "Animi commodi non aut accusamus iure dolor.",
         "Deleted": false,
-        "Rank": 256,
-        "Type": "vero",
-        "ColorBlock": 337,
-        "IconHint": "voluptatum",
-        "Selected": false,
-        "LastChanged": "2009-06-01T14:28:27.5395453+02:00",
+        "Rank": 827,
+        "Type": "molestiae",
+        "ColorBlock": 87,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2001-06-01T13:14:09.7285208+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "vel",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "nisi",
         "Hidden": false,
-        "FullName": "Miles Hilma Reichert Jr."
+        "FullName": "Miss Alessia Jarred Anderson"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "rerum",
-    "Hidden": false,
-    "FullName": "Prof. Karlee Icie Dicki"
+    "ExtraInfo": "qui",
+    "StyleHint": "quibusdam",
+    "Hidden": true,
+    "FullName": "Pauline Robbie Glover DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 771,
-    "Name": "Conn, Bosco and Gutmann",
-    "ToolTip": "Est expedita et voluptatem et enim autem.",
+    "Id": 364,
+    "Name": "Gleason, Yundt and West",
+    "ToolTip": "Voluptates nam facere laborum nostrum.",
     "Deleted": false,
-    "Rank": 873,
-    "Type": "rerum",
-    "ColorBlock": 650,
-    "IconHint": "sapiente",
-    "Selected": false,
-    "LastChanged": "2005-02-14T14:28:27.5395453+01:00",
+    "Rank": 697,
+    "Type": "occaecati",
+    "ColorBlock": 769,
+    "IconHint": "repudiandae",
+    "Selected": true,
+    "LastChanged": "2006-03-27T13:14:09.7285208+02:00",
     "ChildItems": [
       {
-        "Id": 431,
-        "Name": "Prohaska-Stehr",
-        "ToolTip": "Enim quibusdam aut id vel.",
-        "Deleted": false,
-        "Rank": 945,
-        "Type": "dolorem",
-        "ColorBlock": 446,
-        "IconHint": "provident",
-        "Selected": true,
-        "LastChanged": "2001-01-08T14:28:27.5395453+01:00",
+        "Id": 202,
+        "Name": "Homenick, Hickle and Marquardt",
+        "ToolTip": "Qui sunt fugit quo ipsum iste.",
+        "Deleted": true,
+        "Rank": 754,
+        "Type": "beatae",
+        "ColorBlock": 324,
+        "IconHint": "ut",
+        "Selected": false,
+        "LastChanged": "2013-04-17T13:14:09.7285208+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "at",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Jamal Adams",
+        "ExtraInfo": "eos",
+        "StyleHint": "reiciendis",
+        "Hidden": true,
+        "FullName": "Eleazar Lubowitz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 603
+            "FieldLength": 902
           }
         }
       }
     ],
-    "ExtraInfo": "atque",
-    "StyleHint": "omnis",
+    "ExtraInfo": "eum",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Dr. Johnny Katelin Keeling",
+    "FullName": "Earlene Keeling",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 51
+        "FieldLength": 551
       }
     }
   }

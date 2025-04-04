@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,36 +84,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 238,
-  "ParentId": 210,
-  "Name": "Runolfsson-Connelly",
-  "Fullname": "quis",
-  "CategoryMaster": 900,
+  "TicketCategoryId": 836,
+  "ParentId": 919,
+  "Name": "Boyer Group",
+  "Fullname": "veniam",
+  "CategoryMaster": 504,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Keebler Group",
+  "ExternalName": "Abshire, Schimmel and Jakubowski",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 697,
-  "ReplyTemplate": 299,
-  "NotificationEmail": "salma.jenkins@ferry.info",
+  "AssignmentLag": 410,
+  "ReplyTemplate": 740,
+  "NotificationEmail": "micheal_kozey@rau.biz",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 879,
+  "EffectiveReplyTemplateId": 629,
   "ExtraFields": {
-    "ExtraFields1": "deleniti",
+    "ExtraFields1": "explicabo",
     "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "nulla",
-    "CustomFields2": "quasi"
+    "CustomFields1": "eveniet",
+    "CustomFields2": "quam"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 940
+      "FieldType": "System.Int32",
+      "FieldLength": 808
     }
   }
 }

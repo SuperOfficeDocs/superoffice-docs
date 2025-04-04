@@ -83,7 +83,7 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -98,21 +98,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 791,
-  "FieldName": "Roob LLC",
-  "Label": "dolorem",
-  "Tooltip": "est",
+  "QuoteLineConfigurationId": 945,
+  "FieldName": "Smith-Streich",
+  "Label": "rerum",
+  "Tooltip": "nesciunt",
   "Editable": false,
   "InUse": true,
   "Mandatory": false,
-  "Rank": 445,
+  "Rank": 164,
   "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 237
+      "FieldType": "System.String",
+      "FieldLength": 552
     }
   }
 }

@@ -93,7 +93,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FunctionalRightName": "Nicolas-Walker"
+  "FunctionalRightName": "Boyle-Crona"
 }
 ```
 
@@ -105,50 +105,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 245,
-    "Name": "Lubowitz Group",
-    "ToolTip": "Qui id accusantium unde ex assumenda incidunt quod.",
+    "Id": 369,
+    "Name": "Mertz-Schroeder",
+    "ToolTip": "Hic qui reprehenderit animi aut non aperiam.",
     "Deleted": true,
-    "Rank": 202,
-    "Type": "quasi",
+    "Rank": 132,
+    "Type": "ratione",
     "ChildItems": [
       {
-        "Id": 104,
-        "Name": "Kuhlman-Gerhold",
-        "ToolTip": "Nisi culpa mollitia quod aspernatur qui aut consequatur.",
+        "Id": 110,
+        "Name": "Abshire, Macejkovic and Gislason",
+        "ToolTip": "Eos consequatur dolores placeat modi aut et sint.",
         "Deleted": false,
-        "Rank": 28,
-        "Type": "corrupti",
+        "Rank": 704,
+        "Type": "ab",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "reprehenderit",
-        "ColorBlock": 764,
-        "ExtraInfo": "tempore",
-        "StyleHint": "placeat",
-        "FullName": "Arely Amina Grady DVM",
+        "IconHint": "rem",
+        "ColorBlock": 107,
+        "ExtraInfo": "maiores",
+        "StyleHint": "aut",
+        "FullName": "Zena Ullrich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 108
+            "FieldType": "System.Int32",
+            "FieldLength": 589
           }
         }
       }
     ],
-    "IconHint": "ipsa",
-    "ColorBlock": 895,
-    "ExtraInfo": "laboriosam",
-    "StyleHint": "aut",
-    "FullName": "Sigmund Ritchie",
+    "IconHint": "dolorum",
+    "ColorBlock": 630,
+    "ExtraInfo": "quia",
+    "StyleHint": "laudantium",
+    "FullName": "Alyce Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 360
+        "FieldLength": 374
       }
     }
   }

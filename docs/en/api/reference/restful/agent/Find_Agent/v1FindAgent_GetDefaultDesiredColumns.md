@@ -87,13 +87,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quia",
-  "ProviderName": "Williamson Group",
-  "StorageKey": "iste"
+  "StorageType": "est",
+  "ProviderName": "Wilderman Inc and Sons",
+  "StorageKey": "doloribus"
 }
 ```
 
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Romaguera-Tromp",
-    "DisplayTooltip": "rem",
-    "DisplayType": "repellendus",
+    "DisplayName": "Bayer, Rodriguez and Heathcote",
+    "DisplayTooltip": "beatae",
+    "DisplayType": "sunt",
     "CanOrderBy": true,
-    "Name": "Batz Inc and Sons",
+    "Name": "Carter Group",
     "CanRestrictBy": false,
-    "RestrictionType": "ut",
-    "RestrictionListName": "Cremin, Ryan and Orn",
-    "IsVisible": true,
-    "ExtraInfo": "voluptates",
-    "Width": "est",
-    "IconHint": "ea",
-    "HeadingIconHint": "minima"
+    "RestrictionType": "aut",
+    "RestrictionListName": "Crist Group",
+    "IsVisible": false,
+    "ExtraInfo": "et",
+    "Width": "ducimus",
+    "IconHint": "perspiciatis",
+    "HeadingIconHint": "beatae"
   }
 ]
 ```

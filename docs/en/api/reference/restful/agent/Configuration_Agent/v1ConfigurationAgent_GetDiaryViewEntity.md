@@ -26,7 +26,7 @@ Gets a DiaryViewEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=264
+POST /api/v1/Agents/Configuration/GetDiaryViewEntity?diaryViewEntityId=5
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity?$select=name,department,category/id
 ```
 
@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/Configuration/GetDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,49 +84,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 230,
-  "Name": "Luettgen-Kuhlman",
-  "Tooltip": "possimus",
-  "VisibleColumns": 794,
-  "Rank": 131,
-  "AssocId": 539,
+  "DiaryViewId": 368,
+  "Name": "Schmeler, Kassulke and Carter",
+  "Tooltip": "beatae",
+  "VisibleColumns": 750,
+  "Rank": 988,
+  "AssocId": 472,
   "AssociateList": [
     {
-      "Id": 164,
-      "Name": "Romaguera-Marquardt",
-      "ToolTip": "Et at quibusdam illum.",
-      "Deleted": true,
-      "Rank": 644,
-      "Type": "explicabo",
-      "ColorBlock": 22,
-      "IconHint": "debitis",
-      "Selected": true,
-      "LastChanged": "2009-11-12T14:28:21.5866608+01:00",
+      "Id": 110,
+      "Name": "White-Upton",
+      "ToolTip": "Nostrum aut nisi necessitatibus qui est quo.",
+      "Deleted": false,
+      "Rank": 849,
+      "Type": "qui",
+      "ColorBlock": 63,
+      "IconHint": "accusantium",
+      "Selected": false,
+      "LastChanged": "2012-09-17T13:13:59.7038141+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "autem",
-      "StyleHint": "odit",
-      "Hidden": true,
-      "FullName": "Ashlee Keebler",
+      "ExtraInfo": "velit",
+      "StyleHint": "laborum",
+      "Hidden": false,
+      "FullName": "Tierra Waelchi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 783
+          "FieldLength": 216
         }
       }
     }
   ],
-  "TzLocationId": 635,
+  "TzLocationId": 391,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 662
+      "FieldLength": 531
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 635,
-  "Name": "Kuhlman Inc and Sons",
-  "Tooltip": "expedita",
-  "Deleted": true,
-  "Rank": 999,
-  "UdListDefinitionId": 213
+  "HeadingId": 28,
+  "Name": "Macejkovic Inc and Sons",
+  "Tooltip": "animi",
+  "Deleted": false,
+  "Rank": 207,
+  "UdListDefinitionId": 209
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 737,
-  "Name": "Sanford LLC",
-  "Tooltip": "mollitia",
-  "Deleted": true,
-  "Rank": 412,
-  "UdListDefinitionId": 334,
+  "HeadingId": 183,
+  "Name": "Little-Stamm",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 137,
+  "UdListDefinitionId": 673,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 441
+      "FieldLength": 525
     }
   }
 }

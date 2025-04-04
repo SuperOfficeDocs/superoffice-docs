@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/PaymentTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 776,
-    "Name": "Buckridge-McCullough",
-    "ToolTip": "Qui quas distinctio voluptas id itaque.",
+    "Id": 459,
+    "Name": "Grant-Lowe",
+    "ToolTip": "Illo qui et et.",
     "Deleted": true,
-    "Rank": 193,
-    "Type": "porro",
-    "ColorBlock": 461,
-    "IconHint": "placeat",
+    "Rank": 286,
+    "Type": "recusandae",
+    "ColorBlock": 572,
+    "IconHint": "tempore",
     "Selected": false,
-    "LastChanged": "1998-06-14T14:28:27.5864176+02:00",
+    "LastChanged": "2020-02-24T13:14:09.8379023+01:00",
     "ChildItems": [
       {
-        "Id": 271,
-        "Name": "Gaylord Inc and Sons",
-        "ToolTip": "Quasi dolores saepe sint.",
+        "Id": 426,
+        "Name": "Schneider-Schimmel",
+        "ToolTip": "Unde nam sapiente necessitatibus in nisi.",
         "Deleted": true,
-        "Rank": 132,
-        "Type": "ut",
-        "ColorBlock": 586,
-        "IconHint": "non",
+        "Rank": 811,
+        "Type": "sunt",
+        "ColorBlock": 104,
+        "IconHint": "quia",
         "Selected": false,
-        "LastChanged": "2002-01-24T14:28:27.5864176+01:00",
+        "LastChanged": "2001-09-03T13:14:09.8379023+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "esse",
+        "ExtraInfo": "quod",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Miss Ivah Lang"
+        "FullName": "Dr. Caterina Kaia Konopelski III"
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "vero",
-    "Hidden": true,
-    "FullName": "Dawson Kassulke"
+    "ExtraInfo": "dolores",
+    "StyleHint": "dolores",
+    "Hidden": false,
+    "FullName": "Mr. Nigel Leuschke"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 366,
-    "Name": "McGlynn-Doyle",
-    "ToolTip": "Earum sint rerum possimus qui saepe iste.",
+    "Id": 88,
+    "Name": "Jenkins, Williamson and Doyle",
+    "ToolTip": "Exercitationem eligendi ex nostrum nemo.",
     "Deleted": false,
-    "Rank": 251,
-    "Type": "voluptatibus",
-    "ColorBlock": 468,
-    "IconHint": "ut",
+    "Rank": 795,
+    "Type": "laudantium",
+    "ColorBlock": 887,
+    "IconHint": "rerum",
     "Selected": false,
-    "LastChanged": "2015-05-14T14:28:27.5864176+02:00",
+    "LastChanged": "2000-03-18T13:14:09.8379023+01:00",
     "ChildItems": [
       {
-        "Id": 174,
-        "Name": "Dooley Group",
-        "ToolTip": "Sed debitis delectus omnis quia.",
+        "Id": 972,
+        "Name": "Jast, Pacocha and Veum",
+        "ToolTip": "Qui aut sed vel rerum eos.",
         "Deleted": false,
-        "Rank": 290,
-        "Type": "ut",
-        "ColorBlock": 977,
-        "IconHint": "et",
+        "Rank": 109,
+        "Type": "optio",
+        "ColorBlock": 629,
+        "IconHint": "assumenda",
         "Selected": false,
-        "LastChanged": "2023-06-23T14:28:27.5864176+02:00",
+        "LastChanged": "2011-10-17T13:14:09.8379023+02:00",
         "ChildItems": [
           {},
           {}
         ],
         "ExtraInfo": "et",
-        "StyleHint": "explicabo",
+        "StyleHint": "sint",
         "Hidden": false,
-        "FullName": "Micheal Powlowski",
+        "FullName": "Elvera Crist",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 361
+            "FieldType": "System.Int32",
+            "FieldLength": 214
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "provident",
+    "ExtraInfo": "quis",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Eliseo Kreiger",
+    "FullName": "Christina Schamberger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 680
+        "FieldLength": 392
       }
     }
   }

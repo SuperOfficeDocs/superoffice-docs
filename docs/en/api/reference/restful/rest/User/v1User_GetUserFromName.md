@@ -85,7 +85,7 @@ OK
 GET /api/v1/User/{userName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -95,14 +95,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 229,
-  "Name": "Leuschke-Ortiz",
-  "Rank": 631,
-  "Tooltip": "maiores",
+  "AssociateId": 913,
+  "Name": "Macejkovic LLC",
+  "Rank": 776,
+  "Tooltip": "ut",
   "LicenseOwners": [
     {
-      "Name": "Zieme Group",
-      "Description": "Future-proofed asynchronous neural-net",
+      "Name": "Collins-Collins",
+      "Description": "Exclusive radical customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -116,13 +116,13 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 878
         }
       }
     },
     {
-      "Name": "Zieme Group",
-      "Description": "Future-proofed asynchronous neural-net",
+      "Name": "Collins-Collins",
+      "Description": "Exclusive radical customer loyalty",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,7 +136,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 460
+          "FieldLength": 878
         }
       }
     }
@@ -145,110 +145,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "sequi",
-      "Tooltip": "sit",
-      "Id": 888,
-      "Rank": 4,
+      "Value": "atque",
+      "Tooltip": "occaecati",
+      "Id": 361,
+      "Rank": 43,
       "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 667
+          "FieldType": "System.Int32",
+          "FieldLength": 138
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": false,
-  "Lastlogin": "2015-11-30T14:28:27.4301751+01:00",
-  "Lastlogout": "2012-05-14T14:28:27.4301751+02:00",
-  "EjUserId": 744,
-  "RequestSignature": "consequatur",
+  "Deleted": true,
+  "Lastlogin": "2006-07-27T13:14:09.5248817+02:00",
+  "Lastlogout": "1998-03-05T13:14:09.5248817+01:00",
+  "EjUserId": 298,
+  "RequestSignature": "culpa",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "libero",
-      "DisplayValue": "dolorum",
+      "Value": "quibusdam",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldLength": 876
         }
       }
     },
     {
       "Type": null,
-      "Value": "libero",
-      "DisplayValue": "dolorum",
+      "Value": "quibusdam",
+      "DisplayValue": "sunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 188
+          "FieldLength": 876
         }
       }
     }
   ],
-  "UserName": "Berge, Price and Frami",
+  "UserName": "Kuphal, Bode and Rosenbaum",
   "TicketCategories": [
     {
-      "Id": 161,
-      "Name": "Fay Inc and Sons",
-      "ToolTip": "Est pariatur autem.",
+      "Id": 69,
+      "Name": "Ebert Group",
+      "ToolTip": "Ab omnis ut dolor ut occaecati dolores.",
       "Deleted": false,
-      "Rank": 991,
-      "Type": "quo",
+      "Rank": 516,
+      "Type": "enim",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "sapiente",
-      "ColorBlock": 25,
-      "ExtraInfo": "officiis",
-      "StyleHint": "est",
-      "FullName": "Emmet Deckow",
+      "IconHint": "cumque",
+      "ColorBlock": 321,
+      "ExtraInfo": "ut",
+      "StyleHint": "veritatis",
+      "FullName": "Miss Mark Toy Jr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 113
+          "FieldType": "System.String",
+          "FieldLength": 519
         }
       }
     }
   ],
-  "NickName": "Heaney, Koepp and Armstrong",
-  "WaitingForApproval": false,
+  "NickName": "Fahey-Gaylord",
+  "WaitingForApproval": true,
   "ExtraFields": {
-    "ExtraFields1": "similique",
-    "ExtraFields2": "nostrum"
+    "ExtraFields1": "eos",
+    "ExtraFields2": "veritatis"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "quaerat"
+    "CustomFields1": "laborum",
+    "CustomFields2": "nihil"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kreiger-Satterfield",
-      "DisplayName": "Kuhic-Stark",
-      "Description": "Enhanced even-keeled knowledge base",
-      "ToolTip": "Est consequatur nemo qui tempore incidunt dolor.",
+      "Name": "Hahn-Barton",
+      "DisplayName": "Jacobson LLC",
+      "Description": "Vision-oriented reciprocal portal",
+      "ToolTip": "Consequatur et.",
       "Actions": "Implicit",
-      "ActionData": "perspiciatis",
+      "ActionData": "neque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 480
+          "FieldLength": 690
         }
       }
     }
@@ -257,8 +257,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 195
+      "FieldType": "System.String",
+      "FieldLength": 929
     }
   }
 }

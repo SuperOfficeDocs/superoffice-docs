@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/Quote/GetProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 793,
-  "ERPProductKey": "sunt"
+  "QuoteConnectionId": 678,
+  "ERPProductKey": "occaecati"
 }
 ```
 
@@ -123,73 +123,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 922,
-  "ERPProductKey": "omnis",
-  "ERPPriceListKey": "placeat",
-  "Name": "Pacocha-Kozey",
-  "Description": "Customer-focused motivating application",
-  "Code": "sit",
-  "PriceUnit": "eligendi",
-  "QuantityUnit": "qui",
-  "IsSubscription": false,
-  "SubscriptionUnit": "aut",
-  "DefaultSubscriptionQuantity": 12623.752,
-  "ItemNumber": "605347",
+  "ProductId": 729,
+  "ERPProductKey": "saepe",
+  "ERPPriceListKey": "sit",
+  "Name": "Collins Inc and Sons",
+  "Description": "Vision-oriented systemic data-warehouse",
+  "Code": "suscipit",
+  "PriceUnit": "id",
+  "QuantityUnit": "expedita",
+  "IsSubscription": true,
+  "SubscriptionUnit": "sit",
+  "DefaultSubscriptionQuantity": 30070.73,
+  "ItemNumber": "1417838",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "omnis",
-  "ProductTypeKey": "facere",
-  "VAT": 19697.19,
-  "VATInfo": "tempora",
-  "UnitCost": 6966.882,
-  "UnitMinimumPrice": 5989.074,
-  "UnitListPrice": 20023.126,
+  "ProductFamilyKey": "vel",
+  "ProductTypeKey": "qui",
+  "VAT": 3027.444,
+  "VATInfo": "eius",
+  "UnitCost": 26942.998,
+  "UnitMinimumPrice": 17171.185999999998,
+  "UnitListPrice": 13056.243999999999,
   "InAssortment": false,
-  "Supplier": "neque",
-  "SupplierCode": "accusamus",
-  "Rights": "maxime",
-  "Rule": "nihil",
+  "Supplier": "accusantium",
+  "SupplierCode": "laborum",
+  "Rights": "nihil",
+  "Rule": "ut",
   "ExtraInfo": [
     {
-      "Name": "Reichert-Leuschke",
-      "Value": "ad",
+      "Name": "Smitham-Schuster",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 826
+          "FieldType": "System.String",
+          "FieldLength": 302
         }
       }
     },
     {
-      "Name": "Reichert-Leuschke",
-      "Value": "ad",
+      "Name": "Smitham-Schuster",
+      "Value": "et",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 826
+          "FieldType": "System.String",
+          "FieldLength": 302
         }
       }
     }
   ],
-  "RawExtraInfo": "molestiae",
-  "ExtraField1": "rerum",
-  "ExtraField2": "quo",
-  "ExtraField3": "est",
-  "ExtraField4": "consequuntur",
-  "ExtraField5": "et",
-  "InStock": 6979.418,
+  "RawExtraInfo": "aut",
+  "ExtraField1": "odit",
+  "ExtraField2": "ex",
+  "ExtraField3": "distinctio",
+  "ExtraField4": "qui",
+  "ExtraField5": "sit",
+  "InStock": 20562.174,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 933
+      "FieldType": "System.Int32",
+      "FieldLength": 960
     }
   }
 }

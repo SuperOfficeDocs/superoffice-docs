@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/NumberAllocation/CreateDefaultRefCountEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,39 +77,39 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RefCountsId": 330,
-  "Field": "qui",
-  "RecordId": 81,
+  "RefCountsId": 703,
+  "Field": "nobis",
+  "RecordId": 247,
   "SuggestedRecords": [
     {
-      "Id": 531,
-      "Name": "Prosacco Group",
-      "ToolTip": "Expedita aut similique repellendus error ea cumque non.",
-      "Deleted": true,
-      "Rank": 651,
-      "Type": "aut",
+      "Id": 149,
+      "Name": "Durgan Group",
+      "ToolTip": "Corporis facere voluptatum voluptatibus et.",
+      "Deleted": false,
+      "Rank": 765,
+      "Type": "quas",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "nulla",
-      "ColorBlock": 113,
-      "ExtraInfo": "impedit",
-      "StyleHint": "impedit",
-      "FullName": "Mrs. Sidney Jarvis Beahan",
+      "IconHint": "ut",
+      "ColorBlock": 700,
+      "ExtraInfo": "quisquam",
+      "StyleHint": "perferendis",
+      "FullName": "Sterling Barton",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 364
+          "FieldType": "System.String",
+          "FieldLength": 578
         }
       }
     }
   ],
-  "CurrentValue": 867,
-  "TravelPrefix": 849,
-  "SatPrefix": 260,
+  "CurrentValue": 102,
+  "TravelPrefix": 64,
+  "SatPrefix": 464,
   "Allocate": false,
   "Unique": false,
   "ReadOnly": false,
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 400
+      "FieldLength": 461
     }
   }
 }

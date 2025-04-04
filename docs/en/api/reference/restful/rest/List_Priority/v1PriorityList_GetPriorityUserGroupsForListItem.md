@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 742,
-    "Name": "Mayert, Leuschke and Marks",
-    "ToolTip": "Molestiae nemo distinctio optio.",
-    "Deleted": true,
-    "Rank": 181,
-    "Type": "sed",
-    "ColorBlock": 856,
-    "IconHint": "eum",
+    "Id": 777,
+    "Name": "Larson Group",
+    "ToolTip": "Rem rerum et consequatur.",
+    "Deleted": false,
+    "Rank": 265,
+    "Type": "totam",
+    "ColorBlock": 230,
+    "IconHint": "quidem",
     "Selected": true,
-    "LastChanged": "2006-01-22T14:28:27.6176673+01:00",
+    "LastChanged": "2024-02-29T13:14:09.8847801+01:00",
     "ChildItems": [
       {
-        "Id": 767,
-        "Name": "Larkin, Larson and Howell",
-        "ToolTip": "Repellendus odit cum suscipit sit est omnis cumque.",
-        "Deleted": false,
-        "Rank": 696,
-        "Type": "quia",
-        "ColorBlock": 117,
-        "IconHint": "quo",
+        "Id": 210,
+        "Name": "Brown-Green",
+        "ToolTip": "Vel dicta qui.",
+        "Deleted": true,
+        "Rank": 887,
+        "Type": "sapiente",
+        "ColorBlock": 359,
+        "IconHint": "modi",
         "Selected": false,
-        "LastChanged": "2017-09-07T14:28:27.6176673+02:00",
+        "LastChanged": "2020-09-03T13:14:09.8847801+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "est",
+        "ExtraInfo": "numquam",
+        "StyleHint": "corrupti",
         "Hidden": true,
-        "FullName": "Raul Fritsch",
+        "FullName": "Sydnee Kutch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 627
+            "FieldLength": 803
           }
         }
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "illum",
-    "Hidden": true,
-    "FullName": "Zachary Tromp",
+    "ExtraInfo": "facilis",
+    "StyleHint": "sapiente",
+    "Hidden": false,
+    "FullName": "Zane Dickinson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 881
+        "FieldLength": 179
       }
     }
   }

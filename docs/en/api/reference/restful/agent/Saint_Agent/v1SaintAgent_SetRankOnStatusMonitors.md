@@ -69,10 +69,10 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "earum",
+  "Type": "eos",
   "ItemsIds": [
-    57,
-    34
+    847,
+    828
   ]
 }
 ```

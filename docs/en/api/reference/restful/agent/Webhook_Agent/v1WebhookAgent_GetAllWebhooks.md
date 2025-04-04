@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/Webhook/GetAllWebhooks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NameFilter": "Dickinson LLC",
-  "EventFilter": "modi",
+  "NameFilter": "Breitenberg, Jacobi and Hegmann",
+  "EventFilter": "qui",
   "StatusFilter": "Active"
 }
 ```
@@ -106,28 +106,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebhookId": 300,
-    "Name": "Weissnat, Smitham and Heller",
+    "WebhookId": 216,
+    "Name": "Bernier, Grimes and Zboncak",
     "Events": [
-      "et",
-      "quam"
+      "occaecati",
+      "est"
     ],
     "TargetUrl": "http://www.example.com/",
-    "Secret": "incidunt",
+    "Secret": "consequatur",
     "State": "Active",
-    "Type": "ex",
+    "Type": "voluptate",
     "Headers": {
-      "Headers1": "totam",
-      "Headers2": "qui"
+      "Headers1": "in",
+      "Headers2": "illo"
     },
     "Properties": {
       "fieldName": {}
     },
-    "Registered": "2000-08-08T14:28:22.7428645+02:00",
+    "Registered": "1999-04-14T13:14:01.7850758+02:00",
     "RegisteredAssociate": null,
-    "Updated": "2010-09-12T14:28:22.7428645+02:00",
+    "Updated": "2009-02-08T13:14:01.7850758+01:00",
     "UpdatedAssociate": null,
-    "ErrorsEmail": "alana@prohaskawhite.uk"
+    "ErrorsEmail": "kaleb@jast.info"
   }
 ]
 ```

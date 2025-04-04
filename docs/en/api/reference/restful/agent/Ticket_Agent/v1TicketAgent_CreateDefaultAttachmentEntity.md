@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultAttachmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 610,
-  "Name": "Crist Group",
-  "ContentType": "omnis",
-  "AttSize": 274,
+  "AttachmentId": 935,
+  "Name": "Corwin, Hodkiewicz and Goodwin",
+  "ContentType": "atque",
+  "AttSize": 901,
   "InlineImage": false,
-  "ContentId": "qui",
-  "AuthKey": "ut",
+  "ContentId": "eos",
+  "AuthKey": "tempore",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 376
+      "FieldType": "System.String",
+      "FieldLength": 371
     }
   }
 }

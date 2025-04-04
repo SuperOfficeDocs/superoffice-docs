@@ -70,7 +70,7 @@ OK
 GET /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,22 +80,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "nisi",
-  "Name": "Gutmann Inc and Sons",
-  "Description": "Focused exuding product",
-  "IncludeId": "nemo",
-  "Source": "ipsum",
-  "Registered": "2003-06-28T14:28:27.4145503+02:00",
-  "RegisteredBy": "dolor",
-  "Updated": "2019-10-23T14:28:27.4145503+02:00",
-  "UpdatedBy": "voluptate",
-  "Path": "hic",
+  "UniqueIdentifier": "quod",
+  "Name": "Bechtelar, Bruen and Ratke",
+  "Description": "Stand-alone empowering algorithm",
+  "IncludeId": "rerum",
+  "Source": "alias",
+  "Registered": "2017-10-23T13:14:09.4936298+02:00",
+  "RegisteredBy": "ad",
+  "Updated": "2003-12-29T13:14:09.4936298+01:00",
+  "UpdatedBy": "culpa",
+  "Path": "ex",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 305
+      "FieldLength": 76
     }
   }
 }

@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 711,
-  "Name": "Runte-Walker",
-  "Tooltip": "voluptatem",
-  "SaveInDb": 434,
-  "Filename": "id",
-  "DefaultOref": "sed",
+  "DocumentTemplateId": 808,
+  "Name": "Cartwright-Torphy",
+  "Tooltip": "praesentium",
+  "SaveInDb": 89,
+  "Filename": "ipsum",
+  "DefaultOref": "quis",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 293,
-  "IntentId": 604,
+  "AutoeventId": 511,
+  "IntentId": 830,
   "IsDefaultPublished": false,
-  "Rank": 922,
-  "LoadTemplateFromPlugin": 915,
-  "MimeType": "dolor",
-  "IsInUseInGuides": false,
-  "DocumentTypeKey": 635,
+  "Rank": 974,
+  "LoadTemplateFromPlugin": 602,
+  "MimeType": "cupiditate",
+  "IsInUseInGuides": true,
+  "DocumentTypeKey": 836,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "hal@murraymcclure.co.uk",
+  "EmailSubject": "webster@ebert.info",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "darian_kohler@hackett.com",
+  "SenderEmailAddress": "estrella@romaguera.info",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldLength": 294
     }
   }
 }

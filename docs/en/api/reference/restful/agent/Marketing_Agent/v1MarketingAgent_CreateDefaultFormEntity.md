@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 441,
-  "FormKey": "autem",
-  "Name": "Hauck Group",
-  "Description": "Reverse-engineered dynamic policy",
-  "Config": "placeat",
-  "FolderId": 167,
-  "ScriptId": 8,
-  "ResponseShipmentId": 754,
+  "FormId": 941,
+  "FormKey": "et",
+  "Name": "Volkman-DuBuque",
+  "Description": "Polarised neutral contingency",
+  "Config": "ab",
+  "FolderId": 428,
+  "ScriptId": 841,
+  "ResponseShipmentId": 862,
   "Active": false,
-  "Expires": "2024-03-26T14:28:22.1022648+01:00",
-  "MaxSubmits": 493,
+  "Expires": "2007-05-11T13:14:00.6887452+02:00",
+  "MaxSubmits": 12,
   "Type": "Normal",
-  "Recipe": "aspernatur",
-  "GroupId": 942,
+  "Recipe": "voluptate",
+  "GroupId": 825,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2002-03-25T14:28:22.1022648+01:00",
-  "RegisteredAssociateId": 99,
-  "Updated": "2009-07-30T14:28:22.1022648+02:00",
-  "UpdatedAssociateId": 8,
-  "UpdatedCount": 855,
+  "Registered": "2000-06-06T13:14:00.6887452+02:00",
+  "RegisteredAssociateId": 657,
+  "Updated": "2024-09-20T13:14:00.6887452+02:00",
+  "UpdatedAssociateId": 882,
+  "UpdatedCount": 866,
   "EmailFlows": [
-    496,
-    915
+    950,
+    100
   ],
-  "FolderName": "Bahringer, Harris and Dickinson",
+  "FolderName": "Beier Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 191
+      "FieldType": "System.Int32",
+      "FieldLength": 141
     }
   }
 }

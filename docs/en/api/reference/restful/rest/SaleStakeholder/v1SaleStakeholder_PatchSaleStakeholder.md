@@ -126,18 +126,18 @@ SaleStakeholder  updated.
 PATCH /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "odio",
+    "path": "quasi",
     "value": {}
   },
   {
     "op": "add",
-    "path": "odio",
+    "path": "quasi",
     "value": {}
   }
 ]
@@ -150,31 +150,31 @@ HTTP/1.1 200 SaleStakeholder  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Gulgowski Inc and Sons",
-  "Comment": "ut",
-  "StakeholderRoleId": 774,
-  "CountryId": 551,
-  "PersonId": 604,
-  "EmailDescription": "jeanie.feest@daugherty.ca",
-  "EmailId": 914,
-  "EmailAddress": "rylan.gislason@brekketorphy.com",
-  "PhoneId": 854,
-  "ContactName": "Prosacco, Blick and Stracke",
-  "ContactId": 759,
-  "SaleId": 571,
-  "Mrmrs": "officiis",
-  "Firstname": "Jonathan",
-  "MiddleName": "Dietrich, Marvin and Hermiston",
-  "Lastname": "Quigley",
-  "SaleStakeholderId": 104,
-  "Rank": 447,
-  "Phone": "(365)517-1812 x06673",
+  "StakeholderRoleName": "Kunde-Cremin",
+  "Comment": "numquam",
+  "StakeholderRoleId": 720,
+  "CountryId": 310,
+  "PersonId": 825,
+  "EmailDescription": "shawna_barrows@hickle.co.uk",
+  "EmailId": 176,
+  "EmailAddress": "danielle@bayer.name",
+  "PhoneId": 738,
+  "ContactName": "Hane-Bechtelar",
+  "ContactId": 658,
+  "SaleId": 266,
+  "Mrmrs": "nulla",
+  "Firstname": "Juston",
+  "MiddleName": "Murray, Daniel and Hamill",
+  "Lastname": "Hane",
+  "SaleStakeholderId": 832,
+  "Rank": 316,
+  "Phone": "1-060-063-2899",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 994
+      "FieldType": "System.Int32",
+      "FieldLength": 649
     }
   },
   "_Links": {

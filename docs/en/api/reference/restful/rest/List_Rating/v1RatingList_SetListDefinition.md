@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Rating
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 612,
-  "Name": "Jacobson, Robel and Kozey",
-  "Tooltip": "sapiente",
+  "Id": 639,
+  "Name": "Rath Inc and Sons",
+  "Tooltip": "pariatur",
   "Deleted": false,
-  "Rank": 884,
+  "Rank": 110,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true
+  "ListType": "cum",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 948,
-  "Name": "Ernser, Dooley and Schmeler",
-  "Tooltip": "quos",
+  "Id": 426,
+  "Name": "Maggio Inc and Sons",
+  "Tooltip": "necessitatibus",
   "Deleted": true,
-  "Rank": 90,
+  "Rank": 38,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "harum",
-  "InUseByUserDefinedFields": false,
+  "ListType": "et",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 61
+      "FieldType": "System.String",
+      "FieldLength": 105
     }
   }
 }

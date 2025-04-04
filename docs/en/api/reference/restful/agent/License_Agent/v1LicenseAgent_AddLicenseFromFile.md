@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "laboriosam"
+  "FileContent": "aspernatur"
 }
 ```
 
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 823,
-      "NumberOfLicensesFree": 137,
-      "NumberOfLicensesAdded": 166,
-      "NumberOfLicensesNewTotal": 906,
-      "NumberOfLicensesNewFree": 412,
-      "NumberOfLicensesTotal": 416
+      "NumberOfLicensesInUse": 968,
+      "NumberOfLicensesFree": 110,
+      "NumberOfLicensesAdded": 28,
+      "NumberOfLicensesNewTotal": 231,
+      "NumberOfLicensesNewFree": 241,
+      "NumberOfLicensesTotal": 340
     }
   ],
-  "AccumulatedNextCheckDate": "2000-08-11T14:28:22.0241429+02:00"
+  "AccumulatedNextCheckDate": "2011-11-29T13:14:00.532487+01:00"
 }
 ```

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetActivePriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 601,
-  "CurrencyId": 499
+  "QuoteConnectionId": 532,
+  "CurrencyId": 225
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 29,
-    "ERPPriceListKey": "iure",
-    "QuoteConnectionId": 77,
-    "Name": "Considine Group",
-    "Description": "Streamlined logistical Graphical User Interface",
-    "Currency": "excepturi",
-    "CurrencyName": "Pagac, Grady and Murazik",
-    "ValidFrom": "2012-09-21T14:28:22.3053817+02:00",
-    "ValidTo": "2015-08-26T14:28:22.3053817+02:00",
-    "IsActive": true,
+    "PriceListId": 802,
+    "ERPPriceListKey": "voluptas",
+    "QuoteConnectionId": 81,
+    "Name": "Kuvalis, Wehner and Smitham",
+    "Description": "Enhanced multi-tasking alliance",
+    "Currency": "tenetur",
+    "CurrencyName": "Wehner-Erdman",
+    "ValidFrom": "2017-03-18T13:14:01.0020135+01:00",
+    "ValidTo": "2018-01-23T13:14:01.0020135+01:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 503
+        "FieldLength": 980
       }
     }
   }

@@ -31,7 +31,7 @@ The actual bitmap is accessible via /api/Services80/project/123/image/content.
 | projectId | int32 | **Required** Project id |
 
 ```http
-PUT /api/v1/Project/{id}/ImageInfo?projectId=832
+PUT /api/v1/Project/{id}/ImageInfo?projectId=720
 ```
 
 
@@ -108,19 +108,19 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 927,
-  "BlobSize": 642,
-  "Description": "Secured discrete application",
-  "ExtraInfo": "repellendus",
+  "BlobId": 59,
+  "BlobSize": 625,
+  "Description": "Operative demand-driven firmware",
+  "ExtraInfo": "aut",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "dolorem",
-  "OriginalSize": 526,
-  "CreatedDate": "2021-08-31T14:28:27.0551896+02:00",
-  "UpdatedDate": "2005-07-28T14:28:27.0551896+02:00",
+  "IsZipped": true,
+  "MimeType": "cupiditate",
+  "OriginalSize": 622,
+  "CreatedDate": "2006-05-24T13:14:08.9461361+02:00",
+  "UpdatedDate": "2004-04-29T13:14:08.9461361+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quia"
+  "ConceptualType": "omnis"
 }
 ```
 
@@ -131,25 +131,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 200,
-  "BlobSize": 678,
-  "Description": "Extended secondary portal",
-  "ExtraInfo": "quasi",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "voluptas",
-  "OriginalSize": 786,
-  "CreatedDate": "2002-07-12T14:28:27.0551896+02:00",
-  "UpdatedDate": "2011-10-31T14:28:27.0551896+01:00",
+  "BlobId": 336,
+  "BlobSize": 297,
+  "Description": "Switchable background policy",
+  "ExtraInfo": "incidunt",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "et",
+  "OriginalSize": 151,
+  "CreatedDate": "2016-01-04T13:14:08.9461361+01:00",
+  "UpdatedDate": "2002-10-06T13:14:08.9461361+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eos",
+  "ConceptualType": "eius",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 349
+      "FieldLength": 986
     }
   }
 }

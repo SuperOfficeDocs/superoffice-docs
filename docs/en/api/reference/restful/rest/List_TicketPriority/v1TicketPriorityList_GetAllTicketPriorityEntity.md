@@ -27,7 +27,7 @@ Calls the List agent service GetAllTicketPriorityEntity.
 | includeDeleted | bool |   |
 
 ```http
-GET /api/v1/List/TicketPriority/Items?includeDeleted=False
+GET /api/v1/List/TicketPriority/Items?includeDeleted=True
 ```
 
 
@@ -105,60 +105,60 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketPriorityId": 621,
-    "Name": "Gleichner LLC",
+    "TicketPriorityId": 687,
+    "Name": "Glover Inc and Sons",
     "Status": "Deleted",
     "Flags": "AlertSchedule",
-    "SortOrder": 979,
+    "SortOrder": 577,
     "TicketRead": "Continue",
     "ChangedOwner": "Continue",
     "TicketNewinfo": "Continue",
     "TicketClosed": "Continue",
     "TicketChangedPriority": "Continue",
     "TicketNew": "Continue",
-    "Deadline": 652,
-    "MonStart": "2011-04-08T14:28:27.7426615+02:00",
-    "MonStop": "2018-04-14T14:28:27.7426615+02:00",
-    "TueStart": "2019-11-12T14:28:27.7426615+01:00",
-    "TueStop": "2018-08-15T14:28:27.7426615+02:00",
-    "WedStart": "2012-05-13T14:28:27.7426615+02:00",
-    "WedStop": "2009-05-01T14:28:27.7426615+02:00",
-    "ThuStart": "2019-09-17T14:28:27.7426615+02:00",
-    "ThuStop": "2011-06-06T14:28:27.7426615+02:00",
-    "FriStart": "2017-06-27T14:28:27.7426615+02:00",
-    "FriStop": "2001-12-20T14:28:27.7426615+01:00",
-    "SatStart": "2000-04-30T14:28:27.7426615+02:00",
-    "SatStop": "1999-10-19T14:28:27.7426615+02:00",
-    "SunStart": "2007-10-31T14:28:27.7426615+01:00",
-    "SunStop": "2020-04-28T14:28:27.7426615+02:00",
+    "Deadline": 439,
+    "MonStart": "2011-09-14T13:14:10.1191693+02:00",
+    "MonStop": "2011-06-07T13:14:10.1191693+02:00",
+    "TueStart": "2015-04-24T13:14:10.1191693+02:00",
+    "TueStop": "1999-02-12T13:14:10.1191693+01:00",
+    "WedStart": "2005-07-16T13:14:10.1191693+02:00",
+    "WedStop": "2020-12-02T13:14:10.1191693+01:00",
+    "ThuStart": "1997-12-08T13:14:10.1191693+01:00",
+    "ThuStop": "2013-01-13T13:14:10.1191693+01:00",
+    "FriStart": "2024-12-30T13:14:10.1191693+01:00",
+    "FriStop": "2009-11-26T13:14:10.1191693+01:00",
+    "SatStart": "1998-12-05T13:14:10.1191693+01:00",
+    "SatStop": "2009-06-12T13:14:10.1191693+02:00",
+    "SunStart": "1997-12-08T13:14:10.1191693+01:00",
+    "SunStop": "2023-02-12T13:14:10.1191693+01:00",
     "NonDates": [
-      "reprehenderit",
-      "sint"
+      "voluptatem",
+      "quisquam"
     ],
     "EscalationLevels": [
       {
-        "TicketAlertId": 362,
-        "AlertLevel": 47,
-        "AlertTimeout": 241,
-        "Action": 416,
-        "DelegateTo": 468,
-        "ScriptId": 435,
-        "EmailTo": "alta@nicolas.com",
-        "SmsTo": "consequatur",
-        "ReplyTemplateIdCustomer": 638,
-        "ReplyTemplateIdUser": 947,
-        "ReplyTemplateIdCatmast": 709,
-        "ReplyTemplateIdEmail": 904,
-        "RtiCustomerSms": 551,
-        "ReplyTemplateIdUserSms": 88,
-        "ReplyTemplateIdCatmastSms": 522,
-        "ReplyTemplateIdSms": 404,
+        "TicketAlertId": 446,
+        "AlertLevel": 361,
+        "AlertTimeout": 277,
+        "Action": 588,
+        "DelegateTo": 791,
+        "ScriptId": 154,
+        "EmailTo": "jerald@koss.info",
+        "SmsTo": "nihil",
+        "ReplyTemplateIdCustomer": 722,
+        "ReplyTemplateIdUser": 924,
+        "ReplyTemplateIdCatmast": 955,
+        "ReplyTemplateIdEmail": 943,
+        "RtiCustomerSms": 162,
+        "ReplyTemplateIdUserSms": 848,
+        "ReplyTemplateIdCatmastSms": 771,
+        "ReplyTemplateIdSms": 830,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 328
+            "FieldLength": 477
           }
         }
       }
@@ -168,7 +168,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 790
+        "FieldLength": 629
       }
     }
   }

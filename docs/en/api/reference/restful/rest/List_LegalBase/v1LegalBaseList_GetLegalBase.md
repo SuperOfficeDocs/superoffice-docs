@@ -67,7 +67,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -77,18 +77,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "LegalBaseId": 1002,
-  "Name": "Ernser Inc and Sons",
-  "Tooltip": "numquam",
-  "Rank": 928,
-  "Key": "sunt",
-  "Deleted": true,
+  "LegalBaseId": 822,
+  "Name": "Jewess LLC",
+  "Tooltip": "distinctio",
+  "Rank": 706,
+  "Key": "dolorem",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 399
+      "FieldLength": 96
     }
   }
 }

@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Document/SavePrivacyReportPdf
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Stream": "GIF89....File contents as raw bytes...",
-  "Title": "ratione",
-  "PersonId": 707
+  "Title": "sapiente",
+  "PersonId": 532
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-221
+137
 ```

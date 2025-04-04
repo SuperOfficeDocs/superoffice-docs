@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 408,
-    "Name": "Legros, Hegmann and Nikolaus",
-    "ToolTip": "Hic accusamus ipsam.",
-    "Deleted": true,
-    "Rank": 979,
-    "Type": "iste",
-    "ColorBlock": 906,
-    "IconHint": "id",
+    "Id": 567,
+    "Name": "Boyle-Heller",
+    "ToolTip": "Delectus maiores eum sunt voluptas labore voluptates earum.",
+    "Deleted": false,
+    "Rank": 679,
+    "Type": "ut",
+    "ColorBlock": 992,
+    "IconHint": "velit",
     "Selected": false,
-    "LastChanged": "2022-07-14T14:28:27.5239205+02:00",
+    "LastChanged": "2005-11-30T13:14:09.6972691+01:00",
     "ChildItems": [
       {
-        "Id": 903,
-        "Name": "Brown-Volkman",
-        "ToolTip": "Id omnis placeat.",
-        "Deleted": true,
-        "Rank": 480,
-        "Type": "eligendi",
-        "ColorBlock": 721,
-        "IconHint": "quae",
-        "Selected": true,
-        "LastChanged": "2015-06-04T14:28:27.5239205+02:00",
+        "Id": 716,
+        "Name": "Stokes LLC",
+        "ToolTip": "Soluta enim amet in qui enim rerum quisquam.",
+        "Deleted": false,
+        "Rank": 516,
+        "Type": "voluptas",
+        "ColorBlock": 350,
+        "IconHint": "veritatis",
+        "Selected": false,
+        "LastChanged": "1998-04-24T13:14:09.6972691+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "sit",
+        "ExtraInfo": "ut",
+        "StyleHint": "vel",
         "Hidden": false,
-        "FullName": "Karina Kessler",
+        "FullName": "Ned Batz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 41
+            "FieldLength": 394
           }
         }
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "ullam",
-    "Hidden": false,
-    "FullName": "Kennith Ebert",
+    "ExtraInfo": "dolorem",
+    "StyleHint": "placeat",
+    "Hidden": true,
+    "FullName": "Miss Erika Jerel Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 206
+        "FieldLength": 225
       }
     }
   }

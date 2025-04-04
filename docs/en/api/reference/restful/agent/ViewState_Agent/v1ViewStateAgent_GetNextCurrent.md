@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/ViewState/GetNextCurrent
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Aufderhar LLC",
-  "Id": 914
+  "HistoryName": "Hudson-Willms",
+  "Id": 436
 }
 ```
 
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 323,
-  "Id": 456,
-  "HistoryName": "Bins Group",
-  "HistoryId": 395,
-  "AssociateId": 549,
-  "Name": "Schinner, Jacobson and Pagac",
-  "ItemInfo": "molestiae",
+  "Rank": 556,
+  "Id": 689,
+  "HistoryName": "Gerlach-D'Amore",
+  "HistoryId": 546,
+  "AssociateId": 613,
+  "Name": "Watsica, Hand and Witting",
+  "ItemInfo": "commodi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 622
+      "FieldType": "System.Int32",
+      "FieldLength": 755
     }
   }
 }

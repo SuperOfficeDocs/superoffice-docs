@@ -75,27 +75,27 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 732,
-  "CrmRecordId": 622,
+  "ErpConnectionId": 249,
+  "CrmRecordId": 176,
   "CrmActorType": "Contact",
-  "ErpKey": "ex",
+  "ErpKey": "placeat",
   "ErpActorType": "Customer",
   "FieldValues": [
     {
-      "DisplayName": "Adams, Flatley and Haag",
-      "CrmFieldKey": "nihil",
-      "Value": "atque",
-      "DisplayValue": "ut",
+      "DisplayName": "Wehner Group",
+      "CrmFieldKey": "accusantium",
+      "Value": "et",
+      "DisplayValue": "voluptatem",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     },
     {
-      "DisplayName": "Adams, Flatley and Haag",
-      "CrmFieldKey": "nihil",
-      "Value": "atque",
-      "DisplayValue": "ut",
+      "DisplayName": "Wehner Group",
+      "CrmFieldKey": "accusantium",
+      "Value": "et",
+      "DisplayValue": "voluptatem",
       "SyncToCrm": false,
-      "SyncToErp": false
+      "SyncToErp": true
     }
   ]
 }

@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Weimann, Braun and Doyle",
-  "DeviceName": "Hills, Johns and Farrell",
-  "DeviceIdentifier": "ad",
-  "KeyName": "Bayer LLC",
-  "KeyValue": "et",
-  "TableName": "Murray, Bode and Tremblay"
+  "ApplicationName": "Cole-Hamill",
+  "DeviceName": "Cremin-Kunde",
+  "DeviceIdentifier": "error",
+  "KeyName": "Smitham LLC",
+  "KeyValue": "sint",
+  "TableName": "Trantow-Wolf"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dolores",
-  "Value": "aliquid",
-  "RecordId": 674,
-  "CreatedDate": "2013-07-08T14:28:22.0241429+02:00",
-  "UpdatedDate": "1998-07-01T14:28:22.0241429+02:00",
-  "UpdatedBy": "praesentium",
-  "CreatedBy": "doloremque",
-  "TableName": "Cormier, Bode and Labadie",
+  "Key": "dicta",
+  "Value": "ipsa",
+  "RecordId": 56,
+  "CreatedDate": "2002-09-20T13:14:00.5168611+02:00",
+  "UpdatedDate": "2005-10-13T13:14:00.5168611+02:00",
+  "UpdatedBy": "soluta",
+  "CreatedBy": "repudiandae",
+  "TableName": "Feil, Cartwright and Swift",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 408
+      "FieldLength": 702
     }
   }
 }

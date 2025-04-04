@@ -118,34 +118,34 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 16,
-  "Name": "Thompson Inc and Sons",
-  "Tooltip": "provident",
-  "SaveInDb": 672,
-  "Filename": "qui",
-  "DefaultOref": "dignissimos",
+  "DocumentTemplateId": 282,
+  "Name": "Goyette-Rosenbaum",
+  "Tooltip": "rerum",
+  "SaveInDb": 657,
+  "Filename": "tempora",
+  "DefaultOref": "doloribus",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 845,
-  "IntentId": 965,
+  "AutoeventId": 237,
+  "IntentId": 434,
   "IsDefaultPublished": false,
-  "Rank": 780,
-  "LoadTemplateFromPlugin": 676,
-  "MimeType": "quia",
+  "Rank": 108,
+  "LoadTemplateFromPlugin": 820,
+  "MimeType": "ea",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 539,
+  "DocumentTypeKey": 125,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "augustus_runolfsson@schmidt.biz",
-  "IncludeSignature": true,
-  "ShowCurrents": true,
+  "EmailSubject": "gayle.kris@roob.com",
+  "IncludeSignature": false,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "haylee_hackett@lebsackbeahan.co.uk",
+  "SenderEmailAddress": "delphia@bartolettigrimes.name",
   "InvitationDocType": "Cancelled"
 }
 ```
@@ -157,37 +157,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 653,
-  "Name": "Becker, Ortiz and Bashirian",
-  "Tooltip": "soluta",
-  "SaveInDb": 538,
-  "Filename": "earum",
-  "DefaultOref": "voluptate",
+  "DocumentTemplateId": 261,
+  "Name": "Stroman, Tillman and Lang",
+  "Tooltip": "qui",
+  "SaveInDb": 671,
+  "Filename": "veniam",
+  "DefaultOref": "accusantium",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 317,
-  "IntentId": 552,
-  "IsDefaultPublished": true,
-  "Rank": 78,
-  "LoadTemplateFromPlugin": 648,
-  "MimeType": "deleniti",
+  "AutoeventId": 116,
+  "IntentId": 892,
+  "IsDefaultPublished": false,
+  "Rank": 500,
+  "LoadTemplateFromPlugin": 504,
+  "MimeType": "nostrum",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 266,
+  "DocumentTypeKey": 980,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "alice@hodkiewicz.us",
-  "IncludeSignature": false,
+  "EmailSubject": "loyce_wisoky@rippin.ca",
+  "IncludeSignature": true,
   "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "reta.homenick@kuvalis.ca",
+  "SenderEmailAddress": "justen@bogisich.us",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 700
+      "FieldType": "System.String",
+      "FieldLength": 145
     }
   }
 }

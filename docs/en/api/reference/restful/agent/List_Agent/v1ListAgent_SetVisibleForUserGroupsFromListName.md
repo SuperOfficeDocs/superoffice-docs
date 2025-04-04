@@ -93,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "DuBuque, Wilderman and Kuhlman",
-  "ListItemId": 997,
+  "UdListDefinitionName": "Gutkowski, Kub and Morissette",
+  "ListItemId": 242,
   "UserGroups": [
     {
-      "Id": 605,
-      "Name": "Deckow Group",
-      "ToolTip": "Inventore quae quidem amet voluptate expedita.",
+      "Id": 177,
+      "Name": "Nader Group",
+      "ToolTip": "Maxime sint omnis eaque at.",
       "Deleted": false,
-      "Rank": 878,
-      "Type": "velit",
-      "ColorBlock": 938,
-      "IconHint": "veniam",
-      "Selected": false,
-      "LastChanged": "2000-09-14T14:28:22.0553915+02:00",
+      "Rank": 381,
+      "Type": "exercitationem",
+      "ColorBlock": 760,
+      "IconHint": "perferendis",
+      "Selected": true,
+      "LastChanged": "2010-06-23T13:14:00.5949987+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "totam",
-      "StyleHint": "et",
+      "ExtraInfo": "pariatur",
+      "StyleHint": "sequi",
       "Hidden": false,
-      "FullName": "Zane Grady"
+      "FullName": "Chelsea Rohan"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 511,
-    "Name": "Koch-Mann",
-    "ToolTip": "Dicta corrupti aut et aut.",
+    "Id": 526,
+    "Name": "Senger-Mayert",
+    "ToolTip": "Sapiente modi mollitia.",
     "Deleted": false,
-    "Rank": 556,
-    "Type": "voluptatibus",
-    "ColorBlock": 415,
-    "IconHint": "doloribus",
-    "Selected": false,
-    "LastChanged": "2021-03-07T14:28:22.0553915+01:00",
+    "Rank": 187,
+    "Type": "beatae",
+    "ColorBlock": 367,
+    "IconHint": "rem",
+    "Selected": true,
+    "LastChanged": "2008-12-19T13:14:00.5949987+01:00",
     "ChildItems": [
       {
-        "Id": 942,
-        "Name": "Lubowitz-Hoeger",
-        "ToolTip": "Consectetur est et iusto explicabo.",
+        "Id": 606,
+        "Name": "Purdy, Howell and Smitham",
+        "ToolTip": "Rem autem modi sed.",
         "Deleted": false,
-        "Rank": 276,
-        "Type": "maiores",
-        "ColorBlock": 402,
-        "IconHint": "reprehenderit",
+        "Rank": 29,
+        "Type": "dolorem",
+        "ColorBlock": 140,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2020-01-06T14:28:22.0553915+01:00",
+        "LastChanged": "2024-01-22T13:14:00.5949987+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "alias",
+        "ExtraInfo": "dolores",
+        "StyleHint": "labore",
         "Hidden": false,
-        "FullName": "Miss Odell Pattie Larson DVM",
+        "FullName": "Prof. Narciso Cory Rempel MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 78
+            "FieldLength": 998
           }
         }
       }
     ],
-    "ExtraInfo": "maxime",
-    "StyleHint": "totam",
+    "ExtraInfo": "veniam",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Mr. King Araceli Senger IV",
+    "FullName": "Esperanza D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 308
+        "FieldType": "System.String",
+        "FieldLength": 126
       }
     }
   }

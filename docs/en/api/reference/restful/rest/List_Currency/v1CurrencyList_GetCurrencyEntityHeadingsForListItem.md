@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Currency/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 567,
-    "Name": "VonRueden, Pagac and Tromp",
-    "ToolTip": "Quod et ea enim porro.",
+    "Id": 849,
+    "Name": "Hoppe LLC",
+    "ToolTip": "Provident id nemo est dolores.",
     "Deleted": true,
-    "Rank": 686,
-    "Type": "assumenda",
-    "ColorBlock": 396,
-    "IconHint": "corrupti",
+    "Rank": 938,
+    "Type": "quis",
+    "ColorBlock": 482,
+    "IconHint": "ex",
     "Selected": false,
-    "LastChanged": "2024-02-13T14:28:27.5395453+01:00",
+    "LastChanged": "2010-01-25T13:14:09.7285208+01:00",
     "ChildItems": [
       {
-        "Id": 208,
-        "Name": "Howell-Prohaska",
-        "ToolTip": "Eum modi id ipsum eum.",
+        "Id": 672,
+        "Name": "Jenkins-Klocko",
+        "ToolTip": "Est sint illum temporibus in cumque et aspernatur.",
         "Deleted": false,
-        "Rank": 672,
-        "Type": "accusamus",
-        "ColorBlock": 618,
-        "IconHint": "temporibus",
+        "Rank": 840,
+        "Type": "nulla",
+        "ColorBlock": 336,
+        "IconHint": "sed",
         "Selected": true,
-        "LastChanged": "2022-07-14T14:28:27.5395453+02:00",
+        "LastChanged": "2005-10-12T13:14:09.7285208+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nesciunt",
-        "StyleHint": "nisi",
+        "ExtraInfo": "autem",
+        "StyleHint": "assumenda",
         "Hidden": true,
-        "FullName": "Mrs. Micheal Schmitt Sr.",
+        "FullName": "Leann McKenzie",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 981
+            "FieldLength": 933
           }
         }
       }
     ],
-    "ExtraInfo": "in",
-    "StyleHint": "tempora",
+    "ExtraInfo": "porro",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Sebastian Ebert",
+    "FullName": "Camylle Abernathy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 565
+        "FieldLength": 243
       }
     }
   }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Name": "Reichel-Hudson",
-    "ToolTip": "Dolorum quia cupiditate non ut nisi.",
+    "Id": 903,
+    "Name": "Zulauf, Walsh and Kohler",
+    "ToolTip": "Excepturi perspiciatis officia delectus qui et sit illo.",
     "Deleted": false,
-    "Rank": 500,
-    "Type": "aspernatur",
-    "ColorBlock": 850,
-    "IconHint": "est",
+    "Rank": 831,
+    "Type": "architecto",
+    "ColorBlock": 676,
+    "IconHint": "ullam",
     "Selected": true,
-    "LastChanged": "2006-06-30T14:28:27.5082958+02:00",
+    "LastChanged": "2009-07-21T13:14:09.6660173+02:00",
     "ChildItems": [
       {
-        "Id": 235,
-        "Name": "Oberbrunner LLC",
-        "ToolTip": "Culpa deserunt ut neque laborum.",
-        "Deleted": false,
-        "Rank": 492,
-        "Type": "hic",
-        "ColorBlock": 756,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2006-12-13T14:28:27.5082958+01:00",
+        "Id": 492,
+        "Name": "Macejkovic LLC",
+        "ToolTip": "Occaecati exercitationem et.",
+        "Deleted": true,
+        "Rank": 149,
+        "Type": "repellendus",
+        "ColorBlock": 592,
+        "IconHint": "quisquam",
+        "Selected": true,
+        "LastChanged": "2023-05-08T13:14:09.6660173+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fugiat",
-        "StyleHint": "magnam",
+        "ExtraInfo": "officia",
+        "StyleHint": "suscipit",
         "Hidden": false,
-        "FullName": "Mr. Raoul Delphia Brown"
+        "FullName": "Jennie Parker DVM"
       }
     ],
-    "ExtraInfo": "alias",
-    "StyleHint": "rerum",
+    "ExtraInfo": "culpa",
+    "StyleHint": "aliquam",
     "Hidden": true,
-    "FullName": "Ms. Tillman Lela Nader IV"
+    "FullName": "Myrl Marvin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 76,
-    "Name": "Moen Inc and Sons",
-    "ToolTip": "Quia odio fugit vero voluptatem provident minus distinctio.",
+    "Id": 433,
+    "Name": "Runolfsdottir Inc and Sons",
+    "ToolTip": "Quia rerum.",
     "Deleted": false,
-    "Rank": 989,
-    "Type": "voluptates",
-    "ColorBlock": 543,
-    "IconHint": "ducimus",
+    "Rank": 622,
+    "Type": "perspiciatis",
+    "ColorBlock": 21,
+    "IconHint": "incidunt",
     "Selected": false,
-    "LastChanged": "2025-03-26T14:28:27.5082958+01:00",
+    "LastChanged": "2011-07-17T13:14:09.6660173+02:00",
     "ChildItems": [
       {
-        "Id": 856,
-        "Name": "DuBuque-Pouros",
-        "ToolTip": "Cumque amet sed quisquam.",
-        "Deleted": true,
-        "Rank": 731,
-        "Type": "laboriosam",
-        "ColorBlock": 278,
-        "IconHint": "nihil",
+        "Id": 258,
+        "Name": "Ernser, Rosenbaum and Rippin",
+        "ToolTip": "Vero et perspiciatis qui nam quaerat rem eaque.",
+        "Deleted": false,
+        "Rank": 369,
+        "Type": "molestias",
+        "ColorBlock": 656,
+        "IconHint": "non",
         "Selected": false,
-        "LastChanged": "2003-02-07T14:28:27.5082958+01:00",
+        "LastChanged": "2023-12-31T13:14:09.6660173+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "ut",
+        "ExtraInfo": "minima",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Katlynn Grimes",
+        "FullName": "Prof. Junior Beier I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 9
+            "FieldType": "System.String",
+            "FieldLength": 205
           }
         }
       }
     ],
-    "ExtraInfo": "eius",
-    "StyleHint": "at",
-    "Hidden": false,
-    "FullName": "Halle Cole",
+    "ExtraInfo": "doloremque",
+    "StyleHint": "ut",
+    "Hidden": true,
+    "FullName": "Bradly Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 23
+        "FieldLength": 908
       }
     }
   }

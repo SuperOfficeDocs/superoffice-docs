@@ -30,8 +30,8 @@ Return the selectable list items
 | flat | bool |  true/false |
 
 ```http
-GET /api/v1/MDOList/{listname}/selectable?additional=repellendus
-GET /api/v1/MDOList/{listname}/selectable?flat=True
+GET /api/v1/MDOList/{listname}/selectable?additional=aspernatur
+GET /api/v1/MDOList/{listname}/selectable?flat=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 568,
-    "Name": "Roberts Group",
-    "ToolTip": "Dolor optio repellendus expedita.",
+    "Id": 315,
+    "Name": "Gutkowski, McDermott and Bashirian",
+    "ToolTip": "Et error voluptatem tenetur nulla ipsum.",
     "Deleted": false,
-    "Rank": 702,
-    "Type": "harum",
-    "ColorBlock": 148,
-    "IconHint": "unde",
-    "Selected": false,
-    "LastChanged": "2011-03-17T14:28:27.5707933+01:00",
+    "Rank": 637,
+    "Type": "accusamus",
+    "ColorBlock": 998,
+    "IconHint": "tenetur",
+    "Selected": true,
+    "LastChanged": "1998-11-16T13:14:09.8066418+01:00",
     "ChildItems": [
       {
-        "Id": 397,
-        "Name": "Dooley, Miller and Nitzsche",
-        "ToolTip": "Voluptatum unde voluptatem doloribus cupiditate explicabo saepe.",
-        "Deleted": false,
-        "Rank": 871,
-        "Type": "quidem",
-        "ColorBlock": 151,
-        "IconHint": "in",
-        "Selected": false,
-        "LastChanged": "2010-11-11T14:28:27.5707933+01:00",
+        "Id": 264,
+        "Name": "West Group",
+        "ToolTip": "Accusantium excepturi explicabo alias aspernatur.",
+        "Deleted": true,
+        "Rank": 685,
+        "Type": "dolor",
+        "ColorBlock": 690,
+        "IconHint": "autem",
+        "Selected": true,
+        "LastChanged": "2004-10-05T13:14:09.8066418+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "aut",
+        "ExtraInfo": "perferendis",
+        "StyleHint": "quidem",
         "Hidden": false,
-        "FullName": "Elbert Lucius Skiles I",
+        "FullName": "Quincy Lemke",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 633
+            "FieldType": "System.String",
+            "FieldLength": 540
           }
         }
       }
     ],
-    "ExtraInfo": "quisquam",
-    "StyleHint": "possimus",
+    "ExtraInfo": "enim",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Prof. Jarvis Izabella Connelly Jr.",
+    "FullName": "Rozella Bednar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 188
+        "FieldLength": 435
       }
     }
   }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 978,
-    "Name": "Schinner Group",
-    "ToolTip": "Dolore est saepe.",
+    "Id": 513,
+    "Name": "Barrows LLC",
+    "ToolTip": "Esse repellendus suscipit libero amet culpa a.",
     "Deleted": true,
-    "Rank": 524,
-    "Type": "et",
-    "ColorBlock": 335,
-    "IconHint": "placeat",
+    "Rank": 68,
+    "Type": "qui",
+    "ColorBlock": 801,
+    "IconHint": "dolorum",
     "Selected": false,
-    "LastChanged": "2012-08-25T14:28:27.6645394+02:00",
+    "LastChanged": "2005-07-15T13:14:10.0097876+02:00",
     "ChildItems": [
       {
-        "Id": 994,
-        "Name": "Dicki Inc and Sons",
-        "ToolTip": "Sint nisi provident.",
+        "Id": 559,
+        "Name": "Gorczany Group",
+        "ToolTip": "Dolores quia.",
         "Deleted": false,
-        "Rank": 338,
-        "Type": "voluptatem",
-        "ColorBlock": 641,
-        "IconHint": "sint",
-        "Selected": true,
-        "LastChanged": "2007-11-04T14:28:27.6645394+01:00",
+        "Rank": 460,
+        "Type": "alias",
+        "ColorBlock": 179,
+        "IconHint": "mollitia",
+        "Selected": false,
+        "LastChanged": "2013-03-13T13:14:10.0097876+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "dolor",
+        "ExtraInfo": "optio",
+        "StyleHint": "veritatis",
         "Hidden": true,
-        "FullName": "Ms. Sonny Julian Watsica MD",
+        "FullName": "Mrs. Johathan Lane Stokes",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 645
+            "FieldType": "System.Int32",
+            "FieldLength": 589
           }
         }
       }
     ],
-    "ExtraInfo": "temporibus",
-    "StyleHint": "illo",
+    "ExtraInfo": "libero",
+    "StyleHint": "consectetur",
     "Hidden": true,
-    "FullName": "Kenny Bogan",
+    "FullName": "Prof. Henriette Yundt PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 192
+        "FieldType": "System.Int32",
+        "FieldLength": 640
       }
     }
   }

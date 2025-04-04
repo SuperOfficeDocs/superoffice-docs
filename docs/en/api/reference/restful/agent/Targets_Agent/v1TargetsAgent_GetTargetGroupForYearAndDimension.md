@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 716,
-  "DimensionId": 271
+  "TargetYear": 71,
+  "DimensionId": 436
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 309,
-  "Year": 356,
+  "TargetGroupId": 680,
+  "Year": 541,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 807,
+      "TargetAssignmentInfoId": 480,
       "Values": [
-        41,
-        295
+        690,
+        543
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 343,
-      "DimensionListItemDisplayName": "Schmeler-Effertz",
+      "DimensionListItem": 521,
+      "DimensionListItemDisplayName": "Bergnaum Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 232
+          "FieldLength": 331
         }
       }
     }
@@ -128,8 +128,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 856
+      "FieldType": "System.String",
+      "FieldLength": 761
     }
   }
 }

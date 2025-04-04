@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Pagac-Koelpin",
+  "TaskName": "Leuschke, Romaguera and Davis",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 186,
-    "Name": "Powlowski, Labadie and Stroman",
-    "AssociateId": 482,
-    "DetailsTable": 192,
-    "DetailsRecord": 833,
+    "Id": 59,
+    "Name": "Bosco Group",
+    "AssociateId": 581,
+    "DetailsTable": 158,
+    "DetailsRecord": 296,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "voluptatum",
-      "ParameterObject2": "quia"
+      "ParameterObject1": "omnis",
+      "ParameterObject2": "rem"
     },
-    "LastStarted": "2007-06-27T14:28:21.4929147+02:00",
-    "Created": "2016-01-09T14:28:21.4929147+01:00",
-    "StartCount": 602,
-    "DatabaseSerialNumber": "1253936",
-    "Context": "iste",
-    "Result": "saepe",
+    "LastStarted": "2007-07-04T13:13:59.5314453+02:00",
+    "Created": "2007-02-21T13:13:59.5314453+01:00",
+    "StartCount": 656,
+    "DatabaseSerialNumber": "306983",
+    "Context": "omnis",
+    "Result": "ducimus",
     "State": "All",
-    "Description": "Cross-group systemic model",
-    "Response": "tenetur",
-    "Request": "itaque",
-    "ProgressDescription": "Configurable leading edge synergy",
-    "ProgressPercent": 20,
-    "FileName": "Rosenbaum Inc and Sons",
+    "Description": "Fully-configurable mission-critical model",
+    "Response": "fugit",
+    "Request": "vel",
+    "ProgressDescription": "Exclusive cohesive adapter",
+    "ProgressPercent": 79,
+    "FileName": "Paucek-Jacobson",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 954
+        "FieldLength": 208
       }
     }
   }

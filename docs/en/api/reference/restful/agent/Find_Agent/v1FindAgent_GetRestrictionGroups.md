@@ -77,14 +77,14 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "commodi",
-  "ProviderName": "Fritsch, Kohler and Ruecker",
-  "StorageKey": "temporibus",
-  "Context": "nesciunt"
+  "StorageType": "fugiat",
+  "ProviderName": "Deckow Inc and Sons",
+  "StorageKey": "ducimus",
+  "Context": "reprehenderit"
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Thiel-Stracke",
-    "Description": "Cross-platform maximized frame",
-    "Rank": 578,
+    "Name": "Bradtke, Wolff and McDermott",
+    "Description": "Diverse national installation",
+    "Rank": 988,
     "Restrictions": [
       {
-        "Name": "Upton-Connelly",
-        "Operator": "cumque",
+        "Name": "Krajcik, Lesch and Macejkovic",
+        "Operator": "esse",
         "Values": [
-          "sunt",
-          "et"
+          "nihil",
+          "necessitatibus"
         ],
         "DisplayValues": [
-          "ex",
-          "quidem"
+          "fugit",
+          "eum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -117,27 +117,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 930,
+        "InterParenthesis": 797,
         "InterOperator": "And",
-        "UniqueHash": 171
+        "UniqueHash": 180
       }
     ]
   },
   {
-    "Name": "Thiel-Stracke",
-    "Description": "Cross-platform maximized frame",
-    "Rank": 578,
+    "Name": "Bradtke, Wolff and McDermott",
+    "Description": "Diverse national installation",
+    "Rank": 988,
     "Restrictions": [
       {
-        "Name": "Upton-Connelly",
-        "Operator": "cumque",
+        "Name": "Krajcik, Lesch and Macejkovic",
+        "Operator": "esse",
         "Values": [
-          "sunt",
-          "et"
+          "nihil",
+          "necessitatibus"
         ],
         "DisplayValues": [
-          "ex",
-          "quidem"
+          "fugit",
+          "eum"
         ],
         "ColumnInfo": null,
         "IsActive": false,
@@ -145,9 +145,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 930,
+        "InterParenthesis": 797,
         "InterOperator": "And",
-        "UniqueHash": 171
+        "UniqueHash": 180
       }
     ]
   }

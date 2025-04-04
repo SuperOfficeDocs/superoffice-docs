@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/CRMScript/ExecuteScriptAsEventByUniqueId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CRMScriptUniqueId": "eos",
+  "CRMScriptUniqueId": "ea",
   "EventData": null
 }
 ```
@@ -110,42 +110,42 @@ Content-Type: application/json; charset=utf-8
 {
   "Type": "ChatAfterSaveNewMessage",
   "InputValues": {
-    "InputValues1": "in",
-    "InputValues2": "deserunt"
+    "InputValues1": "ut",
+    "InputValues2": "et"
   },
   "BlockExecution": false,
-  "NavigateTo": "adipisci",
-  "Message": "excepturi",
-  "ShowDialog": "similique",
+  "NavigateTo": "alias",
+  "Message": "nesciunt",
+  "ShowDialog": "et",
   "OutputValues": {
     "OutputValues1": "rerum",
-    "OutputValues2": "earum"
+    "OutputValues2": "nihil"
   },
   "StateValues": {
-    "StateValues1": "voluptatem",
-    "StateValues2": "et"
+    "StateValues1": "incidunt",
+    "StateValues2": "ea"
   },
-  "Exception": "tenetur",
+  "Exception": "quaerat",
   "ParserValues": {
-    "ParserValues1": "cupiditate",
-    "ParserValues2": "sint"
+    "ParserValues1": "eius",
+    "ParserValues2": "est"
   },
   "CgiVariables": {
-    "CgiVariables1": "at",
-    "CgiVariables2": "culpa"
+    "CgiVariables1": "modi",
+    "CgiVariables2": "vitae"
   },
-  "CgiContent": "voluptatem",
+  "CgiContent": "autem",
   "Headers": {
-    "Headers1": "velit",
-    "Headers2": "sunt"
+    "Headers1": "maiores",
+    "Headers2": "magnam"
   },
-  "TraceExecution": true,
+  "TraceExecution": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 776
+      "FieldLength": 289
     }
   }
 }

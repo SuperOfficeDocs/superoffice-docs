@@ -68,7 +68,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Hoeger Inc and Sons",
-    "DisplayName": "Fisher Group",
-    "Description": "Re-engineered content-based capability",
-    "ShortLabel": "repellendus",
+    "FieldName": "Stroman LLC",
+    "DisplayName": "Legros-Bayer",
+    "Description": "Stand-alone eco-centric project",
+    "ShortLabel": "laborum",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
     "IsMandatory": false,
-    "IsReadOnly": false,
-    "IsExternal": false,
+    "IsReadOnly": true,
+    "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 145,
-    "TemplateVariableName": "Cummings, Batz and Bogisich"
+    "Rank": 214,
+    "TemplateVariableName": "Dietrich-Kilback"
   }
 ]
 ```

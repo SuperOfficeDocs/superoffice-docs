@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=229
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=224
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -120,7 +120,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -130,66 +130,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 732,
-  "StartDate": "2015-05-28T14:28:21.3054297+02:00",
-  "EndDate": "1998-10-22T14:28:21.3054297+02:00",
+  "AppointmentId": 581,
+  "StartDate": "2011-01-18T13:13:59.2344738+01:00",
+  "EndDate": "2020-07-02T13:13:59.2344738+02:00",
   "Type": "BookingForChecklist",
-  "Task": "veritatis",
-  "AssociateFullName": "Roman Reichert",
-  "ContactName": "Wuckert LLC",
-  "Description": "Re-engineered incremental moratorium",
-  "PersonFullName": "Ms. Leo Dusty Dibbert DVM",
-  "PersonId": 514,
-  "ContactId": 429,
-  "ProjectId": 322,
-  "ProjectName": "Gleichner-Wunsch",
-  "IsPublished": true,
-  "AssociateId": 126,
-  "ColorIndex": 800,
-  "IsFree": true,
+  "Task": "vel",
+  "AssociateFullName": "Ms. Napoleon Corine Tillman I",
+  "ContactName": "Ziemann-Wiegand",
+  "Description": "Re-engineered multi-tasking benchmark",
+  "PersonFullName": "Percival Hane",
+  "PersonId": 912,
+  "ContactId": 488,
+  "ProjectId": 312,
+  "ProjectName": "Abernathy-Reinger",
+  "IsPublished": false,
+  "AssociateId": 6,
+  "ColorIndex": 742,
+  "IsFree": false,
   "HasAlarm": false,
-  "IsAlldayEvent": false,
+  "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 982,
-  "PriorityName": "Sanford Inc and Sons",
+  "PriorityId": 183,
+  "PriorityName": "Stracke, McCullough and Rau",
   "TaskType": "Appointment",
   "IsBookingMain": true,
   "IsRecurrence": false,
-  "IsBooking": false,
-  "ActiveDate": "2016-12-28T14:28:21.3054297+01:00",
+  "IsBooking": true,
+  "ActiveDate": "2024-02-20T13:13:59.2344738+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2002-09-02T14:28:21.3054297+02:00",
-  "RecurringEndDate": "1999-07-01T14:28:21.3054297+02:00",
-  "MotherId": 721,
-  "AssignedBy": 227,
-  "AssignedByFullName": "Prof. Verda Kiel Jakubowski PhD",
+  "RecurringStartDate": "2004-04-03T13:13:59.2344738+02:00",
+  "RecurringEndDate": "2017-04-24T13:13:59.2344738+02:00",
+  "MotherId": 879,
+  "AssignedBy": 881,
+  "AssignedByFullName": "Newton Spencer",
   "RejectReason": "",
-  "Location": "quia",
-  "AlarmLeadTime": "et",
-  "SaleId": 33,
-  "SaleName": "Spinka LLC",
-  "AssociateName": "Nolan Inc and Sons",
-  "CreatedDate": "2015-12-09T14:28:21.3054297+01:00",
-  "CreatedBy": "architecto",
-  "CreatedByFullName": "Mercedes Langosh",
-  "CreatedByAssociateId": 377,
+  "Location": "tempore",
+  "AlarmLeadTime": "enim",
+  "SaleId": 61,
+  "SaleName": "Willms, Ritchie and Gislason",
+  "AssociateName": "Osinski-Runolfsdottir",
+  "CreatedDate": "2018-11-22T13:13:59.2344738+01:00",
+  "CreatedBy": "iusto",
+  "CreatedByFullName": "Mrs. Demarco Borer V",
+  "CreatedByAssociateId": 442,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 573,
-  "Title": "nisi",
-  "Agenda": "blanditiis",
-  "InternalNotes": "quia",
+  "PreferredTZLocation": 828,
+  "Title": "labore",
+  "Agenda": "est",
+  "InternalNotes": "quas",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 480
+      "FieldType": "System.String",
+      "FieldLength": 184
     }
   }
 }

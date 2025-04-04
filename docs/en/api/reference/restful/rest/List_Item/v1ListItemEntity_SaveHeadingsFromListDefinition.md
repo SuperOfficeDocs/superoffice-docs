@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 268,
-    "Name": "Sanford, Wiegand and Baumbach",
-    "Tooltip": "numquam",
+    "HeadingId": 903,
+    "Name": "Lynch, Cartwright and Schowalter",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "Rank": 760,
-    "UdListDefinitionId": 237
+    "Rank": 651,
+    "UdListDefinitionId": 175
   },
   {
-    "HeadingId": 268,
-    "Name": "Sanford, Wiegand and Baumbach",
-    "Tooltip": "numquam",
+    "HeadingId": 903,
+    "Name": "Lynch, Cartwright and Schowalter",
+    "Tooltip": "facilis",
     "Deleted": false,
-    "Rank": 760,
-    "UdListDefinitionId": 237
+    "Rank": 651,
+    "UdListDefinitionId": 175
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 989,
-    "Name": "Breitenberg, Gutmann and Koch",
-    "Tooltip": "consequatur",
-    "Deleted": false,
-    "Rank": 893,
-    "UdListDefinitionId": 884,
+    "HeadingId": 66,
+    "Name": "Legros, Lind and Stanton",
+    "Tooltip": "sed",
+    "Deleted": true,
+    "Rank": 988,
+    "UdListDefinitionId": 577,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 624
+        "FieldLength": 678
       }
     }
   }

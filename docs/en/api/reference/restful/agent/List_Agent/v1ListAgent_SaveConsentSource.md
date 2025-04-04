@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/List/SaveConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,19 +94,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 764,
-  "Name": "Kris LLC",
-  "Tooltip": "minus",
-  "Rank": 792,
-  "Key": "perspiciatis",
-  "MailTemplateId": 106,
-  "Deleted": false,
+  "ConsentSourceId": 989,
+  "Name": "Kertzmann Group",
+  "Tooltip": "vero",
+  "Rank": 186,
+  "Key": "cumque",
+  "MailTemplateId": 330,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 754
+      "FieldType": "System.String",
+      "FieldLength": 318
     }
   }
 }

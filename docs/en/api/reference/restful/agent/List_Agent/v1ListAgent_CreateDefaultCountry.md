@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -92,30 +92,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 355,
-  "Name": "Reilly-Goldner",
-  "CurrencyId": 509,
-  "EnglishName": "Von LLC",
+  "CountryId": 789,
+  "Name": "Corkery Group",
+  "CurrencyId": 129,
+  "EnglishName": "Dach Inc and Sons",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Vision-oriented coherent ability",
-  "OrgNrText": "1272948",
-  "InterAreaPrefix": "sint",
-  "DialInPrefix": "molestias",
-  "ZipPrefix": "neque",
-  "DomainName": "Keebler-Tremblay",
-  "AddressLayoutId": 893,
-  "DomesticAddressLayoutId": 425,
-  "ForeignAddressLayoutId": 685,
-  "Rank": 327,
-  "Tooltip": "dolor",
-  "Deleted": true,
+  "ImageDescription": "Distributed directional time-frame",
+  "OrgNrText": "923458",
+  "InterAreaPrefix": "est",
+  "DialInPrefix": "dolorem",
+  "ZipPrefix": "aspernatur",
+  "DomainName": "Considine Inc and Sons",
+  "AddressLayoutId": 183,
+  "DomesticAddressLayoutId": 334,
+  "ForeignAddressLayoutId": 66,
+  "Rank": 66,
+  "Tooltip": "reprehenderit",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 412
+      "FieldType": "System.Int32",
+      "FieldLength": 883
     }
   }
 }

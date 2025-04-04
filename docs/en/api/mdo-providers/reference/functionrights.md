@@ -54,6 +54,12 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
+|21|Can modify interests for selection members||allow-bulk-interests|
+|22|Can send e-mail to selection members||allow-bulk-email|
+|23|Can run custom tasks on selections||allow-bulk-user-applications|
+|24|Can see users belonging to other companies||see-other-companies-associates|
+|26|Status Monitor Administrator (counters)||admin-saint-regeneration|
+|27|Status Monitor Administrator (statuses)||admin-saint-definition|
 |28|Can create and delete tables in the database||allow-dictionarySDK|
 |29|Field Administrator||admin-udef|
 |30|Import Administrator||admin-import|
@@ -69,12 +75,6 @@ foreach (var item in listProvider.RootItems) {
 |40|Edit own synchronisation settings||syncadmin-user|
 |41|Can manage (move and merge) entities||allow-manage-entities|
 |42|Workflow administrator||admin-workflow|
-|43|Role Administrator||admin-role|
-|44|Replication administrator||admin-replication|
-|45|Preferences Administrator||admin-preferences|
-|46|Script Administrator||admin-script|
-|47|Quote administrator||admin-quote|
-|48|Can approve quotes||quote-can-approve|
 
 
 ## Related MDO Lists

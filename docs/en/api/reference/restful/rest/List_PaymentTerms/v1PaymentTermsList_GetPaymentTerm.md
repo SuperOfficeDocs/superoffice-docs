@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 999,
-  "Name": "Gulgowski-Barton",
-  "Tooltip": "ratione",
+  "Id": 467,
+  "Name": "Graham, Hauck and Mayert",
+  "Tooltip": "officiis",
   "Deleted": false,
-  "UdListDefinitionId": 675,
-  "Rank": 437,
+  "UdListDefinitionId": 892,
+  "Rank": 245,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldLength": 321
     }
   }
 }

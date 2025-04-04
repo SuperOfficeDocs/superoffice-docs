@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 720,
+  "DocumentPluginId": 410,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 342,
-  "NumDocumentsAlreadyMigrated": 699,
+  "NumDocumentsOmitted": 581,
+  "NumDocumentsAlreadyMigrated": 541,
   "Documents": [
     {
-      "DocumentId": 111,
-      "ContactId": 336,
-      "PersonId": 534,
-      "SaleId": 788,
-      "ProjectId": 287,
-      "DocTmplId": 474,
-      "AssociateId": 929,
-      "UserGroupId": 789,
-      "VisibleForId": 943
+      "DocumentId": 352,
+      "ContactId": 685,
+      "PersonId": 495,
+      "SaleId": 354,
+      "ProjectId": 776,
+      "DocTmplId": 778,
+      "AssociateId": 570,
+      "UserGroupId": 363,
+      "VisibleForId": 482
     }
   ],
   "Associates": [
     {
-      "AssociateId": 493,
-      "EmailAddress": "major_marvin@heathcotehalvorson.name"
+      "AssociateId": 159,
+      "EmailAddress": "alexandro_rohan@corkerylebsack.ca"
     },
     {
-      "AssociateId": 493,
-      "EmailAddress": "major_marvin@heathcotehalvorson.name"
+      "AssociateId": 159,
+      "EmailAddress": "alexandro_rohan@corkerylebsack.ca"
     }
   ]
 }

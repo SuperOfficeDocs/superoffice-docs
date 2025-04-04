@@ -84,14 +84,14 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYear
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 387,
+  "TargetYear": 297,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 325
+  "Id": 674
 }
 ```
 
@@ -102,24 +102,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 179,
+  "TargetAssignmentInfoId": 17,
   "Values": [
-    685,
-    876
+    668,
+    759
   ],
-  "Locked": false,
+  "Locked": true,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 848,
-  "DimensionListItemDisplayName": "Kuhlman Inc and Sons",
+  "DimensionListItem": 961,
+  "DimensionListItemDisplayName": "Wintheiser-Purdy",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 90
+      "FieldType": "System.String",
+      "FieldLength": 995
     }
   }
 }

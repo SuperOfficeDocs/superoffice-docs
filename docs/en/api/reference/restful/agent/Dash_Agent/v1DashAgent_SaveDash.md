@@ -87,34 +87,34 @@ OK
 POST /api/v1/Agents/Dash/SaveDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 701,
-  "UniqueId": "qui",
-  "Name": "Nienow-Windler",
-  "Description": "Up-sized zero tolerance infrastructure",
-  "AssociateId": 252,
-  "Columns": 835,
+  "DashboardId": 663,
+  "UniqueId": "ut",
+  "Name": "Shields Inc and Sons",
+  "Description": "Stand-alone empowering knowledge base",
+  "AssociateId": 805,
+  "Columns": 949,
   "Theme": null,
-  "VisibleForAll": 574,
+  "VisibleForAll": 217,
   "VisibleForAssociates": [
-    161,
-    811
+    144,
+    313
   ],
   "VisibleForGroups": [
-    804,
-    329
+    458,
+    202
   ],
-  "PinForAll": 675,
+  "PinForAll": 812,
   "PinForAssociates": [
-    839,
-    182
+    856,
+    290
   ],
   "PinForGroups": [
-    883,
-    786
+    641,
+    490
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 319,
-  "UniqueId": "eveniet",
-  "Name": "Veum-Homenick",
-  "Description": "Stand-alone client-server concept",
-  "AssociateId": 364,
-  "Columns": 676,
+  "DashboardId": 27,
+  "UniqueId": "totam",
+  "Name": "Gleichner, Will and Quigley",
+  "Description": "Cloned explicit internet solution",
+  "AssociateId": 94,
+  "Columns": 562,
   "Theme": null,
-  "VisibleForAll": 886,
+  "VisibleForAll": 455,
   "VisibleForAssociates": [
-    745,
-    164
+    88,
+    922
   ],
   "VisibleForGroups": [
-    77,
-    951
+    562,
+    575
   ],
-  "PinForAll": 948,
+  "PinForAll": 666,
   "PinForAssociates": [
-    319,
-    333
+    640,
+    80
   ],
   "PinForGroups": [
-    808,
-    920
+    782,
+    955
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 569
+      "FieldType": "System.String",
+      "FieldLength": 321
     }
   }
 }

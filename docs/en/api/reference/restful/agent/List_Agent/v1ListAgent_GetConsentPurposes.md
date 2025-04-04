@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 308,
-    "Name": "Kilback, Bednar and Metz",
-    "ConsentText": "error",
-    "FormText": "pariatur",
-    "Key": "totam",
-    "Tooltip": "magni",
-    "Active": 854,
-    "UpdatedDate": "2020-09-18T14:28:22.071016+02:00",
+    "ConsentPurposeId": 208,
+    "Name": "Kulas-Hand",
+    "ConsentText": "sed",
+    "FormText": "consequatur",
+    "Key": "id",
+    "Tooltip": "reiciendis",
+    "Active": 980,
+    "UpdatedDate": "2004-08-28T13:14:00.6106246+02:00",
     "UpdatedBy": null,
     "Deleted": false,
-    "Rank": 687,
-    "PrivacyStatementDesc": "cupiditate",
+    "Rank": 244,
+    "PrivacyStatementDesc": "ipsa",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 735
+        "FieldType": "System.Int32",
+        "FieldLength": 533
       }
     }
   }

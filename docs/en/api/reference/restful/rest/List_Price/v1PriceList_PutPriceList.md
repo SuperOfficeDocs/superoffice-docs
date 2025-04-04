@@ -97,20 +97,20 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 585,
-  "ERPPriceListKey": "autem",
-  "QuoteConnectionId": 33,
-  "Name": "Rempel, Homenick and Quitzon",
-  "Description": "Decentralized cohesive task-force",
-  "Currency": "laborum",
-  "CurrencyName": "Hermiston LLC",
-  "ValidFrom": "2002-08-03T14:28:27.6020419+02:00",
-  "ValidTo": "2000-01-26T14:28:27.6020419+01:00",
-  "IsActive": true
+  "PriceListId": 238,
+  "ERPPriceListKey": "nam",
+  "QuoteConnectionId": 59,
+  "Name": "Grady, Osinski and Herzog",
+  "Description": "Customer-focused optimal internet solution",
+  "Currency": "facilis",
+  "CurrencyName": "Effertz Group",
+  "ValidFrom": "2005-08-26T13:14:09.8691543+02:00",
+  "ValidTo": "2009-01-29T13:14:09.8691543+01:00",
+  "IsActive": false
 }
 ```
 
@@ -121,22 +121,22 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 20,
-  "ERPPriceListKey": "sunt",
-  "QuoteConnectionId": 796,
-  "Name": "Cruickshank Inc and Sons",
-  "Description": "Diverse stable algorithm",
-  "Currency": "ipsam",
-  "CurrencyName": "Dickinson-Dare",
-  "ValidFrom": "1998-08-26T14:28:27.6020419+02:00",
-  "ValidTo": "2007-03-17T14:28:27.6020419+01:00",
+  "PriceListId": 720,
+  "ERPPriceListKey": "ad",
+  "QuoteConnectionId": 627,
+  "Name": "Dare, Hudson and Terry",
+  "Description": "Reduced bi-directional data-warehouse",
+  "Currency": "cumque",
+  "CurrencyName": "Adams-Bode",
+  "ValidFrom": "2009-01-27T13:14:09.8691543+01:00",
+  "ValidTo": "2008-07-05T13:14:09.8691543+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldLength": 679
     }
   },
   "_Links": {

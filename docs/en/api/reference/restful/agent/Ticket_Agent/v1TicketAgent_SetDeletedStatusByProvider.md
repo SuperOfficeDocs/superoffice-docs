@@ -71,22 +71,22 @@ OK
 POST /api/v1/Agents/Ticket/SetDeletedStatusByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Willms-Haley",
+  "ProviderName": "Kutch-Cartwright",
   "Restrictions": [
     {
-      "Name": "Murray, McGlynn and Mohr",
-      "Operator": "tempore",
+      "Name": "Murray, Zieme and Carroll",
+      "Operator": "quaerat",
       "Values": [
-        "labore",
-        "necessitatibus"
+        "at",
+        "sit"
       ],
       "DisplayValues": [
-        "velit",
-        "delectus"
+        "dicta",
+        "sunt"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -94,9 +94,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 221,
+      "InterParenthesis": 757,
       "InterOperator": "And",
-      "UniqueHash": 586
+      "UniqueHash": 698
     }
   ]
 }
@@ -109,7 +109,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  328,
-  49
+  286,
+  991
 ]
 ```

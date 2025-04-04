@@ -103,34 +103,34 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 22,
-  "Name": "Pouros, Smith and Larkin",
-  "Rank": 956,
-  "Tooltip": "nesciunt",
-  "Icon": "commodi",
-  "DefaultTicketStatus": 577,
+  "TicketTypeId": 962,
+  "Name": "Farrell LLC",
+  "Rank": 733,
+  "Tooltip": "et",
+  "Icon": "nobis",
+  "DefaultTicketStatus": 841,
   "TicketStatuses": [
-    610,
-    732
+    753,
+    708
   ],
-  "DefaultTicketPriority": 348,
+  "DefaultTicketPriority": 169,
   "TicketPriorities": [
-    589,
-    937
+    506,
+    531
   ],
-  "ReplyTemplate": 408,
+  "ReplyTemplate": 146,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    318,
-    857
+    11,
+    205
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false
+  "ReplyExternalAsDefault": true
 }
 ```
 
@@ -141,31 +141,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 835,
-  "Name": "Abernathy-D'Amore",
-  "Rank": 425,
-  "Tooltip": "totam",
-  "Icon": "facere",
-  "DefaultTicketStatus": 145,
+  "TicketTypeId": 608,
+  "Name": "Grant, Rogahn and Kunze",
+  "Rank": 319,
+  "Tooltip": "vitae",
+  "Icon": "nesciunt",
+  "DefaultTicketStatus": 244,
   "TicketStatuses": [
-    201,
-    546
+    458,
+    97
   ],
-  "DefaultTicketPriority": 650,
+  "DefaultTicketPriority": 243,
   "TicketPriorities": [
-    772,
-    828
+    493,
+    634
   ],
-  "ReplyTemplate": 250,
+  "ReplyTemplate": 351,
   "IsExternalVisible": false,
-  "IsDefault": true,
+  "IsDefault": false,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    494,
-    673
+    447,
+    843
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
@@ -174,7 +174,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 945
+      "FieldLength": 8
     }
   }
 }

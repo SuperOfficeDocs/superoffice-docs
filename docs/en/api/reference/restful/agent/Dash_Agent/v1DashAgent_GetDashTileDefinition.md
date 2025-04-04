@@ -26,7 +26,7 @@ Gets a DashTileDefinition object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=203
+POST /api/v1/Agents/Dash/GetDashTileDefinition?dashTileDefinitionId=471
 POST /api/v1/Agents/Dash/GetDashTileDefinition?$select=name,department,category/id
 ```
 
@@ -95,31 +95,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 350,
-  "Name": "Hansen, Stokes and Becker",
-  "Description": "Implemented secondary strategy",
-  "DefaultHeight": 723,
-  "DefaultWidth": 346,
+  "DashboardTileDefinitionId": 645,
+  "Name": "Mayert Group",
+  "Description": "Polarised content-based website",
+  "DefaultHeight": 767,
+  "DefaultWidth": 795,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Beer-Kuhic",
-  "SelectionId": 477,
+  "EntityName": "Hermiston Group",
+  "SelectionId": 435,
   "CurrencyMode": "Base",
-  "CurrencyCode": "blanditiis",
+  "CurrencyCode": "iusto",
   "Measure": "Average",
-  "MeasureField": "consequuntur",
-  "SortBy": "ut",
-  "LayoutConfig": "quis",
-  "SecondarySelectionId": 209,
-  "MeasureByField": "beatae",
+  "MeasureField": "similique",
+  "SortBy": "voluptatum",
+  "LayoutConfig": "dolores",
+  "SecondarySelectionId": 107,
+  "MeasureByField": "ipsam",
   "Usage": "Dashboard",
-  "ProviderName": "Will Group",
+  "ProviderName": "Wolff Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 878
+      "FieldLength": 508
     }
   }
 }

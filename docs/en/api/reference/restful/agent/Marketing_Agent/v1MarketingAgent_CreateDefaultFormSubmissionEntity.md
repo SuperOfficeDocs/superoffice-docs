@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormSubmissionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormSubmissionId": 860,
-  "FormId": 246,
-  "WhenSubmitted": "2013-07-30T14:28:22.1022648+02:00",
-  "ContactId": 69,
-  "PersonId": 337,
-  "EmailAddress": "thomas.leannon@sporer.uk",
-  "ResponseShipmentAddrId": 837,
-  "Response": "molestiae",
+  "FormSubmissionId": 456,
+  "FormId": 391,
+  "WhenSubmitted": "2018-01-23T13:14:00.6887452+01:00",
+  "ContactId": 573,
+  "PersonId": 80,
+  "EmailAddress": "miles@collinsnitzsche.biz",
+  "ResponseShipmentAddrId": 561,
+  "Response": "aut",
   "Status": "EmailVerification",
-  "ProcessingLog": "odio",
+  "ProcessingLog": "mollitia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 37
+      "FieldLength": 925
     }
   }
 }

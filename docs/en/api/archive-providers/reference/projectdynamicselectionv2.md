@@ -798,7 +798,7 @@ Project selection archive with OR-able selection groups. Each group is represent
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectDynamicSelectionV2?$select=NumberOfSales,appointment/suggestedAppointmentId,appointment/associate/contactFullName,document/associateId,projectMember/personAssociate/assocTooltip
+GET /api/v1/archive/ProjectDynamicSelectionV2?$select=projectAssociate/ejUserId,sale/registeredByFullName,appointment/appointment/textId,projectMember/contactId,projectMember/personRegisteredBy
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

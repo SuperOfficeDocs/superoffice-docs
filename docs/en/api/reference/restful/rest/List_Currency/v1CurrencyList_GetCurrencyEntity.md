@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 489,
-  "Name": "Haag, Schiller and Casper",
-  "Tooltip": "voluptatem",
-  "Rank": 301,
-  "Rate": 8803.405999999999,
-  "Units": 22940.88,
+  "CurrencyId": 717,
+  "Name": "Jenkins Inc and Sons",
+  "Tooltip": "quae",
+  "Rank": 266,
+  "Rate": 10426.818,
+  "Units": 20427.412,
   "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 749
+      "FieldLength": 347
     }
   }
 }

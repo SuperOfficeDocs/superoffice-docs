@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 212,
-  "Name": "Emard LLC",
-  "Description": "Multi-lateral real-time function",
+  "ReportLabelLayoutId": 816,
+  "Name": "Wintheiser-Kris",
+  "Description": "Synchronised analyzing hierarchy",
   "Orientation": "Landscape",
-  "PaperWidth": 432,
-  "PaperHeight": 499,
-  "LeftMargin": 62,
-  "RightMargin": 479,
-  "TopMargin": 880,
-  "BottomMargin": 203,
-  "CountColumns": 435,
-  "CountRows": 448,
+  "PaperWidth": 778,
+  "PaperHeight": 978,
+  "LeftMargin": 17,
+  "RightMargin": 146,
+  "TopMargin": 179,
+  "BottomMargin": 205,
+  "CountColumns": 239,
+  "CountRows": 506,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldType": "System.String",
+      "FieldLength": 971
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 808,
-    "Name": "Dach, Klein and Huel",
-    "ToolTip": "Et numquam unde sit eius.",
+    "Id": 893,
+    "Name": "Aufderhar-Collins",
+    "ToolTip": "Soluta accusantium.",
     "Deleted": false,
-    "Rank": 979,
-    "Type": "minima",
-    "ColorBlock": 100,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2018-11-12T14:28:27.5551692+01:00",
+    "Rank": 935,
+    "Type": "eveniet",
+    "ColorBlock": 409,
+    "IconHint": "quia",
+    "Selected": true,
+    "LastChanged": "2021-10-16T13:14:09.7441386+02:00",
     "ChildItems": [
       {
-        "Id": 996,
-        "Name": "Hammes Inc and Sons",
-        "ToolTip": "Et mollitia quisquam.",
-        "Deleted": false,
-        "Rank": 407,
-        "Type": "qui",
-        "ColorBlock": 520,
-        "IconHint": "beatae",
+        "Id": 800,
+        "Name": "Simonis-Thompson",
+        "ToolTip": "Qui ab minus impedit.",
+        "Deleted": true,
+        "Rank": 68,
+        "Type": "ab",
+        "ColorBlock": 231,
+        "IconHint": "repellendus",
         "Selected": false,
-        "LastChanged": "2022-02-06T14:28:27.5551692+01:00",
+        "LastChanged": "2013-04-20T13:14:09.7441386+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quae",
-        "StyleHint": "delectus",
-        "Hidden": false,
-        "FullName": "Jack Gleason",
+        "ExtraInfo": "praesentium",
+        "StyleHint": "quasi",
+        "Hidden": true,
+        "FullName": "Miss Ebba Carroll IV",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 982
+            "FieldType": "System.String",
+            "FieldLength": 153
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "dolorum",
-    "Hidden": false,
-    "FullName": "Sasha Donnelly",
+    "ExtraInfo": "voluptate",
+    "StyleHint": "omnis",
+    "Hidden": true,
+    "FullName": "Jevon Hilll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 12
+        "FieldLength": 786
       }
     }
   }

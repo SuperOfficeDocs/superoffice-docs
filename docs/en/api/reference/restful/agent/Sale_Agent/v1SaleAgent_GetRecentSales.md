@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetRecentSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 650,
-  "Count": 955
+  "AmountLimit": 632,
+  "Count": 694
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Littel-Hettinger",
-    "SaleDate": "2023-10-11T14:28:22.3678792+02:00",
-    "SaleId": 413,
-    "Probability": 817,
-    "Title": "consequatur",
-    "Amount": 27814.25,
-    "Currency": "alias",
-    "ProjectName": "Botsford, Moen and Volkman",
-    "AssociateFullName": "Ms. Alan Aaron Stiedemann DDS",
-    "Description": "Reverse-engineered tangible architecture",
+    "ContactName": "Gutkowski, Hagenes and Barrows",
+    "SaleDate": "2016-03-20T13:14:01.1274981+01:00",
+    "SaleId": 444,
+    "Probability": 534,
+    "Title": "ut",
+    "Amount": 3698.12,
+    "Currency": "ducimus",
+    "ProjectName": "Kertzmann Group",
+    "AssociateFullName": "Mercedes Kirlin",
+    "Description": "Programmable mobile task-force",
     "Status": "Lost",
-    "WeightedAmount": 25592.244,
-    "ProjectId": 866,
-    "EarningPercent": 15648.062,
-    "Earning": 12416.908,
-    "ContactId": 535,
-    "AssociateId": 228,
-    "PersonId": 899,
-    "SaleTypeId": 810,
-    "SaleTypeName": "Bayer-Bruen",
-    "PersonFullName": "Mr. Abby Derick Lockman III",
+    "WeightedAmount": 9906.574,
+    "ProjectId": 505,
+    "EarningPercent": 4208.9619999999995,
+    "Earning": 10702.609999999999,
+    "ContactId": 129,
+    "AssociateId": 783,
+    "PersonId": 724,
+    "SaleTypeId": 635,
+    "SaleTypeName": "Wiza-Predovic",
+    "PersonFullName": "Miss Jonas Gerhold V",
     "Completed": "Completed",
-    "ActiveErpLinks": 874,
-    "NextDueDate": "2008-09-23T14:28:22.3678792+02:00",
-    "Number": "1048171",
+    "ActiveErpLinks": 655,
+    "NextDueDate": "2006-08-20T13:14:01.1274981+02:00",
+    "Number": "1166742",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 840
+        "FieldLength": 491
       }
     }
   }

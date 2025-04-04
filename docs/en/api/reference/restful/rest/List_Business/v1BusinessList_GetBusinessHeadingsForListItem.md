@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 404,
-    "Name": "Bogan Inc and Sons",
-    "ToolTip": "Minus est nihil quis aut quia et.",
+    "Id": 308,
+    "Name": "Franecki, Pfannerstill and Boehm",
+    "ToolTip": "Perferendis ab quibusdam.",
     "Deleted": false,
-    "Rank": 877,
-    "Type": "eligendi",
-    "ColorBlock": 954,
-    "IconHint": "iusto",
-    "Selected": true,
-    "LastChanged": "2015-09-10T14:28:27.4770477+02:00",
+    "Rank": 734,
+    "Type": "illum",
+    "ColorBlock": 653,
+    "IconHint": "earum",
+    "Selected": false,
+    "LastChanged": "2019-04-11T13:14:09.6191319+02:00",
     "ChildItems": [
       {
-        "Id": 538,
-        "Name": "Ferry-Jast",
-        "ToolTip": "Ea nisi voluptatem sit cumque veniam omnis sit.",
-        "Deleted": false,
-        "Rank": 51,
-        "Type": "doloribus",
-        "ColorBlock": 281,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "1999-08-02T14:28:27.4770477+02:00",
+        "Id": 809,
+        "Name": "Reilly, Heller and Bednar",
+        "ToolTip": "Consequatur amet voluptas quod.",
+        "Deleted": true,
+        "Rank": 650,
+        "Type": "ipsum",
+        "ColorBlock": 403,
+        "IconHint": "sint",
+        "Selected": true,
+        "LastChanged": "2014-05-24T13:14:09.6191319+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "culpa",
-        "StyleHint": "beatae",
+        "ExtraInfo": "libero",
+        "StyleHint": "harum",
         "Hidden": true,
-        "FullName": "Ms. Celestine Toby Crona",
+        "FullName": "Calista Yost",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 23
+            "FieldType": "System.String",
+            "FieldLength": 438
           }
         }
       }
     ],
-    "ExtraInfo": "beatae",
-    "StyleHint": "minima",
+    "ExtraInfo": "quasi",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Carmel Roberts",
+    "FullName": "Arlo Osinski DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 645
+        "FieldType": "System.Int32",
+        "FieldLength": 207
       }
     }
   }

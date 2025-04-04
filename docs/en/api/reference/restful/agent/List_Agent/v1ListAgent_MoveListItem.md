@@ -70,9 +70,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 592,
-  "ListItemId": 565,
-  "Direction": 614
+  "UdListDefinitionId": 640,
+  "ListItemId": 489,
+  "Direction": 48
 }
 ```
 

@@ -110,28 +110,28 @@ OK
 POST /api/v1/Relation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 415,
-  "SourcePersonId": 765,
-  "DestinationContactId": 258,
-  "DestinationPersonId": 925,
-  "RelationId": 57,
-  "Comment": "non",
-  "RelationDefinitionId": 983,
-  "Reversed": 464,
-  "UpdatedDate": "2022-12-05T14:28:26.8676969+01:00",
-  "CreatedDate": "2001-06-02T14:28:26.8676969+02:00",
+  "SourceContactId": 721,
+  "SourcePersonId": 702,
+  "DestinationContactId": 203,
+  "DestinationPersonId": 974,
+  "RelationId": 516,
+  "Comment": "aut",
+  "RelationDefinitionId": 624,
+  "Reversed": 509,
+  "UpdatedDate": "2007-09-21T13:14:08.6178742+02:00",
+  "CreatedDate": "2004-03-31T13:14:08.6178742+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Schuppe, Wolff and Powlowski",
-  "SourcePersonName": "McKenzie-Pouros",
-  "DestinationContactName": "Blanda LLC",
-  "DestinationPersonName": "Kirlin LLC",
-  "ActiveText": "nihil",
-  "PassiveText": "libero"
+  "SourceContactName": "Goldner-Kutch",
+  "SourcePersonName": "Feest LLC",
+  "DestinationContactName": "Fadel, Zieme and Grady",
+  "DestinationPersonName": "Hodkiewicz Group",
+  "ActiveText": "inventore",
+  "PassiveText": "officia"
 }
 ```
 
@@ -142,30 +142,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 494,
-  "SourcePersonId": 868,
-  "DestinationContactId": 514,
-  "DestinationPersonId": 675,
-  "RelationId": 775,
-  "Comment": "omnis",
-  "RelationDefinitionId": 523,
-  "Reversed": 185,
-  "UpdatedDate": "2000-01-22T14:28:26.8676969+01:00",
-  "CreatedDate": "2017-10-15T14:28:26.8676969+02:00",
+  "SourceContactId": 693,
+  "SourcePersonId": 71,
+  "DestinationContactId": 472,
+  "DestinationPersonId": 716,
+  "RelationId": 838,
+  "Comment": "eaque",
+  "RelationDefinitionId": 612,
+  "Reversed": 243,
+  "UpdatedDate": "2015-07-23T13:14:08.6178742+02:00",
+  "CreatedDate": "2005-03-13T13:14:08.6178742+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Walker LLC",
-  "SourcePersonName": "Hilpert Group",
-  "DestinationContactName": "Moore-Feest",
-  "DestinationPersonName": "Hammes-Champlin",
-  "ActiveText": "autem",
-  "PassiveText": "aut",
+  "SourceContactName": "Cronin, Gerhold and Runolfsson",
+  "SourcePersonName": "Oberbrunner-Hamill",
+  "DestinationContactName": "Dibbert-Ortiz",
+  "DestinationPersonName": "Gaylord LLC",
+  "ActiveText": "aperiam",
+  "PassiveText": "ut",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldType": "System.String",
+      "FieldLength": 530
     }
   },
   "_Links": {

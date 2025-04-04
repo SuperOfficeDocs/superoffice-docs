@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetLicenseFromLicenseServer
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Lemke-Kirlin"
+  "OwnerName": "Boyle Group"
 }
 ```
 
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Reason": "",
+  "Reason": "facilitate mission-critical networks",
   "CanBeActivated": false,
   "New": null,
   "Current": null,
@@ -99,14 +99,14 @@ Content-Type: application/json; charset=utf-8
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 174,
-      "NumberOfLicensesFree": 561,
-      "NumberOfLicensesAdded": 765,
-      "NumberOfLicensesNewTotal": 59,
-      "NumberOfLicensesNewFree": 164,
-      "NumberOfLicensesTotal": 49
+      "NumberOfLicensesInUse": 867,
+      "NumberOfLicensesFree": 486,
+      "NumberOfLicensesAdded": 928,
+      "NumberOfLicensesNewTotal": 750,
+      "NumberOfLicensesNewFree": 146,
+      "NumberOfLicensesTotal": 488
     }
   ],
-  "AccumulatedNextCheckDate": "2021-07-25T14:28:22.0241429+02:00"
+  "AccumulatedNextCheckDate": "2014-04-04T13:14:00.532487+02:00"
 }
 ```

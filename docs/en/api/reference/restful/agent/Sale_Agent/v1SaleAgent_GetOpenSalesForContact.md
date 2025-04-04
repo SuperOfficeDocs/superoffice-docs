@@ -97,11 +97,11 @@ OK
 POST /api/v1/Agents/Sale/GetOpenSalesForContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 495
+  "ContactId": 801
 }
 ```
 
@@ -113,37 +113,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Schimmel, Ruecker and Nikolaus",
-    "SaleDate": "2012-08-17T14:28:22.3678792+02:00",
-    "SaleId": 229,
-    "Probability": 465,
-    "Title": "incidunt",
-    "Amount": 16660.344,
-    "Currency": "enim",
-    "ProjectName": "Murazik-Waters",
-    "AssociateFullName": "Lukas Iva Crona I",
-    "Description": "User-centric foreground firmware",
+    "ContactName": "Ward-Carroll",
+    "SaleDate": "2009-11-02T13:14:01.1274981+01:00",
+    "SaleId": 885,
+    "Probability": 444,
+    "Title": "ut",
+    "Amount": 19878.962,
+    "Currency": "aliquid",
+    "ProjectName": "Gaylord, Price and Watsica",
+    "AssociateFullName": "Domenica Janice Renner DDS",
+    "Description": "Adaptive bi-directional extranet",
     "Status": "Lost",
-    "WeightedAmount": 1513.722,
-    "ProjectId": 161,
-    "EarningPercent": 23523.804,
-    "Earning": 4976.7919999999995,
-    "ContactId": 122,
-    "AssociateId": 246,
-    "PersonId": 641,
-    "SaleTypeId": 826,
-    "SaleTypeName": "Shields, Corkery and Ebert",
-    "PersonFullName": "Kiel Kuhn",
+    "WeightedAmount": 1582.6699999999998,
+    "ProjectId": 871,
+    "EarningPercent": 15867.442,
+    "Earning": 3149.67,
+    "ContactId": 59,
+    "AssociateId": 681,
+    "PersonId": 705,
+    "SaleTypeId": 190,
+    "SaleTypeName": "Bauch-Kiehn",
+    "PersonFullName": "Jefferey Stamm",
     "Completed": "Completed",
-    "ActiveErpLinks": 876,
-    "NextDueDate": "2008-06-10T14:28:22.3678792+02:00",
-    "Number": "490140",
+    "ActiveErpLinks": 396,
+    "NextDueDate": "2013-04-08T13:14:01.1274981+02:00",
+    "Number": "1249108",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 974
+        "FieldLength": 872
       }
     }
   }

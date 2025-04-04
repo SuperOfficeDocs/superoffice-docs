@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 249,
-    "Name": "Windler-Kilback",
-    "Tooltip": "blanditiis",
+    "Id": 687,
+    "Name": "Jenkins LLC",
+    "Tooltip": "esse",
     "Deleted": false,
-    "UdListDefinitionId": 526,
-    "Rank": 772,
+    "UdListDefinitionId": 975,
+    "Rank": 38,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 743
+        "FieldType": "System.String",
+        "FieldLength": 263
       }
     }
   }

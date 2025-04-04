@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 108,
-  "Name": "Oberbrunner-Bergnaum",
-  "Tooltip": "labore",
+  "Id": 178,
+  "Name": "Shields-Erdman",
+  "Tooltip": "aliquam",
   "Deleted": false,
-  "Rank": 714,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "dolorem",
-  "InUseByUserDefinedFields": true
+  "Rank": 310,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolores",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 767,
-  "Name": "Tromp-Cruickshank",
-  "Tooltip": "consequuntur",
+  "Id": 563,
+  "Name": "Kozey Group",
+  "Tooltip": "qui",
   "Deleted": false,
-  "Rank": 171,
-  "IsCustomList": true,
+  "Rank": 333,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "ab",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldLength": 605
     }
   }
 }

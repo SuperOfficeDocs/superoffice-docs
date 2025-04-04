@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Dash/GetDashCollection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -79,111 +79,111 @@ Content-Type: application/json; charset=utf-8
 {
   "Pinned": [
     {
-      "DashboardId": 344,
-      "UniqueId": "delectus",
-      "Name": "Borer Group",
-      "Description": "Diverse maximized circuit",
-      "AssociateId": 806,
-      "Columns": 974,
+      "DashboardId": 884,
+      "UniqueId": "quia",
+      "Name": "Hoeger Group",
+      "Description": "Operative national emulation",
+      "AssociateId": 250,
+      "Columns": 411,
       "Theme": null,
-      "VisibleForAll": 106,
+      "VisibleForAll": 233,
       "VisibleForAssociates": [
-        254,
-        547
+        924,
+        894
       ],
       "VisibleForGroups": [
-        902,
-        958
+        349,
+        204
       ],
-      "PinForAll": 362,
+      "PinForAll": 831,
       "PinForAssociates": [
-        39,
-        477
+        456,
+        69
       ],
       "PinForGroups": [
-        511,
-        591
+        951,
+        421
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 576
+          "FieldLength": 200
         }
       }
     }
   ],
   "Favourites": [
     {
-      "DashboardId": 783,
-      "UniqueId": "numquam",
-      "Name": "Lubowitz-Kuhic",
-      "Description": "Down-sized regional Graphical User Interface",
-      "AssociateId": 608,
-      "Columns": 297,
+      "DashboardId": 778,
+      "UniqueId": "rem",
+      "Name": "Dickinson-McCullough",
+      "Description": "User-friendly 24 hour task-force",
+      "AssociateId": 913,
+      "Columns": 826,
       "Theme": null,
-      "VisibleForAll": 813,
+      "VisibleForAll": 809,
       "VisibleForAssociates": [
-        631,
-        985
+        442,
+        891
       ],
       "VisibleForGroups": [
-        283,
-        686
+        350,
+        63
       ],
-      "PinForAll": 706,
+      "PinForAll": 506,
       "PinForAssociates": [
-        864,
-        407
+        92,
+        233
       ],
       "PinForGroups": [
-        619,
-        34
+        121,
+        798
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 768
+          "FieldType": "System.String",
+          "FieldLength": 388
         }
       }
     }
   ],
   "Other": [
     {
-      "DashboardId": 318,
-      "UniqueId": "dicta",
-      "Name": "Waelchi, Reinger and Littel",
-      "Description": "Business-focused maximized archive",
-      "AssociateId": 546,
-      "Columns": 301,
+      "DashboardId": 73,
+      "UniqueId": "ut",
+      "Name": "Kris, Wolf and Parisian",
+      "Description": "Object-based secondary implementation",
+      "AssociateId": 176,
+      "Columns": 939,
       "Theme": null,
-      "VisibleForAll": 898,
+      "VisibleForAll": 988,
       "VisibleForAssociates": [
-        955,
-        317
+        397,
+        760
       ],
       "VisibleForGroups": [
-        329,
-        909
+        544,
+        605
       ],
-      "PinForAll": 358,
+      "PinForAll": 345,
       "PinForAssociates": [
-        913,
-        906
+        358,
+        627
       ],
       "PinForGroups": [
-        325,
-        477
+        609,
+        873
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 820
+          "FieldType": "System.String",
+          "FieldLength": 265
         }
       }
     }
@@ -193,7 +193,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 332
     }
   }
 }

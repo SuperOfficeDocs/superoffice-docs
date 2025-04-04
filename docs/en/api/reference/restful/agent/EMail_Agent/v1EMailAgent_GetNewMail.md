@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/EMail/GetNewMail
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    427,
-    593
+    968,
+    594
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 143,
-    "MessageId": "recusandae",
-    "Subject": "in",
+    "ServerId": 964,
+    "MessageId": "qui",
+    "Subject": "rerum",
     "From": null,
     "To": [
       {
-        "ContactId": 732,
-        "ContactName": "Schamberger, Yost and Crooks",
-        "PersonId": 149,
-        "PersonName": "Reichert Inc and Sons",
-        "AssociateId": 414,
-        "Address": "fugiat",
-        "EmailId": 762,
+        "ContactId": 454,
+        "ContactName": "Beatty, Langosh and Keebler",
+        "PersonId": 660,
+        "PersonName": "Olson Group",
+        "AssociateId": 549,
+        "Address": "voluptatum",
+        "EmailId": 806,
         "DuplicatePersonIds": [
-          393,
-          120
+          852,
+          926
         ],
-        "Name": "Schaefer, Greenfelder and Pacocha",
+        "Name": "Becker-Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 819
+            "FieldType": "System.Int32",
+            "FieldLength": 525
           }
         }
       }
     ],
-    "Sent": "2022-01-13T14:28:21.8991479+01:00",
+    "Sent": "2015-04-05T13:14:00.2668463+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 671,
+    "Size": 928,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 595
+        "FieldType": "System.String",
+        "FieldLength": 554
       }
     }
   }

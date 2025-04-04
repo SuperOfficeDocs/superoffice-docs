@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 562,
-    "Name": "Steuber-Turner",
-    "Tooltip": "pariatur",
+    "HeadingId": 737,
+    "Name": "Rice, Gutkowski and Wolff",
+    "Tooltip": "esse",
     "Deleted": false,
-    "Rank": 98,
-    "UdListDefinitionId": 58
+    "Rank": 776,
+    "UdListDefinitionId": 582
   },
   {
-    "HeadingId": 562,
-    "Name": "Steuber-Turner",
-    "Tooltip": "pariatur",
+    "HeadingId": 737,
+    "Name": "Rice, Gutkowski and Wolff",
+    "Tooltip": "esse",
     "Deleted": false,
-    "Rank": 98,
-    "UdListDefinitionId": 58
+    "Rank": 776,
+    "UdListDefinitionId": 582
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 824,
-    "Name": "Champlin Group",
-    "Tooltip": "architecto",
+    "HeadingId": 961,
+    "Name": "Langworth-Altenwerth",
+    "Tooltip": "voluptatem",
     "Deleted": false,
-    "Rank": 792,
-    "UdListDefinitionId": 956,
+    "Rank": 785,
+    "UdListDefinitionId": 603,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 282
+        "FieldType": "System.Int32",
+        "FieldLength": 584
       }
     }
   }

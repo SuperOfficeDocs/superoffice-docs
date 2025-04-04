@@ -86,14 +86,14 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByNameAndId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "quasi",
-  "PrefKey": "excepturi",
+  "PrefSection": "mollitia",
+  "PrefKey": "dignissimos",
   "PrefLevel": "Database",
-  "OwnerId": 800
+  "OwnerId": 336
 }
 ```
 
@@ -105,22 +105,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "repudiandae",
+  "RawValue": "sit",
   "Specification": null,
-  "DisplayValue": "beatae",
-  "DisplayTooltip": "veritatis",
+  "DisplayValue": "laboriosam",
+  "DisplayTooltip": "expedita",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 193,
-  "PrefDescId": 447,
-  "TableName": "Beahan Group",
-  "UserPreferenceId": 347,
+  "TargetId": 256,
+  "PrefDescId": 228,
+  "TableName": "Gleichner-Borer",
+  "UserPreferenceId": 903,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 137
+      "FieldType": "System.Int32",
+      "FieldLength": 604
     }
   }
 }

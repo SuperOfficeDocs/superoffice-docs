@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Customizable encompassing focus group",
-  "Postit": "corporis",
+  "Description": "Monitored multi-tasking strategy",
+  "Postit": "assumenda",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 348,
-  "IncludePerson": 430,
+  "GroupIdx": 158,
+  "IncludePerson": 515,
   "MemberCount": 99.99,
-  "Name": "Walter-Jones",
-  "PostitTextId": 459,
-  "CreatedDate": "2009-06-21T14:28:22.3991281+02:00",
-  "SelectionId": 743,
-  "SoundEx": "perferendis",
-  "Source": 909,
-  "TextId": 690,
-  "UpdatedDate": "2012-06-16T14:28:22.3991281+02:00",
-  "UpdatedCount": 928,
-  "Visibility": 56,
+  "Name": "White-Corwin",
+  "PostitTextId": 66,
+  "CreatedDate": "1999-07-24T13:14:01.3162978+02:00",
+  "SelectionId": 627,
+  "SoundEx": "nam",
+  "Source": 202,
+  "TextId": 614,
+  "UpdatedDate": "2007-01-10T13:14:01.3162978+01:00",
+  "UpdatedCount": 320,
+  "Visibility": 190,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 196,
-  "TargetTableName": "Stanton-Ferry",
+  "CompanyUnique": true,
+  "TargetTableNumber": 443,
+  "TargetTableName": "Kuvalis Inc and Sons",
   "Completed": false,
-  "LeftSelectionId": 9,
-  "RightSelectionId": 625,
+  "LeftSelectionId": 782,
+  "RightSelectionId": 285,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Huels LLC",
-  "ShadowProviderName": "Schuppe-Harber",
-  "ChartKey": "voluptatem",
-  "LastLoaded": "2015-11-26T14:28:22.3991281+01:00",
-  "LastLoadedBy": 936,
+  "MainProviderName": "Gulgowski-Price",
+  "ShadowProviderName": "Jakubowski, Sanford and Stehr",
+  "ChartKey": "sed",
+  "LastLoaded": "2014-01-28T13:14:01.3162978+01:00",
+  "LastLoadedBy": 215,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-01-29T14:28:22.3991281+01:00",
-  "LastMembershipChangeBy": 484,
+  "LastMembershipChange": "2011-12-18T13:14:01.3162978+01:00",
+  "LastMembershipChangeBy": 913,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "non",
-  "MemberTabHeading": "rerum",
-  "MailingsProviderName": "Corkery Group",
-  "DashboardTileDefinitionId": 851,
+  "MainHeading": "sed",
+  "MemberTabHeading": "qui",
+  "MailingsProviderName": "Marquardt LLC",
+  "DashboardTileDefinitionId": 437,
   "VisibleFor": [
     {
-      "VisibleId": 652,
+      "VisibleId": 925,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 62
+          "FieldLength": 282
         }
       }
     },
     {
-      "VisibleId": 652,
+      "VisibleId": 925,
       "Visibility": "All",
-      "DisplayValue": "error",
+      "DisplayValue": "deleniti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 62
+          "FieldLength": 282
         }
       }
     }
@@ -187,8 +187,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldType": "System.String",
+      "FieldLength": 184
     }
   }
 }

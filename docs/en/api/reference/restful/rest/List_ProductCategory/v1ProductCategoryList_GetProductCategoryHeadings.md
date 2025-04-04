@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 123,
-    "Name": "Dicki LLC",
-    "Tooltip": "quo",
-    "Deleted": false,
-    "Rank": 303,
-    "UdListDefinitionId": 266,
+    "HeadingId": 283,
+    "Name": "Zemlak Inc and Sons",
+    "Tooltip": "ullam",
+    "Deleted": true,
+    "Rank": 44,
+    "UdListDefinitionId": 523,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 346
+        "FieldType": "System.Int32",
+        "FieldLength": 534
       }
     }
   }

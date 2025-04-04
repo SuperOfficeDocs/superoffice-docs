@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 66,
-  "PlainMessage": "et",
-  "HtmlMessage": "dolores",
-  "SmsMessage": "vitae",
-  "Description": "Expanded leading edge installation",
-  "Subject": "doloribus",
-  "FolderId": 960,
-  "HeaderField": "praesentium",
-  "Design": "saepe",
+  "ShipmentMessageId": 89,
+  "PlainMessage": "dolorem",
+  "HtmlMessage": "id",
+  "SmsMessage": "dolor",
+  "Description": "Focused regional toolset",
+  "Subject": "alias",
+  "FolderId": 12,
+  "HeaderField": "est",
+  "Design": "dignissimos",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Fundamental discrete productivity",
-  "AccessKey": "delectus",
-  "DocumentMessage": 774,
-  "Registered": "2009-10-14T14:28:22.1022648+02:00",
-  "RegisteredAssociateId": 154,
-  "Updated": "2007-03-12T14:28:22.1022648+01:00",
-  "UpdatedAssociateId": 181,
-  "UpdatedCount": 988
+  "InlineImages": false,
+  "LongDescription": "Total homogeneous archive",
+  "AccessKey": "architecto",
+  "DocumentMessage": 822,
+  "Registered": "2007-02-18T13:14:00.6887452+01:00",
+  "RegisteredAssociateId": 998,
+  "Updated": "2000-09-06T13:14:00.6887452+02:00",
+  "UpdatedAssociateId": 798,
+  "UpdatedCount": 150
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 327,
-  "PlainMessage": "reiciendis",
-  "HtmlMessage": "rerum",
-  "SmsMessage": "in",
-  "Description": "Operative 6th generation success",
-  "Subject": "eaque",
-  "FolderId": 636,
-  "HeaderField": "asperiores",
-  "Design": "beatae",
+  "ShipmentMessageId": 18,
+  "PlainMessage": "tempora",
+  "HtmlMessage": "sit",
+  "SmsMessage": "aut",
+  "Description": "Switchable holistic capability",
+  "Subject": "eius",
+  "FolderId": 450,
+  "HeaderField": "odio",
+  "Design": "nihil",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
-  "InlineImages": false,
-  "LongDescription": "Open-source impactful hierarchy",
-  "AccessKey": "id",
-  "DocumentMessage": 904,
-  "Registered": "2012-01-16T14:28:22.1022648+01:00",
-  "RegisteredAssociateId": 763,
-  "Updated": "2002-04-27T14:28:22.1022648+02:00",
-  "UpdatedAssociateId": 909,
-  "UpdatedCount": 574,
+  "RegisterViews": false,
+  "InlineImages": true,
+  "LongDescription": "Multi-lateral contextually-based process improvement",
+  "AccessKey": "cum",
+  "DocumentMessage": 772,
+  "Registered": "2009-01-03T13:14:00.6887452+01:00",
+  "RegisteredAssociateId": 338,
+  "Updated": "2022-01-04T13:14:00.6887452+01:00",
+  "UpdatedAssociateId": 642,
+  "UpdatedCount": 247,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 716
+      "FieldType": "System.Int32",
+      "FieldLength": 803
     }
   }
 }

@@ -66,11 +66,11 @@ No Content
 POST /api/v1/Agents/Appointment/RejectWithEmailConfirmation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 687,
+  "AppointmentId": 592,
   "RejectReason": "",
   "UpdateMode": "OnlyThis"
 }

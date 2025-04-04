@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 369,
-  "StartTime": "1998-02-06T14:28:21.7116556+01:00",
-  "EndTime": "2025-03-17T14:28:21.7116556+01:00",
-  "Count": 797,
-  "DocumentTemplateId": 47
+  "ContactId": 405,
+  "StartTime": "2020-01-21T13:14:00.0944666+01:00",
+  "EndTime": "2017-01-01T13:14:00.0944666+01:00",
+  "Count": 283,
+  "DocumentTemplateId": 327
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 15,
-    "Attention": "omnis",
-    "Header": "quaerat",
-    "Name": "Pagac, Howell and Friesen",
-    "OurRef": "eos",
-    "YourRef": "totam",
-    "Description": "Seamless analyzing monitoring",
-    "DocumentTemplate": "explicabo",
-    "IsPublished": true,
-    "PersonId": 329,
-    "PersonFullName": "Mrs. Peter Mills II",
-    "AssociateFullName": "Anissa Medhurst",
-    "ContactId": 323,
-    "ContactName": "Haley, Braun and O'Conner",
-    "ProjectId": 558,
-    "ProjectName": "Marks-Hills",
-    "AssociateId": 933,
-    "Snum": 215,
-    "SaleId": 304,
-    "SaleName": "Zemlak, Willms and Kuhlman",
+    "DocumentId": 530,
+    "Attention": "ipsa",
+    "Header": "ipsum",
+    "Name": "Davis, Fadel and Schmitt",
+    "OurRef": "necessitatibus",
+    "YourRef": "explicabo",
+    "Description": "Optimized background synergy",
+    "DocumentTemplate": "similique",
+    "IsPublished": false,
+    "PersonId": 522,
+    "PersonFullName": "Colleen Cronin",
+    "AssociateFullName": "Mr. Gilberto Anika Howe",
+    "ContactId": 809,
+    "ContactName": "Stehr, Lesch and Wehner",
+    "ProjectId": 684,
+    "ProjectName": "Cruickshank-Dicki",
+    "AssociateId": 170,
+    "Snum": 778,
+    "SaleId": 477,
+    "SaleName": "Conn-Weissnat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 848
+        "FieldLength": 346
       }
     }
   }

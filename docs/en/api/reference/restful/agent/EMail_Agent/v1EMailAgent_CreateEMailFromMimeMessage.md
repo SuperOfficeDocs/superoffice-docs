@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "MimeMessage": "quos"
+  "MimeMessage": "eum"
 }
 ```
 
@@ -117,147 +117,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 20,
-      "ContactName": "Veum Group",
-      "PersonId": 52,
-      "PersonName": "Rutherford, Lindgren and Veum",
-      "AssociateId": 10,
-      "Address": "vel",
-      "EmailId": 997,
+      "ContactId": 494,
+      "ContactName": "Ankunding-McLaughlin",
+      "PersonId": 472,
+      "PersonName": "Cummerata-Ward",
+      "AssociateId": 484,
+      "Address": "officia",
+      "EmailId": 567,
       "DuplicatePersonIds": [
-        532,
-        392
+        31,
+        569
       ],
-      "Name": "Dooley Inc and Sons",
+      "Name": "Wehner, Jerde and Franecki",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 969
+          "FieldType": "System.String",
+          "FieldLength": 90
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 530,
-      "ContactName": "Crona-Cummerata",
-      "PersonId": 5,
-      "PersonName": "Schoen Inc and Sons",
-      "AssociateId": 206,
-      "Address": "nihil",
-      "EmailId": 291,
+      "ContactId": 822,
+      "ContactName": "Reilly Inc and Sons",
+      "PersonId": 426,
+      "PersonName": "Heaney, Langworth and Lind",
+      "AssociateId": 259,
+      "Address": "eius",
+      "EmailId": 88,
       "DuplicatePersonIds": [
-        15,
-        834
+        583,
+        693
       ],
-      "Name": "Huel-Weber",
+      "Name": "Halvorson-Dach",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 214
+          "FieldLength": 863
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 807,
-      "ContactName": "Hudson, Harris and Ward",
-      "PersonId": 474,
-      "PersonName": "Leannon, Monahan and Dickinson",
-      "AssociateId": 533,
-      "Address": "voluptas",
-      "EmailId": 241,
+      "ContactId": 115,
+      "ContactName": "Wilkinson, Bins and Conn",
+      "PersonId": 551,
+      "PersonName": "Yundt-Graham",
+      "AssociateId": 769,
+      "Address": "corrupti",
+      "EmailId": 886,
       "DuplicatePersonIds": [
-        738,
-        99
+        807,
+        839
       ],
-      "Name": "Roob-Boyle",
+      "Name": "Kovacek LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 780
+          "FieldLength": 100
         }
       }
     }
   ],
-  "Subject": "eveniet",
-  "HTMLBody": "porro",
+  "Subject": "consequatur",
+  "HTMLBody": "adipisci",
   "From": null,
-  "Sent": "2022-09-28T14:28:21.9616455+02:00",
-  "Size": 520,
+  "Sent": "2023-03-13T13:14:00.3918537+01:00",
+  "Size": 434,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "rerum",
-  "PlainBody": "dolores",
+  "MessageID": "ut",
+  "PlainBody": "aliquam",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 174,
+  "ServerId": 133,
   "Attachments": [
     {
-      "Description": "Public-key value-added firmware",
-      "Filename": "dolore",
-      "Size": 697,
-      "Type": "harum",
-      "Encoding": "tempore",
-      "Id": "qui",
-      "Disposition": "et",
-      "IsSafeFileExtension": false,
+      "Description": "Switchable leading edge model",
+      "Filename": "aliquam",
+      "Size": 764,
+      "Type": "dicta",
+      "Encoding": "blanditiis",
+      "Id": "id",
+      "Disposition": "earum",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 648
+          "FieldLength": 63
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Berge Group",
+      "Name": "Zemlak, Reilly and Krajcik",
       "Values": [
-        "harum",
-        "ad"
+        "et",
+        "quos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 352
+          "FieldLength": 837
         }
       }
     },
     {
-      "Name": "Berge Group",
+      "Name": "Zemlak, Reilly and Krajcik",
       "Values": [
-        "harum",
-        "ad"
+        "et",
+        "quos"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 352
+          "FieldLength": 837
         }
       }
     }
   ],
-  "FolderName": "Bosco-Romaguera",
-  "EmailItemId": 393,
-  "AccountId": 747,
-  "ReceivedAt": "2013-02-26T14:28:21.9616455+01:00",
+  "FolderName": "Borer LLC",
+  "EmailItemId": 484,
+  "AccountId": 724,
+  "ReceivedAt": "1999-06-23T13:14:00.3918537+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2004-12-11T14:28:21.9616455+01:00",
+  "RepliedAt": "2017-11-21T13:14:00.3918537+01:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -265,8 +265,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 466
+      "FieldType": "System.Int32",
+      "FieldLength": 919
     }
   }
 }

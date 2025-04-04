@@ -68,7 +68,7 @@ OK
 GET /api/v1/Document/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Satterfield-Wisoky",
-    "DisplayName": "Bartoletti, Steuber and Spencer",
-    "Description": "Reactive optimal application",
-    "ShortLabel": "iure",
-    "HideLabel": false,
-    "HideField": true,
+    "FieldName": "Brekke-Lehner",
+    "DisplayName": "Schuster-Aufderhar",
+    "Description": "Innovative mobile product",
+    "ShortLabel": "ipsum",
+    "HideLabel": true,
+    "HideField": false,
     "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": true,
     "IsDisplayField": false,
-    "Rank": 607,
-    "TemplateVariableName": "Schmeler-Hane"
+    "Rank": 101,
+    "TemplateVariableName": "Gleason, Powlowski and Kiehn"
   }
 ]
 ```

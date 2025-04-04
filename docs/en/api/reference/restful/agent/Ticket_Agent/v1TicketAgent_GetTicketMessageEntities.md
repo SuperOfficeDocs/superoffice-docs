@@ -103,10 +103,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketId": 522,
+  "TicketId": 731,
   "MessageIds": [
-    679,
-    571
+    433,
+    518
   ]
 }
 ```
@@ -119,28 +119,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EjMessageId": 426,
+    "EjMessageId": 812,
     "Ticket": null,
-    "CreatedAt": "2002-11-09T14:28:22.6334931+01:00",
+    "CreatedAt": "2016-10-13T13:14:01.5819386+02:00",
     "CreatedBy": null,
-    "Author": "ullam",
+    "Author": "veniam",
     "Slevel": "External",
     "Type": "Html",
-    "MessageId": "non",
-    "TimeSpent": 474,
-    "Body": "earum",
-    "HtmlBody": "laborum",
-    "EmailHeader": "blaze_connelly@blanda.info",
-    "DebugInfo": "deserunt",
-    "MailSorter": "odio",
+    "MessageId": "consequatur",
+    "TimeSpent": 129,
+    "Body": "cum",
+    "HtmlBody": "iste",
+    "EmailHeader": "jannie_osinski@kiehnmuller.biz",
+    "DebugInfo": "maxime",
+    "MailSorter": "facilis",
     "MessageCategory": "Bounce",
     "Person": null,
-    "SearchTitle": "atque",
+    "SearchTitle": "fuga",
     "MessageHeaders": [
       {
-        "Id": 575,
-        "Name": "Konopelski, Pollich and Hudson",
-        "Value": "sint",
+        "Id": 612,
+        "Name": "Langworth Group",
+        "Value": "aut",
         "StdItem": "CustomerReadFAQ",
         "StdItemCol": "Name",
         "TableRight": null,
@@ -148,50 +148,50 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 723
+            "FieldLength": 660
           }
         }
       }
     ],
-    "Important": false,
-    "Language": "omnis",
-    "Sentiment": 11,
-    "SentimentConfidence": 358,
+    "Important": true,
+    "Language": "reiciendis",
+    "Sentiment": 140,
+    "SentimentConfidence": 349,
     "Badge": "Comment",
     "AttachmentsInfo": [
       {
-        "AttachmentId": 917,
-        "Name": "Langworth, Block and Berge",
-        "ContentType": "corporis",
-        "AttSize": 806,
-        "InlineImage": false,
-        "ContentId": "amet",
-        "AuthKey": "amet",
-        "IsSafeFileExtension": false,
+        "AttachmentId": 472,
+        "Name": "Marvin Group",
+        "ContentType": "voluptatem",
+        "AttSize": 980,
+        "InlineImage": true,
+        "ContentId": "earum",
+        "AuthKey": "cum",
+        "IsSafeFileExtension": true,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 332
+            "FieldType": "System.Int32",
+            "FieldLength": 728
           }
         }
       }
     ],
     "ExtraFields": {
-      "ExtraFields1": "cupiditate",
-      "ExtraFields2": "amet"
+      "ExtraFields1": "sint",
+      "ExtraFields2": "accusantium"
     },
     "CustomFields": {
-      "CustomFields1": "assumenda",
-      "CustomFields2": "consequatur"
+      "CustomFields1": "adipisci",
+      "CustomFields2": "optio"
     },
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 145
+        "FieldType": "System.Int32",
+        "FieldLength": 483
       }
     }
   }

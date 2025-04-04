@@ -94,7 +94,7 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 380,
-  "Name": "Wolff Inc and Sons",
-  "Tooltip": "ipsum",
-  "Deleted": true,
-  "Rank": 328,
+  "WebPanelId": 755,
+  "Name": "Wintheiser, Leuschke and Hagenes",
+  "Tooltip": "ad",
+  "Deleted": false,
+  "Rank": 794,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": true,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": false,
-  "WindowName": "Bartell-Mayer",
+  "ShowInStatusBar": true,
+  "WindowName": "Kunze Group",
   "Url": "http://www.example.com/",
-  "ProgId": "explicabo",
-  "Icon": 446,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "ducimus",
+  "Icon": 129,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 260
+      "FieldLength": 824
     }
   }
 }

@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -107,79 +107,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 77,
+  "EjMessageId": 264,
   "Ticket": null,
-  "CreatedAt": "1998-06-05T14:28:27.3364282+02:00",
+  "CreatedAt": "2012-08-13T13:14:09.3372786+02:00",
   "CreatedBy": null,
-  "Author": "fuga",
+  "Author": "temporibus",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "consequatur",
-  "TimeSpent": 18,
-  "Body": "optio",
-  "HtmlBody": "consectetur",
-  "EmailHeader": "zachary@jacobi.info",
-  "DebugInfo": "beatae",
-  "MailSorter": "ut",
+  "MessageId": "a",
+  "TimeSpent": 898,
+  "Body": "non",
+  "HtmlBody": "omnis",
+  "EmailHeader": "isidro@mohr.biz",
+  "DebugInfo": "dolor",
+  "MailSorter": "consectetur",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "qui",
+  "SearchTitle": "sint",
   "MessageHeaders": [
     {
-      "Id": 675,
-      "Name": "Konopelski, King and Connelly",
-      "Value": "sequi",
+      "Id": 893,
+      "Name": "Beier-Hamill",
+      "Value": "placeat",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 291
+          "FieldType": "System.Int32",
+          "FieldLength": 198
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "hic",
-  "Sentiment": 845,
-  "SentimentConfidence": 1000,
+  "Important": true,
+  "Language": "deleniti",
+  "Sentiment": 883,
+  "SentimentConfidence": 571,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 872,
-      "Name": "Lind LLC",
-      "ContentType": "minima",
-      "AttSize": 555,
-      "InlineImage": false,
-      "ContentId": "soluta",
+      "AttachmentId": 70,
+      "Name": "Hodkiewicz LLC",
+      "ContentType": "ipsum",
+      "AttSize": 466,
+      "InlineImage": true,
+      "ContentId": "perferendis",
       "AuthKey": "et",
-      "IsSafeFileExtension": true,
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 353
+          "FieldType": "System.Int32",
+          "FieldLength": 480
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "doloribus",
-    "ExtraFields2": "quibusdam"
+    "ExtraFields1": "et",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "consequuntur",
-    "CustomFields2": "at"
+    "CustomFields1": "eos",
+    "CustomFields2": "eum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 714
+      "FieldLength": 719
     }
   }
 }

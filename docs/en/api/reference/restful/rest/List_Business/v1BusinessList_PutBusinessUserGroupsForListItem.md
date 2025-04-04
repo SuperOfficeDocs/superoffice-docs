@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Hyatt, Satterfield and Gleichner",
-    "ToolTip": "Nisi necessitatibus et cumque officiis quasi.",
-    "Deleted": true,
-    "Rank": 514,
-    "Type": "qui",
-    "ColorBlock": 967,
-    "IconHint": "sequi",
-    "Selected": false,
-    "LastChanged": "2001-02-13T14:28:27.4770477+01:00",
+    "Id": 812,
+    "Name": "Oberbrunner, McLaughlin and Pouros",
+    "ToolTip": "Doloribus quos laudantium accusantium necessitatibus aut ipsa voluptas.",
+    "Deleted": false,
+    "Rank": 615,
+    "Type": "modi",
+    "ColorBlock": 833,
+    "IconHint": "distinctio",
+    "Selected": true,
+    "LastChanged": "2001-03-23T13:14:09.6191319+01:00",
     "ChildItems": [
       {
-        "Id": 831,
-        "Name": "Wintheiser Group",
-        "ToolTip": "Quis ut reiciendis minus.",
-        "Deleted": false,
-        "Rank": 641,
-        "Type": "et",
-        "ColorBlock": 353,
-        "IconHint": "minima",
+        "Id": 376,
+        "Name": "Morar Group",
+        "ToolTip": "Totam recusandae accusantium eaque corrupti.",
+        "Deleted": true,
+        "Rank": 924,
+        "Type": "aut",
+        "ColorBlock": 338,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2000-08-14T14:28:27.4770477+02:00",
+        "LastChanged": "2008-02-21T13:14:09.6191319+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "perferendis",
-        "StyleHint": "praesentium",
+        "ExtraInfo": "atque",
+        "StyleHint": "inventore",
         "Hidden": false,
-        "FullName": "Itzel Wiza"
+        "FullName": "Ben Anderson II"
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "esse",
+    "ExtraInfo": "ut",
+    "StyleHint": "voluptas",
     "Hidden": false,
-    "FullName": "Mr. Waylon Buckridge"
+    "FullName": "Mireya Greenholt"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 862,
-    "Name": "Sawayn, Effertz and Jones",
-    "ToolTip": "Soluta ut aut architecto iusto omnis.",
-    "Deleted": true,
-    "Rank": 374,
-    "Type": "dicta",
-    "ColorBlock": 914,
-    "IconHint": "quis",
-    "Selected": true,
-    "LastChanged": "2011-07-06T14:28:27.4770477+02:00",
+    "Id": 494,
+    "Name": "Olson-Runolfsdottir",
+    "ToolTip": "Recusandae blanditiis incidunt ex non qui veniam eaque.",
+    "Deleted": false,
+    "Rank": 966,
+    "Type": "repellendus",
+    "ColorBlock": 579,
+    "IconHint": "minus",
+    "Selected": false,
+    "LastChanged": "2018-08-27T13:14:09.6191319+02:00",
     "ChildItems": [
       {
-        "Id": 59,
-        "Name": "Bednar Group",
-        "ToolTip": "Mollitia iure ea.",
+        "Id": 761,
+        "Name": "Wiegand, Lockman and Fay",
+        "ToolTip": "Fugiat voluptatum aut voluptate eum explicabo non.",
         "Deleted": false,
-        "Rank": 123,
-        "Type": "accusamus",
-        "ColorBlock": 344,
-        "IconHint": "dolore",
-        "Selected": false,
-        "LastChanged": "2024-05-04T14:28:27.4770477+02:00",
+        "Rank": 297,
+        "Type": "nesciunt",
+        "ColorBlock": 733,
+        "IconHint": "ipsam",
+        "Selected": true,
+        "LastChanged": "2010-04-04T13:14:09.6191319+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "cupiditate",
-        "StyleHint": "omnis",
+        "ExtraInfo": "qui",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Dr. Hosea Collins",
+        "FullName": "Isaac Hickle",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 165
+            "FieldLength": 958
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Dillon Macejkovic II",
+    "ExtraInfo": "maiores",
+    "StyleHint": "nihil",
+    "Hidden": false,
+    "FullName": "Prof. Kellen Auer II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 952
+        "FieldLength": 244
       }
     }
   }

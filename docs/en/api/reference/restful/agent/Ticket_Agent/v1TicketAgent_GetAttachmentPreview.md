@@ -88,7 +88,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 944
+  "AttachmentId": 173
 }
 ```
 
@@ -99,31 +99,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Prohaska LLC",
-  "MimeType": "vel",
-  "Size": 281,
+  "Name": "Wisoky, Reynolds and Romaguera",
+  "MimeType": "voluptas",
+  "Size": 970,
   "Content": "GIF89....File contents as raw bytes...",
-  "EmailSubject": "stephen_willms@nader.name",
-  "EmailFrom": "dorthy.crist@lockmannader.info",
-  "EmailTo": "randall.waters@moorejenkins.ca",
-  "EmailCc": "clarissa_corwin@jakubowskicrona.biz",
-  "EmailDate": "1999-11-19T14:28:22.6491174+01:00",
+  "EmailSubject": "dallas.steuber@witting.info",
+  "EmailFrom": "kyla_rogahn@kovacek.com",
+  "EmailTo": "murphy@hintzthompson.biz",
+  "EmailCc": "angie@mcglynn.com",
+  "EmailDate": "2006-05-09T13:14:01.6131905+02:00",
   "EmailAttachmentsInfo": [
     {
-      "AttachmentId": 105,
-      "Name": "Stoltenberg LLC",
-      "ContentType": "veritatis",
-      "AttSize": 412,
-      "InlineImage": true,
-      "ContentId": "cumque",
-      "AuthKey": "nam",
-      "IsSafeFileExtension": false,
+      "AttachmentId": 641,
+      "Name": "Auer Inc and Sons",
+      "ContentType": "quia",
+      "AttSize": 256,
+      "InlineImage": false,
+      "ContentId": "vel",
+      "AuthKey": "quibusdam",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 110
+          "FieldType": "System.Int32",
+          "FieldLength": 79
         }
       }
     }
@@ -132,8 +132,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 417
+      "FieldType": "System.Int32",
+      "FieldLength": 901
     }
   }
 }

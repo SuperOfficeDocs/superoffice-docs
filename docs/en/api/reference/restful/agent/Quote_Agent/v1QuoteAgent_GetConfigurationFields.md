@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 597,
-  "ConnectorName": "Blanda Inc and Sons"
+  "ConnectionId": 882,
+  "ConnectorName": "Casper-Legros"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "unde",
-    "Rank": 865,
-    "DisplayName": "Howell-Bauch",
-    "DisplayDescription": "Seamless tertiary pricing structure",
+    "FieldKey": "nisi",
+    "Rank": 606,
+    "DisplayName": "Windler LLC",
+    "DisplayDescription": "Sharable asynchronous capacity",
     "FieldType": "Checkbox",
-    "ListName": "Turcotte, Nicolas and Block",
-    "DefaultValue": "qui",
-    "MaxLength": 686,
+    "ListName": "McCullough-Bahringer",
+    "DefaultValue": "officiis",
+    "MaxLength": 956,
     "Access": "Mandatory",
-    "ShowInSearch": true,
+    "ShowInSearch": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 538
+        "FieldLength": 619
       }
     }
   }

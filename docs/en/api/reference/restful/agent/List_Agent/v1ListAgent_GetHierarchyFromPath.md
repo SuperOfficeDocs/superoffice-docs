@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "et",
-  "Children": false
+  "Path": "aliquam",
+  "Children": true
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 804,
+  "HierarchyId": 287,
   "Domain": "Dashboards",
-  "Name": "Kuhn Inc and Sons",
-  "Fullname": "dolores",
-  "ParentId": 831,
+  "Name": "Koss-Runolfsson",
+  "Fullname": "aut",
+  "ParentId": 646,
   "Children": [
     {
-      "HierarchyId": 575,
+      "HierarchyId": 887,
       "Domain": "Dashboards",
-      "Name": "Pfannerstill Group",
-      "Fullname": "quis",
-      "ParentId": 134,
+      "Name": "Douglas, O'Hara and Grimes",
+      "Fullname": "officiis",
+      "ParentId": 255,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2023-09-02T14:28:22.0866401+02:00",
-      "RegisteredAssociateId": 138,
-      "Updated": "2021-02-13T14:28:22.0866401+01:00",
-      "UpdatedAssociateId": 607,
+      "Registered": "2025-02-10T13:14:00.6418764+01:00",
+      "RegisteredAssociateId": 34,
+      "Updated": "2022-09-19T13:14:00.6418764+02:00",
+      "UpdatedAssociateId": 287,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 155
+          "FieldLength": 300
         }
       }
     }
   ],
-  "Registered": "2024-07-31T14:28:22.0866401+02:00",
-  "RegisteredAssociateId": 443,
-  "Updated": "2021-10-11T14:28:22.0866401+02:00",
-  "UpdatedAssociateId": 286,
+  "Registered": "2022-06-01T13:14:00.6418764+02:00",
+  "RegisteredAssociateId": 85,
+  "Updated": "2004-12-16T13:14:00.6418764+01:00",
+  "UpdatedAssociateId": 716,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 560
+      "FieldType": "System.Int32",
+      "FieldLength": 833
     }
   }
 }

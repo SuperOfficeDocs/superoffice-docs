@@ -1019,7 +1019,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimplePerson?$select=phone/formattedNumber,personExtra/x_person_timespan,personContact/contactSource,personContact/restrictionAddress/county,request/createdAt
+GET /api/v1/archive/SimplePerson?$select=fullNameWithContact,email/emailLastBounce,restrictionAddress/line2,personExtra/y_rental/x_contact,personSourceRelation/who
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

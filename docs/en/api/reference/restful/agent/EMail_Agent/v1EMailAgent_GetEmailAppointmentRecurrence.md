@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 189
+  "MailItemId": 429
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 698,
-  "StartDate": "2002-05-09T14:28:21.9303967+02:00",
-  "EndDate": "2022-10-26T14:28:21.9303967+02:00",
-  "RecurrenceCounter": 70,
+  "RecurrenceId": 382,
+  "StartDate": "2022-12-15T13:14:00.313724+01:00",
+  "EndDate": "2007-11-15T13:14:00.313724+01:00",
+  "RecurrenceCounter": 408,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2004-12-19T14:28:21.9303967+01:00",
-      "IsConflict": false,
-      "Description": "Synergized user-facing system engine",
-      "DescriptionStyleHint": "Synergistic impactful parallelism",
-      "Tooltip": "blanditiis"
+      "Date": "1999-11-14T13:14:00.313724+01:00",
+      "IsConflict": true,
+      "Description": "Re-contextualized mobile strategy",
+      "DescriptionStyleHint": "Exclusive didactic orchestration",
+      "Tooltip": "non"
     },
     {
-      "Date": "2004-12-19T14:28:21.9303967+01:00",
-      "IsConflict": false,
-      "Description": "Synergized user-facing system engine",
-      "DescriptionStyleHint": "Synergistic impactful parallelism",
-      "Tooltip": "blanditiis"
+      "Date": "1999-11-14T13:14:00.313724+01:00",
+      "IsConflict": true,
+      "Description": "Re-contextualized mobile strategy",
+      "DescriptionStyleHint": "Exclusive didactic orchestration",
+      "Tooltip": "non"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

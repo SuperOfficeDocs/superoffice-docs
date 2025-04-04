@@ -90,24 +90,24 @@ OK
 POST /api/v1/Agents/Dashboard/CreateNewFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 473,
-  "Caption": "sit",
-  "Description": "Persistent logistical info-mediaries",
-  "SelectionId": 826,
+  "DashboardTileId": 66,
+  "Caption": "qui",
+  "Description": "Optimized web-enabled frame",
+  "SelectionId": 863,
   "VisibleFor": [
     {
-      "VisibleId": 62,
+      "VisibleId": 352,
       "Visibility": "All",
-      "DisplayValue": "nisi"
+      "DisplayValue": "quos"
     },
     {
-      "VisibleId": 62,
+      "VisibleId": 352,
       "Visibility": "All",
-      "DisplayValue": "nisi"
+      "DisplayValue": "quos"
     }
   ]
 }
@@ -120,64 +120,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 812,
-  "Caption": "impedit",
-  "Description": "Future-proofed radical secured line",
-  "ChartName": "Franecki LLC",
-  "ChartId": "ullam",
-  "IsDefault": false,
-  "AssociateId": 97,
-  "GroupId": 658,
-  "SelectionId": 3,
-  "Config": "excepturi",
+  "DashboardTileId": 495,
+  "Caption": "quis",
+  "Description": "Monitored eco-centric architecture",
+  "ChartName": "Schimmel-Homenick",
+  "ChartId": "aperiam",
+  "IsDefault": true,
+  "AssociateId": 469,
+  "GroupId": 471,
+  "SelectionId": 727,
+  "Config": "adipisci",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Nicolas, Cole and Leannon",
-      "Description": "Profound content-based groupware",
+      "Name": "Carter-Witting",
+      "Description": "Multi-channelled high-level moratorium",
       "Type": "Boolean",
-      "ListName": "Bergnaum Group",
+      "ListName": "Mraz, Fahey and Heidenreich",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "porro",
+      "Value": "in",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 564
+          "FieldType": "System.Int32",
+          "FieldLength": 421
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 668,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 890
+          "FieldLength": 144
         }
       }
     },
     {
-      "VisibleId": 668,
+      "VisibleId": 197,
       "Visibility": "All",
-      "DisplayValue": "voluptatum",
+      "DisplayValue": "corrupti",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 890
+          "FieldLength": 144
         }
       }
     }
@@ -187,7 +187,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 800
     }
   }
 }

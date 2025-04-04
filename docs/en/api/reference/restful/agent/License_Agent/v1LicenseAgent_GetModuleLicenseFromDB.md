@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/License/GetModuleLicenseFromDB
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Nitzsche-Dibbert",
-  "ModuleName": "Schmitt LLC"
+  "OwnerName": "Pacocha-Kling",
+  "ModuleName": "Okuneva Inc and Sons"
 }
 ```
 
@@ -102,20 +102,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Runolfsdottir-Greenfelder",
-  "ModuleName": "Kuhlman-Olson",
-  "ModuleDescription": "Polarised mission-critical infrastructure",
-  "ModuleTooltip": "eos",
-  "ModuleVersion": "sed",
+  "OwnerName": "Sporer, Kerluke and Considine",
+  "ModuleName": "Johnson, Skiles and Ernser",
+  "ModuleDescription": "Universal holistic implementation",
+  "ModuleTooltip": "tenetur",
+  "ModuleVersion": "qui",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 36,
-  "ExtraFlags": 172,
-  "ExtraInfo": "esse",
-  "SortOrder": 84,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Maggio-Bergnaum",
-  "Signature": "nesciunt"
+  "NumberOfLicenses": 375,
+  "ExtraFlags": 800,
+  "ExtraInfo": "harum",
+  "SortOrder": 449,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Schoen, Pfannerstill and Pollich",
+  "Signature": "distinctio"
 }
 ```

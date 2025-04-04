@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=505
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=730
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 174,
-  "ColumnId": 429,
-  "FieldDefault": "qui",
-  "FieldHeight": 342,
-  "FieldLabel": "hic",
-  "FieldLeft": 307,
-  "FieldTop": 661,
+  "UDefFieldId": 335,
+  "ColumnId": 559,
+  "FieldDefault": "nesciunt",
+  "FieldHeight": 329,
+  "FieldLabel": "ut",
+  "FieldLeft": 634,
+  "FieldTop": 853,
   "FieldType": "Checkbox",
-  "FieldWidth": 756,
-  "FormatMask": "et",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 658,
-  "LabelLeft": 414,
-  "LabelTop": 994,
-  "LabelWidth": 461,
-  "LastVersionId": 290,
-  "ListTableId": 93,
-  "IsMandatory": true,
+  "FieldWidth": 559,
+  "FormatMask": "beatae",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 209,
+  "LabelLeft": 188,
+  "LabelTop": 933,
+  "LabelWidth": 821,
+  "LastVersionId": 530,
+  "ListTableId": 853,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 252,
-  "ProgId": "ullam",
+  "Page1LineNo": 471,
+  "ProgId": "minima",
   "IsReadOnly": false,
-  "ShortLabel": "rerum",
-  "TabOrder": 592,
-  "TextLength": 986,
-  "Tooltip": "dolorem",
-  "UdefIdentity": 533,
-  "UDListDefinitionId": 925,
+  "ShortLabel": "voluptatum",
+  "TabOrder": 219,
+  "TextLength": 553,
+  "Tooltip": "at",
+  "UdefIdentity": 408,
+  "UDListDefinitionId": 568,
   "Justification": "Center",
-  "Version": 708,
-  "TemplateVariableName": "Upton-Pagac",
+  "Version": 519,
+  "TemplateVariableName": "Bruen-Anderson",
   "HasBeenPublished": false,
-  "MdoListName": "Mante, Swift and Deckow",
+  "MdoListName": "Jacobi, White and Powlowski",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 689
+      "FieldType": "System.String",
+      "FieldLength": 575
     }
   }
 }

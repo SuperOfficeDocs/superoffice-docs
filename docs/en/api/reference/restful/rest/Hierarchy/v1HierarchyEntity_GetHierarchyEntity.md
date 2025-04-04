@@ -92,46 +92,46 @@ HTTP/1.1 200 HierarchyEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 903,
+  "HierarchyId": 137,
   "Domain": "Dashboards",
-  "Name": "Veum, Kihn and Abernathy",
-  "Fullname": "eligendi",
-  "ParentId": 106,
+  "Name": "Heaney, Heaney and McCullough",
+  "Fullname": "eos",
+  "ParentId": 396,
   "Children": [
     {
-      "HierarchyId": 693,
+      "HierarchyId": 766,
       "Domain": "Dashboards",
-      "Name": "Gleason, Dibbert and Lesch",
-      "Fullname": "itaque",
-      "ParentId": 157,
+      "Name": "Bruen-Conroy",
+      "Fullname": "maxime",
+      "ParentId": 851,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-08-05T14:28:26.9458186+02:00",
-      "RegisteredAssociateId": 13,
-      "Updated": "2022-07-14T14:28:26.9458186+02:00",
-      "UpdatedAssociateId": 958,
+      "Registered": "1998-03-02T13:14:08.7741411+01:00",
+      "RegisteredAssociateId": 674,
+      "Updated": "2017-10-30T13:14:08.7741411+01:00",
+      "UpdatedAssociateId": 636,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 105
+          "FieldType": "System.Int32",
+          "FieldLength": 474
         }
       }
     }
   ],
-  "Registered": "1998-08-13T14:28:26.9458186+02:00",
-  "RegisteredAssociateId": 462,
-  "Updated": "2007-11-21T14:28:26.9458186+01:00",
-  "UpdatedAssociateId": 71,
+  "Registered": "2021-02-25T13:14:08.7741411+01:00",
+  "RegisteredAssociateId": 684,
+  "Updated": "2001-11-21T13:14:08.7741411+01:00",
+  "UpdatedAssociateId": 112,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 880
     }
   },
   "_Links": {

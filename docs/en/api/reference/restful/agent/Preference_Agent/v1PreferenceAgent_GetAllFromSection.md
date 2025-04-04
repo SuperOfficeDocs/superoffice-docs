@@ -94,7 +94,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "officiis"
+  "Section": "et"
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 12,
-    "Section": "maiores",
-    "Key": "nobis",
-    "Name": "Dietrich LLC",
+    "PrefDescId": 313,
+    "Section": "et",
+    "Key": "voluptas",
+    "Name": "Hansen-Daniel",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Fundamental solution-oriented synergy",
+    "Description": "Digitized next generation help-desk",
     "IsBuiltin": true,
-    "TableName": "Abshire-Rippin",
-    "UserDefinedListId": 857,
-    "Rank": 543,
-    "SubGroup": "eum",
-    "MinLevel": 219,
-    "MaxValue": 59,
-    "MinValue": 251,
-    "RequiredLicense": "quaerat",
+    "TableName": "Leffler-Kuphal",
+    "UserDefinedListId": 20,
+    "Rank": 516,
+    "SubGroup": "rerum",
+    "MinLevel": 810,
+    "MaxValue": 437,
+    "MinValue": 560,
+    "RequiredLicense": "odit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 821
+        "FieldType": "System.String",
+        "FieldLength": 630
       }
     }
   }

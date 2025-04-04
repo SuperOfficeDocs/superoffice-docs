@@ -26,7 +26,7 @@ Gets a AudienceLayoutEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=673
+POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?audienceLayoutEntityId=846
 POST /api/v1/Agents/Audience/GetAudienceLayoutEntity?$select=name,department,category/id
 ```
 
@@ -83,19 +83,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 807,
-  "InstanceLayout": "voluptas",
-  "InstanceName": "Bernier Inc and Sons",
-  "CreatedDate": "2024-01-05T14:28:21.47729+01:00",
-  "UpdatedDate": "1998-12-03T14:28:21.47729+01:00",
+  "AudienceLayoutId": 147,
+  "InstanceLayout": "eveniet",
+  "InstanceName": "Lockman, Trantow and Kautzer",
+  "CreatedDate": "2011-09-16T13:13:59.5158194+02:00",
+  "UpdatedDate": "2018-05-06T13:13:59.5158194+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 188
+      "FieldType": "System.String",
+      "FieldLength": 158
     }
   }
 }

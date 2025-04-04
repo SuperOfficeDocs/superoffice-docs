@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/PaymentType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 834,
-  "Name": "Kilback Group",
-  "Tooltip": "est",
-  "Deleted": true,
-  "Rank": 703,
-  "UdListDefinitionId": 302
+  "HeadingId": 565,
+  "Name": "Koss-Armstrong",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 959,
+  "UdListDefinitionId": 871
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 148,
-  "Name": "Abshire-Rutherford",
-  "Tooltip": "nesciunt",
+  "HeadingId": 833,
+  "Name": "Hintz-Robel",
+  "Tooltip": "beatae",
   "Deleted": false,
-  "Rank": 325,
-  "UdListDefinitionId": 860,
+  "Rank": 530,
+  "UdListDefinitionId": 248,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 735
+      "FieldLength": 112
     }
   }
 }

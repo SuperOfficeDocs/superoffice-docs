@@ -75,11 +75,11 @@ OK
 POST /api/v1/Agents/Quote/GetExtraInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineExtraData": "quo"
+  "QuoteLineExtraData": "et"
 }
 ```
 
@@ -91,28 +91,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Weissnat Group",
-    "Value": "est",
+    "Name": "Hagenes Group",
+    "Value": "iusto",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 88
+        "FieldType": "System.Int32",
+        "FieldLength": 159
       }
     }
   },
   {
-    "Name": "Weissnat Group",
-    "Value": "est",
+    "Name": "Hagenes Group",
+    "Value": "iusto",
     "Type": "Image",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 88
+        "FieldType": "System.Int32",
+        "FieldLength": 159
       }
     }
   }

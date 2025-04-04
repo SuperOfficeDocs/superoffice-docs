@@ -65,12 +65,12 @@ No Content
 POST /api/v1/Agents/Resource/DeleteResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Boehm, Waters and Dickens",
-  "Culture": "rerum"
+  "ResourceName": "Zboncak-Shields",
+  "Culture": "at"
 }
 ```
 

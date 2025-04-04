@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 480,
-  "Name": "Grant, Swaniawski and Ryan",
+  "SelectionId": 996,
+  "Name": "Howe, VonRueden and Dooley",
   "TargetSelectionType": "Combined",
   "CopyMembers": true
 }
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optimized dedicated interface",
-  "Postit": "quo",
+  "Description": "Upgradable attitude-oriented attitude",
+  "Postit": "aut",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 38,
-  "IncludePerson": 996,
+  "GroupIdx": 885,
+  "IncludePerson": 43,
   "MemberCount": 99.99,
-  "Name": "Hamill, Berge and Rutherford",
-  "PostitTextId": 300,
-  "CreatedDate": "2023-12-06T14:28:22.3835038+01:00",
-  "SelectionId": 436,
-  "SoundEx": "aut",
-  "Source": 743,
-  "TextId": 720,
-  "UpdatedDate": "2005-07-23T14:28:22.3835038+02:00",
-  "UpdatedCount": 96,
-  "Visibility": 153,
+  "Name": "Purdy-Weimann",
+  "PostitTextId": 200,
+  "CreatedDate": "2018-04-01T13:14:01.300672+02:00",
+  "SelectionId": 623,
+  "SoundEx": "et",
+  "Source": 60,
+  "TextId": 578,
+  "UpdatedDate": "2014-04-15T13:14:01.300672+02:00",
+  "UpdatedCount": 421,
+  "Visibility": 625,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 582,
-  "TargetTableName": "Schimmel-Franecki",
-  "Completed": true,
-  "LeftSelectionId": 226,
-  "RightSelectionId": 174,
+  "TargetTableNumber": 576,
+  "TargetTableName": "Satterfield-Sporer",
+  "Completed": false,
+  "LeftSelectionId": 946,
+  "RightSelectionId": 406,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Schaden Group",
-  "ShadowProviderName": "Adams Group",
-  "ChartKey": "labore",
-  "LastLoaded": "2022-04-14T14:28:22.3835038+02:00",
-  "LastLoadedBy": 726,
+  "MainProviderName": "Jewess, Cole and Walker",
+  "ShadowProviderName": "Walter, Langosh and Beatty",
+  "ChartKey": "provident",
+  "LastLoaded": "2010-07-04T13:14:01.300672+02:00",
+  "LastLoadedBy": 540,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2004-02-21T14:28:22.3835038+01:00",
-  "LastMembershipChangeBy": 253,
+  "LastMembershipChange": "2013-12-15T13:14:01.300672+01:00",
+  "LastMembershipChangeBy": 126,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "nesciunt",
-  "MailingsProviderName": "Runolfsdottir-Mertz",
-  "DashboardTileDefinitionId": 649,
+  "MainHeading": "beatae",
+  "MemberTabHeading": "adipisci",
+  "MailingsProviderName": "Lakin, Williamson and Dietrich",
+  "DashboardTileDefinitionId": 97,
   "VisibleFor": [
     {
-      "VisibleId": 492,
+      "VisibleId": 977,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldType": "System.String",
+          "FieldLength": 283
         }
       }
     },
     {
-      "VisibleId": 492,
+      "VisibleId": 977,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 418
+          "FieldType": "System.String",
+          "FieldLength": 283
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldType": "System.String",
+      "FieldLength": 1001
     }
   }
 }

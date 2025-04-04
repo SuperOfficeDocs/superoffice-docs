@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 956
+  "DepartmentId": 998
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "(694)363-7438 x8832",
-    "PersonCellPhone": "136-281-6440 x78381",
-    "PersonPrivatePhone": "(487)621-0189",
-    "PersonFaxNumber": "671578",
-    "PersonPagerNumber": "1067081",
-    "PersonEmail": "darian_dooley@crooksfeeney.ca",
-    "Id": 241,
-    "Name": "Heller-Cummings",
-    "Tooltip": "quidem",
-    "UniqueId": "perspiciatis",
+    "PersonDirectPhone": "403.062.7831",
+    "PersonCellPhone": "516.363.4696 x86340",
+    "PersonPrivatePhone": "044-414-0712",
+    "PersonFaxNumber": "1430400",
+    "PersonPagerNumber": "940906",
+    "PersonEmail": "douglas_friesen@jacobi.name",
+    "Id": 162,
+    "Name": "Weimann, Crooks and Moore",
+    "Tooltip": "et",
+    "UniqueId": "modi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 646
+        "FieldType": "System.Int32",
+        "FieldLength": 51
       }
     }
   }

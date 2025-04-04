@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/MrMrs/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 464,
-    "Name": "Aufderhar-Will",
-    "ToolTip": "In labore.",
+    "Id": 63,
+    "Name": "Barton Group",
+    "ToolTip": "Et dolores.",
     "Deleted": false,
-    "Rank": 603,
-    "Type": "perferendis",
-    "ColorBlock": 680,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "2022-03-16T14:28:27.5864176+01:00",
+    "Rank": 989,
+    "Type": "alias",
+    "ColorBlock": 812,
+    "IconHint": "sequi",
+    "Selected": true,
+    "LastChanged": "2019-06-13T13:14:09.8222767+02:00",
     "ChildItems": [
       {
-        "Id": 193,
-        "Name": "Purdy, Sawayn and Lebsack",
-        "ToolTip": "Cum sed quo.",
+        "Id": 355,
+        "Name": "Frami-Halvorson",
+        "ToolTip": "Dolor enim eveniet debitis eos.",
         "Deleted": false,
-        "Rank": 908,
-        "Type": "quibusdam",
-        "ColorBlock": 587,
-        "IconHint": "nihil",
-        "Selected": true,
-        "LastChanged": "2009-07-14T14:28:27.5864176+02:00",
+        "Rank": 589,
+        "Type": "maxime",
+        "ColorBlock": 472,
+        "IconHint": "eligendi",
+        "Selected": false,
+        "LastChanged": "2003-02-03T13:14:09.8222767+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolores",
-        "StyleHint": "eius",
+        "ExtraInfo": "eum",
+        "StyleHint": "et",
         "Hidden": true,
-        "FullName": "Mr. Layne Nikolaus",
+        "FullName": "Prof. Samantha Spencer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 881
+            "FieldLength": 16
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "mollitia",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "aliquam",
     "Hidden": false,
-    "FullName": "Willie Crist",
+    "FullName": "Dave Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 4
+        "FieldType": "System.String",
+        "FieldLength": 968
       }
     }
   }

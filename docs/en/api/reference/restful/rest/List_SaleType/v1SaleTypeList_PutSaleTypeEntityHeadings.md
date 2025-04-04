@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SaleType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 752,
-    "Name": "Hirthe Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 957,
-    "UdListDefinitionId": 718
+    "HeadingId": 946,
+    "Name": "Schaefer LLC",
+    "Tooltip": "dignissimos",
+    "Deleted": true,
+    "Rank": 589,
+    "UdListDefinitionId": 274
   },
   {
-    "HeadingId": 752,
-    "Name": "Hirthe Inc and Sons",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 957,
-    "UdListDefinitionId": 718
+    "HeadingId": 946,
+    "Name": "Schaefer LLC",
+    "Tooltip": "dignissimos",
+    "Deleted": true,
+    "Rank": 589,
+    "UdListDefinitionId": 274
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 495,
-    "Name": "Pfannerstill-Cole",
-    "Tooltip": "iure",
+    "HeadingId": 383,
+    "Name": "Torphy, Durgan and Bernier",
+    "Tooltip": "impedit",
     "Deleted": false,
-    "Rank": 92,
-    "UdListDefinitionId": 796,
+    "Rank": 625,
+    "UdListDefinitionId": 30,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 261
+        "FieldType": "System.Int32",
+        "FieldLength": 371
       }
     }
   }

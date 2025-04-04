@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 667
+  "UserGroupId": 392
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 238,
-    "ColumnId": 483,
-    "FieldDefault": "dolor",
-    "FieldHeight": 564,
-    "FieldLabel": "sed",
-    "FieldLeft": 496,
-    "FieldTop": 278,
+    "UDefFieldId": 654,
+    "ColumnId": 99,
+    "FieldDefault": "facilis",
+    "FieldHeight": 234,
+    "FieldLabel": "recusandae",
+    "FieldLeft": 376,
+    "FieldTop": 130,
     "FieldType": "Checkbox",
-    "FieldWidth": 1001,
-    "FormatMask": "eos",
-    "HideLabel": true,
+    "FieldWidth": 635,
+    "FormatMask": "nihil",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 495,
-    "LabelLeft": 494,
-    "LabelTop": 13,
-    "LabelWidth": 528,
-    "LastVersionId": 70,
-    "ListTableId": 562,
+    "LabelHeight": 995,
+    "LabelLeft": 152,
+    "LabelTop": 984,
+    "LabelWidth": 805,
+    "LastVersionId": 990,
+    "ListTableId": 660,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 518,
-    "ProgId": "eum",
+    "Page1LineNo": 17,
+    "ProgId": "nihil",
     "IsReadOnly": false,
-    "ShortLabel": "quidem",
-    "TabOrder": 435,
-    "TextLength": 558,
-    "Tooltip": "saepe",
-    "UdefIdentity": 992,
-    "UDListDefinitionId": 456,
+    "ShortLabel": "illo",
+    "TabOrder": 275,
+    "TextLength": 417,
+    "Tooltip": "magni",
+    "UdefIdentity": 677,
+    "UDListDefinitionId": 94,
     "Justification": "Center",
-    "Version": 686,
-    "TemplateVariableName": "Ward-Turcotte",
-    "HasBeenPublished": true,
-    "MdoListName": "Schowalter-Beahan",
+    "Version": 118,
+    "TemplateVariableName": "Robel, Glover and Stehr",
+    "HasBeenPublished": false,
+    "MdoListName": "Batz-Schinner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 219
+        "FieldLength": 728
       }
     }
   }

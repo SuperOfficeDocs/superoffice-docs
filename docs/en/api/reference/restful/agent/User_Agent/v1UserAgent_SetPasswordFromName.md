@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Kuphal, Bogan and Raynor",
-  "Password": "et"
+  "AssociateName": "Schowalter Inc and Sons",
+  "Password": "ut"
 }
 ```
 

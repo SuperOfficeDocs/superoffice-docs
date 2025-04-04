@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 767,
-  "Name": "Hoppe, Schimmel and Cartwright",
+  "ScreenChooserId": 913,
+  "Name": "Homenick, Olson and Carroll",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "quo",
-  "Source": "quisquam",
-  "Registered": "2012-08-01T14:28:21.680407+02:00",
-  "RegisteredAssociateId": 581,
-  "Updated": "2018-09-11T14:28:21.680407+02:00",
-  "UpdatedAssociateId": 290
+  "Enabled": true,
+  "UniqueIdentifier": "ut",
+  "Source": "eaque",
+  "Registered": "2017-05-25T13:14:00.0033265+02:00",
+  "RegisteredAssociateId": 58,
+  "Updated": "2020-10-23T13:14:00.0033265+02:00",
+  "UpdatedAssociateId": 633
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 495,
-  "Name": "Ward Inc and Sons",
+  "ScreenChooserId": 47,
+  "Name": "Gerlach LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": false,
-  "UniqueIdentifier": "sapiente",
-  "Source": "repellat",
-  "Registered": "1999-02-28T14:28:21.680407+01:00",
-  "RegisteredAssociateId": 287,
-  "Updated": "2006-12-31T14:28:21.680407+01:00",
-  "UpdatedAssociateId": 105,
+  "Enabled": true,
+  "UniqueIdentifier": "ipsa",
+  "Source": "vero",
+  "Registered": "2000-05-21T13:14:00.0033265+02:00",
+  "RegisteredAssociateId": 419,
+  "Updated": "2006-07-31T13:14:00.0033265+02:00",
+  "UpdatedAssociateId": 768,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 880
+      "FieldType": "System.Int32",
+      "FieldLength": 395
     }
   }
 }

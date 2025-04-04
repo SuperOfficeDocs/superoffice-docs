@@ -91,7 +91,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 310
+  "AssociateId": 736
 }
 ```
 
@@ -103,54 +103,54 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteConnectionId": 659,
-    "ERPName": "Jacobs-Hintz",
-    "DisplayName": "Ankunding Inc and Sons",
-    "DisplayDescription": "Customizable coherent local area network",
-    "Rank": 787,
-    "ConnectorName": "Dickens-Upton",
-    "ErpConnectionId": 250,
-    "ExtraData": "voluptatem",
+    "QuoteConnectionId": 401,
+    "ERPName": "Crist-Miller",
+    "DisplayName": "Cummings, Wolff and Goldner",
+    "DisplayDescription": "Virtual background encoding",
+    "Rank": 647,
+    "ConnectorName": "Hauck, Spencer and Gutmann",
+    "ErpConnectionId": 842,
+    "ExtraData": "consequuntur",
     "IsAvailable": true,
     "InitializeResponse": null,
     "PriceLists": [
       {
-        "PriceListId": 621,
-        "ERPPriceListKey": "commodi",
-        "QuoteConnectionId": 398,
-        "Name": "Stark-Mann",
-        "Description": "User-friendly content-based synergy",
-        "Currency": "dolor",
-        "CurrencyName": "Reinger, Lesch and Berge",
-        "ValidFrom": "2013-10-22T14:28:22.3053817+02:00",
-        "ValidTo": "2004-07-25T14:28:22.3053817+02:00",
+        "PriceListId": 150,
+        "ERPPriceListKey": "sapiente",
+        "QuoteConnectionId": 582,
+        "Name": "Schultz Inc and Sons",
+        "Description": "De-engineered intermediate synergy",
+        "Currency": "qui",
+        "CurrencyName": "Nitzsche, Leannon and Crist",
+        "ValidFrom": "1998-07-15T13:14:01.0020135+02:00",
+        "ValidTo": "2005-12-28T13:14:01.0020135+01:00",
         "IsActive": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 493
+            "FieldLength": 843
           }
         }
       }
     ],
     "AllAccess": false,
-    "Deleted": true,
+    "Deleted": false,
     "UserGroupAccessIds": [
-      649,
-      796
+      276,
+      567
     ],
     "AssociateAccessIds": [
-      401,
-      659
+      329,
+      336
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 770
+        "FieldType": "System.String",
+        "FieldLength": 612
       }
     }
   }

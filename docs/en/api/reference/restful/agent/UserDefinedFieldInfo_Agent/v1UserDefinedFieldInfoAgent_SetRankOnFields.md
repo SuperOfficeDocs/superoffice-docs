@@ -71,8 +71,8 @@ Content-Type: application/json; charset=utf-8
 {
   "OwnerType": "Appointment",
   "RankedFieldsIds": [
-    873,
-    371
+    347,
+    501
   ]
 }
 ```

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Country
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 515,
-  "Name": "Hagenes, Hegmann and Vandervort",
-  "Tooltip": "voluptas",
+  "Id": 256,
+  "Name": "Brakus, Walsh and Lebsack",
+  "Tooltip": "atque",
   "Deleted": false,
-  "Rank": 825,
+  "Rank": 149,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ut",
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldLength": 597
     }
   },
   "_Links": {

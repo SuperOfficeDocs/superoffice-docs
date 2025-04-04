@@ -105,32 +105,32 @@ OK
 POST /api/v1/Agents/List/SaveExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 787,
-  "Name": "Mitchell-Koss",
-  "Tooltip": "nostrum",
+  "ExtAppId": 974,
+  "Name": "Quitzon, Blanda and Krajcik",
+  "Tooltip": "alias",
   "Deleted": false,
-  "Rank": 546,
-  "Filename": "aut",
-  "Parameters": "perferendis",
-  "Workdir": "consequuntur",
+  "Rank": 284,
+  "Filename": "sed",
+  "Parameters": "accusamus",
+  "Workdir": "et",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": false,
-  "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "Icon": 581,
+  "ShowInAddressBar": true,
+  "ShowInStatusBar": false,
+  "Icon": 324,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "numquam"
+  "Path": "sunt"
 }
 ```
 
@@ -141,34 +141,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 296,
-  "Name": "Rohan Inc and Sons",
-  "Tooltip": "id",
+  "ExtAppId": 138,
+  "Name": "Morar, Dicki and Ward",
+  "Tooltip": "quia",
   "Deleted": false,
-  "Rank": 704,
-  "Filename": "non",
-  "Parameters": "quo",
-  "Workdir": "sit",
+  "Rank": 627,
+  "Filename": "accusantium",
+  "Parameters": "sit",
+  "Workdir": "ea",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
+  "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "Icon": 101,
+  "Icon": 258,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "libero",
+  "Path": "molestias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 858
+      "FieldLength": 79
     }
   }
 }

@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 300,
-    "Name": "Waelchi-Schamberger",
-    "Tooltip": "rerum",
-    "Deleted": true,
-    "Rank": 89,
-    "UdListDefinitionId": 190,
+    "HeadingId": 843,
+    "Name": "Schmeler Group",
+    "Tooltip": "minus",
+    "Deleted": false,
+    "Rank": 218,
+    "UdListDefinitionId": 667,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 393
+        "FieldType": "System.Int32",
+        "FieldLength": 569
       }
     }
   }

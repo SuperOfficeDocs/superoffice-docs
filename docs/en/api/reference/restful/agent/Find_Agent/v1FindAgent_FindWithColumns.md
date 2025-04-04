@@ -83,26 +83,26 @@ OK
 POST /api/v1/Agents/Find/FindWithColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "molestiae",
-  "ProviderName": "McCullough, Hermann and Hilll",
-  "StorageKey": "tempore",
+  "StorageType": "repellat",
+  "ProviderName": "Waelchi-Maggio",
+  "StorageKey": "voluptas",
   "DesiredColumns": [
-    "necessitatibus",
-    "est"
+    "deleniti",
+    "assumenda"
   ],
-  "PageSize": 656,
-  "PageNumber": 314,
+  "PageSize": 336,
+  "PageNumber": 333,
   "OrderBy": [
     {
-      "Name": "Lang Inc and Sons",
+      "Name": "Goodwin, Harber and Upton",
       "Direction": "ASC"
     },
     {
-      "Name": "Lang Inc and Sons",
+      "Name": "Goodwin, Harber and Upton",
       "Direction": "ASC"
     }
   ]
@@ -118,51 +118,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Bartell, Hirthe and Balistreri",
-      "DisplayTooltip": "maxime",
-      "DisplayType": "id",
-      "CanOrderBy": false,
-      "Name": "Kunde Inc and Sons",
-      "CanRestrictBy": false,
-      "RestrictionType": "rem",
-      "RestrictionListName": "Davis-Jewess",
-      "IsVisible": false,
-      "ExtraInfo": "fugiat",
-      "Width": "nemo",
-      "IconHint": "ut",
-      "HeadingIconHint": "aspernatur"
+      "DisplayName": "Schuster, Berge and Satterfield",
+      "DisplayTooltip": "ducimus",
+      "DisplayType": "eius",
+      "CanOrderBy": true,
+      "Name": "Parker LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "necessitatibus",
+      "RestrictionListName": "Carroll, Davis and Miller",
+      "IsVisible": true,
+      "ExtraInfo": "cupiditate",
+      "Width": "dolor",
+      "IconHint": "eius",
+      "HeadingIconHint": "omnis"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Ledner Inc and Sons",
-      "PrimaryKey": 65,
+      "EntityName": "Nitzsche Group",
+      "PrimaryKey": 395,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "earum",
-          "TooltipHint": "placeat",
-          "LinkHint": "eaque"
+          "DisplayValue": "quo",
+          "TooltipHint": "molestiae",
+          "LinkHint": "nostrum"
         }
       },
-      "LinkHint": "sed",
-      "StyleHint": "atque",
+      "LinkHint": "explicabo",
+      "StyleHint": "facere",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 132
+          "FieldType": "System.Int32",
+          "FieldLength": 538
         }
       }
     }
   ],
-  "RowCount": 863,
+  "RowCount": 897,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 237
+      "FieldType": "System.Int32",
+      "FieldLength": 526
     }
   }
 }

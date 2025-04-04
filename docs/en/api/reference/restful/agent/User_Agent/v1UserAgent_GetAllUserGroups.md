@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/User/GetAllUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Value": "voluptas",
-    "Tooltip": "rem",
-    "Id": 346,
-    "Rank": 263,
+    "Value": "perspiciatis",
+    "Tooltip": "et",
+    "Id": 359,
+    "Rank": 574,
     "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldLength": 611
       }
     }
   }

@@ -107,12 +107,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedPageOneFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 983
+  "UserGroupId": 584
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 565,
-    "ColumnId": 188,
-    "FieldDefault": "consectetur",
-    "FieldHeight": 278,
-    "FieldLabel": "odit",
-    "FieldLeft": 665,
-    "FieldTop": 286,
+    "UDefFieldId": 710,
+    "ColumnId": 108,
+    "FieldDefault": "minus",
+    "FieldHeight": 907,
+    "FieldLabel": "aut",
+    "FieldLeft": 458,
+    "FieldTop": 464,
     "FieldType": "Checkbox",
-    "FieldWidth": 58,
-    "FormatMask": "sunt",
-    "HideLabel": true,
+    "FieldWidth": 799,
+    "FormatMask": "doloribus",
+    "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 201,
-    "LabelLeft": 557,
-    "LabelTop": 748,
-    "LabelWidth": 245,
-    "LastVersionId": 615,
-    "ListTableId": 413,
+    "LabelHeight": 408,
+    "LabelLeft": 705,
+    "LabelTop": 658,
+    "LabelWidth": 458,
+    "LastVersionId": 382,
+    "ListTableId": 117,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 581,
-    "ProgId": "nobis",
-    "IsReadOnly": false,
-    "ShortLabel": "minus",
-    "TabOrder": 693,
-    "TextLength": 892,
-    "Tooltip": "rem",
-    "UdefIdentity": 591,
-    "UDListDefinitionId": 415,
+    "Page1LineNo": 623,
+    "ProgId": "molestias",
+    "IsReadOnly": true,
+    "ShortLabel": "unde",
+    "TabOrder": 577,
+    "TextLength": 201,
+    "Tooltip": "debitis",
+    "UdefIdentity": 595,
+    "UDListDefinitionId": 993,
     "Justification": "Center",
-    "Version": 680,
-    "TemplateVariableName": "Stehr Group",
+    "Version": 364,
+    "TemplateVariableName": "Bashirian-Welch",
     "HasBeenPublished": false,
-    "MdoListName": "Romaguera-Hills",
+    "MdoListName": "Balistreri-Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 863
+        "FieldLength": 127
       }
     }
   }

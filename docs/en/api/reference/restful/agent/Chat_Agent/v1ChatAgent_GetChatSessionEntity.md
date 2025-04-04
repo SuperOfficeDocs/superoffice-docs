@@ -26,7 +26,7 @@ Gets a ChatSessionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=550
+POST /api/v1/Agents/Chat/GetChatSessionEntity?chatSessionEntityId=311
 POST /api/v1/Agents/Chat/GetChatSessionEntity?$select=name,department,category/id
 ```
 
@@ -97,7 +97,7 @@ OK
 POST /api/v1/Agents/Chat/GetChatSessionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -107,43 +107,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 255,
-  "TopicId": 796,
+  "ChatSessionId": 602,
+  "TopicId": 637,
   "User": null,
   "Person": null,
-  "CustomerAlias": "molestias",
-  "CustomerHost": "quis",
-  "CustomerName": "Mitchell Group",
-  "CustomerEmail": "leta_bayer@koss.ca",
-  "CustomerPhone": "068.098.0060 x0875",
+  "CustomerAlias": "aut",
+  "CustomerHost": "ut",
+  "CustomerName": "Botsford, Tremblay and Grant",
+  "CustomerEmail": "brandy_watsica@cassingottlieb.name",
+  "CustomerPhone": "412-833-8649 x9376",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Durgan LLC",
+  "CustomerCompanyName": "Conroy-Dickinson",
   "Status": "Closed",
-  "FirstMessage": "eos",
-  "LastMessage": "nisi",
-  "WhenRequested": "2005-04-30T14:28:21.5241635+02:00",
-  "WhenStarted": "2006-12-03T14:28:21.5241635+01:00",
-  "WhenEnded": "2004-09-07T14:28:21.5241635+02:00",
-  "WhenIdle": "2011-10-02T14:28:21.5241635+02:00",
-  "WhenFetched": "2023-09-19T14:28:21.5241635+02:00",
-  "SessionKey": "non",
-  "InitialQueuePos": 48,
-  "AlertLevel": 889,
-  "Rank": 99,
+  "FirstMessage": "et",
+  "LastMessage": "est",
+  "WhenRequested": "2014-02-10T13:13:59.5939496+01:00",
+  "WhenStarted": "2015-12-10T13:13:59.5939496+01:00",
+  "WhenEnded": "2017-12-04T13:13:59.5939496+01:00",
+  "WhenIdle": "2004-09-20T13:13:59.5939496+02:00",
+  "WhenFetched": "2014-04-10T13:13:59.5939496+02:00",
+  "SessionKey": "dolor",
+  "InitialQueuePos": 864,
+  "AlertLevel": 201,
+  "Rank": 595,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 588,
+  "ChatbotIsActive": true,
+  "Rating": 527,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 38
+      "FieldLength": 740
     }
   }
 }

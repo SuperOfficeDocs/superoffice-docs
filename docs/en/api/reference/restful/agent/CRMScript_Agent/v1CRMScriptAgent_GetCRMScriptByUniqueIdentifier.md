@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "deserunt"
+  "UniqueIdentifier": "cum"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "doloremque",
-  "Name": "Breitenberg-Spinka",
-  "Description": "Profit-focused systemic orchestration",
-  "IncludeId": "consectetur",
-  "Source": "distinctio",
-  "Registered": "2020-07-09T14:28:21.680407+02:00",
-  "RegisteredBy": "repellat",
-  "Updated": "2014-10-16T14:28:21.680407+02:00",
-  "UpdatedBy": "odio",
-  "Path": "tempora",
+  "UniqueIdentifier": "sit",
+  "Name": "Boyer Group",
+  "Description": "Persistent encompassing capacity",
+  "IncludeId": "debitis",
+  "Source": "maiores",
+  "Registered": "2013-10-16T13:14:00.0033265+02:00",
+  "RegisteredBy": "expedita",
+  "Updated": "2016-04-27T13:14:00.0033265+02:00",
+  "UpdatedBy": "cumque",
+  "Path": "sit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldLength": 872
     }
   }
 }

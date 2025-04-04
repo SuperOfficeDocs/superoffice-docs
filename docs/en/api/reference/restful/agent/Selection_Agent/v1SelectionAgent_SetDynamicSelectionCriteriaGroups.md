@@ -77,25 +77,25 @@ OK
 POST /api/v1/Agents/Selection/SetDynamicSelectionCriteriaGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 317,
+  "SelectionId": 22,
   "Criteria": [
     {
-      "Name": "Kunze-Schmeler",
-      "Description": "Compatible disintermediate implementation",
-      "Rank": 64,
+      "Name": "Barrows, Hilpert and Flatley",
+      "Description": "Organic neutral orchestration",
+      "Rank": 671,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Kunze-Schmeler",
-      "Description": "Compatible disintermediate implementation",
-      "Rank": 64,
+      "Name": "Barrows, Hilpert and Flatley",
+      "Description": "Organic neutral orchestration",
+      "Rank": 671,
       "Restrictions": [
         {},
         {}
@@ -113,20 +113,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Mann-Mosciski",
-    "Description": "Face to face holistic forecast",
-    "Rank": 789,
+    "Name": "O'Kon Inc and Sons",
+    "Description": "Triple-buffered empowering encryption",
+    "Rank": 925,
     "Restrictions": [
       {
-        "Name": "Aufderhar-Wisozk",
-        "Operator": "aliquam",
+        "Name": "Johns LLC",
+        "Operator": "ipsum",
         "Values": [
-          "consequatur",
-          "incidunt"
+          "ipsam",
+          "nihil"
         ],
         "DisplayValues": [
-          "optio",
-          "suscipit"
+          "et",
+          "sint"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -134,27 +134,27 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 85,
+        "InterParenthesis": 197,
         "InterOperator": "And",
-        "UniqueHash": 799
+        "UniqueHash": 307
       }
     ]
   },
   {
-    "Name": "Mann-Mosciski",
-    "Description": "Face to face holistic forecast",
-    "Rank": 789,
+    "Name": "O'Kon Inc and Sons",
+    "Description": "Triple-buffered empowering encryption",
+    "Rank": 925,
     "Restrictions": [
       {
-        "Name": "Aufderhar-Wisozk",
-        "Operator": "aliquam",
+        "Name": "Johns LLC",
+        "Operator": "ipsum",
         "Values": [
-          "consequatur",
-          "incidunt"
+          "ipsam",
+          "nihil"
         ],
         "DisplayValues": [
-          "optio",
-          "suscipit"
+          "et",
+          "sint"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -162,9 +162,9 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 85,
+        "InterParenthesis": 197,
         "InterOperator": "And",
-        "UniqueHash": 799
+        "UniqueHash": 307
       }
     ]
   }

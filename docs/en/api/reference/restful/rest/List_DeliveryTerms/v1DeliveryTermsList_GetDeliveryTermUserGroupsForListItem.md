@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 571,
-    "Name": "Stark-Brown",
-    "ToolTip": "Accusantium voluptas et aut excepturi.",
-    "Deleted": true,
-    "Rank": 713,
-    "Type": "alias",
-    "ColorBlock": 808,
-    "IconHint": "tempora",
-    "Selected": true,
-    "LastChanged": "2003-08-23T14:28:27.5395453+02:00",
+    "Id": 93,
+    "Name": "Gutkowski-Beahan",
+    "ToolTip": "Non alias autem est facere excepturi.",
+    "Deleted": false,
+    "Rank": 877,
+    "Type": "natus",
+    "ColorBlock": 197,
+    "IconHint": "excepturi",
+    "Selected": false,
+    "LastChanged": "2001-04-04T13:14:09.7441386+02:00",
     "ChildItems": [
       {
-        "Id": 5,
-        "Name": "Gutmann-Corwin",
-        "ToolTip": "Quaerat alias veritatis non aperiam.",
+        "Id": 805,
+        "Name": "Ward-Aufderhar",
+        "ToolTip": "Sit laudantium eveniet quod ratione quia.",
         "Deleted": false,
-        "Rank": 152,
-        "Type": "deleniti",
-        "ColorBlock": 982,
-        "IconHint": "delectus",
-        "Selected": true,
-        "LastChanged": "2013-11-12T14:28:27.5395453+01:00",
+        "Rank": 59,
+        "Type": "architecto",
+        "ColorBlock": 252,
+        "IconHint": "enim",
+        "Selected": false,
+        "LastChanged": "1999-08-23T13:14:09.7441386+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "delectus",
-        "StyleHint": "facilis",
-        "Hidden": false,
-        "FullName": "Mr. Alan Roy West",
+        "ExtraInfo": "tempore",
+        "StyleHint": "aut",
+        "Hidden": true,
+        "FullName": "Mack Sawayn Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 946
+            "FieldType": "System.String",
+            "FieldLength": 562
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "accusamus",
-    "Hidden": true,
-    "FullName": "Willow Ratke",
+    "ExtraInfo": "sit",
+    "StyleHint": "impedit",
+    "Hidden": false,
+    "FullName": "Willa Tillman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 163
+        "FieldType": "System.Int32",
+        "FieldLength": 96
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 477
+  "Id": 253
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 278,
-    "Name": "Howell LLC",
-    "Tooltip": "sed",
+    "HeadingId": 501,
+    "Name": "Koch, Ritchie and Lindgren",
+    "Tooltip": "accusantium",
     "Deleted": true,
-    "Rank": 538,
-    "UdListDefinitionId": 426,
+    "Rank": 526,
+    "UdListDefinitionId": 17,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 676
+        "FieldType": "System.Int32",
+        "FieldLength": 248
       }
     }
   }

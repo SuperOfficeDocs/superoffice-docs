@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetSatelliteLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 666
+  "SatelliteId": 64
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Dooley Inc and Sons",
-    "Description": "Quality-focused next generation website",
+    "Name": "Emmerich Inc and Sons",
+    "Description": "Phased fault-tolerant emulation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 971,
-        "Tooltip": "maiores",
-        "CanAssign": true,
-        "Free": 229,
-        "InUse": 159,
+        "Total": 695,
+        "Tooltip": "vel",
+        "CanAssign": false,
+        "Free": 62,
+        "InUse": 560,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 453,
-        "Name": "Tromp-Will",
-        "Description": "Up-sized zero defect flexibility",
-        "PrerequisiteModuleName": "Braun Group",
-        "SortOrder": 606,
-        "ExtraFlags": 363,
+        "Assigned": false,
+        "ModuleLicenseId": 57,
+        "Name": "Haag, McDermott and Reichert",
+        "Description": "Customer-focused homogeneous infrastructure",
+        "PrerequisiteModuleName": "Ondricka-Satterfield",
+        "SortOrder": 64,
+        "ExtraFlags": 615,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 863
+            "FieldLength": 961
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 726,
-        "Tooltip": "quisquam",
+        "Total": 108,
+        "Tooltip": "fuga",
         "CanAssign": false,
-        "Free": 965,
-        "InUse": 891,
-        "IsHidden": true,
+        "Free": 614,
+        "InUse": 673,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 15,
-        "Name": "Feest Group",
-        "Description": "Optimized 6th generation hub",
-        "PrerequisiteModuleName": "Bosco-O'Hara",
-        "SortOrder": 930,
-        "ExtraFlags": 42,
+        "ModuleLicenseId": 434,
+        "Name": "Kerluke-Marquardt",
+        "Description": "Synergized 6th generation paradigm",
+        "PrerequisiteModuleName": "Stamm-Blanda",
+        "SortOrder": 514,
+        "ExtraFlags": 341,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 996
+            "FieldLength": 723
           }
         }
       }
@@ -150,36 +150,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldType": "System.String",
+        "FieldLength": 379
       }
     }
   },
   {
-    "Name": "Dooley Inc and Sons",
-    "Description": "Quality-focused next generation website",
+    "Name": "Emmerich Inc and Sons",
+    "Description": "Phased fault-tolerant emulation",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": true,
-        "Total": 971,
-        "Tooltip": "maiores",
-        "CanAssign": true,
-        "Free": 229,
-        "InUse": 159,
+        "Total": 695,
+        "Tooltip": "vel",
+        "CanAssign": false,
+        "Free": 62,
+        "InUse": 560,
         "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 453,
-        "Name": "Tromp-Will",
-        "Description": "Up-sized zero defect flexibility",
-        "PrerequisiteModuleName": "Braun Group",
-        "SortOrder": 606,
-        "ExtraFlags": 363,
+        "Assigned": false,
+        "ModuleLicenseId": 57,
+        "Name": "Haag, McDermott and Reichert",
+        "Description": "Customer-focused homogeneous infrastructure",
+        "PrerequisiteModuleName": "Ondricka-Satterfield",
+        "SortOrder": 64,
+        "ExtraFlags": 615,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 863
+            "FieldLength": 961
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 726,
-        "Tooltip": "quisquam",
+        "Total": 108,
+        "Tooltip": "fuga",
         "CanAssign": false,
-        "Free": 965,
-        "InUse": 891,
-        "IsHidden": true,
+        "Free": 614,
+        "InUse": 673,
+        "IsHidden": false,
         "Assigned": true,
-        "ModuleLicenseId": 15,
-        "Name": "Feest Group",
-        "Description": "Optimized 6th generation hub",
-        "PrerequisiteModuleName": "Bosco-O'Hara",
-        "SortOrder": 930,
-        "ExtraFlags": 42,
+        "ModuleLicenseId": 434,
+        "Name": "Kerluke-Marquardt",
+        "Description": "Synergized 6th generation paradigm",
+        "PrerequisiteModuleName": "Stamm-Blanda",
+        "SortOrder": 514,
+        "ExtraFlags": 341,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 996
+            "FieldLength": 723
           }
         }
       }
@@ -214,8 +214,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldType": "System.String",
+        "FieldLength": 379
       }
     }
   }

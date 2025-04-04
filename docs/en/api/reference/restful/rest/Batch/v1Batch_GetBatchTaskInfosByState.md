@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Rogahn, McLaughlin and Luettgen",
-    "AssociateId": 812,
-    "DetailsTable": 51,
-    "DetailsRecord": 266,
-    "IsSystemTask": false,
+    "Id": 91,
+    "Name": "Tillman, Koss and Kessler",
+    "AssociateId": 369,
+    "DetailsTable": 25,
+    "DetailsRecord": 246,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "dolores",
-      "ParameterObject2": "quod"
+      "ParameterObject1": "iste",
+      "ParameterObject2": "consequatur"
     },
-    "LastStarted": "2011-03-28T14:28:27.3520534+02:00",
-    "Created": "2013-01-03T14:28:27.3520534+01:00",
-    "StartCount": 720,
-    "DatabaseSerialNumber": "1832601",
-    "Context": "et",
-    "Result": "qui",
+    "LastStarted": "2017-07-30T13:14:09.3841564+02:00",
+    "Created": "2012-03-17T13:14:09.3841564+01:00",
+    "StartCount": 301,
+    "DatabaseSerialNumber": "817673",
+    "Context": "tempora",
+    "Result": "cum",
     "State": "All",
-    "Description": "Intuitive foreground initiative",
-    "Response": "voluptas",
-    "Request": "qui",
-    "ProgressDescription": "Progressive even-keeled alliance",
-    "ProgressPercent": 343,
-    "FileName": "Doyle-Wunsch",
+    "Description": "Persevering asynchronous alliance",
+    "Response": "repellendus",
+    "Request": "reiciendis",
+    "ProgressDescription": "Operative global function",
+    "ProgressPercent": 650,
+    "FileName": "Rowe, Funk and Fay",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldType": "System.String",
+        "FieldLength": 385
       }
     }
   }

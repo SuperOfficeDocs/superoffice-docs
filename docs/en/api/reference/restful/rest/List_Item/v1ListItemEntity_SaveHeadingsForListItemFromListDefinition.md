@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 512,
-    "Name": "Ziemann Inc and Sons",
-    "ToolTip": "Iusto voluptates ad qui odit illo at nobis.",
-    "Deleted": false,
-    "Rank": 58,
-    "Type": "libero",
-    "ColorBlock": 447,
-    "IconHint": "id",
+    "Id": 920,
+    "Name": "Bechtelar Inc and Sons",
+    "ToolTip": "Vitae atque in similique id cupiditate et.",
+    "Deleted": true,
+    "Rank": 159,
+    "Type": "dolor",
+    "ColorBlock": 460,
+    "IconHint": "blanditiis",
     "Selected": true,
-    "LastChanged": "2000-09-27T14:28:27.4614236+02:00",
+    "LastChanged": "2019-06-20T13:14:09.5873854+02:00",
     "ChildItems": [
       {
-        "Id": 593,
-        "Name": "Stehr-Howell",
-        "ToolTip": "Numquam eligendi est.",
-        "Deleted": false,
-        "Rank": 162,
-        "Type": "laudantium",
-        "ColorBlock": 11,
-        "IconHint": "quia",
+        "Id": 517,
+        "Name": "Bailey, Medhurst and Schneider",
+        "ToolTip": "Consequatur sapiente praesentium rerum odio et nostrum illum.",
+        "Deleted": true,
+        "Rank": 810,
+        "Type": "nobis",
+        "ColorBlock": 977,
+        "IconHint": "numquam",
         "Selected": false,
-        "LastChanged": "2002-02-12T14:28:27.4614236+01:00",
+        "LastChanged": "1998-04-30T13:14:09.5873854+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "voluptas",
+        "ExtraInfo": "soluta",
+        "StyleHint": "recusandae",
         "Hidden": true,
-        "FullName": "Mr. Wade Randy Kiehn"
+        "FullName": "Amparo Botsford"
       }
     ],
-    "ExtraInfo": "eum",
-    "StyleHint": "sunt",
+    "ExtraInfo": "illo",
+    "StyleHint": "deleniti",
     "Hidden": false,
-    "FullName": "Prof. Lucie Durward Emard"
+    "FullName": "Leatha Brekke"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 283,
-    "Name": "Schuster, Goldner and Feil",
-    "ToolTip": "Aut nihil ad repellendus repellat quia dolor ea.",
+    "Id": 765,
+    "Name": "Rosenbaum-Bruen",
+    "ToolTip": "Architecto facere consequatur placeat quas recusandae dolor rem.",
     "Deleted": false,
-    "Rank": 612,
-    "Type": "commodi",
-    "ColorBlock": 136,
-    "IconHint": "quo",
+    "Rank": 97,
+    "Type": "consequuntur",
+    "ColorBlock": 144,
+    "IconHint": "qui",
     "Selected": false,
-    "LastChanged": "2008-01-19T14:28:27.4614236+01:00",
+    "LastChanged": "2012-03-19T13:14:09.5873854+01:00",
     "ChildItems": [
       {
-        "Id": 414,
-        "Name": "Renner, Bednar and Koss",
-        "ToolTip": "Rem dolor qui dolores et qui maxime qui.",
-        "Deleted": true,
-        "Rank": 479,
-        "Type": "minus",
-        "ColorBlock": 808,
-        "IconHint": "ut",
+        "Id": 114,
+        "Name": "Hoeger-Schinner",
+        "ToolTip": "Doloribus dolores qui sed.",
+        "Deleted": false,
+        "Rank": 835,
+        "Type": "hic",
+        "ColorBlock": 566,
+        "IconHint": "reiciendis",
         "Selected": false,
-        "LastChanged": "2011-06-08T14:28:27.4614236+02:00",
+        "LastChanged": "2009-07-26T13:14:09.6030114+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "provident",
-        "StyleHint": "non",
-        "Hidden": true,
-        "FullName": "Freddie Jenkins",
+        "ExtraInfo": "ab",
+        "StyleHint": "sunt",
+        "Hidden": false,
+        "FullName": "Uriah Purdy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 59
+            "FieldLength": 336
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "sed",
+    "ExtraInfo": "unde",
+    "StyleHint": "molestiae",
     "Hidden": true,
-    "FullName": "Jeanne Tillman II",
+    "FullName": "Susana Conroy",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 586
+        "FieldLength": 494
       }
     }
   }

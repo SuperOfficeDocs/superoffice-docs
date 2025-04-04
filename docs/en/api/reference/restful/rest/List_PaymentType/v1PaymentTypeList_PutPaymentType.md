@@ -82,12 +82,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 756,
-  "Name": "Emmerich, DuBuque and Johnston",
-  "Tooltip": "reprehenderit",
-  "Deleted": false,
-  "UdListDefinitionId": 283,
-  "Rank": 171
+  "Id": 758,
+  "Name": "Hilll, Schaden and Grant",
+  "Tooltip": "voluptate",
+  "Deleted": true,
+  "UdListDefinitionId": 968,
+  "Rank": 196
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 637,
-  "Name": "Gislason-Swaniawski",
-  "Tooltip": "natus",
-  "Deleted": false,
-  "UdListDefinitionId": 789,
-  "Rank": 562,
+  "Id": 434,
+  "Name": "Medhurst LLC",
+  "Tooltip": "rerum",
+  "Deleted": true,
+  "UdListDefinitionId": 85,
+  "Rank": 449,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 989
+      "FieldType": "System.String",
+      "FieldLength": 835
     }
   }
 }

@@ -73,7 +73,7 @@ OK
 GET /api/v1/Product/{productId}/ImageInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 02 Dec 2006 14:28:27 G12T
+Last-Modified: Sat, 06 Apr 2019 13:14:09 G4T
 
 {
-  "BlobId": 275,
-  "BlobSize": 454,
-  "Description": "Exclusive client-server framework",
-  "ExtraInfo": "ea",
-  "IsEncrypted": false,
+  "BlobId": 207,
+  "BlobSize": 333,
+  "Description": "Innovative motivating structure",
+  "ExtraInfo": "temporibus",
+  "IsEncrypted": true,
   "IsZipped": false,
-  "MimeType": "ea",
-  "OriginalSize": 993,
-  "CreatedDate": "2014-01-22T14:28:27.3833015+01:00",
-  "UpdatedDate": "2006-12-02T14:28:27.3833015+01:00",
+  "MimeType": "quia",
+  "OriginalSize": 961,
+  "CreatedDate": "2003-06-23T13:14:09.4467519+02:00",
+  "UpdatedDate": "2019-04-06T13:14:09.4467519+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "optio",
+  "ConceptualType": "nemo",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 449
+      "FieldType": "System.String",
+      "FieldLength": 304
     }
   }
 }

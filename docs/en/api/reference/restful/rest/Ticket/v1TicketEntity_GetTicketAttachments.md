@@ -66,7 +66,7 @@ OK
 GET /api/v1/Ticket/{ticketEntityId}/Attachments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 724,
-    "Name": "Harber-Weimann",
-    "ContentType": "sit",
-    "AttSize": 637,
+    "AttachmentId": 867,
+    "Name": "Greenfelder Inc and Sons",
+    "ContentType": "rem",
+    "AttSize": 627,
     "InlineImage": false,
-    "ContentId": "sed",
-    "AuthKey": "voluptas",
+    "ContentId": "nam",
+    "AuthKey": "et",
     "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 584
+        "FieldType": "System.String",
+        "FieldLength": 302
       }
     }
   }

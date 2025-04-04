@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboards
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 103
+  "AssociateId": 775
 }
 ```
 
@@ -93,22 +93,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardId": 63,
-    "AssociateId": 301,
-    "Caption": "quos",
+    "DashboardId": 909,
+    "AssociateId": 886,
+    "Caption": "sequi",
     "Layout": "Four",
     "Tiles": [
       {
-        "DashboardTileId": 476,
-        "Caption": "iure",
-        "Description": "Programmable solution-oriented task-force",
-        "ChartName": "Moore LLC",
-        "ChartId": "aspernatur",
+        "DashboardTileId": 382,
+        "Caption": "eveniet",
+        "Description": "Reverse-engineered discrete installation",
+        "ChartName": "Emmerich-Schmeler",
+        "ChartId": "possimus",
         "IsDefault": false,
-        "AssociateId": 199,
-        "GroupId": 674,
-        "SelectionId": 603,
-        "Config": "consequatur",
+        "AssociateId": 449,
+        "GroupId": 892,
+        "SelectionId": 893,
+        "Config": "molestiae",
         "Type": "Bignum",
         "EntityType": "Activity",
         "Options": [
@@ -124,7 +124,7 @@ Content-Type: application/json; charset=utf-8
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 54
+            "FieldLength": 986
           }
         }
       }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 417
+        "FieldLength": 276
       }
     }
   }

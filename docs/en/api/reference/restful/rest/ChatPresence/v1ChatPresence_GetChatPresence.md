@@ -70,20 +70,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UserId": 447,
-    "DisplayName": "Huel-Jacobi",
-    "OngoingChats": 55,
+    "UserId": 66,
+    "DisplayName": "Raynor, Goldner and Hermiston",
+    "OngoingChats": 883,
     "Present": true,
     "ChatTopics": [
-      102,
-      992
+      104,
+      382
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 806
+        "FieldType": "System.Int32",
+        "FieldLength": 503
       }
     }
   }

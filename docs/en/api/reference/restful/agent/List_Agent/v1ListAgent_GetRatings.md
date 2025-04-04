@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Value": "animi",
-    "Tooltip": "labore",
+    "Id": 368,
+    "Value": "sed",
+    "Tooltip": "nulla",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 685
       }
     }
   },
   {
-    "Id": 625,
-    "Value": "animi",
-    "Tooltip": "labore",
+    "Id": 368,
+    "Value": "sed",
+    "Tooltip": "nulla",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 685
       }
     }
   }

@@ -85,7 +85,7 @@ Dash found.
 GET /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,42 +95,42 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 142,
-  "UniqueId": "quod",
-  "Name": "Schiller, Johns and Gulgowski",
-  "Description": "Intuitive impactful interface",
-  "AssociateId": 623,
-  "Columns": 108,
+  "DashboardId": 296,
+  "UniqueId": "voluptates",
+  "Name": "Becker-Zboncak",
+  "Description": "Open-source demand-driven installation",
+  "AssociateId": 458,
+  "Columns": 924,
   "Theme": null,
-  "VisibleForAll": 773,
+  "VisibleForAll": 913,
   "VisibleForAssociates": [
-    472,
-    903
+    974,
+    36
   ],
   "VisibleForGroups": [
-    118,
-    27
+    214,
+    323
   ],
-  "PinForAll": 768,
+  "PinForAll": 703,
   "PinForAssociates": [
-    714,
-    258
+    770,
+    660
   ],
   "PinForGroups": [
-    669,
-    708
+    468,
+    557
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 79
+      "FieldType": "System.Int32",
+      "FieldLength": 891
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

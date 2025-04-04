@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 394,
-    "Name": "Hodkiewicz-Hahn",
-    "Tooltip": "sint",
+    "Id": 169,
+    "Name": "Klein Group",
+    "Tooltip": "earum",
     "Deleted": false,
-    "UdListDefinitionId": 887,
-    "Rank": 665,
+    "UdListDefinitionId": 537,
+    "Rank": 126,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 88
+        "FieldLength": 254
       }
     }
   }

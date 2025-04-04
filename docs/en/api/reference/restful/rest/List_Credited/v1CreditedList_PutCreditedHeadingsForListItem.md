@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 828,
-    "Name": "Marks LLC",
-    "ToolTip": "Non eum.",
-    "Deleted": false,
-    "Rank": 375,
-    "Type": "accusamus",
-    "ColorBlock": 336,
-    "IconHint": "impedit",
+    "Id": 1000,
+    "Name": "Murphy-Wiza",
+    "ToolTip": "Molestiae aut sunt excepturi ab.",
+    "Deleted": true,
+    "Rank": 274,
+    "Type": "in",
+    "ColorBlock": 328,
+    "IconHint": "numquam",
     "Selected": false,
-    "LastChanged": "2019-01-08T14:28:27.5395453+01:00",
+    "LastChanged": "2020-03-20T13:14:09.7128949+01:00",
     "ChildItems": [
       {
-        "Id": 625,
-        "Name": "Cole-Denesik",
-        "ToolTip": "Enim ea asperiores doloremque nihil corrupti magni.",
+        "Id": 66,
+        "Name": "Schoen Group",
+        "ToolTip": "Harum non.",
         "Deleted": false,
-        "Rank": 307,
-        "Type": "autem",
-        "ColorBlock": 618,
-        "IconHint": "provident",
+        "Rank": 860,
+        "Type": "hic",
+        "ColorBlock": 369,
+        "IconHint": "rem",
         "Selected": false,
-        "LastChanged": "1998-05-13T14:28:27.5395453+02:00",
+        "LastChanged": "2003-03-05T13:14:09.7128949+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "blanditiis",
-        "StyleHint": "temporibus",
-        "Hidden": false,
-        "FullName": "Maryse VonRueden"
+        "ExtraInfo": "est",
+        "StyleHint": "praesentium",
+        "Hidden": true,
+        "FullName": "Kaelyn Boyle MD"
       }
     ],
-    "ExtraInfo": "numquam",
-    "StyleHint": "provident",
+    "ExtraInfo": "a",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "Dr. Candace Vandervort III"
+    "FullName": "Delphine Padberg"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 959,
-    "Name": "Romaguera-Pacocha",
-    "ToolTip": "Nostrum est recusandae doloribus omnis consectetur tempora corporis.",
-    "Deleted": true,
-    "Rank": 1000,
-    "Type": "ea",
-    "ColorBlock": 17,
-    "IconHint": "temporibus",
+    "Id": 833,
+    "Name": "Bartell, Crooks and Olson",
+    "ToolTip": "Illum suscipit.",
+    "Deleted": false,
+    "Rank": 875,
+    "Type": "dolor",
+    "ColorBlock": 954,
+    "IconHint": "eum",
     "Selected": false,
-    "LastChanged": "2013-11-05T14:28:27.5395453+01:00",
+    "LastChanged": "2017-12-11T13:14:09.7128949+01:00",
     "ChildItems": [
       {
-        "Id": 45,
-        "Name": "Turner LLC",
-        "ToolTip": "Natus vitae molestiae vitae.",
-        "Deleted": false,
-        "Rank": 131,
-        "Type": "excepturi",
-        "ColorBlock": 277,
-        "IconHint": "aut",
-        "Selected": true,
-        "LastChanged": "2015-08-07T14:28:27.5395453+02:00",
+        "Id": 899,
+        "Name": "Collier, Cormier and Lehner",
+        "ToolTip": "Molestias recusandae.",
+        "Deleted": true,
+        "Rank": 337,
+        "Type": "recusandae",
+        "ColorBlock": 147,
+        "IconHint": "pariatur",
+        "Selected": false,
+        "LastChanged": "1999-11-13T13:14:09.7128949+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iure",
-        "StyleHint": "soluta",
+        "ExtraInfo": "impedit",
+        "StyleHint": "laboriosam",
         "Hidden": true,
-        "FullName": "Mrs. Layla Cartwright",
+        "FullName": "Kaela Lindgren",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 995
+            "FieldType": "System.Int32",
+            "FieldLength": 521
           }
         }
       }
     ],
-    "ExtraInfo": "sequi",
-    "StyleHint": "sequi",
-    "Hidden": false,
-    "FullName": "Mrs. Daryl Gerhold",
+    "ExtraInfo": "porro",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Julio Nader",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 301
+        "FieldLength": 251
       }
     }
   }

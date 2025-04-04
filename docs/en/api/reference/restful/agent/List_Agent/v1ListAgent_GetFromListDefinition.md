@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/List/GetFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 181,
-  "UdListDefinitionId": 674
+  "Id": 727,
+  "UdListDefinitionId": 647
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 167,
-  "Name": "Stehr Inc and Sons",
-  "Tooltip": "non",
+  "Id": 66,
+  "Name": "Von, Walker and Schneider",
+  "Tooltip": "explicabo",
   "Deleted": false,
-  "UdListDefinitionId": 49,
-  "Rank": 787,
+  "UdListDefinitionId": 458,
+  "Rank": 135,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldLength": 410
     }
   }
 }

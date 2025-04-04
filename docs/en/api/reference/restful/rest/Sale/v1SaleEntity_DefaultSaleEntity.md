@@ -108,7 +108,7 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 17 Jun 2022 14:28:27 G6T
+Last-Modified: Thu, 30 May 2024 13:14:09 G5T
 
 {
   "Appointment": null,
@@ -117,7 +117,7 @@ Last-Modified: Fri, 17 Jun 2022 14:28:27 G6T
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "fugit",
+  "SaleText": "aliquam",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -126,113 +126,113 @@ Last-Modified: Fri, 17 Jun 2022 14:28:27 G6T
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2007-01-18T14:28:27.1804149+01:00",
-  "Amount": 6020.414,
-  "SaleId": 878,
-  "Earning": 28679.234,
-  "EarningPercent": 20496.36,
-  "Heading": "error",
-  "Number": "1016567",
-  "Probability": 377,
-  "CreatedDate": "2016-12-14T14:28:27.1804149+01:00",
-  "UpdatedDate": "2022-06-17T14:28:27.1804149+02:00",
+  "Saledate": "2001-02-15T13:14:09.0711377+01:00",
+  "Amount": 5409.284,
+  "SaleId": 649,
+  "Earning": 16434.696,
+  "EarningPercent": 17258.938,
+  "Heading": "fugiat",
+  "Number": "811742",
+  "Probability": 711,
+  "CreatedDate": "2011-05-28T13:14:09.0711377+02:00",
+  "UpdatedDate": "2024-05-30T13:14:09.0711377+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 151,
+  "ActiveLinks": 899,
   "Links": [
     {
-      "EntityName": "Champlin, Herzog and Farrell",
-      "Id": 543,
-      "Description": "Organized modular database",
-      "ExtraInfo": "dolor",
-      "LinkId": 584,
+      "EntityName": "Stoltenberg, Kemmer and Hackett",
+      "Id": 263,
+      "Description": "Pre-emptive zero tolerance product",
+      "ExtraInfo": "minima",
+      "LinkId": 237,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 674
+          "FieldLength": 149
         }
       }
     }
   ],
-  "NextDueDate": "2007-04-26T14:28:27.1804149+02:00",
-  "Postit": "voluptas",
+  "NextDueDate": "2024-08-22T13:14:09.0711377+02:00",
+  "Postit": "amet",
   "SaleType": null,
   "ReasonSold": null,
   "ReasonStalled": null,
-  "ReopenDate": "2002-09-16T14:28:27.1804149+02:00",
+  "ReopenDate": "2021-04-01T13:14:09.0711377+02:00",
   "SaleStakeholders": [
     {
-      "StakeholderRoleName": "Harvey, Olson and Ryan",
-      "Comment": "ut",
-      "StakeholderRoleId": 308,
-      "CountryId": 509,
-      "PersonId": 11,
-      "EmailDescription": "sunny@quigley.info",
-      "EmailId": 873,
-      "EmailAddress": "elva@erdman.biz",
-      "PhoneId": 48,
-      "ContactName": "Fritsch LLC",
-      "ContactId": 987,
-      "SaleId": 166,
-      "Mrmrs": "velit",
-      "Firstname": "Maxime",
-      "MiddleName": "Doyle-Hauck",
-      "Lastname": "Effertz",
-      "SaleStakeholderId": 738,
-      "Rank": 947,
-      "Phone": "616.405.5339",
+      "StakeholderRoleName": "Zulauf Group",
+      "Comment": "minima",
+      "StakeholderRoleId": 824,
+      "CountryId": 368,
+      "PersonId": 792,
+      "EmailDescription": "lillian_rolfson@feeneyoconnell.biz",
+      "EmailId": 358,
+      "EmailAddress": "hollie_stoltenberg@rodriguez.biz",
+      "PhoneId": 916,
+      "ContactName": "Dicki-Dare",
+      "ContactId": 925,
+      "SaleId": 698,
+      "Mrmrs": "iusto",
+      "Firstname": "Roxane",
+      "MiddleName": "McClure-Kuhlman",
+      "Lastname": "Stokes",
+      "SaleStakeholderId": 128,
+      "Rank": 185,
+      "Phone": "1-428-593-0276 x4336",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 534
+          "FieldLength": 801
         }
       }
     }
   ],
-  "ActiveErpLinks": 144,
+  "ActiveErpLinks": 668,
   "UserDefinedFields": {
-    "SuperOffice:1": "1458411020",
-    "SuperOffice:2": "959480023"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Buster Carroll"
   },
   "ExtraFields": {
-    "ExtraFields1": "veritatis",
-    "ExtraFields2": "voluptas"
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "ut"
   },
   "CustomFields": {
-    "CustomFields1": "tempora",
-    "CustomFields2": "quo"
+    "CustomFields1": "a",
+    "CustomFields2": "veritatis"
   },
-  "PublishEventDate": "2004-03-06T14:28:27.1804149+01:00",
-  "PublishTo": "2016-01-05T14:28:27.1804149+01:00",
-  "PublishFrom": "2012-11-04T14:28:27.1804149+01:00",
-  "IsPublished": false,
+  "PublishEventDate": "2014-04-12T13:14:09.0711377+02:00",
+  "PublishTo": "2005-06-11T13:14:09.0711377+02:00",
+  "PublishFrom": "2006-03-03T13:14:09.0711377+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 908,
+      "VisibleId": 495,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 977
         }
       }
     },
     {
-      "VisibleId": 908,
+      "VisibleId": 495,
       "Visibility": "All",
-      "DisplayValue": "ut",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 862
+          "FieldLength": 977
         }
       }
     }
@@ -242,7 +242,7 @@ Last-Modified: Fri, 17 Jun 2022 14:28:27 G6T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 40
+      "FieldLength": 902
     }
   }
 }

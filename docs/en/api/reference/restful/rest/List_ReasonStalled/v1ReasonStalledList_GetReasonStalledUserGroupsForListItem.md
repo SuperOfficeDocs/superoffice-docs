@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonStalled/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 286,
-    "Name": "O'Reilly, Hyatt and Klein",
-    "ToolTip": "Animi culpa quos doloremque consequatur laboriosam ut.",
+    "Id": 491,
+    "Name": "Gislason Inc and Sons",
+    "ToolTip": "Veniam dolor ut magnam.",
     "Deleted": false,
-    "Rank": 619,
-    "Type": "commodi",
-    "ColorBlock": 283,
-    "IconHint": "et",
-    "Selected": true,
-    "LastChanged": "2023-06-27T14:28:27.6957886+02:00",
+    "Rank": 921,
+    "Type": "recusandae",
+    "ColorBlock": 883,
+    "IconHint": "quae",
+    "Selected": false,
+    "LastChanged": "2007-06-27T13:14:10.0410396+02:00",
     "ChildItems": [
       {
-        "Id": 763,
-        "Name": "Stokes, Leffler and Witting",
-        "ToolTip": "Sapiente dolorem aut accusamus odio corrupti.",
+        "Id": 404,
+        "Name": "Cartwright, O'Connell and Abbott",
+        "ToolTip": "Dicta modi autem unde.",
         "Deleted": true,
-        "Rank": 510,
-        "Type": "dolores",
-        "ColorBlock": 728,
-        "IconHint": "ducimus",
-        "Selected": false,
-        "LastChanged": "1998-07-28T14:28:27.6957886+02:00",
+        "Rank": 293,
+        "Type": "quis",
+        "ColorBlock": 888,
+        "IconHint": "est",
+        "Selected": true,
+        "LastChanged": "2018-05-18T13:14:10.0410396+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatem",
-        "StyleHint": "similique",
-        "Hidden": true,
-        "FullName": "Lilla Braun",
+        "ExtraInfo": "excepturi",
+        "StyleHint": "sunt",
+        "Hidden": false,
+        "FullName": "Prof. Gust Benedict Kulas III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 626
+            "FieldType": "System.String",
+            "FieldLength": 29
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "impedit",
+    "ExtraInfo": "nisi",
+    "StyleHint": "autem",
     "Hidden": true,
-    "FullName": "Toby Mayert",
+    "FullName": "Easton Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 583
+        "FieldType": "System.String",
+        "FieldLength": 510
       }
     }
   }

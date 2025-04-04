@@ -85,9 +85,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2020-04-13T14:28:21.7116556+02:00",
-  "ToDate": "2011-07-03T14:28:21.7116556+02:00",
-  "SearchTerm": "nihil"
+  "FromDate": "2008-08-10T13:14:00.0788404+02:00",
+  "ToDate": "2000-05-23T13:14:00.0788404+02:00",
+  "SearchTerm": "ratione"
 }
 ```
 
@@ -99,19 +99,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebAppUsageId": 404,
-    "AssocId": 406,
-    "Timestamp": "2000-01-25T14:28:21.7116556+01:00",
-    "ViewState": "harum",
-    "AggregateCount": 449,
-    "AggregateBin": 794,
-    "Version": 980,
+    "WebAppUsageId": 585,
+    "AssocId": 723,
+    "Timestamp": "2001-03-24T13:14:00.0788404+01:00",
+    "ViewState": "quasi",
+    "AggregateCount": 915,
+    "AggregateBin": 20,
+    "Version": 813,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 131
+        "FieldLength": 681
       }
     }
   }

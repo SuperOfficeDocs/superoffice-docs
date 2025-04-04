@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldsForNewErpActor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 970,
+  "ErpConnectionId": 701,
   "ErpActorType": "Customer"
 }
 ```
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "eos",
-    "Rank": 173,
-    "DisplayName": "Koch LLC",
-    "DisplayDescription": "Cloned background approach",
+    "FieldKey": "tempora",
+    "Rank": 437,
+    "DisplayName": "McClure, Mertz and Abernathy",
+    "DisplayDescription": "Versatile user-facing local area network",
     "FieldType": "Checkbox",
-    "ListName": "Ryan, Turner and Rowe",
-    "DefaultValue": "et",
-    "MaxLength": 817,
+    "ListName": "Maggio-Stark",
+    "DefaultValue": "eveniet",
+    "MaxLength": 71,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 777
+        "FieldLength": 565
       }
     }
   }

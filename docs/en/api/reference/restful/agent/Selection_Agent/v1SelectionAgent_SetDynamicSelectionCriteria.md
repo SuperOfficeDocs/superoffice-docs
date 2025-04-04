@@ -87,18 +87,18 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 144,
+  "SelectionId": 588,
   "Criteria": [
     {
-      "Name": "Konopelski-Dicki",
-      "Operator": "dolor",
+      "Name": "Stamm-Beier",
+      "Operator": "fugit",
       "Values": [
-        "a",
-        "quod"
+        "harum",
+        "non"
       ],
       "DisplayValues": [
-        "eos",
-        "quae"
+        "dolore",
+        "numquam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -106,9 +106,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 44,
+      "InterParenthesis": 130,
       "InterOperator": "And",
-      "UniqueHash": 270
+      "UniqueHash": 943
     }
   ]
 }
@@ -122,44 +122,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Sporer, Ratke and Rempel",
-    "Operator": "nobis",
+    "Name": "Ondricka, Ankunding and Hickle",
+    "Operator": "modi",
     "Values": [
-      "recusandae",
-      "quidem"
+      "exercitationem",
+      "incidunt"
     ],
     "DisplayValues": [
-      "consequatur",
-      "vitae"
+      "doloribus",
+      "voluptas"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Lockman LLC",
-        "Operator": "voluptatem",
+        "Name": "Trantow LLC",
+        "Operator": "velit",
         "Values": [
-          "dolorem",
-          "dolorem"
+          "a",
+          "nobis"
         ],
         "DisplayValues": [
-          "reprehenderit",
-          "rerum"
+          "enim",
+          "molestiae"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 822,
+        "InterParenthesis": 810,
         "InterOperator": "And",
-        "UniqueHash": 453
+        "UniqueHash": 592
       }
     ],
-    "InterParenthesis": 414,
+    "InterParenthesis": 427,
     "InterOperator": "And",
-    "UniqueHash": 463
+    "UniqueHash": 275
   }
 ]
 ```

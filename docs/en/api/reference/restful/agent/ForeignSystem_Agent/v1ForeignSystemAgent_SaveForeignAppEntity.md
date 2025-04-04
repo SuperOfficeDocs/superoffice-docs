@@ -75,27 +75,27 @@ OK
 POST /api/v1/Agents/ForeignSystem/SaveForeignAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 798,
-  "Name": "Kuvalis LLC",
-  "CreatedDate": "2003-10-16T14:28:22.0085182+02:00",
-  "UpdatedDate": "2008-12-31T14:28:22.0085182+01:00",
+  "ForeignAppId": 259,
+  "Name": "Funk Inc and Sons",
+  "CreatedDate": "2024-11-27T13:14:00.5012353+01:00",
+  "UpdatedDate": "2014-05-11T13:14:00.5012353+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 950,
-      "Name": "Homenick-Rogahn",
-      "CreatedDate": "2007-03-15T14:28:22.0085182+01:00",
-      "UpdatedDate": "2014-03-15T14:28:22.0085182+01:00",
-      "AssociateFullName": "Darius Schneider",
-      "CreatedBy": "dolorem",
-      "UpdatedBy": "consequatur",
-      "DeviceIdentifier": "et",
-      "ForeignAppId": 265
+      "ForeignDeviceId": 799,
+      "Name": "Feest, Hartmann and Funk",
+      "CreatedDate": "2017-05-23T13:14:00.5012353+02:00",
+      "UpdatedDate": "2001-05-03T13:14:00.5012353+02:00",
+      "AssociateFullName": "Vladimir Turner",
+      "CreatedBy": "perferendis",
+      "UpdatedBy": "eius",
+      "DeviceIdentifier": "ratione",
+      "ForeignAppId": 122
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 511,
-  "Name": "Anderson, Goodwin and Ernser",
-  "CreatedDate": "2015-02-01T14:28:22.0085182+01:00",
-  "UpdatedDate": "2023-06-15T14:28:22.0085182+02:00",
+  "ForeignAppId": 62,
+  "Name": "Wiza, Reinger and Mayert",
+  "CreatedDate": "2000-02-07T13:14:00.5012353+01:00",
+  "UpdatedDate": "2010-04-16T13:14:00.5012353+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 675,
-      "Name": "Doyle, Jakubowski and Bogan",
-      "CreatedDate": "2014-06-30T14:28:22.0085182+02:00",
-      "UpdatedDate": "1998-05-18T14:28:22.0085182+02:00",
-      "AssociateFullName": "Prof. Alize Jerde",
-      "CreatedBy": "rerum",
-      "UpdatedBy": "neque",
-      "DeviceIdentifier": "quod",
-      "ForeignAppId": 901,
+      "ForeignDeviceId": 825,
+      "Name": "Huel-Willms",
+      "CreatedDate": "2000-03-28T13:14:00.5012353+02:00",
+      "UpdatedDate": "2005-11-20T13:14:00.5012353+01:00",
+      "AssociateFullName": "Adela Abshire",
+      "CreatedBy": "qui",
+      "UpdatedBy": "nesciunt",
+      "DeviceIdentifier": "saepe",
+      "ForeignAppId": 920,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 210
+          "FieldLength": 90
         }
       }
     }
@@ -139,8 +139,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 459
+      "FieldType": "System.Int32",
+      "FieldLength": 594
     }
   }
 }

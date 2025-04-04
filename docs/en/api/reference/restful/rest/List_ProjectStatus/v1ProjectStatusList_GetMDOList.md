@@ -26,8 +26,8 @@ Get the MDO list items for "ProjStatus" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProjectStatus/MDOItems?flat=True
-GET /api/v1/List/ProjectStatus/MDOItems?query=quas
+GET /api/v1/List/ProjectStatus/MDOItems?flat=False
+GET /api/v1/List/ProjectStatus/MDOItems?query=expedita
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProjectStatus/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 614,
-    "Name": "Kiehn, Jacobs and Windler",
-    "ToolTip": "Eius tempora quibusdam qui porro.",
+    "Id": 953,
+    "Name": "Lubowitz Group",
+    "ToolTip": "Debitis beatae rerum.",
     "Deleted": false,
-    "Rank": 660,
-    "Type": "quo",
+    "Rank": 290,
+    "Type": "similique",
     "ChildItems": [
       {
-        "Id": 273,
-        "Name": "Barrows-Hodkiewicz",
-        "ToolTip": "Nulla delectus pariatur eius.",
+        "Id": 806,
+        "Name": "Kulas, Ryan and Dickens",
+        "ToolTip": "Enim fuga cum.",
         "Deleted": true,
-        "Rank": 774,
-        "Type": "repellendus",
+        "Rank": 311,
+        "Type": "cum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "delectus",
-        "ColorBlock": 974,
-        "ExtraInfo": "id",
-        "StyleHint": "recusandae",
-        "FullName": "Karli Moore",
+        "IconHint": "sit",
+        "ColorBlock": 916,
+        "ExtraInfo": "enim",
+        "StyleHint": "voluptates",
+        "FullName": "Elta Sallie Schuster V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 519
+            "FieldLength": 488
           }
         }
       }
     ],
-    "IconHint": "distinctio",
-    "ColorBlock": 834,
-    "ExtraInfo": "consequatur",
-    "StyleHint": "distinctio",
-    "FullName": "Dr. Eunice Uriah Hartmann V",
+    "IconHint": "illum",
+    "ColorBlock": 911,
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "excepturi",
+    "FullName": "Ms. Jayde Fredy Cremin IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldLength": 26
       }
     }
   }

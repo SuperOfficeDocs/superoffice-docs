@@ -89,15 +89,15 @@ DashTile updated.
 PUT /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 527,
-  "DashboardId": 58,
-  "Height": 159,
-  "Width": 355,
-  "Rank": 302,
+  "DashboardTileId": 192,
+  "DashboardId": 463,
+  "Height": 40,
+  "Width": 385,
+  "Rank": 520,
   "DashTileDefinition": null
 }
 ```
@@ -109,23 +109,23 @@ HTTP/1.1 200 DashTile updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 763,
-  "DashboardId": 919,
-  "Height": 516,
-  "Width": 374,
-  "Rank": 812,
+  "DashboardTileId": 771,
+  "DashboardId": 767,
+  "Height": 397,
+  "Width": 464,
+  "Rank": 132,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 178
+      "FieldLength": 365
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

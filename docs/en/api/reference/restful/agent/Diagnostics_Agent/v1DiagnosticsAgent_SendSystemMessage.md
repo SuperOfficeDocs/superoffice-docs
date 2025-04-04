@@ -68,14 +68,14 @@ No Content
 POST /api/v1/Agents/Diagnostics/SendSystemMessage
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemMessageId": "inventore",
-  "AssociateId": 227,
-  "MarkdownMessage": "doloremque",
-  "Expire": "2017-06-16T14:28:21.7116556+02:00",
+  "SystemMessageId": "ipsa",
+  "AssociateId": 388,
+  "MarkdownMessage": "harum",
+  "Expire": "2019-02-15T13:14:00.0788404+01:00",
   "Type": "Error"
 }
 ```

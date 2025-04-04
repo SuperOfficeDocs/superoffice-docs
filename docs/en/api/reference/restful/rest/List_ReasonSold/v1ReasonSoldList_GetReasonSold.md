@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 787,
-  "Name": "Hettinger-Morar",
-  "Tooltip": "praesentium",
-  "Deleted": true,
-  "UdListDefinitionId": 715,
-  "Rank": 81,
+  "Id": 765,
+  "Name": "Langosh Inc and Sons",
+  "Tooltip": "est",
+  "Deleted": false,
+  "UdListDefinitionId": 957,
+  "Rank": 103,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 438
+      "FieldType": "System.String",
+      "FieldLength": 295
     }
   }
 }

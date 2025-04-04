@@ -93,7 +93,7 @@ ProjectEntity found.
 GET /api/v1/Project/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 34,
-  "ColumnId": 427,
-  "FieldDefault": "quaerat",
-  "FieldHeight": 851,
+  "UDefFieldId": 656,
+  "ColumnId": 388,
+  "FieldDefault": "dolores",
+  "FieldHeight": 750,
   "FieldLabel": "ullam",
-  "FieldLeft": 810,
-  "FieldTop": 803,
+  "FieldLeft": 387,
+  "FieldTop": 286,
   "FieldType": "Checkbox",
-  "FieldWidth": 74,
-  "FormatMask": "numquam",
+  "FieldWidth": 747,
+  "FormatMask": "fuga",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 313,
-  "LabelLeft": 443,
-  "LabelTop": 970,
-  "LabelWidth": 141,
-  "LastVersionId": 216,
-  "ListTableId": 531,
-  "IsMandatory": true,
+  "LabelHeight": 17,
+  "LabelLeft": 908,
+  "LabelTop": 911,
+  "LabelWidth": 700,
+  "LastVersionId": 522,
+  "ListTableId": 948,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 251,
-  "ProgId": "ipsa",
-  "IsReadOnly": false,
-  "ShortLabel": "dicta",
-  "TabOrder": 696,
-  "TextLength": 214,
-  "Tooltip": "explicabo",
-  "UdefIdentity": 438,
-  "UDListDefinitionId": 962,
+  "Page1LineNo": 503,
+  "ProgId": "et",
+  "IsReadOnly": true,
+  "ShortLabel": "similique",
+  "TabOrder": 858,
+  "TextLength": 650,
+  "Tooltip": "quas",
+  "UdefIdentity": 228,
+  "UDListDefinitionId": 638,
   "Justification": "Center",
-  "Version": 921,
-  "TemplateVariableName": "Lesch Inc and Sons",
-  "HasBeenPublished": false,
-  "MdoListName": "Jewess Group",
+  "Version": 563,
+  "TemplateVariableName": "Leannon-Braun",
+  "HasBeenPublished": true,
+  "MdoListName": "Kuvalis LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 744
+      "FieldLength": 27
     }
   }
 }

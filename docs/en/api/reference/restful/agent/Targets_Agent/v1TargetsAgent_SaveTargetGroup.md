@@ -77,24 +77,24 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 467,
-  "Year": 822,
+  "TargetGroupId": 214,
+  "Year": 693,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 381,
+      "TargetAssignmentInfoId": 531,
       "Values": [
-        795,
-        964
+        541,
+        83
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 136,
-      "DimensionListItemDisplayName": "Hickle-Batz"
+      "DimensionListItem": 49,
+      "DimensionListItemDisplayName": "Walsh, Davis and Goodwin"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 87,
-  "Year": 730,
+  "TargetGroupId": 336,
+  "Year": 43,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 47,
+      "TargetAssignmentInfoId": 52,
       "Values": [
-        556,
-        348
+        1001,
+        926
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 290,
-      "DimensionListItemDisplayName": "Halvorson, Schowalter and Collins",
+      "DimensionListItem": 218,
+      "DimensionListItemDisplayName": "Mueller, Fahey and Greenholt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 363
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 838
+      "FieldLength": 357
     }
   }
 }

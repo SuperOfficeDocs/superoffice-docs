@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 892,
-  "PersonName": "Stehr Group",
+  "ContactId": 650,
+  "PersonName": "Jacobson Group",
   "PhoneNumbers": [
-    "953014",
-    "1181588"
+    "786203",
+    "804676"
   ],
   "Emails": [
-    "bruce@huels.biz",
-    "judge_langworth@runolfssonorn.ca"
+    "juvenal@zieme.name",
+    "nat_steuber@kozey.us"
   ]
 }
 ```
@@ -104,13 +104,13 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Person": null,
-  "PersonCreated": true,
+  "PersonCreated": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 507
+      "FieldLength": 340
     }
   }
 }

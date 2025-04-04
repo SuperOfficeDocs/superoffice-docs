@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/Sale/GetSalesFromContact
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 118,
+  "ContactId": 484,
   "OnlyOpenSales": true
 }
 ```
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Herman-Heaney",
-    "SaleDate": "2011-03-16T14:28:22.3678792+01:00",
-    "SaleId": 535,
-    "Probability": 607,
-    "Title": "iste",
-    "Amount": 7856.938,
-    "Currency": "non",
-    "ProjectName": "Bode-Feest",
-    "AssociateFullName": "Mellie Lessie Botsford Jr.",
-    "Description": "Self-enabling systematic frame",
+    "ContactName": "Conroy, Hauck and Stark",
+    "SaleDate": "2020-05-14T13:14:01.1274981+02:00",
+    "SaleId": 456,
+    "Probability": 374,
+    "Title": "eligendi",
+    "Amount": 29738.525999999998,
+    "Currency": "fugiat",
+    "ProjectName": "Turcotte-Thompson",
+    "AssociateFullName": "Jesus Hermann",
+    "Description": "Compatible object-oriented conglomeration",
     "Status": "Lost",
-    "WeightedAmount": 16152.635999999999,
-    "ProjectId": 742,
-    "EarningPercent": 27087.162,
-    "Earning": 22079.03,
-    "ContactId": 929,
-    "AssociateId": 485,
-    "PersonId": 822,
-    "SaleTypeId": 201,
-    "SaleTypeName": "Anderson-Reichel",
-    "PersonFullName": "Aylin Johns",
+    "WeightedAmount": 11241.658,
+    "ProjectId": 335,
+    "EarningPercent": 14128.072,
+    "Earning": 23752.586,
+    "ContactId": 49,
+    "AssociateId": 284,
+    "PersonId": 116,
+    "SaleTypeId": 459,
+    "SaleTypeName": "Klein, Hegmann and Turner",
+    "PersonFullName": "Prof. Rodrick Daniel DVM",
     "Completed": "Completed",
-    "ActiveErpLinks": 926,
-    "NextDueDate": "2008-07-14T14:28:22.3678792+02:00",
-    "Number": "1011030",
+    "ActiveErpLinks": 957,
+    "NextDueDate": "2007-11-22T13:14:01.1274981+01:00",
+    "Number": "867933",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 686
+        "FieldType": "System.String",
+        "FieldLength": 793
       }
     }
   }

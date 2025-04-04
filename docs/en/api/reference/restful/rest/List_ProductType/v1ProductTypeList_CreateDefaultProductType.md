@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 260,
-  "Name": "Kulas, Jones and Macejkovic",
-  "Tooltip": "consequatur",
-  "Deleted": true,
-  "UdListDefinitionId": 331,
-  "Rank": 93,
+  "Id": 423,
+  "Name": "Reilly, Schamberger and Ullrich",
+  "Tooltip": "quidem",
+  "Deleted": false,
+  "UdListDefinitionId": 577,
+  "Rank": 295,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 152
+      "FieldType": "System.Int32",
+      "FieldLength": 507
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 207,
-    "Name": "Leffler-Hintz",
-    "ToolTip": "Necessitatibus sunt veritatis facilis error a.",
+    "Id": 226,
+    "Name": "Hermiston, Cremin and Funk",
+    "ToolTip": "Alias rerum minus vel distinctio a autem.",
     "Deleted": false,
-    "Rank": 553,
-    "Type": "aut",
-    "ColorBlock": 958,
-    "IconHint": "aut",
+    "Rank": 677,
+    "Type": "qui",
+    "ColorBlock": 89,
+    "IconHint": "ratione",
     "Selected": false,
-    "LastChanged": "2003-12-27T14:28:27.4926717+01:00",
+    "LastChanged": "2021-03-22T13:14:09.6503912+01:00",
     "ChildItems": [
       {
-        "Id": 867,
-        "Name": "Botsford, Crist and Hoppe",
-        "ToolTip": "Fuga ut.",
+        "Id": 61,
+        "Name": "Lesch-Quigley",
+        "ToolTip": "Autem labore saepe cum.",
         "Deleted": false,
-        "Rank": 812,
-        "Type": "sed",
-        "ColorBlock": 809,
-        "IconHint": "magnam",
-        "Selected": true,
-        "LastChanged": "2010-07-05T14:28:27.4926717+02:00",
+        "Rank": 720,
+        "Type": "quia",
+        "ColorBlock": 357,
+        "IconHint": "unde",
+        "Selected": false,
+        "LastChanged": "1999-08-29T13:14:09.6503912+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sit",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Virginia Roberts",
+        "ExtraInfo": "est",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Keith Raynor",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 491
+            "FieldType": "System.Int32",
+            "FieldLength": 616
           }
         }
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "ut",
+    "ExtraInfo": "enim",
+    "StyleHint": "nostrum",
     "Hidden": false,
-    "FullName": "Millie Herzog",
+    "FullName": "Prof. Samir Nina Beahan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 51
+        "FieldType": "System.String",
+        "FieldLength": 829
       }
     }
   }

@@ -102,7 +102,7 @@ PersonEntity found.
 GET /api/v1/Person/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -112,53 +112,53 @@ HTTP/1.1 200 PersonEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Position": "voluptates",
-  "PersonId": 985,
-  "Mrmrs": "sed",
-  "Firstname": "Eunice",
-  "Lastname": "Lueilwitz",
-  "MiddleName": "Feest LLC",
-  "Title": "nobis",
-  "Description": "Multi-tiered full-range interface",
-  "Email": "geovanny_schumm@corkery.info",
-  "FullName": "Prof. Hester McCullough",
-  "DirectPhone": "775.007.9311 x45638",
-  "FormalName": "Muller-Metz",
-  "CountryId": 354,
-  "ContactId": 858,
-  "ContactName": "O'Reilly, Champlin and O'Connell",
-  "Retired": 453,
-  "Rank": 905,
-  "ActiveInterests": 351,
+  "Position": "veritatis",
+  "PersonId": 206,
+  "Mrmrs": "et",
+  "Firstname": "Efrain",
+  "Lastname": "Pacocha",
+  "MiddleName": "Heaney LLC",
+  "Title": "quasi",
+  "Description": "Automated client-driven application",
+  "Email": "margarett.crist@larkindavis.info",
+  "FullName": "Michelle Smith",
+  "DirectPhone": "(768)330-8378 x36605",
+  "FormalName": "Auer-Hills",
+  "CountryId": 125,
+  "ContactId": 619,
+  "ContactName": "Wilderman, Hagenes and Kautzer",
+  "Retired": 684,
+  "Rank": 749,
+  "ActiveInterests": 300,
   "ContactDepartment": "",
-  "ContactCountryId": 258,
-  "ContactOrgNr": "1479113",
-  "FaxPhone": "193-786-3455 x756",
-  "MobilePhone": "1-893-603-8347 x28845",
-  "ContactPhone": "(233)590-6671 x434",
-  "AssociateName": "Schaden Inc and Sons",
-  "AssociateId": 509,
-  "UsePersonAddress": false,
-  "ContactFax": "asperiores",
-  "Kanafname": "aspernatur",
-  "Kanalname": "perferendis",
-  "Post1": "cupiditate",
-  "Post2": "hic",
-  "Post3": "itaque",
-  "EmailName": "norma@denesik.us",
-  "ContactFullName": "Loma Halvorson III",
-  "ActiveErpLinks": 377,
-  "TicketPriorityId": 888,
-  "SupportLanguageId": 881,
-  "SupportAssociateId": 400,
+  "ContactCountryId": 982,
+  "ContactOrgNr": "1011084",
+  "FaxPhone": "705-047-8991 x476",
+  "MobilePhone": "(308)397-4377 x49809",
+  "ContactPhone": "461.535.3905",
+  "AssociateName": "Dietrich, Leffler and Champlin",
+  "AssociateId": 58,
+  "UsePersonAddress": true,
+  "ContactFax": "sed",
+  "Kanafname": "assumenda",
+  "Kanalname": "perspiciatis",
+  "Post1": "numquam",
+  "Post2": "dignissimos",
+  "Post3": "voluptas",
+  "EmailName": "donato.bosco@sporerjewess.info",
+  "ContactFullName": "Dr. Alexie Bergstrom Sr.",
+  "ActiveErpLinks": 541,
+  "TicketPriorityId": 524,
+  "SupportLanguageId": 428,
+  "SupportAssociateId": 961,
   "CategoryName": "VIP Customer",
-  "PersonNumber": "631489",
+  "PersonNumber": "1230106",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 63
+      "FieldType": "System.String",
+      "FieldLength": 317
     }
   }
 }

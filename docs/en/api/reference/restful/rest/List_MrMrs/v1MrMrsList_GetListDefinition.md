@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/MrMrs
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 345,
-  "Name": "Romaguera LLC",
-  "Tooltip": "laudantium",
-  "Deleted": false,
-  "Rank": 237,
-  "IsCustomList": false,
-  "IsMDOList": true,
+  "Id": 98,
+  "Name": "Kilback LLC",
+  "Tooltip": "voluptate",
+  "Deleted": true,
+  "Rank": 456,
+  "IsCustomList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "sunt",
+  "ListType": "ad",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldLength": 771
     }
   },
   "_Links": {

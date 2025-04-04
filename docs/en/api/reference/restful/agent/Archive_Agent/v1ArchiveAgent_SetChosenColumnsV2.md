@@ -70,17 +70,17 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumnsV2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Braun, Wilkinson and Fahey",
-  "ProviderName": "Christiansen, Rolfson and Boyle",
-  "Context": "est",
-  "OwnerKeys": "laboriosam",
+  "GuiName": "O'Kon Inc and Sons",
+  "ProviderName": "Collier Group",
+  "Context": "temporibus",
+  "OwnerKeys": "est",
   "ChosenColumns": [
-    "consequuntur",
-    "eius"
+    "voluptas",
+    "aspernatur"
   ]
 }
 ```

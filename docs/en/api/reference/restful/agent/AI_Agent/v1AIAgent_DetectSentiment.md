@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/AI/DetectSentiment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Text": "quaerat"
+  "Text": "blanditiis"
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Score": 856,
-  "Confidence": 688,
+  "Score": 817,
+  "Confidence": 699,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 934
+      "FieldLength": 243
     }
   }
 }

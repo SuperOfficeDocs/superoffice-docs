@@ -109,7 +109,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 831
+  "ChatSessionId": 789
 }
 ```
 
@@ -120,43 +120,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 439,
-  "TopicId": 843,
+  "ChatSessionId": 113,
+  "TopicId": 982,
   "User": null,
   "Person": null,
-  "CustomerAlias": "rerum",
-  "CustomerHost": "explicabo",
-  "CustomerName": "D'Amore Group",
-  "CustomerEmail": "hallie.cremin@white.co.uk",
-  "CustomerPhone": "(004)679-3154 x50526",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Daugherty, Graham and Effertz",
+  "CustomerAlias": "soluta",
+  "CustomerHost": "sapiente",
+  "CustomerName": "Dicki, Zemlak and Conroy",
+  "CustomerEmail": "delfina_batz@bogan.us",
+  "CustomerPhone": "675.521.7267 x758",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Cruickshank-Mosciski",
   "Status": "Closed",
-  "FirstMessage": "alias",
-  "LastMessage": "est",
-  "WhenRequested": "2000-09-15T14:28:21.555412+02:00",
-  "WhenStarted": "2020-12-27T14:28:21.555412+01:00",
-  "WhenEnded": "2015-02-18T14:28:21.555412+01:00",
-  "WhenIdle": "2014-07-24T14:28:21.555412+02:00",
-  "WhenFetched": "2012-11-22T14:28:21.555412+01:00",
-  "SessionKey": "iste",
-  "InitialQueuePos": 283,
-  "AlertLevel": 28,
-  "Rank": 197,
+  "FirstMessage": "vel",
+  "LastMessage": "ut",
+  "WhenRequested": "2023-07-13T13:13:59.6569358+02:00",
+  "WhenStarted": "2022-02-14T13:13:59.6569358+01:00",
+  "WhenEnded": "2006-07-04T13:13:59.6569358+02:00",
+  "WhenIdle": "2025-02-01T13:13:59.6569358+01:00",
+  "WhenFetched": "2020-10-03T13:13:59.6569358+02:00",
+  "SessionKey": "error",
+  "InitialQueuePos": 312,
+  "AlertLevel": 55,
+  "Rank": 619,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 11,
+  "ChatbotIsActive": false,
+  "Rating": 411,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldLength": 671
     }
   }
 }

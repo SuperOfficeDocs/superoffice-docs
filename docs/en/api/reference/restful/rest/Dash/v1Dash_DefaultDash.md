@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 636,
-  "UniqueId": "debitis",
-  "Name": "Hermiston, Towne and Renner",
-  "Description": "Object-based even-keeled groupware",
-  "AssociateId": 928,
-  "Columns": 198,
+  "DashboardId": 702,
+  "UniqueId": "neque",
+  "Name": "Hyatt-D'Amore",
+  "Description": "Expanded exuding emulation",
+  "AssociateId": 646,
+  "Columns": 185,
   "Theme": null,
-  "VisibleForAll": 714,
+  "VisibleForAll": 769,
   "VisibleForAssociates": [
-    264,
-    871
+    290,
+    835
   ],
   "VisibleForGroups": [
-    294,
-    366
+    283,
+    145
   ],
-  "PinForAll": 127,
+  "PinForAll": 369,
   "PinForAssociates": [
-    102,
-    817
+    358,
+    676
   ],
   "PinForGroups": [
-    914,
-    111
+    585,
+    252
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 682
+      "FieldLength": 934
     }
   }
 }

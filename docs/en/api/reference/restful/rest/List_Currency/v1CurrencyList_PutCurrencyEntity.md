@@ -82,17 +82,17 @@ OK
 PUT /api/v1/List/Currency/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 501,
-  "Name": "Walsh, Runte and Greenholt",
-  "Tooltip": "eligendi",
-  "Rank": 627,
-  "Rate": 22194.987999999998,
-  "Units": 9953.5839999999989,
-  "Deleted": true
+  "CurrencyId": 852,
+  "Name": "Schulist, Thompson and Muller",
+  "Tooltip": "accusamus",
+  "Rank": 693,
+  "Rate": 4042.8599999999997,
+  "Units": 6014.146,
+  "Deleted": false
 }
 ```
 
@@ -103,19 +103,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 162,
-  "Name": "Trantow, Schamberger and Schumm",
-  "Tooltip": "minima",
-  "Rank": 228,
-  "Rate": 6571.998,
-  "Units": 25401.07,
-  "Deleted": false,
+  "CurrencyId": 55,
+  "Name": "Bashirian, Barrows and Purdy",
+  "Tooltip": "ut",
+  "Rank": 310,
+  "Rate": 25545.234,
+  "Units": 24833.816,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 94
+      "FieldLength": 231
     }
   }
 }

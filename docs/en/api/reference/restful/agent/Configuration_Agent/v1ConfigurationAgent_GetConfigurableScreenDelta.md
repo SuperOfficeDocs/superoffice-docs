@@ -26,7 +26,7 @@ Gets a ConfigurableScreenDelta object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=174
+POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?configurableScreenDeltaId=67
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Configuration/GetConfigurableScreenDelta
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,28 +89,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConfigurableScreenDeltaId": 450,
-  "Name": "Kovacek-Christiansen",
-  "Description": "Open-source exuding encoding",
-  "DeltaJson": "aliquid",
+  "ConfigurableScreenDeltaId": 739,
+  "Name": "Leuschke LLC",
+  "Description": "Object-based transitional methodology",
+  "DeltaJson": "quia",
   "DeltaType": "CustomFields",
   "DeltaState": "Draft",
-  "RecipeId": "eaque",
-  "UpdatedDate": "2000-02-16T14:28:21.5866608+01:00",
-  "CreatedDate": "2008-02-03T14:28:21.5866608+01:00",
+  "RecipeId": "nihil",
+  "UpdatedDate": "2005-02-27T13:13:59.7038141+01:00",
+  "CreatedDate": "2001-02-08T13:13:59.7038141+01:00",
   "UpdatedBy": null,
   "CreatedBy": null,
   "AppliesToIds": [
-    624,
-    356
+    548,
+    757
   ],
-  "AppliesToKey": "nesciunt",
+  "AppliesToKey": "dolor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldType": "System.String",
+      "FieldLength": 517
     }
   }
 }

@@ -99,11 +99,11 @@ OK
 POST /api/v1/Agents/User/GetUserFromName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserName": "Corwin Group"
+  "UserName": "Smith, Cole and Medhurst"
 }
 ```
 
@@ -114,14 +114,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 62,
-  "Name": "Mosciski LLC",
-  "Rank": 735,
-  "Tooltip": "ad",
+  "AssociateId": 132,
+  "Name": "McClure-Hodkiewicz",
+  "Rank": 175,
+  "Tooltip": "doloribus",
   "LicenseOwners": [
     {
-      "Name": "Lind Inc and Sons",
-      "Description": "Down-sized intangible concept",
+      "Name": "Heidenreich, Pollich and Torp",
+      "Description": "Cloned stable core",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -134,14 +134,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldType": "System.String",
+          "FieldLength": 896
         }
       }
     },
     {
-      "Name": "Lind Inc and Sons",
-      "Description": "Down-sized intangible concept",
+      "Name": "Heidenreich, Pollich and Torp",
+      "Description": "Cloned stable core",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldType": "System.String",
+          "FieldLength": 896
         }
       }
     }
@@ -165,109 +165,109 @@ Content-Type: application/json; charset=utf-8
   "OtherGroups": [
     {
       "Value": "voluptatem",
-      "Tooltip": "eaque",
-      "Id": 36,
-      "Rank": 198,
-      "Deleted": true,
+      "Tooltip": "officia",
+      "Id": 26,
+      "Rank": 672,
+      "Deleted": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 699
+          "FieldLength": 560
         }
       }
     }
   ],
   "Person": null,
   "Deleted": true,
-  "Lastlogin": "2019-07-21T14:28:22.7116081+02:00",
-  "Lastlogout": "2012-07-31T14:28:22.7116081+02:00",
-  "EjUserId": 124,
-  "RequestSignature": "voluptatibus",
+  "Lastlogin": "2000-02-07T13:14:01.7225722+01:00",
+  "Lastlogout": "2005-09-16T13:14:01.7225722+02:00",
+  "EjUserId": 638,
+  "RequestSignature": "ipsum",
   "Type": "AnonymousAssociate",
   "IsPersonRetired": false,
   "IsOnTravel": false,
   "Credentials": [
     {
       "Type": null,
-      "Value": "eos",
-      "DisplayValue": "delectus",
+      "Value": "et",
+      "DisplayValue": "cumque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldType": "System.String",
+          "FieldLength": 797
         }
       }
     },
     {
       "Type": null,
-      "Value": "eos",
-      "DisplayValue": "delectus",
+      "Value": "et",
+      "DisplayValue": "cumque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 676
+          "FieldType": "System.String",
+          "FieldLength": 797
         }
       }
     }
   ],
-  "UserName": "Flatley-Heathcote",
+  "UserName": "Brakus-Hintz",
   "TicketCategories": [
     {
-      "Id": 702,
-      "Name": "Cassin Inc and Sons",
-      "ToolTip": "Itaque quis id aut aut ea.",
+      "Id": 763,
+      "Name": "Kessler LLC",
+      "ToolTip": "Voluptatem a occaecati iure animi.",
       "Deleted": false,
-      "Rank": 245,
-      "Type": "sequi",
+      "Rank": 886,
+      "Type": "alias",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "cum",
-      "ColorBlock": 999,
-      "ExtraInfo": "temporibus",
-      "StyleHint": "a",
-      "FullName": "Dan Mafalda Simonis PhD",
+      "IconHint": "inventore",
+      "ColorBlock": 531,
+      "ExtraInfo": "quidem",
+      "StyleHint": "ea",
+      "FullName": "Lesley Oswaldo Jast Sr.",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 492
+          "FieldLength": 127
         }
       }
     }
   ],
-  "NickName": "Kreiger LLC",
+  "NickName": "Shields, Labadie and Carter",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "accusamus",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "aliquam",
+    "ExtraFields2": "et"
   },
   "CustomFields": {
-    "CustomFields1": "atque",
-    "CustomFields2": "perferendis"
+    "CustomFields1": "itaque",
+    "CustomFields2": "voluptatem"
   },
   "PostSaveCommands": [
     {
-      "Name": "Hamill, Kertzmann and Larkin",
-      "DisplayName": "Wilkinson-Schneider",
-      "Description": "Switchable actuating application",
-      "ToolTip": "Culpa et recusandae aut.",
+      "Name": "Wisozk-Beier",
+      "DisplayName": "Johns-Bogan",
+      "Description": "Cloned high-level matrices",
+      "ToolTip": "Sequi ipsam impedit laborum mollitia.",
       "Actions": "Implicit",
-      "ActionData": "et",
+      "ActionData": "aut",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 572
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 339
+      "FieldType": "System.String",
+      "FieldLength": 852
     }
   }
 }

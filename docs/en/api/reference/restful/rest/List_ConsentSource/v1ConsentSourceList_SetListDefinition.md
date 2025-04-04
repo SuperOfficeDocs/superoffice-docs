@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 688,
-  "Name": "Nolan Group",
-  "Tooltip": "quidem",
-  "Deleted": true,
-  "Rank": 32,
-  "IsCustomList": false,
+  "Id": 647,
+  "Name": "Marquardt LLC",
+  "Tooltip": "tenetur",
+  "Deleted": false,
+  "Rank": 942,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "fugit",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 264,
-  "Name": "Gulgowski LLC",
-  "Tooltip": "quod",
-  "Deleted": false,
-  "Rank": 861,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "qui",
-  "InUseByUserDefinedFields": true,
+  "Id": 274,
+  "Name": "Dickens Inc and Sons",
+  "Tooltip": "quidem",
+  "Deleted": true,
+  "Rank": 129,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "dolor",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 870
+      "FieldLength": 250
     }
   }
 }

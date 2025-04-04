@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 933,
-  "Name": "Schmitt-Dietrich",
-  "Tooltip": "enim",
+  "HeadingId": 693,
+  "Name": "Stamm, Bahringer and Torphy",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 418,
-  "UdListDefinitionId": 120
+  "Rank": 578,
+  "UdListDefinitionId": 380
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 756,
-  "Name": "Gutkowski LLC",
-  "Tooltip": "molestiae",
+  "HeadingId": 247,
+  "Name": "Bosco-Hegmann",
+  "Tooltip": "eos",
   "Deleted": false,
-  "Rank": 304,
-  "UdListDefinitionId": 205,
+  "Rank": 471,
+  "UdListDefinitionId": 935,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 762
+      "FieldType": "System.String",
+      "FieldLength": 36
     }
   }
 }

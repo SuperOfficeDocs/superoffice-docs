@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ea",
+    "path": "provident",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ea",
+    "path": "provident",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 279,
-  "Name": "Glover-Kohler",
+  "WebhookId": 798,
+  "Name": "McGlynn, VonRueden and Hirthe",
   "Events": [
-    "consectetur",
-    "ut"
+    "ut",
+    "sit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "eum",
+  "Secret": "quod",
   "State": "Active",
-  "Type": "pariatur",
+  "Type": "sint",
   "Headers": {
-    "Headers1": "nihil",
-    "Headers2": "consequatur"
+    "Headers1": "eligendi",
+    "Headers2": "repellat"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2017-12-05T14:28:27.4614236+01:00",
+  "Registered": "2019-03-11T13:14:09.5717594+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2013-10-31T14:28:27.4614236+01:00",
+  "Updated": "2019-01-14T13:14:09.5717594+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "euna.krajcik@rice.us",
+  "ErrorsEmail": "andy@labadie.us",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

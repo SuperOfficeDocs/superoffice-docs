@@ -107,32 +107,32 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 945,
-  "Name": "Veum-Champlin",
-  "Tooltip": "et",
+  "WebPanelId": 279,
+  "Name": "Sawayn, Baumbach and Bechtelar",
+  "Tooltip": "nam",
   "Deleted": true,
-  "Rank": 20,
+  "Rank": 952,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": true,
-  "ShowInStatusBar": false,
-  "WindowName": "Cruickshank, Prosacco and Batz",
+  "ShowInToolBar": true,
+  "ShowInAddressBar": false,
+  "ShowInStatusBar": true,
+  "WindowName": "Nader-Breitenberg",
   "Url": "http://www.example.com/",
-  "ProgId": "laudantium",
-  "Icon": 177,
+  "ProgId": "vitae",
+  "Icon": 524,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": false
+  "NeverReloadOnCurrentChange": true
 }
 ```
 
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 64,
-  "Name": "Vandervort-Bergstrom",
-  "Tooltip": "quam",
-  "Deleted": false,
-  "Rank": 829,
+  "WebPanelId": 221,
+  "Name": "Moen-Prosacco",
+  "Tooltip": "voluptatem",
+  "Deleted": true,
+  "Rank": 737,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Jast, Oberbrunner and Kshlerin",
+  "WindowName": "Parker-Olson",
   "Url": "http://www.example.com/",
-  "ProgId": "iste",
-  "Icon": 437,
-  "AlwaysReloadOnShow": false,
+  "ProgId": "neque",
+  "Icon": 604,
+  "AlwaysReloadOnShow": true,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 212
+      "FieldType": "System.String",
+      "FieldLength": 381
     }
   }
 }

@@ -114,28 +114,28 @@ ContactRelationEntity updated.
 PUT /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 878,
-  "SourcePersonId": 350,
-  "DestinationContactId": 335,
-  "DestinationPersonId": 879,
-  "RelationId": 150,
-  "Comment": "maiores",
-  "RelationDefinitionId": 524,
-  "Reversed": 922,
-  "UpdatedDate": "2005-04-01T14:28:26.8676969+02:00",
-  "CreatedDate": "2019-11-02T14:28:26.8676969+01:00",
+  "SourceContactId": 71,
+  "SourcePersonId": 368,
+  "DestinationContactId": 969,
+  "DestinationPersonId": 827,
+  "RelationId": 19,
+  "Comment": "dicta",
+  "RelationDefinitionId": 475,
+  "Reversed": 551,
+  "UpdatedDate": "2014-08-21T13:14:08.6178742+02:00",
+  "CreatedDate": "2015-05-29T13:14:08.6178742+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Effertz LLC",
-  "SourcePersonName": "Zieme-Schaefer",
-  "DestinationContactName": "Reichert, O'Reilly and Tillman",
-  "DestinationPersonName": "Johnston-Nitzsche",
-  "ActiveText": "voluptate",
-  "PassiveText": "quis"
+  "SourceContactName": "Boyer-Emard",
+  "SourcePersonName": "Zemlak Group",
+  "DestinationContactName": "Brekke-O'Reilly",
+  "DestinationPersonName": "Vandervort, Morar and Tromp",
+  "ActiveText": "facere",
+  "PassiveText": "sint"
 }
 ```
 
@@ -146,35 +146,35 @@ HTTP/1.1 200 ContactRelationEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 752,
-  "SourcePersonId": 995,
-  "DestinationContactId": 436,
-  "DestinationPersonId": 265,
-  "RelationId": 8,
-  "Comment": "nisi",
-  "RelationDefinitionId": 211,
-  "Reversed": 118,
-  "UpdatedDate": "2000-08-17T14:28:26.8676969+02:00",
-  "CreatedDate": "2012-03-24T14:28:26.8676969+01:00",
+  "SourceContactId": 740,
+  "SourcePersonId": 795,
+  "DestinationContactId": 862,
+  "DestinationPersonId": 551,
+  "RelationId": 617,
+  "Comment": "odio",
+  "RelationDefinitionId": 699,
+  "Reversed": 2,
+  "UpdatedDate": "2016-10-07T13:14:08.6178742+02:00",
+  "CreatedDate": "2013-10-06T13:14:08.6178742+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Anderson, Zieme and Jones",
-  "SourcePersonName": "Koss Group",
-  "DestinationContactName": "Mann-Mann",
-  "DestinationPersonName": "Jewess LLC",
-  "ActiveText": "impedit",
-  "PassiveText": "vitae",
+  "SourceContactName": "Kuhic Inc and Sons",
+  "SourcePersonName": "Hickle Group",
+  "DestinationContactName": "Koch-Rogahn",
+  "DestinationPersonName": "Dicki, Kreiger and Hoppe",
+  "ActiveText": "voluptate",
+  "PassiveText": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 664
+      "FieldLength": 883
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

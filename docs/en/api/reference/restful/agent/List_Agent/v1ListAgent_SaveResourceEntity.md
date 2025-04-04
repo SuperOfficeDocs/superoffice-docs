@@ -79,13 +79,13 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 694,
-  "Name": "Jones Group",
-  "Rank": 167,
-  "Tooltip": "consequatur",
-  "Deleted": false,
+  "ResourceId": 319,
+  "Name": "Jerde, Nitzsche and Huel",
+  "Rank": 801,
+  "Tooltip": "in",
+  "Deleted": true,
   "IsLocation": true,
-  "LocationAddress": "consequatur"
+  "LocationAddress": "ut"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceId": 950,
-  "Name": "Zemlak-Von",
-  "Rank": 589,
-  "Tooltip": "et",
+  "ResourceId": 868,
+  "Name": "Bauch, Parker and Pollich",
+  "Rank": 89,
+  "Tooltip": "dolore",
   "Deleted": true,
   "IsLocation": false,
-  "LocationAddress": "ut",
+  "LocationAddress": "eos",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldLength": 618
     }
   }
 }

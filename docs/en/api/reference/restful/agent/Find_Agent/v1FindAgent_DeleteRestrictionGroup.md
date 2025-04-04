@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/DeleteRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "culpa",
-  "ProviderName": "O'Kon LLC",
+  "StorageType": "quis",
+  "ProviderName": "Aufderhar, Mann and Rempel",
   "StorageKey": "temporibus",
-  "Rank": 431,
-  "Context": "distinctio"
+  "Rank": 731,
+  "Context": "ut"
 }
 ```
 

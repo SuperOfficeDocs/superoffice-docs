@@ -86,11 +86,11 @@ OK
 POST /api/v1/Agents/EMail/GetEMailAccountFromEMailAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromAddress": "voluptates"
+  "FromAddress": "aliquam"
 }
 ```
 
@@ -101,24 +101,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 923,
-  "EMailAddress": "deleniti",
-  "AssociateId": 178,
+  "EMailAccountId": 51,
+  "EMailAddress": "possimus",
+  "AssociateId": 546,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 655,
-  "ErrorCount": 594,
+  "AccountStatus": 612,
+  "ErrorCount": 911,
   "ErrorReason": "",
-  "InboxFolder": "ab",
-  "SentFolder": "nisi",
-  "SimpleMode": 19,
-  "LastFetch": "2025-03-21T14:28:21.9303967+01:00",
+  "InboxFolder": "fugiat",
+  "SentFolder": "repellendus",
+  "SimpleMode": 109,
+  "LastFetch": "2023-05-11T13:14:00.32935+02:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 571
+      "FieldLength": 50
     }
   }
 }

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Name": "Ritchie, Nader and Little",
-    "ToolTip": "Temporibus dolorum consectetur iste ullam.",
+    "Id": 625,
+    "Name": "Lynch-Eichmann",
+    "ToolTip": "Rerum minima autem non sequi qui.",
     "Deleted": false,
-    "Rank": 748,
-    "Type": "at",
-    "ColorBlock": 549,
-    "IconHint": "qui",
-    "Selected": false,
-    "LastChanged": "2007-10-31T14:28:27.6020419+01:00",
+    "Rank": 245,
+    "Type": "rerum",
+    "ColorBlock": 369,
+    "IconHint": "porro",
+    "Selected": true,
+    "LastChanged": "2016-07-29T13:14:09.8535282+02:00",
     "ChildItems": [
       {
-        "Id": 247,
-        "Name": "Gutmann, Zieme and Abernathy",
-        "ToolTip": "Omnis accusamus tempora sunt.",
+        "Id": 524,
+        "Name": "Russel LLC",
+        "ToolTip": "Blanditiis necessitatibus.",
         "Deleted": false,
-        "Rank": 778,
-        "Type": "qui",
-        "ColorBlock": 917,
-        "IconHint": "et",
+        "Rank": 902,
+        "Type": "aperiam",
+        "ColorBlock": 295,
+        "IconHint": "repudiandae",
         "Selected": false,
-        "LastChanged": "2013-06-26T14:28:27.6020419+02:00",
+        "LastChanged": "2020-07-21T13:14:09.8535282+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "unde",
-        "StyleHint": "commodi",
-        "Hidden": true,
-        "FullName": "Prof. Rickey Brekke II"
+        "ExtraInfo": "doloribus",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Mrs. Gabriel Turcotte"
       }
     ],
-    "ExtraInfo": "odio",
-    "StyleHint": "est",
+    "ExtraInfo": "est",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Selmer Ferry"
+    "FullName": "Mr. Adriana Korbin Crist"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 346,
-    "Name": "Robel Inc and Sons",
-    "ToolTip": "Autem sit nostrum inventore.",
-    "Deleted": false,
-    "Rank": 46,
-    "Type": "quo",
-    "ColorBlock": 927,
-    "IconHint": "quia",
+    "Id": 145,
+    "Name": "Schuster-Koss",
+    "ToolTip": "Ipsam recusandae fuga facere qui sapiente.",
+    "Deleted": true,
+    "Rank": 247,
+    "Type": "qui",
+    "ColorBlock": 541,
+    "IconHint": "corrupti",
     "Selected": false,
-    "LastChanged": "2001-08-26T14:28:27.6020419+02:00",
+    "LastChanged": "2024-09-14T13:14:09.8691543+02:00",
     "ChildItems": [
       {
-        "Id": 453,
-        "Name": "Leffler, Gusikowski and Heidenreich",
-        "ToolTip": "Sed facere beatae fugiat dolorem aspernatur.",
-        "Deleted": false,
+        "Id": 310,
+        "Name": "Witting-Klein",
+        "ToolTip": "Mollitia facilis at illo libero voluptatem aliquam.",
+        "Deleted": true,
         "Rank": 547,
-        "Type": "quia",
-        "ColorBlock": 991,
-        "IconHint": "sunt",
-        "Selected": true,
-        "LastChanged": "2005-10-25T14:28:27.6020419+02:00",
+        "Type": "sit",
+        "ColorBlock": 975,
+        "IconHint": "repellendus",
+        "Selected": false,
+        "LastChanged": "2002-05-17T13:14:09.8691543+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "sequi",
-        "Hidden": false,
-        "FullName": "Cyrus Runolfsdottir I",
+        "ExtraInfo": "aliquid",
+        "StyleHint": "magni",
+        "Hidden": true,
+        "FullName": "Lucious West",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 590
+            "FieldType": "System.String",
+            "FieldLength": 752
           }
         }
       }
     ],
-    "ExtraInfo": "doloribus",
-    "StyleHint": "ea",
+    "ExtraInfo": "rerum",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Ofelia Koss IV",
+    "FullName": "Taurean Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 876
+        "FieldType": "System.Int32",
+        "FieldLength": 754
       }
     }
   }

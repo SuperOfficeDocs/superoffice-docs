@@ -31,7 +31,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/QuoteConnector?$select=filename,assemblyName,location
+GET /api/v1/archive/QuoteConnector?$select=assemblyName,location
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

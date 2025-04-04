@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 876,
-    "Name": "Kuphal-Stanton",
-    "ToolTip": "A sunt ipsa molestiae eveniet quibusdam atque totam.",
-    "Deleted": true,
-    "Rank": 526,
-    "Type": "excepturi",
+    "Id": 46,
+    "Name": "Wintheiser, Lueilwitz and Ankunding",
+    "ToolTip": "Soluta asperiores et rerum eum alias.",
+    "Deleted": false,
+    "Rank": 57,
+    "Type": "laborum",
     "ChildItems": [
       {
-        "Id": 542,
-        "Name": "Franecki Inc and Sons",
-        "ToolTip": "Perferendis non et qui est est.",
+        "Id": 226,
+        "Name": "Shanahan, Huel and Wintheiser",
+        "ToolTip": "Ut ducimus hic dolorem et nisi et voluptatem.",
         "Deleted": true,
-        "Rank": 869,
-        "Type": "saepe",
+        "Rank": 377,
+        "Type": "qui",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 418,
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "rerum",
-        "FullName": "Arlie Breitenberg",
+        "IconHint": "ut",
+        "ColorBlock": 94,
+        "ExtraInfo": "accusantium",
+        "StyleHint": "iure",
+        "FullName": "Vickie Grant",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 127
+            "FieldLength": 526
           }
         }
       }
     ],
-    "IconHint": "accusamus",
-    "ColorBlock": 576,
+    "IconHint": "quos",
+    "ColorBlock": 785,
     "ExtraInfo": "est",
-    "StyleHint": "non",
-    "FullName": "Mrs. Nina Letitia Becker DVM",
+    "StyleHint": "inventore",
+    "FullName": "Dr. Manuela Medhurst",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 426
+        "FieldLength": 980
       }
     }
   }

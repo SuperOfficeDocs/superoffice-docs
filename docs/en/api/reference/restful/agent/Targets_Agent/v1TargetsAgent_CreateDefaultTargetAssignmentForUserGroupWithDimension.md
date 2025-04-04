@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 702,
-  "TargetDimensionId": 223
+  "UserGroupId": 313,
+  "TargetDimensionId": 939
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 521,
+    "TargetAssignmentInfoId": 634,
     "Values": [
-      162,
-      576
+      673,
+      957
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 629,
-    "DimensionListItemDisplayName": "Prosacco, Leannon and Gerhold",
+    "DimensionListItem": 52,
+    "DimensionListItemDisplayName": "Sauer-Brakus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 195
+        "FieldLength": 707
       }
     }
   }

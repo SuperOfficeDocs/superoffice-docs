@@ -67,7 +67,7 @@ OK
 PUT /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 961,
-  "Name": "Tremblay Group",
-  "CreatedDate": "2014-04-09T14:28:26.9301945+02:00",
-  "UpdatedDate": "2012-02-03T14:28:26.9301945+01:00",
+  "ForeignAppId": 866,
+  "Name": "Waters Inc and Sons",
+  "CreatedDate": "2005-04-24T13:14:08.7428891+02:00",
+  "UpdatedDate": "1999-07-02T13:14:08.7428891+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 549,
-      "Name": "Botsford-Mayer",
-      "CreatedDate": "2001-03-01T14:28:26.9301945+01:00",
-      "UpdatedDate": "2019-03-12T14:28:26.9301945+01:00",
-      "AssociateFullName": "Fred Rau",
-      "CreatedBy": "quis",
-      "UpdatedBy": "cumque",
-      "DeviceIdentifier": "ea",
-      "ForeignAppId": 202,
+      "ForeignDeviceId": 930,
+      "Name": "Borer-Wiza",
+      "CreatedDate": "2012-10-21T13:14:08.7428891+02:00",
+      "UpdatedDate": "2017-02-28T13:14:08.7428891+01:00",
+      "AssociateFullName": "Haleigh Aufderhar",
+      "CreatedBy": "ut",
+      "UpdatedBy": "non",
+      "DeviceIdentifier": "quia",
+      "ForeignAppId": 876,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 147
+          "FieldType": "System.Int32",
+          "FieldLength": 461
         }
       }
     }
@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 672
+      "FieldLength": 581
     }
   }
 }

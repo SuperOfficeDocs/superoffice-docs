@@ -69,7 +69,7 @@ OK
 GET /api/v1/License/User/MdoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,56 +80,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 18,
-    "Name": "Lebsack-Price",
-    "ToolTip": "Repellat enim.",
+    "Id": 252,
+    "Name": "Wiegand-Jacobs",
+    "ToolTip": "Nemo quibusdam.",
     "Deleted": false,
-    "Rank": 766,
-    "Type": "dolorem",
-    "ColorBlock": 209,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "1998-05-31T14:28:27.3676769+02:00",
+    "Rank": 474,
+    "Type": "nam",
+    "ColorBlock": 824,
+    "IconHint": "quae",
+    "Selected": true,
+    "LastChanged": "2020-10-11T13:14:09.4154922+02:00",
     "ChildItems": [
       {
-        "Id": 935,
-        "Name": "Daniel Inc and Sons",
-        "ToolTip": "Repellat rem sint dolor quia.",
+        "Id": 929,
+        "Name": "Roberts Inc and Sons",
+        "ToolTip": "Laudantium sunt nostrum.",
         "Deleted": false,
-        "Rank": 724,
-        "Type": "amet",
-        "ColorBlock": 899,
-        "IconHint": "veritatis",
-        "Selected": true,
-        "LastChanged": "2020-03-07T14:28:27.3676769+01:00",
+        "Rank": 796,
+        "Type": "laborum",
+        "ColorBlock": 773,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2012-04-24T13:14:09.4154922+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odit",
-        "StyleHint": "dolore",
-        "Hidden": true,
-        "FullName": "Chasity Thiel",
+        "ExtraInfo": "rem",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Omari Bahringer",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 654
+            "FieldType": "System.Int32",
+            "FieldLength": 667
           }
         }
       }
     ],
-    "ExtraInfo": "accusamus",
-    "StyleHint": "ut",
+    "ExtraInfo": "sint",
+    "StyleHint": "vitae",
     "Hidden": true,
-    "FullName": "Adah Nitzsche",
+    "FullName": "Miss Lura Aaliyah Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 810
+        "FieldType": "System.String",
+        "FieldLength": 229
       }
     }
   }

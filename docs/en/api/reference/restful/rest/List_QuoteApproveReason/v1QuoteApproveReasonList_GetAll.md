@@ -25,7 +25,7 @@ Gets all the QuoteApproveReason items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/Items?includeDeleted=False
+GET /api/v1/List/QuoteApproveReason/Items?includeDeleted=True
 ```
 
 
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 825,
-    "Name": "Hauck Group",
-    "Tooltip": "perferendis",
-    "Deleted": false,
-    "UdListDefinitionId": 2,
-    "Rank": 715,
+    "Id": 768,
+    "Name": "Gutmann, Schiller and Skiles",
+    "Tooltip": "veniam",
+    "Deleted": true,
+    "UdListDefinitionId": 936,
+    "Rank": 96,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 948
+        "FieldType": "System.String",
+        "FieldLength": 852
       }
     }
   }

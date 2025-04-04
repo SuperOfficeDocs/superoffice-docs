@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/SaleType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 632,
-    "Name": "Bosco, Homenick and Kuvalis",
-    "ToolTip": "Sequi reprehenderit ipsum at illo.",
-    "Deleted": false,
-    "Rank": 420,
-    "Type": "mollitia",
-    "ColorBlock": 626,
-    "IconHint": "quia",
+    "Id": 308,
+    "Name": "D'Amore, Labadie and Schowalter",
+    "ToolTip": "Nihil suscipit culpa eum quibusdam nulla ut.",
+    "Deleted": true,
+    "Rank": 119,
+    "Type": "qui",
+    "ColorBlock": 701,
+    "IconHint": "explicabo",
     "Selected": false,
-    "LastChanged": "2024-12-11T14:28:27.6957886+01:00",
+    "LastChanged": "2019-01-17T13:14:10.0566655+01:00",
     "ChildItems": [
       {
-        "Id": 908,
-        "Name": "Gislason-Thiel",
-        "ToolTip": "Id molestias asperiores et laborum beatae veritatis reprehenderit.",
-        "Deleted": true,
-        "Rank": 68,
-        "Type": "sit",
-        "ColorBlock": 908,
-        "IconHint": "quia",
-        "Selected": false,
-        "LastChanged": "2022-01-18T14:28:27.6957886+01:00",
+        "Id": 138,
+        "Name": "Halvorson-Greenholt",
+        "ToolTip": "Eligendi expedita officiis voluptatem quisquam eos.",
+        "Deleted": false,
+        "Rank": 994,
+        "Type": "modi",
+        "ColorBlock": 172,
+        "IconHint": "amet",
+        "Selected": true,
+        "LastChanged": "2024-09-09T13:14:10.0566655+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "porro",
-        "StyleHint": "sunt",
-        "Hidden": false,
-        "FullName": "Abdul Wunsch",
+        "ExtraInfo": "qui",
+        "StyleHint": "aspernatur",
+        "Hidden": true,
+        "FullName": "Miss Lisette Jorge Adams V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 300
+            "FieldLength": 129
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "esse",
+    "ExtraInfo": "velit",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Ms. Merlin Kunze V",
+    "FullName": "Humberto D'Amore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 518
+        "FieldLength": 572
       }
     }
   }

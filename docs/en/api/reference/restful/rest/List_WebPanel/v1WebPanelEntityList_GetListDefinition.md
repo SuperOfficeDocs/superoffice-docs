@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/WebPanel
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 590,
-  "Name": "Breitenberg, Spinka and Dooley",
-  "Tooltip": "soluta",
-  "Deleted": false,
-  "Rank": 455,
+  "Id": 623,
+  "Name": "Wisozk Inc and Sons",
+  "Tooltip": "velit",
+  "Deleted": true,
+  "Rank": 530,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ex",
+  "ListType": "dolor",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 627
+      "FieldType": "System.String",
+      "FieldLength": 630
     }
   },
   "_Links": {

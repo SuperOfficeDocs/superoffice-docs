@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetTicketTypeList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,40 +99,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 732,
-    "Name": "Breitenberg-Lang",
-    "Rank": 753,
-    "Tooltip": "rem",
-    "Icon": "mollitia",
-    "DefaultTicketStatus": 518,
+    "TicketTypeId": 521,
+    "Name": "Jones Inc and Sons",
+    "Rank": 397,
+    "Tooltip": "rerum",
+    "Icon": "qui",
+    "DefaultTicketStatus": 96,
     "TicketStatuses": [
-      137,
-      884
+      458,
+      611
     ],
-    "DefaultTicketPriority": 180,
+    "DefaultTicketPriority": 413,
     "TicketPriorities": [
-      452,
-      606
+      13,
+      973
     ],
-    "ReplyTemplate": 965,
-    "IsExternalVisible": true,
-    "IsDefault": false,
+    "ReplyTemplate": 518,
+    "IsExternalVisible": false,
+    "IsDefault": true,
     "ShowInNew": false,
     "ExcludeSignature": false,
-    "ExcludeEmailRecipients": true,
+    "ExcludeEmailRecipients": false,
     "ExternalAsDefault": false,
     "VisibleForGroups": [
-      24,
-      178
+      70,
+      608
     ],
     "ReplyForwardNoSignature": false,
-    "ReplyExternalAsDefault": true,
+    "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldType": "System.Int32",
+        "FieldLength": 645
       }
     }
   }

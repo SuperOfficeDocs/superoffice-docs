@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionShadowMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 761,
+  "SelectionId": 609,
   "Select": "et"
 }
 ```
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Bernhard-Doyle",
-    "PrimaryKey": 274,
+    "EntityName": "Swaniawski LLC",
+    "PrimaryKey": 84,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "expedita",
-        "TooltipHint": "vel",
-        "LinkHint": "consequatur"
+        "DisplayValue": "ipsa",
+        "TooltipHint": "voluptas",
+        "LinkHint": "ratione"
       }
     },
-    "LinkHint": "aut",
-    "StyleHint": "omnis",
+    "LinkHint": "dolorum",
+    "StyleHint": "sapiente",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 727
+        "FieldType": "System.String",
+        "FieldLength": 425
       }
     }
   }

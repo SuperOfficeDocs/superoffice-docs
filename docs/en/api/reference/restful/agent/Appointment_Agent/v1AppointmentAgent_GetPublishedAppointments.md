@@ -126,13 +126,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    99,
-    772
+    947,
+    941
   ]
 }
 ```
@@ -145,66 +145,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 511,
-    "StartDate": "2001-07-09T14:28:21.1648024+02:00",
-    "EndDate": "2024-02-20T14:28:21.1648024+01:00",
+    "AppointmentId": 735,
+    "StartDate": "2020-12-30T13:13:59.1407181+01:00",
+    "EndDate": "2010-04-25T13:13:59.1407181+02:00",
     "Type": "BookingForChecklist",
-    "Task": "dicta",
-    "AssociateFullName": "Friedrich Herzog",
-    "ContactName": "Quigley, Parker and Rogahn",
-    "Description": "Inverse grid-enabled core",
-    "PersonFullName": "Percival Towne V",
-    "PersonId": 108,
-    "ContactId": 382,
-    "ProjectId": 778,
-    "ProjectName": "Stokes Group",
-    "IsPublished": true,
-    "AssociateId": 364,
-    "ColorIndex": 668,
+    "Task": "officia",
+    "AssociateFullName": "Gene Dolores Ebert DVM",
+    "ContactName": "Hettinger-Spinka",
+    "Description": "Distributed regional framework",
+    "PersonFullName": "Kane Osinski",
+    "PersonId": 118,
+    "ContactId": 983,
+    "ProjectId": 262,
+    "ProjectName": "Kerluke Group",
+    "IsPublished": false,
+    "AssociateId": 120,
+    "ColorIndex": 640,
     "IsFree": false,
-    "HasAlarm": true,
+    "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 479,
-    "PriorityName": "Langworth, Lowe and Volkman",
+    "PriorityId": 565,
+    "PriorityName": "Davis-Legros",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": false,
-    "IsBooking": true,
-    "ActiveDate": "2001-12-29T14:28:21.1648024+01:00",
+    "IsBookingMain": true,
+    "IsRecurrence": true,
+    "IsBooking": false,
+    "ActiveDate": "2013-06-30T13:13:59.1407181+02:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2009-09-26T14:28:21.1648024+02:00",
-    "RecurringEndDate": "2023-06-23T14:28:21.1648024+02:00",
-    "MotherId": 435,
-    "AssignedBy": 656,
-    "AssignedByFullName": "Efrain Corkery",
+    "RecurringStartDate": "2018-05-08T13:13:59.1407181+02:00",
+    "RecurringEndDate": "2008-07-25T13:13:59.1407181+02:00",
+    "MotherId": 476,
+    "AssignedBy": 573,
+    "AssignedByFullName": "Euna Krajcik",
     "RejectReason": "",
-    "Location": "et",
-    "AlarmLeadTime": "provident",
-    "SaleId": 504,
-    "SaleName": "Luettgen-Schimmel",
-    "AssociateName": "Nader-Stiedemann",
-    "CreatedDate": "2012-04-11T14:28:21.1648024+02:00",
-    "CreatedBy": "alias",
-    "CreatedByFullName": "Ms. Willie Dickinson",
-    "CreatedByAssociateId": 386,
+    "Location": "ut",
+    "AlarmLeadTime": "quibusdam",
+    "SaleId": 556,
+    "SaleName": "Nitzsche, Raynor and Moen",
+    "AssociateName": "Corkery Group",
+    "CreatedDate": "2017-09-13T13:13:59.1407181+02:00",
+    "CreatedBy": "est",
+    "CreatedByFullName": "Dusty Kuvalis V",
+    "CreatedByAssociateId": 857,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 49,
-    "Title": "cupiditate",
-    "Agenda": "dolorem",
-    "InternalNotes": "ratione",
+    "PreferredTZLocation": 656,
+    "Title": "ipsum",
+    "Agenda": "non",
+    "InternalNotes": "in",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 144
+        "FieldType": "System.Int32",
+        "FieldLength": 540
       }
     }
   }

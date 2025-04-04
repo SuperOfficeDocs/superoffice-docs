@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 88,
-  "Name": "Rice LLC",
-  "Tooltip": "aperiam",
-  "Deleted": false,
-  "UdListDefinitionId": 208,
-  "Rank": 42,
+  "Id": 402,
+  "Name": "Zemlak LLC",
+  "Tooltip": "soluta",
+  "Deleted": true,
+  "UdListDefinitionId": 333,
+  "Rank": 990,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 240
+      "FieldLength": 931
     }
   }
 }

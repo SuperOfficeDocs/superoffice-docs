@@ -99,7 +99,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Sanford-Nader",
+  "TaskName": "O'Reilly Group",
   "State": "All"
 }
 ```
@@ -112,36 +112,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 342,
-    "Name": "Crist-Gerlach",
-    "AssociateId": 221,
-    "DetailsTable": 43,
-    "DetailsRecord": 226,
+    "Id": 798,
+    "Name": "Schamberger-Conroy",
+    "AssociateId": 465,
+    "DetailsTable": 502,
+    "DetailsRecord": 625,
     "IsSystemTask": false,
-    "IsInternalTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "sunt",
-      "ParameterObject2": "provident"
+      "ParameterObject1": "soluta",
+      "ParameterObject2": "autem"
     },
-    "LastStarted": "2012-12-15T14:28:21.4929147+01:00",
-    "Created": "2008-04-04T14:28:21.4929147+02:00",
-    "StartCount": 809,
-    "DatabaseSerialNumber": "1337379",
-    "Context": "amet",
-    "Result": "qui",
+    "LastStarted": "2021-03-15T13:13:59.5314453+01:00",
+    "Created": "2023-01-03T13:13:59.5314453+01:00",
+    "StartCount": 824,
+    "DatabaseSerialNumber": "868019",
+    "Context": "vitae",
+    "Result": "commodi",
     "State": "All",
-    "Description": "Advanced clear-thinking parallelism",
-    "Response": "voluptates",
-    "Request": "neque",
-    "ProgressDescription": "Organized grid-enabled core",
-    "ProgressPercent": 673,
-    "FileName": "Kuphal, Daugherty and Kovacek",
+    "Description": "Cross-group systemic moderator",
+    "Response": "esse",
+    "Request": "nihil",
+    "ProgressDescription": "Progressive neutral emulation",
+    "ProgressPercent": 418,
+    "FileName": "Kihn, Sawayn and Mraz",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
+        "FieldType": "System.String",
         "FieldLength": 328
       }
     }

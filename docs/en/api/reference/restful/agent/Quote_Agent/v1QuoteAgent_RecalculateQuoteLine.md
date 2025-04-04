@@ -124,14 +124,14 @@ OK
 POST /api/v1/Agents/Quote/RecalculateQuoteLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLine": null,
   "ChangedFields": [
-    "dolorum",
-    "qui"
+    "possimus",
+    "totam"
   ]
 }
 ```
@@ -143,88 +143,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 676,
+  "QuoteLineId": 353,
   "ERPQuoteLineKey": "quia",
-  "QuoteAlternativeId": 916,
-  "ERPProductKey": "totam",
+  "QuoteAlternativeId": 925,
+  "ERPProductKey": "qui",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 25144.082,
-  "DeliveredQuantity": 10784.094,
-  "Rank": 273,
-  "Name": "Lueilwitz, Stehr and Bosco",
-  "Description": "Automated human-resource installation",
-  "Code": "omnis",
-  "QuantityUnit": "impedit",
-  "PriceUnit": "voluptatem",
-  "ItemNumber": "540881",
+  "Quantity": 31318.061999999998,
+  "DeliveredQuantity": 607.996,
+  "Rank": 96,
+  "Name": "Glover-D'Amore",
+  "Description": "Digitized object-oriented synergy",
+  "Code": "consequatur",
+  "QuantityUnit": "corrupti",
+  "PriceUnit": "nostrum",
+  "ItemNumber": "1134927",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nam",
-  "ProductTypeKey": "quo",
-  "Supplier": "ea",
-  "SupplierCode": "iusto",
-  "Thumbnail": "praesentium",
-  "VATInfo": "placeat",
-  "VAT": 10091.48,
-  "UnitCost": 23990.77,
-  "UnitMinimumPrice": 13861.681999999999,
-  "UnitListPrice": 1535.6599999999999,
+  "ProductFamilyKey": "veniam",
+  "ProductTypeKey": "repellendus",
+  "Supplier": "iusto",
+  "SupplierCode": "rerum",
+  "Thumbnail": "id",
+  "VATInfo": "expedita",
+  "VAT": 3306.37,
+  "UnitCost": 8070.05,
+  "UnitMinimumPrice": 4722.938,
+  "UnitListPrice": 14184.484,
   "ExtraInfo": [
     {
-      "Name": "Parisian LLC",
-      "Value": "consequatur",
+      "Name": "O'Hara LLC",
+      "Value": "amet",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 718
         }
       }
     },
     {
-      "Name": "Parisian LLC",
-      "Value": "consequatur",
+      "Name": "O'Hara LLC",
+      "Value": "amet",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 36
+          "FieldLength": 718
         }
       }
     }
   ],
-  "RawExtraInfo": "minima",
-  "IsSubscription": false,
-  "SubscriptionUnit": "voluptatibus",
-  "SubscriptionQuantity": 24940.372,
-  "SubscriptionStart": "2018-03-06T14:28:22.274133+01:00",
-  "ERPDiscountPercent": 17490.854,
-  "ERPDiscountAmount": 4418.94,
-  "DiscountPercent": 30434.273999999998,
-  "DiscountAmount": 17945.284,
+  "RawExtraInfo": "nobis",
+  "IsSubscription": true,
+  "SubscriptionUnit": "quo",
+  "SubscriptionQuantity": 15644.928,
+  "SubscriptionStart": "2020-03-30T13:14:00.9390342+02:00",
+  "ERPDiscountPercent": 24708.456,
+  "ERPDiscountAmount": 5001.864,
+  "DiscountPercent": 908.86,
+  "DiscountAmount": 8026.174,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 24119.264,
-  "EarningAmount": 9307.98,
-  "SubTotal": 921.396,
-  "TotalPrice": 8931.9,
-  "Rights": "autem",
-  "Rule": "sequi",
-  "ExtraField1": "natus",
-  "ExtraField2": "qui",
-  "ExtraField3": "et",
-  "ExtraField4": "est",
-  "ExtraField5": "eum",
+  "EarningPercent": 15735.814,
+  "EarningAmount": 19709.726,
+  "SubTotal": 28798.325999999997,
+  "TotalPrice": 3014.908,
+  "Rights": "qui",
+  "Rule": "impedit",
+  "ExtraField1": "dolorem",
+  "ExtraField2": "quia",
+  "ExtraField3": "asperiores",
+  "ExtraField4": "similique",
+  "ExtraField5": "deserunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 750
+      "FieldLength": 567
     }
   }
 }

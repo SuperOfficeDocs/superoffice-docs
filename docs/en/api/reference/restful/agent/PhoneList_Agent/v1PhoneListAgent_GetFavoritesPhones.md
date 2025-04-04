@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "741.071.0990 x8126",
-    "PersonCellPhone": "(137)437-7700",
-    "PersonPrivatePhone": "(539)199-6929 x142",
-    "PersonFaxNumber": "832052",
-    "PersonPagerNumber": "1424710",
-    "PersonEmail": "laney_hirthe@wildermanwolff.uk",
+    "PersonDirectPhone": "1-457-147-7138",
+    "PersonCellPhone": "003.969.6283",
+    "PersonPrivatePhone": "161-734-5026 x200",
+    "PersonFaxNumber": "1500013",
+    "PersonPagerNumber": "1574414",
+    "PersonEmail": "iliana_parker@huels.uk",
     "Id": 127,
-    "Name": "Dicki, Lang and Kub",
-    "Tooltip": "voluptas",
-    "UniqueId": "non",
+    "Name": "Bartell-McClure",
+    "Tooltip": "et",
+    "UniqueId": "neque",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 466
+        "FieldLength": 427
       }
     }
   }

@@ -86,40 +86,40 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TicketTypeId": 250,
-    "Name": "Kulas-Dickinson",
-    "Rank": 517,
-    "Tooltip": "velit",
-    "Icon": "eos",
-    "DefaultTicketStatus": 388,
+    "TicketTypeId": 165,
+    "Name": "Douglas Group",
+    "Rank": 149,
+    "Tooltip": "modi",
+    "Icon": "ea",
+    "DefaultTicketStatus": 979,
     "TicketStatuses": [
-      950,
-      310
+      420,
+      784
     ],
-    "DefaultTicketPriority": 533,
+    "DefaultTicketPriority": 316,
     "TicketPriorities": [
-      425,
-      947
+      922,
+      769
     ],
-    "ReplyTemplate": 932,
-    "IsExternalVisible": false,
+    "ReplyTemplate": 762,
+    "IsExternalVisible": true,
     "IsDefault": false,
     "ShowInNew": false,
     "ExcludeSignature": false,
     "ExcludeEmailRecipients": true,
-    "ExternalAsDefault": true,
+    "ExternalAsDefault": false,
     "VisibleForGroups": [
-      423,
-      503
+      708,
+      846
     ],
     "ReplyForwardNoSignature": true,
-    "ReplyExternalAsDefault": true,
+    "ReplyExternalAsDefault": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 177
+        "FieldType": "System.String",
+        "FieldLength": 34
       }
     }
   }

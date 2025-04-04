@@ -81,17 +81,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Value": "itaque",
-  "Tooltip": "culpa",
-  "Id": 926,
-  "Rank": 612,
+  "Value": "velit",
+  "Tooltip": "numquam",
+  "Id": 200,
+  "Rank": 433,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 665
+      "FieldLength": 180
     }
   }
 }

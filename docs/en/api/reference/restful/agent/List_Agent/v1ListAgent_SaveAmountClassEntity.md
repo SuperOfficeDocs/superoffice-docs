@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/List/SaveAmountClassEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 305,
-  "Name": "Schmeler Inc and Sons",
-  "Tooltip": "voluptatem",
-  "Rank": 671,
-  "AmountFrom": 21502.374,
-  "AmountTo": 12094.106,
-  "Deleted": true,
-  "CurrencyId": 952
+  "AmountClassId": 951,
+  "Name": "Thiel, Sporer and Donnelly",
+  "Tooltip": "eaque",
+  "Rank": 110,
+  "AmountFrom": 22687.025999999998,
+  "AmountTo": 26309.93,
+  "Deleted": false,
+  "CurrencyId": 783
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 671,
-  "Name": "Collier LLC",
-  "Tooltip": "sed",
-  "Rank": 110,
-  "AmountFrom": 266.39,
-  "AmountTo": 22151.112,
+  "AmountClassId": 232,
+  "Name": "Hackett-Parisian",
+  "Tooltip": "est",
+  "Rank": 375,
+  "AmountFrom": 20308.32,
+  "AmountTo": 4600.7119999999995,
   "Deleted": false,
-  "CurrencyId": 159,
+  "CurrencyId": 290,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 476
+      "FieldLength": 392
     }
   }
 }

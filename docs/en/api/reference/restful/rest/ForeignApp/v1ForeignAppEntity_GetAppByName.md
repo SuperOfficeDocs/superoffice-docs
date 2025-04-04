@@ -73,32 +73,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 16 Mar 2003 14:28:26 G3T
+Last-Modified: Sat, 04 Dec 2021 13:14:08 G12T
 
 {
-  "ForeignAppId": 987,
-  "Name": "Christiansen Group",
-  "CreatedDate": "2016-12-19T14:28:26.9458186+01:00",
-  "UpdatedDate": "2003-03-16T14:28:26.9458186+01:00",
+  "ForeignAppId": 909,
+  "Name": "Hills-Beatty",
+  "CreatedDate": "2018-02-13T13:14:08.7585151+01:00",
+  "UpdatedDate": "2021-12-04T13:14:08.7585151+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 848,
-      "Name": "Auer-Bode",
-      "CreatedDate": "2014-12-28T14:28:26.9458186+01:00",
-      "UpdatedDate": "2005-07-17T14:28:26.9458186+02:00",
-      "AssociateFullName": "Bethany Renner",
-      "CreatedBy": "ad",
-      "UpdatedBy": "labore",
-      "DeviceIdentifier": "enim",
-      "ForeignAppId": 725,
+      "ForeignDeviceId": 330,
+      "Name": "Beer, Harber and McGlynn",
+      "CreatedDate": "2002-06-17T13:14:08.7585151+02:00",
+      "UpdatedDate": "2017-03-03T13:14:08.7585151+01:00",
+      "AssociateFullName": "Nikko Mills",
+      "CreatedBy": "fugiat",
+      "UpdatedBy": "modi",
+      "DeviceIdentifier": "a",
+      "ForeignAppId": 177,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 380
+          "FieldType": "System.Int32",
+          "FieldLength": 624
         }
       }
     }
@@ -107,8 +107,8 @@ Last-Modified: Sun, 16 Mar 2003 14:28:26 G3T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldType": "System.String",
+      "FieldLength": 183
     }
   }
 }

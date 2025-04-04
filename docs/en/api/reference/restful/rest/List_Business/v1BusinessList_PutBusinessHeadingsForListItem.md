@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 360,
-    "Name": "Dicki LLC",
-    "ToolTip": "Voluptatem sed.",
+    "Id": 235,
+    "Name": "Ferry LLC",
+    "ToolTip": "Nobis impedit at quia dolore et vel.",
     "Deleted": false,
-    "Rank": 492,
-    "Type": "enim",
-    "ColorBlock": 244,
-    "IconHint": "nemo",
-    "Selected": false,
-    "LastChanged": "2021-04-15T14:28:27.4770477+02:00",
+    "Rank": 372,
+    "Type": "illo",
+    "ColorBlock": 290,
+    "IconHint": "a",
+    "Selected": true,
+    "LastChanged": "2000-09-10T13:14:09.6191319+02:00",
     "ChildItems": [
       {
-        "Id": 134,
-        "Name": "Grant Group",
-        "ToolTip": "Velit corporis voluptas.",
+        "Id": 633,
+        "Name": "Runolfsson-Ortiz",
+        "ToolTip": "Quo sed enim quos consequatur dolorem atque recusandae.",
         "Deleted": false,
-        "Rank": 424,
-        "Type": "sequi",
-        "ColorBlock": 303,
-        "IconHint": "fugit",
+        "Rank": 915,
+        "Type": "voluptatem",
+        "ColorBlock": 912,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2018-01-30T14:28:27.4770477+01:00",
+        "LastChanged": "2011-12-02T13:14:09.6191319+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "blanditiis",
+        "ExtraInfo": "quisquam",
+        "StyleHint": "sequi",
         "Hidden": false,
-        "FullName": "Clotilde Wolf"
+        "FullName": "Guido Haag IV"
       }
     ],
-    "ExtraInfo": "dicta",
-    "StyleHint": "repellat",
-    "Hidden": true,
-    "FullName": "Johnathon Brown Conroy DVM"
+    "ExtraInfo": "magnam",
+    "StyleHint": "voluptas",
+    "Hidden": false,
+    "FullName": "Prof. Horace Carey Krajcik"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 38,
-    "Name": "Donnelly-Osinski",
-    "ToolTip": "Qui ut sed doloribus sit minus sit aspernatur.",
+    "Id": 765,
+    "Name": "Pacocha-Schinner",
+    "ToolTip": "Tempora omnis.",
     "Deleted": false,
-    "Rank": 807,
-    "Type": "ipsa",
-    "ColorBlock": 142,
-    "IconHint": "quis",
+    "Rank": 708,
+    "Type": "non",
+    "ColorBlock": 972,
+    "IconHint": "id",
     "Selected": false,
-    "LastChanged": "2018-12-05T14:28:27.4770477+01:00",
+    "LastChanged": "2017-01-25T13:14:09.6191319+01:00",
     "ChildItems": [
       {
-        "Id": 937,
-        "Name": "Funk Group",
-        "ToolTip": "Ad dicta praesentium numquam porro.",
+        "Id": 87,
+        "Name": "Carter-Flatley",
+        "ToolTip": "Natus enim.",
         "Deleted": false,
-        "Rank": 51,
-        "Type": "quo",
-        "ColorBlock": 808,
-        "IconHint": "veniam",
-        "Selected": false,
-        "LastChanged": "2025-01-07T14:28:27.4770477+01:00",
+        "Rank": 33,
+        "Type": "ea",
+        "ColorBlock": 613,
+        "IconHint": "quidem",
+        "Selected": true,
+        "LastChanged": "2025-01-23T13:14:09.6191319+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sint",
-        "StyleHint": "cum",
+        "ExtraInfo": "sunt",
+        "StyleHint": "adipisci",
         "Hidden": false,
-        "FullName": "Stefanie Sipes",
+        "FullName": "Foster Moen",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 378
+            "FieldLength": 373
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "et",
+    "ExtraInfo": "voluptatibus",
+    "StyleHint": "quis",
     "Hidden": false,
-    "FullName": "Tracey Hahn",
+    "FullName": "Ms. Joey Casimer Hackett Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 16
+        "FieldType": "System.Int32",
+        "FieldLength": 373
       }
     }
   }

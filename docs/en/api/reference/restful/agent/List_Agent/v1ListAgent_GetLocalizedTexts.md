@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 999,
-    "ResourceId": 954,
-    "Text": "nostrum",
+    "LanguageId": 973,
+    "ResourceId": 247,
+    "Text": "fuga",
     "Type": "Column",
-    "LocalizedTextId": 739,
+    "LocalizedTextId": 535,
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 723
+        "FieldType": "System.String",
+        "FieldLength": 101
       }
     }
   }

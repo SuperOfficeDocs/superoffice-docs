@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Business/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 401,
-  "Name": "Bayer-Gottlieb",
-  "Tooltip": "sunt",
+  "Id": 89,
+  "Name": "Feest-Kuhic",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 853,
-  "Rank": 379,
+  "UdListDefinitionId": 485,
+  "Rank": 413,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 420
+      "FieldLength": 521
     }
   }
 }

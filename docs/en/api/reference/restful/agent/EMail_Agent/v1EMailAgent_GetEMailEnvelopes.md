@@ -91,8 +91,8 @@ Content-Type: application/json; charset=utf-8
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    781,
-    775
+    788,
+    974
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 421,
-    "MessageId": "tenetur",
-    "Subject": "non",
+    "ServerId": 701,
+    "MessageId": "cum",
+    "Subject": "aliquid",
     "From": null,
     "To": [
       {
-        "ContactId": 404,
-        "ContactName": "Stark, Becker and Heller",
-        "PersonId": 530,
-        "PersonName": "Leannon-Gibson",
-        "AssociateId": 111,
-        "Address": "dolorum",
-        "EmailId": 407,
+        "ContactId": 32,
+        "ContactName": "Pacocha, Eichmann and Simonis",
+        "PersonId": 840,
+        "PersonName": "King, Wehner and Sauer",
+        "AssociateId": 529,
+        "Address": "commodi",
+        "EmailId": 130,
         "DuplicatePersonIds": [
-          161,
-          611
+          526,
+          723
         ],
-        "Name": "Wiza, McDermott and Abshire",
+        "Name": "Wilderman, O'Reilly and Dooley",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 69
+            "FieldType": "System.String",
+            "FieldLength": 592
           }
         }
       }
     ],
-    "Sent": "2013-10-09T14:28:21.9616455+02:00",
+    "Sent": "2020-03-08T13:14:00.3918537+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 835,
+    "Size": 750,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldLength": 86
       }
     }
   }

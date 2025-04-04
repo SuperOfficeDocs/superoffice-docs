@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Bergnaum-Murray"
+  "TableName": "Goldner, Schuppe and Parisian"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "molestiae",
-  "Inserts": 764,
-  "Updates": 516,
-  "Deletes": 453,
+  "Message": "ut",
+  "Inserts": 708,
+  "Updates": 588,
+  "Deletes": 295,
   "RowStatus": [
     {
-      "PrimaryKey": 531,
+      "PrimaryKey": 633,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "incidunt",
-        "quod"
+        "eaque",
+        "pariatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldType": "System.String",
+          "FieldLength": 512
         }
       }
     },
     {
-      "PrimaryKey": 531,
+      "PrimaryKey": 633,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "incidunt",
-        "quod"
+        "eaque",
+        "pariatur"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 693
+          "FieldType": "System.String",
+          "FieldLength": 512
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 890
+      "FieldType": "System.String",
+      "FieldLength": 993
     }
   }
 }

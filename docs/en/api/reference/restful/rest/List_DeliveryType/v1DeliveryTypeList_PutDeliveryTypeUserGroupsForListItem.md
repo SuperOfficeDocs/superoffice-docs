@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 248,
-    "Name": "Beahan-Schamberger",
-    "ToolTip": "Perspiciatis rerum magni illum rerum.",
+    "Id": 740,
+    "Name": "Hyatt Inc and Sons",
+    "ToolTip": "Aperiam dolore.",
     "Deleted": false,
-    "Rank": 116,
-    "Type": "ut",
-    "ColorBlock": 888,
-    "IconHint": "dolor",
-    "Selected": true,
-    "LastChanged": "2003-07-15T14:28:27.5551692+02:00",
+    "Rank": 78,
+    "Type": "voluptates",
+    "ColorBlock": 282,
+    "IconHint": "natus",
+    "Selected": false,
+    "LastChanged": "2009-02-12T13:14:09.7597728+01:00",
     "ChildItems": [
       {
-        "Id": 641,
-        "Name": "Smitham, Conn and Hermann",
-        "ToolTip": "Iste sit quia.",
+        "Id": 707,
+        "Name": "Jones-Parisian",
+        "ToolTip": "Voluptates quas non consequatur id.",
         "Deleted": false,
-        "Rank": 311,
-        "Type": "incidunt",
-        "ColorBlock": 34,
-        "IconHint": "officia",
-        "Selected": false,
-        "LastChanged": "2023-07-04T14:28:27.5551692+02:00",
+        "Rank": 864,
+        "Type": "fugiat",
+        "ColorBlock": 39,
+        "IconHint": "quo",
+        "Selected": true,
+        "LastChanged": "2007-05-28T13:14:09.7597728+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "eligendi",
+        "ExtraInfo": "odio",
+        "StyleHint": "sequi",
         "Hidden": true,
-        "FullName": "Mrs. Franz Kuphal"
+        "FullName": "Miss Kamille Boyer II"
       }
     ],
-    "ExtraInfo": "veniam",
-    "StyleHint": "sint",
-    "Hidden": true,
-    "FullName": "Francis Goodwin"
+    "ExtraInfo": "sint",
+    "StyleHint": "unde",
+    "Hidden": false,
+    "FullName": "Titus Hamill"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 969,
-    "Name": "Langosh Inc and Sons",
-    "ToolTip": "Similique sed laboriosam nihil voluptas.",
+    "Id": 650,
+    "Name": "Zemlak-Padberg",
+    "ToolTip": "Sunt ut esse error ut quos.",
     "Deleted": true,
-    "Rank": 575,
-    "Type": "illo",
-    "ColorBlock": 416,
-    "IconHint": "temporibus",
-    "Selected": true,
-    "LastChanged": "2010-03-28T14:28:27.5551692+02:00",
+    "Rank": 678,
+    "Type": "ipsum",
+    "ColorBlock": 609,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2009-10-13T13:14:09.7597728+02:00",
     "ChildItems": [
       {
-        "Id": 472,
-        "Name": "Adams-Mills",
-        "ToolTip": "At eos molestias ipsam.",
+        "Id": 160,
+        "Name": "Gorczany-Flatley",
+        "ToolTip": "Architecto perspiciatis.",
         "Deleted": false,
-        "Rank": 324,
-        "Type": "quas",
-        "ColorBlock": 226,
-        "IconHint": "et",
+        "Rank": 595,
+        "Type": "accusamus",
+        "ColorBlock": 788,
+        "IconHint": "fugiat",
         "Selected": false,
-        "LastChanged": "2001-05-25T14:28:27.5551692+02:00",
+        "LastChanged": "2024-02-24T13:14:09.7597728+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "numquam",
+        "ExtraInfo": "dolor",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Dr. Taurean Maggie Hoppe MD",
+        "FullName": "Dr. Drake Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 728
+            "FieldLength": 565
           }
         }
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Juwan Price",
+    "ExtraInfo": "earum",
+    "StyleHint": "repellat",
+    "Hidden": false,
+    "FullName": "Dr. Braulio Alan Donnelly",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 437
+        "FieldType": "System.Int32",
+        "FieldLength": 712
       }
     }
   }

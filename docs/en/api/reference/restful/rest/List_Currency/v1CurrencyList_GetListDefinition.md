@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 685,
-  "Name": "Gutmann-Quigley",
-  "Tooltip": "est",
+  "Id": 138,
+  "Name": "Jaskolski Group",
+  "Tooltip": "vel",
   "Deleted": false,
-  "Rank": 954,
+  "Rank": 969,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "repudiandae",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "sapiente",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldType": "System.String",
+      "FieldLength": 377
     }
   },
   "_Links": {

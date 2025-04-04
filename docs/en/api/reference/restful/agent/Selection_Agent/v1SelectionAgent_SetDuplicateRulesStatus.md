@@ -70,16 +70,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Kilback Inc and Sons",
-      "DisplayName": "Harris-Mohr",
-      "DisplayTooltip": "alias",
-      "IsActive": true
+      "Name": "Ratke, Dietrich and Wisoky",
+      "DisplayName": "Huel, Mitchell and Witting",
+      "DisplayTooltip": "ut",
+      "IsActive": false
     },
     {
-      "Name": "Kilback Inc and Sons",
-      "DisplayName": "Harris-Mohr",
-      "DisplayTooltip": "alias",
-      "IsActive": true
+      "Name": "Ratke, Dietrich and Wisoky",
+      "DisplayName": "Huel, Mitchell and Witting",
+      "DisplayTooltip": "ut",
+      "IsActive": false
     }
   ]
 }

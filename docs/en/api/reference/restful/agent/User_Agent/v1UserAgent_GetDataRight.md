@@ -75,12 +75,12 @@ OK
 POST /api/v1/Agents/User/GetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 238,
-  "TableName": "Bergnaum Group",
+  "RoleId": 256,
+  "TableName": "Schultz Group",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"qui"
+"autem"
 ```

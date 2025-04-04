@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParameter
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Quigley, Labadie and Bailey",
-  "ParameterName": "Armstrong Inc and Sons"
+  "LayoutName": "Jaskolski-Cassin",
+  "ParameterName": "Sanford-Rogahn"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 565,
-  "Name": "Hickle Group",
-  "Value": "soluta",
-  "CreatedDate": "2012-12-19T14:28:21.47729+01:00",
-  "UpdatedDate": "2014-07-19T14:28:21.47729+02:00",
-  "CreatedBy": "omnis",
-  "UpdatedBy": "aliquam",
+  "AudienceLayoutId": 615,
+  "Name": "Rath Group",
+  "Value": "consequuntur",
+  "CreatedDate": "2000-07-02T13:13:59.5158194+02:00",
+  "UpdatedDate": "2014-01-29T13:13:59.5158194+01:00",
+  "CreatedBy": "asperiores",
+  "UpdatedBy": "nulla",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 42
+      "FieldLength": 138
     }
   }
 }

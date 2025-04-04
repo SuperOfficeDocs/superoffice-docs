@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 891,
-  "Currency": "cumque"
+  "QuoteConnectionId": 933,
+  "Currency": "id"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 359,
-    "ERPPriceListKey": "voluptatibus",
-    "QuoteConnectionId": 241,
-    "Name": "Becker Group",
-    "Description": "Automated foreground website",
-    "Currency": "provident",
-    "CurrencyName": "Brakus, Weber and Ankunding",
-    "ValidFrom": "2002-12-31T14:28:22.3053817+01:00",
-    "ValidTo": "2018-02-04T14:28:22.3053817+01:00",
-    "IsActive": true,
+    "PriceListId": 234,
+    "ERPPriceListKey": "ea",
+    "QuoteConnectionId": 977,
+    "Name": "Watsica, Pacocha and Kutch",
+    "Description": "Robust transitional architecture",
+    "Currency": "expedita",
+    "CurrencyName": "Renner LLC",
+    "ValidFrom": "2017-05-05T13:14:01.0020135+02:00",
+    "ValidTo": "2013-06-08T13:14:01.0020135+02:00",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 423
+        "FieldLength": 174
       }
     }
   }

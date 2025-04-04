@@ -86,36 +86,36 @@ OK
 PUT /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 92,
+  "HierarchyId": 10,
   "Domain": "Dashboards",
-  "Name": "Stark LLC",
-  "Fullname": "ullam",
-  "ParentId": 446,
+  "Name": "Haag, Ullrich and Mosciski",
+  "Fullname": "aliquam",
+  "ParentId": 509,
   "Children": [
     {
-      "HierarchyId": 500,
+      "HierarchyId": 810,
       "Domain": "Dashboards",
-      "Name": "Beatty-Mayert",
-      "Fullname": "nisi",
-      "ParentId": 202,
+      "Name": "Murazik-Brown",
+      "Fullname": "praesentium",
+      "ParentId": 621,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2007-06-09T14:28:26.961443+02:00",
-      "RegisteredAssociateId": 334,
-      "Updated": "2003-09-13T14:28:26.961443+02:00",
-      "UpdatedAssociateId": 775
+      "Registered": "2013-06-05T13:14:08.7741411+02:00",
+      "RegisteredAssociateId": 182,
+      "Updated": "2015-04-01T13:14:08.7741411+02:00",
+      "UpdatedAssociateId": 825
     }
   ],
-  "Registered": "2010-02-22T14:28:26.961443+01:00",
-  "RegisteredAssociateId": 160,
-  "Updated": "1998-08-15T14:28:26.961443+02:00",
-  "UpdatedAssociateId": 900
+  "Registered": "2017-10-17T13:14:08.7741411+02:00",
+  "RegisteredAssociateId": 894,
+  "Updated": "2015-10-30T13:14:08.7741411+01:00",
+  "UpdatedAssociateId": 151
 }
 ```
 
@@ -126,46 +126,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 590,
+  "HierarchyId": 839,
   "Domain": "Dashboards",
-  "Name": "Schumm Group",
-  "Fullname": "aut",
-  "ParentId": 281,
+  "Name": "Lemke, Bechtelar and Boehm",
+  "Fullname": "et",
+  "ParentId": 108,
   "Children": [
     {
-      "HierarchyId": 78,
+      "HierarchyId": 278,
       "Domain": "Dashboards",
-      "Name": "Bahringer, Nikolaus and West",
-      "Fullname": "sit",
-      "ParentId": 919,
+      "Name": "Satterfield-Yundt",
+      "Fullname": "quaerat",
+      "ParentId": 110,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2006-10-01T14:28:26.961443+02:00",
-      "RegisteredAssociateId": 404,
-      "Updated": "2008-09-05T14:28:26.961443+02:00",
-      "UpdatedAssociateId": 773,
+      "Registered": "2012-02-19T13:14:08.7741411+01:00",
+      "RegisteredAssociateId": 235,
+      "Updated": "2013-12-24T13:14:08.7741411+01:00",
+      "UpdatedAssociateId": 396,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 589
+          "FieldLength": 477
         }
       }
     }
   ],
-  "Registered": "2013-08-17T14:28:26.961443+02:00",
-  "RegisteredAssociateId": 269,
-  "Updated": "2003-05-31T14:28:26.961443+02:00",
-  "UpdatedAssociateId": 661,
+  "Registered": "2018-01-24T13:14:08.7741411+01:00",
+  "RegisteredAssociateId": 49,
+  "Updated": "1999-07-20T13:14:08.7741411+02:00",
+  "UpdatedAssociateId": 651,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldType": "System.String",
+      "FieldLength": 185
     }
   }
 }

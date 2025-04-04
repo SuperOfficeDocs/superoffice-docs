@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Friesen-Toy",
-    "ToolTip": "Itaque eius aut ab ipsam quisquam ipsa iste.",
+    "Id": 358,
+    "Name": "Stiedemann, Purdy and Gaylord",
+    "ToolTip": "Perspiciatis nulla facilis dolorem enim.",
     "Deleted": true,
-    "Rank": 472,
-    "Type": "vero",
-    "ColorBlock": 340,
-    "IconHint": "molestias",
+    "Rank": 164,
+    "Type": "quos",
+    "ColorBlock": 58,
+    "IconHint": "quidem",
     "Selected": false,
-    "LastChanged": "2021-10-31T14:28:27.7114135+01:00",
+    "LastChanged": "1999-02-09T13:14:10.0879174+01:00",
     "ChildItems": [
       {
-        "Id": 365,
-        "Name": "Crooks-Emard",
-        "ToolTip": "Cum ad.",
+        "Id": 232,
+        "Name": "Cassin LLC",
+        "ToolTip": "Voluptas tempore deserunt ut et est.",
         "Deleted": true,
-        "Rank": 418,
-        "Type": "qui",
-        "ColorBlock": 379,
-        "IconHint": "harum",
-        "Selected": false,
-        "LastChanged": "2012-11-20T14:28:27.7114135+01:00",
+        "Rank": 544,
+        "Type": "dignissimos",
+        "ColorBlock": 882,
+        "IconHint": "temporibus",
+        "Selected": true,
+        "LastChanged": "2002-03-25T13:14:10.0879174+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "temporibus",
-        "StyleHint": "nesciunt",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "voluptatum",
         "Hidden": false,
-        "FullName": "Jaquan Hahn",
+        "FullName": "Oral Stark",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 695
+            "FieldType": "System.Int32",
+            "FieldLength": 107
           }
         }
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Juliet Kovacek",
+    "ExtraInfo": "unde",
+    "StyleHint": "consequuntur",
+    "Hidden": true,
+    "FullName": "Precious Bogisich",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 843
+        "FieldLength": 262
       }
     }
   }

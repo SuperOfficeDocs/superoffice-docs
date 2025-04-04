@@ -78,8 +78,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Lakin, Auer and Kulas",
-    "Mraz Inc and Sons"
+    "Littel, Schuppe and Erdman",
+    "Rempel Group"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  321,
-  619
+  922,
+  234
 ]
 ```

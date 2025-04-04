@@ -83,17 +83,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 805,
+  "TargetDimensionId": 996,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "sit",
-  "DimensionListName": "Stokes-Kuphal",
-  "DimensionListId": 671,
-  "DimensionListLabel": "debitis",
+  "DimensionListField": "neque",
+  "DimensionListName": "Grimes, Rohan and Turner",
+  "DimensionListId": 297,
+  "DimensionListLabel": "autem",
   "SelectedDimensions": [
-    883,
-    98
+    344,
+    376
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 508,
+  "TargetDimensionId": 287,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "voluptatem",
-  "DimensionListName": "Jacobi-Jacobi",
-  "DimensionListId": 950,
-  "DimensionListLabel": "consectetur",
+  "DimensionListField": "et",
+  "DimensionListName": "Miller Inc and Sons",
+  "DimensionListId": 806,
+  "DimensionListLabel": "earum",
   "SelectedDimensions": [
-    244,
-    499
+    89,
+    632
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 52
+      "FieldType": "System.Int32",
+      "FieldLength": 73
     }
   }
 }

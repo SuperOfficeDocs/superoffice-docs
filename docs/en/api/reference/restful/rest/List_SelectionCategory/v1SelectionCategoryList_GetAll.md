@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 682,
-    "Name": "Reynolds Group",
-    "Tooltip": "iusto",
-    "Deleted": false,
-    "UdListDefinitionId": 699,
-    "Rank": 432,
+    "Id": 110,
+    "Name": "Luettgen LLC",
+    "Tooltip": "inventore",
+    "Deleted": true,
+    "UdListDefinitionId": 217,
+    "Rank": 342,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldLength": 921
       }
     }
   }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/DocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 531,
-  "Name": "Donnelly Inc and Sons",
-  "Tooltip": "corporis",
-  "Deleted": true,
-  "Rank": 420,
+  "Id": 393,
+  "Name": "Crona, Borer and Collins",
+  "Tooltip": "facilis",
+  "Deleted": false,
+  "Rank": 773,
   "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sit",
+  "UseGroupsAndHeadings": false,
+  "ListType": "aliquid",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 902,
-  "Name": "Corkery Group",
-  "Tooltip": "quod",
+  "Id": 990,
+  "Name": "Ryan-Armstrong",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "Rank": 513,
+  "Rank": 107,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "maxime",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "dolorem",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 531
+      "FieldLength": 265
     }
   }
 }

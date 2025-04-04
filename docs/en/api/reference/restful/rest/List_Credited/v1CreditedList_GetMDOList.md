@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=True
-GET /api/v1/List/Credited/MDOItems?query=aut
+GET /api/v1/List/Credited/MDOItems?flat=False
+GET /api/v1/List/Credited/MDOItems?query=neque
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 631,
-    "Name": "Lemke-Boyer",
-    "ToolTip": "In perspiciatis earum magni et eum labore occaecati.",
+    "Id": 461,
+    "Name": "Crona LLC",
+    "ToolTip": "Est neque expedita explicabo.",
     "Deleted": false,
-    "Rank": 79,
-    "Type": "repudiandae",
+    "Rank": 123,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 495,
-        "Name": "Barton Inc and Sons",
-        "ToolTip": "Necessitatibus velit dicta ea nobis qui.",
-        "Deleted": true,
-        "Rank": 519,
-        "Type": "et",
+        "Id": 396,
+        "Name": "Ferry-Glover",
+        "ToolTip": "Natus illum eaque.",
+        "Deleted": false,
+        "Rank": 277,
+        "Type": "ipsum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 26,
-        "ExtraInfo": "esse",
-        "StyleHint": "voluptatem",
-        "FullName": "Miss Anne Gerhold DDS",
+        "IconHint": "magni",
+        "ColorBlock": 621,
+        "ExtraInfo": "provident",
+        "StyleHint": "aliquid",
+        "FullName": "Mr. Liza Kuvalis",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 305
+            "FieldLength": 383
           }
         }
       }
     ],
-    "IconHint": "est",
-    "ColorBlock": 273,
-    "ExtraInfo": "aut",
-    "StyleHint": "inventore",
-    "FullName": "Mr. Steve Paolo Cruickshank",
+    "IconHint": "voluptatem",
+    "ColorBlock": 259,
+    "ExtraInfo": "totam",
+    "StyleHint": "optio",
+    "FullName": "Cecil Runolfsdottir",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1000
+        "FieldLength": 787
       }
     }
   }

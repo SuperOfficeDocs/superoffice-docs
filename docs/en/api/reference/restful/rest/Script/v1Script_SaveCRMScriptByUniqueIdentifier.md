@@ -91,16 +91,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "tempore",
-  "Name": "Jacobson Inc and Sons",
-  "Description": "Self-enabling coherent customer loyalty",
-  "IncludeId": "culpa",
-  "Source": "magni",
-  "Registered": "2003-01-17T14:28:27.4145503+01:00",
-  "RegisteredBy": "architecto",
-  "Updated": "2014-08-27T14:28:27.4145503+02:00",
-  "UpdatedBy": "id",
-  "Path": "similique"
+  "UniqueIdentifier": "asperiores",
+  "Name": "Jaskolski Inc and Sons",
+  "Description": "Re-engineered grid-enabled parallelism",
+  "IncludeId": "magnam",
+  "Source": "error",
+  "Registered": "2001-02-28T13:14:09.4936298+01:00",
+  "RegisteredBy": "eligendi",
+  "Updated": "2020-11-05T13:14:09.4936298+01:00",
+  "UpdatedBy": "ut",
+  "Path": "nihil"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "blanditiis",
-  "Name": "Watsica Group",
-  "Description": "Proactive executive interface",
-  "IncludeId": "quidem",
-  "Source": "enim",
-  "Registered": "2008-01-04T14:28:27.4145503+01:00",
-  "RegisteredBy": "eum",
-  "Updated": "2018-04-19T14:28:27.4145503+02:00",
-  "UpdatedBy": "ducimus",
-  "Path": "architecto",
+  "UniqueIdentifier": "aut",
+  "Name": "Boyer-Kuphal",
+  "Description": "Enterprise-wide motivating secured line",
+  "IncludeId": "eveniet",
+  "Source": "non",
+  "Registered": "2007-03-19T13:14:09.4936298+01:00",
+  "RegisteredBy": "non",
+  "Updated": "2020-10-18T13:14:09.4936298+02:00",
+  "UpdatedBy": "cupiditate",
+  "Path": "cum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldType": "System.String",
+      "FieldLength": 256
     }
   }
 }

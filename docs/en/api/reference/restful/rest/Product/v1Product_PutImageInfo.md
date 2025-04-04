@@ -97,19 +97,19 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 215,
-  "BlobSize": 823,
-  "Description": "Organized executive attitude",
-  "ExtraInfo": "ex",
+  "BlobId": 149,
+  "BlobSize": 22,
+  "Description": "Ameliorated intermediate productivity",
+  "ExtraInfo": "molestias",
   "IsEncrypted": false,
-  "IsZipped": false,
-  "MimeType": "alias",
-  "OriginalSize": 452,
-  "CreatedDate": "2024-05-25T14:28:27.3833015+02:00",
-  "UpdatedDate": "2014-03-24T14:28:27.3833015+01:00",
+  "IsZipped": true,
+  "MimeType": "magnam",
+  "OriginalSize": 900,
+  "CreatedDate": "2015-03-22T13:14:09.4467519+01:00",
+  "UpdatedDate": "1998-02-08T13:14:09.4467519+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "est"
+  "ConceptualType": "laudantium"
 }
 ```
 
@@ -120,25 +120,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 104,
-  "BlobSize": 806,
-  "Description": "Diverse 6th generation contingency",
-  "ExtraInfo": "perspiciatis",
+  "BlobId": 650,
+  "BlobSize": 334,
+  "Description": "Quality-focused foreground success",
+  "ExtraInfo": "animi",
   "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "velit",
-  "OriginalSize": 665,
-  "CreatedDate": "2014-02-11T14:28:27.3833015+01:00",
-  "UpdatedDate": "2006-03-09T14:28:27.3833015+01:00",
+  "IsZipped": true,
+  "MimeType": "odio",
+  "OriginalSize": 913,
+  "CreatedDate": "2025-03-13T13:14:09.4467519+01:00",
+  "UpdatedDate": "2005-09-02T13:14:09.4467519+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "provident",
+  "ConceptualType": "quia",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 637
+      "FieldLength": 260
     }
   }
 }

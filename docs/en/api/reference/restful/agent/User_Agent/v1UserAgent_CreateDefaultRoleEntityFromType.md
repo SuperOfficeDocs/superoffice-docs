@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/User/CreateDefaultRoleEntityFromType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 956,
-  "Name": "Funk LLC",
-  "Tooltip": "reiciendis",
+  "RoleId": 745,
+  "Name": "Williamson-Sawayn",
+  "Tooltip": "voluptatem",
   "RoleType": "Anonymous",
-  "Deleted": 838,
-  "Rank": 847,
-  "Created": "1998-06-19T14:28:22.6959913+02:00",
-  "UseCategories": 148,
+  "Deleted": 627,
+  "Rank": 150,
+  "Created": "1998-06-25T13:14:01.7069466+02:00",
+  "UseCategories": 101,
   "CreatedBy": null,
-  "Updated": "2003-09-29T14:28:22.6959913+02:00",
+  "Updated": "2010-10-18T13:14:01.7069466+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 193
+      "FieldLength": 107
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 376,
-    "Name": "Thiel, Bechtelar and Cummerata",
-    "ToolTip": "Non velit tenetur rerum ad libero aut amet.",
-    "Deleted": true,
-    "Rank": 689,
-    "Type": "beatae",
-    "ColorBlock": 875,
-    "IconHint": "libero",
-    "Selected": false,
-    "LastChanged": "2023-03-27T14:28:27.6801638+02:00",
+    "Id": 521,
+    "Name": "Johnson Inc and Sons",
+    "ToolTip": "Exercitationem provident optio qui.",
+    "Deleted": false,
+    "Rank": 628,
+    "Type": "culpa",
+    "ColorBlock": 342,
+    "IconHint": "velit",
+    "Selected": true,
+    "LastChanged": "2024-02-22T13:14:10.0254136+01:00",
     "ChildItems": [
       {
-        "Id": 982,
-        "Name": "Turcotte, Hudson and Lakin",
-        "ToolTip": "Est necessitatibus dolor.",
-        "Deleted": false,
-        "Rank": 948,
-        "Type": "esse",
-        "ColorBlock": 468,
-        "IconHint": "explicabo",
+        "Id": 747,
+        "Name": "Rowe, Rau and Bednar",
+        "ToolTip": "Est veritatis et nulla mollitia.",
+        "Deleted": true,
+        "Rank": 864,
+        "Type": "et",
+        "ColorBlock": 637,
+        "IconHint": "dolores",
         "Selected": true,
-        "LastChanged": "2010-12-02T14:28:27.6801638+01:00",
+        "LastChanged": "2021-03-02T13:14:10.0254136+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "inventore",
-        "StyleHint": "sint",
-        "Hidden": true,
-        "FullName": "Westley Mohr V",
+        "ExtraInfo": "eos",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Aron Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 855
+            "FieldLength": 96
           }
         }
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "voluptatem",
+    "ExtraInfo": "beatae",
+    "StyleHint": "nemo",
     "Hidden": false,
-    "FullName": "Jaylen Leda Langworth MD",
+    "FullName": "Mr. Meta Hirthe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 281
+        "FieldType": "System.String",
+        "FieldLength": 291
       }
     }
   }

@@ -71,32 +71,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 13 Jan 2020 14:28:26 G1T
+Last-Modified: Mon, 30 Oct 2017 13:14:08 G10T
 
 {
-  "ForeignAppId": 908,
-  "Name": "Schroeder, Keeling and Robel",
-  "CreatedDate": "2018-06-14T14:28:26.9458186+02:00",
-  "UpdatedDate": "2020-01-13T14:28:26.9458186+01:00",
+  "ForeignAppId": 143,
+  "Name": "Bosco, Hammes and McDermott",
+  "CreatedDate": "2006-08-18T13:14:08.7428891+02:00",
+  "UpdatedDate": "2017-10-30T13:14:08.7428891+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 142,
-      "Name": "Gleichner, Romaguera and Hahn",
-      "CreatedDate": "2001-09-10T14:28:26.9458186+02:00",
-      "UpdatedDate": "2018-10-09T14:28:26.9458186+02:00",
-      "AssociateFullName": "Alanis Boehm",
-      "CreatedBy": "consequatur",
-      "UpdatedBy": "quo",
-      "DeviceIdentifier": "in",
-      "ForeignAppId": 615,
+      "ForeignDeviceId": 757,
+      "Name": "Morar-Becker",
+      "CreatedDate": "2009-06-08T13:14:08.7428891+02:00",
+      "UpdatedDate": "2018-11-15T13:14:08.7428891+01:00",
+      "AssociateFullName": "Dr. Nelson Gayle Lebsack III",
+      "CreatedBy": "ipsam",
+      "UpdatedBy": "porro",
+      "DeviceIdentifier": "nobis",
+      "ForeignAppId": 31,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 121
+          "FieldLength": 901
         }
       }
     }
@@ -106,7 +106,7 @@ Last-Modified: Mon, 13 Jan 2020 14:28:26 G1T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 708
+      "FieldLength": 28
     }
   }
 }

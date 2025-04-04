@@ -89,21 +89,21 @@ OK
 POST /api/v1/Agents/Appointment/SaveSuggestedAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 247,
-  "Name": "Bogan, Gleichner and Moore",
-  "Tooltip": "rem",
-  "Rank": 186,
+  "SuggestedAppointmentId": 308,
+  "Name": "Treutel-Feest",
+  "Tooltip": "et",
+  "Rank": 875,
   "Deleted": false,
-  "DaysFuture": 809,
-  "Duration": "consequatur",
+  "DaysFuture": 827,
+  "Duration": "nesciunt",
   "AutoSuggest": true,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "quis",
+  "Text": "debitis",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 279,
-  "Name": "Pacocha Group",
-  "Tooltip": "voluptate",
-  "Rank": 820,
-  "Deleted": false,
-  "DaysFuture": 468,
-  "Duration": "magnam",
-  "AutoSuggest": false,
+  "SuggestedAppointmentId": 370,
+  "Name": "Rohan, Jewess and Kiehn",
+  "Tooltip": "pariatur",
+  "Rank": 732,
+  "Deleted": true,
+  "DaysFuture": 94,
+  "Duration": "et",
+  "AutoSuggest": true,
   "IsMilestone": false,
-  "AssignToMember": false,
-  "Text": "odio",
+  "AssignToMember": true,
+  "Text": "et",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 474
+      "FieldType": "System.String",
+      "FieldLength": 655
     }
   }
 }

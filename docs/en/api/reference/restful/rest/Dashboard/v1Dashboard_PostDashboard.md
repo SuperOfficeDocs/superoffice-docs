@@ -84,26 +84,26 @@ OK
 POST /api/v1/Dashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 350,
-  "AssociateId": 379,
-  "Caption": "molestiae",
+  "DashboardId": 667,
+  "AssociateId": 942,
+  "Caption": "dolor",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 344,
-      "Caption": "excepturi",
-      "Description": "Devolved full-range adapter",
-      "ChartName": "Hintz-Lesch",
-      "ChartId": "iste",
-      "IsDefault": true,
-      "AssociateId": 411,
-      "GroupId": 141,
-      "SelectionId": 237,
-      "Config": "rerum",
+      "DashboardTileId": 211,
+      "Caption": "omnis",
+      "Description": "User-centric 4th generation groupware",
+      "ChartName": "Bailey Inc and Sons",
+      "ChartId": "dolor",
+      "IsDefault": false,
+      "AssociateId": 627,
+      "GroupId": 459,
+      "SelectionId": 904,
+      "Config": "est",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -126,22 +126,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 318,
-  "AssociateId": 390,
-  "Caption": "aliquid",
+  "DashboardId": 912,
+  "AssociateId": 349,
+  "Caption": "sint",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 893,
-      "Caption": "dolorem",
-      "Description": "Cross-platform disintermediate monitoring",
-      "ChartName": "Fadel, Roberts and Stokes",
-      "ChartId": "delectus",
+      "DashboardTileId": 67,
+      "Caption": "eaque",
+      "Description": "Organic coherent firmware",
+      "ChartName": "Greenholt, Ziemann and O'Reilly",
+      "ChartId": "voluptatem",
       "IsDefault": false,
-      "AssociateId": 762,
-      "GroupId": 386,
-      "SelectionId": 71,
-      "Config": "non",
+      "AssociateId": 791,
+      "GroupId": 389,
+      "SelectionId": 255,
+      "Config": "et",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 960
         }
       }
     }
@@ -167,12 +167,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldLength": 572
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

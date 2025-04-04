@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultPreviewDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -72,33 +72,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 916,
-  "Name": "Bernhard Group",
-  "Description": "Focused reciprocal time-frame",
-  "OwnedByFullName": "Kale Kennedy Kautzer II",
-  "Registered": "2002-04-24T14:28:21.6960311+02:00",
+  "DashboardId": 883,
+  "Name": "Funk, Runte and Strosin",
+  "Description": "Seamless value-added intranet",
+  "OwnedByFullName": "Isabel Bartholome Wehner Sr.",
+  "Registered": "2021-08-22T13:14:00.0475885+02:00",
   "Tiles": [
     {
-      "Name": "Schultz, Stracke and Hahn",
+      "Name": "Wuckert LLC",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 260
+          "FieldLength": 382
         }
       }
     },
     {
-      "Name": "Schultz, Stracke and Hahn",
+      "Name": "Wuckert LLC",
       "TileType": "Area",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 260
+          "FieldLength": 382
         }
       }
     }
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 639
+      "FieldLength": 206
     }
   }
 }

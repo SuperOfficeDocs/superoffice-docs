@@ -82,7 +82,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Durgan, Heathcote and McKenzie"
+  "EntityName": "Wiza Group"
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 975,
-  "DashboardId": 356,
-  "Height": 279,
-  "Width": 283,
-  "Rank": 427,
+  "DashboardTileId": 918,
+  "DashboardId": 436,
+  "Height": 539,
+  "Width": 104,
+  "Rank": 1000,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 123
+      "FieldType": "System.Int32",
+      "FieldLength": 201
     }
   }
 }

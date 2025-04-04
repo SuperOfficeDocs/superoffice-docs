@@ -89,14 +89,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 370,
-  "AttachmentId": "quo",
-  "AttachmentType": "sed",
-  "AttachmentFilename": "molestiae"
+  "MailItemId": 781,
+  "AttachmentId": "ea",
+  "AttachmentType": "illo",
+  "AttachmentFilename": "in"
 }
 ```
 
@@ -107,13 +107,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Ameliorated next generation challenge",
-  "Filename": "a",
-  "Size": 70,
-  "Type": "doloremque",
-  "Encoding": "est",
-  "Id": "officia",
-  "Disposition": "facere",
+  "Description": "Ergonomic dedicated initiative",
+  "Filename": "non",
+  "Size": 456,
+  "Type": "consequatur",
+  "Encoding": "explicabo",
+  "Id": "aliquid",
+  "Disposition": "possimus",
   "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 736
+      "FieldLength": 559
     }
   }
 }

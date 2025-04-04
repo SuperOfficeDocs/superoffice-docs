@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 333,
+  "UdListDefinitionId": 639,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 655,
-  "Name": "Quitzon-Koss",
-  "Tooltip": "veniam",
+  "Id": 445,
+  "Name": "Bednar Group",
+  "Tooltip": "inventore",
   "Deleted": false,
-  "UdListDefinitionId": 692,
-  "Rank": 152,
+  "UdListDefinitionId": 158,
+  "Rank": 54,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 831
+      "FieldType": "System.Int32",
+      "FieldLength": 761
     }
   }
 }

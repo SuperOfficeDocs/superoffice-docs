@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=aut
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=facilis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 385,
-    "Name": "Reilly-Will",
-    "ToolTip": "Corrupti unde iusto.",
-    "Deleted": false,
-    "Rank": 176,
-    "Type": "labore",
+    "Id": 69,
+    "Name": "Beahan-Bogan",
+    "ToolTip": "Praesentium tempora et incidunt.",
+    "Deleted": true,
+    "Rank": 806,
+    "Type": "dicta",
     "ChildItems": [
       {
-        "Id": 288,
-        "Name": "Padberg LLC",
-        "ToolTip": "Perferendis necessitatibus pariatur.",
+        "Id": 454,
+        "Name": "Schoen Group",
+        "ToolTip": "Impedit placeat voluptas non officia tempore recusandae.",
         "Deleted": false,
-        "Rank": 614,
-        "Type": "delectus",
+        "Rank": 892,
+        "Type": "consequatur",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "earum",
-        "ColorBlock": 295,
-        "ExtraInfo": "quia",
-        "StyleHint": "totam",
-        "FullName": "Wava Metz",
+        "IconHint": "enim",
+        "ColorBlock": 705,
+        "ExtraInfo": "ad",
+        "StyleHint": "quos",
+        "FullName": "Spencer Farrell",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 43
+            "FieldType": "System.String",
+            "FieldLength": 862
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 374,
-    "ExtraInfo": "sint",
-    "StyleHint": "velit",
-    "FullName": "Ms. Johathan Kulas",
+    "IconHint": "quo",
+    "ColorBlock": 513,
+    "ExtraInfo": "vero",
+    "StyleHint": "eum",
+    "FullName": "Rick Weissnat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldType": "System.String",
+        "FieldLength": 229
       }
     }
   }

@@ -99,21 +99,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Welch-Feest",
-      "Operator": "eos",
+      "Name": "Ondricka Inc and Sons",
+      "Operator": "sequi",
       "Values": [
-        "architecto",
-        "maxime"
+        "vel",
+        "sed"
       ],
       "DisplayValues": [
-        "aut",
-        "culpa"
+        "est",
+        "perspiciatis"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -121,14 +121,14 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 384,
+      "InterParenthesis": 225,
       "InterOperator": "And",
-      "UniqueHash": 753
+      "UniqueHash": 704
     }
   ],
-  "ProviderName": "Labadie, Glover and Glover",
-  "PageSize": 757,
-  "PageNumber": 75
+  "ProviderName": "Kassulke Inc and Sons",
+  "PageSize": 654,
+  "PageNumber": 385
 }
 ```
 
@@ -141,51 +141,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Koch Group",
-      "DisplayTooltip": "placeat",
-      "DisplayType": "voluptatem",
+      "DisplayName": "Douglas, Upton and Gleichner",
+      "DisplayTooltip": "ut",
+      "DisplayType": "excepturi",
       "CanOrderBy": false,
-      "Name": "Hand Inc and Sons",
+      "Name": "Hoeger, Blick and Wiegand",
       "CanRestrictBy": false,
       "RestrictionType": "est",
-      "RestrictionListName": "McDermott, Wisozk and Runolfsdottir",
-      "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "ut",
-      "IconHint": "impedit",
-      "HeadingIconHint": "ut"
+      "RestrictionListName": "Mills, Bogisich and Swift",
+      "IsVisible": true,
+      "ExtraInfo": "et",
+      "Width": "mollitia",
+      "IconHint": "ut",
+      "HeadingIconHint": "quam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Krajcik-Bergnaum",
-      "PrimaryKey": 532,
+      "EntityName": "Klein Inc and Sons",
+      "PrimaryKey": 294,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "quis",
-          "TooltipHint": "quasi",
-          "LinkHint": "voluptatem"
+          "DisplayValue": "perferendis",
+          "TooltipHint": "est",
+          "LinkHint": "aspernatur"
         }
       },
-      "LinkHint": "dolorem",
-      "StyleHint": "in",
+      "LinkHint": "veritatis",
+      "StyleHint": "voluptatum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 683
+          "FieldType": "System.Int32",
+          "FieldLength": 904
         }
       }
     }
   ],
-  "RowCount": 180,
+  "RowCount": 993,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 23
+      "FieldType": "System.Int32",
+      "FieldLength": 787
     }
   }
 }

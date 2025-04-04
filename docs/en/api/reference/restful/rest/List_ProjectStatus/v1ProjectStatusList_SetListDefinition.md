@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 17,
-  "Name": "Gorczany Group",
-  "Tooltip": "in",
+  "Id": 124,
+  "Name": "Lemke LLC",
+  "Tooltip": "aspernatur",
   "Deleted": false,
-  "Rank": 45,
+  "Rank": 397,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "nulla",
+  "ListType": "qui",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 534,
-  "Name": "Rau LLC",
-  "Tooltip": "magnam",
+  "Id": 823,
+  "Name": "Treutel Group",
+  "Tooltip": "aut",
   "Deleted": true,
-  "Rank": 326,
+  "Rank": 381,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "sed",
+  "ListType": "deleniti",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 441
+      "FieldLength": 645
     }
   }
 }

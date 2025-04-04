@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetAudienceLayoutByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Wilkinson, Hintz and Murray"
+  "LayoutName": "Kassulke LLC"
 }
 ```
 
@@ -94,11 +94,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 230,
-  "InstanceLayout": "fugiat",
-  "InstanceName": "Zboncak, Kiehn and Oberbrunner",
-  "CreatedDate": "1999-07-25T14:28:21.47729+02:00",
-  "UpdatedDate": "2020-01-10T14:28:21.47729+01:00",
+  "AudienceLayoutId": 280,
+  "InstanceLayout": "eos",
+  "InstanceName": "Wolff Group",
+  "CreatedDate": "2011-08-04T13:13:59.5158194+02:00",
+  "UpdatedDate": "2001-01-10T13:13:59.5158194+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -106,7 +106,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 350
+      "FieldLength": 443
     }
   }
 }

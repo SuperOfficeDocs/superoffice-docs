@@ -79,12 +79,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 262,
-  "Name": "Trantow, Halvorson and Bruen",
-  "Tooltip": "omnis",
-  "Deleted": true,
-  "Rank": 40,
-  "UdListDefinitionId": 766
+  "HeadingId": 938,
+  "Name": "Johnston-Koss",
+  "Tooltip": "exercitationem",
+  "Deleted": false,
+  "Rank": 749,
+  "UdListDefinitionId": 797
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 144,
-  "Name": "Ondricka Inc and Sons",
-  "Tooltip": "magni",
+  "HeadingId": 59,
+  "Name": "Aufderhar-Beahan",
+  "Tooltip": "repudiandae",
   "Deleted": true,
-  "Rank": 464,
-  "UdListDefinitionId": 83,
+  "Rank": 212,
+  "UdListDefinitionId": 422,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 957
+      "FieldType": "System.Int32",
+      "FieldLength": 150
     }
   }
 }

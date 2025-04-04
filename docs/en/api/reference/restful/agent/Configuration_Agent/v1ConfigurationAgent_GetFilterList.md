@@ -69,12 +69,12 @@ OK
 POST /api/v1/Agents/Configuration/GetFilterList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "illum",
-  "Instance": "maxime"
+  "Application": "deleniti",
+  "Instance": "quaerat"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ut"
+"quia"
 ```

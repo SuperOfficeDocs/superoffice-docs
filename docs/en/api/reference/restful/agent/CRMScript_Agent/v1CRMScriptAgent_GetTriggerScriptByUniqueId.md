@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "quae"
+  "TriggerScriptUniqueId": "earum"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 499,
-  "Name": "Veum LLC",
+  "ScreenChooserId": 291,
+  "Name": "Kozey-Stroman",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": false,
-  "UniqueIdentifier": "consectetur",
-  "Source": "molestias",
-  "Registered": "2001-04-17T14:28:21.680407+02:00",
-  "RegisteredAssociateId": 917,
-  "Updated": "2022-10-05T14:28:21.680407+02:00",
-  "UpdatedAssociateId": 197,
+  "UniqueIdentifier": "quia",
+  "Source": "molestiae",
+  "Registered": "2000-06-24T13:14:00.0163364+02:00",
+  "RegisteredAssociateId": 589,
+  "Updated": "2016-11-08T13:14:00.0163364+01:00",
+  "UpdatedAssociateId": 601,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldLength": 120
     }
   }
 }

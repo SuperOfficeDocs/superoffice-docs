@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/Document/GetPublishedProjectDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 960
+  "ProjectId": 410
 }
 ```
 
@@ -108,32 +108,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 718,
-    "Attention": "dicta",
-    "Header": "vero",
-    "Name": "Ferry-Willms",
-    "OurRef": "est",
-    "YourRef": "hic",
-    "Description": "Fully-configurable web-enabled capacity",
-    "DocumentTemplate": "delectus",
-    "IsPublished": true,
-    "PersonId": 916,
-    "PersonFullName": "Flo Lang",
-    "AssociateFullName": "Conrad Schimmel",
-    "ContactId": 827,
-    "ContactName": "Murazik, Konopelski and Trantow",
-    "ProjectId": 740,
-    "ProjectName": "Welch Group",
-    "AssociateId": 719,
-    "Snum": 870,
-    "SaleId": 14,
-    "SaleName": "Rice LLC",
+    "DocumentId": 791,
+    "Attention": "possimus",
+    "Header": "cupiditate",
+    "Name": "Keebler Inc and Sons",
+    "OurRef": "aut",
+    "YourRef": "ipsam",
+    "Description": "Compatible fault-tolerant strategy",
+    "DocumentTemplate": "recusandae",
+    "IsPublished": false,
+    "PersonId": 937,
+    "PersonFullName": "Doris Yundt",
+    "AssociateFullName": "Theron Bechtelar",
+    "ContactId": 294,
+    "ContactName": "Rutherford Group",
+    "ProjectId": 678,
+    "ProjectName": "Johns, Heathcote and Thompson",
+    "AssociateId": 831,
+    "Snum": 237,
+    "SaleId": 25,
+    "SaleName": "Mante, Braun and White",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 991
+        "FieldType": "System.String",
+        "FieldLength": 101
       }
     }
   }

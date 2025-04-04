@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -92,28 +92,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 6,
+  "EjMessageId": 339,
   "Ticket": null,
-  "CreatedAt": "2024-01-25T14:28:27.3208039+01:00",
+  "CreatedAt": "2017-04-27T13:14:09.3216528+02:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "rerum",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "aut",
-  "TimeSpent": 173,
-  "Body": "repellat",
-  "HtmlBody": "perspiciatis",
-  "EmailHeader": "hollie@krajcik.com",
-  "DebugInfo": "enim",
-  "MailSorter": "laboriosam",
+  "MessageId": "delectus",
+  "TimeSpent": 372,
+  "Body": "alias",
+  "HtmlBody": "rerum",
+  "EmailHeader": "buford@schroeder.name",
+  "DebugInfo": "sit",
+  "MailSorter": "facilis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "unde",
+  "SearchTitle": "recusandae",
   "MessageHeaders": [
     {
-      "Id": 234,
-      "Name": "Will-Schulist",
-      "Value": "aut",
+      "Id": 532,
+      "Name": "Hagenes, Beier and Price",
+      "Value": "est",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -121,50 +121,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 591
+          "FieldLength": 369
         }
       }
     }
   ],
   "Important": false,
-  "Language": "nesciunt",
-  "Sentiment": 229,
-  "SentimentConfidence": 756,
+  "Language": "veritatis",
+  "Sentiment": 752,
+  "SentimentConfidence": 908,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 915,
-      "Name": "Hintz, Parisian and Corwin",
-      "ContentType": "commodi",
-      "AttSize": 580,
-      "InlineImage": true,
-      "ContentId": "culpa",
-      "AuthKey": "explicabo",
+      "AttachmentId": 68,
+      "Name": "Grimes, Cremin and Hauck",
+      "ContentType": "molestiae",
+      "AttSize": 717,
+      "InlineImage": false,
+      "ContentId": "eligendi",
+      "AuthKey": "rerum",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 530
+          "FieldLength": 230
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "id",
-    "ExtraFields2": "ea"
+    "ExtraFields1": "sed",
+    "ExtraFields2": "qui"
   },
   "CustomFields": {
-    "CustomFields1": "nemo",
-    "CustomFields2": "est"
+    "CustomFields1": "ducimus",
+    "CustomFields2": "quidem"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 389
+      "FieldLength": 444
     }
   }
 }

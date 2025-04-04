@@ -82,7 +82,7 @@ OK
 GET /api/v1/List/TicketPriority/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 517,
-  "Name": "Lind-Schuster",
+  "TicketPriorityId": 466,
+  "Name": "Toy LLC",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 26,
+  "SortOrder": 310,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 951,
-  "MonStart": "2013-09-27T14:28:27.7739195+02:00",
-  "MonStop": "2024-02-11T14:28:27.7739195+01:00",
-  "TueStart": "2013-07-14T14:28:27.7739195+02:00",
-  "TueStop": "2008-10-08T14:28:27.7739195+02:00",
-  "WedStart": "2004-10-06T14:28:27.7739195+02:00",
-  "WedStop": "2020-07-19T14:28:27.7739195+02:00",
-  "ThuStart": "2001-02-27T14:28:27.7739195+01:00",
-  "ThuStop": "2020-06-15T14:28:27.7739195+02:00",
-  "FriStart": "2012-10-28T14:28:27.7739195+01:00",
-  "FriStop": "2007-01-27T14:28:27.7739195+01:00",
-  "SatStart": "2002-12-24T14:28:27.7739195+01:00",
-  "SatStop": "2023-06-04T14:28:27.7739195+02:00",
-  "SunStart": "2000-12-01T14:28:27.7739195+01:00",
-  "SunStop": "2000-04-24T14:28:27.7739195+02:00",
+  "Deadline": 263,
+  "MonStart": "2022-08-14T13:14:10.1347951+02:00",
+  "MonStop": "2005-03-26T13:14:10.1347951+01:00",
+  "TueStart": "2021-05-06T13:14:10.1347951+02:00",
+  "TueStop": "2021-02-21T13:14:10.1347951+01:00",
+  "WedStart": "2022-06-06T13:14:10.1347951+02:00",
+  "WedStop": "2001-04-24T13:14:10.1347951+02:00",
+  "ThuStart": "2007-03-23T13:14:10.1347951+01:00",
+  "ThuStop": "2000-01-23T13:14:10.1347951+01:00",
+  "FriStart": "2004-03-18T13:14:10.1347951+01:00",
+  "FriStop": "2024-10-26T13:14:10.1347951+02:00",
+  "SatStart": "2012-04-07T13:14:10.1347951+02:00",
+  "SatStop": "2012-01-20T13:14:10.1347951+01:00",
+  "SunStart": "2019-01-13T13:14:10.1347951+01:00",
+  "SunStop": "2015-11-01T13:14:10.1347951+01:00",
   "NonDates": [
-    "exercitationem",
-    "quibusdam"
+    "repudiandae",
+    "sequi"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 873,
-      "AlertLevel": 137,
-      "AlertTimeout": 133,
-      "Action": 385,
-      "DelegateTo": 831,
-      "ScriptId": 70,
-      "EmailTo": "henriette@braunkuvalis.co.uk",
-      "SmsTo": "enim",
-      "ReplyTemplateIdCustomer": 56,
-      "ReplyTemplateIdUser": 32,
-      "ReplyTemplateIdCatmast": 389,
-      "ReplyTemplateIdEmail": 451,
-      "RtiCustomerSms": 195,
-      "ReplyTemplateIdUserSms": 24,
-      "ReplyTemplateIdCatmastSms": 943,
-      "ReplyTemplateIdSms": 635,
+      "TicketAlertId": 548,
+      "AlertLevel": 166,
+      "AlertTimeout": 627,
+      "Action": 230,
+      "DelegateTo": 951,
+      "ScriptId": 7,
+      "EmailTo": "nova@altenwerth.info",
+      "SmsTo": "tenetur",
+      "ReplyTemplateIdCustomer": 97,
+      "ReplyTemplateIdUser": 549,
+      "ReplyTemplateIdCatmast": 301,
+      "ReplyTemplateIdEmail": 834,
+      "RtiCustomerSms": 143,
+      "ReplyTemplateIdUserSms": 65,
+      "ReplyTemplateIdCatmastSms": 479,
+      "ReplyTemplateIdSms": 960,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 358
+          "FieldLength": 851
         }
       }
     }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 533
     }
   }
 }

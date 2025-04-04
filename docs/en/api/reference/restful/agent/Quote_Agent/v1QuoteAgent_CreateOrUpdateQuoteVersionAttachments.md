@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 597
+  "QuoteVersionId": 806
 }
 ```
 
@@ -92,26 +92,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 116,
+    "DocumentId": 125,
     "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldLength": 272
       }
     }
   },
   {
-    "DocumentId": 116,
+    "DocumentId": 125,
     "Included": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 592
+        "FieldLength": 272
       }
     }
   }

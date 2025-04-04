@@ -67,7 +67,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}/Devices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,25 +75,25 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sun, 26 Mar 2023 14:28:26 G3T
+Last-Modified: Mon, 13 Feb 2017 13:14:08 G2T
 
 [
   {
-    "ForeignDeviceId": 580,
-    "Name": "Graham-Torphy",
-    "CreatedDate": "2007-09-11T14:28:26.9458186+02:00",
-    "UpdatedDate": "2023-03-26T14:28:26.9458186+02:00",
-    "AssociateFullName": "Angus Windler",
-    "CreatedBy": "ex",
-    "UpdatedBy": "dignissimos",
-    "DeviceIdentifier": "eius",
-    "ForeignAppId": 243,
+    "ForeignDeviceId": 738,
+    "Name": "Ankunding-Heller",
+    "CreatedDate": "2002-07-19T13:14:08.7585151+02:00",
+    "UpdatedDate": "2017-02-13T13:14:08.7585151+01:00",
+    "AssociateFullName": "Mrs. Mylene Shields I",
+    "CreatedBy": "ab",
+    "UpdatedBy": "possimus",
+    "DeviceIdentifier": "sapiente",
+    "ForeignAppId": 31,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 974
+        "FieldLength": 556
       }
     }
   }

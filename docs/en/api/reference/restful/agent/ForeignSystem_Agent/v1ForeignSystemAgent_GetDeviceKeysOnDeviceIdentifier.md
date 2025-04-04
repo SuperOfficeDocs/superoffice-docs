@@ -82,13 +82,13 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Spinka-Barrows",
-  "DeviceName": "Spinka, Hartmann and Legros",
-  "DeviceIdentifier": "iure"
+  "ApplicationName": "Schaefer Inc and Sons",
+  "DeviceName": "Douglas-Pfannerstill",
+  "DeviceIdentifier": "dolore"
 }
 ```
 
@@ -100,20 +100,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "impedit",
-    "Value": "doloribus",
-    "RecordId": 927,
-    "CreatedDate": "2021-10-23T14:28:22.0241429+02:00",
-    "UpdatedDate": "2004-08-22T14:28:22.0241429+02:00",
-    "UpdatedBy": "ipsa",
-    "CreatedBy": "nihil",
-    "TableName": "Quigley, Labadie and Feest",
+    "Key": "est",
+    "Value": "dolore",
+    "RecordId": 289,
+    "CreatedDate": "2009-10-15T13:14:00.5168611+02:00",
+    "UpdatedDate": "2000-07-11T13:14:00.5168611+02:00",
+    "UpdatedBy": "sequi",
+    "CreatedBy": "odit",
+    "TableName": "Kozey, Hayes and Carter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 119
+        "FieldType": "System.String",
+        "FieldLength": 626
       }
     }
   }

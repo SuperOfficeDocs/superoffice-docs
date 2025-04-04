@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetProjectMemberDocumentsByTemplateType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 292,
-  "StartTime": "2002-02-28T14:28:21.805403+01:00",
-  "EndTime": "1999-05-24T14:28:21.805403+02:00",
-  "Count": 245,
-  "DocumentTemplateId": 120
+  "PersonId": 956,
+  "StartTime": "1999-10-17T13:14:00.0944666+02:00",
+  "EndTime": "1999-09-06T13:14:00.0944666+02:00",
+  "Count": 97,
+  "DocumentTemplateId": 239
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 266,
-    "Attention": "eum",
-    "Header": "autem",
-    "Name": "Orn-Ryan",
-    "OurRef": "minima",
-    "YourRef": "fugiat",
-    "Description": "Front-line heuristic array",
-    "DocumentTemplate": "non",
-    "IsPublished": false,
-    "PersonId": 708,
-    "PersonFullName": "Jacey Bayer",
-    "AssociateFullName": "Haylie Marquardt",
-    "ContactId": 280,
-    "ContactName": "Ratke Inc and Sons",
-    "ProjectId": 660,
-    "ProjectName": "Turcotte-Carter",
-    "AssociateId": 799,
-    "Snum": 798,
-    "SaleId": 333,
-    "SaleName": "Ebert LLC",
+    "DocumentId": 410,
+    "Attention": "alias",
+    "Header": "nihil",
+    "Name": "Rohan-Parker",
+    "OurRef": "ab",
+    "YourRef": "qui",
+    "Description": "Re-engineered zero defect website",
+    "DocumentTemplate": "vero",
+    "IsPublished": true,
+    "PersonId": 866,
+    "PersonFullName": "Heather Olson",
+    "AssociateFullName": "Arvilla Nolan",
+    "ContactId": 87,
+    "ContactName": "Sporer-Nikolaus",
+    "ProjectId": 93,
+    "ProjectName": "Vandervort LLC",
+    "AssociateId": 547,
+    "Snum": 716,
+    "SaleId": 185,
+    "SaleName": "Friesen-Gaylord",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 720
+        "FieldType": "System.String",
+        "FieldLength": 496
       }
     }
   }

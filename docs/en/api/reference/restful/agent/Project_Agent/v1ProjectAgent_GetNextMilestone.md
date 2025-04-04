@@ -126,11 +126,11 @@ OK
 POST /api/v1/Agents/Project/GetNextMilestone
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 452
+  "ProjectId": 763
 }
 ```
 
@@ -141,66 +141,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 420,
-  "StartDate": "2012-08-11T14:28:22.2585084+02:00",
-  "EndDate": "2006-11-06T14:28:22.2585084+01:00",
+  "AppointmentId": 79,
+  "StartDate": "2013-05-08T13:14:00.9234102+02:00",
+  "EndDate": "2008-08-14T13:14:00.9234102+02:00",
   "Type": "BookingForChecklist",
-  "Task": "veniam",
-  "AssociateFullName": "Prof. Abraham Rigoberto Emard PhD",
-  "ContactName": "Lubowitz-Konopelski",
-  "Description": "Profound secondary data-warehouse",
-  "PersonFullName": "Mrs. Felicity Rau",
-  "PersonId": 998,
-  "ContactId": 204,
-  "ProjectId": 961,
-  "ProjectName": "Auer, Turcotte and Funk",
+  "Task": "mollitia",
+  "AssociateFullName": "Enos Metz II",
+  "ContactName": "Kuphal, Schamberger and Bartoletti",
+  "Description": "Ergonomic interactive service-desk",
+  "PersonFullName": "Kayla Ryan",
+  "PersonId": 290,
+  "ContactId": 335,
+  "ProjectId": 993,
+  "ProjectName": "Rohan-Windler",
   "IsPublished": false,
-  "AssociateId": 811,
-  "ColorIndex": 971,
+  "AssociateId": 539,
+  "ColorIndex": 425,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": false,
   "Private": "PrivateGroup",
-  "PriorityId": 391,
-  "PriorityName": "Hilll, Wyman and Hessel",
+  "PriorityId": 717,
+  "PriorityName": "Bins-Klocko",
   "TaskType": "Appointment",
   "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": true,
-  "ActiveDate": "2005-06-13T14:28:22.2585084+02:00",
+  "ActiveDate": "2023-01-28T13:14:00.9234102+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2000-01-25T14:28:22.2585084+01:00",
-  "RecurringEndDate": "2020-05-28T14:28:22.2585084+02:00",
-  "MotherId": 785,
-  "AssignedBy": 281,
-  "AssignedByFullName": "Leora Stroman",
-  "RejectReason": "",
-  "Location": "sunt",
-  "AlarmLeadTime": "sunt",
-  "SaleId": 982,
-  "SaleName": "Kuhn, Ritchie and Turcotte",
-  "AssociateName": "Mills-Lind",
-  "CreatedDate": "2018-11-17T14:28:22.2585084+01:00",
-  "CreatedBy": "sapiente",
-  "CreatedByFullName": "Jaylan Jacynthe Boyle PhD",
-  "CreatedByAssociateId": 233,
+  "RecurringStartDate": "2016-05-04T13:14:00.9234102+02:00",
+  "RecurringEndDate": "2015-08-06T13:14:00.9234102+02:00",
+  "MotherId": 840,
+  "AssignedBy": 823,
+  "AssignedByFullName": "Mrs. Danyka Marietta Littel",
+  "RejectReason": "grow intuitive metrics",
+  "Location": "exercitationem",
+  "AlarmLeadTime": "sed",
+  "SaleId": 790,
+  "SaleName": "Stiedemann-Kris",
+  "AssociateName": "Kuhlman, VonRueden and Fahey",
+  "CreatedDate": "2022-03-01T13:14:00.9234102+01:00",
+  "CreatedBy": "ad",
+  "CreatedByFullName": "Winfield Anderson",
+  "CreatedByAssociateId": 550,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 512,
-  "Title": "expedita",
-  "Agenda": "veritatis",
-  "InternalNotes": "incidunt",
+  "PreferredTZLocation": 454,
+  "Title": "dolor",
+  "Agenda": "placeat",
+  "InternalNotes": "voluptatum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 534
+      "FieldType": "System.String",
+      "FieldLength": 670
     }
   }
 }

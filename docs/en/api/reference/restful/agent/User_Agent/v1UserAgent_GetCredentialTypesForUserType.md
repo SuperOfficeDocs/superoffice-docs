@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayType": "sit",
-    "Type": "blanditiis",
-    "Description": "Upgradable maximized parallelism",
+    "DisplayType": "dolores",
+    "Type": "quis",
+    "Description": "Programmable secondary challenge",
     "ValueControl": "Edit",
-    "CanCreatePerson": true,
-    "IsUserNameSupported": true,
+    "CanCreatePerson": false,
+    "IsUserNameSupported": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 665
+        "FieldLength": 510
       }
     }
   }

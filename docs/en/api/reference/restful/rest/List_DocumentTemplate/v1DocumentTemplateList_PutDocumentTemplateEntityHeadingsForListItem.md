@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 246,
-    "Name": "Terry-Rodriguez",
-    "ToolTip": "Voluptatem nihil aliquam.",
-    "Deleted": false,
-    "Rank": 253,
-    "Type": "et",
-    "ColorBlock": 529,
-    "IconHint": "doloribus",
+    "Id": 279,
+    "Name": "Fadel Group",
+    "ToolTip": "Similique libero sapiente incidunt cupiditate.",
+    "Deleted": true,
+    "Rank": 414,
+    "Type": "doloribus",
+    "ColorBlock": 300,
+    "IconHint": "perferendis",
     "Selected": false,
-    "LastChanged": "2011-05-18T14:28:27.5707933+02:00",
+    "LastChanged": "2000-07-02T13:14:09.7753986+02:00",
     "ChildItems": [
       {
-        "Id": 322,
-        "Name": "Brekke Group",
-        "ToolTip": "In enim.",
-        "Deleted": true,
-        "Rank": 229,
-        "Type": "ut",
-        "ColorBlock": 213,
-        "IconHint": "aliquid",
+        "Id": 141,
+        "Name": "Rempel LLC",
+        "ToolTip": "Iusto earum omnis ducimus neque ducimus aut accusamus.",
+        "Deleted": false,
+        "Rank": 596,
+        "Type": "sunt",
+        "ColorBlock": 103,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2024-12-04T14:28:27.5707933+01:00",
+        "LastChanged": "2019-04-25T13:14:09.7753986+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quam",
-        "StyleHint": "alias",
+        "ExtraInfo": "cum",
+        "StyleHint": "voluptatem",
         "Hidden": false,
-        "FullName": "Stephany Schuster"
+        "FullName": "Erin Lynch"
       }
     ],
-    "ExtraInfo": "omnis",
-    "StyleHint": "hic",
+    "ExtraInfo": "rerum",
+    "StyleHint": "ea",
     "Hidden": false,
-    "FullName": "Jennyfer Schaden"
+    "FullName": "Mrs. Bessie Tina Mosciski"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 977,
-    "Name": "Dooley, Stanton and Walsh",
-    "ToolTip": "Vitae vero.",
+    "Id": 732,
+    "Name": "Von-Okuneva",
+    "ToolTip": "Nihil facere est saepe sed.",
     "Deleted": false,
-    "Rank": 138,
-    "Type": "optio",
-    "ColorBlock": 413,
-    "IconHint": "dolorum",
+    "Rank": 635,
+    "Type": "qui",
+    "ColorBlock": 567,
+    "IconHint": "dicta",
     "Selected": false,
-    "LastChanged": "2024-03-09T14:28:27.5707933+01:00",
+    "LastChanged": "2022-10-20T13:14:09.7910245+02:00",
     "ChildItems": [
       {
-        "Id": 758,
-        "Name": "O'Reilly LLC",
-        "ToolTip": "Tenetur in maxime itaque doloribus magni et.",
+        "Id": 287,
+        "Name": "Hudson LLC",
+        "ToolTip": "Recusandae itaque sed quod.",
         "Deleted": false,
-        "Rank": 348,
-        "Type": "illo",
-        "ColorBlock": 442,
-        "IconHint": "voluptatem",
-        "Selected": true,
-        "LastChanged": "2023-12-30T14:28:27.5707933+01:00",
+        "Rank": 846,
+        "Type": "et",
+        "ColorBlock": 253,
+        "IconHint": "voluptates",
+        "Selected": false,
+        "LastChanged": "1998-08-23T13:14:09.7910245+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ullam",
-        "StyleHint": "sed",
+        "ExtraInfo": "error",
+        "StyleHint": "est",
         "Hidden": false,
-        "FullName": "Willy Wuckert",
+        "FullName": "Sonny Pierce Schmitt MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 589
+            "FieldType": "System.Int32",
+            "FieldLength": 96
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "quae",
-    "Hidden": true,
-    "FullName": "Prof. Emile Elbert Jast I",
+    "ExtraInfo": "est",
+    "StyleHint": "ipsum",
+    "Hidden": false,
+    "FullName": "Alf Hettinger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 973
+        "FieldType": "System.String",
+        "FieldLength": 399
       }
     }
   }

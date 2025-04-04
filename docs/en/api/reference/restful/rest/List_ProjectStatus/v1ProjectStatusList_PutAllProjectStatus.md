@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 787,
-    "Name": "Hessel, Champlin and Nolan",
-    "Tooltip": "natus",
-    "Deleted": false,
-    "UdListDefinitionId": 550,
-    "Rank": 529
+    "Id": 193,
+    "Name": "Schimmel Inc and Sons",
+    "Tooltip": "doloribus",
+    "Deleted": true,
+    "UdListDefinitionId": 779,
+    "Rank": 2
   },
   {
-    "Id": 787,
-    "Name": "Hessel, Champlin and Nolan",
-    "Tooltip": "natus",
-    "Deleted": false,
-    "UdListDefinitionId": 550,
-    "Rank": 529
+    "Id": 193,
+    "Name": "Schimmel Inc and Sons",
+    "Tooltip": "doloribus",
+    "Deleted": true,
+    "UdListDefinitionId": 779,
+    "Rank": 2
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 671,
-    "Name": "Howell Group",
-    "Tooltip": "exercitationem",
-    "Deleted": true,
-    "UdListDefinitionId": 782,
-    "Rank": 681,
+    "Id": 100,
+    "Name": "Franecki Inc and Sons",
+    "Tooltip": "maxime",
+    "Deleted": false,
+    "UdListDefinitionId": 389,
+    "Rank": 759,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 840
+        "FieldType": "System.Int32",
+        "FieldLength": 628
       }
     }
   }

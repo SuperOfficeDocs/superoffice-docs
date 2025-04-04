@@ -102,55 +102,55 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumnsWithHeader
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Jaskolski-Bailey",
+  "ProviderName": "Ledner LLC",
   "Columns": [
-    "consequuntur",
+    "in",
     "et"
   ],
   "SortOrder": [
     {
-      "Name": "Jast, Rice and Nader",
+      "Name": "Koepp, Nikolaus and Kutch",
       "Direction": "ASC"
     },
     {
-      "Name": "Jast, Rice and Nader",
+      "Name": "Koepp, Nikolaus and Kutch",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "O'Connell Inc and Sons",
-      "Operator": "cupiditate",
+      "Name": "Harvey, Waters and Lowe",
+      "Operator": "rerum",
       "Values": [
-        "consequatur",
-        "facere"
+        "vero",
+        "ut"
       ],
       "DisplayValues": [
-        "nobis",
-        "rerum"
+        "optio",
+        "dolorem"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 793,
+      "InterParenthesis": 851,
       "InterOperator": "And",
-      "UniqueHash": 327
+      "UniqueHash": 151
     }
   ],
   "Entities": [
-    "autem",
-    "ut"
+    "esse",
+    "beatae"
   ],
-  "Page": 655,
-  "PageSize": 518,
-  "Options": "quasi"
+  "Page": 4,
+  "PageSize": 897,
+  "Options": "molestiae"
 }
 ```
 
@@ -161,26 +161,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 266,
+  "RowCount": 282,
   "Rows": [
     {
-      "EntityName": "DuBuque, Blanda and Lueilwitz",
-      "PrimaryKey": 913,
+      "EntityName": "Kuhn-Torphy",
+      "PrimaryKey": 718,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "voluptates",
-          "TooltipHint": "quaerat",
-          "LinkHint": "pariatur"
+          "DisplayValue": "velit",
+          "TooltipHint": "accusantium",
+          "LinkHint": "voluptas"
         }
       },
-      "LinkHint": "culpa",
-      "StyleHint": "cupiditate",
+      "LinkHint": "dolor",
+      "StyleHint": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 136
+          "FieldLength": 748
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 881
+      "FieldType": "System.String",
+      "FieldLength": 897
     }
   }
 }

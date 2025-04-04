@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 879,
-    "Name": "Lindgren Inc and Sons",
-    "ToolTip": "Nobis ut.",
-    "Deleted": false,
-    "Rank": 641,
-    "Type": "distinctio",
-    "ColorBlock": 730,
-    "IconHint": "modi",
+    "Id": 374,
+    "Name": "Boyer-Waelchi",
+    "ToolTip": "Incidunt itaque sit enim.",
+    "Deleted": true,
+    "Rank": 896,
+    "Type": "in",
+    "ColorBlock": 606,
+    "IconHint": "exercitationem",
     "Selected": false,
-    "LastChanged": "2024-11-16T14:28:27.6489147+01:00",
+    "LastChanged": "2004-07-16T13:14:09.9629099+02:00",
     "ChildItems": [
       {
-        "Id": 396,
-        "Name": "Reynolds Group",
-        "ToolTip": "Omnis laudantium suscipit numquam qui non.",
-        "Deleted": true,
-        "Rank": 134,
-        "Type": "cumque",
-        "ColorBlock": 706,
-        "IconHint": "occaecati",
+        "Id": 330,
+        "Name": "Bechtelar Inc and Sons",
+        "ToolTip": "Debitis ut sint facere aut dignissimos.",
+        "Deleted": false,
+        "Rank": 240,
+        "Type": "ratione",
+        "ColorBlock": 481,
+        "IconHint": "veniam",
         "Selected": false,
-        "LastChanged": "2005-11-21T14:28:27.6489147+01:00",
+        "LastChanged": "2017-01-25T13:14:09.9629099+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Mrs. Adrain Alexane Schultz Sr."
+        "ExtraInfo": "quia",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Lonie Barrows"
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "est",
-    "Hidden": false,
-    "FullName": "Miss Dasia Karlee Kerluke"
+    "ExtraInfo": "quod",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Helen Lubowitz"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 989,
-    "Name": "Smith-Prohaska",
-    "ToolTip": "Dicta odio reiciendis quas fugit dolor.",
+    "Id": 914,
+    "Name": "Lakin Group",
+    "ToolTip": "Possimus non fuga dolores.",
     "Deleted": false,
-    "Rank": 474,
-    "Type": "labore",
-    "ColorBlock": 660,
-    "IconHint": "in",
-    "Selected": false,
-    "LastChanged": "2015-05-01T14:28:27.6489147+02:00",
+    "Rank": 443,
+    "Type": "fugit",
+    "ColorBlock": 663,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2013-10-02T13:14:09.9629099+02:00",
     "ChildItems": [
       {
-        "Id": 15,
-        "Name": "Pacocha, Mann and Gottlieb",
-        "ToolTip": "Consequatur molestias impedit exercitationem unde.",
+        "Id": 215,
+        "Name": "Koepp, Von and Aufderhar",
+        "ToolTip": "Asperiores consequatur mollitia deserunt aut beatae necessitatibus veniam.",
         "Deleted": false,
-        "Rank": 128,
-        "Type": "ducimus",
-        "ColorBlock": 413,
-        "IconHint": "quia",
+        "Rank": 140,
+        "Type": "qui",
+        "ColorBlock": 431,
+        "IconHint": "suscipit",
         "Selected": false,
-        "LastChanged": "2020-02-25T14:28:27.6489147+01:00",
+        "LastChanged": "2003-02-15T13:14:09.9629099+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veritatis",
-        "StyleHint": "deleniti",
+        "ExtraInfo": "quia",
+        "StyleHint": "expedita",
         "Hidden": false,
-        "FullName": "Pedro Dare",
+        "FullName": "Dario Koss",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 221
+            "FieldLength": 825
           }
         }
       }
     ],
-    "ExtraInfo": "ad",
-    "StyleHint": "quasi",
+    "ExtraInfo": "cupiditate",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Belle Pfannerstill",
+    "FullName": "Earnest Christiansen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 676
+        "FieldLength": 391
       }
     }
   }

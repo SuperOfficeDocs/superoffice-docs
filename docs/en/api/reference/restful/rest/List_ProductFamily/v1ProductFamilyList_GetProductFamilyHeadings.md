@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 7,
-    "Name": "Yost, Ratke and Stark",
-    "Tooltip": "odit",
+    "HeadingId": 836,
+    "Name": "Goyette-Schroeder",
+    "Tooltip": "labore",
     "Deleted": true,
-    "Rank": 976,
-    "UdListDefinitionId": 14,
+    "Rank": 337,
+    "UdListDefinitionId": 197,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldType": "System.String",
+        "FieldLength": 622
       }
     }
   }

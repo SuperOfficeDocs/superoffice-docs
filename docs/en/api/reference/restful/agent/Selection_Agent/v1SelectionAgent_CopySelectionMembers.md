@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromSelectionId": 75,
-  "ToSelectionId": 694
+  "FromSelectionId": 156,
+  "ToSelectionId": 769
 }
 ```
 

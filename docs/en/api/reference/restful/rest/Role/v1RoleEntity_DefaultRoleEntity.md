@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 379,
-  "Name": "Emard-Wilkinson",
-  "Tooltip": "ipsum",
+  "RoleId": 897,
+  "Name": "Yundt-Cummerata",
+  "Tooltip": "eveniet",
   "RoleType": "Anonymous",
-  "Deleted": 211,
-  "Rank": 698,
-  "Created": "2009-11-19T14:28:27.0551896+01:00",
-  "UseCategories": 214,
+  "Deleted": 740,
+  "Rank": 838,
+  "Created": "2018-04-20T13:14:08.9461361+02:00",
+  "UseCategories": 773,
   "CreatedBy": null,
-  "Updated": "2013-01-03T14:28:27.0551896+01:00",
+  "Updated": "2017-06-26T13:14:08.9461361+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 119
+      "FieldType": "System.String",
+      "FieldLength": 12
     }
   }
 }

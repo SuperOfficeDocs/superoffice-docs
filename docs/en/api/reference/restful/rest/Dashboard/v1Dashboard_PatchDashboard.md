@@ -118,12 +118,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "porro",
+    "path": "rerum",
     "value": {}
   },
   {
     "op": "add",
-    "path": "porro",
+    "path": "rerum",
     "value": {}
   }
 ]
@@ -136,22 +136,22 @@ HTTP/1.1 200 Dashboard  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 776,
-  "AssociateId": 891,
-  "Caption": "ut",
+  "DashboardId": 567,
+  "AssociateId": 59,
+  "Caption": "eos",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 78,
-      "Caption": "voluptates",
-      "Description": "Fundamental eco-centric application",
-      "ChartName": "Baumbach, Bradtke and Schaefer",
-      "ChartId": "qui",
+      "DashboardTileId": 535,
+      "Caption": "quod",
+      "Description": "Diverse fresh-thinking functionalities",
+      "ChartName": "Stiedemann-Batz",
+      "ChartId": "quasi",
       "IsDefault": false,
-      "AssociateId": 400,
-      "GroupId": 823,
-      "SelectionId": 225,
-      "Config": "est",
+      "AssociateId": 963,
+      "GroupId": 619,
+      "SelectionId": 905,
+      "Config": "exercitationem",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -166,8 +166,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 384
+          "FieldType": "System.Int32",
+          "FieldLength": 979
         }
       }
     }
@@ -177,7 +177,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 737
+      "FieldLength": 71
     }
   },
   "_Links": {

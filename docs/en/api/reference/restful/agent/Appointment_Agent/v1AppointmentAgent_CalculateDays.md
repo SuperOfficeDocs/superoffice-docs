@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Appointment/CalculateDays
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 680,
-  "StartDate": "2002-02-14T14:28:21.3522957+01:00",
-  "EndDate": "2023-06-28T14:28:21.3522957+02:00",
-  "RecurrenceCounter": 745,
+  "RecurrenceId": 902,
+  "StartDate": "2003-07-07T13:13:59.2969775+02:00",
+  "EndDate": "2003-07-08T13:13:59.2969775+02:00",
+  "RecurrenceCounter": 91,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2001-12-08T14:28:21.3522957+01:00",
+      "Date": "2003-05-26T13:13:59.2969775+02:00",
       "IsConflict": true,
-      "Description": "Ergonomic coherent knowledge user",
-      "DescriptionStyleHint": "Optimized bottom-line hardware",
-      "Tooltip": "qui"
+      "Description": "Secured client-server emulation",
+      "DescriptionStyleHint": "Robust intangible benchmark",
+      "Tooltip": "porro"
     },
     {
-      "Date": "2001-12-08T14:28:21.3522957+01:00",
+      "Date": "2003-05-26T13:13:59.2969775+02:00",
       "IsConflict": true,
-      "Description": "Ergonomic coherent knowledge user",
-      "DescriptionStyleHint": "Optimized bottom-line hardware",
-      "Tooltip": "qui"
+      "Description": "Secured client-server emulation",
+      "DescriptionStyleHint": "Robust intangible benchmark",
+      "Tooltip": "porro"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

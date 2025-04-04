@@ -78,16 +78,16 @@ OK
 POST /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 418,
-  "Name": "Green, O'Kon and Kilback",
-  "Tooltip": "molestiae",
+  "HeadingId": 826,
+  "Name": "Schultz LLC",
+  "Tooltip": "omnis",
   "Deleted": false,
-  "Rank": 516,
-  "UdListDefinitionId": 972
+  "Rank": 679,
+  "UdListDefinitionId": 360
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 799,
-  "Name": "Oberbrunner Inc and Sons",
-  "Tooltip": "vel",
+  "HeadingId": 737,
+  "Name": "Leuschke LLC",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 672,
-  "UdListDefinitionId": 860,
+  "Rank": 911,
+  "UdListDefinitionId": 89,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 418
     }
   }
 }

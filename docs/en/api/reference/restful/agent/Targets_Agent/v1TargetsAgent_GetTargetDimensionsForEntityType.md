@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetDimensionId": 487,
+    "TargetDimensionId": 946,
     "AssignmentLevel": "Associate",
     "EntityType": "None",
     "MeasurementUnit": "Amount",
-    "DimensionListField": "iusto",
-    "DimensionListName": "Muller Group",
-    "DimensionListId": 940,
-    "DimensionListLabel": "natus",
+    "DimensionListField": "doloribus",
+    "DimensionListName": "Waelchi, DuBuque and Bartoletti",
+    "DimensionListId": 142,
+    "DimensionListLabel": "et",
     "SelectedDimensions": [
-      156,
-      659
+      65,
+      650
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 707
+        "FieldType": "System.String",
+        "FieldLength": 48
       }
     }
   }

@@ -86,11 +86,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quaerat",
-  "ProviderName": "Fahey-Grimes",
-  "StorageKey": "sed",
-  "Restrictions": "et",
-  "StaticColumns": "eius"
+  "StorageType": "blanditiis",
+  "ProviderName": "Kreiger-Sawayn",
+  "StorageKey": "optio",
+  "Restrictions": "accusantium",
+  "StaticColumns": "et"
 }
 ```
 
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Rath, Wisoky and Orn",
-      "Operator": "nostrum",
+      "Name": "Harvey, Hammes and Brakus",
+      "Operator": "et",
       "Values": [
-        "ea",
-        "debitis"
+        "similique",
+        "rem"
       ],
       "DisplayValues": [
-        "eligendi",
-        "maiores"
+        "minus",
+        "fugiat"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 8,
+      "InterParenthesis": 53,
       "InterOperator": "And",
-      "UniqueHash": 14
+      "UniqueHash": 855
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Lueilwitz, Botsford and Hahn",
-      "DisplayTooltip": "consequatur",
-      "DisplayType": "sint",
-      "CanOrderBy": false,
-      "Name": "Daugherty, Berge and Zulauf",
+      "DisplayName": "Bailey LLC",
+      "DisplayTooltip": "qui",
+      "DisplayType": "eveniet",
+      "CanOrderBy": true,
+      "Name": "Adams Group",
       "CanRestrictBy": false,
-      "RestrictionType": "cumque",
-      "RestrictionListName": "Dickens, Maggio and Bahringer",
+      "RestrictionType": "aperiam",
+      "RestrictionListName": "Bode, Hirthe and Lemke",
       "IsVisible": false,
-      "ExtraInfo": "iure",
-      "Width": "praesentium",
-      "IconHint": "omnis",
-      "HeadingIconHint": "cumque"
+      "ExtraInfo": "nesciunt",
+      "Width": "id",
+      "IconHint": "autem",
+      "HeadingIconHint": "animi"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Quitzon, Reynolds and Nitzsche",
-      "PrimaryKey": 225,
+      "EntityName": "Jerde, Keebler and Treutel",
+      "PrimaryKey": 786,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "qui",
-          "TooltipHint": "dolores",
-          "LinkHint": "vero"
+          "DisplayValue": "doloremque",
+          "TooltipHint": "occaecati",
+          "LinkHint": "est"
         }
       },
-      "LinkHint": "quo",
-      "StyleHint": "necessitatibus",
+      "LinkHint": "explicabo",
+      "StyleHint": "non",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 605
+          "FieldLength": 391
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "West-Veum",
-      "Description": "Switchable bottom-line policy",
-      "Rank": 554,
+      "Name": "Koepp-Wunsch",
+      "Description": "Phased fault-tolerant model",
+      "Rank": 560,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "West-Veum",
-      "Description": "Switchable bottom-line policy",
-      "Rank": 554,
+      "Name": "Koepp-Wunsch",
+      "Description": "Phased fault-tolerant model",
+      "Rank": 560,
       "Restrictions": [
         {},
         {}
@@ -189,7 +189,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldLength": 270
     }
   }
 }

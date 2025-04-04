@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Port": 291,
-  "ServerName": "Feeney, Moen and Walter",
-  "Protocol": "et",
-  "UserName": "Berge Inc and Sons",
-  "Password": "sit",
+  "Port": 512,
+  "ServerName": "Becker-Shanahan",
+  "Protocol": "aut",
+  "UserName": "Ward, Schaden and Abernathy",
+  "Password": "rem",
   "UseSSL": false,
-  "Folder": "iusto",
+  "Folder": "fugiat",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 417
     }
   }
 }

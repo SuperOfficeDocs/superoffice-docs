@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Position/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 581,
-    "Name": "Steuber-Stanton",
-    "Tooltip": "facilis",
-    "Deleted": true,
-    "Rank": 799,
-    "UdListDefinitionId": 407
+    "HeadingId": 874,
+    "Name": "Mertz Inc and Sons",
+    "Tooltip": "natus",
+    "Deleted": false,
+    "Rank": 757,
+    "UdListDefinitionId": 263
   },
   {
-    "HeadingId": 581,
-    "Name": "Steuber-Stanton",
-    "Tooltip": "facilis",
-    "Deleted": true,
-    "Rank": 799,
-    "UdListDefinitionId": 407
+    "HeadingId": 874,
+    "Name": "Mertz Inc and Sons",
+    "Tooltip": "natus",
+    "Deleted": false,
+    "Rank": 757,
+    "UdListDefinitionId": 263
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 531,
-    "Name": "Hansen-Denesik",
-    "Tooltip": "assumenda",
+    "HeadingId": 104,
+    "Name": "Mosciski, Schumm and Barrows",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 816,
-    "UdListDefinitionId": 692,
+    "Rank": 712,
+    "UdListDefinitionId": 534,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldLength": 807
       }
     }
   }

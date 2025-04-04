@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 461,
-  "ColumnId": 562,
-  "FieldDefault": "commodi",
-  "FieldHeight": 737,
-  "FieldLabel": "ratione",
-  "FieldLeft": 47,
-  "FieldTop": 571,
+  "UDefFieldId": 308,
+  "ColumnId": 4,
+  "FieldDefault": "reiciendis",
+  "FieldHeight": 414,
+  "FieldLabel": "et",
+  "FieldLeft": 1002,
+  "FieldTop": 729,
   "FieldType": "Checkbox",
-  "FieldWidth": 191,
-  "FormatMask": "est",
+  "FieldWidth": 14,
+  "FormatMask": "neque",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 624,
-  "LabelLeft": 762,
-  "LabelTop": 853,
-  "LabelWidth": 880,
-  "LastVersionId": 556,
-  "ListTableId": 487,
-  "IsMandatory": false,
+  "LabelHeight": 97,
+  "LabelLeft": 318,
+  "LabelTop": 893,
+  "LabelWidth": 575,
+  "LastVersionId": 490,
+  "ListTableId": 981,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 929,
-  "ProgId": "consequuntur",
-  "IsReadOnly": false,
-  "ShortLabel": "quos",
-  "TabOrder": 785,
-  "TextLength": 862,
-  "Tooltip": "et",
-  "UdefIdentity": 748,
-  "UDListDefinitionId": 275,
+  "Page1LineNo": 104,
+  "ProgId": "quo",
+  "IsReadOnly": true,
+  "ShortLabel": "quia",
+  "TabOrder": 63,
+  "TextLength": 159,
+  "Tooltip": "incidunt",
+  "UdefIdentity": 769,
+  "UDListDefinitionId": 474,
   "Justification": "Center",
-  "Version": 878,
-  "TemplateVariableName": "Cummings-Klocko",
+  "Version": 411,
+  "TemplateVariableName": "Muller-Jakubowski",
   "HasBeenPublished": false,
-  "MdoListName": "Bins-Wintheiser",
+  "MdoListName": "Wunsch-Durgan",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 666
+      "FieldType": "System.Int32",
+      "FieldLength": 197
     }
   }
 }

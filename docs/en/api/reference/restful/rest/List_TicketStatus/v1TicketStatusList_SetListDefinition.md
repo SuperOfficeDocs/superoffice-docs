@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/TicketStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 828,
-  "Name": "Murray-Connelly",
-  "Tooltip": "vel",
-  "Deleted": true,
-  "Rank": 566,
+  "Id": 269,
+  "Name": "Hammes Inc and Sons",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 154,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quam",
-  "InUseByUserDefinedFields": false
+  "UseGroupsAndHeadings": true,
+  "ListType": "mollitia",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 761,
-  "Name": "Rodriguez, Frami and Williamson",
-  "Tooltip": "sunt",
+  "Id": 30,
+  "Name": "Lehner Inc and Sons",
+  "Tooltip": "nam",
   "Deleted": true,
-  "Rank": 595,
-  "IsCustomList": false,
+  "Rank": 669,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "exercitationem",
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 565
+      "FieldType": "System.Int32",
+      "FieldLength": 155
     }
   }
 }

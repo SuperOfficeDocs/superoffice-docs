@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Abbott Inc and Sons",
-  "AllowPersonal": false,
-  "UiCulture": "ut"
+  "TemplateName": "Rutherford, Feeney and Crist",
+  "AllowPersonal": true,
+  "UiCulture": "magni"
 }
 ```
 

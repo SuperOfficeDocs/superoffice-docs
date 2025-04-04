@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 148,
-  "Name": "Koelpin, Murazik and Kling",
-  "Tooltip": "qui",
-  "Rank": 74,
+  "SaleTypeId": 882,
+  "Name": "Morar, Rowe and Kerluke",
+  "Tooltip": "ipsam",
+  "Rank": 407,
   "DurationUnit": "Century",
-  "SaleDuration": 9,
-  "SaleTypeCatId": 326,
-  "Deleted": false,
-  "HasGuide": true,
+  "SaleDuration": 227,
+  "SaleTypeCatId": 174,
+  "Deleted": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": true,
-  "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 317,
-  "QuoteLinesTemplate": 291,
-  "ConfirmationLinesTemplate": 999,
+  "AllowQuoteAlternatives": true,
+  "DefaultQuoteValidity": 740,
+  "QuoteLinesTemplate": 287,
+  "ConfirmationLinesTemplate": 576,
   "MaxDiscountPercentSet": true,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 702,
-  "MinEarningPercent": 603,
-  "GroupQuoteLinesBy": 1001,
-  "SortGroupLinesBy": 793,
+  "MaxDiscountPercent": 817,
+  "MinEarningPercent": 385,
+  "GroupQuoteLinesBy": 857,
+  "SortGroupLinesBy": 160,
   "Stages": [
     {
-      "Id": 286,
-      "Name": "Daugherty-Hamill",
-      "ToolTip": "Molestias atque.",
-      "Deleted": true,
-      "Rank": 895,
-      "Type": "quaerat",
-      "ColorBlock": 506,
-      "IconHint": "non",
-      "Selected": true,
-      "LastChanged": "2011-06-06T14:28:27.6957886+02:00",
+      "Id": 503,
+      "Name": "Hartmann Group",
+      "ToolTip": "Veniam quia velit quia voluptatem.",
+      "Deleted": false,
+      "Rank": 457,
+      "Type": "recusandae",
+      "ColorBlock": 252,
+      "IconHint": "sed",
+      "Selected": false,
+      "LastChanged": "2019-08-30T13:14:10.0566655+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "eligendi",
-      "StyleHint": "illum",
+      "ExtraInfo": "laboriosam",
+      "StyleHint": "aut",
       "Hidden": false,
-      "FullName": "Ms. Otilia Ceasar Kling",
+      "FullName": "Zoe Reynolds",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 980
+          "FieldLength": 4
         }
       }
     }
@@ -148,8 +148,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 692
+      "FieldType": "System.Int32",
+      "FieldLength": 837
     }
   }
 }

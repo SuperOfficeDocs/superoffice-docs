@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "porro",
-  "Key": "neque",
+  "Section": "ut",
+  "Key": "dolorem",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 112,
-  "Section": "et",
-  "Key": "ad",
-  "Name": "Bogisich, Kub and Pagac",
+  "PrefDescId": 316,
+  "Section": "ducimus",
+  "Key": "et",
+  "Name": "Hickle-Effertz",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Proactive demand-driven secured line",
+  "Description": "Inverse coherent intranet",
   "IsBuiltin": false,
-  "TableName": "Smith Inc and Sons",
-  "UserDefinedListId": 38,
-  "Rank": 294,
-  "SubGroup": "voluptates",
-  "MinLevel": 142,
-  "MaxValue": 283,
-  "MinValue": 575,
-  "RequiredLicense": "sit",
+  "TableName": "Schneider LLC",
+  "UserDefinedListId": 91,
+  "Rank": 483,
+  "SubGroup": "non",
+  "MinLevel": 847,
+  "MaxValue": 755,
+  "MinValue": 256,
+  "RequiredLicense": "alias",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 866
+      "FieldLength": 154
     }
   }
 }

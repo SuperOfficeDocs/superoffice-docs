@@ -86,15 +86,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 575,
-  "PrefDescId": 141,
-  "PrefValue": "quisquam",
-  "PrefShowValue": "nam",
-  "Description": "Multi-channelled non-volatile array",
+  "PrefDescLineId": 615,
+  "PrefDescId": 206,
+  "PrefValue": "est",
+  "PrefShowValue": "consequuntur",
+  "Description": "Re-engineered eco-centric interface",
   "IsBuiltin": false
 }
 ```
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 639,
-  "PrefDescId": 743,
-  "PrefValue": "dolor",
-  "PrefShowValue": "consequatur",
-  "Description": "Fundamental foreground architecture",
-  "IsBuiltin": false,
+  "PrefDescLineId": 708,
+  "PrefDescId": 259,
+  "PrefValue": "nulla",
+  "PrefShowValue": "facilis",
+  "Description": "Streamlined uniform initiative",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldType": "System.String",
+      "FieldLength": 548
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

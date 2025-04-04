@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Project/GetMyMemberProjects
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -93,30 +93,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 720,
-    "Name": "Bogan LLC",
-    "Description": "Distributed bi-directional artificial intelligence",
+    "ProjectId": 32,
+    "Name": "Tillman-Abbott",
+    "Description": "Switchable empowering interface",
     "URL": "http://www.example.com/",
-    "Type": "accusamus",
-    "AssociateId": 981,
-    "AssociateFullName": "Jessica Syble Brekke I",
-    "TypeId": 189,
-    "Updated": "2022-06-29T14:28:22.2585084+02:00",
-    "StatusId": 252,
-    "Status": "nemo",
-    "TextId": 504,
-    "PublishTo": "1999-09-21T14:28:22.2585084+02:00",
-    "PublishFrom": "2021-11-24T14:28:22.2585084+01:00",
+    "Type": "ipsa",
+    "AssociateId": 407,
+    "AssociateFullName": "Dorothea Moore",
+    "TypeId": 727,
+    "Updated": "2012-01-21T13:14:00.9234102+01:00",
+    "StatusId": 602,
+    "Status": "voluptatem",
+    "TextId": 294,
+    "PublishTo": "2014-12-29T13:14:00.9234102+01:00",
+    "PublishFrom": "1999-11-06T13:14:00.9234102+01:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "540999",
-    "ActiveErpLinks": 555,
+    "ProjectNumber": "820809",
+    "ActiveErpLinks": 465,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 516
+        "FieldLength": 368
       }
     }
   }

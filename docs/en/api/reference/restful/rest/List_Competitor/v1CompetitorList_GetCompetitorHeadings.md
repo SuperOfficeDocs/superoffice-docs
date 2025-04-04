@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 295,
-    "Name": "Feil Inc and Sons",
-    "Tooltip": "hic",
+    "HeadingId": 313,
+    "Name": "Will, Rutherford and Koss",
+    "Tooltip": "eveniet",
     "Deleted": true,
-    "Rank": 345,
-    "UdListDefinitionId": 688,
+    "Rank": 86,
+    "UdListDefinitionId": 219,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 566
+        "FieldType": "System.Int32",
+        "FieldLength": 583
       }
     }
   }

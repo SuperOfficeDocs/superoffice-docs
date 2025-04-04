@@ -67,17 +67,17 @@ No Content
 POST /api/v1/Agents/Favourite/AddFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Jenkins, Wunsch and Powlowski",
+  "TableName": "Ondricka, Denesik and West",
   "RecordIds": [
-    631,
-    1001
+    967,
+    378
   ],
-  "AssociateId": 888,
-  "ExtraInfo": "autem"
+  "AssociateId": 479,
+  "ExtraInfo": "nulla"
 }
 ```
 

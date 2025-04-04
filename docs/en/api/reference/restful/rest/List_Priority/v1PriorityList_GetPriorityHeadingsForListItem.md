@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 482,
-    "Name": "Kerluke-Sporer",
-    "ToolTip": "Voluptatum est.",
+    "Id": 310,
+    "Name": "McGlynn Group",
+    "ToolTip": "Quis cum et minus minus debitis iure.",
     "Deleted": false,
-    "Rank": 196,
-    "Type": "eum",
-    "ColorBlock": 310,
-    "IconHint": "odio",
-    "Selected": false,
-    "LastChanged": "2009-05-25T14:28:27.6176673+02:00",
+    "Rank": 324,
+    "Type": "est",
+    "ColorBlock": 254,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "2008-06-14T13:14:09.8847801+02:00",
     "ChildItems": [
       {
-        "Id": 258,
-        "Name": "Bahringer-Ryan",
-        "ToolTip": "Non sunt asperiores eligendi est quia aut.",
+        "Id": 431,
+        "Name": "Leuschke, Beatty and Gleichner",
+        "ToolTip": "Et aliquid.",
         "Deleted": false,
-        "Rank": 804,
-        "Type": "delectus",
-        "ColorBlock": 197,
-        "IconHint": "ipsa",
+        "Rank": 764,
+        "Type": "omnis",
+        "ColorBlock": 580,
+        "IconHint": "ad",
         "Selected": false,
-        "LastChanged": "2018-03-01T14:28:27.6176673+01:00",
+        "LastChanged": "2000-07-23T13:14:09.8847801+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "accusamus",
-        "Hidden": true,
-        "FullName": "Keven O'Keefe",
+        "ExtraInfo": "rerum",
+        "StyleHint": "animi",
+        "Hidden": false,
+        "FullName": "Christelle Upton",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 233
+            "FieldType": "System.String",
+            "FieldLength": 159
           }
         }
       }
     ],
-    "ExtraInfo": "amet",
-    "StyleHint": "sint",
+    "ExtraInfo": "quisquam",
+    "StyleHint": "officiis",
     "Hidden": false,
-    "FullName": "Ruth Haley",
+    "FullName": "Hassie Boyle",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 180
+        "FieldType": "System.String",
+        "FieldLength": 737
       }
     }
   }

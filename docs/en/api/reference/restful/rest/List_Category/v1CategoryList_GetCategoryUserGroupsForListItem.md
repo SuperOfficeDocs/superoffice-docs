@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Category/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 792,
-    "Name": "Waelchi LLC",
-    "ToolTip": "Sequi non possimus.",
+    "Id": 555,
+    "Name": "Koepp, Beer and Schroeder",
+    "ToolTip": "Nihil et corporis rerum.",
     "Deleted": false,
-    "Rank": 436,
-    "Type": "optio",
-    "ColorBlock": 345,
-    "IconHint": "neque",
-    "Selected": true,
-    "LastChanged": "2007-03-05T14:28:27.4926717+01:00",
+    "Rank": 317,
+    "Type": "ut",
+    "ColorBlock": 17,
+    "IconHint": "eos",
+    "Selected": false,
+    "LastChanged": "2006-09-13T13:14:09.6347653+02:00",
     "ChildItems": [
       {
-        "Id": 959,
-        "Name": "Bernhard-Brakus",
-        "ToolTip": "Ad fuga nesciunt et dolorem.",
-        "Deleted": true,
-        "Rank": 599,
-        "Type": "tempora",
-        "ColorBlock": 452,
-        "IconHint": "dolor",
-        "Selected": false,
-        "LastChanged": "2017-07-03T14:28:27.4926717+02:00",
+        "Id": 825,
+        "Name": "Dach-Ritchie",
+        "ToolTip": "Tempore dolores laudantium.",
+        "Deleted": false,
+        "Rank": 954,
+        "Type": "doloribus",
+        "ColorBlock": 68,
+        "IconHint": "doloremque",
+        "Selected": true,
+        "LastChanged": "2012-12-19T13:14:09.6347653+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eaque",
-        "StyleHint": "velit",
+        "ExtraInfo": "eveniet",
+        "StyleHint": "occaecati",
         "Hidden": false,
-        "FullName": "Ms. Nelson Wintheiser I",
+        "FullName": "Krystal Lynch",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 437
+            "FieldLength": 521
           }
         }
       }
     ],
-    "ExtraInfo": "reprehenderit",
-    "StyleHint": "enim",
-    "Hidden": true,
-    "FullName": "Delaney Murphy",
+    "ExtraInfo": "aut",
+    "StyleHint": "perspiciatis",
+    "Hidden": false,
+    "FullName": "Ms. Braeden Thea Ward",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 483
+        "FieldLength": 37
       }
     }
   }

@@ -79,34 +79,34 @@ OK
 POST /api/v1/BatchTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 975,
-  "Name": "Smitham-Schaden",
-  "AssociateId": 165,
-  "DetailsTable": 271,
-  "DetailsRecord": 525,
-  "IsSystemTask": false,
+  "Id": 810,
+  "Name": "Bednar Inc and Sons",
+  "AssociateId": 244,
+  "DetailsTable": 672,
+  "DetailsRecord": 62,
+  "IsSystemTask": true,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "fugit",
-    "ParameterObject2": "deserunt"
+    "ParameterObject1": "tempora",
+    "ParameterObject2": "atque"
   },
-  "LastStarted": "2013-05-25T14:28:27.3520534+02:00",
-  "Created": "2003-12-21T14:28:27.3520534+01:00",
-  "StartCount": 624,
-  "DatabaseSerialNumber": "1080004",
-  "Context": "iste",
-  "Result": "omnis",
+  "LastStarted": "1999-08-24T13:14:09.3841564+02:00",
+  "Created": "2011-11-20T13:14:09.3841564+01:00",
+  "StartCount": 73,
+  "DatabaseSerialNumber": "1113856",
+  "Context": "quam",
+  "Result": "corporis",
   "State": "All",
-  "Description": "Diverse regional workforce",
-  "Response": "repellendus",
-  "Request": "eum",
-  "ProgressDescription": "Triple-buffered modular task-force",
-  "ProgressPercent": 900,
-  "FileName": "Haley, Lowe and Kessler",
+  "Description": "Optimized regional flexibility",
+  "Response": "voluptatem",
+  "Request": "magnam",
+  "ProgressDescription": "Face to face cohesive parallelism",
+  "ProgressPercent": 457,
+  "FileName": "Paucek, Keeling and Oberbrunner",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -117,5 +117,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-859
+438
 ```

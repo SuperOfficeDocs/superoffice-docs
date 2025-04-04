@@ -85,7 +85,7 @@ ContactEntity found.
 GET /api/v1/Contact/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,36 +95,36 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 289,
-  "Name": "Schneider, Morissette and Stark",
-  "OrgNr": "1619341",
+  "ContactId": 955,
+  "Name": "Windler-Hamill",
+  "OrgNr": "1410381",
   "Department": "",
   "URL": "http://www.example.com/",
-  "City": "inventore",
-  "DirectPhone": "156-350-5075",
-  "AssociateId": 256,
-  "CountryId": 912,
-  "EmailAddress": "ralph@granteichmann.ca",
-  "Kananame": "nisi",
-  "EmailAddressName": "wilma_nolan@goyette.com",
+  "City": "animi",
+  "DirectPhone": "(460)454-6514",
+  "AssociateId": 993,
+  "CountryId": 223,
+  "EmailAddress": "zoe@jerderenner.co.uk",
+  "Kananame": "et",
+  "EmailAddressName": "francesca@goodwin.name",
   "URLName": "http://www.example.com/",
-  "AssociateFullName": "Chaim Schuppe",
+  "AssociateFullName": "Ubaldo Hamill",
   "BusinessName": "Information Technology",
   "CategoryName": "VIP Customer",
   "CountryName": "Sokovia",
   "Address": null,
-  "FormattedAddress": "ea",
-  "FullName": "Kenny Lowe",
+  "FormattedAddress": "dolores",
+  "FullName": "Claude Kihn",
   "IsOwnerContact": false,
-  "ActiveErpLinks": 469,
-  "Number1": "1396120",
-  "Number2": "1427448",
+  "ActiveErpLinks": 155,
+  "Number1": "1173507",
+  "Number2": "1251974",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 562
+      "FieldType": "System.String",
+      "FieldLength": 391
     }
   }
 }

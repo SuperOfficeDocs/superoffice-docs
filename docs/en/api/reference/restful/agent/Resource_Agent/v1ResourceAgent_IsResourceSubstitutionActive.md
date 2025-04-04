@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Deckow-Ratke",
-    "Gibson-Reilly"
+    "Prosacco LLC",
+    "Kunde, O'Connell and Spencer"
   ],
-  "Culture": "modi"
+  "Culture": "ea"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Wuckert, Towne and Hauck",
-    "ResourceValue": "aut",
-    "Culture": "aut",
-    "IsActive": true,
+    "ResourceName": "Greenholt, Lemke and Frami",
+    "ResourceValue": "voluptas",
+    "Culture": "natus",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 379
       }
     }
   },
   {
-    "ResourceName": "Wuckert, Towne and Hauck",
-    "ResourceValue": "aut",
-    "Culture": "aut",
-    "IsActive": true,
+    "ResourceName": "Greenholt, Lemke and Frami",
+    "ResourceValue": "voluptas",
+    "Culture": "natus",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 170
+        "FieldLength": 379
       }
     }
   }

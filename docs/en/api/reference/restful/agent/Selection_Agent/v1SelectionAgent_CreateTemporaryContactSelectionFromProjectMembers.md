@@ -113,11 +113,11 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelectionFromProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 829
+  "ProjectId": 48
 }
 ```
 
@@ -128,70 +128,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Re-engineered context-sensitive matrices",
-  "Postit": "sunt",
+  "Description": "Robust bi-directional moderator",
+  "Postit": "qui",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 903,
-  "IncludePerson": 252,
+  "GroupIdx": 706,
+  "IncludePerson": 732,
   "MemberCount": 99.99,
-  "Name": "Lockman LLC",
-  "PostitTextId": 143,
-  "CreatedDate": "2013-05-29T14:28:22.3991281+02:00",
-  "SelectionId": 887,
-  "SoundEx": "esse",
-  "Source": 772,
-  "TextId": 537,
-  "UpdatedDate": "1999-05-04T14:28:22.3991281+02:00",
-  "UpdatedCount": 595,
-  "Visibility": 799,
+  "Name": "Fisher, Heidenreich and Turner",
+  "PostitTextId": 361,
+  "CreatedDate": "2014-01-17T13:14:01.300672+01:00",
+  "SelectionId": 679,
+  "SoundEx": "dolores",
+  "Source": 458,
+  "TextId": 915,
+  "UpdatedDate": "2016-01-17T13:14:01.300672+01:00",
+  "UpdatedCount": 234,
+  "Visibility": 125,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 923,
-  "TargetTableName": "Spinka-White",
+  "TargetTableNumber": 973,
+  "TargetTableName": "Murazik Group",
   "Completed": true,
-  "LeftSelectionId": 532,
-  "RightSelectionId": 672,
+  "LeftSelectionId": 347,
+  "RightSelectionId": 878,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Wilderman-Goodwin",
-  "ShadowProviderName": "Collins LLC",
-  "ChartKey": "in",
-  "LastLoaded": "2010-12-14T14:28:22.3991281+01:00",
-  "LastLoadedBy": 798,
+  "MainProviderName": "Swift Inc and Sons",
+  "ShadowProviderName": "Kulas-Turner",
+  "ChartKey": "labore",
+  "LastLoaded": "2001-07-25T13:14:01.300672+02:00",
+  "LastLoadedBy": 188,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-03-07T14:28:22.3991281+01:00",
-  "LastMembershipChangeBy": 594,
+  "LastMembershipChange": "2019-05-01T13:14:01.3162978+02:00",
+  "LastMembershipChangeBy": 469,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "quasi",
-  "MemberTabHeading": "non",
-  "MailingsProviderName": "Ernser-Brekke",
-  "DashboardTileDefinitionId": 291,
+  "MainHeading": "odit",
+  "MemberTabHeading": "quia",
+  "MailingsProviderName": "Nikolaus, Considine and Bosco",
+  "DashboardTileDefinitionId": 834,
   "VisibleFor": [
     {
-      "VisibleId": 155,
+      "VisibleId": 1000,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldLength": 220
         }
       }
     },
     {
-      "VisibleId": 155,
+      "VisibleId": 1000,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "molestiae",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 786
+          "FieldLength": 220
         }
       }
     }
@@ -200,8 +200,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 216
+      "FieldType": "System.Int32",
+      "FieldLength": 466
     }
   }
 }

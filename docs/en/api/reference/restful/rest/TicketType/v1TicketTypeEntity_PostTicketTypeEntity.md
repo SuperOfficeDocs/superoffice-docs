@@ -116,34 +116,34 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 940,
-  "Name": "Lowe-Parker",
-  "Rank": 699,
-  "Tooltip": "voluptas",
-  "Icon": "eum",
-  "DefaultTicketStatus": 143,
+  "TicketTypeId": 970,
+  "Name": "Pfeffer, Klocko and Turner",
+  "Rank": 471,
+  "Tooltip": "quasi",
+  "Icon": "eius",
+  "DefaultTicketStatus": 772,
   "TicketStatuses": [
-    508,
-    856
+    82,
+    688
   ],
-  "DefaultTicketPriority": 967,
+  "DefaultTicketPriority": 695,
   "TicketPriorities": [
-    882,
-    85
+    944,
+    503
   ],
-  "ReplyTemplate": 835,
+  "ReplyTemplate": 142,
   "IsExternalVisible": true,
-  "IsDefault": true,
-  "ShowInNew": true,
-  "ExcludeSignature": true,
-  "ExcludeEmailRecipients": false,
+  "IsDefault": false,
+  "ShowInNew": false,
+  "ExcludeSignature": false,
+  "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    206,
-    418
+    575,
+    834
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": false
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": true
 }
 ```
 
@@ -154,45 +154,45 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 696,
-  "Name": "Dicki Inc and Sons",
-  "Rank": 464,
-  "Tooltip": "aperiam",
-  "Icon": "quia",
-  "DefaultTicketStatus": 325,
+  "TicketTypeId": 786,
+  "Name": "Kihn, Bogisich and Collins",
+  "Rank": 185,
+  "Tooltip": "modi",
+  "Icon": "reiciendis",
+  "DefaultTicketStatus": 782,
   "TicketStatuses": [
-    954,
-    773
+    241,
+    131
   ],
-  "DefaultTicketPriority": 56,
+  "DefaultTicketPriority": 604,
   "TicketPriorities": [
-    794,
-    749
+    565,
+    1002
   ],
-  "ReplyTemplate": 168,
+  "ReplyTemplate": 809,
   "IsExternalVisible": false,
   "IsDefault": true,
-  "ShowInNew": true,
+  "ShowInNew": false,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    562,
-    277
+    928,
+    358
   ],
-  "ReplyForwardNoSignature": false,
+  "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 661
+      "FieldLength": 97
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

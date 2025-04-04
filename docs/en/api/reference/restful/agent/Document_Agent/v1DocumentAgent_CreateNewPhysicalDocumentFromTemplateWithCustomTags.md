@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 15,
-  "PersonId": 272,
-  "AppointmentId": 162,
-  "DocumentId": 732,
-  "SaleId": 838,
-  "SelectionId": 892,
-  "ProjectId": 506,
+  "ContactId": 851,
+  "PersonId": 529,
+  "AppointmentId": 364,
+  "DocumentId": 238,
+  "SaleId": 721,
+  "SelectionId": 490,
+  "ProjectId": 332,
   "CustomTags": [
-    "minus",
-    "laboriosam"
+    "cumque",
+    "qui"
   ],
   "CustomValues": [
-    "in",
-    "quod"
+    "et",
+    "qui"
   ],
-  "UiCulture": "dolorum"
+  "UiCulture": "aut"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 899,
+  "DocumentId": 678,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "ipsa",
-  "Header": "beatae",
-  "Name": "Jerde Inc and Sons",
-  "OurRef": "sit",
-  "YourRef": "blanditiis",
-  "CreatedDate": "2016-05-28T14:28:21.8678991+02:00",
-  "UpdatedDate": "2021-07-27T14:28:21.8678991+02:00",
-  "Description": "Function-based asynchronous core",
+  "Attention": "voluptatem",
+  "Header": "error",
+  "Name": "Reinger Group",
+  "OurRef": "laboriosam",
+  "YourRef": "et",
+  "CreatedDate": "2023-01-14T13:14:00.1882219+01:00",
+  "UpdatedDate": "2000-02-21T13:14:00.1882219+01:00",
+  "Description": "Adaptive background database",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2024-02-11T14:28:21.8678991+01:00",
-  "ExternalRef": "veritatis",
+  "Date": "2009-01-28T13:14:00.1882219+01:00",
+  "ExternalRef": "minus",
   "Completed": "Completed",
-  "ActiveLinks": 542,
+  "ActiveLinks": 695,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Batz-Fisher",
-      "Id": 402,
-      "Description": "Robust bifurcated knowledge user",
-      "ExtraInfo": "repellendus",
-      "LinkId": 972,
+      "EntityName": "Tremblay-Thiel",
+      "Id": 216,
+      "Description": "Inverse eco-centric installation",
+      "ExtraInfo": "consectetur",
+      "LinkId": 106,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 955
+          "FieldLength": 894
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 64,
-  "Snum": 177,
+  "SuggestedDocumentId": 152,
+  "Snum": 608,
   "UserDefinedFields": {
-    "SuperOffice:1": "Alana Marvin",
-    "SuperOffice:2": "Ms. Rhea Wiza DDS"
+    "SuperOffice:1": "Zachary Anderson",
+    "SuperOffice:2": "234861759"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "nihil"
+    "ExtraFields1": "qui",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "a"
+    "CustomFields1": "molestiae",
+    "CustomFields2": "unde"
   },
-  "PublishEventDate": "2011-06-10T14:28:21.8678991+02:00",
-  "PublishTo": "2023-03-10T14:28:21.8678991+01:00",
-  "PublishFrom": "2003-05-06T14:28:21.8678991+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "1999-11-29T13:14:00.1882219+01:00",
+  "PublishTo": "2024-08-16T13:14:00.1882219+02:00",
+  "PublishFrom": "2022-10-31T13:14:00.1882219+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 163,
+      "VisibleId": 771,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 446
+          "FieldType": "System.Int32",
+          "FieldLength": 254
         }
       }
     },
     {
-      "VisibleId": 163,
+      "VisibleId": 771,
       "Visibility": "All",
-      "DisplayValue": "quod",
+      "DisplayValue": "commodi",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 446
+          "FieldType": "System.Int32",
+          "FieldLength": 254
         }
       }
     }
@@ -238,7 +238,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 215
+      "FieldLength": 796
     }
   }
 }

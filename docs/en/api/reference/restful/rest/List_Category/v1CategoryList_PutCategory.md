@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Category/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 517,
-  "Name": "Swift Inc and Sons",
-  "Tooltip": "enim",
+  "Id": 560,
+  "Name": "Kertzmann, Wilkinson and Walter",
+  "Tooltip": "qui",
   "Deleted": false,
-  "UdListDefinitionId": 704,
-  "Rank": 383
+  "UdListDefinitionId": 217,
+  "Rank": 185
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 288,
-  "Name": "Windler, Schmeler and Glover",
-  "Tooltip": "repudiandae",
-  "Deleted": false,
-  "UdListDefinitionId": 975,
-  "Rank": 465,
+  "Id": 838,
+  "Name": "Swift Group",
+  "Tooltip": "sint",
+  "Deleted": true,
+  "UdListDefinitionId": 902,
+  "Rank": 310,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 166
+      "FieldLength": 850
     }
   }
 }

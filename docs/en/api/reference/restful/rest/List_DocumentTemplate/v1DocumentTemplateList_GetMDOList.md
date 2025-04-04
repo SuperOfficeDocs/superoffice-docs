@@ -27,7 +27,7 @@ Get the MDO list items for "DocTmpl" - with headings and filtering by user group
 
 ```http
 GET /api/v1/List/DocumentTemplate/MDOItems?flat=False
-GET /api/v1/List/DocumentTemplate/MDOItems?query=quia
+GET /api/v1/List/DocumentTemplate/MDOItems?query=sit
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 239,
-    "Name": "Yost-Lemke",
-    "ToolTip": "Aperiam similique modi.",
+    "Id": 335,
+    "Name": "Rutherford-Thiel",
+    "ToolTip": "Id eos eveniet et ullam adipisci quas.",
     "Deleted": false,
-    "Rank": 848,
-    "Type": "corrupti",
+    "Rank": 457,
+    "Type": "maxime",
     "ChildItems": [
       {
-        "Id": 589,
-        "Name": "Rath, Labadie and Rau",
-        "ToolTip": "Similique dolores est est nemo cupiditate ex.",
+        "Id": 725,
+        "Name": "Ryan LLC",
+        "ToolTip": "Veniam a voluptatem illo odio molestiae nihil.",
         "Deleted": false,
-        "Rank": 323,
-        "Type": "commodi",
+        "Rank": 314,
+        "Type": "distinctio",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sed",
-        "ColorBlock": 1002,
-        "ExtraInfo": "qui",
-        "StyleHint": "mollitia",
-        "FullName": "Dr. Samson Stoltenberg",
+        "IconHint": "quisquam",
+        "ColorBlock": 210,
+        "ExtraInfo": "ea",
+        "StyleHint": "facilis",
+        "FullName": "Jorge Becker",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 45
+            "FieldLength": 23
           }
         }
       }
     ],
-    "IconHint": "modi",
-    "ColorBlock": 443,
-    "ExtraInfo": "eum",
-    "StyleHint": "recusandae",
-    "FullName": "Miss Toy Ritchie DVM",
+    "IconHint": "qui",
+    "ColorBlock": 836,
+    "ExtraInfo": "sit",
+    "StyleHint": "ad",
+    "FullName": "Maximilian Jast",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 276
+        "FieldLength": 427
       }
     }
   }

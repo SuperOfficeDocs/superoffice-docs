@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 397,
-    "Name": "Kessler, Bergstrom and Kunze",
-    "Tooltip": "in",
-    "Deleted": true,
-    "Rank": 589,
-    "UdListDefinitionId": 252,
+    "HeadingId": 898,
+    "Name": "Little, O'Connell and Williamson",
+    "Tooltip": "quidem",
+    "Deleted": false,
+    "Rank": 143,
+    "UdListDefinitionId": 911,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 1002
+        "FieldLength": 621
       }
     }
   }

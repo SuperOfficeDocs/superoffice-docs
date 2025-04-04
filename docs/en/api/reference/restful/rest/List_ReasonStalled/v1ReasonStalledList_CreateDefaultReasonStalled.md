@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 616,
-  "Name": "Moore-Rempel",
-  "Tooltip": "sint",
-  "Deleted": true,
-  "UdListDefinitionId": 990,
-  "Rank": 200,
+  "Id": 215,
+  "Name": "Tromp LLC",
+  "Tooltip": "sit",
+  "Deleted": false,
+  "UdListDefinitionId": 655,
+  "Rank": 453,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldType": "System.String",
+      "FieldLength": 943
     }
   }
 }

@@ -67,13 +67,13 @@ No Content
 POST /api/v1/Agents/Resource/SetResourceSubstitution
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "McCullough Group",
-  "ResourceValues": "ut",
-  "Culture": "ut",
+  "ResourceName": "Gulgowski, Hartmann and Boyer",
+  "ResourceValues": "nulla",
+  "Culture": "impedit",
   "IsActive": false
 }
 ```

@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 747,
-  "AssociateId": 447,
-  "Caption": "et",
+  "DashboardId": 423,
+  "AssociateId": 926,
+  "Caption": "iste",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 844,
-      "Caption": "earum",
-      "Description": "Inverse real-time algorithm",
-      "ChartName": "Weimann, Reichel and Frami",
-      "ChartId": "ex",
-      "IsDefault": false,
-      "AssociateId": 557,
-      "GroupId": 105,
-      "SelectionId": 111,
-      "Config": "voluptate",
+      "DashboardTileId": 98,
+      "Caption": "aperiam",
+      "Description": "Synergized zero tolerance neural-net",
+      "ChartName": "Bergstrom LLC",
+      "ChartId": "ullam",
+      "IsDefault": true,
+      "AssociateId": 437,
+      "GroupId": 967,
+      "SelectionId": 511,
+      "Config": "delectus",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -101,8 +101,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 250
+          "FieldType": "System.Int32",
+          "FieldLength": 347
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 129
+      "FieldType": "System.String",
+      "FieldLength": 829
     }
   }
 }

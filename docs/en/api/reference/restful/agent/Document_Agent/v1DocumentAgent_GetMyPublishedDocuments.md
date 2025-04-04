@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 159,
-    "Attention": "hic",
-    "Header": "nostrum",
-    "Name": "Welch LLC",
-    "OurRef": "aliquid",
-    "YourRef": "et",
-    "Description": "Profound national leverage",
-    "DocumentTemplate": "iusto",
+    "DocumentId": 842,
+    "Attention": "cum",
+    "Header": "aspernatur",
+    "Name": "Heaney, Ondricka and Strosin",
+    "OurRef": "a",
+    "YourRef": "iste",
+    "Description": "Public-key foreground core",
+    "DocumentTemplate": "voluptas",
     "IsPublished": false,
-    "PersonId": 68,
-    "PersonFullName": "Christine Runte",
-    "AssociateFullName": "Shannon Krajcik",
-    "ContactId": 787,
-    "ContactName": "Langosh-Bayer",
-    "ProjectId": 793,
-    "ProjectName": "Runte-Ratke",
-    "AssociateId": 323,
-    "Snum": 422,
-    "SaleId": 168,
-    "SaleName": "Borer-Rowe",
+    "PersonId": 528,
+    "PersonFullName": "Forest Cassin",
+    "AssociateFullName": "Mathew Hintz",
+    "ContactId": 959,
+    "ContactName": "Oberbrunner Inc and Sons",
+    "ProjectId": 433,
+    "ProjectName": "Kuhic Inc and Sons",
+    "AssociateId": 909,
+    "Snum": 961,
+    "SaleId": 153,
+    "SaleName": "Rempel LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 548
+        "FieldLength": 199
       }
     }
   }

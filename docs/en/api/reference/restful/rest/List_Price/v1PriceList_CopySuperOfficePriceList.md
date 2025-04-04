@@ -33,10 +33,10 @@ Create a copy of a PriceList in the SuperOffice database
 | convertCurrency | bool |  If true, product prices will be recalculated to the new currency. If false, product prices will be set to zero. |
 
 ```http
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=10/17/2023 14:28:29
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=01/24/2002 14:28:29
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=947
-POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=False
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validFrom=12/26/2004 13:14:12
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?validTo=04/16/1998 13:14:12
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?newCurrencyId=859
+POST /api/v1/Pricelist/{originalPriceListId}/CopyTo/{newName}?convertCurrency=True
 ```
 
 
@@ -95,22 +95,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 925,
-  "ERPPriceListKey": "ex",
-  "QuoteConnectionId": 761,
-  "Name": "Waters-Sawayn",
-  "Description": "Fully-configurable user-facing methodology",
-  "Currency": "facilis",
-  "CurrencyName": "Nicolas, Von and Baumbach",
-  "ValidFrom": "1999-02-22T14:28:27.6176673+01:00",
-  "ValidTo": "2002-04-02T14:28:27.6176673+02:00",
+  "PriceListId": 426,
+  "ERPPriceListKey": "eaque",
+  "QuoteConnectionId": 470,
+  "Name": "Champlin, Hyatt and Gaylord",
+  "Description": "Monitored hybrid core",
+  "Currency": "esse",
+  "CurrencyName": "Howe-Stehr",
+  "ValidFrom": "2017-06-25T13:14:09.8691543+02:00",
+  "ValidTo": "2006-06-01T13:14:09.8691543+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 577
+      "FieldLength": 178
     }
   }
 }

@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 781,
-    "Name": "Moen-Weber",
-    "Tooltip": "quos",
+    "HeadingId": 593,
+    "Name": "Ernser-Rippin",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 790,
-    "UdListDefinitionId": 493
+    "Rank": 982,
+    "UdListDefinitionId": 718
   },
   {
-    "HeadingId": 781,
-    "Name": "Moen-Weber",
-    "Tooltip": "quos",
+    "HeadingId": 593,
+    "Name": "Ernser-Rippin",
+    "Tooltip": "sed",
     "Deleted": false,
-    "Rank": 790,
-    "UdListDefinitionId": 493
+    "Rank": 982,
+    "UdListDefinitionId": 718
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 398,
-    "Name": "White-Predovic",
-    "Tooltip": "aliquid",
-    "Deleted": true,
-    "Rank": 754,
-    "UdListDefinitionId": 955,
+    "HeadingId": 625,
+    "Name": "Dach Inc and Sons",
+    "Tooltip": "aperiam",
+    "Deleted": false,
+    "Rank": 735,
+    "UdListDefinitionId": 325,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldType": "System.String",
+        "FieldLength": 809
       }
     }
   }

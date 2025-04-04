@@ -29,7 +29,7 @@ Saves a ticket message and performs any user notifications
 | notify | bool |  If true, then the notification will be sent along with the save |
 
 ```http
-PUT /api/v1/TicketMessage/{id}?notify=True
+PUT /api/v1/TicketMessage/{id}?notify=False
 ```
 
 
@@ -128,67 +128,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 945,
+  "EjMessageId": 340,
   "Ticket": null,
-  "CreatedAt": "2014-05-10T14:28:27.3364282+02:00",
+  "CreatedAt": "2019-01-31T13:14:09.3372786+01:00",
   "CreatedBy": null,
-  "Author": "necessitatibus",
+  "Author": "ut",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "minus",
-  "TimeSpent": 102,
-  "Body": "repudiandae",
-  "HtmlBody": "voluptatibus",
-  "EmailHeader": "micah@monahan.co.uk",
-  "DebugInfo": "aspernatur",
-  "MailSorter": "omnis",
+  "MessageId": "nam",
+  "TimeSpent": 356,
+  "Body": "temporibus",
+  "HtmlBody": "non",
+  "EmailHeader": "lauretta_kunde@goyette.ca",
+  "DebugInfo": "aut",
+  "MailSorter": "tempora",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "dolorem",
+  "SearchTitle": "autem",
   "MessageHeaders": [
     {
-      "Id": 953,
-      "Name": "Wisoky Group",
-      "Value": "maxime",
+      "Id": 801,
+      "Name": "Quigley LLC",
+      "Value": "odio",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 953,
-      "Name": "Wisoky Group",
-      "Value": "maxime",
+      "Id": 801,
+      "Name": "Quigley LLC",
+      "Value": "odio",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "mollitia",
-  "Sentiment": 363,
-  "SentimentConfidence": 346,
+  "Language": "molestias",
+  "Sentiment": 104,
+  "SentimentConfidence": 474,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 429,
-      "Name": "Wehner-Luettgen",
-      "ContentType": "sunt",
-      "AttSize": 829,
-      "InlineImage": true,
-      "ContentId": "et",
-      "AuthKey": "dignissimos",
+      "AttachmentId": 922,
+      "Name": "Torp, Ondricka and Jerde",
+      "ContentType": "non",
+      "AttSize": 599,
+      "InlineImage": false,
+      "ContentId": "voluptas",
+      "AuthKey": "qui",
       "IsSafeFileExtension": false
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "corporis",
-    "ExtraFields2": "voluptates"
+    "ExtraFields1": "magnam",
+    "ExtraFields2": "corrupti"
   },
   "CustomFields": {
-    "CustomFields1": "ut",
-    "CustomFields2": "eveniet"
+    "CustomFields1": "quia",
+    "CustomFields2": "explicabo"
   }
 }
 ```
@@ -200,28 +200,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 353,
+  "EjMessageId": 623,
   "Ticket": null,
-  "CreatedAt": "1997-12-07T14:28:27.3364282+01:00",
+  "CreatedAt": "2002-07-14T13:14:09.3529045+02:00",
   "CreatedBy": null,
-  "Author": "qui",
+  "Author": "eos",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "architecto",
-  "TimeSpent": 578,
-  "Body": "eveniet",
-  "HtmlBody": "ipsum",
-  "EmailHeader": "waldo.keeling@ohara.uk",
-  "DebugInfo": "modi",
-  "MailSorter": "mollitia",
+  "MessageId": "ut",
+  "TimeSpent": 298,
+  "Body": "ut",
+  "HtmlBody": "maiores",
+  "EmailHeader": "ida.torphy@treutel.info",
+  "DebugInfo": "sit",
+  "MailSorter": "quam",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "voluptatibus",
+  "SearchTitle": "ullam",
   "MessageHeaders": [
     {
-      "Id": 884,
-      "Name": "Lang-Bauch",
-      "Value": "quos",
+      "Id": 828,
+      "Name": "Reynolds-Frami",
+      "Value": "voluptates",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -229,50 +229,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 236
+          "FieldLength": 489
         }
       }
     }
   ],
   "Important": true,
-  "Language": "a",
-  "Sentiment": 265,
-  "SentimentConfidence": 753,
+  "Language": "non",
+  "Sentiment": 749,
+  "SentimentConfidence": 262,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 944,
-      "Name": "Dickinson LLC",
-      "ContentType": "reprehenderit",
-      "AttSize": 454,
+      "AttachmentId": 601,
+      "Name": "Pfeffer-Jakubowski",
+      "ContentType": "sed",
+      "AttSize": 67,
       "InlineImage": false,
-      "ContentId": "adipisci",
-      "AuthKey": "veritatis",
-      "IsSafeFileExtension": false,
+      "ContentId": "enim",
+      "AuthKey": "repellat",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 86
+          "FieldLength": 934
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "in",
-    "ExtraFields2": "non"
+    "ExtraFields1": "soluta",
+    "ExtraFields2": "dolor"
   },
   "CustomFields": {
-    "CustomFields1": "hic",
-    "CustomFields2": "ab"
+    "CustomFields1": "totam",
+    "CustomFields2": "corporis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 560
+      "FieldLength": 780
     }
   }
 }

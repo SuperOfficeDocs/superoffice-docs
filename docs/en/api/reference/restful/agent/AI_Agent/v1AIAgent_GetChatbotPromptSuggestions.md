@@ -82,9 +82,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IsoLangCode": "suscipit",
-  "SoProtocol": "aspernatur",
-  "CurrentId": 506
+  "IsoLangCode": "in",
+  "SoProtocol": "aut",
+  "CurrentId": 752
 }
 ```
 
@@ -95,17 +95,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2001-02-24T14:28:21.1179296+01:00",
-  "UserPrompt": "est",
-  "UserDisplayText": "aut",
-  "BotResponse": "non",
+  "Timestamp": "2016-05-24T13:13:58.953207+02:00",
+  "UserPrompt": "aut",
+  "UserDisplayText": "doloremque",
+  "BotResponse": "aut",
   "BotActions": {
-    "BotActions1": "quis",
-    "BotActions2": "maxime"
+    "BotActions1": "atque",
+    "BotActions2": "similique"
   },
   "Attachments": [
-    "quo",
-    "quas"
+    "sunt",
+    "natus"
   ]
 }
 ```
