@@ -1266,7 +1266,8 @@ items:
       type: CRMScript.Global.Integer
       description: "The max number of hits."
     return:
-      type: CRMScript.Native.Parser."
+      type: CRMScript.Native.Parser
+      description: "The reference to the Parser instance."
   example: 
 - uid: CRMScript.Global.Void.findReplyTemplateToMerge(Integer)
   commentId: M:CRMScript.Global.Void.findReplyTemplateToMerge(Integer)
@@ -1817,7 +1818,8 @@ items:
     content: EventData getEventData()
     parameters: []
     return:
-      type: CRMScript.Native.EventData."
+      type: CRMScript.Native.EventData"
+      description: "EventData object connected to the current event"
   example: 
 - uid: CRMScript.Global.Void.getExecutable()
   commentId: M:CRMScript.Global.Void.getExecutable()
@@ -3597,7 +3599,7 @@ items:
       type: CRMScript.Global.String
       description: 
     return:
-      type: CRMScript.Native.XMLNode."
+      type: CRMScript.Native.XMLNode"
   example: 
   - "\n<pre><code>String jsonString = &quot;{&quot;menu&quot;: {&quot;liste&quot;: [ &quot;1&quot;, &quot;2&quot;, &quot;3&quot;, true, 123, 1.23 ],&quot;id&quot;: &quot;file&quot;,&quot;value&quot;: &quot;File&quot;&quot;tall&quot;: 1.234567,&quot;sant&quot;: true,&quot;usant&quot;: false,&quot;tom&quot;: null,&quot;popup&quot;: {&quot;menuitem&quot;: [{&quot;value&quot;: &quot;New&quot;, &quot;onclick&quot;:&quot;CreateNewDoc()&quot;},{&quot;value&quot;: &quot;Open&quot;, &quot;onclick&quot;: &quot;OpenDoc()&quot;},{&quot;value&quot;: &quot;Close&quot;, &quot;onclick&quot;: &quot;CloseDoc()&quot;}]}}}&quot;;\n\nXMLNode xmlObject = parseJSON(jsonString); // Converts jsonString to XML\nprintLine(xmlObject.toJSON(0)); // Prints out the actual JSON content\n\n//For example the following JSON document:\n//\n//{&quot;menu&quot;: {\n//  &quot;liste&quot;: [ &quot;1&quot;, &quot;2&quot;, &quot;3&quot;, true, 123, 1.23 ],\n//  &quot;id&quot;: &quot;file&quot;,\n//  &quot;value&quot;: &quot;File&quot;,\n//  &quot;tall&quot;: 1.234567,\n//  &quot;sant&quot;: true,\n//  &quot;usant&quot;: false,\n//  &quot;tom&quot;: null,\n//  &quot;popup&quot;: {\n//    &quot;menuitem&quot;: [\n//      {&quot;value&quot;: &quot;New&quot;, &quot;onclick&quot;: &quot;CreateNewDoc()&quot;},\n//      {&quot;value&quot;: &quot;Open&quot;, &quot;onclick&quot;: &quot;OpenDoc()&quot;},\n//      {&quot;value&quot;: &quot;Close&quot;, &quot;onclick&quot;: &quot;CloseDoc()&quot;}\n//    ]\n//  }\n//}}\n//\n//\n//Output:\n//\n//&lt;root type=&quot;object&quot;&gt;\n//  &lt;menu type=&quot;object&quot;&gt;\n//    &lt;liste type=&quot;array&quot;&gt;\n//      &lt;item type=&quot;string&quot;&gt;1&lt;/item&gt;\n//      &lt;item type=&quot;string&quot;&gt;2&lt;/item&gt;\n//      &lt;item type=&quot;string&quot;&gt;3&lt;/item&gt;\n//      &lt;item type=&quot;bool&quot;&gt;true&lt;/item&gt;\n//      &lt;item type=&quot;number&quot;&gt;123&lt;/item&gt;\n//      &lt;item type=&quot;number&quot;&gt;1.23&lt;/item&gt;\n//    &lt;/liste&gt;\n//    &lt;id type=&quot;string&quot;&gt;file&lt;/id&gt;\n//    &lt;value type=&quot;string&quot;&gt;File&lt;/value&gt;\n//    &lt;tall type=&quot;number&quot;&gt;1.234567&lt;/tall&gt;\n//    &lt;sant type=&quot;bool&quot;&gt;true&lt;/sant&gt;\n//    &lt;usant type=&quot;bool&quot;&gt;false&lt;/usant&gt;\n//    &lt;tom type=&quot;null&quot;&gt;null&lt;/tom&gt;\n//    &lt;popup type=&quot;object&quot;&gt;\n//      &lt;menuitem type=&quot;array&quot;&gt;\n//        &lt;item type=&quot;object&quot;&gt;\n//          &lt;value type=&quot;string&quot;&gt;New&lt;/value&gt;\n//          &lt;onclick type=&quot;string&quot;&gt;CreateNewDoc()&lt;/onclick&gt;\n//        &lt;/item&gt;\n//        &lt;item type=&quot;object&quot;&gt;\n//          &lt;value type=&quot;string&quot;&gt;Open&lt;/value&gt;\n//          &lt;onclick type=&quot;string&quot;&gt;OpenDoc()&lt;/onclick&gt;\n//        &lt;/item&gt;\n//        &lt;item type=&quot;object&quot;&gt;\n//          &lt;value type=&quot;string&quot;&gt;Close&lt;/value&gt;\n//          &lt;onclick type=&quot;string&quot;&gt;CloseDoc()&lt;/onclick&gt;\n//        &lt;/item&gt;\n//      &lt;/menuitem&gt;\n//    &lt;/popup&gt;\n//  &lt;/menu&gt;\n//&lt;/root&gt;</code></pre>\n"
 - uid: CRMScript.Global.Void.parseJSON2(String)
@@ -3620,7 +3622,7 @@ items:
       type: CRMScript.Global.String
       description: 
     return:
-      type: CRMScript.Native.XMLNode."
+      type: CRMScript.Native.XMLNode"
   example: 
   - "\n<pre><code>String jsonString = &quot;{&quot;menu&quot;: {&quot;liste&quot;: [ &quot;1&quot;, &quot;2&quot;, &quot;3&quot;, true, 123, 1.23 ],&quot;id&quot;: &quot;file&quot;,&quot;value&quot;: &quot;File&quot;,&quot;tall&quot;: 1.234567,&quot;sant&quot;: true,&quot;usant&quot;: false,&quot;tom&quot;: null,&quot;popup&quot;: {&quot;menuitem&quot;: [{&quot;value&quot;: &quot;New&quot;, &quot;onclick&quot;: &quot;CreateNewDoc()&quot;},{&quot;value&quot;: &quot;Open&quot;, &quot;onclick&quot;: &quot;OpenDoc()&quot;},{&quot;value&quot;: &quot;Close&quot;, &quot;onclick&quot;: &quot;CloseDoc()&quot;}]}}}&quot;;\n\nXMLNode xmlObject = parseJSON2(jsonString); // Converts jsonString to XML\nprintLine(xmlObject.toJSON(0)); // Prints out the actual JSON content</code></pre>\n"
 - uid: CRMScript.Global.Void.parseXML(String)
