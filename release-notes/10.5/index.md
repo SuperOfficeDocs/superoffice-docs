@@ -4,7 +4,7 @@ title: What's new in SuperOffice CRM 10.5
 description: Release notes. What's new in SuperOffice CRM 10.5
 keywords: Service, request, Requests tab, section tab
 author: SuperOffice AS – Product and Engineering
-date: 03.11.2025
+date: 04.03.2025
 version: 10.5
 topic: reference
 ---
@@ -47,6 +47,8 @@ Check out our **Product release** overview for more details in our [Community][1
 
 ### SuperOffice CRM
 
+* 10.5.4 (03.04.2025):
+  * Bug and security fixes. No new or changed functionality for the release.
 * 10.5.3 (11.03.2025):
   * [Dashboard - Export to Excel from tile drill down (10.5.3)][20] in Core CRM
   * [Requests - Quickly add a request from the section tab (10.5.3)][21] in Service
