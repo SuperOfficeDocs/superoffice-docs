@@ -127,6 +127,9 @@ items:
       type: CRMScript.Global.Integer
       description: "Number of hours, 0-23."
     return:
+      type: CRMScript.Global.Bool
+      description: "True if the attachment was found; otherwise, false."
+    return:
 - uid: CRMScript.Global.Time.setMin(Integer)
   commentId: M:CRMScript.Global.Time.setMin(Integer)
   id: setMin(Integer)
