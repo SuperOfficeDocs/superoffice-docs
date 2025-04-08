@@ -4,8 +4,8 @@ title: Bereichsregisterkarte Aktivitäten
 description: Erfahren Sie, wie Sie die Bereichsregisterkarte Aktivitäten in SuperOffice CRM verwenden können, um Aktivitäten, Folgeaufgaben und Dokumente für Firmen, Personen, Projekte und Verkäufe anzuzeigen, zu verwalten und nachzuverfolgen – alles in einem organisierten Bereich.
 keywords: Bereichsregisterkarte Aktivitäten, Bereichsregisterkarte
 author: Bergfrid Skaara Dias
-date: 02.11.2025
-version: 10.5.2
+date: 04.08.2025
+version: 10.5.4
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -67,7 +67,7 @@ Um abgeschlossene Aktivitäten in der Liste anzuzeigen, stellen Sie sicher, dass
 
 ## Aktivitäten in der Bereichsregisterkarte **Aktivitäten** verwalten
 
-* **Aktivität hinzufügen:** Klicken Sie auf **Hinzufügen**, füllen Sie die Details aus und klicken Sie auf **Speichern**.
+* **Aktivität hinzufügen:** Klicken Sie auf **Hinzufügen**, füllen Sie die Details aus und klicken Sie auf **Speichern** um eine Folgeaufgabe zu erstellen.
 
 * **Aktivitäten öffnen:** Doppelklicken Sie auf eine Aktivität in der Liste. Wenn Sie auf ein Dokument doppelklicken, wird das Dokument selbst geöffnet.
 

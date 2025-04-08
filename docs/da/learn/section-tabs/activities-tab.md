@@ -4,8 +4,8 @@ title: Aktivitetsfanen
 description: Lær hvordan du bruger aktivitetsdetaljekortet i SuperOffice CRM til at se, administrere og følge op på aktiviteter, opgaver og dokumenter for firmaer, personer, projekter og salg – alt samlet ét sted.
 keywords: Aktivitets-fanen, Aktivitetsfanen, Fanen Aktiviteter, detaljekortet Aktiviteter, detaljekort, aktivitetsarkiv
 author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+date: 04.08.2025
+version: 10.5.4
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -67,7 +67,7 @@ For at inkludere fuldførte aktiviteter i listen, skal du sørge for, at afkryds
 
 ## Administrere aktiviteter i Aktivitetsfanen
 
-* **Tilføj aktivitet:** Klik på **Tilføj**, udfyld detaljerne, og klik på **Gem**.
+* **Tilføj aktivitet:** Klik på **Tilføj**, udfyld detaljerne, og klik på **Gem** for at oprette en opfølgning.
 
 * **Åbn aktiviteter:** Dobbeltklik på en aktivitet i listen. Hvis du dobbeltklikker på et dokument, åbnes selve dokumentet.
 

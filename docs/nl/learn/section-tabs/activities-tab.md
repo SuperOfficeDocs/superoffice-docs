@@ -4,8 +4,8 @@ title: Sectietabblad Activiteiten
 description: Leer hoe u het sectietabblad Activiteiten in SuperOffice CRM kunt gebruiken om activiteiten, vervolgactiviteiten en documenten voor bedrijven, personen, projecten en verkopen te bekijken, beheren en volgen — alles in één georganiseerde sectie.
 keywords: sectietabblad Activiteiten, tabblad Activiteiten, sectietabblad, activiteiten
 author: Bergfrid Skaara Dias
-date: 03.14.2025
-version: 10.5.2
+date: 04.08.2025
+version: 10.5.4
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -67,7 +67,7 @@ Om voltooide activiteiten in de lijst op te nemen, zorgt u ervoor dat het vakje 
 
 ## Activiteiten beheren in het sectietabblad Activiteiten
 
-* **Activiteit toevoegen:** Klik op **Toevoegen**, vul de details in en klik op **Opslaan**.
+* **Activiteit toevoegen:** Klik op **Toevoegen**, vul de details in en klik op **Opslaan** om een vervolgactiviteit aan te maken.
 
 * **Activiteiten openen:** Dubbelklik op een activiteit in de lijst. Als u op een document dubbelklikt, wordt het document zelf geopend.
 

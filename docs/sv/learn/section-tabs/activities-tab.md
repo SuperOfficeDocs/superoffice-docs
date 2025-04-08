@@ -4,8 +4,8 @@ title: Activities tab
 description: Lär dig hur du använder Aktivitetsfliken i SuperOffice CRM för att visa, hantera och följa upp aktiviteter, uppgifter och dokument för företag, kontakter, projekt och försäljningar – allt i en organiserad sektion.
 keywords: Aktivitetsfliken, fliken Aktiviteter, detaljkortet Aktiviteter, detaljkort, aktivitetsarkiv, aktivitet
 author: Bergfrid Skaara Dias
-date: 02.25.2025
-version: 10.5.2
+date: 04.08.2025
+version: 10.5.4
 topic: howto
 audience: person
 audience_tooltip: SuperOffice CRM
@@ -67,7 +67,7 @@ För att inkludera slutförda aktiviteter i listan, se till att kryssrutan **Slu
 
 ## Hantera aktiviteter i Aktivitetsfliken
 
-* **Lägg till aktivitet:** Klicka på **Lägg till**, fyll i detaljerna och klicka på **Spara**.
+* **Lägg till aktivitet:** Klicka på **Lägg till**, fyll i detaljerna och klicka på **Spara** för att skapa en händelse.
 
 * **Öppna aktiviteter:** Dubbelklicka på en aktivitet i listan. Om du dubbelklickar på ett dokument öppnas själva dokumentet.
 
