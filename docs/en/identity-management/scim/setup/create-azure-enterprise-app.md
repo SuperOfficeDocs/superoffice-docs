@@ -26,11 +26,13 @@ For testing, you can do a [30-day free trial of Microsoft Entra ID Premium][1]. 
 
 1. In a browser, sign in to the [Microsoft Entra admin center][2].
 2. From the left pane, select **Enterprise applications**.
-3. Add your own non-gallery application:
+3. Add your own application:
     1. Click **\+ New application**.
     2. Select **All**.
-    3. Click the **Non-gallery application** tile.
-    4. Enter a name and click **Add**.
+    3. Click **Create your own application**.
+    4. Enter a name.
+    5. Select **Integrate any other application you don't find in the gallery (Non-gallery)**.
+    6. Click **Add**.
 
 For updated info from Microsoft, see their guide to [build a SCIM endpoint and configure provisioning][3].
 
