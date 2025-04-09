@@ -43,7 +43,6 @@ references:
   name: FreeBusy
   nameWithType: FreeBusy
   fullName: CRMScript.NetServer.FreeBusy
-references:
 - uid: CRMScript.NetServer.IncludePersonsMode
   commentId: T:CRMScript.NetServer.IncludePersonsMode
   isExternal: true
