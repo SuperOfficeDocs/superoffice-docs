@@ -772,6 +772,8 @@ items:
     - id: contact
       type: CRMScript.NetServer.NSContact
       description: "Contact this session is connected to. Could be empty if we don't know exactly."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSChatSessionEntity thing;\nNSContact contact;\nthing.SetContact(contact);</code></pre>\n"
 - uid: CRMScript.NetServer.NSChatSessionEntity.SetCustomerAlias(String)
@@ -1144,6 +1146,8 @@ items:
     - id: status
       type: CRMScript.Global.Integer
       description: "The status for the session. See <xref href=\"CRMScript.NetServer.ChatSessionStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSChatSessionEntity thing;\nInteger status;\nthing.SetStatus(status);</code></pre>\n"
 - uid: CRMScript.NetServer.NSChatSessionEntity.SetTicket(NSTicket)

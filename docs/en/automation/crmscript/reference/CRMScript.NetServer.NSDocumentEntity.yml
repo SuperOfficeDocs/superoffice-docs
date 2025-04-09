@@ -73,7 +73,7 @@ items:
   - CRMScript.NetServer.NSDocumentEntity.SetType(Integer)
   - CRMScript.NetServer.NSDocumentEntity.SetUpdatedBy(NSAssociate)
   - CRMScript.NetServer.NSDocumentEntity.SetUpdatedDate(DateTime)
-  - CRMScript.NetServer.NSDocumentEntity.SSetUserDefinedFields(Map)
+  - CRMScript.NetServer.NSDocumentEntity.SetUserDefinedFields(Map)
   - CRMScript.NetServer.NSDocumentEntity.SetVisibleFor(NSVisibleFor[])
   - CRMScript.NetServer.NSDocumentEntity.SetYourRef(String)
   name: NSDocumentEntity
@@ -1514,15 +1514,15 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSDocumentEntity thing;\nDateTime updatedDate;\nthing.SetUpdatedDate(updatedDate);</code></pre>\n"
-- uid: CRMScript.NetServer.NSDocumentEntity.SSetUserDefinedFields(Map)
-  commentId: M:CRMScript.NetServer.NSDocumentEntity.SSetUserDefinedFields(Map)
-  id: 'SSetUserDefinedFields(Map)'
+- uid: CRMScript.NetServer.NSDocumentEntity.SetUserDefinedFields(Map)
+  commentId: M:CRMScript.NetServer.NSDocumentEntity.SetUserDefinedFields(Map)
+  id: 'SetUserDefinedFields(Map)'
   so.intellisense: NSDocumentEntity.SetUserDefinedFields
   langs:
   - crmscript
-  name: 'SSetUserDefinedFields(Map)'
-  nameWithType: NSDocumentEntity.SSetUserDefinedFields(Map)
-  fullName: CRMScript.NetServer.NSDocumentEntity.SSetUserDefinedFields(Map)
+  name: 'SetUserDefinedFields(Map)'
+  nameWithType: NSDocumentEntity.SetUserDefinedFields(Map)
+  fullName: CRMScript.NetServer.NSDocumentEntity.SetUserDefinedFields(Map)
   type: Method
   summary: "\nSets the user-defined fields on the NSDocumentEntity as a map.\n"
   remarks: 
@@ -1532,6 +1532,8 @@ items:
     - id: udefs
       type: CRMScript.Native.Map
       description: "user-defined fields."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSDocumentEntity thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetUserDefinedFields(udefs);</code></pre>\n"
 - uid: CRMScript.NetServer.NSDocumentEntity.SetVisibleFor(NSVisibleFor[])

@@ -301,6 +301,8 @@ items:
     - id: tickets
       type: CRMScript.NetServer.NSTicketSummaryItem[]
       description: "Recent tickets on person."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSPersonSummary thing;\nNSTicketSummaryItem[] tickets;\nthing.SetTickets(tickets);</code></pre>\n"
 references:

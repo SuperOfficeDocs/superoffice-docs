@@ -255,6 +255,8 @@ items:
     - id: type
       type: CRMScript.Global.Integer
       description: "How is the return value to be understood by the caller See <xref href=\"CRMScript.NetServer.ReturnType\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSReturnInfo thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
 - uid: CRMScript.NetServer.NSReturnInfo.SetValue(String)

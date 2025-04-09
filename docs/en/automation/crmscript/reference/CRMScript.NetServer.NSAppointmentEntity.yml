@@ -2583,6 +2583,8 @@ items:
     - id: startDate
       type: CRMScript.Global.DateTime
       description: "date + start time planned."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSAppointmentEntity thing;\nDateTime startDate;\nthing.SetStartDate(startDate);</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointmentEntity.SetSuggestedAppointmentId(Integer)

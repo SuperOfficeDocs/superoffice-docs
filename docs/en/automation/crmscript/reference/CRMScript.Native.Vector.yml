@@ -64,6 +64,7 @@ items:
       type: CRMScript.Global.String
       description: "The delimiter for the fields."
     return:
+      type: CRMScript.Global.Void
 - uid: CRMScript.Native.Vector.removeAt(Integer)
   commentId: M:CRMScript.Native.Vector.removeAt(Integer)
   id: removeAt(Integer)
@@ -84,6 +85,7 @@ items:
       type: CRMScript.Global.Integer
       description: "The index (starting at 0) of the element to remove from the vector."
     return:
+      type: CRMScript.Global.Void
 - uid: CRMScript.Native.Vector.get(Integer)
   commentId: M:CRMScript.Native.Vector.get(Integer)
   id: get(Integer)
@@ -128,6 +130,7 @@ items:
       type: CRMScript.Global.String
       description: "The value to set at the specified index."
     return:
+      type: CRMScript.Global.Void
 - uid: CRMScript.Native.Vector.size()
   commentId: M:CRMScript.Native.Vector.size()
   id: size()
@@ -217,12 +220,13 @@ items:
   type: Method
   summary: "\nPushes a string object to the end of the vector.\n"
   syntax:
-    content: pushBack(String element)
+    content: Void pushBack(String element)
     parameters:
     - id: element
       type: CRMScript.Global.String
       description: "The string object to push on the vector."
     return:
+      type: CRMScript.Global.Void
 references:
 - uid: CRMScript.Native.Vector
   commentId: T:CRMScript.Native.Vector

@@ -288,6 +288,8 @@ items:
     - id: user 
       type: CRMScript.NetServer.NSAssociate
       description: "The associate that is the user agent."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSChatTopicAgent thing;\nNSAssociate user;\nthing.SetUser(user);</code></pre>\n"
 references:

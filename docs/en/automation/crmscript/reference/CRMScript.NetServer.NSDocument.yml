@@ -461,6 +461,8 @@ items:
     - id: associateFullName
       type: CRMScript.Global.String
       description: "The associate's culture formatted fullname (firstname, middleName and lastname)."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSDocument thing;\nString associateFullName;\nthing.SetAssociateFullName(associateFullName);</code></pre>\n"
 - uid: CRMScript.NetServer.NSDocument.SetAssociateId(Integer)

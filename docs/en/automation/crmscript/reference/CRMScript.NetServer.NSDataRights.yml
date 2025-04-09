@@ -160,6 +160,8 @@ items:
     - id: rowsInfo
       type: CRMScript.NetServer.NSEntityName[]
       description: 
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSDataRights thing;\nNSEntityName[] rowsInfo;\nthing.SetRowsInfo(rowsInfo);</code></pre>\n"
 references:

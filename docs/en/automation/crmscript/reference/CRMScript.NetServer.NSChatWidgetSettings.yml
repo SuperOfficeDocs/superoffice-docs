@@ -728,6 +728,8 @@ items:
     - id: offlineFields
       type: CRMScript.Global.Integer
       description: "Required field when creating a ticket in offline mode. See <xref href=\"CRMScript.NetServer.WidgetRequiredFields\" data-throw-if-not-resolved=\"false\"></xref>"
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSChatWidgetSettings thing;\nInteger offlineFields;\nthing.SetOfflineFields(offlineFields);</code></pre>\n"
 - uid: CRMScript.NetServer.NSChatWidgetSettings.SetOfflineHeader(String)

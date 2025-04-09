@@ -117,6 +117,8 @@ items:
     - id: licenseStatus
       type: CRMScript.Global.Integer
       description: "Result of CheckLicenseStatus. See <xref href=\"CRMScript.NetServer.LicenseStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSCheckLicenseStatusResult thing;\nInteger licenseStatus;\nthing.SetLicenseStatus(licenseStatus);</code></pre>\n"
 - uid: CRMScript.NetServer.NSCheckLicenseStatusResult.SetMessage(String)

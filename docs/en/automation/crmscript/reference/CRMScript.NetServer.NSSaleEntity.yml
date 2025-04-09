@@ -1484,6 +1484,8 @@ items:
     - id: nextDueDate
       type: CRMScript.Global.DateTime
       description: "Next due date, this is a de-normalization of 'closest future activity date, or most recent if no future activities'."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSSaleEntity thing;\nDateTime nextDueDate;\nthing.SetNextDueDate(nextDueDate);</code></pre>\n"
 - uid: CRMScript.NetServer.NSSaleEntity.SetNumber(String)

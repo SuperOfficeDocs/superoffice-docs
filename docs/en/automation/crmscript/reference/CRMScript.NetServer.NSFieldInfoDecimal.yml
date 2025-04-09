@@ -94,6 +94,8 @@ items:
     - id: defaultValue
       type: CRMScript.Global.Float
       description: "Default decimal (double precision) value."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSFieldInfoDecimal thing;\nFloat defaultValue;\nthing.SetDefaultValue(defaultValue);</code></pre>\n"
 - uid: CRMScript.NetServer.NSFieldInfoDecimal.SetPrecision(Integer)

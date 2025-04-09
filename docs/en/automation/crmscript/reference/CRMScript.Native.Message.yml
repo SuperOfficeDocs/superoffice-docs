@@ -503,6 +503,8 @@ items:
     - id: parser
       type: CRMScript.Native.Parser
       description: "The parser that the message values is loaded into."
+    return:
+      type: CRMScript.Global.Void
   example: 
 references:
 - uid: CRMScript.Native.Message
