@@ -103,7 +103,7 @@ items:
     - id: chatSessionId
       type: CRMScript.Global.Integer
       description:
-    - id: message)
+    - id: message
       type: CRMScript.NetServer.NSChatMessage
       description: "The message to add."
     return:

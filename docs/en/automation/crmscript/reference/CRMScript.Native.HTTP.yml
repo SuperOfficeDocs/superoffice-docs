@@ -191,7 +191,7 @@ items:
       type: CRMScript.Global.String
       description: "What to delete."
     return:
-      type: CRMScript.NetServer.NSStream"
+      type: CRMScript.NetServer.NSStream
   example: 
   - "\n<pre><code>HTTP h;\n\nNSStream b = h.deleteAsStream(&quot;https://httpbin.org/delete&quot;);\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
 - uid: CRMScript.Native.HTTP.get(String)
@@ -409,7 +409,7 @@ items:
       type: CRMScript.Global.String
       description: "The URL to open. http://..."
     return:
-      type: CRMScript.NetServer.NSStream"
+      type: CRMScript.NetServer.NSStream
   example: 
   - "\n<pre><code>HTTP h;\n\nNSStream b = h.openAsStream(&quot;https://httpbin.org/&quot;);\n\nif (h.hasError())\n  print(h.getErrorMessage());\nelse</code></pre>\n"
 - uid: CRMScript.Native.HTTP.patch(String)

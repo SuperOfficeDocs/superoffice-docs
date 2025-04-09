@@ -121,7 +121,7 @@ items:
     content: Integer GetResourceId()
     parameters: []
     return:
-      type: CRMScript.Global.Integer'
+      type: CRMScript.Global.Integer
       description: "Resource Id."
   example: 
   - "\n<pre><code>NSLocalizedText thing;\nInteger resourceId = thing.GetResourceId();</code></pre>\n"
