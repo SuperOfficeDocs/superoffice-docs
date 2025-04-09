@@ -28,10 +28,12 @@ items:
   - CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer)
   - CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool)
   - CRMScript.Native.EventDataDialogDefinition.addList(String,String,String[],String,String,Bool)
+  - CRMScript.Native.EventDataDialogDefinition.addList(String,String,Map,String,String,Bool)
   - CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool,String,Bool)
   - CRMScript.Native.EventDataDialogDefinition.addText(String,String)
   - CRMScript.Native.EventDataDialogDefinition.addText(String,String,String)
   - CRMScript.Native.EventDataDialogDefinition.addText(String,String,String,String,Bool)
+  - CRMScript.Native.EventDataDialogDefinition.addTextArea(String,String,String,String,Bool)
   - CRMScript.Native.EventDataDialogDefinition.addTime(String,String)
   - CRMScript.Native.EventDataDialogDefinition.addTime(String,String,Time)
   - CRMScript.Native.EventDataDialogDefinition.addTime(String,String,Time,String,Bool)
@@ -682,6 +684,44 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>EventDataDialogDefinition def;\nString[2] items;\nitems[0] = &quot;Value 1&quot;;\nitems[1] = &quot;Value 2&quot;;\ndef.addList(&quot;listItems&quot;, &quot;Choose item&quot;, items, &quot;&quot;, &quot;Select from list&quot;, false);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,Map,String,String,Bool)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,Map,String,String,Bool)
+  id: 'addList(String,String,Map,String,String,Bool)'
+  so.intellisense: EventDataDialogDefinition.addList
+  so.version: 10.5.5
+  langs:
+  - crmscript
+  name: addList(String,String,Map,String,String,Bool)
+  nameWithType: EventDataDialogDefinition.addList(String,String,Map,String,String,Bool)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addList(String,String,Map,String,String,Bool)
+  type: Method
+  summary: "\nAdds a list field from manually created list with key-value pair with given label, default value, placeholder text. Possible to set field as mandatory.\n"
+  remarks: 
+  syntax: 
+    content: Void addList(String id, String label, Map listItems, String defaultValue, String placeholder, Bool mandatory)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    - id: listItems
+      type: CRMScript.Native.Map
+      description: "Map of key-value pairs."
+    - id: defaultValue
+      type: CRMScript.Global.String
+      description: "Default value for field."
+    - id: placeholder
+      type: CRMScript.Global.String
+      description: "Placeholder text."
+    - id: mandatory
+      type: CRMScript.Global.Bool
+      description: "Setting field to mandatory if true."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\nMap items;\nitems.insert(&quot;1&quot;&quot;Value 1&quot;);\nitems.insert(&quot;2&quot;,&quot;Value 2&quot;);\ndef.addList(&quot;listItems&quot;, &quot;Choose item&quot;, items, &quot;&quot;, &quot;Select from list&quot;, false);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool,String,Bool)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addList(String,String,String,Integer,String,Bool,String,Bool)
   id: 'addList(String,String,String,Integer,String,Bool,String,Bool)'
@@ -816,6 +856,47 @@ items:
       type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>EventDataDialogDefinition def;\ndef.addText(&quot;textinput&quot;, &quot;My Input&quot;, &quot;Default&quot;, &quot;Type something&quot;, false);</code></pre>\n"
+- uid: CRMScript.Native.EventDataDialogDefinition.addTextArea(String,String,String,String,Bool,Integer,Integer)
+  commentId: M:CRMScript.Native.EventDataDialogDefinition.addTextArea(String,String,String,String,Bool,Integer,Integer)
+  id: 'addTextArea(String,String,String,String,Bool,Integer,Integer)'
+  so.intellisense: EventDataDialogDefinition.addTextArea
+  so.version: 10.5.5
+  langs:
+  - crmscript
+  name: addTextArea(String,String,String,String,Bool,Integer,Integer)
+  nameWithType: EventDataDialogDefinition.addTextArea(String,String,String,String,Bool,Integer,Integer)
+  fullName: CRMScript.Native.EventDataDialogDefinition.addTextArea(String,String,String,String,Bool,Integer,Integer)
+  type: Method
+  summary: "\nAdds a textarea field with given label, default value, placeholder text, rows and columns. Possible to set field as mandatory.\n"
+  remarks: 
+  syntax: 
+    content: Void addTextArea(String id, String label, String defaultValue, String placeholder, Bool mandatory, Integer rows, Integer cols)
+    parameters:
+    - id: id
+      type: CRMScript.Global.String
+      description: "Field identifier."
+    - id: label
+      type: CRMScript.Global.String
+      description: "Field label."
+    - id: defaultValue
+      type: CRMScript.Global.String
+      description: "Default value for field."
+    - id: placeholder
+      type: CRMScript.Global.String
+      description: "Placeholder text."
+    - id: mandatory
+      type: CRMScript.Global.Bool
+      description: "Setting field to mandatory if true."
+    - id: rows
+      type: CRMScript.Global.Integer
+      description: "Setting how many rows."
+    - id: cols
+      type: CRMScript.Global.Integer
+      description: "Setting how many columns."
+    return:
+      type: CRMScript.Global.Void
+  example: 
+  - "\n<pre><code>EventDataDialogDefinition def;\ndef.addText(&quot;textinput&quot;, &quot;My Input&quot;, &quot;Default&quot;, &quot;Type something&quot;, false,&quot;4&quot;,&quot;5&quot;);</code></pre>\n"
 - uid: CRMScript.Native.EventDataDialogDefinition.addTime(String,String)
   commentId: M:CRMScript.Native.EventDataDialogDefinition.addTime(String,String)
   id: 'addTime(String,String)'
@@ -1551,3 +1632,9 @@ references:
   name: EventDataDialogField
   nameWithType: EventDataDialogField
   fullName: CRMScript.Native.EventDataDialogField
+- uid: CRMScript.Native.Map
+  commentId: T:CRMScript.Native.Map
+  isExternal: true
+  name: Map
+  nameWithType: Map
+  fullName: CRMScript.Native.Map
