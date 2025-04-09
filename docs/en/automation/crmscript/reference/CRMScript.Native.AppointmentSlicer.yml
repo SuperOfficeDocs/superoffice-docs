@@ -64,6 +64,8 @@ items:
     - id: stop
       type: CRMScript.Global.String
       description: "When the appointment ends."
+    return:
+      type: CRMScript.Global.Void
   example: 
 - uid: CRMScript.Native.AppointmentSlicer.clear()
   commentId: M:CRMScript.Native.AppointmentSlicer.clear()
@@ -78,7 +80,7 @@ items:
   summary: "\nClears all the added appointments from the instance.\n"
   remarks: 
   syntax: 
-    content: clear()
+    content: Void clear()
     parameters: []
     return:
       type: CRMScript.Global.Void

@@ -461,6 +461,8 @@ items:
     - id: udefs
       type: CRMScript.Native.Map
       description:
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSTicketCategoryEntity thing;\nMap udefs;\nudefs[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nudefs[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nudefs[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_foo&quot;] = &quot;foobar&quot;;\nudefs[&quot;x_bar&quot;] = &quot;456&quot;; // List item id\nthing.SetCustomFields(udefs);</code></pre>\n"
 - uid: CRMScript.NetServer.NSTicketCategoryEntity.SetDelegateMethod(Integer)
@@ -527,6 +529,8 @@ items:
     - id: extras
       type: CRMScript.Native.Map
       description:
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSTicketCategoryEntity thing;\nMap extras;\nextras[&quot;SuperOffice:1&quot;] = &quot;[I:123]&quot;;\nextras[&quot;SuperOffice:1&quot;] = &quot;123&quot;; // this will also work, but beware of decimal point variations in different languages\nextras[&quot;custom.progid&quot;] = &quot;foobar&quot;;\nthing.SetExtraFields(extras);</code></pre>\n"
 - uid: CRMScript.NetServer.NSTicketCategoryEntity.SetFlags(Integer)

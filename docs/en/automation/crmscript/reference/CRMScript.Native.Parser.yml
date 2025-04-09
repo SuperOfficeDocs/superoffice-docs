@@ -195,6 +195,8 @@ items:
     - id: parser
       type: CRMScript.Native.Parser
       description: "The parser to copy the values from."
+    return:
+      type: CRMScript.Global.Void
   example: 
 references:
 - uid: CRMScript.Native.Parser

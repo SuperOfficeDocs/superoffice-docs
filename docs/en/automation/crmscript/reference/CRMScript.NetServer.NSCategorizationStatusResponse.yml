@@ -156,6 +156,8 @@ items:
     - id: currentModel
       type: CRMScript.NetServer.NSCategorizationModelDetails
       description: "Current model information."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSCategorizationStatusResponse thing;\nNSCategorizationModelDetails currentModel;\nthing.SetCurrentModel(currentModel);</code></pre>\n"
 - uid: CRMScript.NetServer.NSCategorizationStatusResponse.SetPreviousModel(NSCategorizationModelDetails)

@@ -485,6 +485,8 @@ items:
     - id: startDate
       type: CRMScript.Global.DateTime
       description: "When the task should start."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSMailMergeTask thing;\nDateTime startDate;\nthing.SetStartDate(startDate);</code></pre>\n"
 - uid: CRMScript.NetServer.NSMailMergeTask.SetTypeId(Integer)

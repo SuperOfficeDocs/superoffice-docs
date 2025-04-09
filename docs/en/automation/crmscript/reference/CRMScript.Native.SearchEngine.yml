@@ -741,6 +741,8 @@ items:
     - id: matrix
       type: CRMScript.Native.StringMatrix
       description: "The matrix to fill with the result set."
+    return:
+      type: CRMScript.Global.Void
   example: 
 - uid: CRMScript.Native.SearchEngine.executeJSON()
   commentId: M:CRMScript.Native.SearchEngine.executeJSON()

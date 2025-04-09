@@ -684,6 +684,8 @@ items:
     - id: status
       type: CRMScript.Global.Integer
       description: "Status for sending to this particular recipient. See <xref href=\"CRMScript.NetServer.ShipmentAddrStatus\" data-throw-if-not-resolved=\"false\"></xref>."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSPreviewMailing thing;\nInteger status;\nthing.SetStatus(status);</code></pre>\n"
 references:

@@ -190,6 +190,8 @@ items:
     - id: order
       type: CRMScript.Global.Bool
       description: "False will sort in an ascending order, true in a descending order."
+    return:
+      type: CRMScript.Global.Void
   example: 
 references:
 - uid: CRMScript.Native.Cache

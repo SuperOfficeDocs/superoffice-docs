@@ -291,6 +291,8 @@ items:
     - id: start
       type: CRMScript.Global.DateTime
       description: "The start date and time for this shipment."
+    return:
+      type: CRMScript.Global.Void
   example: 
 references:
 - uid: CRMScript.Native.SpmShipment

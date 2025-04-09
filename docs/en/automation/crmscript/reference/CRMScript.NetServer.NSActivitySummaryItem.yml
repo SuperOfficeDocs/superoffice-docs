@@ -229,6 +229,11 @@ items:
   syntax: 
     content: Void SetDate(DateTime date)
     parameters:
+    - id: date
+      type: CRMScript.Global.DateTime
+      description:
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSActivitySummaryItem thing;\nDateTime date;\nthing.SetDate(date);</code></pre>\n"
 - uid: CRMScript.NetServer.NSActivitySummaryItem.SetDescription(String)

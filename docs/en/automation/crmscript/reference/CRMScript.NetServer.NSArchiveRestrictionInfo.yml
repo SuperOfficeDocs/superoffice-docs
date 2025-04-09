@@ -415,6 +415,8 @@ items:
     - id: name
       type: CRMScript.Global.String
       description: "The programmatic column name, including any required prefixes."
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSArchiveRestrictionInfo thing;\nString name;\nthing.SetName(name);</code></pre>\n"
 - uid: CRMScript.NetServer.NSArchiveRestrictionInfo.SetOperator(String)

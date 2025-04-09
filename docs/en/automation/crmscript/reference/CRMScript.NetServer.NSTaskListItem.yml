@@ -598,6 +598,8 @@ items:
     - id: type
       type: CRMScript.Global.Integer
       description: "1 = app, 2 = doc, 3 = email, 4 = fax, 5 = phone, 6 = todo; See <xref href=\"CRMScript.NetServer.TaskType\" data-throw-if-not-resolved=\"false\"></xref>"
+    return:
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSTaskListItem thing;\nInteger type;\nthing.SetType(type);</code></pre>\n"
 - uid: CRMScript.NetServer.NSTaskListItem.SetValue(String)

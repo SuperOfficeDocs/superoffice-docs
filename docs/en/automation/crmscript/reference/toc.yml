@@ -864,7 +864,7 @@ items:
     - name: ActivityStatus
       href: CRMScript.NetServer.ActivityStatus.yml
     - name: Addresstype
-      href: CRMScript.NetServer.Addresstype.yml
+      href: CRMScript.NetServer.AddressType.yml
     - name: AllDayEvent
       href: CRMScript.NetServer.AllDayEvent.yml
     - name: AppAvailState

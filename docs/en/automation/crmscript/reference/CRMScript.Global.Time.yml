@@ -127,6 +127,7 @@ items:
       type: CRMScript.Global.Integer
       description: "Number of hours, 0-23."
     return:
+      type: CRMScript.Global.Void
 - uid: CRMScript.Global.Time.setMin(Integer)
   commentId: M:CRMScript.Global.Time.setMin(Integer)
   id: setMin(Integer)
@@ -148,6 +149,7 @@ items:
       type: CRMScript.Global.Integer
       description: "Number of minutes, 0-59."
     return:
+      type: CRMScript.Global.Void
 - uid: CRMScript.Global.Time.setSec(Integer)
   commentId: M:CRMScript.Global.Time.setSec(Integer)
   id: setSec(Integer)
@@ -169,6 +171,7 @@ items:
       type: CRMScript.Global.Integer
       description: "Number of seconds, 0-59."
     return:
+      type: CRMScript.Global.Void
 - uid: CRMScript.Global.Time.getHour()
   commentId: M:CRMScript.Global.Time.getHour()
   id: getHour()
