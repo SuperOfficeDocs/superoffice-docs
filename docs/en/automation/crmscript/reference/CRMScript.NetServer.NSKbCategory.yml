@@ -156,7 +156,7 @@ items:
     content: Integer GetSortOrder()
     parameters: []
     return:
-      type: CRMScript.Global.Integer'
+      type: CRMScript.Global.Integer
       description: "A strictly ascending number used for sorting categories when they are listed."
   example: 
   - "\n<pre><code>NSKbCategory thing;\nInteger sortOrder = thing.GetSortOrder();</code></pre>\n"
