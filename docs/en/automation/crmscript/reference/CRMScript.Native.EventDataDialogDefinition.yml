@@ -33,7 +33,7 @@ items:
   - CRMScript.Native.EventDataDialogDefinition.addText(String,String)
   - CRMScript.Native.EventDataDialogDefinition.addText(String,String,String)
   - CRMScript.Native.EventDataDialogDefinition.addText(String,String,String,String,Bool)
-  - CRMScript.Native.EventDataDialogDefinition.addTextArea(String,String,String,String,Bool)
+  - CRMScript.Native.EventDataDialogDefinition.addTextArea(String,String,String,String,Bool,Integer,Integer)
   - CRMScript.Native.EventDataDialogDefinition.addTime(String,String)
   - CRMScript.Native.EventDataDialogDefinition.addTime(String,String,Time)
   - CRMScript.Native.EventDataDialogDefinition.addTime(String,String,Time,String,Bool)
