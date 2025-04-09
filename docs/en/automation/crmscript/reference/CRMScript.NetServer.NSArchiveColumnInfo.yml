@@ -156,7 +156,7 @@ items:
     content: String GetDisplayType()
     parameters: []
     return:
-      type: CRMScript.Global.String'
+      type: CRMScript.Global.String
       description: "Type of column, so that the archive knows how to display it (actual display values are always strings, invariant-culture formatted). This name can contain resource tags."
   example: 
   - "\n<pre><code>NSArchiveColumnInfo thing;\nString displayType = thing.GetDisplayType();</code></pre>\n"
