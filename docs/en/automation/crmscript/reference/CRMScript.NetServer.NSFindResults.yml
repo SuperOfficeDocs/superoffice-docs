@@ -118,7 +118,7 @@ items:
       type: CRMScript.NetServer.
       description: "Array of ColumnInfo column specifications."
     return:
-      type: CRMScript.Global.Void
+      type: CRMScript.NetServer.NSArchiveColumnInfo[]
   example: 
   - "\n<pre><code>NSFindResults thing;\nNSArchiveColumnInfo[] archiveColumns;\nthing.SetArchiveColumns(archiveColumns);</code></pre>\n"
 - uid: CRMScript.NetServer.NSFindResults.SetArchiveRows(NSArchiveListItem[])
