@@ -2065,7 +2065,7 @@ items:
       type: CRMScript.Global.String
       description: "Name of the appointments priority."
     return:
-      type: CRMScript.Global.Void'
+      type: CRMScript.Global.Void
   example: 
   - "\n<pre><code>NSAppointment thing;\nString priorityName;\nthing.SetPriorityName(priorityName);</code></pre>\n"
 - uid: CRMScript.NetServer.NSAppointment.SetPrivate(Integer)
