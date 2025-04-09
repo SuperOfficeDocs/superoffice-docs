@@ -128,7 +128,6 @@ items:
       description: "Number of hours, 0-23."
     return:
       type: CRMScript.Global.Void
-    return:
 - uid: CRMScript.Global.Time.setMin(Integer)
   commentId: M:CRMScript.Global.Time.setMin(Integer)
   id: setMin(Integer)
