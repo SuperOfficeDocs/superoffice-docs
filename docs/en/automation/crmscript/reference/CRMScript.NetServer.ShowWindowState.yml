@@ -55,7 +55,6 @@ references:
   name: ShowWindowState
   nameWithType: ShowWindowState
   fullName: CRMScript.NetServer.ShowWindowState
-references:
 - uid: CRMScript.NetServer.OfficialLanguage
   commentId: T:CRMScript.NetServer.OfficialLanguage
   isExternal: true
