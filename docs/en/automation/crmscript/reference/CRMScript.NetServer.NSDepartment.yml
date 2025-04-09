@@ -73,7 +73,7 @@ items:
     content: String GetTooltip()
     parameters: []
     return:
-      type: CRMScript.Global.String'
+      type: CRMScript.Global.String
       description:
   example: 
   - "\n<pre><code>NSDepartment thing;\nString descr = thing.GetTooltip();</code></pre>\n"
