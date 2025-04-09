@@ -80,7 +80,7 @@ items:
   summary: "\nClears all the added appointments from the instance.\n"
   remarks: 
   syntax: 
-    content: clear()
+    content: Void clear()
     parameters: []
     return:
       type: CRMScript.Global.Void
