@@ -9,3 +9,12 @@ items:
   href: create-sales-guide.md
 - name: Edit or deactivate sales guide
   href: edit-sales-guide.md
+- name: Quote
+  href: quote/index.md
+  items:
+  - name: Price list and products
+    href: quote/price-list-and-products.md
+  - name: Product settings
+    href: quote/configure.md
+  - name: Set up quote connector
+    href: quote/set-up-quote-connector.md
