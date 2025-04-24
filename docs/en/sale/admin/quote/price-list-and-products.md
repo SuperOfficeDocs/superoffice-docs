@@ -2,9 +2,9 @@
 uid: help-en-price-list-and-products
 title: Manage price lists and products
 description: Learn how to create and manage price lists and products in the SuperOffice product register for use in quotes.
-keywords: price list, product, quote, add product, configure product, product image, deactivate product
+keywords: price list, add product, configure product, product image, deactivate product, product, quote
 author: Bergfrid Dias
-date: 04.22.2025
+date: 04.28.2025
 version: 10.5.4
 topic: howto
 license: development-tools
@@ -77,15 +77,6 @@ Use multiple price lists to support seasonal pricing, campaigns, or different cu
 >
 > You can [import products from a spreadsheet][5] instead of adding them manually.
 
-## Configure fields in the product dialog
-
-To customize the field names, order, or required fields for products:
-
-1. Go to the **Settings** tab in **Quote/Sync**.
-2. Click **Configure product**.
-
-See [Customize the quote dialog][3] for details.
-
 ## <a id="image"></a>Add or change product image
 
 Add high quality product images to your proposals to show your customers the products they are interested in.
@@ -136,18 +127,18 @@ Check if the user has [access rights][7] and that the export [preference][8] is 
 
 ## Related content
 
-* [Customize the quote dialog][3]
+* [Configure fields in the Add/edit product dialog][3]
 * [Import products from Excel][5]
 * [Set up ERP connection][1]
 
 <!-- Referenced links -->
 [1]: set-up-quote-connector.md
-[3]: configure.md
+[3]: configure-product-fields.md
 [4]: ../../../../learn/section-tabs/adjust-list-view.md
 [5]: ../../../../admin/import/learn/import-products-from-excel.md
 [7]: ../../../../admin/user-management/learn/role/index.md
 [8]: ../../../../admin/preferences/learn/index.md
 
 <!-- Referenced images -->
-[img2]: ../../../../media/loc/en/quote/add-products-to-price-list.png
-[img1]: ../../../../media/loc/en/quote/add-edit-product.png
+[img2]: ../../../../media/loc/en/sale/add-products-to-price-list.png
+[img1]: ../../../../media/loc/en/sale/add-edit-product.png

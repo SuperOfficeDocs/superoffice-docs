@@ -4,7 +4,7 @@ title: Set up ERP connection for quote connector
 description: Learn how to configure a quote connector and create ERP connections to enable product and price integration in SuperOffice CRM.
 keywords: set up quote connector, add quote connector, add ERP connection, test ERP connection, ERP connection, quote connection, quote connector, connector, ERP
 author: Bergfrid Dias
-date: 04.22.2025
+date: 04.28.2025
 version: 10.5
 topic: howto
 license: development-tools
@@ -85,4 +85,4 @@ To restore a deleted connection:
 [4]: https://online.superoffice.com/appstore
 
 <!-- Referenced images -->
-[img1]: ../../../media/loc/en/quote/define-erp-connection.png
+[img1]: ../../../../media/loc/en/sale/quote-erp-connection.png

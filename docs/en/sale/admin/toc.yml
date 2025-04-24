@@ -14,7 +14,7 @@ items:
   items:
   - name: Price list and products
     href: quote/price-list-and-products.md
-  - name: Product settings
-    href: quote/configure.md
+  - name: Configure product fields
+    href: quote/configure-product-fields.md
   - name: Set up quote connector
     href: quote/set-up-quote-connector.md

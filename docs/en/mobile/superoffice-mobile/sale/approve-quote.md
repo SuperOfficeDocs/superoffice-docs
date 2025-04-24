@@ -51,7 +51,7 @@ When someone needs approval for their quote to be sent to customer:
 
 <!-- Referenced links -->
 [1]: update.md
-[2]: ../../../quote/learn/index.md
+[2]: ../../../sale/learn/quote/index.md
 
 <!-- Referenced images -->
 [img1]: media/quote-approval.png
