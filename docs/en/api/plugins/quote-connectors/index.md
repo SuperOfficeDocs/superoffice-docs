@@ -123,7 +123,7 @@ Configuration fields can be declared to be one of a number of different types, u
 [0]: ./online-quote-connectors/index.md
 [1]: ../../../developer-portal/create-app/sync-app.md
 [2]: ../../../developer-portal/create-app/config/update-endpoints.md
-[3]: ../../../quote/learn/admin/erp-connection-add.md
+[3]: ../../../erp/admin/add-connection.md
 [4]: ../../../api/plugins/quote-connectors/set-up.md#pluginresponseinfo-testconnection--dictionarystring-string-connectiondata-connectiondata-
 [5]: https://github.com/SuperOffice/SuperOffice.DevNet.Online/tree/master/Source/SuperOffice.DevNet.Online.IntegrationServer/JsonQuoteConnector
 

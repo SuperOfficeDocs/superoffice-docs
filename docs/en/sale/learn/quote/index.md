@@ -102,7 +102,7 @@ To ensure consistency, use a well-designed quote document template. Administrato
 [4]: send.md
 [5]: place-order.md
 [7]: add-alternative.md
-[11]: ../../admin/quote.md
+[11]: ../../admin/quote/price-list-and-products.md
 
-[img1]: ../../../../media/loc/en/quote/quote-management.png
+[img1]: ../../../../media/loc/en/sale/quote-management.png
 [img2]: ../../../../media/loc/en/quote/quote-create-send.gif

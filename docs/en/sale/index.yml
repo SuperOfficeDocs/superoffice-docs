@@ -92,13 +92,13 @@ landingContent:
         - text: Place an order
           url: learn/quote/place-order.md
         - text: Add ERP connection (Quote Connector)
-          url: learn/admin/quote/add-erp-connection.md
+          url: admin/quote/set-up-quote-connector.md
         - text: Add price list
-          url: learn/admin/quote/add-price-list.md
+          url: admin/quote/price-list-and-products.md
         - text: Add product to price list
-          url: learn/admin/quote/add-product-to-price-list.md#add-product
+          url: admin/quote/price-list-and-products.md#add-product
         - text: Configure product fields
-          url: learn/admin/quote/configure-product-fields.md
+          url: admin/quote/configure-product-fields.md
       - itemType: video_library
         typeDesc: video
         links:

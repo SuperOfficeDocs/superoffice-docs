@@ -190,7 +190,7 @@ These messages may be displayed in the following places:
 [6]: create-quote-document.md
 [7]: send.md
 [8]: place-order.md
-[9]: ../../admin/quote.md
+[9]: ../../admin/quote/price-list-and-products.md
 
 <!-- Referenced images -->
 [img1]: ../../../../media/loc/en/sale/edit-quote-dialog-empty.png
