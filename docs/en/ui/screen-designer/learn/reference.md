@@ -320,7 +320,7 @@ For details about the value of each field, see the [Document database table][23]
 [5]: ../../../../en/database/tables/project.md
 [6]: ../../../../en/database/tables/ticket.md
 [7]: ../../../../en/database/tables/appointment.md
-[11]: ../../../../en/sale/overview.md
+[11]: ../../../../en/sale/dev/index.md
 [10]: ../../../../en/project/overview.md
 [13]: ../../../request/admin/type/index.md
 [14]: ../../../../en/request/overview.md

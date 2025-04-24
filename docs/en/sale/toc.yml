@@ -10,7 +10,7 @@ items:
 - name: Sales intelligence (SAINT)
   topicHref: ../saint/learn/index.md
 - name: Technical reference
-  href: overview.md
+  href: dev/index.md
 - name: API options - sale
   items:
   - name: CRMScript
