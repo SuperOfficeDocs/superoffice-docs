@@ -22,8 +22,8 @@ items:
   href: sales-targets/toc.yml
   topicHref: sales-targets/index.md
 - name: Angebot
-  href: ../../quote/learn/toc.yml
-  topicHref: ../../quote/learn/index.md
+  href: quote/toc.yml
+  topicHref: quote/index.md
 - name: Für Admins
   href: ../admin/toc.yml
   topicHref: ../admin/index.md

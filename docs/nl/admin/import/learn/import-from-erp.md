@@ -4,8 +4,8 @@ title: Importeren vanuit ERP
 description: Importeren vanuit ERP
 keywords: import, ERP
 author: Bergfrid Dias
-date: 03.31.2025
-version: 10.5
+date: 04.28.2025
+version: 10.5.4
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -20,11 +20,11 @@ Volg de onderstaande stappen om actors (klanten, leveranciers en personen) vanui
 
 ## Selecteer actors die moeten worden geïmporteerd vanuit het ERP-systeem
 
-> [!NOTE]
-> Als het ERP Sync.-![pictogram][img1] niet actief is, moet u synchronisatie uitschakelen in **Offerte/Synchroniseren** > **Sync**-tabblad.
-
 1. [!include[Open Import](includes/open-import.md)]
-2. Klik op het pictogram ERP synchroniseren ![pictogram][img1] onder **Een importbron selecteren**. Het dialoogvenster **ERP-verbinding selecteren** wordt geopend.
+2. Klik op **ERP synchroniseren** onder **Een importbron selecteren**. Het dialoogvenster **ERP-verbinding selecteren** wordt geopend.
+
+    Als het **ERP Sync** knop niet actief is, moet u synchronisatie uitschakelen in **Offerte/Synchroniseren** > **Sync**-tabblad.
+
 3. Selecteer in de lijst **ERP-verbinding** [de verbinding][2] waaruit u wilt importeren.
 4. Selecteer in de lijst **Actor-type** wat u wilt importeren. Bijvoorbeeld klanten, leveranciers of personen.
 5. Klik op **OK**. Het dialoogvenster **Zoeken in ERP** wordt weergegeven.
@@ -59,7 +59,6 @@ Boven elke lijst wordt een koppeling weergegeven naar de selectie met de nieuwe/
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md
-[2]: ../../../learn/admin/index.md
+[2]: ../../../erp/admin/add-connection.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-erp-small.png

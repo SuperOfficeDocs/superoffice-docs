@@ -67,6 +67,8 @@ To save time, you can reuse an existing quote from another sale that uses the sa
     * **Discount amount**
     * **Total price**
 
+    Hold the mouse pointer over a discount field to display any system discounts (such as volume discounts that are added automatically).
+
 1. Go to the **Details** tab to:
 
     * View or adjust **earnings** (percentage or amount)

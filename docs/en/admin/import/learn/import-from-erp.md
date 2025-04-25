@@ -62,4 +62,3 @@ Above each list is a link to the selection containing the new/updated actors.
 [2]: ../../../erp/admin/add-connection.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-erp-small.png

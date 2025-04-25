@@ -110,7 +110,7 @@ Voor meer informatie over het instellen van uw verkoopkansen, zie de [handleidin
 * [Informatie over een verkoop afdrukken][11]
 
 <!-- Referenced links -->
-[1]: ../../quote/learn/create.md
+[1]: quote/create.md
 [2]: update.md#stalled
 [3]: ../../learn/section-tabs/index.md
 [4]: create.md
@@ -124,7 +124,7 @@ Voor meer informatie over het instellen van uw verkoopkansen, zie de [handleidin
 [14]: ../../learn/section-tabs/activities-tab.md
 [15]: stakeholders/index.md
 [16]: sales-guides.md
-[17]: ../../quote/learn/quote-tab.md
+[17]: quote/index.md#quote-tab
 [18]: ../../learn/basics/links.md
 [19]: ../../learn/basics/notes.md
 [20]: ../../learn/getting-started/main-screen/side-panel.md

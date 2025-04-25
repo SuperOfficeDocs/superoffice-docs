@@ -1,0 +1,13 @@
+items:
+- name: Overzicht
+  href: index.md
+- name: Offerte maken en producten toevoegen
+  href: create.md
+- name: Alternatieven toevoegen
+  href: add-alternative.md
+- name: Offertedocument aanmaken
+  href: create-quote-document.md
+- name: Offerte goedkeuren en verzenden
+  href: send.md
+- name: Een order plaatsen
+  href: place-order.md

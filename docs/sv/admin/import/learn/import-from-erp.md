@@ -4,8 +4,8 @@ title: Importera från ERP
 description: Importera från ERP
 keywords: import, ERP
 author: Bergfrid Dias
-date: 03.31.2025
-version: 10.5
+date: 04.28.2025
+version: 10.5.4
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -20,11 +20,11 @@ Så här importerar du aktörer (kunder, leverantörer och personer) från ett E
 
 ## Välj vilka aktörer som ska importeras från ERP-systemet
 
-> [!NOTE]
-> Om ![ikonen][img1] ERP Sync är inaktiv måste du stänga av synkronisering på fliken **Offert/Synk** > **Synk**.
-
 1. [!include[Open Import](includes/open-import.md)]
-2. Klicka på ![ikon][img1] ikonen ERP Sync under **Välj en importkälla**. Dialogrutan **Välj ERP-koppling** öppnas.
+2. Klicka på **ERP Sync** under **Välj en importkälla**. Dialogrutan **Välj ERP-koppling** öppnas.
+
+    Om knappen **ERP Sync** är inaktiv måste du stänga av synkronisering på fliken **Offert/Synk** > **Synk**.
+
 3. [Välj den koppling][2] du vill importera från i listan **ERP-koppling**.
 4. Välj vad du vill importera i listan **Aktörtyp**. Du kan välja till exempel kunder, leverantörer eller personer.
 5. Klicka på **OK**. Dialogrutan **Sök i ERP** öppnas.
@@ -59,7 +59,6 @@ Ovanför varje lista finns en länk till urvalet som innehåller de nya/uppdater
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md
-[2]: ../../../learn/admin/index.md
+[2]: ../../../erp/admin/add-connection.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-erp-small.png

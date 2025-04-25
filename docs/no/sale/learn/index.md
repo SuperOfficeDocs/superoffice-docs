@@ -108,7 +108,7 @@ For mer informasjon om oppsett av salgsmuligheter, se [veiledningen for salgspro
 * [Skriv ut informasjon om et salg][11]
 
 <!-- Refererte lenker -->
-[1]: ../../quote/learn/create.md
+[1]: quote/create.md
 [2]: update.md#stalled
 [3]: ../../learn/section-tabs/index.md
 [4]: create.md
@@ -123,7 +123,7 @@ For mer informasjon om oppsett av salgsmuligheter, se [veiledningen for salgspro
 [14]: ../../learn/section-tabs/activities-tab.md
 [15]: stakeholders/index.md
 [16]: sales-guides.md
-[17]: ../../quote/learn/quote-tab.md
+[17]: quote/index.md#quote-tab
 [18]: ../../learn/basics/links.md
 [19]: ../../learn/basics/notes.md
 [20]: ../../learn/getting-started/main-screen/side-panel.md
