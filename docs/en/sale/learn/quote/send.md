@@ -2,7 +2,7 @@
 uid: help-en-quote-send
 title: Send a quote
 description: Learn how to send, approve, and version quotes in SuperOffice CRM.
-keywords: send quote, approve quote, edit sent quote, send, publish, approval, quote version, quote
+keywords: send quote, approve quote, edit sent quote, send, publish, approval, quote version, Attachments tab, quote
 author: Bergfrid Dias
 date: 04.09.2025
 version: 10.5.4
@@ -30,7 +30,7 @@ After you add products and create a quote document, you can send the quote to th
     * No [warnings][4] are present.
 
 > [!NOTE]
-> You cannot send a quote if it has [warnings, errors, or needs approval][4]. The **Send** button appears dimmed until all issues are resolved.
+> You cannot send a quote if it has warnings, errors, or needs approval. The **Send** button appears dimmed until all issues are resolved.
 
 ## <a id="approve"></a>Approval required?
 
@@ -86,7 +86,7 @@ Some quotes must be approved before sending, for example, if the earnings are to
 
 ## <a id="versions"></a>Edit a sent quote
 
-After sending, the quote becomes read-only. To make changes, you must create a new version.
+After sending, the quote becomes read-only. To make changes (for example, in response to a customer request), you must create a new version.
 
 1. Click **Open** on the **Quote** section tab.
 2. In the **Edit quote** dialog, click **Edit**.

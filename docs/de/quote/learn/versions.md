@@ -1,24 +1,4 @@
 ---
-uid: help-de-quote-versions
-title:  Gesendetes Angebot bearbeiten (Versionen)
-description:  Gesendetes Angebot bearbeiten (Versionen)
-author: SuperOffice RnD
-date: 07.04.2022
-keywords: Angebot
-topic: howto
-language: de
+uid: help-de-quote-versions-redirect
+redirect_url: https://docs.superoffice.com/de/sale/learn/quote/send.html#versions
 ---
-
-# Gesendetes Angebot bearbeiten (Versionen)
-
-Nachdem Sie ein [Angebot gesendet][1] haben und (es zum Beispiel als Antwort auf eine Kundenanfrage) bearbeiten möchten, können Sie das Angebot öffnen und im Dialogfeld **Angebot bearbeiten** auf **Bearbeiten** klicken.
-
-Die Originalversion des Angebots wird archiviert und eine neue Version wird mit dem Status **Entwurf** erstellt.
-
-> [!TIP]
-> Sie können vorherige Versionen des Angebots anzeigen, indem Sie die Liste **Version** verwenden.
-
-<!-- Referenced links -->
-[1]: send.md
-
-<!-- Referenced images -->
