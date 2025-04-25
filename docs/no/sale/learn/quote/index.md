@@ -83,7 +83,7 @@ Produktlisten: Hvis det er lagt til produkter i tilbudet, vises de i listen. Ned
 
 Et tilbud kan inneholde ett eller flere **alternativer**, slik at du kan tilby ulike kombinasjoner av produkter, mengder eller rabatter. Hvert alternativ vises som en fane i dialogboksen **Rediger tilbud** og kan gis nytt navn. Dette gir kunden valgmuligheter uten at du trenger å lage flere tilbud.
 
-Som standard er det første alternativet markert som **favoritt**. Favoritten er markert med et stjerneikon <i class="ph ph-star" aria-label="Favorite alternative"></i> og er det alternativet som brukes når du [sender tilbudet][4]. Det bestemmer også prognoseverdien for salget. For å endre favoritten, velg en annen fane og klikk på **Favorittalternativ** nederst i dialogen.
+Som standard er det første alternativet markert som **favoritt**. Favoritten er markert med et stjerneikon <i class="ph ph-star" aria-label="Favorite alternative"></i> og brukes når du [sender tilbudet][4]. Det bestemmer også prognoseverdien for salget. For å endre favoritten, velg en annen fane og klikk på **Favorittalternativ** nederst i dialogen.
 
 ## Tips
 

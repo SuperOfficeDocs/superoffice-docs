@@ -83,7 +83,7 @@ De productenlijst: Als er producten waren toegevoegd aan de offerte, worden ze i
 
 Een offerte kan een of meer **alternatieven** bevatten, waarmee u verschillende combinaties van producten, aantallen of kortingen kunt aanbieden. Elk alternatief verschijnt als een tabblad in het dialoogvenster **Offerte bewerken** en kan hernoemd worden. Zo biedt u de klant keuzes zonder meerdere offerten te hoeven maken.
 
-Standaard is het eerste alternatief gemarkeerd als **favoriet**. Het favoriet wordt aangeduid met een sterpictogram <i class="ph ph-star" aria-label="Favorite alternative"></i> en is het alternatief dat wordt gebruikt bij het [verzenden van de offerte][4]. Het bepaalt ook de prognosewaarde die voor de verkoop wordt weergegeven. Om de favoriet te wijzigen, selecteert u een ander tabblad en klikt u onderaan in het dialoogvenster op **Favoriete alternatief**.
+Standaard is het eerste alternatief gemarkeerd als **favoriet**. Het favoriet wordt aangeduid met een sterpictogram <i class="ph ph-star" aria-label="Favorite alternative"></i> en wordt gebruikt bij het [verzenden van de offerte][4]. Het bepaalt ook de prognosewaarde die voor de verkoop wordt weergegeven. Om de favoriet te wijzigen, selecteert u een ander tabblad en klikt u onderaan in het dialoogvenster op **Favoriete alternatief**.
 
 ## Tips
 

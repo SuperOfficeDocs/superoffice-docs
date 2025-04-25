@@ -83,7 +83,7 @@ The product list: If products were added to the quote, they are shown in the lis
 
 A quote can contain one or more **alternatives**, letting you offer different combinations of products, quantities, or discounts. Each alternative appears as a tab in the **Edit quote** dialog and can be renamed. This gives the customer options to choose from without requiring multiple quotes.
 
-By default, the first alternative is marked as the **favorite**. The favorite is marked with a star icon <i class="ph ph-star" aria-label="Favorite alternative"></i> and is the one included when you [send the quote][4]. It also determines the forecast value shown for the sale. To change the favorite, select another alternative tab and click **Favorite alternative** at the bottom of the dialog.
+By default, the first alternative is marked as the **favorite**. The favorite is marked with a star icon <i class="ph ph-star" aria-label="Favorite alternative"></i> and is included when you [send the quote][4]. It also determines the forecast value shown for the sale. To change the favorite, select another alternative tab and click **Favorite alternative** at the bottom of the dialog.
 
 ## Tips
 

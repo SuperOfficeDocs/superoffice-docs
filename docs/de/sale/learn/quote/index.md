@@ -83,7 +83,7 @@ Produktliste: Falls Produkte zum Angebot hinzugefügt wurden, werden sie in der 
 
 Ein Angebot kann eine oder mehrere **Alternativen** enthalten, mit denen Sie unterschiedliche Produkt-, Mengen- oder Rabattkombinationen anbieten können. Jede Alternative erscheint als Registerkarte im Dialogfeld **Angebot bearbeiten** und kann umbenannt werden. So geben Sie dem Kunden Auswahlmöglichkeiten, ohne mehrere Angebote zu erstellen.
 
-Standardmäßig ist die erste Alternative als **Favorit** markiert. Der Favorit wird mit einem Sternsymbol <i class="ph ph-star" aria-label="Favorite alternative"></i> gekennzeichnet und ist die Alternative, die beim [Versand des Angebots][4] verwendet wird. Sie bestimmt außerdem den Prognosewert des Verkaufs. Um den Favoriten zu ändern, wählen Sie eine andere Registerkarte aus und klicken unten im Dialog auf **Favoritalternative**.
+Standardmäßig ist die erste Alternative als **Favorit** markiert. Der Favorit wird mit einem Sternsymbol <i class="ph ph-star" aria-label="Favorite alternative"></i> gekennzeichnet und wird beim [Versand des Angebots][4] verwendet. Sie bestimmt außerdem den Prognosewert des Verkaufs. Um den Favoriten zu ändern, wählen Sie eine andere Registerkarte aus und klicken unten im Dialog auf **Favoritalternative**.
 
 ## Tipps
 

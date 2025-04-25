@@ -83,7 +83,7 @@ Produktlistan: Om produkter har lagts till i offerten, visas de i listan. Längs
 
 En offert kan innehålla ett eller flera **alternativ** så att du kan erbjuda olika kombinationer av produkter, kvantiteter eller rabatter. Varje alternativ visas som en flik i dialogrutan **Redigera offert** och kan ges ett eget namn. Detta ger kunden valmöjligheter utan att du behöver skapa flera offerter.
 
-Som standard markeras det första alternativet som **favorit**. Favoriten markeras med en stjärnikon <i class="ph ph-star" aria-label="Favorite alternative"></i> och är det som inkluderas när du [skickar offerten][4]. Det avgör också prognosvärdet som visas för försäljningen. För att ändra favorit, välj en annan flik och klicka på **Favoritalternativ** längst ner i dialogrutan.
+Som standard markeras det första alternativet som **favorit**. Favoriten markeras med en stjärnikon <i class="ph ph-star" aria-label="Favorite alternative"></i> och inkluderas när du [skickar offerten][4]. Det avgör också prognosvärdet som visas för försäljningen. För att ändra favorit, välj en annan flik och klicka på **Favoritalternativ** längst ner i dialogrutan.
 
 ## Tips
 
