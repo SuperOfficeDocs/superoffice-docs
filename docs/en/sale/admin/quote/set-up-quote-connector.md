@@ -2,10 +2,10 @@
 uid: help-en-quote-connector-setup
 title: Set up ERP connection for quote connector
 description: Learn how to configure a quote connector and create ERP connections to enable product and price integration in SuperOffice CRM.
-keywords: set up quote connector, add quote connector, add ERP connection, test ERP connection, ERP connection, quote connection, quote connector, connector, ERP
+keywords: set up quote connector, add quote connector, add ERP connection, test ERP connection, ERP connection, quote connection, quote connector, connector, quote
 author: Bergfrid Dias
 date: 04.28.2025
-version: 10.5
+version: 10.5.4
 topic: howto
 license: development-tools
 audience: settings
@@ -24,8 +24,9 @@ Before you can use a quote connector, you must install the correct app for your 
 1. Go to the [SuperOffice App Store][4].
 
 2. Search for a quote connector that supports your ERP system.
-   [Quote connector apps][3]
-   [Sync apps (optional)][2]
+
+    * [Quote connector apps][3]
+    * [Sync apps (optional)][2]
 
 3. Follow the provider's instructions to install the app.
 
