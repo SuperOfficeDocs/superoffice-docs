@@ -45,7 +45,7 @@ These settings apply globally to all quote connector ERP connections and affect 
     * **Editable:** Allow users to modify the value.
     * **Mandatory:** Require users to fill out the field in the quote line. Automatically enables **Editable**.
 
-        Some system-controlled fields cannot be made editable or mandatory.
+        You can override editable and mandatory settings per product. However, for system-controlled fields, these settings are disabled both in the **Configure product** dialog and in the **Add/Edit product** dialog.
 
     * **Order:** Use the up/down arrows <i class="ph ph-arrow-circle-up" aria-hidden="true"></i> <i class="ph ph-arrow-circle-down" aria-hidden="true"></i> to change the field order in the dialog.
 
