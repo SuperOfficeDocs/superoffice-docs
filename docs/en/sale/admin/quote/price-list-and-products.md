@@ -68,7 +68,7 @@ Use multiple price lists to support seasonal pricing, campaigns, or different cu
 
 1. (Optional) Check **Override default security** to adjust field-level security for this product.
 
-1. Check **Include in price list** to activate the product.
+1. Check **Include in price list** to activate the product. You should not do this until you have entered all the necessary information about the product.
 
 1. Click **Save** or **Save + new** to continue adding products.
 
@@ -85,10 +85,9 @@ Add high quality product images to your proposals to show your customers the pro
 
 1. Click **Change image** at the bottom of the preview area in the **Add/Edit product** dialog.
 
-1. Select an image from the database and click **OK**.
+1. In the **Select image** dialog, select an image from the database. Only available images are shown.
 
-    Images are displayed only if they are added to the database.
-    The image is added to the database and displayed in the field on the right.
+1. Click **OK** to add the image to the product.
 
 ![You can add an image to every product you add to your price list -screenshot][img1]
 
