@@ -4,8 +4,8 @@ title: Opdrachtbevestigingssjabloon aanpassen
 description: Opdrachtbevestigingssjabloon aanpassen
 keywords: sjabloondocument, sjabloon, offerte, opdrachtbevestiging
 author: Bergfrid Dias
-date: 07.31.2024
-version: 10
+date: 04.28.2025
+version: 10.5.4
 topic: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -39,9 +39,7 @@ We zullen:
 
 1. Controleer of de vereiste productvelden zichtbaar zijn in het dialoogvenster **Product configureren**.
 
-* Alleen velden die in Instellingen en onderhoud als zichtbaar zijn gemarkeerd, verschijnen in het sjabloon.
-
-* Zie [Producten configureren][4] voor meer details over het instellen van veldzichtbaarheid.
+* Alleen velden die in Instellingen en onderhoud [als zichtbaar zijn gemarkeerd][4], verschijnen in het sjabloon.
 
 ### Kopieer het sjabloon om te wijzigen
 
@@ -153,7 +151,7 @@ Na het definiëren van het groeperingsgebied worden de producten ook binnen elke
 [1]: link-template.md
 [2]: ../learn/create.md
 [3]: ../variables/index.md
-[4]: ../../../quote/learn/admin/product/configure.md
+[4]: ../../../sale/admin/quote/configure-product-fields.md
 [5]: ../../../sale/learn/create.md
 
 <!-- Referenced images -->

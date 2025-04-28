@@ -4,8 +4,8 @@ title: Tilpas ordrebekræftelsesskabelon
 description: Tilpas ordrebekræftelsesskabelon (vejledning)
 keywords: dokumentskabelon, dokument, skabelonen, tilbud, ordrebekræftelse
 author: Bergfrid Dias
-date: 07.31.2024
-version: 10
+date: 04.28.2025
+version: 10.5.4
 topic: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -39,9 +39,7 @@ Vi vil:
 
 1. Sørg for, at de nødvendige produktfelter er synlige i dialogboksen **Konfigurer produkt**.
 
-* Kun felter markeret som synlige i Indstillinger og vedligeholdelse vil vises i skabelonen.
-
-* Se [Konfigurer produkter][4] for mere information om at sætte felt synlighed.
+* Kun [felter markeret som synlige][4] i Indstillinger og vedligeholdelse vil vises i skabelonen.
 
 ### Kopier skabelonen, der skal ændres
 
@@ -152,7 +150,7 @@ Produkterne vil nu blive sorteret efter produktnavn inden for hvert alternativ. 
 [1]: link-template.md
 [2]: ../learn/create.md
 [3]: ../variables/index.md
-[4]: ../../../quote/learn/admin/product/configure.md
+[4]: ../../../sale/admin/quote/configure-product-fields.md
 [5]: ../../../sale/learn/create.md
 
 <!-- Referenced images -->
