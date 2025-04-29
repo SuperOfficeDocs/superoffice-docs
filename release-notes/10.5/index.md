@@ -47,12 +47,17 @@ Check out our **Product release** overview for more details in our [Community][1
 
 ### SuperOffice CRM
 
+* 10.5.5 (06.05.2025):
+  * [Service - x (10.5.5)][] in Service
+
 * 10.5.4 (03.04.2025):
   * Bug and security fixes. No new or changed functionality for the release.
+
 * 10.5.3 (11.03.2025):
   * [Dashboard - Export to Excel from tile drill down (10.5.3)][20] in Core CRM
   * [Requests - Quickly add a request from the section tab (10.5.3)][21] in Service
   * [Requests – Preference for expanded messages (10.5.3)][21] in Service
+
 * 10.5.2 (11.02.2025):
   * [Diary - The context menu on Follow-up includes Create new based on this (10.5.2)][19] in Core CRM
   * [CRMScript - Trigger to split request (10.5.2)][17] in Settings and maintenance / Service
