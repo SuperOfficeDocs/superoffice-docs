@@ -13,6 +13,7 @@ audience_tooltip: SuperOffice Service
 
 # New and improved Service
 
+* [Request lists - Read column with visualisation (10.5.5)][5]
 * [Requests - Quickly add a request from the section tab (10.5.3)][3]
 * [Requests – Preference for expanded messages (10.5.3)][3]
 

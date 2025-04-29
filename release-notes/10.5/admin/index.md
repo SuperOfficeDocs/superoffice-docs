@@ -13,7 +13,9 @@ audience_tooltip: Settings and maintenance
 
 # New and improved Settings and maintenance
 
-* [Screen designer - Trigger to split request (10.5.5)][5] in Settings and maintenance
+* [Screen designer - Quick action buttons on Request message (10.5.5)][5] in Settings and maintenance
+* [CRMScript - Use Class Map to add element in a script (10.5.5)][5] in Settings and maintenance
+* [CRMScript - Text field area to support multiple lines (10.5.5)][5] in Settings and maintenance
 * [CRMScript - Trigger to split request (10.5.2)][2] in Settings and maintenance
 * [CRMScript - Close Request tab (10.5.2)][2] in Settings and maintenance
 * [SuperOffice AI Lab - Easy to get started (10.5.1)][1]

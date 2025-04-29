@@ -48,7 +48,11 @@ Check out our **Product release** overview for more details in our [Community][1
 ### SuperOffice CRM
 
 * 10.5.5 (06.05.2025):
-  * [Service - x (10.5.5)][] in Service
+  * [Diary -  (10.5.5)][23] in Core CRM
+  * [Request lists - Read column with visualisation (10.5.5)][24] in Service
+  * [Screen designer - Quick action buttons on Request message (10.5.5)][22] in Settings and maintenance
+  * [CRMScript - Use Class Map to add element in a script (10.5.5)][22] in Settings and maintenance
+  * [CRMScript - Text field area to support multiple lines (10.5.5)][22] in Settings and maintenance
 
 * 10.5.4 (03.04.2025):
   * Bug and security fixes. No new or changed functionality for the release.
@@ -104,7 +108,14 @@ See all the [new or updated apps][6]
 
 ### Developer Portal
 
-* [Logs - Event logs for Partners][16] (1.30)
+* 2.2 (07.05.2025):
+  * Introducing a new widget 'Publish Status' - which shows all the pending requests for app configurations, app store information and partner profile for partners.
+* 2.1 (26.03.2025):
+  * Unified profile picture.
+  * Sampling of API calls, may be disabled in the developer portal for a periode.
+  * Uninstall button in the app store may no longer be clicked multiple times by the same user.
+* 1.3 (29.01.2025):
+  * [Logs - Event logs for Partners][16]
 
 ## User guides
 
@@ -141,5 +152,8 @@ We use **pilot programs** to assess how well the features and functions meet our
 [19]: core-crm/10.5.2-update.md
 [20]: core-crm/10.5.3-update.md
 [21]: service/10.5.3-update.md
+[22]: admin/10.5.5-update.md
+[23]: core-crm/10.5.5-update.md
+[24]: service/10.5.5-update.md
 
 <!-- Referenced images -->
