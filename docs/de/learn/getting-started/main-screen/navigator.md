@@ -101,7 +101,7 @@ Wenn Sie den Mauszeiger über einen Datensatz bewegen, erscheint eine QuickInfo 
 
 [20]: ../../../ai/learn/index.md
 [21]: ../../../admin/lists/learn/index.md
-[22]: ../../../quote/learn/admin/index.md
+[22]: ../../../sale/admin/quote/index.md
 [24]: ../../../ui/screen-designer/learn/index.md
 [25]: ../../../admin/preferences/learn/index.md
 [26]: ../../../admin/options/learn/index.md

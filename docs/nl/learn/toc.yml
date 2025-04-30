@@ -88,8 +88,7 @@ items:
       href: ../security/privacy/learn/admin/toc.yml
       topicHref: ../security/privacy/learn/implementation-guide.md
     - name: Offerte/Synchroniseren
-      href: ../quote/learn/admin/toc.yml
-      topicHref: ../quote/learn/admin/index.md
+      topicHref: ../sale/admin/quote/index.md
 
     - name: Workflow
       topicHref: ../sale/admin/create-sales-guide.md
