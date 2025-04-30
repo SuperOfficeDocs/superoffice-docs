@@ -18,7 +18,7 @@ language: en
 The **Quote/Sync** screen in Settings and maintenance is where you configure everything needed to enable quoting and ordering in SuperOffice CRM.
 
 > [!NOTE]
-> This feature requires the **Sales Premium** user plan and the **Developer Tools** license.
+> This feature requires the **Sales Premium** user plan.
 
 ## Products and price lists
 

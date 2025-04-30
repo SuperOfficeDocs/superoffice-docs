@@ -107,4 +107,4 @@ To ensure consistency, use a well-designed quote document template. Administrato
 [11]: ../../admin/quote/price-list-and-products.md
 
 [img1]: ../../../../media/loc/en/sale/quote-management.png
-[img2]: ../../../../media/loc/en/quote/quote-create-send.gif
+[img2]: ../../../../media/loc/en/sale/quote-create-send.gif

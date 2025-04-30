@@ -9,3 +9,12 @@ items:
   href: create-sales-guide.md
 - name: Redigere eller deaktivere salgsguide
   href: edit-sales-guide.md
+- name: Tilbud
+  href: quote/index.md
+  items:
+  - name: Prisliste og produkter
+    href: quote/price-list-and-products.md
+  - name: Konfigurer produktfelt
+    href: quote/configure-product-fields.md
+  - name: Legge til ERP-kobling
+    href: quote/set-up-quote-connector.md

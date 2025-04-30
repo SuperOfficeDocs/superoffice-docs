@@ -9,3 +9,12 @@ items:
   href: create-sales-guide.md
 - name: Redigera eller inaktivera säljguide
   href: edit-sales-guide.md
+- name: Offert
+  href: quote/index.md
+  items:
+  - name: Prislista och produkt
+    href: quote/price-list-and-products.md
+  - name: Konfigurera produktfält
+    href: quote/configure-product-fields.md
+  - name: Lägga till ERP-koppling
+    href: quote/set-up-quote-connector.md

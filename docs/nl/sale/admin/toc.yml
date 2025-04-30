@@ -9,3 +9,12 @@ items:
   href: create-sales-guide.md
 - name: Verkoopgids bewerken en deactiveren
   href: edit-sales-guide.md
+- name: Offerte
+  href: quote/index.md
+  items:
+  - name: Prijslijsten en producten
+    href: quote/price-list-and-products.md
+  - name: Productvelden configureren
+    href: quote/configure-product-fields.md
+  - name: ERP-verbinding toevoegen
+    href: quote/set-up-quote-connector.md
