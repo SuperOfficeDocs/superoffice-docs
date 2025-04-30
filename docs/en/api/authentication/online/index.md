@@ -16,7 +16,7 @@ SuperOffice Online offers OAuth 2.0 and OpenID Connect identity protocols for fr
 
 ## Prerequisites
 
-To access tenant web services, a registered application is necessary. If you haven't registered as an app developer yet, [submit this developer registration form][3] to create your developer account. For those with a developer account wanting to create a new application, [use the Developer Portal][1] and read the [Developer Portal docs][12] for guidance.
+To access tenant web services, a registered application is necessary. If you haven't registered as an app developer yet, [submit this developer registration form][13] to create your developer account. For those with a developer account wanting to create a new application, [use the Developer Portal][1] and read the [Developer Portal docs][12] for guidance.
 
 Upon registered, you will receive 2 application identifiers:
 
@@ -132,6 +132,7 @@ By following these guidelines, you can create a seamless, secure, and user-frien
 [10]: sign-in-user/implicit-flow.md
 [11]: sign-in-user/hybrid-flow.md
 [12]: ../../../developer-portal/index.yml
+[13]: https://dev.superoffice.com/register
 
 <!-- Referenced images -->
 [img3]: media/keyplayers.jpg
