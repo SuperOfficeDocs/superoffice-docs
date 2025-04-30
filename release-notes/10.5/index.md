@@ -48,11 +48,11 @@ Check out our **Product release** overview for more details in our [Community][1
 ### SuperOffice CRM
 
 * 10.5.5 (06.05.2025):
-  * [Diary -  (10.5.5)][23] in Core CRM
+  * [Diary - Create all day follow-up from the All day event section (10.5.5)][23] in Core CRM
   * [Request lists - Read column with visualisation (10.5.5)][24] in Service
   * [Screen designer - Quick action buttons on Request message (10.5.5)][22] in Settings and maintenance
-  * [CRMScript - Use Class Map to add element in a script (10.5.5)][22] in Settings and maintenance
-  * [CRMScript - Text field area to support multiple lines (10.5.5)][22] in Settings and maintenance
+  * [CRMScript - Use Class Map to add list in a script (10.5.5)][22] in Settings and maintenance
+  * [CRMScript - Text field area with multiple lines (10.5.5)][22] in Settings and maintenance
 
 * 10.5.4 (03.04.2025):
   * Bug and security fixes. No new or changed functionality for the release.
