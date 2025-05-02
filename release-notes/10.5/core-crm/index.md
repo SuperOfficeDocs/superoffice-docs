@@ -13,7 +13,7 @@ audience_tooltip: SuperOffice CRM
 
 # New and improved Core CRM
 
-* [Diary - Create all day follow-up from the All day event section (10.5.5)][5]
+* [Diary - Create all day follow-up from the All day section (10.5.5)][5]
 * [Dashboard - Export to Excel from tile drill down (10.5.3)][3]
 * [Diary - The context menu on Follow-up includes Create new based on this (10.5.2)][2]
 * [Top bar - New button (10.5.1)][1]
