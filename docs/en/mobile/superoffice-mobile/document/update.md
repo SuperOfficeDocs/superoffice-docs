@@ -15,8 +15,8 @@ client: mobile
 
 ## Update document and email properties
 
-1. When viewing the document or email, select **Details** (![icon][img2]).
-2. Tap the **Edit** icon (![icon][img1]) in the footer.
+1. When viewing the document or email, select **Details** (<i class="ph ph-list-bullets" aria-label="List icon"></i>).
+2. Tap the **Edit** icon (<i class="ph ph-pencil-simple" aria-label="Edit icon"></i>) in the footer.
 3. Update the information as necessary.
 4. Tap **Save**.
 
@@ -50,5 +50,3 @@ Do one of the following:
 [1]: create.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/mobile/edit.png
-[img2]: ../../../../../common/icons/mobile/details.png

@@ -11,7 +11,7 @@ language: en
 client: mobile
 ---
 
-# Request ![icon][img11]
+# Request <i class="ph ph-ticket" aria-hidden="true"></i>
 
 Mobile CRM gives you access to the most essential features of SuperOffice on a smartphone and tablet. Handling customer requests in the Mobile CRM app allows you to stay in control of customer service no matter where you are.
 
@@ -25,11 +25,11 @@ Watch the video [request handling][10] to learn how to handle customer service r
 
 | Icon | Tab | Description |
 |:-:|---|---|
-| ![icon][img19] | Search | Search field (by ID or title) and history list. |
-| ![icon][img18] | Favorites | Requests marked as a favorite (yellow star). |
-| ![icon][img7] | Open requests | Your own or a colleague's. |
-| ![icon][img8] | Unassigned requests | |
-| ![icon][img9] | Selections | A list of selections of type request. |
+| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | Search | Search field (by ID or title) and history list. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Favorites | Requests marked as a favorite (yellow star). |
+| | Open requests | Your own or a colleague's. |
+| | Unassigned requests | |
+| <i class="ph ph-subtract-square" aria-label="Selection icon"></i> | Selections | A list of selections of type request. |
 
 ## Request information
 
@@ -59,7 +59,7 @@ In lists, you will typically see ID, title, created at, status, and category for
 
 ## View your open requests
 
-1. Go to **Requests** ![icon][img10].
+1. Go to **Requests** <i class="ph ph-ticket" aria-label="Request icon"></i>.
 
 2. Check that your name appears at the top.
 
@@ -71,8 +71,8 @@ In lists, you will typically see ID, title, created at, status, and category for
 
 5. Switch between viewing request details and messages.
 
-    * Tap ![icon][img4] to switch to messages.
-    * Tap ![icon][img5] to switch to details.
+    * Tap <i class="ph ph-chat-teardrop-text" aria-label="Chat bubble"></i> to switch to messages.
+    * Tap <i class="ph ph-list-bullets" aria-label="List icon"></i> to switch to details.
 
     [!include[Configure visible fields](../includes/tip-visible-fields.md)]
 
@@ -137,13 +137,4 @@ Click the notification to open the request in Mobile CRM.
 
 <!-- Referenced images -->
 [img1]: media/request-header.png
-[img4]: ../../../../../common/icons/mobile/messages.png
-[img5]: ../../../../../common/icons/mobile/details.png
-[img7]: ../../../../../common/icons/mobile/request-myopen-h32.png
-[img8]: ../../../../../common/icons/mobile/request-unassigned-h32.png
-[img9]: ../../../../../common/icons/mobile/request-selection-h32.png
-[img10]: ../../../../../common/icons/mobile/request-header.png
-[img11]: ../../../../../common/icons/mobile/ticket.png
-[img18]: ../../../../../common/icons/mobile/star-h32.png
-[img19]: ../../../../../common/icons/mobile/search-h32.png
 [img20]: ../../../../../release-notes/mobile/media/mobile-request-notifications.png

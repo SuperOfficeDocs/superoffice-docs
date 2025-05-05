@@ -11,7 +11,7 @@ language: en
 client: mobile
 ---
 
-# Dashboard ![icon][img5]
+# Dashboard <i class="ph ph-gauge" aria-hidden="true"></i>
 
 From the **Dashboard** screen, you have access to the dashboards created in SuperOffice CRM.
 
@@ -24,9 +24,9 @@ From the **Dashboard** screen, you have access to the dashboards created in Supe
 
 | Icon | Tab | Description |
 |:-:|---|---|
-| ![icon][img3] | Search | Search field and history list. |
-| ![icon][img2] | Favorites | Dashboards you have marked as a favorite (yellow star). |
-| ![icon][img4] | Pinned | Dashboards pinned for you. |
+| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | Search | Search field and history list. |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Favorites | Dashboards you have marked as a favorite (yellow star). |
+| <i class="ph ph-push-pin" aria-label="Pin"></i> | Pinned | Dashboards pinned for you. |
 
 ## View
 
@@ -56,10 +56,6 @@ From the **Dashboard** screen, you have access to the dashboards created in Supe
 
 <!-- Referenced images -->
 [img1]: media/dashboard.png
-[img2]: ../../../../../common/icons/mobile/star-h32.png
-[img3]: ../../../../../common/icons/mobile/search-h32.png
-[img4]: ../../../../../common/icons/mobile/pinned-h32.png
-[img5]: ../../../../../common/icons/mobile/dashboard.png
 
 [img21]: ../../../../../release-notes/mobile/media/mobile-1.png
 [img22]: ../../../../../release-notes/mobile/media/mobile-2.png

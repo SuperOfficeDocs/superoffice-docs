@@ -22,7 +22,7 @@ For a request to be your responsibility, your name must appear in the request's 
 
 If the request is unclaimed, self-assign to avoid others answering the request at the same time.
 
-## <a id="reply"></a>Reply / reply all ![icon][img1]
+## <a id="reply"></a>Reply / reply all <i class="ph ph-arrow-bend-up-left" aria-label="Reply"></i>
 
 A reply is an external message to the customer.
 
@@ -36,7 +36,7 @@ A reply is an external message to the customer.
 
 1. Tap **Send**.
 
-## <a id="comment"></a>Add comment (internal) ![icon][img3]
+## <a id="comment"></a>Add comment (internal)
 
 Comments are used to discuss the request internally before replying to the customer. They are shown on a red background, cannot be viewed by the customer, and are not included if you forward the request.
 
@@ -50,7 +50,7 @@ Comments are used to discuss the request internally before replying to the custo
 
     ![Mobile CRM: Request with internal message -app-screen][img6]
 
-## <a id="forward"></a>Forward ![icon][img4]
+## <a id="forward"></a>Forward <i class="ph ph-arrow-bend-up-right" aria-label="Forward"></i>
 
 Sometimes, internal comments or reassigning the request is not enough to solve a problem, and you need to involve others.
 
@@ -123,9 +123,6 @@ Many customer inquiries repeat over time, and [Frequently Asked Questions][4] (F
 [7]: update.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/mobile/request-reply.png
-[img3]: ../../../../../common/icons/mobile/addcomment.png
-[img4]: ../../../../../common/icons/forward-icon.png
 [img2]: ../../../../../release-notes/mobile/media/save-request.png
 [img5]: media/add-comment.png
 [img6]: media/internal-message.png

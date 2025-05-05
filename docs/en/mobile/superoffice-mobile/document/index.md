@@ -11,7 +11,7 @@ language: en
 client: mobile
 ---
 
-# Documents ![icon][img12]
+# Documents <i class="ph ph-file" aria-hidden="true"></i>
 
 You have access to all documents and emails stored in the database from Mobile CRM.
 
@@ -26,7 +26,7 @@ In lists, you will typically see date, type, and title for each document. The so
 > [!TIP]
 > You can perform some actions on your documents and emails without opening them. Swipe left on the document or email to see the options.
 
-## Document information ![icon][img12]
+## Document information <i class="ph ph-file" aria-hidden="true"></i>
 
 **Header:**
 
@@ -37,7 +37,7 @@ In lists, you will typically see date, type, and title for each document. The so
 
 Icons in the action bar: Share, Email, Preview (contents), Details (properties)
 
-## Email information ![icon][img13]
+## Email information <i class="ph ph-at" aria-hidden="true"></i>
 
 Saved emails also appear in the **Documents** tab.
 
@@ -59,20 +59,20 @@ Icons in the action bar: Reply, Reply all, Forward,  Preview (contents), Details
 
     ![Mobile CRM Document -app-screen][img1]
 
-4. Tap ![icon][img11] to switch to details if the preview opens.
+4. Tap <i class="ph ph-list-bullets" aria-label="List icon"></i> to switch to details if the preview opens.
 
     [!include[Configure visible fields](../includes/tip-visible-fields.md)]
 
 ## Preview email
 
 1. Select a document as described above.
-2. Tap ![icon][img10] to switch to preview if the details show.
+2. Tap <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i> to switch to preview if the details show.
 3. A preview of the email opens automatically in Mobile CRM on both iOS and Android devices.
 
 ## Preview document
 
 1. Select a document as described above.
-2. Tap ![icon][img10] to switch to preview if the details show.
+2. Tap <i class="ph ph-list-magnifying-glass" aria-label="Find icon"></i> to switch to preview if the details show.
 3. The next step is device-specific:
 
     * On **iOS** devices, documents are automatically opened for preview.
@@ -104,7 +104,3 @@ If you are looking at a list of documents, you can swipe left and select **Downl
 [img1]: media/document-tab.png
 [img2]: media/android-download-document.png
 [img5]: media/task-menu-document.png
-[img10]: ../../../../../common/icons/mobile/document-preview.png
-[img11]: ../../../../../common/icons/mobile/details.png
-[img12]: ../../../../../common/icons/mobile/documents.png
-[img13]: ../../../../../common/icons/mobile/email-ikon.png

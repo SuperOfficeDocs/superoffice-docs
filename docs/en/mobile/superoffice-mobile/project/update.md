@@ -16,14 +16,14 @@ client: mobile
 ## Steps
 
 1. Locate and open the project.
-2. Tap the **Edit** icon (![icon][img5]) in the footer.
+2. Tap the **Edit** icon (<i class="ph ph-pencil-simple" aria-label="Edit icon"></i>) in the footer.
 3. Update the information as necessary.
 4. Tap **Save**.
 
 ## Add project member
 
 1. Go to the project.
-1. Select the **Project members** tab (![icon][img1]).
+1. Select the **Project members** tab (<i class="ph ph-users-three" aria-label="Group icon"></i>).
 1. Tap **Edit project members**.
 1. Find and tap the person.
 1. Tap **Save**.
@@ -48,9 +48,9 @@ On the **Project members** tab, do one of the following:
 ## Change status of a project
 
 1. Open the project.
-2. Tap the status icon (![icon][img4]) on the action bar.
+2. Tap the status icon on the action bar.
 3. Select **Move to next status** or **Move to previous status**.
-4. Go to the **Details** tab (![icon][img2]), tap **Edit**, and update any other fields with new information.
+4. Go to the **Details** tab (<i class="ph ph-list-bullets" aria-label="List icon"></i>), tap **Edit**, and update any other fields with new information.
 
 ## Link to an incoming request
 
@@ -76,8 +76,4 @@ When you are working with a project, consider linking the the project to relevan
 [3]: ../request/update.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/mobile/project-members.png
-[img2]: ../../../../../common/icons/mobile/details.png
 [img3]: ../../../../../release-notes/mobile/media/mobile-crm-sale-request-tab.png
-[img4]: ../../../../../common/icons/mobile/setstage.png
-[img5]: ../../../../../common/icons/mobile/edit.png

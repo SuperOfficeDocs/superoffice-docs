@@ -22,13 +22,13 @@ From Company/contact, you have access to all companies and personal contacts wit
 
 | Icon | Tab | Description |
 |:-:|---|---|
-| ![icon][img3] | Search | Search field and history list |
-| ![icon][img2] | Favorites | Contacts marked as a favorite (yellow star) |
-| ![icon][img16] | Group | A list of associates divided into groups, such as marketing and IT. |
-| ![icon][img13] | Project | Persons linked as members of a project. |
-| ![icon][img7] | Selection | Members of different selections (both companies and individual contacts). |
+| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | Search | Search field and history list |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Favorites | Contacts marked as a favorite (yellow star) |
+| <i class="ph ph-users-three" aria-label="Group icon"></i> | Group | A list of associates divided into groups, such as marketing and IT. |
+| <i class="ph ph-clipboard-text" aria-label="Project icon"></i> | Project | Persons linked as members of a project. |
+| <i class="ph ph-subtract-square" aria-label="Selection icon"></i> | Selection | Members of different selections (both companies and individual contacts). |
 
-## Company information ![icon][img17]
+## Company information <i class="ph ph-buildings" aria-hidden="true"></i>
 
 **Header:**
 
@@ -43,16 +43,16 @@ Icons in the action bar: New appointment, Call, Go to website, Show location (ma
 
 | Icon | Tab | Description |
 |:-:|---|---|
-| ![icon][img11] | Details | Basic information about the company, such as name, phone number and email address. |
-| ![icon][img16] | Persons|  A list of all contacts linked to this company. |
-| ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the company. |
-| ![icon][img12] | Documents| Documents and emails linked to the company. |
-| ![icon][img13] | Projects | Projects linked to the company.|
-| ![icon][img14] | Sales | A list of all sales linked to the company. |
+| <i class="ph ph-list-bullets" aria-label="List icon"></i> | Details | Basic information about the company, such as name, phone number and email address. |
+| <i class="ph ph-users" aria-label="Relations icon"></i> | Persons|  A list of all contacts linked to this company. |
+| <i class="ph ph-calendar-blank" aria-label="Follow-up icon"></i> | Activities | Appointments, tasks, and phone calls linked to the company. |
+| <i class="ph ph-file" aria-label="Document"></i> | Documents| Documents and emails linked to the company. |
+| <i class="ph ph-clipboard-text" aria-label="Project icon"></i> | Projects | Projects linked to the company.|
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Sales | A list of all sales linked to the company. |
 
 Tap an activity, a document, a project, or a sale to open and examine it.
 
-## Contact information ![icon][img18]
+## Contact information <i class="ph ph-user-circle" aria-hidden="true"></i>
 
 **Header:**
 
@@ -67,12 +67,12 @@ Icons in the action bar: New appointment, Call, Send SMS, Show location (map)
 
 | Icon | Tab | Description |
 |:-:|---|---|
-| ![icon][img11] | Details | Basic information about the person, such as name, phone number, and email address. |
-| ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the contact. |
-| ![icon][img12] | Documents |  Documents and emails linked to the contact. |
-| ![icon][img13] | Projects | Projects this person owns or is a member of. |
-| ![icon][img14] | Sales | A list of all sales linked to the contact. |
-| ![icon][img15] | Requests | A list of the person's open requests. |
+| <i class="ph ph-list-bullets" aria-label="List icon"></i> | Details | Basic information about the person, such as name, phone number, and email address. |
+| <i class="ph ph-calendar-blank" aria-label="Follow-up icon"></i> | Activities | Appointments, tasks, and phone calls linked to the contact. |
+| <i class="ph ph-file" aria-label="Document"></i> | Documents |  Documents and emails linked to the contact. |
+| <i class="ph ph-clipboard-text" aria-label="Project icon"></i> | Projects | Projects this person owns or is a member of. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Sales | A list of all sales linked to the contact. |
+| <i class="ph ph-ticket" aria-label="Request icon"></i> | Requests | A list of the person's open requests. |
 
 Tap an activity, a document, a project, a sale, or a request to open and examine it.
 
@@ -115,15 +115,3 @@ When viewing a company:
 
 <!-- Referenced images -->
 [img1]: media/contact-card.png
-[img2]: ../../../../../common/icons/mobile/star-h32.png
-[img3]: ../../../../../common/icons/mobile/search-h32.png
-[img6]: ../../../../../common/icons/mobile/activities-h32.png
-[img7]: ../../../../../common/icons/mobile/addressbook-selection-h32.png
-[img11]: ../../../../../common/icons/mobile/details-h32.png
-[img12]: ../../../../../common/icons/mobile/documents-h32.png
-[img13]: ../../../../../common/icons/mobile/project-h32.png
-[img14]: ../../../../../common/icons/mobile/sale-h32.png
-[img15]: ../../../../../common/icons/mobile/ticket-h32.png
-[img16]: ../../../../../common/icons/mobile/addressbook-cont-h32.png
-[img17]: ../../../../../common/icons/mobile/company.png
-[img18]: ../../../../../common/icons/mobile/contact.png
