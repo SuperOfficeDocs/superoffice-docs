@@ -48,7 +48,7 @@ Check out our **Product release** overview for more details in our [Community][1
 ### SuperOffice CRM
 
 * 10.5.5 (06.05.2025):
-  * [Diary - Create all day follow-up from the All day section (10.5.5)][23] in Core CRM
+  * [Diary - Create new follow-up from anywhere in your diary (10.5.5)][23] in Core CRM
   * [Request lists - Read column with visualisation (10.5.5)][24] in Service
   * [Screen designer - Quick action buttons on Request message (10.5.5)][22] in Settings and maintenance
   * [CRMScript - Use Class Map to add list in a script (10.5.5)][22] in Settings and maintenance
