@@ -3,8 +3,8 @@ title: Telenor Cyberdefence initial security evaluation
 uid: watchcom-app-evaluation
 description: About Telenor Cyberdefence initial security evaluation
 author: Margrethe Romnes, Telenor Cyberdefence
-date: 12.14.2023
-keywords: Telenor Cyberdefence,Watchcom, security, certification
+date: 05.05.2025
+keywords: Telenor Cyberdefence, Watchcom, security, certification
 topic: concept
 envir: cloud
 client: online
