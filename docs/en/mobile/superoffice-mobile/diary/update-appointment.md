@@ -24,7 +24,7 @@ client: mobile
 ## Steps
 
 1. Locate and open the appointment.
-2. Tap the **Edit** icon (![icon][img3]) in the footer.
+2. Tap the **Edit** icon (<i class="ph ph-pencil-simple" aria-label="Edit icon"></i>) in the footer.
 3. Update the information as necessary.
 4. Tap **Save**.
 
@@ -91,4 +91,3 @@ To activate or update an alarm for the appointment:
 <!-- Referenced images -->
 [img1]: ../../../../../release-notes/mobile/media/move-appointment-1.png
 [img2]: ../../../../../release-notes/mobile/media/move-appointment-2.png
-[img3]: ../../../../../common/icons/mobile/edit.png

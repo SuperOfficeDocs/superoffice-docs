@@ -17,7 +17,7 @@ When you are out visiting, you can register projects directly from Mobile CRM.
 
 ## Steps
 
-1. Go to the main **Project** page (![icon][img13]).
+1. Go to the main **Project** page (<i class="ph ph-clipboard-text" aria-hidden="true"></i>).
 2. Tap **+**.
 3. For **Project name**, enter a descriptive name.
 4. Select responsible (project owner), a project type, and status.
@@ -40,4 +40,3 @@ When you are out visiting, you can register projects directly from Mobile CRM.
 [5]: ../document/create.md
 
 <!-- Referenced images -->
-[img13]: ../../../../../common/icons/mobile/project.png

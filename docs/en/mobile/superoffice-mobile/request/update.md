@@ -27,8 +27,8 @@ Only the owner may update the fields *Read status* and *Last changed*.
 ## Steps
 
 1. Locate and open the request.
-2. Select **Details** (![icon][img1]).
-3. Tap the **Edit** icon (![icon][img2]) in the footer.
+2. Select **Details** (<i class="ph ph-list-bullets" aria-label="List icon"></i>).
+3. Tap the **Edit** icon (<i class="ph ph-pencil-simple" aria-label="Edit icon"></i>) in the footer.
 4. Update the information as necessary.
 
     ![Mobile CRM: Edit request -app-screen][img3]
@@ -72,6 +72,4 @@ Whether you want to accept an unassigned request, take over for a colleague, or 
 [6]: ../../../../en/request/learn/split-request.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../common/icons/mobile/details.png
-[img2]: ../../../../../common/icons/mobile/edit.png
 [img3]: media/request-compact-header.png

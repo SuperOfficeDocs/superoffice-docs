@@ -19,7 +19,7 @@ You can send an SMS or an email to one or more persons from the following places
 * The **Group** tab on the main Contacts page
 * The **Task** menu in the **Details** tab of a person.
 * The **Task** menu in the **Participants** tab of a follow-up.
-* The action button for email at the top of your screen (![icon][img8]).
+* The action button for email at the top of your screen (<i class="ph ph-at" aria-label="Email icon"></i>).
 
 ## Steps
 
@@ -103,4 +103,3 @@ The message pops up when your email account is not configured in SuperOffice CRM
 [img5]: media/send-email-project.png
 [img6]: media/no-email-account.png
 [img7]: media/system-email-application.png
-[img8]: ../../../../common/icons/mobile/email-ikon.png
