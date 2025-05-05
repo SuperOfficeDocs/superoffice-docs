@@ -112,7 +112,7 @@ See all the [new or updated apps][6]
   * Introducing a new widget 'Publish Status' - which shows all the pending requests for app configurations, app store information and partner profile for partners.
 * 2.1 (26.03.2025):
   * Unified profile picture.
-  * Sampling of API calls, may be disabled in the developer portal for a periode.
+  * Sampling of API calls, may be disabled in the developer portal for a period.
   * Uninstall button in the app store may no longer be clicked multiple times by the same user.
 * 1.3 (29.01.2025):
   * [Logs - Event logs for Partners][16]

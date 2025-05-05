@@ -3,7 +3,7 @@ uid: news-service-10.5
 title: What's new in SuperOffice 10.5
 description: Release notes. What's new in SuperOffice Service 10.5
 keywords: Service, request, preference, add from section tab, read column, badge visualisation
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 05.06.2025
 version: 10.5
 topic: reference

@@ -2,7 +2,7 @@
 uid: release-notes
 title: What's new in SuperOffice
 description: Release notes. Here you will find all the small and big changes that has been released for SuperOffice in the different versions.
-author: SuperOffice AS – Research and Development
+author: SuperOffice AS – Product and Engineering
 date: 04.03.2025
 topic: reference
 ---
