@@ -2,11 +2,11 @@
 title: Onsite version history
 uid: version_history
 description: SuperOffice version history overview
-author: {github-id}
+author: Martin Pavlas
+date: 05.05.2025
 keywords: onsite, version, history, release
 topic: reference
 envir: onsite
-# client:
 ---
 
 # SuperOffice Onsite version history
@@ -167,6 +167,7 @@ It does not contain Red Alerts or [CRM Online release versions][1].
 | 10.5.1 | (Onsite skipped) | | |
 | 10.5.2 | (Onsite skipped) | | |
 | 10.5.3 | (Onsite skipped) | | |
+| 10.5.4 | | 30.04.2025 | 2025.04.29-03 |
 
 <!-- Referenced links -->
 [1]: ../online/version-history.md
