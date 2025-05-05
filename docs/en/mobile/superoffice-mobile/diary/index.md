@@ -11,7 +11,7 @@ language: en
 client: mobile
 ---
 
-# Diary ![icon][img10]
+# Diary <i class="ph ph-calendar" aria-hidden="true"></i>
 
 ![Mobile CRM: Diary month tab -app-screen][img1]
 ![Mobile CRM: Add appointment -app-screen][img4]
@@ -19,13 +19,13 @@ client: mobile
 
 ## Diary screen tabs
 
-| Icon | Tab | Description |
+| Tab | Description |
 |:-:|---|---|
-| ![icon][img5] | Upcoming | A list of planned/upcoming appointments. Select an appointment to view details about it. |
-| ![icon][img6] | Activities | A list of tasks. |
-| ![icon][img7] | Day | Appointments for the selected day. |
-| ![icon][img8] | Week | Appointments for a specific week. |
-| ![icon][img9] | Month | Appointments for an entire month. Select a date to show all appointments on that date. |
+| Upcoming | A list of planned/upcoming appointments. Select an appointment to view details about it. |
+| Activities | A list of tasks. |
+| Day | Appointments for the selected day. |
+| Week | Appointments for a specific week. |
+| Month | Appointments for an entire month. Select a date to show all appointments on that date. |
 
 ## Navigate the Diary
 
@@ -50,19 +50,19 @@ Icons in the action bar: Call, SMS, Email, Show location
 
 | Symbol | Description |
 |:-:|---|
-| ![icon][img13] | Have viewed but not yet responded to invitation. |
-| ![icon][img14] | Accepted. The attendee has accepted the invitation. Automatically set for the owner. |
-| ![icon][img18] | Declined. The attendee has rejected the invitation. |
-| ![icon][img15] | Conflict. The time of the appointment overlaps with another appointment. You need to either alter the times or cancel one of them. |
-| ![icon][img16] | A recurring appointment (repeats at defined intervals). |
-| ![icon][img12] | Video meeting |
-| ![icon][img17] | Private |
-| ![icon][img11] | Completed. The appointment time is also struck through if the appointment has been completed. |
+| <i class="ph ph-eye" aria-label="Eye"></i> | Have viewed but not yet responded to invitation. |
+| <i class="ph ph-check" aria-label="Checkmark"></i> | Accepted. The attendee has accepted the invitation. Automatically set for the owner. |
+| <i class="ph ph-x" aria-label="Red X"></i> | Declined. The attendee has rejected the invitation. |
+| <i class="ph ph-warning-circle" aria-label="Warning icon"></i> | Conflict. The time of the appointment overlaps with another appointment. You need to either alter the times or cancel one of them. |
+| <i class="ph ph-arrows-clockwise" aria-label="Recurring follow-up"></i> | A recurring appointment (repeats at defined intervals). |
+| <i class="ph ph-video-camera" aria-label="Video meeting"></i> | Video meeting |
+| | Private |
+| <i class="ph ph-check" aria-label="Completed follow-up"></i> | Completed. The appointment time is also struck through if the appointment has been completed. |
 | Gray box | The current day in a week |
 | Frame | The selected day in a week |
 | Gray circle | The current date in a month |
 | Red circle | The selected date in a month |
-| ![icon][img19] | Email sent |
+| <i class="ph ph-at" aria-label="Email icon"></i> | Email sent |
 
 ### See who has been invited to an appointment
 
@@ -111,18 +111,3 @@ It can be useful to check whether the persons you want to invite are free on the
 [img1]: media/diary.png
 [img3]: media/schedule.png
 [img4]: media/appointment-list.png
-[img5]: ../../../../../common/icons/mobile/diary-upcoming-h32.png
-[img6]: ../../../../../common/icons/mobile/activities-h32.png
-[img7]: ../../../../../common/icons/mobile/diary-day-h32.png
-[img8]: ../../../../../common/icons/mobile/diary-week-h32.png
-[img9]: ../../../../../common/icons/mobile/diary-month-h32.png
-[img10]: ../../../../../common/icons/mobile/diary-day.png
-[img11]: ../../../../../common/icons/mobile/diary-checklist.png
-[img12]: ../../../../../common/icons/mobile/diary-videocall.png
-[img13]: ../../../../../common/icons/mobile/deltager-sett.png
-[img14]: ../../../../../common/icons/mobile/deltager-ja.png
-[img15]: ../../../../../common/icons/mobile/check-many.png
-[img16]: ../../../../../common/icons/mobile/recurring.png
-[img17]: ../../../../../common/icons/mobile/remove-circle.png
-[img18]: ../../../../../common/icons/mobile/deltager-nei.png
-[img19]: ../../../../../common/icons/mobile/email-ikon.png

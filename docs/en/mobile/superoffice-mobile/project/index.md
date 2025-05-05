@@ -11,7 +11,7 @@ language: en
 client: mobile
 ---
 
-# Project ![icon][img5]
+# Project <i class="ph ph-clipboard-text" aria-hidden="true"></i>
 
 ![Mobile CRM: Project -app-screen][img1]
 
@@ -19,9 +19,9 @@ client: mobile
 
 | Icon | Tab | Description |
 |:-:|---|---|
-| ![icon][img3] | Search | Search field and history list |
-| ![icon][img9] | Favorites | A list of projects you have defined as favorites (yellow star). Used to access to projects you work with a lot or want to keep track of.|
-| ![icon][img8] | My open projects | A list of projects not marked as completed. Select a project to view details about it. |
+| <i class="ph ph-magnifying-glass" aria-label="Search icon"></i> | Search | Search field and history list |
+| <i class="ph ph-star" aria-label="Star icon"></i> | Favorites | A list of projects you have defined as favorites (yellow star). Used to access to projects you work with a lot or want to keep track of.|
+| <i class="ph ph-clipboard-text" aria-label="Project icon"></i> | My open projects | A list of projects not marked as completed. Select a project to view details about it. |
 
 ## Project information
 
@@ -38,12 +38,12 @@ Icons in the action bar: New appointment, Send email, Go to website, Set stage
 
 | Icon | Tab | Description |
 |:-:|---|---|
-| ![icon][img11] | Details | Description and info. Edit to update info or mark as lost/sold/open/stalled |
-| ![icon][img7] | Project members | Persons associated with the project. |
-| ![icon][img6] | Activities | Appointments, tasks, and phone calls linked to the project. |
-| ![icon][img12] | Documents | Documents and emails linked to the project. |
-| ![icon][img14] | Sales | Any sales linked to the project. |
-| ![icon][img15] | Requests | Any requests linked to the project. |
+| <i class="ph ph-list-bullets" aria-label="List icon"></i> | Details | Description and info. Edit to update info or mark as lost/sold/open/stalled |
+| <i class="ph ph-users-three" aria-label="Group icon"></i> | Project members | Persons associated with the project. |
+| <i class="ph ph-calendar-blank" aria-label="Follow-up icon"></i> | | Appointments, tasks, and phone calls linked to the project. |
+| <i class="ph ph-file" aria-label="Document"></i> | Documents | Documents and emails linked to the project. |
+| <i class="ph ph-currency-circle-dollar" aria-label="Sale icon"></i> | Sales | Any sales linked to the project. |
+| <i class="ph ph-ticket" aria-label="Request icon"></i> | Requests | Any requests linked to the project. |
 
 The number in the red circle next to the Project icon in the navigator shows how many overdue projects you have. A plus sign (+) in the red circle, means *10 or more*.
 
@@ -89,13 +89,3 @@ When viewing other users' projects, only information that you have the rights to
 
 <!-- Referenced images -->
 [img1]: media/project.png
-[img3]: ../../../../../common/icons/mobile/search-h32.png
-[img5]: ../../../../../common/icons/mobile/project.png
-[img6]: ../../../../../common/icons/mobile/activities-h32.png
-[img7]: ../../../../../common/icons/mobile/project-members-h32.png
-[img8]: ../../../../../common/icons/mobile/project-h32.png
-[img9]: ../../../../../common/icons/mobile/star-h32.png
-[img11]: ../../../../../common/icons/mobile/details-h32.png
-[img12]: ../../../../../common/icons/mobile/documents-h32.png
-[img14]: ../../../../../common/icons/mobile/sale-h32.png
-[img15]: ../../../../../common/icons/mobile/ticket-h32.png

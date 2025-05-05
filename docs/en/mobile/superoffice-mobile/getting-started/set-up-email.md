@@ -20,7 +20,7 @@ To to send and receive emails within Mobile CRM, you need to connect an email ac
 
 ## Is my account already connected?
 
-1. In Mobile CRM, tap the **Task** icon (![icon][img5]) and select **Settings**.
+1. In Mobile CRM, tap the **Task** icon (<i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i>) and select **Settings**.
 2. Select **Email settings**.
 3. If you see the message "Email account must be created in the web client", you are not yet connected.
 
@@ -61,4 +61,3 @@ To to send and receive emails within Mobile CRM, you need to connect an email ac
 <!-- Referenced images -->
 [img1]: media/email-settings.jpg
 [img2]: media/no-email-account.png
-[img5]: ../../../../../common/icons/mobile/task.png
