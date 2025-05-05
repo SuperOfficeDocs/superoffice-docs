@@ -3,7 +3,7 @@ title: SuperOffice Online authentication
 uid: webapi_auth_online
 description: WebAPI authentication CRM Online; introduction to OAuth 2.0 and OpenID Connect
 author: AnthonyYates
-date: 03.21.2023
+date: 05.05.2025
 keywords: authentication, OIDC, OAuth, claim, terminology, ID token
 topic: concept
 envir: cloud
