@@ -12,21 +12,28 @@ items:
     href: getting-started/set-up-email.md
   - name: Enable caller ID
     href: getting-started/caller-id.md
-- name: Company and contact
-  topicHref: company-contact/index.md
+- name: Company
+  topicHref: company/index.md
   items:
   - name: Overview
-    href: company-contact/index.md
+    href: company/index.md
   - name: Create
-    href: company-contact/create.md
+    href: company/create.md
+- name: Contact
+  topicHref: contact/index.md
+  items:
+  - name: Overview
+    href: contact/index.md
+  - name: Create
+    href: contact/create.md
   - name: Update
-    href: company-contact/update.md
+    href: contact/update.md
   - name: Scan a business card
-    href: company-contact/scan-business-card.md
+    href: contact/scan-business-card.md
   - name: Copy contacts to address book
-    href: company-contact/copy-contact-to-address-book.md
+    href: contact/copy-to-contact-list.md
   - name: Show address in map
-    href: company-contact/show-address-in-map.md
+    href: contact/show-address-in-map.md
 - name: Diary
   topicHref: diary/index.md
   items:

@@ -38,8 +38,10 @@ landingContent:
       - itemType: school
         typeDesc: learn
         links:
-        - text: Company/contact
-          url: superoffice-mobile/company-contact/index.md
+        - text: Company
+          url: superoffice-mobile/company/index.md
+        - text: Contact
+          url: superoffice-mobile/contact/index.md
         - text: Dashboard
           url: superoffice-mobile/dashboard/index.md
         - text: Diary
