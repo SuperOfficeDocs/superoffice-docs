@@ -4,7 +4,7 @@ title: What's new in SuperOffice CRM 10.5
 description: Release notes. What's new in SuperOffice CRM 10.5
 keywords: Service, request, Requests tab, section tab
 author: SuperOffice AS – Product and Engineering
-date: 04.03.2025
+date: 05.05.2025
 version: 10.5
 topic: reference
 ---
@@ -47,32 +47,41 @@ Check out our **Product release** overview for more details in our [Community][1
 
 ### SuperOffice CRM
 
+* 10.5.5 (05.05.2025):
+  * [Diary - Create all-day events more easily][23] in Core CRM
+  * [Request lists - Visual indicator in the Read column][24] in Service
+  * [Screen designer - Quick action buttons on Request message][22] in Settings and maintenance
+  * [CRMScript - Use the Map class to define a list][22] in Settings and maintenance
+  * [CRMScript - Add a multi-line text area][22] in Settings and maintenance
+
 * 10.5.4 (03.04.2025):
   * Bug and security fixes. No new or changed functionality for the release.
+
 * 10.5.3 (11.03.2025):
-  * [Dashboard - Export to Excel from tile drill down (10.5.3)][20] in Core CRM
-  * [Requests - Quickly add a request from the section tab (10.5.3)][21] in Service
-  * [Requests – Preference for expanded messages (10.5.3)][21] in Service
+  * [Dashboard - Export to Excel from tile drill down][20] in Core CRM
+  * [Requests - Quickly add a request from the section tab][21] in Service
+  * [Requests – Preference for expanded messages][21] in Service
+
 * 10.5.2 (11.02.2025):
-  * [Diary - The context menu on Follow-up includes Create new based on this (10.5.2)][19] in Core CRM
-  * [CRMScript - Trigger to split request (10.5.2)][17] in Settings and maintenance / Service
-  * [CRMScript - Close Request tab (10.5.2)][18] in Settings and maintenance / Service
+  * [Diary - The context menu on Follow-up includes Create new based on this][19] in Core CRM
+  * [CRMScript - Trigger to split request][17] in Settings and maintenance / Service
+  * [CRMScript - Close Request tab][18] in Settings and maintenance / Service
 
 * 10.5.1 (21.01.2025):
-  * [New UI for SuperOffice (10.5.1)][2] in SuperOffice CRM
-  * [Top bar - New-button (10.5.1)][2] in Core CRM
-  * [Top bar - Freetext search (10.5.1)][2] in Core CRM
-  * [Top bar - In-app Resource centre button (10.5.1)][2] in Core CRM
-  * [Dashboard tiles and edit (10.5.1)][2] in Core CRM
-  * [Main cards - Edit and task moved to top (10.5.1)][2] in Core CRM
-  * [Diary - Move of Todo list and View tab with different previews (10.5.1)][2] in Core CRM
-  * [Side panel favourites (10.5.1)][2] in Core CRM
-  * [SuperOffice Copilot - Text editor with AI options][2] (10.5.1) in Core CRM
-  * [SuperOffice AI Lab - Easy to get started with SuperOffice Copilot (10.5.1)][1] in Settings and maintenance
+  * [New UI for SuperOffice CRM][2]
+  * [Top bar - New-button][2] in Core CRM
+  * [Top bar - Freetext search][2] in Core CRM
+  * [Top bar - In-app Resource centre button][2] in Core CRM
+  * [Dashboard tiles and edit][2] in Core CRM
+  * [Main cards - Edit and task moved to top][2] in Core CRM
+  * [Diary - Move of Todo list and View tab with different previews][2] in Core CRM
+  * [Side panel favourites][2] in Core CRM
+  * [SuperOffice Copilot - Text editor with AI options][2] in Core CRM
+  * [SuperOffice AI Lab - Easy to get started with SuperOffice Copilot][1] in Settings and maintenance
 
 ### Mobile CRM
 
-* [Version 11.0.3][5] (23.10.2024)
+* [Version 11.0.4][5] (31.01.2025)
 
 ## Product integrations - Details of new features
 
@@ -99,7 +108,14 @@ See all the [new or updated apps][6]
 
 ### Developer Portal
 
-* [Logs - Event logs for Partners][16] (1.30)
+* 2.2 (07.05.2025):
+  * Introducing the [Publish Status widget][25], which shows all pending requests to publish app configurations, partner profiles, and App Store information.
+* 2.1 (26.03.2025):
+  * Unified profile picture.
+  * API call sampling is temporarily disabled in the Developer Portal.
+  * The **Uninstall** button in the App Store can no longer be clicked multiple times by the same user.
+* 1.3 (29.01.2025):
+  * [Logs - Event logs for partners][16]
 
 ## User guides
 
@@ -131,10 +147,14 @@ We use **pilot programs** to assess how well the features and functions meet our
 [13]: office-integrations/sofo-6.0-update.md
 [14]: ../../docs/en/learn/index.yml
 [16]: ../../docs/en/developer-portal/analytics/logs.md
+[25]: ../../docs/en/developer-portal/widgets/index.md#publish-status
 [17]: admin/10.5.2-update.md#split-request
 [18]: admin/10.5.2-update.md#close-request
 [19]: core-crm/10.5.2-update.md
 [20]: core-crm/10.5.3-update.md
 [21]: service/10.5.3-update.md
+[22]: admin/10.5.5-update.md
+[23]: core-crm/10.5.5-update.md
+[24]: service/10.5.5-update.md
 
 <!-- Referenced images -->
