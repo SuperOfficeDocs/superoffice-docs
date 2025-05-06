@@ -33,7 +33,7 @@ client: online
 | 13 | Replacing all personal email domains with '@mailinator.com' | All email addresses in the source database will be replaced in the production sandbox. Default `john.doe@company.com` will be changed to `john.doe_company.com@mailinator.com`, `mailinator.com` may be changed in the cloning wizard. |
 | 14 | Register customer in SuperID | |
 | 15 | Replace test environment in SuperID | |
-| 16 | Clone Azure templates from CUST on ARCHIVEServer | Copy templates from source to target. |
+| 16 | Clone Azure templates from CustID on ARCHIVEServer | Copy templates from source to target. |
 | 17 | Verify or provision mail service | All mailboxes used by Service are deleted and replaced with one single test email account for this domain. |
 | 18 | Set database permissions for customer query | |
 | 19 | Recycle customer | Recycle the target |
@@ -44,11 +44,13 @@ client: online
 | 24 | Set SuperID tenant state to: *Normal* | |
 | 25 | Create partner system users from app authorizations in customer database | If this replaces an existing sandbox with a new copy from source, any apps authorized on the sandbox that uses a system user must be re-created in the target database. |
 | 26 | Update company info and license | |
-| 27 | Clone EjPackages in Azure from CustID | |
-| 28 | Clone EjPackages in SoArc from CustID | |
-| 29 | Notify apps about Changing State with BackupRestored | Notify partner apps |
-| 30 | Enter running mode | The production sandbox may now be logged in to! |
-| 31 | Wait for customers IIS ApplicationHost.config operations to complete | |
+| 27 | Clone Azure Documents from CustID | (optional) |
+| 28 | Clone SoArc Documents from CustID | (optional) |
+| 29 | Clone all Azure attachments or EjPackages from CustID | |
+| 30 | Clone all SoArc attachments or EjPackages from CustID | |
+| 31 | Notify apps about Changing State with BackupRestored | Notify partner apps |
+| 32 | Enter running mode | The production sandbox may now be logged in to! |
+| 33 | Wait for customers IIS ApplicationHost.config operations to complete | |
 
 <!-- Referenced links -->
 [1]: ../../automation/crmscript/learn/schedule-task.md

@@ -1,15 +1,15 @@
 ---
-title: Widgets
 uid: dp-widgets
+title: Widgets
 description: About the SuperOffice Developer Portal home page and how to manage widgets.
-keywords: Developer Portal, widget, home page
+keywords: Developer Portal, widget, home page, new customers, publishing, request to publish, publish status, application failures, onboarding
 author: Bergfrid Dias
-date: 12.15.2023
-version_devportal: 1.17
+date: 04.30.2025
+version_devportal: 2.2
 topic: concept
-language: en
 envir: cloud
 client: online
+language: en
 ---
 
 # Widgets
@@ -28,6 +28,7 @@ Each widget represents distinctive features.
 | Messaging Center | Provides quick information on communication related to requests. |
 | New Customers | Provides quick information on new customers signed up to use your standard applications. |
 | Onboarding | Aids users getting started. |
+| Publish Status | Explore pending requests to publish app configuration, App Store information, and partner profile. |
 
 ## Go to dashboard
 
@@ -103,6 +104,24 @@ The available timeframes are:
 * Last six months
 * Last year
 
+### Publish status
+
+The Publish status widget displays open requests related to application publishing. These include app configuration, App Store information, and partner profile submissions.
+
+Each card represents an application or partner profile, along with its current publishing status. Use this widget to track what is pending, where it is in the workflow, and if any action is required from you.
+
+Key interactions and indicators:
+
+* <i class="ph ph-shield" aria-label="Security audit pending"></i> / <i class="ph ph-shield-check" aria-label="Security audit ok"></i> Security audit pending or approved.
+* <i class="ph ph-seal" aria-label="Certification pending"></i> / <i class="ph ph-seal-check" aria-label="Certification ok"></i> Certification pending or approved.
+* Hover over workflow steps to see its current status.
+* Click any step with a red dot to view error details or required actions.
+* Click the **partner name**/**app name** link to open the partner or app page.
+* Click the **oval label** (for example, *v3* or *New redirect URL*) to view the version submitted for publishing.
+* Click the **request ID** to open the request in the [Messaging Center][1].
+
+![Publish status widget showing various app configurations and statuses -screenshot][img6]
+
 <!-- Referenced links -->
 [1]: ../create-app/message-center.md
 
@@ -112,3 +131,4 @@ The available timeframes are:
 [img3]: media/onboarding-widget.png
 [img4]: media/remove-widget.png
 [img5]: media/dp-dashboard.png
+[img6]: media/publishing-widget.png
