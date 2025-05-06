@@ -108,7 +108,7 @@ The available timeframes are:
 
 The Publish status widget displays open requests related to application publishing. These include app configuration, App Store information, and partner profile submissions.
 
-Each card represents an application, along with its current publishing status. Use this widget to track what is pending, where it is in the workflow, and if any action is required from you.
+Each card represents an application or partner profile, along with its current publishing status. Use this widget to track what is pending, where it is in the workflow, and if any action is required from you.
 
 Key interactions and indicators:
 
