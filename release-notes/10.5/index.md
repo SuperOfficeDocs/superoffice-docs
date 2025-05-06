@@ -147,7 +147,7 @@ We use **pilot programs** to assess how well the features and functions meet our
 [13]: office-integrations/sofo-6.0-update.md
 [14]: ../../docs/en/learn/index.yml
 [16]: ../../docs/en/developer-portal/analytics/logs.md
-[25]: ../../docs/en/developer-portal/widgets/index.md
+[25]: ../../docs/en/developer-portal/widgets/index.md#publish-status
 [17]: admin/10.5.2-update.md#split-request
 [18]: admin/10.5.2-update.md#close-request
 [19]: core-crm/10.5.2-update.md
