@@ -17,9 +17,11 @@ audience_tooltip: SuperOffice APIs and database
 * [Extra tables][2]
 * [Documents][4]
 * [Flows][3]
+* [Diary][5]
 
 <!-- Referenced links -->
 [1]: custom-objects/rest-get-all-udef-fields.md
 [2]: custom-objects/rest-get-custom-object-row.md
 [3]: flows/index.md
 [4]: document/index.md
+[5]: diary/index.md

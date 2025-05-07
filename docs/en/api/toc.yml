@@ -1,860 +1,864 @@
 items:
-- name: SuperOffice APIs
-  href: overview/index.md
-- name: NetServer fundamentals
-  href: overview/netserver.md
-- name: Quick-start
-  href: overview/quickstart.md
-- name: Authentication
-  href: authentication/index.yml
-  items:
-  - name: Overview
-    href: authentication/overview.md
-  - name: Online authentication
-    href: authentication/online/index.md
+  - name: SuperOffice APIs
+    href: overview/index.md
+  - name: NetServer fundamentals
+    href: overview/netserver.md
+  - name: Quick-start
+    href: overview/quickstart.md
+  - name: Authentication
+    href: authentication/index.yml
     items:
-    - name: Which flow should I use?
-      href: authentication/online/which-flow-to-use.md
-    - name: Which user type should I use?
-      href: authentication/online/which-user-to-use.md
-    - name: OpenID Connect
-      href: authentication/online/api.md
-    - name: Sign in user (front-channel)
-      href: authentication/online/sign-in-user/index.md
-      items:
-      - name: Authorization Code Flow
-        href: authentication/online/sign-in-user/auth-code-flow.md
-      - name: Hybrid Flow
-        href: authentication/online/sign-in-user/hybrid-flow.md
-      - name: Implicit Flow
-        href: authentication/online/sign-in-user/implicit-flow.md
-      - name: Native Apps
-        href: authentication/online/sign-in-user/native-apps.md
-      - name: Legacy
-        href: authentication/online/sign-in-user/legacy.md
-    - name: System user (back-channel)
-      href: authentication/online/auth-application/index.md
-      items:
-      - name: Sign system user token
-        href: authentication/online/auth-application/sign-system-user-token.md
-      - name: Get system user ticket
-        href: authentication/online/auth-application/get-system-user-ticket.md
-    - name: Validate tokens
-      href: authentication/online/validate-security-tokens.md
-    - name: Troubleshooting
-      href: authentication/online/troubleshooting/index.md
-      items:
-      - name: IFrames and IdP
-        href: authentication/online/troubleshooting/iframe-idp-auth.md
-    - name: Certificates
-      href: authentication/online/certificates/index.md
-      items:
-      - name: Add SuperOffice certificates
-        href: authentication/online/certificates/add-certificate-snap-in.md
-      - name: Configure certificates
-        href: authentication/online/certificates/configure.md
-      - name: Override certificate resolver
-        href: authentication/online/certificates/override-resolver.md
-  - name: Onsite authentication
-    href: authentication/onsite/index.md
-    items:
-    - name: Users and associates
-      href: authentication/onsite/users-and-associates.md
-    - name: Terminology
-      href: authentication/onsite/terminology.md
-    - name: SoSession
-      href: authentication/onsite/sosession/index.md
-      items:
-      - name: Switch SoSessions
-        href: authentication/onsite/sosession/switch.md
-      - name: SOAP web services
-        href: authentication/onsite/sosession/using-soap.md
-    - name: Web service authentication
-      href: authentication/onsite/custom-proxies/index.md
-    - name: Configuration
-      items:
-      - name: Enable anonymous user
-        href: authentication/onsite/config-anonymous-user.md
-      - name: Enable external user
-        href: authentication/onsite/config-external-user.md
-    - name: Authentication plug-ins
-      href: authentication/onsite/pipeline.md
-    - name: Legacy
-      items:
-      - name: COM API
-        href: authentication/onsite/com/index.md
-      - name: From secret to ticket
-        href: authentication/onsite/from-secret-to-ticket.md
-- name: Configuration
-  href: config/index.md
-  items:
-  - name: AccessGateway
-    href: config/accessgateway.md
-  - name: BatchService
-    href: config/batchservice.md
-  - name: Client
-    href: config/client.md
-  - name: ClientConfigurationProvider
-    href: config/clientconfigurationprovider.md
-  - name: Cloud
-    href: config/cloud.md
-  - name: CssSprite
-    href: config/csssprite.md
-  - name: CustomerService
-    href: config/customerservice.md
-  - name: CustomProxy
-    href: config/customproxy.md
-  - name: Data
-    href: config/data.md
-  - name: Diagnostics
-    href: config/diagnostics.md
-  - name: Documents
-    href: config/documents.md
-  - name: Downloads
-    href: config/downloads.md
-  - name: Factory
-    href: config/factory.md
-  - name: FeatureToggles
-    href: config/featuretoggles.md
-  - name: Globalization
-    href: config/globalization.md
-  - name: GoogleRecaptcha
-    href: config/googlerecaptcha.md
-  - name: Infrastructure
-    href: config/infrastructure.md
-  - name: IntelliSyncConnector
-    href: config/intellisyncconnector.md
-  - name: Mail
-    href: config/mail.md
-  - name: Messaging
-    href: config/messaging.md
-  - name: OidcLogin
-    href: config/oidclogin.md
-  - name: Pocket
-    href: config/pocket.md
-  - name: Reporter
-    href: config/reporter.md
-  - name: Scripting
-    href: config/scripting.md
-  - name: Security
-    href: config/security.md
-  - name: Services
-    href: config/services.md
-  - name: SoFormsAuthentication
-    href: config/soformsauthentication.md
-  - name: Subclients
-    href: config/subclients.md
-  - name: Superid
-    href: config/superid.md
-  - name: SuspendedSite
-    href: config/suspendedsite.md
-  - name: Sync
-    href: config/sync.md
-  - name: Threading
-    href: config/threading.md
-  - name: Timezone
-    href: config/timezone.md
-  - name: WebApi
-    href: config/webapi.md
-  - name: Webhooks
-    href: config/webhooks.md
-  - name: WebServices
-    href: config/webservices.md
-- name: Caching
-  href: caching/index.md
-  items:
-  - name: SuperOffice.CRM.Cache
-    href: caching/superoffice-crm-cache.md
-  - name: Associate cache
-    href: caching/associate-cache.md
-  - name: Category cache
-    href: caching/category-cache.md
-  - name: SuperOffice.CRM.Security
-    href: caching/superoffice-crm-security.md
-  - name: Cached tables (Windows)
-    href: caching/cached-tables.md
-  - name: Flush cache
-    href: caching/flush-cache.md
-- name: Logging
-  href: logging/index.md
-  items:
-  - name: Filter Namespaces and Classes
-    href: logging/filter-logs.md
-  - name: Standard NetServer Logging
-    href: logging/standard-netserver-log.md
-  - name: Using SerilLog
-    href: logging/serilog.md
-  - name: Configure SerilLog
-    href: logging/configure-serilog.md
-  - name: Custom logger
-    href: logging/create-custom-logger.md
-- name: Lists
-  href: lists/index.md
-  items:
-  - name: List web services
-    href: lists/services/index.md
-    items:
-    - name: List endpoint
-      href: lists/services/listagent/index.md
-    - name: MDO endpoint
-      href: lists/services/mdoagent/index.md
-    - name: How to
-      href: lists/services/how-to/index.md
-      items:
-      - name: Get all lists
-        href: lists/services/how-to/get-all-lists.md
-      - name: Get list entity
-        href: lists/services/how-to/get-list-entity.md
-      - name: Get one list item 
-        href: lists/services/how-to/get-list-item.md
-      - name: Get all list items
-        href: lists/services/how-to/get-list-items.md
-      - name: Create a list
-        href: lists/services/how-to/create-list.md
-      - name: Delete a list
-        href: lists/services/how-to/delete-list.md
-      - name: Create a list item
-        href: lists/services/how-to/create-list-item.md
-      - name: Delete a list item
-        href: lists/services/how-to/delete-list-item.md
-  - name: List rows
-    href: lists/row/index.md
-    items:
-    - name: How-to
-      items:
-      - name: Add list items
-        href: lists/row/how-to/add-list-item.md
-  - name: NetServer lists 
-    href: lists/entity/index.md
-    items:
-    - name: Typed list
-      href: lists/entity/typed-list.md
-    - name: User-defined list
-      href: lists/entity/udef-list.md
-    - name: Group view list
-      href: lists/entity/group-view.md
-    - name: Generic list
-      href: lists/entity/generic-list.md
-    - name: How-to
-      items:
-      - name: Create a list plug-in
-        href: lists/entity/how-to/create-list-plugin.md
-      - name: Get a list
-        href: lists/entity/how-to/get-list.md
-- name: Web Services
-  href: web-services/index.md
-  items:
-  - name: Endpoints
-    href: web-services/endpoints/index.md
-    items:
-    - name: Agents WebAPI
-      href: web-services/endpoints/agents-webapi/index.md
-    - name: REST WebAPI
-      href: web-services/endpoints/rest-webapi/index.md
-    - name: Get version
-      href: web-services/endpoints/get-webapi-version.md
-    - name: HTTP request headers
-      href: web-services/endpoints/http-headers.md
-    - name: SOAP
-      href: web-services/endpoints/soap/index.md
-  - name: Proxies
-    href: web-services/proxies/index.md
-    items:
-    - name: Using WebAPI client
-      href: web-services/proxies/index.md
-      items:
-      - name: Getting started
-        href: web-services/proxies/superoffice-webapi/index.md
-      - name: Authorizations
-        href: web-services/proxies/superoffice-webapi/iauthorization.md
-      - name: System User
-        href: web-services/proxies/superoffice-webapi/systemuserclient.md
-    - name: Using NetServer Services proxies
-      href: web-services/proxies/built-in.md
-    - name: Using custom proxies
-      href: web-services/proxies/custom.md
-  - name: Timezones
-    href: web-services/so-timezone.md
-  - name: How to set up REST onsite
-    href: ../onsite/install/netserver/setup-rest.md
-  - name: How to...
-    topicHref: web-services/howto/index.md
-    items:
-    - name: Address
-      href: web-services/howto/address/index.md
-      items:
-      - name: Read the LocalizedAddress
-        href: web-services/howto/address/get-localized-address.md
-      - name: Set LocalizedAddress
-        href: web-services/howto/address/set-localized-address.md
-    - name: Company
-      href: web-services/howto/company/index.md
-      items:
-      - name: Create contact
-        href: web-services/howto/company/create-contact-services.md
-      - name: Create contact (REST)
-        href: web-services/howto/company/create-contact-rest.md
-      - name: Create contact (Agents WebApi)
-        href: web-services/howto/company/create-contact-webapi-agents.md
-      - name: Get contact
-        href: web-services/howto/company/get-contact-via-services-layer.md
-      - name: Get all contacts (REST)
-        href: web-services/howto/company/get-all-contacts-rest.md
-      - name: Get interests
-        href: web-services/howto/company/get-interests-for-contact-services.md
-      - name: Set interest on/off
-        href: web-services/howto/company/set-interest-on-off-services.md
-      - name: Add a category list item (REST)
-        href: web-services/howto/company/add-catlist-item-rest.md
-      - name: Add a category list item (Agents WebAPI)
-        href: web-services/howto/company/add-catlist-item-webapi-agents.md
-      - name: Get category list (ListAgent)
-        href: web-services/howto/company/get-catlist-listagent.md
-      - name: Get category list (MDOAgent)
-        href: web-services/howto/company/get-catlist-mdoagent.md
-      - name: Set category (MDOAgent)
-        href: web-services/howto/company/get-set-category-mdoagent.md
-    - name: Contact (person)
-      href: web-services/howto/contact/index.md
-      items:
-      - name: Get persons (ContactAgent)
-        href: web-services/howto/contact/get-persons-contactagent.md
-      - name: Get persons (PersonAgent)
-        href: web-services/howto/contact/get-persons-personagent.md
-      - name: Update person
-        href: web-services/howto/contact/update-person-services.md
-      - name: Get person image (REST)
-        href: web-services/howto/contact/get-person-image-rest.md
-      - name: Update person image (REST)
-        href: web-services/howto/contact/update-person-image-rest.md
-      - name: Display person image (ImageUtility)
-        href: web-services/howto/contact/display-person-image-ws.md
-      - name: Display image from BLOB table
-        href: web-services/howto/contact/display-image-from-blob-table-services.md
-    - name: Custom objects
-      href: web-services/howto/custom-objects/index.md
-      items:
-      - name: Extra tables
-        topicHref: web-services/howto/custom-objects/rest-get-custom-object-row.md
+      - name: Overview
+        href: authentication/overview.md
+      - name: Online authentication
+        href: authentication/online/index.md
         items:
-        - name: How to insert row
-          href: web-services/howto/custom-objects/rest-add-custom-object-row.md
-        - name: How to update row
-          href: web-services/howto/custom-objects/rest-update-custom-object-row.md
-        - name: How to read row
-          href: web-services/howto/custom-objects/rest-get-custom-object-row.md
-        - name: How to delete row
-          href: web-services/howto/custom-objects/rest-delete-custom-object-row.md
-        - name: How to search
-          href: web-services/howto/custom-objects/custom-objects-search.md
-      - name: User-defined fields
-        topicHref: web-services/howto/custom-objects/rest-get-all-udef-fields.md
+          - name: Which flow should I use?
+            href: authentication/online/which-flow-to-use.md
+          - name: Which user type should I use?
+            href: authentication/online/which-user-to-use.md
+          - name: OpenID Connect
+            href: authentication/online/api.md
+          - name: Sign in user (front-channel)
+            href: authentication/online/sign-in-user/index.md
+            items:
+              - name: Authorization Code Flow
+                href: authentication/online/sign-in-user/auth-code-flow.md
+              - name: Hybrid Flow
+                href: authentication/online/sign-in-user/hybrid-flow.md
+              - name: Implicit Flow
+                href: authentication/online/sign-in-user/implicit-flow.md
+              - name: Native Apps
+                href: authentication/online/sign-in-user/native-apps.md
+              - name: Legacy
+                href: authentication/online/sign-in-user/legacy.md
+          - name: System user (back-channel)
+            href: authentication/online/auth-application/index.md
+            items:
+              - name: Sign system user token
+                href: authentication/online/auth-application/sign-system-user-token.md
+              - name: Get system user ticket
+                href: authentication/online/auth-application/get-system-user-ticket.md
+          - name: Validate tokens
+            href: authentication/online/validate-security-tokens.md
+          - name: Troubleshooting
+            href: authentication/online/troubleshooting/index.md
+            items:
+              - name: IFrames and IdP
+                href: authentication/online/troubleshooting/iframe-idp-auth.md
+          - name: Certificates
+            href: authentication/online/certificates/index.md
+            items:
+              - name: Add SuperOffice certificates
+                href: authentication/online/certificates/add-certificate-snap-in.md
+              - name: Configure certificates
+                href: authentication/online/certificates/configure.md
+              - name: Override certificate resolver
+                href: authentication/online/certificates/override-resolver.md
+      - name: Onsite authentication
+        href: authentication/onsite/index.md
         items:
-        - name: How to get all user-defined fields
-          href: web-services/howto/custom-objects/rest-get-all-udef-fields.md
-        - name: How to create user-defined fields
-          href: web-services/howto/custom-objects/rest-create-udef-field.md
-        - name: How to update user-defined fields
-          href: web-services/howto/custom-objects/rest-update-udef-field.md
-        - name: How to delete user-defined fields
-          href: web-services/howto/custom-objects/rest-delete-udef-field.md
-        - name: Set udef list-item value
-          href: web-services/howto/custom-objects/set-udef-listitem-value.md
-        - name: Get udef list and values
-          href: web-services/howto/custom-objects/get-udef-list-and-values.md
-        - name: Find contact by udef
-          href: web-services/howto/custom-objects/find-contact-by-udef.md
-    - name: Diary
-      href: web-services/howto/diary/index.md
-      items:
-      - name: Create appointment
-        href: web-services/howto/diary/create-apt-services.md
-      - name: Create recurring appointment
-        href: web-services/howto/diary/create-recurring-appointment-services.md
-      - name: Create invitation
-        href: web-services/howto/diary/create-invitation-services.md
-      - name: Get invitations
-        href: web-services/howto/diary/get-invitations-services.md
-      - name: Accept invitation
-        href: web-services/howto/diary/accept-invitation-services.md
-    - name: Documents
-      href: web-services/howto/document/index.md
-      items:
-      - name: Add document template
-        href: web-services/howto/document/rest-add-document-template.md
-      - name: Generate document
-        href: web-services/howto/document/rest-generate-document.md
-      - name: Create
-        href: web-services/howto/document/services-create.md
-      - name: Download
-        href: web-services/howto/document/services-download.md
-      - name: Update
-        href: web-services/howto/document/services-update.md
-      - name: Configure access
-        href: web-services/howto/document/services-configure-access.md
-    - name: Flows
-      href: web-services/howto/flows/index.md
-      items:
-      - name: Create email flow
-        href: web-services/howto/flows/rest-create-default-email-flow.md
-      - name: Create triggers
-        href: web-services/howto/flows/rest-create-flow-trigger.md
-      - name: Create steps
-        href: web-services/howto/flows/rest-create-flow-step.md
-      - name: Save email flow
-        href: web-services/howto/flows/rest-save-flow.md
-    - name: Sale
-      href: web-services/howto/sale/index.md
-      items:
-      - name: Link sale to appointment
-        href: web-services/howto/sale/link-sale-to-appointment.md
-- name: Entities
-  href: entities/index.md
-  items:
-  - name: Entity collections
-    href: entities/collections.md
-  - name: Set Defaults
-    href: entities/setdefaults.md
-  - name: Entity events
-    href: entities/events.md
-  - name: Entity activity links
-    href: entities/activity-links.md
-  - name: Nested persist
-    href: entities/nested-persist.md
-  - name: Use and misuse of collections
-    href: entities/using-collections.md
-  - name: How to...
+          - name: Users and associates
+            href: authentication/onsite/users-and-associates.md
+          - name: Terminology
+            href: authentication/onsite/terminology.md
+          - name: SoSession
+            href: authentication/onsite/sosession/index.md
+            items:
+              - name: Switch SoSessions
+                href: authentication/onsite/sosession/switch.md
+              - name: SOAP web services
+                href: authentication/onsite/sosession/using-soap.md
+          - name: Web service authentication
+            href: authentication/onsite/custom-proxies/index.md
+          - name: Configuration
+            items:
+              - name: Enable anonymous user
+                href: authentication/onsite/config-anonymous-user.md
+              - name: Enable external user
+                href: authentication/onsite/config-external-user.md
+          - name: Authentication plug-ins
+            href: authentication/onsite/pipeline.md
+          - name: Legacy
+            items:
+              - name: COM API
+                href: authentication/onsite/com/index.md
+              - name: From secret to ticket
+                href: authentication/onsite/from-secret-to-ticket.md
+  - name: Configuration
+    href: config/index.md
     items:
-    - name: Get an entity
-      href: entities/get-entity.md
-    - name: Get an entity through an entity
-      href: entities/get-entity-from-entity.md
-    - name: Create an entity
-      href: entities/create-entity.md
-    - name: Create an entity through an entity
-      href: entities/create-entity-in-entity.md
-    - name: Update an entity
-      href: entities/update-entity.md
-    - name: Update an entity through an entity
-      href: entities/update-entity-in-entity.md
-    - name: Delete an entity
-      href: entities/delete-entity.md
-    - name: Delete an entity through an entity
-      href: entities/delete-entity-from-entity.md
-    - name: Company
-      href: entities/howto/company/index.md
-      items:
-      - name: Create contact
-        href: entities/howto/company/create-contact-entity.md
-      - name: Create contact (in entity)
-        href: entities/howto/company/create-contact-entity-in-entity.md
-      - name: Create contact (in collection)
-        href: entities/howto/company/create-contact-entity-in-collection.md
-      - name: Get contact
-        href: entities/howto/company/get-contact-via-entities-layer.md
-      - name: Get interests
-        href: entities/howto/company/get-interests-for-contact-entity.md
-      - name: Set interest on/off
-        href: entities/howto/company/set-interest-on-off-entity.md
-      - name: Get category list (typed provider)
-        href: entities/howto/company/get-catlist-typed-provider.md
-      - name: Get category list (generic provider)
-        href: entities/howto/company/get-catlist-generic-provider.md
-    - name: Contact (person)
-      href: entities/howto/contact/index.md
-      items:
-      - name: Get persons from contact
-        href: entities/howto/contact/get-persons-from-contact-entities.md
-      - name: Update person entity
-        href: entities/howto/contact/update-person-entity.md
-      - name: Display image from BLOB table
-        href: entities/howto/contact/display-image-from-blob-table-entity.md
-      - name: Get associate list
-        href: entities/howto/contact/get-associate-list.md
-    - name: Custom fields
-      href: entities/howto/custom-objects/index.md
-      items:
-      - name: Set udef list-item value
-        href: entities/howto/custom-objects/set-udef-listitem-value.md
-      - name: Get udef value
-        href: entities/howto/custom-objects/get-udef-field-value.md
-      - name: Update udef
-        href: entities/howto/custom-objects/update-udef.md
-      - name: Using UDFHelper
-        href: entities/howto/custom-objects/using-udefhelper.md
-      - name: UDFHelper class
-        href: entities/howto/custom-objects/udefhelper-class.md
-      - name: Udef on contact
-        href: entities/howto/custom-objects/udef-on-contact.md
-    - name: Diary
-      href: entities/howto/diary/index.md
-      items:
-      - name: Create appointment
-        href: entities/howto/diary/create-apt-entity.md
-      - name: Create appointment (in entity)
-        href: entities/howto/diary/create-apt-entity-in-entity.md
-      - name: Create appointment (in collection)
-        href: entities/howto/diary/create-apt-entity-in-collection.md
-      - name: Create recurring appointment
-        href: entities/howto/diary/create-recurring-appointment-entity.md
-      - name: Create invitation
-        href: entities/howto/diary/create-invitation-entity.md
-      - name: Accept invitation
-        href: entities/howto/diary/accept-invitation-entity.md
-    - name: Sale
-      href: entities/howto/sale/index.md
-      items:
-      - name: Link sale to appointment
-        href: entities/howto/sale/link-sale-to-appointment.md
-- name: Rows
-  href: rows/index.md
-  items:
-  - name: Introduction to Row and Rows
+      - name: AccessGateway
+        href: config/accessgateway.md
+      - name: BatchService
+        href: config/batchservice.md
+      - name: Client
+        href: config/client.md
+      - name: ClientConfigurationProvider
+        href: config/clientconfigurationprovider.md
+      - name: Cloud
+        href: config/cloud.md
+      - name: CssSprite
+        href: config/csssprite.md
+      - name: CustomerService
+        href: config/customerservice.md
+      - name: CustomProxy
+        href: config/customproxy.md
+      - name: Data
+        href: config/data.md
+      - name: Diagnostics
+        href: config/diagnostics.md
+      - name: Documents
+        href: config/documents.md
+      - name: Downloads
+        href: config/downloads.md
+      - name: Factory
+        href: config/factory.md
+      - name: FeatureToggles
+        href: config/featuretoggles.md
+      - name: Globalization
+        href: config/globalization.md
+      - name: GoogleRecaptcha
+        href: config/googlerecaptcha.md
+      - name: Infrastructure
+        href: config/infrastructure.md
+      - name: IntelliSyncConnector
+        href: config/intellisyncconnector.md
+      - name: Mail
+        href: config/mail.md
+      - name: Messaging
+        href: config/messaging.md
+      - name: OidcLogin
+        href: config/oidclogin.md
+      - name: Pocket
+        href: config/pocket.md
+      - name: Reporter
+        href: config/reporter.md
+      - name: Scripting
+        href: config/scripting.md
+      - name: Security
+        href: config/security.md
+      - name: Services
+        href: config/services.md
+      - name: SoFormsAuthentication
+        href: config/soformsauthentication.md
+      - name: Subclients
+        href: config/subclients.md
+      - name: Superid
+        href: config/superid.md
+      - name: SuspendedSite
+        href: config/suspendedsite.md
+      - name: Sync
+        href: config/sync.md
+      - name: Threading
+        href: config/threading.md
+      - name: Timezone
+        href: config/timezone.md
+      - name: WebApi
+        href: config/webapi.md
+      - name: Webhooks
+        href: config/webhooks.md
+      - name: WebServices
+        href: config/webservices.md
+  - name: Caching
+    href: caching/index.md
+    items:
+      - name: SuperOffice.CRM.Cache
+        href: caching/superoffice-crm-cache.md
+      - name: Associate cache
+        href: caching/associate-cache.md
+      - name: Category cache
+        href: caching/category-cache.md
+      - name: SuperOffice.CRM.Security
+        href: caching/superoffice-crm-security.md
+      - name: Cached tables (Windows)
+        href: caching/cached-tables.md
+      - name: Flush cache
+        href: caching/flush-cache.md
+  - name: Logging
+    href: logging/index.md
+    items:
+      - name: Filter Namespaces and Classes
+        href: logging/filter-logs.md
+      - name: Standard NetServer Logging
+        href: logging/standard-netserver-log.md
+      - name: Using SerilLog
+        href: logging/serilog.md
+      - name: Configure SerilLog
+        href: logging/configure-serilog.md
+      - name: Custom logger
+        href: logging/create-custom-logger.md
+  - name: Lists
+    href: lists/index.md
+    items:
+      - name: List web services
+        href: lists/services/index.md
+        items:
+          - name: List endpoint
+            href: lists/services/listagent/index.md
+          - name: MDO endpoint
+            href: lists/services/mdoagent/index.md
+          - name: How to
+            href: lists/services/how-to/index.md
+            items:
+              - name: Get all lists
+                href: lists/services/how-to/get-all-lists.md
+              - name: Get list entity
+                href: lists/services/how-to/get-list-entity.md
+              - name: Get one list item
+                href: lists/services/how-to/get-list-item.md
+              - name: Get all list items
+                href: lists/services/how-to/get-list-items.md
+              - name: Create a list
+                href: lists/services/how-to/create-list.md
+              - name: Delete a list
+                href: lists/services/how-to/delete-list.md
+              - name: Create a list item
+                href: lists/services/how-to/create-list-item.md
+              - name: Delete a list item
+                href: lists/services/how-to/delete-list-item.md
+      - name: List rows
+        href: lists/row/index.md
+        items:
+          - name: How-to
+            items:
+              - name: Add list items
+                href: lists/row/how-to/add-list-item.md
+      - name: NetServer lists
+        href: lists/entity/index.md
+        items:
+          - name: Typed list
+            href: lists/entity/typed-list.md
+          - name: User-defined list
+            href: lists/entity/udef-list.md
+          - name: Group view list
+            href: lists/entity/group-view.md
+          - name: Generic list
+            href: lists/entity/generic-list.md
+          - name: How-to
+            items:
+              - name: Create a list plug-in
+                href: lists/entity/how-to/create-list-plugin.md
+              - name: Get a list
+                href: lists/entity/how-to/get-list.md
+  - name: Web Services
+    href: web-services/index.md
+    items:
+      - name: Endpoints
+        href: web-services/endpoints/index.md
+        items:
+          - name: Agents WebAPI
+            href: web-services/endpoints/agents-webapi/index.md
+          - name: REST WebAPI
+            href: web-services/endpoints/rest-webapi/index.md
+          - name: Get version
+            href: web-services/endpoints/get-webapi-version.md
+          - name: HTTP request headers
+            href: web-services/endpoints/http-headers.md
+          - name: SOAP
+            href: web-services/endpoints/soap/index.md
+      - name: Proxies
+        href: web-services/proxies/index.md
+        items:
+          - name: Using WebAPI client
+            href: web-services/proxies/index.md
+            items:
+              - name: Getting started
+                href: web-services/proxies/superoffice-webapi/index.md
+              - name: Authorizations
+                href: web-services/proxies/superoffice-webapi/iauthorization.md
+              - name: System User
+                href: web-services/proxies/superoffice-webapi/systemuserclient.md
+          - name: Using NetServer Services proxies
+            href: web-services/proxies/built-in.md
+          - name: Using custom proxies
+            href: web-services/proxies/custom.md
+      - name: Timezones
+        href: web-services/so-timezone.md
+      - name: How to set up REST onsite
+        href: ../onsite/install/netserver/setup-rest.md
+      - name: How to...
+        topicHref: web-services/howto/index.md
+        items:
+          - name: Address
+            href: web-services/howto/address/index.md
+            items:
+              - name: Read the LocalizedAddress
+                href: web-services/howto/address/get-localized-address.md
+              - name: Set LocalizedAddress
+                href: web-services/howto/address/set-localized-address.md
+          - name: Company
+            href: web-services/howto/company/index.md
+            items:
+              - name: Create contact
+                href: web-services/howto/company/create-contact-services.md
+              - name: Create contact (REST)
+                href: web-services/howto/company/create-contact-rest.md
+              - name: Create contact (Agents WebApi)
+                href: web-services/howto/company/create-contact-webapi-agents.md
+              - name: Get contact
+                href: web-services/howto/company/get-contact-via-services-layer.md
+              - name: Get all contacts (REST)
+                href: web-services/howto/company/get-all-contacts-rest.md
+              - name: Get interests
+                href: web-services/howto/company/get-interests-for-contact-services.md
+              - name: Set interest on/off
+                href: web-services/howto/company/set-interest-on-off-services.md
+              - name: Add a category list item (REST)
+                href: web-services/howto/company/add-catlist-item-rest.md
+              - name: Add a category list item (Agents WebAPI)
+                href: web-services/howto/company/add-catlist-item-webapi-agents.md
+              - name: Get category list (ListAgent)
+                href: web-services/howto/company/get-catlist-listagent.md
+              - name: Get category list (MDOAgent)
+                href: web-services/howto/company/get-catlist-mdoagent.md
+              - name: Set category (MDOAgent)
+                href: web-services/howto/company/get-set-category-mdoagent.md
+          - name: Contact (person)
+            href: web-services/howto/contact/index.md
+            items:
+              - name: Get persons (ContactAgent)
+                href: web-services/howto/contact/get-persons-contactagent.md
+              - name: Get persons (PersonAgent)
+                href: web-services/howto/contact/get-persons-personagent.md
+              - name: Update person
+                href: web-services/howto/contact/update-person-services.md
+              - name: Get person image (REST)
+                href: web-services/howto/contact/get-person-image-rest.md
+              - name: Update person image (REST)
+                href: web-services/howto/contact/update-person-image-rest.md
+              - name: Display person image (ImageUtility)
+                href: web-services/howto/contact/display-person-image-ws.md
+              - name: Display image from BLOB table
+                href: web-services/howto/contact/display-image-from-blob-table-services.md
+          - name: Custom objects
+            href: web-services/howto/custom-objects/index.md
+            items:
+              - name: Extra tables
+                topicHref: web-services/howto/custom-objects/rest-get-custom-object-row.md
+                items:
+                  - name: How to insert row
+                    href: web-services/howto/custom-objects/rest-add-custom-object-row.md
+                  - name: How to update row
+                    href: web-services/howto/custom-objects/rest-update-custom-object-row.md
+                  - name: How to read row
+                    href: web-services/howto/custom-objects/rest-get-custom-object-row.md
+                  - name: How to delete row
+                    href: web-services/howto/custom-objects/rest-delete-custom-object-row.md
+                  - name: How to search
+                    href: web-services/howto/custom-objects/custom-objects-search.md
+              - name: User-defined fields
+                topicHref: web-services/howto/custom-objects/rest-get-all-udef-fields.md
+                items:
+                  - name: How to get all user-defined fields
+                    href: web-services/howto/custom-objects/rest-get-all-udef-fields.md
+                  - name: How to create user-defined fields
+                    href: web-services/howto/custom-objects/rest-create-udef-field.md
+                  - name: How to update user-defined fields
+                    href: web-services/howto/custom-objects/rest-update-udef-field.md
+                  - name: How to delete user-defined fields
+                    href: web-services/howto/custom-objects/rest-delete-udef-field.md
+                  - name: Set udef list-item value
+                    href: web-services/howto/custom-objects/set-udef-listitem-value.md
+                  - name: Get udef list and values
+                    href: web-services/howto/custom-objects/get-udef-list-and-values.md
+                  - name: Find contact by udef
+                    href: web-services/howto/custom-objects/find-contact-by-udef.md
+          - name: Diary
+            href: web-services/howto/diary/index.md
+            items:
+              - name: Create appointment
+                href: web-services/howto/diary/create-apt-services.md
+              - name: Create recurring appointment
+                href: web-services/howto/diary/create-recurring-appointment-services.md
+              - name: Create invitation
+                href: web-services/howto/diary/create-invitation-services.md
+              - name: Get invitations
+                href: web-services/howto/diary/get-invitations-services.md
+              - name: Accept invitation
+                href: web-services/howto/diary/accept-invitation-services.md
+              - name: Create VideoMeeting
+                href: web-services/howto/diary/rest-create-videomeeting.md
+              - name: Delete invitation
+                href: web-services/howto/diary/rest-delete-videomeeting.md
+          - name: Documents
+            href: web-services/howto/document/index.md
+            items:
+              - name: Add document template
+                href: web-services/howto/document/rest-add-document-template.md
+              - name: Generate document
+                href: web-services/howto/document/rest-generate-document.md
+              - name: Create
+                href: web-services/howto/document/services-create.md
+              - name: Download
+                href: web-services/howto/document/services-download.md
+              - name: Update
+                href: web-services/howto/document/services-update.md
+              - name: Configure access
+                href: web-services/howto/document/services-configure-access.md
+          - name: Flows
+            href: web-services/howto/flows/index.md
+            items:
+              - name: Create email flow
+                href: web-services/howto/flows/rest-create-default-email-flow.md
+              - name: Create triggers
+                href: web-services/howto/flows/rest-create-flow-trigger.md
+              - name: Create steps
+                href: web-services/howto/flows/rest-create-flow-step.md
+              - name: Save email flow
+                href: web-services/howto/flows/rest-save-flow.md
+          - name: Sale
+            href: web-services/howto/sale/index.md
+            items:
+              - name: Link sale to appointment
+                href: web-services/howto/sale/link-sale-to-appointment.md
+  - name: Entities
+    href: entities/index.md
+    items:
+      - name: Entity collections
+        href: entities/collections.md
+      - name: Set Defaults
+        href: entities/setdefaults.md
+      - name: Entity events
+        href: entities/events.md
+      - name: Entity activity links
+        href: entities/activity-links.md
+      - name: Nested persist
+        href: entities/nested-persist.md
+      - name: Use and misuse of collections
+        href: entities/using-collections.md
+      - name: How to...
+        items:
+          - name: Get an entity
+            href: entities/get-entity.md
+          - name: Get an entity through an entity
+            href: entities/get-entity-from-entity.md
+          - name: Create an entity
+            href: entities/create-entity.md
+          - name: Create an entity through an entity
+            href: entities/create-entity-in-entity.md
+          - name: Update an entity
+            href: entities/update-entity.md
+          - name: Update an entity through an entity
+            href: entities/update-entity-in-entity.md
+          - name: Delete an entity
+            href: entities/delete-entity.md
+          - name: Delete an entity through an entity
+            href: entities/delete-entity-from-entity.md
+          - name: Company
+            href: entities/howto/company/index.md
+            items:
+              - name: Create contact
+                href: entities/howto/company/create-contact-entity.md
+              - name: Create contact (in entity)
+                href: entities/howto/company/create-contact-entity-in-entity.md
+              - name: Create contact (in collection)
+                href: entities/howto/company/create-contact-entity-in-collection.md
+              - name: Get contact
+                href: entities/howto/company/get-contact-via-entities-layer.md
+              - name: Get interests
+                href: entities/howto/company/get-interests-for-contact-entity.md
+              - name: Set interest on/off
+                href: entities/howto/company/set-interest-on-off-entity.md
+              - name: Get category list (typed provider)
+                href: entities/howto/company/get-catlist-typed-provider.md
+              - name: Get category list (generic provider)
+                href: entities/howto/company/get-catlist-generic-provider.md
+          - name: Contact (person)
+            href: entities/howto/contact/index.md
+            items:
+              - name: Get persons from contact
+                href: entities/howto/contact/get-persons-from-contact-entities.md
+              - name: Update person entity
+                href: entities/howto/contact/update-person-entity.md
+              - name: Display image from BLOB table
+                href: entities/howto/contact/display-image-from-blob-table-entity.md
+              - name: Get associate list
+                href: entities/howto/contact/get-associate-list.md
+          - name: Custom fields
+            href: entities/howto/custom-objects/index.md
+            items:
+              - name: Set udef list-item value
+                href: entities/howto/custom-objects/set-udef-listitem-value.md
+              - name: Get udef value
+                href: entities/howto/custom-objects/get-udef-field-value.md
+              - name: Update udef
+                href: entities/howto/custom-objects/update-udef.md
+              - name: Using UDFHelper
+                href: entities/howto/custom-objects/using-udefhelper.md
+              - name: UDFHelper class
+                href: entities/howto/custom-objects/udefhelper-class.md
+              - name: Udef on contact
+                href: entities/howto/custom-objects/udef-on-contact.md
+          - name: Diary
+            href: entities/howto/diary/index.md
+            items:
+              - name: Create appointment
+                href: entities/howto/diary/create-apt-entity.md
+              - name: Create appointment (in entity)
+                href: entities/howto/diary/create-apt-entity-in-entity.md
+              - name: Create appointment (in collection)
+                href: entities/howto/diary/create-apt-entity-in-collection.md
+              - name: Create recurring appointment
+                href: entities/howto/diary/create-recurring-appointment-entity.md
+              - name: Create invitation
+                href: entities/howto/diary/create-invitation-entity.md
+              - name: Accept invitation
+                href: entities/howto/diary/accept-invitation-entity.md
+          - name: Sale
+            href: entities/howto/sale/index.md
+            items:
+              - name: Link sale to appointment
+                href: entities/howto/sale/link-sale-to-appointment.md
+  - name: Rows
     href: rows/index.md
-  - name: CustomSearch
-    href: rows/customsearch.md
-  - name: Row events
-    href: rows/events.md
-  - name: How to...
     items:
-    - name: Get a row
-      href: rows/get-row.md
-    - name: Get a row through an entity
-      href: rows/get-row-from-entity.md
-    - name: Create a row
-      href: rows/create-row.md
-    - name: Create a row through an entity
-      href: rows/create-row-in-entity.md
-    - name: Update a row
-      href: rows/update-row.md
-    - name: Update a row through an entity
-      href: rows/update-row-in-entity.md
-    - name: Delete a row
-      href: rows/delete-row.md
-    - name: Delete a row through an entity
-      href: rows/delete-row-from-entity.md
-    - name: Address
-      href: rows/howto/address/index.md
-      items:
-      - name: Update address
-        href: rows/howto/address/update-address.md
-    - name: Company
-      href: rows/howto/company/index.md
-      items:
-      - name: Create contact (Row)
-        href: rows/howto/company/create-contact-row.md
-      - name: Create contact (Rows)
-        href: rows/howto/company/create-contact-rows.md
-      - name: Add new contact interest
-        href: rows/howto/company/add-new-contact-interest.md
-      - name: Get category list
-        href: rows/howto/company/get-catlist-categoryrows.md
-    - name: Contact (person)
-      href: rows/howto/contact/index.md
-      items:
-      - name: Get persons from contact
-        href: rows/howto/contact/get-persons-from-contact-rows.md
-      - name: Update person
-        href: rows/howto/contact/update-person-rows.md
-      - name: Collections
-        href: rows/howto/contact/collection.md
-    - name: Diary
-      href: rows/howto/diary/index.md
-      items:
-      - name: Create appointment (Row)
-        href: rows/howto/diary/create-apt-row.md
-      - name: Create appointment (Rows)
-        href: rows/howto/diary/create-apt-rows.md
-    - name: SAINT
-      href: rows/howto/saint/index.md
-      items:
-      - name: Search SAINT (ContactRow.CustomSearch)
-        href: rows/howto/saint/search-saint-contactrow-customsearch.md
-- name: Objectified SQL
-  href: osql/index.md
-  items:
-  - name: Introduction to OSQL
+      - name: Introduction to Row and Rows
+        href: rows/index.md
+      - name: CustomSearch
+        href: rows/customsearch.md
+      - name: Row events
+        href: rows/events.md
+      - name: How to...
+        items:
+          - name: Get a row
+            href: rows/get-row.md
+          - name: Get a row through an entity
+            href: rows/get-row-from-entity.md
+          - name: Create a row
+            href: rows/create-row.md
+          - name: Create a row through an entity
+            href: rows/create-row-in-entity.md
+          - name: Update a row
+            href: rows/update-row.md
+          - name: Update a row through an entity
+            href: rows/update-row-in-entity.md
+          - name: Delete a row
+            href: rows/delete-row.md
+          - name: Delete a row through an entity
+            href: rows/delete-row-from-entity.md
+          - name: Address
+            href: rows/howto/address/index.md
+            items:
+              - name: Update address
+                href: rows/howto/address/update-address.md
+          - name: Company
+            href: rows/howto/company/index.md
+            items:
+              - name: Create contact (Row)
+                href: rows/howto/company/create-contact-row.md
+              - name: Create contact (Rows)
+                href: rows/howto/company/create-contact-rows.md
+              - name: Add new contact interest
+                href: rows/howto/company/add-new-contact-interest.md
+              - name: Get category list
+                href: rows/howto/company/get-catlist-categoryrows.md
+          - name: Contact (person)
+            href: rows/howto/contact/index.md
+            items:
+              - name: Get persons from contact
+                href: rows/howto/contact/get-persons-from-contact-rows.md
+              - name: Update person
+                href: rows/howto/contact/update-person-rows.md
+              - name: Collections
+                href: rows/howto/contact/collection.md
+          - name: Diary
+            href: rows/howto/diary/index.md
+            items:
+              - name: Create appointment (Row)
+                href: rows/howto/diary/create-apt-row.md
+              - name: Create appointment (Rows)
+                href: rows/howto/diary/create-apt-rows.md
+          - name: SAINT
+            href: rows/howto/saint/index.md
+            items:
+              - name: Search SAINT (ContactRow.CustomSearch)
+                href: rows/howto/saint/search-saint-contactrow-customsearch.md
+  - name: Objectified SQL
     href: osql/index.md
-  - name: OSQL Evolution
-    href: osql/osql-evolution.md
-  - name: Join
-    href: osql/join.md
-  - name: Outer Join
-    href: osql/outerjoin.md
-  - name: Like Operator
-    href: osql/like.md
-  - name: And Clause
-    href: osql/and-clause.md
-  - name: Aliasing
-    href: osql/alias.md
-  - name: Group By 
-    href: osql/groupby.md
-  - name: Order By
-    href: osql/orderby.md
-  - name: Insert Statement
-    href: osql/insert.md
-  - name: Update Statement
-    href: osql/update.md
-  - name: Delete Statement
-    href: osql/delete.md
-  - name: Functions
     items:
-    - name: Count
-      href: osql/count.md
-    - name: Upper
-      href: osql/upper.md
-    - name: SoundEx
-      href: osql/soundx.md
-  - name: How to...
+      - name: Introduction to OSQL
+        href: osql/index.md
+      - name: OSQL Evolution
+        href: osql/osql-evolution.md
+      - name: Join
+        href: osql/join.md
+      - name: Outer Join
+        href: osql/outerjoin.md
+      - name: Like Operator
+        href: osql/like.md
+      - name: And Clause
+        href: osql/and-clause.md
+      - name: Aliasing
+        href: osql/alias.md
+      - name: Group By
+        href: osql/groupby.md
+      - name: Order By
+        href: osql/orderby.md
+      - name: Insert Statement
+        href: osql/insert.md
+      - name: Update Statement
+        href: osql/update.md
+      - name: Delete Statement
+        href: osql/delete.md
+      - name: Functions
+        items:
+          - name: Count
+            href: osql/count.md
+          - name: Upper
+            href: osql/upper.md
+          - name: SoundEx
+            href: osql/soundx.md
+      - name: How to...
+        items:
+          - name: Company
+            href: osql/howto/company/index.md
+            items:
+              - name: Create contact
+                href: osql/howto/company/create-contact-osql.md
+              - name: Get category list
+                href: osql/howto/company/get-catlist-sodatareader.md
+          - name: Contact (person)
+            href: osql/howto/contact/index.md
+            items:
+              - name: Get persons from contact (sodatareader)
+                href: osql/howto/contact/get-persons-from-contact-sodatareader.md
+              - name: Update person
+                href: osql/howto/contact/update-person-osql.md
+          - name: Diary
+            href: osql/howto/diary/index.md
+            items:
+              - name: Create appointment
+                href: osql/howto/diary/create-apt-osql.md
+  - name: Raw SQL queries
     items:
-    - name: Company
-      href: osql/howto/company/index.md
-      items:
-      - name: Create contact
-        href: osql/howto/company/create-contact-osql.md
-      - name: Get category list
-        href: osql/howto/company/get-catlist-sodatareader.md
-    - name: Contact (person)
-      href: osql/howto/contact/index.md
-      items:
-      - name: Get persons from contact (sodatareader)
-        href: osql/howto/contact/get-persons-from-contact-sodatareader.md
-      - name: Update person
-        href: osql/howto/contact/update-person-osql.md
-    - name: Diary
-      href: osql/howto/diary/index.md
-      items:
-      - name: Create appointment
-        href: osql/howto/diary/create-apt-osql.md
-- name: Raw SQL queries
-  items:
-  - name: Company
-    href: sql/howto/company/index.md
+      - name: Company
+        href: sql/howto/company/index.md
+        items:
+          - name: Create contact
+            href: sql/howto/company/create-contact-sql.md
+          - name: Get contact details
+            href: sql/howto/company/get-contact-details-sql.md
+          - name: Get interests
+            href: sql/howto/company/get-interests-sql.md
+          - name: Get category list
+            href: sql/howto/company/get-catlist-sql.md
+      - name: Contact (person)
+        href: sql/howto/contact/index.md
+        items:
+          - name: Get persons from contact
+            href: sql/howto/contact/get-persons-from-contact-sql.md
+          - name: Update person
+            href: sql/howto/contact/update-person-sql.md
+          - name: Add person picture BLOBs
+            href: sql/howto/contact/add-person-picture-blobs-sql.md
+      - name: Custom fields
+        topicHref: sql/howto/custom-objects/index.md
+        items:
+          - name: Set udef
+            href: sql/howto/custom-objects/set-udef.md
+      - name: Diary
+        href: sql/howto/diary/index.md
+        items:
+          - name: Create appointment
+            href: sql/howto/diary/create-apt-sql.md
+          - name: Create invitation
+            href: sql/howto/diary/create-invitation-sql.md
+          - name: Accept invitation
+            href: sql/howto/diary/accept-invitation-sql.md
+      - name: Project
+        href: sql/howto/project/index.md
+        items:
+          - name: Create project
+            href: sql/howto/project/create.md
+          - name: Text table
+            href: sql/howto/project/text-table.md
+          - name: Project guide
+            href: sql/howto/project/project-guide.md
+      - name: SAINT
+        href: sql/howto/saint/index.md
+        items:
+          - name: Get contact by saint value
+            href: sql/howto/saint/get-contact-by-saint-value.md
+          - name: Search SAINT values
+            href: sql/howto/saint/search-saint-values.md
+      - name: Sale
+        items:
+          - name: Stakeholders
+            href: sql/howto/sale/stakeholders.md
+  - name: Bulk Operation
+    href: bulk-operations/index.md
     items:
-    - name: Create contact
-      href: sql/howto/company/create-contact-sql.md
-    - name: Get contact details
-      href: sql/howto/company/get-contact-details-sql.md
-    - name: Get interests
-      href: sql/howto/company/get-interests-sql.md
-    - name: Get category list
-      href: sql/howto/company/get-catlist-sql.md
-  - name: Contact (person)
-    href: sql/howto/contact/index.md
+      - name: Bulk Update
+        href: bulk-operations/bulk-update/index.md
+        items: # These items are navigation headers
+          - name: How to use bulk update
+            href: bulk-operations/bulk-update/using-bulk-update.md
+          - name: Field value info
+            href: bulk-operations/bulk-update/field-value-info.md
+          - name: Operations and values
+            href: bulk-operations/bulk-update/operations-and-values.md
+          - name: Entities and field types
+            href: bulk-operations/bulk-update/entities-field-types.md
+          - name: Examples
+            href: bulk-operations/bulk-update/ns-core-examples.md
+          - name: Reference
+            href: bulk-operations/bulk-update/reference/index.md
+            items:
+              - name: Appointment table
+                href: bulk-operations/bulk-update/reference/appointment-table.md
+              - name: Contact table
+                href: bulk-operations/bulk-update/reference/contact-table.md
+              - name: Document table
+                href: bulk-operations/bulk-update/reference/document-table.md
+              - name: Person table
+                href: bulk-operations/bulk-update/reference/person-table.md
+              - name: Project table
+                href: bulk-operations/bulk-update/reference/project-table.md
+              - name: Sale table
+                href: bulk-operations/bulk-update/reference/sale-table.md
+              - name: Selection table
+                href: bulk-operations/bulk-update/reference/selection-table.md
+              - name: Ticket table
+                href: bulk-operations/bulk-update/reference/ticket-table.md
+              - name: Extra fields
+                href: bulk-operations/bulk-update/reference/extra-fields.md
+              - name: User-defined fields
+                href: bulk-operations/bulk-update/reference/user-defined-fields.md
+      - name: Mass Operations
+        href: bulk-operations/mass-operations/index.md
+        items:
+          - name: Delete
+            href: bulk-operations/mass-operations/delete.md
+          - name: Insert
+            href: bulk-operations/mass-operations/insert.md
+          - name: Truncate
+            href: bulk-operations/mass-operations/truncate.md
+          - name: Upsert
+            href: bulk-operations/mass-operations/upsert.md
+          - name: Protected Tables
+            href: bulk-operations/mass-operations/protected-tables.md
+  - name: Search APIs
+    href: search/index.md
     items:
-    - name: Get persons from contact
-      href: sql/howto/contact/get-persons-from-contact-sql.md
-    - name: Update person
-      href: sql/howto/contact/update-person-sql.md
-    - name: Add person picture BLOBs
-      href: sql/howto/contact/add-person-picture-blobs-sql.md
-  - name: Custom fields
-    topicHref: sql/howto/custom-objects/index.md
+      - name: Find Selection API
+        href: search/find-selection/index.md
+        items:
+          - name: Terminology
+            href: search/find-selection/terminology.md
+          - name: How to search
+            href: search/find-selection/how-to-search.md
+          - name: How to populate selectable columns
+            href: search/find-selection/populate-selectable-columns.md
+          - name: Operators
+            href: search/find-selection/operators.md
+          - name: Date range as criteria
+            href: search/find-selection/date-range-as-criteria.md
+          - name: Convert legacy operators
+            href: search/find-selection/convert-to-new-date-range-operators.md
+          - name: Typical search
+            href: search/find-selection/typical-search.md
+      - name: Archive provider fundamentals
+        href: archive-providers/index.md
+        items:
+          - name: Encoded values
+            href: archive-providers/encoded-values.md
+          - name: Perform query
+            href: archive-providers/how-to-query.md
+          - name: Aggregation
+            href: archive-providers/data-aggregation.md
+          - name: Aggregation with GroupBy
+            href: archive-providers/aggregate-groupby.md
+          - name: Nested Aggregate Functions
+            href: archive-providers/nested-aggregate-functions.md
+      - name: Archive provider architecture
+        href: archive-providers/architecture.md
+        items:
+          - name: Interfaces
+            href: archive-providers/interfaces.md
+          - name: Data classes
+            href: archive-providers/data-classes.md
+          - name: Client usage scenarios
+            href: archive-providers/scenarios.md
+          - name: Provider metadata
+            href: archive-providers/metadata.md
+          - name: Providers
+            href: archive-providers/providers.md
+          - name: Extenders
+            href: archive-providers/extenders.md
+          - name: Joiners
+            href: archive-providers/joiners.md
+          - name: Base and helper classes
+            href: archive-providers/base-and-helper-classes.md
+      - name: ArchiveAgent samples
+        href: archive-providers/howto/diary/index.md
+        items:
+          - name: Invitation archive
+            href: archive-providers/howto/diary/invitation-archive.md
+      - name: Archive provider reference
+        href: archive-providers/reference/toc.yml
+        topicHref: archive-providers/reference/index.md
+      - name: MDO provider reference
+        href: mdo-providers/reference/toc.yml
+        topicHref: mdo-providers/reference/index.md
+      - name: OData Search in WebApi
+        href: search/odata/index.md
+        items:
+          - name: Metadata
+            href: search/odata/metadata.md
+          - name: Associate
+            href: search/odata/associate.md
+          - name: Boolean
+            href: search/odata/boolean.md
+          - name: Date
+            href: search/odata/date.md
+          - name: DateTime
+            href: search/odata/datetime.md
+          - name: Lists
+            href: search/odata/lists.md
+          - name: Numbers
+            href: search/odata/numbers.md
+          - name: Strings
+            href: search/odata/strings.md
+          - name: Unary
+            href: search/odata/unary.md
+          - name: Filters
+            href: search/odata/using-filters.md
+          - name: Dynamic dot-syntax
+            href: search/odata/dynamic-provider.md
+  - name: Security
+    href: security/index.md
     items:
-    - name: Set udef
-      href: sql/howto/custom-objects/set-udef.md
-  - name: Diary
-    href: sql/howto/diary/index.md
-    items:
-    - name: Create appointment
-      href: sql/howto/diary/create-apt-sql.md
-    - name: Create invitation
-      href: sql/howto/diary/create-invitation-sql.md
-    - name: Accept invitation
-      href: sql/howto/diary/accept-invitation-sql.md
-  - name: Project
-    href: sql/howto/project/index.md
-    items:
-    - name: Create project
-      href: sql/howto/project/create.md
-    - name: Text table
-      href: sql/howto/project/text-table.md
-    - name: Project guide
-      href: sql/howto/project/project-guide.md
-  - name: SAINT
-    href: sql/howto/saint/index.md
-    items:
-    - name: Get contact by saint value
-      href: sql/howto/saint/get-contact-by-saint-value.md
-    - name: Search SAINT values
-      href: sql/howto/saint/search-saint-values.md
-  - name: Sale
-    items:
-    - name: Stakeholders
-      href: sql/howto/sale/stakeholders.md
-- name: Bulk Operation
-  href: bulk-operations/index.md
-  items:
-  - name: Bulk Update
-    href: bulk-operations/bulk-update/index.md
-    items: # These items are navigation headers
-    - name: How to use bulk update
-      href: bulk-operations/bulk-update/using-bulk-update.md
-    - name: Field value info
-      href: bulk-operations/bulk-update/field-value-info.md
-    - name: Operations and values
-      href: bulk-operations/bulk-update/operations-and-values.md
-    - name: Entities and field types
-      href: bulk-operations/bulk-update/entities-field-types.md
-    - name: Examples
-      href: bulk-operations/bulk-update/ns-core-examples.md
-    - name: Reference
-      href: bulk-operations/bulk-update/reference/index.md
-      items:
-      - name: Appointment table
-        href: bulk-operations/bulk-update/reference/appointment-table.md
-      - name: Contact table
-        href: bulk-operations/bulk-update/reference/contact-table.md
-      - name: Document table
-        href: bulk-operations/bulk-update/reference/document-table.md
-      - name: Person table
-        href: bulk-operations/bulk-update/reference/person-table.md
-      - name: Project table
-        href: bulk-operations/bulk-update/reference/project-table.md
-      - name: Sale table
-        href: bulk-operations/bulk-update/reference/sale-table.md
-      - name: Selection table
-        href: bulk-operations/bulk-update/reference/selection-table.md
-      - name: Ticket table
-        href: bulk-operations/bulk-update/reference/ticket-table.md
-      - name: Extra fields
-        href: bulk-operations/bulk-update/reference/extra-fields.md
-      - name: User-defined fields
-        href: bulk-operations/bulk-update/reference/user-defined-fields.md
-  - name: Mass Operations
-    href: bulk-operations/mass-operations/index.md
-    items:
-    - name: Delete
-      href: bulk-operations/mass-operations/delete.md
-    - name: Insert
-      href: bulk-operations/mass-operations/insert.md
-    - name: Truncate
-      href: bulk-operations/mass-operations/truncate.md
-    - name: Upsert
-      href: bulk-operations/mass-operations/upsert.md
-    - name: Protected Tables
-      href: bulk-operations/mass-operations/protected-tables.md
-- name: Search APIs
-  href: search/index.md
-  items:
-  - name: Find Selection API
-    href: search/find-selection/index.md
-    items:
-    - name: Terminology
-      href: search/find-selection/terminology.md
-    - name: How to search
-      href: search/find-selection/how-to-search.md
-    - name: How to populate selectable columns
-      href: search/find-selection/populate-selectable-columns.md
-    - name: Operators
-      href: search/find-selection/operators.md
-    - name: Date range as criteria
-      href: search/find-selection/date-range-as-criteria.md
-    - name: Convert legacy operators
-      href: search/find-selection/convert-to-new-date-range-operators.md
-    - name: Typical search
-      href: search/find-selection/typical-search.md
-  - name: Archive provider fundamentals
-    href: archive-providers/index.md
-    items:
-    - name: Encoded values
-      href: archive-providers/encoded-values.md
-    - name: Perform query
-      href: archive-providers/how-to-query.md
-    - name: Aggregation
-      href: archive-providers/data-aggregation.md
-    - name: Aggregation with GroupBy
-      href: archive-providers/aggregate-groupby.md
-    - name: Nested Aggregate Functions
-      href: archive-providers/nested-aggregate-functions.md
-  - name: Archive provider architecture
-    href: archive-providers/architecture.md
-    items:
-    - name: Interfaces
-      href: archive-providers/interfaces.md
-    - name: Data classes
-      href: archive-providers/data-classes.md
-    - name: Client usage scenarios
-      href: archive-providers/scenarios.md
-    - name: Provider metadata
-      href: archive-providers/metadata.md
-    - name: Providers
-      href: archive-providers/providers.md
-    - name: Extenders
-      href: archive-providers/extenders.md
-    - name: Joiners
-      href: archive-providers/joiners.md
-    - name: Base and helper classes
-      href: archive-providers/base-and-helper-classes.md
-  - name: ArchiveAgent samples
-    href: archive-providers/howto/diary/index.md
-    items:
-    - name: Invitation archive
-      href: archive-providers/howto/diary/invitation-archive.md
-  - name: Archive provider reference
-    href: archive-providers/reference/toc.yml
-    topicHref: archive-providers/reference/index.md
-  - name: MDO provider reference
-    href: mdo-providers/reference/toc.yml
-    topicHref: mdo-providers/reference/index.md
-  - name: OData Search in WebApi
-    href: search/odata/index.md
-    items:
-    - name: Metadata
-      href: search/odata/metadata.md
-    - name: Associate
-      href: search/odata/associate.md
-    - name: Boolean
-      href: search/odata/boolean.md
-    - name: Date
-      href: search/odata/date.md
-    - name: DateTime
-      href: search/odata/datetime.md
-    - name: Lists
-      href: search/odata/lists.md
-    - name: Numbers
-      href: search/odata/numbers.md
-    - name: Strings
-      href: search/odata/strings.md
-    - name: Unary 
-      href: search/odata/unary.md
-    - name: Filters
-      href: search/odata/using-filters.md
-    - name: Dynamic dot-syntax
-      href: search/odata/dynamic-provider.md
-- name: Security
-  href: security/index.md
-  items:
-  - name: Role-based
-    href: security/role-based.md
-  - name: Encryption
-    href: security/encryption.md
-  - name: Sentry
-    href: security/sentry/index.md
-    items:
-    - name: Overrides
-      href: security/sentry/overrides.md
-      items:
-      - name: Examples (COM)
-        href: security/sentry/com/set-override-com.md
-    - name: Web services
-      href: security/sentry/services/index.md
-      items:
-      - name: FieldProperties
-        href: security/sentry/services/fieldproperties.md
-      - name: TableRight
-        href: security/sentry/services/tableright.md
-    - name: Entities
-      href: security/sentry/entity/index.md
-      items:
-      - name: VisibleFor flag
-        href: security/sentry/entity/visible-for-flag.md
-    - name: Rows
-      href: security/sentry/rows/index.md
-    - name: Objectified SQL
-      href: security/sentry/osql/distinct.md
-    - name: Raw SQL
-      href: security/sentry/sql/set-override-sql.md
-- name: Plug-ins
-  href: plugins/toc.yml
-  topicHref: plugins/index.md
+      - name: Role-based
+        href: security/role-based.md
+      - name: Encryption
+        href: security/encryption.md
+      - name: Sentry
+        href: security/sentry/index.md
+        items:
+          - name: Overrides
+            href: security/sentry/overrides.md
+            items:
+              - name: Examples (COM)
+                href: security/sentry/com/set-override-com.md
+          - name: Web services
+            href: security/sentry/services/index.md
+            items:
+              - name: FieldProperties
+                href: security/sentry/services/fieldproperties.md
+              - name: TableRight
+                href: security/sentry/services/tableright.md
+          - name: Entities
+            href: security/sentry/entity/index.md
+            items:
+              - name: VisibleFor flag
+                href: security/sentry/entity/visible-for-flag.md
+          - name: Rows
+            href: security/sentry/rows/index.md
+          - name: Objectified SQL
+            href: security/sentry/osql/distinct.md
+          - name: Raw SQL
+            href: security/sentry/sql/set-override-sql.md
+  - name: Plug-ins
+    href: plugins/toc.yml
+    topicHref: plugins/index.md
