@@ -47,7 +47,7 @@ Als u de inhoud of sjabloon van een offertedocument wilt wijzigen, kiest u een v
 
 Gebruik deze methode als u de documentgegevens wilt behouden, maar een bijgewerkte versie van het bestand wilt uploaden.
 
-1. Dubbelklik op het document op het tabblad **Offerte**.
+1. Klik op het document op het tabblad **Offerte**.
 
 2. Schakel het selectievakje **Voltooid** uit.
 
@@ -59,7 +59,7 @@ Gebruik deze methode als u de documentgegevens wilt behouden, maar een bijgewerk
 
 Gebruik deze methode als u het oude document wilt verwijderen en helemaal opnieuw wilt beginnen.
 
-1. Dubbelklik op het bestaande document op het tabblad **Offerte**.
+1. Klik op het bestaande document op het tabblad **Offerte**.
 
 2. Klik op <i class="ph ph-dots-three-circle-vertical" aria-label="Taak"></i> en kies **Verwijderen** in het menu **Taak**.
 

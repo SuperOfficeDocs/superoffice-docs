@@ -45,7 +45,7 @@ Nogle tilbud skal godkendes, før de kan sendes, f.eks. hvis indtjeningen er for
 
 1. Klik på **Godkend** eller **Afvis**.
 
-1. Status opdateres til **Godkendt** (<i class="ph ph-check-square" aria-hidden="true"></i>) eller **Ikke godkendt** (<i class="ph ph-x-square" aria-hidden="true"></i>).
+1. Status opdateres til **Godkendt** (<i class="ph ph-check-square" aria-hidden="true"></i>) eller **Afvist** (<i class="ph ph-x-square" aria-hidden="true"></i>).
 
 ## <a id="send"></a>Sådan sendes tilbuddet
 
@@ -72,7 +72,7 @@ Nogle tilbud skal godkendes, før de kan sendes, f.eks. hvis indtjeningen er for
 
 8. Klik på **OK** for at sende og/eller arkivere tilbuddet.
 
-    Hvis du valgte e-mail, åbnes dialogboksen **Ny e-mail** for at tilpasse beskeden. Hvis du valgte arkivering, åbnes dialogboksen **Dokument**.
+    Hvis du valgte e-mail, åbnes dialogboksen **Ny e-mail** for at tilpasse beskeden.
 
 ### Efter afsendelse
 

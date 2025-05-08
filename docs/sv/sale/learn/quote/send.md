@@ -43,9 +43,9 @@ Vissa offerter måste godkännas innan de kan skickas, till exempel om vinsten �
 
 1. En användare med behörighet öppnar offerten.
 
-1. Klicka på **Godkänn** eller **Avslå**.
+1. Klicka på **Godkänn** eller **Avvisa**.
 
-1. Statusen ändras till **Godkänd** (<i class="ph ph-check-square" aria-hidden="true"></i>) eller **Inte godkänd** (<i class="ph ph-x-square" aria-hidden="true"></i>).
+1. Statusen ändras till **Godkänd** (<i class="ph ph-check-square" aria-hidden="true"></i>) eller **Avvisad** (<i class="ph ph-x-square" aria-hidden="true"></i>).
 
 ## <a id="send"></a>Så här skickar du offerten
 
@@ -72,7 +72,7 @@ Vissa offerter måste godkännas innan de kan skickas, till exempel om vinsten �
 
 8. Klicka på **OK** för att skicka och/eller arkivera offerten.
 
-    Om du valt e-post öppnas dialogrutan **Ny e-post** där du kan anpassa meddelandet. Om arkivering är valt öppnas dialogrutan **Dokument**.
+    Om du valt e-post öppnas dialogrutan **Ny e-post** där du kan anpassa meddelandet.
 
 ### Efter att du har skickat offerten
 

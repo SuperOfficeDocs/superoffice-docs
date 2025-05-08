@@ -18,7 +18,7 @@ language: sv
 När kunden har accepterat offerten kan du registrera ordern så att den skickas vidare till orderhantering eller lager.
 
 > [!NOTE]
-> Du kan inte registrera ordern om [offerten inte har godkänts][1] eller [innehåller fel eller varningar][2].
+> Du kan inte registrera ordern om offerten [innehåller fel eller varningar][2].
 
 ## Steg
 
@@ -37,5 +37,4 @@ När kunden har accepterat offerten kan du registrera ordern så att den skickas
 Om SuperOffice CRM är anslutet till ett ERP-system (antingen via inbyggd lösning eller tredjepartskoppling) registreras och hanteras ordern automatiskt där. Om ingen ERP-anslutning finns måste du registrera ordern manuellt i det externa systemet.
 
 <!-- Referenced links -->
-[1]: send.md#approve
 [2]: create.md#warning

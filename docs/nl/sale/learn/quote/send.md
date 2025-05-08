@@ -43,9 +43,9 @@ Sommige offertes moeten worden goedgekeurd voordat ze verzonden kunnen worden, b
 
 1. Een gebruiker met goedkeuringsrechten opent de offerte.
 
-1. Klik op **Goedkeuren** of **Niet goedkeuren**.
+1. Klik op **Goedkeuren** of **Afwijzen**.
 
-1. De status wordt bijgewerkt naar **Goedgekeurd** (<i class="ph ph-check-square" aria-hidden="true"></i>) of **Niet goedgekeurd** (<i class="ph ph-x-square" aria-hidden="true"></i>).
+1. De status wordt bijgewerkt naar **Goedgekeurd** (<i class="ph ph-check-square" aria-hidden="true"></i>) of **Afgewezen** (<i class="ph ph-x-square" aria-hidden="true"></i>).
 
 ## <a id="send"></a>Offerte verzenden
 
@@ -72,7 +72,7 @@ Sommige offertes moeten worden goedgekeurd voordat ze verzonden kunnen worden, b
 
 8. Klik op **OK** om te verzenden en/of archiveren.
 
-    Bij e-mailverzending opent het dialoogvenster **Nieuwe e-mail**. Bij archivering opent het dialoogvenster **Document**.
+    Bij e-mailverzending opent het dialoogvenster **Nieuwe e-mail**.
 
 ### Na verzending
 

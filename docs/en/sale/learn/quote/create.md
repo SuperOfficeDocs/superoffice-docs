@@ -79,7 +79,7 @@ To save time, you can reuse an existing quote from another sale that uses the sa
     >
     > If you specify a discount that is not permitted by the system, a warning or other message is displayed.
 
-1. Optional: View product info in the **Description** or **Image** tab (these are read-only and controlled in Settings and maintenance).
+1. Optional: View product info in the **Description** or **Image** tab.
 
 1. Click **Save** to add the product to the quote, or click **Save + new** to add another product immediately.
 
@@ -177,6 +177,7 @@ These messages may be displayed in the following places:
 * In the **Edit quote** dialog
 * On product lines in the **Quote** section tab
 * In the **Products** tab and alternative tabs in the quote
+* When trying to send or place an order.
 
 ## Related content
 

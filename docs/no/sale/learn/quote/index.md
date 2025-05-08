@@ -52,7 +52,7 @@ SuperOffice Quote støtter hele tilbud-til-ordre-prosessen. Det hjelper deg med 
 |---|---|
 | <i class="ph ph-pencil" aria-label="Draft"></i> <i class="ph ph-calculator" aria-label="Draft – not Calculated"></i> | Utkast / Utkast – ikke kalkulert |
 | <i class="ph ph-question" aria-label="Needs approval"></i> | Trenger godkjenning |
-| <i class="ph ph-check-square" aria-label="Approved"></i> <i class="ph ph-x-square" aria-label="Not approved"></i> | Godkjent / Ikke godkjent |
+| <i class="ph ph-check-square" aria-label="Approved"></i> <i class="ph ph-x-square" aria-label="Not approved"></i> | Godkjent / Avvist |
 | <i class="ph ph-envelope-simple" aria-label="Sent"></i> | Sendt |
 | <i class="ph ph-clock-counter-clockwise" aria-label="Sent – Expired"></i> | Sendt – utløpt |
 | <i class="ph ph-currency-dollar" aria-hidden="true"></i> <i class="ph ph-check" aria-label="Sold"></i> | Solgt |

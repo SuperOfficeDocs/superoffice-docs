@@ -79,7 +79,7 @@ Om tijd te besparen kunt u een bestaande offerte hergebruiken vanuit een andere 
     >
     > Als u een korting invoert die niet is toegestaan door het systeem, wordt er een waarschuwing of ander bericht weergegeven.
 
-1. Optioneel: Bekijk productinformatie in de tabbladen **Beschrijving** of **Afbeelding** (deze zijn alleen-lezen en worden beheerd in Instellingen en onderhoud).
+1. Optioneel: Bekijk productinformatie in de tabbladen **Beschrijving** of **Afbeelding**.
 
 1. Klik op **Opslaan** om het product toe te voegen aan de offerte, of klik op **Opslaan + nieuw** om direct nog een product toe te voegen.
 
@@ -177,6 +177,7 @@ Deze berichten kunnen worden weergegeven in:
 * Het dialoogvenster **Offerte bewerken**
 * Op productregels in het sectietabblad **Offerte**
 * Op het tabblad **Producten** (en alternatieven) in de offerte
+* Wanneer u probeert een offerte te verzenden of een order te plaatsen
 
 ## Gerelateerde inhoud
 

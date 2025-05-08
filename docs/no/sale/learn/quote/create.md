@@ -79,7 +79,7 @@ For å spare tid kan du gjenbruke et eksisterende tilbud fra et annet salg med s
     >
     > Hvis du angir en rabatt som ikke er tillatt i systemet, vises et varsel eller en annen melding.
 
-1. Valgfritt: Se produktinformasjon i fanen **Beskrivelse** eller **Bilde** (disse er skrivebeskyttet og kontrolleres i Innstillinger og vedlikehold).
+1. Valgfritt: Se produktinformasjon i fanen **Beskrivelse** eller **Bilde**.
 
 1. Klikk på **Lagre** for å legge til produktet i tilbudet, eller klikk på **Lagre + ny** for å legge til et nytt produkt med én gang.
 
@@ -177,6 +177,7 @@ Disse meldingene kan vises på følgende steder:
 * I dialogboksen **Rediger tilbud for**
 * På produktlinjene i detaljkortet **Tilbud**
 * I fanen **Produkter** og eventuelle alternativfaner i tilbudet
+* Når du prøver å sende eller plassere en ordre
 
 ## Relatert innhold
 

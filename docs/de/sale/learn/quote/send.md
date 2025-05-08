@@ -43,9 +43,9 @@ Einige Angebote müssen vor dem Senden genehmigt werden, z. B. wenn die Einnah
 
 1. Ein Benutzer mit Genehmigungsrechten öffnet das Angebot.
 
-1. Klicken Sie auf **Genehmigen** oder **Nicht genehmigen**.
+1. Klicken Sie auf **Genehmigen** oder **Ablehnen**.
 
-1. Der Status wird zu **Genehmigt** (<i class="ph ph-check-square" aria-hidden="true"></i>) oder **Nicht genehmigt** (<i class="ph ph-x-square" aria-hidden="true"></i>).
+1. Der Status wird zu **Genehmigt** (<i class="ph ph-check-square" aria-hidden="true"></i>) oder **Abgelehnt** (<i class="ph ph-x-square" aria-hidden="true"></i>).
 
 ## <a id="send"></a>So senden Sie das Angebot
 
@@ -72,7 +72,7 @@ Einige Angebote müssen vor dem Senden genehmigt werden, z. B. wenn die Einnah
 
 8. Klicken Sie auf **OK**, um das Angebot zu senden und/oder zu archivieren.
 
-    Beim Versand per E-Mail öffnet sich das Dialogfeld **Neue E-Mail**, beim Archivieren das Dialogfeld **Dokument**.
+    Beim Versand per E-Mail öffnet sich das Dialogfeld **Neue E-Mail**.
 
 ### Nach dem Senden
 

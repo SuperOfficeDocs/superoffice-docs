@@ -18,7 +18,7 @@ language: nl
 Nadat de klant de offerte heeft geaccepteerd, kunt u de order registreren zodat deze wordt doorgezet naar de orderverwerking of het magazijn.
 
 > [!NOTE]
-> U kunt geen order plaatsen als de [offerte niet is goedgekeurd][1] of [fouten of waarschuwingen bevat][2].
+> U kunt geen order plaatsen als de offerte [fouten of waarschuwingen bevat][2].
 
 ## Stappen
 
@@ -37,5 +37,4 @@ Nadat de klant de offerte heeft geaccepteerd, kunt u de order registreren zodat 
 Indien SuperOffice CRM is gekoppeld aan een ERP-systeem (via de ingebouwde functie of een externe koppeling), wordt de order automatisch geregistreerd en verwerkt. Is er geen ERP-koppeling, dan moet u de order handmatig registreren in het externe systeem.
 
 <!-- Referenced links -->
-[1]: send.md#approve
 [2]: create.md#warning

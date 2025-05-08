@@ -47,7 +47,7 @@ Wenn Sie den Inhalt oder die Vorlage eines Angebotsdokuments ändern möchten, w
 
 Verwenden Sie diese Methode, wenn Sie die Dokumentinformationen beibehalten, aber eine neue Datei hochladen möchten.
 
-1. Doppelklicken Sie auf das Dokument in der Registerkarte **Angebot**.
+1. Klicken Sie auf das Dokument in der Registerkarte **Angebot**.
 
 2. Deaktivieren Sie **Abgeschlossen**.
 
@@ -59,7 +59,7 @@ Verwenden Sie diese Methode, wenn Sie die Dokumentinformationen beibehalten, abe
 
 Verwenden Sie diese Methode, um das alte Dokument zu entfernen und mit einer neuen Vorlage neu zu beginnen.
 
-1. Doppelklicken Sie auf das vorhandene Dokument in der Registerkarte **Angebot**.
+1. Klicken Sie auf das vorhandene Dokument in der Registerkarte **Angebot**.
 
 2. Klicken Sie auf <i class="ph ph-dots-three-circle-vertical" aria-label="Aufgabe"></i> und wählen Sie im Menü **Aufgabe** die Option **Löschen**.
 

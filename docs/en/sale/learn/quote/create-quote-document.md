@@ -47,7 +47,7 @@ To change the contents or template used for a quote document, choose one of the 
 
 Use this method if you want to keep the document metadata but upload a revised file from your computer.
 
-1. On the **Quote** section tab, double-click the document.
+1. On the **Quote** section tab, click the document.
 
 1. In the document dialog, uncheck **Completed**.
 
@@ -59,7 +59,7 @@ Use this method if you want to keep the document metadata but upload a revised f
 
 Use this method if you want to discard the quote document and start from scratch.
 
-1. On the **Quote** section tab, double-click the existing document.
+1. On the **Quote** section tab, click the existing document.
 
 1. Click <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> and select **Delete** from the **Task** menu.
 

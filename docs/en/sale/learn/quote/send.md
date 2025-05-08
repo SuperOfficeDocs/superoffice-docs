@@ -43,9 +43,9 @@ Some quotes must be approved before sending, for example, if the earnings are to
 
 1. A user with approval rights opens the quote.
 
-1. Click **Approve** or **Not approve**.
+1. Click **Approve** or **Reject**.
 
-1. The status updates to **Approved** (<i class="ph ph-check-square" aria-hidden="true"></i>) or **Not approved** (<i class="ph ph-x-square" aria-hidden="true"></i>).
+1. The status updates to **Approved** (<i class="ph ph-check-square" aria-hidden="true"></i>) or **Rejected** (<i class="ph ph-x-square" aria-hidden="true"></i>).
 
 ## <a id="send"></a>Send the quote
 
@@ -72,7 +72,7 @@ Some quotes must be approved before sending, for example, if the earnings are to
 
 8. Click **OK** to send and/or archive the quote.
 
-    If sending by email, the **New email** dialog opens so you can customize the message. If archiving is selected, the **Document** dialog opens.
+    If sending by email, the **New email** dialog opens so you can customize the message.
 
 ### After sending
 

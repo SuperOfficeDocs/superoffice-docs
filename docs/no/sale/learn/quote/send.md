@@ -43,9 +43,9 @@ Noen tilbud må godkjennes før de kan sendes, for eksempel hvis fortjenesten er
 
 1. En bruker med godkjenningsrettigheter åpner tilbudet.
 
-1. Klikk **Godkjenn** eller **Ikke godkjenn**.
+1. Klikk **Godkjenn** eller **Avvis**.
 
-1. Statusen oppdateres til **Godkjent** (<i class="ph ph-check-square" aria-hidden="true"></i>) eller **Ikke godkjent** (<i class="ph ph-x-square" aria-hidden="true"></i>).
+1. Statusen oppdateres til **Godkjent** (<i class="ph ph-check-square" aria-hidden="true"></i>) eller **Avvist** (<i class="ph ph-x-square" aria-hidden="true"></i>).
 
 ## <a id="send"></a>Slik sender du tilbudet
 
@@ -72,7 +72,7 @@ Noen tilbud må godkjennes før de kan sendes, for eksempel hvis fortjenesten er
 
 8. Klikk **OK** for å sende og/eller arkivere tilbudet.
 
-    Hvis du velger e-post, åpnes dialogboksen **Ny e-post** for å tilpasse meldingen. Hvis du velger arkivering, åpnes dialogboksen **Dokument**.
+    Hvis du velger e-post, åpnes dialogboksen **Ny e-post** for å tilpasse meldingen.
 
 ### Etter sending
 

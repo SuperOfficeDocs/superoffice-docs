@@ -47,7 +47,7 @@ Hvis du vil endre innholdet eller malen for tilbudsdokumentet, kan du velge én 
 
 Bruk denne metoden hvis du vil beholde dokumentets metadata, men laste opp en oppdatert fil fra datamaskinen.
 
-1. Dobbeltklikk på dokumentet i detaljkortet **Tilbud**.
+1. Klikk på dokumentet i detaljkortet **Tilbud**.
 
 2. Fjern merkingen for **Fullført**.
 
@@ -59,7 +59,7 @@ Bruk denne metoden hvis du vil beholde dokumentets metadata, men laste opp en op
 
 Bruk denne metoden hvis du vil slette det gamle dokumentet og starte helt på nytt.
 
-1. Dobbeltklikk på dokumentet i detaljkortet **Tilbud**.
+1. Klikk på dokumentet i detaljkortet **Tilbud**.
 
 2. Klikk på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> og velg **Slett** i menyen **Oppgave**.
 

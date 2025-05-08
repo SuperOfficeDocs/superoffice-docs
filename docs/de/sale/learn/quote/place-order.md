@@ -18,7 +18,7 @@ language: de
 Nachdem der Kunde das Angebot akzeptiert hat, können Sie den Auftrag erstellen, damit dieser zur weiteren Bearbeitung an die Auftragsabwicklung oder ein Lager übermittelt wird.
 
 > [!NOTE]
-> Sie können den Auftrag nicht erteilen, wenn das [Angebot nicht genehmigt wurde][1] oder [Fehler oder Warnungen enthält][2].
+> Sie können den Auftrag nicht erteilen, wenn das Angebot [Fehler oder Warnungen enthält][2].
 
 ## Schritte
 
@@ -37,5 +37,4 @@ Nachdem der Kunde das Angebot akzeptiert hat, können Sie den Auftrag erstellen,
 Wenn SuperOffice CRM mit einem ERP-System verbunden ist (über die integrierte Lösung oder einen 3rd-Party-Konnektor), wird der Auftrag dort automatisch registriert und weiterverarbeitet. Ohne ERP-Verbindung müssen Sie den Auftrag manuell im externen System erfassen.
 
 <!-- Referenced links -->
-[1]: send.md#approve
 [2]: create.md#warning

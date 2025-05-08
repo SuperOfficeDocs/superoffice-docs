@@ -79,7 +79,7 @@ For at spare tid kan du genbruge et eksisterende tilbud fra et andet salg, der b
     >
     > Hvis du angiver en rabat, der ikke er tilladt af systemet, vises der en advarsel eller anden meddelelse.
 
-1. Valgfrit: Se produktinfo under fanen **Beskrivelse** eller **Billede** (disse er skrivebeskyttede og styres i Indstillinger og vedligeholdelse).
+1. Valgfrit: Se produktinfo under fanen **Beskrivelse** eller **Billede**.
 
 1. Klik på **Gem** for at tilføje produktet til tilbuddet, eller klik på **Gem + ny** for straks at tilføje endnu et produkt.
 
@@ -177,6 +177,7 @@ Disse meddelelser kan vises følgende steder:
 * I dialogboksen **Rediger tilbud**
 * På produktlinjer i detaljekortet **Tilbud**
 * I fanen **Produkter** og alternativ-faner i tilbuddet
+* Når du forsøger at sende eller afgive en ordre
 
 ## Relateret indhold
 

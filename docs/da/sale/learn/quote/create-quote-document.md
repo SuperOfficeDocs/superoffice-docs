@@ -47,7 +47,7 @@ Hvis du vil ændre indholdet eller skabelonen for tilbudsdokumentet, kan du væl
 
 Brug denne metode, hvis du vil bevare dokumentets metadata, men uploade en opdateret fil.
 
-1. Dobbeltklik på dokumentet i fanen **Tilbud**.
+1. Klik på dokumentet i fanen **Tilbud**.
 
 2. Fjern markeringen af **Fuldført**.
 
@@ -59,7 +59,7 @@ Brug denne metode, hvis du vil bevare dokumentets metadata, men uploade en opdat
 
 Brug denne metode, hvis du vil starte forfra med et nyt dokument.
 
-1. Dobbeltklik på det eksisterende dokument i fanen **Tilbud**.
+1. Klik på det eksisterende dokument i fanen **Tilbud**.
 
 2. Klik på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i>, og vælg **Slet** i menuen **Opgave**.
 

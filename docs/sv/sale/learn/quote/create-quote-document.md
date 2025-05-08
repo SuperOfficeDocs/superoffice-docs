@@ -47,7 +47,7 @@ Om du vill ändra innehållet eller mallen för ett offertdokument kan du använ
 
 Använd detta om du vill behålla metadata för dokumentet men ladda upp en uppdaterad fil från datorn.
 
-1. Dubbelklicka på dokumentet i fliken **Offert**.
+1. Klicka på dokumentet i fliken **Offert**.
 
 2. Avmarkera **Slutförd**.
 
@@ -59,7 +59,7 @@ Använd detta om du vill behålla metadata för dokumentet men ladda upp en uppd
 
 Använd detta om du vill börja om från början med ett nytt dokument.
 
-1. Dubbelklicka på det befintliga dokumentet i fliken **Offert**.
+1. Klicka på det befintliga dokumentet i fliken **Offert**.
 
 2. Klicka på <i class="ph ph-dots-three-circle-vertical" aria-label="Task button"></i> och välj **Ta bort** i menyn **Uppgift**.
 

@@ -52,7 +52,7 @@ SuperOffice Quote unterstützt den gesamten Angebot-zu-Auftrag-Prozess. Es hilft
 |---|---|
 | <i class="ph ph-pencil" aria-label="Draft"></i> <i class="ph ph-calculator" aria-label="Draft – not Calculated"></i> | Entwurf / Entwurf – nicht berechnet |
 | <i class="ph ph-question" aria-label="Needs approval"></i> | Genehmigung erforderlich |
-| <i class="ph ph-check-square" aria-label="Approved"></i> <i class="ph ph-x-square" aria-label="Not approved"></i> | Genehmigt / Nicht genehmigt |
+| <i class="ph ph-check-square" aria-label="Approved"></i> <i class="ph ph-x-square" aria-label="Not approved"></i> | Genehmigt / Abgelehnt |
 | <i class="ph ph-envelope-simple" aria-label="Sent"></i> | Gesendet |
 | <i class="ph ph-clock-counter-clockwise" aria-label="Sent – Expired"></i> | Gesendet – abgelaufen |
 | <i class="ph ph-currency-dollar" aria-hidden="true"></i> <i class="ph ph-check" aria-label="Sold"></i> | Verkauft |

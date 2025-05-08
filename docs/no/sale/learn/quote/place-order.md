@@ -18,7 +18,7 @@ language: no
 Når kunden har akseptert tilbudet, kan du registrere ordren slik at den sendes videre til ordrebehandling eller lager.
 
 > [!NOTE]
-> Du kan ikke registrere ordren hvis [tilbudet ikke er godkjent][1] eller [inneholder feil eller varsler][2].
+> Du kan ikke registrere ordren hvis tilbudet [inneholder feil eller varsler][2].
 
 ## Fremgangsmåte
 
@@ -37,5 +37,4 @@ Når kunden har akseptert tilbudet, kan du registrere ordren slik at den sendes 
 Hvis SuperOffice CRM er koblet til et ERP-system (enten via innebygd løsning eller tredjepartskonnektor), registreres ordren automatisk og behandles der. Hvis ikke, må ordren registreres manuelt i det eksterne systemet.
 
 <!-- Referenced links -->
-[1]: send.md#approve
 [2]: create.md#warning

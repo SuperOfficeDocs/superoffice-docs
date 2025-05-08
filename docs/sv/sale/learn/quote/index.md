@@ -52,7 +52,7 @@ SuperOffice Quote stöder hela processen från offert till order. Det hjälper d
 |---|---|
 | <i class="ph ph-pencil" aria-label="Draft"></i> <i class="ph ph-calculator" aria-label="Draft – not Calculated"></i> | Utkast / Utkast – inte beräknad |
 | <i class="ph ph-question" aria-label="Needs approval"></i> | Behöver godkännas |
-| <i class="ph ph-check-square" aria-label="Approved"></i> <i class="ph ph-x-square" aria-label="Not approved"></i> | Godkänd / Inte godkänd |
+| <i class="ph ph-check-square" aria-label="Approved"></i> <i class="ph ph-x-square" aria-label="Not approved"></i> | Godkänd / Avvisad |
 | <i class="ph ph-envelope-simple" aria-label="Sent"></i> | Skickat |
 | <i class="ph ph-clock-counter-clockwise" aria-label="Sent – Expired"></i> | Skickad – utgången |
 | <i class="ph ph-currency-dollar" aria-hidden="true"></i> <i class="ph ph-check" aria-label="Sold"></i> | Sålt |

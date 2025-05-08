@@ -79,7 +79,7 @@ Um Zeit zu sparen, können Sie ein vorhandenes Angebot aus einem anderen Verkauf
     >
     > Wenn Sie einen vom System nicht erlaubten Rabatt eingeben, wird eine Warnung oder andere Nachricht angezeigt.
 
-1. Optional: Produktinformationen in den Registerkarten **Beschreibung** oder **Bild** anzeigen (diese sind schreibgeschützt und werden in **Einstellungen und Verwaltung** gepflegt).
+1. Optional: Produktinformationen in den Registerkarten **Beschreibung** oder **Bild** anzeigen.
 
 1. Klicken Sie auf **Speichern**, um das Produkt dem Angebot hinzuzufügen, oder auf **Speichern + neu**, um direkt ein weiteres Produkt hinzuzufügen.
 
@@ -177,6 +177,7 @@ Diese Meldungen können an folgenden Stellen angezeigt werden:
 * Im Dialogfeld **Angebot bearbeiten**
 * Auf den Produktzeilen in der Bereichsregisterkarte **Angebot**
 * In der Registerkarte **Produkte** (und Alternativen) im Angebot
+* Beim Versuch, ein Angebot zu senden oder ein Auftrag zu erteilen
 
 ## Verwandte Inhalte
 

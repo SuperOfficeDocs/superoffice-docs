@@ -52,7 +52,7 @@ SuperOffice Quote ondersteunt de volledige offerte-naar-order-cyclus. Het helpt 
 |---|---|
 | <i class="ph ph-pencil" aria-label="Draft"></i> <i class="ph ph-calculator" aria-label="Draft – not Calculated"></i> | Concept / Concept – zonder berekening |
 | <i class="ph ph-question" aria-label="Needs approval"></i> | Goedkeuring noodzakelijk |
-| <i class="ph ph-check-square" aria-label="Approved"></i> <i class="ph ph-x-square" aria-label="Not approved"></i> | Goedgekeurd / Niet goedgekeurd |
+| <i class="ph ph-check-square" aria-label="Approved"></i> <i class="ph ph-x-square" aria-label="Not approved"></i> | Goedgekeurd / Afgewezen |
 | <i class="ph ph-envelope-simple" aria-label="Sent"></i> | Verzonden |
 | <i class="ph ph-clock-counter-clockwise" aria-label="Sent – Expired"></i> | Verzonden – vervallen |
 | <i class="ph ph-currency-dollar" aria-hidden="true"></i> <i class="ph ph-check" aria-label="Sold"></i> | Verkocht |

@@ -79,7 +79,7 @@ För att spara tid kan du återanvända en befintlig offert från en annan förs
     >
     > Om du anger en rabatt som inte är tillåten av systemet visas en varning eller ett annat meddelande.
 
-1. Valfritt: Visa produktinformation under fliken **Beskrivning** eller **Bild** (de är skrivskyddade och styrs via Inställningar och underhåll).
+1. Valfritt: Visa produktinformation under fliken **Beskrivning** eller **Bild**.
 
 1. Klicka på **Spara** för att lägga till produkten i offerten, eller klicka på **Spara + ny** för att omedelbart lägga till ytterligare en produkt.
 
@@ -177,6 +177,7 @@ Dessa meddelanden kan visas på följande platser:
 * I dialogrutan **Redigera offert**
 * På produktrader i detaljkortet **Offert**
 * I fliken **Produkter** och i alternativflikar i offerten
+* När du försöker skicka eller lägga en order
 
 ## Relaterat innehåll
 

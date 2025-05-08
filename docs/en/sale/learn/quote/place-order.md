@@ -18,7 +18,7 @@ language: en
 After the customer accepts the quote, you can place the order, so that it is sent on to order processing or a warehouse for further action.
 
 > [!NOTE]
-> You cannot place the order if the [quote has not been approved][1] or [quote contains errors or warnings][2].
+> You cannot place the order if the [quote contains errors or warnings][2].
 
 ## Steps
 
@@ -37,7 +37,4 @@ After the customer accepts the quote, you can place the order, so that it is sen
 If SuperOffice CRM is connected to an ERP system (either using the built-in solution in SuperOffice or a 3rd party connector), the order will be registered there and processed automatically. If SuperOffice CRM is not connected to an ERP system, you must register the order manually in the external system.
 
 <!-- Referenced links -->
-[1]: send.md#approve
 [2]: create.md#warning
-
-<!-- Referenced images -->
