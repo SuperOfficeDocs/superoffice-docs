@@ -108,7 +108,7 @@ For mere information om opsætning af salgsmuligheder, se [guiden til salgsprogn
 * [Udskriv info om et salg][11]
 
 <!-- Referenced links -->
-[1]: ../../quote/learn/create.md
+[1]: quote/create.md
 [3]: ../../learn/section-tabs/index.md
 [13]: ../../learn/section-tabs/sales-tab.md
 [14]: ../../learn/section-tabs/activities-tab.md
@@ -126,7 +126,7 @@ For mere information om opsætning af salgsmuligheder, se [guiden til salgsprogn
 [19]: ../../learn/basics/notes.md
 [20]: ../../learn/getting-started/main-screen/side-panel.md
 [12]: ../../custom-objects/learn/more-tab.md
-[17]: ../../quote/learn/quote-tab.md
+[17]: quote/index.md#quote-tab
 
 <!-- Referenced images -->
 [img1]: ../../../media/loc/en/sale/sales-screen.png

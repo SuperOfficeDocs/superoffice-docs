@@ -4,8 +4,8 @@ title: aus ERP importieren
 description: aus ERP importieren
 keywords: import, ERP
 author: Bergfrid Dias
-date: 03.31.2025
-version: 10.5
+date: 04.28.2025
+version: 10.5.4
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -20,11 +20,11 @@ Führen Sie die nachfolgenden Schritte aus, um Akteure (Kunden, Lieferanten und 
 
 ## Wählen Sie die Akteure aus, die Sie aus dem ERP-System importieren möchten
 
-> [!NOTE]
-> Wenn das ![Symbol][img1] ERP Sync. inaktiv ist, müssen Sie unter der Registerkarte **Angebot/Sync** > **Sync** die Synchronisierung deaktivieren.
-
 1. [!include[Open Import](includes/open-import.md)]
-2. Klicken Sie auf das ![Symbol][img1] ERP Sync unter **Importquelle auswählen**. Das Dialogfeld **ERP-Verbindung auswählen** wird geöffnet.
+2. Klicken Sie auf **ERP Sync** unter **Importquelle auswählen**. Das Dialogfeld **ERP-Verbindung auswählen** wird geöffnet.
+
+     Wenn die Schaltfläche **ERP Sync** inaktiv ist, müssen Sie unter der Registerkarte **Angebot/Sync** > **Sync** die Synchronisierung deaktivieren.
+
 3. In der Liste **ERP-Verbindung** müssen Sie die [Verbindung auswählen][2], die Sie für den Import nutzen möchten.
 4. Wählen Sie in der Liste **Aktortyp** die zu importierenden Objekte aus. Zum Beispiel Kunden, Lieferanten Einzelpersonen.
 5. Klicken Sie auf **OK**. Das Dialogfeld **ERP durchsuchen** wird angezeigt.
@@ -59,7 +59,6 @@ Wenn der Import endet, werden zwei Listen angezeigt:
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md
-[2]: ../../../learn/admin/index.md
+[2]: ../../../erp/admin/add-connection.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-erp-small.png

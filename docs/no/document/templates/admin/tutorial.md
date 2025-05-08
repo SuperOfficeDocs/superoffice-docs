@@ -4,8 +4,8 @@ title: Tilpass ordrebekreftelsesmal
 description: Tilpass ordrebekreftelsesmal
 keywords: dokumentmal, dokument, mal, tilbud, ordrebekreftelse
 author: Bergfrid Dias
-date: 07.31.2024
-version: 10
+date: 04.28.2025
+version: 10.5.4
 topic: tutorial
 language: no
 audience: settings
@@ -39,9 +39,7 @@ Vi skal:
 
 1. Sørg for at de nødvendige produktfeltene er synlige i dialogboksen **Konfigurer produkt**.
 
-* Bare felter merket som synlige i Innstillinger og vedlikehold vil vises i malen.
-
-* Se [Konfigurer produkter][4] for mer informasjon om å sette felt synlighet.
+* Bare [felter merket som synlige][4] i Innstillinger og vedlikehold vil vises i malen.
 
 ### Kopier malen som skal endres
 
@@ -153,7 +151,7 @@ Etter å ha definert grupperingsområdet, vil produktene også bli sortert innen
 [1]: link-template.md
 [2]: ../learn/create.md
 [3]: ../variables/index.md
-[4]: ../../../quote/learn/admin/product/configure.md
+[4]: ../../../sale/admin/quote/configure-product-fields.md
 [5]: ../../../sale/learn/create.md
 
 <!-- Referenced images -->

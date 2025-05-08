@@ -108,7 +108,7 @@ Values for *Competitor* and *Credited* are defined in Settings and maintenance.
 <!-- Referenced links -->
 [1]: update.md
 [2]: sales-guides.md
-[4]: ../../quote/learn/create.md
+[4]: quote/create.md
 [10]: ../../learn/basics/links.md
 [11]: ../../learn/basics/notes.md
 [12]: ../../custom-objects/learn/more-tab.md

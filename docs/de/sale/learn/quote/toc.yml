@@ -1,0 +1,13 @@
+items:
+- name: Überblick
+  href: index.md
+- name: Angebot erstellen und Produkte hinzufügen
+  href: create.md
+- name: Alternativen hinzufügen
+  href: add-alternative.md
+- name: Angebotsdokument erstellen
+  href: create-quote-document.md
+- name: Angebot genehmigen und senden
+  href: send.md
+- name: Auftrag erteilen
+  href: place-order.md

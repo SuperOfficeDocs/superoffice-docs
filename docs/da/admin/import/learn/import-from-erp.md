@@ -4,8 +4,8 @@ title: Import fra ERP
 description: Import fra ERP
 keywords: import, ERP
 author: Bergfrid Dias
-date: 03.31.2025
-version: 10.5
+date: 04.28.2025
+version: 10.5.4
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -20,11 +20,11 @@ Følg nedenstående trin for at importere aktører (kunder, leverandører og enk
 
 ## Valg af aktører, der skal importeres fra ERP-systemet
 
-> [!NOTE]
-> Hvis ERP-synkroniseringsikonet ![icon][img1] er inaktivt, skal du deaktivere synkronisering under fanen **Tilbud/Sync** > **Sync**.
-
 1. [!include[Open Import](includes/open-import.md)]
-2. Klik på ![icon][img1] ERP Sync-ikonet under **Vælg en importkilde**. Dialogboksen **Vælg ERP-link åbnes.**
+2. Klik på **ERP Sync** under **Vælg en importkilde**. Dialogboksen **Vælg ERP-link åbnes.**
+
+    Hvis ERP-synkroniseringsknappen er inaktivt, skal du deaktivere synkronisering under fanen **Tilbud/Sync** > **Sync**.
+
 3. I listen **ERP-link** [vælger du den forbindelse][2], du vil importere fra.
 4. Vælg på listen **Aktørtype** det, som du vil importere. For eksempel kunder, leverandører eller enkeltpersoner.
 5. Klik på **OK**. Dialogboksen **Søg i ERP** vises.
@@ -59,7 +59,6 @@ Over hver liste er der et link til udvalget, der indeholder de nye/opdaterede ak
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md
-[2]: ../../../learn/admin/index.md
+[2]: ../../../erp/admin/add-connection.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-erp-small.png

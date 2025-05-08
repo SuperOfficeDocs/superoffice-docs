@@ -4,8 +4,8 @@ title: import from ERP
 description: import from ERP
 keywords: import, ERP
 author: Bergfrid Dias
-date: 03.31.2025
-version: 10.5
+date: 04.28.2025
+version: 10.5.4
 topic: howto
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -20,11 +20,11 @@ Follow the steps below to import actors (customers, suppliers and individuals) f
 
 ## Select actors to be imported from the ERP system
 
-> [!NOTE]
-> If the ![icon][img1] ERP sync icon is inactive, you must turn off synchronization in **Quote/Sync** > **Sync** tab.
-
 1. [!include[Open Import](includes/open-import.md)]
-2. Click the ![icon][img1] ERP sync icon under **Select an import source**. The **Select ERP connection** dialog opens.
+2. Under **Select an import source**, select **ERP sync**. The **Select ERP connection** dialog opens.
+
+    If the **ERP sync** button is inactive, you must turn off synchronization in **Quote/Sync** > **Sync** tab.
+
 3. In the **ERP connection** list, [select the connection][2] you want to import from.
 4. In the **Actor type** list, select what you want to import. For example, customers, suppliers or individuals.
 5. Click **OK**. The **Search ERP** dialog appears.
@@ -59,7 +59,6 @@ Above each list is a link to the selection containing the new/updated actors.
 
 <!-- Referenced links -->
 [1]: ../../../search-options/learn/search-criteria.md
-[2]: ../../../learn/admin/index.md
+[2]: ../../../erp/admin/add-connection.md
 
 <!-- Referenced images -->
-[img1]: ../../../../media/icons/admin/import-erp-small.png

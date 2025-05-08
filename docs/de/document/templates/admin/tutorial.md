@@ -4,8 +4,8 @@ title: Bestellbestätigungsvorlage anpassen
 description: Bestellbestätigungsvorlage anpassen
 keywords: Angebot, Angebotsvorlage, Vorlage, Angebotsdokument, Bestellbestätigung
 author: Bergfrid Dias
-date: 07.31.2024
-version: 10
+date: 04.28.2025
+version: 10.5.4
 topic: tutorial
 language: de
 audience: settings
@@ -39,9 +39,7 @@ Wir werden:
 
 1. Überprüfen Sie, ob die erforderlichen Produktfelder im Dialogfeld **Produkt konfigurieren** sichtbar sind.
 
-* Nur Felder, die in Einstellungen und Verwaltung als sichtbar markiert sind, werden in der Vorlage angezeigt.
-
-* Siehe [Produkte konfigurieren][4] für weitere Informationen zum Einstellen der Feldsichtbarkeit.
+* Nur Felder, die in Einstellungen und Verwaltung [als sichtbar markiert sind][4], werden in der Vorlage angezeigt.
 
 ### Kopieren Sie die zu ändernde Vorlage
 
@@ -152,7 +150,7 @@ Produkte werden nun nach Produktnamen innerhalb jeder Alternative sortiert. Nach
 [1]: link-template.md
 [2]: ../learn/create.md
 [3]: ../variables/index.md
-[4]: ../../../quote/learn/admin/product/configure.md
+[4]: ../../../sale/admin/quote/configure-product-fields.md
 [5]: ../../../sale/learn/create.md
 
 <!-- Referenced images -->

@@ -1,0 +1,13 @@
+items:
+- name: Oversikt
+  href: index.md
+- name: Opprette tilbud og legge til produkter
+  href: create.md
+- name: Legge til alternativer
+  href: add-alternative.md
+- name: Opprette tilbudsdokument
+  href: create-quote-document.md
+- name: Godkjenn og send tilbud
+  href: send.md
+- name: Registrere ordre
+  href: place-order.md

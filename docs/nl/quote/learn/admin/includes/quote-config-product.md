@@ -1,2 +1,0 @@
-<!-- markdownlint-disable-file MD041 -->
-omdat sommige velden niet worden ingevuld door gebruikers, is het niet noodzakelijk om deze velden weer te geven in het dialoogvenster **Product** in SuperOffice CRM. Bijvoorbeeld productcategorie/groep, leverancierscode of specifieke extra velden. Het is echter belangrijk deze velden in te vullen wanneer u nieuwe producten maakt in het dialoogvenster **Product toevoegen/bewerken**.

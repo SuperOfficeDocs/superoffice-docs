@@ -4,8 +4,8 @@ title: Customize order confirmation template
 description: Customize order confirmation template
 keywords: document template, document, template, quote, order confirmation
 author: Bergfrid Dias
-date: 07.31.2024
-version: 10
+date: 04.28.2025
+version: 10.5.4
 topic: tutorial
 language: en
 audience: settings
@@ -39,9 +39,7 @@ We will:
 
 1. Verify that the required product fields are visible in the **Configure Product** dialog.
 
-* Only fields marked as visible in Settings and maintenance will appear in the template.
-
-* See [Configure products][4] for more details on setting field visibility.
+* Only [fields marked as visible][4] in Settings and maintenance will appear in the template.
 
 ### Copy the template to be modified
 
@@ -152,7 +150,7 @@ Products will now be sorted by product name within each alternative. After defin
 [1]: link-template.md
 [2]: ../learn/create.md
 [3]: ../variables/index.md
-[4]: ../../../quote/learn/admin/product/configure.md
+[4]: ../../../sale/admin/quote/configure-product-fields.md
 [5]: ../../../sale/learn/create.md
 
 <!-- Referenced images -->

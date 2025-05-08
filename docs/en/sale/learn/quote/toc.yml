@@ -1,0 +1,13 @@
+items:
+- name: Overview
+  href: index.md
+- name: Create a quote and add products
+  href: create.md
+- name: Add alternatives
+  href: add-alternative.md
+- name: Create quote document
+  href: create-quote-document.md
+- name: Approve and send quote
+  href: send.md
+- name: Place an order
+  href: place-order.md

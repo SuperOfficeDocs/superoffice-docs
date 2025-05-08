@@ -6,11 +6,11 @@ items:
 - name: For administrators
   topicHref: admin/index.md
 - name: Quote management
-  href: ../quote/index.md
+  topicHref: learn/quote/index.md
 - name: Sales intelligence (SAINT)
-  topicHref: saint/learn/index.md
+  topicHref: ../saint/learn/index.md
 - name: Technical reference
-  href: overview.md
+  href: dev/index.md
 - name: API options - sale
   items:
   - name: CRMScript

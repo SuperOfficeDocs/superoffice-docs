@@ -48,4 +48,4 @@ printLine(quote.GetSaleId().toString());
 <!-- Referenced links -->
 [1]: add-alternative.md
 [2]: add-quote-line.md
-[3]: ../../../../sale/overview.md#currency
+[3]: ../../../../sale/dev/index.md#currency

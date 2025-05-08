@@ -9,3 +9,12 @@ items:
   href: create-sales-guide.md
 - name: Verkaufsleitfaden bearbeiten oder deaktivieren
   href: edit-sales-guide.md
+- name: Angebote
+  href: quote/index.md
+  items:
+  - name: Preislisten und Produkte
+    href: quote/price-list-and-products.md
+  - name: Felder im Dialogfeld Produkt konfigurieren
+    href: quote/configure-product-fields.md
+  - name: ERP-Verbindung hinzufügen
+    href: quote/set-up-quote-connector.md

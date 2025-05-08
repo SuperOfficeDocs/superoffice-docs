@@ -4,8 +4,8 @@ title: Anpassa orderbekräftelsemall
 description: Anpassa orderbekräftelsemall
 keywords: dokumentmall, dokument, mall, offert, orderbekräftelse
 author: Bergfrid Dias
-date: 02.25.2025
-version: 10.5.2
+date: 04.28.2025
+version: 10.5.4
 topic: tutorial
 audience: settings
 audience_tooltip: Settings and maintenance
@@ -39,9 +39,7 @@ Vi kommer att:
 
 1. Kontrollera att de nödvändiga produktfälten är synliga i dialogrutan **Konfigurera produkt**.
 
-* Endast fält markerade som synliga i Inställningar och underhåll kommer att visas i mallen.
-
-* Se [Konfigurera produkter][4] för mer information om att ställa in fält synlighet.
+* Endast [fält markerade som synliga][4] i Inställningar och underhåll kommer att visas i mallen.
 
 ### Kopiera mallen som ska ändras
 
@@ -153,7 +151,7 @@ Efter att grupperingsområdet har definierats kommer produkterna också att sort
 [1]: link-template.md
 [2]: ../learn/create.md
 [3]: ../variables/index.md
-[4]: ../../../quote/learn/admin/product/configure.md
+[4]: ../../../sale/admin/quote/configure-product-fields.md
 [5]: ../../../sale/learn/create.md
 
 <!-- Referenced images -->
