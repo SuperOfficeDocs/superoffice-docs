@@ -1,22 +1,22 @@
 ---
 uid: api-rest-videomeeting-create
-title: Create a VideoMeeting
-description: Create a VideoMeeting
-keywords: flow, VideoMeeting, Create
+title: Create a video meeting
+description: Create a video meeting
+keywords: Video meeting, Create
 author: Eivind Fasting
-date: 07.05.2024
+date: 05.08.2024
 version: 10.5.5
 topic: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---
 
-# Create a VideoMeeting
+# Create a video meeting
 
-The **CreateVideoMeetingReservation Agent** REST endpoint returns a VideoMeeting Reservation.
+The **CreateVideoMeetingReservation Agent** REST endpoint returns a video meeting Reservation.
 
 > [!NOTE]
-> A user creating a VideoMeeting reservation needs to be configured[1] for VideoMeetings, and therefore a SystemUsers is *NOT* allowed to create or delete a VideoMeeting.
+> A user creating a video meeting needs to be [configured][1], and therefore a SystemUsers is *NOT* allowed to create or delete a video meeting.
 
 ## Request
 
@@ -37,7 +37,7 @@ Accept: application/json
 }
 ```
 
-### Key flow properties
+### Key properties
 
 | Property | Description |
 |---|---|

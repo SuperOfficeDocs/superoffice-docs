@@ -1,22 +1,22 @@
 ---
 uid: api-rest-videomeeting-delete
-title: Delete a VideoMeeting
-description: Delete a VideoMeeting
-keywords: flow, VideoMeeting, Delete
+title: Delete a video meeting
+description: Delete a video meeting
+keywords: Video meeting, Delete
 author: Eivind Fasting
-date: 07.05.2024
+date: 05.08.2024
 version: 10.5.5
 topic: howto
 audience: api
 audience_tooltip: SuperOffice APIs and database
 ---
 
-# Delete a VideoMeeting
+# Delete a video meeting
 
-The **DeleteVideoMeetingReservation Agent** REST endpoint removes/deletes a VideoMeeting reservation.
+The **DeleteVideoMeetingReservation Agent** REST endpoint removes/deletes a video meeting reservation.
 
 > [!NOTE]
-> A user creating a VideoMeeting reservation needs to be configured[1] for VideoMeetings, and therefore a SystemUsers is *NOT* allowed to create or delete a VideoMeeting.
+> A user creating a video meeting needs to be [configured][1], and therefore a SystemUsers is *NOT* allowed to create or delete a video meeting.
 
 ## Request
 
