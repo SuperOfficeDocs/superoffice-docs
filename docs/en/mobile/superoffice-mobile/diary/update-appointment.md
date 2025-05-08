@@ -1,87 +1,91 @@
 ---
 uid: mobile-crm-appointment-update
-title: Update appointment
-description: How to update appointments in SuperOffice Mobile CRM.
+title: Update follow-up
+description: How to update follow-ups in SuperOffice Mobile CRM.
+keywords: diary, follow-up, appointment, meeting
 author: Bergfrid Dias
-date: 07.25.2023
-keywords: diary, follow-up
+date: 05.31.2025
+version: 11
 topic: howto
-language: en
-version: 10
 client: mobile
+language: en
 ---
 
-# Update appointment
+# Update follow-up
 
-## What information can you change
+You can update follow-up you created, ones you are invited to, or those you manage in **secretary mode** (on behalf of others).
 
-* Appointments you are invited to: If you have accepted an invitation, you can edit only the alarm settings and whether you want to show yourself as busy or free.
+## What you can change
 
-* Appointments you have created: Here you have full edit rights.
-
-* Other people's appointments: You can edit appointments on behalf of other people. This is called secretary mode. In that case, you open the appointment in another person's calendar.
+| Scenario | Editable fields |
+|---|---|
+| Follow-ups you are invited to | You can only change **alarm settings** and **Show as** status (Busy/Free). |
+| Follow-ups you have created | You have full edit rights to change any details.  |
+| Other people's follow-ups | If you are in **secretary mode**, you can edit details for other people's follow-ups. |
 
 ## Steps
 
-1. Locate and open the appointment.
-2. Tap the **Edit** icon (<i class="ph ph-pencil-simple" aria-label="Edit icon"></i>) in the footer.
-3. Update the information as necessary.
-4. Tap **Save**.
+1. Locate and open the follow-up.
+1. Tap the **Edit** button (<i class="ph ph-pencil-simple" aria-hidden="true"></i>).
+1. Update the information as necessary.
+1. Tap **Save** to apply your changes.
 
-If this a repeating follow-up, only the current instance of it is updated, not future instances of the same appointment.
+If this a repeating follow-up, only the current instance of it is updated. Future instances remain unchanged.
 
-## Mark an appointment as completed
+## Mark a follow-up as completed
 
-1. Locate and open the appointment.
-2. Tap the toggle icon next to **Completed** in the **Details** section.
+You can mark a follow-up as completed in two ways:
+
+* **From a list view:** Swipe **left** and tap <i class="ph ph-check" aria-label="Checkmark"></i>.
+* **From the Appointment screen:** Toggle the switch in the **Completed** section.
 
 > [!TIP]
-> If you mark an appointment as completed by mistake, tap the toggle again to revert the status.
+> If you mark a follow-up as completed by mistake, tap the toggle again to revert the status.
 
-## Move appointment
+## Move follow-up
 
-An alternative to editing the start and end time of an appointment, you can drag and drop it to a new location in your schedule.
+An alternative to editing the start and end time of a follow-up, you can drag and drop it to a new location in your schedule.
 
-1. Click on the wanted appointment. It shows the appointment over the whole diary.
-
-    ![Diary with drag-and-drop -app-screen][img1]
-
-2. Push down and then drag it to the new time you want the appointment.
-
-    ![Diary with drag-and-drop -app-screen][img2]
-
-3. Release your finger when you are happy and the appointment is moved.
+1. Open the **Diary** and locate the follow-up.
+1. **Press and hold** the follow-up.
+1. **Drag** it to the desired time slot.
+1. Release to save the new time.
 
 You can of course also drag and drop inside the diary to create new follow-ups.
 
 ## Remove attendees/resources
 
-1. Locate and open the appointment.
-2. Tap the number in the **With** section showing invited attendees and resources.
-3. In the list of selected attendees, swipe left on the item you want to remove.
-4. Tap the **Task** icon and select **Remove participant**.
+If you need to remove attendees or resources from a follow-up:
+
+1. Locate and open the follow-up.
+1. Tap the **number** in the **With** section to view the participant list.
+1. Swipe **left** on the attendee or resource you want to remove.
+1. Tap the **Task** icon and select **Remove participant**.
 
 ## Set alarm
 
-To activate or update an alarm for the appointment:
+You can adjust the alarm settings to remind you ahead of time:
 
-1. Tap the **Edit** icon in the footer.
-2. Expand the **Details** section and tap the **Alarm** option.
-3. Choose **No alarm**, **When meeting starts**, or a specific lead time you want to be notified ahead of the appointment.
-4. Save.
+1. Tap <i class="ph ph-pencil-simple" aria-label="Edit icon"></i>.
+1. Expand the **Alarm** option in the **Details** section.
+1. Choose one of the following:
+    * **No alarm**
+    * **When meeting starts**
+    * A specific **lead time** before the follow-up
+1. Tap **Save** to confirm.
 
-## Cancel/delete an appointment
+## Cancel/delete a follow-up
 
-1. Locate and open the appointment.
-2. Tap the **Task** icon and select **Delete appointment**.
+1. Locate and open the follow-up.
+2. Tap <i class="ph ph-dots-three-circle-vertical" aria-label="Task menu"></i> and select **Delete appointment**.
 3. Select **Yes** to confirm.
 
-* If you own the appointment, all the invited attendees are notified of the cancellation.
-* If you are invited to the appointment, the appointment owner can see that you have rejected the invitation.
+* If you own the follow-up, all the invited attendees are notified of the cancellation.
+* If you are only an invitee, the follow-up owner is notified of your rejection.
 
 ## Related content
 
-* [Create appointment][1]
+* [Create follow-up][1]
 * [Invitations][2]
 
 <!-- Referenced links -->
@@ -89,5 +93,3 @@ To activate or update an alarm for the appointment:
 [2]: invitations.md
 
 <!-- Referenced images -->
-[img1]: ../../../../../release-notes/mobile/media/move-appointment-1.png
-[img2]: ../../../../../release-notes/mobile/media/move-appointment-2.png
