@@ -40,7 +40,7 @@ För att spara tid kan du återanvända en befintlig offert från en annan förs
 1. I dialogrutan **Skapa ny offert som baseras på en tidigare offert**:
 
     * Välj en försäljning från listan (måste innehålla en offert i samma valuta).
-    * Eller, börja skriva för att söka efter försäljningsnamn
+    * Eller, börja skriva för att söka efter försäljningsnamn.
 
 1. Klicka på **OK**. Offerten och alla dess alternativ kopieras till den aktuella försäljningen och visas i detaljkortet **Offert** med status **Utkast**.
 

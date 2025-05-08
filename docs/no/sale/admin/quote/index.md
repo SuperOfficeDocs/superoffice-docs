@@ -95,10 +95,10 @@ Brukes til å administrere [prislister og produkter][2] som lagres i SuperOffice
 
 Du kan:
 
-* Legge til, redigere og slette prislister
+* Legge til, redigere og slette prislister.
 * Legge til eller fjerne produkter i hver liste. Dobbeltklikk et produkt for å redigere det.
-* Konfigurere produktdetaljer som kostpris, mva og fortjeneste
-* Velge et miniatyrbilde som vises i tilbudsbildet
+* Konfigurere produktdetaljer som kostpris, mva og fortjeneste.
+* Velge et miniatyrbilde som vises i tilbudsbildet.
 
 ### Innstillinger
 

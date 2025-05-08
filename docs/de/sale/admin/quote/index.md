@@ -18,7 +18,7 @@ language: de
 In der Ansicht **Angebot/Sync** unter Einstellungen und Verwaltung konfigurieren Sie alles, was Sie für die Angebots- und Auftragserstellung in SuperOffice CRM benötigen.
 
 > [!NOTE]
-> Diese Funktion erfordert die Benutzerlizenz **Sales Premium** und die Lizenz **Developer Tools**.
+> Diese Funktion erfordert die Benutzerlizenz **Sales Premium**.
 
 ## Produkte und Preislisten
 
@@ -95,10 +95,10 @@ Zur Verwaltung der [Preislisten und Produkte][2], die in SuperOffice gespeichert
 
 Sie können:
 
-* Preislisten hinzufügen, bearbeiten oder löschen
-* Produkte zur Liste hinzufügen oder entfernen. Doppelklick zum Bearbeiten
-* Produktdetails wie Preis, MwSt. und Marge konfigurieren
-* Ein Produktbild zur Anzeige im Angebotsdialog auswählen
+* Preislisten hinzufügen, bearbeiten oder löschen.
+* Produkte zur Liste hinzufügen oder entfernen. Doppelklick zum Bearbeiten.
+* Produktdetails wie Preis, MwSt. und Marge konfigurieren.
+* Ein Produktbild zur Anzeige im Angebotsdialog auswählen.
 
 ### Einstellungen
 

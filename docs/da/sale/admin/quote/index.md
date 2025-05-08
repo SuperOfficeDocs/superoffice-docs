@@ -95,10 +95,10 @@ Bruges til at administrere [prislister og produkter][2], der gemmes i SuperOffic
 
 Du kan:
 
-* Tilføje, redigere og slette prislister
+* Tilføje, redigere og slette prislister.
 * Tilføje eller fjerne produkter i hver liste. Dobbeltklik på et produkt for at redigere det.
-* Konfigurere produktoplysninger såsom kostpris, moms og fortjeneste
-* Vælge miniaturebilleder til visning i tilbudsdialogen
+* Konfigurere produktoplysninger såsom kostpris, moms og fortjeneste.
+* Vælge miniaturebilleder til visning i tilbudsdialogen.
 
 ### Indstillinger
 

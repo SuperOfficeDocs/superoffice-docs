@@ -54,7 +54,7 @@ Sie können eine neue Alternative von Grund auf neu erstellen oder eine bestehen
 1. Wählen Sie eine der folgenden Optionen:
 
     * **Alternative umbenennen:** Geben Sie einen neuen Namen ein und drücken Sie **Enter**.
-    * **\[\[Alternative\]\] löschen:** Bestätigen Sie das Löschen im Dialogfeld.
+    * **\[Alternative\] löschen:** Bestätigen Sie das Löschen im Dialogfeld.
 
 > [!NOTE]
 > Das Symbol <i class="ph ph-trash" aria-hidden="true"></i> unterhalb der Produktliste löscht nur ausgewählte **Produktzeilen**, nicht ganze Alternativen.

@@ -40,7 +40,7 @@ To save time, you can reuse an existing quote from another sale that uses the sa
 1. In the **Create new quote by copying an existing quote** dialog:
 
     * Select a sale from the list (must contain a quote in the same currency).
-    * Or, start typing to search by sale name
+    * Or, start typing to search by sale name.
 
 1. Click **OK**. The quote and all its alternatives are copied to the current sale and shown in the **Quote** section tab with status **Draft**.
 

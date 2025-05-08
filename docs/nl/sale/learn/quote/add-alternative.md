@@ -54,7 +54,7 @@ U kunt een nieuw alternatief vanaf nul maken of een bestaand alternatief kopiër
 1. Kies een van de volgende opties:
 
     * **Alternatief hernoemen:** Voer een nieuwe naam in en druk op **Enter**.
-    * **\[\[alternatief\]\] verwijderen:** Bevestig de verwijdering in het dialoogvenster.
+    * **\[Alternatief\] verwijderen:** Bevestig de verwijdering in het dialoogvenster.
 
 > [!NOTE]
 > Het pictogram <i class="ph ph-trash" aria-hidden="true"></i> onder de productlijst verwijdert alleen geselecteerde **productregels**, niet het hele alternatief.

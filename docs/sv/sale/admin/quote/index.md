@@ -95,10 +95,10 @@ Används för att hantera [prislistor och produkter][2] som lagras i SuperOffice
 
 Du kan:
 
-* Skapa, redigera och ta bort prislistor
+* Skapa, redigera och ta bort prislistor.
 * Lägga till eller ta bort produkter från varje lista. Dubbelklicka för att redigera en produkt.
-* Ange produktinformation som kostnad, moms och marginal
-* Välja en produktbild som visas i offertdialogen
+* Ange produktinformation som kostnad, moms och marginal.
+* Välja en produktbild som visas i offertdialogen.
 
 ### Inställningar
 

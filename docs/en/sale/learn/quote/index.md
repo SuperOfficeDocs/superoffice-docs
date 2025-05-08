@@ -22,7 +22,7 @@ After a quote is accepted, you can generate an order with one click and send it 
 SuperOffice Quote supports the entire quote-to-order lifecycle. It helps you deliver new or updated quotes faster and speeds up the transition from a lead to a closed deal.
 
 > [!NOTE]
-> This feature requires the Sales Premium user plan and the Development Tools license.
+> This feature requires the Sales Premium user plan.
 
 ![Quote screen showing a quotation -screenshot][img1]
 
@@ -52,7 +52,7 @@ SuperOffice Quote supports the entire quote-to-order lifecycle. It helps you del
 |---|---|
 | <i class="ph ph-pencil" aria-label="Draft"></i> <i class="ph ph-calculator" aria-label="Draft – not Calculated"></i> | Draft / Draft – not calculated |
 | <i class="ph ph-question" aria-label="Needs approval"></i> | Needs approval |
-| <i class="ph ph-check-square" aria-label="Approved"></i> <i class="ph ph-x-square" aria-label="Not approved"></i> | Approved / Not approved |
+| <i class="ph ph-check-square" aria-label="Approved"></i> <i class="ph ph-x-square" aria-label="Rejected"></i> | Approved / Rejected |
 | <i class="ph ph-envelope-simple" aria-label="Sent"></i> | Sent |
 | <i class="ph ph-clock-counter-clockwise" aria-label="Sent – Expired"></i> | Sent – expired |
 | <i class="ph ph-currency-dollar" aria-hidden="true"></i> <i class="ph ph-check" aria-label="Sold"></i> | Sold |

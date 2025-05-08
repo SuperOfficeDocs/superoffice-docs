@@ -95,10 +95,10 @@ Voor het beheren van [prijslijsten en producten][2] die zijn opgeslagen in Super
 
 U kunt:
 
-* Prijslijsten toevoegen, bewerken en verwijderen
-* Producten toevoegen of verwijderen uit lijsten. Dubbelklik op een product om het te bewerken
-* Productdetails zoals kostprijs, btw en marge instellen
-* Een miniatuurafbeelding selecteren voor gebruik in het offertescherm
+* Prijslijsten toevoegen, bewerken en verwijderen.
+* Producten toevoegen of verwijderen uit lijsten. Dubbelklik op een product om het te bewerken.
+* Productdetails zoals kostprijs, btw en marge instellen.
+* Een miniatuurafbeelding selecteren voor gebruik in het offertescherm.
 
 ### Instellingen
 

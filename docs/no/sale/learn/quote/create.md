@@ -40,7 +40,7 @@ For å spare tid kan du gjenbruke et eksisterende tilbud fra et annet salg med s
 1. I dialogboksen **Opprett nytt tilbud basert på et tidligere tilbud**:
 
     * Velg et salg fra listen (må inneholde et tilbud med samme valuta).
-    * Eller, begynn å skrive for å søke etter salgsnavn
+    * Eller, begynn å skrive for å søke etter salgsnavn.
 
 1. Klikk på **OK**. Tilbudet og alle alternativene kopieres til det gjeldende salget og vises i detaljkortet **Tilbud** med statusen **Utkast**.
 
