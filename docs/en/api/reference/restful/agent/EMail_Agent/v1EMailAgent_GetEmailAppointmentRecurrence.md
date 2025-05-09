@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/EMail/GetEmailAppointmentRecurrence
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "MailItemId": 429
+  "MailItemId": 214
 }
 ```
 
@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 382,
-  "StartDate": "2022-12-15T13:14:00.313724+01:00",
-  "EndDate": "2007-11-15T13:14:00.313724+01:00",
-  "RecurrenceCounter": 408,
+  "RecurrenceId": 394,
+  "StartDate": "2014-03-24T16:32:38.9926739+01:00",
+  "EndDate": "2014-03-08T16:32:38.9926739+01:00",
+  "RecurrenceCounter": 305,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "1999-11-14T13:14:00.313724+01:00",
-      "IsConflict": true,
-      "Description": "Re-contextualized mobile strategy",
-      "DescriptionStyleHint": "Exclusive didactic orchestration",
-      "Tooltip": "non"
+      "Date": "2008-10-04T16:32:38.9926739+02:00",
+      "IsConflict": false,
+      "Description": "Synergized explicit productivity",
+      "DescriptionStyleHint": "Programmable 4th generation infrastructure",
+      "Tooltip": "ab"
     },
     {
-      "Date": "1999-11-14T13:14:00.313724+01:00",
-      "IsConflict": true,
-      "Description": "Re-contextualized mobile strategy",
-      "DescriptionStyleHint": "Exclusive didactic orchestration",
-      "Tooltip": "non"
+      "Date": "2008-10-04T16:32:38.9926739+02:00",
+      "IsConflict": false,
+      "Description": "Synergized explicit productivity",
+      "DescriptionStyleHint": "Programmable 4th generation infrastructure",
+      "Tooltip": "ab"
     }
   ],
-  "IsRecurrence": true
+  "IsRecurrence": false
 }
 ```

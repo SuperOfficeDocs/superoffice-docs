@@ -75,8 +75,8 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "corporis",
-  "Instance": "ut"
+  "Application": "quasi",
+  "Instance": "placeat"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"rerum"
+"velit"
 ```

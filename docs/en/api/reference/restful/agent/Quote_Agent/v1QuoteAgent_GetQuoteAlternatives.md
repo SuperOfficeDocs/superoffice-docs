@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteAlternatives
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 515
+  "QuoteVersionId": 483
 }
 ```
 
@@ -111,35 +111,35 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteAlternativeId": 622,
-    "ERPQuoteAlternativeKey": "tenetur",
-    "QuoteVersionId": 807,
-    "Name": "Grimes, Aufderhar and Bernhard",
-    "Description": "Phased secondary knowledge user",
+    "QuoteAlternativeId": 764,
+    "ERPQuoteAlternativeKey": "dolores",
+    "QuoteVersionId": 573,
+    "Name": "Lind, Rath and Rodriguez",
+    "Description": "Enhanced optimal array",
     "Status": "Error",
     "Reason": "",
-    "ERPDiscountPercent": 23787.059999999998,
-    "ERPDiscountAmount": 25886.84,
-    "DiscountPercent": 14388.194,
-    "DiscountAmount": 6973.15,
+    "ERPDiscountPercent": 19574.964,
+    "ERPDiscountAmount": 13219.212,
+    "DiscountPercent": 19725.396,
+    "DiscountAmount": 12341.692,
     "UserValueOverride": "DiscountAmount",
-    "VATInfo": "et",
-    "VAT": 17331.02,
-    "EarningPercent": 1585.8039999999999,
-    "EarningAmount": 17478.318,
-    "SubTotal": 2635.694,
-    "TotalPrice": 23881.079999999998,
-    "ExtraField1": "eos",
-    "ExtraField2": "consectetur",
-    "ExtraField3": "totam",
-    "ExtraField4": "pariatur",
-    "ExtraField5": "doloremque",
+    "VATInfo": "maiores",
+    "VAT": 13002.966,
+    "EarningPercent": 15184.23,
+    "EarningAmount": 3369.0499999999997,
+    "SubTotal": 21853.381999999998,
+    "TotalPrice": 6506.184,
+    "ExtraField1": "iste",
+    "ExtraField2": "molestiae",
+    "ExtraField3": "perferendis",
+    "ExtraField4": "quia",
+    "ExtraField5": "exercitationem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 660
+        "FieldLength": 545
       }
     }
   }

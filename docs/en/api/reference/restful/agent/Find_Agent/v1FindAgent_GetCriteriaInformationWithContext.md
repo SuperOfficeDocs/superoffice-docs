@@ -82,18 +82,18 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformationWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ea",
-  "ProviderName": "Ward, Mertz and Bartoletti",
-  "StorageKey": "laborum",
+  "StorageType": "sint",
+  "ProviderName": "Rempel, Kilback and Christiansen",
+  "StorageKey": "aut",
   "StaticColumns": [
-    "et",
-    "soluta"
+    "beatae",
+    "nemo"
   ],
-  "Context": "quam"
+  "Context": "non"
 }
 ```
 
@@ -106,15 +106,15 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Maggio, Padberg and Sipes",
-      "Operator": "dignissimos",
+      "Name": "Carter Inc and Sons",
+      "Operator": "et",
       "Values": [
-        "quisquam",
-        "quia"
+        "aut",
+        "qui"
       ],
       "DisplayValues": [
-        "deserunt",
-        "omnis"
+        "accusantium",
+        "et"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -122,65 +122,65 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 717,
+      "InterParenthesis": 180,
       "InterOperator": "And",
-      "UniqueHash": 323
+      "UniqueHash": 929
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Gleason LLC",
-      "DisplayTooltip": "et",
-      "DisplayType": "dolorem",
-      "CanOrderBy": true,
-      "Name": "Ebert-Wisozk",
-      "CanRestrictBy": false,
-      "RestrictionType": "dignissimos",
-      "RestrictionListName": "Kuhlman, Hartmann and Cole",
-      "IsVisible": false,
-      "ExtraInfo": "qui",
-      "Width": "vel",
-      "IconHint": "et",
-      "HeadingIconHint": "aliquid"
+      "DisplayName": "Yost-Kassulke",
+      "DisplayTooltip": "deleniti",
+      "DisplayType": "vel",
+      "CanOrderBy": false,
+      "Name": "Kutch Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "reiciendis",
+      "RestrictionListName": "Wehner Group",
+      "IsVisible": true,
+      "ExtraInfo": "illum",
+      "Width": "laborum",
+      "IconHint": "minima",
+      "HeadingIconHint": "voluptas"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Kutch LLC",
-      "PrimaryKey": 543,
+      "EntityName": "Koelpin Inc and Sons",
+      "PrimaryKey": 910,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "officiis",
-          "TooltipHint": "quos",
-          "LinkHint": "culpa"
+          "DisplayValue": "at",
+          "TooltipHint": "tempore",
+          "LinkHint": "aperiam"
         }
       },
-      "LinkHint": "incidunt",
-      "StyleHint": "placeat",
+      "LinkHint": "fugiat",
+      "StyleHint": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 463
+          "FieldType": "System.Int32",
+          "FieldLength": 355
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Nitzsche Inc and Sons",
-      "Description": "Synchronised maximized array",
-      "Rank": 136,
+      "Name": "Wisoky-Wolff",
+      "Description": "Networked global projection",
+      "Rank": 40,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Nitzsche Inc and Sons",
-      "Description": "Synchronised maximized array",
-      "Rank": 136,
+      "Name": "Wisoky-Wolff",
+      "Description": "Networked global projection",
+      "Rank": 40,
       "Restrictions": [
         {},
         {}
@@ -192,7 +192,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 179
+      "FieldLength": 928
     }
   }
 }

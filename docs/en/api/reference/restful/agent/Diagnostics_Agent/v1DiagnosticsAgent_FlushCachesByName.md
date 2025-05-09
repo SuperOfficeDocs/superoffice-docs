@@ -64,13 +64,13 @@ No Content
 POST /api/v1/Agents/Diagnostics/FlushCachesByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "CacheNames": [
-    "Nolan LLC",
-    "Spinka LLC"
+    "Christiansen LLC",
+    "Walker-Cruickshank"
   ]
 }
 ```

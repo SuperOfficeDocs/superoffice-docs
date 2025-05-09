@@ -87,33 +87,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 933,
-  "PlainMessage": "et",
-  "HtmlMessage": "omnis",
-  "SmsMessage": "consequuntur",
-  "Description": "Networked dedicated hardware",
-  "Subject": "voluptatem",
-  "FolderId": 192,
-  "HeaderField": "cumque",
-  "Design": "consequuntur",
+  "ShipmentMessageId": 701,
+  "PlainMessage": "quia",
+  "HtmlMessage": "nam",
+  "SmsMessage": "ut",
+  "Description": "Fully-configurable value-added open system",
+  "Subject": "quo",
+  "FolderId": 159,
+  "HeaderField": "atque",
+  "Design": "optio",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Innovative 24/7 data-warehouse",
-  "AccessKey": "accusantium",
-  "DocumentMessage": 229,
-  "Registered": "2007-10-16T13:14:09.1966452+02:00",
-  "RegisteredAssociateId": 379,
-  "Updated": "2015-04-19T13:14:09.1966452+02:00",
-  "UpdatedAssociateId": 928,
-  "UpdatedCount": 329,
+  "LongDescription": "Customer-focused next generation data-warehouse",
+  "AccessKey": "ullam",
+  "DocumentMessage": 995,
+  "Registered": "2011-12-27T16:32:48.1025764+01:00",
+  "RegisteredAssociateId": 959,
+  "Updated": "2004-07-10T16:32:48.1025764+02:00",
+  "UpdatedAssociateId": 953,
+  "UpdatedCount": 244,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 210
+      "FieldLength": 25
     }
   }
 }

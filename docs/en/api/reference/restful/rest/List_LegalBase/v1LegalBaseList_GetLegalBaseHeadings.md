@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 898,
-    "Name": "Little, O'Connell and Williamson",
-    "Tooltip": "quidem",
+    "HeadingId": 949,
+    "Name": "Wuckert, Daugherty and Rodriguez",
+    "Tooltip": "error",
     "Deleted": false,
-    "Rank": 143,
-    "UdListDefinitionId": 911,
+    "Rank": 415,
+    "UdListDefinitionId": 92,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 621
+        "FieldType": "System.String",
+        "FieldLength": 908
       }
     }
   }

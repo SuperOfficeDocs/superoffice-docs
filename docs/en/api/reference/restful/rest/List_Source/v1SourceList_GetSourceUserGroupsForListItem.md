@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Source/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 358,
-    "Name": "Stiedemann, Purdy and Gaylord",
-    "ToolTip": "Perspiciatis nulla facilis dolorem enim.",
-    "Deleted": true,
-    "Rank": 164,
-    "Type": "quos",
-    "ColorBlock": 58,
-    "IconHint": "quidem",
-    "Selected": false,
-    "LastChanged": "1999-02-09T13:14:10.0879174+01:00",
+    "Id": 314,
+    "Name": "Green, Reinger and Waelchi",
+    "ToolTip": "Aut perspiciatis necessitatibus consequatur quia nobis veritatis.",
+    "Deleted": false,
+    "Rank": 593,
+    "Type": "voluptatibus",
+    "ColorBlock": 797,
+    "IconHint": "repudiandae",
+    "Selected": true,
+    "LastChanged": "2016-02-06T16:32:48.9775807+01:00",
     "ChildItems": [
       {
-        "Id": 232,
-        "Name": "Cassin LLC",
-        "ToolTip": "Voluptas tempore deserunt ut et est.",
+        "Id": 596,
+        "Name": "Pfeffer Group",
+        "ToolTip": "Quia quis rem.",
         "Deleted": true,
-        "Rank": 544,
-        "Type": "dignissimos",
-        "ColorBlock": 882,
-        "IconHint": "temporibus",
-        "Selected": true,
-        "LastChanged": "2002-03-25T13:14:10.0879174+01:00",
+        "Rank": 327,
+        "Type": "adipisci",
+        "ColorBlock": 113,
+        "IconHint": "incidunt",
+        "Selected": false,
+        "LastChanged": "2018-08-04T16:32:48.9775807+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatibus",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "odit",
         "Hidden": false,
-        "FullName": "Oral Stark",
+        "FullName": "Nayeli Schowalter DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 107
+            "FieldLength": 295
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "consequuntur",
+    "ExtraInfo": "optio",
+    "StyleHint": "et",
     "Hidden": true,
-    "FullName": "Precious Bogisich",
+    "FullName": "Wanda Kuphal",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 262
+        "FieldLength": 503
       }
     }
   }

@@ -105,7 +105,7 @@ OK
 POST /api/v1/Agents/Selection/CreateTemporaryContactSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -115,70 +115,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Monitored multi-tasking strategy",
-  "Postit": "assumenda",
+  "Description": "Phased 6th generation concept",
+  "Postit": "dolorum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 158,
-  "IncludePerson": 515,
+  "GroupIdx": 550,
+  "IncludePerson": 205,
   "MemberCount": 99.99,
-  "Name": "White-Corwin",
-  "PostitTextId": 66,
-  "CreatedDate": "1999-07-24T13:14:01.3162978+02:00",
-  "SelectionId": 627,
-  "SoundEx": "nam",
-  "Source": 202,
-  "TextId": 614,
-  "UpdatedDate": "2007-01-10T13:14:01.3162978+01:00",
-  "UpdatedCount": 320,
-  "Visibility": 190,
+  "Name": "Kuhn LLC",
+  "PostitTextId": 458,
+  "CreatedDate": "2008-04-03T16:32:39.914583+02:00",
+  "SelectionId": 545,
+  "SoundEx": "quis",
+  "Source": 661,
+  "TextId": 232,
+  "UpdatedDate": "2000-10-08T16:32:39.914583+02:00",
+  "UpdatedCount": 946,
+  "Visibility": 342,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 443,
-  "TargetTableName": "Kuvalis Inc and Sons",
+  "CompanyUnique": false,
+  "TargetTableNumber": 157,
+  "TargetTableName": "Steuber, Hand and Metz",
   "Completed": false,
-  "LeftSelectionId": 782,
-  "RightSelectionId": 285,
+  "LeftSelectionId": 675,
+  "RightSelectionId": 649,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Gulgowski-Price",
-  "ShadowProviderName": "Jakubowski, Sanford and Stehr",
-  "ChartKey": "sed",
-  "LastLoaded": "2014-01-28T13:14:01.3162978+01:00",
+  "MainProviderName": "Stroman LLC",
+  "ShadowProviderName": "Bayer, Muller and Gottlieb",
+  "ChartKey": "eius",
+  "LastLoaded": "2006-07-08T16:32:39.914583+02:00",
   "LastLoadedBy": 215,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-12-18T13:14:01.3162978+01:00",
-  "LastMembershipChangeBy": 913,
+  "LastMembershipChange": "1998-06-13T16:32:39.914583+02:00",
+  "LastMembershipChangeBy": 262,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "sed",
-  "MemberTabHeading": "qui",
-  "MailingsProviderName": "Marquardt LLC",
-  "DashboardTileDefinitionId": 437,
+  "MainHeading": "ad",
+  "MemberTabHeading": "maxime",
+  "MailingsProviderName": "Rau, Bruen and Waters",
+  "DashboardTileDefinitionId": 930,
   "VisibleFor": [
     {
-      "VisibleId": 925,
+      "VisibleId": 579,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 282
+          "FieldLength": 754
         }
       }
     },
     {
-      "VisibleId": 925,
+      "VisibleId": 579,
       "Visibility": "All",
-      "DisplayValue": "deleniti",
+      "DisplayValue": "dolor",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 282
+          "FieldLength": 754
         }
       }
     }
@@ -187,8 +187,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 184
+      "FieldType": "System.Int32",
+      "FieldLength": 689
     }
   }
 }

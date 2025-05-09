@@ -26,7 +26,7 @@ Gets a WorkflowGoal object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=78
+POST /api/v1/Agents/Workflow/GetWorkflowGoal?workflowGoalId=51
 POST /api/v1/Agents/Workflow/GetWorkflowGoal?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 846,
-  "WorkflowId": 619,
+  "WorkflowGoalId": 633,
+  "WorkflowId": 666,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "VonRueden, Cartwright and Stark",
-      "Description": "Open-source reciprocal adapter",
-      "Rank": 529,
+      "Name": "Harber Inc and Sons",
+      "Description": "Persevering tertiary customer loyalty",
+      "Rank": 100,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "VonRueden, Cartwright and Stark",
-      "Description": "Open-source reciprocal adapter",
-      "Rank": 529,
+      "Name": "Harber Inc and Sons",
+      "Description": "Persevering tertiary customer loyalty",
+      "Rank": 100,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 545
     }
   }
 }

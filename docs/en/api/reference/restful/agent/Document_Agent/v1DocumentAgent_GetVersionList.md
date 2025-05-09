@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 800
+  "DocumentId": 624
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "laborum",
-    "DocumentId": 677,
-    "VersionId": "dolores",
-    "CheckedInDate": "2003-11-04T13:14:00.2199679+01:00",
-    "CheckedInByName": "Green, Brakus and Moen",
-    "CheckedInByAssociateId": 111,
-    "Description": "Pre-emptive background success",
-    "DisplayText": "ea",
+    "ExternalReference": "et",
+    "DocumentId": 149,
+    "VersionId": "harum",
+    "CheckedInDate": "2003-02-01T16:32:38.8989463+01:00",
+    "CheckedInByName": "Becker-Olson",
+    "CheckedInByAssociateId": 841,
+    "Description": "Secured tertiary strategy",
+    "DisplayText": "sit",
     "ExtraFields": [
-      "et",
-      "deserunt"
+      "sed",
+      "voluptatum"
     ]
   }
 ]

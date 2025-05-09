@@ -122,18 +122,18 @@ Webhook  updated.
 PATCH /api/v1/Webhook/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "provident",
+    "path": "eos",
     "value": {}
   },
   {
     "op": "add",
-    "path": "provident",
+    "path": "eos",
     "value": {}
   }
 ]
@@ -146,28 +146,28 @@ HTTP/1.1 200 Webhook  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 798,
-  "Name": "McGlynn, VonRueden and Hirthe",
+  "WebhookId": 886,
+  "Name": "Wisoky-Wunsch",
   "Events": [
-    "ut",
-    "sit"
+    "eum",
+    "adipisci"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "quod",
+  "Secret": "suscipit",
   "State": "Active",
-  "Type": "sint",
+  "Type": "velit",
   "Headers": {
-    "Headers1": "eligendi",
-    "Headers2": "repellat"
+    "Headers1": "quis",
+    "Headers2": "atque"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2019-03-11T13:14:09.5717594+01:00",
+  "Registered": "2020-12-10T16:32:48.4776996+01:00",
   "RegisteredAssociate": null,
-  "Updated": "2019-01-14T13:14:09.5717594+01:00",
+  "Updated": "2018-10-29T16:32:48.4776996+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "andy@labadie.us",
+  "ErrorsEmail": "nyah@larkin.co.uk",
   "_Links": {
     "Self": "https://www.example.com/api/v1/project/321",
     "Archive": "https://www.example.com/api/v1/project"

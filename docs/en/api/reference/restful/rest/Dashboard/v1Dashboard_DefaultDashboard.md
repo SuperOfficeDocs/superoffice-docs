@@ -61,7 +61,7 @@ OK
 GET /api/v1/Dashboard/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 423,
-  "AssociateId": 926,
-  "Caption": "iste",
+  "DashboardId": 618,
+  "AssociateId": 939,
+  "Caption": "nihil",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 98,
-      "Caption": "aperiam",
-      "Description": "Synergized zero tolerance neural-net",
-      "ChartName": "Bergstrom LLC",
-      "ChartId": "ullam",
+      "DashboardTileId": 816,
+      "Caption": "quae",
+      "Description": "Quality-focused executive framework",
+      "ChartName": "Kohler Group",
+      "ChartId": "eum",
       "IsDefault": true,
-      "AssociateId": 437,
-      "GroupId": 967,
-      "SelectionId": 511,
-      "Config": "delectus",
+      "AssociateId": 85,
+      "GroupId": 149,
+      "SelectionId": 259,
+      "Config": "qui",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 347
+          "FieldLength": 800
         }
       }
     }
@@ -111,8 +111,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 829
+      "FieldType": "System.Int32",
+      "FieldLength": 17
     }
   }
 }

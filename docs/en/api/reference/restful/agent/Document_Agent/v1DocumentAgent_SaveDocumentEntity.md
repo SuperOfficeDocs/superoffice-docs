@@ -129,77 +129,77 @@ OK
 POST /api/v1/Agents/Document/SaveDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 923,
+  "DocumentId": 773,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "repellat",
-  "Header": "saepe",
-  "Name": "Lueilwitz, Anderson and Brekke",
-  "OurRef": "libero",
-  "YourRef": "id",
-  "CreatedDate": "2012-11-26T13:14:00.1257184+01:00",
-  "UpdatedDate": "2014-02-09T13:14:00.1257184+01:00",
-  "Description": "Polarised directional database",
+  "Attention": "ab",
+  "Header": "molestias",
+  "Name": "Thiel LLC",
+  "OurRef": "illum",
+  "YourRef": "minus",
+  "CreatedDate": "2015-10-24T16:32:38.8052182+02:00",
+  "UpdatedDate": "2005-10-01T16:32:38.8052182+02:00",
+  "Description": "Pre-emptive holistic synergy",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2008-04-18T13:14:00.1257184+02:00",
-  "ExternalRef": "atque",
+  "Date": "2007-11-20T16:32:38.8052182+01:00",
+  "ExternalRef": "nulla",
   "Completed": "Completed",
-  "ActiveLinks": 477,
+  "ActiveLinks": 121,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Beier Group",
-      "Id": 915,
-      "Description": "Visionary intermediate capability",
-      "ExtraInfo": "nostrum",
-      "LinkId": 475
+      "EntityName": "Bode-Muller",
+      "Id": 478,
+      "Description": "Innovative secondary flexibility",
+      "ExtraInfo": "alias",
+      "LinkId": 52
     },
     {
-      "EntityName": "Beier Group",
-      "Id": 915,
-      "Description": "Visionary intermediate capability",
-      "ExtraInfo": "nostrum",
-      "LinkId": 475
+      "EntityName": "Bode-Muller",
+      "Id": 478,
+      "Description": "Innovative secondary flexibility",
+      "ExtraInfo": "alias",
+      "LinkId": 52
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 230,
-  "Snum": 789,
+  "SuggestedDocumentId": 429,
+  "Snum": 68,
   "UserDefinedFields": {
-    "SuperOffice:1": "Miss Glennie Melody Murphy",
-    "SuperOffice:2": "Amalia Hintz"
+    "SuperOffice:1": "Zack Graham",
+    "SuperOffice:2": "Amparo Langosh"
   },
   "ExtraFields": {
-    "ExtraFields1": "pariatur",
-    "ExtraFields2": "maiores"
+    "ExtraFields1": "aut",
+    "ExtraFields2": "veritatis"
   },
   "CustomFields": {
-    "CustomFields1": "repudiandae",
-    "CustomFields2": "quam"
+    "CustomFields1": "et",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "2009-04-16T13:14:00.1257184+02:00",
-  "PublishTo": "2004-07-20T13:14:00.1257184+02:00",
-  "PublishFrom": "2019-06-28T13:14:00.1257184+02:00",
+  "PublishEventDate": "2003-11-21T16:32:38.8052182+01:00",
+  "PublishTo": "2005-10-17T16:32:38.8052182+02:00",
+  "PublishFrom": "2023-10-17T16:32:38.8052182+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 367,
+      "VisibleId": 816,
       "Visibility": "All",
-      "DisplayValue": "quod"
+      "DisplayValue": "nostrum"
     },
     {
-      "VisibleId": 367,
+      "VisibleId": 816,
       "Visibility": "All",
-      "DisplayValue": "quod"
+      "DisplayValue": "nostrum"
     }
   ]
 }
@@ -212,88 +212,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 603,
+  "DocumentId": 27,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "non",
-  "Header": "quis",
-  "Name": "Altenwerth, Stokes and Bartell",
-  "OurRef": "nulla",
-  "YourRef": "sint",
-  "CreatedDate": "2006-10-27T13:14:00.1413442+02:00",
-  "UpdatedDate": "2013-06-12T13:14:00.1413442+02:00",
-  "Description": "Face to face zero defect service-desk",
+  "Attention": "repudiandae",
+  "Header": "consectetur",
+  "Name": "Kris LLC",
+  "OurRef": "magnam",
+  "YourRef": "tenetur",
+  "CreatedDate": "2019-05-23T16:32:38.8052182+02:00",
+  "UpdatedDate": "2000-08-08T16:32:38.8052182+02:00",
+  "Description": "Integrated motivating circuit",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2021-12-17T13:14:00.1413442+01:00",
-  "ExternalRef": "ut",
+  "Date": "2011-03-05T16:32:38.8208385+01:00",
+  "ExternalRef": "molestiae",
   "Completed": "Completed",
-  "ActiveLinks": 321,
+  "ActiveLinks": 602,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Huels Inc and Sons",
-      "Id": 910,
-      "Description": "Cloned 4th generation utilisation",
-      "ExtraInfo": "voluptatem",
-      "LinkId": 378,
+      "EntityName": "Lowe, Barrows and Cruickshank",
+      "Id": 280,
+      "Description": "Focused attitude-oriented open architecture",
+      "ExtraInfo": "molestiae",
+      "LinkId": 854,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 507
+          "FieldLength": 430
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 362,
-  "Snum": 409,
+  "SuggestedDocumentId": 843,
+  "Snum": 388,
   "UserDefinedFields": {
-    "SuperOffice:1": "Jolie Nikita Goldner IV",
-    "SuperOffice:2": "1815401853"
+    "SuperOffice:1": "Dr. Buster Johnathan Reichert I",
+    "SuperOffice:2": "Myrtis Blanda"
   },
   "ExtraFields": {
-    "ExtraFields1": "voluptas",
-    "ExtraFields2": "est"
+    "ExtraFields1": "exercitationem",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "corrupti",
-    "CustomFields2": "et"
+    "CustomFields1": "aliquam",
+    "CustomFields2": "omnis"
   },
-  "PublishEventDate": "1999-06-09T13:14:00.1413442+02:00",
-  "PublishTo": "2004-01-06T13:14:00.1413442+01:00",
-  "PublishFrom": "2006-02-19T13:14:00.1413442+01:00",
+  "PublishEventDate": "2004-03-31T16:32:38.8208385+02:00",
+  "PublishTo": "2021-11-17T16:32:38.8208385+01:00",
+  "PublishFrom": "2005-04-10T16:32:38.8208385+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 534,
+      "VisibleId": 851,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 558
+          "FieldLength": 918
         }
       }
     },
     {
-      "VisibleId": 534,
+      "VisibleId": 851,
       "Visibility": "All",
-      "DisplayValue": "sequi",
+      "DisplayValue": "rem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 558
+          "FieldLength": 918
         }
       }
     }
@@ -302,8 +302,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldType": "System.String",
+      "FieldLength": 136
     }
   }
 }

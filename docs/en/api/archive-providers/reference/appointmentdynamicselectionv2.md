@@ -51,6 +51,7 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 |endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |priority|listAny|Priority: Displays the priority of the activity| x |
 |alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |intention|listAny|Intention: Displays the intention of the follow-up type| x |
@@ -120,11 +121,11 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 |contact/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
 |contact/postAddress/line2|string|Postal address - Address 2: Second line of the address| x |
 |contact/postAddress/line3|string|Postal address - Address 3: Third line of the address| x |
-|contact/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/postAddress/county|string|Postal address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |contact/postAddress/city|string|Postal address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/postAddress/zip|string|Postal address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/postAddress/state|string|Postal address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
@@ -224,11 +225,11 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
 |contact/NumberOfNotCompletedActivities|int|Number of non-completed activities|  |
 |contact/NumberOfNotCompletedActivitiesInPeriod|int|Number of non-completed activities in last 90 days|  |
-|contact/LastActivity|date|Date of last activity|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/LastActivity|date|Date of last activity|  |
 |contact/LastCompletedActivity|date|Date of last completed activity|  |
 |contact/LastDoByActivity|date|Date of last non-completed activity|  |
 |contact/NumberOfSales|int|Number of sales|  |
@@ -328,11 +329,11 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 |person/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |person/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |person/personUrl/URLAddress|string|URL| x |
-|person/personUrl/URLDescription|string|Description| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personUrl/URLDescription|string|Description| x |
 |person/personAddress/addressId|int|Contact address - Address ID: Database ID for the address record| x |
 |person/personAddress/line1|string|Contact address - Address 1: First line of the address| x |
 |person/personAddress/line2|string|Contact address - Address 2: Second line of the address| x |
@@ -432,11 +433,11 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 |person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/correspondingAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/correspondingAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|person/correspondingAssociate/associateDbId|associate|ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/associateDbId|associate|ID| x |
 |person/correspondingAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |person/correspondingAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |person/correspondingAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
@@ -536,11 +537,11 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
 |project/projectAssociate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |project/projectAssociate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
-|project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
 |project/projectAssociate/portraitThumbnail| *None* |Person image: Person image|  |
 |project/projectAssociate/otherGroups|userGroup|Other groups: Other groups|  |
 |project/projectAssociate/userName|string|User name: User name| x |
@@ -615,9 +616,12 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -637,14 +641,14 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 |sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
 |sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|sale/salePublish/publishedBy| *None* |Published by: Published by|  |
-|sale/associate/firstName|string|First name: Displays the contact's first name| x |
-|sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+|sale/salePublish/publishedBy| *None* |Published by: Published by|  |
+|sale/associate/firstName|string|First name: Displays the contact's first name| x |
+|sale/associate/lastName|string|Last name: Displays the contact's last name| x |
 |sale/associate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |sale/associate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |sale/associate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
@@ -728,7 +732,7 @@ Appointment selection archive with OR-able selection groups. Each group is repre
 ## Sample
 
 ```http!
-GET /api/v1/archive/AppointmentDynamicSelectionV2?$select=person/personUdef/SuperOffice:6,person/personAssociate/ejStatus,project/projectAssociate/locationAddress,project/saintSaleStatus
+GET /api/v1/archive/AppointmentDynamicSelectionV2?$select=who,appointmentPublish/publishedBy,person/personAssociate/firstName,person/legalBaseStore,project/projectAssociate/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/ChangeFieldType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 294,
-  "ColumnId": 376,
-  "FieldDefault": "quos",
-  "FieldHeight": 605,
-  "FieldLabel": "officiis",
-  "FieldLeft": 559,
-  "FieldTop": 774,
+  "UDefFieldId": 326,
+  "ColumnId": 22,
+  "FieldDefault": "sunt",
+  "FieldHeight": 264,
+  "FieldLabel": "et",
+  "FieldLeft": 779,
+  "FieldTop": 822,
   "FieldType": "Checkbox",
-  "FieldWidth": 99,
-  "FormatMask": "culpa",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 97,
-  "LabelLeft": 534,
-  "LabelTop": 778,
-  "LabelWidth": 939,
-  "LastVersionId": 211,
-  "ListTableId": 204,
-  "IsMandatory": false,
+  "FieldWidth": 97,
+  "FormatMask": "nisi",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 458,
+  "LabelLeft": 153,
+  "LabelTop": 105,
+  "LabelWidth": 535,
+  "LastVersionId": 445,
+  "ListTableId": 402,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 801,
-  "ProgId": "quod",
+  "Page1LineNo": 722,
+  "ProgId": "et",
   "IsReadOnly": false,
-  "ShortLabel": "aliquid",
-  "TabOrder": 427,
-  "TextLength": 52,
-  "Tooltip": "saepe",
-  "UdefIdentity": 967,
-  "UDListDefinitionId": 529,
+  "ShortLabel": "molestias",
+  "TabOrder": 248,
+  "TextLength": 744,
+  "Tooltip": "vero",
+  "UdefIdentity": 573,
+  "UDListDefinitionId": 968,
   "Justification": "Center",
-  "Version": 18,
-  "TemplateVariableName": "Lynch LLC",
+  "Version": 300,
+  "TemplateVariableName": "Sawayn-Hauck",
   "HasBeenPublished": false,
-  "MdoListName": "Legros-Dickens",
+  "MdoListName": "Collins, Crist and Crooks",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldLength": 279
     }
   }
 }

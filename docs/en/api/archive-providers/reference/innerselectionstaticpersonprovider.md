@@ -484,6 +484,9 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/personId|int|Contact ID: Database ID of the contact row| x |
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
+|request/ticketStatusId|int|Status ID: Status| x |
+|request/priorityId|int|Priority ID: ID of priority in database| x |
+|request/categoryId|int|Category ID: ID of ticket category in database| x |
 |request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
@@ -532,13 +535,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |request/createdBy/lastName|string|Created by - Last name: Displays the contact's last name| x |
 |request/createdBy/middleName|string|Created by - Middle Name: Displays the contact's middle name.| x |
 |request/createdBy/fullName|string|Created by - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|request/createdBy/contactId|int|Created by - Company ID: Database ID of the company the user belongs to|  |
-|request/createdBy/personId|int|Created by - Contact ID: Database ID of the contact row|  |
-|request/createdBy/mrMrs|string|Created by - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdBy/contactId|int|Created by - Company ID: Database ID of the company the user belongs to|  |
+|request/createdBy/personId|int|Created by - Contact ID: Database ID of the contact row|  |
+|request/createdBy/mrMrs|string|Created by - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |request/createdBy/title|string|Created by - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |request/createdBy/associateDbId|associate|Created by - ID| x |
 |request/createdBy/contactName|string|Created by - Owning company: Name of the company the user belongs to| x |
@@ -636,13 +639,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |projectMembers/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |projectMembers/function|listAny|Function: Displays the project member's function in the project| x |
 |projectMembers/projectPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
-|projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
-|projectMembers/projectPublish/publishedBy| *None* |Published by: Published by|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
+|projectMembers/projectPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
+|projectMembers/projectPublish/publishedBy| *None* |Published by: Published by|  |
 |projectMembers/projectEvent/isExternalEvent|bool|Event: Is this an external event| x |
 |projectMembers/projectEvent/eventDate|date|Event date: Event date| x |
 |projectMembers/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
@@ -739,14 +742,15 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |personAppointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |personAppointment/priority|listAny|Priority: Displays the priority of the activity| x |
 |personAppointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
-|personAppointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
-|personAppointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
-|personAppointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
-|personAppointment/location|string|Location: Display the location where the follow-up will take place.| x |
+|personAppointment/isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
+|personAppointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
+|personAppointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
+|personAppointment/location|string|Location: Display the location where the follow-up will take place.| x |
 |personAppointment/recurrenceRuleId|int|RR-ID: Repetition rule ID of follow-up| x |
 |personAppointment/rawType|int|Type: Type field for appointment, not decoded or formatted| x |
 |personAppointment/rawStatus|int|Status: Status field for the follow-up, not decoded or formatted| x |
@@ -819,7 +823,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=department,personSourceRelation/title,personTargetRelation/personNoMail,personAssociate/isLocation,request/timeSpentQueue
+GET /api/v1/archive/InnerSelectionStaticPersonProvider?$select=personSourceRelation/personCountryId,personTargetRelation/personActiveErpLinks,personTargetRelation/who,contactAssociate/simultaneousEjUser,request/ownedBy/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

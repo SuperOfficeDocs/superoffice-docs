@@ -104,7 +104,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileName": "Ortiz, Nikolaus and Lubowitz"
+  "FileName": "Hackett, Hackett and Schaefer"
 }
 ```
 
@@ -117,148 +117,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 474,
-      "ContactName": "Herman, Johnston and Windler",
-      "PersonId": 202,
-      "PersonName": "Berge-Veum",
-      "AssociateId": 966,
-      "Address": "reiciendis",
-      "EmailId": 561,
+      "ContactId": 510,
+      "ContactName": "Schultz, Dibbert and Abernathy",
+      "PersonId": 144,
+      "PersonName": "Hahn, Walter and Schulist",
+      "AssociateId": 924,
+      "Address": "laboriosam",
+      "EmailId": 696,
       "DuplicatePersonIds": [
-        839,
-        714
+        898,
+        158
       ],
-      "Name": "Nikolaus-Nicolas",
+      "Name": "Krajcik Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 138
+          "FieldLength": 679
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 289,
-      "ContactName": "Jacobs, Frami and Gulgowski",
-      "PersonId": 530,
-      "PersonName": "Beier-Beatty",
-      "AssociateId": 552,
-      "Address": "distinctio",
-      "EmailId": 945,
+      "ContactId": 400,
+      "ContactName": "Orn-Rath",
+      "PersonId": 839,
+      "PersonName": "Witting-Dare",
+      "AssociateId": 424,
+      "Address": "amet",
+      "EmailId": 379,
       "DuplicatePersonIds": [
-        947,
-        648
+        476,
+        57
       ],
-      "Name": "Bartell, Turner and Wiza",
+      "Name": "Cole-Kihn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 300
+          "FieldLength": 543
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 491,
-      "ContactName": "Vandervort-Jenkins",
-      "PersonId": 398,
-      "PersonName": "Krajcik LLC",
-      "AssociateId": 652,
-      "Address": "voluptatem",
-      "EmailId": 673,
+      "ContactId": 304,
+      "ContactName": "Hermiston, Smitham and Bogisich",
+      "PersonId": 517,
+      "PersonName": "Gleason-Gleichner",
+      "AssociateId": 164,
+      "Address": "error",
+      "EmailId": 748,
       "DuplicatePersonIds": [
-        829,
-        463
+        288,
+        380
       ],
-      "Name": "Satterfield LLC",
+      "Name": "Waelchi-Doyle",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 186
+          "FieldLength": 977
         }
       }
     }
   ],
-  "Subject": "et",
-  "HTMLBody": "temporibus",
+  "Subject": "quae",
+  "HTMLBody": "amet",
   "From": null,
-  "Sent": "2014-08-24T13:14:00.4231039+02:00",
-  "Size": 713,
+  "Sent": "1998-11-11T16:32:39.0707807+01:00",
+  "Size": 884,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "tempore",
-  "PlainBody": "soluta",
+  "MessageID": "maxime",
+  "PlainBody": "a",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 567,
+  "ServerId": 64,
   "Attachments": [
     {
-      "Description": "Seamless bi-directional system engine",
-      "Filename": "quod",
-      "Size": 245,
-      "Type": "aut",
-      "Encoding": "fugiat",
-      "Id": "iste",
-      "Disposition": "autem",
-      "IsSafeFileExtension": true,
+      "Description": "Optimized client-server concept",
+      "Filename": "tempora",
+      "Size": 957,
+      "Type": "est",
+      "Encoding": "ipsa",
+      "Id": "vel",
+      "Disposition": "a",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 665
+          "FieldLength": 464
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hauck-Dickens",
+      "Name": "Kassulke, Macejkovic and Waters",
       "Values": [
-        "aut",
-        "numquam"
+        "dolores",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 995
         }
       }
     },
     {
-      "Name": "Hauck-Dickens",
+      "Name": "Kassulke, Macejkovic and Waters",
       "Values": [
-        "aut",
-        "numquam"
+        "dolores",
+        "quo"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 68
+          "FieldLength": 995
         }
       }
     }
   ],
-  "FolderName": "Schmeler-Kohler",
-  "EmailItemId": 71,
-  "AccountId": 676,
-  "ReceivedAt": "2013-12-31T13:14:00.4231039+01:00",
+  "FolderName": "Barton, Weissnat and Conroy",
+  "EmailItemId": 123,
+  "AccountId": 478,
+  "ReceivedAt": "2006-06-22T16:32:39.0707807+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2001-05-31T13:14:00.4231039+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2019-06-15T16:32:39.0707807+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 131
+      "FieldLength": 587
     }
   }
 }

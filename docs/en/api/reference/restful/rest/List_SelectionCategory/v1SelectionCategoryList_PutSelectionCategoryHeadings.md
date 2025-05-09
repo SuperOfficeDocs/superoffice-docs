@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 682,
-    "Name": "Rodriguez Group",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 949,
-    "UdListDefinitionId": 323
+    "HeadingId": 975,
+    "Name": "Crona-Hills",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "Rank": 501,
+    "UdListDefinitionId": 5
   },
   {
-    "HeadingId": 682,
-    "Name": "Rodriguez Group",
-    "Tooltip": "consequatur",
-    "Deleted": true,
-    "Rank": 949,
-    "UdListDefinitionId": 323
+    "HeadingId": 975,
+    "Name": "Crona-Hills",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "Rank": 501,
+    "UdListDefinitionId": 5
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 257,
-    "Name": "Grimes Group",
-    "Tooltip": "voluptatibus",
-    "Deleted": false,
-    "Rank": 835,
-    "UdListDefinitionId": 264,
+    "HeadingId": 802,
+    "Name": "Homenick Group",
+    "Tooltip": "est",
+    "Deleted": true,
+    "Rank": 23,
+    "UdListDefinitionId": 494,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 912
+        "FieldLength": 537
       }
     }
   }

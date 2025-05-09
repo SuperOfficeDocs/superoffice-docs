@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/Contact/GetQuoteVersionAddresses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 284
+  "QuoteVersionId": 209
 }
 ```
 
@@ -96,41 +96,41 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Wgs84Latitude": 25645.522,
-    "Wgs84Longitude": 27817.384,
+    "Wgs84Latitude": 25667.46,
+    "Wgs84Longitude": 22887.602,
     "LocalizedAddress": [
       [
         {
-          "Name": "McKenzie, Mitchell and Parisian",
-          "Value": "et",
-          "Tooltip": "omnis",
-          "Label": "libero",
-          "ValueLength": 715,
-          "AddressType": "libero",
+          "Name": "Schinner Inc and Sons",
+          "Value": "eos",
+          "Tooltip": "maiores",
+          "Label": "hic",
+          "ValueLength": 582,
+          "AddressType": "quia",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.Int32",
-              "FieldLength": 782
+              "FieldLength": 178
             }
           }
         }
       ],
       [
         {
-          "Name": "Lesch, Hagenes and Thiel",
-          "Value": "velit",
-          "Tooltip": "ad",
-          "Label": "dolores",
-          "ValueLength": 784,
-          "AddressType": "accusamus",
+          "Name": "Koepp Group",
+          "Value": "consequatur",
+          "Tooltip": "laborum",
+          "Label": "et",
+          "ValueLength": 235,
+          "AddressType": "non",
           "TableRight": null,
           "FieldProperties": {
             "fieldName": {
               "FieldRight": null,
               "FieldType": "System.String",
-              "FieldLength": 575
+              "FieldLength": 62
             }
           }
         }
@@ -138,13 +138,13 @@ Content-Type: application/json; charset=utf-8
     ],
     "Street": null,
     "Postal": null,
-    "Formatted": "perspiciatis",
+    "Formatted": "voluptatem",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 10
+        "FieldLength": 595
       }
     }
   }

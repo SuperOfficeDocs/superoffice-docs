@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 18 Dec 2009 13:14:08 G12T
+Last-Modified: Thu, 23 May 2019 16:32:47 G5T
 
 {
-  "BlobId": 391,
-  "BlobSize": 161,
-  "Description": "Front-line 4th generation paradigm",
-  "ExtraInfo": "quia",
+  "BlobId": 858,
+  "BlobSize": 279,
+  "Description": "Organized explicit capacity",
+  "ExtraInfo": "expedita",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "quia",
-  "OriginalSize": 188,
-  "CreatedDate": "2008-04-26T13:14:08.4928742+02:00",
-  "UpdatedDate": "2009-12-18T13:14:08.4928742+01:00",
+  "MimeType": "architecto",
+  "OriginalSize": 849,
+  "CreatedDate": "2018-05-16T16:32:47.2746087+02:00",
+  "UpdatedDate": "2019-05-23T16:32:47.2746087+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "ut",
+  "ConceptualType": "qui",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 602
+      "FieldLength": 769
     }
   }
 }

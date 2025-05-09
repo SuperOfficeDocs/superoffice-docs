@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Jacobi Inc and Sons",
-  "ProviderName": "Kertzmann, Klocko and Ward"
+  "GuiName": "Wiza-O'Hara",
+  "ProviderName": "Ferry Inc and Sons"
 }
 ```
 
@@ -97,68 +97,68 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumnInfo": [
     {
-      "DisplayName": "Breitenberg-Lakin",
-      "DisplayTooltip": "officiis",
-      "DisplayType": "aspernatur",
+      "DisplayName": "Hayes LLC",
+      "DisplayTooltip": "doloribus",
+      "DisplayType": "dolor",
       "CanOrderBy": false,
-      "Name": "Dietrich-Jewess",
-      "CanRestrictBy": false,
-      "RestrictionType": "deserunt",
-      "RestrictionListName": "Mills Inc and Sons",
-      "IsVisible": false,
-      "ExtraInfo": "qui",
-      "Width": "est",
-      "IconHint": "fugit",
-      "HeadingIconHint": "consequatur"
+      "Name": "Gerhold, Schmidt and Fisher",
+      "CanRestrictBy": true,
+      "RestrictionType": "nobis",
+      "RestrictionListName": "Feeney Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "atque",
+      "Width": "libero",
+      "IconHint": "id",
+      "HeadingIconHint": "dignissimos"
     }
   ],
   "ArchiveEntityInfo": [
     {
-      "Id": 127,
-      "Name": "Pacocha, Legros and Stoltenberg",
-      "ToolTip": "Numquam architecto assumenda id et dolor sed.",
+      "Id": 934,
+      "Name": "Prosacco-Purdy",
+      "ToolTip": "Qui dolorem odio repellat cupiditate tempora.",
       "Deleted": false,
-      "Rank": 652,
-      "Type": "molestiae",
-      "ColorBlock": 202,
-      "IconHint": "eum",
+      "Rank": 331,
+      "Type": "id",
+      "ColorBlock": 454,
+      "IconHint": "molestiae",
       "Selected": false,
-      "LastChanged": "1998-01-29T13:13:59.5001938+01:00",
+      "LastChanged": "2010-02-07T16:32:38.1491165+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "aut",
+      "ExtraInfo": "libero",
+      "StyleHint": "excepturi",
       "Hidden": false,
-      "FullName": "Paula Schinner",
+      "FullName": "Travis Hilpert",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 389
+          "FieldType": "System.Int32",
+          "FieldLength": 522
         }
       }
     }
   ],
   "ArchiveOrderByInfo": [
     {
-      "Name": "Padberg Group",
+      "Name": "Farrell-Kovacek",
       "Direction": "ASC"
     },
     {
-      "Name": "Padberg Group",
+      "Name": "Farrell-Kovacek",
       "Direction": "ASC"
     }
   ],
-  "OwnerKeys": "explicabo",
+  "OwnerKeys": "eum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 169
     }
   }
 }

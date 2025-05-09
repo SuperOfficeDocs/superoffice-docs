@@ -93,17 +93,17 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 308,
-  "Name": "Treutel-Feest",
-  "Tooltip": "et",
-  "Rank": 875,
-  "Deleted": false,
-  "DaysFuture": 827,
-  "Duration": "nesciunt",
-  "AutoSuggest": true,
+  "SuggestedAppointmentId": 521,
+  "Name": "Reilly Inc and Sons",
+  "Tooltip": "odio",
+  "Rank": 163,
+  "Deleted": true,
+  "DaysFuture": 37,
+  "Duration": "ad",
+  "AutoSuggest": false,
   "IsMilestone": false,
   "AssignToMember": false,
-  "Text": "debitis",
+  "Text": "officia",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null
@@ -117,17 +117,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SuggestedAppointmentId": 370,
-  "Name": "Rohan, Jewess and Kiehn",
-  "Tooltip": "pariatur",
-  "Rank": 732,
-  "Deleted": true,
-  "DaysFuture": 94,
-  "Duration": "et",
+  "SuggestedAppointmentId": 304,
+  "Name": "Batz, Parker and Lowe",
+  "Tooltip": "cumque",
+  "Rank": 488,
+  "Deleted": false,
+  "DaysFuture": 188,
+  "Duration": "sit",
   "AutoSuggest": true,
   "IsMilestone": false,
-  "AssignToMember": true,
-  "Text": "et",
+  "AssignToMember": false,
+  "Text": "beatae",
   "ProjectTypeStatusLink": null,
   "SaleTypeStageLink": null,
   "Type": null,
@@ -135,8 +135,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 655
+      "FieldType": "System.Int32",
+      "FieldLength": 690
     }
   }
 }

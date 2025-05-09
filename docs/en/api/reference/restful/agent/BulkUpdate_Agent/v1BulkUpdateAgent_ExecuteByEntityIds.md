@@ -71,36 +71,36 @@ OK
 POST /api/v1/Agents/BulkUpdate/ExecuteByEntityIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "FieldValueInfos": [
     {
-      "CanSupportMultiUse": true,
+      "CanSupportMultiUse": false,
       "DefaultShowInGui": false,
-      "DefaultShowInSelector": true,
+      "DefaultShowInSelector": false,
       "IsActive": false,
-      "Key": "tenetur",
-      "ValueType": "ut",
-      "Mandatory": true,
-      "EncodedDisplayName": "Kunze, Emmerich and Stanton",
-      "EncodedDisplayDescription": "Object-based contextually-based project",
-      "IconHint": "magnam",
+      "Key": "exercitationem",
+      "ValueType": "dolorum",
+      "Mandatory": false,
+      "EncodedDisplayName": "Abbott Group",
+      "EncodedDisplayDescription": "Proactive eco-centric groupware",
+      "IconHint": "iste",
       "ControlInfos": [
         {},
         {}
       ],
-      "EncodedDataCaption": "aut",
-      "EncodedDataCaptionDescription": "Vision-oriented heuristic data-warehouse",
-      "CurrentOperationType": "repudiandae",
+      "EncodedDataCaption": "minima",
+      "EncodedDataCaptionDescription": "Multi-layered secondary orchestration",
+      "CurrentOperationType": "vel",
       "Values": [
-        "ea",
-        "assumenda"
+        "sunt",
+        "odit"
       ],
       "DisplayValues": [
-        "qui",
-        "corporis"
+        "aut",
+        "voluptas"
       ],
       "OperationInfos": [
         {},
@@ -108,9 +108,9 @@ Content-Type: application/json; charset=utf-8
       ]
     }
   ],
-  "TableName": "Bode Inc and Sons",
-  "Context": "consequatur",
-  "Ids": "delectus"
+  "TableName": "Kerluke, Lesch and Zboncak",
+  "Context": "dignissimos",
+  "Ids": "dolores"
 }
 ```
 
@@ -120,5 +120,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-37
+88
 ```

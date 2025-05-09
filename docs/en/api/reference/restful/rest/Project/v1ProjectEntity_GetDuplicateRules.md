@@ -69,30 +69,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Stoltenberg, Krajcik and Murphy",
-    "DisplayName": "Osinski Inc and Sons",
-    "DisplayTooltip": "magni",
-    "IsActive": true,
+    "Name": "Bernier-Kunde",
+    "DisplayName": "Kuvalis, Walsh and Lueilwitz",
+    "DisplayTooltip": "et",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 943
+        "FieldLength": 845
       }
     }
   },
   {
-    "Name": "Stoltenberg, Krajcik and Murphy",
-    "DisplayName": "Osinski Inc and Sons",
-    "DisplayTooltip": "magni",
-    "IsActive": true,
+    "Name": "Bernier-Kunde",
+    "DisplayName": "Kuvalis, Walsh and Lueilwitz",
+    "DisplayTooltip": "et",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 943
+        "FieldLength": 845
       }
     }
   }

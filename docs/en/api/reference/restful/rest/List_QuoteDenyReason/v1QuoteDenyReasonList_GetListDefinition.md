@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 735,
-  "Name": "Dietrich, Volkman and Ratke",
-  "Tooltip": "quia",
+  "Id": 964,
+  "Name": "Kulas-Goodwin",
+  "Tooltip": "distinctio",
   "Deleted": true,
-  "Rank": 477,
+  "Rank": 828,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "nihil",
+  "ListType": "ea",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 366
+      "FieldLength": 202
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

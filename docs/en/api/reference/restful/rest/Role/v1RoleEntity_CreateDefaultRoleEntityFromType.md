@@ -75,7 +75,7 @@ OK
 GET /api/v1/Role/{type}/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,16 +85,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 592,
-  "Name": "Fadel-Hermiston",
-  "Tooltip": "est",
+  "RoleId": 893,
+  "Name": "Schulist Group",
+  "Tooltip": "accusamus",
   "RoleType": "Anonymous",
-  "Deleted": 336,
-  "Rank": 933,
-  "Created": "2016-03-17T13:14:09.0711377+01:00",
-  "UseCategories": 592,
+  "Deleted": 255,
+  "Rank": 859,
+  "Created": "2000-12-06T16:32:47.7745258+01:00",
+  "UseCategories": 96,
   "CreatedBy": null,
-  "Updated": "2010-02-20T13:14:09.0711377+01:00",
+  "Updated": "2000-06-02T16:32:47.7745258+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 573
+      "FieldLength": 711
     }
   }
 }

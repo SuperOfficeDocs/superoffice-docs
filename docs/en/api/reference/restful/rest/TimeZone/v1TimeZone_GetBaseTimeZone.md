@@ -61,7 +61,7 @@ OK
 GET /api/v1/TimeZone/base
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 721,
-  "Name": "Treutel Group",
-  "TZLocationCode": "ad",
-  "TZLocationCities": "aliquid",
-  "IsoNumber": 913,
+  "TZLocationID": 163,
+  "Name": "Kling-Howell",
+  "TZLocationCode": "soluta",
+  "TZLocationCities": "autem",
+  "IsoNumber": 961,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 922,
-      "StartMonth": 845,
-      "EndDay": 158,
-      "EndMonth": 631,
-      "TZOffset": 641,
-      "StartRulePattern": "velit",
-      "EndRulePattern": "suscipit"
+      "StartDay": 656,
+      "StartMonth": 805,
+      "EndDay": 119,
+      "EndMonth": 192,
+      "TZOffset": 84,
+      "StartRulePattern": "quis",
+      "EndRulePattern": "maxime"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 648,
-      "StartMonth": 134,
-      "EndDay": 474,
-      "EndMonth": 379,
-      "TZOffset": 451,
-      "StartRulePattern": "laudantium",
-      "EndRulePattern": "sed"
+      "StartDay": 570,
+      "StartMonth": 917,
+      "EndDay": 573,
+      "EndMonth": 839,
+      "TZOffset": 427,
+      "StartRulePattern": "sunt",
+      "EndRulePattern": "reprehenderit"
     }
   }
 }

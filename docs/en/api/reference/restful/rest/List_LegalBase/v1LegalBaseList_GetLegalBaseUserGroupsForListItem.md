@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 177,
-    "Name": "Kihn-Schimmel",
-    "ToolTip": "Sint illum sapiente optio harum et exercitationem.",
+    "Id": 964,
+    "Name": "Daugherty, Hartmann and Larson",
+    "ToolTip": "Nesciunt ex eaque enim asperiores praesentium.",
     "Deleted": true,
-    "Rank": 893,
-    "Type": "repellendus",
-    "ColorBlock": 541,
-    "IconHint": "dolores",
+    "Rank": 402,
+    "Type": "molestiae",
+    "ColorBlock": 648,
+    "IconHint": "quo",
     "Selected": true,
-    "LastChanged": "2016-03-26T13:14:09.7910245+01:00",
+    "LastChanged": "2013-04-01T16:32:48.6963928+02:00",
     "ChildItems": [
       {
-        "Id": 696,
-        "Name": "Olson Group",
-        "ToolTip": "Inventore est quia magni alias occaecati autem suscipit.",
-        "Deleted": true,
-        "Rank": 296,
-        "Type": "velit",
-        "ColorBlock": 658,
-        "IconHint": "reiciendis",
-        "Selected": true,
-        "LastChanged": "2005-06-07T13:14:09.7910245+02:00",
+        "Id": 333,
+        "Name": "Prosacco-Aufderhar",
+        "ToolTip": "Incidunt qui eius quisquam id quia.",
+        "Deleted": false,
+        "Rank": 884,
+        "Type": "quisquam",
+        "ColorBlock": 911,
+        "IconHint": "eum",
+        "Selected": false,
+        "LastChanged": "2014-10-29T16:32:48.6963928+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "incidunt",
-        "StyleHint": "necessitatibus",
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "veritatis",
         "Hidden": false,
-        "FullName": "Adam Jones",
+        "FullName": "Mr. Jonas Evangeline Weissnat DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 230
+            "FieldLength": 259
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "qui",
+    "ExtraInfo": "odit",
+    "StyleHint": "laudantium",
     "Hidden": false,
-    "FullName": "Terrance Kuvalis",
+    "FullName": "Domenico Leuschke PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 252
+        "FieldType": "System.String",
+        "FieldLength": 735
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLinesByPrefDescId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 826
+  "PrefDescId": 326
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescLineId": 152,
-    "PrefDescId": 232,
-    "PrefValue": "aut",
-    "PrefShowValue": "harum",
-    "Description": "Fully-configurable even-keeled structure",
+    "PrefDescLineId": 238,
+    "PrefDescId": 951,
+    "PrefValue": "sint",
+    "PrefShowValue": "eligendi",
+    "Description": "Team-oriented responsive function",
     "IsBuiltin": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 480
+        "FieldLength": 820
       }
     }
   }

@@ -80,7 +80,7 @@ AttachmentEntity found.
 GET /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,20 +90,20 @@ HTTP/1.1 200 AttachmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 852,
-  "Name": "Veum, Casper and Bauch",
-  "ContentType": "omnis",
-  "AttSize": 856,
+  "AttachmentId": 560,
+  "Name": "Green, Schroeder and Renner",
+  "ContentType": "consectetur",
+  "AttSize": 284,
   "InlineImage": true,
-  "ContentId": "assumenda",
-  "AuthKey": "veniam",
-  "IsSafeFileExtension": false,
+  "ContentId": "et",
+  "AuthKey": "earum",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 553
+      "FieldType": "System.String",
+      "FieldLength": 776
     }
   },
   "_Links": {

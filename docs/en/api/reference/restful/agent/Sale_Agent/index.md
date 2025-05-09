@@ -68,7 +68,11 @@ generated: true
 
 * [POST Agents/Sale/SetAsSold](v1SaleAgent_SetAsSold.md)
 
+* [POST Agents/Sale/SetAsSoldWithReason](v1SaleAgent_SetAsSoldWithReason.md)
+
 * [POST Agents/Sale/SetAsLost](v1SaleAgent_SetAsLost.md)
+
+* [POST Agents/Sale/SetAsLostWithReason](v1SaleAgent_SetAsLostWithReason.md)
 
 * [POST Agents/Sale/GetSalesFromContact](v1SaleAgent_GetSalesFromContact.md)
 

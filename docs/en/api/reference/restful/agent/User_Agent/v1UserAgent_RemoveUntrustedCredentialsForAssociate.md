@@ -72,9 +72,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 809,
-  "Type": "vero",
-  "PublicValue": "dignissimos"
+  "AssociateId": 484,
+  "Type": "eius",
+  "PublicValue": "dolor"
 }
 ```
 

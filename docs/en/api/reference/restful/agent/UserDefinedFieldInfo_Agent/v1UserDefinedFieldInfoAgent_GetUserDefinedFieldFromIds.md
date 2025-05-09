@@ -106,13 +106,13 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldFromIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Ids": [
-    827,
-    160
+    892,
+    244
   ]
 }
 ```
@@ -125,46 +125,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 268,
-    "ColumnId": 60,
-    "FieldDefault": "iste",
-    "FieldHeight": 412,
-    "FieldLabel": "illum",
-    "FieldLeft": 753,
-    "FieldTop": 673,
+    "UDefFieldId": 980,
+    "ColumnId": 315,
+    "FieldDefault": "accusamus",
+    "FieldHeight": 756,
+    "FieldLabel": "accusamus",
+    "FieldLeft": 921,
+    "FieldTop": 810,
     "FieldType": "Checkbox",
-    "FieldWidth": 756,
-    "FormatMask": "voluptas",
-    "HideLabel": false,
+    "FieldWidth": 240,
+    "FormatMask": "maiores",
+    "HideLabel": true,
     "IsIndexed": false,
-    "LabelHeight": 462,
-    "LabelLeft": 913,
-    "LabelTop": 862,
-    "LabelWidth": 562,
-    "LastVersionId": 330,
-    "ListTableId": 873,
+    "LabelHeight": 88,
+    "LabelLeft": 479,
+    "LabelTop": 703,
+    "LabelWidth": 270,
+    "LastVersionId": 319,
+    "ListTableId": 250,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 322,
-    "ProgId": "rerum",
-    "IsReadOnly": false,
-    "ShortLabel": "aliquid",
-    "TabOrder": 932,
-    "TextLength": 40,
-    "Tooltip": "et",
-    "UdefIdentity": 704,
-    "UDListDefinitionId": 215,
+    "Page1LineNo": 268,
+    "ProgId": "sequi",
+    "IsReadOnly": true,
+    "ShortLabel": "delectus",
+    "TabOrder": 629,
+    "TextLength": 352,
+    "Tooltip": "tempora",
+    "UdefIdentity": 695,
+    "UDListDefinitionId": 334,
     "Justification": "Center",
-    "Version": 884,
-    "TemplateVariableName": "Barrows-Wolf",
-    "HasBeenPublished": false,
-    "MdoListName": "Yundt, Roob and Schmitt",
+    "Version": 211,
+    "TemplateVariableName": "Purdy Inc and Sons",
+    "HasBeenPublished": true,
+    "MdoListName": "Lakin-Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 544
+        "FieldLength": 368
       }
     }
   }

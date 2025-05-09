@@ -97,33 +97,33 @@ OK
 POST /api/v1/Agents/List/SaveTicketCategoryEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 930,
-  "ParentId": 263,
-  "Name": "Sanford-Bernhard",
-  "Fullname": "corrupti",
-  "CategoryMaster": 498,
+  "TicketCategoryId": 918,
+  "ParentId": 569,
+  "Name": "Treutel-Ziemann",
+  "Fullname": "nulla",
+  "CategoryMaster": 376,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Kautzer LLC",
+  "ExternalName": "Windler Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 332,
-  "ReplyTemplate": 824,
-  "NotificationEmail": "jeff@kertzmann.com",
+  "AssignmentLag": 786,
+  "ReplyTemplate": 187,
+  "NotificationEmail": "destany.gleason@walter.name",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 78,
+  "EffectiveReplyTemplateId": 164,
   "ExtraFields": {
-    "ExtraFields1": "totam",
-    "ExtraFields2": "et"
+    "ExtraFields1": "veritatis",
+    "ExtraFields2": "reprehenderit"
   },
   "CustomFields": {
-    "CustomFields1": "distinctio",
-    "CustomFields2": "incidunt"
+    "CustomFields1": "rerum",
+    "CustomFields2": "tempora"
   }
 }
 ```
@@ -135,36 +135,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 232,
-  "ParentId": 9,
-  "Name": "Goldner-Schmeler",
-  "Fullname": "molestias",
-  "CategoryMaster": 564,
+  "TicketCategoryId": 640,
+  "ParentId": 265,
+  "Name": "Lubowitz LLC",
+  "Fullname": "facere",
+  "CategoryMaster": 931,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "McCullough-Pacocha",
+  "ExternalName": "Pfeffer-O'Kon",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 334,
-  "ReplyTemplate": 850,
-  "NotificationEmail": "ryleigh@hoppe.biz",
+  "AssignmentLag": 144,
+  "ReplyTemplate": 158,
+  "NotificationEmail": "miles_leffler@braun.uk",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 368,
+  "EffectiveReplyTemplateId": 499,
   "ExtraFields": {
-    "ExtraFields1": "dolorem",
-    "ExtraFields2": "ad"
+    "ExtraFields1": "beatae",
+    "ExtraFields2": "voluptate"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "consequuntur"
+    "CustomFields1": "animi",
+    "CustomFields2": "quis"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 256
+      "FieldLength": 793
     }
   }
 }

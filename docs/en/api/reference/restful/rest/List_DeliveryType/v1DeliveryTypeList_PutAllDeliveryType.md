@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/DeliveryType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "Kihn-Torphy",
-    "Tooltip": "distinctio",
-    "Deleted": false,
-    "UdListDefinitionId": 934,
-    "Rank": 750
+    "Id": 222,
+    "Name": "Sauer-Heidenreich",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "UdListDefinitionId": 898,
+    "Rank": 336
   },
   {
-    "Id": 836,
-    "Name": "Kihn-Torphy",
-    "Tooltip": "distinctio",
-    "Deleted": false,
-    "UdListDefinitionId": 934,
-    "Rank": 750
+    "Id": 222,
+    "Name": "Sauer-Heidenreich",
+    "Tooltip": "voluptas",
+    "Deleted": true,
+    "UdListDefinitionId": 898,
+    "Rank": 336
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 645,
-    "Name": "Reichert, Swaniawski and Friesen",
-    "Tooltip": "et",
-    "Deleted": false,
-    "UdListDefinitionId": 242,
-    "Rank": 814,
+    "Id": 352,
+    "Name": "Strosin-Goyette",
+    "Tooltip": "tempora",
+    "Deleted": true,
+    "UdListDefinitionId": 641,
+    "Rank": 383,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 545
+        "FieldType": "System.Int32",
+        "FieldLength": 720
       }
     }
   }

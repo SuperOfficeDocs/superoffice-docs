@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Feest LLC",
-  "DeviceName": "Crona-Lang",
-  "DeviceIdentifier": "et"
+  "ApplicationName": "Reynolds, Ledner and Sanford",
+  "DeviceName": "Swift, Lindgren and Gleichner",
+  "DeviceIdentifier": "temporibus"
 }
 ```
 
@@ -100,21 +100,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 959,
-  "Name": "Simonis Group",
-  "CreatedDate": "2012-02-18T13:14:00.5012353+01:00",
-  "UpdatedDate": "2019-03-14T13:14:00.5012353+01:00",
-  "AssociateFullName": "Kayden Murray",
-  "CreatedBy": "eos",
-  "UpdatedBy": "aliquid",
-  "DeviceIdentifier": "enim",
-  "ForeignAppId": 633,
+  "ForeignDeviceId": 236,
+  "Name": "Rogahn, Steuber and Wolff",
+  "CreatedDate": "1999-07-26T16:32:39.1645096+02:00",
+  "UpdatedDate": "2006-06-07T16:32:39.1645096+02:00",
+  "AssociateFullName": "Mr. Malika Billy Koss IV",
+  "CreatedBy": "in",
+  "UpdatedBy": "ea",
+  "DeviceIdentifier": "dolorem",
+  "ForeignAppId": 238,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 445
+      "FieldType": "System.String",
+      "FieldLength": 837
     }
   }
 }

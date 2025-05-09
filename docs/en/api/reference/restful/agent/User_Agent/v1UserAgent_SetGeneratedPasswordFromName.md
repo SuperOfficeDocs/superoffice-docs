@@ -74,7 +74,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateName": "Johnson-Ondricka"
+  "AssociateName": "Adams-Bins"
 }
 ```
 
@@ -84,5 +84,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"Prohaska, Streich and Dietrich"
+"Bogan Inc and Sons"
 ```

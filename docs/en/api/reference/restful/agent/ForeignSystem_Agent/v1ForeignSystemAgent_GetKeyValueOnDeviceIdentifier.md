@@ -75,16 +75,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyValueOnDeviceIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Russel-Fadel",
-  "DeviceName": "Corkery Group",
-  "DeviceIdentifier": "aut",
-  "KeyName": "Block-Konopelski",
-  "TableName": "Grady-Kunze",
-  "RecordId": 115
+  "ApplicationName": "Schuppe, Hand and Lehner",
+  "DeviceName": "Veum, Fahey and Kerluke",
+  "DeviceIdentifier": "sequi",
+  "KeyName": "Ward, Schaden and Olson",
+  "TableName": "Leannon-Wunsch",
+  "RecordId": 345
 }
 ```
 
@@ -94,5 +94,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"assumenda"
+"fugit"
 ```

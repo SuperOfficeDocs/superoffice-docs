@@ -26,8 +26,8 @@ Get the MDO list items for "Credited" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Credited/MDOItems?flat=False
-GET /api/v1/List/Credited/MDOItems?query=neque
+GET /api/v1/List/Credited/MDOItems?flat=True
+GET /api/v1/List/Credited/MDOItems?query=perferendis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Credited/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 461,
-    "Name": "Crona LLC",
-    "ToolTip": "Est neque expedita explicabo.",
+    "Id": 884,
+    "Name": "Herman LLC",
+    "ToolTip": "Non qui hic suscipit quisquam nulla eaque.",
     "Deleted": false,
-    "Rank": 123,
-    "Type": "et",
+    "Rank": 732,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 396,
-        "Name": "Ferry-Glover",
-        "ToolTip": "Natus illum eaque.",
+        "Id": 974,
+        "Name": "Heaney, McClure and Schultz",
+        "ToolTip": "Fugit enim veritatis beatae omnis.",
         "Deleted": false,
-        "Rank": 277,
-        "Type": "ipsum",
+        "Rank": 812,
+        "Type": "voluptas",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "magni",
-        "ColorBlock": 621,
-        "ExtraInfo": "provident",
-        "StyleHint": "aliquid",
-        "FullName": "Mr. Liza Kuvalis",
+        "IconHint": "distinctio",
+        "ColorBlock": 83,
+        "ExtraInfo": "modi",
+        "StyleHint": "consequatur",
+        "FullName": "Jaylan Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 383
+            "FieldType": "System.Int32",
+            "FieldLength": 889
           }
         }
       }
     ],
-    "IconHint": "voluptatem",
-    "ColorBlock": 259,
-    "ExtraInfo": "totam",
-    "StyleHint": "optio",
-    "FullName": "Cecil Runolfsdottir",
+    "IconHint": "cupiditate",
+    "ColorBlock": 234,
+    "ExtraInfo": "quis",
+    "StyleHint": "labore",
+    "FullName": "Jacques Lelah Ledner I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldLength": 251
       }
     }
   }

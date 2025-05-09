@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 550,
-    "Name": "Sanford, O'Connell and Zboncak",
-    "ToolTip": "Non reiciendis debitis ut soluta commodi corrupti.",
+    "Id": 150,
+    "Name": "Waters, Marvin and Moore",
+    "ToolTip": "Et animi ut aspernatur mollitia maiores rerum.",
     "Deleted": false,
-    "Rank": 118,
-    "Type": "laboriosam",
-    "ColorBlock": 777,
-    "IconHint": "in",
-    "Selected": true,
-    "LastChanged": "2007-12-23T13:14:09.9785358+01:00",
+    "Rank": 330,
+    "Type": "totam",
+    "ColorBlock": 918,
+    "IconHint": "id",
+    "Selected": false,
+    "LastChanged": "1998-12-25T16:32:48.8526096+01:00",
     "ChildItems": [
       {
-        "Id": 521,
-        "Name": "Leannon-Kub",
-        "ToolTip": "Molestiae ab adipisci ut autem rerum.",
+        "Id": 838,
+        "Name": "Bogan LLC",
+        "ToolTip": "Incidunt quia nihil quasi.",
         "Deleted": false,
-        "Rank": 653,
-        "Type": "esse",
-        "ColorBlock": 956,
-        "IconHint": "accusantium",
+        "Rank": 516,
+        "Type": "fuga",
+        "ColorBlock": 91,
+        "IconHint": "a",
         "Selected": false,
-        "LastChanged": "2013-05-14T13:14:09.9785358+02:00",
+        "LastChanged": "2012-09-15T16:32:48.8526096+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "dolor",
-        "Hidden": true,
-        "FullName": "Mr. Tressa Smith",
+        "ExtraInfo": "corrupti",
+        "StyleHint": "voluptatem",
+        "Hidden": false,
+        "FullName": "Timothy Armstrong",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 104
+            "FieldType": "System.Int32",
+            "FieldLength": 356
           }
         }
       }
     ],
-    "ExtraInfo": "nulla",
-    "StyleHint": "dolorum",
+    "ExtraInfo": "sequi",
+    "StyleHint": "odio",
     "Hidden": false,
-    "FullName": "Kasandra Leilani Baumbach DVM",
+    "FullName": "Mollie Bailey",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 532
+        "FieldType": "System.String",
+        "FieldLength": 957
       }
     }
   }

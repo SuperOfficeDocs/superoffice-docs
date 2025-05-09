@@ -92,12 +92,12 @@ OK
 POST /api/v1/Agents/Preference/SaveFromSectionAndKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Section": "ut",
-  "Key": "dolorem",
+  "Section": "quos",
+  "Key": "tenetur",
   "PreferenceDescription": null
 }
 ```
@@ -109,30 +109,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 316,
-  "Section": "ducimus",
-  "Key": "et",
-  "Name": "Hickle-Effertz",
+  "PrefDescId": 483,
+  "Section": "aliquam",
+  "Key": "possimus",
+  "Name": "Hayes, Cartwright and Donnelly",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Inverse coherent intranet",
+  "Description": "Extended local emulation",
   "IsBuiltin": false,
-  "TableName": "Schneider LLC",
-  "UserDefinedListId": 91,
-  "Rank": 483,
-  "SubGroup": "non",
-  "MinLevel": 847,
-  "MaxValue": 755,
-  "MinValue": 256,
-  "RequiredLicense": "alias",
+  "TableName": "Bode Group",
+  "UserDefinedListId": 369,
+  "Rank": 877,
+  "SubGroup": "ab",
+  "MinLevel": 967,
+  "MaxValue": 150,
+  "MinValue": 174,
+  "RequiredLicense": "nesciunt",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 154
+      "FieldLength": 738
     }
   }
 }

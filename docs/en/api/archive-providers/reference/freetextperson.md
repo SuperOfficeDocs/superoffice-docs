@@ -700,6 +700,9 @@ as well as before any ORDER BY, are applied.
 |request/personId|int|Contact ID: Database ID of the contact row| x |
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
+|request/ticketStatusId|int|Status ID: Status| x |
+|request/priorityId|int|Priority ID: ID of priority in database| x |
+|request/categoryId|int|Category ID: ID of ticket category in database| x |
 |request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
@@ -755,13 +758,13 @@ as well as before any ORDER BY, are applied.
 |request/createdBy/associateDbId|associate|Created by - ID| x |
 |request/createdBy/contactName|string|Created by - Owning company: Name of the company the user belongs to| x |
 |request/createdBy/contactDepartment|string|Created by - Owning department: Name of the department at the company the user belongs to| x |
-|request/createdBy/usergroup|userGroup|Created by - Primary group: The user's primary user group| x |
-|request/createdBy/contactFullName|string|Created by - Owner: Name and department of the company the user belongs to| x |
-|request/createdBy/contactCategory|listAny|Created by - Category: Category| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdBy/usergroup|userGroup|Created by - Primary group: The user's primary user group| x |
+|request/createdBy/contactFullName|string|Created by - Owner: Name and department of the company the user belongs to| x |
+|request/createdBy/contactCategory|listAny|Created by - Category: Category| x |
 |request/createdBy/role|listAny|Created by - Role: Role| x |
 |request/createdBy/assocName|associate|Created by - User ID: User ID| x |
 |request/createdBy/assocTooltip|string|Created by - Description: Description|  |
@@ -859,13 +862,13 @@ as well as before any ORDER BY, are applied.
 |projectMembers/projectEvent/eventDate|date|Event date: Event date| x |
 |projectMembers/projectEvent/hasSignOn|bool|Sign On: Does this event have the Sign On function enabled| x |
 |projectMembers/projectEvent/hasSignOff|bool|Sign Off: Does this event have the Sign Off function enabled| x |
-|projectMembers/projectUrl/URLAddress|string|URL| x |
-|projectMembers/projectUrl/URLDescription|string|Description| x |
-|projectMembers/projectAssociate/firstName|string|First name: Displays the contact's first name| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectUrl/URLAddress|string|URL| x |
+|projectMembers/projectUrl/URLDescription|string|Description| x |
+|projectMembers/projectAssociate/firstName|string|First name: Displays the contact's first name| x |
 |projectMembers/projectAssociate/lastName|string|Last name: Displays the contact's last name| x |
 |projectMembers/projectAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |projectMembers/projectAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
@@ -955,6 +958,7 @@ as well as before any ORDER BY, are applied.
 |personAppointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |personAppointment/priority|listAny|Priority: Displays the priority of the activity| x |
 |personAppointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|personAppointment/isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |personAppointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |personAppointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |personAppointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
@@ -962,14 +966,14 @@ as well as before any ORDER BY, are applied.
 |personAppointment/recurrenceRuleId|int|RR-ID: Repetition rule ID of follow-up| x |
 |personAppointment/rawType|int|Type: Type field for appointment, not decoded or formatted| x |
 |personAppointment/rawStatus|int|Status: Status field for the follow-up, not decoded or formatted| x |
-|personAppointment/cautionWarning|listAny|Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
-|personAppointment/visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
-|personAppointment/endTime| *None* |End time: End time of an activity|  |
-|personAppointment/suggestedAppointmentId|int|Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/cautionWarning|listAny|Warning: Warning for invitations with potential problems: not properly synchronized with an external calendar, unsupported repetition pattern, e-mail notification failed, or other problems.| x |
+|personAppointment/visibleInDiary|bool|ExcludeBook: Is the activity visible in the diary?| x |
+|personAppointment/endTime| *None* |End time: End time of an activity|  |
+|personAppointment/suggestedAppointmentId|int|Follow-up ID (suggestion: The database ID of a follow-up that originates in a suggestion| x |
 |personAppointment/completedDate|date|Completed date: Displays the actual date a follow-up/sale was marked as completed| x |
 |personAppointment/isMilestone|bool|Milestone: Shows whether or not the follow-ups in this row are milestones| x |
 |personAppointment/invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
@@ -1035,7 +1039,7 @@ as well as before any ORDER BY, are applied.
 ## Sample
 
 ```http!
-GET /api/v1/archive/FreetextPerson?$select=personSourceRelation/ticketPriority,personTargetRelation/portraitThumbnail,personTargetRelation/isStakeholder,correspondingAssociate/personId,personContact/contactDeleted
+GET /api/v1/archive/FreetextPerson?$select=personUpdatedByFullName,personContact/hasInterests,personContact/deletedDate,personContact/LastCompletedActivity,subscription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

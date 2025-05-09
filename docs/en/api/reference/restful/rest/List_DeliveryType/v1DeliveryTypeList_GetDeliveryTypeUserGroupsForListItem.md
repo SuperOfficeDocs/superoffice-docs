@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 279,
-    "Name": "Wolf Group",
-    "ToolTip": "Similique est aut.",
+    "Id": 275,
+    "Name": "Effertz LLC",
+    "ToolTip": "Doloremque ipsam ab.",
     "Deleted": false,
-    "Rank": 140,
-    "Type": "voluptate",
-    "ColorBlock": 502,
-    "IconHint": "aliquam",
+    "Rank": 327,
+    "Type": "tempora",
+    "ColorBlock": 226,
+    "IconHint": "recusandae",
     "Selected": false,
-    "LastChanged": "2004-10-18T13:14:09.7597728+02:00",
+    "LastChanged": "2005-05-06T16:32:48.6651528+02:00",
     "ChildItems": [
       {
-        "Id": 740,
-        "Name": "Robel, Eichmann and Bahringer",
-        "ToolTip": "Repudiandae veritatis sed neque recusandae qui voluptatem.",
+        "Id": 14,
+        "Name": "Hickle LLC",
+        "ToolTip": "Tempore aut nam est dolorem.",
         "Deleted": false,
-        "Rank": 801,
-        "Type": "sed",
-        "ColorBlock": 335,
-        "IconHint": "et",
-        "Selected": true,
-        "LastChanged": "2012-12-24T13:14:09.7597728+01:00",
+        "Rank": 258,
+        "Type": "possimus",
+        "ColorBlock": 841,
+        "IconHint": "nulla",
+        "Selected": false,
+        "LastChanged": "2019-10-08T16:32:48.6651528+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "a",
+        "ExtraInfo": "nisi",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Lonnie Treutel PhD",
+        "FullName": "Miss Maximus Lera Schmitt DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 897
+            "FieldLength": 679
           }
         }
       }
     ],
-    "ExtraInfo": "ducimus",
-    "StyleHint": "et",
-    "Hidden": false,
-    "FullName": "Prof. Athena Catherine Kozey PhD",
+    "ExtraInfo": "rerum",
+    "StyleHint": "illum",
+    "Hidden": true,
+    "FullName": "Miss Troy Ansley Torphy II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldLength": 822
       }
     }
   }

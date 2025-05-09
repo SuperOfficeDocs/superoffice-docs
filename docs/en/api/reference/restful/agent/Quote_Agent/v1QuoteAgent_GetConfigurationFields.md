@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConnectionId": 882,
-  "ConnectorName": "Casper-Legros"
+  "ConnectionId": 378,
+  "ConnectorName": "Wolff Group"
 }
 ```
 
@@ -102,14 +102,14 @@ Content-Type: application/json; charset=utf-8
 
 {
   "fieldName": {
-    "FieldKey": "nisi",
-    "Rank": 606,
-    "DisplayName": "Windler LLC",
-    "DisplayDescription": "Sharable asynchronous capacity",
+    "FieldKey": "quia",
+    "Rank": 653,
+    "DisplayName": "Stracke Group",
+    "DisplayDescription": "Realigned 4th generation adapter",
     "FieldType": "Checkbox",
-    "ListName": "McCullough-Bahringer",
-    "DefaultValue": "officiis",
-    "MaxLength": 956,
+    "ListName": "Marquardt-Kuhlman",
+    "DefaultValue": "est",
+    "MaxLength": 752,
     "Access": "Mandatory",
     "ShowInSearch": false,
     "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 619
+        "FieldLength": 522
       }
     }
   }

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Project/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Huel Inc and Sons"
+  "Name": "Hackett Group"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Turner-Halvorson",
-    "SoPrimaryKey": 552,
-    "EntryName": "Sawayn, Wehner and Wilkinson",
-    "EntryIdentifier": "excepturi",
-    "RuleDisplayName": "McDermott LLC",
+    "RuleName": "Kihn-Bednar",
+    "SoPrimaryKey": 263,
+    "EntryName": "Bradtke-Farrell",
+    "EntryIdentifier": "eos",
+    "RuleDisplayName": "Boyle-McCullough",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 502
+        "FieldLength": 190
       }
     }
   }

@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/CustomerService/GetStatistics
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Functions": [
-    "est",
-    "est"
+    "quia",
+    "excepturi"
   ]
 }
 ```
@@ -94,82 +94,82 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Label": "veritatis",
+    "Label": "consequuntur",
     "Values": [
       {
-        "Label": "et",
-        "Value": 17168.052,
-        "Description": "Vision-oriented client-server infrastructure",
+        "Label": "praesentium",
+        "Value": 13259.954,
+        "Description": "Open-architected tertiary encryption",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 199
+            "FieldType": "System.Int32",
+            "FieldLength": 373
           }
         }
       },
       {
-        "Label": "et",
-        "Value": 17168.052,
-        "Description": "Vision-oriented client-server infrastructure",
+        "Label": "praesentium",
+        "Value": 13259.954,
+        "Description": "Open-architected tertiary encryption",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 199
+            "FieldType": "System.Int32",
+            "FieldLength": 373
           }
         }
       }
     ],
-    "Description": "Secured zero administration superstructure",
+    "Description": "Operative executive throughput",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldType": "System.String",
+        "FieldLength": 247
       }
     }
   },
   {
-    "Label": "veritatis",
+    "Label": "consequuntur",
     "Values": [
       {
-        "Label": "et",
-        "Value": 17168.052,
-        "Description": "Vision-oriented client-server infrastructure",
+        "Label": "praesentium",
+        "Value": 13259.954,
+        "Description": "Open-architected tertiary encryption",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 199
+            "FieldType": "System.Int32",
+            "FieldLength": 373
           }
         }
       },
       {
-        "Label": "et",
-        "Value": 17168.052,
-        "Description": "Vision-oriented client-server infrastructure",
+        "Label": "praesentium",
+        "Value": 13259.954,
+        "Description": "Open-architected tertiary encryption",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 199
+            "FieldType": "System.Int32",
+            "FieldLength": 373
           }
         }
       }
     ],
-    "Description": "Secured zero administration superstructure",
+    "Description": "Operative executive throughput",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 213
+        "FieldType": "System.String",
+        "FieldLength": 247
       }
     }
   }

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ProductCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 951,
-  "Name": "O'Connell LLC",
-  "Tooltip": "itaque",
+  "Id": 981,
+  "Name": "Kutch LLC",
+  "Tooltip": "quis",
   "Deleted": false,
-  "Rank": 16,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Rank": 896,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "accusamus",
+  "ListType": "consequuntur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 555
+      "FieldLength": 651
     }
   },
   "_Links": {

@@ -132,12 +132,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "quo",
+    "path": "quisquam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "quo",
+    "path": "quisquam",
     "value": {}
   }
 ]
@@ -150,45 +150,45 @@ HTTP/1.1 200 TicketTypeEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 516,
-  "Name": "Kohler, Jacobs and Herman",
-  "Rank": 153,
-  "Tooltip": "reiciendis",
-  "Icon": "dolor",
-  "DefaultTicketStatus": 841,
+  "TicketTypeId": 142,
+  "Name": "Ward, Olson and Hansen",
+  "Rank": 182,
+  "Tooltip": "nemo",
+  "Icon": "nam",
+  "DefaultTicketStatus": 928,
   "TicketStatuses": [
-    789,
-    736
+    93,
+    230
   ],
-  "DefaultTicketPriority": 98,
+  "DefaultTicketPriority": 627,
   "TicketPriorities": [
-    711,
-    178
+    976,
+    242
   ],
-  "ReplyTemplate": 889,
-  "IsExternalVisible": true,
-  "IsDefault": false,
+  "ReplyTemplate": 413,
+  "IsExternalVisible": false,
+  "IsDefault": true,
   "ShowInNew": false,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
-  "ExternalAsDefault": false,
+  "ExcludeEmailRecipients": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    357,
-    270
+    831,
+    870
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 601
+      "FieldType": "System.String",
+      "FieldLength": 268
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

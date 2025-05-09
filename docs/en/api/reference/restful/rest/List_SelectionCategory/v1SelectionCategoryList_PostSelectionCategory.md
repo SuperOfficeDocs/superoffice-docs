@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 198,
-  "Name": "Kunze LLC",
-  "Tooltip": "ducimus",
-  "Deleted": false,
-  "UdListDefinitionId": 837,
-  "Rank": 874
+  "Id": 948,
+  "Name": "Buckridge Group",
+  "Tooltip": "aperiam",
+  "Deleted": true,
+  "UdListDefinitionId": 441,
+  "Rank": 681
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 380,
-  "Name": "Murazik-Kreiger",
-  "Tooltip": "quis",
+  "Id": 809,
+  "Name": "Zulauf, Lebsack and Gislason",
+  "Tooltip": "in",
   "Deleted": false,
-  "UdListDefinitionId": 360,
-  "Rank": 938,
+  "UdListDefinitionId": 729,
+  "Rank": 455,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 714
+      "FieldType": "System.Int32",
+      "FieldLength": 199
     }
   }
 }

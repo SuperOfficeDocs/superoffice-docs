@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/SelectionCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 469,
-  "Name": "Hilll Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 35,
+  "Name": "Vandervort Group",
+  "Tooltip": "ut",
   "Deleted": true,
-  "Rank": 791,
-  "IsCustomList": false,
+  "Rank": 917,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": true,
-  "ListType": "nulla",
+  "ListType": "et",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 973,
-  "Name": "Hessel-Eichmann",
-  "Tooltip": "non",
+  "Id": 691,
+  "Name": "Senger, Tromp and Heller",
+  "Tooltip": "mollitia",
   "Deleted": false,
-  "Rank": 405,
+  "Rank": 238,
   "IsCustomList": false,
   "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "perferendis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 992
+      "FieldLength": 777
     }
   }
 }

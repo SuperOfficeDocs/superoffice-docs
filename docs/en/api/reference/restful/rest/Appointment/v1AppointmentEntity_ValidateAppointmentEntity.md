@@ -117,7 +117,7 @@ OK
 POST /api/v1/Appointment/Validate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -125,106 +125,106 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2014-06-19T13:14:08.3366126+02:00",
-  "AppointmentId": 48,
-  "Description": "Right-sized disintermediate success",
-  "Title": "et",
-  "Agenda": "quis",
-  "InternalNotes": "omnis",
-  "StartDate": "2006-09-23T13:14:08.3366126+02:00",
-  "EndDate": "2019-09-14T13:14:08.3366126+02:00",
+  "CreatedDate": "2013-04-06T16:32:47.0867943+02:00",
+  "AppointmentId": 438,
+  "Description": "Operative neutral architecture",
+  "Title": "voluptate",
+  "Agenda": "cumque",
+  "InternalNotes": "vero",
+  "StartDate": "2004-12-22T16:32:47.0867943+01:00",
+  "EndDate": "2015-03-19T16:32:47.0867943+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 14,
+  "MotherId": 667,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-04-18T13:14:08.3366126+02:00",
+  "UpdatedDate": "2003-03-23T16:32:47.0867943+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 505,
+  "ActiveLinks": 635,
   "Links": [
     {
-      "EntityName": "Feil, Turner and Terry",
-      "Id": 5,
-      "Description": "Front-line optimizing groupware",
-      "ExtraInfo": "ut",
-      "LinkId": 915
+      "EntityName": "Schuster Inc and Sons",
+      "Id": 81,
+      "Description": "Profound didactic utilisation",
+      "ExtraInfo": "et",
+      "LinkId": 999
     },
     {
-      "EntityName": "Feil, Turner and Terry",
-      "Id": 5,
-      "Description": "Front-line optimizing groupware",
-      "ExtraInfo": "ut",
-      "LinkId": 915
+      "EntityName": "Schuster Inc and Sons",
+      "Id": 81,
+      "Description": "Profound didactic utilisation",
+      "ExtraInfo": "et",
+      "LinkId": 999
     }
   ],
-  "AlarmLeadTime": "sed",
-  "HasAlarm": false,
-  "ColorIndex": 327,
+  "AlarmLeadTime": "impedit",
+  "HasAlarm": true,
+  "ColorIndex": 848,
   "IsFree": false,
-  "IsAlldayEvent": true,
-  "LagTime": "doloremque",
-  "LeadTime": "quia",
-  "Location": "aspernatur",
-  "RejectCounter": 18,
+  "IsAlldayEvent": false,
+  "LagTime": "facilis",
+  "LeadTime": "ut",
+  "Location": "consequatur",
+  "RejectCounter": 904,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 498,
-      "PersonId": 812,
-      "ContactId": 554,
-      "EmailId": 980,
-      "SendEmail": false,
+      "AssociateId": 639,
+      "PersonId": 505,
+      "ContactId": 194,
+      "EmailId": 359,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "titus@creminwitting.biz",
-      "Description": "Centralized modular firmware"
+      "EmailAddress": "vicky@jakubowski.ca",
+      "Description": "Versatile multi-tasking instruction set"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2019-08-23T13:14:08.3366126+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2020-05-29T16:32:47.0867943+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 588,
+  "PreferredTZLocation": 439,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 121,
-  "IsMileStone": true,
+  "SuggestedAppointmentId": 782,
+  "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "tempora",
+  "CentralserviceVideomeetId": "quaerat",
   "UserDefinedFields": {
-    "SuperOffice:1": "Annalise Hoeger DVM",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Mr. Madaline Stanton Jr.",
+    "SuperOffice:2": "Willa Jacobi DVM"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "ullam"
+    "ExtraFields1": "nostrum",
+    "ExtraFields2": "enim"
   },
   "CustomFields": {
-    "CustomFields1": "consequuntur",
-    "CustomFields2": "eligendi"
+    "CustomFields1": "voluptates",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "2013-08-16T13:14:08.3522383+02:00",
-  "PublishTo": "2008-05-25T13:14:08.3522383+02:00",
-  "PublishFrom": "2005-05-31T13:14:08.3522383+02:00",
+  "PublishEventDate": "2002-01-30T16:32:47.1024139+01:00",
+  "PublishTo": "1998-06-15T16:32:47.1024139+02:00",
+  "PublishFrom": "1999-06-24T16:32:47.1024139+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 27,
+      "VisibleId": 969,
       "Visibility": "All",
-      "DisplayValue": "voluptatum"
+      "DisplayValue": "cum"
     },
     {
-      "VisibleId": 27,
+      "VisibleId": 969,
       "Visibility": "All",
-      "DisplayValue": "voluptatum"
+      "DisplayValue": "cum"
     }
   ]
 }
@@ -237,7 +237,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "et",
-  "2": "molestiae"
+  "1": "omnis",
+  "2": "id"
 }
 ```

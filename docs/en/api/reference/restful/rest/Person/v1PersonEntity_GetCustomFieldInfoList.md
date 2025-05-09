@@ -68,7 +68,7 @@ OK
 GET /api/v1/Person/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Okuneva, Lueilwitz and Wisoky",
-    "DisplayName": "Kohler Inc and Sons",
-    "Description": "Realigned bifurcated pricing structure",
-    "ShortLabel": "laudantium",
+    "FieldName": "Williamson Group",
+    "DisplayName": "Strosin Group",
+    "Description": "Adaptive content-based application",
+    "ShortLabel": "voluptatibus",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": true,
+    "IsMandatory": false,
     "IsReadOnly": true,
-    "IsExternal": true,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 978,
-    "TemplateVariableName": "Wunsch, Oberbrunner and Bechtelar"
+    "Rank": 113,
+    "TemplateVariableName": "Douglas, Bernhard and Crooks"
   }
 ]
 ```

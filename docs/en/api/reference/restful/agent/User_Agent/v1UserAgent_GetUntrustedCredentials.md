@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "dolor"
+  "Type": "illum"
 }
 ```
 
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ValidFrom": "2017-10-01T13:14:01.7225722+02:00",
-    "ValidTo": "2007-03-28T13:14:01.7225722+02:00",
-    "Comment": "placeat",
-    "SecretValue": "sed",
-    "PublicValue": "rerum",
-    "IsActive": true,
+    "ValidFrom": "2009-10-25T16:32:40.4769548+01:00",
+    "ValidTo": "2017-12-13T16:32:40.4769548+01:00",
+    "Comment": "non",
+    "SecretValue": "harum",
+    "PublicValue": "autem",
+    "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 722
+        "FieldType": "System.String",
+        "FieldLength": 628
       }
     }
   }

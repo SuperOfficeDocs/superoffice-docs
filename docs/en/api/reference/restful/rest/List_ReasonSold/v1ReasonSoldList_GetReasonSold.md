@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonSold/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 765,
-  "Name": "Langosh Inc and Sons",
-  "Tooltip": "est",
+  "Id": 589,
+  "Name": "Conn-Leffler",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 957,
-  "Rank": 103,
+  "UdListDefinitionId": 214,
+  "Rank": 750,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 295
+      "FieldLength": 26
     }
   }
 }

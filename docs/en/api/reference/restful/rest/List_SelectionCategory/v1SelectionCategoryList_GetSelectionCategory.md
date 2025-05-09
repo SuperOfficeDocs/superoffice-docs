@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 302,
-  "Name": "D'Amore Group",
-  "Tooltip": "quam",
-  "Deleted": false,
-  "UdListDefinitionId": 127,
-  "Rank": 357,
+  "Id": 991,
+  "Name": "Schmitt Group",
+  "Tooltip": "sequi",
+  "Deleted": true,
+  "UdListDefinitionId": 546,
+  "Rank": 266,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldType": "System.String",
+      "FieldLength": 36
     }
   }
 }

@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeysOnDeviceIdentifierTable
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "O'Conner-Tillman",
-  "DeviceName": "Runolfsson-Klein",
-  "DeviceIdentifier": "sit",
-  "TableName": "Swaniawski-Harvey"
+  "ApplicationName": "Batz, Kuphal and Prohaska",
+  "DeviceName": "Brekke-Nolan",
+  "DeviceIdentifier": "beatae",
+  "TableName": "Prohaska LLC"
 }
 ```
 
@@ -102,20 +102,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "unde",
-    "Value": "corporis",
-    "RecordId": 182,
-    "CreatedDate": "2003-05-21T13:14:00.5168611+02:00",
-    "UpdatedDate": "2017-01-19T13:14:00.5168611+01:00",
-    "UpdatedBy": "cum",
-    "CreatedBy": "architecto",
-    "TableName": "Beer, Mohr and Dach",
+    "Key": "quibusdam",
+    "Value": "itaque",
+    "RecordId": 309,
+    "CreatedDate": "2014-06-10T16:32:39.180141+02:00",
+    "UpdatedDate": "2019-07-23T16:32:39.180141+02:00",
+    "UpdatedBy": "magnam",
+    "CreatedBy": "qui",
+    "TableName": "Roberts-Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 93
+        "FieldType": "System.String",
+        "FieldLength": 865
       }
     }
   }

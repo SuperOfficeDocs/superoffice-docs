@@ -90,13 +90,13 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Monahan LLC",
+  "Name": "Dietrich Inc and Sons",
   "ForceFlatList": false,
-  "AdditionalInfo": "vel",
+  "AdditionalInfo": "quas",
   "OnlyHistory": false
 }
 ```
@@ -109,56 +109,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 659,
-    "Name": "Mann LLC",
-    "ToolTip": "Quis ipsam distinctio fugit voluptas.",
+    "Id": 242,
+    "Name": "Wolff, D'Amore and Barton",
+    "ToolTip": "Eum aut et.",
     "Deleted": false,
-    "Rank": 733,
-    "Type": "ipsam",
-    "ColorBlock": 27,
-    "IconHint": "minima",
+    "Rank": 302,
+    "Type": "voluptatum",
+    "ColorBlock": 960,
+    "IconHint": "eum",
     "Selected": true,
-    "LastChanged": "2003-09-04T13:14:00.7043711+02:00",
+    "LastChanged": "2021-01-08T16:32:39.3675885+01:00",
     "ChildItems": [
       {
-        "Id": 647,
-        "Name": "Pfeffer-Nader",
-        "ToolTip": "Alias reprehenderit quia maiores recusandae.",
-        "Deleted": false,
-        "Rank": 130,
-        "Type": "nam",
-        "ColorBlock": 935,
-        "IconHint": "beatae",
+        "Id": 460,
+        "Name": "Cummerata LLC",
+        "ToolTip": "Quia quos quia rem veniam harum.",
+        "Deleted": true,
+        "Rank": 229,
+        "Type": "minima",
+        "ColorBlock": 130,
+        "IconHint": "totam",
         "Selected": false,
-        "LastChanged": "2021-12-28T13:14:00.7043711+01:00",
+        "LastChanged": "2024-02-25T16:32:39.3675885+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quaerat",
-        "StyleHint": "possimus",
+        "ExtraInfo": "a",
+        "StyleHint": "nulla",
         "Hidden": true,
-        "FullName": "Ward Barrows",
+        "FullName": "Mervin Harvey",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 930
+            "FieldType": "System.Int32",
+            "FieldLength": 286
           }
         }
       }
     ],
-    "ExtraInfo": "mollitia",
-    "StyleHint": "laboriosam",
+    "ExtraInfo": "rerum",
+    "StyleHint": "cumque",
     "Hidden": false,
-    "FullName": "Prof. Richard Taryn Bogan",
+    "FullName": "Quincy Tromp",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 296
+        "FieldType": "System.Int32",
+        "FieldLength": 988
       }
     }
   }

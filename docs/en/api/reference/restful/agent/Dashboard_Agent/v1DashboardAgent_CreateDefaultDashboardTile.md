@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -80,64 +80,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 32,
-  "Caption": "praesentium",
-  "Description": "Operative logistical policy",
-  "ChartName": "Luettgen, Mueller and Bahringer",
-  "ChartId": "veniam",
-  "IsDefault": true,
-  "AssociateId": 953,
-  "GroupId": 558,
-  "SelectionId": 145,
-  "Config": "eius",
+  "DashboardTileId": 853,
+  "Caption": "consequatur",
+  "Description": "Customer-focused human-resource workforce",
+  "ChartName": "Balistreri Inc and Sons",
+  "ChartId": "consequuntur",
+  "IsDefault": false,
+  "AssociateId": 61,
+  "GroupId": 581,
+  "SelectionId": 220,
+  "Config": "nihil",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Schroeder-Blanda",
-      "Description": "Business-focused bi-directional application",
+      "Name": "Gislason Inc and Sons",
+      "Description": "Multi-lateral composite success",
       "Type": "Boolean",
-      "ListName": "Franecki-Morar",
+      "ListName": "Borer-Cummings",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "eos",
+      "Value": "saepe",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 57
+          "FieldType": "System.Int32",
+          "FieldLength": 748
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 53,
+      "VisibleId": 134,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 197
         }
       }
     },
     {
-      "VisibleId": 53,
+      "VisibleId": 134,
       "Visibility": "All",
-      "DisplayValue": "laudantium",
+      "DisplayValue": "officiis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 58
+          "FieldLength": 197
         }
       }
     }
@@ -147,7 +147,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 176
+      "FieldLength": 639
     }
   }
 }

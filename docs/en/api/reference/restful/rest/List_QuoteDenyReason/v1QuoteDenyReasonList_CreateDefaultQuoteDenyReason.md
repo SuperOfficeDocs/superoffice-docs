@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 465,
-  "Name": "Leuschke, Stamm and Goodwin",
-  "Tooltip": "fuga",
+  "Id": 963,
+  "Name": "Greenfelder LLC",
+  "Tooltip": "et",
   "Deleted": false,
-  "UdListDefinitionId": 674,
-  "Rank": 805,
+  "UdListDefinitionId": 389,
+  "Rank": 404,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 420
+      "FieldLength": 515
     }
   }
 }

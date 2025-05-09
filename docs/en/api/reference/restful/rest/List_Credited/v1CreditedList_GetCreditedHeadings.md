@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Credited/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 305,
-    "Name": "Mraz-Yundt",
-    "Tooltip": "hic",
+    "HeadingId": 205,
+    "Name": "Rodriguez Inc and Sons",
+    "Tooltip": "a",
     "Deleted": true,
-    "Rank": 655,
-    "UdListDefinitionId": 727,
+    "Rank": 370,
+    "UdListDefinitionId": 969,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 189
+        "FieldType": "System.Int32",
+        "FieldLength": 284
       }
     }
   }

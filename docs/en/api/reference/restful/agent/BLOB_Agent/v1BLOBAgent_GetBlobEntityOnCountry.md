@@ -85,11 +85,11 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntityOnCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 308
+  "CountryId": 596
 }
 ```
 
@@ -100,25 +100,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 861,
-  "BlobSize": 212,
-  "Description": "Object-based 5th generation pricing structure",
-  "ExtraInfo": "beatae",
-  "IsEncrypted": true,
-  "IsZipped": false,
-  "MimeType": "iure",
-  "OriginalSize": 127,
-  "CreatedDate": "2000-04-11T13:13:59.5470712+02:00",
-  "UpdatedDate": "2014-02-21T13:13:59.5470712+01:00",
+  "BlobId": 917,
+  "BlobSize": 688,
+  "Description": "Configurable logistical help-desk",
+  "ExtraInfo": "et",
+  "IsEncrypted": false,
+  "IsZipped": true,
+  "MimeType": "fuga",
+  "OriginalSize": 136,
+  "CreatedDate": "2003-05-11T16:32:38.2116027+02:00",
+  "UpdatedDate": "2014-03-27T16:32:38.2116027+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "eum",
+  "ConceptualType": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 914
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/LegalBase/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 373,
-    "Name": "Bergstrom Group",
-    "ToolTip": "Rem a et aperiam.",
-    "Deleted": false,
-    "Rank": 405,
-    "Type": "qui",
-    "ColorBlock": 955,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2001-05-28T13:14:09.7910245+02:00",
+    "Id": 335,
+    "Name": "Zemlak, Greenholt and Waelchi",
+    "ToolTip": "Quisquam exercitationem tempore dicta id amet et facilis.",
+    "Deleted": true,
+    "Rank": 343,
+    "Type": "officia",
+    "ColorBlock": 784,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2002-08-25T16:32:48.6963928+02:00",
     "ChildItems": [
       {
-        "Id": 977,
-        "Name": "Barton, Heaney and Erdman",
-        "ToolTip": "Voluptatem quibusdam quis facere in.",
-        "Deleted": false,
-        "Rank": 262,
-        "Type": "praesentium",
-        "ColorBlock": 290,
-        "IconHint": "minima",
+        "Id": 780,
+        "Name": "Miller Inc and Sons",
+        "ToolTip": "Velit deleniti facere dolores fugit mollitia aut.",
+        "Deleted": true,
+        "Rank": 555,
+        "Type": "assumenda",
+        "ColorBlock": 602,
+        "IconHint": "in",
         "Selected": false,
-        "LastChanged": "1998-04-27T13:14:09.7910245+02:00",
+        "LastChanged": "2004-10-10T16:32:48.6963928+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ducimus",
-        "StyleHint": "eum",
+        "ExtraInfo": "consequuntur",
+        "StyleHint": "rerum",
         "Hidden": false,
-        "FullName": "Kennith Aubree Beahan Sr.",
+        "FullName": "Jeremie VonRueden",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 726
+            "FieldType": "System.String",
+            "FieldLength": 340
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "quod",
-    "Hidden": false,
-    "FullName": "Kailey Doyle",
+    "ExtraInfo": "quibusdam",
+    "StyleHint": "aut",
+    "Hidden": true,
+    "FullName": "Brenden Johnston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldType": "System.String",
+        "FieldLength": 790
       }
     }
   }

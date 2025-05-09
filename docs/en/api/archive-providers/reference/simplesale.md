@@ -56,9 +56,12 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |probPercent|int|Probability as %: Probability as %| x |
 |originalStage|listAny|Stage: Displays the stage of the sale| x |
 |stage|listAny|Stage: Displays the stage of the sale| x |
+|stageName| *None* |Stage name: Displays the stage of the sale| x |
 |saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |saleType|listAny|Sale type: Sale type, from list| x |
+|saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -116,13 +119,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/portraitThumbnail| *None* |Person image: Person image|  |
 |person/personActiveErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |person/ticketPriority|listAny|Service priority: Default service priority for this contact| x |
-|person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
-|person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
-|person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/supportLanguage|listAny|Preferred language: Preferred language used for reply templates and more| x |
+|person/supportAssociate|associate|Our service contact: Default service contact for this contact| x |
+|person/supportAssociateFullName|associate|Our service contact - Full name: Default service contact for this contact| x |
 |person/personAssociateId|associate|Our contact: Displays our contact| x |
 |person/personAssociateFullName|associate|Our contact - Full name: Displays our contact| x |
 |person/personCategory|listAny|Category| x |
@@ -220,13 +223,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |person/personExtra/y\_car/id|int|Car - id: Displays the row's primary key (y\_car)| x |
 |person/personAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/personAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
-|person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
+|person/personAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|person/personAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/personAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |person/personAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |person/personAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -324,13 +327,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |contact/deletedDate|datetime|Deleted date: Deleted date|  |
 |contact/mainContact| *None* |Main contact: Main contact for this company| x |
-|contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
-|contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
-|contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactPhone/formattedNumber|string|Telephone - Phone: Displays phone number|  |
+|contact/contactPhone/description|string|Telephone - Description: Phone number description| x |
+|contact/contactFax/formattedNumber|string|Fax - Phone: Displays phone number|  |
 |contact/contactFax/description|string|Fax - Description: Phone number description| x |
 |contact/searchPhone/formattedNumber|string|Searchphone - Phone: Displays phone number|  |
 |contact/searchPhone/description|string|Searchphone - Description: Phone number description| x |
@@ -428,13 +431,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |contact/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
 |contact/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
 |contact/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
-|contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
-|contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
-|contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
+|contact/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
+|contact/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |contact/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
 |contact/contactExtra/x\_contact\_datetime|datetime|Extra DateTime: Custom Date Time field. No default value. External| x |
 |contact/contactExtra/x\_contact\_time| *None* |Extra time: Custom time field.| x |
@@ -532,13 +535,13 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 |project/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |project/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |project/registeredBy|associate|Registered by: The user who registered the data| x |
-|project/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|project/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
-|project/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+|project/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
+|project/hasGuide|bool|Guided: Does this sale have a Sales Guide| x |
 |project/nextMilestone|date|Next milestone: Date of next non-completed activity that is marked as a milestone| x |
 |project/endDate|date|End date: End date of project| x |
 |project/imageThumbnail| *None* |Thumbnail: Scaled-down image of project image|  |
@@ -623,7 +626,7 @@ This provider name is implemented by the class <see cref="T:SuperOffice.CRM.Arch
 ## Sample
 
 ```http!
-GET /api/v1/archive/SimpleSale?$select=recordType,person/personId,person/personAssociateId,person/personAssociate/lastName,contact/contactAssociate/associateDbId
+GET /api/v1/archive/SimpleSale?$select=person/supportAssociateFullName,person/personBusiness,person/personAssociate/fullName,person/correspondingAssociate/assocTooltip,contact/email/emailDescription
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

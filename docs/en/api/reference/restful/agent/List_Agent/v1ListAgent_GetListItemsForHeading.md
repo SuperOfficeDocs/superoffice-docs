@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 77,
-  "HeadingId": 94
+  "UdListDefinitionId": 69,
+  "HeadingId": 795
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 580,
-    "Name": "Funk-Boehm",
-    "ToolTip": "Consequatur ea ipsam enim consequatur.",
+    "Id": 584,
+    "Name": "Ullrich-Monahan",
+    "ToolTip": "Quis sunt dolores eos voluptatem qui.",
     "Deleted": false,
-    "Rank": 678,
-    "Type": "dolore",
-    "ColorBlock": 508,
-    "IconHint": "quia",
+    "Rank": 823,
+    "Type": "itaque",
+    "ColorBlock": 846,
+    "IconHint": "quo",
     "Selected": false,
-    "LastChanged": "2025-01-08T13:14:00.6106246+01:00",
+    "LastChanged": "2000-10-23T16:32:39.2582391+02:00",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Torphy Group",
-        "ToolTip": "Ex quam ipsum beatae quo autem ea.",
+        "Id": 446,
+        "Name": "Haag-Skiles",
+        "ToolTip": "Doloremque illo nihil est aut esse.",
         "Deleted": false,
-        "Rank": 301,
-        "Type": "accusamus",
-        "ColorBlock": 72,
-        "IconHint": "porro",
-        "Selected": true,
-        "LastChanged": "2002-04-07T13:14:00.6106246+02:00",
+        "Rank": 712,
+        "Type": "eos",
+        "ColorBlock": 545,
+        "IconHint": "et",
+        "Selected": false,
+        "LastChanged": "2014-03-30T16:32:39.2582391+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloremque",
-        "StyleHint": "optio",
-        "Hidden": true,
-        "FullName": "Maia Jessyca Stoltenberg PhD",
+        "ExtraInfo": "et",
+        "StyleHint": "consequatur",
+        "Hidden": false,
+        "FullName": "Osbaldo Kristy Beier Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 634
+            "FieldLength": 813
           }
         }
       }
     ],
-    "ExtraInfo": "molestias",
-    "StyleHint": "soluta",
+    "ExtraInfo": "saepe",
+    "StyleHint": "minima",
     "Hidden": false,
-    "FullName": "Gennaro Fritsch",
+    "FullName": "Jaquan Cummings",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 868
+        "FieldLength": 49
       }
     }
   }

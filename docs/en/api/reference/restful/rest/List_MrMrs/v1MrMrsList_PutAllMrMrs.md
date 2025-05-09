@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/MrMrs/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 151,
-    "Name": "Bayer-Bergnaum",
-    "Tooltip": "quia",
+    "Id": 506,
+    "Name": "Kovacek LLC",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "UdListDefinitionId": 935,
-    "Rank": 355
+    "UdListDefinitionId": 456,
+    "Rank": 449
   },
   {
-    "Id": 151,
-    "Name": "Bayer-Bergnaum",
-    "Tooltip": "quia",
+    "Id": 506,
+    "Name": "Kovacek LLC",
+    "Tooltip": "reiciendis",
     "Deleted": false,
-    "UdListDefinitionId": 935,
-    "Rank": 355
+    "UdListDefinitionId": 456,
+    "Rank": 449
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Name": "Friesen Inc and Sons",
-    "Tooltip": "alias",
+    "Id": 75,
+    "Name": "Wintheiser-Cole",
+    "Tooltip": "quisquam",
     "Deleted": true,
-    "UdListDefinitionId": 980,
-    "Rank": 245,
+    "UdListDefinitionId": 223,
+    "Rank": 498,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 466
+        "FieldType": "System.String",
+        "FieldLength": 2
       }
     }
   }

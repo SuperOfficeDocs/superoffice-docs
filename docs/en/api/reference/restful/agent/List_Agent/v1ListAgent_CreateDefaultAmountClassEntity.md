@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountClassId": 376,
-  "Name": "Nikolaus-Rippin",
-  "Tooltip": "similique",
-  "Rank": 369,
-  "AmountFrom": 12473.32,
-  "AmountTo": 23332.63,
-  "Deleted": false,
-  "CurrencyId": 847,
+  "AmountClassId": 769,
+  "Name": "Kuhn, Schuppe and Schulist",
+  "Tooltip": "culpa",
+  "Rank": 587,
+  "AmountFrom": 30290.11,
+  "AmountTo": 13639.168,
+  "Deleted": true,
+  "CurrencyId": 996,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 297
+      "FieldLength": 323
     }
   }
 }

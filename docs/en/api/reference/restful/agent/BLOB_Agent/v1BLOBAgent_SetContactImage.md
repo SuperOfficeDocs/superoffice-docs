@@ -69,7 +69,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 336,
+  "ContactId": 355,
   "Image": "GIF89....File contents as raw bytes..."
 }
 ```

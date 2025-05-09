@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/CustomerService/SaveCustomerCenterConfig
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 217,
+  "CustConfigId": 357,
   "Type": "Options",
-  "Config": "ea",
-  "CustLangId": 903,
-  "Registered": "2004-07-18T13:14:00.0163364+02:00",
-  "RegisteredAssociateId": 425,
-  "Updated": "2015-07-15T13:14:00.0163364+02:00",
-  "UpdatedAssociateId": 42
+  "Config": "recusandae",
+  "CustLangId": 188,
+  "Registered": "2022-02-13T16:32:38.570895+01:00",
+  "RegisteredAssociateId": 591,
+  "Updated": "2010-02-13T16:32:38.570895+01:00",
+  "UpdatedAssociateId": 573
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustConfigId": 169,
+  "CustConfigId": 232,
   "Type": "Options",
-  "Config": "reiciendis",
-  "CustLangId": 800,
-  "Registered": "2017-08-11T13:14:00.0163364+02:00",
-  "RegisteredAssociateId": 114,
-  "Updated": "2022-12-31T13:14:00.0163364+01:00",
-  "UpdatedAssociateId": 885,
+  "Config": "atque",
+  "CustLangId": 823,
+  "Registered": "2023-09-08T16:32:38.570895+02:00",
+  "RegisteredAssociateId": 123,
+  "Updated": "2005-06-29T16:32:38.570895+02:00",
+  "UpdatedAssociateId": 488,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 376
+      "FieldType": "System.Int32",
+      "FieldLength": 408
     }
   }
 }

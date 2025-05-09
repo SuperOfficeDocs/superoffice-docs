@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 560,
-    "Name": "Champlin, Graham and Rowe",
-    "Tooltip": "dignissimos",
+    "Id": 323,
+    "Name": "Dicki, Lesch and Lang",
+    "Tooltip": "debitis",
     "Deleted": false,
-    "UdListDefinitionId": 473,
-    "Rank": 755,
+    "UdListDefinitionId": 602,
+    "Rank": 589,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 218
+        "FieldType": "System.Int32",
+        "FieldLength": 759
       }
     }
   }

@@ -73,7 +73,7 @@ OK
 POST /api/v1/Agents/EMail/CacheFolderList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bauch-Konopelski",
-    "Delimiter": "fugiat",
-    "Flags": "saepe",
-    "TotalItems": 422,
-    "UnreadItems": 998,
-    "Subscribed": false,
-    "EmailFolderId": 135,
+    "Name": "Reinger Inc and Sons",
+    "Delimiter": "excepturi",
+    "Flags": "minima",
+    "TotalItems": 881,
+    "UnreadItems": 34,
+    "Subscribed": true,
+    "EmailFolderId": 936,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 942
+        "FieldType": "System.Int32",
+        "FieldLength": 701
       }
     }
   }

@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 323,
+    "Id": 248,
     "Value": "molestiae",
-    "Tooltip": "facere",
+    "Tooltip": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 539
+        "FieldLength": 448
       }
     }
   },
   {
-    "Id": 323,
+    "Id": 248,
     "Value": "molestiae",
-    "Tooltip": "facere",
+    "Tooltip": "enim",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 539
+        "FieldLength": 448
       }
     }
   }

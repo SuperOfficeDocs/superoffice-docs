@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 110,
-    "Name": "Luettgen LLC",
-    "Tooltip": "inventore",
-    "Deleted": true,
-    "UdListDefinitionId": 217,
-    "Rank": 342,
+    "Id": 584,
+    "Name": "Bergnaum, Kling and Doyle",
+    "Tooltip": "consequuntur",
+    "Deleted": false,
+    "UdListDefinitionId": 432,
+    "Rank": 537,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 921
+        "FieldLength": 153
       }
     }
   }

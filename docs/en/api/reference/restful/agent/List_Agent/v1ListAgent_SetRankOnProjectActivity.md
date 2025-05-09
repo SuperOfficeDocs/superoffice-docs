@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/List/SetRankOnProjectActivity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectTypeStatusLinkId": 90,
+  "ProjectTypeStatusLinkId": 564,
   "ItemsIds": [
-    209,
-    580
+    990,
+    776
   ]
 }
 ```

@@ -164,15 +164,15 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "id",
-  "ProviderName": "Champlin, Brekke and Kautzer",
-  "DesiredColumns": "nesciunt",
-  "PageSize": 802,
-  "PageNumber": 905
+  "Restrictions": "natus",
+  "ProviderName": "Monahan, Gottlieb and Weber",
+  "DesiredColumns": "culpa",
+  "PageSize": 876,
+  "PageNumber": 148
 }
 ```
 
@@ -185,51 +185,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Waters-Rolfson",
-      "DisplayTooltip": "quaerat",
-      "DisplayType": "recusandae",
-      "CanOrderBy": true,
-      "Name": "Sawayn Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "est",
-      "RestrictionListName": "Corwin-Beer",
-      "IsVisible": false,
-      "ExtraInfo": "est",
-      "Width": "facilis",
-      "IconHint": "et",
-      "HeadingIconHint": "facere"
+      "DisplayName": "Glover-Howe",
+      "DisplayTooltip": "sed",
+      "DisplayType": "et",
+      "CanOrderBy": false,
+      "Name": "Beer Group",
+      "CanRestrictBy": true,
+      "RestrictionType": "rem",
+      "RestrictionListName": "Walter, Rolfson and Fisher",
+      "IsVisible": true,
+      "ExtraInfo": "voluptatum",
+      "Width": "non",
+      "IconHint": "quasi",
+      "HeadingIconHint": "fugiat"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Dibbert Inc and Sons",
-      "PrimaryKey": 126,
+      "EntityName": "Okuneva Group",
+      "PrimaryKey": 809,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "enim",
-          "TooltipHint": "consequuntur",
-          "LinkHint": "iusto"
+          "DisplayValue": "impedit",
+          "TooltipHint": "aperiam",
+          "LinkHint": "qui"
         }
       },
-      "LinkHint": "repudiandae",
-      "StyleHint": "et",
+      "LinkHint": "rerum",
+      "StyleHint": "itaque",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 53
+          "FieldType": "System.String",
+          "FieldLength": 848
         }
       }
     }
   ],
-  "RowCount": 515,
+  "RowCount": 114,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 27
+      "FieldLength": 566
     }
   }
 }

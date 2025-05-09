@@ -117,26 +117,26 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplateWithCustomTags
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 851,
-  "PersonId": 529,
-  "AppointmentId": 364,
-  "DocumentId": 238,
-  "SaleId": 721,
-  "SelectionId": 490,
-  "ProjectId": 332,
+  "ContactId": 95,
+  "PersonId": 647,
+  "AppointmentId": 660,
+  "DocumentId": 44,
+  "SaleId": 849,
+  "SelectionId": 777,
+  "ProjectId": 471,
   "CustomTags": [
-    "cumque",
-    "qui"
+    "voluptatem",
+    "quae"
   ],
   "CustomValues": [
-    "et",
-    "qui"
+    "quos",
+    "saepe"
   ],
-  "UiCulture": "aut"
+  "UiCulture": "esse"
 }
 ```
 
@@ -147,88 +147,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 678,
+  "DocumentId": 849,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "voluptatem",
-  "Header": "error",
-  "Name": "Reinger Group",
-  "OurRef": "laboriosam",
-  "YourRef": "et",
-  "CreatedDate": "2023-01-14T13:14:00.1882219+01:00",
-  "UpdatedDate": "2000-02-21T13:14:00.1882219+01:00",
-  "Description": "Adaptive background database",
+  "Attention": "vel",
+  "Header": "amet",
+  "Name": "Johnston Inc and Sons",
+  "OurRef": "voluptatum",
+  "YourRef": "tempora",
+  "CreatedDate": "2007-02-17T16:32:38.8677056+01:00",
+  "UpdatedDate": "1998-02-12T16:32:38.8677056+01:00",
+  "Description": "Diverse systemic moderator",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2009-01-28T13:14:00.1882219+01:00",
-  "ExternalRef": "minus",
+  "Date": "2017-07-06T16:32:38.8677056+02:00",
+  "ExternalRef": "quo",
   "Completed": "Completed",
-  "ActiveLinks": 695,
+  "ActiveLinks": 810,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Tremblay-Thiel",
-      "Id": 216,
-      "Description": "Inverse eco-centric installation",
-      "ExtraInfo": "consectetur",
-      "LinkId": 106,
+      "EntityName": "Hodkiewicz, Lakin and Paucek",
+      "Id": 911,
+      "Description": "Streamlined 24/7 benchmark",
+      "ExtraInfo": "labore",
+      "LinkId": 998,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 894
+          "FieldLength": 814
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 152,
-  "Snum": 608,
+  "SuggestedDocumentId": 91,
+  "Snum": 787,
   "UserDefinedFields": {
-    "SuperOffice:1": "Zachary Anderson",
-    "SuperOffice:2": "234861759"
+    "SuperOffice:1": "Miss Baron Casper I",
+    "SuperOffice:2": "Cristal Farrell"
   },
   "ExtraFields": {
-    "ExtraFields1": "qui",
+    "ExtraFields1": "amet",
     "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "molestiae",
-    "CustomFields2": "unde"
+    "CustomFields1": "maxime",
+    "CustomFields2": "dolores"
   },
-  "PublishEventDate": "1999-11-29T13:14:00.1882219+01:00",
-  "PublishTo": "2024-08-16T13:14:00.1882219+02:00",
-  "PublishFrom": "2022-10-31T13:14:00.1882219+01:00",
+  "PublishEventDate": "2001-06-16T16:32:38.8677056+02:00",
+  "PublishTo": "2007-08-25T16:32:38.8677056+02:00",
+  "PublishFrom": "2006-12-12T16:32:38.8677056+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 771,
+      "VisibleId": 81,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldLength": 461
         }
       }
     },
     {
-      "VisibleId": 771,
+      "VisibleId": 81,
       "Visibility": "All",
-      "DisplayValue": "commodi",
+      "DisplayValue": "tempora",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 254
+          "FieldLength": 461
         }
       }
     }
@@ -238,7 +238,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 884
     }
   }
 }

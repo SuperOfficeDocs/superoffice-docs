@@ -88,11 +88,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Satterfield, Lakin and Bauch",
-  "DeviceName": "Renner, Kub and Hermiston",
-  "DeviceIdentifier": "vitae",
-  "TableName": "Jacobi-Haley",
-  "RecordId": 454
+  "ApplicationName": "Hoeger Inc and Sons",
+  "DeviceName": "Eichmann-Kertzmann",
+  "DeviceIdentifier": "voluptatem",
+  "TableName": "Lehner Group",
+  "RecordId": 960
 }
 ```
 
@@ -104,20 +104,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "ullam",
-    "Value": "cumque",
-    "RecordId": 940,
-    "CreatedDate": "2023-06-06T13:14:00.5168611+02:00",
-    "UpdatedDate": "1999-12-10T13:14:00.5168611+01:00",
-    "UpdatedBy": "laboriosam",
-    "CreatedBy": "est",
-    "TableName": "Wolf, Durgan and Barrows",
+    "Key": "similique",
+    "Value": "consequatur",
+    "RecordId": 119,
+    "CreatedDate": "2008-08-26T16:32:39.180141+02:00",
+    "UpdatedDate": "2011-02-01T16:32:39.180141+01:00",
+    "UpdatedBy": "molestiae",
+    "CreatedBy": "laudantium",
+    "TableName": "Marvin, Runolfsdottir and Maggio",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 748
+        "FieldLength": 948
       }
     }
   }

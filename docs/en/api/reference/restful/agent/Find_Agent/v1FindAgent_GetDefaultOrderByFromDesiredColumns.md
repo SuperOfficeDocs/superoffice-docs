@@ -75,13 +75,13 @@ OK
 POST /api/v1/Agents/Find/GetDefaultOrderByFromDesiredColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Hammes-Flatley",
+  "ProviderName": "Pagac, Gorczany and Johnson",
   "DesiredColumns": [
-    "officia",
+    "suscipit",
     "alias"
   ]
 }
@@ -95,11 +95,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Lowe-Pfannerstill",
+    "Name": "Lemke, Corkery and Morissette",
     "Direction": "ASC"
   },
   {
-    "Name": "Lowe-Pfannerstill",
+    "Name": "Lemke, Corkery and Morissette",
     "Direction": "ASC"
   }
 ]

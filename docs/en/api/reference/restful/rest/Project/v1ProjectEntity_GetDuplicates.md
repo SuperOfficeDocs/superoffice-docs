@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Stokes LLC",
-    "SoPrimaryKey": 514,
-    "EntryName": "Jacobi-Stroman",
-    "EntryIdentifier": "beatae",
-    "RuleDisplayName": "Champlin-Shanahan",
+    "RuleName": "Reynolds, Ryan and Cronin",
+    "SoPrimaryKey": 131,
+    "EntryName": "Jones, Conroy and Pouros",
+    "EntryIdentifier": "est",
+    "RuleDisplayName": "Carter-Goldner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 161
+        "FieldLength": 454
       }
     }
   }

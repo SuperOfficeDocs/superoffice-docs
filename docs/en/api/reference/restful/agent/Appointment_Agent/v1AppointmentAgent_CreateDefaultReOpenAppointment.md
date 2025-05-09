@@ -132,11 +132,11 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultReOpenAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleId": 34
+  "SaleId": 289
 }
 ```
 
@@ -151,121 +151,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2008-12-14T13:13:59.4063589+01:00",
-  "AppointmentId": 384,
-  "Description": "Configurable neutral orchestration",
-  "Title": "est",
-  "Agenda": "quo",
-  "InternalNotes": "laborum",
-  "StartDate": "2012-09-05T13:13:59.4063589+02:00",
-  "EndDate": "2012-04-23T13:13:59.4063589+02:00",
+  "CreatedDate": "2017-07-02T16:32:38.0553932+02:00",
+  "AppointmentId": 689,
+  "Description": "Business-focused attitude-oriented hub",
+  "Title": "aut",
+  "Agenda": "vero",
+  "InternalNotes": "ratione",
+  "StartDate": "2004-02-06T16:32:38.0553932+01:00",
+  "EndDate": "2007-02-09T16:32:38.0553932+01:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 251,
+  "MotherId": 976,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2006-08-18T13:13:59.4221723+02:00",
+  "UpdatedDate": "1998-11-23T16:32:38.0553932+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 311,
+  "ActiveLinks": 260,
   "Links": [
     {
-      "EntityName": "Goyette LLC",
-      "Id": 56,
-      "Description": "Realigned impactful extranet",
-      "ExtraInfo": "laudantium",
-      "LinkId": 926,
+      "EntityName": "Cronin Inc and Sons",
+      "Id": 774,
+      "Description": "Multi-lateral tertiary policy",
+      "ExtraInfo": "error",
+      "LinkId": 4,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 896
+          "FieldLength": 674
         }
       }
     }
   ],
-  "AlarmLeadTime": "odio",
-  "HasAlarm": false,
-  "ColorIndex": 715,
-  "IsFree": false,
+  "AlarmLeadTime": "nulla",
+  "HasAlarm": true,
+  "ColorIndex": 172,
+  "IsFree": true,
   "IsAlldayEvent": false,
-  "LagTime": "fugit",
-  "LeadTime": "et",
-  "Location": "et",
-  "RejectCounter": 511,
+  "LagTime": "suscipit",
+  "LeadTime": "dolorem",
+  "Location": "qui",
+  "RejectCounter": 640,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 432,
-      "PersonId": 916,
-      "ContactId": 259,
-      "EmailId": 90,
-      "SendEmail": false,
+      "AssociateId": 589,
+      "PersonId": 347,
+      "ContactId": 440,
+      "EmailId": 559,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "audrey@konopelskikris.com",
-      "Description": "Seamless reciprocal intranet"
+      "EmailAddress": "aletha@willms.info",
+      "Description": "Proactive 24/7 model"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2003-11-08T13:13:59.4221723+01:00",
+  "ActiveDate": "2013-12-24T16:32:38.0553932+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 794,
+  "PreferredTZLocation": 519,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 849,
+  "SuggestedAppointmentId": 24,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sed",
+  "CentralserviceVideomeetId": "quia",
   "UserDefinedFields": {
-    "SuperOffice:1": "1240080206",
-    "SuperOffice:2": "Arnulfo Lilliana Emmerich I"
+    "SuperOffice:1": "Cathryn Jacobs IV",
+    "SuperOffice:2": "Lavada Dibbert I"
   },
   "ExtraFields": {
-    "ExtraFields1": "rem",
-    "ExtraFields2": "dolores"
+    "ExtraFields1": "molestias",
+    "ExtraFields2": "sit"
   },
   "CustomFields": {
-    "CustomFields1": "et",
-    "CustomFields2": "accusamus"
+    "CustomFields1": "corrupti",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2004-03-08T13:13:59.4231812+01:00",
-  "PublishTo": "2023-01-08T13:13:59.4231812+01:00",
-  "PublishFrom": "2016-09-29T13:13:59.4231812+02:00",
+  "PublishEventDate": "2014-01-23T16:32:38.0553932+01:00",
+  "PublishTo": "1999-09-09T16:32:38.0553932+02:00",
+  "PublishFrom": "2015-05-01T16:32:38.0553932+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 507,
+      "VisibleId": 712,
       "Visibility": "All",
-      "DisplayValue": "placeat",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 666
+          "FieldType": "System.String",
+          "FieldLength": 110
         }
       }
     },
     {
-      "VisibleId": 507,
+      "VisibleId": 712,
       "Visibility": "All",
-      "DisplayValue": "placeat",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 666
+          "FieldType": "System.String",
+          "FieldLength": 110
         }
       }
     }
@@ -274,8 +274,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 427
+      "FieldType": "System.Int32",
+      "FieldLength": 683
     }
   }
 }

@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 913,
-    "Name": "Keebler Inc and Sons",
-    "Tooltip": "velit",
-    "Deleted": false,
-    "UdListDefinitionId": 438,
-    "Rank": 979
+    "Id": 64,
+    "Name": "Padberg-Kuhlman",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "UdListDefinitionId": 859,
+    "Rank": 430
   },
   {
-    "Id": 913,
-    "Name": "Keebler Inc and Sons",
-    "Tooltip": "velit",
-    "Deleted": false,
-    "UdListDefinitionId": 438,
-    "Rank": 979
+    "Id": 64,
+    "Name": "Padberg-Kuhlman",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "UdListDefinitionId": 859,
+    "Rank": 430
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 721,
-    "Name": "Tremblay, Veum and Pagac",
-    "Tooltip": "molestias",
+    "Id": 876,
+    "Name": "Bosco-Deckow",
+    "Tooltip": "sint",
     "Deleted": false,
-    "UdListDefinitionId": 786,
-    "Rank": 98,
+    "UdListDefinitionId": 90,
+    "Rank": 252,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 513
+        "FieldLength": 2
       }
     }
   }

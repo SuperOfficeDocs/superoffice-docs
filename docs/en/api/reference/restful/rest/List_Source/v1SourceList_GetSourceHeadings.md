@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 650,
-    "Name": "Torphy, Mayert and Gutkowski",
-    "Tooltip": "culpa",
+    "HeadingId": 809,
+    "Name": "O'Hara-Kozey",
+    "Tooltip": "quidem",
     "Deleted": false,
-    "Rank": 846,
-    "UdListDefinitionId": 662,
+    "Rank": 678,
+    "UdListDefinitionId": 916,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 91
+        "FieldType": "System.Int32",
+        "FieldLength": 48
       }
     }
   }

@@ -71,11 +71,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 906,
-  "ListItemId": 98,
+  "UdListDefinitionId": 82,
+  "ListItemId": 685,
   "HeadingIds": [
-    59,
-    752
+    273,
+    87
   ],
   "Enable": false
 }

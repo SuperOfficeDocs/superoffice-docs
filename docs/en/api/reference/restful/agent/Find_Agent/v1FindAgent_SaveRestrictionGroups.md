@@ -82,23 +82,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aliquam",
-  "ProviderName": "Schinner Group",
-  "StorageKey": "qui",
+  "StorageType": "ratione",
+  "ProviderName": "McDermott, Dickens and Abshire",
+  "StorageKey": "est",
   "RestrictionGroups": [
     {
-      "Name": "Ward-Weber",
-      "Description": "Vision-oriented homogeneous knowledge base",
-      "Rank": 461,
+      "Name": "Cole Group",
+      "Description": "Up-sized zero tolerance open system",
+      "Rank": 629,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Ward-Weber",
-      "Description": "Vision-oriented homogeneous knowledge base",
-      "Rank": 461,
+      "Name": "Cole Group",
+      "Description": "Up-sized zero tolerance open system",
+      "Rank": 629,
       "Restrictions": [
         {},
         {}
@@ -117,58 +117,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "VonRueden, Rolfson and Auer",
-    "Description": "Managed next generation project",
-    "Rank": 285,
+    "Name": "Shields Group",
+    "Description": "Decentralized clear-thinking collaboration",
+    "Rank": 616,
     "Restrictions": [
       {
-        "Name": "McDermott, Hayes and Wilkinson",
-        "Operator": "aut",
+        "Name": "Kirlin Group",
+        "Operator": "eligendi",
         "Values": [
-          "soluta",
-          "sed"
+          "eligendi",
+          "quod"
         ],
         "DisplayValues": [
-          "facere",
-          "neque"
+          "consequatur",
+          "facere"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 258,
+        "InterParenthesis": 47,
         "InterOperator": "And",
-        "UniqueHash": 233
+        "UniqueHash": 63
       }
     ]
   },
   {
-    "Name": "VonRueden, Rolfson and Auer",
-    "Description": "Managed next generation project",
-    "Rank": 285,
+    "Name": "Shields Group",
+    "Description": "Decentralized clear-thinking collaboration",
+    "Rank": 616,
     "Restrictions": [
       {
-        "Name": "McDermott, Hayes and Wilkinson",
-        "Operator": "aut",
+        "Name": "Kirlin Group",
+        "Operator": "eligendi",
         "Values": [
-          "soluta",
-          "sed"
+          "eligendi",
+          "quod"
         ],
         "DisplayValues": [
-          "facere",
-          "neque"
+          "consequatur",
+          "facere"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 258,
+        "InterParenthesis": 47,
         "InterOperator": "And",
-        "UniqueHash": 233
+        "UniqueHash": 63
       }
     ]
   }

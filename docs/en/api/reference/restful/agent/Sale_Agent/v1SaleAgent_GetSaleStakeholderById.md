@@ -91,13 +91,13 @@ OK
 POST /api/v1/Agents/Sale/GetSaleStakeholderById
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "SaleStakeholderIds": [
-    968,
-    464
+    712,
+    940
   ]
 }
 ```
@@ -110,31 +110,31 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "StakeholderRoleName": "Flatley, Hermann and Langosh",
-    "Comment": "animi",
-    "StakeholderRoleId": 280,
-    "CountryId": 617,
-    "PersonId": 379,
-    "EmailDescription": "shea@konopelski.name",
-    "EmailId": 803,
-    "EmailAddress": "julio_rosenbaum@zboncak.co.uk",
-    "PhoneId": 194,
-    "ContactName": "Toy, Schmitt and Dickinson",
-    "ContactId": 762,
-    "SaleId": 436,
-    "Mrmrs": "accusamus",
-    "Firstname": "Caterina",
-    "MiddleName": "Wilkinson, Willms and Robel",
-    "Lastname": "Haag",
-    "SaleStakeholderId": 487,
-    "Rank": 541,
-    "Phone": "589-316-7522 x570",
+    "StakeholderRoleName": "O'Connell, Wunsch and Beahan",
+    "Comment": "deleniti",
+    "StakeholderRoleId": 520,
+    "CountryId": 880,
+    "PersonId": 854,
+    "EmailDescription": "myrl@walker.us",
+    "EmailId": 489,
+    "EmailAddress": "kristian@schroeder.us",
+    "PhoneId": 185,
+    "ContactName": "Zulauf Inc and Sons",
+    "ContactId": 708,
+    "SaleId": 525,
+    "Mrmrs": "quia",
+    "Firstname": "Stanton",
+    "MiddleName": "Goodwin, Kuvalis and Quigley",
+    "Lastname": "Hagenes",
+    "SaleStakeholderId": 904,
+    "Rank": 495,
+    "Phone": "(362)281-9920",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 886
+        "FieldLength": 954
       }
     }
   }

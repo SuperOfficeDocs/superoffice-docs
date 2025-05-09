@@ -163,14 +163,14 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictions2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Restrictions": "blanditiis",
-  "ProviderName": "Langworth, Kreiger and Waelchi",
-  "PageSize": 334,
-  "PageNumber": 996
+  "Restrictions": "a",
+  "ProviderName": "Quitzon LLC",
+  "PageSize": 717,
+  "PageNumber": 970
 }
 ```
 
@@ -183,51 +183,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Wilkinson Inc and Sons",
-      "DisplayTooltip": "accusamus",
-      "DisplayType": "ad",
-      "CanOrderBy": false,
-      "Name": "Greenholt Group",
-      "CanRestrictBy": false,
-      "RestrictionType": "ex",
-      "RestrictionListName": "Mills-Sauer",
-      "IsVisible": false,
-      "ExtraInfo": "sint",
-      "Width": "consequuntur",
-      "IconHint": "similique",
-      "HeadingIconHint": "consequatur"
+      "DisplayName": "Kuvalis-Goodwin",
+      "DisplayTooltip": "in",
+      "DisplayType": "voluptas",
+      "CanOrderBy": true,
+      "Name": "Cummings, Ruecker and Blanda",
+      "CanRestrictBy": true,
+      "RestrictionType": "aut",
+      "RestrictionListName": "Abernathy-Mertz",
+      "IsVisible": true,
+      "ExtraInfo": "adipisci",
+      "Width": "id",
+      "IconHint": "ipsum",
+      "HeadingIconHint": "veniam"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Mohr-Hermiston",
-      "PrimaryKey": 138,
+      "EntityName": "O'Kon LLC",
+      "PrimaryKey": 89,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "velit",
-          "TooltipHint": "iusto",
-          "LinkHint": "harum"
+          "DisplayValue": "commodi",
+          "TooltipHint": "nisi",
+          "LinkHint": "mollitia"
         }
       },
-      "LinkHint": "sed",
-      "StyleHint": "voluptatem",
+      "LinkHint": "cumque",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 840
+          "FieldLength": 574
         }
       }
     }
   ],
-  "RowCount": 261,
+  "RowCount": 957,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 609
+      "FieldLength": 717
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/List/GetCountryList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 478,
-    "Name": "Cruickshank, Walker and Jacobson",
-    "CurrencyId": 472,
-    "EnglishName": "Kerluke Inc and Sons",
+    "CountryId": 215,
+    "Name": "Emard LLC",
+    "CurrencyId": 227,
+    "EnglishName": "Cronin, Kirlin and Ratke",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Cross-group hybrid alliance",
-    "OrgNrText": "630971",
-    "InterAreaPrefix": "quibusdam",
-    "DialInPrefix": "voluptas",
-    "ZipPrefix": "quae",
-    "DomainName": "Wuckert Group",
-    "AddressLayoutId": 195,
-    "DomesticAddressLayoutId": 764,
-    "ForeignAddressLayoutId": 220,
-    "Rank": 622,
-    "Tooltip": "sequi",
+    "ImageDescription": "Multi-lateral content-based firmware",
+    "OrgNrText": "414174",
+    "InterAreaPrefix": "quasi",
+    "DialInPrefix": "velit",
+    "ZipPrefix": "eveniet",
+    "DomainName": "Miller-Murazik",
+    "AddressLayoutId": 801,
+    "DomesticAddressLayoutId": 345,
+    "ForeignAddressLayoutId": 624,
+    "Rank": 915,
+    "Tooltip": "commodi",
     "Deleted": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 457
+        "FieldType": "System.Int32",
+        "FieldLength": 577
       }
     }
   }

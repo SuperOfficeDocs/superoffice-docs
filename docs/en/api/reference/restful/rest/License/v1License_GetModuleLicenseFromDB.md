@@ -72,7 +72,7 @@ OK
 GET /api/v1/License/{ownerName}/{moduleName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,20 +82,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerName": "Huels-O'Kon",
-  "ModuleName": "Robel Inc and Sons",
-  "ModuleDescription": "Persevering web-enabled neural-net",
-  "ModuleTooltip": "ea",
-  "ModuleVersion": "asperiores",
+  "OwnerName": "Pacocha Inc and Sons",
+  "ModuleName": "Haley, Boyer and Gottlieb",
+  "ModuleDescription": "Synergized systemic capacity",
+  "ModuleTooltip": "ipsam",
+  "ModuleVersion": "possimus",
   "LicenseType": "SatelliteLicense",
   "Unrestricted": false,
   "AllowedUserType": "AnonymousAssociate",
-  "NumberOfLicenses": 649,
-  "ExtraFlags": 827,
-  "ExtraInfo": "ea",
-  "SortOrder": 263,
-  "IsHidden": true,
-  "PrerequisiteModuleName": "Zulauf-Hamill",
-  "Signature": "qui"
+  "NumberOfLicenses": 316,
+  "ExtraFlags": 341,
+  "ExtraInfo": "nostrum",
+  "SortOrder": 60,
+  "IsHidden": false,
+  "PrerequisiteModuleName": "Brown-Graham",
+  "Signature": "et"
 }
 ```

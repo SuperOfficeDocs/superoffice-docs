@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/Quote/SaveQuoteLineConfigurations
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "QuoteLineConfigurations": [
     {
-      "QuoteLineConfigurationId": 1002,
-      "FieldName": "Fisher LLC",
-      "Label": "id",
-      "Tooltip": "ea",
-      "Editable": false,
+      "QuoteLineConfigurationId": 914,
+      "FieldName": "Dickens Group",
+      "Label": "reiciendis",
+      "Tooltip": "quisquam",
+      "Editable": true,
       "InUse": false,
-      "Mandatory": false,
-      "Rank": 32,
+      "Mandatory": true,
+      "Rank": 653,
       "RestrictEdit": false
     }
   ]
@@ -111,21 +111,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 546,
-    "FieldName": "Hintz, Bahringer and McGlynn",
-    "Label": "provident",
-    "Tooltip": "adipisci",
-    "Editable": false,
-    "InUse": true,
+    "QuoteLineConfigurationId": 252,
+    "FieldName": "Wyman Group",
+    "Label": "saepe",
+    "Tooltip": "qui",
+    "Editable": true,
+    "InUse": false,
     "Mandatory": false,
-    "Rank": 1001,
+    "Rank": 7,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 528
+        "FieldType": "System.String",
+        "FieldLength": 690
       }
     }
   }

@@ -121,11 +121,11 @@ OK
 POST /api/v1/Agents/Quote/GetQuoteLines
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 766
+  "QuoteAlternativeId": 362
 }
 ```
 
@@ -137,88 +137,88 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineId": 417,
-    "ERPQuoteLineKey": "qui",
-    "QuoteAlternativeId": 389,
-    "ERPProductKey": "pariatur",
+    "QuoteLineId": 839,
+    "ERPQuoteLineKey": "ut",
+    "QuoteAlternativeId": 109,
+    "ERPProductKey": "deleniti",
     "Status": "Error",
     "Reason": "",
-    "Quantity": 2316.026,
-    "DeliveredQuantity": 27306.541999999998,
-    "Rank": 981,
-    "Name": "Daugherty LLC",
-    "Description": "Front-line bandwidth-monitored hub",
-    "Code": "vel",
-    "QuantityUnit": "omnis",
-    "PriceUnit": "consequuntur",
-    "ItemNumber": "1297848",
+    "Quantity": 13096.985999999999,
+    "DeliveredQuantity": 21599.528,
+    "Rank": 703,
+    "Name": "Borer LLC",
+    "Description": "Realigned high-level circuit",
+    "Code": "quaerat",
+    "QuantityUnit": "iure",
+    "PriceUnit": "nemo",
+    "ItemNumber": "816892",
     "Url": "http://www.example.com/",
     "ProductCategoryKey": "VIP Customer",
-    "ProductFamilyKey": "aspernatur",
-    "ProductTypeKey": "asperiores",
-    "Supplier": "itaque",
-    "SupplierCode": "voluptatibus",
-    "Thumbnail": "quisquam",
-    "VATInfo": "et",
-    "VAT": 19878.962,
-    "UnitCost": 4635.186,
-    "UnitMinimumPrice": 31126.888,
-    "UnitListPrice": 12420.042,
+    "ProductFamilyKey": "aliquid",
+    "ProductTypeKey": "qui",
+    "Supplier": "iusto",
+    "SupplierCode": "ratione",
+    "Thumbnail": "molestias",
+    "VATInfo": "in",
+    "VAT": 12210.064,
+    "UnitCost": 27525.922,
+    "UnitMinimumPrice": 2181.264,
+    "UnitListPrice": 16497.376,
     "ExtraInfo": [
       {
-        "Name": "Kris-Grant",
-        "Value": "quis",
+        "Name": "Ondricka Group",
+        "Value": "voluptas",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 234
+            "FieldLength": 632
           }
         }
       },
       {
-        "Name": "Kris-Grant",
-        "Value": "quis",
+        "Name": "Ondricka Group",
+        "Value": "voluptas",
         "Type": "Image",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 234
+            "FieldLength": 632
           }
         }
       }
     ],
-    "RawExtraInfo": "nam",
+    "RawExtraInfo": "ut",
     "IsSubscription": true,
-    "SubscriptionUnit": "dolorem",
-    "SubscriptionQuantity": 11937.405999999999,
-    "SubscriptionStart": "2021-10-11T13:14:01.017639+02:00",
-    "ERPDiscountPercent": 17939.016,
-    "ERPDiscountAmount": 5562.8499999999995,
-    "DiscountPercent": 10561.58,
-    "DiscountAmount": 20477.556,
+    "SubscriptionUnit": "et",
+    "SubscriptionQuantity": 28400.307999999997,
+    "SubscriptionStart": "2018-04-03T16:32:39.7583671+02:00",
+    "ERPDiscountPercent": 17669.492,
+    "ERPDiscountAmount": 3416.06,
+    "DiscountPercent": 15271.982,
+    "DiscountAmount": 12322.887999999999,
     "UserValueOverride": "DiscountAmount",
-    "EarningPercent": 25491.956,
-    "EarningAmount": 10533.374,
-    "SubTotal": 28187.196,
-    "TotalPrice": 22956.55,
-    "Rights": "sint",
-    "Rule": "illo",
-    "ExtraField1": "ipsum",
-    "ExtraField2": "consectetur",
-    "ExtraField3": "incidunt",
-    "ExtraField4": "ea",
-    "ExtraField5": "numquam",
+    "EarningPercent": 28096.309999999998,
+    "EarningAmount": 6161.4439999999995,
+    "SubTotal": 19151.874,
+    "TotalPrice": 6524.9879999999994,
+    "Rights": "animi",
+    "Rule": "minima",
+    "ExtraField1": "repellendus",
+    "ExtraField2": "est",
+    "ExtraField3": "tenetur",
+    "ExtraField4": "voluptatem",
+    "ExtraField5": "qui",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 965
+        "FieldLength": 573
       }
     }
   }

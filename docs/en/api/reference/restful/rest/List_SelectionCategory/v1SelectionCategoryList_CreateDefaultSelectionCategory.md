@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/SelectionCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 647,
-  "Name": "Keeling, Daugherty and Kirlin",
-  "Tooltip": "veniam",
+  "Id": 139,
+  "Name": "Nolan Inc and Sons",
+  "Tooltip": "sint",
   "Deleted": false,
-  "UdListDefinitionId": 231,
-  "Rank": 239,
+  "UdListDefinitionId": 745,
+  "Rank": 418,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 774
+      "FieldType": "System.String",
+      "FieldLength": 126
     }
   }
 }

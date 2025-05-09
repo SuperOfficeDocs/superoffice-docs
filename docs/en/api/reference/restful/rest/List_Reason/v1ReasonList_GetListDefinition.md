@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Reason
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 753,
-  "Name": "Cremin-Schulist",
-  "Tooltip": "et",
-  "Deleted": true,
-  "Rank": 304,
+  "Id": 506,
+  "Name": "Quigley, Murray and Johns",
+  "Tooltip": "sunt",
+  "Deleted": false,
+  "Rank": 722,
   "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
-  "InUseByUserDefinedFields": true,
+  "ListType": "quod",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 551
+      "FieldType": "System.String",
+      "FieldLength": 250
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

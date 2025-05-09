@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 619,
-    "Name": "Harris Group",
-    "ToolTip": "Ab sunt quis delectus.",
-    "Deleted": false,
-    "Rank": 212,
-    "Type": "velit",
-    "ColorBlock": 701,
-    "IconHint": "eius",
+    "Id": 477,
+    "Name": "Hayes-Beahan",
+    "ToolTip": "Tempora sunt quaerat eaque maxime et eveniet.",
+    "Deleted": true,
+    "Rank": 898,
+    "Type": "quia",
+    "ColorBlock": 159,
+    "IconHint": "sint",
     "Selected": false,
-    "LastChanged": "2002-03-04T13:14:09.7128949+01:00",
+    "LastChanged": "2010-06-02T16:32:48.6182885+02:00",
     "ChildItems": [
       {
-        "Id": 299,
-        "Name": "O'Connell-Nitzsche",
-        "ToolTip": "Velit nam nam.",
-        "Deleted": true,
-        "Rank": 339,
-        "Type": "nam",
-        "ColorBlock": 974,
-        "IconHint": "unde",
+        "Id": 478,
+        "Name": "Blanda, Dicki and Predovic",
+        "ToolTip": "Id voluptas fugit natus ex culpa.",
+        "Deleted": false,
+        "Rank": 640,
+        "Type": "temporibus",
+        "ColorBlock": 913,
+        "IconHint": "possimus",
         "Selected": false,
-        "LastChanged": "2006-06-02T13:14:09.7128949+02:00",
+        "LastChanged": "2014-11-12T16:32:48.6182885+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "ut",
-        "Hidden": false,
-        "FullName": "Lizeth Waelchi"
+        "ExtraInfo": "sint",
+        "StyleHint": "tenetur",
+        "Hidden": true,
+        "FullName": "Fiona Stanford Koch PhD"
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "qui",
+    "ExtraInfo": "porro",
+    "StyleHint": "quisquam",
     "Hidden": false,
-    "FullName": "Jettie Ritchie"
+    "FullName": "Dr. Leanne Frederick Larkin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 271,
-    "Name": "Stiedemann-Dach",
-    "ToolTip": "Repudiandae suscipit nam ab assumenda.",
+    "Id": 260,
+    "Name": "Lehner Group",
+    "ToolTip": "Dolorem dolor unde animi.",
     "Deleted": false,
-    "Rank": 818,
-    "Type": "ducimus",
-    "ColorBlock": 85,
-    "IconHint": "placeat",
-    "Selected": false,
-    "LastChanged": "2010-07-26T13:14:09.7128949+02:00",
+    "Rank": 904,
+    "Type": "id",
+    "ColorBlock": 382,
+    "IconHint": "ad",
+    "Selected": true,
+    "LastChanged": "2011-03-04T16:32:48.6182885+01:00",
     "ChildItems": [
       {
-        "Id": 501,
-        "Name": "Kemmer Group",
-        "ToolTip": "Maiores culpa voluptas maiores et minus voluptas.",
-        "Deleted": false,
-        "Rank": 74,
-        "Type": "autem",
-        "ColorBlock": 639,
+        "Id": 944,
+        "Name": "Rippin-Rogahn",
+        "ToolTip": "Ratione nemo enim quibusdam commodi.",
+        "Deleted": true,
+        "Rank": 961,
+        "Type": "similique",
+        "ColorBlock": 872,
         "IconHint": "adipisci",
-        "Selected": false,
-        "LastChanged": "2010-04-19T13:14:09.7128949+02:00",
+        "Selected": true,
+        "LastChanged": "2007-09-23T16:32:48.6182885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dolorem",
-        "StyleHint": "consequatur",
-        "Hidden": true,
-        "FullName": "Mrs. Daren Cremin III",
+        "ExtraInfo": "et",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Luther Lehner",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 117
+            "FieldLength": 195
           }
         }
       }
     ],
-    "ExtraInfo": "id",
-    "StyleHint": "est",
+    "ExtraInfo": "libero",
+    "StyleHint": "sint",
     "Hidden": true,
-    "FullName": "Leif Ullrich MD",
+    "FullName": "Adonis Ullrich III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 598
+        "FieldLength": 363
       }
     }
   }

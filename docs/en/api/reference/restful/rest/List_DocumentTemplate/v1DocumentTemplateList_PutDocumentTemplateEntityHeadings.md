@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DocumentTemplate/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 902,
-    "Name": "Mueller Inc and Sons",
-    "Tooltip": "inventore",
-    "Deleted": false,
-    "Rank": 501,
-    "UdListDefinitionId": 218
+    "HeadingId": 986,
+    "Name": "Ullrich, Gaylord and McGlynn",
+    "Tooltip": "eius",
+    "Deleted": true,
+    "Rank": 617,
+    "UdListDefinitionId": 840
   },
   {
-    "HeadingId": 902,
-    "Name": "Mueller Inc and Sons",
-    "Tooltip": "inventore",
-    "Deleted": false,
-    "Rank": 501,
-    "UdListDefinitionId": 218
+    "HeadingId": 986,
+    "Name": "Ullrich, Gaylord and McGlynn",
+    "Tooltip": "eius",
+    "Deleted": true,
+    "Rank": 617,
+    "UdListDefinitionId": 840
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 687,
-    "Name": "Russel-Considine",
-    "Tooltip": "delectus",
-    "Deleted": false,
-    "Rank": 309,
-    "UdListDefinitionId": 803,
+    "HeadingId": 602,
+    "Name": "Walsh Group",
+    "Tooltip": "esse",
+    "Deleted": true,
+    "Rank": 205,
+    "UdListDefinitionId": 293,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 97
+        "FieldLength": 790
       }
     }
   }

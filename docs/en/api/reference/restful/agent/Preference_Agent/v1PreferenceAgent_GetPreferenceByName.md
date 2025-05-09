@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefSection": "ut",
-  "PrefKey": "sint",
+  "PrefSection": "sint",
+  "PrefKey": "mollitia",
   "PrefLevel": "Database"
 }
 ```
@@ -103,22 +103,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "quod",
+  "RawValue": "in",
   "Specification": null,
-  "DisplayValue": "consequatur",
-  "DisplayTooltip": "aut",
+  "DisplayValue": "placeat",
+  "DisplayTooltip": "praesentium",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 772,
-  "PrefDescId": 916,
-  "TableName": "Wehner, Bradtke and Boehm",
-  "UserPreferenceId": 775,
+  "TargetId": 918,
+  "PrefDescId": 119,
+  "TableName": "Gerlach-O'Connell",
+  "UserPreferenceId": 699,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 377
+      "FieldType": "System.Int32",
+      "FieldLength": 254
     }
   }
 }

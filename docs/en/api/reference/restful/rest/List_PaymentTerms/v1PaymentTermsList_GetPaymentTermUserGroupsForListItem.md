@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 272,
-    "Name": "Von, Boyle and Waters",
-    "ToolTip": "Assumenda quia a et assumenda non ex praesentium.",
+    "Id": 305,
+    "Name": "Schiller, Crona and Wisozk",
+    "ToolTip": "Quam aut atque alias.",
     "Deleted": false,
-    "Rank": 672,
-    "Type": "repudiandae",
-    "ColorBlock": 343,
-    "IconHint": "sed",
-    "Selected": false,
-    "LastChanged": "2003-09-06T13:14:09.8222767+02:00",
+    "Rank": 622,
+    "Type": "est",
+    "ColorBlock": 943,
+    "IconHint": "natus",
+    "Selected": true,
+    "LastChanged": "2015-09-25T16:32:48.7276378+02:00",
     "ChildItems": [
       {
-        "Id": 132,
-        "Name": "Renner-Spencer",
-        "ToolTip": "Est aut ea ea aut rem minus.",
+        "Id": 17,
+        "Name": "Hackett LLC",
+        "ToolTip": "Sequi animi sed cumque.",
         "Deleted": false,
-        "Rank": 630,
-        "Type": "voluptates",
-        "ColorBlock": 114,
-        "IconHint": "dicta",
-        "Selected": false,
-        "LastChanged": "2001-06-01T13:14:09.8222767+02:00",
+        "Rank": 538,
+        "Type": "non",
+        "ColorBlock": 187,
+        "IconHint": "aspernatur",
+        "Selected": true,
+        "LastChanged": "2012-09-11T16:32:48.7276378+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eius",
-        "StyleHint": "mollitia",
+        "ExtraInfo": "in",
+        "StyleHint": "magni",
         "Hidden": false,
-        "FullName": "Ms. Lula Schaden",
+        "FullName": "Cedrick Alexa Lubowitz Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 610
+            "FieldLength": 44
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "eos",
-    "Hidden": true,
-    "FullName": "Prof. Marisa Mills",
+    "ExtraInfo": "dolores",
+    "StyleHint": "pariatur",
+    "Hidden": false,
+    "FullName": "Lincoln Cronin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 97
+        "FieldLength": 5
       }
     }
   }

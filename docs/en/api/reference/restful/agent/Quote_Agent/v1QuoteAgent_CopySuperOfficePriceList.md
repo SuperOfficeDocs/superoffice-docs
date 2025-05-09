@@ -87,16 +87,16 @@ OK
 POST /api/v1/Agents/Quote/CopySuperOfficePriceList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "OriginalPriceListId": 762,
-  "NewName": "Mann-Upton",
-  "ValidFrom": "2014-01-14T13:14:00.9702863+01:00",
-  "ValidTo": "2024-03-02T13:14:00.9702863+01:00",
-  "NewCurrencyId": 596,
-  "ConvertCurrency": true
+  "OriginalPriceListId": 3,
+  "NewName": "Leannon Group",
+  "ValidFrom": "2012-07-23T16:32:39.7115027+02:00",
+  "ValidTo": "2009-01-16T16:32:39.7115027+01:00",
+  "NewCurrencyId": 616,
+  "ConvertCurrency": false
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 538,
-  "ERPPriceListKey": "in",
-  "QuoteConnectionId": 610,
-  "Name": "Zboncak-Marquardt",
-  "Description": "Extended bi-directional interface",
-  "Currency": "culpa",
-  "CurrencyName": "Witting Inc and Sons",
-  "ValidFrom": "2009-10-18T13:14:00.9702863+02:00",
-  "ValidTo": "2010-06-19T13:14:00.9702863+02:00",
+  "PriceListId": 459,
+  "ERPPriceListKey": "voluptatem",
+  "QuoteConnectionId": 186,
+  "Name": "Renner, Koss and Homenick",
+  "Description": "Inverse actuating service-desk",
+  "Currency": "ex",
+  "CurrencyName": "Gorczany, Bartell and Orn",
+  "ValidFrom": "2008-08-23T16:32:39.7115027+02:00",
+  "ValidTo": "2007-01-27T16:32:39.7115027+01:00",
   "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 133
+      "FieldLength": 19
     }
   }
 }

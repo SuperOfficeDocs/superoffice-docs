@@ -120,27 +120,27 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 654,
+  "ShipmentMessageId": 395,
   "PlainMessage": "aut",
-  "HtmlMessage": "earum",
-  "SmsMessage": "voluptatem",
-  "Description": "Secured cohesive productivity",
-  "Subject": "quaerat",
-  "FolderId": 345,
-  "HeaderField": "fugiat",
-  "Design": "et",
+  "HtmlMessage": "qui",
+  "SmsMessage": "earum",
+  "Description": "Automated coherent open system",
+  "Subject": "hic",
+  "FolderId": 546,
+  "HeaderField": "aut",
+  "Design": "velit",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": true,
+  "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Focused real-time standardization",
-  "AccessKey": "quis",
-  "DocumentMessage": 283,
-  "Registered": "2008-01-20T13:14:09.1966452+01:00",
-  "RegisteredAssociateId": 193,
-  "Updated": "2014-08-15T13:14:09.1966452+02:00",
-  "UpdatedAssociateId": 225,
-  "UpdatedCount": 312
+  "LongDescription": "Enterprise-wide secondary core",
+  "AccessKey": "neque",
+  "DocumentMessage": 28,
+  "Registered": "1998-03-29T16:32:48.1025764+02:00",
+  "RegisteredAssociateId": 377,
+  "Updated": "2020-12-14T16:32:48.1025764+01:00",
+  "UpdatedAssociateId": 105,
+  "UpdatedCount": 835
 }
 ```
 
@@ -151,33 +151,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 270,
-  "PlainMessage": "neque",
-  "HtmlMessage": "officia",
-  "SmsMessage": "rem",
-  "Description": "Versatile client-driven Graphical User Interface",
-  "Subject": "velit",
-  "FolderId": 764,
-  "HeaderField": "sunt",
-  "Design": "fugit",
+  "ShipmentMessageId": 413,
+  "PlainMessage": "excepturi",
+  "HtmlMessage": "laboriosam",
+  "SmsMessage": "illum",
+  "Description": "Profound secondary hub",
+  "Subject": "tenetur",
+  "FolderId": 834,
+  "HeaderField": "architecto",
+  "Design": "asperiores",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
   "InlineImages": false,
-  "LongDescription": "Horizontal logistical circuit",
-  "AccessKey": "repellendus",
-  "DocumentMessage": 408,
-  "Registered": "2009-10-06T13:14:09.1966452+02:00",
-  "RegisteredAssociateId": 659,
-  "Updated": "2019-03-21T13:14:09.1966452+01:00",
-  "UpdatedAssociateId": 114,
-  "UpdatedCount": 678,
+  "LongDescription": "De-engineered object-oriented migration",
+  "AccessKey": "omnis",
+  "DocumentMessage": 745,
+  "Registered": "2017-06-22T16:32:48.1025764+02:00",
+  "RegisteredAssociateId": 907,
+  "Updated": "2013-06-08T16:32:48.1025764+02:00",
+  "UpdatedAssociateId": 323,
+  "UpdatedCount": 780,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 404
+      "FieldType": "System.Int32",
+      "FieldLength": 380
     }
   },
   "_Links": {

@@ -50,6 +50,8 @@ generated: true
 
 * [POST Agents/Diagnostics/PerformTasksAfterUpgrade](v1DiagnosticsAgent_PerformTasksAfterUpgrade.md)
 
+* [POST Agents/Diagnostics/PerformTasksAfterCustomObjectTableDeleted](v1DiagnosticsAgent_PerformTasksAfterCustomObjectTableDeleted.md)
+
 * [POST Agents/Diagnostics/AddWebAppUsage](v1DiagnosticsAgent_AddWebAppUsage.md)
 
 * [POST Agents/Diagnostics/WebAppUsageExistsInPeriod](v1DiagnosticsAgent_WebAppUsageExistsInPeriod.md)

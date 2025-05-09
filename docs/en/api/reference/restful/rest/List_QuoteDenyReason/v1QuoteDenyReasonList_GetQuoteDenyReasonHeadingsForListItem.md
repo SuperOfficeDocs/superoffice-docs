@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/QuoteDenyReason/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 180,
-    "Name": "Littel Inc and Sons",
-    "ToolTip": "Fuga dolorem.",
-    "Deleted": true,
-    "Rank": 528,
-    "Type": "voluptas",
-    "ColorBlock": 158,
-    "IconHint": "maiores",
+    "Id": 414,
+    "Name": "Schuppe, Feil and Bailey",
+    "ToolTip": "Maxime est.",
+    "Deleted": false,
+    "Rank": 898,
+    "Type": "quod",
+    "ColorBlock": 264,
+    "IconHint": "fugiat",
     "Selected": false,
-    "LastChanged": "2014-05-31T13:14:09.9941617+02:00",
+    "LastChanged": "2019-12-21T16:32:48.8838567+01:00",
     "ChildItems": [
       {
-        "Id": 614,
-        "Name": "Lesch Group",
-        "ToolTip": "Iusto accusantium aut consequatur illo doloribus.",
+        "Id": 714,
+        "Name": "Franecki LLC",
+        "ToolTip": "Aperiam expedita et repudiandae.",
         "Deleted": true,
-        "Rank": 858,
-        "Type": "maiores",
-        "ColorBlock": 943,
-        "IconHint": "corporis",
+        "Rank": 254,
+        "Type": "voluptas",
+        "ColorBlock": 126,
+        "IconHint": "debitis",
         "Selected": false,
-        "LastChanged": "2018-04-17T13:14:09.9941617+02:00",
+        "LastChanged": "2004-10-21T16:32:48.8838567+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "ipsam",
-        "Hidden": true,
-        "FullName": "Karley O'Connell",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "totam",
+        "Hidden": false,
+        "FullName": "Josiah Kuhn Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 325
+            "FieldType": "System.String",
+            "FieldLength": 32
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "fugit",
+    "ExtraInfo": "sit",
+    "StyleHint": "numquam",
     "Hidden": false,
-    "FullName": "Carlotta Klocko",
+    "FullName": "Prof. Lauren Rodriguez I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 597
+        "FieldLength": 66
       }
     }
   }

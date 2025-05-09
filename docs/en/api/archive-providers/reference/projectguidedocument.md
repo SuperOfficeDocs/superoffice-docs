@@ -659,9 +659,12 @@ to drive the sentry calculations, as well as the specialization with the correct
 |documentInstance/sale/probPercent|int|Probability as %: Probability as %| x |
 |documentInstance/sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |documentInstance/sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|documentInstance/sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |documentInstance/sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |documentInstance/sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |documentInstance/sale/saleType|listAny|Sale type: Sale type, from list| x |
+|documentInstance/sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|documentInstance/sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |documentInstance/sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |documentInstance/sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |documentInstance/sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -729,7 +732,7 @@ to drive the sentry calculations, as well as the specialization with the correct
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/keywords,documentInstance/person/phone/formattedNumber,documentInstance/contact/contactId,documentInstance/contact/NumberOfActivities,documentInstance/project/projectAssociate/simultaneousEjUser
+GET /api/v1/archive/ProjectGuideDocument?$select=documentInstance/person/personExtra/x_person_priority_relation,documentInstance/contact/contactExtra/x_contact_time,documentInstance/person/correspondingAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

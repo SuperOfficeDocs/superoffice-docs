@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/DeliveryType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 973,
-    "Name": "McCullough, Corkery and Jacobi",
-    "Tooltip": "at",
+    "HeadingId": 232,
+    "Name": "Kohler, Bradtke and Hirthe",
+    "Tooltip": "natus",
     "Deleted": false,
-    "Rank": 356,
-    "UdListDefinitionId": 429,
+    "Rank": 891,
+    "UdListDefinitionId": 957,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 929
+        "FieldType": "System.String",
+        "FieldLength": 555
       }
     }
   }

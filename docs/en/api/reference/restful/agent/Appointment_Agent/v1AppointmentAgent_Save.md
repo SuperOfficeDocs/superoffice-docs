@@ -136,13 +136,13 @@ OK
 POST /api/v1/Agents/Appointment/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentEntity": null,
   "UpdateMode": "OnlyThis",
-  "SendEmailToParticipants": false,
+  "SendEmailToParticipants": true,
   "SmtpEMailConnectionInfo": null,
   "ImapEMailConnectionInfo": null
 }
@@ -159,121 +159,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2004-02-24T13:13:59.2969775+01:00",
-  "AppointmentId": 705,
-  "Description": "Up-sized 24 hour benchmark",
-  "Title": "a",
-  "Agenda": "est",
-  "InternalNotes": "laudantium",
-  "StartDate": "2024-10-18T13:13:59.2969775+02:00",
-  "EndDate": "2022-09-20T13:13:59.2969775+02:00",
+  "CreatedDate": "2009-08-16T16:32:37.9304176+02:00",
+  "AppointmentId": 442,
+  "Description": "Object-based asynchronous initiative",
+  "Title": "ut",
+  "Agenda": "et",
+  "InternalNotes": "maxime",
+  "StartDate": "2025-03-17T16:32:37.9304176+01:00",
+  "EndDate": "2023-06-22T16:32:37.9304176+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 30,
+  "MotherId": 583,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2022-08-28T13:13:59.2969775+02:00",
+  "UpdatedDate": "2019-05-17T16:32:37.9304176+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 165,
+  "ActiveLinks": 791,
   "Links": [
     {
-      "EntityName": "Hyatt, Bradtke and Metz",
-      "Id": 854,
-      "Description": "Right-sized optimal internet solution",
-      "ExtraInfo": "dolor",
-      "LinkId": 172,
+      "EntityName": "Romaguera-Cormier",
+      "Id": 428,
+      "Description": "Open-architected 3rd generation productivity",
+      "ExtraInfo": "quaerat",
+      "LinkId": 227,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 868
+          "FieldLength": 332
         }
       }
     }
   ],
-  "AlarmLeadTime": "sit",
-  "HasAlarm": true,
-  "ColorIndex": 668,
+  "AlarmLeadTime": "id",
+  "HasAlarm": false,
+  "ColorIndex": 928,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "saepe",
-  "LeadTime": "minus",
-  "Location": "ab",
-  "RejectCounter": 45,
+  "LagTime": "animi",
+  "LeadTime": "ex",
+  "Location": "aut",
+  "RejectCounter": 761,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 897,
-      "PersonId": 150,
-      "ContactId": 467,
-      "EmailId": 347,
-      "SendEmail": false,
+      "AssociateId": 690,
+      "PersonId": 744,
+      "ContactId": 819,
+      "EmailId": 971,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "deshawn_grady@jewess.biz",
-      "Description": "Customer-focused secondary orchestration"
+      "EmailAddress": "reece@trompkuhic.ca",
+      "Description": "Assimilated maximized matrix"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2012-03-28T13:13:59.2969775+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2016-02-19T16:32:37.9304176+01:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 231,
+  "PreferredTZLocation": 940,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 270,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 626,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
   "CentralserviceVideomeetId": "qui",
   "UserDefinedFields": {
-    "SuperOffice:1": "Dr. Lelah Maud Doyle",
-    "SuperOffice:2": "1064555735"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "False"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "illo"
+    "ExtraFields1": "et",
+    "ExtraFields2": "aliquam"
   },
   "CustomFields": {
-    "CustomFields1": "autem",
-    "CustomFields2": "in"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "nesciunt"
   },
-  "PublishEventDate": "2000-04-24T13:13:59.2969775+02:00",
-  "PublishTo": "1998-04-01T13:13:59.2969775+02:00",
-  "PublishFrom": "2001-11-02T13:13:59.2969775+01:00",
+  "PublishEventDate": "2005-05-04T16:32:37.9304176+02:00",
+  "PublishTo": "2021-09-12T16:32:37.9304176+02:00",
+  "PublishFrom": "2016-01-04T16:32:37.9304176+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 523,
+      "VisibleId": 674,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 594
+          "FieldType": "System.String",
+          "FieldLength": 105
         }
       }
     },
     {
-      "VisibleId": 523,
+      "VisibleId": 674,
       "Visibility": "All",
-      "DisplayValue": "voluptate",
+      "DisplayValue": "illo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 594
+          "FieldType": "System.String",
+          "FieldLength": 105
         }
       }
     }
@@ -283,7 +283,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 160
+      "FieldLength": 17
     }
   }
 }

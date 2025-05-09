@@ -95,33 +95,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CustomerNewCustomerTemplateId": 642,
-  "CustomerCustomerReplyTemplateId": 965,
-  "CustomerPasswordTemplateId": 866,
-  "CustomerConfirmEmailTemplateId": 760,
-  "CustomerChatLogTemplateId": 775,
-  "NewLinkTemplateId": 594,
-  "HotlistNewMessageTemplateId": 689,
-  "HotlistTicketActivatedTemplateId": 706,
-  "UserTicketAlarmTemplateId": 248,
-  "HotlistTicketTakenOverTemplateId": 318,
-  "UserActiveTicketsTemplateId": 487,
-  "UserNewMessageTemplateId": 801,
-  "UserTicketActivatedTemplateId": 384,
-  "UserNewTicketTemplateId": 573,
-  "PublishKbQuestionTemplateId": 309,
-  "PublishKbAnswerTemplateId": 814,
-  "UserTicketTakenOverTemplateId": 499,
-  "PrintTicketTemplateId": 557,
-  "WeekStatTemplateId": 932,
-  "TicketAlarmHotlistTemplateId": 581,
-  "EmailAddresses": "lou@senger.ca",
+  "CustomerNewCustomerTemplateId": 155,
+  "CustomerCustomerReplyTemplateId": 438,
+  "CustomerPasswordTemplateId": 551,
+  "CustomerConfirmEmailTemplateId": 776,
+  "CustomerChatLogTemplateId": 672,
+  "NewLinkTemplateId": 619,
+  "HotlistNewMessageTemplateId": 851,
+  "HotlistTicketActivatedTemplateId": 845,
+  "UserTicketAlarmTemplateId": 584,
+  "HotlistTicketTakenOverTemplateId": 845,
+  "UserActiveTicketsTemplateId": 508,
+  "UserNewMessageTemplateId": 540,
+  "UserTicketActivatedTemplateId": 135,
+  "UserNewTicketTemplateId": 245,
+  "PublishKbQuestionTemplateId": 387,
+  "PublishKbAnswerTemplateId": 453,
+  "UserTicketTakenOverTemplateId": 55,
+  "PrintTicketTemplateId": 779,
+  "WeekStatTemplateId": 337,
+  "TicketAlarmHotlistTemplateId": 979,
+  "EmailAddresses": "mohammed.steuber@spinka.ca",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 382
+      "FieldLength": 959
     }
   }
 }

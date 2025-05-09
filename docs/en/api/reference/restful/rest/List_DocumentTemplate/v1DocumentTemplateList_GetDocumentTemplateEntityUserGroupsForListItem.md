@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 256,
-    "Name": "Cummings Inc and Sons",
-    "ToolTip": "Provident autem ut ex iure iusto.",
-    "Deleted": false,
-    "Rank": 555,
+    "Id": 575,
+    "Name": "Runte, Lowe and Abernathy",
+    "ToolTip": "Qui quam.",
+    "Deleted": true,
+    "Rank": 588,
     "Type": "expedita",
-    "ColorBlock": 141,
-    "IconHint": "est",
-    "Selected": true,
-    "LastChanged": "2019-08-09T13:14:09.7753986+02:00",
+    "ColorBlock": 340,
+    "IconHint": "ipsam",
+    "Selected": false,
+    "LastChanged": "1999-09-29T16:32:48.6807732+02:00",
     "ChildItems": [
       {
-        "Id": 935,
-        "Name": "Sauer-Nolan",
-        "ToolTip": "Dolore officiis tempore ducimus impedit.",
-        "Deleted": false,
-        "Rank": 460,
-        "Type": "aut",
-        "ColorBlock": 260,
-        "IconHint": "ut",
-        "Selected": true,
-        "LastChanged": "2002-11-22T13:14:09.7753986+01:00",
+        "Id": 242,
+        "Name": "Larkin-Runte",
+        "ToolTip": "Sunt iusto debitis omnis porro tempora.",
+        "Deleted": true,
+        "Rank": 164,
+        "Type": "distinctio",
+        "ColorBlock": 168,
+        "IconHint": "ullam",
+        "Selected": false,
+        "LastChanged": "2003-11-05T16:32:48.6807732+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "aut",
-        "Hidden": false,
-        "FullName": "Dr. Demond Rice MD",
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "odio",
+        "Hidden": true,
+        "FullName": "Adella Abernathy",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 189
+            "FieldType": "System.String",
+            "FieldLength": 692
           }
         }
       }
     ],
-    "ExtraInfo": "quae",
-    "StyleHint": "odit",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "ducimus",
     "Hidden": false,
-    "FullName": "Prof. Josue Tianna O'Hara",
+    "FullName": "Coty Cruickshank",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 971
+        "FieldType": "System.String",
+        "FieldLength": 880
       }
     }
   }

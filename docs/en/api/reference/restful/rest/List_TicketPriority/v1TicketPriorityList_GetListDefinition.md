@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 675,
-  "Name": "Kuhlman, Gutkowski and Lakin",
-  "Tooltip": "voluptates",
-  "Deleted": false,
-  "Rank": 436,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quae",
+  "Id": 518,
+  "Name": "Harber-Yost",
+  "Tooltip": "odio",
+  "Deleted": true,
+  "Rank": 748,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "omnis",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 403
+      "FieldLength": 920
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

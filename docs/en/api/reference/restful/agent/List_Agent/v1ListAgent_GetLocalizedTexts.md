@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 973,
-    "ResourceId": 247,
-    "Text": "fuga",
+    "LanguageId": 300,
+    "ResourceId": 526,
+    "Text": "aut",
     "Type": "Column",
-    "LocalizedTextId": 535,
+    "LocalizedTextId": 35,
     "IsBuiltIn": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 101
+        "FieldType": "System.Int32",
+        "FieldLength": 50
       }
     }
   }

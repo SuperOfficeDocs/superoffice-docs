@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 177,
-    "Name": "Price-Hettinger",
-    "Tooltip": "enim",
+    "HeadingId": 373,
+    "Name": "Bednar-Weimann",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 621,
-    "UdListDefinitionId": 514,
+    "Rank": 801,
+    "UdListDefinitionId": 323,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 745
+        "FieldLength": 627
       }
     }
   }

@@ -122,7 +122,7 @@ RoleEntity  updated.
 PATCH /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
@@ -146,16 +146,16 @@ HTTP/1.1 200 RoleEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 125,
-  "Name": "Kovacek, Stiedemann and Schneider",
-  "Tooltip": "qui",
+  "RoleId": 351,
+  "Name": "Schaden, Kuphal and Paucek",
+  "Tooltip": "ratione",
   "RoleType": "Anonymous",
-  "Deleted": 325,
-  "Rank": 224,
-  "Created": "2017-05-26T13:14:08.9773824+02:00",
-  "UseCategories": 91,
+  "Deleted": 839,
+  "Rank": 136,
+  "Created": "2009-10-06T16:32:47.7745258+02:00",
+  "UseCategories": 109,
   "CreatedBy": null,
-  "Updated": "2012-09-27T13:14:08.9930077+02:00",
+  "Updated": "2014-11-02T16:32:47.7745258+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -163,7 +163,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 337
+      "FieldLength": 870
     }
   },
   "_Links": {

@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDomainDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Domain": "magnam"
+  "Domain": "sit"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Skiles-Champlin",
-    "SoPrimaryKey": 943,
-    "EntryName": "Dibbert, Jakubowski and Watsica",
-    "EntryIdentifier": "quia",
-    "RuleDisplayName": "Luettgen, Smith and Pacocha",
+    "RuleName": "Rowe-Wisoky",
+    "SoPrimaryKey": 441,
+    "EntryName": "Pfannerstill-Schroeder",
+    "EntryIdentifier": "laudantium",
+    "RuleDisplayName": "Flatley, Parisian and Konopelski",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 913
+        "FieldLength": 705
       }
     }
   }

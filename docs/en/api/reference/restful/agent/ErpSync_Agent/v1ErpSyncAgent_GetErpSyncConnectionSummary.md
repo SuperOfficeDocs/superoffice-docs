@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectionSummary
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpSyncConnectionId": 819
+  "ErpSyncConnectionId": 679
 }
 ```
 
@@ -95,37 +95,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DisplayName": "Klein-Gerlach",
-  "DisplayDescription": "Synergistic tertiary solution",
+  "DisplayName": "Jenkins, Walter and Kautzer",
+  "DisplayDescription": "Versatile content-based array",
   "Active": false,
   "Deleted": false,
-  "LastSync": "2017-12-24T13:14:00.4387312+01:00",
+  "LastSync": "2002-01-12T16:32:39.0864027+01:00",
   "Actors": [
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "hic",
-      "Mappings": "ut",
+      "Defaults": "laboriosam",
+      "Mappings": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 180
+          "FieldType": "System.String",
+          "FieldLength": 694
         }
       }
     },
     {
       "ActorType": "Customer",
       "HasMappings": true,
-      "Defaults": "hic",
-      "Mappings": "ut",
+      "Defaults": "laboriosam",
+      "Mappings": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 180
+          "FieldType": "System.String",
+          "FieldLength": 694
         }
       }
     }
@@ -135,7 +135,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 243
+      "FieldLength": 668
     }
   }
 }

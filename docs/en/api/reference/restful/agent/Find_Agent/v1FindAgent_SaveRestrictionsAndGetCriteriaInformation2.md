@@ -86,11 +86,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "blanditiis",
-  "ProviderName": "Kreiger-Sawayn",
-  "StorageKey": "optio",
-  "Restrictions": "accusantium",
-  "StaticColumns": "et"
+  "StorageType": "voluptas",
+  "ProviderName": "Schumm, Boehm and Mraz",
+  "StorageKey": "aut",
+  "Restrictions": "voluptas",
+  "StaticColumns": "a"
 }
 ```
 
@@ -103,81 +103,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Harvey, Hammes and Brakus",
-      "Operator": "et",
+      "Name": "Luettgen, DuBuque and Gutkowski",
+      "Operator": "inventore",
       "Values": [
-        "similique",
-        "rem"
+        "natus",
+        "veniam"
       ],
       "DisplayValues": [
-        "minus",
-        "fugiat"
+        "fuga",
+        "commodi"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 53,
+      "InterParenthesis": 684,
       "InterOperator": "And",
-      "UniqueHash": 855
+      "UniqueHash": 251
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Bailey LLC",
-      "DisplayTooltip": "qui",
-      "DisplayType": "eveniet",
+      "DisplayName": "Goldner, Altenwerth and Altenwerth",
+      "DisplayTooltip": "et",
+      "DisplayType": "doloremque",
       "CanOrderBy": true,
-      "Name": "Adams Group",
+      "Name": "Stanton, Mosciski and Heidenreich",
       "CanRestrictBy": false,
-      "RestrictionType": "aperiam",
-      "RestrictionListName": "Bode, Hirthe and Lemke",
+      "RestrictionType": "cupiditate",
+      "RestrictionListName": "Dickens-Rowe",
       "IsVisible": false,
-      "ExtraInfo": "nesciunt",
-      "Width": "id",
-      "IconHint": "autem",
-      "HeadingIconHint": "animi"
+      "ExtraInfo": "quibusdam",
+      "Width": "omnis",
+      "IconHint": "esse",
+      "HeadingIconHint": "ut"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Jerde, Keebler and Treutel",
-      "PrimaryKey": 786,
+      "EntityName": "Macejkovic LLC",
+      "PrimaryKey": 5,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "doloremque",
-          "TooltipHint": "occaecati",
-          "LinkHint": "est"
+          "DisplayValue": "quisquam",
+          "TooltipHint": "voluptatibus",
+          "LinkHint": "totam"
         }
       },
-      "LinkHint": "explicabo",
-      "StyleHint": "non",
+      "LinkHint": "ducimus",
+      "StyleHint": "sint",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 391
+          "FieldLength": 434
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Koepp-Wunsch",
-      "Description": "Phased fault-tolerant model",
-      "Rank": 560,
+      "Name": "Renner, Roob and Kiehn",
+      "Description": "Focused bottom-line structure",
+      "Rank": 748,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Koepp-Wunsch",
-      "Description": "Phased fault-tolerant model",
-      "Rank": 560,
+      "Name": "Renner, Roob and Kiehn",
+      "Description": "Focused bottom-line structure",
+      "Rank": 748,
       "Restrictions": [
         {},
         {}
@@ -188,8 +188,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 270
+      "FieldType": "System.String",
+      "FieldLength": 985
     }
   }
 }

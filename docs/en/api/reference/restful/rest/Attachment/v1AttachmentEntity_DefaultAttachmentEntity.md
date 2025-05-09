@@ -74,20 +74,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 719,
-  "Name": "Johnson LLC",
-  "ContentType": "sit",
-  "AttSize": 111,
+  "AttachmentId": 519,
+  "Name": "Witting-Hills",
+  "ContentType": "dolorum",
+  "AttSize": 296,
   "InlineImage": false,
-  "ContentId": "unde",
-  "AuthKey": "a",
+  "ContentId": "eius",
+  "AuthKey": "quibusdam",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 808
+      "FieldLength": 942
     }
   }
 }

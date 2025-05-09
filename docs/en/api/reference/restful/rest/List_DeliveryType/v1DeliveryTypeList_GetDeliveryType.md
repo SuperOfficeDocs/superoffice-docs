@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/DeliveryType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 478,
-  "Name": "Hane, Leffler and Schiller",
-  "Tooltip": "quia",
-  "Deleted": true,
-  "UdListDefinitionId": 104,
-  "Rank": 251,
+  "Id": 805,
+  "Name": "Murray Inc and Sons",
+  "Tooltip": "quae",
+  "Deleted": false,
+  "UdListDefinitionId": 663,
+  "Rank": 501,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 884
+      "FieldType": "System.Int32",
+      "FieldLength": 840
     }
   }
 }

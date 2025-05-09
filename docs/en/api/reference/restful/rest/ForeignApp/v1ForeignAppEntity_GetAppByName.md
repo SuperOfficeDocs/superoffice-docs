@@ -65,7 +65,7 @@ OK
 GET /api/v1/ForeignApp/{applicationName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,32 +73,32 @@ Accept-Language: *
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 04 Dec 2021 13:14:08 G12T
+Last-Modified: Sun, 12 Sep 1999 16:32:47 G9T
 
 {
-  "ForeignAppId": 909,
-  "Name": "Hills-Beatty",
-  "CreatedDate": "2018-02-13T13:14:08.7585151+01:00",
-  "UpdatedDate": "2021-12-04T13:14:08.7585151+01:00",
+  "ForeignAppId": 138,
+  "Name": "Durgan, Pfeffer and Bogisich",
+  "CreatedDate": "2015-02-24T16:32:47.5402031+01:00",
+  "UpdatedDate": "1999-09-12T16:32:47.5402031+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 330,
-      "Name": "Beer, Harber and McGlynn",
-      "CreatedDate": "2002-06-17T13:14:08.7585151+02:00",
-      "UpdatedDate": "2017-03-03T13:14:08.7585151+01:00",
-      "AssociateFullName": "Nikko Mills",
-      "CreatedBy": "fugiat",
-      "UpdatedBy": "modi",
-      "DeviceIdentifier": "a",
-      "ForeignAppId": 177,
+      "ForeignDeviceId": 265,
+      "Name": "Kassulke Inc and Sons",
+      "CreatedDate": "2011-03-03T16:32:47.5402031+01:00",
+      "UpdatedDate": "2021-09-22T16:32:47.5402031+02:00",
+      "AssociateFullName": "Rozella Leannon",
+      "CreatedBy": "temporibus",
+      "UpdatedBy": "nostrum",
+      "DeviceIdentifier": "repudiandae",
+      "ForeignAppId": 753,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 624
+          "FieldLength": 398
         }
       }
     }
@@ -107,8 +107,8 @@ Last-Modified: Sat, 04 Dec 2021 13:14:08 G12T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 183
+      "FieldType": "System.Int32",
+      "FieldLength": 144
     }
   }
 }

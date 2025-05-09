@@ -103,36 +103,36 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListByColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Reinger-Jenkins",
+  "ProviderName": "Nader, Ernser and Heaney",
   "Columns": [
-    "quia",
-    "eveniet"
+    "et",
+    "veniam"
   ],
   "SortOrder": [
     {
-      "Name": "Yost-Kiehn",
+      "Name": "Abernathy, Aufderhar and Schmidt",
       "Direction": "ASC"
     },
     {
-      "Name": "Yost-Kiehn",
+      "Name": "Abernathy, Aufderhar and Schmidt",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Torphy Group",
-      "Operator": "voluptatem",
+      "Name": "Hills-Oberbrunner",
+      "Operator": "in",
       "Values": [
-        "adipisci",
-        "voluptas"
+        "officiis",
+        "molestias"
       ],
       "DisplayValues": [
-        "molestiae",
-        "omnis"
+        "delectus",
+        "ullam"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -140,17 +140,17 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 463,
+      "InterParenthesis": 550,
       "InterOperator": "And",
-      "UniqueHash": 542
+      "UniqueHash": 802
     }
   ],
   "Entities": [
-    "et",
-    "perspiciatis"
+    "perspiciatis",
+    "sed"
   ],
-  "Page": 644,
-  "PageSize": 424
+  "Page": 793,
+  "PageSize": 760
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Howe, Padberg and Stroman",
-    "PrimaryKey": 434,
+    "EntityName": "Ondricka, Towne and O'Hara",
+    "PrimaryKey": 496,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "blanditiis",
-        "TooltipHint": "amet",
-        "LinkHint": "rem"
+        "DisplayValue": "sapiente",
+        "TooltipHint": "iste",
+        "LinkHint": "pariatur"
       }
     },
-    "LinkHint": "iste",
-    "StyleHint": "cum",
+    "LinkHint": "dolores",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 593
+        "FieldType": "System.Int32",
+        "FieldLength": 513
       }
     }
   }

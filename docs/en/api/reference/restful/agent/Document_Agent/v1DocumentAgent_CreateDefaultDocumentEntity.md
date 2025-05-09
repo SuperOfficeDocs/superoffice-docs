@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Document/CreateDefaultDocumentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -100,88 +100,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 657,
+  "DocumentId": 755,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "rerum",
-  "Header": "optio",
-  "Name": "Fay, Feest and Lockman",
-  "OurRef": "sunt",
-  "YourRef": "quisquam",
-  "CreatedDate": "2020-08-02T13:14:00.1257184+02:00",
-  "UpdatedDate": "2020-10-21T13:14:00.1257184+02:00",
-  "Description": "Extended mission-critical Graphical User Interface",
+  "Attention": "aut",
+  "Header": "deserunt",
+  "Name": "Hilll-Grimes",
+  "OurRef": "aut",
+  "YourRef": "facilis",
+  "CreatedDate": "2003-05-28T16:32:38.7895985+02:00",
+  "UpdatedDate": "2016-05-29T16:32:38.7895985+02:00",
+  "Description": "Face to face heuristic toolset",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2022-09-02T13:14:00.1257184+02:00",
-  "ExternalRef": "quo",
+  "Date": "2011-05-12T16:32:38.8052182+02:00",
+  "ExternalRef": "quia",
   "Completed": "Completed",
-  "ActiveLinks": 544,
+  "ActiveLinks": 292,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hammes Inc and Sons",
-      "Id": 7,
-      "Description": "Diverse systematic collaboration",
-      "ExtraInfo": "sunt",
-      "LinkId": 199,
+      "EntityName": "Strosin, Kovacek and Watsica",
+      "Id": 622,
+      "Description": "Ameliorated executive system engine",
+      "ExtraInfo": "eligendi",
+      "LinkId": 214,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 816
+          "FieldLength": 75
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 349,
-  "Snum": 682,
+  "SuggestedDocumentId": 839,
+  "Snum": 796,
   "UserDefinedFields": {
     "SuperOffice:1": "False",
-    "SuperOffice:2": "Florida Kub"
+    "SuperOffice:2": "121813506"
   },
   "ExtraFields": {
-    "ExtraFields1": "sapiente",
-    "ExtraFields2": "consectetur"
+    "ExtraFields1": "minus",
+    "ExtraFields2": "ipsum"
   },
   "CustomFields": {
-    "CustomFields1": "facilis",
-    "CustomFields2": "quo"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "at"
   },
-  "PublishEventDate": "2013-11-29T13:14:00.1257184+01:00",
-  "PublishTo": "2018-07-30T13:14:00.1257184+02:00",
-  "PublishFrom": "2000-06-19T13:14:00.1257184+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2015-10-11T16:32:38.8052182+02:00",
+  "PublishTo": "2016-07-26T16:32:38.8052182+02:00",
+  "PublishFrom": "2010-12-11T16:32:38.8052182+01:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 847,
+      "VisibleId": 77,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldLength": 168
         }
       }
     },
     {
-      "VisibleId": 847,
+      "VisibleId": 77,
       "Visibility": "All",
-      "DisplayValue": "delectus",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 776
+          "FieldLength": 168
         }
       }
     }
@@ -190,8 +190,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 868
+      "FieldType": "System.String",
+      "FieldLength": 983
     }
   }
 }

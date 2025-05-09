@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityType": "quod",
-  "EntityId": 353
+  "EntityType": "eos",
+  "EntityId": 743
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "corrupti",
-  "2": "saepe"
+  "1": "consequatur",
+  "2": "ipsum"
 }
 ```

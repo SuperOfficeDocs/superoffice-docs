@@ -26,7 +26,7 @@ Gets a Appointment object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=224
+POST /api/v1/Agents/Appointment/GetAppointment?appointmentId=713
 POST /api/v1/Agents/Appointment/GetAppointment?$select=name,department,category/id
 ```
 
@@ -120,7 +120,7 @@ OK
 POST /api/v1/Agents/Appointment/GetAppointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -130,66 +130,66 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 581,
-  "StartDate": "2011-01-18T13:13:59.2344738+01:00",
-  "EndDate": "2020-07-02T13:13:59.2344738+02:00",
+  "AppointmentId": 767,
+  "StartDate": "2015-02-05T16:32:37.8679317+01:00",
+  "EndDate": "1998-07-04T16:32:37.8679317+02:00",
   "Type": "BookingForChecklist",
-  "Task": "vel",
-  "AssociateFullName": "Ms. Napoleon Corine Tillman I",
-  "ContactName": "Ziemann-Wiegand",
-  "Description": "Re-engineered multi-tasking benchmark",
-  "PersonFullName": "Percival Hane",
-  "PersonId": 912,
-  "ContactId": 488,
-  "ProjectId": 312,
-  "ProjectName": "Abernathy-Reinger",
+  "Task": "molestias",
+  "AssociateFullName": "Mack Brekke",
+  "ContactName": "Walker-Halvorson",
+  "Description": "Profit-focused static policy",
+  "PersonFullName": "Nora Legros Jr.",
+  "PersonId": 309,
+  "ContactId": 101,
+  "ProjectId": 168,
+  "ProjectName": "Shanahan-Cole",
   "IsPublished": false,
-  "AssociateId": 6,
-  "ColorIndex": 742,
+  "AssociateId": 201,
+  "ColorIndex": 217,
   "IsFree": false,
   "HasAlarm": false,
   "IsAlldayEvent": true,
   "Private": "PrivateGroup",
-  "PriorityId": 183,
-  "PriorityName": "Stracke, McCullough and Rau",
+  "PriorityId": 453,
+  "PriorityName": "Swift LLC",
   "TaskType": "Appointment",
-  "IsBookingMain": true,
+  "IsBookingMain": false,
   "IsRecurrence": false,
   "IsBooking": true,
-  "ActiveDate": "2024-02-20T13:13:59.2344738+01:00",
+  "ActiveDate": "2014-01-07T16:32:37.8679317+01:00",
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
   "Completed": "Completed",
   "RecurringPattern": "Custom",
-  "RecurringStartDate": "2004-04-03T13:13:59.2344738+02:00",
-  "RecurringEndDate": "2017-04-24T13:13:59.2344738+02:00",
-  "MotherId": 879,
-  "AssignedBy": 881,
-  "AssignedByFullName": "Newton Spencer",
+  "RecurringStartDate": "2004-10-29T16:32:37.8679317+02:00",
+  "RecurringEndDate": "2019-01-30T16:32:37.8679317+01:00",
+  "MotherId": 881,
+  "AssignedBy": 516,
+  "AssignedByFullName": "Randall Moore",
   "RejectReason": "",
-  "Location": "tempore",
-  "AlarmLeadTime": "enim",
-  "SaleId": 61,
-  "SaleName": "Willms, Ritchie and Gislason",
-  "AssociateName": "Osinski-Runolfsdottir",
-  "CreatedDate": "2018-11-22T13:13:59.2344738+01:00",
-  "CreatedBy": "iusto",
-  "CreatedByFullName": "Mrs. Demarco Borer V",
-  "CreatedByAssociateId": 442,
+  "Location": "fugiat",
+  "AlarmLeadTime": "eligendi",
+  "SaleId": 992,
+  "SaleName": "Christiansen-Dibbert",
+  "AssociateName": "Dicki LLC",
+  "CreatedDate": "2021-10-16T16:32:37.8679317+02:00",
+  "CreatedBy": "voluptatibus",
+  "CreatedByFullName": "Lacy Adams",
+  "CreatedByAssociateId": 210,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "PreferredTZLocation": 828,
-  "Title": "labore",
-  "Agenda": "est",
-  "InternalNotes": "quas",
+  "PreferredTZLocation": 47,
+  "Title": "ad",
+  "Agenda": "dolor",
+  "InternalNotes": "suscipit",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 184
+      "FieldType": "System.Int32",
+      "FieldLength": 989
     }
   }
 }

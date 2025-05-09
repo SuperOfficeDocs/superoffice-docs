@@ -92,7 +92,7 @@ OK
 POST /api/v1/Agents/CRMScript/SaveCRMScriptEntityWithoutCompile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -107,52 +107,52 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 955,
-  "UniqueIdentifier": "doloribus",
-  "Name": "Mosciski, Schumm and Gutmann",
-  "Description": "Re-contextualized fresh-thinking monitoring",
-  "IncludeId": "voluptate",
-  "AccessKey": "placeat",
-  "HierarchyId": 249,
-  "Source": "eaque",
-  "SourceCode": "voluptatibus",
+  "EjscriptId": 635,
+  "UniqueIdentifier": "quia",
+  "Name": "Hackett, Gusikowski and Williamson",
+  "Description": "Sharable grid-enabled methodology",
+  "IncludeId": "voluptas",
+  "AccessKey": "eos",
+  "HierarchyId": 478,
+  "Source": "facilis",
+  "SourceCode": "eos",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 931,
+  "HtmlOutput": 387,
   "Includes": [
-    224,
-    198
+    639,
+    990
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 773,
-      "LineNumberTo": 960,
-      "Delta": 693,
-      "IncludeId": "aliquid",
+      "LineNumberFrom": 362,
+      "LineNumberTo": 593,
+      "Delta": 289,
+      "IncludeId": "perspiciatis",
       "IncludedFrom": [
-        "explicabo",
-        "qui"
+        "ullam",
+        "dicta"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 508
+          "FieldType": "System.Int32",
+          "FieldLength": 53
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2000-03-27T13:14:00.0033265+02:00",
-  "RegisteredAssociateId": 268,
-  "Updated": "2021-09-19T13:14:00.0033265+02:00",
-  "UpdatedAssociateId": 50,
+  "Registered": "2002-08-22T16:32:38.5552758+02:00",
+  "RegisteredAssociateId": 850,
+  "Updated": "2023-09-12T16:32:38.5552758+02:00",
+  "UpdatedAssociateId": 246,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 79
+      "FieldLength": 884
     }
   }
 }

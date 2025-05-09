@@ -83,30 +83,30 @@ OK
 POST /api/v1/Agents/ViewState/PublishAndRetrieveUiEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "LatestKnownEventId": 953,
+  "LatestKnownEventId": 220,
   "PublishEvents": [
     {
-      "EventId": 838,
-      "EventName": "Powlowski-Olson",
-      "EntityType": "praesentium",
-      "EntityKey": 659,
-      "AssociateId": 646,
-      "AssociateName": "Wiza, Barton and Walter",
-      "EventDateTime": "1998-03-02T13:14:01.76945+01:00"
+      "EventId": 995,
+      "EventName": "Rowe Group",
+      "EntityType": "odit",
+      "EntityKey": 644,
+      "AssociateId": 516,
+      "AssociateName": "Murray-Boyer",
+      "EventDateTime": "2008-09-24T16:32:40.5238179+02:00"
     }
   ],
   "Metrics": [
     {
-      "Name": "Keeling LLC",
-      "Value": 195
+      "Name": "Vandervort-Thompson",
+      "Value": 306
     },
     {
-      "Name": "Keeling LLC",
-      "Value": 195
+      "Name": "Vandervort-Thompson",
+      "Value": 306
     }
   ]
 }
@@ -120,19 +120,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EventId": 959,
-    "EventName": "Ankunding LLC",
-    "EntityType": "ipsam",
-    "EntityKey": 371,
-    "AssociateId": 346,
-    "AssociateName": "Funk Inc and Sons",
-    "EventDateTime": "1999-08-20T13:14:01.76945+02:00",
+    "EventId": 687,
+    "EventName": "Gibson-Schmidt",
+    "EntityType": "nostrum",
+    "EntityKey": 312,
+    "AssociateId": 928,
+    "AssociateName": "Gislason-Wolff",
+    "EventDateTime": "2008-06-07T16:32:40.5238179+02:00",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 212
+        "FieldLength": 498
       }
     }
   }

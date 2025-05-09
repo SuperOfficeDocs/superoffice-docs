@@ -40,6 +40,9 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/personId|int|Request - Contact ID: Database ID of the contact row| x |
 |ticket/saleId|int|Request - Sale ID: The database ID of the sale record| x |
 |ticket/projectId|int|Request - Project ID: Database ID of project record| x |
+|ticket/ticketStatusId|int|Request - Status ID: Status| x |
+|ticket/priorityId|int|Request - Priority ID: ID of priority in database| x |
+|ticket/categoryId|int|Request - Category ID: ID of ticket category in database| x |
 |ticket/ticketTypeName|listAny|Request - Request type: Request type| x |
 |ticket/ticketStatusName|listAny|Request - Status: Request status| x |
 |ticket/categoryFullName|ejCategory|Request - Category: Request category| x |
@@ -118,13 +121,13 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/createdBy/isLocation|bool|Request - Created by - Is a location: Is a location| x |
 |ticket/ownedBy/firstName|string|Request - Owner - First name: Displays the contact's first name| x |
 |ticket/ownedBy/lastName|string|Request - Owner - Last name: Displays the contact's last name| x |
-|ticket/ownedBy/middleName|string|Request - Owner - Middle Name: Displays the contact's middle name.| x |
-|ticket/ownedBy/fullName|string|Request - Owner - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|ticket/ownedBy/contactId|int|Request - Owner - Company ID: Database ID of the company the user belongs to|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/ownedBy/middleName|string|Request - Owner - Middle Name: Displays the contact's middle name.| x |
+|ticket/ownedBy/fullName|string|Request - Owner - Full name: Displays full name of user (first, middle, last - according to settings)| x |
+|ticket/ownedBy/contactId|int|Request - Owner - Company ID: Database ID of the company the user belongs to|  |
 |ticket/ownedBy/personId|int|Request - Owner - Contact ID: Database ID of the contact row|  |
 |ticket/ownedBy/mrMrs|string|Request - Owner - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |ticket/ownedBy/title|string|Request - Owner - Title: Displays whether the contact is addressed as Mr or Ms| x |
@@ -222,13 +225,13 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/email/emailDescription|string|Request - Description| x |
 |ticket/person/email/emailId|int|Request - ID| x |
 |ticket/person/email/emailLastSent|datetime|Request - Last sent: The date and time an e-mail was last sent to this address| x |
-|ticket/person/email/emailBounceCount|int|Request - Bounce count: Bounce count for this e-mail address| x |
-|ticket/person/email/emailLastBounce|datetime|Request - Last bounce: Date and time for last bounce to this e-mail address| x |
-|ticket/person/email/emailHasBounced|bool|Request - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/person/email/emailBounceCount|int|Request - Bounce count: Bounce count for this e-mail address| x |
+|ticket/person/email/emailLastBounce|datetime|Request - Last bounce: Date and time for last bounce to this e-mail address| x |
+|ticket/person/email/emailHasBounced|bool|Request - Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |ticket/person/personUrl/URLAddress|string|Request - URL| x |
 |ticket/person/personUrl/URLDescription|string|Request - Description| x |
 |ticket/person/personAddress/addressId|int|Request - Contact address - Address ID: Database ID for the address record| x |
@@ -326,13 +329,13 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/person/correspondingAssociate/lastName|string|Request - Last name: Displays the contact's last name| x |
 |ticket/person/correspondingAssociate/middleName|string|Request - Middle Name: Displays the contact's middle name.| x |
 |ticket/person/correspondingAssociate/fullName|string|Request - Full name: Displays full name of user (first, middle, last - according to settings)| x |
-|ticket/person/correspondingAssociate/contactId|int|Request - Company ID: Database ID of the company the user belongs to|  |
-|ticket/person/correspondingAssociate/personId|int|Request - Contact ID: Database ID of the contact row|  |
-|ticket/person/correspondingAssociate/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/person/correspondingAssociate/contactId|int|Request - Company ID: Database ID of the company the user belongs to|  |
+|ticket/person/correspondingAssociate/personId|int|Request - Contact ID: Database ID of the contact row|  |
+|ticket/person/correspondingAssociate/mrMrs|string|Request - Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |ticket/person/correspondingAssociate/title|string|Request - Title: Displays whether the contact is addressed as Mr or Ms| x |
 |ticket/person/correspondingAssociate/associateDbId|associate|Request - ID| x |
 |ticket/person/correspondingAssociate/contactName|string|Request - Owning company: Name of the company the user belongs to| x |
@@ -430,13 +433,13 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/streetAddress/city|string|Request - Street address - City: This criterion corresponds to the City field on the Company card.| x |
 |ticket/contact/streetAddress/zip|string|Request - Street address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |ticket/contact/streetAddress/state|string|Request - Street address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|ticket/contact/streetAddress/wgs84latitude|decimal|Request - Street address - Latitude: Latitude| x |
-|ticket/contact/streetAddress/wgs84longitude|decimal|Request - Street address - Longitude: Longitude| x |
-|ticket/contact/streetAddress/formattedAddress| *None* |Request - Street address - {formattedAddress}: {formattedAddress}|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/contact/streetAddress/wgs84latitude|decimal|Request - Street address - Latitude: Latitude| x |
+|ticket/contact/streetAddress/wgs84longitude|decimal|Request - Street address - Longitude: Longitude| x |
+|ticket/contact/streetAddress/formattedAddress| *None* |Request - Street address - {formattedAddress}: {formattedAddress}|  |
 |ticket/contact/streetAddress/formattedMultiLineAddress| *None* |Request - Street address - {formattedAddress}: {formattedAddress}|  |
 |ticket/contact/restrictionAddress/addressId|int|Request - Search address - Address ID: Database ID for the address record| x |
 |ticket/contact/restrictionAddress/line1|string|Request - Search address - Address 1: First line of the address| x |
@@ -534,13 +537,13 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/contact/NumberOfNotCompletedTicketsInPeriod|int|Request - Number of non-completed requests in last 90 days|  |
 |ticket/contact/LastTicket|date|Request - Date of last request|  |
 |ticket/contact/LastCompletedTicket|date|Request - Date of last completed request|  |
-|ticket/contact/LastDoByTicket|date|Request - Date of last non-completed request|  |
-|ticket/contact/SaintStatus1|saintStatus|Request - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
-|ticket/contact/SaintStatus2|saintStatus|Request - C-company: Kundens navn starter med bokstaven C|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ticket/contact/LastDoByTicket|date|Request - Date of last non-completed request|  |
+|ticket/contact/SaintStatus1|saintStatus|Request - Neglected customer: Denne kunden har det vært 0 salgsaktiviteter på i perioden.|  |
+|ticket/contact/SaintStatus2|saintStatus|Request - C-company: Kundens navn starter med bokstaven C|  |
 |ticket/contact/saintSaleStatus|listAny|Request - With status|  |
 |ticket/contact/saintAmountClass|listAny|Request - Amount class|  |
 |ticket/contact/saintActivityType|listAny|Request - SAINT type|  |
@@ -597,9 +600,12 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/probPercent|int|Request - Probability as %: Probability as %| x |
 |ticket/sale/originalStage|listAny|Request - Stage: Displays the stage of the sale| x |
 |ticket/sale/stage|listAny|Request - Stage: Displays the stage of the sale| x |
+|ticket/sale/stageName| *None* |Request - Stage name: Displays the stage of the sale| x |
 |ticket/sale/saleStatus|listAny|Request - Status: The status of the sale - open, lost or sold| x |
 |ticket/sale/stageRank| *None* |Request - Stage rank: Rank of the sale stage in the stage list| x |
 |ticket/sale/saleType|listAny|Request - Sale type: Sale type, from list| x |
+|ticket/sale/saleTypeId| *None* |Request - Sale type ID: Sale type, from list| x |
+|ticket/sale/stageId| *None* |Request - Sale stage ID: Displays the stage of the sale| x |
 |ticket/sale/nextDueDate|date|Request - Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |ticket/sale/reopenDate|date|Request - Reopen date: Displays the reopen date for the sale| x |
 |ticket/sale/stalledComment|listAny|Request - Reason (stalled): The reason the sale has been stalled| x |
@@ -635,16 +641,16 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/sale/associate/usergroup|userGroup|Request - Primary group: The user's primary user group| x |
 |ticket/sale/associate/contactFullName|string|Request - Owner: Name and department of the company the user belongs to| x |
 |ticket/sale/associate/contactCategory|listAny|Request - Category: Category| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |ticket/sale/associate/role|listAny|Request - Role: Role| x |
 |ticket/sale/associate/assocName|associate|Request - User ID: User ID| x |
 |ticket/sale/associate/assocTooltip|string|Request - Description: Description|  |
 |ticket/sale/associate/assocType|listAny|Request - Type: Type of user: associate, external user, system user, anonymous account| x |
 |ticket/sale/associate/ejUserId|int|Request - Service user ID: The database ID of a Service user|  |
 |ticket/sale/associate/simultaneousEjUser|bool|Request - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |ticket/sale/associate/ejDisplayName|string|Request - Nick name: User's nick name in Service| x |
 |ticket/sale/associate/ejStatus|int|Request - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |ticket/sale/associate/credentialType| *None* |Request - Auth. type: What type of credentials to use when this user logs in| x |
@@ -739,16 +745,16 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 |ticket/project/projectUdef/SuperOffice:7|listAny|Request - projectdropdownlistbox| x |
 |ticket/project/projectUdef/SuperOffice:8|decimal|Request - projectdecimal| x |
 |ticket/project/projectUdef/SuperOffice:9|int|Request - page1saleandmarketing| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |ticket/project/projectUdef/SuperOffice:10|int|Request - page1saleandadmin| x |
 |ticket/project/NumberOfActivities|int|Request - Number of activities|  |
 |ticket/project/NumberOfActivitiesInPeriod|int|Request - Number of activities in last 90 days|  |
 |ticket/project/NumberOfNotCompletedActivities|int|Request - Number of non-completed activities|  |
 |ticket/project/NumberOfNotCompletedActivitiesInPeriod|int|Request - Number of non-completed activities in last 90 days|  |
 |ticket/project/LastActivity|date|Request - Date of last activity|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |ticket/project/LastCompletedActivity|date|Request - Date of last completed activity|  |
 |ticket/project/LastDoByActivity|date|Request - Date of last non-completed activity|  |
 |ticket/project/NumberOfSales|int|Request - Number of sales|  |
@@ -822,7 +828,7 @@ Messages on support tickets. Messages are typically e-mail messages with attachm
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketMessage?$select=ticket/ownedBy/firstName,ticket/person/correspondingAssociate/ejStatus,ticket/sale/associate/contactDepartment,ticket/project/NumberOfNotCompletedActivitiesInPeriod,ticket/project/LastSale
+GET /api/v1/archive/TicketMessage?$select=ticket/repliedAt,ticket/createdBy/contactId,ticket/person/lastName,ticket/person/personAddress/line3,ticket/person/personUdef/SuperOffice:8
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

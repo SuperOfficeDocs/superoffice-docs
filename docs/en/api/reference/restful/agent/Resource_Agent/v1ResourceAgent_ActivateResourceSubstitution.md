@@ -70,9 +70,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ResourceName": "Ryan LLC",
-  "Culture": "et",
-  "IsActive": false
+  "ResourceName": "Ratke, Bruen and Emard",
+  "Culture": "dolor",
+  "IsActive": true
 }
 ```
 

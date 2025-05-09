@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Runolfsdottir Inc and Sons",
-    "DisplayName": "Emard-Marks",
-    "DisplayTooltip": "vitae",
-    "IsActive": false,
+    "Name": "Moen-Nicolas",
+    "DisplayName": "Shanahan, Beahan and Blick",
+    "DisplayTooltip": "autem",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldType": "System.String",
+        "FieldLength": 722
       }
     }
   },
   {
-    "Name": "Runolfsdottir Inc and Sons",
-    "DisplayName": "Emard-Marks",
-    "DisplayTooltip": "vitae",
-    "IsActive": false,
+    "Name": "Moen-Nicolas",
+    "DisplayName": "Shanahan, Beahan and Blick",
+    "DisplayTooltip": "autem",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 849
+        "FieldType": "System.String",
+        "FieldLength": 722
       }
     }
   }

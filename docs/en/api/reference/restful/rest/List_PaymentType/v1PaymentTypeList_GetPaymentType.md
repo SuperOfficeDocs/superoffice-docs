@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/PaymentType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 565,
-  "Name": "Konopelski LLC",
-  "Tooltip": "sunt",
-  "Deleted": true,
-  "UdListDefinitionId": 853,
-  "Rank": 546,
+  "Id": 90,
+  "Name": "Schuppe Group",
+  "Tooltip": "illo",
+  "Deleted": false,
+  "UdListDefinitionId": 1002,
+  "Rank": 128,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 595
+      "FieldLength": 893
     }
   }
 }

@@ -87,7 +87,7 @@ OK
 POST /api/v1/ChatSession/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,43 +97,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 470,
-  "TopicId": 653,
+  "ChatSessionId": 113,
+  "TopicId": 447,
   "User": null,
   "Person": null,
-  "CustomerAlias": "accusantium",
-  "CustomerHost": "molestiae",
-  "CustomerName": "Borer, Beahan and Reilly",
-  "CustomerEmail": "candelario_jast@klocko.uk",
-  "CustomerPhone": "(211)286-4353 x8967",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Bogisich Inc and Sons",
+  "CustomerAlias": "sint",
+  "CustomerHost": "voluptatem",
+  "CustomerName": "Hessel LLC",
+  "CustomerEmail": "madelynn.friesen@fay.ca",
+  "CustomerPhone": "1-463-130-1656",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Rice-Smith",
   "Status": "Closed",
-  "FirstMessage": "sapiente",
-  "LastMessage": "ut",
-  "WhenRequested": "2006-01-20T13:14:08.4459934+01:00",
-  "WhenStarted": "2010-02-24T13:14:08.4459934+01:00",
-  "WhenEnded": "2018-12-29T13:14:08.4459934+01:00",
-  "WhenIdle": "2003-02-10T13:14:08.4459934+01:00",
-  "WhenFetched": "2008-01-09T13:14:08.4459934+01:00",
-  "SessionKey": "perferendis",
-  "InitialQueuePos": 632,
-  "AlertLevel": 494,
-  "Rank": 406,
+  "FirstMessage": "sunt",
+  "LastMessage": "laudantium",
+  "WhenRequested": "2005-02-23T16:32:47.2273851+01:00",
+  "WhenStarted": "2018-12-08T16:32:47.2273851+01:00",
+  "WhenEnded": "2006-08-28T16:32:47.2273851+02:00",
+  "WhenIdle": "2010-04-09T16:32:47.2273851+02:00",
+  "WhenFetched": "2001-03-29T16:32:47.2273851+02:00",
+  "SessionKey": "vero",
+  "InitialQueuePos": 580,
+  "AlertLevel": 187,
+  "Rank": 694,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 86,
+  "ChatbotIsActive": false,
+  "Rating": 751,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 643
+      "FieldType": "System.Int32",
+      "FieldLength": 51
     }
   }
 }

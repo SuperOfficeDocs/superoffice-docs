@@ -102,11 +102,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 853,
-  "IncludeProjectDocuments": true,
-  "StartTime": "2018-11-16T13:14:00.0944666+01:00",
-  "EndTime": "2016-06-13T13:14:00.0944666+02:00",
-  "Count": 747
+  "PersonId": 920,
+  "IncludeProjectDocuments": false,
+  "StartTime": "1999-03-25T16:32:38.6490035+01:00",
+  "EndTime": "2001-06-16T16:32:38.6490035+02:00",
+  "Count": 557
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 914,
-    "Attention": "molestiae",
-    "Header": "voluptas",
-    "Name": "Schmidt LLC",
-    "OurRef": "tempore",
-    "YourRef": "qui",
-    "Description": "Seamless composite superstructure",
-    "DocumentTemplate": "sit",
-    "IsPublished": false,
-    "PersonId": 494,
-    "PersonFullName": "Prof. Dagmar Stark",
-    "AssociateFullName": "Daphney Homenick III",
-    "ContactId": 274,
-    "ContactName": "Zemlak, Nolan and Kuhlman",
-    "ProjectId": 622,
-    "ProjectName": "Rogahn, Grady and Krajcik",
-    "AssociateId": 264,
-    "Snum": 482,
-    "SaleId": 665,
-    "SaleName": "Lesch, Champlin and Klein",
+    "DocumentId": 916,
+    "Attention": "recusandae",
+    "Header": "ex",
+    "Name": "Hackett Group",
+    "OurRef": "consequuntur",
+    "YourRef": "ullam",
+    "Description": "Innovative optimizing migration",
+    "DocumentTemplate": "ipsa",
+    "IsPublished": true,
+    "PersonId": 992,
+    "PersonFullName": "Jacey Lindgren",
+    "AssociateFullName": "Ms. Julio Cassin DVM",
+    "ContactId": 880,
+    "ContactName": "Goldner-Treutel",
+    "ProjectId": 150,
+    "ProjectName": "Veum, D'Amore and Terry",
+    "AssociateId": 455,
+    "Snum": 463,
+    "SaleId": 543,
+    "SaleName": "Leannon, Kuhic and Heathcote",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 593
+        "FieldType": "System.Int32",
+        "FieldLength": 451
       }
     }
   }

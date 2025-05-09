@@ -66,7 +66,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailFolder
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -76,19 +76,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Schiller-Bergnaum",
-  "Delimiter": "sequi",
-  "Flags": "sit",
-  "TotalItems": 16,
-  "UnreadItems": 513,
-  "Subscribed": false,
-  "EmailFolderId": 821,
+  "Name": "Jakubowski-Hintz",
+  "Delimiter": "voluptatem",
+  "Flags": "hic",
+  "TotalItems": 284,
+  "UnreadItems": 435,
+  "Subscribed": true,
+  "EmailFolderId": 400,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 252
+      "FieldType": "System.String",
+      "FieldLength": 66
     }
   }
 }

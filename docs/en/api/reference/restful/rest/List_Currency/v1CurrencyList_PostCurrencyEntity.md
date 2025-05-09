@@ -81,12 +81,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 417,
-  "Name": "Simonis-Pollich",
-  "Tooltip": "sit",
-  "Rank": 20,
-  "Rate": 16099.358,
-  "Units": 5528.376,
+  "CurrencyId": 850,
+  "Name": "Ferry-Schiller",
+  "Tooltip": "ipsam",
+  "Rank": 594,
+  "Rate": 2272.15,
+  "Units": 11636.542,
   "Deleted": false
 }
 ```
@@ -98,19 +98,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 247,
-  "Name": "Batz LLC",
-  "Tooltip": "necessitatibus",
-  "Rank": 417,
-  "Rate": 20778.42,
-  "Units": 30152.214,
-  "Deleted": false,
+  "CurrencyId": 49,
+  "Name": "Kilback Group",
+  "Tooltip": "consequuntur",
+  "Rank": 317,
+  "Rate": 714.552,
+  "Units": 15776.555999999999,
+  "Deleted": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 687
+      "FieldLength": 54
     }
   }
 }

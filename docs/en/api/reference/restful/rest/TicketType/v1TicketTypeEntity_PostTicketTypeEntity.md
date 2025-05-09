@@ -112,35 +112,35 @@ OK
 POST /api/v1/TicketType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 970,
-  "Name": "Pfeffer, Klocko and Turner",
-  "Rank": 471,
-  "Tooltip": "quasi",
-  "Icon": "eius",
-  "DefaultTicketStatus": 772,
+  "TicketTypeId": 992,
+  "Name": "Schaden, Welch and Lueilwitz",
+  "Rank": 359,
+  "Tooltip": "et",
+  "Icon": "accusamus",
+  "DefaultTicketStatus": 111,
   "TicketStatuses": [
-    82,
-    688
+    965,
+    967
   ],
-  "DefaultTicketPriority": 695,
+  "DefaultTicketPriority": 94,
   "TicketPriorities": [
-    944,
-    503
+    906,
+    535
   ],
-  "ReplyTemplate": 142,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 53,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    575,
-    834
+    349,
+    680
   ],
   "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": true
@@ -154,31 +154,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 786,
-  "Name": "Kihn, Bogisich and Collins",
-  "Rank": 185,
-  "Tooltip": "modi",
-  "Icon": "reiciendis",
-  "DefaultTicketStatus": 782,
+  "TicketTypeId": 767,
+  "Name": "Ziemann, Armstrong and Sanford",
+  "Rank": 777,
+  "Tooltip": "voluptatum",
+  "Icon": "et",
+  "DefaultTicketStatus": 56,
   "TicketStatuses": [
-    241,
-    131
+    424,
+    220
   ],
-  "DefaultTicketPriority": 604,
+  "DefaultTicketPriority": 83,
   "TicketPriorities": [
-    565,
-    1002
+    779,
+    291
   ],
-  "ReplyTemplate": 809,
+  "ReplyTemplate": 753,
   "IsExternalVisible": false,
-  "IsDefault": true,
-  "ShowInNew": false,
-  "ExcludeSignature": false,
+  "IsDefault": false,
+  "ShowInNew": true,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
-  "ExternalAsDefault": false,
+  "ExternalAsDefault": true,
   "VisibleForGroups": [
-    928,
-    358
+    676,
+    470
   ],
   "ReplyForwardNoSignature": true,
   "ReplyExternalAsDefault": false,
@@ -186,13 +186,13 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 97
+      "FieldType": "System.String",
+      "FieldLength": 62
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

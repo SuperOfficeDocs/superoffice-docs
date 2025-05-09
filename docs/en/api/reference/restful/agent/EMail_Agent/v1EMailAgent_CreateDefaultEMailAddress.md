@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 862,
-  "ContactName": "Legros-Mann",
-  "PersonId": 569,
-  "PersonName": "Cummerata-Jerde",
-  "AssociateId": 765,
-  "Address": "vel",
-  "EmailId": 152,
+  "ContactId": 786,
+  "ContactName": "Bernier Group",
+  "PersonId": 979,
+  "PersonName": "Gutmann Group",
+  "AssociateId": 541,
+  "Address": "id",
+  "EmailId": 953,
   "DuplicatePersonIds": [
-    293,
-    98
+    505,
+    865
   ],
-  "Name": "Thiel, Hackett and Konopelski",
+  "Name": "Kessler, Pfeffer and Romaguera",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 550
+      "FieldType": "System.Int32",
+      "FieldLength": 498
     }
   }
 }

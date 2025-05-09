@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 997,
-    "Name": "Bartell Group",
-    "ToolTip": "Qui et recusandae id quisquam dolore.",
+    "Id": 349,
+    "Name": "Kozey, Fay and Schiller",
+    "ToolTip": "Enim et deserunt.",
     "Deleted": false,
-    "Rank": 661,
-    "Type": "corrupti",
-    "ColorBlock": 273,
-    "IconHint": "nihil",
+    "Rank": 264,
+    "Type": "autem",
+    "ColorBlock": 230,
+    "IconHint": "illum",
     "Selected": true,
-    "LastChanged": "2024-12-09T13:14:09.8066418+01:00",
+    "LastChanged": "2020-04-02T16:32:48.7120179+02:00",
     "ChildItems": [
       {
-        "Id": 727,
-        "Name": "Gutkowski, Weimann and Morar",
-        "ToolTip": "Ut non veritatis sit et corporis.",
+        "Id": 951,
+        "Name": "Effertz, Spinka and Quigley",
+        "ToolTip": "Vel expedita et in id repudiandae cupiditate.",
         "Deleted": false,
-        "Rank": 158,
-        "Type": "qui",
-        "ColorBlock": 935,
-        "IconHint": "sit",
-        "Selected": false,
-        "LastChanged": "2003-02-23T13:14:09.8066418+01:00",
+        "Rank": 11,
+        "Type": "quia",
+        "ColorBlock": 280,
+        "IconHint": "ut",
+        "Selected": true,
+        "LastChanged": "2007-12-21T16:32:48.7120179+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quos",
-        "StyleHint": "deserunt",
-        "Hidden": true,
-        "FullName": "Mr. Annamae Ratke MD"
+        "ExtraInfo": "recusandae",
+        "StyleHint": "amet",
+        "Hidden": false,
+        "FullName": "Michelle Balistreri"
       }
     ],
-    "ExtraInfo": "aut",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "et",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Tyrel Hickle"
+    "FullName": "Mr. Raphaelle Jermaine Rohan"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 793,
-    "Name": "Davis, Nicolas and Hammes",
-    "ToolTip": "Illum voluptatem doloremque aliquid nostrum.",
+    "Id": 432,
+    "Name": "Moen, Krajcik and Marquardt",
+    "ToolTip": "Libero beatae laborum ullam.",
     "Deleted": false,
-    "Rank": 835,
-    "Type": "eos",
-    "ColorBlock": 375,
-    "IconHint": "non",
+    "Rank": 46,
+    "Type": "at",
+    "ColorBlock": 477,
+    "IconHint": "veniam",
     "Selected": true,
-    "LastChanged": "2001-02-04T13:14:09.8222767+01:00",
+    "LastChanged": "2010-10-03T16:32:48.7120179+02:00",
     "ChildItems": [
       {
-        "Id": 440,
-        "Name": "Hand LLC",
-        "ToolTip": "Quia ducimus qui recusandae commodi est sequi sed.",
-        "Deleted": false,
-        "Rank": 182,
-        "Type": "sit",
-        "ColorBlock": 189,
-        "IconHint": "a",
-        "Selected": false,
-        "LastChanged": "2013-05-28T13:14:09.8222767+02:00",
+        "Id": 120,
+        "Name": "Walker, Waelchi and Wunsch",
+        "ToolTip": "Alias voluptates et tempore illo odio at.",
+        "Deleted": true,
+        "Rank": 300,
+        "Type": "rerum",
+        "ColorBlock": 141,
+        "IconHint": "cum",
+        "Selected": true,
+        "LastChanged": "2004-05-11T16:32:48.7120179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "laboriosam",
+        "ExtraInfo": "et",
+        "StyleHint": "quisquam",
         "Hidden": false,
-        "FullName": "Antonetta Jason Dickinson III",
+        "FullName": "Prof. Cory Arden Berge",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 369
+            "FieldLength": 4
           }
         }
       }
     ],
-    "ExtraInfo": "ea",
-    "StyleHint": "numquam",
+    "ExtraInfo": "rem",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Felipa Skiles",
+    "FullName": "Dr. Neal Ondricka MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldLength": 623
       }
     }
   }

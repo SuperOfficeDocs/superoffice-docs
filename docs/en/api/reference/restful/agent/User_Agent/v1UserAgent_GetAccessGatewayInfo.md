@@ -78,14 +78,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ClientId": "quas",
-  "RedirectUri": "voluptate",
+  "ClientId": "unde",
+  "RedirectUri": "voluptates",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 440
+      "FieldType": "System.String",
+      "FieldLength": 303
     }
   }
 }

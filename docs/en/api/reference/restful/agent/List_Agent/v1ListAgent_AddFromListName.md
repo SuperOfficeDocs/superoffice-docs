@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/AddFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Altenwerth, O'Kon and Gleason",
+  "UdListDefinitionName": "Balistreri Inc and Sons",
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 626,
-  "Name": "Jast, Swift and Feeney",
-  "Tooltip": "molestiae",
-  "Deleted": false,
-  "UdListDefinitionId": 107,
-  "Rank": 900,
+  "Id": 837,
+  "Name": "Turner-Jewess",
+  "Tooltip": "magnam",
+  "Deleted": true,
+  "UdListDefinitionId": 525,
+  "Rank": 547,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 64
+      "FieldType": "System.Int32",
+      "FieldLength": 245
     }
   }
 }

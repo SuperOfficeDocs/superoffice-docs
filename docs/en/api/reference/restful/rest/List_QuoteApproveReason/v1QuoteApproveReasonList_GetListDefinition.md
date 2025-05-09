@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 87,
-  "Name": "Parker Group",
-  "Tooltip": "tempore",
-  "Deleted": false,
-  "Rank": 715,
-  "IsCustomList": false,
+  "Id": 27,
+  "Name": "Schmitt, Corkery and O'Kon",
+  "Tooltip": "voluptates",
+  "Deleted": true,
+  "Rank": 771,
+  "IsCustomList": true,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "et",
+  "UseGroupsAndHeadings": false,
+  "ListType": "temporibus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 28
+      "FieldType": "System.Int32",
+      "FieldLength": 528
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Reset
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,43 +101,43 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 117,
-  "TopicId": 330,
+  "ChatSessionId": 602,
+  "TopicId": 457,
   "User": null,
   "Person": null,
-  "CustomerAlias": "aspernatur",
-  "CustomerHost": "in",
-  "CustomerName": "Towne, Bartell and Gibson",
-  "CustomerEmail": "earl@cassin.us",
-  "CustomerPhone": "668.079.2435 x712",
+  "CustomerAlias": "aut",
+  "CustomerHost": "quas",
+  "CustomerName": "Pfannerstill-Balistreri",
+  "CustomerEmail": "raleigh@ward.name",
+  "CustomerPhone": "398-397-6478",
   "CustomerConsented": false,
-  "CustomerCompanyName": "Goldner Inc and Sons",
+  "CustomerCompanyName": "Fisher-Jacobs",
   "Status": "Closed",
-  "FirstMessage": "qui",
-  "LastMessage": "porro",
-  "WhenRequested": "2017-04-11T13:14:08.4459934+02:00",
-  "WhenStarted": "2002-03-26T13:14:08.4459934+01:00",
-  "WhenEnded": "2024-12-01T13:14:08.4459934+01:00",
-  "WhenIdle": "2023-11-30T13:14:08.4459934+01:00",
-  "WhenFetched": "2016-05-17T13:14:08.4459934+02:00",
-  "SessionKey": "voluptatibus",
-  "InitialQueuePos": 69,
-  "AlertLevel": 730,
-  "Rank": 249,
+  "FirstMessage": "ipsum",
+  "LastMessage": "atque",
+  "WhenRequested": "2021-08-21T16:32:47.2273851+02:00",
+  "WhenStarted": "1999-05-16T16:32:47.2273851+02:00",
+  "WhenEnded": "2020-10-09T16:32:47.2273851+02:00",
+  "WhenIdle": "1998-07-21T16:32:47.2273851+02:00",
+  "WhenFetched": "2017-06-18T16:32:47.2273851+02:00",
+  "SessionKey": "error",
+  "InitialQueuePos": 424,
+  "AlertLevel": 51,
+  "Rank": 476,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": true,
-  "Rating": 711,
+  "ChatbotIsActive": false,
+  "Rating": 581,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 753
     }
   }
 }

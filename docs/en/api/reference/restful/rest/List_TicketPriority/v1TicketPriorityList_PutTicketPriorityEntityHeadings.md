@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/TicketPriority/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 270,
-    "Name": "Lueilwitz, Donnelly and Bogisich",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "Rank": 914,
-    "UdListDefinitionId": 691
+    "HeadingId": 989,
+    "Name": "Conn, Langosh and Lesch",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 221,
+    "UdListDefinitionId": 658
   },
   {
-    "HeadingId": 270,
-    "Name": "Lueilwitz, Donnelly and Bogisich",
-    "Tooltip": "vel",
-    "Deleted": false,
-    "Rank": 914,
-    "UdListDefinitionId": 691
+    "HeadingId": 989,
+    "Name": "Conn, Langosh and Lesch",
+    "Tooltip": "voluptatem",
+    "Deleted": true,
+    "Rank": 221,
+    "UdListDefinitionId": 658
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 385,
-    "Name": "Runolfsdottir Group",
-    "Tooltip": "illo",
-    "Deleted": true,
-    "Rank": 641,
-    "UdListDefinitionId": 725,
+    "HeadingId": 74,
+    "Name": "Homenick Inc and Sons",
+    "Tooltip": "velit",
+    "Deleted": false,
+    "Rank": 781,
+    "UdListDefinitionId": 278,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 80
+        "FieldType": "System.Int32",
+        "FieldLength": 99
       }
     }
   }

@@ -79,14 +79,14 @@ OK
 POST /api/v1/Agents/DocumentMigration/GetForDateRange
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 241,
-  "MinDate": "2004-09-02T13:14:00.2512206+02:00",
-  "MaxDate": "2017-09-19T13:14:00.2512206+02:00",
-  "IncludeEmails": true
+  "DocumentPluginId": 615,
+  "MinDate": "2019-05-05T16:32:38.9301889+02:00",
+  "MaxDate": "2019-10-18T16:32:38.9301889+02:00",
+  "IncludeEmails": false
 }
 ```
 
@@ -97,29 +97,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 497,
-  "NumDocumentsAlreadyMigrated": 358,
+  "NumDocumentsOmitted": 775,
+  "NumDocumentsAlreadyMigrated": 918,
   "Documents": [
     {
-      "DocumentId": 525,
-      "ContactId": 692,
-      "PersonId": 955,
-      "SaleId": 933,
-      "ProjectId": 932,
-      "DocTmplId": 269,
-      "AssociateId": 288,
-      "UserGroupId": 903,
-      "VisibleForId": 734
+      "DocumentId": 908,
+      "ContactId": 168,
+      "PersonId": 643,
+      "SaleId": 577,
+      "ProjectId": 600,
+      "DocTmplId": 325,
+      "AssociateId": 220,
+      "UserGroupId": 404,
+      "VisibleForId": 187
     }
   ],
   "Associates": [
     {
-      "AssociateId": 790,
-      "EmailAddress": "gina@mcculloughlittle.co.uk"
+      "AssociateId": 165,
+      "EmailAddress": "clotilde.schultz@welchlubowitz.us"
     },
     {
-      "AssociateId": 790,
-      "EmailAddress": "gina@mcculloughlittle.co.uk"
+      "AssociateId": 165,
+      "EmailAddress": "clotilde.schultz@welchlubowitz.us"
     }
   ]
 }

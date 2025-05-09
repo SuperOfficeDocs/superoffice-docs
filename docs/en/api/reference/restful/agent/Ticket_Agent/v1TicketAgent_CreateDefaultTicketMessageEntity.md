@@ -82,7 +82,7 @@ OK
 POST /api/v1/Agents/Ticket/CreateDefaultTicketMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 756,
+  "EjMessageId": 443,
   "Ticket": null,
-  "CreatedAt": "2009-02-07T13:14:01.4413053+01:00",
+  "CreatedAt": "2013-08-14T16:32:40.2113903+02:00",
   "CreatedBy": null,
-  "Author": "laudantium",
+  "Author": "voluptates",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "qui",
-  "TimeSpent": 496,
-  "Body": "molestiae",
-  "HtmlBody": "consequatur",
-  "EmailHeader": "gino@green.us",
-  "DebugInfo": "debitis",
+  "MessageId": "beatae",
+  "TimeSpent": 510,
+  "Body": "aut",
+  "HtmlBody": "fugiat",
+  "EmailHeader": "hilario_rice@nikolausdavis.com",
+  "DebugInfo": "vel",
   "MailSorter": "unde",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "quo",
+  "SearchTitle": "nemo",
   "MessageHeaders": [
     {
-      "Id": 322,
-      "Name": "Little, O'Hara and Koelpin",
-      "Value": "vel",
+      "Id": 84,
+      "Name": "Lakin LLC",
+      "Value": "ut",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 72
+          "FieldType": "System.String",
+          "FieldLength": 941
         }
       }
     }
   ],
   "Important": false,
-  "Language": "expedita",
-  "Sentiment": 788,
-  "SentimentConfidence": 704,
+  "Language": "omnis",
+  "Sentiment": 642,
+  "SentimentConfidence": 688,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 782,
-      "Name": "Witting Group",
-      "ContentType": "officiis",
-      "AttSize": 540,
+      "AttachmentId": 601,
+      "Name": "Fadel Inc and Sons",
+      "ContentType": "eligendi",
+      "AttSize": 812,
       "InlineImage": false,
-      "ContentId": "odit",
-      "AuthKey": "sit",
-      "IsSafeFileExtension": false,
+      "ContentId": "voluptatem",
+      "AuthKey": "et",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 95
+          "FieldType": "System.String",
+          "FieldLength": 767
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "vel",
-    "ExtraFields2": "dolorem"
+    "ExtraFields1": "libero",
+    "ExtraFields2": "reprehenderit"
   },
   "CustomFields": {
-    "CustomFields1": "adipisci",
-    "CustomFields2": "et"
+    "CustomFields1": "itaque",
+    "CustomFields2": "consectetur"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 258
+      "FieldLength": 585
     }
   }
 }

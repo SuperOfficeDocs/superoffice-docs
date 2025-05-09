@@ -26,7 +26,7 @@ Gets a Department object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDepartment?departmentId=812
+POST /api/v1/Agents/List/GetDepartment?departmentId=116
 POST /api/v1/Agents/List/GetDepartment?$select=name,department,category/id
 ```
 
@@ -79,15 +79,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 215,
-  "Value": "vitae",
-  "Tooltip": "at",
+  "Id": 726,
+  "Value": "quis",
+  "Tooltip": "labore",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 763
+      "FieldLength": 519
     }
   }
 }

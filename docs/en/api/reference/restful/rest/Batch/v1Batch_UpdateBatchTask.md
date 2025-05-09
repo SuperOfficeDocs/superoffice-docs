@@ -111,34 +111,34 @@ OK
 PUT /api/v1/BatchTask/{Id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 495,
-  "Name": "Kassulke, Heller and Pouros",
-  "AssociateId": 803,
-  "DetailsTable": 726,
-  "DetailsRecord": 758,
+  "Id": 819,
+  "Name": "Kilback Group",
+  "AssociateId": 627,
+  "DetailsTable": 421,
+  "DetailsRecord": 739,
   "IsSystemTask": false,
   "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "at",
-    "ParameterObject2": "consequuntur"
+    "ParameterObject1": "ipsum",
+    "ParameterObject2": "officia"
   },
-  "LastStarted": "1998-08-19T13:14:09.3841564+02:00",
-  "Created": "2015-10-24T13:14:09.3841564+02:00",
-  "StartCount": 261,
-  "DatabaseSerialNumber": "1483863",
-  "Context": "dolore",
-  "Result": "est",
+  "LastStarted": "2018-06-22T16:32:48.2902385+02:00",
+  "Created": "2007-07-11T16:32:48.2902385+02:00",
+  "StartCount": 904,
+  "DatabaseSerialNumber": "1305401",
+  "Context": "veritatis",
+  "Result": "fugit",
   "State": "All",
-  "Description": "Innovative transitional hardware",
-  "Response": "corporis",
-  "Request": "enim",
-  "ProgressDescription": "Programmable regional parallelism",
-  "ProgressPercent": 923,
-  "FileName": "Haley Group",
+  "Description": "Extended 6th generation monitoring",
+  "Response": "et",
+  "Request": "neque",
+  "ProgressDescription": "Triple-buffered content-based analyzer",
+  "ProgressPercent": 640,
+  "FileName": "Prohaska, Tremblay and Waelchi",
   "CancellationBehaviour": "CanCancel"
 }
 ```
@@ -150,37 +150,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 541,
-  "Name": "Sporer, Jacobi and Sauer",
-  "AssociateId": 504,
-  "DetailsTable": 419,
-  "DetailsRecord": 837,
+  "Id": 846,
+  "Name": "Larson LLC",
+  "AssociateId": 955,
+  "DetailsTable": 157,
+  "DetailsRecord": 420,
   "IsSystemTask": false,
-  "IsInternalTask": true,
+  "IsInternalTask": false,
   "ParameterObject": {
-    "ParameterObject1": "tenetur",
-    "ParameterObject2": "veniam"
+    "ParameterObject1": "veniam",
+    "ParameterObject2": "fugiat"
   },
-  "LastStarted": "2020-07-08T13:14:09.3841564+02:00",
-  "Created": "2020-03-02T13:14:09.3841564+01:00",
-  "StartCount": 416,
-  "DatabaseSerialNumber": "1177189",
-  "Context": "eveniet",
-  "Result": "molestiae",
+  "LastStarted": "2019-10-09T16:32:48.2902385+02:00",
+  "Created": "2008-11-03T16:32:48.2902385+01:00",
+  "StartCount": 418,
+  "DatabaseSerialNumber": "569342",
+  "Context": "maxime",
+  "Result": "deserunt",
   "State": "All",
-  "Description": "Expanded static synergy",
-  "Response": "saepe",
-  "Request": "ab",
-  "ProgressDescription": "Cross-platform well-modulated encoding",
-  "ProgressPercent": 551,
-  "FileName": "Shields-Ortiz",
+  "Description": "Extended bi-directional intranet",
+  "Response": "fugit",
+  "Request": "sunt",
+  "ProgressDescription": "Customer-focused mission-critical protocol",
+  "ProgressPercent": 745,
+  "FileName": "Zemlak Group",
   "CancellationBehaviour": "CanCancel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 125
+      "FieldLength": 1000
     }
   }
 }

@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/Category/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 934,
-  "Name": "Blick LLC",
-  "Tooltip": "et",
+  "HeadingId": 746,
+  "Name": "Williamson Group",
+  "Tooltip": "debitis",
   "Deleted": true,
-  "Rank": 562,
-  "UdListDefinitionId": 237
+  "Rank": 185,
+  "UdListDefinitionId": 409
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 990,
-  "Name": "Little-Ondricka",
-  "Tooltip": "quibusdam",
-  "Deleted": false,
-  "Rank": 556,
-  "UdListDefinitionId": 983,
+  "HeadingId": 622,
+  "Name": "Wilkinson Group",
+  "Tooltip": "eius",
+  "Deleted": true,
+  "Rank": 662,
+  "UdListDefinitionId": 818,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 691
+      "FieldLength": 880
     }
   }
 }

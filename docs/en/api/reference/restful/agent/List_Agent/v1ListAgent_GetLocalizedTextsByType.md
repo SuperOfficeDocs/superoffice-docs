@@ -78,13 +78,13 @@ OK
 POST /api/v1/Agents/List/GetLocalizedTextsByType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "TextTypes": [
-    "quis",
-    "quos"
+    "ipsam",
+    "consequatur"
   ]
 }
 ```
@@ -97,18 +97,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageId": 717,
-    "ResourceId": 479,
-    "Text": "harum",
+    "LanguageId": 471,
+    "ResourceId": 546,
+    "Text": "voluptates",
     "Type": "Column",
-    "LocalizedTextId": 397,
+    "LocalizedTextId": 888,
     "IsBuiltIn": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 932
       }
     }
   }

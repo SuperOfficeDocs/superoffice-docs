@@ -81,8 +81,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "NewCompanyName": "Collins-Corkery",
-  "NewSerialNumber": "1070372"
+  "NewCompanyName": "Hyatt Inc and Sons",
+  "NewSerialNumber": "1238574"
 }
 ```
 
@@ -93,14 +93,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Succeeded": true,
+  "Succeeded": false,
   "Reason": "",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 698
+      "FieldType": "System.Int32",
+      "FieldLength": 832
     }
   }
 }

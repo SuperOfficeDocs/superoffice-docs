@@ -74,7 +74,7 @@ OK
 POST /api/v1/Agents/PhoneList/GetFavoritesPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -85,22 +85,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "1-457-147-7138",
-    "PersonCellPhone": "003.969.6283",
-    "PersonPrivatePhone": "161-734-5026 x200",
-    "PersonFaxNumber": "1500013",
-    "PersonPagerNumber": "1574414",
-    "PersonEmail": "iliana_parker@huels.uk",
-    "Id": 127,
-    "Name": "Bartell-McClure",
-    "Tooltip": "et",
-    "UniqueId": "neque",
+    "PersonDirectPhone": "(458)021-5375 x348",
+    "PersonCellPhone": "(088)172-2434",
+    "PersonPrivatePhone": "(632)493-5230",
+    "PersonFaxNumber": "339758",
+    "PersonPagerNumber": "1653397",
+    "PersonEmail": "susie_barrows@rathschultz.ca",
+    "Id": 114,
+    "Name": "Block LLC",
+    "Tooltip": "temporibus",
+    "UniqueId": "repellat",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 427
+        "FieldType": "System.String",
+        "FieldLength": 921
       }
     }
   }

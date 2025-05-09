@@ -89,7 +89,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": true
+  "IncludeDeleted": false
 }
 ```
 
@@ -101,16 +101,16 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TaskListItemId": 147,
-    "Value": "ex",
+    "TaskListItemId": 3,
+    "Value": "sit",
     "Direction": "Incoming",
     "Type": "Appointment",
-    "Tooltip": "aliquid",
+    "Tooltip": "aut",
     "Deleted": false,
-    "IntentId": 778,
-    "Rank": 162,
+    "IntentId": 259,
+    "Rank": 553,
     "IsDefaultAlldayEvent": false,
-    "IsDefaultFree": false,
+    "IsDefaultFree": true,
     "IsDefaultPublished": false,
     "ColorIndex": "BlueAlt1",
     "DefaultVideomeetingStatus": "NoChange",
@@ -119,7 +119,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 909
+        "FieldLength": 330
       }
     }
   }

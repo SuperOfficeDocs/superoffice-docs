@@ -91,30 +91,30 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 663,
-  "UniqueId": "ut",
-  "Name": "Shields Inc and Sons",
-  "Description": "Stand-alone empowering knowledge base",
-  "AssociateId": 805,
-  "Columns": 949,
+  "DashboardId": 293,
+  "UniqueId": "nobis",
+  "Name": "Kutch-Gerlach",
+  "Description": "Upgradable client-driven architecture",
+  "AssociateId": 142,
+  "Columns": 562,
   "Theme": null,
-  "VisibleForAll": 217,
+  "VisibleForAll": 111,
   "VisibleForAssociates": [
-    144,
-    313
+    884,
+    46
   ],
   "VisibleForGroups": [
-    458,
-    202
+    710,
+    50
   ],
-  "PinForAll": 812,
+  "PinForAll": 260,
   "PinForAssociates": [
-    856,
-    290
+    289,
+    827
   ],
   "PinForGroups": [
-    641,
-    490
+    415,
+    167
   ]
 }
 ```
@@ -126,37 +126,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 27,
-  "UniqueId": "totam",
-  "Name": "Gleichner, Will and Quigley",
-  "Description": "Cloned explicit internet solution",
-  "AssociateId": 94,
-  "Columns": 562,
+  "DashboardId": 513,
+  "UniqueId": "et",
+  "Name": "Predovic Group",
+  "Description": "Face to face holistic encoding",
+  "AssociateId": 601,
+  "Columns": 262,
   "Theme": null,
-  "VisibleForAll": 455,
+  "VisibleForAll": 587,
   "VisibleForAssociates": [
-    88,
-    922
+    54,
+    717
   ],
   "VisibleForGroups": [
-    562,
-    575
+    675,
+    156
   ],
-  "PinForAll": 666,
+  "PinForAll": 442,
   "PinForAssociates": [
-    640,
-    80
+    276,
+    112
   ],
   "PinForGroups": [
-    782,
-    955
+    815,
+    419
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 321
+      "FieldLength": 543
     }
   }
 }

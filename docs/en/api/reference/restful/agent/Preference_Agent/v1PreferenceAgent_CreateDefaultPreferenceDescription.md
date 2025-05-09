@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 850,
-  "Section": "numquam",
-  "Key": "magnam",
-  "Name": "Ziemann, Larkin and Nicolas",
+  "PrefDescId": 822,
+  "Section": "maxime",
+  "Key": "ut",
+  "Name": "Kling-Willms",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Assimilated solution-oriented open system",
+  "Description": "Managed tertiary pricing structure",
   "IsBuiltin": false,
-  "TableName": "Rogahn, Kohler and West",
-  "UserDefinedListId": 73,
-  "Rank": 397,
-  "SubGroup": "voluptatem",
-  "MinLevel": 84,
-  "MaxValue": 205,
-  "MinValue": 602,
-  "RequiredLicense": "in",
+  "TableName": "Powlowski LLC",
+  "UserDefinedListId": 641,
+  "Rank": 300,
+  "SubGroup": "harum",
+  "MinLevel": 152,
+  "MaxValue": 804,
+  "MinValue": 830,
+  "RequiredLicense": "corporis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 209
+      "FieldLength": 121
     }
   }
 }

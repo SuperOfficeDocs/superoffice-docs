@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 920,
-    "Name": "Bechtelar Inc and Sons",
-    "ToolTip": "Vitae atque in similique id cupiditate et.",
+    "Id": 321,
+    "Name": "Kulas-Hodkiewicz",
+    "ToolTip": "Libero cumque alias quae.",
     "Deleted": true,
-    "Rank": 159,
-    "Type": "dolor",
-    "ColorBlock": 460,
-    "IconHint": "blanditiis",
-    "Selected": true,
-    "LastChanged": "2019-06-20T13:14:09.5873854+02:00",
+    "Rank": 622,
+    "Type": "at",
+    "ColorBlock": 920,
+    "IconHint": "est",
+    "Selected": false,
+    "LastChanged": "2006-08-12T16:32:48.4933163+02:00",
     "ChildItems": [
       {
-        "Id": 517,
-        "Name": "Bailey, Medhurst and Schneider",
-        "ToolTip": "Consequatur sapiente praesentium rerum odio et nostrum illum.",
+        "Id": 285,
+        "Name": "Pouros-Schulist",
+        "ToolTip": "Nobis enim cumque consequuntur et a qui.",
         "Deleted": true,
-        "Rank": 810,
-        "Type": "nobis",
-        "ColorBlock": 977,
-        "IconHint": "numquam",
+        "Rank": 237,
+        "Type": "dignissimos",
+        "ColorBlock": 33,
+        "IconHint": "rerum",
         "Selected": false,
-        "LastChanged": "1998-04-30T13:14:09.5873854+02:00",
+        "LastChanged": "2017-07-02T16:32:48.4933163+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "recusandae",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "neque",
         "Hidden": true,
-        "FullName": "Amparo Botsford"
+        "FullName": "Idell Spencer"
       }
     ],
-    "ExtraInfo": "illo",
-    "StyleHint": "deleniti",
+    "ExtraInfo": "esse",
+    "StyleHint": "neque",
     "Hidden": false,
-    "FullName": "Leatha Brekke"
+    "FullName": "Edythe Kemmer"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 765,
-    "Name": "Rosenbaum-Bruen",
-    "ToolTip": "Architecto facere consequatur placeat quas recusandae dolor rem.",
+    "Id": 146,
+    "Name": "Christiansen, Hansen and Collins",
+    "ToolTip": "Quo aperiam laudantium provident soluta.",
     "Deleted": false,
-    "Rank": 97,
-    "Type": "consequuntur",
-    "ColorBlock": 144,
-    "IconHint": "qui",
+    "Rank": 85,
+    "Type": "quis",
+    "ColorBlock": 412,
+    "IconHint": "adipisci",
     "Selected": false,
-    "LastChanged": "2012-03-19T13:14:09.5873854+01:00",
+    "LastChanged": "2023-04-02T16:32:48.4933163+02:00",
     "ChildItems": [
       {
-        "Id": 114,
-        "Name": "Hoeger-Schinner",
-        "ToolTip": "Doloribus dolores qui sed.",
-        "Deleted": false,
-        "Rank": 835,
-        "Type": "hic",
-        "ColorBlock": 566,
-        "IconHint": "reiciendis",
+        "Id": 225,
+        "Name": "Schultz-Schumm",
+        "ToolTip": "Laborum sunt ut temporibus asperiores quasi error autem.",
+        "Deleted": true,
+        "Rank": 1002,
+        "Type": "ut",
+        "ColorBlock": 596,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2009-07-26T13:14:09.6030114+02:00",
+        "LastChanged": "2018-10-27T16:32:48.4933163+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ab",
-        "StyleHint": "sunt",
+        "ExtraInfo": "magnam",
+        "StyleHint": "iusto",
         "Hidden": false,
-        "FullName": "Uriah Purdy",
+        "FullName": "Miss Sally Gladys Paucek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 336
+            "FieldLength": 551
           }
         }
       }
     ],
-    "ExtraInfo": "unde",
-    "StyleHint": "molestiae",
-    "Hidden": true,
-    "FullName": "Susana Conroy",
+    "ExtraInfo": "voluptas",
+    "StyleHint": "quo",
+    "Hidden": false,
+    "FullName": "Clemmie Annetta Marks DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 494
+        "FieldType": "System.String",
+        "FieldLength": 65
       }
     }
   }

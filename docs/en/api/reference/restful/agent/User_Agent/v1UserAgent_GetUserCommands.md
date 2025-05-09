@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/User/GetUserCommands
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -86,18 +86,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Brekke Inc and Sons",
-    "DisplayName": "Windler, Bruen and Kshlerin",
-    "Description": "Compatible actuating pricing structure",
-    "ToolTip": "Necessitatibus quisquam autem sequi.",
+    "Name": "Lang-Crist",
+    "DisplayName": "Robel-Kozey",
+    "Description": "Face to face system-worthy extranet",
+    "ToolTip": "Animi et praesentium in cumque.",
     "Actions": "Implicit",
-    "ActionData": "est",
+    "ActionData": "commodi",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 245
+        "FieldLength": 705
       }
     }
   }

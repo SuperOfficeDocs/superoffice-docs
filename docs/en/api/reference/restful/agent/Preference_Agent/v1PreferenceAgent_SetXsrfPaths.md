@@ -69,10 +69,10 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Hostname": "minima",
+  "Hostname": "aut",
   "Paths": [
-    "illum",
-    "quis"
+    "voluptas",
+    "quidem"
   ]
 }
 ```

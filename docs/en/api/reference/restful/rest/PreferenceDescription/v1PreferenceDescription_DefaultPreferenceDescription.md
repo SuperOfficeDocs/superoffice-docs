@@ -74,7 +74,7 @@ OK
 GET /api/v1/PreferenceDescription/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,30 +84,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 844,
-  "Section": "natus",
-  "Key": "quaerat",
-  "Name": "Stoltenberg-Muller",
+  "PrefDescId": 57,
+  "Section": "ratione",
+  "Key": "perspiciatis",
+  "Name": "White-Funk",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Visionary clear-thinking middleware",
+  "Description": "Polarised eco-centric access",
   "IsBuiltin": true,
-  "TableName": "Nienow-Wisoky",
-  "UserDefinedListId": 386,
-  "Rank": 439,
-  "SubGroup": "in",
-  "MinLevel": 395,
-  "MaxValue": 491,
-  "MinValue": 494,
-  "RequiredLicense": "est",
+  "TableName": "Murazik-McCullough",
+  "UserDefinedListId": 889,
+  "Rank": 998,
+  "SubGroup": "quasi",
+  "MinLevel": 233,
+  "MaxValue": 532,
+  "MinValue": 903,
+  "RequiredLicense": "nam",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 676
+      "FieldType": "System.Int32",
+      "FieldLength": 864
     }
   }
 }

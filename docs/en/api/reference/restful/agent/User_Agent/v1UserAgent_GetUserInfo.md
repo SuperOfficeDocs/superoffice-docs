@@ -28,7 +28,7 @@ Gets a UserInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/User/GetUserInfo?userInfoId=466
+POST /api/v1/Agents/User/GetUserInfo?userInfoId=712
 POST /api/v1/Agents/User/GetUserInfo?$select=name,department,category/id
 ```
 
@@ -94,29 +94,29 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Deleted": false,
-  "UserInfoId": 467,
-  "UserName": "Considine-Heaney",
-  "PersonId": 579,
-  "Rank": 250,
-  "Tooltip": "alias",
-  "UserGroupId": 170,
-  "EjUserId": 668,
+  "UserInfoId": 444,
+  "UserName": "Metz Group",
+  "PersonId": 924,
+  "Rank": 524,
+  "Tooltip": "modi",
+  "UserGroupId": 970,
+  "EjUserId": 426,
   "UserType": "AnonymousAssociate",
   "GrantedLicenses": [
-    "numquam",
-    "ipsam"
+    "quia",
+    "eligendi"
   ],
-  "CanLogon": true,
-  "RoleName": "Murphy, Feest and Stanton",
-  "RoleTooltip": "aut",
-  "UserGroupName": "Legros, Bruen and Lesch",
-  "UserGroupTooltip": "vitae",
+  "CanLogon": false,
+  "RoleName": "Jacobi Group",
+  "RoleTooltip": "iste",
+  "UserGroupName": "Gutmann, Dickens and King",
+  "UserGroupTooltip": "animi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 278
+      "FieldLength": 238
     }
   }
 }

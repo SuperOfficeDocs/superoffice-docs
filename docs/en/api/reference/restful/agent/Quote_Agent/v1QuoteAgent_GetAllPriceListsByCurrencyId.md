@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceListsByCurrencyId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 825,
-  "CurrencyId": 261
+  "QuoteConnectionId": 718,
+  "CurrencyId": 284
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 95,
-    "ERPPriceListKey": "rem",
-    "QuoteConnectionId": 892,
-    "Name": "Hills, Armstrong and DuBuque",
-    "Description": "Distributed assymetric system engine",
-    "Currency": "necessitatibus",
-    "CurrencyName": "Nader-Schaefer",
-    "ValidFrom": "2008-08-31T13:14:01.0020135+02:00",
-    "ValidTo": "2024-09-25T13:14:01.0020135+02:00",
+    "PriceListId": 216,
+    "ERPPriceListKey": "aut",
+    "QuoteConnectionId": 899,
+    "Name": "Tillman, Cruickshank and Osinski",
+    "Description": "Front-line well-modulated contingency",
+    "Currency": "non",
+    "CurrencyName": "Hills, Price and Conn",
+    "ValidFrom": "2021-03-17T16:32:39.7271263+01:00",
+    "ValidTo": "2006-11-30T16:32:39.7271263+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 144
+        "FieldType": "System.Int32",
+        "FieldLength": 800
       }
     }
   }

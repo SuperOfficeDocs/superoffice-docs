@@ -81,28 +81,28 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
-Last-Modified: Mon, 21 May 2012 13:14:08 G5T
+Last-Modified: Fri, 03 Oct 2008 16:32:47 G10T
 
 {
-  "BlobId": 29,
-  "BlobSize": 108,
-  "Description": "Persevering human-resource initiative",
-  "ExtraInfo": "officia",
+  "BlobId": 518,
+  "BlobSize": 427,
+  "Description": "Down-sized scalable definition",
+  "ExtraInfo": "eum",
   "IsEncrypted": false,
   "IsZipped": false,
-  "MimeType": "et",
-  "OriginalSize": 462,
-  "CreatedDate": "2014-10-02T13:14:08.9461361+02:00",
-  "UpdatedDate": "2012-05-21T13:14:08.9461361+02:00",
+  "MimeType": "non",
+  "OriginalSize": 59,
+  "CreatedDate": "2013-08-06T16:32:47.7432816+02:00",
+  "UpdatedDate": "2008-10-03T16:32:47.7432816+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "laborum",
+  "ConceptualType": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 141
+      "FieldType": "System.Int32",
+      "FieldLength": 869
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 986,
-    "Name": "Willms-Larson",
-    "Tooltip": "asperiores",
-    "Deleted": true,
-    "Rank": 896,
-    "UdListDefinitionId": 908,
+    "HeadingId": 707,
+    "Name": "Koepp, Zemlak and Cronin",
+    "Tooltip": "magni",
+    "Deleted": false,
+    "Rank": 542,
+    "UdListDefinitionId": 570,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 477
+        "FieldLength": 330
       }
     }
   }

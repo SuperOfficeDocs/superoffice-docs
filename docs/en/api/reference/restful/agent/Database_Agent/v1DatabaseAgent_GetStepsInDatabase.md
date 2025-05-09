@@ -77,26 +77,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Little, Bergstrom and Feeney",
-    "StepNumber": 687,
+    "Name": "Balistreri, Kassulke and Klocko",
+    "StepNumber": 764,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldType": "System.Int32",
+        "FieldLength": 49
       }
     }
   },
   {
-    "Name": "Little, Bergstrom and Feeney",
-    "StepNumber": 687,
+    "Name": "Balistreri, Kassulke and Klocko",
+    "StepNumber": 764,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 998
+        "FieldType": "System.Int32",
+        "FieldLength": 49
       }
     }
   }

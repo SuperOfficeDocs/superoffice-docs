@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=True
+GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings?showDeleted=False
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionId}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 707,
-    "Name": "Konopelski LLC",
-    "ToolTip": "Enim sit.",
+    "Id": 33,
+    "Name": "Hammes, Douglas and Stamm",
+    "ToolTip": "Earum aliquam officia.",
     "Deleted": false,
-    "Rank": 780,
-    "Type": "tenetur",
-    "ColorBlock": 852,
-    "IconHint": "officiis",
-    "Selected": true,
-    "LastChanged": "2006-04-20T13:14:09.5873854+02:00",
+    "Rank": 962,
+    "Type": "culpa",
+    "ColorBlock": 12,
+    "IconHint": "reiciendis",
+    "Selected": false,
+    "LastChanged": "2014-03-25T16:32:48.4933163+01:00",
     "ChildItems": [
       {
-        "Id": 516,
-        "Name": "O'Connell Group",
-        "ToolTip": "Rerum et.",
+        "Id": 932,
+        "Name": "Swift-Rath",
+        "ToolTip": "Sint molestiae ut.",
         "Deleted": true,
-        "Rank": 161,
-        "Type": "quidem",
-        "ColorBlock": 64,
-        "IconHint": "distinctio",
+        "Rank": 599,
+        "Type": "reprehenderit",
+        "ColorBlock": 134,
+        "IconHint": "delectus",
         "Selected": false,
-        "LastChanged": "2005-05-03T13:14:09.5873854+02:00",
+        "LastChanged": "2005-11-05T16:32:48.4933163+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "sapiente",
-        "Hidden": false,
-        "FullName": "Madyson Corwin",
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "et",
+        "Hidden": true,
+        "FullName": "Dr. Sydnee Irwin Abbott I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 497
+            "FieldLength": 537
           }
         }
       }
     ],
-    "ExtraInfo": "quidem",
-    "StyleHint": "incidunt",
-    "Hidden": false,
-    "FullName": "Kyler Schultz",
+    "ExtraInfo": "et",
+    "StyleHint": "culpa",
+    "Hidden": true,
+    "FullName": "Darion Towne",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 150
+        "FieldLength": 518
       }
     }
   }

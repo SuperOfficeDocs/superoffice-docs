@@ -92,24 +92,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateId": 734,
-    "Name": "Morissette, Bernier and Beatty",
-    "PersonId": 558,
-    "Rank": 649,
-    "Tooltip": "dolorem",
+    "AssociateId": 423,
+    "Name": "Walker-Bayer",
+    "PersonId": 341,
+    "Rank": 799,
+    "Tooltip": "odit",
     "Type": "AnonymousAssociate",
-    "GroupIdx": 415,
-    "FullName": "Mr. Kenton Evie Treutel",
-    "FormalName": "Yundt Inc and Sons",
+    "GroupIdx": 861,
+    "FullName": "Emmett Weimann",
+    "FormalName": "Treutel-Larkin",
     "Deleted": false,
-    "EjUserId": 408,
-    "UserName": "Cummerata, Harvey and O'Connell",
+    "EjUserId": 62,
+    "UserName": "Kohler-Hilll",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 770
+        "FieldType": "System.Int32",
+        "FieldLength": 858
       }
     }
   }

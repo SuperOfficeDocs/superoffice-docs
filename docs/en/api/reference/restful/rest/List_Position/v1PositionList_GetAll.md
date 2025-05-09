@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/Position/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 864,
-    "Name": "Brakus LLC",
-    "Tooltip": "sequi",
-    "Deleted": true,
-    "UdListDefinitionId": 923,
-    "Rank": 260,
+    "Id": 131,
+    "Name": "Kuhlman-Leannon",
+    "Tooltip": "molestiae",
+    "Deleted": false,
+    "UdListDefinitionId": 576,
+    "Rank": 799,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 384
+        "FieldLength": 324
       }
     }
   }

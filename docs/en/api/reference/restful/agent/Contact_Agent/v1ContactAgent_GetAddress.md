@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetAddress
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 247
+  "ContactId": 59
 }
 ```
 
@@ -93,41 +93,41 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Wgs84Latitude": 9273.506,
-  "Wgs84Longitude": 14131.206,
+  "Wgs84Latitude": 13096.985999999999,
+  "Wgs84Longitude": 3870.49,
   "LocalizedAddress": [
     [
       {
-        "Name": "Dare, Hagenes and Lowe",
-        "Value": "omnis",
-        "Tooltip": "repellat",
-        "Label": "ut",
-        "ValueLength": 127,
-        "AddressType": "quam",
+        "Name": "Satterfield Group",
+        "Value": "qui",
+        "Tooltip": "incidunt",
+        "Label": "fugiat",
+        "ValueLength": 668,
+        "AddressType": "tenetur",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 703
+            "FieldLength": 95
           }
         }
       }
     ],
     [
       {
-        "Name": "Beer-Hoeger",
-        "Value": "vitae",
-        "Tooltip": "a",
-        "Label": "doloribus",
-        "ValueLength": 996,
-        "AddressType": "et",
+        "Name": "Barton-Gerlach",
+        "Value": "non",
+        "Tooltip": "nostrum",
+        "Label": "quidem",
+        "ValueLength": 896,
+        "AddressType": "eos",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 887
+            "FieldLength": 179
           }
         }
       }
@@ -135,13 +135,13 @@ Content-Type: application/json; charset=utf-8
   ],
   "Street": null,
   "Postal": null,
-  "Formatted": "possimus",
+  "Formatted": "ducimus",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 840
+      "FieldLength": 813
     }
   }
 }

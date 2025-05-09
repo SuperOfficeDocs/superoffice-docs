@@ -71,7 +71,7 @@ OK
 GET /api/v1/Schema/{tableName}/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -82,10 +82,10 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Crona, Grant and Feeney",
-  "DisplayName": "Kub Group",
-  "Description": "User-friendly eco-centric circuit",
-  "ShortLabel": "dolores",
+  "FieldName": "Bins Inc and Sons",
+  "DisplayName": "Thompson-Crona",
+  "Description": "Stand-alone neutral superstructure",
+  "ShortLabel": "corrupti",
   "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
@@ -93,7 +93,7 @@ Content-Type: application/json; charset=utf-8
   "IsReadOnly": false,
   "IsExternal": false,
   "IsDisplayField": true,
-  "Rank": 296,
-  "TemplateVariableName": "Bechtelar-Murray"
+  "Rank": 55,
+  "TemplateVariableName": "Howe Inc and Sons"
 }
 ```

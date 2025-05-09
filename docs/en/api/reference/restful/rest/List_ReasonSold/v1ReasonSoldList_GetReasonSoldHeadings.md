@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 1002,
-    "Name": "Smitham-Senger",
-    "Tooltip": "reiciendis",
-    "Deleted": false,
-    "Rank": 666,
-    "UdListDefinitionId": 693,
+    "HeadingId": 59,
+    "Name": "Lubowitz Group",
+    "Tooltip": "et",
+    "Deleted": true,
+    "Rank": 878,
+    "UdListDefinitionId": 815,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 441
+        "FieldLength": 411
       }
     }
   }

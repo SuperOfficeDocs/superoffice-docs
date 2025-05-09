@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Priority/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 777,
-    "Name": "Larson Group",
-    "ToolTip": "Rem rerum et consequatur.",
-    "Deleted": false,
-    "Rank": 265,
-    "Type": "totam",
-    "ColorBlock": 230,
-    "IconHint": "quidem",
-    "Selected": true,
-    "LastChanged": "2024-02-29T13:14:09.8847801+01:00",
+    "Id": 730,
+    "Name": "Hahn LLC",
+    "ToolTip": "Rerum dignissimos mollitia et eos soluta.",
+    "Deleted": true,
+    "Rank": 739,
+    "Type": "beatae",
+    "ColorBlock": 220,
+    "IconHint": "rerum",
+    "Selected": false,
+    "LastChanged": "2010-03-01T16:32:48.7745027+01:00",
     "ChildItems": [
       {
-        "Id": 210,
-        "Name": "Brown-Green",
-        "ToolTip": "Vel dicta qui.",
+        "Id": 719,
+        "Name": "Feil-Parker",
+        "ToolTip": "Qui et rerum aut cupiditate illum.",
         "Deleted": true,
-        "Rank": 887,
-        "Type": "sapiente",
-        "ColorBlock": 359,
-        "IconHint": "modi",
-        "Selected": false,
-        "LastChanged": "2020-09-03T13:14:09.8847801+02:00",
+        "Rank": 954,
+        "Type": "molestias",
+        "ColorBlock": 430,
+        "IconHint": "nemo",
+        "Selected": true,
+        "LastChanged": "2000-11-03T16:32:48.7745027+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "numquam",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Sydnee Kutch",
+        "ExtraInfo": "a",
+        "StyleHint": "porro",
+        "Hidden": false,
+        "FullName": "Olen Walter DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 803
+            "FieldLength": 669
           }
         }
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "sapiente",
-    "Hidden": false,
-    "FullName": "Zane Dickinson",
+    "ExtraInfo": "harum",
+    "StyleHint": "eaque",
+    "Hidden": true,
+    "FullName": "Ms. Fernando Karen Koepp V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 179
+        "FieldLength": 465
       }
     }
   }

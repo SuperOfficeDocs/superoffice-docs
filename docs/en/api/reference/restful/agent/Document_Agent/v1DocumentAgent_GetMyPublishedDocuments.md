@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/Document/GetMyPublishedDocuments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,32 +95,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 842,
-    "Attention": "cum",
-    "Header": "aspernatur",
-    "Name": "Heaney, Ondricka and Strosin",
-    "OurRef": "a",
-    "YourRef": "iste",
-    "Description": "Public-key foreground core",
-    "DocumentTemplate": "voluptas",
+    "DocumentId": 658,
+    "Attention": "est",
+    "Header": "et",
+    "Name": "Herzog Group",
+    "OurRef": "nostrum",
+    "YourRef": "pariatur",
+    "Description": "Total multi-state emulation",
+    "DocumentTemplate": "vel",
     "IsPublished": false,
-    "PersonId": 528,
-    "PersonFullName": "Forest Cassin",
-    "AssociateFullName": "Mathew Hintz",
-    "ContactId": 959,
-    "ContactName": "Oberbrunner Inc and Sons",
-    "ProjectId": 433,
-    "ProjectName": "Kuhic Inc and Sons",
-    "AssociateId": 909,
-    "Snum": 961,
-    "SaleId": 153,
-    "SaleName": "Rempel LLC",
+    "PersonId": 537,
+    "PersonFullName": "Kylee Pfannerstill",
+    "AssociateFullName": "Violet Weimann",
+    "ContactId": 977,
+    "ContactName": "Moen Group",
+    "ProjectId": 644,
+    "ProjectName": "Hintz Group",
+    "AssociateId": 762,
+    "Snum": 529,
+    "SaleId": 592,
+    "SaleName": "Harvey LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 199
+        "FieldType": "System.String",
+        "FieldLength": 805
       }
     }
   }

@@ -26,8 +26,8 @@ Get the MDO list items for "DeliveryTerms" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/DeliveryTerm/MDOItems?flat=False
-GET /api/v1/List/DeliveryTerm/MDOItems?query=voluptates
+GET /api/v1/List/DeliveryTerm/MDOItems?flat=True
+GET /api/v1/List/DeliveryTerm/MDOItems?query=beatae
 ```
 
 
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 981,
-    "Name": "Franecki, Gusikowski and Blick",
-    "ToolTip": "Et consequatur soluta ea autem.",
+    "Id": 496,
+    "Name": "Gusikowski, Ebert and Rolfson",
+    "ToolTip": "Itaque ad.",
     "Deleted": false,
-    "Rank": 346,
-    "Type": "sed",
+    "Rank": 803,
+    "Type": "voluptatem",
     "ChildItems": [
       {
-        "Id": 732,
-        "Name": "Sawayn Group",
-        "ToolTip": "Aut pariatur.",
-        "Deleted": true,
-        "Rank": 476,
-        "Type": "fuga",
+        "Id": 68,
+        "Name": "Skiles Inc and Sons",
+        "ToolTip": "Animi eius nemo vel.",
+        "Deleted": false,
+        "Rank": 940,
+        "Type": "sunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "officia",
-        "ColorBlock": 305,
-        "ExtraInfo": "sed",
-        "StyleHint": "sequi",
-        "FullName": "Lolita Bode",
+        "IconHint": "et",
+        "ColorBlock": 654,
+        "ExtraInfo": "facilis",
+        "StyleHint": "omnis",
+        "FullName": "Virgie Wolf PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 908
+            "FieldLength": 5
           }
         }
       }
     ],
-    "IconHint": "fugiat",
-    "ColorBlock": 431,
-    "ExtraInfo": "repellendus",
-    "StyleHint": "enim",
-    "FullName": "Ms. Efrain Trey Ratke II",
+    "IconHint": "incidunt",
+    "ColorBlock": 659,
+    "ExtraInfo": "consequatur",
+    "StyleHint": "nulla",
+    "FullName": "Gabriella Wehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 239
+        "FieldType": "System.Int32",
+        "FieldLength": 957
       }
     }
   }

@@ -93,7 +93,7 @@ OK
 POST /api/v1/Agents/Contact/GetContactList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -104,36 +104,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 990,
-    "Name": "Hilll, Schulist and Boyer",
-    "OrgNr": "1286539",
+    "ContactId": 881,
+    "Name": "Trantow, Kris and Abshire",
+    "OrgNr": "989230",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "perferendis",
-    "DirectPhone": "(611)133-8372",
-    "AssociateId": 716,
-    "CountryId": 944,
-    "EmailAddress": "paris@skiles.info",
-    "Kananame": "qui",
-    "EmailAddressName": "meghan_green@hudsonwuckert.ca",
+    "City": "dolores",
+    "DirectPhone": "(084)921-2790 x52815",
+    "AssociateId": 364,
+    "CountryId": 361,
+    "EmailAddress": "frederique@volkman.co.uk",
+    "Kananame": "rerum",
+    "EmailAddressName": "cordelia@bogan.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Estel Hettinger",
+    "AssociateFullName": "Amie Goyette",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "eius",
-    "FullName": "Mr. Carmine Maiya Crooks DDS",
+    "FormattedAddress": "eligendi",
+    "FullName": "Constance Kulas",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 318,
-    "Number1": "647375",
-    "Number2": "134399",
+    "ActiveErpLinks": 669,
+    "Number1": "1636849",
+    "Number2": "1044973",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 826
+        "FieldLength": 210
       }
     }
   }

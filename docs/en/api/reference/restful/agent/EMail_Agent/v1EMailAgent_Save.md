@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/EMail/Save
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -117,97 +117,97 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 806,
-      "ContactName": "Emmerich, Davis and Kunze",
-      "PersonId": 733,
-      "PersonName": "Cummerata, VonRueden and O'Keefe",
-      "AssociateId": 214,
-      "Address": "exercitationem",
-      "EmailId": 60,
+      "ContactId": 303,
+      "ContactName": "Rempel Group",
+      "PersonId": 855,
+      "PersonName": "Durgan Group",
+      "AssociateId": 497,
+      "Address": "aut",
+      "EmailId": 967,
       "DuplicatePersonIds": [
-        722,
-        652
+        260,
+        285
       ],
-      "Name": "Larkin, Sipes and Boyer",
+      "Name": "Bosco, Rau and Breitenberg",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 450
+          "FieldType": "System.Int32",
+          "FieldLength": 19
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 923,
-      "ContactName": "Conroy, Klocko and O'Keefe",
-      "PersonId": 162,
-      "PersonName": "Robel Group",
-      "AssociateId": 445,
-      "Address": "sit",
-      "EmailId": 476,
+      "ContactId": 400,
+      "ContactName": "Trantow Group",
+      "PersonId": 897,
+      "PersonName": "Gleason Inc and Sons",
+      "AssociateId": 208,
+      "Address": "voluptatem",
+      "EmailId": 982,
       "DuplicatePersonIds": [
-        628,
-        712
+        912,
+        44
       ],
-      "Name": "Beer-Turcotte",
+      "Name": "Hessel-Gibson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 225
+          "FieldLength": 302
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 14,
-      "ContactName": "McKenzie Group",
-      "PersonId": 803,
-      "PersonName": "Parisian Group",
-      "AssociateId": 277,
-      "Address": "neque",
-      "EmailId": 954,
+      "ContactId": 384,
+      "ContactName": "Boyer, Wiegand and Lind",
+      "PersonId": 133,
+      "PersonName": "Wisoky, Medhurst and Hermann",
+      "AssociateId": 168,
+      "Address": "sed",
+      "EmailId": 824,
       "DuplicatePersonIds": [
-        259,
-        204
+        772,
+        926
       ],
-      "Name": "Haley Inc and Sons",
+      "Name": "Hauck LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 327
+          "FieldLength": 560
         }
       }
     }
   ],
-  "Subject": "non",
-  "HTMLBody": "aspernatur",
+  "Subject": "placeat",
+  "HTMLBody": "voluptate",
   "From": null,
-  "Sent": "2013-10-07T13:14:00.2512206+02:00",
-  "Size": 759,
+  "Sent": "2019-05-16T16:32:38.9301889+02:00",
+  "Size": 234,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "sed",
-  "PlainBody": "quasi",
+  "MessageID": "placeat",
+  "PlainBody": "repellendus",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 315,
+  "ServerId": 651,
   "Attachments": [
     {
-      "Description": "Synergistic object-oriented architecture",
-      "Filename": "inventore",
-      "Size": 300,
-      "Type": "totam",
-      "Encoding": "sequi",
-      "Id": "ab",
-      "Disposition": "laboriosam",
+      "Description": "Persistent regional complexity",
+      "Filename": "et",
+      "Size": 172,
+      "Type": "suscipit",
+      "Encoding": "omnis",
+      "Id": "error",
+      "Disposition": "enim",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
@@ -215,58 +215,58 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 551
+          "FieldLength": 955
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Ratke-Turner",
+      "Name": "Jones, Waelchi and Schinner",
       "Values": [
-        "accusamus",
-        "sit"
+        "vitae",
+        "accusamus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 187
+          "FieldLength": 880
         }
       }
     },
     {
-      "Name": "Ratke-Turner",
+      "Name": "Jones, Waelchi and Schinner",
       "Values": [
-        "accusamus",
-        "sit"
+        "vitae",
+        "accusamus"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 187
+          "FieldLength": 880
         }
       }
     }
   ],
-  "FolderName": "Corkery Group",
-  "EmailItemId": 216,
-  "AccountId": 841,
-  "ReceivedAt": "2023-06-22T13:14:00.2512206+02:00",
+  "FolderName": "Welch, Kuphal and Larson",
+  "EmailItemId": 201,
+  "AccountId": 54,
+  "ReceivedAt": "2024-02-03T16:32:38.9301889+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-05-27T13:14:00.2512206+02:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2004-09-26T16:32:38.9301889+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 511
+      "FieldType": "System.Int32",
+      "FieldLength": 46
     }
   }
 }

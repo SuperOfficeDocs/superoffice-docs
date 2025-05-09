@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 64,
-  "GroupId": 158
+  "UdListDefinitionId": 358,
+  "GroupId": 636
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 482,
-    "Name": "Deckow, Dicki and Jacobs",
-    "ToolTip": "Debitis dicta et neque ut nam esse.",
-    "Deleted": false,
-    "Rank": 30,
-    "Type": "culpa",
-    "ColorBlock": 898,
-    "IconHint": "vel",
+    "Id": 196,
+    "Name": "Wintheiser-Cole",
+    "ToolTip": "Inventore asperiores quis ipsam minima consequuntur.",
+    "Deleted": true,
+    "Rank": 189,
+    "Type": "veritatis",
+    "ColorBlock": 109,
+    "IconHint": "nihil",
     "Selected": false,
-    "LastChanged": "2023-05-03T13:14:00.5949987+02:00",
+    "LastChanged": "2010-01-01T16:32:39.2426162+01:00",
     "ChildItems": [
       {
-        "Id": 875,
-        "Name": "Stanton LLC",
-        "ToolTip": "Autem et quia.",
-        "Deleted": false,
-        "Rank": 95,
-        "Type": "cum",
-        "ColorBlock": 736,
-        "IconHint": "cumque",
-        "Selected": true,
-        "LastChanged": "2003-01-12T13:14:00.5949987+01:00",
+        "Id": 658,
+        "Name": "Kiehn Inc and Sons",
+        "ToolTip": "Sit quas et porro dolorem nihil.",
+        "Deleted": true,
+        "Rank": 440,
+        "Type": "totam",
+        "ColorBlock": 992,
+        "IconHint": "error",
+        "Selected": false,
+        "LastChanged": "2017-12-18T16:32:39.2426162+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "culpa",
+        "StyleHint": "vitae",
         "Hidden": false,
-        "FullName": "Prof. Kelli Rosario Satterfield DDS",
+        "FullName": "Fannie Sanford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 729
+            "FieldLength": 198
           }
         }
       }
     ],
-    "ExtraInfo": "molestiae",
-    "StyleHint": "iusto",
+    "ExtraInfo": "corrupti",
+    "StyleHint": "rerum",
     "Hidden": false,
-    "FullName": "Joshuah Collier",
+    "FullName": "Manley Liza Hickle I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 440
+        "FieldType": "System.Int32",
+        "FieldLength": 746
       }
     }
   }

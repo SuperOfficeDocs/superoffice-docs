@@ -80,9 +80,9 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Table": "illum",
-  "RecordId": 621,
-  "Fields": "vitae"
+  "Table": "numquam",
+  "RecordId": 513,
+  "Fields": "voluptatem"
 }
 ```
 
@@ -94,11 +94,11 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Field": "exercitationem",
+    "Field": "quidem",
     "FieldValue": null
   },
   {
-    "Field": "exercitationem",
+    "Field": "quidem",
     "FieldValue": null
   }
 ]

@@ -113,18 +113,18 @@ DashTile  updated.
 PATCH /api/v1/DashTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "porro",
+    "path": "at",
     "value": {}
   },
   {
     "op": "add",
-    "path": "porro",
+    "path": "at",
     "value": {}
   }
 ]
@@ -137,23 +137,23 @@ HTTP/1.1 200 DashTile  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 610,
-  "DashboardId": 933,
-  "Height": 961,
-  "Width": 452,
-  "Rank": 734,
+  "DashboardTileId": 375,
+  "DashboardId": 547,
+  "Height": 986,
+  "Width": 275,
+  "Rank": 909,
   "DashTileDefinition": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 611
+      "FieldLength": 799
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -133,16 +133,16 @@ OK
 POST /api/v1/Agents/Appointment/GetPersonAppointmentsByTask
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PersonId": 369,
-  "IncludeProjectAppointments": false,
-  "StartTime": "1998-11-21T13:13:58.9844587+01:00",
-  "EndTime": "2017-02-12T13:13:58.9844587+01:00",
-  "Count": 415,
-  "TaskId": 557
+  "PersonId": 782,
+  "IncludeProjectAppointments": true,
+  "StartTime": "2021-04-13T16:32:37.6021684+02:00",
+  "EndTime": "2002-01-22T16:32:37.6021684+01:00",
+  "Count": 596,
+  "TaskId": 924
 }
 ```
 
@@ -154,66 +154,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 756,
-    "StartDate": "2025-02-26T13:13:58.9844587+01:00",
-    "EndDate": "2010-04-08T13:13:58.9844587+02:00",
+    "AppointmentId": 572,
+    "StartDate": "1999-02-11T16:32:37.6021684+01:00",
+    "EndDate": "2002-05-18T16:32:37.6021684+02:00",
     "Type": "BookingForChecklist",
-    "Task": "nisi",
-    "AssociateFullName": "Eula Pollich",
-    "ContactName": "Herzog Inc and Sons",
-    "Description": "Innovative next generation portal",
-    "PersonFullName": "Gerhard Hilll",
-    "PersonId": 889,
-    "ContactId": 488,
-    "ProjectId": 349,
-    "ProjectName": "Kilback LLC",
-    "IsPublished": true,
-    "AssociateId": 25,
-    "ColorIndex": 967,
+    "Task": "ipsum",
+    "AssociateFullName": "Peter Anderson",
+    "ContactName": "Considine Group",
+    "Description": "Horizontal interactive matrices",
+    "PersonFullName": "Mr. Bobbie Gunner Beatty",
+    "PersonId": 954,
+    "ContactId": 990,
+    "ProjectId": 119,
+    "ProjectName": "Witting-Barton",
+    "IsPublished": false,
+    "AssociateId": 597,
+    "ColorIndex": 222,
     "IsFree": false,
     "HasAlarm": true,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 976,
-    "PriorityName": "Jenkins Group",
+    "PriorityId": 154,
+    "PriorityName": "Macejkovic, Becker and Murray",
     "TaskType": "Appointment",
-    "IsBookingMain": true,
+    "IsBookingMain": false,
     "IsRecurrence": true,
     "IsBooking": false,
-    "ActiveDate": "2025-02-14T13:13:58.9844587+01:00",
+    "ActiveDate": "2008-03-03T16:32:37.6021684+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2013-08-17T13:13:58.9844587+02:00",
-    "RecurringEndDate": "2015-01-22T13:13:58.9844587+01:00",
-    "MotherId": 522,
-    "AssignedBy": 68,
-    "AssignedByFullName": "Cecelia Haley",
+    "RecurringStartDate": "1999-08-14T16:32:37.6021684+02:00",
+    "RecurringEndDate": "2001-04-23T16:32:37.6021684+02:00",
+    "MotherId": 719,
+    "AssignedBy": 297,
+    "AssignedByFullName": "Abbigail Predovic",
     "RejectReason": "",
-    "Location": "veritatis",
-    "AlarmLeadTime": "ut",
-    "SaleId": 873,
-    "SaleName": "Brekke-O'Keefe",
-    "AssociateName": "Bruen, Williamson and Gulgowski",
-    "CreatedDate": "2012-04-27T13:13:58.9844587+02:00",
-    "CreatedBy": "aut",
-    "CreatedByFullName": "Nolan Cassin",
-    "CreatedByAssociateId": 970,
+    "Location": "et",
+    "AlarmLeadTime": "non",
+    "SaleId": 860,
+    "SaleName": "Goodwin, Grady and Mosciski",
+    "AssociateName": "Nikolaus, Spencer and Bergstrom",
+    "CreatedDate": "2003-02-18T16:32:37.6021684+01:00",
+    "CreatedBy": "omnis",
+    "CreatedByFullName": "Margarete McGlynn",
+    "CreatedByAssociateId": 82,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 518,
-    "Title": "necessitatibus",
-    "Agenda": "dicta",
-    "InternalNotes": "est",
+    "PreferredTZLocation": 424,
+    "Title": "adipisci",
+    "Agenda": "et",
+    "InternalNotes": "doloribus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 197
+        "FieldLength": 601
       }
     }
   }

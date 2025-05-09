@@ -83,59 +83,59 @@ OK
 POST /api/v1/Agents/Archive/ExportArchive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Legros-Huel",
-  "Context": "facilis",
+  "ProviderName": "McClure Group",
+  "Context": "velit",
   "DesiredEntities": [
-    "tempore",
-    "explicabo"
+    "non",
+    "quidem"
   ],
   "Columns": [
-    "aut",
-    "est"
+    "ea",
+    "voluptatem"
   ],
   "SortOrder": [
     {
-      "Name": "Klocko-Sawayn",
+      "Name": "Price, Reynolds and Gutkowski",
       "Direction": "ASC"
     },
     {
-      "Name": "Klocko-Sawayn",
+      "Name": "Price, Reynolds and Gutkowski",
       "Direction": "ASC"
     }
   ],
   "Restrictions": [
     {
-      "Name": "Ritchie Inc and Sons",
-      "Operator": "sunt",
+      "Name": "Morissette Inc and Sons",
+      "Operator": "dolores",
       "Values": [
-        "possimus",
-        "a"
+        "et",
+        "laboriosam"
       ],
       "DisplayValues": [
-        "minima",
-        "nemo"
+        "impedit",
+        "voluptas"
       ],
       "ColumnInfo": null,
-      "IsActive": true,
+      "IsActive": false,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 418,
+      "InterParenthesis": 139,
       "InterOperator": "And",
-      "UniqueHash": 2
+      "UniqueHash": 66
     }
   ],
-  "ExportType": "voluptas",
+  "ExportType": "atque",
   "SelectedRowIds": [
-    "sunt",
-    "similique"
+    "sit",
+    "nobis"
   ],
-  "EstimatedRowCount": 900
+  "EstimatedRowCount": 807
 }
 ```
 
@@ -146,15 +146,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 699,
-  "FileName": "Bahringer-Corwin",
-  "Message": "quia",
+  "BatchTaskId": 445,
+  "FileName": "Schimmel-Gottlieb",
+  "Message": "iste",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 503
+      "FieldType": "System.Int32",
+      "FieldLength": 418
     }
   }
 }

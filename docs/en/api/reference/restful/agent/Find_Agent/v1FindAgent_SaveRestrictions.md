@@ -71,30 +71,30 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "maiores",
-  "ProviderName": "Walter, Price and Thiel",
-  "StorageKey": "recusandae",
+  "StorageType": "ipsum",
+  "ProviderName": "Schaefer-Kuvalis",
+  "StorageKey": "debitis",
   "Restrictions": [
     {
-      "Name": "Ryan, Leuschke and Dibbert",
-      "Operator": "vel",
+      "Name": "Paucek Inc and Sons",
+      "Operator": "provident",
       "Values": [
-        "libero",
-        "et"
+        "nisi",
+        "qui"
       ],
       "DisplayValues": [
-        "aliquam",
-        "quaerat"
+        "incidunt",
+        "tempora"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 41,
+      "InterParenthesis": 773,
       "InterOperator": "And",
-      "UniqueHash": 419
+      "UniqueHash": 959
     }
   ]
 }

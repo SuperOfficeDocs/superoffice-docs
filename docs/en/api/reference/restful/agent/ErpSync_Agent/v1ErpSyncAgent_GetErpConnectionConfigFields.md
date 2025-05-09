@@ -74,7 +74,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 182
+  "ErpConnectionId": 774
 }
 ```
 
@@ -85,7 +85,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "1": "ducimus",
-  "2": "laudantium"
+  "1": "quo",
+  "2": "non"
 }
 ```

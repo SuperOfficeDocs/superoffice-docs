@@ -28,6 +28,8 @@ generated: true
 
 * [POST Agents/CustomerService/EventHandlerExists](v1CustomerServiceAgent_EventHandlerExists.md)
 
+* [POST Agents/CustomerService/EventHandlersExists](v1CustomerServiceAgent_EventHandlersExists.md)
+
 * [POST Agents/CustomerService/CreateSession](v1CustomerServiceAgent_CreateSession.md)
 
 * [POST Agents/CustomerService/RemoveSession](v1CustomerServiceAgent_RemoveSession.md)

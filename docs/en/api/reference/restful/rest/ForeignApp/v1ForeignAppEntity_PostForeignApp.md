@@ -67,7 +67,7 @@ OK
 POST /api/v1/ForeignApp/{appName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -77,29 +77,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 766,
-  "Name": "Lowe-Little",
-  "CreatedDate": "2016-03-15T13:14:08.7428891+01:00",
-  "UpdatedDate": "2023-04-05T13:14:08.7428891+02:00",
+  "ForeignAppId": 337,
+  "Name": "McKenzie-Blick",
+  "CreatedDate": "2011-01-02T16:32:47.5245817+01:00",
+  "UpdatedDate": "2001-07-20T16:32:47.5245817+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 988,
-      "Name": "Nitzsche-Schneider",
-      "CreatedDate": "2021-04-05T13:14:08.7428891+02:00",
-      "UpdatedDate": "2023-10-12T13:14:08.7428891+02:00",
-      "AssociateFullName": "Nickolas Reichel",
-      "CreatedBy": "aliquid",
-      "UpdatedBy": "maiores",
-      "DeviceIdentifier": "ut",
-      "ForeignAppId": 65,
+      "ForeignDeviceId": 32,
+      "Name": "Reilly-Doyle",
+      "CreatedDate": "2001-01-17T16:32:47.5245817+01:00",
+      "UpdatedDate": "2020-06-23T16:32:47.5245817+02:00",
+      "AssociateFullName": "Ernie Bogan",
+      "CreatedBy": "et",
+      "UpdatedBy": "nostrum",
+      "DeviceIdentifier": "omnis",
+      "ForeignAppId": 585,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldType": "System.String",
+          "FieldLength": 326
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 86
+      "FieldType": "System.Int32",
+      "FieldLength": 112
     }
   }
 }

@@ -94,12 +94,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 237,
-  "Name": "Ernser-Marvin",
-  "Tooltip": "cum",
-  "PassiveText": "ut",
-  "Deleted": false,
-  "Rank": 948,
+  "ReldefId": 867,
+  "Name": "Heathcote Inc and Sons",
+  "Tooltip": "similique",
+  "PassiveText": "consequatur",
+  "Deleted": true,
+  "Rank": 865,
   "Source": "Both",
   "Destination": "Both"
 }
@@ -112,20 +112,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 679,
-  "Name": "Luettgen-Brown",
-  "Tooltip": "aliquid",
-  "PassiveText": "perspiciatis",
-  "Deleted": false,
-  "Rank": 363,
+  "ReldefId": 548,
+  "Name": "Stark, DuBuque and Turner",
+  "Tooltip": "reiciendis",
+  "PassiveText": "vero",
+  "Deleted": true,
+  "Rank": 788,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 117
+      "FieldType": "System.Int32",
+      "FieldLength": 2
     }
   },
   "_Links": {

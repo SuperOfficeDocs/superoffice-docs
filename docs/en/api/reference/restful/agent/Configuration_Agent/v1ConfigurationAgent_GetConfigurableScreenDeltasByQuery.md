@@ -101,28 +101,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConfigurableScreenDeltaId": 531,
-    "Name": "Grady-Wintheiser",
-    "Description": "Universal analyzing model",
-    "DeltaJson": "dolorem",
+    "ConfigurableScreenDeltaId": 813,
+    "Name": "Turner, Stehr and Hamill",
+    "Description": "Monitored zero tolerance interface",
+    "DeltaJson": "rerum",
     "DeltaType": "CustomFields",
     "DeltaState": "Draft",
-    "RecipeId": "earum",
-    "UpdatedDate": "2018-08-06T13:13:59.7038141+02:00",
-    "CreatedDate": "2019-11-06T13:13:59.7038141+01:00",
+    "RecipeId": "veniam",
+    "UpdatedDate": "2003-06-24T16:32:38.3834375+02:00",
+    "CreatedDate": "2009-04-10T16:32:38.3834375+02:00",
     "UpdatedBy": null,
     "CreatedBy": null,
     "AppliesToIds": [
-      721,
-      571
+      261,
+      822
     ],
-    "AppliesToKey": "itaque",
+    "AppliesToKey": "labore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldType": "System.String",
+        "FieldLength": 733
       }
     }
   }

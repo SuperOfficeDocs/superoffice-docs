@@ -133,11 +133,11 @@ OK
 POST /api/v1/Agents/Appointment/AcceptRejected
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 871,
+  "AppointmentId": 156,
   "UpdateMode": "OnlyThis"
 }
 ```
@@ -153,121 +153,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2009-06-10T13:13:59.3594813+02:00",
-  "AppointmentId": 855,
-  "Description": "Multi-tiered attitude-oriented attitude",
-  "Title": "sunt",
-  "Agenda": "culpa",
-  "InternalNotes": "blanditiis",
-  "StartDate": "2014-05-30T13:13:59.3594813+02:00",
-  "EndDate": "2020-01-21T13:13:59.3594813+01:00",
+  "CreatedDate": "2020-08-22T16:32:38.0085236+02:00",
+  "AppointmentId": 813,
+  "Description": "Extended impactful challenge",
+  "Title": "quia",
+  "Agenda": "in",
+  "InternalNotes": "aspernatur",
+  "StartDate": "2023-08-13T16:32:38.0085236+02:00",
+  "EndDate": "2023-06-26T16:32:38.0085236+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 541,
+  "MotherId": 976,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2001-08-31T13:13:59.3594813+02:00",
+  "UpdatedDate": "2022-01-19T16:32:38.0085236+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 441,
+  "ActiveLinks": 236,
   "Links": [
     {
-      "EntityName": "Balistreri, Torp and Rogahn",
-      "Id": 497,
-      "Description": "Reverse-engineered fault-tolerant solution",
-      "ExtraInfo": "qui",
-      "LinkId": 836,
+      "EntityName": "Lesch Group",
+      "Id": 94,
+      "Description": "Persevering didactic circuit",
+      "ExtraInfo": "nemo",
+      "LinkId": 494,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 357
+          "FieldLength": 69
         }
       }
     }
   ],
-  "AlarmLeadTime": "non",
-  "HasAlarm": true,
-  "ColorIndex": 189,
+  "AlarmLeadTime": "voluptatem",
+  "HasAlarm": false,
+  "ColorIndex": 203,
   "IsFree": true,
-  "IsAlldayEvent": true,
-  "LagTime": "et",
-  "LeadTime": "libero",
-  "Location": "perferendis",
-  "RejectCounter": 209,
+  "IsAlldayEvent": false,
+  "LagTime": "harum",
+  "LeadTime": "natus",
+  "Location": "perspiciatis",
+  "RejectCounter": 117,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 905,
-      "PersonId": 125,
-      "ContactId": 371,
-      "EmailId": 131,
+      "AssociateId": 758,
+      "PersonId": 73,
+      "ContactId": 241,
+      "EmailId": 17,
       "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "rebecca.von@franecki.ca",
-      "Description": "Centralized coherent archive"
+      "EmailAddress": "glenna@pacocha.biz",
+      "Description": "Object-based zero tolerance superstructure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-02-11T13:13:59.3594813+01:00",
+  "ActiveDate": "2008-03-29T16:32:38.0085236+01:00",
   "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 489,
+  "PreferredTZLocation": 720,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 91,
-  "IsMileStone": false,
+  "SuggestedAppointmentId": 935,
+  "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sint",
+  "CentralserviceVideomeetId": "ut",
   "UserDefinedFields": {
-    "SuperOffice:1": "False",
-    "SuperOffice:2": "Dr. Eliane Leanna Armstrong"
+    "SuperOffice:1": "Eddie Keeling DDS",
+    "SuperOffice:2": "1964628658"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "iste"
+    "ExtraFields1": "odio",
+    "ExtraFields2": "sapiente"
   },
   "CustomFields": {
-    "CustomFields1": "tenetur",
-    "CustomFields2": "non"
+    "CustomFields1": "dicta",
+    "CustomFields2": "et"
   },
-  "PublishEventDate": "1999-04-21T13:13:59.3594813+02:00",
-  "PublishTo": "2014-10-07T13:13:59.3594813+02:00",
-  "PublishFrom": "2010-08-16T13:13:59.3594813+02:00",
-  "IsPublished": false,
+  "PublishEventDate": "2019-12-04T16:32:38.0085236+01:00",
+  "PublishTo": "2022-04-16T16:32:38.0085236+02:00",
+  "PublishFrom": "2016-05-06T16:32:38.0085236+02:00",
+  "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 820,
+      "VisibleId": 258,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 474
         }
       }
     },
     {
-      "VisibleId": 820,
+      "VisibleId": 258,
       "Visibility": "All",
-      "DisplayValue": "et",
+      "DisplayValue": "nesciunt",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 250
+          "FieldLength": 474
         }
       }
     }
@@ -277,7 +277,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 376
+      "FieldLength": 234
     }
   }
 }

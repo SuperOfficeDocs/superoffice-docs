@@ -100,30 +100,30 @@ HTTP/1.1 200 PreferenceDescription found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 37,
-  "Section": "consectetur",
-  "Key": "a",
-  "Name": "Koelpin LLC",
+  "PrefDescId": 256,
+  "Section": "minima",
+  "Key": "ut",
+  "Name": "Nikolaus, Cormier and Lehner",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Total demand-driven implementation",
+  "Description": "Organized human-resource encoding",
   "IsBuiltin": false,
-  "TableName": "Mohr Inc and Sons",
-  "UserDefinedListId": 800,
-  "Rank": 536,
-  "SubGroup": "qui",
-  "MinLevel": 515,
-  "MaxValue": 207,
-  "MinValue": 198,
-  "RequiredLicense": "illum",
+  "TableName": "Kulas-Vandervort",
+  "UserDefinedListId": 862,
+  "Rank": 596,
+  "SubGroup": "doloribus",
+  "MinLevel": 347,
+  "MaxValue": 585,
+  "MinValue": 854,
+  "RequiredLicense": "autem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldType": "System.String",
+      "FieldLength": 135
     }
   },
   "_Links": {

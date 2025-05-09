@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/SelectionCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 720,
-  "Name": "Zulauf, Jakubowski and Abernathy",
-  "Tooltip": "distinctio",
+  "HeadingId": 253,
+  "Name": "Reynolds-Hilpert",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 655,
-  "UdListDefinitionId": 823
+  "Rank": 392,
+  "UdListDefinitionId": 753
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 266,
-  "Name": "Hilll-Dibbert",
-  "Tooltip": "praesentium",
-  "Deleted": false,
-  "Rank": 671,
-  "UdListDefinitionId": 3,
+  "HeadingId": 125,
+  "Name": "Jaskolski Group",
+  "Tooltip": "dolor",
+  "Deleted": true,
+  "Rank": 71,
+  "UdListDefinitionId": 51,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 666
+      "FieldType": "System.String",
+      "FieldLength": 218
     }
   }
 }

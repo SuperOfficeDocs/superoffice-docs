@@ -118,10 +118,10 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 724,
+  "SelectionId": 383,
   "SelectionMemberIds": [
-    682,
-    3
+    391,
+    402
   ]
 }
 ```
@@ -133,70 +133,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Distributed fresh-thinking matrix",
-  "Postit": "rerum",
+  "Description": "Object-based bi-directional concept",
+  "Postit": "accusamus",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 659,
-  "IncludePerson": 806,
+  "GroupIdx": 68,
+  "IncludePerson": 514,
   "MemberCount": 99.99,
-  "Name": "Raynor Inc and Sons",
-  "PostitTextId": 615,
-  "CreatedDate": "2020-10-12T13:14:01.3162978+02:00",
-  "SelectionId": 449,
-  "SoundEx": "dicta",
-  "Source": 209,
-  "TextId": 530,
-  "UpdatedDate": "2012-06-28T13:14:01.3162978+02:00",
-  "UpdatedCount": 346,
-  "Visibility": 675,
+  "Name": "Kohler-Cremin",
+  "PostitTextId": 549,
+  "CreatedDate": "2015-12-04T16:32:39.914583+01:00",
+  "SelectionId": 578,
+  "SoundEx": "nobis",
+  "Source": 143,
+  "TextId": 613,
+  "UpdatedDate": "2011-12-29T16:32:39.914583+01:00",
+  "UpdatedCount": 482,
+  "Visibility": 491,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 24,
-  "TargetTableName": "Murray-Ruecker",
+  "CompanyUnique": true,
+  "TargetTableNumber": 743,
+  "TargetTableName": "Cummings-Gulgowski",
   "Completed": false,
-  "LeftSelectionId": 149,
-  "RightSelectionId": 659,
+  "LeftSelectionId": 78,
+  "RightSelectionId": 924,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Zieme LLC",
-  "ShadowProviderName": "Wintheiser Inc and Sons",
-  "ChartKey": "corporis",
-  "LastLoaded": "2000-02-19T13:14:01.3162978+01:00",
-  "LastLoadedBy": 518,
+  "MainProviderName": "Sauer Group",
+  "ShadowProviderName": "Blanda Group",
+  "ChartKey": "quisquam",
+  "LastLoaded": "2005-07-13T16:32:39.914583+02:00",
+  "LastLoadedBy": 792,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-07-05T13:14:01.3162978+02:00",
-  "LastMembershipChangeBy": 516,
+  "LastMembershipChange": "2004-05-11T16:32:39.914583+02:00",
+  "LastMembershipChangeBy": 191,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptas",
-  "MemberTabHeading": "vitae",
-  "MailingsProviderName": "Bode Group",
-  "DashboardTileDefinitionId": 101,
+  "MainHeading": "aut",
+  "MemberTabHeading": "aut",
+  "MailingsProviderName": "Roob Group",
+  "DashboardTileDefinitionId": 838,
   "VisibleFor": [
     {
-      "VisibleId": 795,
+      "VisibleId": 891,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 304
+          "FieldType": "System.String",
+          "FieldLength": 478
         }
       }
     },
     {
-      "VisibleId": 795,
+      "VisibleId": 891,
       "Visibility": "All",
-      "DisplayValue": "dolorem",
+      "DisplayValue": "sed",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 304
+          "FieldType": "System.String",
+          "FieldLength": 478
         }
       }
     }
@@ -206,7 +206,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 479
+      "FieldLength": 484
     }
   }
 }

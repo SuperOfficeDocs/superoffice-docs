@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/Currency/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -84,19 +84,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 904,
-    "Name": "Ruecker-Balistreri",
-    "Tooltip": "qui",
-    "Rank": 108,
-    "Rate": 2604.354,
-    "Units": 14676.521999999999,
-    "Deleted": true,
+    "CurrencyId": 223,
+    "Name": "Mante-Keeling",
+    "Tooltip": "reprehenderit",
+    "Rank": 627,
+    "Rate": 3243.69,
+    "Units": 5048.874,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 10
+        "FieldType": "System.String",
+        "FieldLength": 751
       }
     }
   }

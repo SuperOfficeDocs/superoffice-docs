@@ -26,7 +26,7 @@ Gets a DocumentTemplateEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=452
+POST /api/v1/Agents/List/GetDocumentTemplateEntity?documentTemplateEntityId=707
 POST /api/v1/Agents/List/GetDocumentTemplateEntity?$select=name,department,category/id
 ```
 
@@ -101,37 +101,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 313,
-  "Name": "Lubowitz LLC",
-  "Tooltip": "aspernatur",
-  "SaveInDb": 547,
-  "Filename": "sapiente",
-  "DefaultOref": "voluptatem",
+  "DocumentTemplateId": 447,
+  "Name": "Kunde-Prosacco",
+  "Tooltip": "quia",
+  "SaveInDb": 172,
+  "Filename": "eveniet",
+  "DefaultOref": "sint",
   "RecordType": "Appointment",
-  "Deleted": true,
+  "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 858,
-  "IntentId": 284,
+  "AutoeventId": 310,
+  "IntentId": 835,
   "IsDefaultPublished": false,
-  "Rank": 714,
-  "LoadTemplateFromPlugin": 690,
-  "MimeType": "consequatur",
+  "Rank": 309,
+  "LoadTemplateFromPlugin": 206,
+  "MimeType": "quo",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 242,
+  "DocumentTypeKey": 425,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "cindy@lefflerprice.us",
+  "EmailSubject": "violet@pollichgoodwin.com",
   "IncludeSignature": false,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "gabrielle.tromp@jakubowski.com",
+  "SenderEmailAddress": "emelie.jones@gleason.com",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 325
+      "FieldLength": 116
     }
   }
 }

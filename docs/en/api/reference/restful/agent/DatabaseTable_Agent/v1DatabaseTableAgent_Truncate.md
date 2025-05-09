@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/DatabaseTable/Truncate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Goldner, Schuppe and Parisian"
+  "TableName": "Gibson-Stamm"
 }
 ```
 
@@ -96,40 +96,40 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Success": false,
-  "Message": "ut",
-  "Inserts": 708,
-  "Updates": 588,
-  "Deletes": 295,
+  "Message": "odit",
+  "Inserts": 437,
+  "Updates": 477,
+  "Deletes": 139,
   "RowStatus": [
     {
-      "PrimaryKey": 633,
+      "PrimaryKey": 895,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eaque",
-        "pariatur"
+        "ut",
+        "saepe"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 512
+          "FieldLength": 763
         }
       }
     },
     {
-      "PrimaryKey": 633,
+      "PrimaryKey": 895,
       "Action": "ColumnsZeroed",
       "RowKeys": [
-        "eaque",
-        "pariatur"
+        "ut",
+        "saepe"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 512
+          "FieldLength": 763
         }
       }
     }
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 993
+      "FieldType": "System.Int32",
+      "FieldLength": 180
     }
   }
 }

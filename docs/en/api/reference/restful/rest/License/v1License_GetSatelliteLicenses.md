@@ -73,30 +73,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Douglas, Spencer and Conroy",
-    "Description": "Horizontal composite paradigm",
+    "Name": "Bode-Becker",
+    "Description": "Organic grid-enabled application",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 579,
-        "Tooltip": "ipsa",
-        "CanAssign": false,
-        "Free": 948,
-        "InUse": 909,
-        "IsHidden": false,
+        "Unrestricted": true,
+        "Total": 669,
+        "Tooltip": "beatae",
+        "CanAssign": true,
+        "Free": 185,
+        "InUse": 224,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 541,
-        "Name": "Barton-Pfannerstill",
-        "Description": "Multi-channelled solution-oriented website",
-        "PrerequisiteModuleName": "Gutkowski Inc and Sons",
-        "SortOrder": 745,
-        "ExtraFlags": 376,
+        "ModuleLicenseId": 693,
+        "Name": "Upton-Bernier",
+        "Description": "Right-sized stable support",
+        "PrerequisiteModuleName": "Rutherford-Sipes",
+        "SortOrder": 471,
+        "ExtraFlags": 236,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 629
+            "FieldType": "System.String",
+            "FieldLength": 296
           }
         }
       }
@@ -104,25 +104,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 98,
-        "Tooltip": "dolor",
-        "CanAssign": false,
-        "Free": 524,
-        "InUse": 52,
-        "IsHidden": true,
+        "Total": 217,
+        "Tooltip": "id",
+        "CanAssign": true,
+        "Free": 445,
+        "InUse": 475,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 688,
-        "Name": "Marks, Becker and Fritsch",
-        "Description": "Operative attitude-oriented system engine",
-        "PrerequisiteModuleName": "Quitzon-Crist",
-        "SortOrder": 853,
-        "ExtraFlags": 122,
+        "ModuleLicenseId": 526,
+        "Name": "Senger, Bednar and Luettgen",
+        "Description": "Progressive background data-warehouse",
+        "PrerequisiteModuleName": "Murazik LLC",
+        "SortOrder": 109,
+        "ExtraFlags": 5,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 448
+            "FieldLength": 941
           }
         }
       }
@@ -132,35 +132,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 569
+        "FieldLength": 458
       }
     }
   },
   {
-    "Name": "Douglas, Spencer and Conroy",
-    "Description": "Horizontal composite paradigm",
+    "Name": "Bode-Becker",
+    "Description": "Organic grid-enabled application",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": false,
-        "Total": 579,
-        "Tooltip": "ipsa",
-        "CanAssign": false,
-        "Free": 948,
-        "InUse": 909,
-        "IsHidden": false,
+        "Unrestricted": true,
+        "Total": 669,
+        "Tooltip": "beatae",
+        "CanAssign": true,
+        "Free": 185,
+        "InUse": 224,
+        "IsHidden": true,
         "Assigned": false,
-        "ModuleLicenseId": 541,
-        "Name": "Barton-Pfannerstill",
-        "Description": "Multi-channelled solution-oriented website",
-        "PrerequisiteModuleName": "Gutkowski Inc and Sons",
-        "SortOrder": 745,
-        "ExtraFlags": 376,
+        "ModuleLicenseId": 693,
+        "Name": "Upton-Bernier",
+        "Description": "Right-sized stable support",
+        "PrerequisiteModuleName": "Rutherford-Sipes",
+        "SortOrder": 471,
+        "ExtraFlags": 236,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 629
+            "FieldType": "System.String",
+            "FieldLength": 296
           }
         }
       }
@@ -168,25 +168,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 98,
-        "Tooltip": "dolor",
-        "CanAssign": false,
-        "Free": 524,
-        "InUse": 52,
-        "IsHidden": true,
+        "Total": 217,
+        "Tooltip": "id",
+        "CanAssign": true,
+        "Free": 445,
+        "InUse": 475,
+        "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 688,
-        "Name": "Marks, Becker and Fritsch",
-        "Description": "Operative attitude-oriented system engine",
-        "PrerequisiteModuleName": "Quitzon-Crist",
-        "SortOrder": 853,
-        "ExtraFlags": 122,
+        "ModuleLicenseId": 526,
+        "Name": "Senger, Bednar and Luettgen",
+        "Description": "Progressive background data-warehouse",
+        "PrerequisiteModuleName": "Murazik LLC",
+        "SortOrder": 109,
+        "ExtraFlags": 5,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 448
+            "FieldLength": 941
           }
         }
       }
@@ -196,7 +196,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 569
+        "FieldLength": 458
       }
     }
   }

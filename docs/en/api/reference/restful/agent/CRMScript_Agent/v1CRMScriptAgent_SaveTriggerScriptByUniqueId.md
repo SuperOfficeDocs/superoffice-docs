@@ -92,7 +92,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TriggerScriptUniqueId": "ex",
+  "TriggerScriptUniqueId": "voluptatibus",
   "Entity": null
 }
 ```
@@ -104,22 +104,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 55,
-  "Name": "Lemke-Anderson",
+  "ScreenChooserId": 469,
+  "Name": "Moore LLC",
   "ScreenType": "ChatAfterSaveNewMessage",
   "Enabled": true,
-  "UniqueIdentifier": "dicta",
-  "Source": "assumenda",
-  "Registered": "2009-08-13T13:14:00.0163364+02:00",
-  "RegisteredAssociateId": 513,
-  "Updated": "2005-09-12T13:14:00.0163364+02:00",
-  "UpdatedAssociateId": 319,
+  "UniqueIdentifier": "ut",
+  "Source": "reprehenderit",
+  "Registered": "2021-01-25T16:32:38.570895+01:00",
+  "RegisteredAssociateId": 68,
+  "Updated": "2008-04-22T16:32:38.570895+02:00",
+  "UpdatedAssociateId": 46,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 311
+      "FieldLength": 910
     }
   }
 }

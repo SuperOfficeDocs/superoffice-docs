@@ -26,7 +26,7 @@ Gets a ForeignDevice object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=674
+POST /api/v1/Agents/ForeignSystem/GetForeignDevice?foreignDeviceId=935
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice?$select=name,department,category/id
 ```
 
@@ -75,7 +75,7 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetForeignDevice
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -85,21 +85,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignDeviceId": 773,
-  "Name": "Hand-Blanda",
-  "CreatedDate": "2013-06-26T13:14:00.5168611+02:00",
-  "UpdatedDate": "2019-02-25T13:14:00.5168611+01:00",
-  "AssociateFullName": "Sibyl Simonis",
-  "CreatedBy": "ratione",
-  "UpdatedBy": "laudantium",
-  "DeviceIdentifier": "quia",
-  "ForeignAppId": 694,
+  "ForeignDeviceId": 701,
+  "Name": "Zboncak Inc and Sons",
+  "CreatedDate": "2004-10-26T16:32:39.1645096+02:00",
+  "UpdatedDate": "2011-09-04T16:32:39.1645096+02:00",
+  "AssociateFullName": "Dr. Josephine Hyatt Jr.",
+  "CreatedBy": "ab",
+  "UpdatedBy": "repudiandae",
+  "DeviceIdentifier": "omnis",
+  "ForeignAppId": 780,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 768
+      "FieldType": "System.String",
+      "FieldLength": 445
     }
   }
 }

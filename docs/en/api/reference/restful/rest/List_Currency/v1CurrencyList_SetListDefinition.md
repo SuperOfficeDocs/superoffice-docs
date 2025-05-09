@@ -84,20 +84,20 @@ OK
 PUT /api/v1/List/Currency
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 197,
-  "Name": "Harris-Baumbach",
-  "Tooltip": "iste",
-  "Deleted": true,
-  "Rank": 330,
-  "IsCustomList": true,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "quidem",
-  "InUseByUserDefinedFields": false
+  "Id": 907,
+  "Name": "Fadel, Kuhlman and Huels",
+  "Tooltip": "voluptates",
+  "Deleted": false,
+  "Rank": 428,
+  "IsCustomList": false,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "magnam",
+  "InUseByUserDefinedFields": true
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 960,
-  "Name": "Sawayn-Kshlerin",
-  "Tooltip": "voluptatum",
-  "Deleted": true,
-  "Rank": 360,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "ea",
-  "InUseByUserDefinedFields": true,
+  "Id": 449,
+  "Name": "Lang-Armstrong",
+  "Tooltip": "nisi",
+  "Deleted": false,
+  "Rank": 277,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "non",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 353
+      "FieldLength": 94
     }
   }
 }

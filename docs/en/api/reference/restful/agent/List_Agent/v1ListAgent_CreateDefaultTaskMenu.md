@@ -80,26 +80,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 169,
-  "Name": "Johnson, Moen and Ruecker",
-  "Tooltip": "expedita",
-  "TableName": "Kulas, Satterfield and Bailey",
-  "Area": "nisi",
+  "TaskMenuId": 258,
+  "Name": "Koelpin-Greenholt",
+  "Tooltip": "nesciunt",
+  "TableName": "Treutel-Ledner",
+  "Area": "odio",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 935,
+  "CrmScriptId": 57,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 845,
+  "Rank": 427,
   "Encoding": "ANSI",
-  "ProgId": "incidunt",
+  "ProgId": "autem",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 566
+      "FieldLength": 626
     }
   }
 }

@@ -58,7 +58,7 @@ OK
 POST /api/v1/Agents/Archive/CreateDefaultArchiveListResult
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -68,26 +68,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RowCount": 878,
+  "RowCount": 637,
   "Rows": [
     {
-      "EntityName": "Berge-King",
-      "PrimaryKey": 8,
+      "EntityName": "Emard, Lemke and Will",
+      "PrimaryKey": 436,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "cumque",
-          "TooltipHint": "quibusdam",
-          "LinkHint": "autem"
+          "DisplayValue": "est",
+          "TooltipHint": "ipsa",
+          "LinkHint": "possimus"
         }
       },
-      "LinkHint": "quam",
-      "StyleHint": "aspernatur",
+      "LinkHint": "rerum",
+      "StyleHint": "nemo",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 169
+          "FieldType": "System.String",
+          "FieldLength": 983
         }
       }
     }
@@ -97,7 +97,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldLength": 535
     }
   }
 }

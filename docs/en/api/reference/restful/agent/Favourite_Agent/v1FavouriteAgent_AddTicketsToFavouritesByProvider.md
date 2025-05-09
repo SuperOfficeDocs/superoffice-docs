@@ -67,36 +67,36 @@ No Content
 POST /api/v1/Agents/Favourite/AddTicketsToFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Considine, Ward and Hahn",
+  "ProviderName": "Borer, Flatley and Dach",
   "Restrictions": [
     {
-      "Name": "Kuhn Inc and Sons",
-      "Operator": "qui",
+      "Name": "Reinger Group",
+      "Operator": "voluptatem",
       "Values": [
-        "eum",
-        "deleniti"
+        "temporibus",
+        "quos"
       ],
       "DisplayValues": [
-        "eligendi",
-        "deserunt"
+        "voluptatem",
+        "eos"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 170,
+      "InterParenthesis": 197,
       "InterOperator": "And",
-      "UniqueHash": 536
+      "UniqueHash": 458
     }
   ],
-  "AssociateId": 264,
-  "ExtraInfo": "quia"
+  "AssociateId": 579,
+  "ExtraInfo": "dolore"
 }
 ```
 

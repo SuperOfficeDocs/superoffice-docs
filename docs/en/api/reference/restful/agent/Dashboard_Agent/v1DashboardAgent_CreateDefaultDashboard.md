@@ -61,7 +61,7 @@ OK
 POST /api/v1/Agents/Dashboard/CreateDefaultDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -71,22 +71,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 204,
-  "AssociateId": 655,
-  "Caption": "sunt",
+  "DashboardId": 433,
+  "AssociateId": 678,
+  "Caption": "eligendi",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 179,
-      "Caption": "alias",
-      "Description": "Decentralized non-volatile definition",
-      "ChartName": "Powlowski Inc and Sons",
-      "ChartId": "incidunt",
+      "DashboardTileId": 700,
+      "Caption": "et",
+      "Description": "De-engineered tertiary monitoring",
+      "ChartName": "Kozey, Renner and Mante",
+      "ChartId": "sed",
       "IsDefault": true,
-      "AssociateId": 561,
-      "GroupId": 957,
-      "SelectionId": 737,
-      "Config": "nesciunt",
+      "AssociateId": 242,
+      "GroupId": 127,
+      "SelectionId": 34,
+      "Config": "sint",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -102,7 +102,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 98
+          "FieldLength": 835
         }
       }
     }
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 390
+      "FieldLength": 494
     }
   }
 }

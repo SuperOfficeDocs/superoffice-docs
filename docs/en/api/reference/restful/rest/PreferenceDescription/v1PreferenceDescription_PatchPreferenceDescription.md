@@ -125,18 +125,18 @@ PreferenceDescription  updated.
 PATCH /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ab",
+    "path": "suscipit",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ab",
+    "path": "suscipit",
     "value": {}
   }
 ]
@@ -149,30 +149,30 @@ HTTP/1.1 200 PreferenceDescription  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 613,
-  "Section": "quibusdam",
-  "Key": "pariatur",
-  "Name": "Wilderman Group",
+  "PrefDescId": 565,
+  "Section": "adipisci",
+  "Key": "omnis",
+  "Name": "Hintz, Stiedemann and Spinka",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Reactive contextually-based artificial intelligence",
+  "Description": "Multi-layered context-sensitive approach",
   "IsBuiltin": false,
-  "TableName": "Fay LLC",
-  "UserDefinedListId": 723,
-  "Rank": 515,
-  "SubGroup": "quisquam",
-  "MinLevel": 359,
-  "MaxValue": 5,
-  "MinValue": 84,
-  "RequiredLicense": "inventore",
+  "TableName": "Gutkowski-Price",
+  "UserDefinedListId": 567,
+  "Rank": 886,
+  "SubGroup": "est",
+  "MinLevel": 56,
+  "MaxValue": 474,
+  "MinValue": 173,
+  "RequiredLicense": "nihil",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 153
+      "FieldLength": 543
     }
   },
   "_Links": {

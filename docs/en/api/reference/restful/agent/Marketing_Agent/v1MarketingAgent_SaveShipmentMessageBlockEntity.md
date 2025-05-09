@@ -77,18 +77,18 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageBlockEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 703,
-  "AssociateId": 207,
-  "Block": "sed",
-  "Registered": "2002-08-27T13:14:00.6887452+02:00",
-  "RegisteredAssociateId": 807,
-  "Updated": "2020-01-12T13:14:00.6887452+01:00",
-  "UpdatedAssociateId": 478,
-  "UpdatedCount": 977
+  "ShipmentMessageBlockId": 368,
+  "AssociateId": 735,
+  "Block": "qui",
+  "Registered": "2017-04-14T16:32:39.3363462+02:00",
+  "RegisteredAssociateId": 28,
+  "Updated": "2014-02-06T16:32:39.3363462+01:00",
+  "UpdatedAssociateId": 188,
+  "UpdatedCount": 725
 }
 ```
 
@@ -99,20 +99,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 185,
-  "AssociateId": 999,
-  "Block": "nobis",
-  "Registered": "2010-07-20T13:14:00.6887452+02:00",
-  "RegisteredAssociateId": 944,
-  "Updated": "2021-08-29T13:14:00.6887452+02:00",
-  "UpdatedAssociateId": 512,
-  "UpdatedCount": 765,
+  "ShipmentMessageBlockId": 966,
+  "AssociateId": 579,
+  "Block": "accusantium",
+  "Registered": "2000-12-23T16:32:39.3363462+01:00",
+  "RegisteredAssociateId": 751,
+  "Updated": "2011-07-18T16:32:39.3363462+02:00",
+  "UpdatedAssociateId": 926,
+  "UpdatedCount": 351,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 417
+      "FieldType": "System.Int32",
+      "FieldLength": 824
     }
   }
 }

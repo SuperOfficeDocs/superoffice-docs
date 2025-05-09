@@ -79,7 +79,7 @@ ProjectEntity found.
 GET /api/v1/Project/{id}/Simple
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,30 +89,30 @@ HTTP/1.1 200 ProjectEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 15,
-  "Name": "Strosin, Rutherford and Waters",
-  "Description": "Object-based maximized challenge",
+  "ProjectId": 334,
+  "Name": "Nikolaus LLC",
+  "Description": "Universal needs-based system engine",
   "URL": "http://www.example.com/",
-  "Type": "nostrum",
-  "AssociateId": 242,
-  "AssociateFullName": "Miss Kris Kali White",
-  "TypeId": 594,
-  "Updated": "1999-10-26T13:14:08.93051+02:00",
-  "StatusId": 724,
-  "Status": "dolorem",
-  "TextId": 330,
-  "PublishTo": "2011-02-03T13:14:08.93051+01:00",
-  "PublishFrom": "2006-02-07T13:14:08.93051+01:00",
-  "IsPublished": true,
+  "Type": "in",
+  "AssociateId": 339,
+  "AssociateFullName": "Mrs. Royal Kuhlman",
+  "TypeId": 381,
+  "Updated": "2020-12-17T16:32:47.7432816+01:00",
+  "StatusId": 780,
+  "Status": "non",
+  "TextId": 252,
+  "PublishTo": "2015-02-02T16:32:47.7432816+01:00",
+  "PublishFrom": "2022-02-10T16:32:47.7432816+01:00",
+  "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "649736",
-  "ActiveErpLinks": 397,
+  "ProjectNumber": "1053775",
+  "ActiveErpLinks": 827,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 944
+      "FieldLength": 160
     }
   }
 }

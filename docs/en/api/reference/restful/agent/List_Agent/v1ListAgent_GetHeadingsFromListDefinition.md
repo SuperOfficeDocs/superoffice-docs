@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/List/GetHeadingsFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 253
+  "Id": 649
 }
 ```
 
@@ -94,18 +94,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 501,
-    "Name": "Koch, Ritchie and Lindgren",
-    "Tooltip": "accusantium",
-    "Deleted": true,
-    "Rank": 526,
-    "UdListDefinitionId": 17,
+    "HeadingId": 499,
+    "Name": "Kohler Inc and Sons",
+    "Tooltip": "est",
+    "Deleted": false,
+    "Rank": 604,
+    "UdListDefinitionId": 647,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 248
+        "FieldLength": 90
       }
     }
   }

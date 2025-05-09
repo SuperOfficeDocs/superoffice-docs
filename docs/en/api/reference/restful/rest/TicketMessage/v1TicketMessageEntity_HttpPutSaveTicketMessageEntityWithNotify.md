@@ -128,67 +128,67 @@ OK
 PUT /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 340,
+  "EjMessageId": 1000,
   "Ticket": null,
-  "CreatedAt": "2019-01-31T13:14:09.3372786+01:00",
+  "CreatedAt": "1998-10-11T16:32:48.2431691+02:00",
   "CreatedBy": null,
-  "Author": "ut",
+  "Author": "voluptatem",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "nam",
-  "TimeSpent": 356,
-  "Body": "temporibus",
-  "HtmlBody": "non",
-  "EmailHeader": "lauretta_kunde@goyette.ca",
-  "DebugInfo": "aut",
-  "MailSorter": "tempora",
+  "MessageId": "enim",
+  "TimeSpent": 817,
+  "Body": "ut",
+  "HtmlBody": "qui",
+  "EmailHeader": "samanta@padberg.co.uk",
+  "DebugInfo": "ut",
+  "MailSorter": "qui",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "autem",
+  "SearchTitle": "hic",
   "MessageHeaders": [
     {
-      "Id": 801,
-      "Name": "Quigley LLC",
-      "Value": "odio",
+      "Id": 29,
+      "Name": "Runte-Beahan",
+      "Value": "maxime",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     },
     {
-      "Id": 801,
-      "Name": "Quigley LLC",
-      "Value": "odio",
+      "Id": 29,
+      "Name": "Runte-Beahan",
+      "Value": "maxime",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name"
     }
   ],
   "Important": false,
-  "Language": "molestias",
-  "Sentiment": 104,
-  "SentimentConfidence": 474,
+  "Language": "et",
+  "Sentiment": 754,
+  "SentimentConfidence": 367,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 922,
-      "Name": "Torp, Ondricka and Jerde",
-      "ContentType": "non",
-      "AttSize": 599,
-      "InlineImage": false,
-      "ContentId": "voluptas",
-      "AuthKey": "qui",
-      "IsSafeFileExtension": false
+      "AttachmentId": 540,
+      "Name": "Luettgen-Reichert",
+      "ContentType": "nemo",
+      "AttSize": 124,
+      "InlineImage": true,
+      "ContentId": "debitis",
+      "AuthKey": "aut",
+      "IsSafeFileExtension": true
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "magnam",
-    "ExtraFields2": "corrupti"
+    "ExtraFields1": "in",
+    "ExtraFields2": "ad"
   },
   "CustomFields": {
-    "CustomFields1": "quia",
-    "CustomFields2": "explicabo"
+    "CustomFields1": "aut",
+    "CustomFields2": "placeat"
   }
 }
 ```
@@ -200,28 +200,28 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 623,
+  "EjMessageId": 139,
   "Ticket": null,
-  "CreatedAt": "2002-07-14T13:14:09.3529045+02:00",
+  "CreatedAt": "2000-10-07T16:32:48.2600529+02:00",
   "CreatedBy": null,
-  "Author": "eos",
+  "Author": "quod",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "ut",
-  "TimeSpent": 298,
-  "Body": "ut",
-  "HtmlBody": "maiores",
-  "EmailHeader": "ida.torphy@treutel.info",
-  "DebugInfo": "sit",
-  "MailSorter": "quam",
+  "MessageId": "consequuntur",
+  "TimeSpent": 786,
+  "Body": "quas",
+  "HtmlBody": "libero",
+  "EmailHeader": "willis_moen@brekke.uk",
+  "DebugInfo": "sed",
+  "MailSorter": "dolorum",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "ullam",
+  "SearchTitle": "occaecati",
   "MessageHeaders": [
     {
-      "Id": 828,
-      "Name": "Reynolds-Frami",
-      "Value": "voluptates",
+      "Id": 836,
+      "Name": "Schuppe, Mann and Price",
+      "Value": "dignissimos",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
@@ -229,50 +229,50 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 489
+          "FieldLength": 22
         }
       }
     }
   ],
   "Important": true,
-  "Language": "non",
-  "Sentiment": 749,
-  "SentimentConfidence": 262,
+  "Language": "quo",
+  "Sentiment": 274,
+  "SentimentConfidence": 45,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 601,
-      "Name": "Pfeffer-Jakubowski",
-      "ContentType": "sed",
-      "AttSize": 67,
+      "AttachmentId": 952,
+      "Name": "Terry, Boyer and Zulauf",
+      "ContentType": "odio",
+      "AttSize": 781,
       "InlineImage": false,
-      "ContentId": "enim",
-      "AuthKey": "repellat",
-      "IsSafeFileExtension": true,
+      "ContentId": "sapiente",
+      "AuthKey": "enim",
+      "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 934
+          "FieldType": "System.String",
+          "FieldLength": 892
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "soluta",
-    "ExtraFields2": "dolor"
+    "ExtraFields1": "rem",
+    "ExtraFields2": "rerum"
   },
   "CustomFields": {
-    "CustomFields1": "totam",
-    "CustomFields2": "corporis"
+    "CustomFields1": "qui",
+    "CustomFields2": "possimus"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 780
+      "FieldType": "System.String",
+      "FieldLength": 877
     }
   }
 }

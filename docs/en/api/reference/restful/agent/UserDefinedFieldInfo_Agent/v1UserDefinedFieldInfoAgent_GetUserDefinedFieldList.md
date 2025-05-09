@@ -108,7 +108,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 734,
-    "ColumnId": 835,
-    "FieldDefault": "nisi",
-    "FieldHeight": 879,
-    "FieldLabel": "quas",
-    "FieldLeft": 171,
-    "FieldTop": 429,
+    "UDefFieldId": 300,
+    "ColumnId": 191,
+    "FieldDefault": "officiis",
+    "FieldHeight": 108,
+    "FieldLabel": "dicta",
+    "FieldLeft": 985,
+    "FieldTop": 77,
     "FieldType": "Checkbox",
-    "FieldWidth": 373,
-    "FormatMask": "sed",
+    "FieldWidth": 720,
+    "FormatMask": "dolore",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 688,
-    "LabelLeft": 109,
-    "LabelTop": 379,
-    "LabelWidth": 347,
-    "LastVersionId": 627,
-    "ListTableId": 618,
+    "LabelHeight": 954,
+    "LabelLeft": 462,
+    "LabelTop": 472,
+    "LabelWidth": 748,
+    "LastVersionId": 780,
+    "ListTableId": 930,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 71,
-    "ProgId": "non",
+    "Page1LineNo": 537,
+    "ProgId": "repudiandae",
     "IsReadOnly": false,
-    "ShortLabel": "et",
-    "TabOrder": 611,
-    "TextLength": 9,
-    "Tooltip": "eius",
-    "UdefIdentity": 399,
-    "UDListDefinitionId": 398,
+    "ShortLabel": "dolores",
+    "TabOrder": 709,
+    "TextLength": 419,
+    "Tooltip": "facere",
+    "UdefIdentity": 251,
+    "UDListDefinitionId": 798,
     "Justification": "Center",
-    "Version": 546,
-    "TemplateVariableName": "Cummerata, Windler and Schiller",
-    "HasBeenPublished": false,
-    "MdoListName": "Hansen LLC",
+    "Version": 537,
+    "TemplateVariableName": "Heidenreich, Barton and Dach",
+    "HasBeenPublished": true,
+    "MdoListName": "Wiza-Senger",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 637
+        "FieldLength": 143
       }
     }
   }

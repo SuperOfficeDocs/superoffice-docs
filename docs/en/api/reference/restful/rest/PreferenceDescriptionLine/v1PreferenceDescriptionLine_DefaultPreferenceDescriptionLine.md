@@ -62,7 +62,7 @@ OK
 GET /api/v1/PreferenceDescriptionLine/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 42,
-  "PrefDescId": 129,
-  "PrefValue": "consequatur",
-  "PrefShowValue": "molestiae",
-  "Description": "Digitized neutral knowledge user",
-  "IsBuiltin": false,
+  "PrefDescLineId": 51,
+  "PrefDescId": 660,
+  "PrefValue": "vitae",
+  "PrefShowValue": "iste",
+  "Description": "Synergized assymetric collaboration",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 207
+      "FieldType": "System.Int32",
+      "FieldLength": 686
     }
   }
 }

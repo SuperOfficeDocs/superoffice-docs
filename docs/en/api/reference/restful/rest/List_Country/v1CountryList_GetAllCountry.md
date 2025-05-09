@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/Country/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -95,30 +95,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 326,
-    "Name": "Adams-Lesch",
-    "CurrencyId": 953,
-    "EnglishName": "Sporer-Hand",
+    "CountryId": 347,
+    "Name": "Rodriguez-Lindgren",
+    "CurrencyId": 358,
+    "EnglishName": "O'Reilly-Murphy",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "Reduced context-sensitive help-desk",
-    "OrgNrText": "340539",
-    "InterAreaPrefix": "et",
-    "DialInPrefix": "dolor",
-    "ZipPrefix": "aut",
-    "DomainName": "Raynor-Stanton",
-    "AddressLayoutId": 4,
-    "DomesticAddressLayoutId": 584,
-    "ForeignAddressLayoutId": 776,
-    "Rank": 161,
-    "Tooltip": "non",
-    "Deleted": true,
+    "ImageDescription": "Proactive fault-tolerant budgetary management",
+    "OrgNrText": "1206574",
+    "InterAreaPrefix": "eligendi",
+    "DialInPrefix": "earum",
+    "ZipPrefix": "eum",
+    "DomainName": "Zulauf, Johnston and Brekke",
+    "AddressLayoutId": 182,
+    "DomesticAddressLayoutId": 300,
+    "ForeignAddressLayoutId": 579,
+    "Rank": 741,
+    "Tooltip": "ut",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 936
+        "FieldLength": 481
       }
     }
   }

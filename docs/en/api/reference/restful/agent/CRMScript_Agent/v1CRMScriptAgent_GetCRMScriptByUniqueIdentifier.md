@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/CRMScript/GetCRMScriptByUniqueIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "cum"
+  "UniqueIdentifier": "non"
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "sit",
-  "Name": "Boyer Group",
-  "Description": "Persistent encompassing capacity",
-  "IncludeId": "debitis",
-  "Source": "maiores",
-  "Registered": "2013-10-16T13:14:00.0033265+02:00",
-  "RegisteredBy": "expedita",
-  "Updated": "2016-04-27T13:14:00.0033265+02:00",
-  "UpdatedBy": "cumque",
-  "Path": "sit",
+  "UniqueIdentifier": "magnam",
+  "Name": "Deckow, Bogan and Jenkins",
+  "Description": "Robust explicit process improvement",
+  "IncludeId": "nihil",
+  "Source": "qui",
+  "Registered": "2011-10-11T16:32:38.5552758+02:00",
+  "RegisteredBy": "est",
+  "Updated": "2001-12-07T16:32:38.5552758+01:00",
+  "UpdatedBy": "et",
+  "Path": "voluptatem",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 872
+      "FieldType": "System.String",
+      "FieldLength": 375
     }
   }
 }

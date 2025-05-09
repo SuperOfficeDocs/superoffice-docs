@@ -95,34 +95,34 @@ OK
 PUT /api/v1/Selection/{selectionId}/Criteria
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Klocko, Rice and Kessler",
-    "Operator": "sed",
+    "Name": "Schneider-Kemmer",
+    "Operator": "asperiores",
     "Values": [
-      "sed",
-      "sed"
+      "non",
+      "placeat"
     ],
     "DisplayValues": [
-      "ipsa",
-      "illo"
+      "repellat",
+      "sed"
     ],
     "ColumnInfo": null,
     "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schroeder LLC",
-        "Operator": "dolor",
+        "Name": "Blanda-Funk",
+        "Operator": "beatae",
         "Values": [
-          "dolores",
-          "in"
+          "corrupti",
+          "voluptatem"
         ],
         "DisplayValues": [
-          "mollitia",
-          "excepturi"
+          "fugiat",
+          "tempora"
         ],
         "ColumnInfo": null,
         "IsActive": true,
@@ -130,14 +130,14 @@ Content-Type: application/json; charset=utf-8
           {},
           {}
         ],
-        "InterParenthesis": 611,
+        "InterParenthesis": 683,
         "InterOperator": "And",
-        "UniqueHash": 49
+        "UniqueHash": 471
       }
     ],
-    "InterParenthesis": 691,
+    "InterParenthesis": 523,
     "InterOperator": "And",
-    "UniqueHash": 190
+    "UniqueHash": 550
   }
 ]
 ```
@@ -150,44 +150,44 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Cole-Von",
-    "Operator": "voluptas",
+    "Name": "Kuvalis-Gottlieb",
+    "Operator": "quas",
     "Values": [
-      "enim",
-      "et"
+      "veritatis",
+      "nesciunt"
     ],
     "DisplayValues": [
-      "illum",
-      "voluptatem"
+      "incidunt",
+      "quisquam"
     ],
     "ColumnInfo": null,
-    "IsActive": true,
+    "IsActive": false,
     "SubRestrictions": [
       {
-        "Name": "Schneider, Ratke and Kunde",
-        "Operator": "reprehenderit",
+        "Name": "McCullough-Volkman",
+        "Operator": "soluta",
         "Values": [
-          "praesentium",
-          "necessitatibus"
+          "aspernatur",
+          "eaque"
         ],
         "DisplayValues": [
-          "ut",
-          "odio"
+          "quibusdam",
+          "voluptas"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 189,
+        "InterParenthesis": 594,
         "InterOperator": "And",
-        "UniqueHash": 522
+        "UniqueHash": 625
       }
     ],
-    "InterParenthesis": 309,
+    "InterParenthesis": 105,
     "InterOperator": "And",
-    "UniqueHash": 693
+    "UniqueHash": 113
   }
 ]
 ```

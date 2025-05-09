@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Find/GetRestrictionGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptatibus",
-  "ProviderName": "Botsford-Langworth",
-  "StorageKey": "consequatur",
-  "Rank": 15,
-  "Context": "rerum"
+  "StorageType": "quaerat",
+  "ProviderName": "Lindgren-Bashirian",
+  "StorageKey": "inventore",
+  "Rank": 905,
+  "Context": "vel"
 }
 ```
 
@@ -97,30 +97,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Wolff-Block",
-  "Description": "Networked mission-critical paradigm",
-  "Rank": 998,
+  "Name": "Mante Group",
+  "Description": "Face to face discrete protocol",
+  "Rank": 473,
   "Restrictions": [
     {
-      "Name": "Spinka Group",
-      "Operator": "aut",
+      "Name": "Hickle-Toy",
+      "Operator": "architecto",
       "Values": [
-        "harum",
-        "quas"
+        "eaque",
+        "qui"
       ],
       "DisplayValues": [
-        "excepturi",
-        "natus"
+        "et",
+        "quaerat"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 803,
+      "InterParenthesis": 143,
       "InterOperator": "And",
-      "UniqueHash": 840
+      "UniqueHash": 858
     }
   ]
 }

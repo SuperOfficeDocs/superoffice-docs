@@ -30,7 +30,7 @@ Change a ContactEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
+POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
 ```
 
 
@@ -104,7 +104,7 @@ ContactEntity found.
 POST /api/v1/Contact/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 466,
-  "ColumnId": 941,
-  "FieldDefault": "odio",
-  "FieldHeight": 914,
-  "FieldLabel": "veritatis",
-  "FieldLeft": 229,
-  "FieldTop": 94,
+  "UDefFieldId": 777,
+  "ColumnId": 1000,
+  "FieldDefault": "quo",
+  "FieldHeight": 162,
+  "FieldLabel": "explicabo",
+  "FieldLeft": 151,
+  "FieldTop": 744,
   "FieldType": "Checkbox",
-  "FieldWidth": 889,
-  "FormatMask": "quidem",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 717,
-  "LabelLeft": 930,
-  "LabelTop": 234,
-  "LabelWidth": 190,
-  "LastVersionId": 378,
-  "ListTableId": 1001,
+  "FieldWidth": 334,
+  "FormatMask": "facilis",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 948,
+  "LabelLeft": 130,
+  "LabelTop": 747,
+  "LabelWidth": 468,
+  "LastVersionId": 780,
+  "ListTableId": 849,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 639,
-  "ProgId": "ipsam",
+  "Page1LineNo": 619,
+  "ProgId": "est",
   "IsReadOnly": false,
-  "ShortLabel": "voluptas",
-  "TabOrder": 762,
-  "TextLength": 855,
-  "Tooltip": "repudiandae",
-  "UdefIdentity": 804,
-  "UDListDefinitionId": 403,
+  "ShortLabel": "voluptate",
+  "TabOrder": 95,
+  "TextLength": 215,
+  "Tooltip": "dolores",
+  "UdefIdentity": 229,
+  "UDListDefinitionId": 791,
   "Justification": "Center",
-  "Version": 918,
-  "TemplateVariableName": "Welch-Streich",
-  "HasBeenPublished": true,
-  "MdoListName": "Reilly-Braun",
+  "Version": 459,
+  "TemplateVariableName": "O'Connell-Reinger",
+  "HasBeenPublished": false,
+  "MdoListName": "Schmidt LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 790
+      "FieldLength": 132
     }
   }
 }

@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/MDO/GetSelectableSimpleList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Bernhard, Monahan and Ankunding"
+  "Name": "Franecki-D'Amore"
 }
 ```
 
@@ -103,56 +103,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 209,
-    "Name": "Zemlak Group",
-    "ToolTip": "Molestias dolor accusamus porro enim eveniet.",
-    "Deleted": false,
-    "Rank": 14,
-    "Type": "temporibus",
-    "ColorBlock": 411,
-    "IconHint": "animi",
-    "Selected": false,
-    "LastChanged": "2004-12-29T13:14:00.7043711+01:00",
+    "Id": 600,
+    "Name": "Ondricka-Cummings",
+    "ToolTip": "Vero sed veniam a.",
+    "Deleted": true,
+    "Rank": 149,
+    "Type": "dignissimos",
+    "ColorBlock": 915,
+    "IconHint": "ut",
+    "Selected": true,
+    "LastChanged": "1999-05-09T16:32:39.3519666+02:00",
     "ChildItems": [
       {
-        "Id": 173,
-        "Name": "Stoltenberg, Schmeler and Okuneva",
-        "ToolTip": "Omnis illum id non aut.",
-        "Deleted": false,
-        "Rank": 133,
-        "Type": "incidunt",
-        "ColorBlock": 217,
-        "IconHint": "ipsum",
+        "Id": 236,
+        "Name": "Yost, Tromp and Raynor",
+        "ToolTip": "Tempora molestias explicabo.",
+        "Deleted": true,
+        "Rank": 283,
+        "Type": "quo",
+        "ColorBlock": 70,
+        "IconHint": "sunt",
         "Selected": false,
-        "LastChanged": "2004-02-20T13:14:00.7043711+01:00",
+        "LastChanged": "2010-07-21T16:32:39.3519666+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "esse",
+        "ExtraInfo": "aut",
+        "StyleHint": "in",
         "Hidden": false,
-        "FullName": "Moses Berge",
+        "FullName": "Annette Predovic",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 403
+            "FieldLength": 791
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "perspiciatis",
+    "StyleHint": "sint",
     "Hidden": false,
-    "FullName": "Selmer Emerald Donnelly III",
+    "FullName": "Rickie Schoen",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 447
       }
     }
   }

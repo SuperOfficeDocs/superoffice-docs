@@ -93,18 +93,18 @@ AttachmentEntity updated.
 PUT /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 727,
-  "Name": "Reynolds-Marvin",
-  "ContentType": "dolor",
-  "AttSize": 559,
+  "AttachmentId": 292,
+  "Name": "Waters Group",
+  "ContentType": "ducimus",
+  "AttSize": 219,
   "InlineImage": false,
-  "ContentId": "quis",
+  "ContentId": "aut",
   "AuthKey": "totam",
-  "IsSafeFileExtension": false
+  "IsSafeFileExtension": true
 }
 ```
 
@@ -115,20 +115,20 @@ HTTP/1.1 200 AttachmentEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 211,
-  "Name": "Heaney-Stanton",
-  "ContentType": "omnis",
-  "AttSize": 9,
-  "InlineImage": false,
-  "ContentId": "vel",
-  "AuthKey": "ut",
+  "AttachmentId": 307,
+  "Name": "Romaguera-Becker",
+  "ContentType": "nemo",
+  "AttSize": 566,
+  "InlineImage": true,
+  "ContentId": "repellendus",
+  "AuthKey": "voluptates",
   "IsSafeFileExtension": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 430
+      "FieldLength": 724
     }
   },
   "_Links": {

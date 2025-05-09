@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProjectType/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 374,
-    "Name": "Boyer-Waelchi",
-    "ToolTip": "Incidunt itaque sit enim.",
-    "Deleted": true,
-    "Rank": 896,
-    "Type": "in",
-    "ColorBlock": 606,
-    "IconHint": "exercitationem",
+    "Id": 191,
+    "Name": "Fay Inc and Sons",
+    "ToolTip": "Quae vitae aperiam rem iusto.",
+    "Deleted": false,
+    "Rank": 234,
+    "Type": "reiciendis",
+    "ColorBlock": 141,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2004-07-16T13:14:09.9629099+02:00",
+    "LastChanged": "2025-04-22T16:32:48.8526096+02:00",
     "ChildItems": [
       {
-        "Id": 330,
-        "Name": "Bechtelar Inc and Sons",
-        "ToolTip": "Debitis ut sint facere aut dignissimos.",
+        "Id": 673,
+        "Name": "Bayer-Balistreri",
+        "ToolTip": "Quia at sequi quod.",
         "Deleted": false,
-        "Rank": 240,
-        "Type": "ratione",
-        "ColorBlock": 481,
-        "IconHint": "veniam",
+        "Rank": 402,
+        "Type": "est",
+        "ColorBlock": 971,
+        "IconHint": "ut",
         "Selected": false,
-        "LastChanged": "2017-01-25T13:14:09.9629099+01:00",
+        "LastChanged": "2007-12-10T16:32:48.8526096+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "et",
+        "ExtraInfo": "harum",
+        "StyleHint": "ut",
         "Hidden": true,
-        "FullName": "Lonie Barrows"
+        "FullName": "Arden McGlynn"
       }
     ],
-    "ExtraInfo": "quod",
-    "StyleHint": "ad",
-    "Hidden": true,
-    "FullName": "Helen Lubowitz"
+    "ExtraInfo": "reiciendis",
+    "StyleHint": "ea",
+    "Hidden": false,
+    "FullName": "Miss Otha Hudson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 914,
-    "Name": "Lakin Group",
-    "ToolTip": "Possimus non fuga dolores.",
+    "Id": 389,
+    "Name": "Gutmann-Bailey",
+    "ToolTip": "Quia distinctio dolores excepturi praesentium consequuntur eius voluptas.",
     "Deleted": false,
-    "Rank": 443,
-    "Type": "fugit",
-    "ColorBlock": 663,
-    "IconHint": "aut",
-    "Selected": true,
-    "LastChanged": "2013-10-02T13:14:09.9629099+02:00",
+    "Rank": 329,
+    "Type": "sed",
+    "ColorBlock": 154,
+    "IconHint": "voluptate",
+    "Selected": false,
+    "LastChanged": "2015-07-12T16:32:48.8526096+02:00",
     "ChildItems": [
       {
-        "Id": 215,
-        "Name": "Koepp, Von and Aufderhar",
-        "ToolTip": "Asperiores consequatur mollitia deserunt aut beatae necessitatibus veniam.",
+        "Id": 813,
+        "Name": "Waters, Fritsch and Koss",
+        "ToolTip": "Velit omnis ut rerum asperiores maiores et.",
         "Deleted": false,
-        "Rank": 140,
-        "Type": "qui",
-        "ColorBlock": 431,
-        "IconHint": "suscipit",
-        "Selected": false,
-        "LastChanged": "2003-02-15T13:14:09.9629099+01:00",
+        "Rank": 882,
+        "Type": "iusto",
+        "ColorBlock": 829,
+        "IconHint": "sit",
+        "Selected": true,
+        "LastChanged": "2008-11-15T16:32:48.8526096+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quia",
-        "StyleHint": "expedita",
+        "ExtraInfo": "dolor",
+        "StyleHint": "architecto",
         "Hidden": false,
-        "FullName": "Dario Koss",
+        "FullName": "Dr. Estel Sterling Bednar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 825
+            "FieldLength": 735
           }
         }
       }
     ],
-    "ExtraInfo": "cupiditate",
-    "StyleHint": "est",
+    "ExtraInfo": "et",
+    "StyleHint": "esse",
     "Hidden": false,
-    "FullName": "Earnest Christiansen",
+    "FullName": "Naomie Herman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 391
+        "FieldLength": 86
       }
     }
   }

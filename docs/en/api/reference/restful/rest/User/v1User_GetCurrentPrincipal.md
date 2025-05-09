@@ -81,7 +81,7 @@ OK
 GET /api/v1/User/currentPrincipal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,76 +92,76 @@ Content-Type: application/json; charset=utf-8
 
 {
   "UserType": "AnonymousAssociate",
-  "Associate": "ad",
-  "AssociateId": 957,
+  "Associate": "dolores",
+  "AssociateId": 741,
   "IsPerson": true,
-  "PersonId": 800,
-  "CountryId": 309,
-  "HomeCountryId": 860,
-  "ContactId": 218,
-  "GroupId": 374,
-  "BusinessId": 794,
-  "CategoryId": 590,
-  "ContactOwner": 341,
-  "RoleId": 867,
-  "RoleName": "Schroeder-Gusikowski",
-  "RoleDescription": "Cross-platform homogeneous functionalities",
+  "PersonId": 387,
+  "CountryId": 226,
+  "HomeCountryId": 103,
+  "ContactId": 631,
+  "GroupId": 241,
+  "BusinessId": 804,
+  "CategoryId": 681,
+  "ContactOwner": 356,
+  "RoleId": 466,
+  "RoleName": "Koss-Weber",
+  "RoleDescription": "Visionary asynchronous methodology",
   "RoleType": "Anonymous",
   "Licenses": [
     {
-      "OwnerId": 190,
-      "OwnerName": "Rau Inc and Sons",
-      "OwnerDescription": "Multi-layered optimal encoding",
-      "ModuleId": 748,
-      "Name": "Tromp Inc and Sons",
-      "Description": "Enhanced object-oriented secured line",
-      "Version": "et",
+      "OwnerId": 305,
+      "OwnerName": "Weimann, Rosenbaum and Brakus",
+      "OwnerDescription": "Compatible user-facing monitoring",
+      "ModuleId": 359,
+      "Name": "Schuster, Lesch and Baumbach",
+      "Description": "Function-based empowering Graphical User Interface",
+      "Version": "aperiam",
       "LicenseType": "SatelliteLicense",
-      "ExtraFlags": 870,
-      "ExtraInfo": "ullam",
-      "SortOrder": 502,
-      "LicenseNumber": 769,
+      "ExtraFlags": 545,
+      "ExtraInfo": "voluptates",
+      "SortOrder": 274,
+      "LicenseNumber": 910,
       "IsHidden": false,
       "IsUnrestricted": false,
-      "ExpiryDate": "1999-12-03T13:14:09.5561337+01:00",
+      "ExpiryDate": "2011-01-03T16:32:48.4620775+01:00",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 104
+          "FieldLength": 383
         }
       }
     }
   ],
-  "FullName": "Tanner Schiller",
-  "EMailAddress": "aspernatur",
+  "FullName": "Mr. Demarco Ryan V",
+  "EMailAddress": "earum",
   "FunctionRights": [
-    "ea",
-    "reprehenderit"
+    "commodi",
+    "ut"
   ],
-  "EjUserId": 367,
-  "EjAccessLevel": 814,
+  "EjUserId": 97,
+  "EjAccessLevel": 667,
   "EjUserStatus": "StatusDeleted",
   "ProvidedCredentials": [
     {
-      "Type": "consequatur",
-      "SearchName": "Jenkins Inc and Sons",
-      "DisplayName": "Schaefer LLC",
-      "CredentialId": 117
+      "Type": "voluptatem",
+      "SearchName": "Feil, Franecki and McCullough",
+      "DisplayName": "Nolan-Daugherty",
+      "CredentialId": 805
     },
     {
-      "Type": "consequatur",
-      "SearchName": "Jenkins Inc and Sons",
-      "DisplayName": "Schaefer LLC",
-      "CredentialId": 117
+      "Type": "voluptatem",
+      "SearchName": "Feil, Franecki and McCullough",
+      "DisplayName": "Nolan-Daugherty",
+      "CredentialId": 805
     }
   ],
   "SecondaryGroups": [
-    891,
-    249
+    455,
+    46
   ],
-  "DatabaseContextIdentifier": "dignissimos",
-  "UserName": "Block-Anderson"
+  "DatabaseContextIdentifier": "consectetur",
+  "UserName": "Zemlak LLC"
 }
 ```

@@ -107,30 +107,30 @@ OK
 POST /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 279,
-  "Name": "Sawayn, Baumbach and Bechtelar",
-  "Tooltip": "nam",
-  "Deleted": true,
-  "Rank": 952,
+  "WebPanelId": 478,
+  "Name": "Conn LLC",
+  "Tooltip": "iure",
+  "Deleted": false,
+  "Rank": 761,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
-  "OnSatellite": false,
+  "OnCentral": true,
+  "OnSatellite": true,
   "OnTravel": false,
-  "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
-  "ShowInToolBar": true,
+  "OnSalesMarketingWeb": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
+  "ShowInToolBar": false,
   "ShowInAddressBar": false,
-  "ShowInStatusBar": true,
-  "WindowName": "Nader-Breitenberg",
+  "ShowInStatusBar": false,
+  "WindowName": "Pfannerstill-Kautzer",
   "Url": "http://www.example.com/",
-  "ProgId": "vitae",
-  "Icon": 524,
+  "ProgId": "consequatur",
+  "Icon": 281,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": true
 }
@@ -143,34 +143,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 221,
-  "Name": "Moen-Prosacco",
+  "WebPanelId": 330,
+  "Name": "Romaguera, Smith and Cronin",
   "Tooltip": "voluptatem",
-  "Deleted": true,
-  "Rank": 737,
+  "Deleted": false,
+  "Rank": 33,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": false,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": true,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": false,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "WindowName": "Parker-Olson",
+  "WindowName": "Mayer LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "neque",
-  "Icon": 604,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "sed",
+  "Icon": 884,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 381
+      "FieldType": "System.Int32",
+      "FieldLength": 905
     }
   }
 }

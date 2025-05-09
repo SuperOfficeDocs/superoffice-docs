@@ -81,7 +81,7 @@ Implementation of the provider for the combined selection
 ## Sample
 
 ```http!
-GET /api/v1/archive/SelectionSelectionCombinedV2?$select=lastLoadedByFullName,selectionAssociate/contactId
+GET /api/v1/archive/SelectionSelectionCombinedV2?$select=registeredByFullName,lastLoadedByFullName,selectionAssociate/contactId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

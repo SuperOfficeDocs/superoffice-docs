@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/LegalBase/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Name": "Tremblay-Kling",
-    "ToolTip": "Perspiciatis dolorem illum.",
+    "Id": 31,
+    "Name": "Mayert-Feest",
+    "ToolTip": "Molestias tempore ipsam facilis voluptatem voluptatibus.",
     "Deleted": true,
-    "Rank": 700,
-    "Type": "harum",
-    "ColorBlock": 545,
-    "IconHint": "voluptatibus",
+    "Rank": 688,
+    "Type": "et",
+    "ColorBlock": 983,
+    "IconHint": "architecto",
     "Selected": false,
-    "LastChanged": "2019-06-09T13:14:09.7910245+02:00",
+    "LastChanged": "2007-09-29T16:32:48.6963928+02:00",
     "ChildItems": [
       {
-        "Id": 25,
-        "Name": "Adams-Larson",
-        "ToolTip": "Consequatur ut inventore inventore asperiores iusto similique ut.",
+        "Id": 806,
+        "Name": "Lehner LLC",
+        "ToolTip": "Veritatis excepturi nihil dolorem itaque qui.",
         "Deleted": false,
-        "Rank": 164,
-        "Type": "in",
-        "ColorBlock": 432,
-        "IconHint": "sint",
+        "Rank": 101,
+        "Type": "sit",
+        "ColorBlock": 946,
+        "IconHint": "non",
         "Selected": true,
-        "LastChanged": "2007-01-11T13:14:09.7910245+01:00",
+        "LastChanged": "2022-02-10T16:32:48.6963928+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "veniam",
-        "StyleHint": "iure",
+        "ExtraInfo": "corporis",
+        "StyleHint": "quibusdam",
         "Hidden": false,
-        "FullName": "Dax Cummings"
+        "FullName": "Buck Streich"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "est",
+    "ExtraInfo": "et",
+    "StyleHint": "dolor",
     "Hidden": false,
-    "FullName": "Dr. Arno Homenick I"
+    "FullName": "Emmanuelle Hershel Daniel IV"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 648,
-    "Name": "Hills, Gleason and Predovic",
-    "ToolTip": "Voluptas voluptatem dicta rerum ex quaerat ducimus dolorum.",
+    "Id": 918,
+    "Name": "Bins, Muller and Altenwerth",
+    "ToolTip": "Accusantium consequatur amet quo ad libero.",
     "Deleted": true,
-    "Rank": 542,
-    "Type": "repellendus",
-    "ColorBlock": 70,
-    "IconHint": "eum",
+    "Rank": 273,
+    "Type": "voluptas",
+    "ColorBlock": 861,
+    "IconHint": "totam",
     "Selected": false,
-    "LastChanged": "2023-01-30T13:14:09.7910245+01:00",
+    "LastChanged": "2017-07-20T16:32:48.6963928+02:00",
     "ChildItems": [
       {
-        "Id": 531,
-        "Name": "Bruen-Harber",
-        "ToolTip": "Voluptas voluptatem.",
-        "Deleted": true,
-        "Rank": 857,
-        "Type": "accusamus",
-        "ColorBlock": 463,
-        "IconHint": "aperiam",
+        "Id": 311,
+        "Name": "Spinka-Simonis",
+        "ToolTip": "Voluptas est nihil repellat sed laudantium et.",
+        "Deleted": false,
+        "Rank": 351,
+        "Type": "dolorem",
+        "ColorBlock": 852,
+        "IconHint": "dolor",
         "Selected": false,
-        "LastChanged": "2022-02-18T13:14:09.7910245+01:00",
+        "LastChanged": "2018-12-20T16:32:48.6963928+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quo",
-        "StyleHint": "enim",
-        "Hidden": false,
-        "FullName": "Syble Larkin Jr.",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "alias",
+        "Hidden": true,
+        "FullName": "Mr. Parker Rowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 643
+            "FieldType": "System.Int32",
+            "FieldLength": 165
           }
         }
       }
     ],
-    "ExtraInfo": "saepe",
-    "StyleHint": "quia",
-    "Hidden": false,
-    "FullName": "Dr. Janiya Tyra Abbott Sr.",
+    "ExtraInfo": "voluptates",
+    "StyleHint": "qui",
+    "Hidden": true,
+    "FullName": "Sebastian Larkin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 807
       }
     }
   }

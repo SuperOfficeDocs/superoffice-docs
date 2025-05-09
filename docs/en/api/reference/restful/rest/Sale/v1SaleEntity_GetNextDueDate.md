@@ -56,7 +56,7 @@ OK
 GET /api/v1/Sale/{saleId}/NextDueDate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -65,5 +65,5 @@ Accept-Language: fr,de,ru,zh
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"2008-12-27T13:14:09.1497673+01:00"
+"2015-09-12T16:32:48.0400922+02:00"
 ```

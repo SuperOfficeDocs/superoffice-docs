@@ -473,6 +473,9 @@ table data; this will also pull in contact udef and related fields.
 |request/personId|int|Contact ID: Database ID of the contact row| x |
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
+|request/ticketStatusId|int|Status ID: Status| x |
+|request/priorityId|int|Priority ID: ID of priority in database| x |
+|request/categoryId|int|Category ID: ID of ticket category in database| x |
 |request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
@@ -537,13 +540,13 @@ table data; this will also pull in contact udef and related fields.
 |request/createdBy/assocType|listAny|Created by - Type: Type of user: associate, external user, system user, anonymous account| x |
 |request/createdBy/ejUserId|int|Created by - Service user ID: The database ID of a Service user|  |
 |request/createdBy/simultaneousEjUser|bool|Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
-|request/createdBy/ejDisplayName|string|Created by - Nick name: User's nick name in Service| x |
-|request/createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|request/createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdBy/ejDisplayName|string|Created by - Nick name: User's nick name in Service| x |
+|request/createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|request/createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
 |request/createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |request/createdBy/isActive|bool|Created by - Active: Is this user active, and should be able to log in?| x |
 |request/createdBy/isActiveText|bool|Created by - Active status: Is this user active, and should be able to log in?| x |
@@ -641,13 +644,13 @@ table data; this will also pull in contact udef and related fields.
 |projectMembers/projectAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |projectMembers/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |projectMembers/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
-|projectMembers/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|projectMembers/projectAssociate/associateDbId|associate|ID| x |
-|projectMembers/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
+|projectMembers/projectAssociate/associateDbId|associate|ID| x |
+|projectMembers/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectMembers/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |projectMembers/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
@@ -728,6 +731,7 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |personAppointment/priority|listAny|Priority: Displays the priority of the activity| x |
 |personAppointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|personAppointment/isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |personAppointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |personAppointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |personAppointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
@@ -744,14 +748,14 @@ table data; this will also pull in contact udef and related fields.
 |personAppointment/invitedPersonId|int|ID of invited person: appointment.invitedpersonid record - utility for rd| x |
 |personAppointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
-|personAppointment/duration|timeSpan|Duration: The duration of the chat session|  |
-|personAppointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|personAppointment/visibleFor|listAny|Visible for|  |
-|personAppointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/duration|timeSpan|Duration: The duration of the chat session|  |
+|personAppointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|personAppointment/visibleFor|listAny|Visible for|  |
+|personAppointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |personAppointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |personAppointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |personAppointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
@@ -808,7 +812,7 @@ table data; this will also pull in contact udef and related fields.
 ## Sample
 
 ```http!
-GET /api/v1/archive/Person?$select=personSourceRelation/personCountry,personSourceRelation/hasCompany,personTargetRelation/personNoMail,request/contactId,request/createdBy/assocType
+GET /api/v1/archive/Person?$select=ticketPriority,personSourceRelation/personUpdatedBy,personSourceRelation/personAssociateFullName,projectMembers/projectAssociate/isActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

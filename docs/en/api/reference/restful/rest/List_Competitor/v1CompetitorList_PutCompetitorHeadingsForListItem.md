@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 546,
-    "Name": "Zulauf, Kunze and Hamill",
-    "ToolTip": "Ratione perspiciatis consequatur ea eius voluptatibus.",
-    "Deleted": true,
-    "Rank": 793,
-    "Type": "fugit",
-    "ColorBlock": 520,
-    "IconHint": "quod",
+    "Id": 577,
+    "Name": "Marquardt Group",
+    "ToolTip": "Sit quia quas beatae.",
+    "Deleted": false,
+    "Rank": 962,
+    "Type": "eligendi",
+    "ColorBlock": 2,
+    "IconHint": "odio",
     "Selected": false,
-    "LastChanged": "2018-05-14T13:14:09.6503912+02:00",
+    "LastChanged": "2016-04-18T16:32:48.5558051+02:00",
     "ChildItems": [
       {
-        "Id": 979,
-        "Name": "Senger-Wolf",
-        "ToolTip": "Laboriosam est.",
+        "Id": 534,
+        "Name": "Strosin-Hammes",
+        "ToolTip": "Magnam atque magni et eveniet et.",
         "Deleted": true,
-        "Rank": 629,
-        "Type": "deleniti",
-        "ColorBlock": 687,
-        "IconHint": "beatae",
+        "Rank": 710,
+        "Type": "reiciendis",
+        "ColorBlock": 682,
+        "IconHint": "aspernatur",
         "Selected": false,
-        "LastChanged": "2018-10-30T13:14:09.6503912+01:00",
+        "LastChanged": "2017-12-20T16:32:48.5558051+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ex",
-        "StyleHint": "quam",
+        "ExtraInfo": "reiciendis",
+        "StyleHint": "quis",
         "Hidden": false,
-        "FullName": "Kailee Spencer"
+        "FullName": "Mrs. Jerrell Haley I"
       }
     ],
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "asperiores",
-    "Hidden": false,
-    "FullName": "Gaetano Enrique Sanford I"
+    "ExtraInfo": "sed",
+    "StyleHint": "molestiae",
+    "Hidden": true,
+    "FullName": "Patrick Hessel DDS"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 507,
-    "Name": "Willms, Baumbach and Marks",
-    "ToolTip": "Sapiente animi vel exercitationem.",
-    "Deleted": true,
-    "Rank": 612,
-    "Type": "consectetur",
-    "ColorBlock": 807,
-    "IconHint": "temporibus",
-    "Selected": false,
-    "LastChanged": "2016-09-21T13:14:09.6503912+02:00",
+    "Id": 69,
+    "Name": "Bernhard LLC",
+    "ToolTip": "Quae blanditiis aut.",
+    "Deleted": false,
+    "Rank": 677,
+    "Type": "facilis",
+    "ColorBlock": 810,
+    "IconHint": "officia",
+    "Selected": true,
+    "LastChanged": "2014-11-27T16:32:48.5558051+01:00",
     "ChildItems": [
       {
-        "Id": 231,
-        "Name": "Lueilwitz, Gaylord and Yost",
-        "ToolTip": "Magnam quod quos et est asperiores mollitia eum.",
+        "Id": 483,
+        "Name": "Fisher Group",
+        "ToolTip": "Enim ducimus ea sunt atque nemo est.",
         "Deleted": false,
-        "Rank": 238,
-        "Type": "non",
-        "ColorBlock": 211,
-        "IconHint": "est",
-        "Selected": true,
-        "LastChanged": "2016-12-12T13:14:09.6503912+01:00",
+        "Rank": 720,
+        "Type": "iusto",
+        "ColorBlock": 274,
+        "IconHint": "nihil",
+        "Selected": false,
+        "LastChanged": "2011-12-14T16:32:48.5558051+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "accusantium",
+        "ExtraInfo": "suscipit",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Dr. Jacquelyn Jast",
+        "FullName": "Estrella Johnson",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 365
+            "FieldLength": 502
           }
         }
       }
     ],
-    "ExtraInfo": "suscipit",
-    "StyleHint": "repellendus",
-    "Hidden": true,
-    "FullName": "Jazmyn Kunze",
+    "ExtraInfo": "harum",
+    "StyleHint": "error",
+    "Hidden": false,
+    "FullName": "Yasmin Smith",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 917
+        "FieldLength": 77
       }
     }
   }

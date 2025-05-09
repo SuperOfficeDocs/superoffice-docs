@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/ChatSession?$select=name,department,category/id
 GET /api/v1/ChatSession?$filter=name begins 'S'
 GET /api/v1/ChatSession?$orderBy=name asc
-GET /api/v1/ChatSession?$entities=rerum
-GET /api/v1/ChatSession?$top=205
-GET /api/v1/ChatSession?$skip=326
+GET /api/v1/ChatSession?$entities=laudantium
+GET /api/v1/ChatSession?$top=621
+GET /api/v1/ChatSession?$skip=481
 GET /api/v1/ChatSession?$mode=Full
 GET /api/v1/ChatSession?$options=GrandTotal=true
-GET /api/v1/ChatSession?$context=vero
+GET /api/v1/ChatSession?$context=qui
 GET /api/v1/ChatSession?$format=JSON
 GET /api/v1/ChatSession?$jsonSafe=True
 GET /api/v1/ChatSession?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/ChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "repellendus",
+  "odata.nextLink": "sunt",
   "value": [
     {
-      "PrimaryKey": 9959,
+      "PrimaryKey": 3523,
       "EntityName": "person",
-      "personId": 9959,
-      "fullName": "Miss Heber Ratke"
+      "personId": 3523,
+      "fullName": "Liana Dickinson"
     },
     {
-      "PrimaryKey": 2461,
+      "PrimaryKey": 4474,
       "EntityName": "person",
-      "personId": 2461,
-      "fullName": "Ocie Kilback"
+      "personId": 4474,
+      "fullName": "Alicia Altenwerth"
     }
   ]
 }

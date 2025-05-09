@@ -91,7 +91,7 @@ OK
 POST /api/v1/ChatSession/{chatSessionId}/Pickup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -101,29 +101,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 121,
-  "TopicId": 262,
+  "ChatSessionId": 89,
+  "TopicId": 733,
   "User": null,
   "Person": null,
-  "CustomerAlias": "unde",
-  "CustomerHost": "ab",
-  "CustomerName": "Cormier-Eichmann",
-  "CustomerEmail": "willa@rice.com",
-  "CustomerPhone": "983-607-8876",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Armstrong LLC",
+  "CustomerAlias": "voluptatum",
+  "CustomerHost": "aperiam",
+  "CustomerName": "Yost-Barton",
+  "CustomerEmail": "remington.lind@jacobi.uk",
+  "CustomerPhone": "1-517-619-2142 x4387",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "Wolf, Carroll and Herzog",
   "Status": "Closed",
-  "FirstMessage": "esse",
-  "LastMessage": "temporibus",
-  "WhenRequested": "2006-10-04T13:14:08.4303675+02:00",
-  "WhenStarted": "1999-07-23T13:14:08.4303675+02:00",
-  "WhenEnded": "2018-08-07T13:14:08.4303675+02:00",
-  "WhenIdle": "2022-08-28T13:14:08.4303675+02:00",
-  "WhenFetched": "2011-01-03T13:14:08.4303675+01:00",
-  "SessionKey": "et",
-  "InitialQueuePos": 135,
-  "AlertLevel": 738,
-  "Rank": 624,
+  "FirstMessage": "voluptatem",
+  "LastMessage": "numquam",
+  "WhenRequested": "2009-11-20T16:32:47.2117662+01:00",
+  "WhenStarted": "1998-12-10T16:32:47.2117662+01:00",
+  "WhenEnded": "2024-04-27T16:32:47.2117662+02:00",
+  "WhenIdle": "2001-10-21T16:32:47.2117662+02:00",
+  "WhenFetched": "2023-05-11T16:32:47.2117662+02:00",
+  "SessionKey": "distinctio",
+  "InitialQueuePos": 745,
+  "AlertLevel": 665,
+  "Rank": 178,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -131,13 +131,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 49,
+  "Rating": 940,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 336
+      "FieldType": "System.String",
+      "FieldLength": 288
     }
   }
 }

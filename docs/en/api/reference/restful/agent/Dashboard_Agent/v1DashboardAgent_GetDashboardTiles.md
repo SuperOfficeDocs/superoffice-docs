@@ -86,13 +86,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDashboardTiles
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "DashboardTileIds": [
-    403,
-    86
+    44,
+    1002
   ]
 }
 ```
@@ -105,64 +105,64 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DashboardTileId": 165,
-    "Caption": "autem",
-    "Description": "User-centric static system engine",
-    "ChartName": "O'Connell, Reilly and Mayer",
-    "ChartId": "incidunt",
+    "DashboardTileId": 664,
+    "Caption": "aperiam",
+    "Description": "Focused radical approach",
+    "ChartName": "Fritsch, Ritchie and Langosh",
+    "ChartId": "soluta",
     "IsDefault": false,
-    "AssociateId": 199,
-    "GroupId": 151,
-    "SelectionId": 846,
-    "Config": "autem",
+    "AssociateId": 546,
+    "GroupId": 172,
+    "SelectionId": 923,
+    "Config": "sequi",
     "Type": "Bignum",
     "EntityType": "Activity",
     "Options": [
       {
-        "Name": "Jacobs LLC",
-        "Description": "Fundamental bandwidth-monitored product",
+        "Name": "Blanda LLC",
+        "Description": "Exclusive incremental matrix",
         "Type": "Boolean",
-        "ListName": "Hills, Greenholt and Orn",
+        "ListName": "Hyatt, Muller and Medhurst",
         "ListItems": [
           {},
           {}
         ],
-        "Value": "provident",
+        "Value": "sunt",
         "DefaultDataOption": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 159
+            "FieldLength": 893
           }
         }
       }
     ],
     "VisibleFor": [
       {
-        "VisibleId": 823,
+        "VisibleId": 188,
         "Visibility": "All",
-        "DisplayValue": "facilis",
+        "DisplayValue": "amet",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 842
+            "FieldType": "System.String",
+            "FieldLength": 950
           }
         }
       },
       {
-        "VisibleId": 823,
+        "VisibleId": 188,
         "Visibility": "All",
-        "DisplayValue": "facilis",
+        "DisplayValue": "amet",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 842
+            "FieldType": "System.String",
+            "FieldLength": 950
           }
         }
       }
@@ -172,7 +172,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 672
+        "FieldLength": 966
       }
     }
   }

@@ -109,11 +109,11 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetPublishedUserDefinedFieldFromProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "ipsa",
+  "ProgId": "cupiditate",
   "OwnerType": "Appointment"
 }
 ```
@@ -125,46 +125,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 113,
-  "ColumnId": 632,
-  "FieldDefault": "consequatur",
-  "FieldHeight": 839,
-  "FieldLabel": "aperiam",
-  "FieldLeft": 78,
-  "FieldTop": 65,
+  "UDefFieldId": 872,
+  "ColumnId": 827,
+  "FieldDefault": "et",
+  "FieldHeight": 584,
+  "FieldLabel": "sed",
+  "FieldLeft": 91,
+  "FieldTop": 603,
   "FieldType": "Checkbox",
-  "FieldWidth": 424,
-  "FormatMask": "dolor",
-  "HideLabel": true,
-  "IsIndexed": false,
-  "LabelHeight": 385,
-  "LabelLeft": 540,
-  "LabelTop": 70,
-  "LabelWidth": 848,
-  "LastVersionId": 866,
-  "ListTableId": 295,
+  "FieldWidth": 597,
+  "FormatMask": "asperiores",
+  "HideLabel": false,
+  "IsIndexed": true,
+  "LabelHeight": 220,
+  "LabelLeft": 666,
+  "LabelTop": 121,
+  "LabelWidth": 958,
+  "LastVersionId": 148,
+  "ListTableId": 525,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 439,
-  "ProgId": "dolores",
-  "IsReadOnly": false,
-  "ShortLabel": "officiis",
-  "TabOrder": 866,
-  "TextLength": 950,
-  "Tooltip": "expedita",
-  "UdefIdentity": 192,
-  "UDListDefinitionId": 346,
+  "Page1LineNo": 591,
+  "ProgId": "dolorem",
+  "IsReadOnly": true,
+  "ShortLabel": "provident",
+  "TabOrder": 253,
+  "TextLength": 312,
+  "Tooltip": "quis",
+  "UdefIdentity": 506,
+  "UDListDefinitionId": 250,
   "Justification": "Center",
-  "Version": 235,
-  "TemplateVariableName": "Hauck-Daniel",
-  "HasBeenPublished": true,
-  "MdoListName": "Kuvalis LLC",
+  "Version": 139,
+  "TemplateVariableName": "McGlynn Inc and Sons",
+  "HasBeenPublished": false,
+  "MdoListName": "Zieme-Kohler",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 863
+      "FieldType": "System.String",
+      "FieldLength": 119
     }
   }
 }

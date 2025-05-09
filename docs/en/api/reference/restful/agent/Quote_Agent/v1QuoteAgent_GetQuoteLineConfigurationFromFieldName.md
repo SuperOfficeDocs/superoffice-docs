@@ -85,7 +85,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FieldName": "Schneider-Corwin"
+  "FieldName": "Braun, Cartwright and Zboncak"
 }
 ```
 
@@ -96,21 +96,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineConfigurationId": 890,
-  "FieldName": "Cummings-Ferry",
-  "Label": "quo",
-  "Tooltip": "vero",
+  "QuoteLineConfigurationId": 86,
+  "FieldName": "Waelchi, Kemmer and Schroeder",
+  "Label": "illum",
+  "Tooltip": "minus",
   "Editable": false,
   "InUse": false,
-  "Mandatory": false,
-  "Rank": 778,
-  "RestrictEdit": true,
+  "Mandatory": true,
+  "Rank": 553,
+  "RestrictEdit": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 259
+      "FieldType": "System.Int32",
+      "FieldLength": 278
     }
   }
 }

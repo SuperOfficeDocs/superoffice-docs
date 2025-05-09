@@ -94,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 424
+  "ContactId": 53
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 980,
-    "Name": "Hartmann-Mitchell",
-    "Description": "Multi-layered analyzing workforce",
+    "ProjectId": 972,
+    "Name": "Jerde Inc and Sons",
+    "Description": "Function-based national secured line",
     "URL": "http://www.example.com/",
-    "Type": "saepe",
-    "AssociateId": 348,
-    "AssociateFullName": "Jennings Windler",
-    "TypeId": 154,
-    "Updated": "2001-01-08T13:14:00.9390342+01:00",
-    "StatusId": 236,
-    "Status": "eum",
-    "TextId": 782,
-    "PublishTo": "2016-03-27T13:14:00.9390342+02:00",
-    "PublishFrom": "2024-11-30T13:14:00.9390342+01:00",
-    "IsPublished": false,
+    "Type": "eum",
+    "AssociateId": 974,
+    "AssociateFullName": "Bruce Monahan",
+    "TypeId": 993,
+    "Updated": "2015-05-24T16:32:39.6490177+02:00",
+    "StatusId": 1000,
+    "Status": "praesentium",
+    "TextId": 166,
+    "PublishTo": "2024-10-24T16:32:39.6490177+02:00",
+    "PublishFrom": "1999-11-25T16:32:39.6490177+01:00",
+    "IsPublished": true,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "246174",
-    "ActiveErpLinks": 109,
+    "ProjectNumber": "212728",
+    "ActiveErpLinks": 373,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 412
+        "FieldType": "System.Int32",
+        "FieldLength": 323
       }
     }
   }

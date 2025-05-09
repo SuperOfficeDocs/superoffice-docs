@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/ProjectStatus/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 57,
-    "Name": "Lowe, Zboncak and Wisozk",
-    "ToolTip": "Ut unde.",
-    "Deleted": true,
-    "Rank": 500,
-    "Type": "id",
-    "ColorBlock": 119,
-    "IconHint": "similique",
-    "Selected": true,
-    "LastChanged": "2021-10-04T13:14:09.9472839+02:00",
+    "Id": 762,
+    "Name": "Ebert Group",
+    "ToolTip": "Voluptatibus est aut doloribus.",
+    "Deleted": false,
+    "Rank": 176,
+    "Type": "voluptatem",
+    "ColorBlock": 674,
+    "IconHint": "facere",
+    "Selected": false,
+    "LastChanged": "2024-07-19T16:32:48.8369917+02:00",
     "ChildItems": [
       {
-        "Id": 862,
-        "Name": "Crist LLC",
-        "ToolTip": "Quia facere ut repudiandae.",
-        "Deleted": false,
-        "Rank": 993,
-        "Type": "molestias",
-        "ColorBlock": 823,
-        "IconHint": "fugit",
-        "Selected": false,
-        "LastChanged": "1998-11-16T13:14:09.9472839+01:00",
+        "Id": 997,
+        "Name": "Romaguera, Price and Satterfield",
+        "ToolTip": "Rerum quae maxime dolores blanditiis officia.",
+        "Deleted": true,
+        "Rank": 280,
+        "Type": "sed",
+        "ColorBlock": 787,
+        "IconHint": "debitis",
+        "Selected": true,
+        "LastChanged": "2000-03-18T16:32:48.8369917+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "explicabo",
+        "ExtraInfo": "omnis",
+        "StyleHint": "beatae",
         "Hidden": false,
-        "FullName": "Annabell Schmidt",
+        "FullName": "Walton Orn",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 547
+            "FieldLength": 226
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "dolore",
+    "ExtraInfo": "similique",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Prof. Laisha Hirthe II",
+    "FullName": "Prof. Domingo Kunze DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 800
+        "FieldType": "System.String",
+        "FieldLength": 390
       }
     }
   }

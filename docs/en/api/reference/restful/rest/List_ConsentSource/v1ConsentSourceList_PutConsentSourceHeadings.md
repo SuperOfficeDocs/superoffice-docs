@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/ConsentSource/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 227,
-    "Name": "Nienow Inc and Sons",
-    "Tooltip": "omnis",
+    "HeadingId": 147,
+    "Name": "Christiansen Inc and Sons",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 446,
-    "UdListDefinitionId": 109
+    "Rank": 965,
+    "UdListDefinitionId": 111
   },
   {
-    "HeadingId": 227,
-    "Name": "Nienow Inc and Sons",
-    "Tooltip": "omnis",
+    "HeadingId": 147,
+    "Name": "Christiansen Inc and Sons",
+    "Tooltip": "neque",
     "Deleted": false,
-    "Rank": 446,
-    "UdListDefinitionId": 109
+    "Rank": 965,
+    "UdListDefinitionId": 111
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 686,
-    "Name": "O'Keefe LLC",
-    "Tooltip": "voluptatem",
-    "Deleted": false,
-    "Rank": 896,
-    "UdListDefinitionId": 90,
+    "HeadingId": 914,
+    "Name": "Monahan Group",
+    "Tooltip": "minima",
+    "Deleted": true,
+    "Rank": 531,
+    "UdListDefinitionId": 179,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 759
+        "FieldLength": 348
       }
     }
   }

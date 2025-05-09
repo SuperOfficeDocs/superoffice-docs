@@ -135,12 +135,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateAppointmentEntityFromExisting
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "AppointmentId": 765,
-  "AssociateId": 12
+  "AppointmentId": 492,
+  "AssociateId": 108
 }
 ```
 
@@ -155,121 +155,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2022-09-10T13:13:59.2813517+02:00",
-  "AppointmentId": 817,
-  "Description": "Polarised holistic encoding",
-  "Title": "repellendus",
-  "Agenda": "est",
-  "InternalNotes": "autem",
-  "StartDate": "2014-01-29T13:13:59.2813517+01:00",
-  "EndDate": "2002-08-28T13:13:59.2813517+02:00",
+  "CreatedDate": "2015-02-18T16:32:37.914798+01:00",
+  "AppointmentId": 797,
+  "Description": "Extended radical capability",
+  "Title": "molestiae",
+  "Agenda": "blanditiis",
+  "InternalNotes": "exercitationem",
+  "StartDate": "2008-02-18T16:32:37.914798+01:00",
+  "EndDate": "2021-04-03T16:32:37.914798+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 558,
+  "MotherId": 420,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2009-01-23T13:13:59.2813517+01:00",
+  "UpdatedDate": "2015-01-20T16:32:37.914798+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 588,
+  "ActiveLinks": 878,
   "Links": [
     {
-      "EntityName": "Legros-Fay",
-      "Id": 267,
-      "Description": "Operative multi-tasking artificial intelligence",
-      "ExtraInfo": "quia",
-      "LinkId": 481,
+      "EntityName": "Lakin-Braun",
+      "Id": 777,
+      "Description": "Reduced scalable leverage",
+      "ExtraInfo": "saepe",
+      "LinkId": 587,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 838
+          "FieldLength": 212
         }
       }
     }
   ],
-  "AlarmLeadTime": "incidunt",
-  "HasAlarm": true,
-  "ColorIndex": 422,
+  "AlarmLeadTime": "qui",
+  "HasAlarm": false,
+  "ColorIndex": 823,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "optio",
-  "LeadTime": "ad",
-  "Location": "aliquam",
-  "RejectCounter": 780,
+  "LagTime": "molestiae",
+  "LeadTime": "repellendus",
+  "Location": "minima",
+  "RejectCounter": 11,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 984,
-      "PersonId": 692,
-      "ContactId": 133,
-      "EmailId": 414,
-      "SendEmail": true,
+      "AssociateId": 449,
+      "PersonId": 771,
+      "ContactId": 686,
+      "EmailId": 421,
+      "SendEmail": false,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "mack@luettgenmonahan.ca",
-      "Description": "Phased uniform firmware"
+      "EmailAddress": "lee@konopelskimills.ca",
+      "Description": "Versatile logistical support"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2005-11-25T13:13:59.2813517+01:00",
-  "HasConflict": true,
+  "ActiveDate": "2001-07-02T16:32:37.914798+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 970,
+  "PreferredTZLocation": 283,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 769,
+  "SuggestedAppointmentId": 332,
   "IsMileStone": true,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "error",
+  "CentralserviceVideomeetId": "totam",
   "UserDefinedFields": {
-    "SuperOffice:1": "1699740484",
-    "SuperOffice:2": "443254059"
+    "SuperOffice:1": "False",
+    "SuperOffice:2": "Miss Lourdes Stracke"
   },
   "ExtraFields": {
-    "ExtraFields1": "est",
-    "ExtraFields2": "eum"
+    "ExtraFields1": "consequuntur",
+    "ExtraFields2": "rem"
   },
   "CustomFields": {
-    "CustomFields1": "tempora",
-    "CustomFields2": "in"
+    "CustomFields1": "accusantium",
+    "CustomFields2": "nobis"
   },
-  "PublishEventDate": "1998-12-30T13:13:59.2813517+01:00",
-  "PublishTo": "2024-07-19T13:13:59.2813517+02:00",
-  "PublishFrom": "1998-09-27T13:13:59.2813517+02:00",
+  "PublishEventDate": "2023-06-12T16:32:37.914798+02:00",
+  "PublishTo": "2014-07-21T16:32:37.914798+02:00",
+  "PublishFrom": "2011-12-03T16:32:37.914798+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 166,
+      "VisibleId": 920,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 172
+          "FieldType": "System.Int32",
+          "FieldLength": 6
         }
       }
     },
     {
-      "VisibleId": 166,
+      "VisibleId": 920,
       "Visibility": "All",
-      "DisplayValue": "quo",
+      "DisplayValue": "consequatur",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 172
+          "FieldType": "System.Int32",
+          "FieldLength": 6
         }
       }
     }
@@ -278,8 +278,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 842
+      "FieldType": "System.Int32",
+      "FieldLength": 414
     }
   }
 }

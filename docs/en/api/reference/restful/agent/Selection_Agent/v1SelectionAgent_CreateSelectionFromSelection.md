@@ -116,14 +116,14 @@ OK
 POST /api/v1/Agents/Selection/CreateSelectionFromSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 182,
-  "Name": "Konopelski LLC",
+  "SelectionId": 935,
+  "Name": "Hamill-Farrell",
   "TargetSelectionType": "Combined",
-  "CopyMembers": true
+  "CopyMembers": false
 }
 ```
 
@@ -134,70 +134,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Multi-tiered global data-warehouse",
-  "Postit": "consectetur",
+  "Description": "Multi-tiered attitude-oriented success",
+  "Postit": "voluptatem",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 440,
-  "IncludePerson": 24,
+  "GroupIdx": 678,
+  "IncludePerson": 82,
   "MemberCount": 99.99,
-  "Name": "Jakubowski-Greenfelder",
-  "PostitTextId": 149,
-  "CreatedDate": "2019-12-01T13:14:01.3319239+01:00",
-  "SelectionId": 766,
-  "SoundEx": "quas",
-  "Source": 743,
-  "TextId": 169,
-  "UpdatedDate": "2002-03-22T13:14:01.3319239+01:00",
-  "UpdatedCount": 880,
-  "Visibility": 579,
+  "Name": "Wolf-Pfeffer",
+  "PostitTextId": 774,
+  "CreatedDate": "2005-02-11T16:32:39.9302031+01:00",
+  "SelectionId": 520,
+  "SoundEx": "dolores",
+  "Source": 842,
+  "TextId": 459,
+  "UpdatedDate": "2006-10-12T16:32:39.9302031+02:00",
+  "UpdatedCount": 144,
+  "Visibility": 38,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 442,
-  "TargetTableName": "Hand Inc and Sons",
+  "TargetTableNumber": 136,
+  "TargetTableName": "Cassin LLC",
   "Completed": false,
-  "LeftSelectionId": 149,
-  "RightSelectionId": 284,
+  "LeftSelectionId": 860,
+  "RightSelectionId": 240,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Leuschke-Hettinger",
-  "ShadowProviderName": "Lakin LLC",
-  "ChartKey": "laboriosam",
-  "LastLoaded": "2020-11-02T13:14:01.3319239+01:00",
-  "LastLoadedBy": 785,
+  "MainProviderName": "Little Group",
+  "ShadowProviderName": "Hills-Dietrich",
+  "ChartKey": "quae",
+  "LastLoaded": "2021-07-25T16:32:39.9302031+02:00",
+  "LastLoadedBy": 44,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2011-11-02T13:14:01.3319239+01:00",
-  "LastMembershipChangeBy": 29,
+  "LastMembershipChange": "2018-06-05T16:32:39.9302031+02:00",
+  "LastMembershipChangeBy": 586,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "voluptatem",
-  "MemberTabHeading": "omnis",
-  "MailingsProviderName": "Jewess Group",
-  "DashboardTileDefinitionId": 448,
+  "MainHeading": "quis",
+  "MemberTabHeading": "error",
+  "MailingsProviderName": "West Group",
+  "DashboardTileDefinitionId": 32,
   "VisibleFor": [
     {
-      "VisibleId": 264,
+      "VisibleId": 236,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 70
+          "FieldType": "System.Int32",
+          "FieldLength": 411
         }
       }
     },
     {
-      "VisibleId": 264,
+      "VisibleId": 236,
       "Visibility": "All",
-      "DisplayValue": "enim",
+      "DisplayValue": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 70
+          "FieldType": "System.Int32",
+          "FieldLength": 411
         }
       }
     }
@@ -206,8 +206,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 532
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   }
 }

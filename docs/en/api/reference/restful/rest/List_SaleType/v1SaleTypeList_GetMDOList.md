@@ -26,8 +26,8 @@ Get the MDO list items for "SaleType" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/SaleType/MDOItems?flat=False
-GET /api/v1/List/SaleType/MDOItems?query=asperiores
+GET /api/v1/List/SaleType/MDOItems?flat=True
+GET /api/v1/List/SaleType/MDOItems?query=doloribus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/SaleType/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 987,
-    "Name": "Beatty LLC",
-    "ToolTip": "Minima accusamus culpa deserunt hic in.",
-    "Deleted": false,
-    "Rank": 963,
-    "Type": "recusandae",
+    "Id": 540,
+    "Name": "Lesch, Sauer and Ledner",
+    "ToolTip": "Nihil voluptas quia.",
+    "Deleted": true,
+    "Rank": 79,
+    "Type": "accusantium",
     "ChildItems": [
       {
-        "Id": 438,
-        "Name": "Torphy, Okuneva and Parisian",
-        "ToolTip": "Tenetur aliquid numquam dolorum fugiat.",
+        "Id": 390,
+        "Name": "Hammes-Hettinger",
+        "ToolTip": "Aut saepe et.",
         "Deleted": true,
-        "Rank": 631,
-        "Type": "pariatur",
+        "Rank": 628,
+        "Type": "ut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "suscipit",
-        "ColorBlock": 621,
-        "ExtraInfo": "perspiciatis",
-        "StyleHint": "sed",
-        "FullName": "Maeve Watsica",
+        "IconHint": "pariatur",
+        "ColorBlock": 239,
+        "ExtraInfo": "repellendus",
+        "StyleHint": "esse",
+        "FullName": "Lonzo Streich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 681
+            "FieldType": "System.Int32",
+            "FieldLength": 387
           }
         }
       }
     ],
-    "IconHint": "qui",
-    "ColorBlock": 562,
-    "ExtraInfo": "exercitationem",
-    "StyleHint": "praesentium",
-    "FullName": "Ms. Birdie Senger",
+    "IconHint": "ea",
+    "ColorBlock": 269,
+    "ExtraInfo": "saepe",
+    "StyleHint": "qui",
+    "FullName": "Mr. Layla Alysha Lockman DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 541
+        "FieldLength": 316
       }
     }
   }

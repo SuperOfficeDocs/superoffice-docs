@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "voluptatum",
-  "Value": "facilis",
-  "RecordId": 489,
-  "CreatedDate": "2001-06-13T13:14:08.7585151+02:00",
-  "UpdatedDate": "2001-05-19T13:14:08.7585151+02:00",
+  "Key": "et",
+  "Value": "non",
+  "RecordId": 365,
+  "CreatedDate": "1998-05-27T16:32:47.5558268+02:00",
+  "UpdatedDate": "2011-12-16T16:32:47.5558268+01:00",
   "UpdatedBy": "omnis",
-  "CreatedBy": "sint",
-  "TableName": "Becker-Rolfson"
+  "CreatedBy": "qui",
+  "TableName": "Kassulke, Lubowitz and Kuhn"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "maiores",
-  "Value": "ab",
-  "RecordId": 548,
-  "CreatedDate": "2006-05-05T13:14:08.7585151+02:00",
-  "UpdatedDate": "2009-10-27T13:14:08.7585151+01:00",
-  "UpdatedBy": "quidem",
-  "CreatedBy": "occaecati",
-  "TableName": "Purdy LLC",
+  "Key": "ut",
+  "Value": "ut",
+  "RecordId": 555,
+  "CreatedDate": "2005-06-26T16:32:47.5558268+02:00",
+  "UpdatedDate": "2022-06-06T16:32:47.5558268+02:00",
+  "UpdatedBy": "repellendus",
+  "CreatedBy": "veniam",
+  "TableName": "Bradtke-Daniel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 16
+      "FieldType": "System.String",
+      "FieldLength": 935
     }
   }
 }

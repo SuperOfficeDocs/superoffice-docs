@@ -26,7 +26,7 @@ Gets a ConsentPurpose object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=110
+POST /api/v1/Agents/List/GetConsentPurpose?consentPurposeId=87
 POST /api/v1/Agents/List/GetConsentPurpose?$select=name,department,category/id
 ```
 
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 956,
-  "Name": "Rolfson, Bayer and Lubowitz",
-  "ConsentText": "vitae",
-  "FormText": "sunt",
-  "Key": "dignissimos",
-  "Tooltip": "tempora",
-  "Active": 178,
-  "UpdatedDate": "2022-09-08T13:14:00.6731283+02:00",
+  "ConsentPurposeId": 141,
+  "Name": "Quitzon Inc and Sons",
+  "ConsentText": "perferendis",
+  "FormText": "quaerat",
+  "Key": "totam",
+  "Tooltip": "beatae",
+  "Active": 166,
+  "UpdatedDate": "2010-11-13T16:32:39.3363462+01:00",
   "UpdatedBy": null,
-  "Deleted": true,
-  "Rank": 924,
-  "PrivacyStatementDesc": "labore",
+  "Deleted": false,
+  "Rank": 6,
+  "PrivacyStatementDesc": "neque",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 716
+      "FieldType": "System.String",
+      "FieldLength": 958
     }
   }
 }

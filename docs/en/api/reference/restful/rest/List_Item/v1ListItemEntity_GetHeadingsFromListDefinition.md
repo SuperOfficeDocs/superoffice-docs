@@ -76,18 +76,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 843,
-    "Name": "Schmeler Group",
-    "Tooltip": "minus",
-    "Deleted": false,
-    "Rank": 218,
-    "UdListDefinitionId": 667,
+    "HeadingId": 743,
+    "Name": "Kerluke-Reichel",
+    "Tooltip": "nostrum",
+    "Deleted": true,
+    "Rank": 295,
+    "UdListDefinitionId": 867,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 569
+        "FieldType": "System.String",
+        "FieldLength": 239
       }
     }
   }

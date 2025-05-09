@@ -57,6 +57,7 @@ Link data provider for appointments, handles both addressing by source or by des
 |endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |priority|listAny|Priority: Displays the priority of the activity| x |
 |alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |intention|listAny|Intention: Displays the intention of the follow-up type| x |
@@ -120,11 +121,11 @@ Link data provider for appointments, handles both addressing by source or by des
 |contact/email/emailId|int|ID| x |
 |contact/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |contact/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
-|contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
 |contact/email/emailHasBounced|bool|Has bounced: This checkbox is active if delivery to this e-mail address has failed.| x |
 |contact/postAddress/addressId|int|Postal address - Address ID: Database ID for the address record| x |
 |contact/postAddress/line1|string|Postal address - Address 1: First line of the address| x |
@@ -224,11 +225,11 @@ Link data provider for appointments, handles both addressing by source or by des
 |contact/contactExtra/x\_contact\_short\_dropdown|listAny|Extra short dropdown: Custom short text with dropdown list. Red, Green or Blue or Purple. External.| x |
 |contact/contactExtra/x\_contact\_contact\_relation|stringorPK|Extra Company: Custom company relation. Do not show one-to-many relations. Show function buttons| x |
 |contact/contactExtra/x\_contact\_request\_relation|stringorPK|Extra Request relation: Request relation on company| x |
-|contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactExtra/x\_contact\_contact|stringorPK|Extra contact relation: Contact relation on company| x |
 |contact/contactExtra/y\_organization/x\_name|string|Organization - Name| x |
 |contact/NumberOfActivities|int|Number of activities|  |
 |contact/NumberOfActivitiesInPeriod|int|Number of activities in last 90 days|  |
@@ -328,11 +329,11 @@ Link data provider for appointments, handles both addressing by source or by des
 |person/email/emailProtocol|string|Protocol: E-mail protocol, such as SMTP| x |
 |person/email/emailAddress|string|E-mail| x |
 |person/email/emailDescription|string|Description| x |
-|person/email/emailId|int|ID| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/email/emailId|int|ID| x |
 |person/email/emailLastSent|datetime|Last sent: The date and time an e-mail was last sent to this address| x |
 |person/email/emailBounceCount|int|Bounce count: Bounce count for this e-mail address| x |
 |person/email/emailLastBounce|datetime|Last bounce: Date and time for last bounce to this e-mail address| x |
@@ -432,11 +433,11 @@ Link data provider for appointments, handles both addressing by source or by des
 |person/personAssociate/isLocation|bool|Is a location: Is a location| x |
 |person/correspondingAssociate/firstName|string|First name: Displays the contact's first name| x |
 |person/correspondingAssociate/lastName|string|Last name: Displays the contact's last name| x |
-|person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/middleName|string|Middle Name : Displays the contact's middle name.| x |
 |person/correspondingAssociate/fullName|string|Full name: Displays full name of user (first, middle, last - according to settings)| x |
 |person/correspondingAssociate/contactId|int|Company ID: Database ID of the company the user belongs to|  |
 |person/correspondingAssociate/personId|int|Contact ID: Database ID of the contact row|  |
@@ -536,11 +537,11 @@ Link data provider for appointments, handles both addressing by source or by des
 |project/projectAssociate/assocTooltip|string|Description : Description|  |
 |project/projectAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
 |project/projectAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
-|project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/projectAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |project/projectAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |project/projectAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
 |project/projectAssociate/credentialType| *None* |Auth. type: What type of credentials to use when this user logs in| x |
@@ -621,9 +622,12 @@ Link data provider for appointments, handles both addressing by source or by des
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -637,14 +641,14 @@ Link data provider for appointments, handles both addressing by source or by des
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
-|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
-|sale/visibleFor|listAny|Visible for|  |
-|sale/sale/textId|int|Text ID| x |
-|sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
+|sale/visibleFor|listAny|Visible for|  |
+|sale/sale/textId|int|Text ID| x |
+|sale/sale/description|positiveString|Text: Displays the text entered in the description field| x |
 |sale/salePublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
 |sale/salePublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |sale/salePublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
@@ -735,7 +739,7 @@ Link data provider for appointments, handles both addressing by source or by des
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksAppointments?$select=contact/LastCompletedActivity,person/useAsMailingAddress,person/phone/formattedNumber,person/personAddress/formattedMultiLineAddress,person/personExtra/x_person_boolean
+GET /api/v1/archive/LinksAppointments?$select=sourceProjectRestrictionId,time,contact/deletedDate,contact/restrictionAddress/line2,contact/restrictionAddress/county
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

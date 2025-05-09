@@ -94,20 +94,20 @@ OK
 POST /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 246,
-  "ERPPriceListKey": "repudiandae",
-  "QuoteConnectionId": 870,
-  "Name": "Kessler Inc and Sons",
-  "Description": "Open-architected context-sensitive synergy",
-  "Currency": "explicabo",
-  "CurrencyName": "Corwin, McClure and Runolfsson",
-  "ValidFrom": "2012-03-31T13:14:09.8691543+02:00",
-  "ValidTo": "2002-06-25T13:14:09.8691543+02:00",
-  "IsActive": true
+  "PriceListId": 88,
+  "ERPPriceListKey": "non",
+  "QuoteConnectionId": 559,
+  "Name": "Waters, Monahan and Nader",
+  "Description": "Open-architected next generation architecture",
+  "Currency": "consequuntur",
+  "CurrencyName": "Schinner-Gaylord",
+  "ValidFrom": "2019-02-19T16:32:48.7588803+01:00",
+  "ValidTo": "2023-09-09T16:32:48.7588803+02:00",
+  "IsActive": false
 }
 ```
 
@@ -118,22 +118,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 550,
-  "ERPPriceListKey": "iusto",
-  "QuoteConnectionId": 142,
-  "Name": "Swift, Olson and Sanford",
-  "Description": "Monitored even-keeled workforce",
-  "Currency": "eum",
-  "CurrencyName": "Kilback Group",
-  "ValidFrom": "1999-01-02T13:14:09.8691543+01:00",
-  "ValidTo": "1998-12-22T13:14:09.8691543+01:00",
-  "IsActive": true,
+  "PriceListId": 910,
+  "ERPPriceListKey": "quia",
+  "QuoteConnectionId": 789,
+  "Name": "Dibbert, Tillman and Quigley",
+  "Description": "Advanced systematic emulation",
+  "Currency": "rerum",
+  "CurrencyName": "Bernier, Abshire and Dickinson",
+  "ValidFrom": "2020-10-15T16:32:48.7588803+02:00",
+  "ValidTo": "2014-08-13T16:32:48.7588803+02:00",
+  "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 234
+      "FieldLength": 933
     }
   },
   "_Links": {

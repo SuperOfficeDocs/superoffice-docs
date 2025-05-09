@@ -66,22 +66,22 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveTicketsFromFavouritesByProvider
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Schinner LLC",
+  "ProviderName": "Schmeler, Christiansen and Hegmann",
   "Restrictions": [
     {
-      "Name": "Gleason, Muller and Rosenbaum",
-      "Operator": "dolorum",
+      "Name": "Sipes, Lang and Dach",
+      "Operator": "ipsum",
       "Values": [
-        "corrupti",
-        "modi"
+        "qui",
+        "laborum"
       ],
       "DisplayValues": [
-        "molestiae",
-        "quia"
+        "quos",
+        "excepturi"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -89,12 +89,12 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 654,
+      "InterParenthesis": 679,
       "InterOperator": "And",
-      "UniqueHash": 573
+      "UniqueHash": 893
     }
   ],
-  "AssociateId": 316
+  "AssociateId": 839
 }
 ```
 

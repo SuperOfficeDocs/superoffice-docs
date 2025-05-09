@@ -30,7 +30,7 @@ Gets a selectable MDO list of the headings for this list item
 | showDeleted | bool |  Set to true if you want deleted headings |
 
 ```http
-GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=False
+GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings?showDeleted=True
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -95,56 +95,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 555,
-    "Name": "McCullough, Kilback and Schroeder",
-    "ToolTip": "Quae provident.",
+    "Id": 972,
+    "Name": "Schulist-Rice",
+    "ToolTip": "Qui nam qui.",
     "Deleted": false,
-    "Rank": 220,
-    "Type": "nisi",
-    "ColorBlock": 444,
-    "IconHint": "ratione",
-    "Selected": true,
-    "LastChanged": "2017-03-03T13:14:09.6036167+01:00",
+    "Rank": 37,
+    "Type": "voluptate",
+    "ColorBlock": 372,
+    "IconHint": "aut",
+    "Selected": false,
+    "LastChanged": "2015-04-16T16:32:48.5089404+02:00",
     "ChildItems": [
       {
-        "Id": 511,
-        "Name": "Runolfsson LLC",
-        "ToolTip": "Eveniet id.",
-        "Deleted": false,
-        "Rank": 188,
-        "Type": "non",
-        "ColorBlock": 958,
-        "IconHint": "nam",
-        "Selected": false,
-        "LastChanged": "2024-12-06T13:14:09.6036167+01:00",
+        "Id": 130,
+        "Name": "Stiedemann, Hettinger and Herzog",
+        "ToolTip": "Dolorem et voluptas.",
+        "Deleted": true,
+        "Rank": 825,
+        "Type": "a",
+        "ColorBlock": 433,
+        "IconHint": "et",
+        "Selected": true,
+        "LastChanged": "2024-08-01T16:32:48.5089404+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "sit",
+        "ExtraInfo": "dolorum",
+        "StyleHint": "consectetur",
         "Hidden": false,
-        "FullName": "Mrs. Horace Pouros PhD",
+        "FullName": "Miss Laney Maggio",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 660
+            "FieldLength": 566
           }
         }
       }
     ],
-    "ExtraInfo": "dolores",
-    "StyleHint": "et",
+    "ExtraInfo": "aut",
+    "StyleHint": "natus",
     "Hidden": false,
-    "FullName": "Oscar Kilback",
+    "FullName": "Tess Stanton",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 471
+        "FieldLength": 956
       }
     }
   }

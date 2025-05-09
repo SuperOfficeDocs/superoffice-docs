@@ -74,7 +74,7 @@ OK
 POST /api/v1/Hierarchy/{domain}/{path}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -84,46 +84,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 823,
+  "HierarchyId": 196,
   "Domain": "Dashboards",
-  "Name": "Greenholt, Fisher and Hudson",
-  "Fullname": "nostrum",
-  "ParentId": 80,
+  "Name": "Beier, Leuschke and Trantow",
+  "Fullname": "nesciunt",
+  "ParentId": 416,
   "Children": [
     {
-      "HierarchyId": 602,
+      "HierarchyId": 622,
       "Domain": "Dashboards",
-      "Name": "Parisian-Turner",
-      "Fullname": "nam",
-      "ParentId": 109,
+      "Name": "Steuber-Simonis",
+      "Fullname": "asperiores",
+      "ParentId": 883,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2004-03-11T13:14:08.7741411+01:00",
-      "RegisteredAssociateId": 395,
-      "Updated": "2022-03-05T13:14:08.7741411+01:00",
-      "UpdatedAssociateId": 132,
+      "Registered": "2007-05-17T16:32:47.5558268+02:00",
+      "RegisteredAssociateId": 955,
+      "Updated": "2008-03-04T16:32:47.5558268+01:00",
+      "UpdatedAssociateId": 547,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 41
+          "FieldType": "System.String",
+          "FieldLength": 751
         }
       }
     }
   ],
-  "Registered": "2025-03-23T13:14:08.7741411+01:00",
-  "RegisteredAssociateId": 700,
-  "Updated": "2013-01-17T13:14:08.7741411+01:00",
-  "UpdatedAssociateId": 408,
+  "Registered": "2019-11-24T16:32:47.5558268+01:00",
+  "RegisteredAssociateId": 34,
+  "Updated": "1999-04-25T16:32:47.5558268+02:00",
+  "UpdatedAssociateId": 865,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 366
+      "FieldType": "System.Int32",
+      "FieldLength": 553
     }
   }
 }

@@ -90,40 +90,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 538,
-  "Name": "Hayes, Hauck and Satterfield",
-  "Rank": 341,
-  "Tooltip": "adipisci",
-  "Icon": "in",
-  "DefaultTicketStatus": 610,
+  "TicketTypeId": 926,
+  "Name": "Wehner, Predovic and Schneider",
+  "Rank": 869,
+  "Tooltip": "quo",
+  "Icon": "corporis",
+  "DefaultTicketStatus": 132,
   "TicketStatuses": [
-    181,
-    929
+    347,
+    975
   ],
-  "DefaultTicketPriority": 335,
+  "DefaultTicketPriority": 280,
   "TicketPriorities": [
-    45,
-    978
+    286,
+    916
   ],
-  "ReplyTemplate": 790,
-  "IsExternalVisible": false,
+  "ReplyTemplate": 267,
+  "IsExternalVisible": true,
   "IsDefault": false,
-  "ShowInNew": false,
+  "ShowInNew": true,
   "ExcludeSignature": false,
-  "ExcludeEmailRecipients": true,
+  "ExcludeEmailRecipients": false,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    61,
-    495
+    310,
+    406
   ],
   "ReplyForwardNoSignature": false,
-  "ReplyExternalAsDefault": false,
+  "ReplyExternalAsDefault": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 214
+      "FieldLength": 950
     }
   }
 }

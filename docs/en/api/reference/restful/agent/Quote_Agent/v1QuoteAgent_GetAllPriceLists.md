@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/Quote/GetAllPriceLists
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 933,
-  "Currency": "id"
+  "QuoteConnectionId": 287,
+  "Currency": "et"
 }
 ```
 
@@ -102,22 +102,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PriceListId": 234,
-    "ERPPriceListKey": "ea",
-    "QuoteConnectionId": 977,
-    "Name": "Watsica, Pacocha and Kutch",
-    "Description": "Robust transitional architecture",
-    "Currency": "expedita",
-    "CurrencyName": "Renner LLC",
-    "ValidFrom": "2017-05-05T13:14:01.0020135+02:00",
-    "ValidTo": "2013-06-08T13:14:01.0020135+02:00",
+    "PriceListId": 287,
+    "ERPPriceListKey": "amet",
+    "QuoteConnectionId": 339,
+    "Name": "Collins-Walter",
+    "Description": "Phased attitude-oriented open architecture",
+    "Currency": "sunt",
+    "CurrencyName": "McGlynn-O'Reilly",
+    "ValidFrom": "2005-09-17T16:32:39.7271263+02:00",
+    "ValidTo": "1998-12-17T16:32:39.7271263+01:00",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 174
+        "FieldLength": 536
       }
     }
   }

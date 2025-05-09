@@ -67,9 +67,12 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |probPercent|int|Probability as %: Probability as %| x |
 |originalStage|listAny|Stage: Displays the stage of the sale| x |
 |stage|listAny|Stage: Displays the stage of the sale| x |
+|stageName| *None* |Stage name: Displays the stage of the sale| x |
 |saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |saleType|listAny|Sale type: Sale type, from list| x |
+|saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -118,13 +121,13 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |person/birthDay|int|Birth day: Displays contact's birth day (day of month)| x |
 |person/kanaFirstName|string|First name, kana: Contact's first name, in kana alphabet| x |
 |person/kanaLastName|string|Last name, kana: Contact's last name, in kana alphabet| x |
-|person/personUpdatedBy|associate|Updated by: The user who last updated the data| x |
-|person/personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
-|person/personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personUpdatedBy|associate|Updated by: The user who last updated the data| x |
+|person/personUpdatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
+|person/personUpdatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
 |person/personRegisteredBy|associate|Registered by: The user who registered the data| x |
 |person/personRegisteredByFullName|associate|Registered by - Full name: The user who registered the data| x |
 |person/personRegisteredDate|date|Registered date: The date/time the data was registered in UTC.| x |
@@ -222,13 +225,13 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |person/personExtra/x\_person\_request\_relation|stringorPK|Extra request relation: Request relation on contact| x |
 |person/personExtra/x\_person\_appointment\_relation|stringorPK|Extra appointment relation: Appointment relation on person| x |
 |person/personExtra/x\_person\_contact\_relation|stringorPK|Extra company relation: Company relation on contact| x |
-|person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
-|person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
-|person/personExtra/y\_rental/x\_end|date|Rental - End| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personExtra/y\_rental/id|int|Rental - id: Displays the row's primary key (y\_rental)| x |
+|person/personExtra/y\_rental/x\_start|date|Rental - Start rental| x |
+|person/personExtra/y\_rental/x\_end|date|Rental - End| x |
 |person/personExtra/y\_rental/x\_amount|int|Rental - Amount: Number to rent. Default = 1| x |
 |person/personExtra/y\_rental/x\_contact|stringorPK|Rental - Renter: Company that rents equipment| x |
 |person/personExtra/y\_rental/y\_equipment/x\_name|string|Rental - Equipment - Name: Equpment name custom field. Cannot be null., show in table| x |
@@ -326,13 +329,13 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |contact/updatedBy|associate|Updated by: The user who last updated the data| x |
 |contact/updatedByFullName|associate|Updated by - Full name: The user who last updated the data| x |
 |contact/updatedDate|date|Updated: The date/time the data was last updated in UTC.| x |
-|contact/registeredBy|associate|Registered by: The user who registered the data| x |
-|contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
-|contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/registeredBy|associate|Registered by: The user who registered the data| x |
+|contact/registeredByFullName|associate|Registered by - Full name: The user who registered the data| x |
+|contact/registeredDate|date|Registered date: The date/time the data was registered in UTC.| x |
 |contact/contactSource|listAny|Source: Source (Company)| x |
 |contact/contactDeleted|bool|Deleted: Deleted| x |
 |contact/phone/formattedNumber|string|Phone : Displays phone number|  |
@@ -430,13 +433,13 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |contact/contactUdef/SuperOffice:4|date|companydate| x |
 |contact/contactUdef/SuperOffice:5|unlimitedDate|companyunlimiteddate: tooltipunlimiteddate| x |
 |contact/contactUdef/SuperOffice:6|bool|companycheckbox| x |
-|contact/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
-|contact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
-|contact/contactUdef/SuperOffice:9|string|page1saleonly| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/contactUdef/SuperOffice:7|listAny|companydropdownlistbox| x |
+|contact/contactUdef/SuperOffice:8|decimal|companydecimal| x |
+|contact/contactUdef/SuperOffice:9|string|page1saleonly| x |
 |contact/contactUdef/SuperOffice:10|string|page1marketingonly| x |
 |contact/contactUdef/SuperOffice:11|string|page1adminonly| x |
 |contact/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
@@ -534,13 +537,13 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |project/type|listAny|Project type: Displays the project's type| x |
 |project/status|listAny|Status: Displays the project's status| x |
 |project/statusRank| *None* |Status rank: Rank of the project status in the status list| x |
-|project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
-|project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
-|project/icon| *None* |Category: Displays the icon for an activity type| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|project/associateId|associate|ID: Displays login ID of the associate who owns the project| x |
+|project/hasInfoText|bool|Info: Displays an icon indicating if the project has a description text. The text itself will be displayed in a tooltip.| x |
+|project/icon| *None* |Category: Displays the icon for an activity type| x |
 |project/text|string|Text: Displays a descriptive text for the item| x |
 |project/description|string|Description : Description| x |
 |project/updatedBy|associate|Updated by: The user who last updated the data| x |
@@ -638,13 +641,13 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/person/personId|int|Stakeholder - DB ID: Displays the database ID of a contact| x |
 |saleStakeholder/person/firstName|string|Stakeholder - First name: Displays the contact's first name| x |
 |saleStakeholder/person/lastName|string|Stakeholder - Last name: Displays the contact's last name| x |
-|saleStakeholder/person/middleName|string|Stakeholder - Middle name: Displays the contact's middle name.| x |
-|saleStakeholder/person/fullName|stringorPK|Stakeholder - Contact: Displays the contact to which an item is linked| x |
-|saleStakeholder/person/contactId|int|Stakeholder - Company ID: Database ID of company| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/middleName|string|Stakeholder - Middle name: Displays the contact's middle name.| x |
+|saleStakeholder/person/fullName|stringorPK|Stakeholder - Contact: Displays the contact to which an item is linked| x |
+|saleStakeholder/person/contactId|int|Stakeholder - Company ID: Database ID of company| x |
 |saleStakeholder/person/hasInfoText|bool|Stakeholder - Has note: Displays an icon indicating if there is additional information available about the contact| x |
 |saleStakeholder/person/hasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests| x |
 |saleStakeholder/person/personHasInterests|bool|Stakeholder - Has interests: Displays an Icon indicating if the contact has active interests| x |
@@ -742,13 +745,13 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/person/personUdef/SuperOffice:1|string|Stakeholder - contactshorttext: tooltipshorttext| x |
 |saleStakeholder/person/personUdef/SuperOffice:2|string|Stakeholder - contactlongtext: tooltiplongtext| x |
 |saleStakeholder/person/personUdef/SuperOffice:3|int|Stakeholder - contactnumber| x |
-|saleStakeholder/person/personUdef/SuperOffice:4|date|Stakeholder - contactdate| x |
-|saleStakeholder/person/personUdef/SuperOffice:5|unlimitedDate|Stakeholder - contactunlimiteddate: tooltipunlimiteddate| x |
-|saleStakeholder/person/personUdef/SuperOffice:6|bool|Stakeholder - contactcheckbox| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/personUdef/SuperOffice:4|date|Stakeholder - contactdate| x |
+|saleStakeholder/person/personUdef/SuperOffice:5|unlimitedDate|Stakeholder - contactunlimiteddate: tooltipunlimiteddate| x |
+|saleStakeholder/person/personUdef/SuperOffice:6|bool|Stakeholder - contactcheckbox| x |
 |saleStakeholder/person/personUdef/SuperOffice:7|listAny|Stakeholder - contactdropdownlistbox| x |
 |saleStakeholder/person/personUdef/SuperOffice:8|decimal|Stakeholder - contactdecimal| x |
 |saleStakeholder/person/personUdef/SuperOffice:9|string|Stakeholder - page1saleonly| x |
@@ -846,13 +849,13 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/person/withdrawnStoreConsent|bool|Stakeholder - Consent is withdrawn - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.|  |
 |saleStakeholder/person/hasEmarketingConsent|bool|Stakeholder - Consent - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
 |saleStakeholder/person/withdrawnEmarketingConsent|bool|Stakeholder - Consent is withdrawn - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.|  |
-|saleStakeholder/person/subscription|listAny|Stakeholder - Subscription: Subscription for marketing| x |
-|saleStakeholder/person/legalBaseStore|listAny|Stakeholder - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
-|saleStakeholder/person/legalBaseEmarketing|listAny|Stakeholder - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/person/subscription|listAny|Stakeholder - Subscription: Subscription for marketing| x |
+|saleStakeholder/person/legalBaseStore|listAny|Stakeholder - Legal basis - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
+|saleStakeholder/person/legalBaseEmarketing|listAny|Stakeholder - Legal basis - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |saleStakeholder/person/consentSourceStore|listAny|Stakeholder - Source - Sales and service: The purpose to store data about this contact is to sell to and/or provide services to this contact. This purpose is usually used when storing contacts who are defined as potential or existing customers.| x |
 |saleStakeholder/person/consentSourceEmarketing|listAny|Stakeholder - Source - E-marketing: The purpose is to gain the explicit consent to communicate electronically (bulk e-mail) on topics related to our products and services. This might include newsletters, invitations and product-related content. The subscription system is used to refine the individual marketing choices this contact makes.| x |
 |saleStakeholder/contact/contactId|int|Stakeholder - Company ID: Database ID of company| x |
@@ -950,13 +953,13 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |saleStakeholder/contact/contactAssociate/contactFullName|string|Stakeholder - Owner: Name and department of the company the user belongs to| x |
 |saleStakeholder/contact/contactAssociate/contactCategory|listAny|Stakeholder - Category: Category| x |
 |saleStakeholder/contact/contactAssociate/role|listAny|Stakeholder - Role: Role| x |
-|saleStakeholder/contact/contactAssociate/assocName|associate|Stakeholder - User ID: User ID| x |
-|saleStakeholder/contact/contactAssociate/assocTooltip|string|Stakeholder - Description: Description|  |
-|saleStakeholder/contact/contactAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|saleStakeholder/contact/contactAssociate/assocName|associate|Stakeholder - User ID: User ID| x |
+|saleStakeholder/contact/contactAssociate/assocTooltip|string|Stakeholder - Description: Description|  |
+|saleStakeholder/contact/contactAssociate/assocType|listAny|Stakeholder - Type: Type of user: associate, external user, system user, anonymous account| x |
 |saleStakeholder/contact/contactAssociate/ejUserId|int|Stakeholder - Service user ID: The database ID of a Service user|  |
 |saleStakeholder/contact/contactAssociate/simultaneousEjUser|bool|Stakeholder - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |saleStakeholder/contact/contactAssociate/ejDisplayName|string|Stakeholder - Nick name: User's nick name in Service| x |
@@ -1054,13 +1057,13 @@ Link data provider for sales, handles both addressing by source or by destinatio
 |quote/version/approvedDate|date|Approved date: Date of approval of a quote that broke one or more of the workflow rules that trigger an approval process| x |
 |quote/version/extraField1|string|Extra field 1: One of the extra fields on the product; meaning is installation dependent| x |
 |quote/version/extraField2|string|Extra field 2: One of the extra fields on the product; meaning is installation dependent| x |
-|quote/version/extraField3|string|Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
-|quote/version/extraField4|string|Extra field 4: One of the extra fields on the product; meaning is installation dependent| x |
-|quote/version/extraField5|string|Extra field 5: One of the extra fields on the product; meaning is installation dependent| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|quote/version/extraField3|string|Extra field 3: One of the extra fields on the product; meaning is installation dependent| x |
+|quote/version/extraField4|string|Extra field 4: One of the extra fields on the product; meaning is installation dependent| x |
+|quote/version/extraField5|string|Extra field 5: One of the extra fields on the product; meaning is installation dependent| x |
 |quote/version/alternative/quoteAlternativeId|int|QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
 |quote/version/alternative/quoteVersionId|int|ID: Database ID of QuoteVersion record| x |
 |quote/version/alternative/name|string|Name: Name of the quote alternative| x |
@@ -1133,7 +1136,7 @@ Link data provider for sales, handles both addressing by source or by destinatio
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksSales?$select=person/personCountry,person/restrictionAddress/addressId,person/personExtra/y_rental/x_start,person/personAssociate/contactName,contact/contactAssociate/isActiveText
+GET /api/v1/archive/LinksSales?$select=recordType,person/personAddress/county,contact/contactAssociate/isActiveText,contact/contactUdef/SuperOffice:3,saleStakeholder/person/birthMonth
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

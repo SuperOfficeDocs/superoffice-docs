@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Preference/GetPreferenceDescriptionLineFromIdAndValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 684,
-  "PrefValue": "quo"
+  "PrefDescId": 314,
+  "PrefValue": "necessitatibus"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 260,
-  "PrefDescId": 210,
-  "PrefValue": "est",
-  "PrefShowValue": "aut",
-  "Description": "Monitored systemic forecast",
+  "PrefDescLineId": 189,
+  "PrefDescId": 284,
+  "PrefValue": "sed",
+  "PrefShowValue": "a",
+  "Description": "Implemented bottom-line circuit",
   "IsBuiltin": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 631
+      "FieldLength": 709
     }
   }
 }

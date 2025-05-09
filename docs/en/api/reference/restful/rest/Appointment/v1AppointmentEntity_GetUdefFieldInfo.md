@@ -93,7 +93,7 @@ AppointmentEntity found.
 GET /api/v1/Appointment/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 AppointmentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 994,
-  "ColumnId": 319,
-  "FieldDefault": "voluptates",
-  "FieldHeight": 656,
-  "FieldLabel": "rem",
-  "FieldLeft": 382,
-  "FieldTop": 980,
+  "UDefFieldId": 534,
+  "ColumnId": 178,
+  "FieldDefault": "delectus",
+  "FieldHeight": 607,
+  "FieldLabel": "ipsum",
+  "FieldLeft": 768,
+  "FieldTop": 716,
   "FieldType": "Checkbox",
-  "FieldWidth": 472,
-  "FormatMask": "voluptas",
+  "FieldWidth": 310,
+  "FormatMask": "quia",
   "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 118,
-  "LabelLeft": 394,
-  "LabelTop": 331,
-  "LabelWidth": 643,
-  "LastVersionId": 235,
-  "ListTableId": 280,
+  "IsIndexed": false,
+  "LabelHeight": 112,
+  "LabelLeft": 460,
+  "LabelTop": 768,
+  "LabelWidth": 139,
+  "LastVersionId": 925,
+  "ListTableId": 23,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 784,
-  "ProgId": "officia",
-  "IsReadOnly": true,
-  "ShortLabel": "magni",
-  "TabOrder": 120,
-  "TextLength": 413,
-  "Tooltip": "exercitationem",
-  "UdefIdentity": 755,
-  "UDListDefinitionId": 861,
+  "Page1LineNo": 835,
+  "ProgId": "amet",
+  "IsReadOnly": false,
+  "ShortLabel": "voluptatem",
+  "TabOrder": 231,
+  "TextLength": 889,
+  "Tooltip": "ducimus",
+  "UdefIdentity": 120,
+  "UDListDefinitionId": 436,
   "Justification": "Center",
-  "Version": 848,
-  "TemplateVariableName": "Hane, Moore and Hand",
+  "Version": 775,
+  "TemplateVariableName": "Schuster, Harber and Jacobs",
   "HasBeenPublished": false,
-  "MdoListName": "Boyer-Schumm",
+  "MdoListName": "Rodriguez Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 240
+      "FieldLength": 81
     }
   }
 }

@@ -79,12 +79,12 @@ OK
 POST /api/v1/Agents/Targets/GetTargetGroupForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 71,
-  "DimensionId": 436
+  "TargetYear": 388,
+  "DimensionId": 888
 }
 ```
 
@@ -95,30 +95,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 680,
-  "Year": 541,
+  "TargetGroupId": 501,
+  "Year": 359,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 480,
+      "TargetAssignmentInfoId": 26,
       "Values": [
-        690,
-        543
+        887,
+        352
       ],
-      "Locked": false,
+      "Locked": true,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 521,
-      "DimensionListItemDisplayName": "Bergnaum Inc and Sons",
+      "DimensionListItem": 910,
+      "DimensionListItemDisplayName": "Cronin-Fadel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 331
+          "FieldLength": 220
         }
       }
     }
@@ -129,7 +129,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 761
+      "FieldLength": 790
     }
   }
 }

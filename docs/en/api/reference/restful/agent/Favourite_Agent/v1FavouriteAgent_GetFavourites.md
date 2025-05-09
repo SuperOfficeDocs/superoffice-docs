@@ -78,12 +78,12 @@ OK
 POST /api/v1/Agents/Favourite/GetFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Littel-Bechtelar",
-  "AssociateId": 829
+  "TableName": "McClure LLC",
+  "AssociateId": 996
 }
 ```
 
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TableName": "Runolfsdottir-Erdman",
-    "RecordId": 732,
-    "AssociateId": 515,
-    "ExtraInfo": "a",
-    "Rank": 67,
+    "TableName": "Koelpin, Romaguera and Macejkovic",
+    "RecordId": 126,
+    "AssociateId": 536,
+    "ExtraInfo": "officiis",
+    "Rank": 34,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 372
+        "FieldLength": 258
       }
     }
   }

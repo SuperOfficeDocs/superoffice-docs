@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 832,
-  "Name": "Rohan LLC",
-  "Tooltip": "maxime",
-  "Deleted": true,
-  "Rank": 4,
-  "UdListDefinitionId": 409
+  "HeadingId": 815,
+  "Name": "Collier Inc and Sons",
+  "Tooltip": "aut",
+  "Deleted": false,
+  "Rank": 389,
+  "UdListDefinitionId": 317
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 216,
-  "Name": "Oberbrunner-Dickinson",
-  "Tooltip": "ipsum",
+  "HeadingId": 406,
+  "Name": "Wisoky, Harber and Schmidt",
+  "Tooltip": "est",
   "Deleted": false,
-  "Rank": 744,
-  "UdListDefinitionId": 555,
+  "Rank": 314,
+  "UdListDefinitionId": 617,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 159
+      "FieldLength": 84
     }
   }
 }

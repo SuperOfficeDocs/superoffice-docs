@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ConsentSource
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 851,
-  "Name": "Doyle-Glover",
-  "Tooltip": "corrupti",
+  "Id": 259,
+  "Name": "White-Johns",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 97,
+  "Rank": 865,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "vitae",
-  "InUseByUserDefinedFields": true,
+  "ListType": "et",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldLength": 543
     }
   },
   "_Links": {

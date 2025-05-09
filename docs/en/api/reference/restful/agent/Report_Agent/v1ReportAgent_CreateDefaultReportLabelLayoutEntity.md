@@ -68,7 +68,7 @@ OK
 POST /api/v1/Agents/Report/CreateDefaultReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 816,
-  "Name": "Wintheiser-Kris",
-  "Description": "Synchronised analyzing hierarchy",
+  "ReportLabelLayoutId": 361,
+  "Name": "Kunde-Swaniawski",
+  "Description": "Managed mission-critical database",
   "Orientation": "Landscape",
-  "PaperWidth": 778,
-  "PaperHeight": 978,
-  "LeftMargin": 17,
-  "RightMargin": 146,
-  "TopMargin": 179,
-  "BottomMargin": 205,
-  "CountColumns": 239,
-  "CountRows": 506,
+  "PaperWidth": 665,
+  "PaperHeight": 294,
+  "LeftMargin": 736,
+  "RightMargin": 221,
+  "TopMargin": 75,
+  "BottomMargin": 600,
+  "CountColumns": 690,
+  "CountRows": 744,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 971
+      "FieldLength": 717
     }
   }
 }

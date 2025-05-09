@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Marketing/CreateDefaultFormEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,38 +89,38 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "FormId": 941,
+  "FormId": 750,
   "FormKey": "et",
-  "Name": "Volkman-DuBuque",
-  "Description": "Polarised neutral contingency",
-  "Config": "ab",
-  "FolderId": 428,
-  "ScriptId": 841,
-  "ResponseShipmentId": 862,
+  "Name": "Klocko-Nolan",
+  "Description": "Up-sized bi-directional open architecture",
+  "Config": "repudiandae",
+  "FolderId": 701,
+  "ScriptId": 186,
+  "ResponseShipmentId": 202,
   "Active": false,
-  "Expires": "2007-05-11T13:14:00.6887452+02:00",
-  "MaxSubmits": 12,
+  "Expires": "2000-10-20T16:32:39.3363462+02:00",
+  "MaxSubmits": 706,
   "Type": "Normal",
-  "Recipe": "voluptate",
-  "GroupId": 825,
+  "Recipe": "atque",
+  "GroupId": 147,
   "NewTicket": false,
   "RecaptchaMode": "GlobalKeysExist",
-  "Registered": "2000-06-06T13:14:00.6887452+02:00",
-  "RegisteredAssociateId": 657,
-  "Updated": "2024-09-20T13:14:00.6887452+02:00",
-  "UpdatedAssociateId": 882,
-  "UpdatedCount": 866,
+  "Registered": "2022-10-11T16:32:39.3363462+02:00",
+  "RegisteredAssociateId": 648,
+  "Updated": "2003-02-13T16:32:39.3363462+01:00",
+  "UpdatedAssociateId": 858,
+  "UpdatedCount": 404,
   "EmailFlows": [
-    950,
-    100
+    160,
+    538
   ],
-  "FolderName": "Beier Group",
+  "FolderName": "Quigley, Schroeder and Ziemann",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldLength": 941
     }
   }
 }

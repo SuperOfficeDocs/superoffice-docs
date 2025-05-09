@@ -81,27 +81,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 792,
-  "Rank": 1001,
-  "DefaultTask": 199,
-  "DefaultTaskText": "dolorem",
-  "IsVisual": false,
-  "LastGenerated": "2006-11-12T13:14:01.048891+01:00",
-  "Description": "Proactive didactic support",
-  "Name": "Berge-Turcotte",
-  "StatusMonitorId": 961,
-  "PictureId": 688,
-  "NeedsUpdate": false,
+  "OwnerTable": 982,
+  "Rank": 778,
+  "DefaultTask": 662,
+  "DefaultTaskText": "voluptas",
+  "IsVisual": true,
+  "LastGenerated": "2018-06-10T16:32:39.7896101+02:00",
+  "Description": "Right-sized well-modulated framework",
+  "Name": "Champlin Inc and Sons",
+  "StatusMonitorId": 162,
+  "PictureId": 678,
+  "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 580,
-  "NumNeedUpdate": 142,
-  "GenerationStart": "2022-05-25T13:14:01.048891+02:00",
+  "NumMatches": 715,
+  "NumNeedUpdate": 406,
+  "GenerationStart": "2006-12-20T16:32:39.7896101+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 84
+      "FieldType": "System.Int32",
+      "FieldLength": 780
     }
   }
 }

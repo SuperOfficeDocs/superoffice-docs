@@ -66,7 +66,7 @@ OK
 GET /api/v1/TicketMessage/{ticketMessageEntityId}/Attachment/Noninline
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 400,
-    "Name": "Schinner, Wintheiser and Hudson",
-    "ContentType": "sunt",
-    "AttSize": 180,
-    "InlineImage": true,
-    "ContentId": "aut",
-    "AuthKey": "dicta",
-    "IsSafeFileExtension": false,
+    "AttachmentId": 219,
+    "Name": "Marvin-Runolfsdottir",
+    "ContentType": "non",
+    "AttSize": 958,
+    "InlineImage": false,
+    "ContentId": "est",
+    "AuthKey": "in",
+    "IsSafeFileExtension": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 681
+        "FieldLength": 172
       }
     }
   }

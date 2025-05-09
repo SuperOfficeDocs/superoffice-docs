@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/Audience/GetConfigParametersByLayoutName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "LayoutName": "Lynch-Boyer"
+  "LayoutName": "Daniel Group"
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AudienceLayoutId": 452,
-    "Name": "Hoppe-Jaskolski",
-    "Value": "ullam",
-    "CreatedDate": "2021-05-25T13:13:59.5158194+02:00",
-    "UpdatedDate": "2010-12-13T13:13:59.5158194+01:00",
-    "CreatedBy": "molestias",
-    "UpdatedBy": "accusamus",
+    "AudienceLayoutId": 993,
+    "Name": "Moore-Torphy",
+    "Value": "magnam",
+    "CreatedDate": "2001-05-01T16:32:38.1803616+02:00",
+    "UpdatedDate": "2018-06-11T16:32:38.1803616+02:00",
+    "CreatedBy": "minus",
+    "UpdatedBy": "sit",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 983
+        "FieldLength": 904
       }
     }
   }

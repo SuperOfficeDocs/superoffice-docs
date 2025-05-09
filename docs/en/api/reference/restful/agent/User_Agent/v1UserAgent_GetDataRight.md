@@ -75,12 +75,12 @@ OK
 POST /api/v1/Agents/User/GetDataRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 256,
-  "TableName": "Schultz Group",
+  "RoleId": 839,
+  "TableName": "Langosh-McGlynn",
   "RelationToOwner": "Anonymous"
 }
 ```
@@ -91,5 +91,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"autem"
+"qui"
 ```

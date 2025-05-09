@@ -115,18 +115,18 @@ AttachmentEntity  updated.
 PATCH /api/v1/Attachment/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "omnis",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "omnis",
     "value": {}
   }
 ]
@@ -139,20 +139,20 @@ HTTP/1.1 200 AttachmentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 762,
-  "Name": "Wunsch-Batz",
-  "ContentType": "tenetur",
-  "AttSize": 846,
+  "AttachmentId": 698,
+  "Name": "Gutkowski, Boehm and Denesik",
+  "ContentType": "vero",
+  "AttSize": 26,
   "InlineImage": false,
-  "ContentId": "ut",
-  "AuthKey": "enim",
-  "IsSafeFileExtension": false,
+  "ContentId": "cupiditate",
+  "AuthKey": "dolorum",
+  "IsSafeFileExtension": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 928
+      "FieldLength": 588
     }
   },
   "_Links": {

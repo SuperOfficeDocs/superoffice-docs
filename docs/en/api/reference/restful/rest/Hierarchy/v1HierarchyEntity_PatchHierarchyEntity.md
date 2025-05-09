@@ -117,18 +117,18 @@ HierarchyEntity  updated.
 PATCH /api/v1/Hierarchy/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "reprehenderit",
+    "path": "unde",
     "value": {}
   },
   {
     "op": "add",
-    "path": "reprehenderit",
+    "path": "unde",
     "value": {}
   }
 ]
@@ -141,46 +141,46 @@ HTTP/1.1 200 HierarchyEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 658,
+  "HierarchyId": 804,
   "Domain": "Dashboards",
-  "Name": "Luettgen, Sipes and Wiza",
-  "Fullname": "quam",
-  "ParentId": 283,
+  "Name": "Konopelski Group",
+  "Fullname": "mollitia",
+  "ParentId": 165,
   "Children": [
     {
-      "HierarchyId": 478,
+      "HierarchyId": 314,
       "Domain": "Dashboards",
-      "Name": "Lakin Group",
-      "Fullname": "non",
-      "ParentId": 7,
+      "Name": "Kub LLC",
+      "Fullname": "ipsa",
+      "ParentId": 951,
       "Children": [
         {},
         {}
       ],
-      "Registered": "1999-10-09T13:14:08.7741411+02:00",
-      "RegisteredAssociateId": 194,
-      "Updated": "1998-11-24T13:14:08.7741411+01:00",
-      "UpdatedAssociateId": 821,
+      "Registered": "2009-04-19T16:32:47.5558268+02:00",
+      "RegisteredAssociateId": 796,
+      "Updated": "2023-10-27T16:32:47.5558268+02:00",
+      "UpdatedAssociateId": 400,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 415
+          "FieldType": "System.Int32",
+          "FieldLength": 607
         }
       }
     }
   ],
-  "Registered": "2020-12-09T13:14:08.7741411+01:00",
-  "RegisteredAssociateId": 69,
-  "Updated": "2024-10-16T13:14:08.7741411+02:00",
-  "UpdatedAssociateId": 223,
+  "Registered": "2000-04-15T16:32:47.5558268+02:00",
+  "RegisteredAssociateId": 149,
+  "Updated": "2013-03-02T16:32:47.5558268+01:00",
+  "UpdatedAssociateId": 919,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 959
+      "FieldLength": 253
     }
   },
   "_Links": {

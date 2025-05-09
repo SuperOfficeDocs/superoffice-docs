@@ -73,7 +73,7 @@ OK
 GET /api/v1/List/TicketType/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -83,40 +83,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 12,
-  "Name": "Feil-Hermiston",
-  "Rank": 549,
-  "Tooltip": "odit",
-  "Icon": "aspernatur",
-  "DefaultTicketStatus": 333,
+  "TicketTypeId": 719,
+  "Name": "Lesch LLC",
+  "Rank": 792,
+  "Tooltip": "repellendus",
+  "Icon": "aliquam",
+  "DefaultTicketStatus": 547,
   "TicketStatuses": [
-    643,
-    932
+    85,
+    888
   ],
-  "DefaultTicketPriority": 925,
+  "DefaultTicketPriority": 460,
   "TicketPriorities": [
-    176,
-    120
+    182,
+    28
   ],
-  "ReplyTemplate": 362,
-  "IsExternalVisible": true,
+  "ReplyTemplate": 522,
+  "IsExternalVisible": false,
   "IsDefault": false,
   "ShowInNew": true,
   "ExcludeSignature": false,
   "ExcludeEmailRecipients": true,
   "ExternalAsDefault": false,
   "VisibleForGroups": [
-    108,
-    276
+    910,
+    340
   ],
-  "ReplyForwardNoSignature": true,
+  "ReplyForwardNoSignature": false,
   "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 510
+      "FieldType": "System.Int32",
+      "FieldLength": 62
     }
   }
 }

@@ -85,12 +85,12 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetCustomFieldInfoList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Wolff-Zemlak",
-  "IncludeStandard": false
+  "TableName": "Morar Group",
+  "IncludeStandard": true
 }
 ```
 
@@ -103,10 +103,10 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Macejkovic, Dickinson and Ernser",
-    "DisplayName": "Borer, Kshlerin and Kuvalis",
-    "Description": "Centralized contextually-based policy",
-    "ShortLabel": "eaque",
+    "FieldName": "Sporer, Boehm and Fay",
+    "DisplayName": "Bernhard-Doyle",
+    "Description": "Cloned incremental protocol",
+    "ShortLabel": "qui",
     "HideLabel": false,
     "HideField": false,
     "IsIndexed": false,
@@ -114,8 +114,8 @@ Content-Type: application/json; charset=utf-8
     "IsReadOnly": false,
     "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 438,
-    "TemplateVariableName": "Nikolaus-Erdman"
+    "Rank": 110,
+    "TemplateVariableName": "Ortiz LLC"
   }
 ]
 ```

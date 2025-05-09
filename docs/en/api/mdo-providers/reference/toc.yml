@@ -531,6 +531,8 @@ items:
   href: reasonstalled.md
 - name: ReasonStalled
   href: ReasonStalled.md
+- name: Recipientfavourite
+  href: recipientfavourite.md
 - name: Recordtype
   href: recordtype.md
 - name: Recurrenceweekcycle

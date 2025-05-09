@@ -89,30 +89,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 396,
-  "Name": "Kiehn-Graham",
-  "CurrencyId": 30,
-  "EnglishName": "Steuber-Cummings",
+  "CountryId": 148,
+  "Name": "Schneider Inc and Sons",
+  "CurrencyId": 660,
+  "EnglishName": "Zulauf Group",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Optional interactive knowledge base",
-  "OrgNrText": "531125",
-  "InterAreaPrefix": "accusantium",
-  "DialInPrefix": "id",
-  "ZipPrefix": "eos",
-  "DomainName": "Feeney Group",
-  "AddressLayoutId": 134,
-  "DomesticAddressLayoutId": 51,
-  "ForeignAddressLayoutId": 253,
-  "Rank": 877,
-  "Tooltip": "ducimus",
+  "ImageDescription": "Persistent bi-directional functionalities",
+  "OrgNrText": "703159",
+  "InterAreaPrefix": "nulla",
+  "DialInPrefix": "repellat",
+  "ZipPrefix": "nesciunt",
+  "DomainName": "Bartell-Zulauf",
+  "AddressLayoutId": 727,
+  "DomesticAddressLayoutId": 183,
+  "ForeignAddressLayoutId": 222,
+  "Rank": 359,
+  "Tooltip": "qui",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 292
+      "FieldLength": 591
     }
   }
 }

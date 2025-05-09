@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductFamily/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 836,
-    "Name": "Goyette-Schroeder",
-    "Tooltip": "labore",
+    "HeadingId": 79,
+    "Name": "Runte, Leannon and Gutmann",
+    "Tooltip": "cum",
     "Deleted": true,
-    "Rank": 337,
-    "UdListDefinitionId": 197,
+    "Rank": 921,
+    "UdListDefinitionId": 493,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 622
+        "FieldType": "System.Int32",
+        "FieldLength": 144
       }
     }
   }

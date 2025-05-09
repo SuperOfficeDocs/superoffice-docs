@@ -82,7 +82,7 @@ OK
 GET /api/v1/TicketMessage/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -92,79 +92,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 339,
+  "EjMessageId": 564,
   "Ticket": null,
-  "CreatedAt": "2017-04-27T13:14:09.3216528+02:00",
+  "CreatedAt": "2019-05-03T16:32:48.2275494+02:00",
   "CreatedBy": null,
-  "Author": "rerum",
+  "Author": "distinctio",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "delectus",
-  "TimeSpent": 372,
-  "Body": "alias",
-  "HtmlBody": "rerum",
-  "EmailHeader": "buford@schroeder.name",
-  "DebugInfo": "sit",
-  "MailSorter": "facilis",
+  "MessageId": "quidem",
+  "TimeSpent": 887,
+  "Body": "corporis",
+  "HtmlBody": "incidunt",
+  "EmailHeader": "electa.gutmann@batz.us",
+  "DebugInfo": "non",
+  "MailSorter": "perspiciatis",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "recusandae",
+  "SearchTitle": "voluptas",
   "MessageHeaders": [
     {
-      "Id": 532,
-      "Name": "Hagenes, Beier and Price",
-      "Value": "est",
+      "Id": 552,
+      "Name": "Bernier, Gleichner and Gislason",
+      "Value": "ipsa",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 369
+          "FieldType": "System.String",
+          "FieldLength": 670
         }
       }
     }
   ],
-  "Important": false,
-  "Language": "veritatis",
-  "Sentiment": 752,
-  "SentimentConfidence": 908,
+  "Important": true,
+  "Language": "voluptatem",
+  "Sentiment": 453,
+  "SentimentConfidence": 571,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 68,
-      "Name": "Grimes, Cremin and Hauck",
-      "ContentType": "molestiae",
-      "AttSize": 717,
+      "AttachmentId": 641,
+      "Name": "Luettgen, Mohr and Stiedemann",
+      "ContentType": "praesentium",
+      "AttSize": 622,
       "InlineImage": false,
-      "ContentId": "eligendi",
-      "AuthKey": "rerum",
-      "IsSafeFileExtension": false,
+      "ContentId": "doloremque",
+      "AuthKey": "qui",
+      "IsSafeFileExtension": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 230
+          "FieldLength": 614
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "sed",
-    "ExtraFields2": "qui"
+    "ExtraFields1": "fugiat",
+    "ExtraFields2": "sint"
   },
   "CustomFields": {
-    "CustomFields1": "ducimus",
-    "CustomFields2": "quidem"
+    "CustomFields1": "minus",
+    "CustomFields2": "iure"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 444
+      "FieldLength": 355
     }
   }
 }

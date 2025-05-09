@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/TicketStatus/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 22,
-  "Name": "Lynch-Dicki",
-  "Tooltip": "incidunt",
+  "HeadingId": 134,
+  "Name": "Haley, Balistreri and Fahey",
+  "Tooltip": "aliquam",
   "Deleted": false,
-  "Rank": 702,
-  "UdListDefinitionId": 73
+  "Rank": 238,
+  "UdListDefinitionId": 658
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 192,
-  "Name": "Mante LLC",
-  "Tooltip": "illum",
+  "HeadingId": 623,
+  "Name": "Goldner LLC",
+  "Tooltip": "numquam",
   "Deleted": false,
-  "Rank": 395,
-  "UdListDefinitionId": 787,
+  "Rank": 640,
+  "UdListDefinitionId": 932,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 92
+      "FieldLength": 55
     }
   }
 }

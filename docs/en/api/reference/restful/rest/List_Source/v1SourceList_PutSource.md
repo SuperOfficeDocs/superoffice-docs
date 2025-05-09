@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Source/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 352,
-  "Name": "Greenfelder Inc and Sons",
-  "Tooltip": "assumenda",
-  "Deleted": true,
-  "UdListDefinitionId": 819,
-  "Rank": 682
+  "Id": 457,
+  "Name": "D'Amore Inc and Sons",
+  "Tooltip": "non",
+  "Deleted": false,
+  "UdListDefinitionId": 331,
+  "Rank": 929
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 763,
-  "Name": "Schuppe-Jast",
-  "Tooltip": "perferendis",
-  "Deleted": false,
-  "UdListDefinitionId": 712,
-  "Rank": 788,
+  "Id": 562,
+  "Name": "Gerhold LLC",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 515,
+  "Rank": 455,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 451
+      "FieldLength": 923
     }
   }
 }

@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 595,
-    "Name": "Predovic-Bauch",
-    "Tooltip": "et",
-    "Deleted": false,
-    "Rank": 76,
-    "UdListDefinitionId": 607,
+    "HeadingId": 794,
+    "Name": "Reynolds, Kuphal and Bayer",
+    "Tooltip": "eum",
+    "Deleted": true,
+    "Rank": 594,
+    "UdListDefinitionId": 652,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 307
+        "FieldType": "System.Int32",
+        "FieldLength": 594
       }
     }
   }

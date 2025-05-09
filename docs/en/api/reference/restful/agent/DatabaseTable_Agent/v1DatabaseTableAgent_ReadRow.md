@@ -74,12 +74,12 @@ OK
 POST /api/v1/Agents/DatabaseTable/ReadRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Osinski Inc and Sons",
-  "Id": 425
+  "TableName": "Gaylord-Pagac",
+  "Id": 798
 }
 ```
 
@@ -91,15 +91,15 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Values": {
-    "Values1": "natus",
-    "Values2": "velit"
+    "Values1": "aut",
+    "Values2": "praesentium"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 141
+      "FieldType": "System.String",
+      "FieldLength": 237
     }
   }
 }

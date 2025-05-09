@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/List/SaveCountry
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CountryId": 396,
-  "Name": "O'Reilly Inc and Sons",
-  "CurrencyId": 562,
-  "EnglishName": "Mosciski, Schumm and Pacocha",
+  "CountryId": 848,
+  "Name": "Shanahan-Pfannerstill",
+  "CurrencyId": 666,
+  "EnglishName": "D'Amore-Oberbrunner",
   "TwoLetterISOCountry": "Sokovia",
   "ThreeLetterISOCountry": "Sokovia",
-  "ImageDescription": "Horizontal multi-state data-warehouse",
-  "OrgNrText": "1548085",
-  "InterAreaPrefix": "corporis",
-  "DialInPrefix": "nobis",
-  "ZipPrefix": "eum",
-  "DomainName": "Torphy-Schneider",
-  "AddressLayoutId": 723,
-  "DomesticAddressLayoutId": 343,
-  "ForeignAddressLayoutId": 537,
-  "Rank": 485,
-  "Tooltip": "fugiat",
-  "Deleted": true,
+  "ImageDescription": "Down-sized regional complexity",
+  "OrgNrText": "736724",
+  "InterAreaPrefix": "accusamus",
+  "DialInPrefix": "debitis",
+  "ZipPrefix": "ullam",
+  "DomainName": "Barton Group",
+  "AddressLayoutId": 338,
+  "DomesticAddressLayoutId": 929,
+  "ForeignAddressLayoutId": 423,
+  "Rank": 857,
+  "Tooltip": "non",
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 103
+      "FieldType": "System.Int32",
+      "FieldLength": 143
     }
   }
 }

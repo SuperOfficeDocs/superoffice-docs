@@ -648,9 +648,12 @@ Link data provider for documents, handles both addressing by source or by destin
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -719,7 +722,7 @@ Link data provider for documents, handles both addressing by source or by destin
 ## Sample
 
 ```http!
-GET /api/v1/archive/LinksDocuments?$select=contact/NumberOfNotCompletedActivities,project/projectAssociate/contactName,sale/stageRank
+GET /api/v1/archive/LinksDocuments?$select=person/portraitThumbnail,person/personUdef/SuperOffice:3,contact/name,contact/restrictionAddress/county,contact/restrictionAddress/city
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 557,
-  "Name": "Konopelski-Rempel",
-  "Tooltip": "temporibus",
-  "Deleted": true,
-  "Rank": 837,
-  "UdListDefinitionId": 413
+  "HeadingId": 83,
+  "Name": "Steuber Inc and Sons",
+  "Tooltip": "saepe",
+  "Deleted": false,
+  "Rank": 460,
+  "UdListDefinitionId": 451
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 466,
-  "Name": "Mills LLC",
-  "Tooltip": "soluta",
+  "HeadingId": 708,
+  "Name": "Kautzer, Windler and Yundt",
+  "Tooltip": "vitae",
   "Deleted": true,
-  "Rank": 525,
-  "UdListDefinitionId": 600,
+  "Rank": 175,
+  "UdListDefinitionId": 87,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 635
+      "FieldType": "System.Int32",
+      "FieldLength": 76
     }
   }
 }

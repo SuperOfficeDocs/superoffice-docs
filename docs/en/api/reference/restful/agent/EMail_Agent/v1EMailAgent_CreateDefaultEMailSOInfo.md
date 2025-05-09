@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailSOInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,20 +77,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 840,
-  "AppointmentId": 99,
-  "ProjectId": 66,
-  "SaleId": 450,
-  "Archived": true,
-  "ArchivedAt": "2005-03-18T13:14:00.32935+01:00",
-  "ArchivedBy": 94,
-  "ArchivedDisplayName": "Corwin Group",
+  "DocumentId": 405,
+  "AppointmentId": 892,
+  "ProjectId": 672,
+  "SaleId": 136,
+  "Archived": false,
+  "ArchivedAt": "2012-11-06T16:32:39.0082952+01:00",
+  "ArchivedBy": 476,
+  "ArchivedDisplayName": "West Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 711
+      "FieldType": "System.String",
+      "FieldLength": 983
     }
   }
 }

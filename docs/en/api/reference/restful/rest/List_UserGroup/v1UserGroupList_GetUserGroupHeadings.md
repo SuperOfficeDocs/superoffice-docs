@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 667,
-    "Name": "Parker, Schimmel and Zemlak",
-    "Tooltip": "sit",
+    "HeadingId": 832,
+    "Name": "Herzog-Ondricka",
+    "Tooltip": "molestiae",
     "Deleted": false,
-    "Rank": 896,
-    "UdListDefinitionId": 239,
+    "Rank": 950,
+    "UdListDefinitionId": 242,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 469
+        "FieldType": "System.Int32",
+        "FieldLength": 357
       }
     }
   }

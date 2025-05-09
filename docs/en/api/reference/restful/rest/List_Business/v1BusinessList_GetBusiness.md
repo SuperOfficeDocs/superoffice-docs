@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 716,
-  "Name": "Batz Group",
-  "Tooltip": "ea",
+  "Id": 314,
+  "Name": "Nader-Bechtelar",
+  "Tooltip": "qui",
   "Deleted": true,
-  "UdListDefinitionId": 811,
-  "Rank": 600,
+  "UdListDefinitionId": 336,
+  "Rank": 319,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 918
+      "FieldType": "System.String",
+      "FieldLength": 230
     }
   }
 }

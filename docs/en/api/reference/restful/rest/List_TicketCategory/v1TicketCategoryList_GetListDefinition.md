@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 73,
-  "Name": "Mueller, Kunze and Waters",
-  "Tooltip": "voluptas",
-  "Deleted": true,
-  "Rank": 567,
+  "Id": 10,
+  "Name": "Hartmann, Hyatt and Reinger",
+  "Tooltip": "non",
+  "Deleted": false,
+  "Rank": 17,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "consequatur",
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "tenetur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldLength": 411
     }
   },
   "_Links": {

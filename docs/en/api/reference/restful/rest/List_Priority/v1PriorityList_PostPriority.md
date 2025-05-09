@@ -73,16 +73,16 @@ OK
 POST /api/v1/List/Priority/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 52,
-  "Name": "Kessler-Wilkinson",
-  "Tooltip": "culpa",
+  "Id": 520,
+  "Name": "Boyle LLC",
+  "Tooltip": "aut",
   "Deleted": false,
-  "UdListDefinitionId": 225,
-  "Rank": 611
+  "UdListDefinitionId": 321,
+  "Rank": 77
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 32,
-  "Name": "Kovacek, Cummerata and McGlynn",
-  "Tooltip": "molestias",
+  "Id": 98,
+  "Name": "Lynch, Murazik and Bruen",
+  "Tooltip": "repudiandae",
   "Deleted": true,
-  "UdListDefinitionId": 696,
-  "Rank": 955,
+  "UdListDefinitionId": 10,
+  "Rank": 152,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 44
+      "FieldType": "System.Int32",
+      "FieldLength": 57
     }
   }
 }

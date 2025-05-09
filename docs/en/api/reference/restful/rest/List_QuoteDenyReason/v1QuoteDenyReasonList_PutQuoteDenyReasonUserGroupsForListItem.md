@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 161,
-    "Name": "Bruen-Beer",
-    "ToolTip": "Maiores dolor porro molestiae.",
+    "Id": 862,
+    "Name": "Dare-Jacobs",
+    "ToolTip": "Mollitia et consequuntur nesciunt quod dolorem et consequatur.",
     "Deleted": false,
-    "Rank": 9,
-    "Type": "ipsam",
-    "ColorBlock": 412,
-    "IconHint": "aut",
+    "Rank": 996,
+    "Type": "esse",
+    "ColorBlock": 937,
+    "IconHint": "deleniti",
     "Selected": false,
-    "LastChanged": "2022-06-25T13:14:09.9941617+02:00",
+    "LastChanged": "1998-02-22T16:32:48.8682307+01:00",
     "ChildItems": [
       {
-        "Id": 913,
-        "Name": "Bashirian Group",
-        "ToolTip": "Aliquid omnis dolores consectetur soluta ipsam.",
+        "Id": 287,
+        "Name": "Kassulke-Dickens",
+        "ToolTip": "Et voluptatibus eos.",
         "Deleted": true,
-        "Rank": 95,
-        "Type": "ipsum",
-        "ColorBlock": 534,
-        "IconHint": "soluta",
-        "Selected": false,
-        "LastChanged": "2020-09-15T13:14:09.9941617+02:00",
+        "Rank": 933,
+        "Type": "nostrum",
+        "ColorBlock": 448,
+        "IconHint": "mollitia",
+        "Selected": true,
+        "LastChanged": "2015-05-02T16:32:48.8682307+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "soluta",
-        "StyleHint": "reiciendis",
-        "Hidden": false,
-        "FullName": "Max Weber"
+        "ExtraInfo": "libero",
+        "StyleHint": "qui",
+        "Hidden": true,
+        "FullName": "Glen Stiedemann"
       }
     ],
-    "ExtraInfo": "facilis",
-    "StyleHint": "ut",
-    "Hidden": false,
-    "FullName": "Dakota Anderson"
+    "ExtraInfo": "iusto",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Shanna Gibson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 953,
-    "Name": "Hilpert-Stamm",
-    "ToolTip": "Cumque officiis provident.",
-    "Deleted": false,
-    "Rank": 661,
-    "Type": "maxime",
-    "ColorBlock": 80,
-    "IconHint": "ea",
-    "Selected": false,
-    "LastChanged": "2001-02-20T13:14:09.9941617+01:00",
+    "Id": 743,
+    "Name": "Cruickshank-Olson",
+    "ToolTip": "Harum placeat accusamus.",
+    "Deleted": true,
+    "Rank": 391,
+    "Type": "libero",
+    "ColorBlock": 525,
+    "IconHint": "dolores",
+    "Selected": true,
+    "LastChanged": "2010-01-12T16:32:48.8838567+01:00",
     "ChildItems": [
       {
-        "Id": 355,
-        "Name": "Gleichner Inc and Sons",
-        "ToolTip": "Aut amet ut et et quis.",
+        "Id": 235,
+        "Name": "Murray-Johns",
+        "ToolTip": "Doloribus dolorum iste.",
         "Deleted": false,
-        "Rank": 17,
-        "Type": "ad",
-        "ColorBlock": 488,
-        "IconHint": "quod",
-        "Selected": true,
-        "LastChanged": "2012-06-08T13:14:09.9941617+02:00",
+        "Rank": 90,
+        "Type": "animi",
+        "ColorBlock": 23,
+        "IconHint": "impedit",
+        "Selected": false,
+        "LastChanged": "1998-08-22T16:32:48.8838567+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "velit",
+        "ExtraInfo": "animi",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Dr. Elena Eleazar Kautzer",
+        "FullName": "Isabella Hoeger",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 67
+            "FieldLength": 694
           }
         }
       }
     ],
-    "ExtraInfo": "sit",
-    "StyleHint": "rerum",
-    "Hidden": true,
-    "FullName": "Vidal Robel",
+    "ExtraInfo": "ipsum",
+    "StyleHint": "itaque",
+    "Hidden": false,
+    "FullName": "Zola Gottlieb",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 165
+        "FieldLength": 54
       }
     }
   }

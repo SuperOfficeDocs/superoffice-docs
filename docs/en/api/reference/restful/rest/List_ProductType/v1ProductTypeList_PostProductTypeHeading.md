@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 28,
-  "Name": "Macejkovic Inc and Sons",
-  "Tooltip": "animi",
-  "Deleted": false,
-  "Rank": 207,
-  "UdListDefinitionId": 209
+  "HeadingId": 584,
+  "Name": "Spencer LLC",
+  "Tooltip": "exercitationem",
+  "Deleted": true,
+  "Rank": 263,
+  "UdListDefinitionId": 69
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 183,
-  "Name": "Little-Stamm",
-  "Tooltip": "quia",
+  "HeadingId": 842,
+  "Name": "Ziemann Group",
+  "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 137,
-  "UdListDefinitionId": 673,
+  "Rank": 260,
+  "UdListDefinitionId": 393,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 525
+      "FieldType": "System.Int32",
+      "FieldLength": 733
     }
   }
 }

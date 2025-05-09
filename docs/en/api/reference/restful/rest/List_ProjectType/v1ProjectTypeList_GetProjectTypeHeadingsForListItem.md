@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/ProjectType/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 809,
-    "Name": "Balistreri Inc and Sons",
-    "ToolTip": "Reprehenderit et non.",
-    "Deleted": false,
-    "Rank": 452,
-    "Type": "totam",
-    "ColorBlock": 654,
-    "IconHint": "incidunt",
+    "Id": 62,
+    "Name": "Spencer-Cummings",
+    "ToolTip": "Ipsa sint atque nemo eaque.",
+    "Deleted": true,
+    "Rank": 779,
+    "Type": "et",
+    "ColorBlock": 19,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2005-09-17T13:14:09.9629099+02:00",
+    "LastChanged": "2004-04-20T16:32:48.8526096+02:00",
     "ChildItems": [
       {
-        "Id": 138,
-        "Name": "McClure-Skiles",
-        "ToolTip": "Totam explicabo sed non debitis sed corrupti alias.",
+        "Id": 285,
+        "Name": "Legros-Hermann",
+        "ToolTip": "Officia aut non eius hic eum.",
         "Deleted": false,
-        "Rank": 603,
-        "Type": "qui",
-        "ColorBlock": 661,
-        "IconHint": "magni",
-        "Selected": true,
-        "LastChanged": "2011-10-09T13:14:09.9629099+02:00",
+        "Rank": 222,
+        "Type": "illum",
+        "ColorBlock": 451,
+        "IconHint": "iusto",
+        "Selected": false,
+        "LastChanged": "2015-12-16T16:32:48.8526096+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "iusto",
+        "ExtraInfo": "temporibus",
+        "StyleHint": "dicta",
         "Hidden": false,
-        "FullName": "Prof. Tressa Connelly",
+        "FullName": "Hannah Price",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 15
+            "FieldLength": 250
           }
         }
       }
     ],
-    "ExtraInfo": "magni",
-    "StyleHint": "totam",
+    "ExtraInfo": "possimus",
+    "StyleHint": "vel",
     "Hidden": false,
-    "FullName": "Tracey Howell",
+    "FullName": "Terrence Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 495
+        "FieldLength": 830
       }
     }
   }

@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Pocket/GetRegisteredDevices
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 817
+  "AssociateId": 419
 }
 ```
 
@@ -94,14 +94,14 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DeviceName": "Funk-Olson",
-    "DeviceIdentifier": "tempora",
-    "PocketVersion": "nihil",
-    "Language": "tenetur",
-    "PNSHandle": "non",
+    "DeviceName": "Pagac LLC",
+    "DeviceIdentifier": "est",
+    "PocketVersion": "aperiam",
+    "Language": "ea",
+    "PNSHandle": "sunt",
     "Platform": "Apple",
-    "OSVersion": "quisquam",
-    "TimeZoneId": 417
+    "OSVersion": "cupiditate",
+    "TimeZoneId": 910
   }
 ]
 ```

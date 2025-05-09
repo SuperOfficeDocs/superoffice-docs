@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/Project/GetMyProjectEvents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,34 +99,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AssociateFullName": "Simeon Meredith Wilkinson II",
-    "Description": "Reverse-engineered multi-state database",
-    "ProjectId": 868,
-    "EventName": "Marquardt, Bergstrom and Hills",
-    "AssociateId": 738,
-    "IsSignedOn": true,
-    "SignOffConfirmationText": "ut",
-    "SignOffText": "placeat",
-    "SignOnConfirmationText": "dolores",
-    "SignOnText": "harum",
-    "EventDate": "2008-07-31T13:14:00.9234102+02:00",
+    "AssociateFullName": "Dr. Domingo Prosacco I",
+    "Description": "Open-source intangible function",
+    "ProjectId": 365,
+    "EventName": "Bosco Group",
+    "AssociateId": 361,
+    "IsSignedOn": false,
+    "SignOffConfirmationText": "totam",
+    "SignOffText": "voluptatum",
+    "SignOnConfirmationText": "sint",
+    "SignOnText": "qui",
+    "EventDate": "2007-02-05T16:32:39.6490177+01:00",
     "Enabled": false,
-    "SignOff": true,
+    "SignOff": false,
     "SignOffTaskEnable": false,
-    "SignOnTaskEnable": true,
-    "SignOn": true,
-    "SignOffTaskId": 797,
-    "SignOnTaskId": 922,
-    "SignOffTriggersAssign": true,
-    "SignOnTriggersAssign": true,
-    "SignOnPersonId": 360,
-    "SignOffPersonId": 348,
+    "SignOnTaskEnable": false,
+    "SignOn": false,
+    "SignOffTaskId": 982,
+    "SignOnTaskId": 503,
+    "SignOffTriggersAssign": false,
+    "SignOnTriggersAssign": false,
+    "SignOnPersonId": 125,
+    "SignOffPersonId": 280,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 500
+        "FieldType": "System.String",
+        "FieldLength": 594
       }
     }
   }

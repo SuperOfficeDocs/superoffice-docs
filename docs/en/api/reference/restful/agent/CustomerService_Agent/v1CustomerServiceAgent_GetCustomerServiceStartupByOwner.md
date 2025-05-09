@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/CustomerService/GetCustomerServiceStartupByOwner
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserId": 718
+  "UserId": 207
 }
 ```
 
@@ -92,27 +92,27 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": true,
-  "TZOffset": 989,
-  "RecaptchaSiteKey": "numquam",
+  "TZOffset": 103,
+  "RecaptchaSiteKey": "sint",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "ipsam",
+      "RawValue": "nostrum",
       "Specification": null,
-      "DisplayValue": "dolorem",
-      "DisplayTooltip": "ab",
+      "DisplayValue": "non",
+      "DisplayTooltip": "illum",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 117,
-      "PrefDescId": 548,
-      "TableName": "Becker Group",
-      "UserPreferenceId": 577,
+      "TargetId": 310,
+      "PrefDescId": 126,
+      "TableName": "O'Conner-Nitzsche",
+      "UserPreferenceId": 726,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 171
+          "FieldType": "System.String",
+          "FieldLength": 885
         }
       }
     }
@@ -122,7 +122,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 804
+      "FieldLength": 260
     }
   }
 }

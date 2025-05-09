@@ -79,7 +79,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 413
+  "TargetGroupId": 458
 }
 ```
 
@@ -90,15 +90,15 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BatchTaskId": 860,
-  "FileName": "Schinner Inc and Sons",
-  "Message": "deleniti",
+  "BatchTaskId": 11,
+  "FileName": "Adams-Bogan",
+  "Message": "omnis",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 367
+      "FieldLength": 840
     }
   }
 }

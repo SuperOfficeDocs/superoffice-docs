@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/Sentry/CanCreateAppointmentInAssociateDiaries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    735,
-    571
+    826,
+    399
   ]
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

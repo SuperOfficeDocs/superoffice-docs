@@ -82,7 +82,7 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AttachmentId": 209
+  "AttachmentId": 544
 }
 ```
 
@@ -93,16 +93,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Torp-Conn",
-  "Type": "exercitationem",
-  "Size": 345,
+  "Name": "Bradtke, Heidenreich and Cassin",
+  "Type": "alias",
+  "Size": 888,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 130
+      "FieldLength": 495
     }
   }
 }

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Competitor/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 521,
-    "Name": "Von-Rath",
-    "ToolTip": "Aut dolorem aperiam voluptas accusamus.",
+    "Id": 314,
+    "Name": "Champlin-Grimes",
+    "ToolTip": "Impedit quod.",
     "Deleted": false,
-    "Rank": 871,
-    "Type": "eum",
-    "ColorBlock": 493,
-    "IconHint": "sit",
+    "Rank": 321,
+    "Type": "necessitatibus",
+    "ColorBlock": 355,
+    "IconHint": "dolorem",
     "Selected": false,
-    "LastChanged": "2015-09-28T13:14:09.6503912+02:00",
+    "LastChanged": "2014-01-26T16:32:48.5558051+01:00",
     "ChildItems": [
       {
-        "Id": 728,
-        "Name": "Baumbach Inc and Sons",
-        "ToolTip": "Aut eveniet eligendi reprehenderit velit.",
-        "Deleted": false,
-        "Rank": 54,
-        "Type": "quis",
-        "ColorBlock": 490,
-        "IconHint": "aut",
+        "Id": 981,
+        "Name": "O'Kon-Connelly",
+        "ToolTip": "Explicabo nam dicta repellendus quis.",
+        "Deleted": true,
+        "Rank": 489,
+        "Type": "eos",
+        "ColorBlock": 584,
+        "IconHint": "ullam",
         "Selected": true,
-        "LastChanged": "2014-06-14T13:14:09.6503912+02:00",
+        "LastChanged": "2007-09-26T16:32:48.5558051+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "exercitationem",
-        "StyleHint": "adipisci",
+        "ExtraInfo": "omnis",
+        "StyleHint": "quam",
         "Hidden": false,
-        "FullName": "Matt Veum III",
+        "FullName": "Velma Schneider",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 199
+            "FieldLength": 47
           }
         }
       }
     ],
-    "ExtraInfo": "sapiente",
-    "StyleHint": "laudantium",
+    "ExtraInfo": "deserunt",
+    "StyleHint": "omnis",
     "Hidden": false,
-    "FullName": "Kamren Barton",
+    "FullName": "Kavon Jarrett Little Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 108
+        "FieldLength": 926
       }
     }
   }

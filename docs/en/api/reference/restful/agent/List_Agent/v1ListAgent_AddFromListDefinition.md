@@ -83,7 +83,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 639,
+  "UdListDefinitionId": 785,
   "Item": null
 }
 ```
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 445,
-  "Name": "Bednar Group",
-  "Tooltip": "inventore",
+  "Id": 522,
+  "Name": "Weber-Hickle",
+  "Tooltip": "id",
   "Deleted": false,
-  "UdListDefinitionId": 158,
-  "Rank": 54,
+  "UdListDefinitionId": 98,
+  "Rank": 57,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldType": "System.String",
+      "FieldLength": 841
     }
   }
 }

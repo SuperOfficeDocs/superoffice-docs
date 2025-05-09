@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 708,
-    "Name": "Price, Mann and Koepp",
-    "Tooltip": "tempore",
-    "Deleted": true,
-    "Rank": 281,
-    "UdListDefinitionId": 1002,
+    "HeadingId": 914,
+    "Name": "Schimmel Group",
+    "Tooltip": "amet",
+    "Deleted": false,
+    "Rank": 219,
+    "UdListDefinitionId": 603,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 659
+        "FieldLength": 168
       }
     }
   }

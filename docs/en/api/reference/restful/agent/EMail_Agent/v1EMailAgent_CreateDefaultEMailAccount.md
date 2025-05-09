@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/EMail/CreateDefaultEMailAccount
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,24 +81,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EMailAccountId": 952,
-  "EMailAddress": "iusto",
-  "AssociateId": 249,
+  "EMailAccountId": 471,
+  "EMailAddress": "similique",
+  "AssociateId": 32,
   "IncomingCredentials": null,
   "OutgoingCredentials": null,
-  "AccountStatus": 507,
-  "ErrorCount": 439,
+  "AccountStatus": 383,
+  "ErrorCount": 962,
   "ErrorReason": "",
-  "InboxFolder": "est",
-  "SentFolder": "eaque",
-  "SimpleMode": 982,
-  "LastFetch": "2011-08-23T13:14:00.32935+02:00",
+  "InboxFolder": "sed",
+  "SentFolder": "voluptates",
+  "SimpleMode": 499,
+  "LastFetch": "2020-11-17T16:32:38.9926739+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 614
+      "FieldLength": 370
     }
   }
 }

@@ -88,7 +88,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 927,
+  "QuoteVersionId": 71,
   "Action": "Approve"
 }
 ```
@@ -101,9 +101,9 @@ Content-Type: application/json; charset=utf-8
 
 {
   "IsOk": true,
-  "UserExplanation": "sit",
-  "TechExplanation": "eos",
-  "ErrorCode": "ut",
+  "UserExplanation": "iusto",
+  "TechExplanation": "id",
+  "ErrorCode": "voluptas",
   "ChangedSale": null,
   "ChangedQuote": null,
   "ChangedQuoteVersion": null,
@@ -116,8 +116,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 191
+          "FieldType": "System.Int32",
+          "FieldLength": 491
         }
       }
     },
@@ -129,8 +129,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 191
+          "FieldType": "System.Int32",
+          "FieldLength": 491
         }
       }
     }
@@ -140,8 +140,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 813
+      "FieldType": "System.String",
+      "FieldLength": 261
     }
   }
 }

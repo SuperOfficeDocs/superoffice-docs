@@ -81,16 +81,16 @@ OK
 POST /api/v1/Agents/Find/GetCriteriaInformation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "voluptatem",
-  "ProviderName": "Dickinson-Baumbach",
-  "StorageKey": "id",
+  "StorageType": "non",
+  "ProviderName": "McCullough Inc and Sons",
+  "StorageKey": "recusandae",
   "StaticColumns": [
-    "et",
-    "hic"
+    "est",
+    "molestiae"
   ]
 }
 ```
@@ -104,81 +104,81 @@ Content-Type: application/json; charset=utf-8
 {
   "Restrictions": [
     {
-      "Name": "Hudson, Reynolds and O'Reilly",
-      "Operator": "quia",
+      "Name": "McDermott LLC",
+      "Operator": "ducimus",
       "Values": [
-        "et",
-        "est"
+        "omnis",
+        "et"
       ],
       "DisplayValues": [
-        "dolor",
-        "officia"
+        "eum",
+        "sit"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 248,
+      "InterParenthesis": 40,
       "InterOperator": "And",
-      "UniqueHash": 184
+      "UniqueHash": 908
     }
   ],
   "CriteriaArchiveColumns": [
     {
-      "DisplayName": "Baumbach Group",
-      "DisplayTooltip": "nulla",
-      "DisplayType": "commodi",
-      "CanOrderBy": false,
-      "Name": "Mueller-Ernser",
+      "DisplayName": "Rogahn Group",
+      "DisplayTooltip": "sint",
+      "DisplayType": "quibusdam",
+      "CanOrderBy": true,
+      "Name": "Mertz LLC",
       "CanRestrictBy": false,
-      "RestrictionType": "voluptas",
-      "RestrictionListName": "Williamson-Krajcik",
-      "IsVisible": false,
-      "ExtraInfo": "officia",
-      "Width": "est",
-      "IconHint": "consequatur",
-      "HeadingIconHint": "blanditiis"
+      "RestrictionType": "ducimus",
+      "RestrictionListName": "Marvin Inc and Sons",
+      "IsVisible": true,
+      "ExtraInfo": "omnis",
+      "Width": "natus",
+      "IconHint": "recusandae",
+      "HeadingIconHint": "in"
     }
   ],
   "CriteriaArchiveRows": [
     {
-      "EntityName": "Monahan Inc and Sons",
-      "PrimaryKey": 69,
+      "EntityName": "Conroy Inc and Sons",
+      "PrimaryKey": 873,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "a",
-          "TooltipHint": "perferendis",
-          "LinkHint": "enim"
+          "DisplayValue": "aperiam",
+          "TooltipHint": "sapiente",
+          "LinkHint": "excepturi"
         }
       },
-      "LinkHint": "non",
-      "StyleHint": "assumenda",
+      "LinkHint": "rerum",
+      "StyleHint": "est",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 879
+          "FieldLength": 917
         }
       }
     }
   ],
   "RestrictionGroups": [
     {
-      "Name": "Harris, Schiller and Hermiston",
-      "Description": "Innovative hybrid utilisation",
-      "Rank": 151,
+      "Name": "Johnston Inc and Sons",
+      "Description": "Persistent coherent infrastructure",
+      "Rank": 862,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Harris, Schiller and Hermiston",
-      "Description": "Innovative hybrid utilisation",
-      "Rank": 151,
+      "Name": "Johnston Inc and Sons",
+      "Description": "Persistent coherent infrastructure",
+      "Rank": 862,
       "Restrictions": [
         {},
         {}
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 519
+      "FieldType": "System.String",
+      "FieldLength": 774
     }
   }
 }

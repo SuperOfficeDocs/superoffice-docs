@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultRelationDefinitionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,12 +74,12 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReldefId": 305,
-  "Name": "Kuhlman-Fisher",
-  "Tooltip": "occaecati",
-  "PassiveText": "harum",
+  "ReldefId": 507,
+  "Name": "Haley Inc and Sons",
+  "Tooltip": "temporibus",
+  "PassiveText": "sapiente",
   "Deleted": false,
-  "Rank": 74,
+  "Rank": 280,
   "Source": "Both",
   "Destination": "Both",
   "TableRight": null,
@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 189
+      "FieldLength": 497
     }
   }
 }

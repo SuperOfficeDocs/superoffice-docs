@@ -104,8 +104,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AmountLimit": 632,
-  "Count": 694
+  "AmountLimit": 815,
+  "Count": 164
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Gutkowski, Hagenes and Barrows",
-    "SaleDate": "2016-03-20T13:14:01.1274981+01:00",
-    "SaleId": 444,
-    "Probability": 534,
+    "ContactName": "Ledner, Leffler and Harvey",
+    "SaleDate": "2011-12-20T16:32:39.8520956+01:00",
+    "SaleId": 358,
+    "Probability": 414,
     "Title": "ut",
-    "Amount": 3698.12,
-    "Currency": "ducimus",
-    "ProjectName": "Kertzmann Group",
-    "AssociateFullName": "Mercedes Kirlin",
-    "Description": "Programmable mobile task-force",
+    "Amount": 14764.274,
+    "Currency": "quia",
+    "ProjectName": "Thompson, Shanahan and Kunze",
+    "AssociateFullName": "Collin Ava Larson II",
+    "Description": "Profit-focused directional complexity",
     "Status": "Lost",
-    "WeightedAmount": 9906.574,
-    "ProjectId": 505,
-    "EarningPercent": 4208.9619999999995,
-    "Earning": 10702.609999999999,
-    "ContactId": 129,
-    "AssociateId": 783,
-    "PersonId": 724,
-    "SaleTypeId": 635,
-    "SaleTypeName": "Wiza-Predovic",
-    "PersonFullName": "Miss Jonas Gerhold V",
+    "WeightedAmount": 21934.865999999998,
+    "ProjectId": 269,
+    "EarningPercent": 15535.238,
+    "Earning": 11520.583999999999,
+    "ContactId": 151,
+    "AssociateId": 455,
+    "PersonId": 719,
+    "SaleTypeId": 720,
+    "SaleTypeName": "Conroy-Swift",
+    "PersonFullName": "Lura Kunze",
     "Completed": "Completed",
-    "ActiveErpLinks": 655,
-    "NextDueDate": "2006-08-20T13:14:01.1274981+02:00",
-    "Number": "1166742",
+    "ActiveErpLinks": 74,
+    "NextDueDate": "2017-10-25T16:32:39.8520956+02:00",
+    "Number": "613971",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 491
+        "FieldType": "System.Int32",
+        "FieldLength": 523
       }
     }
   }

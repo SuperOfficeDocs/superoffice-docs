@@ -54,6 +54,15 @@ foreach (var item in listProvider.RootItems) {
 
 |Id   | Name  |StyleHint|ExtraInfo |
 | --- | ----- | ------- | -------- |
+|11|Hide Project screen||hide-project|
+|12|Hide Inbox screen||hide-inbox|
+|13|Hide Selection screen||hide-selection|
+|15|Can run Mail Merge||allow-bulk-mailmerge|
+|16|Can export data to file||allow-bulk-export|
+|17|Can create tasks for a selection||allow-bulk-generate-activities|
+|18|Can copy a selection||allow-bulk-copy-members|
+|19|Allow bulk update||allow-bulk-edit|
+|20|Can delete selection members||allow-bulk-delete|
 |21|Can modify interests for selection members||allow-bulk-interests|
 |22|Can send e-mail to selection members||allow-bulk-email|
 |23|Can run custom tasks on selections||allow-bulk-user-applications|
@@ -66,15 +75,6 @@ foreach (var item in listProvider.RootItems) {
 |31|Show only published projects||ext-need-publish-to-see-project|
 |32|Show only published follow-ups||ext-need-publish-to-see-appointment|
 |33|Show only published documents||ext-need-publish-to-see-document|
-|34|Show only published sales||ext-need-publish-to-see-sale|
-|35|Show projects marked as events||ext-see-event-projects|
-|36|Use data rights for My company||ext-use-my-company-rights|
-|37|Use data rights for Same project||ext-use-same-project-rights|
-|38|Audience Administrator||admin-audience|
-|39|SuperOffice Intellisync Server Maintenance||syncadmin-all|
-|40|Edit own synchronisation settings||syncadmin-user|
-|41|Can manage (move and merge) entities||allow-manage-entities|
-|42|Workflow administrator||admin-workflow|
 
 
 ## Related MDO Lists

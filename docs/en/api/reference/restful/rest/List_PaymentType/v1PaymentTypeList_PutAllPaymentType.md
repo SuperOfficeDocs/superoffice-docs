@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 99,
-    "Name": "Grimes, Trantow and Blick",
-    "Tooltip": "ratione",
+    "Id": 998,
+    "Name": "McClure, Aufderhar and Blanda",
+    "Tooltip": "a",
     "Deleted": true,
-    "UdListDefinitionId": 173,
-    "Rank": 918
+    "UdListDefinitionId": 904,
+    "Rank": 220
   },
   {
-    "Id": 99,
-    "Name": "Grimes, Trantow and Blick",
-    "Tooltip": "ratione",
+    "Id": 998,
+    "Name": "McClure, Aufderhar and Blanda",
+    "Tooltip": "a",
     "Deleted": true,
-    "UdListDefinitionId": 173,
-    "Rank": 918
+    "UdListDefinitionId": 904,
+    "Rank": 220
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 741,
-    "Name": "Murray, Breitenberg and Bruen",
-    "Tooltip": "voluptate",
-    "Deleted": true,
-    "UdListDefinitionId": 394,
-    "Rank": 98,
+    "Id": 65,
+    "Name": "Hansen Group",
+    "Tooltip": "dignissimos",
+    "Deleted": false,
+    "UdListDefinitionId": 126,
+    "Rank": 680,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 837
+        "FieldType": "System.Int32",
+        "FieldLength": 973
       }
     }
   }

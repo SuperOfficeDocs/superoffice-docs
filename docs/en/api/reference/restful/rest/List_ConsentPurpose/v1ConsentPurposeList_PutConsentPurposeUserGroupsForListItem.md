@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ConsentPurpose/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 903,
-    "Name": "Zulauf, Walsh and Kohler",
-    "ToolTip": "Excepturi perspiciatis officia delectus qui et sit illo.",
-    "Deleted": false,
-    "Rank": 831,
-    "Type": "architecto",
-    "ColorBlock": 676,
-    "IconHint": "ullam",
-    "Selected": true,
-    "LastChanged": "2009-07-21T13:14:09.6660173+02:00",
+    "Id": 789,
+    "Name": "Olson Group",
+    "ToolTip": "Totam ut necessitatibus praesentium ad quas excepturi exercitationem.",
+    "Deleted": true,
+    "Rank": 112,
+    "Type": "et",
+    "ColorBlock": 542,
+    "IconHint": "fuga",
+    "Selected": false,
+    "LastChanged": "1999-08-08T16:32:48.5714211+02:00",
     "ChildItems": [
       {
-        "Id": 492,
-        "Name": "Macejkovic LLC",
-        "ToolTip": "Occaecati exercitationem et.",
-        "Deleted": true,
-        "Rank": 149,
-        "Type": "repellendus",
-        "ColorBlock": 592,
-        "IconHint": "quisquam",
+        "Id": 747,
+        "Name": "Schmidt Group",
+        "ToolTip": "Numquam iusto fugit tempore ea.",
+        "Deleted": false,
+        "Rank": 320,
+        "Type": "molestias",
+        "ColorBlock": 611,
+        "IconHint": "non",
         "Selected": true,
-        "LastChanged": "2023-05-08T13:14:09.6660173+02:00",
+        "LastChanged": "2017-05-13T16:32:48.5714211+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officia",
-        "StyleHint": "suscipit",
+        "ExtraInfo": "porro",
+        "StyleHint": "non",
         "Hidden": false,
-        "FullName": "Jennie Parker DVM"
+        "FullName": "Ms. Lavinia Spencer Sr."
       }
     ],
-    "ExtraInfo": "culpa",
-    "StyleHint": "aliquam",
+    "ExtraInfo": "omnis",
+    "StyleHint": "quia",
     "Hidden": true,
-    "FullName": "Myrl Marvin"
+    "FullName": "Enoch Williamson"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 433,
-    "Name": "Runolfsdottir Inc and Sons",
-    "ToolTip": "Quia rerum.",
-    "Deleted": false,
-    "Rank": 622,
-    "Type": "perspiciatis",
-    "ColorBlock": 21,
-    "IconHint": "incidunt",
+    "Id": 752,
+    "Name": "Eichmann Inc and Sons",
+    "ToolTip": "Reprehenderit laudantium molestiae quos laborum odit dolorem.",
+    "Deleted": true,
+    "Rank": 827,
+    "Type": "reprehenderit",
+    "ColorBlock": 521,
+    "IconHint": "voluptatum",
     "Selected": false,
-    "LastChanged": "2011-07-17T13:14:09.6660173+02:00",
+    "LastChanged": "2025-03-19T16:32:48.5714211+01:00",
     "ChildItems": [
       {
-        "Id": 258,
-        "Name": "Ernser, Rosenbaum and Rippin",
-        "ToolTip": "Vero et perspiciatis qui nam quaerat rem eaque.",
+        "Id": 165,
+        "Name": "Botsford LLC",
+        "ToolTip": "Nihil non a ad ab quidem soluta.",
         "Deleted": false,
-        "Rank": 369,
-        "Type": "molestias",
-        "ColorBlock": 656,
-        "IconHint": "non",
-        "Selected": false,
-        "LastChanged": "2023-12-31T13:14:09.6660173+01:00",
+        "Rank": 876,
+        "Type": "sit",
+        "ColorBlock": 219,
+        "IconHint": "quia",
+        "Selected": true,
+        "LastChanged": "2011-03-24T16:32:48.5714211+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "minima",
-        "StyleHint": "in",
+        "ExtraInfo": "aut",
+        "StyleHint": "neque",
         "Hidden": false,
-        "FullName": "Prof. Junior Beier I",
+        "FullName": "Prof. Marlen Matilda Sporer MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 205
+            "FieldLength": 218
           }
         }
       }
     ],
-    "ExtraInfo": "doloremque",
-    "StyleHint": "ut",
-    "Hidden": true,
-    "FullName": "Bradly Senger",
+    "ExtraInfo": "fugit",
+    "StyleHint": "praesentium",
+    "Hidden": false,
+    "FullName": "Meda Lonnie Auer I",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 908
+        "FieldType": "System.Int32",
+        "FieldLength": 128
       }
     }
   }

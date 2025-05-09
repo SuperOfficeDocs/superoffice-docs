@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 269,
-  "Name": "Hammes Inc and Sons",
-  "Tooltip": "aut",
+  "Id": 85,
+  "Name": "Hermann, Runte and Funk",
+  "Tooltip": "et",
   "Deleted": false,
-  "Rank": 154,
-  "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "mollitia",
+  "Rank": 7,
+  "IsCustomList": true,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "vel",
   "InUseByUserDefinedFields": true
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 30,
-  "Name": "Lehner Inc and Sons",
-  "Tooltip": "nam",
-  "Deleted": true,
-  "Rank": 669,
-  "IsCustomList": true,
-  "IsMDOList": false,
+  "Id": 574,
+  "Name": "Balistreri-McClure",
+  "Tooltip": "maxime",
+  "Deleted": false,
+  "Rank": 818,
+  "IsCustomList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "consequuntur",
-  "InUseByUserDefinedFields": false,
+  "ListType": "quidem",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 155
+      "FieldLength": 964
     }
   }
 }

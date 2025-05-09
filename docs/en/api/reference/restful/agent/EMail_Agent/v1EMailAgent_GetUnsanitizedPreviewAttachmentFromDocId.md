@@ -87,12 +87,12 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedPreviewAttachmentFromDocId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 872,
-  "AttachmentId": "optio"
+  "DocId": 29,
+  "AttachmentId": "et"
 }
 ```
 
@@ -103,13 +103,13 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Secured intangible support",
-  "Filename": "molestias",
-  "Size": 663,
-  "Type": "minima",
-  "Encoding": "et",
-  "Id": "minima",
-  "Disposition": "debitis",
+  "Description": "Exclusive encompassing artificial intelligence",
+  "Filename": "quia",
+  "Size": 323,
+  "Type": "asperiores",
+  "Encoding": "cupiditate",
+  "Id": "quas",
+  "Disposition": "ea",
   "IsSafeFileExtension": false,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
@@ -117,7 +117,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 667
+      "FieldLength": 374
     }
   }
 }

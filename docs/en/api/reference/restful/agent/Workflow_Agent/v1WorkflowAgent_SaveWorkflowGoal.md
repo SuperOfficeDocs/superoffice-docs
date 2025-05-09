@@ -69,27 +69,27 @@ OK
 POST /api/v1/Agents/Workflow/SaveWorkflowGoal
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 994,
-  "WorkflowId": 658,
+  "WorkflowGoalId": 976,
+  "WorkflowId": 148,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Hickle-Kunde",
-      "Description": "Open-architected exuding conglomeration",
-      "Rank": 377,
+      "Name": "Bernhard, Kirlin and Roberts",
+      "Description": "Expanded optimizing system engine",
+      "Rank": 306,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Hickle-Kunde",
-      "Description": "Open-architected exuding conglomeration",
-      "Rank": 377,
+      "Name": "Bernhard, Kirlin and Roberts",
+      "Description": "Expanded optimizing system engine",
+      "Rank": 306,
       "Restrictions": [
         {},
         {}
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowGoalId": 967,
-  "WorkflowId": 836,
+  "WorkflowGoalId": 11,
+  "WorkflowId": 397,
   "GoalType": "AddedToProject",
   "RestrictionGroups": [
     {
-      "Name": "Dickens LLC",
-      "Description": "Operative composite definition",
-      "Rank": 683,
+      "Name": "Hahn Inc and Sons",
+      "Description": "Assimilated didactic groupware",
+      "Rank": 599,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Dickens LLC",
-      "Description": "Operative composite definition",
-      "Rank": 683,
+      "Name": "Hahn Inc and Sons",
+      "Description": "Assimilated didactic groupware",
+      "Rank": 599,
       "Restrictions": [
         {},
         {}
@@ -133,8 +133,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 603
+      "FieldType": "System.String",
+      "FieldLength": 750
     }
   }
 }

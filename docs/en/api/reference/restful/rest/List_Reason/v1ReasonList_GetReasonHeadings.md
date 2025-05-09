@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/Reason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 964,
-    "Name": "Casper, Weber and Abernathy",
-    "Tooltip": "quidem",
+    "HeadingId": 939,
+    "Name": "Fritsch LLC",
+    "Tooltip": "similique",
     "Deleted": false,
-    "Rank": 929,
-    "UdListDefinitionId": 521,
+    "Rank": 740,
+    "UdListDefinitionId": 303,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 271
+        "FieldLength": 371
       }
     }
   }

@@ -81,20 +81,20 @@ OK
 POST /api/v1/Agents/List/SaveListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 560,
-  "Name": "Brekke LLC",
-  "Tooltip": "dignissimos",
-  "Deleted": true,
-  "Rank": 762,
+  "Id": 904,
+  "Name": "Rempel, Rath and Graham",
+  "Tooltip": "quia",
+  "Deleted": false,
+  "Rank": 741,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "ab",
-  "InUseByUserDefinedFields": true
+  "ListType": "voluptatem",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 899,
-  "Name": "Marvin, Thompson and Kassulke",
-  "Tooltip": "molestias",
-  "Deleted": false,
-  "Rank": 71,
+  "Id": 697,
+  "Name": "Kuvalis, Schneider and Kertzmann",
+  "Tooltip": "ipsum",
+  "Deleted": true,
+  "Rank": 958,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "aut",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": true,
+  "ListType": "temporibus",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 581
+      "FieldLength": 124
     }
   }
 }

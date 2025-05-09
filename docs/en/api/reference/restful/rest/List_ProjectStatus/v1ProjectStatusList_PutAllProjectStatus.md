@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/ProjectStatus/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 193,
-    "Name": "Schimmel Inc and Sons",
-    "Tooltip": "doloribus",
-    "Deleted": true,
-    "UdListDefinitionId": 779,
-    "Rank": 2
+    "Id": 676,
+    "Name": "McDermott Group",
+    "Tooltip": "commodi",
+    "Deleted": false,
+    "UdListDefinitionId": 590,
+    "Rank": 791
   },
   {
-    "Id": 193,
-    "Name": "Schimmel Inc and Sons",
-    "Tooltip": "doloribus",
-    "Deleted": true,
-    "UdListDefinitionId": 779,
-    "Rank": 2
+    "Id": 676,
+    "Name": "McDermott Group",
+    "Tooltip": "commodi",
+    "Deleted": false,
+    "UdListDefinitionId": 590,
+    "Rank": 791
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 100,
-    "Name": "Franecki Inc and Sons",
-    "Tooltip": "maxime",
+    "Id": 353,
+    "Name": "Kuphal-McKenzie",
+    "Tooltip": "excepturi",
     "Deleted": false,
-    "UdListDefinitionId": 389,
-    "Rank": 759,
+    "UdListDefinitionId": 476,
+    "Rank": 723,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 628
+        "FieldType": "System.String",
+        "FieldLength": 519
       }
     }
   }

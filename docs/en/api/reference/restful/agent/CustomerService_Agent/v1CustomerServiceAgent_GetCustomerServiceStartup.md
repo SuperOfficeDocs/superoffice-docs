@@ -79,27 +79,27 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TimezoneEnabled": false,
-  "TZOffset": 326,
-  "RecaptchaSiteKey": "dolore",
+  "TZOffset": 538,
+  "RecaptchaSiteKey": "dolorum",
   "SelectedPreferences": [
     {
       "Level": "Database",
-      "RawValue": "accusamus",
+      "RawValue": "ex",
       "Specification": null,
-      "DisplayValue": "omnis",
-      "DisplayTooltip": "officia",
+      "DisplayValue": "dolores",
+      "DisplayTooltip": "delectus",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 719,
-      "PrefDescId": 888,
-      "TableName": "Krajcik Group",
-      "UserPreferenceId": 250,
+      "TargetId": 216,
+      "PrefDescId": 419,
+      "TableName": "Douglas-Beer",
+      "UserPreferenceId": 938,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 175
+          "FieldLength": 773
         }
       }
     }
@@ -108,8 +108,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 363
+      "FieldType": "System.Int32",
+      "FieldLength": 283
     }
   }
 }

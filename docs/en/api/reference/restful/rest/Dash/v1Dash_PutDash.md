@@ -103,34 +103,34 @@ Dash updated.
 PUT /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 295,
-  "UniqueId": "quam",
-  "Name": "Corkery, Bartoletti and Zulauf",
-  "Description": "Cloned multi-tasking artificial intelligence",
-  "AssociateId": 537,
-  "Columns": 586,
+  "DashboardId": 585,
+  "UniqueId": "cumque",
+  "Name": "Roob-Reynolds",
+  "Description": "Synergized demand-driven neural-net",
+  "AssociateId": 533,
+  "Columns": 987,
   "Theme": null,
-  "VisibleForAll": 717,
+  "VisibleForAll": 628,
   "VisibleForAssociates": [
-    353,
-    943
+    912,
+    689
   ],
   "VisibleForGroups": [
-    955,
-    760
+    509,
+    28
   ],
-  "PinForAll": 328,
+  "PinForAll": 595,
   "PinForAssociates": [
-    848,
-    791
+    262,
+    801
   ],
   "PinForGroups": [
-    136,
-    821
+    20,
+    837
   ]
 }
 ```
@@ -142,37 +142,37 @@ HTTP/1.1 200 Dash updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 382,
-  "UniqueId": "voluptas",
-  "Name": "Lebsack Inc and Sons",
-  "Description": "Virtual 24 hour matrices",
-  "AssociateId": 863,
-  "Columns": 382,
+  "DashboardId": 415,
+  "UniqueId": "id",
+  "Name": "Klocko Inc and Sons",
+  "Description": "Universal attitude-oriented hub",
+  "AssociateId": 947,
+  "Columns": 93,
   "Theme": null,
-  "VisibleForAll": 941,
+  "VisibleForAll": 390,
   "VisibleForAssociates": [
-    855,
-    695
+    680,
+    907
   ],
   "VisibleForGroups": [
-    458,
-    601
+    811,
+    383
   ],
-  "PinForAll": 252,
+  "PinForAll": 52,
   "PinForAssociates": [
-    469,
-    427
+    428,
+    131
   ],
   "PinForGroups": [
-    914,
-    65
+    726,
+    391
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 467
+      "FieldLength": 519
     }
   },
   "_Links": {

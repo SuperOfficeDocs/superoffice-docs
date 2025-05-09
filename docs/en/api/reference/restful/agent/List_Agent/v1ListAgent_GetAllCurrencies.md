@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllCurrencies
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -95,19 +95,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CurrencyId": 286,
-    "Name": "Ortiz Inc and Sons",
-    "Tooltip": "quae",
-    "Rank": 284,
-    "Rate": 26491.701999999997,
-    "Units": 11417.162,
-    "Deleted": true,
+    "CurrencyId": 209,
+    "Name": "Tillman-Deckow",
+    "Tooltip": "nihil",
+    "Rank": 601,
+    "Rate": 5092.75,
+    "Units": 13676.776,
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 570
+        "FieldLength": 264
       }
     }
   }

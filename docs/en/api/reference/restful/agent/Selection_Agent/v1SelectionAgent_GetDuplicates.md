@@ -81,7 +81,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Hoeger-Luettgen"
+  "Name": "Corwin-Skiles"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Reichert-Boyer",
-    "SoPrimaryKey": 705,
-    "EntryName": "Renner Group",
-    "EntryIdentifier": "aut",
-    "RuleDisplayName": "Kilback, Pagac and Dickinson",
+    "RuleName": "Conn-Pacocha",
+    "SoPrimaryKey": 306,
+    "EntryName": "Ankunding Inc and Sons",
+    "EntryIdentifier": "nihil",
+    "RuleDisplayName": "Bruen Inc and Sons",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 404
+        "FieldType": "System.Int32",
+        "FieldLength": 795
       }
     }
   }

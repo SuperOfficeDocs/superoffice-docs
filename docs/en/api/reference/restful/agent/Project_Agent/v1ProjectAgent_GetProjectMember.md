@@ -26,7 +26,7 @@ Gets a ProjectMember object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=193
+POST /api/v1/Agents/Project/GetProjectMember?projectMemberId=174
 POST /api/v1/Agents/Project/GetProjectMember?$select=name,department,category/id
 ```
 
@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectMember
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -97,33 +97,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectmemberId": 893,
-  "ContactId": 14,
-  "ProjectId": 401,
-  "ContactName": "Heller-Jakubowski",
+  "ProjectmemberId": 113,
+  "ContactId": 760,
+  "ProjectId": 621,
+  "ContactName": "Miller Group",
   "ContactDepartment": "",
-  "ProjectName": "Russel-Gislason",
-  "EmailId": 481,
-  "EmailAddress": "judy_denesik@harveystanton.name",
-  "CountryId": 86,
-  "Firstname": "Kacey",
-  "MiddleName": "Paucek, Okuneva and VonRueden",
-  "Lastname": "Legros",
-  "PersonId": 986,
-  "Mrmrs": "voluptatem",
-  "ProjectMemberTypeName": "McDermott, Nitzsche and Torp",
-  "Phone": "(906)678-1543 x62872",
-  "PhoneId": 264,
-  "ProjectMemberTypeId": 958,
-  "EmailAddressName": "alford.hoeger@ondrickastanton.ca",
-  "Comment": "voluptas",
-  "FullName": "Blaze Monahan",
+  "ProjectName": "Koelpin Inc and Sons",
+  "EmailId": 785,
+  "EmailAddress": "novella.brown@crist.info",
+  "CountryId": 388,
+  "Firstname": "Gage",
+  "MiddleName": "Walsh, Powlowski and Schulist",
+  "Lastname": "Balistreri",
+  "PersonId": 311,
+  "Mrmrs": "quas",
+  "ProjectMemberTypeName": "Jerde, Stokes and Kerluke",
+  "Phone": "734-507-9162 x49984",
+  "PhoneId": 176,
+  "ProjectMemberTypeId": 270,
+  "EmailAddressName": "gwen@beierschaefer.us",
+  "Comment": "totam",
+  "FullName": "Nick Hamill",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 775
+      "FieldLength": 573
     }
   }
 }

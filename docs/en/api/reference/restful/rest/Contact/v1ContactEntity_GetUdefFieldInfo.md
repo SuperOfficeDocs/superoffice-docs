@@ -93,7 +93,7 @@ ContactEntity found.
 GET /api/v1/Contact/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 ContactEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 932,
-  "ColumnId": 307,
-  "FieldDefault": "possimus",
-  "FieldHeight": 235,
-  "FieldLabel": "ea",
-  "FieldLeft": 563,
-  "FieldTop": 661,
+  "UDefFieldId": 795,
+  "ColumnId": 419,
+  "FieldDefault": "omnis",
+  "FieldHeight": 561,
+  "FieldLabel": "esse",
+  "FieldLeft": 81,
+  "FieldTop": 80,
   "FieldType": "Checkbox",
-  "FieldWidth": 196,
-  "FormatMask": "consequatur",
+  "FieldWidth": 552,
+  "FormatMask": "quisquam",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 830,
-  "LabelLeft": 684,
-  "LabelTop": 674,
-  "LabelWidth": 13,
-  "LastVersionId": 870,
-  "ListTableId": 598,
+  "LabelHeight": 822,
+  "LabelLeft": 431,
+  "LabelTop": 781,
+  "LabelWidth": 900,
+  "LastVersionId": 266,
+  "ListTableId": 472,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 178,
-  "ProgId": "accusantium",
+  "Page1LineNo": 38,
+  "ProgId": "est",
   "IsReadOnly": false,
-  "ShortLabel": "sunt",
-  "TabOrder": 45,
-  "TextLength": 776,
-  "Tooltip": "dolores",
-  "UdefIdentity": 257,
-  "UDListDefinitionId": 133,
+  "ShortLabel": "corporis",
+  "TabOrder": 367,
+  "TextLength": 261,
+  "Tooltip": "enim",
+  "UdefIdentity": 106,
+  "UDListDefinitionId": 150,
   "Justification": "Center",
-  "Version": 211,
-  "TemplateVariableName": "Mertz Inc and Sons",
+  "Version": 875,
+  "TemplateVariableName": "Jast-Kunde",
   "HasBeenPublished": false,
-  "MdoListName": "Kub, Waters and Beier",
+  "MdoListName": "Ward-Renner",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 28
+      "FieldLength": 621
     }
   }
 }

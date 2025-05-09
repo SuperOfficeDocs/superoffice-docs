@@ -26,7 +26,7 @@ Gets a SelectionEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=694
+POST /api/v1/Agents/Selection/GetSelectionEntity?selectionEntityId=894
 POST /api/v1/Agents/Selection/GetSelectionEntity?$select=name,department,category/id
 ```
 
@@ -107,7 +107,7 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -117,70 +117,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Grass-roots radical forecast",
-  "Postit": "sed",
+  "Description": "Multi-layered heuristic website",
+  "Postit": "sequi",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 723,
-  "IncludePerson": 432,
+  "GroupIdx": 553,
+  "IncludePerson": 666,
   "MemberCount": 99.99,
-  "Name": "Lemke, Rogahn and Tromp",
-  "PostitTextId": 815,
-  "CreatedDate": "2000-02-10T13:14:01.2850366+01:00",
-  "SelectionId": 394,
-  "SoundEx": "qui",
-  "Source": 212,
-  "TextId": 707,
-  "UpdatedDate": "2003-12-31T13:14:01.2850366+01:00",
-  "UpdatedCount": 409,
-  "Visibility": 133,
+  "Name": "Schuster, Hegmann and Robel",
+  "PostitTextId": 333,
+  "CreatedDate": "2010-04-19T16:32:39.8833385+02:00",
+  "SelectionId": 606,
+  "SoundEx": "libero",
+  "Source": 919,
+  "TextId": 446,
+  "UpdatedDate": "2006-02-28T16:32:39.8833385+01:00",
+  "UpdatedCount": 577,
+  "Visibility": 764,
   "SelectionType": "Combined",
   "CompanyUnique": true,
-  "TargetTableNumber": 802,
-  "TargetTableName": "Wintheiser, Heidenreich and Konopelski",
-  "Completed": true,
-  "LeftSelectionId": 521,
-  "RightSelectionId": 569,
+  "TargetTableNumber": 896,
+  "TargetTableName": "Mills LLC",
+  "Completed": false,
+  "LeftSelectionId": 179,
+  "RightSelectionId": 47,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Bogisich-Dickinson",
-  "ShadowProviderName": "Harris-Wintheiser",
-  "ChartKey": "voluptatibus",
-  "LastLoaded": "2008-08-10T13:14:01.2850366+02:00",
-  "LastLoadedBy": 768,
+  "MainProviderName": "Murazik, Murray and Kertzmann",
+  "ShadowProviderName": "Gorczany-Cruickshank",
+  "ChartKey": "quia",
+  "LastLoaded": "2005-05-18T16:32:39.8833385+02:00",
+  "LastLoadedBy": 380,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "1999-03-01T13:14:01.2850366+01:00",
-  "LastMembershipChangeBy": 409,
+  "LastMembershipChange": "2019-05-09T16:32:39.8833385+02:00",
+  "LastMembershipChangeBy": 770,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "et",
-  "MemberTabHeading": "quo",
-  "MailingsProviderName": "Nitzsche-Balistreri",
-  "DashboardTileDefinitionId": 902,
+  "MainHeading": "facere",
+  "MemberTabHeading": "aliquam",
+  "MailingsProviderName": "Gerlach, Carroll and Goyette",
+  "DashboardTileDefinitionId": 570,
   "VisibleFor": [
     {
-      "VisibleId": 864,
+      "VisibleId": 411,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldLength": 589
         }
       }
     },
     {
-      "VisibleId": 864,
+      "VisibleId": 411,
       "Visibility": "All",
-      "DisplayValue": "non",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 636
+          "FieldLength": 589
         }
       }
     }
@@ -189,8 +189,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 414
+      "FieldType": "System.Int32",
+      "FieldLength": 623
     }
   }
 }

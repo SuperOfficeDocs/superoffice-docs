@@ -69,8 +69,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Sanford Group",
-  "Id": 347
+  "HistoryName": "Krajcik, Feil and Weimann",
+  "Id": 77
 }
 ```
 

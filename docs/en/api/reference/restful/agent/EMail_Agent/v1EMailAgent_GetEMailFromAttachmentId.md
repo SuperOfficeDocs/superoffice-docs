@@ -106,10 +106,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 69,
+  "EmailId": 419,
   "AttachmentIds": [
-    "quisquam",
-    "reprehenderit"
+    "numquam",
+    "id"
   ],
   "IncludeAttachments": false
 }
@@ -124,147 +124,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 350,
-      "ContactName": "Runolfsson LLC",
-      "PersonId": 477,
-      "PersonName": "Kohler LLC",
-      "AssociateId": 133,
-      "Address": "occaecati",
-      "EmailId": 332,
+      "ContactId": 103,
+      "ContactName": "Schoen-McLaughlin",
+      "PersonId": 710,
+      "PersonName": "Harris-Schumm",
+      "AssociateId": 58,
+      "Address": "ipsa",
+      "EmailId": 947,
       "DuplicatePersonIds": [
-        227,
-        941
+        152,
+        513
       ],
-      "Name": "Green Group",
+      "Name": "Jacobi-Crist",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 528
+          "FieldLength": 461
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 87,
-      "ContactName": "Cremin, Gislason and Rogahn",
-      "PersonId": 442,
-      "PersonName": "Olson-Zieme",
-      "AssociateId": 620,
-      "Address": "ex",
-      "EmailId": 282,
+      "ContactId": 238,
+      "ContactName": "Batz, Moore and Effertz",
+      "PersonId": 270,
+      "PersonName": "Tromp, Jewess and Schumm",
+      "AssociateId": 665,
+      "Address": "omnis",
+      "EmailId": 400,
       "DuplicatePersonIds": [
-        434,
-        346
+        659,
+        345
       ],
-      "Name": "Nienow-Yost",
+      "Name": "Roob-Spinka",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 391
+          "FieldType": "System.Int32",
+          "FieldLength": 532
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 968,
-      "ContactName": "Durgan-Streich",
-      "PersonId": 499,
-      "PersonName": "Lakin-Turner",
-      "AssociateId": 787,
-      "Address": "aut",
-      "EmailId": 813,
+      "ContactId": 199,
+      "ContactName": "Lind-Cartwright",
+      "PersonId": 882,
+      "PersonName": "Heaney-Kiehn",
+      "AssociateId": 752,
+      "Address": "ex",
+      "EmailId": 493,
       "DuplicatePersonIds": [
-        500,
-        491
+        344,
+        437
       ],
-      "Name": "Mayert, Windler and Jewess",
+      "Name": "Ferry-Olson",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 994
+          "FieldLength": 6
         }
       }
     }
   ],
-  "Subject": "consequatur",
-  "HTMLBody": "dolorem",
+  "Subject": "iure",
+  "HTMLBody": "mollitia",
   "From": null,
-  "Sent": "2000-07-26T13:14:00.3762277+02:00",
-  "Size": 867,
+  "Sent": "2012-05-04T16:32:39.0395385+02:00",
+  "Size": 577,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "ab",
-  "PlainBody": "qui",
+  "MessageID": "tempora",
+  "PlainBody": "eaque",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 265,
+  "ServerId": 727,
   "Attachments": [
     {
-      "Description": "Organized multimedia circuit",
-      "Filename": "totam",
-      "Size": 794,
-      "Type": "repudiandae",
-      "Encoding": "ipsam",
-      "Id": "enim",
-      "Disposition": "nostrum",
+      "Description": "Synchronised homogeneous hub",
+      "Filename": "atque",
+      "Size": 679,
+      "Type": "pariatur",
+      "Encoding": "libero",
+      "Id": "non",
+      "Disposition": "quam",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 627
+          "FieldType": "System.Int32",
+          "FieldLength": 266
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Hane, Murazik and Homenick",
+      "Name": "Huels, Rolfson and Renner",
       "Values": [
-        "sapiente",
-        "cumque"
+        "animi",
+        "magnam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldLength": 60
         }
       }
     },
     {
-      "Name": "Hane, Murazik and Homenick",
+      "Name": "Huels, Rolfson and Renner",
       "Values": [
-        "sapiente",
-        "cumque"
+        "animi",
+        "magnam"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 897
+          "FieldLength": 60
         }
       }
     }
   ],
-  "FolderName": "Green-Runolfsson",
-  "EmailItemId": 314,
-  "AccountId": 867,
-  "ReceivedAt": "2013-09-10T13:14:00.3762277+02:00",
+  "FolderName": "Jakubowski, Boyer and Abbott",
+  "EmailItemId": 187,
+  "AccountId": 557,
+  "ReceivedAt": "2014-03-15T16:32:39.0551619+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2024-07-23T13:14:00.3762277+02:00",
+  "RepliedAt": "2014-04-10T16:32:39.0551619+02:00",
   "HasCalendarData": true,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,7 +273,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 681
+      "FieldLength": 696
     }
   }
 }

@@ -66,13 +66,13 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Oberbrunner LLC",
-  "RecordId": 536,
-  "AssociateId": 707
+  "TableName": "Nienow Group",
+  "RecordId": 568,
+  "AssociateId": 563
 }
 ```
 

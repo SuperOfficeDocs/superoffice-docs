@@ -101,20 +101,20 @@ OK
 POST /api/v1/Role
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 229,
-  "Name": "Rath-Murphy",
-  "Tooltip": "eveniet",
+  "RoleId": 165,
+  "Name": "Hoeger Inc and Sons",
+  "Tooltip": "porro",
   "RoleType": "Anonymous",
-  "Deleted": 784,
-  "Rank": 128,
-  "Created": "2002-10-31T13:14:08.9461361+01:00",
-  "UseCategories": 498,
+  "Deleted": 460,
+  "Rank": 350,
+  "Created": "2015-12-03T16:32:47.7589038+01:00",
+  "UseCategories": 706,
   "CreatedBy": null,
-  "Updated": "2005-10-29T13:14:08.9461361+02:00",
+  "Updated": "2008-07-15T16:32:47.7589038+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -127,24 +127,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 977,
-  "Name": "Hirthe Inc and Sons",
-  "Tooltip": "fugit",
+  "RoleId": 37,
+  "Name": "Stokes, Hoeger and White",
+  "Tooltip": "aut",
   "RoleType": "Anonymous",
-  "Deleted": 113,
-  "Rank": 959,
-  "Created": "2007-08-23T13:14:08.9461361+02:00",
-  "UseCategories": 493,
+  "Deleted": 151,
+  "Rank": 623,
+  "Created": "2019-08-11T16:32:47.7589038+02:00",
+  "UseCategories": 687,
   "CreatedBy": null,
-  "Updated": "2022-12-08T13:14:08.9461361+01:00",
+  "Updated": "2008-08-19T16:32:47.7589038+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 927
+      "FieldType": "System.Int32",
+      "FieldLength": 292
     }
   },
   "_Links": {

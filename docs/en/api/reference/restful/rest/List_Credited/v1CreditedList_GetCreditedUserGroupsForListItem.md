@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Credited/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 972,
-    "Name": "Collier LLC",
-    "ToolTip": "Itaque expedita praesentium velit.",
+    "Id": 837,
+    "Name": "Jerde, Wilderman and Hudson",
+    "ToolTip": "Placeat esse beatae culpa suscipit et est et.",
     "Deleted": false,
-    "Rank": 836,
-    "Type": "voluptatem",
-    "ColorBlock": 213,
-    "IconHint": "tempora",
-    "Selected": true,
-    "LastChanged": "2011-10-30T13:14:09.7128949+01:00",
+    "Rank": 187,
+    "Type": "voluptate",
+    "ColorBlock": 118,
+    "IconHint": "sed",
+    "Selected": false,
+    "LastChanged": "1998-09-07T16:32:48.6182885+02:00",
     "ChildItems": [
       {
-        "Id": 827,
-        "Name": "Tillman-Wehner",
-        "ToolTip": "Reprehenderit esse neque harum vero.",
+        "Id": 456,
+        "Name": "Kassulke, Ruecker and Lueilwitz",
+        "ToolTip": "Placeat quod reiciendis consequatur nesciunt ut enim totam.",
         "Deleted": false,
-        "Rank": 737,
-        "Type": "praesentium",
-        "ColorBlock": 516,
-        "IconHint": "et",
+        "Rank": 282,
+        "Type": "minus",
+        "ColorBlock": 527,
+        "IconHint": "qui",
         "Selected": true,
-        "LastChanged": "2023-07-28T13:14:09.7128949+02:00",
+        "LastChanged": "2022-10-27T16:32:48.6182885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "laborum",
-        "StyleHint": "consequuntur",
-        "Hidden": false,
-        "FullName": "Cheyanne Beer I",
+        "ExtraInfo": "iste",
+        "StyleHint": "voluptates",
+        "Hidden": true,
+        "FullName": "Elenora Legros",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 922
+            "FieldType": "System.String",
+            "FieldLength": 239
           }
         }
       }
     ],
-    "ExtraInfo": "vitae",
-    "StyleHint": "assumenda",
+    "ExtraInfo": "ipsa",
+    "StyleHint": "deleniti",
     "Hidden": false,
-    "FullName": "Jamil Hagenes IV",
+    "FullName": "Randy Bridie Bosco DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 740
+        "FieldType": "System.String",
+        "FieldLength": 207
       }
     }
   }

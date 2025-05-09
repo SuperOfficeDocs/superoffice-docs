@@ -104,33 +104,33 @@ OK
 PUT /api/v1/List/TicketCategory/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 416,
-  "ParentId": 220,
-  "Name": "Braun LLC",
-  "Fullname": "nostrum",
-  "CategoryMaster": 522,
+  "TicketCategoryId": 966,
+  "ParentId": 250,
+  "Name": "McKenzie, Zboncak and Ryan",
+  "Fullname": "quo",
+  "CategoryMaster": 300,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Gleason-Gislason",
+  "ExternalName": "Eichmann, O'Keefe and Gutkowski",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 589,
-  "ReplyTemplate": 483,
-  "NotificationEmail": "caterina@hackettzieme.name",
+  "AssignmentLag": 102,
+  "ReplyTemplate": 92,
+  "NotificationEmail": "alyce@white.us",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 687,
+  "EffectiveReplyTemplateId": 418,
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "rerum"
+    "ExtraFields1": "quos",
+    "ExtraFields2": "voluptates"
   },
   "CustomFields": {
-    "CustomFields1": "delectus",
-    "CustomFields2": "doloribus"
+    "CustomFields1": "neque",
+    "CustomFields2": "veritatis"
   }
 }
 ```
@@ -142,36 +142,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 227,
-  "ParentId": 556,
-  "Name": "Lang Inc and Sons",
-  "Fullname": "illo",
-  "CategoryMaster": 544,
+  "TicketCategoryId": 444,
+  "ParentId": 962,
+  "Name": "Jewess Group",
+  "Fullname": "quia",
+  "CategoryMaster": 953,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Dooley Inc and Sons",
+  "ExternalName": "Herzog-Hoeger",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 329,
-  "ReplyTemplate": 232,
-  "NotificationEmail": "samson@fadel.ca",
+  "AssignmentLag": 558,
+  "ReplyTemplate": 728,
+  "NotificationEmail": "rosalyn_kris@kuphalkovacek.ca",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 886,
+  "EffectiveReplyTemplateId": 966,
   "ExtraFields": {
-    "ExtraFields1": "sint",
-    "ExtraFields2": "dolore"
+    "ExtraFields1": "occaecati",
+    "ExtraFields2": "aliquid"
   },
   "CustomFields": {
-    "CustomFields1": "sed",
-    "CustomFields2": "rerum"
+    "CustomFields1": "odio",
+    "CustomFields2": "neque"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 983
+      "FieldLength": 356
     }
   }
 }

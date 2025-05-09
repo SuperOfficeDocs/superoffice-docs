@@ -72,7 +72,7 @@ OK
 GET /api/v1/TicketMessage/CustomField/{fieldName}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -83,18 +83,18 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FieldType": "Attachment",
-  "FieldName": "Bergnaum-Hermann",
-  "DisplayName": "Herman-Kozey",
-  "Description": "Horizontal intangible implementation",
-  "ShortLabel": "nostrum",
-  "HideLabel": true,
+  "FieldName": "Wintheiser-Durgan",
+  "DisplayName": "Murray LLC",
+  "Description": "Reverse-engineered responsive budgetary management",
+  "ShortLabel": "repudiandae",
+  "HideLabel": false,
   "HideField": false,
   "IsIndexed": false,
   "IsMandatory": true,
   "IsReadOnly": false,
   "IsExternal": true,
   "IsDisplayField": false,
-  "Rank": 290,
-  "TemplateVariableName": "Walter Group"
+  "Rank": 889,
+  "TemplateVariableName": "Gleason Group"
 }
 ```

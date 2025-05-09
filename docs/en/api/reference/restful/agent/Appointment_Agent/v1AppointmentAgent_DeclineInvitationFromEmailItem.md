@@ -65,11 +65,11 @@ No Content
 POST /api/v1/Agents/Appointment/DeclineInvitationFromEmailItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailItemId": 378,
+  "EmailItemId": 282,
   "RejectReason": ""
 }
 ```

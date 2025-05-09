@@ -79,12 +79,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 683,
-  "Name": "Zieme, Kohler and Zulauf",
-  "Tooltip": "perferendis",
-  "Deleted": false,
-  "Rank": 751,
-  "UdListDefinitionId": 433
+  "HeadingId": 780,
+  "Name": "Grant-Klein",
+  "Tooltip": "quas",
+  "Deleted": true,
+  "Rank": 949,
+  "UdListDefinitionId": 287
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 496,
-  "Name": "Ernser, Strosin and Berge",
-  "Tooltip": "ratione",
+  "HeadingId": 827,
+  "Name": "Johns Group",
+  "Tooltip": "eius",
   "Deleted": false,
-  "Rank": 670,
-  "UdListDefinitionId": 528,
+  "Rank": 592,
+  "UdListDefinitionId": 962,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 83
+      "FieldType": "System.Int32",
+      "FieldLength": 788
     }
   }
 }

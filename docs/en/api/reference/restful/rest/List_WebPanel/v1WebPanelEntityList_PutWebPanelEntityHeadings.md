@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/WebPanel/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 845,
-    "Name": "Tremblay Inc and Sons",
-    "Tooltip": "quasi",
+    "HeadingId": 963,
+    "Name": "Ebert, Mraz and Deckow",
+    "Tooltip": "illum",
     "Deleted": false,
-    "Rank": 459,
-    "UdListDefinitionId": 870
+    "Rank": 285,
+    "UdListDefinitionId": 941
   },
   {
-    "HeadingId": 845,
-    "Name": "Tremblay Inc and Sons",
-    "Tooltip": "quasi",
+    "HeadingId": 963,
+    "Name": "Ebert, Mraz and Deckow",
+    "Tooltip": "illum",
     "Deleted": false,
-    "Rank": 459,
-    "UdListDefinitionId": 870
+    "Rank": 285,
+    "UdListDefinitionId": 941
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 106,
-    "Name": "Bayer, Treutel and Marks",
-    "Tooltip": "cum",
-    "Deleted": true,
-    "Rank": 551,
-    "UdListDefinitionId": 699,
+    "HeadingId": 48,
+    "Name": "Wunsch, Gutmann and Daugherty",
+    "Tooltip": "officia",
+    "Deleted": false,
+    "Rank": 55,
+    "UdListDefinitionId": 425,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 668
+        "FieldType": "System.Int32",
+        "FieldLength": 805
       }
     }
   }

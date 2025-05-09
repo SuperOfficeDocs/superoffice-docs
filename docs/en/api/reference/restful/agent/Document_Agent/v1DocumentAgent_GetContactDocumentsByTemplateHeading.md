@@ -98,15 +98,15 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateHeading
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 112,
-  "StartTime": "2012-09-30T13:14:00.0944666+02:00",
-  "EndTime": "2015-09-13T13:14:00.0944666+02:00",
-  "Count": 962,
-  "TemplateHeadingId": 792
+  "ContactId": 534,
+  "StartTime": "2021-10-22T16:32:38.6333805+02:00",
+  "EndTime": "2020-06-06T16:32:38.6333805+02:00",
+  "Count": 298,
+  "TemplateHeadingId": 216
 }
 ```
 
@@ -118,32 +118,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 492,
-    "Attention": "natus",
-    "Header": "iusto",
-    "Name": "Schoen Inc and Sons",
-    "OurRef": "itaque",
-    "YourRef": "qui",
-    "Description": "Reduced heuristic database",
+    "DocumentId": 424,
+    "Attention": "sunt",
+    "Header": "quos",
+    "Name": "Price-Kunde",
+    "OurRef": "ducimus",
+    "YourRef": "ratione",
+    "Description": "Cloned content-based matrix",
     "DocumentTemplate": "aut",
-    "IsPublished": false,
-    "PersonId": 347,
-    "PersonFullName": "Miss Isabelle Martina Zemlak",
-    "AssociateFullName": "Deshaun Block",
-    "ContactId": 320,
-    "ContactName": "Toy Inc and Sons",
-    "ProjectId": 91,
-    "ProjectName": "Williamson-Hermann",
-    "AssociateId": 537,
-    "Snum": 22,
-    "SaleId": 266,
-    "SaleName": "Raynor-Mann",
+    "IsPublished": true,
+    "PersonId": 33,
+    "PersonFullName": "Birdie Zulauf",
+    "AssociateFullName": "Alysa Zboncak",
+    "ContactId": 414,
+    "ContactName": "Yundt-Johnston",
+    "ProjectId": 134,
+    "ProjectName": "Reichert Group",
+    "AssociateId": 701,
+    "Snum": 688,
+    "SaleId": 928,
+    "SaleName": "Luettgen, Olson and Daugherty",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 44
+        "FieldLength": 588
       }
     }
   }

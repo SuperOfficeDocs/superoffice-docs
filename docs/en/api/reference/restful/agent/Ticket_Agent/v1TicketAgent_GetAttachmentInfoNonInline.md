@@ -84,7 +84,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 975
+  "TicketMessageEntityId": 297
 }
 ```
 
@@ -96,20 +96,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AttachmentId": 612,
-    "Name": "Oberbrunner, Murray and Kuphal",
-    "ContentType": "quis",
-    "AttSize": 304,
+    "AttachmentId": 434,
+    "Name": "Kulas-Schinner",
+    "ContentType": "debitis",
+    "AttSize": 348,
     "InlineImage": false,
-    "ContentId": "aut",
-    "AuthKey": "ratione",
-    "IsSafeFileExtension": true,
+    "ContentId": "ea",
+    "AuthKey": "omnis",
+    "IsSafeFileExtension": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 771
+        "FieldLength": 88
       }
     }
   }

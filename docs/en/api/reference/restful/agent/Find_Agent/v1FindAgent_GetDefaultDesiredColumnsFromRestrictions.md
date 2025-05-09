@@ -86,22 +86,22 @@ OK
 POST /api/v1/Agents/Find/GetDefaultDesiredColumnsFromRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProviderName": "Adams Inc and Sons",
+  "ProviderName": "Grady-Daugherty",
   "Restrictions": [
     {
-      "Name": "Gorczany-Pfannerstill",
-      "Operator": "nisi",
+      "Name": "Kuphal Group",
+      "Operator": "voluptas",
       "Values": [
-        "dolor",
-        "vel"
+        "odit",
+        "nihil"
       ],
       "DisplayValues": [
-        "et",
-        "voluptatem"
+        "quia",
+        "facere"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -109,9 +109,9 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 584,
+      "InterParenthesis": 277,
       "InterOperator": "And",
-      "UniqueHash": 532
+      "UniqueHash": 873
     }
   ]
 }
@@ -125,19 +125,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Runolfsson-Rodriguez",
-    "DisplayTooltip": "quibusdam",
-    "DisplayType": "iure",
+    "DisplayName": "Rippin-Schuster",
+    "DisplayTooltip": "aliquam",
+    "DisplayType": "voluptatum",
     "CanOrderBy": false,
-    "Name": "Ward, Kessler and Rowe",
-    "CanRestrictBy": false,
-    "RestrictionType": "in",
-    "RestrictionListName": "Howe Group",
+    "Name": "Schamberger, Rowe and Walter",
+    "CanRestrictBy": true,
+    "RestrictionType": "est",
+    "RestrictionListName": "Schulist, Schneider and Nitzsche",
     "IsVisible": false,
     "ExtraInfo": "possimus",
-    "Width": "nihil",
-    "IconHint": "ut",
-    "HeadingIconHint": "iure"
+    "Width": "quod",
+    "IconHint": "aut",
+    "HeadingIconHint": "dolorem"
   }
 ]
 ```

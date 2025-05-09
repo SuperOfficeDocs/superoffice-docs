@@ -26,8 +26,8 @@ Get the MDO list items for "ReasonSold" - with headings and filtering by user gr
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ReasonSold/MDOItems?flat=True
-GET /api/v1/List/ReasonSold/MDOItems?query=vero
+GET /api/v1/List/ReasonSold/MDOItems?flat=False
+GET /api/v1/List/ReasonSold/MDOItems?query=amet
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ReasonSold/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 222,
-    "Name": "McKenzie Inc and Sons",
-    "ToolTip": "Iusto inventore incidunt nobis rerum inventore animi officia.",
+    "Id": 489,
+    "Name": "Stehr, Rosenbaum and McLaughlin",
+    "ToolTip": "Explicabo voluptas rem nesciunt id consequatur sed laudantium.",
     "Deleted": false,
-    "Rank": 469,
-    "Type": "vitae",
+    "Rank": 803,
+    "Type": "ullam",
     "ChildItems": [
       {
-        "Id": 189,
-        "Name": "Windler-Maggio",
-        "ToolTip": "Voluptatibus est.",
+        "Id": 910,
+        "Name": "Keebler-Becker",
+        "ToolTip": "Corporis doloremque quaerat veniam molestiae ipsum.",
         "Deleted": false,
-        "Rank": 894,
-        "Type": "error",
+        "Rank": 74,
+        "Type": "beatae",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "modi",
-        "ColorBlock": 307,
-        "ExtraInfo": "et",
-        "StyleHint": "voluptate",
-        "FullName": "Sadie Predovic",
+        "IconHint": "dolorum",
+        "ColorBlock": 178,
+        "ExtraInfo": "esse",
+        "StyleHint": "enim",
+        "FullName": "Aniya Beatrice Doyle III",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 880
+            "FieldLength": 792
           }
         }
       }
     ],
-    "IconHint": "velit",
-    "ColorBlock": 220,
-    "ExtraInfo": "nesciunt",
-    "StyleHint": "sint",
-    "FullName": "Deborah Schultz",
+    "IconHint": "et",
+    "ColorBlock": 940,
+    "ExtraInfo": "molestiae",
+    "StyleHint": "quis",
+    "FullName": "Mabel Dibbert",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 834
+        "FieldType": "System.Int32",
+        "FieldLength": 426
       }
     }
   }

@@ -30,6 +30,7 @@ Download [WSDL file for Services88/Diagnostics](../Services88-Diagnostics.md) if
 * [GetSystemMessages](GetSystemMessages.md)
 * [GetWebAppUsagesForPeriod](GetWebAppUsagesForPeriod.md)
 * [LogViewState](LogViewState.md)
+* [PerformTasksAfterCustomObjectTableDeleted](PerformTasksAfterCustomObjectTableDeleted.md)
 * [PerformTasksAfterUpgrade](PerformTasksAfterUpgrade.md)
 * [RemoveExpiredSystemMessages](RemoveExpiredSystemMessages.md)
 * [RemoveSystemMessage](RemoveSystemMessage.md)

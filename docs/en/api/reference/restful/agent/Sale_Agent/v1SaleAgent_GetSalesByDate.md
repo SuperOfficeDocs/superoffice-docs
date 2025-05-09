@@ -106,9 +106,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "FromDate": "2003-04-05T13:14:01.1274981+02:00",
-  "ToDate": "2023-01-25T13:14:01.1274981+01:00",
-  "AmountLimit": 977,
+  "FromDate": "2003-03-28T16:32:39.8520956+01:00",
+  "ToDate": "2008-01-30T16:32:39.8520956+01:00",
+  "AmountLimit": 506,
   "Status": "Lost"
 }
 ```
@@ -121,37 +121,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Bahringer, Harris and Ward",
-    "SaleDate": "2012-01-12T13:14:01.1274981+01:00",
-    "SaleId": 726,
-    "Probability": 747,
-    "Title": "nesciunt",
-    "Amount": 11006.608,
-    "Currency": "dignissimos",
-    "ProjectName": "Dach-Romaguera",
-    "AssociateFullName": "Dr. Hal Greenholt",
-    "Description": "Stand-alone holistic capacity",
+    "ContactName": "Kautzer-Kunde",
+    "SaleDate": "2022-11-06T16:32:39.8520956+01:00",
+    "SaleId": 11,
+    "Probability": 166,
+    "Title": "repellendus",
+    "Amount": 7117.3139999999994,
+    "Currency": "aut",
+    "ProjectName": "Emard LLC",
+    "AssociateFullName": "Camron Gibson",
+    "Description": "Enterprise-wide upward-trending matrix",
     "Status": "Lost",
-    "WeightedAmount": 19571.829999999998,
-    "ProjectId": 129,
-    "EarningPercent": 28785.789999999997,
-    "Earning": 23128.92,
-    "ContactId": 525,
-    "AssociateId": 841,
-    "PersonId": 525,
-    "SaleTypeId": 193,
-    "SaleTypeName": "Dibbert, Ryan and Romaguera",
-    "PersonFullName": "Avis Stanton",
+    "WeightedAmount": 18011.097999999998,
+    "ProjectId": 516,
+    "EarningPercent": 23674.236,
+    "Earning": 10376.673999999999,
+    "ContactId": 270,
+    "AssociateId": 811,
+    "PersonId": 38,
+    "SaleTypeId": 505,
+    "SaleTypeName": "O'Keefe-Frami",
+    "PersonFullName": "Laisha Schaden MD",
     "Completed": "Completed",
-    "ActiveErpLinks": 993,
-    "NextDueDate": "2007-03-26T13:14:01.1274981+02:00",
-    "Number": "1296432",
+    "ActiveErpLinks": 295,
+    "NextDueDate": "2004-01-28T16:32:39.8520956+01:00",
+    "Number": "383641",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 739
+        "FieldLength": 179
       }
     }
   }

@@ -85,7 +85,7 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HistoryName": "Wisozk LLC"
+  "HistoryName": "Koepp-Ruecker"
 }
 ```
 
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Rank": 692,
-  "Id": 260,
-  "HistoryName": "Anderson Group",
-  "HistoryId": 691,
-  "AssociateId": 747,
-  "Name": "Fadel, Feeney and Sporer",
-  "ItemInfo": "placeat",
+  "Rank": 243,
+  "Id": 681,
+  "HistoryName": "Mills LLC",
+  "HistoryId": 226,
+  "AssociateId": 777,
+  "Name": "Murray, Bradtke and Klocko",
+  "ItemInfo": "cupiditate",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 173
+      "FieldType": "System.String",
+      "FieldLength": 110
     }
   }
 }

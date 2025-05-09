@@ -85,15 +85,15 @@ OK
 POST /api/v1/Agents/Targets/GetTargetAssignmentForYearAndDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetYear": 823,
+  "TargetYear": 756,
   "EntityType": "None",
   "TargetLevel": "Associate",
-  "Id": 35,
-  "DimensionId": 542
+  "Id": 964,
+  "DimensionId": 112
 }
 ```
 
@@ -104,24 +104,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetAssignmentInfoId": 830,
+  "TargetAssignmentInfoId": 316,
   "Values": [
-    898,
-    568
+    562,
+    576
   ],
   "Locked": false,
   "TargetAssociate": null,
   "TargetContact": null,
   "TargetUserGroup": null,
   "Currency": null,
-  "DimensionListItem": 891,
-  "DimensionListItemDisplayName": "Hermiston-Marks",
+  "DimensionListItem": 845,
+  "DimensionListItemDisplayName": "Koelpin, Halvorson and O'Keefe",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 759
+      "FieldLength": 130
     }
   }
 }

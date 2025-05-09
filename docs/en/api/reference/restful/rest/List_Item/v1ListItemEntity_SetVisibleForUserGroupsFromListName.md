@@ -96,47 +96,47 @@ OK
 PUT /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 61,
-    "Name": "Greenfelder Inc and Sons",
-    "ToolTip": "Vero aliquid.",
-    "Deleted": false,
-    "Rank": 914,
-    "Type": "velit",
-    "ColorBlock": 897,
-    "IconHint": "tenetur",
+    "Id": 967,
+    "Name": "Marks-Armstrong",
+    "ToolTip": "Adipisci voluptas odit.",
+    "Deleted": true,
+    "Rank": 678,
+    "Type": "tempore",
+    "ColorBlock": 730,
+    "IconHint": "voluptas",
     "Selected": true,
-    "LastChanged": "1998-02-13T13:14:09.5873854+01:00",
+    "LastChanged": "2006-04-11T16:32:48.4933163+02:00",
     "ChildItems": [
       {
-        "Id": 440,
-        "Name": "Kutch Inc and Sons",
-        "ToolTip": "Et et omnis quam.",
-        "Deleted": false,
-        "Rank": 94,
-        "Type": "sint",
-        "ColorBlock": 36,
-        "IconHint": "quis",
+        "Id": 326,
+        "Name": "Fadel LLC",
+        "ToolTip": "Eos pariatur saepe et sed laborum saepe.",
+        "Deleted": true,
+        "Rank": 818,
+        "Type": "debitis",
+        "ColorBlock": 898,
+        "IconHint": "fuga",
         "Selected": false,
-        "LastChanged": "2009-08-17T13:14:09.5873854+02:00",
+        "LastChanged": "2023-07-15T16:32:48.4933163+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "architecto",
-        "StyleHint": "tempore",
+        "ExtraInfo": "illum",
+        "StyleHint": "earum",
         "Hidden": false,
-        "FullName": "Esta Johnson"
+        "FullName": "Laney Nolan"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "debitis",
+    "ExtraInfo": "accusantium",
+    "StyleHint": "aliquam",
     "Hidden": true,
-    "FullName": "Prof. Ewell Brooks Leffler"
+    "FullName": "Mrs. Carmella Jonathan Witting DVM"
   }
 ]
 ```
@@ -149,56 +149,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 841,
-    "Name": "Hamill-Fay",
-    "ToolTip": "Excepturi nihil dolores.",
+    "Id": 443,
+    "Name": "Casper-Hilll",
+    "ToolTip": "Earum quia quas.",
     "Deleted": false,
-    "Rank": 665,
-    "Type": "sapiente",
-    "ColorBlock": 321,
-    "IconHint": "eius",
+    "Rank": 942,
+    "Type": "ipsum",
+    "ColorBlock": 761,
+    "IconHint": "error",
     "Selected": false,
-    "LastChanged": "2019-06-13T13:14:09.5873854+02:00",
+    "LastChanged": "2016-06-19T16:32:48.4933163+02:00",
     "ChildItems": [
       {
-        "Id": 396,
-        "Name": "Pacocha-Wehner",
-        "ToolTip": "Aut sit reiciendis magni enim.",
-        "Deleted": true,
-        "Rank": 959,
-        "Type": "omnis",
-        "ColorBlock": 744,
-        "IconHint": "ut",
-        "Selected": false,
-        "LastChanged": "2006-09-21T13:14:09.5873854+02:00",
+        "Id": 169,
+        "Name": "Simonis, Harris and Becker",
+        "ToolTip": "Dicta illo.",
+        "Deleted": false,
+        "Rank": 906,
+        "Type": "aliquam",
+        "ColorBlock": 984,
+        "IconHint": "possimus",
+        "Selected": true,
+        "LastChanged": "2017-05-21T16:32:48.4933163+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nulla",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Heidi Dolores Kuphal PhD",
+        "ExtraInfo": "omnis",
+        "StyleHint": "ratione",
+        "Hidden": false,
+        "FullName": "Micheal Runolfsdottir Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 489
+            "FieldLength": 813
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "accusamus",
-    "Hidden": true,
-    "FullName": "Monica Turcotte",
+    "ExtraInfo": "autem",
+    "StyleHint": "inventore",
+    "Hidden": false,
+    "FullName": "Hermina Howe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 999
+        "FieldLength": 180
       }
     }
   }

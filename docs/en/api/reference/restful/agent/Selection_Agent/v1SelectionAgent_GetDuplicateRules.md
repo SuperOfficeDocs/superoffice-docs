@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Bayer-Bergnaum",
-    "DisplayName": "Tremblay, O'Hara and Herman",
-    "DisplayTooltip": "ipsum",
+    "Name": "Mohr, Langosh and Luettgen",
+    "DisplayName": "Hoeger-O'Keefe",
+    "DisplayTooltip": "necessitatibus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldLength": 866
       }
     }
   },
   {
-    "Name": "Bayer-Bergnaum",
-    "DisplayName": "Tremblay, O'Hara and Herman",
-    "DisplayTooltip": "ipsum",
+    "Name": "Mohr, Langosh and Luettgen",
+    "DisplayName": "Hoeger-O'Keefe",
+    "DisplayTooltip": "necessitatibus",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldLength": 866
       }
     }
   }

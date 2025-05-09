@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Reason/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Reason/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 75,
-    "Name": "Beatty, Parisian and Gottlieb",
-    "ToolTip": "Laborum beatae praesentium ipsam ea.",
+    "Id": 376,
+    "Name": "Mitchell-Hammes",
+    "ToolTip": "Autem ipsam nam eveniet ad molestiae quas quibusdam.",
     "Deleted": false,
-    "Rank": 144,
-    "Type": "est",
-    "ColorBlock": 446,
-    "IconHint": "ducimus",
-    "Selected": true,
-    "LastChanged": "2011-04-06T13:14:10.0254136+02:00",
+    "Rank": 922,
+    "Type": "facere",
+    "ColorBlock": 578,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2002-06-11T16:32:48.9151006+02:00",
     "ChildItems": [
       {
-        "Id": 767,
-        "Name": "Bashirian LLC",
-        "ToolTip": "Atque dolor enim maiores id perspiciatis voluptate.",
+        "Id": 787,
+        "Name": "Bergnaum-Bartoletti",
+        "ToolTip": "Aut quia et.",
         "Deleted": false,
-        "Rank": 71,
-        "Type": "facere",
-        "ColorBlock": 966,
-        "IconHint": "voluptas",
-        "Selected": true,
-        "LastChanged": "2002-01-16T13:14:10.0254136+01:00",
+        "Rank": 920,
+        "Type": "mollitia",
+        "ColorBlock": 596,
+        "IconHint": "asperiores",
+        "Selected": false,
+        "LastChanged": "2024-05-02T16:32:48.9151006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "deleniti",
-        "Hidden": true,
-        "FullName": "Dale Nicolas V",
+        "ExtraInfo": "veniam",
+        "StyleHint": "facilis",
+        "Hidden": false,
+        "FullName": "Miss Rosamond Littel DVM",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 111
+            "FieldType": "System.String",
+            "FieldLength": 91
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "nulla",
-    "Hidden": false,
-    "FullName": "Ms. Sadie Marcelina Gaylord",
+    "ExtraInfo": "ut",
+    "StyleHint": "animi",
+    "Hidden": true,
+    "FullName": "Mrs. Larissa Little",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldLength": 707
       }
     }
   }

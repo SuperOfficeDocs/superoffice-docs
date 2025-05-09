@@ -73,14 +73,14 @@ OK
 POST /api/v1/Agents/Configuration/GetAnyConfiguration
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Application": "similique",
-  "Instance": "fuga",
-  "Item": "omnis",
-  "Type": "et"
+  "Application": "molestiae",
+  "Instance": "aliquam",
+  "Item": "consequatur",
+  "Type": "in"
 }
 ```
 
@@ -90,5 +90,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"ad"
+"consequatur"
 ```

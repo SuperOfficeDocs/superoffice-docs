@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Credited/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 1000,
-    "Name": "Murphy-Wiza",
-    "ToolTip": "Molestiae aut sunt excepturi ab.",
-    "Deleted": true,
-    "Rank": 274,
-    "Type": "in",
-    "ColorBlock": 328,
-    "IconHint": "numquam",
+    "Id": 56,
+    "Name": "Larkin LLC",
+    "ToolTip": "Fugiat officia illum cum.",
+    "Deleted": false,
+    "Rank": 999,
+    "Type": "a",
+    "ColorBlock": 99,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2020-03-20T13:14:09.7128949+01:00",
+    "LastChanged": "2002-02-09T16:32:48.6182885+01:00",
     "ChildItems": [
       {
-        "Id": 66,
-        "Name": "Schoen Group",
-        "ToolTip": "Harum non.",
+        "Id": 847,
+        "Name": "Ziemann, Hyatt and Bosco",
+        "ToolTip": "Beatae similique et.",
         "Deleted": false,
-        "Rank": 860,
-        "Type": "hic",
-        "ColorBlock": 369,
-        "IconHint": "rem",
+        "Rank": 721,
+        "Type": "aut",
+        "ColorBlock": 336,
+        "IconHint": "voluptatibus",
         "Selected": false,
-        "LastChanged": "2003-03-05T13:14:09.7128949+01:00",
+        "LastChanged": "2014-10-03T16:32:48.6182885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "praesentium",
-        "Hidden": true,
-        "FullName": "Kaelyn Boyle MD"
+        "ExtraInfo": "explicabo",
+        "StyleHint": "modi",
+        "Hidden": false,
+        "FullName": "Alverta Streich"
       }
     ],
-    "ExtraInfo": "a",
-    "StyleHint": "sed",
+    "ExtraInfo": "quas",
+    "StyleHint": "nobis",
     "Hidden": false,
-    "FullName": "Delphine Padberg"
+    "FullName": "Mrs. Arnoldo Bergstrom DVM"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 833,
-    "Name": "Bartell, Crooks and Olson",
-    "ToolTip": "Illum suscipit.",
+    "Id": 591,
+    "Name": "Eichmann, Stark and Bogisich",
+    "ToolTip": "Quas odio nesciunt laudantium ex temporibus.",
     "Deleted": false,
-    "Rank": 875,
-    "Type": "dolor",
-    "ColorBlock": 954,
-    "IconHint": "eum",
+    "Rank": 346,
+    "Type": "sapiente",
+    "ColorBlock": 268,
+    "IconHint": "in",
     "Selected": false,
-    "LastChanged": "2017-12-11T13:14:09.7128949+01:00",
+    "LastChanged": "2011-09-23T16:32:48.6182885+02:00",
     "ChildItems": [
       {
-        "Id": 899,
-        "Name": "Collier, Cormier and Lehner",
-        "ToolTip": "Molestias recusandae.",
-        "Deleted": true,
-        "Rank": 337,
-        "Type": "recusandae",
-        "ColorBlock": 147,
-        "IconHint": "pariatur",
+        "Id": 201,
+        "Name": "Walker, Stark and Pfannerstill",
+        "ToolTip": "Animi vel ullam dolore.",
+        "Deleted": false,
+        "Rank": 975,
+        "Type": "corporis",
+        "ColorBlock": 94,
+        "IconHint": "necessitatibus",
         "Selected": false,
-        "LastChanged": "1999-11-13T13:14:09.7128949+01:00",
+        "LastChanged": "2016-09-11T16:32:48.6182885+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "laboriosam",
-        "Hidden": true,
-        "FullName": "Kaela Lindgren",
+        "ExtraInfo": "ipsa",
+        "StyleHint": "molestiae",
+        "Hidden": false,
+        "FullName": "Miss Tessie Kunze MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 521
+            "FieldLength": 502
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Julio Nader",
+    "ExtraInfo": "quos",
+    "StyleHint": "assumenda",
+    "Hidden": false,
+    "FullName": "Mrs. Lori O'Keefe IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 251
+        "FieldType": "System.Int32",
+        "FieldLength": 810
       }
     }
   }

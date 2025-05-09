@@ -88,27 +88,27 @@ OK
 POST /api/v1/ForeignApp
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 30,
-  "Name": "Medhurst Inc and Sons",
-  "CreatedDate": "2008-09-04T13:14:08.7428891+02:00",
-  "UpdatedDate": "2005-04-14T13:14:08.7428891+02:00",
+  "ForeignAppId": 902,
+  "Name": "Marvin, Kilback and Schaefer",
+  "CreatedDate": "1999-12-05T16:32:47.5402031+01:00",
+  "UpdatedDate": "2006-09-06T16:32:47.5402031+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 574,
-      "Name": "Barton-Jaskolski",
-      "CreatedDate": "2003-11-23T13:14:08.7428891+01:00",
-      "UpdatedDate": "2019-11-02T13:14:08.7428891+01:00",
-      "AssociateFullName": "Alfred Swift",
-      "CreatedBy": "possimus",
-      "UpdatedBy": "reprehenderit",
-      "DeviceIdentifier": "error",
-      "ForeignAppId": 344
+      "ForeignDeviceId": 129,
+      "Name": "Rowe-Jaskolski",
+      "CreatedDate": "2006-09-07T16:32:47.5402031+02:00",
+      "UpdatedDate": "2022-01-09T16:32:47.5402031+01:00",
+      "AssociateFullName": "Dr. Roger Glover DDS",
+      "CreatedBy": "magni",
+      "UpdatedBy": "consequatur",
+      "DeviceIdentifier": "veniam",
+      "ForeignAppId": 418
     }
   ]
 }
@@ -121,29 +121,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 903,
-  "Name": "Tromp-Altenwerth",
-  "CreatedDate": "2019-04-14T13:14:08.7428891+02:00",
-  "UpdatedDate": "2017-02-21T13:14:08.7428891+01:00",
+  "ForeignAppId": 738,
+  "Name": "Huels-Gottlieb",
+  "CreatedDate": "2007-09-17T16:32:47.5402031+02:00",
+  "UpdatedDate": "2021-01-12T16:32:47.5402031+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 669,
-      "Name": "Hamill, Hoppe and Zboncak",
-      "CreatedDate": "2001-08-05T13:14:08.7428891+02:00",
-      "UpdatedDate": "2017-06-15T13:14:08.7428891+02:00",
-      "AssociateFullName": "Ms. Mariah Kuvalis",
-      "CreatedBy": "ut",
-      "UpdatedBy": "iusto",
-      "DeviceIdentifier": "similique",
-      "ForeignAppId": 340,
+      "ForeignDeviceId": 185,
+      "Name": "Parker-Rice",
+      "CreatedDate": "2016-02-26T16:32:47.5402031+01:00",
+      "UpdatedDate": "2020-02-09T16:32:47.5402031+01:00",
+      "AssociateFullName": "Rowan Christiansen",
+      "CreatedBy": "voluptatem",
+      "UpdatedBy": "placeat",
+      "DeviceIdentifier": "numquam",
+      "ForeignAppId": 760,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 909
+          "FieldType": "System.String",
+          "FieldLength": 378
         }
       }
     }
@@ -153,12 +153,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 565
+      "FieldLength": 302
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

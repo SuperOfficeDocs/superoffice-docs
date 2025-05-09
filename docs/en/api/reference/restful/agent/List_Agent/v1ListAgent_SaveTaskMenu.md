@@ -89,24 +89,24 @@ OK
 POST /api/v1/Agents/List/SaveTaskMenu
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 428,
-  "Name": "Luettgen Inc and Sons",
-  "Tooltip": "commodi",
-  "TableName": "Jaskolski-Kuhlman",
-  "Area": "porro",
+  "TaskMenuId": 337,
+  "Name": "Bosco-Wilderman",
+  "Tooltip": "nisi",
+  "TableName": "Stokes-Bosco",
+  "Area": "voluptatem",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 733,
+  "CrmScriptId": 636,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 555,
+  "Rank": 39,
   "Encoding": "ANSI",
-  "ProgId": "exercitationem",
-  "Deleted": true
+  "ProgId": "consequatur",
+  "Deleted": false
 }
 ```
 
@@ -117,26 +117,26 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskMenuId": 895,
-  "Name": "Kilback LLC",
-  "Tooltip": "quod",
-  "TableName": "Jacobs-Corkery",
-  "Area": "aut",
+  "TaskMenuId": 99,
+  "Name": "Kiehn Inc and Sons",
+  "Tooltip": "nostrum",
+  "TableName": "Kirlin Group",
+  "Area": "molestiae",
   "UrlOrSoprotocol": "http://www.example.com/",
   "TaskType": "CrmScript",
-  "CrmScriptId": 774,
+  "CrmScriptId": 31,
   "ShowInClient": "Mobile",
   "ArchiveBehaviour": "InArchives",
-  "Rank": 818,
+  "Rank": 145,
   "Encoding": "ANSI",
-  "ProgId": "dolore",
+  "ProgId": "pariatur",
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 398
+      "FieldLength": 536
     }
   }
 }

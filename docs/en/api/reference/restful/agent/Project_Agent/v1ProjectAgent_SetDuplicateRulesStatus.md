@@ -70,16 +70,16 @@ Content-Type: application/json; charset=utf-8
 {
   "Rules": [
     {
-      "Name": "Auer-Feest",
-      "DisplayName": "Daugherty-Lockman",
-      "DisplayTooltip": "autem",
-      "IsActive": false
+      "Name": "Wuckert, Beier and DuBuque",
+      "DisplayName": "Leannon LLC",
+      "DisplayTooltip": "molestias",
+      "IsActive": true
     },
     {
-      "Name": "Auer-Feest",
-      "DisplayName": "Daugherty-Lockman",
-      "DisplayTooltip": "autem",
-      "IsActive": false
+      "Name": "Wuckert, Beier and DuBuque",
+      "DisplayName": "Leannon LLC",
+      "DisplayTooltip": "molestias",
+      "IsActive": true
     }
   ]
 }

@@ -306,6 +306,7 @@ so.envir: onsite, online
 | [reason](reason.md) |GenericMDOProvider reads MDO lists with default settings|
 | [reasonsold](reasonsold.md) |GenericMDOProvider reads MDO lists with default settings|
 | [reasonstalled](reasonstalled.md) |GenericMDOProvider reads MDO lists with default settings|
+| [recipientfavourite](recipientfavourite.md) |MDO list provider for Favourites|
 | [recordtype](recordtype.md) |A complete and generic mapping of record types to resource strings|
 | [recurrenceweekcycle](recurrenceweekcycle.md) |MDO provider for the hard-coded list of week cycle alternatives in the recurrence dialog.|
 | [rejectreason](rejectreason.md) |GenericMDOProvider reads MDO lists with default settings|

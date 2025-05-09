@@ -80,12 +80,12 @@ OK
 POST /api/v1/Agents/Selection/GetSelectionMembersArchiveRows
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 892,
-  "Select": "totam"
+  "SelectionId": 221,
+  "Select": "omnis"
 }
 ```
 
@@ -97,23 +97,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Rath, Kemmer and Heidenreich",
-    "PrimaryKey": 870,
+    "EntityName": "Rutherford, Bergstrom and Zboncak",
+    "PrimaryKey": 236,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "laudantium",
-        "TooltipHint": "quae",
-        "LinkHint": "natus"
+        "DisplayValue": "ab",
+        "TooltipHint": "tempore",
+        "LinkHint": "aut"
       }
     },
-    "LinkHint": "consequatur",
-    "StyleHint": "rerum",
+    "LinkHint": "voluptatum",
+    "StyleHint": "et",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 692
+        "FieldLength": 220
       }
     }
   }

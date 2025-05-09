@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/User/ChangeUserType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
@@ -116,14 +116,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 715,
-  "Name": "Gibson, Larson and Wehner",
-  "Rank": 355,
-  "Tooltip": "error",
+  "AssociateId": 952,
+  "Name": "Toy LLC",
+  "Rank": 740,
+  "Tooltip": "voluptate",
   "LicenseOwners": [
     {
-      "Name": "Rempel-Kiehn",
-      "Description": "Fully-configurable multimedia initiative",
+      "Name": "Braun, Runolfsson and Muller",
+      "Description": "Function-based real-time application",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -136,14 +136,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 790
         }
       }
     },
     {
-      "Name": "Rempel-Kiehn",
-      "Description": "Fully-configurable multimedia initiative",
+      "Name": "Braun, Runolfsson and Muller",
+      "Description": "Function-based real-time application",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -156,8 +156,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 60
+          "FieldType": "System.String",
+          "FieldLength": 790
         }
       }
     }
@@ -166,110 +166,110 @@ Content-Type: application/json; charset=utf-8
   "UserGroup": null,
   "OtherGroups": [
     {
-      "Value": "magnam",
-      "Tooltip": "qui",
-      "Id": 434,
-      "Rank": 91,
+      "Value": "necessitatibus",
+      "Tooltip": "ipsum",
+      "Id": 566,
+      "Rank": 797,
       "Deleted": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 740
+          "FieldLength": 225
         }
       }
     }
   ],
   "Person": null,
-  "Deleted": true,
-  "Lastlogin": "2022-08-11T13:14:01.6444424+02:00",
-  "Lastlogout": "2019-02-06T13:14:01.6444424+01:00",
-  "EjUserId": 643,
-  "RequestSignature": "odio",
+  "Deleted": false,
+  "Lastlogin": "2020-11-19T16:32:40.3988525+01:00",
+  "Lastlogout": "1999-08-15T16:32:40.3988525+02:00",
+  "EjUserId": 83,
+  "RequestSignature": "et",
   "Type": "AnonymousAssociate",
-  "IsPersonRetired": true,
+  "IsPersonRetired": false,
   "IsOnTravel": true,
   "Credentials": [
     {
       "Type": null,
-      "Value": "odio",
-      "DisplayValue": "incidunt",
+      "Value": "corporis",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 375
+          "FieldLength": 573
         }
       }
     },
     {
       "Type": null,
-      "Value": "odio",
-      "DisplayValue": "incidunt",
+      "Value": "corporis",
+      "DisplayValue": "eos",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 375
+          "FieldLength": 573
         }
       }
     }
   ],
-  "UserName": "Green, Morar and Stoltenberg",
+  "UserName": "Towne, Wintheiser and Nader",
   "TicketCategories": [
     {
-      "Id": 418,
-      "Name": "Williamson LLC",
-      "ToolTip": "Sed dolorem eligendi placeat sint fugit adipisci.",
-      "Deleted": false,
-      "Rank": 87,
-      "Type": "enim",
+      "Id": 983,
+      "Name": "Wilderman, Bahringer and Christiansen",
+      "ToolTip": "Eos illum repellendus dolorum asperiores libero qui itaque.",
+      "Deleted": true,
+      "Rank": 720,
+      "Type": "eum",
       "ChildItems": [
         {},
         {}
       ],
-      "IconHint": "laborum",
-      "ColorBlock": 953,
-      "ExtraInfo": "quibusdam",
-      "StyleHint": "excepturi",
-      "FullName": "Mr. Delbert Casandra Stoltenberg Sr.",
+      "IconHint": "assumenda",
+      "ColorBlock": 554,
+      "ExtraInfo": "repudiandae",
+      "StyleHint": "tempore",
+      "FullName": "Annabell McKenzie",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 128
+          "FieldType": "System.Int32",
+          "FieldLength": 102
         }
       }
     }
   ],
-  "NickName": "Jakubowski Inc and Sons",
+  "NickName": "McCullough LLC",
   "WaitingForApproval": false,
   "ExtraFields": {
-    "ExtraFields1": "nobis",
-    "ExtraFields2": "sequi"
+    "ExtraFields1": "in",
+    "ExtraFields2": "facere"
   },
   "CustomFields": {
-    "CustomFields1": "unde",
-    "CustomFields2": "quia"
+    "CustomFields1": "sit",
+    "CustomFields2": "qui"
   },
   "PostSaveCommands": [
     {
-      "Name": "Kreiger Inc and Sons",
-      "DisplayName": "Leannon, Greenholt and Quitzon",
-      "Description": "Public-key next generation structure",
-      "ToolTip": "Iusto soluta animi similique.",
+      "Name": "Baumbach-Frami",
+      "DisplayName": "Dietrich LLC",
+      "Description": "Synergistic impactful model",
+      "ToolTip": "Iure neque voluptas.",
       "Actions": "Implicit",
-      "ActionData": "veritatis",
+      "ActionData": "fugiat",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 606
+          "FieldLength": 970
         }
       }
     }
@@ -279,7 +279,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 235
+      "FieldLength": 6
     }
   }
 }

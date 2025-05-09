@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Business/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 812,
-    "Name": "Oberbrunner, McLaughlin and Pouros",
-    "ToolTip": "Doloribus quos laudantium accusantium necessitatibus aut ipsa voluptas.",
+    "Id": 237,
+    "Name": "Leffler-Reichert",
+    "ToolTip": "Hic id perferendis accusantium unde blanditiis.",
     "Deleted": false,
-    "Rank": 615,
-    "Type": "modi",
-    "ColorBlock": 833,
-    "IconHint": "distinctio",
-    "Selected": true,
-    "LastChanged": "2001-03-23T13:14:09.6191319+01:00",
+    "Rank": 892,
+    "Type": "sequi",
+    "ColorBlock": 514,
+    "IconHint": "quis",
+    "Selected": false,
+    "LastChanged": "2013-07-10T16:32:48.5245595+02:00",
     "ChildItems": [
       {
-        "Id": 376,
-        "Name": "Morar Group",
-        "ToolTip": "Totam recusandae accusantium eaque corrupti.",
-        "Deleted": true,
-        "Rank": 924,
-        "Type": "aut",
-        "ColorBlock": 338,
-        "IconHint": "enim",
+        "Id": 708,
+        "Name": "Stracke, Jaskolski and Wiegand",
+        "ToolTip": "Sapiente quisquam.",
+        "Deleted": false,
+        "Rank": 426,
+        "Type": "eos",
+        "ColorBlock": 930,
+        "IconHint": "cum",
         "Selected": false,
-        "LastChanged": "2008-02-21T13:14:09.6191319+01:00",
+        "LastChanged": "2003-10-15T16:32:48.5245595+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "atque",
-        "StyleHint": "inventore",
+        "ExtraInfo": "qui",
+        "StyleHint": "aut",
         "Hidden": false,
-        "FullName": "Ben Anderson II"
+        "FullName": "Esteban Johnston"
       }
     ],
-    "ExtraInfo": "ut",
-    "StyleHint": "voluptas",
-    "Hidden": false,
-    "FullName": "Mireya Greenholt"
+    "ExtraInfo": "qui",
+    "StyleHint": "aspernatur",
+    "Hidden": true,
+    "FullName": "Amber O'Connell"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 494,
-    "Name": "Olson-Runolfsdottir",
-    "ToolTip": "Recusandae blanditiis incidunt ex non qui veniam eaque.",
+    "Id": 862,
+    "Name": "Harber Inc and Sons",
+    "ToolTip": "Est esse.",
     "Deleted": false,
-    "Rank": 966,
-    "Type": "repellendus",
-    "ColorBlock": 579,
-    "IconHint": "minus",
+    "Rank": 839,
+    "Type": "maxime",
+    "ColorBlock": 389,
+    "IconHint": "optio",
     "Selected": false,
-    "LastChanged": "2018-08-27T13:14:09.6191319+02:00",
+    "LastChanged": "2022-12-30T16:32:48.5245595+01:00",
     "ChildItems": [
       {
-        "Id": 761,
-        "Name": "Wiegand, Lockman and Fay",
-        "ToolTip": "Fugiat voluptatum aut voluptate eum explicabo non.",
+        "Id": 8,
+        "Name": "Purdy, Collins and Shanahan",
+        "ToolTip": "Dignissimos suscipit assumenda voluptate aut ex rerum.",
         "Deleted": false,
-        "Rank": 297,
-        "Type": "nesciunt",
-        "ColorBlock": 733,
-        "IconHint": "ipsam",
-        "Selected": true,
-        "LastChanged": "2010-04-04T13:14:09.6191319+02:00",
+        "Rank": 906,
+        "Type": "aut",
+        "ColorBlock": 185,
+        "IconHint": "porro",
+        "Selected": false,
+        "LastChanged": "2023-07-29T16:32:48.5245595+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "qui",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Isaac Hickle",
+        "ExtraInfo": "quae",
+        "StyleHint": "porro",
+        "Hidden": true,
+        "FullName": "Reinhold Strosin",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 958
+            "FieldLength": 795
           }
         }
       }
     ],
-    "ExtraInfo": "maiores",
-    "StyleHint": "nihil",
+    "ExtraInfo": "sit",
+    "StyleHint": "et",
     "Hidden": false,
-    "FullName": "Prof. Kellen Auer II",
+    "FullName": "Gladys Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 244
+        "FieldType": "System.String",
+        "FieldLength": 563
       }
     }
   }

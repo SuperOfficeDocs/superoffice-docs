@@ -71,8 +71,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "velit",
-  "PublicValue": "maxime"
+  "Type": "doloribus",
+  "PublicValue": "consequatur"
 }
 ```
 

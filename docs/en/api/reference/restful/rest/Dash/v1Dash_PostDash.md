@@ -100,34 +100,34 @@ OK
 POST /api/v1/Dash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 692,
-  "UniqueId": "unde",
-  "Name": "Russel LLC",
-  "Description": "Mandatory discrete pricing structure",
-  "AssociateId": 952,
-  "Columns": 977,
+  "DashboardId": 538,
+  "UniqueId": "recusandae",
+  "Name": "Leuschke-Bergnaum",
+  "Description": "Self-enabling directional projection",
+  "AssociateId": 254,
+  "Columns": 157,
   "Theme": null,
-  "VisibleForAll": 166,
+  "VisibleForAll": 352,
   "VisibleForAssociates": [
-    470,
-    863
+    258,
+    550
   ],
   "VisibleForGroups": [
-    661,
-    183
+    876,
+    693
   ],
-  "PinForAll": 930,
+  "PinForAll": 709,
   "PinForAssociates": [
-    31,
-    252
+    512,
+    862
   ],
   "PinForGroups": [
-    293,
-    984
+    579,
+    938
   ]
 }
 ```
@@ -139,37 +139,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 131,
-  "UniqueId": "atque",
-  "Name": "Mosciski-Jacobi",
-  "Description": "Monitored clear-thinking hub",
-  "AssociateId": 29,
-  "Columns": 1000,
+  "DashboardId": 943,
+  "UniqueId": "id",
+  "Name": "Rosenbaum-Heller",
+  "Description": "Organized composite throughput",
+  "AssociateId": 516,
+  "Columns": 231,
   "Theme": null,
-  "VisibleForAll": 713,
+  "VisibleForAll": 201,
   "VisibleForAssociates": [
-    472,
-    570
+    694,
+    925
   ],
   "VisibleForGroups": [
-    760,
-    682
+    501,
+    393
   ],
-  "PinForAll": 441,
+  "PinForAll": 47,
   "PinForAssociates": [
-    687,
-    44
+    571,
+    263
   ],
   "PinForGroups": [
-    863,
-    241
+    262,
+    902
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 489
+      "FieldType": "System.String",
+      "FieldLength": 815
     }
   },
   "_Links": {

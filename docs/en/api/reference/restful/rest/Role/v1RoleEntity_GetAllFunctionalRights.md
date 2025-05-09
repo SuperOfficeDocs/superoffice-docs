@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}/FunctionRight
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 912,
-    "Name": "Rutherford-Gusikowski",
-    "ToolTip": "Voluptatum dolores quia aliquid perspiciatis qui non rerum.",
+    "Id": 889,
+    "Name": "Ernser, Gerhold and Hegmann",
+    "ToolTip": "Qui vitae.",
     "Deleted": false,
-    "Rank": 800,
-    "Type": "deserunt",
-    "ColorBlock": 116,
-    "IconHint": "quia",
+    "Rank": 24,
+    "Type": "eligendi",
+    "ColorBlock": 250,
+    "IconHint": "vitae",
     "Selected": false,
-    "LastChanged": "2023-12-30T13:14:09.0555114+01:00",
+    "LastChanged": "2015-03-19T16:32:47.7745258+01:00",
     "ChildItems": [
       {
-        "Id": 986,
-        "Name": "Upton, Okuneva and Kunde",
-        "ToolTip": "Fugit ipsa numquam adipisci at aliquid dolores.",
+        "Id": 338,
+        "Name": "Ferry, Durgan and Reichert",
+        "ToolTip": "Animi ut rem vitae adipisci impedit deserunt.",
         "Deleted": true,
-        "Rank": 125,
-        "Type": "repudiandae",
-        "ColorBlock": 430,
-        "IconHint": "et",
-        "Selected": false,
-        "LastChanged": "2025-02-06T13:14:09.0555114+01:00",
+        "Rank": 948,
+        "Type": "reiciendis",
+        "ColorBlock": 910,
+        "IconHint": "itaque",
+        "Selected": true,
+        "LastChanged": "2007-07-20T16:32:47.7745258+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eligendi",
-        "StyleHint": "fugiat",
-        "Hidden": false,
-        "FullName": "Lelia Steuber",
+        "ExtraInfo": "omnis",
+        "StyleHint": "dolorem",
+        "Hidden": true,
+        "FullName": "Aiden Hirthe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 30
+            "FieldType": "System.Int32",
+            "FieldLength": 384
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "veniam",
+    "ExtraInfo": "reprehenderit",
+    "StyleHint": "corporis",
     "Hidden": false,
-    "FullName": "Roslyn Harris",
+    "FullName": "Eldora Muller",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 57
+        "FieldLength": 882
       }
     }
   }

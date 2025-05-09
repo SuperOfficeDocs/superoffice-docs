@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/PaymentTerm/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 252,
-  "Name": "Lubowitz LLC",
-  "Tooltip": "inventore",
+  "Id": 726,
+  "Name": "Labadie-Gottlieb",
+  "Tooltip": "vel",
   "Deleted": false,
-  "UdListDefinitionId": 745,
-  "Rank": 324,
+  "UdListDefinitionId": 525,
+  "Rank": 262,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 956
+      "FieldLength": 422
     }
   }
 }

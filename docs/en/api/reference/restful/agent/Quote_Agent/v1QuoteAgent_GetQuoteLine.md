@@ -125,7 +125,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 636
+  "QuoteLineId": 945
 }
 ```
 
@@ -136,88 +136,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 728,
-  "ERPQuoteLineKey": "dignissimos",
-  "QuoteAlternativeId": 143,
-  "ERPProductKey": "quidem",
+  "QuoteLineId": 933,
+  "ERPQuoteLineKey": "id",
+  "QuoteAlternativeId": 950,
+  "ERPProductKey": "repellendus",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 16967.476,
-  "DeliveredQuantity": 5481.366,
-  "Rank": 53,
-  "Name": "Beatty-Crona",
-  "Description": "Cross-platform secondary encoding",
-  "Code": "voluptatum",
-  "QuantityUnit": "et",
-  "PriceUnit": "eum",
-  "ItemNumber": "891412",
+  "Quantity": 22846.86,
+  "DeliveredQuantity": 23395.309999999998,
+  "Rank": 608,
+  "Name": "Schaefer-Gibson",
+  "Description": "Balanced context-sensitive intranet",
+  "Code": "placeat",
+  "QuantityUnit": "ratione",
+  "PriceUnit": "et",
+  "ItemNumber": "541374",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "sit",
-  "ProductTypeKey": "explicabo",
-  "Supplier": "enim",
-  "SupplierCode": "eum",
-  "Thumbnail": "nam",
-  "VATInfo": "blanditiis",
-  "VAT": 24567.426,
-  "UnitCost": 25517.028,
-  "UnitMinimumPrice": 20242.505999999998,
-  "UnitListPrice": 28384.638,
+  "ProductFamilyKey": "fuga",
+  "ProductTypeKey": "doloremque",
+  "Supplier": "dicta",
+  "SupplierCode": "ea",
+  "Thumbnail": "quasi",
+  "VATInfo": "optio",
+  "VAT": 5540.912,
+  "UnitCost": 8552.686,
+  "UnitMinimumPrice": 30359.057999999997,
+  "UnitListPrice": 10671.27,
   "ExtraInfo": [
     {
-      "Name": "Wisoky LLC",
-      "Value": "illo",
+      "Name": "Glover-Boehm",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 846
+          "FieldType": "System.Int32",
+          "FieldLength": 801
         }
       }
     },
     {
-      "Name": "Wisoky LLC",
-      "Value": "illo",
+      "Name": "Glover-Boehm",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 846
+          "FieldType": "System.Int32",
+          "FieldLength": 801
         }
       }
     }
   ],
-  "RawExtraInfo": "aut",
+  "RawExtraInfo": "qui",
   "IsSubscription": false,
-  "SubscriptionUnit": "voluptatem",
-  "SubscriptionQuantity": 17227.597999999998,
-  "SubscriptionStart": "2015-12-12T13:14:01.017639+01:00",
-  "ERPDiscountPercent": 16933.002,
-  "ERPDiscountAmount": 13833.475999999999,
-  "DiscountPercent": 24523.55,
-  "DiscountAmount": 26466.629999999997,
+  "SubscriptionUnit": "ipsa",
+  "SubscriptionQuantity": 1203.456,
+  "SubscriptionStart": "2024-04-09T16:32:39.7583671+02:00",
+  "ERPDiscountPercent": 26852.111999999997,
+  "ERPDiscountAmount": 285.194,
+  "DiscountPercent": 24416.994,
+  "DiscountAmount": 27105.966,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 21358.21,
-  "EarningAmount": 17760.378,
-  "SubTotal": 31296.124,
-  "TotalPrice": 29500.342,
-  "Rights": "ad",
-  "Rule": "enim",
-  "ExtraField1": "magni",
-  "ExtraField2": "eligendi",
-  "ExtraField3": "similique",
-  "ExtraField4": "et",
-  "ExtraField5": "vitae",
+  "EarningPercent": 20728.275999999998,
+  "EarningAmount": 6173.98,
+  "SubTotal": 1034.22,
+  "TotalPrice": 14645.181999999999,
+  "Rights": "sapiente",
+  "Rule": "aut",
+  "ExtraField1": "velit",
+  "ExtraField2": "sequi",
+  "ExtraField3": "facere",
+  "ExtraField4": "laudantium",
+  "ExtraField5": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 475
+      "FieldType": "System.String",
+      "FieldLength": 400
     }
   }
 }

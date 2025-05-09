@@ -138,18 +138,18 @@ ChatSessionEntity  updated.
 PATCH /api/v1/ChatSession/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "omnis",
+    "path": "qui",
     "value": {}
   },
   {
     "op": "add",
-    "path": "omnis",
+    "path": "qui",
     "value": {}
   }
 ]
@@ -162,43 +162,43 @@ HTTP/1.1 200 ChatSessionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 367,
-  "TopicId": 56,
+  "ChatSessionId": 282,
+  "TopicId": 126,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "aliquid",
-  "CustomerName": "Greenfelder, Roob and Welch",
-  "CustomerEmail": "paolo@rohan.us",
-  "CustomerPhone": "1-972-695-9159 x95048",
-  "CustomerConsented": false,
-  "CustomerCompanyName": "Flatley Group",
+  "CustomerAlias": "magni",
+  "CustomerHost": "sed",
+  "CustomerName": "Zboncak-Berge",
+  "CustomerEmail": "modesta@toy.ca",
+  "CustomerPhone": "1-923-276-1260",
+  "CustomerConsented": true,
+  "CustomerCompanyName": "Altenwerth-Kovacek",
   "Status": "Closed",
-  "FirstMessage": "sit",
-  "LastMessage": "nobis",
-  "WhenRequested": "2013-07-04T13:14:08.3991159+02:00",
-  "WhenStarted": "2019-06-26T13:14:08.3991159+02:00",
-  "WhenEnded": "2014-03-04T13:14:08.3991159+01:00",
-  "WhenIdle": "2016-10-28T13:14:08.3991159+02:00",
-  "WhenFetched": "1998-12-01T13:14:08.3991159+01:00",
-  "SessionKey": "vero",
-  "InitialQueuePos": 262,
-  "AlertLevel": 407,
-  "Rank": 793,
+  "FirstMessage": "et",
+  "LastMessage": "fugiat",
+  "WhenRequested": "2019-02-22T16:32:47.1648994+01:00",
+  "WhenStarted": "2015-08-23T16:32:47.1648994+02:00",
+  "WhenEnded": "2006-12-02T16:32:47.1648994+01:00",
+  "WhenIdle": "2001-06-02T16:32:47.1648994+02:00",
+  "WhenFetched": "2007-12-07T16:32:47.1648994+01:00",
+  "SessionKey": "sunt",
+  "InitialQueuePos": 470,
+  "AlertLevel": 660,
+  "Rank": 825,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
   "Sale": null,
   "Ticket": null,
   "TransferTo": null,
-  "ChatbotIsActive": false,
-  "Rating": 648,
+  "ChatbotIsActive": true,
+  "Rating": 119,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 132
+      "FieldLength": 481
     }
   },
   "_Links": {

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/SaleType/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 201,
-    "Name": "Hintz Group",
-    "ToolTip": "Voluptates sint dolorem.",
+    "Id": 118,
+    "Name": "Hoppe, Bartell and Harvey",
+    "ToolTip": "Dolores omnis magnam sequi officiis vel unde.",
     "Deleted": false,
-    "Rank": 844,
-    "Type": "eos",
-    "ColorBlock": 740,
-    "IconHint": "quia",
+    "Rank": 446,
+    "Type": "ab",
+    "ColorBlock": 456,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2002-12-12T13:14:10.0722914+01:00",
+    "LastChanged": "2013-08-22T16:32:48.9619631+02:00",
     "ChildItems": [
       {
-        "Id": 757,
-        "Name": "Runolfsson-Mayert",
-        "ToolTip": "Sequi libero maiores tempora ab.",
-        "Deleted": true,
-        "Rank": 885,
-        "Type": "libero",
-        "ColorBlock": 387,
-        "IconHint": "sit",
+        "Id": 113,
+        "Name": "Casper LLC",
+        "ToolTip": "Fugiat aut commodi voluptates dolorum.",
+        "Deleted": false,
+        "Rank": 617,
+        "Type": "ut",
+        "ColorBlock": 425,
+        "IconHint": "praesentium",
         "Selected": false,
-        "LastChanged": "2016-06-11T13:14:10.0722914+02:00",
+        "LastChanged": "2020-07-20T16:32:48.9619631+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "eum",
-        "StyleHint": "et",
+        "ExtraInfo": "eligendi",
+        "StyleHint": "eos",
         "Hidden": false,
-        "FullName": "Jessie Dooley",
+        "FullName": "Bailey Gottlieb",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 892
+            "FieldLength": 50
           }
         }
       }
     ],
-    "ExtraInfo": "vel",
-    "StyleHint": "sed",
-    "Hidden": false,
-    "FullName": "Dr. Stephon Armstrong",
+    "ExtraInfo": "molestias",
+    "StyleHint": "harum",
+    "Hidden": true,
+    "FullName": "Virgil Krajcik",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 583
+        "FieldType": "System.String",
+        "FieldLength": 57
       }
     }
   }

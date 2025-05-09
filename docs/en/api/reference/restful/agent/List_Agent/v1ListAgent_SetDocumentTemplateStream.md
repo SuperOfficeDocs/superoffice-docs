@@ -102,14 +102,14 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateStream
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "DocumentTemplateEntity": null,
   "Stream": "GIF89....File contents as raw bytes...",
-  "LanguageCode": "tempora",
-  "PluginId": 172
+  "LanguageCode": "molestias",
+  "PluginId": 386
 }
 ```
 
@@ -120,37 +120,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 834,
-  "Name": "Kuhic LLC",
-  "Tooltip": "deserunt",
-  "SaveInDb": 453,
-  "Filename": "pariatur",
-  "DefaultOref": "quisquam",
+  "DocumentTemplateId": 565,
+  "Name": "Kiehn LLC",
+  "Tooltip": "quod",
+  "SaveInDb": 327,
+  "Filename": "temporibus",
+  "DefaultOref": "accusantium",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 183,
-  "IntentId": 502,
-  "IsDefaultPublished": true,
-  "Rank": 342,
-  "LoadTemplateFromPlugin": 613,
-  "MimeType": "qui",
+  "AutoeventId": 341,
+  "IntentId": 74,
+  "IsDefaultPublished": false,
+  "Rank": 986,
+  "LoadTemplateFromPlugin": 493,
+  "MimeType": "voluptatem",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 938,
+  "DocumentTypeKey": 340,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "tania.bergstrom@goldner.ca",
+  "EmailSubject": "wade.ohara@collins.com",
   "IncludeSignature": true,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "nick_homenick@daniel.us",
+  "SenderEmailAddress": "julian.predovic@labadie.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 600
+      "FieldType": "System.String",
+      "FieldLength": 219
     }
   }
 }

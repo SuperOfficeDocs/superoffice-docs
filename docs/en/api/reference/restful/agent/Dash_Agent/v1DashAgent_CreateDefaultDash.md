@@ -79,37 +79,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 897,
-  "UniqueId": "cupiditate",
-  "Name": "Kiehn LLC",
-  "Description": "Ameliorated 5th generation standardization",
-  "AssociateId": 141,
-  "Columns": 335,
+  "DashboardId": 346,
+  "UniqueId": "praesentium",
+  "Name": "Kirlin-Vandervort",
+  "Description": "Balanced 24/7 concept",
+  "AssociateId": 326,
+  "Columns": 168,
   "Theme": null,
-  "VisibleForAll": 954,
+  "VisibleForAll": 116,
   "VisibleForAssociates": [
-    557,
-    644
+    854,
+    123
   ],
   "VisibleForGroups": [
-    826,
-    87
+    96,
+    243
   ],
-  "PinForAll": 656,
+  "PinForAll": 575,
   "PinForAssociates": [
-    284,
-    948
+    931,
+    93
   ],
   "PinForGroups": [
-    307,
-    308
+    833,
+    553
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 886
+      "FieldType": "System.Int32",
+      "FieldLength": 982
     }
   }
 }

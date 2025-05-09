@@ -87,20 +87,20 @@ OK
 PUT /api/v1/Script/{uniqueIdentifier}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "asperiores",
-  "Name": "Jaskolski Inc and Sons",
-  "Description": "Re-engineered grid-enabled parallelism",
-  "IncludeId": "magnam",
-  "Source": "error",
-  "Registered": "2001-02-28T13:14:09.4936298+01:00",
-  "RegisteredBy": "eligendi",
-  "Updated": "2020-11-05T13:14:09.4936298+01:00",
+  "UniqueIdentifier": "iste",
+  "Name": "Skiles Group",
+  "Description": "Diverse discrete help-desk",
+  "IncludeId": "rerum",
+  "Source": "sunt",
+  "Registered": "2019-12-19T16:32:48.3995893+01:00",
+  "RegisteredBy": "est",
+  "Updated": "2006-12-28T16:32:48.3995893+01:00",
   "UpdatedBy": "ut",
-  "Path": "nihil"
+  "Path": "sit"
 }
 ```
 
@@ -111,22 +111,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UniqueIdentifier": "aut",
-  "Name": "Boyer-Kuphal",
-  "Description": "Enterprise-wide motivating secured line",
-  "IncludeId": "eveniet",
-  "Source": "non",
-  "Registered": "2007-03-19T13:14:09.4936298+01:00",
-  "RegisteredBy": "non",
-  "Updated": "2020-10-18T13:14:09.4936298+02:00",
-  "UpdatedBy": "cupiditate",
-  "Path": "cum",
+  "UniqueIdentifier": "voluptatem",
+  "Name": "Huel Group",
+  "Description": "Re-contextualized hybrid analyzer",
+  "IncludeId": "labore",
+  "Source": "quo",
+  "Registered": "2016-05-13T16:32:48.3995893+02:00",
+  "RegisteredBy": "sed",
+  "Updated": "2010-04-20T16:32:48.3995893+02:00",
+  "UpdatedBy": "nostrum",
+  "Path": "accusantium",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 256
+      "FieldType": "System.Int32",
+      "FieldLength": 312
     }
   }
 }

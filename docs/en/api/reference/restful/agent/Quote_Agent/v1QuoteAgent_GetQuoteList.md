@@ -81,7 +81,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteListType": "adipisci"
+  "QuoteListType": "et"
 }
 ```
 
@@ -93,28 +93,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ERPQuoteListItemKey": "alias",
-    "DisplayValue": "vel",
-    "DisplayDescription": "Fully-configurable zero defect system engine",
+    "ERPQuoteListItemKey": "ut",
+    "DisplayValue": "reiciendis",
+    "DisplayDescription": "Pre-emptive composite framework",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldType": "System.String",
+        "FieldLength": 755
       }
     }
   },
   {
-    "ERPQuoteListItemKey": "alias",
-    "DisplayValue": "vel",
-    "DisplayDescription": "Fully-configurable zero defect system engine",
+    "ERPQuoteListItemKey": "ut",
+    "DisplayValue": "reiciendis",
+    "DisplayDescription": "Pre-emptive composite framework",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 945
+        "FieldType": "System.String",
+        "FieldLength": 755
       }
     }
   }

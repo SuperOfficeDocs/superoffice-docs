@@ -74,17 +74,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ServerName": "Kessler LLC",
-  "UserName": "Hane-Kreiger",
-  "Password": "corrupti",
-  "Folder": "non",
+  "ServerName": "Osinski Group",
+  "UserName": "Wunsch Group",
+  "Password": "voluptas",
+  "Folder": "aut",
   "UseSSL": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 71
+      "FieldType": "System.String",
+      "FieldLength": 587
     }
   }
 }

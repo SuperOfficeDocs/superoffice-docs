@@ -83,20 +83,20 @@ OK
 POST /api/v1/Agents/CRMScript/SaveTriggerScriptEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 913,
-  "Name": "Homenick, Olson and Carroll",
+  "ScreenChooserId": 534,
+  "Name": "Reinger-Hintz",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "ut",
-  "Source": "eaque",
-  "Registered": "2017-05-25T13:14:00.0033265+02:00",
-  "RegisteredAssociateId": 58,
-  "Updated": "2020-10-23T13:14:00.0033265+02:00",
-  "UpdatedAssociateId": 633
+  "Enabled": false,
+  "UniqueIdentifier": "est",
+  "Source": "a",
+  "Registered": "2020-08-19T16:32:38.5552758+02:00",
+  "RegisteredAssociateId": 189,
+  "Updated": "2010-02-11T16:32:38.5552758+01:00",
+  "UpdatedAssociateId": 576
 }
 ```
 
@@ -107,22 +107,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ScreenChooserId": 47,
-  "Name": "Gerlach LLC",
+  "ScreenChooserId": 451,
+  "Name": "Zboncak-Turcotte",
   "ScreenType": "ChatAfterSaveNewMessage",
-  "Enabled": true,
-  "UniqueIdentifier": "ipsa",
-  "Source": "vero",
-  "Registered": "2000-05-21T13:14:00.0033265+02:00",
-  "RegisteredAssociateId": 419,
-  "Updated": "2006-07-31T13:14:00.0033265+02:00",
-  "UpdatedAssociateId": 768,
+  "Enabled": false,
+  "UniqueIdentifier": "doloribus",
+  "Source": "minima",
+  "Registered": "2011-03-28T16:32:38.5552758+02:00",
+  "RegisteredAssociateId": 155,
+  "Updated": "2005-09-29T16:32:38.5552758+02:00",
+  "UpdatedAssociateId": 272,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 395
+      "FieldType": "System.String",
+      "FieldLength": 183
     }
   }
 }

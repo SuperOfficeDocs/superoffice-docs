@@ -86,34 +86,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 10,
-  "Name": "Kovacek, Howell and Dicki",
-  "Tooltip": "odio",
-  "Deleted": false,
-  "Rank": 531,
+  "WebPanelId": 714,
+  "Name": "Keeling, Douglas and Lynch",
+  "Tooltip": "deleniti",
+  "Deleted": true,
+  "Rank": 519,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": false,
-  "OnTravel": false,
+  "OnCentral": false,
+  "OnSatellite": true,
+  "OnTravel": true,
   "OnSalesMarketingWeb": false,
-  "OnSalesMarketingPocket": false,
+  "OnSalesMarketingPocket": true,
   "ShowInMenuBar": false,
-  "ShowInToolBar": false,
-  "ShowInAddressBar": false,
+  "ShowInToolBar": true,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": false,
-  "WindowName": "Cummings, Jaskolski and Schroeder",
+  "WindowName": "Wuckert-Windler",
   "Url": "http://www.example.com/",
-  "ProgId": "totam",
-  "Icon": 839,
+  "ProgId": "harum",
+  "Icon": 966,
   "AlwaysReloadOnShow": false,
-  "NeverReloadOnCurrentChange": true,
+  "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 684
+      "FieldType": "System.String",
+      "FieldLength": 136
     }
   }
 }

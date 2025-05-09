@@ -68,7 +68,7 @@ OK
 GET /api/v1/Contact/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Conn, Dicki and Kassulke",
-    "DisplayName": "Kutch, Padberg and Macejkovic",
-    "Description": "Future-proofed composite implementation",
-    "ShortLabel": "sunt",
-    "HideLabel": false,
+    "FieldName": "O'Conner-Kshlerin",
+    "DisplayName": "Halvorson Group",
+    "Description": "Distributed assymetric info-mediaries",
+    "ShortLabel": "sed",
+    "HideLabel": true,
     "HideField": true,
-    "IsIndexed": false,
+    "IsIndexed": true,
     "IsMandatory": false,
     "IsReadOnly": false,
     "IsExternal": false,
-    "IsDisplayField": false,
-    "Rank": 642,
-    "TemplateVariableName": "Hessel-Lemke"
+    "IsDisplayField": true,
+    "Rank": 797,
+    "TemplateVariableName": "Beatty Group"
   }
 ]
 ```

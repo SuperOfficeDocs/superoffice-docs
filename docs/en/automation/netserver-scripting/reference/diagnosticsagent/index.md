@@ -28,6 +28,7 @@ Service methods defined on <see cref='T:IDiagnosticsAgent'>DiagnosticsAgent</see
 * [GetSystemMessages](getsystemmessages.md)
 * [GetWebAppUsagesForPeriod](getwebappusagesforperiod.md)
 * [LogViewState](logviewstate.md)
+* [PerformTasksAfterCustomObjectTableDeleted](performtasksaftercustomobjecttabledeleted.md)
 * [PerformTasksAfterUpgrade](performtasksafterupgrade.md)
 * [RemoveExpiredSystemMessages](removeexpiredsystemmessages.md)
 * [RemoveSystemMessage](removesystemmessage.md)

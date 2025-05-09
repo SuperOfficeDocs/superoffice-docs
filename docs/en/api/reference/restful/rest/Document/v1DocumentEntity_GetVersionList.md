@@ -65,7 +65,7 @@ OK
 GET /api/v1/Document/{documentId}/Version
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -76,17 +76,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ExternalReference": "sed",
-    "DocumentId": 515,
-    "VersionId": "necessitatibus",
-    "CheckedInDate": "2025-01-15T13:14:08.7272632+01:00",
-    "CheckedInByName": "Brekke Inc and Sons",
-    "CheckedInByAssociateId": 799,
-    "Description": "Progressive 24 hour standardization",
-    "DisplayText": "ut",
+    "ExternalReference": "sint",
+    "DocumentId": 143,
+    "VersionId": "in",
+    "CheckedInDate": "2022-07-12T16:32:47.5089608+02:00",
+    "CheckedInByName": "Hoppe-Koepp",
+    "CheckedInByAssociateId": 707,
+    "Description": "Stand-alone 5th generation support",
+    "DisplayText": "architecto",
     "ExtraFields": [
-      "delectus",
-      "aspernatur"
+      "quia",
+      "dignissimos"
     ]
   }
 ]

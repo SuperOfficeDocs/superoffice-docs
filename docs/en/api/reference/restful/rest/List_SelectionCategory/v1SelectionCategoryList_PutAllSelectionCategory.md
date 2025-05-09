@@ -73,25 +73,25 @@ OK
 PUT /api/v1/List/SelectionCategory/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 288,
-    "Name": "Veum, Gottlieb and Schimmel",
-    "Tooltip": "quia",
+    "Id": 940,
+    "Name": "Carroll Inc and Sons",
+    "Tooltip": "distinctio",
     "Deleted": false,
-    "UdListDefinitionId": 606,
-    "Rank": 417
+    "UdListDefinitionId": 764,
+    "Rank": 698
   },
   {
-    "Id": 288,
-    "Name": "Veum, Gottlieb and Schimmel",
-    "Tooltip": "quia",
+    "Id": 940,
+    "Name": "Carroll Inc and Sons",
+    "Tooltip": "distinctio",
     "Deleted": false,
-    "UdListDefinitionId": 606,
-    "Rank": 417
+    "UdListDefinitionId": 764,
+    "Rank": 698
   }
 ]
 ```
@@ -104,18 +104,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 693,
-    "Name": "Stracke-Ullrich",
-    "Tooltip": "deleniti",
+    "Id": 539,
+    "Name": "Bogan, Goldner and West",
+    "Tooltip": "hic",
     "Deleted": false,
-    "UdListDefinitionId": 876,
-    "Rank": 155,
+    "UdListDefinitionId": 109,
+    "Rank": 61,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 604
+        "FieldLength": 961
       }
     }
   }

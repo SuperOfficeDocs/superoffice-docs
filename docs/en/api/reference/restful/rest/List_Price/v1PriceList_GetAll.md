@@ -70,14 +70,14 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Pricelist?$select=name,department,category/id
 GET /api/v1/Pricelist?$filter=name begins 'S'
 GET /api/v1/Pricelist?$orderBy=name asc
-GET /api/v1/Pricelist?$entities=numquam
-GET /api/v1/Pricelist?$top=302
-GET /api/v1/Pricelist?$skip=515
+GET /api/v1/Pricelist?$entities=ut
+GET /api/v1/Pricelist?$top=759
+GET /api/v1/Pricelist?$skip=180
 GET /api/v1/Pricelist?$mode=Full
 GET /api/v1/Pricelist?$options=GrandTotal=true
-GET /api/v1/Pricelist?$context=et
+GET /api/v1/Pricelist?$context=iure
 GET /api/v1/Pricelist?$format=JSON
-GET /api/v1/Pricelist?$jsonSafe=True
+GET /api/v1/Pricelist?$jsonSafe=False
 GET /api/v1/Pricelist?$output=Display
 ```
 
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Pricelist
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "temporibus",
+  "odata.nextLink": "sit",
   "value": [
     {
-      "PrimaryKey": 5760,
+      "PrimaryKey": 5925,
       "EntityName": "person",
-      "personId": 5760,
-      "fullName": "Moshe Chaim Thompson II"
+      "personId": 5925,
+      "fullName": "Keaton Labadie"
     },
     {
-      "PrimaryKey": 7076,
+      "PrimaryKey": 5201,
       "EntityName": "person",
-      "personId": 7076,
-      "fullName": "Rylee Effertz"
+      "personId": 5201,
+      "fullName": "Lilliana Florence Bergstrom III"
     }
   ]
 }

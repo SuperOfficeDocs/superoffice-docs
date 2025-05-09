@@ -100,12 +100,12 @@ OK
 POST /api/v1/Agents/Sale/GetUpcomingSales
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WeightedAmountLimit": 265,
-  "Count": 233
+  "WeightedAmountLimit": 930,
+  "Count": 578
 }
 ```
 
@@ -117,37 +117,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactName": "Champlin-Schaden",
-    "SaleDate": "2009-06-27T13:14:01.1274981+02:00",
-    "SaleId": 270,
-    "Probability": 535,
-    "Title": "qui",
-    "Amount": 19640.778,
-    "Currency": "sequi",
-    "ProjectName": "Hegmann, Hammes and Murphy",
-    "AssociateFullName": "Courtney Legros",
-    "Description": "Triple-buffered disintermediate policy",
+    "ContactName": "Hickle-Koss",
+    "SaleDate": "2016-04-23T16:32:39.8520956+02:00",
+    "SaleId": 178,
+    "Probability": 664,
+    "Title": "et",
+    "Amount": 31314.928,
+    "Currency": "labore",
+    "ProjectName": "Roob, Hyatt and Wisozk",
+    "AssociateFullName": "Jayden Blanda",
+    "Description": "Versatile interactive frame",
     "Status": "Lost",
-    "WeightedAmount": 6766.306,
-    "ProjectId": 156,
-    "EarningPercent": 16149.501999999999,
-    "Earning": 7527.8679999999995,
-    "ContactId": 248,
-    "AssociateId": 403,
-    "PersonId": 294,
-    "SaleTypeId": 369,
-    "SaleTypeName": "Sauer LLC",
-    "PersonFullName": "Chaz Bosco",
+    "WeightedAmount": 454.43,
+    "ProjectId": 212,
+    "EarningPercent": 22683.892,
+    "Earning": 22270.203999999998,
+    "ContactId": 950,
+    "AssociateId": 315,
+    "PersonId": 792,
+    "SaleTypeId": 471,
+    "SaleTypeName": "Muller-Howe",
+    "PersonFullName": "Prof. Simone Schroeder MD",
     "Completed": "Completed",
-    "ActiveErpLinks": 7,
-    "NextDueDate": "2009-08-05T13:14:01.1274981+02:00",
-    "Number": "521078",
+    "ActiveErpLinks": 616,
+    "NextDueDate": "2010-09-27T16:32:39.8520956+02:00",
+    "Number": "1670465",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 207
+        "FieldLength": 18
       }
     }
   }

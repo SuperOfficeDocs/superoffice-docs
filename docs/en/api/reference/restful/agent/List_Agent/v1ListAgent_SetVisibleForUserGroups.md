@@ -93,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 564,
-  "ListItemId": 666,
+  "UdListDefinitionId": 56,
+  "ListItemId": 9,
   "UserGroups": [
     {
-      "Id": 901,
-      "Name": "Rohan-Roberts",
-      "ToolTip": "Repellendus dignissimos tempora.",
+      "Id": 506,
+      "Name": "DuBuque-McCullough",
+      "ToolTip": "Vero alias nulla occaecati.",
       "Deleted": false,
-      "Rank": 31,
-      "Type": "voluptatibus",
-      "ColorBlock": 493,
-      "IconHint": "sed",
+      "Rank": 253,
+      "Type": "iusto",
+      "ColorBlock": 173,
+      "IconHint": "cumque",
       "Selected": false,
-      "LastChanged": "1999-11-08T13:14:00.5949987+01:00",
+      "LastChanged": "2022-07-22T16:32:39.2426162+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "aut",
-      "StyleHint": "autem",
+      "ExtraInfo": "eaque",
+      "StyleHint": "perspiciatis",
       "Hidden": false,
-      "FullName": "Sim Stracke"
+      "FullName": "Prof. Rylee Vella Murazik Sr."
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 559,
-    "Name": "Hegmann, Kshlerin and Gibson",
-    "ToolTip": "Dolorem error soluta.",
+    "Id": 569,
+    "Name": "Connelly, Windler and Yundt",
+    "ToolTip": "Delectus quia et ipsa.",
     "Deleted": false,
-    "Rank": 905,
-    "Type": "tempora",
-    "ColorBlock": 424,
-    "IconHint": "maiores",
-    "Selected": true,
-    "LastChanged": "2024-11-04T13:14:00.5949987+01:00",
+    "Rank": 265,
+    "Type": "excepturi",
+    "ColorBlock": 64,
+    "IconHint": "ut",
+    "Selected": false,
+    "LastChanged": "2007-07-20T16:32:39.2426162+02:00",
     "ChildItems": [
       {
-        "Id": 825,
-        "Name": "Dicki LLC",
-        "ToolTip": "Quaerat excepturi est occaecati perspiciatis.",
-        "Deleted": true,
-        "Rank": 757,
-        "Type": "deserunt",
-        "ColorBlock": 452,
-        "IconHint": "delectus",
+        "Id": 902,
+        "Name": "Wilderman, Douglas and Deckow",
+        "ToolTip": "Soluta eos nihil consequatur natus dolor magni odio.",
+        "Deleted": false,
+        "Rank": 542,
+        "Type": "alias",
+        "ColorBlock": 946,
+        "IconHint": "sed",
         "Selected": false,
-        "LastChanged": "2023-07-16T13:14:00.5949987+02:00",
+        "LastChanged": "2013-08-30T16:32:39.2426162+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "itaque",
-        "StyleHint": "repellat",
+        "ExtraInfo": "ut",
+        "StyleHint": "ipsum",
         "Hidden": false,
-        "FullName": "Earline Von",
+        "FullName": "Mrs. Laisha Stroman",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 820
+            "FieldType": "System.String",
+            "FieldLength": 525
           }
         }
       }
     ],
-    "ExtraInfo": "quasi",
-    "StyleHint": "maxime",
+    "ExtraInfo": "et",
+    "StyleHint": "sed",
     "Hidden": false,
-    "FullName": "George Hanna Gerhold V",
+    "FullName": "Nyasia Cynthia Mueller PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 514
+        "FieldLength": 89
       }
     }
   }

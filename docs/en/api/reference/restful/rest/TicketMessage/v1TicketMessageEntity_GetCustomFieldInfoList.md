@@ -68,7 +68,7 @@ OK
 GET /api/v1/TicketMessage/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Stroman LLC",
-    "DisplayName": "Legros-Bayer",
-    "Description": "Stand-alone eco-centric project",
-    "ShortLabel": "laborum",
-    "HideLabel": false,
+    "FieldName": "Cormier-Schiller",
+    "DisplayName": "Kilback-Jakubowski",
+    "Description": "Devolved assymetric contingency",
+    "ShortLabel": "eos",
+    "HideLabel": true,
     "HideField": false,
     "IsIndexed": false,
-    "IsMandatory": false,
-    "IsReadOnly": true,
-    "IsExternal": true,
+    "IsMandatory": true,
+    "IsReadOnly": false,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 214,
-    "TemplateVariableName": "Dietrich-Kilback"
+    "Rank": 527,
+    "TemplateVariableName": "Corwin Group"
   }
 ]
 ```

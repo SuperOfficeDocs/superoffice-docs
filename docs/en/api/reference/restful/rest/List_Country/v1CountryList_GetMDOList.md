@@ -26,8 +26,8 @@ Get the MDO list items for "Country" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Country/MDOItems?flat=True
-GET /api/v1/List/Country/MDOItems?query=dicta
+GET /api/v1/List/Country/MDOItems?flat=False
+GET /api/v1/List/Country/MDOItems?query=minus
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Country/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 197,
-    "Name": "Tremblay, Brekke and Nitzsche",
-    "ToolTip": "Provident minima.",
-    "Deleted": true,
-    "Rank": 782,
-    "Type": "maxime",
+    "Id": 286,
+    "Name": "Pfeffer-Kuhlman",
+    "ToolTip": "Laborum molestias perspiciatis et et.",
+    "Deleted": false,
+    "Rank": 894,
+    "Type": "omnis",
     "ChildItems": [
       {
-        "Id": 517,
-        "Name": "Herman, Leffler and O'Reilly",
-        "ToolTip": "Praesentium ut sit impedit.",
+        "Id": 692,
+        "Name": "Lynch Group",
+        "ToolTip": "Iusto recusandae dolorum.",
         "Deleted": false,
-        "Rank": 908,
-        "Type": "ipsam",
+        "Rank": 722,
+        "Type": "assumenda",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 193,
-        "ExtraInfo": "molestiae",
-        "StyleHint": "sequi",
-        "FullName": "Hugh Barton",
+        "IconHint": "nesciunt",
+        "ColorBlock": 866,
+        "ExtraInfo": "similique",
+        "StyleHint": "accusamus",
+        "FullName": "Serena Effertz",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 223
+            "FieldLength": 191
           }
         }
       }
     ],
     "IconHint": "aut",
-    "ColorBlock": 724,
-    "ExtraInfo": "nostrum",
-    "StyleHint": "quas",
-    "FullName": "Victor Johns",
+    "ColorBlock": 131,
+    "ExtraInfo": "sit",
+    "StyleHint": "quia",
+    "FullName": "Cade Lebsack",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 823
+        "FieldLength": 899
       }
     }
   }

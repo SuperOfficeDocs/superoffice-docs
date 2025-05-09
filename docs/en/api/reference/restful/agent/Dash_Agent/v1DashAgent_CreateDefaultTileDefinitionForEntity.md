@@ -91,11 +91,11 @@ OK
 POST /api/v1/Agents/Dash/CreateDefaultTileDefinitionForEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Johnston LLC"
+  "EntityName": "Wiegand Group"
 }
 ```
 
@@ -106,31 +106,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 547,
-  "Name": "Pacocha-Fadel",
-  "Description": "User-centric homogeneous projection",
-  "DefaultHeight": 354,
-  "DefaultWidth": 23,
+  "DashboardTileDefinitionId": 98,
+  "Name": "Powlowski, Goyette and Klocko",
+  "Description": "Team-oriented dedicated installation",
+  "DefaultHeight": 295,
+  "DefaultWidth": 925,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Von-Wisozk",
-  "SelectionId": 517,
+  "EntityName": "Corwin-Padberg",
+  "SelectionId": 755,
   "CurrencyMode": "Base",
-  "CurrencyCode": "itaque",
+  "CurrencyCode": "tenetur",
   "Measure": "Average",
-  "MeasureField": "vero",
-  "SortBy": "nobis",
-  "LayoutConfig": "alias",
-  "SecondarySelectionId": 492,
+  "MeasureField": "et",
+  "SortBy": "qui",
+  "LayoutConfig": "officiis",
+  "SecondarySelectionId": 710,
   "MeasureByField": "vel",
   "Usage": "Dashboard",
-  "ProviderName": "Boyer Group",
+  "ProviderName": "Kerluke-Olson",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 319
+      "FieldType": "System.Int32",
+      "FieldLength": 86
     }
   }
 }

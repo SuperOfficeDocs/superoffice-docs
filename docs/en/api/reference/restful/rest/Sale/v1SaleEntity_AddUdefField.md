@@ -98,7 +98,7 @@ OK
 POST /api/v1/Sale/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -108,46 +108,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 299,
-  "ColumnId": 400,
-  "FieldDefault": "et",
-  "FieldHeight": 86,
-  "FieldLabel": "eaque",
-  "FieldLeft": 384,
-  "FieldTop": 475,
+  "UDefFieldId": 512,
+  "ColumnId": 443,
+  "FieldDefault": "voluptatem",
+  "FieldHeight": 318,
+  "FieldLabel": "neque",
+  "FieldLeft": 191,
+  "FieldTop": 867,
   "FieldType": "Checkbox",
-  "FieldWidth": 745,
-  "FormatMask": "natus",
+  "FieldWidth": 562,
+  "FormatMask": "debitis",
   "HideLabel": false,
   "IsIndexed": true,
-  "LabelHeight": 524,
-  "LabelLeft": 440,
-  "LabelTop": 352,
-  "LabelWidth": 541,
-  "LastVersionId": 394,
-  "ListTableId": 8,
+  "LabelHeight": 123,
+  "LabelLeft": 107,
+  "LabelTop": 715,
+  "LabelWidth": 978,
+  "LastVersionId": 675,
+  "ListTableId": 264,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 388,
-  "ProgId": "quod",
-  "IsReadOnly": false,
-  "ShortLabel": "quae",
-  "TabOrder": 502,
-  "TextLength": 565,
-  "Tooltip": "quo",
-  "UdefIdentity": 827,
-  "UDListDefinitionId": 989,
+  "Page1LineNo": 238,
+  "ProgId": "vel",
+  "IsReadOnly": true,
+  "ShortLabel": "ut",
+  "TabOrder": 643,
+  "TextLength": 917,
+  "Tooltip": "ut",
+  "UdefIdentity": 720,
+  "UDListDefinitionId": 663,
   "Justification": "Center",
-  "Version": 685,
-  "TemplateVariableName": "Blick, Glover and Cummerata",
+  "Version": 749,
+  "TemplateVariableName": "Rutherford, Schimmel and Rempel",
   "HasBeenPublished": false,
-  "MdoListName": "Schimmel Inc and Sons",
+  "MdoListName": "Stanton, Haley and Prosacco",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 796
+      "FieldLength": 905
     }
   }
 }

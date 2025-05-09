@@ -51,7 +51,9 @@ Download [WSDL file for Services88/Sale](../Services88-Sale.md) if you need to g
 * [SaveSaleEntity](SaveSaleEntity.md)
 * [SaveSaleStakeholder](SaveSaleStakeholder.md)
 * [SetAsLost](SetAsLost.md)
+* [SetAsLostWithReason](SetAsLostWithReason.md)
 * [SetAsSold](SetAsSold.md)
+* [SetAsSoldWithReason](SetAsSoldWithReason.md)
 * [UpdateSaleStakeholders](UpdateSaleStakeholders.md)
 * [ValidateSaleEntity](ValidateSaleEntity.md)
 

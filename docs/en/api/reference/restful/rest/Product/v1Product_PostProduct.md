@@ -141,55 +141,55 @@ OK
 POST /api/v1/Product
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 522,
-  "ERPProductKey": "quia",
-  "ERPPriceListKey": "accusamus",
-  "Name": "Huel Inc and Sons",
-  "Description": "Centralized tertiary contingency",
-  "Code": "et",
-  "PriceUnit": "provident",
-  "QuantityUnit": "nostrum",
+  "ProductId": 33,
+  "ERPProductKey": "praesentium",
+  "ERPPriceListKey": "iusto",
+  "Name": "Fadel-Macejkovic",
+  "Description": "Secured coherent instruction set",
+  "Code": "consequatur",
+  "PriceUnit": "occaecati",
+  "QuantityUnit": "molestiae",
   "IsSubscription": false,
-  "SubscriptionUnit": "rerum",
-  "DefaultSubscriptionQuantity": 14215.823999999999,
-  "ItemNumber": "1356903",
+  "SubscriptionUnit": "necessitatibus",
+  "DefaultSubscriptionQuantity": 10665.002,
+  "ItemNumber": "711649",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "nam",
-  "ProductTypeKey": "iste",
-  "VAT": 19462.14,
-  "VATInfo": "ducimus",
-  "UnitCost": 13413.52,
-  "UnitMinimumPrice": 10176.098,
-  "UnitListPrice": 11884.127999999999,
-  "InAssortment": false,
-  "Supplier": "vitae",
-  "SupplierCode": "minus",
-  "Rights": "veniam",
-  "Rule": "aut",
+  "ProductFamilyKey": "accusamus",
+  "ProductTypeKey": "adipisci",
+  "VAT": 17656.956,
+  "VATInfo": "iusto",
+  "UnitCost": 11213.452,
+  "UnitMinimumPrice": 28017.96,
+  "UnitListPrice": 19549.892,
+  "InAssortment": true,
+  "Supplier": "dicta",
+  "SupplierCode": "sapiente",
+  "Rights": "nihil",
+  "Rule": "dolores",
   "ExtraInfo": [
     {
-      "Name": "Cormier-Williamson",
-      "Value": "animi",
+      "Name": "Fay Group",
+      "Value": "blanditiis",
       "Type": "Image"
     },
     {
-      "Name": "Cormier-Williamson",
-      "Value": "animi",
+      "Name": "Fay Group",
+      "Value": "blanditiis",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "id",
-  "ExtraField1": "minima",
-  "ExtraField2": "qui",
-  "ExtraField3": "ut",
-  "ExtraField4": "eligendi",
-  "ExtraField5": "vero",
-  "InStock": 14632.645999999999
+  "RawExtraInfo": "sit",
+  "ExtraField1": "quia",
+  "ExtraField2": "velit",
+  "ExtraField3": "dolorum",
+  "ExtraField4": "debitis",
+  "ExtraField5": "aut",
+  "InStock": 20759.615999999998
 }
 ```
 
@@ -200,73 +200,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 515,
-  "ERPProductKey": "possimus",
-  "ERPPriceListKey": "est",
-  "Name": "Hegmann-Veum",
-  "Description": "Secured executive firmware",
-  "Code": "laudantium",
-  "PriceUnit": "consequatur",
-  "QuantityUnit": "est",
-  "IsSubscription": true,
-  "SubscriptionUnit": "voluptas",
-  "DefaultSubscriptionQuantity": 10705.743999999999,
-  "ItemNumber": "723214",
+  "ProductId": 525,
+  "ERPProductKey": "at",
+  "ERPPriceListKey": "vero",
+  "Name": "Nader, Von and Lubowitz",
+  "Description": "Open-architected dedicated structure",
+  "Code": "est",
+  "PriceUnit": "soluta",
+  "QuantityUnit": "ut",
+  "IsSubscription": false,
+  "SubscriptionUnit": "aliquid",
+  "DefaultSubscriptionQuantity": 19045.318,
+  "ItemNumber": "1661178",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ut",
-  "ProductTypeKey": "qui",
-  "VAT": 19756.736,
-  "VATInfo": "eos",
-  "UnitCost": 30525.16,
-  "UnitMinimumPrice": 27203.12,
-  "UnitListPrice": 21455.363999999998,
-  "InAssortment": false,
-  "Supplier": "voluptas",
-  "SupplierCode": "voluptatem",
-  "Rights": "rerum",
-  "Rule": "illo",
+  "ProductFamilyKey": "harum",
+  "ProductTypeKey": "eaque",
+  "VAT": 20110.878,
+  "VATInfo": "aperiam",
+  "UnitCost": 26704.814,
+  "UnitMinimumPrice": 4425.208,
+  "UnitListPrice": 15096.478,
+  "InAssortment": true,
+  "Supplier": "aut",
+  "SupplierCode": "laboriosam",
+  "Rights": "animi",
+  "Rule": "rerum",
   "ExtraInfo": [
     {
-      "Name": "Mraz Inc and Sons",
-      "Value": "cum",
+      "Name": "D'Amore-Rosenbaum",
+      "Value": "ducimus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 259
+          "FieldType": "System.Int32",
+          "FieldLength": 513
         }
       }
     },
     {
-      "Name": "Mraz Inc and Sons",
-      "Value": "cum",
+      "Name": "D'Amore-Rosenbaum",
+      "Value": "ducimus",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 259
+          "FieldType": "System.Int32",
+          "FieldLength": 513
         }
       }
     }
   ],
-  "RawExtraInfo": "sit",
-  "ExtraField1": "voluptas",
-  "ExtraField2": "qui",
-  "ExtraField3": "illo",
-  "ExtraField4": "sequi",
-  "ExtraField5": "maxime",
-  "InStock": 3694.986,
+  "RawExtraInfo": "porro",
+  "ExtraField1": "debitis",
+  "ExtraField2": "itaque",
+  "ExtraField3": "veniam",
+  "ExtraField4": "ab",
+  "ExtraField5": "non",
+  "InStock": 11247.926,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 132
     }
   }
 }

@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Currency/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 849,
-    "Name": "Hoppe LLC",
-    "ToolTip": "Provident id nemo est dolores.",
+    "Id": 652,
+    "Name": "Shanahan-Haag",
+    "ToolTip": "Dolores consequuntur et voluptates nihil.",
     "Deleted": true,
-    "Rank": 938,
-    "Type": "quis",
-    "ColorBlock": 482,
-    "IconHint": "ex",
+    "Rank": 86,
+    "Type": "qui",
+    "ColorBlock": 980,
+    "IconHint": "vel",
     "Selected": false,
-    "LastChanged": "2010-01-25T13:14:09.7285208+01:00",
+    "LastChanged": "2010-04-11T16:32:48.6339153+02:00",
     "ChildItems": [
       {
-        "Id": 672,
-        "Name": "Jenkins-Klocko",
-        "ToolTip": "Est sint illum temporibus in cumque et aspernatur.",
-        "Deleted": false,
-        "Rank": 840,
-        "Type": "nulla",
-        "ColorBlock": 336,
-        "IconHint": "sed",
+        "Id": 250,
+        "Name": "Cole-Deckow",
+        "ToolTip": "Repellat commodi.",
+        "Deleted": true,
+        "Rank": 88,
+        "Type": "cum",
+        "ColorBlock": 491,
+        "IconHint": "rerum",
         "Selected": true,
-        "LastChanged": "2005-10-12T13:14:09.7285208+02:00",
+        "LastChanged": "2006-09-12T16:32:48.6339153+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "assumenda",
-        "Hidden": true,
-        "FullName": "Leann McKenzie",
+        "ExtraInfo": "delectus",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Marianna Gerlach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 933
+            "FieldLength": 740
           }
         }
       }
     ],
-    "ExtraInfo": "porro",
-    "StyleHint": "dolores",
+    "ExtraInfo": "voluptatem",
+    "StyleHint": "id",
     "Hidden": false,
-    "FullName": "Camylle Abernathy",
+    "FullName": "Valerie Bartoletti II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 243
+        "FieldType": "System.Int32",
+        "FieldLength": 899
       }
     }
   }

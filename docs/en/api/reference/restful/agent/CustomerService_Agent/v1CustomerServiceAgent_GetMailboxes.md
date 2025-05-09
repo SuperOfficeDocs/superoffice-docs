@@ -79,30 +79,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "MailInFilterId": 49,
-    "Address": "sed",
+    "MailInFilterId": 830,
+    "Address": "soluta",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Durgan-McKenzie",
+    "PriorityName": "Fadel-Altenwerth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 158
       }
     }
   },
   {
-    "MailInFilterId": 49,
-    "Address": "sed",
+    "MailInFilterId": 830,
+    "Address": "soluta",
     "CategoryName": "VIP Customer",
-    "PriorityName": "Durgan-McKenzie",
+    "PriorityName": "Fadel-Altenwerth",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 747
+        "FieldLength": 158
       }
     }
   }

@@ -104,16 +104,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 745,
-  "Name": "Williamson-Sawayn",
-  "Tooltip": "voluptatem",
+  "RoleId": 577,
+  "Name": "Gerlach-Graham",
+  "Tooltip": "qui",
   "RoleType": "Anonymous",
-  "Deleted": 627,
-  "Rank": 150,
-  "Created": "1998-06-25T13:14:01.7069466+02:00",
-  "UseCategories": 101,
+  "Deleted": 759,
+  "Rank": 454,
+  "Created": "2008-04-14T16:32:40.4613345+02:00",
+  "UseCategories": 531,
   "CreatedBy": null,
-  "Updated": "2010-10-18T13:14:01.7069466+02:00",
+  "Updated": "2022-01-27T16:32:40.4613345+01:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -121,7 +121,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 107
+      "FieldLength": 380
     }
   }
 }

@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetListItemsForUserGroupFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Stanton LLC",
-  "GroupId": 248
+  "UdListDefinitionName": "Klocko Inc and Sons",
+  "GroupId": 869
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 731,
-    "Name": "Dooley-Nitzsche",
-    "ToolTip": "Ut tempore ad sit sequi nulla ab.",
+    "Id": 477,
+    "Name": "Ebert-Reinger",
+    "ToolTip": "Labore ullam provident labore iure illo numquam magni.",
     "Deleted": false,
-    "Rank": 626,
-    "Type": "iure",
-    "ColorBlock": 315,
-    "IconHint": "omnis",
-    "Selected": true,
-    "LastChanged": "2000-08-01T13:14:00.5949987+02:00",
+    "Rank": 125,
+    "Type": "velit",
+    "ColorBlock": 407,
+    "IconHint": "provident",
+    "Selected": false,
+    "LastChanged": "2010-07-30T16:32:39.2426162+02:00",
     "ChildItems": [
       {
-        "Id": 75,
-        "Name": "Dare-Goldner",
-        "ToolTip": "Est dolores ipsam numquam quod quia.",
+        "Id": 294,
+        "Name": "Veum-Daniel",
+        "ToolTip": "Dicta magni aut.",
         "Deleted": true,
-        "Rank": 491,
-        "Type": "animi",
-        "ColorBlock": 295,
-        "IconHint": "quia",
+        "Rank": 6,
+        "Type": "vel",
+        "ColorBlock": 334,
+        "IconHint": "inventore",
         "Selected": false,
-        "LastChanged": "2016-07-01T13:14:00.5949987+02:00",
+        "LastChanged": "2009-10-21T16:32:39.2426162+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "officiis",
-        "StyleHint": "nulla",
+        "ExtraInfo": "alias",
+        "StyleHint": "qui",
         "Hidden": false,
-        "FullName": "Jace Goldner",
+        "FullName": "Ms. Katelin Rohan Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 278
+            "FieldType": "System.String",
+            "FieldLength": 200
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "sint",
+    "ExtraInfo": "qui",
+    "StyleHint": "sunt",
     "Hidden": false,
-    "FullName": "Jordane Gislason",
+    "FullName": "Madge Gordon Hoppe DDS",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 969
+        "FieldLength": 164
       }
     }
   }

@@ -83,18 +83,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferencesWithDisplayValues
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "veniam",
-      "Key": "repellat"
+      "Section": "et",
+      "Key": "ab"
     },
     {
-      "Section": "veniam",
-      "Key": "repellat"
+      "Section": "et",
+      "Key": "ab"
     }
   ]
 }
@@ -109,22 +109,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "eos",
+    "RawValue": "animi",
     "Specification": null,
-    "DisplayValue": "nisi",
-    "DisplayTooltip": "maiores",
+    "DisplayValue": "tempore",
+    "DisplayTooltip": "consequatur",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 386,
-    "PrefDescId": 372,
-    "TableName": "Medhurst LLC",
-    "UserPreferenceId": 742,
+    "TargetId": 380,
+    "PrefDescId": 479,
+    "TableName": "Homenick-Heaney",
+    "UserPreferenceId": 952,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 312
+        "FieldType": "System.String",
+        "FieldLength": 585
       }
     }
   }

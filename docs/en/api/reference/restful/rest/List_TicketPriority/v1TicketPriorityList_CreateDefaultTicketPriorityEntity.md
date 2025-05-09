@@ -92,60 +92,60 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketPriorityId": 466,
-  "Name": "Toy LLC",
+  "TicketPriorityId": 493,
+  "Name": "Barrows Inc and Sons",
   "Status": "Deleted",
   "Flags": "AlertSchedule",
-  "SortOrder": 310,
+  "SortOrder": 175,
   "TicketRead": "Continue",
   "ChangedOwner": "Continue",
   "TicketNewinfo": "Continue",
   "TicketClosed": "Continue",
   "TicketChangedPriority": "Continue",
   "TicketNew": "Continue",
-  "Deadline": 263,
-  "MonStart": "2022-08-14T13:14:10.1347951+02:00",
-  "MonStop": "2005-03-26T13:14:10.1347951+01:00",
-  "TueStart": "2021-05-06T13:14:10.1347951+02:00",
-  "TueStop": "2021-02-21T13:14:10.1347951+01:00",
-  "WedStart": "2022-06-06T13:14:10.1347951+02:00",
-  "WedStop": "2001-04-24T13:14:10.1347951+02:00",
-  "ThuStart": "2007-03-23T13:14:10.1347951+01:00",
-  "ThuStop": "2000-01-23T13:14:10.1347951+01:00",
-  "FriStart": "2004-03-18T13:14:10.1347951+01:00",
-  "FriStop": "2024-10-26T13:14:10.1347951+02:00",
-  "SatStart": "2012-04-07T13:14:10.1347951+02:00",
-  "SatStop": "2012-01-20T13:14:10.1347951+01:00",
-  "SunStart": "2019-01-13T13:14:10.1347951+01:00",
-  "SunStop": "2015-11-01T13:14:10.1347951+01:00",
+  "Deadline": 710,
+  "MonStart": "2013-05-02T16:32:49.0244447+02:00",
+  "MonStop": "1999-03-23T16:32:49.0244447+01:00",
+  "TueStart": "2008-07-09T16:32:49.0244447+02:00",
+  "TueStop": "2016-10-31T16:32:49.0244447+01:00",
+  "WedStart": "2003-06-16T16:32:49.0244447+02:00",
+  "WedStop": "2024-11-25T16:32:49.0244447+01:00",
+  "ThuStart": "2015-04-30T16:32:49.0244447+02:00",
+  "ThuStop": "1998-01-19T16:32:49.0244447+01:00",
+  "FriStart": "2019-03-16T16:32:49.0244447+01:00",
+  "FriStop": "2016-08-26T16:32:49.0244447+02:00",
+  "SatStart": "2006-03-25T16:32:49.0244447+01:00",
+  "SatStop": "2003-11-29T16:32:49.0244447+01:00",
+  "SunStart": "2009-10-10T16:32:49.0244447+02:00",
+  "SunStop": "2018-01-29T16:32:49.0244447+01:00",
   "NonDates": [
-    "repudiandae",
-    "sequi"
+    "velit",
+    "earum"
   ],
   "EscalationLevels": [
     {
-      "TicketAlertId": 548,
-      "AlertLevel": 166,
-      "AlertTimeout": 627,
-      "Action": 230,
-      "DelegateTo": 951,
-      "ScriptId": 7,
-      "EmailTo": "nova@altenwerth.info",
-      "SmsTo": "tenetur",
-      "ReplyTemplateIdCustomer": 97,
-      "ReplyTemplateIdUser": 549,
-      "ReplyTemplateIdCatmast": 301,
-      "ReplyTemplateIdEmail": 834,
-      "RtiCustomerSms": 143,
-      "ReplyTemplateIdUserSms": 65,
-      "ReplyTemplateIdCatmastSms": 479,
-      "ReplyTemplateIdSms": 960,
+      "TicketAlertId": 752,
+      "AlertLevel": 543,
+      "AlertTimeout": 650,
+      "Action": 238,
+      "DelegateTo": 374,
+      "ScriptId": 709,
+      "EmailTo": "raphaelle@wunsch.name",
+      "SmsTo": "magni",
+      "ReplyTemplateIdCustomer": 199,
+      "ReplyTemplateIdUser": 632,
+      "ReplyTemplateIdCatmast": 703,
+      "ReplyTemplateIdEmail": 141,
+      "RtiCustomerSms": 756,
+      "ReplyTemplateIdUserSms": 31,
+      "ReplyTemplateIdCatmastSms": 551,
+      "ReplyTemplateIdSms": 702,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 851
+          "FieldLength": 89
         }
       }
     }
@@ -154,8 +154,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 533
+      "FieldType": "System.String",
+      "FieldLength": 493
     }
   }
 }

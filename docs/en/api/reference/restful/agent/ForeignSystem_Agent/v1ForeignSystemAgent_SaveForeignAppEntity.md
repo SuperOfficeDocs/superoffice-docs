@@ -79,23 +79,23 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 259,
-  "Name": "Funk Inc and Sons",
-  "CreatedDate": "2024-11-27T13:14:00.5012353+01:00",
-  "UpdatedDate": "2014-05-11T13:14:00.5012353+02:00",
+  "ForeignAppId": 643,
+  "Name": "Kovacek-Gleason",
+  "CreatedDate": "2024-01-16T16:32:39.1488892+01:00",
+  "UpdatedDate": "2017-12-11T16:32:39.1488892+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 799,
-      "Name": "Feest, Hartmann and Funk",
-      "CreatedDate": "2017-05-23T13:14:00.5012353+02:00",
-      "UpdatedDate": "2001-05-03T13:14:00.5012353+02:00",
-      "AssociateFullName": "Vladimir Turner",
-      "CreatedBy": "perferendis",
-      "UpdatedBy": "eius",
-      "DeviceIdentifier": "ratione",
-      "ForeignAppId": 122
+      "ForeignDeviceId": 363,
+      "Name": "Padberg, Fay and Mitchell",
+      "CreatedDate": "2021-12-29T16:32:39.1488892+01:00",
+      "UpdatedDate": "2024-05-09T16:32:39.1488892+02:00",
+      "AssociateFullName": "Mr. Delphia Irma McLaughlin",
+      "CreatedBy": "corporis",
+      "UpdatedBy": "quo",
+      "DeviceIdentifier": "est",
+      "ForeignAppId": 969
     }
   ]
 }
@@ -108,29 +108,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ForeignAppId": 62,
-  "Name": "Wiza, Reinger and Mayert",
-  "CreatedDate": "2000-02-07T13:14:00.5012353+01:00",
-  "UpdatedDate": "2010-04-16T13:14:00.5012353+02:00",
+  "ForeignAppId": 539,
+  "Name": "Sanford, Strosin and Oberbrunner",
+  "CreatedDate": "2017-10-06T16:32:39.1488892+02:00",
+  "UpdatedDate": "2018-03-10T16:32:39.1488892+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 825,
-      "Name": "Huel-Willms",
-      "CreatedDate": "2000-03-28T13:14:00.5012353+02:00",
-      "UpdatedDate": "2005-11-20T13:14:00.5012353+01:00",
-      "AssociateFullName": "Adela Abshire",
-      "CreatedBy": "qui",
-      "UpdatedBy": "nesciunt",
-      "DeviceIdentifier": "saepe",
-      "ForeignAppId": 920,
+      "ForeignDeviceId": 343,
+      "Name": "Hintz-Glover",
+      "CreatedDate": "2014-05-16T16:32:39.1488892+02:00",
+      "UpdatedDate": "2003-02-25T16:32:39.1488892+01:00",
+      "AssociateFullName": "Deshawn McLaughlin I",
+      "CreatedBy": "harum",
+      "UpdatedBy": "et",
+      "DeviceIdentifier": "doloribus",
+      "ForeignAppId": 41,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 90
+          "FieldLength": 22
         }
       }
     }
@@ -140,7 +140,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 594
+      "FieldLength": 780
     }
   }
 }

@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/Task
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 882,
-  "Name": "Torphy-Satterfield",
-  "Tooltip": "cumque",
+  "Id": 513,
+  "Name": "Larkin LLC",
+  "Tooltip": "accusantium",
   "Deleted": true,
-  "Rank": 380,
+  "Rank": 643,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "fuga",
+  "UseGroupsAndHeadings": false,
+  "ListType": "necessitatibus",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 649,
-  "Name": "Altenwerth-Jacobs",
-  "Tooltip": "quam",
-  "Deleted": true,
-  "Rank": 779,
-  "IsCustomList": true,
+  "Id": 977,
+  "Name": "Wunsch-Dicki",
+  "Tooltip": "temporibus",
+  "Deleted": false,
+  "Rank": 137,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "autem",
+  "UseGroupsAndHeadings": false,
+  "ListType": "pariatur",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 34
+      "FieldType": "System.String",
+      "FieldLength": 241
     }
   }
 }

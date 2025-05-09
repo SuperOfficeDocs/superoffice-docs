@@ -78,15 +78,15 @@ OK
 POST /api/v1/Agents/Resource/GetResourceSubstitutions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Buckridge-Baumbach",
-    "Wolf-Feil"
+    "D'Amore, Wilkinson and Franecki",
+    "Wiegand, Mayert and Wilderman"
   ],
-  "Culture": "neque",
+  "Culture": "eius",
   "ActiveOnly": false
 }
 ```
@@ -99,30 +99,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Aufderhar-Herzog",
-    "ResourceValue": "et",
-    "Culture": "ad",
-    "IsActive": false,
+    "ResourceName": "Gutkowski-Eichmann",
+    "ResourceValue": "placeat",
+    "Culture": "est",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 204
+        "FieldType": "System.Int32",
+        "FieldLength": 320
       }
     }
   },
   {
-    "ResourceName": "Aufderhar-Herzog",
-    "ResourceValue": "et",
-    "Culture": "ad",
-    "IsActive": false,
+    "ResourceName": "Gutkowski-Eichmann",
+    "ResourceValue": "placeat",
+    "Culture": "est",
+    "IsActive": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 204
+        "FieldType": "System.Int32",
+        "FieldLength": 320
       }
     }
   }

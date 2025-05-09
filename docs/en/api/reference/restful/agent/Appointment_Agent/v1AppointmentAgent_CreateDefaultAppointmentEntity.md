@@ -116,7 +116,7 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -130,121 +130,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2022-02-14T13:13:59.2032217+01:00",
-  "AppointmentId": 865,
-  "Description": "Upgradable reciprocal application",
-  "Title": "dolor",
-  "Agenda": "enim",
-  "InternalNotes": "a",
-  "StartDate": "2000-12-20T13:13:59.2032217+01:00",
-  "EndDate": "2019-12-27T13:13:59.2032217+01:00",
+  "CreatedDate": "2007-04-29T16:32:37.836689+02:00",
+  "AppointmentId": 665,
+  "Description": "Object-based attitude-oriented contingency",
+  "Title": "unde",
+  "Agenda": "et",
+  "InternalNotes": "rem",
+  "StartDate": "2017-11-01T16:32:37.836689+01:00",
+  "EndDate": "2019-05-26T16:32:37.836689+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 321,
+  "MotherId": 293,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2014-08-04T13:13:59.2032217+02:00",
+  "UpdatedDate": "2004-03-11T16:32:37.836689+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 275,
+  "ActiveLinks": 449,
   "Links": [
     {
-      "EntityName": "Sipes, Larson and Von",
-      "Id": 502,
-      "Description": "Compatible encompassing pricing structure",
-      "ExtraInfo": "accusantium",
-      "LinkId": 369,
+      "EntityName": "Corkery-Kuhn",
+      "Id": 318,
+      "Description": "Secured dynamic knowledge user",
+      "ExtraInfo": "corporis",
+      "LinkId": 788,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 179
+          "FieldType": "System.String",
+          "FieldLength": 567
         }
       }
     }
   ],
-  "AlarmLeadTime": "perferendis",
-  "HasAlarm": false,
-  "ColorIndex": 58,
+  "AlarmLeadTime": "doloribus",
+  "HasAlarm": true,
+  "ColorIndex": 79,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "neque",
-  "LeadTime": "nobis",
-  "Location": "veritatis",
-  "RejectCounter": 642,
-  "RejectReason": "matrix world-class platforms",
+  "LagTime": "quaerat",
+  "LeadTime": "occaecati",
+  "Location": "occaecati",
+  "RejectCounter": 145,
+  "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 264,
-      "PersonId": 194,
-      "ContactId": 262,
-      "EmailId": 507,
-      "SendEmail": false,
+      "AssociateId": 482,
+      "PersonId": 52,
+      "ContactId": 968,
+      "EmailId": 480,
+      "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "mackenzie@klocko.name",
-      "Description": "Reverse-engineered dedicated knowledge base"
+      "EmailAddress": "mason@feeney.uk",
+      "Description": "Expanded bandwidth-monitored secured line"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2006-04-09T13:13:59.2032217+02:00",
-  "HasConflict": false,
+  "ActiveDate": "2004-05-24T16:32:37.836689+02:00",
+  "HasConflict": true,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 138,
+  "PreferredTZLocation": 194,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 376,
+  "SuggestedAppointmentId": 702,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "ut",
+  "CentralserviceVideomeetId": "saepe",
   "UserDefinedFields": {
-    "SuperOffice:1": "Nona Williamson",
-    "SuperOffice:2": "735882367"
+    "SuperOffice:1": "Dr. Sandrine Harber V",
+    "SuperOffice:2": "True"
   },
   "ExtraFields": {
-    "ExtraFields1": "dolor",
-    "ExtraFields2": "velit"
+    "ExtraFields1": "ipsam",
+    "ExtraFields2": "molestiae"
   },
   "CustomFields": {
-    "CustomFields1": "inventore",
-    "CustomFields2": "distinctio"
+    "CustomFields1": "est",
+    "CustomFields2": "aut"
   },
-  "PublishEventDate": "2022-11-21T13:13:59.2032217+01:00",
-  "PublishTo": "2023-10-21T13:13:59.2032217+02:00",
-  "PublishFrom": "2024-12-31T13:13:59.2032217+01:00",
+  "PublishEventDate": "2005-11-06T16:32:37.836689+01:00",
+  "PublishTo": "2012-08-09T16:32:37.836689+02:00",
+  "PublishFrom": "2018-05-22T16:32:37.836689+02:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 280,
+      "VisibleId": 166,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 820
         }
       }
     },
     {
-      "VisibleId": 280,
+      "VisibleId": 166,
       "Visibility": "All",
-      "DisplayValue": "dolor",
+      "DisplayValue": "unde",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 219
+          "FieldLength": 820
         }
       }
     }
@@ -253,8 +253,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 180
+      "FieldType": "System.Int32",
+      "FieldLength": 753
     }
   }
 }

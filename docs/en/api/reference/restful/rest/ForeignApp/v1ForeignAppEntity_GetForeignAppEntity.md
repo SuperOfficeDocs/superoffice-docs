@@ -80,7 +80,7 @@ ForeignAppEntity found.
 GET /api/v1/ForeignApp/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,32 +88,32 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 ForeignAppEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Sat, 07 Mar 2015 13:14:08 G3T
+Last-Modified: Mon, 31 Aug 1998 16:32:47 G8T
 
 {
-  "ForeignAppId": 620,
-  "Name": "Kunze, Rowe and Klein",
-  "CreatedDate": "2017-10-20T13:14:08.7428891+02:00",
-  "UpdatedDate": "2015-03-07T13:14:08.7428891+01:00",
+  "ForeignAppId": 112,
+  "Name": "Rowe Inc and Sons",
+  "CreatedDate": "2009-06-24T16:32:47.5402031+02:00",
+  "UpdatedDate": "1998-08-31T16:32:47.5402031+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "Devices": [
     {
-      "ForeignDeviceId": 381,
-      "Name": "Fadel Group",
-      "CreatedDate": "2017-09-03T13:14:08.7428891+02:00",
-      "UpdatedDate": "2021-10-28T13:14:08.7428891+02:00",
-      "AssociateFullName": "Dr. Effie Laurel VonRueden I",
-      "CreatedBy": "facilis",
-      "UpdatedBy": "mollitia",
-      "DeviceIdentifier": "optio",
-      "ForeignAppId": 132,
+      "ForeignDeviceId": 232,
+      "Name": "Dickinson-Bernhard",
+      "CreatedDate": "2013-02-27T16:32:47.5402031+01:00",
+      "UpdatedDate": "2007-05-14T16:32:47.5402031+02:00",
+      "AssociateFullName": "Freida Trantow DDS",
+      "CreatedBy": "voluptas",
+      "UpdatedBy": "dolorem",
+      "DeviceIdentifier": "hic",
+      "ForeignAppId": 433,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 228
+          "FieldLength": 486
         }
       }
     }
@@ -122,8 +122,8 @@ Last-Modified: Sat, 07 Mar 2015 13:14:08 G3T
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 168
+      "FieldType": "System.Int32",
+      "FieldLength": 563
     }
   },
   "_Links": {

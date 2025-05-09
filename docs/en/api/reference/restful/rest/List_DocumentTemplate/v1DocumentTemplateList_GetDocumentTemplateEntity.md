@@ -86,7 +86,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -96,37 +96,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 416,
-  "Name": "Schoen-Padberg",
-  "Tooltip": "quaerat",
-  "SaveInDb": 335,
-  "Filename": "dicta",
-  "DefaultOref": "et",
+  "DocumentTemplateId": 848,
+  "Name": "Lubowitz LLC",
+  "Tooltip": "vitae",
+  "SaveInDb": 941,
+  "Filename": "expedita",
+  "DefaultOref": "consectetur",
   "RecordType": "Appointment",
   "Deleted": false,
   "Direction": "Incoming",
-  "AutoeventId": 120,
-  "IntentId": 40,
+  "AutoeventId": 411,
+  "IntentId": 454,
   "IsDefaultPublished": false,
-  "Rank": 60,
-  "LoadTemplateFromPlugin": 389,
-  "MimeType": "voluptatum",
+  "Rank": 170,
+  "LoadTemplateFromPlugin": 226,
+  "MimeType": "ut",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 711,
+  "DocumentTypeKey": 108,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "mitchel@sauer.ca",
+  "EmailSubject": "geo_maggio@daniel.biz",
   "IncludeSignature": true,
-  "ShowCurrents": false,
+  "ShowCurrents": true,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "laurel_trantow@kuphal.biz",
+  "SenderEmailAddress": "stanley_becker@trantow.uk",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 188
+      "FieldType": "System.Int32",
+      "FieldLength": 297
     }
   }
 }

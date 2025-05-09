@@ -120,18 +120,18 @@ Dash  updated.
 PATCH /api/v1/Dash/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "vel",
+    "path": "est",
     "value": {}
   },
   {
     "op": "add",
-    "path": "vel",
+    "path": "est",
     "value": {}
   }
 ]
@@ -144,42 +144,42 @@ HTTP/1.1 200 Dash  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 736,
-  "UniqueId": "amet",
-  "Name": "Conn LLC",
-  "Description": "Open-architected radical hub",
-  "AssociateId": 993,
-  "Columns": 644,
+  "DashboardId": 516,
+  "UniqueId": "optio",
+  "Name": "Yost-Quitzon",
+  "Description": "Object-based web-enabled budgetary management",
+  "AssociateId": 918,
+  "Columns": 460,
   "Theme": null,
-  "VisibleForAll": 603,
+  "VisibleForAll": 732,
   "VisibleForAssociates": [
-    88,
-    839
+    876,
+    970
   ],
   "VisibleForGroups": [
-    771,
-    434
+    207,
+    900
   ],
-  "PinForAll": 631,
+  "PinForAll": 187,
   "PinForAssociates": [
-    128,
-    303
+    248,
+    521
   ],
   "PinForGroups": [
-    764,
-    905
+    837,
+    863
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 883
+      "FieldType": "System.Int32",
+      "FieldLength": 436
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

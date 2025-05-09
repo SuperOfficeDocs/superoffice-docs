@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 550,
-    "Name": "Nader-Fisher",
-    "ToolTip": "Cum magnam cumque hic ut qui sequi.",
+    "Id": 392,
+    "Name": "Little, Heller and Rippin",
+    "ToolTip": "Eos tenetur et.",
     "Deleted": false,
-    "Rank": 38,
-    "Type": "ipsa",
-    "ColorBlock": 372,
-    "IconHint": "voluptates",
-    "Selected": false,
-    "LastChanged": "2004-12-11T13:14:10.0254136+01:00",
+    "Rank": 908,
+    "Type": "quas",
+    "ColorBlock": 97,
+    "IconHint": "eaque",
+    "Selected": true,
+    "LastChanged": "2016-11-19T16:32:48.9151006+01:00",
     "ChildItems": [
       {
-        "Id": 385,
-        "Name": "Abernathy LLC",
-        "ToolTip": "Vel at rerum at ut aspernatur eaque.",
-        "Deleted": false,
-        "Rank": 549,
-        "Type": "distinctio",
-        "ColorBlock": 385,
-        "IconHint": "illo",
+        "Id": 253,
+        "Name": "Pfannerstill-Dickens",
+        "ToolTip": "Cumque consequatur rem sunt excepturi.",
+        "Deleted": true,
+        "Rank": 127,
+        "Type": "vitae",
+        "ColorBlock": 971,
+        "IconHint": "libero",
         "Selected": false,
-        "LastChanged": "2013-05-21T13:14:10.0254136+02:00",
+        "LastChanged": "2022-09-16T16:32:48.9151006+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "rerum",
-        "StyleHint": "vero",
-        "Hidden": false,
-        "FullName": "Gabriella Langworth IV"
+        "ExtraInfo": "corrupti",
+        "StyleHint": "nostrum",
+        "Hidden": true,
+        "FullName": "Beverly Ziemann"
       }
     ],
-    "ExtraInfo": "facere",
-    "StyleHint": "atque",
-    "Hidden": true,
-    "FullName": "Dr. Akeem Monahan Jr."
+    "ExtraInfo": "ea",
+    "StyleHint": "saepe",
+    "Hidden": false,
+    "FullName": "Johathan Hailey Krajcik Sr."
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 276,
-    "Name": "Konopelski-McLaughlin",
-    "ToolTip": "Voluptatum nam beatae laboriosam ipsum consequatur mollitia.",
-    "Deleted": false,
-    "Rank": 856,
-    "Type": "odit",
-    "ColorBlock": 772,
-    "IconHint": "dicta",
-    "Selected": false,
-    "LastChanged": "2016-10-03T13:14:10.0254136+02:00",
+    "Id": 717,
+    "Name": "Corkery-Fay",
+    "ToolTip": "Vel optio quasi beatae quibusdam incidunt ut.",
+    "Deleted": true,
+    "Rank": 636,
+    "Type": "inventore",
+    "ColorBlock": 446,
+    "IconHint": "necessitatibus",
+    "Selected": true,
+    "LastChanged": "2014-12-25T16:32:48.9151006+01:00",
     "ChildItems": [
       {
-        "Id": 84,
-        "Name": "Murphy Group",
-        "ToolTip": "Omnis pariatur ut saepe rerum.",
+        "Id": 682,
+        "Name": "Bailey-Nolan",
+        "ToolTip": "Eum commodi mollitia qui autem.",
         "Deleted": false,
-        "Rank": 100,
-        "Type": "sunt",
-        "ColorBlock": 309,
-        "IconHint": "dolorum",
-        "Selected": true,
-        "LastChanged": "2010-05-31T13:14:10.0254136+02:00",
+        "Rank": 594,
+        "Type": "qui",
+        "ColorBlock": 259,
+        "IconHint": "ipsam",
+        "Selected": false,
+        "LastChanged": "2020-02-16T16:32:48.9151006+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
-        "StyleHint": "non",
-        "Hidden": false,
-        "FullName": "Wanda Boehm",
+        "ExtraInfo": "quia",
+        "StyleHint": "aliquam",
+        "Hidden": true,
+        "FullName": "Emmanuelle Johathan O'Reilly V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 596
+            "FieldType": "System.Int32",
+            "FieldLength": 695
           }
         }
       }
     ],
-    "ExtraInfo": "officiis",
-    "StyleHint": "eos",
-    "Hidden": false,
-    "FullName": "Erik Eichmann",
+    "ExtraInfo": "veniam",
+    "StyleHint": "quod",
+    "Hidden": true,
+    "FullName": "Ms. Gustave Marion Lehner",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 444
+        "FieldType": "System.Int32",
+        "FieldLength": 30
       }
     }
   }

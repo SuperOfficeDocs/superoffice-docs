@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ReasonSold/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 732,
-    "Name": "Christiansen Group",
-    "ToolTip": "Et eos et.",
+    "Id": 597,
+    "Name": "Schmidt Inc and Sons",
+    "ToolTip": "Omnis neque sapiente error quod eos autem autem.",
     "Deleted": false,
-    "Rank": 7,
-    "Type": "repudiandae",
-    "ColorBlock": 985,
-    "IconHint": "sapiente",
-    "Selected": false,
-    "LastChanged": "2007-12-08T13:14:10.0254136+01:00",
+    "Rank": 773,
+    "Type": "ut",
+    "ColorBlock": 447,
+    "IconHint": "explicabo",
+    "Selected": true,
+    "LastChanged": "2024-12-31T16:32:48.9307198+01:00",
     "ChildItems": [
       {
-        "Id": 189,
-        "Name": "Stanton, Hessel and Mueller",
-        "ToolTip": "Consequatur quidem voluptatum in quas neque expedita consequuntur.",
+        "Id": 709,
+        "Name": "Huel-Metz",
+        "ToolTip": "Repudiandae iure qui odio et.",
         "Deleted": false,
-        "Rank": 620,
-        "Type": "eaque",
-        "ColorBlock": 864,
-        "IconHint": "aut",
-        "Selected": false,
-        "LastChanged": "2017-01-03T13:14:10.0254136+01:00",
+        "Rank": 430,
+        "Type": "in",
+        "ColorBlock": 364,
+        "IconHint": "id",
+        "Selected": true,
+        "LastChanged": "2022-11-05T16:32:48.9307198+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aut",
-        "StyleHint": "distinctio",
+        "ExtraInfo": "ea",
+        "StyleHint": "illo",
         "Hidden": false,
-        "FullName": "Dr. Meredith Boehm Jr."
+        "FullName": "Mrs. Jaden Stamm DDS"
       }
     ],
-    "ExtraInfo": "dolor",
-    "StyleHint": "consequatur",
+    "ExtraInfo": "ut",
+    "StyleHint": "voluptatem",
     "Hidden": false,
-    "FullName": "Mr. Lonie Mraz"
+    "FullName": "Mr. Carmella Alberto Sauer"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 79,
-    "Name": "Collins, Rowe and Cummings",
-    "ToolTip": "Voluptatum provident voluptatibus nesciunt.",
+    "Id": 913,
+    "Name": "Williamson, Kuhn and Auer",
+    "ToolTip": "Non voluptates ipsa sunt praesentium assumenda eos.",
     "Deleted": true,
-    "Rank": 947,
-    "Type": "pariatur",
-    "ColorBlock": 112,
-    "IconHint": "autem",
-    "Selected": true,
-    "LastChanged": "2006-12-18T13:14:10.0410396+01:00",
+    "Rank": 887,
+    "Type": "quasi",
+    "ColorBlock": 204,
+    "IconHint": "ipsum",
+    "Selected": false,
+    "LastChanged": "2024-10-04T16:32:48.9307198+02:00",
     "ChildItems": [
       {
-        "Id": 806,
-        "Name": "Hilpert, Harber and Hills",
-        "ToolTip": "Eaque quia.",
-        "Deleted": false,
-        "Rank": 982,
-        "Type": "voluptatem",
-        "ColorBlock": 95,
-        "IconHint": "et",
+        "Id": 480,
+        "Name": "Pfeffer-Bartoletti",
+        "ToolTip": "Sint sit.",
+        "Deleted": true,
+        "Rank": 692,
+        "Type": "dolorum",
+        "ColorBlock": 123,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2021-11-01T13:14:10.0410396+01:00",
+        "LastChanged": "2002-03-19T16:32:48.9307198+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nemo",
-        "StyleHint": "et",
-        "Hidden": false,
-        "FullName": "Saul Kertzmann II",
+        "ExtraInfo": "ducimus",
+        "StyleHint": "atque",
+        "Hidden": true,
+        "FullName": "Ms. Erika Kihn I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldLength": 328
           }
         }
       }
     ],
-    "ExtraInfo": "officia",
-    "StyleHint": "reprehenderit",
+    "ExtraInfo": "quia",
+    "StyleHint": "quas",
     "Hidden": true,
-    "FullName": "Tevin Hermiston",
+    "FullName": "Kelsie Beier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 738
+        "FieldLength": 724
       }
     }
   }

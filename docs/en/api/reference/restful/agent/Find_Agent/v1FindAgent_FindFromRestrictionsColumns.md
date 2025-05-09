@@ -100,21 +100,21 @@ OK
 POST /api/v1/Agents/Find/FindFromRestrictionsColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restrictions": [
     {
-      "Name": "Thompson, Cronin and Strosin",
-      "Operator": "ut",
+      "Name": "Lueilwitz-Roberts",
+      "Operator": "non",
       "Values": [
-        "est",
-        "aut"
+        "dolores",
+        "modi"
       ],
       "DisplayValues": [
-        "autem",
-        "iusto"
+        "ut",
+        "voluptas"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -122,18 +122,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 40,
+      "InterParenthesis": 804,
       "InterOperator": "And",
-      "UniqueHash": 276
+      "UniqueHash": 524
     }
   ],
-  "ProviderName": "Leuschke, Koelpin and Turcotte",
+  "ProviderName": "Bauch, Boehm and Stracke",
   "DesiredColumns": [
-    "blanditiis",
-    "iure"
+    "ut",
+    "facere"
   ],
-  "PageSize": 329,
-  "PageNumber": 809
+  "PageSize": 914,
+  "PageNumber": 2
 }
 ```
 
@@ -146,51 +146,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Grant, Graham and Collier",
-      "DisplayTooltip": "unde",
-      "DisplayType": "fugit",
+      "DisplayName": "Feil, Bosco and Thiel",
+      "DisplayTooltip": "et",
+      "DisplayType": "consequuntur",
       "CanOrderBy": false,
-      "Name": "Hickle, Zemlak and Abshire",
+      "Name": "Kulas, Romaguera and Casper",
       "CanRestrictBy": true,
-      "RestrictionType": "exercitationem",
-      "RestrictionListName": "Streich, Jacobi and Quigley",
-      "IsVisible": true,
-      "ExtraInfo": "architecto",
-      "Width": "autem",
-      "IconHint": "odio",
-      "HeadingIconHint": "sit"
+      "RestrictionType": "rerum",
+      "RestrictionListName": "Stehr-Little",
+      "IsVisible": false,
+      "ExtraInfo": "rem",
+      "Width": "est",
+      "IconHint": "doloribus",
+      "HeadingIconHint": "nihil"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Gorczany Inc and Sons",
-      "PrimaryKey": 376,
+      "EntityName": "Medhurst-Pouros",
+      "PrimaryKey": 19,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "sint",
-          "TooltipHint": "ullam",
-          "LinkHint": "eum"
+          "DisplayValue": "sunt",
+          "TooltipHint": "neque",
+          "LinkHint": "ex"
         }
       },
-      "LinkHint": "vero",
-      "StyleHint": "corrupti",
+      "LinkHint": "eum",
+      "StyleHint": "saepe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 389
+          "FieldLength": 369
         }
       }
     }
   ],
-  "RowCount": 798,
+  "RowCount": 782,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldLength": 630
     }
   }
 }

@@ -72,7 +72,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeQuoteAttachmentId": 671
+  "SaleTypeQuoteAttachmentId": 650
 }
 ```
 

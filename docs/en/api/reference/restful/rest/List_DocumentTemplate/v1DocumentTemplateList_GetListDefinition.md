@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 312,
-  "Name": "Bechtelar, Flatley and Farrell",
+  "Id": 122,
+  "Name": "Stokes-Rowe",
   "Tooltip": "enim",
   "Deleted": false,
-  "Rank": 902,
+  "Rank": 692,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "voluptas",
-  "InUseByUserDefinedFields": false,
+  "ListType": "dicta",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 446
+      "FieldLength": 233
     }
   },
   "_Links": {

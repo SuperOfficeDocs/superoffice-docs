@@ -86,7 +86,7 @@ DashboardTile found.
 GET /api/v1/DashboardTile/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,64 +96,64 @@ HTTP/1.1 200 DashboardTile found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 188,
-  "Caption": "quis",
-  "Description": "Proactive incremental protocol",
-  "ChartName": "DuBuque-Mueller",
-  "ChartId": "accusamus",
-  "IsDefault": false,
-  "AssociateId": 56,
-  "GroupId": 76,
-  "SelectionId": 500,
-  "Config": "quam",
+  "DashboardTileId": 880,
+  "Caption": "ut",
+  "Description": "User-friendly systemic process improvement",
+  "ChartName": "Lynch, Witting and Fritsch",
+  "ChartId": "explicabo",
+  "IsDefault": true,
+  "AssociateId": 686,
+  "GroupId": 659,
+  "SelectionId": 99,
+  "Config": "quia",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Witting, Legros and Jast",
-      "Description": "Re-engineered even-keeled firmware",
+      "Name": "Schulist-Bernhard",
+      "Description": "Cross-group client-server collaboration",
       "Type": "Boolean",
-      "ListName": "Braun, Wiegand and Fahey",
+      "ListName": "Blick-Hermann",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "repellat",
+      "Value": "optio",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 829
+          "FieldType": "System.String",
+          "FieldLength": 640
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 235,
+      "VisibleId": 407,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 368
+          "FieldType": "System.Int32",
+          "FieldLength": 851
         }
       }
     },
     {
-      "VisibleId": 235,
+      "VisibleId": 407,
       "Visibility": "All",
-      "DisplayValue": "molestiae",
+      "DisplayValue": "quisquam",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 368
+          "FieldType": "System.Int32",
+          "FieldLength": 851
         }
       }
     }
@@ -163,12 +163,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 314
+      "FieldLength": 864
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

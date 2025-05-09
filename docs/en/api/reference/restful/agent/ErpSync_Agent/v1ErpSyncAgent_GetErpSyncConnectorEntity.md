@@ -28,7 +28,7 @@ Gets a ErpSyncConnectorEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity?erpSyncConnectorEntityId=122
+POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity?erpSyncConnectorEntityId=963
 POST /api/v1/Agents/ErpSync/GetErpSyncConnectorEntity?$select=name,department,category/id
 ```
 
@@ -82,16 +82,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 755,
-  "DisplayName": "Walsh-Crona",
+  "ErpConnectorId": 316,
+  "DisplayName": "Hintz, Ortiz and Casper",
   "URL": "http://www.example.com/",
-  "Deleted": true,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 168
+      "FieldLength": 728
     }
   }
 }

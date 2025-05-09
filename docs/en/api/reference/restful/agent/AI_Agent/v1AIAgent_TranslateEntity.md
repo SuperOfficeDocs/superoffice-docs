@@ -70,13 +70,13 @@ OK
 POST /api/v1/Agents/AI/TranslateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EntityName": "Gaylord-Satterfield",
-  "EntityId": 175,
-  "TargetLanguage": "sapiente"
+  "EntityName": "Baumbach-White",
+  "EntityId": 219,
+  "TargetLanguage": "magnam"
 }
 ```
 
@@ -86,5 +86,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"in"
+"autem"
 ```

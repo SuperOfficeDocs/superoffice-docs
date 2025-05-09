@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/List/GetVisibleForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 574,
-  "ListItemId": 64
+  "UdListDefinitionId": 352,
+  "ListItemId": 944
 }
 ```
 
@@ -105,56 +105,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 164,
-    "Name": "Hickle, Legros and Pagac",
-    "ToolTip": "Asperiores voluptates omnis beatae quisquam molestiae est.",
+    "Id": 782,
+    "Name": "Wyman, O'Hara and O'Conner",
+    "ToolTip": "Expedita et eius cumque vero natus.",
     "Deleted": false,
-    "Rank": 222,
-    "Type": "sed",
-    "ColorBlock": 988,
-    "IconHint": "libero",
+    "Rank": 781,
+    "Type": "nemo",
+    "ColorBlock": 407,
+    "IconHint": "unde",
     "Selected": false,
-    "LastChanged": "2009-04-06T13:14:00.5793728+02:00",
+    "LastChanged": "2016-05-13T16:32:39.2426162+02:00",
     "ChildItems": [
       {
-        "Id": 658,
-        "Name": "Cartwright Group",
-        "ToolTip": "Molestias ducimus natus eligendi.",
+        "Id": 329,
+        "Name": "Will LLC",
+        "ToolTip": "Doloremque ea earum est.",
         "Deleted": false,
-        "Rank": 384,
-        "Type": "cumque",
-        "ColorBlock": 374,
-        "IconHint": "sit",
-        "Selected": true,
-        "LastChanged": "2002-06-26T13:14:00.5793728+02:00",
+        "Rank": 648,
+        "Type": "quod",
+        "ColorBlock": 73,
+        "IconHint": "rerum",
+        "Selected": false,
+        "LastChanged": "2018-03-10T16:32:39.2426162+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "autem",
-        "StyleHint": "voluptatem",
-        "Hidden": true,
-        "FullName": "Magdalen Rogahn",
+        "ExtraInfo": "harum",
+        "StyleHint": "velit",
+        "Hidden": false,
+        "FullName": "Ashton Sanford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 810
+            "FieldLength": 27
           }
         }
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "tempore",
-    "Hidden": false,
-    "FullName": "Esta Kutch",
+    "ExtraInfo": "ut",
+    "StyleHint": "rerum",
+    "Hidden": true,
+    "FullName": "Franz Johnston",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldLength": 705
       }
     }
   }

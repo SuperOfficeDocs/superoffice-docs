@@ -94,7 +94,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 180
+  "ProjectId": 571
 }
 ```
 
@@ -105,30 +105,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectId": 744,
-  "Name": "Schmidt, Kris and Block",
-  "Description": "Configurable eco-centric standardization",
+  "ProjectId": 315,
+  "Name": "Ebert-Tillman",
+  "Description": "Enterprise-wide disintermediate open system",
   "URL": "http://www.example.com/",
-  "Type": "possimus",
-  "AssociateId": 846,
-  "AssociateFullName": "Miss Else Seth Schmidt",
-  "TypeId": 111,
-  "Updated": "2002-11-18T13:14:00.9390342+01:00",
-  "StatusId": 402,
-  "Status": "voluptatibus",
-  "TextId": 703,
-  "PublishTo": "2009-08-15T13:14:00.9390342+02:00",
-  "PublishFrom": "2000-06-29T13:14:00.9390342+02:00",
+  "Type": "quia",
+  "AssociateId": 320,
+  "AssociateFullName": "Mr. Kelton Hilpert I",
+  "TypeId": 230,
+  "Updated": "1998-03-26T16:32:39.6490177+01:00",
+  "StatusId": 217,
+  "Status": "deserunt",
+  "TextId": 459,
+  "PublishTo": "2022-04-30T16:32:39.6490177+02:00",
+  "PublishFrom": "2011-09-22T16:32:39.6490177+02:00",
   "IsPublished": false,
   "URLName": "http://www.example.com/",
-  "ProjectNumber": "1044323",
-  "ActiveErpLinks": 117,
+  "ProjectNumber": "998396",
+  "ActiveErpLinks": 318,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 120
+      "FieldLength": 143
     }
   }
 }

@@ -83,11 +83,11 @@ OK
 POST /api/v1/Agents/Preference/GetPreference
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 446
+  "Id": 693
 }
 ```
 
@@ -99,22 +99,22 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Level": "Database",
-  "RawValue": "sed",
+  "RawValue": "voluptas",
   "Specification": null,
-  "DisplayValue": "soluta",
-  "DisplayTooltip": "et",
+  "DisplayValue": "et",
+  "DisplayTooltip": "iste",
   "DisplayType": "Bool",
   "TabOrder": null,
-  "TargetId": 431,
-  "PrefDescId": 744,
-  "TableName": "Hermann, Cassin and Tillman",
-  "UserPreferenceId": 311,
+  "TargetId": 454,
+  "PrefDescId": 475,
+  "TableName": "Heller LLC",
+  "UserPreferenceId": 565,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 70
+      "FieldType": "System.String",
+      "FieldLength": 212
     }
   }
 }

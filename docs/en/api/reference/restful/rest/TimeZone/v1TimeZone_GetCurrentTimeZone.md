@@ -71,31 +71,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TZLocationID": 820,
-  "Name": "Muller, Prosacco and Labadie",
-  "TZLocationCode": "fugit",
-  "TZLocationCities": "omnis",
-  "IsoNumber": 892,
+  "TZLocationID": 497,
+  "Name": "Medhurst, Schuster and Brekke",
+  "TZLocationCode": "expedita",
+  "TZLocationCities": "placeat",
+  "IsoNumber": 553,
   "TimeZoneSTDRules": {
     "fieldName": {
-      "StartDay": 852,
-      "StartMonth": 9,
-      "EndDay": 918,
-      "EndMonth": 989,
-      "TZOffset": 81,
-      "StartRulePattern": "ducimus",
-      "EndRulePattern": "pariatur"
+      "StartDay": 770,
+      "StartMonth": 218,
+      "EndDay": 761,
+      "EndMonth": 633,
+      "TZOffset": 706,
+      "StartRulePattern": "tempora",
+      "EndRulePattern": "velit"
     }
   },
   "TimeZoneDSTRules": {
     "fieldName": {
-      "StartDay": 888,
-      "StartMonth": 968,
-      "EndDay": 7,
-      "EndMonth": 245,
-      "TZOffset": 680,
-      "StartRulePattern": "numquam",
-      "EndRulePattern": "dolor"
+      "StartDay": 492,
+      "StartMonth": 569,
+      "EndDay": 756,
+      "EndMonth": 61,
+      "TZOffset": 235,
+      "StartRulePattern": "accusamus",
+      "EndRulePattern": "totam"
     }
   }
 }

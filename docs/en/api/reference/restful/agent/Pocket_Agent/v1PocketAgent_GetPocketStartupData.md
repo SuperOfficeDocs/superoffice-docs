@@ -82,15 +82,15 @@ OK
 POST /api/v1/Agents/Pocket/GetPocketStartupData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tables": [
-    "ullam",
-    "sunt"
+    "odio",
+    "harum"
   ],
-  "CurrentClientTime": "2007-06-16T13:14:00.8763305+02:00"
+  "CurrentClientTime": "2020-03-27T16:32:39.5709105+01:00"
 }
 ```
 
@@ -102,43 +102,43 @@ Content-Type: application/json; charset=utf-8
 
 {
   "TableRights": [
-    "pariatur",
-    "voluptatem"
+    "porro",
+    "deleniti"
   ],
   "PhoneLocaleTimeZoneData": null,
   "BaseLocaleTimeZoneData": null,
-  "OverdueSalesCount": 790,
-  "NotificationsCount": 467,
+  "OverdueSalesCount": 240,
+  "NotificationsCount": 162,
   "SystemWebPanels": [
     {
-      "WebPanelId": 790,
-      "Name": "Reichel LLC",
-      "Tooltip": "quis",
-      "Deleted": false,
-      "Rank": 860,
+      "WebPanelId": 8,
+      "Name": "Cole, Stanton and Krajcik",
+      "Tooltip": "eum",
+      "Deleted": true,
+      "Rank": 375,
       "UrlEncoding": "ANSI",
       "VisibleIn": "ActivityDialog",
-      "OnCentral": true,
-      "OnSatellite": true,
+      "OnCentral": false,
+      "OnSatellite": false,
       "OnTravel": false,
       "OnSalesMarketingWeb": false,
-      "OnSalesMarketingPocket": true,
-      "ShowInMenuBar": false,
+      "OnSalesMarketingPocket": false,
+      "ShowInMenuBar": true,
       "ShowInToolBar": true,
       "ShowInAddressBar": false,
-      "ShowInStatusBar": false,
-      "WindowName": "Cassin, Monahan and Koepp",
+      "ShowInStatusBar": true,
+      "WindowName": "Borer-Aufderhar",
       "Url": "http://www.example.com/",
-      "ProgId": "nihil",
-      "Icon": 461,
+      "ProgId": "ad",
+      "Icon": 761,
       "AlwaysReloadOnShow": false,
-      "NeverReloadOnCurrentChange": false,
+      "NeverReloadOnCurrentChange": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 197
+          "FieldLength": 146
         }
       }
     }
@@ -146,34 +146,34 @@ Content-Type: application/json; charset=utf-8
   "PocketPreferences": [
     {
       "Level": "Database",
-      "RawValue": "et",
+      "RawValue": "aut",
       "Specification": null,
-      "DisplayValue": "dolorem",
-      "DisplayTooltip": "at",
+      "DisplayValue": "modi",
+      "DisplayTooltip": "ut",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 503,
-      "PrefDescId": 647,
-      "TableName": "Torp, Mohr and Hintz",
-      "UserPreferenceId": 684,
+      "TargetId": 79,
+      "PrefDescId": 920,
+      "TableName": "Rau, Johns and Cummerata",
+      "UserPreferenceId": 520,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 525
+          "FieldLength": 723
         }
       }
     }
   ],
   "IsPushNotificationEnabled": false,
-  "CustomData": "fugiat",
+  "CustomData": "esse",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 823
+      "FieldLength": 422
     }
   }
 }

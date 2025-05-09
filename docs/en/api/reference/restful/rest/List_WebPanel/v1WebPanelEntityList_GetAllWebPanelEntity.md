@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/WebPanel/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,34 +89,34 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "WebPanelId": 36,
-    "Name": "Mertz Group",
-    "Tooltip": "natus",
-    "Deleted": true,
-    "Rank": 828,
+    "WebPanelId": 766,
+    "Name": "Ullrich-Lubowitz",
+    "Tooltip": "voluptatum",
+    "Deleted": false,
+    "Rank": 348,
     "UrlEncoding": "ANSI",
     "VisibleIn": "ActivityDialog",
-    "OnCentral": true,
-    "OnSatellite": false,
+    "OnCentral": false,
+    "OnSatellite": true,
     "OnTravel": true,
     "OnSalesMarketingWeb": true,
-    "OnSalesMarketingPocket": true,
-    "ShowInMenuBar": false,
-    "ShowInToolBar": true,
-    "ShowInAddressBar": false,
+    "OnSalesMarketingPocket": false,
+    "ShowInMenuBar": true,
+    "ShowInToolBar": false,
+    "ShowInAddressBar": true,
     "ShowInStatusBar": false,
-    "WindowName": "Wolff-Moore",
+    "WindowName": "Streich LLC",
     "Url": "http://www.example.com/",
-    "ProgId": "deleniti",
-    "Icon": 964,
+    "ProgId": "reprehenderit",
+    "Icon": 924,
     "AlwaysReloadOnShow": false,
-    "NeverReloadOnCurrentChange": false,
+    "NeverReloadOnCurrentChange": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 118
+        "FieldType": "System.Int32",
+        "FieldLength": 208
       }
     }
   }

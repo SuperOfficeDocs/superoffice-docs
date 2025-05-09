@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/SelectionCategory/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 862,
-    "Name": "Nitzsche LLC",
-    "ToolTip": "Autem et exercitationem voluptatum quia excepturi velit ut.",
+    "Id": 699,
+    "Name": "O'Reilly Inc and Sons",
+    "ToolTip": "Quia amet beatae provident optio reiciendis porro autem.",
     "Deleted": false,
-    "Rank": 440,
-    "Type": "placeat",
-    "ColorBlock": 215,
-    "IconHint": "quod",
-    "Selected": true,
-    "LastChanged": "2011-08-06T13:14:10.0879174+02:00",
+    "Rank": 115,
+    "Type": "quod",
+    "ColorBlock": 492,
+    "IconHint": "quia",
+    "Selected": false,
+    "LastChanged": "2017-02-19T16:32:48.9775807+01:00",
     "ChildItems": [
       {
-        "Id": 833,
-        "Name": "Hand-Lang",
-        "ToolTip": "Sit ut dolorem et est id assumenda nesciunt.",
+        "Id": 676,
+        "Name": "Macejkovic, Kuvalis and Hamill",
+        "ToolTip": "Et aliquid placeat provident velit suscipit eaque ut.",
         "Deleted": false,
-        "Rank": 634,
-        "Type": "vel",
-        "ColorBlock": 614,
-        "IconHint": "qui",
+        "Rank": 68,
+        "Type": "quasi",
+        "ColorBlock": 268,
+        "IconHint": "consequatur",
         "Selected": false,
-        "LastChanged": "2007-05-29T13:14:10.0879174+02:00",
+        "LastChanged": "2003-09-15T16:32:48.9775807+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "reiciendis",
-        "StyleHint": "ut",
+        "ExtraInfo": "laudantium",
+        "StyleHint": "omnis",
         "Hidden": false,
-        "FullName": "Dr. Claudie Layne Dickens DVM"
+        "FullName": "Rodrick Dicki"
       }
     ],
-    "ExtraInfo": "magnam",
-    "StyleHint": "quia",
-    "Hidden": true,
-    "FullName": "Ms. Derick Will MD"
+    "ExtraInfo": "dignissimos",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Miss Jakob Bruce Kessler I"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 936,
-    "Name": "Spinka-Rath",
-    "ToolTip": "At hic sapiente porro.",
+    "Id": 159,
+    "Name": "Schmidt-Rowe",
+    "ToolTip": "Odio ut dolor et eius ut facere nam.",
     "Deleted": true,
-    "Rank": 860,
-    "Type": "aut",
-    "ColorBlock": 687,
-    "IconHint": "quia",
-    "Selected": false,
-    "LastChanged": "2012-10-09T13:14:10.0879174+02:00",
+    "Rank": 882,
+    "Type": "necessitatibus",
+    "ColorBlock": 48,
+    "IconHint": "aut",
+    "Selected": true,
+    "LastChanged": "2000-06-22T16:32:48.9775807+02:00",
     "ChildItems": [
       {
-        "Id": 57,
-        "Name": "Senger, Sawayn and Skiles",
-        "ToolTip": "Id eius impedit et.",
-        "Deleted": false,
-        "Rank": 879,
-        "Type": "tempore",
-        "ColorBlock": 999,
-        "IconHint": "nulla",
+        "Id": 720,
+        "Name": "Hand-Wiza",
+        "ToolTip": "Autem occaecati illo.",
+        "Deleted": true,
+        "Rank": 889,
+        "Type": "quia",
+        "ColorBlock": 913,
+        "IconHint": "voluptas",
         "Selected": true,
-        "LastChanged": "2006-03-18T13:14:10.0879174+01:00",
+        "LastChanged": "2023-03-03T16:32:48.9775807+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "impedit",
-        "StyleHint": "repellat",
+        "ExtraInfo": "dolor",
+        "StyleHint": "ut",
         "Hidden": false,
-        "FullName": "Dr. Suzanne Crooks",
+        "FullName": "Bessie Baumbach",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 926
+            "FieldLength": 354
           }
         }
       }
     ],
-    "ExtraInfo": "tenetur",
-    "StyleHint": "est",
-    "Hidden": true,
-    "FullName": "Reynold Bergstrom",
+    "ExtraInfo": "rem",
+    "StyleHint": "vero",
+    "Hidden": false,
+    "FullName": "Mrs. Webster Jacobi IV",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 279
+        "FieldLength": 982
       }
     }
   }

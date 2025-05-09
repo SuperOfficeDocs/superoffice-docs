@@ -85,40 +85,40 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketTypeId": 883,
-  "Name": "Pollich, Connelly and Walsh",
-  "Rank": 494,
-  "Tooltip": "enim",
-  "Icon": "corrupti",
-  "DefaultTicketStatus": 961,
+  "TicketTypeId": 814,
+  "Name": "Upton-Spencer",
+  "Rank": 234,
+  "Tooltip": "tenetur",
+  "Icon": "quia",
+  "DefaultTicketStatus": 636,
   "TicketStatuses": [
-    103,
-    262
+    955,
+    301
   ],
-  "DefaultTicketPriority": 274,
+  "DefaultTicketPriority": 364,
   "TicketPriorities": [
-    2,
-    476
+    729,
+    674
   ],
-  "ReplyTemplate": 538,
+  "ReplyTemplate": 90,
   "IsExternalVisible": false,
   "IsDefault": false,
-  "ShowInNew": false,
-  "ExcludeSignature": false,
+  "ShowInNew": true,
+  "ExcludeSignature": true,
   "ExcludeEmailRecipients": false,
   "ExternalAsDefault": true,
   "VisibleForGroups": [
-    414,
-    271
+    521,
+    957
   ],
-  "ReplyForwardNoSignature": true,
-  "ReplyExternalAsDefault": true,
+  "ReplyForwardNoSignature": false,
+  "ReplyExternalAsDefault": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 8
+      "FieldType": "System.Int32",
+      "FieldLength": 463
     }
   }
 }

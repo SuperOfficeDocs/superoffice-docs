@@ -93,7 +93,7 @@ DocumentEntity found.
 GET /api/v1/Document/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 308,
-  "ColumnId": 4,
-  "FieldDefault": "reiciendis",
-  "FieldHeight": 414,
+  "UDefFieldId": 451,
+  "ColumnId": 107,
+  "FieldDefault": "consectetur",
+  "FieldHeight": 572,
   "FieldLabel": "et",
-  "FieldLeft": 1002,
-  "FieldTop": 729,
+  "FieldLeft": 971,
+  "FieldTop": 543,
   "FieldType": "Checkbox",
-  "FieldWidth": 14,
-  "FormatMask": "neque",
+  "FieldWidth": 531,
+  "FormatMask": "temporibus",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 97,
-  "LabelLeft": 318,
-  "LabelTop": 893,
-  "LabelWidth": 575,
-  "LastVersionId": 490,
-  "ListTableId": 981,
-  "IsMandatory": true,
+  "LabelHeight": 212,
+  "LabelLeft": 643,
+  "LabelTop": 733,
+  "LabelWidth": 392,
+  "LastVersionId": 148,
+  "ListTableId": 799,
+  "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 104,
-  "ProgId": "quo",
-  "IsReadOnly": true,
-  "ShortLabel": "quia",
-  "TabOrder": 63,
-  "TextLength": 159,
-  "Tooltip": "incidunt",
-  "UdefIdentity": 769,
-  "UDListDefinitionId": 474,
+  "Page1LineNo": 331,
+  "ProgId": "aspernatur",
+  "IsReadOnly": false,
+  "ShortLabel": "consequatur",
+  "TabOrder": 752,
+  "TextLength": 659,
+  "Tooltip": "et",
+  "UdefIdentity": 522,
+  "UDListDefinitionId": 40,
   "Justification": "Center",
-  "Version": 411,
-  "TemplateVariableName": "Muller-Jakubowski",
+  "Version": 642,
+  "TemplateVariableName": "Sipes LLC",
   "HasBeenPublished": false,
-  "MdoListName": "Wunsch-Durgan",
+  "MdoListName": "Blick, Murphy and Kerluke",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 197
+      "FieldLength": 611
     }
   }
 }

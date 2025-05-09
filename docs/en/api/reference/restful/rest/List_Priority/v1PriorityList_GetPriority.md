@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Priority/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -75,18 +75,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 1000,
-  "Name": "Hamill, Homenick and Wehner",
-  "Tooltip": "libero",
+  "Id": 611,
+  "Name": "Schaden-Dickens",
+  "Tooltip": "nulla",
   "Deleted": false,
-  "UdListDefinitionId": 357,
-  "Rank": 314,
+  "UdListDefinitionId": 492,
+  "Rank": 546,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 473
+      "FieldType": "System.String",
+      "FieldLength": 537
     }
   }
 }

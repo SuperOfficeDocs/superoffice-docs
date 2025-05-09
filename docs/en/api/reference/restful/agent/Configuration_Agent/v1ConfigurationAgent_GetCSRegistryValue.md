@@ -68,11 +68,11 @@ OK
 POST /api/v1/Agents/Configuration/GetCSRegistryValue
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Entry": 170
+  "Entry": 913
 }
 ```
 
@@ -82,5 +82,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"nisi"
+"officia"
 ```

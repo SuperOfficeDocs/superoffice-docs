@@ -27,7 +27,7 @@ Get the MDO list items for "Category" - with headings and filtering by user grou
 
 ```http
 GET /api/v1/List/Category/MDOItems?flat=False
-GET /api/v1/List/Category/MDOItems?query=ullam
+GET /api/v1/List/Category/MDOItems?query=asperiores
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Category/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 767,
-    "Name": "Olson-Gislason",
-    "ToolTip": "Est voluptas qui et eveniet sed sit.",
+    "Id": 259,
+    "Name": "Harber, Goyette and Rolfson",
+    "ToolTip": "Voluptatem sed sint nulla laudantium sequi id voluptas.",
     "Deleted": false,
-    "Rank": 550,
-    "Type": "reprehenderit",
+    "Rank": 429,
+    "Type": "aut",
     "ChildItems": [
       {
-        "Id": 556,
-        "Name": "Hansen-Ortiz",
-        "ToolTip": "Architecto et dolorem rem nostrum a.",
+        "Id": 25,
+        "Name": "Kozey-Schmeler",
+        "ToolTip": "Voluptatem consequatur ut.",
         "Deleted": true,
-        "Rank": 461,
-        "Type": "ad",
+        "Rank": 774,
+        "Type": "voluptatum",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "sequi",
-        "ColorBlock": 620,
-        "ExtraInfo": "voluptatum",
-        "StyleHint": "ad",
-        "FullName": "Carlos Hansen",
+        "IconHint": "quasi",
+        "ColorBlock": 612,
+        "ExtraInfo": "sed",
+        "StyleHint": "exercitationem",
+        "FullName": "Josefina Stiedemann",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 139
+            "FieldLength": 299
           }
         }
       }
     ],
-    "IconHint": "temporibus",
-    "ColorBlock": 75,
-    "ExtraInfo": "laudantium",
-    "StyleHint": "consequuntur",
-    "FullName": "Durward Leannon",
+    "IconHint": "aut",
+    "ColorBlock": 805,
+    "ExtraInfo": "officia",
+    "StyleHint": "nisi",
+    "FullName": "Mrs. Torey Marguerite Spencer V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 825
+        "FieldLength": 447
       }
     }
   }

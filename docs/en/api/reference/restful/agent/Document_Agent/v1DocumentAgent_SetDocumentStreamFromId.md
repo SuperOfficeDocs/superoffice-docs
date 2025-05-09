@@ -113,7 +113,7 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 879,
+  "DocumentId": 71,
   "Stream": "GIF89....File contents as raw bytes..."
 }
 ```
@@ -125,88 +125,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 462,
+  "DocumentId": 398,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "architecto",
-  "Header": "vel",
-  "Name": "Wolf-Ratke",
-  "OurRef": "voluptatum",
-  "YourRef": "voluptates",
-  "CreatedDate": "2020-01-04T13:14:00.2355945+01:00",
-  "UpdatedDate": "2016-10-17T13:14:00.2355945+02:00",
-  "Description": "Enterprise-wide tertiary project",
+  "Attention": "officia",
+  "Header": "laborum",
+  "Name": "Hahn Group",
+  "OurRef": "fugiat",
+  "YourRef": "ab",
+  "CreatedDate": "2006-05-01T16:32:38.9145698+02:00",
+  "UpdatedDate": "2000-06-02T16:32:38.9145698+02:00",
+  "Description": "Automated national infrastructure",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2019-11-03T13:14:00.2355945+01:00",
-  "ExternalRef": "voluptates",
+  "Date": "2004-11-04T16:32:38.9145698+01:00",
+  "ExternalRef": "rerum",
   "Completed": "Completed",
-  "ActiveLinks": 80,
+  "ActiveLinks": 128,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Hamill Inc and Sons",
-      "Id": 182,
-      "Description": "Networked intangible functionalities",
-      "ExtraInfo": "tempore",
-      "LinkId": 279,
+      "EntityName": "Pfeffer Inc and Sons",
+      "Id": 73,
+      "Description": "Profound zero tolerance matrices",
+      "ExtraInfo": "natus",
+      "LinkId": 782,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 243
+          "FieldLength": 295
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 805,
-  "Snum": 826,
+  "SuggestedDocumentId": 995,
+  "Snum": 809,
   "UserDefinedFields": {
-    "SuperOffice:1": "406258098",
-    "SuperOffice:2": "2127094707"
+    "SuperOffice:1": "Neal O'Keefe",
+    "SuperOffice:2": "22127691"
   },
   "ExtraFields": {
-    "ExtraFields1": "quod",
-    "ExtraFields2": "modi"
+    "ExtraFields1": "velit",
+    "ExtraFields2": "aut"
   },
   "CustomFields": {
-    "CustomFields1": "labore",
-    "CustomFields2": "qui"
+    "CustomFields1": "saepe",
+    "CustomFields2": "est"
   },
-  "PublishEventDate": "2002-07-26T13:14:00.2355945+02:00",
-  "PublishTo": "1999-01-07T13:14:00.2355945+01:00",
-  "PublishFrom": "2022-06-26T13:14:00.2355945+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2006-11-12T16:32:38.9145698+01:00",
+  "PublishTo": "2003-03-22T16:32:38.9145698+01:00",
+  "PublishFrom": "2019-10-01T16:32:38.9145698+02:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 45,
+      "VisibleId": 957,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 802
+          "FieldLength": 110
         }
       }
     },
     {
-      "VisibleId": 45,
+      "VisibleId": 957,
       "Visibility": "All",
-      "DisplayValue": "quia",
+      "DisplayValue": "illum",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 802
+          "FieldLength": 110
         }
       }
     }
@@ -215,8 +215,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 548
+      "FieldType": "System.String",
+      "FieldLength": 783
     }
   }
 }

@@ -26,7 +26,7 @@ Gets a TaskListItem object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Appointment/GetTaskListItem?taskListItemId=414
+POST /api/v1/Agents/Appointment/GetTaskListItem?taskListItemId=509
 POST /api/v1/Agents/Appointment/GetTaskListItem?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Appointment/GetTaskListItem
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,14 +89,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 446,
-  "Value": "aut",
+  "TaskListItemId": 678,
+  "Value": "at",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "quos",
-  "Deleted": true,
-  "IntentId": 175,
-  "Rank": 114,
+  "Tooltip": "molestiae",
+  "Deleted": false,
+  "IntentId": 542,
+  "Rank": 916,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": false,
@@ -106,8 +106,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 518
+      "FieldType": "System.Int32",
+      "FieldLength": 546
     }
   }
 }

@@ -84,7 +84,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 39,
-  "DefaultValue": "asperiores",
-  "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "laudantium",
+  "ErpFieldId": 144,
+  "DefaultValue": "iste",
+  "HasFirstSyncDefaultValue": true,
+  "FirstSyncDefaultValue": "enim",
   "PromptUser": false,
   "Mandatory": false,
-  "ErpFieldKey": "necessitatibus",
+  "ErpFieldKey": "ut",
   "FieldType": "Checkbox",
-  "ListName": "Kemmer-Kilback",
+  "ListName": "Sipes LLC",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldType": "System.String",
+      "FieldLength": 638
     }
   }
 }

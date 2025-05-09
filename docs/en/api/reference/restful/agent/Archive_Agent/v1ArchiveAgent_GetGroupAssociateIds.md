@@ -68,13 +68,13 @@ OK
 POST /api/v1/Agents/Archive/GetGroupAssociateIds
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "GroupIds": [
-    782,
-    292
+    985,
+    512
   ]
 }
 ```
@@ -86,7 +86,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  802,
-  507
+  363,
+  616
 ]
 ```

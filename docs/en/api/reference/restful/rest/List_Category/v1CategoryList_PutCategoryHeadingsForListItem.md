@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Category/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 509,
-    "Name": "Haley Group",
-    "ToolTip": "Nisi in deleniti labore.",
-    "Deleted": true,
-    "Rank": 353,
-    "Type": "enim",
-    "ColorBlock": 104,
-    "IconHint": "velit",
-    "Selected": true,
-    "LastChanged": "1999-09-01T13:14:09.6347653+02:00",
+    "Id": 581,
+    "Name": "Mante, Bayer and Yost",
+    "ToolTip": "Praesentium aspernatur aliquam totam velit dignissimos ea.",
+    "Deleted": false,
+    "Rank": 57,
+    "Type": "et",
+    "ColorBlock": 497,
+    "IconHint": "eum",
+    "Selected": false,
+    "LastChanged": "2018-07-31T16:32:48.5401806+02:00",
     "ChildItems": [
       {
-        "Id": 631,
-        "Name": "Leuschke-Sawayn",
-        "ToolTip": "Quibusdam et provident est.",
+        "Id": 410,
+        "Name": "Jewess, Hilll and Von",
+        "ToolTip": "Sed ipsa at eius.",
         "Deleted": true,
-        "Rank": 309,
-        "Type": "enim",
-        "ColorBlock": 880,
-        "IconHint": "ducimus",
+        "Rank": 202,
+        "Type": "qui",
+        "ColorBlock": 363,
+        "IconHint": "atque",
         "Selected": false,
-        "LastChanged": "2008-12-09T13:14:09.6347653+01:00",
+        "LastChanged": "2025-01-19T16:32:48.5401806+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "vel",
+        "ExtraInfo": "voluptatibus",
         "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Octavia Batz I"
+        "Hidden": false,
+        "FullName": "Miss Rosario Nickolas Bernhard"
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "quis",
-    "Hidden": true,
-    "FullName": "Pietro Wisozk"
+    "ExtraInfo": "quo",
+    "StyleHint": "qui",
+    "Hidden": false,
+    "FullName": "Joanne Marvin"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 719,
-    "Name": "Christiansen, Welch and Smitham",
-    "ToolTip": "Placeat non ducimus ex maxime.",
+    "Id": 374,
+    "Name": "Kuphal LLC",
+    "ToolTip": "Cupiditate vero hic ratione sint sit sint ea.",
     "Deleted": false,
-    "Rank": 816,
-    "Type": "distinctio",
-    "ColorBlock": 23,
-    "IconHint": "et",
+    "Rank": 763,
+    "Type": "doloremque",
+    "ColorBlock": 589,
+    "IconHint": "laboriosam",
     "Selected": false,
-    "LastChanged": "2007-03-08T13:14:09.6347653+01:00",
+    "LastChanged": "2012-01-03T16:32:48.5401806+01:00",
     "ChildItems": [
       {
-        "Id": 895,
-        "Name": "Franecki, McCullough and Rolfson",
-        "ToolTip": "Adipisci debitis eaque placeat nisi animi eos aut.",
+        "Id": 976,
+        "Name": "Feest Group",
+        "ToolTip": "In dolorem.",
         "Deleted": false,
-        "Rank": 362,
-        "Type": "maxime",
-        "ColorBlock": 228,
-        "IconHint": "ea",
-        "Selected": true,
-        "LastChanged": "2014-10-19T13:14:09.6347653+02:00",
+        "Rank": 612,
+        "Type": "sequi",
+        "ColorBlock": 613,
+        "IconHint": "iusto",
+        "Selected": false,
+        "LastChanged": "2004-06-02T16:32:48.5401806+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "commodi",
+        "ExtraInfo": "laboriosam",
+        "StyleHint": "et",
         "Hidden": false,
-        "FullName": "Sigmund Schulist",
+        "FullName": "Abe Treutel PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 582
+            "FieldType": "System.String",
+            "FieldLength": 440
           }
         }
       }
     ],
-    "ExtraInfo": "iusto",
-    "StyleHint": "sunt",
-    "Hidden": false,
-    "FullName": "Elenor Koepp",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "non",
+    "Hidden": true,
+    "FullName": "Saige Skiles",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 300
+        "FieldType": "System.String",
+        "FieldLength": 142
       }
     }
   }

@@ -89,22 +89,22 @@ OK
 POST /api/v1/List/ConsentPurpose/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 693,
-  "Name": "Dickinson Inc and Sons",
-  "ConsentText": "optio",
-  "FormText": "voluptates",
-  "Key": "sit",
-  "Tooltip": "accusantium",
-  "Active": 214,
-  "UpdatedDate": "2018-08-26T13:14:09.6660173+02:00",
+  "ConsentPurposeId": 491,
+  "Name": "Raynor Inc and Sons",
+  "ConsentText": "necessitatibus",
+  "FormText": "amet",
+  "Key": "ad",
+  "Tooltip": "enim",
+  "Active": 617,
+  "UpdatedDate": "1999-12-22T16:32:48.5558051+01:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 948,
-  "PrivacyStatementDesc": "expedita",
+  "Rank": 237,
+  "PrivacyStatementDesc": "animi",
   "PrivacyStatementUrl": "http://www.example.com/"
 }
 ```
@@ -116,25 +116,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPurposeId": 265,
-  "Name": "Bernier-Murazik",
-  "ConsentText": "est",
-  "FormText": "rem",
-  "Key": "labore",
-  "Tooltip": "quibusdam",
-  "Active": 612,
-  "UpdatedDate": "2017-04-14T13:14:09.6660173+02:00",
+  "ConsentPurposeId": 847,
+  "Name": "Hermann, Erdman and Wiegand",
+  "ConsentText": "voluptas",
+  "FormText": "quas",
+  "Key": "accusamus",
+  "Tooltip": "minima",
+  "Active": 212,
+  "UpdatedDate": "2017-06-11T16:32:48.5714211+02:00",
   "UpdatedBy": null,
   "Deleted": false,
-  "Rank": 78,
-  "PrivacyStatementDesc": "voluptates",
+  "Rank": 935,
+  "PrivacyStatementDesc": "aliquid",
   "PrivacyStatementUrl": "http://www.example.com/",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 524
+      "FieldLength": 681
     }
   }
 }

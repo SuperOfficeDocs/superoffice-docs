@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/Audience/CreateDefaultAudienceLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -73,11 +73,11 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 171,
-  "InstanceLayout": "libero",
-  "InstanceName": "Lemke LLC",
-  "CreatedDate": "2022-07-10T13:13:59.5158194+02:00",
-  "UpdatedDate": "2005-10-29T13:13:59.5158194+02:00",
+  "AudienceLayoutId": 136,
+  "InstanceLayout": "ut",
+  "InstanceName": "Connelly, Gibson and Torp",
+  "CreatedDate": "2021-06-18T16:32:38.1803616+02:00",
+  "UpdatedDate": "2023-08-26T16:32:38.1803616+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
@@ -85,7 +85,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 172
+      "FieldLength": 911
     }
   }
 }

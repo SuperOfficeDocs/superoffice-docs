@@ -26,7 +26,7 @@ Gets a ExtAppEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=187
+POST /api/v1/Agents/List/GetExtAppEntity?extAppEntityId=497
 POST /api/v1/Agents/List/GetExtAppEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -98,34 +98,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 886,
-  "Name": "Beatty Group",
-  "Tooltip": "et",
+  "ExtAppId": 541,
+  "Name": "Reichert-Cormier",
+  "Tooltip": "illum",
   "Deleted": false,
-  "Rank": 489,
-  "Filename": "amet",
-  "Parameters": "ut",
-  "Workdir": "odit",
+  "Rank": 588,
+  "Filename": "accusantium",
+  "Parameters": "qui",
+  "Workdir": "tempore",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": true,
-  "OnSatellite": true,
-  "OnTravel": true,
+  "OnCentral": false,
+  "OnSatellite": false,
+  "OnTravel": false,
   "OnSalesMarketingPocket": false,
-  "ShowInMenuBar": true,
-  "ShowInToolBar": false,
+  "ShowInMenuBar": false,
+  "ShowInToolBar": true,
   "ShowInAddressBar": true,
-  "ShowInStatusBar": true,
-  "Icon": 294,
-  "WaitToFinish": false,
+  "ShowInStatusBar": false,
+  "Icon": 909,
+  "WaitToFinish": true,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "voluptas",
+  "Path": "odio",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 869
+      "FieldLength": 824
     }
   }
 }

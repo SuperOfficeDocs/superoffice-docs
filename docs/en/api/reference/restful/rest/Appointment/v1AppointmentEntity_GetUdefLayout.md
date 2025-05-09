@@ -90,7 +90,7 @@ OK
 GET /api/v1/Appointment/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 317,
-    "ColumnId": 802,
-    "FieldDefault": "id",
-    "FieldHeight": 913,
-    "FieldLabel": "consectetur",
-    "FieldLeft": 618,
-    "FieldTop": 889,
+    "UDefFieldId": 129,
+    "ColumnId": 306,
+    "FieldDefault": "maxime",
+    "FieldHeight": 58,
+    "FieldLabel": "perspiciatis",
+    "FieldLeft": 2,
+    "FieldTop": 33,
     "FieldType": "Checkbox",
-    "FieldWidth": 462,
-    "FormatMask": "aut",
+    "FieldWidth": 200,
+    "FormatMask": "labore",
     "HideLabel": false,
-    "IsIndexed": true,
-    "LabelHeight": 812,
-    "LabelLeft": 455,
-    "LabelTop": 15,
-    "LabelWidth": 131,
-    "LastVersionId": 793,
-    "ListTableId": 892,
+    "IsIndexed": false,
+    "LabelHeight": 617,
+    "LabelLeft": 228,
+    "LabelTop": 776,
+    "LabelWidth": 669,
+    "LastVersionId": 599,
+    "ListTableId": 25,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 65,
-    "ProgId": "sit",
+    "Page1LineNo": 333,
+    "ProgId": "autem",
     "IsReadOnly": false,
-    "ShortLabel": "ut",
-    "TabOrder": 836,
-    "TextLength": 162,
-    "Tooltip": "commodi",
-    "UdefIdentity": 131,
-    "UDListDefinitionId": 487,
+    "ShortLabel": "id",
+    "TabOrder": 569,
+    "TextLength": 932,
+    "Tooltip": "tempore",
+    "UdefIdentity": 403,
+    "UDListDefinitionId": 871,
     "Justification": "Center",
-    "Version": 876,
-    "TemplateVariableName": "Parisian, Jerde and Johnson",
+    "Version": 44,
+    "TemplateVariableName": "Grimes-Wuckert",
     "HasBeenPublished": false,
-    "MdoListName": "Bednar LLC",
+    "MdoListName": "Aufderhar-Schaden",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 14
+        "FieldLength": 570
       }
     }
   }

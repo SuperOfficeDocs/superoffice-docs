@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/ProductType/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 248,
-    "Name": "Brakus LLC",
-    "ToolTip": "In ea quis perspiciatis nesciunt eum.",
+    "Id": 662,
+    "Name": "Fritsch Inc and Sons",
+    "ToolTip": "Vero autem quisquam molestias quia sunt molestiae.",
     "Deleted": false,
-    "Rank": 470,
-    "Type": "adipisci",
-    "ColorBlock": 129,
-    "IconHint": "tempora",
+    "Rank": 831,
+    "Type": "voluptatem",
+    "ColorBlock": 628,
+    "IconHint": "ut",
     "Selected": true,
-    "LastChanged": "2024-01-02T13:14:09.931658+01:00",
+    "LastChanged": "2016-01-20T16:32:48.8213663+01:00",
     "ChildItems": [
       {
-        "Id": 620,
-        "Name": "Hayes Group",
-        "ToolTip": "Modi perferendis ab fugit quo consectetur id autem.",
-        "Deleted": true,
-        "Rank": 901,
-        "Type": "tempora",
-        "ColorBlock": 263,
-        "IconHint": "rerum",
+        "Id": 128,
+        "Name": "Wyman Inc and Sons",
+        "ToolTip": "Hic maxime quis debitis.",
+        "Deleted": false,
+        "Rank": 63,
+        "Type": "ut",
+        "ColorBlock": 290,
+        "IconHint": "id",
         "Selected": false,
-        "LastChanged": "2010-05-12T13:14:09.931658+02:00",
+        "LastChanged": "2012-04-02T16:32:48.8213663+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "corrupti",
-        "Hidden": true,
-        "FullName": "Perry Elva Harris V"
+        "ExtraInfo": "accusantium",
+        "StyleHint": "ab",
+        "Hidden": false,
+        "FullName": "Jermey Heidenreich"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "est",
+    "ExtraInfo": "est",
+    "StyleHint": "non",
     "Hidden": false,
-    "FullName": "Rosalinda Botsford"
+    "FullName": "Mrs. Lauryn Sipes MD"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 858,
-    "Name": "Braun, Stiedemann and Maggio",
-    "ToolTip": "Optio placeat voluptas in voluptatem.",
-    "Deleted": false,
-    "Rank": 122,
-    "Type": "sapiente",
-    "ColorBlock": 787,
-    "IconHint": "harum",
-    "Selected": false,
-    "LastChanged": "2019-01-24T13:14:09.931658+01:00",
+    "Id": 918,
+    "Name": "Goldner LLC",
+    "ToolTip": "Incidunt animi consequatur modi non.",
+    "Deleted": true,
+    "Rank": 970,
+    "Type": "eum",
+    "ColorBlock": 745,
+    "IconHint": "eum",
+    "Selected": true,
+    "LastChanged": "2024-08-03T16:32:48.8213663+02:00",
     "ChildItems": [
       {
-        "Id": 844,
-        "Name": "Carter-Beatty",
-        "ToolTip": "Neque sit fugiat.",
-        "Deleted": true,
-        "Rank": 272,
-        "Type": "rerum",
-        "ColorBlock": 659,
-        "IconHint": "incidunt",
-        "Selected": false,
-        "LastChanged": "2016-10-18T13:14:09.931658+02:00",
+        "Id": 435,
+        "Name": "Dickinson Group",
+        "ToolTip": "Facilis ipsam.",
+        "Deleted": false,
+        "Rank": 427,
+        "Type": "illo",
+        "ColorBlock": 729,
+        "IconHint": "praesentium",
+        "Selected": true,
+        "LastChanged": "2015-09-17T16:32:48.8213663+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "consequatur",
-        "StyleHint": "et",
+        "ExtraInfo": "dolorem",
+        "StyleHint": "ratione",
         "Hidden": false,
-        "FullName": "Johnny Quigley",
+        "FullName": "Arlo Yundt",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 975
+            "FieldLength": 754
           }
         }
       }
     ],
-    "ExtraInfo": "itaque",
-    "StyleHint": "officia",
-    "Hidden": true,
-    "FullName": "Skyla Hackett",
+    "ExtraInfo": "eveniet",
+    "StyleHint": "voluptatem",
+    "Hidden": false,
+    "FullName": "Mr. Verna Fredrick Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 896
+        "FieldLength": 495
       }
     }
   }

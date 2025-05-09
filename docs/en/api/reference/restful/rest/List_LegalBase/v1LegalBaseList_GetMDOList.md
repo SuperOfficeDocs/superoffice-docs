@@ -26,8 +26,8 @@ Get the MDO list items for "LegalBase" - with headings and filtering by user gro
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/LegalBase/MDOItems?flat=False
-GET /api/v1/List/LegalBase/MDOItems?query=iste
+GET /api/v1/List/LegalBase/MDOItems?flat=True
+GET /api/v1/List/LegalBase/MDOItems?query=nulla
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/LegalBase/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 135,
-    "Name": "Howell, Wehner and Trantow",
-    "ToolTip": "Quas officiis labore aut expedita ut porro.",
+    "Id": 837,
+    "Name": "Kuvalis Group",
+    "ToolTip": "Culpa nihil dolore harum eveniet quas repellendus sed.",
     "Deleted": true,
-    "Rank": 702,
-    "Type": "blanditiis",
+    "Rank": 588,
+    "Type": "reiciendis",
     "ChildItems": [
       {
-        "Id": 273,
-        "Name": "Beatty LLC",
-        "ToolTip": "Ea eligendi tempora neque fuga.",
+        "Id": 600,
+        "Name": "Schroeder, Kunze and Kautzer",
+        "ToolTip": "Natus et.",
         "Deleted": false,
-        "Rank": 975,
-        "Type": "aut",
+        "Rank": 347,
+        "Type": "alias",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "libero",
-        "ColorBlock": 791,
-        "ExtraInfo": "non",
-        "StyleHint": "vitae",
-        "FullName": "Marlen McGlynn",
+        "IconHint": "aut",
+        "ColorBlock": 432,
+        "ExtraInfo": "ab",
+        "StyleHint": "voluptas",
+        "FullName": "Alda Lebsack",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 362
+            "FieldLength": 914
           }
         }
       }
     ],
-    "IconHint": "ea",
-    "ColorBlock": 733,
-    "ExtraInfo": "necessitatibus",
-    "StyleHint": "numquam",
-    "FullName": "Maurine Hauck",
+    "IconHint": "eos",
+    "ColorBlock": 844,
+    "ExtraInfo": "quos",
+    "StyleHint": "est",
+    "FullName": "Shaun Bosco",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 115
+        "FieldLength": 350
       }
     }
   }

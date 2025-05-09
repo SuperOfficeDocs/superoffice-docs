@@ -84,21 +84,21 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "QuoteLineConfigurationId": 670,
-    "FieldName": "Friesen-Beier",
-    "Label": "minus",
-    "Tooltip": "rerum",
+    "QuoteLineConfigurationId": 105,
+    "FieldName": "Harvey-Greenfelder",
+    "Label": "distinctio",
+    "Tooltip": "ipsam",
     "Editable": false,
     "InUse": false,
-    "Mandatory": false,
-    "Rank": 699,
+    "Mandatory": true,
+    "Rank": 287,
     "RestrictEdit": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 303
+        "FieldLength": 184
       }
     }
   }

@@ -88,8 +88,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "EmailIds": [
-    613,
-    304
+    356,
+    997
   ]
 }
 ```
@@ -102,24 +102,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 992,
-    "ContactName": "Barton, Thompson and Klocko",
-    "PersonId": 213,
-    "PersonName": "Effertz, Konopelski and Lemke",
-    "AssociateId": 742,
-    "Address": "mollitia",
-    "EmailId": 269,
+    "ContactId": 112,
+    "ContactName": "Lebsack-Jakubowski",
+    "PersonId": 197,
+    "PersonName": "Greenholt-Jast",
+    "AssociateId": 568,
+    "Address": "maiores",
+    "EmailId": 261,
     "DuplicatePersonIds": [
-      612,
-      15
+      815,
+      702
     ],
-    "Name": "Upton-Leannon",
+    "Name": "Herman-Legros",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 134
+        "FieldType": "System.String",
+        "FieldLength": 16
       }
     }
   }

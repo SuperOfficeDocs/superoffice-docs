@@ -102,28 +102,28 @@ OK
 PUT /api/v1/PreferenceDescription/{section}/{key}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 888,
-  "Section": "aspernatur",
-  "Key": "sint",
-  "Name": "Satterfield Group",
+  "PrefDescId": 614,
+  "Section": "reiciendis",
+  "Key": "quia",
+  "Name": "Dietrich LLC",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Implemented user-facing moderator",
+  "Description": "Automated asynchronous internet solution",
   "IsBuiltin": false,
-  "TableName": "Williamson, Rutherford and Dooley",
-  "UserDefinedListId": 854,
-  "Rank": 639,
-  "SubGroup": "autem",
-  "MinLevel": 652,
-  "MaxValue": 96,
-  "MinValue": 483,
-  "RequiredLicense": "sit"
+  "TableName": "Rogahn, Maggio and Beer",
+  "UserDefinedListId": 41,
+  "Rank": 313,
+  "SubGroup": "voluptas",
+  "MinLevel": 110,
+  "MaxValue": 146,
+  "MinValue": 385,
+  "RequiredLicense": "inventore"
 }
 ```
 
@@ -134,30 +134,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 334,
-  "Section": "magni",
-  "Key": "eos",
-  "Name": "Kris-Baumbach",
+  "PrefDescId": 191,
+  "Section": "numquam",
+  "Key": "accusamus",
+  "Name": "Yundt, Cormier and Zulauf",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Advanced coherent parallelism",
-  "IsBuiltin": false,
-  "TableName": "Swift Inc and Sons",
-  "UserDefinedListId": 464,
-  "Rank": 219,
-  "SubGroup": "iste",
-  "MinLevel": 697,
-  "MaxValue": 224,
-  "MinValue": 761,
-  "RequiredLicense": "facilis",
+  "Description": "Optimized user-facing ability",
+  "IsBuiltin": true,
+  "TableName": "Goyette, Boyer and Frami",
+  "UserDefinedListId": 199,
+  "Rank": 464,
+  "SubGroup": "nobis",
+  "MinLevel": 810,
+  "MaxValue": 455,
+  "MinValue": 244,
+  "RequiredLicense": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 397
+      "FieldLength": 741
     }
   }
 }

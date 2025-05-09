@@ -88,7 +88,7 @@ OK
 GET /api/v1/Project/UdefLayout/Published
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,46 +99,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 405,
-    "ColumnId": 518,
-    "FieldDefault": "iste",
-    "FieldHeight": 345,
-    "FieldLabel": "error",
-    "FieldLeft": 294,
-    "FieldTop": 690,
+    "UDefFieldId": 377,
+    "ColumnId": 47,
+    "FieldDefault": "qui",
+    "FieldHeight": 262,
+    "FieldLabel": "harum",
+    "FieldLeft": 208,
+    "FieldTop": 345,
     "FieldType": "Checkbox",
-    "FieldWidth": 994,
-    "FormatMask": "atque",
+    "FieldWidth": 131,
+    "FormatMask": "non",
     "HideLabel": true,
     "IsIndexed": true,
-    "LabelHeight": 641,
-    "LabelLeft": 442,
-    "LabelTop": 673,
-    "LabelWidth": 873,
-    "LastVersionId": 830,
-    "ListTableId": 593,
+    "LabelHeight": 849,
+    "LabelLeft": 124,
+    "LabelTop": 586,
+    "LabelWidth": 377,
+    "LastVersionId": 570,
+    "ListTableId": 645,
     "IsMandatory": true,
     "Type": "Appointment",
-    "Page1LineNo": 262,
-    "ProgId": "ex",
-    "IsReadOnly": false,
-    "ShortLabel": "eum",
-    "TabOrder": 105,
-    "TextLength": 423,
-    "Tooltip": "ipsa",
-    "UdefIdentity": 746,
-    "UDListDefinitionId": 692,
+    "Page1LineNo": 596,
+    "ProgId": "sequi",
+    "IsReadOnly": true,
+    "ShortLabel": "id",
+    "TabOrder": 583,
+    "TextLength": 30,
+    "Tooltip": "dolores",
+    "UdefIdentity": 835,
+    "UDListDefinitionId": 37,
     "Justification": "Center",
-    "Version": 170,
-    "TemplateVariableName": "Dach, Jakubowski and Bechtelar",
-    "HasBeenPublished": true,
-    "MdoListName": "Paucek Group",
+    "Version": 472,
+    "TemplateVariableName": "Schuppe-Hermann",
+    "HasBeenPublished": false,
+    "MdoListName": "McClure-Lakin",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 270
+        "FieldLength": 525
       }
     }
   }

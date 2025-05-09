@@ -161,9 +161,12 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -222,13 +225,13 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
 |sale/saleUdef/SuperOffice:4|date|saledate| x |
 |sale/saleUdef/SuperOffice:5|unlimitedDate|saleunlimiteddate| x |
-|sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
-|sale/saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
-|sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|sale/saleUdef/SuperOffice:6|bool|salecheckbox| x |
+|sale/saleUdef/SuperOffice:7|listAny|saledropdownlistbox| x |
+|sale/saleUdef/SuperOffice:8|decimal|saledecimal| x |
 |appointment/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
 |appointment/icon|listAny|Category: Displays the icon for an activity type| x |
 |appointment/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
@@ -253,6 +256,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |appointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |appointment/priority|listAny|Priority: Displays the priority of the activity| x |
 |appointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|appointment/isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |appointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |appointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |appointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
@@ -325,14 +329,14 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |appointment/appointment/textId|int|Text ID| x |
 |appointment/appointment/internalNotes|positiveString|Internal notes: Displays the text entered in the description field| x |
 |appointment/appointment/internalNotesHtml|positiveString|!!Internal Notes Html| x |
-|document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
-|document/icon|listAny|Category: Displays the icon for an activity type| x |
-|document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
-|document/time| *None* |Time: Time|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|document/completed|bool|Completed: Displays a checkbox showing if an appointment is completed| x |
+|document/icon|listAny|Category: Displays the icon for an activity type| x |
+|document/date|date|Date: Displays start date of a follow-up / sale date of a sale| x |
+|document/time| *None* |Time: Time|  |
 |document/type|listAny|Type: Displays the type of an activity| x |
 |document/recordType|string|Record type : Shows the record type| x |
 |document/text|positiveString|Text: Displays a descriptive text for the item| x |
@@ -429,14 +433,14 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |projectMember/title|string|Title: Displays the contact's job title| x |
 |projectMember/personCountry|listAny|Country: Country| x |
 |projectMember/personCountryId|int|Country ID: Country ID| x |
-|projectMember/personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
-|projectMember/rank|int|Rank: Displays a contact's current rank| x |
-|projectMember/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
-|projectMember/associateType| *None* |User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personNoMail|bool|No Mailings: Displays the contact's No Mailings checkbox| x |
+|projectMember/rank|int|Rank: Displays a contact's current rank| x |
+|projectMember/birthdate| *None* |Birthdate: Displays the contact's date of birth|  |
+|projectMember/associateType| *None* |User type: Displays an icon indicating if a contact is an associate or external contact with log-in rights and currently online. This information is updated only once while the archive is loading.|  |
 |projectMember/useAsMailingAddress|bool|Use as postal address: Use as postal address| x |
 |projectMember/personSource|listAny|Source: Source (Contact)| x |
 |projectMember/retired|bool|Former employee: Indicates whether the contact has retired/left the company| x |
@@ -533,14 +537,14 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |projectMember/personExtra/x\_person\_float|decimal|Extra float: Custom float field| x |
 |projectMember/personExtra/x\_person\_longtext|string|Extra Long Text: Custom long text field on person, keep HTML tags. Simple input, not text area. Default value = 'Hello there'| x |
 |projectMember/personExtra/x\_person\_date|date|Extra date: Custom date field on person. Default value = 28.03.2019| x |
-|projectMember/personExtra/x\_person\_datetime|datetime|Extra DateTime: Custom person date and time field. No default| x |
-|projectMember/personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default| x |
-|projectMember/personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
-|projectMember/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/personExtra/x\_person\_datetime|datetime|Extra DateTime: Custom person date and time field. No default| x |
+|projectMember/personExtra/x\_person\_time| *None* |Extra time: Custom time field on person. Current time as default| x |
+|projectMember/personExtra/x\_person\_boolean|bool|Extra Boolean: Custom boolean field on person. Default checked| x |
+|projectMember/personExtra/x\_person\_timespan|timeSpan|Extra timespan: Custom timespan on person. Minutes only in 15 units| x |
 |projectMember/personExtra/x\_person\_shorttext|string|Extra short text: Custom short text on person. With index. Do not keep HTML tags| x |
 |projectMember/personExtra/x\_person\_shorttext\_list|listAny|Extra short dropdown: Custom Short text dropdown field on person: black, white, transparent| x |
 |projectMember/personExtra/x\_person\_user\_relation|associate|Extra user relation: Custom person-user relation field| x |
@@ -637,14 +641,14 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |projectMember/category|listAny|Category| x |
 |projectMember/business|listAny|Business| x |
 |projectMember/country|listAny|Country: This criterion corresponds to the Country field on the Company card.| x |
-|projectMember/countryId|int|Country ID: Country ID| x |
-|projectMember/number|string|Number| x |
-|projectMember/code|string|Code| x |
-|projectMember/orgnr|string|VAT No.| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/countryId|int|Country ID: Country ID| x |
+|projectMember/number|string|Number| x |
+|projectMember/code|string|Code| x |
+|projectMember/orgnr|string|VAT No.| x |
 |projectMember/stop|bool|Stop| x |
 |projectMember/contactNoMail|bool|No mailings (company| x |
 |projectMember/updatedBy|associate|Updated by: The user who last updated the data| x |
@@ -741,14 +745,14 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 |projectMember/contactUdef/SuperOffice:10|string|page1marketingonly| x |
 |projectMember/contactUdef/SuperOffice:11|string|page1adminonly| x |
 |projectMember/contactUdef/SuperOffice:12|listAny|Udlist one: Static tooltip for udlist one| x |
-|projectMember/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
-|projectMember/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
-|projectMember/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
-|projectMember/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMember/contactUdef/SuperOffice:13|listAny|Udlist two: Static tooltip for udlist two| x |
+|projectMember/contactExtra/x\_contact\_integer|int|Extra Integer: Custom integer field| x |
+|projectMember/contactExtra/x\_contact\_default\_integer|int|Extra Default Integer: Custom integer field with default value 123.| x |
+|projectMember/contactExtra/x\_contact\_float|decimal|Extra Float: Custom float field with 3 decimals| x |
 |projectMember/contactExtra/x\_contact\_longtext|string|Extra LongText: Custom long text field. DO not keep HTML. 3 Line text area editor| x |
 |projectMember/contactExtra/x\_contact\_dropdown|listAny|Extra Long Dropdown: Custom long text field with dropdown: Volvo, Saab, etc.| x |
 |projectMember/contactExtra/x\_contact\_date|date|Extra date: Custom date field. User current as default.| x |
@@ -798,7 +802,7 @@ Project shadow selection archive with OR-able selection groups. Each group is re
 ## Sample
 
 ```http!
-GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=getAllRows,appointment/appointmentPublish/publishedBy,document/recordType,document/associate/role,projectMember/personSource
+GET /api/v1/archive/ProjectShadowDynamicSelectionV2?$select=hasInfoText,projectAssociate/lastName,sale/hasStakeholders,appointment/userGroup,appointment/associate/contactCategory
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

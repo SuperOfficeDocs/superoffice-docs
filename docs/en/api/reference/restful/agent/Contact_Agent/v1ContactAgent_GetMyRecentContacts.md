@@ -98,7 +98,7 @@ OK
 POST /api/v1/Agents/Contact/GetMyRecentContacts
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
@@ -114,36 +114,36 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ContactId": 16,
-    "Name": "Hamill-Jast",
-    "OrgNr": "757113",
+    "ContactId": 374,
+    "Name": "Fay-Parker",
+    "OrgNr": "685333",
     "Department": "",
     "URL": "http://www.example.com/",
-    "City": "architecto",
-    "DirectPhone": "650.422.3904 x5278",
-    "AssociateId": 143,
-    "CountryId": 527,
-    "EmailAddress": "moises.ritchie@heidenreich.biz",
-    "Kananame": "est",
-    "EmailAddressName": "pietro_schaefer@paucek.name",
+    "City": "possimus",
+    "DirectPhone": "028.470.2581 x656",
+    "AssociateId": 194,
+    "CountryId": 30,
+    "EmailAddress": "edgardo.nikolaus@greenholtweissnat.us",
+    "Kananame": "delectus",
+    "EmailAddressName": "lydia_kuhn@mueller.uk",
     "URLName": "http://www.example.com/",
-    "AssociateFullName": "Mrs. Wyatt Fahey",
+    "AssociateFullName": "Mrs. Catharine Blick",
     "BusinessName": "Information Technology",
     "CategoryName": "VIP Customer",
     "CountryName": "Sokovia",
     "Address": null,
-    "FormattedAddress": "qui",
-    "FullName": "Ms. Braeden Metz",
+    "FormattedAddress": "quo",
+    "FullName": "Jean Gutkowski",
     "IsOwnerContact": false,
-    "ActiveErpLinks": 412,
-    "Number1": "767310",
-    "Number2": "470708",
+    "ActiveErpLinks": 234,
+    "Number1": "1231194",
+    "Number2": "395637",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 984
+        "FieldLength": 726
       }
     }
   }

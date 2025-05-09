@@ -91,25 +91,25 @@ OK
 POST /api/v1/Agents/Saint/SaveStatusMonitor
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 555,
-  "Rank": 21,
-  "DefaultTask": 436,
-  "DefaultTaskText": "doloremque",
+  "OwnerTable": 843,
+  "Rank": 183,
+  "DefaultTask": 258,
+  "DefaultTaskText": "quasi",
   "IsVisual": false,
-  "LastGenerated": "2004-03-03T13:14:01.048891+01:00",
-  "Description": "Proactive systemic implementation",
-  "Name": "Wiegand Inc and Sons",
-  "StatusMonitorId": 726,
-  "PictureId": 889,
-  "NeedsUpdate": false,
+  "LastGenerated": "1999-04-25T16:32:39.7896101+02:00",
+  "Description": "Vision-oriented hybrid productivity",
+  "Name": "Beatty, Rowe and Schinner",
+  "StatusMonitorId": 757,
+  "PictureId": 646,
+  "NeedsUpdate": true,
   "Deleted": false,
-  "NumMatches": 755,
-  "NumNeedUpdate": 462,
-  "GenerationStart": "1998-08-29T13:14:01.048891+02:00"
+  "NumMatches": 637,
+  "NumNeedUpdate": 134,
+  "GenerationStart": "2008-03-14T16:32:39.7896101+01:00"
 }
 ```
 
@@ -120,27 +120,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "OwnerTable": 904,
-  "Rank": 696,
-  "DefaultTask": 294,
-  "DefaultTaskText": "eum",
+  "OwnerTable": 608,
+  "Rank": 158,
+  "DefaultTask": 617,
+  "DefaultTaskText": "provident",
   "IsVisual": false,
-  "LastGenerated": "2017-07-22T13:14:01.048891+02:00",
-  "Description": "Implemented leading edge success",
-  "Name": "Littel, Wilkinson and Jaskolski",
-  "StatusMonitorId": 200,
-  "PictureId": 539,
+  "LastGenerated": "2001-01-02T16:32:39.7896101+01:00",
+  "Description": "Total reciprocal firmware",
+  "Name": "Nicolas-Deckow",
+  "StatusMonitorId": 850,
+  "PictureId": 318,
   "NeedsUpdate": false,
   "Deleted": true,
-  "NumMatches": 927,
-  "NumNeedUpdate": 54,
-  "GenerationStart": "1998-11-01T13:14:01.048891+01:00",
+  "NumMatches": 857,
+  "NumNeedUpdate": 927,
+  "GenerationStart": "2015-12-04T16:32:39.7896101+01:00",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 26
+      "FieldType": "System.Int32",
+      "FieldLength": 996
     }
   }
 }

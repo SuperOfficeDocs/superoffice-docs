@@ -97,7 +97,7 @@ OK
 GET /api/v1/TicketMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -107,79 +107,79 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjMessageId": 264,
+  "EjMessageId": 397,
   "Ticket": null,
-  "CreatedAt": "2012-08-13T13:14:09.3372786+02:00",
+  "CreatedAt": "2007-03-13T16:32:48.2431691+01:00",
   "CreatedBy": null,
-  "Author": "temporibus",
+  "Author": "ratione",
   "Slevel": "External",
   "Type": "Html",
-  "MessageId": "a",
-  "TimeSpent": 898,
-  "Body": "non",
-  "HtmlBody": "omnis",
-  "EmailHeader": "isidro@mohr.biz",
-  "DebugInfo": "dolor",
-  "MailSorter": "consectetur",
+  "MessageId": "ut",
+  "TimeSpent": 725,
+  "Body": "labore",
+  "HtmlBody": "et",
+  "EmailHeader": "angelita_hansen@strackestokes.ca",
+  "DebugInfo": "id",
+  "MailSorter": "sunt",
   "MessageCategory": "Bounce",
   "Person": null,
-  "SearchTitle": "sint",
+  "SearchTitle": "sed",
   "MessageHeaders": [
     {
-      "Id": 893,
-      "Name": "Beier-Hamill",
-      "Value": "placeat",
+      "Id": 652,
+      "Name": "Bechtelar Inc and Sons",
+      "Value": "suscipit",
       "StdItem": "CustomerReadFAQ",
       "StdItemCol": "Name",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 198
+          "FieldType": "System.String",
+          "FieldLength": 791
         }
       }
     }
   ],
-  "Important": true,
-  "Language": "deleniti",
-  "Sentiment": 883,
-  "SentimentConfidence": 571,
+  "Important": false,
+  "Language": "sed",
+  "Sentiment": 320,
+  "SentimentConfidence": 581,
   "Badge": "Comment",
   "AttachmentsInfo": [
     {
-      "AttachmentId": 70,
-      "Name": "Hodkiewicz LLC",
-      "ContentType": "ipsum",
-      "AttSize": 466,
-      "InlineImage": true,
-      "ContentId": "perferendis",
-      "AuthKey": "et",
+      "AttachmentId": 92,
+      "Name": "Lowe, Ortiz and O'Reilly",
+      "ContentType": "ea",
+      "AttSize": 885,
+      "InlineImage": false,
+      "ContentId": "eos",
+      "AuthKey": "culpa",
       "IsSafeFileExtension": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 480
+          "FieldLength": 133
         }
       }
     }
   ],
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "et"
+    "ExtraFields1": "pariatur",
+    "ExtraFields2": "ea"
   },
   "CustomFields": {
-    "CustomFields1": "eos",
-    "CustomFields2": "eum"
+    "CustomFields1": "dolorem",
+    "CustomFields2": "sit"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 719
+      "FieldLength": 658
     }
   }
 }

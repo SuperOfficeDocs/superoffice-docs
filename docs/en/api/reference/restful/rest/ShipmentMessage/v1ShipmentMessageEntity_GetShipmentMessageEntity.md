@@ -93,7 +93,7 @@ ShipmentMessageEntity found.
 GET /api/v1/ShipmentMessage/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -103,38 +103,38 @@ HTTP/1.1 200 ShipmentMessageEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 439,
-  "PlainMessage": "hic",
-  "HtmlMessage": "sit",
-  "SmsMessage": "corrupti",
-  "Description": "Re-engineered upward-trending function",
-  "Subject": "totam",
-  "FolderId": 34,
-  "HeaderField": "consequatur",
-  "Design": "sit",
+  "ShipmentMessageId": 626,
+  "PlainMessage": "similique",
+  "HtmlMessage": "tenetur",
+  "SmsMessage": "quos",
+  "Description": "Advanced web-enabled methodology",
+  "Subject": "maiores",
+  "FolderId": 840,
+  "HeaderField": "suscipit",
+  "Design": "porro",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
-  "InlineImages": false,
-  "LongDescription": "User-centric interactive system engine",
-  "AccessKey": "qui",
-  "DocumentMessage": 801,
-  "Registered": "2011-04-30T13:14:09.1966452+02:00",
-  "RegisteredAssociateId": 509,
-  "Updated": "2000-03-27T13:14:09.1966452+02:00",
-  "UpdatedAssociateId": 329,
-  "UpdatedCount": 179,
+  "RegisterViews": true,
+  "InlineImages": true,
+  "LongDescription": "Fundamental empowering matrix",
+  "AccessKey": "eaque",
+  "DocumentMessage": 196,
+  "Registered": "2024-06-08T16:32:48.1025764+02:00",
+  "RegisteredAssociateId": 852,
+  "Updated": "2006-12-28T16:32:48.1025764+01:00",
+  "UpdatedAssociateId": 581,
+  "UpdatedCount": 222,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 976
+      "FieldType": "System.String",
+      "FieldLength": 165
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

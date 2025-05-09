@@ -98,11 +98,11 @@ OK
 POST /api/v1/Agents/List/SetDocumentTemplateFromDocumentTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceDocumentTemplateId": 78,
+  "SourceDocumentTemplateId": 389,
   "DocumentTemplateEntity": null
 }
 ```
@@ -114,37 +114,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 858,
-  "Name": "Cummings-Haley",
-  "Tooltip": "veritatis",
-  "SaveInDb": 88,
-  "Filename": "deleniti",
-  "DefaultOref": "minima",
+  "DocumentTemplateId": 635,
+  "Name": "Bayer LLC",
+  "Tooltip": "et",
+  "SaveInDb": 559,
+  "Filename": "ipsam",
+  "DefaultOref": "minus",
   "RecordType": "Appointment",
   "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 251,
-  "IntentId": 727,
+  "AutoeventId": 156,
+  "IntentId": 140,
   "IsDefaultPublished": false,
-  "Rank": 794,
-  "LoadTemplateFromPlugin": 341,
-  "MimeType": "reiciendis",
+  "Rank": 581,
+  "LoadTemplateFromPlugin": 463,
+  "MimeType": "exercitationem",
   "IsInUseInGuides": false,
-  "DocumentTypeKey": 555,
+  "DocumentTypeKey": 389,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "johathan@vonruedenromaguera.info",
+  "EmailSubject": "carolyn@crooks.us",
   "IncludeSignature": false,
-  "ShowCurrents": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "stephanie@oconner.name",
+  "SenderEmailAddress": "julia_grimes@doyle.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 912
+      "FieldLength": 90
     }
   }
 }

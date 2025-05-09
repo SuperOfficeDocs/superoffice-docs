@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 879,
-  "ColumnId": 50,
-  "FieldDefault": "deleniti",
-  "FieldHeight": 45,
-  "FieldLabel": "sequi",
-  "FieldLeft": 824,
-  "FieldTop": 800,
+  "UDefFieldId": 255,
+  "ColumnId": 849,
+  "FieldDefault": "amet",
+  "FieldHeight": 428,
+  "FieldLabel": "et",
+  "FieldLeft": 538,
+  "FieldTop": 870,
   "FieldType": "Checkbox",
-  "FieldWidth": 339,
-  "FormatMask": "minima",
-  "HideLabel": false,
-  "IsIndexed": false,
-  "LabelHeight": 35,
-  "LabelLeft": 73,
-  "LabelTop": 166,
-  "LabelWidth": 455,
-  "LastVersionId": 419,
-  "ListTableId": 399,
+  "FieldWidth": 917,
+  "FormatMask": "atque",
+  "HideLabel": true,
+  "IsIndexed": true,
+  "LabelHeight": 622,
+  "LabelLeft": 933,
+  "LabelTop": 608,
+  "LabelWidth": 301,
+  "LastVersionId": 150,
+  "ListTableId": 318,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 131,
-  "ProgId": "necessitatibus",
+  "Page1LineNo": 558,
+  "ProgId": "facere",
   "IsReadOnly": false,
-  "ShortLabel": "odit",
-  "TabOrder": 573,
-  "TextLength": 287,
-  "Tooltip": "consequuntur",
-  "UdefIdentity": 950,
-  "UDListDefinitionId": 845,
+  "ShortLabel": "amet",
+  "TabOrder": 870,
+  "TextLength": 26,
+  "Tooltip": "corrupti",
+  "UdefIdentity": 646,
+  "UDListDefinitionId": 278,
   "Justification": "Center",
-  "Version": 12,
-  "TemplateVariableName": "Kirlin-Bernier",
+  "Version": 17,
+  "TemplateVariableName": "Kihn-Leannon",
   "HasBeenPublished": false,
-  "MdoListName": "Prosacco, Aufderhar and Erdman",
+  "MdoListName": "Yost LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 907
+      "FieldLength": 660
     }
   }
 }

@@ -64,7 +64,7 @@ OK
 POST /api/v1/Agents/Configuration/CreateDefaultDiaryViewEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -74,49 +74,49 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DiaryViewId": 145,
-  "Name": "Wolf, Heaney and Hansen",
-  "Tooltip": "in",
-  "VisibleColumns": 522,
-  "Rank": 570,
-  "AssocId": 677,
+  "DiaryViewId": 462,
+  "Name": "Feil, Marks and Bednar",
+  "Tooltip": "accusantium",
+  "VisibleColumns": 607,
+  "Rank": 687,
+  "AssocId": 98,
   "AssociateList": [
     {
-      "Id": 839,
-      "Name": "Schimmel Inc and Sons",
-      "ToolTip": "In ea non facere consequatur quisquam voluptatibus error.",
+      "Id": 930,
+      "Name": "DuBuque, Howe and Veum",
+      "ToolTip": "Sit explicabo totam vel atque voluptatum consectetur.",
       "Deleted": false,
-      "Rank": 444,
-      "Type": "est",
-      "ColorBlock": 156,
-      "IconHint": "quos",
-      "Selected": true,
-      "LastChanged": "2010-11-12T13:13:59.6881883+01:00",
+      "Rank": 639,
+      "Type": "illum",
+      "ColorBlock": 397,
+      "IconHint": "itaque",
+      "Selected": false,
+      "LastChanged": "2012-10-26T16:32:38.3678168+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "est",
-      "StyleHint": "qui",
+      "ExtraInfo": "repellendus",
+      "StyleHint": "possimus",
       "Hidden": false,
-      "FullName": "Beverly Strosin",
+      "FullName": "Jan Heaney PhD",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 375
+          "FieldType": "System.Int32",
+          "FieldLength": 367
         }
       }
     }
   ],
-  "TzLocationId": 704,
+  "TzLocationId": 230,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 372
+      "FieldLength": 190
     }
   }
 }

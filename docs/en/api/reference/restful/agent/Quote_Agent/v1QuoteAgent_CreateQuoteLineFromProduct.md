@@ -122,11 +122,11 @@ OK
 POST /api/v1/Agents/Quote/CreateQuoteLineFromProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 820,
+  "QuoteAlternativeId": 496,
   "Product": null
 }
 ```
@@ -138,88 +138,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteLineId": 139,
-  "ERPQuoteLineKey": "ratione",
-  "QuoteAlternativeId": 824,
-  "ERPProductKey": "est",
+  "QuoteLineId": 330,
+  "ERPQuoteLineKey": "in",
+  "QuoteAlternativeId": 750,
+  "ERPProductKey": "voluptatem",
   "Status": "Error",
   "Reason": "",
-  "Quantity": 11229.122,
-  "DeliveredQuantity": 20192.362,
-  "Rank": 180,
-  "Name": "Weissnat Group",
-  "Description": "Function-based directional open system",
-  "Code": "quas",
-  "QuantityUnit": "non",
-  "PriceUnit": "perferendis",
-  "ItemNumber": "599412",
+  "Quantity": 20659.327999999998,
+  "DeliveredQuantity": 19794.344,
+  "Rank": 322,
+  "Name": "Dibbert LLC",
+  "Description": "Robust fault-tolerant budgetary management",
+  "Code": "ut",
+  "QuantityUnit": "velit",
+  "PriceUnit": "ad",
+  "ItemNumber": "492129",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "dolores",
-  "ProductTypeKey": "nihil",
-  "Supplier": "suscipit",
-  "SupplierCode": "repudiandae",
-  "Thumbnail": "odit",
-  "VATInfo": "incidunt",
-  "VAT": 9398.866,
-  "UnitCost": 7835.0,
-  "UnitMinimumPrice": 29321.703999999998,
-  "UnitListPrice": 9474.082,
+  "ProductFamilyKey": "quo",
+  "ProductTypeKey": "pariatur",
+  "Supplier": "dolor",
+  "SupplierCode": "aut",
+  "Thumbnail": "temporibus",
+  "VATInfo": "aliquam",
+  "VAT": 29813.742,
+  "UnitCost": 12263.341999999999,
+  "UnitMinimumPrice": 3202.948,
+  "UnitListPrice": 28212.268,
   "ExtraInfo": [
     {
-      "Name": "Johns, Dickinson and Goyette",
-      "Value": "esse",
+      "Name": "Mueller Inc and Sons",
+      "Value": "eaque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 675
+          "FieldType": "System.Int32",
+          "FieldLength": 528
         }
       }
     },
     {
-      "Name": "Johns, Dickinson and Goyette",
-      "Value": "esse",
+      "Name": "Mueller Inc and Sons",
+      "Value": "eaque",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 675
+          "FieldType": "System.Int32",
+          "FieldLength": 528
         }
       }
     }
   ],
-  "RawExtraInfo": "ut",
+  "RawExtraInfo": "temporibus",
   "IsSubscription": true,
-  "SubscriptionUnit": "necessitatibus",
-  "SubscriptionQuantity": 30763.343999999997,
-  "SubscriptionStart": "2025-01-06T13:14:01.017639+01:00",
-  "ERPDiscountPercent": 24075.388,
-  "ERPDiscountAmount": 21944.268,
-  "DiscountPercent": 4343.724,
-  "DiscountAmount": 31151.96,
+  "SubscriptionUnit": "dolorem",
+  "SubscriptionQuantity": 824.242,
+  "SubscriptionStart": "2013-06-24T16:32:39.74275+02:00",
+  "ERPDiscountPercent": 23150.858,
+  "ERPDiscountAmount": 5935.7959999999994,
+  "DiscountPercent": 2347.366,
+  "DiscountAmount": 1535.6599999999999,
   "UserValueOverride": "DiscountAmount",
-  "EarningPercent": 27566.664,
-  "EarningAmount": 13783.332,
-  "SubTotal": 26927.327999999998,
-  "TotalPrice": 26848.978,
-  "Rights": "repudiandae",
-  "Rule": "in",
-  "ExtraField1": "atque",
-  "ExtraField2": "eveniet",
-  "ExtraField3": "vel",
-  "ExtraField4": "est",
-  "ExtraField5": "corporis",
+  "EarningPercent": 29111.726,
+  "EarningAmount": 4986.1939999999995,
+  "SubTotal": 5938.9299999999994,
+  "TotalPrice": 23887.347999999998,
+  "Rights": "numquam",
+  "Rule": "quae",
+  "ExtraField1": "in",
+  "ExtraField2": "qui",
+  "ExtraField3": "quam",
+  "ExtraField4": "vitae",
+  "ExtraField5": "harum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 742
+      "FieldLength": 864
     }
   }
 }

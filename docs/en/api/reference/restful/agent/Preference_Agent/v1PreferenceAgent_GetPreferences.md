@@ -85,18 +85,18 @@ OK
 POST /api/v1/Agents/Preference/GetPreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Specifications": [
     {
-      "Section": "sit",
-      "Key": "asperiores"
+      "Section": "ipsa",
+      "Key": "voluptatem"
     },
     {
-      "Section": "sit",
-      "Key": "asperiores"
+      "Section": "ipsa",
+      "Key": "voluptatem"
     }
   ]
 }
@@ -111,22 +111,22 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Level": "Database",
-    "RawValue": "optio",
+    "RawValue": "ut",
     "Specification": null,
-    "DisplayValue": "quia",
-    "DisplayTooltip": "non",
+    "DisplayValue": "officia",
+    "DisplayTooltip": "animi",
     "DisplayType": "Bool",
     "TabOrder": null,
-    "TargetId": 299,
-    "PrefDescId": 983,
-    "TableName": "Purdy-Bashirian",
-    "UserPreferenceId": 2,
+    "TargetId": 205,
+    "PrefDescId": 74,
+    "TableName": "Kuvalis, Streich and Doyle",
+    "UserPreferenceId": 840,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 5
+        "FieldLength": 272
       }
     }
   }

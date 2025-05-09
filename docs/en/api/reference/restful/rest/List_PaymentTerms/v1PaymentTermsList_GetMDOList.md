@@ -27,7 +27,7 @@ Get the MDO list items for "PaymentTerms" - with headings and filtering by user 
 
 ```http
 GET /api/v1/List/PaymentTerm/MDOItems?flat=False
-GET /api/v1/List/PaymentTerm/MDOItems?query=provident
+GET /api/v1/List/PaymentTerm/MDOItems?query=est
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/PaymentTerm/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 317,
-    "Name": "Orn, Zulauf and Ernser",
-    "ToolTip": "Sit est.",
+    "Id": 774,
+    "Name": "Runolfsson Group",
+    "ToolTip": "Aperiam autem odit earum doloremque.",
     "Deleted": true,
-    "Rank": 50,
-    "Type": "qui",
+    "Rank": 841,
+    "Type": "alias",
     "ChildItems": [
       {
-        "Id": 826,
-        "Name": "Crist, Nienow and Morar",
-        "ToolTip": "Non sit consequatur.",
-        "Deleted": false,
-        "Rank": 987,
-        "Type": "et",
+        "Id": 289,
+        "Name": "Bednar Group",
+        "ToolTip": "Dolorem voluptas quidem veniam minima.",
+        "Deleted": true,
+        "Rank": 78,
+        "Type": "sed",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatum",
-        "ColorBlock": 599,
-        "ExtraInfo": "velit",
-        "StyleHint": "minima",
-        "FullName": "Mrs. Madge Halvorson I",
+        "IconHint": "ut",
+        "ColorBlock": 831,
+        "ExtraInfo": "maxime",
+        "StyleHint": "voluptas",
+        "FullName": "Eliezer Hackett",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 322
+            "FieldLength": 536
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 818,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "ratione",
-    "FullName": "Beau Bashirian",
+    "IconHint": "et",
+    "ColorBlock": 896,
+    "ExtraInfo": "ut",
+    "StyleHint": "asperiores",
+    "FullName": "Prof. Lesly Waylon Considine",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 264
+        "FieldLength": 72
       }
     }
   }

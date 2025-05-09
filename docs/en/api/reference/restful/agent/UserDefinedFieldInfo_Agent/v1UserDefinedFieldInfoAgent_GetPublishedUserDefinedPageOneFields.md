@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "OwnerType": "Appointment",
-  "UserGroupId": 584
+  "UserGroupId": 750
 }
 ```
 
@@ -124,46 +124,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 710,
-    "ColumnId": 108,
-    "FieldDefault": "minus",
-    "FieldHeight": 907,
-    "FieldLabel": "aut",
-    "FieldLeft": 458,
-    "FieldTop": 464,
+    "UDefFieldId": 108,
+    "ColumnId": 168,
+    "FieldDefault": "qui",
+    "FieldHeight": 304,
+    "FieldLabel": "accusantium",
+    "FieldLeft": 205,
+    "FieldTop": 352,
     "FieldType": "Checkbox",
-    "FieldWidth": 799,
-    "FormatMask": "doloribus",
-    "HideLabel": false,
-    "IsIndexed": false,
-    "LabelHeight": 408,
-    "LabelLeft": 705,
-    "LabelTop": 658,
-    "LabelWidth": 458,
-    "LastVersionId": 382,
-    "ListTableId": 117,
+    "FieldWidth": 978,
+    "FormatMask": "doloremque",
+    "HideLabel": true,
+    "IsIndexed": true,
+    "LabelHeight": 200,
+    "LabelLeft": 168,
+    "LabelTop": 932,
+    "LabelWidth": 314,
+    "LastVersionId": 215,
+    "ListTableId": 896,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 623,
-    "ProgId": "molestias",
+    "Page1LineNo": 815,
+    "ProgId": "veniam",
     "IsReadOnly": true,
-    "ShortLabel": "unde",
-    "TabOrder": 577,
-    "TextLength": 201,
-    "Tooltip": "debitis",
-    "UdefIdentity": 595,
-    "UDListDefinitionId": 993,
+    "ShortLabel": "assumenda",
+    "TabOrder": 379,
+    "TextLength": 607,
+    "Tooltip": "dignissimos",
+    "UdefIdentity": 200,
+    "UDListDefinitionId": 64,
     "Justification": "Center",
-    "Version": 364,
-    "TemplateVariableName": "Bashirian-Welch",
+    "Version": 75,
+    "TemplateVariableName": "Hudson LLC",
     "HasBeenPublished": false,
-    "MdoListName": "Balistreri-Christiansen",
+    "MdoListName": "Pouros-Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 127
+        "FieldLength": 74
       }
     }
   }

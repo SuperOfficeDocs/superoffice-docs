@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/Configuration/SaveSystemEventEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 916,
+  "SystemEventId": 535,
   "Scope": "Database",
-  "Eta": "2004-07-29T13:13:59.6881883+02:00",
-  "Eventkey": "velit",
-  "Eventmess": "sed",
-  "ExtraInfo": 861,
-  "Owner": 834,
-  "UpdatedCount": 531,
-  "Registered": "2015-05-28T13:13:59.6881883+02:00",
+  "Eta": "2014-06-03T16:32:38.3678168+02:00",
+  "Eventkey": "iste",
+  "Eventmess": "a",
+  "ExtraInfo": 504,
+  "Owner": 475,
+  "UpdatedCount": 328,
+  "Registered": "2023-12-23T16:32:38.3678168+01:00",
   "ActivatedBy": null
 }
 ```
@@ -105,22 +105,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SystemEventId": 511,
+  "SystemEventId": 55,
   "Scope": "Database",
-  "Eta": "2019-06-09T13:13:59.6881883+02:00",
-  "Eventkey": "est",
-  "Eventmess": "repudiandae",
-  "ExtraInfo": 470,
-  "Owner": 905,
-  "UpdatedCount": 830,
-  "Registered": "2008-09-26T13:13:59.6881883+02:00",
+  "Eta": "2007-05-18T16:32:38.3678168+02:00",
+  "Eventkey": "odio",
+  "Eventmess": "natus",
+  "ExtraInfo": 562,
+  "Owner": 699,
+  "UpdatedCount": 889,
+  "Registered": "2018-04-09T16:32:38.3678168+02:00",
   "ActivatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 315
+      "FieldLength": 122
     }
   }
 }

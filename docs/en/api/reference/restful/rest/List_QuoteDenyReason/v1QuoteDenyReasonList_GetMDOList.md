@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteDenyReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteDenyReason/MDOItems?flat=True
-GET /api/v1/List/QuoteDenyReason/MDOItems?query=facilis
+GET /api/v1/List/QuoteDenyReason/MDOItems?flat=False
+GET /api/v1/List/QuoteDenyReason/MDOItems?query=nisi
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 69,
-    "Name": "Beahan-Bogan",
-    "ToolTip": "Praesentium tempora et incidunt.",
+    "Id": 55,
+    "Name": "Becker LLC",
+    "ToolTip": "Fuga maxime sit inventore ut.",
     "Deleted": true,
-    "Rank": 806,
-    "Type": "dicta",
+    "Rank": 314,
+    "Type": "consequuntur",
     "ChildItems": [
       {
-        "Id": 454,
-        "Name": "Schoen Group",
-        "ToolTip": "Impedit placeat voluptas non officia tempore recusandae.",
+        "Id": 479,
+        "Name": "Stanton-Powlowski",
+        "ToolTip": "Laboriosam veniam possimus.",
         "Deleted": false,
-        "Rank": 892,
-        "Type": "consequatur",
+        "Rank": 514,
+        "Type": "ea",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 705,
-        "ExtraInfo": "ad",
-        "StyleHint": "quos",
-        "FullName": "Spencer Farrell",
+        "IconHint": "commodi",
+        "ColorBlock": 134,
+        "ExtraInfo": "mollitia",
+        "StyleHint": "error",
+        "FullName": "Tom Wilhelm Durgan MD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 862
+            "FieldType": "System.Int32",
+            "FieldLength": 857
           }
         }
       }
     ],
-    "IconHint": "quo",
-    "ColorBlock": 513,
-    "ExtraInfo": "vero",
-    "StyleHint": "eum",
-    "FullName": "Rick Weissnat",
+    "IconHint": "molestiae",
+    "ColorBlock": 602,
+    "ExtraInfo": "eum",
+    "StyleHint": "ullam",
+    "FullName": "Mrs. Alexandro Jordy Wyman PhD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 229
+        "FieldType": "System.Int32",
+        "FieldLength": 273
       }
     }
   }

@@ -83,8 +83,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 456,
-  "UdListDefinitionName": "Huel, O'Kon and Medhurst"
+  "Id": 549,
+  "UdListDefinitionName": "Jones Group"
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 559,
-  "Name": "Heidenreich Inc and Sons",
-  "Tooltip": "distinctio",
+  "Id": 249,
+  "Name": "Reichel, Dooley and Cole",
+  "Tooltip": "aliquam",
   "Deleted": true,
-  "UdListDefinitionId": 822,
-  "Rank": 735,
+  "UdListDefinitionId": 973,
+  "Rank": 32,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 165
+      "FieldType": "System.String",
+      "FieldLength": 846
     }
   }
 }

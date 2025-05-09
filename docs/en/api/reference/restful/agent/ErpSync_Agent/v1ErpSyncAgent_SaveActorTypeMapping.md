@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/ErpSync/SaveActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -94,33 +94,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 968,
+  "ErpConnectionId": 565,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 227,
-      "CrmFieldKey": "asperiores",
-      "CrmDisplayName": "Jewess LLC",
-      "CrmDisplayTooltip": "dolores",
-      "ErpFieldKey": "praesentium",
+      "ErpFieldId": 382,
+      "CrmFieldKey": "debitis",
+      "CrmDisplayName": "Wolf, Hudson and O'Conner",
+      "CrmDisplayTooltip": "totam",
+      "ErpFieldKey": "dignissimos",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Effertz-Cormier",
-      "ErpDisplayTooltip": "sit",
-      "SyncToCrm": false,
-      "SyncToErp": true,
-      "ShowInGui": true,
+      "ErpDisplayName": "Bode-Schinner",
+      "ErpDisplayTooltip": "in",
+      "SyncToCrm": true,
+      "SyncToErp": false,
+      "ShowInGui": false,
       "ShowInSearch": true,
       "AlreadyMapped": false,
-      "MissingInERP": true,
+      "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "facere",
+      "ListReference": "provident",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 847
+          "FieldType": "System.Int32",
+          "FieldLength": 651
         }
       }
     }
@@ -131,8 +131,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldType": "System.Int32",
+      "FieldLength": 704
     }
   }
 }

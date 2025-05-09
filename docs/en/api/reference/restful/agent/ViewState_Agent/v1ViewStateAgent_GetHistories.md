@@ -71,7 +71,7 @@ OK
 POST /api/v1/Agents/ViewState/GetHistories
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -82,19 +82,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 805,
-    "Id": 219,
-    "HistoryName": "Vandervort LLC",
-    "HistoryId": 872,
-    "AssociateId": 996,
-    "Name": "Aufderhar, Feeney and Jakubowski",
-    "ItemInfo": "et",
+    "Rank": 867,
+    "Id": 576,
+    "HistoryName": "Kertzmann Inc and Sons",
+    "HistoryId": 29,
+    "AssociateId": 911,
+    "Name": "O'Keefe Inc and Sons",
+    "ItemInfo": "perferendis",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 191
+        "FieldLength": 371
       }
     }
   }

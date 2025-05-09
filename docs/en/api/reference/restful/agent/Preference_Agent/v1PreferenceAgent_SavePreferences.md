@@ -66,23 +66,23 @@ No Content
 POST /api/v1/Agents/Preference/SavePreferences
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "Preferences": [
     {
       "Level": "Database",
-      "RawValue": "dolore",
+      "RawValue": "autem",
       "Specification": null,
-      "DisplayValue": "eum",
-      "DisplayTooltip": "eaque",
+      "DisplayValue": "enim",
+      "DisplayTooltip": "autem",
       "DisplayType": "Bool",
       "TabOrder": null,
-      "TargetId": 217,
-      "PrefDescId": 712,
-      "TableName": "Parker-Pagac",
-      "UserPreferenceId": 77
+      "TargetId": 633,
+      "PrefDescId": 384,
+      "TableName": "DuBuque-Wunsch",
+      "UserPreferenceId": 437
     }
   ]
 }

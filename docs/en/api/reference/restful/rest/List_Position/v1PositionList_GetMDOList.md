@@ -26,8 +26,8 @@ Get the MDO list items for "PersPos" - with headings and filtering by user group
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Position/MDOItems?flat=True
-GET /api/v1/List/Position/MDOItems?query=ad
+GET /api/v1/List/Position/MDOItems?flat=False
+GET /api/v1/List/Position/MDOItems?query=voluptas
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Position/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 597,
-    "Name": "Graham LLC",
-    "ToolTip": "Est excepturi itaque autem.",
-    "Deleted": true,
-    "Rank": 205,
-    "Type": "in",
+    "Id": 773,
+    "Name": "Crist, Hahn and Strosin",
+    "ToolTip": "A odit facilis voluptatem aut nulla qui quam.",
+    "Deleted": false,
+    "Rank": 827,
+    "Type": "consequatur",
     "ChildItems": [
       {
-        "Id": 156,
-        "Name": "Larkin, Bailey and Rolfson",
-        "ToolTip": "Corrupti assumenda repellat dolore optio.",
-        "Deleted": true,
-        "Rank": 253,
-        "Type": "voluptatem",
+        "Id": 181,
+        "Name": "Oberbrunner, Howe and Cummings",
+        "ToolTip": "Officia rerum et sed tempore ullam ipsam dolor.",
+        "Deleted": false,
+        "Rank": 878,
+        "Type": "voluptate",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "id",
-        "ColorBlock": 368,
-        "ExtraInfo": "voluptas",
-        "StyleHint": "aut",
-        "FullName": "Rosalind Lincoln Hermann DVM",
+        "IconHint": "dolorum",
+        "ColorBlock": 453,
+        "ExtraInfo": "molestiae",
+        "StyleHint": "animi",
+        "FullName": "Rossie Roob",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 631
+            "FieldLength": 870
           }
         }
       }
     ],
-    "IconHint": "ipsum",
-    "ColorBlock": 941,
-    "ExtraInfo": "accusamus",
-    "StyleHint": "reprehenderit",
-    "FullName": "Sabryna Jacobs",
+    "IconHint": "iusto",
+    "ColorBlock": 882,
+    "ExtraInfo": "assumenda",
+    "StyleHint": "consequuntur",
+    "FullName": "Miss Dewayne Nienow MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 117
+        "FieldLength": 929
       }
     }
   }

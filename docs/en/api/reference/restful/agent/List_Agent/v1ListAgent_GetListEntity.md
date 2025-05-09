@@ -26,7 +26,7 @@ Gets a ListEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetListEntity?listEntityId=102
+POST /api/v1/Agents/List/GetListEntity?listEntityId=305
 POST /api/v1/Agents/List/GetListEntity?$select=name,department,category/id
 ```
 
@@ -76,7 +76,7 @@ OK
 POST /api/v1/Agents/List/GetListEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 345,
-  "Name": "Ward Inc and Sons",
-  "Tooltip": "quis",
-  "Deleted": false,
-  "Rank": 81,
-  "IsCustomList": true,
+  "Id": 878,
+  "Name": "Luettgen-Reynolds",
+  "Tooltip": "labore",
+  "Deleted": true,
+  "Rank": 162,
+  "IsCustomList": false,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "eveniet",
-  "InUseByUserDefinedFields": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quisquam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 20
+      "FieldLength": 655
     }
   }
 }

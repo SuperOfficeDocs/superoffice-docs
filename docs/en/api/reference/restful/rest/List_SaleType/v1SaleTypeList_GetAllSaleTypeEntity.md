@@ -88,7 +88,7 @@ OK
 GET /api/v1/List/SaleType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -99,53 +99,53 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "SaleTypeId": 112,
-    "Name": "Jewess Group",
-    "Tooltip": "libero",
-    "Rank": 13,
+    "SaleTypeId": 197,
+    "Name": "Padberg-Balistreri",
+    "Tooltip": "et",
+    "Rank": 667,
     "DurationUnit": "Century",
-    "SaleDuration": 478,
-    "SaleTypeCatId": 612,
+    "SaleDuration": 365,
+    "SaleTypeCatId": 406,
     "Deleted": false,
     "HasGuide": false,
     "HasStakeholders": false,
     "IsAutoAdvance": false,
-    "AllowQuoteAlternatives": false,
-    "DefaultQuoteValidity": 186,
-    "QuoteLinesTemplate": 472,
-    "ConfirmationLinesTemplate": 419,
-    "MaxDiscountPercentSet": false,
+    "AllowQuoteAlternatives": true,
+    "DefaultQuoteValidity": 687,
+    "QuoteLinesTemplate": 607,
+    "ConfirmationLinesTemplate": 713,
+    "MaxDiscountPercentSet": true,
     "MinEarningPercentSet": false,
-    "MaxDiscountPercent": 185,
-    "MinEarningPercent": 165,
-    "GroupQuoteLinesBy": 738,
-    "SortGroupLinesBy": 899,
+    "MaxDiscountPercent": 862,
+    "MinEarningPercent": 790,
+    "GroupQuoteLinesBy": 393,
+    "SortGroupLinesBy": 990,
     "Stages": [
       {
-        "Id": 572,
-        "Name": "Jewess-Thiel",
-        "ToolTip": "Doloribus corporis itaque qui.",
-        "Deleted": false,
-        "Rank": 744,
-        "Type": "error",
-        "ColorBlock": 769,
-        "IconHint": "ipsum",
+        "Id": 907,
+        "Name": "Spencer Group",
+        "ToolTip": "Dignissimos sit dolorem quidem.",
+        "Deleted": true,
+        "Rank": 280,
+        "Type": "rerum",
+        "ColorBlock": 359,
+        "IconHint": "suscipit",
         "Selected": false,
-        "LastChanged": "2007-08-09T13:14:10.0566655+02:00",
+        "LastChanged": "2007-11-08T16:32:48.946344+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "nobis",
-        "StyleHint": "rerum",
+        "ExtraInfo": "provident",
+        "StyleHint": "facilis",
         "Hidden": true,
-        "FullName": "Giovani Abshire",
+        "FullName": "Mr. Ellis Friedrich Carter PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 515
+            "FieldLength": 224
           }
         }
       }
@@ -155,7 +155,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 994
+        "FieldLength": 128
       }
     }
   }

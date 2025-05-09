@@ -87,7 +87,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "CrmActorType": "Contact",
-  "EntityId": 974
+  "EntityId": 739
 }
 ```
 
@@ -99,27 +99,27 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ErpConnectionId": 175,
-    "ConnectionName": "Hermann LLC",
-    "Connected": false,
+    "ErpConnectionId": 702,
+    "ConnectionName": "Koepp Inc and Sons",
+    "Connected": true,
     "ErpFields": [
       {
-        "FieldKey": "sunt",
-        "Rank": 142,
-        "DisplayName": "Dickens, Lakin and Smitham",
-        "DisplayDescription": "Diverse user-facing capacity",
+        "FieldKey": "voluptas",
+        "Rank": 784,
+        "DisplayName": "Wisoky Inc and Sons",
+        "DisplayDescription": "Synergized intangible parallelism",
         "FieldType": "Checkbox",
-        "ListName": "Schuppe Inc and Sons",
-        "DefaultValue": "minus",
-        "MaxLength": 290,
+        "ListName": "Moore-Stokes",
+        "DefaultValue": "eaque",
+        "MaxLength": 311,
         "Access": "Mandatory",
-        "ShowInSearch": true,
+        "ShowInSearch": false,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 199
+            "FieldLength": 569
           }
         }
       }
@@ -127,15 +127,15 @@ Content-Type: application/json; charset=utf-8
     "CrmActorType": "Contact",
     "ErpActorType": "Customer",
     "ErpActorTypes": [
-      "sapiente",
-      "consequatur"
+      "dolorem",
+      "consectetur"
     ],
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 997
+        "FieldType": "System.Int32",
+        "FieldLength": 256
       }
     }
   }

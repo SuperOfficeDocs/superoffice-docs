@@ -68,7 +68,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -78,19 +78,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentSourceId": 194,
-  "Name": "Wiza-Predovic",
-  "Tooltip": "cupiditate",
-  "Rank": 431,
-  "Key": "voluptas",
-  "MailTemplateId": 307,
-  "Deleted": true,
+  "ConsentSourceId": 132,
+  "Name": "Effertz, Olson and Pollich",
+  "Tooltip": "voluptatibus",
+  "Rank": 485,
+  "Key": "quasi",
+  "MailTemplateId": 463,
+  "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 466
+      "FieldLength": 106
     }
   }
 }

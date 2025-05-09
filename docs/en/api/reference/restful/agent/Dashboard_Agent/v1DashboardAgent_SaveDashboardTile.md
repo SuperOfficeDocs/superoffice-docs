@@ -89,46 +89,46 @@ OK
 POST /api/v1/Agents/Dashboard/SaveDashboardTile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 570,
-  "Caption": "ipsum",
-  "Description": "Managed tangible encoding",
-  "ChartName": "Oberbrunner-Renner",
-  "ChartId": "architecto",
-  "IsDefault": true,
-  "AssociateId": 936,
-  "GroupId": 827,
-  "SelectionId": 860,
-  "Config": "dolorem",
+  "DashboardTileId": 762,
+  "Caption": "hic",
+  "Description": "Function-based analyzing concept",
+  "ChartName": "Strosin, Ortiz and Lind",
+  "ChartId": "qui",
+  "IsDefault": false,
+  "AssociateId": 134,
+  "GroupId": 163,
+  "SelectionId": 219,
+  "Config": "consequatur",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Kautzer, White and Marquardt",
-      "Description": "Devolved executive ability",
+      "Name": "Lebsack LLC",
+      "Description": "Business-focused intangible concept",
       "Type": "Boolean",
-      "ListName": "Cartwright-Schmitt",
+      "ListName": "Bins Group",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "et",
-      "DefaultDataOption": false
+      "Value": "aliquid",
+      "DefaultDataOption": true
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 241,
+      "VisibleId": 158,
       "Visibility": "All",
-      "DisplayValue": "amet"
+      "DisplayValue": "natus"
     },
     {
-      "VisibleId": 241,
+      "VisibleId": 158,
       "Visibility": "All",
-      "DisplayValue": "amet"
+      "DisplayValue": "natus"
     }
   ]
 }
@@ -141,64 +141,64 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 51,
-  "Caption": "rerum",
-  "Description": "Intuitive national Graphical User Interface",
-  "ChartName": "Bins Group",
-  "ChartId": "nam",
-  "IsDefault": true,
-  "AssociateId": 310,
-  "GroupId": 386,
-  "SelectionId": 681,
-  "Config": "quaerat",
+  "DashboardTileId": 619,
+  "Caption": "sequi",
+  "Description": "Universal coherent success",
+  "ChartName": "Abernathy-Walter",
+  "ChartId": "deleniti",
+  "IsDefault": false,
+  "AssociateId": 196,
+  "GroupId": 636,
+  "SelectionId": 168,
+  "Config": "voluptas",
   "Type": "Bignum",
   "EntityType": "Activity",
   "Options": [
     {
-      "Name": "Jones LLC",
-      "Description": "Expanded global access",
+      "Name": "Stroman, Sauer and Conn",
+      "Description": "Robust user-facing matrices",
       "Type": "Boolean",
-      "ListName": "Nikolaus Group",
+      "ListName": "Murray-Jakubowski",
       "ListItems": [
         {},
         {}
       ],
-      "Value": "excepturi",
+      "Value": "ut",
       "DefaultDataOption": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 327
+          "FieldType": "System.String",
+          "FieldLength": 60
         }
       }
     }
   ],
   "VisibleFor": [
     {
-      "VisibleId": 43,
+      "VisibleId": 83,
       "Visibility": "All",
-      "DisplayValue": "rem",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldType": "System.String",
+          "FieldLength": 256
         }
       }
     },
     {
-      "VisibleId": 43,
+      "VisibleId": 83,
       "Visibility": "All",
-      "DisplayValue": "rem",
+      "DisplayValue": "sit",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 311
+          "FieldType": "System.String",
+          "FieldLength": 256
         }
       }
     }
@@ -208,7 +208,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 731
+      "FieldLength": 16
     }
   }
 }

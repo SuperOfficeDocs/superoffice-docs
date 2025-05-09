@@ -78,11 +78,11 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Ondricka, Rutherford and Kertzmann",
-  "DeviceName": "Durgan-Beier",
-  "KeyName": "Medhurst-Lind",
-  "TableName": "Price Inc and Sons",
-  "RecordId": 910
+  "ApplicationName": "Carroll, Sipes and Bergnaum",
+  "DeviceName": "Abernathy-West",
+  "KeyName": "Medhurst-Lindgren",
+  "TableName": "Spencer, Kilback and Koelpin",
+  "RecordId": 668
 }
 ```
 
@@ -92,5 +92,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-"temporibus"
+"eligendi"
 ```

@@ -93,18 +93,18 @@ ShipmentMessageBlockEntity updated.
 PUT /api/v1/ShipmentMessageBlock/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 34,
-  "AssociateId": 542,
-  "Block": "laboriosam",
-  "Registered": "2006-10-15T13:14:09.1966452+02:00",
-  "RegisteredAssociateId": 973,
-  "Updated": "2023-01-13T13:14:09.1966452+01:00",
-  "UpdatedAssociateId": 56,
-  "UpdatedCount": 975
+  "ShipmentMessageBlockId": 45,
+  "AssociateId": 394,
+  "Block": "facilis",
+  "Registered": "2015-05-24T16:32:48.1025764+02:00",
+  "RegisteredAssociateId": 861,
+  "Updated": "2015-01-27T16:32:48.1025764+01:00",
+  "UpdatedAssociateId": 610,
+  "UpdatedCount": 952
 }
 ```
 
@@ -115,25 +115,25 @@ HTTP/1.1 200 ShipmentMessageBlockEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageBlockId": 661,
-  "AssociateId": 350,
-  "Block": "sed",
-  "Registered": "2018-11-20T13:14:09.1966452+01:00",
-  "RegisteredAssociateId": 109,
-  "Updated": "2005-01-26T13:14:09.1966452+01:00",
-  "UpdatedAssociateId": 761,
-  "UpdatedCount": 513,
+  "ShipmentMessageBlockId": 701,
+  "AssociateId": 836,
+  "Block": "doloribus",
+  "Registered": "2015-10-24T16:32:48.1025764+02:00",
+  "RegisteredAssociateId": 507,
+  "Updated": "2015-09-12T16:32:48.1025764+02:00",
+  "UpdatedAssociateId": 867,
+  "UpdatedCount": 325,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 504
+      "FieldLength": 960
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

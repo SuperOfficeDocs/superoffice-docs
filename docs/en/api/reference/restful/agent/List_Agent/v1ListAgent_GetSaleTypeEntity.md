@@ -26,7 +26,7 @@ Gets a SaleTypeEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=442
+POST /api/v1/Agents/List/GetSaleTypeEntity?saleTypeEntityId=1000
 POST /api/v1/Agents/List/GetSaleTypeEntity?$select=name,department,category/id
 ```
 
@@ -88,7 +88,7 @@ OK
 POST /api/v1/Agents/List/GetSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -98,53 +98,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 934,
-  "Name": "Morar, Wehner and Koelpin",
-  "Tooltip": "ipsa",
-  "Rank": 104,
+  "SaleTypeId": 932,
+  "Name": "Thompson, Fahey and Bradtke",
+  "Tooltip": "mollitia",
+  "Rank": 346,
   "DurationUnit": "Century",
-  "SaleDuration": 593,
-  "SaleTypeCatId": 212,
-  "Deleted": true,
-  "HasGuide": true,
-  "HasStakeholders": false,
-  "IsAutoAdvance": true,
+  "SaleDuration": 878,
+  "SaleTypeCatId": 737,
+  "Deleted": false,
+  "HasGuide": false,
+  "HasStakeholders": true,
+  "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 993,
-  "QuoteLinesTemplate": 910,
-  "ConfirmationLinesTemplate": 5,
+  "DefaultQuoteValidity": 126,
+  "QuoteLinesTemplate": 175,
+  "ConfirmationLinesTemplate": 50,
   "MaxDiscountPercentSet": true,
-  "MinEarningPercentSet": true,
-  "MaxDiscountPercent": 256,
-  "MinEarningPercent": 263,
-  "GroupQuoteLinesBy": 431,
-  "SortGroupLinesBy": 598,
+  "MinEarningPercentSet": false,
+  "MaxDiscountPercent": 660,
+  "MinEarningPercent": 604,
+  "GroupQuoteLinesBy": 776,
+  "SortGroupLinesBy": 821,
   "Stages": [
     {
-      "Id": 736,
-      "Name": "Kuhlman, Watsica and Schuster",
-      "ToolTip": "Nobis exercitationem animi.",
-      "Deleted": true,
-      "Rank": 847,
-      "Type": "voluptas",
-      "ColorBlock": 936,
-      "IconHint": "eveniet",
-      "Selected": true,
-      "LastChanged": "2008-04-09T13:14:00.5793728+02:00",
+      "Id": 399,
+      "Name": "O'Reilly, Corkery and Thompson",
+      "ToolTip": "Voluptatem dolores.",
+      "Deleted": false,
+      "Rank": 152,
+      "Type": "quaerat",
+      "ColorBlock": 40,
+      "IconHint": "dolore",
+      "Selected": false,
+      "LastChanged": "2024-03-13T16:32:39.226996+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "accusamus",
-      "StyleHint": "temporibus",
+      "ExtraInfo": "architecto",
+      "StyleHint": "quo",
       "Hidden": false,
-      "FullName": "Phyllis Hegmann",
+      "FullName": "June Hegmann",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 283
+          "FieldLength": 42
         }
       }
     }
@@ -154,7 +154,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 985
+      "FieldLength": 356
     }
   }
 }

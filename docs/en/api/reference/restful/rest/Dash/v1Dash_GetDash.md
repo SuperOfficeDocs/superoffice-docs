@@ -95,37 +95,37 @@ HTTP/1.1 200 Dash found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 296,
-  "UniqueId": "voluptates",
-  "Name": "Becker-Zboncak",
-  "Description": "Open-source demand-driven installation",
-  "AssociateId": 458,
-  "Columns": 924,
+  "DashboardId": 966,
+  "UniqueId": "repellat",
+  "Name": "Stokes-Koch",
+  "Description": "Organized holistic moratorium",
+  "AssociateId": 6,
+  "Columns": 668,
   "Theme": null,
-  "VisibleForAll": 913,
+  "VisibleForAll": 886,
   "VisibleForAssociates": [
-    974,
-    36
+    623,
+    577
   ],
   "VisibleForGroups": [
-    214,
-    323
+    801,
+    525
   ],
-  "PinForAll": 703,
+  "PinForAll": 892,
   "PinForAssociates": [
-    770,
-    660
+    763,
+    786
   ],
   "PinForGroups": [
-    468,
-    557
+    954,
+    912
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 891
+      "FieldLength": 537
     }
   },
   "_Links": {

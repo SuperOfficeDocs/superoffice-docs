@@ -99,12 +99,16 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_CreateDefaultSuggestedAppointmentEntity.md
   - name: CreateDefaultTaskListItem
     href: Appointment_Agent/v1AppointmentAgent_CreateDefaultTaskListItem.md
+  - name: CreateVideoMeetingReservation
+    href: Appointment_Agent/v1AppointmentAgent_CreateVideoMeetingReservation.md
   - name: DeclineInvitationFromEmailItem
     href: Appointment_Agent/v1AppointmentAgent_DeclineInvitationFromEmailItem.md
   - name: Delete
     href: Appointment_Agent/v1AppointmentAgent_Delete.md
   - name: DeleteAppointmentEntity
     href: Appointment_Agent/v1AppointmentAgent_DeleteAppointmentEntity.md
+  - name: DeleteVideoMeetingReservation
+    href: Appointment_Agent/v1AppointmentAgent_DeleteVideoMeetingReservation.md
   - name: GenerateLead
     href: Appointment_Agent/v1AppointmentAgent_GenerateLead.md
   - name: GetActivityInformationListByDatesAndAssociate
@@ -219,6 +223,8 @@ items:
     href: Appointment_Agent/v1AppointmentAgent_GetUIDFromAppointmentId.md
   - name: Move
     href: Appointment_Agent/v1AppointmentAgent_Move.md
+  - name: MoveExtended
+    href: Appointment_Agent/v1AppointmentAgent_MoveExtended.md
   - name: MoveWithEmail
     href: Appointment_Agent/v1AppointmentAgent_MoveWithEmail.md
   - name: Reject
@@ -856,6 +862,8 @@ items:
     href: CustomerService_Agent/v1CustomerServiceAgent_DeleteCustomerCenterConfig.md
   - name: EventHandlerExists
     href: CustomerService_Agent/v1CustomerServiceAgent_EventHandlerExists.md
+  - name: EventHandlersExists
+    href: CustomerService_Agent/v1CustomerServiceAgent_EventHandlersExists.md
   - name: ExecuteEventHandlers
     href: CustomerService_Agent/v1CustomerServiceAgent_ExecuteEventHandlers.md
   - name: FindTicketsByTitleOrId
@@ -1085,6 +1093,8 @@ items:
     href: Diagnostics_Agent/v1DiagnosticsAgent_GetWebAppUsagesForPeriod.md
   - name: LogViewState
     href: Diagnostics_Agent/v1DiagnosticsAgent_LogViewState.md
+  - name: PerformTasksAfterCustomObjectTableDeleted
+    href: Diagnostics_Agent/v1DiagnosticsAgent_PerformTasksAfterCustomObjectTableDeleted.md
   - name: PerformTasksAfterUpgrade
     href: Diagnostics_Agent/v1DiagnosticsAgent_PerformTasksAfterUpgrade.md
   - name: RemoveExpiredSystemMessages
@@ -3287,8 +3297,12 @@ items:
     href: Sale_Agent/v1SaleAgent_SaveSaleStakeholder.md
   - name: SetAsLost
     href: Sale_Agent/v1SaleAgent_SetAsLost.md
+  - name: SetAsLostWithReason
+    href: Sale_Agent/v1SaleAgent_SetAsLostWithReason.md
   - name: SetAsSold
     href: Sale_Agent/v1SaleAgent_SetAsSold.md
+  - name: SetAsSoldWithReason
+    href: Sale_Agent/v1SaleAgent_SetAsSoldWithReason.md
   - name: UpdateSaleStakeholders
     href: Sale_Agent/v1SaleAgent_UpdateSaleStakeholders.md
   - name: ValidateSaleEntity

@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/Business
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 403,
-  "Name": "Reichert-Metz",
-  "Tooltip": "aspernatur",
-  "Deleted": true,
-  "Rank": 192,
+  "Id": 869,
+  "Name": "Christiansen LLC",
+  "Tooltip": "iure",
+  "Deleted": false,
+  "Rank": 15,
   "IsCustomList": false,
   "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "hic",
+  "UseGroupsAndHeadings": false,
+  "ListType": "aut",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 406
+      "FieldType": "System.String",
+      "FieldLength": 314
     }
   },
   "_Links": {

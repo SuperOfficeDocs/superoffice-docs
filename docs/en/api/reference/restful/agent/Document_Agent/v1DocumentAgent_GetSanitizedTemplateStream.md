@@ -76,9 +76,9 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TemplateName": "Rutherford, Feeney and Crist",
+  "TemplateName": "Conn-Thompson",
   "AllowPersonal": true,
-  "UiCulture": "magni"
+  "UiCulture": "quibusdam"
 }
 ```
 

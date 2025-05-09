@@ -82,12 +82,12 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForUserGroupWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 313,
-  "TargetDimensionId": 939
+  "UserGroupId": 446,
+  "TargetDimensionId": 994
 }
 ```
 
@@ -99,24 +99,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 634,
+    "TargetAssignmentInfoId": 456,
     "Values": [
-      673,
-      957
+      587,
+      721
     ],
     "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 52,
-    "DimensionListItemDisplayName": "Sauer-Brakus",
+    "DimensionListItem": 998,
+    "DimensionListItemDisplayName": "Daugherty LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 707
+        "FieldType": "System.Int32",
+        "FieldLength": 338
       }
     }
   }

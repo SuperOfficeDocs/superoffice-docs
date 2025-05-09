@@ -77,7 +77,7 @@ OK
 POST /api/v1/Agents/List/GetConsentPurposes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -88,25 +88,25 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ConsentPurposeId": 208,
-    "Name": "Kulas-Hand",
-    "ConsentText": "sed",
-    "FormText": "consequatur",
-    "Key": "id",
-    "Tooltip": "reiciendis",
-    "Active": 980,
-    "UpdatedDate": "2004-08-28T13:14:00.6106246+02:00",
+    "ConsentPurposeId": 402,
+    "Name": "Hyatt Group",
+    "ConsentText": "recusandae",
+    "FormText": "maiores",
+    "Key": "eos",
+    "Tooltip": "minima",
+    "Active": 383,
+    "UpdatedDate": "2003-03-03T16:32:39.2738605+01:00",
     "UpdatedBy": null,
-    "Deleted": false,
-    "Rank": 244,
-    "PrivacyStatementDesc": "ipsa",
+    "Deleted": true,
+    "Rank": 930,
+    "PrivacyStatementDesc": "blanditiis",
     "PrivacyStatementUrl": "http://www.example.com/",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 533
+        "FieldType": "System.String",
+        "FieldLength": 388
       }
     }
   }

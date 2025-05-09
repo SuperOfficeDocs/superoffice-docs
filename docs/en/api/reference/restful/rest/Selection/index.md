@@ -20,8 +20,6 @@ generated: true
 
 * [PUT Selection/{id}](v1SelectionEntity_PutSelectionEntity.md)
 
-* [DEL Selection/{id}](v1SelectionEntity_DeleteSelectionEntity.md)
-
 * [PATCH Selection/{id}](v1SelectionEntity_PatchSelectionEntity.md)
 
 * [POST Selection/{id}/Members/AddPerson](v1SelectionEntity_AddContactSelectionMembers.md)
@@ -45,6 +43,8 @@ generated: true
 * [GET Selection/{id}/CriteriaGroups](v1SelectionEntity_GetDynamicSelectionCriteriaGroups.md)
 
 * [PUT Selection/{id}/CriteriaGroups](v1SelectionEntity_SetDynamicSelectionCriteriaGroups.md)
+
+* [DEL Selection/{id}](v1SelectionEntity_DeleteSelectionEntity.md)
 
 * [GET Selection/{id}/Members](v1SelectionEntity_GetSelectionMembersArchiveRows.md)
 

@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Rating/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Rating/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 513,
-    "Name": "Barrows LLC",
-    "ToolTip": "Esse repellendus suscipit libero amet culpa a.",
-    "Deleted": true,
-    "Rank": 68,
-    "Type": "qui",
-    "ColorBlock": 801,
-    "IconHint": "dolorum",
-    "Selected": false,
-    "LastChanged": "2005-07-15T13:14:10.0097876+02:00",
+    "Id": 125,
+    "Name": "Conn-Ward",
+    "ToolTip": "Inventore quod eos doloremque ab consequatur similique.",
+    "Deleted": false,
+    "Rank": 315,
+    "Type": "accusamus",
+    "ColorBlock": 658,
+    "IconHint": "magnam",
+    "Selected": true,
+    "LastChanged": "2018-03-08T16:32:48.8994739+01:00",
     "ChildItems": [
       {
-        "Id": 559,
-        "Name": "Gorczany Group",
-        "ToolTip": "Dolores quia.",
-        "Deleted": false,
-        "Rank": 460,
-        "Type": "alias",
-        "ColorBlock": 179,
-        "IconHint": "mollitia",
+        "Id": 405,
+        "Name": "Schmeler Group",
+        "ToolTip": "Est ut ut aspernatur.",
+        "Deleted": true,
+        "Rank": 666,
+        "Type": "magni",
+        "ColorBlock": 526,
+        "IconHint": "maxime",
         "Selected": false,
-        "LastChanged": "2013-03-13T13:14:10.0097876+01:00",
+        "LastChanged": "2001-10-22T16:32:48.8994739+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "optio",
-        "StyleHint": "veritatis",
+        "ExtraInfo": "consectetur",
+        "StyleHint": "iste",
         "Hidden": true,
-        "FullName": "Mrs. Johathan Lane Stokes",
+        "FullName": "Barbara Madonna Zieme Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 589
+            "FieldType": "System.String",
+            "FieldLength": 604
           }
         }
       }
     ],
-    "ExtraInfo": "libero",
-    "StyleHint": "consectetur",
+    "ExtraInfo": "possimus",
+    "StyleHint": "dolores",
     "Hidden": true,
-    "FullName": "Prof. Henriette Yundt PhD",
+    "FullName": "Liliana Ryan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 640
+        "FieldLength": 885
       }
     }
   }

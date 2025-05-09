@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 567,
-    "Name": "Boyle-Heller",
-    "ToolTip": "Delectus maiores eum sunt voluptas labore voluptates earum.",
-    "Deleted": false,
-    "Rank": 679,
-    "Type": "ut",
-    "ColorBlock": 992,
-    "IconHint": "velit",
+    "Id": 990,
+    "Name": "Borer LLC",
+    "ToolTip": "Deserunt vel non vitae similique nihil aliquam.",
+    "Deleted": true,
+    "Rank": 36,
+    "Type": "nostrum",
+    "ColorBlock": 395,
+    "IconHint": "sed",
     "Selected": false,
-    "LastChanged": "2005-11-30T13:14:09.6972691+01:00",
+    "LastChanged": "2011-11-10T16:32:48.6026679+01:00",
     "ChildItems": [
       {
-        "Id": 716,
-        "Name": "Stokes LLC",
-        "ToolTip": "Soluta enim amet in qui enim rerum quisquam.",
-        "Deleted": false,
-        "Rank": 516,
-        "Type": "voluptas",
-        "ColorBlock": 350,
-        "IconHint": "veritatis",
+        "Id": 277,
+        "Name": "Hand-Buckridge",
+        "ToolTip": "Et distinctio voluptatem sed eius voluptas.",
+        "Deleted": true,
+        "Rank": 82,
+        "Type": "sed",
+        "ColorBlock": 69,
+        "IconHint": "qui",
         "Selected": false,
-        "LastChanged": "1998-04-24T13:14:09.6972691+02:00",
+        "LastChanged": "2012-02-04T16:32:48.6026679+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "ut",
-        "StyleHint": "vel",
+        "ExtraInfo": "illum",
+        "StyleHint": "voluptas",
         "Hidden": false,
-        "FullName": "Ned Batz",
+        "FullName": "Selina Bergnaum",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 394
+            "FieldType": "System.String",
+            "FieldLength": 935
           }
         }
       }
     ],
-    "ExtraInfo": "dolorem",
-    "StyleHint": "placeat",
-    "Hidden": true,
-    "FullName": "Miss Erika Jerel Hirthe",
+    "ExtraInfo": "ut",
+    "StyleHint": "ipsam",
+    "Hidden": false,
+    "FullName": "Margaretta Bayer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 225
+        "FieldLength": 704
       }
     }
   }

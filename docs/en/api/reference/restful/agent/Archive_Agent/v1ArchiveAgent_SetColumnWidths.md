@@ -65,14 +65,14 @@ No Content
 POST /api/v1/Agents/Archive/SetColumnWidths
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Sawayn, Mayert and Hand",
+  "GuiName": "Lesch, Monahan and Kuhn",
   "ColumnWidths": [
-    "vel",
-    "est"
+    "minima",
+    "laboriosam"
   ]
 }
 ```

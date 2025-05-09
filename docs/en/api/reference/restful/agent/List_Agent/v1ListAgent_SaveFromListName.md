@@ -84,8 +84,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 68,
-  "UdListDefinitionName": "Simonis-Boyle",
+  "Id": 612,
+  "UdListDefinitionName": "Moore LLC",
   "Item": null
 }
 ```
@@ -97,18 +97,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 769,
-  "Name": "Lehner, Gusikowski and Jacobson",
-  "Tooltip": "corrupti",
+  "Id": 372,
+  "Name": "Harris-Anderson",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "UdListDefinitionId": 215,
-  "Rank": 164,
+  "UdListDefinitionId": 414,
+  "Rank": 530,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 123
+      "FieldType": "System.String",
+      "FieldLength": 441
     }
   }
 }

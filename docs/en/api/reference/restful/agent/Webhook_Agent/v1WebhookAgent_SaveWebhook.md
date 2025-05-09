@@ -93,28 +93,28 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 130,
-  "Name": "Dooley, Feeney and Gaylord",
+  "WebhookId": 89,
+  "Name": "Morissette-Emmerich",
   "Events": [
-    "ut",
-    "excepturi"
+    "hic",
+    "voluptatem"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "dignissimos",
+  "Secret": "et",
   "State": "Active",
-  "Type": "placeat",
+  "Type": "in",
   "Headers": {
-    "Headers1": "pariatur",
-    "Headers2": "ipsa"
+    "Headers1": "asperiores",
+    "Headers2": "quos"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "1998-02-09T13:14:01.7850758+01:00",
+  "Registered": "2016-07-15T16:32:40.5394394+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2003-03-09T13:14:01.7850758+01:00",
+  "Updated": "2009-01-23T16:32:40.5394394+01:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "felix_hintz@mann.info"
+  "ErrorsEmail": "weston@veum.co.uk"
 }
 ```
 
@@ -125,27 +125,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebhookId": 366,
-  "Name": "Stokes LLC",
+  "WebhookId": 74,
+  "Name": "Purdy Group",
   "Events": [
-    "beatae",
-    "et"
+    "nobis",
+    "impedit"
   ],
   "TargetUrl": "http://www.example.com/",
-  "Secret": "tempora",
+  "Secret": "sunt",
   "State": "Active",
-  "Type": "nihil",
+  "Type": "occaecati",
   "Headers": {
-    "Headers1": "deserunt",
-    "Headers2": "voluptatibus"
+    "Headers1": "voluptatem",
+    "Headers2": "sint"
   },
   "Properties": {
     "fieldName": {}
   },
-  "Registered": "2000-08-02T13:14:01.7850758+02:00",
+  "Registered": "2024-07-08T16:32:40.5394394+02:00",
   "RegisteredAssociate": null,
-  "Updated": "2005-02-23T13:14:01.7850758+01:00",
+  "Updated": "2003-08-27T16:32:40.5394394+02:00",
   "UpdatedAssociate": null,
-  "ErrorsEmail": "jettie@marvincummings.name"
+  "ErrorsEmail": "carolyne@schoennicolas.info"
 }
 ```

@@ -87,9 +87,9 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "UserGroupId": 655,
-  "Year": 766,
-  "TargetDimensionId": 868
+  "UserGroupId": 977,
+  "Year": 151,
+  "TargetDimensionId": 679
 }
 ```
 
@@ -101,24 +101,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 212,
+    "TargetAssignmentInfoId": 376,
     "Values": [
-      403,
-      246
+      697,
+      208
     ],
-    "Locked": false,
+    "Locked": true,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 179,
-    "DimensionListItemDisplayName": "Jast, Hackett and Blanda",
+    "DimensionListItem": 339,
+    "DimensionListItemDisplayName": "Windler, Nolan and Moore",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 470
+        "FieldLength": 320
       }
     }
   }

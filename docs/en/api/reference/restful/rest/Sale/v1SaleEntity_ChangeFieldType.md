@@ -30,7 +30,7 @@ Change a SaleEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -104,7 +104,7 @@ SaleEntity found.
 POST /api/v1/Sale/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -114,46 +114,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 418,
-  "ColumnId": 480,
-  "FieldDefault": "nihil",
-  "FieldHeight": 745,
-  "FieldLabel": "voluptatem",
-  "FieldLeft": 873,
-  "FieldTop": 658,
+  "UDefFieldId": 314,
+  "ColumnId": 739,
+  "FieldDefault": "laboriosam",
+  "FieldHeight": 360,
+  "FieldLabel": "sit",
+  "FieldLeft": 178,
+  "FieldTop": 233,
   "FieldType": "Checkbox",
-  "FieldWidth": 199,
-  "FormatMask": "modi",
-  "HideLabel": false,
-  "IsIndexed": true,
-  "LabelHeight": 438,
-  "LabelLeft": 642,
-  "LabelTop": 909,
-  "LabelWidth": 622,
-  "LastVersionId": 750,
-  "ListTableId": 907,
+  "FieldWidth": 573,
+  "FormatMask": "consectetur",
+  "HideLabel": true,
+  "IsIndexed": false,
+  "LabelHeight": 675,
+  "LabelLeft": 270,
+  "LabelTop": 566,
+  "LabelWidth": 654,
+  "LastVersionId": 114,
+  "ListTableId": 702,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 1002,
-  "ProgId": "ratione",
+  "Page1LineNo": 566,
+  "ProgId": "necessitatibus",
   "IsReadOnly": false,
-  "ShortLabel": "rerum",
-  "TabOrder": 440,
-  "TextLength": 213,
-  "Tooltip": "totam",
-  "UdefIdentity": 767,
-  "UDListDefinitionId": 145,
+  "ShortLabel": "exercitationem",
+  "TabOrder": 269,
+  "TextLength": 782,
+  "Tooltip": "et",
+  "UdefIdentity": 515,
+  "UDListDefinitionId": 195,
   "Justification": "Center",
-  "Version": 640,
-  "TemplateVariableName": "Frami Inc and Sons",
+  "Version": 701,
+  "TemplateVariableName": "Ullrich, Collier and Stanton",
   "HasBeenPublished": false,
-  "MdoListName": "Kihn, Bosco and Olson",
+  "MdoListName": "Gerlach-Hamill",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 9
+      "FieldLength": 87
     }
   }
 }

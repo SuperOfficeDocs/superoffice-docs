@@ -70,20 +70,20 @@ No Content
 POST /api/v1/Agents/Person/SendEmailWithEventName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "From": "qui",
-  "To": "recusandae",
-  "Subject": "et",
-  "PlainBody": "ut",
-  "HtmlBody": "ab",
+  "From": "ut",
+  "To": "consectetur",
+  "Subject": "recusandae",
+  "PlainBody": "enim",
+  "HtmlBody": "cum",
   "AttachmentIds": [
-    367,
-    541
+    514,
+    525
   ],
-  "EventName": "Gutkowski Group"
+  "EventName": "Deckow-Klein"
 }
 ```
 

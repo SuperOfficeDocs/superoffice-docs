@@ -75,27 +75,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 485,
-  "Name": "McDermott, Hegmann and Hauck",
-  "Tooltip": "officia",
+  "Id": 327,
+  "Name": "McKenzie-Monahan",
+  "Tooltip": "dolores",
   "Deleted": true,
-  "Rank": 622,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 808,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "debitis",
+  "ListType": "aliquam",
   "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 151
+      "FieldType": "System.String",
+      "FieldLength": 240
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

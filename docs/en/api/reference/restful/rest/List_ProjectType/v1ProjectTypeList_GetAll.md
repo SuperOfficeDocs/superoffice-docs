@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ProjectType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 314,
-    "Name": "Vandervort, Brekke and Jacobi",
-    "Tooltip": "rem",
-    "Deleted": true,
-    "UdListDefinitionId": 522,
-    "Rank": 727,
+    "Id": 520,
+    "Name": "Schinner Group",
+    "Tooltip": "sunt",
+    "Deleted": false,
+    "UdListDefinitionId": 625,
+    "Rank": 371,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 630
+        "FieldType": "System.Int32",
+        "FieldLength": 412
       }
     }
   }

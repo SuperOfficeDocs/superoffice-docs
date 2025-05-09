@@ -95,13 +95,13 @@ OK
 POST /api/v1/Agents/Batch/GetBatchTaskInfosByAssociatesAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    762,
-    451
+    913,
+    189
   ],
   "State": "All"
 }
@@ -115,37 +115,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 178,
-    "Name": "Reichel-Prosacco",
-    "AssociateId": 352,
-    "DetailsTable": 34,
-    "DetailsRecord": 724,
-    "IsSystemTask": false,
+    "Id": 195,
+    "Name": "Klein-Dooley",
+    "AssociateId": 985,
+    "DetailsTable": 520,
+    "DetailsRecord": 532,
+    "IsSystemTask": true,
     "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "recusandae",
-      "ParameterObject2": "rerum"
+      "ParameterObject1": "ut",
+      "ParameterObject2": "nam"
     },
-    "LastStarted": "2005-06-26T13:13:59.5314453+02:00",
-    "Created": "2005-02-28T13:13:59.5314453+01:00",
-    "StartCount": 798,
-    "DatabaseSerialNumber": "1146770",
-    "Context": "et",
-    "Result": "qui",
+    "LastStarted": "2009-06-16T16:32:38.1959817+02:00",
+    "Created": "1998-04-13T16:32:38.1959817+02:00",
+    "StartCount": 560,
+    "DatabaseSerialNumber": "957903",
+    "Context": "est",
+    "Result": "sint",
     "State": "All",
-    "Description": "Cross-group bottom-line website",
-    "Response": "quasi",
-    "Request": "consequuntur",
-    "ProgressDescription": "Balanced intangible analyzer",
-    "ProgressPercent": 218,
-    "FileName": "Barrows, Leannon and Considine",
+    "Description": "Profound full-range matrix",
+    "Response": "dolorem",
+    "Request": "provident",
+    "ProgressDescription": "Re-engineered hybrid productivity",
+    "ProgressPercent": 741,
+    "FileName": "Kuvalis-Hermann",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 662
+        "FieldLength": 644
       }
     }
   }

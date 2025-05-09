@@ -78,24 +78,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 986,
-  "Name": "Stroman, Purdy and Howe",
-  "PersonId": 663,
-  "Rank": 448,
-  "Tooltip": "enim",
+  "AssociateId": 608,
+  "Name": "Stoltenberg LLC",
+  "PersonId": 724,
+  "Rank": 570,
+  "Tooltip": "quia",
   "Type": "AnonymousAssociate",
-  "GroupIdx": 469,
-  "FullName": "Elias Johnson",
-  "FormalName": "Rau Inc and Sons",
+  "GroupIdx": 301,
+  "FullName": "Jabari Weber",
+  "FormalName": "Funk Inc and Sons",
   "Deleted": true,
-  "EjUserId": 888,
-  "UserName": "Jakubowski, Durgan and Welch",
+  "EjUserId": 410,
+  "UserName": "Robel-Raynor",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 471
+      "FieldType": "System.Int32",
+      "FieldLength": 435
     }
   }
 }

@@ -81,19 +81,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AudienceLayoutId": 294,
-  "InstanceLayout": "velit",
-  "InstanceName": "Schinner Group",
-  "CreatedDate": "1998-11-11T13:13:59.5314453+01:00",
-  "UpdatedDate": "2024-07-07T13:13:59.5314453+02:00",
+  "AudienceLayoutId": 406,
+  "InstanceLayout": "sunt",
+  "InstanceName": "Casper Group",
+  "CreatedDate": "2021-07-15T16:32:38.1959817+02:00",
+  "UpdatedDate": "2023-01-21T16:32:38.1959817+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldType": "System.String",
+      "FieldLength": 598
     }
   }
 }

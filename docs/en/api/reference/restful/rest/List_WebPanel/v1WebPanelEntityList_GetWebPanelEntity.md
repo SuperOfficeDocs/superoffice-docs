@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/WebPanel/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -93,34 +93,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 707,
-  "Name": "Trantow LLC",
-  "Tooltip": "ea",
-  "Deleted": false,
-  "Rank": 926,
+  "WebPanelId": 271,
+  "Name": "Tillman Group",
+  "Tooltip": "cum",
+  "Deleted": true,
+  "Rank": 458,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
   "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
-  "ShowInMenuBar": false,
+  "OnSalesMarketingWeb": false,
+  "OnSalesMarketingPocket": false,
+  "ShowInMenuBar": true,
   "ShowInToolBar": false,
   "ShowInAddressBar": false,
   "ShowInStatusBar": true,
-  "WindowName": "Schmidt, Price and Volkman",
+  "WindowName": "Rempel-Schulist",
   "Url": "http://www.example.com/",
-  "ProgId": "asperiores",
-  "Icon": 35,
+  "ProgId": "odio",
+  "Icon": 759,
   "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 281
+      "FieldType": "System.Int32",
+      "FieldLength": 164
     }
   }
 }

@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/Competitor/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 226,
-    "Name": "Hermiston, Cremin and Funk",
-    "ToolTip": "Alias rerum minus vel distinctio a autem.",
-    "Deleted": false,
-    "Rank": 677,
-    "Type": "qui",
-    "ColorBlock": 89,
-    "IconHint": "ratione",
+    "Id": 537,
+    "Name": "Ratke, Gaylord and Wolff",
+    "ToolTip": "Numquam commodi nulla rerum qui et ipsam.",
+    "Deleted": true,
+    "Rank": 838,
+    "Type": "sint",
+    "ColorBlock": 326,
+    "IconHint": "et",
     "Selected": false,
-    "LastChanged": "2021-03-22T13:14:09.6503912+01:00",
+    "LastChanged": "2001-09-13T16:32:48.5558051+02:00",
     "ChildItems": [
       {
-        "Id": 61,
-        "Name": "Lesch-Quigley",
-        "ToolTip": "Autem labore saepe cum.",
+        "Id": 154,
+        "Name": "D'Amore-O'Keefe",
+        "ToolTip": "Modi asperiores voluptatem excepturi.",
         "Deleted": false,
-        "Rank": 720,
-        "Type": "quia",
-        "ColorBlock": 357,
-        "IconHint": "unde",
-        "Selected": false,
-        "LastChanged": "1999-08-29T13:14:09.6503912+02:00",
+        "Rank": 615,
+        "Type": "iste",
+        "ColorBlock": 914,
+        "IconHint": "voluptatem",
+        "Selected": true,
+        "LastChanged": "2020-03-24T16:32:48.5558051+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "est",
-        "StyleHint": "et",
-        "Hidden": true,
-        "FullName": "Keith Raynor",
+        "ExtraInfo": "rerum",
+        "StyleHint": "sapiente",
+        "Hidden": false,
+        "FullName": "Lyla Aufderhar",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 616
+            "FieldLength": 898
           }
         }
       }
     ],
-    "ExtraInfo": "enim",
-    "StyleHint": "nostrum",
-    "Hidden": false,
-    "FullName": "Prof. Samir Nina Beahan",
+    "ExtraInfo": "ipsam",
+    "StyleHint": "explicabo",
+    "Hidden": true,
+    "FullName": "Lysanne Nolan",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 829
+        "FieldType": "System.Int32",
+        "FieldLength": 187
       }
     }
   }

@@ -125,18 +125,18 @@ ContactRelationEntity  updated.
 PATCH /api/v1/Relation/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "minus",
+    "path": "itaque",
     "value": {}
   },
   {
     "op": "add",
-    "path": "minus",
+    "path": "itaque",
     "value": {}
   }
 ]
@@ -149,35 +149,35 @@ HTTP/1.1 200 ContactRelationEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "SourceContactId": 74,
-  "SourcePersonId": 795,
-  "DestinationContactId": 897,
-  "DestinationPersonId": 494,
-  "RelationId": 66,
-  "Comment": "consectetur",
-  "RelationDefinitionId": 895,
-  "Reversed": 469,
-  "UpdatedDate": "2019-03-31T13:14:08.6178742+02:00",
-  "CreatedDate": "2005-07-07T13:14:08.6178742+02:00",
+  "SourceContactId": 979,
+  "SourcePersonId": 75,
+  "DestinationContactId": 791,
+  "DestinationPersonId": 844,
+  "RelationId": 904,
+  "Comment": "alias",
+  "RelationDefinitionId": 730,
+  "Reversed": 730,
+  "UpdatedDate": "2005-06-14T16:32:47.4152322+02:00",
+  "CreatedDate": "1999-09-13T16:32:47.4152322+02:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "SourceContactName": "Grady-Frami",
-  "SourcePersonName": "Yundt Group",
-  "DestinationContactName": "Zulauf Group",
-  "DestinationPersonName": "Pagac-Lakin",
-  "ActiveText": "facilis",
-  "PassiveText": "deserunt",
+  "SourceContactName": "Hane, Corwin and McGlynn",
+  "SourcePersonName": "Goldner-Brakus",
+  "DestinationContactName": "Walter-Price",
+  "DestinationPersonName": "Miller LLC",
+  "ActiveText": "perferendis",
+  "PassiveText": "excepturi",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 304
+      "FieldLength": 406
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

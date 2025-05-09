@@ -84,7 +84,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 410,
+  "DocumentPluginId": 371,
   "IncludeEmails": false
 }
 ```
@@ -96,29 +96,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 581,
-  "NumDocumentsAlreadyMigrated": 541,
+  "NumDocumentsOmitted": 823,
+  "NumDocumentsAlreadyMigrated": 146,
   "Documents": [
     {
-      "DocumentId": 352,
-      "ContactId": 685,
-      "PersonId": 495,
-      "SaleId": 354,
-      "ProjectId": 776,
-      "DocTmplId": 778,
-      "AssociateId": 570,
-      "UserGroupId": 363,
-      "VisibleForId": 482
+      "DocumentId": 862,
+      "ContactId": 830,
+      "PersonId": 990,
+      "SaleId": 387,
+      "ProjectId": 628,
+      "DocTmplId": 513,
+      "AssociateId": 580,
+      "UserGroupId": 294,
+      "VisibleForId": 742
     }
   ],
   "Associates": [
     {
-      "AssociateId": 159,
-      "EmailAddress": "alexandro_rohan@corkerylebsack.ca"
+      "AssociateId": 63,
+      "EmailAddress": "burley@gislason.biz"
     },
     {
-      "AssociateId": 159,
-      "EmailAddress": "alexandro_rohan@corkerylebsack.ca"
+      "AssociateId": 63,
+      "EmailAddress": "burley@gislason.biz"
     }
   ]
 }

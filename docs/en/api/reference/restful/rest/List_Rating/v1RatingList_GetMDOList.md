@@ -27,7 +27,7 @@ Get the MDO list items for "Prob" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/Rating/MDOItems?flat=False
-GET /api/v1/List/Rating/MDOItems?query=omnis
+GET /api/v1/List/Rating/MDOItems?query=dolores
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Rating/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 87,
-    "Name": "Shanahan-Renner",
-    "ToolTip": "Qui vitae in doloremque impedit deserunt.",
+    "Id": 537,
+    "Name": "Hettinger, Welch and Kozey",
+    "ToolTip": "Similique aut officia.",
     "Deleted": true,
-    "Rank": 496,
-    "Type": "in",
+    "Rank": 865,
+    "Type": "rerum",
     "ChildItems": [
       {
-        "Id": 596,
-        "Name": "Blanda LLC",
-        "ToolTip": "Possimus quisquam.",
+        "Id": 446,
+        "Name": "Roberts LLC",
+        "ToolTip": "Repellendus architecto voluptatem repellendus officia tempora aut nihil.",
         "Deleted": true,
-        "Rank": 906,
-        "Type": "vel",
+        "Rank": 630,
+        "Type": "eos",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "minima",
-        "ColorBlock": 803,
-        "ExtraInfo": "enim",
-        "StyleHint": "illo",
-        "FullName": "Dennis Lind",
+        "IconHint": "commodi",
+        "ColorBlock": 661,
+        "ExtraInfo": "voluptatibus",
+        "StyleHint": "corporis",
+        "FullName": "Nannie Rutherford",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 256
+            "FieldLength": 901
           }
         }
       }
     ],
-    "IconHint": "sed",
-    "ColorBlock": 721,
-    "ExtraInfo": "fugit",
-    "StyleHint": "doloremque",
-    "FullName": "Alexzander Bogisich",
+    "IconHint": "suscipit",
+    "ColorBlock": 169,
+    "ExtraInfo": "explicabo",
+    "StyleHint": "nulla",
+    "FullName": "Erling Kovacek",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 572
+        "FieldType": "System.String",
+        "FieldLength": 955
       }
     }
   }

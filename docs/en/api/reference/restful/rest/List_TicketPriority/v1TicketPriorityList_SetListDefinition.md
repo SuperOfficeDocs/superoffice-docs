@@ -88,16 +88,16 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 212,
-  "Name": "Rowe, Jacobs and Collier",
-  "Tooltip": "architecto",
+  "Id": 258,
+  "Name": "Kuvalis-Jerde",
+  "Tooltip": "non",
   "Deleted": true,
-  "Rank": 163,
-  "IsCustomList": true,
+  "Rank": 928,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quaerat",
-  "InUseByUserDefinedFields": true
+  "ListType": "illo",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 541,
-  "Name": "Davis-Schneider",
-  "Tooltip": "quia",
+  "Id": 633,
+  "Name": "Keebler, Wuckert and Morissette",
+  "Tooltip": "iste",
   "Deleted": false,
-  "Rank": 828,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Rank": 912,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "doloribus",
-  "InUseByUserDefinedFields": false,
+  "ListType": "molestiae",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 118
+      "FieldLength": 821
     }
   }
 }

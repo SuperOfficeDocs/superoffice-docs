@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Position/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 634,
-  "Name": "Abshire, Mante and Brekke",
-  "Tooltip": "nesciunt",
+  "Id": 583,
+  "Name": "Macejkovic Group",
+  "Tooltip": "iusto",
   "Deleted": false,
-  "UdListDefinitionId": 591,
-  "Rank": 230,
+  "UdListDefinitionId": 657,
+  "Rank": 385,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 491
+      "FieldType": "System.Int32",
+      "FieldLength": 563
     }
   }
 }

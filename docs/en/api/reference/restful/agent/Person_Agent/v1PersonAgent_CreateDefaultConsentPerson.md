@@ -62,7 +62,7 @@ OK
 POST /api/v1/Agents/Person/CreateDefaultConsentPerson
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -72,18 +72,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ConsentPersonId": 711,
+  "ConsentPersonId": 81,
   "ConsentSource": null,
   "LegalBase": null,
-  "PersonId": 718,
+  "PersonId": 315,
   "ConsentPurpose": null,
-  "Comment": "officia",
+  "Comment": "rerum",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 395
+      "FieldType": "System.Int32",
+      "FieldLength": 252
     }
   }
 }

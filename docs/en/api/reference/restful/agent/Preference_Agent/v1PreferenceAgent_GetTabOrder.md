@@ -80,7 +80,7 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabName": "Ullrich Group"
+  "TabName": "Kshlerin-Crona"
 }
 ```
 
@@ -91,16 +91,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TabOrderId": 115,
-  "TabName": "Stehr LLC",
-  "Order": "consequatur",
-  "AssociateId": 823,
+  "TabOrderId": 966,
+  "TabName": "Trantow, Fay and Heidenreich",
+  "Order": "facere",
+  "AssociateId": 248,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 448
+      "FieldType": "System.Int32",
+      "FieldLength": 115
     }
   }
 }

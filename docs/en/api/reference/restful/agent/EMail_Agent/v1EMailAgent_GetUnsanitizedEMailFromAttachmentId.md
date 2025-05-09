@@ -109,12 +109,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "EmailId": 170,
+  "EmailId": 545,
   "AttachmentIds": [
-    "placeat",
-    "quia"
+    "fugit",
+    "alias"
   ],
-  "IncludeAttachments": true
+  "IncludeAttachments": false
 }
 ```
 
@@ -127,148 +127,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 521,
-      "ContactName": "Wyman-Gaylord",
+      "ContactId": 120,
+      "ContactName": "Lebsack-Kiehn",
       "PersonId": 776,
-      "PersonName": "Smith-Schultz",
-      "AssociateId": 30,
-      "Address": "beatae",
-      "EmailId": 156,
+      "PersonName": "McLaughlin-Robel",
+      "AssociateId": 606,
+      "Address": "impedit",
+      "EmailId": 784,
       "DuplicatePersonIds": [
-        840,
-        714
+        724,
+        694
       ],
-      "Name": "Christiansen-Moen",
+      "Name": "Kozey LLC",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 971
+          "FieldLength": 750
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 796,
-      "ContactName": "Rosenbaum, O'Connell and Kutch",
-      "PersonId": 426,
-      "PersonName": "Reilly, Quitzon and Cole",
-      "AssociateId": 97,
-      "Address": "quisquam",
-      "EmailId": 930,
+      "ContactId": 171,
+      "ContactName": "Emmerich-Sporer",
+      "PersonId": 71,
+      "PersonName": "Pacocha-Reichert",
+      "AssociateId": 504,
+      "Address": "in",
+      "EmailId": 477,
       "DuplicatePersonIds": [
-        342,
-        129
+        145,
+        879
       ],
-      "Name": "Shanahan-Hane",
+      "Name": "Brekke-Schultz",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 259
+          "FieldLength": 469
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 860,
-      "ContactName": "Pfeffer, Bechtelar and Kohler",
-      "PersonId": 577,
-      "PersonName": "Jerde, Becker and Hayes",
-      "AssociateId": 227,
-      "Address": "quisquam",
-      "EmailId": 470,
+      "ContactId": 745,
+      "ContactName": "Paucek, Stroman and Ortiz",
+      "PersonId": 856,
+      "PersonName": "Rempel LLC",
+      "AssociateId": 844,
+      "Address": "error",
+      "EmailId": 194,
       "DuplicatePersonIds": [
-        760,
-        107
+        500,
+        826
       ],
-      "Name": "O'Connell, Rogahn and Wolf",
+      "Name": "Hoeger, Collins and Heidenreich",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 844
+          "FieldType": "System.Int32",
+          "FieldLength": 881
         }
       }
     }
   ],
-  "Subject": "quia",
-  "HTMLBody": "dolorem",
+  "Subject": "magnam",
+  "HTMLBody": "sequi",
   "From": null,
-  "Sent": "2015-12-07T13:14:00.3918537+01:00",
-  "Size": 877,
+  "Sent": "2017-09-20T16:32:39.0551619+02:00",
+  "Size": 507,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "quisquam",
-  "PlainBody": "eos",
+  "MessageID": "sit",
+  "PlainBody": "molestiae",
   "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 23,
+  "ServerId": 239,
   "Attachments": [
     {
-      "Description": "Configurable solution-oriented model",
-      "Filename": "possimus",
-      "Size": 43,
-      "Type": "eum",
-      "Encoding": "ipsum",
-      "Id": "sint",
-      "Disposition": "voluptates",
-      "IsSafeFileExtension": false,
+      "Description": "Down-sized value-added matrix",
+      "Filename": "et",
+      "Size": 666,
+      "Type": "et",
+      "Encoding": "alias",
+      "Id": "sunt",
+      "Disposition": "ut",
+      "IsSafeFileExtension": true,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 415
+          "FieldLength": 64
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "O'Kon, Windler and Mohr",
+      "Name": "Dietrich Group",
       "Values": [
-        "ipsa",
-        "incidunt"
+        "odio",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 558
         }
       }
     },
     {
-      "Name": "O'Kon, Windler and Mohr",
+      "Name": "Dietrich Group",
       "Values": [
-        "ipsa",
-        "incidunt"
+        "odio",
+        "aut"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 996
+          "FieldLength": 558
         }
       }
     }
   ],
-  "FolderName": "Mertz LLC",
-  "EmailItemId": 885,
-  "AccountId": 761,
-  "ReceivedAt": "2000-04-25T13:14:00.3918537+02:00",
+  "FolderName": "Senger, Parisian and Rosenbaum",
+  "EmailItemId": 767,
+  "AccountId": 727,
+  "ReceivedAt": "2011-03-16T16:32:39.0551619+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2015-12-31T13:14:00.3918537+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2016-04-23T16:32:39.0551619+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 10
+      "FieldLength": 704
     }
   }
 }

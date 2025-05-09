@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteApproveReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 848,
-    "Name": "Grimes-VonRueden",
-    "Tooltip": "et",
+    "HeadingId": 256,
+    "Name": "Glover, Grady and Dickinson",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 863,
-    "UdListDefinitionId": 905
+    "Rank": 530,
+    "UdListDefinitionId": 375
   },
   {
-    "HeadingId": 848,
-    "Name": "Grimes-VonRueden",
-    "Tooltip": "et",
+    "HeadingId": 256,
+    "Name": "Glover, Grady and Dickinson",
+    "Tooltip": "rerum",
     "Deleted": false,
-    "Rank": 863,
-    "UdListDefinitionId": 905
+    "Rank": 530,
+    "UdListDefinitionId": 375
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 595,
-    "Name": "Oberbrunner, Konopelski and Hahn",
+    "HeadingId": 496,
+    "Name": "Auer-Raynor",
     "Tooltip": "quo",
     "Deleted": false,
-    "Rank": 905,
-    "UdListDefinitionId": 292,
+    "Rank": 226,
+    "UdListDefinitionId": 644,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 435
+        "FieldLength": 604
       }
     }
   }

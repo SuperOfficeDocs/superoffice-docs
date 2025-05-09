@@ -99,16 +99,16 @@ OK
 POST /api/v1/Agents/Appointment/GetAssociatesDiaryInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "AssociateIds": [
-    488,
-    482
+    138,
+    478
   ],
-  "StartTime": "2019-08-22T13:13:59.156344+02:00",
-  "EndTime": "2021-01-10T13:13:59.156344+01:00"
+  "StartTime": "2019-12-10T16:32:37.6646595+01:00",
+  "EndTime": "2021-12-30T16:32:37.6646595+01:00"
 }
 ```
 
@@ -120,37 +120,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 858,
-    "AssociateId": 927,
-    "MotherId": 877,
-    "StartDate": "2024-10-23T13:13:59.156344+02:00",
-    "EndDate": "2021-02-15T13:13:59.156344+01:00",
+    "AppointmentId": 523,
+    "AssociateId": 561,
+    "MotherId": 812,
+    "StartDate": "2008-04-05T16:32:37.6646595+02:00",
+    "EndDate": "2009-05-12T16:32:37.6646595+02:00",
     "ColorIndex": "BlueAlt1",
-    "TaskName": "Wisoky-Cole",
-    "ContactName": "Orn, Pfannerstill and Marvin",
-    "ProjectName": "Bruen-West",
-    "Title": "dolor",
-    "Agenda": "eaque",
-    "IsAllDay": true,
-    "IsBusy": false,
+    "TaskName": "Emmerich LLC",
+    "ContactName": "Leffler, Abernathy and Leffler",
+    "ProjectName": "Dietrich-Bosco",
+    "Title": "asperiores",
+    "Agenda": "ut",
+    "IsAllDay": false,
+    "IsBusy": true,
     "IsRecurring": false,
-    "IsVideoMeeting": true,
-    "HasAlarm": true,
-    "IsCompleted": true,
+    "IsVideoMeeting": false,
+    "HasAlarm": false,
+    "IsCompleted": false,
     "IsTentative": false,
-    "IsBookingMain": true,
-    "SendEmail": false,
-    "AnySendEmail": true,
-    "IsPrivate": true,
+    "IsBookingMain": false,
+    "SendEmail": true,
+    "AnySendEmail": false,
+    "IsPrivate": false,
     "RecurrenceInfo": null,
-    "PersonName": "Pfannerstill Inc and Sons",
+    "PersonName": "Romaguera, Homenick and Mueller",
     "IsBooking": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 853
+        "FieldType": "System.String",
+        "FieldLength": 24
       }
     }
   }

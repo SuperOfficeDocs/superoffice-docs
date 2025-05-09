@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Quote/SaveConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
@@ -102,34 +102,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 486,
-  "ERPName": "Graham, Wisoky and Okuneva",
-  "DisplayName": "Pagac, Kautzer and Pollich",
-  "DisplayDescription": "Monitored uniform secured line",
-  "Rank": 881,
-  "ConnectorName": "Mills, Beatty and Windler",
-  "ErpConnectionId": 837,
-  "ExtraData": "aut",
-  "IsAvailable": true,
+  "QuoteConnectionId": 247,
+  "ERPName": "Witting Group",
+  "DisplayName": "Welch-Jaskolski",
+  "DisplayDescription": "Re-engineered explicit database",
+  "Rank": 384,
+  "ConnectorName": "Moore-Swift",
+  "ErpConnectionId": 572,
+  "ExtraData": "enim",
+  "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 409,
-      "ERPPriceListKey": "amet",
-      "QuoteConnectionId": 306,
-      "Name": "Lehner Group",
-      "Description": "Innovative even-keeled productivity",
-      "Currency": "aut",
-      "CurrencyName": "Legros, Pagac and Shanahan",
-      "ValidFrom": "2021-09-29T13:14:01.0020135+02:00",
-      "ValidTo": "2004-05-15T13:14:01.0020135+02:00",
+      "PriceListId": 400,
+      "ERPPriceListKey": "culpa",
+      "QuoteConnectionId": 9,
+      "Name": "Stiedemann LLC",
+      "Description": "Inverse assymetric portal",
+      "Currency": "sequi",
+      "CurrencyName": "Paucek, Gusikowski and Kiehn",
+      "ValidFrom": "2013-04-21T16:32:39.7271263+02:00",
+      "ValidTo": "2004-04-24T16:32:39.7271263+02:00",
       "IsActive": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 339
+          "FieldLength": 504
         }
       }
     }
@@ -137,19 +137,19 @@ Content-Type: application/json; charset=utf-8
   "AllAccess": false,
   "Deleted": false,
   "UserGroupAccessIds": [
-    201,
-    694
+    466,
+    479
   ],
   "AssociateAccessIds": [
-    126,
-    28
+    491,
+    957
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 552
+      "FieldType": "System.Int32",
+      "FieldLength": 174
     }
   }
 }

@@ -105,14 +105,14 @@ OK
 POST /api/v1/Agents/EMail/GetUnsanitizedEMailFromDocumentAttachmentId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocId": 502,
+  "DocId": 414,
   "AttachmentIds": [
-    "et",
-    "velit"
+    "eligendi",
+    "fuga"
   ],
   "IncludeAttachments": false
 }
@@ -127,147 +127,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 845,
-      "ContactName": "Turner Group",
-      "PersonId": 536,
-      "PersonName": "Powlowski-Bahringer",
-      "AssociateId": 500,
-      "Address": "quia",
-      "EmailId": 464,
+      "ContactId": 89,
+      "ContactName": "Schmidt-Hirthe",
+      "PersonId": 815,
+      "PersonName": "Orn, Eichmann and Hagenes",
+      "AssociateId": 851,
+      "Address": "expedita",
+      "EmailId": 51,
       "DuplicatePersonIds": [
-        111,
-        871
+        143,
+        185
       ],
-      "Name": "Schmeler-Rempel",
+      "Name": "Prohaska Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 105
+          "FieldType": "System.String",
+          "FieldLength": 969
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 485,
-      "ContactName": "Ward-Hyatt",
-      "PersonId": 250,
-      "PersonName": "Baumbach Inc and Sons",
-      "AssociateId": 163,
+      "ContactId": 990,
+      "ContactName": "Raynor LLC",
+      "PersonId": 758,
+      "PersonName": "Bashirian, Bergstrom and Nader",
+      "AssociateId": 277,
       "Address": "enim",
-      "EmailId": 961,
+      "EmailId": 294,
       "DuplicatePersonIds": [
-        165,
-        840
+        324,
+        971
       ],
-      "Name": "Walsh Group",
+      "Name": "Witting-Friesen",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 312
+          "FieldType": "System.Int32",
+          "FieldLength": 123
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 681,
-      "ContactName": "Dach LLC",
-      "PersonId": 334,
-      "PersonName": "Tremblay, Lehner and Kulas",
-      "AssociateId": 505,
-      "Address": "mollitia",
-      "EmailId": 780,
+      "ContactId": 405,
+      "ContactName": "Bogan Inc and Sons",
+      "PersonId": 705,
+      "PersonName": "Kunze Inc and Sons",
+      "AssociateId": 137,
+      "Address": "et",
+      "EmailId": 820,
       "DuplicatePersonIds": [
-        287,
-        568
+        289,
+        713
       ],
-      "Name": "Lakin-Armstrong",
+      "Name": "Wuckert-Doyle",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 889
+          "FieldType": "System.Int32",
+          "FieldLength": 902
         }
       }
     }
   ],
-  "Subject": "iusto",
-  "HTMLBody": "qui",
+  "Subject": "officia",
+  "HTMLBody": "nobis",
   "From": null,
-  "Sent": "2022-12-04T13:14:00.3918537+01:00",
-  "Size": 491,
+  "Sent": "2015-05-21T16:32:39.0551619+02:00",
+  "Size": 378,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "neque",
-  "PlainBody": "neque",
-  "IsSent": true,
+  "MessageID": "asperiores",
+  "PlainBody": "earum",
+  "IsSent": false,
   "EMailSOInfo": null,
-  "ServerId": 659,
+  "ServerId": 811,
   "Attachments": [
     {
-      "Description": "Seamless 4th generation neural-net",
-      "Filename": "et",
-      "Size": 174,
-      "Type": "porro",
-      "Encoding": "blanditiis",
-      "Id": "sit",
-      "Disposition": "consequatur",
-      "IsSafeFileExtension": true,
+      "Description": "Managed system-worthy superstructure",
+      "Filename": "eligendi",
+      "Size": 58,
+      "Type": "et",
+      "Encoding": "architecto",
+      "Id": "eos",
+      "Disposition": "sit",
+      "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 800
+          "FieldLength": 404
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Breitenberg Inc and Sons",
+      "Name": "Nolan-Bergstrom",
       "Values": [
-        "nam",
-        "facere"
+        "et",
+        "amet"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldType": "System.String",
+          "FieldLength": 198
         }
       }
     },
     {
-      "Name": "Breitenberg Inc and Sons",
+      "Name": "Nolan-Bergstrom",
       "Values": [
-        "nam",
-        "facere"
+        "et",
+        "amet"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 147
+          "FieldType": "System.String",
+          "FieldLength": 198
         }
       }
     }
   ],
-  "FolderName": "Bernier Group",
-  "EmailItemId": 282,
-  "AccountId": 224,
-  "ReceivedAt": "2007-01-10T13:14:00.3918537+01:00",
+  "FolderName": "Bosco-Bode",
+  "EmailItemId": 221,
+  "AccountId": 139,
+  "ReceivedAt": "2002-10-25T16:32:39.0551619+02:00",
   "InReplyTo": null,
-  "RepliedAt": "2011-04-11T13:14:00.3918537+02:00",
+  "RepliedAt": "2023-04-24T16:32:39.0551619+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -276,7 +276,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 391
     }
   }
 }

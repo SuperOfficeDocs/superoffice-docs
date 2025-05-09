@@ -78,7 +78,7 @@ OK
 GET /api/v1/Role/{roleType}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,56 +89,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 854,
-    "Name": "Friesen LLC",
-    "ToolTip": "Sunt iste ratione nesciunt.",
+    "Id": 181,
+    "Name": "Ernser, Schumm and Terry",
+    "ToolTip": "Perferendis praesentium quasi provident nisi esse nesciunt.",
     "Deleted": false,
-    "Rank": 152,
-    "Type": "sit",
-    "ColorBlock": 885,
-    "IconHint": "culpa",
-    "Selected": true,
-    "LastChanged": "2005-11-09T13:14:09.0242592+01:00",
+    "Rank": 546,
+    "Type": "quia",
+    "ColorBlock": 67,
+    "IconHint": "et",
+    "Selected": false,
+    "LastChanged": "2019-02-28T16:32:47.7745258+01:00",
     "ChildItems": [
       {
-        "Id": 399,
-        "Name": "Schultz, Stanton and Nitzsche",
-        "ToolTip": "Voluptate porro.",
-        "Deleted": false,
-        "Rank": 94,
-        "Type": "mollitia",
-        "ColorBlock": 689,
-        "IconHint": "voluptate",
+        "Id": 672,
+        "Name": "Schulist Group",
+        "ToolTip": "Voluptates et quidem dolores voluptas.",
+        "Deleted": true,
+        "Rank": 176,
+        "Type": "quod",
+        "ColorBlock": 113,
+        "IconHint": "quisquam",
         "Selected": false,
-        "LastChanged": "2011-02-24T13:14:09.0242592+01:00",
+        "LastChanged": "2024-11-09T16:32:47.7745258+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "molestiae",
-        "StyleHint": "similique",
+        "ExtraInfo": "quod",
+        "StyleHint": "neque",
         "Hidden": false,
-        "FullName": "Brody Moen",
+        "FullName": "Eino Brakus",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 674
+            "FieldLength": 141
           }
         }
       }
     ],
-    "ExtraInfo": "qui",
-    "StyleHint": "animi",
-    "Hidden": false,
-    "FullName": "Mrs. Zane Wilma Goldner",
+    "ExtraInfo": "animi",
+    "StyleHint": "maxime",
+    "Hidden": true,
+    "FullName": "Mrs. Milan Von",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 124
+        "FieldType": "System.Int32",
+        "FieldLength": 374
       }
     }
   }

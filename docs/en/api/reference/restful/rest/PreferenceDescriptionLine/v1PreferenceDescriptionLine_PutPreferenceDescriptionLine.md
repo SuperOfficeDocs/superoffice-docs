@@ -89,15 +89,15 @@ PreferenceDescriptionLine updated.
 PUT /api/v1/PreferenceDescriptionLine/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 40,
-  "PrefDescId": 407,
-  "PrefValue": "soluta",
-  "PrefShowValue": "unde",
-  "Description": "Synergized interactive utilisation",
+  "PrefDescLineId": 592,
+  "PrefDescId": 118,
+  "PrefValue": "a",
+  "PrefShowValue": "fugit",
+  "Description": "Synchronised mobile forecast",
   "IsBuiltin": false
 }
 ```
@@ -109,23 +109,23 @@ HTTP/1.1 200 PreferenceDescriptionLine updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 860,
-  "PrefDescId": 327,
-  "PrefValue": "molestias",
-  "PrefShowValue": "voluptatem",
-  "Description": "Total zero administration parallelism",
-  "IsBuiltin": false,
+  "PrefDescLineId": 379,
+  "PrefDescId": 73,
+  "PrefValue": "aut",
+  "PrefShowValue": "odio",
+  "Description": "Triple-buffered optimal focus group",
+  "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 198
+      "FieldLength": 533
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

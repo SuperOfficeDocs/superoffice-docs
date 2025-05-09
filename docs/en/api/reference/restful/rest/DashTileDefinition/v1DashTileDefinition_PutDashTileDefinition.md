@@ -115,29 +115,29 @@ DashTileDefinition updated.
 PUT /api/v1/DashTileDefinition/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 438,
-  "Name": "Lubowitz, Satterfield and Wolff",
-  "Description": "Synchronised logistical encryption",
-  "DefaultHeight": 864,
-  "DefaultWidth": 694,
+  "DashboardTileDefinitionId": 229,
+  "Name": "Pfannerstill LLC",
+  "Description": "Fully-configurable stable emulation",
+  "DefaultHeight": 534,
+  "DefaultWidth": 494,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Mann-Waters",
-  "SelectionId": 311,
+  "EntityName": "Mann-Hegmann",
+  "SelectionId": 139,
   "CurrencyMode": "Base",
-  "CurrencyCode": "et",
+  "CurrencyCode": "autem",
   "Measure": "Average",
-  "MeasureField": "omnis",
-  "SortBy": "sit",
-  "LayoutConfig": "nemo",
-  "SecondarySelectionId": 547,
-  "MeasureByField": "voluptatum",
+  "MeasureField": "quaerat",
+  "SortBy": "quae",
+  "LayoutConfig": "sit",
+  "SecondarySelectionId": 357,
+  "MeasureByField": "perspiciatis",
   "Usage": "Dashboard",
-  "ProviderName": "Hessel Inc and Sons"
+  "ProviderName": "Walsh, Braun and Labadie"
 }
 ```
 
@@ -148,36 +148,36 @@ HTTP/1.1 200 DashTileDefinition updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 307,
-  "Name": "Haag, Hammes and Gulgowski",
-  "Description": "Re-engineered uniform implementation",
-  "DefaultHeight": 146,
-  "DefaultWidth": 30,
+  "DashboardTileDefinitionId": 375,
+  "Name": "Price-Kuphal",
+  "Description": "Open-source local capability",
+  "DefaultHeight": 82,
+  "DefaultWidth": 78,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Hagenes LLC",
-  "SelectionId": 440,
+  "EntityName": "McCullough LLC",
+  "SelectionId": 253,
   "CurrencyMode": "Base",
-  "CurrencyCode": "ut",
+  "CurrencyCode": "architecto",
   "Measure": "Average",
-  "MeasureField": "quidem",
-  "SortBy": "beatae",
-  "LayoutConfig": "neque",
-  "SecondarySelectionId": 287,
-  "MeasureByField": "beatae",
+  "MeasureField": "dolores",
+  "SortBy": "et",
+  "LayoutConfig": "est",
+  "SecondarySelectionId": 239,
+  "MeasureByField": "sapiente",
   "Usage": "Dashboard",
-  "ProviderName": "Schimmel-Considine",
+  "ProviderName": "Goldner, Kunde and Jewess",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 419
+      "FieldType": "System.Int32",
+      "FieldLength": 47
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Position/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 625,
-    "Name": "Lynch-Eichmann",
-    "ToolTip": "Rerum minima autem non sequi qui.",
-    "Deleted": false,
-    "Rank": 245,
-    "Type": "rerum",
-    "ColorBlock": 369,
-    "IconHint": "porro",
+    "Id": 587,
+    "Name": "Jenkins-Gerlach",
+    "ToolTip": "Ex eum et nihil qui voluptatem velit quam.",
+    "Deleted": true,
+    "Rank": 1000,
+    "Type": "eum",
+    "ColorBlock": 863,
+    "IconHint": "rerum",
     "Selected": true,
-    "LastChanged": "2016-07-29T13:14:09.8535282+02:00",
+    "LastChanged": "2021-11-01T16:32:48.7588803+01:00",
     "ChildItems": [
       {
-        "Id": 524,
-        "Name": "Russel LLC",
-        "ToolTip": "Blanditiis necessitatibus.",
+        "Id": 625,
+        "Name": "Kulas, Larson and Kihn",
+        "ToolTip": "Et neque.",
         "Deleted": false,
-        "Rank": 902,
-        "Type": "aperiam",
-        "ColorBlock": 295,
-        "IconHint": "repudiandae",
-        "Selected": false,
-        "LastChanged": "2020-07-21T13:14:09.8535282+02:00",
+        "Rank": 469,
+        "Type": "culpa",
+        "ColorBlock": 414,
+        "IconHint": "explicabo",
+        "Selected": true,
+        "LastChanged": "2007-02-11T16:32:48.7588803+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "doloribus",
-        "StyleHint": "qui",
-        "Hidden": false,
-        "FullName": "Mrs. Gabriel Turcotte"
+        "ExtraInfo": "nobis",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Emory Blanca Fahey PhD"
       }
     ],
-    "ExtraInfo": "est",
-    "StyleHint": "officiis",
+    "ExtraInfo": "occaecati",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Mr. Adriana Korbin Crist"
+    "FullName": "Autumn Rice"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 145,
-    "Name": "Schuster-Koss",
-    "ToolTip": "Ipsam recusandae fuga facere qui sapiente.",
-    "Deleted": true,
-    "Rank": 247,
-    "Type": "qui",
-    "ColorBlock": 541,
-    "IconHint": "corrupti",
-    "Selected": false,
-    "LastChanged": "2024-09-14T13:14:09.8691543+02:00",
+    "Id": 742,
+    "Name": "Wilkinson Group",
+    "ToolTip": "Id reiciendis et.",
+    "Deleted": false,
+    "Rank": 368,
+    "Type": "corporis",
+    "ColorBlock": 338,
+    "IconHint": "inventore",
+    "Selected": true,
+    "LastChanged": "2024-07-09T16:32:48.7588803+02:00",
     "ChildItems": [
       {
-        "Id": 310,
-        "Name": "Witting-Klein",
-        "ToolTip": "Mollitia facilis at illo libero voluptatem aliquam.",
+        "Id": 277,
+        "Name": "Gleichner Group",
+        "ToolTip": "Neque cum sit voluptas aut unde earum.",
         "Deleted": true,
-        "Rank": 547,
-        "Type": "sit",
-        "ColorBlock": 975,
-        "IconHint": "repellendus",
+        "Rank": 411,
+        "Type": "inventore",
+        "ColorBlock": 899,
+        "IconHint": "laboriosam",
         "Selected": false,
-        "LastChanged": "2002-05-17T13:14:09.8691543+02:00",
+        "LastChanged": "1998-05-17T16:32:48.7588803+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "magni",
+        "ExtraInfo": "nulla",
+        "StyleHint": "impedit",
         "Hidden": true,
-        "FullName": "Lucious West",
+        "FullName": "Alvis King",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 752
+            "FieldType": "System.Int32",
+            "FieldLength": 114
           }
         }
       }
     ],
-    "ExtraInfo": "rerum",
-    "StyleHint": "omnis",
-    "Hidden": false,
-    "FullName": "Taurean Kemmer",
+    "ExtraInfo": "expedita",
+    "StyleHint": "voluptates",
+    "Hidden": true,
+    "FullName": "Ms. Morgan Damon Bechtelar",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 754
+        "FieldLength": 745
       }
     }
   }

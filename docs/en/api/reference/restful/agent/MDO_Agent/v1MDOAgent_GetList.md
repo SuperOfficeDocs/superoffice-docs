@@ -87,14 +87,14 @@ OK
 POST /api/v1/Agents/MDO/GetList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Weber-Leuschke",
-  "ForceFlatList": true,
-  "AdditionalInfo": "enim",
-  "OnlyHistory": false
+  "Name": "Ratke, Hills and Metz",
+  "ForceFlatList": false,
+  "AdditionalInfo": "soluta",
+  "OnlyHistory": true
 }
 ```
 
@@ -106,50 +106,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 859,
-    "Name": "Wunsch LLC",
-    "ToolTip": "Aliquid maiores earum reprehenderit aut non ducimus deserunt.",
-    "Deleted": true,
-    "Rank": 349,
-    "Type": "iusto",
+    "Id": 855,
+    "Name": "Harris, Mosciski and Kub",
+    "ToolTip": "Possimus provident.",
+    "Deleted": false,
+    "Rank": 830,
+    "Type": "autem",
     "ChildItems": [
       {
-        "Id": 566,
-        "Name": "Rosenbaum Group",
-        "ToolTip": "Dolores porro sed.",
+        "Id": 947,
+        "Name": "Willms, Hagenes and Frami",
+        "ToolTip": "In esse consequatur modi nobis voluptatem voluptas omnis.",
         "Deleted": false,
-        "Rank": 515,
-        "Type": "quam",
+        "Rank": 236,
+        "Type": "aut",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "eveniet",
-        "ColorBlock": 332,
-        "ExtraInfo": "beatae",
-        "StyleHint": "explicabo",
-        "FullName": "Dr. Nico Williamson DVM",
+        "IconHint": "ad",
+        "ColorBlock": 650,
+        "ExtraInfo": "consequatur",
+        "StyleHint": "qui",
+        "FullName": "Katherine Langworth",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 975
+            "FieldType": "System.Int32",
+            "FieldLength": 28
           }
         }
       }
     ],
-    "IconHint": "temporibus",
-    "ColorBlock": 361,
-    "ExtraInfo": "voluptatem",
-    "StyleHint": "modi",
-    "FullName": "Miss Jeramie Savanna Mraz DDS",
+    "IconHint": "dignissimos",
+    "ColorBlock": 171,
+    "ExtraInfo": "tenetur",
+    "StyleHint": "deserunt",
+    "FullName": "Mr. Jamar Beer DVM",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 242
+        "FieldLength": 321
       }
     }
   }

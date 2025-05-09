@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ProductType/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 442,
-    "Name": "Zemlak, Conn and Parisian",
-    "Tooltip": "optio",
+    "HeadingId": 460,
+    "Name": "Kilback-Gibson",
+    "Tooltip": "in",
     "Deleted": false,
-    "Rank": 11,
-    "UdListDefinitionId": 147,
+    "Rank": 186,
+    "UdListDefinitionId": 609,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 759
+        "FieldType": "System.String",
+        "FieldLength": 975
       }
     }
   }

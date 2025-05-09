@@ -79,27 +79,27 @@ OK
 POST /api/v1/Agents/List/SaveAllFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 113,
+  "UdListDefinitionId": 738,
   "Items": [
     {
-      "Id": 704,
-      "Name": "Vandervort LLC",
-      "Tooltip": "id",
-      "Deleted": false,
-      "UdListDefinitionId": 185,
-      "Rank": 969
+      "Id": 732,
+      "Name": "West-Fisher",
+      "Tooltip": "amet",
+      "Deleted": true,
+      "UdListDefinitionId": 323,
+      "Rank": 54
     },
     {
-      "Id": 704,
-      "Name": "Vandervort LLC",
-      "Tooltip": "id",
-      "Deleted": false,
-      "UdListDefinitionId": 185,
-      "Rank": 969
+      "Id": 732,
+      "Name": "West-Fisher",
+      "Tooltip": "amet",
+      "Deleted": true,
+      "UdListDefinitionId": 323,
+      "Rank": 54
     }
   ]
 }
@@ -113,18 +113,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 925,
-    "Name": "Murphy LLC",
-    "Tooltip": "eveniet",
-    "Deleted": false,
-    "UdListDefinitionId": 23,
-    "Rank": 509,
+    "Id": 322,
+    "Name": "Romaguera-Johns",
+    "Tooltip": "est",
+    "Deleted": true,
+    "UdListDefinitionId": 537,
+    "Rank": 782,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 215
+        "FieldType": "System.Int32",
+        "FieldLength": 950
       }
     }
   }

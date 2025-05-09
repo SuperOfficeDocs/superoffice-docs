@@ -90,11 +90,11 @@ OK
 POST /api/v1/Agents/List/GetAllCountries
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "IncludeDeleted": false
+  "IncludeDeleted": true
 }
 ```
 
@@ -106,30 +106,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "CountryId": 1001,
-    "Name": "Hamill Group",
-    "CurrencyId": 643,
-    "EnglishName": "Dach, Herzog and Steuber",
+    "CountryId": 219,
+    "Name": "Nolan-Wolff",
+    "CurrencyId": 954,
+    "EnglishName": "Kovacek-Feest",
     "TwoLetterISOCountry": "Sokovia",
     "ThreeLetterISOCountry": "Sokovia",
-    "ImageDescription": "User-centric discrete portal",
-    "OrgNrText": "1350635",
-    "InterAreaPrefix": "quia",
-    "DialInPrefix": "doloribus",
-    "ZipPrefix": "ut",
-    "DomainName": "Kovacek, Walker and Harris",
-    "AddressLayoutId": 382,
-    "DomesticAddressLayoutId": 707,
-    "ForeignAddressLayoutId": 842,
-    "Rank": 779,
-    "Tooltip": "nostrum",
-    "Deleted": true,
+    "ImageDescription": "Adaptive 4th generation algorithm",
+    "OrgNrText": "866337",
+    "InterAreaPrefix": "aperiam",
+    "DialInPrefix": "sunt",
+    "ZipPrefix": "ipsum",
+    "DomainName": "Rempel-Bogisich",
+    "AddressLayoutId": 557,
+    "DomesticAddressLayoutId": 875,
+    "ForeignAddressLayoutId": 236,
+    "Rank": 457,
+    "Tooltip": "voluptates",
+    "Deleted": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 857
+        "FieldLength": 258
       }
     }
   }

@@ -88,16 +88,16 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 725,
-  "Name": "Marks Inc and Sons",
-  "Tooltip": "tempora",
+  "Id": 372,
+  "Name": "Schowalter-King",
+  "Tooltip": "omnis",
   "Deleted": true,
-  "Rank": 531,
+  "Rank": 771,
   "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": false,
-  "ListType": "explicabo",
-  "InUseByUserDefinedFields": true
+  "UseGroupsAndHeadings": true,
+  "ListType": "odit",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 10,
-  "Name": "Gaylord, Pacocha and Casper",
-  "Tooltip": "velit",
-  "Deleted": false,
-  "Rank": 926,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 7,
+  "Name": "Jewess, Miller and Fay",
+  "Tooltip": "et",
+  "Deleted": true,
+  "Rank": 707,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quod",
+  "ListType": "et",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 40
+      "FieldLength": 447
     }
   }
 }

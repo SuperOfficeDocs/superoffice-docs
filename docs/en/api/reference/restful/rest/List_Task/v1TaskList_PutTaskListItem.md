@@ -98,14 +98,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 123,
-  "Value": "illo",
+  "TaskListItemId": 82,
+  "Value": "temporibus",
   "Direction": "Incoming",
   "Type": "Appointment",
-  "Tooltip": "inventore",
-  "Deleted": true,
-  "IntentId": 735,
-  "Rank": 134,
+  "Tooltip": "voluptatibus",
+  "Deleted": false,
+  "IntentId": 257,
+  "Rank": 584,
   "IsDefaultAlldayEvent": false,
   "IsDefaultFree": false,
   "IsDefaultPublished": true,
@@ -121,16 +121,16 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskListItemId": 834,
-  "Value": "modi",
+  "TaskListItemId": 324,
+  "Value": "facere",
   "Direction": "Incoming",
   "Type": "Appointment",
   "Tooltip": "nihil",
   "Deleted": false,
-  "IntentId": 536,
-  "Rank": 866,
+  "IntentId": 290,
+  "Rank": 117,
   "IsDefaultAlldayEvent": false,
-  "IsDefaultFree": false,
+  "IsDefaultFree": true,
   "IsDefaultPublished": false,
   "ColorIndex": "BlueAlt1",
   "DefaultVideomeetingStatus": "NoChange",
@@ -138,8 +138,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 969
+      "FieldType": "System.Int32",
+      "FieldLength": 505
     }
   }
 }

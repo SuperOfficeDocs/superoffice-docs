@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/Batch/GetAllBatchTaskInfosByName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Bayer, Daniel and Mante"
+  "TaskName": "Heaney, Gerlach and Considine"
 }
 ```
 
@@ -110,37 +110,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 370,
-    "Name": "Durgan, Block and Schmeler",
-    "AssociateId": 418,
-    "DetailsTable": 322,
-    "DetailsRecord": 893,
+    "Id": 91,
+    "Name": "Friesen LLC",
+    "AssociateId": 765,
+    "DetailsTable": 582,
+    "DetailsRecord": 108,
     "IsSystemTask": false,
-    "IsInternalTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "omnis",
-      "ParameterObject2": "voluptatibus"
+      "ParameterObject1": "eos",
+      "ParameterObject2": "temporibus"
     },
-    "LastStarted": "2010-09-17T13:13:59.5314453+02:00",
-    "Created": "2014-06-02T13:13:59.5314453+02:00",
-    "StartCount": 275,
-    "DatabaseSerialNumber": "698520",
-    "Context": "nulla",
-    "Result": "incidunt",
+    "LastStarted": "2003-07-20T16:32:38.1959817+02:00",
+    "Created": "2001-09-04T16:32:38.1959817+02:00",
+    "StartCount": 169,
+    "DatabaseSerialNumber": "1373264",
+    "Context": "rerum",
+    "Result": "aut",
     "State": "All",
-    "Description": "Digitized needs-based strategy",
-    "Response": "exercitationem",
-    "Request": "beatae",
-    "ProgressDescription": "Secured grid-enabled strategy",
-    "ProgressPercent": 992,
-    "FileName": "Reynolds, Littel and Watsica",
+    "Description": "Adaptive static infrastructure",
+    "Response": "in",
+    "Request": "nemo",
+    "ProgressDescription": "Right-sized methodical concept",
+    "ProgressPercent": 934,
+    "FileName": "Wolff Group",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 412
+        "FieldType": "System.String",
+        "FieldLength": 248
       }
     }
   }

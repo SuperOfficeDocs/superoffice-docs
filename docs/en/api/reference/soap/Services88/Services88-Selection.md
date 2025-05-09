@@ -448,18 +448,6 @@ title: Services88.SelectionAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
-      <xs:element name="DeleteSelectionEntity">
-        <xs:complexType>
-          <xs:sequence>
-            <xs:element minOccurs="0" name="SelectionEntityId" type="xs:int" />
-          </xs:sequence>
-        </xs:complexType>
-      </xs:element>
-      <xs:element name="DeleteSelectionEntityResponse">
-        <xs:complexType>
-          <xs:sequence />
-        </xs:complexType>
-      </xs:element>
       <xs:element name="GetSelectionEntity">
         <xs:complexType>
           <xs:sequence>
@@ -2201,6 +2189,18 @@ title: Services88.SelectionAgent WSDL
           </xs:sequence>
         </xs:complexType>
       </xs:element>
+      <xs:element name="DeleteSelectionEntity">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" name="SelectionEntityId" type="xs:int" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="DeleteSelectionEntityResponse">
+        <xs:complexType>
+          <xs:sequence />
+        </xs:complexType>
+      </xs:element>
       <xs:element name="GetSelectionForFind">
         <xs:complexType>
           <xs:sequence>
@@ -2432,23 +2432,6 @@ title: Services88.SelectionAgent WSDL
     <wsdl:part name="parameters" element="tns:SaveSelectionEntityResponse" />
   </wsdl:message>
   <wsdl:message name="SaveSelectionEntityResponse_Headers">
-    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
-    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
-    <wsdl:part name="Succeeded" element="tns:Succeeded" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteSelectionEntityRequest">
-    <wsdl:part name="parameters" element="tns:DeleteSelectionEntity" />
-  </wsdl:message>
-  <wsdl:message name="DeleteSelectionEntityRequest_Headers">
-    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
-    <wsdl:part name="Credentials" element="tns:Credentials" />
-    <wsdl:part name="TimeZone" element="tns:TimeZone" />
-  </wsdl:message>
-  <wsdl:message name="DeleteSelectionEntityResponse">
-    <wsdl:part name="parameters" element="tns:DeleteSelectionEntityResponse" />
-  </wsdl:message>
-  <wsdl:message name="DeleteSelectionEntityResponse_Headers">
     <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
     <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
@@ -3253,6 +3236,23 @@ title: Services88.SelectionAgent WSDL
     <wsdl:part name="Succeeded" element="tns:Succeeded" />
     <wsdl:part name="TimeZone" element="tns:TimeZone" />
   </wsdl:message>
+  <wsdl:message name="DeleteSelectionEntityRequest">
+    <wsdl:part name="parameters" element="tns:DeleteSelectionEntity" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSelectionEntityRequest_Headers">
+    <wsdl:part name="ApplicationToken" element="tns:ApplicationToken" />
+    <wsdl:part name="Credentials" element="tns:Credentials" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSelectionEntityResponse">
+    <wsdl:part name="parameters" element="tns:DeleteSelectionEntityResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteSelectionEntityResponse_Headers">
+    <wsdl:part name="ExceptionInfo" element="tns:ExceptionInfo" />
+    <wsdl:part name="ExtraInfo" element="tns:ExtraInfo" />
+    <wsdl:part name="Succeeded" element="tns:Succeeded" />
+    <wsdl:part name="TimeZone" element="tns:TimeZone" />
+  </wsdl:message>
   <wsdl:message name="GetSelectionForFindRequest">
     <wsdl:part name="parameters" element="tns:GetSelectionForFind" />
   </wsdl:message>
@@ -3320,10 +3320,6 @@ title: Services88.SelectionAgent WSDL
     <wsdl:operation name="SaveSelectionEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/SaveSelectionEntity" name="SaveSelectionEntityRequest" message="tns:SaveSelectionEntityRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/SaveSelectionEntityResponse" name="SaveSelectionEntityResponse" message="tns:SaveSelectionEntityResponse" />
-    </wsdl:operation>
-    <wsdl:operation name="DeleteSelectionEntity">
-      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/DeleteSelectionEntity" name="DeleteSelectionEntityRequest" message="tns:DeleteSelectionEntityRequest" />
-      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/DeleteSelectionEntityResponse" name="DeleteSelectionEntityResponse" message="tns:DeleteSelectionEntityResponse" />
     </wsdl:operation>
     <wsdl:operation name="GetSelectionEntity">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/GetSelectionEntity" name="GetSelectionEntityRequest" message="tns:GetSelectionEntityRequest" />
@@ -3513,6 +3509,10 @@ title: Services88.SelectionAgent WSDL
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/SetDynamicSelectionCriteriaGroups" name="SetDynamicSelectionCriteriaGroupsRequest" message="tns:SetDynamicSelectionCriteriaGroupsRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/SetDynamicSelectionCriteriaGroupsResponse" name="SetDynamicSelectionCriteriaGroupsResponse" message="tns:SetDynamicSelectionCriteriaGroupsResponse" />
     </wsdl:operation>
+    <wsdl:operation name="DeleteSelectionEntity">
+      <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/DeleteSelectionEntity" name="DeleteSelectionEntityRequest" message="tns:DeleteSelectionEntityRequest" />
+      <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/DeleteSelectionEntityResponse" name="DeleteSelectionEntityResponse" message="tns:DeleteSelectionEntityResponse" />
+    </wsdl:operation>
     <wsdl:operation name="GetSelectionForFind">
       <wsdl:input wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/GetSelectionForFind" name="GetSelectionForFindRequest" message="tns:GetSelectionForFindRequest" />
       <wsdl:output wsaw:Action="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/GetSelectionForFindResponse" name="GetSelectionForFindResponse" message="tns:GetSelectionForFindResponse" />
@@ -3589,22 +3589,6 @@ title: Services88.SelectionAgent WSDL
         <soap:header message="tns:SaveSelectionEntityResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SaveSelectionEntityResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SaveSelectionEntityResponse_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:output>
-    </wsdl:operation>
-    <wsdl:operation name="DeleteSelectionEntity">
-      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/DeleteSelectionEntity" style="document" />
-      <wsdl:input name="DeleteSelectionEntityRequest">
-        <soap:header message="tns:DeleteSelectionEntityRequest_Headers" part="ApplicationToken" use="literal" />
-        <soap:header message="tns:DeleteSelectionEntityRequest_Headers" part="Credentials" use="literal" />
-        <soap:header message="tns:DeleteSelectionEntityRequest_Headers" part="TimeZone" use="literal" />
-        <soap:body use="literal" />
-      </wsdl:input>
-      <wsdl:output name="DeleteSelectionEntityResponse">
-        <soap:header message="tns:DeleteSelectionEntityResponse_Headers" part="ExceptionInfo" use="literal" />
-        <soap:header message="tns:DeleteSelectionEntityResponse_Headers" part="ExtraInfo" use="literal" />
-        <soap:header message="tns:DeleteSelectionEntityResponse_Headers" part="Succeeded" use="literal" />
-        <soap:header message="tns:DeleteSelectionEntityResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
@@ -4357,6 +4341,22 @@ title: Services88.SelectionAgent WSDL
         <soap:header message="tns:SetDynamicSelectionCriteriaGroupsResponse_Headers" part="ExtraInfo" use="literal" />
         <soap:header message="tns:SetDynamicSelectionCriteriaGroupsResponse_Headers" part="Succeeded" use="literal" />
         <soap:header message="tns:SetDynamicSelectionCriteriaGroupsResponse_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteSelectionEntity">
+      <soap:operation soapAction="http://www.superoffice.net/ws/crm/NetServer/Services88/Selection/DeleteSelectionEntity" style="document" />
+      <wsdl:input name="DeleteSelectionEntityRequest">
+        <soap:header message="tns:DeleteSelectionEntityRequest_Headers" part="ApplicationToken" use="literal" />
+        <soap:header message="tns:DeleteSelectionEntityRequest_Headers" part="Credentials" use="literal" />
+        <soap:header message="tns:DeleteSelectionEntityRequest_Headers" part="TimeZone" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output name="DeleteSelectionEntityResponse">
+        <soap:header message="tns:DeleteSelectionEntityResponse_Headers" part="ExceptionInfo" use="literal" />
+        <soap:header message="tns:DeleteSelectionEntityResponse_Headers" part="ExtraInfo" use="literal" />
+        <soap:header message="tns:DeleteSelectionEntityResponse_Headers" part="Succeeded" use="literal" />
+        <soap:header message="tns:DeleteSelectionEntityResponse_Headers" part="TimeZone" use="literal" />
         <soap:body use="literal" />
       </wsdl:output>
     </wsdl:operation>

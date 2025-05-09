@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/LegalBase/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 849,
-    "Name": "Gerlach-Grimes",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "Rank": 28,
-    "UdListDefinitionId": 387
+    "HeadingId": 146,
+    "Name": "Okuneva-Shields",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "Rank": 414,
+    "UdListDefinitionId": 939
   },
   {
-    "HeadingId": 849,
-    "Name": "Gerlach-Grimes",
-    "Tooltip": "fugiat",
-    "Deleted": false,
-    "Rank": 28,
-    "UdListDefinitionId": 387
+    "HeadingId": 146,
+    "Name": "Okuneva-Shields",
+    "Tooltip": "nihil",
+    "Deleted": true,
+    "Rank": 414,
+    "UdListDefinitionId": 939
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 519,
-    "Name": "Skiles LLC",
-    "Tooltip": "nobis",
-    "Deleted": true,
-    "Rank": 737,
-    "UdListDefinitionId": 375,
+    "HeadingId": 799,
+    "Name": "Strosin, McGlynn and Lind",
+    "Tooltip": "eligendi",
+    "Deleted": false,
+    "Rank": 687,
+    "UdListDefinitionId": 101,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldLength": 270
       }
     }
   }

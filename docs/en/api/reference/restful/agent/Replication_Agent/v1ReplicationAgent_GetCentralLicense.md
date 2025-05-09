@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Replication/GetCentralLicense
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -81,30 +81,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Kohler-Balistreri",
-    "Description": "Organized national support",
+    "Name": "DuBuque-Ruecker",
+    "Description": "Open-source interactive collaboration",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 792,
-        "Tooltip": "expedita",
+        "Total": 615,
+        "Tooltip": "ab",
         "CanAssign": false,
-        "Free": 994,
-        "InUse": 954,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 195,
-        "Name": "Little, Grant and Conn",
-        "Description": "Stand-alone exuding frame",
-        "PrerequisiteModuleName": "Rau LLC",
-        "SortOrder": 800,
-        "ExtraFlags": 812,
+        "Free": 854,
+        "InUse": 574,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 31,
+        "Name": "Kulas Inc and Sons",
+        "Description": "Phased hybrid initiative",
+        "PrerequisiteModuleName": "Lesch-Kreiger",
+        "SortOrder": 973,
+        "ExtraFlags": 672,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 848
+            "FieldType": "System.String",
+            "FieldLength": 700
           }
         }
       }
@@ -112,25 +112,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 460,
-        "Tooltip": "distinctio",
-        "CanAssign": true,
-        "Free": 747,
-        "InUse": 418,
+        "Total": 847,
+        "Tooltip": "dolores",
+        "CanAssign": false,
+        "Free": 249,
+        "InUse": 514,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 868,
-        "Name": "Tromp Inc and Sons",
-        "Description": "Vision-oriented full-range data-warehouse",
-        "PrerequisiteModuleName": "Steuber, Erdman and Stamm",
-        "SortOrder": 821,
-        "ExtraFlags": 589,
+        "ModuleLicenseId": 770,
+        "Name": "Parker Group",
+        "Description": "Fully-configurable systemic encryption",
+        "PrerequisiteModuleName": "Wyman-Ritchie",
+        "SortOrder": 571,
+        "ExtraFlags": 758,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 282
+            "FieldType": "System.String",
+            "FieldLength": 143
           }
         }
       }
@@ -139,36 +139,36 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 284
+        "FieldType": "System.Int32",
+        "FieldLength": 26
       }
     }
   },
   {
-    "Name": "Kohler-Balistreri",
-    "Description": "Organized national support",
+    "Name": "DuBuque-Ruecker",
+    "Description": "Open-source interactive collaboration",
     "RestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 792,
-        "Tooltip": "expedita",
+        "Total": 615,
+        "Tooltip": "ab",
         "CanAssign": false,
-        "Free": 994,
-        "InUse": 954,
-        "IsHidden": false,
-        "Assigned": true,
-        "ModuleLicenseId": 195,
-        "Name": "Little, Grant and Conn",
-        "Description": "Stand-alone exuding frame",
-        "PrerequisiteModuleName": "Rau LLC",
-        "SortOrder": 800,
-        "ExtraFlags": 812,
+        "Free": 854,
+        "InUse": 574,
+        "IsHidden": true,
+        "Assigned": false,
+        "ModuleLicenseId": 31,
+        "Name": "Kulas Inc and Sons",
+        "Description": "Phased hybrid initiative",
+        "PrerequisiteModuleName": "Lesch-Kreiger",
+        "SortOrder": 973,
+        "ExtraFlags": 672,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 848
+            "FieldType": "System.String",
+            "FieldLength": 700
           }
         }
       }
@@ -176,25 +176,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 460,
-        "Tooltip": "distinctio",
-        "CanAssign": true,
-        "Free": 747,
-        "InUse": 418,
+        "Total": 847,
+        "Tooltip": "dolores",
+        "CanAssign": false,
+        "Free": 249,
+        "InUse": 514,
         "IsHidden": false,
         "Assigned": false,
-        "ModuleLicenseId": 868,
-        "Name": "Tromp Inc and Sons",
-        "Description": "Vision-oriented full-range data-warehouse",
-        "PrerequisiteModuleName": "Steuber, Erdman and Stamm",
-        "SortOrder": 821,
-        "ExtraFlags": 589,
+        "ModuleLicenseId": 770,
+        "Name": "Parker Group",
+        "Description": "Fully-configurable systemic encryption",
+        "PrerequisiteModuleName": "Wyman-Ritchie",
+        "SortOrder": 571,
+        "ExtraFlags": 758,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 282
+            "FieldType": "System.String",
+            "FieldLength": 143
           }
         }
       }
@@ -203,8 +203,8 @@ Content-Type: application/json; charset=utf-8
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 284
+        "FieldType": "System.Int32",
+        "FieldLength": 26
       }
     }
   }

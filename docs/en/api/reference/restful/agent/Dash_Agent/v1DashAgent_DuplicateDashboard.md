@@ -86,12 +86,12 @@ OK
 POST /api/v1/Agents/Dash/DuplicateDashboard
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 484,
-  "Name": "Stiedemann Inc and Sons"
+  "DashboardId": 430,
+  "Name": "Paucek, Strosin and Larkin"
 }
 ```
 
@@ -102,37 +102,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 373,
-  "UniqueId": "possimus",
-  "Name": "Weimann, Kshlerin and Nicolas",
-  "Description": "Integrated systematic matrices",
-  "AssociateId": 887,
-  "Columns": 641,
+  "DashboardId": 761,
+  "UniqueId": "voluptas",
+  "Name": "Romaguera, Eichmann and Ratke",
+  "Description": "Versatile bi-directional matrix",
+  "AssociateId": 536,
+  "Columns": 858,
   "Theme": null,
-  "VisibleForAll": 508,
+  "VisibleForAll": 767,
   "VisibleForAssociates": [
-    929,
-    432
+    203,
+    959
   ],
   "VisibleForGroups": [
-    948,
-    664
+    622,
+    877
   ],
-  "PinForAll": 427,
+  "PinForAll": 847,
   "PinForAssociates": [
-    908,
-    278
+    322,
+    925
   ],
   "PinForGroups": [
-    6,
-    35
+    402,
+    401
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 735
+      "FieldType": "System.Int32",
+      "FieldLength": 549
     }
   }
 }

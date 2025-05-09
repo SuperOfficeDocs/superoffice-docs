@@ -68,7 +68,7 @@ OK
 GET /api/v1/User/CustomField
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -80,19 +80,19 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "FieldType": "Attachment",
-    "FieldName": "Lang LLC",
-    "DisplayName": "Kuhlman, Wunsch and O'Conner",
-    "Description": "Optional intermediate capability",
-    "ShortLabel": "provident",
-    "HideLabel": true,
+    "FieldName": "Feeney, Wilderman and Kiehn",
+    "DisplayName": "Medhurst-Christiansen",
+    "Description": "Phased system-worthy standardization",
+    "ShortLabel": "quasi",
+    "HideLabel": false,
     "HideField": true,
-    "IsIndexed": false,
-    "IsMandatory": true,
+    "IsIndexed": true,
+    "IsMandatory": false,
     "IsReadOnly": false,
-    "IsExternal": true,
+    "IsExternal": false,
     "IsDisplayField": false,
-    "Rank": 150,
-    "TemplateVariableName": "Bergnaum Group"
+    "Rank": 533,
+    "TemplateVariableName": "Harris, Wehner and Hoppe"
   }
 ]
 ```

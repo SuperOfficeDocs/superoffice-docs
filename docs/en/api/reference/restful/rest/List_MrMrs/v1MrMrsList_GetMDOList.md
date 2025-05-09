@@ -27,7 +27,7 @@ Get the MDO list items for "MrMrs" - with headings and filtering by user group.
 
 ```http
 GET /api/v1/List/MrMrs/MDOItems?flat=False
-GET /api/v1/List/MrMrs/MDOItems?query=exercitationem
+GET /api/v1/List/MrMrs/MDOItems?query=quibusdam
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/MrMrs/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 17,
-    "Name": "Cartwright, Rosenbaum and Mosciski",
-    "ToolTip": "Et qui pariatur velit ut doloremque.",
+    "Id": 863,
+    "Name": "Leannon-Dooley",
+    "ToolTip": "Nisi est aspernatur quia tempora tenetur sint optio.",
     "Deleted": false,
-    "Rank": 355,
-    "Type": "debitis",
+    "Rank": 514,
+    "Type": "est",
     "ChildItems": [
       {
-        "Id": 226,
-        "Name": "Lowe LLC",
-        "ToolTip": "Soluta sint enim nobis et earum et.",
+        "Id": 497,
+        "Name": "Bogisich Group",
+        "ToolTip": "Harum exercitationem consequatur.",
         "Deleted": false,
-        "Rank": 983,
-        "Type": "magnam",
+        "Rank": 572,
+        "Type": "et",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "aut",
-        "ColorBlock": 816,
-        "ExtraInfo": "rem",
-        "StyleHint": "necessitatibus",
-        "FullName": "Cierra Gino Fadel II",
+        "IconHint": "fugit",
+        "ColorBlock": 111,
+        "ExtraInfo": "accusamus",
+        "StyleHint": "quia",
+        "FullName": "Prof. Tyree Kaci Kovacek",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 896
+            "FieldLength": 850
           }
         }
       }
     ],
-    "IconHint": "sunt",
-    "ColorBlock": 365,
-    "ExtraInfo": "voluptas",
-    "StyleHint": "laboriosam",
-    "FullName": "Foster Mabelle Paucek IV",
+    "IconHint": "iste",
+    "ColorBlock": 671,
+    "ExtraInfo": "non",
+    "StyleHint": "nemo",
+    "FullName": "Jakob Hegmann II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 579
+        "FieldLength": 566
       }
     }
   }

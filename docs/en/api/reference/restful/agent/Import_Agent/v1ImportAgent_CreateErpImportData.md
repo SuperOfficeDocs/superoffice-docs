@@ -77,38 +77,38 @@ OK
 POST /api/v1/Agents/Import/CreateErpImportData
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Restriction": [
     {
-      "Name": "Denesik LLC",
-      "Operator": "consequatur",
+      "Name": "Schowalter LLC",
+      "Operator": "reprehenderit",
       "Values": [
-        "omnis",
-        "illo"
+        "tenetur",
+        "quas"
       ],
       "DisplayValues": [
-        "quos",
-        "odio"
+        "et",
+        "et"
       ],
       "ColumnInfo": null,
-      "IsActive": false,
+      "IsActive": true,
       "SubRestrictions": [
         {},
         {}
       ],
-      "InterParenthesis": 407,
+      "InterParenthesis": 838,
       "InterOperator": "And",
-      "UniqueHash": 153
+      "UniqueHash": 869
     }
   ],
   "Columns": [
-    "necessitatibus",
-    "expedita"
+    "inventore",
+    "in"
   ],
-  "ConnectionId": 344,
+  "ConnectionId": 856,
   "ErpActorType": "Customer"
 }
 ```
@@ -123,47 +123,47 @@ Content-Type: application/json; charset=utf-8
   "ImportLines": [
     {
       "Values": [
-        "quia",
-        "aperiam"
+        "labore",
+        "ducimus"
       ],
-      "Selected": false,
+      "Selected": true,
       "Operation": "ContactAdded",
       "Type": "Contact",
-      "ExternalKey": "vel",
+      "ExternalKey": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 123
+          "FieldLength": 536
         }
       }
     }
   ],
   "ColumnInfos": [
     {
-      "Name": "Langosh-Rau",
-      "DisplayName": "Mills-Gaylord",
+      "Name": "Hodkiewicz Group",
+      "DisplayName": "Balistreri, Shanahan and Bernhard",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 917
         }
       }
     },
     {
-      "Name": "Langosh-Rau",
-      "DisplayName": "Mills-Gaylord",
+      "Name": "Hodkiewicz Group",
+      "DisplayName": "Balistreri, Shanahan and Bernhard",
       "Locked": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 370
+          "FieldLength": 917
         }
       }
     }
@@ -172,8 +172,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 828
+      "FieldType": "System.String",
+      "FieldLength": 135
     }
   }
 }

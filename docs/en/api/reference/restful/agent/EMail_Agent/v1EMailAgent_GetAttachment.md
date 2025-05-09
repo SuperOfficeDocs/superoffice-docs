@@ -85,13 +85,13 @@ OK
 POST /api/v1/Agents/EMail/GetAttachment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 718,
-  "AttachmentId": "molestiae"
+  "MessageServerId": 955,
+  "AttachmentId": "reprehenderit"
 }
 ```
 
@@ -102,21 +102,21 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Optional dynamic function",
-  "Filename": "sint",
-  "Size": 640,
-  "Type": "necessitatibus",
-  "Encoding": "omnis",
-  "Id": "quis",
-  "Disposition": "veritatis",
-  "IsSafeFileExtension": false,
+  "Description": "Horizontal eco-centric instruction set",
+  "Filename": "maiores",
+  "Size": 40,
+  "Type": "id",
+  "Encoding": "quia",
+  "Id": "ut",
+  "Disposition": "consequuntur",
+  "IsSafeFileExtension": true,
   "Stream": "GIF89....File contents as raw bytes...",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 358
+      "FieldLength": 277
     }
   }
 }

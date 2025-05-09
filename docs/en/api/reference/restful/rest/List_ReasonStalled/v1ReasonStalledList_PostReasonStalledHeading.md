@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ReasonStalled/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 323,
-  "Name": "Kilback-Nitzsche",
-  "Tooltip": "optio",
+  "HeadingId": 344,
+  "Name": "McGlynn Group",
+  "Tooltip": "quae",
   "Deleted": false,
-  "Rank": 509,
-  "UdListDefinitionId": 836
+  "Rank": 533,
+  "UdListDefinitionId": 330
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 543,
-  "Name": "Boyle-Senger",
-  "Tooltip": "a",
+  "HeadingId": 892,
+  "Name": "Swift-Pagac",
+  "Tooltip": "aut",
   "Deleted": false,
-  "Rank": 993,
-  "UdListDefinitionId": 927,
+  "Rank": 897,
+  "UdListDefinitionId": 325,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 860
+      "FieldType": "System.String",
+      "FieldLength": 492
     }
   }
 }

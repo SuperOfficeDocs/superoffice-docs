@@ -74,13 +74,13 @@ OK
 POST /api/v1/Agents/Dashboard/GetDataWithSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileId": 534,
-  "SelectionId": 75,
-  "Restrictions": "consequuntur"
+  "DashboardTileId": 703,
+  "SelectionId": 874,
+  "Restrictions": "veritatis"
 }
 ```
 
@@ -94,19 +94,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Sipes Group",
-        "DisplayTooltip": "aliquid",
-        "DisplayType": "dolorum",
-        "CanOrderBy": true,
-        "Name": "Grady Group",
-        "CanRestrictBy": true,
-        "RestrictionType": "quod",
-        "RestrictionListName": "Rippin Inc and Sons",
+        "DisplayName": "Stanton-Kunde",
+        "DisplayTooltip": "exercitationem",
+        "DisplayType": "corporis",
+        "CanOrderBy": false,
+        "Name": "Swaniawski, Baumbach and Stark",
+        "CanRestrictBy": false,
+        "RestrictionType": "ab",
+        "RestrictionListName": "Anderson-Dickens",
         "IsVisible": false,
-        "ExtraInfo": "est",
-        "Width": "eveniet",
-        "IconHint": "commodi",
-        "HeadingIconHint": "nostrum"
+        "ExtraInfo": "ab",
+        "Width": "voluptas",
+        "IconHint": "consequuntur",
+        "HeadingIconHint": "reprehenderit"
       }
     ],
     "Result": null
@@ -114,19 +114,19 @@ Content-Type: application/json; charset=utf-8
   {
     "Columns": [
       {
-        "DisplayName": "Sipes Group",
-        "DisplayTooltip": "aliquid",
-        "DisplayType": "dolorum",
-        "CanOrderBy": true,
-        "Name": "Grady Group",
-        "CanRestrictBy": true,
-        "RestrictionType": "quod",
-        "RestrictionListName": "Rippin Inc and Sons",
+        "DisplayName": "Stanton-Kunde",
+        "DisplayTooltip": "exercitationem",
+        "DisplayType": "corporis",
+        "CanOrderBy": false,
+        "Name": "Swaniawski, Baumbach and Stark",
+        "CanRestrictBy": false,
+        "RestrictionType": "ab",
+        "RestrictionListName": "Anderson-Dickens",
         "IsVisible": false,
-        "ExtraInfo": "est",
-        "Width": "eveniet",
-        "IconHint": "commodi",
-        "HeadingIconHint": "nostrum"
+        "ExtraInfo": "ab",
+        "Width": "voluptas",
+        "IconHint": "consequuntur",
+        "HeadingIconHint": "reprehenderit"
       }
     ],
     "Result": null

@@ -87,11 +87,11 @@ OK
 POST /api/v1/Agents/Quote/GetConnection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 473
+  "QuoteConnectionId": 449
 }
 ```
 
@@ -102,54 +102,54 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteConnectionId": 296,
-  "ERPName": "Willms LLC",
-  "DisplayName": "Bosco LLC",
-  "DisplayDescription": "Advanced leading edge productivity",
-  "Rank": 659,
-  "ConnectorName": "Carter-Kunze",
-  "ErpConnectionId": 555,
-  "ExtraData": "aut",
+  "QuoteConnectionId": 690,
+  "ERPName": "Becker, Torphy and Jast",
+  "DisplayName": "Quigley, McGlynn and Gutkowski",
+  "DisplayDescription": "Monitored client-server pricing structure",
+  "Rank": 355,
+  "ConnectorName": "Kiehn, Schaefer and Marquardt",
+  "ErpConnectionId": 760,
+  "ExtraData": "vel",
   "IsAvailable": false,
   "InitializeResponse": null,
   "PriceLists": [
     {
-      "PriceListId": 9,
-      "ERPPriceListKey": "dolorem",
-      "QuoteConnectionId": 684,
-      "Name": "Hilpert LLC",
-      "Description": "Visionary analyzing middleware",
-      "Currency": "aut",
-      "CurrencyName": "Greenfelder-Kuhn",
-      "ValidFrom": "2008-06-19T13:14:01.0020135+02:00",
-      "ValidTo": "2003-03-27T13:14:01.0020135+01:00",
+      "PriceListId": 447,
+      "ERPPriceListKey": "reiciendis",
+      "QuoteConnectionId": 548,
+      "Name": "Mohr Group",
+      "Description": "Team-oriented even-keeled matrices",
+      "Currency": "fuga",
+      "CurrencyName": "Fadel-Bailey",
+      "ValidFrom": "2014-04-13T16:32:39.7271263+02:00",
+      "ValidTo": "2012-12-24T16:32:39.7271263+01:00",
       "IsActive": true,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 681
+          "FieldLength": 308
         }
       }
     }
   ],
-  "AllAccess": true,
-  "Deleted": true,
+  "AllAccess": false,
+  "Deleted": false,
   "UserGroupAccessIds": [
-    961,
-    403
+    403,
+    611
   ],
   "AssociateAccessIds": [
-    912,
-    601
+    289,
+    757
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 213
+      "FieldType": "System.String",
+      "FieldLength": 789
     }
   }
 }

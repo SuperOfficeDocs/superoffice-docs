@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/DeliveryTerm/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 305,
-    "Name": "Hirthe LLC",
-    "Tooltip": "iste",
-    "Deleted": true,
-    "Rank": 715,
-    "UdListDefinitionId": 795
+    "HeadingId": 487,
+    "Name": "Shields-Kuvalis",
+    "Tooltip": "optio",
+    "Deleted": false,
+    "Rank": 327,
+    "UdListDefinitionId": 687
   },
   {
-    "HeadingId": 305,
-    "Name": "Hirthe LLC",
-    "Tooltip": "iste",
-    "Deleted": true,
-    "Rank": 715,
-    "UdListDefinitionId": 795
+    "HeadingId": 487,
+    "Name": "Shields-Kuvalis",
+    "Tooltip": "optio",
+    "Deleted": false,
+    "Rank": 327,
+    "UdListDefinitionId": 687
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 655,
-    "Name": "Schowalter, Mayer and Keebler",
-    "Tooltip": "magni",
-    "Deleted": true,
-    "Rank": 467,
-    "UdListDefinitionId": 500,
+    "HeadingId": 490,
+    "Name": "Zieme-Ernser",
+    "Tooltip": "et",
+    "Deleted": false,
+    "Rank": 535,
+    "UdListDefinitionId": 937,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 403
+        "FieldLength": 394
       }
     }
   }

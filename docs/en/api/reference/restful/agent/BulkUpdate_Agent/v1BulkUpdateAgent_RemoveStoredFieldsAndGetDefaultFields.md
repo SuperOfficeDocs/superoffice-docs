@@ -92,8 +92,8 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Beahan-Braun",
-  "Context": "ut"
+  "TableName": "Harber-Rippin",
+  "Context": "explicabo"
 }
 ```
 
@@ -107,74 +107,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": true,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
+    "DefaultShowInSelector": false,
     "IsActive": false,
-    "Key": "dolor",
-    "ValueType": "quia",
-    "Mandatory": false,
-    "EncodedDisplayName": "Kling LLC",
-    "EncodedDisplayDescription": "Face to face attitude-oriented focus group",
-    "IconHint": "distinctio",
+    "Key": "facilis",
+    "ValueType": "in",
+    "Mandatory": true,
+    "EncodedDisplayName": "Raynor-Little",
+    "EncodedDisplayDescription": "Future-proofed fault-tolerant website",
+    "IconHint": "laborum",
     "ControlInfos": [
       {
-        "Type": "et",
-        "Label": "qui",
-        "Dimension": 617,
-        "ListProviderName": "Rice, Dickinson and Ratke",
-        "ListProviderExtraInfo": "sint",
-        "ListProviderPrimaryKeyName": "Parker-Frami",
-        "ListLeadText": "corrupti",
+        "Type": "laudantium",
+        "Label": "et",
+        "Dimension": 702,
+        "ListProviderName": "D'Amore-Corwin",
+        "ListProviderExtraInfo": "est",
+        "ListProviderPrimaryKeyName": "Oberbrunner, Pacocha and Dicki",
+        "ListLeadText": "saepe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 26
+            "FieldLength": 988
           }
         }
       }
     ],
-    "EncodedDataCaption": "fugiat",
-    "EncodedDataCaptionDescription": "Assimilated hybrid matrix",
-    "CurrentOperationType": "odio",
+    "EncodedDataCaption": "autem",
+    "EncodedDataCaptionDescription": "Upgradable holistic extranet",
+    "CurrentOperationType": "non",
     "Values": [
-      "ea",
-      "eius"
+      "repellendus",
+      "amet"
     ],
     "DisplayValues": [
-      "ullam",
-      "necessitatibus"
+      "labore",
+      "nam"
     ],
     "OperationInfos": [
       {
-        "Key": "fugiat",
-        "EncodedDisplayName": "Crooks-Spinka",
+        "Key": "totam",
+        "EncodedDisplayName": "Padberg Inc and Sons",
         "EncodedLeadTexts": [
-          "et",
-          "ea"
+          "numquam",
+          "nihil"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 168
+            "FieldLength": 674
           }
         }
       },
       {
-        "Key": "fugiat",
-        "EncodedDisplayName": "Crooks-Spinka",
+        "Key": "totam",
+        "EncodedDisplayName": "Padberg Inc and Sons",
         "EncodedLeadTexts": [
-          "et",
-          "ea"
+          "numquam",
+          "nihil"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 168
+            "FieldLength": 674
           }
         }
       }

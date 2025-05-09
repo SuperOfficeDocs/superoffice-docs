@@ -78,28 +78,28 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 460,
-    "Value": "commodi",
-    "Tooltip": "quibusdam",
+    "Id": 923,
+    "Value": "eius",
+    "Tooltip": "maxime",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldLength": 986
       }
     }
   },
   {
-    "Id": 460,
-    "Value": "commodi",
-    "Tooltip": "quibusdam",
+    "Id": 923,
+    "Value": "eius",
+    "Tooltip": "maxime",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 695
+        "FieldLength": 986
       }
     }
   }

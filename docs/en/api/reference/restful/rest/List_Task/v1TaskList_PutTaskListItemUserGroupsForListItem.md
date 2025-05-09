@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/Task/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 223,
-    "Name": "Hyatt-Eichmann",
-    "ToolTip": "Magni qui et aut eaque in.",
-    "Deleted": false,
-    "Rank": 930,
-    "Type": "vero",
-    "ColorBlock": 762,
-    "IconHint": "aut",
+    "Id": 326,
+    "Name": "Dooley, Cronin and Block",
+    "ToolTip": "Est blanditiis ipsum et commodi eaque sint.",
+    "Deleted": true,
+    "Rank": 912,
+    "Type": "aliquam",
+    "ColorBlock": 229,
+    "IconHint": "quia",
     "Selected": false,
-    "LastChanged": "2004-08-03T13:14:10.1035433+02:00",
+    "LastChanged": "2013-11-26T16:32:48.9932021+01:00",
     "ChildItems": [
       {
-        "Id": 388,
-        "Name": "Casper-Langworth",
-        "ToolTip": "Sed consectetur earum qui vel.",
-        "Deleted": false,
-        "Rank": 102,
-        "Type": "ullam",
-        "ColorBlock": 31,
-        "IconHint": "distinctio",
+        "Id": 587,
+        "Name": "Kuhic-Langosh",
+        "ToolTip": "Ullam repellat neque rerum explicabo.",
+        "Deleted": true,
+        "Rank": 116,
+        "Type": "vel",
+        "ColorBlock": 361,
+        "IconHint": "enim",
         "Selected": false,
-        "LastChanged": "2016-10-23T13:14:10.1035433+02:00",
+        "LastChanged": "2016-12-23T16:32:48.9932021+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "alias",
-        "StyleHint": "quam",
-        "Hidden": true,
-        "FullName": "Miss Morton Deckow"
+        "ExtraInfo": "ab",
+        "StyleHint": "et",
+        "Hidden": false,
+        "FullName": "Kassandra Erdman PhD"
       }
     ],
-    "ExtraInfo": "quia",
-    "StyleHint": "eveniet",
+    "ExtraInfo": "qui",
+    "StyleHint": "quae",
     "Hidden": true,
-    "FullName": "Rosalyn Cronin"
+    "FullName": "Chanel Walter"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 863,
-    "Name": "White-Harris",
-    "ToolTip": "Non est sit rerum consequuntur.",
+    "Id": 812,
+    "Name": "Sanford, Lynch and Hyatt",
+    "ToolTip": "Dolorem a cupiditate iure beatae velit voluptatum nemo.",
     "Deleted": false,
-    "Rank": 241,
-    "Type": "voluptates",
-    "ColorBlock": 966,
-    "IconHint": "exercitationem",
-    "Selected": false,
-    "LastChanged": "2015-07-27T13:14:10.1035433+02:00",
+    "Rank": 837,
+    "Type": "sint",
+    "ColorBlock": 448,
+    "IconHint": "est",
+    "Selected": true,
+    "LastChanged": "2000-08-08T16:32:48.9932021+02:00",
     "ChildItems": [
       {
-        "Id": 940,
-        "Name": "Kunze, Davis and Crooks",
-        "ToolTip": "Omnis illo asperiores fugit ut corrupti dolorum.",
-        "Deleted": true,
-        "Rank": 751,
-        "Type": "accusamus",
-        "ColorBlock": 621,
-        "IconHint": "quasi",
-        "Selected": false,
-        "LastChanged": "2006-05-27T13:14:10.1035433+02:00",
+        "Id": 790,
+        "Name": "Braun LLC",
+        "ToolTip": "Vel perferendis labore incidunt molestias nostrum quo.",
+        "Deleted": false,
+        "Rank": 345,
+        "Type": "fugit",
+        "ColorBlock": 623,
+        "IconHint": "dolores",
+        "Selected": true,
+        "LastChanged": "2008-05-18T16:32:48.9932021+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sapiente",
-        "StyleHint": "non",
+        "ExtraInfo": "voluptas",
+        "StyleHint": "facilis",
         "Hidden": false,
-        "FullName": "Dr. Marietta Lindsey Bauch",
+        "FullName": "Dawn Enrico Gutmann DDS",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 619
+            "FieldType": "System.String",
+            "FieldLength": 527
           }
         }
       }
     ],
-    "ExtraInfo": "eos",
-    "StyleHint": "quasi",
-    "Hidden": true,
-    "FullName": "Ms. Ofelia Jenkins II",
+    "ExtraInfo": "dolores",
+    "StyleHint": "repellendus",
+    "Hidden": false,
+    "FullName": "Richard Laurianne Wiza II",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 410
+        "FieldType": "System.Int32",
+        "FieldLength": 483
       }
     }
   }

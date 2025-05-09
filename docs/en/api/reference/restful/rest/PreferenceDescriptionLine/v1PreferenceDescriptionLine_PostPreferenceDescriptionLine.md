@@ -86,15 +86,15 @@ OK
 POST /api/v1/PreferenceDescriptionLine
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 615,
-  "PrefDescId": 206,
-  "PrefValue": "est",
-  "PrefShowValue": "consequuntur",
-  "Description": "Re-engineered eco-centric interface",
+  "PrefDescLineId": 841,
+  "PrefDescId": 646,
+  "PrefValue": "voluptate",
+  "PrefShowValue": "quia",
+  "Description": "Polarised fresh-thinking support",
   "IsBuiltin": false
 }
 ```
@@ -106,23 +106,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescLineId": 708,
-  "PrefDescId": 259,
-  "PrefValue": "nulla",
-  "PrefShowValue": "facilis",
-  "Description": "Streamlined uniform initiative",
+  "PrefDescLineId": 51,
+  "PrefDescId": 441,
+  "PrefValue": "repellat",
+  "PrefShowValue": "consectetur",
+  "Description": "Polarised bi-directional capacity",
   "IsBuiltin": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 548
+      "FieldType": "System.Int32",
+      "FieldLength": 672
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Contact/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Herman-Bailey",
-    "DisplayName": "Gerhold, Kirlin and Labadie",
-    "DisplayTooltip": "officia",
+    "Name": "Murazik Group",
+    "DisplayName": "White-Feil",
+    "DisplayTooltip": "tempora",
     "IsActive": false
   },
   {
-    "Name": "Herman-Bailey",
-    "DisplayName": "Gerhold, Kirlin and Labadie",
-    "DisplayTooltip": "officia",
+    "Name": "Murazik Group",
+    "DisplayName": "White-Feil",
+    "DisplayTooltip": "tempora",
     "IsActive": false
   }
 ]

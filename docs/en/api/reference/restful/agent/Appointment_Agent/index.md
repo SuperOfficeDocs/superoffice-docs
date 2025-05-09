@@ -10,6 +10,8 @@ generated: true
 
 
 
+* [POST Agents/Appointment/GetMyTasks](v1AppointmentAgent_GetMyTasks.md)
+
 * [POST Agents/Appointment/GetPersonDiary](v1AppointmentAgent_GetPersonDiary.md)
 
 * [POST Agents/Appointment/GetPersonTasks](v1AppointmentAgent_GetPersonTasks.md)
@@ -102,6 +104,10 @@ generated: true
 
 * [POST Agents/Appointment/GetTaskListItems](v1AppointmentAgent_GetTaskListItems.md)
 
+* [POST Agents/Appointment/CreateVideoMeetingReservation](v1AppointmentAgent_CreateVideoMeetingReservation.md)
+
+* [POST Agents/Appointment/DeleteVideoMeetingReservation](v1AppointmentAgent_DeleteVideoMeetingReservation.md)
+
 * [POST Agents/Appointment/CreateDefaultAppointmentEntity](v1AppointmentAgent_CreateDefaultAppointmentEntity.md)
 
 * [POST Agents/Appointment/SaveAppointmentEntity](v1AppointmentAgent_SaveAppointmentEntity.md)
@@ -170,6 +176,8 @@ generated: true
 
 * [POST Agents/Appointment/MoveWithEmail](v1AppointmentAgent_MoveWithEmail.md)
 
+* [POST Agents/Appointment/MoveExtended](v1AppointmentAgent_MoveExtended.md)
+
 * [POST Agents/Appointment/AcceptRejected](v1AppointmentAgent_AcceptRejected.md)
 
 * [POST Agents/Appointment/CreateDefaultRecurrenceByDate](v1AppointmentAgent_CreateDefaultRecurrenceByDate.md)
@@ -225,5 +233,3 @@ generated: true
 * [POST Agents/Appointment/GetPersonAppointments](v1AppointmentAgent_GetPersonAppointments.md)
 
 * [POST Agents/Appointment/GetMyDiary](v1AppointmentAgent_GetMyDiary.md)
-
-* [POST Agents/Appointment/GetMyTasks](v1AppointmentAgent_GetMyTasks.md)

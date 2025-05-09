@@ -141,18 +141,18 @@ DocumentEntity  updated.
 PATCH /api/v1/Document/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
     "op": "add",
-    "path": "ea",
+    "path": "veniam",
     "value": {}
   },
   {
     "op": "add",
-    "path": "ea",
+    "path": "veniam",
     "value": {}
   }
 ]
@@ -165,88 +165,88 @@ HTTP/1.1 200 DocumentEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 184,
+  "DocumentId": 291,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "sed",
-  "Header": "non",
-  "Name": "Bernhard Group",
-  "OurRef": "sit",
-  "YourRef": "quas",
-  "CreatedDate": "2015-05-10T13:14:08.6960113+02:00",
-  "UpdatedDate": "2007-08-12T13:14:08.6960113+02:00",
-  "Description": "Polarised 6th generation capacity",
+  "Attention": "sunt",
+  "Header": "numquam",
+  "Name": "Hessel-Braun",
+  "OurRef": "inventore",
+  "YourRef": "illum",
+  "CreatedDate": "2024-10-06T16:32:47.4777186+02:00",
+  "UpdatedDate": "2013-03-12T16:32:47.4777186+01:00",
+  "Description": "Organic fault-tolerant secured line",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2001-12-18T13:14:08.6960113+01:00",
-  "ExternalRef": "dolor",
+  "Date": "2001-03-20T16:32:47.4777186+01:00",
+  "ExternalRef": "nam",
   "Completed": "Completed",
-  "ActiveLinks": 160,
+  "ActiveLinks": 796,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Friesen, Block and Hermann",
-      "Id": 898,
-      "Description": "Adaptive transitional product",
-      "ExtraInfo": "itaque",
-      "LinkId": 738,
+      "EntityName": "Bosco-Kuhlman",
+      "Id": 890,
+      "Description": "Enterprise-wide bottom-line synergy",
+      "ExtraInfo": "modi",
+      "LinkId": 20,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 642
+          "FieldLength": 38
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 273,
-  "Snum": 228,
+  "SuggestedDocumentId": 239,
+  "Snum": 950,
   "UserDefinedFields": {
-    "SuperOffice:1": "720445564",
-    "SuperOffice:2": "Ms. Brandi Turner"
+    "SuperOffice:1": "Dr. Enid Domingo Ratke",
+    "SuperOffice:2": "Obie Moen"
   },
   "ExtraFields": {
-    "ExtraFields1": "mollitia",
-    "ExtraFields2": "nesciunt"
+    "ExtraFields1": "praesentium",
+    "ExtraFields2": "vero"
   },
   "CustomFields": {
-    "CustomFields1": "beatae",
-    "CustomFields2": "quaerat"
+    "CustomFields1": "odio",
+    "CustomFields2": "inventore"
   },
-  "PublishEventDate": "2024-07-06T13:14:08.6960113+02:00",
-  "PublishTo": "2019-11-28T13:14:08.6960113+01:00",
-  "PublishFrom": "2019-05-26T13:14:08.6960113+02:00",
-  "IsPublished": true,
+  "PublishEventDate": "2010-08-22T16:32:47.4933393+02:00",
+  "PublishTo": "2024-05-07T16:32:47.4933393+02:00",
+  "PublishFrom": "2012-01-01T16:32:47.4933393+01:00",
+  "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 60,
+      "VisibleId": 182,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldLength": 601
         }
       }
     },
     {
-      "VisibleId": 60,
+      "VisibleId": 182,
       "Visibility": "All",
-      "DisplayValue": "sit",
+      "DisplayValue": "corporis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 303
+          "FieldLength": 601
         }
       }
     }
@@ -256,7 +256,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 22
+      "FieldLength": 535
     }
   },
   "_Links": {

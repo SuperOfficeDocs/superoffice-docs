@@ -60,7 +60,7 @@ OK
 GET /api/v1/List/Credited/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 739,
-  "Name": "Metz Inc and Sons",
-  "Tooltip": "molestias",
+  "Id": 824,
+  "Name": "Ondricka LLC",
+  "Tooltip": "minima",
   "Deleted": false,
-  "UdListDefinitionId": 577,
-  "Rank": 533,
+  "UdListDefinitionId": 238,
+  "Rank": 391,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 89
+      "FieldType": "System.String",
+      "FieldLength": 132
     }
   }
 }

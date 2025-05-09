@@ -69,18 +69,18 @@ Content-Type: application/json; charset=utf-8
 {
   "RestrictionGroups": [
     {
-      "Name": "Barrows, Schuppe and Hyatt",
-      "Description": "Innovative real-time open system",
-      "Rank": 548,
+      "Name": "Rosenbaum-Lakin",
+      "Description": "Right-sized transitional capability",
+      "Rank": 117,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Barrows, Schuppe and Hyatt",
-      "Description": "Innovative real-time open system",
-      "Rank": 548,
+      "Name": "Rosenbaum-Lakin",
+      "Description": "Right-sized transitional capability",
+      "Rank": 117,
       "Restrictions": [
         {},
         {}
@@ -92,7 +92,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 200
+      "FieldLength": 752
     }
   }
 }

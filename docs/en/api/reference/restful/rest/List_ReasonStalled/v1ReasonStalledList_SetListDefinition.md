@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 452,
-  "Name": "Heathcote Group",
-  "Tooltip": "eaque",
+  "Id": 95,
+  "Name": "Wehner LLC",
+  "Tooltip": "consequatur",
   "Deleted": false,
-  "Rank": 941,
-  "IsCustomList": false,
+  "Rank": 356,
+  "IsCustomList": true,
   "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "accusamus",
+  "UseGroupsAndHeadings": false,
+  "ListType": "soluta",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 232,
-  "Name": "Gleichner-Murazik",
-  "Tooltip": "qui",
+  "Id": 868,
+  "Name": "Torp Group",
+  "Tooltip": "reiciendis",
   "Deleted": true,
-  "Rank": 687,
+  "Rank": 792,
   "IsCustomList": false,
-  "IsMDOList": false,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "tenetur",
-  "InUseByUserDefinedFields": false,
+  "ListType": "ullam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 957
+      "FieldType": "System.String",
+      "FieldLength": 551
     }
   }
 }

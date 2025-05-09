@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 163,
-  "Name": "Mante-Rowe",
-  "Tooltip": "sunt",
-  "Deleted": true,
-  "Rank": 681,
+  "Id": 71,
+  "Name": "Williamson Group",
+  "Tooltip": "architecto",
+  "Deleted": false,
+  "Rank": 111,
   "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "sint",
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "nostrum",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 382
+      "FieldType": "System.Int32",
+      "FieldLength": 365
     }
   },
   "_Links": {

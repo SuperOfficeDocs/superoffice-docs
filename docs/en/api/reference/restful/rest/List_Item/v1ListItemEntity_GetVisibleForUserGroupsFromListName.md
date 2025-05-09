@@ -74,7 +74,7 @@ OK
 GET /api/v1/List/{udListDefinitionName}/Items/{listItemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -85,56 +85,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 961,
-    "Name": "Lesch, Pouros and Windler",
-    "ToolTip": "Soluta laboriosam maiores quo nisi quaerat corrupti in.",
-    "Deleted": true,
-    "Rank": 468,
-    "Type": "eum",
-    "ColorBlock": 667,
-    "IconHint": "eum",
+    "Id": 598,
+    "Name": "Powlowski-Gislason",
+    "ToolTip": "Qui ut repellendus recusandae sunt ut.",
+    "Deleted": false,
+    "Rank": 860,
+    "Type": "unde",
+    "ColorBlock": 527,
+    "IconHint": "ut",
     "Selected": false,
-    "LastChanged": "2022-04-09T13:14:09.5873854+02:00",
+    "LastChanged": "2010-10-13T16:32:48.4933163+02:00",
     "ChildItems": [
       {
-        "Id": 813,
-        "Name": "Beier, Cummerata and Borer",
-        "ToolTip": "Velit laudantium nisi optio.",
-        "Deleted": false,
-        "Rank": 136,
-        "Type": "pariatur",
-        "ColorBlock": 376,
-        "IconHint": "alias",
-        "Selected": false,
-        "LastChanged": "2002-08-22T13:14:09.5873854+02:00",
+        "Id": 935,
+        "Name": "Kuvalis-Feeney",
+        "ToolTip": "Neque omnis tempora nesciunt qui aut enim in.",
+        "Deleted": true,
+        "Rank": 864,
+        "Type": "vel",
+        "ColorBlock": 372,
+        "IconHint": "provident",
+        "Selected": true,
+        "LastChanged": "1998-01-01T16:32:48.4933163+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "dicta",
-        "StyleHint": "vel",
-        "Hidden": false,
-        "FullName": "Llewellyn Hahn",
+        "ExtraInfo": "assumenda",
+        "StyleHint": "quia",
+        "Hidden": true,
+        "FullName": "Francesca Quitzon",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 103
+            "FieldLength": 414
           }
         }
       }
     ],
-    "ExtraInfo": "aliquid",
-    "StyleHint": "possimus",
+    "ExtraInfo": "nam",
+    "StyleHint": "consectetur",
     "Hidden": true,
-    "FullName": "Mrs. Rachelle Chelsie Hills",
+    "FullName": "Mr. Caroline Lucie Brakus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 577
+        "FieldType": "System.Int32",
+        "FieldLength": 560
       }
     }
   }

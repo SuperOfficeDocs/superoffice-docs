@@ -95,11 +95,11 @@ OK
 POST /api/v1/Agents/Batch/GetSystemBatchTaskInfosByNameAndState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TaskName": "Leuschke, Romaguera and Davis",
+  "TaskName": "Friesen LLC",
   "State": "All"
 }
 ```
@@ -112,37 +112,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 59,
-    "Name": "Bosco Group",
-    "AssociateId": 581,
-    "DetailsTable": 158,
-    "DetailsRecord": 296,
-    "IsSystemTask": false,
-    "IsInternalTask": true,
+    "Id": 827,
+    "Name": "Heathcote, Feest and Ondricka",
+    "AssociateId": 592,
+    "DetailsTable": 448,
+    "DetailsRecord": 541,
+    "IsSystemTask": true,
+    "IsInternalTask": false,
     "ParameterObject": {
-      "ParameterObject1": "omnis",
-      "ParameterObject2": "rem"
+      "ParameterObject1": "rerum",
+      "ParameterObject2": "ut"
     },
-    "LastStarted": "2007-07-04T13:13:59.5314453+02:00",
-    "Created": "2007-02-21T13:13:59.5314453+01:00",
-    "StartCount": 656,
-    "DatabaseSerialNumber": "306983",
-    "Context": "omnis",
-    "Result": "ducimus",
+    "LastStarted": "2020-06-20T16:32:38.2116027+02:00",
+    "Created": "2017-02-02T16:32:38.2116027+01:00",
+    "StartCount": 860,
+    "DatabaseSerialNumber": "1477168",
+    "Context": "qui",
+    "Result": "magni",
     "State": "All",
-    "Description": "Fully-configurable mission-critical model",
-    "Response": "fugit",
-    "Request": "vel",
-    "ProgressDescription": "Exclusive cohesive adapter",
-    "ProgressPercent": 79,
-    "FileName": "Paucek-Jacobson",
+    "Description": "Devolved 6th generation array",
+    "Response": "saepe",
+    "Request": "officiis",
+    "ProgressDescription": "Proactive directional Graphical User Interface",
+    "ProgressPercent": 381,
+    "FileName": "Hills, Gulgowski and Blick",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 208
+        "FieldType": "System.String",
+        "FieldLength": 684
       }
     }
   }

@@ -116,12 +116,12 @@ OK
 POST /api/v1/Agents/Selection/CreateContactSelectionFromShadowSelection
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SelectionId": 454,
-  "Name": "Walter, Effertz and Doyle"
+  "SelectionId": 811,
+  "Name": "Bruen Group"
 }
 ```
 
@@ -132,70 +132,70 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Integrated intermediate contingency",
-  "Postit": "eum",
+  "Description": "Down-sized 3rd generation capacity",
+  "Postit": "nihil",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 501,
-  "IncludePerson": 686,
+  "GroupIdx": 883,
+  "IncludePerson": 250,
   "MemberCount": 99.99,
-  "Name": "Goodwin LLC",
-  "PostitTextId": 888,
-  "CreatedDate": "2016-03-21T13:14:01.3319239+01:00",
-  "SelectionId": 207,
-  "SoundEx": "et",
-  "Source": 496,
-  "TextId": 765,
-  "UpdatedDate": "2007-11-04T13:14:01.3319239+01:00",
-  "UpdatedCount": 679,
-  "Visibility": 82,
+  "Name": "Barrows, Waters and Hoppe",
+  "PostitTextId": 310,
+  "CreatedDate": "2021-07-14T16:32:39.9302031+02:00",
+  "SelectionId": 931,
+  "SoundEx": "nihil",
+  "Source": 749,
+  "TextId": 182,
+  "UpdatedDate": "2025-01-12T16:32:39.9302031+01:00",
+  "UpdatedCount": 774,
+  "Visibility": 49,
   "SelectionType": "Combined",
-  "CompanyUnique": false,
-  "TargetTableNumber": 749,
-  "TargetTableName": "Zboncak Group",
-  "Completed": true,
-  "LeftSelectionId": 913,
-  "RightSelectionId": 447,
+  "CompanyUnique": true,
+  "TargetTableNumber": 199,
+  "TargetTableName": "Ryan, Haag and Welch",
+  "Completed": false,
+  "LeftSelectionId": 339,
+  "RightSelectionId": 354,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Williamson LLC",
-  "ShadowProviderName": "Boyle, Yost and VonRueden",
-  "ChartKey": "non",
-  "LastLoaded": "2017-07-06T13:14:01.3319239+02:00",
-  "LastLoadedBy": 687,
+  "MainProviderName": "Romaguera-Kohler",
+  "ShadowProviderName": "Brown Group",
+  "ChartKey": "et",
+  "LastLoaded": "2020-04-15T16:32:39.9302031+02:00",
+  "LastLoadedBy": 748,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2025-03-18T13:14:01.3319239+01:00",
-  "LastMembershipChangeBy": 187,
+  "LastMembershipChange": "2016-10-04T16:32:39.9302031+02:00",
+  "LastMembershipChangeBy": 932,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "est",
-  "MemberTabHeading": "aspernatur",
-  "MailingsProviderName": "Turcotte, Littel and Hintz",
-  "DashboardTileDefinitionId": 982,
+  "MainHeading": "eligendi",
+  "MemberTabHeading": "in",
+  "MailingsProviderName": "Schowalter Inc and Sons",
+  "DashboardTileDefinitionId": 793,
   "VisibleFor": [
     {
-      "VisibleId": 76,
+      "VisibleId": 216,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldLength": 728
         }
       }
     },
     {
-      "VisibleId": 76,
+      "VisibleId": 216,
       "Visibility": "All",
-      "DisplayValue": "eveniet",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 985
+          "FieldLength": 728
         }
       }
     }
@@ -205,7 +205,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 525
+      "FieldLength": 483
     }
   }
 }

@@ -106,12 +106,12 @@ OK
 POST /api/v1/Agents/Chat/TransferChatSession
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 695,
-  "ToAssociate": "dolorem"
+  "ChatSessionId": 955,
+  "ToAssociate": "praesentium"
 }
 ```
 
@@ -122,29 +122,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatSessionId": 6,
-  "TopicId": 504,
+  "ChatSessionId": 341,
+  "TopicId": 59,
   "User": null,
   "Person": null,
-  "CustomerAlias": "et",
-  "CustomerHost": "perferendis",
-  "CustomerName": "Rolfson-Jacobi",
-  "CustomerEmail": "joany@cartwright.us",
-  "CustomerPhone": "580.459.1163",
-  "CustomerConsented": true,
-  "CustomerCompanyName": "Gislason, Bernhard and Windler",
+  "CustomerAlias": "dolore",
+  "CustomerHost": "enim",
+  "CustomerName": "Crooks Group",
+  "CustomerEmail": "jailyn@larson.ca",
+  "CustomerPhone": "1-703-064-3458 x6988",
+  "CustomerConsented": false,
+  "CustomerCompanyName": "O'Conner-Skiles",
   "Status": "Closed",
-  "FirstMessage": "consequatur",
-  "LastMessage": "nulla",
-  "WhenRequested": "2001-08-02T13:13:59.609576+02:00",
-  "WhenStarted": "2010-06-17T13:13:59.609576+02:00",
-  "WhenEnded": "2003-12-15T13:13:59.609576+01:00",
-  "WhenIdle": "2022-09-04T13:13:59.609576+02:00",
-  "WhenFetched": "2018-10-15T13:13:59.609576+02:00",
-  "SessionKey": "nihil",
-  "InitialQueuePos": 167,
-  "AlertLevel": 966,
-  "Rank": 125,
+  "FirstMessage": "consectetur",
+  "LastMessage": "et",
+  "WhenRequested": "2022-12-24T16:32:38.2897122+01:00",
+  "WhenStarted": "2012-09-13T16:32:38.2897122+02:00",
+  "WhenEnded": "2018-05-06T16:32:38.2897122+02:00",
+  "WhenIdle": "2007-03-01T16:32:38.2897122+01:00",
+  "WhenFetched": "2000-06-22T16:32:38.2897122+02:00",
+  "SessionKey": "laudantium",
+  "InitialQueuePos": 678,
+  "AlertLevel": 831,
+  "Rank": 691,
   "Flags": "CustomerIsTyping",
   "Contact": null,
   "Project": null,
@@ -152,13 +152,13 @@ Content-Type: application/json; charset=utf-8
   "Ticket": null,
   "TransferTo": null,
   "ChatbotIsActive": false,
-  "Rating": 437,
+  "Rating": 685,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 476
+      "FieldType": "System.String",
+      "FieldLength": 363
     }
   }
 }

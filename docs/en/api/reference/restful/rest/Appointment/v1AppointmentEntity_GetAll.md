@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/Appointment?$select=name,department,category/id
 GET /api/v1/Appointment?$filter=name begins 'S'
 GET /api/v1/Appointment?$orderBy=name asc
-GET /api/v1/Appointment?$entities=corporis
-GET /api/v1/Appointment?$top=184
-GET /api/v1/Appointment?$skip=939
+GET /api/v1/Appointment?$entities=et
+GET /api/v1/Appointment?$top=885
+GET /api/v1/Appointment?$skip=451
 GET /api/v1/Appointment?$mode=Full
 GET /api/v1/Appointment?$options=GrandTotal=true
-GET /api/v1/Appointment?$context=molestiae
+GET /api/v1/Appointment?$context=tenetur
 GET /api/v1/Appointment?$format=JSON
 GET /api/v1/Appointment?$jsonSafe=False
 GET /api/v1/Appointment?$output=Display
@@ -118,7 +118,7 @@ OK
 GET /api/v1/Appointment
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "sapiente",
+  "odata.nextLink": "rerum",
   "value": [
     {
-      "PrimaryKey": 1223,
+      "PrimaryKey": 520,
       "EntityName": "person",
-      "personId": 1223,
-      "fullName": "Laverne Mante"
+      "personId": 520,
+      "fullName": "Noelia Renner DDS"
     },
     {
-      "PrimaryKey": 794,
+      "PrimaryKey": 459,
       "EntityName": "person",
-      "personId": 794,
-      "fullName": "Ryder Lueilwitz"
+      "personId": 459,
+      "fullName": "Ms. Martina Vernie Bashirian I"
     }
   ]
 }

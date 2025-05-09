@@ -78,16 +78,16 @@ OK
 PUT /api/v1/List/Business/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 93,
-  "Name": "Zieme, Flatley and Konopelski",
-  "Tooltip": "est",
+  "Id": 608,
+  "Name": "Abbott-Ebert",
+  "Tooltip": "incidunt",
   "Deleted": false,
-  "UdListDefinitionId": 957,
-  "Rank": 986
+  "UdListDefinitionId": 123,
+  "Rank": 165
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 211,
-  "Name": "Gibson Inc and Sons",
-  "Tooltip": "illo",
-  "Deleted": true,
-  "UdListDefinitionId": 211,
-  "Rank": 29,
+  "Id": 290,
+  "Name": "Witting, Marvin and West",
+  "Tooltip": "enim",
+  "Deleted": false,
+  "UdListDefinitionId": 910,
+  "Rank": 615,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 624
+      "FieldLength": 941
     }
   }
 }

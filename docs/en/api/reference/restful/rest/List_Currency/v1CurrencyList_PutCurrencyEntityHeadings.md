@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/Currency/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 316,
-    "Name": "Moore LLC",
-    "Tooltip": "minus",
+    "HeadingId": 602,
+    "Name": "Mosciski, Waters and Schroeder",
+    "Tooltip": "enim",
     "Deleted": false,
-    "Rank": 82,
-    "UdListDefinitionId": 457
+    "Rank": 408,
+    "UdListDefinitionId": 848
   },
   {
-    "HeadingId": 316,
-    "Name": "Moore LLC",
-    "Tooltip": "minus",
+    "HeadingId": 602,
+    "Name": "Mosciski, Waters and Schroeder",
+    "Tooltip": "enim",
     "Deleted": false,
-    "Rank": 82,
-    "UdListDefinitionId": 457
+    "Rank": 408,
+    "UdListDefinitionId": 848
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 963,
-    "Name": "Kozey, Conn and Moen",
-    "Tooltip": "est",
-    "Deleted": false,
-    "Rank": 114,
-    "UdListDefinitionId": 562,
+    "HeadingId": 618,
+    "Name": "Pfeffer-Doyle",
+    "Tooltip": "rem",
+    "Deleted": true,
+    "Rank": 870,
+    "UdListDefinitionId": 549,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 654
+        "FieldLength": 78
       }
     }
   }

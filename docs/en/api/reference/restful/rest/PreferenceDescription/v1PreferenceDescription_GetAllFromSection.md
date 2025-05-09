@@ -76,7 +76,7 @@ OK
 GET /api/v1/PreferenceDescription/{section}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -87,30 +87,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PrefDescId": 861,
-    "Section": "eum",
-    "Key": "ut",
-    "Name": "Pollich-Kuvalis",
+    "PrefDescId": 516,
+    "Section": "fugiat",
+    "Key": "velit",
+    "Name": "Thiel-Doyle",
     "ValueType": "Bool",
     "MaxLevel": "Database",
     "SysMaxLevel": "Database",
     "AccessFlags": "adminGUI",
-    "Description": "Multi-layered web-enabled adapter",
-    "IsBuiltin": false,
-    "TableName": "Larson Inc and Sons",
-    "UserDefinedListId": 526,
-    "Rank": 849,
-    "SubGroup": "libero",
-    "MinLevel": 807,
-    "MaxValue": 713,
-    "MinValue": 319,
-    "RequiredLicense": "animi",
+    "Description": "Compatible foreground projection",
+    "IsBuiltin": true,
+    "TableName": "Streich Inc and Sons",
+    "UserDefinedListId": 48,
+    "Rank": 207,
+    "SubGroup": "sequi",
+    "MinLevel": 79,
+    "MaxValue": 347,
+    "MinValue": 397,
+    "RequiredLicense": "est",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 260
+        "FieldType": "System.String",
+        "FieldLength": 645
       }
     }
   }

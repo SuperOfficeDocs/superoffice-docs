@@ -73,11 +73,11 @@ OK
 POST /api/v1/Agents/Document/GetCheckoutState
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 560
+  "DocumentId": 352
 }
 ```
 
@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "State": "CheckedOutOther",
-  "AssociateId": 775,
-  "Name": "Feeney LLC"
+  "AssociateId": 921,
+  "Name": "Dibbert Inc and Sons"
 }
 ```

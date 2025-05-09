@@ -77,25 +77,25 @@ OK
 PUT /api/v1/List/{name}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 165,
-    "Name": "Champlin Group",
-    "Tooltip": "tempora",
-    "Deleted": true,
-    "Rank": 339,
-    "UdListDefinitionId": 317
+    "HeadingId": 410,
+    "Name": "Crona Group",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "Rank": 520,
+    "UdListDefinitionId": 209
   },
   {
-    "HeadingId": 165,
-    "Name": "Champlin Group",
-    "Tooltip": "tempora",
-    "Deleted": true,
-    "Rank": 339,
-    "UdListDefinitionId": 317
+    "HeadingId": 410,
+    "Name": "Crona Group",
+    "Tooltip": "nihil",
+    "Deleted": false,
+    "Rank": 520,
+    "UdListDefinitionId": 209
   }
 ]
 ```
@@ -108,18 +108,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 156,
-    "Name": "Crist LLC",
-    "Tooltip": "quod",
+    "HeadingId": 965,
+    "Name": "Hintz LLC",
+    "Tooltip": "totam",
     "Deleted": false,
-    "Rank": 460,
-    "UdListDefinitionId": 265,
+    "Rank": 746,
+    "UdListDefinitionId": 668,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 293
+        "FieldLength": 920
       }
     }
   }

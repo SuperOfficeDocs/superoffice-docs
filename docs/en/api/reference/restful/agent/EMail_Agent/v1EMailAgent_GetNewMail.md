@@ -89,8 +89,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Folders": [
-    968,
-    594
+    539,
+    840
   ]
 }
 ```
@@ -103,45 +103,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 964,
-    "MessageId": "qui",
-    "Subject": "rerum",
+    "ServerId": 749,
+    "MessageId": "quam",
+    "Subject": "porro",
     "From": null,
     "To": [
       {
-        "ContactId": 454,
-        "ContactName": "Beatty, Langosh and Keebler",
-        "PersonId": 660,
-        "PersonName": "Olson Group",
-        "AssociateId": 549,
-        "Address": "voluptatum",
-        "EmailId": 806,
+        "ContactId": 403,
+        "ContactName": "Raynor-Bednar",
+        "PersonId": 64,
+        "PersonName": "Thompson-Zboncak",
+        "AssociateId": 27,
+        "Address": "corporis",
+        "EmailId": 276,
         "DuplicatePersonIds": [
-          852,
-          926
+          272,
+          762
         ],
-        "Name": "Becker-Koss",
+        "Name": "Parisian Group",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 525
+            "FieldType": "System.String",
+            "FieldLength": 895
           }
         }
       }
     ],
-    "Sent": "2015-04-05T13:14:00.2668463+02:00",
+    "Sent": "2006-10-11T16:32:38.9458092+02:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 928,
+    "Size": 27,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 554
+        "FieldType": "System.Int32",
+        "FieldLength": 116
       }
     }
   }

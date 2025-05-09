@@ -78,16 +78,16 @@ OK
 POST /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 826,
-  "Name": "Schultz LLC",
-  "Tooltip": "omnis",
-  "Deleted": false,
-  "Rank": 679,
-  "UdListDefinitionId": 360
+  "HeadingId": 575,
+  "Name": "Reilly-Beatty",
+  "Tooltip": "sunt",
+  "Deleted": true,
+  "Rank": 941,
+  "UdListDefinitionId": 181
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 737,
-  "Name": "Leuschke LLC",
-  "Tooltip": "eveniet",
+  "HeadingId": 385,
+  "Name": "Graham Group",
+  "Tooltip": "sit",
   "Deleted": false,
-  "Rank": 911,
+  "Rank": 389,
   "UdListDefinitionId": 89,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 418
+      "FieldType": "System.String",
+      "FieldLength": 886
     }
   }
 }

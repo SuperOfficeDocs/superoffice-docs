@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/ProjectStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 124,
-  "Name": "Lemke LLC",
-  "Tooltip": "aspernatur",
+  "Id": 342,
+  "Name": "Thiel-Schuppe",
+  "Tooltip": "ipsam",
   "Deleted": false,
-  "Rank": 397,
+  "Rank": 409,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "qui",
+  "ListType": "fugit",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 823,
-  "Name": "Treutel Group",
-  "Tooltip": "aut",
+  "Id": 503,
+  "Name": "Klein, Frami and Auer",
+  "Tooltip": "iusto",
   "Deleted": true,
-  "Rank": 381,
-  "IsCustomList": false,
-  "IsMDOList": false,
-  "UseGroupsAndHeadings": true,
-  "ListType": "deleniti",
-  "InUseByUserDefinedFields": false,
+  "Rank": 948,
+  "IsCustomList": true,
+  "IsMDOList": true,
+  "UseGroupsAndHeadings": false,
+  "ListType": "nam",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 645
+      "FieldLength": 184
     }
   }
 }

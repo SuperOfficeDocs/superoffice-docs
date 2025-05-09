@@ -126,13 +126,13 @@ OK
 POST /api/v1/Agents/Appointment/GetPublishedAppointments
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "AppointmentIds": [
-    947,
-    941
+    868,
+    413
   ]
 }
 ```
@@ -145,66 +145,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 735,
-    "StartDate": "2020-12-30T13:13:59.1407181+01:00",
-    "EndDate": "2010-04-25T13:13:59.1407181+02:00",
+    "AppointmentId": 873,
+    "StartDate": "2002-03-29T16:32:37.6334112+01:00",
+    "EndDate": "1998-12-25T16:32:37.6334112+01:00",
     "Type": "BookingForChecklist",
-    "Task": "officia",
-    "AssociateFullName": "Gene Dolores Ebert DVM",
-    "ContactName": "Hettinger-Spinka",
-    "Description": "Distributed regional framework",
-    "PersonFullName": "Kane Osinski",
-    "PersonId": 118,
-    "ContactId": 983,
-    "ProjectId": 262,
-    "ProjectName": "Kerluke Group",
+    "Task": "voluptate",
+    "AssociateFullName": "Miss Leila Claud Pagac",
+    "ContactName": "Waters Inc and Sons",
+    "Description": "Intuitive upward-trending hierarchy",
+    "PersonFullName": "Morgan Cassin I",
+    "PersonId": 400,
+    "ContactId": 647,
+    "ProjectId": 936,
+    "ProjectName": "Rogahn LLC",
     "IsPublished": false,
-    "AssociateId": 120,
-    "ColorIndex": 640,
+    "AssociateId": 452,
+    "ColorIndex": 317,
     "IsFree": false,
     "HasAlarm": false,
     "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 565,
-    "PriorityName": "Davis-Legros",
+    "PriorityId": 847,
+    "PriorityName": "Cole-Greenfelder",
     "TaskType": "Appointment",
     "IsBookingMain": true,
-    "IsRecurrence": true,
+    "IsRecurrence": false,
     "IsBooking": false,
-    "ActiveDate": "2013-06-30T13:13:59.1407181+02:00",
+    "ActiveDate": "2004-11-29T16:32:37.6334112+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2018-05-08T13:13:59.1407181+02:00",
-    "RecurringEndDate": "2008-07-25T13:13:59.1407181+02:00",
-    "MotherId": 476,
-    "AssignedBy": 573,
-    "AssignedByFullName": "Euna Krajcik",
+    "RecurringStartDate": "2001-01-17T16:32:37.6334112+01:00",
+    "RecurringEndDate": "2004-09-21T16:32:37.6334112+02:00",
+    "MotherId": 432,
+    "AssignedBy": 21,
+    "AssignedByFullName": "Prof. Samantha Smitham",
     "RejectReason": "",
-    "Location": "ut",
-    "AlarmLeadTime": "quibusdam",
-    "SaleId": 556,
-    "SaleName": "Nitzsche, Raynor and Moen",
-    "AssociateName": "Corkery Group",
-    "CreatedDate": "2017-09-13T13:13:59.1407181+02:00",
-    "CreatedBy": "est",
-    "CreatedByFullName": "Dusty Kuvalis V",
-    "CreatedByAssociateId": 857,
+    "Location": "eaque",
+    "AlarmLeadTime": "omnis",
+    "SaleId": 862,
+    "SaleName": "Cassin, Lemke and Schuppe",
+    "AssociateName": "Wilderman, Windler and Abernathy",
+    "CreatedDate": "2023-03-02T16:32:37.6334112+01:00",
+    "CreatedBy": "beatae",
+    "CreatedByFullName": "Marlee Schowalter",
+    "CreatedByAssociateId": 571,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 656,
-    "Title": "ipsum",
-    "Agenda": "non",
-    "InternalNotes": "in",
+    "PreferredTZLocation": 361,
+    "Title": "facere",
+    "Agenda": "nihil",
+    "InternalNotes": "aut",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 540
+        "FieldLength": 484
       }
     }
   }

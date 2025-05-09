@@ -80,7 +80,7 @@ OK
 GET /api/v1/BatchTask/{state}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 91,
-    "Name": "Tillman, Koss and Kessler",
-    "AssociateId": 369,
-    "DetailsTable": 25,
-    "DetailsRecord": 246,
-    "IsSystemTask": true,
-    "IsInternalTask": false,
+    "Id": 372,
+    "Name": "Stark-Schmitt",
+    "AssociateId": 996,
+    "DetailsTable": 355,
+    "DetailsRecord": 713,
+    "IsSystemTask": false,
+    "IsInternalTask": true,
     "ParameterObject": {
-      "ParameterObject1": "iste",
-      "ParameterObject2": "consequatur"
+      "ParameterObject1": "cupiditate",
+      "ParameterObject2": "officia"
     },
-    "LastStarted": "2017-07-30T13:14:09.3841564+02:00",
-    "Created": "2012-03-17T13:14:09.3841564+01:00",
-    "StartCount": 301,
-    "DatabaseSerialNumber": "817673",
-    "Context": "tempora",
-    "Result": "cum",
+    "LastStarted": "2017-04-22T16:32:48.2902385+02:00",
+    "Created": "2001-06-27T16:32:48.2902385+02:00",
+    "StartCount": 242,
+    "DatabaseSerialNumber": "896714",
+    "Context": "dolores",
+    "Result": "cupiditate",
     "State": "All",
-    "Description": "Persevering asynchronous alliance",
-    "Response": "repellendus",
-    "Request": "reiciendis",
-    "ProgressDescription": "Operative global function",
-    "ProgressPercent": 650,
-    "FileName": "Rowe, Funk and Fay",
+    "Description": "Streamlined transitional encoding",
+    "Response": "quasi",
+    "Request": "tenetur",
+    "ProgressDescription": "Switchable analyzing core",
+    "ProgressPercent": 728,
+    "FileName": "Leannon LLC",
     "CancellationBehaviour": "CanCancel",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 385
+        "FieldLength": 949
       }
     }
   }

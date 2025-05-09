@@ -97,19 +97,19 @@ PriceList updated.
 PUT /api/v1/Pricelist/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 238,
-  "ERPPriceListKey": "nam",
-  "QuoteConnectionId": 59,
-  "Name": "Grady, Osinski and Herzog",
-  "Description": "Customer-focused optimal internet solution",
-  "Currency": "facilis",
-  "CurrencyName": "Effertz Group",
-  "ValidFrom": "2005-08-26T13:14:09.8691543+02:00",
-  "ValidTo": "2009-01-29T13:14:09.8691543+01:00",
+  "PriceListId": 529,
+  "ERPPriceListKey": "rerum",
+  "QuoteConnectionId": 117,
+  "Name": "Strosin-Davis",
+  "Description": "Managed incremental policy",
+  "Currency": "saepe",
+  "CurrencyName": "Nitzsche-Schroeder",
+  "ValidFrom": "2019-01-29T16:32:48.7588803+01:00",
+  "ValidTo": "2013-04-08T16:32:48.7588803+02:00",
   "IsActive": false
 }
 ```
@@ -121,27 +121,27 @@ HTTP/1.1 200 PriceList updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 720,
-  "ERPPriceListKey": "ad",
-  "QuoteConnectionId": 627,
-  "Name": "Dare, Hudson and Terry",
-  "Description": "Reduced bi-directional data-warehouse",
-  "Currency": "cumque",
-  "CurrencyName": "Adams-Bode",
-  "ValidFrom": "2009-01-27T13:14:09.8691543+01:00",
-  "ValidTo": "2008-07-05T13:14:09.8691543+02:00",
+  "PriceListId": 326,
+  "ERPPriceListKey": "suscipit",
+  "QuoteConnectionId": 72,
+  "Name": "Gottlieb, Grady and Carter",
+  "Description": "Business-focused reciprocal utilisation",
+  "Currency": "aut",
+  "CurrencyName": "Ortiz-Kunde",
+  "ValidFrom": "1999-12-31T16:32:48.7588803+01:00",
+  "ValidTo": "2009-11-18T16:32:48.7588803+01:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 679
+      "FieldLength": 553
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

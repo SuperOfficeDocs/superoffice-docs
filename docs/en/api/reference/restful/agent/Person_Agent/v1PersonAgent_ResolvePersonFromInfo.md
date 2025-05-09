@@ -79,19 +79,19 @@ OK
 POST /api/v1/Agents/Person/ResolvePersonFromInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 650,
-  "PersonName": "Jacobson Group",
+  "ContactId": 452,
+  "PersonName": "Lebsack-Pollich",
   "PhoneNumbers": [
-    "786203",
-    "804676"
+    "1325891",
+    "678760"
   ],
   "Emails": [
-    "juvenal@zieme.name",
-    "nat_steuber@kozey.us"
+    "minerva@lehnerterry.uk",
+    "sage@rowegoldner.biz"
   ]
 }
 ```
@@ -110,7 +110,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 340
+      "FieldLength": 965
     }
   }
 }

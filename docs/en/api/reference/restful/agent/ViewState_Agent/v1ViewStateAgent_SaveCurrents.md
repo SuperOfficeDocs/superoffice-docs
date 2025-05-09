@@ -81,19 +81,19 @@ OK
 POST /api/v1/Agents/ViewState/SaveCurrents
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Currents": [
     {
-      "Rank": 413,
-      "Id": 89,
-      "HistoryName": "Daugherty, Senger and Jenkins",
-      "HistoryId": 639,
-      "AssociateId": 544,
-      "Name": "Willms, Maggio and Murray",
-      "ItemInfo": "a"
+      "Rank": 180,
+      "Id": 959,
+      "HistoryName": "Moore-Hauck",
+      "HistoryId": 89,
+      "AssociateId": 19,
+      "Name": "Hickle, Wiegand and Stoltenberg",
+      "ItemInfo": "alias"
     }
   ]
 }
@@ -107,19 +107,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Rank": 775,
-    "Id": 700,
-    "HistoryName": "Mosciski Inc and Sons",
-    "HistoryId": 445,
-    "AssociateId": 601,
-    "Name": "Thiel-Schoen",
-    "ItemInfo": "distinctio",
+    "Rank": 658,
+    "Id": 879,
+    "HistoryName": "Cremin-Cartwright",
+    "HistoryId": 200,
+    "AssociateId": 467,
+    "Name": "Roob LLC",
+    "ItemInfo": "cupiditate",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 947
+        "FieldType": "System.String",
+        "FieldLength": 281
       }
     }
   }

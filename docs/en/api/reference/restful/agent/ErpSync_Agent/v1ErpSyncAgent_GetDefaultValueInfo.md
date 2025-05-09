@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetDefaultValueInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 266
+  "ErpFieldId": 316
 }
 ```
 
@@ -99,22 +99,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpFieldId": 247,
-  "DefaultValue": "repellendus",
+  "ErpFieldId": 390,
+  "DefaultValue": "maxime",
   "HasFirstSyncDefaultValue": false,
-  "FirstSyncDefaultValue": "ea",
+  "FirstSyncDefaultValue": "quo",
   "PromptUser": true,
-  "Mandatory": true,
-  "ErpFieldKey": "illum",
+  "Mandatory": false,
+  "ErpFieldKey": "numquam",
   "FieldType": "Checkbox",
-  "ListName": "Brakus LLC",
+  "ListName": "Osinski LLC",
   "Access": "Mandatory",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 253
+      "FieldLength": 662
     }
   }
 }

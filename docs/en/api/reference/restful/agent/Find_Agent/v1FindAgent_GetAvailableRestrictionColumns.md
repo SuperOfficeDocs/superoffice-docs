@@ -75,8 +75,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "aut",
-  "ProviderName": "Dare, Emard and Pagac"
+  "StorageType": "eos",
+  "ProviderName": "Nitzsche-Reichert"
 }
 ```
 
@@ -87,7 +87,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  "fuga",
-  "quos"
+  "consectetur",
+  "vel"
 ]
 ```

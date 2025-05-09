@@ -94,11 +94,11 @@ OK
 POST /api/v1/Agents/List/GetWebPanelByProgId
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProgId": "est"
+  "ProgId": "provident"
 }
 ```
 
@@ -109,34 +109,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WebPanelId": 755,
-  "Name": "Wintheiser, Leuschke and Hagenes",
-  "Tooltip": "ad",
+  "WebPanelId": 57,
+  "Name": "Rippin LLC",
+  "Tooltip": "asperiores",
   "Deleted": false,
-  "Rank": 794,
+  "Rank": 591,
   "UrlEncoding": "ANSI",
   "VisibleIn": "ActivityDialog",
-  "OnCentral": false,
+  "OnCentral": true,
   "OnSatellite": false,
   "OnTravel": true,
   "OnSalesMarketingWeb": true,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": false,
+  "ShowInAddressBar": true,
   "ShowInStatusBar": true,
-  "WindowName": "Kunze Group",
+  "WindowName": "Hane LLC",
   "Url": "http://www.example.com/",
-  "ProgId": "ducimus",
-  "Icon": 129,
-  "AlwaysReloadOnShow": true,
+  "ProgId": "consequuntur",
+  "Icon": 513,
+  "AlwaysReloadOnShow": false,
   "NeverReloadOnCurrentChange": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 824
+      "FieldLength": 144
     }
   }
 }

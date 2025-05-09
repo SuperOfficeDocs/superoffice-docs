@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/QuoteDenyReason/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 548,
-    "Name": "Hintz-Reichert",
-    "ToolTip": "Sequi temporibus maiores fugit et vitae.",
+    "Id": 482,
+    "Name": "Feeney-Kautzer",
+    "ToolTip": "Nam voluptatem.",
     "Deleted": false,
-    "Rank": 727,
-    "Type": "quis",
-    "ColorBlock": 665,
-    "IconHint": "autem",
+    "Rank": 637,
+    "Type": "ratione",
+    "ColorBlock": 278,
+    "IconHint": "omnis",
     "Selected": false,
-    "LastChanged": "2021-07-05T13:14:09.9941617+02:00",
+    "LastChanged": "2010-06-11T16:32:48.8682307+02:00",
     "ChildItems": [
       {
-        "Id": 893,
-        "Name": "Bechtelar, Smith and Okuneva",
-        "ToolTip": "Eos ut commodi omnis libero aut voluptas.",
-        "Deleted": true,
-        "Rank": 305,
-        "Type": "et",
-        "ColorBlock": 112,
-        "IconHint": "quod",
-        "Selected": true,
-        "LastChanged": "2022-07-27T13:14:09.9941617+02:00",
+        "Id": 19,
+        "Name": "Jewess-Funk",
+        "ToolTip": "Dolor consequatur ipsa.",
+        "Deleted": false,
+        "Rank": 636,
+        "Type": "eum",
+        "ColorBlock": 418,
+        "IconHint": "consequatur",
+        "Selected": false,
+        "LastChanged": "1998-05-04T16:32:48.8682307+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "perspiciatis",
-        "Hidden": true,
-        "FullName": "Brock Stroman",
+        "ExtraInfo": "modi",
+        "StyleHint": "nesciunt",
+        "Hidden": false,
+        "FullName": "Ms. Rhea Eulalia McCullough Jr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 898
+            "FieldLength": 466
           }
         }
       }
     ],
-    "ExtraInfo": "aliquam",
-    "StyleHint": "cum",
-    "Hidden": false,
-    "FullName": "Prof. Natasha Maryam Barrows",
+    "ExtraInfo": "ducimus",
+    "StyleHint": "laborum",
+    "Hidden": true,
+    "FullName": "Hillard Pfannerstill",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 806
+        "FieldLength": 768
       }
     }
   }

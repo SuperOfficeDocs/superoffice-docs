@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/Targets/CreateDefaultTargetAssignmentForCompanyWithDimension
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 930
+  "TargetDimensionId": 144
 }
 ```
 
@@ -97,24 +97,24 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "TargetAssignmentInfoId": 473,
+    "TargetAssignmentInfoId": 932,
     "Values": [
-      418,
-      503
+      360,
+      853
     ],
-    "Locked": true,
+    "Locked": false,
     "TargetAssociate": null,
     "TargetContact": null,
     "TargetUserGroup": null,
     "Currency": null,
-    "DimensionListItem": 608,
-    "DimensionListItemDisplayName": "Mayert Group",
+    "DimensionListItem": 555,
+    "DimensionListItemDisplayName": "Quitzon-Kemmer",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 63
+        "FieldLength": 152
       }
     }
   }

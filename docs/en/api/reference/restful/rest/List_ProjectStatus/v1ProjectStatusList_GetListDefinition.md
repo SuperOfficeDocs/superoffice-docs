@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 952,
-  "Name": "O'Kon, Goyette and White",
-  "Tooltip": "fuga",
-  "Deleted": false,
-  "Rank": 71,
-  "IsCustomList": false,
+  "Id": 357,
+  "Name": "Fisher LLC",
+  "Tooltip": "quisquam",
+  "Deleted": true,
+  "Rank": 867,
+  "IsCustomList": true,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "laboriosam",
-  "InUseByUserDefinedFields": false,
+  "ListType": "iure",
+  "InUseByUserDefinedFields": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 598
+      "FieldLength": 792
     }
   },
   "_Links": {

@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Archive/SetChosenColumns
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Vandervort, Becker and Friesen",
-  "ProviderName": "Bauch Inc and Sons",
+  "GuiName": "Jones-Aufderhar",
+  "ProviderName": "Armstrong, Gottlieb and Ruecker",
   "ChosenColumns": [
-    "dolorem",
-    "quo"
+    "incidunt",
+    "fugit"
   ]
 }
 ```

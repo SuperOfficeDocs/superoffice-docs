@@ -81,11 +81,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetFieldValuesFromCrm
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecordId": 670,
+  "RecordId": 150,
   "ActorTypeCrm": "Contact"
 }
 ```
@@ -98,18 +98,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DisplayName": "Nader Inc and Sons",
-    "CrmFieldKey": "illo",
-    "Value": "harum",
-    "DisplayValue": "aut",
-    "SyncToCrm": false,
-    "SyncToErp": false,
+    "DisplayName": "Farrell-Padberg",
+    "CrmFieldKey": "qui",
+    "Value": "et",
+    "DisplayValue": "consequatur",
+    "SyncToCrm": true,
+    "SyncToErp": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 810
+        "FieldLength": 789
       }
     }
   }

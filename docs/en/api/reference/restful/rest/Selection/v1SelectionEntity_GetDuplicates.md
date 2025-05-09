@@ -74,17 +74,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hand, Bayer and Ondricka",
-    "SoPrimaryKey": 860,
-    "EntryName": "Padberg-Schamberger",
-    "EntryIdentifier": "delectus",
-    "RuleDisplayName": "Monahan, Renner and Schulist",
+    "RuleName": "Hirthe, Schamberger and Turcotte",
+    "SoPrimaryKey": 380,
+    "EntryName": "Gleason Inc and Sons",
+    "EntryIdentifier": "accusantium",
+    "RuleDisplayName": "Pacocha-Bernier",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 473
+        "FieldType": "System.Int32",
+        "FieldLength": 418
       }
     }
   }

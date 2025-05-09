@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/AddLicenseFromFile
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "FileContent": "aspernatur"
+  "FileContent": "itaque"
 }
 ```
 
@@ -92,21 +92,21 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Reason": "",
-  "CanBeActivated": false,
+  "CanBeActivated": true,
   "New": null,
   "Current": null,
   "ExtendedModuleLicenses": [
     {
       "New": null,
       "Current": null,
-      "NumberOfLicensesInUse": 968,
-      "NumberOfLicensesFree": 110,
-      "NumberOfLicensesAdded": 28,
-      "NumberOfLicensesNewTotal": 231,
-      "NumberOfLicensesNewFree": 241,
-      "NumberOfLicensesTotal": 340
+      "NumberOfLicensesInUse": 522,
+      "NumberOfLicensesFree": 299,
+      "NumberOfLicensesAdded": 224,
+      "NumberOfLicensesNewTotal": 892,
+      "NumberOfLicensesNewFree": 358,
+      "NumberOfLicensesTotal": 480
     }
   ],
-  "AccumulatedNextCheckDate": "2011-11-29T13:14:00.532487+01:00"
+  "AccumulatedNextCheckDate": "2006-02-01T16:32:39.1957533+01:00"
 }
 ```

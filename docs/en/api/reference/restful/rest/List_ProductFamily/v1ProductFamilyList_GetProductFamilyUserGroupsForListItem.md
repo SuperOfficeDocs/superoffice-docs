@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ProductFamily/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 836,
-    "Name": "O'Hara, Jacobson and Gorczany",
-    "ToolTip": "Eum quo iure voluptatem vel vel labore est.",
+    "Id": 745,
+    "Name": "Collins-Ankunding",
+    "ToolTip": "Id saepe est eius adipisci totam voluptatem.",
     "Deleted": false,
-    "Rank": 431,
-    "Type": "ut",
-    "ColorBlock": 115,
-    "IconHint": "quo",
+    "Rank": 56,
+    "Type": "praesentium",
+    "ColorBlock": 571,
+    "IconHint": "suscipit",
     "Selected": false,
-    "LastChanged": "2007-01-25T13:14:09.9160322+01:00",
+    "LastChanged": "2002-06-24T16:32:48.8057473+02:00",
     "ChildItems": [
       {
-        "Id": 712,
-        "Name": "Veum, Bashirian and Walker",
-        "ToolTip": "Ut omnis repellat fugit vitae dolorum sit omnis.",
-        "Deleted": false,
-        "Rank": 954,
-        "Type": "et",
-        "ColorBlock": 171,
-        "IconHint": "atque",
+        "Id": 863,
+        "Name": "Marquardt, Block and Cremin",
+        "ToolTip": "Cumque aperiam vitae quo rem et aut et.",
+        "Deleted": true,
+        "Rank": 233,
+        "Type": "fuga",
+        "ColorBlock": 919,
+        "IconHint": "et",
         "Selected": true,
-        "LastChanged": "2010-12-20T13:14:09.9160322+01:00",
+        "LastChanged": "2012-05-02T16:32:48.8057473+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "quidem",
-        "StyleHint": "nesciunt",
-        "Hidden": true,
-        "FullName": "Elenora Kemmer",
+        "ExtraInfo": "et",
+        "StyleHint": "qui",
+        "Hidden": false,
+        "FullName": "Mr. Jeromy Mose Hoeger I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 256
+            "FieldLength": 560
           }
         }
       }
     ],
-    "ExtraInfo": "aperiam",
-    "StyleHint": "officiis",
+    "ExtraInfo": "molestiae",
+    "StyleHint": "hic",
     "Hidden": false,
-    "FullName": "Dr. Cortney Jones III",
+    "FullName": "Jakayla Schultz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 33
+        "FieldLength": 776
       }
     }
   }

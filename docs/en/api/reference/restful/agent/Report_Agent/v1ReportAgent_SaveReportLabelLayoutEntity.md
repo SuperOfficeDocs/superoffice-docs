@@ -85,22 +85,22 @@ OK
 POST /api/v1/Agents/Report/SaveReportLabelLayoutEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 798,
-  "Name": "Cummings Group",
-  "Description": "Distributed assymetric data-warehouse",
+  "ReportLabelLayoutId": 499,
+  "Name": "Haag Inc and Sons",
+  "Description": "Virtual radical product",
   "Orientation": "Landscape",
-  "PaperWidth": 509,
-  "PaperHeight": 917,
-  "LeftMargin": 617,
-  "RightMargin": 134,
-  "TopMargin": 709,
-  "BottomMargin": 271,
-  "CountColumns": 421,
-  "CountRows": 415
+  "PaperWidth": 830,
+  "PaperHeight": 1001,
+  "LeftMargin": 984,
+  "RightMargin": 917,
+  "TopMargin": 210,
+  "BottomMargin": 616,
+  "CountColumns": 660,
+  "CountRows": 644
 }
 ```
 
@@ -111,24 +111,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ReportLabelLayoutId": 593,
-  "Name": "Lehner, Bruen and Cormier",
-  "Description": "Enhanced hybrid toolset",
+  "ReportLabelLayoutId": 854,
+  "Name": "Abshire Inc and Sons",
+  "Description": "Triple-buffered contextually-based hierarchy",
   "Orientation": "Landscape",
-  "PaperWidth": 794,
-  "PaperHeight": 641,
-  "LeftMargin": 318,
-  "RightMargin": 975,
-  "TopMargin": 725,
-  "BottomMargin": 941,
-  "CountColumns": 668,
-  "CountRows": 848,
+  "PaperWidth": 579,
+  "PaperHeight": 852,
+  "LeftMargin": 231,
+  "RightMargin": 109,
+  "TopMargin": 422,
+  "BottomMargin": 655,
+  "CountColumns": 534,
+  "CountRows": 471,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 723
+      "FieldLength": 470
     }
   }
 }

@@ -109,7 +109,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
-  "MessageServerId": 873,
+  "MessageServerId": 417,
   "LookupAddresses": false,
   "Flags": "Answered",
   "IncludeAttachments": false
@@ -125,147 +125,147 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 76,
-      "ContactName": "Lindgren Inc and Sons",
-      "PersonId": 912,
-      "PersonName": "Jacobs-Beer",
-      "AssociateId": 498,
-      "Address": "ut",
-      "EmailId": 107,
+      "ContactId": 5,
+      "ContactName": "Pacocha-Mueller",
+      "PersonId": 251,
+      "PersonName": "Schmidt-Nikolaus",
+      "AssociateId": 243,
+      "Address": "laboriosam",
+      "EmailId": 507,
       "DuplicatePersonIds": [
-        830,
-        736
+        461,
+        336
       ],
-      "Name": "Bayer, Wisozk and Aufderhar",
+      "Name": "Turcotte-Rogahn",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 195
+          "FieldLength": 279
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 57,
-      "ContactName": "Bartell-Kulas",
-      "PersonId": 212,
-      "PersonName": "Murray, Sauer and Hartmann",
-      "AssociateId": 467,
-      "Address": "assumenda",
-      "EmailId": 792,
+      "ContactId": 430,
+      "ContactName": "Cormier, Rodriguez and Langosh",
+      "PersonId": 511,
+      "PersonName": "Glover-Brekke",
+      "AssociateId": 781,
+      "Address": "eum",
+      "EmailId": 988,
       "DuplicatePersonIds": [
-        74,
-        101
+        344,
+        506
       ],
-      "Name": "West-Kilback",
+      "Name": "Jewess, Bergnaum and Hirthe",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 684
+          "FieldLength": 799
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 907,
-      "ContactName": "Raynor-Kling",
-      "PersonId": 47,
-      "PersonName": "Ward Inc and Sons",
-      "AssociateId": 740,
-      "Address": "neque",
-      "EmailId": 47,
+      "ContactId": 955,
+      "ContactName": "Aufderhar Inc and Sons",
+      "PersonId": 747,
+      "PersonName": "Becker-Denesik",
+      "AssociateId": 448,
+      "Address": "nobis",
+      "EmailId": 309,
       "DuplicatePersonIds": [
-        54,
-        720
+        253,
+        459
       ],
-      "Name": "Auer-McKenzie",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 213
-        }
-      }
-    }
-  ],
-  "Subject": "facilis",
-  "HTMLBody": "ex",
-  "From": null,
-  "Sent": "2024-01-22T13:14:00.360602+01:00",
-  "Size": 738,
-  "Priority": "High",
-  "Flags": "Answered",
-  "MessageID": "voluptas",
-  "PlainBody": "aut",
-  "IsSent": false,
-  "EMailSOInfo": null,
-  "ServerId": 572,
-  "Attachments": [
-    {
-      "Description": "Reactive context-sensitive project",
-      "Filename": "aut",
-      "Size": 811,
-      "Type": "sint",
-      "Encoding": "eum",
-      "Id": "deserunt",
-      "Disposition": "tempora",
-      "IsSafeFileExtension": false,
-      "Stream": "GIF89....File contents as raw bytes...",
+      "Name": "Spinka-Littel",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 620
+          "FieldLength": 963
+        }
+      }
+    }
+  ],
+  "Subject": "quis",
+  "HTMLBody": "beatae",
+  "From": null,
+  "Sent": "2022-09-10T16:32:39.0239176+02:00",
+  "Size": 780,
+  "Priority": "High",
+  "Flags": "Answered",
+  "MessageID": "illum",
+  "PlainBody": "molestiae",
+  "IsSent": true,
+  "EMailSOInfo": null,
+  "ServerId": 161,
+  "Attachments": [
+    {
+      "Description": "Exclusive dedicated implementation",
+      "Filename": "ad",
+      "Size": 811,
+      "Type": "quibusdam",
+      "Encoding": "eos",
+      "Id": "et",
+      "Disposition": "voluptatibus",
+      "IsSafeFileExtension": true,
+      "Stream": "GIF89....File contents as raw bytes...",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 656
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Weimann-Kuhlman",
+      "Name": "Moore LLC",
       "Values": [
-        "eligendi",
-        "iure"
+        "qui",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 667
         }
       }
     },
     {
-      "Name": "Weimann-Kuhlman",
+      "Name": "Moore LLC",
       "Values": [
-        "eligendi",
-        "iure"
+        "qui",
+        "rerum"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 431
+          "FieldLength": 667
         }
       }
     }
   ],
-  "FolderName": "Botsford LLC",
-  "EmailItemId": 231,
-  "AccountId": 734,
-  "ReceivedAt": "2009-05-09T13:14:00.360602+02:00",
+  "FolderName": "Berge-Skiles",
+  "EmailItemId": 650,
+  "AccountId": 135,
+  "ReceivedAt": "1998-10-26T16:32:39.0239176+01:00",
   "InReplyTo": null,
-  "RepliedAt": "2014-10-09T13:14:00.360602+02:00",
+  "RepliedAt": "2007-05-25T16:32:39.0239176+02:00",
   "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
@@ -273,8 +273,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 295
+      "FieldType": "System.String",
+      "FieldLength": 244
     }
   }
 }

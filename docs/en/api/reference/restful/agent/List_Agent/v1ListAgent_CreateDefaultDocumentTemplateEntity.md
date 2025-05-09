@@ -81,7 +81,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultDocumentTemplateEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -91,37 +91,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentTemplateId": 808,
-  "Name": "Cartwright-Torphy",
-  "Tooltip": "praesentium",
-  "SaveInDb": 89,
-  "Filename": "ipsum",
-  "DefaultOref": "quis",
+  "DocumentTemplateId": 62,
+  "Name": "Hackett, Stanton and Tillman",
+  "Tooltip": "esse",
+  "SaveInDb": 15,
+  "Filename": "qui",
+  "DefaultOref": "laborum",
   "RecordType": "Appointment",
-  "Deleted": false,
+  "Deleted": true,
   "Direction": "Incoming",
-  "AutoeventId": 511,
-  "IntentId": 830,
+  "AutoeventId": 857,
+  "IntentId": 862,
   "IsDefaultPublished": false,
-  "Rank": 974,
-  "LoadTemplateFromPlugin": 602,
-  "MimeType": "cupiditate",
+  "Rank": 885,
+  "LoadTemplateFromPlugin": 281,
+  "MimeType": "quibusdam",
   "IsInUseInGuides": true,
-  "DocumentTypeKey": 836,
+  "DocumentTypeKey": 986,
   "QuoteDocType": "ConfirmationLines",
   "PrivacyDocType": "None",
-  "EmailSubject": "webster@ebert.info",
-  "IncludeSignature": false,
-  "ShowCurrents": true,
+  "EmailSubject": "uriah.torphy@ledner.ca",
+  "IncludeSignature": true,
+  "ShowCurrents": false,
   "SenderEmailMode": "UseDefaultSender",
-  "SenderEmailAddress": "estrella@romaguera.info",
+  "SenderEmailAddress": "kali.auer@wolff.ca",
   "InvitationDocType": "Cancelled",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 294
+      "FieldLength": 559
     }
   }
 }

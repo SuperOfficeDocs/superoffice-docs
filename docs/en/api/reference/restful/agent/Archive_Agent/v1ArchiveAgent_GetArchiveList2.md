@@ -168,17 +168,17 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveList2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Stiedemann-Parisian",
-  "ProviderName": "Conroy, Shields and Dach",
-  "SortOrder": "tempore",
-  "Restriction": "quidem",
-  "Entities": "voluptas",
-  "Page": 379,
-  "PageSize": 112
+  "GuiName": "Konopelski-Yost",
+  "ProviderName": "Bins LLC",
+  "SortOrder": "molestias",
+  "Restriction": "est",
+  "Entities": "quod",
+  "Page": 736,
+  "PageSize": 775
 }
 ```
 
@@ -190,23 +190,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Raynor, Glover and Towne",
-    "PrimaryKey": 364,
+    "EntityName": "Wuckert-Abbott",
+    "PrimaryKey": 750,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "fugit",
-        "TooltipHint": "explicabo",
-        "LinkHint": "aspernatur"
+        "DisplayValue": "qui",
+        "TooltipHint": "nulla",
+        "LinkHint": "beatae"
       }
     },
-    "LinkHint": "laboriosam",
-    "StyleHint": "totam",
+    "LinkHint": "ipsa",
+    "StyleHint": "natus",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 104
+        "FieldType": "System.Int32",
+        "FieldLength": 663
       }
     }
   }

@@ -95,8 +95,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "ProjectIds": [
-    47,
-    980
+    956,
+    277
   ]
 }
 ```
@@ -109,30 +109,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 75,
-    "Name": "Moen-Jenkins",
-    "Description": "Horizontal tertiary projection",
+    "ProjectId": 545,
+    "Name": "Cartwright-Kessler",
+    "Description": "Pre-emptive logistical ability",
     "URL": "http://www.example.com/",
-    "Type": "consectetur",
-    "AssociateId": 211,
-    "AssociateFullName": "Marianne Waters",
-    "TypeId": 402,
-    "Updated": "2023-07-05T13:14:00.9390342+02:00",
-    "StatusId": 819,
-    "Status": "ad",
-    "TextId": 826,
-    "PublishTo": "2022-12-16T13:14:00.9390342+01:00",
-    "PublishFrom": "2010-01-19T13:14:00.9390342+01:00",
+    "Type": "suscipit",
+    "AssociateId": 99,
+    "AssociateFullName": "Mr. Otilia Myriam Effertz",
+    "TypeId": 41,
+    "Updated": "2023-11-12T16:32:39.6490177+01:00",
+    "StatusId": 889,
+    "Status": "qui",
+    "TextId": 566,
+    "PublishTo": "2015-06-22T16:32:39.6490177+02:00",
+    "PublishFrom": "2012-05-13T16:32:39.6490177+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "705694",
-    "ActiveErpLinks": 188,
+    "ProjectNumber": "463724",
+    "ActiveErpLinks": 333,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 25
+        "FieldType": "System.Int32",
+        "FieldLength": 991
       }
     }
   }

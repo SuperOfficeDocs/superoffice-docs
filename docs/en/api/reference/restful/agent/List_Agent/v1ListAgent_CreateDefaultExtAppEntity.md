@@ -78,7 +78,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultExtAppEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -88,34 +88,34 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ExtAppId": 951,
-  "Name": "Volkman Group",
-  "Tooltip": "est",
+  "ExtAppId": 984,
+  "Name": "Borer-Upton",
+  "Tooltip": "eveniet",
   "Deleted": false,
-  "Rank": 480,
-  "Filename": "excepturi",
-  "Parameters": "aut",
-  "Workdir": "dolor",
+  "Rank": 292,
+  "Filename": "aspernatur",
+  "Parameters": "dolores",
+  "Workdir": "tempora",
   "ShowState": "AddressBar",
   "VisibleIn": "ActivityDialog",
   "OnCentral": false,
-  "OnSatellite": true,
+  "OnSatellite": false,
   "OnTravel": false,
-  "OnSalesMarketingPocket": true,
+  "OnSalesMarketingPocket": false,
   "ShowInMenuBar": false,
   "ShowInToolBar": true,
-  "ShowInAddressBar": true,
+  "ShowInAddressBar": false,
   "ShowInStatusBar": false,
-  "Icon": 388,
+  "Icon": 897,
   "WaitToFinish": false,
   "ExecuteOnEvent": "LocalUpdate",
-  "Path": "distinctio",
+  "Path": "porro",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 478
+      "FieldLength": 533
     }
   }
 }

@@ -98,17 +98,17 @@ OK
 POST /api/v1/Agents/Document/GetContactDocumentsByTemplateTypes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 741,
-  "StartTime": "2023-07-07T13:14:00.0788404+02:00",
-  "EndTime": "2017-03-29T13:14:00.0788404+02:00",
-  "Count": 42,
+  "ContactId": 897,
+  "StartTime": "2003-01-18T16:32:38.6333805+01:00",
+  "EndTime": "2020-04-15T16:32:38.6333805+02:00",
+  "Count": 622,
   "DocumentTemplateIds": [
-    68,
-    359
+    11,
+    214
   ]
 }
 ```
@@ -121,32 +121,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 481,
-    "Attention": "inventore",
-    "Header": "beatae",
-    "Name": "Kassulke, Olson and Emmerich",
-    "OurRef": "repudiandae",
-    "YourRef": "quam",
-    "Description": "Multi-channelled client-driven budgetary management",
-    "DocumentTemplate": "quam",
-    "IsPublished": false,
-    "PersonId": 746,
-    "PersonFullName": "Anita Baumbach",
-    "AssociateFullName": "Prof. Roscoe Kamren Stracke DDS",
-    "ContactId": 786,
-    "ContactName": "Pagac, Johnson and Nader",
-    "ProjectId": 990,
-    "ProjectName": "Monahan, Altenwerth and Towne",
-    "AssociateId": 528,
-    "Snum": 843,
-    "SaleId": 767,
-    "SaleName": "Green LLC",
+    "DocumentId": 446,
+    "Attention": "et",
+    "Header": "distinctio",
+    "Name": "Pouros LLC",
+    "OurRef": "quisquam",
+    "YourRef": "et",
+    "Description": "Future-proofed value-added protocol",
+    "DocumentTemplate": "provident",
+    "IsPublished": true,
+    "PersonId": 991,
+    "PersonFullName": "Jewell Witting",
+    "AssociateFullName": "Sylvan Wunsch",
+    "ContactId": 191,
+    "ContactName": "Maggio, Koepp and Oberbrunner",
+    "ProjectId": 240,
+    "ProjectName": "Sanford-O'Conner",
+    "AssociateId": 284,
+    "Snum": 972,
+    "SaleId": 895,
+    "SaleName": "Hand, Buckridge and Volkman",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 525
+        "FieldLength": 771
       }
     }
   }

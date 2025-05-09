@@ -83,41 +83,41 @@ OK
 POST /api/v1/Agents/AI/GetChatbotResponse
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ChatId": "et",
-  "IsoLangCode": "eius",
-  "UserPrompt": "quos",
-  "DisplayValue": "aspernatur",
+  "ChatId": "nisi",
+  "IsoLangCode": "commodi",
+  "UserPrompt": "ut",
+  "DisplayValue": "ipsa",
   "PreviousTurns": [
     {
-      "Timestamp": "2001-12-31T13:13:58.953207+01:00",
-      "UserPrompt": "et",
-      "UserDisplayText": "delectus",
-      "BotResponse": "eius",
+      "Timestamp": "2003-10-11T16:32:37.5553077+02:00",
+      "UserPrompt": "aliquid",
+      "UserDisplayText": "aut",
+      "BotResponse": "debitis",
       "BotActions": {
-        "BotActions1": "velit",
-        "BotActions2": "et"
+        "BotActions1": "ut",
+        "BotActions2": "a"
       },
       "Attachments": [
-        "odio",
-        "velit"
+        "ratione",
+        "reiciendis"
       ]
     },
     {
-      "Timestamp": "2001-12-31T13:13:58.953207+01:00",
-      "UserPrompt": "et",
-      "UserDisplayText": "delectus",
-      "BotResponse": "eius",
+      "Timestamp": "2003-10-11T16:32:37.5553077+02:00",
+      "UserPrompt": "aliquid",
+      "UserDisplayText": "aut",
+      "BotResponse": "debitis",
       "BotActions": {
-        "BotActions1": "velit",
-        "BotActions2": "et"
+        "BotActions1": "ut",
+        "BotActions2": "a"
       },
       "Attachments": [
-        "odio",
-        "velit"
+        "ratione",
+        "reiciendis"
       ]
     }
   ],
@@ -132,17 +132,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Timestamp": "2007-03-28T13:13:58.953207+02:00",
-  "UserPrompt": "beatae",
-  "UserDisplayText": "iusto",
-  "BotResponse": "occaecati",
+  "Timestamp": "2023-05-11T16:32:37.5553077+02:00",
+  "UserPrompt": "aut",
+  "UserDisplayText": "ut",
+  "BotResponse": "et",
   "BotActions": {
-    "BotActions1": "tempora",
-    "BotActions2": "odit"
+    "BotActions1": "quam",
+    "BotActions2": "fugiat"
   },
   "Attachments": [
-    "illo",
-    "id"
+    "quo",
+    "sequi"
   ]
 }
 ```

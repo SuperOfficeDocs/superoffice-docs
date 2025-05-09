@@ -73,28 +73,28 @@ OK
 POST /api/v1/Agents/Targets/SaveTargetGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 214,
-  "Year": 693,
+  "TargetGroupId": 385,
+  "Year": 129,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 531,
+      "TargetAssignmentInfoId": 573,
       "Values": [
-        541,
-        83
+        499,
+        152
       ],
       "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 49,
-      "DimensionListItemDisplayName": "Walsh, Davis and Goodwin"
+      "DimensionListItem": 576,
+      "DimensionListItemDisplayName": "White-Schaefer"
     }
   ],
   "TargetDimension": null
@@ -108,30 +108,30 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetGroupId": 336,
-  "Year": 43,
+  "TargetGroupId": 826,
+  "Year": 727,
   "EntityType": "None",
   "PeriodType": "HalfYear",
   "TargetAssignments": [
     {
-      "TargetAssignmentInfoId": 52,
+      "TargetAssignmentInfoId": 954,
       "Values": [
-        1001,
-        926
+        743,
+        495
       ],
-      "Locked": true,
+      "Locked": false,
       "TargetAssociate": null,
       "TargetContact": null,
       "TargetUserGroup": null,
       "Currency": null,
-      "DimensionListItem": 218,
-      "DimensionListItemDisplayName": "Mueller, Fahey and Greenholt",
+      "DimensionListItem": 737,
+      "DimensionListItemDisplayName": "Homenick, Abshire and Windler",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 363
+          "FieldLength": 422
         }
       }
     }
@@ -142,7 +142,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 357
+      "FieldLength": 850
     }
   }
 }

@@ -77,12 +77,12 @@ OK
 POST /api/v1/Agents/User/GetCredentialUsersInGroup
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Type": "quis",
-  "GroupName": "Dibbert-Sanford"
+  "Type": "magnam",
+  "GroupName": "Hessel Group"
 }
 ```
 
@@ -94,41 +94,41 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Headings": [
-    "sint",
-    "quas"
+    "harum",
+    "nulla"
   ],
   "Users": [
     {
-      "Value": "saepe",
-      "DisplayValue": "blanditiis",
+      "Value": "amet",
+      "DisplayValue": "ab",
       "Columns": [
-        "veniam",
-        "quia"
+        "officiis",
+        "culpa"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 616
+          "FieldType": "System.String",
+          "FieldLength": 120
         }
       }
     },
     {
-      "Value": "saepe",
-      "DisplayValue": "blanditiis",
+      "Value": "amet",
+      "DisplayValue": "ab",
       "Columns": [
-        "veniam",
-        "quia"
+        "officiis",
+        "culpa"
       ],
       "CanCreatePerson": false,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 616
+          "FieldType": "System.String",
+          "FieldLength": 120
         }
       }
     }
@@ -138,7 +138,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 40
+      "FieldLength": 807
     }
   }
 }

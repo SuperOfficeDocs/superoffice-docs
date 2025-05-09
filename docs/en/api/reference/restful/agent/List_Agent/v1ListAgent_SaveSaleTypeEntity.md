@@ -105,51 +105,51 @@ OK
 POST /api/v1/Agents/List/SaveSaleTypeEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 874,
-  "Name": "Bernhard LLC",
-  "Tooltip": "quis",
-  "Rank": 780,
+  "SaleTypeId": 210,
+  "Name": "Gaylord Group",
+  "Tooltip": "cum",
+  "Rank": 744,
   "DurationUnit": "Century",
-  "SaleDuration": 390,
-  "SaleTypeCatId": 613,
+  "SaleDuration": 294,
+  "SaleTypeCatId": 560,
   "Deleted": false,
-  "HasGuide": false,
+  "HasGuide": true,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
   "AllowQuoteAlternatives": false,
-  "DefaultQuoteValidity": 515,
-  "QuoteLinesTemplate": 35,
-  "ConfirmationLinesTemplate": 711,
+  "DefaultQuoteValidity": 672,
+  "QuoteLinesTemplate": 891,
+  "ConfirmationLinesTemplate": 359,
   "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 390,
-  "MinEarningPercent": 250,
-  "GroupQuoteLinesBy": 288,
-  "SortGroupLinesBy": 217,
+  "MaxDiscountPercent": 750,
+  "MinEarningPercent": 638,
+  "GroupQuoteLinesBy": 196,
+  "SortGroupLinesBy": 381,
   "Stages": [
     {
-      "Id": 212,
-      "Name": "Walsh, Kautzer and Buckridge",
-      "ToolTip": "Consequatur modi quidem harum quia voluptatibus.",
-      "Deleted": false,
-      "Rank": 114,
-      "Type": "laboriosam",
-      "ColorBlock": 543,
-      "IconHint": "voluptas",
-      "Selected": true,
-      "LastChanged": "2020-12-25T13:14:00.6575024+01:00",
+      "Id": 867,
+      "Name": "Bergnaum-Pouros",
+      "ToolTip": "Fugiat quisquam animi et.",
+      "Deleted": true,
+      "Rank": 583,
+      "Type": "facilis",
+      "ColorBlock": 311,
+      "IconHint": "exercitationem",
+      "Selected": false,
+      "LastChanged": "2011-09-08T16:32:39.320696+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "qui",
-      "StyleHint": "voluptas",
+      "ExtraInfo": "ut",
+      "StyleHint": "neque",
       "Hidden": false,
-      "FullName": "Mrs. Orland Murray"
+      "FullName": "Miss Alisa Hermann Stiedemann"
     }
   ]
 }
@@ -162,53 +162,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 94,
-  "Name": "Wisoky LLC",
-  "Tooltip": "ullam",
-  "Rank": 584,
+  "SaleTypeId": 593,
+  "Name": "Effertz-O'Kon",
+  "Tooltip": "eos",
+  "Rank": 884,
   "DurationUnit": "Century",
-  "SaleDuration": 554,
-  "SaleTypeCatId": 417,
+  "SaleDuration": 565,
+  "SaleTypeCatId": 124,
   "Deleted": false,
-  "HasGuide": true,
+  "HasGuide": false,
   "HasStakeholders": false,
   "IsAutoAdvance": false,
-  "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 554,
-  "QuoteLinesTemplate": 93,
-  "ConfirmationLinesTemplate": 902,
+  "AllowQuoteAlternatives": false,
+  "DefaultQuoteValidity": 739,
+  "QuoteLinesTemplate": 579,
+  "ConfirmationLinesTemplate": 527,
   "MaxDiscountPercentSet": false,
-  "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 606,
-  "MinEarningPercent": 966,
-  "GroupQuoteLinesBy": 974,
-  "SortGroupLinesBy": 242,
+  "MinEarningPercentSet": true,
+  "MaxDiscountPercent": 965,
+  "MinEarningPercent": 123,
+  "GroupQuoteLinesBy": 299,
+  "SortGroupLinesBy": 628,
   "Stages": [
     {
-      "Id": 420,
-      "Name": "Keeling Inc and Sons",
-      "ToolTip": "Omnis laboriosam necessitatibus molestiae esse aliquam doloremque qui.",
-      "Deleted": false,
-      "Rank": 793,
-      "Type": "itaque",
-      "ColorBlock": 809,
-      "IconHint": "consequatur",
+      "Id": 727,
+      "Name": "Nader, Wolff and Miller",
+      "ToolTip": "Consequatur culpa eos provident odit alias non et.",
+      "Deleted": true,
+      "Rank": 472,
+      "Type": "voluptas",
+      "ColorBlock": 491,
+      "IconHint": "et",
       "Selected": false,
-      "LastChanged": "2016-07-23T13:14:00.6575024+02:00",
+      "LastChanged": "2005-01-31T16:32:39.320696+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "vero",
-      "StyleHint": "consequatur",
-      "Hidden": false,
-      "FullName": "Mrs. Dina Okuneva",
+      "ExtraInfo": "assumenda",
+      "StyleHint": "id",
+      "Hidden": true,
+      "FullName": "Mr. Chauncey Lilian Davis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 21
+          "FieldType": "System.String",
+          "FieldLength": 860
         }
       }
     }
@@ -217,8 +217,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 660
+      "FieldType": "System.Int32",
+      "FieldLength": 193
     }
   }
 }

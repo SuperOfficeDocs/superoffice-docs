@@ -97,13 +97,13 @@ OK
 POST /api/v1/Agents/Quote/CopyQuoteAlternative
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteVersionId": 533,
-  "QuoteAlternativeId": 608,
-  "QuoteAlternativeName": "Waters, Wolff and Feest"
+  "QuoteVersionId": 942,
+  "QuoteAlternativeId": 882,
+  "QuoteAlternativeName": "Willms-Skiles"
 }
 ```
 
@@ -114,35 +114,35 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "QuoteAlternativeId": 462,
-  "ERPQuoteAlternativeKey": "harum",
-  "QuoteVersionId": 56,
-  "Name": "Ferry-Reinger",
-  "Description": "Organic leading edge frame",
+  "QuoteAlternativeId": 528,
+  "ERPQuoteAlternativeKey": "hic",
+  "QuoteVersionId": 322,
+  "Name": "Kassulke-Olson",
+  "Description": "Horizontal cohesive flexibility",
   "Status": "Error",
   "Reason": "",
-  "ERPDiscountPercent": 8552.686,
-  "ERPDiscountAmount": 11066.154,
-  "DiscountPercent": 4581.9079999999994,
-  "DiscountAmount": 24554.89,
+  "ERPDiscountPercent": 24526.683999999997,
+  "ERPDiscountAmount": 23160.26,
+  "DiscountPercent": 8010.504,
+  "DiscountAmount": 23564.546,
   "UserValueOverride": "DiscountAmount",
-  "VATInfo": "quis",
-  "VAT": 8988.312,
-  "EarningPercent": 3362.7819999999997,
-  "EarningAmount": 20270.712,
-  "SubTotal": 10630.528,
-  "TotalPrice": 30835.426,
-  "ExtraField1": "libero",
-  "ExtraField2": "nobis",
-  "ExtraField3": "error",
-  "ExtraField4": "quasi",
-  "ExtraField5": "quibusdam",
+  "VATInfo": "sit",
+  "VAT": 23968.832,
+  "EarningPercent": 26729.886,
+  "EarningAmount": 2294.0879999999997,
+  "SubTotal": 8411.655999999999,
+  "TotalPrice": 5287.058,
+  "ExtraField1": "hic",
+  "ExtraField2": "magni",
+  "ExtraField3": "ullam",
+  "ExtraField4": "non",
+  "ExtraField5": "corrupti",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 49
+      "FieldLength": 70
     }
   }
 }

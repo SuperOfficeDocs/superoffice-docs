@@ -89,7 +89,7 @@ Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "porro",
+  "Path": "id",
   "Entity": null
 }
 ```
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 900,
+  "HierarchyId": 323,
   "Domain": "Dashboards",
-  "Name": "Armstrong, Cormier and Durgan",
-  "Fullname": "quo",
-  "ParentId": 52,
+  "Name": "Keeling-Kshlerin",
+  "Fullname": "placeat",
+  "ParentId": 403,
   "Children": [
     {
-      "HierarchyId": 526,
+      "HierarchyId": 138,
       "Domain": "Dashboards",
-      "Name": "Daugherty-Hettinger",
-      "Fullname": "pariatur",
-      "ParentId": 576,
+      "Name": "Maggio, Beahan and Towne",
+      "Fullname": "quam",
+      "ParentId": 740,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2020-08-02T13:14:00.6418764+02:00",
-      "RegisteredAssociateId": 736,
-      "Updated": "2022-07-18T13:14:00.6418764+02:00",
-      "UpdatedAssociateId": 826,
+      "Registered": "2013-06-15T16:32:39.3051024+02:00",
+      "RegisteredAssociateId": 255,
+      "Updated": "2008-08-05T16:32:39.3051024+02:00",
+      "UpdatedAssociateId": 525,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 125
+          "FieldLength": 253
         }
       }
     }
   ],
-  "Registered": "2008-03-30T13:14:00.6418764+02:00",
-  "RegisteredAssociateId": 111,
-  "Updated": "2009-11-23T13:14:00.6418764+01:00",
-  "UpdatedAssociateId": 464,
+  "Registered": "2007-11-01T16:32:39.3051024+01:00",
+  "RegisteredAssociateId": 609,
+  "Updated": "1999-06-15T16:32:39.3051024+02:00",
+  "UpdatedAssociateId": 915,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 68
+      "FieldLength": 738
     }
   }
 }

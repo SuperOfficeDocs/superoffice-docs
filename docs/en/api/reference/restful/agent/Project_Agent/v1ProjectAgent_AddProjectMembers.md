@@ -65,34 +65,34 @@ No Content
 POST /api/v1/Agents/Project/AddProjectMembers
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProjectEntityId": 216,
+  "ProjectEntityId": 106,
   "ProjectMembers": [
     {
-      "ProjectmemberId": 824,
-      "ContactId": 500,
-      "ProjectId": 278,
-      "ContactName": "Hackett, Shields and Harber",
+      "ProjectmemberId": 955,
+      "ContactId": 730,
+      "ProjectId": 729,
+      "ContactName": "Zboncak, Satterfield and Gutkowski",
       "ContactDepartment": "",
-      "ProjectName": "Bechtelar Group",
-      "EmailId": 855,
-      "EmailAddress": "monica_lebsack@haley.ca",
-      "CountryId": 836,
-      "Firstname": "Laurence",
-      "MiddleName": "Parker Inc and Sons",
-      "Lastname": "Cormier",
-      "PersonId": 416,
-      "Mrmrs": "inventore",
-      "ProjectMemberTypeName": "Jacobs, Rodriguez and VonRueden",
-      "Phone": "583-042-3016",
-      "PhoneId": 262,
-      "ProjectMemberTypeId": 537,
-      "EmailAddressName": "jordy@brekkefriesen.uk",
-      "Comment": "amet",
-      "FullName": "Dewitt Schuster"
+      "ProjectName": "Paucek, Hilll and Volkman",
+      "EmailId": 226,
+      "EmailAddress": "evangeline.schaefer@mayert.ca",
+      "CountryId": 499,
+      "Firstname": "Marcos",
+      "MiddleName": "Feil LLC",
+      "Lastname": "Ledner",
+      "PersonId": 475,
+      "Mrmrs": "enim",
+      "ProjectMemberTypeName": "Waters, Cole and Macejkovic",
+      "Phone": "442-887-3318 x6918",
+      "PhoneId": 77,
+      "ProjectMemberTypeId": 733,
+      "EmailAddressName": "jaqueline@rennertromp.biz",
+      "Comment": "sapiente",
+      "FullName": "Margaret Fadel"
     }
   ]
 }

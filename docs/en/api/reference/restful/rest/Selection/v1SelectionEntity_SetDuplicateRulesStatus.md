@@ -57,20 +57,20 @@ No Content
 PUT /api/v1/Selection/DuplicateRules
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Ledner, Gusikowski and Hodkiewicz",
-    "DisplayName": "Lehner LLC",
-    "DisplayTooltip": "nemo",
+    "Name": "Barton-Mayert",
+    "DisplayName": "Hagenes, Champlin and Cassin",
+    "DisplayTooltip": "nihil",
     "IsActive": false
   },
   {
-    "Name": "Ledner, Gusikowski and Hodkiewicz",
-    "DisplayName": "Lehner LLC",
-    "DisplayTooltip": "nemo",
+    "Name": "Barton-Mayert",
+    "DisplayName": "Hagenes, Champlin and Cassin",
+    "DisplayTooltip": "nihil",
     "IsActive": false
   }
 ]

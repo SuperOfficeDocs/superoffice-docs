@@ -24,6 +24,7 @@ Service methods defined on <see cref='T:ICustomerServiceAgent'>CustomerServiceAg
 * [DeleteChatSessions](deletechatsessions.md)
 * [DeleteCustomerCenterConfig](deletecustomercenterconfig.md)
 * [EventHandlerExists](eventhandlerexists.md)
+* [EventHandlersExists](eventhandlersexists.md)
 * [ExecuteEventHandlers](executeeventhandlers.md)
 * [FindTicketsByTitleOrId](findticketsbytitleorid.md)
 * [GetAllCustomerCenterConfigs](getallcustomercenterconfigs.md)

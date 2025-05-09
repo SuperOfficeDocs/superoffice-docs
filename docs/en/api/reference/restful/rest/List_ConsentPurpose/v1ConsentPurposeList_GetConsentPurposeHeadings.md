@@ -62,7 +62,7 @@ OK
 GET /api/v1/List/ConsentPurpose/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -73,18 +73,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 14,
-    "Name": "Raynor Group",
-    "Tooltip": "atque",
+    "HeadingId": 798,
+    "Name": "Walsh Inc and Sons",
+    "Tooltip": "aut",
     "Deleted": true,
-    "Rank": 942,
-    "UdListDefinitionId": 10,
+    "Rank": 526,
+    "UdListDefinitionId": 80,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 128
+        "FieldType": "System.String",
+        "FieldLength": 121
       }
     }
   }

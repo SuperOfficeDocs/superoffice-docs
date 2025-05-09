@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=False
+GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings?showDeleted=True
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/DocumentTemplate/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 41,
-    "Name": "Bruen-Witting",
-    "ToolTip": "Quo in alias.",
+    "Id": 454,
+    "Name": "Nader-Ward",
+    "ToolTip": "Qui optio vero veritatis nemo omnis.",
     "Deleted": true,
-    "Rank": 60,
-    "Type": "aspernatur",
-    "ColorBlock": 679,
-    "IconHint": "et",
+    "Rank": 210,
+    "Type": "voluptatem",
+    "ColorBlock": 763,
+    "IconHint": "dolor",
     "Selected": false,
-    "LastChanged": "2016-08-11T13:14:09.7753986+02:00",
+    "LastChanged": "2007-10-02T16:32:48.6807732+02:00",
     "ChildItems": [
       {
-        "Id": 489,
-        "Name": "Howe-Abshire",
-        "ToolTip": "Sint doloremque repellat enim commodi voluptatem molestias maiores.",
+        "Id": 992,
+        "Name": "Deckow-Hermann",
+        "ToolTip": "Quae similique commodi.",
         "Deleted": false,
-        "Rank": 402,
-        "Type": "aliquam",
-        "ColorBlock": 376,
-        "IconHint": "quo",
+        "Rank": 260,
+        "Type": "itaque",
+        "ColorBlock": 912,
+        "IconHint": "voluptas",
         "Selected": false,
-        "LastChanged": "2007-08-13T13:14:09.7753986+02:00",
+        "LastChanged": "2023-01-19T16:32:48.6807732+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "fuga",
-        "StyleHint": "quo",
+        "ExtraInfo": "nihil",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Barbara Nienow",
+        "FullName": "Sabina Hamill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 912
+            "FieldLength": 348
           }
         }
       }
     ],
-    "ExtraInfo": "tempora",
-    "StyleHint": "nihil",
+    "ExtraInfo": "voluptatum",
+    "StyleHint": "laborum",
     "Hidden": false,
-    "FullName": "Clinton Reynolds",
+    "FullName": "Dr. Tevin Donnie Rolfson",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 970
+        "FieldLength": 128
       }
     }
   }

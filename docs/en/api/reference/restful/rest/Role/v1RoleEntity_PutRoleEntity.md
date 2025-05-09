@@ -103,20 +103,20 @@ RoleEntity updated.
 PUT /api/v1/Role/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 207,
-  "Name": "Herman Inc and Sons",
-  "Tooltip": "culpa",
+  "RoleId": 922,
+  "Name": "Langworth-Kerluke",
+  "Tooltip": "temporibus",
   "RoleType": "Anonymous",
-  "Deleted": 229,
-  "Rank": 82,
-  "Created": "2021-02-26T13:14:08.9461361+01:00",
-  "UseCategories": 898,
+  "Deleted": 48,
+  "Rank": 771,
+  "Created": "2005-04-01T16:32:47.7589038+02:00",
+  "UseCategories": 427,
   "CreatedBy": null,
-  "Updated": "2007-02-24T13:14:08.9461361+01:00",
+  "Updated": "2006-06-04T16:32:47.7589038+02:00",
   "UpdatedBy": null,
   "DataRights": null
 }
@@ -129,16 +129,16 @@ HTTP/1.1 200 RoleEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 950,
-  "Name": "Abshire-Roob",
-  "Tooltip": "blanditiis",
+  "RoleId": 315,
+  "Name": "Morar, Wehner and Yost",
+  "Tooltip": "et",
   "RoleType": "Anonymous",
-  "Deleted": 912,
-  "Rank": 21,
-  "Created": "2014-10-22T13:14:08.961762+02:00",
-  "UseCategories": 260,
+  "Deleted": 366,
+  "Rank": 837,
+  "Created": "2013-08-21T16:32:47.7589038+02:00",
+  "UseCategories": 757,
   "CreatedBy": null,
-  "Updated": "2000-10-04T13:14:08.961762+02:00",
+  "Updated": "2009-09-26T16:32:47.7745258+02:00",
   "UpdatedBy": null,
   "DataRights": null,
   "TableRight": null,
@@ -146,12 +146,12 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 11
+      "FieldLength": 764
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/project/321",
-    "Archive": "https://www.example.com/api/v1/project"
+    "Self": "https://www.example.com/api/v1/contact/321",
+    "Archive": "https://www.example.com/api/v1/contact"
   }
 }
 ```

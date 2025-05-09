@@ -26,7 +26,7 @@ Gets a WorkflowTrigger object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=911
+POST /api/v1/Agents/Workflow/GetWorkflowTrigger?workflowTriggerId=403
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger?$select=name,department,category/id
 ```
 
@@ -70,7 +70,7 @@ OK
 POST /api/v1/Agents/Workflow/GetWorkflowTrigger
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -80,23 +80,23 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "WorkflowTriggerId": 239,
-  "WorkflowId": 198,
+  "WorkflowTriggerId": 983,
+  "WorkflowId": 894,
   "TriggerType": "AddedMessage",
   "RestrictionGroups": [
     {
-      "Name": "Runte-Bogisich",
-      "Description": "Adaptive logistical info-mediaries",
-      "Rank": 844,
+      "Name": "Beier-Cruickshank",
+      "Description": "Optimized holistic encryption",
+      "Rank": 104,
       "Restrictions": [
         {},
         {}
       ]
     },
     {
-      "Name": "Runte-Bogisich",
-      "Description": "Adaptive logistical info-mediaries",
-      "Rank": 844,
+      "Name": "Beier-Cruickshank",
+      "Description": "Optimized holistic encryption",
+      "Rank": 104,
       "Restrictions": [
         {},
         {}
@@ -108,7 +108,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 950
+      "FieldLength": 639
     }
   }
 }

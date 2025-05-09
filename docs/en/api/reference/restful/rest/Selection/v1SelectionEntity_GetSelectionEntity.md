@@ -114,7 +114,7 @@ SelectionEntity found.
 GET /api/v1/Selection/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -122,73 +122,73 @@ Accept-Language: en
 ```http_
 HTTP/1.1 200 SelectionEntity found.
 Content-Type: application/json; charset=utf-8
-Last-Modified: Fri, 11 Nov 2016 13:14:09 G11T
+Last-Modified: Sun, 11 Aug 2013 16:32:48 G8T
 
 {
-  "Description": "Synchronised next generation infrastructure",
-  "Postit": "sed",
+  "Description": "Expanded analyzing process improvement",
+  "Postit": "eum",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 949,
-  "IncludePerson": 842,
+  "GroupIdx": 681,
+  "IncludePerson": 241,
   "MemberCount": 99.99,
-  "Name": "Schaden Group",
-  "PostitTextId": 597,
-  "CreatedDate": "2015-04-11T13:14:09.1810193+02:00",
-  "SelectionId": 983,
-  "SoundEx": "nisi",
-  "Source": 625,
-  "TextId": 512,
-  "UpdatedDate": "2016-11-11T13:14:09.1810193+01:00",
-  "UpdatedCount": 45,
-  "Visibility": 797,
+  "Name": "Altenwerth-Mueller",
+  "PostitTextId": 237,
+  "CreatedDate": "2012-04-26T16:32:48.0713331+02:00",
+  "SelectionId": 202,
+  "SoundEx": "omnis",
+  "Source": 906,
+  "TextId": 761,
+  "UpdatedDate": "2013-08-11T16:32:48.0713331+02:00",
+  "UpdatedCount": 612,
+  "Visibility": 395,
   "SelectionType": "Combined",
   "CompanyUnique": false,
-  "TargetTableNumber": 953,
-  "TargetTableName": "Smith LLC",
+  "TargetTableNumber": 207,
+  "TargetTableName": "Nicolas-Murray",
   "Completed": true,
-  "LeftSelectionId": 124,
-  "RightSelectionId": 942,
+  "LeftSelectionId": 354,
+  "RightSelectionId": 882,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Marquardt Inc and Sons",
-  "ShadowProviderName": "Stoltenberg, Mosciski and Jacobi",
-  "ChartKey": "et",
-  "LastLoaded": "2017-03-23T13:14:09.1810193+01:00",
-  "LastLoadedBy": 38,
+  "MainProviderName": "Smitham, Balistreri and Kutch",
+  "ShadowProviderName": "Little Inc and Sons",
+  "ChartKey": "iure",
+  "LastLoaded": "2017-02-11T16:32:48.0713331+01:00",
+  "LastLoadedBy": 403,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2013-04-25T13:14:09.1810193+02:00",
-  "LastMembershipChangeBy": 169,
+  "LastMembershipChange": "2001-07-23T16:32:48.0713331+02:00",
+  "LastMembershipChangeBy": 768,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "adipisci",
-  "MemberTabHeading": "aperiam",
-  "MailingsProviderName": "Powlowski-Zulauf",
-  "DashboardTileDefinitionId": 885,
+  "MainHeading": "laboriosam",
+  "MemberTabHeading": "deserunt",
+  "MailingsProviderName": "Barton, Gutkowski and Schuster",
+  "DashboardTileDefinitionId": 219,
   "VisibleFor": [
     {
-      "VisibleId": 245,
+      "VisibleId": 912,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 618
+          "FieldType": "System.Int32",
+          "FieldLength": 716
         }
       }
     },
     {
-      "VisibleId": 245,
+      "VisibleId": 912,
       "Visibility": "All",
-      "DisplayValue": "sapiente",
+      "DisplayValue": "perspiciatis",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 618
+          "FieldType": "System.Int32",
+          "FieldLength": 716
         }
       }
     }
@@ -198,7 +198,7 @@ Last-Modified: Fri, 11 Nov 2016 13:14:09 G11T
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 456
+      "FieldLength": 595
     }
   },
   "_Links": {

@@ -115,52 +115,52 @@ CRMScriptEntity updated.
 PUT /api/v1/CRMScript/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 744,
-  "UniqueIdentifier": "natus",
-  "Name": "Ullrich, Lehner and Zemlak",
-  "Description": "Object-based value-added emulation",
-  "IncludeId": "architecto",
-  "AccessKey": "voluptatum",
-  "HierarchyId": 546,
-  "Source": "officiis",
-  "SourceCode": "libero",
+  "EjscriptId": 452,
+  "UniqueIdentifier": "sint",
+  "Name": "Schmidt-Kuvalis",
+  "Description": "Implemented next generation success",
+  "IncludeId": "molestias",
+  "AccessKey": "impedit",
+  "HierarchyId": 899,
+  "Source": "fuga",
+  "SourceCode": "consequatur",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 677,
+  "HtmlOutput": 707,
   "Includes": [
-    358,
-    282
+    244,
+    797
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 808,
-      "LineNumberTo": 893,
-      "Delta": 746,
-      "IncludeId": "aut",
+      "LineNumberFrom": 834,
+      "LineNumberTo": 333,
+      "Delta": 793,
+      "IncludeId": "quaerat",
       "IncludedFrom": [
-        "incidunt",
-        "quam"
+        "est",
+        "vel"
       ]
     },
     {
-      "LineNumberFrom": 808,
-      "LineNumberTo": 893,
-      "Delta": 746,
-      "IncludeId": "aut",
+      "LineNumberFrom": 834,
+      "LineNumberTo": 333,
+      "Delta": 793,
+      "IncludeId": "quaerat",
       "IncludedFrom": [
-        "incidunt",
-        "quam"
+        "est",
+        "vel"
       ]
     }
   ],
   "ValidationResult": null,
-  "Registered": "2020-03-30T13:14:08.6178742+02:00",
-  "RegisteredAssociateId": 152,
-  "Updated": "2022-10-26T13:14:08.6178742+02:00",
-  "UpdatedAssociateId": 255
+  "Registered": "2000-12-24T16:32:47.4152322+01:00",
+  "RegisteredAssociateId": 797,
+  "Updated": "2011-06-17T16:32:47.4152322+02:00",
+  "UpdatedAssociateId": 614
 }
 ```
 
@@ -171,52 +171,52 @@ HTTP/1.1 200 CRMScriptEntity updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "EjscriptId": 591,
-  "UniqueIdentifier": "exercitationem",
-  "Name": "Macejkovic Group",
-  "Description": "Stand-alone transitional secured line",
-  "IncludeId": "qui",
-  "AccessKey": "occaecati",
-  "HierarchyId": 528,
-  "Source": "aut",
-  "SourceCode": "quos",
+  "EjscriptId": 125,
+  "UniqueIdentifier": "non",
+  "Name": "Stamm, Collins and Murazik",
+  "Description": "Reduced assymetric analyzer",
+  "IncludeId": "soluta",
+  "AccessKey": "ad",
+  "HierarchyId": 47,
+  "Source": "ea",
+  "SourceCode": "deleniti",
   "ScriptType": "CRMScript",
-  "HtmlOutput": 911,
+  "HtmlOutput": 198,
   "Includes": [
-    729,
-    527
+    651,
+    155
   ],
   "SourceMaps": [
     {
-      "LineNumberFrom": 848,
-      "LineNumberTo": 760,
-      "Delta": 705,
-      "IncludeId": "cupiditate",
+      "LineNumberFrom": 253,
+      "LineNumberTo": 560,
+      "Delta": 135,
+      "IncludeId": "dolorem",
       "IncludedFrom": [
-        "ipsa",
-        "unde"
+        "repudiandae",
+        "maxime"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 983
+          "FieldLength": 567
         }
       }
     }
   ],
   "ValidationResult": null,
-  "Registered": "2001-05-31T13:14:08.6334998+02:00",
-  "RegisteredAssociateId": 397,
-  "Updated": "2006-02-08T13:14:08.6334998+01:00",
-  "UpdatedAssociateId": 140,
+  "Registered": "2017-05-18T16:32:47.4152322+02:00",
+  "RegisteredAssociateId": 916,
+  "Updated": "2003-07-15T16:32:47.4152322+02:00",
+  "UpdatedAssociateId": 288,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 369
+      "FieldType": "System.String",
+      "FieldLength": 553
     }
   },
   "_Links": {

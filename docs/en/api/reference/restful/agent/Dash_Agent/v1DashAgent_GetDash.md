@@ -26,7 +26,7 @@ Gets a Dash object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dash/GetDash?dashId=525
+POST /api/v1/Agents/Dash/GetDash?dashId=522
 POST /api/v1/Agents/Dash/GetDash?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/Dash/GetDash
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,37 +89,37 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 1001,
-  "UniqueId": "et",
-  "Name": "Bruen, Beahan and Ritchie",
-  "Description": "Polarised zero tolerance open architecture",
-  "AssociateId": 413,
-  "Columns": 971,
+  "DashboardId": 54,
+  "UniqueId": "ex",
+  "Name": "Jerde Inc and Sons",
+  "Description": "Reactive asynchronous open architecture",
+  "AssociateId": 358,
+  "Columns": 125,
   "Theme": null,
-  "VisibleForAll": 123,
+  "VisibleForAll": 99,
   "VisibleForAssociates": [
-    124,
-    227
+    890,
+    167
   ],
   "VisibleForGroups": [
-    11,
-    225
+    880,
+    910
   ],
-  "PinForAll": 395,
+  "PinForAll": 10,
   "PinForAssociates": [
-    848,
-    389
+    363,
+    908
   ],
   "PinForGroups": [
-    55,
-    440
+    587,
+    430
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 523
+      "FieldType": "System.Int32",
+      "FieldLength": 405
     }
   }
 }

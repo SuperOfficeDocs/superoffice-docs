@@ -78,8 +78,8 @@ Content-Type: application/json; charset=utf-8
 
 {
   "FunctionalRightNames": [
-    "Littel, Schuppe and Erdman",
-    "Rempel Group"
+    "Gibson-Legros",
+    "Schulist-Moen"
   ]
 }
 ```
@@ -91,7 +91,7 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 [
-  922,
-  234
+  171,
+  221
 ]
 ```

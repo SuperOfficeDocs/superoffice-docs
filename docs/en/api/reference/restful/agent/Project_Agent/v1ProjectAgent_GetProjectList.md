@@ -87,7 +87,7 @@ OK
 POST /api/v1/Agents/Project/GetProjectList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -98,30 +98,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ProjectId": 410,
-    "Name": "Jacobson, Turcotte and Wolf",
-    "Description": "Reverse-engineered radical structure",
+    "ProjectId": 363,
+    "Name": "Schaden Inc and Sons",
+    "Description": "Ameliorated needs-based array",
     "URL": "http://www.example.com/",
-    "Type": "sequi",
-    "AssociateId": 270,
-    "AssociateFullName": "Mrs. Diamond Ardella Schultz V",
-    "TypeId": 403,
-    "Updated": "2007-01-23T13:14:00.9234102+01:00",
-    "StatusId": 156,
-    "Status": "laboriosam",
-    "TextId": 586,
-    "PublishTo": "2021-03-21T13:14:00.9234102+01:00",
-    "PublishFrom": "2024-08-07T13:14:00.9234102+02:00",
+    "Type": "autem",
+    "AssociateId": 621,
+    "AssociateFullName": "Mr. Parker Wyman",
+    "TypeId": 578,
+    "Updated": "2008-07-01T16:32:39.6490177+02:00",
+    "StatusId": 837,
+    "Status": "et",
+    "TextId": 495,
+    "PublishTo": "2002-03-19T16:32:39.6490177+01:00",
+    "PublishFrom": "2004-05-19T16:32:39.6490177+02:00",
     "IsPublished": false,
     "URLName": "http://www.example.com/",
-    "ProjectNumber": "856054",
-    "ActiveErpLinks": 849,
+    "ProjectNumber": "1027131",
+    "ActiveErpLinks": 858,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 335
+        "FieldType": "System.String",
+        "FieldLength": 701
       }
     }
   }

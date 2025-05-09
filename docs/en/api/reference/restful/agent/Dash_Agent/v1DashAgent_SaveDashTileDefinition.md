@@ -99,29 +99,29 @@ OK
 POST /api/v1/Agents/Dash/SaveDashTileDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 266,
-  "Name": "Kulas-Kris",
-  "Description": "Configurable needs-based internet solution",
-  "DefaultHeight": 832,
-  "DefaultWidth": 603,
+  "DashboardTileDefinitionId": 116,
+  "Name": "Jacobs Group",
+  "Description": "Enterprise-wide homogeneous encryption",
+  "DefaultHeight": 479,
+  "DefaultWidth": 706,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "O'Kon, Littel and Fahey",
-  "SelectionId": 17,
+  "EntityName": "Kessler Inc and Sons",
+  "SelectionId": 332,
   "CurrencyMode": "Base",
-  "CurrencyCode": "iusto",
+  "CurrencyCode": "saepe",
   "Measure": "Average",
-  "MeasureField": "ea",
-  "SortBy": "assumenda",
-  "LayoutConfig": "et",
-  "SecondarySelectionId": 765,
-  "MeasureByField": "sint",
+  "MeasureField": "quod",
+  "SortBy": "minima",
+  "LayoutConfig": "ut",
+  "SecondarySelectionId": 175,
+  "MeasureByField": "et",
   "Usage": "Dashboard",
-  "ProviderName": "Stark Group"
+  "ProviderName": "Osinski LLC"
 }
 ```
 
@@ -132,31 +132,31 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 388,
-  "Name": "Gleason Group",
-  "Description": "Enhanced bifurcated extranet",
-  "DefaultHeight": 735,
-  "DefaultWidth": 950,
+  "DashboardTileDefinitionId": 304,
+  "Name": "Feest-Hane",
+  "Description": "Universal directional challenge",
+  "DefaultHeight": 320,
+  "DefaultWidth": 654,
   "TileType": "Area",
   "EntityType": "Appointment",
-  "EntityName": "Turner Group",
-  "SelectionId": 223,
+  "EntityName": "Boyle, Pfeffer and McKenzie",
+  "SelectionId": 533,
   "CurrencyMode": "Base",
-  "CurrencyCode": "facilis",
+  "CurrencyCode": "consectetur",
   "Measure": "Average",
-  "MeasureField": "commodi",
-  "SortBy": "sed",
-  "LayoutConfig": "nihil",
-  "SecondarySelectionId": 347,
-  "MeasureByField": "sed",
+  "MeasureField": "ullam",
+  "SortBy": "molestias",
+  "LayoutConfig": "velit",
+  "SecondarySelectionId": 551,
+  "MeasureByField": "doloribus",
   "Usage": "Dashboard",
-  "ProviderName": "Breitenberg-Cassin",
+  "ProviderName": "Howe Group",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 633
+      "FieldLength": 124
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetDepartmentPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "DepartmentId": 998
+  "DepartmentId": 387
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "403.062.7831",
-    "PersonCellPhone": "516.363.4696 x86340",
-    "PersonPrivatePhone": "044-414-0712",
-    "PersonFaxNumber": "1430400",
-    "PersonPagerNumber": "940906",
-    "PersonEmail": "douglas_friesen@jacobi.name",
-    "Id": 162,
-    "Name": "Weimann, Crooks and Moore",
-    "Tooltip": "et",
-    "UniqueId": "modi",
+    "PersonDirectPhone": "058.280.5255 x455",
+    "PersonCellPhone": "1-497-241-9661 x17606",
+    "PersonPrivatePhone": "389-028-4830",
+    "PersonFaxNumber": "67889",
+    "PersonPagerNumber": "930386",
+    "PersonEmail": "susan.dickens@hilpert.name",
+    "Id": 965,
+    "Name": "Hane, Fay and Ward",
+    "Tooltip": "pariatur",
+    "UniqueId": "nesciunt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 51
+        "FieldType": "System.String",
+        "FieldLength": 161
       }
     }
   }

@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserAndInstallationLicenceStatus
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 693
+  "AssociateId": 93
 }
 ```
 
@@ -91,14 +91,14 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "AdminWarningDate": "2010-12-16T13:14:00.532487+01:00",
-  "ExpiryDate": "2006-04-29T13:14:00.532487+02:00",
-  "GraceDate": "2018-08-05T13:14:00.532487+02:00",
-  "CompanyName": "Brown, Fadel and Quigley",
+  "AdminWarningDate": "2000-05-24T16:32:39.180141+02:00",
+  "ExpiryDate": "2021-09-02T16:32:39.180141+02:00",
+  "GraceDate": "2013-05-27T16:32:39.180141+02:00",
+  "CompanyName": "Morar LLC",
   "SerialNr": "1010000006",
   "UserLicenses": [
-    "et",
-    "ea"
+    "consequatur",
+    "ipsa"
   ]
 }
 ```

@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetFolderInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "Folders": [
-    "eos",
-    "soluta"
+    "rem",
+    "optio"
   ]
 }
 ```
@@ -105,19 +105,19 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Wyman-Robel",
-    "Delimiter": "omnis",
-    "Flags": "illo",
-    "TotalItems": 794,
-    "UnreadItems": 569,
+    "Name": "Runolfsson-Hamill",
+    "Delimiter": "delectus",
+    "Flags": "officiis",
+    "TotalItems": 953,
+    "UnreadItems": 549,
     "Subscribed": true,
-    "EmailFolderId": 402,
+    "EmailFolderId": 774,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 655
+        "FieldType": "System.String",
+        "FieldLength": 406
       }
     }
   }

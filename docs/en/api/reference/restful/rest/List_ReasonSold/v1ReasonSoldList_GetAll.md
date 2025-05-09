@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/ReasonSold/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Klein Group",
-    "Tooltip": "earum",
+    "Id": 382,
+    "Name": "Ratke, Robel and Hauck",
+    "Tooltip": "commodi",
     "Deleted": false,
-    "UdListDefinitionId": 537,
-    "Rank": 126,
+    "UdListDefinitionId": 446,
+    "Rank": 645,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 254
+        "FieldType": "System.String",
+        "FieldLength": 898
       }
     }
   }

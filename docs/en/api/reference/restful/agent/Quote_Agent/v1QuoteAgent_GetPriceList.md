@@ -26,7 +26,7 @@ Gets a PriceList object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Quote/GetPriceList?priceListId=743
+POST /api/v1/Agents/Quote/GetPriceList?priceListId=674
 POST /api/v1/Agents/Quote/GetPriceList?$select=name,department,category/id
 ```
 
@@ -86,22 +86,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 511,
-  "ERPPriceListKey": "aut",
-  "QuoteConnectionId": 544,
-  "Name": "Buckridge, Miller and Witting",
-  "Description": "Down-sized 24 hour support",
-  "Currency": "fugit",
-  "CurrencyName": "Carroll Inc and Sons",
-  "ValidFrom": "2003-05-31T13:14:00.9702863+02:00",
-  "ValidTo": "2012-06-03T13:14:00.9702863+02:00",
-  "IsActive": false,
+  "PriceListId": 58,
+  "ERPPriceListKey": "veritatis",
+  "QuoteConnectionId": 291,
+  "Name": "Reinger-Nader",
+  "Description": "Grass-roots multi-state definition",
+  "Currency": "ad",
+  "CurrencyName": "Effertz-Wisoky",
+  "ValidFrom": "2005-01-11T16:32:39.7115027+01:00",
+  "ValidTo": "2005-12-01T16:32:39.7115027+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 425
+      "FieldType": "System.Int32",
+      "FieldLength": 595
     }
   }
 }

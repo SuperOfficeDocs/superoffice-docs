@@ -82,8 +82,8 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentPluginId": 154,
-  "SelectionId": 544,
+  "DocumentPluginId": 647,
+  "SelectionId": 542,
   "IncludeEmails": false
 }
 ```
@@ -95,29 +95,29 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "NumDocumentsOmitted": 747,
-  "NumDocumentsAlreadyMigrated": 416,
+  "NumDocumentsOmitted": 569,
+  "NumDocumentsAlreadyMigrated": 365,
   "Documents": [
     {
-      "DocumentId": 890,
-      "ContactId": 762,
-      "PersonId": 974,
-      "SaleId": 417,
-      "ProjectId": 301,
-      "DocTmplId": 528,
-      "AssociateId": 231,
-      "UserGroupId": 935,
-      "VisibleForId": 349
+      "DocumentId": 748,
+      "ContactId": 259,
+      "PersonId": 281,
+      "SaleId": 169,
+      "ProjectId": 949,
+      "DocTmplId": 985,
+      "AssociateId": 391,
+      "UserGroupId": 402,
+      "VisibleForId": 192
     }
   ],
   "Associates": [
     {
-      "AssociateId": 333,
-      "EmailAddress": "shanna@bernier.com"
+      "AssociateId": 812,
+      "EmailAddress": "naomi@macejkovic.com"
     },
     {
-      "AssociateId": 333,
-      "EmailAddress": "shanna@bernier.com"
+      "AssociateId": 812,
+      "EmailAddress": "naomi@macejkovic.com"
     }
   ]
 }

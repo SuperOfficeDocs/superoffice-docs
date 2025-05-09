@@ -84,19 +84,19 @@ OK
 PUT /api/v1/List/PaymentType
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 811,
-  "Name": "Spencer Inc and Sons",
-  "Tooltip": "voluptas",
+  "Id": 759,
+  "Name": "Bernier Inc and Sons",
+  "Tooltip": "deleniti",
   "Deleted": false,
-  "Rank": 672,
-  "IsCustomList": true,
+  "Rank": 938,
+  "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "neque",
+  "ListType": "consectetur",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 935,
-  "Name": "Littel Inc and Sons",
-  "Tooltip": "voluptatibus",
-  "Deleted": false,
-  "Rank": 544,
-  "IsCustomList": false,
-  "IsMDOList": false,
+  "Id": 139,
+  "Name": "Schulist LLC",
+  "Tooltip": "doloribus",
+  "Deleted": true,
+  "Rank": 240,
+  "IsCustomList": true,
+  "IsMDOList": true,
   "UseGroupsAndHeadings": false,
-  "ListType": "ea",
-  "InUseByUserDefinedFields": true,
+  "ListType": "vel",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 502
+      "FieldLength": 877
     }
   }
 }

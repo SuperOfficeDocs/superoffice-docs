@@ -78,58 +78,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Volkman, Weimann and Grady",
-    "Description": "Diverse user-facing open architecture",
-    "Rank": 313,
+    "Name": "Konopelski LLC",
+    "Description": "Monitored tertiary matrix",
+    "Rank": 955,
     "Restrictions": [
       {
-        "Name": "Borer Group",
-        "Operator": "est",
+        "Name": "Corwin, Powlowski and Fisher",
+        "Operator": "quas",
         "Values": [
-          "tempora",
-          "voluptatem"
+          "nemo",
+          "ut"
         ],
         "DisplayValues": [
-          "repellat",
-          "similique"
+          "corporis",
+          "dolor"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 41,
+        "InterParenthesis": 633,
         "InterOperator": "And",
-        "UniqueHash": 503
+        "UniqueHash": 879
       }
     ]
   },
   {
-    "Name": "Volkman, Weimann and Grady",
-    "Description": "Diverse user-facing open architecture",
-    "Rank": 313,
+    "Name": "Konopelski LLC",
+    "Description": "Monitored tertiary matrix",
+    "Rank": 955,
     "Restrictions": [
       {
-        "Name": "Borer Group",
-        "Operator": "est",
+        "Name": "Corwin, Powlowski and Fisher",
+        "Operator": "quas",
         "Values": [
-          "tempora",
-          "voluptatem"
+          "nemo",
+          "ut"
         ],
         "DisplayValues": [
-          "repellat",
-          "similique"
+          "corporis",
+          "dolor"
         ],
         "ColumnInfo": null,
-        "IsActive": true,
+        "IsActive": false,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 41,
+        "InterParenthesis": 633,
         "InterOperator": "And",
-        "UniqueHash": 503
+        "UniqueHash": 879
       }
     ]
   }
@@ -144,58 +144,58 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Reilly, Rempel and Kub",
-    "Description": "Virtual cohesive superstructure",
-    "Rank": 473,
+    "Name": "Boyer LLC",
+    "Description": "Digitized scalable hub",
+    "Rank": 920,
     "Restrictions": [
       {
-        "Name": "Stracke Inc and Sons",
-        "Operator": "alias",
+        "Name": "Orn-Hayes",
+        "Operator": "sit",
         "Values": [
-          "dolorum",
-          "occaecati"
+          "id",
+          "dignissimos"
         ],
         "DisplayValues": [
-          "perspiciatis",
-          "ipsa"
+          "aut",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 252,
+        "InterParenthesis": 784,
         "InterOperator": "And",
-        "UniqueHash": 627
+        "UniqueHash": 854
       }
     ]
   },
   {
-    "Name": "Reilly, Rempel and Kub",
-    "Description": "Virtual cohesive superstructure",
-    "Rank": 473,
+    "Name": "Boyer LLC",
+    "Description": "Digitized scalable hub",
+    "Rank": 920,
     "Restrictions": [
       {
-        "Name": "Stracke Inc and Sons",
-        "Operator": "alias",
+        "Name": "Orn-Hayes",
+        "Operator": "sit",
         "Values": [
-          "dolorum",
-          "occaecati"
+          "id",
+          "dignissimos"
         ],
         "DisplayValues": [
-          "perspiciatis",
-          "ipsa"
+          "aut",
+          "et"
         ],
         "ColumnInfo": null,
-        "IsActive": false,
+        "IsActive": true,
         "SubRestrictions": [
           {},
           {}
         ],
-        "InterParenthesis": 252,
+        "InterParenthesis": 784,
         "InterOperator": "And",
-        "UniqueHash": 627
+        "UniqueHash": 854
       }
     ]
   }

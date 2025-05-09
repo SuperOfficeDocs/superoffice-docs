@@ -28,6 +28,9 @@ Shadow contact provider for the dynamic ticket provider.
 |personId|int|Contact ID: Database ID of the contact row| x |
 |saleId|int|Sale ID: The database ID of the sale record| x |
 |projectId|int|Project ID: Database ID of project record| x |
+|ticketStatusId|int|Status ID: Status| x |
+|priorityId|int|Priority ID: ID of priority in database| x |
+|categoryId|int|Category ID: ID of ticket category in database| x |
 |ticketTypeName|listAny|Request type: Request type| x |
 |ticketStatusName|listAny|Status: Request status| x |
 |categoryFullName|ejCategory|Category: Request category| x |
@@ -118,13 +121,13 @@ Shadow contact provider for the dynamic ticket provider.
 |ownedBy/usergroup|userGroup|Owner - Primary group: The user's primary user group| x |
 |ownedBy/contactFullName|string|Owner - Owner: Name and department of the company the user belongs to| x |
 |ownedBy/contactCategory|listAny|Owner - Category: Category| x |
-|ownedBy/role|listAny|Owner - Role: Role| x |
-|ownedBy/assocName|associate|Owner - User ID: User ID| x |
-|ownedBy/assocTooltip|string|Owner - Description: Description|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|ownedBy/role|listAny|Owner - Role: Role| x |
+|ownedBy/assocName|associate|Owner - User ID: User ID| x |
+|ownedBy/assocTooltip|string|Owner - Description: Description|  |
 |ownedBy/assocType|listAny|Owner - Type: Type of user: associate, external user, system user, anonymous account| x |
 |ownedBy/ejUserId|int|Owner - Service user ID: The database ID of a Service user|  |
 |ownedBy/simultaneousEjUser|bool|Owner - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
@@ -222,13 +225,13 @@ Shadow contact provider for the dynamic ticket provider.
 |person/personAddress/county|string|Contact address - County: This criterion corresponds to the County field on the Company card. It will only be visible if required by a country's address format.| x |
 |person/personAddress/city|string|Contact address - City: This criterion corresponds to the City field on the Company card.| x |
 |person/personAddress/zip|string|Contact address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
-|person/personAddress/state|string|Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|person/personAddress/wgs84latitude|decimal|Contact address - Latitude: Latitude| x |
-|person/personAddress/wgs84longitude|decimal|Contact address - Longitude: Longitude| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/personAddress/state|string|Contact address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
+|person/personAddress/wgs84latitude|decimal|Contact address - Latitude: Latitude| x |
+|person/personAddress/wgs84longitude|decimal|Contact address - Longitude: Longitude| x |
 |person/personAddress/formattedAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |person/personAddress/formattedMultiLineAddress| *None* |Contact address - {formattedAddress}: {formattedAddress}|  |
 |person/restrictionAddress/addressId|int|Search address - Address ID: Database ID for the address record| x |
@@ -326,13 +329,13 @@ Shadow contact provider for the dynamic ticket provider.
 |person/correspondingAssociate/contactCategory|listAny|Category: Category| x |
 |person/correspondingAssociate/role|listAny|Role : Role| x |
 |person/correspondingAssociate/assocName|associate|User ID : User ID| x |
-|person/correspondingAssociate/assocTooltip|string|Description : Description|  |
-|person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
-|person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|person/correspondingAssociate/assocTooltip|string|Description : Description|  |
+|person/correspondingAssociate/assocType|listAny|Type: Type of user: associate, external user, system user, anonymous account| x |
+|person/correspondingAssociate/ejUserId|int|Service user ID: The database ID of a Service user|  |
 |person/correspondingAssociate/simultaneousEjUser|bool|Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |person/correspondingAssociate/ejDisplayName|string|Nick name: User's nick name in Service| x |
 |person/correspondingAssociate/ejStatus|int|Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
@@ -430,13 +433,13 @@ Shadow contact provider for the dynamic ticket provider.
 |contact/restrictionAddress/city|string|Search address - City: This criterion corresponds to the City field on the Company card.| x |
 |contact/restrictionAddress/zip|string|Search address - Postcode: This criterion corresponds to the Zip Code field on the Company card.| x |
 |contact/restrictionAddress/state|string|Search address - State: This criterion corresponds to the State field on the Company card.  \It will only be visible if required by a country's address format.| x |
-|contact/restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
-|contact/restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
-|contact/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|contact/restrictionAddress/wgs84latitude|decimal|Search address - Latitude: Latitude| x |
+|contact/restrictionAddress/wgs84longitude|decimal|Search address - Longitude: Longitude| x |
+|contact/restrictionAddress/formattedAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |contact/restrictionAddress/formattedMultiLineAddress| *None* |Search address - {formattedAddress}: {formattedAddress}|  |
 |contact/url/URLAddress|string|URL| x |
 |contact/url/URLDescription|string|Description| x |
@@ -534,13 +537,13 @@ Shadow contact provider for the dynamic ticket provider.
 |contact/saintTicketCategory|listAny|Category|  |
 |extra/x\_ticket\_integer|int|Extra integer: Custom ticket integer. Default 123. External. Show in properties| x |
 |extra/x\_ticket\_float|decimal|Extra float: Custom float on Request. 2 decimal places| x |
-|extra/x\_ticket\_longtext|string|Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
-|extra/x\_ticket\_date|date|Extra date: Custom date field on Request. No default value| x |
-|extra/x\_ticket\_datetime|datetime|Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|extra/x\_ticket\_longtext|string|Extra long text: Custom long text on Request. Keep HTML tags. 9 line text area. Show in props| x |
+|extra/x\_ticket\_date|date|Extra date: Custom date field on Request. No default value| x |
+|extra/x\_ticket\_datetime|datetime|Extra DateTime: Custom date+time on ticket. Default = 28.03.2019 2:24 pm. External. Show in properties. Display for new request| x |
 |extra/x\_ticket\_time| *None* |Extra time: Custom time field on Request. Default = 13min Display for new.| x |
 |extra/x\_ticket\_boolean|bool|Extra boolean: Custom boolean on Ticket.| x |
 |extra/x\_ticket\_timespan|timeSpan|Extra timespan: Custom timespan field on Request. Default = 1 hr 25 minutes. Show in props| x |
@@ -585,9 +588,12 @@ Shadow contact provider for the dynamic ticket provider.
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
@@ -635,16 +641,16 @@ Shadow contact provider for the dynamic ticket provider.
 |sale/associate/credentialDisplayValue| *None* |Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |sale/associate/isActive|bool|Active: Is this user active, and should be able to log in?| x |
 |sale/associate/isActiveText|bool|Active status: Is this user active, and should be able to log in?| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/associate/portraitThumbnail| *None* |Person image: Person image|  |
 |sale/associate/otherGroups|userGroup|Other groups: Other groups|  |
 |sale/associate/userName|string|User name: User name| x |
 |sale/associate/personEmail|string|E-mail| x |
 |sale/associate/locationAddress|string|Location: Location| x |
 |sale/associate/isLocation|bool|Is a location: Is a location| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/saleUdef/SuperOffice:1|string|saleshorttext| x |
 |sale/saleUdef/SuperOffice:2|string|salelongtext| x |
 |sale/saleUdef/SuperOffice:3|int|salenumber| x |
@@ -739,16 +745,16 @@ Shadow contact provider for the dynamic ticket provider.
 |project/NumberOfSalesInPeriod|int|Number of sales in last 90 days|  |
 |project/NumberOfNotCompletedSales|int|Number of non-completed sales|  |
 |project/NumberOfNotCompletedSalesInPeriod|int|Number of non-completed sales in last 90 days|  |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |project/LastSale|date|Date of last sale|  |
 |project/LastCompletedSale|date|Date of last completed sale|  |
 |project/LastDoBySale|date|Date of last non-completed sale|  |
 |project/SaintStatus3|saintStatus|Not completed activites with intention sale: Number of not completed activities for intention sale > 0.|  |
 |project/saintSaleStatus|listAny|With status|  |
 |project/saintAmountClass|listAny|Amount class|  |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |project/saintActivityType|listAny|SAINT type|  |
 |project/saintDirection|listAny|Direction|  |
 |project/saintIntention|listAny|Intention|  |
@@ -760,7 +766,7 @@ Shadow contact provider for the dynamic ticket provider.
 ## Sample
 
 ```http!
-GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=createdBy/fullName,person/birthdate,person/personExtra/x_person_timespan,person/personAssociate/role,person/personAssociate/ejStatus
+GET /api/v1/archive/TicketShadowDynamicSelectionSingleCriteriaGroup?$select=person/personInfo/textId,person/personExtra/x_person_boolean,contact/restrictionAddress/line3,sale/soldReason,sale/salePublish/publishedTo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

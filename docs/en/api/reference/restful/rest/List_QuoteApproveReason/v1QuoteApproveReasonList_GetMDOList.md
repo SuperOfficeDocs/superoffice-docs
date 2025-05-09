@@ -26,8 +26,8 @@ Get the MDO list items for "QuoteApprReason" - with headings and filtering by us
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/QuoteApproveReason/MDOItems?flat=False
-GET /api/v1/List/QuoteApproveReason/MDOItems?query=nostrum
+GET /api/v1/List/QuoteApproveReason/MDOItems?flat=True
+GET /api/v1/List/QuoteApproveReason/MDOItems?query=reiciendis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/QuoteApproveReason/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 459,
-    "Name": "Keebler, Kertzmann and Kirlin",
-    "ToolTip": "Deleniti dolore itaque.",
-    "Deleted": true,
-    "Rank": 312,
-    "Type": "quis",
+    "Id": 241,
+    "Name": "Boehm, Towne and Kohler",
+    "ToolTip": "Ut quia harum rerum.",
+    "Deleted": false,
+    "Rank": 570,
+    "Type": "ut",
     "ChildItems": [
       {
-        "Id": 827,
-        "Name": "Sauer-Schroeder",
-        "ToolTip": "Nam consequatur recusandae laboriosam.",
-        "Deleted": true,
-        "Rank": 524,
-        "Type": "quia",
+        "Id": 213,
+        "Name": "Botsford-Parisian",
+        "ToolTip": "Asperiores natus quasi natus quis dolores.",
+        "Deleted": false,
+        "Rank": 226,
+        "Type": "maxime",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "error",
-        "ColorBlock": 270,
-        "ExtraInfo": "qui",
-        "StyleHint": "qui",
-        "FullName": "Derek Leffler",
+        "IconHint": "eveniet",
+        "ColorBlock": 249,
+        "ExtraInfo": "minus",
+        "StyleHint": "voluptas",
+        "FullName": "Jeremy Turcotte",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 815
+            "FieldLength": 514
           }
         }
       }
     ],
-    "IconHint": "nobis",
-    "ColorBlock": 356,
-    "ExtraInfo": "consectetur",
-    "StyleHint": "id",
-    "FullName": "Mr. Raul Kilback",
+    "IconHint": "vel",
+    "ColorBlock": 842,
+    "ExtraInfo": "illo",
+    "StyleHint": "architecto",
+    "FullName": "Mrs. Rosendo Weissnat MD",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 87
+        "FieldLength": 86
       }
     }
   }

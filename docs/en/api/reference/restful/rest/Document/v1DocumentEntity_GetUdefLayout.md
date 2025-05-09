@@ -90,7 +90,7 @@ OK
 GET /api/v1/Document/UdefLayout
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 ```
 
 ## Sample response
@@ -101,46 +101,46 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "UDefFieldId": 176,
-    "ColumnId": 891,
-    "FieldDefault": "tenetur",
-    "FieldHeight": 280,
-    "FieldLabel": "sed",
-    "FieldLeft": 584,
-    "FieldTop": 609,
+    "UDefFieldId": 279,
+    "ColumnId": 489,
+    "FieldDefault": "cupiditate",
+    "FieldHeight": 756,
+    "FieldLabel": "aut",
+    "FieldLeft": 676,
+    "FieldTop": 906,
     "FieldType": "Checkbox",
-    "FieldWidth": 93,
-    "FormatMask": "sint",
+    "FieldWidth": 561,
+    "FormatMask": "nobis",
     "HideLabel": false,
     "IsIndexed": false,
-    "LabelHeight": 619,
-    "LabelLeft": 461,
-    "LabelTop": 878,
-    "LabelWidth": 566,
-    "LastVersionId": 855,
-    "ListTableId": 362,
+    "LabelHeight": 60,
+    "LabelLeft": 880,
+    "LabelTop": 115,
+    "LabelWidth": 67,
+    "LastVersionId": 397,
+    "ListTableId": 33,
     "IsMandatory": false,
     "Type": "Appointment",
-    "Page1LineNo": 376,
-    "ProgId": "sit",
-    "IsReadOnly": false,
-    "ShortLabel": "dolor",
-    "TabOrder": 760,
-    "TextLength": 79,
-    "Tooltip": "quaerat",
-    "UdefIdentity": 986,
-    "UDListDefinitionId": 170,
+    "Page1LineNo": 361,
+    "ProgId": "id",
+    "IsReadOnly": true,
+    "ShortLabel": "nulla",
+    "TabOrder": 680,
+    "TextLength": 332,
+    "Tooltip": "repellat",
+    "UdefIdentity": 822,
+    "UDListDefinitionId": 443,
     "Justification": "Center",
-    "Version": 940,
-    "TemplateVariableName": "Kautzer-Hills",
-    "HasBeenPublished": false,
-    "MdoListName": "Bins Group",
+    "Version": 311,
+    "TemplateVariableName": "Kovacek, Raynor and Langworth",
+    "HasBeenPublished": true,
+    "MdoListName": "Quigley LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 215
+        "FieldLength": 388
       }
     }
   }

@@ -26,6 +26,7 @@ Status for sending to this particular recipient
 |NoSubscription|9|Recipient does not have subscription for shipmentType|
 |Complained|10|Recipient sent a complaint|
 |TooManyBounces|11|Recipient address has bounced too many times|
+|TestMail|12|Recipient address is a test mail|
 
 ## Usage
 

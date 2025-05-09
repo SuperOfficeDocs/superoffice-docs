@@ -69,14 +69,14 @@ OK
 POST /api/v1/Agents/DatabaseTable/InsertRow
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Jacobs LLC",
+  "TableName": "Mosciski, Schuppe and Kris",
   "Values": {
-    "Values1": "ducimus",
-    "Values2": "maxime"
+    "Values1": "voluptatibus",
+    "Values2": "odio"
   }
 }
 ```
@@ -87,5 +87,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-889
+385
 ```

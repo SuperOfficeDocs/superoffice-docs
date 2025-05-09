@@ -25,7 +25,7 @@ Gets all the PaymentType items
 | includeDeleted | bool |  Include deleted items in the result? |
 
 ```http
-GET /api/v1/List/PaymentType/Items?includeDeleted=False
+GET /api/v1/List/PaymentType/Items?includeDeleted=True
 ```
 
 
@@ -70,7 +70,7 @@ OK
 GET /api/v1/List/PaymentType/Items
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -81,18 +81,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 573,
-    "Name": "Witting LLC",
-    "Tooltip": "nemo",
-    "Deleted": false,
-    "UdListDefinitionId": 810,
-    "Rank": 55,
+    "Id": 927,
+    "Name": "Hansen, Luettgen and Sanford",
+    "Tooltip": "asperiores",
+    "Deleted": true,
+    "UdListDefinitionId": 982,
+    "Rank": 476,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 144
+        "FieldLength": 458
       }
     }
   }

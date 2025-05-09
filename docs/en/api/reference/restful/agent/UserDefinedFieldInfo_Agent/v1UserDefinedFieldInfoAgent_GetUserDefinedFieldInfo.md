@@ -26,7 +26,7 @@ Gets a UserDefinedFieldInfo object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=730
+POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?userDefinedFieldInfoId=229
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo?$select=name,department,category/id
 ```
 
@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/UserDefinedFieldInfo/GetUserDefinedFieldInfo
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -110,46 +110,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 335,
-  "ColumnId": 559,
-  "FieldDefault": "nesciunt",
-  "FieldHeight": 329,
-  "FieldLabel": "ut",
-  "FieldLeft": 634,
-  "FieldTop": 853,
+  "UDefFieldId": 382,
+  "ColumnId": 100,
+  "FieldDefault": "voluptatem",
+  "FieldHeight": 768,
+  "FieldLabel": "mollitia",
+  "FieldLeft": 861,
+  "FieldTop": 184,
   "FieldType": "Checkbox",
-  "FieldWidth": 559,
-  "FormatMask": "beatae",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 209,
-  "LabelLeft": 188,
-  "LabelTop": 933,
-  "LabelWidth": 821,
-  "LastVersionId": 530,
-  "ListTableId": 853,
-  "IsMandatory": false,
+  "FieldWidth": 522,
+  "FormatMask": "architecto",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 660,
+  "LabelLeft": 455,
+  "LabelTop": 148,
+  "LabelWidth": 791,
+  "LastVersionId": 239,
+  "ListTableId": 765,
+  "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 471,
-  "ProgId": "minima",
+  "Page1LineNo": 383,
+  "ProgId": "animi",
   "IsReadOnly": false,
-  "ShortLabel": "voluptatum",
-  "TabOrder": 219,
-  "TextLength": 553,
-  "Tooltip": "at",
-  "UdefIdentity": 408,
-  "UDListDefinitionId": 568,
+  "ShortLabel": "ipsum",
+  "TabOrder": 183,
+  "TextLength": 611,
+  "Tooltip": "recusandae",
+  "UdefIdentity": 498,
+  "UDListDefinitionId": 420,
   "Justification": "Center",
-  "Version": 519,
-  "TemplateVariableName": "Bruen-Anderson",
+  "Version": 627,
+  "TemplateVariableName": "Dooley, Schinner and Cruickshank",
   "HasBeenPublished": false,
-  "MdoListName": "Jacobi, White and Powlowski",
+  "MdoListName": "Bartell-Kuphal",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 575
+      "FieldLength": 490
     }
   }
 }

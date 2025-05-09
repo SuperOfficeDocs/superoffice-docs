@@ -27,7 +27,7 @@ Get the MDO list items for "ConsentPurpose" - with headings and filtering by use
 
 ```http
 GET /api/v1/List/ConsentPurpose/MDOItems?flat=False
-GET /api/v1/List/ConsentPurpose/MDOItems?query=dicta
+GET /api/v1/List/ConsentPurpose/MDOItems?query=rerum
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ConsentPurpose/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 626,
-    "Name": "Herman LLC",
-    "ToolTip": "Consequatur et aut quidem.",
-    "Deleted": true,
-    "Rank": 522,
-    "Type": "reiciendis",
+    "Id": 563,
+    "Name": "Von Group",
+    "ToolTip": "Iusto et eveniet possimus corporis animi accusamus.",
+    "Deleted": false,
+    "Rank": 24,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 593,
-        "Name": "Ondricka, Towne and Runolfsson",
-        "ToolTip": "Molestias velit maiores architecto quia.",
-        "Deleted": false,
-        "Rank": 780,
-        "Type": "quibusdam",
+        "Id": 865,
+        "Name": "Runolfsdottir-Corkery",
+        "ToolTip": "Ut dolore ex voluptatem molestias perspiciatis dolor aut.",
+        "Deleted": true,
+        "Rank": 461,
+        "Type": "excepturi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "repellendus",
-        "ColorBlock": 663,
-        "ExtraInfo": "dolor",
-        "StyleHint": "enim",
-        "FullName": "Ms. Yessenia Stokes",
+        "IconHint": "corrupti",
+        "ColorBlock": 483,
+        "ExtraInfo": "recusandae",
+        "StyleHint": "esse",
+        "FullName": "Nikko Braun",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 522
+            "FieldLength": 47
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 241,
-    "ExtraInfo": "perspiciatis",
-    "StyleHint": "eius",
-    "FullName": "Stacey McClure",
+    "IconHint": "rem",
+    "ColorBlock": 23,
+    "ExtraInfo": "recusandae",
+    "StyleHint": "consequatur",
+    "FullName": "Miss Jonathan Nicolas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 465
+        "FieldLength": 889
       }
     }
   }

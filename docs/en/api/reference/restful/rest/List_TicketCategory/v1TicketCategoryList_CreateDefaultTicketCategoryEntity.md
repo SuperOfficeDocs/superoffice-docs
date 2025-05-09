@@ -72,7 +72,7 @@ OK
 GET /api/v1/List/TicketCategory/Items/Default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -82,36 +82,36 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketCategoryId": 583,
-  "ParentId": 181,
-  "Name": "Wiegand-Ritchie",
-  "Fullname": "et",
-  "CategoryMaster": 729,
+  "TicketCategoryId": 174,
+  "ParentId": 389,
+  "Name": "Harber LLC",
+  "Fullname": "sunt",
+  "CategoryMaster": 740,
   "Flags": "AcceptWhenReplying",
   "DelegateMethod": "Even",
-  "ExternalName": "Goldner-Considine",
+  "ExternalName": "Wiza Inc and Sons",
   "ClosingStatus": "Active",
   "MsgClosingStatus": "Active",
-  "AssignmentLag": 469,
-  "ReplyTemplate": 648,
-  "NotificationEmail": "daisha@schowalter.biz",
+  "AssignmentLag": 580,
+  "ReplyTemplate": 628,
+  "NotificationEmail": "dean@walsh.com",
   "DefaultTicketStatus": null,
   "DefaultMessageStatus": null,
-  "EffectiveReplyTemplateId": 495,
+  "EffectiveReplyTemplateId": 342,
   "ExtraFields": {
-    "ExtraFields1": "delectus",
-    "ExtraFields2": "incidunt"
+    "ExtraFields1": "provident",
+    "ExtraFields2": "fugit"
   },
   "CustomFields": {
-    "CustomFields1": "praesentium",
-    "CustomFields2": "ut"
+    "CustomFields1": "consequatur",
+    "CustomFields2": "laborum"
   },
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 139
+      "FieldLength": 617
     }
   }
 }

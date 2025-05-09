@@ -77,15 +77,15 @@ OK
 POST /api/v1/Agents/Resource/IsResourceSubstitutionActive
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
   "ResourceNames": [
-    "Prosacco LLC",
-    "Kunde, O'Connell and Spencer"
+    "Senger-Cassin",
+    "Altenwerth Inc and Sons"
   ],
-  "Culture": "ea"
+  "Culture": "aut"
 }
 ```
 
@@ -97,30 +97,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ResourceName": "Greenholt, Lemke and Frami",
-    "ResourceValue": "voluptas",
-    "Culture": "natus",
+    "ResourceName": "Wiza-Parisian",
+    "ResourceValue": "culpa",
+    "Culture": "quaerat",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldType": "System.String",
+        "FieldLength": 861
       }
     }
   },
   {
-    "ResourceName": "Greenholt, Lemke and Frami",
-    "ResourceValue": "voluptas",
-    "Culture": "natus",
+    "ResourceName": "Wiza-Parisian",
+    "ResourceValue": "culpa",
+    "Culture": "quaerat",
     "IsActive": false,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 379
+        "FieldType": "System.String",
+        "FieldLength": 861
       }
     }
   }

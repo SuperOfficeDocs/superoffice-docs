@@ -70,12 +70,12 @@ Funcs: substringof(a,b), startswith(a,b), endswith(a,b), this(f,period), next(f,
 GET /api/v1/BatchTask?$select=name,department,category/id
 GET /api/v1/BatchTask?$filter=name begins 'S'
 GET /api/v1/BatchTask?$orderBy=name asc
-GET /api/v1/BatchTask?$entities=cupiditate
-GET /api/v1/BatchTask?$top=262
-GET /api/v1/BatchTask?$skip=753
+GET /api/v1/BatchTask?$entities=accusantium
+GET /api/v1/BatchTask?$top=906
+GET /api/v1/BatchTask?$skip=29
 GET /api/v1/BatchTask?$mode=Full
 GET /api/v1/BatchTask?$options=GrandTotal=true
-GET /api/v1/BatchTask?$context=facere
+GET /api/v1/BatchTask?$context=rerum
 GET /api/v1/BatchTask?$format=JSON
 GET /api/v1/BatchTask?$jsonSafe=True
 GET /api/v1/BatchTask?$output=Display
@@ -129,19 +129,19 @@ Content-Type: application/json; charset=utf-8
 
 {
   "odata.metadata": "https://www.example.com/api/v1/archive$metadata",
-  "odata.nextLink": "est",
+  "odata.nextLink": "magni",
   "value": [
     {
-      "PrimaryKey": 6838,
+      "PrimaryKey": 3479,
       "EntityName": "person",
-      "personId": 6838,
-      "fullName": "Vesta Marks"
+      "personId": 3479,
+      "fullName": "Mrs. Dannie Kreiger Jr."
     },
     {
-      "PrimaryKey": 3511,
+      "PrimaryKey": 866,
       "EntityName": "person",
-      "personId": 3511,
-      "fullName": "Eliseo Hackett"
+      "personId": 866,
+      "fullName": "Mr. Darian Botsford"
     }
   ]
 }

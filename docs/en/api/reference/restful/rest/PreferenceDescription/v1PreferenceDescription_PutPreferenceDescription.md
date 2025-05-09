@@ -113,28 +113,28 @@ PreferenceDescription updated.
 PUT /api/v1/PreferenceDescription/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 190,
-  "Section": "ab",
-  "Key": "qui",
-  "Name": "Grant Group",
+  "PrefDescId": 666,
+  "Section": "maxime",
+  "Key": "autem",
+  "Name": "Abernathy-Lang",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Inverse even-keeled strategy",
+  "Description": "Advanced 5th generation hub",
   "IsBuiltin": false,
-  "TableName": "Kassulke, Heaney and Leffler",
-  "UserDefinedListId": 377,
-  "Rank": 275,
-  "SubGroup": "necessitatibus",
-  "MinLevel": 315,
-  "MaxValue": 243,
-  "MinValue": 255,
-  "RequiredLicense": "explicabo"
+  "TableName": "Fritsch-Reynolds",
+  "UserDefinedListId": 565,
+  "Rank": 547,
+  "SubGroup": "tempora",
+  "MinLevel": 944,
+  "MaxValue": 516,
+  "MinValue": 839,
+  "RequiredLicense": "quisquam"
 }
 ```
 
@@ -145,35 +145,35 @@ HTTP/1.1 200 PreferenceDescription updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PrefDescId": 109,
-  "Section": "qui",
-  "Key": "labore",
-  "Name": "Schulist-Crona",
+  "PrefDescId": 225,
+  "Section": "laudantium",
+  "Key": "in",
+  "Name": "Collier-Crooks",
   "ValueType": "Bool",
   "MaxLevel": "Database",
   "SysMaxLevel": "Database",
   "AccessFlags": "adminGUI",
-  "Description": "Synergistic intangible implementation",
+  "Description": "Decentralized regional architecture",
   "IsBuiltin": false,
-  "TableName": "Ebert, Parisian and Kuvalis",
-  "UserDefinedListId": 251,
-  "Rank": 417,
-  "SubGroup": "illum",
-  "MinLevel": 865,
-  "MaxValue": 676,
-  "MinValue": 135,
-  "RequiredLicense": "ut",
+  "TableName": "Leffler-Walsh",
+  "UserDefinedListId": 968,
+  "Rank": 3,
+  "SubGroup": "aut",
+  "MinLevel": 242,
+  "MaxValue": 54,
+  "MinValue": 757,
+  "RequiredLicense": "vel",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 761
+      "FieldLength": 268
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

@@ -119,148 +119,148 @@ Content-Type: application/json; charset=utf-8
 {
   "To": [
     {
-      "ContactId": 325,
-      "ContactName": "Kuvalis-Tillman",
-      "PersonId": 490,
-      "PersonName": "Beer-Upton",
-      "AssociateId": 677,
-      "Address": "ipsum",
-      "EmailId": 910,
+      "ContactId": 479,
+      "ContactName": "Lemke, Gottlieb and Trantow",
+      "PersonId": 444,
+      "PersonName": "McKenzie-Fadel",
+      "AssociateId": 77,
+      "Address": "sit",
+      "EmailId": 82,
       "DuplicatePersonIds": [
-        627,
-        554
+        396,
+        994
       ],
-      "Name": "Kutch Group",
+      "Name": "Hand Group",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 922
+          "FieldType": "System.String",
+          "FieldLength": 170
         }
       }
     }
   ],
   "Cc": [
     {
-      "ContactId": 743,
-      "ContactName": "Schoen, Hauck and Medhurst",
-      "PersonId": 986,
-      "PersonName": "Medhurst-Lind",
-      "AssociateId": 760,
-      "Address": "at",
-      "EmailId": 603,
+      "ContactId": 44,
+      "ContactName": "Okuneva-Wilderman",
+      "PersonId": 878,
+      "PersonName": "Balistreri Inc and Sons",
+      "AssociateId": 191,
+      "Address": "dolore",
+      "EmailId": 874,
       "DuplicatePersonIds": [
-        807,
-        463
+        973,
+        793
       ],
-      "Name": "Stehr, Steuber and Lind",
+      "Name": "Harber Inc and Sons",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 486
+          "FieldLength": 213
         }
       }
     }
   ],
   "Bcc": [
     {
-      "ContactId": 302,
-      "ContactName": "Beier LLC",
-      "PersonId": 599,
-      "PersonName": "Bayer Inc and Sons",
-      "AssociateId": 535,
-      "Address": "dolor",
-      "EmailId": 495,
+      "ContactId": 889,
+      "ContactName": "McKenzie, Mitchell and McClure",
+      "PersonId": 589,
+      "PersonName": "Wolff LLC",
+      "AssociateId": 942,
+      "Address": "et",
+      "EmailId": 199,
       "DuplicatePersonIds": [
-        677,
-        719
+        571,
+        510
       ],
-      "Name": "White, White and Christiansen",
+      "Name": "Schoen, Flatley and Kuhlman",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.String",
-          "FieldLength": 573
+          "FieldType": "System.Int32",
+          "FieldLength": 973
         }
       }
     }
   ],
-  "Subject": "qui",
-  "HTMLBody": "necessitatibus",
+  "Subject": "sint",
+  "HTMLBody": "fuga",
   "From": null,
-  "Sent": "2014-01-15T13:14:00.3762277+01:00",
-  "Size": 685,
+  "Sent": "1998-02-04T16:32:39.0395385+01:00",
+  "Size": 129,
   "Priority": "High",
   "Flags": "Answered",
-  "MessageID": "tenetur",
-  "PlainBody": "hic",
+  "MessageID": "sed",
+  "PlainBody": "et",
   "IsSent": true,
   "EMailSOInfo": null,
-  "ServerId": 475,
+  "ServerId": 61,
   "Attachments": [
     {
-      "Description": "Inverse bottom-line support",
-      "Filename": "et",
-      "Size": 607,
-      "Type": "est",
-      "Encoding": "eum",
-      "Id": "dolor",
-      "Disposition": "molestiae",
+      "Description": "Synchronised leading edge capacity",
+      "Filename": "animi",
+      "Size": 660,
+      "Type": "aperiam",
+      "Encoding": "repudiandae",
+      "Id": "eaque",
+      "Disposition": "et",
       "IsSafeFileExtension": false,
       "Stream": "GIF89....File contents as raw bytes...",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 582
+          "FieldType": "System.String",
+          "FieldLength": 834
         }
       }
     }
   ],
   "CustomHeaderList": [
     {
-      "Name": "Harvey-Bahringer",
+      "Name": "Bartoletti-Feil",
       "Values": [
-        "pariatur",
-        "beatae"
+        "rem",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 980
+          "FieldLength": 949
         }
       }
     },
     {
-      "Name": "Harvey-Bahringer",
+      "Name": "Bartoletti-Feil",
       "Values": [
-        "pariatur",
-        "beatae"
+        "rem",
+        "dolor"
       ],
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 980
+          "FieldLength": 949
         }
       }
     }
   ],
-  "FolderName": "Lakin, Little and Schumm",
-  "EmailItemId": 744,
-  "AccountId": 354,
-  "ReceivedAt": "2019-04-13T13:14:00.3762277+02:00",
+  "FolderName": "Botsford-Wunsch",
+  "EmailItemId": 973,
+  "AccountId": 642,
+  "ReceivedAt": "2013-03-21T16:32:39.0395385+01:00",
   "InReplyTo": null,
-  "RepliedAt": "1999-03-23T13:14:00.3762277+01:00",
-  "HasCalendarData": true,
+  "RepliedAt": "2013-04-19T16:32:39.0395385+02:00",
+  "HasCalendarData": false,
   "CalMethod": "Add",
   "CalReplyStatus": "Accepted",
   "TableRight": null,
@@ -268,7 +268,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 734
+      "FieldLength": 98
     }
   }
 }

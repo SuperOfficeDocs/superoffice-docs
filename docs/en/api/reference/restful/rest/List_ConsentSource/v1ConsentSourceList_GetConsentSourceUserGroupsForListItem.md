@@ -75,7 +75,7 @@ OK
 GET /api/v1/List/ConsentSource/Items/{itemId}/UserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 259,
-    "Name": "Graham, Braun and O'Kon",
-    "ToolTip": "Quod exercitationem odio ab.",
-    "Deleted": true,
-    "Rank": 324,
-    "Type": "a",
-    "ColorBlock": 25,
-    "IconHint": "dolor",
-    "Selected": false,
-    "LastChanged": "1999-03-19T13:14:09.6816431+01:00",
+    "Id": 47,
+    "Name": "Wuckert, Trantow and Lind",
+    "ToolTip": "Earum veniam expedita.",
+    "Deleted": false,
+    "Rank": 591,
+    "Type": "et",
+    "ColorBlock": 740,
+    "IconHint": "reprehenderit",
+    "Selected": true,
+    "LastChanged": "2022-01-12T16:32:48.5870472+01:00",
     "ChildItems": [
       {
-        "Id": 587,
-        "Name": "Rosenbaum, Sporer and Rolfson",
-        "ToolTip": "Aut qui alias eius quis.",
+        "Id": 435,
+        "Name": "Baumbach, Turner and Herman",
+        "ToolTip": "Doloribus laudantium debitis.",
         "Deleted": true,
-        "Rank": 147,
-        "Type": "officiis",
-        "ColorBlock": 643,
-        "IconHint": "minus",
-        "Selected": false,
-        "LastChanged": "2015-03-20T13:14:09.6816431+01:00",
+        "Rank": 31,
+        "Type": "minima",
+        "ColorBlock": 734,
+        "IconHint": "iste",
+        "Selected": true,
+        "LastChanged": "2006-01-18T16:32:48.5870472+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "iste",
+        "ExtraInfo": "ut",
         "StyleHint": "quo",
         "Hidden": false,
-        "FullName": "Prof. Annamarie Moore V",
+        "FullName": "Rhoda Fisher I",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 388
+            "FieldLength": 371
           }
         }
       }
     ],
-    "ExtraInfo": "ipsa",
-    "StyleHint": "harum",
-    "Hidden": false,
-    "FullName": "Joelle Beier",
+    "ExtraInfo": "quas",
+    "StyleHint": "corrupti",
+    "Hidden": true,
+    "FullName": "Brigitte Sipes",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 660
+        "FieldType": "System.Int32",
+        "FieldLength": 32
       }
     }
   }

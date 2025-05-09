@@ -30,7 +30,7 @@ Change a DocumentEntity user-defined field's type based on the prog-id or label.
 | isIndexed | bool |  Should we put data in an indexed column for faster access? Default no |
 
 ```http
-POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=True
+POST /api/v1/Document/UdefLayout/{progidOrLabel}/ChangeTo/{fieldType}?isIndexed=False
 ```
 
 
@@ -114,46 +114,46 @@ HTTP/1.1 200 DocumentEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 67,
-  "ColumnId": 723,
-  "FieldDefault": "dolorem",
-  "FieldHeight": 228,
-  "FieldLabel": "quae",
-  "FieldLeft": 885,
-  "FieldTop": 542,
+  "UDefFieldId": 809,
+  "ColumnId": 411,
+  "FieldDefault": "distinctio",
+  "FieldHeight": 926,
+  "FieldLabel": "veniam",
+  "FieldLeft": 53,
+  "FieldTop": 307,
   "FieldType": "Checkbox",
-  "FieldWidth": 635,
-  "FormatMask": "unde",
-  "HideLabel": true,
-  "IsIndexed": true,
-  "LabelHeight": 458,
-  "LabelLeft": 471,
-  "LabelTop": 197,
-  "LabelWidth": 816,
-  "LastVersionId": 987,
-  "ListTableId": 274,
+  "FieldWidth": 709,
+  "FormatMask": "repudiandae",
+  "HideLabel": false,
+  "IsIndexed": false,
+  "LabelHeight": 939,
+  "LabelLeft": 612,
+  "LabelTop": 400,
+  "LabelWidth": 262,
+  "LastVersionId": 155,
+  "ListTableId": 933,
   "IsMandatory": false,
   "Type": "Appointment",
-  "Page1LineNo": 877,
-  "ProgId": "omnis",
-  "IsReadOnly": true,
-  "ShortLabel": "harum",
-  "TabOrder": 82,
-  "TextLength": 119,
-  "Tooltip": "vel",
-  "UdefIdentity": 282,
-  "UDListDefinitionId": 75,
+  "Page1LineNo": 697,
+  "ProgId": "enim",
+  "IsReadOnly": false,
+  "ShortLabel": "qui",
+  "TabOrder": 459,
+  "TextLength": 70,
+  "Tooltip": "ea",
+  "UdefIdentity": 493,
+  "UDListDefinitionId": 964,
   "Justification": "Center",
-  "Version": 910,
-  "TemplateVariableName": "Purdy, McKenzie and Hickle",
-  "HasBeenPublished": true,
-  "MdoListName": "Cruickshank, Becker and Borer",
+  "Version": 26,
+  "TemplateVariableName": "Will-Wiza",
+  "HasBeenPublished": false,
+  "MdoListName": "Kling-Medhurst",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 699
+      "FieldType": "System.String",
+      "FieldLength": 811
     }
   }
 }

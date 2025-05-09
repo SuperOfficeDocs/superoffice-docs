@@ -129,55 +129,55 @@ OK
 POST /api/v1/Agents/Quote/SaveProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 1001,
-  "ERPProductKey": "omnis",
-  "ERPPriceListKey": "corporis",
-  "Name": "Smitham Group",
-  "Description": "Universal optimal functionalities",
-  "Code": "eius",
-  "PriceUnit": "voluptates",
-  "QuantityUnit": "et",
+  "ProductId": 20,
+  "ERPProductKey": "quam",
+  "ERPPriceListKey": "voluptas",
+  "Name": "Bechtelar, Rosenbaum and Dooley",
+  "Description": "Fundamental systemic middleware",
+  "Code": "minima",
+  "PriceUnit": "voluptatem",
+  "QuantityUnit": "qui",
   "IsSubscription": true,
-  "SubscriptionUnit": "quia",
-  "DefaultSubscriptionQuantity": 8596.562,
-  "ItemNumber": "1414015",
+  "SubscriptionUnit": "neque",
+  "DefaultSubscriptionQuantity": 26880.318,
+  "ItemNumber": "1050030",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "iusto",
-  "ProductTypeKey": "voluptatem",
-  "VAT": 24216.417999999998,
-  "VATInfo": "ducimus",
-  "UnitCost": 17327.886,
-  "UnitMinimumPrice": 11379.554,
-  "UnitListPrice": 2033.966,
-  "InAssortment": true,
-  "Supplier": "id",
-  "SupplierCode": "eum",
-  "Rights": "eaque",
-  "Rule": "hic",
+  "ProductFamilyKey": "deserunt",
+  "ProductTypeKey": "voluptate",
+  "VAT": 22267.07,
+  "VATInfo": "corporis",
+  "UnitCost": 14159.412,
+  "UnitMinimumPrice": 16021.008,
+  "UnitListPrice": 19104.863999999998,
+  "InAssortment": false,
+  "Supplier": "consequatur",
+  "SupplierCode": "explicabo",
+  "Rights": "quo",
+  "Rule": "architecto",
   "ExtraInfo": [
     {
-      "Name": "Swaniawski, Langworth and Wiza",
-      "Value": "eligendi",
+      "Name": "Gutkowski-Miller",
+      "Value": "consectetur",
       "Type": "Image"
     },
     {
-      "Name": "Swaniawski, Langworth and Wiza",
-      "Value": "eligendi",
+      "Name": "Gutkowski-Miller",
+      "Value": "consectetur",
       "Type": "Image"
     }
   ],
-  "RawExtraInfo": "asperiores",
-  "ExtraField1": "omnis",
-  "ExtraField2": "adipisci",
-  "ExtraField3": "in",
-  "ExtraField4": "impedit",
-  "ExtraField5": "quae",
-  "InStock": 3741.996
+  "RawExtraInfo": "facere",
+  "ExtraField1": "quisquam",
+  "ExtraField2": "voluptas",
+  "ExtraField3": "debitis",
+  "ExtraField4": "odit",
+  "ExtraField5": "ex",
+  "InStock": 21060.48
 }
 ```
 
@@ -188,73 +188,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 966,
-  "ERPProductKey": "veritatis",
-  "ERPPriceListKey": "molestiae",
-  "Name": "DuBuque Group",
-  "Description": "Synergized grid-enabled website",
-  "Code": "in",
-  "PriceUnit": "ad",
-  "QuantityUnit": "error",
-  "IsSubscription": false,
-  "SubscriptionUnit": "voluptatem",
-  "DefaultSubscriptionQuantity": 8336.44,
-  "ItemNumber": "414088",
+  "ProductId": 288,
+  "ERPProductKey": "labore",
+  "ERPPriceListKey": "aut",
+  "Name": "Hudson LLC",
+  "Description": "Inverse discrete array",
+  "Code": "fuga",
+  "PriceUnit": "aliquam",
+  "QuantityUnit": "vel",
+  "IsSubscription": true,
+  "SubscriptionUnit": "nulla",
+  "DefaultSubscriptionQuantity": 28033.629999999997,
+  "ItemNumber": "764319",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "ratione",
-  "ProductTypeKey": "et",
-  "VAT": 20067.002,
-  "VATInfo": "vitae",
-  "UnitCost": 17666.358,
-  "UnitMinimumPrice": 13031.172,
-  "UnitListPrice": 11567.594,
-  "InAssortment": true,
-  "Supplier": "quo",
-  "SupplierCode": "quia",
-  "Rights": "occaecati",
-  "Rule": "quod",
+  "ProductFamilyKey": "impedit",
+  "ProductTypeKey": "odio",
+  "VAT": 24432.664,
+  "VATInfo": "molestias",
+  "UnitCost": 733.356,
+  "UnitMinimumPrice": 3397.256,
+  "UnitListPrice": 1074.962,
+  "InAssortment": false,
+  "Supplier": "sit",
+  "SupplierCode": "repellat",
+  "Rights": "nulla",
+  "Rule": "aut",
   "ExtraInfo": [
     {
-      "Name": "Homenick Group",
-      "Value": "molestias",
+      "Name": "Hills-Lehner",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldLength": 342
         }
       }
     },
     {
-      "Name": "Homenick Group",
-      "Value": "molestias",
+      "Name": "Hills-Lehner",
+      "Value": "est",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 947
+          "FieldLength": 342
         }
       }
     }
   ],
-  "RawExtraInfo": "eveniet",
-  "ExtraField1": "tempora",
-  "ExtraField2": "quas",
-  "ExtraField3": "dicta",
-  "ExtraField4": "laborum",
-  "ExtraField5": "et",
-  "InStock": 30431.14,
+  "RawExtraInfo": "consequuntur",
+  "ExtraField1": "libero",
+  "ExtraField2": "quasi",
+  "ExtraField3": "expedita",
+  "ExtraField4": "quis",
+  "ExtraField5": "illo",
+  "InStock": 6838.388,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 629
+      "FieldLength": 384
     }
   }
 }

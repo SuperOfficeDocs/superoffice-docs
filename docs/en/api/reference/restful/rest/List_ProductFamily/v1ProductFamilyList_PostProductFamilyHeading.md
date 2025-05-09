@@ -79,12 +79,12 @@ Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 956,
-  "Name": "Cremin Group",
-  "Tooltip": "saepe",
-  "Deleted": true,
-  "Rank": 559,
-  "UdListDefinitionId": 99
+  "HeadingId": 923,
+  "Name": "Hills Inc and Sons",
+  "Tooltip": "vitae",
+  "Deleted": false,
+  "Rank": 560,
+  "UdListDefinitionId": 663
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 341,
-  "Name": "Gottlieb-Balistreri",
-  "Tooltip": "sequi",
+  "HeadingId": 742,
+  "Name": "Padberg, Abshire and Gaylord",
+  "Tooltip": "ipsum",
   "Deleted": false,
-  "Rank": 289,
-  "UdListDefinitionId": 679,
+  "Rank": 320,
+  "UdListDefinitionId": 880,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 1000
+      "FieldType": "System.Int32",
+      "FieldLength": 452
     }
   }
 }

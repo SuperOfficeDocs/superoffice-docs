@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetConfigurationFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectorId": 455
+  "ErpConnectorId": 944
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "FieldKey": "repudiandae",
-    "Rank": 996,
-    "DisplayName": "Larkin, Schroeder and Bosco",
-    "DisplayDescription": "Future-proofed multimedia alliance",
+    "FieldKey": "praesentium",
+    "Rank": 95,
+    "DisplayName": "Boehm, Buckridge and Kovacek",
+    "DisplayDescription": "Configurable homogeneous intranet",
     "FieldType": "Checkbox",
-    "ListName": "Shanahan Inc and Sons",
-    "DefaultValue": "praesentium",
-    "MaxLength": 53,
+    "ListName": "Smitham Group",
+    "DefaultValue": "ut",
+    "MaxLength": 486,
     "Access": "Mandatory",
-    "ShowInSearch": false,
+    "ShowInSearch": true,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 420
+        "FieldLength": 266
       }
     }
   }

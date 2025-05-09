@@ -92,11 +92,11 @@ OK
 POST /api/v1/Agents/User/GetFunctionalRights
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "RoleId": 986
+  "RoleId": 728
 }
 ```
 
@@ -108,56 +108,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 292,
-    "Name": "Pacocha, Casper and Barton",
-    "ToolTip": "Qui voluptatem.",
-    "Deleted": true,
-    "Rank": 603,
-    "Type": "iure",
-    "ColorBlock": 657,
-    "IconHint": "harum",
-    "Selected": false,
-    "LastChanged": "1999-04-04T13:14:01.6913203+02:00",
+    "Id": 273,
+    "Name": "Rice Group",
+    "ToolTip": "Sit distinctio magni voluptas quas quia.",
+    "Deleted": false,
+    "Rank": 993,
+    "Type": "nisi",
+    "ColorBlock": 959,
+    "IconHint": "dolorem",
+    "Selected": true,
+    "LastChanged": "2011-11-06T16:32:40.4457108+01:00",
     "ChildItems": [
       {
-        "Id": 450,
-        "Name": "Kuhn Group",
-        "ToolTip": "Inventore ea pariatur autem.",
-        "Deleted": true,
-        "Rank": 51,
-        "Type": "id",
-        "ColorBlock": 648,
-        "IconHint": "temporibus",
-        "Selected": false,
-        "LastChanged": "2020-10-04T13:14:01.6913203+02:00",
+        "Id": 551,
+        "Name": "Trantow-Price",
+        "ToolTip": "Earum eligendi voluptatem rerum maiores dolore.",
+        "Deleted": false,
+        "Rank": 834,
+        "Type": "ut",
+        "ColorBlock": 60,
+        "IconHint": "dicta",
+        "Selected": true,
+        "LastChanged": "2021-04-12T16:32:40.4457108+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "odio",
-        "StyleHint": "dolorem",
-        "Hidden": true,
-        "FullName": "Mikel Gibson",
+        "ExtraInfo": "voluptates",
+        "StyleHint": "tempora",
+        "Hidden": false,
+        "FullName": "Vivien Stamm",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 312
+            "FieldType": "System.Int32",
+            "FieldLength": 655
           }
         }
       }
     ],
-    "ExtraInfo": "nisi",
-    "StyleHint": "tempore",
+    "ExtraInfo": "ea",
+    "StyleHint": "dolores",
     "Hidden": false,
-    "FullName": "Isabella Bartoletti",
+    "FullName": "Edison Walter",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 561
+        "FieldLength": 13
       }
     }
   }

@@ -133,12 +133,12 @@ OK
 POST /api/v1/Agents/Appointment/CreateDefaultAppointmentEntityByTypeAndAssociate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "Type": "Appointment",
-  "AssociateId": 142
+  "AssociateId": 552
 }
 ```
 
@@ -153,121 +153,121 @@ Content-Type: application/json; charset=utf-8
   "Contact": null,
   "CreatedBy": null,
   "UpdatedBy": null,
-  "CreatedDate": "2003-11-24T13:13:59.3751076+01:00",
-  "AppointmentId": 969,
-  "Description": "Monitored grid-enabled interface",
-  "Title": "mollitia",
-  "Agenda": "aperiam",
-  "InternalNotes": "est",
-  "StartDate": "2011-05-20T13:13:59.3751076+02:00",
-  "EndDate": "2005-02-14T13:13:59.3751076+01:00",
+  "CreatedDate": "2006-02-03T16:32:38.0241457+01:00",
+  "AppointmentId": 882,
+  "Description": "Assimilated content-based superstructure",
+  "Title": "enim",
+  "Agenda": "quia",
+  "InternalNotes": "et",
+  "StartDate": "2004-03-12T16:32:38.0241457+01:00",
+  "EndDate": "2024-06-30T16:32:38.0241457+02:00",
   "InvitedPerson": null,
   "Person": null,
-  "MotherId": 676,
+  "MotherId": 783,
   "Priority": null,
   "Private": "PrivateGroup",
   "Project": null,
   "Type": "BookingForChecklist",
-  "UpdatedDate": "2004-10-28T13:13:59.3751076+02:00",
+  "UpdatedDate": "2011-12-02T16:32:38.0241457+01:00",
   "Completed": "Completed",
-  "ActiveLinks": 332,
+  "ActiveLinks": 543,
   "Links": [
     {
-      "EntityName": "Kuvalis-Mitchell",
-      "Id": 190,
-      "Description": "Programmable static website",
-      "ExtraInfo": "deserunt",
-      "LinkId": 634,
+      "EntityName": "Hettinger, Cummerata and Bernhard",
+      "Id": 477,
+      "Description": "Open-architected transitional function",
+      "ExtraInfo": "nam",
+      "LinkId": 572,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 282
+          "FieldLength": 954
         }
       }
     }
   ],
-  "AlarmLeadTime": "numquam",
-  "HasAlarm": false,
-  "ColorIndex": 574,
+  "AlarmLeadTime": "voluptas",
+  "HasAlarm": true,
+  "ColorIndex": 56,
   "IsFree": false,
   "IsAlldayEvent": false,
-  "LagTime": "odio",
-  "LeadTime": "est",
-  "Location": "praesentium",
-  "RejectCounter": 381,
+  "LagTime": "aut",
+  "LeadTime": "explicabo",
+  "Location": "corrupti",
+  "RejectCounter": 822,
   "RejectReason": "",
   "Recurrence": null,
   "Participants": [
     {
-      "AssociateId": 943,
-      "PersonId": 604,
-      "ContactId": 326,
-      "EmailId": 274,
+      "AssociateId": 419,
+      "PersonId": 98,
+      "ContactId": 513,
+      "EmailId": 18,
       "SendEmail": true,
       "InvitationStatus": "Accepted",
-      "EmailAddress": "adrain_stroman@rice.name",
-      "Description": "Reverse-engineered tertiary process improvement"
+      "EmailAddress": "gwen@rice.info",
+      "Description": "Digitized cohesive pricing structure"
     }
   ],
   "AssignmentStatus": "Assigning",
   "InvitationStatus": "Accepted",
   "BookingType": "None",
-  "ActiveDate": "2022-06-06T13:13:59.3751076+02:00",
-  "HasConflict": true,
+  "ActiveDate": "2016-05-10T16:32:38.0241457+02:00",
+  "HasConflict": false,
   "AssignedBy": null,
   "MotherAssociate": null,
   "Task": null,
-  "PreferredTZLocation": 242,
+  "PreferredTZLocation": 480,
   "PreferredTZLocationData": null,
   "Sale": null,
-  "SuggestedAppointmentId": 925,
+  "SuggestedAppointmentId": 737,
   "IsMileStone": false,
   "CautionWarning": "ExternalParticipantsDateTimeMismatch",
   "OwnedExternally": "Google",
   "JoinVideomeetUrl": "http://www.example.com/",
-  "CentralserviceVideomeetId": "sunt",
+  "CentralserviceVideomeetId": "possimus",
   "UserDefinedFields": {
-    "SuperOffice:1": "True",
-    "SuperOffice:2": "False"
+    "SuperOffice:1": "Janice Schulist",
+    "SuperOffice:2": "Mr. Sibyl Emory Purdy"
   },
   "ExtraFields": {
-    "ExtraFields1": "non",
-    "ExtraFields2": "optio"
+    "ExtraFields1": "blanditiis",
+    "ExtraFields2": "quia"
   },
   "CustomFields": {
-    "CustomFields1": "labore",
-    "CustomFields2": "sequi"
+    "CustomFields1": "sequi",
+    "CustomFields2": "qui"
   },
-  "PublishEventDate": "2018-08-15T13:13:59.3751076+02:00",
-  "PublishTo": "2023-01-20T13:13:59.3751076+01:00",
-  "PublishFrom": "2006-02-18T13:13:59.3751076+01:00",
+  "PublishEventDate": "2006-01-05T16:32:38.0241457+01:00",
+  "PublishTo": "2007-09-13T16:32:38.0241457+02:00",
+  "PublishFrom": "2010-02-16T16:32:38.0241457+01:00",
   "IsPublished": true,
   "VisibleFor": [
     {
-      "VisibleId": 729,
+      "VisibleId": 988,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 717
+          "FieldLength": 361
         }
       }
     },
     {
-      "VisibleId": 729,
+      "VisibleId": 988,
       "Visibility": "All",
-      "DisplayValue": "iste",
+      "DisplayValue": "dolorem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 717
+          "FieldLength": 361
         }
       }
     }
@@ -276,8 +276,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 791
+      "FieldType": "System.String",
+      "FieldLength": 689
     }
   }
 }

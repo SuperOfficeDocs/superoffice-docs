@@ -65,7 +65,7 @@ OK
 GET /api/v1/List/ReasonStalled
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -75,22 +75,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 625,
-  "Name": "Christiansen Group",
-  "Tooltip": "corporis",
-  "Deleted": true,
-  "Rank": 620,
+  "Id": 643,
+  "Name": "Steuber, Gerlach and Berge",
+  "Tooltip": "distinctio",
+  "Deleted": false,
+  "Rank": 741,
   "IsCustomList": false,
-  "IsMDOList": true,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quia",
-  "InUseByUserDefinedFields": true,
+  "ListType": "molestiae",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 849
+      "FieldType": "System.String",
+      "FieldLength": 101
     }
   },
   "_Links": {

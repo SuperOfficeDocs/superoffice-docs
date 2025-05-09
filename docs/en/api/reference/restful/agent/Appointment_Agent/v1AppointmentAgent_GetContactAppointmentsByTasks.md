@@ -132,17 +132,17 @@ OK
 POST /api/v1/Agents/Appointment/GetContactAppointmentsByTasks
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 939,
-  "StartTime": "2002-07-16T13:13:59.0000848+02:00",
-  "EndTime": "2020-10-31T13:13:59.0000848+01:00",
-  "Count": 676,
+  "ContactId": 469,
+  "StartTime": "2006-07-02T16:32:37.6334112+02:00",
+  "EndTime": "2004-06-11T16:32:37.6334112+02:00",
+  "Count": 931,
   "TaskIds": [
-    969,
-    97
+    551,
+    877
   ]
 }
 ```
@@ -155,66 +155,66 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "AppointmentId": 95,
-    "StartDate": "2014-03-23T13:13:59.0000848+01:00",
-    "EndDate": "2018-07-10T13:13:59.0000848+02:00",
+    "AppointmentId": 923,
+    "StartDate": "2010-07-25T16:32:37.6334112+02:00",
+    "EndDate": "2007-02-02T16:32:37.6334112+01:00",
     "Type": "BookingForChecklist",
-    "Task": "aperiam",
-    "AssociateFullName": "Isidro Bins",
-    "ContactName": "Jacobs-Boehm",
-    "Description": "Reactive interactive superstructure",
-    "PersonFullName": "Miss Mathias Cary Strosin",
-    "PersonId": 488,
-    "ContactId": 467,
-    "ProjectId": 972,
-    "ProjectName": "Wuckert-Kilback",
+    "Task": "dolorum",
+    "AssociateFullName": "Terry Deckow",
+    "ContactName": "Ratke-Graham",
+    "Description": "Implemented attitude-oriented local area network",
+    "PersonFullName": "Bernie Oberbrunner",
+    "PersonId": 291,
+    "ContactId": 155,
+    "ProjectId": 666,
+    "ProjectName": "Kihn Group",
     "IsPublished": false,
-    "AssociateId": 398,
-    "ColorIndex": 894,
-    "IsFree": true,
+    "AssociateId": 876,
+    "ColorIndex": 976,
+    "IsFree": false,
     "HasAlarm": false,
-    "IsAlldayEvent": true,
+    "IsAlldayEvent": false,
     "Private": "PrivateGroup",
-    "PriorityId": 47,
-    "PriorityName": "White Inc and Sons",
+    "PriorityId": 78,
+    "PriorityName": "Schultz, Walsh and Anderson",
     "TaskType": "Appointment",
-    "IsBookingMain": false,
-    "IsRecurrence": true,
+    "IsBookingMain": true,
+    "IsRecurrence": false,
     "IsBooking": true,
-    "ActiveDate": "2019-08-26T13:13:59.0000848+02:00",
+    "ActiveDate": "2016-11-02T16:32:37.6334112+01:00",
     "AssignmentStatus": "Assigning",
     "InvitationStatus": "Accepted",
     "BookingType": "None",
     "Completed": "Completed",
     "RecurringPattern": "Custom",
-    "RecurringStartDate": "2002-11-11T13:13:59.0000848+01:00",
-    "RecurringEndDate": "2008-01-28T13:13:59.0000848+01:00",
-    "MotherId": 526,
-    "AssignedBy": 694,
-    "AssignedByFullName": "Joseph Glover",
+    "RecurringStartDate": "2000-11-10T16:32:37.6334112+01:00",
+    "RecurringEndDate": "1998-08-28T16:32:37.6334112+02:00",
+    "MotherId": 893,
+    "AssignedBy": 179,
+    "AssignedByFullName": "Deja Jakubowski II",
     "RejectReason": "",
-    "Location": "dolores",
-    "AlarmLeadTime": "laboriosam",
-    "SaleId": 820,
-    "SaleName": "Pfannerstill, Thiel and Schinner",
-    "AssociateName": "Funk-Rowe",
-    "CreatedDate": "2024-01-10T13:13:59.1250999+01:00",
-    "CreatedBy": "repellat",
-    "CreatedByFullName": "Eliezer Marvin",
-    "CreatedByAssociateId": 67,
+    "Location": "rerum",
+    "AlarmLeadTime": "dolores",
+    "SaleId": 583,
+    "SaleName": "Collier, Towne and Prosacco",
+    "AssociateName": "Daugherty Group",
+    "CreatedDate": "2012-02-17T16:32:37.6334112+01:00",
+    "CreatedBy": "culpa",
+    "CreatedByFullName": "Helga Chance Casper Jr.",
+    "CreatedByAssociateId": 801,
     "CautionWarning": "ExternalParticipantsDateTimeMismatch",
     "OwnedExternally": "Google",
     "JoinVideomeetUrl": "http://www.example.com/",
-    "PreferredTZLocation": 398,
-    "Title": "ea",
-    "Agenda": "cupiditate",
-    "InternalNotes": "sint",
+    "PreferredTZLocation": 814,
+    "Title": "quod",
+    "Agenda": "laboriosam",
+    "InternalNotes": "tenetur",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 685
+        "FieldType": "System.Int32",
+        "FieldLength": 934
       }
     }
   }

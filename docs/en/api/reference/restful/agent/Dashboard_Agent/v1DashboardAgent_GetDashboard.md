@@ -26,7 +26,7 @@ Gets a Dashboard object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=871
+POST /api/v1/Agents/Dashboard/GetDashboard?dashboardId=592
 POST /api/v1/Agents/Dashboard/GetDashboard?$select=name,department,category/id
 ```
 
@@ -81,22 +81,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardId": 480,
-  "AssociateId": 810,
-  "Caption": "exercitationem",
+  "DashboardId": 276,
+  "AssociateId": 510,
+  "Caption": "voluptatibus",
   "Layout": "Four",
   "Tiles": [
     {
-      "DashboardTileId": 408,
-      "Caption": "nihil",
-      "Description": "Team-oriented attitude-oriented migration",
-      "ChartName": "Gutkowski Inc and Sons",
-      "ChartId": "sed",
+      "DashboardTileId": 542,
+      "Caption": "quasi",
+      "Description": "Function-based user-facing data-warehouse",
+      "ChartName": "Runte, Feest and Bergstrom",
+      "ChartId": "tempore",
       "IsDefault": false,
-      "AssociateId": 852,
-      "GroupId": 419,
-      "SelectionId": 894,
-      "Config": "nesciunt",
+      "AssociateId": 127,
+      "GroupId": 774,
+      "SelectionId": 397,
+      "Config": "quos",
       "Type": "Bignum",
       "EntityType": "Activity",
       "Options": [
@@ -112,7 +112,7 @@ Content-Type: application/json; charset=utf-8
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 929
+          "FieldLength": 335
         }
       }
     }
@@ -121,8 +121,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 415
+      "FieldType": "System.String",
+      "FieldLength": 323
     }
   }
 }

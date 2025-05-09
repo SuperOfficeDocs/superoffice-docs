@@ -83,14 +83,14 @@ OK
 POST /api/v1/Agents/ForeignSystem/AddForeignKey
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ForeignKey": null,
-  "ApplicationName": "Durgan-Rice",
-  "DeviceName": "Cruickshank LLC",
-  "DeviceIdentifier": "ullam"
+  "ApplicationName": "Wintheiser LLC",
+  "DeviceName": "Schoen, Bergnaum and Hane",
+  "DeviceIdentifier": "repellat"
 }
 ```
 
@@ -101,20 +101,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "qui",
-  "Value": "doloribus",
-  "RecordId": 708,
-  "CreatedDate": "2016-01-22T13:14:00.5168611+01:00",
-  "UpdatedDate": "2004-07-16T13:14:00.5168611+02:00",
-  "UpdatedBy": "optio",
-  "CreatedBy": "quos",
-  "TableName": "Hilpert, Wuckert and Kuvalis",
+  "Key": "sapiente",
+  "Value": "ea",
+  "RecordId": 414,
+  "CreatedDate": "2007-06-16T16:32:39.1645096+02:00",
+  "UpdatedDate": "2023-10-04T16:32:39.1645096+02:00",
+  "UpdatedBy": "eligendi",
+  "CreatedBy": "voluptatem",
+  "TableName": "Koch Inc and Sons",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 619
+      "FieldType": "System.String",
+      "FieldLength": 902
     }
   }
 }

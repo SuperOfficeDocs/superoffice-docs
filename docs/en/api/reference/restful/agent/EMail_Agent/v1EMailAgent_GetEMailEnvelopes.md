@@ -85,14 +85,14 @@ OK
 POST /api/v1/Agents/EMail/GetEMailEnvelopes
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
   "ConnectionInfo": null,
   "MessageServerIds": [
-    788,
-    974
+    234,
+    58
   ]
 }
 ```
@@ -105,45 +105,45 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "ServerId": 701,
-    "MessageId": "cum",
-    "Subject": "aliquid",
+    "ServerId": 475,
+    "MessageId": "est",
+    "Subject": "maxime",
     "From": null,
     "To": [
       {
-        "ContactId": 32,
-        "ContactName": "Pacocha, Eichmann and Simonis",
-        "PersonId": 840,
-        "PersonName": "King, Wehner and Sauer",
-        "AssociateId": 529,
-        "Address": "commodi",
-        "EmailId": 130,
+        "ContactId": 567,
+        "ContactName": "Corkery Inc and Sons",
+        "PersonId": 456,
+        "PersonName": "Emmerich, Durgan and Rohan",
+        "AssociateId": 140,
+        "Address": "iusto",
+        "EmailId": 590,
         "DuplicatePersonIds": [
-          526,
-          723
+          333,
+          146
         ],
-        "Name": "Wilderman, O'Reilly and Dooley",
+        "Name": "Kihn-Streich",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 592
+            "FieldType": "System.Int32",
+            "FieldLength": 24
           }
         }
       }
     ],
-    "Sent": "2020-03-08T13:14:00.3918537+01:00",
+    "Sent": "2004-12-26T16:32:39.0551619+01:00",
     "Priority": "High",
     "Flags": "Answered",
-    "Size": 750,
+    "Size": 34,
     "EMailSOInfo": null,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 86
+        "FieldLength": 120
       }
     }
   }

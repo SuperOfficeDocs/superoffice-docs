@@ -88,16 +88,16 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 122,
-  "Name": "Hoeger LLC",
-  "Tooltip": "ullam",
+  "Id": 131,
+  "Name": "Waelchi, Beier and Hansen",
+  "Tooltip": "tenetur",
   "Deleted": false,
-  "Rank": 51,
+  "Rank": 562,
   "IsCustomList": false,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": false,
-  "ListType": "est",
-  "InUseByUserDefinedFields": true
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": true,
+  "ListType": "quibusdam",
+  "InUseByUserDefinedFields": false
 }
 ```
 
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 21,
-  "Name": "Turcotte, Swift and Smith",
-  "Tooltip": "quod",
+  "Id": 945,
+  "Name": "Lueilwitz Group",
+  "Tooltip": "harum",
   "Deleted": true,
-  "Rank": 395,
-  "IsCustomList": true,
-  "IsMDOList": true,
-  "UseGroupsAndHeadings": true,
-  "ListType": "laudantium",
-  "InUseByUserDefinedFields": true,
+  "Rank": 1002,
+  "IsCustomList": false,
+  "IsMDOList": false,
+  "UseGroupsAndHeadings": false,
+  "ListType": "commodi",
+  "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 625
+      "FieldLength": 87
     }
   }
 }

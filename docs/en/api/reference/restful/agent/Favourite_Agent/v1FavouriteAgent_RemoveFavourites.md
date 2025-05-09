@@ -66,16 +66,16 @@ No Content
 POST /api/v1/Agents/Favourite/RemoveFavourites
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TableName": "Marquardt LLC",
+  "TableName": "Wyman Group",
   "RecordIds": [
-    767,
-    632
+    326,
+    391
   ],
-  "AssociateId": 16
+  "AssociateId": 502
 }
 ```
 

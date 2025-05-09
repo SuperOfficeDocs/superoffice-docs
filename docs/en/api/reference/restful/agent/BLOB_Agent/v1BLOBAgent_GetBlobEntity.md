@@ -26,7 +26,7 @@ Gets a BlobEntity object.
 | $select | string |  Optional comma separated list of properties to include in the result. Other fields are then nulled out to reduce payload size: "Name,department,category". Default = show all fields. |
 
 ```http
-POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=377
+POST /api/v1/Agents/BLOB/GetBlobEntity?blobEntityId=527
 POST /api/v1/Agents/BLOB/GetBlobEntity?$select=name,department,category/id
 ```
 
@@ -79,7 +79,7 @@ OK
 POST /api/v1/Agents/BLOB/GetBlobEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 ```
 
 ## Sample response
@@ -89,25 +89,25 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "BlobId": 66,
-  "BlobSize": 365,
-  "Description": "Business-focused bifurcated support",
-  "ExtraInfo": "ut",
-  "IsEncrypted": true,
-  "IsZipped": true,
-  "MimeType": "non",
-  "OriginalSize": 498,
-  "CreatedDate": "2010-11-25T13:13:59.5314453+01:00",
-  "UpdatedDate": "2022-11-17T13:13:59.5314453+01:00",
+  "BlobId": 909,
+  "BlobSize": 592,
+  "Description": "Upgradable static secured line",
+  "ExtraInfo": "ea",
+  "IsEncrypted": false,
+  "IsZipped": false,
+  "MimeType": "porro",
+  "OriginalSize": 166,
+  "CreatedDate": "2014-01-05T16:32:38.2116027+01:00",
+  "UpdatedDate": "2003-11-10T16:32:38.2116027+01:00",
   "CreatedBy": null,
   "UpdatedBy": null,
-  "ConceptualType": "quis",
+  "ConceptualType": "et",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 324
+      "FieldLength": 388
     }
   }
 }

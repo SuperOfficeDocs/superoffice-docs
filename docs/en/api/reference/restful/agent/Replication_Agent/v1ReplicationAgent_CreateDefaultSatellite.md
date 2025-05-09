@@ -67,7 +67,7 @@ OK
 POST /api/v1/Agents/Replication/CreateDefaultSatellite
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -77,17 +77,17 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SatelliteId": 448,
-  "Created": "2021-09-06T13:14:01.033265+02:00",
+  "SatelliteId": 404,
+  "Created": "2018-02-11T16:32:39.7583671+01:00",
   "CreatedBy": null,
-  "Updated": "2009-07-08T13:14:01.033265+02:00",
+  "Updated": "2008-03-15T16:32:39.7583671+01:00",
   "UpdatedBy": null,
   "Contact": null,
   "Area": null,
   "LicenseOwners": [
     {
-      "Name": "Volkman-O'Connell",
-      "Description": "Synchronised mission-critical array",
+      "Name": "Marvin-Cronin",
+      "Description": "Object-based clear-thinking superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -100,14 +100,14 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldType": "System.String",
+          "FieldLength": 890
         }
       }
     },
     {
-      "Name": "Volkman-O'Connell",
-      "Description": "Synchronised mission-critical array",
+      "Name": "Marvin-Cronin",
+      "Description": "Object-based clear-thinking superstructure",
       "RestrictedModuleLicenses": [
         {},
         {}
@@ -120,8 +120,8 @@ Content-Type: application/json; charset=utf-8
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 258
+          "FieldType": "System.String",
+          "FieldLength": 890
         }
       }
     }
@@ -131,7 +131,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 743
+      "FieldLength": 977
     }
   }
 }

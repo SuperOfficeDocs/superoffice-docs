@@ -88,12 +88,12 @@ OK
 POST /api/v1/Agents/BulkUpdate/GetStoredFields
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "Tablename": "contact",
-  "Context": "dolor"
+  "Context": "occaecati"
 }
 ```
 
@@ -107,74 +107,74 @@ Content-Type: application/json; charset=utf-8
   {
     "CanSupportMultiUse": false,
     "DefaultShowInGui": false,
-    "DefaultShowInSelector": true,
-    "IsActive": false,
-    "Key": "expedita",
-    "ValueType": "et",
-    "Mandatory": true,
-    "EncodedDisplayName": "Huels Group",
-    "EncodedDisplayDescription": "Reduced zero defect system engine",
-    "IconHint": "explicabo",
+    "DefaultShowInSelector": false,
+    "IsActive": true,
+    "Key": "dolorem",
+    "ValueType": "odit",
+    "Mandatory": false,
+    "EncodedDisplayName": "Mraz, Swift and Harris",
+    "EncodedDisplayDescription": "Self-enabling heuristic hub",
+    "IconHint": "ut",
     "ControlInfos": [
       {
-        "Type": "eos",
-        "Label": "molestiae",
-        "Dimension": 602,
-        "ListProviderName": "Schroeder Group",
-        "ListProviderExtraInfo": "quidem",
-        "ListProviderPrimaryKeyName": "Walter LLC",
-        "ListLeadText": "excepturi",
+        "Type": "facere",
+        "Label": "vero",
+        "Dimension": 220,
+        "ListProviderName": "O'Keefe, Kemmer and Runte",
+        "ListProviderExtraInfo": "magni",
+        "ListProviderPrimaryKeyName": "Welch-VonRueden",
+        "ListLeadText": "voluptates",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 70
+            "FieldLength": 173
           }
         }
       }
     ],
-    "EncodedDataCaption": "magnam",
-    "EncodedDataCaptionDescription": "Intuitive intermediate knowledge user",
-    "CurrentOperationType": "voluptatem",
+    "EncodedDataCaption": "quibusdam",
+    "EncodedDataCaptionDescription": "Switchable user-facing forecast",
+    "CurrentOperationType": "doloribus",
     "Values": [
-      "rerum",
-      "suscipit"
+      "ea",
+      "non"
     ],
     "DisplayValues": [
-      "et",
-      "vel"
+      "eaque",
+      "ab"
     ],
     "OperationInfos": [
       {
-        "Key": "omnis",
-        "EncodedDisplayName": "Hauck, Daniel and Reilly",
+        "Key": "recusandae",
+        "EncodedDisplayName": "Dach-Waters",
         "EncodedLeadTexts": [
-          "est",
-          "eum"
+          "voluptatem",
+          "nihil"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 235
+            "FieldLength": 44
           }
         }
       },
       {
-        "Key": "omnis",
-        "EncodedDisplayName": "Hauck, Daniel and Reilly",
+        "Key": "recusandae",
+        "EncodedDisplayName": "Dach-Waters",
         "EncodedLeadTexts": [
-          "est",
-          "eum"
+          "voluptatem",
+          "nihil"
         ],
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 235
+            "FieldLength": 44
           }
         }
       }

@@ -63,7 +63,7 @@ OK
 POST /api/v1/Agents/List/CreateDefaultCurrencyEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -73,19 +73,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "CurrencyId": 293,
-  "Name": "Conn Inc and Sons",
-  "Tooltip": "ducimus",
-  "Rank": 389,
-  "Rate": 15500.764,
-  "Units": 7722.1759999999995,
+  "CurrencyId": 780,
+  "Name": "Kulas, Aufderhar and Schuster",
+  "Tooltip": "corporis",
+  "Rank": 985,
+  "Rate": 19227.09,
+  "Units": 27369.221999999998,
   "Deleted": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 47
+      "FieldLength": 857
     }
   }
 }

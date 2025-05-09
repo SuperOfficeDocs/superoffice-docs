@@ -85,16 +85,16 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetKeyByValueAndIdentifier
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Cole-Hamill",
-  "DeviceName": "Cremin-Kunde",
-  "DeviceIdentifier": "error",
-  "KeyName": "Smitham LLC",
-  "KeyValue": "sint",
-  "TableName": "Trantow-Wolf"
+  "ApplicationName": "Mayert, Hills and Herzog",
+  "DeviceName": "Durgan Inc and Sons",
+  "DeviceIdentifier": "exercitationem",
+  "KeyName": "Murazik, Johns and Cartwright",
+  "KeyValue": "aut",
+  "TableName": "Maggio LLC"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "dicta",
-  "Value": "ipsa",
-  "RecordId": 56,
-  "CreatedDate": "2002-09-20T13:14:00.5168611+02:00",
-  "UpdatedDate": "2005-10-13T13:14:00.5168611+02:00",
-  "UpdatedBy": "soluta",
-  "CreatedBy": "repudiandae",
-  "TableName": "Feil, Cartwright and Swift",
+  "Key": "qui",
+  "Value": "inventore",
+  "RecordId": 899,
+  "CreatedDate": "1998-03-12T16:32:39.1645096+01:00",
+  "UpdatedDate": "2024-08-18T16:32:39.1645096+02:00",
+  "UpdatedBy": "pariatur",
+  "CreatedBy": "accusantium",
+  "TableName": "Kohler LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 702
+      "FieldType": "System.Int32",
+      "FieldLength": 437
     }
   }
 }

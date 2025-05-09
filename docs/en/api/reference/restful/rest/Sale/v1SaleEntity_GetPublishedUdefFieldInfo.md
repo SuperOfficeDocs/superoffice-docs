@@ -93,7 +93,7 @@ SaleEntity found.
 GET /api/v1/Sale/UdefLayout/Published/{progidOrLabel}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -103,46 +103,46 @@ HTTP/1.1 200 SaleEntity found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "UDefFieldId": 951,
-  "ColumnId": 917,
-  "FieldDefault": "harum",
-  "FieldHeight": 156,
-  "FieldLabel": "ratione",
-  "FieldLeft": 996,
-  "FieldTop": 618,
+  "UDefFieldId": 272,
+  "ColumnId": 283,
+  "FieldDefault": "delectus",
+  "FieldHeight": 1000,
+  "FieldLabel": "consequuntur",
+  "FieldLeft": 439,
+  "FieldTop": 369,
   "FieldType": "Checkbox",
-  "FieldWidth": 554,
-  "FormatMask": "repellat",
+  "FieldWidth": 64,
+  "FormatMask": "et",
   "HideLabel": false,
   "IsIndexed": false,
-  "LabelHeight": 688,
-  "LabelLeft": 918,
-  "LabelTop": 844,
-  "LabelWidth": 465,
-  "LastVersionId": 678,
-  "ListTableId": 459,
+  "LabelHeight": 409,
+  "LabelLeft": 488,
+  "LabelTop": 209,
+  "LabelWidth": 405,
+  "LastVersionId": 735,
+  "ListTableId": 913,
   "IsMandatory": true,
   "Type": "Appointment",
-  "Page1LineNo": 144,
-  "ProgId": "voluptatem",
+  "Page1LineNo": 941,
+  "ProgId": "itaque",
   "IsReadOnly": false,
-  "ShortLabel": "assumenda",
-  "TabOrder": 958,
-  "TextLength": 353,
-  "Tooltip": "sit",
-  "UdefIdentity": 778,
-  "UDListDefinitionId": 5,
+  "ShortLabel": "ullam",
+  "TabOrder": 559,
+  "TextLength": 244,
+  "Tooltip": "reprehenderit",
+  "UdefIdentity": 67,
+  "UDListDefinitionId": 652,
   "Justification": "Center",
-  "Version": 488,
-  "TemplateVariableName": "Veum-Satterfield",
-  "HasBeenPublished": false,
-  "MdoListName": "Hammes-Douglas",
+  "Version": 273,
+  "TemplateVariableName": "Mraz, Senger and Kuvalis",
+  "HasBeenPublished": true,
+  "MdoListName": "Kunze, Sanford and Gerhold",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 663
+      "FieldLength": 199
     }
   }
 }

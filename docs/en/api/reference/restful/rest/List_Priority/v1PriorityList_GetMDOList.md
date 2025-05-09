@@ -26,8 +26,8 @@ Get the MDO list items for "Priority" - with headings and filtering by user grou
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/Priority/MDOItems?flat=True
-GET /api/v1/List/Priority/MDOItems?query=nam
+GET /api/v1/List/Priority/MDOItems?flat=False
+GET /api/v1/List/Priority/MDOItems?query=eveniet
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/Priority/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 606,
-    "Name": "Orn-King",
-    "ToolTip": "Quo excepturi incidunt aliquid.",
+    "Id": 407,
+    "Name": "Berge Group",
+    "ToolTip": "Et quia fuga sit.",
     "Deleted": true,
-    "Rank": 889,
-    "Type": "maxime",
+    "Rank": 124,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 527,
-        "Name": "Bartell LLC",
-        "ToolTip": "Quis ut suscipit.",
+        "Id": 290,
+        "Name": "Feeney, Fisher and Goodwin",
+        "ToolTip": "Perspiciatis repellendus facere quidem magnam.",
         "Deleted": false,
-        "Rank": 575,
-        "Type": "mollitia",
+        "Rank": 430,
+        "Type": "quod",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "qui",
-        "ColorBlock": 29,
-        "ExtraInfo": "et",
-        "StyleHint": "ut",
-        "FullName": "Sophia Johns",
+        "IconHint": "iusto",
+        "ColorBlock": 210,
+        "ExtraInfo": "voluptatem",
+        "StyleHint": "minus",
+        "FullName": "Natalia Bobbie Crooks V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 368
+            "FieldLength": 512
           }
         }
       }
     ],
-    "IconHint": "ut",
-    "ColorBlock": 361,
-    "ExtraInfo": "ipsam",
-    "StyleHint": "ut",
-    "FullName": "Josiane Marty Dietrich DDS",
+    "IconHint": "omnis",
+    "ColorBlock": 459,
+    "ExtraInfo": "vel",
+    "StyleHint": "hic",
+    "FullName": "Abdul Zulauf",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 408
+        "FieldType": "System.String",
+        "FieldLength": 736
       }
     }
   }

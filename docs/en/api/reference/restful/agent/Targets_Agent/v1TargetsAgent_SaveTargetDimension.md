@@ -83,17 +83,17 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 996,
+  "TargetDimensionId": 371,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "neque",
-  "DimensionListName": "Grimes, Rohan and Turner",
-  "DimensionListId": 297,
-  "DimensionListLabel": "autem",
+  "DimensionListField": "natus",
+  "DimensionListName": "Baumbach-VonRueden",
+  "DimensionListId": 495,
+  "DimensionListLabel": "ut",
   "SelectedDimensions": [
-    344,
-    376
+    86,
+    391
   ]
 }
 ```
@@ -105,24 +105,24 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "TargetDimensionId": 287,
+  "TargetDimensionId": 194,
   "AssignmentLevel": "Associate",
   "EntityType": "None",
   "MeasurementUnit": "Amount",
-  "DimensionListField": "et",
-  "DimensionListName": "Miller Inc and Sons",
-  "DimensionListId": 806,
-  "DimensionListLabel": "earum",
+  "DimensionListField": "temporibus",
+  "DimensionListName": "Steuber LLC",
+  "DimensionListId": 677,
+  "DimensionListLabel": "excepturi",
   "SelectedDimensions": [
-    89,
-    632
+    939,
+    692
   ],
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 73
+      "FieldLength": 762
     }
   }
 }

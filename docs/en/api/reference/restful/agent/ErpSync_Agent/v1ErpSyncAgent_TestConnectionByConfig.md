@@ -75,10 +75,10 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 526,
+  "ErpConnectionId": 666,
   "ConfigFields": {
-    "ConfigFields1": "est",
-    "ConfigFields2": "dolore"
+    "ConfigFields1": "enim",
+    "ConfigFields2": "ipsam"
   }
 }
 ```
@@ -89,5 +89,5 @@ Content-Type: application/json; charset=utf-8
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
-true
+false
 ```

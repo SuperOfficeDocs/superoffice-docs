@@ -88,15 +88,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 524,
-  "Name": "McCullough Inc and Sons",
-  "Tooltip": "ab",
-  "Deleted": false,
-  "Rank": 203,
+  "Id": 565,
+  "Name": "Mueller, Zboncak and Russel",
+  "Tooltip": "occaecati",
+  "Deleted": true,
+  "Rank": 72,
   "IsCustomList": false,
   "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "quo",
+  "ListType": "nemo",
   "InUseByUserDefinedFields": false
 }
 ```
@@ -108,22 +108,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 615,
-  "Name": "Mertz-Cummings",
-  "Tooltip": "quod",
-  "Deleted": false,
-  "Rank": 707,
-  "IsCustomList": true,
-  "IsMDOList": true,
+  "Id": 127,
+  "Name": "Sporer-Bergstrom",
+  "Tooltip": "est",
+  "Deleted": true,
+  "Rank": 275,
+  "IsCustomList": false,
+  "IsMDOList": false,
   "UseGroupsAndHeadings": false,
-  "ListType": "similique",
+  "ListType": "aperiam",
   "InUseByUserDefinedFields": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 647
+      "FieldType": "System.Int32",
+      "FieldLength": 291
     }
   }
 }

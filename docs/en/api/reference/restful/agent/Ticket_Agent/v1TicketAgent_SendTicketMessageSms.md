@@ -70,11 +70,11 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "TicketMessageEntityId": 310,
-  "ReplyTemplateId": 568,
+  "TicketMessageEntityId": 491,
+  "ReplyTemplateId": 204,
   "Sms": [
-    "veniam",
-    "distinctio"
+    "saepe",
+    "nobis"
   ]
 }
 ```

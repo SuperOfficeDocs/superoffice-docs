@@ -76,11 +76,11 @@ OK
 POST /api/v1/Agents/License/GetUserLicenses
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "AssociateId": 332
+  "AssociateId": 565
 }
 ```
 
@@ -92,30 +92,30 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Name": "Adams LLC",
-    "Description": "Open-source interactive moratorium",
+    "Name": "Senger Group",
+    "Description": "Extended well-modulated array",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 505,
-        "Tooltip": "in",
-        "CanAssign": true,
-        "Free": 667,
-        "InUse": 645,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 918,
+        "Tooltip": "voluptatem",
+        "CanAssign": false,
+        "Free": 821,
+        "InUse": 988,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 384,
-        "Name": "Cassin, Hermiston and Hilpert",
-        "Description": "Versatile bandwidth-monitored customer loyalty",
-        "PrerequisiteModuleName": "Moen Group",
-        "SortOrder": 64,
-        "ExtraFlags": 21,
+        "ModuleLicenseId": 795,
+        "Name": "Will, King and Jones",
+        "Description": "Inverse value-added time-frame",
+        "PrerequisiteModuleName": "Ernser-Yost",
+        "SortOrder": 721,
+        "ExtraFlags": 326,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 241
+            "FieldLength": 717
           }
         }
       }
@@ -123,25 +123,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 48,
-        "Tooltip": "eum",
+        "Total": 95,
+        "Tooltip": "qui",
         "CanAssign": false,
-        "Free": 446,
-        "InUse": 545,
-        "IsHidden": false,
+        "Free": 336,
+        "InUse": 600,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 702,
-        "Name": "Boyer-Christiansen",
-        "Description": "Monitored secondary hub",
-        "PrerequisiteModuleName": "Jones Group",
-        "SortOrder": 921,
-        "ExtraFlags": 108,
+        "ModuleLicenseId": 231,
+        "Name": "Wilkinson, Pacocha and Rolfson",
+        "Description": "Innovative background leverage",
+        "PrerequisiteModuleName": "Kshlerin-Hegmann",
+        "SortOrder": 411,
+        "ExtraFlags": 433,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 412
+            "FieldType": "System.Int32",
+            "FieldLength": 798
           }
         }
       }
@@ -151,35 +151,35 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldLength": 724
       }
     }
   },
   {
-    "Name": "Adams LLC",
-    "Description": "Open-source interactive moratorium",
+    "Name": "Senger Group",
+    "Description": "Extended well-modulated array",
     "RestrictedModuleLicenses": [
       {
-        "Unrestricted": true,
-        "Total": 505,
-        "Tooltip": "in",
-        "CanAssign": true,
-        "Free": 667,
-        "InUse": 645,
-        "IsHidden": false,
+        "Unrestricted": false,
+        "Total": 918,
+        "Tooltip": "voluptatem",
+        "CanAssign": false,
+        "Free": 821,
+        "InUse": 988,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 384,
-        "Name": "Cassin, Hermiston and Hilpert",
-        "Description": "Versatile bandwidth-monitored customer loyalty",
-        "PrerequisiteModuleName": "Moen Group",
-        "SortOrder": 64,
-        "ExtraFlags": 21,
+        "ModuleLicenseId": 795,
+        "Name": "Will, King and Jones",
+        "Description": "Inverse value-added time-frame",
+        "PrerequisiteModuleName": "Ernser-Yost",
+        "SortOrder": 721,
+        "ExtraFlags": 326,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 241
+            "FieldLength": 717
           }
         }
       }
@@ -187,25 +187,25 @@ Content-Type: application/json; charset=utf-8
     "UnrestrictedModuleLicenses": [
       {
         "Unrestricted": false,
-        "Total": 48,
-        "Tooltip": "eum",
+        "Total": 95,
+        "Tooltip": "qui",
         "CanAssign": false,
-        "Free": 446,
-        "InUse": 545,
-        "IsHidden": false,
+        "Free": 336,
+        "InUse": 600,
+        "IsHidden": true,
         "Assigned": true,
-        "ModuleLicenseId": 702,
-        "Name": "Boyer-Christiansen",
-        "Description": "Monitored secondary hub",
-        "PrerequisiteModuleName": "Jones Group",
-        "SortOrder": 921,
-        "ExtraFlags": 108,
+        "ModuleLicenseId": 231,
+        "Name": "Wilkinson, Pacocha and Rolfson",
+        "Description": "Innovative background leverage",
+        "PrerequisiteModuleName": "Kshlerin-Hegmann",
+        "SortOrder": 411,
+        "ExtraFlags": 433,
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.String",
-            "FieldLength": 412
+            "FieldType": "System.Int32",
+            "FieldLength": 798
           }
         }
       }
@@ -215,7 +215,7 @@ Content-Type: application/json; charset=utf-8
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 96
+        "FieldLength": 724
       }
     }
   }

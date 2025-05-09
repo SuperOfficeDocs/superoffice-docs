@@ -81,12 +81,12 @@ OK
 POST /api/v1/Agents/ForeignSystem/GetDeviceKeys
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "ApplicationName": "Willms-Altenwerth",
-  "DeviceName": "Nitzsche-Stoltenberg"
+  "ApplicationName": "Pollich, Lind and West",
+  "DeviceName": "Mayert Group"
 }
 ```
 
@@ -98,20 +98,20 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Key": "enim",
-    "Value": "nostrum",
-    "RecordId": 885,
-    "CreatedDate": "2016-03-27T13:14:00.5168611+02:00",
-    "UpdatedDate": "2008-04-04T13:14:00.5168611+02:00",
-    "UpdatedBy": "blanditiis",
-    "CreatedBy": "ut",
-    "TableName": "Gislason, Walter and Bins",
+    "Key": "natus",
+    "Value": "repellat",
+    "RecordId": 142,
+    "CreatedDate": "2020-03-04T16:32:39.1645096+01:00",
+    "UpdatedDate": "1999-02-06T16:32:39.1645096+01:00",
+    "UpdatedBy": "necessitatibus",
+    "CreatedBy": "numquam",
+    "TableName": "Wilkinson, Casper and Armstrong",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 284
+        "FieldType": "System.String",
+        "FieldLength": 98
       }
     }
   }

@@ -103,31 +103,31 @@ OK
 POST /api/v1/Agents/Marketing/SaveShipmentMessageEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 89,
-  "PlainMessage": "dolorem",
-  "HtmlMessage": "id",
-  "SmsMessage": "dolor",
-  "Description": "Focused regional toolset",
-  "Subject": "alias",
-  "FolderId": 12,
-  "HeaderField": "est",
-  "Design": "dignissimos",
+  "ShipmentMessageId": 768,
+  "PlainMessage": "repellendus",
+  "HtmlMessage": "sed",
+  "SmsMessage": "blanditiis",
+  "Description": "Advanced static instruction set",
+  "Subject": "et",
+  "FolderId": 470,
+  "HeaderField": "expedita",
+  "Design": "adipisci",
   "Designtype": "SOEditor",
   "Flags": "Document",
-  "RegisterViews": false,
+  "RegisterViews": true,
   "InlineImages": false,
-  "LongDescription": "Total homogeneous archive",
-  "AccessKey": "architecto",
-  "DocumentMessage": 822,
-  "Registered": "2007-02-18T13:14:00.6887452+01:00",
-  "RegisteredAssociateId": 998,
-  "Updated": "2000-09-06T13:14:00.6887452+02:00",
-  "UpdatedAssociateId": 798,
-  "UpdatedCount": 150
+  "LongDescription": "Digitized discrete orchestration",
+  "AccessKey": "minima",
+  "DocumentMessage": 661,
+  "Registered": "2012-06-08T16:32:39.3363462+02:00",
+  "RegisteredAssociateId": 433,
+  "Updated": "1997-12-24T16:32:39.3363462+01:00",
+  "UpdatedAssociateId": 222,
+  "UpdatedCount": 658
 }
 ```
 
@@ -138,33 +138,33 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ShipmentMessageId": 18,
-  "PlainMessage": "tempora",
-  "HtmlMessage": "sit",
-  "SmsMessage": "aut",
-  "Description": "Switchable holistic capability",
-  "Subject": "eius",
-  "FolderId": 450,
-  "HeaderField": "odio",
-  "Design": "nihil",
+  "ShipmentMessageId": 344,
+  "PlainMessage": "doloremque",
+  "HtmlMessage": "quo",
+  "SmsMessage": "ut",
+  "Description": "Upgradable client-driven adapter",
+  "Subject": "aut",
+  "FolderId": 494,
+  "HeaderField": "quia",
+  "Design": "exercitationem",
   "Designtype": "SOEditor",
   "Flags": "Document",
   "RegisterViews": false,
-  "InlineImages": true,
-  "LongDescription": "Multi-lateral contextually-based process improvement",
-  "AccessKey": "cum",
-  "DocumentMessage": 772,
-  "Registered": "2009-01-03T13:14:00.6887452+01:00",
-  "RegisteredAssociateId": 338,
-  "Updated": "2022-01-04T13:14:00.6887452+01:00",
-  "UpdatedAssociateId": 642,
-  "UpdatedCount": 247,
+  "InlineImages": false,
+  "LongDescription": "Grass-roots eco-centric matrix",
+  "AccessKey": "voluptatem",
+  "DocumentMessage": 759,
+  "Registered": "2011-05-30T16:32:39.3363462+02:00",
+  "RegisteredAssociateId": 235,
+  "Updated": "2020-05-16T16:32:39.3363462+02:00",
+  "UpdatedAssociateId": 396,
+  "UpdatedCount": 165,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 803
+      "FieldLength": 408
     }
   }
 }

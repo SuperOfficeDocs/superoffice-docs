@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 402,
-  "Name": "Zemlak LLC",
-  "Tooltip": "soluta",
-  "Deleted": true,
-  "UdListDefinitionId": 333,
-  "Rank": 990,
+  "Id": 371,
+  "Name": "Gaylord Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": false,
+  "UdListDefinitionId": 404,
+  "Rank": 651,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 931
+      "FieldLength": 155
     }
   }
 }

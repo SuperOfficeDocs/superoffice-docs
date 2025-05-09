@@ -90,7 +90,7 @@ OK
 POST /api/v1/Agents/Quote/CreateDefaultProduct
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,73 +100,73 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ProductId": 727,
-  "ERPProductKey": "harum",
-  "ERPPriceListKey": "voluptatibus",
-  "Name": "Wiegand, Schumm and Frami",
-  "Description": "Reverse-engineered clear-thinking application",
-  "Code": "corrupti",
-  "PriceUnit": "est",
-  "QuantityUnit": "dicta",
-  "IsSubscription": true,
-  "SubscriptionUnit": "et",
-  "DefaultSubscriptionQuantity": 13507.539999999999,
-  "ItemNumber": "437795",
+  "ProductId": 654,
+  "ERPProductKey": "nam",
+  "ERPPriceListKey": "ea",
+  "Name": "Hessel-Cassin",
+  "Description": "Open-source reciprocal intranet",
+  "Code": "expedita",
+  "PriceUnit": "alias",
+  "QuantityUnit": "natus",
+  "IsSubscription": false,
+  "SubscriptionUnit": "architecto",
+  "DefaultSubscriptionQuantity": 6828.986,
+  "ItemNumber": "1261933",
   "Url": "http://www.example.com/",
   "ProductCategoryKey": "VIP Customer",
-  "ProductFamilyKey": "aut",
-  "ProductTypeKey": "quia",
-  "VAT": 7261.478,
-  "VATInfo": "in",
-  "UnitCost": 29039.644,
-  "UnitMinimumPrice": 5271.388,
-  "UnitListPrice": 2369.304,
-  "InAssortment": true,
-  "Supplier": "et",
-  "SupplierCode": "assumenda",
-  "Rights": "aliquid",
-  "Rule": "ipsam",
+  "ProductFamilyKey": "harum",
+  "ProductTypeKey": "sit",
+  "VAT": 9449.01,
+  "VATInfo": "aut",
+  "UnitCost": 15080.807999999999,
+  "UnitMinimumPrice": 460.698,
+  "UnitListPrice": 21304.932,
+  "InAssortment": false,
+  "Supplier": "amet",
+  "SupplierCode": "sit",
+  "Rights": "sunt",
+  "Rule": "quia",
   "ExtraInfo": [
     {
-      "Name": "O'Hara Group",
-      "Value": "quo",
+      "Name": "Zemlak, Spencer and Zieme",
+      "Value": "corrupti",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 849
+          "FieldLength": 740
         }
       }
     },
     {
-      "Name": "O'Hara Group",
-      "Value": "quo",
+      "Name": "Zemlak, Spencer and Zieme",
+      "Value": "corrupti",
       "Type": "Image",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 849
+          "FieldLength": 740
         }
       }
     }
   ],
   "RawExtraInfo": "sed",
-  "ExtraField1": "quia",
-  "ExtraField2": "numquam",
-  "ExtraField3": "doloremque",
-  "ExtraField4": "iure",
-  "ExtraField5": "dolorem",
-  "InStock": 2908.352,
+  "ExtraField1": "ipsa",
+  "ExtraField2": "odit",
+  "ExtraField3": "optio",
+  "ExtraField4": "molestiae",
+  "ExtraField5": "aspernatur",
+  "InStock": 15494.496,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 797
+      "FieldLength": 874
     }
   }
 }

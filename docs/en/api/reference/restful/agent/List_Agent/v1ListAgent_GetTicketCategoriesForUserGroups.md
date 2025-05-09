@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/GetTicketCategoriesForUserGroups
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
   "UserGroupIds": [
-    942,
-    785
+    176,
+    95
   ]
 }
 ```
@@ -103,50 +103,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 169,
-    "Name": "Cole LLC",
-    "ToolTip": "Eaque saepe ea.",
-    "Deleted": true,
-    "Rank": 913,
-    "Type": "numquam",
+    "Id": 861,
+    "Name": "Schuppe, Goyette and Stanton",
+    "ToolTip": "Aspernatur eum molestiae quo dolorum rem temporibus sunt.",
+    "Deleted": false,
+    "Rank": 354,
+    "Type": "quis",
     "ChildItems": [
       {
-        "Id": 746,
-        "Name": "Ullrich-Skiles",
-        "ToolTip": "Corrupti aut in sit totam animi.",
+        "Id": 723,
+        "Name": "Ebert LLC",
+        "ToolTip": "Ut facilis impedit.",
         "Deleted": false,
-        "Rank": 803,
-        "Type": "perspiciatis",
+        "Rank": 285,
+        "Type": "animi",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "voluptatem",
-        "ColorBlock": 914,
-        "ExtraInfo": "aut",
-        "StyleHint": "dolor",
-        "FullName": "Alexie Maximus Schinner PhD",
+        "IconHint": "et",
+        "ColorBlock": 404,
+        "ExtraInfo": "saepe",
+        "StyleHint": "quas",
+        "FullName": "Anna Morissette",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.String",
-            "FieldLength": 641
+            "FieldLength": 726
           }
         }
       }
     ],
-    "IconHint": "aut",
-    "ColorBlock": 361,
-    "ExtraInfo": "esse",
-    "StyleHint": "sint",
-    "FullName": "Dr. Elvie Felicita Langosh Sr.",
+    "IconHint": "dicta",
+    "ColorBlock": 70,
+    "ExtraInfo": "veniam",
+    "StyleHint": "quia",
+    "FullName": "Graciela Carroll Sr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 523
+        "FieldLength": 655
       }
     }
   }

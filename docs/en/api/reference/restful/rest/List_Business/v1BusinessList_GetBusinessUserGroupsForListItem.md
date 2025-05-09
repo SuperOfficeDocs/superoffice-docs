@@ -86,56 +86,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 709,
-    "Name": "Hills-Prohaska",
-    "ToolTip": "Maiores ut aut saepe.",
-    "Deleted": false,
-    "Rank": 497,
-    "Type": "non",
-    "ColorBlock": 503,
-    "IconHint": "rerum",
-    "Selected": false,
-    "LastChanged": "2019-01-03T13:14:09.6191319+01:00",
+    "Id": 169,
+    "Name": "Runte Group",
+    "ToolTip": "Culpa quia soluta nulla aperiam eligendi voluptatibus ut.",
+    "Deleted": true,
+    "Rank": 847,
+    "Type": "sit",
+    "ColorBlock": 55,
+    "IconHint": "ea",
+    "Selected": true,
+    "LastChanged": "1998-01-01T16:32:48.5245595+01:00",
     "ChildItems": [
       {
-        "Id": 605,
-        "Name": "Olson Group",
-        "ToolTip": "Sunt aut esse dignissimos sit ipsam facilis.",
+        "Id": 289,
+        "Name": "Kling, Pacocha and Schmitt",
+        "ToolTip": "Praesentium eveniet id totam est.",
         "Deleted": false,
-        "Rank": 946,
-        "Type": "labore",
-        "ColorBlock": 393,
-        "IconHint": "enim",
+        "Rank": 759,
+        "Type": "qui",
+        "ColorBlock": 654,
+        "IconHint": "et",
         "Selected": false,
-        "LastChanged": "2012-05-10T13:14:09.6191319+02:00",
+        "LastChanged": "2023-08-13T16:32:48.5245595+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "enim",
-        "StyleHint": "voluptatem",
-        "Hidden": false,
-        "FullName": "Dr. Jace Mathilde Marks",
+        "ExtraInfo": "non",
+        "StyleHint": "dicta",
+        "Hidden": true,
+        "FullName": "Keshaun Hamill",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 711
+            "FieldLength": 669
           }
         }
       }
     ],
-    "ExtraInfo": "et",
-    "StyleHint": "aut",
+    "ExtraInfo": "earum",
+    "StyleHint": "non",
     "Hidden": true,
-    "FullName": "Annette Ward",
+    "FullName": "Prof. Gerald Rachael Bednar V",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 880
+        "FieldType": "System.String",
+        "FieldLength": 228
       }
     }
   }

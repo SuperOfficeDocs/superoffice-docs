@@ -75,16 +75,16 @@ OK
 POST /api/v1/List/ProductCategory/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 172,
-  "Name": "Steuber Group",
-  "Tooltip": "dicta",
+  "HeadingId": 519,
+  "Name": "Tromp, Jones and Satterfield",
+  "Tooltip": "laborum",
   "Deleted": false,
-  "Rank": 409,
-  "UdListDefinitionId": 583
+  "Rank": 324,
+  "UdListDefinitionId": 965
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 408,
-  "Name": "Schamberger, Reichert and Collier",
-  "Tooltip": "quos",
-  "Deleted": true,
-  "Rank": 106,
-  "UdListDefinitionId": 647,
+  "HeadingId": 692,
+  "Name": "Grimes Group",
+  "Tooltip": "beatae",
+  "Deleted": false,
+  "Rank": 447,
+  "UdListDefinitionId": 971,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 269
+      "FieldLength": 641
     }
   }
 }

@@ -84,11 +84,11 @@ OK
 POST /api/v1/Agents/PhoneList/GetContactPhones
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 945
+  "ContactId": 820
 }
 ```
 
@@ -100,22 +100,22 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "PersonDirectPhone": "548.122.8805 x8124",
-    "PersonCellPhone": "(520)588-2855 x2666",
-    "PersonPrivatePhone": "650-042-1861",
-    "PersonFaxNumber": "892953",
-    "PersonPagerNumber": "768454",
-    "PersonEmail": "kaleb.schaefer@bayer.uk",
-    "Id": 993,
-    "Name": "Murray, Waters and Murazik",
-    "Tooltip": "officiis",
-    "UniqueId": "porro",
+    "PersonDirectPhone": "1-636-832-0939",
+    "PersonCellPhone": "(346)032-5933 x47445",
+    "PersonPrivatePhone": "258-589-4944 x8212",
+    "PersonFaxNumber": "1694245",
+    "PersonPagerNumber": "1313876",
+    "PersonEmail": "freida_swift@kuvalis.us",
+    "Id": 833,
+    "Name": "Haley LLC",
+    "Tooltip": "natus",
+    "UniqueId": "illum",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 269
+        "FieldType": "System.String",
+        "FieldLength": 407
       }
     }
   }

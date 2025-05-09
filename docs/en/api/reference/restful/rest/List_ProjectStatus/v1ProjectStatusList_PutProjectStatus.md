@@ -82,12 +82,12 @@ Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 808,
-  "Name": "Hauck Group",
-  "Tooltip": "qui",
-  "Deleted": false,
-  "UdListDefinitionId": 942,
-  "Rank": 324
+  "Id": 835,
+  "Name": "Torphy-Nienow",
+  "Tooltip": "odio",
+  "Deleted": true,
+  "UdListDefinitionId": 562,
+  "Rank": 195
 }
 ```
 
@@ -98,18 +98,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 585,
-  "Name": "Lynch LLC",
-  "Tooltip": "rerum",
-  "Deleted": false,
-  "UdListDefinitionId": 323,
-  "Rank": 371,
+  "Id": 229,
+  "Name": "Haag Inc and Sons",
+  "Tooltip": "et",
+  "Deleted": true,
+  "UdListDefinitionId": 993,
+  "Rank": 870,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 74
+      "FieldType": "System.String",
+      "FieldLength": 400
     }
   }
 }

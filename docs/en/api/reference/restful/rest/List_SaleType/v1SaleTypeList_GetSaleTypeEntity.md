@@ -83,7 +83,7 @@ OK
 GET /api/v1/List/SaleType/Items/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: *
 ```
 
 ## Sample response
@@ -93,53 +93,53 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "SaleTypeId": 882,
-  "Name": "Morar, Rowe and Kerluke",
-  "Tooltip": "ipsam",
-  "Rank": 407,
+  "SaleTypeId": 629,
+  "Name": "Hills-Tremblay",
+  "Tooltip": "veritatis",
+  "Rank": 93,
   "DurationUnit": "Century",
-  "SaleDuration": 227,
-  "SaleTypeCatId": 174,
+  "SaleDuration": 712,
+  "SaleTypeCatId": 451,
   "Deleted": true,
   "HasGuide": false,
-  "HasStakeholders": false,
+  "HasStakeholders": true,
   "IsAutoAdvance": true,
   "AllowQuoteAlternatives": true,
-  "DefaultQuoteValidity": 740,
-  "QuoteLinesTemplate": 287,
-  "ConfirmationLinesTemplate": 576,
-  "MaxDiscountPercentSet": true,
+  "DefaultQuoteValidity": 225,
+  "QuoteLinesTemplate": 300,
+  "ConfirmationLinesTemplate": 564,
+  "MaxDiscountPercentSet": false,
   "MinEarningPercentSet": false,
-  "MaxDiscountPercent": 817,
-  "MinEarningPercent": 385,
-  "GroupQuoteLinesBy": 857,
-  "SortGroupLinesBy": 160,
+  "MaxDiscountPercent": 772,
+  "MinEarningPercent": 80,
+  "GroupQuoteLinesBy": 726,
+  "SortGroupLinesBy": 45,
   "Stages": [
     {
-      "Id": 503,
-      "Name": "Hartmann Group",
-      "ToolTip": "Veniam quia velit quia voluptatem.",
+      "Id": 215,
+      "Name": "Carroll Group",
+      "ToolTip": "Sequi pariatur.",
       "Deleted": false,
-      "Rank": 457,
-      "Type": "recusandae",
-      "ColorBlock": 252,
-      "IconHint": "sed",
+      "Rank": 618,
+      "Type": "impedit",
+      "ColorBlock": 51,
+      "IconHint": "cum",
       "Selected": false,
-      "LastChanged": "2019-08-30T13:14:10.0566655+02:00",
+      "LastChanged": "2001-01-24T16:32:48.946344+01:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "laboriosam",
-      "StyleHint": "aut",
-      "Hidden": false,
-      "FullName": "Zoe Reynolds",
+      "ExtraInfo": "ipsam",
+      "StyleHint": "voluptatibus",
+      "Hidden": true,
+      "FullName": "Dr. Katlyn Kristy Haag",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 4
+          "FieldLength": 163
         }
       }
     }
@@ -149,7 +149,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 837
+      "FieldLength": 270
     }
   }
 }

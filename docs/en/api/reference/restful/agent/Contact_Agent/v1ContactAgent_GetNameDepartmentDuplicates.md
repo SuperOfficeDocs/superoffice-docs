@@ -78,11 +78,11 @@ OK
 POST /api/v1/Agents/Contact/GetNameDepartmentDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Johns-Block",
+  "Name": "Reilly Group",
   "Department": ""
 }
 ```
@@ -95,17 +95,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Turcotte Inc and Sons",
-    "SoPrimaryKey": 496,
-    "EntryName": "Feil-Collins",
-    "EntryIdentifier": "sunt",
-    "RuleDisplayName": "Gorczany-Smith",
+    "RuleName": "Roob Group",
+    "SoPrimaryKey": 849,
+    "EntryName": "Witting-Reynolds",
+    "EntryIdentifier": "sequi",
+    "RuleDisplayName": "Luettgen-Balistreri",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 638
+        "FieldLength": 734
       }
     }
   }

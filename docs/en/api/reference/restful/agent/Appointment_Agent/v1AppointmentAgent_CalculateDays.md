@@ -99,10 +99,10 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "RecurrenceId": 902,
-  "StartDate": "2003-07-07T13:13:59.2969775+02:00",
-  "EndDate": "2003-07-08T13:13:59.2969775+02:00",
-  "RecurrenceCounter": 91,
+  "RecurrenceId": 78,
+  "StartDate": "2022-01-03T16:32:37.9304176+01:00",
+  "EndDate": "2022-08-23T16:32:37.9304176+02:00",
+  "RecurrenceCounter": 331,
   "RecurrenceEndType": "Counter",
   "Pattern": "Custom",
   "DayPattern": null,
@@ -111,20 +111,20 @@ Content-Type: application/json; charset=utf-8
   "YearPattern": null,
   "Dates": [
     {
-      "Date": "2003-05-26T13:13:59.2969775+02:00",
+      "Date": "2001-07-15T16:32:37.9304176+02:00",
       "IsConflict": true,
-      "Description": "Secured client-server emulation",
-      "DescriptionStyleHint": "Robust intangible benchmark",
-      "Tooltip": "porro"
+      "Description": "Customer-focused asynchronous task-force",
+      "DescriptionStyleHint": "Open-source local software",
+      "Tooltip": "saepe"
     },
     {
-      "Date": "2003-05-26T13:13:59.2969775+02:00",
+      "Date": "2001-07-15T16:32:37.9304176+02:00",
       "IsConflict": true,
-      "Description": "Secured client-server emulation",
-      "DescriptionStyleHint": "Robust intangible benchmark",
-      "Tooltip": "porro"
+      "Description": "Customer-focused asynchronous task-force",
+      "DescriptionStyleHint": "Open-source local software",
+      "Tooltip": "saepe"
     }
   ],
-  "IsRecurrence": false
+  "IsRecurrence": true
 }
 ```

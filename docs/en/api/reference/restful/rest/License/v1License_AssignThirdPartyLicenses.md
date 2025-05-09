@@ -78,7 +78,7 @@ OK
 PUT /api/v1/License/{moduleOwner}/{associateId}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: fr,de,ru,zh
+Accept-Language: en
 ```
 
 ## Sample response
@@ -90,25 +90,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 299,
-    "Tooltip": "reiciendis",
+    "Total": 533,
+    "Tooltip": "maxime",
     "CanAssign": false,
-    "Free": 481,
-    "InUse": 555,
+    "Free": 193,
+    "InUse": 561,
     "IsHidden": false,
     "Assigned": false,
-    "ModuleLicenseId": 645,
-    "Name": "Bailey, Gutkowski and O'Connell",
-    "Description": "Multi-lateral logistical projection",
-    "PrerequisiteModuleName": "Thiel Inc and Sons",
-    "SortOrder": 467,
-    "ExtraFlags": 877,
+    "ModuleLicenseId": 954,
+    "Name": "Lebsack Group",
+    "Description": "Down-sized upward-trending approach",
+    "PrerequisiteModuleName": "Hermann-Baumbach",
+    "SortOrder": 961,
+    "ExtraFlags": 113,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 368
+        "FieldLength": 978
       }
     }
   }

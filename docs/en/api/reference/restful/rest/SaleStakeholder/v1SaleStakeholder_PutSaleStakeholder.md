@@ -115,29 +115,29 @@ SaleStakeholder updated.
 PUT /api/v1/SaleStakeholder/{id}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Zieme, Tillman and Blick",
-  "Comment": "ratione",
-  "StakeholderRoleId": 112,
-  "CountryId": 980,
-  "PersonId": 976,
-  "EmailDescription": "oren@cruickshankgrady.name",
-  "EmailId": 786,
-  "EmailAddress": "wiley@swift.ca",
-  "PhoneId": 900,
-  "ContactName": "Wolff-Huel",
-  "ContactId": 112,
-  "SaleId": 449,
-  "Mrmrs": "soluta",
-  "Firstname": "Kaleigh",
-  "MiddleName": "Hermann Group",
-  "Lastname": "Stracke",
-  "SaleStakeholderId": 170,
-  "Rank": 884,
-  "Phone": "396-338-7773"
+  "StakeholderRoleName": "Homenick-Schroeder",
+  "Comment": "nemo",
+  "StakeholderRoleId": 376,
+  "CountryId": 369,
+  "PersonId": 981,
+  "EmailDescription": "jaime.hyatt@jewessgerhold.biz",
+  "EmailId": 878,
+  "EmailAddress": "harry_okon@jones.biz",
+  "PhoneId": 601,
+  "ContactName": "Kreiger-Zemlak",
+  "ContactId": 364,
+  "SaleId": 782,
+  "Mrmrs": "cupiditate",
+  "Firstname": "Brody",
+  "MiddleName": "McClure Inc and Sons",
+  "Lastname": "Klein",
+  "SaleStakeholderId": 351,
+  "Rank": 310,
+  "Phone": "918.116.4012 x4829"
 }
 ```
 
@@ -148,31 +148,31 @@ HTTP/1.1 200 SaleStakeholder updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "StakeholderRoleName": "Hyatt Group",
-  "Comment": "vel",
-  "StakeholderRoleId": 681,
-  "CountryId": 466,
-  "PersonId": 5,
-  "EmailDescription": "shawn_schaefer@hintzsenger.info",
-  "EmailId": 156,
-  "EmailAddress": "camryn_mertz@schowalterlarson.com",
-  "PhoneId": 152,
-  "ContactName": "Ryan, Pollich and Abernathy",
-  "ContactId": 414,
-  "SaleId": 57,
-  "Mrmrs": "a",
-  "Firstname": "Samanta",
-  "MiddleName": "Hayes-Bruen",
-  "Lastname": "Padberg",
-  "SaleStakeholderId": 304,
-  "Rank": 206,
-  "Phone": "1-567-800-3027 x8060",
+  "StakeholderRoleName": "Lynch, Romaguera and Armstrong",
+  "Comment": "consequatur",
+  "StakeholderRoleId": 866,
+  "CountryId": 988,
+  "PersonId": 224,
+  "EmailDescription": "darlene.gutmann@rippingutmann.info",
+  "EmailId": 520,
+  "EmailAddress": "rey_anderson@pagachackett.uk",
+  "PhoneId": 398,
+  "ContactName": "Kozey-Bogan",
+  "ContactId": 435,
+  "SaleId": 312,
+  "Mrmrs": "porro",
+  "Firstname": "Judd",
+  "MiddleName": "Wiza LLC",
+  "Lastname": "Harris",
+  "SaleStakeholderId": 207,
+  "Rank": 713,
+  "Phone": "358-220-8578 x89681",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 39
+      "FieldLength": 179
     }
   },
   "_Links": {

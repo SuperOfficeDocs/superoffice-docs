@@ -92,27 +92,27 @@ HTTP/1.1 200 PriceList found.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 113,
-  "ERPPriceListKey": "ullam",
-  "QuoteConnectionId": 148,
-  "Name": "O'Reilly Inc and Sons",
-  "Description": "Adaptive systemic monitoring",
-  "Currency": "rerum",
-  "CurrencyName": "Barrows-Watsica",
-  "ValidFrom": "2005-03-01T13:14:09.8691543+01:00",
-  "ValidTo": "2002-06-22T13:14:09.8691543+02:00",
-  "IsActive": false,
+  "PriceListId": 726,
+  "ERPPriceListKey": "earum",
+  "QuoteConnectionId": 757,
+  "Name": "Kerluke Inc and Sons",
+  "Description": "Realigned empowering open architecture",
+  "Currency": "et",
+  "CurrencyName": "Baumbach, Brown and Bruen",
+  "ValidFrom": "2004-04-30T16:32:48.7588803+02:00",
+  "ValidTo": "2005-03-23T16:32:48.7588803+01:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 779
+      "FieldLength": 663
     }
   },
   "_Links": {
-    "Self": "https://www.example.com/api/v1/contact/321",
-    "Archive": "https://www.example.com/api/v1/contact"
+    "Self": "https://www.example.com/api/v1/project/321",
+    "Archive": "https://www.example.com/api/v1/project"
   }
 }
 ```

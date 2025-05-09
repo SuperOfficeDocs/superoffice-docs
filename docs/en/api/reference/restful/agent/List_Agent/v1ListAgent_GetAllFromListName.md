@@ -79,11 +79,11 @@ OK
 POST /api/v1/Agents/List/GetAllFromListName
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionName": "Jerde LLC",
+  "UdListDefinitionName": "Steuber, Huels and Gerhold",
   "IncludeDeleted": true
 }
 ```
@@ -96,18 +96,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 32,
-    "Name": "Goldner Inc and Sons",
-    "Tooltip": "debitis",
+    "Id": 24,
+    "Name": "Kohler Group",
+    "Tooltip": "a",
     "Deleted": false,
-    "UdListDefinitionId": 759,
-    "Rank": 30,
+    "UdListDefinitionId": 835,
+    "Rank": 257,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 916
+        "FieldType": "System.String",
+        "FieldLength": 467
       }
     }
   }

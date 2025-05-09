@@ -77,12 +77,12 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 648,
-  "Name": "Gutmann LLC",
-  "Tooltip": "velit",
-  "Deleted": true,
-  "UdListDefinitionId": 403,
-  "Rank": 486
+  "Id": 555,
+  "Name": "Tremblay LLC",
+  "Tooltip": "voluptatum",
+  "Deleted": false,
+  "UdListDefinitionId": 115,
+  "Rank": 799
 }
 ```
 
@@ -93,18 +93,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 346,
-  "Name": "Blick, Cummings and Bartoletti",
-  "Tooltip": "dignissimos",
-  "Deleted": false,
-  "UdListDefinitionId": 99,
-  "Rank": 937,
+  "Id": 204,
+  "Name": "Kuhlman Group",
+  "Tooltip": "libero",
+  "Deleted": true,
+  "UdListDefinitionId": 69,
+  "Rank": 354,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 696
+      "FieldType": "System.Int32",
+      "FieldLength": 553
     }
   }
 }

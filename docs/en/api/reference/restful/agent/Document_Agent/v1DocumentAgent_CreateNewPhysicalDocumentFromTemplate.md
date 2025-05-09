@@ -115,18 +115,18 @@ OK
 POST /api/v1/Agents/Document/CreateNewPhysicalDocumentFromTemplate
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "ContactId": 96,
-  "PersonId": 847,
-  "AppointmentId": 22,
-  "DocumentId": 184,
-  "SaleId": 477,
-  "SelectionId": 221,
-  "ProjectId": 913,
-  "UiCulture": "aut"
+  "ContactId": 443,
+  "PersonId": 279,
+  "AppointmentId": 789,
+  "DocumentId": 73,
+  "SaleId": 649,
+  "SelectionId": 464,
+  "ProjectId": 691,
+  "UiCulture": "atque"
 }
 ```
 
@@ -137,88 +137,88 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "DocumentId": 555,
+  "DocumentId": 58,
   "UpdatedBy": null,
   "CreatedBy": null,
-  "Attention": "suscipit",
-  "Header": "placeat",
-  "Name": "Thiel LLC",
-  "OurRef": "mollitia",
-  "YourRef": "sed",
-  "CreatedDate": "1997-12-29T13:14:00.2044609+01:00",
-  "UpdatedDate": "2014-12-30T13:14:00.2044609+01:00",
-  "Description": "Pre-emptive heuristic data-warehouse",
+  "Attention": "vitae",
+  "Header": "illo",
+  "Name": "Schneider, Kreiger and Corwin",
+  "OurRef": "incidunt",
+  "YourRef": "iusto",
+  "CreatedDate": "2018-07-27T16:32:38.8833241+02:00",
+  "UpdatedDate": "2014-12-14T16:32:38.8833241+01:00",
+  "Description": "Advanced even-keeled challenge",
   "DocumentTemplate": null,
   "Person": null,
   "Associate": null,
   "Contact": null,
   "Project": null,
-  "Date": "2000-01-16T13:14:00.2199679+01:00",
-  "ExternalRef": "itaque",
+  "Date": "1998-03-07T16:32:38.8833241+01:00",
+  "ExternalRef": "ea",
   "Completed": "Completed",
-  "ActiveLinks": 128,
+  "ActiveLinks": 681,
   "Type": "BookingForChecklist",
   "Links": [
     {
-      "EntityName": "Kuhlman, Stroman and Bednar",
-      "Id": 921,
-      "Description": "Cross-platform system-worthy product",
-      "ExtraInfo": "est",
-      "LinkId": 112,
+      "EntityName": "Gleason-Balistreri",
+      "Id": 643,
+      "Description": "Right-sized cohesive open architecture",
+      "ExtraInfo": "voluptatem",
+      "LinkId": 370,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 584
+          "FieldType": "System.String",
+          "FieldLength": 348
         }
       }
     }
   ],
   "LockSemantics": "Locking",
   "Sale": null,
-  "SuggestedDocumentId": 822,
-  "Snum": 472,
+  "SuggestedDocumentId": 591,
+  "Snum": 447,
   "UserDefinedFields": {
-    "SuperOffice:1": "Catalina Wehner",
-    "SuperOffice:2": "Price Murray"
+    "SuperOffice:1": "Preston Schulist",
+    "SuperOffice:2": "Willis Effertz"
   },
   "ExtraFields": {
-    "ExtraFields1": "et",
-    "ExtraFields2": "omnis"
+    "ExtraFields1": "voluptatum",
+    "ExtraFields2": "quisquam"
   },
   "CustomFields": {
-    "CustomFields1": "quas",
-    "CustomFields2": "illo"
+    "CustomFields1": "enim",
+    "CustomFields2": "rerum"
   },
-  "PublishEventDate": "2009-02-20T13:14:00.2199679+01:00",
-  "PublishTo": "2004-06-05T13:14:00.2199679+02:00",
-  "PublishFrom": "2013-09-28T13:14:00.2199679+02:00",
+  "PublishEventDate": "2004-12-04T16:32:38.8833241+01:00",
+  "PublishTo": "2012-07-10T16:32:38.8833241+02:00",
+  "PublishFrom": "2016-01-03T16:32:38.8833241+01:00",
   "IsPublished": false,
   "VisibleFor": [
     {
-      "VisibleId": 848,
+      "VisibleId": 599,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 112
+          "FieldLength": 55
         }
       }
     },
     {
-      "VisibleId": 848,
+      "VisibleId": 599,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 112
+          "FieldLength": 55
         }
       }
     }
@@ -227,8 +227,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 491
+      "FieldType": "System.Int32",
+      "FieldLength": 90
     }
   }
 }

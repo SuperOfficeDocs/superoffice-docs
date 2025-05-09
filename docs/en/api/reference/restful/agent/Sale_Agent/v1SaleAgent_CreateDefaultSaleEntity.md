@@ -100,7 +100,7 @@ OK
 POST /api/v1/Agents/Sale/CreateDefaultSaleEntity
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -116,7 +116,7 @@ Content-Type: application/json; charset=utf-8
   "CreatedBy": null,
   "Contact": null,
   "Project": null,
-  "SaleText": "magni",
+  "SaleText": "in",
   "Person": null,
   "Currency": null,
   "Competitor": null,
@@ -125,113 +125,113 @@ Content-Type: application/json; charset=utf-8
   "Reason": null,
   "Source": null,
   "Status": "Lost",
-  "Saledate": "2010-03-11T13:14:01.0645169+01:00",
-  "Amount": 9658.988,
-  "SaleId": 472,
-  "Earning": 21282.994,
-  "EarningPercent": 17142.98,
-  "Heading": "commodi",
-  "Number": "336648",
-  "Probability": 635,
-  "CreatedDate": "2021-03-23T13:14:01.0645169+01:00",
-  "UpdatedDate": "2007-11-02T13:14:01.0645169+01:00",
+  "Saledate": "2004-05-08T16:32:39.8052322+02:00",
+  "Amount": 5092.75,
+  "SaleId": 152,
+  "Earning": 5390.48,
+  "EarningPercent": 13548.282,
+  "Heading": "pariatur",
+  "Number": "1009398",
+  "Probability": 25,
+  "CreatedDate": "2010-07-06T16:32:39.8052322+02:00",
+  "UpdatedDate": "2021-10-26T16:32:39.8052322+02:00",
   "Completed": "Completed",
-  "ActiveLinks": 743,
+  "ActiveLinks": 750,
   "Links": [
     {
-      "EntityName": "Walter, Doyle and Nolan",
-      "Id": 236,
-      "Description": "Adaptive real-time hub",
-      "ExtraInfo": "molestias",
-      "LinkId": 788,
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 401
-        }
-      }
-    }
-  ],
-  "NextDueDate": "2014-06-27T13:14:01.0645169+02:00",
-  "Postit": "quis",
-  "SaleType": null,
-  "ReasonSold": null,
-  "ReasonStalled": null,
-  "ReopenDate": "2004-03-22T13:14:01.0645169+01:00",
-  "SaleStakeholders": [
-    {
-      "StakeholderRoleName": "Langworth-Pfeffer",
-      "Comment": "odit",
-      "StakeholderRoleId": 764,
-      "CountryId": 902,
-      "PersonId": 516,
-      "EmailDescription": "dorthy_wolff@macejkovicmorissette.co.uk",
-      "EmailId": 301,
-      "EmailAddress": "edward.oreilly@krajcik.us",
-      "PhoneId": 974,
-      "ContactName": "Balistreri Group",
-      "ContactId": 281,
-      "SaleId": 285,
-      "Mrmrs": "atque",
-      "Firstname": "Zack",
-      "MiddleName": "Herman-Parisian",
-      "Lastname": "Feeney",
-      "SaleStakeholderId": 164,
-      "Rank": 243,
-      "Phone": "(091)621-5795 x26056",
-      "TableRight": null,
-      "FieldProperties": {
-        "fieldName": {
-          "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 923
-        }
-      }
-    }
-  ],
-  "ActiveErpLinks": 775,
-  "UserDefinedFields": {
-    "SuperOffice:1": "Magnus Wyman",
-    "SuperOffice:2": "465666755"
-  },
-  "ExtraFields": {
-    "ExtraFields1": "eos",
-    "ExtraFields2": "delectus"
-  },
-  "CustomFields": {
-    "CustomFields1": "qui",
-    "CustomFields2": "eos"
-  },
-  "PublishEventDate": "2015-12-02T13:14:01.0645169+01:00",
-  "PublishTo": "2009-12-23T13:14:01.0645169+01:00",
-  "PublishFrom": "2024-06-12T13:14:01.0645169+02:00",
-  "IsPublished": true,
-  "VisibleFor": [
-    {
-      "VisibleId": 16,
-      "Visibility": "All",
-      "DisplayValue": "officiis",
+      "EntityName": "Waters-Satterfield",
+      "Id": 185,
+      "Description": "Visionary methodical matrices",
+      "ExtraInfo": "omnis",
+      "LinkId": 60,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 72
+          "FieldLength": 890
+        }
+      }
+    }
+  ],
+  "NextDueDate": "1999-11-21T16:32:39.8052322+01:00",
+  "Postit": "animi",
+  "SaleType": null,
+  "ReasonSold": null,
+  "ReasonStalled": null,
+  "ReopenDate": "2002-06-19T16:32:39.8052322+02:00",
+  "SaleStakeholders": [
+    {
+      "StakeholderRoleName": "Blick LLC",
+      "Comment": "et",
+      "StakeholderRoleId": 634,
+      "CountryId": 554,
+      "PersonId": 249,
+      "EmailDescription": "shawna_schowalter@kemmer.us",
+      "EmailId": 20,
+      "EmailAddress": "payton.langosh@osinski.ca",
+      "PhoneId": 340,
+      "ContactName": "Hilll Inc and Sons",
+      "ContactId": 455,
+      "SaleId": 719,
+      "Mrmrs": "neque",
+      "Firstname": "Kassandra",
+      "MiddleName": "Kuhlman Group",
+      "Lastname": "Wolff",
+      "SaleStakeholderId": 236,
+      "Rank": 133,
+      "Phone": "1-322-131-9248 x6421",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.Int32",
+          "FieldLength": 971
+        }
+      }
+    }
+  ],
+  "ActiveErpLinks": 595,
+  "UserDefinedFields": {
+    "SuperOffice:1": "Jailyn Kuvalis",
+    "SuperOffice:2": "1185461141"
+  },
+  "ExtraFields": {
+    "ExtraFields1": "adipisci",
+    "ExtraFields2": "consequatur"
+  },
+  "CustomFields": {
+    "CustomFields1": "perferendis",
+    "CustomFields2": "tempora"
+  },
+  "PublishEventDate": "2009-03-27T16:32:39.8052322+01:00",
+  "PublishTo": "2007-06-10T16:32:39.8052322+02:00",
+  "PublishFrom": "2019-09-29T16:32:39.8052322+02:00",
+  "IsPublished": false,
+  "VisibleFor": [
+    {
+      "VisibleId": 175,
+      "Visibility": "All",
+      "DisplayValue": "voluptatem",
+      "TableRight": null,
+      "FieldProperties": {
+        "fieldName": {
+          "FieldRight": null,
+          "FieldType": "System.String",
+          "FieldLength": 585
         }
       }
     },
     {
-      "VisibleId": 16,
+      "VisibleId": 175,
       "Visibility": "All",
-      "DisplayValue": "officiis",
+      "DisplayValue": "voluptatem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.String",
-          "FieldLength": 72
+          "FieldLength": 585
         }
       }
     }
@@ -241,7 +241,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 668
+      "FieldLength": 958
     }
   }
 }

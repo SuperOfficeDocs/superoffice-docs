@@ -89,32 +89,32 @@ OK
 POST /api/v1/Agents/List/SaveHeadingsForListItemFromListDefinition
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "UdListDefinitionId": 510,
-  "ListItemId": 655,
+  "UdListDefinitionId": 143,
+  "ListItemId": 359,
   "Headings": [
     {
-      "Id": 148,
-      "Name": "Torp-Schroeder",
-      "ToolTip": "Est rem exercitationem voluptatem sint sed molestias suscipit.",
+      "Id": 268,
+      "Name": "Greenfelder LLC",
+      "ToolTip": "Sequi repudiandae et.",
       "Deleted": true,
-      "Rank": 82,
-      "Type": "nam",
-      "ColorBlock": 487,
-      "IconHint": "quam",
+      "Rank": 139,
+      "Type": "sint",
+      "ColorBlock": 974,
+      "IconHint": "libero",
       "Selected": false,
-      "LastChanged": "2018-05-19T13:14:00.5949987+02:00",
+      "LastChanged": "2012-04-15T16:32:39.2582391+02:00",
       "ChildItems": [
         {},
         {}
       ],
-      "ExtraInfo": "corporis",
-      "StyleHint": "beatae",
-      "Hidden": false,
-      "FullName": "Mr. Oren Fritsch IV"
+      "ExtraInfo": "quibusdam",
+      "StyleHint": "laudantium",
+      "Hidden": true,
+      "FullName": "Lamar Will"
     }
   ]
 }
@@ -128,56 +128,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 905,
-    "Name": "Bahringer-Dicki",
-    "ToolTip": "Cumque cum aut est quo dignissimos qui corrupti.",
+    "Id": 966,
+    "Name": "Williamson-Bosco",
+    "ToolTip": "Et nostrum doloribus aut.",
     "Deleted": false,
-    "Rank": 634,
-    "Type": "assumenda",
-    "ColorBlock": 679,
-    "IconHint": "voluptatum",
+    "Rank": 593,
+    "Type": "ut",
+    "ColorBlock": 657,
+    "IconHint": "qui",
     "Selected": true,
-    "LastChanged": "2015-06-18T13:14:00.5949987+02:00",
+    "LastChanged": "2024-04-07T16:32:39.2582391+02:00",
     "ChildItems": [
       {
-        "Id": 535,
-        "Name": "Prosacco, Nienow and Schowalter",
-        "ToolTip": "Aspernatur minima quae fugiat placeat enim.",
-        "Deleted": false,
-        "Rank": 523,
-        "Type": "itaque",
-        "ColorBlock": 524,
-        "IconHint": "rerum",
+        "Id": 210,
+        "Name": "Corkery-Keeling",
+        "ToolTip": "Perspiciatis debitis a aliquam eos.",
+        "Deleted": true,
+        "Rank": 597,
+        "Type": "omnis",
+        "ColorBlock": 692,
+        "IconHint": "saepe",
         "Selected": false,
-        "LastChanged": "2008-01-19T13:14:00.5949987+01:00",
+        "LastChanged": "2010-10-03T16:32:39.2582391+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "sed",
-        "StyleHint": "est",
-        "Hidden": false,
-        "FullName": "Alexanne Carroll",
+        "ExtraInfo": "tempora",
+        "StyleHint": "non",
+        "Hidden": true,
+        "FullName": "Prof. Dameon Theo Jewess V",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 374
+            "FieldLength": 716
           }
         }
       }
     ],
-    "ExtraInfo": "nihil",
-    "StyleHint": "itaque",
-    "Hidden": false,
-    "FullName": "Madie Schaefer",
+    "ExtraInfo": "aut",
+    "StyleHint": "ad",
+    "Hidden": true,
+    "FullName": "Prof. Zella Rubie Schmidt",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 463
+        "FieldLength": 900
       }
     }
   }

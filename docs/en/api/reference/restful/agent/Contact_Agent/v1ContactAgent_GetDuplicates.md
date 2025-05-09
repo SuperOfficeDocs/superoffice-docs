@@ -77,11 +77,11 @@ OK
 POST /api/v1/Agents/Contact/GetDuplicates
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Beahan LLC"
+  "Name": "Ratke-Fay"
 }
 ```
 
@@ -93,17 +93,17 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "RuleName": "Hettinger LLC",
-    "SoPrimaryKey": 958,
-    "EntryName": "Ward, Kunde and Brekke",
-    "EntryIdentifier": "inventore",
-    "RuleDisplayName": "Cole-Sipes",
+    "RuleName": "Gusikowski-Stanton",
+    "SoPrimaryKey": 234,
+    "EntryName": "Schimmel-Upton",
+    "EntryIdentifier": "doloremque",
+    "RuleDisplayName": "Ullrich Group",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 946
+        "FieldLength": 943
       }
     }
   }

@@ -78,25 +78,25 @@ OK
 PUT /api/v1/List/{id}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 903,
-    "Name": "Lynch, Cartwright and Schowalter",
-    "Tooltip": "facilis",
-    "Deleted": false,
-    "Rank": 651,
-    "UdListDefinitionId": 175
+    "HeadingId": 932,
+    "Name": "Roob Group",
+    "Tooltip": "deserunt",
+    "Deleted": true,
+    "Rank": 364,
+    "UdListDefinitionId": 389
   },
   {
-    "HeadingId": 903,
-    "Name": "Lynch, Cartwright and Schowalter",
-    "Tooltip": "facilis",
-    "Deleted": false,
-    "Rank": 651,
-    "UdListDefinitionId": 175
+    "HeadingId": 932,
+    "Name": "Roob Group",
+    "Tooltip": "deserunt",
+    "Deleted": true,
+    "Rank": 364,
+    "UdListDefinitionId": 389
   }
 ]
 ```
@@ -109,18 +109,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 66,
-    "Name": "Legros, Lind and Stanton",
-    "Tooltip": "sed",
-    "Deleted": true,
-    "Rank": 988,
-    "UdListDefinitionId": 577,
+    "HeadingId": 816,
+    "Name": "Osinski LLC",
+    "Tooltip": "quisquam",
+    "Deleted": false,
+    "Rank": 904,
+    "UdListDefinitionId": 853,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 678
+        "FieldType": "System.Int32",
+        "FieldLength": 130
       }
     }
   }

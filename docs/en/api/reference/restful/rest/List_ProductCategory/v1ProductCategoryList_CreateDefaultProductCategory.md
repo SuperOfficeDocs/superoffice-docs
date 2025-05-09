@@ -70,18 +70,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Id": 237,
-  "Name": "Watsica LLC",
-  "Tooltip": "non",
-  "Deleted": false,
-  "UdListDefinitionId": 881,
-  "Rank": 583,
+  "Id": 177,
+  "Name": "Mitchell Group",
+  "Tooltip": "repellat",
+  "Deleted": true,
+  "UdListDefinitionId": 932,
+  "Rank": 686,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 767
+      "FieldType": "System.Int32",
+      "FieldLength": 780
     }
   }
 }

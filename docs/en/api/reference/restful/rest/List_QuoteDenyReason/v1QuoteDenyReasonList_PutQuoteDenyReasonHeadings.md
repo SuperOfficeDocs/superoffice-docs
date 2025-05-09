@@ -75,25 +75,25 @@ OK
 PUT /api/v1/List/QuoteDenyReason/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 115,
-    "Name": "Becker-Reynolds",
-    "Tooltip": "tempora",
-    "Deleted": false,
-    "Rank": 679,
-    "UdListDefinitionId": 561
+    "HeadingId": 551,
+    "Name": "Connelly LLC",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "Rank": 182,
+    "UdListDefinitionId": 885
   },
   {
-    "HeadingId": 115,
-    "Name": "Becker-Reynolds",
-    "Tooltip": "tempora",
-    "Deleted": false,
-    "Rank": 679,
-    "UdListDefinitionId": 561
+    "HeadingId": 551,
+    "Name": "Connelly LLC",
+    "Tooltip": "quo",
+    "Deleted": true,
+    "Rank": 182,
+    "UdListDefinitionId": 885
   }
 ]
 ```
@@ -106,18 +106,18 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "HeadingId": 810,
-    "Name": "Willms-Beatty",
-    "Tooltip": "veniam",
-    "Deleted": true,
-    "Rank": 738,
-    "UdListDefinitionId": 386,
+    "HeadingId": 36,
+    "Name": "O'Conner-Beer",
+    "Tooltip": "itaque",
+    "Deleted": false,
+    "Rank": 770,
+    "UdListDefinitionId": 29,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 20
+        "FieldLength": 68
       }
     }
   }

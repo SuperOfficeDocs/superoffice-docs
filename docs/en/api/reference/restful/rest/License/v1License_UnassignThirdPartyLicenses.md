@@ -86,25 +86,25 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "Unrestricted": false,
-    "Total": 201,
-    "Tooltip": "earum",
+    "Total": 368,
+    "Tooltip": "saepe",
     "CanAssign": false,
-    "Free": 124,
-    "InUse": 307,
+    "Free": 490,
+    "InUse": 753,
     "IsHidden": false,
-    "Assigned": false,
-    "ModuleLicenseId": 50,
-    "Name": "Spinka LLC",
-    "Description": "Versatile dedicated local area network",
-    "PrerequisiteModuleName": "Kuvalis-Miller",
-    "SortOrder": 507,
-    "ExtraFlags": 979,
+    "Assigned": true,
+    "ModuleLicenseId": 391,
+    "Name": "Keeling, Schiller and Sanford",
+    "Description": "Down-sized static installation",
+    "PrerequisiteModuleName": "Nikolaus, Dibbert and Lynch",
+    "SortOrder": 578,
+    "ExtraFlags": 770,
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 900
+        "FieldLength": 883
       }
     }
   }

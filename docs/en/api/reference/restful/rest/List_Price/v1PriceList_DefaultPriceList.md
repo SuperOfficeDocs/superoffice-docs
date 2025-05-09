@@ -66,7 +66,7 @@ OK
 GET /api/v1/Pricelist/default
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -76,22 +76,22 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 16,
-  "ERPPriceListKey": "ex",
-  "QuoteConnectionId": 783,
-  "Name": "Abernathy Group",
-  "Description": "Enhanced transitional challenge",
-  "Currency": "vel",
-  "CurrencyName": "Gutkowski, Adams and Maggio",
-  "ValidFrom": "2003-02-18T13:14:09.8691543+01:00",
-  "ValidTo": "2004-08-13T13:14:09.8691543+02:00",
-  "IsActive": false,
+  "PriceListId": 463,
+  "ERPPriceListKey": "nulla",
+  "QuoteConnectionId": 120,
+  "Name": "Ratke Group",
+  "Description": "Persevering real-time service-desk",
+  "Currency": "qui",
+  "CurrencyName": "Schamberger-Schoen",
+  "ValidFrom": "2007-05-22T16:32:48.7588803+02:00",
+  "ValidTo": "2022-04-30T16:32:48.7588803+02:00",
+  "IsActive": true,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 121
+      "FieldLength": 793
     }
   }
 }

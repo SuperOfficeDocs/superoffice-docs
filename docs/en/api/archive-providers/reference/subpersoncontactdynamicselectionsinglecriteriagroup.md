@@ -573,6 +573,9 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/personId|int|Contact ID: Database ID of the contact row| x |
 |request/saleId|int|Sale ID: The database ID of the sale record| x |
 |request/projectId|int|Project ID: Database ID of project record| x |
+|request/ticketStatusId|int|Status ID: Status| x |
+|request/priorityId|int|Priority ID: ID of priority in database| x |
+|request/categoryId|int|Category ID: ID of ticket category in database| x |
 |request/ticketTypeName|listAny|Request type: Request type| x |
 |request/ticketStatusName|listAny|Status: Request status| x |
 |request/categoryFullName|ejCategory|Category: Request category| x |
@@ -638,13 +641,13 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |request/createdBy/ejUserId|int|Created by - Service user ID: The database ID of a Service user|  |
 |request/createdBy/simultaneousEjUser|bool|Created by - Simultaneous Service user: If this flag is set, then the user will only have access if the maximum number of simultaneous users is not exceeded|  |
 |request/createdBy/ejDisplayName|string|Created by - Nick name: User's nick name in Service| x |
-|request/createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
-|request/createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
-|request/createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|request/createdBy/ejStatus|int|Created by - Service status: Status for Service user: Normal; Unavailable / holiday; Deleted; Read-only|  |
+|request/createdBy/credentialType| *None* |Created by - Auth. type: What type of credentials to use when this user logs in| x |
+|request/createdBy/credentialDisplayValue| *None* |Created by - Auth. value: Credential value (public, visible part) to be used when this user logs in| x |
 |request/createdBy/isActive|bool|Created by - Active: Is this user active, and should be able to log in?| x |
 |request/createdBy/isActiveText|bool|Created by - Active status: Is this user active, and should be able to log in?| x |
 |request/createdBy/portraitThumbnail| *None* |Created by - Person image: Person image|  |
@@ -742,13 +745,13 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |projectMembers/projectAssociate/personId|int|Contact ID: Database ID of the contact row|  |
 |projectMembers/projectAssociate/mrMrs|string|Mr/Ms: Displays whether the contact is addressed as Mr or Ms| x |
 |projectMembers/projectAssociate/title|string|Title: Displays whether the contact is addressed as Mr or Ms| x |
-|projectMembers/projectAssociate/associateDbId|associate|ID| x |
-|projectMembers/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
-|projectMembers/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|projectMembers/projectAssociate/associateDbId|associate|ID| x |
+|projectMembers/projectAssociate/contactName|string|Owning company: Name of the company the user belongs to| x |
+|projectMembers/projectAssociate/contactDepartment|string|Owning department: Name of the department at the company the user belongs to| x |
 |projectMembers/projectAssociate/usergroup|userGroup|Primary group: The user's primary user group| x |
 |projectMembers/projectAssociate/contactFullName|string|Owner: Name and department of the company the user belongs to| x |
 |projectMembers/projectAssociate/contactCategory|listAny|Category: Category| x |
@@ -828,6 +831,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/endDate|date|End date: Displays the deadline for a follow-up/sale| x |
 |personAppointment/priority|listAny|Priority: Displays the priority of the activity| x |
 |personAppointment/alarm|bool|Has alarm: Displays the alarm state of a follow-up| x |
+|personAppointment/isFree|bool|Is free: Displays whether the appointment should be considered free or busy| x |
 |personAppointment/recurring|bool|Repeating: Displays an icon indicating if the follow-up is part of a repeating follow-up| x |
 |personAppointment/booking|bool|Invitation: Displays an icon if the follow-up is an invitation. All invitations will be displayed in a tooltip.| x |
 |personAppointment/intention|listAny|Intention: Displays the intention of the follow-up type| x |
@@ -845,14 +849,14 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |personAppointment/recordTypeText|listAny|Activity type: The type of the activity (appointment, phone call, etc)| x |
 |personAppointment/joinVideomeetUrl| *None* |Video meeting URL: URL for joining the video meeting| x |
 |personAppointment/duration|timeSpan|Duration: The duration of the chat session|  |
-|personAppointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-|personAppointment/visibleFor|listAny|Visible for|  |
-|personAppointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
-|personAppointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 
 ## Supported Columns (cont.)
 | Name | Restriction | Description | OrderBy
 | ---- | ----- | ------- | ------ |
+|personAppointment/createdByWorkflow|listAny|Created by flow: Created by flow| x |
+|personAppointment/visibleFor|listAny|Visible for|  |
+|personAppointment/appointmentPublish/isPublished|bool|Published: Displays an icon indicating if the project or sale has been published| x |
+|personAppointment/appointmentPublish/publishedFrom|date|From date: Start date for publishing. The record will not be visible prior to this date| x |
 |personAppointment/appointmentPublish/publishedTo|date|To date: End date for publishing. The record will not be visible after this date| x |
 |personAppointment/appointmentPublish/publishedBy| *None* |Published by: Published by|  |
 |personAppointment/appointmentUdef/SuperOffice:1|string|followupshorttext| x |
@@ -938,14 +942,21 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/probPercent|int|Probability as %: Probability as %| x |
 |sale/originalStage|listAny|Stage: Displays the stage of the sale| x |
 |sale/stage|listAny|Stage: Displays the stage of the sale| x |
+|sale/stageName| *None* |Stage name: Displays the stage of the sale| x |
 |sale/saleStatus|listAny|Status: The status of the sale - open, lost or sold| x |
 |sale/stageRank| *None* |Stage rank: Rank of the sale stage in the stage list| x |
 |sale/saleType|listAny|Sale type: Sale type, from list| x |
+|sale/saleTypeId| *None* |Sale type ID: Sale type, from list| x |
+|sale/stageId| *None* |Sale stage ID: Displays the stage of the sale| x |
 |sale/nextDueDate|date|Next activity: Date for next activity for a sale, updated live from the sale's activities| x |
 |sale/reopenDate|date|Reopen date: Displays the reopen date for the sale| x |
 |sale/stalledComment|listAny|Reason (stalled: The reason the sale has been stalled| x |
 |sale/saleTypeCategory|listAny|Sale type category: Sale type category| x |
 |sale/soldReason|listAny|Reason (sold: Reason (sold)| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/saleNumber|string|Number: Number| x |
 |sale/hasStakeholders|bool|Has stakeholders: Does this sale have stakeholders enabled| x |
 |sale/hasQuote|bool|Has quote?: Does the sale have a quote attached?| x |
@@ -953,10 +964,6 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/description|string|Description: The long description field on Sale|  |
 |sale/activeErpLinks|bool|ERP connected: Is there an active ERP Sync?| x |
 |sale/createdByWorkflow|listAny|Created by flow: Created by flow| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/amountInBaseCurrency| *None* |Amount (BaseCurrency): The gross sales total| x |
 |sale/amountWeightedInBaseCurrency| *None* |Weighted amount (BaseCurrency): Virtual field calculated from amount * probability percent.| x |
 |sale/visibleFor|listAny|Visible for|  |
@@ -1050,6 +1057,10 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/quote/version/alternative/extraField1|string|Extra 1: Extra field 1 on the quote alternative| x |
 |sale/quote/version/alternative/extraField2|string|Extra 2: Extra field 2 on the quote alternative| x |
 |sale/quote/version/alternative/extraField3|string|Extra 3: Extra field 3on the quote alternative| x |
+
+## Supported Columns (cont.)
+| Name | Restriction | Description | OrderBy
+| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/extraField4|string|Extra 4: Extra field 4 on the quote alternative| x |
 |sale/quote/version/alternative/extraField5|string|Extra 5: Extra field 5 on the quote alternative| x |
 |sale/quote/version/alternative/alternativeOrdering|int|QuoteAlternative ID: SuperOffice database ID of the quote alternative record| x |
@@ -1057,10 +1068,6 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 |sale/quote/version/alternative/totalPriceIncVAT|decimal|Total incl. VAT: Total of all lines, including VAT| x |
 |sale/quote/version/alternative/vatAmount|decimal|VAT: VAT (amount) for the alternative| x |
 |sale/quote/version/alternative/quoteline/quoteLineId|int|Quote line ID: Database identity of the quote line| x |
-
-## Supported Columns (cont.)
-| Name | Restriction | Description | OrderBy
-| ---- | ----- | ------- | ------ |
 |sale/quote/version/alternative/quoteline/quoteAlternativeId|int|Alternative ID: The database identity of the quote alternative| x |
 |sale/quote/version/alternative/quoteline/erpProductKey|string|Product key: The foreign key of the product the quote line is based on.| x |
 |sale/quote/version/alternative/quoteline/rank|int|Rank: Shows the rank of a product| x |
@@ -1107,7 +1114,7 @@ Person + Contact selection archive using the selectionId as criterionmapping.
 ## Sample
 
 ```http!
-GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personSourceRelation/personDeletedDate,projectMembers/projectUdef/SuperOffice:4,personAppointment/appointment/internalNotes,sale/hasStakeholders,sale/quote/version/alternative/vatInfo
+GET /api/v1/archive/SubPersonContactDynamicSelectionSingleCriteriaGroup?$select=personSourceRelation/hasCompany,postAddress/zip,contactAssociate/ejStatus,formSubmission/recordTypeText,request/createdBy/isLocation
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
 Accept-Language: sv

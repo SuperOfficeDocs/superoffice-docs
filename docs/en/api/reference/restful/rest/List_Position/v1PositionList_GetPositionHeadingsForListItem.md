@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 146,
-    "Name": "Kuphal LLC",
-    "ToolTip": "Iure voluptate eum soluta ut.",
+    "Id": 734,
+    "Name": "Stracke-Denesik",
+    "ToolTip": "Omnis inventore excepturi dicta quia.",
     "Deleted": false,
-    "Rank": 558,
-    "Type": "ut",
-    "ColorBlock": 253,
-    "IconHint": "aut",
-    "Selected": false,
-    "LastChanged": "2020-12-25T13:14:09.8691543+01:00",
+    "Rank": 371,
+    "Type": "sint",
+    "ColorBlock": 460,
+    "IconHint": "voluptas",
+    "Selected": true,
+    "LastChanged": "2004-01-12T16:32:48.7588803+01:00",
     "ChildItems": [
       {
-        "Id": 597,
-        "Name": "Bergnaum, Zieme and Gleichner",
-        "ToolTip": "Velit molestias quibusdam.",
+        "Id": 872,
+        "Name": "Rau-Gerlach",
+        "ToolTip": "Soluta ea dicta dolore.",
         "Deleted": false,
-        "Rank": 422,
-        "Type": "sunt",
-        "ColorBlock": 763,
-        "IconHint": "deleniti",
+        "Rank": 783,
+        "Type": "aut",
+        "ColorBlock": 970,
+        "IconHint": "neque",
         "Selected": false,
-        "LastChanged": "2016-11-18T13:14:09.8691543+01:00",
+        "LastChanged": "2020-08-26T16:32:48.7588803+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "aliquid",
-        "StyleHint": "doloremque",
+        "ExtraInfo": "non",
+        "StyleHint": "repellat",
         "Hidden": true,
-        "FullName": "Mr. Aurore Bauch",
+        "FullName": "Rick Watsica",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 729
+            "FieldLength": 763
           }
         }
       }
     ],
-    "ExtraInfo": "voluptates",
-    "StyleHint": "praesentium",
+    "ExtraInfo": "iste",
+    "StyleHint": "est",
     "Hidden": false,
-    "FullName": "Ibrahim Pagac",
+    "FullName": "Mr. Brook Ortiz",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 868
+        "FieldType": "System.Int32",
+        "FieldLength": 374
       }
     }
   }

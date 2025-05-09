@@ -105,33 +105,33 @@ OK
 POST /api/v1/Agents/Archive/GetArchiveListWithContext
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "GuiName": "Dooley Inc and Sons",
-  "ProviderName": "Gulgowski, Grady and Willms",
+  "GuiName": "Cronin-Sauer",
+  "ProviderName": "Kuhic LLC",
   "SortOrder": [
     {
-      "Name": "Rohan LLC",
+      "Name": "Marvin Group",
       "Direction": "ASC"
     },
     {
-      "Name": "Rohan LLC",
+      "Name": "Marvin Group",
       "Direction": "ASC"
     }
   ],
   "Restriction": [
     {
-      "Name": "Zulauf-Stracke",
-      "Operator": "tenetur",
+      "Name": "Greenholt Group",
+      "Operator": "delectus",
       "Values": [
-        "est",
-        "saepe"
+        "fugit",
+        "quam"
       ],
       "DisplayValues": [
-        "dolore",
-        "esse"
+        "quo",
+        "beatae"
       ],
       "ColumnInfo": null,
       "IsActive": false,
@@ -139,18 +139,18 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 662,
+      "InterParenthesis": 867,
       "InterOperator": "And",
-      "UniqueHash": 826
+      "UniqueHash": 926
     }
   ],
   "Entities": [
-    "amet",
-    "et"
+    "adipisci",
+    "ipsa"
   ],
-  "Page": 939,
-  "PageSize": 210,
-  "Context": "ut"
+  "Page": 944,
+  "PageSize": 465,
+  "Context": "molestias"
 }
 ```
 
@@ -162,23 +162,23 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "EntityName": "Langworth LLC",
-    "PrimaryKey": 320,
+    "EntityName": "Sporer-Wolff",
+    "PrimaryKey": 390,
     "ColumnData": {
       "fieldName": {
-        "DisplayValue": "enim",
-        "TooltipHint": "officia",
-        "LinkHint": "culpa"
+        "DisplayValue": "saepe",
+        "TooltipHint": "tenetur",
+        "LinkHint": "exercitationem"
       }
     },
-    "LinkHint": "repellendus",
-    "StyleHint": "dicta",
+    "LinkHint": "cupiditate",
+    "StyleHint": "quia",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 932
+        "FieldLength": 123
       }
     }
   }

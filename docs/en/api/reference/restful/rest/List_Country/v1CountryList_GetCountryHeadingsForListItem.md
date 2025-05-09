@@ -31,7 +31,7 @@ Calls the List agent service GetHeadings.
 | showDeleted | bool |  Whether to show deleted items or not. Default false. |
 
 ```http
-GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=True
+GET /api/v1/List/Country/Items/{itemId}/Headings?showDeleted=False
 ```
 
 
@@ -85,7 +85,7 @@ OK
 GET /api/v1/List/Country/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: en
 ```
 
 ## Sample response
@@ -96,56 +96,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 779,
-    "Name": "Bernier, Cruickshank and Zboncak",
-    "ToolTip": "Magnam velit natus quis animi ad.",
+    "Id": 45,
+    "Name": "Lockman-Conroy",
+    "ToolTip": "Et sed pariatur illo nesciunt nulla consequatur velit.",
     "Deleted": false,
-    "Rank": 493,
-    "Type": "quam",
-    "ColorBlock": 20,
-    "IconHint": "ea",
+    "Rank": 842,
+    "Type": "quas",
+    "ColorBlock": 593,
+    "IconHint": "illum",
     "Selected": false,
-    "LastChanged": "2018-02-02T13:14:09.6972691+01:00",
+    "LastChanged": "2025-02-10T16:32:48.6026679+01:00",
     "ChildItems": [
       {
-        "Id": 998,
-        "Name": "O'Keefe, White and Hansen",
-        "ToolTip": "Vitae sint vel praesentium amet.",
-        "Deleted": true,
-        "Rank": 432,
-        "Type": "magnam",
-        "ColorBlock": 483,
-        "IconHint": "quibusdam",
+        "Id": 565,
+        "Name": "Skiles-Grant",
+        "ToolTip": "Et provident non voluptatum totam voluptas.",
+        "Deleted": false,
+        "Rank": 687,
+        "Type": "quia",
+        "ColorBlock": 622,
+        "IconHint": "maiores",
         "Selected": false,
-        "LastChanged": "1998-12-18T13:14:09.6972691+01:00",
+        "LastChanged": "2015-11-14T16:32:48.6026679+01:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "neque",
-        "StyleHint": "omnis",
-        "Hidden": false,
-        "FullName": "Destiny Hamill",
+        "ExtraInfo": "quae",
+        "StyleHint": "commodi",
+        "Hidden": true,
+        "FullName": "Mrs. Amina Hilpert Sr.",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 15
+            "FieldType": "System.String",
+            "FieldLength": 333
           }
         }
       }
     ],
     "ExtraInfo": "et",
-    "StyleHint": "nisi",
-    "Hidden": true,
-    "FullName": "Mr. Brooks Little PhD",
+    "StyleHint": "sint",
+    "Hidden": false,
+    "FullName": "Ms. Christine Howe",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.Int32",
-        "FieldLength": 69
+        "FieldLength": 151
       }
     }
   }

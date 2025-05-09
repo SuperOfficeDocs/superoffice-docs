@@ -79,15 +79,15 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "DashboardTileDefinitionId": 590,
+  "DashboardTileDefinitionId": 514,
   "Languages": [
     {
-      "LanguageCode": "sapiente",
-      "Html": "voluptatibus"
+      "LanguageCode": "asperiores",
+      "Html": "consequatur"
     },
     {
-      "LanguageCode": "sapiente",
-      "Html": "voluptatibus"
+      "LanguageCode": "asperiores",
+      "Html": "consequatur"
     }
   ]
 }
@@ -101,26 +101,26 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "LanguageCode": "ea",
-    "Html": "autem",
+    "LanguageCode": "et",
+    "Html": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldType": "System.Int32",
+        "FieldLength": 188
       }
     }
   },
   {
-    "LanguageCode": "ea",
-    "Html": "autem",
+    "LanguageCode": "et",
+    "Html": "voluptas",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 483
+        "FieldType": "System.Int32",
+        "FieldLength": 188
       }
     }
   }

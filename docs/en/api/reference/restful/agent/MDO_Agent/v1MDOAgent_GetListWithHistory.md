@@ -92,14 +92,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Name": "Reichel Group",
+  "Name": "Powlowski-Schiller",
   "ForceFlatList": false,
-  "AdditionalInfo": "totam",
+  "AdditionalInfo": "dolor",
   "HistoryItems": [
-    308,
-    883
+    187,
+    71
   ],
-  "OnlyHistory": false
+  "OnlyHistory": true
 }
 ```
 
@@ -111,50 +111,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 120,
-    "Name": "Reynolds-Denesik",
-    "ToolTip": "Iusto libero odit enim repellendus corrupti asperiores praesentium.",
+    "Id": 453,
+    "Name": "Toy LLC",
+    "ToolTip": "Qui ea aperiam.",
     "Deleted": false,
-    "Rank": 742,
-    "Type": "necessitatibus",
+    "Rank": 179,
+    "Type": "et",
     "ChildItems": [
       {
-        "Id": 776,
-        "Name": "Bailey-Rice",
-        "ToolTip": "Sint praesentium cum vel.",
+        "Id": 999,
+        "Name": "McLaughlin, Hyatt and Kozey",
+        "ToolTip": "Eaque vel cupiditate quis.",
         "Deleted": false,
-        "Rank": 364,
-        "Type": "id",
+        "Rank": 13,
+        "Type": "perspiciatis",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "est",
-        "ColorBlock": 201,
-        "ExtraInfo": "nihil",
-        "StyleHint": "dolorem",
-        "FullName": "Mrs. Jane Schoen",
+        "IconHint": "ut",
+        "ColorBlock": 411,
+        "ExtraInfo": "necessitatibus",
+        "StyleHint": "autem",
+        "FullName": "Julius Rowe",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 487
+            "FieldLength": 993
           }
         }
       }
     ],
-    "IconHint": "quod",
-    "ColorBlock": 93,
-    "ExtraInfo": "quam",
-    "StyleHint": "velit",
-    "FullName": "Dale Hamill",
+    "IconHint": "adipisci",
+    "ColorBlock": 172,
+    "ExtraInfo": "a",
+    "StyleHint": "facere",
+    "FullName": "Edwina Lesch",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 567
+        "FieldLength": 156
       }
     }
   }

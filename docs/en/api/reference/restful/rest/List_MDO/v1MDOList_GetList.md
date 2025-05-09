@@ -31,9 +31,9 @@ Get the list items in a named list.
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/MDOList/{listname}?flat=True
-GET /api/v1/MDOList/{listname}?additional=incidunt
-GET /api/v1/MDOList/{listname}?query=sint
+GET /api/v1/MDOList/{listname}?flat=False
+GET /api/v1/MDOList/{listname}?additional=dolorum
+GET /api/v1/MDOList/{listname}?query=ad
 ```
 
 
@@ -84,7 +84,7 @@ OK
 GET /api/v1/MDOList/{listname}
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: en
 ```
 
 ## Sample response
@@ -95,50 +95,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 133,
-    "Name": "Lindgren, Crist and Hyatt",
-    "ToolTip": "Rerum aliquam dolor inventore ut sunt.",
-    "Deleted": false,
-    "Rank": 166,
-    "Type": "consectetur",
+    "Id": 391,
+    "Name": "Ritchie Group",
+    "ToolTip": "A corrupti id.",
+    "Deleted": true,
+    "Rank": 960,
+    "Type": "dolorum",
     "ChildItems": [
       {
-        "Id": 108,
-        "Name": "Pagac, McLaughlin and Legros",
-        "ToolTip": "Ducimus maxime dolorem quae eius laborum nihil.",
-        "Deleted": true,
-        "Rank": 685,
-        "Type": "nisi",
+        "Id": 616,
+        "Name": "Konopelski, Terry and Bechtelar",
+        "ToolTip": "Ut quia dolor voluptatem.",
+        "Deleted": false,
+        "Rank": 343,
+        "Type": "occaecati",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "enim",
-        "ColorBlock": 666,
-        "ExtraInfo": "quibusdam",
-        "StyleHint": "debitis",
-        "FullName": "Mustafa Farrell",
+        "IconHint": "suscipit",
+        "ColorBlock": 468,
+        "ExtraInfo": "quae",
+        "StyleHint": "rerum",
+        "FullName": "Antwon Homenick",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
             "FieldType": "System.Int32",
-            "FieldLength": 463
+            "FieldLength": 494
           }
         }
       }
     ],
-    "IconHint": "architecto",
-    "ColorBlock": 258,
-    "ExtraInfo": "quas",
-    "StyleHint": "doloribus",
-    "FullName": "Sammy Kuhn",
+    "IconHint": "dolores",
+    "ColorBlock": 632,
+    "ExtraInfo": "quia",
+    "StyleHint": "excepturi",
+    "FullName": "Era Smitham",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 548
+        "FieldType": "System.Int32",
+        "FieldLength": 497
       }
     }
   }

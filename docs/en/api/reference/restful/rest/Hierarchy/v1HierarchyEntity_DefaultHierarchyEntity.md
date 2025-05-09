@@ -76,46 +76,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 676,
+  "HierarchyId": 52,
   "Domain": "Dashboards",
-  "Name": "Dooley, Ondricka and Lakin",
-  "Fullname": "magnam",
-  "ParentId": 535,
+  "Name": "Hackett Group",
+  "Fullname": "sit",
+  "ParentId": 532,
   "Children": [
     {
-      "HierarchyId": 664,
+      "HierarchyId": 388,
       "Domain": "Dashboards",
-      "Name": "Mertz Group",
-      "Fullname": "nam",
-      "ParentId": 382,
+      "Name": "Hammes LLC",
+      "Fullname": "in",
+      "ParentId": 790,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2008-12-08T13:14:08.7741411+01:00",
-      "RegisteredAssociateId": 910,
-      "Updated": "2016-06-26T13:14:08.7741411+02:00",
-      "UpdatedAssociateId": 510,
+      "Registered": "2017-11-06T16:32:47.5558268+01:00",
+      "RegisteredAssociateId": 756,
+      "Updated": "2011-06-26T16:32:47.5558268+02:00",
+      "UpdatedAssociateId": 665,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 445
+          "FieldType": "System.String",
+          "FieldLength": 705
         }
       }
     }
   ],
-  "Registered": "2024-02-20T13:14:08.7741411+01:00",
-  "RegisteredAssociateId": 529,
-  "Updated": "1999-02-05T13:14:08.7741411+01:00",
-  "UpdatedAssociateId": 817,
+  "Registered": "2024-04-26T16:32:47.5558268+02:00",
+  "RegisteredAssociateId": 607,
+  "Updated": "2011-09-21T16:32:47.5558268+02:00",
+  "UpdatedAssociateId": 706,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.String",
-      "FieldLength": 996
+      "FieldLength": 862
     }
   }
 }

@@ -89,7 +89,7 @@ OK
 POST /api/v1/Agents/Document/GetDocumentList
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: fr,de,ru,zh
 ```
 
 ## Sample response
@@ -100,32 +100,32 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "DocumentId": 12,
-    "Attention": "aut",
-    "Header": "et",
-    "Name": "Conroy-Price",
-    "OurRef": "explicabo",
-    "YourRef": "voluptatum",
-    "Description": "Customer-focused zero defect secured line",
-    "DocumentTemplate": "quasi",
-    "IsPublished": true,
-    "PersonId": 50,
-    "PersonFullName": "Waldo Konopelski",
-    "AssociateFullName": "Mrs. Theron Marvin MD",
-    "ContactId": 65,
-    "ContactName": "Quigley Inc and Sons",
-    "ProjectId": 703,
-    "ProjectName": "Rutherford, Wunsch and Oberbrunner",
-    "AssociateId": 576,
-    "Snum": 840,
-    "SaleId": 12,
-    "SaleName": "Kuhic LLC",
+    "DocumentId": 133,
+    "Attention": "nihil",
+    "Header": "dolorem",
+    "Name": "Wuckert Inc and Sons",
+    "OurRef": "cupiditate",
+    "YourRef": "eos",
+    "Description": "Profit-focused zero tolerance contingency",
+    "DocumentTemplate": "voluptatem",
+    "IsPublished": false,
+    "PersonId": 970,
+    "PersonFullName": "Lawrence Stanton Jr.",
+    "AssociateFullName": "Prof. Arjun Carleton Runte PhD",
+    "ContactId": 402,
+    "ContactName": "Schneider-Jerde",
+    "ProjectId": 585,
+    "ProjectName": "Kovacek, Schmeler and Cummerata",
+    "AssociateId": 814,
+    "Snum": 68,
+    "SaleId": 785,
+    "SaleName": "Kertzmann LLC",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
         "FieldType": "System.String",
-        "FieldLength": 771
+        "FieldLength": 946
       }
     }
   }

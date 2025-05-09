@@ -97,47 +97,47 @@ OK
 PUT /api/v1/List/MrMrs/Items/{itemId}/Headings
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 837,
-    "Name": "Heathcote, Beier and Hahn",
-    "ToolTip": "Libero ut inventore repudiandae quisquam.",
-    "Deleted": true,
-    "Rank": 353,
-    "Type": "ea",
-    "ColorBlock": 3,
-    "IconHint": "eos",
-    "Selected": true,
-    "LastChanged": "2004-09-08T13:14:09.8222767+02:00",
+    "Id": 72,
+    "Name": "Breitenberg, Wisozk and Wiegand",
+    "ToolTip": "Laboriosam eveniet rerum eius cupiditate sunt temporibus.",
+    "Deleted": false,
+    "Rank": 306,
+    "Type": "magnam",
+    "ColorBlock": 102,
+    "IconHint": "qui",
+    "Selected": false,
+    "LastChanged": "2021-04-01T16:32:48.7120179+02:00",
     "ChildItems": [
       {
-        "Id": 520,
-        "Name": "Doyle-Gorczany",
-        "ToolTip": "Vel veniam quibusdam in eum ab autem aut.",
+        "Id": 994,
+        "Name": "Doyle-Cole",
+        "ToolTip": "Quo nemo modi qui aliquid.",
         "Deleted": false,
-        "Rank": 334,
-        "Type": "impedit",
-        "ColorBlock": 468,
-        "IconHint": "quia",
+        "Rank": 398,
+        "Type": "incidunt",
+        "ColorBlock": 699,
+        "IconHint": "deserunt",
         "Selected": false,
-        "LastChanged": "1998-11-10T13:14:09.8222767+01:00",
+        "LastChanged": "2009-09-11T16:32:48.7120179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "non",
-        "StyleHint": "similique",
+        "ExtraInfo": "odio",
+        "StyleHint": "quia",
         "Hidden": false,
-        "FullName": "Christopher Thompson MD"
+        "FullName": "Dante Cruickshank"
       }
     ],
-    "ExtraInfo": "iste",
-    "StyleHint": "possimus",
-    "Hidden": false,
-    "FullName": "Miss Chelsie Adriana Jerde II"
+    "ExtraInfo": "aut",
+    "StyleHint": "est",
+    "Hidden": true,
+    "FullName": "Mrs. Jonas Raynor"
   }
 ]
 ```
@@ -150,56 +150,56 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 245,
-    "Name": "Hessel-Raynor",
-    "ToolTip": "Ut accusantium quo necessitatibus et cupiditate.",
+    "Id": 679,
+    "Name": "Stehr-Roob",
+    "ToolTip": "Officiis vitae possimus impedit quia ea beatae magnam.",
     "Deleted": false,
-    "Rank": 466,
-    "Type": "asperiores",
-    "ColorBlock": 731,
-    "IconHint": "maxime",
+    "Rank": 725,
+    "Type": "nostrum",
+    "ColorBlock": 986,
+    "IconHint": "voluptatem",
     "Selected": false,
-    "LastChanged": "2021-02-22T13:14:09.8222767+01:00",
+    "LastChanged": "2001-06-06T16:32:48.7120179+02:00",
     "ChildItems": [
       {
-        "Id": 452,
-        "Name": "Erdman-Hodkiewicz",
-        "ToolTip": "Voluptatem inventore voluptatem maiores.",
+        "Id": 590,
+        "Name": "Gutmann, Runolfsdottir and Langworth",
+        "ToolTip": "Ut laborum reiciendis.",
         "Deleted": false,
-        "Rank": 487,
-        "Type": "nobis",
-        "ColorBlock": 328,
-        "IconHint": "explicabo",
+        "Rank": 323,
+        "Type": "reiciendis",
+        "ColorBlock": 874,
+        "IconHint": "minus",
         "Selected": false,
-        "LastChanged": "2021-05-19T13:14:09.8222767+02:00",
+        "LastChanged": "1999-09-10T16:32:48.7120179+02:00",
         "ChildItems": [
           {},
           {}
         ],
-        "ExtraInfo": "et",
-        "StyleHint": "voluptatum",
+        "ExtraInfo": "accusantium",
+        "StyleHint": "aspernatur",
         "Hidden": false,
-        "FullName": "Mellie Schoen",
+        "FullName": "Dewitt Alysson Rutherford PhD",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 405
+            "FieldType": "System.String",
+            "FieldLength": 522
           }
         }
       }
     ],
-    "ExtraInfo": "laudantium",
-    "StyleHint": "amet",
+    "ExtraInfo": "debitis",
+    "StyleHint": "consectetur",
     "Hidden": false,
-    "FullName": "Chase O'Keefe",
+    "FullName": "Mr. Kip Delaney Fritsch III",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.String",
-        "FieldLength": 622
+        "FieldType": "System.Int32",
+        "FieldLength": 182
       }
     }
   }

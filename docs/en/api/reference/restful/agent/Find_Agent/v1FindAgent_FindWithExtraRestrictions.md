@@ -84,24 +84,24 @@ OK
 POST /api/v1/Agents/Find/FindWithExtraRestrictions
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "ipsa",
-  "ProviderName": "Auer-Champlin",
-  "StorageKey": "blanditiis",
+  "StorageType": "omnis",
+  "ProviderName": "Bailey, Volkman and Prosacco",
+  "StorageKey": "repellat",
   "ExtraRestrictions": [
     {
-      "Name": "Macejkovic, Franecki and Hoeger",
-      "Operator": "iusto",
+      "Name": "Daugherty-Gerhold",
+      "Operator": "est",
       "Values": [
-        "ea",
-        "maiores"
+        "fugiat",
+        "quos"
       ],
       "DisplayValues": [
-        "temporibus",
-        "nihil"
+        "repudiandae",
+        "in"
       ],
       "ColumnInfo": null,
       "IsActive": true,
@@ -109,27 +109,27 @@ Content-Type: application/json; charset=utf-8
         {},
         {}
       ],
-      "InterParenthesis": 440,
+      "InterParenthesis": 115,
       "InterOperator": "And",
-      "UniqueHash": 756
+      "UniqueHash": 753
     }
   ],
   "OrderBy": [
     {
-      "Name": "Bechtelar-Prohaska",
+      "Name": "Wilkinson, Hodkiewicz and Rosenbaum",
       "Direction": "ASC"
     },
     {
-      "Name": "Bechtelar-Prohaska",
+      "Name": "Wilkinson, Hodkiewicz and Rosenbaum",
       "Direction": "ASC"
     }
   ],
   "DesiredColumns": [
-    "architecto",
-    "architecto"
+    "laboriosam",
+    "id"
   ],
-  "PageSize": 454,
-  "PageNumber": 499
+  "PageSize": 340,
+  "PageNumber": 183
 }
 ```
 
@@ -142,51 +142,51 @@ Content-Type: application/json; charset=utf-8
 {
   "ArchiveColumns": [
     {
-      "DisplayName": "Okuneva Group",
-      "DisplayTooltip": "dignissimos",
-      "DisplayType": "dolor",
+      "DisplayName": "Kozey, Jakubowski and Thompson",
+      "DisplayTooltip": "dolor",
+      "DisplayType": "voluptas",
       "CanOrderBy": false,
-      "Name": "Lind-Hammes",
-      "CanRestrictBy": false,
-      "RestrictionType": "qui",
-      "RestrictionListName": "Smitham, Ernser and Boyle",
-      "IsVisible": false,
-      "ExtraInfo": "tenetur",
-      "Width": "dolore",
-      "IconHint": "quisquam",
-      "HeadingIconHint": "minus"
+      "Name": "Schuster LLC",
+      "CanRestrictBy": true,
+      "RestrictionType": "soluta",
+      "RestrictionListName": "Auer, Johnson and Halvorson",
+      "IsVisible": true,
+      "ExtraInfo": "sint",
+      "Width": "recusandae",
+      "IconHint": "praesentium",
+      "HeadingIconHint": "libero"
     }
   ],
   "ArchiveRows": [
     {
-      "EntityName": "Tromp, Auer and Christiansen",
-      "PrimaryKey": 666,
+      "EntityName": "Lesch Group",
+      "PrimaryKey": 58,
       "ColumnData": {
         "fieldName": {
-          "DisplayValue": "consequatur",
-          "TooltipHint": "similique",
-          "LinkHint": "ea"
+          "DisplayValue": "dolore",
+          "TooltipHint": "at",
+          "LinkHint": "voluptate"
         }
       },
-      "LinkHint": "et",
-      "StyleHint": "magni",
+      "LinkHint": "possimus",
+      "StyleHint": "culpa",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
           "FieldType": "System.Int32",
-          "FieldLength": 781
+          "FieldLength": 583
         }
       }
     }
   ],
-  "RowCount": 197,
+  "RowCount": 818,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 916
+      "FieldLength": 696
     }
   }
 }

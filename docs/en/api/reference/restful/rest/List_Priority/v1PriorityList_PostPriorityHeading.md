@@ -79,12 +79,12 @@ Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 370,
-  "Name": "Christiansen LLC",
-  "Tooltip": "corrupti",
+  "HeadingId": 185,
+  "Name": "Mills, Sipes and O'Kon",
+  "Tooltip": "accusantium",
   "Deleted": false,
-  "Rank": 625,
-  "UdListDefinitionId": 562
+  "Rank": 62,
+  "UdListDefinitionId": 754
 }
 ```
 
@@ -95,18 +95,18 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HeadingId": 711,
-  "Name": "Wisoky-Kovacek",
-  "Tooltip": "fuga",
+  "HeadingId": 69,
+  "Name": "Prohaska-Mohr",
+  "Tooltip": "occaecati",
   "Deleted": true,
-  "Rank": 276,
-  "UdListDefinitionId": 948,
+  "Rank": 336,
+  "UdListDefinitionId": 992,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 421
+      "FieldType": "System.String",
+      "FieldLength": 54
     }
   }
 }

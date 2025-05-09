@@ -154,12 +154,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "incidunt",
+    "path": "officia",
     "value": {}
   },
   {
     "op": "add",
-    "path": "incidunt",
+    "path": "officia",
     "value": {}
   }
 ]
@@ -172,70 +172,70 @@ HTTP/1.1 200 SelectionEntity  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "Description": "Progressive value-added time-frame",
-  "Postit": "delectus",
+  "Description": "Inverse motivating orchestration",
+  "Postit": "cumque",
   "Associate": null,
   "CreatedBy": null,
   "UpdatedBy": null,
   "SelectionCategory": null,
-  "GroupIdx": 672,
-  "IncludePerson": 647,
+  "GroupIdx": 601,
+  "IncludePerson": 959,
   "MemberCount": 99.99,
-  "Name": "Ebert-Brekke",
-  "PostitTextId": 935,
-  "CreatedDate": "2023-09-05T13:14:09.1810193+02:00",
-  "SelectionId": 589,
-  "SoundEx": "velit",
-  "Source": 228,
-  "TextId": 481,
-  "UpdatedDate": "2021-04-18T13:14:09.1810193+02:00",
-  "UpdatedCount": 340,
-  "Visibility": 927,
+  "Name": "Bradtke-Lubowitz",
+  "PostitTextId": 740,
+  "CreatedDate": "2015-05-10T16:32:48.0869552+02:00",
+  "SelectionId": 507,
+  "SoundEx": "perspiciatis",
+  "Source": 831,
+  "TextId": 212,
+  "UpdatedDate": "2016-10-11T16:32:48.0869552+02:00",
+  "UpdatedCount": 942,
+  "Visibility": 614,
   "SelectionType": "Combined",
-  "CompanyUnique": true,
-  "TargetTableNumber": 151,
-  "TargetTableName": "Heller Group",
-  "Completed": false,
-  "LeftSelectionId": 992,
-  "RightSelectionId": 139,
+  "CompanyUnique": false,
+  "TargetTableNumber": 676,
+  "TargetTableName": "Schmeler-Quigley",
+  "Completed": true,
+  "LeftSelectionId": 702,
+  "RightSelectionId": 512,
   "SelectionUnionType": "Intersect",
-  "MainProviderName": "Carter, Goyette and Gerlach",
-  "ShadowProviderName": "Greenholt Group",
-  "ChartKey": "aut",
-  "LastLoaded": "2002-10-19T13:14:09.1810193+02:00",
-  "LastLoadedBy": 28,
+  "MainProviderName": "Conn-Ernser",
+  "ShadowProviderName": "Prohaska-Berge",
+  "ChartKey": "est",
+  "LastLoaded": "2003-03-03T16:32:48.0869552+01:00",
+  "LastLoadedBy": 230,
   "LastLoadedByAssociate": null,
-  "LastMembershipChange": "2017-06-07T13:14:09.1810193+02:00",
-  "LastMembershipChangeBy": 317,
+  "LastMembershipChange": "2025-03-10T16:32:48.0869552+01:00",
+  "LastMembershipChangeBy": 825,
   "LastMembershipChangeByAssociate": null,
-  "MainHeading": "labore",
-  "MemberTabHeading": "aspernatur",
-  "MailingsProviderName": "Stamm Group",
-  "DashboardTileDefinitionId": 539,
+  "MainHeading": "vel",
+  "MemberTabHeading": "laboriosam",
+  "MailingsProviderName": "Schiller, Reichert and Treutel",
+  "DashboardTileDefinitionId": 22,
   "VisibleFor": [
     {
-      "VisibleId": 871,
+      "VisibleId": 919,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 579
+          "FieldType": "System.String",
+          "FieldLength": 815
         }
       }
     },
     {
-      "VisibleId": 871,
+      "VisibleId": 919,
       "Visibility": "All",
-      "DisplayValue": "illum",
+      "DisplayValue": "autem",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 579
+          "FieldType": "System.String",
+          "FieldLength": 815
         }
       }
     }
@@ -244,8 +244,8 @@ Content-Type: application/json; charset=utf-8
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 348
+      "FieldType": "System.String",
+      "FieldLength": 575
     }
   },
   "_Links": {

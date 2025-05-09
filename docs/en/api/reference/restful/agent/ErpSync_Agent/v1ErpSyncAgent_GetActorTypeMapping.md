@@ -80,11 +80,11 @@ OK
 POST /api/v1/Agents/ErpSync/GetActorTypeMapping
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: *
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 169,
+  "ErpConnectionId": 264,
   "ActorType": "Customer"
 }
 ```
@@ -96,19 +96,19 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "ErpConnectionId": 897,
+  "ErpConnectionId": 102,
   "IsActive": false,
   "FieldMappings": [
     {
-      "ErpFieldId": 346,
-      "CrmFieldKey": "quo",
-      "CrmDisplayName": "Cormier, Bednar and Stracke",
-      "CrmDisplayTooltip": "maxime",
-      "ErpFieldKey": "aperiam",
+      "ErpFieldId": 135,
+      "CrmFieldKey": "blanditiis",
+      "CrmDisplayName": "Herman-Dicki",
+      "CrmDisplayTooltip": "quas",
+      "ErpFieldKey": "sapiente",
       "FieldType": "Checkbox",
-      "ErpDisplayName": "Schamberger LLC",
-      "ErpDisplayTooltip": "doloremque",
-      "SyncToCrm": false,
+      "ErpDisplayName": "Spencer Group",
+      "ErpDisplayTooltip": "vel",
+      "SyncToCrm": true,
       "SyncToErp": false,
       "ShowInGui": false,
       "ShowInSearch": false,
@@ -116,13 +116,13 @@ Content-Type: application/json; charset=utf-8
       "MissingInERP": false,
       "MissingInCRM": false,
       "Access": "Mandatory",
-      "ListReference": "alias",
+      "ListReference": "et",
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 197
+          "FieldType": "System.String",
+          "FieldLength": 579
         }
       }
     }
@@ -134,7 +134,7 @@ Content-Type: application/json; charset=utf-8
     "fieldName": {
       "FieldRight": null,
       "FieldType": "System.Int32",
-      "FieldLength": 583
+      "FieldLength": 884
     }
   }
 }

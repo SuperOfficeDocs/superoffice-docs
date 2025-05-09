@@ -87,14 +87,14 @@ Accept-Language: en
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "assumenda",
-  "Value": "quaerat",
-  "RecordId": 112,
-  "CreatedDate": "2003-12-01T13:14:08.7585151+01:00",
-  "UpdatedDate": "2023-10-23T13:14:08.7585151+02:00",
-  "UpdatedBy": "nesciunt",
-  "CreatedBy": "ad",
-  "TableName": "Koss-Moen"
+  "Key": "sed",
+  "Value": "illo",
+  "RecordId": 185,
+  "CreatedDate": "2017-01-22T16:32:47.5558268+01:00",
+  "UpdatedDate": "2013-08-21T16:32:47.5558268+02:00",
+  "UpdatedBy": "minima",
+  "CreatedBy": "qui",
+  "TableName": "Grady, Bernier and Dooley"
 }
 ```
 
@@ -105,20 +105,20 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "Key": "aut",
-  "Value": "adipisci",
-  "RecordId": 763,
-  "CreatedDate": "2019-10-13T13:14:08.7585151+02:00",
-  "UpdatedDate": "2015-08-08T13:14:08.7585151+02:00",
-  "UpdatedBy": "et",
-  "CreatedBy": "amet",
-  "TableName": "Kertzmann Group",
+  "Key": "qui",
+  "Value": "fugiat",
+  "RecordId": 261,
+  "CreatedDate": "1998-07-07T16:32:47.5558268+02:00",
+  "UpdatedDate": "1998-10-25T16:32:47.5558268+01:00",
+  "UpdatedBy": "molestiae",
+  "CreatedBy": "quis",
+  "TableName": "Upton LLC",
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.String",
-      "FieldLength": 871
+      "FieldType": "System.Int32",
+      "FieldLength": 712
     }
   }
 }

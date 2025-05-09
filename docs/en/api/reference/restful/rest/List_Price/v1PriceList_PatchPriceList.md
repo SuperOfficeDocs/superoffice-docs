@@ -123,12 +123,12 @@ Content-Type: application/json; charset=utf-8
 [
   {
     "op": "add",
-    "path": "non",
+    "path": "et",
     "value": {}
   },
   {
     "op": "add",
-    "path": "non",
+    "path": "et",
     "value": {}
   }
 ]
@@ -141,22 +141,22 @@ HTTP/1.1 200 PriceList  updated.
 Content-Type: application/json; charset=utf-8
 
 {
-  "PriceListId": 336,
-  "ERPPriceListKey": "laudantium",
-  "QuoteConnectionId": 944,
-  "Name": "Fahey, Batz and Luettgen",
-  "Description": "Progressive intangible moderator",
-  "Currency": "et",
-  "CurrencyName": "Lebsack, Buckridge and Hackett",
-  "ValidFrom": "2011-03-23T13:14:09.8691543+01:00",
-  "ValidTo": "2013-07-10T13:14:09.8691543+02:00",
+  "PriceListId": 919,
+  "ERPPriceListKey": "consectetur",
+  "QuoteConnectionId": 565,
+  "Name": "Stoltenberg, Turcotte and Harvey",
+  "Description": "Stand-alone zero tolerance matrix",
+  "Currency": "non",
+  "CurrencyName": "Grimes, Wiza and Lesch",
+  "ValidFrom": "2010-06-12T16:32:48.7745027+02:00",
+  "ValidTo": "2006-07-09T16:32:48.7745027+02:00",
   "IsActive": false,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 229
+      "FieldType": "System.String",
+      "FieldLength": 325
     }
   },
   "_Links": {

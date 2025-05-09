@@ -26,8 +26,8 @@ Get the MDO list items for "ProductFamily" - with headings and filtering by user
 | query | string |  Search terms (implies flat=true) |
 
 ```http
-GET /api/v1/List/ProductFamily/MDOItems?flat=True
-GET /api/v1/List/ProductFamily/MDOItems?query=qui
+GET /api/v1/List/ProductFamily/MDOItems?flat=False
+GET /api/v1/List/ProductFamily/MDOItems?query=veritatis
 ```
 
 
@@ -78,7 +78,7 @@ OK
 GET /api/v1/List/ProductFamily/MDOItems
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: en
+Accept-Language: sv
 ```
 
 ## Sample response
@@ -89,50 +89,50 @@ Content-Type: application/json; charset=utf-8
 
 [
   {
-    "Id": 558,
-    "Name": "McGlynn Group",
-    "ToolTip": "Odio voluptatem nesciunt.",
+    "Id": 500,
+    "Name": "Ondricka-Bartoletti",
+    "ToolTip": "Enim nesciunt ex maiores odit sed.",
     "Deleted": false,
-    "Rank": 820,
-    "Type": "repellendus",
+    "Rank": 210,
+    "Type": "eligendi",
     "ChildItems": [
       {
-        "Id": 155,
-        "Name": "Armstrong, McGlynn and Haley",
-        "ToolTip": "Nisi unde quia.",
+        "Id": 71,
+        "Name": "Kulas-Senger",
+        "ToolTip": "Aut cumque laborum.",
         "Deleted": true,
-        "Rank": 586,
-        "Type": "sed",
+        "Rank": 203,
+        "Type": "incidunt",
         "ChildItems": [
           {},
           {}
         ],
-        "IconHint": "veritatis",
-        "ColorBlock": 47,
-        "ExtraInfo": "illum",
-        "StyleHint": "omnis",
-        "FullName": "Mr. Hermina Alexandro Hilll MD",
+        "IconHint": "mollitia",
+        "ColorBlock": 893,
+        "ExtraInfo": "velit",
+        "StyleHint": "voluptate",
+        "FullName": "Keara Ondricka",
         "TableRight": null,
         "FieldProperties": {
           "fieldName": {
             "FieldRight": null,
-            "FieldType": "System.Int32",
-            "FieldLength": 379
+            "FieldType": "System.String",
+            "FieldLength": 44
           }
         }
       }
     ],
-    "IconHint": "omnis",
-    "ColorBlock": 51,
-    "ExtraInfo": "soluta",
-    "StyleHint": "eum",
-    "FullName": "Ms. Glenda Lynch",
+    "IconHint": "qui",
+    "ColorBlock": 307,
+    "ExtraInfo": "quae",
+    "StyleHint": "magni",
+    "FullName": "Zoe Enrico Blick Jr.",
     "TableRight": null,
     "FieldProperties": {
       "fieldName": {
         "FieldRight": null,
-        "FieldType": "System.Int32",
-        "FieldLength": 787
+        "FieldType": "System.String",
+        "FieldLength": 657
       }
     }
   }

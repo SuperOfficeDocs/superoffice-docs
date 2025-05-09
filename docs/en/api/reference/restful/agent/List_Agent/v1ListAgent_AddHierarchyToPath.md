@@ -84,13 +84,13 @@ OK
 POST /api/v1/Agents/List/AddHierarchyToPath
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: sv
+Accept-Language: fr,de,ru,zh
 Content-Type: application/json; charset=utf-8
 
 {
   "Domain": "Dashboards",
-  "Path": "quod",
-  "Name": "Herman Inc and Sons"
+  "Path": "fuga",
+  "Name": "Reinger-Harvey"
 }
 ```
 
@@ -101,46 +101,46 @@ HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
 
 {
-  "HierarchyId": 402,
+  "HierarchyId": 498,
   "Domain": "Dashboards",
-  "Name": "Stamm, Hamill and Wisoky",
-  "Fullname": "id",
-  "ParentId": 636,
+  "Name": "Ratke Inc and Sons",
+  "Fullname": "delectus",
+  "ParentId": 928,
   "Children": [
     {
-      "HierarchyId": 940,
+      "HierarchyId": 942,
       "Domain": "Dashboards",
-      "Name": "Koelpin LLC",
-      "Fullname": "delectus",
-      "ParentId": 142,
+      "Name": "Jacobi Group",
+      "Fullname": "aut",
+      "ParentId": 268,
       "Children": [
         {},
         {}
       ],
-      "Registered": "2016-03-04T13:14:00.6418764+01:00",
-      "RegisteredAssociateId": 247,
-      "Updated": "2004-06-14T13:14:00.6418764+02:00",
-      "UpdatedAssociateId": 609,
+      "Registered": "2024-04-02T16:32:39.3051024+02:00",
+      "RegisteredAssociateId": 429,
+      "Updated": "2005-06-23T16:32:39.3051024+02:00",
+      "UpdatedAssociateId": 849,
       "TableRight": null,
       "FieldProperties": {
         "fieldName": {
           "FieldRight": null,
-          "FieldType": "System.Int32",
-          "FieldLength": 122
+          "FieldType": "System.String",
+          "FieldLength": 933
         }
       }
     }
   ],
-  "Registered": "2001-12-15T13:14:00.6418764+01:00",
-  "RegisteredAssociateId": 107,
-  "Updated": "2000-05-13T13:14:00.6418764+02:00",
-  "UpdatedAssociateId": 268,
+  "Registered": "2019-11-27T16:32:39.3051024+01:00",
+  "RegisteredAssociateId": 413,
+  "Updated": "2007-06-17T16:32:39.3051024+02:00",
+  "UpdatedAssociateId": 320,
   "TableRight": null,
   "FieldProperties": {
     "fieldName": {
       "FieldRight": null,
-      "FieldType": "System.Int32",
-      "FieldLength": 652
+      "FieldType": "System.String",
+      "FieldLength": 968
     }
   }
 }

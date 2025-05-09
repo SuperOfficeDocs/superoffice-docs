@@ -68,15 +68,15 @@ No Content
 POST /api/v1/Agents/Find/SaveRestrictionsWithContext2
 Authorization: Basic dGplMDpUamUw
 Accept: application/json; charset=utf-8
-Accept-Language: *
+Accept-Language: sv
 Content-Type: application/json; charset=utf-8
 
 {
-  "StorageType": "quidem",
-  "ProviderName": "Jacobi, Hirthe and Hand",
-  "StorageKey": "cupiditate",
-  "Restrictions": "et",
-  "Context": "deserunt"
+  "StorageType": "laborum",
+  "ProviderName": "Schumm, Lind and Herzog",
+  "StorageKey": "et",
+  "Restrictions": "veniam",
+  "Context": "ab"
 }
 ```
 
